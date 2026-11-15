@@ -636,7 +636,7 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
             style={{ touchAction: 'none' }}
             className="relative w-full h-[380px] sm:h-[460px] lg:h-[510px] rounded-3xl overflow-hidden border-2 border-slate-200 dark:border-slate-700 shadow-lg select-none cursor-crosshair bg-sky-200"
           >
-            <div className="hsv-lobby-world" style={{ left: `${50 - pos.x * 2.1}%` }}>
+            <div className="hsv-lobby-world" style={{ left: window.matchMedia('(max-width: 767px)').matches ? `${Math.max(-110, Math.min(0, 50 - pos.x * 2.1))}%` : '0%' }}>
             {/* 3D Isometric City Landmark Backdrop */}
             <City3DLandmark destKey={currentCity.destKey} mode="stage" className="pointer-events-none" />
 
@@ -661,7 +661,7 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
               </div>
             )}
 
-            <div className="hsv-lobby-world" style={{ left: `${50 - pos.x * 2.1}%` }}>
+            <div className="hsv-lobby-world" style={{ left: window.matchMedia('(max-width: 767px)').matches ? `${Math.max(-110, Math.min(0, 50 - pos.x * 2.1))}%` : '0%' }}>
             {/* Ground Click Ripple */}
             {clickRipple && (
               <div
