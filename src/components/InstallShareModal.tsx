@@ -25,6 +25,8 @@ interface InstallShareModalProps {
   onClose: () => void;
 }
 
+const SHARE_ORIGIN = 'https://vnptluongson.cloud';
+
 export const InstallShareModal: React.FC<InstallShareModalProps> = ({ isOpen, onClose }) => {
   const { isInstallable, isInstalled, isIOS, install } = usePWAInstall();
   const [activeTab, setActiveTab] = useState<'install' | 'share'>('install');
@@ -33,9 +35,9 @@ export const InstallShareModal: React.FC<InstallShareModalProps> = ({ isOpen, on
 
   if (!isOpen) return null;
 
-  // Base URL calculation (safe for dev preview & production shared URL)
-  const currentUrl = typeof window !== 'undefined' ? window.location.origin : 'https://hocsieuvui.vn';
-  
+  // Luôn chia sẻ link chính thức (không phải localhost / preview) để thẻ xem trước đúng với OG tags trong index.html
+  const currentUrl = SHARE_ORIGIN + '/';
+
   const getShareUrl = () => {
     switch (selectedChannel) {
       case 'zalo':
@@ -49,7 +51,8 @@ export const InstallShareModal: React.FC<InstallShareModalProps> = ({ isOpen, on
     }
   };
 
-  const shareText = `🎉 Mời bạn cùng chơi Học Siêu Vui - Nền tảng vừa học vừa chơi Toán và Khoa học tự nhiên bám sát SGK! Đấu trường tính nhanh 60s, tạo Avatar 3D cực chất và nhận 120 Xu khởi nghiệp. Tham gia ngay tại: ${getShareUrl()}`;
+  // Lời mời ngắn gọn, đúng tính năng thật; link nằm riêng một dòng để Zalo/Facebook dựng thẻ xem trước
+  const shareText = `Học Siêu Vui – vừa học vừa chơi Toán lớp 1–9 & KHTN lớp 6–9 theo SGK. Đấu trường, bản đồ thám hiểm, gom Sao leo bảng xếp hạng. Chơi miễn phí:\n${getShareUrl()}`;
 
   const handleCopyLink = (textToCopy: string, type: string) => {
     soundManager.play('click');
@@ -85,7 +88,7 @@ export const InstallShareModal: React.FC<InstallShareModalProps> = ({ isOpen, on
               <div className="flex items-center gap-2">
                 <h2 className="text-base font-black tracking-tight">Cài Đặt & Chia Sẻ Ứng Dụng</h2>
                 <span className="bg-white/20 text-white text-[10px] font-bold px-2 py-0.5 rounded-full">
-                  PWA Web App
+                  Ứng dụng web
                 </span>
               </div>
               <p className="text-xs text-blue-100">
@@ -359,17 +362,17 @@ export const InstallShareModal: React.FC<InstallShareModalProps> = ({ isOpen, on
 
                   <div className="rounded-xl border border-slate-200 dark:border-slate-700 overflow-hidden shadow-xs bg-slate-50 dark:bg-slate-900">
                     <img 
-                      src={APP_LOGO_SRC} 
-                      alt="Preview Card" 
-                      className="w-full h-28 object-cover"
+                      src={`${import.meta.env.BASE_URL}og-share.jpg`}
+                      alt="Thẻ xem trước Học Siêu Vui"
+                      className="w-full aspect-[1200/630] object-cover"
                     />
                     <div className="p-2.5 space-y-1">
-                      <div className="text-[10px] text-blue-600 font-bold uppercase">HOCSIEUVUI.VN</div>
+                      <div className="text-[10px] text-blue-600 font-bold uppercase">VNPTLUONGSON.CLOUD</div>
                       <div className="text-xs font-bold text-slate-900 dark:text-white line-clamp-1">
-                        Học Siêu Vui – Vừa Học Vừa Chơi Bám Sát SGK
+                        Học Siêu Vui – Vừa học vừa chơi Toán & KHTN
                       </div>
                       <p className="text-[10px] text-slate-500 line-clamp-2">
-                        Vừa học vừa chơi, thi đấu tốc độ 60s, gom Sao đổi quà cực ngầu!
+                        Toán lớp 1–9, KHTN lớp 6–9 theo SGK. Đấu trường, bản đồ thám hiểm, gom Sao leo bảng xếp hạng. Chơi miễn phí!
                       </p>
                     </div>
                   </div>

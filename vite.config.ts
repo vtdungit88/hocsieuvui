@@ -25,7 +25,7 @@ export default defineConfig(() => {
           id: '/',
           name: 'Học Siêu Vui',
           short_name: 'Học Siêu Vui',
-          description: 'Học Siêu Vui - Nền tảng vừa học vừa chơi bám sát SGK, tích lũy điểm thưởng và leo bảng vàng!',
+          description: 'Toán lớp 1–9, KHTN lớp 6–9 theo SGK. Đấu trường, bản đồ thám hiểm, gom Sao leo bảng xếp hạng.',
           theme_color: '#2563eb',
           background_color: '#0f172a',
           display: 'standalone',
