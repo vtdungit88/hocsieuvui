@@ -367,7 +367,10 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
     if ((e.target as HTMLElement).closest('button, [data-interactive="true"]')) return;
     const rect = stageRef.current?.getBoundingClientRect();
     if (!rect) return;
-    const xPct = ((e.clientX - rect.left) / rect.width) * 100;
+    const viewportXPct = ((e.clientX - rect.left) / rect.width) * 100;
+    const xPct = window.matchMedia('(max-width: 767px)').matches
+      ? pos.x + (viewportXPct - 50) / 2.1
+      : viewportXPct;
     const yPct = ((e.clientY - rect.top) / rect.height) * 100;
     const targetX = clamp(xPct, 8, 86);
     const targetY = clamp(yPct, 54, 88);
@@ -386,7 +389,11 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
     if (!draggingRef.current) return;
     const rect = stageRef.current?.getBoundingClientRect();
     if (!rect) return;
-    moveSelfTo(((e.clientX - rect.left) / rect.width) * 100, ((e.clientY - rect.top) / rect.height) * 100);
+    const viewportXPct = ((e.clientX - rect.left) / rect.width) * 100;
+    const worldXPct = window.matchMedia('(max-width: 767px)').matches
+      ? pos.x + (viewportXPct - 50) / 2.1
+      : viewportXPct;
+    moveSelfTo(worldXPct, ((e.clientY - rect.top) / rect.height) * 100);
   };
   const handleStagePointerEnd = () => { draggingRef.current = false; };
 
@@ -629,6 +636,7 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
             style={{ touchAction: 'none' }}
             className="relative w-full h-[380px] sm:h-[460px] lg:h-[510px] rounded-3xl overflow-hidden border-2 border-slate-200 dark:border-slate-700 shadow-lg select-none cursor-crosshair bg-sky-200"
           >
+            <div className="hsv-lobby-world" style={{ left: `${50 - pos.x * 2.1}%` }}>
             {/* 3D Isometric City Landmark Backdrop */}
             <City3DLandmark destKey={currentCity.destKey} mode="stage" className="pointer-events-none" />
 
@@ -637,6 +645,8 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
               aria-hidden
               className="pointer-events-none absolute inset-x-0 top-[52%] bottom-0 bg-gradient-to-b from-transparent via-black/5 to-black/20"
             />
+
+            </div>
 
             {/* Top-left Fun Fact Badge */}
             <div className="pointer-events-none absolute top-3 left-3 max-w-[75%] sm:max-w-md px-3 py-1.5 rounded-2xl bg-slate-950/70 backdrop-blur-xs text-white text-[11px] font-semibold shadow-sm flex items-center gap-1.5">
@@ -651,6 +661,7 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
               </div>
             )}
 
+            <div className="hsv-lobby-world" style={{ left: `${50 - pos.x * 2.1}%` }}>
             {/* Ground Click Ripple */}
             {clickRipple && (
               <div
@@ -764,6 +775,8 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
                 </div>
               );
             })}
+
+            </div>
 
             {/* Touch / On-screen Compact D-Pad for Mobile & Quick Stepping */}
             <div
