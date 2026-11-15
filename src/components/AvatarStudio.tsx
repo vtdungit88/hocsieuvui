@@ -905,7 +905,7 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                   Chưa có vật phẩm nào ở bộ lọc này. Hãy chọn "Tất cả" để xem toàn bộ danh mục.
                 </div>
               ) : (
-                <div className="hsv-studio-items grid grid-cols-2 md:grid-cols-2 gap-3.5">
+                <div className="hsv-studio-items grid gap-3.5">
                   {currentCategoryItems.map((item) => {
                     const isUnlocked = student.unlockedItems.includes(item.id);
                     const equippedKey = `${item.category}Id` as keyof AvatarConfig;
@@ -961,7 +961,7 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                         </div>
 
                         {/* Bottom row: Pricing & Actions */}
-                        <div className="pt-3 mt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between gap-2">
+                        <div className="pt-3 mt-3 border-t border-slate-100 dark:border-slate-800 flex flex-wrap items-center justify-between gap-2">
                           <div className="tabular-nums">
                             {isUnlocked ? (
                               <span className="text-xs font-semibold text-emerald-600 dark:text-emerald-400 flex items-center gap-1">
@@ -985,7 +985,7 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                             )}
                           </div>
 
-                          <div className="flex items-center gap-1.5 shrink-0">
+                          <div className="flex flex-wrap items-center gap-1.5">
                             {!isEquipped && !isUnlocked && (
                               <button
                                 onClick={() => {

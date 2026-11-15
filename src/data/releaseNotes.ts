@@ -15,6 +15,16 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.1',
+    date: '2026-11-15',
+    title: 'Vuốt để di chuyển, giao diện rõ hơn',
+    items: [
+      'Sảnh Online: chạm hoặc vuốt ngón tay trên sân để nhân vật đi theo, không cần bấm mũi tên.',
+      'Thanh thông báo chạy chữ to, dễ đọc hơn trên máy tính và máy tính bảng.',
+      'Studio: danh sách vật phẩm hiển thị đầy đủ, không bị co hẹp.'
+    ]
+  },
+  {
     version: '0.2.0',
     date: '2026-11-15',
     title: 'Nhắn tin riêng & tự cập nhật',

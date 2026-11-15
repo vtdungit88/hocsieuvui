@@ -30,7 +30,7 @@ img, svg, video, canvas { max-width: 100%; }
 .hsv-studio-stage { min-height: 21rem; }
 .hsv-studio-categories { display: flex; flex-wrap: nowrap; overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: thin; }
 .hsv-studio-categories button { flex: 0 0 auto; }
-.hsv-studio-items { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.hsv-studio-items { grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr)); }
 .hsv-subject-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .hsv-question-card { min-width: 0; }
 .hsv-arena-page { width: min(100%, 64rem); padding-inline: var(--hsv-page-gutter); }
@@ -57,7 +57,6 @@ img, svg, video, canvas { max-width: 100%; }
   .hsv-home-hero-title { font-size: clamp(1.55rem, 7vw, 2.25rem); }
 }
 @media (max-width: 380px) {
-  .hsv-studio-items { grid-template-columns: minmax(0, 1fr); }
   .hsv-subject-grid { grid-template-columns: minmax(0, 1fr); }
   .hsv-mobile-nav button { font-size: 10px; }
 }
@@ -130,16 +129,17 @@ h1, h2, h3, h4, .font-display {
 
 @keyframes marquee {
   0% {
-    transform: translateX(20%);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-40%);
+    transform: translateX(-100%);
   }
 }
 
 .animate-marquee {
   display: inline-block;
-  animation: marquee 28s linear infinite alternate;
+  padding-left: 100%;
+  animation: marquee 38s linear infinite;
 }
 
 .animate-marquee:hover {
@@ -395,5 +395,7 @@ h1, h2, h3, h4, .font-display {
   .studio-unbox-rays,
   .animate-marquee {
     animation: none !important;
+    padding-left: 0 !important;
+    white-space: normal;
   }
 }

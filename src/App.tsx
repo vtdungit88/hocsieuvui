@@ -41,6 +41,7 @@ import { SocialLobbyView } from './components/SocialLobbyView';
 import { LevelProgressionView } from './components/LevelProgressionView';
 import { VietnamTravelModal } from './components/VietnamTravelModal';
 import { APP_LOGO_SRC } from './data/versionHistory';
+import { RELEASE_NOTES } from './data/releaseNotes';
 import { GradeLevel, SchoolLevel } from './types';
 import { ShieldCheck, Bell, X } from 'lucide-react';
 
@@ -254,21 +255,21 @@ export default function App() {
 
       {/* Gentle 1-Line Running Announcement Ribbon with Mascot Logo & Version */}
       {showTicker && (
-        <div className="bg-gradient-to-r from-amber-500 via-orange-500 to-rose-500 text-slate-950 text-xs font-bold py-1.5 px-4 shadow-sm flex items-center justify-between gap-3 overflow-hidden select-none">
+        <div className="bg-gradient-to-r from-amber-500 via-orange-500 to-rose-500 text-slate-950 text-sm md:text-base font-bold py-2.5 px-3 sm:px-5 shadow-sm min-h-11 flex items-center justify-between gap-3 overflow-hidden select-none">
           <div className="flex items-center gap-2 overflow-hidden shrink-0">
             <img
               src={APP_LOGO_SRC}
               alt="Logo"
-              className="w-5 h-5 rounded-md object-cover border border-black/20 shrink-0"
+              className="w-8 h-8 rounded-lg object-cover border border-black/20 shrink-0"
             />
-            <span className="bg-black/20 text-white px-2 py-0.5 rounded-md text-[10px] uppercase font-black tracking-wider flex items-center gap-1">
+            <span className="bg-black/20 text-white px-2.5 py-1 rounded-lg text-xs md:text-sm uppercase font-black tracking-wider hidden sm:flex flex items-center gap-1">
               <span>Học Siêu Vui</span>
             </span>
           </div>
-          <div className="flex-1 overflow-hidden whitespace-nowrap text-[11px] sm:text-xs">
+          <div className="flex-1 overflow-hidden whitespace-nowrap text-sm md:text-base min-w-0">
             <div className="inline-block animate-marquee hover:pause">
-              🎉 <strong>Mới: Cấp Độ & Sảnh Online Du Hành Xuyên Việt!</strong> Làm bài lên Cấp nhận thưởng Xu • Vào Sảnh giao lưu & đi Hồ Gươm, Hạ Long, Đà Nẵng, Đà Lạt, TP.HCM, Phú Quốc!
-            </div>
+              🎉 <strong>Mới {RELEASE_NOTES[0].version}: {RELEASE_NOTES[0].title}.</strong> {RELEASE_NOTES[0].items.join(' • ')}
+              </div>
           </div>
           <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
             <button
@@ -276,7 +277,7 @@ export default function App() {
                 soundManager.play('click');
                 setCurrentView('lobby');
               }}
-              className="px-2 py-0.5 bg-black/30 hover:bg-black/40 text-amber-200 hover:text-white rounded-md text-[11px] font-bold transition-colors cursor-pointer flex items-center gap-1"
+              className="px-3 py-1.5 bg-black/30 hover:bg-black/40 text-amber-200 hover:text-white rounded-lg text-xs md:text-sm font-bold transition-colors cursor-pointer flex items-center gap-1"
             >
               <span>✈️ Sảnh & Du Hành</span>
             </button>
@@ -285,16 +286,16 @@ export default function App() {
                 soundManager.play('click');
                 setIsUpdateNoticeOpen(true);
               }}
-              className="px-2 py-0.5 bg-black/20 hover:bg-black/30 text-white rounded-md text-[11px] font-semibold transition-colors cursor-pointer hidden sm:inline"
+              className="px-3 py-1.5 bg-black/20 hover:bg-black/30 text-white rounded-lg text-xs md:text-sm font-semibold transition-colors cursor-pointer hidden sm:inline"
             >
               Tính năng mới
             </button>
             <button
               onClick={() => setShowTicker(false)}
-              className="text-black/60 hover:text-black p-0.5 cursor-pointer"
+              className="text-black/70 hover:text-black p-1.5 cursor-pointer"
               title="Đóng thanh thông báo"
             >
-              <X className="w-3.5 h-3.5" />
+              <X className="w-5 h-5" />
             </button>
           </div>
         </div>

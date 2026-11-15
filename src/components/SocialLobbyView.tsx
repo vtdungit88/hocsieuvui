@@ -375,6 +375,21 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
     moveSelfTo(targetX, targetY);
   };
 
+  // Vuốt cảm ứng: kéo ngón tay trên sân là nhân vật đi theo, không cần bấm mũi tên
+  const draggingRef = useRef(false);
+  const handleStagePointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (e.pointerType === 'mouse') return;
+    if ((e.target as HTMLElement).closest('button, [data-interactive="true"]')) return;
+    draggingRef.current = true;
+  };
+  const handleStagePointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (!draggingRef.current) return;
+    const rect = stageRef.current?.getBoundingClientRect();
+    if (!rect) return;
+    moveSelfTo(((e.clientX - rect.left) / rect.width) * 100, ((e.clientY - rect.top) / rect.height) * 100);
+  };
+  const handleStagePointerEnd = () => { draggingRef.current = false; };
+
   const handleSendMessage = async (kind: 'quick' | 'text' | 'emote', body: string, symbol?: string) => {
     setChatError('');
     if (student.isGuest || !isSupabaseConfigured) {
@@ -607,6 +622,11 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
           <div
             ref={stageRef}
             onClick={handleStageClick}
+            onPointerDown={handleStagePointerDown}
+            onPointerMove={handleStagePointerMove}
+            onPointerUp={handleStagePointerEnd}
+            onPointerCancel={handleStagePointerEnd}
+            style={{ touchAction: 'none' }}
             className="relative w-full h-[380px] sm:h-[460px] lg:h-[510px] rounded-3xl overflow-hidden border-2 border-slate-200 dark:border-slate-700 shadow-lg select-none cursor-crosshair bg-sky-200"
           >
             {/* 3D Isometric City Landmark Backdrop */}
@@ -967,7 +987,7 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
             <span className="flex items-center gap-1.5">
               <Compass className="w-4 h-4 text-blue-500 shrink-0" />
               <span>
-                Mẹo: Chạm sân hoặc phím <b>WASD / Mũi tên</b> để đi dạo. Xe VIP/Thần Thoại giảm tới <b>30% giá vé Du Hành</b>!
+                Mẹo: Chạm hoặc <b>vuốt ngón tay</b> trên sân (hoặc phím <b>WASD / Mũi tên</b>) để đi dạo. Xe VIP/Thần Thoại giảm tới <b>30% giá vé Du Hành</b>!
               </span>
             </span>
             <span className="font-bold text-slate-800 dark:text-slate-100 tabular-nums">
@@ -978,7 +998,7 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
 
         {/* Dual-Mode Safe Chat Dock */}
         <div className="lg:col-span-4 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 shadow-sm flex flex-col justify-between gap-3 h-[460px] lg:h-[556px]">
-          <div className="flex items-center justify-between gap-2 pb-2 border-b border-slate-100 dark:border-slate-800">
+          <div className="flex flex-wrap items-center justify-between gap-2 pb-2 border-b border-slate-100 dark:border-slate-800">
             <div className="flex items-center gap-2">
               <MessageCircle className="w-4 h-4 text-blue-600" />
               <h2 className="text-sm font-black text-slate-900 dark:text-white">
