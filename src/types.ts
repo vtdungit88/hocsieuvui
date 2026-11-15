@@ -115,7 +115,7 @@ export interface MathQuestion {
   questionText: string;
   contextHint?: string;
   difficulty?: 'easy' | 'medium' | 'hard';
-  visualType?: 'set' | 'power' | 'divisibility' | 'integers' | 'geometry' | 'none';
+  visualType?: 'set' | 'power' | 'divisibility' | 'integers' | 'geometry' | 'figure' | 'none';
   visualData?: any;
   options: {
     id: string;

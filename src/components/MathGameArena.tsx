@@ -33,6 +33,7 @@ import {
 } from 'lucide-react';
 import { CoinIcon, StarIcon } from './GameIcons';
 import { MathText } from './MathText';
+import { QuestionFigure } from './QuestionFigure';
 
 interface MathGameArenaProps {
   student: StudentProfile;
@@ -437,11 +438,8 @@ export const MathGameArena: React.FC<MathGameArenaProps> = ({
                     2³ · 2⁴ = (2 · 2 · 2) · (2 · 2 · 2 · 2) = 2³⁺⁴ = 2⁷
                   </div>
                 )}
-                {activeQuestions[currentQuestionIndex]?.visualType === 'geometry' && (
-                  <div className="mt-3 p-3 bg-white dark:bg-slate-900 rounded-xl border border-emerald-200 dark:border-emerald-900/50 flex items-center justify-center text-emerald-600 dark:text-emerald-400 font-semibold text-xs gap-3">
-                    <span>🔺 Tam giác đều: 3 cạnh a = 6 cm</span>
-                    <span>• Chu vi P = a + a + a = 3 · a</span>
-                  </div>
+                {activeQuestions[currentQuestionIndex]?.visualType === 'figure' && (
+                  <QuestionFigure data={activeQuestions[currentQuestionIndex]?.visualData} />
                 )}
               </div>
 
