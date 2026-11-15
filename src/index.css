@@ -56,6 +56,22 @@ img, svg, video, canvas { max-width: 100%; }
   .hsv-home-hero-inner { padding: 1rem; gap: 1rem; }
   .hsv-home-hero-title { font-size: clamp(1.55rem, 7vw, 2.25rem); }
 }
+/* Mobile Social Lobby: panoramic world with a camera that follows the local avatar. */
+.hsv-lobby-world {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 767px) {
+  .hsv-lobby-world {
+    width: 210%;
+    transition: left 180ms linear;
+    will-change: left;
+  }
+}
+
 @media (max-width: 380px) {
   .hsv-subject-grid { grid-template-columns: minmax(0, 1fr); }
   .hsv-mobile-nav button { font-size: 10px; }
