@@ -52,7 +52,7 @@ export const RANK_TIERS: RankTier[] = [
   {
     minLevel: 20,
     maxLevel: 29,
-    title: 'Kỹ Sư VNPT Cloud',
+    title: 'Nhà Sáng Chế Tương Lai',
     badgeColor: '#ec4899',
     ringClass: 'bg-pink-500/15 text-pink-700 dark:text-pink-300 border-pink-400/50'
   },
@@ -81,7 +81,7 @@ export const LEVEL_MILESTONES: LevelMilestone[] = [
   { level: 10, rewardCoins: 40, badgeTitle: 'Học Giả Thăng Long', unlockHint: 'Mở đường đi Đà Lạt' },
   { level: 12, rewardCoins: 48, badgeTitle: 'Du Hành Gia Phương Nam', unlockHint: 'Mở đường đi TP. Hồ Chí Minh' },
   { level: 15, rewardCoins: 60, badgeTitle: 'Thủ Lĩnh Đảo Ngọc', unlockHint: 'Mở đường đi Đảo Ngọc Phú Quốc' },
-  { level: 18, rewardCoins: 75, badgeTitle: 'Kỹ Sư VNPT Cloud' },
+  { level: 18, rewardCoins: 75, badgeTitle: 'Ngôi Sao Tri Thức' },
   { level: 20, rewardCoins: 90, badgeTitle: 'Trạng Nguyên Xuyên Việt' },
   { level: 25, rewardCoins: 120, badgeTitle: 'Bậc Thầy Tri Thức' },
   { level: 30, rewardCoins: 150, badgeTitle: 'Huyền Thoại Học Siêu Vui' }

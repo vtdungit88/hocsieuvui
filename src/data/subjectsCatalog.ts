@@ -44,7 +44,7 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
     name: 'Khoa Học Tự Nhiên',
     iconName: 'Atom',
     color: 'from-emerald-500 to-teal-600',
-    description: 'Tích hợp Vật lí, Hóa học & Sinh học theo chương trình GDPT 2018 THCS.',
+    description: 'Tích hợp Vật lí, Hóa học & Sinh học dành cho học sinh THCS.',
     status: 'active',
     tagline: 'Lớp 6 → 9 · 45 chương · 675 câu',
     schoolLevels: ['secondary'],
@@ -75,7 +75,7 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
     levelMeta: {
       primary: {
         tagline: 'Lớp 1 → 5 · Tập 1 & 2',
-        description: 'Đọc hiểu, từ vựng, câu văn và chính tả theo bộ SGK NXB Giáo Dục.',
+        description: 'Đọc hiểu, từ vựng, câu văn và chính tả dành cho học sinh Tiểu học.',
         gradeRangeLabel: 'Lớp 1 – 5'
       }
     },
@@ -316,14 +316,14 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
     name: 'Giáo Dục Lối Sống',
     iconName: 'Sun',
     color: 'from-amber-400 to-yellow-600',
-    description: 'Rèn thói quen sinh hoạt văn minh, an toàn giao thông và ứng xử đẹp (NXBGD Lớp 1–5).',
+    description: 'Rèn thói quen sinh hoạt văn minh, an toàn giao thông và ứng xử đẹp (Lớp 1–5).',
     status: 'coming_soon',
     tagline: 'Lớp 1 → 5 · Sắp mở',
     schoolLevels: ['primary'],
     levelMeta: {
       primary: {
         tagline: 'Lớp 1 → 5 · Sắp mở',
-        description: 'Kĩ năng tự phục vụ, an toàn và nếp sống văn minh hàng ngày (chuẩn NXBGD).',
+        description: 'Kĩ năng tự phục vụ, an toàn và nếp sống văn minh hàng ngày.',
         gradeRangeLabel: 'Lớp 1 – 5'
       }
     },
