@@ -368,8 +368,9 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
     const rect = stageRef.current?.getBoundingClientRect();
     if (!rect) return;
     const viewportXPct = ((e.clientX - rect.left) / rect.width) * 100;
+    const cameraLeft = Math.max(-110, Math.min(0, 50 - pos.x * 2.1));
     const xPct = window.matchMedia('(max-width: 767px)').matches
-      ? pos.x + (viewportXPct - 50) / 2.1
+      ? (viewportXPct - cameraLeft) / 2.1
       : viewportXPct;
     const yPct = ((e.clientY - rect.top) / rect.height) * 100;
     const targetX = clamp(xPct, 8, 86);
@@ -390,8 +391,9 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
     const rect = stageRef.current?.getBoundingClientRect();
     if (!rect) return;
     const viewportXPct = ((e.clientX - rect.left) / rect.width) * 100;
+    const cameraLeft = Math.max(-110, Math.min(0, 50 - pos.x * 2.1));
     const worldXPct = window.matchMedia('(max-width: 767px)').matches
-      ? pos.x + (viewportXPct - 50) / 2.1
+      ? (viewportXPct - cameraLeft) / 2.1
       : viewportXPct;
     moveSelfTo(worldXPct, ((e.clientY - rect.top) / rect.height) * 100);
   };
