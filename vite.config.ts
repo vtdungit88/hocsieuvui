@@ -4,16 +4,30 @@ import path from 'path';
 import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
 
+// Mã bản dựng: đổi mỗi lần build/deploy. Ghi vào version.json để máy người dùng so sánh và tự cập nhật.
+const BUILD_ID = (process.env.GITHUB_SHA || 'dev').slice(0, 7) + '-' + Date.now().toString(36);
+
 export default defineConfig(() => {
   // Subpath hosting (e.g. GitHub Pages project site) sets VITE_BASE=/repo-name/
   const base = process.env.VITE_BASE || '/';
   return {
     base,
+    define: { __BUILD_ID__: JSON.stringify(BUILD_ID) },
     plugins: [
       react(),
+      {
+        name: 'hsv-version-json',
+        generateBundle() {
+          this.emitFile({
+            type: 'asset',
+            fileName: 'version.json',
+            source: JSON.stringify({ build: BUILD_ID, builtAt: new Date().toISOString() })
+          });
+        }
+      },
       tailwindcss(),
       VitePWA({
-        registerType: 'autoUpdate',
+        registerType: 'prompt',
         includeAssets: [
           'favicon.png',
           'apple-touch-icon.png',
@@ -55,6 +69,8 @@ export default defineConfig(() => {
           ]
         },
         workbox: {
+          clientsClaim: true,
+          cleanupOutdatedCaches: true,
           globPatterns: ['**/*.{js,css,html,ico,png,svg,woff,woff2}'],
           maximumFileSizeToCacheInBytes: 5 * 1024 * 1024 // Allow up to 5 MiB for high-res 3D Mascot images
         },

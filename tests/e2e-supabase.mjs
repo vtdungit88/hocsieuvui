@@ -195,6 +195,25 @@ if (signedUp) {
     assert((await anon.rpc('room_create', { p_grade: 6 })).error, 'anon created room');
     await a.rpc('room_end', { p_room: r.data.room_id });
   });
+  await check('direct messages: send, unread, read receipt, blocked/anon/self rejected, no direct table access', async () => {
+    const ua = (await a.auth.getUser()).data.user.id, ub = (await b.auth.getUser()).data.user.id;
+    const m = await a.rpc('send_direct_message', { p_to: ub, p_body: 'Chào bạn CI' });
+    assert(!m.error && m.data.body === 'Chào bạn CI', m.error?.message);
+    assert((await a.rpc('send_direct_message', { p_to: ua, p_body: 'tự nhắn' })).error, 'self DM accepted');
+    assert((await anon.rpc('send_direct_message', { p_to: ub, p_body: 'x' })).error, 'anon sent DM');
+    assert((await anon.rpc('dm_inbox')).error, 'anon read inbox');
+    assert((await b.rpc('dm_unread_count')).data >= 1, 'no unread for recipient');
+    const inbox = await b.rpc('dm_inbox');
+    assert(!inbox.error && inbox.data.some((r) => r.peer_id === ua && r.unread >= 1), 'inbox missing thread');
+    const f = await b.rpc('dm_fetch', { p_peer: ua });
+    assert(!f.error && f.data.length >= 1, f.error?.message);
+    assert((await b.rpc('dm_unread_count')).data === 0, 'unread not cleared');
+    const direct = await b.from('dm_messages').select('id');
+    assert(direct.error || direct.data.length === 0, 'direct table read leaked messages');
+    assert(!(await b.rpc('dm_block', { p_peer: ua, p_block: true })).error);
+    assert((await a.rpc('send_direct_message', { p_to: ub, p_body: 'sau chặn' })).error, 'DM after block accepted');
+    await b.rpc('dm_block', { p_peer: ua, p_block: false });
+  });
   await check('arena duel: start returns bot plan, instant submit rejected, anon blocked, Elo board public', async () => {
     const d = await a.rpc('arena_start_duel', { p_grade: 6 });
     assert(!d.error && d.data.plan.length === 10 && d.data.elo === 1000, d.error?.message);

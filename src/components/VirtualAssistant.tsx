@@ -27,7 +27,7 @@ const GUIDE_ITEMS: { title: string; desc: string; cta: string; view: NavView; Ic
   { title: 'Bản Đồ Ải', desc: 'Mỗi chương là một hòn đảo. Đạt 1–3 sao để mở ải sau, đánh bại Trùm Cuối.', cta: 'Mở bản đồ', view: 'map', Icon: Map, tone: 'bg-emerald-100 text-emerald-600' },
   { title: 'Đấu Trường', desc: 'Siêu Tốc 60 giây, Thách Đấu 1v1 với Vui-Bot để lên hạng Elo, hoặc Phòng Lớp Học bằng mã PIN.', cta: 'Vào đấu trường', view: 'blitz', Icon: Zap, tone: 'bg-orange-100 text-orange-600' },
   { title: 'Studio của tôi', desc: 'Đổi tóc, trang phục, hậu cảnh cho nhân vật và mở rương. Đồ lưu trên tài khoản.', cta: 'Tới Studio', view: 'shop', Icon: Shirt, tone: 'bg-amber-100 text-amber-600' },
-  { title: 'Sảnh Online & Du hành', desc: 'Gặp bạn bè trực tuyến, xem cấp độ và du hành khắp Việt Nam.', cta: 'Vào sảnh', view: 'lobby', Icon: Compass, tone: 'bg-teal-100 text-teal-600' },
+  { title: 'Sảnh Online & Nhắn riêng', desc: 'Gặp bạn bè trực tuyến, nhắn tin riêng (Hộp thư), xem cấp độ và du hành khắp Việt Nam.', cta: 'Vào sảnh', view: 'lobby', Icon: Compass, tone: 'bg-teal-100 text-teal-600' },
   { title: 'Bảng Xếp Hạng', desc: 'Xem Top học sinh nhiều sao và xu nhất.', cta: 'Xem bảng vàng', view: 'leaderboard', Icon: Trophy, tone: 'bg-yellow-100 text-yellow-600' }
 ];
 
@@ -238,7 +238,7 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
                   <div className="space-y-2.5" aria-live="polite">
                     {chat.map((m, i) => (
                       <div key={i} className={`flex ${m.from === 'me' ? 'justify-end' : 'justify-start'}`}>
-                        <div className={`max-w-[85%] rounded-2xl px-3 py-2 text-sm leading-relaxed ${m.from === 'me' ? 'bg-blue-600 text-white rounded-br-sm' : 'bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-100 rounded-bl-sm'}`}>
+                        <div className={`max-w-[85%] rounded-2xl px-3 py-2 text-sm leading-relaxed whitespace-pre-line ${m.from === 'me' ? 'bg-blue-600 text-white rounded-br-sm' : 'bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-100 rounded-bl-sm'}`}>
                           {m.text}
                           {m.actions && (
                             <div className="flex flex-wrap gap-1.5 mt-2">

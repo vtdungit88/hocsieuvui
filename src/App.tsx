@@ -34,6 +34,7 @@ import { SubjectIcon } from './components/home/subjectIcons';
 import { SUBJECTS_CATALOG } from './data/subjectsCatalog';
 import type { SubjectMeta } from './types';
 import { VirtualAssistant } from './components/VirtualAssistant';
+import { UpdateBanner } from './components/UpdateBanner';
 import { MascotReaction } from './components/MascotReaction';
 import { AppBackdrop } from './components/AppBackdrop';
 import { SocialLobbyView } from './components/SocialLobbyView';
@@ -738,6 +739,7 @@ export default function App() {
       {legalPage && <LegalCenter page={legalPage} onClose={() => setLegalPage(null)} onNavigate={setLegalPage} />}
 
       <MascotReaction />
+      <UpdateBanner />
 
       {/* Trợ Lý Ảo Học Siêu Vui & Hộp Thư Góp Ý */}
       <VirtualAssistant

@@ -12,12 +12,14 @@ import {
   fetchLobbyMessages,
   reportLobbyMessage,
   sendLobbyMessage,
+  dmUnreadCount,
   type HubState,
   type LobbyMessage
 } from '../lib/api';
 import { supabase, isSupabaseConfigured } from '../lib/supabase';
 import { getVisitorId } from '../lib/presence';
 import { soundManager } from '../utils/audio';
+import { DirectMessages, type DmPeer } from './DirectMessages';
 import { AvatarRenderer } from './AvatarRenderer';
 import { City3DLandmark } from './City3DLandmark';
 import { CoinIcon } from './GameIcons';
@@ -127,6 +129,18 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
   // Interactive overlays
   const [selectedPeer, setSelectedPeer] = useState<PeerPresence | null>(null);
   const [isTriviaOpen, setIsTriviaOpen] = useState(false);
+  const [dmOpen, setDmOpen] = useState(false);
+  const [dmPeer, setDmPeer] = useState<DmPeer | null>(null);
+  const [dmUnread, setDmUnread] = useState(0);
+  const canDm = !student.isGuest && isSupabaseConfigured;
+  useEffect(() => {
+    if (!canDm) return;
+    let alive = true;
+    const poll = () => { if (document.visibilityState === 'visible' && !dmOpen) void dmUnreadCount().then((n) => alive && setDmUnread(n)).catch(() => undefined); };
+    poll();
+    const t = window.setInterval(poll, 20000);
+    return () => { alive = false; window.clearInterval(t); };
+  }, [canDm, dmOpen]);
   const [triviaPicked, setTriviaPicked] = useState<number | null>(null);
   const [triviaStatus, setTriviaStatus] = useState<'idle' | 'correct' | 'wrong'>('idle');
   const [triviaBusy, setTriviaBusy] = useState(false);
@@ -842,6 +856,21 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
                   </button>
                 </div>
 
+                {!selectedPeer.id.startsWith('guest:') && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      soundManager.play('click');
+                      if (!canDm) { onRequireLogin(); return; }
+                      setDmPeer({ id: selectedPeer.id, alias: selectedPeer.alias });
+                      setDmOpen(true);
+                    }}
+                    className="w-full py-2 px-3 rounded-xl bg-blue-100 dark:bg-blue-950/50 hover:bg-blue-200 text-blue-800 dark:text-blue-200 text-xs font-black flex items-center justify-center gap-1.5 cursor-pointer"
+                  >
+                    <MessageCircle className="w-3.5 h-3.5" /> Nhắn riêng
+                  </button>
+                )}
+
                 <button
                   type="button"
                   onClick={() => {
@@ -959,6 +988,11 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
             <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-950/50 text-emerald-700 dark:text-emerald-300 text-[10px] font-bold border border-emerald-200 dark:border-emerald-800">
               <ShieldCheck className="w-3 h-3" /> Lọc An Toàn
             </span>
+            <button type="button" onClick={() => { if (!canDm) { onRequireLogin(); return; } setDmPeer(null); setDmOpen(true); }}
+              className="relative inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-blue-600 hover:bg-blue-700 text-white text-[11px] font-black cursor-pointer">
+              <MessageCircle className="w-3.5 h-3.5" /> Hộp thư
+              {dmUnread > 0 && <span className="absolute -top-1.5 -right-1.5 min-w-4 h-4 px-1 rounded-full bg-rose-500 text-[10px] flex items-center justify-center">{dmUnread}</span>}
+            </button>
           </div>
 
           {/* Message Feed */}
@@ -1122,6 +1156,9 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
           </div>
         </div>
       </div>
+      {dmOpen && canDm && (
+        <DirectMessages selfId={student.id} initialPeer={dmPeer} onClose={() => { setDmOpen(false); setDmPeer(null); }} onUnreadChange={setDmUnread} />
+      )}
     </div>
   );
 };

@@ -573,3 +573,48 @@ export async function setLeaderboardVisibility(show: boolean): Promise<void> {
   const { error } = await supabase.rpc('set_leaderboard_visibility', { p_show: show });
   if (error) fail('set_leaderboard_visibility', error);
 }
+
+// ---------- Nhắn tin riêng (DM) ----------
+export interface DmInboxRow {
+  peer_id: string; peer_alias: string; peer_level: number;
+  last_preview: string; last_at: string; unread: number; blocked: boolean;
+}
+export interface DmMessage { id: string; sender_id: string; body: string; created_at: string; read_at: string | null }
+
+export async function dmInbox(): Promise<DmInboxRow[]> {
+  const { data, error } = await supabase.rpc('dm_inbox');
+  if (error) throw new Error(error.message);
+  return (data ?? []) as DmInboxRow[];
+}
+export async function dmFetch(peerId: string): Promise<DmMessage[]> {
+  const { data, error } = await supabase.rpc('dm_fetch', { p_peer: peerId });
+  if (error) throw new Error(error.message);
+  return (data ?? []) as DmMessage[];
+}
+export async function dmSend(peerId: string, body: string): Promise<DmMessage> {
+  const { data, error } = await supabase.rpc('send_direct_message', { p_to: peerId, p_body: body });
+  if (error) throw new Error(error.message);
+  return data as DmMessage;
+}
+export async function dmUnreadCount(): Promise<number> {
+  const { data, error } = await supabase.rpc('dm_unread_count');
+  if (error) throw new Error(error.message);
+  return (data as number) ?? 0;
+}
+export async function dmBlock(peerId: string, block: boolean): Promise<void> {
+  const { error } = await supabase.rpc('dm_block', { p_peer: peerId, p_block: block });
+  if (error) throw new Error(error.message);
+}
+export async function dmReport(messageId: string, reason = 'Nội dung không phù hợp'): Promise<void> {
+  const { error } = await supabase.rpc('dm_report', { p_message_id: messageId, p_reason: reason });
+  if (error) throw new Error(error.message);
+}
+export async function dmGetAllowed(): Promise<boolean> {
+  const { data, error } = await supabase.rpc('dm_get_allowed');
+  if (error) throw new Error(error.message);
+  return data as boolean;
+}
+export async function dmSetAllowed(allow: boolean): Promise<void> {
+  const { error } = await supabase.rpc('dm_set_allowed', { p_allow: allow });
+  if (error) throw new Error(error.message);
+}

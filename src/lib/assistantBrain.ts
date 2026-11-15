@@ -3,6 +3,8 @@
  * It explains how Học Siêu Vui works and chats about learning; it is not a general-purpose AI
  * and does not solve specific homework problems.
  */
+import { RELEASE_NOTES } from '../data/releaseNotes';
+
 export type NavView = 'study' | 'shop' | 'blitz' | 'map' | 'leaderboard' | 'lobby';
 export interface BrainContext { name: string; isGuest: boolean; coins: number; stars: number }
 export interface BrainAnswer { text: string; actions?: { label: string; view: NavView }[] }
@@ -39,6 +41,9 @@ const FACTS = [
 interface Intent { keys: string[]; answer: (c: BrainContext) => BrainAnswer }
 
 const INTENTS: Intent[] = [
+  { keys: ['co gi moi', 'tinh nang moi', 'cap nhat', 'phien ban', 'ban moi', 'moi nhat'], answer: () => { const r = RELEASE_NOTES[0]; return { text: `✨ Bản ${r.version} (${r.date.split('-').reverse().join('/')}) – ${r.title}:\n${r.items.map((i) => '• ' + i).join('\n')}\nỨng dụng tự báo khi có bản mới, bạn chỉ cần bấm "Cập nhật", không cần tải lại bằng Ctrl+F5.` }; } },
+  { keys: ['nhan rieng', 'nhan tin', 'tin nhan', 'chat rieng', 'inbox', 'hop thu', 'chan ban', 'khong nhan tin'], answer: () => ({ text: 'Nhắn tin riêng: vào Sảnh Online, bấm vào một bạn đang online rồi chọn "Nhắn riêng", hoặc mở "Hộp thư" để xem các cuộc trò chuyện. Cần đăng nhập để nhắn riêng. Bạn có thể chặn bạn nào đó, báo cáo tin không phù hợp (tin sẽ bị ẩn ngay), hoặc tắt nhận tin nhắn riêng trong Hộp thư. Đừng chia sẻ tên thật, địa chỉ hay mật khẩu nhé!', actions: [{ label: 'Vào Sảnh Online', view: 'lobby' }] }) },
+  { keys: ['ctrl f5', 'ctrl+f5', 'tai lai trang', 'cap nhat app', 'tu cap nhat'], answer: () => ({ text: 'Khi Học Siêu Vui có bản mới, một thanh "Có bản mới" hiện ở góc màn hình. Bạn bấm "Cập nhật" là xong (ứng dụng cũng tự cập nhật êm khi bạn rời tab), không cần Ctrl+F5.' }) },
   { keys: ['xin chao', 'chao ', 'hello', ' hi ', 'alo', 'hey'], answer: (c) => ({ text: `Chào ${c.isGuest ? 'bạn nhỏ' : c.name}! Mình là Bé Siêu Vui 💡. Mình có thể chỉ cách làm bài, kiếm xu, thi đấu, mua đồ cho nhân vật… Bạn muốn hỏi gì nào?` }) },
   { keys: ['ban la ai', 'ten gi', 'ai tao ra', 'be sieu vui'], answer: () => ({ text: 'Mình là Bé Siêu Vui, trợ lý của Học Siêu Vui 💡. Mình hướng dẫn bạn dùng các tính năng và động viên bạn khi học. Mình chưa phải một AI biết trả lời mọi thứ, nhưng cứ hỏi, mình sẽ cố giúp!' }) },
   { keys: ['dang ky', 'tao tai khoan', 'biet danh', 'dang nhap', 'nickname'], answer: (c) => ({ text: c.isGuest ? 'Bấm nút tài khoản ở góc phải trên cùng, chọn "Đăng ký", nhập một biệt danh vui và mật khẩu từ 6 ký tự. Không cần email! Đừng dùng tên thật hay số điện thoại nhé.' : 'Bạn đã đăng nhập rồi đó! Kết quả được lưu trên máy chủ nên đổi máy vẫn đăng nhập lại được bằng biệt danh và mật khẩu.' }) },
@@ -72,7 +77,7 @@ const INTENTS: Intent[] = [
 
 export const QUICK_QUESTIONS = [
   'Làm sao để kiếm xu?', 'Thách đấu 1v1 là gì?', 'Phòng lớp học dùng thế nào?', 'Bản đồ ải là gì?',
-  'Sảnh online có gì?', 'Mua đồ cho nhân vật?', 'Cho mình một mẹo học', 'Đố vui đi!'
+  'Sảnh online có gì?', 'Nhắn riêng thế nào?', 'Có gì mới?', 'Mua đồ cho nhân vật?', 'Cho mình một mẹo học', 'Đố vui đi!'
 ];
 
 export function answerQuestion(question: string, ctx: BrainContext): BrainAnswer {
