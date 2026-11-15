@@ -158,7 +158,7 @@ export const CoursePicker: React.FC<Props> = ({
                 </h4>
                 <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
                   {selectedGradeMeta?.notes ? `${selectedGradeMeta.notes}. ` : ''}
-                  Môn học đã được chuẩn bị sẵn theo danh mục SGK NXB Giáo Dục và sẽ mở ngay khi bộ câu hỏi được cập nhật.
+                  Môn học đã được chuẩn bị sẵn và sẽ mở ngay khi bộ câu hỏi được cập nhật.
                 </p>
               </div>
             </div>
