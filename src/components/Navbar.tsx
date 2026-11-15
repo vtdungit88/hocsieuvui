@@ -62,7 +62,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 }) => {
   return (
     <header className="sticky top-0 z-40 bg-white/80 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 transition-colors">
-      <div className="max-w-screen-2xl mx-auto px-3 sm:px-5 h-16 flex items-center justify-between gap-2 md:gap-3 xl:gap-4">
+      <div className="max-w-screen-2xl mx-auto px-2 sm:px-5 min-h-16 flex items-center justify-between gap-1.5 sm:gap-2 md:gap-3 xl:gap-4">
         {/* Zone 1: Brand Wordmark with Mascot Logo */}
         <div
           onClick={() => {
@@ -80,7 +80,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <span className="text-sm sm:text-base xl:text-lg font-black tracking-tight text-slate-900 dark:text-white leading-none">
               Học Siêu Vui
             </span>
-            <span className="text-[10px] font-extrabold text-blue-600 dark:text-blue-400 uppercase tracking-wider mt-0.5">
+            <span className="hidden sm:block text-[10px] font-extrabold text-blue-600 dark:text-blue-400 uppercase tracking-wider mt-0.5">
               Vừa Học Vừa Chơi
             </span>
           </div>
@@ -142,7 +142,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 soundManager.play('click');
                 onOpenInstallShare();
               }}
-              className="flex items-center gap-1 py-1.5 px-2 sm:px-2.5 shrink-0 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white rounded-xl text-xs font-bold shadow-xs hover:shadow-md transition-all cursor-pointer active:scale-95"
+              className="hidden sm:flex items-center gap-1 py-1.5 px-2 sm:px-2.5 shrink-0 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white rounded-xl text-xs font-bold shadow-xs hover:shadow-md transition-all cursor-pointer active:scale-95"
               title="Cài đặt App ra màn hình hoặc chia sẻ Zalo, Facebook"
             >
               <Download className="w-3.5 h-3.5" />
@@ -213,15 +213,16 @@ export const Navbar: React.FC<NavbarProps> = ({
               soundManager.play('click');
               onOpenProfile();
             }}
-            className="flex items-center gap-2 py-1.5 px-2 sm:px-2.5 min-w-0 shrink bg-blue-50 dark:bg-blue-950/50 hover:bg-blue-100 dark:hover:bg-blue-900/40 border border-blue-200 dark:border-blue-900 rounded-xl text-slate-900 dark:text-white transition-colors cursor-pointer"
-            title="Hồ sơ & Đăng nhập"
+            className="flex items-center gap-1.5 sm:gap-2 py-1.5 px-1.5 sm:px-2.5 min-w-0 shrink-0 bg-blue-50 dark:bg-blue-950/50 hover:bg-blue-100 dark:hover:bg-blue-900/40 border border-blue-200 dark:border-blue-900 rounded-xl text-slate-900 dark:text-white transition-colors cursor-pointer"
+            title="Hồ sơ, đăng nhập và đăng ký"
+            aria-label={`Tài khoản: ${student.name}. Mở hồ sơ, đăng nhập hoặc đăng ký`}
           >
             <div className="w-7 h-7 rounded-lg overflow-hidden bg-white dark:bg-slate-800 flex items-center justify-center shrink-0 border border-blue-200 dark:border-blue-800">
               <AvatarRenderer config={student.avatarConfig} size="sm" showVehicle={false} showTech={false} showPet={false} />
             </div>
-            <div className="text-left hidden lg:block min-w-0">
-              <div className="text-xs font-bold leading-none truncate max-w-[92px] 2xl:max-w-[150px]">{student.name}</div>
-              <div className="text-[10px] text-blue-600 dark:text-blue-400 leading-none mt-0.5">
+            <div className="text-left block min-w-0 max-w-[76px] sm:max-w-[92px] 2xl:max-w-[150px]">
+              <div className="text-[11px] sm:text-xs font-bold leading-tight truncate">{student.name}</div>
+              <div className="text-[9px] sm:text-[10px] text-blue-600 dark:text-blue-400 leading-tight mt-0.5 truncate">
                 {student.isGuest ? 'Khách ghé thăm' : `Cấp ${student.level}`}
               </div>
             </div>
@@ -234,7 +235,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 soundManager.play('click');
                 onLogout();
               }}
-              className="p-2 shrink-0 text-rose-500 hover:text-rose-700 hover:bg-rose-50 dark:hover:bg-rose-950/40 rounded-xl transition-colors cursor-pointer"
+              className="p-1.5 sm:p-2 shrink-0 text-rose-500 hover:text-rose-700 hover:bg-rose-50 dark:hover:bg-rose-950/40 rounded-xl transition-colors cursor-pointer"
               title="Đăng xuất tài khoản"
               aria-label="Đăng xuất"
             >
