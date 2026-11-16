@@ -241,8 +241,10 @@ export const AdminPanelModal: React.FC<Props> = ({ isOpen, onClose, fullPage = f
           </>
         )}
 
-        <ContentReviewPanel />\n\n        {/* Lobby Chat Safety Reports */}
-        <section>
+        <section id="admin-review" className="rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 sm:p-6 shadow-sm"><ContentReviewPanel /></section>
+
+        {/* Lobby Chat Safety Reports */}
+        <section id="admin-community" className={fullPage ? "rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 sm:p-6 shadow-sm" : ""}>
           <h3 className="font-bold flex items-center gap-1.5 mb-2">
             <Flag className="w-4 h-4 text-rose-500" /> Báo cáo Trò Chuyện Sảnh ({reports.length})
           </h3>
