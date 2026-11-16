@@ -61,7 +61,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   onToggleSound
 }) => {
   return (
-    <header className="sticky top-0 z-40 bg-white/80 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 transition-colors">
+    <header className="sticky top-0 z-40 pt-[env(safe-area-inset-top)] bg-white/95 dark:bg-slate-900/95 border-b border-slate-200 dark:border-slate-800 transition-colors">
       <div className="max-w-screen-2xl mx-auto px-2 sm:px-5 min-h-16 flex items-center justify-between gap-1.5 sm:gap-2 md:gap-3 xl:gap-4">
         {/* Zone 1: Brand Wordmark with Mascot Logo */}
         <div
@@ -111,7 +111,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         </nav>
 
         {/* Zone 3: Actions, Level, Wallet, Avatar Profile */}
-        <div className="flex items-center gap-1 sm:gap-1.5 min-w-0 shrink">
+        <div className="flex items-center gap-1 sm:gap-1.5 min-w-0 shrink-0">
           {onlineCount !== undefined && (
             <div
               className="hidden 2xl:flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-200 dark:border-emerald-800/80 text-emerald-700 dark:text-emerald-300 text-xs font-semibold shadow-xs select-none shrink-0"
@@ -128,7 +128,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           {/* Sound Toggle */}
           <button
             onClick={onToggleSound}
-            className="hidden lg:inline-flex p-2 text-slate-500 hover:text-slate-800 dark:hover:text-slate-200 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer shrink-0"
+            className="hidden xl:inline-flex p-2 text-slate-500 hover:text-slate-800 dark:hover:text-slate-200 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer shrink-0"
             title={isMuted ? 'Bật âm thanh' : 'Tắt âm thanh'}
             aria-label="Toggle sound"
           >
@@ -167,7 +167,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           )}
 
           {/* Quick Wallet preview */}
-          <div className="hidden sm:flex items-center gap-1.5 shrink-0 text-xs font-mono font-bold px-2 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700">
+          <div className="hidden xl:flex items-center gap-1.5 shrink-0 text-xs font-mono font-bold px-2 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700">
             <span className="flex items-center gap-1 text-amber-600 dark:text-amber-400">
               <CoinIcon className="w-3.5 h-3.5" />
               {student.coins}
@@ -185,7 +185,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               soundManager.play('click');
               onOpenCard();
             }}
-            className="hidden lg:inline-flex p-2 text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/30 rounded-xl transition-colors cursor-pointer shrink-0"
+            className="hidden 2xl:inline-flex p-2 text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/30 rounded-xl transition-colors cursor-pointer shrink-0"
             title="Xem Thẻ Học Sinh"
             aria-label="Thẻ học sinh"
           >
@@ -244,13 +244,13 @@ const AccountMenu: React.FC<{
         onClick={() => { soundManager.play('click'); setOpen(v => !v); }}
         aria-expanded={open}
         aria-haspopup="menu"
-        className="flex items-center gap-1.5 sm:gap-2 py-1.5 px-1.5 sm:px-2.5 min-w-0 bg-blue-50 dark:bg-blue-950/50 hover:bg-blue-100 dark:hover:bg-blue-900/40 border border-blue-200 dark:border-blue-900 rounded-xl text-slate-900 dark:text-white transition-colors cursor-pointer"
+        className="flex items-center gap-1.5 sm:gap-2 py-1.5 px-1.5 sm:px-2.5 min-w-0 max-w-full bg-blue-50 dark:bg-blue-950/50 hover:bg-blue-100 dark:hover:bg-blue-900/40 border border-blue-200 dark:border-blue-900 rounded-xl text-slate-900 dark:text-white transition-colors cursor-pointer"
         title="Mở menu tài khoản"
       >
         <div className="w-7 h-7 rounded-lg overflow-hidden bg-white dark:bg-slate-800 flex items-center justify-center shrink-0 border border-blue-200 dark:border-blue-800">
           <AvatarRenderer config={student.avatarConfig} size="sm" showVehicle={false} showTech={false} showPet={false} />
         </div>
-        <div className="text-left min-w-0 max-w-[76px] sm:max-w-[92px] 2xl:max-w-[150px]">
+        <div className="text-left min-w-0 max-w-[calc(48vw-48px)] sm:max-w-[92px] 2xl:max-w-[150px]">
           <div className="text-[11px] sm:text-xs font-bold leading-tight truncate">{student.name}</div>
           <div className="text-[9px] sm:text-[10px] text-blue-600 dark:text-blue-400 leading-tight mt-0.5 truncate">
             {student.isGuest ? 'Khách ghé thăm' : `Cấp ${student.level}`}
