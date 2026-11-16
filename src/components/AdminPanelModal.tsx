@@ -13,6 +13,7 @@ import {
   Clock,
   CheckCircle2
 } from 'lucide-react';
+import { ContentReviewPanel } from './admin/ContentReviewPanel';
 import {
   adminOverview,
   adminResetPassword,
@@ -223,7 +224,7 @@ export const AdminPanelModal: React.FC<Props> = ({ isOpen, onClose }) => {
           </>
         )}
 
-        {/* Lobby Chat Safety Reports */}
+        <ContentReviewPanel />\n\n        {/* Lobby Chat Safety Reports */}
         <section>
           <h3 className="font-bold flex items-center gap-1.5 mb-2">
             <Flag className="w-4 h-4 text-rose-500" /> Báo cáo Trò Chuyện Sảnh ({reports.length})
