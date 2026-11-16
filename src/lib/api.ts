@@ -618,3 +618,49 @@ export async function dmSetAllowed(allow: boolean): Promise<void> {
   const { error } = await supabase.rpc('dm_set_allowed', { p_allow: allow });
   if (error) throw new Error(error.message);
 }
+
+
+// ---------- Admin content review (answer keys stay server-side until an authorized admin requests detail) ----------
+export interface ContentReviewBatch {
+  id: string; source_name: string; source_version: string | null; status: string;
+  row_count: number; created_at: string; question_count: number;
+  pending_count: number; approved_count: number; published_count: number; returned_count: number;
+}
+export interface ContentReviewRevision {
+  id: string; version: number; snapshot: Record<string, any>;
+  changed_by: string | null; change_note: string | null; created_at: string;
+}
+export interface ContentReviewQuestion {
+  id: string; source_question_code: string | null; status: string; version: number;
+  prompt: { text?: string; visualData?: unknown; [key: string]: unknown };
+  explanation: { text?: string; [key: string]: unknown };
+  difficulty: string; skill: string | null; lesson_code: string; lesson_title: string; chapter_title: string;
+  answer_key: string | null; options: { key: string; text: string; content: Record<string, unknown>; sequence_no: number }[];
+  revisions: ContentReviewRevision[];
+  review_events: { action: string; note: string | null; actor_id: string; created_at: string }[];
+}
+export interface ContentReviewBatchDetail {
+  batch: { id: string; source_name: string; source_version: string | null; status: string; row_count: number; report: Record<string, unknown>; created_at: string };
+  questions: ContentReviewQuestion[];
+}
+export async function adminContentReviewBatches(): Promise<ContentReviewBatch[]> {
+  const { data, error } = await supabase.rpc('admin_content_review_batches');
+  if (error) fail('admin_content_review_batches', error);
+  return (data ?? []) as ContentReviewBatch[];
+}
+export async function adminContentReviewBatchDetail(batchId: string): Promise<ContentReviewBatchDetail> {
+  const { data, error } = await supabase.rpc('admin_content_review_batch_detail', { p_batch_id: batchId });
+  if (error) fail('admin_content_review_batch_detail', error);
+  return data as ContentReviewBatchDetail;
+}
+export async function adminReviewContentQuestion(questionId: string, decision: 'approve' | 'return', note?: string): Promise<void> {
+  const { error } = await supabase.rpc('admin_review_content_question', {
+    p_question_id: questionId, p_decision: decision, p_note: note ?? null
+  });
+  if (error) fail('admin_review_content_question', error);
+}
+export async function adminPublishContentBatch(batchId: string): Promise<{ batch_id: string; published_questions: number; status: string }> {
+  const { data, error } = await supabase.rpc('admin_publish_content_batch', { p_batch_id: batchId });
+  if (error) fail('admin_publish_content_batch', error);
+  return data as { batch_id: string; published_questions: number; status: string };
+}
