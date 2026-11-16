@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import { CheckCircle2, Clock3, Eye, FileCheck2, History, Loader2, RefreshCw, RotateCcw, Send, ShieldCheck } from 'lucide-react';
+import { CheckCircle2, FileCheck2, History, Loader2, RefreshCw, RotateCcw, Send, ShieldCheck } from 'lucide-react';
 import {
   adminContentReviewBatchDetail,
   adminContentReviewBatches,
@@ -24,7 +24,7 @@ const statusLabel: Record<string, string> = {
 function QuestionCard({ question, busy, onReview }: {
   question: ContentReviewQuestion;
   busy: boolean;
-  onReview: (id: string, decision: 'approve' | 'return') => void;
+  onReview: (id: string, decision: 'approve' | 'return', note: string) => void;
 }) {
   const [note, setNote] = useState('');
   const [showHistory, setShowHistory] = useState(false);
@@ -72,14 +72,13 @@ function QuestionCard({ question, busy, onReview }: {
         <div className="border-t border-slate-200 dark:border-slate-700 pt-3 space-y-2">
           <textarea value={note} onChange={e => setNote(e.target.value)} rows={2} placeholder="Ghi chú kiểm duyệt (nếu cần)" className="w-full rounded-xl border border-slate-300 dark:border-slate-700 bg-transparent p-2 text-sm"/>
           <div className="flex flex-wrap gap-2">
-            <button type="button" disabled={busy} onClick={() => onReview(question.id, 'approve')} className="px-3 py-2 rounded-xl bg-emerald-600 text-white text-sm font-bold disabled:opacity-50 flex items-center gap-2">
+            <button type="button" disabled={busy} onClick={() => onReview(question.id, 'approve', note)} className="px-3 py-2 rounded-xl bg-emerald-600 text-white text-sm font-bold disabled:opacity-50 flex items-center gap-2">
               {busy ? <Loader2 className="w-4 h-4 animate-spin"/> : <CheckCircle2 className="w-4 h-4"/>} Duyệt câu hỏi
             </button>
-            <button type="button" disabled={busy} onClick={() => onReview(question.id, 'return')} className="px-3 py-2 rounded-xl bg-amber-100 text-amber-900 text-sm font-bold disabled:opacity-50 flex items-center gap-2">
+            <button type="button" disabled={busy} onClick={() => onReview(question.id, 'return', note)} className="px-3 py-2 rounded-xl bg-amber-100 text-amber-900 text-sm font-bold disabled:opacity-50 flex items-center gap-2">
               <RotateCcw className="w-4 h-4"/> Trả về bản nháp
             </button>
           </div>
-          <span className="hidden">{note}</span>
         </div>
       ) : null}
     </article>
@@ -125,10 +124,10 @@ export const ContentReviewPanel: React.FC = () => {
     finally { setLoading(false); }
   };
 
-  const review = async (id: string, decision: 'approve' | 'return') => {
+  const review = async (id: string, decision: 'approve' | 'return', note: string) => {
     setBusyId(id); setError(''); setMessage('');
     try {
-      await adminReviewContentQuestion(id, decision, decision === 'approve' ? 'Đã kiểm duyệt trong Admin Panel.' : 'Trả về để chỉnh sửa.');
+      await adminReviewContentQuestion(id, decision, note || (decision === 'approve' ? 'Đã kiểm duyệt trong Admin Panel.' : 'Trả về để chỉnh sửa.'));
       setMessage(decision === 'approve' ? 'Đã duyệt câu hỏi.' : 'Đã trả câu hỏi về bản nháp.');
       await loadBatches(selectedId);
     } catch (e) { setError(e instanceof Error ? e.message : 'Không thực hiện được thao tác duyệt'); }
