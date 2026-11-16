@@ -242,7 +242,7 @@
     {
       "code": "HSV-M3-V1-P01-Q05",
       "grade": 3,
-      "lesson": "toan3-v1-bai05",
+      "lesson": "toan3-v1-bai04",
       "skill": "Nhận biết phép chia trong bảng chia 2 và 5",
       "difficulty": "application",
       "prompt": "Có 40 chiếc kẹo chia đều cho 5 bạn. Mỗi bạn nhận được bao nhiêu chiếc?",
@@ -274,7 +274,7 @@
     {
       "code": "HSV-M4-V1-P01-Q02",
       "grade": 4,
-      "lesson": "toan4-v1-bai02",
+      "lesson": "toan4-v1-bai03",
       "skill": "Nhận biết số chẵn",
       "difficulty": "basic",
       "prompt": "Số nào sau đây là số chẵn?",
@@ -307,33 +307,33 @@
       "code": "HSV-M4-V1-P01-Q04",
       "grade": 4,
       "lesson": "toan4-v1-bai04",
-      "skill": "Tìm thành phần chưa biết trong biểu thức",
+      "skill": "Tính giá trị biểu thức chứa chữ",
       "difficulty": "application",
-      "prompt": "Biết x + 245 = 600. Giá trị của x là bao nhiêu?",
+      "prompt": "Biết a = 355. Giá trị của biểu thức a + 245 là bao nhiêu?",
       "options": [
         "345",
         "355",
-        "365",
+        "600",
         "845"
       ],
-      "key": "B",
-      "explanation": "x = 600 − 245 = 355."
+      "key": "C",
+      "explanation": "Thay a = 355 vào biểu thức: a + 245 = 355 + 245 = 600."
     },
     {
       "code": "HSV-M4-V1-P01-Q05",
       "grade": 4,
       "lesson": "toan4-v1-bai05",
-      "skill": "Giải bài toán bằng nhiều bước tính",
+      "skill": "Giải bài toán có ba bước tính",
       "difficulty": "application",
-      "prompt": "Một cửa hàng có 1 250 kg gạo, buổi sáng bán 275 kg, buổi chiều nhập thêm 180 kg. Cửa hàng còn bao nhiêu ki-lô-gam gạo?",
+      "prompt": "Một cửa hàng có 1 250 kg gạo. Buổi sáng cửa hàng bán 275 kg, buổi chiều bán tiếp 180 kg, sau đó nhập thêm 90 kg. Hỏi cửa hàng hiện có bao nhiêu ki-lô-gam gạo?",
       "options": [
-        "1 055 kg",
-        "1 145 kg",
-        "1 155 kg",
-        "1 705 kg"
+        "885 kg",
+        "795 kg",
+        "975 kg",
+        "1 065 kg"
       ],
-      "key": "C",
-      "explanation": "Sau buổi sáng còn 1 250 − 275 = 975 kg. Sau khi nhập thêm có 975 + 180 = 1 155 kg."
+      "key": "A",
+      "explanation": "Buổi sáng còn 1 250 − 275 = 975 kg. Buổi chiều còn 975 − 180 = 795 kg. Sau khi nhập thêm 90 kg, cửa hàng có 795 + 90 = 885 kg."
     },
     {
       "code": "HSV-M5-V1-P01-Q01",
@@ -403,17 +403,17 @@
       "code": "HSV-M5-V1-P01-Q05",
       "grade": 5,
       "lesson": "toan5-v1-bai05",
-      "skill": "Tính một phần của một số",
+      "skill": "Cộng hai phân số cùng mẫu số",
       "difficulty": "application",
-      "prompt": "Một lớp có 30 học sinh. 2/5 số học sinh của lớp tham gia câu lạc bộ cờ vua. Có bao nhiêu học sinh tham gia?",
+      "prompt": "Tính: 3/5 + 1/5 = ?",
       "options": [
-        "10",
-        "12",
-        "15",
-        "18"
+        "2/5",
+        "3/5",
+        "4/5",
+        "4/10"
       ],
-      "key": "B",
-      "explanation": "Tính 1/5 của 30 được 30 : 5 = 6. Tính 2/5 của 30 được 6 × 2 = 12 học sinh."
+      "key": "C",
+      "explanation": "Hai phân số có cùng mẫu số nên giữ nguyên mẫu số và cộng các tử số: 3/5 + 1/5 = (3 + 1)/5 = 4/5."
     },
     {
       "code": "HSV-M1-V1-GEO-Q01",
@@ -696,7 +696,7 @@
     {
       "code": "HSV-M3-V1-GEO-Q01",
       "grade": 3,
-      "lesson": "toan3-v1-bai16",
+      "lesson": "toan3-v1-bai17",
       "skill": "Nhận biết đường kính hình tròn",
       "difficulty": "application",
       "prompt": "Trong hình tròn tâm O, đoạn thẳng nào là đường kính?",
@@ -792,7 +792,7 @@
     {
       "code": "HSV-M4-V1-GEO-Q01",
       "grade": 4,
-      "lesson": "toan4-v1-bai07",
+      "lesson": "toan4-v1-bai27",
       "skill": "Nhận biết hai đường thẳng vuông góc",
       "difficulty": "basic",
       "prompt": "Quan sát hai đường thẳng a và b trong hình. Hai đường thẳng này có quan hệ gì?",
