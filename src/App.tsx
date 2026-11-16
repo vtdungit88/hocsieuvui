@@ -80,13 +80,35 @@ export default function App() {
   const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
   const [legalPage, setLegalPage] = useState<LegalPageKey | null>(null);
   const [isCardModalOpen, setIsCardModalOpen] = useState(false);
-  const [isAdminModalOpen, setIsAdminModalOpen] = useState(false);
+  const [isAdminPage, setIsAdminPage] = useState(() => new URLSearchParams(window.location.search).get('admin') === '1');
   const [isInstallShareOpen, setIsInstallShareOpen] = useState(false);
   const [isUpdateNoticeOpen, setIsUpdateNoticeOpen] = useState(false);
   const [isLevelModalOpen, setIsLevelModalOpen] = useState(false);
   const [isTravelModalOpen, setIsTravelModalOpen] = useState(false);
   const [showTicker, setShowTicker] = useState(true);
   const [isMuted, setIsMuted] = useState(() => soundManager.getMuted());
+
+  // Support a dedicated admin URL without requiring a server-side /admin rewrite on GitHub Pages.
+  useEffect(() => {
+    const syncAdminRoute = () => setIsAdminPage(new URLSearchParams(window.location.search).get('admin') === '1');
+    window.addEventListener('popstate', syncAdminRoute);
+    return () => window.removeEventListener('popstate', syncAdminRoute);
+  }, []);
+
+  const openAdminDashboard = () => {
+    if (!isAdmin) return;
+    const url = new URL(window.location.href);
+    url.searchParams.set('admin', '1');
+    window.history.pushState({}, '', url);
+    setIsAdminPage(true);
+  };
+
+  const closeAdminDashboard = () => {
+    const url = new URL(window.location.href);
+    url.searchParams.delete('admin');
+    window.history.pushState({}, '', url);
+    setIsAdminPage(false);
+  };
 
   // Restore the Supabase session and keep the profile in sync with auth state.
   useEffect(() => {
@@ -228,6 +250,22 @@ export default function App() {
     );
   }
 
+  if (isAdminPage) {
+    if (!isAdmin) {
+      return (
+        <div className="min-h-screen bg-slate-950 text-white flex items-center justify-center p-6">
+          <div className="max-w-md w-full rounded-3xl bg-slate-900 border border-slate-700 p-6 text-center space-y-3">
+            <ShieldCheck className="w-10 h-10 mx-auto text-rose-400"/>
+            <h1 className="text-xl font-black">Không có quyền truy cập</h1>
+            <p className="text-sm text-slate-300">Trang quản trị chỉ dành cho tài khoản được cấp quyền platform_admin.</p>
+            <button onClick={closeAdminDashboard} className="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 font-bold">Quay lại trang học</button>
+          </div>
+        </div>
+      );
+    }
+    return <AdminPanelModal isOpen={true} onClose={closeAdminDashboard} fullPage />;
+  }
+
   return (
     <div className="relative min-h-screen bg-sky-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 font-sans flex flex-col selection:bg-blue-500 selection:text-white">
       <AppBackdrop view={currentView} />
@@ -246,7 +284,7 @@ export default function App() {
         onOpenCard={() => setIsCardModalOpen(true)}
         onOpenLevel={() => setIsLevelModalOpen(true)}
         onLogout={handleLogout}
-        onOpenAdmin={isAdmin ? () => setIsAdminModalOpen(true) : undefined}
+        onOpenAdmin={isAdmin ? openAdminDashboard : undefined}
         onlineCount={onlineCount ?? undefined}
         onOpenInstallShare={() => setIsInstallShareOpen(true)}
         isMuted={isMuted}
@@ -731,8 +769,7 @@ export default function App() {
       {/* Student ID Card Modal */}
       <StudentIdCardModal isOpen={isCardModalOpen} onClose={() => setIsCardModalOpen(false)} student={student} />
 
-      {/* Super Admin Modal */}
-      <AdminPanelModal isOpen={isAdminModalOpen} onClose={() => setIsAdminModalOpen(false)} />
+
 
       {/* PWA Install & Social Sharing Modal */}
       <InstallShareModal isOpen={isInstallShareOpen} onClose={() => setIsInstallShareOpen(false)} />
