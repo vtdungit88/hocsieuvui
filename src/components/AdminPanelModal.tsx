@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import {
   ShieldCheck,
   X,
+  ArrowLeft,
   Users,
   BarChart3,
   KeyRound,
@@ -28,10 +29,11 @@ import {
 interface Props {
   isOpen: boolean;
   onClose: () => void;
+  fullPage?: boolean;
 }
 
 /** Real admin panel. Data comes from the admin_overview RPC, which the server only answers for platform_admin. */
-export const AdminPanelModal: React.FC<Props> = ({ isOpen, onClose }) => {
+export const AdminPanelModal: React.FC<Props> = ({ isOpen, onClose, fullPage = false }) => {
   const [data, setData] = useState<AdminOverview | null>(null);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
@@ -111,19 +113,34 @@ export const AdminPanelModal: React.FC<Props> = ({ isOpen, onClose }) => {
   return (
     <div className="fixed inset-0 z-50 bg-black/50 flex items-center justify-center p-3" role="dialog" aria-modal="true">
       <div className="bg-white dark:bg-slate-900 rounded-3xl w-full max-w-3xl max-h-[92vh] overflow-y-auto p-5 space-y-5">
-        <div className="flex items-center justify-between">
-          <h2 className="text-lg font-extrabold flex items-center gap-2">
-            <ShieldCheck className="w-5 h-5 text-indigo-600" /> Quản trị viên
-          </h2>
-          <div className="flex gap-1">
-            <button onClick={() => void load()} aria-label="Làm mới" className="p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800">
-              <RefreshCw className="w-5 h-5" />
-            </button>
-            <button onClick={onClose} aria-label="Đóng" className="p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800">
-              <X className="w-5 h-5" />
-            </button>
+        <header className={fullPage ? "rounded-3xl bg-gradient-to-r from-indigo-700 via-blue-700 to-cyan-700 text-white p-5 sm:p-7 shadow-xl" : "flex items-center justify-between"}>
+          <div className="flex flex-wrap items-center justify-between gap-4">
+            <div>
+              {fullPage ? (
+                <button onClick={onClose} className="inline-flex items-center gap-2 text-xs sm:text-sm text-white/80 hover:text-white mb-3">
+                  <ArrowLeft className="w-4 h-4"/> Quay lại Học Siêu Vui
+                </button>
+              ) : null}
+              <h2 className="text-xl sm:text-2xl font-extrabold flex items-center gap-2">
+                <ShieldCheck className="w-6 h-6" /> Trung tâm quản trị
+              </h2>
+              {fullPage ? <p className="text-sm text-white/80 mt-1">Quản lý học sinh, nội dung học tập và an toàn cộng đồng</p> : null}
+            </div>
+            <div className="flex gap-2">
+              <button onClick={() => void load()} aria-label="Làm mới" className={fullPage ? "p-2.5 rounded-xl bg-white/15 hover:bg-white/25" : "p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800"}>
+                <RefreshCw className="w-5 h-5" />
+              </button>
+              {!fullPage ? <button onClick={onClose} aria-label="Đóng" className="p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800"><X className="w-5 h-5" /></button> : null}
+            </div>
           </div>
-        </div>
+          {fullPage ? (
+            <nav className="flex flex-wrap gap-2 mt-5" aria-label="Điều hướng quản trị">
+              {[
+                ['#admin-overview','Tổng quan'],['#admin-students','Học sinh'],['#admin-review','Duyệt câu hỏi'],['#admin-community','Cộng đồng'],['#admin-feedback','Góp ý']
+              ].map(([href,label]) => <a key={href} href={href} className="px-3 py-2 rounded-xl bg-white/15 hover:bg-white/25 text-xs sm:text-sm font-bold">{label}</a>)}
+            </nav>
+          ) : null}
+        </header>
 
         {loading && (
           <div className="flex items-center gap-2 text-sm">
