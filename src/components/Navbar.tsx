@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { StudentProfile } from '../types';
 import { soundManager } from '../utils/audio';
 import { AvatarRenderer } from './AvatarRenderer';
@@ -151,21 +151,6 @@ export const Navbar: React.FC<NavbarProps> = ({
             </button>
           )}
 
-          {/* Admin Panel Quick Trigger */}
-          {onOpenAdmin && (
-            <button
-              onClick={() => {
-                soundManager.play('click');
-                onOpenAdmin();
-              }}
-              className="hidden xl:inline-flex p-2 text-indigo-600 dark:text-indigo-400 hover:bg-indigo-50 dark:hover:bg-indigo-950/50 rounded-xl transition-colors cursor-pointer shrink-0"
-              title="Quản trị viên"
-              aria-label="Quản trị viên"
-            >
-              <ShieldCheck className="w-5 h-5" />
-            </button>
-          )}
-
           {/* Level Badge Button */}
           {onOpenLevel && (
             <button
@@ -207,41 +192,14 @@ export const Navbar: React.FC<NavbarProps> = ({
             <IdCard className="w-5 h-5" />
           </button>
 
-          {/* Active Student Profile Button */}
-          <button
-            onClick={() => {
-              soundManager.play('click');
-              onOpenProfile();
-            }}
-            className="flex items-center gap-1.5 sm:gap-2 py-1.5 px-1.5 sm:px-2.5 min-w-0 shrink-0 bg-blue-50 dark:bg-blue-950/50 hover:bg-blue-100 dark:hover:bg-blue-900/40 border border-blue-200 dark:border-blue-900 rounded-xl text-slate-900 dark:text-white transition-colors cursor-pointer"
-            title="Hồ sơ, đăng nhập và đăng ký"
-            aria-label={`Tài khoản: ${student.name}. Mở hồ sơ, đăng nhập hoặc đăng ký`}
-          >
-            <div className="w-7 h-7 rounded-lg overflow-hidden bg-white dark:bg-slate-800 flex items-center justify-center shrink-0 border border-blue-200 dark:border-blue-800">
-              <AvatarRenderer config={student.avatarConfig} size="sm" showVehicle={false} showTech={false} showPet={false} />
-            </div>
-            <div className="text-left block min-w-0 max-w-[76px] sm:max-w-[92px] 2xl:max-w-[150px]">
-              <div className="text-[11px] sm:text-xs font-bold leading-tight truncate">{student.name}</div>
-              <div className="text-[9px] sm:text-[10px] text-blue-600 dark:text-blue-400 leading-tight mt-0.5 truncate">
-                {student.isGuest ? 'Khách ghé thăm' : `Cấp ${student.level}`}
-              </div>
-            </div>
-          </button>
-
-          {/* Logout Button (if registered/logged-in user) */}
-          {!student.isGuest && onLogout && (
-            <button
-              onClick={() => {
-                soundManager.play('click');
-                onLogout();
-              }}
-              className="p-1.5 sm:p-2 shrink-0 text-rose-500 hover:text-rose-700 hover:bg-rose-50 dark:hover:bg-rose-950/40 rounded-xl transition-colors cursor-pointer"
-              title="Đăng xuất tài khoản"
-              aria-label="Đăng xuất"
-            >
-              <LogOut className="w-4 h-4" />
-            </button>
-          )}
+          {/* Account menu: profile actions and the admin entry live under the avatar. */}
+          <AccountMenu
+            student={student}
+            onOpenProfile={onOpenProfile}
+            onOpenAdmin={onOpenAdmin}
+            onLogout={onLogout}
+            onOpenCard={onOpenCard}
+          />
         </div>
       </div>
 
@@ -263,5 +221,69 @@ export const Navbar: React.FC<NavbarProps> = ({
         })}
       </nav>
     </header>
+  );
+};
+
+
+const AccountMenu: React.FC<{
+  student: StudentProfile;
+  onOpenProfile: () => void;
+  onOpenAdmin?: () => void;
+  onLogout?: () => void;
+  onOpenCard: () => void;
+}> = ({ student, onOpenProfile, onOpenAdmin, onLogout, onOpenCard }) => {
+  const [open, setOpen] = useState(false);
+  const run = (action?: () => void) => {
+    setOpen(false);
+    if (action) action();
+  };
+  return (
+    <div className="relative shrink-0">
+      <button
+        type="button"
+        onClick={() => { soundManager.play('click'); setOpen(v => !v); }}
+        aria-expanded={open}
+        aria-haspopup="menu"
+        className="flex items-center gap-1.5 sm:gap-2 py-1.5 px-1.5 sm:px-2.5 min-w-0 bg-blue-50 dark:bg-blue-950/50 hover:bg-blue-100 dark:hover:bg-blue-900/40 border border-blue-200 dark:border-blue-900 rounded-xl text-slate-900 dark:text-white transition-colors cursor-pointer"
+        title="Mở menu tài khoản"
+      >
+        <div className="w-7 h-7 rounded-lg overflow-hidden bg-white dark:bg-slate-800 flex items-center justify-center shrink-0 border border-blue-200 dark:border-blue-800">
+          <AvatarRenderer config={student.avatarConfig} size="sm" showVehicle={false} showTech={false} showPet={false} />
+        </div>
+        <div className="text-left min-w-0 max-w-[76px] sm:max-w-[92px] 2xl:max-w-[150px]">
+          <div className="text-[11px] sm:text-xs font-bold leading-tight truncate">{student.name}</div>
+          <div className="text-[9px] sm:text-[10px] text-blue-600 dark:text-blue-400 leading-tight mt-0.5 truncate">
+            {student.isGuest ? 'Khách ghé thăm' : `Cấp ${student.level}`}
+          </div>
+        </div>
+      </button>
+      {open && (
+        <>
+          <button aria-label="Đóng menu tài khoản" className="fixed inset-0 z-40 cursor-default" onClick={() => setOpen(false)} />
+          <div role="menu" className="absolute right-0 top-full mt-2 z-50 w-56 rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 shadow-2xl p-2 space-y-1">
+            <div className="px-3 py-2 border-b border-slate-100 dark:border-slate-800 mb-1">
+              <div className="font-bold text-sm truncate">{student.name}</div>
+              <div className="text-xs text-slate-500">{student.isGuest ? 'Bạn đang dùng chế độ khách' : 'Tài khoản học sinh'}</div>
+            </div>
+            <button role="menuitem" onClick={() => run(onOpenProfile)} className="w-full text-left px-3 py-2.5 rounded-xl hover:bg-blue-50 dark:hover:bg-slate-800 text-sm font-semibold flex items-center gap-2">
+              <IdCard className="w-4 h-4 text-blue-600"/>{student.isGuest ? 'Đăng nhập / Đăng ký' : 'Hồ sơ tài khoản'}
+            </button>
+            <button role="menuitem" onClick={() => run(onOpenCard)} className="w-full text-left px-3 py-2.5 rounded-xl hover:bg-blue-50 dark:hover:bg-slate-800 text-sm font-semibold flex items-center gap-2">
+              <Award className="w-4 h-4 text-amber-500"/>Thẻ học sinh
+            </button>
+            {onOpenAdmin && (
+              <button role="menuitem" onClick={() => run(onOpenAdmin)} className="w-full text-left px-3 py-2.5 rounded-xl bg-indigo-50 hover:bg-indigo-100 dark:bg-indigo-950/40 dark:hover:bg-indigo-900/60 text-indigo-700 dark:text-indigo-300 text-sm font-extrabold flex items-center gap-2">
+                <ShieldCheck className="w-4 h-4"/>Quản trị viên
+              </button>
+            )}
+            {!student.isGuest && onLogout && (
+              <button role="menuitem" onClick={() => run(onLogout)} className="w-full text-left px-3 py-2.5 rounded-xl hover:bg-rose-50 dark:hover:bg-rose-950/40 text-rose-600 text-sm font-bold flex items-center gap-2">
+                <LogOut className="w-4 h-4"/>Đăng xuất
+              </button>
+            )}
+          </div>
+        </>
+      )}
+    </div>
   );
 };
