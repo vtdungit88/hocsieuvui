@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-11-16",
+  "scope": {
+    "subject": "Toán",
+    "grade": 1,
+    "source": "Existing published Supabase content",
+    "studentVisibleChanges": false
+  },
+  "confirmedIssues": [
+    {
+      "sourceQuestionCode": "TOAN1-3-C08",
+      "issue": "Sai khóa đáp án: câu hỏi yêu cầu số x sao cho x - 7 = 21; lời giải cho ra 28 nhưng khóa cũ C trỏ tới 27.",
+      "action": "Archived old published row; created TOAN1-3-C08-R2 in pending_review with correct key B and answer 28.",
+      "reviewRequired": true
+    },
+    {
+      "sourceQuestionCode": "TOAN1-1-C15",
+      "issue": "Mâu thuẫn câu chữ: yêu cầu tạo số lớn nhất nhưng lại nói xếp các thẻ theo thứ tự tăng dần; đáp án 531 không phù hợp cụm từ tăng dần.",
+      "action": "Archived old published row; created TOAN1-1-C15-R2 in pending_review with unambiguous wording and key D (531).",
+      "reviewRequired": true
+    }
+  ],
+  "visualReviewCandidates": [
+    {
+      "sourceQuestionCode": "TOAN1-4-C01",
+      "candidateCode": "TOAN1-4-C01-FIG-R2",
+      "figure": "Four basic shapes labelled A-D; triangle is option C."
+    },
+    {
+      "sourceQuestionCode": "TOAN1-4-C02",
+      "candidateCode": "TOAN1-4-C02-FIG-R2",
+      "figure": "Square with its four sides labelled."
+    },
+    {
+      "sourceQuestionCode": "TOAN1-4-C04",
+      "candidateCode": "TOAN1-4-C04-FIG-R2",
+      "figure": "Two line segments drawn to different lengths and labelled 8 cm and 5 cm."
+    },
+    {
+      "sourceQuestionCode": "TOAN1-4-C10",
+      "candidateCode": "TOAN1-4-C10-FIG-R2",
+      "figure": "Rectangle with right-angle markers at four vertices."
+    },
+    {
+      "sourceQuestionCode": "TOAN1-4-C11",
+      "candidateCode": "TOAN1-4-C11-FIG-R2",
+      "figure": "Triangle, square, circle and rectangle labelled A-D; circle is option C."
+    },
+    {
+      "sourceQuestionCode": "TOAN1-4-C15",
+      "candidateCode": "TOAN1-4-C15-FIG-R2",
+      "figure": "Separate square and triangle to support counting sides."
+    }
+  ],
+  "status": "Candidates are pending independent review. The original two erroneous questions have been archived; the six visual candidates are not student-visible. No other published question was modified.",
+  "nextChecks": [
+    "Check visual clarity on phone and desktop.",
+    "Review geometry figures for visual correctness and age appropriateness.",
+    "Run arithmetic and explanation consistency checks on all Math grades 1-5.",
+    "Map volume two from official digital book pages before creating its lesson structure."
+  ]
+}
