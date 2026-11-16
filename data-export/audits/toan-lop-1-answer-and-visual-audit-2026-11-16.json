@@ -3,8 +3,16 @@
   "createdAt": "2026-11-16",
   "scope": {
     "subject": "Toán",
-    "grade": 1,
-    "source": "Existing published Supabase content",
+    "grades": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "series": "Kết nối tri thức với cuộc sống",
+    "volume": 1,
+    "source": "Supabase pilot data and curriculum draft",
     "studentVisibleChanges": false
   },
   "confirmedIssues": [
@@ -53,11 +61,65 @@
       "figure": "Separate square and triangle to support counting sides."
     }
   ],
-  "status": "Candidates are pending independent review. The original two erroneous questions have been archived; the six visual candidates are not student-visible. No other published question was modified.",
+  "status": "All 30 pilot questions passed structural validation and were moved to pending_review. No pilot questions have been published. Curriculum lesson/chapter records for the pilot are pending_review and remain invisible to students.",
   "nextChecks": [
-    "Check visual clarity on phone and desktop.",
-    "Review geometry figures for visual correctness and age appropriateness.",
-    "Run arithmetic and explanation consistency checks on all Math grades 1-5.",
-    "Map volume two from official digital book pages before creating its lesson structure."
-  ]
+    "Independent curriculum review against the official NXBGDVN digital textbook for volume 1.",
+    "Visual review of all five pilot figures on desktop and mobile.",
+    "Independent review of every answer key and explanation.",
+    "Platform-admin approval followed by publishing through the protected review workflow.",
+    "Only after volume 1 pilot review, continue building volume 2."
+  ],
+  "pilotRelease": {
+    "questionCount": 30,
+    "questionsPerGrade": 6,
+    "figures": 5,
+    "chaptersPendingReview": 10,
+    "lessonsPendingReview": 28,
+    "questionStatus": "pending_review",
+    "publishedQuestions": 0,
+    "importBatchStatus": "validated",
+    "structuralValidation": {
+      "fourOptionsPerQuestion": true,
+      "uniqueOptionKeys": true,
+      "validPrivateAnswerKeys": true,
+      "promptAndExplanationPresent": true,
+      "lessonReferencesValid": true
+    }
+  },
+  "corrections": [
+    {
+      "code": "HSV-M3-V1-GEO-Q01",
+      "change": "Mapped circle diameter item to toan3-v1-bai17 (circle center, radius, diameter)."
+    },
+    {
+      "code": "HSV-M3-V1-P01-Q05",
+      "change": "Mapped division by 5 item to toan3-v1-bai04 (review multiplication/division tables 2 and 5)."
+    },
+    {
+      "code": "HSV-M4-V1-P01-Q02",
+      "change": "Mapped even-number item to toan4-v1-bai03 (even and odd numbers)."
+    },
+    {
+      "code": "HSV-M4-V1-GEO-Q01",
+      "change": "Mapped perpendicular-lines figure item to toan4-v1-bai27 (perpendicular lines)."
+    },
+    {
+      "code": "HSV-M4-V1-P01-Q04",
+      "change": "Rewrote as evaluating a + 245 with a = 355 to align with expression-containing-a-letter lesson."
+    },
+    {
+      "code": "HSV-M4-V1-P01-Q05",
+      "change": "Rewrote as a three-operation rice-stock problem; answer 885 kg."
+    },
+    {
+      "code": "HSV-M5-V1-P01-Q05",
+      "change": "Rewrote as adding like-denominator fractions to align with fraction-operations review."
+    }
+  ],
+  "releaseGate": {
+    "status": "blocked_pending_independent_platform_admin_approval",
+    "reason": "Database workflow requires a platform_admin reviewer distinct from the author to approve a question, then a separate approved-to-published transition. No reviewer identity is available in this session; the workflow was not bypassed.",
+    "nextAction": "A platform administrator must review and approve the 30 pilot questions and the 28 lessons / 10 chapters before publication.",
+    "noProductionDeploy": true
+  }
 }
