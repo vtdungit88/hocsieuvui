@@ -111,8 +111,8 @@ export const AdminPanelModal: React.FC<Props> = ({ isOpen, onClose, fullPage = f
   );
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/50 flex items-center justify-center p-3" role="dialog" aria-modal="true">
-      <div className="bg-white dark:bg-slate-900 rounded-3xl w-full max-w-3xl max-h-[92vh] overflow-y-auto p-5 space-y-5">
+    <div className={fullPage ? "min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100" : "fixed inset-0 z-50 bg-black/50 flex items-center justify-center p-3"} role={fullPage ? "main" : "dialog"} aria-modal={fullPage ? undefined : true}>
+      <div className={fullPage ? "min-h-screen w-full max-w-screen-2xl mx-auto px-3 sm:px-6 lg:px-8 py-5 sm:py-8 space-y-6" : "bg-white dark:bg-slate-900 rounded-3xl w-full max-w-3xl max-h-[92vh] overflow-y-auto p-5 space-y-5"}>
         <header className={fullPage ? "rounded-3xl bg-gradient-to-r from-indigo-700 via-blue-700 to-cyan-700 text-white p-5 sm:p-7 shadow-xl" : "flex items-center justify-between"}>
           <div className="flex flex-wrap items-center justify-between gap-4">
             <div>
@@ -151,7 +151,7 @@ export const AdminPanelModal: React.FC<Props> = ({ isOpen, onClose, fullPage = f
 
         {data && (
           <>
-            <section>
+            <section id="admin-overview" className={fullPage ? "rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 sm:p-6 shadow-sm" : ""}>
               <h3 className="font-bold flex items-center gap-1 mb-2">
                 <BarChart3 className="w-4 h-4" /> Tổng quan
               </h3>
@@ -167,7 +167,7 @@ export const AdminPanelModal: React.FC<Props> = ({ isOpen, onClose, fullPage = f
               </div>
             </section>
 
-            <section>
+            <section id="admin-students" className={fullPage ? "rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 sm:p-6 shadow-sm" : ""}>
               <h3 className="font-bold flex items-center gap-1 mb-2">
                 <Users className="w-4 h-4" /> Học sinh mới nhất
               </h3>
@@ -297,7 +297,7 @@ export const AdminPanelModal: React.FC<Props> = ({ isOpen, onClose, fullPage = f
           )}
         </section>
 
-        <div className="mt-4">
+        <div id="admin-feedback" className="mt-4">
           <h3 className="font-bold mb-2">Góp ý từ học sinh ({feedback.length})</h3>
           {feedback.length === 0 ? (
             <p className="text-sm text-slate-500">Chưa có góp ý nào.</p>
