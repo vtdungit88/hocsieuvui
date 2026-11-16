@@ -13,6 +13,7 @@ import {
   Clock,
   CheckCircle2
 } from 'lucide-react';
+import { ContentReviewPanel } from './admin/ContentReviewPanel';
 import {
   adminOverview,
   adminResetPassword,
