@@ -627,7 +627,7 @@ export interface ContentReviewBatch {
   pending_count: number; approved_count: number; published_count: number; returned_count: number;
 }
 export interface ContentReviewRevision {
-  id: string; version: number; snapshot: Record<string, any>;
+  id: string; version: number; snapshot: { prompt?: { text?: string }; [key: string]: unknown };
   changed_by: string | null; change_note: string | null; created_at: string;
 }
 export interface ContentReviewQuestion {
