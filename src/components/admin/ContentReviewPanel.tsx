@@ -66,6 +66,16 @@ function QuestionCard({ question, busy, onReview }: {
               <div className="mt-1 text-slate-500 whitespace-pre-wrap">{r.snapshot?.prompt?.text ?? ''}</div>
             </div>
           ))}
+          {question.review_events.length > 0 ? (
+            <div className="space-y-1 pt-2">
+              <div className="font-bold text-xs">Nhật ký kiểm duyệt</div>
+              {question.review_events.map((event, index) => (
+                <div key={`${event.action}-${event.created_at}-${index}`} className="text-xs text-slate-500">
+                  {event.action === 'approved' ? 'Đã duyệt' : event.action === 'returned_to_draft' ? 'Trả về bản nháp' : event.action} · {new Date(event.created_at).toLocaleString('vi-VN')} {event.note ? `· ${event.note}` : ''}
+                </div>
+              ))}
+            </div>
+          ) : null}
         </div>
       ) : null}
       {question.status === 'pending_review' ? (
