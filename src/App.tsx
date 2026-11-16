@@ -598,16 +598,18 @@ export default function App() {
               <Bell className="w-3.5 h-3.5" />
               <span>Có gì mới</span>
             </button>
-            <button
-              onClick={() => {
-                soundManager.play('click');
-                setIsAdminModalOpen(true);
-              }}
-              className="hover:text-indigo-600 flex items-center gap-1 text-indigo-600 dark:text-indigo-400 font-semibold transition-colors cursor-pointer"
-            >
-              <ShieldCheck className="w-3.5 h-3.5" />
-              <span>Quản Trị Viên (dungvt.hbh@gmail.com)</span>
-            </button>
+            {isAdmin && (
+              <button
+                onClick={() => {
+                  soundManager.play('click');
+                  openAdminDashboard();
+                }}
+                className="hover:text-indigo-600 flex items-center gap-1 text-indigo-600 dark:text-indigo-400 font-semibold transition-colors cursor-pointer"
+              >
+                <ShieldCheck className="w-3.5 h-3.5" />
+                <span>Quản Trị Viên</span>
+              </button>
+            )}
           </div>
         </div>
         <nav
