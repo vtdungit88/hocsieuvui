@@ -1,0 +1,991 @@
+{
+  "schemaVersion": "1.0.0",
+  "subjectCode": "toan",
+  "seriesCode": "ket-noi-tri-thuc",
+  "volume": 1,
+  "grades": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "status": "draft_pending_review",
+  "createdAt": "2026-11-16",
+  "sourcePolicy": "Original questions authored for HSV; curriculum mapping references textbook scope; no copied exercise text or textbook illustrations.",
+  "gradingContract": "option_key A-D remains stable regardless of display order; answer key stored in private.question_answer_keys.",
+  "questions": [
+    {
+      "code": "HSV-M1-V1-P01-Q01",
+      "grade": 1,
+      "lesson": "toan1-v1-bai01",
+      "skill": "Đếm và nhận biết số trong phạm vi 5",
+      "difficulty": "basic",
+      "prompt": "Có 4 quả táo trên bàn. Số nào biểu thị đúng số quả táo?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "key": "B",
+      "explanation": "Đếm lần lượt 1, 2, 3, 4. Có tất cả 4 quả táo."
+    },
+    {
+      "code": "HSV-M1-V1-P01-Q02",
+      "grade": 1,
+      "lesson": "toan1-v1-bai02",
+      "skill": "Nhận biết số liền trước",
+      "difficulty": "basic",
+      "prompt": "Số liền trước của 9 là số nào?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "key": "B",
+      "explanation": "Trong dãy số tự nhiên, số đứng ngay trước 9 là 8."
+    },
+    {
+      "code": "HSV-M1-V1-P01-Q03",
+      "grade": 1,
+      "lesson": "toan1-v1-bai03",
+      "skill": "So sánh số lượng",
+      "difficulty": "basic",
+      "prompt": "Giỏ thứ nhất có 7 quả cam, giỏ thứ hai có 5 quả cam. Giỏ nào có nhiều cam hơn?",
+      "options": [
+        "Giỏ thứ nhất",
+        "Giỏ thứ hai",
+        "Hai giỏ bằng nhau",
+        "Không thể so sánh"
+      ],
+      "key": "A",
+      "explanation": "Vì 7 lớn hơn 5 nên giỏ thứ nhất có nhiều cam hơn."
+    },
+    {
+      "code": "HSV-M1-V1-P01-Q04",
+      "grade": 1,
+      "lesson": "toan1-v1-bai04",
+      "skill": "So sánh các số trong phạm vi 10",
+      "difficulty": "application",
+      "prompt": "Điền dấu thích hợp vào chỗ trống: 8 □ 10.",
+      "options": [
+        "=",
+        " >",
+        "<",
+        "+"
+      ],
+      "key": "C",
+      "explanation": "8 bé hơn 10 nên điền dấu <."
+    },
+    {
+      "code": "HSV-M1-V1-P01-Q05",
+      "grade": 1,
+      "lesson": "toan1-v1-bai05",
+      "skill": "Phân tích số thành hai phần",
+      "difficulty": "application",
+      "prompt": "Có 6 chiếc bút, trong đó 4 chiếc màu xanh. Số bút còn lại là bao nhiêu chiếc?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "key": "B",
+      "explanation": "Lấy 6 trừ 4 được 2. Vậy còn 2 chiếc bút."
+    },
+    {
+      "code": "HSV-M2-V1-P01-Q01",
+      "grade": 2,
+      "lesson": "toan2-v1-bai01",
+      "skill": "Cấu tạo số có hai chữ số",
+      "difficulty": "basic",
+      "prompt": "Số 57 gồm mấy chục và mấy đơn vị?",
+      "options": [
+        "5 chục và 7 đơn vị",
+        "7 chục và 5 đơn vị",
+        "5 chục và 5 đơn vị",
+        "7 chục và 7 đơn vị"
+      ],
+      "key": "A",
+      "explanation": "Trong số 57, chữ số 5 ở hàng chục và chữ số 7 ở hàng đơn vị."
+    },
+    {
+      "code": "HSV-M2-V1-P01-Q02",
+      "grade": 2,
+      "lesson": "toan2-v1-bai02",
+      "skill": "Số liền sau trên tia số",
+      "difficulty": "basic",
+      "prompt": "Số liền sau của 38 là số nào?",
+      "options": [
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "key": "C",
+      "explanation": "Số liền sau của 38 là 38 + 1 = 39."
+    },
+    {
+      "code": "HSV-M2-V1-P01-Q03",
+      "grade": 2,
+      "lesson": "toan2-v1-bai03",
+      "skill": "Nhận biết thành phần phép cộng",
+      "difficulty": "basic",
+      "prompt": "Trong phép tính 24 + 13 = 37, số 13 được gọi là gì?",
+      "options": [
+        "Tổng",
+        "Số hạng",
+        "Hiệu",
+        "Số bị trừ"
+      ],
+      "key": "B",
+      "explanation": "24 và 13 là hai số hạng; 37 là tổng."
+    },
+    {
+      "code": "HSV-M2-V1-P01-Q04",
+      "grade": 2,
+      "lesson": "toan2-v1-bai04",
+      "skill": "Tìm số đơn vị hơn kém",
+      "difficulty": "application",
+      "prompt": "Lan có 42 nhãn vở, Mai có 35 nhãn vở. Lan nhiều hơn Mai bao nhiêu nhãn vở?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "77"
+      ],
+      "key": "B",
+      "explanation": "Số nhãn vở Lan nhiều hơn Mai là 42 − 35 = 7."
+    },
+    {
+      "code": "HSV-M2-V1-P01-Q05",
+      "grade": 2,
+      "lesson": "toan2-v1-bai05",
+      "skill": "Cộng không nhớ trong phạm vi 100",
+      "difficulty": "application",
+      "prompt": "Thư viện có 32 quyển truyện, được tặng thêm 25 quyển. Thư viện có tất cả bao nhiêu quyển truyện?",
+      "options": [
+        "47",
+        "52",
+        "57",
+        "67"
+      ],
+      "key": "C",
+      "explanation": "32 + 25 = 57. Thư viện có 57 quyển truyện."
+    },
+    {
+      "code": "HSV-M3-V1-P01-Q01",
+      "grade": 3,
+      "lesson": "toan3-v1-bai01",
+      "skill": "Cấu tạo số có ba chữ số",
+      "difficulty": "basic",
+      "prompt": "Số 706 gồm bao nhiêu trăm, chục và đơn vị?",
+      "options": [
+        "7 trăm, 6 chục, 0 đơn vị",
+        "7 trăm, 0 chục, 6 đơn vị",
+        "0 trăm, 7 chục, 6 đơn vị",
+        "6 trăm, 0 chục, 7 đơn vị"
+      ],
+      "key": "B",
+      "explanation": "Chữ số 7 ở hàng trăm, 0 ở hàng chục và 6 ở hàng đơn vị."
+    },
+    {
+      "code": "HSV-M3-V1-P01-Q02",
+      "grade": 3,
+      "lesson": "toan3-v1-bai02",
+      "skill": "Cộng các số trong phạm vi 1000",
+      "difficulty": "basic",
+      "prompt": "Tính: 324 + 215 = ?",
+      "options": [
+        "529",
+        "539",
+        "549",
+        "5390"
+      ],
+      "key": "B",
+      "explanation": "324 + 215 = (300 + 200) + (20 + 10) + (4 + 5) = 539."
+    },
+    {
+      "code": "HSV-M3-V1-P01-Q03",
+      "grade": 3,
+      "lesson": "toan3-v1-bai03",
+      "skill": "Tìm số hạng chưa biết",
+      "difficulty": "application",
+      "prompt": "Tìm x biết: x + 27 = 65.",
+      "options": [
+        "28",
+        "37",
+        "38",
+        "92"
+      ],
+      "key": "C",
+      "explanation": "Muốn tìm số hạng chưa biết, lấy tổng trừ số hạng đã biết: x = 65 − 27 = 38."
+    },
+    {
+      "code": "HSV-M3-V1-P01-Q04",
+      "grade": 3,
+      "lesson": "toan3-v1-bai04",
+      "skill": "Vận dụng bảng nhân 5",
+      "difficulty": "basic",
+      "prompt": "Có 7 hộp bút, mỗi hộp có 5 chiếc bút. Có tất cả bao nhiêu chiếc bút?",
+      "options": [
+        "12",
+        "25",
+        "30",
+        "35"
+      ],
+      "key": "D",
+      "explanation": "Có 7 nhóm, mỗi nhóm 5 chiếc: 7 × 5 = 35 chiếc bút."
+    },
+    {
+      "code": "HSV-M3-V1-P01-Q05",
+      "grade": 3,
+      "lesson": "toan3-v1-bai05",
+      "skill": "Nhận biết phép chia trong bảng chia 2 và 5",
+      "difficulty": "application",
+      "prompt": "Có 40 chiếc kẹo chia đều cho 5 bạn. Mỗi bạn nhận được bao nhiêu chiếc?",
+      "options": [
+        "5",
+        "8",
+        "10",
+        "35"
+      ],
+      "key": "B",
+      "explanation": "Chia đều 40 chiếc kẹo cho 5 bạn: 40 : 5 = 8 chiếc mỗi bạn."
+    },
+    {
+      "code": "HSV-M4-V1-P01-Q01",
+      "grade": 4,
+      "lesson": "toan4-v1-bai01",
+      "skill": "Đọc và phân tích số có nhiều chữ số",
+      "difficulty": "basic",
+      "prompt": "Trong số 34 205, chữ số 4 có giá trị là bao nhiêu?",
+      "options": [
+        "4",
+        "40",
+        "400",
+        "4 000"
+      ],
+      "key": "D",
+      "explanation": "Chữ số 4 ở hàng nghìn nên có giá trị là 4 000."
+    },
+    {
+      "code": "HSV-M4-V1-P01-Q02",
+      "grade": 4,
+      "lesson": "toan4-v1-bai02",
+      "skill": "Nhận biết số chẵn",
+      "difficulty": "basic",
+      "prompt": "Số nào sau đây là số chẵn?",
+      "options": [
+        "23 415",
+        "56 781",
+        "72 306",
+        "91 117"
+      ],
+      "key": "C",
+      "explanation": "Số chẵn có chữ số tận cùng là 0, 2, 4, 6 hoặc 8. Số 72 306 tận cùng là 6."
+    },
+    {
+      "code": "HSV-M4-V1-P01-Q03",
+      "grade": 4,
+      "lesson": "toan4-v1-bai03",
+      "skill": "Nhận biết số chẵn và số lẻ",
+      "difficulty": "basic",
+      "prompt": "Số 93 517 là số chẵn hay số lẻ?",
+      "options": [
+        "Số chẵn",
+        "Số lẻ",
+        "Vừa chẵn vừa lẻ",
+        "Không xác định được"
+      ],
+      "key": "B",
+      "explanation": "Số 93 517 có chữ số tận cùng là 7 nên là số lẻ."
+    },
+    {
+      "code": "HSV-M4-V1-P01-Q04",
+      "grade": 4,
+      "lesson": "toan4-v1-bai04",
+      "skill": "Tìm thành phần chưa biết trong biểu thức",
+      "difficulty": "application",
+      "prompt": "Biết x + 245 = 600. Giá trị của x là bao nhiêu?",
+      "options": [
+        "345",
+        "355",
+        "365",
+        "845"
+      ],
+      "key": "B",
+      "explanation": "x = 600 − 245 = 355."
+    },
+    {
+      "code": "HSV-M4-V1-P01-Q05",
+      "grade": 4,
+      "lesson": "toan4-v1-bai05",
+      "skill": "Giải bài toán bằng nhiều bước tính",
+      "difficulty": "application",
+      "prompt": "Một cửa hàng có 1 250 kg gạo, buổi sáng bán 275 kg, buổi chiều nhập thêm 180 kg. Cửa hàng còn bao nhiêu ki-lô-gam gạo?",
+      "options": [
+        "1 055 kg",
+        "1 145 kg",
+        "1 155 kg",
+        "1 705 kg"
+      ],
+      "key": "C",
+      "explanation": "Sau buổi sáng còn 1 250 − 275 = 975 kg. Sau khi nhập thêm có 975 + 180 = 1 155 kg."
+    },
+    {
+      "code": "HSV-M5-V1-P01-Q01",
+      "grade": 5,
+      "lesson": "toan5-v1-bai01",
+      "skill": "Cộng số tự nhiên",
+      "difficulty": "basic",
+      "prompt": "Tính: 3 405 + 2 095 = ?",
+      "options": [
+        "5 400",
+        "5 490",
+        "5 500",
+        "5 600"
+      ],
+      "key": "C",
+      "explanation": "3 405 + 2 095 = 5 500."
+    },
+    {
+      "code": "HSV-M5-V1-P01-Q02",
+      "grade": 5,
+      "lesson": "toan5-v1-bai02",
+      "skill": "Vận dụng phép nhân số tự nhiên",
+      "difficulty": "application",
+      "prompt": "Một nhà kho có 24 thùng, mỗi thùng chứa 125 quyển vở. Nhà kho có tất cả bao nhiêu quyển vở?",
+      "options": [
+        "2 500",
+        "2 800",
+        "3 000",
+        "3 200"
+      ],
+      "key": "C",
+      "explanation": "24 × 125 = 3 × 1 000 = 3 000 quyển vở."
+    },
+    {
+      "code": "HSV-M5-V1-P01-Q03",
+      "grade": 5,
+      "lesson": "toan5-v1-bai03",
+      "skill": "So sánh hai phân số",
+      "difficulty": "application",
+      "prompt": "Phân số nào lớn hơn: 3/4 hay 2/3?",
+      "options": [
+        "3/4",
+        "2/3",
+        "Hai phân số bằng nhau",
+        "Không so sánh được"
+      ],
+      "key": "A",
+      "explanation": "Quy đồng: 3/4 = 9/12 và 2/3 = 8/12. Vì 9/12 lớn hơn 8/12 nên 3/4 lớn hơn 2/3."
+    },
+    {
+      "code": "HSV-M5-V1-P01-Q04",
+      "grade": 5,
+      "lesson": "toan5-v1-bai04",
+      "skill": "Nhận biết phân số thập phân",
+      "difficulty": "basic",
+      "prompt": "Phân số nào sau đây là phân số thập phân?",
+      "options": [
+        "3/4",
+        "7/20",
+        "37/100",
+        "5/8"
+      ],
+      "key": "C",
+      "explanation": "Phân số thập phân là phân số có mẫu số là 10, 100, 1 000, ... Mẫu số 100 thỏa mãn."
+    },
+    {
+      "code": "HSV-M5-V1-P01-Q05",
+      "grade": 5,
+      "lesson": "toan5-v1-bai05",
+      "skill": "Tính một phần của một số",
+      "difficulty": "application",
+      "prompt": "Một lớp có 30 học sinh. 2/5 số học sinh của lớp tham gia câu lạc bộ cờ vua. Có bao nhiêu học sinh tham gia?",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "18"
+      ],
+      "key": "B",
+      "explanation": "Tính 1/5 của 30 được 30 : 5 = 6. Tính 2/5 của 30 được 6 × 2 = 12 học sinh."
+    },
+    {
+      "code": "HSV-M1-V1-GEO-Q01",
+      "grade": 1,
+      "lesson": "toan1-v1-bai07",
+      "skill": "Nhận biết hình phẳng cơ bản",
+      "difficulty": "basic",
+      "prompt": "Quan sát hình minh họa. Hình nào là hình vuông?",
+      "options": [
+        "Hình A",
+        "Hình B",
+        "Hình C",
+        "Hình D"
+      ],
+      "key": "C",
+      "explanation": "Hình C có bốn cạnh bằng nhau và bốn góc vuông nên là hình vuông.",
+      "figure": {
+        "w": 300,
+        "h": 90,
+        "items": [
+          {
+            "t": "poly",
+            "p": [
+              [
+                12,
+                65
+              ],
+              [
+                30,
+                18
+              ],
+              [
+                48,
+                65
+              ]
+            ],
+            "fill": "#bfdbfe"
+          },
+          {
+            "t": "txt",
+            "p": [
+              30,
+              84
+            ],
+            "s": "A",
+            "anchor": "middle"
+          },
+          {
+            "t": "circle",
+            "c": [
+              105,
+              43
+            ],
+            "r": 25,
+            "fill": "#fde68a"
+          },
+          {
+            "t": "txt",
+            "p": [
+              105,
+              84
+            ],
+            "s": "B",
+            "anchor": "middle"
+          },
+          {
+            "t": "poly",
+            "p": [
+              [
+                155,
+                18
+              ],
+              [
+                205,
+                18
+              ],
+              [
+                205,
+                68
+              ],
+              [
+                155,
+                68
+              ]
+            ],
+            "fill": "#bbf7d0"
+          },
+          {
+            "t": "txt",
+            "p": [
+              180,
+              84
+            ],
+            "s": "C",
+            "anchor": "middle"
+          },
+          {
+            "t": "poly",
+            "p": [
+              [
+                230,
+                27
+              ],
+              [
+                290,
+                27
+              ],
+              [
+                290,
+                58
+              ],
+              [
+                230,
+                58
+              ]
+            ],
+            "fill": "#fecaca"
+          },
+          {
+            "t": "txt",
+            "p": [
+              260,
+              84
+            ],
+            "s": "D",
+            "anchor": "middle"
+          }
+        ]
+      }
+    },
+    {
+      "code": "HSV-M2-V1-GEO-Q01",
+      "grade": 2,
+      "lesson": "toan2-v1-bai25",
+      "skill": "Phân biệt đoạn thẳng và đường cong",
+      "difficulty": "basic",
+      "prompt": "Quan sát hình minh họa. Hình nào biểu diễn một đoạn thẳng?",
+      "options": [
+        "Hình A",
+        "Hình B",
+        "Hình C",
+        "Hình D"
+      ],
+      "key": "A",
+      "explanation": "Hình A là đoạn thẳng nối hai đầu mút A và B. Các hình còn lại là đường cong, đường gấp khúc hoặc đường tròn.",
+      "figure": {
+        "w": 300,
+        "h": 100,
+        "items": [
+          {
+            "t": "line",
+            "a": [
+              12,
+              35
+            ],
+            "b": [
+              70,
+              35
+            ],
+            "w": 3
+          },
+          {
+            "t": "pt",
+            "p": [
+              12,
+              35
+            ],
+            "l": "A",
+            "dx": -2,
+            "dy": -10
+          },
+          {
+            "t": "pt",
+            "p": [
+              70,
+              35
+            ],
+            "l": "B",
+            "dx": 2,
+            "dy": -10
+          },
+          {
+            "t": "txt",
+            "p": [
+              41,
+              78
+            ],
+            "s": "A",
+            "anchor": "middle"
+          },
+          {
+            "t": "curve",
+            "p": [
+              [
+                90,
+                45
+              ],
+              [
+                105,
+                20
+              ],
+              [
+                120,
+                45
+              ],
+              [
+                135,
+                20
+              ],
+              [
+                150,
+                45
+              ]
+            ],
+            "w": 3
+          },
+          {
+            "t": "txt",
+            "p": [
+              120,
+              78
+            ],
+            "s": "B",
+            "anchor": "middle"
+          },
+          {
+            "t": "poly",
+            "p": [
+              [
+                170,
+                55
+              ],
+              [
+                190,
+                20
+              ],
+              [
+                215,
+                55
+              ],
+              [
+                240,
+                20
+              ]
+            ],
+            "stroke": "#1e293b",
+            "fill": "none",
+            "w": 3
+          },
+          {
+            "t": "txt",
+            "p": [
+              205,
+              78
+            ],
+            "s": "C",
+            "anchor": "middle"
+          },
+          {
+            "t": "circle",
+            "c": [
+              270,
+              40
+            ],
+            "r": 22,
+            "w": 3
+          },
+          {
+            "t": "txt",
+            "p": [
+              270,
+              78
+            ],
+            "s": "D",
+            "anchor": "middle"
+          }
+        ]
+      }
+    },
+    {
+      "code": "HSV-M3-V1-GEO-Q01",
+      "grade": 3,
+      "lesson": "toan3-v1-bai16",
+      "skill": "Nhận biết đường kính hình tròn",
+      "difficulty": "application",
+      "prompt": "Trong hình tròn tâm O, đoạn thẳng nào là đường kính?",
+      "options": [
+        "OA",
+        "OC",
+        "AB",
+        "OB"
+      ],
+      "key": "C",
+      "explanation": "Đường kính là đoạn thẳng có hai đầu mút nằm trên đường tròn và đi qua tâm O. Đoạn AB thỏa mãn điều kiện đó.",
+      "figure": {
+        "w": 240,
+        "h": 180,
+        "items": [
+          {
+            "t": "circle",
+            "c": [
+              120,
+              85
+            ],
+            "r": 62,
+            "w": 2.5
+          },
+          {
+            "t": "line",
+            "a": [
+              58,
+              85
+            ],
+            "b": [
+              182,
+              85
+            ],
+            "w": 2.5
+          },
+          {
+            "t": "line",
+            "a": [
+              120,
+              85
+            ],
+            "b": [
+              151,
+              31
+            ],
+            "w": 2.5,
+            "color": "#2563eb"
+          },
+          {
+            "t": "pt",
+            "p": [
+              120,
+              85
+            ],
+            "l": "O",
+            "dx": 6,
+            "dy": 17
+          },
+          {
+            "t": "pt",
+            "p": [
+              58,
+              85
+            ],
+            "l": "A",
+            "dx": -12,
+            "dy": 5
+          },
+          {
+            "t": "pt",
+            "p": [
+              182,
+              85
+            ],
+            "l": "B",
+            "dx": 5,
+            "dy": 5
+          },
+          {
+            "t": "pt",
+            "p": [
+              151,
+              31
+            ],
+            "l": "C",
+            "dx": 6,
+            "dy": -2
+          }
+        ]
+      }
+    },
+    {
+      "code": "HSV-M4-V1-GEO-Q01",
+      "grade": 4,
+      "lesson": "toan4-v1-bai07",
+      "skill": "Nhận biết hai đường thẳng vuông góc",
+      "difficulty": "basic",
+      "prompt": "Quan sát hai đường thẳng a và b trong hình. Hai đường thẳng này có quan hệ gì?",
+      "options": [
+        "Song song",
+        "Vuông góc",
+        "Trùng nhau",
+        "Không cắt nhau"
+      ],
+      "key": "B",
+      "explanation": "Hai đường thẳng a và b cắt nhau tạo thành góc vuông, vì vậy chúng vuông góc với nhau.",
+      "figure": {
+        "w": 220,
+        "h": 150,
+        "items": [
+          {
+            "t": "line",
+            "a": [
+              30,
+              75
+            ],
+            "b": [
+              190,
+              75
+            ],
+            "w": 2.5
+          },
+          {
+            "t": "line",
+            "a": [
+              110,
+              18
+            ],
+            "b": [
+              110,
+              132
+            ],
+            "w": 2.5
+          },
+          {
+            "t": "rt",
+            "at": [
+              110,
+              75
+            ],
+            "u": [
+              -1,
+              0
+            ],
+            "v": [
+              0,
+              -1
+            ],
+            "s": 13
+          },
+          {
+            "t": "txt",
+            "p": [
+              195,
+              70
+            ],
+            "s": "a",
+            "size": 15
+          },
+          {
+            "t": "txt",
+            "p": [
+              118,
+              18
+            ],
+            "s": "b",
+            "size": 15
+          },
+          {
+            "t": "pt",
+            "p": [
+              110,
+              75
+            ],
+            "l": "O",
+            "dx": 8,
+            "dy": 16
+          }
+        ]
+      }
+    },
+    {
+      "code": "HSV-M5-V1-GEO-Q01",
+      "grade": 5,
+      "lesson": "toan5-v1-bai25",
+      "skill": "Tính diện tích hình tam giác",
+      "difficulty": "application",
+      "prompt": "Một hình tam giác có đáy dài 8 cm và chiều cao tương ứng dài 5 cm. Diện tích hình tam giác là bao nhiêu?",
+      "options": [
+        "13 cm²",
+        "20 cm²",
+        "26 cm²",
+        "40 cm²"
+      ],
+      "key": "B",
+      "explanation": "Diện tích hình tam giác bằng độ dài đáy nhân chiều cao rồi chia 2: 8 × 5 : 2 = 20 cm².",
+      "figure": {
+        "w": 250,
+        "h": 160,
+        "items": [
+          {
+            "t": "line",
+            "a": [
+              35,
+              125
+            ],
+            "b": [
+              215,
+              125
+            ],
+            "w": 2.5
+          },
+          {
+            "t": "line",
+            "a": [
+              35,
+              125
+            ],
+            "b": [
+              125,
+              25
+            ],
+            "w": 2.5
+          },
+          {
+            "t": "line",
+            "a": [
+              125,
+              25
+            ],
+            "b": [
+              215,
+              125
+            ],
+            "w": 2.5
+          },
+          {
+            "t": "line",
+            "a": [
+              125,
+              25
+            ],
+            "b": [
+              125,
+              125
+            ],
+            "dash": true,
+            "color": "#2563eb",
+            "w": 2
+          },
+          {
+            "t": "rt",
+            "at": [
+              125,
+              125
+            ],
+            "u": [
+              -1,
+              0
+            ],
+            "v": [
+              0,
+              -1
+            ],
+            "s": 10
+          },
+          {
+            "t": "txt",
+            "p": [
+              125,
+              148
+            ],
+            "s": "8 cm",
+            "anchor": "middle",
+            "size": 14
+          },
+          {
+            "t": "txt",
+            "p": [
+              135,
+              78
+            ],
+            "s": "5 cm",
+            "size": 14,
+            "color": "#2563eb"
+          }
+        ]
+      }
+    }
+  ]
+}
