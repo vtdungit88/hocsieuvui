@@ -15,6 +15,15 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.3',
+    date: '2026-11-18',
+    title: 'Hoàn tất trọn bộ 11 môn Lớp 1–3 (thêm Tin học, Công nghệ & HĐTN)',
+    items: [
+      'Mở khóa 3 môn còn lại cho Lớp 1–3: Hoạt động trải nghiệm 1–3 (54 bài · 810 câu), Tin học 3 (16 bài · 240 câu), Công nghệ 3 (10 bài · 150 câu) với 198 hình minh họa SVG mới.',
+      'Hoàn thiện toàn bộ 11 môn ngoài Toán cho Lớp 1–3 (TNXH 1–3 và 10 môn bộ đề chuẩn mới gồm 431 bài · 6.465 câu · 879 hình SVG), nâng tổng kho đề cùng Toán 1–9 và KHTN 6–9 vượt mốc 12.800 câu hỏi.'
+    ]
+  },
+  {
     version: '0.2.2',
     date: '2026-11-18',
     title: 'Mở khóa bộ câu hỏi Lớp 1–3 cho 8 môn học',

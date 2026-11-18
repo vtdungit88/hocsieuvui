@@ -1,0 +1,3797 @@
+[
+  {
+    "chapter": "congnghe3-c1",
+    "lesson": {
+      "code": "congnghe3-b01",
+      "title": "Bài 1. Tự nhiên và Công nghệ",
+      "seq": 1,
+      "subtitle": "Phân biệt đối tượng tự nhiên và sản phẩm công nghệ quanh em, hiểu lợi ích và biết giữ gìn sản phẩm công nghệ",
+      "concepts": [
+        "Đối tượng tự nhiên",
+        "Sản phẩm công nghệ",
+        "Vai trò công nghệ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN3-B01-001",
+        "d": "basic",
+        "p": "Những sự vật có sẵn trong thiên nhiên, không phải do bàn tay con người chế tạo ra (như cây xanh, dòng sông, Mặt Trời, hòn đá) được gọi là gì?",
+        "o": [
+          "Đồ chơi lắp ráp bằng nhựa",
+          "Đối tượng tự nhiên",
+          "Thiết bị điện gia dụng",
+          "Sản phẩm công nghệ"
+        ],
+        "k": "B",
+        "e": "Cây cối, núi sông, mây trời, động vật hoang dã là những đối tượng có sẵn trong tự nhiên.",
+        "s": "Công nghệ 3",
+        "h": "Khái niệm đối tượng tự nhiên",
+        "fig": {
+          "type": "table",
+          "title": "Tự nhiên và Công nghệ",
+          "head": [
+            "Nhóm",
+            "Ví dụ quen thuộc"
+          ],
+          "rows": [
+            [
+              "Đối tượng tự nhiên",
+              "Mặt Trời, cây, sông"
+            ],
+            [
+              "Đối tượng tự nhiên",
+              "Đồi núi, mây, chim"
+            ],
+            [
+              "Sản phẩm công nghệ",
+              "Đèn học, quạt, tivi"
+            ],
+            [
+              "Sản phẩm công nghệ",
+              "Xe đạp, máy tính"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN3-B01-002",
+        "d": "basic",
+        "p": "Những đồ vật, máy móc do con người nghiên cứu thiết kế và làm ra để phục vụ đời sống (như quạt điện, đèn bàn, xe đạp, nồi cơm điện) được gọi là gì?",
+        "o": [
+          "Hiện tượng thời tiết",
+          "Sản phẩm công nghệ",
+          "Khoáng sản tự nhiên",
+          "Đối tượng tự nhiên nguyên thủy"
+        ],
+        "k": "B",
+        "e": "Con người tạo ra các sản phẩm công nghệ giúp sinh hoạt, học tập và lao động tiện lợi, nhanh chóng hơn.",
+        "s": "Công nghệ 3",
+        "h": "Khái niệm sản phẩm công nghệ"
+      },
+      {
+        "c": "CN3-B01-003",
+        "d": "basic",
+        "p": "Trong các thứ liệt kê dưới đây, vật nào KHÔNG phải là sản phẩm công nghệ do con người chế tạo?",
+        "o": [
+          "Chiếc đèn pin cầm tay",
+          "Chiếc quạt điện trên bàn học",
+          "Cây bàng cổ thụ trên sân trường",
+          "Chiếc máy thu hình trong phòng khách"
+        ],
+        "k": "C",
+        "e": "Cây bàng mọc tự nhiên là đối tượng tự nhiên; quạt điện, tivi, đèn pin đều là sản phẩm công nghệ.",
+        "s": "Công nghệ 3",
+        "h": "Phân biệt cây xanh với máy móc"
+      },
+      {
+        "c": "CN3-B01-004",
+        "d": "basic",
+        "p": "Chiếc quạt điện được con người sáng tạo ra giúp ích cho gia đình vào những ngày mùa hè oi bức ở công dụng nào?",
+        "o": [
+          "Chiếu sáng góc bàn học ban đêm",
+          "Nấu chín cơm trong nồi",
+          "Tạo ra luồng gió mát giúp cơ thể dễ chịu hơn",
+          "Phát nhạc qua sóng đài"
+        ],
+        "k": "C",
+        "e": "Quạt điện biến điện năng thành chuyển động quay của cánh quạt tạo ra gió làm mát không khí.",
+        "s": "Công nghệ 3",
+        "h": "Công dụng chính của quạt điện"
+      },
+      {
+        "c": "CN3-B01-005",
+        "d": "basic",
+        "p": "Để các sản phẩm công nghệ trong gia đình luôn sạch đẹp, dùng được bền lâu và tránh hư hỏng lãng phí, chúng ta cần làm gì?",
+        "o": [
+          "Sử dụng đúng hướng dẫn, lau chùi nhẹ nhàng và bảo quản cẩn thận gọn gàng",
+          "Tự ý tháo tung ốc vít bên trong khi đang cắm điện",
+          "Đập mạnh thử độ bền sản phẩm",
+          "Vứt lăn lóc ngoài sân mưa nắng"
+        ],
+        "k": "A",
+        "e": "Của bền tại người: giữ gìn cẩn thận và dùng đúng cách giúp đồ dùng công nghệ hoạt động lâu bền.",
+        "s": "Công nghệ 3",
+        "h": "Giữ gìn sản phẩm công nghệ"
+      },
+      {
+        "c": "CN3-B01-006",
+        "d": "basic",
+        "p": "Việc tạo ra tủ lạnh, máy giặt và bình đun nước siêu tốc mang lại lợi ích chung lớn nhất nào cho các gia đình?",
+        "o": [
+          "Tiết kiệm thời gian, giảm sức lao động vất vả và nâng cao chất lượng cuộc sống",
+          "Tăng thêm nhiều bụi bẩn trên bàn",
+          "Làm ngôi nhà tối đi không cần ánh sáng",
+          "Làm thực phẩm hỏng nhanh hơn"
+        ],
+        "k": "A",
+        "e": "Các sản phẩm công nghệ gia đình giúp bố mẹ có thêm thời gian nghỉ ngơi và chăm sóc con cái.",
+        "s": "Công nghệ 3",
+        "h": "Lợi ích của công nghệ gia dụng"
+      },
+      {
+        "c": "CN3-B01-007",
+        "d": "application",
+        "p": "Một nhóm học sinh đi dã ngoại mang theo chai nước lọc, quả táo tươi hái ở vườn, chiếc la bàn định hướng và chiếc đồng hồ đeo tay. Có mấy sản phẩm công nghệ trong 4 món kể trên?",
+        "o": [
+          "Có 3 sản phẩm công nghệ (chai nhựa chế tạo, la bàn và đồng hồ đeo tay); còn quả táo tươi là sản phẩm tự nhiên từ cây trồng",
+          "Tất cả 4 thứ đều mọc tự nhiên trên cây",
+          "Có duy nhất 1 sản phẩm là quả táo",
+          "Không có sản phẩm công nghệ nào"
+        ],
+        "k": "A",
+        "e": "Nhận ra chai nhựa, la bàn, đồng hồ là do con người sản xuất công nghiệp; quả táo sinh trưởng tự nhiên.",
+        "s": "Công nghệ 3",
+        "h": "Đếm sản phẩm công nghệ khi dã ngoại"
+      },
+      {
+        "c": "CN3-B01-008",
+        "d": "application",
+        "p": "Trước kia người ta dùng quạt nan giấy quạt bằng tay rất mỏi, ngày nay có quạt điện tự xoay chuyển hướng; trước kia thắp đèn dầu khói mờ, ngày nay có đèn LED sáng dịu. Sự thay đổi đó nói lên điều gì về công nghệ?",
+        "o": [
+          "Sản phẩm công nghệ ngày càng được cải tiến thông minh, tiện ích và thân thiện với con người hơn",
+          "Con người không bao giờ cải tiến đồ vật cũ",
+          "Công nghệ ngày xưa luôn hiện đại hơn ngày nay",
+          "Quạt điện không cần năng lượng để chạy"
+        ],
+        "k": "A",
+        "e": "Công nghệ không ngừng phát triển từ những nhu cầu thực tế của cuộc sống hằng ngày.",
+        "s": "Công nghệ 3",
+        "h": "Sự phát triển của sản phẩm công nghệ"
+      },
+      {
+        "c": "CN3-B01-009",
+        "d": "application",
+        "p": "Bạn Minh thấy trong phòng không có ai nhưng đèn chùm và quạt trần vẫn chạy vù vù suốt buổi trưa. Hành động văn minh với công nghệ lúc này là gì?",
+        "o": [
+          "Để nguyên vậy cho tốn điện thêm",
+          "Chạy đi chỗ khác mặc kệ",
+          "Bật thêm tivi và điều hòa cho đủ bộ",
+          "Tắt công tắc đèn và quạt khi ra khỏi phòng không có người sử dụng để tiết kiệm điện năng"
+        ],
+        "k": "D",
+        "e": "Sử dụng sản phẩm công nghệ tiết kiệm điện năng vừa bảo vệ thiết bị vừa góp phần bảo vệ môi trường.",
+        "s": "Công nghệ 3",
+        "h": "Tiết kiệm điện khi không dùng"
+      },
+      {
+        "c": "CN3-B01-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ khảo sát những sản phẩm công nghệ có mặt nhiều nhất tại góc học tập của 30 bạn lớp 3A (hình dưới). Thiết bị nào có đủ ở hầu hết góc học tập các bạn?",
+        "o": [
+          "Đèn học để bàn (29 trên 30 bạn) và đồng hồ báo thức (26 trên 30 bạn)",
+          "Máy thu thanh (10 bạn)",
+          "Máy in cá nhân (5 bạn)",
+          "Không có bạn nào có đèn học"
+        ],
+        "k": "A",
+        "e": "Đèn học và đồng hồ là hai sản phẩm công nghệ gần gũi gắn bó hàng ngày nhất với góc học tập lớp 3.",
+        "s": "Công nghệ 3",
+        "h": "Đọc biểu đồ đồ dùng góc học tập",
+        "fig": {
+          "type": "bars",
+          "title": "Thiết bị tại góc học tập Lớp 3A (/30 bạn)",
+          "labels": [
+            "Đèn học",
+            "Đồng hồ",
+            "Quạt mini",
+            "Đài nhỏ"
+          ],
+          "series": [
+            {
+              "values": [
+                29,
+                26,
+                18,
+                10
+              ]
+            }
+          ],
+          "unit": "bạn"
+        }
+      },
+      {
+        "c": "CN3-B01-011",
+        "d": "application",
+        "p": "Nếu chỉ dùng các sản phẩm công nghệ quá nhiều giờ liên tục (ví dụ xem tivi hay điện thoại suốt 5 tiếng liền không vận động) thì tác hại dễ thấy nhất là gì?",
+        "o": [
+          "Gây mỏi mắt giảm thị lực, ít vận động cơ thể và ảnh hưởng thời gian học tập, ngủ nghỉ",
+          "Không có bất kì tác hại nào",
+          "Giúp đôi mắt sáng khỏe gấp đôi",
+          "Giúp tăng chiều cao nhanh chóng"
+        ],
+        "k": "A",
+        "e": "Công nghệ chỉ thực sự có ích khi chúng ta biết làm chủ thời gian và sử dụng điều độ hợp lí!",
+        "s": "Công nghệ 3",
+        "h": "Mặt trái khi lạm dụng công nghệ"
+      },
+      {
+        "c": "CN3-B01-012",
+        "d": "application",
+        "p": "Mỗi loại rác thải công nghệ như pin đã cạn điện hay bóng đèn huỳnh quang hỏng không nên vứt bừa ra đất vườn mà phải bỏ vào điểm thu gom riêng. Vì sao?",
+        "o": [
+          "Vì pin cũ có thể mọc thành cây pin mới",
+          "Vì muốn giữ pin làm đồ ăn cho cá",
+          "Vì vỏ pin làm bằng giấy ăn được",
+          "Vì bên trong pin cũ có chứa hóa chất kim loại nặng dễ ngấm làm ô nhiễm đất và nguồn nước ngầm"
+        ],
+        "k": "D",
+        "e": "Thu gom pin và rác điện tử đúng nơi quy định giúp bảo vệ thiên nhiên trong lành.",
+        "s": "Công nghệ 3",
+        "h": "Bảo vệ môi trường khỏi rác pin cũ"
+      },
+      {
+        "c": "CN3-B01-013",
+        "d": "advanced",
+        "p": "Con người đã học hỏi chính \"Đối tượng tự nhiên\" để sáng tạo ra nhiều sản phẩm công nghệ tuyệt vời. Ví dụ cặp hình ảnh tự nhiên — công nghệ nào đúng nhất?",
+        "o": [
+          "Quan sát hòn đá tròn -> Sáng tạo ra dòng sông",
+          "Quan sát đôi cánh chim bay trên trời -> Sáng tạo ra cánh máy bay; quan sát đom đóm phát sáng -> Phát minh đèn chiếu sáng mát dịu",
+          "Quan sát cơn gió -> Tạo ra con cá chép",
+          "Quan sát cái cây -> Sáng tạo ra đám mây mưa"
+        ],
+        "k": "B",
+        "e": "Thiên nhiên là người thầy vĩ đại truyền cảm hứng cho rất nhiều phát minh công nghệ vĩ đại!",
+        "s": "Công nghệ 3",
+        "h": "Công nghệ học hỏi từ tự nhiên"
+      },
+      {
+        "c": "CN3-B01-014",
+        "d": "advanced",
+        "p": "Khi con người phát triển công nghệ xây dựng nhà máy chạy than, xe máy xả khói nhưng thiếu biện pháp xử lí khí thải, mối quan hệ giữa công nghệ và tự nhiên bị ảnh hưởng thế nào?",
+        "o": [
+          "Gây ô nhiễm khói bụi không khí, làm nóng khí hậu và ảnh hưởng xấu đến chính sức khỏe con người cùng thiên nhiên",
+          "Làm bầu trời luôn xanh sạch hơn trước",
+          "Không gây tác động gì tới môi trường",
+          "Tăng lượng cá tôm dưới sông"
+        ],
+        "k": "A",
+        "e": "Công nghệ xanh dùng năng lượng sạch (mặt trời, gió) là hướng đi tất yếu để công nghệ và tự nhiên hài hòa bền vững.",
+        "s": "Công nghệ 3",
+        "h": "Cân bằng công nghệ và môi trường"
+      },
+      {
+        "c": "CN3-B01-015",
+        "d": "advanced",
+        "p": "Theo em, điều gì quyết định một sản phẩm công nghệ trở thành \"người bạn tốt\" hay \"gây hại\" cho người sử dụng?",
+        "o": [
+          "Phụ thuộc vào cách con người sử dụng nó: đúng mục đích học tập làm việc, đúng quy tắc an toàn và vừa đủ thời gian",
+          "Do chiếc máy tự quyết định mọi thứ",
+          "Phụ thuộc vào màu sơn vỏ nhựa bên ngoài",
+          "Phụ thuộc vào giá tiền đắt hay rẻ"
+        ],
+        "k": "A",
+        "e": "Làm chủ công nghệ bằng kiến thức an toàn và kỉ luật bản thân chính là kĩ năng của công dân hiện đại.",
+        "s": "Công nghệ 3",
+        "h": "Làm chủ việc dùng công nghệ"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe3-c1",
+    "lesson": {
+      "code": "congnghe3-b02",
+      "title": "Bài 2. Sử dụng Đèn học Đúng cách",
+      "seq": 2,
+      "subtitle": "Nhận biết các bộ phận chính của đèn học để bàn và thực hành đặt, bật tắt, giữ gìn đèn học bảo vệ thị lực học sinh lớp 3",
+      "concepts": [
+        "Bộ phận chính đèn học",
+        "Vị trí đặt đèn bảo vệ mắt",
+        "Thao tác bật tắt an toàn"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN3-B02-001",
+        "d": "basic",
+        "p": "Tác dụng chính của chiếc đèn học để bàn đối với học sinh khi ngồi học bài vào buổi tối hoặc lúc trời âm u là gì?",
+        "o": [
+          "Phát âm thanh bài hát ru ngủ",
+          "Làm nóng cốc nước uống",
+          "Cung cấp nguồn ánh sáng tập trung vừa đủ sáng dịu cho mặt bàn học, giúp bảo vệ đôi mắt không phải điều tiết căng thẳng",
+          "Tạo gió mát làm bay trang vở"
+        ],
+        "k": "C",
+        "e": "Ánh sáng ổn định dịu mắt từ đèn học ngăn ngừa cận thị và mỏi mắt cho học sinh.",
+        "s": "Công nghệ 3",
+        "h": "Tác dụng của đèn học",
+        "fig": {
+          "type": "table",
+          "title": "Các bộ phận chính Đèn học",
+          "head": [
+            "Bộ phận",
+            "Chức năng chính"
+          ],
+          "rows": [
+            [
+              "Đế đèn",
+              "Giữ đèn đứng vững"
+            ],
+            [
+              "Thân đèn",
+              "Chỉnh độ cao, hướng"
+            ],
+            [
+              "Chụp đèn",
+              "Tập trung hướng sáng"
+            ],
+            [
+              "Công tắc",
+              "Bật và tắt bóng đèn"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN3-B02-002",
+        "d": "basic",
+        "p": "Bộ phận nào của chiếc đèn học có hình dáng úp chụp quanh bóng đèn giúp gom ánh sáng rọi xuống vở và ngăn ánh sáng chói trực tiếp vào mắt?",
+        "o": [
+          "Chụp đèn",
+          "Đế đèn nặng phía dưới",
+          "Phích cắm điện",
+          "Công tắc bấm"
+        ],
+        "k": "A",
+        "e": "Chụp đèn hướng luồng sáng xuống trang sách và che chắn sợi tóc hay chíp LED không chói thẳng vào mắt.",
+        "s": "Công nghệ 3",
+        "h": "Vai trò của chụp đèn"
+      },
+      {
+        "c": "CN3-B02-003",
+        "d": "basic",
+        "p": "Bộ phận nào có nhiệm vụ nâng đỡ toàn bộ cây đèn, bên trong thường có lõi nặng giúp đèn đứng vững vàng không bị đổ ngã trên mặt bàn?",
+        "o": [
+          "Đế đèn",
+          "Dây dẫn điện",
+          "Bóng đèn",
+          "Nút công tắc"
+        ],
+        "k": "A",
+        "e": "Đế đèn vững chãi giúp cây đèn ổn định ngay cả khi em uốn cong phần cổ thân đèn.",
+        "s": "Công nghệ 3",
+        "h": "Vai trò của đế đèn"
+      },
+      {
+        "c": "CN3-B02-004",
+        "d": "basic",
+        "p": "Khi đặt chiếc đèn học trên bàn cho người viết tay PHẢI, nên đặt đèn ở phía nào để bóng của bàn tay cầm bút KHÔNG che tối trang vở?",
+        "o": [
+          "Đặt ở phía bên phải ngay sát khuỷu tay phải",
+          "Đặt thẳng ngay trước mặt rọi ngược vào mắt",
+          "Đặt ở phía bên TRÁI bàn học, hướng ánh sáng chéo xuống trang giấy",
+          "Đặt ngay dưới gầm bàn rọi lên"
+        ],
+        "k": "C",
+        "e": "Người thuận tay phải đặt đèn bên trái để bàn tay không tạo bóng râm che chữ vừa viết!",
+        "s": "Công nghệ 3",
+        "h": "Đặt đèn cho người thuận tay phải"
+      },
+      {
+        "c": "CN3-B02-005",
+        "d": "basic",
+        "p": "Trước khi chạm tay vào phích cắm hoặc công tắc bật đèn học, bàn tay của em phải đảm bảo điều kiện an toàn điện nào?",
+        "o": [
+          "Tay vừa rửa nước nhỏ giọt",
+          "Tay đang cầm thanh sắt ẩm",
+          "Tay phải hoàn toàn khô ráo (không ướt nước)",
+          "Tay dính đầy bùn ướt"
+        ],
+        "k": "C",
+        "e": "Không bao giờ chạm vào công tắc hay phích cắm điện khi tay đang ướt để phòng tránh điện giật.",
+        "s": "Công nghệ 3",
+        "h": "An toàn tay khô trước khi bật đèn"
+      },
+      {
+        "c": "CN3-B02-006",
+        "d": "basic",
+        "p": "Trình tự đúng các bước sử dụng đèn học để bàn gồm: (1) Đặt đèn ở vị trí phù hợp -> (2) Cắm phích điện gọn gàng -> (3) Bật công tắc, điều chỉnh hướng sáng -> (4) Tắt đèn sau khi học xong. Nếu không dùng nữa trong thời gian dài nên làm thêm gì?",
+        "o": [
+          "Xoáy lỏng bóng đèn ra khi đang nóng",
+          "Cứ bật sáng đèn suốt cả ngày đêm",
+          "Lấy kéo cắt đứt đoạn dây cắm điện",
+          "Rút phích cắm điện cẩn thận (nắm vào thân phích cắm, không giật dây điện) khi tắt đèn xong"
+        ],
+        "k": "D",
+        "e": "Tắt công tắc xong mới rút phích cầm ở phần nhựa chắc chắn giúp an toàn tuyệt đối.",
+        "s": "Công nghệ 3",
+        "h": "Thao tác sau khi học xong"
+      },
+      {
+        "c": "CN3-B02-007",
+        "d": "application",
+        "p": "Bạn Lan thuận tay TRÁI (viết bằng tay trái). Để ánh sáng không bị bóng bàn tay trái che khuất dòng chữ đang viết trên vở, Lan nên đặt chiếc đèn học ở bên nào mặt bàn?",
+        "o": [
+          "Tắt đèn học không bật",
+          "Đặt đèn ở phía bên trái đè lên quyển vở",
+          "Đặt đèn ở phía bên PHẢI bàn học",
+          "Đặt đèn dưới sàn nhà cạnh chân ghế"
+        ],
+        "k": "C",
+        "e": "Ngược lại với người thuận tay phải, bạn thuận tay trái đặt đèn bên phải để ánh sáng luôn thoáng sáng rõ nét trang vở!",
+        "s": "Công nghệ 3",
+        "h": "Đặt đèn cho người thuận tay trái"
+      },
+      {
+        "c": "CN3-B02-008",
+        "d": "application",
+        "p": "Khi ngồi học buổi tối, một số bạn tắt hết đèn trần phòng học chỉ để duy nhất chiếc đèn bàn sáng gắt trong căn phòng tối om. Thói quen đó tốt hay không tốt cho mắt?",
+        "o": [
+          "Giúp đọc sách nhanh gấp 3 lần",
+          "Không sao cả miễn là bóng đèn có màu đỏ",
+          "Rất tốt vì tiết kiệm điện tuyệt đối và làm mắt nhìn rõ hơn",
+          "Không tốt! Chênh lệch độ sáng quá lớn giữa trang giấy sáng chói và xung quanh tối thui làm mắt nhanh bị nhức mỏi, giảm thị lực"
+        ],
+        "k": "D",
+        "e": "Luôn bật thêm đèn chiếu sáng chung dịu nhẹ trong phòng kết hợp cùng đèn học bàn để mắt điều tiết dễ chịu nhất!",
+        "s": "Công nghệ 3",
+        "h": "Kết hợp đèn phòng và đèn bàn"
+      },
+      {
+        "c": "CN3-B02-009",
+        "d": "application",
+        "p": "Thấy bóng đèn bàn học bị đóng một lớp bụi dày làm ánh sáng mờ tối đi, em muốn lau sạch bụi cho bóng và chụp đèn. Việc đầu tiên em phải làm là gì?",
+        "o": [
+          "Tắt công tắc, rút phích cắm điện ra và đợi bóng đèn nguội hẳn rồi mới dùng khăn mềm khô lau nhẹ nhàng",
+          "Phun thẳng nước vòi sen lên bóng đèn",
+          "Gõ mạnh vào bóng đèn cho bụi rơi ra",
+          "Lấy khăn ướt sũng lau ngay khi đèn đang bật sáng nóng rực"
+        ],
+        "k": "A",
+        "e": "Tắt điện — Đợi nguội — Lau bằng khăn mềm khô ráo là quy tắc vàng vệ sinh mọi thiết bị điện!",
+        "s": "Công nghệ 3",
+        "h": "Vệ sinh đèn học đúng quy trình"
+      },
+      {
+        "c": "CN3-B02-010",
+        "d": "application",
+        "p": "Trong gia đình có 4 kiểu bóng đèn học khác nhau. Để ánh sáng êm dịu không nhấp nháy gây nhức mắt và tiết kiệm điện tốt nhất cho góc học tập lớp 3, bố mẹ nên chọn loại bóng nào?",
+        "o": [
+          "Ngọn nến sáp dễ gây cháy vở",
+          "Bóng đèn dây tóc tỏa nhiệt nóng bỏng sát đầu",
+          "Bóng đèn LED chống cận ánh sáng vàng ấm hoặc trắng dịu ổn định (không nhấp nháy)",
+          "Bóng đèn nhấp nháy nhiều màu sắc xanh đỏ như sân khấu"
+        ],
+        "k": "C",
+        "e": "Đèn LED đạt chuẩn ít tỏa nhiệt, tiết kiệm điện và cho luồng sáng đều liên tục bảo vệ mắt tối ưu.",
+        "s": "Công nghệ 3",
+        "h": "Chọn loại bóng đèn tốt cho mắt"
+      },
+      {
+        "c": "CN3-B02-011",
+        "d": "application",
+        "p": "Chụp đèn của bạn Minh bị đặt lệch ngửa lên trên khiến bóng đèn chiếu thẳng vào mắt mỗi khi Minh ngẩng đầu nhìn lên. Minh cần điều chỉnh thế nào?",
+        "o": [
+          "Uốn nhẹ cổ đèn sao cho chụp đèn hướng chúc xuống mặt vở, cao hơn mặt bàn khoảng 35–45 cm và thấp hơn tầm mắt để không nhìn thẳng vào bóng sáng",
+          "Đeo kính đen khi làm bài tập",
+          "Bẻ gãy hẳn chụp đèn vứt đi",
+          "Nâng đèn cao chạm lên trần nhà"
+        ],
+        "k": "A",
+        "e": "Điều chỉnh độ cao và góc chụp đèn hướng xuống mặt trang giấy giúp ánh sáng rọi tập trung mà không chói mắt.",
+        "s": "Công nghệ 3",
+        "h": "Chỉnh góc chụp đèn đúng tầm"
+      },
+      {
+        "c": "CN3-B02-012",
+        "d": "application",
+        "p": "Mỗi buổi tối bạn Hùng ngồi học bài dưới ánh đèn học từ 19 giờ 30 đến 20 giờ 15 rồi tắt đèn đi soạn cặp (đồng hồ bên dưới chỉ giờ bắt đầu học). Hùng bật đèn học trong bao nhiêu phút?",
+        "o": [
+          "90 phút",
+          "120 phút",
+          "15 phút",
+          "45 phút"
+        ],
+        "k": "D",
+        "e": "Từ 19 giờ 30 đến 20 giờ 15 là đúng 45 phút tự học vừa vặn hiệu quả và tiết kiệm điện!",
+        "s": "Công nghệ 3",
+        "h": "Tính thời gian dùng đèn học",
+        "fig": {
+          "w": 300,
+          "h": 180,
+          "items": [
+            {
+              "t": "circle",
+              "c": [
+                150,
+                88
+              ],
+              "r": 62,
+              "fill": "#f8fafc",
+              "stroke": "#1e293b",
+              "w": 2.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                174.5,
+                49.6
+              ],
+              "s": "1",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                192.4,
+                67.5
+              ],
+              "s": "2",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                199.0,
+                92.0
+              ],
+              "s": "3",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                192.4,
+                116.5
+              ],
+              "s": "4",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                174.5,
+                134.4
+              ],
+              "s": "5",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                150.0,
+                141.0
+              ],
+              "s": "6",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                125.5,
+                134.4
+              ],
+              "s": "7",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                107.6,
+                116.5
+              ],
+              "s": "8",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                101.0,
+                92.0
+              ],
+              "s": "9",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                107.6,
+                67.5
+              ],
+              "s": "10",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                125.5,
+                49.6
+              ],
+              "s": "11",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                150.0,
+                43.0
+              ],
+              "s": "12",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "line",
+              "a": [
+                150,
+                88
+              ],
+              "b": [
+                128.8,
+                109.2
+              ],
+              "arrow": true,
+              "color": "#1e293b",
+              "w": 3.5
+            },
+            {
+              "t": "line",
+              "a": [
+                150,
+                88
+              ],
+              "b": [
+                150.0,
+                134.0
+              ],
+              "arrow": true,
+              "color": "#dc2626",
+              "w": 2.2
+            },
+            {
+              "t": "pt",
+              "p": [
+                150,
+                88
+              ]
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                168
+              ],
+              "s": "19 giờ 30 tối — Bắt đầu bật đèn học",
+              "anchor": "middle",
+              "size": 12
+            }
+          ]
+        }
+      },
+      {
+        "c": "CN3-B02-013",
+        "d": "advanced",
+        "p": "Tại sao khi chọn đèn học cho trẻ em, người ta lại kiểm tra độ \"không nhấp nháy\" (flicker-free) bằng cách đưa máy ảnh điện thoại lại gần bóng đèn đang sáng?",
+        "o": [
+          "Vì bóng đèn nhấp nháy sẽ tự tắt sau 5 giây",
+          "Vì đèn không nhấp nháy không cần cắm điện",
+          "Vì máy ảnh làm bóng đèn đổi sang màu xanh lá",
+          "Vì mắt thường khó thấy ngay sự nhấp nháy tần số cao, nhưng nhìn lâu dưới đèn nhấp nháy làm cơ mắt phải co giãn liên tục gây đau đầu và mỏi mắt"
+        ],
+        "k": "D",
+        "e": "Ánh sáng liên tục ổn định không nhấp nháy là tiêu chuẩn hàng đầu của đèn học bảo vệ thị lực.",
+        "s": "Công nghệ 3",
+        "h": "Hiểu về hiện tượng đèn nhấp nháy"
+      },
+      {
+        "c": "CN3-B02-014",
+        "d": "advanced",
+        "p": "Khi rút phích cắm đèn học ra khỏi ổ điện tường, tại sao tuyệt đối không được cầm vào phần dây điện mềm ở phía sau để giật mạnh ra?",
+        "o": [
+          "Vì kéo giật dây dễ làm đứt ngầm lõi đồng bên trong, lỏng khớp nối gây hở điện chập cháy cực kì nguy hiểm",
+          "Vì nắm thân phích cắm làm điện chảy nhanh hơn",
+          "Vì cầm dây điện làm bóng đèn sáng to hơn",
+          "Vì dây điện mềm rất trơn khó cầm"
+        ],
+        "k": "A",
+        "e": "Một tay giữ nhẹ mặt ổ cắm, một tay nắm chắc vào phần vỏ nhựa cứng của phích cắm rút thẳng ra là động tác chuẩn kỹ thuật.",
+        "s": "Công nghệ 3",
+        "h": "Kĩ năng rút phích cắm an toàn"
+      },
+      {
+        "c": "CN3-B02-015",
+        "d": "advanced",
+        "p": "Tổng hợp 4 điểm chuẩn khi dùng đèn học là gì: (1) Đặt đúng bên ngược tay viết; (2) Kết hợp đèn phòng; (3) Tay khô bật tắt; (4) Chỉnh chụp đèn rọi xuống mặt bàn. Thiếu yếu tố nào dễ gây bóng tay che chữ nhất?",
+        "o": [
+          "Yếu tố (2): bật thêm đèn phòng",
+          "Yếu tố (4): chỉnh chụp đèn rọi mặt bàn",
+          "Yếu tố (3): tay khô ráo",
+          "Yếu tố (1): đặt đèn sai phía (ví dụ viết tay phải nhưng lại đặt đèn bên phải chiếu ngang sang)"
+        ],
+        "k": "D",
+        "e": "Đặt ngược phía tay viết là mẹo đơn giản nhưng giải quyết triệt để vấn đề bóng che chữ!",
+        "s": "Công nghệ 3",
+        "h": "Nguyên nhân bóng tay che trang vở"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe3-c1",
+    "lesson": {
+      "code": "congnghe3-b03",
+      "title": "Bài 3. Sử dụng Quạt điện An toàn",
+      "seq": 3,
+      "subtitle": "Nhận biết các bộ phận chính của quạt điện (lồng quạt, cánh quạt, động cơ, nút điều chỉnh) và quy tắc an toàn khi sử dụng quạt",
+      "concepts": [
+        "Bộ phận chính quạt điện",
+        "Các loại quạt quen thuộc",
+        "An toàn lồng quạt và tốc độ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN3-B03-001",
+        "d": "basic",
+        "p": "Tác dụng chính của lồng quạt (khung nan thép hoặc nhựa đan kín bao bên ngoài cánh quạt) ở chiếc quạt điện là gì?",
+        "o": [
+          "Thay thế chức năng của cánh quạt",
+          "Bảo vệ an toàn cho người sử dụng (nhất là trẻ nhỏ) không bị chạm tay vào cánh quạt đang quay nhanh",
+          "Làm nặng chân đế cho quạt đẹp hơn",
+          "Tạo ra tiếng nhạc khi quạt chạy"
+        ],
+        "k": "B",
+        "e": "Lồng quạt an toàn giữ khoảng cách cách li đôi tay em khỏi cánh quạt quay tốc độ cao!",
+        "s": "Công nghệ 3",
+        "h": "Vai trò bảo vệ của lồng quạt",
+        "fig": {
+          "type": "table",
+          "title": "Bộ phận chính Quạt điện",
+          "head": [
+            "Bộ phận",
+            "Chức năng cơ bản"
+          ],
+          "rows": [
+            [
+              "Cánh quạt",
+              "Quay tạo luồng gió"
+            ],
+            [
+              "Lồng quạt",
+              "Che chắn bảo vệ tay"
+            ],
+            [
+              "Hộp động cơ",
+              "Làm quay trục cánh"
+            ],
+            [
+              "Bộ điều khiển",
+              "Bật, tắt, chỉnh số"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN3-B03-002",
+        "d": "basic",
+        "p": "Trên thân quạt điện thông dụng có các nút ghi số 0, 1, 2, 3. Ý nghĩa của các nút đó là gì?",
+        "o": [
+          "Nút đổi hướng cánh quạt quay ngược lại",
+          "Nút 0 là gió mạnh nhất; nút 3 là tắt quạt",
+          "Nút hẹn số giờ đi ngủ ban đêm",
+          "Nút số 0 để tắt quạt; các nút 1, 2, 3 chỉnh tốc độ gió tăng dần từ nhẹ đến mạnh"
+        ],
+        "k": "D",
+        "e": "Tùy thời tiết mát hay nóng bức mà em chọn mức gió số 1 (nhẹ), số 2 (vừa) hoặc số 3 (mạnh).",
+        "s": "Công nghệ 3",
+        "h": "Ý nghĩa các nút số quạt điện"
+      },
+      {
+        "c": "CN3-B03-003",
+        "d": "basic",
+        "p": "Bộ phận nào giúp luồng gió mát thổi tản đều sang trái rồi sang phải khắp phòng thay vì thổi thẳng vào duy nhất một chỗ?",
+        "o": [
+          "Dây cắm điện",
+          "Chân đế cao su",
+          "Tuốc-năng (nút bấm hoặc nút nhấn xoay chiều quay cổ quạt)",
+          "Cánh quạt phụ"
+        ],
+        "k": "C",
+        "e": "Bật chế độ quay (tuốc-năng) giúp không khí trong phòng lưu thông đều và không làm lạnh buốt một vùng cơ thể.",
+        "s": "Công nghệ 3",
+        "h": "Tác dụng của nút quay tuốc-năng"
+      },
+      {
+        "c": "CN3-B03-004",
+        "d": "basic",
+        "p": "Hành động nào cực kì nguy hiểm tuyệt đối KHÔNG BAO GIỜ làm khi quạt điện đang cắm điện chạy?",
+        "o": [
+          "Đứng cách xa quạt 2 mét",
+          "Bấm nút số 1 nhẹ nhàng để giảm gió",
+          "Thò ngón tay hoặc chọc que, bút chì qua khe lồng quạt vào cánh quạt đang quay",
+          "Nhấn tuốc-năng cho quạt quay đều"
+        ],
+        "k": "C",
+        "e": "Cánh quạt quay với tốc độ cao có thể gây dập gãy ngón tay hoặc làm gãy cánh bắn văng mảnh nhựa nguy hiểm!",
+        "s": "Công nghệ 3",
+        "h": "Tuyệt đối không chọc khe lồng quạt"
+      },
+      {
+        "c": "CN3-B03-005",
+        "d": "basic",
+        "p": "Loại quạt nào được gắn cố định trên trần nhà cao, tạo luồng gió rộng tỏa xuống toàn bộ lớp học hoặc phòng khách?",
+        "o": [
+          "Quạt cây đứng di động",
+          "Quạt trần",
+          "Quạt hộp nhỏ đặt bàn",
+          "Quạt cầm tay dùng pin"
+        ],
+        "k": "B",
+        "e": "Quạt trần tỏa gió dịu rộng từ trên cao xuống nên rất an toàn và mát đều cho lớp học đông người.",
+        "s": "Công nghệ 3",
+        "h": "Nhận biết quạt trần"
+      },
+      {
+        "c": "CN3-B03-006",
+        "d": "basic",
+        "p": "Khi thấy chiếc quạt cây đứng ở phòng khách bị đổ nghiêng hoặc lồng quạt bị bung gãy một mảng nan che, em xử lí thế nào?",
+        "o": [
+          "Tắt ngay quạt (hoặc rút phích nếu an toàn tay khô), không bật dùng tiếp và báo bố mẹ sửa chữa ngay",
+          "Ngồi sát vào ngay trước phần cánh lộ ra",
+          "Lấy băng dính dán tạm vào cánh quạt",
+          "Cứ kệ nguyên lồng quạt bị bung rồi bật số 3 mạnh nhất"
+        ],
+        "k": "A",
+        "e": "Không bao giờ vận hành quạt khi lồng bảo vệ bị hỏng hoặc chân đế nghiêng lỏng lẻo!",
+        "s": "Công nghệ 3",
+        "h": "Không dùng quạt bị hỏng lồng bảo vệ"
+      },
+      {
+        "c": "CN3-B03-007",
+        "d": "application",
+        "p": "Bạn Minh vừa đi đá bóng ngoài sân về, người đang ướt đẫm mồ hôi và thở dốc rất nóng. Minh chạy ngay tới ngồi sát cách quạt số 3 chỉ 30 cm hướng thẳng luồng gió mạnh vào mặt và ngực. Cách làm đó có hại gì cho sức khỏe?",
+        "o": [
+          "Không có tác hại nào",
+          "Giúp phổi hít được gấp 3 lần ô-xi",
+          "Dễ gây bốc hơi lạnh đột ngột qua lỗ chân lông đang giãn nở, dẫn tới cảm lạnh, khô rát họng và đau đầu",
+          "Giúp hết mồ hôi nhanh và không bao giờ bị ốm"
+        ],
+        "k": "C",
+        "e": "Khi mới vận động ra nhiều mồ hôi, hãy lau khô mồ hôi, ngồi nghỉ râm mát với quạt số nhẹ quay tản đều!",
+        "s": "Công nghệ 3",
+        "h": "Tránh thổi quạt mạnh trực tiếp khi đẫm mồ hôi"
+      },
+      {
+        "c": "CN3-B03-008",
+        "d": "application",
+        "p": "Vào ban đêm khi đi ngủ, nếu bật quạt số 3 mạnh nhất thổi thẳng cố định vào mặt suốt 8 tiếng liền dễ gây tình trạng gì vào sáng hôm sau?",
+        "o": [
+          "Ngủ ngon sâu giấc hơn không bao giờ khô họng",
+          "Dễ bị khô cổ họng, nghẹt mũi, mỏi cứng vai gáy và dễ cảm lạnh khi nhiệt độ đêm hạ xuống",
+          "Mắt sáng hơn vào sáng hôm sau",
+          "Tăng cân nhanh chóng"
+        ],
+        "k": "B",
+        "e": "Ban đêm ngủ nên chọn số nhẹ nhất (số 1), bật chế độ quay hoặc hướng gió lệch xuống phía chân hay hắt vào tường dịu nhẹ.",
+        "s": "Công nghệ 3",
+        "h": "Dùng quạt an toàn khi ngủ đêm"
+      },
+      {
+        "c": "CN3-B03-009",
+        "d": "application",
+        "p": "Cũng giống như đèn học, khi cánh quạt bám đầy lớp bụi đen dày đặc làm gió thổi ra có mùi bụi và quay yếu đi, trình tự vệ sinh an toàn của gia đình là gì?",
+        "o": [
+          "Tắt quạt, rút phích cắm khỏi ổ điện hoàn toàn rồi người lớn mới tháo lồng quạt lau rửa cánh bằng khăn ẩm vắt kiệt và lau khô hẳn trước khi lắp lại",
+          "Cầm khăn thò thẳng vào khe lồng lau lúc quạt đang quay số 1",
+          "Cầm vòi nước xịt thẳng vào hộp động cơ khi đang cắm điện",
+          "Để nguyên cánh bẩn thổi bụi cho bay ra giường"
+        ],
+        "k": "A",
+        "e": "Tuyệt đối không để nước lọt vào hộp động cơ điện và chỉ vệ sinh khi đã rút hẳn phích cắm!",
+        "s": "Công nghệ 3",
+        "h": "Vệ sinh quạt điện an toàn"
+      },
+      {
+        "c": "CN3-B03-010",
+        "d": "application",
+        "p": "Để quạt cây chạy êm và an toàn không bị vấp ngã trong phòng, nên đặt quạt ở vị trí nào?",
+        "o": [
+          "Đặt sát ngay cạnh vòi nước bồn rửa bát",
+          "Đặt ngay giữa lối cửa ra vào sát chân người bước",
+          "Đặt trên bề mặt sàn phẳng chắc chắn, gọn gàng không sát mép bàn cao và dây điện cuốn gọn sát tường tránh vướng chân đi lại",
+          "Đặt chênh vênh trên chồng hộp các-tông cũ"
+        ],
+        "k": "C",
+        "e": "Vị trí đặt quạt vững chãi và dây điện gọn giúp phòng ốc vừa thoáng mát vừa an toàn tuyệt đối.",
+        "s": "Công nghệ 3",
+        "h": "Chọn vị trí đặt quạt vững vàng"
+      },
+      {
+        "c": "CN3-B03-011",
+        "d": "application",
+        "p": "Nếu nghe thấy tiếng quạt tự nhiên kêu rè rè lạ thường, có mùi khét nhẹ hoặc cánh quạt bỗng quay chậm khựng lại dù đã bật số 3, em phải làm gì ngay?",
+        "o": [
+          "Đứng nhìn xem bao giờ nó tự chạy lại",
+          "Bật thêm các số mạnh hơn hoặc đổ nước làm nguội mô-tơ",
+          "Lấy tay đẩy cánh quạt quay phụ giúp động cơ",
+          "Nhấn ngay nút 0 tắt quạt, báo ngay cho bố mẹ ngắt nguồn điện để kiểm tra động cơ (tránh nguy cơ chập cháy mô-tơ)"
+        ],
+        "k": "D",
+        "e": "Phát hiện tiếng kêu lạ hay mùi khét và ngắt điện kịp thời giúp ngăn ngừa hỏa hoạn từ sớm!",
+        "s": "Công nghệ 3",
+        "h": "Xử lí dấu hiệu quạt chập hỏng"
+      },
+      {
+        "c": "CN3-B03-012",
+        "d": "application",
+        "p": "Biểu đồ dưới cho thấy thói quen dùng quạt điện tại nhà của 4 bạn lớp 3B. Bạn nào có thói quen sử dụng vừa tiết kiệm điện vừa tốt cho sức khỏe nhất?",
+        "o": [
+          "Bạn Dũng: Chọc bút chì vào lồng quạt khi quay",
+          "Bạn Cường: Bật số 3 thổi thẳng sát mặt suốt đêm",
+          "Bạn Bình: Để quạt chạy suốt trưa trong phòng trống",
+          "Bạn An: Bật số 1–2, quay tuốc-năng, tắt ngay khi ra khỏi phòng"
+        ],
+        "k": "D",
+        "e": "Quạt vừa đủ mát + quay đều + tắt khi rời phòng là công thức chuẩn 3 trong 1!",
+        "s": "Công nghệ 3",
+        "h": "Đánh giá thói quen dùng quạt điện",
+        "fig": {
+          "type": "bars",
+          "title": "Điểm an toàn dùng quạt (thang 100 điểm)",
+          "labels": [
+            "Bạn An",
+            "Bạn Bình",
+            "Bạn Cường",
+            "Bạn Dũng"
+          ],
+          "series": [
+            {
+              "values": [
+                100,
+                40,
+                30,
+                10
+              ]
+            }
+          ],
+          "unit": "điểm"
+        }
+      },
+      {
+        "c": "CN3-B03-013",
+        "d": "advanced",
+        "p": "Nhiều gia đình chọn mua \"quạt không cánh\" hoặc quạt lưới nan siêu khít khi nhà có em bé mới tập đi. Lí do công nghệ chính của thiết kế này là gì?",
+        "o": [
+          "Vì quạt không cánh nặng 100 kg",
+          "Vì quạt đó không dùng điện và không tạo ra gió",
+          "Ngăn chặn hoàn toàn nguy cơ ngón tay bé nhỏ của em bé lọt qua khe lồng chạm vào cánh quạt đang quay",
+          "Vì quạt đó có thể dùng làm bếp nấu ăn"
+        ],
+        "k": "C",
+        "e": "Thiết kế an toàn lấy trẻ em làm trung tâm là bước tiến tuyệt vời của các sản phẩm công nghệ gia đình.",
+        "s": "Công nghệ 3",
+        "h": "Hiểu về thiết kế quạt an toàn cho bé"
+      },
+      {
+        "c": "CN3-B03-014",
+        "d": "advanced",
+        "p": "Quạt điện có thực sự làm giảm nhiệt độ không khí trong căn phòng kín như máy điều hòa nhiệt độ không, và vì sao ta vẫn thấy mát?",
+        "o": [
+          "Có, quạt điện thổi ra khí lạnh 15 độ C giống hệt tủ lạnh",
+          "Không, quạt điện tạo ra nhiệt độ 0 độ C",
+          "Không làm giảm nhiệt độ phòng; ta thấy mát là nhờ luồng gió thổi qua da giúp bay hơi mồ hôi và tỏa nhiệt cơ thể nhanh hơn",
+          "Có, quạt điện hút hết không khí trong phòng ra ngoài"
+        ],
+        "k": "C",
+        "e": "Hiểu đúng nguyên lí làm mát bằng luồng gió bay hơi mồ hôi giúp giải thích vì sao bật quạt trong phòng trống không có người sẽ chỉ tốn điện vô ích!",
+        "s": "Công nghệ 3",
+        "h": "Khoa học về cách quạt làm mát"
+      },
+      {
+        "c": "CN3-B03-015",
+        "d": "advanced",
+        "p": "Vì sao khi dùng kết hợp máy điều hòa nhiệt độ ở mức mát vừa 27–28 độ C cùng với một chiếc quạt điện bật số nhỏ lại vừa rất dễ chịu vừa tiết kiệm điện năng hơn bật điều hòa 20 độ C?",
+        "o": [
+          "Vì hai máy chạy cùng lúc làm đồng hồ điện quay ngược lại",
+          "Vì quạt giúp luân chuyển hơi mát nhẹ đều khắp phòng nhanh hơn, giúp cơ thể dễ chịu mà máy nén điều hòa không phải chạy hết công suất tốn điện",
+          "Vì điều hòa dưới 20 độ không có gió",
+          "Vì quạt điện đẩy khí lạnh ra ngoài cửa sổ"
+        ],
+        "k": "B",
+        "e": "Bật điều hòa 27–28 độ C + quạt nhẹ quay đều là bí quyết tiết kiệm điện thông minh của nhiều gia đình!",
+        "s": "Công nghệ 3",
+        "h": "Kết hợp quạt điện và điều hòa hiệu quả"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe3-c1",
+    "lesson": {
+      "code": "congnghe3-b04",
+      "title": "Bài 4. Sử dụng Máy thu thanh (Ra-đi-ô)",
+      "seq": 4,
+      "subtitle": "Nhận biết tác dụng và các bộ phận cơ bản của máy thu thanh (ăng-ten, loa, nút dò kênh, nút âm lượng) và sử dụng lịch sự nơi công cộng",
+      "concepts": [
+        "Tác dụng máy thu thanh",
+        "Bộ phận cơ bản ra-đi-ô",
+        "Điều chỉnh kênh và âm lượng"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN3-B04-001",
+        "d": "basic",
+        "p": "Máy thu thanh (còn gọi là chiếc đài hoặc ra-đi-ô) truyền tải tới người nghe loại thông tin chính nào?",
+        "o": [
+          "Chỉ truyền tải chữ in trên giấy",
+          "Truyền tải đồ vật thật",
+          "Thông tin dạng âm thanh (tiếng nói, tin tức thời sự, ca nhạc, kể chuyện qua sóng phát thanh)",
+          "Truyền tải hình ảnh màu sắc lên màn hình lớn"
+        ],
+        "k": "C",
+        "e": "Máy thu thanh thu nhận sóng từ đài phát thanh và phát ra âm thanh qua loa mà không cần màn hình hình ảnh.",
+        "s": "Công nghệ 3",
+        "h": "Chức năng của máy thu thanh",
+        "fig": {
+          "type": "table",
+          "title": "Bộ phận chính Máy thu thanh",
+          "head": [
+            "Bộ phận",
+            "Công dụng chính"
+          ],
+          "rows": [
+            [
+              "Ăng-ten",
+              "Thu sóng phát thanh"
+            ],
+            [
+              "Loa",
+              "Phát âm thanh"
+            ],
+            [
+              "Nút dò kênh",
+              "Chọn đài phát thanh"
+            ],
+            [
+              "Nút âm lượng",
+              "Chỉnh tiếng to, nhỏ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN3-B04-002",
+        "d": "basic",
+        "p": "Bộ phận hình thanh kim loại mảnh có thể kéo dài lên cao trên thân chiếc ra-đi-ô dùng để làm gì?",
+        "o": [
+          "Dùng làm que gõ nhịp khi hát",
+          "Ăng-ten dùng để thu nhận sóng phát thanh truyền tới rõ nét hơn",
+          "Cắm vào ổ điện tường",
+          "Cầm tay xách đi giống tay cầm vali"
+        ],
+        "k": "B",
+        "e": "Kéo thanh ăng-ten lên và đặt ở nơi thoáng giúp thu được tín hiệu đài phát thanh trong trẻo không bị rè.",
+        "s": "Công nghệ 3",
+        "h": "Vai trò của ăng-ten thu sóng"
+      },
+      {
+        "c": "CN3-B04-003",
+        "d": "basic",
+        "p": "Trên chiếc ra-đi-ô, khi tiếng nhạc phát ra bị quá to gây chói tai hoặc làm phiền hàng xóm nghỉ ngơi, em vặn nút nào để giảm tiếng nhỏ lại vừa nghe?",
+        "o": [
+          "Nút kéo dài ăng-ten",
+          "Nút mở nắp ngăn lắp pin",
+          "Nút chọn dải tần AM hoặc FM",
+          "Nút điều chỉnh âm lượng (Volume)"
+        ],
+        "k": "D",
+        "e": "Điều chỉnh âm lượng vừa đủ nghe giúp bảo vệ thính giác và giữ phép lịch sự nơi tập thể.",
+        "s": "Công nghệ 3",
+        "h": "Chỉnh âm lượng vừa nghe"
+      },
+      {
+        "c": "CN3-B04-004",
+        "d": "basic",
+        "p": "Chuyên mục nào trên sóng phát thanh Đài Tiếng nói Việt Nam (VOV) rất bổ ích và gần gũi với thiếu nhi lớp 3?",
+        "o": [
+          "Chương trình dành riêng cho người lớn lúc nửa đêm",
+          "Kể chuyện thiếu nhi, Ca nhạc tuổi thơ, VOV Giao thông và bản tin Thời tiết sáng",
+          "Quảng cáo bán thuốc không rõ nguồn gốc",
+          "Tin đồn thất thiệt chưa kiểm chứng"
+        ],
+        "k": "B",
+        "e": "Nghe kể chuyện, đọc thơ và tin tức thời tiết trên ra-đi-ô giúp rèn khả năng lắng nghe tưởng tượng rất tốt cho trẻ em.",
+        "s": "Công nghệ 3",
+        "h": "Chương trình hay trên ra-đi-ô"
+      },
+      {
+        "c": "CN3-B04-005",
+        "d": "basic",
+        "p": "Để chọn đúng kênh phát thanh muốn nghe (ví dụ chuyển từ kênh ca nhạc sang kênh kể chuyện thiếu nhi), em dùng nút nào?",
+        "o": [
+          "Nút tháo rời vỏ loa",
+          "Nút xả pin",
+          "Nút dò kênh hoặc chọn tần số đài (Tuning)",
+          "Nút tắt mở nguồn duy nhất"
+        ],
+        "k": "C",
+        "e": "Xoay nhẹ hoặc bấm nút dò kênh tới đúng tần số của đài phát thanh yêu thích.",
+        "s": "Công nghệ 3",
+        "h": "Chọn kênh trên máy thu thanh"
+      },
+      {
+        "c": "CN3-B04-006",
+        "d": "basic",
+        "p": "Trong buổi nghe đài chung hoặc khi ông bà đang nghỉ trưa trong nhà, âm lượng chiếc ra-đi-ô nên điều chỉnh thế nào là văn minh nhất?",
+        "o": [
+          "Vặn âm lượng vừa đủ nhỏ nhẹ để mình nghe rõ mà không làm ảnh hưởng giấc ngủ hay sự yên tĩnh của người khác",
+          "Mở 3 chiếc đài khác kênh cùng lúc",
+          "Đặt chiếc đài ngay sát tai người đang ngủ trưa",
+          "Vặn hết cỡ to nhất có thể cho cả dãy phố nghe chung"
+        ],
+        "k": "A",
+        "e": "Giữ âm lượng văn minh bảo vệ đôi tai của em và thể hiện sự tôn trọng những người xung quanh.",
+        "s": "Công nghệ 3",
+        "h": "Văn minh âm lượng khi nghe đài"
+      },
+      {
+        "c": "CN3-B04-007",
+        "d": "application",
+        "p": "Buổi chiều gió mát, ông nội muốn nghe chương trình \"Đọc truyện đêm khuya\" ngoài hiên nhưng tiếng đài cứ bị sôi rè khó nghe. Em giúp ông chỉnh bộ phận nào để tín hiệu trong rõ hơn?",
+        "o": [
+          "Tháo sạch hết pin bên trong ra",
+          "Úp ngược chiếc đài xuống nền gạch",
+          "Kéo ăng-ten lên cao, xoay nhẹ hướng đặt máy thu thanh ở chỗ thoáng và vặn tinh chỉnh lại nút dò kênh cho chuẩn tần số",
+          "Lấy búa gõ nhẹ lên mặt loa của đài"
+        ],
+        "k": "C",
+        "e": "Chỉnh ăng-ten và rà đúng vạch tần số là hai cách khắc phục tiếng đài bị nhiễu rè hiệu quả nhất!",
+        "s": "Công nghệ 3",
+        "h": "Khắc phục tình trạng đài bị rè"
+      },
+      {
+        "c": "CN3-B04-008",
+        "d": "application",
+        "p": "Bạn Minh hay có thói quen vừa đeo tai nghe nối vào máy nghe đài vặn âm lượng thật lớn suốt 2 tiếng liền khi ôn bài. Thói quen đó gây nguy cơ gì?",
+        "o": [
+          "Rất dễ gây tổn thương màng nhĩ, ù tai và suy giảm thính lực sớm ở tuổi học sinh",
+          "Không ảnh hưởng gì tới tai",
+          "Giúp ghi nhớ bài hát không cần mở tai",
+          "Giúp đôi tai nghe thính gấp 5 lần"
+        ],
+        "k": "A",
+        "e": "Khi đeo tai nghe, luôn giữ âm lượng ở mức vừa phải (dưới 60%) và không đeo liên tục quá lâu!",
+        "s": "Công nghệ 3",
+        "h": "Bảo vệ thính giác khi dùng tai nghe"
+      },
+      {
+        "c": "CN3-B04-009",
+        "d": "application",
+        "p": "Trên một chiếc ra-đi-ô cầm tay dùng pin tiểu: hôm nay bật mãi không thấy đèn báo hay tiếng phát ra dù đã vặn to hết cỡ. Hai nguyên nhân đơn giản đầu tiên nên kiểm tra là gì?",
+        "o": [
+          "Đập mạnh vào loa rồi ném ra sân",
+          "Gọi thợ sửa tivi tới ngay",
+          "Kiểm tra xem công tắc nguồn đã bật đúng chưa và kiểm tra pin bên trong xem có bị hết điện hoặc lắp ngược cực không",
+          "Đổ thêm nước vào khe loa cho trơn"
+        ],
+        "k": "C",
+        "e": "Kiểm tra nguồn điện hoặc pin và công tắc bật là hai bước kiểm tra cơ bản nhất với thiết bị điện cầm tay.",
+        "s": "Công nghệ 3",
+        "h": "Kiểm tra nhanh khi đài không lên tiếng"
+      },
+      {
+        "c": "CN3-B04-010",
+        "d": "application",
+        "p": "Trong một buổi mất điện diện rộng vào mùa bão lũ, chiếc máy thu thanh chạy pin nhỏ gọn phát huy vai trò quý giá đặc biệt nào hơn tivi?",
+        "o": [
+          "Vẫn chạy bằng pin dự phòng bền lâu để kịp thời cập nhật tin tức cảnh báo bão lũ và hướng dẫn cứu hộ từ đài phát thanh quốc gia",
+          "Chiếu được phim hoạt hình độ nét cao lên tường",
+          "Sạc đầy điện cho xe máy",
+          "Thay thế được bếp từ nấu cơm"
+        ],
+        "k": "A",
+        "e": "Chính vì tiêu thụ rất ít điện và thu sóng xa ổn định, ra-đi-ô chạy pin luôn có mặt trong túi đồ phòng chống thiên tai!",
+        "s": "Công nghệ 3",
+        "h": "Vai trò đặc biệt của ra-đi-ô trong mùa bão"
+      },
+      {
+        "c": "CN3-B04-011",
+        "d": "application",
+        "p": "Khi không còn nghe đài nữa, em thực hiện thao tác nào để tiết kiệm pin và giữ thiết bị bền lâu?",
+        "o": [
+          "Vặn tắt công tắc nguồn về vị trí Off, thu gọn thanh ăng-ten xuống nhẹ nhàng tránh gãy cong và cất vào chỗ khô ráo",
+          "Để nguyên tiếng đài rì rầm suốt tuần cho tới khi hết sạch pin",
+          "Đặt chiếc đài ngoài ban công dưới mưa",
+          "Kéo dài ăng-ten hết cỡ rồi nhét vào gầm giường"
+        ],
+        "k": "A",
+        "e": "Thu gọn ăng-ten đúng cách giúp tránh bị va gãy và tắt nguồn giúp pin không bị chảy nước hỏng máy.",
+        "s": "Công nghệ 3",
+        "h": "Bảo quản máy thu thanh sau khi dùng"
+      },
+      {
+        "c": "CN3-B04-012",
+        "d": "application",
+        "p": "Khi đọc bảng thông số phát sóng bên dưới, để nghe được chương trình \"Kể chuyện Thiếu nhi\" phát lúc 19 giờ 00, em cần vặn kim dò kênh tới dải tần nào?",
+        "o": [
+          "Kênh AM 675 kHz",
+          "Bất kì kênh nào đang tắt sóng",
+          "Kênh FM 91.0 MHz",
+          "Kênh FM 100.0 MHz"
+        ],
+        "k": "D",
+        "e": "Đọc chuẩn bảng tần số giúp em chọn nhanh đúng kênh phát thanh yêu thích mà không phải dò lâu.",
+        "s": "Công nghệ 3",
+        "h": "Đọc bảng tần số kênh phát thanh",
+        "fig": {
+          "type": "table",
+          "title": "Lịch Phát thanh Thứ Bảy",
+          "head": [
+            "Kênh",
+            "Chương trình 19g00"
+          ],
+          "rows": [
+            [
+              "FM 91.0 MHz",
+              "Tin giao thông"
+            ],
+            [
+              "FM 100.0 MHz",
+              "Kể chuyện Thiếu nhi"
+            ],
+            [
+              "FM 102.7 MHz",
+              "Ca nhạc tuổi teen"
+            ],
+            [
+              "AM 675 kHz",
+              "Thời sự tổng hợp"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN3-B04-013",
+        "d": "advanced",
+        "p": "So với máy thu hình (tivi), điểm khác biệt lớn nhất về trải nghiệm giác quan khi nghe truyện cổ tích qua máy thu thanh (ra-đi-ô) mang lại điều gì thú vị cho trẻ nhỏ?",
+        "o": [
+          "Không phụ thuộc vào hình ảnh dựng sẵn trên màn hình, giúp đôi mắt được nghỉ ngơi hoàn toàn và kích thích trí tưởng tượng phong phú trong tâm trí",
+          "Làm đôi mắt mỏi nhanh hơn khi nhìn sách",
+          "Bắt buộc phải ngồi sát cách 20 cm mới nghe được",
+          "Không nghe thấy tiếng nói nhân vật"
+        ],
+        "k": "A",
+        "e": "Nghe kể chuyện qua âm thanh là cách giải trí cực kì nhẹ nhàng cho đôi mắt vào buổi tối trước khi đi ngủ!",
+        "s": "Công nghệ 3",
+        "h": "Lợi ích kích thích trí tưởng tượng của ra-đi-ô"
+      },
+      {
+        "c": "CN3-B04-014",
+        "d": "advanced",
+        "p": "Giữa \"Đài phát thanh\" (nơi các biên tập viên ngồi đọc thu âm và phát sóng qua trạm phát) và \"Máy thu thanh\" (chiếc ra-đi-ô đặt trên bàn nhà em), mỗi bên đóng vai trò gì trong quá trình truyền thông tin?",
+        "o": [
+          "Đài phát thanh là nơi phát tín hiệu thông tin đi; còn máy thu thanh là thiết bị tiếp nhận sóng mang tín hiệu đó chuyển lại thành âm thanh ra loa cho người nghe",
+          "Cả hai đều là tên gọi của chiếc điện thoại",
+          "Máy thu thanh tự nghĩ ra câu chuyện không cần đài phát",
+          "Đài phát thanh là nút xoay trên chiếc ra-đi-ô"
+        ],
+        "k": "A",
+        "e": "Có nơi phát sóng và thiết bị thu sóng tương ứng mới tạo thành hệ thống truyền thanh hoàn chỉnh!",
+        "s": "Công nghệ 3",
+        "h": "Hiểu cặp Đài phát và Máy thu thanh"
+      },
+      {
+        "c": "CN3-B04-015",
+        "d": "advanced",
+        "p": "Nếu phải giải thích vì sao trên ô tô đường dài người lái xe thường mở kênh ra-đi-ô giao thông chứ KHÔNG mở phim truyền hình tivi ở ghế lái để xem?",
+        "o": [
+          "Vì ô tô không chạy được màn hình",
+          "Vì sóng tivi không tới được đường phố",
+          "Vì ra-đi-ô giúp xe chạy nhanh gấp đôi",
+          "Vì lái xe cần đôi mắt tập trung 100% quan sát mặt đường an toàn, chỉ có thể nghe thông tin ùn tắc qua âm thanh từ ra-đi-ô"
+        ],
+        "k": "D",
+        "e": "Sức mạnh của âm thanh phát thanh là truyền tin hữu ích trong lúc mắt và tay đang bận làm việc khác!",
+        "s": "Công nghệ 3",
+        "h": "Ứng dụng thực tế an toàn của ra-đi-ô"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe3-c1",
+    "lesson": {
+      "code": "congnghe3-b05",
+      "title": "Bài 5. Sử dụng Máy thu hình (Ti-vi) An toàn",
+      "seq": 5,
+      "subtitle": "Nhận biết tác dụng và điều khiển từ xa của tivi, chọn chương trình phù hợp lứa tuổi, ngồi xem đúng khoảng cách bảo vệ mắt",
+      "concepts": [
+        "Điều khiển từ xa tivi",
+        "Khoảng cách ngồi xem chuẩn",
+        "Chọn kênh phù hợp lứa tuổi"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN3-B05-001",
+        "d": "basic",
+        "p": "Khác với máy thu thanh chỉ phát ra âm thanh, máy thu hình (ti-vi) chuyển tải tới người xem cả hai dạng thông tin nào?",
+        "o": [
+          "Chỉ tạo luồng gió mát",
+          "Chỉ có mỗi âm thanh tiếng nói",
+          "Cả hình ảnh chuyển động và âm thanh sống động (kèm chữ phụ đề)",
+          "Chỉ có mỗi chữ đen trắng không hình"
+        ],
+        "k": "C",
+        "e": "Tivi kết hợp hình ảnh sinh động và âm thanh giúp em xem phim hoạt hình, thế giới động vật và bài giảng truyền hình rất hấp dẫn.",
+        "s": "Công nghệ 3",
+        "h": "Đặc điểm của máy thu hình"
+      },
+      {
+        "c": "CN3-B05-002",
+        "d": "basic",
+        "p": "Thiết bị nhỏ gọn cầm trên tay giúp em ngồi ở ghế sofa vẫn bật tắt tivi, chuyển kênh và chỉnh âm lượng từ xa gọi là gì?",
+        "o": [
+          "Phích cắm điện tường",
+          "Ăng-ten ngoài trời",
+          "Bộ phận màn hình kính",
+          "Điều khiển từ xa (Remote)"
+        ],
+        "k": "D",
+        "e": "Điều khiển từ xa phát tín hiệu (hồng ngoại hoặc không dây) tới tivi để thực hiện các lệnh nhanh chóng.",
+        "s": "Công nghệ 3",
+        "h": "Công dụng của điều khiển từ xa",
+        "fig": {
+          "type": "table",
+          "title": "Nút quen trên Điều khiển",
+          "head": [
+            "Nút lệnh",
+            "Chức năng sử dụng"
+          ],
+          "rows": [
+            [
+              "Nút Nguồn (đỏ)",
+              "Bật hoặc tắt tivi"
+            ],
+            [
+              "CH+ và CH-",
+              "Chuyển kênh tới/lui"
+            ],
+            [
+              "VOL+ và VOL-",
+              "Tăng hoặc giảm tiếng"
+            ],
+            [
+              "Nút Tắt tiếng",
+              "Im lặng tạm (Mute)"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN3-B05-003",
+        "d": "basic",
+        "p": "Khoảng cách ngồi xem tivi an toàn tối thiểu giúp bảo vệ mắt học sinh lớp 3 (với tivi gia đình kích thước phổ biến hiện nay) nên giữ thế nào?",
+        "o": [
+          "Ngồi cách màn hình tối thiểu từ 2 mét trở lên (tùy độ lớn tivi có thể gấp 2 đến 3 lần chiều dài đường chéo màn hình), thẳng đối diện vừa tầm mắt",
+          "Ngồi cách xa tận 30 mét ngoài sân",
+          "Nằm áp má sát mép tivi",
+          "Ngồi sát cách màn hình chỉ 30 cm để nhìn cho rõ"
+        ],
+        "k": "A",
+        "e": "Ngồi quá gần tivi là nguyên nhân hàng đầu khiến mắt trẻ em nhanh chóng bị cận thị!",
+        "s": "Công nghệ 3",
+        "h": "Khoảng cách ngồi xem tivi chuẩn"
+      },
+      {
+        "c": "CN3-B05-004",
+        "d": "basic",
+        "p": "Tư thế ngồi xem tivi đúng cách để vừa bảo vệ mắt vừa bảo vệ cột sống là gì?",
+        "o": [
+          "Nằm vẹo đầu trên ghế dài nhìn xéo lên màn hình",
+          "Trồng cây chuối khi xem tivi",
+          "Gục đầu sát xuống gối",
+          "Ngồi ngay ngắn trên ghế, lưng tựa thoải mái, mắt nhìn ngang tầm màn hình"
+        ],
+        "k": "D",
+        "e": "Nằm nghiêng vẹo cổ xem tivi lâu ngày vừa hại mắt vừa dễ gây cong vẹo cột sống cổ.",
+        "s": "Công nghệ 3",
+        "h": "Tư thế ngồi xem tivi chuẩn"
+      },
+      {
+        "c": "CN3-B05-005",
+        "d": "basic",
+        "p": "Những kênh truyền hình nào phù hợp nhất với học sinh lớp 3?",
+        "o": [
+          "Chương trình dành cho người lớn lúc khuya",
+          "Kênh giáo dục, thế giới động vật thiên nhiên, phim hoạt hình lành mạnh và chương trình văn nghệ thiếu nhi",
+          "Phim hành động kinh dị có nhãn giới hạn 18+",
+          "Các video bạo lực gây sợ hãi ban đêm"
+        ],
+        "k": "B",
+        "e": "Chọn kênh đúng lứa tuổi giúp em học thêm kiến thức mới bổ ích mà tâm trí luôn vui vẻ nhẹ nhàng.",
+        "s": "Công nghệ 3",
+        "h": "Chọn kênh xem đúng lứa tuổi"
+      },
+      {
+        "c": "CN3-B05-006",
+        "d": "basic",
+        "p": "Trên điều khiển từ xa, khi có chuông điện thoại reo cần giữ yên tĩnh ngay trong phòng khách mà không muốn tắt hẳn tivi, em bấm nút nào?",
+        "o": [
+          "Nút tháo rời dây điện",
+          "Nút tắt tiếng tạm thời (Mute — biểu tượng chiếc loa có dấu gạch chéo)",
+          "Nút rút pin ra khỏi điều khiển",
+          "Nút tăng âm lượng lên 100"
+        ],
+        "k": "B",
+        "e": "Nút Mute ngắt âm thanh ngay lập tức trong 1 giây và bấm lại lần nữa để nghe tiếp bình thường.",
+        "s": "Công nghệ 3",
+        "h": "Công dụng nút tắt tiếng Mute"
+      },
+      {
+        "c": "CN3-B05-007",
+        "d": "application",
+        "p": "Bạn Minh muốn đặt đồng hồ hẹn xem chương trình \"Khám phá khoa học\" phát sóng trong 30 phút buổi tối rồi nghỉ giải lao. Khoảng thời gian xem tivi mỗi ngày bao nhiêu là hợp lí với học sinh lớp 3?",
+        "o": [
+          "Mở tivi 12 tiếng một ngày",
+          "Xem suốt cả ngày Chủ nhật không ăn cơm",
+          "Khoảng 30 đến 45 phút mỗi ngày (chỉ xem sau khi đã hoàn thành bài học và không xem sát giờ đi ngủ)",
+          "Khoảng 4 tiếng liên tục từ tối tới nửa đêm"
+        ],
+        "k": "C",
+        "e": "Kiểm soát thời lượng xem màn hình giúp em giữ được đôi mắt sáng và giấc ngủ ngon ban đêm.",
+        "s": "Công nghệ 3",
+        "h": "Thời lượng xem tivi hợp lí mỗi ngày"
+      },
+      {
+        "c": "CN3-B05-008",
+        "d": "application",
+        "p": "Một số bạn có thói quen tắt hết đèn điện trong phòng khách tối om khi xem tivi buổi tối \"cho giống rạp chiếu phim\". Tại sao việc đó gây hại cho mắt trẻ nhỏ?",
+        "o": [
+          "Vì xem trong bóng tối giúp mắt sáng hơn ban ngày",
+          "Không có hại gì cho mắt cả",
+          "Vì tắt đèn làm tivi tự động đổi sang kênh khác",
+          "Vì ánh sáng rực rỡ thay đổi liên tục từ màn hình tivi giữa nền phòng tối đen bắt đồng tử mắt phải co giãn quá sức, dễ nhức mắt và cận thị"
+        ],
+        "k": "D",
+        "e": "Luôn giữ phòng khách có ánh sáng dịu nhẹ ổn định khi xem tivi buổi tối!",
+        "s": "Công nghệ 3",
+        "h": "Luôn bật đèn dịu khi xem tivi tối"
+      },
+      {
+        "c": "CN3-B05-009",
+        "d": "application",
+        "p": "Bấm nút chuyển kênh trên điều khiển từ xa mãi mà tivi không phản ứng gì, dù đèn đỏ trên thân tivi vẫn đang sáng. Em kiểm tra hai nguyên nhân đơn giản nào đầu tiên?",
+        "o": [
+          "Mở nắp sau tivi thò tay vào sửa mạch",
+          "Kiểm tra pin bên trong chiếc điều khiển xem có bị yếu hoặc lắp lệch không và kiểm tra xem có vật cản che trước mắt nhận tín hiệu trên mép dưới tivi không",
+          "Lấy điều khiển đập thật mạnh xuống cạnh bàn gỗ",
+          "Nhấc bổng chiếc tivi lắc mạnh nhiều lần"
+        ],
+        "k": "B",
+        "e": "Thay đôi pin mới hoặc dọn lọ hoa đang chắn trước mắt cảm biến của tivi thường khắc phục ngay lỗi điều khiển!",
+        "s": "Công nghệ 3",
+        "h": "Xử lí nhanh khi điều khiển không ăn"
+      },
+      {
+        "c": "CN3-B05-010",
+        "d": "application",
+        "p": "Gia đình có chiếc tivi thông minh đặt trên kệ thấp. Khi bé em 2 tuổi chạy lại gần cầm xe đồ chơi nhựa gõ lên mặt kính màn hình tivi, em làm gì?",
+        "o": [
+          "Đứng cười vỗ tay cổ vũ bé gõ mạnh thêm",
+          "Đưa thêm búa đồ chơi cho bé gõ",
+          "Mắng to làm bé khóc ầm lên",
+          "Nhanh nhẹn nhẹ nhàng dắt bé ra xa chơi ở thảm an toàn, giải thích không gõ đồ chơi vào màn hình vì kính màn hình rất mỏng dễ nứt vỡ hỏng tivi"
+        ],
+        "k": "D",
+        "e": "Bảo vệ mặt màn hình tivi khỏi va đập vừa giữ tài sản gia đình vừa giữ an toàn cho em nhỏ.",
+        "s": "Công nghệ 3",
+        "h": "Bảo vệ màn hình tivi khỏi va đập"
+      },
+      {
+        "c": "CN3-B05-011",
+        "d": "application",
+        "p": "Trong gia đình có quy định \"Không mở tivi trong lúc cả nhà đang quây quần ăn bữa cơm tối\". Quy định này mang lại ý nghĩa tốt đẹp nào?",
+        "o": [
+          "Làm mọi người không nói chuyện với nhau",
+          "Giúp cơm nguội nhanh hơn",
+          "Giúp cả nhà trò chuyện gắn kết vui vẻ, ăn uống nhai kĩ tiêu hóa tốt và không bị phân tâm mải nhìn màn hình",
+          "Không cần dọn bát đũa sau khi ăn"
+        ],
+        "k": "C",
+        "e": "Bữa cơm không tivi, không điện thoại tạo nên những khoảnh khắc ấm áp nhất của gia đình!",
+        "s": "Công nghệ 3",
+        "h": "Bữa cơm ấm áp không màn hình"
+      },
+      {
+        "c": "CN3-B05-012",
+        "d": "application",
+        "p": "Biểu đồ dưới thống kê thói quen xem tivi của lớp 3C (30 bạn). Nhận xét nào chính xác nhất từ số liệu biểu đồ?",
+        "o": [
+          "Có 22 bạn biết giữ khoảng cách đúng chuẩn trên 2 mét; nhưng vẫn còn 8 bạn ngồi quá gần dưới 1,5 mét cần nhắc nhở thay đổi ngay để bảo vệ mắt",
+          "Cả 30 bạn đều ngồi quá gần tivi",
+          "Không bạn nào biết ngồi xa trên 2 mét",
+          "Ngồi cách 1 mét là chuẩn nhất"
+        ],
+        "k": "A",
+        "e": "22 bạn lớp 3C làm rất tốt rồi; 8 bạn còn lại hãy lùi ghế ra xa trên 2 mét ngay hôm nay nhé!",
+        "s": "Công nghệ 3",
+        "h": "Đọc biểu đồ thói quen xem tivi",
+        "fig": {
+          "type": "bars",
+          "title": "Khoảng cách ngồi xem tivi Lớp 3C (/30 bạn)",
+          "labels": [
+            "Trên 2,5 m",
+            "Từ 2 - 2,5 m",
+            "Từ 1 - 1,5 m",
+            "Dưới 1 m"
+          ],
+          "series": [
+            {
+              "values": [
+                12,
+                10,
+                6,
+                2
+              ]
+            }
+          ],
+          "unit": "bạn"
+        }
+      },
+      {
+        "c": "CN3-B05-013",
+        "d": "advanced",
+        "p": "Nhiều bạn chỉ bấm nút đỏ tắt tivi bằng điều khiển từ xa (chế độ chờ có đèn đỏ sáng nhỏ). Khi gia đình đi vắng nhiều ngày hoặc trời có mưa giông sấm sét lớn, tại sao nên tắt hẳn công tắc nguồn và rút phích cắm?",
+        "o": [
+          "Giúp tiết kiệm hoàn toàn điện năng chờ và bảo vệ bo mạch tivi an toàn trước nguy cơ sét đánh lan truyền gây chập cháy qua đường điện lưới",
+          "Vì điều khiển từ xa chỉ hoạt động khi mất điện",
+          "Vì rút phích cắm làm kích thước màn hình to thêm",
+          "Vì nếu không rút phích tivi sẽ tự bay mất"
+        ],
+        "k": "A",
+        "e": "Rút phích cắm thiết bị điện lớn khi đi xa hoặc lúc mưa giông sấm sét là thói quen an toàn hàng đầu!",
+        "s": "Công nghệ 3",
+        "h": "Phòng chống sét và tiết kiệm điện chờ"
+      },
+      {
+        "c": "CN3-B05-014",
+        "d": "advanced",
+        "p": "Phân biệt nhanh 3 thiết bị điện gia dụng đã học: Đèn học — Quạt điện — Máy thu hình. Thiết bị nào biến điện năng chủ yếu thành ánh sáng để đọc viết và thiết bị nào truyền tải thông tin đa phương tiện?",
+        "o": [
+          "Đèn học tạo ánh sáng ổn định để học tập; còn máy thu hình truyền tải thông tin đa phương tiện (hình ảnh và âm thanh)",
+          "Cả ba thiết bị đều dùng để nấu cơm",
+          "Máy thu hình chỉ dùng tạo gió mát",
+          "Quạt điện chiếu sáng mặt bàn; đèn học phát tin thời sự"
+        ],
+        "k": "A",
+        "e": "Hiểu đúng chức năng từng đồ dùng công nghệ giúp lựa chọn và sử dụng chuẩn xác trong mọi tình huống.",
+        "s": "Công nghệ 3",
+        "h": "Phân biệt chức năng 3 thiết bị đã học"
+      },
+      {
+        "c": "CN3-B05-015",
+        "d": "advanced",
+        "p": "Khi xem một chương trình truyền hình mới, vì sao em nên nhìn vào góc màn hình để xem kí hiệu độ tuổi (ví dụ \"P\" phổ biến cho mọi lứa tuổi hoặc \"16+\", \"18+\")?",
+        "o": [
+          "Để đếm xem trên tivi có bao nhiêu con số",
+          "Để đoán xem chương trình chiếu mấy giờ sáng",
+          "Để biết chương trình có hợp với lứa tuổi học sinh hay không; nếu thấy nhãn 16+ hoặc 18+ thì chủ động chuyển sang kênh thiếu nhi",
+          "Để biết giá tiền của chiếc tivi"
+        ],
+        "k": "C",
+        "e": "Biết tự đọc nhãn phân loại độ tuổi là kĩ năng tự bảo vệ thông minh của khán giả nhí văn minh!",
+        "s": "Công nghệ 3",
+        "h": "Nhận biết nhãn phân loại độ tuổi"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe3-c1",
+    "lesson": {
+      "code": "congnghe3-b06",
+      "title": "Bài 6. An toàn với Công nghệ trong Gia đình",
+      "seq": 6,
+      "subtitle": "Nhận biết các tình huống mất an toàn từ điện, nhiệt, vật sắc nhọn trong nhà và biết cách phòng tránh, xử lí ban đầu đúng cách",
+      "concepts": [
+        "Phòng tránh điện giật",
+        "Phòng tránh bỏng nhiệt",
+        "An toàn vật sắc nhọn"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN3-B06-001",
+        "d": "basic",
+        "p": "Tình huống nào sau đây tiềm ẩn nguy cơ bị điện giật rất nguy hiểm trong gia đình?",
+        "o": [
+          "Xem tivi ở khoảng cách 2,5 mét",
+          "Bật quạt điện bằng nút bấm khi tay khô ráo",
+          "Ngồi học dưới ánh sáng đèn bàn đúng cách",
+          "Tay đang ướt đẫm nước chạm trực tiếp vào ổ cắm điện hoặc phích cắm"
+        ],
+        "k": "D",
+        "e": "Nước dẫn điện rất tốt; khi tay ướt mà chạm vào ổ điện, dòng điện có thể truyền qua cơ thể gây nguy hiểm.",
+        "s": "Công nghệ 3",
+        "h": "Nguy cơ điện giật do tay ướt",
+        "fig": {
+          "type": "table",
+          "title": "Nhận diện Nguy hiểm Nhà",
+          "head": [
+            "Mối nguy",
+            "Ví dụ cần tránh"
+          ],
+          "rows": [
+            [
+              "Điện giật",
+              "Tay ướt sờ ổ điện"
+            ],
+            [
+              "Bỏng nhiệt",
+              "Chạm ấm nước sôi"
+            ],
+            [
+              "Vật sắc",
+              "Chơi đùa với dao kéo"
+            ],
+            [
+              "Khói gas",
+              "Bật lửa khi hở gas"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN3-B06-002",
+        "d": "basic",
+        "p": "Vì sao học sinh lớp 3 tuyệt đối không được cầm que sắt, đinh nhọn hay ngón tay chọc vào hai lỗ của ổ cắm điện trên tường?",
+        "o": [
+          "Vì que sắt sẽ biến thành nam châm",
+          "Vì bên trong ổ cắm luôn có dòng điện mạnh gây điện giật cực kì nguy hiểm đến tính mạng",
+          "Vì bóng đèn sẽ sáng chói hơn",
+          "Vì làm bẩn ổ cắm tường"
+        ],
+        "k": "B",
+        "e": "Lỗ ổ cắm chứa thanh kim loại mang điện; kim loại và cơ thể người đều dẫn điện nên tuyệt đối không chọc vào.",
+        "s": "Công nghệ 3",
+        "h": "Không chọc vật vào ổ cắm"
+      },
+      {
+        "c": "CN3-B06-003",
+        "d": "basic",
+        "p": "Để đề phòng bị bỏng nhiệt khi sinh hoạt trong khu vực bếp ăn, em cần thực hiện quy tắc nào?",
+        "o": [
+          "Tự nhấc ấm nước vừa sôi khỏi bếp",
+          "Chạy nhảy đùa nghịch quanh bếp lửa đang cháy",
+          "Chạm tay trần thử xem nồi cơm còn nóng không",
+          "Không lại gần bếp đang đun, không tự ý sờ vào nồi canh sôi hay thân bàn là vừa cắm điện"
+        ],
+        "k": "D",
+        "e": "Bề mặt bếp, ấm đun siêu tốc, bàn là nóng gây bỏng da rất nặng chỉ trong tích tắc.",
+        "s": "Công nghệ 3",
+        "h": "Phòng tránh bỏng nhiệt ở bếp"
+      },
+      {
+        "c": "CN3-B06-004",
+        "d": "basic",
+        "p": "Khi sử dụng kéo thủ công để cắt giấy làm bài tập, em cần cầm và đưa kéo cho bạn cùng bàn như thế nào để an toàn?",
+        "o": [
+          "Khép kín hai lưỡi kéo lại, cầm phần lưỡi hướng về phía mình và đưa phần tay cầm cho bạn",
+          "Tung kéo qua không trung cho bạn bắt",
+          "Vừa chạy vừa giơ mũi kéo lên cao",
+          "Mở rộng hai mũi kéo nhọn chĩa thẳng về phía mặt bạn"
+        ],
+        "k": "A",
+        "e": "Đưa phần tay cầm và khép mũi nhọn giúp cả người đưa lẫn người nhận không bị cắt hoặc đâm trúng.",
+        "s": "Công nghệ 3",
+        "h": "Cách đưa kéo thủ công an toàn"
+      },
+      {
+        "c": "CN3-B06-005",
+        "d": "basic",
+        "p": "Khi phát hiện dây điện của chiếc quạt bàn bị nứt vỏ nhựa, để lộ lõi đồng bên trong, em nên làm gì ngay?",
+        "o": [
+          "Tưới nước lên dây điện cho mát",
+          "Lấy tay sờ thử xem dây có mát không",
+          "Không chạm vào chỗ dây hở và báo ngay cho bố mẹ hoặc người lớn biết để sửa chữa, thay dây mới",
+          "Dùng băng dính giấy vở dán tạm rồi cắm điện dùng tiếp"
+        ],
+        "k": "C",
+        "e": "Dây điện hở lõi rất dễ gây giật hoặc chập cháy; học sinh không tự sửa mà phải báo người lớn.",
+        "s": "Công nghệ 3",
+        "h": "Xử lí khi thấy dây điện hở"
+      },
+      {
+        "c": "CN3-B06-006",
+        "d": "basic",
+        "p": "Trong phòng có trẻ em dưới 5 tuổi, các ổ cắm điện đặt ở vị trí thấp gần sàn nhà nên được bảo vệ bằng dụng cụ gì?",
+        "o": [
+          "Nắp bịt nhựa an toàn chuyên dụng cho ổ cắm điện",
+          "Không cần che chắn gì",
+          "Khăn mặt ướt",
+          "Miếng giấy ăn mỏng"
+        ],
+        "k": "A",
+        "e": "Nắp bịt nhựa cách điện vừa rẻ vừa ngăn trẻ nhỏ tò mò chọc ngón tay vào lỗ cắm.",
+        "s": "Công nghệ 3",
+        "h": "Bảo vệ ổ cắm tầm thấp"
+      },
+      {
+        "c": "CN3-B06-007",
+        "d": "application",
+        "p": "Không may tay chạm nhẹ vào thành ấm đun nước nóng làm đỏ rát vùng da cổ tay (bỏng nhẹ). Bước sơ cứu đầu tiên em nên làm ngay là gì?",
+        "o": [
+          "Chườm cục đá lạnh trực tiếp ép mạnh lên da",
+          "Xả nhẹ nhàng vùng da bị bỏng dưới vòi nước mát sạch khoảng 15–20 phút và báo ngay cho người lớn",
+          "Bôi ngay kem đánh răng hoặc nước mắm lên vết bỏng",
+          "Lấy kim chọc vỡ vết phồng rộp"
+        ],
+        "k": "B",
+        "e": "Ngâm rửa dưới vòi nước mát sạch giúp hạ nhiệt vùng da bỏng nhanh, giảm tổn thương sâu trước khi xử lí tiếp.",
+        "s": "Công nghệ 3",
+        "h": "Sơ cứu đúng khi bị bỏng nhẹ",
+        "fig": {
+          "w": 320,
+          "h": 185,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  100,
+                  14
+                ],
+                [
+                  220,
+                  14
+                ],
+                [
+                  220,
+                  44
+                ],
+                [
+                  100,
+                  44
+                ]
+              ],
+              "fill": "#dcfce7",
+              "stroke": "#16a34a",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                33
+              ],
+              "s": "Bị bỏng nhiệt nhẹ",
+              "anchor": "middle",
+              "size": 11.5
+            },
+            {
+              "t": "line",
+              "a": [
+                160,
+                44
+              ],
+              "b": [
+                160,
+                62
+              ],
+              "arrow": true,
+              "color": "#334155",
+              "w": 2
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  160,
+                  64
+                ],
+                [
+                  235,
+                  94
+                ],
+                [
+                  160,
+                  124
+                ],
+                [
+                  85,
+                  94
+                ]
+              ],
+              "fill": "#fef3c7",
+              "stroke": "#d97706",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                98
+              ],
+              "s": "Có vòi nước mát?",
+              "anchor": "middle",
+              "size": 11.5
+            },
+            {
+              "t": "line",
+              "a": [
+                85,
+                94
+              ],
+              "b": [
+                55,
+                138
+              ],
+              "arrow": true,
+              "color": "#16a34a",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                58,
+                110
+              ],
+              "s": "Đúng",
+              "anchor": "middle",
+              "size": 10.5,
+              "color": "#15803d"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  10,
+                  140
+                ],
+                [
+                  135,
+                  140
+                ],
+                [
+                  135,
+                  170
+                ],
+                [
+                  10,
+                  170
+                ]
+              ],
+              "fill": "#dbeafe",
+              "stroke": "#2563eb",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                72,
+                159
+              ],
+              "s": "Xả nước 15-20 phút",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "line",
+              "a": [
+                235,
+                94
+              ],
+              "b": [
+                265,
+                138
+              ],
+              "arrow": true,
+              "color": "#dc2626",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                264,
+                110
+              ],
+              "s": "Sai",
+              "anchor": "middle",
+              "size": 10.5,
+              "color": "#dc2626"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  185,
+                  140
+                ],
+                [
+                  310,
+                  140
+                ],
+                [
+                  310,
+                  170
+                ],
+                [
+                  185,
+                  170
+                ]
+              ],
+              "fill": "#fee2e2",
+              "stroke": "#dc2626",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                247,
+                159
+              ],
+              "s": "Gọi người lớn giúp",
+              "anchor": "middle",
+              "size": 11
+            }
+          ]
+        }
+      },
+      {
+        "c": "CN3-B06-008",
+        "d": "application",
+        "p": "Một buổi trưa đi học về, vừa mở cửa bếp em ngửi thấy mùi khí ga nồng nặc bốc ra từ bình ga. Hành động nào TUYỆT ĐỐI KHÔNG ĐƯỢC LÀM lúc này?",
+        "o": [
+          "Che mũi nhẹ nhàng và rời khỏi bếp ngay",
+          "Đi lùi ra ngoài nhà và gọi ngay cho người lớn",
+          "Mở tung các cửa sổ cho thoáng khí",
+          "Tuyệt đối không bật công tắc đèn, không đánh diêm hay bật lửa vì tia lửa nhỏ cũng có thể gây nổ lớn"
+        ],
+        "k": "D",
+        "e": "Tia lửa từ công tắc đèn điện hay bật lửa khi gặp khí ga rò rỉ sẽ gây cháy nổ cực kì nguy hiểm.",
+        "s": "Công nghệ 3",
+        "h": "An toàn khi ngửi thấy mùi ga"
+      },
+      {
+        "c": "CN3-B06-009",
+        "d": "application",
+        "p": "Khi nhìn thấy một chiếc quạt điện bỗng nhiên bốc khói khét lẹt và có tia lửa nhỏ ở phần phích cắm, em cần xử lí như thế nào cho an toàn nhất?",
+        "o": [
+          "Đứng im nhìn xem quạt cháy bao lâu",
+          "Lấy tay trần giật mạnh sợi dây đang bốc khói",
+          "Tạt ngay một xô nước lạnh trực tiếp vào ổ điện đang cháy",
+          "Tránh xa khu vực đang chập cháy, hô to báo ngay cho người lớn để ngắt cầu dao tổng kịp thời"
+        ],
+        "k": "D",
+        "e": "Không bao giờ tạt nước vào đám cháy điện vì nước dẫn điện làm điện giật lan rộng; cần báo người lớn ngắt nguồn điện.",
+        "s": "Công nghệ 3",
+        "h": "Không tạt nước vào đám cháy điện"
+      },
+      {
+        "c": "CN3-B06-010",
+        "d": "application",
+        "p": "Tại sao khi rút phích cắm bàn là hoặc ấm đun nước ra khỏi ổ điện, người lớn luôn dặn phải cầm vào phần vỏ nhựa cứng của phích cắm mà không giật mạnh dây điện?",
+        "o": [
+          "Vì cầm dây điện làm dây bị ngắn lại",
+          "Vì phần nhựa phích cắm luôn mềm dẻo",
+          "Vì giật dây lâu ngày làm đứt ngầm lõi đồng, bong vỏ cách điện ở cổ phích gây chập cháy và điện giật",
+          "Vì cầm vào thân phích cắm giúp điện chạy nhanh hơn"
+        ],
+        "k": "C",
+        "e": "Cầm chắc thân vỏ phích cắm khi rút giữ mối nối bền chặt và đôi tay luôn được lớp nhựa cách điện bảo vệ.",
+        "s": "Công nghệ 3",
+        "h": "Cầm phần nhựa khi rút phích cắm"
+      },
+      {
+        "c": "CN3-B06-011",
+        "d": "application",
+        "p": "Bảng dưới ghi lại khảo sát lỗi mất an toàn thường gặp ở các gia đình có trẻ nhỏ. Theo bảng, lỗi nào chiếm số lượng cao nhất cần ưu tiên nhắc nhở ngay?",
+        "o": [
+          "Để trẻ tự rút cắm điện hoặc lại gần ổ điện tầm thấp (18 gia đình)",
+          "Quên tắt đèn khi ra khỏi phòng (4 gia đình)",
+          "Cả ba lỗi đều bằng nhau",
+          "Chơi dao kéo trong bếp (6 gia đình)"
+        ],
+        "k": "A",
+        "e": "Số liệu 18 gia đình cho thấy nguy cơ từ ổ điện tầm thấp là phổ biến nhất và cần che chắn kĩ.",
+        "s": "Công nghệ 3",
+        "h": "Đọc bảng thống kê an toàn nhà",
+        "fig": {
+          "type": "bars",
+          "title": "Khảo sát nguy cơ trong 30 gia đình",
+          "labels": [
+            "Ổ điện thấp",
+            "Đồ nóng bếp",
+            "Dao kéo nhọn",
+            "Dây điện hở"
+          ],
+          "series": [
+            {
+              "values": [
+                18,
+                12,
+                6,
+                4
+              ]
+            }
+          ],
+          "unit": "nhà"
+        }
+      },
+      {
+        "c": "CN3-B06-012",
+        "d": "application",
+        "p": "Sau khi dùng xong kéo, dao rọc giấy hay kim khâu vá ở nhà, nơi cất giữ hợp lí và an toàn nhất là ở đâu?",
+        "o": [
+          "Đặt ngay dưới gối ngủ cho tiện tìm",
+          "Đóng nắp bảo vệ mũi kéo hoặc bọc bao nhựa rồi cất gọn lên ngăn tủ cao, xa tầm với em bé",
+          "Bỏ lẫn vào rổ đồ chơi của em bé 2 tuổi",
+          "Để ngửa lưỡi dao trên mặt ghế sofa"
+        ],
+        "k": "B",
+        "e": "Cất vật sắc nhọn có vỏ bọc ở nơi cao gọn giúp tránh tai nạn đáng tiếc cho mọi thành viên.",
+        "s": "Công nghệ 3",
+        "h": "Bảo quản vật sắc nhọn an toàn"
+      },
+      {
+        "c": "CN3-B06-013",
+        "d": "advanced",
+        "p": "Nếu không may thấy một người trong nhà bị dính tay vào dây điện hở (bị điện giật chưa thoát ra được), học sinh lớp 3 tuyệt đối không chạy tới nắm tay kéo trực tiếp vì sao, và cần làm gì ngay?",
+        "o": [
+          "Vì kéo tay người đó làm hỏng dây điện của nhà",
+          "Đứng sát bên cạnh cầm tay động viên",
+          "Chạy đi lấy khăn ướt đắp lên tay người bị nạn",
+          "Vì cơ thể mình sẽ bị điện truyền sang giật theo; phải lập tức hô hoán thật to gọi người lớn ngắt cầu dao điện hoặc dùng gậy gỗ khô gạt nguồn điện"
+        ],
+        "k": "D",
+        "e": "Không bao giờ chạm tay trần vào người đang bị điện giật; cách cứu nhanh nhất là ngắt cầu dao tổng và gọi cấp cứu.",
+        "s": "Công nghệ 3",
+        "h": "Nguyên tắc cứu người bị điện giật"
+      },
+      {
+        "c": "CN3-B06-014",
+        "d": "advanced",
+        "p": "Vào những ngày mưa giông kèm sấm sét dữ dội ngoài trời, vì sao cả nhà nên tạm rút phích cắm ăng-ten tivi, máy tính bàn và không dùng điện thoại đang cắm sạc?",
+        "o": [
+          "Để phòng dòng điện sét đánh lan truyền qua đường dây điện, cáp mạng gây chập hỏng thiết bị và nguy hiểm cho người chạm vào",
+          "Vì sấm sét giúp sạc pin đầy trong 1 giây",
+          "Vì trời mưa sấm sét làm tivi đổi sang tiếng nước ngoài",
+          "Vì rút phích cắm làm trời hết mưa ngay"
+        ],
+        "k": "A",
+        "e": "Sét có điện áp cực lớn dễ theo đường dây dẫn vào nhà gây hư hỏng mạch điện tử và tai nạn điện.",
+        "s": "Công nghệ 3",
+        "h": "An toàn thiết bị khi có sấm sét"
+      },
+      {
+        "c": "CN3-B06-015",
+        "d": "advanced",
+        "p": "Em hãy chọn bộ 3 quy tắc vàng \"An toàn công nghệ gia đình\" đầy đủ và đúng nhất cho học sinh tiểu học:",
+        "o": [
+          "1. Tự sửa ổ cắm khi hỏng; 2. Chơi đùa gần nồi canh sôi; 3. Tạt nước vào phích cháy",
+          "1. Cắm nhiều máy vào 1 ổ lỏng; 2. Xem tivi sát 50 cm; 3. Giấu kín vết bỏng",
+          "1. Chọc que sắt thử điện; 2. Mở đèn khi có mùi ga; 3. Đưa kéo mũi nhọn ra trước",
+          "1. Tay khô mới chạm thiết bị điện; 2. Tránh xa bếp nóng và dây hở; 3. Báo ngay người lớn khi có sự cố"
+        ],
+        "k": "D",
+        "e": "Ba quy tắc tay khô, giữ khoảng cách an toàn nhiệt sắc và báo người lớn kịp thời giúp em luôn bình an ở nhà.",
+        "s": "Công nghệ 3",
+        "h": "Bộ quy tắc vàng an toàn tại nhà"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe3-c2",
+    "lesson": {
+      "code": "congnghe3-b07",
+      "title": "Bài 7. Làm Đồ dùng Học tập (Thước kẻ, Hộp bút)",
+      "seq": 7,
+      "subtitle": "Nhận biết vật liệu, dụng cụ và thực hành đúng quy trình làm đồ dùng học tập đơn giản (thước kẻ giấy bìa, hộp đựng bút) chắc chắn và đẹp mắt",
+      "concepts": [
+        "Vật liệu và dụng cụ thủ công",
+        "Quy trình làm thước kẻ",
+        "Quy trình làm hộp đựng bút"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN3-B07-001",
+        "d": "basic",
+        "p": "Để tự tay làm một chiếc thước kẻ đơn giản tặng bạn hoặc dùng trên lớp Công nghệ, vật liệu chính dễ tìm và cứng cáp vừa phải nhất là gì?",
+        "o": [
+          "Đất sét ướt chưa nung",
+          "Vải voan mỏng mềm",
+          "Bìa cứng (bìa các-tông sạch hoặc giấy bìa dày)",
+          "Giấy ăn mềm mỏng dễ rách"
+        ],
+        "k": "C",
+        "e": "Bìa cứng có độ phẳng và cứng cáp vừa đủ để vẽ thẳng mép, dễ cắt bằng kéo học sinh.",
+        "s": "Công nghệ 3",
+        "h": "Vật liệu làm thước kẻ thủ công",
+        "fig": {
+          "w": 300,
+          "h": 190,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  60,
+                  45
+                ],
+                [
+                  240,
+                  45
+                ],
+                [
+                  240,
+                  135
+                ],
+                [
+                  60,
+                  135
+                ]
+              ],
+              "fill": "#fde68a",
+              "stroke": "#d97706",
+              "w": 2.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                178
+              ],
+              "s": "Thân thước kẻ: Hình chữ nhật 20 cm x 3 cm",
+              "anchor": "middle",
+              "size": 13
+            }
+          ]
+        }
+      },
+      {
+        "c": "CN3-B07-002",
+        "d": "basic",
+        "p": "Chiếc thước kẻ thẳng thông thường được tạo hình theo dạng hình học cơ bản nào để có cạnh thẳng tắp và các góc vuông gọn gàng?",
+        "o": [
+          "Hình đám mây uốn lượn",
+          "Hình chữ nhật",
+          "Hình tròn lăn lóc",
+          "Hình ngôi sao nhiều cánh nhọn"
+        ],
+        "k": "B",
+        "e": "Hình chữ nhật có hai cạnh dài thẳng song song giúp đặt bút kẻ những đoạn thẳng chuẩn xác.",
+        "s": "Công nghệ 3",
+        "h": "Hình dạng chuẩn của thước kẻ"
+      },
+      {
+        "c": "CN3-B07-003",
+        "d": "basic",
+        "p": "Trên chiếc thước kẻ dài 20 xăng-ti-mét em tự làm, khoảng cách giữa hai vạch số nguyên liên tiếp (từ vạch 0 đến vạch 1, từ 1 đến 2...) dài đúng bao nhiêu?",
+        "o": [
+          "Đúng 1 xăng-ti-mét (1 cm)",
+          "Không cần chia đều khoảng cách",
+          "Đúng 1 mét (1 m)",
+          "Đúng 10 xăng-ti-mét (10 cm)"
+        ],
+        "k": "A",
+        "e": "Muốn thước đo chính xác độ dài vật, các vạch chia cm phải được đo sao chép chuẩn từng 1 cm bằng thước mẫu.",
+        "s": "Công nghệ 3",
+        "h": "Khoảng cách chuẩn giữa các vạch số"
+      },
+      {
+        "c": "CN3-B07-004",
+        "d": "basic",
+        "p": "Khi làm ống đựng bút để bàn tái chế từ lõi giấy vệ sinh hoặc vỏ chai nhựa, vì sao em cần dán thêm một tấm bìa cứng hình tròn hoặc hình vuông ở phía dưới ống?",
+        "o": [
+          "Để làm chiếc ống bay lên cao",
+          "Để làm phần đáy vững chắc giữ cho bút, thước không bị tụt rơi xuống bàn",
+          "Để không bỏ được chiếc bút nào vào trong",
+          "Chỉ để che mất mặt bàn"
+        ],
+        "k": "B",
+        "e": "Phần đáy dán khít giữ toàn bộ đồ dùng bên trong đứng vững trên mặt bàn học.",
+        "s": "Công nghệ 3",
+        "h": "Vai trò tấm bìa làm đáy hộp bút"
+      },
+      {
+        "c": "CN3-B07-005",
+        "d": "basic",
+        "p": "Khi làm ống đựng bút dạng hình trụ tròn, phần vỏ giấy màu bọc quanh thân ống trước khi gấp cuộn lại có hình dạng phẳng là hình gì?",
+        "o": [
+          "Hình tam giác cân",
+          "Hình tròn nhỏ",
+          "Hình thoi nhọn",
+          "Hình chữ nhật"
+        ],
+        "k": "D",
+        "e": "Cuộn một mảnh hình chữ nhật quanh thân trụ tạo thành bề mặt cong khép kín gọn đẹp cho hộp bút.",
+        "s": "Công nghệ 3",
+        "h": "Hình triển khai thân hộp bút trụ",
+        "fig": {
+          "w": 300,
+          "h": 190,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  100,
+                  50
+                ],
+                [
+                  200,
+                  50
+                ],
+                [
+                  200,
+                  145
+                ],
+                [
+                  100,
+                  145
+                ]
+              ],
+              "fill": "#bfdbfe",
+              "stroke": "#1d4ed8",
+              "w": 2
+            },
+            {
+              "t": "circle",
+              "c": [
+                150,
+                50
+              ],
+              "r": 50,
+              "fill": "#dbeafe",
+              "stroke": "#1d4ed8",
+              "w": 2
+            },
+            {
+              "t": "line",
+              "a": [
+                100,
+                50
+              ],
+              "b": [
+                100,
+                145
+              ],
+              "color": "#1d4ed8",
+              "w": 2.5
+            },
+            {
+              "t": "line",
+              "a": [
+                200,
+                50
+              ],
+              "b": [
+                200,
+                145
+              ],
+              "color": "#1d4ed8",
+              "w": 2.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                178
+              ],
+              "s": "Hộp bút hình trụ có đáy chắc chắn",
+              "anchor": "middle",
+              "size": 13
+            }
+          ]
+        }
+      },
+      {
+        "c": "CN3-B07-006",
+        "d": "basic",
+        "p": "Dụng cụ nào dùng để đo kích thước chiều dài, chiều rộng chính xác trên tấm bìa trước khi vạch dấu cắt thước kẻ?",
+        "o": [
+          "Thước kẻ mẫu có vạch chia xăng-ti-mét (cm)",
+          "Hồ dán nước",
+          "Hộp màu sáp",
+          "Cục tẩy cao su"
+        ],
+        "k": "A",
+        "e": "Thước mẫu giúp đo vẽ kích thước chuẩn ngay từ bước đầu, tránh cắt lệch hoặc cong mép thước.",
+        "s": "Công nghệ 3",
+        "h": "Dụng cụ đo lấy dấu trên bìa"
+      },
+      {
+        "c": "CN3-B07-007",
+        "d": "application",
+        "p": "Thứ tự 4 bước chuẩn xác để làm một chiếc thước kẻ bìa cứng là bước nào trước, bước nào sau?",
+        "o": [
+          "1. Trang trí màu; 2. Ném kéo đi; 3. Mới cắt bìa; 4. Không cần đo",
+          "1. Cắt vụn bìa thành mảnh nhỏ rồi mới ghép lại",
+          "1. Đo vẽ khung hình chữ nhật; 2. Cắt rời thân thước; 3. Kẻ vạch chia độ dài chuẩn; 4. Trang trí và hoàn thiện",
+          "1. Kẻ vạch lên không khí; 2. Dán hồ đầy bàn; 3. Xé rách giấy"
+        ],
+        "k": "C",
+        "e": "Đo vẽ đúng kích thước trước, cắt dứt khoát theo nét bút chì rồi chia vạch và trang trí giúp sản phẩm đẹp và chính xác.",
+        "s": "Công nghệ 3",
+        "h": "Quy trình 4 bước làm thước kẻ",
+        "fig": {
+          "type": "table",
+          "title": "Quy trình làm Đồ dùng học tập",
+          "head": [
+            "Bước",
+            "Công việc cần làm"
+          ],
+          "rows": [
+            [
+              "Bước 1",
+              "Chọn vật liệu, đo vẽ"
+            ],
+            [
+              "Bước 2",
+              "Cắt gọn đúng nét"
+            ],
+            [
+              "Bước 3",
+              "Ghép hoặc kẻ vạch"
+            ],
+            [
+              "Bước 4",
+              "Trang trí, kiểm tra"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN3-B07-008",
+        "d": "application",
+        "p": "Bạn Lan muốn làm thước kẻ dài 15 cm nhưng vội vàng cắt giấy không dùng thước đo trước nên hai cạnh dài bị nghiêng lệch xiên xẹo. Lỗi này ảnh hưởng trực tiếp tới điều gì khi sử dụng?",
+        "o": [
+          "Không ảnh hưởng gì vì vở tự nắn thẳng lại",
+          "Làm bút chì viết nhanh hết mực hơn",
+          "Khi đặt bút kẻ theo mép thước bị nghiêng, đường thẳng vẽ ra trong vở sẽ bị cong vẹo, không thẳng",
+          "Làm thước kẻ tự đổi sang màu đỏ"
+        ],
+        "k": "C",
+        "e": "Cạnh thước thẳng tuyệt đối là yêu cầu quan trọng nhất của sản phẩm thước kẻ học sinh.",
+        "s": "Công nghệ 3",
+        "h": "Yêu cầu kĩ thuật của thước kẻ"
+      },
+      {
+        "c": "CN3-B07-009",
+        "d": "application",
+        "p": "Khi tái chế nửa chai nhựa để làm ống đựng bút để bàn, mép nhựa vừa cắt ngang thường khá sắc bén dễ làm xước tay. Em làm thế nào để khắc phục nhược điểm này vừa an toàn vừa đẹp mắt?",
+        "o": [
+          "Để nguyên mép sắc nhọn như vậy cho mới lạ",
+          "Dán viền một dải băng dính màu hoặc dải giấy bìa gập đôi bọc kín xung quanh miệng mép cắt",
+          "Đập bẹp miệng chai nhựa lại",
+          "Dùng tay trần mài mạnh vào mép nhựa sắc"
+        ],
+        "k": "B",
+        "e": "Bọc viền miệng ống bằng băng dính màu vừa che hết cạnh sắc an toàn cho tay vừa tạo đường viền trang trí nổi bật.",
+        "s": "Công nghệ 3",
+        "h": "Xử lí mép cắt nhựa an toàn"
+      },
+      {
+        "c": "CN3-B07-010",
+        "d": "application",
+        "p": "Trong lớp, mỗi bạn tự làm hộp bút gồm 3 ngăn kích thước nhỏ vừa to khác nhau ghép liền trên một tấm bìa đế chung. Thiết kế nhiều ngăn này mang lại tiện ích gì trên góc học tập?",
+        "o": [
+          "Giúp phân loại gọn gàng: ngăn cao đựng thước bút chì, ngăn vừa đựng kéo keo dán, ngăn thấp đựng gôm tẩy ghim giấy",
+          "Làm bàn học chật chội khó tìm đồ hơn",
+          "Để trộn lẫn hết tất cả vào một chỗ duy nhất",
+          "Làm chiếc hộp không đứng được trên bàn"
+        ],
+        "k": "A",
+        "e": "Thiết kế các ngăn cao thấp phù hợp chiều dài từng đồ dùng giúp góc học tập ngăn nắp và lấy đồ cực nhanh.",
+        "s": "Công nghệ 3",
+        "h": "Tiện ích hộp bút nhiều ngăn"
+      },
+      {
+        "c": "CN3-B07-011",
+        "d": "application",
+        "p": "Sau khi cắt bìa xong, mặt bàn học còn lại rất nhiều mảnh giấy vụn và kéo, hồ dán vương vãi. Thói quen công nghệ tốt đẹp nào em cần rèn luyện ngay sau tiết thực hành?",
+        "o": [
+          "Để nguyên bừa bộn như vậy rồi chạy ra sân chơi",
+          "Đẩy hết rác xuống gầm bàn bạn bên cạnh",
+          "Vứt luôn cả thước mẫu xuống sọt rác",
+          "Thu gom giấy vụn bỏ đúng thùng rác tái chế, lau sạch vết hồ dán và xếp gọn kéo, thước vào hộp đồ dùng"
+        ],
+        "k": "D",
+        "e": "Giữ vệ sinh sạch sẽ và thu gọn dụng cụ đúng chỗ sau thực hành là phẩm chất quan trọng trong môn Công nghệ.",
+        "s": "Công nghệ 3",
+        "h": "Vệ sinh và thu dọn sau thực hành"
+      },
+      {
+        "c": "CN3-B07-012",
+        "d": "application",
+        "p": "Khi dán thân ống giấy lên tấm bìa đế để làm hộp bút, tại sao cần bôi lượng keo dán vừa đủ đều quanh chân viền và dùng tay giữ ép nhẹ khoảng 20–30 giây?",
+        "o": [
+          "Bôi càng nhiều keo tràn ra ngoài càng chắc",
+          "Để keo chảy ướt sũng cả quyển sách giáo khoa",
+          "Để keo khô bám chặt khít thân ống với mặt đáy mà không bị lem nhem tràn keo ra ngoài làm nhăn giấy",
+          "Để hộp bút tách rời đáy ra dễ hơn"
+        ],
+        "k": "C",
+        "e": "Lượng keo vừa đủ và giữ cố định vài chục giây giúp mối dán khô phẳng, chắc chắn và thẩm mĩ cao.",
+        "s": "Công nghệ 3",
+        "h": "Kĩ thuật dán chắc và sạch đẹp"
+      },
+      {
+        "c": "CN3-B07-013",
+        "d": "advanced",
+        "p": "Để làm một chiếc thước kẻ bằng bìa mỏng nhưng không bị uốn cong hay rách ẩm nhanh khi dùng lâu dài, em có thể áp dụng mẹo gia cố đơn giản nào từ vật liệu quen thuộc?",
+        "o": [
+          "Ngâm chiếc thước bìa vào chậu nước lạnh",
+          "Dán ghép chập 2 đến 3 lớp bìa cứng lại với nhau cho dày dặn và bọc phủ một lớp băng dính trong suốt bên ngoài",
+          "Cắt chiếc thước mỏng bằng tờ giấy báo",
+          "Gấp đôi thước kẻ lại sau mỗi lần kẻ xong"
+        ],
+        "k": "B",
+        "e": "Ghép nhiều lớp bìa tăng độ cứng vững, còn lớp băng dính trong giúp chống thấm mồ hôi tay và chống sờn mép thước.",
+        "s": "Công nghệ 3",
+        "h": "Mẹo gia cố thước bìa bền đẹp"
+      },
+      {
+        "c": "CN3-B07-014",
+        "d": "advanced",
+        "p": "Khi chia các vạch số cm trên thước kẻ tự làm dài 15 cm, một bạn đặt vạch số 0 sát tận mép ngoài cùng của bìa và đánh số ngược từ phải sang trái 15, 14, 13... Điều này gây bất tiện gì khi đo?",
+        "o": [
+          "Không thể vẽ đường thẳng được nữa",
+          "Thước sẽ tự kéo dài thành 30 cm",
+          "Giúp đọc số đo nhanh hơn gấp đôi",
+          "Khi đo theo chiều thuận từ trái sang phải rất dễ đọc nhầm số đo và mép bìa ngoài cùng dễ bị mòn sờn làm sai số ở vạch 0"
+        ],
+        "k": "D",
+        "e": "Chừa một khoảng mép nhỏ đầu thước trước vạch 0 và đánh số tăng dần từ trái sang phải (0 đến 15) đúng chuẩn thước phổ thông.",
+        "s": "Công nghệ 3",
+        "h": "Chuẩn hóa vạch số 0 trên thước"
+      },
+      {
+        "c": "CN3-B07-015",
+        "d": "advanced",
+        "p": "Quan sát hai sản phẩm hộp bút của tổ 1 và tổ 2: Hộp của tổ 1 dán chắc, đứng vững, đường cắt phẳng mịn nhưng màu sắc giản dị; hộp tổ 2 sặc sỡ nhiều hoa giấy nhưng đáy dán hở làm bút rơi ra ngoài. Sản phẩm nào đạt yêu cầu công nghệ cốt lõi hơn?",
+        "o": [
+          "Cả hai sản phẩm đều vứt đi không dùng được",
+          "Sản phẩm của tổ 1 đạt yêu cầu cốt lõi tốt hơn vì trước hết đồ dùng phải chắc chắn, đựng được bút đúng công năng an toàn, sau đó mới bổ sung trang trí hài hòa",
+          "Sản phẩm của tổ 2 tốt hơn vì càng nhiều màu càng tốt dù không đựng được bút",
+          "Không thể nhận xét được sản phẩm nào"
+        ],
+        "k": "B",
+        "e": "Trong công nghệ chế tạo, công năng sử dụng tốt và độ bền chắc luôn là tiêu chí quan trọng hàng đầu trước khi trang trí.",
+        "s": "Công nghệ 3",
+        "h": "Đánh giá công năng và thẩm mĩ"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe3-c2",
+    "lesson": {
+      "code": "congnghe3-b08",
+      "title": "Bài 8. Làm Biển báo Giao thông Thân quen",
+      "seq": 8,
+      "subtitle": "Nhận biết các nhóm biển báo giao thông phổ biến qua hình dạng, màu sắc và thực hành làm mô hình biển báo giao thông đường bộ gọn đẹp",
+      "concepts": [
+        "Nhóm biển báo cấm",
+        "Nhóm biển báo nguy hiểm",
+        "Quy trình làm mô hình biển báo"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN3-B08-001",
+        "d": "basic",
+        "p": "Biển báo CẤM trong giao thông đường bộ (như biển Cấm đi ngược chiều, Cấm rẽ trái, Cấm đỗ xe) thường có hình dạng và màu sắc nhận diện đặc trưng nào?",
+        "o": [
+          "Hình tam giác đều nền tím",
+          "Hình thoi màu đen hoàn toàn",
+          "Hình tròn, viền màu đỏ nổi bật (nền trắng hoặc nền đỏ)",
+          "Hình vuông màu xanh lá cây"
+        ],
+        "k": "C",
+        "e": "Biển báo cấm có hình tròn viền đỏ để mọi người đi đường nhận ra ngay quy định nghiêm cấm từ xa.",
+        "s": "Công nghệ 3",
+        "h": "Đặc điểm nhóm biển báo cấm",
+        "fig": {
+          "w": 300,
+          "h": 175,
+          "items": [
+            {
+              "t": "circle",
+              "c": [
+                150,
+                80
+              ],
+              "r": 52,
+              "fill": "#ffffff",
+              "stroke": "#dc2626",
+              "w": 7
+            },
+            {
+              "t": "line",
+              "a": [
+                114,
+                44
+              ],
+              "b": [
+                186,
+                116
+              ],
+              "color": "#dc2626",
+              "w": 7
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                162
+              ],
+              "s": "Nhóm biển báo cấm: hình tròn viền đỏ",
+              "anchor": "middle",
+              "size": 12.5
+            }
+          ]
+        }
+      },
+      {
+        "c": "CN3-B08-002",
+        "d": "basic",
+        "p": "Quan sát hình biển báo tam giác đều, viền đỏ, nền màu vàng có dấu chấm than (!) ở giữa. Đây là nhóm biển báo giao thông nào?",
+        "o": [
+          "Biển báo hiệu lệnh bắt buộc đi thẳng",
+          "Biển quảng cáo cửa hàng",
+          "Biển báo nguy hiểm (cảnh báo đoạn đường có nguy hiểm cần chú ý giảm tốc độ)",
+          "Biển báo chỉ dẫn bãi đỗ xe"
+        ],
+        "k": "C",
+        "e": "Hình tam giác viền đỏ nền vàng là biển báo nguy hiểm cảnh báo học sinh và người lái xe đề phòng trước các khúc cua, trường học, đường trơn.",
+        "s": "Công nghệ 3",
+        "h": "Nhận biết biển báo nguy hiểm",
+        "fig": {
+          "w": 300,
+          "h": 175,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  150,
+                  24
+                ],
+                [
+                  88,
+                  130
+                ],
+                [
+                  212,
+                  130
+                ]
+              ],
+              "fill": "#facc15",
+              "stroke": "#dc2626",
+              "w": 6
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                110
+              ],
+              "s": "!",
+              "anchor": "middle",
+              "size": 36,
+              "color": "#1e293b"
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                162
+              ],
+              "s": "Biển báo nguy hiểm: tam giác viền đỏ nền vàng",
+              "anchor": "middle",
+              "size": 12.5
+            }
+          ]
+        }
+      },
+      {
+        "c": "CN3-B08-003",
+        "d": "basic",
+        "p": "Biển báo hình tròn nền xanh lam, có hình vẽ mũi tên màu trắng chỉ hướng phải đi theo (ví dụ hình bên dưới) thuộc nhóm biển báo nào?",
+        "o": [
+          "Biển thông báo tên đường phố",
+          "Biển báo nguy hiểm sắp có bão",
+          "Biển báo cấm người đi bộ",
+          "Biển báo hiệu lệnh (bắt buộc người tham gia giao thông phải chấp hành theo chỉ dẫn)"
+        ],
+        "k": "D",
+        "e": "Biển tròn nền xanh lam hình vẽ trắng là biển hiệu lệnh, yêu cầu người đi đường phải đi đúng hướng quy định.",
+        "s": "Công nghệ 3",
+        "h": "Nhận biết biển báo hiệu lệnh",
+        "fig": {
+          "w": 300,
+          "h": 175,
+          "items": [
+            {
+              "t": "circle",
+              "c": [
+                150,
+                80
+              ],
+              "r": 52,
+              "fill": "#2563eb",
+              "stroke": "#1d4ed8",
+              "w": 3
+            },
+            {
+              "t": "line",
+              "a": [
+                150,
+                110
+              ],
+              "b": [
+                150,
+                48
+              ],
+              "arrow": true,
+              "color": "#ffffff",
+              "w": 5
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                162
+              ],
+              "s": "Biển báo hiệu lệnh: hình tròn nền xanh lam",
+              "anchor": "middle",
+              "size": 12.5
+            }
+          ]
+        }
+      },
+      {
+        "c": "CN3-B08-004",
+        "d": "basic",
+        "p": "Biển báo hình chữ nhật hoặc hình vuông nền màu xanh lam (ví dụ chữ P báo nơi đỗ xe, hoặc vạch qua đường cho người đi bộ) thuộc nhóm biển nào?",
+        "o": [
+          "Biển báo cấm tuyệt đối",
+          "Biển báo chỉ dẫn",
+          "Biển báo nguy hiểm sạt lở",
+          "Biển báo công trường đang nổ mìn"
+        ],
+        "k": "B",
+        "e": "Biển báo chỉ dẫn có hình vuông hoặc chữ nhật nền xanh lam giúp hướng dẫn địa điểm thuận tiện, an toàn.",
+        "s": "Công nghệ 3",
+        "h": "Nhận biết biển báo chỉ dẫn",
+        "fig": {
+          "w": 300,
+          "h": 175,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  90,
+                  32
+                ],
+                [
+                  210,
+                  32
+                ],
+                [
+                  210,
+                  128
+                ],
+                [
+                  90,
+                  128
+                ]
+              ],
+              "fill": "#2563eb",
+              "stroke": "#1e40af",
+              "w": 3
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                90
+              ],
+              "s": "P",
+              "anchor": "middle",
+              "size": 34,
+              "color": "#ffffff"
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                162
+              ],
+              "s": "Biển báo chỉ dẫn: hình vuông nền xanh lam",
+              "anchor": "middle",
+              "size": 12.5
+            }
+          ]
+        }
+      },
+      {
+        "c": "CN3-B08-005",
+        "d": "basic",
+        "p": "Để làm một mô hình biển báo giao thông đứng vững trên bàn học trưng bày, sản phẩm hoàn chỉnh gồm 3 bộ phận chính nào?",
+        "o": [
+          "Mặt biển báo, cột trụ đứng và phần chân đế vững chắc",
+          "Chai nước, kéo cắt và cái thìa",
+          "Bánh xe ô tô, còi hú và đèn pin",
+          "Chỉ có mỗi tờ giấy tròn vẽ hình"
+        ],
+        "k": "A",
+        "e": "Mặt biển gắn lên cột trụ cắm chắc vào chân đế tạo nên mô hình biển báo đường bộ giống thật.",
+        "s": "Công nghệ 3",
+        "h": "Ba bộ phận của mô hình biển báo"
+      },
+      {
+        "c": "CN3-B08-006",
+        "d": "basic",
+        "p": "Khi thấy đèn tín hiệu giao thông ngã tư chuyển sang màu đỏ như hình đèn trên cùng, tất cả người và phương tiện đang di chuyển phải làm gì?",
+        "o": [
+          "Vẫn đi bình thường không cần dừng",
+          "Tăng tốc chạy thật nhanh qua ngã tư",
+          "Dừng lại ngay trước vạch dừng, không vượt qua ngã tư",
+          "Rẽ trái tùy thích giữa dòng xe"
+        ],
+        "k": "C",
+        "e": "Đèn đỏ báo hiệu dừng lại; đèn vàng báo đi chậm chuẩn bị dừng; đèn xanh mới được phép đi.",
+        "s": "Công nghệ 3",
+        "h": "Ý nghĩa đèn tín hiệu màu đỏ",
+        "fig": {
+          "w": 300,
+          "h": 175,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  125,
+                  16
+                ],
+                [
+                  175,
+                  16
+                ],
+                [
+                  175,
+                  146
+                ],
+                [
+                  125,
+                  146
+                ]
+              ],
+              "fill": "#334155",
+              "stroke": "#0f172a",
+              "w": 2
+            },
+            {
+              "t": "circle",
+              "c": [
+                150,
+                42
+              ],
+              "r": 14,
+              "fill": "#ef4444",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "circle",
+              "c": [
+                150,
+                81
+              ],
+              "r": 14,
+              "fill": "#facc15",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "circle",
+              "c": [
+                150,
+                120
+              ],
+              "r": 14,
+              "fill": "#22c55e",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                162
+              ],
+              "s": "Đèn đỏ dừng - Đèn vàng chậm - Đèn xanh đi",
+              "anchor": "middle",
+              "size": 12.5
+            }
+          ]
+        }
+      },
+      {
+        "c": "CN3-B08-007",
+        "d": "application",
+        "p": "Để cắt chính xác hình mặt biển báo \"Cấm đi ngược chiều\" dạng hình tròn đường kính 8 cm trên giấy bìa, em nên dùng cách vẽ khuôn nào nhanh và tròn đều nhất?",
+        "o": [
+          "Xé giấy bằng tay cho tròn",
+          "Dùng thước tam giác vẽ thành hình vuông",
+          "Ước lượng bằng mắt và cắt thẳng luôn không cần vẽ",
+          "Dùng compa mở bán kính 4 cm quay một vòng tròn hoặc đặt miệng cốc tròn làm khuôn rồi dùng bút chì viền theo"
+        ],
+        "k": "D",
+        "e": "Miệng cốc tròn hoặc compa tạo đường tròn chuẩn xác để mặt biển báo cắt ra tròn đều không méo mó.",
+        "s": "Công nghệ 3",
+        "h": "Cách tạo hình mặt biển báo tròn"
+      },
+      {
+        "c": "CN3-B08-008",
+        "d": "application",
+        "p": "Bạn Nam muốn làm mô hình biển báo \"Trẻ em\" (cảnh báo gần cổng trường học để xe cộ đi chậm). Bạn cần chuẩn bị các mảnh giấy màu nào là chính xác theo quy chuẩn giao thông?",
+        "o": [
+          "Giấy nền màu vàng, viền khung tam giác màu đỏ và hình ảnh minh họa hai bạn nhỏ màu đen",
+          "Giấy màu hồng, vẽ hình bông hoa",
+          "Giấy nền màu tím, viền màu xanh lá cây",
+          "Giấy hình tròn nền đen, viền trắng"
+        ],
+        "k": "A",
+        "e": "Biển cảnh báo \"Trẻ em\" thuộc nhóm biển nguy hiểm nên dùng tam giác viền đỏ, nền vàng, hình vẽ màu đen.",
+        "s": "Công nghệ 3",
+        "h": "Chọn đúng màu biển báo Trẻ em",
+        "fig": {
+          "w": 300,
+          "h": 190,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  150,
+                  30
+                ],
+                [
+                  70,
+                  150
+                ],
+                [
+                  230,
+                  150
+                ]
+              ],
+              "fill": "#facc15",
+              "stroke": "#dc2626",
+              "w": 2.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                178
+              ],
+              "s": "Khung hình tam giác đều làm biển nguy hiểm",
+              "anchor": "middle",
+              "size": 13
+            }
+          ]
+        }
+      },
+      {
+        "c": "CN3-B08-009",
+        "d": "application",
+        "p": "Bảng dưới đối chiếu nhanh 4 nhóm biển báo chính. Thông tin ở dòng nào trong bảng đã ghép đúng hình dạng với màu nền chuẩn?",
+        "o": [
+          "Biển cấm có hình tam giác nền xanh lá",
+          "Cả 4 nhóm đều chuẩn xác (Cấm: tròn trắng viền đỏ; Nguy hiểm: tam giác vàng viền đỏ; Hiệu lệnh: tròn xanh lam; Chỉ dẫn: chữ nhật xanh lam)",
+          "Biển nguy hiểm có hình tròn màu tím",
+          "Biển chỉ dẫn có hình ngôi sao màu đỏ"
+        ],
+        "k": "B",
+        "e": "Ghi nhớ quy tắc hình dạng và màu sắc giúp em đọc hiểu nhanh hàng trăm biển báo ngoài đường phố.",
+        "s": "Công nghệ 3",
+        "h": "Đối chiếu hình dạng màu sắc 4 nhóm biển",
+        "fig": {
+          "type": "table",
+          "title": "Nhận diện 4 Nhóm Biển báo",
+          "head": [
+            "Nhóm biển",
+            "Hình - Màu chủ đạo"
+          ],
+          "rows": [
+            [
+              "Biển cấm",
+              "Tròn - Viền đỏ"
+            ],
+            [
+              "Nguy hiểm",
+              "Tam giác - Vàng, đỏ"
+            ],
+            [
+              "Hiệu lệnh",
+              "Tròn - Nền xanh lam"
+            ],
+            [
+              "Chỉ dẫn",
+              "Chữ nhật - Xanh lam"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN3-B08-010",
+        "d": "application",
+        "p": "Trong lúc lắp ghép cột biển báo bằng ống hút nhựa gắn vào đế nắp hộp sữa chua chứa đất nặn, em làm cách nào để cột đứng thẳng không bị nghiêng đổ?",
+        "o": [
+          "Gắn mặt biển báo nặng bằng hòn đá",
+          "Cắt cột trụ dài gấp 5 lần đường kính bàn học",
+          "Nhét chặt lượng đất nặn vừa đủ vào đầy trong lòng nắp hộp, cắm thẳng ống hút vào tâm khối đất nặn rồi nén ép chặt xung quanh chân cột",
+          "Đặt nhẹ đầu ống hút lên mặt nắp nhựa trơn không có keo hay đất nặn"
+        ],
+        "k": "C",
+        "e": "Khối đất nặn nặng nằm ở đáy nắp hộp giúp hạ thấp trọng tâm và giữ chặt chân cột đứng thẳng vững vàng.",
+        "s": "Công nghệ 3",
+        "h": "Kĩ thuật làm chân đế vững chắc"
+      },
+      {
+        "c": "CN3-B08-011",
+        "d": "application",
+        "p": "Ở trước cổng trường tiểu học thường có biển báo nhắc xe ô tô và xe máy giảm tốc độ, đồng thời có vạch kẻ trắng cho người đi bộ qua đường. Khi đi bộ tan học, em áp dụng kiến thức biển báo này thế nào?",
+        "o": [
+          "Chạy ùa băng ngang qua đường bất kì chỗ nào",
+          "Đi ngược chiều giữa làn xe máy",
+          "Đá bóng ngay dưới lòng đường trước cổng trường",
+          "Đi bộ gọn trên vỉa hè, chỉ sang đường đúng nơi có vạch kẻ đi bộ và quan sát hai chiều an toàn cùng thầy cô hoặc người lớn"
+        ],
+        "k": "D",
+        "e": "Học làm biển báo giúp em hiểu và chấp hành nghiêm túc Luật Giao thông bảo vệ an toàn bản thân mỗi ngày.",
+        "s": "Công nghệ 3",
+        "h": "Áp dụng an toàn giao thông cổng trường"
+      },
+      {
+        "c": "CN3-B08-012",
+        "d": "application",
+        "p": "Nếu em làm mô hình biển báo giao thông để trang trí mô hình sa bàn ngã tư đường phố của tổ, kích thước chiều cao cột biển báo nên chọn thế nào cho cân đối hài hòa?",
+        "o": [
+          "Cao 1 cm khiến mặt biển chạm sát mặt đất",
+          "Chiều cao cột khoảng 12–16 cm cân đối vừa tầm với đường kính mặt biển 6–8 cm và nhà cửa xung quanh sa bàn",
+          "Cao 1 mét che kín cả lớp học",
+          "Cột nhỏ hơn que tăm mà mặt biển to bằng chiếc mâm"
+        ],
+        "k": "B",
+        "e": "Tỉ lệ hài hòa giữa mặt biển (6–8 cm), cột trụ (12–16 cm) và chân đế giúp mô hình đẹp mắt và đứng vững.",
+        "s": "Công nghệ 3",
+        "h": "Tỉ lệ cân đối của mô hình biển báo"
+      },
+      {
+        "c": "CN3-B08-013",
+        "d": "advanced",
+        "p": "Một bạn gắn biển báo \"Cấm rẽ trái\" (hình tròn viền đỏ có vạch gạch chéo màu đỏ đè lên mũi tên rẽ trái màu đen), nhưng bạn lại dán vạch gạch chéo lệch hẳn ra bên ngoài vòng tròn. Lỗi kĩ thuật này làm người xem hiểu nhầm thế nào?",
+        "o": [
+          "Người lái xe hiểu là được phép rẽ trái thoải mái",
+          "Không có vấn đề gì vì gạch chéo nằm đâu cũng được",
+          "Làm người xem khó phân biệt đó là biển báo Cấm hay biển chỉ dẫn, làm mất đi kí hiệu gạch chéo đặc trưng của lệnh cấm",
+          "Biển đó biến thành biển báo bãi đỗ xe"
+        ],
+        "k": "C",
+        "e": "Đường gạch chéo đỏ nằm gọn bên trong viền tròn và đè lên biểu tượng đen là dấu hiệu chuẩn quốc tế của nhiều biển cấm.",
+        "s": "Công nghệ 3",
+        "h": "Tính chính xác của kí hiệu biển báo"
+      },
+      {
+        "c": "CN3-B08-014",
+        "d": "advanced",
+        "p": "Khi làm biển báo 2 mặt (hoặc mặt sau hộp biển có nắp dán cố định vào ống cột trụ), vì sao nên dán thêm một miếng bìa chữ nhật nhỏ bắc ngang ép chặt ống cột vào mặt sau biển thay vì chỉ chấm một giọt hồ lên ống tròn?",
+        "o": [
+          "Vì chấm một giọt hồ làm ống cột bị tan chảy",
+          "Vì chỉ để tốn thêm giấy bìa màu",
+          "Vì không có mục đích gì cả",
+          "Vì ống trụ tròn có diện tích tiếp xúc rất nhỏ nên dễ bung rơi; miếng bìa bắc ngang ôm rộng lấy ống giúp liên kết chắc chắn gấp nhiều lần"
+        ],
+        "k": "D",
+        "e": "Miếng bìa giằng mặt sau tăng diện tích dán ép chặt lên bề mặt phẳng, khắc phục điểm yếu của ống trụ tròn.",
+        "s": "Công nghệ 3",
+        "h": "Gia cố mối nối giữa cột và mặt biển"
+      },
+      {
+        "c": "CN3-B08-015",
+        "d": "advanced",
+        "p": "Trên đường đi học, em thấy một biển báo ở đầu ngõ bị cành cây xum xuê che khuất một nửa hoặc bị bôi bẩn vẽ bậy. Hành động công dân nhỏ văn minh của em là gì?",
+        "o": [
+          "Bẻ cong cột biển báo xuống cho thấp",
+          "Vẽ thêm hình mặt cười lên mặt biển báo khác",
+          "Không quan tâm và hái lá ném lên biển báo",
+          "Không vẽ bậy phá hoại biển báo công cộng và báo với người lớn hoặc chính quyền địa phương tỉa cành cây thoáng để mọi người nhìn rõ biển báo"
+        ],
+        "k": "D",
+        "e": "Bảo vệ biển báo giao thông luôn rõ ràng sạch đẹp chính là bảo vệ an toàn tính mạng cho cộng đồng.",
+        "s": "Công nghệ 3",
+        "h": "Ý thức giữ gìn biển báo công cộng"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe3-c2",
+    "lesson": {
+      "code": "congnghe3-b09",
+      "title": "Bài 9. Làm Đồ chơi Thủ công từ Vật liệu Tái chế",
+      "seq": 9,
+      "subtitle": "Biết tận dụng các vật liệu đã qua sử dụng an toàn (vỏ hộp giấy, chai nhựa sạch, ống hút, nắp chai) để thiết kế và làm đồ chơi thân thiện môi trường",
+      "concepts": [
+        "Lợi ích tái chế đồ chơi",
+        "Lựa chọn vật liệu an toàn",
+        "Thực hành lắp ghép đồ chơi"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN3-B09-001",
+        "d": "basic",
+        "p": "Việc tận dụng vỏ hộp sữa giấy đã rửa sạch, chai nhựa, lõi cuộn giấy để làm đồ chơi thủ công mang lại lợi ích to lớn nào cho môi trường?",
+        "o": [
+          "Làm tốn nhiều tiền hơn mua đồ chơi đắt đỏ",
+          "Gây ô nhiễm nguồn nước sạch trong nhà",
+          "Làm tăng thêm lượng rác thải khó phân hủy mỗi ngày",
+          "Giảm lượng rác thải nhựa giấy ra môi trường, tiết kiệm tiền mua đồ chơi và phát huy trí sáng tạo"
+        ],
+        "k": "D",
+        "e": "Tái chế biến rác sạch bỏ đi thành món đồ chơi hữu ích là lối sống xanh tuyệt vời của học sinh thế kỉ 21.",
+        "s": "Công nghệ 3",
+        "h": "Ý nghĩa bảo vệ môi trường khi tái chế",
+        "fig": {
+          "type": "table",
+          "title": "Vật liệu Tái chế Làm Đồ chơi",
+          "head": [
+            "Vật liệu bỏ đi",
+            "Biến hóa thành"
+          ],
+          "rows": [
+            [
+              "Vỏ hộp sữa",
+              "Xe ô tô, ngôi nhà"
+            ],
+            [
+              "4 nắp chai nhựa",
+              "4 bánh xe lăn tròn"
+            ],
+            [
+              "Lõi cuộn giấy",
+              "Ống nhòm, con vật"
+            ],
+            [
+              "Vỏ chai nhựa",
+              "Chậu cây, tên lửa"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN3-B09-002",
+        "d": "basic",
+        "p": "Trước khi dùng vỏ hộp sữa tươi hoặc chai nước ngọt bằng nhựa để làm mô hình xe ô tô đồ chơi, bước chuẩn bị đầu tiên bắt buộc phải làm là gì?",
+        "o": [
+          "Đập bẹp nát vỏ hộp thành từng vụn nhỏ",
+          "Để nguyên nước sữa thiu bên trong rồi dán giấy đè lên",
+          "Rửa sạch cặn sữa hoặc nước ngọt bên trong bằng nước sạch rồi phơi thật khô ráo, không có mùi hôi hay kiến bâu",
+          "Ngâm vỏ hộp trong nước muối mặn cả tuần"
+        ],
+        "k": "C",
+        "e": "Vệ sinh sạch và phơi khô vật liệu tái chế đảm bảo an toàn sức khỏe và giúp băng dính, keo dán bám chắc.",
+        "s": "Công nghệ 3",
+        "h": "Vệ sinh vật liệu tái chế trước khi làm"
+      },
+      {
+        "c": "CN3-B09-003",
+        "d": "basic",
+        "p": "Để làm 4 chiếc bánh xe cho mô hình ô tô từ vỏ hộp sữa, vật liệu tái chế nào có sẵn hình tròn đều, cứng cáp và phù hợp nhất?",
+        "o": [
+          "4 chiếc lá cây dễ khô giòn gãy vụn",
+          "4 tờ giấy ăn hình vuông vo tròn",
+          "4 chiếc nắp chai nước ngọt hoặc nắp hộp sữa nhựa có kích thước bằng nhau",
+          "4 viên phấn viết bảng dễ vỡ"
+        ],
+        "k": "C",
+        "e": "Bốn nắp chai nhựa tròn đều vừa bền chắc vừa dễ đục lỗ tâm xiên trục để xe lăn bánh mượt mà.",
+        "s": "Công nghệ 3",
+        "h": "Chọn nắp chai làm bánh xe"
+      },
+      {
+        "c": "CN3-B09-004",
+        "d": "basic",
+        "p": "Trong các vật liệu dưới đây, vật liệu nào KHÔNG NÊN cho học sinh lớp 3 tự cắt chế tạo đồ chơi vì rất dễ gây đứt tay hoặc nguy hiểm?",
+        "o": [
+          "Bìa các-tông sạch từ thùng bánh",
+          "Mảnh thủy tinh vỡ hoặc vỏ lon kim loại có cạnh sắc nhọn như dao",
+          "Ống hút nhựa và que kem gỗ sạch",
+          "Lõi giấy vệ sinh bằng bìa mềm"
+        ],
+        "k": "B",
+        "e": "Thủy tinh và lon thiếc sắc nhọn rất dễ cứa đứt tay; học sinh tiểu học chỉ nên dùng giấy bìa, nhựa mềm, gỗ que kem an toàn.",
+        "s": "Công nghệ 3",
+        "h": "Tránh vật liệu tái chế sắc nhọn nguy hiểm"
+      },
+      {
+        "c": "CN3-B09-005",
+        "d": "basic",
+        "p": "Để làm một chiếc ống nhòm đồ chơi hai mắt cực nhanh cho trò chơi thám tử, em chỉ cần ghép nối hai vật liệu tái chế quen thuộc nào?",
+        "o": [
+          "Hai chiếc đĩa sành dễ vỡ",
+          "Hai viên gạch nung nặng",
+          "Hai lõi cuộn giấy vệ sinh sạch đặt song song cạnh nhau",
+          "Hai đoạn dây điện đang cắm phích"
+        ],
+        "k": "C",
+        "e": "Hai lõi giấy đặt song song, cố định bằng băng dính và thêm dây đeo vai tạo ngay ống nhòm đồ chơi nhẹ đẹp.",
+        "s": "Công nghệ 3",
+        "h": "Làm ống nhòm từ lõi giấy"
+      },
+      {
+        "c": "CN3-B09-006",
+        "d": "basic",
+        "p": "Khi xiên que tre (trục bánh xe) xuyên qua hai ống hút nhỏ gắn dưới gầm thân xe ô tô đồ chơi, ống hút có tác dụng gì giúp bánh xe quay trơn tru?",
+        "o": [
+          "Để đổ nước vào gầm xe",
+          "Làm vật trang trí cho xe nặng thêm không chạy được",
+          "Làm ổ trục dẫn hướng giữ thẳng que tre mà vẫn cho phép que tre xoay tròn nhẹ nhàng bên trong ống hút",
+          "Làm phanh khóa cứng không cho bánh quay"
+        ],
+        "k": "C",
+        "e": "Ống hút đóng vai trò bạc đạn đơn giản giảm ma sát, giúp trục bánh xe quay tít khi đẩy xe chạy trên sàn.",
+        "s": "Công nghệ 3",
+        "h": "Vai trò ống hút làm ống dẫn trục bánh xe"
+      },
+      {
+        "c": "CN3-B09-007",
+        "d": "application",
+        "p": "Một bạn lắp 4 bánh xe nắp chai vào trục xe ô tô đồ chơi nhưng khi đặt xuống bàn đẩy thử thì xe khập khiễng, một bánh hổng lên không chạm đất. Nguyên nhân thường gặp nhất là gì?",
+        "o": [
+          "Do màu sơn trên vỏ hộp chưa khô",
+          "Do mặt bàn học quá phẳng",
+          "Do xe thiếu còi bấm kêu bíp bíp",
+          "Do hai lỗ đục xiên trục trên thân xe không nằm cùng một độ cao hoặc đục lỗ xuyên tâm nắp chai bị lệch tâm"
+        ],
+        "k": "D",
+        "e": "Muốn xe chạy êm thẳng, bốn lỗ lắp trục hai bên phải cân đối cùng độ cao và lỗ đục trên nắp chai phải đúng chính giữa tâm tròn.",
+        "s": "Công nghệ 3",
+        "h": "Khắc phục lỗi bánh xe khập khiễng",
+        "fig": {
+          "type": "bars",
+          "title": "Kiểm tra chất lượng xe đồ chơi Tổ 2 (/10 xe)",
+          "labels": [
+            "Chạy thẳng tốt",
+            "Hơi lệch hướng",
+            "Bánh kẹt trục"
+          ],
+          "series": [
+            {
+              "values": [
+                7,
+                2,
+                1
+              ]
+            }
+          ],
+          "unit": "xe"
+        }
+      },
+      {
+        "c": "CN3-B09-008",
+        "d": "application",
+        "p": "Thay vì dùng nắp chai đục lỗ bằng vật nhọn có thể gây đau tay, em hãy chọn cách làm an toàn hơn để cố định hai đầu que trục vào tâm bánh xe nắp chai nếu không dùng dùi nhọn:",
+        "o": [
+          "Dùng dao nhọn nhà bếp chọc mạnh trên lòng bàn tay",
+          "Cố dùng răng cắn thủng nắp nhựa cứng",
+          "Nhờ thầy cô hoặc bố mẹ hỗ trợ đục lỗ sẵn trước bằng dụng cụ chuyên dụng, rồi học sinh xỏ trục và chèn đất nặn hoặc hạt xốp cố định đầu trục an toàn",
+          "Tự ý nung đỏ đầu kéo trên bếp lửa để chọc lỗ nhựa"
+        ],
+        "k": "C",
+        "e": "Học sinh tuyệt đối không dùng lửa nung hay dao nhọn đục nhựa; luôn nhờ người lớn trợ giúp khâu đục lỗ cứng.",
+        "s": "Công nghệ 3",
+        "h": "An toàn khi tạo lỗ trục bánh xe"
+      },
+      {
+        "c": "CN3-B09-009",
+        "d": "application",
+        "p": "Bạn Hà làm một chú chong chóng gió bằng giấy thủ công và que tre. Khi chạy ngoài sân, cánh chong chóng không quay được dù gió thổi rất mạnh. Lỗi lắp ráp nào thường khiến chong chóng bị kẹt cứng?",
+        "o": [
+          "Quay chong chóng vào buổi sáng",
+          "Ghim bấm siết quá chặt ép sát cánh giấy dính cứng vào thân que tre không còn khe hở xoay",
+          "Dùng giấy màu đỏ thay vì giấy màu xanh",
+          "Đứng ngoài sân rộng có gió"
+        ],
+        "k": "B",
+        "e": "Cần chừa một khoảng khe hở nhỏ giữa ghim giữ với thân que và đặt hạt cườm đệm để cánh chong chóng quay tít dễ dàng.",
+        "s": "Công nghệ 3",
+        "h": "Khắc phục chong chóng bị kẹt không quay"
+      },
+      {
+        "c": "CN3-B09-010",
+        "d": "application",
+        "p": "Em muốn làm một mô hình chiếc thuyền buồm từ 2 vỏ chai nhựa nhỏ rỗng đóng kín nắp ghép song song làm thân, bên trên cắm cột buồm giấy tam giác. Tại sao 2 vỏ chai nhựa bắt buộc phải vặn thật kín nắp?",
+        "o": [
+          "Để nước chảy vào chai nhanh hơn",
+          "Để lá buồm không bị ướt",
+          "Để chiếc thuyền nặng chìm xuống đáy chậu",
+          "Để giữ không khí kín bên trong chai giúp thuyền có lực nổi lớn trên mặt nước, không bị nước tràn vào làm chìm"
+        ],
+        "k": "D",
+        "e": "Chai nhựa rỗng đậy kín nắp chứa đầy không khí tạo độ nổi rất cao làm bè hoặc thân thuyền nổi vững vàng.",
+        "s": "Công nghệ 3",
+        "h": "Nguyên lí nổi của thuyền chai nhựa"
+      },
+      {
+        "c": "CN3-B09-011",
+        "d": "application",
+        "p": "Khi thiết kế đồ chơi cho em bé mẫu giáo 3 tuổi từ nắp chai và cúc áo rời, em cần lưu ý nguyên tắc an toàn tối quan trọng nào?",
+        "o": [
+          "Không gắn các chi tiết nhỏ dễ bong rời như cúc áo, hạt nhỏ hoặc vật sắc nhọn mà em bé dễ bứt ra cho vào miệng gây hóc nguy hiểm",
+          "Dùng đinh sắt dài nhô mũi nhọn ra ngoài",
+          "Sơn bằng loại sơn công nghiệp có mùi hắc độc hại",
+          "Gắn thật nhiều hạt cườm nhỏ lỏng lẻo cho đẹp mắt"
+        ],
+        "k": "A",
+        "e": "Đồ chơi cho trẻ nhỏ phải tuyệt đối tránh chi tiết nhỏ dễ nuốt và cạnh sắc nhọn hoặc hóa chất độc hại.",
+        "s": "Công nghệ 3",
+        "h": "An toàn đồ chơi cho trẻ nhỏ"
+      },
+      {
+        "c": "CN3-B09-012",
+        "d": "application",
+        "p": "Quy trình 4 bước hợp lí nhất để sáng tạo một món đồ chơi tái chế (như ô tô, con rối, tên lửa) là gì?",
+        "o": [
+          "1. Cắt vụn hết giấy màu; 2. Bỏ đi chơi; 3. Không cần thử nghiệm",
+          "1. Lên ý tưởng và phác thảo hình dáng; 2. Chọn và vệ sinh vật liệu; 3. Cắt, ghép lắp ráp các bộ phận; 4. Chạy thử, chỉnh sửa và trang trí hoàn thiện",
+          "1. Chạy thử trước; 2. Mới nghĩ xem làm con gì; 3. Cuối cùng mới đi tìm hộp sữa",
+          "1. Dán kín mắt lại rồi cắt bìa"
+        ],
+        "k": "B",
+        "e": "Phác thảo ý tưởng trước khi cắt ghép giúp chọn đúng vật liệu, tiết kiệm thời gian và sản phẩm chắc đẹp.",
+        "s": "Công nghệ 3",
+        "h": "Quy trình 4 bước chế tạo đồ chơi"
+      },
+      {
+        "c": "CN3-B09-013",
+        "d": "advanced",
+        "p": "Khi làm mô hình xe chạy bằng sức gió thổi (xe buồm tái chế: gắn một cánh buồm giấy lớn trên xe ô tô hộp sữa), muốn xe chạy xa nhất khi dùng quạt tay quạt từ phía sau, em nên điều chỉnh hai chi tiết nào?",
+        "o": [
+          "Quạt gió thổi ngược từ mũi xe lại",
+          "Đặt cánh buồm nằm ngang song song với mặt đất",
+          "Giữ thân xe nhẹ vừa phải, bánh xe lăn thật trơn không ma sát và đặt cánh buồm vuông góc hướng đón trọn luồng gió thổi tới",
+          "Làm thân xe thật nặng bằng sỏi đá và khóa chặt 4 bánh xe"
+        ],
+        "k": "C",
+        "e": "Giảm ma sát ở trục bánh xe và tối ưu diện tích đón gió của buồm giúp xe chuyển hóa lực gió thành chuyển động xa nhất.",
+        "s": "Công nghệ 3",
+        "h": "Tối ưu chuyển động xe chạy sức gió"
+      },
+      {
+        "c": "CN3-B09-014",
+        "d": "advanced",
+        "p": "Một hộp giấy nhỏ đựng đồ chơi bằng bìa các-tông cứ đẩy chạy trên sàn gạch trơn là bánh xe bìa cứng lại trượt lết mà không lăn tròn. Làm sao tăng độ bám sàn cho bánh xe bìa hiệu quả?",
+        "o": [
+          "Đặt thêm tảng đá lên nóc hộp giấy",
+          "Bôi dầu ăn trơn lên quanh viền bánh xe",
+          "Cắt bỏ 2 bánh xe phía sau đi",
+          "Quấn vòng một sợi dây chun cao su quanh mép ngoài chu vi mỗi bánh xe bìa để tăng ma sát bám mặt đường"
+        ],
+        "k": "D",
+        "e": "Dây chun cao su tăng độ ma sát giữa bánh xe và sàn gạch giúp bánh bám mặt sàn quay lăn đều thay vì trượt.",
+        "s": "Công nghệ 3",
+        "h": "Tăng độ bám đường cho bánh xe thủ công"
+      },
+      {
+        "c": "CN3-B09-015",
+        "d": "advanced",
+        "p": "Sau khi cả lớp hoàn thành \"Ngày hội Đồ chơi Tái chế Lớp 3\", cách sử dụng nào sau đây thể hiện trọn vẹn tinh thần tiết kiệm và sẻ chia lâu bền?",
+        "o": [
+          "Chơi giữ gìn cẩn thận, tặng các món đồ chơi an toàn còn mới đẹp cho các em nhỏ lớp 1 hoặc góc thư viện đồ chơi chung của trường",
+          "Chỉ giữ mỗi vỏ hộp còn bánh xe vứt ra sân trường",
+          "Chơi đúng 5 phút rồi giẫm nát vứt hết vào sọt rác ngay giờ ra chơi",
+          "Đem giấu hết vào ngăn bàn suốt cả năm không ai dùng"
+        ],
+        "k": "A",
+        "e": "Đồ chơi tự làm bền đẹp vừa giúp vui chơi lành mạnh vừa có thể sẻ chia lan tỏa niềm vui tới các em nhỏ.",
+        "s": "Công nghệ 3",
+        "h": "Sử dụng và sẻ chia đồ chơi tái chế"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe3-c2",
+    "lesson": {
+      "code": "congnghe3-b10",
+      "title": "Bài 10. Đánh giá và Trưng bày Sản phẩm Công nghệ",
+      "seq": 10,
+      "subtitle": "Biết tiêu chí tự đánh giá, góp ý xây dựng cho sản phẩm thủ công kĩ thuật của bản thân và bạn bè, rèn kĩ năng trưng bày giới thiệu sản phẩm tự tin",
+      "concepts": [
+        "Tiêu chí đánh giá sản phẩm",
+        "Kĩ năng nhận xét góp ý",
+        "Trưng bày giới thiệu sản phẩm"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN3-B10-001",
+        "d": "basic",
+        "p": "Khi đánh giá một sản phẩm thủ công công nghệ lớp 3 (như thước kẻ, biển báo hay xe đồ chơi), 3 tiêu chí cơ bản quan trọng nhất là gì?",
+        "o": [
+          "Dùng thật nhiều băng dính đè kín hết hình vẽ",
+          "Đúng kích thước kĩ thuật, chắc chắn sử dụng tốt và hình thức gọn sạch đẹp mắt",
+          "Làm càng nhanh cẩu thả càng tốt, không cần dùng được",
+          "Giá tiền đắt đỏ, mua ở siêu thị và kích thước thật khổng lồ"
+        ],
+        "k": "B",
+        "e": "Ba tiêu chí cốt lõi — Đúng kĩ thuật, Bền chắc đúng công năng và Sạch đẹp thẩm mĩ — giúp đánh giá công bằng mọi sản phẩm.",
+        "s": "Công nghệ 3",
+        "h": "Ba tiêu chí đánh giá sản phẩm chuẩn",
+        "fig": {
+          "type": "table",
+          "title": "Phiếu Đánh giá Sản phẩm Tổ",
+          "head": [
+            "Tiêu chí đánh giá",
+            "Mức Tốt (3 sao)"
+          ],
+          "rows": [
+            [
+              "Đúng yêu cầu",
+              "Đủ bộ phận, chuẩn"
+            ],
+            [
+              "Độ chắc chắn",
+              "Cứng cáp, dùng bền"
+            ],
+            [
+              "Tính thẩm mĩ",
+              "Sạch sẽ, hài hòa"
+            ],
+            [
+              "Sáng tạo riêng",
+              "Có nét độc đáo hay"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN3-B10-002",
+        "d": "basic",
+        "p": "Trong buổi triển lãm sản phẩm cuối học kì, khi thuyết trình giới thiệu chiếc đèn lồng hoặc biển báo tự làm trước cả lớp, em cần nêu rõ những nội dung chính nào?",
+        "o": [
+          "Kể tên món ăn sáng nay em vừa ăn ở nhà",
+          "Khen sản phẩm mình và chê bai tất cả các bạn khác",
+          "Tên sản phẩm, vật liệu tái chế đã dùng, công dụng chính và điều em thấy ưng ý hoặc cần cải tiến thêm",
+          "Chỉ đứng im nhìn xuống đất không nói một lời nào"
+        ],
+        "k": "C",
+        "e": "Giới thiệu ngắn gọn tên, vật liệu, công dụng và chia sẻ cảm nhận giúp người nghe hiểu rõ tâm huyết người làm.",
+        "s": "Công nghệ 3",
+        "h": "Nội dung giới thiệu sản phẩm trước lớp"
+      },
+      {
+        "c": "CN3-B10-003",
+        "d": "basic",
+        "p": "Khi nhận xét góp ý cho sản phẩm của nhóm bạn chưa được chắc chắn hoặc hơi nghiêng lệch, lời nói văn minh mang tính xây dựng nên bắt đầu như thế nào?",
+        "o": [
+          "Cười lớn trêu chọc sản phẩm của bạn làm quá xấu",
+          "Khen ngợi điểm đẹp của nhóm bạn trước (màu sắc tươi sáng, ý tưởng hay) rồi nhẹ nhàng góp ý cách gia cố thêm cho vững chắc",
+          "Giật lấy sản phẩm của bạn vò nát",
+          "Nói thẳng là sản phẩm chẳng ra làm sao"
+        ],
+        "k": "B",
+        "e": "Góp ý lịch sự bắt đầu từ ưu điểm rồi chỉ rõ cách sửa nhẹ nhàng giúp bạn vui vẻ tiếp thu và tiến bộ nhanh.",
+        "s": "Công nghệ 3",
+        "h": "Nghệ thuật góp ý xây dựng cho bạn"
+      },
+      {
+        "c": "CN3-B10-004",
+        "d": "basic",
+        "p": "Để bàn trưng bày sản phẩm của tổ gọn gàng, thu hút thầy cô và các bạn tới tham quan, các sản phẩm nên được sắp xếp như thế nào?",
+        "o": [
+          "Giấu hết các sản phẩm xuống dưới gầm bàn",
+          "Xếp ngay ngắn theo hàng lối, sản phẩm cao phía sau, sản phẩm thấp phía trước, kèm tấm thẻ tên sản phẩm và tên tác giả rõ ràng",
+          "Chất chồng đè tất cả sản phẩm lên nhau thành một đống cao",
+          "Đặt xen kẽ lẫn lộn rác giấy vụn ngay trên bàn trưng bày"
+        ],
+        "k": "B",
+        "e": "Sắp xếp cao thấp phân tầng kèm biển tên rõ ràng tạo góc triển lãm lớp học khoa học và đẹp mắt.",
+        "s": "Công nghệ 3",
+        "h": "Cách bày trí góc triển lãm sản phẩm"
+      },
+      {
+        "c": "CN3-B10-005",
+        "d": "basic",
+        "p": "Sau khi nhận được góp ý từ thầy cô và bạn bè rằng sản phẩm thước kẻ của mình có đầu số 0 hơi bị lem mực, thái độ học tập tích cực nhất là gì?",
+        "o": [
+          "Giận dỗi xé bỏ thước kẻ và không thèm nói chuyện với bạn",
+          "Vui vẻ lắng nghe, cảm ơn góp ý và chỉnh sửa lại vạch số cho sạch rõ ngay để sản phẩm hoàn thiện hơn",
+          "Đổ lỗi tại giấy màu chứ không phải do mình",
+          "Cãi lại rằng mình cố tình làm lem như vậy"
+        ],
+        "k": "B",
+        "e": "Lắng nghe góp ý thiện chí và hoàn thiện sản phẩm là bí quyết để mỗi ngày mình khéo tay hơn.",
+        "s": "Công nghệ 3",
+        "h": "Thái độ tích cực khi nhận góp ý"
+      },
+      {
+        "c": "CN3-B10-006",
+        "d": "basic",
+        "p": "Nếu đặt sản phẩm tự làm vào 3 mức tự đánh giá (Hoàn thành tốt - Hoàn thành - Chưa hoàn thành), sản phẩm đạt mức \"Hoàn thành tốt\" cần đạt điều kiện nào?",
+        "o": [
+          "Bị bung rời đáy trước khi nộp bài",
+          "Làm hộ hoàn toàn bởi anh chị lớn",
+          "Chưa hoàn thành xong phần thân sản phẩm",
+          "Đạt đủ công năng sử dụng hiệu quả, chắc chắn, cắt dán sạch sẽ cân đối và có điểm sáng tạo gọn đẹp"
+        ],
+        "k": "D",
+        "e": "Tự tay hoàn chỉnh sản phẩm vừa dùng tốt vừa gọn đẹp mới xứng đáng đạt mức Hoàn thành tốt.",
+        "s": "Công nghệ 3",
+        "h": "Tiêu chuẩn mức Hoàn thành tốt"
+      },
+      {
+        "c": "CN3-B10-007",
+        "d": "application",
+        "p": "Nhóm 3 trưng bày 4 loại sản phẩm đã học suốt năm Công nghệ 3 như biểu đồ chấm điểm bình chọn dưới đây. Sản phẩm nào nhận được nhiều phiếu bình chọn yêu thích nhất?",
+        "o": [
+          "Hộp bút nhiều ngăn (10 phiếu)",
+          "Biển báo giao thông (8 phiếu)",
+          "Thước kẻ bìa cứng (6 phiếu)",
+          "Xe ô tô đồ chơi tái chế (14 phiếu)"
+        ],
+        "k": "D",
+        "e": "Cột xe ô tô đồ chơi tái chế cao nhất đạt 14 phiếu bình chọn nhờ tính sáng tạo và chạy thử trực tiếp rất vui.",
+        "s": "Công nghệ 3",
+        "h": "Đọc biểu đồ bình chọn sản phẩm",
+        "fig": {
+          "type": "bars",
+          "title": "Bình chọn Sản phẩm Yêu thích Lớp 3A (/38 phiếu)",
+          "labels": [
+            "Thước kẻ",
+            "Biển báo",
+            "Hộp bút",
+            "Xe tái chế"
+          ],
+          "series": [
+            {
+              "values": [
+                6,
+                8,
+                10,
+                14
+              ]
+            }
+          ],
+          "unit": "phiếu"
+        }
+      },
+      {
+        "c": "CN3-B10-008",
+        "d": "application",
+        "p": "Trong lúc thuyết trình giới thiệu chiếc hộp bút tự làm trước lớp, bạn Minh nói rất nhỏ lí nhí và liên tục quay lưng lại nhìn bảng khiến các bạn phía dưới không nghe rõ. Bạn Minh cần điều chỉnh kĩ năng gì?",
+        "o": [
+          "Nói nhỏ thêm nữa để các bạn phải đoán",
+          "Đứng xoay mặt về phía cả lớp, cầm sản phẩm giơ ngang tầm ngực cho mọi người cùng thấy và nói to, rõ ràng từng câu",
+          "Quay lưng lại che kín sản phẩm trên tay",
+          "Đọc thật nhanh một lèo không nghỉ lấy hơi"
+        ],
+        "k": "B",
+        "e": "Tư thế hướng về khán giả, giơ sản phẩm ngang tầm nhìn và giọng nói rõ ràng giúp bài thuyết trình cuốn hút ngay.",
+        "s": "Công nghệ 3",
+        "h": "Kĩ năng thuyết trình giới thiệu sản phẩm"
+      },
+      {
+        "c": "CN3-B10-009",
+        "d": "application",
+        "p": "Bạn Hoa tự làm một biển báo \"Cấm rẽ phải\" rất đẹp nhưng khi đứng thử trên bàn trưng bày thì cột biển báo liên tục đổ ngã rạp xuống. Nếu là bạn cùng nhóm, em góp ý cách sửa nhanh trong 2 phút nào?",
+        "o": [
+          "Đặt chiếc biển báo nằm bẹp luôn trên mặt bàn cho khỏi đổ",
+          "Dùng thước đập dẹt mặt biển báo",
+          "Gắn thêm đất nặn vào nắp đế cho nặng chân trụ hơn hoặc dán cố định hai que chống phụ hình tam giác dưới chân cột",
+          "Cất biển báo vào cặp không trưng bày nữa"
+        ],
+        "k": "C",
+        "e": "Tăng trọng lượng chân đế bằng đất nặn hoặc tạo chân kiềng tam giác giúp mô hình đứng thẳng ngay lập tức.",
+        "s": "Công nghệ 3",
+        "h": "Góp ý cải tiến sản phẩm trong 2 phút"
+      },
+      {
+        "c": "CN3-B10-010",
+        "d": "application",
+        "p": "Khi quan sát một sản phẩm của bạn làm từ nhiều vỏ hộp, chai nhựa tái chế nhưng lại có một cạnh cắt nhựa còn hơi nhọn, nhận xét góp ý quan trọng nhất về tiêu chí an toàn là gì?",
+        "o": [
+          "Nhắc bạn dán thêm một vòng băng dính màu bọc kín mép nhựa cắt để đảm bảo an toàn không gây xước tay khi cầm chơi",
+          "Khuyên bạn giữ nguyên cạnh sắc đó cho giống thật",
+          "Bỏ qua không nhắc vì sợ bạn buồn",
+          "Chê bạn không biết cắt kéo"
+        ],
+        "k": "A",
+        "e": "An toàn cho người sử dụng luôn là góp ý ưu tiên hàng đầu với mọi sản phẩm công nghệ tự chế tạo.",
+        "s": "Công nghệ 3",
+        "h": "Nhận xét tiêu chí an toàn sản phẩm"
+      },
+      {
+        "c": "CN3-B10-011",
+        "d": "application",
+        "p": "Để phiếu bình chọn của bạn bè trong lớp được công bằng (không chỉ bình chọn cho bạn thân mà bỏ qua sản phẩm thực sự tốt), lớp em nên thống nhất cách chấm điểm thế nào?",
+        "o": [
+          "Nhắm mắt chỉ bừa vào một sản phẩm bất kì",
+          "Mỗi bạn dựa theo đúng 3 tiêu chí đã thống nhất (Chắc chắn - Đúng kĩ thuật - Đẹp mắt) để gắn ngôi sao đánh giá khách quan",
+          "Mỗi bạn tự bỏ cả 10 phiếu cho riêng sản phẩm của mình",
+          "Ai chơi thân với nhiều bạn nhất thì tự động đạt giải nhất"
+        ],
+        "k": "B",
+        "e": "Chấm theo bộ tiêu chí minh bạch giúp rèn tư duy công tâm và trân trọng công sức lao động của mọi bạn trong lớp.",
+        "s": "Công nghệ 3",
+        "h": "Đánh giá công bằng theo tiêu chí"
+      },
+      {
+        "c": "CN3-B10-012",
+        "d": "application",
+        "p": "Sau buổi trưng bày sản phẩm Công nghệ cuối học kì, những chiếc hộp đựng bút, thước kẻ và biển báo mô hình của lớp có thể tiếp tục dùng vào việc gì hữu ích?",
+        "o": [
+          "Mang về dùng thật tại góc học tập ở nhà hoặc tặng góc học tập lớp học để trưng bày đồ dùng và dạy An toàn giao thông",
+          "Vứt thẳng vào thùng rác ngay khi tan buổi trưng bày",
+          "Bỏ quên ở ngoài hành lang sân trường",
+          "Xé rời từng mảnh giấy trang trí cho vui"
+        ],
+        "k": "A",
+        "e": "Đưa sản phẩm tự làm vào phục vụ học tập và trang trí lớp giúp nhân đôi niềm tự hào và chống lãng phí.",
+        "s": "Công nghệ 3",
+        "h": "Ứng dụng sản phẩm sau trưng bày"
+      },
+      {
+        "c": "CN3-B10-013",
+        "d": "advanced",
+        "p": "Giả sử em thiết kế một mô hình hộp đựng bút có thêm đồng hồ xem giờ trang trí bằng bìa cứng gắn phía mặt trước (hình vẽ chỉ 9 giờ đúng). Một sản phẩm kết hợp được cả công dụng đựng đồ và xem giờ nhắc giờ học như vậy thể hiện tiêu chí nào nổi bật?",
+        "o": [
+          "Gây tốn kém không dùng được vào việc gì",
+          "Làm hộp bút không thể đựng bút nữa",
+          "Tính sáng tạo kết hợp đa công dụng thông minh từ cùng một khối vật liệu đơn giản",
+          "Làm sai hoàn toàn mục đích của hộp bút"
+        ],
+        "k": "C",
+        "e": "Biết cải tiến, kết hợp thêm tiện ích hợp lí trên sản phẩm quen thuộc chính là bước khởi đầu của tư duy sáng tạo công nghệ.",
+        "s": "Công nghệ 3",
+        "h": "Tư duy cải tiến đa công dụng",
+        "fig": {
+          "w": 300,
+          "h": 180,
+          "items": [
+            {
+              "t": "circle",
+              "c": [
+                150,
+                88
+              ],
+              "r": 62,
+              "fill": "#f8fafc",
+              "stroke": "#1e293b",
+              "w": 2.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                174.5,
+                49.6
+              ],
+              "s": "1",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                192.4,
+                67.5
+              ],
+              "s": "2",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                199.0,
+                92.0
+              ],
+              "s": "3",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                192.4,
+                116.5
+              ],
+              "s": "4",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                174.5,
+                134.4
+              ],
+              "s": "5",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                150.0,
+                141.0
+              ],
+              "s": "6",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                125.5,
+                134.4
+              ],
+              "s": "7",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                107.6,
+                116.5
+              ],
+              "s": "8",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                101.0,
+                92.0
+              ],
+              "s": "9",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                107.6,
+                67.5
+              ],
+              "s": "10",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                125.5,
+                49.6
+              ],
+              "s": "11",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                150.0,
+                43.0
+              ],
+              "s": "12",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "line",
+              "a": [
+                150,
+                88
+              ],
+              "b": [
+                120.0,
+                88.0
+              ],
+              "arrow": true,
+              "color": "#1e293b",
+              "w": 3.5
+            },
+            {
+              "t": "line",
+              "a": [
+                150,
+                88
+              ],
+              "b": [
+                150.0,
+                42.0
+              ],
+              "arrow": true,
+              "color": "#dc2626",
+              "w": 2.2
+            },
+            {
+              "t": "pt",
+              "p": [
+                150,
+                88
+              ]
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                168
+              ],
+              "s": "Mô hình hộp bút gắn đồng hồ nhắc 9 giờ",
+              "anchor": "middle",
+              "size": 12
+            }
+          ]
+        }
+      },
+      {
+        "c": "CN3-B10-014",
+        "d": "advanced",
+        "p": "Trong nhóm làm việc chung 4 bạn, hai bạn khéo cắt dán nhất làm gần hết phần việc còn hai bạn khác chỉ ngồi chơi nhìn rồi cuối giờ cả nhóm cùng nhận điểm tốt như nhau. Nếu làm nhóm trưởng ở lần thực hành sau, em điều chỉnh cách phân công thế nào để mọi bạn đều tiến bộ?",
+        "o": [
+          "Đuổi hai bạn chậm hơn sang nhóm khác",
+          "Không chia việc cho ai, ai thích làm gì thì tự làm riêng",
+          "Để nguyên 2 bạn giỏi làm hết từ đầu đến cuối cho nhanh",
+          "Phân công rõ từng khâu phù hợp sức mỗi bạn: bạn đo vẽ khung, bạn cắt tỉa viền, bạn lắp ghép, bạn trang trí và thuyết trình rồi luân phiên học hỏi lẫn nhau"
+        ],
+        "k": "D",
+        "e": "Phân công hợp tác theo sở trường và hỗ trợ nhau từng công đoạn giúp cả tập thể tiến bộ và tự hào chung về sản phẩm.",
+        "s": "Công nghệ 3",
+        "h": "Phân công công bằng khi làm việc nhóm"
+      },
+      {
+        "c": "CN3-B10-015",
+        "d": "advanced",
+        "p": "Tổng kết lại hành trình môn Công nghệ lớp 3 gồm 2 phần (Công nghệ trong gia đình và Thủ công kĩ thuật), bài học ý nghĩa lớn nhất em rút ra cho bản thân là gì?",
+        "o": [
+          "Biết sử dụng đồ dùng công nghệ gia đình đúng cách, an toàn, tiết kiệm và biết tự tay sáng tạo, tái chế đồ dùng phục vụ cuộc sống xanh sạch đẹp",
+          "Thích tự tháo tung mọi đồ điện trong nhà để nghịch",
+          "Luôn vứt đồ cũ đi mua đồ mới đắt tiền nhất",
+          "Chỉ cần thuộc tên vài đồ vật rồi để đó không cần thực hành an toàn"
+        ],
+        "k": "A",
+        "e": "Chúc mừng em đã hoàn thành xuất sắc chương trình Công nghệ lớp 3 — làm chủ công nghệ an toàn và sáng tạo!",
+        "s": "Công nghệ 3",
+        "h": "Tổng kết ý nghĩa môn Công nghệ lớp 3"
+      }
+    ]
+  }
+]

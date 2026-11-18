@@ -228,12 +228,12 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
     iconName: 'Cpu',
     color: 'from-violet-600 to-purple-700',
     description: 'Làm quen máy tính, lập trình kéo thả Scratch, tư duy thuật toán & an toàn số.',
-    status: 'coming_soon',
-    tagline: 'Lớp 3 → 9 · Sắp mở',
+    status: 'active',
+    tagline: 'Lớp 3 · 16 bài · 240 câu',
     schoolLevels: ['primary', 'secondary'],
     levelMeta: {
       primary: {
-        tagline: 'Lớp 3 → 5 · Sắp mở',
+        tagline: 'Lớp 3 · 16 bài · 240 câu (Lớp 4–5 sắp mở)',
         description: 'Làm quen máy tính, an toàn Internet và lập trình kéo thả cơ bản (Lớp 3–5).',
         gradeRangeLabel: 'Lớp 3 – 5'
       },
@@ -244,7 +244,7 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
       }
     },
     availableGrades: [
-      { grade: '3', term1Available: false, term2Available: false, notes: 'Môn bắt buộc từ Lớp 3' },
+      { grade: '3', term1Available: true, term2Available: true, notes: '5 chương, 16 bài (240 câu)' },
       { grade: '4', term1Available: false, term2Available: false, notes: 'Tin học 4' },
       { grade: '5', term1Available: false, term2Available: false, notes: 'Tin học 5' },
       { grade: '6', term1Available: false, term2Available: false, notes: 'Tin học 6' },
@@ -260,12 +260,12 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
     iconName: 'Wrench',
     color: 'from-yellow-600 to-amber-700',
     description: 'Thủ công kĩ thuật, công nghệ đời sống, lắp ghép mô hình & định hướng nghề nghiệp.',
-    status: 'coming_soon',
-    tagline: 'Lớp 3 → 9 · Sắp mở',
+    status: 'active',
+    tagline: 'Lớp 3 · 10 bài · 150 câu',
     schoolLevels: ['primary', 'secondary'],
     levelMeta: {
       primary: {
-        tagline: 'Lớp 3 → 5 · Sắp mở',
+        tagline: 'Lớp 3 · 10 bài · 150 câu (Lớp 4–5 sắp mở)',
         description: 'Sử dụng đồ dùng công nghệ gia đình, lắp ghép mô hình & trồng hoa cây cảnh (Lớp 3–5).',
         gradeRangeLabel: 'Lớp 3 – 5'
       },
@@ -276,7 +276,7 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
       }
     },
     availableGrades: [
-      { grade: '3', term1Available: false, term2Available: false, notes: 'Môn bắt buộc từ Lớp 3' },
+      { grade: '3', term1Available: true, term2Available: true, notes: '2 chương, 10 bài (150 câu)' },
       { grade: '4', term1Available: false, term2Available: false, notes: 'Công nghệ 4' },
       { grade: '5', term1Available: false, term2Available: false, notes: 'Công nghệ 5' },
       { grade: '6', term1Available: false, term2Available: false, notes: 'Công nghệ 6' },
@@ -468,20 +468,20 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
     iconName: 'Sparkles',
     color: 'from-emerald-500 to-green-600',
     description: 'Khám phá bản thân, giao lưu tập thể, bảo vệ môi trường & hoạt động cộng đồng (Lớp 1–5).',
-    status: 'coming_soon',
-    tagline: 'Lớp 1 → 5 · Sắp mở',
+    status: 'active',
+    tagline: 'Lớp 1 → 3 · 54 bài · 810 câu',
     schoolLevels: ['primary'],
     levelMeta: {
       primary: {
-        tagline: 'Lớp 1 → 5 · Sắp mở',
+        tagline: 'Lớp 1 → 3 · 54 bài · 810 câu (Lớp 4–5 sắp mở)',
         description: 'Tự lập, kết bạn, bảo vệ thiên nhiên và truyền thống quê hương (Lớp 1–5).',
         gradeRangeLabel: 'Lớp 1 – 5'
       }
     },
     availableGrades: [
-      { grade: '1', term1Available: false, term2Available: false, notes: 'Hoạt động trải nghiệm 1' },
-      { grade: '2', term1Available: false, term2Available: false, notes: 'Hoạt động trải nghiệm 2' },
-      { grade: '3', term1Available: false, term2Available: false, notes: 'Hoạt động trải nghiệm 3' },
+      { grade: '1', term1Available: true, term2Available: true, notes: '4 chương, 18 bài (270 câu)' },
+      { grade: '2', term1Available: true, term2Available: true, notes: '4 chương, 18 bài (270 câu)' },
+      { grade: '3', term1Available: true, term2Available: true, notes: '4 chương, 18 bài (270 câu)' },
       { grade: '4', term1Available: false, term2Available: false, notes: 'Hoạt động trải nghiệm 4' },
       { grade: '5', term1Available: false, term2Available: false, notes: 'Hoạt động trải nghiệm 5' }
     ]

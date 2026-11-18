@@ -2,12 +2,14 @@
 """Idempotent importer for Grade 1-3 non-Math question batches into Supabase.
 
 Reads credentials strictly from environment variables (never hardcoded):
-  - SUPABASE_DB_URL: PostgreSQL connection string (used with psycopg/psycopg2 or psql)
-Runs supabase/migrations_applied/hsv_phase6_g123_completed_subjects.sql first,
-then invokes private.import_question_batch($j$<json>$j$::jsonb) per lesson batch.
+  - SUPABASE_ACCESS_TOKEN: Supabase Management API PAT
+  - SUPABASE_DB_URL / DATABASE_URL: PostgreSQL connection string (psycopg/psycopg2 or psql)
 
-Supports --dry-run (verifies batches and SQL readiness without DB access)
-and --emit-sql <path> (writes an idempotent standalone SQL import script).
+Runs the selected migration SQL file(s) first (default: phase6 + phase7 migrations,
+or override with --migration <path>), then invokes
+private.import_question_batch($j$<json>$j$::jsonb) per lesson batch.
+
+Supports --subjects <prefixes>, --migration <path>, --dry-run, and --emit-sql <path>.
 """
 import argparse
 import glob
@@ -21,9 +23,10 @@ import urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.dirname(os.path.dirname(HERE))
-MIGRATION_SQL = os.path.join(
-    REPO_ROOT, 'supabase', 'migrations_applied', 'hsv_phase6_g123_completed_subjects.sql'
-)
+DEFAULT_MIGRATIONS = [
+    os.path.join(REPO_ROOT, 'supabase', 'migrations_applied', 'hsv_phase6_g123_completed_subjects.sql'),
+    os.path.join(REPO_ROOT, 'supabase', 'migrations_applied', 'hsv_phase7_g123_remaining_subjects.sql'),
+]
 
 
 def pick_dollar_tag(payload: str) -> str:
@@ -39,6 +42,17 @@ def batch_sql(batch: dict) -> str:
     raw = json.dumps(batch, ensure_ascii=False, separators=(',', ':'))
     tag = pick_dollar_tag(raw)
     return f'select private.import_question_batch(${tag}${raw}${tag}$::jsonb);'
+
+
+def resolve_migration_sql(migration_paths: list[str] | None) -> str:
+    paths = migration_paths if migration_paths else DEFAULT_MIGRATIONS
+    parts = []
+    for p in paths:
+        abs_p = p if os.path.isabs(p) else os.path.abspath(p)
+        if not os.path.exists(abs_p):
+            abs_p = os.path.join(REPO_ROOT, p)
+        parts.append(open(abs_p, encoding='utf-8').read().strip())
+    return '\n\n'.join(parts)
 
 
 def load_batches(subject_filter: str | None = None):
@@ -57,11 +71,11 @@ def load_batches(subject_filter: str | None = None):
     return files, batches
 
 
-def build_sql_script(files, batches) -> str:
+def build_sql_script(files, batches, migration_sql: str) -> str:
     lines = [
-        '-- Generated idempotent import script for completed Grade 1-3 non-Math subjects',
+        '-- Generated idempotent import script for Grade 1-3 non-Math subjects',
         'begin;',
-        open(MIGRATION_SQL, encoding='utf-8').read().strip(),
+        migration_sql,
         '',
     ]
     for fname, b in batches:
@@ -71,7 +85,7 @@ def build_sql_script(files, batches) -> str:
     return '\n'.join(lines) + '\n'
 
 
-def run_via_psycopg(db_url: str, batches) -> None:
+def run_via_psycopg(db_url: str, batches, migration_sql: str) -> None:
     try:
         import psycopg  # type: ignore
         conn = psycopg.connect(db_url)
@@ -81,7 +95,6 @@ def run_via_psycopg(db_url: str, batches) -> None:
         conn = psycopg2.connect(db_url)
         is_v3 = False
 
-    migration_sql = open(MIGRATION_SQL, encoding='utf-8').read()
     total_inserted = 0
     total_skipped = 0
     with conn:
@@ -117,7 +130,7 @@ def run_via_psql(db_url: str, sql_text: str) -> None:
     print(p.stdout[-1000:])
 
 
-def run_via_management_api(token: str, project_ref: str, batches, chunk_size: int = 15) -> None:
+def run_via_management_api(token: str, project_ref: str, batches, migration_sql: str, chunk_size: int = 15) -> None:
     url = f'https://api.supabase.com/v1/projects/{project_ref}/database/query'
 
     def post_sql(query_sql: str):
@@ -139,10 +152,8 @@ def run_via_management_api(token: str, project_ref: str, batches, chunk_size: in
             err_body = e.read().decode('utf-8', errors='replace')
             raise RuntimeError(f'Supabase API HTTP {e.code}: {err_body[:800]}')
 
-    migration_sql = open(MIGRATION_SQL, encoding='utf-8').read().strip()
     post_sql(f'begin;\n{migration_sql}\ncommit;')
-    print('Applied Phase 6 subjects/chapters migration via Supabase Management API.')
-
+    print('Applied subjects/chapters migration via Supabase Management API.')
     for start in range(0, len(batches), chunk_size):
         chunk = batches[start:start + chunk_size]
         stmts = ['begin;'] + [batch_sql(b) for _, b in chunk] + ['commit;']
@@ -155,18 +166,20 @@ def run_via_management_api(token: str, project_ref: str, batches, chunk_size: in
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--subjects', help='Optional comma-separated filename prefixes (e.g. tiengviet,gdtc)')
+    parser.add_argument('--subjects', help='Optional comma-separated filename prefixes (e.g. tinhoc,congnghe,hdtn)')
+    parser.add_argument('--migration', action='append', help='Optional SQL migration path(s) to apply before importing')
     parser.add_argument('--dry-run', action='store_true', help='Verify batches and print summary without DB write')
     parser.add_argument('--emit-sql', help='Write full idempotent SQL script to path')
     parser.add_argument('--project-ref', default=os.environ.get('SUPABASE_PROJECT_REF', 'owqbwykjabwevkbjroym'))
     args = parser.parse_args()
 
+    migration_sql = resolve_migration_sql(args.migration)
     files, batches = load_batches(args.subjects)
     total_qs = sum(len(b['questions']) for _, b in batches)
     print(f'Loaded {len(files)} batch files: {len(batches)} lessons, {total_qs} questions.')
 
     if args.emit_sql:
-        sql_text = build_sql_script(files, batches)
+        sql_text = build_sql_script(files, batches, migration_sql)
         with open(args.emit_sql, 'w', encoding='utf-8') as f:
             f.write(sql_text)
         print(f'Wrote SQL script ({len(sql_text)} bytes) to {args.emit_sql}')
@@ -179,7 +192,7 @@ def main():
 
     access_token = os.environ.get('SUPABASE_ACCESS_TOKEN')
     if access_token:
-        run_via_management_api(access_token, args.project_ref, batches)
+        run_via_management_api(access_token, args.project_ref, batches, migration_sql)
         return
 
     db_url = os.environ.get('SUPABASE_DB_URL') or os.environ.get('DATABASE_URL')
@@ -202,9 +215,9 @@ def main():
             has_pg = False
 
     if has_pg:
-        run_via_psycopg(db_url, batches)
+        run_via_psycopg(db_url, batches, migration_sql)
     else:
-        run_via_psql(db_url, build_sql_script(files, batches))
+        run_via_psql(db_url, build_sql_script(files, batches, migration_sql))
 
 
 if __name__ == '__main__':
