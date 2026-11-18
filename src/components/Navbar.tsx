@@ -203,6 +203,33 @@ export const Navbar: React.FC<NavbarProps> = ({
         </div>
       </div>
 
+      {/* Mobile quick actions: restore sound, App, level, and wallet at phone widths. */}
+      <div className="md:hidden flex items-center justify-center gap-1.5 px-2 py-2 bg-slate-50/95 dark:bg-slate-900/95 border-t border-slate-100 dark:border-slate-800">
+        <button
+          onClick={onToggleSound}
+          aria-label={isMuted ? "Bật âm thanh" : "Tắt âm thanh"}
+          title={isMuted ? "Bật âm thanh" : "Tắt âm thanh"}
+          className="inline-flex items-center justify-center h-9 w-9 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-blue-600 dark:text-blue-400 shrink-0"
+        >
+          {isMuted ? <VolumeX className="w-4 h-4"/> : <Volume2 className="w-4 h-4"/>}
+        </button>
+        {onOpenInstallShare && (
+          <button onClick={onOpenInstallShare} aria-label="App: cài đặt hoặc chia sẻ" title="App" className="inline-flex items-center justify-center gap-1 h-9 px-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-xs font-extrabold shrink-0">
+            <Download className="w-4 h-4"/>App
+          </button>
+        )}
+        {onOpenLevel && (
+          <button onClick={onOpenLevel} aria-label={`Cấp ${student.level}, xem cấp độ`} title="Xem cấp độ" className="inline-flex items-center gap-1 h-9 px-2.5 rounded-xl bg-indigo-50 dark:bg-indigo-950/60 border border-indigo-200 dark:border-indigo-800 text-indigo-700 dark:text-indigo-300 text-xs font-extrabold shrink-0">
+            <Award className="w-3.5 h-3.5 text-amber-500"/>Lv.{student.level}
+          </button>
+        )}
+        <div aria-label={`${student.coins} Xu, ${student.stars} Sao`} className="flex items-center gap-1.5 h-9 px-2.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs font-mono font-bold shrink-0">
+          <span className="inline-flex items-center gap-1 text-amber-600 dark:text-amber-400"><CoinIcon className="w-3.5 h-3.5"/>{student.coins}</span>
+          <span className="text-slate-300 dark:text-slate-600">|</span>
+          <span className="inline-flex items-center gap-1 text-yellow-500 dark:text-yellow-400"><StarIcon className="w-3.5 h-3.5 fill-yellow-400"/>{student.stars}</span>
+        </div>
+      </div>
+
       {/* Mobile Bottom Navigation Bar for easy thumb navigation */}
       <nav aria-label="Điều hướng nhanh" className="hsv-mobile-nav md:hidden flex items-stretch justify-around border-t border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-slate-900/95 backdrop-blur px-1 py-1.5">
         {NAV_ITEMS.map(({ view, short, Icon, color }) => {
