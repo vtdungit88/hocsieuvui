@@ -1,0 +1,3983 @@
+[
+  {
+    "chapter": "lssong1-c1",
+    "lesson": {
+      "code": "lssong1-b01",
+      "title": "Bài 1. Thức dậy đúng giờ và Gấp chăn gối gọn gàng",
+      "seq": 1,
+      "subtitle": "Rèn thói quen thức dậy đúng giờ mỗi sáng không mè nheo và tự tay gấp chăn gối ngăn nắp",
+      "concepts": [
+        "Thức dậy đúng giờ",
+        "Gấp chăn gối gọn gàng",
+        "Tự lập buổi sáng"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS1-B01-001",
+        "d": "basic",
+        "p": "Buổi sáng khi đồng hồ báo thức reo hoặc bố mẹ gọi dậy đi học, bạn nhỏ lớp 1 có nếp sống tốt sẽ làm gì?",
+        "o": [
+          "Nằm lăn lộn khóc nhè xin ngủ thêm 1 tiếng nữa",
+          "Trùm kín chăn giả vờ chưa nghe thấy gì",
+          "Ném đồng hồ báo thức xuống sàn nhà",
+          "Ngồi dậy ngay, vươn vai tỉnh táo và tươi cười chào bố mẹ"
+        ],
+        "k": "D",
+        "e": "Thức dậy vui vẻ đúng giờ giúp em bắt đầu một ngày học tràn đầy năng lượng và không bị trễ học.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Nếp thức dậy buổi sáng",
+        "fig": {
+          "w": 300,
+          "h": 180,
+          "items": [
+            {
+              "t": "circle",
+              "c": [
+                150,
+                88
+              ],
+              "r": 62,
+              "fill": "#f8fafc",
+              "stroke": "#1e293b",
+              "w": 2.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                174.5,
+                49.6
+              ],
+              "s": "1",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                192.4,
+                67.5
+              ],
+              "s": "2",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                199.0,
+                92.0
+              ],
+              "s": "3",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                192.4,
+                116.5
+              ],
+              "s": "4",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                174.5,
+                134.4
+              ],
+              "s": "5",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                150.0,
+                141.0
+              ],
+              "s": "6",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                125.5,
+                134.4
+              ],
+              "s": "7",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                107.6,
+                116.5
+              ],
+              "s": "8",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                101.0,
+                92.0
+              ],
+              "s": "9",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                107.6,
+                67.5
+              ],
+              "s": "10",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                125.5,
+                49.6
+              ],
+              "s": "11",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                150.0,
+                43.0
+              ],
+              "s": "12",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "line",
+              "a": [
+                150,
+                88
+              ],
+              "b": [
+                142.2,
+                117.0
+              ],
+              "arrow": true,
+              "color": "#1e293b",
+              "w": 3.5
+            },
+            {
+              "t": "line",
+              "a": [
+                150,
+                88
+              ],
+              "b": [
+                150.0,
+                134.0
+              ],
+              "arrow": true,
+              "color": "#dc2626",
+              "w": 2.2
+            },
+            {
+              "t": "pt",
+              "p": [
+                150,
+                88
+              ]
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                168
+              ],
+              "s": "6 giờ 30 sáng: Giờ thức dậy đi học",
+              "anchor": "middle",
+              "size": 12
+            }
+          ]
+        }
+      },
+      {
+        "c": "LS1-B01-002",
+        "d": "basic",
+        "p": "Ngay sau khi bước ra khỏi giường vào buổi sáng, việc đầu tiên em nên tự làm với chiếc giường của mình là gì?",
+        "o": [
+          "Để chăn gối tung tóe bừa bộn cho mẹ dọn",
+          "Giũ phẳng ga giường, gấp gọn chiếc chăn và đặt gối ngay ngắn ở đầu giường",
+          "Nhảy lên nệm giẫm bẩn ga giường",
+          "Đá chăn rơi xuống gầm giường"
+        ],
+        "k": "B",
+        "e": "Tự gấp chăn gối mất chưa tới 2 phút nhưng giúp căn phòng sạch đẹp và rèn tính tự lập từ nhỏ.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Gấp chăn gối ngay ngắn"
+      },
+      {
+        "c": "LS1-B01-003",
+        "d": "basic",
+        "p": "Để buổi sáng thức dậy dễ dàng không bị mệt mỏi uể oải, buổi tối hôm trước em cần làm gì?",
+        "o": [
+          "Uống nhiều nước ngọt có ga lúc 22 giờ",
+          "Thức khuya tới 23 giờ xem hoạt hình",
+          "Đi ngủ đúng giờ từ 21 giờ tối và không xem ti-vi hay điện thoại muộn",
+          "Chơi chạy nhảy ầm ĩ sát giờ đi ngủ"
+        ],
+        "k": "C",
+        "e": "Ngủ sớm đủ giấc 9–10 tiếng mỗi đêm giúp cơ thể bé lớp 1 khỏe khoắn, sáng dậy tỉnh táo ngay.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Ngủ sớm để dậy đúng giờ"
+      },
+      {
+        "c": "LS1-B01-004",
+        "d": "basic",
+        "p": "Khi gấp chiếc chăn mỏng mùa hè hoặc mùa thu, cách gấp nào giúp chăn vuông vắn gọn gàng nhất?",
+        "o": [
+          "Trải phẳng chăn, gập đôi theo chiều dọc rồi gập làm đôi hoặc ba theo chiều ngang cho vuông góc",
+          "Kéo lê chăn quét bụi dưới sàn nhà",
+          "Vò tròn chiếc chăn thành cục nhét vào góc tường",
+          "Ném chăn lên nóc tủ quần áo"
+        ],
+        "k": "A",
+        "e": "Vuốt phẳng và gấp theo nếp giúp chăn không bị nhăn nhúm và đặt rất đẹp trên đầu giường.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Cách gấp chăn vuông vắn"
+      },
+      {
+        "c": "LS1-B01-005",
+        "d": "basic",
+        "p": "Vì sao chúng ta KHÔNG nên nằm nướng thêm trên giường sau khi chuông báo thức đã reo?",
+        "o": [
+          "Vì buổi sáng trường học đóng cửa lúc 7 giờ",
+          "Dễ ngủ quên gây trễ giờ ăn sáng, vội vàng quên sách vở và muộn giờ vào lớp",
+          "Vì đồng hồ báo thức sẽ không bao giờ kêu lại",
+          "Vì nằm nướng làm chiếc giường bị gãy ngay lập tức"
+        ],
+        "k": "B",
+        "e": "Dậy đúng giờ giúp em có đủ thời gian ăn sáng ngon miệng và chuẩn bị cặp sách thong thả.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Tác hại của ngủ nướng"
+      },
+      {
+        "c": "LS1-B01-006",
+        "d": "basic",
+        "p": "Quan sát bảng các việc buổi sáng dưới đây, việc nào em hoàn toàn có thể TỰ LÀM lấy mà không cần nhờ bố mẹ làm hộ?",
+        "o": [
+          "Tự gấp chăn gối, tự đánh răng rửa mặt và tự mặc đồng phục gọn gàng",
+          "Tự nấu canh nóng bằng bếp ga một mình",
+          "Tự lái xe máy đưa mình đến cổng trường",
+          "Tự cắm phích điện bàn là là áo"
+        ],
+        "k": "A",
+        "e": "Những việc chăm sóc cá nhân nhẹ nhàng giúp em tự tin và đỡ đần được nhiều cho cha mẹ.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Việc buổi sáng tự làm",
+        "fig": {
+          "type": "table",
+          "title": "Nếp buổi sáng Bé Lớp 1",
+          "head": [
+            "Thời gian",
+            "Việc bé tự làm"
+          ],
+          "rows": [
+            [
+              "6 giờ 30",
+              "Dậy, gấp chăn gối"
+            ],
+            [
+              "6 giờ 35",
+              "Đánh răng, rửa mặt"
+            ],
+            [
+              "6 giờ 45",
+              "Mặc đồng phục sạch"
+            ],
+            [
+              "6 giờ 55",
+              "Ăn sáng đủ chất"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS1-B01-007",
+        "d": "application",
+        "p": "Bạn Bi vừa tỉnh dậy lúc 6 giờ 30 sáng thì thấy trời mùa đông hơi lạnh nên rất ngại chui ra khỏi chăn ấm. Em hãy bày cho Bi cách dậy nhẹ nhàng không bị lạnh nhé:",
+        "o": [
+          "Chui sâu xuống chân giường ngủ luôn tới trưa",
+          "Tung hết chăn ra chạy chân trần ra sân gió lạnh",
+          "Khóc ầm lên bắt mẹ bế đi học luôn trên giường",
+          "Nằm trong chăn co duỗi nhẹ tay chân 10 giây cho ấm người, khoác ngay chiếc áo ấm để sẵn cạnh gối rồi ngồi dậy"
+        ],
+        "k": "D",
+        "e": "Khởi động nhẹ trong chăn rồi khoác áo ấm ngay giúp cơ thể thích nghi nhiệt độ an toàn.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Mẹo dậy sớm mùa lạnh"
+      },
+      {
+        "c": "LS1-B01-008",
+        "d": "application",
+        "p": "Sáng thứ Hai đầu tuần lớp 1A tổ chức thi đua \"Bé tự lập buổi sáng\". Trong 4 bạn dưới đây, bạn nào thực hiện ĐÚNG và ĐẸP nhất?",
+        "o": [
+          "Bạn Na dậy lúc 6g30, tự gấp chăn vuông vắn, đặt gấu bông gọn góc giường rồi đi rửa mặt",
+          "Bạn Sóc trễ giờ nên mặc áo trái chạy ra cửa",
+          "Bạn Tí dậy đúng giờ nhưng vứt chăn xuống đất để đi chơi",
+          "Bạn Mít bắt bà ngoại 70 tuổi vào gấp chăn hộ"
+        ],
+        "k": "A",
+        "e": "Gấp chăn gối gọn và xếp đồ dùng ngăn nắp thể hiện nếp sống văn minh đáng khen.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Gương bé tự lập"
+      },
+      {
+        "c": "LS1-B01-009",
+        "d": "application",
+        "p": "Chiếc giường của bé Bo có 1 chiếc gối ngủ, 1 chiếc gối ôm và 1 chiếc chăn bông. Sau khi gấp chăn xong, Bo nên sắp xếp cả 3 món đồ này ở đâu trên giường?",
+        "o": [
+          "Đặt sát ngay ngắn vào góc đầu giường: gối ngủ nằm dưới, gối ôm xếp cạnh và chăn gấp đặt gọn lên trên hoặc bên cạnh",
+          "Để mỗi thứ một góc giữa giường bừa bãi",
+          "Nhét gối ngủ vào cặp sách mang đi học",
+          "Vứt gối ngủ xuống sàn, giữ mỗi gối ôm"
+        ],
+        "k": "A",
+        "e": "Xếp bộ chăn gối theo cụm gọn ở đầu giường giúp giường ngủ trông thoáng rộng và sạch sẽ.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Sắp xếp chăn gối đẹp"
+      },
+      {
+        "c": "LS1-B01-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ thời gian đi ngủ tối của 4 bạn lớp 1B. Bạn nào có thói quen đi ngủ hợp lí nhất để sáng hôm sau 6g30 dậy tỉnh táo học bài?",
+        "o": [
+          "Bạn An (ngủ lúc 21 giờ, đủ khoảng 9,5 tiếng)",
+          "Bạn Chi (ngủ lúc 24 giờ đêm)",
+          "Bạn Dũng (ngủ lúc 22 giờ 30)",
+          "Bạn Bình (ngủ lúc 23 giờ)"
+        ],
+        "k": "A",
+        "e": "Ngủ lúc 21 giờ đảm bảo trẻ 6–7 tuổi có hơn 9 tiếng ngủ sâu phát triển trí não và chiều cao.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Đọc biểu đồ giờ đi ngủ",
+        "fig": {
+          "type": "bars",
+          "title": "Giờ đi ngủ buổi tối (giờ)",
+          "labels": [
+            "An",
+            "Bình",
+            "Chi",
+            "Dũng"
+          ],
+          "series": [
+            {
+              "values": [
+                21,
+                23,
+                24,
+                22
+              ]
+            }
+          ],
+          "unit": "giờ"
+        }
+      },
+      {
+        "c": "LS1-B01-011",
+        "d": "application",
+        "p": "Hôm nay là sáng Chủ nhật được nghỉ học ở nhà. Bạn Lan thức dậy lúc 7 giờ sáng. Lan có nên gấp chăn gối gọn gàng không?",
+        "o": [
+          "Không, ngày Chủ nhật cứ để bừa bãi tới tối",
+          "Có, vì gấp chăn gối là thói quen văn minh giữ phòng sạch đẹp mỗi ngày kể cả ngày nghỉ",
+          "Chỉ gấp chăn khi cô giáo đến nhà thăm",
+          "Chủ nhật không cần gấp chăn vì tối lại ngủ tiếp"
+        ],
+        "k": "B",
+        "e": "Thói quen tốt được duy trì đều đặn mỗi ngày sẽ trở thành nếp sống tự nhiên suốt đời.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Duy trì thói quen ngày nghỉ"
+      },
+      {
+        "c": "LS1-B01-012",
+        "d": "application",
+        "p": "Mỗi buổi sáng em mất 15 phút để gấp chăn, đánh răng rửa mặt và mặc đồng phục. Nếu mẹ dặn 7 giờ 00 phải ngồi vào bàn ăn sáng, em cần thức dậy muộn nhất lúc mấy giờ?",
+        "o": [
+          "7 giờ 15 phút sáng",
+          "7 giờ 00 sáng",
+          "6 giờ 55 phút sáng",
+          "6 giờ 45 phút sáng"
+        ],
+        "k": "D",
+        "e": "Từ 6 giờ 45 đến 7 giờ 00 vừa tròn 15 phút giúp em vệ sinh cá nhân thong thả trước bữa sáng.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Tính giờ thức dậy hợp lí"
+      },
+      {
+        "c": "LS1-B01-013",
+        "d": "advanced",
+        "p": "Vì sao các bác sĩ khuyên sau khi ngủ dậy nên mở cửa sổ thông thoáng và giũ nhẹ chăn một chút trước khi gấp lại gọn gàng?",
+        "o": [
+          "Để muỗi bay vào trong chăn ngủ",
+          "Để hơi ẩm mồ hôi ban đêm bay thoát đi, tránh vi khuẩn nấm mốc trú ngụ giúp chăn gối luôn thơm sạch",
+          "Để làm mất mùi thơm của phòng",
+          "Để bụi ngoài đường bay thật nhiều vào phòng"
+        ],
+        "k": "B",
+        "e": "Thoát ẩm và đón nắng sớm giúp chiếc giường luôn khô ráo, bảo vệ làn da và đường hô hấp.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Vệ sinh chăn gối khoa học"
+      },
+      {
+        "c": "LS1-B01-014",
+        "d": "advanced",
+        "p": "Bạn Min muốn rèn thói quen không ngủ nướng trong 7 ngày liên tiếp. Công cụ nào dán ở đầu giường giúp Min hứng thú thực hiện nhất?",
+        "o": [
+          "Lập bảng \"Sao Chăm Chỉ\" mỗi sáng dậy đúng giờ và gấp chăn xong sẽ tự dán 1 ngôi sao khen thưởng",
+          "Nhờ anh trai tạt nước lạnh lên mặt",
+          "Đặt 10 cái đồng hồ kêu inh ỏi sát tai làm giật mình",
+          "Nhịn ăn sáng mỗi ngày để nhớ giờ"
+        ],
+        "k": "A",
+        "e": "Tự theo dõi bằng bảng ngôi sao khen thưởng tạo động lực tích cực và niềm vui tự giác.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Phương pháp tạo thói quen tốt"
+      },
+      {
+        "c": "LS1-B01-015",
+        "d": "advanced",
+        "p": "Nhiều bạn nghĩ: \"Chỉ cần học giỏi đọc viết hay là được, việc gấp chăn gối nhỏ xíu cứ để mẹ làm\". Suy nghĩ đó chưa đúng ở điểm nào?",
+        "o": [
+          "Vì cô giáo chấm điểm Toán bằng cách kiểm tra chăn",
+          "Vì mẹ không biết cách gấp chăn gối đẹp",
+          "Vì gấp chăn giúp em cao lên 10 xăng-ti-mét ngay",
+          "Rèn nếp tự lập từ việc nhỏ như gấp chăn giúp em gọn gàng, biết tự lo cho mình và yêu thương san sẻ việc nhà cùng mẹ"
+        ],
+        "k": "D",
+        "e": "Nếp sống ngăn nắp bắt đầu từ chính chiếc giường của em mỗi sớm mai!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Ý nghĩa tính tự lập"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong1-c1",
+    "lesson": {
+      "code": "lssong1-b02",
+      "title": "Bài 2. Đánh răng, rửa mặt và Giữ vệ sinh cá nhân",
+      "seq": 2,
+      "subtitle": "Biết quy trình đánh răng, rửa mặt đúng cách và giữ đầu tóc, móng tay, quần áo luôn sạch đẹp",
+      "concepts": [
+        "Đánh răng đúng cách",
+        "Rửa mặt sạch sẽ",
+        "Vệ sinh cá nhân"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS1-B02-001",
+        "d": "basic",
+        "p": "Mỗi ngày em cần đánh răng đều đặn ít nhất mấy lần và vào những thời điểm nào để hàm răng trắng khỏe không bị sâu?",
+        "o": [
+          "Đánh răng 10 lần liên tục rồi nghỉ cả tuần",
+          "Chỉ cần đánh răng 1 lần vào sáng thứ Hai",
+          "Ít nhất 2 lần mỗi ngày: sau khi thức dậy buổi sáng và trước khi đi ngủ buổi tối",
+          "Chỉ đánh răng khi nào thấy răng bị đau nhức"
+        ],
+        "k": "C",
+        "e": "Đánh răng sáng và tối giúp loại bỏ mảng bám vi khuẩn gây sâu răng và giữ hơi thở thơm tho.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Thời điểm đánh răng chuẩn"
+      },
+      {
+        "c": "LS1-B02-002",
+        "d": "basic",
+        "p": "Khi đánh răng đúng cách, em nên chải bàn chải theo hướng nào để sạch kẽ răng mà không làm mòn chân răng, đau lợi?",
+        "o": [
+          "Kéo ngang thật mạnh qua lại hết sức cho nhanh",
+          "Chỉ chải hai cái răng cửa phía trước cho có lệ",
+          "Nuốt hết bọt kem đánh răng vào bụng",
+          "Chải nhẹ nhàng theo chiều dọc (từ trên xuống dưới, từ dưới lên trên) hoặc xoay tròn nhỏ cả mặt ngoài, mặt trong và mặt nhai"
+        ],
+        "k": "D",
+        "e": "Chải dọc hoặc xoay tròn nhẹ đủ thời gian 2 phút giúp làm sạch mọi kẽ răng và bảo vệ nướu.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Kĩ thuật chải răng đúng",
+        "fig": {
+          "type": "table",
+          "title": "Chăm sóc Răng & Mặt",
+          "head": [
+            "Bộ phận",
+            "Cách giữ sạch đúng"
+          ],
+          "rows": [
+            [
+              "Răng miệng",
+              "Chải 2 phút sáng tối"
+            ],
+            [
+              "Khuôn mặt",
+              "Khăn riêng sạch sẽ"
+            ],
+            [
+              "Móng tay",
+              "Cắt ngắn mỗi tuần"
+            ],
+            [
+              "Đầu tóc",
+              "Gội sạch, chải gọn"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS1-B02-003",
+        "d": "basic",
+        "p": "Khi rửa mặt buổi sáng, em cần dùng vật dụng gì để đảm bảo sạch sẽ và không lây bệnh về mắt?",
+        "o": [
+          "Dùng chung khăn mặt ẩm ướt của cả 5 người trong nhà",
+          "Dùng tay bẩn dụi mắt rồi vẩy nước",
+          "Dùng nước sạch và chiếc khăn mặt riêng của cá nhân đã giặt sạch, phơi khô",
+          "Lấy vạt áo ngủ lau mặt cho nhanh"
+        ],
+        "k": "C",
+        "e": "Dùng khăn mặt riêng sạch sẽ phòng tránh hiệu quả các bệnh đau mắt đỏ và vi khuẩn ngoài da.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Dùng khăn mặt riêng"
+      },
+      {
+        "c": "LS1-B02-004",
+        "d": "basic",
+        "p": "Trình tự rửa mặt sạch sẽ đúng vệ sinh nên bắt đầu lau từ vùng nào trước để tránh bụi bẩn dính vào mắt?",
+        "o": [
+          "Lau gáy và cổ bẩn trước rồi mới lấy chỗ đó lau vào mắt",
+          "Chỉ vốc nước tạt vào cằm rồi thôi",
+          "Rửa tay sạch bằng xà phòng trước, dùng góc khăn sạch lau nhẹ hai khóe mắt trước, rồi lau mũi, miệng, trán, má và cổ",
+          "Không rửa tay trước khi đưa tay lên mắt"
+        ],
+        "k": "C",
+        "e": "Luôn rửa tay sạch và lau vùng mắt trước khi lau các vùng da khác trên khuôn mặt.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Thứ tự rửa mặt sạch"
+      },
+      {
+        "c": "LS1-B02-005",
+        "d": "basic",
+        "p": "Với bàn chải đánh răng cá nhân, sau khi dùng xong em nên làm gì và bao lâu thì cần thay bàn chải mới?",
+        "o": [
+          "Vứt bàn chải ướt nằm lăn lóc trên bồn rửa",
+          "Rửa sạch bọt dưới vòi nước, vẩy ráo nước, cắm dựng đầu bàn chải lên trên vào cốc khô và thay mới khoảng 3 tháng 1 lần",
+          "Dùng một chiếc bàn chải cũ tòe lông suốt 5 năm",
+          "Dùng chung bàn chải với em bé ở nhà"
+        ],
+        "k": "B",
+        "e": "Cắm bàn chải hướng lên trên giúp đầu lông nhanh khô ráo, không bị ẩm mốc vi khuẩn.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Bảo quản bàn chải đúng"
+      },
+      {
+        "c": "LS1-B02-006",
+        "d": "basic",
+        "p": "Ngoài đánh răng rửa mặt, học sinh lớp 1 cần giữ móng tay và mái tóc như thế nào khi đến trường?",
+        "o": [
+          "Để tóc bù xù xõa che kín hai mắt",
+          "Để móng tay dài nhọn chứa đầy đất đen",
+          "Nhờ bố mẹ cắt móng tay ngắn gọn sạch sẽ mỗi tuần và chải tóc gọn gàng không che lấp mắt",
+          "Cắn móng tay mỗi khi ngồi học"
+        ],
+        "k": "C",
+        "e": "Móng tay cắt ngắn tránh tích tụ trứng giun sán và không làm trầy xước bạn khi vui chơi.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Giữ móng tay và tóc gọn"
+      },
+      {
+        "c": "LS1-B02-007",
+        "d": "application",
+        "p": "Bạn Tôm lấy lượng kem đánh răng dài bằng cả ngón tay chất đầy tràn bàn chải vì nghĩ càng nhiều bọt răng càng sạch. Em khuyên Tôm thế nào?",
+        "o": [
+          "Chỉ cần lấy lượng kem đánh răng bằng hạt đậu nhỏ cho trẻ em là vừa đủ sạch, tránh nuốt nhiều bọt và tiết kiệm kem",
+          "Không cần dùng kem đánh răng, chỉ súc nước muối đặc",
+          "Lấy càng nhiều kem càng tốt, hết nửa tuýp một lần",
+          "Bôi kem đánh răng lên má cho thơm"
+        ],
+        "k": "A",
+        "e": "Lượng kem cỡ hạt đậu (hoặc hạt ngô nhỏ) là tiêu chuẩn nha khoa an toàn cho học sinh tiểu học.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Lượng kem đánh răng phù hợp"
+      },
+      {
+        "c": "LS1-B02-008",
+        "d": "application",
+        "p": "Bác sĩ nha khoa kiểm tra răng cho lớp 1C và ghi nhận nguyên nhân gây sâu răng ở các bạn nhỏ trong biểu đồ dưới đây. Nguyên nhân nào chiếm nhiều bạn mắc phải nhất?",
+        "o": [
+          "Ăn nhiều rau xanh (3 bạn)",
+          "Uống nhiều nước lọc (2 bạn)",
+          "Đánh răng đủ 2 lần một ngày (1 bạn)",
+          "Hay ăn bánh kẹo ngọt buổi tối và lười đánh răng trước khi ngủ (15 bạn)"
+        ],
+        "k": "D",
+        "e": "Đường từ bánh kẹo bám lại ban đêm tạo axit ăn mòn men răng rất nhanh nếu không chải răng.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Đọc biểu đồ nguyên nhân sâu răng",
+        "fig": {
+          "type": "bars",
+          "title": "Nguyên nhân sâu răng lớp 1C (bạn)",
+          "labels": [
+            "Quên chải tối",
+            "Ăn kẹo khuya",
+            "Uống nước ngọt",
+            "Ít súc miệng"
+          ],
+          "series": [
+            {
+              "values": [
+                15,
+                12,
+                9,
+                6
+              ]
+            }
+          ],
+          "unit": "bạn"
+        }
+      },
+      {
+        "c": "LS1-B02-009",
+        "d": "application",
+        "p": "Sau bữa ăn trưa bán trú ở trường, nếu chưa mang theo bàn chải đánh răng, các bạn học sinh lớp 1 nên làm gì để giữ răng miệng sạch thơm vào buổi chiều?",
+        "o": [
+          "Chùi răng bằng giấy nháp",
+          "Để nguyên thức ăn giắt kẽ răng tới tối",
+          "Ngậm thêm 2 viên kẹo dẻo cho thơm miệng",
+          "Súc miệng kĩ bằng nước lọc sạch hoặc nước muối loãng ngay sau khi ăn và uống một ngụm nước lọc"
+        ],
+        "k": "D",
+        "e": "Súc miệng bằng nước lọc sau bữa ăn trưa giúp cuốn trôi thức ăn thừa và trung hòa axit miệng.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Chăm sóc răng sau bữa trưa"
+      },
+      {
+        "c": "LS1-B02-010",
+        "d": "application",
+        "p": "Sáng nay trời mưa vội đi học, bạn Cún phát hiện chiếc áo sơ mi đồng phục hôm qua quên thay vẫn còn dính vết tương cà ở ngực áo. Cún nên làm gì?",
+        "o": [
+          "Mặc nguyên chiếc áo dính tương cà rồi lấy tay che lại",
+          "Nhanh chóng thay một chiếc áo đồng phục sạch sẽ khác để mặc đến lớp, giữ tác phong tươm tất",
+          "Lấy bút xóa tô trắng lên vết tương cà",
+          "Cởi áo ra mặc mỗi áo lót đi học"
+        ],
+        "k": "B",
+        "e": "Quần áo sạch thơm giúp em tự tin giao tiếp và thể hiện sự tôn trọng thầy cô, bạn bè.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Trang phục sạch sẽ đi học"
+      },
+      {
+        "c": "LS1-B02-011",
+        "d": "application",
+        "p": "Bạn Bống có thói quen lấy đầu lưỡi đẩy vào chỗ răng sữa vừa rụng hoặc mút ngón tay cái khi xem ti-vi. Thói quen này có tác hại gì?",
+        "o": [
+          "Giúp ngón tay cái dài đẹp hơn",
+          "Giúp mắt nhìn ti-vi rõ hơn",
+          "Giúp răng mới mọc nhanh hơn gấp đôi",
+          "Dễ làm răng vĩnh viễn mọc lệch bị hô, vẩu và đưa vi khuẩn từ tay vào miệng gây đau bụng"
+        ],
+        "k": "D",
+        "e": "Từ bỏ thói quen mút tay và đẩy lưỡi giúp bảo vệ hàm răng đều đẹp vĩnh viễn.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Tránh thói quen xấu cho răng"
+      },
+      {
+        "c": "LS1-B02-012",
+        "d": "application",
+        "p": "Mẹ tặng em một chiếc đồng hồ cát 2 phút để cạnh bồn rửa mặt. Em sử dụng chiếc đồng hồ cát đó lúc đánh răng như thế nào?",
+        "o": [
+          "Lật ngược đồng hồ cát khi bắt đầu chải răng và chải đều các mặt răng cho tới khi cát chảy hết đủ 2 phút mới súc miệng",
+          "Đập vỡ đồng hồ cát lấy cát chơi",
+          "Ngậm bọt đứng nhìn đồng hồ cát mà không chải",
+          "Đợi cát chảy hết 2 phút rồi mới cầm bàn chải lên"
+        ],
+        "k": "A",
+        "e": "Đồng hồ cát 2 phút biến việc chải răng đúng thời lượng thành trò chơi thú vị mỗi ngày.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Ứng dụng đồng hồ cát 2 phút"
+      },
+      {
+        "c": "LS1-B02-013",
+        "d": "advanced",
+        "p": "Vì sao khi đánh răng xong, chúng ta nên nhổ sạch bọt kem, súc miệng vừa đủ nhưng KHÔNG nên uống nước ngọt ngay sau đó?",
+        "o": [
+          "Vì kem đánh răng biến nước ngọt thành nước mặn",
+          "Vì uống nước ngọt làm rụng hết tóc",
+          "Vì nước ngọt sẽ làm bàn chải bị tan chảy",
+          "Vì men răng vừa làm sạch nếu gặp đường và axit trong nước ngọt sẽ nhanh bị mòn yếu và bám màu trở lại"
+        ],
+        "k": "D",
+        "e": "Sau khi chải răng buổi tối chỉ nên uống một chút nước lọc nếu khát rồi đi ngủ.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Bảo vệ men răng sau chải"
+      },
+      {
+        "c": "LS1-B02-014",
+        "d": "advanced",
+        "p": "Có bạn hỏi: \"Buổi sáng em ngủ dậy chưa ăn gì cả, miệng sạch lắm, có cần đánh răng buổi sáng không?\". Em giải thích cho bạn thế nào?",
+        "o": [
+          "Đánh răng buổi sáng làm mất sức học",
+          "Rất cần, vì ban đêm nước bọt tiết ít nên vi khuẩn sinh sôi mạnh trong miệng tạo mùi và mảng bám suốt 9 tiếng ngủ",
+          "Không cần, sáng dậy súc miệng bằng sữa là sạch",
+          "Chỉ cần đánh răng vào buổi trưa nắng"
+        ],
+        "k": "B",
+        "e": "Chải răng buổi sáng loại bỏ lớp mảng bám vi khuẩn tích tụ suốt đêm giúp hơi thở thơm mát.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Giải thích tầm quan trọng chải sáng"
+      },
+      {
+        "c": "LS1-B02-015",
+        "d": "advanced",
+        "p": "Nếu lớp em tổ chức góc \"Kĩ năng Tự chăm sóc Bản thân\", bộ 4 món đồ vệ sinh cá nhân bắt buộc mỗi bạn phải có riêng ở nhà (không dùng chung với ai) gồm những gì?",
+        "o": [
+          "Quả bóng đá, vợt cầu lông, dây nhảy và bi ve",
+          "Cặp sách, hộp bút, thước kẻ và tẩy",
+          "Bát ăn cơm, đũa và thìa dùng chung cả nhà",
+          "Bàn chải đánh răng, khăn mặt, lược chải đầu cá nhân và cốc uống nước riêng"
+        ],
+        "k": "D",
+        "e": "Dùng riêng bàn chải, khăn mặt, lược và cốc cá nhân là hàng rào bảo vệ sức khỏe đơn giản nhất.",
+        "s": "Giáo dục lối sống 1",
+        "h": "4 món đồ vệ sinh riêng"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong1-c1",
+    "lesson": {
+      "code": "lssong1-b03",
+      "title": "Bài 3. Ngồi học ngay ngắn và Chuẩn bị góc học tập",
+      "seq": 3,
+      "subtitle": "Thực hành tư thế ngồi viết, đọc sách đúng cách để phòng cận thị, cong vẹo cột sống và xếp góc học tập gọn đẹp",
+      "concepts": [
+        "Tư thế ngồi học đúng",
+        "Phòng tránh cận thị",
+        "Góc học tập ngăn nắp"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS1-B03-001",
+        "d": "basic",
+        "p": "Khoảng cách chuẩn an toàn từ đôi mắt của em đến mặt trang sách, vở viết khi ngồi học bài là bao nhiêu?",
+        "o": [
+          "Áp sát má xuống mặt bàn viết",
+          "Cúi sát mặt cách vở chỉ 5 xăng-ti-mét",
+          "Đặt vở ra xa tận 2 mét rồi nheo mắt nhìn",
+          "Khoảng 25 đến 30 xăng-ti-mét (tương đương độ dài một gang tay lớn cộng thêm chút nữa)"
+        ],
+        "k": "D",
+        "e": "Giữ khoảng cách 25–30 cm giúp mắt điều tiết tự nhiên, phòng ngừa hiệu quả tật cận thị học đường.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Khoảng cách mắt và vở",
+        "fig": {
+          "type": "table",
+          "title": "Tư thế Ngồi học Chuẩn",
+          "head": [
+            "Bộ phận",
+            "Yêu cầu đúng"
+          ],
+          "rows": [
+            [
+              "Lưng",
+              "Thẳng, không tì ngực"
+            ],
+            [
+              "Mắt cách vở",
+              "25 đến 30 cm"
+            ],
+            [
+              "Hai chân",
+              "Chạm đất song song"
+            ],
+            [
+              "Ánh sáng",
+              "Chiếu từ phía trái"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS1-B03-002",
+        "d": "basic",
+        "p": "Khi ngồi học trên ghế ở lớp cũng như ở nhà, phần lưng và ngực của em cần giữ ở tư thế nào?",
+        "o": [
+          "Lưng thẳng tự nhiên, hai vai cân bằng, ngực không tì đè vào cạnh bàn và đầu hơi cúi nhẹ",
+          "Ngồi nghiêng vẹo hẳn sang một bên tay ghế",
+          "Nằm bò dài cả bụng lên mặt bàn",
+          "Gù cong lưng xuống như con tôm"
+        ],
+        "k": "A",
+        "e": "Lưng thẳng và không tì ngực vào cạnh bàn giúp cột sống phát triển thẳng đẹp và hít thở sâu.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Tư thế lưng thẳng"
+      },
+      {
+        "c": "LS1-B03-003",
+        "d": "basic",
+        "p": "Với học sinh viết bằng tay phải, đèn học để bàn nên đặt ở phía bên nào để bóng bàn tay không che mất chữ đang viết?",
+        "o": [
+          "Đặt ngay sát phía tay PHẢI đang cầm bút",
+          "Đặt dưới gầm bàn cho đỡ chói",
+          "Đặt ở phía bên TRÁI bàn học (ngược phía với tay cầm bút)",
+          "Tắt hết đèn ngồi học trong bóng tối"
+        ],
+        "k": "C",
+        "e": "Ánh sáng chiếu từ bên trái sang giúp trang vở sáng rõ đều mà không bị tay phải hắt bóng tối lên dòng chữ.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Vị trí đặt đèn học"
+      },
+      {
+        "c": "LS1-B03-004",
+        "d": "basic",
+        "p": "Cách đặt hai bàn chân đúng khi ngồi ghế học tập chuẩn chiều cao là gì?",
+        "o": [
+          "Hai bàn chân đặt song song chạm phẳng lên mặt sàn nhà (hoặc bệ gác chân vững chắc)",
+          "Vắt chéo hai chân đung đưa suốt tiết học",
+          "Co hai chân ngồi xếp bằng lên mặt ghế",
+          "Kê một chân lên bàn học"
+        ],
+        "k": "A",
+        "e": "Hai chân chạm phẳng mặt sàn tạo điểm tựa vững chắc giúp xương sống và hông giữ đúng trục.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Vị trí hai bàn chân"
+      },
+      {
+        "c": "LS1-B03-005",
+        "d": "basic",
+        "p": "Trên mặt bàn góc học tập ở nhà, em nên sắp xếp sách vở và đồ dùng học tập như thế nào?",
+        "o": [
+          "Sắp xếp gọn gàng theo giá sách, cốc cắm bút; chỉ để trên bàn sách vở và dụng cụ đang dùng cho môn học đó",
+          "Chất đầy đồ chơi xếp hình, ô tô, gấu bông khắp mặt bàn",
+          "Vứt vở nháp nhàu nát ngập trên mặt bàn",
+          "Để cốc nước đầy sát mép vở dễ đổ ướt"
+        ],
+        "k": "A",
+        "e": "Bàn học gọn gàng thoáng đãng giúp đầu óc tập trung nhanh và không làm mất đồ dùng.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Sắp xếp góc học tập"
+      },
+      {
+        "c": "LS1-B03-006",
+        "d": "basic",
+        "p": "Sau khi kết thúc buổi học ở nhà vào buổi tối, em cần làm gì với chiếc cặp sách cho ngày hôm sau?",
+        "o": [
+          "Kiểm tra thời khóa biểu ngày mai, xếp đủ sách vở, hộp bút vào cặp gọn gàng rồi mới đi ngủ",
+          "Gập cong mép sách nhét vội vào cặp",
+          "Nhét tất cả 15 quyển sách cả tuần vào cặp cho nặng vai",
+          "Vứt cặp ngoài phòng khách, sáng hôm sau mới tìm"
+        ],
+        "k": "A",
+        "e": "Soạn cặp từ tối hôm trước giúp sáng đi học không bao giờ quên vở hay mang thừa quá nặng.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Soạn cặp theo thời khóa biểu"
+      },
+      {
+        "c": "LS1-B03-007",
+        "d": "application",
+        "p": "Bạn Tùng có thói quen nằm sấp trên giường hoặc trên thảm phòng khách để tô màu và đọc truyện tranh suốt 1 tiếng mỗi tối. Thói quen này gây hại gì cho cơ thể Tùng?",
+        "o": [
+          "Giúp lưng khỏe mạnh dẻo dai hơn",
+          "Gây mỏi cổ vai gáy, dễ cong vẹo cột sống và làm mắt phải nhìn quá gần dẫn tới suy giảm thị lực nhanh",
+          "Giúp mắt nhìn xa tốt hơn",
+          "Giúp đọc chữ nhanh gấp đôi"
+        ],
+        "k": "B",
+        "e": "Luôn ngồi vào bàn ghế đủ ánh sáng khi đọc sách và vẽ tranh, tuyệt đối tránh nằm sấp đọc sách.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Tác hại nằm sấp đọc sách"
+      },
+      {
+        "c": "LS1-B03-008",
+        "d": "application",
+        "p": "Một chiếc bàn học cho bé lớp 1 có thể đặt gần cửa sổ ban ngày. Hướng ngồi quay mặt hay đặt cạnh cửa sổ thế nào giúp mắt dễ chịu nhất?",
+        "o": [
+          "Ngồi quay lưng che kín ánh sáng cửa sổ",
+          "Ngồi nhìn thẳng vào mặt trời chói chang qua cửa sổ",
+          "Bàn kê vuông góc với cửa sổ sao cho ánh sáng tự nhiên chiếu từ phía bên trái vào trang vở, không bị nắng gắt rọi thẳng mắt",
+          "Đóng kín rèm tối om rồi bật đèn pin"
+        ],
+        "k": "C",
+        "e": "Ánh sáng tự nhiên dịu nhẹ chiếu từ bên trái là điều kiện tuyệt vời nhất bảo vệ đôi mắt.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Ánh sáng tự nhiên tại góc học tập"
+      },
+      {
+        "c": "LS1-B03-009",
+        "d": "application",
+        "p": "Cứ sau mỗi 25–30 phút ngồi học bài chăm chỉ ở nhà, em nên cho đôi mắt nghỉ ngơi như thế nào trong vài phút?",
+        "o": [
+          "Dụi mạnh hai tay vào mắt cho đỡ mỏi",
+          "Lấy điện thoại ra chơi trò chơi nhìn sát màn hình 15 phút",
+          "Nằm ngủ luôn trên bàn học",
+          "Đứng dậy vươn vai, nhìn ra xa khoảng 5–6 mét (ngắm cây xanh ngoài cửa sổ) khoảng 1–2 phút cho mắt thư giãn"
+        ],
+        "k": "D",
+        "e": "Nhìn ra khoảng xanh ở xa giúp cơ mắt được thả lỏng hoàn toàn sau thời gian tập trung nhìn gần.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Cách thư giãn mắt khi học"
+      },
+      {
+        "c": "LS1-B03-010",
+        "d": "application",
+        "p": "Khám sức khỏe đầu năm ở 4 lớp khối 1 ghi nhận số bạn có thói quen ngồi học sai tư thế (cúi sát mặt xuống bàn) như biểu đồ. Tổng số bạn cần chỉnh sửa tư thế ở cả 4 lớp là bao nhiêu?",
+        "o": [
+          "26 bạn",
+          "22 bạn",
+          "20 bạn",
+          "24 bạn (7 + 5 + 8 + 4 = 24 bạn)"
+        ],
+        "k": "D",
+        "e": "7 + 5 + 8 + 4 = 24 bạn. Các bạn cần ngồi thẳng lưng và giữ khoảng cách 25–30 cm ngay nhé!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Đọc biểu đồ tư thế học",
+        "fig": {
+          "type": "bars",
+          "title": "Số bạn hay cúi sát vở (bạn)",
+          "labels": [
+            "Lớp 1A",
+            "Lớp 1B",
+            "Lớp 1C",
+            "Lớp 1D"
+          ],
+          "series": [
+            {
+              "values": [
+                7,
+                5,
+                8,
+                4
+              ]
+            }
+          ],
+          "unit": "bạn"
+        }
+      },
+      {
+        "c": "LS1-B03-011",
+        "d": "application",
+        "p": "Bạn Hà viết bằng tay TRÁI. Để tay trái viết không tự che bóng lên chữ của mình, đèn học trên bàn của Hà nên đặt ở phía bên nào?",
+        "o": [
+          "Đặt ở phía bên PHẢI bàn học của Hà",
+          "Không cần dùng đèn",
+          "Đặt phía sau lưng Hà",
+          "Đặt ở phía bên TRÁI bàn học giống bạn viết tay phải"
+        ],
+        "k": "A",
+        "e": "Nguyên tắc vàng: đặt đèn ngược phía tay cầm bút! Bạn thuận tay trái đặt đèn bên phải là thông minh nhất.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Vị trí đèn cho bạn thuận tay trái"
+      },
+      {
+        "c": "LS1-B03-012",
+        "d": "application",
+        "p": "Khi ngồi ghế ở nhà, em thấy chân mình bị lơ lửng không chạm đất và mặt bàn cao gần sát cằm em. Cách khắc phục nhanh và an toàn nhất là gì?",
+        "o": [
+          "Ngồi xuống sàn nhà rồi đặt vở lên ghế",
+          "Cứ rướn cổ viết mặc kệ đau vai",
+          "Chuyển sang quỳ gối lên mặt ghế",
+          "Nhờ bố mẹ chỉnh lại độ cao ghế phù hợp, hoặc kê thêm chiếc ghế đẩu phẳng vững dưới chân và đệm ngồi chắc chắn"
+        ],
+        "k": "D",
+        "e": "Bàn ghế vừa tầm vóc (cẳng tay đặt ngang mặt bàn thoải mái, chân chạm đất) rất quan trọng với trẻ đang lớn.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Điều chỉnh bàn ghế vừa tầm"
+      },
+      {
+        "c": "LS1-B03-013",
+        "d": "advanced",
+        "p": "Cách cầm bút đúng chuẩn lớp 1 (bằng 3 ngón tay: cái, trỏ, giữa) giúp nét chữ đẹp và cổ tay không bị mỏi, đồng thời đầu ngón tay cách đầu ngòi bút khoảng bao nhiêu?",
+        "o": [
+          "Nắm chặt cả 5 ngón tay như cầm nắm đấm",
+          "Cầm sát tịt ngay đầu ngòi bút dính hết mực vào tay",
+          "Cầm tuốt lên tận phần đuôi bút trên cùng",
+          "Cách đầu ngòi bút khoảng 2,5 xăng-ti-mét (khoảng một đốt ngón tay rưỡi)"
+        ],
+        "k": "D",
+        "e": "Cầm bút bằng 3 ngón tay cách ngòi 2,5 cm giúp mắt nhìn rõ nét chữ đang viết và cổ tay di chuyển linh hoạt.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Kĩ thuật cầm bút chuẩn"
+      },
+      {
+        "c": "LS1-B03-014",
+        "d": "advanced",
+        "p": "Vì sao các thầy cô thường dặn khi tập viết vở ô li, quyển vở nên đặt hơi nghiêng nhẹ khoảng 15 độ (trên nghiêng sang phải với người viết tay phải) thay vì đặt thẳng đứng cứng nhắc?",
+        "o": [
+          "Để thuận theo chiều chuyển động tự nhiên của cánh tay phải khi đưa nét chữ từ trái sang phải, tránh mỏi vai",
+          "Để viết chữ bị đổ ngược sang trái",
+          "Để che mất lề vở",
+          "Để làm rách gáy quyển vở"
+        ],
+        "k": "A",
+        "e": "Đặt vở nghiêng nhẹ tự nhiên theo hướng cánh tay giúp dòng chữ thẳng đều và tay lướt rất nhẹ.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Tư thế đặt vở khoa học"
+      },
+      {
+        "c": "LS1-B03-015",
+        "d": "advanced",
+        "p": "Nếu phải thiết kế \"Góc học tập 3 KHÔNG\" cho học sinh lớp 1, theo em 3 điều \"KHÔNG\" đó là gì?",
+        "o": [
+          "Không ghế ngồi – Không bảng tên – Không thước kẻ",
+          "Không đồ chơi gây mất tập trung trên mặt bàn – Không ánh sáng yếu hoặc rọi thẳng mắt – Không ngồi gù lưng sát vở",
+          "Không sách vở – Không bút viết – Không đèn học",
+          "Không uống nước – Không mở cửa – Không nghỉ giải lao"
+        ],
+        "k": "B",
+        "e": "Góc học tập 3 KHÔNG giúp bảo vệ cột sống, đôi mắt và tăng tối đa khả năng tập trung!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Mô hình Góc học tập 3 KHÔNG"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong1-c2",
+    "lesson": {
+      "code": "lssong1-b04",
+      "title": "Bài 4. Rửa tay sạch trước khi ăn và sau khi đi vệ sinh",
+      "seq": 4,
+      "subtitle": "Nhận biết các thời điểm vàng cần rửa tay với xà phòng và thực hiện đúng 6 bước rửa tay sạch khuẩn",
+      "concepts": [
+        "6 bước rửa tay",
+        "Thời điểm rửa tay",
+        "Phòng bệnh tiêu hóa"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS1-B04-001",
+        "d": "basic",
+        "p": "Những thời điểm BẮT BUỘC học sinh lớp 1 phải rửa tay sạch bằng xà phòng và nước sạch là khi nào?",
+        "o": [
+          "Trước khi ăn uống, sau khi đi vệ sinh, sau khi chơi đồ chơi hay vuốt ve vật nuôi và khi tay bị bẩn",
+          "Không cần rửa tay nếu nhìn bằng mắt thấy tay trắng",
+          "Chỉ cần rửa tay vào ngày Tết",
+          "Chỉ rửa tay khi nào thấy tay dính mực đen"
+        ],
+        "k": "A",
+        "e": "Vi khuẩn và trứng giun vô hình bám trên tay sẽ xâm nhập cơ thể nếu ta không rửa tay bằng xà phòng.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Các thời điểm vàng rửa tay",
+        "fig": {
+          "type": "table",
+          "title": "6 Bước Rửa tay Chuẩn",
+          "head": [
+            "Bước",
+            "Động tác rửa tay"
+          ],
+          "rows": [
+            [
+              "Bước 1",
+              "Xoa hai lòng bàn tay"
+            ],
+            [
+              "Bước 2",
+              "Chà mu và kẽ ngoài"
+            ],
+            [
+              "Bước 3",
+              "Miết sạch kẽ trong"
+            ],
+            [
+              "Bước 4-6",
+              "Mặt ngoài, ngón cái"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS1-B04-002",
+        "d": "basic",
+        "p": "Rửa tay đúng quy trình chuẩn của Bộ Y tế gồm có mấy bước và mất tối thiểu khoảng bao nhiêu giây xoa xà phòng?",
+        "o": [
+          "Phải rửa mất đúng 15 phút đồng hồ",
+          "Gồm 6 bước chuẩn, chà xà phòng kĩ tối thiểu 20 đến 30 giây trước khi tráng sạch",
+          "Gồm 2 bước vẩy nước lên quần áo",
+          "Chỉ cần 1 bước nhúng nhanh đầu ngón tay vào nước 2 giây"
+        ],
+        "k": "B",
+        "e": "20–30 giây chà đủ 6 bước (bằng hát hai lần bài Chúc mừng sinh nhật) đủ để đánh bay hầu hết vi khuẩn!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Quy trình 6 bước rửa tay"
+      },
+      {
+        "c": "LS1-B04-003",
+        "d": "basic",
+        "p": "Nếu chỉ xối qua nước lã mà KHÔNG dùng xà phòng (hoặc nước rửa tay), đôi tay có thực sự sạch hết vi khuẩn và dầu mỡ không?",
+        "o": [
+          "Có, nếu thổi thật mạnh vào lòng bàn tay",
+          "Có, chỉ cần lau tay vào giấy báo là hết khuẩn",
+          "Có, nước lã lạnh là sạch tuyệt đối mọi thứ",
+          "Không, vì xà phòng mới tạo bọt hòa tan chất nhờn và cuốn trôi vi khuẩn, virus bám chặt trên da"
+        ],
+        "k": "D",
+        "e": "Xà phòng là \"chiến binh\" phá vỡ lớp màng chất béo của vi khuẩn giúp dòng nước cuốn sạch chúng đi.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Vai trò của xà phòng"
+      },
+      {
+        "c": "LS1-B04-004",
+        "d": "basic",
+        "p": "Trong 6 bước rửa tay, nhiều bạn nhỏ thường hay bỏ sót bước nào nhất dù ngón tay cái và đầu ngón tay lại hay chạm vào thức ăn nhiều nhất?",
+        "o": [
+          "Bước lấy khăn lau khô tay",
+          "Bước xối nước làm ướt tay",
+          "Bước mở vòi nước",
+          "Bước chà xoay ngón tay cái và chụm 5 đầu ngón tay xoay vào lòng bàn tay kia (bước 5 và 6)"
+        ],
+        "k": "D",
+        "e": "Chà kĩ ngón cái và đầu móng tay đảm bảo không còn bụi bẩn giấu dưới kẽ móng.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Vùng dễ bỏ sót khi rửa tay"
+      },
+      {
+        "c": "LS1-B04-005",
+        "d": "basic",
+        "p": "Sau khi rửa tay sạch bọt xà phòng dưới vòi nước chảy, em nên lau khô tay bằng gì để tay không bị nhiễm bẩn lại?",
+        "o": [
+          "Chạm tay vào tay nắm cửa nhà vệ sinh rồi đi ăn bánh ngay",
+          "Vẩy nước tung tóe vào mặt bạn đứng cạnh",
+          "Lau bằng khăn sạch khô hoặc giấy lau tay sạch dùng một lần",
+          "Chùi thẳng tay ướt lên quần đùi đang mặc"
+        ],
+        "k": "C",
+        "e": "Tay ướt rất dễ bám lại vi khuẩn; hãy lau khô bằng khăn sạch và dùng khăn hoặc khuỷu tay đóng vòi nước nếu cần.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Lau khô tay sạch sau khi rửa"
+      },
+      {
+        "c": "LS1-B04-006",
+        "d": "basic",
+        "p": "Nếu ăn bánh kẹo hay hoa quả bằng tay bẩn chưa rửa xà phòng sau khi đi vệ sinh, em có nguy cơ mắc bệnh gì?",
+        "o": [
+          "Giúp tay trở nên trắng mịn hơn",
+          "Giúp cơ thể khỏe mạnh thông minh hơn",
+          "Giúp mắt sáng hơn gấp đôi",
+          "Đau bụng, tiêu chảy, nhiễm giun sán và các bệnh lây nhiễm đường tiêu hóa, hô hấp"
+        ],
+        "k": "D",
+        "e": "Bàn tay sạch bảo vệ dạ dày và giúp em khỏe mạnh đi học đều mỗi ngày.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Tác hại của bàn tay bẩn"
+      },
+      {
+        "c": "LS1-B04-007",
+        "d": "application",
+        "p": "Giờ ra chơi vừa kết thúc, bạn Nam chạy mồ hôi nhễ nhại từ sân bóng vào lớp rồi cầm ngay chiếc bánh mì mẹ chuẩn bị lên ăn ngấu nghiến vì quá đói. Em nhắc Nam việc gì ngay lập tức?",
+        "o": [
+          "Nhắc Nam khoan ăn, ra ngay bồn rửa tay rửa sạch sẽ 6 bước với xà phòng rồi lau khô mới cầm bánh ăn",
+          "Khuyên Nam thổi phù phù vào bánh mì là ăn được",
+          "Bảo Nam lấy giấy ăn bọc bánh là tay không cần rửa",
+          "Xin Nam bẻ cho một miếng cùng ăn luôn"
+        ],
+        "k": "A",
+        "e": "Quả bóng và mặt sân có rất nhiều đất bụi; rửa tay trước khi ăn bánh mì chỉ mất 30 giây mà vô cùng an toàn.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Xử lí tình huống sau giờ chơi"
+      },
+      {
+        "c": "LS1-B04-008",
+        "d": "application",
+        "p": "Cô giáo khảo sát thói quen rửa tay bằng xà phòng trước khi ăn bán trú của 4 tổ lớp 1A (biểu đồ dưới). Tổ nào có nhiều bạn thực hiện tốt nhất và tổ nào cần nhắc nhở nhiều nhất?",
+        "o": [
+          "Tổ 3 tốt nhất; Tổ 1 cần nhắc nhở nhất",
+          "Tổ 1 tốt nhất; Tổ 4 cần nhắc nhở nhất",
+          "Cả 4 tổ bằng nhau",
+          "Tổ 2 tốt nhất (10 bạn); Tổ 3 cần nhắc nhở nhất (5 bạn)"
+        ],
+        "k": "D",
+        "e": "Nhìn độ cao cột: Tổ 2 cao nhất (10 bạn) và Tổ 3 thấp nhất (5 bạn).",
+        "s": "Giáo dục lối sống 1",
+        "h": "Đọc biểu đồ thói quen rửa tay",
+        "fig": {
+          "type": "bars",
+          "title": "Số bạn rửa tay xà phòng trước ăn",
+          "labels": [
+            "Tổ 1",
+            "Tổ 2",
+            "Tổ 3",
+            "Tổ 4"
+          ],
+          "series": [
+            {
+              "values": [
+                8,
+                10,
+                5,
+                9
+              ]
+            }
+          ],
+          "unit": "bạn"
+        }
+      },
+      {
+        "c": "LS1-B04-009",
+        "d": "application",
+        "p": "Trong chuyến đi dã ngoại công viên không có sẵn vòi nước và xà phòng ngay cạnh chỗ ngồi ăn trưa, các bạn có thể dùng tạm vật gì để làm sạch tay trước khi bóc bánh?",
+        "o": [
+          "Dùng dung dịch rửa tay khô sát khuẩn có cồn phù hợp trẻ em hoặc khăn ướt diệt khuẩn sạch, xoa kĩ 6 bước như rửa tay",
+          "Chùi tay xuống bãi cỏ công viên cho sạch",
+          "Nhúng tay xuống hồ nước ao cá công viên",
+          "Thổi bụi trên tay là sạch"
+        ],
+        "k": "A",
+        "e": "Nước rửa tay khô là giải pháp cứu nguy tiện lợi khi đi dã ngoại chưa có bồn nước sạch.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Rửa tay khi đi dã ngoại"
+      },
+      {
+        "c": "LS1-B04-010",
+        "d": "application",
+        "p": "Khi đứng chờ tới lượt rửa tay tại bồn nước trường học cùng nhiều bạn khác, hành vi nào thể hiện lối sống văn minh?",
+        "o": [
+          "Mở vòi hết cỡ vẩy nước tung tóe trêu các bạn",
+          "Rửa xong bỏ đi mặc kệ nước chảy tràn lan",
+          "Xếp hàng trật tự chờ đến lượt mình, mở vòi nước vừa phải tránh bắn ướt bạn và khóa chặt vòi ngay khi xong",
+          "Chen lấn đẩy bạn ra để rửa trước"
+        ],
+        "k": "C",
+        "e": "Vừa giữ vệ sinh cá nhân vừa tiết kiệm nước sạch và nhường nhịn bạn bè là nét đẹp học sinh văn minh!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Văn minh tại bồn rửa tay"
+      },
+      {
+        "c": "LS1-B04-011",
+        "d": "application",
+        "p": "Ở nhà có nuôi một chú mèo con rất đáng yêu. Sau khi vuốt ve ôm ấp chú mèo, em muốn đi lấy quả táo trên bàn ăn. Việc em BẮT BUỘC làm ở giữa hai hành động này là gì?",
+        "o": [
+          "Lấy áo lau qua bàn tay là ăn táo được",
+          "Chỉ cần vuốt mèo nhẹ nhàng thì tay không bẩn",
+          "Rửa tay sạch bằng xà phòng và nước sạch (cũng như rửa sạch quả táo trước khi ăn)",
+          "Đưa quả táo cho mèo ngửi trước"
+        ],
+        "k": "C",
+        "e": "Lông thú cưng có thể mang kí sinh trùng; rửa tay sau khi chơi với vật nuôi bảo vệ sức khỏe cho cả bé và thú cưng!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Rửa tay sau khi chơi với thú cưng"
+      },
+      {
+        "c": "LS1-B04-012",
+        "d": "application",
+        "p": "Bé Mít mở nắp lọ sữa chua bằng thìa sạch, nhưng trước đó tay Mít vừa cầm tiền lẻ và tay nắm cửa. Mít có cần rửa tay trước khi ăn không?",
+        "o": [
+          "Chỉ cần liếm ngón tay một cái",
+          "Không cần vì ăn bằng thìa tay không chạm vào sữa chua",
+          "Rửa mỗi chiếc thìa là đủ",
+          "Vẫn rất cần rửa tay sạch bằng xà phòng trước khi ăn vì tay bẩn có thể chạm vào miệng thìa, vỏ hộp hay vuốt mặt khi đang ăn"
+        ],
+        "k": "D",
+        "e": "Tiền giấy và tay nắm cửa là hai vật chứa cực nhiều vi khuẩn nhất; luôn rửa tay trước mọi bữa ăn!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Rửa tay cả khi dùng thìa đũa"
+      },
+      {
+        "c": "LS1-B04-013",
+        "d": "advanced",
+        "p": "Thứ tự nào sau đây đúng với quy trình 6 bước rửa tay thường quy của Bộ Y tế?",
+        "o": [
+          "Làm ướt & xoa lòng bàn tay -> Chà mu và kẽ ngoài -> Miết kẽ trong -> Chà mặt ngoài ngón -> Xoay ngón cái -> Chụm đầu ngón tay xoay lòng bàn tay",
+          "Chỉ xoa hai lòng bàn tay -> Xả nước -> Đi ăn ngay",
+          "Lau khô -> Xoa bọt -> Nhúng nước -> Chà ngón cái",
+          "Chụm đầu ngón tay -> Lau quần -> Lấy xà phòng"
+        ],
+        "k": "A",
+        "e": "Thực hiện đúng đủ 6 bước giúp xà phòng tiếp xúc toàn bộ bề mặt da tay không bỏ sót vùng nào.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Chuỗi 6 bước chuẩn Bộ Y tế"
+      },
+      {
+        "c": "LS1-B04-014",
+        "d": "advanced",
+        "p": "Vì sao khi đóng vòi nước ở nhà vệ sinh công cộng sau khi đã rửa tay sạch, nhiều người khuyên dùng một tờ giấy lau tay sạch lót cầm vào van vòi để vặn đóng?",
+        "o": [
+          "Vì sợ vòi nước bằng sắt làm gãy ngón tay",
+          "Vì vòi nước không bao giờ đóng được bằng tay",
+          "Vì muốn làm ướt hết cuộn giấy vệ sinh",
+          "Vì trước khi rửa, tay bẩn của nhiều người đã chạm vào núm vặn vòi nước; dùng giấy lót giúp tay sạch không chạm lại vết bẩn cũ"
+        ],
+        "k": "D",
+        "e": "Mẹo nhỏ thông minh giúp đôi tay vừa rửa 6 bước giữ được độ sạch 100%!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Mẹo giữ tay sạch sau khi khóa vòi"
+      },
+      {
+        "c": "LS1-B04-015",
+        "d": "advanced",
+        "p": "Trong lớp 1B có 30 bạn. Cô giáo phát động \"30 ngày rửa tay xà phòng sạch khuẩn\". Nếu mỗi bạn tiết kiệm vặn vòi nước vừa nhỏ chỉ mất 1 lít nước một lần rửa thay vì xả tràn mất 3 lít nước, trong 1 lần rửa trước bữa trưa cả lớp tiết kiệm được bao nhiêu lít nước?",
+        "o": [
+          "60 lít nước (mỗi bạn tiết kiệm 3 - 1 = 2 lít; 30 bạn x 2 = 60 lít)",
+          "30 lít nước",
+          "15 lít nước",
+          "90 lít nước"
+        ],
+        "k": "A",
+        "e": "Mỗi bạn tiết kiệm 2 lít -> cả lớp 30 bạn tiết kiệm tới 60 lít nước sạch chỉ trong một buổi trưa!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Rửa tay sạch đi đôi tiết kiệm nước"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong1-c2",
+    "lesson": {
+      "code": "lssong1-b05",
+      "title": "Bài 5. Ăn uống gọn gàng, không kén ăn và lịch sự",
+      "seq": 5,
+      "subtitle": "Rèn phép lịch sự trên bàn ăn (mời cơm, nhai kĩ không nói chuyện, không rơi vãi) và ăn đủ 4 nhóm chất không kén cá chọn canh",
+      "concepts": [
+        "Lịch sự bàn ăn",
+        "Ăn đủ chất không kén ăn",
+        "Tránh hóc sặc"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS1-B05-001",
+        "d": "basic",
+        "p": "Trước khi bắt đầu bữa cơm cùng ông bà, bố mẹ và anh chị ở nhà, nét đẹp lễ phép đầu tiên của bạn nhỏ lớp 1 là gì?",
+        "o": [
+          "Chờ người lớn ngồi đủ vào mâm, khoanh tay hoặc nhìn lễ phép mời: \"Cháu mời ông bà, con mời bố mẹ ăn cơm ạ!\" rồi mới cầm đũa thìa",
+          "Gõ bát đũa leng keng đòi ăn nhanh",
+          "Không mời ai, bưng bát chạy ra góc xem ti-vi",
+          "Vồ lấy thức ăn ngon gắp ăn trước một mình"
+        ],
+        "k": "A",
+        "e": "Lời mời cơm ấm áp thể hiện lòng kính trọng người lớn tuổi và sự gắn kết yêu thương trong gia đình.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Phép lịch sự mời cơm"
+      },
+      {
+        "c": "LS1-B05-002",
+        "d": "basic",
+        "p": "Vì sao khi đang nhai cơm và thức ăn trong miệng, em KHÔNG nên cười đùa ầm ĩ hay nói chuyện liên tục?",
+        "o": [
+          "Vì nói chuyện giúp cơm tiêu hóa nhanh hơn",
+          "Vì đũa sẽ bị gãy nếu đang nhai mà nói",
+          "Vì dễ bị sặc, nghẹn hóc thức ăn vào đường thở rất nguy hiểm và dễ làm văng thức ăn ra ngoài mất lịch sự",
+          "Vì nói chuyện làm cơm bị nguội ngay lập tức"
+        ],
+        "k": "C",
+        "e": "\"Ăn trông nồi, ngồi trông hướng\" và nhai kĩ im lặng bảo vệ an toàn đường thở và giữ nét duyên trên bàn ăn.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Không nói cười khi đang nhai",
+        "fig": {
+          "type": "table",
+          "title": "Nếp Ăn uống Văn minh",
+          "head": [
+            "Nên làm",
+            "Cần tránh tuyệt đối"
+          ],
+          "rows": [
+            [
+              "Mời người lớn trước",
+              "Ăn trước người lớn"
+            ],
+            [
+              "Nhai kĩ, ngậm miệng",
+              "Cười đùa dễ sặc hóc"
+            ],
+            [
+              "Ăn đủ rau thịt cá",
+              "Chỉ ăn thịt, bỏ rau"
+            ],
+            [
+              "Gắp gọn, ăn hết suất",
+              "Bới tung, bỏ mứa cơm"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS1-B05-003",
+        "d": "basic",
+        "p": "Để cơ thể lớn nhanh cao khỏe, thông minh và ít bị táo bón ốm vặt, trong bữa ăn hàng ngày em cần ăn thế nào?",
+        "o": [
+          "Nhặt vứt hết rau xanh ra ngoài mâm cơm",
+          "Chỉ ăn mỗi đùi gà rán và khoai tây chiên suốt tuần",
+          "Ăn đa dạng đủ thịt cá trứng sữa, cơm bún và ăn đủ các loại rau xanh, trái cây chín (không kén ăn bỏ rau)",
+          "Uống nước ngọt có ga thay cơm"
+        ],
+        "k": "C",
+        "e": "Rau xanh và hoa quả cung cấp vitamin và chất xơ giúp hệ tiêu hóa khỏe mạnh và da dẻ hồng hào!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Ăn đa dạng không kén rau"
+      },
+      {
+        "c": "LS1-B05-004",
+        "d": "basic",
+        "p": "Khi gắp thức ăn từ đĩa chung đặt trên mâm cơm gia đình, cách làm nào là lịch sự và giữ vệ sinh?",
+        "o": [
+          "Chỉ gắp miếng thức ăn ở phía gần mình nhất cho gọn, không dùng đũa bới đảo tung đĩa thức ăn để chọn miếng to",
+          "Liếm đầu đũa rồi gắp gắp khắp các đĩa",
+          "Lấy đũa khuấy đảo cả đĩa thịt để tìm miếng ngon nhất",
+          "Dùng tay bốc thẳng từ đĩa thức ăn chung"
+        ],
+        "k": "A",
+        "e": "Gắp đúng phần phía mình vừa lịch sự tôn trọng người ăn cùng vừa đảm bảo vệ sinh chung.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Phép gắp thức ăn chung"
+      },
+      {
+        "c": "LS1-B05-005",
+        "d": "basic",
+        "p": "Trong khi ăn cơm trưa tại trường hoặc tại nhà, em cần giữ bàn ăn và bát cơm của mình thế nào?",
+        "o": [
+          "Bôi tương ớt vẽ hình lên bàn ăn",
+          "Xúc đầy tràn thìa làm cơm rơi vãi đầy mặt bàn",
+          "Cầm thìa hoặc đũa gọn gàng, ăn từ tốn tránh làm rơi vãi cơm canh ra bàn và cố gắng ăn hết phần cơm trong bát",
+          "Chừa lại nửa bát cơm trắng rồi đổ bỏ vào thùng rác"
+        ],
+        "k": "C",
+        "e": "Ăn hết phần cơm không bỏ thừa là biết quý trọng mồ hôi công sức của bác nông dân và bố mẹ.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Ăn gọn gàng không bỏ thừa"
+      },
+      {
+        "c": "LS1-B05-006",
+        "d": "basic",
+        "p": "Khi ăn xong bữa cơm tại nhà, việc làm nhẹ nhàng giúp em thể hiện sự ngoan ngoãn phụ giúp mẹ là gì?",
+        "o": [
+          "Bỏ chạy ngay ra sân xem ti-vi để mặc bát đũa bừa trên bàn",
+          "Ném bát đũa vào chậu thật mạnh",
+          "Xếp gọn bát đũa của mình bê nhẹ ra bồn rửa, lau sạch chỗ ngồi của mình nếu có rơi vài hạt cơm rồi cất ghế ngay ngắn",
+          "Trát cơm thừa xuống gầm bàn"
+        ],
+        "k": "C",
+        "e": "Bưng bát đũa ra bồn rửa và xếp ghế gọn sau bữa ăn là thói quen cực kì đáng khen của bé lớp 1.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Việc làm sau bữa ăn"
+      },
+      {
+        "c": "LS1-B05-007",
+        "d": "application",
+        "p": "Bữa ăn bán trú hôm nay có món cá sốt cà chua rất bổ dưỡng nhưng có xương cá và món canh rau cải. Bạn Sóc hơi sợ xương cá và không quen ăn rau cải. Cô giáo khuyên Sóc làm thế nào?",
+        "o": [
+          "Nhờ cô hoặc tự cẩn thận tách gỡ nhẹ phần xương cá ra mép đĩa rồi ăn từng miếng nhỏ, ăn kèm thìa canh rau cải cho dễ nuốt và đủ chất",
+          "Khóc ầm lên đòi ăn riêng bánh quy thay cơm",
+          "Đổ hết suất cơm và canh rau xuống gầm bàn cho xong",
+          "Nuốt chửng miếng cá nguyên xương cho nhanh"
+        ],
+        "k": "A",
+        "e": "Tập ăn dần từng ít món mới và gỡ xương cẩn thận giúp em vượt qua thói quen kén ăn an toàn.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Vượt qua thói quen kén ăn"
+      },
+      {
+        "c": "LS1-B05-008",
+        "d": "application",
+        "p": "Quan sát biểu đồ khẩu phần ăn của 4 bạn lớp 1 trong một bữa cơm tối (tính theo số nhóm thức ăn có trong bữa: tinh bột, đạm, rau xanh, quả chín). Bạn nào ăn cân đối đủ 4 nhóm nhất?",
+        "o": [
+          "Bạn Cún (ăn 2 nhóm)",
+          "Bạn Mai (đủ cả 4 nhóm)",
+          "Bạn Mèo (ăn 2 nhóm)",
+          "Bạn Tý (chỉ ăn 1 nhóm)"
+        ],
+        "k": "B",
+        "e": "Đủ 4 nhóm chất (tinh bột, đạm, rau củ và vitamin quả chín) là bí quyết bữa ăn chuẩn dinh dưỡng!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Đọc biểu đồ 4 nhóm thức ăn",
+        "fig": {
+          "type": "bars",
+          "title": "Số nhóm thực phẩm trong bữa (nhóm)",
+          "labels": [
+            "Mai",
+            "Tý",
+            "Mèo",
+            "Cún"
+          ],
+          "series": [
+            {
+              "values": [
+                4,
+                1,
+                2,
+                2
+              ]
+            }
+          ],
+          "unit": "nhóm"
+        }
+      },
+      {
+        "c": "LS1-B05-009",
+        "d": "application",
+        "p": "Em đang ăn cơm trưa vui vẻ ở nhà cùng gia đình, bỗng có một miếng thức ăn hơi bị cay hoặc một hạt cơm nhỏ lỡ làm em muốn hắt xì hơi. Em xử lí thế nào trên bàn ăn?",
+        "o": [
+          "Quát to lên đổ lỗi cho món ăn",
+          "Nghiêng mặt quay hẳn ra xa mâm cơm, dùng khăn giấy hoặc khuỷu tay che kín miệng mũi hắt xì xong rồi xin lỗi nhẹ và lau sạch miệng",
+          "Phun thức ăn từ miệng ra thẳng bát của em bé",
+          "Hắt xì thẳng vào giữa mâm cơm chung của cả nhà"
+        ],
+        "k": "B",
+        "e": "Quay mặt khỏi mâm cơm và che miệng mũi khi ho/hắt xì giữ vệ sinh tuyệt đối cho cả gia đình.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Xử lí khi muốn hắt xì trên bàn ăn"
+      },
+      {
+        "c": "LS1-B05-010",
+        "d": "application",
+        "p": "Mẹ nấu món canh bí đỏ thịt băm rất ngon nhưng còn đang bốc khói nóng hổi. Bé Na đói bụng định xúc ngay một thìa to đưa thẳng vào miệng. Em hãy nhắc Na điều gì?",
+        "o": [
+          "Nhắc Na chờ nguội bớt, múc một ít ra rìa bát thổi nhẹ cho nguội từ từ rồi mới nếm thử kẻo bị bỏng lưỡi",
+          "Bảo Na há miệng thật to nuốt nhanh cho hết nóng",
+          "Đổ nước lạnh từ vòi vào nồi canh chung",
+          "Thò ngón tay vào ngoáy canh xem nóng không"
+        ],
+        "k": "A",
+        "e": "Thổi nhẹ thức ăn ở rìa bát tránh bỏng vòm miệng và lưỡi là kĩ năng ăn uống an toàn cần nhớ.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Ăn đồ nóng an toàn"
+      },
+      {
+        "c": "LS1-B05-011",
+        "d": "application",
+        "p": "Trong giờ ăn bán trú ở trường, bạn ngồi đối diện đang nhai cơm mà miệng cứ há to chóp chép và kể chuyện cười làm văng cơm ra bàn. Em nhắc bạn nhẹ nhàng thế nào?",
+        "o": [
+          "Hét toáng lên giữa nhà ăn trêu bạn trước cả lớp",
+          "Nói nhỏ nhẹ nhàng khi bạn đã nuốt xong: \"Cậu ơi mình cùng ăn ngoan, ngậm miệng nhai kĩ kẻo sặc, ăn xong ra sân mình kể chuyện vui tiếp nhé!\"",
+          "Lấy đũa gõ vào bát của bạn cho bạn im",
+          "Cười theo thật to khi bạn đang đầy cơm trong miệng"
+        ],
+        "k": "B",
+        "e": "Nhắc bạn tinh tế nhẹ nhàng giúp bạn không xấu hổ mà giữ được an toàn cho cả hai.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Nhắc bạn văn minh trong giờ ăn"
+      },
+      {
+        "c": "LS1-B05-012",
+        "d": "application",
+        "p": "Món quà vặt buổi chiều giữa hai lựa chọn: (1) Một hộp sữa tươi không đường kèm quả chuối chín; (2) Một túi bim bim cay mặn và 1 lon nước ngọt có ga phẩm màu. Lựa chọn nào tốt cho sức khỏe và răng miệng của em?",
+        "o": [
+          "Lựa chọn (2): Bim bim cay và nước ngọt nhiều phẩm màu",
+          "Nhịn đói hoàn toàn cả tuần",
+          "Cả hai đều có hại như nhau",
+          "Lựa chọn (1): Hộp sữa tươi và quả chuối chín bổ sung can-xi, kali và vitamin tự nhiên"
+        ],
+        "k": "D",
+        "e": "Ưu tiên trái cây tươi và sữa giúp xương chắc, răng khỏe và tinh thần minh mẫn học tốt.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Chọn quà vặt lành mạnh"
+      },
+      {
+        "c": "LS1-B05-013",
+        "d": "advanced",
+        "p": "Khi nhai thức ăn thật kĩ trước khi nuốt (nhai từ 15–20 lần mỗi miếng), điều kì diệu gì xảy ra giúp ích cho chiếc dạ dày nhỏ bé của em?",
+        "o": [
+          "Làm ta no giả vờ để khỏi cần ăn bữa sau",
+          "Làm cho răng bị mòn rụng hết sau một bữa",
+          "Thức ăn được răng nghiền nát trộn đều nước bọt giúp dạ dày tiêu hóa nhẹ nhàng, hấp thu tối đa chất dinh dưỡng và không bị đau bụng",
+          "Làm thức ăn biến mất không xuống dạ dày nữa"
+        ],
+        "k": "C",
+        "e": "\"Nhai kĩ no lâu\" – tiêu hóa bắt đầu ngay từ khoang miệng chứ không phải chờ đến dạ dày!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Lợi ích khoa học của nhai kĩ"
+      },
+      {
+        "c": "LS1-B05-014",
+        "d": "advanced",
+        "p": "Vì sao các trường học tiểu học đều đặt thùng phân loại cơm thừa và vỏ hộp sữa riêng ở nhà ăn bán trú và luôn khuyến khích học sinh \"Lấy vừa đủ sức ăn\"?",
+        "o": [
+          "Để làm đẹp góc nhà ăn cho giống siêu thị",
+          "Để tránh lãng phí lương thực, giảm lượng rác thải ô nhiễm môi trường và dạy học sinh biết trân quý hạt gạo của người lao động",
+          "Để các bạn ăn thật ít cho nhẹ cân",
+          "Vì nhà bếp không có chỗ rửa bát"
+        ],
+        "k": "B",
+        "e": "Không bỏ phí thức ăn là hành động thiết thực vừa tiết kiệm cho gia đình vừa bảo vệ Trái Đất xanh.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Chống lãng phí thực phẩm"
+      },
+      {
+        "c": "LS1-B05-015",
+        "d": "advanced",
+        "p": "Một bạn lớp 1 chia sẻ: \"Ở nhà tớ được bố mẹ mở điện thoại hoạt hình cho xem lúc ăn cơm thì tớ mới chịu nuốt nhanh\". Thói quen vừa xem màn hình vừa ăn gây hại gì nhất?",
+        "o": [
+          "Giúp mắt nhìn chữ trên tivi rõ hơn",
+          "Giúp tay cầm thìa nhanh hơn",
+          "Giúp cơm tự tan chảy trong miệng ngon gấp đôi",
+          "Khiến não bị phân tâm không cảm nhận vị ngon, giảm tiết dịch tiêu hóa gây đau dạ dày, dễ ăn quá no hoặc nuốt vội bị hóc và hại mắt"
+        ],
+        "k": "D",
+        "e": "Bữa cơm không màn hình giúp bé cảm nhận trọn vẹn hương vị thức ăn và trò chuyện ấm áp với gia đình.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Tác hại xem màn hình khi ăn"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong1-c2",
+    "lesson": {
+      "code": "lssong1-b06",
+      "title": "Bài 6. Uống đủ nước sạch và Ngủ đủ giấc đúng giờ",
+      "seq": 6,
+      "subtitle": "Biết lợi ích của nước lọc sạch với cơ thể, cách uống nước đúng lúc và rèn thói quen ngủ trưa, ngủ tối đúng giờ",
+      "concepts": [
+        "Uống đủ nước lọc",
+        "Ngủ trưa, ngủ tối đúng giờ",
+        "Bảo vệ sức khỏe"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS1-B06-001",
+        "d": "basic",
+        "p": "Loại nước uống hằng ngày tốt nhất, cần thiết nhất để giải khát và giúp các cơ quan trong cơ thể học sinh lớp 1 hoạt động khỏe mạnh là gì?",
+        "o": [
+          "Nước trà đặc hoặc cà phê của người lớn",
+          "Nước ngọt có ga nhiều đường và phẩm màu",
+          "Nước đun sôi để nguội hoặc nước lọc sạch đóng chai đảm bảo an toàn",
+          "Nước lã chưa đun sôi múc trực tiếp ở ao hồ"
+        ],
+        "k": "C",
+        "e": "Hơn 70% cơ thể người là nước; nước lọc sạch tinh khiết là nguồn sống tuyệt vời nhất không gì thay thế được.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Loại nước tốt nhất cho bé",
+        "fig": {
+          "w": 300,
+          "h": 180,
+          "items": [
+            {
+              "t": "circle",
+              "c": [
+                150,
+                88
+              ],
+              "r": 62,
+              "fill": "#f8fafc",
+              "stroke": "#1e293b",
+              "w": 2.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                174.5,
+                49.6
+              ],
+              "s": "1",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                192.4,
+                67.5
+              ],
+              "s": "2",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                199.0,
+                92.0
+              ],
+              "s": "3",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                192.4,
+                116.5
+              ],
+              "s": "4",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                174.5,
+                134.4
+              ],
+              "s": "5",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                150.0,
+                141.0
+              ],
+              "s": "6",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                125.5,
+                134.4
+              ],
+              "s": "7",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                107.6,
+                116.5
+              ],
+              "s": "8",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                101.0,
+                92.0
+              ],
+              "s": "9",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                107.6,
+                67.5
+              ],
+              "s": "10",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                125.5,
+                49.6
+              ],
+              "s": "11",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                150.0,
+                43.0
+              ],
+              "s": "12",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "line",
+              "a": [
+                150,
+                88
+              ],
+              "b": [
+                120.0,
+                88.0
+              ],
+              "arrow": true,
+              "color": "#1e293b",
+              "w": 3.5
+            },
+            {
+              "t": "line",
+              "a": [
+                150,
+                88
+              ],
+              "b": [
+                150.0,
+                42.0
+              ],
+              "arrow": true,
+              "color": "#dc2626",
+              "w": 2.2
+            },
+            {
+              "t": "pt",
+              "p": [
+                150,
+                88
+              ]
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                168
+              ],
+              "s": "21 giờ tối: Giờ đi ngủ ngoan của Bé Lớp 1",
+              "anchor": "middle",
+              "size": 12
+            }
+          ]
+        }
+      },
+      {
+        "c": "LS1-B06-002",
+        "d": "basic",
+        "p": "Mỗi học sinh tiểu học lớp 1 nặng khoảng 20–25 kg nên uống trung bình khoảng bao nhiêu cốc nước lọc mỗi ngày (bao gồm nước ở trường và ở nhà)?",
+        "o": [
+          "Không cần uống giọt nước nào",
+          "Khoảng 5 đến 6 cốc nước vừa (tương đương 1 đến 1,2 lít nước sạch chia đều cả ngày)",
+          "Chỉ uống nửa cốc nhỏ cả ngày",
+          "Uống một lúc 10 lít nước ngay trước khi ngủ"
+        ],
+        "k": "B",
+        "e": "Chia nhỏ uống đều 5–6 cốc nước lọc mỗi ngày giữ cho cổ họng luôn ẩm mượt và đầu óc tỉnh táo.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Lượng nước phù hợp lớp 1"
+      },
+      {
+        "c": "LS1-B06-003",
+        "d": "basic",
+        "p": "Ở trường học bán trú hoặc ở nhà vào buổi trưa, học sinh lớp 1 nên dành thời gian ngủ trưa khoảng bao lâu để buổi chiều học tập minh mẫn?",
+        "o": [
+          "Không cần ngủ trưa, chạy nắng giữa sân suốt trưa",
+          "Khoảng 30 đến 60 phút ngủ trưa yên tĩnh",
+          "Chơi game trên điện thoại suốt giờ trưa",
+          "Ngủ trưa kéo dài 4 tiếng tới 5 giờ chiều"
+        ],
+        "k": "B",
+        "e": "Giấc ngủ trưa ngắn 30–60 phút như \"liều pin sạc nhanh\" giúp não bộ ghi nhớ bài buổi chiều cực tốt.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Thời lượng ngủ trưa chuẩn"
+      },
+      {
+        "c": "LS1-B06-004",
+        "d": "basic",
+        "p": "Khi vừa chạy nhảy đá bóng mồ hôi ướt đẫm vào giờ ra chơi và thấy rất khát, em nên uống nước thế nào cho đúng cách?",
+        "o": [
+          "Vừa chạy vừa đổ nước ào vào mặt và miệng",
+          "Uống một chai nước ngọt có ga ướp đá",
+          "Ngồi nghỉ cho nhịp thở dịu lại một chút rồi uống từ từ từng ngụm nhỏ nước mát vừa phải",
+          "Tu ừng ực hết cả chai nước đá lạnh buốt ngay lập tức"
+        ],
+        "k": "C",
+        "e": "Uống từng ngụm nhỏ nước mát (tránh nước đá quá buốt) sau khi nghỉ vài phút giúp tránh viêm họng và sốc nhiệt.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Cách uống nước sau vận động"
+      },
+      {
+        "c": "LS1-B06-005",
+        "d": "basic",
+        "p": "Giờ đi ngủ buổi tối hợp lí nhất đối với học sinh lớp 1 để đảm bảo ngủ đủ 9–10 tiếng mỗi đêm là lúc nào?",
+        "o": [
+          "23 giờ 30 phút (11 rưỡi đêm)",
+          "1 giờ sáng hôm sau",
+          "Khoảng 21 giờ (9 giờ tối) hàng ngày",
+          "18 giờ chiều khi chưa ăn cơm tối"
+        ],
+        "k": "C",
+        "e": "Ngủ sâu từ 21 giờ tối giúp cơ thể sản sinh tối đa hóc-môn tăng trưởng chiều cao cho trẻ nhỏ.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Giờ đi ngủ tối chuẩn"
+      },
+      {
+        "c": "LS1-B06-006",
+        "d": "basic",
+        "p": "Để có giấc ngủ trưa và ngủ tối ngon giấc không giật mình, em cần giữ thói quen nào trước khi lên giường?",
+        "o": [
+          "Uống hết 2 cốc nước to ngay sát phút nhắm mắt",
+          "Mở nhạc nhảy hết cỡ sát đầu giường",
+          "Đi vệ sinh sạch sẽ, tắt bớt đèn sáng chói, giữ im lặng và không nô đùa hò hét trước giờ ngủ",
+          "Ăn thật nhiều kẹo sô-cô-la và xem phim kinh dị"
+        ],
+        "k": "C",
+        "e": "Không gian tối dịu, yên tĩnh và đi vệ sinh trước khi ngủ mang lại giấc ngủ sâu liền mạch suốt đêm.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Chuẩn bị giấc ngủ ngon"
+      },
+      {
+        "c": "LS1-B06-007",
+        "d": "application",
+        "p": "Bạn Bi có bình nước cá nhân mang đến lớp mỗi ngày nhưng sáng nào mang đi đầy bình, chiều về nhà bình nước vẫn còn nguyên vẹn vì Bi mải chơi quên uống. Thói quen nhịn uống nước này dẫn tới hậu quả gì?",
+        "o": [
+          "Môi khô nứt nẻ, mệt mỏi nhức đầu giảm tập trung học và dễ bị táo bón, nước tiểu sẫm màu",
+          "Giúp tiết kiệm được nhiều nước cho Trái Đất nên không cần uống",
+          "Giúp Bi chạy nhanh hơn trên sân trường",
+          "Giúp Bi khỏi cần đi vệ sinh nên rất tốt"
+        ],
+        "k": "A",
+        "e": "Đừng đợi đến lúc khát khô họng mới uống; hãy uống vài ngụm nhỏ mỗi giờ ra chơi!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Tác hại của việc nhịn uống nước"
+      },
+      {
+        "c": "LS1-B06-008",
+        "d": "application",
+        "p": "Bảng theo dõi thói quen uống nước và ngủ đúng giờ của lớp 1A ghi nhận các bạn thực hiện tốt. Nhìn bảng dưới, điều gì là NGUYÊN TẮC CẦN TRÁNH trong sinh hoạt hàng ngày?",
+        "o": [
+          "Ngủ trưa 45 phút ở lớp bán trú",
+          "Uống từng ngụm nước lọc giữa các tiết học",
+          "Uống nước ngọt có ga trước khi ngủ và thức khuya sau 22 giờ",
+          "Uống một cốc nước ấm buổi sáng sau khi dậy"
+        ],
+        "k": "C",
+        "e": "Nước ngọt có ga vừa chứa đường gây sâu răng vừa có chất kích thích làm bé khó chìm vào giấc ngủ tối.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Phân biệt thói quen nên và tránh",
+        "fig": {
+          "type": "table",
+          "title": "Thói quen Nước & Giấc ngủ",
+          "head": [
+            "Thời điểm",
+            "Lựa chọn chuẩn"
+          ],
+          "rows": [
+            [
+              "Sáng ngủ dậy",
+              "Uống 1 ly nước ấm"
+            ],
+            [
+              "Giờ ra chơi",
+              "Uống từng ngụm nhỏ"
+            ],
+            [
+              "Buổi trưa",
+              "Ngủ yên 30-60 phút"
+            ],
+            [
+              "Buổi tối",
+              "Ngủ lúc 21 giờ tối"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS1-B06-009",
+        "d": "application",
+        "p": "Trong giờ ngủ trưa bán trú ở lớp, bạn Tôm chưa buồn ngủ ngay nên cứ quay sang nói chuyện rì rầm và cù chân chọc bạn nằm cạnh cười khúc khích. Em nhắc Tôm thế nào?",
+        "o": [
+          "Đạp chân trả đũa vào người Tôm",
+          "Quát thật to lên mắng Tôm giữa phòng ngủ",
+          "Ngồi bật dậy nói chuyện thi xem ai nói to hơn",
+          "Nói thì thầm thật nhỏ hoặc ra hiệu bằng ngón tay đặt lên môi để Tôm nằm yên nhắm mắt thư giãn, tôn trọng giấc ngủ của cả lớp"
+        ],
+        "k": "D",
+        "e": "Giữ trật tự chung giúp tất cả các bạn và chính bản thân em dễ dàng chìm vào giấc ngủ trưa êm ái.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Giữ trật tự giờ ngủ trưa"
+      },
+      {
+        "c": "LS1-B06-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ tổng số cốc nước lọc uống được trong ngày của 4 bạn nhỏ. Nếu tiêu chuẩn tốt cho bé lớp 1 là tối thiểu 5 cốc mỗi ngày, những bạn nào đã uống ĐẠT chuẩn?",
+        "o": [
+          "Cả 4 bạn đều chưa đạt chuẩn",
+          "Bạn An (6 cốc) và bạn Chi (5 cốc)",
+          "Bạn Bình và bạn Dũng (3 và 2 cốc)",
+          "Chỉ mỗi bạn Bình (3 cốc)"
+        ],
+        "k": "B",
+        "e": "An uống 6 cốc và Chi uống 5 cốc đều đạt mức khuyến nghị 5–6 cốc nước sạch mỗi ngày!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Đọc biểu đồ lượng nước uống",
+        "fig": {
+          "type": "bars",
+          "title": "Số cốc nước lọc uống trong ngày (cốc)",
+          "labels": [
+            "An",
+            "Bình",
+            "Chi",
+            "Dũng"
+          ],
+          "series": [
+            {
+              "values": [
+                6,
+                3,
+                5,
+                2
+              ]
+            }
+          ],
+          "unit": "cốc"
+        }
+      },
+      {
+        "c": "LS1-B06-011",
+        "d": "application",
+        "p": "Chai nước lọc của Lan để quên trên bàn học dưới ánh nắng mặt trời suốt 2 ngày cuối tuần, bên trong chai nhựa nóng ấm và có mùi nhựa hơi lạ. Sáng thứ Hai Lan có nên uống chai nước đó không?",
+        "o": [
+          "Lắc đều chai lên là nước hết mùi lạ",
+          "Bỏ vào tủ lạnh cho mát rồi uống bình thường",
+          "Không nên uống; đổ bỏ nước cũ đi tưới cây, rửa sạch chai bằng nước rửa bình rồi rót nước lọc mới sạch vào uống",
+          "Cứ uống hết cho đỡ phí nước"
+        ],
+        "k": "C",
+        "e": "Nước đóng chai để nắng lâu có thể nhiễm vi nhựa và phát sinh vi khuẩn; luôn dùng nước mới sạch mỗi ngày.",
+        "s": "Giáo dục lối sống 1",
+        "h": "An toàn bình nước cá nhân"
+      },
+      {
+        "c": "LS1-B06-012",
+        "d": "application",
+        "p": "Ở nhà vào buổi tối, khi mẹ báo hiệu \"Đã 20 giờ 45 rồi, chuẩn bị đi đánh răng và lên giường ngủ thôi con!\", hành động ngoan ngoãn của em là gì?",
+        "o": [
+          "Vui vẻ thu dọn nốt đồ chơi, tắt ti-vi đúng hẹn, đi vệ sinh, đánh răng sạch sẽ và lên giường ngủ lúc 21 giờ",
+          "Lén giấu điện thoại dưới gối để chơi trộm trong chăn",
+          "Khóc ăn vạ đòi xem thêm 3 tập hoạt hình nữa",
+          "Vặn ngược kim đồng hồ về số 7 để lừa mẹ"
+        ],
+        "k": "A",
+        "e": "Tuân thủ giờ đi ngủ đều đặn giúp đồng hồ sinh học của cơ thể hoạt động chính xác tuyệt vời.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Tuân thủ giờ ngủ cùng mẹ"
+      },
+      {
+        "c": "LS1-B06-013",
+        "d": "advanced",
+        "p": "Nhiều bạn nhỏ lầm tưởng: \"Em uống 3 lon nước ngọt có ga và trà sữa một ngày thay cho nước lọc cũng là uống đủ nước rồi mà!\". Giải thích nào sau đây chỉ rõ sai lầm đó?",
+        "o": [
+          "Đúng hoàn toàn, uống trà sữa còn khỏe hơn nước lọc",
+          "Sai vì nước ngọt màu đen nên làm đổi màu da",
+          "Sai vì trà sữa không phải là chất lỏng",
+          "Nước ngọt và trà sữa chứa nhiều đường, phẩm màu làm càng khát hơn, dễ sâu răng và béo phì; chỉ nước lọc mới tốt cho cơ thể"
+        ],
+        "k": "D",
+        "e": "Không loại nước ngọt công nghiệp nào thay thế được vai trò thanh khiết của nước lọc tự nhiên.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Phân biệt nước lọc và nước ngọt"
+      },
+      {
+        "c": "LS1-B06-014",
+        "d": "advanced",
+        "p": "Vì sao khi thức dậy vào buổi sáng, uống ngay một ly nhỏ nước ấm khoảng 100–150 ml trước bữa sáng lại cực kì có lợi cho bé lớp 1?",
+        "o": [
+          "Giúp bù lượng nước thất thoát qua hơi thở suốt đêm, đánh thức dạ dày nhẹ nhàng và hỗ trợ đi vệ sinh đều đặn mỗi sáng",
+          "Vì nước ấm giúp tẩy trắng đồng phục học sinh",
+          "Vì nước ấm làm răng rụng nhanh hơn",
+          "Vì uống nước ấm vào buổi sáng giúp không cần ăn cơm cả ngày"
+        ],
+        "k": "A",
+        "e": "Một ly nước ấm buổi sáng là thói quen vàng của sức khỏe và tuổi thọ!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Bí quyết ly nước ấm buổi sáng"
+      },
+      {
+        "c": "LS1-B06-015",
+        "d": "advanced",
+        "p": "Cơ thể trẻ em lớn lên chiều cao mạnh nhất vào thời điểm nào trong ngày nếu trẻ có nếp sinh hoạt khoa học?",
+        "o": [
+          "Chỉ khi trẻ ăn kẹo ngọt lúc nửa đêm",
+          "Khi trẻ thức khuya chơi điện tử tới 1 giờ sáng",
+          "Khi trẻ chìm vào giấc ngủ sâu ban đêm từ khoảng 22 giờ đến 2 giờ sáng (vì thế phải đi ngủ sớm từ 21 giờ để kịp vào giấc ngủ sâu)",
+          "Chỉ khi trẻ đứng dưới trời nắng gắt buổi trưa"
+        ],
+        "k": "C",
+        "e": "Ngủ sớm lúc 21 giờ giúp em bước vào giấc ngủ sâu đúng giờ vàng tăng trưởng chiều cao!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Giờ vàng tăng trưởng chiều cao"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong1-c3",
+    "lesson": {
+      "code": "lssong1-b07",
+      "title": "Bài 7. Nói lời Dạ, Thưa, Cảm ơn và Xin lỗi",
+      "seq": 7,
+      "subtitle": "Thực hành giao tiếp lễ phép với người lớn bằng lời Dạ, Thưa và sử dụng chân thành lời Cảm ơn, Xin lỗi đúng lúc",
+      "concepts": [
+        "Lễ phép Dạ Thưa",
+        "Lời nói Cảm ơn",
+        "Dũng cảm Xin lỗi"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS1-B07-001",
+        "d": "basic",
+        "p": "Khi ông bà, bố mẹ hoặc thầy cô giáo gọi tên em hay hỏi chuyện em, bạn nhỏ lớp 1 lễ phép sẽ mở đầu câu trả lời bằng từ gì?",
+        "o": [
+          "Hét to: \"Kêu gì mà kêu hoài vậy!\"",
+          "Nói \"Dạ, thưa ông bà (hoặc bố mẹ, thầy cô)...\" bằng giọng rõ ràng và ánh mắt nhìn lễ phép",
+          "Im lặng quay lưng bỏ chạy đi chỗ khác",
+          "Nói trống không: \"Gì?\", \"Biết rồi!\""
+        ],
+        "k": "B",
+        "e": "Tiếng \"Dạ, thưa...\" nhẹ nhàng là bông hoa lễ phép đầu tiên khiến mọi người lớn đều mến yêu em.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Phép lễ Dạ Thưa với người lớn",
+        "fig": {
+          "type": "table",
+          "title": "4 Câu nói Phép màu",
+          "head": [
+            "Hoàn cảnh",
+            "Lời nói văn minh"
+          ],
+          "rows": [
+            [
+              "Người lớn hỏi",
+              "Dạ, thưa... ạ!"
+            ],
+            [
+              "Được giúp, tặng quà",
+              "Cháu cảm ơn ạ!"
+            ],
+            [
+              "Lỡ làm sai, va bạn",
+              "Tớ xin lỗi cậu nhé!"
+            ],
+            [
+              "Nhờ bạn việc nhỏ",
+              "Làm ơn giúp tớ nhé!"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS1-B07-002",
+        "d": "basic",
+        "p": "Khi được bà tặng cho chiếc bánh ngon hoặc được bạn cho mượn cục tẩy lúc mình quên mang, em cần nói lời gì ngay lúc đó?",
+        "o": [
+          "Cầm giật lấy bỏ chạy không nói tiếng nào",
+          "Nói lời \"Cháu cảm ơn bà ạ!\" hoặc \"Tớ cảm ơn cậu nhiều lắm!\" kèm nụ cười thân thiện",
+          "Chê món bánh nhỏ quá không thèm cầm",
+          "Nói \"Chuyện nhỏ, cần gì nói\""
+        ],
+        "k": "B",
+        "e": "Lời cảm ơn chân thành làm người trao tặng thấy niềm vui nhân đôi và tình cảm thêm gắn bó.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Nói lời Cảm ơn kịp thời"
+      },
+      {
+        "c": "LS1-B07-003",
+        "d": "basic",
+        "p": "Nếu em lỡ chạy hơi nhanh vô tình va phải vai làm rơi tập vở của một bạn học sinh khác ở hành lang, hành động đẹp nhất của em là gì?",
+        "o": [
+          "Cười phá lên rồi đá quyển vở của bạn",
+          "Đổ lỗi tại bạn đứng chắn đường mình",
+          "Cắm đầu chạy biến thật nhanh coi như không thấy gì",
+          "Dừng lại ngay, cúi xuống nhặt hộ sách vở lên đưa bạn bằng hai tay và chân thành nói: \"Tớ xin lỗi cậu, cậu có đau không?\""
+        ],
+        "k": "D",
+        "e": "Dũng cảm dừng lại nhặt đồ và nói lời xin lỗi là hành động của người bạn tử tế có trách nhiệm.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Xin lỗi và khắc phục ngay"
+      },
+      {
+        "c": "LS1-B07-004",
+        "d": "basic",
+        "p": "Thế nào là cách nói lời \"Xin lỗi\" THẬT LÒNG chứ không phải nói cho qua chuyện?",
+        "o": [
+          "Nói lí nhí trong cổ họng rồi quay đi cười cợt",
+          "Ánh mắt chân thành nhìn người đối diện, giọng nói nhẹ nhàng nhận rõ lỗi sai của mình và cố gắng sửa sai, không tái phạm",
+          "Vừa nói xin lỗi vừa tiếp tục giẫm lên chân bạn",
+          "Miệng nói xin lỗi nhưng mắt vẫn lườm nguýt bĩu môi"
+        ],
+        "k": "B",
+        "e": "Lời xin lỗi chân thành luôn đi kèm với thái độ tôn trọng và hành động sửa sai rõ ràng.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Thái độ khi xin lỗi"
+      },
+      {
+        "c": "LS1-B07-005",
+        "d": "basic",
+        "p": "Ngoài \"Dạ, thưa\" với người lớn tuổi hơn, khi muốn nhờ cô lao công hoặc bác bảo vệ mở giúp cánh cửa cổng, em nên nói câu nào?",
+        "o": [
+          "Đá vào cửa cổng cho bác chú ý",
+          "Đập cửa rầm rầm ra lệnh",
+          "Nói lễ phép bằng hai tay hoặc đứng ngay ngắn: \"Cháu thưa bác, bác mở giúp cháu cổng trường với ạ! Cháu cảm ơn bác ạ!\"",
+          "Hét to: \"Này bác kia mở cửa mau lên!\""
+        ],
+        "k": "C",
+        "e": "Tôn trọng và nói lời lễ phép với mọi người lao động quanh ta là biểu hiện của đứa trẻ có giáo dục tốt.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Lễ phép với bác bảo vệ, cô lao công"
+      },
+      {
+        "c": "LS1-B07-006",
+        "d": "basic",
+        "p": "Vì sao ông cha ta có câu ca dao: \"Lời nói chẳng mất tiền mua – Lựa lời mà nói cho vừa lòng nhau\"?",
+        "o": [
+          "Vì lời nói lịch sự, dịu dàng không tốn tiền bạc nhưng mang lại niềm vui, sự hòa thuận và tình yêu thương cho tất cả mọi người",
+          "Vì nói thật to thì mọi người mới thích nghe",
+          "Vì đi mua lời nói ở cửa hàng rất đắt tiền",
+          "Vì không cần nói chuyện với ai là tốt nhất"
+        ],
+        "k": "A",
+        "e": "Lời nói tử tế là món quà miễn phí nhưng vô cùng quý giá trong giao tiếp hằng ngày.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Ý nghĩa câu ca dao giao tiếp"
+      },
+      {
+        "c": "LS1-B07-007",
+        "d": "application",
+        "p": "Buổi chiều bố đi làm về mệt mang cho Na một hộp bút màu mới. Đúng lúc Na đang mải xem ti-vi, bố đưa hộp bút và hỏi: \"Con gái có thích màu này không?\". Na nên phản ứng ra sao?",
+        "o": [
+          "Tạm dừng mắt khỏi ti-vi, quay hẳn người đứng dậy nhận hộp bút bằng hai tay và tươi cười nói: \"Dạ, con thích lắm, con cảm ơn bố ạ!\"",
+          "Mắt vẫn dán chặt vào màn hình ti-vi nói trống không: \"Để đấy!\"",
+          "Cầm hộp bút liếc qua rồi không nói câu nào",
+          "Chê: \"Sao bố mua hộp ít màu thế?\""
+        ],
+        "k": "A",
+        "e": "Quay người nhìn thẳng người tặng và nhận bằng hai tay thể hiện lòng biết ơn sâu sắc với bố mẹ.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Nhận quà từ bố mẹ"
+      },
+      {
+        "c": "LS1-B07-008",
+        "d": "application",
+        "p": "Cô giáo khảo sát trong tuần lễ \"Lời nói Hoa hồng\" tại lớp 1D số lượt các bạn chủ động nói lời \"Cảm ơn – Xin lỗi – Dạ thưa\" đẹp. Theo biểu đồ, tổ nào đạt nhiều hoa hồng lời đẹp nhất và tổng số lượt của cả 4 tổ là bao nhiêu?",
+        "o": [
+          "Tổ 1 nhiều nhất; tổng là 40 lượt",
+          "Tổ 4 nhiều nhất (14 lượt); tổng cả 4 tổ là 44 lượt",
+          "Tổ 3 nhiều nhất; tổng là 38 lượt",
+          "Tổ 2 nhiều nhất; tổng là 42 lượt"
+        ],
+        "k": "B",
+        "e": "Tổ 1 (10) + Tổ 2 (12) + Tổ 3 (8) + Tổ 4 (14) = 44 lượt lời đẹp; Tổ 4 dẫn đầu với 14 lượt!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Đọc biểu đồ Lời nói Hoa hồng",
+        "fig": {
+          "type": "bars",
+          "title": "Lượt nói lời đẹp trong tuần (lượt)",
+          "labels": [
+            "Tổ 1",
+            "Tổ 2",
+            "Tổ 3",
+            "Tổ 4"
+          ],
+          "series": [
+            {
+              "values": [
+                10,
+                12,
+                8,
+                14
+              ]
+            }
+          ],
+          "unit": "lượt"
+        }
+      },
+      {
+        "c": "LS1-B07-009",
+        "d": "application",
+        "p": "Trong giờ Mĩ thuật, bạn Tí lỡ quẹt mạnh bút lông làm dính một vệt màu xanh lên chiếc áo trắng của bạn Mèo ngồi bên cạnh. Tí rất bối rối và sợ bị cô mắng. Tí nên làm gì?",
+        "o": [
+          "Chối bay chối biến: \"Áo cậu bẩn sẵn từ ở nhà rồi!\"",
+          "Nhanh chóng lấy khăn ướt chấm nhẹ giúp bạn, thành thật nói: \"Tớ xin lỗi Mèo nhiều lắm, tớ lỡ tay mất rồi!\" và báo cô hỗ trợ giặt sạch vết màu",
+          "Đổ thừa tại cái bàn rung",
+          "Quẹt thêm màu lên tay Mèo cho huề"
+        ],
+        "k": "B",
+        "e": "Nhận lỗi trung thực ngay lập tức giúp cứu được vết mực kịp thời và được bạn dễ dàng tha thứ!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Trung thực xin lỗi khi lỡ tay"
+      },
+      {
+        "c": "LS1-B07-010",
+        "d": "application",
+        "p": "Một bạn học sinh lớp 1 nói với mẹ: \"Hàng ngày mẹ nấu cơm, giặt áo cho con là nhiệm vụ của mẹ rồi nên con đâu cần nói cảm ơn mẹ làm gì!\". Em có đồng ý với suy nghĩ đó không?",
+        "o": [
+          "Đồng ý hoàn toàn vì người nhà không cần lịch sự với nhau",
+          "Chỉ cảm ơn người lạ ngoài đường thôi",
+          "Mỗi năm chỉ cần cảm ơn mẹ đúng 1 lần",
+          "Không đồng ý! Dù là người thân yêu nhất trong nhà, lời \"Con cảm ơn mẹ\" vẫn khiến mẹ vô cùng hạnh phúc và đỡ vất vả hơn rất nhiều"
+        ],
+        "k": "D",
+        "e": "Sự lễ phép và lòng biết ơn với chính cha mẹ ông bà trong gia đình là gốc rễ của mọi đạo đức.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Cảm ơn chính người thân trong nhà"
+      },
+      {
+        "c": "LS1-B07-011",
+        "d": "application",
+        "p": "Em muốn hỏi cô giáo giảng lại một chữ cái em viết chưa đẹp khi cô đang trao đổi nhỏ với bạn khác. Cách nói và hành động nào thể hiện sự lễ phép?",
+        "o": [
+          "Kéo giật tay áo cô đòi hỏi chen ngang ngay lập tức",
+          "Đập thước lên bàn cho cô quay lại nhìn",
+          "Đứng chờ cô trao đổi xong với bạn, giơ tay nhẹ rồi thưa: \"Thưa cô, cô hướng dẫn giúp em chữ này với ạ!\"",
+          "Hét to át tiếng cô và bạn đang nói"
+        ],
+        "k": "C",
+        "e": "Chờ người khác nói xong rồi mới xin phép thưa gửi là phép lịch sự tối thiểu vô cùng tinh tế.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Biết chờ lượt khi thưa cô"
+      },
+      {
+        "c": "LS1-B07-012",
+        "d": "application",
+        "p": "Khi một người bạn nhỏ lớp dưới lỡ dẫm nhẹ vào mũi giày của em và bạn ấy đã líu ríu cúi đầu nói: \"Em xin lỗi anh/chị ạ!\". Em đáp lại thế nào cho thật bao dung?",
+        "o": [
+          "Mỉm cười vỗ nhẹ vai bạn bảo: \"Không sao đâu em, lần sau em đi chậm cẩn thận nhé!\" rồi phủi nhẹ giày đi tiếp",
+          "Im lặng lườm em ấy phát khóc",
+          "Đạp lại vào chân em nhỏ một cái cho cân bằng",
+          "Trừng mắt quát: \"Xin lỗi mà xong à? Đứng đấy!\""
+        ],
+        "k": "A",
+        "e": "Biết bao dung mỉm cười đáp lại lời xin lỗi chân thành tạo nên môi trường trường học thân thiện ấm áp.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Đáp lại lời xin lỗi bao dung"
+      },
+      {
+        "c": "LS1-B07-013",
+        "d": "advanced",
+        "p": "Có bạn thắc mắc: \"Giữa bạn bè cùng tuổi lớp 1 với nhau có cần nói lời Cảm ơn và Xin lỗi không, hay chỉ nói với người lớn thôi?\". Câu trả lời chuẩn xác nhất là gì?",
+        "o": [
+          "Chỉ nói khi cô giáo đứng nhìn",
+          "Không cần, bạn bè thân thiết thì thích giật đồ nhau cũng được",
+          "Chỉ nói với bạn lớp trưởng thôi",
+          "Rất cần nói với cả bạn bè cùng tuổi và em nhỏ, vì mọi người đều xứng đáng được tôn trọng như nhau"
+        ],
+        "k": "D",
+        "e": "Tôn trọng bạn ngang hàng và tôn trọng cả em nhỏ hơn mình là thước đo nhân cách văn minh.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Lịch sự với cả bạn ngang tuổi"
+      },
+      {
+        "c": "LS1-B07-014",
+        "d": "advanced",
+        "p": "Vì sao khi nói lời \"Dạ, thưa\" hay \"Cháu cảm ơn\" với ông bà, ta thường kết hợp khoanh hai tay nhẹ trước ngực hoặc cúi đầu khẽ một chút?",
+        "o": [
+          "Vì làm vậy để che chữ trên áo",
+          "Vì ngôn ngữ cơ thể lễ phép đi kèm lời nói ấm áp giúp truyền tải trọn vẹn sự kính trọng chân thành của con cháu",
+          "Vì nếu không khoanh tay thì không phát âm được",
+          "Vì sợ bị lạnh tay nên phải khoanh lại"
+        ],
+        "k": "B",
+        "e": "Cử chỉ đi kèm lời nói tạo nên nét đẹp truyền thống \"Tiên học lễ\" vô cùng đáng quý của người Việt.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Cử chỉ lễ phép đi kèm lời nói"
+      },
+      {
+        "c": "LS1-B07-015",
+        "d": "advanced",
+        "p": "Trong 4 câu nói sau khi xin mượn cây thước kẻ của bạn ngồi cùng bàn, câu nói nào thể hiện giao tiếp văn minh chuẩn mực nhất?",
+        "o": [
+          "Không nói gì, thò tay giật luôn thước từ bàn bạn",
+          "\"Cậu không cho mượn là tớ mách cô đấy!\"",
+          "\"Đưa cái thước đây mượn tí coi!\"",
+          "\"Tí ơi, cho tớ mượn thước kẻ một chút được không? Tớ cảm ơn cậu nhé!\""
+        ],
+        "k": "D",
+        "e": "Luôn hỏi mượn lịch sự, chờ bạn đồng ý và cảm ơn sau khi mượn giữ gìn tình bạn lâu bền.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Hỏi mượn lịch sự với bạn"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong1-c3",
+    "lesson": {
+      "code": "lssong1-b08",
+      "title": "Bài 8. Xếp hàng trật tự và Giữ yên lặng nơi công cộng",
+      "seq": 8,
+      "subtitle": "Rèn văn hóa xếp hàng chờ đến lượt và giữ giọng nói vừa đủ, không chạy nhảy ồn ào ở bệnh viện, thư viện, rạp chiếu phim",
+      "concepts": [
+        "Văn hóa xếp hàng",
+        "Giữ trật tự công cộng",
+        "Tôn trọng không gian chung"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS1-B08-001",
+        "d": "basic",
+        "p": "Khi đến mua vé xem phim, lấy đồ ăn hay xếp hàng vào lớp và lên xe buýt trường, nguyên tắc văn minh đầu tiên em phải tuân thủ là gì?",
+        "o": [
+          "Đứng nối đuôi vào cuối hàng theo đúng thứ tự người đến trước đứng trước, người đến sau đứng sau, không chen lấn xô đẩy",
+          "Chạy thẳng lên đứng chen ngang vào đầu hàng",
+          "Nhờ bạn đứng đầu giữ hộ chỗ cho cả nhóm 5 người chen vào",
+          "Xô bạn phía trước ngã ra để chiếm chỗ"
+        ],
+        "k": "A",
+        "e": "Xếp hàng theo thứ tự là phép lịch sự văn minh giúp mọi người đều được phục vụ nhanh và an toàn.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Nguyên tắc văn hóa xếp hàng",
+        "fig": {
+          "type": "table",
+          "title": "Ứng xử Nơi Công cộng",
+          "head": [
+            "Địa điểm",
+            "Hành vi đúng chuẩn"
+          ],
+          "rows": [
+            [
+              "Thư viện, lớp học",
+              "Nói khẽ, bước nhẹ"
+            ],
+            [
+              "Bệnh viện khám bệnh",
+              "Trật tự, đi thật khẽ"
+            ],
+            [
+              "Siêu thị, quầy vé",
+              "Xếp hàng đúng lượt"
+            ],
+            [
+              "Rạp phim, bảo tàng",
+              "Ngồi yên, giữ sạch"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS1-B08-002",
+        "d": "basic",
+        "p": "Trong thư viện trường học hoặc nhà sách yên tĩnh, em và các bạn cần giữ trật tự bằng cách nào?",
+        "o": [
+          "Đi nhẹ chân, nói thì thầm nhỏ đủ nghe khi thật sự cần thiết và đặt lại sách ngay ngắn lên kệ sau khi đọc",
+          "Vứt sách nằm la liệt dưới nền nhà",
+          "Đọc toáng thành tiếng ầm ĩ cho cả thư viện nghe",
+          "Rủ bạn chơi trốn tìm chạy rầm rầm giữa các giá sách"
+        ],
+        "k": "A",
+        "e": "Không gian yên tĩnh của thư viện giúp mọi người tập trung đọc sách và giữ gìn những trang sách quý.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Nếp sống trong thư viện"
+      },
+      {
+        "c": "LS1-B08-003",
+        "d": "basic",
+        "p": "Khi đi thăm người ốm hoặc đi khám sức khỏe cùng bố mẹ tại bệnh viện, em cần đặc biệt chú ý điều gì?",
+        "o": [
+          "Đẩy xe lăn trong hành lang chạy đua chơi",
+          "Giữ yên lặng tuyệt đối không la hét khóc lóc hay chạy nhảy trên hành lang, giữ vệ sinh để người bệnh được nghỉ ngơi hồi phục",
+          "Nghịch bấm chuông gọi y tá liên tục",
+          "Cười đùa gào thét vang cả khu phòng bệnh"
+        ],
+        "k": "B",
+        "e": "Bệnh nhân rất cần sự yên tĩnh để nghỉ ngơi và hồi phục sức khỏe; im lặng ở bệnh viện là hành động nhân ái.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Giữ trật tự ở bệnh viện"
+      },
+      {
+        "c": "LS1-B08-004",
+        "d": "basic",
+        "p": "Trong rạp chiếu phim thiếu nhi hoặc rạp hát múa rối, hành động nào của em làm phiền những khán giả ngồi xung quanh?",
+        "o": [
+          "Ngồi yên đúng số ghế của mình chăm chú xem",
+          "Đạp chân vào lưng ghế hàng trước, nói chuyện to, giơ đồ chơi che màn hình hoặc bật sáng điện thoại giữa rạp tối",
+          "Cười vui tự nhiên vừa phải khi có cảnh hài hước",
+          "Bỏ vỏ bỏng ngô vào túi rác khi ra về"
+        ],
+        "k": "B",
+        "e": "Không đạp ghế hàng trước và không nói to giúp cả rạp thưởng thức trọn vẹn buổi biểu diễn.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Văn minh khi xem phim, kịch"
+      },
+      {
+        "c": "LS1-B08-005",
+        "d": "basic",
+        "p": "Vì sao khi vào thang máy khu chung cư hay trung tâm thương mại, ta nên đứng nép gọn chờ người bên trong bước ra hết rồi mới bước vào?",
+        "o": [
+          "Để đóng sập cửa thang máy lại không cho ai ra",
+          "Để xem bên trong có ai quen không rồi mới đi",
+          "Để bấm loạn hết các nút tầng trước",
+          "Để tránh tắc nghẽn va chạm ngay cửa thang máy, nhường lối thoát thông thoáng an toàn cho cả hai chiều"
+        ],
+        "k": "D",
+        "e": "\"Ra trước, vào sau\" là quy tắc giao thông thông minh ở cửa thang máy, xe buýt và cửa lớp học!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Quy tắc ra trước vào sau"
+      },
+      {
+        "c": "LS1-B08-006",
+        "d": "basic",
+        "p": "Trên xe buýt công cộng hoặc trên tàu điện, em nên nói chuyện và ngồi thế nào để lịch sự?",
+        "o": [
+          "Bật loa điện thoại thật to cho cả xe cùng nghe",
+          "Chân gác cả giày bẩn lên ghế ngồi bên cạnh",
+          "Ngồi ngay ngắn trên ghế, thắt dây hoặc bám chắc tay vịn, nói chuyện vừa đủ nghe và sẵn sàng nhường ghế cho cụ già, phụ nữ mang thai",
+          "Chạy dọc lối đi khi xe đang lăn bánh"
+        ],
+        "k": "C",
+        "e": "Nhường ghế cho người yếu thế và không bật loa ngoài trên xe buýt là nét đẹp văn minh đô thị.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Văn minh trên phương tiện chung"
+      },
+      {
+        "c": "LS1-B08-007",
+        "d": "application",
+        "p": "Sân trường giờ ra chơi đang có 1 hàng dài 8 bạn xếp hàng ngay ngắn trước vòi nước lọc sạch. Bạn Hùng chạy tới vì quá khát nên định chen thẳng vào đứng ngay trước mặt bạn thứ 2. Nếu là bạn đang đứng xếp hàng, em nhắc Hùng thế nào?",
+        "o": [
+          "Đẩy Hùng ngã lăn ra sân trường rồi cười",
+          "Cả hàng giải tán xô đẩy nhau tranh vòi nước",
+          "Mặc kệ Hùng chen ngang vì mình đứng đằng sau không liên quan",
+          "Nhẹ nhàng chỉ tay về phía cuối hàng nói vui vẻ: \"Hùng ơi bạn xếp xuống cuối hàng nhé, hàng đi nhanh lắm tới lượt ngay thôi!\""
+        ],
+        "k": "D",
+        "e": "Nhắc bạn nhẹ nhàng giữ trật tự hàng lối bảo vệ công bằng cho tất cả các bạn xếp phía sau.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Xử lí khi có bạn chen hàng"
+      },
+      {
+        "c": "LS1-B08-008",
+        "d": "application",
+        "p": "Em đang xếp hàng ngay ngắn chờ tới lượt thanh toán ở hiệu sách thì thấy một cụ già chống gậy đứng phía sau có vẻ hơi mỏi chân. Em làm gì để thể hiện sự kính trọng người cao tuổi?",
+        "o": [
+          "Cười chỉ trỏ cụ đi chậm",
+          "Lễ phép bước lùi nhẹ mời cụ: \"Cháu mời ông/bà lên đứng trước chỗ của cháu ạ!\"",
+          "Cố đứng chắn thật chặt không cho cụ nhìn thấy quầy",
+          "Bảo cụ tự đứng chờ đến lượt giống trẻ con"
+        ],
+        "k": "B",
+        "e": "Nhường hàng cho người già, người khuyết tật và phụ nữ mang thai là ngoại lệ đẹp nhất của văn hóa xếp hàng!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Nhường lượt cho người cao tuổi"
+      },
+      {
+        "c": "LS1-B08-009",
+        "d": "application",
+        "p": "Trong một bảo tàng trưng bày nhiều hiện vật lịch sử và tranh quý có biển nhắc \"Không chạm tay vào hiện vật\". Khi thấy một bạn nhỏ định thò tay sờ vào chiếc bình gốm cổ, em nhắc bạn ra sao?",
+        "o": [
+          "Cầm chiếc bình lên chụp ảnh cùng bạn",
+          "Chỉ cho bạn thấy biển báo nhắc nhở và nói nhỏ: \"Mình đứng ngắm bằng mắt thôi bạn nhé, chạm tay dễ làm hỏng đồ cổ quý đấy!\"",
+          "Ủng hộ bạn sờ thử xem bình gốm có vỡ không",
+          "Hét ầm lên gọi bảo vệ bắt bạn lại"
+        ],
+        "k": "B",
+        "e": "Bảo vệ hiện vật trong bảo tàng giúp giữ nguyên vẹn giá trị lịch sử cho hàng triệu khách tham quan sau.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Ứng xử trong bảo tàng"
+      },
+      {
+        "c": "LS1-B08-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ kết quả tuần thi đua \"Lớp 1 Văn minh xếp hàng\" (số buổi cả lớp xếp hàng thẳng đẹp không chen lấn khi ra về ở 4 lớp). Lớp nào xếp hàng đẹp suốt cả 5 ngày trong tuần?",
+        "o": [
+          "Lớp 1D (4 ngày)",
+          "Lớp 1A (4 ngày)",
+          "Lớp 1C (3 ngày)",
+          "Lớp 1B (đủ 5 ngày)"
+        ],
+        "k": "D",
+        "e": "Lớp 1B đạt trọn vẹn 5/5 ngày trong tuần – một thói quen tuyệt vời cần nhân rộng toàn khối!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Đọc biểu đồ thi đua xếp hàng",
+        "fig": {
+          "type": "bars",
+          "title": "Số ngày xếp hàng chuẩn trong tuần (ngày)",
+          "labels": [
+            "1A",
+            "1B",
+            "1C",
+            "1D"
+          ],
+          "series": [
+            {
+              "values": [
+                4,
+                5,
+                3,
+                4
+              ]
+            }
+          ],
+          "unit": "ngày"
+        }
+      },
+      {
+        "c": "LS1-B08-011",
+        "d": "application",
+        "p": "Khi mẹ đang nói chuyện điện thoại bàn công việc quan trọng ở nơi công cộng, bé Tí muốn hỏi mẹ mua kẹo. Bé Tí làm thế nào để không bất lịch sự?",
+        "o": [
+          "Giật lấy điện thoại tắt máy của mẹ đi",
+          "Nằm ăn vạ lăn ra sàn siêu thị",
+          "Kéo giật váy mẹ và la hét toáng lên vào loa điện thoại",
+          "Đứng yên tĩnh chờ mẹ kết thúc cuộc điện thoại rồi mới nhẹ nhàng thưa hỏi mẹ"
+        ],
+        "k": "D",
+        "e": "Kiên nhẫn đợi người lớn kết thúc cuộc gọi là một biểu hiện cực kì chín chắn của bạn nhỏ ngoan.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Không cắt ngang cuộc điện thoại"
+      },
+      {
+        "c": "LS1-B08-012",
+        "d": "application",
+        "p": "Đang đi dạo trong công viên xanh sạch, em ăn xong một que kem và không thấy thùng rác ngay cạnh chỗ đứng. Em xử lí chiếc que gỗ và vỏ giấy bọc kem thế nào?",
+        "o": [
+          "Ném ngay xuống bãi cỏ công viên cho khuất mắt",
+          "Nhét vỏ kem vào kẽ ghế đá công viên",
+          "Vứt xuống hồ cá công viên",
+          "Cầm tạm vỏ kem (hoặc gói vào tờ khăn giấy sạch cất vào túi nhỏ) mang đi bộ tới chiếc thùng rác gần nhất để bỏ đúng nơi quy định"
+        ],
+        "k": "D",
+        "e": "\"Giữ rác trên tay tới khi gặp thùng rác\" là thói quen đơn giản làm nên phố phường xanh sạch đẹp!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Xử lí rác nơi công cộng"
+      },
+      {
+        "c": "LS1-B08-013",
+        "d": "advanced",
+        "p": "Giả sử có 2 cửa hàng bán bánh giống hệt nhau: Cửa hàng A mọi người chen lấn xô đẩy loạn xạ tranh nhau mua; Cửa hàng B ai cũng đứng xếp một hàng thẳng tắp lần lượt mua. Theo em cửa hàng nào phục vụ xong cho khách nhanh hơn và an toàn hơn?",
+        "o": [
+          "Cửa hàng A an toàn hơn",
+          "Cả hai đều chậm như nhau",
+          "Cửa hàng B nhanh hơn và an toàn hơn vì người bán không bị rối mắt hay va đổ đồ, từng người lần lượt lấy bánh rất trật tự",
+          "Cửa hàng A nhanh hơn vì ai khỏe xô bạn sẽ mua được hết"
+        ],
+        "k": "C",
+        "e": "Trật tự mang lại tốc độ và an toàn; chen lấn chỉ gây hỗn loạn, cãi vã và tai nạn giẫm đạp.",
+        "s": "Giáo dục lối sống 1",
+        "h": "So sánh hiệu quả của xếp hàng"
+      },
+      {
+        "c": "LS1-B08-014",
+        "d": "advanced",
+        "p": "Khi đứng xếp hàng chờ mua đồ ăn ở căng-tin, mỗi bạn nên giữ một khoảng cách hợp lí với người đứng trước khoảng một sải tay ngắn vì sao?",
+        "o": [
+          "Để mọi người tưởng mình không xếp hàng",
+          "Để dễ chen lên đứng cạnh người phía trước",
+          "Để cho gió thổi mạnh vào giữa hàng",
+          "Để người phía trước có không gian thoải mái, không bị va chạm balô vào người và tránh chen chúc ngột ngạt"
+        ],
+        "k": "D",
+        "e": "Giữ khoảng cách văn minh khi xếp hàng vừa lịch sự riêng tư vừa giữ an toàn sức khỏe chung.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Khoảng cách lịch sự khi xếp hàng"
+      },
+      {
+        "c": "LS1-B08-015",
+        "d": "advanced",
+        "p": "Tại sao nói cách một học sinh nhỏ xếp hàng lên xe buýt và giữ im lặng trong thư viện chính là \"tấm gương phản chiếu nét đẹp của cả ngôi trường\"?",
+        "o": [
+          "Vì đi xe buýt không cần mua vé",
+          "Vì trong thư viện có gắn rất nhiều gương soi",
+          "Vì mọi người xung quanh khi nhìn thấy học sinh lễ phép, trật tự nơi công cộng sẽ khen ngợi nền nếp giáo dục tuyệt vời của thầy cô và gia đình em",
+          "Vì ai cũng nhìn xem đồng phục màu gì"
+        ],
+        "k": "C",
+        "e": "Mỗi hành vi đẹp nơi công cộng là niềm tự hào của em, bố mẹ và ngôi trường thân yêu!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Hình ảnh đẹp học sinh văn minh"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong1-c3",
+    "lesson": {
+      "code": "lssong1-b09",
+      "title": "Bài 9. Gõ cửa trước khi vào phòng và Xin phép khi mượn đồ",
+      "seq": 9,
+      "subtitle": "Biết tôn trọng không gian riêng tư bằng hành động gõ cửa và hỏi mượn, giữ gìn, trả đúng hẹn đồ dùng của người khác",
+      "concepts": [
+        "Gõ cửa lễ phép",
+        "Xin phép mượn đồ",
+        "Tôn trọng quyền riêng tư"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS1-B09-001",
+        "d": "basic",
+        "p": "Trước khi mở cửa bước vào phòng làm việc của bố mẹ, phòng ngủ của anh chị hay phòng hội đồng nhà trường đang đóng cửa, em cần làm gì?",
+        "o": [
+          "Gõ cửa nhẹ nhàng 2–3 tiếng vừa phải, chờ người bên trong mời \"Vào đi!\" rồi mới nhẹ tay mở cửa bước vào",
+          "Áp tai vào khe cửa nghe lén xem bên trong nói gì",
+          "Đạp mạnh cửa xông thẳng vào bất ngờ",
+          "Vặn khóa mở toang cửa rồi chạy mất"
+        ],
+        "k": "A",
+        "e": "Gõ cửa trước khi vào là phép lịch sự cơ bản thể hiện sự tôn trọng không gian riêng tư của mọi người.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Quy tắc gõ cửa lễ phép",
+        "fig": {
+          "type": "table",
+          "title": "Tôn trọng Riêng tư & Đồ dùng",
+          "head": [
+            "Tình huống",
+            "Cách làm văn minh"
+          ],
+          "rows": [
+            [
+              "Phòng đóng cửa",
+              "Gõ nhẹ, chờ mời vào"
+            ],
+            [
+              "Muốn mượn đồ",
+              "Hỏi phép trước nhé"
+            ],
+            [
+              "Khi đang dùng đồ",
+              "Giữ sạch, nhẹ tay"
+            ],
+            [
+              "Sau khi dùng xong",
+              "Trả nguyên và cảm ơn"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS1-B09-002",
+        "d": "basic",
+        "p": "Khi em muốn dùng chiếc bút màu đẹp hoặc cục tẩy nằm trên bàn của bạn ngồi cùng bàn mà bạn chưa đồng ý, em có được tự ý thò tay cầm lấy không?",
+        "o": [
+          "Cứ lấy giấu vào hộp bút mình rồi lúc sau trả",
+          "Không được tự ý lấy; em phải hỏi xin phép bạn trước và chỉ cầm dùng khi bạn vui vẻ đồng ý cho mượn",
+          "Có, ngồi cùng bàn thì đồ của bạn cũng là của mình",
+          "Nhân lúc bạn đi vệ sinh lấy dùng trộm"
+        ],
+        "k": "B",
+        "e": "Không tự ý chạm lấy đồ của người khác khi chưa được phép giúp rèn tính trung thực và giữ tình bạn đẹp.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Xin phép trước khi mượn đồ"
+      },
+      {
+        "c": "LS1-B09-003",
+        "d": "basic",
+        "p": "Sau khi mượn xong đồ dùng học tập hoặc quyển truyện tranh của bạn về nhà đọc, trách nhiệm của em là gì?",
+        "o": [
+          "Quên luôn không trả cho tới cuối năm học",
+          "Làm gãy thước của bạn rồi vứt vào ngăn bàn",
+          "Xé vài trang đẹp giữ làm kỷ niệm riêng",
+          "Giữ gìn đồ sạch sẽ nguyên vẹn không vẽ bậy làm rách, và mang trả đúng hẹn kèm lời cảm ơn bạn"
+        ],
+        "k": "D",
+        "e": "\"Mượn thế nào, trả nguyên đẹp như thế\" tạo nên chữ Tín đáng quý của bạn nhỏ từ lớp 1.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Trả đồ nguyên vẹn đúng hẹn"
+      },
+      {
+        "c": "LS1-B09-004",
+        "d": "basic",
+        "p": "Nếu bạn giữ lại đồ dùng vì bạn đang cần dùng làm bài ngay lúc đó nên từ chối chưa cho em mượn, em nên phản ứng thế nào?",
+        "o": [
+          "Tuyên bố nghỉ chơi với bạn ngay lập tức",
+          "Mỉm cười vui vẻ tôn trọng quyền từ chối của bạn, không giận dỗi và hỏi mượn bạn khác hoặc đợi bạn dùng xong",
+          "Lấy bút gạch bẩn lên vở của bạn",
+          "Đùng đùng nổi giận giằng lấy đồ từ tay bạn"
+        ],
+        "k": "B",
+        "e": "Bạn có toàn quyền quyết định đồ của bạn; tôn trọng sự từ chối lịch sự là phẩm chất văn minh!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Tôn trọng khi bạn chưa cho mượn"
+      },
+      {
+        "c": "LS1-B09-005",
+        "d": "basic",
+        "p": "Ở nhà có những món đồ nào của người lớn (bố mẹ, ông bà) mà em KHÔNG BAO GIỜ được tự ý mở xem hoặc lấy nghịch dù đang ở một mình?",
+        "o": [
+          "Gấu bông và bộ xếp hình của chính em",
+          "Bát thìa nhựa ăn cơm của riêng em",
+          "Quần áo gấp trong tủ của em",
+          "Ví tiền, điện thoại, hòm thư giấy tờ cá nhân, tủ thuốc gia đình và các vật sắc nhọn hoặc hóa chất tẩy rửa"
+        ],
+        "k": "D",
+        "e": "Không tự ý lục ví, xem điện thoại người lớn và tránh xa tủ thuốc giúp đảm bảo cả lễ phép lẫn an toàn!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Đồ người lớn không tự ý chạm"
+      },
+      {
+        "c": "LS1-B09-006",
+        "d": "basic",
+        "p": "Khi cần vào phòng thầy Hiệu trưởng hoặc phòng Y tế nhà trường lúc cửa đang khép hờ, thao tác gõ cửa đúng chuẩn gồm mấy bước?",
+        "o": [
+          "Đập 10 tiếng thật mạnh rung cả cửa kính",
+          "Đứng gọn bên cửa -> Gõ nhẹ 2 đến 3 tiếng -> Nói to rõ \"Em xin phép vào ạ!\" và chờ thầy cô đồng ý mới bước vào",
+          "Thò đầu nhìn ngó rồi lén lút bước vào im thin thít",
+          "Cứ đứng ngoài cửa im lặng 30 phút không gõ"
+        ],
+        "k": "B",
+        "e": "Gõ nhẹ vừa nghe và thưa xin phép lịch sự tạo ấn tượng tuyệt vời ngay từ giây đầu tiên.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Thao tác gõ cửa trường học"
+      },
+      {
+        "c": "LS1-B09-007",
+        "d": "application",
+        "p": "Bạn Bi vô tình làm rơi làm sứt một góc chiếc hộp bút nhựa mới tinh vừa mượn của bạn Tôm. Bi rất lo sợ Tôm mắng. Theo em, Bi nên xử lí thế nào để giữ tình bạn?",
+        "o": [
+          "Trung thực mang hộp bút gặp ngay Tôm nhận lỗi chân thành, cùng bố mẹ tìm mua hộp bút mới hoặc đền bù thỏa đáng cho bạn",
+          "Vứt luôn hộp bút vỡ vào thùng rác rồi chối không mượn",
+          "Lén bỏ hộp bút vỡ vào cặp Tôm giả vờ không biết gì",
+          "Đổ tại Tôm đưa hộp bút dởm tự vỡ"
+        ],
+        "k": "A",
+        "e": "Trung thực nhận lỗi và chịu trách nhiệm bồi hoàn khi làm hỏng đồ mượn là hành động vô cùng dũng cảm!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Xử lí khi lỡ làm hỏng đồ mượn"
+      },
+      {
+        "c": "LS1-B09-008",
+        "d": "application",
+        "p": "Chiều thứ Bảy em sang nhà bạn thân chơi. Khi bước tới cửa phòng ngủ của chị gái bạn đang đóng kín, em thấy quả bóng bay rơi ngay sát cửa phòng chị ấy. Em làm gì để lấy bóng?",
+        "o": [
+          "Mở toang cửa phòng chị ra lấy bóng ngay không hỏi",
+          "Gõ nhẹ vào cửa phòng chị và nói lễ phép: \"Chị ơi cho em xin phép mở cửa lấy quả bóng bị lăn sát cửa với ạ!\" hoặc nhờ bạn gọi chị",
+          "Đá mạnh vào cánh cửa cho bóng nảy ra",
+          "Tò mò mở cửa bước hẳn vào phòng chị ngắm đồ đạc"
+        ],
+        "k": "B",
+        "e": "Tôn trọng cửa phòng đóng kín ở cả nhà người khác giúp em được gia đình bạn vô cùng quý mến.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Gõ cửa khi sang nhà bạn chơi"
+      },
+      {
+        "c": "LS1-B09-009",
+        "d": "application",
+        "p": "Thư viện lớp 1A thống kê số lượng bạn trả sách mượn đúng hẹn trong 4 tuần (biểu đồ dưới đây). Tuần nào các bạn giữ uy tín trả sách đúng hẹn cao nhất và tuần nào thấp nhất?",
+        "o": [
+          "Tuần 4 cao nhất (18 bạn); Tuần 1 thấp nhất (10 bạn)",
+          "Tuần 1 cao nhất; Tuần 4 thấp nhất",
+          "Tuần 3 cao nhất; Tuần 2 thấp nhất",
+          "Tuần 2 cao nhất; Tuần 3 thấp nhất"
+        ],
+        "k": "A",
+        "e": "Từ 10 bạn ở Tuần 1 tăng dần lên 18 bạn ở Tuần 4 – cả lớp tiến bộ vượt bậc về ý thức giữ lời hẹn!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Đọc biểu đồ trả sách đúng hẹn",
+        "fig": {
+          "type": "bars",
+          "title": "Số bạn trả sách mượn đúng hẹn (bạn)",
+          "labels": [
+            "Tuần 1",
+            "Tuần 2",
+            "Tuần 3",
+            "Tuần 4"
+          ],
+          "series": [
+            {
+              "values": [
+                10,
+                13,
+                15,
+                18
+              ]
+            }
+          ],
+          "unit": "bạn"
+        }
+      },
+      {
+        "c": "LS1-B09-010",
+        "d": "application",
+        "p": "Mẹ đi làm về đặt túi xách trên bàn phòng khách. Bé Mít nhớ hôm qua mẹ mua hộp sáp màu mới cất trong túi nhưng mẹ đang đi tắm chưa lấy ra cho Mít. Mít nên làm gì?",
+        "o": [
+          "Ngồi chờ mẹ tắm xong rồi chạy ra lễ phép hỏi: \"Mẹ ơi con xin phép lấy hộp sáp màu mới trong túi mẹ để tập vẽ được không ạ?\"",
+          "Tự ý mở khóa túi xách của mẹ lục tung mọi thứ lên tìm hộp màu",
+          "Lấy hộp màu ra dùng lén rồi nhét vỏ vào đáy túi",
+          "Đổ dốc hết đồ trong túi mẹ ra nền nhà"
+        ],
+        "k": "A",
+        "e": "Không tự ý lục túi xách của bất kì ai – kể cả túi của mẹ – là nguyên tắc vàng về sự riêng tư!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Không tự ý lục túi xách của mẹ"
+      },
+      {
+        "c": "LS1-B09-011",
+        "d": "application",
+        "p": "Cô giáo chủ nhiệm đang ngồi chấm bài trong phòng giáo viên cửa mở hé. Em cần nộp phiếu bài tập cho cô. Em đứng ở ngưỡng cửa làm gì?",
+        "o": [
+          "Ném tờ giấy qua cửa sổ vào bàn cô",
+          "Chạy thẳng từ ngoài sân vào đập tờ giấy xuống trước mặt cô",
+          "Đứng ngay ngắn bên ngoài khung cửa, gõ nhẹ 2 tiếng lên khung cửa và lễ phép nói: \"Em thưa cô, em xin phép nộp bài ạ!\"",
+          "Đứng sát sau lưng cô nhìn lén bài của các bạn khác"
+        ],
+        "k": "C",
+        "e": "Kể cả khi cửa mở hé, đứng gõ nhẹ báo hiệu trước khi bước vào vẫn rất lịch sự và không làm cô giật mình.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Gõ cửa ngay cả khi cửa mở hé"
+      },
+      {
+        "c": "LS1-B09-012",
+        "d": "application",
+        "p": "Bạn An cho em mượn quyển truyện tranh Doraemon rất đẹp trong 3 ngày cuối tuần. Lúc đọc truyện em đang ăn dưa hấu ngọt dính tay. Em cần làm gì để giữ sạch truyện mượn của bạn?",
+        "o": [
+          "Vừa ăn dưa hấu nước chảy nhỏ giọt vừa lật trang truyện",
+          "Lấy sách truyện kê lên đĩa dưa hấu",
+          "Ăn dưa hấu xong đi rửa tay thật sạch lau khô hoàn toàn rồi mới ngồi vào bàn sạch sẽ mở truyện đọc từng trang nhẹ nhàng",
+          "Gấp quăn mép trang truyện để đánh dấu"
+        ],
+        "k": "C",
+        "e": "Bọc giữ truyện bạn như báu vật của chính mình thể hiện em là người bạn cực kì đáng tin cậy.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Bảo quản sách truyện mượn của bạn"
+      },
+      {
+        "c": "LS1-B09-013",
+        "d": "advanced",
+        "p": "Vì sao nhiều phòng ở trường học và ở nhà có tiếng gõ cửa nhẹ nhàng trước khi mở lại quan trọng hơn việc mở thẳng cửa ra dù biết chắc bên trong có người thân?",
+        "o": [
+          "Vì người bên trong có thể đang thay quần áo, đang tập trung làm việc hay đang nghỉ ngơi; gõ cửa giúp họ chủ động sẵn sàng và tránh làm họ giật mình",
+          "Vì nếu không gõ cửa sẽ bị khóa chặt từ ngoài",
+          "Vì gõ cửa để kiểm tra xem cửa làm bằng gỗ hay bằng sắt",
+          "Vì cánh cửa sẽ bị rỉ sét nếu không gõ trước"
+        ],
+        "k": "A",
+        "e": "Sự tinh tế báo hiệu trước khi bước vào không gian của người khác bảo vệ sự an tâm và thoải mái cho mọi người.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Ý nghĩa sâu xa của gõ cửa"
+      },
+      {
+        "c": "LS1-B09-014",
+        "d": "advanced",
+        "p": "Khi em muốn đọc ké tin nhắn trên điện thoại của anh trai hoặc nhìn mật khẩu máy tính của bố, hành động đó vi phạm nguyên tắc sống văn minh nào?",
+        "o": [
+          "Giúp anh trai kiểm tra chính tả tin nhắn",
+          "Không vi phạm gì vì ở chung một nhà",
+          "Chỉ vi phạm nếu làm rơi vỡ điện thoại",
+          "Vi phạm quyền riêng tư cá nhân và tính trung thực; ngay cả với người thân trong nhà cũng cần tôn trọng không gian thông tin riêng của nhau"
+        ],
+        "k": "D",
+        "e": "Tôn trọng quyền riêng tư số (không nhìn trộm màn hình, mật khẩu) là kĩ năng sống thiết yếu của thời đại mới!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Quyền riêng tư số từ nhỏ"
+      },
+      {
+        "c": "LS1-B09-015",
+        "d": "advanced",
+        "p": "Nếu lớp em xây dựng \"Nội quy 3 bước Mượn – Trả đồ bạn\", trình tự chuẩn nhất gồm 3 bước nào?",
+        "o": [
+          "Bước 1: Lấy dùng trước -> Bước 2: Hỏi sau -> Bước 3: Cất luôn",
+          "Bước 1: Lén bỏ vào cặp -> Bước 2: Chờ bạn hỏi -> Bước 3: Mới trả",
+          "Bước 1: Hỏi phép trước khi chạm lấy -> Bước 2: Dùng cẩn thận, giữ sạch -> Bước 3: Trả đúng hẹn và nói cảm ơn",
+          "Bước 1: Đòi mượn bằng được -> Bước 2: Dùng hỏng -> Bước 3: Mua trả lại"
+        ],
+        "k": "C",
+        "e": "Hỏi phép – Giữ gìn – Trả đúng hẹn: 3 bước vàng xây dựng tình bạn tin cậy suốt tuổi học trò.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Quy trình 3 bước Mượn và Trả"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong1-c4",
+    "lesson": {
+      "code": "lssong1-b10",
+      "title": "Bài 10. Đi bộ trên vỉa hè và Qua đường cùng người lớn",
+      "seq": 10,
+      "subtitle": "Nhận biết phần đường an toàn cho người đi bộ (vỉa hè, vạch kẻ trắng) và nguyên tắc qua đường an toàn cùng người lớn",
+      "concepts": [
+        "Đi bộ trên vỉa hè",
+        "Vạch kẻ sang đường",
+        "Qua đường an toàn"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS1-B10-001",
+        "d": "basic",
+        "p": "Khi đi bộ trên đường phố có vỉa hè rộng rãi, học sinh lớp 1 phải đi ở vị trí nào để an toàn tránh xe cộ?",
+        "o": [
+          "Đi giữa lòng đường cho mát và rộng",
+          "Đi sát mép vỉa hè rồi bước thụt lùi",
+          "Đi gọn gàng trên vỉa hè (lề đường) dành cho người đi bộ, không đi tràn xuống lòng đường xe chạy",
+          "Chạy nhảy đuổi bắt nhau từ vỉa hè lao xuống lòng đường"
+        ],
+        "k": "C",
+        "e": "Vỉa hè là phần đường bảo vệ riêng cho người đi bộ; tuyệt đối không vui chơi đá bóng hay nô đùa dưới lòng đường.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Vị trí an toàn khi đi bộ",
+        "fig": {
+          "type": "table",
+          "title": "Quy tắc Đi bộ An toàn",
+          "head": [
+            "Tình huống",
+            "Cách đi đúng"
+          ],
+          "rows": [
+            [
+              "Đường có vỉa hè",
+              "Đi gọn trên vỉa hè"
+            ],
+            [
+              "Đường không vỉa hè",
+              "Đi sát mép bên phải"
+            ],
+            [
+              "Muốn sang đường",
+              "Nắm tay người lớn"
+            ],
+            [
+              "Vị trí sang đường",
+              "Đi đúng vạch trắng"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS1-B10-002",
+        "d": "basic",
+        "p": "Nếu đi bộ ở đoạn đường nông thôn hoặc con ngõ nhỏ KHÔNG có vỉa hè riêng, em cần đi ở đâu để an toàn?",
+        "o": [
+          "Đi dàn hàng ngang 3–4 bạn giữa đường cho vui",
+          "Vừa đi vừa nhắm mắt bịt tai",
+          "Đi sát mép đường bên tay phải theo chiều đi của mình, xếp hàng một nối đuôi nhau không dàn hàng ngang",
+          "Đi giữa vạch tim đường để tránh cỏ dại"
+        ],
+        "k": "C",
+        "e": "Đi sát lề đường theo hàng một giúp các xe cơ giới dễ quan sát và nhường đường an toàn.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Đi bộ nơi không có vỉa hè"
+      },
+      {
+        "c": "LS1-B10-003",
+        "d": "basic",
+        "p": "Khi học sinh lớp 1 muốn băng qua lòng đường lớn có nhiều xe ô tô, xe máy qua lại, điều BẮT BUỘC em cần làm là gì?",
+        "o": [
+          "Vừa sang đường vừa nhìn xuống đất chơi điện thoại",
+          "Một mình chạy vụt thật nhanh qua đường bất ngờ",
+          "Phải nắm chặt tay người lớn (bố mẹ, ông bà, anh chị lớn) dắt qua đường tại nơi có vạch kẻ đường dành cho người đi bộ",
+          "Chạy ngược chạy xuôi giữa dòng xe đang lao tới"
+        ],
+        "k": "C",
+        "e": "Trẻ lớp 1 vóc dáng nhỏ khó quan sát hết tầm nhìn xe; luôn nắm tay người lớn qua đường đúng vạch kẻ!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Nắm tay người lớn qua đường"
+      },
+      {
+        "c": "LS1-B10-004",
+        "d": "basic",
+        "p": "Những vạch sơn màu trắng kẻ song song cắt ngang lòng đường ở các ngã tư hay trước cổng trường gọi là gì?",
+        "o": [
+          "Vạch để học sinh ngồi chơi ô ăn quan",
+          "Vạch trang trí cho đường đẹp vào ngày Tết",
+          "Vạch cấm không cho ai được bước lên",
+          "Vạch kẻ đường dành cho người đi bộ sang đường (vạch ngựa vằn)"
+        ],
+        "k": "D",
+        "e": "Đi đúng trên vạch kẻ trắng giúp tài xế nhận diện từ xa và giảm tốc độ nhường người đi bộ.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Nhận biết vạch kẻ sang đường"
+      },
+      {
+        "c": "LS1-B10-005",
+        "d": "basic",
+        "p": "Quan sát biển báo giao thông hình tròn nền xanh dương có hình người đang bước đi ở dưới, biển này báo hiệu điều gì cho em?",
+        "o": [
+          "Biển chỉ nơi đỗ xe ô tô tải",
+          "Biển Hiệu lệnh: Đường dành cho người đi bộ (hoặc chỉ dẫn khu vực ưu tiên cho người đi bộ an toàn)",
+          "Biển báo nguy hiểm sắp có nước sâu",
+          "Biển cấm người đi bộ không được vào"
+        ],
+        "k": "B",
+        "e": "Biển tròn nền xanh dương là biển hiệu lệnh bắt buộc thi hành đúng chỉ dẫn an toàn.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Nhận diện biển hiệu lệnh đi bộ",
+        "fig": {
+          "w": 300,
+          "h": 175,
+          "items": [
+            {
+              "t": "circle",
+              "c": [
+                150,
+                80
+              ],
+              "r": 52,
+              "fill": "#2563eb",
+              "stroke": "#1d4ed8",
+              "w": 3
+            },
+            {
+              "t": "line",
+              "a": [
+                150,
+                110
+              ],
+              "b": [
+                150,
+                48
+              ],
+              "arrow": true,
+              "color": "#ffffff",
+              "w": 5
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                162
+              ],
+              "s": "Biển Hiệu lệnh giao thông (tròn xanh)",
+              "anchor": "middle",
+              "size": 12.5
+            }
+          ]
+        }
+      },
+      {
+        "c": "LS1-B10-006",
+        "d": "basic",
+        "p": "Trước khi cùng bố mẹ bước chân xuống vạch kẻ trắng để sang đường, em cần tập thói quen quan sát theo thứ tự nào?",
+        "o": [
+          "Nhắm mắt cắm đầu chạy thật nhanh",
+          "Dừng lại sát mép vỉa hè -> Nhìn sang TRÁI -> Nhìn sang PHẢI -> Nhìn lại sang TRÁI lần nữa thấy an toàn mới đi",
+          "Chỉ nhìn thẳng lên bầu trời đếm mây",
+          "Nhảy cóc một chân sang đường"
+        ],
+        "k": "B",
+        "e": "Quy tắc \"Dừng lại – Nhìn Trái – Nhìn Phải – Nhìn Trái\" cứu sống hàng triệu trẻ em trên toàn thế giới.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Thao tác quan sát trước khi sang đường"
+      },
+      {
+        "c": "LS1-B10-007",
+        "d": "application",
+        "p": "Tan học buổi chiều, bạn Tôm thấy mẹ đứng đón ở bên kia cổng trường qua một con đường có nhiều xe máy đi lại. Tôm mừng quá định chạy ùa ngay sang đường ôm mẹ. Em ngăn Tôm thế nào?",
+        "o": [
+          "Bảo Tôm bò qua đường cho thấp xe không thấy",
+          "Đẩy Tôm lao ra giữa lúc ô tô vừa chạy tới",
+          "Kéo tay giữ Tôm dừng lại trên vỉa hè, bảo Tôm vẫy tay gọi mẹ sang đón hoặc đi cùng cô bảo vệ qua đúng vạch kẻ trắng cổng trường",
+          "Cổ vũ Tôm chạy nước rút thật nhanh cho kịp mẹ"
+        ],
+        "k": "C",
+        "e": "Khoảng cách mấy mét trước cổng trường rất nguy hiểm nếu lao đột ngột từ sau xe đang đỗ!",
+        "s": "Giáo dục lối sống 1",
+        "h": "An toàn trước cổng trường giờ tan học"
+      },
+      {
+        "c": "LS1-B10-008",
+        "d": "application",
+        "p": "Khi đi bộ trên vỉa hè bỗng gặp một đoạn vỉa hè bị vướng chậu cây to hoặc hàng quán sửa chữa chắn lối đi buộc phải bước xuống sát mép đường 2 bước, em xử lí thế nào cho an toàn?",
+        "o": [
+          "Đá đổ chậu cây của nhà dân",
+          "Nhảy phóc ra tận giữa lòng đường chạy vòng qua",
+          "Chui qua gầm xe tải đang đỗ",
+          "Dừng lại quan sát kĩ phía trước và phía sau không có xe mới bước xuống đi sát mép vỉa hè qua chướng ngại vật rồi bước lên vỉa hè ngay"
+        ],
+        "k": "D",
+        "e": "Luôn quan sát phía sau (hướng xe cùng chiều đang tiến tới) trước khi bước xuống lòng đường tránh vật cản.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Vượt vật cản trên vỉa hè an toàn"
+      },
+      {
+        "c": "LS1-B10-009",
+        "d": "application",
+        "p": "Em và bố đi bộ buổi tối trời hơi tối hoặc mưa phùn trên đường. Để các bác tài xế lái xe dễ nhìn thấy hai bố con từ xa, em nên chọn mặc áo màu gì?",
+        "o": [
+          "Áo khoác hoặc áo mưa màu sáng nổi bật (vàng, cam, trắng, xanh sáng) hoặc cặp sách có dải phản quang",
+          "Cầm ô đen che kín mặt đi dưới lòng đường",
+          "Tắt hết đèn đường xung quanh",
+          "Áo khoác màu đen tuyền từ đầu đến chân trùm kín"
+        ],
+        "k": "A",
+        "e": "Màu sáng và dải phản quang phát sáng dưới đèn pha ô tô giúp giảm thiểu nguy cơ tai nạn buổi tối cực hiệu quả.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Trang phục an toàn đi bộ buổi tối"
+      },
+      {
+        "c": "LS1-B10-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ kiểm tra kĩ năng đi bộ an toàn của các bạn lớp 1C (tổng số bạn thực hiện đúng từng kĩ năng trên tổng 25 bạn). Kĩ năng nào nhiều bạn lớp 1C còn quên thực hiện nhất cần rèn thêm?",
+        "o": [
+          "Nắm tay người lớn khi qua đường (22 bạn đạt)",
+          "Đi bộ trên vỉa hè (24 bạn đạt)",
+          "Không đùa nghịch dưới lòng đường (20 bạn đạt)",
+          "Quan sát Trái – Phải – Trái trước khi qua (chỉ 12 bạn đạt)"
+        ],
+        "k": "D",
+        "e": "Mới có 12 trên 25 bạn nhớ quy tắc nhìn Trái – Phải – Trái; cả lớp cần thực hành thêm thói quen quan trọng này!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Đọc biểu đồ kĩ năng đi bộ",
+        "fig": {
+          "type": "bars",
+          "title": "Số bạn lớp 1C thực hành đúng (/25 bạn)",
+          "labels": [
+            "Đi vỉa hè",
+            "Nắm tay",
+            "Không đùa",
+            "Nhìn 2 bên"
+          ],
+          "series": [
+            {
+              "values": [
+                24,
+                22,
+                20,
+                12
+              ]
+            }
+          ],
+          "unit": "bạn"
+        }
+      },
+      {
+        "c": "LS1-B10-011",
+        "d": "application",
+        "p": "Một quả bóng nhựa của em lỡ lăn từ sân nhà ra giữa lòng đường đúng lúc một chiếc xe ô tô đang chạy tới từ đằng xa. Hành động bảo toàn tính mạng duy nhất đúng lúc đó là gì?",
+        "o": [
+          "Đứng giữa đường giơ tay vẫy bắt ô tô phanh gấp",
+          "Ném thêm cây gậy ra giữa đường chặn bóng",
+          "Đứng yên trên vỉa hè tuyệt đối không chạy theo bóng ra đường; chờ xe đi qua hẳn an toàn mới nhờ người lớn nhặt giúp",
+          "Lao vút theo quả bóng ra giữa đường chụp lấy thật nhanh"
+        ],
+        "k": "C",
+        "e": "Không món đồ chơi nào quý bằng tính mạng của em; luôn đứng yên trên vỉa hè chờ người lớn giúp!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Không lao theo bóng lăn ra đường"
+      },
+      {
+        "c": "LS1-B10-012",
+        "d": "application",
+        "p": "Khi đi qua một ngõ nhỏ giao cắt có hàng xe ô tô đang đỗ dài ven đường che khuất tầm nhìn, em muốn qua đường cùng mẹ. Hai mẹ con nên đứng chỗ nào quan sát xe trước khi bước qua?",
+        "o": [
+          "Đi ra chỗ thoáng rộng có vạch kẻ qua đường nơi không bị xe đỗ che khuất tầm nhìn rồi mới quan sát và sang đường",
+          "Đứng nấp sát bánh xe ô tô để nhìn",
+          "Chui qua khoảng hở hẹp giữa hai đầu xe ô tô đang đỗ rồi nhảy vụt ra đường",
+          "Trèo lên nắp ca-pô xe đang đỗ để bước qua"
+        ],
+        "k": "A",
+        "e": "Đi ra khỏi \"điểm mù\" của xe đỗ để tài xế đang chạy tới nhìn thấy rõ em và em nhìn thấy rõ xe!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Tránh điểm mù sau xe đỗ"
+      },
+      {
+        "c": "LS1-B10-013",
+        "d": "advanced",
+        "p": "Vì sao khi băng qua đường trên vạch kẻ trắng cùng người lớn, ta nên bước đi dứt khoát đều bước chứ KHÔNG chạy lao nhanh cũng KHÔNG đi chậm rề rà nô đùa?",
+        "o": [
+          "Vì đi đều bước giúp tăng chiều cao",
+          "Vì đi đều bước dứt khoát giúp người lái xe dễ phán đoán chính xác tốc độ để nhường đường, còn chạy lao dễ trượt vấp ngã ngay giữa đường",
+          "Vì đi chậm quá sẽ bị đèn đường tắt mất",
+          "Vì chạy nhanh làm hỏng lớp sơn trắng của vạch kẻ"
+        ],
+        "k": "B",
+        "e": "Bình tĩnh, dứt khoát, mắt luôn quan sát hướng xe tới là phong thái qua đường an toàn bậc nhất.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Tốc độ di chuyển chuẩn khi qua đường"
+      },
+      {
+        "c": "LS1-B10-014",
+        "d": "advanced",
+        "p": "Khi thấy một chiếc ô tô tải rất lớn đang rẽ phải vào ngã tư, dù em đang đứng trên vạch kẻ trắng chờ qua đường, em vẫn phải lùi lại 1–2 bước nhường xe rẽ qua hẳn vì sao?",
+        "o": [
+          "Vì xe tải không có phanh",
+          "Vì xe tải lúc rẽ sẽ đi lùi ngược lại",
+          "Vì xe tải lớn có \"điểm mù\" rất rộng hai bên hông và gầm thấp, tài xế trên cabin cao rất khó nhìn thấy trẻ em lớp 1 đứng sát cạnh xe",
+          "Vì gió của xe tải thổi bay vạch kẻ trắng"
+        ],
+        "k": "C",
+        "e": "Tránh xa khu vực hông và đầu các xe tải, xe buýt lớn khi xe đang chuẩn bị rẽ là kiến thức cứu sinh vô giá!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Nhận biết điểm mù xe lớn"
+      },
+      {
+        "c": "LS1-B10-015",
+        "d": "advanced",
+        "p": "Nếu phải đặt một khẩu hiệu ngắn 4 chữ dễ nhớ cho các bạn lớp 1 mỗi lần cùng người lớn qua đường, câu nào chuẩn và đầy đủ ý nghĩa an toàn nhất?",
+        "o": [
+          "\"Nhắm mắt – Chạy nhanh\"",
+          "\"Dừng – Nhìn – Nắm – Bước\"",
+          "\"Vừa đi – Vừa đùa\"",
+          "\"Chạy – Nhảy – Hét – Nhanh\""
+        ],
+        "k": "B",
+        "e": "Dừng lại mép hè -> Nhìn Trái Phải -> Nắm tay người lớn -> Bước đều đúng vạch kẻ trắng!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Khẩu hiệu 4 bước qua đường"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong1-c4",
+    "lesson": {
+      "code": "lssong1-b11",
+      "title": "Bài 11. Đợi đèn xanh khi qua đường và Đội mũ bảo hiểm",
+      "seq": 11,
+      "subtitle": "Nhận biết đúng ý nghĩa 3 màu đèn giao thông, đèn tín hiệu người đi bộ và thực hành đội mũ bảo hiểm cài quai đúng chuẩn khi đi xe máy",
+      "concepts": [
+        "Đèn tín hiệu giao thông",
+        "Đội mũ bảo hiểm chuẩn",
+        "An toàn trên xe máy"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS1-B11-001",
+        "d": "basic",
+        "p": "Quan sát cột đèn tín hiệu giao thông gồm 3 màu Đỏ – Vàng – Xanh ở dưới. Khi đèn báo hiệu màu ĐỎ bật sáng, các phương tiện và người đi đường phải làm gì?",
+        "o": [
+          "DỪNG LẠI trước vạch dừng an toàn, tuyệt đối không vượt đèn đỏ",
+          "Bấm còi inh ỏi ép mọi người tránh đường",
+          "Tăng ga chạy vút qua thật nhanh",
+          "Đi chậm rãi qua ngã tư bình thường"
+        ],
+        "k": "A",
+        "e": "Đèn đỏ dừng lại, đèn vàng đi chậm chuẩn bị dừng, đèn xanh mới được đi – quy tắc vàng giao thông!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Ý nghĩa 3 màu đèn giao thông",
+        "fig": {
+          "w": 300,
+          "h": 175,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  125,
+                  16
+                ],
+                [
+                  175,
+                  16
+                ],
+                [
+                  175,
+                  146
+                ],
+                [
+                  125,
+                  146
+                ]
+              ],
+              "fill": "#334155",
+              "stroke": "#0f172a",
+              "w": 2
+            },
+            {
+              "t": "circle",
+              "c": [
+                150,
+                42
+              ],
+              "r": 14,
+              "fill": "#ef4444",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "circle",
+              "c": [
+                150,
+                81
+              ],
+              "r": 14,
+              "fill": "#facc15",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "circle",
+              "c": [
+                150,
+                120
+              ],
+              "r": 14,
+              "fill": "#22c55e",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                162
+              ],
+              "s": "Đèn tín hiệu: Đỏ dừng - Vàng chậm - Xanh đi",
+              "anchor": "middle",
+              "size": 12.5
+            }
+          ]
+        }
+      },
+      {
+        "c": "LS1-B11-002",
+        "d": "basic",
+        "p": "Khi em và bố mẹ ngồi trên xe mô tô, xe gắn máy hoặc xe đạp điện tham gia giao thông trên đường, vật dụng bảo vệ đầu BẮT BUỘC em phải đội là gì?",
+        "o": [
+          "Đặt mũ bảo hiểm trên đầu nhưng thả lơ lửng không cài quai",
+          "Mũ len trùm đầu giữ ấm không có vỏ cứng",
+          "Mũ bảo hiểm đạt chuẩn, vừa cỡ đầu và cài quai mũ chắc chắn dưới cằm",
+          "Mũ lưỡi trai vải mềm cho mát"
+        ],
+        "k": "C",
+        "e": "Đội mũ bảo hiểm đúng cách giúp bảo vệ vùng đầu khỏi chấn thương nguy hiểm nếu không may xảy ra va chạm.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Bắt buộc đội mũ bảo hiểm"
+      },
+      {
+        "c": "LS1-B11-003",
+        "d": "basic",
+        "p": "Ở một số ngã tư lớn có cột đèn dành riêng cho người đi bộ (có hình người đứng đỏ và hình người đi bước xanh). Em chỉ được phép sang đường khi nào?",
+        "o": [
+          "Khi đèn người đi bộ vừa nhấp nháy sắp hết giây còn 1 giây",
+          "Bất kì lúc nào em thích không cần nhìn đèn",
+          "Khi đèn dành cho người đi bộ chuyển sang hình người bước đi màu XANH và các xe hai bên đã dừng lại trước vạch",
+          "Khi hình người đứng yên màu ĐỎ đang sáng"
+        ],
+        "k": "C",
+        "e": "Chỉ sang đường khi đèn người đi bộ màu XANH và kiểm tra chắc chắn các xe đã nhường đường.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Đèn tín hiệu cho người đi bộ"
+      },
+      {
+        "c": "LS1-B11-004",
+        "d": "basic",
+        "p": "Quy trình 3 bước đội mũ bảo hiểm ĐÚNG CHUẨN gồm những bước nào để mũ không bị tuột hay ngửa ra sau?",
+        "o": [
+          "Chỉ cài quai lỏng thõng xuống tận ngực",
+          "Đội mũ hất ngửa ra sau gáy hở hết trán",
+          "Đội mũ ngay ngắn che trán cách chân mày 2 ngón tay -> Cài khóa quai mũ kêu \"tách\" -> Kiểm tra dây vừa khít luồn lọt 2 ngón tay dưới cằm",
+          "Đội ngược lưỡi trai ra sau gáy rồi thả lỏng dây"
+        ],
+        "k": "C",
+        "e": "Thử độ khít: nhét vừa 2 ngón tay giữa dây quai và cằm là chuẩn nhất – vừa êm không đau cổ vừa không tuột mũ!",
+        "s": "Giáo dục lối sống 1",
+        "h": "3 bước đội mũ bảo hiểm chuẩn",
+        "fig": {
+          "type": "table",
+          "title": "Đội Mũ bảo hiểm Đúng",
+          "head": [
+            "Bộ phận",
+            "Kiểm tra đạt chuẩn"
+          ],
+          "rows": [
+            [
+              "Vành mũ trước",
+              "Cách lông mày 2 ngón"
+            ],
+            [
+              "Khóa cài quai",
+              "Khít tiếng \"tách\""
+            ],
+            [
+              "Độ chặt dây",
+              "Vừa lọt 2 ngón tay"
+            ],
+            [
+              "Vị trí mũ",
+              "Không nghiêng, lắc"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS1-B11-005",
+        "d": "basic",
+        "p": "Khi ngồi sau xe máy của bố mẹ, tư thế ngồi an toàn nhất cho bé lớp 1 là ngồi ở đâu và hai tay để thế nào?",
+        "o": [
+          "Ngồi phía trước cầm vào tay lái của bố mẹ",
+          "Ngồi vắt cả hai chân sang một bên xe",
+          "Ngồi ngay ngắn phía sau lưng bố mẹ, hai chân khép sát hai bên gác lên chỗ để chân và hai tay ôm chặt ngang eo bố mẹ",
+          "Đứng hẳn lên yên xe máy hò hét ngắm cảnh"
+        ],
+        "k": "C",
+        "e": "Ngồi sau và ôm chặt eo người lái giúp bé giữ thăng bằng cực tốt khi xe tăng tốc hay phanh.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Tư thế ngồi sau xe máy an toàn"
+      },
+      {
+        "c": "LS1-B11-006",
+        "d": "basic",
+        "p": "Trước khi bước xuống từ yên sau xe máy khi bố mẹ vừa dừng xe bên lề đường, em cần chú ý bước xuống bên nào?",
+        "o": [
+          "Chờ xe dừng hẳn, tắt máy hoặc chống chân vững, nhìn trước sau không có xe chạy sát rồi bước xuống về phía bên PHẢI sát lề đường",
+          "Tuột xuống khi không báo cho bố mẹ biết",
+          "Nhảy xuống khi xe vẫn đang lăn bánh chạy chậm",
+          "Nhảy phóc xuống về phía bên TRÁI hướng ra giữa lòng đường xe chạy"
+        ],
+        "k": "A",
+        "e": "Luôn bước xuống bên phải sát vỉa hè và báo hiệu cho bố mẹ biết khi lên xuống xe.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Lên xuống xe máy đúng bên"
+      },
+      {
+        "c": "LS1-B11-007",
+        "d": "application",
+        "p": "Sáng nay mẹ vội đưa bé Bông tới trường cách nhà chỉ 500 mét nên bé Bông nói: \"Mẹ ơi trường gần xíu à, con không đội mũ bảo hiểm cho nhẹ đầu nhé!\". Theo em lời đề nghị của Bông đúng hay sai?",
+        "o": [
+          "Đúng vì dưới 1 ki-lô-mét thì đầu không bị đau khi ngã",
+          "Sai hoàn toàn! Tai nạn giao thông có thể xảy ra bất ngờ ở cả đoạn đường rất ngắn; hễ ngồi lên xe máy là bắt buộc đội mũ bảo hiểm cài quai",
+          "Đúng nếu mẹ chạy xe thật chậm trên vỉa hè",
+          "Chỉ cần đội mũ khi đi đường quốc lộ xa"
+        ],
+        "k": "B",
+        "e": "Nhiều vụ va chạm xảy ra ngay ở con đường quen thuộc gần nhà; đừng bao giờ chủ quan bỏ qua mũ bảo hiểm!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Đội mũ kể cả quãng đường ngắn"
+      },
+      {
+        "c": "LS1-B11-008",
+        "d": "application",
+        "p": "Chú công an giao thông đứng trước cổng trường kiểm tra việc đội mũ bảo hiểm của học sinh 4 lớp khối 1 buổi sáng (mỗi lớp kiểm tra ngẫu nhiên 20 bạn ngồi sau xe máy). Theo biểu đồ dưới, lớp nào đạt 100% số bạn được kiểm tra đều đội mũ đúng chuẩn?",
+        "o": [
+          "Lớp 1D (19 bạn)",
+          "Lớp 1C (16 bạn)",
+          "Lớp 1A (đủ 20/20 bạn)",
+          "Lớp 1B (18 bạn)"
+        ],
+        "k": "C",
+        "e": "Lớp 1A đạt 20/20 bạn (100%) đội mũ vừa đầu và cài quai chắc chắn – tấm gương sáng của khối 1!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Đọc biểu đồ đội mũ bảo hiểm",
+        "fig": {
+          "type": "bars",
+          "title": "Số bạn đội mũ chuẩn (/20 bạn)",
+          "labels": [
+            "Lớp 1A",
+            "Lớp 1B",
+            "Lớp 1C",
+            "Lớp 1D"
+          ],
+          "series": [
+            {
+              "values": [
+                20,
+                18,
+                16,
+                19
+              ]
+            }
+          ],
+          "unit": "bạn"
+        }
+      },
+      {
+        "c": "LS1-B11-009",
+        "d": "application",
+        "p": "Bố đèo em đi xe máy tới ngã tư thì đèn xanh chỉ còn nhấp nháy 2 giây rồi chuyển sang đèn VÀNG. Xung quanh phía sau không có xe bám đuôi. Bố nên làm gì?",
+        "o": [
+          "Vượt qua cả khi đèn đỏ mới bật được 1 giây",
+          "Rồ ga thật mạnh phóng vút qua ngã tư cho kịp trước đèn đỏ",
+          "Giảm dần tốc độ và dừng lại trước vạch kẻ trắng chờ đèn đỏ hết lượt mới đi tiếp cho an toàn tuyệt đối",
+          "Lách lên vỉa hè đi tắt qua ngã tư"
+        ],
+        "k": "C",
+        "e": "Không cố vượt giây cuối đèn xanh và đèn vàng bảo vệ gia đình khỏi những xe phía cắt ngang khởi hành sớm.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Xử lí giây cuối đèn xanh"
+      },
+      {
+        "c": "LS1-B11-010",
+        "d": "application",
+        "p": "Hôm nay trời đổ mưa, mẹ cho em ngồi sau xe máy và mặc cho em một chiếc áo mưa cánh dơi rộng. Em cần chú ý điều gì với tà áo mưa khi xe đang chạy?",
+        "o": [
+          "Dang rộng hai cánh tay cho tà áo mưa bay như cánh chim",
+          "Kéo trùm kín áo mưa qua cả mắt của bố mẹ đang lái",
+          "Để tà áo mưa lê lết sát mặt đường",
+          "Vén gọn hai tà áo mưa ngồi đè hoặc thu gọn sát vào người, không để tà áo dài bay phất phới dễ quấn vào bánh xe hoặc vành xích"
+        ],
+        "k": "D",
+        "e": "Tà áo mưa dài quấn vào bánh xe sau cực kì nguy hiểm; hãy xếp gọn tà áo mưa trước khi xe lăn bánh!",
+        "s": "Giáo dục lối sống 1",
+        "h": "An toàn khi mặc áo mưa đi xe"
+      },
+      {
+        "c": "LS1-B11-011",
+        "d": "application",
+        "p": "Mũ bảo hiểm cũ của anh trai em rộng thênh thang, mỗi lần em đội lên đầu mũ cứ xoay lắc che sụp xuống tận mũi em. Em có nên đội tạm chiếc mũ quá rộng đó đi học hàng ngày không?",
+        "o": [
+          "Không nên; nhờ bố mẹ chọn mua chiếc mũ bảo hiểm trẻ em đúng kích cỡ đầu mình có tem hợp quy CR để bảo vệ tốt nhất",
+          "Nhét thật nhiều khăn mặt vào bên trong cho đỡ rộng",
+          "Nên đội vì mũ to che được cả khuôn mặt đỡ nắng",
+          "Cầm mũ trên tay khỏi cần đội lên đầu"
+        ],
+        "k": "A",
+        "e": "Mũ bảo hiểm quá rộng sẽ văng ra khỏi đầu ngay khi xảy ra va chạm; hãy chọn mũ có tem CR vừa vặn cỡ đầu trẻ em.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Chọn mũ vừa cỡ đầu có tem CR"
+      },
+      {
+        "c": "LS1-B11-012",
+        "d": "application",
+        "p": "Khi đèn đỏ giao thông vừa bật tắt, chuyển sang đèn xanh cho người đi bộ đi qua đường, nhưng một chiếc xe cứu thương hú còi ưu tiên nhấp nháy đèn đang lao tới ngã tư. Em và mẹ xử lí thế nào?",
+        "o": [
+          "Chạy đua song song với xe cứu thương",
+          "Vỗ tay đứng giữa đường xem xe cứu thương",
+          "Nhanh chóng lùi lại đứng yên trên vỉa hè nhường đường cho xe cứu thương chở người bệnh đi qua trước rồi mới sang đường an toàn",
+          "Vẫn bước ra giữa đường bắt xe cứu thương phanh lại chờ mình"
+        ],
+        "k": "C",
+        "e": "Nhường đường cho xe ưu tiên (cứu thương, cứu hỏa, công an làm nhiệm vụ) là đạo đức và nghĩa vụ pháp luật!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Nhường đường cho xe cứu thương"
+      },
+      {
+        "c": "LS1-B11-013",
+        "d": "advanced",
+        "p": "Vì sao luật giao thông quy định các bạn nhỏ từ 6 tuổi trở lên (vừa bước vào lớp 1) bắt buộc phải đội mũ bảo hiểm khi đi mô tô, xe máy và xe đạp điện?",
+        "o": [
+          "Vì để che mưa gió thay cho ô",
+          "Vì lớp 1 tóc dài cần đội mũ cho gọn tóc",
+          "Vì ở độ tuổi đi học các em thường xuyên tham gia giao thông trên đường, xương sọ trẻ em cần được bảo vệ tuyệt đối trước mọi rủi ro va đập",
+          "Vì dưới 6 tuổi đầu trẻ em cứng như sắt không cần mũ"
+        ],
+        "k": "C",
+        "e": "Từ 6 tuổi trở lên đội mũ bảo hiểm không chỉ bảo vệ sinh mạng em mà còn thực thi nghiêm luật giao thông!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Ý thức pháp luật từ tuổi lớp 1"
+      },
+      {
+        "c": "LS1-B11-014",
+        "d": "advanced",
+        "p": "Quan sát mũ bảo hiểm đạt chuẩn an toàn trên thị trường Việt Nam thường có cấu tạo tối thiểu mấy lớp bảo vệ chính và dấu hiệu tem nhận biết nào?",
+        "o": [
+          "Gồm 3 phần chính (vỏ nhựa cứng chịu va đập, lớp xốp dày hấp thụ xung lực, dây quai khóa chắc) và có tem chứng nhận hợp quy CR",
+          "Không có lớp xốp bên trong, càng mỏng càng tốt",
+          "Chỉ có 1 lớp vải mỏng và tem hình siêu nhân",
+          "Làm hoàn toàn bằng giấy bìa các-tông ép nhẹ"
+        ],
+        "k": "A",
+        "e": "Lớp xốp EPS dày bên trong là bộ phận hấp thụ lực va đập bảo vệ não bộ – tuyệt đối không dùng mũ thời trang không xốp!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Cấu tạo mũ bảo hiểm đạt chuẩn"
+      },
+      {
+        "c": "LS1-B11-015",
+        "d": "advanced",
+        "p": "Khi bố đèo em đi ô tô gia đình thay vì xe máy, vị trí ngồi và thao tác an toàn bắt buộc dành cho học sinh lớp 1 là gì?",
+        "o": [
+          "Mở cửa sổ thò nửa người ra ngoài vẫy tay hóng gió",
+          "Chạy nhảy tự do giữa hai hàng ghế",
+          "Ngồi lên đùi bố ở ghế lái cầm vô-lăng cùng bố",
+          "Ngồi hàng ghế sau (hoặc ghế phụ trẻ em chuyên dụng), thắt chặt dây an toàn đúng cách và không thò đầu, thò tay ra ngoài cửa kính xe"
+        ],
+        "k": "D",
+        "e": "Ngồi ghế sau, thắt dây an toàn và khóa an toàn cửa sổ giữ an toàn trọn vẹn khi đi ô tô!",
+        "s": "Giáo dục lối sống 1",
+        "h": "An toàn khi đi ô tô gia đình"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong1-c4",
+    "lesson": {
+      "code": "lssong1-b12",
+      "title": "Bài 12. Phòng tránh bỏng, điện giật và không theo người lạ",
+      "seq": 12,
+      "subtitle": "Nhận biết nguy cơ gây bỏng, điện giật trong gia đình và rèn kĩ năng nói \"KHÔNG\" kiên quyết khi người lạ dụ dỗ rủ đi theo",
+      "concepts": [
+        "Phòng tránh bỏng điện",
+        "An toàn trước người lạ",
+        "Số điện thoại khẩn cấp"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS1-B12-001",
+        "d": "basic",
+        "p": "Những vật dụng nào trong căn bếp gia đình có nguy cơ gây BỎNG nặng mà học sinh lớp 1 cần tránh xa không tự ý nghịch?",
+        "o": [
+          "Chiếc thìa nhựa nhỏ nguội ngắt trên bàn",
+          "Quyển truyện tranh và hộp bút sáp",
+          "Phích nước sôi, ấm siêu tốc đang đun, nồi canh đang nấu trên bếp ga, bếp từ nóng và bàn là đang cắm điện",
+          "Quả bóng bay cao su"
+        ],
+        "k": "C",
+        "e": "Nhiệt độ nước sôi 100°C và lửa bếp gây bỏng sâu cực kì đau đớn cho làn da mỏng manh của trẻ nhỏ.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Vật dễ gây bỏng cần tránh xa",
+        "fig": {
+          "type": "table",
+          "title": "Bảng An toàn Sinh hoạt",
+          "head": [
+            "Nguy cơ",
+            "Quy tắc 3 KHÔNG"
+          ],
+          "rows": [
+            [
+              "Bỏng nhiệt",
+              "Tránh bếp, phích sôi"
+            ],
+            [
+              "Điện giật",
+              "Không chạm ổ điện"
+            ],
+            [
+              "Người lạ",
+              "Không nhận quà, theo"
+            ],
+            [
+              "Khẩn cấp",
+              "Gọi bố mẹ, 113, 115"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS1-B12-002",
+        "d": "basic",
+        "p": "Hành động nào sau đây CỰC KÌ NGUY HIỂM có thể gây ĐIỆN GIẬT chết người tuyệt đối không bao giờ được làm?",
+        "o": [
+          "Nhờ bố mẹ bật công tắc đèn khi tay ướt",
+          "Chơi lắp ghép đồ chơi nhựa xa ổ cắm",
+          "Dùng tay ướt chạm vào ổ cắm điện, cầm que sắt nhọn hay chìa khóa chọc vào lỗ ổ cắm điện, nghịch dây điện bị hở tróc vỏ",
+          "Tắt đèn bằng công tắc nhựa khi tay khô ráo và có nắp che"
+        ],
+        "k": "C",
+        "e": "Nước và kim loại dẫn điện rất mạnh; tuyệt đối giữ tay khô ráo và không bao giờ chọc vật lạ vào ổ điện.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Phòng tránh tai nạn điện giật"
+      },
+      {
+        "c": "LS1-B12-003",
+        "d": "basic",
+        "p": "Quan sát biển báo hình tam giác nền vàng viền đỏ có tia sét (hoặc dấu chấm than cảnh báo). Nhóm biển báo hình tam giác vàng viền đỏ này mang ý nghĩa gì?",
+        "o": [
+          "Biển mời mọi người vào khu vui chơi",
+          "Biển chỉ đường đến siêu thị gần nhất",
+          "Biển CẢNH BÁO NGUY HIỂM nhắc mọi người phải chú ý cẩn thận phòng tránh tai nạn phía trước",
+          "Biển cho phép đỗ xe thoải mái"
+        ],
+        "k": "C",
+        "e": "Tam giác nền vàng viền đỏ là biển cảnh báo nguy hiểm (điện cao thế, trơn trượt, công trường...) phải tránh xa.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Nhận biết biển cảnh báo nguy hiểm",
+        "fig": {
+          "w": 300,
+          "h": 175,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  150,
+                  24
+                ],
+                [
+                  88,
+                  130
+                ],
+                [
+                  212,
+                  130
+                ]
+              ],
+              "fill": "#facc15",
+              "stroke": "#dc2626",
+              "w": 6
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                110
+              ],
+              "s": "!",
+              "anchor": "middle",
+              "size": 36,
+              "color": "#1e293b"
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                162
+              ],
+              "s": "Biển Cảnh báo nguy hiểm (tam giác vàng)",
+              "anchor": "middle",
+              "size": 12.5
+            }
+          ]
+        }
+      },
+      {
+        "c": "LS1-B12-004",
+        "d": "basic",
+        "p": "Khi đứng trước cổng trường chờ bố mẹ đón mà có một người lạ mặt tới gần cười nói: \"Cháu ơi mẹ cháu bận nhờ chú đón cháu về, lên xe chú cho kẹo ngon!\", em làm gì?",
+        "o": [
+          "Vui vẻ nhận túi kẹo rồi trèo lên xe người lạ ngay",
+          "Giấu bác bảo vệ tự ý ra ngoài với người lạ",
+          "Đi bộ theo người lạ ra góc vắng nói chuyện",
+          "Kiên quyết lắc đầu lùi lại, KHÔNG nhận quà, KHÔNG leo lên xe và chạy ngay vào trong sân trường báo bác bảo vệ hoặc cô giáo"
+        ],
+        "k": "D",
+        "e": "Quy tắc vàng an toàn: Không nhận quà – Không lên xe – Không đi theo bất kì người lạ nào dù họ tự xưng quen bố mẹ!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Phòng tránh bị người lạ dụ dỗ"
+      },
+      {
+        "c": "LS1-B12-005",
+        "d": "basic",
+        "p": "Nếu không may em lỡ chạm nhẹ tay vào thành nồi nóng bị đỏ rát bỏng nhẹ, bước sơ cứu ĐÚNG NHẤT ngay lập tức tại nhà là gì?",
+        "o": [
+          "Bôi ngay kem đánh răng hoặc nước mắm lên vết bỏng",
+          "Báo ngay người lớn và đưa vùng da bỏng dưới vòi nước sạch mát chảy nhẹ trong 15–20 phút để hạ nhiệt dịu vết bỏng",
+          "Cố giấu không nói với bố mẹ để tự chịu đau",
+          "Chườm cục đá lạnh cứng ép chặt vào da"
+        ],
+        "k": "B",
+        "e": "Xả nước mát sạch (không dùng nước đá, không bôi kem đánh răng hay nước mắm!) là sơ cứu chuẩn y khoa.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Sơ cứu bỏng đúng y khoa"
+      },
+      {
+        "c": "LS1-B12-006",
+        "d": "basic",
+        "p": "Khi ở nhà một mình buổi chiều có người lạ gõ cửa xưng là \"thợ sửa điện\" hay \"nhân viên giao hàng\" đòi mở cửa vào nhà, em ứng xử ra sao?",
+        "o": [
+          "Giữ cửa khóa chặt bên trong, tuyệt đối không mở cửa, nói vọng qua cửa báo đợi bố mẹ về và gọi điện báo bố mẹ ngay",
+          "Tự ra khỏi nhà đi chơi với người lạ",
+          "Đưa chìa khóa nhà cho người lạ",
+          "Mở toang cửa mời người lạ vào phòng khách ngồi đợi"
+        ],
+        "k": "A",
+        "e": "Ở nhà một mình: Luôn đóng khóa cửa trong, không mở cửa tiếp người lạ và biết gọi điện cho người thân.",
+        "s": "Giáo dục lối sống 1",
+        "h": "An toàn khi ở nhà một mình"
+      },
+      {
+        "c": "LS1-B12-007",
+        "d": "application",
+        "p": "Trong bếp có chiếc ấm siêu tốc đang cắm điện nấu nước sôi bốc khói, sợi dây điện thòng xuống mép bàn vừa tầm tay với của em bé 2 tuổi đang bò chơi gần đó. Thấy vậy em lớp 1 cần làm gì ngay?",
+        "o": [
+          "Nhanh chóng gọi to báo mẹ ngay để mẹ rút điện, đẩy ấm vào sát trong và bế/dẫn em nhỏ sang phòng khách chơi đồ chơi an toàn",
+          "Tự ý giật mạnh phích cắm bằng tay ướt",
+          "Đứng nhìn em bé cầm dây điện cho vui",
+          "Kéo dây điện cho ấm đổ xuống xem nước chảy thế nào"
+        ],
+        "k": "A",
+        "e": "Phát hiện sớm nguy cơ cho em nhỏ và gọi người lớn kịp thời giúp ngăn ngừa tai nạn thương tâm!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Bảo vệ em nhỏ tránh bỏng điện"
+      },
+      {
+        "c": "LS1-B12-008",
+        "d": "application",
+        "p": "Em hãy nối đúng 3 số điện thoại khẩn cấp miễn phí tại Việt Nam để dùng khi gặp tình huống cực kì nguy hiểm không có người lớn bên cạnh: Công an – Cứu hỏa – Cấp cứu y tế:",
+        "o": [
+          "Chỉ có duy nhất số 999",
+          "111 (Cứu hỏa) – 112 (Công an) – 119 (Y tế)",
+          "115 (Công an) – 113 (Cấp cứu) – 114 (Đặt đồ ăn)",
+          "113 (Công an) – 114 (Cứu hỏa) – 115 (Cấp cứu y tế)"
+        ],
+        "k": "D",
+        "e": "Ghi nhớ nằm lòng 113 (Công an), 114 (Cứu hỏa), 115 (Cấp cứu) và số điện thoại của bố mẹ nhé!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Ghi nhớ 3 số khẩn cấp 113-114-115"
+      },
+      {
+        "c": "LS1-B12-009",
+        "d": "application",
+        "p": "Đi siêu thị đông người cùng bố mẹ, mải ngắm quầy đồ chơi một lát em ngoảnh lại không thấy bố mẹ đâu nữa (bị đi lạc). Trong tình huống này em cần làm gì để tìm lại bố mẹ an toàn?",
+        "o": [
+          "Đứng yên ở chỗ sáng dễ thấy trong siêu thị và tìm cô thu ngân mặc đồng phục hoặc bác bảo vệ nhờ gọi loa tìm bố mẹ",
+          "Đi theo một cô/chú người lạ mặt bảo sẽ dắt đi tìm mẹ",
+          "Trốn vào góc tủ tối không nói chuyện với ai",
+          "Khóc chạy thật nhanh ra ngoài đường lớn tìm"
+        ],
+        "k": "A",
+        "e": "Khi bị lạc ở siêu thị, trung tâm thương mại: Đứng yên, không theo người lạ, tìm nhân viên mặc đồng phục hoặc bảo vệ!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Kĩ năng xử lí khi bị lạc"
+      },
+      {
+        "c": "LS1-B12-010",
+        "d": "application",
+        "p": "Trong lớp học kĩ năng sống, cô giáo thống kê số bạn ghi nhớ thuộc chính xác cả 3 số điện thoại khẩn cấp 113–114–115 và số điện thoại của bố mẹ ở 4 tổ (biểu đồ dưới). Tổ nào cần ôn tập thuộc thêm số điện thoại người thân?",
+        "o": [
+          "Tổ 2 (9 bạn)",
+          "Tổ 4 (7 bạn)",
+          "Tổ 3 (chỉ có 4 bạn thuộc hết, thấp nhất)",
+          "Tổ 1 (8 bạn)"
+        ],
+        "k": "C",
+        "e": "Cột Tổ 3 thấp nhất (4 bạn); mọi học sinh lớp 1 đều cần thuộc số điện thoại của bố hoặc mẹ để phòng lúc khẩn cấp!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Đọc biểu đồ thuộc số khẩn cấp",
+        "fig": {
+          "type": "bars",
+          "title": "Số bạn thuộc số bố mẹ & 113-115 (bạn)",
+          "labels": [
+            "Tổ 1",
+            "Tổ 2",
+            "Tổ 3",
+            "Tổ 4"
+          ],
+          "series": [
+            {
+              "values": [
+                8,
+                9,
+                4,
+                7
+              ]
+            }
+          ],
+          "unit": "bạn"
+        }
+      },
+      {
+        "c": "LS1-B12-011",
+        "d": "application",
+        "p": "Đang chơi trong sân khu chung cư, có một người đàn ông lạ đến bảo: \"Con ơi chú bị lạc con chó con đáng yêu lắm, con đi theo chú ra bãi xe tối kia tìm giúp chú nhé!\". Em từ chối thế nào?",
+        "o": [
+          "Bước lùi lại phía chỗ đông người lớn, nói to dứt khoát: \"KHÔNG, cháu không đi đâu! Chú nhờ người lớn giúp nhé!\" rồi chạy vào chỗ bác bảo vệ",
+          "Đứng thì thầm nói chuyện riêng với chú ấy ở góc khuất",
+          "Đồng ý đi theo ngay vì thương chú chó con",
+          "Im lặng đi sát sau lưng chú ấy ra bãi xe"
+        ],
+        "k": "A",
+        "e": "\"Người lớn không bao giờ cần nhờ trẻ em giúp tìm đồ ở nơi vắng vẻ!\" – hãy cảnh giác và từ chối dứt khoát!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Cảnh giác chiêu trò nhờ tìm thú cưng"
+      },
+      {
+        "c": "LS1-B12-012",
+        "d": "application",
+        "p": "Khi mẹ cắm bàn là ủi đồ xong vừa rút điện đặt trên mặt bàn nhưng vẫn còn rất nóng, em đi ngang qua bàn có nên sờ tay vào mặt đế bàn là xem còn nóng không?",
+        "o": [
+          "Nhúng thẳng bàn là nóng vào xô nước",
+          "Có, sờ nhanh một giây là không sao",
+          "Đặt quyển vở giấy lên mặt bàn là cho nguội",
+          "Tuyệt đối không sờ tay kiểm tra vì đế kim loại bàn là giữ nhiệt nóng rất lâu sau khi rút điện, dễ gây bỏng nặng lòng bàn tay"
+        ],
+        "k": "D",
+        "e": "Bàn là, ống bô xe máy mới tắt máy, bóng đèn dây tóc vẫn giữ nhiệt nóng bỏng rất lâu sau khi tắt!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Cảnh giác đồ nóng sau khi tắt"
+      },
+      {
+        "c": "LS1-B12-013",
+        "d": "advanced",
+        "p": "Giả sử khi em đang chơi ở gần ổ cắm điện thì phát hiện dây sạc máy tính có mùi khét nhẹ và tia lửa nhỏ lóe lên. Em tuyệt đối KHÔNG làm điều nào và phải làm gì ngay?",
+        "o": [
+          "Cầm tay kéo giật sợi dây đang tóe lửa ra",
+          "Lấy ca nước đầy tạt thẳng vào ổ điện đang tóe lửa",
+          "Trùm chăn bông lên ổ cắm đang cháy",
+          "Không đổ nước lã vào chỗ chập điện, không chạm tay trực tiếp mà chạy thật nhanh báo người lớn ngắt cầu dao tổng ngay lập tức"
+        ],
+        "k": "D",
+        "e": "Tuyệt đối không tạt nước vào đám cháy điện (gây giật điện lan rộng!); phải ngắt cầu dao tổng và gọi 114 khi cần.",
+        "s": "Giáo dục lối sống 1",
+        "h": "Xử lí sự cố tia lửa điện"
+      },
+      {
+        "c": "LS1-B12-014",
+        "d": "advanced",
+        "p": "Tổng hợp bài học về an toàn cá nhân: \"Vùng riêng tư đồ bơi\" trên cơ thể em là gì và quy tắc bảo vệ bất khả xâm phạm đó là gì?",
+        "o": [
+          "Là mái tóc và chiếc mũ bảo hiểm",
+          "Là chiếc cặp sách đi học hàng ngày",
+          "Là hai bàn tay và hai bàn chân của em",
+          "Là các vùng cơ thể được đồ bơi che kín (miệng, ngực, vùng giữa hai đùi, mông) – không ai được chạm vào trừ bố mẹ khi vệ sinh hoặc bác sĩ khám có bố mẹ bên cạnh"
+        ],
+        "k": "D",
+        "e": "Bảo vệ vùng riêng tư giúp em tránh bị xâm hại và biết nói \"KHÔNG!\" hét to, kể ngay với bố mẹ khi có người có hành vi xấu!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Quy tắc đồ bơi bảo vệ bản thân"
+      },
+      {
+        "c": "LS1-B12-015",
+        "d": "advanced",
+        "p": "Tổng kết trọn vẹn 12 bài Giáo dục lối sống Lớp 1, bốn mảnh ghép làm nên \"Em bé Lớp 1 Tự lập – Văn minh – An toàn\" là gì?",
+        "o": [
+          "Chỉ cần ngủ muộn dậy muộn không gấp chăn",
+          "Không cần chào hỏi và chạy qua đường một mình",
+          "Nếp sinh hoạt ngăn nắp tự lập – Ăn uống ngủ nghỉ khỏe mạnh – Giao tiếp lễ phép xếp hàng – Đi lại an toàn phòng tránh nguy hiểm",
+          "Chỉ cần ăn thật nhiều đồ ngọt và không xếp hàng"
+        ],
+        "k": "C",
+        "e": "Chúc mừng em hoàn thành xuất sắc chương trình Giáo dục lối sống Lớp 1 – tự tin tỏa sáng mỗi ngày!",
+        "s": "Giáo dục lối sống 1",
+        "h": "Tổng kết Lối sống Lớp 1"
+      }
+    ]
+  }
+]

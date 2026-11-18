@@ -1,0 +1,4375 @@
+[
+  {
+    "chapter": "tiengviet2-c1",
+    "lesson": {
+      "code": "tiengviet2-b01",
+      "title": "Bài 1. Tôi là học sinh lớp 2 – Bảng chữ cái",
+      "seq": 1,
+      "subtitle": "Ôn lại thứ tự 29 chữ cái Tiếng Việt và đọc hiểu bài Tôi là học sinh lớp 2",
+      "concepts": [
+        "Bảng chữ cái 29 chữ",
+        "Sắp xếp tên theo thứ tự chữ cái",
+        "Đọc hiểu tâm trạng ngày khai trường"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV2-B01-001",
+        "d": "basic",
+        "p": "Bảng chữ cái Tiếng Việt gồm có bao nhiêu chữ cái?",
+        "o": [
+          "28 chữ cái",
+          "29 chữ cái",
+          "30 chữ cái",
+          "26 chữ cái"
+        ],
+        "k": "B",
+        "e": "Bảng chữ cái Tiếng Việt gồm 29 chữ cái chuẩn từ A đến Y.",
+        "s": "Kiến thức nền",
+        "fig": {
+          "type": "table",
+          "title": "Nhóm chữ cái",
+          "head": [
+            "Vị trí",
+            "Chữ cái"
+          ],
+          "rows": [
+            [
+              "Đầu bảng",
+              "a, ă, â, b, c"
+            ],
+            [
+              "Giữa bảng",
+              "l, m, n, o, ô, ơ"
+            ],
+            [
+              "Cuối bảng",
+              "u, ư, v, x, y"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV2-B01-002",
+        "d": "basic",
+        "p": "Trong bảng chữ cái Tiếng Việt, chữ cái nào đứng ngay sau chữ \"ă\"?",
+        "o": [
+          "a",
+          "e",
+          "â",
+          "b"
+        ],
+        "k": "C",
+        "e": "Thứ tự đầu bảng là a, ă, â, b, c.",
+        "s": "Thứ tự bảng chữ cái"
+      },
+      {
+        "c": "TV2-B01-003",
+        "d": "basic",
+        "p": "Trong bài đọc \"Tôi là học sinh lớp 2\", vì sao bạn nhỏ cảm thấy mình đã lớn hơn?",
+        "o": [
+          "Vì bạn nhỏ cao bằng anh lớp Năm",
+          "Vì đã lên lớp Hai, không còn rụt rè như hồi lớp Một",
+          "Vì bạn nhỏ mua được chiếc xe đạp mới",
+          "Vì bạn nhỏ được nghỉ hè thêm một tháng"
+        ],
+        "k": "B",
+        "e": "Lên lớp Hai, bạn nhỏ thấy tự tin hơn, chững chạc hơn so với ngày đầu vào lớp Một.",
+        "s": "Đọc hiểu"
+      },
+      {
+        "c": "TV2-B01-004",
+        "d": "basic",
+        "p": "Chữ cái đứng liền trước chữ \"ô\" trong bảng chữ cái là chữ nào?",
+        "o": [
+          "o",
+          "n",
+          "ơ",
+          "p"
+        ],
+        "k": "A",
+        "e": "Bộ ba chữ tròn xếp theo thứ tự: o, ô, ơ.",
+        "s": "Thứ tự bảng chữ cái"
+      },
+      {
+        "c": "TV2-B01-005",
+        "d": "basic",
+        "p": "Từ nào dùng để miêu tả cảm xúc hồi hộp, háo hức mong chờ ngày tựu trường?",
+        "o": [
+          "uể oải",
+          "chán nản",
+          "náo nức",
+          "sợ hãi"
+        ],
+        "k": "C",
+        "e": "\"Náo nức\" gợi niềm vui rộn ràng, háo hức.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV2-B01-006",
+        "d": "basic",
+        "p": "Cách viết tên riêng người Việt Nam nào sau đây ĐÚNG quy tắc chính tả?",
+        "o": [
+          "Nguyễn Hà An",
+          "Nguyễn Hà-An (thiếu viết hoa)",
+          "Hà An Nguyễn (viết sai thứ tự)",
+          "Nguyễn-Hà-An (nối gạch ngang)"
+        ],
+        "k": "A",
+        "e": "Tên riêng người Việt viết hoa chữ cái đầu tất cả các tiếng và ngăn cách bằng khoảng trắng.",
+        "s": "Quy tắc viết hoa"
+      },
+      {
+        "c": "TV2-B01-007",
+        "d": "application",
+        "p": "Sắp xếp tên bốn bạn \"Bình, An, Dũng, Cường\" theo đúng thứ tự bảng chữ cái:",
+        "o": [
+          "An, Bình, Cường, Dũng",
+          "Dũng, Cường, Bình, An",
+          "Bình, An, Dũng, Cường",
+          "An, Cường, Bình, Dũng"
+        ],
+        "k": "A",
+        "e": "Xét chữ cái đầu: A (An) -> B (Bình) -> C (Cường) -> D (Dũng).",
+        "s": "Sắp xếp danh sách"
+      },
+      {
+        "c": "TV2-B01-008",
+        "d": "application",
+        "p": "Trên danh sách lớp xếp theo bảng chữ cái, tên của bạn nào sẽ đứng SAU cùng trong các bạn: \"Mai, Lan, Nga, Phương\"?",
+        "o": [
+          "Mai",
+          "Lan",
+          "Nga",
+          "Phương"
+        ],
+        "k": "D",
+        "e": "Thứ tự L (Lan) -> M (Mai) -> N (Nga) -> P (Phương), nên Phương đứng sau cùng.",
+        "s": "Ứng dụng bảng chữ cái"
+      },
+      {
+        "c": "TV2-B01-009",
+        "d": "application",
+        "p": "Nếu hai bạn cùng có chữ cái đầu là \"T\" là \"Thảo\" và \"Trang\", làm thế nào xếp thứ tự đúng trong sổ điểm?",
+        "o": [
+          "Dựa vào chữ cái thứ hai: h đứng trước r nên Thảo trước Trang",
+          "Cả hai bạn đứng cùng một dòng",
+          "Xếp Trang trước Thảo vì dài hơn",
+          "Xếp ai cao hơn đứng trước"
+        ],
+        "k": "A",
+        "e": "Khi chữ cái đầu giống nhau, ta xét đến chữ cái thứ hai: h đứng trước r.",
+        "s": "Quy tắc sắp xếp tên"
+      },
+      {
+        "c": "TV2-B01-010",
+        "d": "application",
+        "p": "Trong câu \"Ngày khai trường, em khoác cặp mới hớn hở tới lớp\", từ nào chỉ trạng thái vui vẻ trên gương mặt?",
+        "o": [
+          "khoác cặp",
+          "tới lớp",
+          "hớn hở",
+          "khai trường"
+        ],
+        "k": "C",
+        "e": "\"Hớn hở\" miêu tả nét mặt vui tươi, phấn khởi.",
+        "s": "Từ miêu tả"
+      },
+      {
+        "c": "TV2-B01-011",
+        "d": "application",
+        "p": "Điền chữ cái đúng vào chỗ trống để hoàn thành tên nhóm chữ cái: \"... , ê, g, h, i\".",
+        "o": [
+          "d",
+          "e",
+          "k",
+          "đ"
+        ],
+        "k": "B",
+        "e": "Thứ tự chuẩn trong bảng chữ cái là e, ê, g, h, i.",
+        "s": "Bảng chữ cái"
+      },
+      {
+        "c": "TV2-B01-012",
+        "d": "application",
+        "p": "Chọn câu giới thiệu đúng mẫu \"Ai là gì?\" về bản thân em khi lên lớp Hai:",
+        "o": [
+          "Lớp học của em rất rộng.",
+          "Em đi học từ sáng sớm.",
+          "Em đang viết bài tập đọc.",
+          "Em là học sinh lớp Hai."
+        ],
+        "k": "D",
+        "e": "Câu kiểu \"Ai là gì?\" dùng từ \"là\" nối giữa bộ phận Ai và là gì.",
+        "s": "Kiểu câu"
+      },
+      {
+        "c": "TV2-B01-013",
+        "d": "advanced",
+        "p": "Trong lớp có 4 bạn tên: Ân, Anh, Bình, Bảo. Hãy xếp đúng thứ tự từ đầu đến cuối theo bảng chữ cái Tiếng Việt:",
+        "o": [
+          "Anh, Ân, Bình, Bảo",
+          "Bảo, Bình, Anh, Ân",
+          "Anh, Ân, Bảo, Bình",
+          "Ân, Anh, Bảo, Bình"
+        ],
+        "k": "C",
+        "e": "Chữ A đứng trước Â (Anh trước Ân); cùng chữ B thì chữ a đứng trước chữ i (Bảo trước Bình).",
+        "s": "Sắp xếp nâng cao"
+      },
+      {
+        "c": "TV2-B01-014",
+        "d": "advanced",
+        "p": "Đọc đoạn: \"Lên lớp Hai, em không còn bám áo mẹ khóc nhè nữa mà tự tin chào bố mẹ rồi bước vào sân trường.\" Đoạn văn cho thấy sự thay đổi nào của bạn nhỏ?",
+        "o": [
+          "Quên hết các bạn cũ hồi lớp Một",
+          "Trưởng thành hơn, mạnh dạn và tự lập hơn",
+          "Thích chơi ở sân hơn vào lớp",
+          "Không muốn đi học sớm như trước"
+        ],
+        "k": "B",
+        "e": "Việc tự tin bước vào trường cho thấy sự khôn lớn, tự lập của học sinh lớp Hai.",
+        "s": "Đọc hiểu sâu"
+      },
+      {
+        "c": "TV2-B01-015",
+        "d": "advanced",
+        "p": "Chữ cái nào KHÔNG nằm trong bảng 29 chữ cái Tiếng Việt chuẩn dùng viết tiếng phổ thông?",
+        "o": [
+          "w",
+          "đ",
+          "y",
+          "ư"
+        ],
+        "k": "A",
+        "e": "Các chữ f, j, w, z chỉ dùng trong chữ viết tiếng nước ngoài hoặc phiên âm đặc biệt.",
+        "s": "Nhận biết chữ cái"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet2-c1",
+    "lesson": {
+      "code": "tiengviet2-b02",
+      "title": "Bài 2. Ngày hôm qua đâu rồi? – Thời gian biểu",
+      "seq": 2,
+      "subtitle": "Đọc hiểu bài thơ Ngày hôm qua đâu rồi và biết đọc, lập thời gian biểu hằng ngày",
+      "concepts": [
+        "Đọc hiểu thơ",
+        "Lập thời gian biểu",
+        "Trân trọng thời gian"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV2-B02-001",
+        "d": "basic",
+        "p": "Trong bài thơ \"Ngày hôm qua đâu rồi?\", bạn nhỏ đã hỏi bố câu hỏi gì?",
+        "o": [
+          "Ngày hôm qua đi đâu rồi?",
+          "Ngày mai trời có nắng không?",
+          "Bố ơi mẹ đi chợ chưa?",
+          "Hoa hồng nở vào mùa nào?"
+        ],
+        "k": "A",
+        "e": "Nhan đề và lời thơ mở đầu bằng câu hỏi ngây thơ của bạn nhỏ về ngày hôm qua.",
+        "s": "Đọc hiểu thơ"
+      },
+      {
+        "c": "TV2-B02-002",
+        "d": "basic",
+        "p": "Theo lời bố trả lời trong bài thơ, ngày hôm qua ở lại trong những sự vật nào?",
+        "o": [
+          "Trong cành hoa, hạt lúa, vở hồng của con",
+          "Dưới đáy con sông chảy xiết",
+          "Trên những đám mây bay đi mất",
+          "Trong tủ sách khóa kín của mẹ"
+        ],
+        "k": "A",
+        "e": "Ngày hôm qua không mất đi mà đọng lại thành hoa thơm, hạt lúa chín và trang vở học tập chăm chỉ.",
+        "s": "Đọc hiểu thơ"
+      },
+      {
+        "c": "TV2-B02-003",
+        "d": "basic",
+        "p": "Thời gian biểu giúp học sinh thực hiện điều gì tốt hơn?",
+        "o": [
+          "Sắp xếp các việc trong ngày hợp lí và đúng giờ",
+          "Chơi điện tử cả ngày không nghỉ",
+          "Không cần làm bài tập ở nhà",
+          "Ngủ quên suốt cả buổi sáng"
+        ],
+        "k": "A",
+        "e": "Thời gian biểu liệt kê các mốc giờ và công việc giúp ta sống ngăn nắp, hiệu quả.",
+        "s": "Kĩ năng sống",
+        "fig": {
+          "type": "table",
+          "title": "Thời gian biểu mẫu",
+          "head": [
+            "Khung giờ",
+            "Hoạt động"
+          ],
+          "rows": [
+            [
+              "6h30 - 7h00",
+              "Vệ sinh, ăn sáng"
+            ],
+            [
+              "7h30 - 11h00",
+              "Học ở trường"
+            ],
+            [
+              "19h30 - 20h30",
+              "Ôn bài tại nhà"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV2-B02-004",
+        "d": "basic",
+        "p": "Để lập thời gian biểu một ngày, cần có hai cột thông tin cơ bản nào?",
+        "o": [
+          "Tên bạn bè và Món ăn",
+          "Thời gian và Công việc thực hiện",
+          "Màu sắc và Giá tiền",
+          "Số trang và Tác giả"
+        ],
+        "k": "B",
+        "e": "Thời gian biểu luôn gắn từng mốc thời gian với hoạt động tương ứng.",
+        "s": "Cấu trúc văn bản"
+      },
+      {
+        "c": "TV2-B02-005",
+        "d": "basic",
+        "p": "Từ nào chỉ khoảng thời gian đã trôi qua trước ngày hôm nay?",
+        "o": [
+          "Hôm qua",
+          "Ngày mai",
+          "Hiện tại",
+          "Tuần sau"
+        ],
+        "k": "A",
+        "e": "\"Hôm qua\" chỉ ngày liền trước ngày hôm nay.",
+        "s": "Vốn từ thời gian"
+      },
+      {
+        "c": "TV2-B02-006",
+        "d": "basic",
+        "p": "Trong các từ sau, từ nào chỉ thời điểm buổi tối?",
+        "o": [
+          "12 giờ trưa",
+          "19 giờ 30 phút",
+          "6 giờ sáng",
+          "9 giờ sáng"
+        ],
+        "k": "B",
+        "e": "19 giờ 30 phút là 7 giờ 30 phút tối.",
+        "s": "Đọc giờ"
+      },
+      {
+        "c": "TV2-B02-007",
+        "d": "application",
+        "p": "Nhìn vào thời gian biểu mẫu ở hình minh họa, bạn nhỏ ôn bài tại nhà vào lúc nào?",
+        "o": [
+          "Từ 19h30 đến 20h30",
+          "Lúc 12h00 trưa",
+          "Từ 6h30 đến 7h00",
+          "Từ 7h30 đến 11h00"
+        ],
+        "k": "A",
+        "e": "Dòng cuối của bảng thời gian biểu ghi rõ khung giờ ôn bài là 19h30 - 20h30.",
+        "s": "Đọc hiểu bảng"
+      },
+      {
+        "c": "TV2-B02-008",
+        "d": "application",
+        "p": "Câu thơ \"Ngày hôm qua ở lại / Trong vở hồng của con / Con học hành chăm chỉ / Là ngày qua vẫn còn\" khuyên chúng ta điều gì?",
+        "o": [
+          "Chỉ cần học một ngày rồi nghỉ cả tuần",
+          "Nên giữ lại tờ lịch cũ không bỏ đi",
+          "Phải mua vở có bìa màu hồng",
+          "Biết quý trọng thời gian, chăm chỉ học tập từng ngày"
+        ],
+        "k": "D",
+        "e": "Nếu mỗi ngày ta làm việc có ích, học chăm chỉ thì thời gian trôi qua luôn mang lại kết quả tốt đẹp.",
+        "s": "Ý nghĩa bài thơ"
+      },
+      {
+        "c": "TV2-B02-009",
+        "d": "application",
+        "p": "Điền từ thích hợp: \"Thời gian quý hơn ...\".",
+        "o": [
+          "lá khô",
+          "đá sỏi",
+          "vàng bạc",
+          "cát bụi"
+        ],
+        "k": "C",
+        "e": "Thành ngữ quen thuộc nhắc nhở giá trị của thời gian là \"Thời gian quý hơn vàng bạc\".",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV2-B02-010",
+        "d": "application",
+        "p": "Hoạt động nào nên đặt vào khoảng 21 giờ tối trong thời gian biểu của học sinh lớp 2?",
+        "o": [
+          "Chào cờ đầu tuần",
+          "Đi đá bóng ngoài sân",
+          "Ăn bữa sáng",
+          "Đi ngủ đúng giờ"
+        ],
+        "k": "D",
+        "e": "Học sinh lớp 2 cần ngủ sớm khoảng 21 giờ để đảm bảo sức khỏe.",
+        "s": "Xây dựng thời gian biểu"
+      },
+      {
+        "c": "TV2-B02-011",
+        "d": "application",
+        "p": "Trong hai từ \"hạt lúa\" và \"nụ hoa\", tiếng nào có âm đầu \"n\"?",
+        "o": [
+          "hoa",
+          "lúa",
+          "hạt",
+          "nụ"
+        ],
+        "k": "D",
+        "e": "Tiếng \"nụ\" bắt đầu bằng âm n (khác với \"lúa\" bắt đầu bằng l).",
+        "s": "Chính tả l và n"
+      },
+      {
+        "c": "TV2-B02-012",
+        "d": "application",
+        "p": "Chọn câu đặt dấu hỏi chấm (?) ĐÚNG mục đích:",
+        "o": [
+          "Hôm nay trời nắng đẹp?",
+          "Em học hành rất chăm chỉ?",
+          "Ngày hôm qua đâu rồi?",
+          "Ngày hôm qua đã trôi qua?"
+        ],
+        "k": "C",
+        "e": "Câu \"Ngày hôm qua đâu rồi?\" dùng để hỏi thông tin nên kết thúc bằng dấu chấm hỏi.",
+        "s": "Dấu câu"
+      },
+      {
+        "c": "TV2-B02-013",
+        "d": "advanced",
+        "p": "Bố chỉ vào bông hoa trên cành và nói ngày hôm qua ở lại trong nụ hoa ấy. Câu nói của bố có ý nghĩa gì?",
+        "o": [
+          "Bông hoa cất tờ lịch hôm qua bên trong cánh hoa",
+          "Nụ hoa hôm qua nay đã nở tươi nhờ thời gian và công chăm tưới",
+          "Không bao giờ nên hái hoa trong vườn",
+          "Bông hoa chỉ nở vào ngày hôm qua rồi tàn"
+        ],
+        "k": "B",
+        "e": "Hoa nở hôm nay là thành quả lớn lên từ nụ hoa hôm qua và công chăm sóc.",
+        "s": "Cảm thụ hình ảnh"
+      },
+      {
+        "c": "TV2-B02-014",
+        "d": "advanced",
+        "p": "Bạn Minh lập thời gian biểu có mục \"17h00 - 17h45: Tập thể dục; 17h45 - 18h15: Tắm rửa\". Theo em bố trí như vậy hợp lí không và vì sao?",
+        "o": [
+          "Hợp lí vì vận động buổi chiều xong rồi tắm rửa sạch sẽ trước bữa tối",
+          "Không hợp lí vì nên tắm rửa trước rồi mới đá bóng",
+          "Không hợp lí vì 17h là nửa đêm",
+          "Không hợp lí vì không ai tập thể dục buổi chiều"
+        ],
+        "k": "A",
+        "e": "Tập thể dục buổi chiều giúp khỏe mạnh, sau đó tắm sạch sẽ tạo cảm giác sảng khoái ăn cơm tối.",
+        "s": "Đánh giá thời gian biểu"
+      },
+      {
+        "c": "TV2-B02-015",
+        "d": "advanced",
+        "p": "Từ nào trái nghĩa với \"lãng phí thời gian\"?",
+        "o": [
+          "Chậm trễ công việc",
+          "Quên giờ giấc",
+          "Tiết kiệm thời gian",
+          "Trì hoãn mọi việc"
+        ],
+        "k": "C",
+        "e": "\"Tiết kiệm thời gian\" đối lập với việc tiêu tốn thời gian vô ích.",
+        "s": "Từ trái nghĩa"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet2-c1",
+    "lesson": {
+      "code": "tiengviet2-b03",
+      "title": "Bài 3. Niềm vui của Bi và Bống – Chia sẻ yêu thương",
+      "seq": 3,
+      "subtitle": "Đọc hiểu truyện về tình cảm anh em và luyện tập mở rộng vốn từ về tình cảm gia đình",
+      "concepts": [
+        "Đọc hiểu câu chuyện Bi và Bống",
+        "Từ chỉ tình cảm anh em",
+        "Đặt câu với từ chỉ hoạt động"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV2-B03-001",
+        "d": "basic",
+        "p": "Trong câu chuyện \"Niềm vui của Bi và Bống\", hai anh em đã nhìn thấy điều gì đẹp ở cuối cơn mưa?",
+        "o": [
+          "Những hạt tuyết trắng rơi xuống sân",
+          "Chiếc cầu vồng bảy sắc trên bầu trời",
+          "Cây phượng nở đầy hoa đỏ",
+          "Một đàn bướm trắng bay vào nhà"
+        ],
+        "k": "B",
+        "e": "Sau cơn mưa rào mùa hạ, cầu vồng rực rỡ hiện lên khiến Bi và Bống thích thú.",
+        "s": "Đọc hiểu truyện"
+      },
+      {
+        "c": "TV2-B03-002",
+        "d": "basic",
+        "p": "Nghe nói dưới chân cầu vồng có bảy hũ vàng, hai anh em Bi và Bống đã ước điều gì cho nhau?",
+        "o": [
+          "Ai chạy nhanh hơn sẽ giữ hết vàng",
+          "Chỉ mua đồ chơi cho riêng mình",
+          "Đem vàng giấu thật kĩ không cho ai biết",
+          "Anh lấy vàng mua búp bê cho em, em lại mua ngựa gỗ cho anh"
+        ],
+        "k": "D",
+        "e": "Cả Bi và Bống đều nghĩ đến mua món quà mà người kia yêu thích nhất, thể hiện tình cảm gắn bó.",
+        "s": "Đọc hiểu chi tiết"
+      },
+      {
+        "c": "TV2-B03-003",
+        "d": "basic",
+        "p": "Từ nào chỉ tình cảm giữa anh chị em trong gia đình?",
+        "o": [
+          "cãi vã",
+          "ghen tị",
+          "xa cách",
+          "yêu thương"
+        ],
+        "k": "D",
+        "e": "\"Yêu thương\" là tình cảm ấm áp dành cho người thân.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV2-B03-004",
+        "d": "basic",
+        "p": "Trong các từ sau, từ nào chỉ ĐỒ VẬT?",
+        "o": [
+          "chạy nhảy",
+          "tươi cười",
+          "búp bê",
+          "lấp lánh"
+        ],
+        "k": "C",
+        "e": "\"Búp bê\" là từ chỉ sự vật (đồ chơi).",
+        "s": "Từ loại"
+      },
+      {
+        "c": "TV2-B03-005",
+        "d": "basic",
+        "p": "Bầu trời sau cơn mưa khi có cầu vồng được miêu tả như thế nào?",
+        "o": [
+          "Lạnh giá đóng băng",
+          "Mù mịt khói bụi",
+          "Trong xanh, rực rỡ sắc màu",
+          "Tối đen, đầy mây xám"
+        ],
+        "k": "C",
+        "e": "Sau mưa trời tạnh ráo, cầu vồng bảy sắc rực rỡ xuất hiện.",
+        "s": "Từ miêu tả"
+      },
+      {
+        "c": "TV2-B03-006",
+        "d": "basic",
+        "p": "Tiếng \"niềm\" trong \"niềm vui\" bắt đầu bằng âm nào?",
+        "o": [
+          "l",
+          "nh",
+          "n",
+          "m"
+        ],
+        "k": "C",
+        "e": "Tiếng \"niềm\" bắt đầu bằng âm n, vần iêm và thanh huyền.",
+        "s": "Chính tả l và n"
+      },
+      {
+        "c": "TV2-B03-007",
+        "d": "application",
+        "p": "Vì sao dù không tìm thấy hũ vàng nào dưới chân cầu vồng, hai anh em Bi và Bống vẫn cảm thấy rất vui?",
+        "o": [
+          "Vì hai anh em đã biết được tấm lòng yêu thương, nhường nhịn nhau",
+          "Vì bố mẹ thưởng cho mỗi bạn một chiếc xe máy",
+          "Vì trời lại tiếp tục đổ mưa to",
+          "Vì hai bạn tìm được hũ kẹo sô-cô-la"
+        ],
+        "k": "A",
+        "e": "Niềm vui lớn nhất của Bi và Bống là tình cảm chân thành luôn nghĩ cho nhau.",
+        "s": "Ý nghĩa truyện"
+      },
+      {
+        "c": "TV2-B03-008",
+        "d": "application",
+        "p": "Chọn từ chỉ hoạt động phù hợp điền vào chỗ trống: \"Hai anh em cùng nhau ... bức tranh cầu vồng.\"",
+        "o": [
+          "vẽ",
+          "đỏ rực",
+          "ngọt ngào",
+          "cao vút"
+        ],
+        "k": "A",
+        "e": "\"Vẽ\" là từ chỉ hoạt động tạo ra bức tranh.",
+        "s": "Từ chỉ hoạt động"
+      },
+      {
+        "c": "TV2-B03-009",
+        "d": "application",
+        "p": "Trong hai từ \"nhường nhịn\" và \"chia sẻ\", đặc điểm chung của hai hành động này là gì?",
+        "o": [
+          "Đều dùng để tả màu sắc",
+          "Đều là hoạt động thể thao ngoài trời",
+          "Đều chỉ sự tranh giành đồ chơi",
+          "Đều thể hiện sự quan tâm, biết nghĩ đến người khác"
+        ],
+        "k": "D",
+        "e": "Nhường nhịn và chia sẻ giúp gia đình và bạn bè thêm hòa thuận, vui vẻ.",
+        "s": "Hiểu nghĩa từ"
+      },
+      {
+        "c": "TV2-B03-010",
+        "d": "application",
+        "p": "Chọn câu viết ĐÚNG chính tả:",
+        "o": [
+          "Cầu vồng hiện lên dực dỡ sau cơn mưa.",
+          "Cầu vồng hiện nên rực rỡ sau cơn mưa.",
+          "Cầu vồng hiện lên rực rỡ sau cơn mưa.",
+          "Cầu rồng hiện lên rực rỡ sau cơn mưa."
+        ],
+        "k": "C",
+        "e": "\"Hiện lên\" viết chữ l; \"rực rỡ\" viết chữ r.",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV2-B03-011",
+        "d": "application",
+        "p": "Tìm từ viết ĐÚNG khi nói về cách ứng xử đẹp giữa anh chị và các em:",
+        "o": [
+          "hòa thuân",
+          "hoà thuẩn",
+          "hòa thuận",
+          "hoa thuận"
+        ],
+        "k": "C",
+        "e": "\"Hòa thuận\" (vần uân ở tiếng thuận) chỉ sự êm ấm, không cãi cọ.",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV2-B03-012",
+        "d": "application",
+        "p": "Trong câu \"Bống mỉm cười thật tươi nhìn anh Bi\", từ nào chỉ hoạt động?",
+        "o": [
+          "mỉm cười, nhìn",
+          "mỉm cười, thật",
+          "Bống, anh Bi",
+          "thật tươi"
+        ],
+        "k": "A",
+        "e": "\"Mỉm cười\" và \"nhìn\" là hai từ chỉ hoạt động.",
+        "s": "Tìm từ chỉ hoạt động"
+      },
+      {
+        "c": "TV2-B03-013",
+        "d": "advanced",
+        "p": "Đọc câu tục ngữ: \"Anh em như thể tay chân / Rách lành đùm bọc, dở hay đỡ đần.\" Câu tục ngữ ví tình anh em với tay và chân để nhấn mạnh điều gì?",
+        "o": [
+          "Chỉ cần dùng tay làm việc không cần dùng chân",
+          "Tay và chân lúc nào cũng dài bằng nhau",
+          "Anh em phải mặc quần áo giống hệt nhau",
+          "Anh em gắn bó mật thiết, không thể tách rời và luôn giúp đỡ nhau"
+        ],
+        "k": "D",
+        "e": "Tay và chân là bộ phận cùng một cơ thể; anh em ruột thịt cũng gắn bó keo sơn như vậy.",
+        "s": "Cảm thụ tục ngữ"
+      },
+      {
+        "c": "TV2-B03-014",
+        "d": "advanced",
+        "p": "Em có một chiếc bánh ngon, em nhỏ ở nhà cũng rất thích. Cách ứng xử nào giống tinh thần của Bi và Bống?",
+        "o": [
+          "Giấu bánh đi rồi bảo hết rồi",
+          "Chạy vào phòng ăn một mình thật nhanh",
+          "Đòi em phải làm hết bài tập hộ mới cho nếm thử",
+          "Chia đôi chiếc bánh để hai anh em cùng thưởng thức"
+        ],
+        "k": "D",
+        "e": "Biết chia sẻ niềm vui và món quà nhỏ với em là biểu hiện của tình anh em yêu thương.",
+        "s": "Ứng xử thực tế"
+      },
+      {
+        "c": "TV2-B03-015",
+        "d": "advanced",
+        "p": "Tìm câu có chứa cả từ chỉ sự vật và từ chỉ hoạt động trong các câu sau:",
+        "o": [
+          "Bống ôm búp bê vào lòng.",
+          "Bầu trời cao trong xanh.",
+          "Chiếc cầu vồng bảy sắc.",
+          "Màu cầu vồng rất đẹp."
+        ],
+        "k": "A",
+        "e": "\"Bống\", \"búp bê\", \"lòng\" là từ chỉ sự vật; \"ôm\" là từ chỉ hoạt động.",
+        "s": "Phân tích câu"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet2-c1",
+    "lesson": {
+      "code": "tiengviet2-b04",
+      "title": "Bài 4. Em có xinh không? – Câu giới thiệu Ai là gì?",
+      "seq": 4,
+      "subtitle": "Đọc hiểu truyện Em có xinh không và nhận diện, đặt câu theo mẫu Ai là gì?",
+      "concepts": [
+        "Đọc hiểu câu chuyện",
+        "Mẫu câu Ai là gì?",
+        "Vẻ đẹp tâm hồn và sự tự tin"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV2-B04-001",
+        "d": "basic",
+        "p": "Trong câu chuyện \"Em có xinh không?\", voi em đã làm gì để mong mình trông xinh đẹp hơn?",
+        "o": [
+          "Đi mua một chiếc váy mới",
+          "Cắt ngắn chiếc vòi đi",
+          "Tập bay lên ngọn cây",
+          "Gắn thêm cành hoa lên tai và vẽ lên mặt"
+        ],
+        "k": "D",
+        "e": "Voi em bắt chước các bạn gắn hoa, vẽ mặt nhưng lại khiến bạn bè bật cười ngộ nghĩnh.",
+        "s": "Đọc hiểu truyện"
+      },
+      {
+        "c": "TV2-B04-002",
+        "d": "basic",
+        "p": "Voi anh đã khuyên voi em điều gì giúp voi em nhận ra vẻ đẹp thật sự của mình?",
+        "o": [
+          "Em nên trốn trong hang đừng ra ngoài",
+          "Em hãy cố gắng thu nhỏ tai lại",
+          "Em đẹp nhất khi em là chính mình",
+          "Em phải đeo thật nhiều vòng hoa mới đẹp"
+        ],
+        "k": "C",
+        "e": "Mỗi người, mỗi loài vật đều có nét đáng yêu riêng khi sống đúng với bản thân mình.",
+        "s": "Đọc hiểu truyện"
+      },
+      {
+        "c": "TV2-B04-003",
+        "d": "basic",
+        "p": "Câu nào sau đây thuộc mẫu câu giới thiệu \"Ai là gì?\"?",
+        "o": [
+          "Chú chim đang hót líu lo.",
+          "Em là học sinh lớp Hai.",
+          "Voi em bước đi chậm rãi.",
+          "Cánh hoa hồng đỏ thắm."
+        ],
+        "k": "B",
+        "e": "Mẫu \"Ai là gì?\" có từ \"là\" nối giữa chủ thể (Em) và phần giới thiệu (học sinh lớp Hai).",
+        "s": "Mẫu câu Ai là gì?",
+        "fig": {
+          "type": "table",
+          "title": "Mẫu câu Ai là gì?",
+          "head": [
+            "Bộ phận Ai",
+            "Bộ phận là gì"
+          ],
+          "rows": [
+            [
+              "Em",
+              "là học sinh lớp Hai."
+            ],
+            [
+              "Bố em",
+              "là bác sĩ."
+            ],
+            [
+              "Tre xanh",
+              "là bạn nhà nông."
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV2-B04-004",
+        "d": "basic",
+        "p": "Trong câu \"Hoa phượng là loài hoa báo hiệu mùa hè\", bộ phận trả lời cho câu hỏi \"Cái gì?\" là từ nào?",
+        "o": [
+          "là loài hoa",
+          "Hoa phượng",
+          "mùa hè",
+          "báo hiệu mùa hè"
+        ],
+        "k": "B",
+        "e": "Đối tượng được giới thiệu ở đầu câu là \"Hoa phượng\".",
+        "s": "Phân tích câu"
+      },
+      {
+        "c": "TV2-B04-005",
+        "d": "basic",
+        "p": "Từ nào chỉ nét đẹp về tính cách bên trong như hiền lành, thật thà, biết giúp đỡ mọi người?",
+        "o": [
+          "Quần áo đắt tiền",
+          "Kiểu tóc cầu kì",
+          "Giày dép mới tinh",
+          "Nét đẹp tâm hồn"
+        ],
+        "k": "D",
+        "e": "Tính nết tốt bụng, chân thật tạo nên vẻ đẹp bền vững bên trong mỗi người.",
+        "s": "Hiểu biết"
+      },
+      {
+        "c": "TV2-B04-006",
+        "d": "basic",
+        "p": "Chọn từ viết ĐÚNG chính tả:",
+        "o": [
+          "xinh xắn",
+          "xinh sắn",
+          "sinh sắn",
+          "sinh xắn"
+        ],
+        "k": "A",
+        "e": "\"Xinh xắn\" cả hai tiếng đều viết bằng chữ x.",
+        "s": "Chính tả s và x"
+      },
+      {
+        "c": "TV2-B04-007",
+        "d": "application",
+        "p": "Đọc đoạn: \"Voi em gỡ cành hoa xuống, ngắm mình trong gương nước và thấy chiếc vòi dài thật ngộ nghĩnh, đáng yêu.\" Voi em lúc này cảm thấy thế nào?",
+        "o": [
+          "Sợ hãi khi nhìn xuống mặt nước",
+          "Thất vọng vì không có sừng như hươu",
+          "Tự tin và yêu quý vẻ ngoài tự nhiên của mình",
+          "Buồn bã và tức giận với voi anh"
+        ],
+        "k": "C",
+        "e": "Nhờ lời khuyên của anh, voi em vui vẻ chấp nhận và yêu quý nét riêng của mình.",
+        "s": "Đọc hiểu"
+      },
+      {
+        "c": "TV2-B04-008",
+        "d": "application",
+        "p": "Hoàn thành câu theo mẫu \"Ai là gì?\": \"Mẹ của Lan ...\"",
+        "o": [
+          "rất dịu dàng và hiền hậu.",
+          "là cô giáo dạy Mĩ thuật.",
+          "mua cho Lan chiếc cặp mới.",
+          "đang nấu cơm trong bếp."
+        ],
+        "k": "B",
+        "e": "Phần \"là cô giáo dạy Mĩ thuật\" tạo đúng cấu trúc câu giới thiệu \"Ai là gì?\".",
+        "s": "Đặt câu Ai là gì?"
+      },
+      {
+        "c": "TV2-B04-009",
+        "d": "application",
+        "p": "Câu nào KHÔNG thuộc mẫu câu \"Ai là gì?\"?",
+        "o": [
+          "Bầu trời hôm nay trong xanh quá!",
+          "Sách vở là người bạn thân của học sinh.",
+          "Bạn Minh là lớp trưởng lớp 2A.",
+          "Hà Nội là thủ đô của Việt Nam."
+        ],
+        "k": "A",
+        "e": "\"Bầu trời hôm nay trong xanh quá!\" là câu nêu đặc điểm kết hợp cảm thán, không dùng để giới thiệu danh phận.",
+        "s": "Phân biệt kiểu câu"
+      },
+      {
+        "c": "TV2-B04-010",
+        "d": "application",
+        "p": "Trong câu \"Cô giáo là người mẹ hiền thứ hai của em\", bộ phận trả lời cho câu hỏi \"là gì?\" là phần nào?",
+        "o": [
+          "Cô giáo",
+          "là người mẹ hiền thứ hai của em",
+          "Cô giáo là",
+          "của em"
+        ],
+        "k": "B",
+        "e": "Bộ phận đứng từ chữ \"là\" đến hết câu trả lời cho câu hỏi \"là ai?\" hay \"là gì?\".",
+        "s": "Phân tích câu"
+      },
+      {
+        "c": "TV2-B04-011",
+        "d": "application",
+        "p": "Chọn từ trái nghĩa với \"tự tin\":",
+        "o": [
+          "mạnh dạn",
+          "tự ti",
+          "can đảm",
+          "vui vẻ"
+        ],
+        "k": "B",
+        "e": "\"Tự ti\" là mặc cảm, thiếu niềm tin vào bản thân, trái nghĩa với \"tự tin\".",
+        "s": "Từ trái nghĩa"
+      },
+      {
+        "c": "TV2-B04-012",
+        "d": "application",
+        "p": "Sắp xếp các từ \"là, chú, công an, bác, hàng xóm\" thành câu đúng mẫu Ai là gì?:",
+        "o": [
+          "Hàng xóm là bác chú công an.",
+          "Là bác hàng xóm chú công an.",
+          "Bác hàng xóm là chú công an.",
+          "Chú công an bác hàng xóm là."
+        ],
+        "k": "C",
+        "e": "Câu hoàn chỉnh đúng ngữ pháp là \"Bác hàng xóm là chú công an.\"",
+        "s": "Sắp xếp câu"
+      },
+      {
+        "c": "TV2-B04-013",
+        "d": "advanced",
+        "p": "Vì sao trong một lớp học, mỗi bạn có ngoại hình và sở thích khác nhau nhưng đều đáng quý?",
+        "o": [
+          "Vì ai cũng thích mặc áo cùng một màu",
+          "Vì mỗi người mang một nét riêng làm tập thể thêm phong phú và biết giúp đỡ nhau",
+          "Vì bạn nào cũng phải làm giống hệt bạn lớp trưởng",
+          "Vì chỉ những bạn hát hay mới đáng quý"
+        ],
+        "k": "B",
+        "e": "Sự đa dạng tính cách, tài năng giúp mọi người bổ sung cho nhau và tôn trọng nét riêng của bạn bè.",
+        "s": "Giá trị sống"
+      },
+      {
+        "c": "TV2-B04-014",
+        "d": "advanced",
+        "p": "Phân biệt hai câu sau: (1) \"Bạn Nam là cầu thủ bóng đá nhí.\" và (2) \"Bạn Nam đang đá bóng trên sân.\" Điểm khác biệt chính là gì?",
+        "o": [
+          "Hai câu không có sự khác nhau nào",
+          "Cả hai câu đều cùng mẫu câu Ai làm gì?",
+          "Câu (1) giới thiệu bạn Nam là ai, còn câu (2) kể hoạt động bạn Nam đang làm",
+          "Câu (1) tả đặc điểm, câu (2) giới thiệu nghề nghiệp"
+        ],
+        "k": "C",
+        "e": "Câu (1) là mẫu \"Ai là gì?\" (có từ \"là\"), câu (2) là mẫu \"Ai làm gì?\" (từ chỉ hoạt động \"đá bóng\").",
+        "s": "So sánh mẫu câu"
+      },
+      {
+        "c": "TV2-B04-015",
+        "d": "advanced",
+        "p": "Nếu thấy một bạn trong lớp bị các bạn khác trêu vì đeo kính cận dày, em nên làm gì?",
+        "o": [
+          "Đứng ra bảo vệ bạn, nhắc các bạn không trêu chọc và động viên bạn tự tin",
+          "Cười hùa theo cho vui",
+          "Mượn kính của bạn chạy trốn",
+          "Khuyên bạn tháo kính ra đừng nhìn bảng nữa"
+        ],
+        "k": "A",
+        "e": "Không chế giễu ngoại hình của người khác là tôn trọng bạn bè và lịch sự.",
+        "s": "Ứng xử văn minh"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet2-c2",
+    "lesson": {
+      "code": "tiengviet2-b05",
+      "title": "Bài 5. Cô giáo lớp em – Từ chỉ sự vật và hoạt động",
+      "seq": 5,
+      "subtitle": "Đọc hiểu bài thơ Cô giáo lớp em và phân biệt từ chỉ sự vật với từ chỉ hoạt động",
+      "concepts": [
+        "Đọc hiểu thơ Cô giáo lớp em",
+        "Từ chỉ sự vật",
+        "Từ chỉ hoạt động học tập"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV2-B05-001",
+        "d": "basic",
+        "p": "Trong bài thơ \"Cô giáo lớp em\", mỗi sáng khi đến lớp, cô giáo làm gì đầu tiên chào đón các em?",
+        "o": [
+          "Cô đứng im lặng cuối lớp",
+          "Cô mở cặp đọc báo",
+          "Cô cười thật tươi",
+          "Cô đi kiểm tra đồng hồ"
+        ],
+        "k": "C",
+        "e": "Hình ảnh mở đầu bài thơ: \"Sáng nào em đến lớp / Cũng thấy cô đến rồi / Đáp lời Chào cô ạ / Cô mỉm cười thật tươi.\"",
+        "s": "Đọc hiểu thơ"
+      },
+      {
+        "c": "TV2-B05-002",
+        "d": "basic",
+        "p": "Bài thơ nhắc đến những môn học nào mà cô giáo dạy học sinh?",
+        "o": [
+          "Chỉ có môn đá bóng",
+          "Học bơi và leo núi",
+          "Chỉ có môn nấu ăn",
+          "Tập viết và tập đọc"
+        ],
+        "k": "D",
+        "e": "Bài thơ miêu tả cô dạy em tập viết, gió đưa thoảng hương nhài và giờ tập đọc cô giảng bài say sưa.",
+        "s": "Đọc hiểu chi tiết"
+      },
+      {
+        "c": "TV2-B05-003",
+        "d": "basic",
+        "p": "Từ nào sau đây là từ chỉ SỰ VẬT ở trường học?",
+        "o": [
+          "Giảng bài",
+          "Viết chữ",
+          "Lắng nghe",
+          "Bảng đen"
+        ],
+        "k": "D",
+        "e": "\"Bảng đen\" là đồ vật (sự vật), các từ còn lại là từ chỉ hoạt động.",
+        "s": "Từ loại"
+      },
+      {
+        "c": "TV2-B05-004",
+        "d": "basic",
+        "p": "Từ nào sau đây là từ chỉ HOẠT ĐỘNG của thầy cô giáo?",
+        "o": [
+          "phấn trắng",
+          "giảng bài",
+          "giáo án",
+          "ghế giáo viên"
+        ],
+        "k": "B",
+        "e": "\"Giảng bài\" là việc làm của thầy cô khi dạy học.",
+        "s": "Từ chỉ hoạt động"
+      },
+      {
+        "c": "TV2-B05-005",
+        "d": "basic",
+        "p": "Trong khổ thơ \"Gió đưa thoảng hương nhài / Nắng ghé vào cửa lớp / Xem chúng em học bài\", mùi hương gì thoảng vào lớp học?",
+        "o": [
+          "Hương gỗ thông",
+          "Hương lúa chín",
+          "Hương hoa nhài",
+          "Hương hoa phượng"
+        ],
+        "k": "C",
+        "e": "Câu thơ ghi rõ \"Gió đưa thoảng hương nhài\".",
+        "s": "Đọc hiểu thơ"
+      },
+      {
+        "c": "TV2-B05-006",
+        "d": "basic",
+        "p": "Từ nào viết ĐÚNG chính tả chỉ lời dạy bảo ân cần của cô giáo?",
+        "o": [
+          "khuyên bảo",
+          "khuiên bảo",
+          "khuyên bão",
+          "khuyên bảu"
+        ],
+        "k": "A",
+        "e": "\"Khuyên bảo\" viết vần uyên và thanh hỏi ở tiếng \"bảo\".",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV2-B05-007",
+        "d": "application",
+        "p": "Khổ thơ: \"Cô dạy em tập viết / Gió đưa thoảng hương nhài / Nắng ghé vào cửa lớp / Xem chúng em học bài\" mang lại cảm giác gì cho người đọc?",
+        "o": [
+          "Cảm giác lớp học thật êm đềm, ấm áp và tràn đầy yêu thương",
+          "Cảm giác lớp học rất ồn ào mất trật tự",
+          "Cảm giác trời sắp có bão lớn",
+          "Cảm giác mệt mỏi vì viết nhiều"
+        ],
+        "k": "A",
+        "e": "Sự hòa quyện giữa cô trò cần mẫn và thiên nhiên dịu nhẹ tạo nên không khí học tập thật đẹp.",
+        "s": "Cảm thụ thơ"
+      },
+      {
+        "c": "TV2-B05-008",
+        "d": "application",
+        "p": "Tìm dòng gồm TOÀN từ chỉ sự vật:",
+        "o": [
+          "viên phấn, quyển vở, thước kẻ",
+          "đọc bài, viết chữ, lắng nghe",
+          "viên phấn, đọc bài, thước kẻ",
+          "xanh thắm, trắng tinh, chăm chỉ"
+        ],
+        "k": "A",
+        "e": "Cả ba cụm từ đều chỉ đồ dùng học tập (sự vật).",
+        "s": "Phân loại từ"
+      },
+      {
+        "c": "TV2-B05-009",
+        "d": "application",
+        "p": "Điền từ chỉ hoạt động thích hợp: \"Cô giáo ... nét chữ mẫu lên bảng để cả lớp quan sát.\"",
+        "o": [
+          "trắng",
+          "viết",
+          "đẹp",
+          "bảng"
+        ],
+        "k": "B",
+        "e": "\"Viết\" là hành động đưa phấn tạo chữ trên bảng.",
+        "s": "Điền từ"
+      },
+      {
+        "c": "TV2-B05-010",
+        "d": "application",
+        "p": "Trong câu \"Nghe cô giảng bài, chúng em chăm chú ghi chép\", có mấy từ chỉ hoạt động?",
+        "o": [
+          "1 từ (bài)",
+          "4 từ (cả chúng em)",
+          "3 từ (nghe, giảng, ghi chép)",
+          "2 từ (chúng em, cô)"
+        ],
+        "k": "C",
+        "e": "Các động từ hành động gồm: nghe, giảng (giảng bài), ghi chép.",
+        "s": "Tìm từ chỉ hoạt động"
+      },
+      {
+        "c": "TV2-B05-011",
+        "d": "application",
+        "p": "Cách xưng hô và chào hỏi nào dưới đây thể hiện lòng kính trọng cô giáo?",
+        "o": [
+          "Chạy vụt qua mặt cô vào lớp",
+          "Khoanh tay cúi chào: \"Em chào cô ạ!\"",
+          "Ngồi yên trong bàn nói \"Chào!\"",
+          "Vẫy tay từ xa rồi gọi tên riêng của cô"
+        ],
+        "k": "B",
+        "e": "Khoanh tay lễ phép kèm tiếng \"ạ\" thể hiện nét đẹp tôn sư trọng đạo.",
+        "s": "Kĩ năng giao tiếp"
+      },
+      {
+        "c": "TV2-B05-012",
+        "d": "application",
+        "p": "Chọn câu viết ĐÚNG dấu câu cảm thán:",
+        "o": [
+          "Cô giáo em dịu dàng biết bao,",
+          "Cô giáo em dịu dàng thế nào.",
+          "Cô giáo em dịu dàng biết bao!",
+          "Cô giáo em dịu dàng biết bao?"
+        ],
+        "k": "C",
+        "e": "Câu bộc lộ cảm xúc yêu mến với từ \"biết bao\" kết thúc bằng dấu chấm than (!).",
+        "s": "Dấu câu"
+      },
+      {
+        "c": "TV2-B05-013",
+        "d": "advanced",
+        "p": "Vì sao hình ảnh \"Nắng ghé vào cửa lớp / Xem chúng em học bài\" lại hay và sinh động?",
+        "o": [
+          "Vì các bạn học sinh đang ngủ gật",
+          "Vì cửa sổ lớp học không có rèm che",
+          "Vì mặt trời mọc vào ban đêm chiếu đèn vào lớp",
+          "Vì nắng được nhân hóa như một người bạn nhỏ tò mò, thích thú nhìn các bạn học chăm"
+        ],
+        "k": "D",
+        "e": "Tác giả tả nắng như có hành động của con người (\"ghé vào\", \"xem\"), làm thiên nhiên trở nên gần gũi.",
+        "s": "Biện pháp tu từ"
+      },
+      {
+        "c": "TV2-B05-014",
+        "d": "advanced",
+        "p": "Nhóm nào phân loại ĐÚNG giữa \"Từ chỉ sự vật\" và \"Từ chỉ hoạt động\" trong câu \"Bác trống trường gọi học sinh vào lớp\"?",
+        "o": [
+          "Sự vật: bác trống; Hoạt động: học sinh, trường",
+          "Cả câu chỉ toàn từ chỉ sự vật",
+          "Sự vật: gọi, vào; Hoạt động: trống, lớp",
+          "Sự vật: bác trống, trường, học sinh, lớp; Hoạt động: gọi, vào"
+        ],
+        "k": "D",
+        "e": "Trống, trường, học sinh, lớp là các danh từ sự vật; gọi, vào là động từ hoạt động.",
+        "s": "Phân tích từ loại"
+      },
+      {
+        "c": "TV2-B05-015",
+        "d": "advanced",
+        "p": "Sắp tới ngày Nhà giáo Việt Nam 20-11, em muốn viết một câu chúc ngắn tặng cô giáo. Câu nào hay và đúng chính tả nhất?",
+        "o": [
+          "Cô nhớ cho em nhiều điểm mười nhé!",
+          "Chúc cô luôn mạnh khoẻ nhiều tiền nha!",
+          "Hôm nay ngày hai mươi tháng mười một rồi!",
+          "Chúc cô luôn mạnh khỏe, vui vẻ và yêu nghề ạ!"
+        ],
+        "k": "D",
+        "e": "Lời chúc sức khỏe, niềm vui vừa chân thành vừa đúng mực lễ phép của học sinh.",
+        "s": "Viết thiệp chúc mừng"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet2-c2",
+    "lesson": {
+      "code": "tiengviet2-b06",
+      "title": "Bài 6. Thời khóa biểu – Chính tả l và n, s và x",
+      "seq": 6,
+      "subtitle": "Biết cách đọc Thời khóa biểu ở trường và luyện chính tả phân biệt l và n, s và x",
+      "concepts": [
+        "Đọc Thời khóa biểu",
+        "Chính tả l và n",
+        "Chính tả s và x"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV2-B06-001",
+        "d": "basic",
+        "p": "Thời khóa biểu của lớp học cho học sinh biết thông tin gì?",
+        "o": [
+          "Danh sách số điện thoại phụ huynh",
+          "Lịch các môn học theo từng ngày trong tuần và từng tiết học",
+          "Thực đơn bữa ăn trưa tại nhà hàng",
+          "Giá bán các loại sách giáo khoa"
+        ],
+        "k": "B",
+        "e": "Thời khóa biểu giúp học sinh chuẩn bị đúng sách vở cho mỗi buổi đến trường.",
+        "s": "Khái niệm",
+        "fig": {
+          "type": "table",
+          "title": "Thời khóa biểu Thứ Hai",
+          "head": [
+            "Tiết",
+            "Môn học"
+          ],
+          "rows": [
+            [
+              "Tiết 1",
+              "Chào cờ"
+            ],
+            [
+              "Tiết 2",
+              "Tiếng Việt"
+            ],
+            [
+              "Tiết 3",
+              "Toán"
+            ],
+            [
+              "Tiết 4",
+              "Âm nhạc"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV2-B06-002",
+        "d": "basic",
+        "p": "Nhìn bảng Thời khóa biểu minh họa, Tiết 4 ngày Thứ Hai lớp học môn gì?",
+        "o": [
+          "Tiếng Việt",
+          "Âm nhạc",
+          "Chào cờ",
+          "Toán"
+        ],
+        "k": "B",
+        "e": "Dòng cuối của bảng cho thấy Tiết 4 học môn Âm nhạc.",
+        "s": "Đọc bảng"
+      },
+      {
+        "c": "TV2-B06-003",
+        "d": "basic",
+        "p": "Từ nào viết ĐÚNG chính tả?",
+        "o": [
+          "cây lúo",
+          "cây núa",
+          "cây lúa",
+          "cây nứo"
+        ],
+        "k": "C",
+        "e": "Cây lúa viết bằng âm đầu l.",
+        "s": "Chính tả l và n"
+      },
+      {
+        "c": "TV2-B06-004",
+        "d": "basic",
+        "p": "Từ nào chỉ một ngôi sao hoặc vật phát sáng ban đêm viết bằng âm \"s\"?",
+        "o": [
+          "ngôi trao",
+          "ngôi sao",
+          "ngôi chao",
+          "ngôi xao"
+        ],
+        "k": "B",
+        "e": "Ngôi sao luôn viết bằng âm đầu s.",
+        "s": "Chính tả s và x"
+      },
+      {
+        "c": "TV2-B06-005",
+        "d": "basic",
+        "p": "Con vật có đôi cánh màu sắc sặc sỡ bay lượn bên bờ ruộng chuồn chuồn hay cánh bướm? Chọn từ viết ĐÚNG với \"s\":",
+        "o": [
+          "sặc xỡ",
+          "xặc sỡ",
+          "xặc xỡ",
+          "sặc sỡ"
+        ],
+        "k": "D",
+        "e": "\"Sặc sỡ\" cả hai tiếng đều viết bằng âm s.",
+        "s": "Chính tả s và x"
+      },
+      {
+        "c": "TV2-B06-006",
+        "d": "basic",
+        "p": "Trong câu \"Em xếp sách vở ngay ngắn vào cặp\", tiếng nào bắt đầu bằng âm \"x\"?",
+        "o": [
+          "ngay",
+          "cặp",
+          "xếp",
+          "sách"
+        ],
+        "k": "C",
+        "e": "Tiếng \"xếp\" bắt đầu bằng x (khác với \"sách\" bắt đầu bằng s).",
+        "s": "Phân biệt s và x"
+      },
+      {
+        "c": "TV2-B06-007",
+        "d": "application",
+        "p": "Để chuẩn bị sách vở cho sáng Thứ Hai theo Thời khóa biểu trong bảng, bạn Minh KHÔNG cần mang quyển vở của môn nào?",
+        "o": [
+          "Tiếng Việt",
+          "Âm nhạc",
+          "Toán",
+          "Mĩ thuật"
+        ],
+        "k": "D",
+        "e": "Sáng Thứ Hai trong bảng chỉ có Chào cờ, Tiếng Việt, Toán và Âm nhạc; không có môn Mĩ thuật.",
+        "s": "Ứng dụng đọc bảng"
+      },
+      {
+        "c": "TV2-B06-008",
+        "d": "application",
+        "p": "Điền âm đầu l hoặc n thích hợp vào câu: \"...úa chín vàng trên cánh đồng ...ăm nay.\"",
+        "o": [
+          "Núa ... năm (n và n)",
+          "Lúa ... lăm (l và l)",
+          "Lúa ... năm (l và n)",
+          "Núa ... lăm (n và l)"
+        ],
+        "k": "C",
+        "e": "\"Lúa\" viết bằng l; \"năm\" (năm nay) viết bằng n.",
+        "s": "Điền âm l và n"
+      },
+      {
+        "c": "TV2-B06-009",
+        "d": "application",
+        "p": "Chọn cặp từ đều viết ĐÚNG chính tả:",
+        "o": [
+          "nắn nót và lung linh",
+          "nắn nót và nung ninh",
+          "nắn lót và lung ninh",
+          "lắn lót và lung linh"
+        ],
+        "k": "A",
+        "e": "\"Nắn nót\" viết với n; \"lung linh\" viết với l.",
+        "s": "Phân biệt l và n"
+      },
+      {
+        "c": "TV2-B06-010",
+        "d": "application",
+        "p": "Từ nào viết ĐÚNG chỉ hành động dùng xẻng đào đất trồng cây?",
+        "o": [
+          "xúc đất",
+          "súc đắt",
+          "súc đất",
+          "xúc đắt"
+        ],
+        "k": "A",
+        "e": "Dùng xẻng lấy đất gọi là \"xúc\" (viết bằng x); còn \"súc miệng\" viết bằng s.",
+        "s": "Phân biệt s và x"
+      },
+      {
+        "c": "TV2-B06-011",
+        "d": "application",
+        "p": "Trong hai từ \"nước sông\" và \"xông lên\", cặp âm đầu nào được dùng đúng?",
+        "o": [
+          "sông dùng x, xông dùng s",
+          "cả hai đều dùng s",
+          "sông dùng s, xông dùng x",
+          "cả hai đều dùng x"
+        ],
+        "k": "C",
+        "e": "\"Dòng sông\" dùng s; \"xông lên, xông pha\" dùng x.",
+        "s": "Phân biệt nghĩa"
+      },
+      {
+        "c": "TV2-B06-012",
+        "d": "application",
+        "p": "Vì sao trước khi đi ngủ, học sinh nên xem Thời khóa biểu của ngày hôm sau?",
+        "o": [
+          "Để soạn đầy đủ sách vở, dụng cụ học tập, tránh quên đồ khi đến lớp",
+          "Để biết ngày mai sẽ được ăn món gì ở nhà",
+          "Để đếm xem lớp có bao nhiêu bạn",
+          "Để đổi chỗ ngồi với các bạn khác"
+        ],
+        "k": "A",
+        "e": "Xem Thời khóa biểu giúp chủ động chuẩn bị đồ dùng học tập gọn gàng từ tối hôm trước.",
+        "s": "Thói quen tốt"
+      },
+      {
+        "c": "TV2-B06-013",
+        "d": "advanced",
+        "p": "Sửa 2 lỗi chính tả trong câu sau: \"Buổi xáng, bạn Lan đi học xớm để trực nhật lớp.\"",
+        "o": [
+          "Buổi sáng, bạn Nan đi học sớm để trực nhật lớp.",
+          "Buổi xáng, bạn Lan đi học sớm để trực nhật lớp.",
+          "Buổi sáng, bạn Lan đi học sớm để trực nhật lớp.",
+          "Buổi xáng, bạn Nan đi học sớm để trực nhật lớp."
+        ],
+        "k": "C",
+        "e": "\"Buổi sáng\" và \"đi học sớm\" đều phải viết bằng âm đầu s.",
+        "s": "Sửa lỗi s và x"
+      },
+      {
+        "c": "TV2-B06-014",
+        "d": "advanced",
+        "p": "Tìm câu viết ĐÚNG hoàn toàn chính tả l và n:",
+        "o": [
+          "Lắng nên cao, đàn cò trắng bay nượn trên cánh đồng núa.",
+          "Nắng nên cao, đàn cò trắng bay lượn trên cánh đồng lúa.",
+          "Lắng lên cao, đàn cò trắng bay lượn trên cánh đồng núa.",
+          "Nắng lên cao, đàn cò trắng bay lượn trên cánh đồng lúa."
+        ],
+        "k": "D",
+        "e": "Nắng (n), lên (l), lượn (l), lúa (l) đều viết chuẩn xác.",
+        "s": "Tổng hợp l và n"
+      },
+      {
+        "c": "TV2-B06-015",
+        "d": "advanced",
+        "p": "Bạn An thấy Tiết 2 ngày Thứ Ba trên Thời khóa biểu có môn Thể dục (GDTC) nên đã nhắc mẹ chuẩn bị gì?",
+        "o": [
+          "Giày thể thao và quần áo gọn gàng dễ vận động",
+          "Đàn piano và thanh phách",
+          "Hộp màu nước và giấy vẽ A3",
+          "Bản đồ Việt Nam khổ lớn"
+        ],
+        "k": "A",
+        "e": "Học Giáo dục thể chất cần đi giày thể thao và mặc đồng phục thể dục để vận động an toàn.",
+        "s": "Vận dụng thực tế"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet2-c2",
+    "lesson": {
+      "code": "tiengviet2-b07",
+      "title": "Bài 7. Cái trống trường em – Từ ngữ chỉ sự vật",
+      "seq": 7,
+      "subtitle": "Đọc hiểu bài thơ Cái trống trường em và mở rộng vốn từ chỉ sự vật quanh em",
+      "concepts": [
+        "Đọc hiểu thơ Cái trống trường em",
+        "Mở rộng vốn từ sự vật",
+        "Nhân hóa đồ vật thân quen"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV2-B07-001",
+        "d": "basic",
+        "p": "Trong bài thơ \"Cái trống trường em\", vào những ngày nghỉ hè, cái trống trường làm gì?",
+        "o": [
+          "Theo các bạn nhỏ đi tắm biển",
+          "Kêu tùng tùng vang khắp phố phường",
+          "Nằm im lặng lẽ nghiêng mình trên giá gỗ",
+          "Được mang ra sân làm bàn học"
+        ],
+        "k": "C",
+        "e": "Hai dòng thơ tả: \"Cái trống trường em / Mùa hè cũng nghỉ / Suốt ba tháng liền / Trống nằm ngẫm nghĩ.\"",
+        "s": "Đọc hiểu thơ"
+      },
+      {
+        "c": "TV2-B07-002",
+        "d": "basic",
+        "p": "Khi năm học mới bắt đầu, tiếng trống trường vang lên như thế nào?",
+        "o": [
+          "Tùng! Tùng! Tùng! Giục giã rộn ràng",
+          "Rì rào như tiếng sóng biển",
+          "Xào xạc như lá cây rơi",
+          "Tí tách như giọt mưa rơi"
+        ],
+        "k": "A",
+        "e": "Khổ cuối bài thơ: \"Kìa trống đang gọi / Tùng! Tùng! Tùng! Tùng! / Vào năm học mới / Rộn vang tưng bừng.\"",
+        "s": "Đọc hiểu thơ"
+      },
+      {
+        "c": "TV2-B07-003",
+        "d": "basic",
+        "p": "Từ nào sau đây là từ chỉ SỰ VẬT trong sân trường?",
+        "o": [
+          "Cây phượng",
+          "Tưng bừng",
+          "Ngẫm nghĩ",
+          "Rộn vang"
+        ],
+        "k": "A",
+        "e": "\"Cây phượng\" là tên một loài cây (từ chỉ sự vật).",
+        "s": "Từ chỉ sự vật"
+      },
+      {
+        "c": "TV2-B07-004",
+        "d": "basic",
+        "p": "Dụng cụ nào đi cùng với cái trống để đánh phát ra tiếng kêu?",
+        "o": [
+          "Chiếc khăn quàng",
+          "Cây thước",
+          "Viên phấn",
+          "Dùi trống"
+        ],
+        "k": "D",
+        "e": "Bác bảo vệ hoặc thầy cô dùng dùi trống gõ vào mặt trống.",
+        "s": "Hiểu biết"
+      },
+      {
+        "c": "TV2-B07-005",
+        "d": "basic",
+        "p": "Từ \"tùng tùng\" trong bài thơ mô phỏng điều gì?",
+        "o": [
+          "Chất liệu làm thân trống",
+          "Màu sắc của mặt trống",
+          "Hình dáng chiếc trống gỗ",
+          "Âm thanh của tiếng trống trường"
+        ],
+        "k": "D",
+        "e": "\"Tùng! Tùng!\" là từ tượng thanh gợi âm thanh vang dội của trống.",
+        "s": "Từ tượng thanh"
+      },
+      {
+        "c": "TV2-B07-006",
+        "d": "basic",
+        "p": "Trong các từ sau, từ nào KHÔNG phải là từ chỉ sự vật?",
+        "o": [
+          "cái trống",
+          "bạn học",
+          "vui mừng",
+          "ngôi trường"
+        ],
+        "k": "C",
+        "e": "\"Vui mừng\" là từ chỉ trạng thái cảm xúc, không phải sự vật.",
+        "s": "Phân loại từ"
+      },
+      {
+        "c": "TV2-B07-007",
+        "d": "application",
+        "p": "Đọc khổ thơ: \"Buồn không hả trống / Trong những ngày hè / Bọn mình đi vắng / Chỉ còn tiếng ve?\" Bạn nhỏ hỏi cái trống với tình cảm gì?",
+        "o": [
+          "Sự sợ hãi mỗi lần trống đánh",
+          "Sự thờ ơ không quan tâm",
+          "Sự tức giận vì trống kêu quá to",
+          "Tình cảm thân thiết, coi trống như người bạn nhỏ"
+        ],
+        "k": "D",
+        "e": "Bạn nhỏ trò chuyện âu yếm với cái trống như đang hỏi thăm một người bạn.",
+        "s": "Cảm thụ thơ"
+      },
+      {
+        "c": "TV2-B07-008",
+        "d": "application",
+        "p": "Đoạn thơ \"Suốt ba tháng liền / Trống nằm ngẫm nghĩ\" dùng cách nói giống như con người. Từ nào thể hiện điều đó?",
+        "o": [
+          "tháng liền",
+          "suốt ba",
+          "ngẫm nghĩ",
+          "cái trống"
+        ],
+        "k": "C",
+        "e": "\"Ngẫm nghĩ\" là hoạt động suy nghĩ của con người, được tác giả gán cho cái trống.",
+        "s": "Nhân hóa"
+      },
+      {
+        "c": "TV2-B07-009",
+        "d": "application",
+        "p": "Xếp 4 từ \"ghế đá, nhảy dây, thước kẻ, bút mực\" vào đúng nhóm. Có mấy từ chỉ sự vật?",
+        "o": [
+          "1 từ (ghế đá)",
+          "3 từ (ghế đá, thước kẻ, bút mực)",
+          "2 từ (ghế đá, thước kẻ)",
+          "4 từ"
+        ],
+        "k": "B",
+        "e": "Ghế đá, thước kẻ, bút mực là từ chỉ đồ vật; còn \"nhảy dây\" là từ chỉ hoạt động.",
+        "s": "Phân loại từ"
+      },
+      {
+        "c": "TV2-B07-010",
+        "d": "application",
+        "p": "Chọn câu dùng dấu chấm than (!) phù hợp nhất với bài học:",
+        "o": [
+          "Tiếng trống trường gọi các bạn vào lớp?",
+          "Ôi, tiếng trống trường nghe rộn rã làm sao!",
+          "Mùa hè cái trống nghỉ mấy tháng!",
+          "Ôi, tiếng trống trường nghe rộn rã làm sao?"
+        ],
+        "k": "B",
+        "e": "Câu cảm thán bắt đầu bằng \"Ôi\" và kết thúc bằng \"làm sao!\" dùng dấu chấm than.",
+        "s": "Dấu câu"
+      },
+      {
+        "c": "TV2-B07-011",
+        "d": "application",
+        "p": "Trong câu \"Mặt trống tròn xoe căng da trâu rất chắc\", từ nào là từ chỉ đặc điểm?",
+        "o": [
+          "trống, da",
+          "tròn xoe, chắc",
+          "da trâu",
+          "mặt trống"
+        ],
+        "k": "B",
+        "e": "\"Tròn xoe\" tả hình dáng, \"chắc\" tả tính chất độ bền.",
+        "s": "Tìm từ loại"
+      },
+      {
+        "c": "TV2-B07-012",
+        "d": "application",
+        "p": "Biểu đồ số tiết học các môn trong tuần của lớp 2A. Môn nào có nhiều tiết nhất?",
+        "o": [
+          "Đạo đức",
+          "Âm nhạc",
+          "Toán",
+          "Tiếng Việt"
+        ],
+        "k": "D",
+        "e": "Trên biểu đồ cột, Tiếng Việt cao nhất với 7 tiết.",
+        "s": "Đọc biểu đồ",
+        "fig": {
+          "type": "bars",
+          "title": "Số tiết học trong tuần",
+          "labels": [
+            "Tiếng Việt",
+            "Toán",
+            "Âm nhạc",
+            "Đạo đức"
+          ],
+          "series": [
+            {
+              "values": [
+                7,
+                5,
+                1,
+                1
+              ]
+            }
+          ],
+          "unit": "tiết"
+        }
+      },
+      {
+        "c": "TV2-B07-013",
+        "d": "advanced",
+        "p": "Vì sao trong ngày khai giảng, học sinh nghe tiếng trống trường lại cảm thấy náo nức và hân hoan?",
+        "o": [
+          "Vì tiếng trống báo hiệu một năm học mới vui tươi, được gặp lại thầy cô và bạn bè",
+          "Vì tiếng trống báo giờ được nghỉ học về nhà ngay",
+          "Vì học sinh không phải mang sách vở",
+          "Vì mặt trống được sơn màu xanh lá cây"
+        ],
+        "k": "A",
+        "e": "Tiếng trống khai trường gắn với niềm vui ngày hội tựu trường, mở đầu hành trình học tập mới.",
+        "s": "Liên hệ cảm xúc"
+      },
+      {
+        "c": "TV2-B07-014",
+        "d": "advanced",
+        "p": "Đọc câu văn: \"Chiếc trống nằm yên trên giá gỗ dưới mái hiên.\" Hãy xác định tất cả các từ chỉ sự vật có trong câu:",
+        "o": [
+          "giá gỗ, dưới mái",
+          "nằm yên, dưới",
+          "chiếc trống, giá gỗ, mái hiên",
+          "chiếc trống, nằm yên"
+        ],
+        "k": "C",
+        "e": "Trống, giá gỗ, mái hiên là ba sự vật cụ thể được nhắc đến.",
+        "s": "Phân tích từ loại"
+      },
+      {
+        "c": "TV2-B07-015",
+        "d": "advanced",
+        "p": "Hãy viết tiếp một câu theo mẫu \"Ai là gì?\" giới thiệu về cái trống trường:",
+        "o": [
+          "Cái trống là người bạn báo giờ quen thuộc của học sinh.",
+          "Mùa hè cái trống nằm im lìm.",
+          "Cái trống rất to và tròn.",
+          "Cái trống kêu vang khắp sân trường."
+        ],
+        "k": "A",
+        "e": "Câu có từ \"là\" nối giữa \"Cái trống\" và phần giới thiệu \"người bạn báo giờ quen thuộc\".",
+        "s": "Vận dụng mẫu câu"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet2-c2",
+    "lesson": {
+      "code": "tiengviet2-b08",
+      "title": "Bài 8. Chữ A và những người bạn – Đoàn kết tạo nên sức mạnh",
+      "seq": 8,
+      "subtitle": "Đọc hiểu truyện Chữ A và những người bạn, biết vai trò hợp tác và viết đoạn ngắn",
+      "concepts": [
+        "Đọc hiểu truyện Chữ A",
+        "Giá trị của sự hợp tác",
+        "Nhận biết câu mở đầu đoạn văn"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV2-B08-001",
+        "d": "basic",
+        "p": "Trong câu chuyện \"Chữ A và những người bạn\", vì sao ban đầu chữ A tự cho mình là quan trọng nhất?",
+        "o": [
+          "Vì chữ A đứng đầu bảng chữ cái",
+          "Vì chữ A to gấp mười lần chữ khác",
+          "Vì chữ A được viết bằng màu đỏ",
+          "Vì chữ A biết hát hay nhất"
+        ],
+        "k": "A",
+        "e": "Đứng đầu bảng chữ cái, chữ A kiêu ngạo nghĩ mình giỏi nhất và không cần đến các chữ khác.",
+        "s": "Đọc hiểu truyện"
+      },
+      {
+        "c": "TV2-B08-002",
+        "d": "basic",
+        "p": "Một mình chữ A đứng riêng lẻ có thể viết nên cả một cuốn sách hay bài thơ hay không?",
+        "o": [
+          "Không thể viết thành nhiều từ ngữ phong phú nếu thiếu các chữ cái khác",
+          "Có thể viết mọi câu chuyện chỉ bằng chữ A",
+          "Chỉ cần viết số thay cho chữ",
+          "Chỉ cần thêm chữ B là đủ cả quyển sách"
+        ],
+        "k": "A",
+        "e": "Mỗi chữ cái ghép cùng nhau mới tạo ra muôn vàn tiếng, từ và câu văn giàu ý nghĩa.",
+        "s": "Đọc hiểu"
+      },
+      {
+        "c": "TV2-B08-003",
+        "d": "basic",
+        "p": "Sau khi nhận ra sai lầm, chữ A đã làm gì với các bạn chữ cái?",
+        "o": [
+          "Ngồi khóc một mình ở góc trang sách",
+          "Bỏ sang bảng chữ cái khác",
+          "Xin lỗi và vui vẻ nắm tay các bạn chữ cái cùng nhau tạo nên câu chuyện hay",
+          "Không bao giờ đứng đầu câu nữa"
+        ],
+        "k": "C",
+        "e": "Chữ A hiểu ra mỗi chữ cái đều quan trọng và cùng hợp tác với mọi người.",
+        "s": "Đọc hiểu chi tiết"
+      },
+      {
+        "c": "TV2-B08-004",
+        "d": "basic",
+        "p": "Tính cách nào của chữ A ở đầu câu chuyện KHÔNG nên học tập?",
+        "o": [
+          "Tính ham học hỏi",
+          "Tính đoàn kết",
+          "Tính kiêu ngạo, coi thường bạn bè",
+          "Tính chăm chỉ luyện viết"
+        ],
+        "k": "C",
+        "e": "Kiêu ngạo, tự cao dễ làm mất lòng bạn bè và khiến bản thân cô đơn.",
+        "s": "Rút ra bài học"
+      },
+      {
+        "c": "TV2-B08-005",
+        "d": "basic",
+        "p": "Từ nào trái nghĩa với \"kiêu ngạo\"?",
+        "o": [
+          "ích kỉ",
+          "khiêm tốn",
+          "tự cao",
+          "nóng nảy"
+        ],
+        "k": "B",
+        "e": "\"Khiêm tốn\" là biết mình biết người, không khoe khoang, trái nghĩa với \"kiêu ngạo\".",
+        "s": "Từ trái nghĩa"
+      },
+      {
+        "c": "TV2-B08-006",
+        "d": "basic",
+        "p": "Trong từ \"chữ cái\", tiếng \"cái\" mang thanh điệu gì?",
+        "o": [
+          "Thanh nặng",
+          "Thanh hỏi",
+          "Thanh huyền",
+          "Thanh sắc"
+        ],
+        "k": "D",
+        "e": "Chữ \"cái\" có dấu sắc đặt trên chữ a.",
+        "s": "Thanh điệu"
+      },
+      {
+        "c": "TV2-B08-007",
+        "d": "application",
+        "p": "Lời khuyên nào phù hợp nhất để gửi tới chữ A lúc còn kiêu ngạo?",
+        "o": [
+          "Bạn đứng đầu nên cứ việc chỉ huy tất cả mọi người",
+          "Cứ đứng một mình sẽ đỡ bị nhầm lẫn",
+          "Không cần chơi với những chữ đứng cuối bảng",
+          "Một cây làm chẳng nên non, nhiều bạn góp sức mới thành việc lớn"
+        ],
+        "k": "D",
+        "e": "Bài học về sức mạnh tập thể: mỗi thành viên đều góp phần không thể thiếu.",
+        "s": "Thông điệp"
+      },
+      {
+        "c": "TV2-B08-008",
+        "d": "application",
+        "p": "Để viết một câu giới thiệu về một người bạn thân, câu nào mở đầu hay và rõ ràng?",
+        "o": [
+          "Trong lớp, người bạn thân thiết nhất của em là Minh.",
+          "Cái bàn học màu nâu gỗ.",
+          "Môn Toán có nhiều hình tam giác.",
+          "Hôm nay trời mưa rất to."
+        ],
+        "k": "A",
+        "e": "Câu mở đầu giới thiệu rõ đối tượng định kể là bạn Minh.",
+        "s": "Viết đoạn văn"
+      },
+      {
+        "c": "TV2-B08-009",
+        "d": "application",
+        "p": "Trong hai từ \"hợp tác\" và \"đoàn kết\", ý nghĩa chung của chúng là gì?",
+        "o": [
+          "Tự làm riêng việc của mình không nói với ai",
+          "Tranh luận xem ai là người thắng cuộc",
+          "Cùng chung sức, đồng lòng để hoàn thành công việc chung",
+          "Nghỉ ngơi sau khi tan học"
+        ],
+        "k": "C",
+        "e": "Hợp tác và đoàn kết là nền tảng sức mạnh của tập thể.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV2-B08-010",
+        "d": "application",
+        "p": "Khi thảo luận nhóm 4 bạn trên lớp, điều nào giúp nhóm làm việc hiệu quả nhất?",
+        "o": [
+          "Ai nói to nhất thì viết theo ý người đó",
+          "Mỗi người làm một đề khác nhau",
+          "Lắng nghe ý kiến của nhau và phân công việc công bằng",
+          "Một bạn làm hết, ba bạn còn lại ngồi chơi"
+        ],
+        "k": "C",
+        "e": "Lắng nghe và phối hợp nhịp nhàng giúp cả nhóm hoàn thành tốt nhiệm vụ.",
+        "s": "Kĩ năng hợp tác"
+      },
+      {
+        "c": "TV2-B08-011",
+        "d": "application",
+        "p": "Chọn từ viết ĐÚNG chính tả chỉ thái độ nhận lỗi chân thành:",
+        "o": [
+          "nhận lỗi",
+          "nhận lổi",
+          "nhận nỗi",
+          "nhận lỗi lầm sai"
+        ],
+        "k": "A",
+        "e": "\"Nhận lỗi\" viết bằng âm l và thanh ngã.",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV2-B08-012",
+        "d": "application",
+        "p": "Tìm tiếng chứa vần \"oân\" hoặc \"oan\" viết đúng trong câu sau: \"Cả lớp ... kết thực hiện tốt nội quy.\"",
+        "o": [
+          "đòn",
+          "đoàn",
+          "đoần",
+          "đàn"
+        ],
+        "k": "B",
+        "e": "\"Đoàn kết\" viết tiếng \"đoàn\" chứa vần oan.",
+        "s": "Chính tả vần"
+      },
+      {
+        "c": "TV2-B08-013",
+        "d": "advanced",
+        "p": "Nếu chữ Y đứng cuối bảng chữ cái buồn bã vì nghĩ mình ít xuất hiện hơn chữ A, em sẽ động viên chữ Y thế nào?",
+        "o": [
+          "Đúng rồi, chữ Y đứng cuối nên ít quan trọng hơn thật",
+          "Mỗi chữ đều có nhiệm vụ riêng; thiếu chữ Y thì không thể viết được từ \"yêu thương\" hay \"bầu trời mây\" đâu!",
+          "Chữ Y giống chữ I nên có thể bỏ đi",
+          "Chữ Y cứ đổi chỗ lên đứng đầu bảng thay chữ A đi"
+        ],
+        "k": "B",
+        "e": "Chữ Y góp phần tạo nên những từ tuyệt đẹp như \"yêu thương\", \"ý nghĩa\", \"hy vọng\", không chữ nào thay thế được.",
+        "s": "Tư duy ngôn ngữ"
+      },
+      {
+        "c": "TV2-B08-014",
+        "d": "advanced",
+        "p": "Xếp 3 câu sau thành một đoạn văn kể chuyện hợp lí: (1) Cuối cùng, cả nhóm chữ cái đã cùng viết nên những bài thơ tuyệt đẹp. (2) Một hôm, chữ A tỏ ra kiêu ngạo vì mình đứng đầu bảng. (3) Nhờ lời khuyên của các bạn, chữ A nhận ra lỗi và xin lỗi mọi người.",
+        "o": [
+          "(2) → (1) → (3)",
+          "(1) → (2) → (3)",
+          "(3) → (2) → (1)",
+          "(2) → (3) → (1)"
+        ],
+        "k": "D",
+        "e": "Trình tự truyện: sự việc mở đầu (2) -> diễn biến nhận ra lỗi (3) -> kết thúc tốt đẹp (1).",
+        "s": "Liên kết câu"
+      },
+      {
+        "c": "TV2-B08-015",
+        "d": "advanced",
+        "p": "Đọc câu tục ngữ: \"Đoàn kết là sức mạnh.\" Trường hợp nào sau đây minh họa ĐÚNG nhất cho câu nói này?",
+        "o": [
+          "Cả lớp cùng chia việc dọn sạch lớp học chỉ trong 10 phút",
+          "Một bạn tự mang sách vở của mình đi giấu",
+          "Hai bạn cãi nhau vì chiếc bút rơi dưới đất",
+          "Bạn lớp trưởng chạy đi chạy lại một mình không nhờ ai"
+        ],
+        "k": "A",
+        "e": "Chung sức đồng lòng giúp hoàn thành nhanh chóng công việc khó khăn.",
+        "s": "Liên hệ thực tiễn"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet2-c3",
+    "lesson": {
+      "code": "tiengviet2-b09",
+      "title": "Bài 9. Thả diều – Vẻ đẹp đồng quê và từ chỉ hoạt động",
+      "seq": 9,
+      "subtitle": "Đọc hiểu bài thơ Thả diều của Trần Đăng Khoa và nhận diện chính xác từ chỉ hoạt động",
+      "concepts": [
+        "Đọc hiểu thơ Thả diều",
+        "Cảm nhận thiên nhiên làng quê",
+        "Tìm từ chỉ hoạt động trong câu"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV2-B09-001",
+        "d": "basic",
+        "p": "Trong bài thơ \"Thả diều\" (Trần Đăng Khoa), cánh diều bay cao trên bầu trời được so sánh với hình ảnh nào?",
+        "o": [
+          "Đám mây đen nặng trĩu",
+          "Ngọn núi cao sừng sững",
+          "Chiếc thuyền trôi trên sông Ngân Hà và trăng vàng qua câu thơ",
+          "Chiếc máy bay phản lực"
+        ],
+        "k": "C",
+        "e": "Nhà thơ ví cánh diều mềm mại như chiếc thuyền giữa biển trời bao la.",
+        "s": "Đọc hiểu thơ"
+      },
+      {
+        "c": "TV2-B09-002",
+        "d": "basic",
+        "p": "Loại nhạc cụ dân gian nào thường được gắn trên cánh diều để khi gặp gió tạo âm thanh vi vu?",
+        "o": [
+          "Kèn đồng",
+          "Trống cái",
+          "Đàn bầu",
+          "Sáo diều"
+        ],
+        "k": "D",
+        "e": "Cánh diều quê hương thường gắn chiếc sáo nhỏ phát ra tiếng \"vi vu\" ngân nga trong gió.",
+        "s": "Văn hóa dân gian"
+      },
+      {
+        "c": "TV2-B09-003",
+        "d": "basic",
+        "p": "Từ nào dưới đây là từ chỉ hoạt động khi chơi thả diều?",
+        "o": [
+          "gió mát",
+          "bầu trời",
+          "cánh đồng",
+          "chạy, kéo dây"
+        ],
+        "k": "D",
+        "e": "\"Chạy\" và \"kéo dây\" là động tác của người chơi khi đưa diều lên cao.",
+        "s": "Từ chỉ hoạt động"
+      },
+      {
+        "c": "TV2-B09-004",
+        "d": "basic",
+        "p": "Không gian thích hợp và an toàn nhất để trẻ em chơi thả diều là ở đâu?",
+        "o": [
+          "Giữa lòng đường nhiều xe cộ chạy",
+          "Ngay dưới đường dây điện cao thế",
+          "Bãi cỏ rộng, cánh đồng thoáng xa đường dây điện",
+          "Trên nóc nhà cao tầng"
+        ],
+        "k": "C",
+        "e": "Thả diều gần đường dây điện hoặc đường giao thông rất nguy hiểm.",
+        "s": "An toàn vui chơi"
+      },
+      {
+        "c": "TV2-B09-005",
+        "d": "basic",
+        "p": "Từ nào tả âm thanh êm tai của sáo diều giữa trời lộng gió?",
+        "o": [
+          "vi vu",
+          "loảng xoảng",
+          "ầm ầm",
+          "lộp độp"
+        ],
+        "k": "A",
+        "e": "Tiếng sáo diều trong gió được miêu tả bằng từ tượng thanh \"vi vu\".",
+        "s": "Từ tượng thanh"
+      },
+      {
+        "c": "TV2-B09-006",
+        "d": "basic",
+        "p": "Tiếng \"diều\" trong \"cánh diều\" có phần vần là gì?",
+        "o": [
+          "iu",
+          "iêu",
+          "yêu",
+          "êu"
+        ],
+        "k": "B",
+        "e": "Tiếng \"diều\" gồm âm đầu d, vần iêu và thanh huyền.",
+        "s": "Cấu tạo tiếng"
+      },
+      {
+        "c": "TV2-B09-007",
+        "d": "application",
+        "p": "Đọc hai câu thơ: \"Cánh diều mềm mại như cánh bướm / Chúng tôi vui sướng đến phát điên nhìn lên trời.\" Niềm vui của các bạn nhỏ được tạo nên từ điều gì?",
+        "o": [
+          "Được ngồi trong nhà xem ti vi",
+          "Niềm say mê nhìn cánh diều do mình thả bay lượn tự do trên trời cao",
+          "Tìm thấy tổ chim trong bụi rậm",
+          "Được ăn thật nhiều kẹo ngọt"
+        ],
+        "k": "B",
+        "e": "Trò chơi dân gian thả diều mang lại niềm hạnh phúc hồn nhiên nơi đồng quê.",
+        "s": "Đọc hiểu thơ"
+      },
+      {
+        "c": "TV2-B09-008",
+        "d": "application",
+        "p": "Trong câu \"Lũ trẻ tung tăng chạy trên triền đê lộng gió\", từ nào là từ chỉ hoạt động?",
+        "o": [
+          "lộng gió",
+          "triền đê",
+          "lũ trẻ",
+          "chạy"
+        ],
+        "k": "D",
+        "e": "\"Chạy\" là hành động di chuyển bằng chân.",
+        "s": "Tìm động từ"
+      },
+      {
+        "c": "TV2-B09-009",
+        "d": "application",
+        "p": "Chọn câu đặt ĐÚNG với từ chỉ hoạt động \"chao liệng\":",
+        "o": [
+          "Cánh diều chao liệng nhẹ nhàng giữa tầng mây.",
+          "Trên trời chao liệng nhiều ngôi sao sáng.",
+          "Cánh diều chao liệng một màu đỏ rực.",
+          "Cánh diều rất chao liệng và nặng trĩu."
+        ],
+        "k": "A",
+        "e": "\"Chao liệng\" miêu tả chuyển động nghiêng cánh bay lượn trên không của chim hoặc diều.",
+        "s": "Dùng từ chính xác"
+      },
+      {
+        "c": "TV2-B09-010",
+        "d": "application",
+        "p": "Chọn nhóm gồm TOÀN từ chỉ hoạt động:",
+        "o": [
+          "xanh thẳm, lộng gió, mềm mại",
+          "chạy nhảy, cánh diều, cao vút",
+          "bãi cỏ, tiếng sáo, bầu trời",
+          "chạy nhảy, ca hát, nhảy dây"
+        ],
+        "k": "D",
+        "e": "Cả ba cụm từ đều biểu thị các hoạt động vui chơi của thiếu nhi.",
+        "s": "Phân loại từ"
+      },
+      {
+        "c": "TV2-B09-011",
+        "d": "application",
+        "p": "Điền từ đúng chính tả vào chỗ trống: \"Gió thổi ... nhẹ qua rặng tre.\"",
+        "o": [
+          "rì rào",
+          "rì dào",
+          "dì dào",
+          "giì giào"
+        ],
+        "k": "A",
+        "e": "Tiếng gió, sóng vỗ nhẹ viết là \"rì rào\" (âm đầu r).",
+        "s": "Chính tả r, d, gi"
+      },
+      {
+        "c": "TV2-B09-012",
+        "d": "application",
+        "p": "Vì sao KHÔNG được thả diều ở nơi có nhiều cột điện và dây điện?",
+        "o": [
+          "Vì diều dễ mắc vào dây điện gây chập cháy hoặc nguy hiểm giật điện",
+          "Vì cột điện làm diều bay chậm lại",
+          "Vì gió không thổi qua cột điện",
+          "Vì dây điện làm diều bị đổi màu"
+        ],
+        "k": "A",
+        "e": "Dây diều vướng dây điện có thể dẫn điện gây tai nạn nguy hiểm đến tính mạng.",
+        "s": "An toàn"
+      },
+      {
+        "c": "TV2-B09-013",
+        "d": "advanced",
+        "p": "Trong đoạn \"Tiếng sáo diều vi vu. Sao trời mọc dần. Cánh đồng chìm vào màn đêm yên ả.\", hãy đếm số từ chỉ hoạt động trong câu cuối:",
+        "o": [
+          "2 từ (cánh đồng, chìm)",
+          "1 từ (chìm)",
+          "3 từ (chìm, màn đêm, yên ả)",
+          "Không có từ chỉ hoạt động nào"
+        ],
+        "k": "B",
+        "e": "Trong câu \"Cánh đồng chìm vào màn đêm yên ả.\", từ \"chìm\" diễn tả trạng thái vận động; còn \"cánh đồng, màn đêm\" là sự vật, \"yên ả\" là đặc điểm.",
+        "s": "Phân tích từ loại"
+      },
+      {
+        "c": "TV2-B09-014",
+        "d": "advanced",
+        "p": "Đọc: \"Trời như cánh đồng / Xong mùa gặt hái / Diều em - lưỡi liềm / Ai quên bỏ lại.\" Tác giả đã ví bầu trời và cánh diều với những hình ảnh nào của nhà nông?",
+        "o": [
+          "Bầu trời giống trang sách; diều như cây bút",
+          "Bầu trời giống cánh đồng gặt xong; cánh diều cong cong như chiếc lưỡi liềm",
+          "Bầu trời giống cái ao; cánh diều như con cá",
+          "Bầu trời giống con đường; diều như chiếc xe"
+        ],
+        "k": "B",
+        "e": "Trần Đăng Khoa quan sát rất tinh tế nét cong của cánh diều ban chiều giống chiếc lưỡi liềm gặt lúa.",
+        "s": "Cảm thụ hình ảnh"
+      },
+      {
+        "c": "TV2-B09-015",
+        "d": "advanced",
+        "p": "Bảng ghi số bạn tham gia các trò chơi dân gian chiều Chủ nhật. Số bạn thả diều nhiều hơn số bạn kéo co bao nhiêu bạn?",
+        "o": [
+          "2 bạn",
+          "4 bạn",
+          "6 bạn",
+          "8 bạn"
+        ],
+        "k": "B",
+        "e": "Số bạn thả diều là 14, kéo co là 10, hơn 14 - 10 = 4 bạn.",
+        "s": "Đọc bảng số liệu",
+        "fig": {
+          "type": "table",
+          "title": "Trò chơi chiều Chủ nhật",
+          "head": [
+            "Trò chơi",
+            "Số bạn chơi"
+          ],
+          "rows": [
+            [
+              "Thả diều",
+              "14 bạn"
+            ],
+            [
+              "Kéo co",
+              "10 bạn"
+            ],
+            [
+              "Nhảy dây",
+              "12 bạn"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet2-c3",
+    "lesson": {
+      "code": "tiengviet2-b10",
+      "title": "Bài 10. Nhím nâu kết bạn – Câu nêu hoạt động (Ai làm gì?)",
+      "seq": 10,
+      "subtitle": "Đọc hiểu truyện Nhím nâu kết bạn và đặt câu theo mẫu Ai làm gì?",
+      "concepts": [
+        "Đọc hiểu truyện Nhím nâu",
+        "Mẫu câu Ai làm gì?",
+        "Giá trị tình bạn giúp đỡ lẫn nhau"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV2-B10-001",
+        "d": "basic",
+        "p": "Trong câu chuyện \"Nhím nâu kết bạn\", ban đầu vì sao Nhím nâu thường sống rụt rè một mình trong bụi cây?",
+        "o": [
+          "Vì Nhím nâu không biết nói chuyện",
+          "Vì Nhím nâu bị lạc đường từ rừng khác tới",
+          "Vì Nhím nâu mải ngủ suốt cả mùa hè",
+          "Vì nhút nhát, sợ làm đau bạn bởi bộ lông gai nhọn"
+        ],
+        "k": "D",
+        "e": "Nhím nâu e dè ngại tiếp xúc nên chưa dám kết thân với các bạn trong rừng.",
+        "s": "Đọc hiểu truyện"
+      },
+      {
+        "c": "TV2-B10-002",
+        "d": "basic",
+        "p": "Chú Nhím trắng đã có thái độ thế nào khi gặp Nhím nâu trong rừng?",
+        "o": [
+          "Xua đuổi Nhím nâu đi chỗ khác",
+          "Lấy hết quả chín của Nhím nâu",
+          "Chê bai bộ lông của Nhím nâu",
+          "Cởi mở, vui vẻ rủ Nhím nâu cùng nhặt quả cây và trò chuyện"
+        ],
+        "k": "D",
+        "e": "Sự thân thiện của Nhím trắng giúp Nhím nâu mạnh dạn kết bạn.",
+        "s": "Đọc hiểu chi tiết"
+      },
+      {
+        "c": "TV2-B10-003",
+        "d": "basic",
+        "p": "Câu nào sau đây thuộc mẫu câu nêu hoạt động \"Ai làm gì?\"?",
+        "o": [
+          "Nhím nâu là một bạn nhỏ hiền lành.",
+          "Khu rừng mùa thu thật yên tĩnh.",
+          "Nhím nâu và Nhím trắng cùng đi nhặt quả chín.",
+          "Bộ lông nhím rất nhọn và cứng."
+        ],
+        "k": "C",
+        "e": "Câu \"Ai làm gì?\" kể về việc làm cụ thể (\"cùng đi nhặt quả chín\") của nhân vật.",
+        "s": "Mẫu câu Ai làm gì?",
+        "fig": {
+          "type": "table",
+          "title": "Mẫu câu Ai làm gì?",
+          "head": [
+            "Bộ phận Ai",
+            "Bộ phận làm gì"
+          ],
+          "rows": [
+            [
+              "Nhím nâu",
+              "đi nhặt quả chín."
+            ],
+            [
+              "Các bạn",
+              "cùng dựng ngôi nhà."
+            ],
+            [
+              "Chim sâu",
+              "bắt sâu cho cây."
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV2-B10-004",
+        "d": "basic",
+        "p": "Trong câu \"Chú sóc đang chuyền cành hái hạt dẻ\", bộ phận trả lời cho câu hỏi \"làm gì?\" là gì?",
+        "o": [
+          "hạt dẻ",
+          "Chú sóc đang",
+          "Chú sóc",
+          "đang chuyền cành hái hạt dẻ"
+        ],
+        "k": "D",
+        "e": "Từ chữ \"đang chuyền cành...\" trở đi diễn tả toàn bộ hoạt động của chú sóc.",
+        "s": "Phân tích câu"
+      },
+      {
+        "c": "TV2-B10-005",
+        "d": "basic",
+        "p": "Khi mùa đông giá lạnh tới, hai bạn nhím đã cùng nhau làm gì để giữ ấm?",
+        "o": [
+          "Ngồi ngoài trời tuyết cả đêm",
+          "Cãi nhau xem ai nằm chỗ rộng hơn",
+          "Mỗi bạn tự chạy trốn vào một hang đá xa",
+          "Cùng gom lá khô lót ổ và nằm cạnh sưởi ấm cho nhau"
+        ],
+        "k": "D",
+        "e": "Biết hợp sức lót ổ và sẻ chia giúp hai bạn nhỏ vượt qua mùa đông ấm áp.",
+        "s": "Đọc hiểu"
+      },
+      {
+        "c": "TV2-B10-006",
+        "d": "basic",
+        "p": "Từ nào trái nghĩa với \"nhút nhát\"?",
+        "o": [
+          "rụt rè",
+          "mạnh dạn",
+          "e thẹn",
+          "sợ hãi"
+        ],
+        "k": "B",
+        "e": "\"Mạnh dạn\" thể hiện sự tự tin, dũng cảm, đối lập với \"nhút nhát\".",
+        "s": "Từ trái nghĩa"
+      },
+      {
+        "c": "TV2-B10-007",
+        "d": "application",
+        "p": "Đọc đoạn: \"Từ ngày có bạn, Nhím nâu không còn sợ hãi nữa mà trở nên vui tươi, hoạt bát hẳn lên.\" Tình bạn đã mang lại điều gì cho Nhím nâu?",
+        "o": [
+          "Sự tự tin, niềm vui và cảm giác an toàn ấm áp",
+          "Một chiếc xe đạp nhỏ để đi chơi",
+          "Nhiều quần áo mới đẹp hơn",
+          "Giấc ngủ dài hơn vào ban ngày"
+        ],
+        "k": "A",
+        "e": "Có bạn tốt bên cạnh giúp ta vượt qua nỗi cô đơn và thêm yêu đời.",
+        "s": "Ý nghĩa truyện"
+      },
+      {
+        "c": "TV2-B10-008",
+        "d": "application",
+        "p": "Hoàn thành câu theo mẫu \"Ai làm gì?\": \"Mỗi buổi sáng, chú gà trống ...\"",
+        "o": [
+          "trông thật oai vệ và khỏe mạnh.",
+          "có bộ lông sặc sỡ nhiều màu sắc.",
+          "là chiếc đồng hồ báo thức của xóm làng.",
+          "cất tiếng gáy vang gọi mọi người thức dậy."
+        ],
+        "k": "D",
+        "e": "Đáp án chứa hành động cụ thể (\"cất tiếng gáy vang...\"), đúng mẫu Ai làm gì?.",
+        "s": "Đặt câu Ai làm gì?"
+      },
+      {
+        "c": "TV2-B10-009",
+        "d": "application",
+        "p": "Tìm câu KHÔNG thuộc mẫu câu nêu hoạt động \"Ai làm gì?\":",
+        "o": [
+          "Đàn ong chăm chỉ đi hút mật hoa.",
+          "Mẹ đang nấu bữa cơm chiều thơm ngon.",
+          "Bác nông dân cày ruộng từ sáng sớm.",
+          "Hoa hướng dương vàng rực rỡ dưới nắng."
+        ],
+        "k": "D",
+        "e": "\"Hoa hướng dương vàng rực rỡ dưới nắng\" là câu nêu đặc điểm \"Cái gì thế nào?\", không phải câu nêu hoạt động.",
+        "s": "Phân biệt kiểu câu"
+      },
+      {
+        "c": "TV2-B10-010",
+        "d": "application",
+        "p": "Chọn từ viết ĐÚNG chính tả chỉ thái độ thân thiện khi kết bạn:",
+        "o": [
+          "cởi mở",
+          "cỡi mỡ",
+          "cởi mỡ",
+          "cỡi mở"
+        ],
+        "k": "A",
+        "e": "\"Cởi mở\" viết thanh hỏi ở tiếng \"cởi\" và thanh hỏi ở tiếng \"mở\".",
+        "s": "Chính tả hỏi ngã"
+      },
+      {
+        "c": "TV2-B10-011",
+        "d": "application",
+        "p": "Trong câu \"Hai chú nhím thu thập rất nhiều lá khô\", tiếng nào dùng âm đầu \"th\"?",
+        "o": [
+          "rất, khô",
+          "nhiều, lá",
+          "hai, chú",
+          "thu, thập"
+        ],
+        "k": "D",
+        "e": "Cả hai tiếng trong từ \"thu thập\" đều bắt đầu bằng âm ghép th.",
+        "s": "Nhận diện âm"
+      },
+      {
+        "c": "TV2-B10-012",
+        "d": "application",
+        "p": "Sắp xếp thành câu nêu hoạt động hoàn chỉnh: \"đang, học bài, bên bàn, bạn Mai\".",
+        "o": [
+          "Học bài đang bên bàn bạn Mai.",
+          "Bạn Mai đang học bài bên bàn.",
+          "Bên bàn bạn Mai đang là học bài.",
+          "Đang học bài bạn Mai bên bàn."
+        ],
+        "k": "B",
+        "e": "Trật tự câu chuẩn: Ai (Bạn Mai) + làm gì (đang học bài bên bàn).",
+        "s": "Sắp xếp câu"
+      },
+      {
+        "c": "TV2-B10-013",
+        "d": "advanced",
+        "p": "Nhím nâu có bộ lông nhiều gai nhọn dễ vô tình làm đau người khác. Điều đó nhắc chúng ta bài học gì khi kết bạn?",
+        "o": [
+          "Phải cắt hết tóc mới có bạn thân",
+          "Ai có đặc điểm khác mình thì không chơi cùng",
+          "Không nên đánh giá hay xa lánh bạn chỉ qua vẻ bề ngoài mà cần hiểu tấm lòng tốt của bạn",
+          "Chỉ nên kết bạn với những bạn thật xinh đẹp"
+        ],
+        "k": "C",
+        "e": "Vẻ ngoài gai góc không ngăn được Nhím nâu có một trái tim nhân hậu và biết quan tâm bạn bè.",
+        "s": "Thông điệp nhân văn"
+      },
+      {
+        "c": "TV2-B10-014",
+        "d": "advanced",
+        "p": "Chuyển câu nêu đặc điểm \"Đàn chim sơn ca rất vui vẻ.\" thành một câu nêu hoạt động theo mẫu \"Ai làm gì?\":",
+        "o": [
+          "Đàn chim sơn ca là loài chim biết hát hay.",
+          "Những chú chim sơn ca thật đáng yêu!",
+          "Đàn chim sơn ca đang hót líu lo trên cành cây.",
+          "Bộ lông chim sơn ca màu nâu xám."
+        ],
+        "k": "C",
+        "e": "Thay từ tả tính chất bằng hành động \"đang hót líu lo trên cành cây\" để tạo câu Ai làm gì?.",
+        "s": "Chuyển đổi kiểu câu"
+      },
+      {
+        "c": "TV2-B10-015",
+        "d": "advanced",
+        "p": "Khi thấy một bạn học sinh mới rụt rè đứng ở góc sân trường giờ ra chơi, em làm gì để giống chú Nhím trắng trong truyện?",
+        "o": [
+          "Đứng từ xa chỉ trỏ rồi cười thầm",
+          "Chạy nhanh vào lớp khóa cửa lại",
+          "Đến bắt chuyện thân thiện và mời bạn cùng tham gia trò chơi của nhóm mình",
+          "Bảo bạn đứng nguyên đó chờ cô giáo"
+        ],
+        "k": "C",
+        "e": "Chủ động cởi mở giúp bạn mới nhanh chóng hòa đồng và cảm thấy được chào đón.",
+        "s": "Liên hệ bản thân"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet2-c3",
+    "lesson": {
+      "code": "tiengviet2-b11",
+      "title": "Bài 11. Con lợn đất – Thực hành tiết kiệm và viết đoạn văn",
+      "seq": 11,
+      "subtitle": "Đọc hiểu truyện Con lợn đất, rèn đức tính tiết kiệm và viết đoạn văn ngắn kể về đồ vật",
+      "concepts": [
+        "Đọc hiểu bài Con lợn đất",
+        "Đức tính tiết kiệm",
+        "Viết đoạn văn tả đồ vật"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV2-B11-001",
+        "d": "basic",
+        "p": "Trong bài đọc \"Con lợn đất\", mẹ mua cho bạn nhỏ chú lợn đất để làm gì?",
+        "o": [
+          "Để trang trí ở ngoài cổng nhà",
+          "Để bạn nhỏ bỏ tiền tiết kiệm vào trong bụng lợn",
+          "Để bạn nhỏ tập nặn tượng đất sét",
+          "Để làm đồ chơi ném bóng"
+        ],
+        "k": "B",
+        "e": "Con lợn đất là ống tiết kiệm quen thuộc giúp trẻ em tập thói quen để dành tiền.",
+        "s": "Đọc hiểu"
+      },
+      {
+        "c": "TV2-B11-002",
+        "d": "basic",
+        "p": "Màu sắc và hình dáng chú lợn đất thường được miêu tả như thế nào?",
+        "o": [
+          "Bụng tròn béo, sơn màu đỏ hồng bóng loáng, có khe nhỏ trên lưng",
+          "Có bốn cánh quạt quay vù vù",
+          "Cao bằng chiếc tủ lạnh trong bếp",
+          "Thân dẹt mỏng như tờ giấy bìa màu đen"
+        ],
+        "k": "A",
+        "e": "Con lợn đất tròn trĩnh, sơn màu tươi sáng với khe nhét tiền ở trên lưng.",
+        "s": "Từ ngữ miêu tả"
+      },
+      {
+        "c": "TV2-B11-003",
+        "d": "basic",
+        "p": "Từ nào chỉ thói quen chi tiêu hợp lí, không phung phí?",
+        "o": [
+          "phung phí",
+          "tiết kiệm",
+          "tiêu xài bừa bãi",
+          "hoang phí"
+        ],
+        "k": "B",
+        "e": "\"Tiết kiệm\" là biết giữ gìn, dùng đúng mức cần thiết tiền bạc, thời gian, điện nước.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV2-B11-004",
+        "d": "basic",
+        "p": "Bạn nhỏ trong truyện thường dành tiền từ đâu để \"nuôi\" lợn đất?",
+        "o": [
+          "Xin tiền của các bạn cùng lớp",
+          "Bán sách giáo khoa cũ còn đang học",
+          "Lấy trộm tiền trong ví của bố",
+          "Tiền lẻ mẹ cho mua quà vặt hoặc tiền thưởng học tốt, tiền mừng tuổi"
+        ],
+        "k": "D",
+        "e": "Bớt tiền ăn quà vặt không cần thiết hoặc giữ lại tiền mừng tuổi để bỏ ống rất đáng khen.",
+        "s": "Đọc hiểu"
+      },
+      {
+        "c": "TV2-B11-005",
+        "d": "basic",
+        "p": "Dấu câu nào dùng để ngăn cách các bộ phận liệt kê cùng loại trong câu: \"Con lợn đất có cái tai vểnh, cái mũi hếch và cái đuôi xoăn.\"?",
+        "o": [
+          "Dấu hỏi chấm (?)",
+          "Dấu hai chấm (:)",
+          "Dấu phẩy (,)",
+          "Dấu chấm than (!)"
+        ],
+        "k": "C",
+        "e": "Dấu phẩy dùng để ngăn cách các cụm từ cùng miêu tả bộ phận của con lợn đất.",
+        "s": "Dấu câu"
+      },
+      {
+        "c": "TV2-B11-006",
+        "d": "basic",
+        "p": "Tiếng \"bụng\" trong \"bụng lợn đất\" chứa vần nào?",
+        "o": [
+          "ong",
+          "ung",
+          "ông",
+          "ưng"
+        ],
+        "k": "B",
+        "e": "Tiếng \"bụng\" gồm âm b, vần ung và thanh nặng.",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV2-B11-007",
+        "d": "application",
+        "p": "Bạn nhỏ dùng số tiền tiết kiệm từ con lợn đất vào việc gì rất có ý nghĩa?",
+        "o": [
+          "Mua thật nhiều đồ chơi đắt tiền rồi vứt đi",
+          "Mua toàn bánh kẹo ăn một mình trong một ngày",
+          "Ném xuống ao xem tiền có nổi không",
+          "Mua sách vở, quà sinh nhật tặng người thân hoặc ủng hộ bạn nghèo"
+        ],
+        "k": "D",
+        "e": "Tiền tiết kiệm dùng mua đồ dùng học tập, tặng quà người thân hay giúp đỡ người khó khăn rất đáng trân trọng.",
+        "s": "Ý nghĩa truyện"
+      },
+      {
+        "c": "TV2-B11-008",
+        "d": "application",
+        "p": "Khi viết một đoạn văn ngắn (3–4 câu) kể về chiếc hộp bút của em, câu kết đoạn nên viết nội dung gì?",
+        "o": [
+          "Giá tiền của chiếc xe đạp nhà bạn",
+          "Tên các món ăn sáng nay em ăn",
+          "Tình cảm gắn bó và cách em giữ gìn chiếc hộp bút đó",
+          "Thời tiết ở một thành phố khác"
+        ],
+        "k": "C",
+        "e": "Câu kết đoạn tả đồ vật thường nêu tình cảm yêu quý và ý thức bảo quản đồ vật.",
+        "s": "Kĩ năng viết đoạn"
+      },
+      {
+        "c": "TV2-B11-009",
+        "d": "application",
+        "p": "Chọn câu văn miêu tả sinh động nhất về chú lợn đất:",
+        "o": [
+          "Chú lợn đất tròn quay như quả bóng, đôi mắt đen láy lúc nào cũng híp lại cười.",
+          "Con lợn đất nặng hơn cục tẩy.",
+          "Em có một con lợn làm bằng đất.",
+          "Con lợn đất nằm ở góc bàn học của em."
+        ],
+        "k": "A",
+        "e": "Hình ảnh so sánh \"tròn quay như quả bóng\" và nhân hóa \"mắt híp lại cười\" làm câu văn rất sinh động.",
+        "s": "Viết câu hay"
+      },
+      {
+        "c": "TV2-B11-010",
+        "d": "application",
+        "p": "Ngoài tiền bạc, việc làm nào của học sinh thể hiện thói quen tiết kiệm trong sinh hoạt hằng ngày?",
+        "o": [
+          "Vứt vở mới viết vài trang đi mua vở khác",
+          "Tắt điện và quạt khi ra khỏi phòng, khóa vòi nước sau khi rửa tay",
+          "Xé giấy vở gấp máy bay phóng ngoài sân",
+          "Mở điều hòa cả ngày rồi mở toang cửa sổ"
+        ],
+        "k": "B",
+        "e": "Tiết kiệm điện, nước, giấy vở là hành động bảo vệ tài nguyên và gia đình.",
+        "s": "Giáo dục lối sống"
+      },
+      {
+        "c": "TV2-B11-011",
+        "d": "application",
+        "p": "Chọn cặp từ viết ĐÚNG chính tả:",
+        "o": [
+          "tiếc kiệm và dành dụm",
+          "tiết kiệm và dành dụm",
+          "tiết kiệm và giàn dụm",
+          "tiết kịm và giành dụm"
+        ],
+        "k": "B",
+        "e": "\"Tiết kiệm\" (vần iêt, iêm) và \"dành dụm\" (dành viết âm d) là chuẩn chính tả.",
+        "s": "Chính tả d và gi"
+      },
+      {
+        "c": "TV2-B11-012",
+        "d": "application",
+        "p": "Trong hai câu: \"Chú lợn đất không biết ăn cơm. Chú chỉ thích ăn những đồng tiền lẻ leng keng.\", từ \"ăn\" thứ hai được hiểu theo nghĩa nào?",
+        "o": [
+          "Đón nhận, chứa đựng những đồng tiền thả vào khe",
+          "Nhai nuốt thức ăn bằng răng thật",
+          "Uống nước lọc mỗi buổi trưa",
+          "Chạy nhảy ngoài vườn rau"
+        ],
+        "k": "A",
+        "e": "Cách nói vui ngộ nghĩnh ví việc bỏ tiền vào ống như cho lợn ăn.",
+        "s": "Hiểu nghĩa từ"
+      },
+      {
+        "c": "TV2-B11-013",
+        "d": "advanced",
+        "p": "Đọc đoạn: \"Lúc đập lợn, nhìn những đồng xu và tờ tiền phẳng phiu rơi ra, em thấy như bao nhiêu buổi nhịn ăn quà vặt đang mỉm cười với mình.\" Vì sao bạn nhỏ lại có cảm giác ấy?",
+        "o": [
+          "Vì các đồng tiền biết nói chuyện thành tiếng",
+          "Vì bạn không thích giữ tiền nên muốn vứt đi",
+          "Vì lợn đất bị vỡ làm bạn buồn khóc",
+          "Vì bạn tự hào thấy công sức rèn luyện tính kiên trì, tiết kiệm suốt thời gian dài đã kết trái ngọt"
+        ],
+        "k": "D",
+        "e": "Thành quả của quá trình kiên nhẫn tiết kiệm mang lại niềm vui lớn lao cho bạn nhỏ.",
+        "s": "Cảm thụ đoạn văn"
+      },
+      {
+        "c": "TV2-B11-014",
+        "d": "advanced",
+        "p": "Xếp 4 câu thành đoạn văn tả con lợn đất hợp lí: (1) Em rất yêu quý chú và giữ gìn cẩn thận trên giá sách. (2) Vào dịp sinh nhật, mẹ mua cho em một chú lợn đất rất xinh. (3) Ngày nào có tiền thừa mua bút, em cũng bỏ vào bụng chú. (4) Chú có bộ áo màu hồng tươi, tai vểnh và cái khe nhỏ trên lưng.",
+        "o": [
+          "(4) → (2) → (1) → (3)",
+          "(2) → (4) → (3) → (1)",
+          "(2) → (3) → (4) → (1)",
+          "(1) → (2) → (3) → (4)"
+        ],
+        "k": "B",
+        "e": "Giới thiệu đồ vật (2) -> tả hình dáng bên ngoài (4) -> công dụng sử dụng hằng ngày (3) -> tình cảm giữ gìn (1).",
+        "s": "Bố cục đoạn văn"
+      },
+      {
+        "c": "TV2-B11-015",
+        "d": "advanced",
+        "p": "Quan sát biểu đồ tiền tiết kiệm 4 tuần của Nam. Tổng số tiền Nam bỏ lợn trong 4 tuần là bao nhiêu nghìn đồng?",
+        "o": [
+          "40 nghìn đồng",
+          "55 nghìn đồng",
+          "50 nghìn đồng",
+          "45 nghìn đồng"
+        ],
+        "k": "C",
+        "e": "Cộng bốn tuần: 10 + 15 + 10 + 15 = 50 nghìn đồng.",
+        "s": "Đọc biểu đồ",
+        "fig": {
+          "type": "bars",
+          "title": "Tiền bỏ lợn đất của Nam",
+          "labels": [
+            "Tuần 1",
+            "Tuần 2",
+            "Tuần 3",
+            "Tuần 4"
+          ],
+          "series": [
+            {
+              "values": [
+                10,
+                15,
+                10,
+                15
+              ]
+            }
+          ],
+          "unit": "nghìn"
+        }
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet2-c3",
+    "lesson": {
+      "code": "tiengviet2-b12",
+      "title": "Bài 12. Sự tích cây vú sữa – Lòng yêu thương của mẹ",
+      "seq": 12,
+      "subtitle": "Đọc hiểu truyện Sự tích cây vú sữa, cảm nhận tình mẫu tử thiêng liêng",
+      "concepts": [
+        "Đọc hiểu Sự tích cây vú sữa",
+        "Tình cảm mẹ con sâu nặng",
+        "Tìm từ tả cảm xúc hối hận"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV2-B12-001",
+        "d": "basic",
+        "p": "Trong truyện \"Sự tích cây vú sữa\", vì sao cậu bé ban đầu lại bỏ nhà ra đi?",
+        "o": [
+          "Vì ham chơi, bị mẹ mắng nên cậu vùng vằng bỏ đi",
+          "Vì cậu lên đường đi thi trạng nguyên",
+          "Vì cậu đi tìm kho báu ở đảo xa",
+          "Vì nhà hết gạo nên cậu đi mua"
+        ],
+        "k": "A",
+        "e": "Sự nông nổi, chưa biết nghe lời khiến cậu bé giận dỗi bỏ nhà đi bụi.",
+        "s": "Đọc hiểu truyện"
+      },
+      {
+        "c": "TV2-B12-002",
+        "d": "basic",
+        "p": "Khi đói khát và nhớ nhà quay trở về, cậu bé thấy điều gì ở trong vườn nhà mình?",
+        "o": [
+          "Mẹ đã không còn nữa, chỉ có một cây xanh lạ mọc lên sai trĩu quả",
+          "Ngôi nhà biến thành lâu đài bằng vàng",
+          "Mẹ đang nấu bữa cơm ngon chờ sẵn ở cổng",
+          "Cả khu vườn toàn hoa hồng trắng"
+        ],
+        "k": "A",
+        "e": "Cậu trở về quá muộn, người mẹ vì mòn mỏi chờ con đã hóa thành cây xanh tốt.",
+        "s": "Đọc hiểu chi tiết"
+      },
+      {
+        "c": "TV2-B12-003",
+        "d": "basic",
+        "p": "Quả trên cây lạ đó khi rơi xuống và cậu bé cắn vào có vị gì đặc biệt?",
+        "o": [
+          "Vị đắng ngắt như thuốc bắc",
+          "Dòng sữa trắng ngọt thơm trào ra như sữa mẹ",
+          "Vị chua gắt làm cậu nhăn mặt",
+          "Bên trong toàn hạt sỏi cứng"
+        ],
+        "k": "B",
+        "e": "Dòng nước trắng ngần ngọt ngào như dòng sữa mẹ nuôi con khôn lớn.",
+        "s": "Đọc hiểu chi tiết"
+      },
+      {
+        "c": "TV2-B12-004",
+        "d": "basic",
+        "p": "Đặc điểm nào của lá cây vú sữa khiến cậu bé nhớ đến bàn tay mẹ?",
+        "o": [
+          "Lá cây biết phát sáng vào ban đêm",
+          "Lá cây rụng hết quanh năm",
+          "Lá cây có hình tam giác màu tím",
+          "Một mặt lá xanh bóng, mặt kia đỏ hoe như mắt mẹ khóc chờ con"
+        ],
+        "k": "D",
+        "e": "Hai mặt lá đối lập màu sắc gợi hình ảnh mẹ tảo tần và đôi mắt đỏ hoe trông ngóng con về.",
+        "s": "Hình ảnh biểu tượng"
+      },
+      {
+        "c": "TV2-B12-005",
+        "d": "basic",
+        "p": "Cảm xúc của cậu bé khi ôm cây khóc lúc trở về là gì?",
+        "o": [
+          "Tức giận với cây xanh trong vườn",
+          "Thản nhiên đi chơi tiếp",
+          "Ân hận và thương nhớ mẹ vô cùng",
+          "Vui mừng vì có nhiều quả ăn"
+        ],
+        "k": "C",
+        "e": "Cậu bé vô cùng hối hận vì đã làm mẹ buồn lòng suốt thời gian dài.",
+        "s": "Nhận biết cảm xúc"
+      },
+      {
+        "c": "TV2-B12-006",
+        "d": "basic",
+        "p": "Từ nào viết ĐÚNG chính tả chỉ sự chăm lo hết lòng của mẹ dành cho con?",
+        "o": [
+          "tảo tần",
+          "tão tầng",
+          "tảo tầng",
+          "tão tần"
+        ],
+        "k": "A",
+        "e": "\"Tảo tần\" viết thanh hỏi ở \"tảo\" và âm cuối n ở \"tần\".",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV2-B12-007",
+        "d": "application",
+        "p": "Hành động cây vú sữa \"khẽ run rẩy cành lá như bàn tay mẹ vỗ về\" thể hiện ý nghĩa gì?",
+        "o": [
+          "Cây sợ cậu bé chặt cành làm củi",
+          "Dù thế nào, tấm lòng người mẹ vẫn luôn tha thứ và che chở cho con",
+          "Cơn gió bão đang thổi rất mạnh làm cây sắp đổ",
+          "Cây muốn đuổi cậu bé ra khỏi vườn"
+        ],
+        "k": "B",
+        "e": "Tình mẫu tử bao dung, luôn dang tay đón con trở về dẫu con từng mắc lỗi.",
+        "s": "Cảm thụ sâu sắc"
+      },
+      {
+        "c": "TV2-B12-008",
+        "d": "application",
+        "p": "Câu chuyện \"Sự tích cây vú sữa\" muốn khuyên nhủ các bạn nhỏ điều gì?",
+        "o": [
+          "Muốn có quả ngon ăn thì cứ bỏ nhà đi xa",
+          "Cây vú sữa chỉ mọc ở nơi có nhà bỏ hoang",
+          "Phải biết vâng lời, hiếu thảo và yêu thương mẹ ngay từ bây giờ, đừng để hối hận",
+          "Không cần xin lỗi khi làm bố mẹ buồn"
+        ],
+        "k": "C",
+        "e": "Hãy trân trọng thời gian bên cha mẹ, sống ngoan ngoãn để cha mẹ vui lòng.",
+        "s": "Bài học đạo đức"
+      },
+      {
+        "c": "TV2-B12-009",
+        "d": "application",
+        "p": "Trong hai từ \"khóc lóc\" và \"trông ngóng\", từ nào chỉ hành động chờ đợi ai đó trở về?",
+        "o": [
+          "khóc lóc",
+          "không từ nào",
+          "cả hai từ",
+          "trông ngóng"
+        ],
+        "k": "D",
+        "e": "\"Trông ngóng\" diễn tả tâm trạng mong mỏi, đợi chờ người thân quay về.",
+        "s": "Hiểu nghĩa từ"
+      },
+      {
+        "c": "TV2-B12-010",
+        "d": "application",
+        "p": "Chọn câu kể ĐÚNG nội dung truyện:",
+        "o": [
+          "Cậu bé ôm lấy thân cây xanh mà òa khóc nức nở.",
+          "Cây vú sữa có quả màu đen và vị mặn.",
+          "Mẹ cậu bé dắt tay cậu đi hái hoa trong rừng.",
+          "Cậu bé bỏ đi vì muốn đi học ở trường mới."
+        ],
+        "k": "A",
+        "e": "Chi tiết cậu ôm thân cây òa khóc đúng với diễn biến truyện.",
+        "s": "Đọc hiểu"
+      },
+      {
+        "c": "TV2-B12-011",
+        "d": "application",
+        "p": "Từ nào đồng nghĩa với từ \"ân hận\"?",
+        "o": [
+          "hối hận",
+          "tự hào",
+          "kiêu hãnh",
+          "vui sướng"
+        ],
+        "k": "A",
+        "e": "\"Ân hận\" và \"hối hận\" đều chỉ sự day dứt, nuối tiếc khi nhận ra sai lầm của mình.",
+        "s": "Từ đồng nghĩa"
+      },
+      {
+        "c": "TV2-B12-012",
+        "d": "application",
+        "p": "Điền đúng âm đầu s hoặc x vào tên loại cây trong bài: \"cây vú ...ữa\".",
+        "o": [
+          "s (sữa)",
+          "ch (chữa)",
+          "x (xữa)",
+          "tr (trữa)"
+        ],
+        "k": "A",
+        "e": "Tiếng \"sữa\" luôn viết bằng âm đầu s và thanh ngã.",
+        "s": "Chính tả s và x"
+      },
+      {
+        "c": "TV2-B12-013",
+        "d": "advanced",
+        "p": "Vì sao quả vú sữa đầu tiên rơi vào tay cậu bé có vị chát, nhưng đến quả sau lại có dòng sữa ngọt ngào trào ra?",
+        "o": [
+          "Vì cậu bé tự mang đường rắc lên quả",
+          "Vì thời tiết thay đổi từ lạnh sang nóng",
+          "Vì khi cậu biết cúi đầu hối hận và gọi tiếng \"Mẹ ơi!\", tình thương bao dung của mẹ đã hóa ngọt lành",
+          "Vì quả đầu tiên còn xanh bị sâu ăn, quả sau chín nắng"
+        ],
+        "k": "C",
+        "e": "Chi tiết kì ảo ca ngợi tình mẹ bao la: chỉ khi con biết ăn năn, tình mẹ mới chạm sâu vào lòng con.",
+        "s": "Cảm thụ chi tiết kì ảo"
+      },
+      {
+        "c": "TV2-B12-014",
+        "d": "advanced",
+        "p": "Tìm từ tả vẻ bề ngoài và tính chất bên trong của quả vú sữa trong truyện:",
+        "o": [
+          "Méo mó, xù xì bên ngoài và có hạt cát bên trong",
+          "Dài thuôn nhọn đầu và có vị cay nồng",
+          "Tròn căng, bóng mịn bên ngoài và chứa dòng sữa trắng ngọt bên trong",
+          "Vuông vắn góc cạnh như hộp gỗ"
+        ],
+        "k": "C",
+        "e": "Mô tả chính xác đặc điểm thực tế kết hợp hình ảnh văn học của quả vú sữa.",
+        "s": "Quan sát - miêu tả"
+      },
+      {
+        "c": "TV2-B12-015",
+        "d": "advanced",
+        "p": "Nếu lỡ cãi lời khiến mẹ buồn, việc làm đúng đắn nhất ngay lúc đó là gì?",
+        "o": [
+          "Đợi vài năm sau lớn lên mới nói",
+          "Chân thành xin lỗi mẹ, ôm mẹ và sửa sai bằng hành động ngoan hơn",
+          "Bỏ sang nhà bạn chơi cả ngày không về",
+          "Đóng chặt cửa phòng không ăn cơm tối"
+        ],
+        "k": "B",
+        "e": "Nhận lỗi sớm và sửa sai kịp thời giúp gắn kết tình cảm gia đình và làm mẹ bớt buồn.",
+        "s": "Liên hệ thực tế"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet2-c4",
+    "lesson": {
+      "code": "tiengviet2-b13",
+      "title": "Bài 13. Quạt cho bà ngủ – Từ ngữ chỉ đặc điểm",
+      "seq": 13,
+      "subtitle": "Đọc hiểu bài thơ Quạt cho bà ngủ và phân biệt từ chỉ đặc điểm trong tiếng Việt",
+      "concepts": [
+        "Đọc hiểu thơ Quạt cho bà ngủ",
+        "Tìm từ chỉ đặc điểm",
+        "Lòng hiếu thảo với ông bà"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV2-B13-001",
+        "d": "basic",
+        "p": "Trong bài thơ \"Quạt cho bà ngủ\" (Thạch Quỳ), bạn nhỏ ngồi làm gì bên giường bà giữa trưa hè?",
+        "o": [
+          "Ngồi hát thật to gọi các bạn sang chơi",
+          "Ngồi ăn kem một mình ngoài sân",
+          "Ngồi gấp máy bay giấy chơi một mình",
+          "Ngồi phe phẩy chiếc quạt nan quạt mát cho bà ngủ ngon"
+        ],
+        "k": "D",
+        "e": "Tình cảm hiếu thảo thể hiện qua việc làm nhỏ bé: quạt mát cho bà ngủ trưa.",
+        "s": "Đọc hiểu thơ"
+      },
+      {
+        "c": "TV2-B13-002",
+        "d": "basic",
+        "p": "Không gian quanh nhà lúc bà ngủ trưa được miêu tả như thế nào?",
+        "o": [
+          "Tiếng còi xe inh ỏi suốt buổi trưa",
+          "Mưa giông sấm chớp đùng đoàng",
+          "Mọi vật đều im ắng: chích chòe thôi hót, hoa cam hoa khế chín lặng trong vườn",
+          "Trẻ con hò reo ầm ĩ ngoài ngõ"
+        ],
+        "k": "C",
+        "e": "Từ chú chim chích chòe đến cây cối trong vườn đều giữ yên lặng để bà ngủ ngon.",
+        "s": "Đọc hiểu chi tiết"
+      },
+      {
+        "c": "TV2-B13-003",
+        "d": "basic",
+        "p": "Từ nào sau đây là từ chỉ ĐẶC ĐIỂM?",
+        "o": [
+          "giấc ngủ",
+          "quạt nan",
+          "ngồi quạt",
+          "mát mẻ"
+        ],
+        "k": "D",
+        "e": "\"Mát mẻ\" tả tính chất dễ chịu của gió hoặc thời tiết.",
+        "s": "Từ chỉ đặc điểm",
+        "fig": {
+          "type": "table",
+          "title": "Nhận diện 3 nhóm từ",
+          "head": [
+            "Sự vật",
+            "Từ loại khác"
+          ],
+          "rows": [
+            [
+              "bàn tay, quạt nan",
+              "quạt, ngủ (HĐ)"
+            ],
+            [
+              "vườn cam, hoa khế",
+              "vàng, lặng (ĐĐ)"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV2-B13-004",
+        "d": "basic",
+        "p": "Ở cuối bài thơ, đôi bàn tay nhỏ của bạn nhỏ đã mang lại điều gì cho giấc mơ của bà?",
+        "o": [
+          "Làm chiếc quạt rách tan tành",
+          "Đánh thức bà dậy đi làm đồng ngay",
+          "Ngọn gió mát lành làm giấc mơ của bà tỏa ngát hương cam, hương khế",
+          "Làm cốc nước đá đổ ra bàn"
+        ],
+        "k": "C",
+        "e": "Hình ảnh bàn tay bé xíu quạt gió đưa cả hương hoa trái vào giấc mơ êm đềm của bà.",
+        "s": "Đọc hiểu thơ"
+      },
+      {
+        "c": "TV2-B13-005",
+        "d": "basic",
+        "p": "Từ nào chỉ âm thanh nhẹ nhàng, đều đặn của chiếc quạt giấy hoặc quạt nan?",
+        "o": [
+          "xối xả",
+          "ầm ĩ",
+          "phe phẩy",
+          "rầm rầm"
+        ],
+        "k": "C",
+        "e": "\"Phe phẩy\" miêu tả động tác đưa quạt nhịp nhàng, nhẹ dịu.",
+        "s": "Từ láy"
+      },
+      {
+        "c": "TV2-B13-006",
+        "d": "basic",
+        "p": "Trong từ \"yên tĩnh\", tiếng \"tĩnh\" mang thanh điệu gì?",
+        "o": [
+          "Thanh ngã",
+          "Thanh sắc",
+          "Thanh nặng",
+          "Thanh hỏi"
+        ],
+        "k": "A",
+        "e": "Tiếng \"tĩnh\" viết thanh ngã ở trên chữ i.",
+        "s": "Chính tả hỏi ngã"
+      },
+      {
+        "c": "TV2-B13-007",
+        "d": "application",
+        "p": "Vì sao trong bài thơ, bạn nhỏ lại dặn \"Ơi chích chòe ơi! Chim đừng hót nữa!\"?",
+        "o": [
+          "Vì bạn nhỏ ghét loài chim chích chòe",
+          "Vì sợ tiếng chim hót to sẽ làm bà bị tỉnh giấc",
+          "Vì trời đã tối chim phải đi ngủ",
+          "Vì chim đang ăn hết quả khế chín"
+        ],
+        "k": "B",
+        "e": "Lời thì thầm đáng yêu cho thấy bạn nhỏ cực kì chu đáo, nâng niu giấc ngủ của bà.",
+        "s": "Đọc hiểu cảm xúc"
+      },
+      {
+        "c": "TV2-B13-008",
+        "d": "application",
+        "p": "Tìm nhóm từ chỉ toàn ĐẶC ĐIỂM trong câu \"Căn nhà nhỏ mát rượi dưới bóng cây xanh rì.\":",
+        "o": [
+          "nhỏ, mát rượi, xanh rì",
+          "căn nhà, bóng cây",
+          "dưới, xanh rì, bóng cây",
+          "căn nhà, nhỏ, bóng cây"
+        ],
+        "k": "A",
+        "e": "\"Nhỏ\" (kích thước), \"mát rượi\" (cảm giác), \"xanh rì\" (màu sắc) đều là từ chỉ đặc điểm.",
+        "s": "Tìm từ chỉ đặc điểm"
+      },
+      {
+        "c": "TV2-B13-009",
+        "d": "application",
+        "p": "Điền từ chỉ đặc điểm phù hợp vào chỗ trống: \"Mái tóc của bà đã ... theo năm tháng.\"",
+        "o": [
+          "bạc trắng",
+          "chải đầu",
+          "nấu cơm",
+          "chiếc lược"
+        ],
+        "k": "A",
+        "e": "\"Bạc trắng\" tả màu sắc mái tóc người cao tuổi.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV2-B13-010",
+        "d": "application",
+        "p": "Từ nào KHÔNG phải từ chỉ đặc điểm?",
+        "o": [
+          "hiền hậu",
+          "thơm ngát",
+          "lặng lẽ",
+          "mở cửa"
+        ],
+        "k": "D",
+        "e": "\"Mở cửa\" là từ chỉ hoạt động; ba từ còn lại chỉ tính chất, đặc điểm.",
+        "s": "Phân loại từ"
+      },
+      {
+        "c": "TV2-B13-011",
+        "d": "application",
+        "p": "Chọn câu viết ĐÚNG chính tả:",
+        "o": [
+          "Ngọn gió nhẹ nhàng thổi qua khung cữa sổ.",
+          "Ngọn gió nhẹ nhàng thổi qua khung cửa sổ.",
+          "Ngọn rió nhẹ nhàng thổi qua khung cửa sổ.",
+          "Ngọn gió nhẹ nhàn thổi qua khung cửa sổ."
+        ],
+        "k": "B",
+        "e": "\"Nhẹ nhàng\" (vần ang), \"gió\" (gi), \"cửa\" (thanh hỏi) đều chuẩn chính tả.",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV2-B13-012",
+        "d": "application",
+        "p": "Trong hai từ \"nhanh nhẹn\" và \"chậm rãi\", chúng đều thuộc nhóm từ nào?",
+        "o": [
+          "Từ chỉ tên đồ vật",
+          "Từ chỉ mùa trong năm",
+          "Từ chỉ hoạt động nấu ăn",
+          "Từ chỉ đặc điểm"
+        ],
+        "k": "D",
+        "e": "Hai từ này miêu tả tính chất về tốc độ, tác phong nên là từ chỉ đặc điểm.",
+        "s": "Nhận diện từ loại"
+      },
+      {
+        "c": "TV2-B13-013",
+        "d": "advanced",
+        "p": "Đọc khổ thơ cuối: \"Bàn tay bé nhỏ / Vẫy quạt thật đều / Ngấn nắng thiu thiu / Đậu trên tường trắng.\" Cụm từ \"ngấn nắng thiu thiu\" gợi khung cảnh trưa hè như thế nào?",
+        "o": [
+          "Khung cảnh mùa đông tuyết phủ dày",
+          "Trưa hè giông bão sấm chớp mù mịt",
+          "Buổi trưa náo nhiệt tiếng trống hội",
+          "Khung cảnh trưa hè êm ả, tĩnh mịch như vệt nắng cũng đang ngủ cùng bà"
+        ],
+        "k": "D",
+        "e": "\"Thiu thiu\" thường nói về trạng thái mơ màng chìm vào giấc ngủ, khiến vệt nắng cũng như đang nghỉ trưa.",
+        "s": "Cảm thụ thơ"
+      },
+      {
+        "c": "TV2-B13-014",
+        "d": "advanced",
+        "p": "Tìm câu có sử dụng ít nhất HAI từ chỉ đặc điểm:",
+        "o": [
+          "Trưa hè nắng gắt nhưng góc hiên nhà bà vẫn rất mát mẻ.",
+          "Bà thức dậy uống một chén trà.",
+          "Bé ngồi bên giường quạt cho bà ngủ.",
+          "Chú chim chích chòe bay ra vườn cây."
+        ],
+        "k": "A",
+        "e": "\"Nắng gắt\" (hoặc \"gắt\") và \"mát mẻ\" là hai từ chỉ đặc điểm thời tiết, không khí.",
+        "s": "Phân tích câu"
+      },
+      {
+        "c": "TV2-B13-015",
+        "d": "advanced",
+        "p": "Vào buổi trưa khi ông bà hoặc bố mẹ đang nằm nghỉ sau giờ làm việc, em nên làm gì để giữ trật tự?",
+        "o": [
+          "Đi nhẹ, nói khẽ, đọc sách hoặc chơi trò chơi yên tĩnh",
+          "Mở ti vi âm lượng tối đa",
+          "Rủ bạn sang nhà chơi nhảy dây ầm ĩ",
+          "Gõ trống đồ chơi quanh phòng"
+        ],
+        "k": "A",
+        "e": "Biết giữ yên tĩnh tôn trọng giấc ngủ của người thân là hành động hiếu thảo thiết thực.",
+        "s": "Ứng xử gia đình"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet2-c4",
+    "lesson": {
+      "code": "tiengviet2-b14",
+      "title": "Bài 14. Mẹ – Câu nêu đặc điểm (Ai thế nào?)",
+      "seq": 14,
+      "subtitle": "Đọc hiểu bài thơ Mẹ của Trần Quốc Minh và thực hành mẫu câu Ai thế nào?",
+      "concepts": [
+        "Đọc hiểu thơ Mẹ",
+        "Mẫu câu Ai thế nào?",
+        "Biết ơn công lao của mẹ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV2-B14-001",
+        "d": "basic",
+        "p": "Trong bài thơ \"Mẹ\" (Trần Quốc Minh), đêm hè oi bức, con cò không ngủ làm gì và mẹ làm gì cho con?",
+        "o": [
+          "Mẹ đi ngủ sớm từ lúc tám giờ tối",
+          "Mẹ thức suốt đêm quạt cho con ngủ ngon",
+          "Mẹ ra ngoài sân ngắm trăng",
+          "Mẹ ngồi đọc truyện cổ tích cho hàng xóm"
+        ],
+        "k": "B",
+        "e": "Bốn dòng thơ: \"Lặng rồi cả tiếng con ve / Con ve cũng mệt vì hè nắng oi / Nhà em vẫn tiếng ạ ời / Kẽo cà tiếng võng mẹ ngồi mẹ ru.\"",
+        "s": "Đọc hiểu thơ"
+      },
+      {
+        "c": "TV2-B14-002",
+        "d": "basic",
+        "p": "Âm thanh \"ạ ời\" và \"kẽo cà kẽo kẹt\" trong bài thơ là tiếng của cái gì?",
+        "o": [
+          "Tiếng nước chảy trên mái tôn",
+          "Tiếng xe ô tô chạy ngoài đường",
+          "Tiếng sấm sét ban đêm",
+          "Lời hát ru của mẹ và tiếng chiếc võng đưa"
+        ],
+        "k": "D",
+        "e": "\"Lời ru ạ ời\" hòa cùng tiếng võng kẽo kẹt gắn liền với tình thương của mẹ.",
+        "s": "Đọc hiểu chi tiết"
+      },
+      {
+        "c": "TV2-B14-003",
+        "d": "basic",
+        "p": "Câu nào sau đây thuộc mẫu câu nêu đặc điểm \"Ai thế nào?\"?",
+        "o": [
+          "Bàn tay mẹ thật dịu dàng và ấm áp.",
+          "Chú gà trống nhảy lên đống rơm.",
+          "Mẹ em là bác sĩ nhi khoa.",
+          "Mẹ đang đưa võng ru em ngủ."
+        ],
+        "k": "A",
+        "e": "Mẫu \"Ai thế nào?\" miêu tả tính chất, trạng thái, đặc điểm của sự vật/con người.",
+        "s": "Mẫu câu Ai thế nào?",
+        "fig": {
+          "type": "table",
+          "title": "3 mẫu câu lớp 2",
+          "head": [
+            "Mẫu câu",
+            "Ví dụ chuẩn"
+          ],
+          "rows": [
+            [
+              "Ai là gì?",
+              "Mẹ là cô giáo."
+            ],
+            [
+              "Ai làm gì?",
+              "Mẹ ru con ngủ."
+            ],
+            [
+              "Ai thế nào?",
+              "Mẹ rất hiền hậu."
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV2-B14-004",
+        "d": "basic",
+        "p": "Trong câu \"Ngọn gió từ tay mẹ thật mát lành\", từ nào trả lời cho câu hỏi \"thế nào?\"?",
+        "o": [
+          "tay mẹ",
+          "thật mát lành",
+          "Ngọn gió",
+          "từ tay mẹ"
+        ],
+        "k": "B",
+        "e": "Bộ phận \"thật mát lành\" nêu đặc điểm của ngọn gió.",
+        "s": "Phân tích câu"
+      },
+      {
+        "c": "TV2-B14-005",
+        "d": "basic",
+        "p": "Chiếc quạt mo hay chiếc quạt nan xuất hiện trong lời ru giúp xua tan điều gì của đêm hè?",
+        "o": [
+          "Ánh đèn điện chói mắt",
+          "Hạt mưa phùn tháng Giêng",
+          "Cơn gió rét mùa đông",
+          "Cái nóng oi bức của mùa hạ"
+        ],
+        "k": "D",
+        "e": "Ngọn gió mát từ tay mẹ xua đi cái nóng oi ả để con có giấc ngủ tròn.",
+        "s": "Đọc hiểu"
+      },
+      {
+        "c": "TV2-B14-006",
+        "d": "basic",
+        "p": "Từ nào tả thời tiết nóng nực, không có gió vào ngày hè?",
+        "o": [
+          "nắng oi",
+          "gió bấc",
+          "lạnh buốt",
+          "mát rượi"
+        ],
+        "k": "A",
+        "e": "\"Nắng oi\" diễn tả cái nóng ngột ngạt, oi ả của mùa hè.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV2-B14-007",
+        "d": "application",
+        "p": "Đọc hai câu cuối bài thơ: \"Ngọn gió mẹ quạt từ tay / Là ngọn gió suốt đời con mát.\" Ý nghĩa sâu sắc của câu thơ là gì?",
+        "o": [
+          "Mùa đông trời cũng nóng như mùa hè",
+          "Tình yêu thương, sự che chở của mẹ sẽ theo suốt cuộc đời con, đem lại bình yên",
+          "Quạt tay của mẹ có pin chạy suốt nhiều năm",
+          "Con lúc nào cũng ở nhà không đi đâu cả"
+        ],
+        "k": "B",
+        "e": "Dù con lớn lên đi đâu, tình mẹ và lời ru êm dịu vẫn mãi nâng đỡ tâm hồn con.",
+        "s": "Cảm thụ thơ"
+      },
+      {
+        "c": "TV2-B14-008",
+        "d": "application",
+        "p": "Hoàn thành câu theo mẫu \"Ai thế nào?\": \"Mùa hạ ở quê em ...\"",
+        "o": [
+          "thường đón những cơn mưa rào.",
+          "rực rỡ nắng vàng và rộn ràng tiếng ve.",
+          "là mùa có kì nghỉ dài nhất.",
+          "giúp cây lúa chín nhanh hơn."
+        ],
+        "k": "B",
+        "e": "Cụm \"rực rỡ nắng vàng và rộn ràng tiếng ve\" toàn từ chỉ đặc điểm, hợp chuẩn mẫu Ai thế nào?.",
+        "s": "Đặt câu Ai thế nào?"
+      },
+      {
+        "c": "TV2-B14-009",
+        "d": "application",
+        "p": "Trong các câu sau, câu nào KHÔNG thuộc mẫu \"Ai thế nào?\"?",
+        "o": [
+          "Đôi mắt mẹ hiền từ và trìu mến.",
+          "Bố em đang tưới hoa ngoài ban công.",
+          "Cánh đồng lúa chín vàng ươm.",
+          "Bầu trời đêm đầy sao sáng lấp lánh."
+        ],
+        "k": "B",
+        "e": "\"Bố em đang tưới hoa ngoài ban công\" nêu hoạt động (\"Ai làm gì?\").",
+        "s": "Phân biệt mẫu câu"
+      },
+      {
+        "c": "TV2-B14-010",
+        "d": "application",
+        "p": "Từ nào viết ĐÚNG chính tả chỉ sự vất vả, chịu thương chịu khó của mẹ?",
+        "o": [
+          "tần tão",
+          "tần tào",
+          "tần tảo",
+          "tầng tảo"
+        ],
+        "k": "C",
+        "e": "\"Tần tảo\" (vần ân ở \"tần\", thanh hỏi ở \"tảo\").",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV2-B14-011",
+        "d": "application",
+        "p": "Trong câu \"Nắng hè chói chang làm con ve cũng thấy mệt\", những từ nào là từ chỉ đặc điểm?",
+        "o": [
+          "làm, cũng",
+          "hè, thấy",
+          "chói chang, mệt",
+          "nắng hè, con ve"
+        ],
+        "k": "C",
+        "e": "\"Chói chang\" tả đặc điểm ánh nắng; \"mệt\" tả trạng thái cảm giác.",
+        "s": "Tìm từ chỉ đặc điểm"
+      },
+      {
+        "c": "TV2-B14-012",
+        "d": "application",
+        "p": "Chọn câu đặt dấu câu ĐÚNG cho lời bày tỏ tình cảm với mẹ:",
+        "o": [
+          "Con yêu mẹ thế nào!",
+          "Con yêu mẹ nhiều lắm?",
+          "Con yêu mẹ nhiều lắm!",
+          "Con yêu mẹ nhiều lắm,"
+        ],
+        "k": "C",
+        "e": "Câu bộc lộ cảm xúc chân thành kết thúc bằng dấu chấm than (!).",
+        "s": "Dấu câu"
+      },
+      {
+        "c": "TV2-B14-013",
+        "d": "advanced",
+        "p": "So sánh hai chi tiết trong bài thơ \"Mẹ\": Con ve ban ngày kêu râm ran đến đêm cũng mệt và im tiếng, còn mẹ thì sao?",
+        "o": [
+          "Mẹ bật quạt máy rồi ngồi đọc báo",
+          "Mẹ dù cả ngày làm việc mệt nhọc vẫn thức quạt và hát ru để con ngủ ngon",
+          "Mẹ ra vườn bắt con ve bỏ vào lọ",
+          "Mẹ cũng đi ngủ sớm hơn cả con ve"
+        ],
+        "k": "B",
+        "e": "Sự tương phản cho thấy sức mạnh phi thường của tình mẫu tử vượt lên mọi mệt nhọc.",
+        "s": "So sánh chi tiết"
+      },
+      {
+        "c": "TV2-B14-014",
+        "d": "advanced",
+        "p": "Chuyển câu nêu hoạt động \"Em bé cười tươi khi nghe mẹ hát.\" thành câu nêu đặc điểm \"Ai thế nào?\" tương ứng:",
+        "o": [
+          "Em bé đang lắng nghe tiếng hát.",
+          "Em bé là niềm hạnh phúc của cả nhà.",
+          "Nụ cười của em bé thật tươi tắn và đáng yêu.",
+          "Mẹ đang hát ru em bé ngủ."
+        ],
+        "k": "C",
+        "e": "Tập trung miêu tả đặc điểm \"thật tươi tắn và đáng yêu\" của nụ cười em bé.",
+        "s": "Chuyển đổi kiểu câu"
+      },
+      {
+        "c": "TV2-B14-015",
+        "d": "advanced",
+        "p": "Ngày Gia đình Việt Nam hay sinh nhật mẹ, việc làm nhỏ nào khiến mẹ hạnh phúc nhất?",
+        "o": [
+          "Viết lời chúc chân thành, ngoan ngoãn phụ giúp mẹ việc nhà vừa sức",
+          "Nghỉ học đi chơi công viên cả ngày",
+          "Đòi mẹ mua đồ chơi thật đắt tiền cho mình",
+          "Để cặp sách bừa bộn giữa phòng khách"
+        ],
+        "k": "A",
+        "e": "Sự trưởng thành, ngoan ngoãn và quan tâm của con là món quà quý giá nhất với mẹ.",
+        "s": "Liên hệ bản thân"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet2-c4",
+    "lesson": {
+      "code": "tiengviet2-b15",
+      "title": "Bài 15. Bạn trong nhà – Chính tả tr, ch và s, x",
+      "seq": 15,
+      "subtitle": "Đọc hiểu về vật nuôi thân thiết trong gia đình và luyện viết đúng chính tả",
+      "concepts": [
+        "Đọc hiểu về thú cưng",
+        "Chính tả tr và ch",
+        "Chính tả s, x và hỏi, ngã"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV2-B15-001",
+        "d": "basic",
+        "p": "Chú chó trong gia đình thường giúp chủ làm công việc gì quen thuộc nhất?",
+        "o": [
+          "Trông giữ nhà và làm bạn thân thiết với mọi người",
+          "Bơi dưới ao bắt ốc suốt ngày",
+          "Nằm ngủ suốt tuần không cần ăn",
+          "Leo lên ngọn cây bắt chim sâu"
+        ],
+        "k": "A",
+        "e": "Chó trung thành, thính tai nên trông nhà rất giỏi và rất quấn quýt với chủ.",
+        "s": "Đọc hiểu"
+      },
+      {
+        "c": "TV2-B15-002",
+        "d": "basic",
+        "p": "Từ nào viết ĐÚNG chính tả chỉ con vật có bộ lông nhiều đốm tròn?",
+        "o": [
+          "chó đốm",
+          "chó đồm",
+          "tró đốm",
+          "chó đốn"
+        ],
+        "k": "A",
+        "e": "Con chó viết bằng âm đầu ch; đốm có vần ôm.",
+        "s": "Chính tả tr và ch"
+      },
+      {
+        "c": "TV2-B15-003",
+        "d": "basic",
+        "p": "Từ nào tả đặc điểm khứu giác rất nhạy bén của loài chó hoặc sự nhanh nhẹn của mắt mèo?",
+        "o": [
+          "mờ mịt",
+          "chậm chạp",
+          "tinh anh",
+          "nặng nề"
+        ],
+        "k": "C",
+        "e": "Đôi mắt tinh anh hoặc chiếc mũi thính nhạy giúp vật nuôi quan sát rất nhanh.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV2-B15-004",
+        "d": "basic",
+        "p": "Khi thấy chủ đi học hay đi làm về, chú cún con thường thể hiện niềm vui bằng hành động nào?",
+        "o": [
+          "Chạy ra cửa vẫy đuôi rối rít",
+          "Trốn tít vào gầm tủ không ra",
+          "Cắn rách đôi giày vừa cởi",
+          "Gầm gừ nhe răng dọa nạt"
+        ],
+        "k": "A",
+        "e": "Vẫy đuôi quấn chân mừng rỡ là cách loài chó bày tỏ tình cảm yêu mến.",
+        "s": "Quan sát thực tế"
+      },
+      {
+        "c": "TV2-B15-005",
+        "d": "basic",
+        "p": "Chọn từ viết ĐÚNG với âm đầu \"tr\":",
+        "o": [
+          "trung thành",
+          "chung thành",
+          "trưng thành",
+          "chưng thành"
+        ],
+        "k": "A",
+        "e": "Đức tính gắn bó hết lòng không đổi thay gọi là \"trung thành\" (âm đầu tr).",
+        "s": "Chính tả tr và ch"
+      },
+      {
+        "c": "TV2-B15-006",
+        "d": "basic",
+        "p": "Con mèo mướp dùng bộ phận nào trên mặt để đánh hơi và giữ thăng bằng khi đi trên tường hẹp?",
+        "o": [
+          "Bộ ria mép",
+          "Cặp sừng cong",
+          "Cái mỏ nhọn cứng",
+          "Đôi tai dài rủ xuống"
+        ],
+        "k": "A",
+        "e": "Ria mép nhạy bén giúp mèo đo khoảng trống và giữ thăng bằng tuyệt vời.",
+        "s": "Kiến thức tự nhiên"
+      },
+      {
+        "c": "TV2-B15-007",
+        "d": "application",
+        "p": "Chọn từ viết ĐÚNG điền vào câu: \"Chú mèo nằm sưởi nắng trên ... nhà thật êm.\"",
+        "o": [
+          "mái yên",
+          "mái hiêng",
+          "máy hiên",
+          "mái hiên"
+        ],
+        "k": "D",
+        "e": "\"Mái hiên\" viết đúng với vần ai và vần iên.",
+        "s": "Chính tả vần"
+      },
+      {
+        "c": "TV2-B15-008",
+        "d": "application",
+        "p": "Điền đúng âm ch hoặc tr vào cặp từ sau: \"...ông nhà\" và \"...ơi đùa\".",
+        "o": [
+          "chông nhà và chơi đùa",
+          "trông nhà và trơi đùa",
+          "chông nhà và trơi đùa",
+          "trông nhà và chơi đùa"
+        ],
+        "k": "D",
+        "e": "\"Trông giữ nhà\" viết bằng tr; \"vui chơi\" viết bằng ch.",
+        "s": "Phân biệt tr và ch",
+        "fig": {
+          "type": "table",
+          "title": "Phân biệt tr và ch",
+          "head": [
+            "Âm tr",
+            "Âm ch"
+          ],
+          "rows": [
+            [
+              "trông nhà",
+              "chơi đùa"
+            ],
+            [
+              "trung thành",
+              "chăm chỉ"
+            ],
+            [
+              "mặt trời",
+              "con chim"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV2-B15-009",
+        "d": "application",
+        "p": "Từ nào viết ĐÚNG chính tả chỉ con gà con mới nở lông vàng?",
+        "o": [
+          "vàng óng ánh s",
+          "dàng óng",
+          "vàng ống",
+          "vàng óng"
+        ],
+        "k": "D",
+        "e": "\"Vàng óng\" miêu tả màu vàng rực mượt mà.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV2-B15-010",
+        "d": "application",
+        "p": "Chọn câu viết ĐÚNG chính tả hoàn chỉnh:",
+        "o": [
+          "Trú cún con chạy non ton theo bước chân bé ra ngõ.",
+          "Chú cún con trạy lon ton theo bước chân bé ra ngõ.",
+          "Chú cún con chạy lon ton theo bước trân bé ra ngõ.",
+          "Chú cún con chạy lon ton theo bước chân bé ra ngõ."
+        ],
+        "k": "D",
+        "e": "Chú (ch), chạy (ch), chân (ch), lon ton (l) đều viết chuẩn xác.",
+        "s": "Tổng hợp chính tả"
+      },
+      {
+        "c": "TV2-B15-011",
+        "d": "application",
+        "p": "Khi chăm sóc vật nuôi trong nhà như chó, mèo, cần chú ý điều gì để bảo vệ sức khỏe cả nhà?",
+        "o": [
+          "Tắm rửa sạch, cho ăn hợp vệ sinh và đưa đi tiêm phòng đầy đủ",
+          "Cho vật nuôi ăn kẹo ngọt và đồ cay nóng",
+          "Bỏ đói vật nuôi nhiều ngày",
+          "Cho vật nuôi ngủ chung trong chăn gối chưa từng tắm"
+        ],
+        "k": "A",
+        "e": "Vệ sinh và tiêm phòng dại đầy đủ bảo vệ an toàn cho vật nuôi lẫn con người.",
+        "s": "Chăm sóc thú cưng"
+      },
+      {
+        "c": "TV2-B15-012",
+        "d": "application",
+        "p": "Tìm từ viết SAI chính tả trong dãy: \"chăm chỉ, trung thực, cây chanh, cái chổi, con châu\".",
+        "o": [
+          "chăm chỉ",
+          "cây chanh",
+          "trung thực",
+          "con châu"
+        ],
+        "k": "D",
+        "e": "Loài gia súc kéo cày phải viết là \"con trâu\" (âm đầu tr).",
+        "s": "Phát hiện lỗi"
+      },
+      {
+        "c": "TV2-B15-013",
+        "d": "advanced",
+        "p": "Đọc đoạn: \"Đốm chạy tới cắn nhẹ ống quần em kéo ra sân khi thấy bếp quên tắt nước. Nhờ Đốm, cả nhà kịp khóa vòi nước tràn.\" Chi tiết này cho thấy Đốm là chú chó thế nào?",
+        "o": [
+          "Thông minh, nhanh trí và rất gắn bó quan tâm đến gia đình chủ",
+          "Thích chạy quanh sân sủa ồn ào",
+          "Sợ nước nên chạy trốn ra sân",
+          "Hay cắn rách quần áo để nghịch ngợm"
+        ],
+        "k": "A",
+        "e": "Hành động báo hiệu sự cố thể hiện sự tinh khôn và trung thành của chú chó.",
+        "s": "Đọc hiểu"
+      },
+      {
+        "c": "TV2-B15-014",
+        "d": "advanced",
+        "p": "Điền đúng 2 từ trái nghĩa vào câu sau về tính cách hai con vật: \"Mèo Mun thì đi lại nhẹ nhàng ..., còn cún Đốm lại chạy nhảy thật ...!\"",
+        "o": [
+          "ồn ào / nhanh nhẹn",
+          "khoan thai / tinh nghịch",
+          "hiền lành / ngoan ngoãn",
+          "lặng lẽ / êm đềm"
+        ],
+        "k": "B",
+        "e": "Một bên điềm đạm từ tốn (khoan thai), một bên hiếu động vui nhộn (tinh nghịch).",
+        "s": "Vốn từ nâng cao"
+      },
+      {
+        "c": "TV2-B15-015",
+        "d": "advanced",
+        "p": "Viết một câu kiểu \"Ai thế nào?\" để khen một chú cún con đáng yêu:",
+        "o": [
+          "Bộ lông của chú cún trắng muốt và mềm mịn như bông.",
+          "Chú cún đang gặm khúc xương ngoài sân.",
+          "Đốm là chú chó nhỏ của nhà bà ngoại.",
+          "Bé dắt chú cún đi dạo quanh công viên."
+        ],
+        "k": "A",
+        "e": "Câu dùng hai từ chỉ đặc điểm \"trắng muốt\" và \"mềm mịn\" tả bộ lông chú cún.",
+        "s": "Vận dụng mẫu câu"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet2-c5",
+    "lesson": {
+      "code": "tiengviet2-b16",
+      "title": "Bài 16. Mùa nước nổi – Vẻ đẹp các vùng miền Việt Nam",
+      "seq": 16,
+      "subtitle": "Đọc hiểu văn bản miêu tả cảnh đẹp thiên nhiên vùng sông nước Nam Bộ và các mùa trong năm",
+      "concepts": [
+        "Đọc hiểu Mùa nước nổi",
+        "Đặc sản và cảnh đẹp vùng miền",
+        "Từ ngữ tả thiên nhiên"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV2-B16-001",
+        "d": "basic",
+        "p": "Hiện tượng thiên nhiên \"mùa nước nổi\" là nét đặc trưng nổi bật của vùng nào ở nước ta?",
+        "o": [
+          "Các đảo đá vôi vịnh Hạ Long",
+          "Vùng núi cao Tây Bắc",
+          "Khu vực thành phố Hà Nội",
+          "Đồng bằng sông Cửu Long (miền Tây Nam Bộ)"
+        ],
+        "k": "D",
+        "e": "Hằng năm vào khoảng tháng 8–11, nước sông Mê Kông dâng hiền hòa tạo nên mùa nước nổi miền Tây.",
+        "s": "Hiểu biết vùng miền"
+      },
+      {
+        "c": "TV2-B16-002",
+        "d": "basic",
+        "p": "Vào mùa nước nổi ở miền Tây, loài hoa vàng rực nào nở rộ dọc bờ kênh rạch và dùng làm món ăn ngon?",
+        "o": [
+          "Hoa ban trắng",
+          "Hoa đào hồng",
+          "Hoa điên điển",
+          "Hoa sữa trắng"
+        ],
+        "k": "C",
+        "e": "Bông điên điển vàng tươi nở rộ mùa nước nổi là món đặc sản dân dã nổi tiếng.",
+        "s": "Vốn từ vùng miền"
+      },
+      {
+        "c": "TV2-B16-003",
+        "d": "basic",
+        "p": "Phương tiện đi lại quen thuộc của người dân miền sông nước khi nước dâng ngập đồng ruộng là gì?",
+        "o": [
+          "Thuyền, xuồng ba lá",
+          "Tàu hỏa siêu tốc",
+          "Xe đạp điện",
+          "Xe ngựa thồ"
+        ],
+        "k": "A",
+        "e": "Người dân dùng xuồng, ghe chèo trên kênh rạch và cánh đồng ngập nước.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV2-B16-004",
+        "d": "basic",
+        "p": "Ngoài tôm cá phong phú, nước lũ hiền hòa mùa nước nổi còn mang lại lợi ích quý giá nào cho đất ruộng?",
+        "o": [
+          "Làm đóng băng toàn bộ cây cối",
+          "Bồi đắp lượng phù sa màu mỡ cho đồng ruộng",
+          "Làm đất ruộng bị nứt nẻ khô cằn",
+          "Biến nước ngọt thành nước biển mặn"
+        ],
+        "k": "B",
+        "e": "Lớp phù sa đỏ au theo dòng nước giúp ruộng đồng thêm phì nhiêu cho vụ mùa sau.",
+        "s": "Kiến thức tự nhiên"
+      },
+      {
+        "c": "TV2-B16-005",
+        "d": "basic",
+        "p": "Từ nào chỉ màu vàng rực rỡ của bông điên điển và đồng lúa chín?",
+        "o": [
+          "đỏ thắm",
+          "trắng xóa",
+          "vàng rực",
+          "xanh biếc"
+        ],
+        "k": "C",
+        "e": "\"Vàng rực\" gợi sắc vàng tươi sáng nổi bật.",
+        "s": "Từ miêu tả"
+      },
+      {
+        "c": "TV2-B16-006",
+        "d": "basic",
+        "p": "Tiếng \"nổi\" trong \"mùa nước nổi\" mang thanh điệu gì?",
+        "o": [
+          "Thanh sắc",
+          "Thanh hỏi",
+          "Thanh ngã",
+          "Thanh nặng"
+        ],
+        "k": "B",
+        "e": "Chữ \"nổi\" có dấu hỏi trên đầu chữ ô.",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV2-B16-007",
+        "d": "application",
+        "p": "Đọc đoạn: \"Mùa nước nổi, nước dâng lên từ từ, không dữ dội hung hãn mà hiền hòa như dòng sữa nuôi đồng bằng.\" Vì sao người dân gọi là \"mùa nước nổi\" mà ít gọi là \"mùa bão lụt\"?",
+        "o": [
+          "Vì không ai nhìn thấy mặt nước trên sông",
+          "Vì nước chỉ dâng vào đúng ngày mùng Một",
+          "Vì nước lên chậm rãi, êm ả và đem lại nhiều nguồn lợi tôm cá, phù sa",
+          "Vì nước bay lơ lửng trên bầu trời"
+        ],
+        "k": "C",
+        "e": "Thiên nhiên ở đây hiền hòa, gắn liền với nhịp sống lao động sinh sôi của người dân.",
+        "s": "Đọc hiểu chi tiết"
+      },
+      {
+        "c": "TV2-B16-008",
+        "d": "application",
+        "p": "Ghép đúng tên mùa đặc trưng với loài hoa nổi tiếng của các vùng miền Việt Nam: Hoa đào thường nở vào dịp nào ở miền Bắc?",
+        "o": [
+          "Mùa hạ nắng gắt",
+          "Mùa thu lá rụng",
+          "Mùa xuân (Tết Nguyên đán)",
+          "Giữa mùa hè tháng Bảy"
+        ],
+        "k": "C",
+        "e": "Hoa đào miền Bắc và hoa mai miền Nam báo hiệu mùa xuân sang.",
+        "s": "Văn hóa Việt Nam"
+      },
+      {
+        "c": "TV2-B16-009",
+        "d": "application",
+        "p": "Trong câu \"Những chiếc xuồng nhỏ rẽ sóng lướt nhẹ trên mặt đồng trắng xóa nước\", từ nào tả màu sắc mặt nước bao la?",
+        "o": [
+          "nhỏ",
+          "lướt nhẹ",
+          "những chiếc",
+          "trắng xóa"
+        ],
+        "k": "D",
+        "e": "\"Trắng xóa\" gợi mặt nước mênh mông ánh lên màu trắng bạc dưới nắng.",
+        "s": "Cảm thụ từ ngữ"
+      },
+      {
+        "c": "TV2-B16-010",
+        "d": "application",
+        "p": "Chọn câu viết ĐÚNG chính tả:",
+        "o": [
+          "Dòng sông quê hương hiền hòa bồi đắp phù sa.",
+          "Dòng sông cuê hương hiền hòa bồi đắp phù sa.",
+          "Ròng sông quê hương hiền hòa bồi đắp phù sa.",
+          "Dòng xông quê hương hiền hòa bồi đắp phù sa."
+        ],
+        "k": "A",
+        "e": "\"Dòng\" (d), \"sông\" (s), \"quê\" (qu) viết chuẩn chính tả.",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV2-B16-011",
+        "d": "application",
+        "p": "Các tỉnh miền núi phía Bắc nước ta mùa đông thường có hiện tượng nào hiếm gặp ở miền Nam?",
+        "o": [
+          "Hoa phượng nở đỏ rực khắp rừng",
+          "Trời rét đậm, vùng núi cao có khi có băng giá, sương muối",
+          "Mùa nước nổi dâng ngập ruộng bậc thang",
+          "Nắng nóng 40 độ suốt cả tháng Mười Hai"
+        ],
+        "k": "B",
+        "e": "Khí hậu Việt Nam đa dạng theo vùng miền, miền Bắc có mùa đông lạnh rõ rệt.",
+        "s": "Hiểu biết địa lí"
+      },
+      {
+        "c": "TV2-B16-012",
+        "d": "application",
+        "p": "Nhóm từ nào chỉ các sản vật thiên nhiên mùa nước nổi?",
+        "o": [
+          "bánh trung thu, lồng đèn, múa lân",
+          "xe buýt, máy tính, bảng đen",
+          "tuyết trắng, gấu bắc cực, băng hà",
+          "cá linh, bông điên điển, bông súng"
+        ],
+        "k": "D",
+        "e": "Cá linh non, bông điên điển và bông súng là sản vật đặc trưng của Đồng bằng sông Cửu Long mùa nước nổi.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV2-B16-013",
+        "d": "advanced",
+        "p": "Đọc: \"Mùa xuân ấm áp, mùa hạ rực rỡ, mùa thu dịu dàng và mùa đông trầm tư.\" Mỗi mùa được tác giả gọi bằng từ ngữ gợi tính cách như thế nào?",
+        "o": [
+          "Các mùa luôn cãi nhau xem ai dài hơn",
+          "Bốn mùa đều có thời tiết lạnh giống nhau",
+          "Chỉ có mùa xuân đẹp còn ba mùa kia xấu xí",
+          "Mùa nào cũng có vẻ đẹp riêng đáng yêu, hòa hợp tạo nên bức tranh bốn mùa tươi đẹp"
+        ],
+        "k": "D",
+        "e": "Nhân hóa nét riêng từng mùa giúp người đọc thêm yêu thiên nhiên đất nước mình.",
+        "s": "Cảm thụ văn học"
+      },
+      {
+        "c": "TV2-B16-014",
+        "d": "advanced",
+        "p": "Phân tích bộ phận trong câu \"Mùa nước nổi là mùa vui nhất của trẻ em vùng sông nước.\" Đây là mẫu câu nào?",
+        "o": [
+          "Câu hỏi nghi vấn",
+          "Câu nêu hoạt động \"Ai làm gì?\"",
+          "Câu giới thiệu \"Ai là gì?\" (Cái gì là gì?)",
+          "Câu nêu đặc điểm \"Ai thế nào?\""
+        ],
+        "k": "C",
+        "e": "Từ \"là\" nối giữa \"Mùa nước nổi\" và phần định danh \"mùa vui nhất...\" tạo cấu trúc giới thiệu.",
+        "s": "Ngữ pháp"
+      },
+      {
+        "c": "TV2-B16-015",
+        "d": "advanced",
+        "p": "Em sẽ giới thiệu điều gì đẹp nhất về quê hương mình với một người bạn ở vùng khác?",
+        "o": [
+          "Giới thiệu cảnh đẹp thiên nhiên, món ăn ngon và lòng hiếu khách của con người quê mình",
+          "Chỉ kể về những ngày trời mưa bão buồn chán",
+          "Chê bai quê của bạn không bằng quê mình",
+          "Không nói gì vì quê nào cũng giống nhau"
+        ],
+        "k": "A",
+        "e": "Tự hào và chia sẻ nét đẹp quê hương giúp bạn bè thêm hiểu và yêu đất nước Việt Nam.",
+        "s": "Giao tiếp văn hóa"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet2-c6",
+    "lesson": {
+      "code": "tiengviet2-b17",
+      "title": "Bài 17. Bóp nát quả cam – Lịch sử hào hùng và dấu câu",
+      "seq": 17,
+      "subtitle": "Đọc hiểu truyện lịch sử Trần Quốc Toản bóp nát quả cam và phân biệt dấu chấm, chấm hỏi, chấm than",
+      "concepts": [
+        "Đọc hiểu Trần Quốc Toản",
+        "Tinh thần yêu nước tuổi nhỏ",
+        "Sử dụng dấu câu chuẩn xác"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV2-B17-001",
+        "d": "basic",
+        "p": "Nhân vật thiếu niên anh hùng trong câu chuyện \"Bóp nát quả cam\" là ai?",
+        "o": [
+          "Hai Bà Trưng",
+          "Trần Quốc Toản",
+          "Thánh Gióng",
+          "Lê Lợi"
+        ],
+        "k": "B",
+        "e": "Trần Quốc Toản (Hoài Văn Hầu) là vị thiếu niên yêu nước thời nhà Trần chống giặc Nguyên.",
+        "s": "Nhân vật lịch sử"
+      },
+      {
+        "c": "TV2-B17-002",
+        "d": "basic",
+        "p": "Khi thấy vua và các tướng lĩnh bàn việc đánh giặc ở bến Bình Than nhưng mình còn nhỏ không được vào họp, Trần Quốc Toản đã có hành động gì?",
+        "o": [
+          "Khóc ầm ĩ rồi ném đá xuống sông",
+          "Xin vua cho đi chơi hội làng",
+          "Quay lưng bỏ về nhà đi ngủ",
+          "Quỳ trước thuyền rồng xin vua cho đánh giặc"
+        ],
+        "k": "D",
+        "e": "Chàng trai trẻ dũng cảm tâu vua xin đánh giặc cứu nước dù tuổi còn nhỏ.",
+        "s": "Đọc hiểu truyện"
+      },
+      {
+        "c": "TV2-B17-003",
+        "d": "basic",
+        "p": "Nhà vua đã ban tặng cho Trần Quốc Toản vật gì để khen ngợi tấm lòng yêu nước?",
+        "o": [
+          "Một thanh kiếm dài",
+          "Một quả cam quý",
+          "Một chiếc cung tên bằng vàng",
+          "Một bộ áo giáp sắt nặng"
+        ],
+        "k": "B",
+        "e": "Vua thấy Quốc Toản còn ít tuổi nhưng chí lớn nên khen ngợi và ban cho quả cam quý.",
+        "s": "Đọc hiểu chi tiết"
+      },
+      {
+        "c": "TV2-B17-004",
+        "d": "basic",
+        "p": "Vì sao Trần Quốc Toản lại vô tình bóp nát quả cam quý trong tay lúc bước lên bờ?",
+        "o": [
+          "Vì quả cam đã bị hỏng từ trước",
+          "Vì lòng căm giận quân giặc và uất ức khi mình chưa được tham gia bàn việc đánh giặc",
+          "Vì tay cậu trơn quá làm rơi xuống đất",
+          "Vì cậu muốn vắt nước cam ra uống ngay"
+        ],
+        "k": "B",
+        "e": "Cảm xúc sục sôi nhiệt huyết cứu nước khiến bàn tay cậu siết chặt làm nát quả cam lúc nào không hay.",
+        "s": "Phân tích tâm lí"
+      },
+      {
+        "c": "TV2-B17-005",
+        "d": "basic",
+        "p": "Dấu câu nào dùng ở cuối câu dùng để hỏi một điều chưa biết?",
+        "o": [
+          "Dấu phẩy (,)",
+          "Dấu chấm (.)",
+          "Dấu chấm hỏi (?)",
+          "Dấu gạch nối (-)"
+        ],
+        "k": "C",
+        "e": "Cuối câu nghi vấn (câu hỏi) luôn đặt dấu chấm hỏi.",
+        "s": "Dấu câu",
+        "fig": {
+          "type": "table",
+          "title": "Bảng dùng dấu câu",
+          "head": [
+            "Mục đích câu",
+            "Dấu cuối câu"
+          ],
+          "rows": [
+            [
+              "Kể thông tin",
+              "Dấu chấm (.)"
+            ],
+            [
+              "Hỏi điều chưa biết",
+              "Dấu chấm hỏi (?)"
+            ],
+            [
+              "Bộc lộ cảm xúc",
+              "Dấu chấm than (!)"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV2-B17-006",
+        "d": "basic",
+        "p": "Tiếng \"cam\" trong \"quả cam\" và tiếng \"dũng cảm\" khác nhau ở yếu tố nào?",
+        "o": [
+          "Nguyên âm",
+          "Âm đầu",
+          "Thanh điệu (ngang và hỏi)",
+          "Âm cuối"
+        ],
+        "k": "C",
+        "e": "\"cam\" (c + am + ngang) và \"cảm\" (c + am + hỏi) chỉ khác thanh điệu.",
+        "s": "Cấu tạo tiếng"
+      },
+      {
+        "c": "TV2-B17-007",
+        "d": "application",
+        "p": "Sau khi trở về, Trần Quốc Toản đã làm gì để góp phần chống giặc giữ nước?",
+        "o": [
+          "Mang quả cam khác đi trồng trong vườn",
+          "Ở nhà học thuộc lòng sách lịch sử",
+          "Đi câu cá bên bờ sông Bình Than",
+          "Tập hợp gia nhân lập đội quân riêng, thêu lá cờ sáu chữ vàng đánh giặc"
+        ],
+        "k": "D",
+        "e": "Cậu chiêu mộ binh sĩ, giương cao lá cờ \"Phá cường địch, báo hoàng ân\" ra trận lập công.",
+        "s": "Kiến thức lịch sử"
+      },
+      {
+        "c": "TV2-B17-008",
+        "d": "application",
+        "p": "Chọn dấu câu ĐÚNG cho cuối câu sau: \"Ai ban cho Trần Quốc Toản quả cam quý...\"",
+        "o": [
+          "Dấu chấm hỏi (?)",
+          "Dấu phẩy (,)",
+          "Dấu chấm (.)",
+          "Dấu chấm than (!)"
+        ],
+        "k": "A",
+        "e": "Từ \"Ai\" đứng đầu dùng để hỏi thông tin nên cuối câu dùng dấu chấm hỏi.",
+        "s": "Dùng dấu câu"
+      },
+      {
+        "c": "TV2-B17-009",
+        "d": "application",
+        "p": "Chọn câu bộc lộ cảm xúc khâm phục và dùng ĐÚNG dấu câu:",
+        "o": [
+          "Trần Quốc Toản thật dũng cảm biết bao!",
+          "Trần Quốc Toản thật dũng cảm biết bao,",
+          "Trần Quốc Toản thật dũng cảm biết bao?",
+          "Trần Quốc Toản dũng cảm là ai!"
+        ],
+        "k": "A",
+        "e": "Tên riêng viết hoa, câu cảm thán có \"thật... biết bao\" kết thúc bằng dấu chấm than (!).",
+        "s": "Viết câu đúng"
+      },
+      {
+        "c": "TV2-B17-010",
+        "d": "application",
+        "p": "Trong hai từ \"quả cảm\" và \"hèn nhát\", từ nào miêu tả phẩm chất của Trần Quốc Toản?",
+        "o": [
+          "quả cảm",
+          "không từ nào",
+          "hèn nhát",
+          "cả hai từ"
+        ],
+        "k": "A",
+        "e": "\"Quả cảm\" nghĩa là gan dạ, dũng cảm không sợ hiểm nguy.",
+        "s": "Vốn từ phẩm chất"
+      },
+      {
+        "c": "TV2-B17-011",
+        "d": "application",
+        "p": "Chọn từ viết ĐÚNG chính tả:",
+        "o": [
+          "chiến đấu tranh lộn",
+          "chiến đấu",
+          "chiến đẩu",
+          "triến đấu"
+        ],
+        "k": "B",
+        "e": "\"Chiến đấu\" viết bằng âm ch, vần iên và vần âu.",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV2-B17-012",
+        "d": "application",
+        "p": "Trong câu \"Vua khen ngợi chí lớn của người thiếu niên trẻ tuổi.\", từ nào chỉ hành động của nhà vua?",
+        "o": [
+          "khen ngợi",
+          "chí lớn",
+          "trẻ tuổi",
+          "thiếu niên"
+        ],
+        "k": "A",
+        "e": "\"Khen ngợi\" là từ chỉ hoạt động biểu dương bằng lời nói.",
+        "s": "Tìm động từ"
+      },
+      {
+        "c": "TV2-B17-013",
+        "d": "advanced",
+        "p": "Vì sao khi nhìn lại bàn tay thấy quả cam nát bét, mọi người xung quanh càng thêm khâm phục Trần Quốc Toản?",
+        "o": [
+          "Vì họ hiểu sức mạnh lòng yêu nước nồng nàn và chí khí diệt giặc sục sôi trong lòng cậu",
+          "Vì họ thấy bàn tay cậu có sức khỏe hơn người thường",
+          "Vì cậu làm phép biến quả cam thành nước",
+          "Vì cậu không thích ăn cam ngọt"
+        ],
+        "k": "A",
+        "e": "Cử chỉ vô thức bóp nát quả cam thể hiện nỗi lòng đau đáu với non sông của người anh hùng nhỏ tuổi.",
+        "s": "Cảm thụ lịch sử"
+      },
+      {
+        "c": "TV2-B17-014",
+        "d": "advanced",
+        "p": "Xác định câu có dùng ĐÚNG dấu phẩy ngăn cách hai ý hoặc cụm trạng ngữ chỉ thời gian:",
+        "o": [
+          "Hồi còn, nhỏ Trần Quốc Toản đã nuôi chí lớn bảo vệ đất nước.",
+          "Hồi còn nhỏ Trần Quốc, Toản đã nuôi chí lớn bảo vệ đất nước.",
+          "Hồi còn nhỏ, Trần Quốc Toản đã nuôi chí lớn bảo vệ đất nước.",
+          "Hồi còn nhỏ Trần Quốc Toản đã nuôi chí lớn, bảo vệ đất nước."
+        ],
+        "k": "C",
+        "e": "Dấu phẩy đặt sau bộ phận chỉ thời gian \"Hồi còn nhỏ,\" giúp câu tách ý rõ ràng.",
+        "s": "Sử dụng dấu phẩy"
+      },
+      {
+        "c": "TV2-B17-015",
+        "d": "advanced",
+        "p": "Học sinh lớp 2 hôm nay thể hiện tình yêu quê hương đất nước bằng việc làm thiết thực nào?",
+        "o": [
+          "Mua thật nhiều đồ chơi siêu nhân",
+          "Chăm chỉ học tập, giữ gìn vệ sinh môi trường, kính trọng ông bà thầy cô và giúp đỡ bạn bè",
+          "Chỉ học mỗi môn Lịch sử bỏ các môn khác",
+          "Đòi ra chiến trường cầm gươm đánh trận"
+        ],
+        "k": "B",
+        "e": "Thời bình, học tốt, sống nhân ái và bảo vệ môi trường chính là cách yêu nước của thiếu nhi.",
+        "s": "Liên hệ bản thân"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet2-c6",
+    "lesson": {
+      "code": "tiengviet2-b18",
+      "title": "Bài 18. Ôn tập Tiếng Việt 2 – Từ loại, Kiểu câu và Đọc hiểu",
+      "seq": 18,
+      "subtitle": "Tổng hợp kiến thức trọng tâm lớp 2: chính tả, 3 mẫu câu, từ loại và đọc hiểu đoạn văn",
+      "concepts": [
+        "Tổng hợp từ chỉ sự vật, hoạt động, đặc điểm",
+        "3 mẫu câu Ai là gì, làm gì, thế nào",
+        "Đọc hiểu và chính tả tổng hợp"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV2-B18-001",
+        "d": "basic",
+        "p": "Ba nhóm từ loại trọng tâm học ở môn Tiếng Việt lớp 2 gồm những loại nào?",
+        "o": [
+          "Chỉ học bảng chữ cái 29 chữ",
+          "Từ chỉ số lượng, hình học, cân nặng",
+          "Từ chỉ sự vật, từ chỉ hoạt động, từ chỉ đặc điểm",
+          "Từ chỉ màu đỏ, màu xanh, màu tím"
+        ],
+        "k": "C",
+        "e": "Lớp 2 học sinh phân biệt 3 nhóm từ vựng cơ bản: sự vật, hoạt động và đặc điểm.",
+        "s": "Hệ thống kiến thức",
+        "fig": {
+          "type": "table",
+          "title": "Tổng hợp Tiếng Việt 2",
+          "head": [
+            "Kiến thức",
+            "Ví dụ nhận biết"
+          ],
+          "rows": [
+            [
+              "Sự vật / Hoạt động",
+              "chim / hót"
+            ],
+            [
+              "Đặc điểm",
+              "vàng rực, dịu dàng"
+            ],
+            [
+              "3 mẫu câu",
+              "Ai là gì/làm gì?"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV2-B18-002",
+        "d": "basic",
+        "p": "Câu nào thuộc mẫu câu \"Ai làm gì?\"?",
+        "o": [
+          "Đàn ong bay đi tìm mật hoa.",
+          "Ong mật là loài côn trùng có ích.",
+          "Trời mùa thu mát mẻ quá!",
+          "Cánh hoa hồng mịn màng như nhung."
+        ],
+        "k": "A",
+        "e": "\"Bay đi tìm mật hoa\" là cụm từ chỉ hoạt động.",
+        "s": "Nhận diện mẫu câu"
+      },
+      {
+        "c": "TV2-B18-003",
+        "d": "basic",
+        "p": "Từ nào là từ chỉ đặc điểm trong câu \"Bông cúc vàng tươi rung rinh trong nắng mai.\"?",
+        "o": [
+          "rung rinh",
+          "bông cúc",
+          "vàng tươi",
+          "nắng mai"
+        ],
+        "k": "C",
+        "e": "\"Vàng tươi\" miêu tả đặc điểm màu sắc của bông cúc.",
+        "s": "Tìm từ loại"
+      },
+      {
+        "c": "TV2-B18-004",
+        "d": "basic",
+        "p": "Cuối câu bộc lộ sự ngạc nhiên, vui sướng hoặc khen ngợi thường dùng dấu câu gì?",
+        "o": [
+          "Dấu chấm hỏi (?)",
+          "Dấu phẩy (,)",
+          "Không đặt dấu câu",
+          "Dấu chấm than (!)"
+        ],
+        "k": "D",
+        "e": "Câu cảm sử dụng dấu chấm than (!) ở cuối câu.",
+        "s": "Dấu câu"
+      },
+      {
+        "c": "TV2-B18-005",
+        "d": "basic",
+        "p": "Trong các từ sau, từ nào viết ĐÚNG chính tả?",
+        "o": [
+          "rực rỡ",
+          "giực giỡ",
+          "dực dỡ",
+          "rực dỡ"
+        ],
+        "k": "A",
+        "e": "\"Rực rỡ\" cả hai tiếng đều viết bằng âm r.",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV2-B18-006",
+        "d": "basic",
+        "p": "Khi viết tên riêng của người hay địa danh (như Hà Nội, Hồ Chí Minh), cần viết như thế nào?",
+        "o": [
+          "Chỉ viết hoa chữ cái đầu tiếng thứ nhất",
+          "Viết thường toàn bộ",
+          "Viết hoa chữ cái đầu của tất cả các tiếng tạo thành tên riêng đó",
+          "Chỉ viết hoa khi đứng đầu câu"
+        ],
+        "k": "C",
+        "e": "Quy tắc viết hoa tên riêng Việt Nam là viết hoa chữ cái đầu mỗi tiếng.",
+        "s": "Quy tắc viết hoa"
+      },
+      {
+        "c": "TV2-B18-007",
+        "d": "application",
+        "p": "Xác định kiểu câu của câu sau: \"Sách giáo khoa là người bạn đồng hành thân thiết của học sinh.\"",
+        "o": [
+          "Câu hỏi nghi vấn",
+          "Câu nêu hoạt động (Ai làm gì?)",
+          "Câu nêu đặc điểm (Ai thế nào?)",
+          "Câu giới thiệu (Ai là gì?)"
+        ],
+        "k": "D",
+        "e": "Câu có cấu trúc A là B để giới thiệu vai trò của sách giáo khoa.",
+        "s": "Phân loại câu"
+      },
+      {
+        "c": "TV2-B18-008",
+        "d": "application",
+        "p": "Tìm dòng gồm 3 từ viết ĐÚNG chính tả l và n:",
+        "o": [
+          "lấp lánh, nô đùa, nâng niu",
+          "lấp lánh, lô đùa, nâng niu",
+          "nấp nánh, lô đùa, lâng liu",
+          "lấp nánh, nô đùa, nâng liu"
+        ],
+        "k": "A",
+        "e": "lấp lánh (l), nô đùa (n), nâng niu (n) đều viết đúng chuẩn.",
+        "s": "Chính tả tổng hợp"
+      },
+      {
+        "c": "TV2-B18-009",
+        "d": "application",
+        "p": "Đọc đoạn: \"Buổi sáng trên cao nguyên thật trong lành. Sương sớm còn đọng long lanh trên ngọn cỏ non. Đàn bò thong thả gặm cỏ bên sườn đồi.\" Tìm câu nêu hoạt động trong đoạn trên:",
+        "o": [
+          "Buổi sáng trên cao nguyên thật trong lành.",
+          "Cảnh vật buổi sáng rất yên bình.",
+          "Cỏ non phủ xanh mặt đất.",
+          "Đàn bò thong thả gặm cỏ bên sườn đồi."
+        ],
+        "k": "D",
+        "e": "Hoạt động \"gặm cỏ\" của đàn bò là câu kiểu Ai làm gì?; câu đầu nêu đặc điểm \"trong lành\".",
+        "s": "Đọc hiểu - Ngữ pháp"
+      },
+      {
+        "c": "TV2-B18-010",
+        "d": "application",
+        "p": "Điền từ thích hợp để tạo cặp từ trái nghĩa: \"ngắn ngủi\" trái nghĩa với \"...\".",
+        "o": [
+          "dài lâu",
+          "bé nhỏ",
+          "nhanh chóng",
+          "chậm chạp"
+        ],
+        "k": "A",
+        "e": "\"Ngắn ngủi\" đối lập với \"dài lâu\".",
+        "s": "Từ trái nghĩa"
+      },
+      {
+        "c": "TV2-B18-011",
+        "d": "application",
+        "p": "Chọn câu dùng ĐÚNG từ \"xanh xao\" hoặc \"xanh mướt\": \"Vườn rau sau cơn mưa trông thật ...\"",
+        "o": [
+          "xanh mét",
+          "xanh mướt",
+          "xanh xao",
+          "xanh lè xám xịt"
+        ],
+        "k": "B",
+        "e": "\"Xanh mướt\" tả lá cây tươi tốt mơn mởn; còn \"xanh xao\" tả da mặt người bị ốm.",
+        "s": "Dùng từ đúng ngữ cảnh"
+      },
+      {
+        "c": "TV2-B18-012",
+        "d": "application",
+        "p": "Sắp xếp tên các tỉnh thành: \"Đà Nẵng, Cần Thơ, Hải Phòng, Bắc Ninh\" theo bảng chữ cái:",
+        "o": [
+          "Bắc Ninh, Đà Nẵng, Cần Thơ, Hải Phòng",
+          "Cần Thơ, Bắc Ninh, Đà Nẵng, Hải Phòng",
+          "Bắc Ninh, Cần Thơ, Đà Nẵng, Hải Phòng",
+          "Đà Nẵng, Hải Phòng, Bắc Ninh, Cần Thơ"
+        ],
+        "k": "C",
+        "e": "Thứ tự chữ cái đầu: B -> C -> Đ -> H.",
+        "s": "Bảng chữ cái"
+      },
+      {
+        "c": "TV2-B18-013",
+        "d": "advanced",
+        "p": "Đọc đoạn: \"Cây phượng già sân trường như người bảo vệ trầm lặng. Mùa hè đến, cây lại thắp lên muôn nghìn đốm lửa đỏ rực gọi tiếng ve về.\" Tác giả đã dùng cách tả nào làm cây phượng trở nên gần gũi?",
+        "o": [
+          "Kể tên các loại phân bón chăm sóc cây",
+          "Tả cây phượng biến mất vào mùa thu",
+          "So sánh cây phượng với người bảo vệ và ví hoa phượng đỏ như muôn nghìn đốm lửa",
+          "Ghi lại chiều cao và cân nặng chính xác của cây"
+        ],
+        "k": "C",
+        "e": "So sánh và liên tưởng giàu hình ảnh tạo nên sức sống cho đoạn văn miêu tả.",
+        "s": "Cảm thụ đoạn văn"
+      },
+      {
+        "c": "TV2-B18-014",
+        "d": "advanced",
+        "p": "Trong câu \"Hằng ngày, em chăm chỉ đọc sách để mở rộng hiểu biết.\", nếu muốn biến đổi thành câu hỏi dùng để khuyên hoặc hỏi bạn, câu nào hợp lí nhất?",
+        "o": [
+          "Sách giáo khoa nằm ở đâu?",
+          "Cậu đang đọc quyển sách màu gì?",
+          "Chữ cái nào đứng đầu trang sách?",
+          "Cậu có thường xuyên đọc sách để mở rộng hiểu biết không?"
+        ],
+        "k": "D",
+        "e": "Câu hỏi giữ nguyên nội dung thói quen đọc sách mở mang kiến thức và kết thúc bằng dấu chấm hỏi.",
+        "s": "Biến đổi câu"
+      },
+      {
+        "c": "TV2-B18-015",
+        "d": "advanced",
+        "p": "Biểu đồ số câu đúng trong bài kiểm tra thử Tiếng Việt của 4 tổ. Tổ nào đạt số câu đúng trung bình cao nhất và cao hơn tổ thấp nhất mấy câu?",
+        "o": [
+          "Bốn tổ đều đạt bằng nhau",
+          "Tổ 1 cao nhất (13 câu), hơn Tổ 2 là 2 câu",
+          "Tổ 3 cao nhất (14 câu), hơn Tổ 1 là 1 câu",
+          "Tổ 4 cao nhất (15 câu), hơn Tổ 2 là 4 câu"
+        ],
+        "k": "D",
+        "e": "Tổ 4 đạt 15 câu, Tổ 2 đạt 11 câu, chênh lệch 15 - 11 = 4 câu.",
+        "s": "Đọc biểu đồ",
+        "fig": {
+          "type": "bars",
+          "title": "Kết quả ôn tập Tiếng Việt 2",
+          "labels": [
+            "Tổ 1",
+            "Tổ 2",
+            "Tổ 3",
+            "Tổ 4"
+          ],
+          "series": [
+            {
+              "values": [
+                13,
+                11,
+                14,
+                15
+              ]
+            }
+          ],
+          "unit": "câu"
+        }
+      }
+    ]
+  }
+]

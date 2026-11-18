@@ -1,0 +1,3680 @@
+[
+  {
+    "chapter": "lssong3-c1",
+    "lesson": {
+      "code": "lssong3-b01",
+      "title": "Bài 1. Lập Kế hoạch Tuần Cân đối Học tập và Ngoại khóa",
+      "seq": 1,
+      "subtitle": "Biết lập kế hoạch tuần cho học sinh lớp 3, sắp xếp thứ tự ưu tiên giữa bài tập, câu lạc bộ ngoại khóa và nghỉ ngơi",
+      "concepts": [
+        "Lập kế hoạch tuần",
+        "Ưu tiên việc quan trọng",
+        "Cân bằng ngoại khóa"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS3-B01-001",
+        "d": "basic",
+        "p": "Điểm khác biệt quan trọng nhất giúp \"Kế hoạch tuần\" của học sinh lớp 3 hiệu quả hơn so với chỉ nhớ việc từng ngày là gì?",
+        "o": [
+          "Giúp bỏ hết việc học để chỉ ghi giờ đi chơi",
+          "Giúp nhìn thấy toàn bộ lịch học, lịch trực nhật, câu lạc bộ và thời gian dự phòng cả 7 ngày để phân bổ sức lực hợp lí, không bị dồn việc vào Chủ nhật",
+          "Giúp viết kín giấy để trang trí bàn học cho đẹp",
+          "Giúp không cần học bài vẫn được điểm 10"
+        ],
+        "k": "B",
+        "e": "Nhìn bức tranh toàn cảnh 7 ngày giúp em chủ động chuẩn bị trước bài kiểm tra hay đồ dùng mĩ thuật!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Lợi ích của Kế hoạch tuần",
+        "fig": {
+          "type": "table",
+          "title": "Kế hoạch Tuần Lớp 3",
+          "head": [
+            "Nhóm việc",
+            "Thời lượng hợp lí"
+          ],
+          "rows": [
+            [
+              "Tự học mỗi tối",
+              "45 - 60 phút"
+            ],
+            [
+              "Thể thao, vận động",
+              "45 phút mỗi ngày"
+            ],
+            [
+              "Đọc sách, CLB",
+              "2 - 3 buổi mỗi tuần"
+            ],
+            [
+              "Ngủ đủ ban đêm",
+              "9 - 10 giờ mỗi đêm"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS3-B01-002",
+        "d": "basic",
+        "p": "Khi vừa có bài tập Tiếng Việt nộp vào sáng mai, vừa có buổi tập đàn hát ngoại khóa vào cuối tuần, em cần xếp việc nào làm TRƯỚC theo quy tắc ưu tiên?",
+        "o": [
+          "Ngồi xem phim hoạt hình hết tối rồi tính sau",
+          "Chờ sáng mai lên lớp mượn vở bạn chép vội",
+          "Tập đàn hát cả buổi tối rồi bỏ trắng bài tập Tiếng Việt sáng mai",
+          "Ưu tiên hoàn thành bài tập Tiếng Việt cần nộp sáng mai trước, sau đó mới luyện tập nhẹ nhàng cho tiết mục cuối tuần"
+        ],
+        "k": "D",
+        "e": "Xử lí việc vừa quan trọng vừa gấp trước giúp tâm trí nhẹ nhõm khi tham gia ngoại khóa!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Ưu tiên việc gấp và quan trọng"
+      },
+      {
+        "c": "LS3-B01-003",
+        "d": "basic",
+        "p": "Để bản kế hoạch tuần thực sự dễ thực hiện, học sinh lớp 3 nên tham gia bao nhiêu câu lạc bộ ngoại khóa ngoài giờ học là hợp lí nhất?",
+        "o": [
+          "Chọn 1 đến 2 câu lạc bộ yêu thích phù hợp sức khỏe (ví dụ: 1 môn thể thao và 1 môn năng khiếu nghệ thuật hoặc đọc sách) để vẫn đủ giờ nghỉ ngơi",
+          "Không tham gia bất kì hoạt động vui chơi vận động nào",
+          "Chỉ đăng kí cho có tên rồi nghỉ suốt",
+          "Đăng kí 8 câu lạc bộ kín đặc cả sáng trưa chiều tối suốt tuần"
+        ],
+        "k": "A",
+        "e": "Chọn lọc 1–2 sở thích phù hợp giữ niềm vui hào hứng lâu dài mà không gây quá tải mệt mỏi!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Chọn lịch ngoại khóa vừa sức"
+      },
+      {
+        "c": "LS3-B01-004",
+        "d": "basic",
+        "p": "Nhìn đồng hồ chỉ 20 giờ 15 tối. Nếu em đã học xong bài lúc 20 giờ 15 và muốn đi ngủ đúng giờ lúc 21 giờ, khoảng thời gian 45 phút này em nên làm gì?",
+        "o": [
+          "Uống một ly nước ngọt lạnh rồi nhảy dây ầm ĩ",
+          "Bỏ cặp sách bừa bãi chạy sang nhà hàng xóm chơi tối",
+          "Bắt đầu chơi trò chơi bắn súng trên điện thoại tới 22g30",
+          "Soạn sẵn cặp sách ngày mai, đọc 15–20 phút sách truyện thư giãn, trò chuyện cùng bố mẹ rồi đánh răng đi ngủ trước 21 giờ"
+        ],
+        "k": "D",
+        "e": "45 phút êm dịu trước giờ ngủ là bước chuyển hoàn hảo đưa em vào giấc ngủ sâu!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Quỹ giờ trước khi đi ngủ",
+        "fig": {
+          "w": 300,
+          "h": 180,
+          "items": [
+            {
+              "t": "circle",
+              "c": [
+                150,
+                88
+              ],
+              "r": 62,
+              "fill": "#f8fafc",
+              "stroke": "#1e293b",
+              "w": 2.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                174.5,
+                49.6
+              ],
+              "s": "1",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                192.4,
+                67.5
+              ],
+              "s": "2",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                199.0,
+                92.0
+              ],
+              "s": "3",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                192.4,
+                116.5
+              ],
+              "s": "4",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                174.5,
+                134.4
+              ],
+              "s": "5",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                150.0,
+                141.0
+              ],
+              "s": "6",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                125.5,
+                134.4
+              ],
+              "s": "7",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                107.6,
+                116.5
+              ],
+              "s": "8",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                101.0,
+                92.0
+              ],
+              "s": "9",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                107.6,
+                67.5
+              ],
+              "s": "10",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                125.5,
+                49.6
+              ],
+              "s": "11",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                150.0,
+                43.0
+              ],
+              "s": "12",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "line",
+              "a": [
+                150,
+                88
+              ],
+              "b": [
+                122.3,
+                99.5
+              ],
+              "arrow": true,
+              "color": "#1e293b",
+              "w": 3.5
+            },
+            {
+              "t": "line",
+              "a": [
+                150,
+                88
+              ],
+              "b": [
+                196.0,
+                88.0
+              ],
+              "arrow": true,
+              "color": "#dc2626",
+              "w": 2.2
+            },
+            {
+              "t": "pt",
+              "p": [
+                150,
+                88
+              ]
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                168
+              ],
+              "s": "20 giờ 15 tối: Hoàn thành giờ tự học",
+              "anchor": "middle",
+              "size": 12
+            }
+          ]
+        }
+      },
+      {
+        "c": "LS3-B01-005",
+        "d": "basic",
+        "p": "Công cụ nào giúp em dễ dàng theo dõi tiến độ kế hoạch tuần mà không bị quên nhiệm vụ cô giáo dặn thứ Sáu nộp sản phẩm?",
+        "o": [
+          "Để gần đến giờ vào lớp mới nhớ",
+          "Dùng bảng kế hoạch tuần dán ở góc học tập có ô đánh dấu hoàn thành (hoặc ghi chú vào sổ tay học tập hàng ngày)",
+          "Chỉ nhờ bạn cùng bàn nhắc hộ",
+          "Viết vào mảnh giấy nhỏ rồi vứt vào ngăn kéo"
+        ],
+        "k": "B",
+        "e": "Sổ tay ghi chú hoặc bảng tuần có ô tích xanh tạo động lực hoàn thành công việc cực tốt!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Theo dõi tiến độ bằng bảng tuần"
+      },
+      {
+        "c": "LS3-B01-006",
+        "d": "basic",
+        "p": "Vào mỗi tối Chủ nhật hằng tuần, dành ra 10 phút làm việc gì sẽ giúp cả tuần học mới diễn ra trôi chảy nhất?",
+        "o": [
+          "Ngồi lo lắng không dám đi ngủ",
+          "Chơi điện tử bù tới khuya vì mai đi học rồi",
+          "Không cần kiểm tra cặp sách hay đồng phục ngày thứ Hai",
+          "Xem lại những việc tuần qua làm tốt hay còn thiếu, sắp xếp góc học tập và ghi những mốc quan trọng của tuần mới sắp tới"
+        ],
+        "k": "D",
+        "e": "10 phút nhìn lại tối Chủ nhật là thói quen của những người tổ chức công việc xuất sắc!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Tổng kết nhanh tối Chủ nhật"
+      },
+      {
+        "c": "LS3-B01-007",
+        "d": "application",
+        "p": "Bạn Minh ghi vào kế hoạch tuần: Thứ Ba đi bơi (17g), Thứ Tư ôn toán, Thứ Năm CLB cờ vua (17g), Thứ Sáu tổng vệ sinh lớp. Nhưng sáng thứ Tư trời bỗng mưa to mất điện buổi tối không học bài chữ được. Minh điều chỉnh kế hoạch thế nào?",
+        "o": [
+          "Bỏ luôn kế hoạch cả tháng",
+          "Linh hoạt chuyển sang nghe kể chuyện lịch sử hoặc ôn nhẩm bảng nhân với bố mẹ bằng đèn sạc, rồi bù phần viết chữ vào đầu chiều thứ Năm trước giờ CLB",
+          "Khóc ầm lên vì kế hoạch bị hỏng rồi đi ngủ luôn không học bù",
+          "Đốt nến sát màn cửa để viết bài"
+        ],
+        "k": "B",
+        "e": "Kế hoạch thông minh luôn có thể hoán đổi khung giờ linh hoạt khi thời tiết hay sự cố bất ngờ xảy ra!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Điều chỉnh kế hoạch khi mất điện"
+      },
+      {
+        "c": "LS3-B01-008",
+        "d": "application",
+        "p": "Cô giáo dặn thứ Sáu tuần sau nộp mô hình Thủ công làm từ bìa các-tông. Nếu hôm nay là thứ Hai (còn 4 ngày), cách lập kế hoạch chia nhỏ thông minh nhất cho bé lớp 3 là gì?",
+        "o": [
+          "Bỏ luôn không làm",
+          "Chờ sáng thứ Sáu lên lớp mượn của bạn nộp tạm",
+          "Thứ Hai tìm bìa màu; Thứ Ba cắt khung dán thân; Thứ Tư trang trí chi tiết; Thứ Năm kiểm tra hoàn thiện cất gọn vào túi sẵn sáng thứ Sáu mang nộp",
+          "Để tối thứ Năm lúc 21 giờ mới hớt hải đi tìm bìa làm tới 23 giờ"
+        ],
+        "k": "C",
+        "e": "Chia nhỏ dự án 4 ngày biến bài tập lớn thành 4 bước vui nhẹ nhàng mỗi ngày chỉ 15 phút!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Chia nhỏ dự án 4 ngày"
+      },
+      {
+        "c": "LS3-B01-009",
+        "d": "application",
+        "p": "Biểu đồ dưới thống kê quỹ giờ trung bình mỗi ngày trong tuần của bạn Lan lớp 3A (tổng 24 giờ). Ngoài 10 giờ ngủ và 7 giờ học ở trường, bạn Lan còn 7 giờ sinh hoạt ở nhà. Lan phân bổ phần còn lại thế nào là hợp lí nhất?",
+        "o": [
+          "7 giờ xem ti-vi liên tục",
+          "4 giờ sinh hoạt gia đình và nghỉ ngơi – 1 giờ tự học ở nhà – 1 giờ vận động vui chơi – 1 giờ đọc sách, giúp mẹ việc nhà",
+          "7 giờ ngồi lì giải bài tập nâng cao không đứng dậy",
+          "6 giờ chơi điện tử – 1 giờ ăn cơm – 0 giờ tự học và vận động"
+        ],
+        "k": "B",
+        "e": "Biểu đồ 24 giờ cân đối giúp Lan vừa học giỏi, vừa khỏe mạnh vận động và gắn bó cùng gia đình!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Đọc biểu đồ quỹ 24 giờ lớp 3",
+        "fig": {
+          "type": "bars",
+          "title": "Phân bổ 24 giờ một ngày của Lan (giờ)",
+          "labels": [
+            "Ngủ đủ",
+            "Học trường",
+            "Sinh hoạt nhà",
+            "Tự học, chơi"
+          ],
+          "series": [
+            {
+              "values": [
+                10,
+                7,
+                4,
+                3
+              ]
+            }
+          ],
+          "unit": "giờ"
+        }
+      },
+      {
+        "c": "LS3-B01-010",
+        "d": "application",
+        "p": "Bạn Tùng có lịch học thêm Tiếng Anh vào 18 giờ tối thứ Năm, nhưng một bạn rủ Tùng đá bóng ở sân khu dân cư từ 16g45 đến 18g15. Tùng nên quyết định thế nào?",
+        "o": [
+          "Chơi đá bóng quá giờ tới 18g30 rồi nghỉ học Tiếng Anh luôn",
+          "Bỏ hẳn đá bóng cả tháng không vận động",
+          "Mang sách Tiếng Anh vừa chạy đá bóng vừa đọc",
+          "Tham gia đá bóng cùng bạn từ 16g45 đến 17g30 (45 phút vui khỏe), rồi chủ động xin phép về sớm tắm rửa ăn nhẹ để kịp giờ Tiếng Anh lúc 18g00"
+        ],
+        "k": "D",
+        "e": "Chủ động dừng cuộc chơi đúng hẹn giúp Tùng vừa thỏa sức đá bóng vừa giữ trọn kỷ luật học tập!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Cân bằng giờ chơi và giờ học"
+      },
+      {
+        "c": "LS3-B01-011",
+        "d": "application",
+        "p": "Sắp tới là kì thi học kì, nhiều bạn cuống cuồng thức khuya học nhồi nhét tới 23g30 đêm trước ngày thi. Vì sao làm theo kế hoạch ôn đều mỗi ngày 30 phút suốt 2 tuần trước thi lại tốt hơn nhiều?",
+        "o": [
+          "Vì thức khuya tới 23g30 mới là học sinh chăm chỉ",
+          "Vì ôn nhiều ngày giúp sách vở nhẹ hơn",
+          "Vì ngày trước thi không cần đọc lại bài nào",
+          "Vì não bộ ghi nhớ kiến thức sâu bền hơn khi lặp lại nhiều ngày, lại giữ được giấc ngủ đủ 9 tiếng giúp sáng hôm thi đầu óc cực kì minh mẫn"
+        ],
+        "k": "D",
+        "e": "\"Mưa dầm thấm lâu\" – ôn tập rải đều kết hợp ngủ đủ giấc là bí quyết đạt điểm cao nhẹ nhàng nhất!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Bí quyết ôn thi không thức khuya"
+      },
+      {
+        "c": "LS3-B01-012",
+        "d": "application",
+        "p": "Khi lập kế hoạch tuần cho cả nhóm 4 bạn chuẩn bị tiết mục báo tường, bước đầu tiên không thể thiếu để cả nhóm chạy đúng tiến độ là gì?",
+        "o": [
+          "Chờ ngày cuối mới họp bàn phân công",
+          "Thống nhất rõ tên công việc của từng bạn, ngày hạn nộp sản phẩm từng phần và thời gian cả nhóm ghép bài chung",
+          "Để một mình bạn nhóm trưởng làm hết 100%",
+          "Ai thích vẽ gì thì vẽ không cần nói cho nhau biết"
+        ],
+        "k": "B",
+        "e": "Rõ người – Rõ việc – Rõ thời hạn là công thức vàng cho mọi kế hoạch nhóm thành công!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Lập kế hoạch chung theo nhóm"
+      },
+      {
+        "c": "LS3-B01-013",
+        "d": "advanced",
+        "p": "Trong quản lí thời gian hiện đại có \"Ma trận 4 ô\" phân loại công việc theo mức độ Quan trọng và Khẩn cấp. Với học sinh lớp 3, những việc như \"Đọc sách mở mang hiểu biết, tập thể dục mỗi ngày\" nằm ở nhóm nào?",
+        "o": [
+          "Vừa gấp vừa khẩn cấp như cháy nhà",
+          "Quan trọng nhưng KHÔNG khẩn cấp ngay lập tức – nếu không đưa vào kế hoạch tuần đều đặn thì rất dễ bị trì hoãn bỏ quên",
+          "Không quan trọng và không khẩn cấp (lãng phí thời gian)",
+          "Việc không bao giờ cần làm"
+        ],
+        "k": "B",
+        "e": "Đọc sách và tập thể dục tuy không có hạn nộp ngày mai nhưng tạo nên tương lai khỏe mạnh, thông minh của em!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Hiểu về việc Quan trọng không khẩn cấp"
+      },
+      {
+        "c": "LS3-B01-014",
+        "d": "advanced",
+        "p": "Nhiều bạn lập kế hoạch tuần xong hay nản lòng bỏ cuộc giữa tuần vì ngày thứ Tư lỡ làm sai mất một mục. Tư duy đúng để duy trì kế hoạch bền bỉ cả năm là gì?",
+        "o": [
+          "Tự phạt mình nhịn ăn tối cả tuần",
+          "Không cầu toàn tuyệt đối! Nếu lỡ lỡ nhịp một buổi, hãy bình tĩnh tiếp tục thực hiện ngay các mục tiếp theo thay vì vứt bỏ toàn bộ kế hoạch tuần",
+          "Hễ sai 1 mục liền xé luôn bảng kế hoạch tuần và nghỉ luôn",
+          "Sửa lại bảng kế hoạch cho toàn giờ chơi game"
+        ],
+        "k": "B",
+        "e": "Kiên trì quay lại quỹ đạo ngay sau khi trật nhịp quan trọng hơn sự hoàn hảo giả tạo!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Vượt qua tâm lí bỏ cuộc giữa tuần"
+      },
+      {
+        "c": "LS3-B01-015",
+        "d": "advanced",
+        "p": "Theo em, dấu hiệu rõ nhất chứng minh một bạn học sinh lớp 3 đã làm chủ được kế hoạch tuần của bản thân là gì?",
+        "o": [
+          "Bạn ấy thức tới 12 giờ đêm mỗi ngày để học",
+          "Bạn ấy từ chối mọi cuộc vui chơi với bạn bè",
+          "Bạn ấy viết bảng kế hoạch dài 10 trang giấy màu",
+          "Bạn ấy hoàn thành bài vở đúng hạn trong tâm thế thư thái, vẫn có giờ chơi thể thao, giúp mẹ việc nhà và đi ngủ đúng giờ không cần ai hối thúc"
+        ],
+        "k": "D",
+        "e": "Thảnh thơi, cân bằng và đúng hẹn chính là trái ngọt của người biết làm chủ kế hoạch tuần!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Thước đo làm chủ kế hoạch tuần"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong3-c1",
+    "lesson": {
+      "code": "lssong3-b02",
+      "title": "Bài 2. Tự giác Hoàn thành Công việc không cần Nhắc nhở",
+      "seq": 2,
+      "subtitle": "Rèn tinh thần tự giác trong học tập và sinh hoạt gia đình, vượt qua thói quen trì hoãn \"để lát nữa\" của lứa tuổi lớp 3",
+      "concepts": [
+        "Tính tự giác lớp 3",
+        "Vượt qua trì hoãn",
+        "Trách nhiệm với việc được giao"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS3-B02-001",
+        "d": "basic",
+        "p": "Thế nào là người học sinh có tính TỰ GIÁC trong học tập và sinh hoạt hằng ngày?",
+        "o": [
+          "Phải đợi mẹ quát tới lần thứ 5 mới chịu ngồi vào bàn học",
+          "Chủ động tự biết việc mình cần làm và thực hiện nghiêm túc đến cùng mà không cần bố mẹ hay thầy cô phải nhắc nhở giục giã nhiều lần",
+          "Chỉ làm bài khi có cô giáo đứng ngay cạnh giám sát",
+          "Giấu sách vở đi chơi cho tới đêm muộn"
+        ],
+        "k": "B",
+        "e": "Tự giác là \"chiếc động cơ bên trong\" giúp em tiến bộ nhanh mà không khí gia đình luôn vui vẻ!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Khái niệm tính tự giác",
+        "fig": {
+          "type": "table",
+          "title": "Tự giác và Đối phó",
+          "head": [
+            "Tình huống",
+            "Hành vi Tự giác"
+          ],
+          "rows": [
+            [
+              "Đến giờ tự học",
+              "Tự ngồi bàn, tắt ồn"
+            ],
+            [
+              "Nhiệm vụ trực nhật",
+              "Làm sạch, không né"
+            ],
+            [
+              "Khi gặp bài khó",
+              "Nghĩ kĩ rồi mới hỏi"
+            ],
+            [
+              "Sau khi làm xong",
+              "Kiểm tra cẩn thận"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS3-B02-002",
+        "d": "basic",
+        "p": "Câu cửa miệng nào là \"kẻ thù lớn nhất\" của tính tự giác khiến nhiều bạn dồn việc từ sáng tới khuya vẫn chưa xong?",
+        "o": [
+          "\"Để lát nữa con làm!\" hoặc \"Chờ nốt 5 phút nữa thôi mẹ ơi!\" lặp đi lặp lại nhiều lần",
+          "\"Con kiểm tra lại bài thêm một lần nữa cho chắc!\"",
+          "\"Cảm ơn mẹ đã nhắc con, con thực hiện ngay!\"",
+          "\"Để con làm ngay bây giờ cho xong gọn ạ!\""
+        ],
+        "k": "A",
+        "e": "Căn bệnh \"Để lát nữa\" biến việc nhỏ dễ thành gánh nặng lớn! Hãy nói \"Làm ngay bây giờ!\"",
+        "s": "Giáo dục lối sống 3",
+        "h": "Nhận diện thói quen trì hoãn"
+      },
+      {
+        "c": "LS3-B02-003",
+        "d": "basic",
+        "p": "Khi cô giáo giao bài tập về nhà có 3 bài toán từ dễ đến khó, bạn nhỏ tự giác nên giải quyết bài khó thế nào?",
+        "o": [
+          "Nhờ anh trai làm hộ toàn bộ cả 3 bài",
+          "Khóc ầm lên gập vở lại",
+          "Thấy bài hơi dài liền bỏ trắng hoặc mở mạng chép y nguyên đáp án",
+          "Tự đọc kĩ đề, nháp suy nghĩ hết sức mình trước; nếu nghĩ mãi vẫn chưa ra mới đánh dấu hỏi bố mẹ hoặc thầy cô gợi ý cách làm (không chép sẵn lời giải)"
+        ],
+        "k": "D",
+        "e": "Tự lực suy nghĩ trước khi hỏi giúp não bộ ngày càng nhạy bén và tự tin trước mọi bài kiểm tra!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Tự giác khi gặp bài tập khó"
+      },
+      {
+        "c": "LS3-B02-004",
+        "d": "basic",
+        "p": "Trong việc trực nhật lớp học hoặc quét sân nhà, thế nào là hoàn thành công việc ĐẾN NƠI ĐẾN CHỐN?",
+        "o": [
+          "Bỏ dở giữa chừng nhờ bạn làm nốt",
+          "Làm sạch sẽ cả góc khuất, xếp bàn ghế ngay ngắn, đổ rác gọn vào thùng và cất chổi đúng nơi quy định chứ không làm qua loa cho xong chuyện",
+          "Quét vội phần giữa lớp còn rác gầm bàn đá giấu vào góc",
+          "Vẩy chổi qua loa 30 giây rồi chạy đi chơi"
+        ],
+        "k": "B",
+        "e": "Làm việc đến nơi đến chốn thể hiện lòng tự trọng và trách nhiệm cao của học sinh lớp 3.",
+        "s": "Giáo dục lối sống 3",
+        "h": "Làm việc đến nơi đến chốn"
+      },
+      {
+        "c": "LS3-B02-005",
+        "d": "basic",
+        "p": "Khi bố mẹ đi làm về muộn một chút chưa kịp dặn dò, bạn nhỏ tự giác thấy thùng rác đầy hoặc cây ngoài ban công hơi khô đất sẽ làm gì?",
+        "o": [
+          "Gọi điện giục mẹ về đổ rác nhanh lên",
+          "Đá thùng rác ra góc hành lang",
+          "Đứng khoanh tay nhìn thùng rác đầy tràn vì mẹ chưa dặn",
+          "Chủ động xách thùng rác đi đổ đúng chỗ quy định hoặc lấy bình tưới nhẹ cho cây mà không cần đợi mẹ sai bảo"
+        ],
+        "k": "D",
+        "e": "Nhìn thấy việc có ích và chủ động bắt tay làm giúp bố mẹ bất ngờ hạnh phúc khôn xiết!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Chủ động làm việc có ích"
+      },
+      {
+        "c": "LS3-B02-006",
+        "d": "basic",
+        "p": "Lợi ích lớn nhất đối với chính bản thân em khi rèn được tính tự giác không cần ai nhắc là gì?",
+        "o": [
+          "Không bao giờ được khen thưởng",
+          "Bị bạn bè xa lánh vì làm việc quá nhanh",
+          "Học tập tiến bộ vững chắc, được thầy cô bố mẹ tin tưởng giao việc lớn và có nhiều thời gian vui chơi thoải mái không bị rầy la",
+          "Phải làm hết việc cho cả lớp suốt năm"
+        ],
+        "k": "C",
+        "e": "Người tự giác luôn được mọi người tin cậy trao cơ hội tốt đẹp nhất!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Lợi ích của tính tự giác"
+      },
+      {
+        "c": "LS3-B02-007",
+        "d": "application",
+        "p": "Bố mẹ giao cho bạn Hùng nhiệm vụ mỗi chiều cho chú chó cún ăn lúc 17g30 và dọn sạch bát ăn sau đó. Tuần đầu Hùng làm rất tốt, nhưng sang tuần thứ hai Hùng mải mê chơi xếp hình quên bẵng tới tận 19g00 làm cún đói kêu ăng ẳng. Hùng nên dùng cách gì để giữ sự tự giác đều đặn?",
+        "o": [
+          "Đợi bố mẹ mắng mới nhớ ra đi đổ thức ăn",
+          "Trả lại cún không nuôi nữa vì hay quên",
+          "Cài báo thức đồng hồ bàn cố định lúc 17g30 (hoặc gắn lịch nhắc cạnh bảng kế hoạch) và tạo thói quen vừa đi học về là kiểm tra khay nước của cún ngay",
+          "Đổ đầy một thau lớn thức ăn cho cún ăn cả tuần một lượt"
+        ],
+        "k": "C",
+        "e": "Gắn nhiệm vụ với đồng hồ nhắc giờ hoặc một thói quen cố định hàng ngày là bí quyết giữ kỉ luật dài lâu!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Duy trì thói quen tự giác dài lâu"
+      },
+      {
+        "c": "LS3-B02-008",
+        "d": "application",
+        "p": "Khi học trực tuyến tại nhà hoặc tự làm phiếu bài tập cuối tuần trên máy tính, màn hình bất ngờ hiện lên thông báo video hoạt hình mới rất hấp dẫn. Bạn nhỏ tự giác sẽ bấm nút nào?",
+        "o": [
+          "Bỏ máy tính đi chơi luôn",
+          "Bấm ngay vào xem video suốt 1 tiếng quên mất bài học",
+          "Mở song song 2 cửa sổ vừa xem hoạt hình vừa làm ẩu cho nhanh",
+          "Đóng tab video giải trí (hoặc tắt thông báo gây xao nhãng), kiên quyết hoàn thành xong trọn vẹn bài học rồi mới xem trong giờ giải lao cho phép"
+        ],
+        "k": "D",
+        "e": "Khả năng tự kiểm soát trước cám dỗ màn hình là biểu hiện cao nhất của tính tự giác thời đại số!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Tự giác trước cám dỗ giải trí"
+      },
+      {
+        "c": "LS3-B02-009",
+        "d": "application",
+        "p": "Cô giáo khảo sát lớp 3B về số lần bố mẹ phải nhắc nhở trước khi các bạn ngồi vào bàn tự học buổi tối qua 4 tuần rèn luyện \"Thử thách Tự giác\" (biểu đồ dưới tính tổng số lượt phải nhắc của cả lớp mỗi tuần). Kết quả cho thấy điều gì?",
+        "o": [
+          "Tuần 2 phải nhắc nhiều hơn Tuần 1",
+          "Số lượt phải nhắc giảm mạnh dần từ 45 lượt ở Tuần 1 xuống chỉ còn 10 lượt ở Tuần 4 – cả lớp tiến bộ vượt bậc!",
+          "Số lượt phải nhắc tăng vọt lên 45 lượt ở Tuần 4",
+          "Không có sự thay đổi nào giữa 4 tuần"
+        ],
+        "k": "B",
+        "e": "Từ 45 lượt nhắc xuống còn 10 lượt chỉ sau 4 tuần! Chứng tỏ tính tự giác hoàn toàn có thể rèn luyện thành công!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Đọc biểu đồ Thử thách Tự giác",
+        "fig": {
+          "type": "bars",
+          "title": "Tổng số lần cả lớp cần nhắc nhở/tuần (lần)",
+          "labels": [
+            "Tuần 1",
+            "Tuần 2",
+            "Tuần 3",
+            "Tuần 4"
+          ],
+          "series": [
+            {
+              "values": [
+                45,
+                32,
+                18,
+                10
+              ]
+            }
+          ],
+          "unit": "lần"
+        }
+      },
+      {
+        "c": "LS3-B02-010",
+        "d": "application",
+        "p": "Bạn An làm bài tập Toán xong rất sớm chỉ trong 10 phút nhưng làm vội vàng không đọc kĩ câu hỏi, kết quả sai mất 3 phép tính trừ có nhớ. Để rèn tự giác chất lượng, An thiếu thói quen nào ở bước cuối?",
+        "o": [
+          "Thiếu thói quen TỰ KIỂM TRA RÀ SOÁT lại toàn bộ bài làm từ đầu đến cuối trước khi gấp vở cất vào cặp",
+          "Thiếu thói quen nhờ mẹ làm hộ từ đầu",
+          "Cần xé trang nháp ngay sau khi viết",
+          "Cần làm nhanh hơn nữa trong 3 phút"
+        ],
+        "k": "A",
+        "e": "\"Làm xong chưa phải là hết; kiểm tra lại mới là hoàn thành!\" – thói quen rà soát giúp tránh mọi lỗi sai ngớ ngẩn!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Thói quen tự kiểm tra lại bài"
+      },
+      {
+        "c": "LS3-B02-011",
+        "d": "application",
+        "p": "Trong buổi trực nhật lớp 3C, bạn Tùng được phân công lau bảng sạch trước giờ vào học nhưng hôm nay cô giáo bị mệt đến muộn 5 phút nên chưa kiểm tra lớp. Tùng có nên bỏ qua việc lau bảng không?",
+        "o": [
+          "Chỉ lau nửa bảng phía dưới cho đỡ mỏi tay",
+          "Không cần lau vì cô chưa tới kiểm tra",
+          "Viết vẽ nguệch ngoạc lên bảng",
+          "Tuyệt đối không; Tùng vẫn tự giác lau sạch bảng đen, xếp gọn phấn giẻ lau vì đó là trách nhiệm với cả tập thể chứ không phải làm để đối phó cô giáo"
+        ],
+        "k": "D",
+        "e": "Tự giác thực sự là làm đúng ngay cả khi không có ai giám sát hay kiểm tra!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Làm đúng ngay cả khi không ai giám sát"
+      },
+      {
+        "c": "LS3-B02-012",
+        "d": "application",
+        "p": "Mẹ giao cho em trông coi chảo đậu phụ đang rán nhỏ lửa? KHÔNG — mẹ không giao trẻ lớp 3 nấu bếp nóng, mẹ chỉ giao em nhặt sạch rổ rau muống và gập rổ quần áo khô trong lúc mẹ nấu cơm. Em thấy một cái áo của bố bị rớt khỏi móc treo ngoài dây phơi sân. Em làm gì?",
+        "o": [
+          "Giẫm chân qua chiếc áo chạy vào nhà",
+          "Mặc kệ chiếc áo nằm dưới sân vì mẹ chỉ dặn nhặt rau",
+          "Đợi tới tối mẹ tự nhìn thấy",
+          "Nhanh nhẹn nhặt chiếc áo lên, phủi nhẹ (nếu sạch) hoặc đem giặt lại nếu lỡ dính đất rồi kẹp chắc chắn lại lên dây phơi giúp mẹ"
+        ],
+        "k": "D",
+        "e": "Tinh thần chủ động vượt lên trên việc được giao nhỏ nhặt làm gia đình ngập tràn niềm vui yêu thương!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Chủ động giúp việc ngoài danh sách"
+      },
+      {
+        "c": "LS3-B02-013",
+        "d": "advanced",
+        "p": "Áp dụng \"Quy tắc 5 giây\" (hoặc quy tắc đếm ngược 5-4-3-2-1-Bắt đầu!) để chiến thắng sự lười biếng lúc ngại ngồi vào bàn học có tác dụng tâm lí gì?",
+        "o": [
+          "Giúp cắt đứt sự chần chừ suy nghĩ tiêu cực trong đầu và đưa cơ thể vào hành động ngay lập tức trước khi não kịp tìm cớ trì hoãn",
+          "Giúp giải xong bài toán chỉ trong đúng 5 giây",
+          "Giúp đồng hồ chạy nhanh hơn 5 lần",
+          "Giúp không cần học nữa sau 5 giây"
+        ],
+        "k": "A",
+        "e": "Đếm ngược 5-4-3-2-1 rồi đứng dậy bước ngay tới bàn học – mẹo tâm lí cực kì hiệu nghiệm đánh bại sự trì hoãn!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Mẹo tâm lí Quy tắc 5 giây"
+      },
+      {
+        "c": "LS3-B02-014",
+        "d": "advanced",
+        "p": "Phân biệt giữa \"Học sinh chăm chỉ thụ động\" (bảo gì làm nấy, nhắc mới làm) và \"Học sinh tự giác chủ động\" trong môi trường học tập lớp 3:",
+        "o": [
+          "Học sinh thụ động học giỏi hơn học sinh tự giác",
+          "Cả hai hoàn toàn giống hệt nhau không có điểm khác",
+          "Học sinh tự giác tự lên kế hoạch, chủ động tìm tòi kiến thức mới, tự sửa lỗi sai và hoàn thành nhiệm vụ trước hạn mà không phụ thuộc ai nhắc",
+          "Học sinh tự giác không cần nghe thầy cô giảng bài"
+        ],
+        "k": "C",
+        "e": "Chủ động tự học là chìa khóa vàng giúp em vững vàng suốt bậc Tiểu học, THCS và cả đời!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Chủ động khác thụ động thế nào"
+      },
+      {
+        "c": "LS3-B02-015",
+        "d": "advanced",
+        "p": "Nếu lớp em tổ chức thảo luận câu nói: \"Kỉ luật tự giác là người bạn giúp ta có tự do thực sự\". Ý nghĩa đúng nhất của câu nói này là gì?",
+        "o": [
+          "Vì tự giác nghĩa là muốn đi đâu chơi cũng được không cần xin phép",
+          "Vì không cần làm bài tập gì cả",
+          "Vì người tự giác không cần tuân thủ nội quy lớp",
+          "Vì khi tự giác xong việc học và việc nhà nhanh gọn, em sẽ có trọn vẹn thời gian rảnh rỗi tự do vui chơi thoải mái không bị lo âu hay nhắc nhở"
+        ],
+        "k": "D",
+        "e": "Xong việc sớm -> Chơi thả ga không lo âu! Đó chính là món quà tự do của kỉ luật tự giác!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Kỉ luật tự giác mang lại tự do"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong3-c1",
+    "lesson": {
+      "code": "lssong3-b03",
+      "title": "Bài 3. Chi tiêu Hợp lí, Phân biệt Cần và Muốn, Tiết kiệm Tài nguyên",
+      "seq": 3,
+      "subtitle": "Biết giá trị sức lao động của đồng tiền, phân biệt rõ Cái Cần và Cái Muốn, thực hành nuôi heo đất và tiết kiệm tài nguyên sống",
+      "concepts": [
+        "Phân biệt Cần và Muốn",
+        "Chi tiêu hợp lí",
+        "Tiết kiệm tài nguyên"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS3-B03-001",
+        "d": "basic",
+        "p": "Trong quản lí tiền bạc thông minh dành cho học sinh lớp 3, điểm khác nhau giữa \"CÁI CẦN\" và \"CÁI MUỐN\" là gì?",
+        "o": [
+          "\"Cái cần\" là thứ thiết yếu phục vụ học tập, sức khỏe (vở bút, sách, cơm, thuốc); \"Cái muốn\" là sở thích có thêm thì vui nhưng thiếu vẫn ổn (đồ chơi, kẹo đắt)",
+          "Mua bất cứ thứ gì thấy quảng cáo đẹp đều là \"Cái cần\"",
+          "\"Cái cần\" và \"Cái muốn\" giống hệt nhau mọi lúc",
+          "\"Cái cần\" là đồ chơi điện tử đắt tiền, \"Cái muốn\" là sách giáo khoa"
+        ],
+        "k": "A",
+        "e": "Phân biệt đúng Cần và Muốn trước khi rút tiền giúp em tránh mua sắm bốc đồng lãng phí!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Khái niệm Cái Cần và Cái Muốn",
+        "fig": {
+          "type": "table",
+          "title": "Quản lí Tài chính Bé Lớp 3",
+          "head": [
+            "Nhóm tiêu chí",
+            "Lựa chọn khôn ngoan"
+          ],
+          "rows": [
+            [
+              "CÁI CẦN (Ưu tiên)",
+              "Sách vở, bữa ăn, áo"
+            ],
+            [
+              "CÁI MUỐN (Cân nhắc)",
+              "Đồ chơi, quà vặt đắt"
+            ],
+            [
+              "Quỹ ống heo",
+              "Bỏ heo tiết kiệm"
+            ],
+            [
+              "Tài nguyên xanh",
+              "Tiết kiệm điện, nước"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS3-B03-002",
+        "d": "basic",
+        "p": "Khi em nhận được tiền lì xì mừng tuổi dịp Tết hoặc tiền thưởng học tập từ ông bà, bố mẹ, cách sử dụng hợp lí và văn minh nhất là gì?",
+        "o": [
+          "Tiêu sạch toàn bộ trong 1 ngày vào bánh kẹo ngọt và đồ chơi nhựa rẻ tiền",
+          "Giữ một phần bỏ ống heo đất tiết kiệm (hoặc nhờ bố mẹ cất giữ hộ) cho mục tiêu có ích như mua sách hay, dụng cụ học tập hoặc giúp bạn khó khăn",
+          "Xé hoặc vứt tiền lung tung dưới gầm giường",
+          "Khoe khoang khắp lớp mình có nhiều tiền"
+        ],
+        "k": "B",
+        "e": "Biết trân trọng tiền lì xì, gửi tiết kiệm có mục tiêu rõ ràng là thói quen tài chính vàng từ nhỏ.",
+        "s": "Giáo dục lối sống 3",
+        "h": "Sử dụng tiền lì xì thông minh"
+      },
+      {
+        "c": "LS3-B03-003",
+        "d": "basic",
+        "p": "Vì sao các bạn nhỏ cần hiểu đồng tiền mà bố mẹ chi tiêu hằng ngày (mua cơm, đóng học phí, mua sách) không tự nhiên sinh ra?",
+        "o": [
+          "Vì ngân hàng phát tiền không giới hạn cho mọi nhà",
+          "Vì bố mẹ chỉ cần ra cây ATM ấn nút là tự có vô hạn tiền miễn phí",
+          "Vì đồng tiền được tạo ra bằng mồ hôi, trí tuệ và nhiều giờ lao động vất vả của bố mẹ nên phải luôn biết trân quý và tiêu tiết kiệm",
+          "Vì tiền mọc trên cây ngoài vườn"
+        ],
+        "k": "C",
+        "e": "Trân trọng giá trị sức lao động của cha mẹ khiến em tự nhiên biết giữ gìn từng cây bút, hạt cơm!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Giá trị sức lao động của đồng tiền"
+      },
+      {
+        "c": "LS3-B03-004",
+        "d": "basic",
+        "p": "Món đồ nào sau đây thuộc nhóm \"CÁI CẦN\" cần ưu tiên mua ngay nếu chiếc cũ ở nhà vừa bị hỏng hết dùng được?",
+        "o": [
+          "Chiếc hộp bút mới bình thường và cây thước kẻ rõ vạch chia xăng-ti-mét để học hình học",
+          "Bộ sưu tập 20 thẻ bài hình siêu nhân lấp lánh",
+          "Chiếc ô tô điều khiển từ xa thứ tư khi ở nhà đã có ba chiếc",
+          "Hộp kẹo sô-cô-la 5 tầng khổng lồ"
+        ],
+        "k": "A",
+        "e": "Đồ dùng học tập thiết yếu phục vụ trực tiếp việc học luôn đứng vị trí ưu tiên số 1!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Ví dụ thực tế về Cái Cần"
+      },
+      {
+        "c": "LS3-B03-005",
+        "d": "basic",
+        "p": "Ngoài tiền bạc, ba loại tài nguyên thiết yếu trong sinh hoạt hàng ngày học sinh lớp 3 cần thực hành tiết kiệm triệt để là gì?",
+        "o": [
+          "Không khí ngoài trời và cát ngoài biển",
+          "Điện năng, nước sạch và giấy viết – đồ ăn thức uống không bỏ thừa",
+          "Gió thổi qua cửa sổ",
+          "Ánh nắng mặt trời buổi trưa"
+        ],
+        "k": "B",
+        "e": "Tiết kiệm điện, nước, giấy và lương thực vừa giúp gia đình giảm chi phí vừa bảo vệ nguồn sống cho Trái Đất!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Tiết kiệm tài nguyên sinh hoạt"
+      },
+      {
+        "c": "LS3-B03-006",
+        "d": "basic",
+        "p": "Thế nào là sự khác biệt giữa người \"TIẾT KIỆM\" và người \"KEO KIỆT BỦN XỈN\"?",
+        "o": [
+          "Người tiết kiệm chi hợp lí, tránh lãng phí nhưng vẫn biết sẻ chia giúp người khó khăn; người keo kiệt không dám dùng cả thứ thật cần thiết",
+          "Người tiết kiệm không bao giờ mua sách học",
+          "Người keo kiệt tiêu hết sạch tiền mỗi ngày",
+          "Hai từ này nghĩa giống hệt nhau"
+        ],
+        "k": "A",
+        "e": "Tiết kiệm gắn liền với lòng nhân ái và chi tiêu thông minh chứ không phải bủn xỉn!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Phân biệt Tiết kiệm và Keo kiệt"
+      },
+      {
+        "c": "LS3-B03-007",
+        "d": "application",
+        "p": "Bạn Na tiết kiệm được 90 nghìn đồng trong heo đất. Đi nhà sách cùng mẹ, Na thấy: (A) Quyển từ điển tranh Anh – Việt rất hay giá 55 nghìn; (B) Một chiếc bút gắn bông xù dễ gãy giá 45 nghìn; (C) Bộ thước e-ke thước đo góc chuẩn bị học giá 25 nghìn. Na chọn mua thế nào hợp lí nhất trong 90 nghìn?",
+        "o": [
+          "Mua chiếc bút bông 45 nghìn + bộ thước 25 nghìn rồi bỏ qua sách từ điển",
+          "Mua Quyển từ điển tranh (55 nghìn) + Bộ thước (25 nghìn) = 80 nghìn phục vụ học lâu dài, còn dư 10 nghìn bỏ lại vào heo đất!",
+          "Xin mẹ cho thêm tiền mua bằng hết cả 3 món",
+          "Không mua đồ học nào mà lấy 90 nghìn mua kẹo ăn hết"
+        ],
+        "k": "B",
+        "e": "55 + 25 = 80 nghìn <= 90 nghìn! Vừa mua đúng 2 món thiết thực lâu dài, vừa dư 10 nghìn tiếp tục tiết kiệm!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Bài toán ngân sách nhà sách 90k"
+      },
+      {
+        "c": "LS3-B03-008",
+        "d": "application",
+        "p": "Khi nhìn thấy quảng cáo món đồ chơi phát sáng cực kì bắt mắt trên ti-vi, bạn Bi nằng nặc đòi mẹ phải mua ngay lập tức trong chiều nay. Mẹ khuyên Bi áp dụng nguyên tắc \"Hỏi 3 câu trước khi mua\". Theo em 3 câu hỏi thông minh đó là gì?",
+        "o": [
+          "Không cần hỏi gì, thấy thích là khóc đòi mua ngay",
+          "1. Mình có thật sự CẦN nó không? – 2. Ở nhà mình đã có đồ tương tự chưa? – 3. Sau 3 ngày nữa mình có còn thích chơi nó lâu dài không?",
+          "1. Có ăn được không? – 2. Có ném vỡ được không? – 3. Có phát tiếng ồn to không?",
+          "1. Bạn lớp bên có chưa? – 2. Hộp có màu gì? – 3. Có đắt nhất tiệm không?"
+        ],
+        "k": "B",
+        "e": "3 câu hỏi tự vấn giúp em chiến thắng mọi chiêu quảng cáo hấp dẫn và trở thành người tiêu dùng thông thái!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Quy tắc 3 câu hỏi trước khi mua"
+      },
+      {
+        "c": "LS3-B03-009",
+        "d": "application",
+        "p": "Cuối năm học lớp 3, nhóm 4 bạn chia sẻ số tiền tiết kiệm đóng góp vào quỹ \"Áo ấm tặng bạn vùng cao\" (biểu đồ dưới đơn vị nghìn đồng). Tổng số tiền cả 4 bạn góp được từ tiền tiết kiệm là bao nhiêu nghìn đồng?",
+        "o": [
+          "130 nghìn đồng",
+          "140 nghìn đồng",
+          "150 nghìn đồng (35 + 45 + 30 + 40 = 150 nghìn)",
+          "160 nghìn đồng"
+        ],
+        "k": "C",
+        "e": "35 + 45 + 30 + 40 = 150 nghìn đồng – tiền tiết kiệm nhỏ bé góp lại tạo nên những chiếc áo ấm đầy nghĩa tình!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Đọc biểu đồ Quỹ tiết kiệm nhân ái",
+        "fig": {
+          "type": "bars",
+          "title": "Tiền tiết kiệm góp Quỹ Áo ấm (nghìn đồng)",
+          "labels": [
+            "An",
+            "Bình",
+            "Chi",
+            "Dũng"
+          ],
+          "series": [
+            {
+              "values": [
+                35,
+                45,
+                30,
+                40
+              ]
+            }
+          ],
+          "unit": "k"
+        }
+      },
+      {
+        "c": "LS3-B03-010",
+        "d": "application",
+        "p": "Trong một bữa tiệc buffet liên hoan trường có rất nhiều món ăn ngon tự chọn miễn phí. Một số bạn xúc đầy ứ 3 đĩa cao ngọn nhưng chỉ ăn được 1 phần nhỏ rồi bỏ thừa lại toàn bộ 2 đĩa kia. Em khuyên các bạn thế nào?",
+        "o": [
+          "Lấy càng nhiều càng tốt cho đỡ thiệt vì miễn phí",
+          "Trộn lẫn hết các món thừa rồi giấu dưới khăn ăn",
+          "Khuyên các bạn chỉ lấy lượng thức ăn vừa đủ sức mình mỗi lượt (ăn hết ngon miệng hãy đi lấy thêm một chút), tuyệt đối không lấy thừa bỏ phí",
+          "Xúc cho thật đầy đĩa để chụp ảnh khoe rồi đổ đi"
+        ],
+        "k": "C",
+        "e": "Ý thức \"lấy vừa đủ ăn\" tại tiệc tự chọn thể hiện đẳng cấp văn minh và lòng tôn trọng thực phẩm!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Văn minh tại bữa tiệc tự chọn"
+      },
+      {
+        "c": "LS3-B03-011",
+        "d": "application",
+        "p": "Mỗi tháng gia đình bạn Mai tốn khá nhiều tiền mua nước đóng chai nhựa nhỏ 350 ml để mang đi học. Giải pháp nào vừa TIẾT KIỆM TIỀN lâu dài cho bố mẹ, vừa bảo vệ môi trường xanh sạch?",
+        "o": [
+          "Mua mỗi ngày 2 chai nhựa nhỏ dùng một lần rồi vứt đi",
+          "Không uống nước ở trường cả ngày",
+          "Mua 1 chiếc bình giữ nhiệt hoặc bình nhựa an toàn dùng lại nhiều lần, sáng rót nước lọc đun sôi để nguội ở nhà mang theo đi học",
+          "Uống nước ngọt đóng lon thay nước lọc"
+        ],
+        "k": "C",
+        "e": "Dùng bình nước cá nhân tái sử dụng tiết kiệm cả triệu đồng mỗi năm và loại bỏ hàng trăm vỏ chai nhựa thải ra môi trường!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Tiết kiệm tiền bằng bình nước cá nhân"
+      },
+      {
+        "c": "LS3-B03-012",
+        "d": "application",
+        "p": "Nếu một người bạn thân khoe chiếc cặp mới tinh đắt tiền của hãng nổi tiếng rồi chê chiếc cặp sạch sẽ dùng từ năm lớp 2 của em là \"đồ cũ quê mùa\". Em tự tin đáp lại thế nào?",
+        "o": [
+          "Về nhà khóc lóc bắt bố mẹ phải mua ngay cái cặp đắt gấp đôi bạn",
+          "Vứt chiếc cặp cũ đi vào thùng rác ngay lập tức",
+          "Mỉm cười tự hào nói: \"Cặp tớ tuy dùng năm thứ hai nhưng vẫn rất bền đẹp sạch sẽ, giữ đồ dùng lâu giúp bố mẹ tiết kiệm được khoản tiền mua nhiều sách hay lắm!\"",
+          "Nổi giận cãi chửi bạn thậm tệ"
+        ],
+        "k": "C",
+        "e": "Bản lĩnh không chạy theo khoe mẽ đồ hiệu, tự hào với lối sống bền đẹp tiết kiệm là phẩm chất cực kì đáng nể!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Tự tin trước tâm lí khoe đồ đắt tiền"
+      },
+      {
+        "c": "LS3-B03-013",
+        "d": "advanced",
+        "p": "Mô hình \"3 Chiếc Lọ Tài Chính\" đơn giản dành cho trẻ em lớp 3 chia tiền tiêu vặt/lì xì thành 3 phần: Chi tiêu – Tiết kiệm – Sẻ chia. Mục đích của lọ \"Sẻ chia\" là gì?",
+        "o": [
+          "Để mua đồ ăn riêng cho một mình mình ăn trộm",
+          "Dành một phần nhỏ giúp đỡ bạn khó khăn, mua quà ý nghĩa tặng người thân hay ủng hộ thiên tai – nuôi dưỡng trái tim nhân ái song hành cùng quản lí tiền",
+          "Để cất giấu quên luôn không bao giờ dùng",
+          "Để ném tiền đi chơi trò chơi may rủi"
+        ],
+        "k": "B",
+        "e": "Biết quản lí tiền giỏi mà vẫn giàu lòng sẻ chia yêu thương là nhân cách tài chính trọn vẹn nhất!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Mô hình 3 Chiếc Lọ tài chính nhí"
+      },
+      {
+        "c": "LS3-B03-014",
+        "d": "advanced",
+        "p": "Vì sao khi mua một món đồ giá rẻ kém chất lượng (dùng 2 ngày đã hỏng phải mua lại 5 lần trong năm) thực chất lại ĐẮT ĐỎ và LÃNG PHÍ hơn mua một món đồ chất lượng tốt bền dùng suốt 3 năm?",
+        "o": [
+          "Vì tổng số tiền mua đi mua lại nhiều lần lớn hơn nhiều, lại tạo ra gấp 5 lần rác thải nhựa hỏng ra môi trường",
+          "Không đúng, mua 5 lần vui hơn nhiều",
+          "Vì đồ rẻ bao giờ cũng bền hơn đồ tốt",
+          "Vì đồ đắt luôn tự động làm bài hộ"
+        ],
+        "k": "A",
+        "e": "Cân nhắc \"độ bền và giá trị sử dụng lâu dài\" thay vì ham rẻ tức thời là tư duy tiêu dùng thông minh!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Bài học Giá trị sử dụng lâu dài"
+      },
+      {
+        "c": "LS3-B03-015",
+        "d": "advanced",
+        "p": "Bạn Tí muốn mua bộ lắp ghép khoa học giá 160 nghìn bằng tiền tự tiết kiệm. Tí đã có 40 nghìn, mỗi tuần Tí tiết kiệm đều từ tiền thưởng làm việc tốt được 20 nghìn. Hỏi Tí cần kiên trì thêm đúng mấy tuần nữa sẽ tự tay mua được bộ lắp ghép?",
+        "o": [
+          "6 tuần nữa (160 - 40 = 120 nghìn còn thiếu; 120 : 20 = 6 tuần)",
+          "4 tuần nữa",
+          "8 tuần nữa",
+          "5 tuần nữa"
+        ],
+        "k": "A",
+        "e": "Số tiền còn thiếu là 120 nghìn; mỗi tuần thêm 20 nghìn -> 120 : 20 = 6 tuần kiên trì thật xứng đáng!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Tính kế hoạch tiết kiệm theo mục tiêu"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong3-c2",
+    "lesson": {
+      "code": "lssong3-b04",
+      "title": "Bài 4. Văn hóa Xếp hàng, Nhường chỗ và Ứng xử Nơi Công cộng",
+      "seq": 4,
+      "subtitle": "Thực hành văn hóa xếp hàng văn minh, nhường chỗ cho người yếu thế và tuân thủ quy tắc ứng xử lịch sự tại không gian công cộng",
+      "concepts": [
+        "Văn hóa xếp hàng hiện đại",
+        "Nhường chỗ người yếu thế",
+        "Ứng xử công cộng"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS3-B04-001",
+        "d": "basic",
+        "p": "Những đối tượng nào cần được học sinh lớp 3 chủ động ƯU TIÊN NHƯỜNG CHỖ NGỒI trên xe buýt, tàu điện hoặc nhường lượt xếp hàng ở nơi công cộng?",
+        "o": [
+          "Người cao tuổi, phụ nữ đang mang thai, phụ nữ bế em nhỏ và người khuyết tật hoặc người đang bị thương chống nạng",
+          "Chỉ nhường cho bạn thân cùng lớp",
+          "Các bạn thanh niên khỏe mạnh đang chạy nhảy",
+          "Những người to tiếng chen lấn xô đẩy đòi lên trước"
+        ],
+        "k": "A",
+        "e": "Nhường chỗ cho người yếu thế là biểu hiện đẹp nhất của trái tim nhân hậu và xã hội văn minh!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Đối tượng ưu tiên nhường chỗ",
+        "fig": {
+          "type": "table",
+          "title": "Ứng xử Công cộng Lớp 3",
+          "head": [
+            "Không gian",
+            "Hành vi lịch sự"
+          ],
+          "rows": [
+            [
+              "Xe buýt, tàu điện",
+              "Nhường người già"
+            ],
+            [
+              "Thang máy chung",
+              "Ra trước rồi mới vào"
+            ],
+            [
+              "Thang cuốn siêu thị",
+              "Đứng gọn bên phải"
+            ],
+            [
+              "Bảo tàng, rạp hát",
+              "Đi nhẹ, không sờ đồ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS3-B04-002",
+        "d": "basic",
+        "p": "Khi đi thang cuốn (thang máy bậc tự động) ở trung tâm thương mại hay sân bay, nguyên tắc đứng văn minh toàn cầu giúp không chắn lối người vội là gì?",
+        "o": [
+          "Đứng dàn ngang bịt kín cả lối đi hoặc chạy nhảy ngược chiều thang cuốn",
+          "Đứng gọn về phía bên PHẢI bậc thang cuốn và nắm tay vịn (chừa làn bên trái cho người có việc gấp bước vượt lên) hoặc đứng gọn không chạy ngược chiều",
+          "Ngồi hẳn bệt xuống bậc thang cuốn đang chuyển động",
+          "Thò mũi giày mềm cọ sát vào khe mép thang"
+        ],
+        "k": "B",
+        "e": "Đứng gọn bên phải thang cuốn, nắm tay vịn và tuyệt đối không chạy ngược chiều giúp đảm bảo an toàn tuyệt đối!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Văn minh đi thang cuốn an toàn"
+      },
+      {
+        "c": "LS3-B04-003",
+        "d": "basic",
+        "p": "Khi vào rạp chiếu phim, nhà hát hay thư viện công cộng, em cần chỉnh điện thoại hoặc đồng hồ thông minh sang chế độ nào trước khi buổi chiếu/đọc bắt đầu?",
+        "o": [
+          "Gọi điện nói chuyện oang oang giữa rạp phim",
+          "Chuyển sang chế độ im lặng hoặc tắt hẳn chuông, không mở màn hình sáng rực gây chói mắt khán giả xung quanh",
+          "Mở chuông âm lượng lớn nhất và bật đèn pin chiếu xung quanh",
+          "Đứng lên nhảy múa che màn hình"
+        ],
+        "k": "B",
+        "e": "Tắt chuông và giữ yên tĩnh tôn trọng trải nghiệm chung của hàng trăm người xung quanh!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Giữ yên tĩnh trong rạp hát, thư viện"
+      },
+      {
+        "c": "LS3-B04-004",
+        "d": "basic",
+        "p": "Trên xe buýt hay tàu điện công cộng, nếu muốn nghe nhạc hoặc xem video ngắn trên điện thoại của bố mẹ, em phải dùng thiết bị gì để không làm phiền cả toa xe?",
+        "o": [
+          "Đeo tai nghe với âm lượng vừa phải (tránh bật loa ngoài ầm ĩ cho cả xe cùng phải nghe)",
+          "Mở nhạc nhảy giữa lối đi xe buýt",
+          "Hát theo thật to ngang tiếng loa",
+          "Bật loa ngoài hết cỡ rồi đặt lên ghế bên cạnh"
+        ],
+        "k": "A",
+        "e": "Không bật loa ngoài ở nơi công cộng (xe buýt, quán ăn, bệnh viện, công viên) là phép lịch sự cơ bản của thế giới văn minh!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Không bật loa ngoài nơi công cộng"
+      },
+      {
+        "c": "LS3-B04-005",
+        "d": "basic",
+        "p": "Khi sử dụng nhà vệ sinh công cộng ở trường học, siêu thị hay công viên, hành động văn minh nào em BẮT BUỘC phải nhớ làm trước khi bước ra ngoài?",
+        "o": [
+          "Quên không xả nước bỏ đi ngay",
+          "Xả nước sạch sẽ bồn cầu sau khi dùng, bỏ giấy vào đúng sọt rác (nếu có biển hướng dẫn), rửa tay xà phòng và khóa chặt vòi nước",
+          "Đổ đầy giấy vào bồn cầu làm tắc nghẽn",
+          "Vẽ bậy chữ lên cửa nhà vệ sinh"
+        ],
+        "k": "B",
+        "e": "\"Giữ sạch nhà vệ sinh công cộng cho người đến sau như giữ cho chính mình!\" là thước đo ý thức tuyệt vời.",
+        "s": "Giáo dục lối sống 3",
+        "h": "Văn minh nhà vệ sinh công cộng"
+      },
+      {
+        "c": "LS3-B04-006",
+        "d": "basic",
+        "p": "Khi thấy một hàng người đang đứng xếp hàng chờ mua đồ tại căng-tin hoặc siêu thị, hành động nào bị coi là thiếu văn minh nhất?",
+        "o": [
+          "Nhờ 1 người bạn đứng giữ chỗ phía trước rồi kéo cả nhóm 4–5 người vào chen ngang giữa hàng, gây bất công cho những người xếp sau",
+          "Đi xuống cuối hàng đứng trật tự chờ tới lượt mình",
+          "Chuẩn bị sẵn món đồ hoặc tiền lẻ trên tay để thanh toán nhanh",
+          "Giữ khoảng cách thoải mái với người phía trước"
+        ],
+        "k": "A",
+        "e": "Cả nhóm cùng xuống cuối hàng xếp thứ tự đảm bảo công bằng 100% cho tất cả mọi người!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Không kéo cả nhóm chen ngang hàng"
+      },
+      {
+        "c": "LS3-B04-007",
+        "d": "application",
+        "p": "Em đang ngồi thoải mái trên ghế xe buýt đi về nhà thì tại trạm tiếp theo có một cô đang mang thai bụng to bước lên xe nhưng hết sạch chỗ ngồi. Em làm gì ngay lúc đó?",
+        "o": [
+          "Nhanh nhẹn đứng dậy khỏi ghế, giữ vững tay vịn và tươi cười nói lễ phép: \"Cháu mời cô ngồi vào chỗ của cháu cho đỡ mỏi ạ!\"",
+          "Nhìn cô cười rồi gác cặp sách lên ghế bên cạnh",
+          "Ngồi lì trên ghế chỉ sang ghế khác bảo cô đi tìm xem còn không",
+          "Giả vờ nhắm mắt ngủ say không nhìn thấy cô ấy"
+        ],
+        "k": "A",
+        "e": "Hành động đứng nhường ghế nhanh chóng ấm áp khiến cả chuyến xe buýt ngập tràn niềm vui!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Nhường ghế trên xe buýt"
+      },
+      {
+        "c": "LS3-B04-008",
+        "d": "application",
+        "p": "Gia đình em đi tham quan một ngôi chùa cổ hoặc khu di tích lịch sử linh thiêng. Biển báo ngoài sân ghi \"Đi nhẹ, nói khẽ – Không xả rác – Không hái hoa bẻ cành\". Thấy một bạn nhỏ định trèo lên tượng đá chụp ảnh, em nhắc bạn thế nào?",
+        "o": [
+          "Hét ầm lên chửi bạn trước mặt mọi người",
+          "Khuyên bạn bước xuống nhẹ nhàng: \"Đây là khu di tích trang nghiêm cần bảo vệ, mình đứng dưới chụp ảnh sẽ đẹp và văn minh hơn!\"",
+          "Leo lên tượng đá chụp cùng bạn luôn cho vui",
+          "Khắc tên mình lên thân cây cổ thụ trong chùa"
+        ],
+        "k": "B",
+        "e": "Giữ gìn di sản văn hóa lịch sử và tôn trọng không gian trang nghiêm là nét đẹp công dân hiện đại.",
+        "s": "Giáo dục lối sống 3",
+        "h": "Ứng xử văn minh tại khu di tích"
+      },
+      {
+        "c": "LS3-B04-009",
+        "d": "application",
+        "p": "Trong đợt khảo sát ý kiến người dân về các hành vi \"Gây khó chịu nhất tại nơi công cộng\" trên 100 người tham gia (biểu đồ dưới). Hai hành vi nào bị phàn nàn nhiều nhất chiếm tỷ lệ cao nhất?",
+        "o": [
+          "Chỉ có gác chân lên ghế",
+          "Xả rác bừa bãi (35 người) và Chen hàng không xếp hàng (28 người)",
+          "Tất cả bằng nhau",
+          "Nói chuyện quá to (20 người) và Gác chân lên ghế (17 người)"
+        ],
+        "k": "B",
+        "e": "Xả rác (35) và Chen hàng (28) chiếm tới 63/100 ý kiến phàn nàn! Tránh hai thói quen này là em đã trở nên cực kì văn minh.",
+        "s": "Giáo dục lối sống 3",
+        "h": "Đọc biểu đồ Ứng xử công cộng",
+        "fig": {
+          "type": "bars",
+          "title": "Hành vi gây khó chịu nơi công cộng (/100 ý kiến)",
+          "labels": [
+            "Xả rác bừa",
+            "Chen hàng",
+            "Nói ồn ào",
+            "Gác chân ghế"
+          ],
+          "series": [
+            {
+              "values": [
+                35,
+                28,
+                20,
+                17
+              ]
+            }
+          ],
+          "unit": "ý kiến"
+        }
+      },
+      {
+        "c": "LS3-B04-010",
+        "d": "application",
+        "p": "Ở cửa thang máy tầng 1 tòa nhà chung cư rất đông người chờ đi lên. Khi cửa thang máy vừa mở ra, bên trong có một bác đang đẩy xe chở em bé cần đi ra. Nhóm bạn đứng ngoài cần làm gì?",
+        "o": [
+          "Ùa ngay vào trong thang máy chen chặt cửa không cho bác bước ra",
+          "Chạy chen qua khe hở giữa xe đẩy em bé",
+          "Bấm nút đóng cửa lại ngay trước mặt bác",
+          "Đứng lùi dạt gọn sang hai bên cánh cửa thang máy nhường lối trống cho bác đẩy xe em bé bước ra hết trước, rồi mọi người bên ngoài mới lần lượt bước vào"
+        ],
+        "k": "D",
+        "e": "Luôn đứng dạt hai bên nhường người bên trong ra trước là quy tắc vàng văn hóa thang máy!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Nhường lối ra tại cửa thang máy"
+      },
+      {
+        "c": "LS3-B04-011",
+        "d": "application",
+        "p": "Một lần ở công viên, em thấy một người bạn lớp khác vừa uống xong chai nước ngọt rồi tiện tay ném thẳng vỏ chai xuống thảm cỏ xanh chỉ cách thùng rác đúng 5 bước chân. Em ứng xử thế nào để vừa giữ sạch công viên vừa không gây gổ cãi nhau?",
+        "o": [
+          "Chạy tới chửi mắng bạn là đồ phá hoại môi trường",
+          "Ném trả lại vỏ chai vào đầu bạn",
+          "Tươi cười nhặt giúp vỏ chai bỏ vào thùng rác gần đó hoặc nhẹ nhàng nói với bạn: \"Cậu ơi thùng rác ở ngay kia kìa, tụi mình bỏ vào cho cỏ xanh sạch nhé!\"",
+          "Cũng tiện tay vứt rác của mình xuống cỏ theo"
+        ],
+        "k": "C",
+        "e": "Góp ý nhẹ nhàng hoặc tự tay làm gương nhặt bỏ vào thùng rác có sức lan tỏa văn minh mạnh mẽ gấp vạn lần lời mắng chửi!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Xử lí khéo khi thấy bạn xả rác"
+      },
+      {
+        "c": "LS3-B04-012",
+        "d": "application",
+        "p": "Khi đi ăn ở nhà hàng hoặc khu ẩm thực siêu thị tự phục vụ cùng gia đình, việc em có thể làm ngay sau khi ăn xong đứng dậy là gì?",
+        "o": [
+          "Đẩy ghế ngã đổ ra giữa lối đi",
+          "Thu gọn vỏ giấy ăn vào đĩa, xếp khay gọn (hoặc mang khay ra khu trả khay nếu có quy định) và đẩy gọn ghế vào gầm bàn trước khi rời đi",
+          "Bày bừa thức ăn vương vãi xuống sàn nhà cho nhân viên lau",
+          "Lấy hết giấy ăn của bàn bên cạnh nhét túi"
+        ],
+        "k": "B",
+        "e": "Đẩy gọn ghế vào bàn và thu gọn bàn ăn sau khi đứng dậy là thói quen cực kì tinh tế được cả thế giới khen ngợi!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Văn minh tại khu ẩm thực, nhà hàng"
+      },
+      {
+        "c": "LS3-B04-013",
+        "d": "advanced",
+        "p": "Vì sao ở nhiều quốc gia phát triển, người dân sẵn sàng xếp hàng trật tự kéo dài cả trăm mét chờ đợi suốt 30 phút mà không ai chen lấn? Điều đó phản ánh giá trị gì?",
+        "o": [
+          "Vì ở đó không có vạch kẻ đường",
+          "Vì họ thích đứng cho mỏi chân",
+          "Vì người dân ở đó đi bộ rất chậm chạp không biết chạy",
+          "Phản ánh lòng tự trọng, sự tôn trọng công bằng với thời gian của người khác và niềm tin rằng ai xếp đúng hàng cũng sẽ đến lượt an toàn"
+        ],
+        "k": "D",
+        "e": "Văn hóa xếp hàng tự giác là thước đo trưởng thành của một cộng đồng văn minh và công bằng!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Giá trị sâu sắc của văn hóa xếp hàng"
+      },
+      {
+        "c": "LS3-B04-014",
+        "d": "advanced",
+        "p": "Khi đứng cùng bố mẹ trong không gian hẹp của thang máy đông người, việc nào sau đây vừa giữ lịch sự vừa đảm bảo an toàn cho chính trẻ em?",
+        "o": [
+          "Đứng gọn vào góc tránh sát khe cửa trượt, giữ cặp sách phía trước hoặc sát chân không va vào lưng người khác, và không bấm đùa tất cả các nút số tầng",
+          "Nhảy lên nhảy xuống thật mạnh trong buồng thang máy",
+          "Thò ngón tay miết theo khe cửa thang đang mở đóng",
+          "Bấm sáng tất cả các nút từ tầng 1 đến tầng 20 rồi chạy ra ngoài"
+        ],
+        "k": "A",
+        "e": "Không đùa nghịch nút bấm, không nhảy trong buồng thang và tránh xa khe cửa bảo vệ an toàn tuyệt đối khi đi thang máy!",
+        "s": "Giáo dục lối sống 3",
+        "h": "An toàn và lịch sự trong thang máy"
+      },
+      {
+        "c": "LS3-B04-015",
+        "d": "advanced",
+        "p": "Nếu lớp em tổ chức chiến dịch \"Một hành động đẹp nơi công cộng mỗi ngày\", hành động nào xứng đáng được chọn làm biểu tượng của Công dân nhí Lớp 3?",
+        "o": [
+          "Hễ ra ngoài đường là im lặng không chào ai",
+          "Luôn xếp hàng trật tự, chủ động nhường chỗ người yếu thế, giữ yên tĩnh nơi công cộng và bỏ rác đúng nơi quy định",
+          "Chỉ cần mặc quần áo đẹp đi dạo công viên",
+          "Chạy nhanh lên trước giành phần cho lớp mình"
+        ],
+        "k": "B",
+        "e": "Văn hóa nơi công cộng làm cuộc sống thành thị và nông thôn đều trở nên an toàn, thân thiện và đáng sống!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Hình mẫu Công dân nhí công cộng"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong3-c2",
+    "lesson": {
+      "code": "lssong3-b05",
+      "title": "Bài 5. Lịch sự trong Tranh luận và Tôn trọng Sự khác biệt",
+      "seq": 5,
+      "subtitle": "Học cách thảo luận tranh luận ôn hòa dựa trên lí lẽ (\"tôn trọng người, bàn về ý tưởng\") và tôn trọng sự khác biệt của bạn bè",
+      "concepts": [
+        "Tranh luận văn minh",
+        "Tôn trọng khác biệt",
+        "Không kì thị chế giễu"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS3-B05-001",
+        "d": "basic",
+        "p": "Trong giờ thảo luận nhóm trên lớp, khi em KHÔNG đồng ý với ý kiến của một người bạn, cách phản hồi lịch sự văn minh nhất là nói thế nào?",
+        "o": [
+          "\"Cậu nói ngốc ơi là ngốc, im ngay đi để tớ nói!\"",
+          "\"Tớ hiểu ý của cậu, nhưng tớ có góc nhìn khác một chút là... Chúng mình cùng xem lại sách kiểm tra nhé!\"",
+          "Cười phá lên chỉ tay vào mặt bạn trước cả lớp",
+          "Đập bàn đứng dậy bỏ sang nhóm khác"
+        ],
+        "k": "B",
+        "e": "\"Phản biện ý kiến, KHÔNG công kích cá nhân\" là nguyên tắc vàng của mọi cuộc tranh luận văn minh!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Cách phản biện lịch sự với bạn",
+        "fig": {
+          "type": "table",
+          "title": "Tranh luận Văn minh Lớp 3",
+          "head": [
+            "Nguyên tắc",
+            "Cách nói chuẩn mực"
+          ],
+          "rows": [
+            [
+              "Lắng nghe trước",
+              "Để bạn nói hết câu"
+            ],
+            [
+              "Khi không đồng ý",
+              "Nêu lí lẽ nhẹ nhàng"
+            ],
+            [
+              "Tôn trọng khác biệt",
+              "Không chê ngoại hình"
+            ],
+            [
+              "Thống nhất chung",
+              "Theo đa số hợp lí"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS3-B05-002",
+        "d": "basic",
+        "p": "Thế nào là \"Tôn trọng sự khác biệt của bạn bè\" trong lớp học Tiểu học?",
+        "o": [
+          "Cô lập không chơi với bạn nói giọng địa phương khác",
+          "Đặt biệt danh xấu xí trêu chọc bạn có vóc dáng béo hoặc gầy",
+          "Chấp nhận và trân trọng những điểm riêng của mỗi bạn như sở thích, giọng nói vùng miền, vóc dáng cao thấp, tốc độ học hay hoàn cảnh gia đình không giống mình",
+          "Bắt tất cả các bạn phải thích giống hệt sở thích của mình"
+        ],
+        "k": "C",
+        "e": "Vườn hoa đẹp nhờ có trăm loài hoa khác sắc hương; lớp học vui nhờ mỗi bạn một nét riêng đáng quý!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Tôn trọng sự khác biệt tự nhiên"
+      },
+      {
+        "c": "LS3-B05-003",
+        "d": "basic",
+        "p": "Khi tranh luận giải một bài toán hoặc chọn chủ đề vẽ tranh nhóm mà hai bạn giữ hai ý kiến khác nhau, mục đích đúng đắn của tranh luận là gì?",
+        "o": [
+          "Để xem ai hét to giọng khỏe hơn",
+          "Để chia phe đánh nhau sau giờ học",
+          "Cùng lắng nghe phân tích lí lẽ của nhau để tìm ra phương án đúng nhất và hay nhất cho cả nhóm, chứ không phải cố thắng thua cãi nhau cho bõ tức",
+          "Để chứng minh mình thông minh nhất và bắt bạn phải xấu hổ"
+        ],
+        "k": "C",
+        "e": "Tranh luận văn minh hướng tới CHÂN LÍ và HỢP TÁC, không biến bạn bè thành đối thủ!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Mục đích của tranh luận đúng"
+      },
+      {
+        "c": "LS3-B05-004",
+        "d": "basic",
+        "p": "Hành vi nào sau đây là hành vi BẮT NẠT hoặc KÌ THỊ BẠN BÈ cần kiên quyết lên án và loại bỏ khỏi trường học?",
+        "o": [
+          "Cổ vũ bạn hơi nhút nhát mạnh dạn giơ tay",
+          "Góp ý chân thành nhẹ nhàng giúp bạn sửa lỗi chính tả",
+          "Đặt biệt danh châm chọc ngoại hình của bạn, nhại giọng vùng miền của bạn chuyển trường tới, hay rủ nhóm tẩy chay không cho bạn chơi cùng",
+          "Khen ngợi sở trường hát hay hoặc vẽ đẹp của bạn"
+        ],
+        "k": "C",
+        "e": "Chế giễu ngoại hình, giọng nói hay tẩy chay bạn gây tổn thương tinh thần rất sâu; hãy luôn lan tỏa yêu thương!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Nhận diện và nói KHÔNG với kì thị"
+      },
+      {
+        "c": "LS3-B05-005",
+        "d": "basic",
+        "p": "Nếu trong khi tranh luận với bạn, em nhận ra hóa ra ý kiến ban đầu của MÌNH bị nhầm lẫn còn ý kiến của BẠN là đúng, bạn nhỏ bản lĩnh sẽ ứng xử thế nào?",
+        "o": [
+          "Lờ đi giả vờ như chưa từng nói câu đó",
+          "Đùng đùng nổi giận xé nháp bỏ về chỗ",
+          "Vui vẻ mỉm cười công nhận: \"À đúng rồi! Tớ nhìn nhầm chỗ này, cảm ơn cậu đã chỉ ra giúp tớ nhé!\"",
+          "Cố cãi cùn bảo vệ cái sai tới cùng không chịu nhận"
+        ],
+        "k": "C",
+        "e": "Dũng cảm thừa nhận mình nhầm và cảm ơn bạn giúp mình sửa đúng chính là dấu hiệu của người cực kì thông minh bản lĩnh!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Bản lĩnh nhận sai khi tranh luận"
+      },
+      {
+        "c": "LS3-B05-006",
+        "d": "basic",
+        "p": "Mỗi người sinh ra có điểm mạnh và điểm hạn chế riêng (ví dụ: bạn A tính nhẩm siêu nhanh, bạn B vẽ cực khéo, bạn C đá bóng rất cừ). Thái độ đúng của em đối với sự khác biệt năng lực này là gì?",
+        "o": [
+          "Chê bạn C học Toán chậm hơn mình là vô dụng",
+          "Ghen tị nói xấu bạn B được cô khen vẽ đẹp",
+          "Không thèm chơi với ai có sở thích khác mình",
+          "Tôn trọng tài năng riêng của từng bạn, học hỏi điểm mạnh từ bạn và sẵn lòng hỗ trợ bạn phần mình làm tốt hơn"
+        ],
+        "k": "D",
+        "e": "Học hỏi thế mạnh của nhau giúp cả tập thể tiến bộ và ai cũng tự tin tỏa sáng!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Tôn trọng sở trường khác nhau"
+      },
+      {
+        "c": "LS3-B05-007",
+        "d": "application",
+        "p": "Lớp 3A đón một bạn mới chuyển từ tỉnh miền Trung ra học, giọng nói của bạn hơi nặng âm địa phương khiến một vài từ nghe lạ tai. Giờ ra chơi, hai bạn nam bắt đầu nhại giọng trêu đùa làm bạn mới rơm rớm nước mắt. Em là lớp trưởng hoặc bạn cùng bàn sẽ làm gì?",
+        "o": [
+          "Bước tới nhẹ nhàng bảo hai bạn dừng trêu ngay vì giọng nói mỗi vùng miền đều là nét đẹp quê hương Việt Nam, rồi rủ bạn mới vào chơi trò chơi cùng cả nhóm",
+          "Chạy đi mách hết cả trường tới xem",
+          "Cười theo cho vui vì nghe giọng lạ buồn cười thật",
+          "Khuyên bạn mới đừng bao giờ mở miệng nói chuyện nữa"
+        ],
+        "k": "A",
+        "e": "Giọng nói ba miền Bắc – Trung – Nam đều là tiếng Việt thân thương; bảo vệ bạn mới chuyển đến tạo nên môi trường lớp học nhân ái!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Bảo vệ bạn mới có giọng vùng miền"
+      },
+      {
+        "c": "LS3-B05-008",
+        "d": "application",
+        "p": "Trong cuộc họp tổ thảo luận chọn món quà tặng cô giáo ngày 20/11: 3 bạn muốn tự làm tấm thiệp lớn gắn hoa giấy; bạn Minh lại muốn hát một bài tặng cô. Cả hai ý kiến đều hay, nhóm nên giải quyết văn minh thế nào?",
+        "o": [
+          "Cãi nhau ầm ĩ suốt 30 phút rồi không làm gì cả",
+          "Bắt bạn Minh tự làm hết cả hai việc một mình",
+          "Đuổi bạn Minh ra khỏi tổ vì dám nêu ý kiến khác",
+          "Lắng nghe ưu điểm của cả hai ý kiến, có thể kết hợp vừa làm thiệp gắn hoa giấy tập thể vừa tập bài hát tốp ca tặng cô (hoặc biểu quyết công bằng theo đa số)"
+        ],
+        "k": "D",
+        "e": "Tìm điểm chung kết hợp các ý tưởng hay hoặc biểu quyết dân chủ luôn mang lại kết quả tuyệt vời nhất!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Dung hòa ý kiến khác nhau trong nhóm"
+      },
+      {
+        "c": "LS3-B05-009",
+        "d": "application",
+        "p": "Lớp 3C thực hành tuần lễ \"Lời nói Hoa hồng – Tôn trọng Khác biệt\". Biểu đồ dưới ghi nhận kết quả đánh giá bầu không khí thân thiện của lớp qua 4 tiêu chí (thang điểm 10). Tiêu chí nào lớp 3C làm xuất sắc nhất và tiêu chí nào cần cố gắng thêm?",
+        "o": [
+          "Chào đón bạn mới xuất sắc nhất (9 điểm); Không ngắt lời khi tranh luận cần cố thêm (7 điểm)",
+          "Khen ngợi điểm mạnh cao nhất (8 điểm)",
+          "Tất cả đạt 10 điểm",
+          "Lắng nghe bạn nói yếu nhất (8 điểm)"
+        ],
+        "k": "A",
+        "e": "Điểm 9 ở chào đón bạn mới thật tuyệt; lớp cần luyện thêm việc chờ bạn nói dứt câu khi tranh luận sôi nổi (7 điểm)!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Đọc biểu đồ Văn hóa tranh luận",
+        "fig": {
+          "type": "bars",
+          "title": "Điểm thân thiện lớp 3C (/10đ)",
+          "labels": [
+            "Đón bạn mới",
+            "Lắng nghe",
+            "Khen điểm hay",
+            "Không ngắt lời"
+          ],
+          "series": [
+            {
+              "values": [
+                9,
+                8,
+                8,
+                7
+              ]
+            }
+          ],
+          "unit": "điểm"
+        }
+      },
+      {
+        "c": "LS3-B05-010",
+        "d": "application",
+        "p": "Bạn Tí thích màu hồng và thích chơi nấu ăn làm đầu bếp, trong khi các bạn nam khác thích chơi ô tô siêu nhân. Một số bạn trêu Tí \"con trai mà thích màu hồng\". Em góp ý thế nào cho công bằng?",
+        "o": [
+          "Giải thích cho các bạn biết màu sắc hay nghề đầu bếp dành cho mọi người không phân biệt nam nữ; ai cũng có quyền yêu thích lành mạnh",
+          "Cấm Tí chơi chung với các bạn nam",
+          "Hùa theo trêu Tí và giấu hết bút màu hồng đi",
+          "Ép Tí phải vứt đồ chơi nấu ăn"
+        ],
+        "k": "A",
+        "e": "Tôn trọng sở thích cá nhân lành mạnh không rập khuôn giới tính giúp mỗi bạn phát triển đúng đam mê tài năng!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Phá bỏ định kiến sở thích"
+      },
+      {
+        "c": "LS3-B05-011",
+        "d": "application",
+        "p": "Trong giờ đọc hiểu, khi thảo luận về nhân vật câu chuyện, bạn Lan có cách hiểu hơi khác phần lớn các bạn trong tổ nhưng giải thích rất hợp lí. Thái độ đúng khi nghe Lan trình bày là gì?",
+        "o": [
+          "Bác bỏ ngay khi Lan chưa nói hết câu đầu tiên",
+          "Nói: \"Cả tổ chọn thế kia rồi, cậu nói nữa làm gì!\"",
+          "Chăm chú lắng nghe lập luận của Lan, công nhận điểm hợp lí sáng tạo trong góc nhìn của bạn thay vì ép bạn phải nghĩ giống hệt mình",
+          "Lấy tay bịt tai lại"
+        ],
+        "k": "C",
+        "e": "Tư duy đa chiều từ những ý kiến khác biệt thường mang lại ý tưởng xuất sắc bất ngờ!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Trân trọng góc nhìn mới lạ"
+      },
+      {
+        "c": "LS3-B05-012",
+        "d": "application",
+        "p": "Khi một người bạn trong lớp phải đeo kính cận dày, bị rụng răng cửa đang mọc hay bị khuyết tật nhẹ ở chân phải đi chậm, bạn nhỏ văn minh lớp 3 cần đối xử thế nào?",
+        "o": [
+          "Chạy thật nhanh bỏ rơi bạn phía sau khi đi chung",
+          "Đặt tên trêu là \"bốn mắt\", \"sún răng\", \"chân thọt\"",
+          "Chơi hòa đồng bình đẳng tự nhiên, hỗ trợ bạn lúc cần một cách tế nhị nhẹ nhàng và tuyệt đối không đặt biệt danh hay nhìn chằm chằm vào khiếm khuyết của bạn",
+          "Không cho bạn vào nhóm vì sợ chậm"
+        ],
+        "k": "C",
+        "e": "Thấu cảm và đối xử bình đẳng tôn trọng phẩm giá của mọi bạn bè là đỉnh cao của văn hóa học đường!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Đối xử bình đẳng, tế nhị với bạn"
+      },
+      {
+        "c": "LS3-B05-013",
+        "d": "advanced",
+        "p": "Giữa câu nói: \"Tôi có quyền tự do nói mọi thứ tôi nghĩ kể cả làm bạn buồn!\" và nguyên tắc giao tiếp văn minh, ranh giới đúng đắn nằm ở đâu?",
+        "o": [
+          "Tự do bày tỏ ý kiến luôn đi kèm trách nhiệm tôn trọng sự thật và không xúc phạm danh dự, ngoại hình hay làm tổn thương tinh thần người khác",
+          "Sai, không ai được phép nói bất kì điều gì trong lớp",
+          "Chỉ người lớp trưởng mới được phép nói khác ý kiến",
+          "Đúng, thích nói gì xúc phạm ai cũng là quyền tự do"
+        ],
+        "k": "A",
+        "e": "Trung thực + Tế nhị + Tôn trọng = Sức mạnh của tự do ngôn luận văn minh!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Ranh giới giữa Thẳng thắn và Vô duyên"
+      },
+      {
+        "c": "LS3-B05-014",
+        "d": "advanced",
+        "p": "Tại sao trong một cuộc họp tranh luận hay thảo luận nhóm, việc sử dụng câu bắt đầu bằng \"Mình thấy ý này có điểm hay là..., nếu bổ sung thêm... sẽ càng tuyệt\" lại hiệu quả hơn câu \"Ý cậu dở tệ!\"?",
+        "o": [
+          "Vì câu dài hơn giúp kéo dài hết giờ học",
+          "Vì khen nhận điểm tích cực trước giúp người nghe cởi mở đón nhận góp ý xây dựng thay vì phòng thủ nổi giận bảo vệ cái tôi",
+          "Không khác nhau, cả hai đều gây cãi nhau",
+          "Vì bạn sẽ không nghe thấy gì"
+        ],
+        "k": "B",
+        "e": "Phương pháp góp ý \"Bánh mì kẹp\" (Khen điểm hay – Gợi ý cải thiện – Khích lệ) là nghệ thuật giao tiếp đỉnh cao!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Nghệ thuật góp ý Bánh mì kẹp"
+      },
+      {
+        "c": "LS3-B05-015",
+        "d": "advanced",
+        "p": "Hãy tưởng tượng nếu tất cả học sinh trên thế giới đều có tính cách, sở thích và tài năng giống hệt nhau 100% thì xã hội sẽ ra sao? Từ đó rút ra bài học gì?",
+        "o": [
+          "Mọi người sẽ không cần nói chuyện với nhau nữa",
+          "Ai cũng chỉ làm đúng một nghề giống nhau",
+          "Xã hội sẽ vui hơn gấp mười lần",
+          "Xã hội sẽ vô cùng đơn điệu và thiếu hụt rất nhiều nghề nghiệp; sự đa dạng khác biệt của mỗi cá nhân chính là nguồn sức mạnh làm thế giới phong phú tốt đẹp hơn"
+        ],
+        "k": "D",
+        "e": "Mỗi cá nhân là một mảnh ghép độc nhất vô nhị làm bức tranh cuộc sống rực rỡ muôn màu!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Giá trị của sự đa dạng con người"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong3-c2",
+    "lesson": {
+      "code": "lssong3-b06",
+      "title": "Bài 6. Sử dụng Internet và Thiết bị Thông minh An toàn",
+      "seq": 6,
+      "subtitle": "Nhận biết lợi ích và rủi ro khi dùng Internet, giữ bí mật thông tin cá nhân, không kết bạn hay tin người lạ trên mạng và bảo vệ mắt",
+      "concepts": [
+        "An toàn Internet lớp 3",
+        "Bảo mật thông tin cá nhân",
+        "Ứng xử văn minh trên mạng"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS3-B06-001",
+        "d": "basic",
+        "p": "Những lợi ích tuyệt vời mà Internet và máy tính mang lại cho việc học tập của học sinh lớp 3 là gì?",
+        "o": [
+          "Nhắn tin trêu chọc nói xấu các bạn cùng lớp",
+          "Xem các video thử thách nguy hiểm rồi bắt chước",
+          "Tra cứu từ điển, học Toán – Tiếng Việt – Tiếng Anh trực tuyến tương tác vui, xem video khoa học khám phá thiên nhiên và liên lạc với ông bà ở xa",
+          "Chơi trò chơi bạo lực suốt đêm không ngủ"
+        ],
+        "k": "C",
+        "e": "Internet là kho tàng tri thức khổng lồ nếu em biết dùng đúng mục đích học tập và giải trí lành mạnh!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Lợi ích đúng đắn của Internet",
+        "fig": {
+          "type": "table",
+          "title": "Quy tắc 4 KHÔNG trên Mạng",
+          "head": [
+            "Rủi ro mạng",
+            "Cách phòng vệ chuẩn"
+          ],
+          "rows": [
+            [
+              "Thông tin riêng tư",
+              "Không đăng ảnh, nhà"
+            ],
+            [
+              "Người lạ kết bạn",
+              "Không nhắn tin, gặp"
+            ],
+            [
+              "Link lạ trúng thưởng",
+              "Không bấm, tắt ngay"
+            ],
+            [
+              "Tin nhắn đe dọa xấu",
+              "Chụp lại, báo bố mẹ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS3-B06-002",
+        "d": "basic",
+        "p": "Những thông tin cá nhân bí mật nào của bản thân và gia đình em TUYỆT ĐỐI KHÔNG được tự ý chia sẻ công khai lên mạng xã hội hay gửi cho người lạ qua mạng?",
+        "o": [
+          "Họ tên đầy đủ kèm tên trường lớp, địa chỉ nhà riêng, số điện thoại bố mẹ, ảnh mặc đồng phục rõ biển tên và mật khẩu tài khoản",
+          "Một bài thơ vui về mùa xuân em thích",
+          "Tên cuốn sách truyện thiếu nhi hay em vừa đọc",
+          "Bức tranh phong cảnh thiên nhiên em tự vẽ (không ghi thông tin nhà)"
+        ],
+        "k": "A",
+        "e": "Giữ kín thông tin định danh và địa chỉ nhà giúp bảo vệ em an toàn tuyệt đối trước kẻ xấu trên mạng!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Thông tin bí mật không chia sẻ online"
+      },
+      {
+        "c": "LS3-B06-003",
+        "d": "basic",
+        "p": "Khi đang học bài hoặc xem video thiếu nhi trên máy tính bảng bỗng hiện lên một ô cửa sổ nhấp nháy ghi: \"Chúc mừng bạn đã trúng thưởng điện thoại mới, bấm vào đây nhập số điện thoại bố mẹ để nhận!\". Em làm gì?",
+        "o": [
+          "Gửi đường link đó cho tất cả các bạn trong lớp cùng bấm",
+          "Tải ngay phần mềm lạ đó về máy tính",
+          "Bấm ngay vào đường link rồi nhập số điện thoại của mẹ",
+          "Không bấm vào đường link lạ đó, đóng cửa sổ quảng cáo ngay (hoặc báo bố mẹ kiểm tra) vì đó là bẫy lừa đảo hoặc chứa vi-rút độc hại"
+        ],
+        "k": "D",
+        "e": "\"Không có quà miễn phí bất ngờ từ người lạ trên mạng!\" – thấy cửa sổ trúng thưởng lạ là đóng ngay!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Cảnh giác bẫy trúng thưởng trên mạng"
+      },
+      {
+        "c": "LS3-B06-004",
+        "d": "basic",
+        "p": "Nếu có một tài khoản người lạ trên mạng nhắn tin làm quen thân thiết, khen em học giỏi và rủ em giữ bí mật riêng không kể bố mẹ hoặc hẹn gặp ở ngoài đời, em phải làm gì?",
+        "o": [
+          "Lén đi gặp thử một lần cho biết",
+          "Đồng ý kết bạn thân và kể hết lịch đi học của mình cho người lạ",
+          "Gửi ảnh cá nhân của mình cho người lạ",
+          "Tuyệt đối KHÔNG nhắn tin tiếp, KHÔNG gặp gỡ và báo ngay cho bố mẹ hoặc thầy cô biết để xử lí chặn tài khoản đó"
+        ],
+        "k": "D",
+        "e": "Không bao giờ giữ bí mật riêng với người lạ trên mạng; bố mẹ luôn là người bảo vệ đáng tin cậy nhất của em!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Không kết bạn hay gặp người lạ qua mạng"
+      },
+      {
+        "c": "LS3-B06-005",
+        "d": "basic",
+        "p": "Thế nào là \"Ứng xử văn minh lịch sự khi bình luận hay nhắn tin trong nhóm học tập trực tuyến\"?",
+        "o": [
+          "Gọi video quấy rối bạn lúc nửa đêm",
+          "Viết tắt khó hiểu và dùng lời lẽ cộc lốc xúc phạm bạn",
+          "Gửi liên tiếp 50 hình nhãn dán làm trôi hết thông báo bài tập của cô giáo",
+          "Dùng từ ngữ lễ phép rõ ràng, có dấu tiếng Việt, tôn trọng thầy cô bạn bè và không viết chữ in hoa toàn bộ hay gửi biểu tượng chê bai thô lỗ"
+        ],
+        "k": "D",
+        "e": "Đằng sau mỗi màn hình là một con người thật có cảm xúc; hãy lịch sự trên mạng giống như khi gặp trực tiếp!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Văn minh giao tiếp trực tuyến"
+      },
+      {
+        "c": "LS3-B06-006",
+        "d": "basic",
+        "p": "Ngoài các quy tắc bảo mật an toàn, thời gian hợp lí nhất để học sinh lớp 3 sử dụng thiết bị điện tử ngoài giờ học online (nếu có) mỗi ngày là bao lâu và nên tắt máy lúc nào?",
+        "o": [
+          "Giải trí tối đa không quá 30 phút mỗi ngày có sự đồng ý của bố mẹ, và tắt mọi màn hình ít nhất 30–60 phút trước giờ đi ngủ tối",
+          "Không bao giờ chịu tắt máy nếu mẹ chưa giật khỏi tay",
+          "Vừa cắm sạc điện thoại vừa nằm trên đệm chơi game",
+          "Dùng thoải mái 5 tiếng mỗi ngày kể cả trên giường ngủ lúc 23 giờ"
+        ],
+        "k": "A",
+        "e": "Tắt màn hình trước giờ ngủ 1 tiếng giúp não bộ hết ánh sáng xanh, đi vào giấc ngủ sâu cực nhanh!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Giới hạn thời gian thiết bị thông minh"
+      },
+      {
+        "c": "LS3-B06-007",
+        "d": "application",
+        "p": "Bạn Minh 9 tuổi tự lập một tài khoản xem video và định lấy tên kèm mật khẩu là \"123456\" hoặc ngày sinh của mình cho dễ nhớ. Em khuyên Minh đặt mật khẩu an toàn hơn thế nào?",
+        "o": [
+          "Dùng luôn mật khẩu \"123456\" hoặc tên của chính mình",
+          "Viết mật khẩu dán lên cửa lớp cho cả lớp cùng dùng",
+          "Không cần cài mật khẩu gì cả",
+          "Nhờ bố mẹ đặt và giữ hộ mật khẩu mạnh kết hợp cả chữ hoa, chữ thường và số khó đoán (không dùng 123456 hay ngày sinh), và không tiết lộ cho bạn bè"
+        ],
+        "k": "D",
+        "e": "Mật khẩu quá đơn giản như \"123456\" dễ bị kẻ xấu đoán trúng trong 1 giây!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Đặt mật khẩu an toàn cùng bố mẹ"
+      },
+      {
+        "c": "LS3-B06-008",
+        "d": "application",
+        "p": "Khi tìm kiếm hình ảnh hoặc video cho bài thuyết trình \"Động vật hoang dã\" trên Internet, bạn An lỡ bấm nhầm vào một trang có hình ảnh bạo lực hoặc nội dung đáng sợ không phù hợp trẻ em. An cần xử lí thế nào ngay lập tức?",
+        "o": [
+          "Ngồi xem tiếp hết trang đó vì tò mò",
+          "Tắt ngay trang web đó (gập màn hình hoặc quay lại trang an toàn) và báo ngay cho bố mẹ biết để bố mẹ cài đặt bộ lọc an toàn trẻ em",
+          "Gửi đường link đáng sợ đó cho bạn thân xem cùng",
+          "Giấu kín không dám nói với bố mẹ rồi tối nằm mơ sợ hãi"
+        ],
+        "k": "B",
+        "e": "Đóng màn hình ngay và báo người lớn là phản xạ an toàn tuyệt vời khi gặp nội dung độc hại bất ngờ!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Xử lí khi gặp nội dung xấu bất ngờ"
+      },
+      {
+        "c": "LS3-B06-009",
+        "d": "application",
+        "p": "Khảo sát lớp 3D về 4 thói quen sử dụng thiết bị thông minh có người lớn đồng hành (biểu đồ dưới tính theo số bạn thực hiện tốt trên 30 bạn). Thói quen nào cả lớp làm tốt nhất và thói quen nào cần nhắc nhiều hơn?",
+        "o": [
+          "Không bấm link lạ thấp nhất",
+          "Cả 4 thói quen đều 28 bạn đạt",
+          "Dùng dưới 30 phút giải trí tốt nhất; Không bấm link lạ ít nhất",
+          "Không gửi ảnh/địa chỉ cho người lạ tốt nhất (28 bạn); Tắt màn hình trước ngủ 30 phút còn ít bạn đạt (14 bạn)"
+        ],
+        "k": "D",
+        "e": "28 bạn biết bảo vệ thông tin rất giỏi! Tuy nhiên mới 14 bạn tắt hẳn màn hình trước ngủ 30 phút – hãy bỏ thói quen xem ti-vi sát giờ ngủ nhé!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Đọc biểu đồ An toàn số lớp 3D",
+        "fig": {
+          "type": "bars",
+          "title": "Số bạn lớp 3D thực hiện tốt (/30 bạn)",
+          "labels": [
+            "Giữ bí mật",
+            "Tránh link lạ",
+            "Dưới 30p/ngày",
+            "Tắt trước ngủ"
+          ],
+          "series": [
+            {
+              "values": [
+                28,
+                25,
+                19,
+                14
+              ]
+            }
+          ],
+          "unit": "bạn"
+        }
+      },
+      {
+        "c": "LS3-B06-010",
+        "d": "application",
+        "p": "Trong nhóm chat lớp học do cô giáo quản lí, có một bạn buồn bực chuyện cá nhân nên nhắn một dòng chê bai ngoại hình bạn khác khiến mọi người xôn xao. Em nên làm gì trong nhóm đó?",
+        "o": [
+          "Lưu ảnh màn hình gửi đi khắp các lớp khác cho vui",
+          "Thả biểu tượng mặt cười thích thú dưới tin nhắn nói xấu",
+          "Nhắn tin chửi bới lại bạn kia thật nặng trong nhóm",
+          "Không hùa theo cười cợt hay chia sẻ tin nhắn đó; nhắn nhẹ nhắc bạn giữ lời nói đẹp trong nhóm chung và báo cô giáo chủ nhiệm giải quyết khéo léo"
+        ],
+        "k": "D",
+        "e": "\"Không chia sẻ, không hùa theo bắt nạt qua mạng\" – cắt đứt sự lan truyền chính là dập tắt bắt nạt trực tuyến!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Ngăn chặn bắt nạt qua mạng"
+      },
+      {
+        "c": "LS3-B06-011",
+        "d": "application",
+        "p": "Bạn Tí vừa mượn điện thoại của mẹ để làm bài tập trực tuyến thì thấy pin báo yếu 10% nên vừa cắm dây sạc điện thoại vào ổ điện tường vừa tiếp tục cầm máy chơi tiếp. Nguy hiểm chết người nào có thể xảy ra?",
+        "o": [
+          "Chỉ làm màu màn hình đẹp hơn",
+          "Máy sẽ tự đầy pin trong 10 giây",
+          "Nguy cơ cháy nổ pin hoặc rò điện giật cực kì nguy hiểm khi sử dụng thiết bị đang cắm sạc trực tiếp, nhất là với dây sạc kém chất lượng",
+          "Không có nguy hiểm gì, vừa sạc vừa dùng máy chạy nhanh hơn"
+        ],
+        "k": "C",
+        "e": "Tuyệt đối KHÔNG vừa cắm sạc vừa cầm điện thoại, máy tính bảng sử dụng – quy tắc sinh tồn thời đại số!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Không vừa cắm sạc vừa dùng điện thoại"
+      },
+      {
+        "c": "LS3-B06-012",
+        "d": "application",
+        "p": "Bố mẹ cài phần mềm kiểm soát an toàn trẻ em (giới hạn giờ tự khóa máy và lọc trang web xấu) trên máy tính bảng học tập của em. Em nên có thái độ thế nào?",
+        "o": [
+          "Tìm cách lén mở khóa hoặc giận dỗi khóc lóc đòi xóa bỏ phần mềm",
+          "Nói dối bố mẹ là cô giáo bắt dùng 4 tiếng giải trí",
+          "Lấy điện thoại khác của bà để xem trộm ban đêm",
+          "Vui vẻ hợp tác tôn trọng quy định của bố mẹ vì đó là hàng rào bảo vệ sức khỏe mắt, giấc ngủ và sự an toàn của chính mình trên mạng"
+        ],
+        "k": "D",
+        "e": "Đồng hành hợp tác cùng bố mẹ giúp em khai thác sức mạnh tuyệt vời của công nghệ mà không bị lệ thuộc!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Hợp tác quy tắc an toàn cùng bố mẹ"
+      },
+      {
+        "c": "LS3-B06-013",
+        "d": "advanced",
+        "p": "Nhiều bạn nghĩ: \"Nhắn tin trêu chọc trên mạng xong bấm nút Thu hồi/Xóa đi là không còn dấu vết gì nữa, chẳng ảnh hưởng đến ai\". Suy nghĩ đó sai lầm ở điểm nào?",
+        "o": [
+          "Đúng, trên mạng hoàn toàn không có ai lưu dữ liệu",
+          "Vì người nhận đã kịp đọc hoặc chụp lại ảnh màn hình gây tổn thương kéo dài; thông tin đã đưa lên mạng rất khó biến mất hoàn toàn (\"dấu chân số\")",
+          "Sai vì bấm nút xóa làm hỏng điện thoại ngay lập tức",
+          "Đúng, bấm xóa đi thì người đọc tự động quên sạch trí nhớ"
+        ],
+        "k": "B",
+        "e": "Mỗi lời bình luận, bức ảnh ta đăng lên mạng đều để lại \"Dấu chân số\" lâu dài; hãy luôn suy nghĩ kĩ trước khi bấm Gửi!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Hiểu về Dấu chân số trên Internet"
+      },
+      {
+        "c": "LS3-B06-014",
+        "d": "advanced",
+        "p": "Vì sao khi nghe một thông tin giật gân trên mạng (ví dụ: \"Ngày mai Mặt Trăng sẽ rơi xuống Trái Đất\" hay \"Uống nước chanh chữa khỏi bách bệnh\"), học sinh lớp 3 thông minh cần kiểm chứng trước khi tin và kể lại?",
+        "o": [
+          "Vì mọi thứ viết trên mạng Internet đều đúng sự thật 100%",
+          "Không cần kiểm chứng, cứ kể dọa bạn bè cho vui",
+          "Vì chỉ cần nhiều lượt thích (like) là chắc chắn đúng",
+          "Vì trên mạng có rất nhiều tin giả câu view sai sự thật; cần hỏi bố mẹ, thầy cô hoặc tra cứu nguồn chính thống uy tín trước khi tin"
+        ],
+        "k": "D",
+        "e": "Tư duy kiểm chứng nguồn tin uy tín giúp em không bị tin giả dắt mũi hay gieo rắc hoang mang!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Kĩ năng nhận diện tin giả trên mạng"
+      },
+      {
+        "c": "LS3-B06-015",
+        "d": "advanced",
+        "p": "Công thức \"3H\" để làm chủ thế giới số an toàn cho học sinh lớp 3 gồm: Hỏi (bố mẹ trước khi bấm tải/kết bạn) – Học (ưu tiên dùng thiết bị cho học tập sáng tạo) – Hẹn giờ (dừng đúng thời lượng). Theo em công thức này thiếu bước nào cho thật hoàn chỉnh hay đã đủ lõi?",
+        "o": [
+          "Đã rất chặt chẽ gồm đủ: Bảo vệ an toàn (Hỏi) – Định hướng mục đích tốt (Học) – Tự chủ thời gian bảo vệ sức khỏe (Hẹn giờ)",
+          "Thiếu bước \"Đăng mật khẩu lên mạng\"",
+          "Thiếu bước \"Chơi game suốt đêm\"",
+          "Thiếu bước \"Chia sẻ địa chỉ nhà cho người lạ\""
+        ],
+        "k": "A",
+        "e": "Hỏi – Học – Hẹn giờ: 3 chữ H biến em thành Công dân số nhí thông thái bản lĩnh!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Công thức 3H Công dân số nhí"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong3-c3",
+    "lesson": {
+      "code": "lssong3-b07",
+      "title": "Bài 7. Lối sống Xanh: Giảm Nhựa dùng một lần và Trồng Cây xanh",
+      "seq": 7,
+      "subtitle": "Thực hành giảm thiểu đồ nhựa dùng một lần (ống hút, hộp xốp, túi ni-lông), tái chế sáng tạo và biết cách trồng, chăm sóc cây xanh",
+      "concepts": [
+        "Lối sống xanh",
+        "Giảm rác nhựa",
+        "Trồng và chăm cây"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS3-B07-001",
+        "d": "basic",
+        "p": "Những sản phẩm nào dưới đây là \"Đồ nhựa dùng một lần\" gây ô nhiễm môi trường nặng nề nhất mà học sinh lớp 3 cần hạn chế sử dụng?",
+        "o": [
+          "Túi vải đi chợ giặt sạch dùng lại hàng trăm lần",
+          "Bình nước inox giữ nhiệt dùng suốt nhiều năm",
+          "Hộp cơm thủy tinh rửa sạch dùng lại hàng ngày",
+          "Ống hút nhựa, cốc nhựa mỏng, thìa dĩa nhựa dùng xong vứt ngay, hộp xốp đựng đồ ăn và túi ni-lông mỏng"
+        ],
+        "k": "D",
+        "e": "Thay đồ nhựa dùng một lần bằng vật dụng bền dùng nhiều lần là bước khởi đầu mạnh mẽ của Lối sống Xanh!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Nhận diện đồ nhựa dùng một lần",
+        "fig": {
+          "type": "table",
+          "title": "Thay thế Xanh Thông minh",
+          "head": [
+            "Đồ nhựa 1 lần",
+            "Vật thay thế xanh"
+          ],
+          "rows": [
+            [
+              "Túi ni-lông mỏng",
+              "Túi vải, giỏ mây"
+            ],
+            [
+              "Chai nước nhựa",
+              "Bình giữ nhiệt"
+            ],
+            [
+              "Ống hút nhựa",
+              "Ống tre, uống cốc"
+            ],
+            [
+              "Hộp xốp ăn sáng",
+              "Cặp lồng, hộp kính"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS3-B07-002",
+        "d": "basic",
+        "p": "Vì sao các thành phố hiện đại đều khuyến khích không đốt rác thải nhựa và túi ni-lông tại sân vườn gia đình?",
+        "o": [
+          "Vì khi đốt nhựa sẽ sinh ra khói đen và khí độc cực hại cho phổi người hít phải, đồng thời gây ô nhiễm không khí nặng nề",
+          "Vì khói nhựa thơm quá làm mọi người buồn ngủ",
+          "Vì đốt rác nhựa làm cỏ mọc cao quá nhanh",
+          "Vì đốt túi ni-lông sẽ biến thành vàng"
+        ],
+        "k": "A",
+        "e": "Tuyệt đối không đốt rác thải nhựa hay cao su; hãy thu gom phân loại đúng quy trình để tái chế an toàn!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Tác hại đốt rác thải nhựa"
+      },
+      {
+        "c": "LS3-B07-003",
+        "d": "basic",
+        "p": "Khi trồng và chăm sóc một chậu cây xanh ở ban công hay góc thiên nhiên của lớp, hai thời điểm tưới nước TỐT NHẤT trong ngày để cây tươi khỏe không bị héo sốc nhiệt là lúc nào?",
+        "o": [
+          "Đổ cả chai nước ngọt có ga vào chậu cây",
+          "Tưới nước sôi nóng 100 độ vào gốc cây",
+          "Vào lúc 12 giờ trưa nắng chói chang gay gắt nhất",
+          "Vào buổi sáng sớm hoặc chiều mát khi ánh nắng dịu nhẹ"
+        ],
+        "k": "D",
+        "e": "Tưới nước vào sáng sớm hoặc chiều mát giúp rễ cây hấp thụ nước tốt nhất mà không bị bốc hơi nóng làm cháy lá!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Thời điểm tưới cây chuẩn"
+      },
+      {
+        "c": "LS3-B07-004",
+        "d": "basic",
+        "p": "Để biến một chiếc chai nhựa rỗng sạch thành vật dụng hữu ích tại góc học tập thay vì vứt đi, em có thể tái chế sáng tạo thành gì?",
+        "o": [
+          "Đốt chảy nhựa nghịch lửa trong phòng ngủ",
+          "Cắt gọn mài nhẵn mép làm ống cắm bút xinh xắn, chậu trồng cây nhỏ hoặc bình tưới cây mini đục lỗ nhỏ trên nắp",
+          "Đem ném xuống dòng sông gần nhà làm thuyền",
+          "Chôn sâu xuống hố cát sân trường"
+        ],
+        "k": "B",
+        "e": "Tái chế sáng tạo (Upcycling) giúp đồ cũ có vòng đời mới thật đẹp và tiết kiệm tiền mua sắm!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Ý tưởng tái chế chai nhựa sáng tạo"
+      },
+      {
+        "c": "LS3-B07-005",
+        "d": "basic",
+        "p": "Ngoài việc làm đẹp cảnh quan và cho bóng mát, cây xanh xung quanh trường học và nhà ở mang lại lợi ích sống còn nào cho bầu không khí?",
+        "o": [
+          "Hút hết sạch khí ô-xi làm mọi người khó thở",
+          "Làm nhiệt độ sân trường nóng hơn gấp đôi",
+          "Hấp thụ khí các-bô-níc, lọc giữ bụi mịn và thải ra khí ô-xi trong lành giúp con người hít thở khỏe mạnh",
+          "Thải ra khói bụi làm trời tối sầm lại"
+        ],
+        "k": "C",
+        "e": "Cây xanh là \"lá phổi xanh\" miễn phí làm mát không khí mùa hè và bảo vệ lá phổi của chúng ta!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Vai trò lá phổi của cây xanh"
+      },
+      {
+        "c": "LS3-B07-006",
+        "d": "basic",
+        "p": "Khi thấy có người bẻ cành cây non mới trồng ngoài công viên hoặc xả rác xuống hồ nước, thái độ công dân nhí xanh của em là gì?",
+        "o": [
+          "Nhắc nhở nhẹ nhàng lịch sự (hoặc báo bác bảo vệ công viên) để mọi người cùng ý thức bảo vệ cây chung và không bắt chước hành vi xấu đó",
+          "Cùng chạy tới bẻ thêm vài cành hoa cho đẹp phòng mình",
+          "Giẫm đạp lên thảm cỏ có biển \"Không dẫm lên cỏ\"",
+          "Đứng cổ vũ vỗ tay khen bạn khỏe"
+        ],
+        "k": "A",
+        "e": "Bảo vệ một mầm cây non ở công viên chính là góp phần giữ lá phổi chung cho cả thành phố!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Bảo vệ cây xanh công cộng"
+      },
+      {
+        "c": "LS3-B07-007",
+        "d": "application",
+        "p": "Sáng nay đi mua xôi ăn sáng gần nhà mang về ăn, cô bán hàng chuẩn bị cho em một hộp xốp trắng kèm thìa nhựa và 2 lớp túi ni-lông. Nếu có chuẩn bị từ nhà, em làm thế nào để hạn chế tối đa rác nhựa?",
+        "o": [
+          "Mua xôi xong đứng tại chỗ đổ xôi ra tay không",
+          "Mang sẵn hộp inox hoặc cặp lồng sạch từ nhà nhờ cô đựng xôi nóng – vừa không rác nhựa vừa an toàn sức khỏe!",
+          "Vứt luôn hộp xốp ngay trước cửa quán",
+          "Lấy thêm 3 chiếc túi ni-lông nữa bọc cho chắc"
+        ],
+        "k": "B",
+        "e": "Hộp xốp gặp đồ ăn nóng rất dễ thôi nhiễm chất độc hại; mang hộp riêng từ nhà vừa xanh vừa cực kì an toàn sức khỏe!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Mang hộp riêng khi mua đồ ăn nóng"
+      },
+      {
+        "c": "LS3-B07-008",
+        "d": "application",
+        "p": "Góc thiên nhiên lớp 3B trồng 4 chậu cây trầu bà và sen đá. Gần đây bạn trực nhật thấy lá cây sen đá bị mềm nhũn thối gốc dù hôm nào bạn cũng tưới đẫm nước 2 lần sáng chiều. Nguyên nhân sai ở đâu?",
+        "o": [
+          "Do tưới quá nhiều nước gây úng thối rễ! Sen đá là cây mọng nước chịu hạn chỉ cần tưới lượng ít vài ngày 1 lần khi đất thật khô",
+          "Do để cây ngoài ánh sáng nhẹ",
+          "Do không tưới nước ngọt vào gốc",
+          "Do tưới thiếu nước nên phải tưới gấp 5 lần mỗi ngày"
+        ],
+        "k": "A",
+        "e": "Mỗi loại cây có nhu cầu nước khác nhau: tìm hiểu đặc tính cây trước khi chăm sóc giúp góc xanh luôn khỏe mạnh!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Chăm sóc đúng đặc tính từng loại cây"
+      },
+      {
+        "c": "LS3-B07-009",
+        "d": "application",
+        "p": "Hưởng ứng tháng \"Trường học Không Rác Nhựa\", 4 lớp khối 3 thống kê số chiếc vỏ chai nhựa đã giảm được trong 1 tháng nhờ mang bình nước cá nhân (biểu đồ dưới). Tổng số chai nhựa cả khối 3 đã cứu môi trường không phải thải ra trong tháng đó là bao nhiêu?",
+        "o": [
+          "400 chai",
+          "450 chai",
+          "420 chai (110 + 120 + 90 + 100 = 420 chai)",
+          "380 chai"
+        ],
+        "k": "C",
+        "e": "110 + 120 + 90 + 100 = 420 chai nhựa chỉ trong 1 tháng ở một khối lớp! Sức mạnh của thói quen nhỏ thật phi thường!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Đọc biểu đồ giảm rác thải nhựa",
+        "fig": {
+          "type": "bars",
+          "title": "Số chai nhựa giảm được trong tháng (chai)",
+          "labels": [
+            "Lớp 3A",
+            "Lớp 3B",
+            "Lớp 3C",
+            "Lớp 3D"
+          ],
+          "series": [
+            {
+              "values": [
+                110,
+                120,
+                90,
+                100
+              ]
+            }
+          ],
+          "unit": "chai"
+        }
+      },
+      {
+        "c": "LS3-B07-010",
+        "d": "application",
+        "p": "Khi mẹ mua cho một cốc sinh tố trái cây uống tại quán (ngồi bàn tại chỗ chứ không mang đi xa), lựa chọn nào giúp giảm rác thải nhựa mà vẫn thưởng thức ngon lành?",
+        "o": [
+          "Nhờ quán rót vào cốc thủy tinh rửa sạch dùng tại chỗ và uống trực tiếp (hoặc dùng ống hút tre/giấy dùng lại) thay vì cốc nhựa nắp cầu ống hút nhựa",
+          "Uống xong ném cốc nhựa xuống gầm bàn quán",
+          "Xin thêm 3 cái ống hút nhựa để dự phòng",
+          "Xin quán bọc thêm vào túi ni-lông chữ T rồi cầm cốc nhựa uống tại bàn"
+        ],
+        "k": "A",
+        "e": "\"Ngồi tại quán ưu tiên cốc thủy tinh – mang về ưu tiên bình cá nhân!\" là khẩu hiệu sống xanh siêu chất!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Lựa chọn xanh khi uống tại quán"
+      },
+      {
+        "c": "LS3-B07-011",
+        "d": "application",
+        "p": "Để chăm sóc chậu hoa hồng nhỏ ở nhà ra nhiều hoa mà KHÔNG dùng phân hóa học nặng mùi, em có thể tận dụng loại rác hữu cơ nào từ nhà bếp cùng bố ủ làm phân xanh?",
+        "o": [
+          "Pin cũ, mảnh nilon cắt vụn và vỏ lon bia",
+          "Vỏ chuối cắt nhỏ, vỏ trứng rửa sạch bóp vụn, bã trà/bã cà phê khô trộn nhẹ vào đất chậu hoa",
+          "Dầu ăn chiên cá thừa đổ thẳng vào gốc",
+          "Nước rửa bát xà phòng đặc"
+        ],
+        "k": "B",
+        "e": "Vỏ chuối giàu kali và vỏ trứng giàu can-xi là \"siêu thức ăn hữu cơ\" hoàn toàn miễn phí cho cây hoa!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Biến rác bếp hữu cơ thành phân bón"
+      },
+      {
+        "c": "LS3-B07-012",
+        "d": "application",
+        "p": "Lớp em chuẩn bị nhận 10 bộ đồng phục mới hoặc 10 hộp quà thưởng được gói bằng túi ni-lông và rất nhiều băng dính nhựa. Có bạn đề xuất bọc thêm 3 lớp giấy bóng kính ngoài cho đẹp. Em góp ý thế nào cho thân thiện môi trường?",
+        "o": [
+          "Mua thêm thật nhiều dây kim tuyến nhựa và xốp hạt",
+          "Không tặng quà nữa",
+          "Gợi ý bọc bằng giấy báo cũ trang trí vẽ tay hoặc túi giấy tái chế thắt dây cói mộc mạc – vừa độc đáo nghệ thuật vừa giảm tối đa rác nhựa bọc ngoài!",
+          "Bọc 5 lớp túi ni-lông màu cho hoành tráng"
+        ],
+        "k": "C",
+        "e": "Gói quà bằng giấy báo thủ công hay túi giấy tái chế cực kì đẹp mắt và thể hiện gu thẩm mĩ xanh hiện đại!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Gói quà xanh không rác nhựa"
+      },
+      {
+        "c": "LS3-B07-013",
+        "d": "advanced",
+        "p": "Hiện nay các nhà khoa học cảnh báo về \"Hạt vi nhựa\" (những mảnh nhựa siêu nhỏ li ti mắt thường khó thấy). Vì sao việc vứt chai nhựa túi ni-lông ra sông biển lại có thể khiến vi nhựa quay ngược vào chính bữa ăn của con người?",
+        "o": [
+          "Vì chai nhựa ngoài sông biển bị nắng sóng làm vỡ vụn thành hàng tỉ hạt vi nhựa; cá tôm ăn nhầm rồi con người lại ăn cá tôm đó",
+          "Vì hạt vi nhựa tự bay lên từ nước lọc tinh khiết đun sôi",
+          "Vì con người thích băm nhỏ chai nhựa rắc lên cơm",
+          "Vì muối biển tự biến thành nhựa"
+        ],
+        "k": "A",
+        "e": "Bảo vệ sông biển sạch nhựa chính là bảo vệ nguồn hải sản an toàn trên chính mâm cơm của chúng ta!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Chuỗi tác hại của hạt vi nhựa"
+      },
+      {
+        "c": "LS3-B07-014",
+        "d": "advanced",
+        "p": "Tại sao nói: \"Tái sử dụng (dùng lại đồ nhiều lần) tốt hơn cả Tái chế (đem nghiền đun chế lại thành đồ mới)\" trong thứ bậc bảo vệ môi trường?",
+        "o": [
+          "Sai, dùng lại đồ cũ luôn gây bệnh",
+          "Hai việc giống nhau hoàn toàn",
+          "Sai, tái chế tốt hơn vì nhà máy chạy không tốn điện",
+          "Vì tái chế vẫn cần tốn thêm điện, nước, máy móc và vận chuyển để nấu lại nhựa giấy; còn dùng lại ngay món đồ sẵn có gần như không tốn thêm tài nguyên nào"
+        ],
+        "k": "D",
+        "e": "Thứ tự ưu tiên xanh chuẩn thế giới: Từ chối đồ thừa -> Tiết giảm -> Tái sử dụng -> rồi mới đến Tái chế!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Thứ tự ưu tiên trong Lối sống Xanh"
+      },
+      {
+        "c": "LS3-B07-015",
+        "d": "advanced",
+        "p": "Nếu lớp em muốn thực hiện một dự án nhỏ suốt cả học kì 2 mang tên \"Một mét vuông Xanh của Tổ em\", cách làm nào vừa bền vững vừa gắn kết mọi thành viên nhất?",
+        "o": [
+          "Mua 50 chậu cây to rồi bỏ mặc héo úa sau 1 tuần",
+          "Mỗi tuần các bạn thay phiên ghi nhật kí chăm tưới 3 chậu cây của tổ bằng nước thừa sạch cuối ngày học và dùng lọ nhựa cũ tự trang trí chậu cây",
+          "Mua cây nhựa giả bằng vải ni-lông đặt cho khỏi cần tưới",
+          "Chỉ để 1 bạn làm hết cả học kì còn các bạn khác đứng nhìn"
+        ],
+        "k": "B",
+        "e": "Chăm sóc đều đặn một góc xanh nhỏ bằng tình yêu mỗi ngày dạy em sự kiên nhẫn và trách nhiệm với thiên nhiên!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Dự án Một mét vuông Xanh bền vững"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong3-c3",
+    "lesson": {
+      "code": "lssong3-b08",
+      "title": "Bài 8. Dinh dưỡng Lành mạnh, Vận động và Phòng bệnh Theo mùa",
+      "seq": 8,
+      "subtitle": "Hiểu tháp dinh dưỡng cơ bản cho trẻ lớp 3, rèn thói quen vận động mỗi ngày và chủ động phòng chống dịch bệnh theo mùa",
+      "concepts": [
+        "Dinh dưỡng cân đối",
+        "Vận động 60 phút/ngày",
+        "Phòng bệnh theo mùa"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS3-B08-001",
+        "d": "basic",
+        "p": "Bốn nhóm chất dinh dưỡng thiết yếu cần có đủ trong bữa ăn hàng ngày để học sinh lớp 3 phát triển khỏe mạnh cả trí não và chiều cao là gì?",
+        "o": [
+          "Chất bột đường (cơm, bún, khoai) – Chất đạm (thịt, cá, trứng, đậu) – Chất béo lành mạnh – Vitamin và chất khoáng (rau xanh, quả chín)",
+          "Chỉ cần ăn cơm trắng chan nước mắm và bim bim",
+          "Chỉ cần uống nước lọc không cần ăn cơm rau",
+          "Chỉ cần ăn kẹo ngọt, gà rán và uống trà sữa"
+        ],
+        "k": "A",
+        "e": "Ăn cân đối đủ 4 nhóm thực phẩm tự nhiên giúp cơ thể dẻo dai, mắt sáng và sức đề kháng mạnh mẽ!",
+        "s": "Giáo dục lối sống 3",
+        "h": "4 nhóm chất dinh dưỡng vàng",
+        "fig": {
+          "type": "table",
+          "title": "Sức khỏe Toàn diện Lớp 3",
+          "head": [
+            "Trụ cột",
+            "Khuyến nghị"
+          ],
+          "rows": [
+            [
+              "Bữa ăn 4 nhóm",
+              "Đủ rau, cá, cơm, quả"
+            ],
+            [
+              "Hạn chế đồ hại",
+              "Giảm ngọt, chiên rán"
+            ],
+            [
+              "Vận động thể thao",
+              "45 - 60 phút/ngày"
+            ],
+            [
+              "Phòng dịch mùa",
+              "Rửa tay, khẩu trang"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS3-B08-002",
+        "d": "basic",
+        "p": "Vì sao bữa ăn SÁNG trước khi đi học lại được bác sĩ gọi là \"Bữa ăn quan trọng nhất trong ngày\" đối với học sinh tiểu học?",
+        "o": [
+          "Vì ăn sáng xong thì cả ngày không cần ăn trưa nữa",
+          "Vì sau một đêm ngủ dài 9–10 tiếng, cơ thể đã cạn năng lượng; ăn sáng đủ chất cung cấp đường và dinh dưỡng cho não tập trung học tốt suốt buổi sáng",
+          "Vì nếu không ăn sáng thì cặp sách nặng hơn",
+          "Vì buổi sáng cơm ngon hơn buổi tối"
+        ],
+        "k": "B",
+        "e": "Nhịn ăn sáng khiến đường huyết tụt giảm, dễ hoa mắt chóng mặt và mất tập trung ngay trong tiết học đầu tiên!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Tầm quan trọng của bữa sáng"
+      },
+      {
+        "c": "LS3-B08-003",
+        "d": "basic",
+        "p": "Để cơ thể khỏe khoắn, dẻo dai và tăng chiều cao vượt trội ở tuổi lớp 3, mỗi ngày em nên vận động thể lực vừa và mạnh ít nhất khoảng bao lâu?",
+        "o": [
+          "Chỉ cần ngồi im một chỗ cả ngày không chạy nhảy gì",
+          "Chỉ tập thể dục 1 lần mỗi tháng",
+          "Vận động liên tục 6 tiếng mỗi ngày không nghỉ ăn cơm",
+          "Khoảng 45 đến 60 phút mỗi ngày (chơi đá bóng, nhảy dây, chạy bộ, bơi lội, đạp xe hoặc tập thể dục)"
+        ],
+        "k": "D",
+        "e": "Tổ chức Y tế Thế giới (WHO) khuyến nghị trẻ em vận động tích cực khoảng 60 phút mỗi ngày!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Khuyến nghị vận động mỗi ngày"
+      },
+      {
+        "c": "LS3-B08-004",
+        "d": "basic",
+        "p": "Khi thời tiết chuyển mùa (từ nóng sang lạnh gió mùa hoặc mưa ẩm kéo dài), em cần làm gì để phòng tránh bệnh cảm cúm và viêm họng?",
+        "o": [
+          "Giữ ấm vùng cổ, ngực và bàn chân; không uống nước đá quá lạnh; rửa tay sạch và đeo khẩu trang khi đến nơi đông người hoặc lúc đang ho hắt hơi",
+          "Uống thật nhiều nước đá lạnh giữa trời rét cho quen",
+          "Hắt xì hơi thẳng vào mặt bạn không cần che miệng",
+          "Mặc áo cộc tay chạy dầm mưa lạnh"
+        ],
+        "k": "A",
+        "e": "Giữ ấm cổ ngực bàn chân và che miệng khi ho hắt hơi cắt đứt đường lây truyền virus cảm cúm!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Phòng cảm cúm khi giao mùa"
+      },
+      {
+        "c": "LS3-B08-005",
+        "d": "basic",
+        "p": "Vào mùa mưa nhiều muỗi, bệnh nguy hiểm nào dễ bùng phát thành dịch và cách phòng chống tại gia đình hiệu quả nhất là gì?",
+        "o": [
+          "Để nước đọng lâu ngày trong lốp xe cũ ngoài sân",
+          "Bệnh gãy xương tay; phòng bằng cách mở toang bể nước",
+          "Không cần ngủ màn vì muỗi vằn chỉ đốt ban đêm tối om",
+          "Bệnh Sốt xuất huyết; phòng chống bằng cách đậy kín chum vại nước, lật úp vật đọng nước không cho muỗi đẻ loăng quăng, mặc áo dài tay và ngủ màn (kể cả ban ngày)"
+        ],
+        "k": "D",
+        "e": "Muỗi vằn truyền sốt xuất huyết thường đốt vào ban ngày (sáng sớm, chiều tối)! Luôn dọn nước đọng và ngủ màn!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Phòng chống sốt xuất huyết"
+      },
+      {
+        "c": "LS3-B08-006",
+        "d": "basic",
+        "p": "Khi thấy trong lớp hoặc ở nhà mình có dấu hiệu sốt cao, đau họng, mệt mỏi hay nổi nốt phát ban, việc làm đúng đắn nhất để tự bảo vệ và không lây bệnh cho bạn là gì?",
+        "o": [
+          "Báo ngay bố mẹ và thầy cô để đi khám bác sĩ, nghỉ ngơi ở nhà uống nhiều nước cho tới khi khỏi hẳn theo lời dặn bác sĩ (và đeo khẩu trang nếu tiếp xúc)",
+          "Tự ý lấy thuốc kháng sinh của người lớn uống bừa",
+          "Chơi đá bóng dưới nắng cho ra mồ hôi",
+          "Giấu kín bệnh vẫn cố chạy tới lớp ôm hôn trêu đùa các bạn"
+        ],
+        "k": "A",
+        "e": "Nghỉ ngơi khi ốm và đeo khẩu trang là hành động vừa giúp bản thân nhanh khỏi vừa bảo vệ sức khỏe cả lớp!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Ứng xử khi bản thân có dấu hiệu ốm"
+      },
+      {
+        "c": "LS3-B08-007",
+        "d": "application",
+        "p": "Sáng nay dậy hơi muộn chỉ còn 15 phút là xe buýt trường tới, bạn Nam định nhịn hẳn bữa sáng cho kịp rồi mang theo 1 gói kẹo mút lên xe ăn tạm. Em khuyên Nam giải pháp dinh dưỡng nhanh mà đủ chất hơn thế nào?",
+        "o": [
+          "Bỏ học ở nhà luôn",
+          "Chuẩn bị nhanh 1 hộp sữa tươi kèm quả chuối hoặc bánh mì trứng ăn gọn 5 phút vẫn đủ chất hơn nhịn đói hay ăn kẹo",
+          "Bảo Nam ăn 5 cây kẹo mút thay cơm",
+          "Ủng hộ Nam nhịn đói hoàn toàn tới tận 11 giờ trưa"
+        ],
+        "k": "B",
+        "e": "Bữa sáng nhanh gọn (bánh mì trứng, xôi nhỏ, sữa và chuối) tốt gấp trăm lần kẹo mút nhiều đường rỗng!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Giải pháp bữa sáng nhanh đủ chất"
+      },
+      {
+        "c": "LS3-B08-008",
+        "d": "application",
+        "p": "Bạn Lan rất sợ tăng cân nên quyết định cắt bỏ hoàn toàn cơm và mọi chất béo (dầu thực vật, cá hồi, lạc vừng) ra khỏi bữa ăn, chỉ ăn mỗi rau luộc suốt tuần. Điều gì sẽ xảy ra với cơ thể Lan?",
+        "o": [
+          "Giúp Lan chạy thi vô địch toàn trường ngay",
+          "Hoàn toàn tốt vì trẻ em lớp 3 không cần tinh bột và chất béo",
+          "Lan sẽ thông minh và cao vọt lên gấp đôi chỉ sau 1 tuần",
+          "Lan sẽ bị thiếu năng lượng mệt mỏi, không hấp thu được các vitamin tan trong dầu (A, D, E, K), suy giảm trí nhớ và ảnh hưởng phát triển chiều cao trí tuệ"
+        ],
+        "k": "D",
+        "e": "Chất béo lành mạnh (dầu cá, lạc vừng, bơ, dầu ô-liu) rất cần cho màng tế bào não và hấp thu vitamin D giúp cao lớn!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Không cắt bỏ cực đoan tinh bột và chất béo"
+      },
+      {
+        "c": "LS3-B08-009",
+        "d": "application",
+        "p": "Thầy thể dục khảo sát hoạt động yêu thích giờ ngoại khóa buổi chiều của 40 bạn lớp 3A (biểu đồ dưới). Có tổng cộng bao nhiêu bạn đã chọn các môn vận động thể thao tích cực thay vì ngồi xem màn hình tại nhà?",
+        "o": [
+          "40 bạn",
+          "24 bạn",
+          "31 bạn (Đá bóng 14 + Nhảy dây cầu lông 10 + Bơi đạp xe 7 = 31 bạn)",
+          "20 bạn"
+        ],
+        "k": "C",
+        "e": "31 trên 40 bạn lớp 3A chọn vận động thể thao ngoài trời! Hãy rủ thêm 9 bạn còn lại cùng xuống sân chơi vận động nhé.",
+        "s": "Giáo dục lối sống 3",
+        "h": "Đọc biểu đồ lựa chọn vận động",
+        "fig": {
+          "type": "bars",
+          "title": "Hoạt động buổi chiều lớp 3A (/40 bạn)",
+          "labels": [
+            "Đá bóng",
+            "Cầu lông, dây",
+            "Bơi, đạp xe",
+            "Xem màn hình"
+          ],
+          "series": [
+            {
+              "values": [
+                14,
+                10,
+                7,
+                9
+              ]
+            }
+          ],
+          "unit": "bạn"
+        }
+      },
+      {
+        "c": "LS3-B08-010",
+        "d": "application",
+        "p": "Ở nhà có một lọ hoa tươi cắm nước đặt trên bàn phòng khách để quên suốt 2 tuần không thay nước. Em phát hiện thấy trong bình nước có những con nhỏ li ti ngoe nguẩy (loăng quăng/bọ gậy). Em xử lí ngay thế nào?",
+        "o": [
+          "Đổ bỏ ngay nước bình hoa đó ra chỗ khô thoáng (hoặc tưới đất khô cho chết bọ gậy), cọ rửa sạch lọ bằng xà phòng rồi mới thay nước mới sạch",
+          "Để nguyên như thế trong phòng ngủ",
+          "Đổ thêm nước ngọt vào bình hoa cho muỗi uống",
+          "Đậy nắp kín nuôi bọ gậy xem chúng biến thành con gì"
+        ],
+        "k": "A",
+        "e": "Loại bỏ bọ gậy ngay từ trong bình hoa, khay nước tủ lạnh, chậu cây là diệt sạch muỗi truyền bệnh sốt xuất huyết tận gốc!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Diệt bọ gậy trong bình hoa, khay nước"
+      },
+      {
+        "c": "LS3-B08-011",
+        "d": "application",
+        "p": "Vào những hôm chất lượng không khí ngoài trời báo ô nhiễm bụi mịn cao (hoặc khi phải đi qua đoạn đường nhiều bụi công trình), biện pháp bảo vệ đường hô hấp thiết thực nhất cho học sinh lớp 3 là gì?",
+        "o": [
+          "Chạy bộ hít thở thật mạnh càng sâu càng tốt ngay cạnh công trình bụi",
+          "Uống nước lã cho trôi bụi",
+          "Đeo khẩu trang y tế/vải dày vừa khít che kín cả mũi và miệng khi ra đường, về nhà rửa tay và nhỏ rửa mũi bằng nước muối sinh lí ấm nhẹ",
+          "Tháo khẩu trang vứt đi vì vướng"
+        ],
+        "k": "C",
+        "e": "Đeo khẩu trang che kín mũi miệng kết hợp vệ sinh mũi họng nước muối sinh lí bảo vệ lá phổi trước bụi mịn!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Bảo vệ hô hấp khi không khí bụi"
+      },
+      {
+        "c": "LS3-B08-012",
+        "d": "application",
+        "p": "Tới lịch trường hoặc trạm y tế phường tổ chức tiêm vắc-xin phòng bệnh định kì cho trẻ em. Một bạn trong lớp sợ đau kim tiêm nên định trốn không đi tiêm. Em động viên bạn thế nào?",
+        "o": [
+          "Hùa theo sợ hãi trốn học cùng bạn luôn",
+          "Bảo trẻ con không cần tiêm vắc-xin bao giờ",
+          "Giải thích cho bạn biết mũi tiêm chỉ nhói nhẹ như kiến cắn 2 giây nhưng tạo ra \"đội quân kháng thể\" bảo vệ cơ thể suốt nhiều năm không mắc bệnh nguy hiểm!",
+          "Dọa bạn kim tiêm to dài lắm để bạn khóc to hơn"
+        ],
+        "k": "C",
+        "e": "Vắc-xin là lá chắn kì diệu của y học hiện đại bảo vệ trẻ em khỏi hàng chục căn bệnh hiểm nghèo!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Hiểu ý nghĩa của tiêm vắc-xin"
+      },
+      {
+        "c": "LS3-B08-013",
+        "d": "advanced",
+        "p": "Nhiều bạn nhỏ chỉ thích uống nước ngọt đóng chai có đường nhiều thay cho nước lọc và ăn rất nhiều đồ chiên rán. Thói quen này kéo dài từ tuổi tiểu học gây nguy cơ sức khỏe gì khi lớn lên?",
+        "o": [
+          "Gây thừa cân béo phì, sâu răng nặng, gan nhiễm mỡ sớm và tăng nguy cơ mắc bệnh tiểu đường, tim mạch về sau",
+          "Không ảnh hưởng gì vì trẻ con tiêu hóa hết",
+          "Giúp xương chắc khỏe hơn uống sữa tươi",
+          "Giúp cơ bắp săn chắc thành vận động viên"
+        ],
+        "k": "A",
+        "e": "Đọc nhãn dinh dưỡng ít đường – ít muối – ít dầu chiên lại từ lớp 3 giúp xây dựng cơ thể khỏe mạnh suốt đời!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Phòng ngừa béo phì và bệnh chuyển hóa"
+      },
+      {
+        "c": "LS3-B08-014",
+        "d": "advanced",
+        "p": "Tại sao nói \"Thể dục thể thao buổi sáng và chiều ngoài nắng dịu\" còn giúp hệ xương của học sinh lớp 3 phát triển cao lớn hơn hẳn việc chỉ uống sữa mà ngồi lì trong nhà?",
+        "o": [
+          "Vì uống sữa trong nhà làm sữa bị hỏng",
+          "Vì ngồi trong nhà chân bị co ngắn lại ngay",
+          "Vì ánh nắng mặt trời làm cơ thể phình to ra như quả bóng",
+          "Vì nắng nhẹ sáng sớm/chiều muộn giúp da tổng hợp Vitamin D hấp thu Can-xi vào xương, đồng thời vận động chạy nhảy kích thích sụn xương dài ra tối đa!"
+        ],
+        "k": "D",
+        "e": "Bộ ba Vàng tăng chiều cao: Dinh dưỡng giàu Can-xi (sữa, cá, rau xanh) + Nắng dịu tổng hợp Vitamin D + Vận động kéo giãn (bơi, nhảy dây, bóng rổ) + Ngủ sớm 21g!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Bộ ba Vàng phát triển chiều cao"
+      },
+      {
+        "c": "LS3-B08-015",
+        "d": "advanced",
+        "p": "Trong bữa cơm cân đối theo mô hình \"Đĩa thức ăn lành mạnh\" (Healthy Plate), tỉ lệ phần lớn nhất (khoảng một nửa chiếc đĩa) nên dành cho nhóm thực phẩm nào?",
+        "o": [
+          "Toàn bộ 100% chiếc đĩa chỉ là thịt rán và xúc xích",
+          "Một nửa chiếc đĩa là bánh kẹo ngọt",
+          "Toàn bộ đĩa là nước chấm mặn",
+          "Nhóm RAU XANH ĐA DẠNG VÀ TRÁI CÂY TƯƠI (1/2 đĩa), 1/4 đĩa cho Tinh bột nguyên cám/cơm và 1/4 đĩa cho Đạm (cá, thịt, trứng, đậu)"
+        ],
+        "k": "D",
+        "e": "Một nửa đĩa là rau củ quả tươi nhiều màu sắc tự nhiên là bí quyết sống khỏe nổi tiếng toàn thế giới!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Mô hình Đĩa thức ăn lành mạnh"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong3-c3",
+    "lesson": {
+      "code": "lssong3-b09",
+      "title": "Bài 9. Kiểm soát Cảm xúc Tiêu cực và Giải quyết Bất đồng Hòa bình",
+      "seq": 9,
+      "subtitle": "Biết nhận diện cảm xúc buồn, ghen tị, nóng giận; thực hành các kĩ thuật hạ nhiệt tâm lí và giải quyết xích mích bạn bè không dùng bạo lực",
+      "concepts": [
+        "Quản lí cảm xúc tiêu cực",
+        "Giải quyết bất đồng",
+        "Nói không với bạo lực"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS3-B09-001",
+        "d": "basic",
+        "p": "Những cảm xúc nào được gọi là \"Cảm xúc tiêu cực\" mà ai cũng có thể gặp nhưng cần học cách nhận diện và làm chủ nó đúng cách?",
+        "o": [
+          "Chỉ có người xấu mới từng cảm thấy buồn hay tức giận",
+          "Tức giận, buồn bã thất vọng, lo âu sợ hãi, ghen tị hay tự ti chán nản",
+          "Trẻ con lớp 3 không bao giờ có cảm xúc buồn",
+          "Vui vẻ hào hứng, biết ơn, tự hào và bình tĩnh"
+        ],
+        "k": "B",
+        "e": "Mọi cảm xúc buồn, giận hay lo lắng đều rất tự nhiên bình thường – điều quan trọng là ta không để chúng điều khiển làm hành động xấu!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Nhận diện cảm xúc tự nhiên",
+        "fig": {
+          "type": "table",
+          "title": "Làm chủ Cảm xúc Lớp 3",
+          "head": [
+            "Cảm xúc đến",
+            "Cách xử lí hay"
+          ],
+          "rows": [
+            [
+              "Đang nóng giận",
+              "Dừng, thở sâu, đếm"
+            ],
+            [
+              "Thấy buồn tủi",
+              "Chia sẻ cùng mẹ, cô"
+            ],
+            [
+              "Khi ghen tị bạn",
+              "Chuyển thành cố gắng"
+            ],
+            [
+              "Có xích mích bạn",
+              "Dùng câu \"Tớ...\""
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS3-B09-002",
+        "d": "basic",
+        "p": "Khi thấy cơn giận đang dâng lên khiến tay nắm chặt, tim đập thình thịch, kĩ thuật \"Đèn Giao Thông Cảm Xúc\" (Đỏ – Vàng – Xanh) hướng dẫn em làm gì ở bước Đèn Đỏ đầu tiên?",
+        "o": [
+          "Đèn Đỏ là ném sách vở xuống đất",
+          "Đèn Đỏ là lập tức chạy tới đẩy bạn ngã luôn",
+          "DỪNG LẠI NGAY mọi lời nói và hành động trong 10 giây, hít thở thật sâu 3 nhịp để không buông lời xúc phạm hay đánh bạn",
+          "Đèn Đỏ là hét thật to chửi mắng"
+        ],
+        "k": "C",
+        "e": "Đèn Đỏ: DỪNG LẠI thở sâu -> Đèn Vàng: SUY NGHĨ cách giải quyết tốt -> Đèn Xanh: HÀNH ĐỘNG bình tĩnh văn minh!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Quy tắc Đèn Giao thông Cảm xúc"
+      },
+      {
+        "c": "LS3-B09-003",
+        "d": "basic",
+        "p": "Khi hai bạn học sinh có bất đồng tranh cãi vì hiểu lầm nhau, cách giải quyết nào là VĂN MINH và AN TOÀN nhất?",
+        "o": [
+          "Dùng nắm đấm, xô đẩy nhau xem ai khỏe hơn",
+          "Rủ thêm bạn bè chia phe tẩy chay nói xấu sau lưng",
+          "Chờ nguôi giận, lần lượt nghe nhau giải thích và nói chuyện chân thành hòa giải hoặc nhờ cô giáo phân xử công bằng",
+          "Phá hỏng đồ dùng học tập của nhau cho bõ tức"
+        ],
+        "k": "C",
+        "e": "Bạo lực không bao giờ giải quyết được mâu thuẫn mà chỉ làm cả hai đau đớn và đánh mất tình bạn!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Giải quyết bất đồng không bạo lực"
+      },
+      {
+        "c": "LS3-B09-004",
+        "d": "basic",
+        "p": "Khi em cảm thấy hơi buồn bã, thất vọng vì một bài kiểm tra chưa đạt điểm cao như mong muốn, cách nào giúp em vượt qua nỗi buồn lành mạnh nhất?",
+        "o": [
+          "Xé rách bài kiểm tra giấu xuống gầm tủ và khóc lóc bỏ ăn cả ngày",
+          "Tự mắng chửi mình vô dụng không thèm học nữa",
+          "Đổ lỗi tại cô giáo chấm sai hoặc bạn bên cạnh làm ồn",
+          "Cho phép bản thân buồn một chút rồi chia sẻ tâm sự với bố mẹ hoặc thầy cô, xem lại chỗ sai để rút kinh nghiệm và tự động viên cố gắng bài sau"
+        ],
+        "k": "D",
+        "e": "Thất bại nhỏ là người thầy tuyệt vời chỉ ra lỗ hổng kiến thức giúp em vươn lên mạnh mẽ hơn!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Vượt qua nỗi buồn điểm chưa cao"
+      },
+      {
+        "c": "LS3-B09-005",
+        "d": "basic",
+        "p": "Nếu em lỡ cảm thấy hơi ghen tị khi thấy bạn thân được cô giáo khen hoặc đạt giải cao hơn mình, em nên chuyển hóa cảm xúc đó thành điều gì tích cực?",
+        "o": [
+          "Giấu sách vở của bạn đi cho bạn tụt lại",
+          "Bịa chuyện nói xấu bạn gian lận để hạ bệ bạn",
+          "Nghỉ chơi với bạn luôn",
+          "Biến sự ngưỡng mộ bạn thành động lực học hỏi bí quyết hay của bạn để bản thân mình cũng tiến bộ vượt bậc ở lần thi tới"
+        ],
+        "k": "D",
+        "e": "Chuyển lòng ghen tị thành động lực học hỏi (thay vì phá hoại) biến em thành người bạn bản lĩnh tuyệt vời!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Chuyển hóa cảm xúc ghen tị"
+      },
+      {
+        "c": "LS3-B09-006",
+        "d": "basic",
+        "p": "Khi cần góp ý điều chưa vừa ý với bạn để bạn hiểu mà không thấy bị tấn công, công thức câu nói \"Thông điệp TÔI (Tớ)\" bắt đầu thế nào?",
+        "o": [
+          "\"Không bao giờ tớ thèm nhìn mặt cậu nữa!\"",
+          "\"Tớ cảm thấy (buồn/lo)... khi thấy (sự việc)... vì... Tớ mong chúng mình sẽ...\" (nói về cảm xúc của mình chứ không mắng chửi nhân cách bạn)",
+          "\"Chắc chắn cậu cố ý hại tớ!\"",
+          "\"Đồ xấu tính! Sao cậu ngu ngốc thế hả!\""
+        ],
+        "k": "B",
+        "e": "Sử dụng \"Thông điệp Tớ cảm thấy...\" làm giảm 90% sự căng thẳng cãi vã trong mọi cuộc đối thoại!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Sử dụng Thông điệp Tôi hòa giải"
+      },
+      {
+        "c": "LS3-B09-007",
+        "d": "application",
+        "p": "Trong giờ ra chơi đá bóng, bạn Minh vô tình sút bóng mạnh trúng vào cặp kính của bạn Tú làm rơi kính xuống đất (may mắn không vỡ). Tú giận tím mặt định lao vào đấm Minh. Nếu đứng cạnh, em vận dụng bước Đèn Vàng & Xanh giúp hai bạn thế nào?",
+        "o": [
+          "Đá quả bóng bay mất luôn",
+          "Nhẹ nhàng đứng chắn nhẹ nhắc Tú hít thở sâu dừng tay lại, đồng thời giúp Minh nhặt kiểm tra kính sạch sẽ để Minh chân thành xin lỗi Tú và cả hai bắt tay làm hòa",
+          "Hô to cổ vũ Tú đánh trả Minh cho công bằng",
+          "Lấy điện thoại quay lại cảnh hai bạn đánh nhau"
+        ],
+        "k": "B",
+        "e": "Ngăn chặn nắm đấm trong tích tắc bằng thái độ bình tĩnh và giúp bạn xin lỗi chân thành giữ nguyên tình bạn!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Can ngăn xô xát sân trường"
+      },
+      {
+        "c": "LS3-B09-008",
+        "d": "application",
+        "p": "Một nhóm bạn lớp 3B có mâu thuẫn tranh giành quả cầu lông duy nhất trong giờ thể dục tự do: cả bạn Lan và bạn Mai đều khẳng định mình cầm tới sân trước. Hai bạn nên giải quyết hòa bình thế nào để ai cũng vui?",
+        "o": [
+          "Đẩy nhau ngã trầy gối",
+          "Giật mạnh xé đôi quả cầu lông ra hai nửa",
+          "Cùng thống nhất chơi chung một trận 4 người đánh đôi thật vui, hoặc oẳn-tù-tì chia lượt mỗi người 10 phút công bằng thay vì giằng co làm hỏng cầu",
+          "Ngồi cãi nhau hết sạch 30 phút giờ chơi chẳng ai được đánh"
+        ],
+        "k": "C",
+        "e": "Hợp tác chơi chung hoặc chia lượt luân phiên công bằng biến hai đối thủ thành đồng đội vui vẻ!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Sáng kiến chia sẻ đồ chơi đang tranh"
+      },
+      {
+        "c": "LS3-B09-009",
+        "d": "application",
+        "p": "Cô giáo khảo sát 40 học sinh lớp 3D về cách các bạn thường chọn để làm dịu cơn bực tức ở nhà (biểu đồ dưới). Hai cách tích cực lành mạnh nào được nhiều bạn áp dụng nhất?",
+        "o": [
+          "Im lặng giận dỗi suốt ngày (8 bạn)",
+          "Hít thở sâu và đếm chậm 1–10 (16 bạn) cùng Tâm sự kể với bố mẹ (12 bạn)",
+          "La hét ném đồ chơi (4 bạn)",
+          "Chỉ có la hét ném đồ"
+        ],
+        "k": "B",
+        "e": "28 trên 40 bạn đã chọn cách hít thở sâu hoặc tâm sự cùng bố mẹ – đó là những phương pháp điều tiết cảm xúc khoa học nhất!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Đọc biểu đồ Quản lí cảm xúc",
+        "fig": {
+          "type": "bars",
+          "title": "Cách hạ cơn bực tức của lớp 3D (/40 bạn)",
+          "labels": [
+            "Thở sâu đếm 10",
+            "Kể bố mẹ",
+            "Im giận dỗi",
+            "La hét ném"
+          ],
+          "series": [
+            {
+              "values": [
+                16,
+                12,
+                8,
+                4
+              ]
+            }
+          ],
+          "unit": "bạn"
+        }
+      },
+      {
+        "c": "LS3-B09-010",
+        "d": "application",
+        "p": "Em và em gái nhỏ đang chơi xếp mô hình tòa tháp cao rất đẹp suốt 30 phút thì em gái lỡ vấp chân đá đổ tung tóe cả tòa tháp. Em cảm thấy cực kì tức giận muốn hét lên. Cách tự kiểm soát cảm xúc tốt nhất lúc này là gì?",
+        "o": [
+          "Đi ra góc phòng hít sâu uống một ngụm nước mát trong 1 phút cho hạ bực, rồi quay lại hít thở bình tĩnh cùng em gái thu dọn và thử xếp lại tòa tháp vững hơn",
+          "Hét thật to làm em gái khóc thét rồi ném tung đồ chơi lên",
+          "Đánh vào lưng em gái một cái thật đau",
+          "Giẫm nát toàn bộ các mảnh ghép còn lại"
+        ],
+        "k": "A",
+        "e": "Tạm lánh đi uống ngụm nước 1 phút giúp não bộ thoát khỏi chế độ \"nóng giận bộc phát\" ngay lập tức!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Chiến lược tạm lánh 1 phút hạ hỏa"
+      },
+      {
+        "c": "LS3-B09-011",
+        "d": "application",
+        "p": "Bạn Dũng bị một nhóm bạn lớn lớp 5 trêu chọc chặn đường đòi nộp kẹo ở góc sân sau trường. Dũng cảm thấy rất sợ hãi và lo âu không biết xử lí thế nào. Dũng nên làm gì ngay?",
+        "o": [
+          "Im lặng chịu đựng một mình và giấu bố mẹ suốt cả tháng",
+          "Cầm gậy đánh nhau một mình với các anh lớp 5",
+          "Nghỉ học ở nhà luôn không dám tới trường",
+          "Chạy ngay về chỗ đông người gần phòng bảo vệ hoặc cô giáo, không giấu kín mà kể ngay cho bố mẹ và thầy cô bảo vệ"
+        ],
+        "k": "D",
+        "e": "Trước bạo lực học đường, im lặng chỉ làm kẻ bắt nạt lấn tới; báo ngay người lớn tin cậy là quyền và sức mạnh bảo vệ chính đáng!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Ứng xử khi bị anh chị lớn bắt nạt"
+      },
+      {
+        "c": "LS3-B09-012",
+        "d": "application",
+        "p": "Cuối tuần bố bận đột xuất việc cơ quan nên phải hoãn chuyến đi công viên nước đã hứa với em sang tuần sau. Em rất hụt hẫng buồn bã. Cách bày tỏ cảm xúc nào vừa trung thực vừa chín chắn?",
+        "o": [
+          "Nói với bố: \"Con hơi buồn vì mong đi công viên, nhưng con hiểu bố bận; tối nay hai bố con chơi cờ ở nhà, cuối tuần sau đi bố nhé!\"",
+          "Nằm lăn ra sàn khóc gào suốt 2 tiếng và ném ba lô đi",
+          "Đóng sập cửa phòng không ăn cơm tối",
+          "Nói: \"Con ghét bố nhất trên đời, bố là người nói dối!\""
+        ],
+        "k": "A",
+        "e": "Bày tỏ trung thực cảm xúc buồn mà vẫn thấu hiểu, đề xuất phương án thay thế cho thấy sự trưởng thành vượt bậc!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Thấu hiểu khi kế hoạch gia đình đổi"
+      },
+      {
+        "c": "LS3-B09-013",
+        "d": "advanced",
+        "p": "Nhiều bạn nhỏ nói: \"Con trai mạnh mẽ thì không bao giờ được phép khóc hay kể nỗi buồn với ai!\". Quan điểm này có đúng với khoa học tâm lí không?",
+        "o": [
+          "Sai, phải khóc ầm ĩ ăn vạ mới là mạnh mẽ",
+          "Không đúng! Khóc khi quá buồn là phản xạ giải tỏa tự nhiên cho cả nam và nữ; biết chia sẻ cảm xúc giúp tinh thần khỏe mạnh hơn",
+          "Đúng, khóc là việc chỉ dành riêng cho em bé 1 tuổi",
+          "Đúng 100%, con trai phải kìm nén mọi nỗi buồn suốt đời"
+        ],
+        "k": "B",
+        "e": "Mạnh mẽ thực sự là dám đối diện cảm xúc thật của mình, biết chia sẻ và đứng dậy tìm giải pháp chứ không phải giả vờ vô cảm!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Phá bỏ định kiến về cảm xúc và nước mắt"
+      },
+      {
+        "c": "LS3-B09-014",
+        "d": "advanced",
+        "p": "Vì sao khi chúng ta nóng giận hét to hoặc ném đồ, bộ não lý trí tạm thời \"mất kết nối\" trong khoảng 10–15 giây đầu tiên (hiện tượng cướp quyền cảm xúc)?",
+        "o": [
+          "Vì tiếng hét làm không khí trong não bay hết",
+          "Vì lúc đó não ngừng hoạt động hoàn toàn",
+          "Vì cảm xúc bản năng bùng lên lấn át vùng suy nghĩ; hít thở chậm 10 giây giúp bộ não lí trí lấy lại bình tĩnh điều khiển!",
+          "Vì tim ngừng đập khi nóng giận"
+        ],
+        "k": "C",
+        "e": "Hiểu cơ chế 10 giây vàng giúp em làm chủ bộ não của mình giống như một phi công bản lĩnh!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Khoa học về 10 giây làm chủ cơn giận"
+      },
+      {
+        "c": "LS3-B09-015",
+        "d": "advanced",
+        "p": "Nếu lớp em có một \"Góc Bình Yên\" đặt cuối lớp gồm vài quyển sách hay, giấy vẽ tô màu và cái đồng hồ cát nhỏ, mục đích chính của góc này là gì?",
+        "o": [
+          "Làm chỗ ngủ trưa riêng cho lớp trưởng",
+          "Giúp bạn đang căng thẳng hoặc sắp nóng giận có nơi ngồi hít thở, vẽ hoặc đọc sách vài phút để lấy lại bình tĩnh trước khi học tiếp",
+          "Làm nơi nhốt phạt các bạn nói chuyện riêng trong giờ",
+          "Làm kho chứa giẻ lau và chổi quét lớp"
+        ],
+        "k": "B",
+        "e": "\"Góc Bình Yên\" trong lớp học hiện đại nuôi dưỡng trí tuệ cảm xúc (EQ) cực kì nhân văn!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Ý nghĩa Góc Bình Yên trong lớp học"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong3-c4",
+    "lesson": {
+      "code": "lssong3-b10",
+      "title": "Bài 10. An toàn khi đi Xe buýt, Ô tô và Qua Cầu, Phà",
+      "seq": 10,
+      "subtitle": "Nắm vững quy tắc lên xuống, ngồi trên xe buýt đưa đón học sinh và ô tô gia đình; an toàn tuyệt đối khi qua cầu, phà sông nước",
+      "concepts": [
+        "An toàn xe buýt học sinh",
+        "Tránh điểm mù xe buýt",
+        "An toàn qua cầu phà"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS3-B10-001",
+        "d": "basic",
+        "p": "Khi chờ lên xe buýt đưa đón học sinh của trường hoặc xe buýt công cộng tại trạm dừng, vị trí đứng chờ an toàn nhất là ở đâu?",
+        "o": [
+          "Đứng xếp hàng gọn gàng trên vỉa hè lùi vào sau mép lề đường, chờ xe dừng bánh hẳn và cửa mở mới lần lượt bước lên",
+          "Chạy ùa xô đẩy lao lên khi xe chưa dừng hẳn",
+          "Ngồi vắt chân trên mép bồn hoa sát đường xe chạy",
+          "Đứng sát dưới lòng đường vẫy xe khi xe đang lao tới"
+        ],
+        "k": "A",
+        "e": "Luôn đợi xe dừng hẳn mới bước lên và đứng trên vỉa hè cách xa mép đường tránh bánh xe trườn vào!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Quy tắc lên xuống xe buýt chuẩn",
+        "fig": {
+          "type": "table",
+          "title": "An toàn Xe buýt & Ô tô",
+          "head": [
+            "Giai đoạn",
+            "Hành động an toàn"
+          ],
+          "rows": [
+            [
+              "Chờ lên xe",
+              "Đứng hè, xếp hàng"
+            ],
+            [
+              "Khi ngồi trên xe",
+              "Thắt dây, ngồi yên"
+            ],
+            [
+              "Bước xuống xe",
+              "Xe dừng, nhìn sau"
+            ],
+            [
+              "Tránh điểm mù",
+              "Cách đầu xe >= 3m"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS3-B10-002",
+        "d": "basic",
+        "p": "Trong suốt quá trình xe buýt hoặc xe ô tô đang chạy trên đường, hành động nào bị NGHIÊM CẤM tuyệt đối vì cực kì nguy hiểm?",
+        "o": [
+          "Ngồi yên ngay ngắn trên ghế và thắt dây an toàn",
+          "Nói chuyện nhỏ nhẹ với bạn ngồi cạnh",
+          "Giữ cặp sách gọn trên đùi hoặc dưới chân",
+          "Thò đầu, thò cánh tay ra ngoài cửa sổ xe; đứng dậy chạy nhảy dọc lối đi; hoặc nói chuyện trêu đùa làm bác tài xế mất tập trung"
+        ],
+        "k": "D",
+        "e": "Thò đầu hoặc tay ra ngoài cửa sổ có thể va vào xe chạy ngược chiều hoặc cành cây cột điện ven đường!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Không thò đầu tay ra cửa sổ xe"
+      },
+      {
+        "c": "LS3-B10-003",
+        "d": "basic",
+        "p": "Sau khi xuống xe buýt trường học xong, vì sao em TUYỆT ĐỐI KHÔNG được đi cắt ngang sát ngay mũi xe (đầu xe) hoặc sau đuôi xe buýt để băng qua đường?",
+        "o": [
+          "Vì bác tài xế không thích nhìn thấy học sinh",
+          "Vì đầu xe buýt rất nóng sẽ làm chảy giày dép",
+          "Vì đi trước đầu xe làm bẩn kính xe",
+          "Vì đầu và đuôi xe buýt lớn là \"điểm mù\" khiến tài xế ngồi cao không thể nhìn thấy học sinh nhỏ bé đứng sát xe khi lăn bánh!"
+        ],
+        "k": "D",
+        "e": "Luôn bước ra xa khỏi đầu xe ít nhất 3–4 mét để nhìn thấy mặt bác tài xế qua gương hoặc đợi xe buýt chạy đi khuất thoáng rồi mới cùng người lớn qua đường!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Tránh điểm mù đầu và đuôi xe buýt"
+      },
+      {
+        "c": "LS3-B10-004",
+        "d": "basic",
+        "p": "Khi đi ô tô gia đình cùng bố mẹ, quy tắc an toàn khi mở cửa xe xuống bên phía có xe máy lưu thông là gì?",
+        "o": [
+          "Nhảy xuống ngay khi xe còn đang chạy chậm",
+          "Người ngồi trong dùng tay xa cửa mở hé nhẹ quan sát kĩ phía sau (người lớn giúp mở và xuống bên sát vỉa hè bên phải) để không va trúng người đi đường",
+          "Không cần nhìn phía sau cứ mở hết cỡ",
+          "Đạp bung mạnh cánh cửa xe bên trái bật toang ra bất ngờ"
+        ],
+        "k": "B",
+        "e": "Kĩ thuật \"Mở cửa kiểu Hà Lan\" (dùng tay xa cửa xoay vai nhìn ra sau) tránh tai nạn mở cửa va người đi xe máy!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Mở cửa ô tô an toàn"
+      },
+      {
+        "c": "LS3-B10-005",
+        "d": "basic",
+        "p": "Khi qua cầu treo dây văng hoặc đi phà qua sông rộng cùng gia đình, hai điều bắt buộc để giữ an toàn tính mạng là gì?",
+        "o": [
+          "Rủ nhau nhảy đồng loạt làm nhịp cầu treo rung lắc thật mạnh",
+          "Cởi áo phao trên phà rồi trèo ra mũi phà",
+          "Ngồi vắt chân ra ngoài lan can cầu chụp ảnh",
+          "Không đùa nghịch chạy nhảy xô đẩy làm rung lắc cầu/phà; và khi lên phà phải mặc áo phao đúng cách, đứng xa mép phà theo hướng dẫn nhân viên"
+        ],
+        "k": "D",
+        "e": "Tuyệt đối tôn trọng tải trọng, lan can bảo vệ trên cầu và mặc áo phao nghiêm túc trên phà sông nước!",
+        "s": "Giáo dục lối sống 3",
+        "h": "An toàn khi đi qua cầu và phà"
+      },
+      {
+        "c": "LS3-B10-006",
+        "d": "basic",
+        "p": "Khi thấy có người lớn mở cốp hoặc cửa xe ô tô gia đình ra dọn đồ, điều gì các bạn nhỏ không bao giờ được làm?",
+        "o": [
+          "Chui vào khoang sau xe đóng kín cửa chơi trốn tìm cho mát",
+          "Ngồi ngay sát dưới ống xả sau đuôi xe",
+          "Nghịch bấm loạn cần số và phanh tay trong xe",
+          "Tuyệt đối không trèo vào chơi trốn tìm bên trong xe ô tô đóng kín cửa hoặc đứng chơi nấp ngay sau đuôi xe ô tô đang nổ máy"
+        ],
+        "k": "D",
+        "e": "Xe ô tô đỗ dưới nắng khóa kín cửa nóng lên cực nhanh gây ngạt tử vong chỉ trong thời gian ngắn; không bao giờ chơi trốn tìm trong xe!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Không chơi trốn tìm trong xe ô tô"
+      },
+      {
+        "c": "LS3-B10-007",
+        "d": "application",
+        "p": "Một chiếc xe ô tô gia đình chở 4 người gồm bố, mẹ và hai anh em lớp 3 – lớp 5 đi du lịch đường dài. Khi lên xe, bạn nhỏ lớp 3 nói: \"Đường cao tốc êm ru à, con ngồi hàng ghế sau chẳng cần thắt dây an toàn cho thoải mái nhé!\". Ý kiến đó đúng hay sai?",
+        "o": [
+          "Đúng, chỉ người lái ở ghế trước mới cần thắt dây an toàn",
+          "Đúng nếu ngồi ôm gối ôm trên ghế sau",
+          "Sai! Khi xe phanh gấp, người ngồi ghế sau không thắt dây sẽ bị hất văng mạnh về trước gây chấn thương nặng cho mình và người ngồi trước",
+          "Đúng khi đi vào ban ngày trời nắng"
+        ],
+        "k": "C",
+        "e": "100% các vị trí ngồi trên ô tô đều bắt buộc phải thắt dây an toàn suốt hành trình!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Bắt buộc thắt dây an toàn ở mọi ghế"
+      },
+      {
+        "c": "LS3-B10-008",
+        "d": "application",
+        "p": "Khi xe buýt trường học đi qua một đoạn đường xóc làm chiếc bình nước của bạn Tùng lăn rơi xuống sàn ngay phía gầm ghế hàng trên. Tùng muốn nhặt ngay bình nước. Cách làm nào an toàn?",
+        "o": [
+          "Hét bắt bác tài xế phanh khựng lại giữa cao tốc",
+          "Tháo dây an toàn bò lăn xuống sàn chui dưới chân ghế khi xe đang chạy nhanh",
+          "Ngồi yên thắt dây chờ xe dừng trạm hoặc nhờ cô phụ trách giúp, không tự tháo dây bò xuống gầm ghế khi xe đang chạy",
+          "Kéo áo bạn phía trước đòi bạn lấy hộ khi xe đang cua"
+        ],
+        "k": "C",
+        "e": "Bò dưới sàn xe khi xe đang chạy dễ bị va đập đầu vào khung ghế sắt khi xe phanh bất ngờ!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Xử lí khi rơi đồ trên xe đang chạy"
+      },
+      {
+        "c": "LS3-B10-009",
+        "d": "application",
+        "p": "Cô phụ trách xe buýt trường kiểm tra việc thực hiện 4 quy tắc an toàn của 25 học sinh đi tuyến xe số 2 trong tuần đầu năm học (biểu đồ dưới). Quy tắc nào các bạn còn hay quên thực hiện nhất cần rèn lại?",
+        "o": [
+          "Ngồi yên thắt dây an toàn (22 bạn)",
+          "Xếp hàng trên vỉa hè chờ xe (24 bạn)",
+          "Không thò tay qua cửa kính (25 bạn)",
+          "Đi cách xa đầu xe >= 3m sau khi xuống (chỉ 16 bạn nhớ làm đúng)"
+        ],
+        "k": "D",
+        "e": "Mới 16 trên 25 bạn chú ý bước đi xa khỏi vùng điểm mù đầu/đuôi xe buýt sau khi xuống! Hãy luôn nhớ giữ khoảng cách ít nhất 3–4 mét!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Đọc biểu đồ An toàn xe buýt",
+        "fig": {
+          "type": "bars",
+          "title": "Số bạn thực hiện đúng trên xe buýt (/25 bạn)",
+          "labels": [
+            "Không thò tay",
+            "Xếp hàng vỉa hè",
+            "Thắt dây",
+            "Tránh đầu xe"
+          ],
+          "series": [
+            {
+              "values": [
+                25,
+                24,
+                22,
+                16
+              ]
+            }
+          ],
+          "unit": "bạn"
+        }
+      },
+      {
+        "c": "LS3-B10-010",
+        "d": "application",
+        "p": "Bố vừa lùi chiếc xe ô tô ra khỏi sân nhà, bỗng có chú mèo con chạy vọt ra ngay sát phía sau gầm đuôi xe. Em đứng ở hiên nhà nhìn thấy nên làm gì?",
+        "o": [
+          "Chạy thật nhanh lao ngay vào phía sau đuôi xe đang lùi để chụp chú mèo",
+          "Đứng an toàn bên hông gần kính lái vẫy tay gọi to báo bố dừng xe ngay, tuyệt đối không chạy lao ra sau đuôi xe đang lùi!",
+          "Ném cục đá vào kính sau xe",
+          "Đứng im nhìn xem xe có tránh được mèo không"
+        ],
+        "k": "B",
+        "e": "Không bao giờ chạy lao vào vùng điểm mù phía sau đuôi xe đang bật đèn lùi! Hãy đứng bên hông báo tài xế dừng hẳn trước!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Không chạy ra sau đuôi xe đang lùi"
+      },
+      {
+        "c": "LS3-B10-011",
+        "d": "application",
+        "p": "Khi đi trên chuyến phà chở cả xe máy và hành khách qua sông lớn, bác phụ phà yêu cầu mọi người xuống khỏi xe máy và mặc áo phao đứng gọn vào khu vực hành khách. Em nhắc người thân thế nào?",
+        "o": [
+          "Cởi áo phao ra kê làm gối ngồi",
+          "Bảo bố cứ ngồi trên xe máy nổ máy sẵn trên phà cho đỡ mỏi chân",
+          "Chạy ra sát mũi phà vươn người nhìn chân vịt dưới nước",
+          "Nhắc người thân dắt xe dựng chân chống vững, xuống khỏi yên xe máy, mặc đủ áo phao và đứng gọn trong khu vực có lan can"
+        ],
+        "k": "D",
+        "e": "Không ngồi trên xe máy đang dựng trên sàn phà đề phòng xe đổ trôi xuống sông khi phà cập bến va nhẹ!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Quy tắc an toàn trên phà chở xe"
+      },
+      {
+        "c": "LS3-B10-012",
+        "d": "application",
+        "p": "Em và các bạn cùng lớp ngồi trên xe ô tô khách đi tham quan dã ngoại. Một bạn bỗng thấy chóng mặt buồn nôn vì say xe. Em nên giúp bạn thế nào cho lịch sự và dễ chịu?",
+        "o": [
+          "Đưa cho bạn quyển truyện tranh chữ nhỏ bảo đọc cho đỡ buồn",
+          "Báo cô giáo đưa bạn túi sạch chống nôn và khăn giấy, nhắc bạn nhìn thẳng ra xa ngoài kính trước thay vì nhìn màn hình hay đọc sách",
+          "Cười ồ lên bịt mũi la ó chê bạn giữa xe",
+          "Bảo bạn thò hẳn đầu ra ngoài cửa kính xe"
+        ],
+        "k": "B",
+        "e": "Nhìn xa phía trước, ngồi hàng ghế thoáng trên cùng và giữ túi sạch kịp thời giúp người say xe dễ chịu hơn rất nhiều!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Hỗ trợ bạn bị say xe văn minh"
+      },
+      {
+        "c": "LS3-B10-013",
+        "d": "advanced",
+        "p": "Giả sử gặp tình huống khẩn cấp giả định: một em nhỏ lớp 1 vô tình bị kẹt ngủ quên lại trên xe ô tô kín cửa đỗ yên không có người lớn xung quanh. Nếu em nhỏ đó đã được dạy kĩ năng sinh tồn trong xe kín, hai hành động thông minh nhất có thể làm từ bên trong khoang lái là gì?",
+        "o": [
+          "Ngồi khóc thầm lặng lẽ dưới gầm ghế chờ trời tối",
+          "Đập chân xuống sàn xe nhẹ nhàng",
+          "Trùm áo kín đầu ngủ tiếp",
+          "Bấm liên hồi còi xe trên vô-lăng để phát tiếng động cầu cứu và bật đèn khẩn cấp (nút tam giác đỏ) hoặc mở khóa từ bên trong"
+        ],
+        "k": "D",
+        "e": "Kĩ năng sinh tồn \"Bấm còi liên tục trên vô-lăng và bật nút đèn tam giác đỏ khẩn cấp\" (hoạt động ngay cả khi xe tắt máy ở hầu hết ô tô!) cứu sống trẻ em!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Kĩ năng thoát hiểm khi kẹt trong ô tô"
+      },
+      {
+        "c": "LS3-B10-014",
+        "d": "advanced",
+        "p": "Vì sao trên mỗi chiếc xe buýt trường học an toàn đều có trang bị một chiếc búa nhỏ màu đỏ gắn trên vách kính cạnh cửa sổ lớn?",
+        "o": [
+          "Là búa để gõ vào đầu bạn nếu mất trật tự",
+          "Là búa dùng để đóng đinh sửa bàn học",
+          "Đó là búa thoát hiểm chuyên dụng dùng để đập vỡ kính tại vị trí góc cửa sổ thoát ra ngoài trong tình huống tai nạn khẩn cấp khi cửa chính bị kẹt",
+          "Là đồ chơi để học sinh tháo ra gõ nhịp hát"
+        ],
+        "k": "C",
+        "e": "Biết vị trí búa thoát hiểm, bình chữa cháy và cửa thoát hiểm trên xe khách là kiến thức an toàn quý giá, nhưng tuyệt đối không nghịch khi bình thường!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Nhận biết búa thoát hiểm trên xe khách"
+      },
+      {
+        "c": "LS3-B10-015",
+        "d": "advanced",
+        "p": "Mặt đường ở phần cầu hẹp bắc qua sông thường trơn ướt hơn vào sáng sớm có sương hoặc khi trời mưa. Người đi bộ và người đi xe đạp qua cầu cần chú ý điều gì?",
+        "o": [
+          "Chạy đua xe đạp sát mép lan can giữa cầu hẹp",
+          "Ném vỏ chai nhựa xuống dòng sông dưới cầu",
+          "Trèo lên thành lan can cầu đi thăng bằng như diễn xiếc",
+          "Đi gọn vào lối dành cho người đi bộ có lan can bảo vệ, đi chậm giữ thăng bằng tránh trượt ngã và không tụ tập giữa cầu"
+        ],
+        "k": "D",
+        "e": "Đi đúng phần cầu bộ hành và giữ tốc độ chậm qua cầu giữ an toàn cho mình và dòng xe lưu thông!",
+        "s": "Giáo dục lối sống 3",
+        "h": "An toàn khi đi bộ, đạp xe qua cầu"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong3-c4",
+    "lesson": {
+      "code": "lssong3-b11",
+      "title": "Bài 11. Quy tắc Đi bộ, Xe đạp Đường phố và Văn hóa Giao thông",
+      "seq": 11,
+      "subtitle": "Thực hành đúng quy tắc chuyển hướng xe đạp bằng tín hiệu tay, đi đúng làn, xử lí biển báo và ứng xử có văn hóa khi tham gia giao thông",
+      "concepts": [
+        "Tín hiệu rẽ xe đạp",
+        "Văn hóa giao thông",
+        "Xử lí ngã tư phức tạp"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS3-B11-001",
+        "d": "basic",
+        "p": "Khi đang đạp xe đạp ở khu vực được phép đi xe, trước khi muốn rẽ sang trái hoặc sang phải, học sinh lớp 3 cần ra tín hiệu báo trước như thế nào?",
+        "o": [
+          "Quan sát trước sau, giảm tốc và giơ thẳng tay về hướng định rẽ (tay trái khi rẽ trái, tay phải khi rẽ phải) để xe sau biết nhường",
+          "Nhắm mắt bóp phanh đứng khựng giữa đường rồi rẽ",
+          "Rẽ ngoặt đột ngột bất ngờ không báo trước cho ai",
+          "Quay đầu lại hét to nhưng vẫn lao ngang đường"
+        ],
+        "k": "A",
+        "e": "Báo hiệu xin đường bằng tay và quan sát phía sau là kĩ năng sống còn của người đi xe đạp!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Tín hiệu xin rẽ khi đi xe đạp",
+        "fig": {
+          "type": "table",
+          "title": "Văn hóa Giao thông Lớp 3",
+          "head": [
+            "Tình huống",
+            "Ứng xử văn hóa"
+          ],
+          "rows": [
+            [
+              "Muốn rẽ xe đạp",
+              "Nhìn sau, giơ tay"
+            ],
+            [
+              "Gặp vũng nước",
+              "Đi chậm, tránh bắn"
+            ],
+            [
+              "Thấy xe cứu thương",
+              "Nhường đường ngay"
+            ],
+            [
+              "Lỡ va chạm nhẹ",
+              "Bình tĩnh hỏi thăm"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS3-B11-002",
+        "d": "basic",
+        "p": "Trên đường phố có nhiều làn đường phân cách bằng vạch sơn kẻ, người đi xe đạp phải đi ở phần đường nào là đúng quy định?",
+        "o": [
+          "Đi lên hẳn vỉa hè chen lấn với người đi bộ",
+          "Đi sang làn đường ô tô tốc độ cao ở sát tim đường",
+          "Đi sát bên PHẢI phần đường theo chiều đi của mình hoặc đi đúng làn đường dành riêng cho xe thô sơ, xe đạp",
+          "Đi ngược chiều sát lề đường bên trái cho dễ nhìn xe tới"
+        ],
+        "k": "C",
+        "e": "Đi đúng làn đường bên phải tránh đối đầu xe cơ giới và bảo vệ lối đi cho người đi bộ trên vỉa hè!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Đi xe đạp đúng phần đường"
+      },
+      {
+        "c": "LS3-B11-003",
+        "d": "basic",
+        "p": "Nhóm 3–4 bạn học sinh lớp 3 cùng đạp xe trên đường làng hoặc trong công viên có được đi dàn hàng ngang 3–4 xe vừa đi vừa khoác vai nói chuyện không?",
+        "o": [
+          "Được phép dàn hàng ngang 4 xe chiếm hết lòng đường cho vui",
+          "Được phép vừa đi vừa buông tay nắm áo bạn kéo đi",
+          "Tuyệt đối KHÔNG! Phải đi thành hàng một nối đuôi nhau giữ khoảng cách an toàn, tối đa không quá 2 xe ở đường vắng cho phép nhưng an toàn nhất vẫn là hàng một",
+          "Được phép đi zíc-zắc chắn đầu xe máy"
+        ],
+        "k": "C",
+        "e": "Đi xe đạp hàng một vừa trò chuyện vừa đảm bảo đường rộng thông thoáng cho mọi người qua lại!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Không đi xe đạp dàn hàng ngang"
+      },
+      {
+        "c": "LS3-B11-004",
+        "d": "basic",
+        "p": "Quan sát biển báo hình tròn viền đỏ nền trắng gạch chéo đỏ (Biển báo CẤM). Khi gặp biển Cấm đi ngược chiều hay Cấm rẽ tại ngã tư đường phố vắng người không có cảnh sát đứng gác, ta có được lén đi vào không?",
+        "o": [
+          "Tuyệt đối KHÔNG! Người có văn hóa giao thông tự giác chấp hành biển báo mọi lúc mọi nơi kể cả lúc đường vắng không có ai giám sát",
+          "Đường vắng không có cảnh sát thì đi ngược chiều thoải mái",
+          "Chờ tối muộn rồi đi ngược chiều",
+          "Chỉ chấp hành biển báo vào giờ tan tầm đông đúc"
+        ],
+        "k": "A",
+        "e": "Tự giác tuân thủ luật giao thông ngay cả khi không có bóng cảnh sát chính là Văn hóa giao thông thực thụ!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Tự giác tuân thủ cả khi vắng người",
+        "fig": {
+          "w": 300,
+          "h": 175,
+          "items": [
+            {
+              "t": "circle",
+              "c": [
+                150,
+                80
+              ],
+              "r": 52,
+              "fill": "#ffffff",
+              "stroke": "#dc2626",
+              "w": 7
+            },
+            {
+              "t": "line",
+              "a": [
+                114,
+                44
+              ],
+              "b": [
+                186,
+                116
+              ],
+              "color": "#dc2626",
+              "w": 7
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                162
+              ],
+              "s": "Biển báo CẤM: Tự giác chấp hành mọi lúc",
+              "anchor": "middle",
+              "size": 12.5
+            }
+          ]
+        }
+      },
+      {
+        "c": "LS3-B11-005",
+        "d": "basic",
+        "p": "Biểu hiện nào thể hiện NÉT ĐẸP VĂN HÓA GIAO THÔNG trên đường phố Việt Nam?",
+        "o": [
+          "Phóng xe máy qua vũng nước thật nhanh cho bắn bùn lên người đi bộ",
+          "Vượt đèn đỏ, bấm còi liên tục và chửi bới khi tắc đường",
+          "Đỗ xe chắn kín vạch kẻ người đi bộ và cổng bệnh viện",
+          "Đội mũ bảo hiểm cài quai, xếp hàng dừng đúng vạch khi đèn đỏ, nhường đường cho người đi bộ tại vạch trắng, không bấm còi inh ỏi và biết cảm ơn khi được nhường"
+        ],
+        "k": "D",
+        "e": "Một cái gật đầu cảm ơn, một lần dừng xe nhường người đi bộ làm cả con phố trở nên văn minh ấm áp!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Biểu hiện Văn hóa giao thông"
+      },
+      {
+        "c": "LS3-B11-006",
+        "d": "basic",
+        "p": "Khi đi bộ hoặc đi xe đạp tới một đoạn đường có vũng nước mưa lớn, nếu thấy có bác hoặc bạn đi bộ bên cạnh, người lái xe lịch sự cần làm gì?",
+        "o": [
+          "Giảm tốc độ đi thật chậm nhẹ nhàng qua vũng nước (hoặc tránh vòng khéo an toàn) để không làm nước bẩn bắn tung tóe lên quần áo người xung quanh",
+          "Tăng tốc đạp hoặc rồ ga thật mạnh bắn nước tung tóe cho vui",
+          "Cố tình lượn sát vũng nước hất nước vào vỉa hè",
+          "Dừng xe giữa vũng nước bấm chuông liên tục"
+        ],
+        "k": "A",
+        "e": "Giảm tốc qua vũng nước tránh bắn bẩn người đi cạnh là hành động tinh tế cực kì đáng quý!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Văn minh khi đi qua vũng nước"
+      },
+      {
+        "c": "LS3-B11-007",
+        "d": "application",
+        "p": "Bạn Minh và bạn Tùng rủ nhau đạp xe trên phố. Khi dừng chờ đèn đỏ ở ngã tư, còn 4 giây nữa đèn đỏ mới chuyển xanh nhưng thấy hướng ngang vắng xe, Tùng giục Minh: \"Phóng qua luôn đi còn có 4 giây thôi mà!\". Minh trả lời thế nào?",
+        "o": [
+          "\"Không vội 4 giây đâu Tùng ơi, mình cứ đứng đúng sau vạch chờ đèn chuyển xanh hẳn rồi đi cho đúng luật và phòng xe khác rẽ cắt ngang bất ngờ!\"",
+          "\"Ừ phóng nhanh qua luôn cho oách!\"",
+          "\"Đạp lên vỉa hè phóng vượt qua đèn đỏ!\"",
+          "\"Tắt chuông nhắm mắt đi qua!\""
+        ],
+        "k": "A",
+        "e": "Không vượt sớm vài giây cuối đèn đỏ bảo vệ em khỏi những xe vượt vàng ở làn cắt ngang rất nguy hiểm!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Không vượt 4 giây cuối đèn đỏ"
+      },
+      {
+        "c": "LS3-B11-008",
+        "d": "application",
+        "p": "Buổi chiều bố đèo em đi xe máy về nhà thì gặp đoạn đường nhỏ bị ùn tắc kẹt xe kéo dài. Có vài xe phía sau cố tình leo lên hẳn vỉa hè chỗ người đi bộ đang đi và bấm còi inh ỏi liên tục. Em nhận xét gì về hành vi đó?",
+        "o": [
+          "Vỉa hè là làn đường dự phòng của xe máy lúc tắc đường",
+          "Hành vi rất thông minh nhanh nhẹn cần học tập",
+          "Bố con mình cũng nên leo vỉa hè và bấm còi to hơn họ",
+          "Đó là hành vi thiếu văn hóa giao thông và vi phạm luật: leo vỉa hè dễ gây nguy hiểm cho người đi bộ và càng làm tắc nghẽn hỗn loạn chỗ thoát xe thêm"
+        ],
+        "k": "D",
+        "e": "Kiên nhẫn giữ đúng làn đường khi tắc xe giúp dòng xe thoát nhanh gấp đôi việc chen lấn leo vỉa hè!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Kiên nhẫn giữ làn khi đường ùn tắc"
+      },
+      {
+        "c": "LS3-B11-009",
+        "d": "application",
+        "p": "Câu lạc bộ An toàn Giao thông Lớp 3 chấm điểm thực hành 4 tiêu chí trên sân sa hình mô phỏng của trường (biểu đồ dưới tính số điểm tối đa 25 điểm mỗi tiêu chí). Tiêu chí nào các bạn đạt điểm gần tuyệt đối nhất và tiêu chí nào cần tập thêm?",
+        "o": [
+          "Đi đúng làn phải cao nhất; Dừng vạch thấp nhất",
+          "Dừng đúng vạch đèn đỏ cao nhất (24 điểm); Quan sát phía sau và giơ tay xin rẽ xe đạp cần tập thêm (18 điểm)",
+          "Cả 4 tiêu chí đạt 25 điểm",
+          "Đọc biển báo cao nhất; Đi đúng làn thấp nhất"
+        ],
+        "k": "B",
+        "e": "Thói quen giơ tay xin đường trước khi rẽ bằng xe đạp (18/25đ) cần được luyện thật thuần thục trên sân sa hình!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Đọc biểu đồ thực hành sa hình",
+        "fig": {
+          "type": "bars",
+          "title": "Điểm thực hành sa hình Giao thông (/25đ)",
+          "labels": [
+            "Dừng đèn đỏ",
+            "Đi đúng làn",
+            "Đọc biển báo",
+            "Giơ tay rẽ"
+          ],
+          "series": [
+            {
+              "values": [
+                24,
+                22,
+                21,
+                18
+              ]
+            }
+          ],
+          "unit": "điểm"
+        }
+      },
+      {
+        "c": "LS3-B11-010",
+        "d": "application",
+        "p": "Em đang đạp xe ở làn bên phải công viên thì một bạn nhỏ khác đạp xe đi sau lỡ va nhẹ quệt vào bánh sau làm cả hai bị nghiêng nhẹ dừng lại (không ai bị thương). Cách ứng xử văn minh nhất ngay lúc đó là gì?",
+        "o": [
+          "Lao vào quát mắng xô ngã bạn kia đòi bồi thường tiền triệu",
+          "Dựng xe gọn sang lề đường, bình tĩnh hỏi thăm nhau xem có bị đau hay trầy xước không, kiểm tra xe an toàn và hòa nhã bắt tay nhắc nhau đi cẩn thận",
+          "Lấy cành cây ném theo bạn kia",
+          "Vứt xe đạp xuống bãi cỏ ngồi khóc ăn vạ giữa lối đi"
+        ],
+        "k": "B",
+        "e": "Bình tĩnh, hỏi thăm sức khỏe trước và hòa giải nhẹ nhàng giữ cho giao thông luôn văn minh thân thiện!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Ứng xử văn minh khi va quệt nhẹ"
+      },
+      {
+        "c": "LS3-B11-011",
+        "d": "application",
+        "p": "Khi đi bộ qua ngã tư có vạch kẻ đường trắng dành cho người đi bộ và có một chiếc xe ô tô đã giảm tốc độ dừng hẳn lại nhường đường cho em và mẹ bước qua. Em nên có cử chỉ nhỏ nào rất đẹp dành cho bác tài xế?",
+        "o": [
+          "Không cần nhìn cứ cúi mặt đi chậm như rùa",
+          "Nhìn về phía bác tài xế khẽ mỉm cười, gật đầu hoặc giơ tay vẫy nhẹ cảm ơn rồi bước đi dứt khoát gọn gàng qua đường",
+          "Đi rề rà đứng lại giữa đầu xe ô tô đùa giỡn trêu bác tài xế",
+          "Lườm nguýt bác tài xế rồi chạy lùi lại"
+        ],
+        "k": "B",
+        "e": "Cử chỉ vẫy tay cảm ơn và bước đi dứt khoát khi được nhường đường tạo nên văn hóa giao thông đầy thiện cảm!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Cảm ơn khi được nhường đường"
+      },
+      {
+        "c": "LS3-B11-012",
+        "d": "application",
+        "p": "Đường phố nơi nhà em có gắn bảng thông báo điện tử hoặc biển báo \"Nơi Giao Nhau Với Đường Sắt Không Có Rào Chắn\" (chỉ có đèn nháy đỏ và chuông cảnh báo). Khi đèn nháy đỏ bật và chuông reo vang, mọi người phải làm gì?",
+        "o": [
+          "Bỏ xe trên đường ray rồi đi bộ qua",
+          "Nhìn chưa thấy đầu tàu liền phóng thật nhanh vượt qua đường ray",
+          "Đứng sát ngay cạnh đường ray giơ tay sờ vào toa tàu khi tàu chạy qua",
+          "Dừng lại ngay trước vạch dừng cách đường ray tối thiểu 5 mét, quan sát kĩ cả hai bên đường sắt chờ tàu hỏa đi qua hẳn và đèn tắt mới bước qua"
+        ],
+        "k": "D",
+        "e": "Tại đường ngang không rào chắn, luôn dừng lại cách ray tối thiểu 5 mét ngay khi đèn chuông báo hiệu bật!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Qua đường sắt không rào chắn"
+      },
+      {
+        "c": "LS3-B11-013",
+        "d": "advanced",
+        "p": "Nhiều bạn thắc mắc: \"Vì sao đi xe đạp lại không được chở thêm bạn to lớn ngồi lên tay lái (ghi-đông) hay đứng lên hai thanh sắt trục bánh sau (baga đứng)?\" Hai nguy cơ tai nạn lớn nhất là gì?",
+        "o": [
+          "Chỉ vi phạm vào buổi tối",
+          "Làm cho lốp xe nhanh bóng đẹp hơn",
+          "Làm người lái đạp nhẹ hơn bình thường",
+          "Người ngồi trên tay lái che khuất hoàn toàn tầm nhìn phía trước và làm tay lái mất cân bằng lảo đảo; người đứng sau dễ bị kẹt gót chân vào nan hoa bánh xe quay"
+        ],
+        "k": "D",
+        "e": "Không chở người trên ghi-đông tay lái và không đứng trên trục sau bảo vệ cả tầm nhìn lẫn đôi chân không bị cuốn vào nan hoa!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Nguy hiểm khi chở sai quy cách xe đạp"
+      },
+      {
+        "c": "LS3-B11-014",
+        "d": "advanced",
+        "p": "Giả sử khi em và bố đi xe máy dừng chờ đèn đỏ, đứng ngay phía trước một chiếc xe bồn trộn bê tông khổng lồ hoặc ngay cạnh hông xe tải đầu kéo. Tại sao bố lại chọn dừng lùi lại hoặc tránh hẳn sang khoảng trống dễ quan sát thay vì chen sát gầm đầu xe tải?",
+        "o": [
+          "Vì đứng sau xe tải sẽ được che nắng mát hơn",
+          "Vì xe tải không được phép đi qua ngã tư",
+          "Vì đứng gần xe tải làm xe máy hết xăng",
+          "Vì khu vực sát đầu và hai bên hông xe tải lớn là điểm mù chết người tài xế trên cabin cao không nhìn thấy; giữ khoảng cách giúp tài xế thấy rõ mình trong gương"
+        ],
+        "k": "D",
+        "e": "Tránh đứng vào điểm mù trước đầu và hông xe container/xe tải lớn là nguyên tắc cứu sinh hàng đầu trên đường phố!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Tránh đứng sát điểm mù xe tải lớn"
+      },
+      {
+        "c": "LS3-B11-015",
+        "d": "advanced",
+        "p": "Tổng hợp bài học Văn hóa Giao thông Lớp 3: nếu mỗi công dân đều thực hiện tốt \"3 ĐÚNG – 2 KHÔNG\" khi ra đường, theo em 3 ĐÚNG đó là gì?",
+        "o": [
+          "Đi ĐÚNG phần đường làn đường – Tuân thủ ĐÚNG tín hiệu đèn và biển báo – Đội mũ bảo hiểm, thắt dây an toàn ĐÚNG quy cách",
+          "Đi ĐÚNG giữa tim đường – Bấm còi ĐÚNG thật to – Vượt ĐÚNG đèn đỏ",
+          "Đi ĐÚNG ngược chiều – Chở ĐÚNG 4 người – Đi ĐÚNG hàng ngang",
+          "Chỉ cần đi thật nhanh"
+        ],
+        "k": "A",
+        "e": "Đi đúng làn – Theo đúng biển đèn – Bảo hộ đúng cách chính là 3 chìa khóa bình an trên mọi nẻo đường!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Nguyên tắc 3 Đúng giao thông"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong3-c4",
+    "lesson": {
+      "code": "lssong3-b12",
+      "title": "Bài 12. Phòng tránh Hỏa hoạn, Thiên tai và Sơ cứu Chấn thương Nhẹ",
+      "seq": 12,
+      "subtitle": "Biết nguyên nhân gây cháy nổ, kĩ năng thoát hiểm khi có khói lửa (bò thấp, che khăn ướt, không đi thang máy), ứng phó bão lũ và sơ cứu nhẹ",
+      "concepts": [
+        "Thoát hiểm hỏa hoạn",
+        "Ứng phó bão lũ",
+        "Sơ cứu chấn thương nhẹ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS3-B12-001",
+        "d": "basic",
+        "p": "Những hành động nào của trẻ em có nguy cơ gây HỎA HOẠN CHÁY NỔ cực kì nguy hiểm trong gia đình tuyệt đối phải tránh?",
+        "o": [
+          "Kiểm tra cửa thoát hiểm chung cư sạch thoáng",
+          "Nghịch bật lửa, diêm, nến gần rèm vải hay giấy vở; tự ý cắm quá nhiều thiết bị điện vào một ổ cắm lỏng lẻo; hoặc đốt giấy rác gần đồ dễ cháy",
+          "Rút dây sạc khi đã sạc xong và giữ xa vật dễ cháy khỏi bếp",
+          "Nhờ bố mẹ thắp hương ngày lễ an toàn và tắt hết nến sau khi dùng"
+        ],
+        "k": "B",
+        "e": "Không nghịch lửa diêm bật lửa và tránh quá tải ổ cắm điện là cách phòng cháy tốt nhất từ gốc!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Phòng tránh nguyên nhân gây cháy",
+        "fig": {
+          "type": "table",
+          "title": "Sinh tồn Khẩn cấp Lớp 3",
+          "head": [
+            "Tình huống",
+            "Việc làm an toàn"
+          ],
+          "rows": [
+            [
+              "Thấy khói cháy",
+              "Bò thấp, khăn ướt"
+            ],
+            [
+              "Thoát hiểm tầng cao",
+              "Thang bộ, cấm máy"
+            ],
+            [
+              "Trời giông sét",
+              "Vào nhà, tránh cây"
+            ],
+            [
+              "Bị chảy máu cam",
+              "Cúi nhẹ, bóp mũi"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS3-B12-002",
+        "d": "basic",
+        "p": "Khi không may xảy ra hỏa hoạn có nhiều khói bốc lên trong nhà hoặc tòa nhà, cách di chuyển thoát hiểm ĐÚNG NHẤT giúp em không bị ngạt khói độc là gì?",
+        "o": [
+          "Đứng thẳng người chạy thật nhanh ngẩng mặt lên trần nhà",
+          "Mở toang tất cả các cửa sổ rồi ngồi chờ trong phòng ngủ",
+          "Dùng khăn ướt che kín mũi miệng, cúi người THẬT THẤP hoặc bò sát mặt sàn để tránh hít khói độc và men theo tường tìm lối thoát",
+          "Chui vào trốn kín dưới gầm giường hoặc bên trong tủ quần áo đóng kín"
+        ],
+        "k": "C",
+        "e": "Khói độc nhẹ bay bốc lên trần cao, sát mặt sàn không khí trong hơn và nhìn rõ đường hơn! Tuyệt đối KHÔNG trốn trong tủ!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Kĩ năng bò thấp thoát khói lửa"
+      },
+      {
+        "c": "LS3-B12-003",
+        "d": "basic",
+        "p": "Khi có chuông báo cháy vang lên trong tòa nhà chung cư cao tầng hoặc trung tâm thương mại, đường thoát hiểm AN TOÀN BẮT BUỘC phải đi là gì?",
+        "o": [
+          "Nhảy thẳng từ ban công tầng 5 xuống đất",
+          "Chạy ùa vào bấm thang máy để xuống tầng 1 cho nhanh",
+          "Đứng xếp hàng chờ thang máy suốt 15 phút",
+          "Bình tĩnh đi theo biển chỉ dẫn lối thoát hiểm màu XANH LÁ (EXIT) chạy xuống bằng CẦU THANG BỘ thoát hiểm, tuyệt đối KHÔNG đi thang máy!"
+        ],
+        "k": "D",
+        "e": "Khi có cháy, điện có thể cắt đột ngột làm kẹt chết trong thang máy và giếng thang máy thành ống hút khói! Luôn đi cầu thang bộ!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Đi thang bộ thoát hiểm khi cháy"
+      },
+      {
+        "c": "LS3-B12-004",
+        "d": "basic",
+        "p": "Khi đang đi học hay đi chơi ngoài trời bỗng gặp cơn MƯA GIÔNG SẤM SÉT đùng đoàng, nơi nào TUYỆT ĐỐI KHÔNG được đứng trú mưa vì cực dễ bị sét đánh?",
+        "o": [
+          "Ngồi nấp bên trong xe ô tô đóng kín cửa kính không chạm vỏ sắt",
+          "Trú trong hành lang lớp học có hệ thống chống sét",
+          "Chạy nhanh vào trú bên trong ngôi nhà kiên cố hoặc tòa nhà có mái che đóng cửa",
+          "KHÔNG đứng trú dưới gốc cây to cao đứng đơn độc ngoài đồng trống, KHÔNG đứng gần cột điện cao thế, bờ sông hồ hay cầm vật kim loại cao nhọn"
+        ],
+        "k": "D",
+        "e": "Cây to đứng lẻ loi ngoài trống là cột thu lôi hút tia sét cực mạnh! Vào nhà kín an toàn ngay khi nghe tiếng sấm từ xa!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Phòng tránh sét đánh khi mưa giông"
+      },
+      {
+        "c": "LS3-B12-005",
+        "d": "basic",
+        "p": "Nếu không may quần áo đang mặc bị bắt một đốm lửa nhỏ, kĩ năng sinh tồn 3 bước \"Dừng – Nằm – Lăn\" thực hiện thế nào?",
+        "o": [
+          "DỪNG LẠI ngay (không chạy làm gió thổi lửa bùng to hơn) -> NẰM NGAY xuống sàn đất -> LĂN QUA LĂN LẠI lấy tay che mặt cho tới khi lửa tắt hẳn",
+          "Chạy thục mạng khắp nhà vừa chạy vừa hét cho gió thổi tắt lửa",
+          "Cởi chạy vòng quanh bồn cây",
+          "Lấy quạt thổi vào người"
+        ],
+        "k": "A",
+        "e": "\"Stop – Drop – Roll\" (Dừng – Nằm – Lăn) làm ngạt ngọn lửa không có ô-xi chỉ trong vài giây thay vì chạy làm gió thổi bùng cháy!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Kĩ năng Dừng - Nằm - Lăn dập lửa"
+      },
+      {
+        "c": "LS3-B12-006",
+        "d": "basic",
+        "p": "Khi một bạn nhỏ bỗng bị CHẢY MÁU CAM (chảy máu mũi) trong lớp học do trời nóng hay ngoáy mũi, tư thế sơ cứu ĐÚNG NHẤT là gì?",
+        "o": [
+          "Chạy nhảy khắp sân trường",
+          "Nhét giấy báo bẩn hoặc bông gòn vụn thật sâu vào mũi",
+          "Ngửa cổ thật mạnh hết cỡ ra phía sau cho máu chảy xuống họng",
+          "Ngồi thẳng, HƠI CÚI ĐẦU VỀ TRƯỚC, bóp nhẹ phần cánh mũi mềm trong 5–10 phút, thở bằng miệng và báo cô giáo y tế giúp đỡ"
+        ],
+        "k": "D",
+        "e": "Ngửa cổ ra sau là sai lầm phổ biến làm máu chảy xuống cổ họng gây sặc nôn! Luôn cúi nhẹ đầu về trước và bóp cánh mũi mềm!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Sơ cứu đúng khi chảy máu cam"
+      },
+      {
+        "c": "LS3-B12-007",
+        "d": "application",
+        "p": "Đang ở trong căn hộ tầng 4, em ngửi thấy mùi khét và thấy khói đen bắt đầu luồn qua khe dưới cửa chính dẫn ra hành lang. Để kiểm tra xem bên ngoài hành lang có cháy lớn không trước khi vội mở cửa, mẹ dạy em thử bằng cách nào?",
+        "o": [
+          "Trốn vào tủ quần áo im thin thít",
+          "Mở toang ngay cánh cửa ra xem thử lửa to tới mức nào",
+          "Dùng mu bàn tay chạm nhẹ thử cánh cửa: nếu thấy nóng rực thì KHÔNG mở cửa, chèn khăn ướt vào khe cửa và ra ban công gọi 114",
+          "Nắm chặt tay vào tay nắm cửa đang nóng bỏng"
+        ],
+        "k": "C",
+        "e": "Dùng mu bàn tay thử nhiệt độ cánh cửa là kĩ năng phòng cháy chuẩn quốc tế tránh mở cửa gặp luồng lửa bùng vào phòng!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Thử nhiệt độ cửa trước khi mở khi cháy"
+      },
+      {
+        "c": "LS3-B12-008",
+        "d": "application",
+        "p": "Trước dự báo có một cơn BÃO LỚN sắp đổ bộ vào địa phương vào ngày mai, những việc thiết thực học sinh lớp 3 có thể phụ giúp bố mẹ chuẩn bị tối nay là gì?",
+        "o": [
+          "Thu gọn chậu cây ban công, sạc đầy đèn pin, xếp sách vở lên kệ cao và chuẩn bị nước sạch, thực phẩm khô cùng bố mẹ",
+          "Ra ngoài đường đứng đợi gió bão xem cây đổ",
+          "Mở toang tất cả các cửa kính ra đón gió bão",
+          "Cất hết đèn pin đi không cần chuẩn bị"
+        ],
+        "k": "A",
+        "e": "Chuẩn bị chủ động trước bão giảm thiểu tối đa thiệt hại rơi vỡ đồ đạc và giữ an toàn cho cả gia đình!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Chuẩn bị ứng phó trước cơn bão lớn"
+      },
+      {
+        "c": "LS3-B12-009",
+        "d": "application",
+        "p": "Câu lạc bộ Kĩ năng Sinh tồn Lớp 3 kiểm tra mức độ thực hành đúng các bước thoát hiểm và sơ cứu của 32 học sinh (biểu đồ dưới). Kĩ năng nào cả lớp nắm vững nhất và kĩ năng nào nhiều bạn còn làm nhầm cần sửa ngay?",
+        "o": [
+          "Dừng nằm lăn cao nhất; Gọi 114 thấp nhất",
+          "Cả 4 kĩ năng đều 30 bạn",
+          "Đi thang bộ khi cháy nhầm nhiều nhất; Bò thấp thấp nhất",
+          "Gọi số cứu hỏa 114 đúng nhất (30 bạn); Sơ cứu chảy máu cam đúng tư thế cúi đầu nhiều bạn còn nhầm nhất (chỉ 17 bạn đúng)"
+        ],
+        "k": "D",
+        "e": "Gần một nửa lớp vẫn còn thói quen cũ ngửa cổ khi chảy máu cam! Hãy ghi nhớ: \"Cúi nhẹ về trước – Bóp cánh mũi mềm\"!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Đọc biểu đồ Kĩ năng Sinh tồn",
+        "fig": {
+          "type": "bars",
+          "title": "Số bạn lớp 3 thực hành đúng (/32 bạn)",
+          "labels": [
+            "Gọi 114",
+            "Đi thang bộ",
+            "Bò thấp",
+            "Cúi đầu máu mũi"
+          ],
+          "series": [
+            {
+              "values": [
+                30,
+                28,
+                25,
+                17
+              ]
+            }
+          ],
+          "unit": "bạn"
+        }
+      },
+      {
+        "c": "LS3-B12-010",
+        "d": "application",
+        "p": "Khi chơi chạy đuổi trong sân trường, bạn An bị ngã trầy xước nhẹ đầu gối chảy rớm ít máu và dính ít cát bụi. Bước sơ cứu đầu tiên đúng chuẩn tại phòng y tế trường là gì?",
+        "o": [
+          "Rửa sạch nhẹ vết xước bằng nước sạch hoặc nước muối sinh lí cho trôi cát bụi, sát khuẩn nhẹ theo cô y tế rồi dán băng thoáng",
+          "Để nguyên cát đất bám đầy rồi dán chặt băng keo đen lên",
+          "Đổ cồn 90 độ đặc trực tiếp vào giữa vết thương hở",
+          "Bôi kem đánh răng và rắc tro bếp lên vết trầy"
+        ],
+        "k": "A",
+        "e": "Rửa trôi cát bẩn bằng nước sạch hoặc nước muối sinh lí là bước quan trọng nhất ngăn nhiễm trùng uốn ván vết trầy nhẹ!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Sơ cứu vết trầy xước nhẹ ngoài da"
+      },
+      {
+        "c": "LS3-B12-011",
+        "d": "application",
+        "p": "Nếu bạn nhỏ bị sưng bầm nhẹ ở cổ chân do vấp ngã trẹo chân nhẹ (không gãy xương biến dạng), trong 24 giờ đầu nên chườm gì để giảm sưng đau hiệu quả nhất?",
+        "o": [
+          "Ngồi yên kê cao chân, dùng túi vải bọc đá lạnh (chườm lạnh gián tiếp 10–15 phút qua lớp khăn, không áp đá trực tiếp lên da) và báo người lớn kiểm tra",
+          "Xoa bóp thật mạnh và bẻ kéo giật cổ chân liên tục",
+          "Bắt bạn đứng lên chạy nhảy thêm cho hết đau",
+          "Chườm chai nước sôi thật nóng ngay lập tức lên chỗ vừa sưng"
+        ],
+        "k": "A",
+        "e": "Nguyên tắc R-I-C-E sơ cứu bong gân nhẹ: Nghỉ ngơi – Chườm lạnh bọc khăn – Băng nhẹ – Kê cao chân!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Sơ cứu trẹo cổ chân nhẹ bằng chườm lạnh"
+      },
+      {
+        "c": "LS3-B12-012",
+        "d": "application",
+        "p": "Trong buổi thực tập diễn tập Phòng cháy chữa cháy toàn trường, chuông báo cháy reo lên giữa lúc lớp đang học Toán. Em cần thực hiện theo hiệu lệnh cô giáo thế nào?",
+        "o": [
+          "Cố thu dọn gom sạch 15 quyển sách đồ chơi vào cặp mất 5 phút mới chịu ra cửa",
+          "Chui vào nhà vệ sinh đóng cửa trốn lại một mình",
+          "Xô bạn đứng trước ngã nhào xuống cầu thang để chạy trước",
+          "Không hoảng loạn la hét xô đẩy, bỏ lại cặp sách nặng, xếp hàng nối đuôi di chuyển nhanh nhẹn men theo cầu thang bộ xuống tập kết tại điểm an toàn sân trường"
+        ],
+        "k": "D",
+        "e": "\"Tính mạng là trên hết – Bỏ lại đồ đạc, không xô đẩy, di chuyển trật tự theo lối thoát hiểm!\"",
+        "s": "Giáo dục lối sống 3",
+        "h": "Diễn tập thoát hiểm hỏa hoạn trường học"
+      },
+      {
+        "c": "LS3-B12-013",
+        "d": "advanced",
+        "p": "Trong tình huống hỏa hoạn khẩn cấp gọi số điện thoại 114 báo cho các chú Cảnh sát Phòng cháy chữa cháy và Cứu nạn cứu hộ, 3 thông tin QUAN TRỌNG NHẤT phải nói rõ thật nhanh là gì?",
+        "o": [
+          "1. Địa chỉ chính xác nơi đang cháy – 2. Cháy gì, có ai mắc kẹt không – 3. Tên và số điện thoại người gọi trước khi cúp máy",
+          "Hỏi chú cứu hỏa hôm nay chú ăn cơm chưa",
+          "Chỉ hét \"Cứu với!\" rồi cúp máy ngay không nói địa chỉ",
+          "1. Kể tên tất cả bạn cùng lớp – 2. Kể tên bộ phim vừa xem – 3. Đọc bài thơ dài"
+        ],
+        "k": "A",
+        "e": "Nói rõ ĐỊA CHỈ CHÍNH XÁC đầu tiên giúp xe cứu hỏa xuất phát ngay trong 30 giây vàng!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Thông tin vàng khi gọi cứu hỏa 114"
+      },
+      {
+        "c": "LS3-B12-014",
+        "d": "advanced",
+        "p": "Vì sao khi xảy ra lũ lụt dâng cao hoặc sạt lở đất vùng núi sau mưa lớn nhiều ngày, người dân tuyệt đối không nên cố bơi lội hoặc chèo bè tự chế ra giữa dòng nước lũ đục ngầu để vớt củi hay đồ đạc?",
+        "o": [
+          "Vì nước lũ làm ướt quần áo khó phơi khô",
+          "Vì củi vớt lên không nấu được cơm",
+          "Chỉ không nên vớt củi vào buổi trưa",
+          "Vì dòng nước lũ chảy xiết ẩn chứa xoáy ngầm, cành cây ngầm va đập và đất bờ sông sụt lở bất ngờ cuốn trôi người ngay lập tức; giữ an toàn tính mạng là trên hết"
+        ],
+        "k": "D",
+        "e": "Tuyệt đối không tiếc của cải vớt đồ giữa dòng nước lũ hay đi qua ngầm tràn khi nước chảy xiết!",
+        "s": "Giáo dục lối sống 3",
+        "h": "An toàn tuyệt đối trong mưa lũ"
+      },
+      {
+        "c": "LS3-B12-015",
+        "d": "advanced",
+        "p": "Hoàn thành trọn vẹn 12 bài Giáo dục lối sống Lớp 3 (và cả bậc Lớp 1–2–3), em hãy chọn 4 phẩm chất vàng làm hành trang tự hào bước lên Lớp 4:",
+        "o": [
+          "Tự chủ kế hoạch & tự giác – Tiêu dùng thông minh & sống Xanh – Tôn trọng khác biệt & làm chủ cảm xúc – Văn minh giao thông & vững kĩ năng sinh tồn",
+          "Chỉ biết học vẹt không làm việc nhà – Thích mua đồ đắt – Nóng giận đánh bạn",
+          "Chơi màn hình suốt đêm – Xả rác nhựa thoải mái",
+          "Sợ hãi mọi thứ không dám làm việc gì tự lập"
+        ],
+        "k": "A",
+        "e": "Chúc mừng em hoàn thành xuất sắc trọn bộ Giáo dục lối sống Lớp 1–2–3! Em đã sẵn sàng bứt phá Lớp 4 thật tự tin!",
+        "s": "Giáo dục lối sống 3",
+        "h": "Tổng kết Lối sống Tiểu học 1-2-3"
+      }
+    ]
+  }
+]

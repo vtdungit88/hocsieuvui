@@ -1,0 +1,5008 @@
+[
+  {
+    "chapter": "amnhac1-c1",
+    "lesson": {
+      "code": "amnhac1-b01",
+      "title": "Bài 1. Khám phá Âm thanh Quanh em & Tiếng Trống trường",
+      "seq": 1,
+      "subtitle": "Phân biệt âm thanh tự nhiên, âm thanh cuộc sống và nhịp trống trường rộn ràng ngày khai giảng",
+      "concepts": [
+        "Âm thanh tự nhiên",
+        "Âm thanh nhạc cụ",
+        "Tiếng trống trường"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN1-B01-001",
+        "d": "basic",
+        "p": "Âm thanh nào dưới đây là ÂM THANH TỰ NHIÊN xuất hiện ngoài thiên nhiên, không do con người chế tạo máy móc phát ra?",
+        "o": [
+          "Tiếng trống điện tử trong phòng nhạc",
+          "Tiếng còi xe ô tô ngoài đường",
+          "Tiếng chuông điện thoại reo",
+          "Tiếng chim hót líu lo và tiếng gió thổi xào xạc qua kẽ lá"
+        ],
+        "k": "D",
+        "e": "Tiếng chim hót, tiếng suối chảy, tiếng mưa rơi là âm thanh tự nhiên.",
+        "s": "Âm thanh tự nhiên",
+        "fig": {
+          "type": "table",
+          "title": "Phân loại Âm thanh",
+          "head": [
+            "Nhóm",
+            "Ví dụ quen thuộc"
+          ],
+          "rows": [
+            [
+              "Tự nhiên",
+              "Mưa rơi, chim hót"
+            ],
+            [
+              "Sinh hoạt",
+              "Bước chân, còi xe"
+            ],
+            [
+              "Nhạc cụ",
+              "Trống, đàn, sáo"
+            ],
+            [
+              "Giọng hát",
+              "Bé hát đồng dao"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN1-B01-002",
+        "d": "basic",
+        "p": "Mỗi buổi sáng đến trường, tiếng trống \"Tùng! Tùng! Tùng!\" vang lên từ chiếc trống da ở sân trường có ý nghĩa báo hiệu điều gì?",
+        "o": [
+          "Báo hiệu trời sắp có bão",
+          "Báo hiệu giờ vào lớp học, giờ ra chơi hoặc lúc tập trung chào cờ",
+          "Báo hiệu giờ đi ngủ buổi tối",
+          "Báo hiệu tàu hỏa sắp chạy qua"
+        ],
+        "k": "B",
+        "e": "Tiếng trống trường quen thuộc giúp học sinh thực hiện đúng nề nếp giờ học và giờ ra chơi.",
+        "s": "Âm thanh trường học"
+      },
+      {
+        "c": "AN1-B01-003",
+        "d": "basic",
+        "p": "Trong giờ Âm nhạc lớp 1, âm thanh nào phát ra từ cơ thể chính chúng ta khi giữ nhịp cho bài hát?",
+        "o": [
+          "Tiếng sấm rền trên bầu trời",
+          "Tiếng máy bay phản lực",
+          "Tiếng sóng biển vỗ bờ đá",
+          "Tiếng vỗ tay đều đặn và tiếng hát trong trẻo"
+        ],
+        "k": "D",
+        "e": "Giọng hát và tiếng vỗ tay là hai \"nhạc cụ tự nhiên\" gần gũi nhất của con người.",
+        "s": "Nhạc cụ cơ thể"
+      },
+      {
+        "c": "AN1-B01-004",
+        "d": "basic",
+        "p": "Khi nghe tiếng còi xe cứu thương \"Í o... í o...\" vang lên trên đường, chúng ta cảm nhận tính chất âm thanh như thế nào?",
+        "o": [
+          "Âm thanh không thể nghe thấy",
+          "Âm thanh giống tiếng lá rụng nhẹ nhàng",
+          "Âm thanh to, cao và dồn dập để báo hiệu khẩn cấp nhường đường",
+          "Âm thanh rất nhỏ, thì thầm ru ngủ"
+        ],
+        "k": "C",
+        "e": "Âm thanh báo hiệu khẩn cấp luôn có cường độ to và dễ nhận biết từ xa.",
+        "s": "Cảm thụ âm thanh"
+      },
+      {
+        "c": "AN1-B01-005",
+        "d": "basic",
+        "p": "Khi nghe nhạc và vỗ tay theo tiếng trống trường \"Tùng – tùng – tùng – tùng\" đều nhau, em đang cảm nhận yếu tố nào của âm nhạc?",
+        "o": [
+          "Cân nặng của cái dùi trống",
+          "Nhịp điệu đều đặn của âm thanh",
+          "Mùi thơm của gỗ làm trống",
+          "Màu sắc của cái trống"
+        ],
+        "k": "B",
+        "e": "Sự lặp lại đều đặn của các tiếng gõ tạo nên nhịp điệu âm nhạc.",
+        "s": "Nhịp điệu cơ bản"
+      },
+      {
+        "c": "AN1-B01-006",
+        "d": "basic",
+        "p": "Để giữ trật tự khi nghe cô giáo hát mẫu một bài hát mới, cả lớp cần làm gì?",
+        "o": [
+          "Nói chuyện ồn ào với bạn bên cạnh",
+          "Gõ bàn thật mạnh liên tục",
+          "Ngồi ngay ngắn, lắng nghe chăm chú giai điệu và lời ca cô giáo hát",
+          "Chạy quanh lớp học"
+        ],
+        "k": "C",
+        "e": "Lắng nghe tập trung giúp em nhớ giai điệu và hát đúng ngay từ lần đầu.",
+        "s": "Thói quen nghe nhạc"
+      },
+      {
+        "c": "AN1-B01-007",
+        "d": "application",
+        "p": "Bạn Minh muốn mô phỏng tiếng MƯA RƠI từ lúc lất phất đến lúc mưa rào bằng bàn tay. Cách làm nào tạo hiệu ứng giống tiếng mưa nhất?",
+        "o": [
+          "Hét thật to một tiếng rồi im lặng",
+          "Ném quyển vở xuống nền gạch",
+          "Ban đầu gõ nhẹ một ngón tay lên lòng bàn tay, sau đó tăng dần sang hai, ba ngón rồi vỗ cả bàn tay đều và nhanh hơn",
+          "Đứng yên không cử động ngón tay nào"
+        ],
+        "k": "C",
+        "e": "Thay đổi số ngón tay vỗ tạo âm lượng tăng dần rất giống cơn mưa từ nhỏ đến lớn!",
+        "s": "Sáng tạo âm thanh mưa",
+        "fig": {
+          "type": "bars",
+          "title": "Cường độ tiếng mưa mô phỏng",
+          "labels": [
+            "1 ngón",
+            "2 ngón",
+            "4 ngón",
+            "Vỗ tay"
+          ],
+          "series": [
+            {
+              "values": [
+                2,
+                4,
+                7,
+                10
+              ]
+            }
+          ],
+          "unit": "mức to"
+        }
+      },
+      {
+        "c": "AN1-B01-008",
+        "d": "application",
+        "p": "Khi đọc bài đồng dao \"Chi chi chành chành\" kết hợp vỗ tay đều từng chữ, mỗi nhịp vỗ tay ứng với điều gì?",
+        "o": [
+          "Ứng với đều đặn từng phách nhịp giữ cho cả nhóm đọc khớp cùng một tốc độ",
+          "Mỗi bạn vỗ một kiểu nhanh chậm khác nhau",
+          "Vỗ tay khi đã đọc xong bài",
+          "Chỉ vỗ tay một cái ở chữ cuối cùng"
+        ],
+        "k": "A",
+        "e": "Gõ phách đều giúp tập thể giữ chung một nhịp, không bị chạy nhanh hay chậm.",
+        "s": "Đọc đồng dao theo nhịp"
+      },
+      {
+        "c": "AN1-B01-009",
+        "d": "application",
+        "p": "Trong lớp có hai âm thanh vang lên cùng lúc: tiếng trống cái gõ \"TÙNG\" trầm ấm và tiếng chuông nhỏ rung \"KENG\" thanh cao. Âm thanh nào nghe cao và trong trẻo hơn?",
+        "o": [
+          "Tiếng chuông nhỏ rung \"KENG\"",
+          "Tiếng trống cái \"TÙNG\"",
+          "Không âm thanh nào phát ra tiếng",
+          "Hai âm thanh cao giống hệt nhau"
+        ],
+        "k": "A",
+        "e": "Chuông kim loại nhỏ rung nhanh tạo âm thanh cao, thanh; trống da to tạo âm thanh trầm, vang.",
+        "s": "So sánh cao độ"
+      },
+      {
+        "c": "AN1-B01-010",
+        "d": "application",
+        "p": "Nhóm bạn Hoa chơi trò chơi đoán âm thanh: Bạn Lan bịt mắt nghe tiếng lắc hạt đậu trong chai nhựa. Bạn Lan dựa vào giác quan nào để nhận ra âm thanh?",
+        "o": [
+          "Khứu giác (cái mũi ngửi)",
+          "Thị giác (đôi mắt nhìn)",
+          "Vị giác (đầu lưỡi nếm)",
+          "Thính giác (đôi tai lắng nghe)"
+        ],
+        "k": "D",
+        "e": "Đôi tai (thính giác) là cơ quan tiếp nhận âm thanh giúp chúng ta thưởng thức âm nhạc.",
+        "s": "Cảm thụ bằng thính giác"
+      },
+      {
+        "c": "AN1-B01-011",
+        "d": "application",
+        "p": "Trong giờ chào cờ đầu tuần, cả trường hát Quốc ca theo tiếng trống đội dẫn nhịp. Em cần hát với thái độ và âm lượng thế nào?",
+        "o": [
+          "Vừa hát vừa nhai kẹo cao su",
+          "Đứng quay lưng lại phía lễ đài",
+          "Cười đùa và hát thật nhanh vượt trước mọi người",
+          "Đứng nghiêm trang, mắt hướng Quốc kì, hát rõ lời và đều nhịp với các bạn"
+        ],
+        "k": "D",
+        "e": "Hát Quốc ca đúng nhịp và trang nghiêm thể hiện lòng yêu nước và tự hào của học sinh.",
+        "s": "Thái độ âm nhạc"
+      },
+      {
+        "c": "AN1-B01-012",
+        "d": "application",
+        "p": "Nếu em muốn dùng hai chiếc thìa inox hoặc hai viên sỏi nhẵn tạo âm thanh \"Lách cách\" vui tai khi đi dã ngoại, cách gõ nào an toàn và vang hay nhất?",
+        "o": [
+          "Cắn thử thìa inox bằng răng",
+          "Ném hai viên sỏi ra xa thật mạnh",
+          "Cầm chắc tay, gõ nhẹ đều hai mặt thìa hoặc viên sỏi vào nhau theo nhịp bài hát",
+          "Đập mạnh làm móp đồ dùng"
+        ],
+        "k": "C",
+        "e": "Hai thanh gỗ, thìa hoặc sỏi gõ nhẹ đều nhau có thể trở thành thanh phách thiên nhiên thú vị!",
+        "s": "Nhạc cụ tự nhiên an toàn"
+      },
+      {
+        "c": "AN1-B01-013",
+        "d": "advanced",
+        "p": "Cô giáo gõ trống trường theo tiết tấu: \"Tùng – tùng – tùng tùng – tùng\" (1 tiếng chậm, 1 tiếng chậm, 2 tiếng nhanh, 1 tiếng chậm) rồi lặp lại 4 lần liên tiếp. Hỏi cô giáo đã gõ tất cả bao nhiêu tiếng trống?",
+        "o": [
+          "24 tiếng trống",
+          "20 tiếng trống",
+          "12 tiếng trống",
+          "16 tiếng trống"
+        ],
+        "k": "B",
+        "e": "Mỗi lần lặp có 1 + 1 + 2 + 1 = 5 tiếng trống. Lặp lại 4 lần: 5 x 4 = 20 tiếng trống.",
+        "s": "Đếm tiết tấu"
+      },
+      {
+        "c": "AN1-B01-014",
+        "d": "advanced",
+        "p": "Vì sao các nghệ sĩ khi biểu diễn trên sân khấu phải luôn lắng nghe nhau thay vì mỗi người hát một tốc độ riêng?",
+        "o": [
+          "Để giọng hát và tiếng nhạc cụ hòa quyện ăn khớp, tạo nên bản nhạc chung hay và thống nhất",
+          "Để che giấu giọng hát của bản thân",
+          "Vì quy định bắt buộc phải đứng thật gần nhau",
+          "Vì micro chỉ thu được một người"
+        ],
+        "k": "A",
+        "e": "Lắng nghe lẫn nhau là kĩ năng vàng giúp mọi dàn nhạc và nhóm hát hòa điệu.",
+        "s": "Kĩ năng hòa tấu"
+      },
+      {
+        "c": "AN1-B01-015",
+        "d": "advanced",
+        "p": "Khi nghe bản nhạc \"Tiếng trống trường em\" có đoạn nhanh rộn ràng lúc tan trường và đoạn êm dịu khi giờ học bắt đầu, sự thay đổi nhanh chậm đó giúp ích gì cho bài hát?",
+        "o": [
+          "Làm người nghe bị quên lời bài hát",
+          "Khiến nhạc công không thể chơi được",
+          "Làm bài hát ngắn đi một nửa",
+          "Làm bài hát sinh động, diễn tả đúng cảm xúc vui tươi hay êm ái của từng cảnh"
+        ],
+        "k": "D",
+        "e": "Sự thay đổi tốc độ và sắc thái giúp âm nhạc kể câu chuyện giàu cảm xúc hơn.",
+        "s": "Sắc thái âm nhạc"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac1-c1",
+    "lesson": {
+      "code": "amnhac1-b02",
+      "title": "Bài 2. Học hát: Lớp Một thân yêu",
+      "seq": 2,
+      "subtitle": "Học hát đúng giai điệu, lời ca bài Lớp Một thân yêu với sắc thái vui tươi, hồn nhiên ngày đầu tới trường",
+      "concepts": [
+        "Tư thế hát đúng",
+        "Lấy hơi khi hát",
+        "Sắc thái vui tươi"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN1-B02-001",
+        "d": "basic",
+        "p": "Bài hát thiếu nhi quen thuộc \"Lớp Một thân yêu\" (sáng tác của nhạc sĩ Bùi Anh Tôn) nói về niềm vui nào của các bạn nhỏ?",
+        "o": [
+          "Nỗi buồn khi phải nghỉ hè ở nhà",
+          "Niềm vui háo hức được bước vào lớp Một, gặp thầy cô, bạn mới và mái trường mến yêu",
+          "Câu chuyện đi câu cá ngoài biển khơi",
+          "Cảnh thu hoạch lúa trên đồng"
+        ],
+        "k": "B",
+        "e": "Bài hát ca ngợi niềm hân hoan của học sinh lớp Một trong ngôi trường mới.",
+        "s": "Nội dung bài hát"
+      },
+      {
+        "c": "AN1-B02-002",
+        "d": "basic",
+        "p": "Để hát hay và khỏe hơi khi đứng hát bài \"Lớp Một thân yêu\", em cần giữ TƯ THẾ ĐỨNG như thế nào?",
+        "o": [
+          "Cúi gằm mặt xuống đất, hai vai rụt lại",
+          "Đứng thẳng lưng thoải mái, hai tay thả lỏng tự nhiên hoặc múa nhẹ, mắt nhìn thẳng",
+          "Ngồi xổm xuống sàn nhà",
+          "Ngả người ra sau, hai tay đút túi quần"
+        ],
+        "k": "B",
+        "e": "Tư thế thẳng lưng giúp cột hơi thông thoáng, âm thanh vang sáng và đẹp mắt khi biểu diễn.",
+        "s": "Tư thế hát",
+        "fig": {
+          "type": "table",
+          "title": "Kĩ thuật hát cơ bản",
+          "head": [
+            "Yếu tố",
+            "Thực hiện đúng"
+          ],
+          "rows": [
+            [
+              "Tư thế",
+              "Thẳng lưng tự nhiên"
+            ],
+            [
+              "Lấy hơi",
+              "Nhẹ nhàng giữa câu"
+            ],
+            [
+              "Khẩu hình",
+              "Mở tròn, phát âm rõ"
+            ],
+            [
+              "Sắc thái",
+              "Vui tươi, hồn nhiên"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN1-B02-003",
+        "d": "basic",
+        "p": "Khi hát nối từ câu hát thứ nhất sang câu hát thứ hai, em nên thực hiện thao tác LẤY HƠI ở đâu để không bị ngắt quãng giữa chữ?",
+        "o": [
+          "Ngừng hát 5 giây giữa mỗi tiếng",
+          "Hít thở thật ồn ào ngay giữa một từ",
+          "Lấy hơi nhẹ nhàng ở cuối câu hát (chỗ dấu phẩy hoặc hết câu) trước khi sang câu mới",
+          "Nín thở từ đầu bài đến hết bài không thở"
+        ],
+        "k": "C",
+        "e": "Lấy hơi đúng chỗ ngắt câu giúp câu hát liền mạch, mềm mại và giữ đúng ý nghĩa lời ca.",
+        "s": "Kĩ thuật lấy hơi"
+      },
+      {
+        "c": "AN1-B02-004",
+        "d": "basic",
+        "p": "Sắc thái biểu cảm phù hợp nhất khi hát bài \"Lớp Một thân yêu\" là gì?",
+        "o": [
+          "Giận dữ, quát tháo thật to",
+          "Thì thầm thật nhỏ không ra tiếng",
+          "Vui tươi, nhí nhảnh, rộn ràng và đầy tự hào",
+          "Buồn bã, chậm chạp và u sầu"
+        ],
+        "k": "C",
+        "e": "Sắc thái vui tươi thể hiện trọn vẹn niềm vui ngày tựu trường của học sinh lớp Một.",
+        "s": "Sắc thái bài hát"
+      },
+      {
+        "c": "AN1-B02-005",
+        "d": "basic",
+        "p": "Trong lớp học hát, hình thức \"HÁT ĐỒNG CA\" có nghĩa là gì?",
+        "o": [
+          "Chỉ một bạn hát, cả lớp ngồi im",
+          "Nhiều bạn hoặc cả lớp cùng cất tiếng hát hòa nhịp một bài hát với nhau",
+          "Mỗi bạn hát một bài khác nhau",
+          "Cả lớp chỉ gõ bàn không hát"
+        ],
+        "k": "B",
+        "e": "Hát đồng ca rèn luyện tinh thần đoàn kết và sự hòa giọng nhịp nhàng của tập thể.",
+        "s": "Hình thức biểu diễn"
+      },
+      {
+        "c": "AN1-B02-006",
+        "d": "basic",
+        "p": "Khi hát, chúng ta cần mở KHẨU HÌNH (miệng) như thế nào để tiếng hát tròn vành rõ chữ?",
+        "o": [
+          "Che miệng bằng hai bàn tay",
+          "Ngậm chặt răng không mở miệng",
+          "Mở miệng tự nhiên, linh hoạt theo từng vần chữ, không mím chặt môi hay há quá căng",
+          "Nheo mắt và mím môi khi hát"
+        ],
+        "k": "C",
+        "e": "Khẩu hình tự nhiên, rõ ràng giúp âm thanh thoát ra sáng đẹp và người nghe hiểu rõ lời ca.",
+        "s": "Khẩu hình khi hát"
+      },
+      {
+        "c": "AN1-B02-007",
+        "d": "application",
+        "p": "Trong câu hát \"Kìa tiếng trống trường vang giục giã, bước chân em tới trường...\", nếu em hát với giọng gắt gỏng, hét lớn thay vì hát vang vừa phải, điều gì sẽ xảy ra?",
+        "o": [
+          "Cổ họng sẽ khỏe hơn gấp đôi",
+          "Giọng hát bị thô, dễ khàn tiếng và mất đi nét hồn nhiên vui tươi của bài hát",
+          "Bài hát sẽ chuyển thành nhạc buồn",
+          "Giọng hát sẽ trở nên dịu dàng hơn"
+        ],
+        "k": "B",
+        "e": "Hát quá sức dễ làm tổn thương dây thanh quản và làm mất vẻ đẹp trong sáng của giọng thiếu nhi.",
+        "s": "Bảo vệ giọng hát"
+      },
+      {
+        "c": "AN1-B02-008",
+        "d": "application",
+        "p": "Cô giáo chia lớp thành 2 dãy: Dãy 1 hát câu đầu, Dãy 2 hát nối tiếp câu sau, rồi cả lớp cùng hát đoạn điệp khúc. Hình thức hát này gọi là gì?",
+        "o": [
+          "Hát đơn ca một mình",
+          "Hát nối tiếp kết hợp đồng ca",
+          "Chỉ nghe nhạc không lời",
+          "Đọc thầm trong đầu"
+        ],
+        "k": "B",
+        "e": "Hát nối tiếp giúp các bạn tập trung lắng nghe bạn hát trước để vào nhịp thật chính xác.",
+        "s": "Hình thức hát đối đáp"
+      },
+      {
+        "c": "AN1-B02-009",
+        "d": "application",
+        "p": "Để phần biểu diễn bài \"Lớp Một thân yêu\" trên sân khấu sinh động hơn, động tác phụ họa nào phù hợp với câu hát về bước chân đến trường?",
+        "o": [
+          "Quay lưng lại phía khán giả",
+          "Đứng khoanh tay nghiêm nghị không nhúc nhích",
+          "Nằm lăn ra giữa sân khấu",
+          "Bước nhún nhẹ tại chỗ theo nhịp, tay vung nhẹ vui vẻ và nở nụ cười tươi"
+        ],
+        "k": "D",
+        "e": "Động tác minh họa nhẹ nhàng theo nội dung lời ca tạo sức hút tự nhiên cho tiết mục.",
+        "s": "Vận động phụ họa"
+      },
+      {
+        "c": "AN1-B02-010",
+        "d": "application",
+        "p": "Nếu lớp học có 2 bạn cùng lên bục biểu diễn song ca, hai bạn cần chú ý điều gì nhất?",
+        "o": [
+          "Hát cùng tốc độ nhịp, nhìn nhau ra hiệu lúc bắt đầu và kết thúc cho đều",
+          "Mỗi bạn hát một câu khác tông nhau",
+          "Hai bạn đứng quay mặt hai hướng ngược nhau",
+          "Bạn này cố hát thật nhanh để xong trước bạn kia"
+        ],
+        "k": "A",
+        "e": "Song ca đòi hỏi sự ăn ý về nhịp độ, cao độ và biểu cảm đồng điệu.",
+        "s": "Kĩ năng song ca"
+      },
+      {
+        "c": "AN1-B02-011",
+        "d": "application",
+        "p": "Một bạn học sinh hay bị hụt hơi ở cuối câu hát dài. Cô giáo nên khuyên bạn cách luyện tập nào?",
+        "o": [
+          "Uống nước đá lạnh ngay trước giờ hát",
+          "Nín thở 30 giây trước khi hát",
+          "Hít hơi nhẹ đủ sâu bằng mũi và miệng trước khi vào câu và điều tiết hơi ra đều đặn",
+          "Hát thật nhanh một lèo nuốt hết chữ"
+        ],
+        "k": "C",
+        "e": "Điều tiết hơi thở đều giúp câu hát vang đủ dài mà không bị đuối cuối câu.",
+        "s": "Điều tiết hơi thở"
+      },
+      {
+        "c": "AN1-B02-012",
+        "d": "application",
+        "p": "Biểu đồ ghi nhận số bạn chọn nhạc cụ gõ đệm khi hát bài \"Lớp Một thân yêu\" ở lớp 1A. Nhạc cụ nào được nhiều bạn chọn nhất?",
+        "o": [
+          "Chuông lắc (4 bạn)",
+          "Trống nhỏ (8 bạn)",
+          "Song loan (6 bạn)",
+          "Thanh phách (14 bạn)"
+        ],
+        "k": "D",
+        "e": "Quan sát cột cao nhất trên biểu đồ là cột Thanh phách với 14 bạn.",
+        "s": "Đọc biểu đồ lớp học",
+        "fig": {
+          "type": "bars",
+          "title": "Nhạc cụ lớp 1A chọn",
+          "labels": [
+            "Thanh phách",
+            "Trống nhỏ",
+            "Song loan",
+            "Chuông lắc"
+          ],
+          "series": [
+            {
+              "values": [
+                14,
+                8,
+                6,
+                4
+              ]
+            }
+          ],
+          "unit": "bạn"
+        }
+      },
+      {
+        "c": "AN1-B02-013",
+        "d": "advanced",
+        "p": "Một đoạn hát có 4 câu, mỗi câu hát mất 4 phách nhịp đều nhau, thêm 2 phách nhạc dạo đầu. Hỏi cả đoạn hát cộng nhạc dạo dài tất cả bao nhiêu phách?",
+        "o": [
+          "14 phách",
+          "18 phách",
+          "20 phách",
+          "16 phách"
+        ],
+        "k": "B",
+        "e": "4 câu x 4 phách = 16 phách; cộng 2 phách dạo đầu = 18 phách.",
+        "s": "Tính số phách"
+      },
+      {
+        "c": "AN1-B02-014",
+        "d": "advanced",
+        "p": "Tại sao trước khi cả lớp cùng cất tiếng hát đồng ca, cô giáo thường bắt nhịp \"Một, hai!\" hoặc đàn một câu nhạc dạo ngắn?",
+        "o": [
+          "Để cả lớp thống nhất trước tốc độ nhanh chậm và cao độ chuẩn để vào hát cùng lúc",
+          "Để làm kéo dài thời gian tiết học",
+          "Để các bạn tự chọn bài khác nhau",
+          "Để kiểm tra xem loa có hỏng không"
+        ],
+        "k": "A",
+        "e": "Nhạc dạo và tiếng bắt nhịp tạo \"tín hiệu xuất phát\" chung cho toàn bộ người hát.",
+        "s": "Vai trò nhạc dạo"
+      },
+      {
+        "c": "AN1-B02-015",
+        "d": "advanced",
+        "p": "Em hãy chọn nhận xét đúng nhất về mối liên hệ giữa lời ca và giai điệu trong bài hát thiếu nhi:",
+        "o": [
+          "Lời ca càng khó hiểu thì giai điệu càng hay",
+          "Chỉ cần nói nhanh không cần cao độ cũng thành bài hát",
+          "Giai điệu và lời ca không liên quan gì đến nhau",
+          "Giai điệu lên xuống hài hòa theo thanh điệu tiếng Việt giúp lời ca dễ nhớ, dễ hát và giàu cảm xúc"
+        ],
+        "k": "D",
+        "e": "Bài hát hay là sự kết hợp nhuần nhuyễn giữa giai điệu đẹp và ca từ trong sáng phù hợp lứa tuổi.",
+        "s": "Cảm thụ tác phẩm"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac1-c1",
+    "lesson": {
+      "code": "amnhac1-b03",
+      "title": "Bài 3. Nhạc cụ gõ: Thanh phách và Trống nhỏ",
+      "seq": 3,
+      "subtitle": "Nhận biết cấu tạo, cách cầm và kĩ thuật gõ đệm theo phách bằng thanh phách và trống nhỏ",
+      "concepts": [
+        "Thanh phách tre gỗ",
+        "Trống nhỏ và dùi gõ",
+        "Gõ đệm theo phách"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN1-B03-001",
+        "d": "basic",
+        "p": "Nhạc cụ \"Thanh phách\" quen thuộc trong trường tiểu học được làm từ chất liệu gì và gồm mấy thanh?",
+        "o": [
+          "Gồm 2 thanh gỗ hoặc thanh tre ngắn vát nhẵn gõ vào nhau",
+          "Gồm 6 dây thép căng trên thùng gỗ lớn",
+          "Gồm 1 ống nhựa dài có nhiều lỗ bấm",
+          "Gồm 1 tấm vải mỏng phất phơ"
+        ],
+        "k": "A",
+        "e": "Thanh phách truyền thống gồm hai thanh tre hoặc gỗ cứng phát ra âm thanh \"cách, cách\" giòn tan.",
+        "s": "Nhận biết Thanh phách",
+        "fig": {
+          "type": "table",
+          "title": "Hai nhạc cụ gõ Lớp 1",
+          "head": [
+            "Nhạc cụ",
+            "Cách tạo âm thanh"
+          ],
+          "rows": [
+            [
+              "Thanh phách",
+              "Gõ hai thanh gỗ"
+            ],
+            [
+              "Trống nhỏ",
+              "Gõ dùi lên mặt trống"
+            ],
+            [
+              "Đặc điểm",
+              "Giữ nhịp bài hát"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN1-B03-002",
+        "d": "basic",
+        "p": "Cách cầm thanh phách đúng nhất để âm thanh vang giòn mà tay không bị mỏi là gì?",
+        "o": [
+          "Đặt thanh phách xuống sàn rồi giẫm chân lên",
+          "Kẹp thanh phách vào khuỷu tay",
+          "Nắm chặt cả hai thanh trong một bàn tay",
+          "Mỗi tay cầm nhẹ một đầu thanh phách bằng ngón cái và các ngón còn lại, gõ phần thân hai thanh vào nhau"
+        ],
+        "k": "D",
+        "e": "Cầm nhẹ ở một đầu giúp phần thân thanh phách rung tự do, âm thanh vang giòn và rõ nhất.",
+        "s": "Cách cầm thanh phách"
+      },
+      {
+        "c": "AN1-B03-003",
+        "d": "basic",
+        "p": "Chiếc TRỐNG NHỎ (trống cầm tay học sinh) phát ra tiếng \"Tùng, tùng\" nhờ bộ phận nào rung động khi gõ dùi?",
+        "o": [
+          "Phần đáy rỗng phía dưới",
+          "Mặt trống căng phẳng trên tang trống",
+          "Cái dây đeo bằng vải",
+          "Nút sơn màu trên quai cầm"
+        ],
+        "k": "B",
+        "e": "Khi dùi gõ chạm vào mặt trống căng, mặt trống dao động phát ra âm thanh vang giòn.",
+        "s": "Cấu tạo trống nhỏ"
+      },
+      {
+        "c": "AN1-B03-004",
+        "d": "basic",
+        "p": "Khi gõ trống nhỏ đệm cho bài hát thiếu nhi, ta nên gõ dùi vào vị trí nào trên mặt trống để âm thanh tròn và bảo vệ mặt trống bền nhất?",
+        "o": [
+          "Gõ hai cái dùi vào đầu bạn",
+          "Vào phần giữa tâm mặt trống một cách vừa phải, không chọc nhọn dùi vào sát mép rìa",
+          "Đâm mạnh đầu dùi vuông góc cho rách mặt trống",
+          "Chỉ gõ vào tay cầm bằng nhựa"
+        ],
+        "k": "B",
+        "e": "Gõ vào giữa mặt trống tạo tiếng vang cân đối và tránh làm rách hoặc lún viền mặt trống.",
+        "s": "Kĩ thuật gõ trống"
+      },
+      {
+        "c": "AN1-B03-005",
+        "d": "basic",
+        "p": "Ngoài việc dùng thanh phách, học sinh có thể tự tạo ra âm thanh gõ phách tương tự ngay tại bàn học bằng động tác nào?",
+        "o": [
+          "Nháy mắt liên tục",
+          "Vỗ hai bàn tay vào nhau đều nhịp",
+          "Giơ ngón trỏ lên trời im lặng",
+          "Lắc đầu qua lại thật nhanh"
+        ],
+        "k": "B",
+        "e": "Vỗ tay là cách gõ đệm cơ thể tiện lợi nhất mọi lúc mọi nơi.",
+        "s": "Gõ đệm bằng vỗ tay"
+      },
+      {
+        "c": "AN1-B03-006",
+        "d": "basic",
+        "p": "Trong buổi tập nhạc, khi cô giáo hô \"Nghỉ!\", động tác chuẩn khi đang cầm thanh phách hoặc dùi trống là gì?",
+        "o": [
+          "Ngừng gõ ngay lập tức và đặt gọn nhạc cụ trước ngực hoặc trên bàn",
+          "Đập thanh phách xuống ghế",
+          "Vẫn tiếp tục gõ thật to cho đến khi hết giờ",
+          "Ném thanh phách sang bàn bạn"
+        ],
+        "k": "A",
+        "e": "Ngừng gõ đúng hiệu lệnh giúp giữ kỉ luật chung và luyện khả năng kiểm soát nhạc cụ.",
+        "s": "Kỉ luật nhạc cụ"
+      },
+      {
+        "c": "AN1-B03-007",
+        "d": "application",
+        "p": "Bạn An cầm thanh phách gõ đệm cho bài hát theo mẫu: Phách 1 gõ mạnh \"CÁCH\", Phách 2 gõ nhẹ \"cách\" rồi lặp lại đều đặn. Cách gõ này tạo hiệu ứng gì cho bài hát?",
+        "o": [
+          "Làm tất cả các tiếng đều to chói tai như nhau",
+          "Làm bài hát mất hết nhịp",
+          "Tạo ra nhấn nhá rõ phách mạnh – phách nhẹ, giúp giai điệu sinh động có bước nhịp rõ ràng",
+          "Làm bạn An hát sai lời"
+        ],
+        "k": "C",
+        "e": "Phân biệt phách mạnh và phách nhẹ là nền tảng của nhịp hành khúc và nhịp thiếu nhi vui tươi.",
+        "s": "Phách mạnh – Phách nhẹ"
+      },
+      {
+        "c": "AN1-B03-008",
+        "d": "application",
+        "p": "Nếu một bạn dùng lòng bàn tay ôm chặt kín phần thân của cả hai thanh phách khi gõ thì tiếng \"cách\" sẽ nghe ra sao?",
+        "o": [
+          "Tiếng vang xa hơn gấp mười lần",
+          "Tiếng thanh phách biến thành tiếng sáo",
+          "Âm thanh vẫn vang bình thường không thay đổi",
+          "Tiếng bị tịt, đục và rất nhỏ vì thanh gỗ không còn khoảng trống để rung vang"
+        ],
+        "k": "D",
+        "e": "Vật tạo âm cần được tự do rung động; bóp chặt thân gỗ sẽ triệt tiêu độ vang.",
+        "s": "Nguyên lí âm thanh"
+      },
+      {
+        "c": "AN1-B03-009",
+        "d": "application",
+        "p": "Trong tổ 1 có 4 bạn chơi thanh phách và 2 bạn chơi trống nhỏ cùng đệm cho một bài hát. Để tiết mục hay, hai nhóm nhạc cụ cần phối hợp thế nào?",
+        "o": [
+          "Mạnh ai nấy gõ không cần nghe nhạc",
+          "Nhóm thanh phách gõ nhanh gấp đôi nhóm trống",
+          "Nhóm trống nhỏ gõ thật to để lấn át nhóm thanh phách",
+          "Cùng gõ đúng tốc độ theo nhạc đệm và gõ vừa phải để không át mất tiếng hát"
+        ],
+        "k": "D",
+        "e": "Nhạc cụ đệm có nhiệm vụ nâng đỡ giọng hát, không được lấn át người hát.",
+        "s": "Phối hợp nhóm gõ"
+      },
+      {
+        "c": "AN1-B03-010",
+        "d": "application",
+        "p": "Khi gõ đệm theo hình tiết tấu gồm 3 tiếng gõ liên tiếp rồi 1 phách lặng nghỉ (Kí hiệu: X – X – X – nghỉ), đến phách thứ 4 em làm động tác gì?",
+        "o": [
+          "Gõ thêm một tiếng thật mạnh vào phách 4",
+          "Nhảy lên một cái thật cao",
+          "Mở hai thanh phách ra và dừng tay im lặng đúng 1 phách",
+          "Đặt thanh phách xuống sàn nhà"
+        ],
+        "k": "C",
+        "e": "Dấu lặng hay phách nghỉ cũng quan trọng như tiếng gõ, giúp tiết tấu có khoảng thở nhịp nhàng.",
+        "s": "Thực hành phách nghỉ"
+      },
+      {
+        "c": "AN1-B03-011",
+        "d": "application",
+        "p": "Một bài hát có đoạn chữ in đậm dưới các ca từ cần gõ thanh phách: \"Lớp MỘT ơi THÂN yêu\" (vào chữ MỘT và chữ THÂN). Nếu bài hát có 6 câu như vậy thì bạn nhỏ gõ bao nhiêu tiếng phách cho 6 câu?",
+        "o": [
+          "12 tiếng phách",
+          "6 tiếng phách",
+          "18 tiếng phách",
+          "10 tiếng phách"
+        ],
+        "k": "A",
+        "e": "Mỗi câu gõ 2 tiếng vào 2 tiếng đánh dấu, nên 6 câu có 6 x 2 = 12 tiếng phách.",
+        "s": "Gõ đệm theo ca từ"
+      },
+      {
+        "c": "AN1-B03-012",
+        "d": "application",
+        "p": "Tại sao trống nhỏ thường không chơi được giai điệu các bài hát phức tạp như cây đàn piano nhưng lại cực kì quan trọng trong ban nhạc?",
+        "o": [
+          "Vì trống nhỏ chỉ dùng để trang trí sân khấu",
+          "Vì trống nhỏ là nhạc cụ gõ giữ nhịp chắc chắn và tạo không khí sôi nổi cho toàn bản nhạc",
+          "Vì trống nhỏ quá đắt tiền",
+          "Vì trống nhỏ không phát ra âm thanh nào"
+        ],
+        "k": "B",
+        "e": "Nhạc cụ gõ là \"nhịp tim\" giúp giữ vững tốc độ và sự lôi cuốn cho dàn nhạc.",
+        "s": "Vai trò nhạc cụ gõ"
+      },
+      {
+        "c": "AN1-B03-013",
+        "d": "advanced",
+        "p": "Bạn Hùng gõ mẫu tiết tấu gồm 4 nốt (tổng 4 phách): Phách 1 trống gõ \"TÙNG\", Phách 2 phách gõ \"cách\", Phách 3 trống gõ \"TÙNG\", Phách 4 phách gõ \"cách\". Lặp lại 5 chu kì như vậy, trống đã gõ nhiều hơn hay bằng thanh phách?",
+        "o": [
+          "Bằng nhau: Trống gõ 10 tiếng và Thanh phách gõ 10 tiếng",
+          "Trống gõ 15 tiếng, Thanh phách gõ 5 tiếng",
+          "Trống gõ 5 tiếng, Thanh phách gõ 15 tiếng",
+          "Trống gõ 20 tiếng, Thanh phách gõ 0 tiếng"
+        ],
+        "k": "A",
+        "e": "Mỗi chu kì trống gõ 2 tiếng, thanh phách gõ 2 tiếng. Sau 5 chu kì: mỗi loại gõ 2 x 5 = 10 tiếng.",
+        "s": "Phối hợp trống – phách"
+      },
+      {
+        "c": "AN1-B03-014",
+        "d": "advanced",
+        "p": "Giả sử em gõ trống nhỏ quá sát lúc dùi vừa đập xuống mà em cứ ấn lì đầu dùi dính vào mặt trống không nhấc lên ngay. Âm thanh sẽ thay đổi ra sao?",
+        "o": [
+          "Mặt trống sẽ tự phát sáng",
+          "Âm thanh cao vút như tiếng chim",
+          "Âm thanh ngân vang kéo dài suốt 1 phút",
+          "Âm thanh sẽ bị ngắn lại và tịt đi ngay lập tức vì đầu dùi đã chặn dao động của mặt trống"
+        ],
+        "k": "D",
+        "e": "Đập nảy dùi lên ngay giúp mặt trống rung tự do để âm thanh vang đầy đặn.",
+        "s": "Kĩ thuật bật dùi"
+      },
+      {
+        "c": "AN1-B03-015",
+        "d": "advanced",
+        "p": "Sau mỗi tiết học, cách bảo quản thanh phách và trống nhỏ đúng nhất để sử dụng bền lâu cho các bạn khóa sau là gì?",
+        "o": [
+          "Vứt bừa dưới gầm bàn cuối lớp",
+          "Ngâm thanh phách vào chậu nước để rửa",
+          "Đè sách nặng lên mặt trống da",
+          "Lau khô nhẹ nhàng, xếp ngay ngắn vào hộp hoặc giá quy định nơi khô ráo, tránh ẩm ướt hay va đập mạnh"
+        ],
+        "k": "D",
+        "e": "Gỗ và mặt da trống rất kị nước ẩm và vật nặng đè lên nên cần cất nơi khô thoáng.",
+        "s": "Bảo quản nhạc cụ"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac1-c1",
+    "lesson": {
+      "code": "amnhac1-b04",
+      "title": "Bài 4. Thường thức Âm nhạc: Cao – Thấp, Dài – Ngắn",
+      "seq": 4,
+      "subtitle": "Nhận biết hai thuộc tính cơ bản của âm thanh âm nhạc là Cao độ (cao – thấp) và Trường độ (dài – ngắn)",
+      "concepts": [
+        "Cao độ (Cao – Thấp)",
+        "Trường độ (Dài – Ngắn)",
+        "Trò chơi âm thanh"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN1-B04-001",
+        "d": "basic",
+        "p": "Trong âm nhạc, cặp từ \"CAO – THẤP\" dùng để chỉ thuộc tính nào của âm thanh?",
+        "o": [
+          "Độ dài của sợi dây đàn",
+          "Chiều cao của người ca sĩ",
+          "Cao độ (tiếng thanh bổng hay tiếng trầm ấm của âm thanh)",
+          "Màu sơn của cây đàn piano"
+        ],
+        "k": "C",
+        "e": "Cao độ giúp phân biệt âm thanh trầm (thấp) như tiếng ồm ồm và âm thanh bổng (cao) như tiếng chim hót.",
+        "s": "Khái niệm Cao độ",
+        "fig": {
+          "type": "table",
+          "title": "Thuộc tính Âm thanh",
+          "head": [
+            "Thuộc tính",
+            "Đặc điểm đối lập"
+          ],
+          "rows": [
+            [
+              "Cao độ",
+              "Âm Cao – Âm Thấp"
+            ],
+            [
+              "Trường độ",
+              "Âm Dài – Âm Ngắn"
+            ],
+            [
+              "Cường độ",
+              "Âm To – Âm Nhỏ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN1-B04-002",
+        "d": "basic",
+        "p": "Trong âm nhạc, cặp từ \"DÀI – NGẮN\" dùng để miêu tả điều gì về một nốt nhạc hay một tiếng kêu?",
+        "o": [
+          "Thời gian đi bộ đến trường",
+          "Chiều dài của chiếc sáo trúc",
+          "Số trang của quyển sách nhạc",
+          "Trường độ (thời gian ngân vang kéo dài hay dứt gọn nhanh chóng của âm thanh)"
+        ],
+        "k": "D",
+        "e": "Ví dụ tiếng chuông ngân \"Bong...\" là âm dài; tiếng thanh phách \"Tách!\" là âm ngắn.",
+        "s": "Khái niệm Trường độ"
+      },
+      {
+        "c": "AN1-B04-003",
+        "d": "basic",
+        "p": "So sánh tiếng hót thanh thoát \"Chíp chíp\" của chú chim sâu với tiếng kêu trầm ồm \"Ộp ộp\" của chú ếch già: Âm thanh nào có CAO ĐỘ CAO HƠN?",
+        "o": [
+          "Không phân biệt được",
+          "Tiếng hót \"Chíp chíp\" của chú chim sâu",
+          "Hai âm thanh có cao độ bằng hệt nhau",
+          "Tiếng kêu \"Ộp ộp\" của chú ếch"
+        ],
+        "k": "B",
+        "e": "Tiếng chim nhỏ cao vút (âm cao), còn tiếng ếch ộp trầm thấp (âm thấp).",
+        "s": "So sánh âm cao – thấp"
+      },
+      {
+        "c": "AN1-B04-004",
+        "d": "basic",
+        "p": "So sánh tiếng còi tàu ngân vang dài \"Tu... u... u...\" với tiếng gõ cửa dứt khoát \"Cốc! Cốc!\": Âm thanh nào có TRƯỜNG ĐỘ DÀI HƠN?",
+        "o": [
+          "Tiếng gõ cửa \"Cốc!\"",
+          "Tiếng còi tàu ngân vang \"Tu... u... u...\"",
+          "Tiếng vỗ tay một cái thật nhanh",
+          "Tất cả đều ngắn như nhau"
+        ],
+        "k": "B",
+        "e": "Tiếng ngân kéo dài có trường độ dài; tiếng gõ gọn dứt ngay có trường độ ngắn.",
+        "s": "So sánh âm dài – ngắn"
+      },
+      {
+        "c": "AN1-B04-005",
+        "d": "basic",
+        "p": "Khi cô giáo đàn từ nốt Đô (thấp) đi lên dần Rê – Mi – Pha – Son (cao dần), em có thể diễn tả bằng động tác tay thế nào?",
+        "o": [
+          "Đưa bàn tay từ ngang bụng nhấc lên cao dần ngang vai rồi ngang trán",
+          "Đưa tay từ đỉnh đầu hạ xuống sát đất",
+          "Giữ nguyên hai tay đan chéo trên bàn",
+          "Lắc tay sang trái rồi sang phải nằm ngang"
+        ],
+        "k": "A",
+        "e": "Đưa tay lên cao khi âm cao và hạ tay xuống khi âm thấp giúp cơ thể cảm nhận trực quan cao độ.",
+        "s": "Vận động theo cao độ"
+      },
+      {
+        "c": "AN1-B04-006",
+        "d": "basic",
+        "p": "Một chiếc chuông đồng lớn được gõ một tiếng \"BOONG...\" và tiếng ngân vang kéo dài suốt 5 giây rồi mới tắt. Tiếng chuông đó thuộc loại âm thanh nào?",
+        "o": [
+          "Âm thanh câm lặng không nghe thấy",
+          "Âm thanh siêu cao không ngân",
+          "Âm thanh có trường độ cực ngắn",
+          "Âm thanh có trường độ dài"
+        ],
+        "k": "D",
+        "e": "Độ ngân kéo dài là biểu hiện đặc trưng của trường độ dài.",
+        "s": "Nhận biết âm ngân dài"
+      },
+      {
+        "c": "AN1-B04-007",
+        "d": "application",
+        "p": "Quan sát khuông nhạc dưới đây với hai nốt Đô (thấp) và Son (cao). Nốt nào nằm ở vị trí cao hơn và cho âm thanh bổng hơn?",
+        "o": [
+          "Nốt Đô nằm cao hơn và nghe bổng hơn",
+          "Nốt Son nằm cao hơn và nghe bổng hơn nốt Đô",
+          "Hai nốt nằm trùng khít một chỗ",
+          "Cả hai nốt đều không có âm thanh"
+        ],
+        "k": "B",
+        "e": "Trên khuông nhạc, nốt viết ở dòng hay khe càng lên cao thì cao độ âm thanh càng cao.",
+        "s": "Quan sát khuông nhạc",
+        "fig": {
+          "w": 350,
+          "h": 168,
+          "items": [
+            {
+              "t": "txt",
+              "p": [
+                175,
+                22
+              ],
+              "s": "So sánh Đô và Son",
+              "anchor": "middle",
+              "size": 13
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                50
+              ],
+              "b": [
+                320,
+                50
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                66
+              ],
+              "b": [
+                320,
+                66
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                82
+              ],
+              "b": [
+                320,
+                82
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                98
+              ],
+              "b": [
+                320,
+                98
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                114
+              ],
+              "b": [
+                320,
+                114
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                53,
+                114
+              ],
+              "b": [
+                77,
+                114
+              ],
+              "color": "#1e293b",
+              "w": 1.5
+            },
+            {
+              "t": "circle",
+              "c": [
+                65,
+                114
+              ],
+              "r": 7,
+              "fill": "#1d4ed8",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "line",
+              "a": [
+                72,
+                114
+              ],
+              "b": [
+                72,
+                88
+              ],
+              "color": "#0f172a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                65,
+                148
+              ],
+              "s": "Đô",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "circle",
+              "c": [
+                113,
+                82
+              ],
+              "r": 7,
+              "fill": "#1d4ed8",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "line",
+              "a": [
+                120,
+                82
+              ],
+              "b": [
+                120,
+                56
+              ],
+              "color": "#0f172a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                113,
+                148
+              ],
+              "s": "Son",
+              "anchor": "middle",
+              "size": 12
+            }
+          ]
+        }
+      },
+      {
+        "c": "AN1-B04-008",
+        "d": "application",
+        "p": "Bạn Hà gõ một tiếng trống rồi đặt nhẹ tay lên mặt trống ngay lập tức, còn bạn Nam gõ một tiếng rồi nhấc dùi để trống tự ngân hết tiếng. Âm thanh của bạn nào DÀI HƠN?",
+        "o": [
+          "Âm thanh tiếng trống của bạn Nam dài hơn",
+          "Cả hai đều không phát ra tiếng",
+          "Cả hai ngắn bằng nhau",
+          "Âm thanh tiếng trống của bạn Hà dài hơn"
+        ],
+        "k": "A",
+        "e": "Chặn tay làm mặt trống ngừng rung sớm nên âm bị ngắt ngắn; để rung tự nhiên âm sẽ ngân dài.",
+        "s": "Thực nghiệm trường độ"
+      },
+      {
+        "c": "AN1-B04-009",
+        "d": "application",
+        "p": "Nếu em gõ lên 3 chiếc cốc thủy tinh giống hệt nhau: Cốc 1 chứa đầy nước, Cốc 2 chứa một nửa nước, Cốc 3 để trống không có nước. Cốc nào gõ kêu CAO và THANH NHẤT?",
+        "o": [
+          "Cốc 3 (không có nước, lượng nước ít nhất nên thành cốc rung nhanh nhất tạo âm cao nhất)",
+          "Cả 3 cốc phát âm giống hệt nhau",
+          "Cốc 1 (đầy nước nhất)",
+          "Không cốc nào phát ra tiếng"
+        ],
+        "k": "A",
+        "e": "Ít nước thì vật rung nhanh hơn tạo âm cao hơn; nhiều nước vật nặng rung chậm tạo âm trầm hơn!",
+        "s": "Khám phá âm thanh cốc nước"
+      },
+      {
+        "c": "AN1-B04-010",
+        "d": "application",
+        "p": "Trong câu chuyện âm thanh kể về một chú mèo con trèo lên ngọn cây cao rồi tụt xuống gốc cây, em sẽ minh họa tiếng nhạc thế nào cho hợp lí?",
+        "o": [
+          "Lúc nào cũng đánh đi ngang một âm duy nhất",
+          "Trèo lên đánh âm thấp, tụt xuống đánh âm cao",
+          "Chỉ gõ một tiếng thật to lúc kết thúc",
+          "Khi mèo trèo lên đánh âm thanh đi lên cao dần; khi mèo tụt xuống đánh âm thanh hạ thấp dần"
+        ],
+        "k": "D",
+        "e": "Âm nhạc mô phỏng chuyển động (lên cao – xuống thấp) giúp câu chuyện trở nên sống động!",
+        "s": "Kể chuyện bằng âm thanh"
+      },
+      {
+        "c": "AN1-B04-011",
+        "d": "application",
+        "p": "Biểu đồ ghi thời gian ngân vang của 4 âm thanh lớp 1 thử nghiệm: Chuông chùa (8 giây), Đàn Tơ-rưng (3 giây), Thanh phách (1 giây), Sáo trúc (5 giây). Âm thanh nào NGẮN NHẤT?",
+        "o": [
+          "Chuông chùa (8 giây)",
+          "Sáo trúc (5 giây)",
+          "Thanh phách (1 giây)",
+          "Đàn Tơ-rưng (3 giây)"
+        ],
+        "k": "C",
+        "e": "Thời gian ngân 1 giây là ngắn nhất trong 4 âm thanh.",
+        "s": "So sánh độ dài âm thanh",
+        "fig": {
+          "type": "bars",
+          "title": "Thời gian ngân âm thanh",
+          "labels": [
+            "Chuông",
+            "Sáo",
+            "Tơ-rưng",
+            "Phách"
+          ],
+          "series": [
+            {
+              "values": [
+                8,
+                5,
+                3,
+                1
+              ]
+            }
+          ],
+          "unit": "giây"
+        }
+      },
+      {
+        "c": "AN1-B04-012",
+        "d": "application",
+        "p": "Khi đọc 3 chữ \"La – la – laaaaaa\" với chữ thứ ba kéo dài hơi hơn hai chữ đầu, ta đang kết hợp hai âm gì và một âm gì?",
+        "o": [
+          "Ba âm dài bằng nhau",
+          "Một âm dài ở đầu và hai âm ngắn ở cuối",
+          "Ba âm ngắn hết",
+          "Hai âm ngắn ở đầu và một âm dài ở cuối"
+        ],
+        "k": "D",
+        "e": "Ngắn – ngắn – dài là mô hình tiết tấu rất phổ biến trong các bài hát thiếu nhi.",
+        "s": "Cảm thụ ngắn – dài"
+      },
+      {
+        "c": "AN1-B04-013",
+        "d": "advanced",
+        "p": "Một giai điệu ngắn gồm 2 nốt dài (mỗi nốt ngân 2 phách) và 4 nốt ngắn (mỗi nốt dài 1 phách). Hỏi tổng trường độ của giai điệu đó dài bao nhiêu phách?",
+        "o": [
+          "6 phách",
+          "7 phách",
+          "10 phách",
+          "8 phách"
+        ],
+        "k": "D",
+        "e": "2 nốt dài = 2 x 2 = 4 phách; 4 nốt ngắn = 4 x 1 = 4 phách. Tổng = 4 + 4 = 8 phách.",
+        "s": "Tính tổng trường độ"
+      },
+      {
+        "c": "AN1-B04-014",
+        "d": "advanced",
+        "p": "Tại sao một nghệ sĩ thổi sáo có thể vừa chơi được âm cao lại vừa chơi được âm thấp chỉ trên cùng một ống sáo tre?",
+        "o": [
+          "Vì khi bịt hoặc mở các lỗ bấm khác nhau làm thay đổi độ dài cột không khí rung động trong ống sáo",
+          "Vì ông đổi sang thổi bằng chân",
+          "Vì nghệ sĩ thay đổi màu áo khi biểu diễn",
+          "Vì chiếc sáo tự đổi kích thước dài ngắn"
+        ],
+        "k": "A",
+        "e": "Cột khí ngắn phát âm cao, cột khí dài phát âm trầm – đó là nguyên lí kì diệu của nhạc cụ hơi!",
+        "s": "Nguyên lí nhạc cụ hơi"
+      },
+      {
+        "c": "AN1-B04-015",
+        "d": "advanced",
+        "p": "Trong một bản nhạc êm dịu ru em ngủ, nhạc sĩ thường ưu tiên sử dụng những âm thanh có đặc điểm thế nào?",
+        "o": [
+          "Tiếng sấm sét đùng đoàng",
+          "Âm thanh siêu ngắn, gắt, thật to và tốc độ thật nhanh",
+          "Tiếng còi xe inh ỏi liên tục",
+          "Trường độ ngân dài vừa phải, cường độ nhẹ nhàng êm ái và tốc độ chậm rãi"
+        ],
+        "k": "D",
+        "e": "Giai điệu êm ái kết hợp trường độ dài mượt mà giúp tạo cảm giác thư giãn, bình yên.",
+        "s": "Ứng dụng sắc thái"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac1-c2",
+    "lesson": {
+      "code": "amnhac1-b05",
+      "title": "Bài 5. Học hát: Lý cây xanh (Dân ca Nam Bộ)",
+      "seq": 5,
+      "subtitle": "Làm quen làn điệu dân ca Nam Bộ mượt mà, vui tươi qua bài hát Lý cây xanh và biết yêu thiên nhiên",
+      "concepts": [
+        "Dân ca Nam Bộ",
+        "Lấy hơi câu hát dân ca",
+        "Yêu cây xanh"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN1-B05-001",
+        "d": "basic",
+        "p": "Bài hát \"Lý cây xanh\" là làn điệu DÂN CA thuộc vùng miền nào của nước Việt Nam ta?",
+        "o": [
+          "Dân ca Bắc Ninh (Quan họ)",
+          "Nhạc cổ điển châu Âu",
+          "Dân ca Nam Bộ",
+          "Dân ca Tây Bắc"
+        ],
+        "k": "C",
+        "e": "\"Lý cây xanh\" là bài lí nổi tiếng, mộc mạc và tươi vui của vùng sông nước Nam Bộ.",
+        "s": "Xuất xứ dân ca"
+      },
+      {
+        "c": "AN1-B05-002",
+        "d": "basic",
+        "p": "Trong lời ca bài \"Lý cây xanh\": \"Cái cây xanh xanh, thì lá cũng xanh...\", loài vật nhỏ nào được nhắc tới đang đậu trên cành cây?",
+        "o": [
+          "Con voi to đứng trên lá cây",
+          "Con gấu Bắc Cực ngủ trên cành",
+          "Con chim đậu trên cành, chim hót líu lo",
+          "Con cá voi bơi trên cành"
+        ],
+        "k": "C",
+        "e": "\"Chim đậu trên cành, chim hót líu lo\" tạo nên bức tranh thiên nhiên trong lành và vui nhộn.",
+        "s": "Lời ca bài hát"
+      },
+      {
+        "c": "AN1-B05-003",
+        "d": "basic",
+        "p": "Từ \"LÍU LO\" cuối bài hát \"Lý cây xanh\" có cách hát hơi luyến láy nhẹ nhàng. Mục đích của nét luyến trong dân ca là gì?",
+        "o": [
+          "Khiến người hát bị hụt hơi cố ý",
+          "Để hát giống tiếng máy nổ",
+          "Làm lời bài hát bị mất chữ",
+          "Tạo sự mềm mại, uyển chuyển và mang đậm chất ngọt ngào của âm nhạc dân gian Việt Nam"
+        ],
+        "k": "D",
+        "e": "Tiếng luyến duyên dáng là nét đặc trưng quý giá của kho tàng dân ca Việt Nam.",
+        "s": "Đặc trưng hát dân ca"
+      },
+      {
+        "c": "AN1-B05-004",
+        "d": "basic",
+        "p": "Bài hát \"Lý cây xanh\" khuyên chúng ta điều gì về thái độ đối xử với thiên nhiên xung quanh?",
+        "o": [
+          "Bẻ cành cây hái lá bừa bãi",
+          "Biết yêu quý, chăm sóc cây xanh và bảo vệ các loài chim muông đáng yêu",
+          "Bắt chim nhốt vào hộp kín",
+          "Chặt hết cây xanh lấy chỗ chơi"
+        ],
+        "k": "B",
+        "e": "Bóng mát cây xanh và tiếng chim hót làm cuộc sống thêm tươi đẹp, trong lành.",
+        "s": "Thông điệp bài hát"
+      },
+      {
+        "c": "AN1-B05-005",
+        "d": "basic",
+        "p": "Dân ca là những bài hát như thế nào trong kho tàng âm nhạc dân tộc?",
+        "o": [
+          "Những bản nhạc chỉ dành riêng cho máy tính phát",
+          "Những bài đọc toán học thuộc lòng",
+          "Những bài hát chỉ vừa mới viết ngày hôm qua bằng tiếng nước ngoài",
+          "Những bài hát do nhân dân lao động sáng tác, truyền miệng từ đời này sang đời khác và gắn bó với đời sống vùng miền"
+        ],
+        "k": "D",
+        "e": "Dân ca là tiếng lòng mộc mạc của ông cha ta truyền lại qua nhiều thế hệ.",
+        "s": "Khái niệm Dân ca"
+      },
+      {
+        "c": "AN1-B05-006",
+        "d": "basic",
+        "p": "Khi gõ thanh phách đệm theo nhịp bài \"Lý cây xanh\", em cần gõ tốc độ ra sao?",
+        "o": [
+          "Rất chậm lê thê buồn thiu",
+          "Thật nhanh hối hả như chạy đua",
+          "Gõ lúc nhanh lúc dừng bất ngờ",
+          "Vừa phải, vui tươi, đều đặn theo nhịp ngân nga tự nhiên của bài hát"
+        ],
+        "k": "D",
+        "e": "Nhịp độ vừa phải giúp giữ nét duyên dáng, hồn nhiên của bài lí Nam Bộ.",
+        "s": "Tốc độ bài hát"
+      },
+      {
+        "c": "AN1-B05-007",
+        "d": "application",
+        "p": "Ở vùng Nam Bộ ngày xưa, bài hát ngắn gọn như \"Lý cây xanh\" thường gắn với công việc và sinh hoạt gì?",
+        "o": [
+          "Hát khi ngồi trên tàu vũ trụ",
+          "Người dân hát khi chèo xuồng, làm vườn hoặc các em nhỏ hát khi vui chơi dưới tán cây",
+          "Hát trong khi lặn sâu dưới đáy đại dương",
+          "Chỉ hát trong hầm mỏ tối"
+        ],
+        "k": "B",
+        "e": "Những điệu lí bắt nguồn từ cuộc sống lao động bình dị trên sông nước vườn cây miền Nam.",
+        "s": "Văn hóa vùng miền"
+      },
+      {
+        "c": "AN1-B05-008",
+        "d": "application",
+        "p": "Khi biểu diễn bài \"Lý cây xanh\", cả lớp muốn chia làm hai vai: một nhóm hát lời ca và một nhóm làm động tác \"lá xanh đung đưa, chim vỗ cánh\". Cách biểu diễn này giúp gì?",
+        "o": [
+          "Làm nhóm hát không hát được nữa",
+          "Làm mất nội dung bài hát",
+          "Khiến khán giả quay mặt đi",
+          "Giúp tiết mục sống động như một hoạt cảnh thiên nhiên vui tươi"
+        ],
+        "k": "D",
+        "e": "Hoạt cảnh âm nhạc kết hợp hát và diễn xuất giúp trẻ phát huy khả năng sáng tạo tập thể.",
+        "s": "Sáng tạo biểu diễn"
+      },
+      {
+        "c": "AN1-B05-009",
+        "d": "application",
+        "p": "Bạn Tuấn hát chữ \"xanh\" bị kéo thô cứng và giật cục ở chữ \"líu lo\". Cô giáo hướng dẫn bạn hát thế nào cho mềm mại đúng chất dân ca?",
+        "o": [
+          "Gằn giọng thật mạnh từng chữ một",
+          "Hát nhẹ nhàng giữ hơi đều, luyến uyển chuyển hai tiếng trên một hơi liền mượt mà",
+          "Bịt mũi lại khi hát",
+          "Hát ngắt đôi chữ \"líu\" thành hai tiếng rời"
+        ],
+        "k": "B",
+        "e": "Giữ hơi đều và thả lỏng cổ họng giúp tiếng luyến hát tự nhiên và ngọt ngào.",
+        "s": "Sửa lỗi hát luyến"
+      },
+      {
+        "c": "AN1-B05-010",
+        "d": "application",
+        "p": "Nếu em sử dụng chiếc SONG LOAN (nhạc cụ gõ truyền thống Nam Bộ) gõ đệm nhẹ nhàng cho bài \"Lý cây xanh\", âm thanh vang lên thế nào?",
+        "o": [
+          "Tiếng rít ầm ĩ như tiếng còi xe tải",
+          "Tiếng ù ù trầm như sấm",
+          "Không có âm thanh gì",
+          "Tiếng \"cốc... cốc...\" giòn tan, gọn gàng rất hợp với màu sắc dân ca Nam Bộ"
+        ],
+        "k": "D",
+        "e": "Song loan là nhạc cụ gõ đặc trưng của âm nhạc tài tử và dân ca Nam Bộ.",
+        "s": "Nhạc cụ phù hợp"
+      },
+      {
+        "c": "AN1-B05-011",
+        "d": "application",
+        "p": "Quan sát bảng so sánh hai bài hát đã học. Đặc điểm nào đúng về bài \"Lý cây xanh\"?",
+        "o": [
+          "Bài hát tiếng Anh về mùa đông tuyết rơi",
+          "Thuộc thể loại dân ca Nam Bộ, có nét luyến ở từ \"líu lo\" và chủ đề thiên nhiên",
+          "Bài hát về các con số đếm từ 1 đến 100",
+          "Thuộc nhạc hành khúc, tốc độ rất nhanh và không có luyến"
+        ],
+        "k": "B",
+        "e": "Bảng tổng hợp giúp em nhớ rõ xuất xứ và đặc trưng từng bài hát.",
+        "s": "So sánh tác phẩm",
+        "fig": {
+          "type": "table",
+          "title": "So sánh Bài hát 1 và 5",
+          "head": [
+            "Tiêu chí",
+            "Lý cây xanh"
+          ],
+          "rows": [
+            [
+              "Thể loại",
+              "Dân ca Nam Bộ"
+            ],
+            [
+              "Chủ đề",
+              "Cây xanh, chim hót"
+            ],
+            [
+              "Tính chất",
+              "Vui tươi, mềm mại"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN1-B05-012",
+        "d": "application",
+        "p": "Nếu muốn tự sáng tác thêm một lời ca mới theo giai điệu \"Lý cây xanh\" để hát về chú cá vàng bơi trong hồ nước, em nên chú ý điều gì?",
+        "o": [
+          "Đặt số chữ khớp với nhịp phách giai điệu gốc và vần điệu tự nhiên dễ hát",
+          "Dùng các từ khó hiểu không liên quan",
+          "Đổi toàn bộ giai điệu thành bài hát khác",
+          "Viết một bài văn dài 100 chữ nhét vào 1 câu"
+        ],
+        "k": "A",
+        "e": "Đặt lời mới theo giai điệu quen thuộc là hoạt động sáng tạo âm nhạc rất được khuyến khích!",
+        "s": "Đặt lời mới cho dân ca"
+      },
+      {
+        "c": "AN1-B05-013",
+        "d": "advanced",
+        "p": "Một buổi giao lưu văn nghệ có 3 tiết mục dân ca: Lý cây xanh (3 phút), Bèo dạt mây trôi (4 phút) và Trống cơm (3 phút). Tổng thời gian biểu diễn 3 tiết mục liên tiếp là bao nhiêu phút?",
+        "o": [
+          "9 phút",
+          "12 phút",
+          "10 phút",
+          "7 phút"
+        ],
+        "k": "C",
+        "e": "3 + 4 + 3 = 10 phút biểu diễn.",
+        "s": "Tính thời gian biểu diễn"
+      },
+      {
+        "c": "AN1-B05-014",
+        "d": "advanced",
+        "p": "Tại sao việc học và hát các bài dân ca như \"Lý cây xanh\" ngay từ lớp 1 lại có ý nghĩa lớn với mỗi học sinh?",
+        "o": [
+          "Vì lớp 1 không có bài hát nào khác",
+          "Vì dân ca không cần học nhịp",
+          "Giúp em nuôi dưỡng tình yêu quê hương đất nước và giữ gìn bản sắc văn hóa dân tộc Việt Nam",
+          "Để quên đi các bài hát thiếu nhi hiện đại"
+        ],
+        "k": "C",
+        "e": "Dân ca là cội nguồn tâm hồn Việt; hát dân ca từ nhỏ giúp gìn giữ di sản văn hóa dân tộc.",
+        "s": "Giá trị di sản dân ca"
+      },
+      {
+        "c": "AN1-B05-015",
+        "d": "advanced",
+        "p": "Khi hát câu kết \"Líu lo là líu lo\", nếu em làm nhỏ dần nhẹ nhàng ở tiếng cuối cùng thay vì hét to đột ngột thì hiệu quả nghệ thuật ra sao?",
+        "o": [
+          "Làm mất toàn bộ nhịp bài hát trước đó",
+          "Làm cổ họng bị đau ngay",
+          "Giúp câu kết khép lại êm ái, tự nhiên và đọng lại dư âm dễ chịu cho người nghe",
+          "Làm khán giả tưởng nhạc bị hỏng giữa chừng"
+        ],
+        "k": "C",
+        "e": "Xử lí nhỏ dần cuối bài tạo cảm giác nhẹ nhàng, tinh tế trong trình diễn âm nhạc.",
+        "s": "Kĩ thuật xử lí câu kết"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac1-c2",
+    "lesson": {
+      "code": "amnhac1-b06",
+      "title": "Bài 6. Đọc nhạc: Ba nốt Đô – Rê – Mi và Kí hiệu bàn tay",
+      "seq": 6,
+      "subtitle": "Làm quen 3 nốt nhạc đầu tiên Đô – Rê – Mi kết hợp kí hiệu bàn tay Curwen trực quan và vui nhộn",
+      "concepts": [
+        "Nốt Đô, Rê, Mi",
+        "Kí hiệu bàn tay",
+        "Cao độ đi lên"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN1-B06-001",
+        "d": "basic",
+        "p": "Ba nốt nhạc đầu tiên em được làm quen trong chương trình Đọc nhạc lớp 1 sắp xếp theo thứ tự từ THẤP LÊN CAO là gì?",
+        "o": [
+          "Đô – Rê – Mi",
+          "La – Si – Đô",
+          "Mi – Rê – Đô",
+          "Son – Pha – Mi"
+        ],
+        "k": "A",
+        "e": "Đô là nốt thấp nhất trong bộ ba, tiếp đến Rê cao hơn một bậc và Mi cao nhất trong ba nốt.",
+        "s": "Thứ tự 3 nốt đầu",
+        "fig": {
+          "w": 350,
+          "h": 168,
+          "items": [
+            {
+              "t": "txt",
+              "p": [
+                175,
+                22
+              ],
+              "s": "Ba nốt Đô - Rê - Mi",
+              "anchor": "middle",
+              "size": 13
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                50
+              ],
+              "b": [
+                320,
+                50
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                66
+              ],
+              "b": [
+                320,
+                66
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                82
+              ],
+              "b": [
+                320,
+                82
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                98
+              ],
+              "b": [
+                320,
+                98
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                114
+              ],
+              "b": [
+                320,
+                114
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                53,
+                114
+              ],
+              "b": [
+                77,
+                114
+              ],
+              "color": "#1e293b",
+              "w": 1.5
+            },
+            {
+              "t": "circle",
+              "c": [
+                65,
+                114
+              ],
+              "r": 7,
+              "fill": "#1d4ed8",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "line",
+              "a": [
+                72,
+                114
+              ],
+              "b": [
+                72,
+                88
+              ],
+              "color": "#0f172a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                65,
+                148
+              ],
+              "s": "Đô",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "circle",
+              "c": [
+                113,
+                106
+              ],
+              "r": 7,
+              "fill": "#1d4ed8",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "line",
+              "a": [
+                120,
+                106
+              ],
+              "b": [
+                120,
+                80
+              ],
+              "color": "#0f172a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                113,
+                148
+              ],
+              "s": "Rê",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "circle",
+              "c": [
+                161,
+                98
+              ],
+              "r": 7,
+              "fill": "#1d4ed8",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "line",
+              "a": [
+                168,
+                98
+              ],
+              "b": [
+                168,
+                72
+              ],
+              "color": "#0f172a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                161,
+                148
+              ],
+              "s": "Mi",
+              "anchor": "middle",
+              "size": 12
+            }
+          ]
+        }
+      },
+      {
+        "c": "AN1-B06-002",
+        "d": "basic",
+        "p": "Trong KÍ HIỆU BÀN TAY (Curwen) giúp hình dung cao độ nốt nhạc, nốt ĐÔ được biểu diễn bằng hình dáng bàn tay như thế nào?",
+        "o": [
+          "Nắm tròn bàn tay lại đặt ngang tầm bụng (thấp nhất trong ba nốt)",
+          "Chỉ giơ một ngón út lên trời",
+          "Xòe thẳng năm ngón tay giơ cao quá đỉnh đầu",
+          "Đặt bàn tay úp sấp ngang ngực như mái nhà"
+        ],
+        "k": "A",
+        "e": "Bàn tay nắm tròn đặt vị trí thấp thể hiện âm thanh chắc, vững của nốt Đô.",
+        "s": "Kí hiệu tay nốt Đô"
+      },
+      {
+        "c": "AN1-B06-003",
+        "d": "basic",
+        "p": "Kí hiệu bàn tay của nốt RÊ có hình dáng thế nào và đặt ở vị trí nào so với nốt Đô?",
+        "o": [
+          "Nắm chặt tay đặt dưới đầu gối",
+          "Bàn tay duỗi thẳng các ngón khép kín, hướng chếch lên trên khoảng 45 độ, đặt cao hơn nốt Đô một bậc",
+          "Úp sấp bàn tay nằm ngang song song mặt sàn",
+          "Hai bàn tay đan vào nhau sau lưng"
+        ],
+        "k": "B",
+        "e": "Bàn tay nghiêng chếch hướng lên tượng trưng cho bước chuyển cao độ đi lên từ Đô sang Rê.",
+        "s": "Kí hiệu tay nốt Rê"
+      },
+      {
+        "c": "AN1-B06-004",
+        "d": "basic",
+        "p": "Kí hiệu bàn tay của nốt MI có hình dáng và vị trí như thế nào?",
+        "o": [
+          "Giơ ngón tay trỏ chỉ xuống đất",
+          "Bàn tay duỗi thẳng khép ngón đặt nằm ngang úp nhẹ (song song mặt đất), ở vị trí cao hơn nốt Rê",
+          "Gập cong tất cả các ngón tay lại",
+          "Nắm tay tròn đặt sát hông"
+        ],
+        "k": "B",
+        "e": "Bàn tay nằm ngang vững vàng ngang ngực biểu thị nốt Mi ổn định, sáng rõ.",
+        "s": "Kí hiệu tay nốt Mi"
+      },
+      {
+        "c": "AN1-B06-005",
+        "d": "basic",
+        "p": "Nếu ta đọc chuỗi nốt \"Mi – Rê – Đô\", chiều hướng cao độ giọng đọc của em đang đi theo hướng nào?",
+        "o": [
+          "Đi xuống thấp dần từ Mi xuống Rê rồi xuống Đô",
+          "Nhảy cóc không theo thứ tự",
+          "Đi lên cao vút mãi",
+          "Đứng yên bằng phẳng tại một nốt"
+        ],
+        "k": "A",
+        "e": "Mi cao hơn Rê, Rê cao hơn Đô nên Mi – Rê – Đô tạo thành bậc thang đi xuống.",
+        "s": "Chiều đi xuống của cao độ"
+      },
+      {
+        "c": "AN1-B06-006",
+        "d": "basic",
+        "p": "Việc vừa đọc tên nốt vừa làm kí hiệu bàn tay có lợi ích gì cho học sinh lớp 1?",
+        "o": [
+          "Để thay thế cho việc mở miệng đọc nốt",
+          "Làm tay bị mỏi không học được hát",
+          "Để giấu sách nhạc đi",
+          "Giúp mắt nhìn, tai nghe và tay cử động cùng lúc, nhớ nhanh độ cao thấp từng nốt nhạc"
+        ],
+        "k": "D",
+        "e": "Học đa giác quan (vận động tay kết hợp âm thanh) là phương pháp rất hiệu quả trong giáo dục âm nhạc hiện đại.",
+        "s": "Lợi ích kí hiệu bàn tay"
+      },
+      {
+        "c": "AN1-B06-007",
+        "d": "application",
+        "p": "Cô giáo làm động tác bàn tay lần lượt: Nắm tròn (ngang bụng) -> Duỗi phẳng nằm ngang (ngang ngực) -> Nắm tròn (ngang bụng). Chuỗi nốt bạn cần đọc theo đúng động tác là gì?",
+        "o": [
+          "Rê – Mi – Rê",
+          "Mi – Rê – Đô",
+          "Đô – Rê – Mi",
+          "Đô – Mi – Đô"
+        ],
+        "k": "D",
+        "e": "Nắm tròn là Đô, bàn tay nằm ngang là Mi, nắm tròn lại là Đô -> Đô – Mi – Đô!",
+        "s": "Đọc nốt theo kí hiệu tay"
+      },
+      {
+        "c": "AN1-B06-008",
+        "d": "application",
+        "p": "Bảng dưới đây ghi lại quy ước kí hiệu bàn tay 3 nốt. Dòng nào ghép đúng nốt với tư thế tay?",
+        "o": [
+          "Đô: Nắm tròn; Rê: Chếch lên; Mi: Nằm ngang",
+          "Đô: Nằm ngang; Rê: Nắm tròn; Mi: Chếch lên",
+          "Cả ba nốt đều nắm tròn ở một vị trí",
+          "Đô: Chếch lên; Rê: Nằm ngang; Mi: Nắm tròn"
+        ],
+        "k": "A",
+        "e": "Ghi nhớ bảng đối chiếu tay giúp em phản xạ cực nhanh khi chơi trò chơi nhìn tay đoán nốt.",
+        "s": "Bảng kí hiệu tay",
+        "fig": {
+          "type": "table",
+          "title": "Kí hiệu tay 3 nốt",
+          "head": [
+            "Nốt nhạc",
+            "Tư thế bàn tay"
+          ],
+          "rows": [
+            [
+              "Đô",
+              "Nắm tròn, thấp nhất"
+            ],
+            [
+              "Rê",
+              "Duỗi thẳng chếch lên"
+            ],
+            [
+              "Mi",
+              "Duỗi thẳng nằm ngang"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN1-B06-009",
+        "d": "application",
+        "p": "Nhìn vào khuông nhạc vẽ 3 nốt Đô – Rê – Mi trên, nốt nào nằm trên đường kẻ thứ nhất (dòng kẻ dưới cùng của 5 dòng kẻ)?",
+        "o": [
+          "Nốt Đô nằm trên dòng kẻ thứ nhất",
+          "Không nốt nào chạm dòng kẻ",
+          "Nốt Mi nằm trên dòng kẻ thứ nhất",
+          "Nốt Rê nằm trên dòng kẻ thứ nhất"
+        ],
+        "k": "C",
+        "e": "Trong khuông nhạc khóa Sol: Đô có dòng kẻ phụ riêng bên dưới, Rê nằm dưới dòng 1, và Mi nằm đúng dòng 1.",
+        "s": "Vị trí nốt trên khuông"
+      },
+      {
+        "c": "AN1-B06-010",
+        "d": "application",
+        "p": "Trong một trò chơi đọc nhạc, nhóm bạn sáng tác câu giai điệu 4 âm: \"Đô – Rê – Mi – Mi\". Hai nốt cuối \"Mi – Mi\" được đọc thế nào?",
+        "o": [
+          "Nốt thứ hai đọc cao vọt lên rất cao",
+          "Đọc hai lần liên tiếp ở cùng một độ cao bằng nhau của nốt Mi",
+          "Bỏ qua không đọc nốt thứ tư",
+          "Nốt thứ hai đọc tụt xuống thành Đô"
+        ],
+        "k": "B",
+        "e": "Hai nốt giống tên nằm ngang hàng thì có cao độ giống hệt nhau (âm đi ngang).",
+        "s": "Âm đi ngang"
+      },
+      {
+        "c": "AN1-B06-011",
+        "d": "application",
+        "p": "Khi đọc mẫu âm \"Đô – Mi – Đô\" bước nhảy bỏ qua nốt Rê ở giữa, giọng hát thay đổi thế nào so với \"Đô – Rê – Mi\"?",
+        "o": [
+          "Mi thấp hơn Đô",
+          "Đô lên Mi nghe thấp hơn Đô lên Rê",
+          "Không hề khác nhau về khoảng cách cao độ",
+          "Khoảng cách bước nhảy từ Đô lên thẳng Mi rộng hơn bước đi liền bậc từ Đô lên Rê"
+        ],
+        "k": "D",
+        "e": "Đô lên Rê là bước liền bậc (quãng 2), còn Đô lên Mi là bước nhảy cách một bậc (quãng 3).",
+        "s": "Nhảy bậc và liền bậc"
+      },
+      {
+        "c": "AN1-B06-012",
+        "d": "application",
+        "p": "Nếu một bạn giơ kí hiệu nốt Mi nhưng lại đặt tay thấp tịt xuống dưới bụng ngang chỗ nốt Đô, bạn cần chỉnh lại gì cho đúng chuẩn?",
+        "o": [
+          "Đặt tay cao quá trần nhà bằng cách nhảy lên",
+          "Nhấc bàn tay nằm ngang lên vị trí cao hơn nốt Rê để thể hiện đúng độ cao của nốt Mi",
+          "Nắm chặt bàn tay lại",
+          "Giữ nguyên tay sát bụng"
+        ],
+        "k": "B",
+        "e": "Không chỉ hình dáng ngón tay mà vị trí cao thấp của bàn tay cũng phải tương ứng với cao độ nốt!",
+        "s": "Chuẩn vị trí kí hiệu tay"
+      },
+      {
+        "c": "AN1-B06-013",
+        "d": "advanced",
+        "p": "Chỉ từ 2 loại nốt Đô và Mi, em có thể ghép được bao nhiêu chuỗi khác nhau có độ dài đúng 2 nốt (cho phép lặp lại cùng nốt)?",
+        "o": [
+          "4 chuỗi (Đô-Đô, Đô-Mi, Mi-Đô, Mi-Mi)",
+          "3 chuỗi",
+          "6 chuỗi",
+          "2 chuỗi"
+        ],
+        "k": "A",
+        "e": "Vị trí 1 có 2 cách chọn, vị trí 2 có 2 cách chọn: 2 x 2 = 4 chuỗi.",
+        "s": "Tổ hợp giai điệu ngắn"
+      },
+      {
+        "c": "AN1-B06-014",
+        "d": "advanced",
+        "p": "Một đoạn đọc nhạc ngắn gồm 2 ô nhịp: Ô 1 có \"Đô (1 phách) – Rê (1 phách)\", Ô 2 có \"Mi (2 phách)\". Tổng độ dài đoạn đọc nhạc này là bao nhiêu phách?",
+        "o": [
+          "3 phách",
+          "4 phách",
+          "2 phách",
+          "6 phách"
+        ],
+        "k": "B",
+        "e": "1 + 1 + 2 = 4 phách.",
+        "s": "Tính trường độ bài đọc nhạc"
+      },
+      {
+        "c": "AN1-B06-015",
+        "d": "advanced",
+        "p": "Nếu lớp em ghép lời \"Trời – nắng – xanh\" ứng với 3 nốt \"Đô – Rê – Mi\", tại sao nghe lại rất tự nhiên và vui tươi?",
+        "o": [
+          "Vì hai nốt đầu giống nốt cuối",
+          "Vì cao độ đi lên dần (Đô – Rê – Mi) tạo cảm giác tươi sáng, mở rộng giống bầu trời quang đãng",
+          "Vì cao độ đi xuống u buồn",
+          "Vì ba chữ đó không có âm thanh"
+        ],
+        "k": "B",
+        "e": "Nét giai điệu đi lên thường gợi cảm giác phấn khởi, hy vọng và tươi sáng.",
+        "s": "Cảm xúc đường nét giai điệu"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac1-c2",
+    "lesson": {
+      "code": "amnhac1-b07",
+      "title": "Bài 7. Nhạc cụ: Song loan và Nhạc cụ gõ tự tạo",
+      "seq": 7,
+      "subtitle": "Làm quen nhạc cụ truyền thống Song loan, Xúc xắc và sáng tạo nhạc cụ gõ đơn giản từ vật liệu an toàn",
+      "concepts": [
+        "Nhạc cụ Song loan",
+        "Xúc xắc lắc tay",
+        "Nhạc cụ tự tạo an toàn"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN1-B07-001",
+        "d": "basic",
+        "p": "SONG LOAN (song lang) là nhạc cụ gõ truyền thống của Việt Nam có hình dáng như thế nào?",
+        "o": [
+          "Một chiếc ống sáo dài bằng nhựa xanh",
+          "Một cây đàn có 16 dây kim loại",
+          "Hình tròn nhỏ bằng gỗ cứng khoét rỗng miệng, gắn cần đàn hồi bằng sừng hoặc thép có bi gỗ gõ xuống mặt mõ",
+          "Một chiếc trống to bằng cái bàn học"
+        ],
+        "k": "C",
+        "e": "Song loan nhỏ gọn nhưng phát ra tiếng \"cốc\" rất sắc nét, giữ nhịp cực tốt trong ca nhạc dân tộc.",
+        "s": "Cấu tạo Song loan"
+      },
+      {
+        "c": "AN1-B07-002",
+        "d": "basic",
+        "p": "Cách sử dụng chiếc Song loan bằng tay đúng nhất trong giờ học Âm nhạc lớp 1 là gì?",
+        "o": [
+          "Một tay giữ đế gỗ, ngón tay hoặc lòng bàn tay kia ấn nhẹ và thả nhanh vào đầu dùi gõ để dùi đập nảy lên thân gỗ",
+          "Lấy chân giẫm thật mạnh cho vỡ gỗ",
+          "Tháo rời cần thép ra làm đồ chơi khác",
+          "Ném song loan qua lại giữa hai bàn"
+        ],
+        "k": "A",
+        "e": "Bấm thả nhẹ đầu cần đàn hồi giúp dùi gỗ nảy đều đặn tạo tiếng gõ thanh thoát.",
+        "s": "Cách gõ Song loan"
+      },
+      {
+        "c": "AN1-B07-003",
+        "d": "basic",
+        "p": "Nhạc cụ \"Xúc xắc\" (hoặc lục lạc lắc tay) tạo ra âm thanh bằng cách nào?",
+        "o": [
+          "Lắc nhẹ cổ tay theo nhịp để các hạt nhỏ hoặc miếng chuông kim loại bên trong va chạm nhau kêu rào rào",
+          "Kéo dây cung qua mặt hộp",
+          "Gõ hai đầu gối xuống nền nhà",
+          "Thổi hơi thật mạnh vào giữa thân xúc xắc"
+        ],
+        "k": "A",
+        "e": "Chuyển động rung lắc làm các hạt nhỏ va vào thành hộp phát ra âm thanh xào xạc vui tai.",
+        "s": "Cấu tạo Xúc xắc"
+      },
+      {
+        "c": "AN1-B07-004",
+        "d": "basic",
+        "p": "Vật liệu nào sau đây AN TOÀN và phù hợp nhất để học sinh lớp 1 làm \"Xúc xắc tự tạo\" tại lớp?",
+        "o": [
+          "Chai nhựa nhỏ sạch khô bỏ vào bên trong ít hạt đậu xanh hoặc sỏi tròn nhỏ rồi vặn chặt nắp",
+          "Pin cũ bị chảy nước",
+          "Dao kéo kim loại sắc bén",
+          "Mảnh thủy tinh vỡ nhọn sắc"
+        ],
+        "k": "A",
+        "e": "Chai nhựa sạch với hạt đậu hoặc sỏi tròn vừa an toàn vừa phát âm thanh xào xạc tuyệt đẹp!",
+        "s": "Vật liệu tái chế an toàn",
+        "fig": {
+          "type": "table",
+          "title": "Nhạc cụ gõ tự tạo",
+          "head": [
+            "Nhạc cụ",
+            "Vật liệu an toàn"
+          ],
+          "rows": [
+            [
+              "Xúc xắc tái chế",
+              "Chai nhựa, hạt đậu"
+            ],
+            [
+              "Thanh phách",
+              "Hai thanh tre nhẵn"
+            ],
+            [
+              "Trống lon",
+              "Hộp giấy, bìa cứng"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN1-B07-005",
+        "d": "basic",
+        "p": "Vì sao khi làm xong chiếc xúc xắc bằng chai nhựa bỏ hạt đậu, cô giáo nhắc phải vặn chặt nắp chai (hoặc dán băng keo cố định nắp)?",
+        "o": [
+          "Để không bao giờ cầm lên được",
+          "Để hạt đậu bên trong không kêu nữa",
+          "Để chai nhựa đổi sang màu đỏ",
+          "Để hạt đậu không rơi vãi ra ngoài và tránh các em nhỏ nuốt nhầm hạt"
+        ],
+        "k": "D",
+        "e": "An toàn luôn đặt lên hàng đầu khi sử dụng đồ vật có hạt nhỏ cho học sinh tiểu học.",
+        "s": "An toàn nhạc cụ tự tạo"
+      },
+      {
+        "c": "AN1-B07-006",
+        "d": "basic",
+        "p": "Âm thanh của chiếc Xúc xắc lắc bằng hạt gạo khác với hạt sỏi nhỏ to như thế nào?",
+        "o": [
+          "Cả hai kêu giống hệt tiếng trống cái",
+          "Hạt gạo nhẹ tạo tiếng xào xạc nhỏ mịn, còn sỏi nhỏ tạo tiếng lách cách đanh và vang to hơn",
+          "Không loại nào phát ra tiếng",
+          "Hạt gạo kêu to gấp 100 lần sỏi"
+        ],
+        "k": "B",
+        "e": "Chất liệu và kích thước hạt quyết định âm sắc và độ vang khác nhau của nhạc cụ lắc.",
+        "s": "Khám phá âm sắc"
+      },
+      {
+        "c": "AN1-B07-007",
+        "d": "application",
+        "p": "Trong một tiết mục minh họa bài hát về MƯA RỪNG, em nên dùng nhạc cụ nào để giả tiếng lá cây xào xạc và mưa rơi đều nhất?",
+        "o": [
+          "Song loan gõ thật căng",
+          "Còi trọng tài thổi chói tai",
+          "Xúc xắc hạt đậu lắc xoay nhẹ nhàng theo nhịp",
+          "Trống cái đánh thật mạnh \"ĐÙNG! ĐÙNG!\""
+        ],
+        "k": "C",
+        "e": "Âm thanh xào xạc liên tục của xúc xắc mô phỏng tuyệt vời tiếng mưa và tiếng gió thổi lá.",
+        "s": "Chọn nhạc cụ theo âm sắc"
+      },
+      {
+        "c": "AN1-B07-008",
+        "d": "application",
+        "p": "Bạn Minh muốn làm một cái trống tự tạo từ hộp sữa bột giấy tròn sạch đã hết. Bạn dùng bìa cứng hoặc bóng bay cắt căng bọc kín miệng hộp làm gì?",
+        "o": [
+          "Để làm đồ kê chân bàn",
+          "Để đựng nước sôi vào bên trong",
+          "Làm mặt trống căng để khi gõ bằng chiếc đũa gỗ đầu tròn phát ra tiếng vang êm tai",
+          "Để che kín không cho ai nhìn thấy hộp"
+        ],
+        "k": "C",
+        "e": "Màng căng trên miệng hộp rỗng tạo thành hộp cộng hưởng khuếch đại âm thanh tự nhiên.",
+        "s": "Cơ chế cộng hưởng"
+      },
+      {
+        "c": "AN1-B07-009",
+        "d": "application",
+        "p": "Khi dùng song loan giữ nhịp cho một bài hát 2/4, bạn gõ vào phách 1 mạnh và bỏ trống phách 2 (hoặc gõ thật nhẹ). Nhiệm vụ của song loan lúc đó giống gì?",
+        "o": [
+          "Giống người giữ nhịp chuẩn xác như chiếc đồng hồ nhịp dẫn đường cho cả nhóm hát",
+          "Giống bức ảnh trang trí",
+          "Giống tiếng hát chính thay thế ca sĩ",
+          "Giống chiếc micro phát thanh"
+        ],
+        "k": "A",
+        "e": "Trong đờn ca tài tử và hát dân ca, người cầm song loan có vai trò giữ nhịp chủ chốt.",
+        "s": "Vai trò giữ nhịp"
+      },
+      {
+        "c": "AN1-B07-010",
+        "d": "application",
+        "p": "Lớp 1B tái chế vỏ chai làm nhạc cụ: Tổ 1 làm 9 xúc xắc, Tổ 2 làm 11 xúc xắc, Tổ 3 làm 10 xúc xắc. Hỏi cả 3 tổ làm được bao nhiêu chiếc xúc xắc?",
+        "o": [
+          "29 chiếc xúc xắc",
+          "30 chiếc xúc xắc",
+          "20 chiếc xúc xắc",
+          "31 chiếc xúc xắc"
+        ],
+        "k": "B",
+        "e": "9 + 11 + 10 = 30 chiếc xúc xắc.",
+        "s": "Thống kê sản phẩm lớp",
+        "fig": {
+          "type": "bars",
+          "title": "Xúc xắc tự tạo lớp 1B",
+          "labels": [
+            "Tổ 1",
+            "Tổ 2",
+            "Tổ 3"
+          ],
+          "series": [
+            {
+              "values": [
+                9,
+                11,
+                10
+              ]
+            }
+          ],
+          "unit": "chiếc"
+        }
+      },
+      {
+        "c": "AN1-B07-011",
+        "d": "application",
+        "p": "Khi lắc xúc xắc đệm cho bài hát, nhiều bạn hay bị lỗi lắc liên tục lung tung làm tiếng xào xạc át lời ca. Cách khắc phục đơn giản là gì?",
+        "o": [
+          "Lắc mạnh cả hai tay cùng lúc hết tốc lực",
+          "Lắc càng nhiều hạt càng to hơn",
+          "Cầm ngược chiếc xúc xắc lên đầu",
+          "Lắc dứt khoát từng nhịp ngắn \"Xắc – nghỉ – xắc – nghỉ\" đúng vào phách nhạc"
+        ],
+        "k": "D",
+        "e": "Lắc dứt khoát theo phách giúp tiếng xúc xắc gọn gàng, sạch sẽ và hòa nhịp với bài hát.",
+        "s": "Sửa lỗi dùng xúc xắc"
+      },
+      {
+        "c": "AN1-B07-012",
+        "d": "application",
+        "p": "Trang trí chiếc xúc xắc tự tạo bằng giấy màu dán hình hoa, hình nốt nhạc mang lại giá trị gì thêm cho giờ học?",
+        "o": [
+          "Làm mất hết tiếng kêu bên trong chai",
+          "Giúp sản phẩm đẹp mắt, tạo hứng thú biểu diễn và gắn kết môn Âm nhạc với Mĩ thuật",
+          "Làm chai nặng quá không cầm nổi",
+          "Làm hạt đậu bị hỏng"
+        ],
+        "k": "B",
+        "e": "Âm nhạc kết hợp tạo hình giúp sản phẩm tự làm trở thành món đồ chơi nghệ thuật đáng tự hào.",
+        "s": "Tích hợp liên môn"
+      },
+      {
+        "c": "AN1-B07-013",
+        "d": "advanced",
+        "p": "Một dàn gõ tự tạo có 2 thanh tre gõ 1 tiếng mỗi phách, và 1 xúc xắc lắc 2 tiếng nhanh trong mỗi phách. Sau 8 phách nhạc, xúc xắc đã phát ra bao nhiêu nhịp lắc?",
+        "o": [
+          "10 nhịp lắc",
+          "24 nhịp lắc",
+          "8 nhịp lắc",
+          "16 nhịp lắc"
+        ],
+        "k": "D",
+        "e": "Mỗi phách lắc 2 tiếng x 8 phách = 16 nhịp lắc.",
+        "s": "Phân chia tiết tấu"
+      },
+      {
+        "c": "AN1-B07-014",
+        "d": "advanced",
+        "p": "Tại sao việc tái chế hộp giấy, chai nhựa sạch làm nhạc cụ lại được khuyến khích trong trường học hiện đại?",
+        "o": [
+          "Vì trường học không có bảng đen",
+          "Để học sinh không cần học hát nữa",
+          "Vì rác thải không bao giờ hỏng",
+          "Vừa tiết kiệm chi phí, kích thích trí sáng tạo, vừa rèn ý thức bảo vệ môi trường giảm rác thải nhựa"
+        ],
+        "k": "D",
+        "e": "Biến phế liệu sạch thành nhạc cụ dạy trẻ tư duy xanh và trân trọng giá trị tái sử dụng.",
+        "s": "Giáo dục môi trường"
+      },
+      {
+        "c": "AN1-B07-015",
+        "d": "advanced",
+        "p": "Nếu trong chai xúc xắc, em đổ đầy chặt cứng 100% hạt đậu đến tận nắp không còn chỗ trống nào thì khi lắc chai sẽ xảy ra hiện tượng gì?",
+        "o": [
+          "Chai tự động phát nhạc bài hát",
+          "Hạt đậu tự bay ra ngoài",
+          "Âm thanh vang to như tiếng chuông đồng",
+          "Âm thanh gần như tắt hẳn vì các hạt bị kẹt chặt, không có khoảng không để va đập vào nhau"
+        ],
+        "k": "D",
+        "e": "Hạt cần khoảng trống bên trong để chuyển động va chạm mới phát ra âm thanh!",
+        "s": "Tư duy thực nghiệm"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac1-c2",
+    "lesson": {
+      "code": "amnhac1-b08",
+      "title": "Bài 8. Thường thức Âm nhạc: Đàn bầu và Đàn nguyệt",
+      "seq": 8,
+      "subtitle": "Làm quen hai nhạc cụ dân tộc độc đáo của Việt Nam là Đàn bầu một dây và Đàn nguyệt mặt tròn",
+      "concepts": [
+        "Đàn bầu một dây",
+        "Đàn nguyệt mặt tròn",
+        "Âm nhạc dân tộc"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN1-B08-001",
+        "d": "basic",
+        "p": "Nhạc cụ dân tộc truyền thống cực kì độc đáo của Việt Nam được mệnh danh là \"cây đàn chỉ có MỘT DÂY\" nhưng đàn được đủ mọi cung bậc buồn vui tên là gì?",
+        "o": [
+          "Đàn piano 88 phím",
+          "Kèn trống đồng",
+          "Đàn bầu (còn gọi là Độc huyền cầm)",
+          "Đàn tranh 16 dây"
+        ],
+        "k": "C",
+        "e": "Đàn bầu tuy chỉ có duy nhất một sợi dây căng trên bầu đàn nhưng nhờ vòi đàn uốn dẻo tạo âm sắc ngọt ngào kỳ diệu.",
+        "s": "Nhận biết Đàn bầu",
+        "fig": {
+          "type": "table",
+          "title": "Nhạc cụ Dân tộc Việt",
+          "head": [
+            "Tên đàn",
+            "Đặc điểm dễ nhận"
+          ],
+          "rows": [
+            [
+              "Đàn bầu",
+              "Chỉ có 1 dây đàn"
+            ],
+            [
+              "Đàn nguyệt",
+              "Thùng tròn như trăng"
+            ],
+            [
+              "Đàn tranh",
+              "Nhiều dây, gảy móng"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN1-B08-002",
+        "d": "basic",
+        "p": "Vì sao cây ĐÀN NGUYỆT (còn gọi là đàn kìm) lại có tên gọi là \"Nguyệt\"?",
+        "o": [
+          "Vì hộp cộng hưởng (thùng đàn) có hình tròn đầy đặn giống như vầng trăng rằm",
+          "Vì chỉ được phép chơi đàn vào ban ngày nắng gắt",
+          "Vì cây đàn màu xanh nước biển",
+          "Vì cây đàn có hình tam giác nhọn"
+        ],
+        "k": "A",
+        "e": "\"Nguyệt\" nghĩa là mặt trăng; dáng đàn tròn duyên dáng tạo âm thanh vang trong ấm áp.",
+        "s": "Ý nghĩa tên Đàn nguyệt"
+      },
+      {
+        "c": "AN1-B08-003",
+        "d": "basic",
+        "p": "Cây đàn nguyệt truyền thống thường có mấy sợi dây mắc dọc theo cần đàn dài có phím cao?",
+        "o": [
+          "2 dây",
+          "10 dây",
+          "1 dây duy nhất",
+          "50 dây"
+        ],
+        "k": "A",
+        "e": "Đàn nguyệt có 2 dây đàn mắc qua phím bấm dọc cần đàn dài.",
+        "s": "Cấu tạo Đàn nguyệt"
+      },
+      {
+        "c": "AN1-B08-004",
+        "d": "basic",
+        "p": "Âm thanh đặc trưng của tiếng Đàn bầu khi nghệ sĩ biểu diễn nghe mang cảm xúc như thế nào?",
+        "o": [
+          "Cứng đơ, đứt quãng từng tiếng rời",
+          "Giống tiếng còi tàu hỏa gầm rú",
+          "Ngọt ngào, tha thiết, sâu lắng như giọng người tâm tình kể chuyện quê hương",
+          "Ầm ĩ, chát chúa như tiếng máy cày"
+        ],
+        "k": "C",
+        "e": "Tiếng đàn bầu thánh thót, uốn lượn rất gần với thanh điệu tiếng nói người Việt.",
+        "s": "Âm sắc Đàn bầu"
+      },
+      {
+        "c": "AN1-B08-005",
+        "d": "basic",
+        "p": "Nghệ sĩ chơi Đàn bầu dùng vật nhỏ gì ở tay phải để gảy dây đàn và tay trái làm động tác gì trên vòi đàn?",
+        "o": [
+          "Dùng kéo cắt dây khi biểu diễn",
+          "Hai tay đấm mạnh vào thùng gỗ",
+          "Dùng miệng thổi vào sợi dây đàn",
+          "Tay phải cầm que gảy nhẹ dây đàn, tay trái uốn nhẹ cần đàn (vòi bầu) tạo tiếng luyến trầm bổng"
+        ],
+        "k": "D",
+        "e": "Sự phối hợp nhịp nhàng giữa tay gảy và tay uốn vòi đàn tạo ra những nốt ngân luyến mê hoặc.",
+        "s": "Kĩ thuật chơi Đàn bầu"
+      },
+      {
+        "c": "AN1-B08-006",
+        "d": "basic",
+        "p": "Khi được nghe nghệ sĩ hoặc băng hình biểu diễn đàn bầu, đàn nguyệt tại trường, các em cần tỏ thái độ thế nào?",
+        "o": [
+          "Nói chuyện riêng to át tiếng đàn",
+          "Chê cười vì nghĩ đàn truyền thống cũ kĩ",
+          "Lắng nghe chăm chú, vỗ tay tán thưởng lịch sự và yêu quý nhạc cụ dân tộc nước mình",
+          "Chạy lên giật dây đàn của nghệ sĩ"
+        ],
+        "k": "C",
+        "e": "Trân trọng nhạc cụ dân tộc là gìn giữ nét đẹp văn hóa ngàn đời của Việt Nam.",
+        "s": "Thái độ thưởng thức"
+      },
+      {
+        "c": "AN1-B08-007",
+        "d": "application",
+        "p": "Trong một vở kịch dân gian kể về làng quê Việt Nam thanh bình bên lũy tre và vầng trăng sáng, người ta dùng tiếng Đàn bầu làm nhạc nền để tạo không khí gì?",
+        "o": [
+          "Không khí cuộc đua xe công thức 1 ồn ào",
+          "Không khí trận chiến ngoài hành tinh",
+          "Không khí siêu thị giảm giá ồn ào",
+          "Không khí trữ tình, êm ả, sâu lắng và đậm bản sắc Việt Nam"
+        ],
+        "k": "D",
+        "e": "Tiếng đàn bầu gắn liền với tâm hồn đồng quê và truyền thuyết dân gian Việt Nam.",
+        "s": "Ứng dụng âm thanh đàn bầu"
+      },
+      {
+        "c": "AN1-B08-008",
+        "d": "application",
+        "p": "Trong hai câu lục bát nổi tiếng \"Làm trai cho đáng nên trai / Đàn bầu ai gảy nấy nghe...\", bạn hãy cho biết đàn bầu có bầu đàn làm bằng chất liệu gì truyền thống ngày xưa?",
+        "o": [
+          "Tấm kính dễ vỡ",
+          "Túi ni lông mỏng",
+          "Nửa quả bầu khô gắn với cần tre (ngày nay dùng hộp gỗ cộng hưởng)",
+          "Khối sắt đặc nặng hàng tạ"
+        ],
+        "k": "C",
+        "e": "Cái tên \"Đàn bầu\" chính là bắt nguồn từ quả bầu khô làm hộp khuếch đại âm thanh xưa kia!",
+        "s": "Nguồn gốc tên Đàn bầu"
+      },
+      {
+        "c": "AN1-B08-009",
+        "d": "application",
+        "p": "Một nhóm hòa tấu nhí biểu diễn nhạc cụ dân tộc gồm: 1 đàn bầu (1 dây), 2 đàn nguyệt (mỗi đàn 2 dây) và 1 trống nhỏ (không dây). Hỏi cả nhóm có tổng cộng bao nhiêu sợi dây đàn?",
+        "o": [
+          "3 sợi dây đàn",
+          "5 sợi dây đàn",
+          "6 sợi dây đàn",
+          "4 sợi dây đàn"
+        ],
+        "k": "B",
+        "e": "1 dây (đàn bầu) + 2 x 2 dây (2 đàn nguyệt) + 0 dây (trống) = 5 sợi dây đàn.",
+        "s": "Tính số dây đàn"
+      },
+      {
+        "c": "AN1-B08-010",
+        "d": "application",
+        "p": "Khi nhìn hình chiếc đàn nguyệt, bạn Hoa thấy cần đàn có gắn nhiều thanh gỗ ngang nhỏ gọi là phím đàn. Tác dụng của các phím đàn này là gì?",
+        "o": [
+          "Giúp ngón tay trái bấm vào các vị trí khác nhau để tạo ra các nốt nhạc cao thấp chính xác",
+          "Để làm chỗ cầm treo đàn lên tường",
+          "Để ngăn không cho dây rung",
+          "Chỉ để trang trí cho đẹp chứ không bấm vào"
+        ],
+        "k": "A",
+        "e": "Bấm vào phím làm thay đổi phần dây đàn rung động, từ đó phát ra nhiều nốt cao thấp khác nhau.",
+        "s": "Tác dụng của phím đàn"
+      },
+      {
+        "c": "AN1-B08-011",
+        "d": "application",
+        "p": "So sánh cách tạo âm thanh: Đàn bầu và đàn nguyệt đều phát ra âm thanh bằng cách gảy dây, nên chúng cùng thuộc nhóm nhạc cụ nào?",
+        "o": [
+          "Nhạc cụ dây (nhóm dây gảy)",
+          "Nhạc cụ điện tử không dây",
+          "Nhạc cụ hơi (thổi)",
+          "Nhạc cụ gõ màng da"
+        ],
+        "k": "A",
+        "e": "Nhạc cụ tạo âm nhờ dây đàn rung động (gảy, kéo vĩ hoặc đánh búa) đều thuộc họ dây.",
+        "s": "Phân loại nhạc cụ"
+      },
+      {
+        "c": "AN1-B08-012",
+        "d": "application",
+        "p": "Trong buổi ngoại khóa \"Em yêu nhạc cụ dân tộc\" của khối 1, số bạn đăng kí tìm hiểu được vẽ trong biểu đồ dưới đây. Có tổng cộng bao nhiêu bạn thích tìm hiểu Đàn bầu và Đàn nguyệt?",
+        "o": [
+          "35 bạn",
+          "15 bạn",
+          "18 bạn",
+          "25 bạn (15 bạn thích Đàn bầu + 10 bạn thích Đàn nguyệt)"
+        ],
+        "k": "D",
+        "e": "15 bạn chọn Đàn bầu + 10 bạn chọn Đàn nguyệt = 25 bạn.",
+        "s": "Đọc số liệu biểu đồ",
+        "fig": {
+          "type": "bars",
+          "title": "Nhạc cụ yêu thích khối 1",
+          "labels": [
+            "Đàn bầu",
+            "Đàn nguyệt",
+            "Sáo trúc",
+            "Trống cái"
+          ],
+          "series": [
+            {
+              "values": [
+                15,
+                10,
+                8,
+                7
+              ]
+            }
+          ],
+          "unit": "bạn"
+        }
+      },
+      {
+        "c": "AN1-B08-013",
+        "d": "advanced",
+        "p": "Tại sao chỉ với một sợi dây duy nhất mà nghệ sĩ đàn bầu lại có thể đánh được trọn vẹn cả một bản nhạc dài có hàng chục nốt cao thấp khác nhau?",
+        "o": [
+          "Vì mỗi nốt người ta lại tháo ra lắp dây mới",
+          "Vì bên trong thùng đàn giấu sẵn chiếc loa phát nhạc thu sẵn",
+          "Vì đàn bầu thực ra có 20 dây giấu bên dưới",
+          "Vì nghệ sĩ gảy chạm điểm bồi âm trên dây kết hợp uốn cần đàn làm thay đổi độ căng dây tạo đủ mọi cao độ"
+        ],
+        "k": "D",
+        "e": "Kĩ thuật chơi bồi âm kết hợp uốn vòi đàn là bí quyết độc nhất vô nhị khiến thế giới ngưỡng mộ đàn bầu Việt Nam.",
+        "s": "Bí mật Đàn bầu 1 dây"
+      },
+      {
+        "c": "AN1-B08-014",
+        "d": "advanced",
+        "p": "Nếu một dây đàn bị trùng lỏng lẻo quá mức thì âm thanh phát ra khi gảy sẽ bị làm sao?",
+        "o": [
+          "Âm thanh không thay đổi gì cả",
+          "Âm thanh sẽ bị trầm đục, lệch tông xuống thấp và không ngân vang trong trẻo",
+          "Dây đàn tự bốc cháy",
+          "Âm thanh trở nên cao vút chói tai"
+        ],
+        "k": "B",
+        "e": "Độ căng chuẩn của dây đàn là yếu tố quyết định để dây phát ra đúng cao độ chuẩn.",
+        "s": "Vật lí âm thanh đơn giản"
+      },
+      {
+        "c": "AN1-B08-015",
+        "d": "advanced",
+        "p": "Nhiều nghệ sĩ trẻ ngày nay đưa Đàn bầu và Đàn nguyệt kết hợp cùng đàn Piano, Violin hoặc nhạc hiện đại trong các buổi hòa nhạc quốc tế. Việc làm này mang lại ý nghĩa gì?",
+        "o": [
+          "Làm mất hoàn toàn âm thanh cây đàn bầu",
+          "Giúp nhạc cụ truyền thống Việt Nam thêm sức sống mới, lan tỏa vẻ đẹp văn hóa dân tộc ra khắp thế giới",
+          "Làm hỏng cây đàn piano",
+          "Khiến không còn ai nhớ tên đàn nữa"
+        ],
+        "k": "B",
+        "e": "Sự giao thoa giữa truyền thống và hiện đại giúp di sản âm nhạc dân tộc luôn tươi mới và gần gũi.",
+        "s": "Bảo tồn và phát triển"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac1-c3",
+    "lesson": {
+      "code": "amnhac1-b09",
+      "title": "Bài 9. Học hát: Múa vui (Lưu Hữu Phước)",
+      "seq": 9,
+      "subtitle": "Hát vui tươi, nhịp nhàng bài Múa vui và kết hợp nắm tay múa vòng tròn tập thể cùng bạn bè",
+      "concepts": [
+        "Nhạc sĩ Lưu Hữu Phước",
+        "Múa vòng tròn",
+        "Tính chất nhịp nhàng"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN1-B09-001",
+        "d": "basic",
+        "p": "Bài hát thiếu nhi nổi tiếng \"Múa vui\" (\"Cùng nhau múa xung quanh vòng...\") là sáng tác của nhạc sĩ tài hoa nào?",
+        "o": [
+          "Nhạc sĩ Mô-da",
+          "Nhạc sĩ Trai-cốp-xki",
+          "Nhạc sĩ Lưu Hữu Phước",
+          "Nhạc sĩ Bét-tô-ven"
+        ],
+        "k": "C",
+        "e": "Nhạc sĩ Lưu Hữu Phước đã viết rất nhiều ca khúc thiếu nhi và thanh niên bất hủ cho Việt Nam.",
+        "s": "Tác giả bài hát"
+      },
+      {
+        "c": "AN1-B09-002",
+        "d": "basic",
+        "p": "Hình ảnh đẹp nhất được gợi lên trong lời ca \"Cùng nhau múa xung quanh vòng, cùng nhau múa cùng vui...\" là hoạt động gì?",
+        "o": [
+          "Các bạn nhỏ nắm tay nhau thành vòng tròn vừa ca hát vừa nhảy múa vui vẻ",
+          "Mọi người đứng xếp hàng dọc đi ngủ",
+          "Một bạn đứng khóc một mình ở góc sân",
+          "Các bạn ngồi quay lưng lại với nhau"
+        ],
+        "k": "A",
+        "e": "Vòng tròn nắm tay là biểu tượng của tình bạn đoàn kết, hồn nhiên tuổi thơ.",
+        "s": "Nội dung bài hát"
+      },
+      {
+        "c": "AN1-B09-003",
+        "d": "basic",
+        "p": "Khi hát bài \"Múa vui\", em cần thể hiện tính chất âm nhạc nào để phù hợp với không khí hội vui?",
+        "o": [
+          "Căng thẳng, sợ hãi",
+          "Thều thào mệt mỏi",
+          "Chậm chạp, rầu rĩ và buồn bã",
+          "Vui tươi, nhí nhảnh, nhịp nhàng và rộn rã"
+        ],
+        "k": "D",
+        "e": "Nhịp điệu rộn ràng của bài hát luôn mời gọi mọi người cùng hòa nhịp vui chơi.",
+        "s": "Tính chất âm nhạc"
+      },
+      {
+        "c": "AN1-B09-004",
+        "d": "basic",
+        "p": "Khi cả lớp xếp thành VÒNG TRÒN múa hát bài \"Múa vui\", hai tay các bạn thường nắm nhau và cử động thế nào?",
+        "o": [
+          "Đứng cứng đơ không nhúc nhích",
+          "Nắm tay nhẹ nhàng đưa tay ra vào hoặc nhún chân nhịp nhàng theo phách bài hát",
+          "Giật mạnh kéo ngã bạn bên cạnh",
+          "Bẻ tay bạn ra phía sau"
+        ],
+        "k": "B",
+        "e": "Nắm tay vừa đủ ấm áp và chuyển động đồng đều theo nhịp giúp vòng múa đẹp và an toàn.",
+        "s": "Kĩ năng múa tập thể",
+        "fig": {
+          "type": "table",
+          "title": "Múa vui tập thể",
+          "head": [
+            "Yếu tố",
+            "Yêu cầu phối hợp"
+          ],
+          "rows": [
+            [
+              "Đội hình",
+              "Vòng tròn đều đẹp"
+            ],
+            [
+              "Động tác",
+              "Nhún chân, lắc tay"
+            ],
+            [
+              "Tình cảm",
+              "Tươi cười, thân ái"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN1-B09-005",
+        "d": "basic",
+        "p": "Ở câu hát kết \"Vui cùng vui múa ca, vui cùng vui múa ca\", từ nào được nhấn lại để tạo cảm giác tưng bừng nhất?",
+        "o": [
+          "Không có chữ nào có nghĩa",
+          "Hát thật nhỏ mất hết tiếng",
+          "Chỉ có một chữ buồn bã cuối cùng",
+          "Tiếng \"vui\", \"múa ca\" vang lên rộn ràng hòa chung niềm vui tập thể"
+        ],
+        "k": "D",
+        "e": "Điệp khúc lặp lại chữ \"vui\" nhấn mạnh niềm hân hoan vô tận của tuổi nhỏ.",
+        "s": "Điệp khúc vui tươi"
+      },
+      {
+        "c": "AN1-B09-006",
+        "d": "basic",
+        "p": "Nếu không đủ chỗ rộng để chạy vòng tròn lớn, các bạn ngồi tại bàn có thể vận động phụ họa bài \"Múa vui\" thế nào?",
+        "o": [
+          "Ngồi im gục đầu xuống mặt bàn",
+          "Đập chân mạnh vào gầm bàn bạn khác",
+          "Trèo lên mặt bàn nhảy múa nguy hiểm",
+          "Vỗ tay theo nhịp, nghiêng vai trái – phải nhịp nhàng và mỉm cười hát theo"
+        ],
+        "k": "D",
+        "e": "Vận động tại chỗ nhẹ nhàng giúp tiết học sinh động mà vẫn giữ an toàn phòng học.",
+        "s": "Vận động tại chỗ"
+      },
+      {
+        "c": "AN1-B09-007",
+        "d": "application",
+        "p": "Bạn Lan đứng múa vòng tròn bài \"Múa vui\" nhưng lại bước chân ngược chiều so với cả vòng tròn. Điều gì sẽ xảy ra?",
+        "o": [
+          "Vòng tròn sẽ xoay nhanh đẹp hơn",
+          "Bạn Lan sẽ bị va chạm với các bạn bên cạnh và làm đứt đoạn vòng múa",
+          "Cả lớp hát hay hơn",
+          "Không ảnh hưởng gì đến vòng múa"
+        ],
+        "k": "B",
+        "e": "Thống nhất hướng di chuyển (theo chiều kim đồng hồ hoặc ngược chiều) là quy tắc khi múa tập thể.",
+        "s": "Kỉ luật đội hình múa"
+      },
+      {
+        "c": "AN1-B09-008",
+        "d": "application",
+        "p": "Cô giáo muốn tiết mục \"Múa vui\" vừa có tiếng hát, vừa có tiếng gõ vui tai và đội múa minh họa. Cách chia lớp nào hợp lí nhất?",
+        "o": [
+          "Chia 3 nhóm: một nhóm hát chính, một nhóm gõ thanh phách – trống nhỏ, một nhóm múa vòng tròn",
+          "Để cả lớp đứng im nghe băng đĩa",
+          "Chỉ 1 bạn làm cả 3 việc cùng lúc",
+          "Tất cả cùng cầm trống gõ không ai hát"
+        ],
+        "k": "A",
+        "e": "Phân công phối hợp ba vai trò (Hát – Nhạc cụ – Múa) tạo thành màn trình diễn chuyên nghiệp!",
+        "s": "Tổ chức tiết mục"
+      },
+      {
+        "c": "AN1-B09-009",
+        "d": "application",
+        "p": "Quan sát câu hát: \"Cầm tay nhau cùng đi chơi, đi khắp nơi hái bông hoa tươi...\". Nhịp gõ thanh phách nên rơi đều vào những tiếng nào?",
+        "o": [
+          "Cầm – nhau – đi – đi – nơi – bông – tươi (theo nhịp 2 đều đặn)",
+          "Chỉ gõ đúng tiếng đầu tiên",
+          "Gõ 10 cái vào một tiếng",
+          "Không gõ suốt cả câu"
+        ],
+        "k": "A",
+        "e": "Gõ đều vào trọng âm nhịp giúp bước chân đi vòng tròn thật khớp nhạc.",
+        "s": "Gõ nhịp theo lời ca"
+      },
+      {
+        "c": "AN1-B09-010",
+        "d": "application",
+        "p": "Trong câu hát có từ \"hái bông hoa tươi\", em hãy sáng tạo một động tác tay đơn giản minh họa cho hành động đẹp đó (nhưng thực tế ngoài đời ta nên bảo vệ hoa trong công viên nhé!).",
+        "o": [
+          "Hai tay chụm mở nhẹ nhàng mô phỏng bông hoa nở xòe trước ngực kết hợp nụ cười tươi",
+          "Nhăn mặt lắc đầu",
+          "Giơ nắm đấm đấm mạnh vào không khí",
+          "Giả vờ đá chân thật cao"
+        ],
+        "k": "A",
+        "e": "Động tác tượng trưng hình bông hoa nở rất duyên dáng và phù hợp tuổi tiểu học.",
+        "s": "Sáng tạo động tác"
+      },
+      {
+        "c": "AN1-B09-011",
+        "d": "application",
+        "p": "Một nhóm bạn lớp 1C xếp vòng tròn múa bài \"Múa vui\": ban đầu có 8 bạn, sau đó thêm 4 bạn nữ và 3 bạn nam cùng chạy vào nắm tay. Vòng tròn lúc này có bao nhiêu bạn?",
+        "o": [
+          "16 bạn",
+          "12 bạn",
+          "14 bạn",
+          "15 bạn"
+        ],
+        "k": "D",
+        "e": "8 + 4 + 3 = 15 bạn cùng nắm tay múa vòng tròn.",
+        "s": "Đếm thành viên vòng múa"
+      },
+      {
+        "c": "AN1-B09-012",
+        "d": "application",
+        "p": "Sau khi múa hát vòng tròn một lượt theo nhịp vui, hai bạn đứng cạnh nhau cảm thấy điều gì rõ rệt nhất?",
+        "o": [
+          "Cảm thấy phấn khởi, gắn bó thân thiết và hòa đồng hơn với bạn bè trong lớp",
+          "Cảm thấy buồn ngủ rũ rượi",
+          "Cảm thấy ghét các bạn trong lớp hơn",
+          "Quên hết tên các bạn cùng bàn"
+        ],
+        "k": "A",
+        "e": "Âm nhạc và vũ điệu tập thể là cầu nối tình bạn tuyệt vời nhất!",
+        "s": "Giá trị gắn kết"
+      },
+      {
+        "c": "AN1-B09-013",
+        "d": "advanced",
+        "p": "Nếu bài \"Múa vui\" có 2 lời hát, mỗi lời mất 30 giây và thêm phần múa dạo giữa 10 giây. Nếu diễn 2 lần liên tiếp cả bài thì tổng thời gian trình diễn là bao nhiêu giây?",
+        "o": [
+          "140 giây (2 phút 20 giây)",
+          "70 giây",
+          "120 giây",
+          "150 giây"
+        ],
+        "k": "A",
+        "e": "1 lần trọn bài = 30 + 30 + 10 = 70 giây. Diễn 2 lần: 70 x 2 = 140 giây.",
+        "s": "Tính thời gian tiết mục"
+      },
+      {
+        "c": "AN1-B09-014",
+        "d": "advanced",
+        "p": "Tại sao trong múa hát tập thể, người múa cần luôn giữ nét mặt tươi tắn rạng rỡ hướng về khán giả hoặc bạn múa cùng?",
+        "o": [
+          "Vì nét mặt biểu cảm truyền tải niềm vui thật sự của âm nhạc đến người xem và bạn đồng diễn",
+          "Vì không được phép nháy mắt",
+          "Để che mất động tác sai",
+          "Vì bắt buộc phải cười suốt kể cả bài hát buồn"
+        ],
+        "k": "A",
+        "e": "Ánh mắt và nụ cười rạng rỡ chính là linh hồn làm tỏa sáng mọi bài múa thiếu nhi.",
+        "s": "Biểu cảm sân khấu"
+      },
+      {
+        "c": "AN1-B09-015",
+        "d": "advanced",
+        "p": "Em hãy nhận xét vì sao giai điệu của bài \"Múa vui\" rất dễ thuộc đối với trẻ em khắp cả nước:",
+        "o": [
+          "Vì bài hát dài tới 20 phút",
+          "Vì bài hát chỉ dùng một nốt nhạc duy nhất",
+          "Vì giai điệu gọn gàng, tiết tấu đều vui và các nét nhạc lặp lại cân đối rất bắt tai",
+          "Vì bài hát viết toàn bằng tiếng nước ngoài"
+        ],
+        "k": "C",
+        "e": "Cấu trúc cân đối, tiết tấu khỏe khoắn và lời ca giản dị giúp \"Múa vui\" sống mãi qua nhiều thế hệ.",
+        "s": "Cấu trúc ca khúc hay"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac1-c3",
+    "lesson": {
+      "code": "amnhac1-b10",
+      "title": "Bài 10. Đọc nhạc: Bốn nốt Đô – Rê – Mi – Pha",
+      "seq": 10,
+      "subtitle": "Mở rộng thang âm lên 4 nốt Đô – Rê – Mi – Pha và luyện kí hiệu bàn tay chỉ xuống của nốt Pha",
+      "concepts": [
+        "Nốt Pha",
+        "4 nốt Đô-Rê-Mi-Pha",
+        "Đi lên và đi xuống"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN1-B10-001",
+        "d": "basic",
+        "p": "Nốt nhạc thứ tư cao hơn nốt Mi một bậc mà chúng ta mới học thêm ở bài này là nốt nào?",
+        "o": [
+          "Nốt Si",
+          "Nốt Pha",
+          "Nốt Son",
+          "Nốt La"
+        ],
+        "k": "B",
+        "e": "Thứ tự từ thấp lên cao 4 nốt là: Đô – Rê – Mi – Pha.",
+        "s": "Làm quen nốt Pha",
+        "fig": {
+          "w": 350,
+          "h": 168,
+          "items": [
+            {
+              "t": "txt",
+              "p": [
+                175,
+                22
+              ],
+              "s": "Bốn nốt Đô - Rê - Mi - Pha",
+              "anchor": "middle",
+              "size": 13
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                50
+              ],
+              "b": [
+                320,
+                50
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                66
+              ],
+              "b": [
+                320,
+                66
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                82
+              ],
+              "b": [
+                320,
+                82
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                98
+              ],
+              "b": [
+                320,
+                98
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                114
+              ],
+              "b": [
+                320,
+                114
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                53,
+                114
+              ],
+              "b": [
+                77,
+                114
+              ],
+              "color": "#1e293b",
+              "w": 1.5
+            },
+            {
+              "t": "circle",
+              "c": [
+                65,
+                114
+              ],
+              "r": 7,
+              "fill": "#1d4ed8",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "line",
+              "a": [
+                72,
+                114
+              ],
+              "b": [
+                72,
+                88
+              ],
+              "color": "#0f172a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                65,
+                148
+              ],
+              "s": "Đô",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "circle",
+              "c": [
+                113,
+                106
+              ],
+              "r": 7,
+              "fill": "#1d4ed8",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "line",
+              "a": [
+                120,
+                106
+              ],
+              "b": [
+                120,
+                80
+              ],
+              "color": "#0f172a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                113,
+                148
+              ],
+              "s": "Rê",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "circle",
+              "c": [
+                161,
+                98
+              ],
+              "r": 7,
+              "fill": "#1d4ed8",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "line",
+              "a": [
+                168,
+                98
+              ],
+              "b": [
+                168,
+                72
+              ],
+              "color": "#0f172a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                161,
+                148
+              ],
+              "s": "Mi",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "circle",
+              "c": [
+                209,
+                90
+              ],
+              "r": 7,
+              "fill": "#1d4ed8",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "line",
+              "a": [
+                216,
+                90
+              ],
+              "b": [
+                216,
+                64
+              ],
+              "color": "#0f172a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                209,
+                148
+              ],
+              "s": "Pha",
+              "anchor": "middle",
+              "size": 12
+            }
+          ]
+        }
+      },
+      {
+        "c": "AN1-B10-002",
+        "d": "basic",
+        "p": "Trong Kí hiệu bàn tay Curwen, tư thế đặc trưng của nốt PHA là gì?",
+        "o": [
+          "Nắm tròn giống hệt nốt Đô",
+          "Nắm nhẹ bàn tay lại và giơ ngón tay cái chỉ thẳng xuống dưới (ngón cái hướng xuống đất)",
+          "Mở xòe cả 5 ngón tay hướng lên trời",
+          "Duỗi thẳng bàn tay nằm ngang"
+        ],
+        "k": "B",
+        "e": "Ngón cái chỉ xuống gợi cảm giác nốt Pha muốn tựa xuống nốt Mi ở ngay liền kề bên dưới!",
+        "s": "Kí hiệu tay nốt Pha"
+      },
+      {
+        "c": "AN1-B10-003",
+        "d": "basic",
+        "p": "Nhìn hình khuông nhạc trên, nốt Pha nằm ở đâu so với nốt Mi (dòng kẻ thứ nhất)?",
+        "o": [
+          "Nốt Pha nằm thấp hơn dòng kẻ 1",
+          "Nốt Pha nằm gọn trong KHE THỨ NHẤT (khe nằm giữa dòng kẻ 1 và dòng kẻ 2)",
+          "Nốt Pha nằm tít trên dòng kẻ thứ 5",
+          "Nốt Pha nằm trùng lên nốt Đô"
+        ],
+        "k": "B",
+        "e": "Đi lên từng bậc trên khuông: dòng 1 (Mi) -> khe 1 (Pha)! Rất quy luật và dễ nhớ.",
+        "s": "Vị trí nốt Pha trên khuông"
+      },
+      {
+        "c": "AN1-B10-004",
+        "d": "basic",
+        "p": "Thứ tự nào dưới đây là dãy 4 nốt đọc TỪ CAO XUỐNG THẤP chính xác?",
+        "o": [
+          "Pha – Đô – Mi – Rê",
+          "Đô – Rê – Mi – Pha",
+          "Pha – Mi – Rê – Đô",
+          "Mi – Pha – Rê – Đô"
+        ],
+        "k": "C",
+        "e": "Đi xuống lần lượt từng bậc: Pha -> Mi -> Rê -> Đô.",
+        "s": "Đọc ngược xuống thấp"
+      },
+      {
+        "c": "AN1-B10-005",
+        "d": "basic",
+        "p": "So sánh cao độ hai nốt Đô và Pha: Nốt nào có cao độ CAO HƠN?",
+        "o": [
+          "Nốt Pha cao hơn nốt Đô",
+          "Nốt Pha không có cao độ",
+          "Hai nốt cao bằng nhau",
+          "Nốt Đô cao hơn nốt Pha"
+        ],
+        "k": "A",
+        "e": "Đô nằm dưới cùng, bước qua Rê và Mi mới lên tới Pha nên Pha cao hơn hẳn Đô.",
+        "s": "So sánh Đô và Pha"
+      },
+      {
+        "c": "AN1-B10-006",
+        "d": "basic",
+        "p": "Khi luyện đọc nhạc \"Đô – Rê – Mi – Pha – Mi – Rê – Đô\", đường nét cao độ của bài tập giống hình gì?",
+        "o": [
+          "Giống hình bước lên đỉnh ngọn đồi rồi bước xuống chân đồi trở về nhà",
+          "Giống vòng tròn khép kín không lên xuống",
+          "Giống một chấm đứng yên",
+          "Giống đường thẳng ngang bằng phẳng"
+        ],
+        "k": "A",
+        "e": "Đi lên tới đỉnh Pha rồi quay về điểm xuất phát Đô tạo cảm giác hoàn chỉnh, vững vàng.",
+        "s": "Hình dung đường nét âm nhạc"
+      },
+      {
+        "c": "AN1-B10-007",
+        "d": "application",
+        "p": "Bạn Hoa làm chuỗi kí hiệu tay: Nắm tròn (Đô) -> Chếch lên (Rê) -> Nằm ngang (Mi) -> Ngón cái chỉ xuống (Pha). Chuỗi nốt bạn đang chỉ là gì?",
+        "o": [
+          "Pha – Mi – Rê – Đô",
+          "Mi – Pha – Mi – Rê",
+          "Đô – Rê – Mi – Pha",
+          "Đô – Mi – Đô – Pha"
+        ],
+        "k": "C",
+        "e": "Quan sát đúng hình bàn tay từng bước sẽ đọc chính xác ngay chuỗi 4 nốt đi lên.",
+        "s": "Đọc kí hiệu tay 4 nốt",
+        "fig": {
+          "type": "table",
+          "title": "Kí hiệu 4 nốt đầu",
+          "head": [
+            "Nốt",
+            "Kí hiệu bàn tay"
+          ],
+          "rows": [
+            [
+              "Đô",
+              "Nắm tròn, đặt thấp"
+            ],
+            [
+              "Rê",
+              "Duỗi chếch lên trên"
+            ],
+            [
+              "Mi",
+              "Duỗi nằm ngang"
+            ],
+            [
+              "Pha",
+              "Ngón cái chỉ xuống"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN1-B10-008",
+        "d": "application",
+        "p": "Trong một mẫu đọc nhạc 4 nốt \"Đô – Mi – Pha – Đô\", hai bước nhảy lớn nhất xuất hiện ở chỗ nào?",
+        "o": [
+          "Từ Pha nhảy thẳng xuống Đô (bỏ qua Mi và Rê ở giữa)",
+          "Không có bước nhảy nào cả",
+          "Từ Rê lên Rê",
+          "Từ Mi bước lên Pha (liền bậc)"
+        ],
+        "k": "A",
+        "e": "Bước nhảy Pha xuống Đô cách quãng rộng nhất trong 4 nốt (quãng 4), cần nghe kĩ để xuống đúng nốt Đô.",
+        "s": "Nhận biết quãng nhảy"
+      },
+      {
+        "c": "AN1-B10-009",
+        "d": "application",
+        "p": "Nếu cô giáo đọc to \"Pha\", bạn nhỏ cần kiểm tra xem ngón cái trên tay mình đang hướng về phía nào?",
+        "o": [
+          "Hướng thẳng xuống dưới đất, các ngón khác nắm gọn lại",
+          "Xòe hết 5 ngón tay ra",
+          "Hướng thẳng lên trần nhà",
+          "Chỉ ngón trỏ sang bên phải"
+        ],
+        "k": "A",
+        "e": "Nhớ mẹo: Pha -> Ngón cái chỉ xuống dưới (giống chữ P kéo dài nét thẳng xuống).",
+        "s": "Mẹo nhớ kí hiệu Pha"
+      },
+      {
+        "c": "AN1-B10-010",
+        "d": "application",
+        "p": "Nhóm 1 đọc nửa đầu \"Đô – Rê – Mi – Pha\", Nhóm 2 nối tiếp đọc nửa sau \"Pha – Mi – Rê – Đô\". Nốt nào làm cầu nối xuất hiện ở cuối Nhóm 1 và đầu Nhóm 2?",
+        "o": [
+          "Nốt Mi",
+          "Nốt Đô",
+          "Nốt Pha",
+          "Nốt Rê"
+        ],
+        "k": "C",
+        "e": "Nhóm 1 dừng ở đỉnh Pha, Nhóm 2 bắt đúng cao độ Pha đó để đi xuống.",
+        "s": "Đọc nhạc nối tiếp"
+      },
+      {
+        "c": "AN1-B10-011",
+        "d": "application",
+        "p": "Khi đọc nốt Pha, nhiều bạn nhầm sang cao độ cao hơn hẳn hoặc thấp tụt xuống Đô. Để đọc đúng nốt Pha, em dựa vào nốt nào ngay sát bên dưới nó?",
+        "o": [
+          "Hét thật lớn để thành nốt cao",
+          "Đọc thấp xuống dưới nốt Đô",
+          "Đoán đại một tiếng bất kì thật cao",
+          "Dựa vào nốt Mi ngay trước đó rồi nhích giọng lên một chút vừa đủ nhẹ nhàng"
+        ],
+        "k": "D",
+        "e": "Nốt Mi và Pha chỉ cách nhau nửa cung (bước ngắn nhất) nên nhích lên nhẹ nhàng từ Mi là chuẩn nhất!",
+        "s": "Mẹo hát đúng cao độ Pha"
+      },
+      {
+        "c": "AN1-B10-012",
+        "d": "application",
+        "p": "Một bài tập đọc nhạc có 4 ô nhịp, mỗi ô nhịp chứa 2 nốt bằng nhau (1 phách mỗi nốt). Hỏi cả bài tập đọc nhạc có tất cả bao nhiêu nốt nhạc?",
+        "o": [
+          "4 nốt nhạc",
+          "6 nốt nhạc",
+          "8 nốt nhạc",
+          "10 nốt nhạc"
+        ],
+        "k": "C",
+        "e": "4 ô nhịp x 2 nốt = 8 nốt nhạc.",
+        "s": "Đếm nốt trong bài"
+      },
+      {
+        "c": "AN1-B10-013",
+        "d": "advanced",
+        "p": "Cho 4 nốt Đô, Rê, Mi, Pha. Một bài hát kết hợp chỉ dùng Đô ở đầu và Đô ở cuối: \"Đô – [?] – [?] – Đô\". Nếu 2 ô trống đi lên rồi quay xuống sao cho nốt thứ hai là Rê và nốt thứ ba là Pha, thứ tự 4 nốt là gì?",
+        "o": [
+          "Đô – Mi – Rê – Đô",
+          "Đô – Rê – Pha – Đô",
+          "Pha – Rê – Đô – Mi",
+          "Đô – Pha – Rê – Đô"
+        ],
+        "k": "B",
+        "e": "Thay đúng Rê vào vị trí 2 và Pha vào vị trí 3 cho chuỗi Đô – Rê – Pha – Đô.",
+        "s": "Suy luận mẫu âm"
+      },
+      {
+        "c": "AN1-B10-014",
+        "d": "advanced",
+        "p": "Tại sao khuông nhạc lại phải sắp xếp xen kẽ \"Dòng kẻ – Khe – Dòng kẻ – Khe\" thay vì dồn tất cả các nốt vào một chỗ?",
+        "o": [
+          "Để tốn mực in hơn",
+          "Để mỗi nốt có một vị trí riêng biệt rõ ràng theo bậc thang cao thấp, giúp người đọc nhận ra ngay nốt nào cao hơn nốt nào",
+          "Vì không đủ chỗ để viết chữ",
+          "Để trang trí cho trang giấy khỏi trống"
+        ],
+        "k": "B",
+        "e": "Cấu trúc dòng – khe luân phiên tạo thành bản đồ trực quan tuyệt hảo cho cao độ âm nhạc.",
+        "s": "Logic của khuông nhạc"
+      },
+      {
+        "c": "AN1-B10-015",
+        "d": "advanced",
+        "p": "Trong trò chơi sáng tác giai điệu 4 nốt của lớp 1, em hãy nghĩ xem: Nốt nào thường được chọn làm nốt kết thúc cuối bài để nghe cảm giác \"về nhà\" êm ái, trọn vẹn nhất?",
+        "o": [
+          "Hét thật lớn không rõ nốt",
+          "Dừng lại lơ lửng khi chưa đọc xong chữ",
+          "Nốt Đô (nốt gốc thấp nhất đã học)",
+          "Bất kì tiếng động nào không có cao độ"
+        ],
+        "k": "C",
+        "e": "Kết thúc ở âm chủ Đô luôn đem lại cảm giác ổn định, khép lại câu nhạc hoàn chỉnh.",
+        "s": "Cảm giác về âm chủ Đô"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac1-c3",
+    "lesson": {
+      "code": "amnhac1-b11",
+      "title": "Bài 11. Học hát: Quả (Dân gian thiếu nhi) & Gõ tiết tấu",
+      "seq": 11,
+      "subtitle": "Hát vui nhộn bài đồng dao có nhạc \"Quả\" và thực hành gõ hình tiết tấu 2/4 đơn giản",
+      "concepts": [
+        "Bài hát Quả",
+        "Hình tiết tấu cơ bản",
+        "Trái cây Việt Nam"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN1-B11-001",
+        "d": "basic",
+        "p": "Bài hát vui nhộn hỏi đáp: \"Quả gì mà chua chua thế? Xin thưa rằng quả khế...\" có tên gọi ngắn gọn là gì?",
+        "o": [
+          "Tiếng trống trường em",
+          "Quốc ca",
+          "Lý cây xanh",
+          "Quả"
+        ],
+        "k": "D",
+        "e": "Bài hát \"Quả\" (nhạc và lời: Xanh Xanh) dạy trẻ nhận biết hương vị và hình dáng các loại quả quen thuộc.",
+        "s": "Tên bài hát"
+      },
+      {
+        "c": "AN1-B11-002",
+        "d": "basic",
+        "p": "Theo lời bài hát \"Quả\", loại quả nào \"chua chua thế\" mà khi ăn lại \"ngọt ngọt\" với hình dáng ngôi sao 5 cánh khi cắt lát?",
+        "o": [
+          "Quả sầu riêng",
+          "Quả ớt cay",
+          "Quả bóng đá",
+          "Quả khế"
+        ],
+        "k": "D",
+        "e": "\"Quả gì mà chua chua thế? Xin thưa rằng quả khế, ăn vào thì chắc là chua, vâng vâng chua thì để nấu canh chua...\"",
+        "s": "Nội dung lời ca"
+      },
+      {
+        "c": "AN1-B11-003",
+        "d": "basic",
+        "p": "Còn loại quả nào được nhắc đến trong bài hát với đặc điểm \"da xanh xanh, vỏ có nhiều mắt\" hoặc \"lăn lăn\" thú vị?",
+        "o": [
+          "Quả trứng (hay quả bóng, quả dưa, quả gấc trong các lời bài hát thiếu nhi về quả)",
+          "Cục tẩy cao su",
+          "Cây bút chì gỗ",
+          "Chiếc cặp sách da"
+        ],
+        "k": "A",
+        "e": "Các lời tiếp theo của bài \"Quả\" còn đố vui về quả gấc, quả trứng, quả bóng... cực kì dí dỏm!",
+        "s": "Mở rộng lời bài hát"
+      },
+      {
+        "c": "AN1-B11-004",
+        "d": "basic",
+        "p": "Hình thức hát tự nhiên hay nhất cho bài hát \"Quả\" là gì vì bài có cấu trúc câu hỏi – câu trả lời rõ rệt?",
+        "o": [
+          "Hát thật chậm như bài hát ru",
+          "Cả hai nhóm hát chồng câu hỏi lên câu trả lời cùng lúc",
+          "Chỉ ngồi im nghe chứ không hát",
+          "Hát đối đáp giữa hai nhóm: một nhóm hát câu hỏi (\"Quả gì mà...\"), nhóm kia hát câu trả lời (\"Xin thưa rằng...\")"
+        ],
+        "k": "D",
+        "e": "Hát đối đáp hỏi – đáp khiến bài hát sinh động như một trò chơi đố vui âm nhạc!",
+        "s": "Hát đối đáp",
+        "fig": {
+          "type": "table",
+          "title": "Cấu trúc Hỏi – Đáp",
+          "head": [
+            "Nhóm",
+            "Phần lời đảm nhận"
+          ],
+          "rows": [
+            [
+              "Nhóm A (Hỏi)",
+              "Quả gì mà... thế?"
+            ],
+            [
+              "Nhóm B (Đáp)",
+              "Xin thưa rằng quả..."
+            ],
+            [
+              "Cả lớp",
+              "Vỗ tay theo nhịp"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN1-B11-005",
+        "d": "basic",
+        "p": "Trong mẫu gõ tiết tấu: Nốt Đen (đọc \"Ta\", 1 phách) – Nốt Đen (\"Ta\", 1 phách) – Hai nốt Móc đơn (\"Ti-ti\", 1 phách) – Nốt Đen (\"Ta\", 1 phách). Khi gõ theo nhịp đều, hai tiếng \"Ti-ti\" gõ nhanh thế nào so với \"Ta\"?",
+        "o": [
+          "Hai tiếng \"Ti-ti\" gõ nhanh gấp đôi (2 tiếng đều trong khoảng thời gian bằng 1 tiếng \"Ta\")",
+          "Mỗi tiếng \"Ti\" dài gấp đôi tiếng \"Ta\"",
+          "Dừng hẳn không gõ ở chỗ \"Ti-ti\"",
+          "Gõ 5 cái cho chữ \"Ti-ti\""
+        ],
+        "k": "A",
+        "e": "Một nốt đen bằng hai nốt móc đơn ghép lại: \"Ta\" (1 phách) = \"Ti – ti\" (nửa + nửa phách).",
+        "s": "Đọc tiết tấu Ta và Ti-ti"
+      },
+      {
+        "c": "AN1-B11-006",
+        "d": "basic",
+        "p": "Khi gõ mẫu tiết tấu \"Ta – Ta – Ti-ti – Ta\", thanh phách của em cần phát ra tổng cộng bao nhiêu tiếng gõ cho 1 mẫu đó?",
+        "o": [
+          "4 tiếng gõ",
+          "8 tiếng gõ",
+          "5 tiếng gõ (gồm 1 + 1 + 2 + 1 tiếng)",
+          "3 tiếng gõ"
+        ],
+        "k": "C",
+        "e": "Ta (1) + Ta (1) + Ti-ti (2 tiếng) + Ta (1) = 5 tiếng gõ.",
+        "s": "Đếm số tiếng tiết tấu"
+      },
+      {
+        "c": "AN1-B11-007",
+        "d": "application",
+        "p": "Bạn Minh gõ mẫu \"Ta – Ti-ti – Ta – nghỉ\". Đến chữ \"nghỉ\" (dấu lặng đen 1 phách) ở cuối mẫu, bạn Minh cần làm gì?",
+        "o": [
+          "Nhảy lò cò quanh lớp",
+          "Đập thật mạnh xuống mặt bàn",
+          "Mở hai thanh phách tách nhẹ ra sang hai bên trong 1 phách mà không phát ra tiếng gõ",
+          "Gõ thêm chữ \"Ta\" nữa cho đủ 4 tiếng"
+        ],
+        "k": "C",
+        "e": "Động tác mở tay sang hai bên giúp người gõ đếm thầm chính xác độ dài 1 phách của dấu lặng đen.",
+        "s": "Thực hành dấu lặng đen"
+      },
+      {
+        "c": "AN1-B11-008",
+        "d": "application",
+        "p": "Dùng mẫu tiết tấu ghép vào câu \"Quả gì mà chua chua thế\": 6 chữ được ngắt đều theo nhịp. Nhịp độ vừa phải giúp điều gì cho người trả lời?",
+        "o": [
+          "Làm nhóm đáp không nghe rõ câu hỏi",
+          "Giúp hai nhóm bắt nhịp chính xác vào ngay câu đáp \"Xin thưa rằng...\" không bị chệch phách",
+          "Làm mất vần điệu tiếng Việt",
+          "Không có tác dụng giữ nhịp"
+        ],
+        "k": "B",
+        "e": "Giữ đều nhịp chuyển giao giữa câu hỏi và câu trả lời là bí quyết của hát đối đáp hay.",
+        "s": "Giữ nhịp đối đáp"
+      },
+      {
+        "c": "AN1-B11-009",
+        "d": "application",
+        "p": "Nếu tổ chức trò chơi sáng tác câu đố mới theo giai điệu bài \"Quả\" về QUẢ DƯA HẤU (\"Quả gì mà xanh vỏ đỏ lòng?\"), em sẽ đáp nối tiếp thế nào cho vần?",
+        "o": [
+          "Không trả lời gì hết",
+          "Xin thưa rằng bảng đen phấn trắng",
+          "Xin thưa rằng quả dưa hấu, ăn vào thì mát ngọt lành lắm thay!",
+          "Xin thưa rằng cái máy bay đang bay trên trời"
+        ],
+        "k": "C",
+        "e": "Câu trả lời khớp nhịp và nêu đúng đặc trưng bên ngoài – bên trong quả dưa hấu rất đáng yêu!",
+        "s": "Sáng tạo lời bài hát"
+      },
+      {
+        "c": "AN1-B11-010",
+        "d": "application",
+        "p": "Biểu đồ số quả yêu thích mà các bạn lớp 1A đưa vào bài hát tự chế lời: Quả khế (7), Quả xoài (10), Quả dưa hấu (13), Quả cam (8). Tổng số phiếu của cả lớp là bao nhiêu?",
+        "o": [
+          "35 phiếu",
+          "40 phiếu",
+          "28 phiếu",
+          "38 phiếu"
+        ],
+        "k": "D",
+        "e": "7 + 10 + 13 + 8 = 38 phiếu.",
+        "s": "Cộng số liệu biểu đồ",
+        "fig": {
+          "type": "bars",
+          "title": "Các loại quả lớp 1A thích",
+          "labels": [
+            "Khế",
+            "Xoài",
+            "Dưa hấu",
+            "Cam"
+          ],
+          "series": [
+            {
+              "values": [
+                7,
+                10,
+                13,
+                8
+              ]
+            }
+          ],
+          "unit": "phiếu"
+        }
+      },
+      {
+        "c": "AN1-B11-011",
+        "d": "application",
+        "p": "Khi hát câu hỏi \"Quả gì mà chua chua thế?\", giọng điệu và nét mặt của nhóm hỏi nên thể hiện ra sao?",
+        "o": [
+          "Tươi vui, tò mò, hơi nhướng mày dí dỏm như đang thực sự đố bạn bè",
+          "Ngáp ngủ chán nản",
+          "Cúi gằm xuống không nhìn nhóm đối diện",
+          "Nghiêm nghị nhăn nhó giận dỗi"
+        ],
+        "k": "A",
+        "e": "Diễn xuất phù hợp tính chất câu hỏi – trả lời tăng thêm nét hồn nhiên cho tiết mục.",
+        "s": "Diễn xuất khi hát"
+      },
+      {
+        "c": "AN1-B11-012",
+        "d": "application",
+        "p": "Nếu một bạn hát chữ \"quả\" mà kéo sai thành \"quạ\", cô giáo nên nhắc bạn chú ý điều gì trong kĩ năng hát tiếng Việt?",
+        "o": [
+          "Bỏ qua không cần sửa lỗi phát âm dấu câu",
+          "Phát âm chuẩn thanh điệu dấu hỏi (\"quả\") rõ lời nhưng vẫn giữ đúng cao độ nốt nhạc",
+          "Thay hẳn bằng chữ khác không có nghĩa",
+          "Hát nhỏ tiếng lại để không ai nghe thấy"
+        ],
+        "k": "B",
+        "e": "Hát rõ dấu thanh tiếng Việt là yêu cầu quan trọng để người nghe hiểu trọn ý nghĩa bài hát.",
+        "s": "Hát chuẩn dấu tiếng Việt"
+      },
+      {
+        "c": "AN1-B11-013",
+        "d": "advanced",
+        "p": "Một mẫu tiết tấu gồm 4 phách: Phách 1 (\"Ta\"), Phách 2 (\"Ti-ti\"), Phách 3 (\"Ti-ti\"), Phách 4 (\"Ta\"). Nếu em lặp lại mẫu đó 3 lần liên tiếp thì có tất cả bao nhiêu tiếng gõ thanh phách?",
+        "o": [
+          "20 tiếng gõ",
+          "12 tiếng gõ",
+          "15 tiếng gõ",
+          "18 tiếng gõ"
+        ],
+        "k": "D",
+        "e": "1 mẫu có 1 + 2 + 2 + 1 = 6 tiếng gõ. Lặp lại 3 lần: 6 x 3 = 18 tiếng gõ.",
+        "s": "Tính tổng tiếng gõ"
+      },
+      {
+        "c": "AN1-B11-014",
+        "d": "advanced",
+        "p": "Trong phần sáng tạo ghép bộ gõ cơ thể cho bài \"Quả\": Phách 1 dậm chân (mạnh), Phách 2 vỗ đùi (nhẹ), lặp đều suốt 10 ô nhịp 2 phách. Tổng cộng chân dậm bao nhiêu lần và tay vỗ đùi bao nhiêu lần?",
+        "o": [
+          "Mỗi động tác 2 lần",
+          "Dậm chân 20 lần và vỗ đùi 5 lần",
+          "Dậm chân 10 lần và vỗ đùi 10 lần",
+          "Dậm chân 5 lần và vỗ đùi 20 lần"
+        ],
+        "k": "C",
+        "e": "10 ô nhịp, mỗi ô nhịp 1 dậm chân + 1 vỗ đùi -> mỗi động tác thực hiện đúng 10 lần.",
+        "s": "Gõ đệm cơ thể"
+      },
+      {
+        "c": "AN1-B11-015",
+        "d": "advanced",
+        "p": "Vì sao các bài đồng dao – bài hát đố vui như \"Quả\" lại rất có ích cho sự phát triển tư duy của học sinh lớp 1?",
+        "o": [
+          "Vì bài hát chỉ dùng để hát khi đi ngủ",
+          "Vì vừa rèn cảm thụ nhịp điệu âm nhạc, vừa giúp trẻ ghi nhớ kiến thức thiên nhiên và phát triển ngôn ngữ phản xạ nhanh",
+          "Vì bài hát không cần giữ nhịp",
+          "Vì giúp trẻ không cần học đọc chữ nữa"
+        ],
+        "k": "B",
+        "e": "Âm nhạc gắn với trò chơi trí tuệ là phương pháp giáo dục toàn diện cho trẻ tiểu học.",
+        "s": "Giá trị giáo dục"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac1-c3",
+    "lesson": {
+      "code": "amnhac1-b12",
+      "title": "Bài 12. Vận động theo Nhịp điệu: Nhanh – Chậm, To – Nhỏ",
+      "seq": 12,
+      "subtitle": "Nhận biết và phản ứng vận động cơ thể phù hợp theo cường độ (To – Nhỏ) và tốc độ (Nhanh – Chậm) của bản nhạc",
+      "concepts": [
+        "Nhanh – Chậm (Tốc độ)",
+        "To – Nhỏ (Cường độ)",
+        "Phản xạ âm nhạc"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN1-B12-001",
+        "d": "basic",
+        "p": "Trong âm nhạc, cặp khái niệm \"NHANH – CHẬM\" dùng để chỉ yếu tố nào khi chơi một bản nhạc hay hát một bài hát?",
+        "o": [
+          "Màu sắc của nhạc cụ",
+          "Tốc độ (nhịp đi nhanh rộn rã hay thong thả khoan thai của bản nhạc)",
+          "Số người đứng trên sân khấu",
+          "Cường độ vang to hay bé"
+        ],
+        "k": "B",
+        "e": "Ví dụ hành khúc thường nhanh khỏe; bài hát ru thường chậm rãi êm ái.",
+        "s": "Khái niệm Tốc độ",
+        "fig": {
+          "type": "table",
+          "title": "Sắc thái Âm nhạc",
+          "head": [
+            "Cặp đối lập",
+            "Ý nghĩa âm nhạc"
+          ],
+          "rows": [
+            [
+              "Nhanh – Chậm",
+              "Tốc độ bài nhạc"
+            ],
+            [
+              "To – Nhỏ",
+              "Cường độ âm thanh"
+            ],
+            [
+              "Cao – Thấp",
+              "Cao độ nốt nhạc"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN1-B12-002",
+        "d": "basic",
+        "p": "Cặp khái niệm \"TO – NHỎ\" (mạnh – nhẹ) trong âm nhạc nói về yếu tố nào của âm thanh?",
+        "o": [
+          "Số lượng nốt nhạc trên dòng kẻ",
+          "Chiều dài sợi dây đàn",
+          "Cường độ (độ vang lớn mạnh mẽ hay êm dịu nhỏ nhẹ của âm thanh)",
+          "Tên của tác giả bài hát"
+        ],
+        "k": "C",
+        "e": "Thay đổi To – Nhỏ giúp âm nhạc lúc hào hùng mạnh mẽ, lúc sâu lắng thì thầm.",
+        "s": "Khái niệm Cường độ"
+      },
+      {
+        "c": "AN1-B12-003",
+        "d": "basic",
+        "p": "Trong trò chơi \"Đoàn tàu âm nhạc\": Khi cô giáo đánh nhịp trống NHANH dần lên, các bạn nhỏ làm đoàn tàu cần di chuyển thế nào?",
+        "o": [
+          "Bước chậm rì rì lại",
+          "Dừng lại ngồi xuống đất",
+          "Nằm ngang ra sàn",
+          "Bước chân nhanh nhịp nhàng theo đúng tốc độ tiếng trống mà không xô đẩy bạn trước"
+        ],
+        "k": "D",
+        "e": "Phản xạ tăng tốc đều nhưng vẫn giữ khoảng cách an toàn cho bạn phía trước.",
+        "s": "Trò chơi tốc độ"
+      },
+      {
+        "c": "AN1-B12-004",
+        "d": "basic",
+        "p": "Khi nghe đoạn nhạc chuyển sang âm lượng NHỎ NHẸ êm ái (như tiếng ru em bé), động tác tay và bước chân của em nên thay đổi thế nào cho hợp sắc thái?",
+        "o": [
+          "Hét lớn thật to át tiếng nhạc",
+          "Giậm chân ầm ầm xuống sàn nhà",
+          "Kiễng chân bước nhẹ nhàng, động tác tay khẽ khàng mềm mại và nét mặt dịu dàng",
+          "Chạy nhảy xô đẩy bàn ghế"
+        ],
+        "k": "C",
+        "e": "Cường độ nhỏ nhẹ gắn liền với chuyển động uyển chuyển, nâng niu.",
+        "s": "Vận động theo cường độ"
+      },
+      {
+        "c": "AN1-B12-005",
+        "d": "basic",
+        "p": "Nếu cô giáo muốn tạo hiệu ứng \"Đoàn tàu đang tiến lại gần nhà ga rồi đi xa dần\", âm lượng tiếng gõ trống sẽ thay đổi thế nào?",
+        "o": [
+          "Không gõ tiếng nào",
+          "Từ nhỏ tăng dần lên to (lúc lại gần), rồi từ to giảm nhỏ dần (lúc đi xa)",
+          "Lúc nào cũng gõ nhỏ li ti bằng nhau",
+          "Gõ to hết cỡ từ đầu đến cuối"
+        ],
+        "k": "B",
+        "e": "To dần (crescendo) và Nhỏ dần (diminuendo) là thủ pháp kinh điển mô tả khoảng cách âm thanh!",
+        "s": "Mô phỏng gần – xa"
+      },
+      {
+        "c": "AN1-B12-006",
+        "d": "basic",
+        "p": "Đoạn nhạc nào thường có tốc độ NHANH, tiết tấu khỏe khoắn và âm thanh rộn ràng?",
+        "o": [
+          "Nhạc nền êm dịu lúc thư giãn mắt",
+          "Nhạc ru em bé ngủ trưa",
+          "Tiếng nước nhỏ giọt chậm trong đêm",
+          "Nhạc múa vui tập thể, nhạc tập thể dục buổi sáng"
+        ],
+        "k": "D",
+        "e": "Nhịp nhanh khỏe khoắn truyền năng lượng vận động tràn đầy sức sống.",
+        "s": "Nhận diện nhịp nhanh"
+      },
+      {
+        "c": "AN1-B12-007",
+        "d": "application",
+        "p": "Khi nghe bản nhạc giao hưởng thiếu nhi \"Trong hang động của Vua Núi\" (Grieg), tốc độ nhạc ban đầu rất chậm và nhỏ, càng về cuối càng nhanh và vang dội. Em cảm nhận không khí gì?",
+        "o": [
+          "Cảm giác buồn ngủ đều đều suốt bản nhạc",
+          "Không có bất kì sự thay đổi cảm xúc nào",
+          "Cảm giác hồi hộp tăng dần từ lúc rón rén đi trong hang tối đến khi chạy nhanh ra ngoài ánh sáng",
+          "Cảm giác tĩnh lặng hoàn toàn"
+        ],
+        "k": "C",
+        "e": "Sự tăng tốc và tăng âm lượng cùng lúc tạo kịch tính vô cùng hấp dẫn trong âm nhạc giao hưởng!",
+        "s": "Cảm thụ tác phẩm nổi tiếng"
+      },
+      {
+        "c": "AN1-B12-008",
+        "d": "application",
+        "p": "Bạn Hùng nghe tiếng nhạc to lên thì bạn vỗ tay mạnh; nghe tiếng nhạc nhỏ xuống thì bạn chỉ chạm hai đầu ngón trỏ vào nhau khẽ khàng. Cách phản ứng này rèn cho Hùng kĩ năng gì?",
+        "o": [
+          "Kĩ năng nói chuyện khi người khác đang hát",
+          "Kĩ năng chạy nhanh 100 mét",
+          "Kĩ năng tô màu sáp",
+          "Kĩ năng lắng nghe tinh tế cường độ âm thanh và điều khiển lực cơ thể tương ứng"
+        ],
+        "k": "D",
+        "e": "Điều khiển lực tay theo cường độ nhạc giúp trẻ nhạy bén với từng sắc thái âm thanh.",
+        "s": "Luyện phản xạ lực tay"
+      },
+      {
+        "c": "AN1-B12-009",
+        "d": "application",
+        "p": "Quan sát biểu đồ mức độ âm lượng của một đoạn nhạc 4 câu: Câu 1 (mức 2), Câu 2 (mức 5), Câu 3 (mức 8), Câu 4 (mức 3). Câu nào đoạn nhạc vang TO MẠNH NHẤT?",
+        "o": [
+          "Câu 4 (mức 3)",
+          "Câu 1 (mức 2)",
+          "Câu 3 (mức 8)",
+          "Câu 2 (mức 5)"
+        ],
+        "k": "C",
+        "e": "Câu 3 đạt đỉnh mức 8 – cao trào mạnh nhất trước khi hạ dịu xuống Câu 4.",
+        "s": "Đọc biểu đồ cường độ",
+        "fig": {
+          "type": "bars",
+          "title": "Cường độ 4 câu nhạc",
+          "labels": [
+            "Câu 1",
+            "Câu 2",
+            "Câu 3",
+            "Câu 4"
+          ],
+          "series": [
+            {
+              "values": [
+                2,
+                5,
+                8,
+                3
+              ]
+            }
+          ],
+          "unit": "mức"
+        }
+      },
+      {
+        "c": "AN1-B12-010",
+        "d": "application",
+        "p": "Trong giờ vận động, khi nhạc bất ngờ DỪNG ĐỘT NGỘT (trò chơi \"Tượng đá\"), tất cả học sinh cần làm gì?",
+        "o": [
+          "Chạy tiếp thêm 5 vòng quanh lớp",
+          "Ngồi xuống cởi giày",
+          "Vỗ tay thật to hét lên",
+          "Đứng yên giữ nguyên tư thế như bức tượng và giữ im lặng ngay lập tức"
+        ],
+        "k": "D",
+        "e": "Trò chơi \"Tượng đá âm nhạc\" luyện khả năng lắng nghe điểm ngắt và giữ thăng bằng cơ thể.",
+        "s": "Trò chơi Tượng đá"
+      },
+      {
+        "c": "AN1-B12-011",
+        "d": "application",
+        "p": "Khi mẹ ru em bé ngủ trưa, nếu mẹ lại mở loa nhạc nhảy nhịp thật nhanh và bật âm lượng lớn nhất thì điều gì sẽ xảy ra?",
+        "o": [
+          "Căn phòng trở nên yên tĩnh hơn",
+          "Tiếng nhạc biến mất",
+          "Em bé sẽ giật mình tỉnh giấc không ngủ được vì âm lượng và nhịp độ không phù hợp lúc nghỉ ngơi",
+          "Em bé sẽ ngủ say ngay lập tức"
+        ],
+        "k": "C",
+        "e": "Chọn đúng âm nhạc phù hợp hoàn cảnh sống giúp chăm sóc sức khỏe và tinh thần mỗi ngày.",
+        "s": "Ứng dụng âm nhạc đời sống"
+      },
+      {
+        "c": "AN1-B12-012",
+        "d": "application",
+        "p": "Nếu em biểu diễn một bài hát 3 lời: Lời 1 hát vừa phải, Lời 2 hát nhỏ nhẹ êm đềm, Lời 3 hát vang tươi hào hứng. Cách xử lí sắc thái đó mang lại hiệu quả gì?",
+        "o": [
+          "Làm bài hát dài thêm gấp đôi",
+          "Làm khán giả quên mất tên bài hát",
+          "Làm nhạc cụ không gõ được",
+          "Giúp bài hát có điểm nhấn, tránh bị nhàm chán đều đều từ đầu đến cuối"
+        ],
+        "k": "D",
+        "e": "Biến hóa sắc thái giữa các đoạn làm phần trình diễn giàu tính nghệ thuật.",
+        "s": "Xử lí sắc thái khi hát"
+      },
+      {
+        "c": "AN1-B12-013",
+        "d": "advanced",
+        "p": "Một đoạn nhạc có 16 bước nhịp đều: nửa đầu đi CHẬM mất 16 giây, nửa sau đi NHANH gấp đôi nên chỉ mất 8 giây. Hỏi tổng thời gian cả đoạn nhạc là bao nhiêu giây?",
+        "o": [
+          "20 giây",
+          "16 giây",
+          "24 giây",
+          "32 giây"
+        ],
+        "k": "C",
+        "e": "16 giây + 8 giây = 24 giây.",
+        "s": "Tính thời gian chuyển tốc độ"
+      },
+      {
+        "c": "AN1-B12-014",
+        "d": "advanced",
+        "p": "Tại sao không nên nghe tai nghe với âm lượng QUÁ TO trong thời gian dài khi nghe nhạc?",
+        "o": [
+          "Vì âm thanh to làm màu tóc thay đổi",
+          "Vì âm thanh quá lớn gây hại cho màng nhĩ và có thể làm giảm thính lực của đôi tai",
+          "Vì tai nghe sẽ biến thành chiếc loa lớn",
+          "Vì nhạc nhỏ không có giai điệu"
+        ],
+        "k": "B",
+        "e": "Bảo vệ đôi tai trước âm thanh cường độ lớn giúp em cảm thụ âm nhạc khỏe mạnh suốt đời.",
+        "s": "Bảo vệ thính giác"
+      },
+      {
+        "c": "AN1-B12-015",
+        "d": "advanced",
+        "p": "Có nhận định cho rằng: \"Âm nhạc hay chỉ cần thật to và thật nhanh\". Em có đồng ý với ý kiến này không và vì sao?",
+        "o": [
+          "Đồng ý hoàn toàn, càng ồn càng hay",
+          "Đồng ý, vì nhạc chậm không phải là âm nhạc",
+          "Không đồng ý, vì vẻ đẹp âm nhạc nằm ở sự hài hòa giữa lúc nhanh – chậm, lúc mạnh mẽ – êm dịu phù hợp từng cảm xúc",
+          "Không đồng ý vì chỉ nhạc không lời mới hay"
+        ],
+        "k": "C",
+        "e": "Âm nhạc đích thực là nghệ thuật cân bằng mọi sắc thái cảm xúc của con người.",
+        "s": "Tư duy thẩm mĩ âm nhạc"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac1-c4",
+    "lesson": {
+      "code": "amnhac1-b13",
+      "title": "Bài 13. Học hát: Hòa bình cho bé (Huy Trân)",
+      "seq": 13,
+      "subtitle": "Học hát bài Hòa bình cho bé với tình cảm yêu hòa bình, thân ái bạn bè và giữ nhịp 2/4 vững vàng",
+      "concepts": [
+        "Hòa bình cho bé",
+        "Chim bồ câu trắng",
+        "Nhịp bước đều"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN1-B13-001",
+        "d": "basic",
+        "p": "Bài hát \"Hòa bình cho bé\" (sáng tác của nhạc sĩ Huy Trân) mở đầu bằng hình ảnh lá cờ gì phấp phới tung bay?",
+        "o": [
+          "Cờ hòa bình bay phấp phới, giữa trời xanh biếc xanh",
+          "Không nhắc đến lá cờ nào",
+          "Cờ rách nát trong cơn bão",
+          "Cờ đen xám xịt dưới lòng đất"
+        ],
+        "k": "A",
+        "e": "\"Cờ hòa bình bay phấp phới, giữa trời xanh biếc xanh\" mở ra bầu trời ước mơ tươi sáng.",
+        "s": "Hình ảnh mở đầu bài hát"
+      },
+      {
+        "c": "AN1-B13-002",
+        "d": "basic",
+        "p": "Loài chim nào được xem là biểu tượng toàn cầu của HÒA BÌNH và xuất hiện ngay trong lời ca \"Hòa bình cho bé\"?",
+        "o": [
+          "Con diều hâu săn mồi",
+          "Con cá sấu",
+          "Chim bồ câu trắng",
+          "Chim cú mèo đen"
+        ],
+        "k": "C",
+        "e": "Hình ảnh đàn chim bồ câu trắng tung cánh trên bầu trời xanh tượng trưng cho khát vọng hòa bình.",
+        "s": "Biểu tượng hòa bình"
+      },
+      {
+        "c": "AN1-B13-003",
+        "d": "basic",
+        "p": "Theo lời ca cuối bài: \"Hòa bình là nụ cười hồng, hòa bình là... trên môi bé xinh\", âm nhạc muốn gửi gắm ước mơ gì cho trẻ em toàn thế giới?",
+        "o": [
+          "Trẻ em ở đâu cũng sống cô đơn",
+          "Thế giới không cần tiếng cười",
+          "Mọi em bé đều được sống trong hòa bình, an vui, ca hát và học tập dưới mái trường thân yêu",
+          "Các bạn nhỏ không được đi học"
+        ],
+        "k": "C",
+        "e": "Hòa bình mang lại tuổi thơ trọn vẹn, nụ cười và hạnh phúc cho tất cả thiếu nhi.",
+        "s": "Thông điệp nhân văn"
+      },
+      {
+        "c": "AN1-B13-004",
+        "d": "basic",
+        "p": "Tính chất âm nhạc khi hát bài \"Hòa bình cho bé\" là gì?",
+        "o": [
+          "Giận dữ, quát lớn từng chữ",
+          "Nhanh hối hả như chạy trốn",
+          "Vui tươi, hồn nhiên, trong sáng và nhịp nhàng bước đi phấn khởi",
+          "Thê lương, chậm rì và khóc lóc"
+        ],
+        "k": "C",
+        "e": "Giai điệu trong sáng, đều nhịp giúp bài hát truyền năng lượng tích cực, yêu đời.",
+        "s": "Tính chất bài hát"
+      },
+      {
+        "c": "AN1-B13-005",
+        "d": "basic",
+        "p": "Khi gõ thanh phách theo phách của bài \"Hòa bình cho bé\", tiếng gõ rơi vào những nhịp bước chân đều nào?",
+        "o": [
+          "Đứng chụm chân không bước",
+          "Nhịp bước \"Trái – Phải – Trái – Phải\" đều đặn, vững vàng",
+          "Chạy vòng vèo không theo nhịp",
+          "Bước 3 chân trái rồi nhảy lò cò"
+        ],
+        "k": "B",
+        "e": "Nhịp 2/4 của bài hát cực kì ăn khớp với bước đi đều đặn Trái – Phải của thiếu nhi.",
+        "s": "Nhịp 2/4 với bước đi",
+        "fig": {
+          "type": "table",
+          "title": "Bài Hòa bình cho bé",
+          "head": [
+            "Thông tin",
+            "Nội dung chính"
+          ],
+          "rows": [
+            [
+              "Tác giả",
+              "Nhạc sĩ Huy Trân"
+            ],
+            [
+              "Biểu tượng",
+              "Cờ hòa bình, bồ câu"
+            ],
+            [
+              "Nhịp điệu",
+              "Nhịp 2/4 vui, đều"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN1-B13-006",
+        "d": "basic",
+        "p": "Ở câu hát \"Hòa bình là nụ cười hồng\", giọng hát của các em cần phát âm các từ \"cười hồng\" như thế nào cho hay?",
+        "o": [
+          "Nuốt mất chữ \"hồng\" không nghe thấy",
+          "Sáng rõ, nhẹ nhàng và ngân đủ độ dài nốt cuối câu",
+          "Hát ngắt đôi chữ \"cười\"",
+          "Kéo dài tận 20 giây"
+        ],
+        "k": "B",
+        "e": "Ngân đủ trường độ chữ cuối câu tạo sự tròn trịa, ngân nga đẹp mắt.",
+        "s": "Ngân đủ chữ cuối câu"
+      },
+      {
+        "c": "AN1-B13-007",
+        "d": "application",
+        "p": "Nếu dàn dựng tiết mục \"Hòa bình cho bé\" cho ngày lễ tổng kết năm học, đạo cụ múa nào làm bằng giấy an toàn rất phù hợp cho nhóm múa minh họa?",
+        "o": [
+          "Chiếc búa sắt nặng",
+          "Những cánh chim bồ câu trắng cắt bằng giấy hoặc dải ruy-băng xanh trắng nhẹ nhàng",
+          "Những thanh gỗ to sắc nhọn",
+          "Hộp mực đen"
+        ],
+        "k": "B",
+        "e": "Chim bồ câu giấy trắng vẫy nhẹ theo nhịp hát giúp thông điệp hòa bình hiện lên sống động trên sân khấu!",
+        "s": "Đạo cụ biểu diễn"
+      },
+      {
+        "c": "AN1-B13-008",
+        "d": "application",
+        "p": "Bạn Nam muốn gõ trống nhỏ giữ nhịp cho lớp hát bài \"Hòa bình cho bé\" đi diễu hành nhẹ quanh sân trường. Bạn Nam nên gõ thế nào?",
+        "o": [
+          "Gõ lúc to lúc tịt bất thường",
+          "Đứng yên ôm trống không gõ tiếng nào",
+          "Gõ phách mạnh rõ ở chân trái và phách nhẹ ở chân phải đều đặn theo nhịp 2/4",
+          "Gõ dồn dập thật nhanh không cần theo bước chân bạn"
+        ],
+        "k": "C",
+        "e": "Tiếng trống giữ nhịp bước trái – phải giúp cả hàng diễu hành đi đều tăm tắp!",
+        "s": "Trống nhịp hành khúc"
+      },
+      {
+        "c": "AN1-B13-009",
+        "d": "application",
+        "p": "Trong hai câu hát: \"Đàn bồ câu trắng bay về / Đón ánh nắng hồng lung linh\", ở cuối chữ \"về\" có dấu lặng nghỉ ngắn. Các em nên làm gì tại điểm đó?",
+        "o": [
+          "Gào thật to cho đỡ hụt hơi",
+          "Quên luôn câu sau",
+          "Lấy một hơi nhẹ nhàng rồi hát tiếp ngay câu \"Đón ánh nắng...\" thật đều nhịp",
+          "Ngừng lại nói chuyện 1 phút rồi mới hát tiếp"
+        ],
+        "k": "C",
+        "e": "Tận dụng điểm nghỉ giữa hai câu để lấy hơi êm là thói quen của ca sĩ giỏi.",
+        "s": "Kĩ năng lấy hơi câu hát"
+      },
+      {
+        "c": "AN1-B13-010",
+        "d": "application",
+        "p": "Nếu cả lớp ghép bài hát \"Hòa bình cho bé\" với bộ gõ cơ thể (Vỗ tay – Búng tay / Vỗ vai), nhịp mạnh phách 1 thường là động tác nào?",
+        "o": [
+          "Ngồi im",
+          "Nháy mắt một cái",
+          "Vỗ hai bàn tay vào nhau (phát âm thanh rõ nhất cho phách mạnh)",
+          "Cựa ngón chân trong giày"
+        ],
+        "k": "C",
+        "e": "Tiếng vỗ tay rõ ràng đặt ở phách 1 giúp đánh dấu rõ nhịp mở đầu mỗi ô nhịp.",
+        "s": "Phân bố gõ cơ thể"
+      },
+      {
+        "c": "AN1-B13-011",
+        "d": "application",
+        "p": "Khi thấy một bạn trong lớp hát đúng cao độ bài \"Hòa bình cho bé\" nhưng mặt lại buồn thiu như sắp khóc, em sẽ góp ý bạn thế nào?",
+        "o": [
+          "Chê bạn hát quá dở không cho hát nữa",
+          "Bảo bạn khóc to hơn",
+          "Không nói gì và lờ bạn đi",
+          "Nhắc bạn nhẹ nhàng nở nụ cười tươi, mắt sáng lên để phù hợp với \"nụ cười hồng\" trong lời ca"
+        ],
+        "k": "D",
+        "e": "Biểu cảm khuôn mặt đồng nhất với ca từ sẽ chạm tới trái tim người nghe.",
+        "s": "Góp ý xây dựng bạn bè"
+      },
+      {
+        "c": "AN1-B13-012",
+        "d": "application",
+        "p": "Sân trường chuẩn bị lễ hội Hòa bình, lớp 1A làm 18 chú bồ câu giấy trắng và lớp 1B làm 22 chú bồ câu giấy trắng trang trí phông sân khấu. Hai lớp làm được tất cả bao nhiêu chú bồ câu?",
+        "o": [
+          "42 chú chim bồ câu giấy",
+          "38 chú chim bồ câu giấy",
+          "40 chú chim bồ câu giấy",
+          "30 chú chim bồ câu giấy"
+        ],
+        "k": "C",
+        "e": "18 + 22 = 40 chú chim bồ câu.",
+        "s": "Toán thực tế văn nghệ"
+      },
+      {
+        "c": "AN1-B13-013",
+        "d": "advanced",
+        "p": "Một đoạn nhạc dạo cho bài hát kéo dài 4 ô nhịp, mỗi ô nhịp có 2 phách; phần hát chính có 16 ô nhịp cũng 2 phách mỗi ô. Cả phần dạo và hát chính dài bao nhiêu phách?",
+        "o": [
+          "44 phách",
+          "32 phách",
+          "20 phách",
+          "40 phách"
+        ],
+        "k": "D",
+        "e": "(4 + 16) x 2 = 20 x 2 = 40 phách.",
+        "s": "Tính tổng số phách bài hát"
+      },
+      {
+        "c": "AN1-B13-014",
+        "d": "advanced",
+        "p": "Vì sao âm nhạc được gọi là \"ngôn ngữ chung của hòa bình\" kết nối bạn bè nhiều quốc gia dù nói các thứ tiếng khác nhau?",
+        "o": [
+          "Vì cảm xúc vui buồn, giai điệu êm ái và nhịp điệu âm nhạc có thể chạm tới trái tim mọi người không phân biệt ngôn ngữ",
+          "Vì trên thế giới chỉ có 1 bài hát duy nhất",
+          "Vì loa phát thanh tự động dịch hết chữ",
+          "Vì không nước nào dùng lời hát trong bài nhạc"
+        ],
+        "k": "A",
+        "e": "Âm nhạc vượt qua rào cản ngôn ngữ để gieo mầm tình bạn và hòa bình khắp năm châu.",
+        "s": "Ý nghĩa kết nối của âm nhạc"
+      },
+      {
+        "c": "AN1-B13-015",
+        "d": "advanced",
+        "p": "Nếu lớp em tổ chức bình chọn tiết mục văn nghệ chào mừng Ngày Quốc tế Thiếu nhi 1/6, tiêu chí nào quan trọng nhất để đánh giá một tiết mục hay?",
+        "o": [
+          "Ai mặc quần áo đắt tiền nhất là thắng",
+          "Ai hét to nhất làm đau tai mọi người là nhất",
+          "Hát đúng giai điệu – lời ca, giữ đúng nhịp điệu, có sắc thái biểu cảm tươi vui và phối hợp tập thể ăn ý",
+          "Chỉ cần bật băng hát nhép"
+        ],
+        "k": "C",
+        "e": "Kĩ thuật hát đúng, nhịp vững, biểu cảm thật và tinh thần đồng đội tạo nên tiết mục chất lượng.",
+        "s": "Tiêu chí đánh giá biểu diễn"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac1-c4",
+    "lesson": {
+      "code": "amnhac1-b14",
+      "title": "Bài 14. Đọc nhạc: Năm nốt Đô – Rê – Mi – Pha – Son",
+      "seq": 14,
+      "subtitle": "Hoàn thiện dãy 5 nốt cơ bản Đô – Rê – Mi – Pha – Son lớp 1 và đọc câu nhạc có tiết tấu đơn giản",
+      "concepts": [
+        "Nốt Son",
+        "5 nốt cơ bản",
+        "Đọc nốt theo tiết tấu"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN1-B14-001",
+        "d": "basic",
+        "p": "Nốt nhạc thứ năm nằm cao hơn nốt Pha một bậc mà các em học thêm ở cuối năm lớp 1 là nốt nào?",
+        "o": [
+          "Nốt La",
+          "Nốt Đô dưới",
+          "Nốt Si",
+          "Nốt Son"
+        ],
+        "k": "D",
+        "e": "Dãy 5 nốt lớp 1 từ thấp lên cao hoàn chỉnh là: Đô – Rê – Mi – Pha – Son!",
+        "s": "Làm quen nốt Son",
+        "fig": {
+          "w": 350,
+          "h": 168,
+          "items": [
+            {
+              "t": "txt",
+              "p": [
+                175,
+                22
+              ],
+              "s": "Năm nốt Đô - Rê - Mi - Pha - Son",
+              "anchor": "middle",
+              "size": 13
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                50
+              ],
+              "b": [
+                320,
+                50
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                66
+              ],
+              "b": [
+                320,
+                66
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                82
+              ],
+              "b": [
+                320,
+                82
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                98
+              ],
+              "b": [
+                320,
+                98
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                114
+              ],
+              "b": [
+                320,
+                114
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                53,
+                114
+              ],
+              "b": [
+                77,
+                114
+              ],
+              "color": "#1e293b",
+              "w": 1.5
+            },
+            {
+              "t": "circle",
+              "c": [
+                65,
+                114
+              ],
+              "r": 7,
+              "fill": "#1d4ed8",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "line",
+              "a": [
+                72,
+                114
+              ],
+              "b": [
+                72,
+                88
+              ],
+              "color": "#0f172a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                65,
+                148
+              ],
+              "s": "Đô",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "circle",
+              "c": [
+                113,
+                106
+              ],
+              "r": 7,
+              "fill": "#1d4ed8",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "line",
+              "a": [
+                120,
+                106
+              ],
+              "b": [
+                120,
+                80
+              ],
+              "color": "#0f172a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                113,
+                148
+              ],
+              "s": "Rê",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "circle",
+              "c": [
+                161,
+                98
+              ],
+              "r": 7,
+              "fill": "#1d4ed8",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "line",
+              "a": [
+                168,
+                98
+              ],
+              "b": [
+                168,
+                72
+              ],
+              "color": "#0f172a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                161,
+                148
+              ],
+              "s": "Mi",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "circle",
+              "c": [
+                209,
+                90
+              ],
+              "r": 7,
+              "fill": "#1d4ed8",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "line",
+              "a": [
+                216,
+                90
+              ],
+              "b": [
+                216,
+                64
+              ],
+              "color": "#0f172a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                209,
+                148
+              ],
+              "s": "Pha",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "circle",
+              "c": [
+                257,
+                82
+              ],
+              "r": 7,
+              "fill": "#1d4ed8",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "line",
+              "a": [
+                264,
+                82
+              ],
+              "b": [
+                264,
+                56
+              ],
+              "color": "#0f172a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                257,
+                148
+              ],
+              "s": "Son",
+              "anchor": "middle",
+              "size": 12
+            }
+          ]
+        }
+      },
+      {
+        "c": "AN1-B14-002",
+        "d": "basic",
+        "p": "Trong Kí hiệu bàn tay Curwen, bàn tay biểu diễn nốt SON đặt ở vị trí và tư thế thế nào?",
+        "o": [
+          "Mở phẳng bàn tay dựng thẳng đứng (các ngón khép kín, lòng bàn tay hướng vào mặt mình) đặt ở vị trí cao nhất trong 5 nốt",
+          "Nằm sấp úp xuống sàn",
+          "Nắm tròn đặt sát bụng như nốt Đô",
+          "Ngón cái chỉ xuống đất như nốt Pha"
+        ],
+        "k": "A",
+        "e": "Bàn tay dựng đứng rạng rỡ ngang tầm mặt thể hiện âm sắc vang sáng, rực rỡ của nốt Son!",
+        "s": "Kí hiệu tay nốt Son"
+      },
+      {
+        "c": "AN1-B14-003",
+        "d": "basic",
+        "p": "Quan sát vị trí 5 nốt trên khuông nhạc: Nốt Son nằm ở vị trí nào trên 5 dòng kẻ?",
+        "o": [
+          "Nằm dưới dòng kẻ thứ nhất",
+          "Nằm trên dòng kẻ thứ năm",
+          "Nằm ngay trên DÒNG KẺ THỨ HAI (tính từ dưới lên)",
+          "Nằm ở giữa khe thứ ba"
+        ],
+        "k": "C",
+        "e": "Mi ở dòng 1 -> Pha ở khe 1 -> Son nằm đúng ở dòng 2 (chính là nơi đặt tâm khóa Sol!).",
+        "s": "Vị trí nốt Son trên khuông"
+      },
+      {
+        "c": "AN1-B14-004",
+        "d": "basic",
+        "p": "Sắp xếp 5 nốt vừa học theo thứ tự TỪ CAO NHẤT XUỐNG THẤP NHẤT:",
+        "o": [
+          "Son – Pha – Mi – Rê – Đô",
+          "Pha – Son – Rê – Mi – Đô",
+          "Đô – Rê – Mi – Pha – Son",
+          "Son – Mi – Pha – Đô – Rê"
+        ],
+        "k": "A",
+        "e": "Đọc ngược từ đỉnh cao nhất Son đi xuống lần lượt từng bậc về Đô.",
+        "s": "Thang âm đi xuống"
+      },
+      {
+        "c": "AN1-B14-005",
+        "d": "basic",
+        "p": "Trong 5 nốt Đô – Rê – Mi – Pha – Son, nốt nào nằm chính giữa làm cầu nối cân đối hai bên (có 2 nốt thấp hơn và 2 nốt cao hơn nó)?",
+        "o": [
+          "Nốt Pha",
+          "Nốt Son",
+          "Nốt Mi",
+          "Nốt Đô"
+        ],
+        "k": "C",
+        "e": "Dưới Mi có Đô, Rê; trên Mi có Pha, Son -> Mi là nốt đứng chính giữa bộ năm!",
+        "s": "Vị trí trung tâm"
+      },
+      {
+        "c": "AN1-B14-006",
+        "d": "basic",
+        "p": "Khi luyện đọc nhạc bài có nốt Son và nốt Đô (như giai điệu vui \"Son – Mi – Đô\"), khoảng cách cao thấp nghe thế nào?",
+        "o": [
+          "Nốt Son thấp nhất",
+          "Từ cao sáng rực rỡ (Son) bước xuống êm dịu (Mi) rồi hạ vững chắc xuống thấp (Đô)",
+          "Nốt Đô nghe cao hơn nốt Son",
+          "Cả ba nốt đọc cao bằng hệt nhau"
+        ],
+        "k": "B",
+        "e": "Bộ ba Đô – Mi – Son là hợp âm Đô trưởng rất quen thuộc, nghe sáng và vững chãi.",
+        "s": "Cảm thụ Đô - Mi - Son"
+      },
+      {
+        "c": "AN1-B14-007",
+        "d": "application",
+        "p": "Bạn Minh giơ kí hiệu tay: Dựng đứng lòng bàn tay hướng vào người (Son) -> Nằm ngang úp (Mi) -> Dựng đứng lòng bàn tay hướng vào người (Son). Bạn Minh đang ra hiệu câu nốt nào?",
+        "o": [
+          "Son – Mi – Son",
+          "Đô – Mi – Đô",
+          "Pha – Rê – Pha",
+          "Son – Pha – Đô"
+        ],
+        "k": "A",
+        "e": "Nhận diện đúng kí hiệu tay dựng đứng (Son) và nằm ngang (Mi) cho kết quả Son – Mi – Son.",
+        "s": "Đọc kí hiệu tay"
+      },
+      {
+        "c": "AN1-B14-008",
+        "d": "application",
+        "p": "Nếu một câu đọc nhạc có tiết tấu: Son (1 phách) – Son (1 phách) – Mi (2 phách), khi đọc đến nốt Mi cuối câu em cần ngân dài thế nào?",
+        "o": [
+          "Ngừng câm không đọc nốt Mi",
+          "Đọc ngắn hơn nửa phách so với nốt Son",
+          "Ngân dài gấp đôi mỗi nốt Son đứng trước (giữ đủ 2 phách)",
+          "Đọc nhanh thành hai tiếng Mi-Mi"
+        ],
+        "k": "C",
+        "e": "Trường độ 2 phách (nốt trắng) dài gấp đôi trường độ 1 phách (nốt đen).",
+        "s": "Phân biệt 1 và 2 phách"
+      },
+      {
+        "c": "AN1-B14-009",
+        "d": "application",
+        "p": "Trên một chiếc đàn phím đồ chơi (hoặc kèn phím) chỉ có 5 phím trắng đánh dấu Đô – Rê – Mi – Pha – Son. Để chơi chuỗi \"Đô – Son – Mi – Đô\", ngón tay cần bấm phím theo thứ tự vị trí từ trái sang phải thế nào?",
+        "o": [
+          "Phím 2 -> Phím 5 -> Phím 1 -> Phím 3",
+          "Phím 1 -> Phím 5 -> Phím 3 -> Phím 1",
+          "Phím 1 -> Phím 2 -> Phím 3 -> Phím 4",
+          "Phím 5 -> Phím 4 -> Phím 3 -> Phím 2"
+        ],
+        "k": "B",
+        "e": "Đô=1, Rê=2, Mi=3, Pha=4, Son=5. Chuỗi Đô – Son – Mi – Đô ứng với 1 -> 5 -> 3 -> 1.",
+        "s": "Chơi đàn phím 5 nốt",
+        "fig": {
+          "type": "table",
+          "title": "Bản đồ 5 phím đầu",
+          "head": [
+            "Tên nốt",
+            "Số thứ tự phím"
+          ],
+          "rows": [
+            [
+              "Đô",
+              "Phím số 1 (trái)"
+            ],
+            [
+              "Rê",
+              "Phím số 2"
+            ],
+            [
+              "Mi",
+              "Phím số 3"
+            ],
+            [
+              "Pha - Son",
+              "Phím số 4 và 5"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN1-B14-010",
+        "d": "application",
+        "p": "Một bài tập đọc nhạc viết các nốt tuần tự trên khuông: Dòng 1 -> Khe 1 -> Dòng 2 -> Khe 1 -> Dòng 1. Chuỗi nốt đọc ra là gì?",
+        "o": [
+          "Mi – Pha – Son – Pha – Mi",
+          "Đô – Rê – Mi – Rê – Đô",
+          "Đô – Pha – Son – Mi – Đô",
+          "Son – Pha – Mi – Rê – Đô"
+        ],
+        "k": "A",
+        "e": "Dòng 1 là Mi, khe 1 là Pha, dòng 2 là Son -> đọc lên rồi đi xuống là Mi – Pha – Son – Pha – Mi!",
+        "s": "Đọc nốt trên khuông"
+      },
+      {
+        "c": "AN1-B14-011",
+        "d": "application",
+        "p": "Khi đọc câu \"Son – Mi – Son – Mi – Pha – Rê – Đô\", bạn Hoa gõ thanh phách vào mỗi nốt 1 tiếng đều đặn. Tổng cộng câu đọc nhạc có mấy tiếng phách?",
+        "o": [
+          "8 tiếng phách",
+          "6 tiếng phách",
+          "7 tiếng phách",
+          "5 tiếng phách"
+        ],
+        "k": "C",
+        "e": "Có 7 nốt nhạc (Son, Mi, Son, Mi, Pha, Rê, Đô) ứng với 7 tiếng phách.",
+        "s": "Gõ phách khi đọc nhạc"
+      },
+      {
+        "c": "AN1-B14-012",
+        "d": "application",
+        "p": "Trong lớp chia 5 bạn cầm 5 thẻ chữ Đô, Rê, Mi, Pha, Son đứng xếp hàng từ thấp đến cao theo bước bậc. Bạn nào đứng ở đầu hàng bên trái (thấp nhất) và bạn nào đứng cuối hàng bên phải (cao nhất)?",
+        "o": [
+          "Bạn Son đứng đầu, bạn Đô đứng cuối",
+          "Bạn Mi đứng đầu, bạn Pha đứng cuối",
+          "Bạn Đô đứng đầu (thấp nhất), bạn Son đứng cuối (cao nhất)",
+          "Bạn Rê đứng đầu, bạn Mi đứng cuối"
+        ],
+        "k": "C",
+        "e": "Đô -> Rê -> Mi -> Pha -> Son giúp trực quan hóa thang bậc cao độ.",
+        "s": "Trò chơi xếp bậc thang nốt"
+      },
+      {
+        "c": "AN1-B14-013",
+        "d": "advanced",
+        "p": "Một đoạn nhạc ngắn gồm hai ô nhịp: Ô nhịp 1 có \"Son (Ta) – Pha (Ta)\", Ô nhịp 2 có \"Mi (Ta) – Rê (Ta) – Đô (2 phách trắng)\" (đây là 3 ô? Không: Ô1: Son-Pha, Ô2: Mi-Rê, Ô3: Đô 2 phách). Tổng độ dài cả đoạn 3 ô nhịp 2/4 này là bao nhiêu phách?",
+        "o": [
+          "6 phách",
+          "4 phách",
+          "5 phách",
+          "8 phách"
+        ],
+        "k": "A",
+        "e": "Mỗi ô nhịp 2/4 có 2 phách. 3 ô nhịp = 3 x 2 = 6 phách.",
+        "s": "Tính phách nhịp 2/4"
+      },
+      {
+        "c": "AN1-B14-014",
+        "d": "advanced",
+        "p": "Tại sao rất nhiều bài hát đồng dao thiếu nhi trên thế giới (như \"Kìa con bướm vàng\" hay tiếng chuông nhà thờ) thường xây dựng chỉ từ 5 nốt Đô – Rê – Mi – Pha – Son?",
+        "o": [
+          "Vì đàn piano chỉ có 5 phím",
+          "Vì các nhạc sĩ không biết viết thêm nốt khác",
+          "Vì 5 nốt này nằm gọn trong tầm giọng tự nhiên, dễ hát chuẩn cao độ và dễ tạo giai điệu trong sáng cho trẻ nhỏ",
+          "Vì hát quá 5 nốt sẽ bị hỏng giọng"
+        ],
+        "k": "C",
+        "e": "Quãng 5 (Đô – Son) vừa vặn nhất với tầm giọng êm dịu tự nhiên của trẻ 6–7 tuổi.",
+        "s": "Đặc điểm tầm giọng thiếu nhi"
+      },
+      {
+        "c": "AN1-B14-015",
+        "d": "advanced",
+        "p": "Khi em đã đọc thành thạo tên 5 nốt Đô – Rê – Mi – Pha – Son kết hợp kí hiệu tay, bước tiếp theo để đọc hay một bản nhạc mới là gì?",
+        "o": [
+          "Đọc ngược từ cuối trang lên đầu trang",
+          "Chỉ cần đọc thật nhanh tên nốt không cần cao độ",
+          "Kết hợp đọc đúng tên nốt, đúng cao độ và đúng độ dài trường độ nhanh – chậm – ngân nghỉ theo nhịp",
+          "Bịt tai lại để khỏi nghe bạn khác đọc"
+        ],
+        "k": "C",
+        "e": "Âm nhạc luôn là sự kết hợp giữa Cao độ (nốt nào) và Trường độ (ngân bao lâu).",
+        "s": "Nền tảng xướng âm"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac1-c4",
+    "lesson": {
+      "code": "amnhac1-b15",
+      "title": "Bài 15. Nhạc cụ & Biểu diễn: Phối hợp Hát – Gõ – Múa",
+      "seq": 15,
+      "subtitle": "Thực hành biểu diễn nhóm hoàn chỉnh kết hợp giọng hát, nhạc cụ gõ và động tác múa minh họa tự tin",
+      "concepts": [
+        "Biểu diễn nhóm",
+        "Phối hợp Hát – Gõ – Múa",
+        "Tác phong sân khấu"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN1-B15-001",
+        "d": "basic",
+        "p": "Trong một tiết mục biểu diễn âm nhạc tập thể lớp 1 hoàn chỉnh, ba hoạt động thường được kết hợp hài hòa với nhau là gì?",
+        "o": [
+          "Chạy đua – Ném bóng – Đá cầu",
+          "Hát (giọng hát) – Gõ đệm (nhạc cụ) – Vận động múa minh họa",
+          "Tô tượng – Nặn đất – Cắt giấy",
+          "Ngủ gật – Chép bài – Đọc thầm"
+        ],
+        "k": "B",
+        "e": "Kết hợp Hát – Gõ – Múa giúp tiết mục phong phú cả về âm thanh lẫn hình ảnh sân khấu.",
+        "s": "Tam hợp biểu diễn",
+        "fig": {
+          "type": "table",
+          "title": "Đội hình Tiết mục Lớp 1",
+          "head": [
+            "Vai trò",
+            "Nhiệm vụ chính"
+          ],
+          "rows": [
+            [
+              "Nhóm Hát",
+              "Hát rõ, đúng nhịp"
+            ],
+            [
+              "Nhóm Gõ",
+              "Gõ phách giữ nhịp"
+            ],
+            [
+              "Nhóm Múa",
+              "Minh họa theo lời ca"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN1-B15-002",
+        "d": "basic",
+        "p": "Trước khi bước lên sân khấu (hoặc bục giảng) biểu diễn trước thầy cô và các bạn, cả đội cần làm động tác chào khán giả thế nào?",
+        "o": [
+          "Đứng thành hàng ngay ngắn, mỉm cười tươi tắn và cúi đầu chào lịch sự",
+          "Nói chuyện riêng cười khúc khích mất trật tự",
+          "Đứng quay lưng lại phía khán giả",
+          "Chạy ùa lên chen lấn xô nhau đứng che bạn"
+        ],
+        "k": "A",
+        "e": "Tác phong chào hỏi đàng hoàng thể hiện sự tôn trọng khán giả và sự tự tin của người biểu diễn.",
+        "s": "Tác phong sân khấu"
+      },
+      {
+        "c": "AN1-B15-003",
+        "d": "basic",
+        "p": "Khi một nhóm bạn đang biểu diễn trên bục giảng, các bạn ngồi phía dưới làm khán giả văn minh nên làm gì?",
+        "o": [
+          "Ngồi trật tự chăm chú theo dõi và vỗ tay cổ vũ nhiệt tình khi tiết mục kết thúc",
+          "Chạy lung tung qua lại trước sân khấu",
+          "Cười nhạo bạn làm bạn mất tự tin",
+          "Hét to chê bai khi bạn lỡ quên một chữ"
+        ],
+        "k": "A",
+        "e": "Khán giả lịch sự tiếp thêm động lực rất lớn cho các bạn đang biểu diễn!",
+        "s": "Văn hóa khán giả"
+      },
+      {
+        "c": "AN1-B15-004",
+        "d": "basic",
+        "p": "Khi nhóm em nhận phần gõ thanh phách kết hợp trống nhỏ đệm cho các bạn hát, mức âm lượng nhạc cụ cần giữ thế nào?",
+        "o": [
+          "Thay phiên nhau ném dùi trống",
+          "Vừa đủ vang giòn để giữ nhịp đều nhưng vẫn nhường phần nổi bật chính cho tiếng hát",
+          "Gõ nhỏ đến mức chính mình cũng không nghe thấy",
+          "Gõ thật mạnh át hết tiếng hát của bạn"
+        ],
+        "k": "B",
+        "e": "Tiếng hát là nhân vật chính, tiếng gõ đệm đóng vai trò nền nhịp nâng đỡ giọng hát.",
+        "s": "Cân bằng âm lượng"
+      },
+      {
+        "c": "AN1-B15-005",
+        "d": "basic",
+        "p": "Nếu lỡ bị quên một nhịp múa hoặc vấp một chữ khi đang biểu diễn trên sân khấu, điều tốt nhất em nên làm là gì?",
+        "o": [
+          "Chỉ tay đổ lỗi cho bạn bên cạnh ngay trên sân khấu",
+          "Giữ bình tĩnh mỉm cười, lắng nghe lại nhịp hát của các bạn và tiếp tục hòa nhịp ngay câu tiếp theo",
+          "Ngồi thụp xuống che mặt",
+          "Dừng hẳn lại khóc òa và chạy xuống khỏi sân khấu"
+        ],
+        "k": "B",
+        "e": "Bình tĩnh xử lí tình huống trên sân khấu là bản lĩnh rất đáng khen của nghệ sĩ nhỏ tuổi!",
+        "s": "Bản lĩnh sân khấu"
+      },
+      {
+        "c": "AN1-B15-006",
+        "d": "basic",
+        "p": "Khi tiết mục kết thúc bằng câu hát cuối cùng, cả đội biểu diễn nên kết thúc thế nào cho đẹp mắt?",
+        "o": [
+          "Quay sang cãi nhau",
+          "Nhạc vừa dứt là chạy biến thật nhanh xuống chỗ",
+          "Giữ nguyên tư thế kết đẹp khoảng 2 giây, lắng nghe tiếng vỗ tay rồi cùng cúi đầu cảm ơn trước khi đi xuống",
+          "Ngồi phịch xuống sàn sân khấu ngay lập tức"
+        ],
+        "k": "C",
+        "e": "Giữ dáng kết (\"pose\" kết) 2 giây giúp bức ảnh kỷ niệm và ấn tượng tiết mục thật trọn vẹn.",
+        "s": "Kết thúc tiết mục"
+      },
+      {
+        "c": "AN1-B15-007",
+        "d": "application",
+        "p": "Nhóm 1 chuẩn bị biểu diễn bài \"Múa vui\": Có 5 bạn hát, 4 bạn múa và 3 bạn gõ nhạc cụ. Khi xếp hàng ngang trên sân khấu nhỏ, nên bố trí 3 bạn gõ nhạc cụ đứng ở đâu để vừa nhìn thấy bạn hát vừa cân đối đội hình?",
+        "o": [
+          "Xếp 3 bạn cầm trống đứng chắn ngang che kín hết nhóm múa ở phía sau",
+          "Đứng tít ra ngoài hành lang lớp học",
+          "Xếp đứng gọn hai bên cánh hoặc một hàng phía sau nhẹ nhàng, nhường vị trí trung tâm phía trước cho nhóm múa và hát",
+          "Ngồi dưới gầm bàn giáo viên"
+        ],
+        "k": "C",
+        "e": "Sắp xếp đội hình hợp lí (đồng đều trái – phải, thấp đứng trước – cao đứng sau hoặc theo nhóm) làm sân khấu rất đẹp.",
+        "s": "Bố trí đội hình"
+      },
+      {
+        "c": "AN1-B15-008",
+        "d": "application",
+        "p": "Cô giáo muốn cả nhóm vừa bắt đầu hát đúng chữ đầu tiên không bị bạn hát trước bạn hát sau. Bạn nhóm trưởng nên dùng tín hiệu nào?",
+        "o": [
+          "Vỗ vai mạnh từng bạn một",
+          "Mỗi bạn tự nhìn đồng hồ tự hát",
+          "Hét to bằng micro \"BẮT ĐẦU ĐI MỌI NGƯỜI ƠI!\"",
+          "Đếm nhịp thầm hoặc gật đầu nhẹ ra hiệu \"Một, hai!\" đúng lúc kết thúc câu nhạc dạo"
+        ],
+        "k": "D",
+        "e": "Cái gật đầu đồng bộ hoặc tín hiệu nhỏ của nhóm trưởng là kĩ năng làm việc nhóm tuyệt vời.",
+        "s": "Tín hiệu vào bài"
+      },
+      {
+        "c": "AN1-B15-009",
+        "d": "application",
+        "p": "Lớp 1A chuẩn bị 3 tiết mục cho Ngày hội Âm nhạc: Tiết mục 1 (đơn ca – 1 bạn), Tiết mục 2 (tam ca + phách – 5 bạn), Tiết mục 3 (tốp ca múa – 12 bạn). Nếu không bạn nào diễn trùng 2 tiết mục thì có tất cả bao nhiêu bạn tham gia biểu diễn?",
+        "o": [
+          "18 bạn",
+          "20 bạn",
+          "17 bạn",
+          "15 bạn"
+        ],
+        "k": "A",
+        "e": "1 + 5 + 12 = 18 bạn tham gia biểu diễn.",
+        "s": "Thống kê người tham gia"
+      },
+      {
+        "c": "AN1-B15-010",
+        "d": "application",
+        "p": "Trong một tiết mục múa hát có hai đoạn: Đoạn 1 sôi nổi đi vòng tròn, Đoạn 2 êm dịu dừng lại giơ tay hình trái tim. Điểm chuyển giữa hai đoạn cần làm gì?",
+        "o": [
+          "Chú ý lắng nghe câu chuyển của giai điệu nhạc để cả đội đổi động tác cùng một nhịp",
+          "Đoạn 1 chưa hết đã tự ý ngồi xuống",
+          "Mỗi bạn đổi động tác ở một câu khác nhau",
+          "Không cần nghe nhạc"
+        ],
+        "k": "A",
+        "e": "Đồng bộ ở điểm chuyển đoạn tạo hiệu ứng sân khấu chuyên nghiệp cực kì ấn tượng.",
+        "s": "Chuyển đoạn đồng đều"
+      },
+      {
+        "c": "AN1-B15-011",
+        "d": "application",
+        "p": "Vì sao khi biểu diễn có hát, người cầm micro không nên để micro chạm sát vào loa phát thanh đang bật to?",
+        "o": [
+          "Vì micro sẽ biến mất",
+          "Vì sẽ gây ra tiếng rít \"é...\" chói tai làm gián đoạn buổi biểu diễn",
+          "Vì loa sẽ tự tắt nguồn",
+          "Vì tiếng hát sẽ hay hơn gấp 10 lần"
+        ],
+        "k": "B",
+        "e": "Giữ khoảng cách giữa micro và loa tránh hiện tượng phản hồi âm (hú rít).",
+        "s": "An toàn thiết bị âm thanh"
+      },
+      {
+        "c": "AN1-B15-012",
+        "d": "application",
+        "p": "Sau buổi biểu diễn thành công, cô giáo cho các nhóm tự nhận xét lẫn nhau. Nhận xét nào dưới đây mang tính xây dựng và lịch sự nhất?",
+        "o": [
+          "\"Nhóm bạn hát chán quá, chẳng ra gì cả!\"",
+          "\"Nhóm bạn hát rất rõ lời và múa đều, nếu nhóm gõ trống gõ nhỏ lại một chút nữa sẽ còn tuyệt hơn ạ!\"",
+          "\"Chỉ có nhóm mình là giỏi nhất thôi!\"",
+          "\"Mình không nghe thấy gì vì mải nói chuyện!\""
+        ],
+        "k": "B",
+        "e": "Khen ngợi ưu điểm trước và góp ý nhẹ nhàng cụ thể giúp cả lớp cùng tiến bộ vui vẻ.",
+        "s": "Kĩ năng nhận xét tích cực"
+      },
+      {
+        "c": "AN1-B15-013",
+        "d": "advanced",
+        "p": "Một tiết mục liên khúc có 2 bài: Bài A gồm 12 ô nhịp 2/4 và Bài B gồm 16 ô nhịp 2/4 (không tính nhạc dạo). Tổng số phách nhịp của cả liên khúc là bao nhiêu?",
+        "o": [
+          "60 phách",
+          "48 phách",
+          "28 phách",
+          "56 phách"
+        ],
+        "k": "D",
+        "e": "(12 + 16) x 2 = 28 x 2 = 56 phách.",
+        "s": "Tính phách liên khúc"
+      },
+      {
+        "c": "AN1-B15-014",
+        "d": "advanced",
+        "p": "Tham gia biểu diễn âm nhạc tập thể ở lớp 1 giúp em rèn luyện được những phẩm chất quý báu nào ngoài khả năng ca hát?",
+        "o": [
+          "Chỉ biết nhảy một mình không quan tâm ai",
+          "Không cần giao tiếp với bạn bè",
+          "Chạy nhanh hơn trong giờ thể dục",
+          "Sự tự tin trước đám đông, tinh thần hợp tác nhóm, kỉ luật chung và khả năng lắng nghe tôn trọng người khác"
+        ],
+        "k": "D",
+        "e": "Giáo dục âm nhạc phát triển đồng thời trí tuệ cảm xúc, kĩ năng xã hội và sự tự tin.",
+        "s": "Giá trị phát triển bản thân"
+      },
+      {
+        "c": "AN1-B15-015",
+        "d": "advanced",
+        "p": "Nếu lớp em tổ chức \"Ngày hội Âm nhạc Xanh\" sử dụng 100% nhạc cụ tái chế tự làm và trang phục đơn giản gọn đẹp, thông điệp hay nhất của ngày hội là gì?",
+        "o": [
+          "Âm nhạc tràn đầy niềm vui đến từ sự sáng tạo, tình bạn và ý thức bảo vệ thiên nhiên xanh sạch đẹp",
+          "Phải mua đàn đắt tiền mới chơi được nhạc",
+          "Âm nhạc chỉ dành riêng cho người lớn",
+          "Rác thải nhựa không bao giờ tái chế được"
+        ],
+        "k": "A",
+        "e": "Sáng tạo và tình yêu thiên nhiên thổi hồn tươi trẻ vào nghệ thuật học đường.",
+        "s": "Chủ đề sáng tạo"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac1-c4",
+    "lesson": {
+      "code": "amnhac1-b16",
+      "title": "Bài 16. Ôn tập Tổng hợp Âm nhạc Lớp 1",
+      "seq": 16,
+      "subtitle": "Hệ thống hóa các bài hát, 5 nốt đọc nhạc đầu tiên, nhạc cụ gõ và kiến thức thưởng thức âm nhạc Lớp 1",
+      "concepts": [
+        "Ôn tập bài hát",
+        "Ôn 5 nốt Đô-Son",
+        "Ôn nhạc cụ & sắc thái"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN1-B16-001",
+        "d": "basic",
+        "p": "Trong chương trình Âm nhạc Lớp 1 KNTT, em đã được học đầy đủ bao nhiêu nốt nhạc đầu tiên theo thứ tự từ thấp lên cao?",
+        "o": [
+          "Chỉ 1 nốt Đô duy nhất",
+          "5 nốt: Đô – Rê – Mi – Pha – Son",
+          "3 nốt: La – Si – Đô",
+          "7 nốt đủ cả Si"
+        ],
+        "k": "B",
+        "e": "Lớp 1 làm quen vững vàng 5 nốt từ Đô lên Son cùng kí hiệu bàn tay tương ứng.",
+        "s": "Tổng hợp Đọc nhạc Lớp 1",
+        "fig": {
+          "type": "table",
+          "title": "Tổng kết Âm nhạc Lớp 1",
+          "head": [
+            "Phân môn",
+            "Kiến thức đã học"
+          ],
+          "rows": [
+            [
+              "Hát",
+              "5 bài hát thiếu nhi"
+            ],
+            [
+              "Đọc nhạc",
+              "5 nốt Đô đến Son"
+            ],
+            [
+              "Nhạc cụ",
+              "Phách, trống, mõ"
+            ],
+            [
+              "Cảm thụ",
+              "Cao-thấp, dài-ngắn"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN1-B16-002",
+        "d": "basic",
+        "p": "Bài hát nào dưới đây là bài DÂN CA NAM BỘ em đã học trong năm học lớp 1?",
+        "o": [
+          "Lý cây xanh",
+          "Lớp Một thân yêu",
+          "Hòa bình cho bé",
+          "Múa vui"
+        ],
+        "k": "A",
+        "e": "\"Lý cây xanh\" là bài dân ca Nam Bộ; ba bài còn lại là ca khúc thiếu nhi của các nhạc sĩ Việt Nam.",
+        "s": "Phân loại bài hát"
+      },
+      {
+        "c": "AN1-B16-003",
+        "d": "basic",
+        "p": "Trong các nhạc cụ sau, nhạc cụ nào truyền thống của Việt Nam chỉ có MỘT DÂY đàn nhưng phát ra tiếng ngọt ngào sâu lắng?",
+        "o": [
+          "Đàn bầu",
+          "Xúc xắc",
+          "Trống nhỏ",
+          "Thanh phách"
+        ],
+        "k": "A",
+        "e": "Đàn bầu (Độc huyền cầm) là niềm tự hào độc đáo của nền âm nhạc truyền thống Việt Nam.",
+        "s": "Nhận diện Đàn bầu"
+      },
+      {
+        "c": "AN1-B16-004",
+        "d": "basic",
+        "p": "Nhắc lại kí hiệu bàn tay: Nốt nào có bàn tay nắm gọn và ngón cái chỉ thẳng xuống dưới?",
+        "o": [
+          "Nốt Mi",
+          "Nốt Đô",
+          "Nốt Pha",
+          "Nốt Son"
+        ],
+        "k": "C",
+        "e": "Đô (nắm tròn), Rê (chếch lên), Mi (nằm ngang), Pha (ngón cái chỉ xuống), Son (dựng thẳng).",
+        "s": "Ôn kí hiệu tay"
+      },
+      {
+        "c": "AN1-B16-005",
+        "d": "basic",
+        "p": "Cặp khái niệm nào diễn tả độ NGÂN DÀI hay NGẮN GỌN của một âm thanh?",
+        "o": [
+          "Nhiệt độ (Nóng – Lạnh)",
+          "Trường độ (Dài – Ngắn)",
+          "Màu sắc (Đỏ – Xanh)",
+          "Cao độ (Cao – Thấp)"
+        ],
+        "k": "B",
+        "e": "Trường độ là độ dài thời gian tồn tại của âm thanh.",
+        "s": "Ôn Trường độ"
+      },
+      {
+        "c": "AN1-B16-006",
+        "d": "basic",
+        "p": "Để giữ nhịp cho các bạn hát đều khi biểu diễn trên lớp, nhóm nhạc cụ gõ thường dùng những nhạc cụ nào?",
+        "o": [
+          "Bật tivi thật to",
+          "Chỉ dùng thước kẻ bằng sắt nhọn",
+          "Thanh phách, trống nhỏ, song loan hoặc xúc xắc",
+          "Không dùng gì mà chạy nhảy"
+        ],
+        "k": "C",
+        "e": "Thanh phách, trống nhỏ, song loan, xúc xắc là bộ tứ nhạc cụ gõ thân quen của lớp 1.",
+        "s": "Ôn Nhạc cụ gõ"
+      },
+      {
+        "c": "AN1-B16-007",
+        "d": "application",
+        "p": "Cô giáo đàn liên tiếp 5 nốt đi lên từ Đô đến Son rồi nhảy thẳng xuống nốt Mi. Thứ tự chuỗi nốt đó là gì?",
+        "o": [
+          "Đô – Rê – Mi – Pha – Son – Mi",
+          "Pha – Son – Đô – Rê – Mi – Đô",
+          "Son – Pha – Mi – Rê – Đô – Mi",
+          "Đô – Mi – Pha – Son – Rê – Đô"
+        ],
+        "k": "A",
+        "e": "Đi lên 5 nốt từ Đô tới Son là Đô-Rê-Mi-Pha-Son, kết bằng bước nhảy về Mi.",
+        "s": "Nghe và xác định chuỗi nốt"
+      },
+      {
+        "c": "AN1-B16-008",
+        "d": "application",
+        "p": "Bạn Lan có bức tranh vẽ 4 hình: Đàn bầu (1 dây), Đàn nguyệt (thùng tròn 2 dây), Song loan (mõ gỗ tròn) và Thanh phách (2 thanh tre). Nhóm nào vừa là nhạc cụ dây truyền thống vừa xuất hiện trong giờ Thường thức âm nhạc?",
+        "o": [
+          "Trống nhỏ và Xúc xắc",
+          "Cả bốn đều là nhạc cụ hơi",
+          "Song loan và Thanh phách",
+          "Đàn bầu và Đàn nguyệt"
+        ],
+        "k": "D",
+        "e": "Đàn bầu và Đàn nguyệt là hai nhạc cụ dây dân tộc được giới thiệu trong chương trình lớp 1.",
+        "s": "Phân loại nhạc cụ đã học"
+      },
+      {
+        "c": "AN1-B16-009",
+        "d": "application",
+        "p": "Khi đọc mẫu tiết tấu gồm: \"Ta – Ti-ti – Ta – nghỉ\", ta có bao nhiêu phách trong cả mẫu tiết tấu đó?",
+        "o": [
+          "4 phách (1 + 1 + 1 + 1)",
+          "5 phách",
+          "3 phách",
+          "6 phách"
+        ],
+        "k": "A",
+        "e": "Ta (1 phách) + Ti-ti (1 phách) + Ta (1 phách) + nghỉ lặng đen (1 phách) = 4 phách.",
+        "s": "Tính phách tiết tấu"
+      },
+      {
+        "c": "AN1-B16-010",
+        "d": "application",
+        "p": "Biểu đồ ghi số bài hát bạn nhỏ lớp 1 yêu thích nhất trong năm: Lớp Một thân yêu (12), Lý cây xanh (10), Múa vui (14), Hòa bình cho bé (9). Bài nào được bình chọn cao nhất và bài nào ít nhất (chênh nhau mấy phiếu)?",
+        "o": [
+          "Lý cây xanh nhiều nhất, chênh 6 phiếu",
+          "Tất cả bằng nhau",
+          "Múa vui nhiều nhất (14) và Hòa bình cho bé ít nhất (9), chênh nhau 5 phiếu",
+          "Lớp Một thân yêu nhiều nhất, chênh 3 phiếu"
+        ],
+        "k": "C",
+        "e": "14 - 9 = 5 phiếu chênh lệch.",
+        "s": "Phân tích biểu đồ cuối năm",
+        "fig": {
+          "type": "bars",
+          "title": "Bình chọn bài hát Lớp 1",
+          "labels": [
+            "Lớp Một",
+            "Lý cây xanh",
+            "Múa vui",
+            "Hòa bình"
+          ],
+          "series": [
+            {
+              "values": [
+                12,
+                10,
+                14,
+                9
+              ]
+            }
+          ],
+          "unit": "phiếu"
+        }
+      },
+      {
+        "c": "AN1-B16-011",
+        "d": "application",
+        "p": "Một nhóm học sinh hát bài \"Hòa bình cho bé\" có tốc độ rất nhanh hối hả như chạy đua và giọng gắt gỏng. Bạn cần nhắc nhở điều chỉnh hai yếu tố nào?",
+        "o": [
+          "Chỉ cần hát nhỏ hẳn không ra tiếng",
+          "Gõ trống nhanh gấp đôi nữa",
+          "Đổi sang đọc bài thơ khác",
+          "Điều chỉnh tốc độ vừa phải vui tươi và hát nhẹ nhàng rõ chữ, thoải mái tự nhiên"
+        ],
+        "k": "D",
+        "e": "Nhận biết lỗi tốc độ và cường độ giúp trẻ tự điều chỉnh giọng hát tập thể chuẩn xác.",
+        "s": "Tự điều chỉnh tiết mục"
+      },
+      {
+        "c": "AN1-B16-012",
+        "d": "application",
+        "p": "Nhân dịp bế giảng lên lớp 2, lớp 1A muốn tự làm thiệp cảm ơn cô giáo Âm nhạc. Chi tiết hình vẽ âm nhạc nào đẹp và đúng kiến thức đã học nhất để trang trí lên thiệp?",
+        "o": [
+          "Vẽ khuông nhạc 5 dòng có 5 nốt Đô–Rê–Mi–Pha–Son cùng hình chiếc thanh phách và chú chim bồ câu hòa bình",
+          "Vẽ toàn các chữ số phép chia lớp 5",
+          "Vẽ hình đường dây điện giăng rối",
+          "Để tờ giấy trắng trơn không vẽ gì"
+        ],
+        "k": "A",
+        "e": "Đưa kiến thức âm nhạc vào sản phẩm trang trí giúp ghi nhớ bài học thật ý nghĩa!",
+        "s": "Ứng dụng sáng tạo"
+      },
+      {
+        "c": "AN1-B16-013",
+        "d": "advanced",
+        "p": "Trong buổi liên hoan cuối năm, lớp biểu diễn liên tục 4 bài hát đã học, mỗi bài mất 2 phút và xen giữa mỗi bài có 1 phút giới thiệu. Hỏi toàn bộ chương trình biểu diễn mất bao nhiêu phút?",
+        "o": [
+          "15 phút",
+          "8 phút",
+          "12 phút",
+          "11 phút (gồm 4 x 2 phút hát + 3 khoảng xen 1 phút giới thiệu)"
+        ],
+        "k": "D",
+        "e": "Có 4 bài hát (4 x 2 = 8 phút), giữa 4 bài có 3 khoảng chuyển tiếp (3 x 1 = 3 phút). Tổng = 8 + 3 = 11 phút.",
+        "s": "Bài toán khoảng chuyển tiết mục"
+      },
+      {
+        "c": "AN1-B16-014",
+        "d": "advanced",
+        "p": "Nhìn lại cả năm học lớp 1, em nhận thấy lợi ích lớn nhất mà môn Âm nhạc mang lại cho cuộc sống học đường của em là gì?",
+        "o": [
+          "Giúp tâm hồn vui tươi thư giãn, rèn tai nghe nhạy bén, tự tin giao tiếp và biết yêu quê hương qua lời ca",
+          "Làm quên hết các môn học khác",
+          "Chỉ để ngồi nghe nhạc mà không làm gì",
+          "Chỉ có ích nếu em không đi học"
+        ],
+        "k": "A",
+        "e": "Âm nhạc bồi dưỡng tâm hồn, trí tưởng tượng và năng lực thẩm mĩ suốt cuộc đời mỗi học sinh.",
+        "s": "Ý nghĩa môn Âm nhạc"
+      },
+      {
+        "c": "AN1-B16-015",
+        "d": "advanced",
+        "p": "Chuẩn bị bước lên Lớp 2, ngoài 5 nốt Đô–Rê–Mi–Pha–Son và thanh phách – trống nhỏ, em sẽ tiếp tục được mở rộng thêm kiến thức thú vị nào?",
+        "o": [
+          "Sẽ quên hết 5 nốt cũ để học từ đầu",
+          "Sẽ không học hát bài nào ở lớp 2 nữa",
+          "Học thêm nốt La – nốt cao, khám phá khuông nhạc khóa Sol, nhạc cụ Tambourine và nhiều làn điệu dân ca mới",
+          "Chỉ học ngồi im suốt năm học"
+        ],
+        "k": "C",
+        "e": "Kiến thức Âm nhạc lớp 1 là nền móng vững chắc để các em tỏa sáng ở lớp 2!",
+        "s": "Kết nối lên Lớp 2"
+      }
+    ]
+  }
+]

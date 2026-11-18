@@ -1,0 +1,5889 @@
+[
+  {
+    "chapter": "tienganh1-c1",
+    "lesson": {
+      "code": "tienganh1-b01",
+      "title": "Bài 1. Unit 1: In the school playground (B)",
+      "seq": 1,
+      "subtitle": "Làm quen chữ cái B, từ vựng đồ vật quen thuộc (ball, bike, book) và câu chào hỏi cơ bản",
+      "concepts": [
+        "Phonics: B (ball, bike, book)",
+        "Chào hỏi: Hi, I am...",
+        "Từ vựng sân chơi"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA1-B01-001",
+        "d": "basic",
+        "p": "Từ nào bắt đầu bằng chữ cái B có nghĩa là \"quả bóng\"?",
+        "o": [
+          "cat",
+          "dog",
+          "apple",
+          "ball"
+        ],
+        "k": "D",
+        "e": "\"ball\" bắt đầu bằng âm b và có nghĩa là quả bóng.",
+        "s": "Vocabulary",
+        "fig": {
+          "type": "table",
+          "title": "Unit 1 Words",
+          "head": [
+            "Word",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "ball",
+              "quả bóng"
+            ],
+            [
+              "bike",
+              "xe đạp"
+            ],
+            [
+              "book",
+              "quyển sách"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA1-B01-002",
+        "d": "basic",
+        "p": "Từ tiếng Anh \"bike\" có nghĩa tiếng Việt là gì?",
+        "o": [
+          "quyển sách",
+          "xe đạp",
+          "cái bàn",
+          "quả táo"
+        ],
+        "k": "B",
+        "e": "\"bike\" viết tắt của bicycle, nghĩa là xe đạp.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B01-003",
+        "d": "basic",
+        "p": "Từ \"book\" bắt đầu bằng chữ cái nào?",
+        "o": [
+          "B",
+          "C",
+          "A",
+          "D"
+        ],
+        "k": "A",
+        "e": "\"book\" (quyển sách) bắt đầu bằng chữ cái B.",
+        "s": "Phonics"
+      },
+      {
+        "c": "TA1-B01-004",
+        "d": "basic",
+        "p": "Câu chào bạn bằng tiếng Anh quen thuộc nhất là gì?",
+        "o": [
+          "Sorry!",
+          "Goodbye!",
+          "Thank you!",
+          "Hello!"
+        ],
+        "k": "D",
+        "e": "\"Hello!\" hoặc \"Hi!\" dùng để chào hỏi khi gặp bạn.",
+        "s": "Speaking"
+      },
+      {
+        "c": "TA1-B01-005",
+        "d": "basic",
+        "p": "Từ nào dùng để nói \"tạm biệt\" bằng tiếng Anh?",
+        "o": [
+          "Bye",
+          "Book",
+          "Ball",
+          "Hi"
+        ],
+        "k": "A",
+        "e": "\"Bye\" (hoặc Goodbye) nghĩa là tạm biệt.",
+        "s": "Speaking"
+      },
+      {
+        "c": "TA1-B01-006",
+        "d": "basic",
+        "p": "Bạn Bill muốn tự giới thiệu tên mình là Bill. Câu nào đúng?",
+        "o": [
+          "Bye, I am bike.",
+          "Hi, I am Bill.",
+          "Hi, I am ball.",
+          "Hi, you are book."
+        ],
+        "k": "B",
+        "e": "Mẫu câu giới thiệu bản thân lớp 1 là \"Hi, I am + tên\".",
+        "s": "Sentence pattern"
+      },
+      {
+        "c": "TA1-B01-007",
+        "d": "application",
+        "p": "Chọn từ viết ĐÚNG chính tả chỉ tên bạn nam bắt đầu bằng chữ B trong sách Tiếng Anh 1:",
+        "o": [
+          "Book",
+          "Ball",
+          "Bike",
+          "Bill"
+        ],
+        "k": "D",
+        "e": "Trong sách Global Success 1, nhân vật bạn nam tên là Bill (và bạn Ba).",
+        "s": "Textbook character"
+      },
+      {
+        "c": "TA1-B01-008",
+        "d": "application",
+        "p": "Điền chữ cái còn thiếu vào từ chỉ quyển sách: \"_ook\".",
+        "o": [
+          "c",
+          "a",
+          "b",
+          "d"
+        ],
+        "k": "C",
+        "e": "Ghép b + ook thành từ \"book\" (quyển sách).",
+        "s": "Spelling"
+      },
+      {
+        "c": "TA1-B01-009",
+        "d": "application",
+        "p": "Khi gặp bạn Ba ở sân trường, Mai nói: \"Hello, Ba!\" Bạn Ba nên đáp lại thế nào?",
+        "o": [
+          "Hi, Mai!",
+          "Look, ball!",
+          "No, bike!",
+          "Bye, book!"
+        ],
+        "k": "A",
+        "e": "Đáp lại lời chào \"Hello\" bằng \"Hi!\" hoặc \"Hello!\" kèm tên bạn.",
+        "s": "Dialogue"
+      },
+      {
+        "c": "TA1-B01-010",
+        "d": "application",
+        "p": "Nhóm từ nào sau đây CẢ BA từ đều bắt đầu bằng chữ cái B?",
+        "o": [
+          "ball, bike, book",
+          "car, cup, cake",
+          "apple, bike, bag",
+          "ball, cat, book"
+        ],
+        "k": "A",
+        "e": "ball, bike và book đều bắt đầu bằng âm b.",
+        "s": "Phonics grouping"
+      },
+      {
+        "c": "TA1-B01-011",
+        "d": "application",
+        "p": "Sắp xếp các từ thành câu giới thiệu đúng: \"am / Hi, / I / Ba.\"",
+        "o": [
+          "Hi, I am Ba.",
+          "Ba I am, Hi.",
+          "I am Ba, Hi.",
+          "Hi, am I Ba."
+        ],
+        "k": "A",
+        "e": "Trật tự chuẩn: Hi, + I + am + tên.",
+        "s": "Sentence order"
+      },
+      {
+        "c": "TA1-B01-012",
+        "d": "application",
+        "p": "Nếu em mang một quyển sách đến trường, từ nào chỉ đồ vật em mang?",
+        "o": [
+          "playground",
+          "bike",
+          "ball",
+          "book"
+        ],
+        "k": "D",
+        "e": "\"book\" là quyển sách; \"bike\" là xe đạp; \"ball\" là quả bóng.",
+        "s": "Meaning in context"
+      },
+      {
+        "c": "TA1-B01-013",
+        "d": "advanced",
+        "p": "Bạn An nói: \"I have a red ball and a blue book.\" Trong câu có mấy đồ vật bắt đầu bằng chữ B?",
+        "o": [
+          "2 đồ vật (ball và book)",
+          "1 đồ vật (red)",
+          "Không có đồ vật nào",
+          "3 đồ vật (red, ball, blue)"
+        ],
+        "k": "A",
+        "e": "\"ball\" (quả bóng) và \"book\" (quyển sách) là 2 danh từ bắt đầu bằng chữ B.",
+        "s": "Reading comprehension"
+      },
+      {
+        "c": "TA1-B01-014",
+        "d": "advanced",
+        "p": "Chọn câu hoàn chỉnh giới thiệu một đồ vật quen thuộc ở sân chơi:",
+        "o": [
+          "Goodbye, book!",
+          "Look! It is a big ball.",
+          "In the ball is bike.",
+          "Hi, I am a bike."
+        ],
+        "k": "B",
+        "e": "\"It is a big ball\" miêu tả đúng quả bóng lớn ở sân chơi.",
+        "s": "Language use"
+      },
+      {
+        "c": "TA1-B01-015",
+        "d": "advanced",
+        "p": "Hai từ \"Bill\" và \"ball\" khác nhau ở chữ cái nguyên âm nào ở giữa?",
+        "o": [
+          "Chữ i và chữ a",
+          "Chữ b và chữ l",
+          "Không khác nhau chữ nào",
+          "Chữ e và chữ o"
+        ],
+        "k": "A",
+        "e": "B-i-l-l chứa chữ i, còn b-a-l-l chứa chữ a.",
+        "s": "Phonics analysis"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh1-c1",
+    "lesson": {
+      "code": "tienganh1-b02",
+      "title": "Bài 2. Unit 2: In the dining room (C)",
+      "seq": 2,
+      "subtitle": "Học chữ cái C, từ vựng cake, car, cat, cup và mẫu câu I have a...",
+      "concepts": [
+        "Phonics: C (cake, car, cat, cup)",
+        "Mẫu câu I have a...",
+        "Đồ vật trong phòng ăn"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA1-B02-001",
+        "d": "basic",
+        "p": "Từ tiếng Anh nào có nghĩa là \"cái bánh ngọt\"?",
+        "o": [
+          "cake",
+          "car",
+          "cup",
+          "cat"
+        ],
+        "k": "A",
+        "e": "\"cake\" nghĩa là bánh ngọt.",
+        "s": "Vocabulary",
+        "fig": {
+          "type": "table",
+          "title": "Unit 2 Words",
+          "head": [
+            "Word",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "cake",
+              "bánh ngọt"
+            ],
+            [
+              "cat",
+              "con mèo"
+            ],
+            [
+              "cup",
+              "cái tách/cốc"
+            ],
+            [
+              "car",
+              "xe ô tô"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA1-B02-002",
+        "d": "basic",
+        "p": "Con mèo trong tiếng Anh viết và đọc là gì?",
+        "o": [
+          "cup",
+          "car",
+          "cat",
+          "cake"
+        ],
+        "k": "C",
+        "e": "\"cat\" là con mèo.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B02-003",
+        "d": "basic",
+        "p": "Từ \"cup\" có nghĩa tiếng Việt là gì?",
+        "o": [
+          "quyển vở",
+          "cái xe ô tô",
+          "quả bóng",
+          "cái cốc, cái tách"
+        ],
+        "k": "D",
+        "e": "\"cup\" là cái cốc hay cái chén có quai.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B02-004",
+        "d": "basic",
+        "p": "Chữ cái đầu tiên của bốn từ \"cake, car, cat, cup\" là chữ gì?",
+        "o": [
+          "D",
+          "C",
+          "B",
+          "A"
+        ],
+        "k": "B",
+        "e": "Cả bốn từ quen thuộc trong Unit 2 đều bắt đầu bằng chữ C.",
+        "s": "Phonics"
+      },
+      {
+        "c": "TA1-B02-005",
+        "d": "basic",
+        "p": "Từ nào chỉ chiếc xe ô tô đồ chơi hoặc ô tô ngoài đường?",
+        "o": [
+          "car",
+          "cat",
+          "cake",
+          "cup"
+        ],
+        "k": "A",
+        "e": "\"car\" nghĩa là xe ô tô.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B02-006",
+        "d": "basic",
+        "p": "Mẫu câu \"I have a cat.\" có nghĩa là gì?",
+        "o": [
+          "Tôi có một con mèo.",
+          "Tôi là một con mèo.",
+          "Tạm biệt con mèo.",
+          "Cái tách màu trắng."
+        ],
+        "k": "A",
+        "e": "\"I have a...\" nghĩa là \"Tôi có một...\".",
+        "s": "Grammar"
+      },
+      {
+        "c": "TA1-B02-007",
+        "d": "application",
+        "p": "Điền từ thích hợp vào câu sau khi nhìn vào bàn ăn có cái tách: \"I have a ...\".",
+        "o": [
+          "bike",
+          "playground",
+          "book",
+          "cup"
+        ],
+        "k": "D",
+        "e": "Cái tách trên bàn ăn là \"cup\".",
+        "s": "Context match"
+      },
+      {
+        "c": "TA1-B02-008",
+        "d": "application",
+        "p": "Nhóm từ nào gồm TOÀN những từ bắt đầu bằng âm cờ (chữ C)?",
+        "o": [
+          "ball, cat, car",
+          "cat, cake, cup",
+          "dog, cup, ball",
+          "book, bike, cake"
+        ],
+        "k": "B",
+        "e": "cat, cake và cup đều bắt đầu bằng chữ C.",
+        "s": "Phonics"
+      },
+      {
+        "c": "TA1-B02-009",
+        "d": "application",
+        "p": "Điền hai chữ cái còn thiếu để được từ \"ô tô\": \"c_ _\" -> Chọn từ viết đúng:",
+        "o": [
+          "cat",
+          "cra",
+          "car",
+          "cab"
+        ],
+        "k": "C",
+        "e": "c-a-r đọc là \"car\" (xe ô tô).",
+        "s": "Spelling"
+      },
+      {
+        "c": "TA1-B02-010",
+        "d": "application",
+        "p": "Bạn Lan có một chiếc bánh ngọt. Câu tiếng Anh nào bạn Lan nói đúng?",
+        "o": [
+          "I have a cake.",
+          "I have a cat.",
+          "I am a cake.",
+          "I have a car."
+        ],
+        "k": "A",
+        "e": "\"I have a cake.\" nghĩa là \"Mình có một chiếc bánh ngọt.\"",
+        "s": "Sentence pattern"
+      },
+      {
+        "c": "TA1-B02-011",
+        "d": "application",
+        "p": "Trong hai từ \"cat\" và \"car\", điểm giống nhau là gì?",
+        "o": [
+          "Cả hai đều chỉ đồ ăn ngọt",
+          "Cả hai đều có 3 chữ cái và bắt đầu bằng \"ca\"",
+          "Cả hai đều có chữ k ở cuối",
+          "Cả hai đều bắt đầu bằng chữ B"
+        ],
+        "k": "B",
+        "e": "\"cat\" (c-a-t) và \"car\" (c-a-r) đều mở đầu bằng \"ca\" và dài 3 chữ.",
+        "s": "Word comparison"
+      },
+      {
+        "c": "TA1-B02-012",
+        "d": "application",
+        "p": "Sắp xếp các từ thành câu hoàn chỉnh: \"a / have / I / car.\"",
+        "o": [
+          "Have I a car.",
+          "I have a car.",
+          "Car a have I.",
+          "I a have car."
+        ],
+        "k": "B",
+        "e": "Cấu trúc chuẩn: Chủ ngữ (I) + động từ (have) + mạo từ (a) + danh từ (car).",
+        "s": "Sentence order"
+      },
+      {
+        "c": "TA1-B02-013",
+        "d": "advanced",
+        "p": "Bạn Tom nói: \"I have a cake and a cup in the dining room.\" Trong phòng ăn bạn Tom có gì?",
+        "o": [
+          "Một con mèo và một quyển sách",
+          "Một cái bánh ngọt và một cái cốc",
+          "Một chiếc xe đạp và một quả bóng",
+          "Hai chiếc xe ô tô đồ chơi"
+        ],
+        "k": "B",
+        "e": "cake = bánh ngọt, cup = cái cốc, dining room = phòng ăn.",
+        "s": "Reading comprehension"
+      },
+      {
+        "c": "TA1-B02-014",
+        "d": "advanced",
+        "p": "Tìm từ KHÔNG cùng chủ đề với ba từ còn lại trong nhóm \"cake, cup, dining room, bike\":",
+        "o": [
+          "cup",
+          "cake",
+          "bike",
+          "dining room"
+        ],
+        "k": "C",
+        "e": "cake, cup gắn với phòng ăn (dining room), còn bike (xe đạp) dùng ngoài trời.",
+        "s": "Odd one out"
+      },
+      {
+        "c": "TA1-B02-015",
+        "d": "advanced",
+        "p": "Nếu thay chữ cái đầu \"c\" trong từ \"cat\" bằng chữ \"b\", ta có từ \"bat\". Hai từ này giống nhau ở phần nào?",
+        "o": [
+          "Chữ cái đầu tiên",
+          "Không có chữ cái nào giống nhau",
+          "Cả hai đều có nghĩa là cái tách",
+          "Phần vần \"-at\" ở cuối từ"
+        ],
+        "k": "D",
+        "e": "\"cat\" và \"bat\" đều kết thúc bằng \"-at\".",
+        "s": "Phonics rhyme"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh1-c1",
+    "lesson": {
+      "code": "tienganh1-b03",
+      "title": "Bài 3. Unit 3: At the street market (A)",
+      "seq": 3,
+      "subtitle": "Học âm A ngắn (apple, bag, hat, can) và mẫu câu giới thiệu This is my...",
+      "concepts": [
+        "Phonics: A (apple, bag, hat, can)",
+        "Mẫu câu This is my...",
+        "Từ vựng ở khu chợ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA1-B03-001",
+        "d": "basic",
+        "p": "Quả táo trong tiếng Anh là từ nào?",
+        "o": [
+          "apple",
+          "hat",
+          "bag",
+          "can"
+        ],
+        "k": "A",
+        "e": "\"apple\" nghĩa là quả táo.",
+        "s": "Vocabulary",
+        "fig": {
+          "type": "table",
+          "title": "Unit 3 Words",
+          "head": [
+            "Word",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "apple",
+              "quả táo"
+            ],
+            [
+              "bag",
+              "cái túi/cặp"
+            ],
+            [
+              "hat",
+              "cái mũ"
+            ],
+            [
+              "can",
+              "lon nước/hộp"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA1-B03-002",
+        "d": "basic",
+        "p": "Từ \"hat\" có nghĩa tiếng Việt là gì?",
+        "o": [
+          "cái cặp sách",
+          "cái bàn",
+          "quả cam",
+          "cái mũ"
+        ],
+        "k": "D",
+        "e": "\"hat\" là cái mũ (nón).",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B03-003",
+        "d": "basic",
+        "p": "Từ \"bag\" dùng để chỉ đồ vật nào?",
+        "o": [
+          "chiếc xe đạp",
+          "cái cốc",
+          "cái túi hoặc cái cặp",
+          "quả táo"
+        ],
+        "k": "C",
+        "e": "\"bag\" nghĩa là cái túi, ba lô hoặc cặp sách.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B03-004",
+        "d": "basic",
+        "p": "Cả ba từ \"bag, hat, can\" đều có nguyên âm nào ở giữa?",
+        "o": [
+          "Chữ e",
+          "Chữ u",
+          "Chữ a",
+          "Chữ o"
+        ],
+        "k": "C",
+        "e": "b-a-g, h-a-t, c-a-n đều chứa nguyên âm ngắn \"a\".",
+        "s": "Phonics"
+      },
+      {
+        "c": "TA1-B03-005",
+        "d": "basic",
+        "p": "Câu \"This is my bag.\" có nghĩa là gì?",
+        "o": [
+          "Con mèo ở trên bàn.",
+          "Đây là cái túi của tôi.",
+          "Tôi có hai quả táo.",
+          "Tạm biệt cái túi."
+        ],
+        "k": "B",
+        "e": "\"This is my...\" nghĩa là \"Đây là ... của tôi\".",
+        "s": "Sentence pattern"
+      },
+      {
+        "c": "TA1-B03-006",
+        "d": "basic",
+        "p": "Từ nào bắt đầu bằng chữ cái A?",
+        "o": [
+          "bag",
+          "cat",
+          "ball",
+          "apple"
+        ],
+        "k": "D",
+        "e": "\"apple\" bắt đầu bằng chữ cái A.",
+        "s": "Phonics"
+      },
+      {
+        "c": "TA1-B03-007",
+        "d": "application",
+        "p": "Điền từ thích hợp để hoàn thành câu: \"It is hot! Put on your ...\" (Trời nắng, hãy đội mũ lên).",
+        "o": [
+          "cup",
+          "apple",
+          "hat",
+          "cat"
+        ],
+        "k": "C",
+        "e": "Đội lên đầu khi trời nắng là \"hat\" (cái mũ).",
+        "s": "Vocabulary in context"
+      },
+      {
+        "c": "TA1-B03-008",
+        "d": "application",
+        "p": "Chọn câu giới thiệu đúng cái mũ của em bằng tiếng Anh:",
+        "o": [
+          "I am a hat.",
+          "This is my apple bike.",
+          "This is my hat.",
+          "Hello, my bag is cat."
+        ],
+        "k": "C",
+        "e": "\"This is my hat.\" chuẩn cấu trúc giới thiệu đồ vật thuộc sở hữu của mình.",
+        "s": "Speaking"
+      },
+      {
+        "c": "TA1-B03-009",
+        "d": "application",
+        "p": "Điền một chữ cái thích hợp vào chỗ trống để tạo từ chỉ lon nước: \"c _ n\".",
+        "o": [
+          "a",
+          "i",
+          "e",
+          "u"
+        ],
+        "k": "A",
+        "e": "\"can\" nghĩa là cái lon thiếc đựng nước hoặc đồ hộp.",
+        "s": "Spelling"
+      },
+      {
+        "c": "TA1-B03-010",
+        "d": "application",
+        "p": "Nhóm từ nào sau đây CẢ BA từ đều có chữ cái A?",
+        "o": [
+          "cup, dog, fish",
+          "cat, cup, pen",
+          "book, bike, ball",
+          "apple, bag, hat"
+        ],
+        "k": "D",
+        "e": "apple, bag và hat đều chứa chữ cái A.",
+        "s": "Phonics recognition"
+      },
+      {
+        "c": "TA1-B03-011",
+        "d": "application",
+        "p": "Bạn Ann muốn khoe quả táo của mình. Câu nào đúng?",
+        "o": [
+          "I have a car.",
+          "This is my apple.",
+          "Hi, I am Apple.",
+          "This is my ball."
+        ],
+        "k": "B",
+        "e": "Đồ vật cần khoe là quả táo -> \"This is my apple.\"",
+        "s": "Language use"
+      },
+      {
+        "c": "TA1-B03-012",
+        "d": "application",
+        "p": "Sắp xếp thành câu đúng: \"is / This / apple / my.\"",
+        "o": [
+          "My is this apple.",
+          "This my is apple.",
+          "Apple is my this.",
+          "This is my apple."
+        ],
+        "k": "D",
+        "e": "Trật tự câu: This + is + my + danh từ.",
+        "s": "Grammar order"
+      },
+      {
+        "c": "TA1-B03-013",
+        "d": "advanced",
+        "p": "Đọc đoạn: \"Ann is at the street market. She has a red apple in her bag.\" Quả táo của Ann đang nằm ở đâu?",
+        "o": [
+          "Ở trên chiếc mũ",
+          "Ở trên chiếc xe đạp",
+          "Ở trong chiếc túi của bạn ấy",
+          "Ở trong phòng ăn"
+        ],
+        "k": "C",
+        "e": "\"in her bag\" nghĩa là ở bên trong cái túi/cặp của cô ấy.",
+        "s": "Reading"
+      },
+      {
+        "c": "TA1-B03-014",
+        "d": "advanced",
+        "p": "Vì sao khi nói về MỘT quả táo ta dùng \"an apple\" thay vì \"a apple\", trong khi cái mũ vẫn là \"a hat\"?",
+        "o": [
+          "Vì quả táo to hơn cái mũ",
+          "Vì từ apple bắt đầu bằng nguyên âm a",
+          "Vì cái mũ có 3 chữ cái",
+          "Vì từ apple không đếm được"
+        ],
+        "k": "B",
+        "e": "Trước danh từ số ít bắt đầu bằng âm nguyên âm (u, e, o, a, i) ta dùng \"an\".",
+        "s": "Grammar insight"
+      },
+      {
+        "c": "TA1-B03-015",
+        "d": "advanced",
+        "p": "Tìm cặp từ vần giống nhau ở âm cuối \"-at\" từ Unit 2 và Unit 3:",
+        "o": [
+          "bag và ball",
+          "apple và car",
+          "cup và cake",
+          "cat và hat"
+        ],
+        "k": "D",
+        "e": "\"cat\" (c-at) và \"hat\" (h-at) đều kết thúc bằng \"-at\".",
+        "s": "Phonics rhyme"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh1-c1",
+    "lesson": {
+      "code": "tienganh1-b04",
+      "title": "Bài 4. Unit 4: In the bedroom (D)",
+      "seq": 4,
+      "subtitle": "Học chữ cái D (desk, dog, door, duck) và mẫu câu chỉ vị trí, miêu tả phòng ngủ",
+      "concepts": [
+        "Phonics: D (desk, dog, door, duck)",
+        "Mẫu câu This is a...",
+        "Từ vựng phòng ngủ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA1-B04-001",
+        "d": "basic",
+        "p": "Từ tiếng Anh \"dog\" có nghĩa là con vật nào?",
+        "o": [
+          "con mèo",
+          "con cá",
+          "con vịt",
+          "con chó"
+        ],
+        "k": "D",
+        "e": "\"dog\" nghĩa là con chó.",
+        "s": "Vocabulary",
+        "fig": {
+          "type": "table",
+          "title": "Unit 4 Words",
+          "head": [
+            "Word",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "desk",
+              "bàn học"
+            ],
+            [
+              "dog",
+              "con chó"
+            ],
+            [
+              "door",
+              "cửa ra vào"
+            ],
+            [
+              "duck",
+              "con vịt"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA1-B04-002",
+        "d": "basic",
+        "p": "Cái bàn học có ngăn kéo trong tiếng Anh gọi là gì?",
+        "o": [
+          "door",
+          "duck",
+          "desk",
+          "bag"
+        ],
+        "k": "C",
+        "e": "\"desk\" là bàn học hoặc bàn làm việc.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B04-003",
+        "d": "basic",
+        "p": "Từ \"door\" có nghĩa tiếng Việt là gì?",
+        "o": [
+          "cái giường",
+          "cửa sổ",
+          "quyển vở",
+          "cái cửa ra vào"
+        ],
+        "k": "D",
+        "e": "\"door\" là cửa ra vào.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B04-004",
+        "d": "basic",
+        "p": "Con vịt trong tiếng Anh viết là gì?",
+        "o": [
+          "door",
+          "desk",
+          "duck",
+          "dog"
+        ],
+        "k": "C",
+        "e": "\"duck\" nghĩa là con vịt.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B04-005",
+        "d": "basic",
+        "p": "Bốn từ \"desk, dog, door, duck\" đều bắt đầu bằng chữ cái nào?",
+        "o": [
+          "D",
+          "C",
+          "B",
+          "A"
+        ],
+        "k": "A",
+        "e": "Chữ cái chủ đạo của Unit 4 là D.",
+        "s": "Phonics"
+      },
+      {
+        "c": "TA1-B04-006",
+        "d": "basic",
+        "p": "Phòng ngủ trong tiếng Anh là gì?",
+        "o": [
+          "dining room",
+          "bedroom",
+          "street market",
+          "playground"
+        ],
+        "k": "B",
+        "e": "\"bedroom\" ghép từ bed (giường) + room (phòng) nghĩa là phòng ngủ.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B04-007",
+        "d": "application",
+        "p": "Bạn Minh chỉ vào cái bàn học của mình và nói: \"This is my ...\". Từ cần điền là gì?",
+        "o": [
+          "desk",
+          "duck",
+          "door",
+          "dog"
+        ],
+        "k": "A",
+        "e": "Bàn học là \"desk\".",
+        "s": "Context match"
+      },
+      {
+        "c": "TA1-B04-008",
+        "d": "application",
+        "p": "Trong hai từ \"dog\" và \"duck\", từ nào chỉ con vật biết bơi dưới ao và kêu cạc cạc?",
+        "o": [
+          "door",
+          "duck",
+          "dog",
+          "desk"
+        ],
+        "k": "B",
+        "e": "Con vịt biết bơi dưới nước là \"duck\".",
+        "s": "Animal vocabulary"
+      },
+      {
+        "c": "TA1-B04-009",
+        "d": "application",
+        "p": "Điền chữ cái đúng vào từ chỉ cái cửa: \"_oor\".",
+        "o": [
+          "d",
+          "b",
+          "c",
+          "a"
+        ],
+        "k": "A",
+        "e": "d + oor = door (cửa ra vào).",
+        "s": "Spelling"
+      },
+      {
+        "c": "TA1-B04-010",
+        "d": "application",
+        "p": "Chọn câu miêu tả đúng vật nuôi trong phòng ngủ: \"Look! It is a cute ...\"",
+        "o": [
+          "desk",
+          "door",
+          "hat",
+          "dog"
+        ],
+        "k": "D",
+        "e": "\"cute\" (dễ thương) phù hợp nhất để khen con vật nuôi (\"dog\").",
+        "s": "Meaning match"
+      },
+      {
+        "c": "TA1-B04-011",
+        "d": "application",
+        "p": "Nhóm từ nào KHÔNG có từ nào bắt đầu bằng chữ cái D?",
+        "o": [
+          "dog, door, desk",
+          "duck, dog, bag",
+          "desk, apple, door",
+          "cat, cake, car"
+        ],
+        "k": "D",
+        "e": "cat, cake, car đều bắt đầu bằng chữ C.",
+        "s": "Phonics exclusion"
+      },
+      {
+        "c": "TA1-B04-012",
+        "d": "application",
+        "p": "Sắp xếp thành câu đúng: \"is / This / door / a.\"",
+        "o": [
+          "Door is a this.",
+          "A is this door.",
+          "This is a door.",
+          "This a is door."
+        ],
+        "k": "C",
+        "e": "Mẫu câu giới thiệu vật: This + is + a + door.",
+        "s": "Sentence order"
+      },
+      {
+        "c": "TA1-B04-013",
+        "d": "advanced",
+        "p": "Đọc câu: \"In my bedroom, there is a brown desk near the door and a toy duck on the bed.\" Đồ vật nào nằm gần cánh cửa?",
+        "o": [
+          "Cái bàn học màu nâu",
+          "Con mèo trắng",
+          "Con vịt đồ chơi",
+          "Quả bóng tròn"
+        ],
+        "k": "A",
+        "e": "\"a brown desk near the door\" nghĩa là chiếc bàn học màu nâu ở gần cửa ra vào.",
+        "s": "Reading comprehension"
+      },
+      {
+        "c": "TA1-B04-014",
+        "d": "advanced",
+        "p": "Biểu đồ số đồ chơi trong phòng của Dan. Số con vịt đồ chơi nhiều hơn số ô tô bao nhiêu cái?",
+        "o": [
+          "5 cái",
+          "3 cái",
+          "4 cái",
+          "2 cái"
+        ],
+        "k": "B",
+        "e": "Theo biểu đồ: duck = 6, car = 3, hiệu là 6 - 3 = 3.",
+        "s": "Chart reading",
+        "fig": {
+          "type": "bars",
+          "title": "Toys in bedroom",
+          "labels": [
+            "duck",
+            "ball",
+            "car",
+            "dog"
+          ],
+          "series": [
+            {
+              "values": [
+                6,
+                5,
+                3,
+                4
+              ]
+            }
+          ],
+          "unit": "pcs"
+        }
+      },
+      {
+        "c": "TA1-B04-015",
+        "d": "advanced",
+        "p": "Hai từ \"door\" và \"book\" có điểm gì giống nhau ở cách viết chính tả?",
+        "o": [
+          "Cả hai đều bắt đầu bằng chữ D",
+          "Cả hai đều có hai chữ \"o\" đứng liền nhau (\"oo\") ở giữa từ",
+          "Cả hai đều có 5 chữ cái",
+          "Cả hai đều là tên con vật"
+        ],
+        "k": "B",
+        "e": "d-o-o-r và b-o-o-k cùng chứa cặp nguyên âm \"oo\" ở giữa.",
+        "s": "Spelling pattern"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh1-c1",
+    "lesson": {
+      "code": "tienganh1-b05",
+      "title": "Bài 5. Review 1: Ôn tập chữ cái A, B, C, D và từ vựng",
+      "seq": 5,
+      "subtitle": "Tổng hợp bốn chữ cái đầu bảng A, B, C, D, từ vựng và mẫu câu giao tiếp Unit 1 đến Unit 4",
+      "concepts": [
+        "Tổng hợp A, B, C, D",
+        "Ghép chữ và nghĩa",
+        "Mẫu câu Hi/Hello, I have, This is"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA1-B05-001",
+        "d": "basic",
+        "p": "Bốn chữ cái đã học từ Unit 1 đến Unit 4 là những chữ cái nào?",
+        "o": [
+          "E, F, G, H",
+          "I, K, L, M",
+          "O, P, Q, R",
+          "A, B, C, D"
+        ],
+        "k": "D",
+        "e": "Bốn đơn vị bài học đầu tiên tương ứng với 4 chữ cái A, B, C, D.",
+        "s": "Overview",
+        "fig": {
+          "type": "table",
+          "title": "Review 1 Summary",
+          "head": [
+            "Letter",
+            "Sample Words"
+          ],
+          "rows": [
+            [
+              "A",
+              "apple, bag, hat"
+            ],
+            [
+              "B",
+              "ball, bike, book"
+            ],
+            [
+              "C",
+              "cake, car, cat"
+            ],
+            [
+              "D",
+              "desk, dog, duck"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA1-B05-002",
+        "d": "basic",
+        "p": "Từ nào chỉ một loại trái cây màu đỏ hoặc xanh?",
+        "o": [
+          "cup",
+          "duck",
+          "cake",
+          "apple"
+        ],
+        "k": "D",
+        "e": "\"apple\" là quả táo (trái cây).",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B05-003",
+        "d": "basic",
+        "p": "Trong các từ \"dog, cat, duck, desk\", từ nào KHÔNG phải tên con vật?",
+        "o": [
+          "cat",
+          "desk",
+          "dog",
+          "duck"
+        ],
+        "k": "B",
+        "e": "\"desk\" là cái bàn học (đồ vật), ba từ còn lại là động vật.",
+        "s": "Categorization"
+      },
+      {
+        "c": "TA1-B05-004",
+        "d": "basic",
+        "p": "Câu \"Hello, I am Nam.\" dùng để làm gì?",
+        "o": [
+          "Chào hỏi và giới thiệu tên của mình",
+          "Xin phép được ăn bánh",
+          "Hỏi xem mấy giờ rồi",
+          "Nói lời tạm biệt khi ra về"
+        ],
+        "k": "A",
+        "e": "Chào bằng \"Hello\" và giới thiệu tên qua \"I am...\".",
+        "s": "Communication"
+      },
+      {
+        "c": "TA1-B05-005",
+        "d": "basic",
+        "p": "Từ tiếng Anh của \"cái cốc\" là gì?",
+        "o": [
+          "cap",
+          "can",
+          "cat",
+          "cup"
+        ],
+        "k": "D",
+        "e": "\"cup\" là cái cốc/tách; \"cat\" là mèo; \"can\" là cái lon.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B05-006",
+        "d": "basic",
+        "p": "Chữ cái đầu của từ \"hat\" là chữ nào?",
+        "o": [
+          "A",
+          "H",
+          "B",
+          "T"
+        ],
+        "k": "B",
+        "e": "\"hat\" bắt đầu bằng H và chứa nguyên âm A.",
+        "s": "Spelling"
+      },
+      {
+        "c": "TA1-B05-007",
+        "d": "application",
+        "p": "Ghép đúng chữ cái với nhóm từ tương ứng: Nhóm \"cake, cup, car\" thuộc chữ cái nào?",
+        "o": [
+          "Chữ C",
+          "Chữ A",
+          "Chữ D",
+          "Chữ B"
+        ],
+        "k": "A",
+        "e": "Cả ba từ cake, cup, car đều bắt đầu bằng C.",
+        "s": "Phonics"
+      },
+      {
+        "c": "TA1-B05-008",
+        "d": "application",
+        "p": "Chọn câu giới thiệu đúng cả ngữ pháp lẫn nghĩa khi cầm quyển sách của em:",
+        "o": [
+          "This is my book.",
+          "I am my book.",
+          "Hello, book desk.",
+          "This is my bike apple."
+        ],
+        "k": "A",
+        "e": "\"This is my book.\" nghĩa là \"Đây là quyển sách của tôi.\"",
+        "s": "Grammar"
+      },
+      {
+        "c": "TA1-B05-009",
+        "d": "application",
+        "p": "Điền từ thích hợp: \"I have a ... and a ball to play in the playground.\"",
+        "o": [
+          "dining room",
+          "door",
+          "bike",
+          "bedroom"
+        ],
+        "k": "C",
+        "e": "Xe đạp (bike) và bóng (ball) là đồ chơi vận động ở sân chơi.",
+        "s": "Context"
+      },
+      {
+        "c": "TA1-B05-010",
+        "d": "application",
+        "p": "Trong hai từ \"bag\" và \"ball\", từ nào có nghĩa là \"cái cặp/túi\"?",
+        "o": [
+          "book",
+          "bag",
+          "ball",
+          "bike"
+        ],
+        "k": "B",
+        "e": "\"bag\" = cái túi/cặp; \"ball\" = quả bóng.",
+        "s": "Meaning"
+      },
+      {
+        "c": "TA1-B05-011",
+        "d": "application",
+        "p": "Tìm từ viết SAI chính tả trong 4 từ sau:",
+        "o": [
+          "apple",
+          "aple",
+          "cake",
+          "desk"
+        ],
+        "k": "B",
+        "e": "Quả táo viết đúng phải có hai chữ p: \"apple\".",
+        "s": "Spelling check"
+      },
+      {
+        "c": "TA1-B05-012",
+        "d": "application",
+        "p": "Đáp lại câu \"Goodbye, Bill!\" lịch sự nhất là câu nào?",
+        "o": [
+          "Look! A duck.",
+          "I have a cat.",
+          "This is my hat.",
+          "Bye, see you!"
+        ],
+        "k": "D",
+        "e": "Đáp lại lời chào tạm biệt bằng \"Bye!\" hoặc \"Goodbye!\".",
+        "s": "Dialogue"
+      },
+      {
+        "c": "TA1-B05-013",
+        "d": "advanced",
+        "p": "Xếp 4 từ \"dog, apple, cat, ball\" theo đúng thứ tự bảng chữ cái tiếng Anh (A-B-C-D):",
+        "o": [
+          "ball, apple, cat, dog",
+          "apple, ball, cat, dog",
+          "dog, cat, ball, apple",
+          "apple, cat, ball, dog"
+        ],
+        "k": "B",
+        "e": "A (apple) -> B (ball) -> C (cat) -> D (dog).",
+        "s": "Alphabetical order"
+      },
+      {
+        "c": "TA1-B05-014",
+        "d": "advanced",
+        "p": "Đọc đoạn: \"Ba has a brown dog. Hoa has a white cat. Minh has a yellow duck.\" Ai là người nuôi chú mèo trắng?",
+        "o": [
+          "Bạn Ba",
+          "Bạn Minh",
+          "Bạn Bill",
+          "Bạn Hoa"
+        ],
+        "k": "D",
+        "e": "\"Hoa has a white cat\" -> Hoa có một con mèo trắng.",
+        "s": "Reading comprehension"
+      },
+      {
+        "c": "TA1-B05-015",
+        "d": "advanced",
+        "p": "Quan sát hình học: Bóng hình tròn hay bàn học hình chữ nhật có 4 góc vuông? Bảng/hình vẽ dưới đây biểu diễn hình gì?",
+        "o": [
+          "Triangle (hình tam giác)",
+          "Circle (hình tròn)",
+          "Star (ngôi sao)",
+          "Rectangle (hình chữ nhật) giống mặt bàn desk"
+        ],
+        "k": "D",
+        "e": "Hình vẽ là hình chữ nhật (rectangle) có 4 góc vuông, giống mặt bàn học (desk).",
+        "s": "Visual & CLIL",
+        "fig": {
+          "w": 300,
+          "h": 190,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  60,
+                  45
+                ],
+                [
+                  240,
+                  45
+                ],
+                [
+                  240,
+                  135
+                ],
+                [
+                  60,
+                  135
+                ]
+              ],
+              "fill": "#fde68a",
+              "stroke": "#d97706",
+              "w": 2.5
+            },
+            {
+              "t": "rt",
+              "at": [
+                60,
+                135
+              ],
+              "u": [
+                0,
+                -1
+              ],
+              "v": [
+                1,
+                0
+              ],
+              "s": 12
+            },
+            {
+              "t": "tick",
+              "a": [
+                60,
+                45
+              ],
+              "b": [
+                240,
+                45
+              ],
+              "n": 2
+            },
+            {
+              "t": "tick",
+              "a": [
+                60,
+                135
+              ],
+              "b": [
+                240,
+                135
+              ],
+              "n": 2
+            },
+            {
+              "t": "tick",
+              "a": [
+                60,
+                45
+              ],
+              "b": [
+                60,
+                135
+              ],
+              "n": 1
+            },
+            {
+              "t": "tick",
+              "a": [
+                240,
+                45
+              ],
+              "b": [
+                240,
+                135
+              ],
+              "n": 1
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                178
+              ],
+              "s": "Shape of desk",
+              "anchor": "middle",
+              "size": 13
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh1-c2",
+    "lesson": {
+      "code": "tienganh1-b06",
+      "title": "Bài 6. Unit 5: At the fish and chip shop (I)",
+      "seq": 6,
+      "subtitle": "Học âm I ngắn (fish, chips, chicken, milk) và mẫu câu bày tỏ sở thích I like...",
+      "concepts": [
+        "Phonics: I (fish, chips, chicken, milk)",
+        "Mẫu câu I like...",
+        "Đồ ăn và thức uống"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA1-B06-001",
+        "d": "basic",
+        "p": "Từ tiếng Anh \"milk\" có nghĩa là đồ uống nào?",
+        "o": [
+          "nước lọc",
+          "sữa",
+          "nước cam",
+          "trà đá"
+        ],
+        "k": "B",
+        "e": "\"milk\" nghĩa là sữa.",
+        "s": "Vocabulary",
+        "fig": {
+          "type": "table",
+          "title": "Unit 5 Food & Drink",
+          "head": [
+            "Word",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "fish",
+              "cá"
+            ],
+            [
+              "chips",
+              "khoai tây chiên"
+            ],
+            [
+              "chicken",
+              "thịt gà"
+            ],
+            [
+              "milk",
+              "sữa"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA1-B06-002",
+        "d": "basic",
+        "p": "Món ăn \"fish\" có nghĩa tiếng Việt là gì?",
+        "o": [
+          "bánh mì",
+          "thịt gà",
+          "cá",
+          "trứng rán"
+        ],
+        "k": "C",
+        "e": "\"fish\" nghĩa là con cá hoặc món cá.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B06-003",
+        "d": "basic",
+        "p": "Từ \"chicken\" dùng để chỉ món nào?",
+        "o": [
+          "sữa tươi",
+          "gà hoặc thịt gà",
+          "cá rán",
+          "khoai tây chiên"
+        ],
+        "k": "B",
+        "e": "\"chicken\" nghĩa là con gà hoặc món thịt gà.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B06-004",
+        "d": "basic",
+        "p": "Món khoai tây chiên giòn cắt thanh trong Unit 5 gọi là gì?",
+        "o": [
+          "chips",
+          "milk",
+          "cake",
+          "apple"
+        ],
+        "k": "A",
+        "e": "\"chips\" là khoai tây chiên (món fish and chips nổi tiếng).",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B06-005",
+        "d": "basic",
+        "p": "Bốn từ \"fish, chips, chicken, milk\" đều chứa chung chữ cái nguyên âm nào?",
+        "o": [
+          "Chữ u",
+          "Chữ i",
+          "Chữ e",
+          "Chữ o"
+        ],
+        "k": "B",
+        "e": "f-i-s-h, c-h-i-p-s, c-h-i-c-k-e-n, m-i-l-k đều có âm ngắn \"i\".",
+        "s": "Phonics"
+      },
+      {
+        "c": "TA1-B06-006",
+        "d": "basic",
+        "p": "Câu \"I like milk.\" nghĩa là gì?",
+        "o": [
+          "Tôi ghét uống sữa.",
+          "Tôi có một con cá.",
+          "Tôi thích uống sữa.",
+          "Đây là cái cốc."
+        ],
+        "k": "C",
+        "e": "\"I like...\" diễn đạt sở thích (\"Tôi thích...\").",
+        "s": "Sentence pattern"
+      },
+      {
+        "c": "TA1-B06-007",
+        "d": "application",
+        "p": "Bạn Bill rất thích ăn thịt gà. Câu nào diễn đạt đúng ý của Bill?",
+        "o": [
+          "I have a desk.",
+          "I like chicken.",
+          "I like chips.",
+          "This is my milk."
+        ],
+        "k": "B",
+        "e": "Thịt gà là \"chicken\", nói thích dùng \"I like chicken.\"",
+        "s": "Speaking"
+      },
+      {
+        "c": "TA1-B06-008",
+        "d": "application",
+        "p": "Tìm hai chữ cái còn thiếu trong từ chỉ sữa: \"m _ _ k\".",
+        "o": [
+          "al",
+          "il",
+          "el",
+          "ol"
+        ],
+        "k": "B",
+        "e": "m-i-l-k = milk (sữa).",
+        "s": "Spelling"
+      },
+      {
+        "c": "TA1-B06-009",
+        "d": "application",
+        "p": "Nhóm nào gồm TOÀN những đồ ăn và thức uống?",
+        "o": [
+          "chicken, hat, car",
+          "fish, chips, milk",
+          "milk, desk, book",
+          "fish, dog, bike"
+        ],
+        "k": "B",
+        "e": "fish, chips và milk đều thuộc chủ đề đồ ăn, thức uống.",
+        "s": "Topic sorting"
+      },
+      {
+        "c": "TA1-B06-010",
+        "d": "application",
+        "p": "Điền từ đúng: \"I like ... and chips!\" (Món cá và khoai tây chiên).",
+        "o": [
+          "hat",
+          "door",
+          "cat",
+          "fish"
+        ],
+        "k": "D",
+        "e": "\"fish and chips\" là món ăn quen thuộc trong tên bài Unit 5.",
+        "s": "Textbook phrase"
+      },
+      {
+        "c": "TA1-B06-011",
+        "d": "application",
+        "p": "Từ nào trong nhóm \"fish, chips, milk, cup\" KHÔNG chứa âm \"i\"?",
+        "o": [
+          "cup",
+          "milk",
+          "chips",
+          "fish"
+        ],
+        "k": "A",
+        "e": "c-u-p chứa chữ u, không có chữ i.",
+        "s": "Phonics check"
+      },
+      {
+        "c": "TA1-B06-012",
+        "d": "application",
+        "p": "Sắp xếp thành câu hoàn chỉnh: \"like / I / fish / milk / and.\"",
+        "o": [
+          "Like I and fish milk.",
+          "I fish like and milk.",
+          "Fish and milk like I.",
+          "I like fish and milk."
+        ],
+        "k": "D",
+        "e": "Cấu trúc chuẩn: I + like + fish + and + milk.",
+        "s": "Sentence order"
+      },
+      {
+        "c": "TA1-B06-013",
+        "d": "advanced",
+        "p": "Trong lớp, 12 bạn thích sữa (milk), 8 bạn thích gà (chicken), 10 bạn thích cá (fish). Món nào được ít bạn chọn nhất theo biểu đồ?",
+        "o": [
+          "Milk (12 bạn)",
+          "Tất cả bằng nhau",
+          "Chicken (8 bạn)",
+          "Fish (10 bạn)"
+        ],
+        "k": "C",
+        "e": "Nhìn biểu đồ cột, cột chicken thấp nhất với 8 bạn.",
+        "s": "Chart reading",
+        "fig": {
+          "type": "bars",
+          "title": "Favorite Food Survey",
+          "labels": [
+            "milk",
+            "fish",
+            "chicken"
+          ],
+          "series": [
+            {
+              "values": [
+                12,
+                10,
+                8
+              ]
+            }
+          ],
+          "unit": "kids"
+        }
+      },
+      {
+        "c": "TA1-B06-014",
+        "d": "advanced",
+        "p": "Để bữa ăn khỏe mạnh cho học sinh lớp 1, ta nên kết hợp đồ uống nào mỗi ngày bên cạnh cơm, cá, thịt?",
+        "o": [
+          "Sữa tươi (milk) và nước lọc sạch, thêm trái cây như táo (apple)",
+          "Không cần ăn bữa trưa",
+          "Chỉ ăn bánh kẹo ngọt vào bữa sáng",
+          "Chỉ ăn khoai tây chiên cả ngày không uống nước"
+        ],
+        "k": "A",
+        "e": "Sữa, trái cây và cá thịt cân đối giúp cơ thể phát triển khỏe mạnh.",
+        "s": "Healthy lifestyle"
+      },
+      {
+        "c": "TA1-B06-015",
+        "d": "advanced",
+        "p": "Từ \"chicken\" có mấy chữ cái \"c\" và âm đầu của nó viết bằng cặp chữ nào?",
+        "o": [
+          "Có 3 chữ c; âm đầu viết bằng \"ck\"",
+          "Có 1 chữ c; âm đầu viết bằng \"sh\"",
+          "Không có chữ c nào",
+          "Có 2 chữ c; âm đầu viết bằng \"ch\""
+        ],
+        "k": "D",
+        "e": "c-h-i-c-k-e-n có chữ c ở đầu (ch) và chữ c ở cụm ck, tổng 2 chữ c.",
+        "s": "Word analysis"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh1-c2",
+    "lesson": {
+      "code": "tienganh1-b07",
+      "title": "Bài 7. Unit 6: In the garden (E)",
+      "seq": 7,
+      "subtitle": "Học âm E ngắn (bell, pen, pencil, red) và mẫu câu miêu tả màu sắc It is a red...",
+      "concepts": [
+        "Phonics: E (bell, pen, pencil, red)",
+        "Màu đỏ (red)",
+        "Mẫu câu It is a..."
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA1-B07-001",
+        "d": "basic",
+        "p": "Từ tiếng Anh \"pen\" có nghĩa là đồ dùng học tập nào?",
+        "o": [
+          "cái chuông",
+          "quyển sách",
+          "cái bút mực",
+          "hộp bút chì"
+        ],
+        "k": "C",
+        "e": "\"pen\" là bút mực (hoặc bút bi).",
+        "s": "Vocabulary",
+        "fig": {
+          "type": "table",
+          "title": "Unit 6 Words",
+          "head": [
+            "Word",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "pen",
+              "bút mực"
+            ],
+            [
+              "pencil",
+              "bút chì"
+            ],
+            [
+              "bell",
+              "cái chuông"
+            ],
+            [
+              "red",
+              "màu đỏ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA1-B07-002",
+        "d": "basic",
+        "p": "Màu đỏ trong tiếng Anh viết và đọc là gì?",
+        "o": [
+          "yellow",
+          "green",
+          "blue",
+          "red"
+        ],
+        "k": "D",
+        "e": "\"red\" nghĩa là màu đỏ.",
+        "s": "Color vocabulary"
+      },
+      {
+        "c": "TA1-B07-003",
+        "d": "basic",
+        "p": "Cây bút chì trong tiếng Anh là từ nào?",
+        "o": [
+          "pencil",
+          "bell",
+          "book",
+          "pen"
+        ],
+        "k": "A",
+        "e": "\"pencil\" nghĩa là bút chì.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B07-004",
+        "d": "basic",
+        "p": "Từ \"bell\" chỉ đồ vật nào?",
+        "o": [
+          "cánh cửa",
+          "cái chuông",
+          "quả bóng",
+          "cái túi"
+        ],
+        "k": "B",
+        "e": "\"bell\" là cái chuông (chuông xe đạp hoặc chuông cửa).",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B07-005",
+        "d": "basic",
+        "p": "Cả bốn từ \"bell, pen, pencil, red\" đều chứa nguyên âm nào?",
+        "o": [
+          "Chữ i",
+          "Chữ o",
+          "Chữ e",
+          "Chữ u"
+        ],
+        "k": "C",
+        "e": "Âm chủ đạo của Unit 6 là nguyên âm ngắn e.",
+        "s": "Phonics"
+      },
+      {
+        "c": "TA1-B07-006",
+        "d": "basic",
+        "p": "Cụm từ \"a red pen\" nghĩa là gì?",
+        "o": [
+          "hai chiếc chuông nhỏ",
+          "một con chó màu nâu",
+          "một quả táo màu xanh",
+          "một cái bút màu đỏ"
+        ],
+        "k": "D",
+        "e": "Trong tiếng Anh, tính từ chỉ màu sắc (\"red\") đứng trước danh từ (\"pen\").",
+        "s": "Grammar rule"
+      },
+      {
+        "c": "TA1-B07-007",
+        "d": "application",
+        "p": "Bạn nhìn thấy một chiếc bút chì màu đỏ. Câu mô tả nào đúng ngữ pháp tiếng Anh?",
+        "o": [
+          "It is a pencil red.",
+          "I am a red pencil.",
+          "This is red a pen.",
+          "It is a red pencil."
+        ],
+        "k": "D",
+        "e": "Tính từ \"red\" đứng trước danh từ \"pencil\": \"a red pencil\".",
+        "s": "Sentence pattern"
+      },
+      {
+        "c": "TA1-B07-008",
+        "d": "application",
+        "p": "Điền chữ cái vào chỗ trống để tạo từ chỉ cái chuông: \"b _ l l\".",
+        "o": [
+          "i",
+          "o",
+          "e",
+          "a"
+        ],
+        "k": "C",
+        "e": "b-e-l-l = bell (cái chuông).",
+        "s": "Spelling"
+      },
+      {
+        "c": "TA1-B07-009",
+        "d": "application",
+        "p": "Nếu có một cái chuông màu đỏ ở cổng vườn, cụm từ tiếng Anh nào đúng?",
+        "o": [
+          "a bell red",
+          "a red bell",
+          "a red desk bike",
+          "red a bell"
+        ],
+        "k": "B",
+        "e": "Tính từ màu sắc đứng trước vật: \"a red bell\".",
+        "s": "Noun phrase"
+      },
+      {
+        "c": "TA1-B07-010",
+        "d": "application",
+        "p": "Trong hai từ \"pen\" và \"pencil\", điểm khác nhau về nghĩa là gì?",
+        "o": [
+          "\"pen\" là cái bàn, \"pencil\" là cái ghế",
+          "\"pen\" là màu đỏ, \"pencil\" là màu xanh",
+          "\"pen\" là bút mực (bút bi), \"pencil\" là bút chì",
+          "Hai từ đều nghĩa là quyển vở"
+        ],
+        "k": "C",
+        "e": "Phân biệt rõ pen (bút mực) và pencil (bút chì).",
+        "s": "Vocabulary precision"
+      },
+      {
+        "c": "TA1-B07-011",
+        "d": "application",
+        "p": "Nhóm từ nào sau đây CẢ BA từ đều có chữ cái E?",
+        "o": [
+          "fish, milk, chips",
+          "red, pen, bell",
+          "cat, dog, cup",
+          "bag, hat, ball"
+        ],
+        "k": "B",
+        "e": "red, pen, bell đều chứa âm e.",
+        "s": "Phonics"
+      },
+      {
+        "c": "TA1-B07-012",
+        "d": "application",
+        "p": "Sắp xếp thành câu đúng: \"is / It / red / a / pen.\"",
+        "o": [
+          "A red pen is it.",
+          "It red is a pen.",
+          "It is a red pen.",
+          "Is it a pen red."
+        ],
+        "k": "C",
+        "e": "Cấu trúc chuẩn: It + is + a + red + pen.",
+        "s": "Word order"
+      },
+      {
+        "c": "TA1-B07-013",
+        "d": "advanced",
+        "p": "Đọc câu: \"There is a red apple and a red bell on the desk.\" Có bao nhiêu vật màu đỏ nằm trên bàn học?",
+        "o": [
+          "2 vật (quả táo đỏ và cái chuông đỏ)",
+          "Không có vật nào màu đỏ",
+          "3 vật (táo, chuông, bàn)",
+          "1 vật (chỉ có quả táo)"
+        ],
+        "k": "A",
+        "e": "Cả quả táo (red apple) và cái chuông (red bell) đều màu đỏ.",
+        "s": "Reading comprehension"
+      },
+      {
+        "c": "TA1-B07-014",
+        "d": "advanced",
+        "p": "Nhìn hình tam giác màu đỏ dưới đây. Cụm tiếng Anh nào gọi đúng tên hình và màu này?",
+        "o": [
+          "A red triangle",
+          "A green star",
+          "A red square",
+          "A blue circle"
+        ],
+        "k": "A",
+        "e": "Hình vẽ là hình tam giác (triangle) được tô màu đỏ (red).",
+        "s": "Visual shape & color",
+        "fig": {
+          "w": 300,
+          "h": 190,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  150,
+                  30
+                ],
+                [
+                  70,
+                  150
+                ],
+                [
+                  230,
+                  150
+                ]
+              ],
+              "fill": "#fca5a5",
+              "stroke": "#dc2626",
+              "w": 2.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                178
+              ],
+              "s": "Red shape",
+              "anchor": "middle",
+              "size": 13
+            }
+          ]
+        }
+      },
+      {
+        "c": "TA1-B07-015",
+        "d": "advanced",
+        "p": "So sánh cặp từ \"ball\" và \"bell\": Chỉ thay một nguyên âm ở giữa làm nghĩa thay đổi thế nào?",
+        "o": [
+          "\"ball\" là quả bóng, còn \"bell\" là cái chuông",
+          "Cả hai đều có nghĩa là cái chuông",
+          "\"ball\" là cái bàn, \"bell\" là quyển sách",
+          "\"ball\" là con chó, \"bell\" là con mèo"
+        ],
+        "k": "A",
+        "e": "Thay chữ a bằng chữ e biến từ \"ball\" (bóng) thành \"bell\" (chuông).",
+        "s": "Minimal pairs"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh1-c2",
+    "lesson": {
+      "code": "tienganh1-b08",
+      "title": "Bài 8. Unit 7: In the garden (G)",
+      "seq": 8,
+      "subtitle": "Học âm G (garden, gate, girl, goat) và mẫu câu miêu tả có gì trong vườn There is a...",
+      "concepts": [
+        "Phonics: G (garden, gate, girl, goat)",
+        "Từ vựng khu vườn",
+        "Mẫu câu There is a..."
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA1-B08-001",
+        "d": "basic",
+        "p": "Từ tiếng Anh \"goat\" là con vật nào?",
+        "o": [
+          "con chó",
+          "con ngựa",
+          "con dê",
+          "con vịt"
+        ],
+        "k": "C",
+        "e": "\"goat\" nghĩa là con dê.",
+        "s": "Vocabulary",
+        "fig": {
+          "type": "table",
+          "title": "Unit 7 Words",
+          "head": [
+            "Word",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "garden",
+              "khu vườn"
+            ],
+            [
+              "gate",
+              "cổng"
+            ],
+            [
+              "girl",
+              "cô gái/bé gái"
+            ],
+            [
+              "goat",
+              "con dê"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA1-B08-002",
+        "d": "basic",
+        "p": "Cánh cổng đi vào nhà hay khu vườn gọi là gì?",
+        "o": [
+          "garden",
+          "door",
+          "desk",
+          "gate"
+        ],
+        "k": "D",
+        "e": "\"gate\" là cổng (cổng vườn, cổng trường); \"door\" là cửa phòng.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B08-003",
+        "d": "basic",
+        "p": "Từ \"girl\" có nghĩa là gì?",
+        "o": [
+          "bà ngoại",
+          "cô giáo",
+          "cô bé, bạn nữ",
+          "cậu bé, bạn nam"
+        ],
+        "k": "C",
+        "e": "\"girl\" chỉ bé gái hoặc bạn nữ.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B08-004",
+        "d": "basic",
+        "p": "Khu vườn có nhiều cây hoa gọi là gì trong tiếng Anh?",
+        "o": [
+          "garden",
+          "shop",
+          "park",
+          "zoo"
+        ],
+        "k": "A",
+        "e": "\"garden\" nghĩa là khu vườn.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B08-005",
+        "d": "basic",
+        "p": "Cả bốn từ \"garden, gate, girl, goat\" đều bắt đầu bằng chữ cái nào?",
+        "o": [
+          "E",
+          "G",
+          "I",
+          "H"
+        ],
+        "k": "B",
+        "e": "Chữ cái chủ đạo của Unit 7 là G.",
+        "s": "Phonics"
+      },
+      {
+        "c": "TA1-B08-006",
+        "d": "basic",
+        "p": "Câu \"There is a goat in the garden.\" nghĩa là gì?",
+        "o": [
+          "Có một con mèo trên cái bàn.",
+          "Cổng trường màu đỏ.",
+          "Bạn nữ có một chiếc bánh.",
+          "Có một con dê ở trong khu vườn."
+        ],
+        "k": "D",
+        "e": "\"There is a...\" nghĩa là \"Có một...\".",
+        "s": "Grammar"
+      },
+      {
+        "c": "TA1-B08-007",
+        "d": "application",
+        "p": "Chọn từ điền vào chỗ trống: \"The ... is green. Open it to go into the garden!\"",
+        "o": [
+          "goat",
+          "gate",
+          "pen",
+          "girl"
+        ],
+        "k": "B",
+        "e": "Mở cánh cổng (\"gate\") để bước vào vườn.",
+        "s": "Context match"
+      },
+      {
+        "c": "TA1-B08-008",
+        "d": "application",
+        "p": "Điền hai chữ cái còn thiếu vào từ \"khu vườn\": \"g a r _ _ n\".",
+        "o": [
+          "da",
+          "do",
+          "di",
+          "de"
+        ],
+        "k": "D",
+        "e": "g-a-r-d-e-n = garden (khu vườn).",
+        "s": "Spelling"
+      },
+      {
+        "c": "TA1-B08-009",
+        "d": "application",
+        "p": "Trong hai từ \"girl\" và \"goat\", từ nào dùng để chỉ người?",
+        "o": [
+          "goat",
+          "không từ nào",
+          "cả hai từ",
+          "girl"
+        ],
+        "k": "D",
+        "e": "\"girl\" chỉ bạn nữ/cô bé; \"goat\" là con dê.",
+        "s": "Meaning"
+      },
+      {
+        "c": "TA1-B08-010",
+        "d": "application",
+        "p": "Chọn câu miêu tả đúng bức tranh một bạn nữ đang đứng gần cổng vườn:",
+        "o": [
+          "I like my desk.",
+          "There is a girl by the gate.",
+          "There is a bike in the cup.",
+          "The fish is on the gate."
+        ],
+        "k": "B",
+        "e": "\"There is a girl by the gate\" diễn tả đúng bạn nữ đứng cạnh cổng.",
+        "s": "Sentence match"
+      },
+      {
+        "c": "TA1-B08-011",
+        "d": "application",
+        "p": "Nhóm từ nào CẢ BA từ đều bắt đầu bằng chữ cái G?",
+        "o": [
+          "girl, bell, bag",
+          "gate, girl, goat",
+          "garden, cat, pen",
+          "goat, dog, duck"
+        ],
+        "k": "B",
+        "e": "gate, girl và goat đều bắt đầu bằng G.",
+        "s": "Phonics"
+      },
+      {
+        "c": "TA1-B08-012",
+        "d": "application",
+        "p": "Sắp xếp thành câu hoàn chỉnh: \"is / a / There / garden / big.\"",
+        "o": [
+          "A big garden is there.",
+          "Garden is there a big.",
+          "There is a big garden.",
+          "There a big is garden."
+        ],
+        "k": "C",
+        "e": "Cấu trúc chuẩn: There + is + a + big + garden.",
+        "s": "Sentence order"
+      },
+      {
+        "c": "TA1-B08-013",
+        "d": "advanced",
+        "p": "Đọc đoạn: \"Mai is a nice girl. She has a small garden with a white goat and a red gate.\" Cổng vườn nhà Mai màu gì?",
+        "o": [
+          "Màu vàng (yellow)",
+          "Màu trắng (white)",
+          "Màu đỏ (red)",
+          "Màu xanh (green)"
+        ],
+        "k": "C",
+        "e": "\"a red gate\" nghĩa là chiếc cổng màu đỏ; \"white\" là màu của con dê.",
+        "s": "Reading detail"
+      },
+      {
+        "c": "TA1-B08-014",
+        "d": "advanced",
+        "p": "Phân biệt nhanh \"door\" (Unit 4) và \"gate\" (Unit 7): Khác biệt thường gặp nhất là gì?",
+        "o": [
+          "Hai từ giống nhau hoàn toàn không khác gì",
+          "\"gate\" là cổng vào sân vườn/trường, còn \"door\" là cửa vào phòng/nhà",
+          "\"gate\" là cái cửa sổ, \"door\" là mái nhà",
+          "\"gate\" dùng để uống, \"door\" dùng để viết"
+        ],
+        "k": "B",
+        "e": "gate = cổng ngoài trời; door = cửa ra vào phòng.",
+        "s": "Vocabulary nuance"
+      },
+      {
+        "c": "TA1-B08-015",
+        "d": "advanced",
+        "p": "Tìm từ viết ĐÚNG chính tả chỉ con dê và khu vườn:",
+        "o": [
+          "goad, gardin",
+          "gote, garden",
+          "goat, gardan",
+          "goat, garden"
+        ],
+        "k": "D",
+        "e": "g-o-a-t (goat) và g-a-r-d-e-n (garden) viết đúng chính tả.",
+        "s": "Spelling accuracy"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh1-c2",
+    "lesson": {
+      "code": "tienganh1-b09",
+      "title": "Bài 9. Unit 8: In the park (H)",
+      "seq": 9,
+      "subtitle": "Học âm H (hair, hand, head, horse) và mẫu câu chỉ bộ phận cơ thể Touch your...",
+      "concepts": [
+        "Phonics: H (hair, hand, head, horse)",
+        "Bộ phận cơ thể",
+        "Mệnh lệnh Touch your..."
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA1-B09-001",
+        "d": "basic",
+        "p": "Từ tiếng Anh \"hand\" có nghĩa là bộ phận nào trên cơ thể?",
+        "o": [
+          "bàn tay",
+          "cái đầu",
+          "bàn chân",
+          "mái tóc"
+        ],
+        "k": "A",
+        "e": "\"hand\" nghĩa là bàn tay.",
+        "s": "Vocabulary",
+        "fig": {
+          "type": "table",
+          "title": "Unit 8 Words",
+          "head": [
+            "Word",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "hair",
+              "tóc"
+            ],
+            [
+              "hand",
+              "bàn tay"
+            ],
+            [
+              "head",
+              "cái đầu"
+            ],
+            [
+              "horse",
+              "con ngựa"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA1-B09-002",
+        "d": "basic",
+        "p": "Từ \"head\" chỉ bộ phận nào?",
+        "o": [
+          "bàn tay",
+          "đôi mắt",
+          "cái tai",
+          "cái đầu"
+        ],
+        "k": "D",
+        "e": "\"head\" nghĩa là cái đầu.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B09-003",
+        "d": "basic",
+        "p": "Mái tóc trong tiếng Anh viết và đọc là gì?",
+        "o": [
+          "head",
+          "hand",
+          "hat",
+          "hair"
+        ],
+        "k": "D",
+        "e": "\"hair\" là mái tóc.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B09-004",
+        "d": "basic",
+        "p": "Con vật nào bắt đầu bằng chữ H có nghĩa là \"con ngựa\"?",
+        "o": [
+          "dog",
+          "horse",
+          "goat",
+          "duck"
+        ],
+        "k": "B",
+        "e": "\"horse\" là con ngựa.",
+        "s": "Animal vocabulary"
+      },
+      {
+        "c": "TA1-B09-005",
+        "d": "basic",
+        "p": "Khi cô giáo hô: \"Touch your head!\", các em học sinh làm động tác gì?",
+        "o": [
+          "Giơ quyển sách lên cao",
+          "Chạm tay lên đầu của mình",
+          "Chạm tay vào cái bàn",
+          "Chạy quanh công viên"
+        ],
+        "k": "B",
+        "e": "\"Touch your...\" nghĩa là \"Hãy chạm vào ... của bạn\".",
+        "s": "Classroom command"
+      },
+      {
+        "c": "TA1-B09-006",
+        "d": "basic",
+        "p": "Cả bốn từ \"hair, hand, head, horse\" đều bắt đầu bằng chữ cái nào?",
+        "o": [
+          "B",
+          "G",
+          "E",
+          "H"
+        ],
+        "k": "D",
+        "e": "Chữ cái H xuất hiện ở đầu cả bốn từ.",
+        "s": "Phonics"
+      },
+      {
+        "c": "TA1-B09-007",
+        "d": "application",
+        "p": "Chọn hành động đúng khi nghe lời hướng dẫn: \"Wash your hands before eating!\"",
+        "o": [
+          "Rửa sạch đôi bàn tay trước khi ăn cơm",
+          "Đóng cổng vườn lại",
+          "Chải tóc trước khi đi ngủ",
+          "Đội mũ khi ra ngoài trời nắng"
+        ],
+        "k": "A",
+        "e": "\"Wash your hands\" nghĩa là rửa tay sạch sẽ.",
+        "s": "Daily hygiene"
+      },
+      {
+        "c": "TA1-B09-008",
+        "d": "application",
+        "p": "Điền từ thích hợp để hoàn thành câu khen: \"She has long black ...\" (Cô ấy có mái tóc đen dài).",
+        "o": [
+          "horse",
+          "desk",
+          "gate",
+          "hair"
+        ],
+        "k": "D",
+        "e": "Mái tóc đen dài là \"long black hair\".",
+        "s": "Context match"
+      },
+      {
+        "c": "TA1-B09-009",
+        "d": "application",
+        "p": "Tìm từ trong Unit 3 (mũ) và Unit 8 (tóc) để hoàn thành cụm \"Đội mũ lên mái tóc\": \"Put the ... on your ...\"",
+        "o": [
+          "hat ... hair",
+          "hand ... hat",
+          "hair ... hand",
+          "horse ... head"
+        ],
+        "k": "A",
+        "e": "Đội mũ (\"hat\") lên đầu/tóc (\"hair\" hoặc \"head\").",
+        "s": "Vocabulary link"
+      },
+      {
+        "c": "TA1-B09-010",
+        "d": "application",
+        "p": "Điền hai chữ cái còn thiếu vào từ \"con ngựa\": \"h o _ _ e\".",
+        "o": [
+          "rs",
+          "st",
+          "sr",
+          "ss"
+        ],
+        "k": "A",
+        "e": "h-o-r-s-e = horse (con ngựa).",
+        "s": "Spelling"
+      },
+      {
+        "c": "TA1-B09-011",
+        "d": "application",
+        "p": "Trong hai từ \"hand\" và \"head\", từ nào có 4 chữ cái và tận cùng bằng chữ d?",
+        "o": [
+          "Không từ nào",
+          "Cả hai từ (hand và head)",
+          "Chỉ có từ hand",
+          "Chỉ có từ head"
+        ],
+        "k": "B",
+        "e": "h-a-n-d (4 chữ, cuối d) và h-e-a-d (4 chữ, cuối d).",
+        "s": "Word structure"
+      },
+      {
+        "c": "TA1-B09-012",
+        "d": "application",
+        "p": "Sắp xếp thành câu mệnh lệnh đúng: \"your / Touch / hair!\"",
+        "o": [
+          "Hair your touch!",
+          "Touch your hair!",
+          "Touch hair your!",
+          "Your touch hair!"
+        ],
+        "k": "B",
+        "e": "Cấu trúc câu yêu cầu: Động từ (Touch) + your + bộ phận (hair).",
+        "s": "Sentence order"
+      },
+      {
+        "c": "TA1-B09-013",
+        "d": "advanced",
+        "p": "Đọc đoạn: \"Hoa is in the park. She sees a brown horse. Her hat is on her head.\" Con ngựa có màu gì và cái mũ ở đâu?",
+        "o": [
+          "Con ngựa màu nâu (brown); cái mũ ở trên đầu Hoa (on her head)",
+          "Con ngựa màu đen; cái mũ ở dưới đất",
+          "Con ngựa màu trắng; cái mũ ở trong túi",
+          "Con ngựa màu đỏ; cái mũ trên tay"
+        ],
+        "k": "A",
+        "e": "\"brown horse\" = ngựa nâu; \"hat is on her head\" = mũ đội trên đầu.",
+        "s": "Reading comprehension"
+      },
+      {
+        "c": "TA1-B09-014",
+        "d": "advanced",
+        "p": "Phân biệt nhanh 3 từ có chữ H dễ nhầm: \"hat\", \"hair\", \"head\". Nghĩa đúng theo thứ tự là gì?",
+        "o": [
+          "cái đầu, cái mũ, mái tóc",
+          "mái tóc, cái đầu, cái mũ",
+          "cái mũ, mái tóc, cái đầu",
+          "bàn tay, cái mũ, con ngựa"
+        ],
+        "k": "C",
+        "e": "hat = cái mũ; hair = tóc; head = cái đầu.",
+        "s": "Vocabulary contrast"
+      },
+      {
+        "c": "TA1-B09-015",
+        "d": "advanced",
+        "p": "Vì sao từ \"hair\" (tóc) khi nói chung mái tóc không thêm \"a\" (ta nói \"black hair\" chứ không nói \"a hair\")?",
+        "o": [
+          "Vì tóc luôn dài",
+          "Vì cả mái tóc được xem là danh từ không đếm được",
+          "Vì tóc không có màu sắc",
+          "Vì từ hair bắt đầu bằng H"
+        ],
+        "k": "B",
+        "e": "Mái tóc nói chung (hair) là danh từ không đếm được trong tiếng Anh.",
+        "s": "Grammar note"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh1-c2",
+    "lesson": {
+      "code": "tienganh1-b10",
+      "title": "Bài 10. Review 2: Ôn tập chữ cái E, G, H, I",
+      "seq": 10,
+      "subtitle": "Tổng hợp bốn chữ cái E, G, H, I cùng từ vựng đồ ăn, khu vườn, công viên và bộ phận cơ thể",
+      "concepts": [
+        "Tổng hợp E, G, H, I",
+        "I like... / There is...",
+        "Touch your..."
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA1-B10-001",
+        "d": "basic",
+        "p": "Bốn chữ cái trọng tâm được ôn tập ở Review 2 là gì?",
+        "o": [
+          "A, B, C, D",
+          "O, P, Q, R",
+          "E, G, H, I",
+          "K, L, M, N"
+        ],
+        "k": "C",
+        "e": "Từ Unit 5 đến Unit 8 học bốn chữ cái I, E, G, H.",
+        "s": "Overview",
+        "fig": {
+          "type": "table",
+          "title": "Review 2 Summary",
+          "head": [
+            "Letter",
+            "Sample Words"
+          ],
+          "rows": [
+            [
+              "E",
+              "pen, bell, red"
+            ],
+            [
+              "G",
+              "garden, girl, goat"
+            ],
+            [
+              "H",
+              "hair, hand, head"
+            ],
+            [
+              "I",
+              "fish, chips, milk"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA1-B10-002",
+        "d": "basic",
+        "p": "Từ nào chỉ một đồ uống màu trắng rất bổ dưỡng?",
+        "o": [
+          "milk",
+          "gate",
+          "chips",
+          "pen"
+        ],
+        "k": "A",
+        "e": "\"milk\" nghĩa là sữa.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B10-003",
+        "d": "basic",
+        "p": "Trong các từ \"pen, pencil, red, goat\", từ nào là tên màu sắc?",
+        "o": [
+          "goat",
+          "pencil",
+          "pen",
+          "red"
+        ],
+        "k": "D",
+        "e": "\"red\" là màu đỏ.",
+        "s": "Color"
+      },
+      {
+        "c": "TA1-B10-004",
+        "d": "basic",
+        "p": "Từ nào chỉ một con vật có thể cưỡi được ở trang trại hoặc công viên?",
+        "o": [
+          "horse",
+          "bell",
+          "head",
+          "milk"
+        ],
+        "k": "A",
+        "e": "\"horse\" là con ngựa.",
+        "s": "Animal"
+      },
+      {
+        "c": "TA1-B10-005",
+        "d": "basic",
+        "p": "Cụm từ \"Touch your hand!\" yêu cầu chạm vào bộ phận nào?",
+        "o": [
+          "Cái đầu",
+          "Bàn tay",
+          "Mái tóc",
+          "Cánh cổng"
+        ],
+        "k": "B",
+        "e": "\"hand\" là bàn tay.",
+        "s": "Command"
+      },
+      {
+        "c": "TA1-B10-006",
+        "d": "basic",
+        "p": "Từ nào viết ĐÚNG chính tả chỉ cái chuông?",
+        "o": [
+          "bill",
+          "boll",
+          "bell",
+          "ball"
+        ],
+        "k": "C",
+        "e": "\"bell\" là cái chuông; \"ball\" là quả bóng.",
+        "s": "Spelling"
+      },
+      {
+        "c": "TA1-B10-007",
+        "d": "application",
+        "p": "Chọn nhóm từ gồm TOÀN bộ phận cơ thể đã học:",
+        "o": [
+          "fish, chips, milk",
+          "hair, hand, head",
+          "pen, pencil, bell",
+          "girl, goat, horse"
+        ],
+        "k": "B",
+        "e": "hair (tóc), hand (bàn tay), head (đầu) là bộ phận cơ thể.",
+        "s": "Categorization"
+      },
+      {
+        "c": "TA1-B10-008",
+        "d": "application",
+        "p": "Hoàn thành câu bày tỏ sở thích món ăn: \"I ... fish and chips!\"",
+        "o": [
+          "open",
+          "touch",
+          "like",
+          "am"
+        ],
+        "k": "C",
+        "e": "\"I like...\" dùng nói về món ăn mình yêu thích.",
+        "s": "Grammar"
+      },
+      {
+        "c": "TA1-B10-009",
+        "d": "application",
+        "p": "Nhìn hình pha màu: Trộn màu đỏ (red) với màu vàng (yellow) ta thu được màu gì?",
+        "o": [
+          "Màu xanh lá (green)",
+          "Màu đen (black)",
+          "Màu cam (orange)",
+          "Màu tím (purple)"
+        ],
+        "k": "C",
+        "e": "Đỏ + Vàng = Cam (orange).",
+        "s": "Color mixing",
+        "fig": {
+          "w": 315,
+          "h": 140,
+          "items": [
+            {
+              "t": "circle",
+              "c": [
+                65,
+                75
+              ],
+              "r": 28,
+              "fill": "#ef4444",
+              "stroke": "#334155",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                65,
+                122
+              ],
+              "s": "Red",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "txt",
+              "p": [
+                112,
+                82
+              ],
+              "s": "+",
+              "anchor": "middle",
+              "size": 22
+            },
+            {
+              "t": "circle",
+              "c": [
+                158,
+                75
+              ],
+              "r": 28,
+              "fill": "#eab308",
+              "stroke": "#334155",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                158,
+                122
+              ],
+              "s": "Yellow",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "txt",
+              "p": [
+                204,
+                82
+              ],
+              "s": "=",
+              "anchor": "middle",
+              "size": 22
+            },
+            {
+              "t": "circle",
+              "c": [
+                252,
+                75
+              ],
+              "r": 28,
+              "fill": "#f1f5f9",
+              "stroke": "#334155",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                252,
+                82
+              ],
+              "s": "?",
+              "anchor": "middle",
+              "size": 22
+            }
+          ]
+        }
+      },
+      {
+        "c": "TA1-B10-010",
+        "d": "application",
+        "p": "Chọn câu ĐÚNG nghĩa tiếng Anh cho câu: \"Có một con dê ở trong khu vườn.\"",
+        "o": [
+          "There is a goat in the garden.",
+          "There is a horse in the gate.",
+          "Touch your goat in the pen!",
+          "I have a girl in the park."
+        ],
+        "k": "A",
+        "e": "con dê = goat, khu vườn = garden, có một = There is a.",
+        "s": "Translation"
+      },
+      {
+        "c": "TA1-B10-011",
+        "d": "application",
+        "p": "Từ nào KHÔNG cùng nhóm nghĩa với \"pen, pencil, book\"?",
+        "o": [
+          "pencil",
+          "milk",
+          "pen",
+          "book"
+        ],
+        "k": "B",
+        "e": "pen, pencil, book là đồ dùng học tập; milk là đồ uống.",
+        "s": "Odd one out"
+      },
+      {
+        "c": "TA1-B10-012",
+        "d": "application",
+        "p": "Điền hai từ còn thiếu hợp lí: \"A ... has long ... and a red pencil.\"",
+        "o": [
+          "gate ... hand",
+          "girl ... hair",
+          "goat ... milk",
+          "fish ... bell"
+        ],
+        "k": "B",
+        "e": "Một cô bé (girl) có mái tóc dài (long hair) và cây bút chì đỏ.",
+        "s": "Context"
+      },
+      {
+        "c": "TA1-B10-013",
+        "d": "advanced",
+        "p": "Đọc đoạn: \"Ba is in the park. He has a red ball. Hoa is in the garden. She has a white goat.\" Ai đang ở trong công viên và có vật gì?",
+        "o": [
+          "Bạn Ba ở khu vườn và có cây bút chì",
+          "Bạn Ba ở trong công viên và có quả bóng màu đỏ",
+          "Bạn Hoa ở công viên và có con dê trắng",
+          "Bạn Hoa ở phòng ăn uống sữa"
+        ],
+        "k": "B",
+        "e": "Ba -> in the park + red ball; Hoa -> in the garden + white goat.",
+        "s": "Reading comprehension"
+      },
+      {
+        "c": "TA1-B10-014",
+        "d": "advanced",
+        "p": "Xếp 4 từ \"goat, fish, horse, elephant\" theo đúng thứ tự chữ cái đầu E-F-G-H:",
+        "o": [
+          "elephant, goat, fish, horse",
+          "fish, elephant, goat, horse",
+          "elephant, fish, goat, horse",
+          "goat, horse, fish, elephant"
+        ],
+        "k": "C",
+        "e": "E (elephant) -> F (fish) -> G (goat) -> H (horse).",
+        "s": "Alphabetical order"
+      },
+      {
+        "c": "TA1-B10-015",
+        "d": "advanced",
+        "p": "Nhìn bảng tổng hợp từ vựng Unit 5-8 ở câu 1. Nếu muốn chọn MỘT món ăn, MỘT đồ dùng học tập và MỘT con vật, bộ ba nào đúng?",
+        "o": [
+          "chicken, pencil, goat",
+          "milk, bell, gate",
+          "hand, head, hair",
+          "fish, chips, red"
+        ],
+        "k": "A",
+        "e": "chicken (món ăn), pencil (đồ học tập), goat (con vật) đáp ứng đủ 3 nhóm.",
+        "s": "Cross-topic selection"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh1-c3",
+    "lesson": {
+      "code": "tienganh1-b11",
+      "title": "Bài 11. Unit 9: In the shop (O)",
+      "seq": 11,
+      "subtitle": "Học âm O ngắn (clocks, locks, mops, pots) và mẫu câu hỏi số lượng How many...?",
+      "concepts": [
+        "Phonics: O (clock, lock, mop, pot)",
+        "Số nhiều thêm s",
+        "Hỏi số lượng How many"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA1-B11-001",
+        "d": "basic",
+        "p": "Từ tiếng Anh \"clock\" có nghĩa là đồ vật nào?",
+        "o": [
+          "cái ổ khóa",
+          "cây lau nhà",
+          "cái đồng hồ",
+          "cái nồi"
+        ],
+        "k": "C",
+        "e": "\"clock\" nghĩa là chiếc đồng hồ treo tường hoặc đồng hồ để bàn.",
+        "s": "Vocabulary",
+        "fig": {
+          "w": 300,
+          "h": 180,
+          "items": [
+            {
+              "t": "circle",
+              "c": [
+                150,
+                88
+              ],
+              "r": 62,
+              "fill": "#f8fafc",
+              "stroke": "#1e293b",
+              "w": 2.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                174.5,
+                49.6
+              ],
+              "s": "1",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                192.4,
+                67.5
+              ],
+              "s": "2",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                199.0,
+                92.0
+              ],
+              "s": "3",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                192.4,
+                116.5
+              ],
+              "s": "4",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                174.5,
+                134.4
+              ],
+              "s": "5",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                150.0,
+                141.0
+              ],
+              "s": "6",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                125.5,
+                134.4
+              ],
+              "s": "7",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                107.6,
+                116.5
+              ],
+              "s": "8",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                101.0,
+                92.0
+              ],
+              "s": "9",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                107.6,
+                67.5
+              ],
+              "s": "10",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                125.5,
+                49.6
+              ],
+              "s": "11",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                150.0,
+                43.0
+              ],
+              "s": "12",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "line",
+              "a": [
+                150,
+                88
+              ],
+              "b": [
+                180.0,
+                88.0
+              ],
+              "arrow": true,
+              "color": "#1e293b",
+              "w": 3.5
+            },
+            {
+              "t": "line",
+              "a": [
+                150,
+                88
+              ],
+              "b": [
+                150.0,
+                42.0
+              ],
+              "arrow": true,
+              "color": "#dc2626",
+              "w": 2.2
+            },
+            {
+              "t": "pt",
+              "p": [
+                150,
+                88
+              ]
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                168
+              ],
+              "s": "A clock",
+              "anchor": "middle",
+              "size": 12
+            }
+          ]
+        }
+      },
+      {
+        "c": "TA1-B11-002",
+        "d": "basic",
+        "p": "Từ \"lock\" chỉ vật dụng nào trong cửa hàng?",
+        "o": [
+          "cái nồi nấu cơm",
+          "cây chổi lau nhà",
+          "cái đồng hồ",
+          "cái ổ khóa"
+        ],
+        "k": "D",
+        "e": "\"lock\" là ổ khóa.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B11-003",
+        "d": "basic",
+        "p": "Cái nồi dùng nấu ăn trong tiếng Anh là gì?",
+        "o": [
+          "lock",
+          "pot",
+          "clock",
+          "mop"
+        ],
+        "k": "B",
+        "e": "\"pot\" nghĩa là cái nồi hoặc cái chậu.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B11-004",
+        "d": "basic",
+        "p": "Cây lau nhà trong tiếng Anh gọi là gì?",
+        "o": [
+          "pot",
+          "bag",
+          "mop",
+          "cup"
+        ],
+        "k": "C",
+        "e": "\"mop\" là cây lau nhà.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B11-005",
+        "d": "basic",
+        "p": "Khi có TỪ HAI đồ vật trở lên (ví dụ 2 cái nồi), ta viết từ số nhiều như thế nào?",
+        "o": [
+          "pots (thêm chữ s vào cuối)",
+          "potss",
+          "apot",
+          "pot (giữ nguyên)"
+        ],
+        "k": "A",
+        "e": "Danh từ số nhiều thông thường thêm -s vào cuối từ: two pots, three clocks.",
+        "s": "Grammar plural"
+      },
+      {
+        "c": "TA1-B11-006",
+        "d": "basic",
+        "p": "Bốn từ \"clock, lock, mop, pot\" đều chứa nguyên âm nào ở giữa?",
+        "o": [
+          "Chữ e",
+          "Chữ o",
+          "Chữ i",
+          "Chữ u"
+        ],
+        "k": "B",
+        "e": "Âm chủ đạo của Unit 9 là nguyên âm ngắn o.",
+        "s": "Phonics"
+      },
+      {
+        "c": "TA1-B11-007",
+        "d": "application",
+        "p": "Hỏi xem có bao nhiêu cái đồng hồ trong cửa hàng, câu hỏi nào đúng?",
+        "o": [
+          "What is your lock?",
+          "How many clock is?",
+          "Who is a mop?",
+          "How many clocks?"
+        ],
+        "k": "D",
+        "e": "Mẫu câu hỏi số lượng: \"How many + danh từ số nhiều (clocks)?\"",
+        "s": "Question form",
+        "fig": {
+          "type": "table",
+          "title": "Unit 9 Shop Items",
+          "head": [
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "clock (đồng hồ)",
+              "clocks"
+            ],
+            [
+              "lock (ổ khóa)",
+              "locks"
+            ],
+            [
+              "mop (cây lau)",
+              "mops"
+            ],
+            [
+              "pot (cái nồi)",
+              "pots"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA1-B11-008",
+        "d": "application",
+        "p": "Nhìn đồng hồ ở câu 1 (kim ngắn chỉ số 3, kim dài chỉ số 12), đồng hồ đang chỉ mấy giờ đúng?",
+        "o": [
+          "6 o’clock (6 giờ)",
+          "3 o’clock (3 giờ)",
+          "9 o’clock (9 giờ)",
+          "12 o’clock (12 giờ)"
+        ],
+        "k": "B",
+        "e": "Kim giờ chỉ số 3, kim phút chỉ số 12 là 3 giờ đúng (three o’clock).",
+        "s": "Time reading"
+      },
+      {
+        "c": "TA1-B11-009",
+        "d": "application",
+        "p": "Điền chữ cái đúng để hoàn thành cặp từ vần giống nhau: \"m_p\" và \"p_t\".",
+        "o": [
+          "i",
+          "o",
+          "a",
+          "u"
+        ],
+        "k": "B",
+        "e": "mop (m-o-p) và pot (p-o-t) đều chứa nguyên âm o.",
+        "s": "Spelling"
+      },
+      {
+        "c": "TA1-B11-010",
+        "d": "application",
+        "p": "Chọn câu trả lời đúng cho câu hỏi: \"How many mops?\" (khi nhìn thấy 4 cây lau nhà)",
+        "o": [
+          "One mop.",
+          "Three clocks.",
+          "Two locks.",
+          "Four mops."
+        ],
+        "k": "D",
+        "e": "4 cây lau nhà là \"Four mops.\"",
+        "s": "Counting"
+      },
+      {
+        "c": "TA1-B11-011",
+        "d": "application",
+        "p": "Tìm từ KHÔNG vần \"-ock\" với \"clock\" và \"lock\":",
+        "o": [
+          "pot",
+          "sock",
+          "rock",
+          "block"
+        ],
+        "k": "A",
+        "e": "\"pot\" kết thúc bằng \"-ot\", còn sock, rock, block kết thúc bằng \"-ock\".",
+        "s": "Phonics rhyme"
+      },
+      {
+        "c": "TA1-B11-012",
+        "d": "application",
+        "p": "Sắp xếp thành câu hoàn chỉnh: \"many / How / pots / there / are?\"",
+        "o": [
+          "Are many pots how there?",
+          "There are how many pots?",
+          "How pots many are there?",
+          "How many pots are there?"
+        ],
+        "k": "D",
+        "e": "Câu hỏi số lượng: How many + danh từ số nhiều + are there?",
+        "s": "Sentence order"
+      },
+      {
+        "c": "TA1-B11-013",
+        "d": "advanced",
+        "p": "Tại cửa hàng có 2 cái đồng hồ, 5 cái ổ khóa và 3 cái nồi. Biểu đồ cột chỉ tổng số đồ vật đó là bao nhiêu?",
+        "o": [
+          "10 đồ vật",
+          "12 đồ vật",
+          "8 đồ vật",
+          "7 đồ vật"
+        ],
+        "k": "A",
+        "e": "2 + 5 + 3 = 10 đồ vật.",
+        "s": "Counting chart",
+        "fig": {
+          "type": "bars",
+          "title": "Items in the shop",
+          "labels": [
+            "clocks",
+            "locks",
+            "pots"
+          ],
+          "series": [
+            {
+              "values": [
+                2,
+                5,
+                3
+              ]
+            }
+          ],
+          "unit": "pcs"
+        }
+      },
+      {
+        "c": "TA1-B11-014",
+        "d": "advanced",
+        "p": "Bạn Nam muốn mua một cây lau nhà để phụ mẹ dọn nhà và một chiếc nồi mới. Bạn Nam cần tìm hai đồ vật nào?",
+        "o": [
+          "A bike and a ball",
+          "A desk and a hat",
+          "A clock and a lock",
+          "A mop and a pot"
+        ],
+        "k": "D",
+        "e": "mop = cây lau nhà; pot = cái nồi.",
+        "s": "Reading comprehension"
+      },
+      {
+        "c": "TA1-B11-015",
+        "d": "advanced",
+        "p": "So sánh \"clock\" và \"lock\": Hai từ này khác nhau duy nhất ở điểm nào?",
+        "o": [
+          "Không có chữ cái nào giống nhau",
+          "Từ \"clock\" có thêm chữ \"c\" ở đầu; bỏ \"c\" đi được \"lock\"",
+          "Từ \"clock\" dài hơn 3 chữ cái",
+          "Khác nhau ở chữ \"o\" ở giữa"
+        ],
+        "k": "B",
+        "e": "c + lock = clock. Bỏ chữ cái c đầu từ cho ta từ mới lock!",
+        "s": "Word play"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh1-c3",
+    "lesson": {
+      "code": "tienganh1-b12",
+      "title": "Bài 12. Unit 10: At the zoo (M)",
+      "seq": 12,
+      "subtitle": "Học âm M (mango, monkey, mother, mouse) và mẫu câu That is a...",
+      "concepts": [
+        "Phonics: M (mango, monkey, mother, mouse)",
+        "Mẫu câu That is...",
+        "Thăm sở thú"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA1-B12-001",
+        "d": "basic",
+        "p": "Con khỉ trong tiếng Anh gọi là gì?",
+        "o": [
+          "mouse",
+          "goat",
+          "monkey",
+          "mango"
+        ],
+        "k": "C",
+        "e": "\"monkey\" nghĩa là con khỉ.",
+        "s": "Vocabulary",
+        "fig": {
+          "type": "table",
+          "title": "Unit 10 Words",
+          "head": [
+            "Word",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "monkey",
+              "con khỉ"
+            ],
+            [
+              "mouse",
+              "con chuột"
+            ],
+            [
+              "mango",
+              "quả xoài"
+            ],
+            [
+              "mother",
+              "mẹ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA1-B12-002",
+        "d": "basic",
+        "p": "Từ \"mango\" có nghĩa tiếng Việt là quả gì?",
+        "o": [
+          "quả táo",
+          "quả xoài",
+          "quả chuối",
+          "quả cam"
+        ],
+        "k": "B",
+        "e": "\"mango\" là quả xoài.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B12-003",
+        "d": "basic",
+        "p": "Từ \"mouse\" chỉ con vật nhỏ nào?",
+        "o": [
+          "con chuột",
+          "con ngựa",
+          "con mèo",
+          "con dê"
+        ],
+        "k": "A",
+        "e": "\"mouse\" nghĩa là con chuột.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B12-004",
+        "d": "basic",
+        "p": "Từ \"mother\" dùng để gọi người thân nào trong gia đình?",
+        "o": [
+          "mẹ",
+          "ông",
+          "bố",
+          "anh trai"
+        ],
+        "k": "A",
+        "e": "\"mother\" (thân mật là mom) nghĩa là mẹ.",
+        "s": "Family word"
+      },
+      {
+        "c": "TA1-B12-005",
+        "d": "basic",
+        "p": "Cả bốn từ \"mango, monkey, mother, mouse\" đều bắt đầu bằng chữ cái nào?",
+        "o": [
+          "P",
+          "N",
+          "O",
+          "M"
+        ],
+        "k": "D",
+        "e": "Chữ cái chủ đạo Unit 10 là M.",
+        "s": "Phonics"
+      },
+      {
+        "c": "TA1-B12-006",
+        "d": "basic",
+        "p": "Khi chỉ tay vào một chú khỉ ở đằng xa trong sở thú, ta nói: \"That is a ...\"",
+        "o": [
+          "desk",
+          "monkey",
+          "clock",
+          "mop"
+        ],
+        "k": "B",
+        "e": "\"That is a...\" dùng chỉ vật ở xa; chú khỉ là monkey.",
+        "s": "Grammar"
+      },
+      {
+        "c": "TA1-B12-007",
+        "d": "application",
+        "p": "Phân biệt \"This is...\" và \"That is...\" khi chỉ đồ vật hay con vật:",
+        "o": [
+          "\"This is...\" chỉ vật ở gần; \"That is...\" chỉ vật ở xa",
+          "\"This is...\" dùng cho số nhiều",
+          "Hai cụm từ giống nhau hoàn toàn về khoảng cách",
+          "\"That is...\" chỉ dùng cho đồ ăn"
+        ],
+        "k": "A",
+        "e": "This (này - gần người nói), That (kia - xa người nói).",
+        "s": "Grammar contrast"
+      },
+      {
+        "c": "TA1-B12-008",
+        "d": "application",
+        "p": "Điền chữ cái còn thiếu: \"m o _ k e y\" (con khỉ).",
+        "o": [
+          "l",
+          "m",
+          "n",
+          "r"
+        ],
+        "k": "C",
+        "e": "m-o-n-k-e-y = monkey.",
+        "s": "Spelling"
+      },
+      {
+        "c": "TA1-B12-009",
+        "d": "application",
+        "p": "Bạn nhỏ nói: \"My mother likes mangoes.\" Mẹ của bạn ấy thích loại quả nào?",
+        "o": [
+          "Quả nho",
+          "Quả táo",
+          "Quả dưa hấu",
+          "Quả xoài"
+        ],
+        "k": "D",
+        "e": "mangoes là số nhiều của mango (quả xoài).",
+        "s": "Reading comprehension"
+      },
+      {
+        "c": "TA1-B12-010",
+        "d": "application",
+        "p": "Tìm từ KHÔNG bắt đầu bằng âm M trong nhóm sau: \"monkey, mouse, mango, horse\".",
+        "o": [
+          "mouse",
+          "monkey",
+          "horse",
+          "mango"
+        ],
+        "k": "C",
+        "e": "\"horse\" bắt đầu bằng âm H.",
+        "s": "Odd one out"
+      },
+      {
+        "c": "TA1-B12-011",
+        "d": "application",
+        "p": "Chọn câu hoàn chỉnh đúng khi ở sở thú (zoo):",
+        "o": [
+          "Look! That is a red pencil desk.",
+          "Hi! I am a mango pot.",
+          "Look! That is a funny monkey.",
+          "Touch your mouse clock!"
+        ],
+        "k": "C",
+        "e": "Miêu tả chú khỉ ngộ nghĩnh ở đằng kia: \"Look! That is a funny monkey.\"",
+        "s": "Sentence in context"
+      },
+      {
+        "c": "TA1-B12-012",
+        "d": "application",
+        "p": "Sắp xếp thành câu đúng: \"is / That / mouse / a / small.\"",
+        "o": [
+          "That is a small mouse.",
+          "Is that a small mouse.",
+          "Mouse small is a that.",
+          "That a small is mouse."
+        ],
+        "k": "A",
+        "e": "Trật tự chuẩn: That + is + a + small + mouse.",
+        "s": "Word order"
+      },
+      {
+        "c": "TA1-B12-013",
+        "d": "advanced",
+        "p": "Đọc đoạn: \"Nam and his mother are at the zoo. Nam points to a monkey eating a yellow mango.\" Chú khỉ đang ăn quả gì?",
+        "o": [
+          "Một quả xoài màu vàng (yellow mango)",
+          "Khoai tây chiên (chips)",
+          "Một cái bánh ngọt (cake)",
+          "Một quả táo đỏ (red apple)"
+        ],
+        "k": "A",
+        "e": "\"eating a yellow mango\" = đang ăn một quả xoài vàng.",
+        "s": "Reading comprehension"
+      },
+      {
+        "c": "TA1-B12-014",
+        "d": "advanced",
+        "p": "Khi đi tham quan sở thú (at the zoo), học sinh nên tuân thủ quy tắc an toàn nào?",
+        "o": [
+          "Xả rác xuống hồ nước",
+          "Chạy vào bên trong chuồng chơi cùng khỉ",
+          "Không trèo qua rào chắn chuồng thú và không tự ý cho thú ăn đồ lạ",
+          "Ném sỏi đá vào các con vật"
+        ],
+        "k": "C",
+        "e": "Giữ khoảng cách an toàn bảo vệ cả du khách lẫn động vật trong sở thú.",
+        "s": "Zoo safety"
+      },
+      {
+        "c": "TA1-B12-015",
+        "d": "advanced",
+        "p": "Trong các từ \"mother, mouse, mango, monkey\", từ nào đứng ĐẦU tiên theo thứ tự bảng chữ cái?",
+        "o": [
+          "mouse",
+          "monkey",
+          "mother",
+          "mango"
+        ],
+        "k": "D",
+        "e": "Cả bốn từ đều bắt đầu bằng m; xét chữ thứ hai: a (mango) đứng trước o (mother, monkey, mouse).",
+        "s": "Dictionary order"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh1-c3",
+    "lesson": {
+      "code": "tienganh1-b13",
+      "title": "Bài 13. Unit 11: At the bus stop (U)",
+      "seq": 13,
+      "subtitle": "Học âm U ngắn (bus, sun, truck, running) và mẫu câu miêu tả hành động đang diễn ra",
+      "concepts": [
+        "Phonics: U (bus, sun, truck, run)",
+        "Phương tiện giao thông",
+        "Thì hiện tại tiếp diễn đơn giản"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA1-B13-001",
+        "d": "basic",
+        "p": "Xe buýt trong tiếng Anh viết và đọc là gì?",
+        "o": [
+          "bike",
+          "truck",
+          "bus",
+          "car"
+        ],
+        "k": "C",
+        "e": "\"bus\" là xe buýt.",
+        "s": "Vocabulary",
+        "fig": {
+          "type": "table",
+          "title": "Unit 11 Words",
+          "head": [
+            "Word",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "bus",
+              "xe buýt"
+            ],
+            [
+              "truck",
+              "xe tải"
+            ],
+            [
+              "sun",
+              "mặt trời"
+            ],
+            [
+              "run",
+              "chạy"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA1-B13-002",
+        "d": "basic",
+        "p": "Từ \"sun\" có nghĩa tiếng Việt là gì?",
+        "o": [
+          "ngôi sao",
+          "mặt trăng",
+          "đám mây",
+          "mặt trời"
+        ],
+        "k": "D",
+        "e": "\"sun\" nghĩa là mặt trời.",
+        "s": "Nature vocabulary"
+      },
+      {
+        "c": "TA1-B13-003",
+        "d": "basic",
+        "p": "Xe tải lớn chở hàng hóa trong tiếng Anh là từ nào?",
+        "o": [
+          "bus",
+          "boat",
+          "bike",
+          "truck"
+        ],
+        "k": "D",
+        "e": "\"truck\" nghĩa là xe tải.",
+        "s": "Transport"
+      },
+      {
+        "c": "TA1-B13-004",
+        "d": "basic",
+        "p": "Động từ \"run\" nghĩa là gì?",
+        "o": [
+          "ngồi",
+          "đi bộ",
+          "chạy",
+          "ngủ"
+        ],
+        "k": "C",
+        "e": "\"run\" là chạy.",
+        "s": "Action verb"
+      },
+      {
+        "c": "TA1-B13-005",
+        "d": "basic",
+        "p": "Bốn từ \"bus, sun, truck, run\" đều chứa chung chữ cái nguyên âm nào?",
+        "o": [
+          "Chữ i",
+          "Chữ u",
+          "Chữ a",
+          "Chữ o"
+        ],
+        "k": "B",
+        "e": "Âm chủ đạo của Unit 11 là nguyên âm ngắn u.",
+        "s": "Phonics"
+      },
+      {
+        "c": "TA1-B13-006",
+        "d": "basic",
+        "p": "Câu \"He is running.\" có nghĩa là gì?",
+        "o": [
+          "Trời đang mưa.",
+          "Cậu ấy đang chạy.",
+          "Cậu ấy có một chiếc xe buýt.",
+          "Cậu ấy đang ngủ."
+        ],
+        "k": "B",
+        "e": "\"He is running.\" diễn tả hành động đang chạy ngay lúc nói.",
+        "s": "Grammar"
+      },
+      {
+        "c": "TA1-B13-007",
+        "d": "application",
+        "p": "Bạn nhỏ đợi xe ở \"bus stop\". \"bus stop\" là nơi nào?",
+        "o": [
+          "Sân bay quốc tế",
+          "Cửa hàng đồ chơi",
+          "Phòng ngủ ở nhà",
+          "Trạm dừng xe buýt"
+        ],
+        "k": "D",
+        "e": "\"bus stop\" là điểm dừng đón trả khách của xe buýt.",
+        "s": "Context"
+      },
+      {
+        "c": "TA1-B13-008",
+        "d": "application",
+        "p": "Điền chữ cái đúng vào từ \"mặt trời\" và \"xe buýt\": \"s _ n\" và \"b _ s\".",
+        "o": [
+          "o",
+          "u",
+          "e",
+          "i"
+        ],
+        "k": "B",
+        "e": "s-u-n (sun) và b-u-s (bus).",
+        "s": "Spelling"
+      },
+      {
+        "c": "TA1-B13-009",
+        "d": "application",
+        "p": "Chọn câu miêu tả bức tranh ông mặt trời tỏa nắng vàng rực:",
+        "o": [
+          "Look at the bright sun!",
+          "I have a red truck.",
+          "She is drinking milk.",
+          "Look at the small duck!"
+        ],
+        "k": "A",
+        "e": "\"the bright sun\" chỉ mặt trời rực sáng.",
+        "s": "Context sentence"
+      },
+      {
+        "c": "TA1-B13-010",
+        "d": "application",
+        "p": "Nhóm từ nào gồm TOÀN các phương tiện giao thông đã học từ Unit 1 đến Unit 11?",
+        "o": [
+          "car, hat, apple, ball",
+          "truck, goat, duck, cat",
+          "bus, sun, cup, pen",
+          "bike, car, bus, truck"
+        ],
+        "k": "D",
+        "e": "bike (xe đạp), car (ô tô), bus (xe buýt), truck (xe tải) đều là phương tiện giao thông.",
+        "s": "Categorization"
+      },
+      {
+        "c": "TA1-B13-011",
+        "d": "application",
+        "p": "Khi đứng chờ ở trạm xe buýt (at the bus stop), hành vi nào an toàn nhất?",
+        "o": [
+          "Chạy đuổi nhau giữa đường nhiều xe tải",
+          "Đứng xếp hàng ngay ngắn trên vỉa hè, không chạy lao xuống lòng đường",
+          "Đứng sát mép đường nhảy múa",
+          "Trèo lên nắp thùng xe đang đỗ"
+        ],
+        "k": "B",
+        "e": "Đứng gọn trên vỉa hè giữ an toàn giao thông.",
+        "s": "Traffic safety"
+      },
+      {
+        "c": "TA1-B13-012",
+        "d": "application",
+        "p": "Sắp xếp thành câu đúng: \"is / She / running / bus / the / to.\"",
+        "o": [
+          "Running is she to the bus.",
+          "She is running to the bus.",
+          "The bus is running she to.",
+          "She to the bus is running."
+        ],
+        "k": "B",
+        "e": "Cấu trúc chuẩn: She + is + running + to the bus.",
+        "s": "Sentence order"
+      },
+      {
+        "c": "TA1-B13-013",
+        "d": "advanced",
+        "p": "Đọc câu: \"The sun is shining. A big yellow bus and a blue truck are on the street.\" Chiếc xe màu xanh dương là xe gì?",
+        "o": [
+          "Xe ô tô con (car)",
+          "Xe đạp (bike)",
+          "Xe tải (truck)",
+          "Xe buýt (bus)"
+        ],
+        "k": "C",
+        "e": "\"yellow bus\" = xe buýt vàng; \"blue truck\" = xe tải xanh dương.",
+        "s": "Reading detail"
+      },
+      {
+        "c": "TA1-B13-014",
+        "d": "advanced",
+        "p": "Từ \"sun\" và từ \"son\" (con trai) đọc gần giống nhau nhưng viết khác nhau chữ gì? Biết \"sun\" nghĩa là gì?",
+        "o": [
+          "\"sun\" có 4 chữ cái",
+          "\"sun\" dùng chữ u và nghĩa là mặt trời",
+          "Hai từ viết giống hệt nhau",
+          "\"sun\" dùng chữ o và nghĩa là mặt trăng"
+        ],
+        "k": "B",
+        "e": "s-u-n (mặt trời) khác chính tả với s-o-n (con trai).",
+        "s": "Spelling contrast"
+      },
+      {
+        "c": "TA1-B13-015",
+        "d": "advanced",
+        "p": "Nhìn biển báo hình tam giác viền đỏ nền vàng dưới đây. Nhóm biển báo giao thông này có ý nghĩa chung là gì?",
+        "o": [
+          "Biển báo chỉ dẫn bãi đỗ xe",
+          "Biển báo nguy hiểm / cảnh báo (Warning sign)",
+          "Biển báo cấm hoàn toàn",
+          "Đèn tín hiệu giao thông"
+        ],
+        "k": "B",
+        "e": "Hình tam giác đều viền đỏ nền vàng dấu chấm than (!) là biển báo nguy hiểm cảnh báo.",
+        "s": "Traffic signs",
+        "fig": {
+          "w": 300,
+          "h": 175,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  150,
+                  24
+                ],
+                [
+                  88,
+                  130
+                ],
+                [
+                  212,
+                  130
+                ]
+              ],
+              "fill": "#facc15",
+              "stroke": "#dc2626",
+              "w": 6
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                110
+              ],
+              "s": "!",
+              "anchor": "middle",
+              "size": 36,
+              "color": "#1e293b"
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                162
+              ],
+              "s": "Traffic Sign",
+              "anchor": "middle",
+              "size": 12.5
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh1-c3",
+    "lesson": {
+      "code": "tienganh1-b14",
+      "title": "Bài 14. Unit 12: At the lake (L)",
+      "seq": 14,
+      "subtitle": "Học âm L (lake, leaf, lemons, Lucy) và mẫu câu Look at...",
+      "concepts": [
+        "Phonics: L (lake, leaf, lemon, Lucy)",
+        "Thiên nhiên bên hồ",
+        "Mẫu câu Look at..."
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA1-B14-001",
+        "d": "basic",
+        "p": "Từ tiếng Anh \"lake\" có nghĩa là gì?",
+        "o": [
+          "con sông",
+          "bãi biển",
+          "cái hồ nước",
+          "ngọn núi"
+        ],
+        "k": "C",
+        "e": "\"lake\" nghĩa là hồ nước.",
+        "s": "Vocabulary",
+        "fig": {
+          "type": "table",
+          "title": "Unit 12 Words",
+          "head": [
+            "Word",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "lake",
+              "cái hồ"
+            ],
+            [
+              "leaf",
+              "chiếc lá"
+            ],
+            [
+              "lemon",
+              "quả chanh"
+            ],
+            [
+              "Lucy",
+              "bạn Lucy"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA1-B14-002",
+        "d": "basic",
+        "p": "Quả chanh trong tiếng Anh là từ nào?",
+        "o": [
+          "mango",
+          "leaf",
+          "apple",
+          "lemon"
+        ],
+        "k": "D",
+        "e": "\"lemon\" là quả chanh (vàng).",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B14-003",
+        "d": "basic",
+        "p": "Từ \"leaf\" có nghĩa tiếng Việt là gì?",
+        "o": [
+          "hạt giống",
+          "cành cây",
+          "chiếc lá cây",
+          "bông hoa"
+        ],
+        "k": "C",
+        "e": "\"leaf\" nghĩa là chiếc lá.",
+        "s": "Nature vocabulary"
+      },
+      {
+        "c": "TA1-B14-004",
+        "d": "basic",
+        "p": "Tên nhân vật bạn nữ bắt đầu bằng chữ L trong sách Tiếng Anh 1 là ai?",
+        "o": [
+          "Lucy",
+          "Bill",
+          "Ann",
+          "Ba"
+        ],
+        "k": "A",
+        "e": "Trong Unit 12, nhân vật tên là Lucy.",
+        "s": "Character"
+      },
+      {
+        "c": "TA1-B14-005",
+        "d": "basic",
+        "p": "Cả bốn từ \"lake, leaf, lemon, Lucy\" đều bắt đầu bằng chữ cái nào?",
+        "o": [
+          "U",
+          "L",
+          "M",
+          "O"
+        ],
+        "k": "B",
+        "e": "Âm chủ đạo của Unit 12 là phụ âm L.",
+        "s": "Phonics"
+      },
+      {
+        "c": "TA1-B14-006",
+        "d": "basic",
+        "p": "Mẫu câu \"Look at Lucy!\" có nghĩa là gì?",
+        "o": [
+          "Tạm biệt bạn Lucy!",
+          "Đây là quyển sách.",
+          "Hãy nhìn bạn Lucy kìa!",
+          "Tôi thích quả chanh."
+        ],
+        "k": "C",
+        "e": "\"Look at...\" nghĩa là \"Hãy nhìn vào...\".",
+        "s": "Speaking"
+      },
+      {
+        "c": "TA1-B14-007",
+        "d": "application",
+        "p": "Bạn nhìn thấy một chiếc lá xanh rơi trên mặt hồ. Câu tiếng Anh nào miêu tả đúng cảnh đó?",
+        "o": [
+          "I have a mango in my pen.",
+          "Look at the red truck on the desk!",
+          "She is running to the clock.",
+          "Look at the green leaf on the lake!"
+        ],
+        "k": "D",
+        "e": "green leaf = lá xanh; on the lake = trên mặt hồ.",
+        "s": "Context"
+      },
+      {
+        "c": "TA1-B14-008",
+        "d": "application",
+        "p": "Điền hai chữ cái còn thiếu để hoàn thành từ \"quả chanh\": \"l _ m _ n\".",
+        "o": [
+          "u và a",
+          "e và o (lemon)",
+          "i và e",
+          "a và o"
+        ],
+        "k": "B",
+        "e": "l-e-m-o-n = lemon (quả chanh).",
+        "s": "Spelling"
+      },
+      {
+        "c": "TA1-B14-009",
+        "d": "application",
+        "p": "Chọn nhóm gồm TOÀN các từ thuộc chủ đề thiên nhiên, cây trái đã học:",
+        "o": [
+          "bus, truck, lock, clock",
+          "pen, desk, book, mop",
+          "girl, mother, Bill, Lucy",
+          "sun, lake, leaf, lemon"
+        ],
+        "k": "D",
+        "e": "sun, lake, leaf, lemon đều gắn với tự nhiên, thực vật.",
+        "s": "Topic grouping"
+      },
+      {
+        "c": "TA1-B14-010",
+        "d": "application",
+        "p": "Quả chanh (lemon) thường có vị gì và màu gì?",
+        "o": [
+          "Vị mặn, màu đen",
+          "Vị chua (sour), thường màu vàng hoặc xanh",
+          "Vị cay nồng, màu tím",
+          "Không có vị, màu trắng"
+        ],
+        "k": "B",
+        "e": "Chanh có vị chua thanh, vỏ vàng hoặc xanh.",
+        "s": "General knowledge"
+      },
+      {
+        "c": "TA1-B14-011",
+        "d": "application",
+        "p": "Tìm từ KHÔNG bắt đầu bằng chữ cái L:",
+        "o": [
+          "leaf",
+          "milk",
+          "lemon",
+          "lake"
+        ],
+        "k": "B",
+        "e": "\"milk\" bắt đầu bằng M.",
+        "s": "Phonics check"
+      },
+      {
+        "c": "TA1-B14-012",
+        "d": "application",
+        "p": "Sắp xếp thành câu đúng: \"at / Look / lemons / the / yellow!\"",
+        "o": [
+          "Look the at yellow lemons!",
+          "At look the lemons yellow!",
+          "The yellow lemons look at!",
+          "Look at the yellow lemons!"
+        ],
+        "k": "D",
+        "e": "Cấu trúc chuẩn: Look at + the + tính từ (yellow) + danh từ (lemons).",
+        "s": "Word order"
+      },
+      {
+        "c": "TA1-B14-013",
+        "d": "advanced",
+        "p": "Đọc đoạn: \"Lucy is at the lake. She sees three ducks swimming and a yellow leaf floating on the water.\" Có bao nhiêu con vịt ở hồ?",
+        "o": [
+          "2 con vịt",
+          "Không có con vịt nào",
+          "3 con vịt (three ducks)",
+          "4 con vịt"
+        ],
+        "k": "C",
+        "e": "\"three ducks swimming\" nghĩa là có ba chú vịt đang bơi.",
+        "s": "Reading comprehension"
+      },
+      {
+        "c": "TA1-B14-014",
+        "d": "advanced",
+        "p": "Từ \"leaf\" có chữ cuối là f. Khi sang số nhiều \"nhiều chiếc lá\" viết là gì?",
+        "o": [
+          "leafs",
+          "leafes",
+          "leafss",
+          "leaves"
+        ],
+        "k": "D",
+        "e": "Quy tắc thú vị: các danh từ tận cùng bằng f như leaf khi sang số nhiều đổi thành -ves -> leaves.",
+        "s": "Grammar bonus"
+      },
+      {
+        "c": "TA1-B14-015",
+        "d": "advanced",
+        "p": "Phân biệt cặp từ viết gần giống: \"lake\" (cái hồ) và \"cake\" (cái bánh). Hai từ này khác nhau ở chữ cái nào?",
+        "o": [
+          "Chữ cái đầu tiên (L và C)",
+          "Chữ cái thứ hai",
+          "Chữ cái cuối cùng",
+          "Khác nhau cả 4 chữ cái"
+        ],
+        "k": "A",
+        "e": "l-a-k-e và c-a-k-e chỉ khác duy nhất phụ âm đầu l và c.",
+        "s": "Minimal pair"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh1-c3",
+    "lesson": {
+      "code": "tienganh1-b15",
+      "title": "Bài 15. Review 3: Ôn tập chữ cái O, M, U, L",
+      "seq": 15,
+      "subtitle": "Tổng hợp bốn chữ cái O, M, U, L cùng từ vựng cửa hàng, sở thú, phương tiện và thiên nhiên",
+      "concepts": [
+        "Tổng hợp O, M, U, L",
+        "How many... / That is...",
+        "Look at..."
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA1-B15-001",
+        "d": "basic",
+        "p": "Bốn chữ cái trọng tâm của Review 3 là gì?",
+        "o": [
+          "E, G, H, I",
+          "O, M, U, L",
+          "F, P, R, K",
+          "A, B, C, D"
+        ],
+        "k": "B",
+        "e": "Từ Unit 9 đến Unit 12 học lần lượt O, M, U, L.",
+        "s": "Overview",
+        "fig": {
+          "type": "table",
+          "title": "Review 3 Summary",
+          "head": [
+            "Letter",
+            "Sample Words"
+          ],
+          "rows": [
+            [
+              "O",
+              "clock, lock, pot"
+            ],
+            [
+              "M",
+              "mango, monkey"
+            ],
+            [
+              "U",
+              "bus, truck, sun"
+            ],
+            [
+              "L",
+              "lake, leaf, lemon"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA1-B15-002",
+        "d": "basic",
+        "p": "Từ nào chỉ một loại trái cây màu vàng có vị chua?",
+        "o": [
+          "clock",
+          "mouse",
+          "lemon",
+          "truck"
+        ],
+        "k": "C",
+        "e": "\"lemon\" là quả chanh.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B15-003",
+        "d": "basic",
+        "p": "Đồ vật nào dùng để khóa cửa bảo vệ nhà cửa an toàn?",
+        "o": [
+          "pot",
+          "lock",
+          "mop",
+          "leaf"
+        ],
+        "k": "B",
+        "e": "\"lock\" là cái ổ khóa.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B15-004",
+        "d": "basic",
+        "p": "Con vật nào thích leo trèo cây và ăn trái cây ở sở thú?",
+        "o": [
+          "monkey",
+          "lake",
+          "clock",
+          "bus"
+        ],
+        "k": "A",
+        "e": "\"monkey\" là con khỉ.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B15-005",
+        "d": "basic",
+        "p": "Từ \"bus\" thuộc nhóm nghĩa nào?",
+        "o": [
+          "Đồ dùng học tập",
+          "Bộ phận cơ thể",
+          "Phương tiện giao thông công cộng",
+          "Đồ ăn thức uống"
+        ],
+        "k": "C",
+        "e": "\"bus\" là xe buýt chở khách.",
+        "s": "Categorization"
+      },
+      {
+        "c": "TA1-B15-006",
+        "d": "basic",
+        "p": "Khi thấy 5 chiếc nồi, ta đếm là gì?",
+        "o": [
+          "Five pot",
+          "Five pots",
+          "Four pots",
+          "Five locks"
+        ],
+        "k": "B",
+        "e": "Số 5 là five; danh từ số nhiều pots.",
+        "s": "Counting"
+      },
+      {
+        "c": "TA1-B15-007",
+        "d": "application",
+        "p": "Chọn câu hỏi đúng để hỏi số lượng quả xoài trong giỏ:",
+        "o": [
+          "How many mango?",
+          "What color is Lucy?",
+          "Who is running?",
+          "How many mangoes?"
+        ],
+        "k": "D",
+        "e": "Sau \"How many\" dùng danh từ số nhiều (mangoes).",
+        "s": "Grammar"
+      },
+      {
+        "c": "TA1-B15-008",
+        "d": "application",
+        "p": "Điền từ đúng để chỉ mặt trời tỏa sáng ban ngày: \"The ... is bright and warm.\"",
+        "o": [
+          "lock",
+          "sun",
+          "mouse",
+          "mop"
+        ],
+        "k": "B",
+        "e": "Mặt trời ấm áp rực sáng là \"sun\".",
+        "s": "Context"
+      },
+      {
+        "c": "TA1-B15-009",
+        "d": "application",
+        "p": "Tìm từ KHÔNG bắt đầu bằng các chữ O, M, U, L trong dãy: \"mango, clock, lemon, bus\".",
+        "o": [
+          "Không có từ nào",
+          "Chỉ có lemon",
+          "Cả \"clock\" và \"bus\" (clock bắt đầu C, bus bắt đầu B)",
+          "Chỉ có mango"
+        ],
+        "k": "C",
+        "e": "Lưu ý: clock bắt đầu bằng C (âm o ở giữa), bus bắt đầu bằng B (âm u ở giữa), còn mango (M), lemon (L)! Câu này rèn tinh ý nhận diện vị trí chữ cái.",
+        "s": "Phonics awareness"
+      },
+      {
+        "c": "TA1-B15-010",
+        "d": "application",
+        "p": "Ghép cặp ĐÚNG giữa đồ vật và nơi tìm thấy phổ biến nhất: \"lock, pot, mop\" ở đâu?",
+        "o": [
+          "In the shop or at home (cửa hàng hoặc trong nhà)",
+          "In the lake (dưới đáy hồ)",
+          "In the sky (trên bầu trời)",
+          "On the bus roof (trên nóc xe)"
+        ],
+        "k": "A",
+        "e": "Ổ khóa, nồi, cây lau nhà là đồ gia dụng bày bán ở cửa hàng.",
+        "s": "Context"
+      },
+      {
+        "c": "TA1-B15-011",
+        "d": "application",
+        "p": "Chọn câu viết ĐÚNG chính tả và ngữ pháp:",
+        "o": [
+          "Look on the monkee! It is eat a mango.",
+          "Look in the mouse! It is a truck pot.",
+          "Look at the monkey! He are eating mangoes.",
+          "Look at the monkey! It is eating a mango."
+        ],
+        "k": "D",
+        "e": "\"Look at...\" + động vật + \"It is eating...\" chuẩn ngữ pháp.",
+        "s": "Sentence accuracy"
+      },
+      {
+        "c": "TA1-B15-012",
+        "d": "application",
+        "p": "Sắp xếp 4 từ \"sun, lake, mango, lock\" theo thứ tự chữ cái đầu L-M-S:",
+        "o": [
+          "mango, lake, lock, sun",
+          "sun, mango, lock, lake",
+          "lock, mango, lake, sun",
+          "lake, lock, mango, sun"
+        ],
+        "k": "D",
+        "e": "L (lake trước lock vì a đứng trước o) -> M (mango) -> S (sun).",
+        "s": "Alphabetical order"
+      },
+      {
+        "c": "TA1-B15-013",
+        "d": "advanced",
+        "p": "Đọc đoạn: \"It is 9 o’clock. Mother and Lucy go to the shop by bus. They buy two pots and three locks.\" Hai mẹ con đi đến cửa hàng bằng phương tiện gì và mua tất cả mấy món đồ?",
+        "o": [
+          "Đi bằng xe buýt (bus) và mua 5 món đồ (2 + 3 = 5)",
+          "Đi bằng xe đạp và mua 4 món đồ",
+          "Đi bằng xe tải và mua 6 món đồ",
+          "Đi bộ và mua 3 món đồ"
+        ],
+        "k": "A",
+        "e": "\"by bus\" = bằng xe buýt; two pots + three locks = 5 món đồ.",
+        "s": "Reading & Math"
+      },
+      {
+        "c": "TA1-B15-014",
+        "d": "advanced",
+        "p": "Nhìn đồng hồ trong câu: \"It is 9 o’clock.\" Kim ngắn và kim dài trên mặt đồng hồ chỉ vào hai số nào?",
+        "o": [
+          "Cả hai kim đều chỉ số 9",
+          "Kim ngắn chỉ số 12, kim dài chỉ số 9",
+          "Kim ngắn chỉ số 9, kim dài chỉ số 12",
+          "Kim ngắn chỉ số 3, kim dài chỉ số 12"
+        ],
+        "k": "C",
+        "e": "9 giờ đúng thì kim giờ chỉ số 9, kim phút chỉ số 12.",
+        "s": "Clock reading",
+        "fig": {
+          "w": 300,
+          "h": 180,
+          "items": [
+            {
+              "t": "circle",
+              "c": [
+                150,
+                88
+              ],
+              "r": 62,
+              "fill": "#f8fafc",
+              "stroke": "#1e293b",
+              "w": 2.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                174.5,
+                49.6
+              ],
+              "s": "1",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                192.4,
+                67.5
+              ],
+              "s": "2",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                199.0,
+                92.0
+              ],
+              "s": "3",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                192.4,
+                116.5
+              ],
+              "s": "4",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                174.5,
+                134.4
+              ],
+              "s": "5",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                150.0,
+                141.0
+              ],
+              "s": "6",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                125.5,
+                134.4
+              ],
+              "s": "7",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                107.6,
+                116.5
+              ],
+              "s": "8",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                101.0,
+                92.0
+              ],
+              "s": "9",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                107.6,
+                67.5
+              ],
+              "s": "10",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                125.5,
+                49.6
+              ],
+              "s": "11",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                150.0,
+                43.0
+              ],
+              "s": "12",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "line",
+              "a": [
+                150,
+                88
+              ],
+              "b": [
+                120.0,
+                88.0
+              ],
+              "arrow": true,
+              "color": "#1e293b",
+              "w": 3.5
+            },
+            {
+              "t": "line",
+              "a": [
+                150,
+                88
+              ],
+              "b": [
+                150.0,
+                42.0
+              ],
+              "arrow": true,
+              "color": "#dc2626",
+              "w": 2.2
+            },
+            {
+              "t": "pt",
+              "p": [
+                150,
+                88
+              ]
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                168
+              ],
+              "s": "9 o’clock",
+              "anchor": "middle",
+              "size": 12
+            }
+          ]
+        }
+      },
+      {
+        "c": "TA1-B15-015",
+        "d": "advanced",
+        "p": "Từ nào là TỪ LẠC LOÀI (odd one out) trong 4 từ: \"mango, lemon, apple, monkey\"?",
+        "o": [
+          "mango",
+          "lemon",
+          "monkey (con vật, ba từ kia là trái cây)",
+          "apple"
+        ],
+        "k": "C",
+        "e": "mango (xoài), lemon (chanh), apple (táo) đều là trái cây; monkey (khỉ) là động vật.",
+        "s": "Categorization"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh1-c4",
+    "lesson": {
+      "code": "tienganh1-b16",
+      "title": "Bài 16. Unit 13: In the school canteen (N)",
+      "seq": 16,
+      "subtitle": "Học âm N (noodles, nuts, bananas, Nick) và mẫu câu mời/xin đồ ăn ở căn-tin trường học",
+      "concepts": [
+        "Phonics: N (noodles, nuts, bananas, Nick)",
+        "Từ vựng đồ ăn căn-tin",
+        "Lịch sự khi ăn uống"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA1-B16-001",
+        "d": "basic",
+        "p": "Món mì sợi (bún, mì) trong tiếng Anh gọi là gì?",
+        "o": [
+          "milk",
+          "noodles",
+          "bananas",
+          "nuts"
+        ],
+        "k": "B",
+        "e": "\"noodles\" nghĩa là mì sợi.",
+        "s": "Vocabulary",
+        "fig": {
+          "type": "table",
+          "title": "Unit 13 Words",
+          "head": [
+            "Word",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "noodles",
+              "mì sợi"
+            ],
+            [
+              "nuts",
+              "các loại hạt"
+            ],
+            [
+              "bananas",
+              "quả chuối"
+            ],
+            [
+              "Nick",
+              "bạn Nick"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA1-B16-002",
+        "d": "basic",
+        "p": "Từ \"bananas\" có nghĩa là loại quả nào?",
+        "o": [
+          "những quả xoài",
+          "những quả chanh",
+          "những quả chuối",
+          "những quả táo"
+        ],
+        "k": "C",
+        "e": "\"banana\" là quả chuối, thêm s là những quả chuối.",
+        "s": "Fruit vocabulary"
+      },
+      {
+        "c": "TA1-B16-003",
+        "d": "basic",
+        "p": "Từ \"nuts\" chỉ loại thực phẩm nào?",
+        "o": [
+          "cá chiên",
+          "bánh ngọt",
+          "các loại hạt (lạc, hạt điều, óc chó...)",
+          "nước ngọt"
+        ],
+        "k": "C",
+        "e": "\"nut\" nghĩa là hạt cứng có vỏ.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B16-004",
+        "d": "basic",
+        "p": "Cả ba đồ ăn \"noodles, nuts, bananas\" đều chứa chữ cái nào ở đầu hoặc trong từ?",
+        "o": [
+          "Chữ r",
+          "Chữ n",
+          "Chữ k",
+          "Chữ p"
+        ],
+        "k": "B",
+        "e": "noodles, nuts bắt đầu bằng N; ba-na-nas có hai chữ n ở giữa.",
+        "s": "Phonics"
+      },
+      {
+        "c": "TA1-B16-005",
+        "d": "basic",
+        "p": "\"school canteen\" là khu vực nào trong trường học?",
+        "o": [
+          "Phòng y tế học đường",
+          "Phòng thư viện đọc sách",
+          "Căn-tin (nhà ăn) của trường học",
+          "Sân bóng đá ngoài trời"
+        ],
+        "k": "C",
+        "e": "Học sinh ăn trưa hoặc mua đồ ăn nhẹ tại căng-tin (canteen).",
+        "s": "School places"
+      },
+      {
+        "c": "TA1-B16-006",
+        "d": "basic",
+        "p": "Khi muốn nói \"Bạn ấy (nam) đang ăn chuối.\", câu nào đúng?",
+        "o": [
+          "It is drinking desk.",
+          "He is playing noodles.",
+          "He is eating bananas.",
+          "She is eating trucks."
+        ],
+        "k": "C",
+        "e": "\"He\" dùng cho bạn nam; \"eating bananas\" = đang ăn chuối.",
+        "s": "Grammar"
+      },
+      {
+        "c": "TA1-B16-007",
+        "d": "application",
+        "p": "Bạn Nick muốn lịch sự xin một quả chuối ở căn-tin. Câu nói lịch sự nào nên dùng?",
+        "o": [
+          "Give me banana now!",
+          "Look at the bus!",
+          "A banana, please! Thank you.",
+          "No, I am a nut."
+        ],
+        "k": "C",
+        "e": "Thêm \"please\" (làm ơn/vui lòng) và \"Thank you\" (cảm ơn) là phép lịch sự chuẩn tiếng Anh.",
+        "s": "Polite request"
+      },
+      {
+        "c": "TA1-B16-008",
+        "d": "application",
+        "p": "Điền hai chữ cái còn thiếu để hoàn thành từ \"mì sợi\": \"n _ _ d l e s\".",
+        "o": [
+          "uu",
+          "aa",
+          "oo",
+          "ee"
+        ],
+        "k": "C",
+        "e": "n-o-o-d-l-e-s = noodles.",
+        "s": "Spelling"
+      },
+      {
+        "c": "TA1-B16-009",
+        "d": "application",
+        "p": "Trong hai câu: \"She’s having noodles.\" và \"He’s having nuts.\", động từ \"having\" ở đây có nghĩa là gì?",
+        "o": [
+          "Đang ăn (dùng bữa)",
+          "Đang chạy bộ",
+          "Đang đá bóng",
+          "Đang viết bảng"
+        ],
+        "k": "A",
+        "e": "Với đồ ăn thức uống, \"have\" (having) mang nghĩa là ăn hoặc uống.",
+        "s": "Verb meaning"
+      },
+      {
+        "c": "TA1-B16-010",
+        "d": "application",
+        "p": "Chọn nhóm từ gồm TOÀN trái cây đã học ở lớp 1:",
+        "o": [
+          "apple, mango, lemon, banana",
+          "clock, lock, mop, pot",
+          "milk, water, tea, juice",
+          "noodles, nuts, chips, fish"
+        ],
+        "k": "A",
+        "e": "Táo, xoài, chanh, chuối đều là trái cây tươi.",
+        "s": "Categorization"
+      },
+      {
+        "c": "TA1-B16-011",
+        "d": "application",
+        "p": "Từ \"banana\" có mấy chữ cái \"a\" và mấy chữ cái \"n\"?",
+        "o": [
+          "1 chữ a và 2 chữ n",
+          "3 chữ a và 1 chữ n",
+          "3 chữ a và 2 chữ n",
+          "2 chữ a và 3 chữ n"
+        ],
+        "k": "C",
+        "e": "Đánh vần b-a-n-a-n-a: có 3 chữ a và 2 chữ n.",
+        "s": "Word puzzle"
+      },
+      {
+        "c": "TA1-B16-012",
+        "d": "application",
+        "p": "Sắp xếp thành câu đúng: \"having / Nick / is / noodles.\"",
+        "o": [
+          "Nick is having noodles.",
+          "Noodles is having Nick.",
+          "Is having Nick noodles.",
+          "Having is noodles Nick."
+        ],
+        "k": "A",
+        "e": "Chủ ngữ (Nick) + is + having + noodles.",
+        "s": "Word order"
+      },
+      {
+        "c": "TA1-B16-013",
+        "d": "advanced",
+        "p": "Đọc đoạn: \"At lunchtime, Nick is in the school canteen. He has noodles and milk. Lucy has chicken and a banana.\" Ai ăn món mì sợi?",
+        "o": [
+          "Bạn Lucy",
+          "Bạn Nick",
+          "Cả Nick và Lucy",
+          "Bạn Bill"
+        ],
+        "k": "B",
+        "e": "\"He (Nick) has noodles and milk.\" -> Nick ăn mì và uống sữa.",
+        "s": "Reading detail"
+      },
+      {
+        "c": "TA1-B16-014",
+        "d": "advanced",
+        "p": "Theo quy tắc lịch sự ở căn-tin (canteen manners), sau khi ăn xong học sinh cần làm gì?",
+        "o": [
+          "Để nguyên rác trên bàn cho người khác dọn",
+          "Dọn khay ăn gọn gàng, bỏ rác đúng nơi quy định và rửa tay sạch",
+          "Chạy nhảy khi miệng vẫn đang nhai",
+          "Vứt vỏ chuối xuống sàn nhà"
+        ],
+        "k": "B",
+        "e": "Giữ vệ sinh chung và an toàn ăn uống là thói quen tốt.",
+        "s": "Life skills"
+      },
+      {
+        "c": "TA1-B16-015",
+        "d": "advanced",
+        "p": "Phân biệt hai từ \"nut\" (hạt) và \"hut\" (túp lều): Hai từ chỉ khác nhau ở chữ cái nào?",
+        "o": [
+          "Chữ cái đầu tiên (n và h)",
+          "Chữ cái cuối cùng (t và d)",
+          "Nguyên âm ở giữa",
+          "Không giống nhau chữ nào"
+        ],
+        "k": "A",
+        "e": "n-u-t và h-u-t cùng vần -ut, chỉ khác âm đầu n và h.",
+        "s": "Minimal pairs"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh1-c4",
+    "lesson": {
+      "code": "tienganh1-b17",
+      "title": "Bài 17. Unit 14: In the toy shop (T)",
+      "seq": 17,
+      "subtitle": "Học âm T (teddy bear, tiger, top, turtle) và mẫu câu hỏi What is it? / Counting toys",
+      "concepts": [
+        "Phonics: T (teddy bear, tiger, top, turtle)",
+        "Đồ chơi và con vật",
+        "Mẫu câu I can see..."
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA1-B17-001",
+        "d": "basic",
+        "p": "Chú gấu bông trong tiếng Anh gọi là gì?",
+        "o": [
+          "top",
+          "tiger",
+          "turtle",
+          "teddy bear"
+        ],
+        "k": "D",
+        "e": "\"teddy bear\" là gấu bông.",
+        "s": "Toy vocabulary",
+        "fig": {
+          "type": "table",
+          "title": "Unit 14 Toy Shop",
+          "head": [
+            "Word",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "teddy bear",
+              "gấu bông"
+            ],
+            [
+              "tiger",
+              "con hổ"
+            ],
+            [
+              "turtle",
+              "con rùa"
+            ],
+            [
+              "top",
+              "con quay đồ chơi"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA1-B17-002",
+        "d": "basic",
+        "p": "Từ \"tiger\" có nghĩa tiếng Việt là con vật nào?",
+        "o": [
+          "con ngựa",
+          "con rùa",
+          "con khỉ",
+          "con hổ"
+        ],
+        "k": "D",
+        "e": "\"tiger\" nghĩa là con hổ.",
+        "s": "Animal vocabulary"
+      },
+      {
+        "c": "TA1-B17-003",
+        "d": "basic",
+        "p": "Con rùa trong tiếng Anh là từ nào?",
+        "o": [
+          "top",
+          "turtle",
+          "tiger",
+          "duck"
+        ],
+        "k": "B",
+        "e": "\"turtle\" là con rùa.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B17-004",
+        "d": "basic",
+        "p": "Đồ chơi con quay xoay tròn gọi là gì?",
+        "o": [
+          "mop",
+          "pot",
+          "lock",
+          "top"
+        ],
+        "k": "D",
+        "e": "\"top\" (spinning top) là con quay đồ chơi.",
+        "s": "Toy vocabulary"
+      },
+      {
+        "c": "TA1-B17-005",
+        "d": "basic",
+        "p": "Bốn từ \"teddy bear, tiger, top, turtle\" đều bắt đầu bằng chữ cái nào?",
+        "o": [
+          "P",
+          "R",
+          "K",
+          "T"
+        ],
+        "k": "D",
+        "e": "Chữ cái chủ đạo Unit 14 là T.",
+        "s": "Phonics"
+      },
+      {
+        "c": "TA1-B17-006",
+        "d": "basic",
+        "p": "Câu \"I can see a tiger.\" có nghĩa là gì?",
+        "o": [
+          "Tôi là một chú rùa.",
+          "Tôi có thể nhìn thấy một con hổ.",
+          "Con hổ có màu xanh dương.",
+          "Tôi thích ăn kẹo."
+        ],
+        "k": "B",
+        "e": "\"I can see...\" nghĩa là \"Tôi có thể nhìn thấy...\".",
+        "s": "Sentence pattern"
+      },
+      {
+        "c": "TA1-B17-007",
+        "d": "application",
+        "p": "Bạn Lan nhìn thấy một chú rùa nhỏ trên kệ đồ chơi. Bạn ấy nói thế nào?",
+        "o": [
+          "This is my noodles.",
+          "I can see a big bus.",
+          "Touch your teddy bear!",
+          "I can see a small turtle."
+        ],
+        "k": "D",
+        "e": "\"a small turtle\" nghĩa là một chú rùa nhỏ.",
+        "s": "Context match"
+      },
+      {
+        "c": "TA1-B17-008",
+        "d": "application",
+        "p": "Điền hai chữ cái còn thiếu vào tên con hổ: \"t i _ _ r\".",
+        "o": [
+          "go",
+          "ge",
+          "ga",
+          "gi"
+        ],
+        "k": "B",
+        "e": "t-i-g-e-r = tiger.",
+        "s": "Spelling"
+      },
+      {
+        "c": "TA1-B17-009",
+        "d": "application",
+        "p": "Phát hiện cặp từ ĐẢO NGƯỢC chữ cái rất thú vị giữa Unit 9 và Unit 14: Từ \"top\" (con quay) nếu viết ngược lại các chữ cái thành từ nào?",
+        "o": [
+          "cup (cái cốc)",
+          "mop (cây lau)",
+          "pot (cái nồi)",
+          "cat (con mèo)"
+        ],
+        "k": "C",
+        "e": "t-o-p viết ngược thứ tự chữ cái thành p-o-t (pot)!",
+        "s": "Word puzzle"
+      },
+      {
+        "c": "TA1-B17-010",
+        "d": "application",
+        "p": "Nhóm nào gồm TOÀN đồ chơi hoặc thú nhồi bông trong cửa hàng đồ chơi?",
+        "o": [
+          "teddy bear, top, ball, toy car",
+          "gate, garden, sun, leaf",
+          "pen, pencil, book, desk",
+          "noodles, nuts, banana, milk"
+        ],
+        "k": "A",
+        "e": "Gấu bông, con quay, quả bóng, xe ô tô đồ chơi thuộc cửa hàng đồ chơi (toy shop).",
+        "s": "Categorization"
+      },
+      {
+        "c": "TA1-B17-011",
+        "d": "application",
+        "p": "Tìm từ KHÔNG bắt đầu bằng chữ T: \"tiger, turtle, top, bus\".",
+        "o": [
+          "top",
+          "turtle",
+          "tiger",
+          "bus"
+        ],
+        "k": "D",
+        "e": "\"bus\" bắt đầu bằng B.",
+        "s": "Phonics check"
+      },
+      {
+        "c": "TA1-B17-012",
+        "d": "application",
+        "p": "Sắp xếp thành câu đúng: \"see / can / I / teddy bear / a.\"",
+        "o": [
+          "A teddy bear can see I.",
+          "I can see a teddy bear.",
+          "See I can a teddy bear.",
+          "I a teddy bear can see."
+        ],
+        "k": "B",
+        "e": "Trật tự chuẩn: I + can + see + a + teddy bear.",
+        "s": "Sentence order"
+      },
+      {
+        "c": "TA1-B17-013",
+        "d": "advanced",
+        "p": "Đọc đoạn: \"Tony is in the toy shop. He buys a brown teddy bear and two tops. His sister buys a green turtle.\" Tony đã mua mấy món đồ chơi?",
+        "o": [
+          "2 món đồ chơi",
+          "3 món đồ chơi (1 gấu bông và 2 con quay)",
+          "Chỉ 1 món đồ chơi",
+          "4 món đồ chơi"
+        ],
+        "k": "B",
+        "e": "a teddy bear (1) + two tops (2) = 3 món; còn green turtle là em gái mua.",
+        "s": "Reading comprehension"
+      },
+      {
+        "c": "TA1-B17-014",
+        "d": "advanced",
+        "p": "Từ nào trong các từ sau nói về loài bò sát có mai cứng bơi giỏi dưới nước?",
+        "o": [
+          "tiger (con hổ)",
+          "turtle (con rùa)",
+          "monkey (con khỉ)",
+          "horse (con ngựa)"
+        ],
+        "k": "B",
+        "e": "Rùa (turtle) có mai cứng bảo vệ thân thể.",
+        "s": "Science link"
+      },
+      {
+        "c": "TA1-B17-015",
+        "d": "advanced",
+        "p": "Nếu đến cửa hàng đồ chơi cùng bố mẹ, thái độ ứng xử nào ngoan ngoãn nhất?",
+        "o": [
+          "Bóc hết hộp đồ chơi trong cửa hàng ra chơi thử",
+          "Chạy lung tung làm vỡ kệ hàng",
+          "Hỏi ý kiến bố mẹ nhẹ nhàng, chọn một món phù hợp và biết giữ gìn đồ chơi cũ ở nhà",
+          "Nằm lăn ra sàn khóc ăn vạ đòi mua tất cả đồ chơi"
+        ],
+        "k": "C",
+        "e": "Lễ phép và biết cân nhắc giúp bố mẹ vui lòng.",
+        "s": "Life skills"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh1-c4",
+    "lesson": {
+      "code": "tienganh1-b18",
+      "title": "Bài 18. Unit 15: At the football match (F)",
+      "seq": 18,
+      "subtitle": "Học âm F (face, father, foot, football) và từ vựng môn thể thao bóng đá",
+      "concepts": [
+        "Phonics: F (face, father, foot, football)",
+        "Thể thao và gia đình",
+        "Point to your..."
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA1-B18-001",
+        "d": "basic",
+        "p": "Môn thể thao bóng đá trong tiếng Anh là từ nào?",
+        "o": [
+          "baseball",
+          "swimming",
+          "football",
+          "running"
+        ],
+        "k": "C",
+        "e": "\"football\" ghép từ foot (bàn chân) + ball (bóng) nghĩa là bóng đá.",
+        "s": "Sports vocabulary",
+        "fig": {
+          "type": "table",
+          "title": "Unit 15 Words",
+          "head": [
+            "Word",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "football",
+              "bóng đá"
+            ],
+            [
+              "foot",
+              "bàn chân"
+            ],
+            [
+              "face",
+              "khuôn mặt"
+            ],
+            [
+              "father",
+              "bố / cha"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA1-B18-002",
+        "d": "basic",
+        "p": "Từ \"father\" dùng để gọi ai trong gia đình?",
+        "o": [
+          "bố (cha)",
+          "em gái",
+          "mẹ",
+          "bạn thân"
+        ],
+        "k": "A",
+        "e": "\"father\" (thân mật là dad) nghĩa là bố.",
+        "s": "Family vocabulary"
+      },
+      {
+        "c": "TA1-B18-003",
+        "d": "basic",
+        "p": "Bộ phận cơ thể nào có nghĩa là \"bàn chân\"?",
+        "o": [
+          "hand",
+          "foot",
+          "face",
+          "head"
+        ],
+        "k": "B",
+        "e": "\"foot\" là một bàn chân (số nhiều là feet).",
+        "s": "Body parts"
+      },
+      {
+        "c": "TA1-B18-004",
+        "d": "basic",
+        "p": "Từ \"face\" có nghĩa tiếng Việt là gì?",
+        "o": [
+          "bàn tay",
+          "mái tóc",
+          "khuôn mặt",
+          "đầu gối"
+        ],
+        "k": "C",
+        "e": "\"face\" nghĩa là khuôn mặt.",
+        "s": "Body parts"
+      },
+      {
+        "c": "TA1-B18-005",
+        "d": "basic",
+        "p": "Cả bốn từ \"face, father, foot, football\" đều bắt đầu bằng chữ cái nào?",
+        "o": [
+          "R",
+          "P",
+          "F",
+          "K"
+        ],
+        "k": "C",
+        "e": "Chữ cái chủ đạo Unit 15 là F.",
+        "s": "Phonics"
+      },
+      {
+        "c": "TA1-B18-006",
+        "d": "basic",
+        "p": "Câu \"Point to your foot!\" có nghĩa là gì?",
+        "o": [
+          "Hãy chỉ tay vào bàn chân của bạn!",
+          "Bố tôi rất cao.",
+          "Hãy rửa mặt của bạn!",
+          "Tôi thích chơi bóng đá."
+        ],
+        "k": "A",
+        "e": "\"Point to your...\" nghĩa là \"Hãy chỉ vào...\".",
+        "s": "Classroom instruction"
+      },
+      {
+        "c": "TA1-B18-007",
+        "d": "application",
+        "p": "Bạn Minh muốn rủ bố cùng xem hoặc chơi bóng đá. Bố của Minh tiếng Anh gọi là gì?",
+        "o": [
+          "teacher",
+          "sister",
+          "mother",
+          "father"
+        ],
+        "k": "D",
+        "e": "\"father\" là bố.",
+        "s": "Family"
+      },
+      {
+        "c": "TA1-B18-008",
+        "d": "application",
+        "p": "Điền hai chữ cái còn thiếu vào từ \"bóng đá\": \"f o o t b _ _ l\".",
+        "o": [
+          "ol",
+          "el",
+          "il",
+          "al"
+        ],
+        "k": "D",
+        "e": "foot + ball = football.",
+        "s": "Spelling"
+      },
+      {
+        "c": "TA1-B18-009",
+        "d": "application",
+        "p": "Mỗi sáng thức dậy, chúng ta cần rửa sạch bộ phận nào để luôn tỉnh táo và sạch sẽ? \"Wash your ...!\"",
+        "o": [
+          "face",
+          "football",
+          "father",
+          "desk"
+        ],
+        "k": "A",
+        "e": "Rửa mặt buổi sáng là \"Wash your face\".",
+        "s": "Daily routine"
+      },
+      {
+        "c": "TA1-B18-010",
+        "d": "application",
+        "p": "Trong hai từ \"foot\" và \"football\", điểm chung là gì?",
+        "o": [
+          "Cả hai đều chỉ thành viên gia đình",
+          "Cả hai đều có 4 chữ cái",
+          "Đều chứa từ \"foot\" và đều bắt đầu bằng âm F",
+          "Cả hai đều là tên đồ ăn"
+        ],
+        "k": "C",
+        "e": "\"football\" được tạo thành từ \"foot\" + \"ball\".",
+        "s": "Word formation"
+      },
+      {
+        "c": "TA1-B18-011",
+        "d": "application",
+        "p": "Chọn câu hoàn chỉnh miêu tả sở thích thể thao: \"My father and I like ...\"",
+        "o": [
+          "face",
+          "lock",
+          "football",
+          "foot"
+        ],
+        "k": "C",
+        "e": "\"like football\" nghĩa là thích bóng đá.",
+        "s": "Context"
+      },
+      {
+        "c": "TA1-B18-012",
+        "d": "application",
+        "p": "Sắp xếp thành câu đúng: \"to / Point / face / your!\"",
+        "o": [
+          "To point your face!",
+          "Your face point to!",
+          "Point to your face!",
+          "Face your to point!"
+        ],
+        "k": "C",
+        "e": "Cấu trúc chuẩn: Point to + your + danh từ.",
+        "s": "Sentence order"
+      },
+      {
+        "c": "TA1-B18-013",
+        "d": "advanced",
+        "p": "Đọc đoạn: \"Phong and his father are at the football match. Phong wears a red hat. His father has a bottle of water.\" Hai bố con đang ở đâu?",
+        "o": [
+          "Ở phòng ăn tại nhà",
+          "Ở trận đấu bóng đá (at the football match)",
+          "Ở cửa hàng đồ chơi",
+          "Ở trạm xe buýt"
+        ],
+        "k": "B",
+        "e": "\"at the football match\" nghĩa là tại trận đấu bóng đá.",
+        "s": "Reading comprehension"
+      },
+      {
+        "c": "TA1-B18-014",
+        "d": "advanced",
+        "p": "Khi nói \"hai bàn chân\" (số nhiều của foot), tiếng Anh dùng từ đặc biệt nào thay cho \"foots\"?",
+        "o": [
+          "footes",
+          "feet",
+          "foots",
+          "feets"
+        ],
+        "k": "B",
+        "e": "\"foot\" là danh từ số nhiều bất quy tắc: 1 foot -> 2 feet.",
+        "s": "Grammar bonus"
+      },
+      {
+        "c": "TA1-B18-015",
+        "d": "advanced",
+        "p": "Tập thể dục và chơi bóng đá cùng bạn bè (playing football) mang lại lợi ích gì?",
+        "o": [
+          "Không cần uống nước cả ngày",
+          "Giúp cơ thể khỏe mạnh, nhanh nhẹn và rèn tinh thần đồng đội",
+          "Làm quên hết bảng chữ cái tiếng Anh",
+          "Giúp thức khuya đến 12 giờ đêm"
+        ],
+        "k": "B",
+        "e": "Vận động thể thao tăng cường sức khỏe và gắn kết bạn bè.",
+        "s": "Health & PE link"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh1-c4",
+    "lesson": {
+      "code": "tienganh1-b19",
+      "title": "Bài 19. Unit 16: At the campsite & Countryside (R, K)",
+      "seq": 19,
+      "subtitle": "Làm quen chữ cái R (rainbow, river, road) và K (kite, kitten) qua chủ đề dã ngoại thiên nhiên",
+      "concepts": [
+        "Phonics: R (rainbow, river, road)",
+        "Phonics: K (kite, kitten)",
+        "Dã ngoại ở đồng quê"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA1-B19-001",
+        "d": "basic",
+        "p": "Từ tiếng Anh \"rainbow\" có nghĩa là hiện tượng thiên nhiên nào?",
+        "o": [
+          "cơn mưa rào",
+          "cánh diều",
+          "dòng sông",
+          "cầu vồng"
+        ],
+        "k": "D",
+        "e": "\"rainbow\" ghép từ rain (mưa) + bow (cung) nghĩa là cầu vồng.",
+        "s": "Vocabulary",
+        "fig": {
+          "type": "table",
+          "title": "Unit 16 Nature Words",
+          "head": [
+            "Word",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "rainbow",
+              "cầu vồng"
+            ],
+            [
+              "river",
+              "dòng sông"
+            ],
+            [
+              "road",
+              "con đường"
+            ],
+            [
+              "kite",
+              "cánh diều"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA1-B19-002",
+        "d": "basic",
+        "p": "Dòng sông trong tiếng Anh gọi là gì?",
+        "o": [
+          "rain",
+          "road",
+          "lake",
+          "river"
+        ],
+        "k": "D",
+        "e": "\"river\" là dòng sông; \"lake\" là cái hồ.",
+        "s": "Nature vocabulary"
+      },
+      {
+        "c": "TA1-B19-003",
+        "d": "basic",
+        "p": "Con đường đi lại trong tiếng Anh là từ nào?",
+        "o": [
+          "river",
+          "rainbow",
+          "road",
+          "kite"
+        ],
+        "k": "C",
+        "e": "\"road\" nghĩa là con đường.",
+        "s": "Vocabulary"
+      },
+      {
+        "c": "TA1-B19-004",
+        "d": "basic",
+        "p": "Cánh diều bay trên trời gọi là gì trong tiếng Anh?",
+        "o": [
+          "bike",
+          "cake",
+          "lock",
+          "kite"
+        ],
+        "k": "D",
+        "e": "\"kite\" nghĩa là cánh diều.",
+        "s": "Toy/Outdoor vocabulary"
+      },
+      {
+        "c": "TA1-B19-005",
+        "d": "basic",
+        "p": "Chú mèo con trong tiếng Anh là từ nào bắt đầu bằng chữ K?",
+        "o": [
+          "tiger",
+          "kitten",
+          "cat",
+          "goat"
+        ],
+        "k": "B",
+        "e": "\"kitten\" là mèo con (còn \"cat\" là mèo nói chung).",
+        "s": "Animal vocabulary"
+      },
+      {
+        "c": "TA1-B19-006",
+        "d": "basic",
+        "p": "Ba từ \"rainbow, river, road\" đều bắt đầu bằng chữ cái nào?",
+        "o": [
+          "T",
+          "R",
+          "K",
+          "F"
+        ],
+        "k": "B",
+        "e": "Cả ba từ trên đều bắt đầu bằng phụ âm R.",
+        "s": "Phonics"
+      },
+      {
+        "c": "TA1-B19-007",
+        "d": "application",
+        "p": "Hoàn thành câu miêu tả hoạt động ngoài trời: \"It is windy! Let’s fly a ...\" (Trời có gió rồi, hãy cùng thả diều nào!).",
+        "o": [
+          "kite",
+          "river",
+          "lock",
+          "road"
+        ],
+        "k": "A",
+        "e": "\"fly a kite\" nghĩa là thả diều.",
+        "s": "Verb collocation"
+      },
+      {
+        "c": "TA1-B19-008",
+        "d": "application",
+        "p": "Điền chữ cái đúng để hoàn thành tên hai vật dụng: \"r _ a d\" và \"k _ t e\".",
+        "o": [
+          "a và e",
+          "u và a",
+          "o và i",
+          "e và o"
+        ],
+        "k": "C",
+        "e": "r-o-a-d (road) và k-i-t-e (kite).",
+        "s": "Spelling"
+      },
+      {
+        "c": "TA1-B19-009",
+        "d": "application",
+        "p": "Nhóm từ nào gồm TOÀN các từ bắt đầu bằng chữ cái R?",
+        "o": [
+          "rainbow, river, road, run",
+          "river, kite, road, cat",
+          "road, bike, book, rain",
+          "rainbow, desk, duck, dog"
+        ],
+        "k": "A",
+        "e": "rainbow, river, road, run đều bắt đầu bằng R.",
+        "s": "Phonics"
+      },
+      {
+        "c": "TA1-B19-010",
+        "d": "application",
+        "p": "Cắm trại bên dòng sông ở vùng quê tiếng Anh gọi là gì? \"At the campsite near the ...\"",
+        "o": [
+          "river",
+          "classroom",
+          "bedroom",
+          "canteen"
+        ],
+        "k": "A",
+        "e": "Khu cắm trại thiên nhiên gần dòng sông là \"near the river\".",
+        "s": "Context"
+      },
+      {
+        "c": "TA1-B19-011",
+        "d": "application",
+        "p": "So sánh \"kite\" (cánh diều) và \"bike\" (xe đạp): Hai từ này giống nhau ở chỗ nào?",
+        "o": [
+          "Đều bắt đầu bằng chữ B",
+          "Đều có 4 chữ cái và tận cùng bằng \"-ke\" với nguyên âm \"i\" ở vị trí thứ hai",
+          "Không có chữ cái nào giống nhau",
+          "Đều chỉ loài động vật"
+        ],
+        "k": "B",
+        "e": "k-i-t-e và b-i-k-e đều có cấu trúc _i_e.",
+        "s": "Word pattern"
+      },
+      {
+        "c": "TA1-B19-012",
+        "d": "application",
+        "p": "Sắp xếp thành câu đúng: \"is / There / a / rainbow / beautiful.\"",
+        "o": [
+          "Rainbow beautiful is there a.",
+          "A beautiful rainbow is there.",
+          "There a beautiful is rainbow.",
+          "There is a beautiful rainbow."
+        ],
+        "k": "D",
+        "e": "Cấu trúc chuẩn: There + is + a + beautiful + rainbow.",
+        "s": "Sentence order"
+      },
+      {
+        "c": "TA1-B19-013",
+        "d": "advanced",
+        "p": "Đọc đoạn: \"Our family is at the campsite. We see a colorful rainbow above the long river. My brother flies a red kite.\" Gia đình nhìn thấy cầu vồng ở đâu?",
+        "o": [
+          "Ở dưới đáy dòng sông",
+          "Ở phía trên dòng sông dài (above the long river)",
+          "Ở trong phòng ngủ",
+          "Ở trên mặt bàn học"
+        ],
+        "k": "B",
+        "e": "\"above the long river\" = phía trên dòng sông dài.",
+        "s": "Reading comprehension"
+      },
+      {
+        "c": "TA1-B19-014",
+        "d": "advanced",
+        "p": "Một ngôi sao (star) có 5 cánh nhọn như hình minh họa. Trong tiếng Anh từ \"star\" chứa nguyên âm nào và có nghĩa gì?",
+        "o": [
+          "Chứa nguyên âm o; nghĩa là mặt trời",
+          "Chứa nguyên âm i; nghĩa là cái hồ",
+          "Chứa nguyên âm u; nghĩa là đám mây",
+          "Chứa nguyên âm a; nghĩa là ngôi sao"
+        ],
+        "k": "D",
+        "e": "s-t-a-r đọc là \"star\" (ngôi sao).",
+        "s": "Visual & Vocabulary",
+        "fig": {
+          "w": 300,
+          "h": 190,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  150.0,
+                  34.0
+                ],
+                [
+                  163.5,
+                  71.4
+                ],
+                [
+                  203.3,
+                  72.7
+                ],
+                [
+                  171.9,
+                  97.1
+                ],
+                [
+                  182.9,
+                  135.3
+                ],
+                [
+                  150.0,
+                  113.0
+                ],
+                [
+                  117.1,
+                  135.3
+                ],
+                [
+                  128.1,
+                  97.1
+                ],
+                [
+                  96.7,
+                  72.7
+                ],
+                [
+                  136.5,
+                  71.4
+                ]
+              ],
+              "fill": "#fde047",
+              "stroke": "#ca8a04",
+              "w": 2.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                178
+              ],
+              "s": "A bright star",
+              "anchor": "middle",
+              "size": 13
+            }
+          ]
+        }
+      },
+      {
+        "c": "TA1-B19-015",
+        "d": "advanced",
+        "p": "Khi đi cắm trại dã ngoại (at the campsite), điều gì quan trọng nhất để bảo vệ thiên nhiên bên bờ sông?",
+        "o": [
+          "Thu gom sạch rác thải vào túi mang về, không xả rác xuống sông hay bãi cỏ",
+          "Vứt vỏ chai nhựa xuống dòng sông trôi đi",
+          "Viết bậy lên thân cây xanh",
+          "Bẻ hết cành cây non đốt chơi"
+        ],
+        "k": "A",
+        "e": "Giữ môi trường xanh sạch là trách nhiệm của mỗi bạn nhỏ khi dã ngoại.",
+        "s": "Eco awareness"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh1-c4",
+    "lesson": {
+      "code": "tienganh1-b20",
+      "title": "Bài 20. Review 4: Tổng ôn Tiếng Anh Lớp 1",
+      "seq": 20,
+      "subtitle": "Tổng kết toàn bộ bảng chữ cái đã học, từ vựng các chủ đề gia đình, trường học, đồ ăn, thiên nhiên và mẫu câu lớp 1",
+      "concepts": [
+        "Tổng hợp từ vựng Lớp 1",
+        "Mẫu câu giao tiếp cơ bản",
+        "Phân loại chủ đề và đọc hiểu"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA1-B20-001",
+        "d": "basic",
+        "p": "Từ nào sau đây chỉ một thành viên trong gia đình?",
+        "o": [
+          "monkey",
+          "mango",
+          "mother",
+          "marker"
+        ],
+        "k": "C",
+        "e": "\"mother\" là mẹ; monkey (khỉ), mango (xoài), marker (bút dạ).",
+        "s": "Family review",
+        "fig": {
+          "type": "table",
+          "title": "Grade 1 Topics",
+          "head": [
+            "Topic",
+            "Key Words"
+          ],
+          "rows": [
+            [
+              "Family",
+              "father, mother"
+            ],
+            [
+              "Food",
+              "cake, fish, milk"
+            ],
+            [
+              "Animals",
+              "cat, dog, tiger"
+            ],
+            [
+              "Nature",
+              "sun, lake, river"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA1-B20-002",
+        "d": "basic",
+        "p": "Từ nào chỉ một phương tiện giao thông?",
+        "o": [
+          "bus",
+          "bag",
+          "bell",
+          "bed"
+        ],
+        "k": "A",
+        "e": "\"bus\" là xe buýt.",
+        "s": "Transport review"
+      },
+      {
+        "c": "TA1-B20-003",
+        "d": "basic",
+        "p": "Câu chào và giới thiệu tên đúng bằng tiếng Anh là gì?",
+        "o": [
+          "Hello! I am Minh.",
+          "Thank you! I have clock.",
+          "Goodbye! I am book.",
+          "Touch your head, Minh!"
+        ],
+        "k": "A",
+        "e": "\"Hello! I am + tên\" là mẫu chào hỏi cơ bản nhất.",
+        "s": "Speaking review"
+      },
+      {
+        "c": "TA1-B20-004",
+        "d": "basic",
+        "p": "Từ tiếng Anh của \"con rùa\" là gì?",
+        "o": [
+          "tiger",
+          "teddy",
+          "turtle",
+          "turkey"
+        ],
+        "k": "C",
+        "e": "\"turtle\" là con rùa.",
+        "s": "Animals review"
+      },
+      {
+        "c": "TA1-B20-005",
+        "d": "basic",
+        "p": "Đồ vật nào dùng để đựng sách vở đi học?",
+        "o": [
+          "cup",
+          "bag",
+          "hat",
+          "pot"
+        ],
+        "k": "B",
+        "e": "\"bag\" là cặp sách/túi.",
+        "s": "School things"
+      },
+      {
+        "c": "TA1-B20-006",
+        "d": "basic",
+        "p": "Từ nào chỉ món ăn sợi quen thuộc ở căn-tin?",
+        "o": [
+          "bananas",
+          "chips",
+          "nuts",
+          "noodles"
+        ],
+        "k": "D",
+        "e": "\"noodles\" là mì sợi.",
+        "s": "Food review"
+      },
+      {
+        "c": "TA1-B20-007",
+        "d": "application",
+        "p": "Chọn câu trả lời phù hợp nhất khi bạn hỏi: \"How many books?\" (Nhìn thấy 3 quyển sách trên bàn)",
+        "o": [
+          "Touch your book.",
+          "Blue book.",
+          "I like books.",
+          "Three books."
+        ],
+        "k": "D",
+        "e": "Câu hỏi \"How many...?\" trả lời bằng số đếm + danh từ số nhiều: \"Three books.\"",
+        "s": "Q&A match"
+      },
+      {
+        "c": "TA1-B20-008",
+        "d": "application",
+        "p": "Nhóm nào chứa 3 từ đều thuộc chủ đề BỘ PHẬN CƠ THỂ (Body parts)?",
+        "o": [
+          "face, fish, father",
+          "book, bike, bus",
+          "hat, hair, horse",
+          "head, hand, foot"
+        ],
+        "k": "D",
+        "e": "head (đầu), hand (bàn tay), foot (bàn chân) đều là bộ phận cơ thể.",
+        "s": "Topic classification"
+      },
+      {
+        "c": "TA1-B20-009",
+        "d": "application",
+        "p": "Nhóm nào chứa 3 từ đều viết ĐÚNG chính tả tiếng Anh?",
+        "o": [
+          "chicken, rainbow, pencil",
+          "bananaz, tuddy, fater",
+          "chiken, rainbou, pensil",
+          "apple, monky, gardan"
+        ],
+        "k": "A",
+        "e": "chicken, rainbow, pencil đều viết đúng chính tả 100%.",
+        "s": "Spelling accuracy"
+      },
+      {
+        "c": "TA1-B20-010",
+        "d": "application",
+        "p": "Hoàn thành đoạn hội thoại: A: \"Hi, I am Lucy. What is in your hand?\" — B: \"...\"",
+        "o": [
+          "I am a yellow bus.",
+          "It is a red apple.",
+          "Touch your face, please.",
+          "Bye, see you at the lake."
+        ],
+        "k": "B",
+        "e": "Trả lời câu hỏi vật đang cầm trên tay bằng \"It is a...\".",
+        "s": "Dialogue"
+      },
+      {
+        "c": "TA1-B20-011",
+        "d": "application",
+        "p": "Tìm từ LẠC LOÀI (odd one out) trong nhóm \"red, yellow, blue, kite\":",
+        "o": [
+          "kite",
+          "yellow",
+          "red",
+          "blue"
+        ],
+        "k": "A",
+        "e": "red, yellow, blue là màu sắc; kite (cánh diều) là đồ chơi.",
+        "s": "Odd one out"
+      },
+      {
+        "c": "TA1-B20-012",
+        "d": "application",
+        "p": "Sắp xếp thành câu đúng nghĩa: \"like / my / I / school / very much.\"",
+        "o": [
+          "Very much I my school like.",
+          "My school like I very much.",
+          "Like I very much my school.",
+          "I like my school very much."
+        ],
+        "k": "D",
+        "e": "Câu hoàn chỉnh: I + like + my school + very much.",
+        "s": "Sentence building"
+      },
+      {
+        "c": "TA1-B20-013",
+        "d": "advanced",
+        "p": "Đọc đoạn: \"Today is Sunday. Bill and his mother are in the park. He flies a blue kite. His mother sits by the lake and eats a mango.\" Người mẹ đang làm gì?",
+        "o": [
+          "Thả một cánh diều màu xanh",
+          "Ngồi bên hồ và ăn một quả xoài (sits by the lake and eats a mango)",
+          "Chạy đua với một chú ngựa",
+          "Đi mua nồi ở cửa hàng"
+        ],
+        "k": "B",
+        "e": "\"His mother sits by the lake and eats a mango\" mô tả đúng hành động của mẹ.",
+        "s": "Reading comprehension"
+      },
+      {
+        "c": "TA1-B20-014",
+        "d": "advanced",
+        "p": "Nhìn hình khối lập phương (cube) có 6 mặt vuông bằng nhau. Có đồ chơi lớp 1 nào thường có hình khối giống vậy?",
+        "o": [
+          "Rubik cube hoặc hộp xúc xắc (dice/box)",
+          "Quả chuối cong (banana)",
+          "Chiếc bánh xe đạp tròn (wheel)",
+          "Quả bóng tròn (ball)"
+        ],
+        "k": "A",
+        "e": "Khối lập phương (cube) có 6 mặt hình vuông giống khối rubik hay xúc xắc.",
+        "s": "Visual geometry",
+        "fig": {
+          "w": 300,
+          "h": 190,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  90,
+                  65
+                ],
+                [
+                  185,
+                  65
+                ],
+                [
+                  185,
+                  160
+                ],
+                [
+                  90,
+                  160
+                ]
+              ],
+              "fill": "#93c5fd",
+              "stroke": "#1d4ed8",
+              "w": 2.2
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  90,
+                  65
+                ],
+                [
+                  130,
+                  32
+                ],
+                [
+                  225,
+                  32
+                ],
+                [
+                  185,
+                  65
+                ]
+              ],
+              "fill": "#bfdbfe",
+              "stroke": "#1d4ed8",
+              "w": 2.2
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  185,
+                  65
+                ],
+                [
+                  225,
+                  32
+                ],
+                [
+                  225,
+                  127
+                ],
+                [
+                  185,
+                  160
+                ]
+              ],
+              "fill": "#60a5fa",
+              "stroke": "#1d4ed8",
+              "w": 2.2
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                178
+              ],
+              "s": "A 3D Cube",
+              "anchor": "middle",
+              "size": 13
+            }
+          ]
+        }
+      },
+      {
+        "c": "TA1-B20-015",
+        "d": "advanced",
+        "p": "Xếp 5 từ \"tiger, apple, monkey, kite, ball\" theo đúng thứ tự từ điển (A → Z):",
+        "o": [
+          "apple, kite, ball, tiger, monkey",
+          "ball, apple, kite, monkey, tiger",
+          "apple, ball, kite, monkey, tiger",
+          "apple, ball, monkey, kite, tiger"
+        ],
+        "k": "C",
+        "e": "Thứ tự chữ cái đầu: A (apple) -> B (ball) -> K (kite) -> M (monkey) -> T (tiger).",
+        "s": "Alphabetical mastery"
+      }
+    ]
+  }
+]

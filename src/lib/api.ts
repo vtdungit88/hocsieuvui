@@ -106,24 +106,73 @@ export async function getCurrentUser(): Promise<User | null> {
 
 // ---------- Curriculum (public read of published content) ----------
 const curriculumCache = new Map<string, Promise<Curriculum>>();
+const PAGE_SIZE = 1000;
+
+async function fetchPaged<T>(
+  label: string,
+  fetchPage: (from: number, to: number) => PromiseLike<{ data: unknown[] | null; error: { message: string } | null }>
+): Promise<T[]> {
+  const rows: T[] = [];
+  for (let from = 0; ; from += PAGE_SIZE) {
+    const { data, error } = await fetchPage(from, from + PAGE_SIZE - 1);
+    if (error) fail(label, error);
+    const batch = (data ?? []) as T[];
+    rows.push(...batch);
+    if (batch.length < PAGE_SIZE) break;
+  }
+  return rows;
+}
 
 export function fetchCurriculum(subject: SubjectKey = 'math', grade?: number): Promise<Curriculum> {
   const cacheKey = `${subject}:${grade ?? 'all'}`;
   const hit = curriculumCache.get(cacheKey);
   if (hit) return hit;
   const p = (async () => {
-    let chQuery = supabase.from('chapters').select('id,code,title,sequence_no').eq('status', 'published');
-    if (grade) chQuery = chQuery.eq('grade_id', grade);
-    const [ch, ls] = await Promise.all([
-      chQuery.order('sequence_no'),
-      supabase.from('lessons').select('id,chapter_id,code,title,sequence_no,learning_material').eq('status', 'published').order('sequence_no')
-    ]);
-    if (ch.error) fail('chapters', ch.error);
-    if (ls.error) fail('lessons', ls.error);
+    const allChapters = await fetchPaged<DbChapter>('chapters', (from, to) => {
+      let chQuery = supabase.from('chapters').select('id,code,title,sequence_no').eq('status', 'published');
+      if (grade) chQuery = chQuery.eq('grade_id', grade);
+      return chQuery.order('sequence_no').order('id').range(from, to);
+    });
+
     const wanted = Object.keys(CHAPTER_PREFIX).filter((k) => subject === 'all' || subject === k);
-    const chapters = (ch.data as DbChapter[]).filter((c) => wanted.some((k) => new RegExp(`^${CHAPTER_PREFIX[k]}\\d+-c`).test(c.code)));
-    const ids = new Set(chapters.map((c) => c.id));
-    return { chapters, lessons: (ls.data as DbLesson[]).filter((l) => ids.has(l.chapter_id)) };
+    const chapters = allChapters.filter((c) => wanted.some((k) => new RegExp(`^${CHAPTER_PREFIX[k]}\\d+-c`).test(c.code)));
+    if (chapters.length === 0) return { chapters: [], lessons: [] };
+
+    let lessons: DbLesson[];
+    if (subject !== 'all') {
+      const chapterIds = chapters.map((c) => c.id);
+      const chunks: string[][] = [];
+      for (let i = 0; i < chapterIds.length; i += 100) chunks.push(chapterIds.slice(i, i + 100));
+      const chunkResults = await Promise.all(
+        chunks.map((chunk) =>
+          fetchPaged<DbLesson>('lessons', (from, to) =>
+            supabase
+              .from('lessons')
+              .select('id,chapter_id,code,title,sequence_no,learning_material')
+              .eq('status', 'published')
+              .in('chapter_id', chunk)
+              .order('sequence_no')
+              .order('id')
+              .range(from, to)
+          )
+        )
+      );
+      lessons = chunkResults.flat();
+    } else {
+      const allLessons = await fetchPaged<DbLesson>('lessons', (from, to) =>
+        supabase
+          .from('lessons')
+          .select('id,chapter_id,code,title,sequence_no,learning_material')
+          .eq('status', 'published')
+          .order('sequence_no')
+          .order('id')
+          .range(from, to)
+      );
+      const ids = new Set(chapters.map((c) => c.id));
+      lessons = allLessons.filter((l) => ids.has(l.chapter_id));
+    }
+
+    return { chapters, lessons };
   })();
   curriculumCache.set(cacheKey, p);
   p.catch(() => curriculumCache.delete(cacheKey));

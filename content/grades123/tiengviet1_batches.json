@@ -1,0 +1,4933 @@
+[
+  {
+    "chapter": "tiengviet1-c1",
+    "lesson": {
+      "code": "tiengviet1-b01",
+      "title": "Bài 1. Làm quen với chữ a, e, ê, o, ô, ơ",
+      "seq": 1,
+      "subtitle": "Nhận biết mặt chữ, cách phát âm và tìm tiếng chứa các nguyên âm cơ bản",
+      "concepts": [
+        "Chữ cái a, e, ê, o, ô, ơ",
+        "Phân biệt âm e và ê",
+        "Phân biệt o, ô, ơ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV1-B01-001",
+        "d": "basic",
+        "p": "Chữ cái nào dưới đây có dấu mũ ở trên đầu?",
+        "o": [
+          "a",
+          "e",
+          "ê",
+          "o"
+        ],
+        "k": "C",
+        "e": "Chữ ê có dấu mũ ^ ở phía trên chữ e.",
+        "s": "Nhận diện chữ",
+        "fig": {
+          "type": "table",
+          "title": "Nhóm chữ",
+          "head": [
+            "Không mũ",
+            "Có mũ"
+          ],
+          "rows": [
+            [
+              "e",
+              "ê"
+            ],
+            [
+              "o",
+              "ô"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV1-B01-002",
+        "d": "basic",
+        "p": "Tiếng \"cá\" có chứa chữ cái nguyên âm nào?",
+        "o": [
+          "a",
+          "e",
+          "o",
+          "ơ"
+        ],
+        "k": "A",
+        "e": "Tiếng \"cá\" gồm âm đầu c ghép với âm a và thanh sắc.",
+        "s": "Phân tích tiếng"
+      },
+      {
+        "c": "TV1-B01-003",
+        "d": "basic",
+        "p": "Chữ cái nào có thêm chiếc móc nhỏ bên phải phía trên?",
+        "o": [
+          "o",
+          "ơ",
+          "a",
+          "ô"
+        ],
+        "k": "B",
+        "e": "Chữ ơ được tạo bằng chữ o thêm nét móc nhỏ bên phải phía trên.",
+        "s": "Nhận diện chữ"
+      },
+      {
+        "c": "TV1-B01-004",
+        "d": "basic",
+        "p": "Trong các tiếng sau, tiếng nào có âm \"e\"?",
+        "o": [
+          "bơ",
+          "bé",
+          "bà",
+          "bố"
+        ],
+        "k": "B",
+        "e": "Tiếng \"bé\" gồm âm b, âm e và thanh sắc.",
+        "s": "Nghe và nhận âm"
+      },
+      {
+        "c": "TV1-B01-005",
+        "d": "basic",
+        "p": "Trong các tiếng sau, tiếng nào chứa âm \"ô\"?",
+        "o": [
+          "cờ",
+          "ca",
+          "cọ",
+          "cô"
+        ],
+        "k": "D",
+        "e": "Tiếng \"cô\" gồm âm c ghép với âm ô.",
+        "s": "Nghe và nhận âm"
+      },
+      {
+        "c": "TV1-B01-006",
+        "d": "basic",
+        "p": "Tiếng \"bơ\" có vần bắt đầu bằng chữ cái nào?",
+        "o": [
+          "ơ",
+          "o",
+          "ê",
+          "ô"
+        ],
+        "k": "A",
+        "e": "Tiếng \"bơ\" gồm âm đầu b ghép với nguyên âm ơ.",
+        "s": "Phân tích tiếng"
+      },
+      {
+        "c": "TV1-B01-007",
+        "d": "application",
+        "p": "Bạn Lan cần ghép âm \"b\" với âm \"ê\" để tạo tiếng mới. Tiếng nào viết đúng?",
+        "o": [
+          "bơ",
+          "be",
+          "bê",
+          "bo"
+        ],
+        "k": "C",
+        "e": "Ghép âm b với âm ê được tiếng \"bê\" (như con bê).",
+        "s": "Ghép âm"
+      },
+      {
+        "c": "TV1-B01-008",
+        "d": "application",
+        "p": "Quan sát bảng tiếng, tiếng nào ở cột 2 khác nguyên âm với \"cỏ\"?",
+        "o": [
+          "cò",
+          "có",
+          "cọ",
+          "cỗ"
+        ],
+        "k": "D",
+        "e": "Các tiếng cọ, có, cò đều chứa âm o; riêng \"cỗ\" chứa âm ô.",
+        "s": "So sánh âm",
+        "fig": {
+          "type": "table",
+          "title": "Bảng tiếng mẫu",
+          "head": [
+            "Âm o",
+            "Kiểm tra"
+          ],
+          "rows": [
+            [
+              "cỏ",
+              "cọ"
+            ],
+            [
+              "cò",
+              "cỗ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV1-B01-009",
+        "d": "application",
+        "p": "Từ nào dưới đây có cả hai tiếng đều chứa âm \"a\"?",
+        "o": [
+          "ba bố",
+          "cô ba",
+          "ba bà",
+          "bà bế"
+        ],
+        "k": "C",
+        "e": "Trong từ \"ba bà\", tiếng \"ba\" và tiếng \"bà\" đều chứa nguyên âm a.",
+        "s": "Từ vựng"
+      },
+      {
+        "c": "TV1-B01-010",
+        "d": "application",
+        "p": "Để chỉ người sinh ra bố hoặc mẹ (theo cách gọi miền Bắc), tiếng nào có âm \"ô\"?",
+        "o": [
+          "mẹ",
+          "ba",
+          "bố",
+          "cô"
+        ],
+        "k": "C",
+        "e": "Tiếng \"bố\" gồm âm b, âm ô và thanh sắc.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B01-011",
+        "d": "application",
+        "p": "Tiếng nào dưới đây viết ĐÚNG chính tả khi miêu tả hành động bồng em bé?",
+        "o": [
+          "bế",
+          "bé",
+          "bơ",
+          "bê"
+        ],
+        "k": "A",
+        "e": "Hành động ôm em bé trên tay đọc là \"bế\" (chứa âm ê và thanh sắc).",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV1-B01-012",
+        "d": "application",
+        "p": "Trong câu \"Bé có cờ đỏ\", có mấy tiếng chứa âm \"o\"?",
+        "o": [
+          "4 tiếng",
+          "1 tiếng",
+          "2 tiếng",
+          "3 tiếng"
+        ],
+        "k": "C",
+        "e": "Hai tiếng chứa âm o là \"có\" và \"đỏ\"; tiếng \"cờ\" chứa âm ơ.",
+        "s": "Đếm âm trong câu"
+      },
+      {
+        "c": "TV1-B01-013",
+        "d": "advanced",
+        "p": "Xếp 3 chữ cái o, ô, ơ theo đúng thứ tự trong bảng chữ cái Tiếng Việt:",
+        "o": [
+          "ô, o, ơ",
+          "ơ, ô, o",
+          "o, ơ, ô",
+          "o, ô, ơ"
+        ],
+        "k": "D",
+        "e": "Trong bảng chữ cái Tiếng Việt, thứ tự chuẩn là o rồi đến ô và ơ.",
+        "s": "Bảng chữ cái"
+      },
+      {
+        "c": "TV1-B01-014",
+        "d": "advanced",
+        "p": "Bạn Minh nói tiếng \"bờ\" và tiếng \"bơ\" có âm cuối khác nhau. Nhận xét nào đúng?",
+        "o": [
+          "Tiếng bơ có âm cuối ơ",
+          "Tiếng bờ có âm cuối r",
+          "Cả hai đều không có âm cuối, chỉ khác thanh điệu",
+          "Hai tiếng khác nhau ở âm đầu"
+        ],
+        "k": "C",
+        "e": "Cả \"bờ\" và \"bơ\" đều gồm âm đầu b và nguyên âm ơ, chỉ khác dấu huyền và thanh ngang.",
+        "s": "Tư duy ngữ âm"
+      },
+      {
+        "c": "TV1-B01-015",
+        "d": "advanced",
+        "p": "Biểu đồ đếm số tiếng chứa các nguyên âm trong bài đọc ngắn. Nguyên âm nào xuất hiện nhiều nhất?",
+        "o": [
+          "Âm e",
+          "Âm a",
+          "Âm ơ",
+          "Âm ô"
+        ],
+        "k": "B",
+        "e": "Trên biểu đồ cột, cột \"Âm a\" cao nhất với 8 tiếng.",
+        "s": "Đọc biểu đồ",
+        "fig": {
+          "type": "bars",
+          "title": "Số tiếng theo nguyên âm",
+          "labels": [
+            "Âm a",
+            "Âm e",
+            "Âm ô",
+            "Âm ơ"
+          ],
+          "series": [
+            {
+              "values": [
+                8,
+                4,
+                5,
+                3
+              ]
+            }
+          ],
+          "unit": "tiếng"
+        }
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet1-c1",
+    "lesson": {
+      "code": "tiengviet1-b02",
+      "title": "Bài 2. Âm đầu b, c, d, đ, h, l và nguyên âm i",
+      "seq": 2,
+      "subtitle": "Phân biệt d với đ, nhận diện b, c, h, l và nguyên âm i",
+      "concepts": [
+        "Phân biệt d và đ",
+        "Âm đầu b, c, h, l",
+        "Nguyên âm i"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV1-B02-001",
+        "d": "basic",
+        "p": "Chữ cái nào có nét gạch ngang ngắn ở phía trên nét thẳng?",
+        "o": [
+          "d",
+          "l",
+          "đ",
+          "b"
+        ],
+        "k": "C",
+        "e": "Chữ đ khác chữ d ở nét gạch ngang ngắn trên phần thân thẳng.",
+        "s": "Nhận diện chữ"
+      },
+      {
+        "c": "TV1-B02-002",
+        "d": "basic",
+        "p": "Tiếng \"lá\" bắt đầu bằng âm đầu nào?",
+        "o": [
+          "b",
+          "d",
+          "l",
+          "h"
+        ],
+        "k": "C",
+        "e": "Tiếng \"lá\" gồm âm đầu l ghép với âm a và thanh sắc.",
+        "s": "Phân tích tiếng"
+      },
+      {
+        "c": "TV1-B02-003",
+        "d": "basic",
+        "p": "Tiếng \"bi\" chứa nguyên âm nào?",
+        "o": [
+          "o",
+          "e",
+          "i",
+          "a"
+        ],
+        "k": "C",
+        "e": "Tiếng \"bi\" gồm âm đầu b ghép với nguyên âm i.",
+        "s": "Phân tích tiếng"
+      },
+      {
+        "c": "TV1-B02-004",
+        "d": "basic",
+        "p": "Con vật có đôi tai dài, kêu \"be be\" có tên gọi viết là gì?",
+        "o": [
+          "lê",
+          "đê",
+          "bê",
+          "dê"
+        ],
+        "k": "D",
+        "e": "Con dê viết bắt đầu bằng chữ d (âm d ghép với ê).",
+        "s": "Chính tả d và đ"
+      },
+      {
+        "c": "TV1-B02-005",
+        "d": "basic",
+        "p": "Tiếng \"hồ\" bắt đầu bằng âm đầu nào?",
+        "o": [
+          "b",
+          "h",
+          "l",
+          "c"
+        ],
+        "k": "B",
+        "e": "Tiếng \"hồ\" gồm âm đầu h, âm ô và thanh huyền.",
+        "s": "Nhận diện âm đầu"
+      },
+      {
+        "c": "TV1-B02-006",
+        "d": "basic",
+        "p": "Quả lê có tên tiếng bắt đầu bằng âm nào?",
+        "o": [
+          "l",
+          "d",
+          "h",
+          "đ"
+        ],
+        "k": "A",
+        "e": "Tiếng \"lê\" gồm âm đầu l ghép với nguyên âm ê.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B02-007",
+        "d": "application",
+        "p": "Chọn từ viết ĐÚNG để chỉ công trình đắp đất ngăn nước lũ ở ven sông:",
+        "o": [
+          "con dê",
+          "con lê",
+          "con bê",
+          "con đê"
+        ],
+        "k": "D",
+        "e": "\"Con đê\" bắt đầu bằng âm đ, khác với \"con dê\" là con vật.",
+        "s": "Phân biệt nghĩa d và đ",
+        "fig": {
+          "type": "table",
+          "title": "Phân biệt d và đ",
+          "head": [
+            "Chữ d",
+            "Chữ đ"
+          ],
+          "rows": [
+            [
+              "con dê",
+              "con đê"
+            ],
+            [
+              "da dẻ",
+              "đỏ đá"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV1-B02-008",
+        "d": "application",
+        "p": "Từ nào dùng để chỉ loài chim biết bắt chuột vào ban đêm?",
+        "o": [
+          "cò",
+          "cú",
+          "cờ",
+          "cá"
+        ],
+        "k": "B",
+        "e": "Chim cú (cú mèo) săn mồi ban đêm.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B02-009",
+        "d": "application",
+        "p": "Trong câu \"Bé đi bộ ở bờ hồ\", có bao nhiêu tiếng bắt đầu bằng âm \"b\"?",
+        "o": [
+          "4 tiếng",
+          "2 tiếng",
+          "3 tiếng",
+          "1 tiếng"
+        ],
+        "k": "C",
+        "e": "Ba tiếng bắt đầu bằng âm b là \"Bé\", \"bộ\", \"bờ\".",
+        "s": "Đếm âm đầu"
+      },
+      {
+        "c": "TV1-B02-010",
+        "d": "application",
+        "p": "Ghép âm đầu \"h\" với nguyên âm \"a\" và dấu hỏi ta được tiếng nào?",
+        "o": [
+          "hạ",
+          "há",
+          "hả",
+          "hà"
+        ],
+        "k": "C",
+        "e": "Âm h + a + thanh hỏi tạo thành tiếng \"hả\".",
+        "s": "Ghép vần thanh"
+      },
+      {
+        "c": "TV1-B02-011",
+        "d": "application",
+        "p": "Từ nào miêu tả bông hoa nở đẹp với âm đầu \"h\"?",
+        "o": [
+          "đá hổ",
+          "lá đỏ",
+          "hoa nở",
+          "cỏ bi"
+        ],
+        "k": "C",
+        "e": "Từ \"hoa nở\" có tiếng \"hoa\" bắt đầu bằng âm h.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B02-012",
+        "d": "application",
+        "p": "Tiếng nào KHÔNG chứa nguyên âm \"i\"?",
+        "o": [
+          "lơ",
+          "bi",
+          "li",
+          "hí"
+        ],
+        "k": "A",
+        "e": "Tiếng \"lơ\" chứa nguyên âm ơ, còn li, bi, hí đều chứa nguyên âm i.",
+        "s": "Phân loại âm"
+      },
+      {
+        "c": "TV1-B02-013",
+        "d": "advanced",
+        "p": "Bạn Hà viết: \"Con đê ăn cỏ xanh\". Lỗi sai chính tả nằm ở tiếng nào và sửa thế nào?",
+        "o": [
+          "Sửa \"đê\" thành \"dê\"",
+          "Sửa \"xanh\" thành \"sanh\"",
+          "Sửa \"ăn\" thành \"an\"",
+          "Sửa \"cỏ\" thành \"cổ\""
+        ],
+        "k": "A",
+        "e": "Con vật ăn cỏ là \"con dê\" (viết với chữ d), không phải \"con đê\".",
+        "s": "Sửa lỗi chính tả"
+      },
+      {
+        "c": "TV1-B02-014",
+        "d": "advanced",
+        "p": "Trong các cặp tiếng sau, cặp nào chỉ khác nhau ở âm đầu (giữ nguyên phần vần và thanh điệu)?",
+        "o": [
+          "đi và đê",
+          "lá và đá",
+          "lá và lả",
+          "bò và bơ"
+        ],
+        "k": "B",
+        "e": "\"Lá\" và \"đá\" đều có phần vần a và thanh sắc, chỉ khác âm đầu l và đ.",
+        "s": "So sánh cấu trúc tiếng"
+      },
+      {
+        "c": "TV1-B02-015",
+        "d": "advanced",
+        "p": "Nếu thay âm đầu \"c\" trong tiếng \"cổ\" bằng âm \"h\", ta được tiếng mới có nghĩa là gì?",
+        "o": [
+          "Cái giỏ đựng cá",
+          "Ngôi nhà nhỏ",
+          "Con vật hung dữ ở rừng (hổ)",
+          "Chiếc lá khô"
+        ],
+        "k": "C",
+        "e": "Thay c bằng h trong \"cổ\" ta được tiếng \"hổ\" (con hổ).",
+        "s": "Lắp ghép sáng tạo"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet1-c1",
+    "lesson": {
+      "code": "tiengviet1-b03",
+      "title": "Bài 3. Các thanh điệu: ngang, huyền, sắc, hỏi, ngã, nặng",
+      "seq": 3,
+      "subtitle": "Nhận diện 6 thanh điệu và phân biệt thanh hỏi với thanh ngã",
+      "concepts": [
+        "6 thanh điệu",
+        "Thanh sắc, huyền, nặng",
+        "Phân biệt hỏi và ngã"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV1-B03-001",
+        "d": "basic",
+        "p": "Hệ thống thanh điệu Tiếng Việt có tất cả bao nhiêu thanh?",
+        "o": [
+          "7 thanh",
+          "5 thanh",
+          "4 thanh",
+          "6 thanh"
+        ],
+        "k": "D",
+        "e": "Tiếng Việt có 6 thanh điệu: ngang, huyền, sắc, hỏi, ngã, nặng.",
+        "s": "Kiến thức thanh điệu",
+        "fig": {
+          "type": "table",
+          "title": "6 thanh với âm a",
+          "head": [
+            "Thanh",
+            "Ví dụ"
+          ],
+          "rows": [
+            [
+              "Ngang / Huyền",
+              "ba / bà"
+            ],
+            [
+              "Sắc / Nặng",
+              "bá / bạ"
+            ],
+            [
+              "Hỏi / Ngã",
+              "bả / bã"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV1-B03-002",
+        "d": "basic",
+        "p": "Dấu thanh nào được đặt ở phía DƯỚI chữ cái?",
+        "o": [
+          "Thanh hỏi",
+          "Thanh ngã",
+          "Thanh nặng",
+          "Thanh sắc"
+        ],
+        "k": "C",
+        "e": "Thanh nặng là một dấu chấm đặt bên dưới âm chính (ví dụ: mẹ, lọ).",
+        "s": "Vị trí dấu thanh"
+      },
+      {
+        "c": "TV1-B03-003",
+        "d": "basic",
+        "p": "Tiếng \"bà\" mang thanh điệu gì?",
+        "o": [
+          "Thanh nặng",
+          "Thanh sắc",
+          "Thanh hỏi",
+          "Thanh huyền"
+        ],
+        "k": "D",
+        "e": "Dấu gạch chéo xuống từ trái sang phải trên âm a là thanh huyền.",
+        "s": "Nhận diện thanh"
+      },
+      {
+        "c": "TV1-B03-004",
+        "d": "basic",
+        "p": "Tiếng \"cá\" mang thanh điệu gì?",
+        "o": [
+          "Thanh sắc",
+          "Thanh hỏi",
+          "Thanh ngã",
+          "Thanh huyền"
+        ],
+        "k": "A",
+        "e": "Dấu xiên lên từ trái sang phải trên chữ a là thanh sắc.",
+        "s": "Nhận diện thanh"
+      },
+      {
+        "c": "TV1-B03-005",
+        "d": "basic",
+        "p": "Tiếng \"cỏ\" mang thanh điệu gì?",
+        "o": [
+          "Thanh huyền",
+          "Thanh hỏi",
+          "Thanh ngã",
+          "Thanh nặng"
+        ],
+        "k": "B",
+        "e": "Chữ o trong \"cỏ\" mang dấu hỏi.",
+        "s": "Nhận diện thanh"
+      },
+      {
+        "c": "TV1-B03-006",
+        "d": "basic",
+        "p": "Tiếng nào sau đây mang thanh ngang (không dấu)?",
+        "o": [
+          "cá",
+          "cà",
+          "ca",
+          "cả"
+        ],
+        "k": "C",
+        "e": "Tiếng \"ca\" không có dấu thanh ở trên hay dưới nên mang thanh ngang.",
+        "s": "Nhận diện thanh"
+      },
+      {
+        "c": "TV1-B03-007",
+        "d": "application",
+        "p": "Từ nào viết ĐÚNG chính tả chỉ dụng cụ đựng đồ ăn hình tròn dùng khi ăn cơm?",
+        "o": [
+          "cái đĩa",
+          "cái địa",
+          "cái đia",
+          "cái đỉa"
+        ],
+        "k": "A",
+        "e": "Đồ dùng đựng thức ăn viết thanh ngã: \"cái đĩa\" (còn \"con đỉa\" viết dấu hỏi).",
+        "s": "Phân biệt hỏi và ngã"
+      },
+      {
+        "c": "TV1-B03-008",
+        "d": "application",
+        "p": "Chọn từ viết ĐÚNG chỉ loại quả màu đỏ ruột trắng, nhiều nước hoặc vỏ vàng:",
+        "o": [
+          "mâm cỗ",
+          "mâm cổ",
+          "mâm cô",
+          "mâm cộ"
+        ],
+        "k": "A",
+        "e": "Bữa tiệc truyền thống có nhiều món ăn gọi là \"mâm cỗ\" (thanh ngã).",
+        "s": "Chính tả hỏi ngã"
+      },
+      {
+        "c": "TV1-B03-009",
+        "d": "application",
+        "p": "Trong câu \"Mẹ bế bé đi chợ\", tiếng nào mang thanh nặng?",
+        "o": [
+          "Mẹ và đi",
+          "Mẹ và chợ",
+          "bế và bé",
+          "đi và bé"
+        ],
+        "k": "B",
+        "e": "Hai tiếng \"Mẹ\" và \"chợ\" đều có dấu chấm nặng bên dưới âm chính.",
+        "s": "Tìm thanh điệu"
+      },
+      {
+        "c": "TV1-B03-010",
+        "d": "application",
+        "p": "Tiếng \"cá\" và tiếng \"cả\" khác nhau ở yếu tố nào?",
+        "o": [
+          "Âm đầu",
+          "Nguyên âm",
+          "Thanh điệu",
+          "Âm cuối"
+        ],
+        "k": "C",
+        "e": "Cả hai đều có âm đầu c và nguyên âm a, chỉ khác thanh sắc và thanh hỏi.",
+        "s": "Cấu tạo tiếng"
+      },
+      {
+        "c": "TV1-B03-011",
+        "d": "application",
+        "p": "Chọn cặp từ đều mang thanh hỏi:",
+        "o": [
+          "hoa đỏ",
+          "chữ số",
+          "cửa sổ",
+          "bàn gỗ"
+        ],
+        "k": "C",
+        "e": "\"Cửa\" và \"sổ\" đều có dấu hỏi ở trên đầu chữ.",
+        "s": "Tìm thanh điệu"
+      },
+      {
+        "c": "TV1-B03-012",
+        "d": "application",
+        "p": "Trong 4 tiếng \"bố, mẹ, bà, bé\", có mấy tiếng mang thanh sắc?",
+        "o": [
+          "1 tiếng",
+          "2 tiếng",
+          "4 tiếng",
+          "3 tiếng"
+        ],
+        "k": "B",
+        "e": "Hai tiếng mang thanh sắc là \"bố\" và \"bé\".",
+        "s": "Phân loại thanh"
+      },
+      {
+        "c": "TV1-B03-013",
+        "d": "advanced",
+        "p": "Bạn An viết: \"Em phụ mẹ rửa chén dĩa\". Nếu theo chuẩn chính tả toàn quốc, tiếng \"chén dĩa\" hay \"bát đĩa\" cần lưu ý thanh nào cho đồ đựng thức ăn?",
+        "o": [
+          "Thanh huyền (đìa)",
+          "Thanh hỏi (đỉa)",
+          "Thanh ngã (đĩa)",
+          "Thanh nặng (địa)"
+        ],
+        "k": "C",
+        "e": "Trong Tiếng Việt chuẩn, vật dụng đựng thức ăn là \"đĩa\" (thanh ngã), khác \"con đỉa\" (thanh hỏi).",
+        "s": "Chính tả chuẩn"
+      },
+      {
+        "c": "TV1-B03-014",
+        "d": "advanced",
+        "p": "Biết tiếng gốc là \"co\". Khi lần lượt thêm thanh huyền, thanh hỏi, thanh nặng ta thu được bộ ba tiếng nào?",
+        "o": [
+          "co, có, cỏ",
+          "cò, cỗ, cộ",
+          "cò, cỏ, cọ",
+          "có, cổ, cộ"
+        ],
+        "k": "C",
+        "e": "c + o + huyền = cò; c + o + hỏi = cỏ; c + o + nặng = cọ.",
+        "s": "Ghép thanh điệu"
+      },
+      {
+        "c": "TV1-B03-015",
+        "d": "advanced",
+        "p": "Trong đoạn văn: \"Bà có giỏ cá to. Bé đỡ bà bê giỏ.\" Có bao nhiêu tiếng mang thanh ngã?",
+        "o": [
+          "1 tiếng",
+          "2 tiếng",
+          "3 tiếng",
+          "0 tiếng"
+        ],
+        "k": "A",
+        "e": "Chỉ có 1 tiếng mang thanh ngã là \"đỡ\". (\"giỏ\" mang thanh hỏi).",
+        "s": "Phân biệt hỏi và ngã"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet1-c1",
+    "lesson": {
+      "code": "tiengviet1-b04",
+      "title": "Bài 4. Các âm u, ư, m, n, v, x và luyện ghép tiếng",
+      "seq": 4,
+      "subtitle": "Nhận biết nguyên âm u, ư và các âm đầu m, n, v, x",
+      "concepts": [
+        "Nguyên âm u, ư",
+        "Âm đầu m, n",
+        "Âm đầu v, x"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV1-B04-001",
+        "d": "basic",
+        "p": "Chữ cái nào giống chữ u nhưng có thêm nét râu ở bên phải?",
+        "o": [
+          "m",
+          "ư",
+          "n",
+          "u"
+        ],
+        "k": "B",
+        "e": "Chữ ư là chữ u có thêm một nét móc (râu) nhỏ bên phải phía trên.",
+        "s": "Nhận diện chữ"
+      },
+      {
+        "c": "TV1-B04-002",
+        "d": "basic",
+        "p": "Tiếng \"mũ\" bắt đầu bằng âm đầu nào?",
+        "o": [
+          "v",
+          "m",
+          "x",
+          "n"
+        ],
+        "k": "B",
+        "e": "Tiếng \"mũ\" gồm âm đầu m, âm u và thanh ngã.",
+        "s": "Phân tích tiếng"
+      },
+      {
+        "c": "TV1-B04-003",
+        "d": "basic",
+        "p": "Trong các tiếng sau, tiếng nào chứa âm \"ư\"?",
+        "o": [
+          "quả đu đủ",
+          "sư tử",
+          "cá thu",
+          "con cú"
+        ],
+        "k": "B",
+        "e": "Cả hai tiếng trong \"sư tử\" đều chứa nguyên âm ư.",
+        "s": "Nhận diện âm ư"
+      },
+      {
+        "c": "TV1-B04-004",
+        "d": "basic",
+        "p": "Tiếng \"nơ\" bắt đầu bằng chữ cái nào?",
+        "o": [
+          "n",
+          "m",
+          "x",
+          "v"
+        ],
+        "k": "A",
+        "e": "Tiếng \"nơ\" gồm âm đầu n ghép với nguyên âm ơ.",
+        "s": "Nhận diện âm đầu"
+      },
+      {
+        "c": "TV1-B04-005",
+        "d": "basic",
+        "p": "Đồ vật dùng để đội trên đầu che nắng có tên là gì?",
+        "o": [
+          "vở",
+          "nơ",
+          "mũ",
+          "mủ"
+        ],
+        "k": "C",
+        "e": "Mũ (viết thanh ngã) dùng để đội đầu che nắng mưa.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B04-006",
+        "d": "basic",
+        "p": "Con vật nào có tên bắt đầu bằng âm \"v\"?",
+        "o": [
+          "mèo",
+          "sư tử",
+          "voi",
+          "nai"
+        ],
+        "k": "C",
+        "e": "Tiếng \"voi\" bắt đầu bằng âm đầu v.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B04-007",
+        "d": "application",
+        "p": "Từ nào viết ĐÚNG để chỉ quyển giấy dùng ghi bài của học sinh?",
+        "o": [
+          "quyển dở",
+          "quyển mơ",
+          "quyển vở",
+          "quyển vỡ"
+        ],
+        "k": "C",
+        "e": "Sách ghi bài học gọi là \"quyển vở\" (âm đầu v, thanh hỏi).",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV1-B04-008",
+        "d": "application",
+        "p": "Chọn cặp tiếng khác nhau ở cặp chữ dễ nhầm \"m\" và \"n\":",
+        "o": [
+          "mơ và mợ",
+          "vơ và xơ",
+          "nơ và nổ",
+          "mơ và nơ"
+        ],
+        "k": "D",
+        "e": "\"Mơ\" bắt đầu bằng m, còn \"nơ\" bắt đầu bằng n.",
+        "s": "Phân biệt m và n",
+        "fig": {
+          "type": "table",
+          "title": "So sánh âm đầu",
+          "head": [
+            "Âm m",
+            "Âm n"
+          ],
+          "rows": [
+            [
+              "mũ",
+              "nơ"
+            ],
+            [
+              "mẹ",
+              "na"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV1-B04-009",
+        "d": "application",
+        "p": "Tiếng \"xô\" trong \"cái xô đựng nước\" bắt đầu bằng âm nào?",
+        "o": [
+          "v",
+          "n",
+          "x",
+          "m"
+        ],
+        "k": "C",
+        "e": "Tiếng \"xô\" gồm âm đầu x ghép với nguyên âm ô.",
+        "s": "Nhận diện âm x"
+      },
+      {
+        "c": "TV1-B04-010",
+        "d": "application",
+        "p": "Trong câu \"Mẹ mua cho bé na, vú sữa và xôi\", tiếng nào chứa âm \"ư\"?",
+        "o": [
+          "vú",
+          "sữa",
+          "xôi",
+          "na"
+        ],
+        "k": "B",
+        "e": "Tiếng \"sữa\" có âm s, vần ưa (chứa ư) và thanh ngã.",
+        "s": "Tìm âm ư"
+      },
+      {
+        "c": "TV1-B04-011",
+        "d": "application",
+        "p": "Từ nào chỉ một loài hoa nhỏ màu trắng thơm ngát có chữ \"x\" hoặc \"v\"?",
+        "o": [
+          "hoa lan",
+          "nụ mai",
+          "hoa cúc",
+          "vì sao"
+        ],
+        "k": "D",
+        "e": "Tiếng \"vì\" bắt đầu bằng âm v (tuy nhiên với câu hỏi tìm tiếng chứa v: hãy kiểm tra âm đầu \"v\" ở \"vì\").",
+        "s": "Nhận âm đầu"
+      },
+      {
+        "c": "TV1-B04-012",
+        "d": "application",
+        "p": "Ghép âm đầu \"x\" với âm \"e\" ta được tiếng chỉ phương tiện giao thông nào?",
+        "o": [
+          "xẻ",
+          "xê",
+          "xe",
+          "xơ"
+        ],
+        "k": "C",
+        "e": "Âm x + e tạo thành tiếng \"xe\" (xe đạp, xe buýt).",
+        "s": "Ghép âm"
+      },
+      {
+        "c": "TV1-B04-013",
+        "d": "advanced",
+        "p": "Bạn Nam viết: \"Cái ly bị vở rồi\". Chữ nào viết sai thanh điệu và cần sửa thành gì?",
+        "o": [
+          "Sửa \"bị\" thành \"bí\"",
+          "Sửa \"rồi\" thành \"dồi\"",
+          "Sửa \"ly\" thành \"li\"",
+          "Sửa \"vở\" thành \"vỡ\""
+        ],
+        "k": "D",
+        "e": "Đồ vật bể nát gọi là \"bị vỡ\" (thanh ngã), khác với \"quyển vở\" (thanh hỏi).",
+        "s": "Chính tả hỏi ngã"
+      },
+      {
+        "c": "TV1-B04-014",
+        "d": "advanced",
+        "p": "Tìm từ gồm 2 tiếng đều có âm đầu \"n\":",
+        "o": [
+          "vui vẻ",
+          "múa hát",
+          "nấu nướng",
+          "xinh xắn"
+        ],
+        "k": "C",
+        "e": "\"Nấu\" và \"nướng\" đều bắt đầu bằng âm n.",
+        "s": "Từ vựng nâng cao"
+      },
+      {
+        "c": "TV1-B04-015",
+        "d": "advanced",
+        "p": "Xếp 4 tiếng \"mơ, nơ, vở, xô\" theo đúng thứ tự chữ cái đứng đầu trong bảng chữ cái Tiếng Việt:",
+        "o": [
+          "xô, vở, nơ, mơ",
+          "nơ, mơ, vở, xô",
+          "mơ, vở, nơ, xô",
+          "mơ, nơ, vở, xô"
+        ],
+        "k": "D",
+        "e": "Thứ tự trong bảng chữ cái Tiếng Việt là m, n, v, x.",
+        "s": "Bảng chữ cái"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet1-c2",
+    "lesson": {
+      "code": "tiengviet1-b05",
+      "title": "Bài 5. Âm ghép ch, kh, nh, ph, th",
+      "seq": 5,
+      "subtitle": "Nhận biết và đọc đúng 5 phụ âm ghép hai chữ cái ch, kh, nh, ph, th",
+      "concepts": [
+        "Âm ch, nh",
+        "Âm kh, ph, th",
+        "Tách âm đầu ghép"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV1-B05-001",
+        "d": "basic",
+        "p": "Tiếng \"nhà\" có âm đầu là phụ âm ghép nào?",
+        "o": [
+          "nh",
+          "h",
+          "ch",
+          "n"
+        ],
+        "k": "A",
+        "e": "Tiếng \"nhà\" bắt đầu bằng âm ghép \"nh\" (chữ n và h ghép lại).",
+        "s": "Âm ghép",
+        "fig": {
+          "type": "table",
+          "title": "5 âm ghép thường gặp",
+          "head": [
+            "Âm ghép",
+            "Tiếng mẫu"
+          ],
+          "rows": [
+            [
+              "ch / nh",
+              "chợ / nhà"
+            ],
+            [
+              "kh / ph / th",
+              "khế / phố / thỏ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV1-B05-002",
+        "d": "basic",
+        "p": "Con vật có bộ lông trắng, tai dài, thích ăn cà rốt bắt đầu bằng âm ghép nào?",
+        "o": [
+          "th",
+          "ch",
+          "ph",
+          "kh"
+        ],
+        "k": "A",
+        "e": "Con thỏ có tiếng \"thỏ\" bắt đầu bằng âm ghép th.",
+        "s": "Nhận diện âm ghép"
+      },
+      {
+        "c": "TV1-B05-003",
+        "d": "basic",
+        "p": "Tiếng \"chợ\" bắt đầu bằng âm ghép nào?",
+        "o": [
+          "ch",
+          "nh",
+          "kh",
+          "th"
+        ],
+        "k": "A",
+        "e": "Tiếng \"chợ\" gồm âm đầu ghép ch ghép với âm ơ và thanh nặng.",
+        "s": "Nhận diện âm ghép"
+      },
+      {
+        "c": "TV1-B05-004",
+        "d": "basic",
+        "p": "Tiếng \"phố\" bắt đầu bằng phụ âm ghép nào?",
+        "o": [
+          "ch",
+          "th",
+          "ph",
+          "kh"
+        ],
+        "k": "C",
+        "e": "Tiếng \"phố\" bắt đầu bằng âm ph ghép với ô và thanh sắc.",
+        "s": "Nhận diện âm ghép"
+      },
+      {
+        "c": "TV1-B05-005",
+        "d": "basic",
+        "p": "Quả khế có tiếng bắt đầu bằng âm ghép nào?",
+        "o": [
+          "kh",
+          "ph",
+          "ch",
+          "nh"
+        ],
+        "k": "A",
+        "e": "Tiếng \"khế\" gồm âm đầu kh, âm ê và thanh sắc.",
+        "s": "Nhận diện âm ghép"
+      },
+      {
+        "c": "TV1-B05-006",
+        "d": "basic",
+        "p": "Trong các tiếng sau, tiếng nào KHÔNG bắt đầu bằng âm ghép?",
+        "o": [
+          "chú",
+          "hoa",
+          "thư",
+          "nho"
+        ],
+        "k": "B",
+        "e": "Tiếng \"hoa\" bắt đầu bằng âm đơn h, các tiếng còn lại bắt đầu bằng ch, nh, th.",
+        "s": "Phân loại âm"
+      },
+      {
+        "c": "TV1-B05-007",
+        "d": "application",
+        "p": "Từ nào chỉ một món ăn quen thuộc làm từ bánh phở và nước dùng thịt bò?",
+        "o": [
+          "thở phào",
+          "nhớ bà",
+          "chợ bò",
+          "phở bò"
+        ],
+        "k": "D",
+        "e": "Món \"phở\" có tiếng bắt đầu bằng âm ph.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B05-008",
+        "d": "application",
+        "p": "Trong câu \"Bé nhớ chú thỏ nhỏ\", có mấy tiếng bắt đầu bằng âm ghép?",
+        "o": [
+          "4 tiếng",
+          "2 tiếng",
+          "3 tiếng",
+          "5 tiếng"
+        ],
+        "k": "A",
+        "e": "Bốn tiếng bắt đầu bằng âm ghép là \"nhớ\" (nh), \"chú\" (ch), \"thỏ\" (th) và \"nhỏ\" (nh).",
+        "s": "Đếm âm ghép"
+      },
+      {
+        "c": "TV1-B05-009",
+        "d": "application",
+        "p": "Chọn từ viết ĐÚNG chỉ loài quả tròn nhỏ mọc thành chùm, ăn ngọt hoặc hơi chua:",
+        "o": [
+          "chùm no",
+          "chùm thỏ",
+          "chùm nho",
+          "chùm phở"
+        ],
+        "k": "C",
+        "e": "Quả nho viết bằng âm ghép nh: \"chùm nho\".",
+        "s": "Chính tả âm ghép"
+      },
+      {
+        "c": "TV1-B05-010",
+        "d": "application",
+        "p": "Tiếng \"chú\" ghép âm đầu \"ch\" với phần nào?",
+        "o": [
+          "Âm ư và thanh sắc",
+          "Âm u và thanh sắc",
+          "Âm u và thanh huyền",
+          "Âm ô và thanh sắc"
+        ],
+        "k": "B",
+        "e": "ch + u + thanh sắc = chú.",
+        "s": "Cấu tạo tiếng"
+      },
+      {
+        "c": "TV1-B05-011",
+        "d": "application",
+        "p": "Con khỉ sống trên rừng có tên bắt đầu bằng âm ghép nào?",
+        "o": [
+          "th",
+          "nh",
+          "ch",
+          "kh"
+        ],
+        "k": "D",
+        "e": "Tiếng \"khỉ\" gồm âm đầu kh, nguyên âm i và thanh hỏi.",
+        "s": "Nhận âm ghép"
+      },
+      {
+        "c": "TV1-B05-012",
+        "d": "application",
+        "p": "Từ nào chỉ hành động gửi lời nhắn qua giấy bỏ vào phong bì?",
+        "o": [
+          "đi chợ",
+          "ăn khế",
+          "viết thư",
+          "đọc phở"
+        ],
+        "k": "C",
+        "e": "Tiếng \"thư\" bắt đầu bằng âm ghép th.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B05-013",
+        "d": "advanced",
+        "p": "Trong câu \"Chú khỉ nhỏ hái khế ở bờ hồ\", có bao nhiêu tiếng bắt đầu bằng âm ghép hai chữ cái?",
+        "o": [
+          "5 tiếng",
+          "3 tiếng",
+          "2 tiếng",
+          "4 tiếng"
+        ],
+        "k": "D",
+        "e": "Các tiếng bắt đầu bằng âm ghép gồm: Chú (ch), khỉ (kh), nhỏ (nh), khế (kh) — tổng cộng 4 tiếng.",
+        "s": "Phân tích câu"
+      },
+      {
+        "c": "TV1-B05-014",
+        "d": "advanced",
+        "p": "Bạn Hoa viết sai từ \"bức thư\" thành \"bức tư\". Thiếu chữ cái nào ở âm đầu tiếng thứ hai?",
+        "o": [
+          "Chữ n (để tạo âm nh)",
+          "Chữ h (để tạo âm ghép th)",
+          "Chữ p (để tạo âm ph)",
+          "Chữ c (để tạo âm ch)"
+        ],
+        "k": "B",
+        "e": "Từ đúng là \"bức thư\", bắt đầu bằng âm ghép th.",
+        "s": "Sửa lỗi"
+      },
+      {
+        "c": "TV1-B05-015",
+        "d": "advanced",
+        "p": "Trong các từ sau, từ nào có cả hai tiếng đều bắt đầu bằng âm ghép \"nh\"?",
+        "o": [
+          "nhẹ nhàng",
+          "phố cổ",
+          "chú thỏ",
+          "thư viện"
+        ],
+        "k": "A",
+        "e": "Cả hai tiếng trong \"nhẹ nhàng\" đều bắt đầu bằng âm ghép nh.",
+        "s": "Tìm âm ghép"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet1-c2",
+    "lesson": {
+      "code": "tiengviet1-b06",
+      "title": "Bài 6. Quy tắc chính tả g, gh và ng, ngh với e, ê, i",
+      "seq": 6,
+      "subtitle": "Nắm vững luật chính tả bắt buộc: gh và ngh chỉ đứng trước e, ê, i",
+      "concepts": [
+        "Luật g và gh",
+        "Luật ng và ngh",
+        "Ứng dụng viết đúng từ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV1-B06-001",
+        "d": "basic",
+        "p": "Chữ \"gh\" chỉ đứng trước những nguyên âm nào sau đây?",
+        "o": [
+          "o, ô, ơ",
+          "a, ă, â",
+          "a, o, u",
+          "e, ê, i"
+        ],
+        "k": "D",
+        "e": "Theo quy tắc chính tả Tiếng Việt, gh và ngh luôn đi với các chữ e, ê, i.",
+        "s": "Luật chính tả",
+        "fig": {
+          "type": "table",
+          "title": "Luật chính tả",
+          "head": [
+            "Đi với e, ê, i",
+            "Đi với âm khác"
+          ],
+          "rows": [
+            [
+              "gh (ghế, ghi)",
+              "g (gà, gỗ)"
+            ],
+            [
+              "ngh (nghé, nghĩ)",
+              "ng (ngô, ngủ)"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV1-B06-002",
+        "d": "basic",
+        "p": "Chữ \"ngh\" KHÔNG bao giờ đứng trước chữ cái nào?",
+        "o": [
+          "e",
+          "ê",
+          "a",
+          "i"
+        ],
+        "k": "C",
+        "e": "Trước chữ a ta phải viết \"ng\" (ví dụ: ngã, ngà), không viết \"ngh\".",
+        "s": "Luật chính tả"
+      },
+      {
+        "c": "TV1-B06-003",
+        "d": "basic",
+        "p": "Từ nào dưới đây viết ĐÚNG chính tả?",
+        "o": [
+          "bức ghỗ",
+          "cái gế",
+          "cái ghế",
+          "con gà gô ghà"
+        ],
+        "k": "C",
+        "e": "Trước chữ ê phải dùng \"gh\": cái ghế.",
+        "s": "Chính tả g và gh"
+      },
+      {
+        "c": "TV1-B06-004",
+        "d": "basic",
+        "p": "Từ nào viết ĐÚNG chỉ con trâu con?",
+        "o": [
+          "con ngé",
+          "con nghé",
+          "con ghe",
+          "con ghé"
+        ],
+        "k": "B",
+        "e": "Trước chữ e dùng \"ngh\": con nghé.",
+        "s": "Chính tả ng và ngh"
+      },
+      {
+        "c": "TV1-B06-005",
+        "d": "basic",
+        "p": "Tiếng nào viết ĐÚNG để chỉ hoạt động dùng bút viết chữ vào vở để nhớ bài?",
+        "o": [
+          "ghi chép",
+          "gà gáy",
+          "gi chép",
+          "nghỉ ngơi"
+        ],
+        "k": "A",
+        "e": "Trước i dùng \"gh\": ghi chép.",
+        "s": "Chính tả g và gh"
+      },
+      {
+        "c": "TV1-B06-006",
+        "d": "basic",
+        "p": "Từ nào viết ĐÚNG chỉ hành động dừng làm việc để thư giãn?",
+        "o": [
+          "ngỉ ngơi",
+          "ngỉ nghơi",
+          "nghỉ nghơi",
+          "nghỉ ngơi"
+        ],
+        "k": "D",
+        "e": "Trước i dùng \"ngh\" (nghỉ), trước ơ dùng \"ng\" (ngơi): nghỉ ngơi.",
+        "s": "Chính tả ng và ngh"
+      },
+      {
+        "c": "TV1-B06-007",
+        "d": "application",
+        "p": "Chọn từ viết ĐÚNG để điền vào chỗ trống: \"Bắp ... vàng ươm.\"",
+        "o": [
+          "ghô",
+          "gô",
+          "nghô",
+          "ngô"
+        ],
+        "k": "D",
+        "e": "Trước âm ô dùng \"ng\", viết đúng là \"bắp ngô\".",
+        "s": "Vận dụng luật"
+      },
+      {
+        "c": "TV1-B06-008",
+        "d": "application",
+        "p": "Chọn từ viết ĐÚNG: \"Mẹ mua một cân ... biển tươi.\"",
+        "o": [
+          "ghẹ",
+          "nghẹ",
+          "gẹ",
+          "ngẹ"
+        ],
+        "k": "A",
+        "e": "Trước âm e phải dùng \"gh\": con ghẹ.",
+        "s": "Vận dụng luật"
+      },
+      {
+        "c": "TV1-B06-009",
+        "d": "application",
+        "p": "Trong các từ sau, từ nào viết SAI quy tắc chính tả?",
+        "o": [
+          "cây gổ và ngỉ hè",
+          "nghệ sĩ múa",
+          "cái ghế gỗ",
+          "con gà trống"
+        ],
+        "k": "A",
+        "e": "Trước i phải viết \"ngh\" thành \"nghỉ hè\", và tiếng \"gỗ\" viết thanh ngã.",
+        "s": "Phát hiện lỗi sai"
+      },
+      {
+        "c": "TV1-B06-010",
+        "d": "application",
+        "p": "Củ nghệ có màu vàng, tiếng \"nghệ\" ghép giữa âm đầu nào và vần nào?",
+        "o": [
+          "gh + ê + nặng",
+          "ng + ê + nặng",
+          "ngh + ê + nặng",
+          "g + ê + nặng"
+        ],
+        "k": "C",
+        "e": "Trước ê bắt buộc viết ngh: ngh + ê + nặng = nghệ.",
+        "s": "Phân tích chính tả"
+      },
+      {
+        "c": "TV1-B06-011",
+        "d": "application",
+        "p": "Chọn cặp từ đều viết ĐÚNG luật g và gh:",
+        "o": [
+          "gà gô, gế gỗ",
+          "ghà gô, ghế gỗ",
+          "gà ghô, ghế ghỗ",
+          "gà gô, ghế gỗ"
+        ],
+        "k": "D",
+        "e": "Trước a, ô dùng g (gà gô, gỗ); trước ê dùng gh (ghế).",
+        "s": "So sánh g và gh"
+      },
+      {
+        "c": "TV1-B06-012",
+        "d": "application",
+        "p": "Bạn Tuấn viết: \"Em đang suy ngĩ về bài toán.\" Tiếng nào viết sai và sửa thế nào?",
+        "o": [
+          "Sửa \"ngĩ\" thành \"nghĩ\"",
+          "Sửa \"toán\" thành \"tán\"",
+          "Sửa \"suy\" thành \"xuy\"",
+          "Sửa \"bài\" thành \"bày\""
+        ],
+        "k": "A",
+        "e": "Trước chữ i phải dùng \"ngh\", nên viết đúng là \"suy nghĩ\".",
+        "s": "Sửa lỗi"
+      },
+      {
+        "c": "TV1-B06-013",
+        "d": "advanced",
+        "p": "Vì sao viết \"ghế gỗ\" mà không viết \"gế ghỗ\"?",
+        "o": [
+          "Vì trước ô viết gh, trước ê viết g",
+          "Vì ghép cho đẹp mắt",
+          "Vì trước ê viết gh, trước ô viết g",
+          "Vì chữ ghế đọc dài hơn chữ gỗ"
+        ],
+        "k": "C",
+        "e": "Luật chính tả: gh đứng trước e, ê, i; g đứng trước các nguyên âm còn lại.",
+        "s": "Giải thích quy tắc"
+      },
+      {
+        "c": "TV1-B06-014",
+        "d": "advanced",
+        "p": "Trong đoạn văn: \"Nghé con ngó nghiêng ngắm bụi nghệ bên gò đất.\" Có mấy tiếng dùng âm đầu \"ngh\"?",
+        "o": [
+          "3 tiếng",
+          "2 tiếng",
+          "1 tiếng",
+          "4 tiếng"
+        ],
+        "k": "A",
+        "e": "Ba tiếng dùng \"ngh\" là: Nghé (trước e), nghiêng (trước i), nghệ (trước ê). Còn \"ngó\", \"ngắm\" dùng \"ng\".",
+        "s": "Phân tích đoạn văn"
+      },
+      {
+        "c": "TV1-B06-015",
+        "d": "advanced",
+        "p": "Xác định dãy gồm toàn từ viết ĐÚNG luật chính tả:",
+        "o": [
+          "nghười nghèo, ghi nhớ, gồ gề",
+          "người ngèo, gi nhớ, ghồ gề",
+          "người nghèo, nghi nhớ, ghồ ghề",
+          "người nghèo, ghi nhớ, gồ ghề"
+        ],
+        "k": "D",
+        "e": "người (trước ư), nghèo (trước e), ghi (trước i), gồ (trước ô), ghề (trước ê) đều chuẩn luật.",
+        "s": "Tổng hợp luật"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet1-c2",
+    "lesson": {
+      "code": "tiengviet1-b07",
+      "title": "Bài 7. Quy tắc chính tả c, k và âm qu",
+      "seq": 7,
+      "subtitle": "Nắm chắc quy tắc dùng k trước e, ê, i và c trước các âm còn lại; nhận diện âm qu",
+      "concepts": [
+        "Luật c và k",
+        "Âm đầu qu",
+        "Viết đúng chính tả"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV1-B07-001",
+        "d": "basic",
+        "p": "Theo luật chính tả, chữ \"k\" chỉ đứng trước các chữ cái nào?",
+        "o": [
+          "a, o, u",
+          "o, ô, ơ",
+          "e, ê, i",
+          "u, ư, a"
+        ],
+        "k": "C",
+        "e": "Giống gh và ngh, chữ k đứng trước e, ê, i (như kẻ, kể, ki).",
+        "s": "Luật c và k",
+        "fig": {
+          "type": "table",
+          "title": "Luật c, k và qu",
+          "head": [
+            "Đi với e, ê, i",
+            "Âm khác / đặc biệt"
+          ],
+          "rows": [
+            [
+              "k (kẻ, kể, kiến)",
+              "c (cá, cỏ, củ)"
+            ],
+            [
+              "qu + a, o, ê, y",
+              "quà, quả, quê, quý"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV1-B07-002",
+        "d": "basic",
+        "p": "Chữ \"q\" trong Tiếng Việt luôn đi kèm với chữ cái nào ở ngay sau nó?",
+        "o": [
+          "o",
+          "i",
+          "a",
+          "u"
+        ],
+        "k": "D",
+        "e": "Chữ q luôn ghép với u tạo thành âm đầu qu (như quả, quê, quý).",
+        "s": "Âm đầu qu"
+      },
+      {
+        "c": "TV1-B07-003",
+        "d": "basic",
+        "p": "Từ nào dưới đây viết ĐÚNG chính tả?",
+        "o": [
+          "kái kéo",
+          "cái céo",
+          "kái céo",
+          "cái kéo"
+        ],
+        "k": "D",
+        "e": "Trước a viết c (cái), trước e viết k (kéo).",
+        "s": "Chính tả c và k"
+      },
+      {
+        "c": "TV1-B07-004",
+        "d": "basic",
+        "p": "Loại quả vỏ xanh vị ngọt mát có tên viết đúng là gì?",
+        "o": [
+          "kủa dưa",
+          "quả giưa",
+          "quả dưa",
+          "của dưa"
+        ],
+        "k": "C",
+        "e": "Tiếng \"quả\" bắt đầu bằng âm qu.",
+        "s": "Âm qu"
+      },
+      {
+        "c": "TV1-B07-005",
+        "d": "basic",
+        "p": "Tiếng \"kiến\" bắt đầu bằng âm nào?",
+        "o": [
+          "q",
+          "kh",
+          "k",
+          "c"
+        ],
+        "k": "C",
+        "e": "Trước i (trong vần iên) ta dùng chữ k: con kiến.",
+        "s": "Chính tả c và k"
+      },
+      {
+        "c": "TV1-B07-006",
+        "d": "basic",
+        "p": "Trong các tiếng sau, tiếng nào viết SAI quy tắc c và k?",
+        "o": [
+          "củ cà rốt",
+          "kể chuyện",
+          "cẻ bảng",
+          "cá cờ"
+        ],
+        "k": "C",
+        "e": "Trước chữ e phải viết k là \"kẻ bảng\", không viết \"cẻ bảng\".",
+        "s": "Phát hiện lỗi"
+      },
+      {
+        "c": "TV1-B07-007",
+        "d": "application",
+        "p": "Chọn từ viết ĐÚNG điền vào câu: \"Ông ... chuyện cổ tích cho bé nghe.\"",
+        "o": [
+          "cể",
+          "khể",
+          "qể",
+          "kể"
+        ],
+        "k": "D",
+        "e": "Trước chữ ê dùng chữ k: ông kể chuyện.",
+        "s": "Vận dụng c và k"
+      },
+      {
+        "c": "TV1-B07-008",
+        "d": "application",
+        "p": "Từ nào chỉ vùng đất nơi mình sinh ra và lớn lên?",
+        "o": [
+          "cuê hương",
+          "kê hương",
+          "quê hương",
+          "cê hương"
+        ],
+        "k": "C",
+        "e": "Từ đúng là \"quê hương\" với âm đầu qu.",
+        "s": "Chính tả qu"
+      },
+      {
+        "c": "TV1-B07-009",
+        "d": "application",
+        "p": "Chọn cặp từ đều viết ĐÚNG chính tả:",
+        "o": [
+          "cính cận, kua bể",
+          "kính kận, cua bể",
+          "cính kận, qua bể",
+          "kính cận, cua bể"
+        ],
+        "k": "D",
+        "e": "Trước i dùng k (kính); trước â, u dùng c (cận, cua).",
+        "s": "Luyện tập c và k"
+      },
+      {
+        "c": "TV1-B07-010",
+        "d": "application",
+        "p": "Trong câu \"Mẹ đi chợ mua quà quê và kẹo cốm\", có mấy tiếng bắt đầu bằng âm \"qu\"?",
+        "o": [
+          "4 tiếng",
+          "1 tiếng",
+          "2 tiếng",
+          "3 tiếng"
+        ],
+        "k": "C",
+        "e": "Hai tiếng bắt đầu bằng âm qu là \"quà\" và \"quê\".",
+        "s": "Đếm âm qu"
+      },
+      {
+        "c": "TV1-B07-011",
+        "d": "application",
+        "p": "Từ nào dùng để chỉ hộp nhỏ làm bằng giấy cứng hay nhựa?",
+        "o": [
+          "hộp kùa",
+          "hộp cà",
+          "hộp cùa",
+          "hộp quà"
+        ],
+        "k": "D",
+        "e": "\"Hộp quà\" có tiếng quà bắt đầu bằng qu.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B07-012",
+        "d": "application",
+        "p": "Khi viết \"quả quýt\", nguyên âm đứng sau \"qu\" ở tiếng thứ hai là chữ gì?",
+        "o": [
+          "i",
+          "y",
+          "u",
+          "a"
+        ],
+        "k": "B",
+        "e": "Tiếng \"quýt\" gồm âm đầu qu, vần uýt bắt đầu bằng chữ y (quýt).",
+        "s": "Chính tả qu"
+      },
+      {
+        "c": "TV1-B07-013",
+        "d": "advanced",
+        "p": "Một bạn viết: \"Con kiến cắp cành cây qua cầu.\" Có bao nhiêu tiếng bắt đầu bằng chữ c hoặc chữ k?",
+        "o": [
+          "6 tiếng",
+          "4 tiếng",
+          "7 tiếng",
+          "5 tiếng"
+        ],
+        "k": "A",
+        "e": "Các tiếng bắt đầu bằng c hoặc k là: Con (1), kiến (2), cắp (3), cành (4), cây (5), cầu (6).",
+        "s": "Đếm chính xác"
+      },
+      {
+        "c": "TV1-B07-014",
+        "d": "advanced",
+        "p": "Tại sao ba cặp phụ âm (gh và g), (ngh và ng), (k và c) được gọi là có quy tắc giống nhau?",
+        "o": [
+          "Vì chúng đều là nguyên âm đôi",
+          "Vì chúng chỉ đứng trước a, o, u",
+          "Vì gh, ngh, k đều chỉ đứng trước e, ê, i",
+          "Vì chúng đều không đứng đầu tiếng"
+        ],
+        "k": "C",
+        "e": "Ba chữ gh, ngh, k có chung quy tắc chính tả: luôn đứng trước e, ê, i.",
+        "s": "Khái quát quy tắc"
+      },
+      {
+        "c": "TV1-B07-015",
+        "d": "advanced",
+        "p": "Sửa lại câu viết sai sau cho đúng chính tả: \"Bé Kiến cể chuyện ở cuê ngoại.\"",
+        "o": [
+          "Bé Kiến kể chuyện ở quê ngoại.",
+          "Bé Ciến kể chuyện ở quê ngoại.",
+          "Bé Kiến cể chuyện ở cuê ngoại.",
+          "Bé Kiến kể chuyện ở cuê ngoại."
+        ],
+        "k": "A",
+        "e": "Trước ê viết k (kể); âm qu viết bằng q và u (quê).",
+        "s": "Sửa lỗi chính tả"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet1-c2",
+    "lesson": {
+      "code": "tiengviet1-b08",
+      "title": "Bài 8. Phân biệt âm đầu ch và tr, s và x, r, d và gi",
+      "seq": 8,
+      "subtitle": "Rèn kĩ năng chọn đúng âm đầu dễ nhầm khi viết chính tả",
+      "concepts": [
+        "Phân biệt ch và tr",
+        "Phân biệt s và x",
+        "Phân biệt r, d, gi"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV1-B08-001",
+        "d": "basic",
+        "p": "Mặt trời mọc vào buổi sáng, tiếng \"trời\" bắt đầu bằng âm nào?",
+        "o": [
+          "s",
+          "ch",
+          "tr",
+          "x"
+        ],
+        "k": "C",
+        "e": "Bầu trời, mặt trời viết bằng âm đầu \"tr\".",
+        "s": "Chính tả tr và ch"
+      },
+      {
+        "c": "TV1-B08-002",
+        "d": "basic",
+        "p": "Ngôi sao trên bầu trời đêm có tên bắt đầu bằng âm nào?",
+        "o": [
+          "s",
+          "d",
+          "x",
+          "r"
+        ],
+        "k": "A",
+        "e": "Ngôi sao viết bắt đầu bằng âm s.",
+        "s": "Chính tả s và x"
+      },
+      {
+        "c": "TV1-B08-003",
+        "d": "basic",
+        "p": "Đôi giày dùng để đi ở chân viết bắt đầu bằng âm nào?",
+        "o": [
+          "ch",
+          "d",
+          "r",
+          "gi"
+        ],
+        "k": "D",
+        "e": "Đôi giày viết với âm đầu \"gi\" (khác với sợi dây là âm d).",
+        "s": "Chính tả gi và d"
+      },
+      {
+        "c": "TV1-B08-004",
+        "d": "basic",
+        "p": "Con sông chảy quanh làng viết với âm đầu nào?",
+        "o": [
+          "tr",
+          "s",
+          "ch",
+          "x"
+        ],
+        "k": "B",
+        "e": "Dòng sông, con sông luôn viết bằng chữ s.",
+        "s": "Chính tả s và x"
+      },
+      {
+        "c": "TV1-B08-005",
+        "d": "basic",
+        "p": "Loài cây có thân cao đốt thẳng, thường mọc thành lũy ở làng quê Việt Nam là gì?",
+        "o": [
+          "cây che",
+          "cây se",
+          "cây xe",
+          "cây tre"
+        ],
+        "k": "D",
+        "e": "Cây tre viết bằng âm tr; che nắng che mưa viết bằng âm ch.",
+        "s": "Phân biệt tr và ch",
+        "fig": {
+          "type": "table",
+          "title": "Từ dễ nhầm",
+          "head": [
+            "Cặp 1",
+            "Cặp 2"
+          ],
+          "rows": [
+            [
+              "tre / che",
+              "trống / chống"
+            ],
+            [
+              "sẻ / xẻ",
+              "dây / giây"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV1-B08-006",
+        "d": "basic",
+        "p": "Tiếng \"chú\" trong \"chú mèo\" bắt đầu bằng âm nào?",
+        "o": [
+          "gi",
+          "tr",
+          "ch",
+          "s"
+        ],
+        "k": "C",
+        "e": "Chú bác, chú mèo viết bằng âm đầu ch.",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV1-B08-007",
+        "d": "application",
+        "p": "Chọn từ viết ĐÚNG điền vào câu: \"Chiếc ô che nắng, còn bụi ... xanh rì.\"",
+        "o": [
+          "se",
+          "che",
+          "tre",
+          "xe"
+        ],
+        "k": "C",
+        "e": "Cây tre (tr) khác với hành động che nắng (ch).",
+        "s": "Ngữ cảnh chính tả"
+      },
+      {
+        "c": "TV1-B08-008",
+        "d": "application",
+        "p": "Từ nào chỉ một món quà ăn nhẹ có vị ngọt làm từ nếp hoặc gạo rang?",
+        "o": [
+          "trôi gấc",
+          "xôi gấc",
+          "chôi gấc",
+          "sôi gấc"
+        ],
+        "k": "B",
+        "e": "Món xôi (xôi đỗ, xôi gấc) viết bằng chữ x, còn nước sôi viết bằng chữ s.",
+        "s": "Phân biệt s và x"
+      },
+      {
+        "c": "TV1-B08-009",
+        "d": "application",
+        "p": "Chọn cặp từ viết ĐÚNG để chỉ thời gian ngắn và vật buộc đồ:",
+        "o": [
+          "giây phút và sợi dây",
+          "dây phút và sợi giây",
+          "giây phút và sợi giây",
+          "dây phút và sợi dây"
+        ],
+        "k": "A",
+        "e": "\"Giây phút\" (đơn vị thời gian) viết bằng gi; \"sợi dây\" viết bằng d.",
+        "s": "Phân biệt d và gi"
+      },
+      {
+        "c": "TV1-B08-010",
+        "d": "application",
+        "p": "Điền đúng âm đầu vào câu: \"Nồi nước đã ... ùng ục trên bếp.\"",
+        "o": [
+          "xôi",
+          "giôi",
+          "rôi",
+          "sôi"
+        ],
+        "k": "D",
+        "e": "Nước nóng bốc hơi gọi là \"sôi\" (âm s).",
+        "s": "Vận dụng chính tả"
+      },
+      {
+        "c": "TV1-B08-011",
+        "d": "application",
+        "p": "Con vật có mai cứng, sống dưới nước hoặc trên cạn là con gì?",
+        "o": [
+          "con giùa",
+          "con sùa",
+          "con dùa",
+          "con rùa"
+        ],
+        "k": "D",
+        "e": "Con rùa viết bắt đầu bằng chữ r.",
+        "s": "Chính tả r"
+      },
+      {
+        "c": "TV1-B08-012",
+        "d": "application",
+        "p": "Từ nào chỉ dụng cụ phát ra âm thanh báo giờ vào học ở sân trường?",
+        "o": [
+          "cái chống",
+          "cái trống",
+          "cái xống",
+          "cái sống"
+        ],
+        "k": "B",
+        "e": "Nhạc cụ gõ là \"cái trống\" (âm tr); còn \"chống gậy\" viết âm ch.",
+        "s": "Phân biệt tr và ch"
+      },
+      {
+        "c": "TV1-B08-013",
+        "d": "advanced",
+        "p": "Bạn Hùng viết: \"Sáng sớm, chim xẻ hót ríu rít trên ngọn che.\" Có mấy tiếng viết SAI chính tả?",
+        "o": [
+          "3 tiếng",
+          "1 tiếng",
+          "2 tiếng",
+          "4 tiếng"
+        ],
+        "k": "C",
+        "e": "Có 2 tiếng sai là \"xẻ\" (sửa thành \"chim sẻ\") và \"che\" (sửa thành \"ngọn tre\").",
+        "s": "Bắt lỗi chính tả"
+      },
+      {
+        "c": "TV1-B08-014",
+        "d": "advanced",
+        "p": "Trong các câu sau, câu nào KHÔNG có lỗi chính tả nào?",
+        "o": [
+          "Trời sáng rõ, chú sẻ nâu nhảy trên cành tre.",
+          "Trời xáng dõ, chú sẻ nâu nhảy trên cành tre.",
+          "Chời sáng rõ, chú xẻ nâu nhảy trên cành che.",
+          "Trời sáng giõ, chú sẻ nâu nhảy trên cành tre."
+        ],
+        "k": "A",
+        "e": "Trời (tr), sáng (s), rõ (r), sẻ (s), tre (tr) đều viết chuẩn chính tả.",
+        "s": "Tổng kiểm tra"
+      },
+      {
+        "c": "TV1-B08-015",
+        "d": "advanced",
+        "p": "Hoàn thành câu tục ngữ đúng chính tả: \"Công cha như núi Thái Sơn, Nghĩa mẹ như nước ... nguồn chảy ra.\"",
+        "o": [
+          "ròng",
+          "xong",
+          "chong",
+          "trong"
+        ],
+        "k": "D",
+        "e": "Câu ca dao chuẩn là \"như nước trong nguồn chảy ra\" (âm tr).",
+        "s": "Vận dụng văn học"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet1-c3",
+    "lesson": {
+      "code": "tiengviet1-b09",
+      "title": "Bài 9. Vần an, ăn, ân và am, ăm, âm",
+      "seq": 9,
+      "subtitle": "Nhận diện âm cuối n và m trong các vần an, ăn, ân, am, ăm, âm",
+      "concepts": [
+        "Vần an, ăn, ân",
+        "Vần am, ăm, âm",
+        "Phân biệt âm cuối n và m"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV1-B09-001",
+        "d": "basic",
+        "p": "Vần \"an\" có âm chính là \"a\" và âm cuối là chữ gì?",
+        "o": [
+          "c",
+          "m",
+          "n",
+          "t"
+        ],
+        "k": "C",
+        "e": "Vần an gồm âm chính a và âm cuối n.",
+        "s": "Cấu tạo vần",
+        "fig": {
+          "type": "table",
+          "title": "Nhóm vần n và m",
+          "head": [
+            "Âm cuối n",
+            "Âm cuối m"
+          ],
+          "rows": [
+            [
+              "an / ăn / ân",
+              "am / ăm / âm"
+            ],
+            [
+              "bàn / khăn / sân",
+              "cam / tăm / nấm"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV1-B09-002",
+        "d": "basic",
+        "p": "Tiếng \"cam\" trong \"quả cam\" chứa vần nào?",
+        "o": [
+          "am",
+          "âm",
+          "an",
+          "ăm"
+        ],
+        "k": "A",
+        "e": "Tiếng \"cam\" gồm âm đầu c và vần am.",
+        "s": "Nhận diện vần"
+      },
+      {
+        "c": "TV1-B09-003",
+        "d": "basic",
+        "p": "Tiếng \"bàn\" trong \"cái bàn\" chứa vần nào?",
+        "o": [
+          "am",
+          "an",
+          "ân",
+          "ăn"
+        ],
+        "k": "B",
+        "e": "Tiếng \"bàn\" gồm âm b, vần an và thanh huyền.",
+        "s": "Nhận diện vần"
+      },
+      {
+        "c": "TV1-B09-004",
+        "d": "basic",
+        "p": "Quả gì thường mọc thành nải, ruột ngọt bùi, đọc lên có vần \"ăn\" hoặc tên là gì? Chọn tiếng chứa vần \"ăn\":",
+        "o": [
+          "khăn",
+          "kham",
+          "khân",
+          "khan"
+        ],
+        "k": "A",
+        "e": "Tiếng \"khăn\" gồm âm kh và vần ăn.",
+        "s": "Nhận diện vần"
+      },
+      {
+        "c": "TV1-B09-005",
+        "d": "basic",
+        "p": "Tiếng \"nấm\" trong \"cây nấm\" chứa vần nào?",
+        "o": [
+          "am",
+          "âm",
+          "ăm",
+          "ân"
+        ],
+        "k": "B",
+        "e": "Tiếng \"nấm\" gồm âm n, vần âm và thanh sắc.",
+        "s": "Nhận diện vần"
+      },
+      {
+        "c": "TV1-B09-006",
+        "d": "basic",
+        "p": "Từ nào có tiếng chứa vần \"ân\"?",
+        "o": [
+          "bàn học",
+          "quả cam",
+          "sân trường",
+          "tăm tre"
+        ],
+        "k": "C",
+        "e": "Tiếng \"sân\" gồm âm s ghép với vần ân.",
+        "s": "Tìm vần"
+      },
+      {
+        "c": "TV1-B09-007",
+        "d": "application",
+        "p": "Chọn từ viết ĐÚNG chỉ con vật nhỏ màu xanh hay bò trên lá, biết làm kén nhả tơ:",
+        "o": [
+          "con tằm",
+          "con tầm",
+          "con tam",
+          "con tằn"
+        ],
+        "k": "A",
+        "e": "Con tằm (âm cuối m, vần ăm, thanh huyền).",
+        "s": "Phân biệt âm cuối n và m"
+      },
+      {
+        "c": "TV1-B09-008",
+        "d": "application",
+        "p": "Chọn từ viết ĐÚNG chỉ khoảng trống trước nhà dùng phơi thóc hoặc vui chơi:",
+        "o": [
+          "cái sâm",
+          "cái xâm",
+          "cái sân",
+          "cái săn"
+        ],
+        "k": "C",
+        "e": "Sân nhà, sân trường viết bằng vần ân (âm cuối n).",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV1-B09-009",
+        "d": "application",
+        "p": "Trong câu \"Bé ăn mận và cam chín\", tiếng nào chứa vần \"ân\"?",
+        "o": [
+          "mận",
+          "cam",
+          "ăn",
+          "chín"
+        ],
+        "k": "A",
+        "e": "Tiếng \"mận\" gồm âm đầu m, vần ân và thanh nặng.",
+        "s": "Tìm vần"
+      },
+      {
+        "c": "TV1-B09-010",
+        "d": "application",
+        "p": "Chọn cặp từ mà cả hai tiếng đều có vần kết thúc bằng âm \"m\":",
+        "o": [
+          "chân bàn",
+          "thân mến",
+          "chăm làm",
+          "bạn thân"
+        ],
+        "k": "C",
+        "e": "\"Chăm\" (vần ăm) và \"làm\" (vần am) đều kết thúc bằng âm m.",
+        "s": "Phân loại vần"
+      },
+      {
+        "c": "TV1-B09-011",
+        "d": "application",
+        "p": "Đố em: Thứ gì trắng muốt, dùng thấm mồ hôi hoặc lau mặt sau khi rửa?",
+        "o": [
+          "cái khan",
+          "cái khăn",
+          "cái khân",
+          "cái kham"
+        ],
+        "k": "B",
+        "e": "Cái khăn mặt chứa vần ăn (âm cuối n).",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B09-012",
+        "d": "application",
+        "p": "Nhạc cụ nào sau đây có tên tiếng chứa vần \"an\"?",
+        "o": [
+          "cái trống",
+          "cái kèn",
+          "cái sáo",
+          "cây đàn"
+        ],
+        "k": "D",
+        "e": "Tiếng \"đàn\" gồm âm đ, vần an và thanh huyền.",
+        "s": "Nhận diện vần"
+      },
+      {
+        "c": "TV1-B09-013",
+        "d": "advanced",
+        "p": "Bạn Mai đọc nhầm \"năm học\" thành \"năn học\". Lỗi sai xảy ra ở chữ cái nào?",
+        "o": [
+          "Âm cuối m đọc nhầm thành n",
+          "Thanh điệu ngang đọc nhầm thành huyền",
+          "Âm đầu n đọc nhầm thành l",
+          "Âm chính ă đọc nhầm thành â"
+        ],
+        "k": "A",
+        "e": "\"Năm\" có âm cuối m (vần ăm), không phải âm cuối n.",
+        "s": "Sửa lỗi phát âm"
+      },
+      {
+        "c": "TV1-B09-014",
+        "d": "advanced",
+        "p": "Sắp xếp 3 từ sau vào đúng nhóm: \"bạn thân\", \"tăm tre\", \"cây nấm\". Nhóm chứa âm cuối \"m\" gồm những từ nào?",
+        "o": [
+          "bạn thân và cây nấm",
+          "tăm tre và cây nấm",
+          "bạn thân và tăm tre",
+          "cả ba từ trên"
+        ],
+        "k": "B",
+        "e": "\"Tăm\" (ăm) và \"nấm\" (âm) có âm cuối m; còn \"bạn\", \"thân\" có âm cuối n.",
+        "s": "Phân nhóm"
+      },
+      {
+        "c": "TV1-B09-015",
+        "d": "advanced",
+        "p": "Tìm từ gồm 2 tiếng đều chứa vần \"ân\":",
+        "o": [
+          "cảm ơn",
+          "an toàn",
+          "chăm chỉ",
+          "cẩn thận"
+        ],
+        "k": "D",
+        "e": "Cả \"cẩn\" và \"thận\" đều chứa vần ân.",
+        "s": "Vốn từ mở rộng"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet1-c3",
+    "lesson": {
+      "code": "tiengviet1-b10",
+      "title": "Bài 10. Vần en, ên, in, un và em, êm, im, um",
+      "seq": 10,
+      "subtitle": "Phân biệt các cặp vần có âm chính e, ê, i, u kết thúc bằng n và m",
+      "concepts": [
+        "Vần en, ên, in, un",
+        "Vần em, êm, im, um",
+        "Chính tả âm cuối n và m"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV1-B10-001",
+        "d": "basic",
+        "p": "Tiếng \"đèn\" trong \"đèn pin\" chứa vần nào?",
+        "o": [
+          "ên",
+          "em",
+          "in",
+          "en"
+        ],
+        "k": "D",
+        "e": "Tiếng \"đèn\" gồm âm đầu đ, vần en và thanh huyền.",
+        "s": "Nhận diện vần",
+        "fig": {
+          "type": "table",
+          "title": "Bảng vần e, ê, i, u",
+          "head": [
+            "Âm cuối n",
+            "Âm cuối m"
+          ],
+          "rows": [
+            [
+              "en / ên (đèn / nến)",
+              "em / êm (kem / đệm)"
+            ],
+            [
+              "in / un (pin / cún)",
+              "im / um (chim)"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV1-B10-002",
+        "d": "basic",
+        "p": "Tiếng \"nến\" trong \"cây nến\" chứa vần nào?",
+        "o": [
+          "ên",
+          "in",
+          "en",
+          "êm"
+        ],
+        "k": "A",
+        "e": "Tiếng \"nến\" gồm âm n, vần ên và thanh sắc.",
+        "s": "Nhận diện vần"
+      },
+      {
+        "c": "TV1-B10-003",
+        "d": "basic",
+        "p": "Tiếng \"chim\" trong \"con chim\" có âm cuối là chữ cái nào?",
+        "o": [
+          "m",
+          "p",
+          "t",
+          "n"
+        ],
+        "k": "A",
+        "e": "Tiếng \"chim\" gồm âm ch và vần im (âm cuối m).",
+        "s": "Cấu tạo vần"
+      },
+      {
+        "c": "TV1-B10-004",
+        "d": "basic",
+        "p": "Tiếng \"cún\" trong \"cún con\" chứa vần nào?",
+        "o": [
+          "um",
+          "un",
+          "ên",
+          "in"
+        ],
+        "k": "B",
+        "e": "Tiếng \"cún\" gồm âm c, vần un và thanh sắc.",
+        "s": "Nhận diện vần"
+      },
+      {
+        "c": "TV1-B10-005",
+        "d": "basic",
+        "p": "Món ăn mát lạnh yêu thích vào mùa hè có tên viết là gì?",
+        "o": [
+          "que ken",
+          "que kem",
+          "que kim",
+          "que kêm"
+        ],
+        "k": "B",
+        "e": "Tiếng \"kem\" gồm âm k ghép với vần em.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B10-006",
+        "d": "basic",
+        "p": "Tiếng \"chùm\" trong \"chùm nho\" chứa vần nào?",
+        "o": [
+          "em",
+          "um",
+          "un",
+          "im"
+        ],
+        "k": "B",
+        "e": "Tiếng \"chùm\" gồm âm đầu ch, vần um và thanh huyền.",
+        "s": "Nhận diện vần"
+      },
+      {
+        "c": "TV1-B10-007",
+        "d": "application",
+        "p": "Chọn từ viết ĐÚNG để chỉ chiếc gối lớn trải trên giường nằm cho êm:",
+        "o": [
+          "tấm đim",
+          "tấm đem",
+          "tấm đệm",
+          "tấm đện"
+        ],
+        "k": "C",
+        "e": "\"Đệm\" có âm cuối m (vần êm).",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV1-B10-008",
+        "d": "application",
+        "p": "Trong hai tiếng \"đèn pin\", các vần lần lượt là gì?",
+        "o": [
+          "ên và im",
+          "en và im",
+          "en và in",
+          "em và in"
+        ],
+        "k": "C",
+        "e": "\"Đèn\" chứa vần en, \"pin\" chứa vần in.",
+        "s": "Phân tích từ"
+      },
+      {
+        "c": "TV1-B10-009",
+        "d": "application",
+        "p": "Chọn từ có tiếng chứa vần \"im\":",
+        "o": [
+          "trái tim",
+          "cây nến",
+          "búp sen",
+          "chú cún"
+        ],
+        "k": "A",
+        "e": "Tiếng \"tim\" gồm âm đầu t ghép với vần im.",
+        "s": "Tìm vần"
+      },
+      {
+        "c": "TV1-B10-010",
+        "d": "application",
+        "p": "Loài hoa nào mọc dưới đầm lầy có tiếng chứa vần \"en\"?",
+        "o": [
+          "hoa sim",
+          "hoa sen",
+          "hoa sên",
+          "hoa lan"
+        ],
+        "k": "B",
+        "e": "Tiếng \"sen\" gồm âm s ghép với vần en.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B10-011",
+        "d": "application",
+        "p": "Cây kim khâu quần áo và quả sim rừng đều có vần kết thúc bằng âm nào?",
+        "o": [
+          "Âm m",
+          "Âm p",
+          "Âm t",
+          "Âm n"
+        ],
+        "k": "A",
+        "e": "\"Kim\" và \"sim\" đều chứa vần im, kết thúc bằng âm m.",
+        "s": "So sánh vần"
+      },
+      {
+        "c": "TV1-B10-012",
+        "d": "application",
+        "p": "Trong câu \"Đêm nay trời êm ả, bé ngủ ngon trên đệm\", có mấy tiếng chứa vần \"êm\"?",
+        "o": [
+          "4 tiếng",
+          "3 tiếng",
+          "2 tiếng",
+          "1 tiếng"
+        ],
+        "k": "B",
+        "e": "Ba tiếng chứa vần êm là: Đêm, êm, đệm.",
+        "s": "Đếm vần"
+      },
+      {
+        "c": "TV1-B10-013",
+        "d": "advanced",
+        "p": "Bạn Lan viết sai từ \"con nhện\" thành \"con nhệm\". Lỗi sai nằm ở đâu?",
+        "o": [
+          "Viết nhầm dấu nặng thành dấu ngã",
+          "Viết nhầm âm cuối n thành m",
+          "Viết nhầm âm đầu nh thành n",
+          "Viết nhầm vần ên thành en"
+        ],
+        "k": "B",
+        "e": "Con nhện có vần ên (âm cuối n), không phải ậm/êm.",
+        "s": "Sửa lỗi"
+      },
+      {
+        "c": "TV1-B10-014",
+        "d": "advanced",
+        "p": "Tìm từ gồm 2 tiếng đều chứa vần kết thúc bằng âm \"n\":",
+        "o": [
+          "chùm sim",
+          "lên đèn",
+          "xem phim",
+          "đêm đen"
+        ],
+        "k": "B",
+        "e": "\"Lên\" (vần ên) và \"đèn\" (vần en) đều có âm cuối n.",
+        "s": "Phân loại nâng cao"
+      },
+      {
+        "c": "TV1-B10-015",
+        "d": "advanced",
+        "p": "Nếu thay âm cuối \"n\" trong tiếng \"chin\" (trong chín chắn) bằng âm \"m\", ta được tiếng có nghĩa là gì?",
+        "o": [
+          "Bánh ngọt (kem)",
+          "Vật dùng thắp sáng (nến)",
+          "Loài động vật có cánh biết hót (chim)",
+          "Loại hoa (sen)"
+        ],
+        "k": "C",
+        "e": "Thay âm cuối n bằng m trong \"chín\" -> giữ thanh ngang được tiếng \"chim\" (con chim).",
+        "s": "Biến đổi âm cuối"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet1-c3",
+    "lesson": {
+      "code": "tiengviet1-b11",
+      "title": "Bài 11. Vần ang, ăng, âng và ong, ông, ung, ưng",
+      "seq": 11,
+      "subtitle": "Nhận biết âm cuối ng trong các vần ang, ăng, âng, ong, ông, ung, ưng",
+      "concepts": [
+        "Vần ang, ăng, âng",
+        "Vần ong, ông",
+        "Vần ung, ưng"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV1-B11-001",
+        "d": "basic",
+        "p": "Tiếng \"vàng\" trong \"màu vàng\" chứa vần nào?",
+        "o": [
+          "ăng",
+          "ang",
+          "âng",
+          "ong"
+        ],
+        "k": "B",
+        "e": "Tiếng \"vàng\" gồm âm đầu v, vần ang và thanh huyền.",
+        "s": "Nhận diện vần",
+        "fig": {
+          "type": "table",
+          "title": "Vần có âm cuối ng",
+          "head": [
+            "Nhóm a",
+            "Nhóm o, u"
+          ],
+          "rows": [
+            [
+              "ang / ăng / âng",
+              "ong / ông"
+            ],
+            [
+              "bảng / trăng / vâng",
+              "chong / sông / rung"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV1-B11-002",
+        "d": "basic",
+        "p": "Tiếng \"trăng\" trong \"vầng trăng\" chứa vần nào?",
+        "o": [
+          "ung",
+          "ăng",
+          "âng",
+          "ang"
+        ],
+        "k": "B",
+        "e": "Tiếng \"trăng\" gồm âm đầu tr và vần ăng.",
+        "s": "Nhận diện vần"
+      },
+      {
+        "c": "TV1-B11-003",
+        "d": "basic",
+        "p": "Tiếng \"sông\" trong \"dòng sông\" chứa vần nào?",
+        "o": [
+          "ung",
+          "ong",
+          "ưng",
+          "ông"
+        ],
+        "k": "D",
+        "e": "Tiếng \"sông\" gồm âm đầu s và vần ông.",
+        "s": "Nhận diện vần"
+      },
+      {
+        "c": "TV1-B11-004",
+        "d": "basic",
+        "p": "Từ nào có tiếng chứa vần \"ưng\"?",
+        "o": [
+          "mặt trăng",
+          "cái trống",
+          "con ong",
+          "bánh chưng"
+        ],
+        "k": "D",
+        "e": "Tiếng \"chưng\" gồm âm đầu ch ghép với vần ưng.",
+        "s": "Tìm vần"
+      },
+      {
+        "c": "TV1-B11-005",
+        "d": "basic",
+        "p": "Con vật chăm chỉ đi hút mật hoa làm mật ngọt là con gì?",
+        "o": [
+          "con ông",
+          "con ang",
+          "con ong",
+          "con ung"
+        ],
+        "k": "C",
+        "e": "Tiếng \"ong\" là âm chính o ghép với ng.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B11-006",
+        "d": "basic",
+        "p": "Tiếng \"trống\" trong \"cái trống\" chứa vần nào?",
+        "o": [
+          "ong",
+          "ung",
+          "âng",
+          "ông"
+        ],
+        "k": "D",
+        "e": "Tiếng \"trống\" gồm âm tr, vần ông và thanh sắc.",
+        "s": "Nhận diện vần"
+      },
+      {
+        "c": "TV1-B11-007",
+        "d": "application",
+        "p": "Chọn từ viết ĐÚNG để chỉ phần trên của căn nhà gồm nhiều bậc giúp lên tầng trên:",
+        "o": [
+          "cầu thăng",
+          "cầu thang",
+          "cầu thông",
+          "cầu thâng"
+        ],
+        "k": "B",
+        "e": "\"Cầu thang\" chứa vần ang.",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV1-B11-008",
+        "d": "application",
+        "p": "Trong hai tiếng \"vầng trăng\", các vần lần lượt là gì?",
+        "o": [
+          "âng và ăng",
+          "ông và ăng",
+          "âng và ang",
+          "ang và ăng"
+        ],
+        "k": "A",
+        "e": "\"Vầng\" chứa vần âng; \"trăng\" chứa vần ăng.",
+        "s": "Phân tích từ"
+      },
+      {
+        "c": "TV1-B11-009",
+        "d": "application",
+        "p": "Chọn từ có tiếng chứa vần \"ung\":",
+        "o": [
+          "cái bảng",
+          "dòng sông",
+          "thung lũng",
+          "chong chóng"
+        ],
+        "k": "C",
+        "e": "Tiếng \"thung\" gồm âm th ghép với vần ung.",
+        "s": "Tìm vần"
+      },
+      {
+        "c": "TV1-B11-010",
+        "d": "application",
+        "p": "Điền đúng tiếng vào câu: \"Bé biết ... lời ông bà.\"",
+        "o": [
+          "vâng",
+          "vang",
+          "vung",
+          "văng"
+        ],
+        "k": "A",
+        "e": "\"Vâng lời\" có tiếng vâng chứa vần âng.",
+        "s": "Vận dụng từ ngữ"
+      },
+      {
+        "c": "TV1-B11-011",
+        "d": "application",
+        "p": "Trong câu \"Chong chóng quay nhanh trong gió lộng\", có mấy tiếng chứa vần \"ong\"?",
+        "o": [
+          "4 tiếng",
+          "2 tiếng",
+          "1 tiếng",
+          "3 tiếng"
+        ],
+        "k": "D",
+        "e": "Ba tiếng chứa vần ong là: Chong, chóng, trong. (\"lộng\" chứa vần ông).",
+        "s": "Đếm vần"
+      },
+      {
+        "c": "TV1-B11-012",
+        "d": "application",
+        "p": "Chọn cặp từ mà MỌI tiếng đều kết thúc bằng chữ \"ng\":",
+        "o": [
+          "bàn học, ghế gỗ",
+          "tăm tre, cây nấm",
+          "bông hồng, vầng trăng",
+          "rừng xanh, bông hồng"
+        ],
+        "k": "C",
+        "e": "Tất cả 4 tiếng \"bông, hồng, vầng, trăng\" đều kết thúc bằng ng.",
+        "s": "Phân loại"
+      },
+      {
+        "c": "TV1-B11-013",
+        "d": "advanced",
+        "p": "Bạn Nam viết \"mặt trăng\" thành \"mặt chăn\". Có mấy lỗi sai chính tả trong tiếng thứ hai?",
+        "o": [
+          "Không có lỗi nào",
+          "1 lỗi (chỉ sai âm đầu)",
+          "1 lỗi (chỉ sai âm cuối)",
+          "2 lỗi (sai âm đầu tr thành ch và sai âm cuối ng thành n)"
+        ],
+        "k": "D",
+        "e": "\"Trăng\" viết bằng âm đầu tr và vần ăng (âm cuối ng), không phải \"chăn\".",
+        "s": "Phát hiện lỗi"
+      },
+      {
+        "c": "TV1-B11-014",
+        "d": "advanced",
+        "p": "Nếu thay âm \"ô\" trong \"sông\" bằng âm \"u\", ta được tiếng gì và dùng trong từ nào?",
+        "o": [
+          "sóng (sóng biển)",
+          "sưng (sưng tay)",
+          "sung (quả sung)",
+          "sang (sang sông)"
+        ],
+        "k": "C",
+        "e": "s + ung = sung (cây sung, quả sung).",
+        "s": "Biến đổi vần"
+      },
+      {
+        "c": "TV1-B11-015",
+        "d": "advanced",
+        "p": "Quan sát bảng số tiếng đếm được từ bài thơ. Nhóm vần nào có số tiếng nhiều nhất?",
+        "o": [
+          "Vần ang",
+          "Vần ăng",
+          "Vần ưng",
+          "Vần ông"
+        ],
+        "k": "A",
+        "e": "Trên biểu đồ, cột vần ang cao nhất với 7 tiếng.",
+        "s": "Đọc biểu đồ",
+        "fig": {
+          "type": "bars",
+          "title": "Thống kê vần cuối ng",
+          "labels": [
+            "ang",
+            "ăng",
+            "ông",
+            "ưng"
+          ],
+          "series": [
+            {
+              "values": [
+                7,
+                4,
+                5,
+                3
+              ]
+            }
+          ],
+          "unit": "tiếng"
+        }
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet1-c3",
+    "lesson": {
+      "code": "tiengviet1-b12",
+      "title": "Bài 12. Vần anh, ênh, inh và ach, êch, ich",
+      "seq": 12,
+      "subtitle": "Nhận diện cặp vần kết thúc bằng nh và ch; nhớ luật dấu thanh với vần ch",
+      "concepts": [
+        "Vần anh, ênh, inh",
+        "Vần ach, êch, ich",
+        "Thanh điệu của vần ch"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV1-B12-001",
+        "d": "basic",
+        "p": "Tiếng \"sách\" trong \"quyển sách\" chứa vần nào?",
+        "o": [
+          "ach",
+          "ich",
+          "anh",
+          "êch"
+        ],
+        "k": "A",
+        "e": "Tiếng \"sách\" gồm âm s, vần ach và thanh sắc.",
+        "s": "Nhận diện vần",
+        "fig": {
+          "type": "table",
+          "title": "Nhóm vần nh và ch",
+          "head": [
+            "Âm cuối nh",
+            "Âm cuối ch"
+          ],
+          "rows": [
+            [
+              "anh / ênh / inh",
+              "ach / êch / ich"
+            ],
+            [
+              "bánh / kênh / bình",
+              "sách / ếch / lịch"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV1-B12-002",
+        "d": "basic",
+        "p": "Tiếng \"xanh\" trong \"xanh lá\" chứa vần nào?",
+        "o": [
+          "anh",
+          "ach",
+          "inh",
+          "ênh"
+        ],
+        "k": "A",
+        "e": "Tiếng \"xanh\" gồm âm đầu x ghép với vần anh.",
+        "s": "Nhận diện vần"
+      },
+      {
+        "c": "TV1-B12-003",
+        "d": "basic",
+        "p": "Con vật nào kêu \"ộp ộp\" vào mùa mưa, sống gần ao hồ và tên chứa vần \"êch\"?",
+        "o": [
+          "con ốc",
+          "con vịt",
+          "con cá",
+          "con ếch"
+        ],
+        "k": "D",
+        "e": "Tiếng \"ếch\" là vần êch thêm thanh sắc.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B12-004",
+        "d": "basic",
+        "p": "Tiếng \"lịch\" trong \"tờ lịch\" chứa vần nào?",
+        "o": [
+          "êch",
+          "ach",
+          "ich",
+          "inh"
+        ],
+        "k": "C",
+        "e": "Tiếng \"lịch\" gồm âm l, vần ich và thanh nặng.",
+        "s": "Nhận diện vần"
+      },
+      {
+        "c": "TV1-B12-005",
+        "d": "basic",
+        "p": "Những tiếng có vần kết thúc bằng \"ch\" (ach, êch, ich) chỉ mang được những thanh điệu nào?",
+        "o": [
+          "Cả 6 thanh điệu",
+          "Thanh huyền hoặc thanh hỏi",
+          "Thanh ngã hoặc thanh ngang",
+          "Chỉ thanh sắc hoặc thanh nặng"
+        ],
+        "k": "D",
+        "e": "Vần kết thúc bằng phụ âm tắc ch, t, c, p chỉ kết hợp với thanh sắc hoặc thanh nặng.",
+        "s": "Quy luật thanh điệu"
+      },
+      {
+        "c": "TV1-B12-006",
+        "d": "basic",
+        "p": "Tiếng \"bình\" trong \"bình hoa\" chứa vần nào?",
+        "o": [
+          "ênh",
+          "ich",
+          "inh",
+          "anh"
+        ],
+        "k": "C",
+        "e": "Tiếng \"bình\" gồm âm b, vần inh và thanh huyền.",
+        "s": "Nhận diện vần"
+      },
+      {
+        "c": "TV1-B12-007",
+        "d": "application",
+        "p": "Chọn từ viết ĐÚNG để chỉ sản phẩm làm từ bột gạo nếp gói lá dong dịp Tết:",
+        "o": [
+          "bách chưng",
+          "bảnh chưng",
+          "bánh trưng",
+          "bánh chưng"
+        ],
+        "k": "D",
+        "e": "Bánh chưng gồm \"bánh\" (vần anh) và \"chưng\" (ch, ưng).",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV1-B12-008",
+        "d": "application",
+        "p": "Trong hai tiếng \"kênh rạch\", các vần lần lượt là gì?",
+        "o": [
+          "ênh và ach",
+          "ênh và êch",
+          "inh và ach",
+          "anh và ach"
+        ],
+        "k": "A",
+        "e": "\"Kênh\" chứa vần ênh; \"rạch\" chứa vần ach.",
+        "s": "Phân tích từ"
+      },
+      {
+        "c": "TV1-B12-009",
+        "d": "application",
+        "p": "Chọn từ có tiếng chứa vần \"inh\":",
+        "o": [
+          "tờ lịch",
+          "gia đình",
+          "túi xách",
+          "bức tranh"
+        ],
+        "k": "B",
+        "e": "Tiếng \"đình\" gồm âm đ, vần inh và thanh huyền.",
+        "s": "Tìm vần"
+      },
+      {
+        "c": "TV1-B12-010",
+        "d": "application",
+        "p": "Điền đúng tiếng có vần \"êch\" vào câu: \"Chiếc mũ bị đội ... sang một bên.\"",
+        "o": [
+          "lạch",
+          "lệch",
+          "lịch",
+          "lệnh"
+        ],
+        "k": "B",
+        "e": "Tiếng \"lệch\" (vần êch) chỉ trạng thái không ngay ngắn.",
+        "s": "Vận dụng từ ngữ"
+      },
+      {
+        "c": "TV1-B12-011",
+        "d": "application",
+        "p": "Loài chim nào có tên chứa vần \"ích\" hoặc \"inh\" thường hót hay?",
+        "o": [
+          "chim sâu",
+          "chim cú",
+          "chim ưng",
+          "chim chích"
+        ],
+        "k": "D",
+        "e": "Chim chích (chích bông, chích chòe) có tiếng \"chích\" chứa vần ich.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B12-012",
+        "d": "application",
+        "p": "Trong câu \"Em giữ gìn sạch sẽ sách vở và đồ chơi\", có mấy tiếng chứa vần \"ach\"?",
+        "o": [
+          "4 tiếng",
+          "3 tiếng",
+          "1 tiếng",
+          "2 tiếng"
+        ],
+        "k": "D",
+        "e": "Hai tiếng chứa vần ach là \"sạch\" và \"sách\".",
+        "s": "Đếm vần"
+      },
+      {
+        "c": "TV1-B12-013",
+        "d": "advanced",
+        "p": "Bạn An viết \"quả chanh\" thành \"quả chăn\". Hãy chỉ ra chỗ sai và cách sửa đúng.",
+        "o": [
+          "Cả từ đều viết đúng",
+          "Sai vần \"ăn\" thành đúng là vần \"anh\" (chanh)",
+          "Sai dấu thanh",
+          "Sai âm đầu \"ch\" thành \"tr\""
+        ],
+        "k": "B",
+        "e": "Quả chanh vị chua viết với vần anh (chanh), còn \"chăn\" là đồ đắp khi ngủ.",
+        "s": "Sửa lỗi chính tả"
+      },
+      {
+        "c": "TV1-B12-014",
+        "d": "advanced",
+        "p": "Trong các từ sau, từ nào ghép từ một tiếng có âm cuối \"nh\" và một tiếng có âm cuối \"ch\"?",
+        "o": [
+          "bình minh",
+          "xinh xắn",
+          "tinh nghịch",
+          "sạch sẽ"
+        ],
+        "k": "C",
+        "e": "\"Tinh\" (vần inh) kết thúc bằng nh; \"nghịch\" (vần ich) kết thúc bằng ch.",
+        "s": "So sánh cấu trúc"
+      },
+      {
+        "c": "TV1-B12-015",
+        "d": "advanced",
+        "p": "Tại sao không có tiếng Tiếng Việt chuẩn nào là \"sạch\" mang thanh hỏi hay thanh huyền?",
+        "o": [
+          "Vì vần có âm cuối ch chỉ đi với thanh sắc hoặc thanh nặng",
+          "Vì từ đó khó đọc hơn",
+          "Vì chữ a chỉ có 2 thanh",
+          "Vì chữ s không đi với dấu hỏi"
+        ],
+        "k": "A",
+        "e": "Các vần kết thúc bằng c, ch, p, t chỉ mang thanh sắc hoặc thanh nặng.",
+        "s": "Hiểu sâu ngữ âm"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet1-c4",
+    "lesson": {
+      "code": "tiengviet1-b13",
+      "title": "Bài 13. Tôi là học sinh lớp 1",
+      "seq": 13,
+      "subtitle": "Đọc hiểu bài văn ngắn về ngày đầu đến trường và chuẩn bị đồ dùng học tập",
+      "concepts": [
+        "Đọc hiểu đoạn văn ngắn",
+        "Đồ dùng học sinh lớp 1",
+        "Từ ngữ chỉ hoạt động ở lớp"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV1-B13-001",
+        "d": "basic",
+        "p": "Đồ vật nào sau đây dùng để học sinh viết chữ vào vở ô li?",
+        "o": [
+          "Cái thước kẻ",
+          "Cục tẩy",
+          "Bút chì",
+          "Hộp màu"
+        ],
+        "k": "C",
+        "e": "Học sinh lớp 1 thường dùng bút chì (hoặc bút mực) để viết chữ vào vở ô li.",
+        "s": "Kiến thức đời sống",
+        "fig": {
+          "type": "table",
+          "title": "Đồ dùng lớp 1",
+          "head": [
+            "Đồ vật",
+            "Công dụng"
+          ],
+          "rows": [
+            [
+              "Bút chì",
+              "Viết chữ, vẽ"
+            ],
+            [
+              "Thước kẻ",
+              "Kẻ dòng thẳng"
+            ],
+            [
+              "Cục tẩy",
+              "Xóa nét sai"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV1-B13-002",
+        "d": "basic",
+        "p": "Khi nghe tiếng trống trường vang lên vào buổi sáng, học sinh lớp 1 cần làm gì?",
+        "o": [
+          "Nói chuyện thật to",
+          "Chạy ra cổng chơi",
+          "Ngủ tiếp trong lớp",
+          "Xếp hàng vào lớp ngay ngắn"
+        ],
+        "k": "D",
+        "e": "Nghe trống vào học, các bạn nhanh chóng xếp hàng vào lớp ngoan ngoãn.",
+        "s": "Đọc hiểu tình huống"
+      },
+      {
+        "c": "TV1-B13-003",
+        "d": "basic",
+        "p": "Trong cặp sách của học sinh lớp 1 KHÔNG nên mang theo vật nào khi đi học?",
+        "o": [
+          "Đồ chơi sắc nhọn",
+          "Sách Tiếng Việt 1",
+          "Hộp bút",
+          "Vở tập viết"
+        ],
+        "k": "A",
+        "e": "Không mang đồ chơi nguy hiểm, sắc nhọn đến trường để đảm bảo an toàn.",
+        "s": "An toàn học đường"
+      },
+      {
+        "c": "TV1-B13-004",
+        "d": "basic",
+        "p": "Khi cô giáo bước vào lớp học, cả lớp thường làm gì?",
+        "o": [
+          "Gọi to tên bạn",
+          "Ngồi yên nhìn ra cửa sổ",
+          "Chạy quanh bàn học",
+          "Đứng dậy khoanh tay chào cô"
+        ],
+        "k": "D",
+        "e": "Đứng dậy chào cô giáo thể hiện sự lễ phép của học sinh.",
+        "s": "Giao tiếp học đường"
+      },
+      {
+        "c": "TV1-B13-005",
+        "d": "basic",
+        "p": "Từ nào chỉ hoạt động của học sinh trong giờ Tiếng Việt?",
+        "o": [
+          "Đọc bài",
+          "Đá bóng",
+          "Nấu cơm",
+          "Bơi lội"
+        ],
+        "k": "A",
+        "e": "\"Đọc bài\" là hoạt động học tập trong giờ Tiếng Việt.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B13-006",
+        "d": "basic",
+        "p": "Trong câu \"Sáng nay, em mặc đồng phục mới đến trường\", từ nào chỉ trang phục đi học?",
+        "o": [
+          "trường",
+          "đồng phục",
+          "Sáng nay",
+          "mới"
+        ],
+        "k": "B",
+        "e": "\"Đồng phục\" là bộ quần áo quy định chung của học sinh khi đến trường.",
+        "s": "Từ vựng"
+      },
+      {
+        "c": "TV1-B13-007",
+        "d": "application",
+        "p": "Đọc đoạn: \"Ngày đầu đi học, Hà hơi rụt rè. Cô giáo mỉm cười dắt tay Hà vào lớp, Hà thấy vui hẳn lên.\" Vì sao lúc sau Hà hết rụt rè?",
+        "o": [
+          "Vì trời đổ mưa to",
+          "Vì Hà có nhiều bánh kẹo",
+          "Vì cô giáo mỉm cười dắt tay Hà",
+          "Vì Hà được nghỉ học"
+        ],
+        "k": "C",
+        "e": "Sự thân thiện, dịu dàng của cô giáo giúp Hà hết lo lắng và vui vẻ.",
+        "s": "Đọc hiểu chi tiết"
+      },
+      {
+        "c": "TV1-B13-008",
+        "d": "application",
+        "p": "Trong câu: \"Bàn học của em sạch sẽ và ngăn nắp.\" Từ nào tả đặc điểm của bàn học?",
+        "o": [
+          "Bàn học",
+          "của em",
+          "sạch sẽ, ngăn nắp",
+          "và"
+        ],
+        "k": "C",
+        "e": "\"Sạch sẽ\" và \"ngăn nắp\" là hai từ miêu tả đặc điểm gọn gàng của bàn học.",
+        "s": "Từ chỉ đặc điểm"
+      },
+      {
+        "c": "TV1-B13-009",
+        "d": "application",
+        "p": "Nếu muốn phát biểu ý kiến trong giờ học, em nên làm gì?",
+        "o": [
+          "Nói chen ngang lời cô",
+          "Giơ tay ngay ngắn chờ cô gọi",
+          "Gõ thước xuống bàn",
+          "Đứng lên bàn gọi lớn"
+        ],
+        "k": "B",
+        "e": "Giơ tay phát biểu là nề nếp văn minh trong lớp học.",
+        "s": "Kĩ năng học tập"
+      },
+      {
+        "c": "TV1-B13-010",
+        "d": "application",
+        "p": "Chọn câu văn viết ĐÚNG chính tả và đủ ý:",
+        "o": [
+          "Em rất thích đi học lớp Một.",
+          "Em rất thíc đi học lớp Một.",
+          "em rất thích đi học lớp một",
+          "Em dất thích đi học lớp Một."
+        ],
+        "k": "A",
+        "e": "Đầu câu viết hoa, cuối câu có dấu chấm, đúng chính tả: \"rất thích\".",
+        "s": "Viết câu"
+      },
+      {
+        "c": "TV1-B13-011",
+        "d": "application",
+        "p": "Từ nào cùng nghĩa với từ \"ngoan ngoãn\" khi khen bạn nhỏ biết nghe lời?",
+        "o": [
+          "nóng nảy",
+          "ồn ào",
+          "vâng lời",
+          "lười biếng"
+        ],
+        "k": "C",
+        "e": "Biết vâng lời ông bà, cha mẹ, thầy cô là biểu hiện của bạn nhỏ ngoan.",
+        "s": "Mở rộng vốn từ"
+      },
+      {
+        "c": "TV1-B13-012",
+        "d": "application",
+        "p": "Đọc: \"Bút chì giúp em viết chữ, còn tẩy giúp em sửa lỗi.\" Tẩy có tác dụng gì?",
+        "o": [
+          "Vẽ màu cho bức tranh",
+          "Đựng sách giáo khoa",
+          "Xóa sạch nét viết bị sai",
+          "Đo độ dài đoạn thẳng"
+        ],
+        "k": "C",
+        "e": "Đoạn văn nêu rõ công dụng của cục tẩy là giúp sửa lỗi.",
+        "s": "Đọc hiểu"
+      },
+      {
+        "c": "TV1-B13-013",
+        "d": "advanced",
+        "p": "Đọc đoạn thơ: \"Mỗi trang sách mở ra / Bao điều hay trước mắt / Cô dạy em nắn nót / Viết từng nét chữ tròn.\" Cô giáo dạy bạn nhỏ điều gì?",
+        "o": [
+          "Vẽ thật nhanh bức tranh lớn",
+          "Viết nắn nót từng nét chữ cho đẹp",
+          "Hát thật to bài ca",
+          "Gấp máy bay bằng giấy"
+        ],
+        "k": "B",
+        "e": "Hai dòng cuối nói rõ: \"Cô dạy em nắn nót / Viết từng nét chữ tròn.\"",
+        "s": "Đọc hiểu thơ"
+      },
+      {
+        "c": "TV1-B13-014",
+        "d": "advanced",
+        "p": "Trong đoạn \"Nam xếp sách vở thật gọn trước khi đi ngủ\", hành động của Nam thể hiện đức tính gì?",
+        "o": [
+          "Tính vội vàng, hấp tấp",
+          "Tính tự giác và ngăn nắp",
+          "Tính nhút nhát",
+          "Tính ham chơi"
+        ],
+        "k": "B",
+        "e": "Tự chuẩn bị sách vở từ tối hôm trước giúp rèn nếp sống tự giác, ngăn nắp.",
+        "s": "Rút ra bài học"
+      },
+      {
+        "c": "TV1-B13-015",
+        "d": "advanced",
+        "p": "Xếp 3 việc buổi sáng theo thứ tự hợp lí nhất: (1) Đến lớp học, (2) Đánh răng rửa mặt, (3) Ăn sáng và mặc đồng phục.",
+        "o": [
+          "(2) → (3) → (1)",
+          "(2) → (1) → (3)",
+          "(1) → (2) → (3)",
+          "(3) → (1) → (2)"
+        ],
+        "k": "A",
+        "e": "Sáng dậy cần vệ sinh cá nhân (2), rồi ăn sáng mặc đồng phục (3), sau đó mới đi học (1).",
+        "s": "Trình tự sự việc"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet1-c4",
+    "lesson": {
+      "code": "tiengviet1-b14",
+      "title": "Bài 14. Tình bạn – Chia sẻ cùng bạn",
+      "seq": 14,
+      "subtitle": "Đọc hiểu câu chuyện về tình bạn, biết nói lời cảm ơn, xin lỗi và chia sẻ",
+      "concepts": [
+        "Đọc hiểu câu chuyện tình bạn",
+        "Lời cảm ơn, xin lỗi",
+        "Từ ngữ chỉ tình cảm bạn bè"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV1-B14-001",
+        "d": "basic",
+        "p": "Khi bạn cho em mượn chiếc bút chì lúc em quên mang, em nên nói gì?",
+        "o": [
+          "Cảm ơn bạn rất nhiều!",
+          "Mình chẳng cần đâu!",
+          "Đưa ngay cho mình!",
+          "Lần sau mang nhiều hơn nhé!"
+        ],
+        "k": "A",
+        "e": "Khi nhận được sự giúp đỡ từ bạn, cần nói lời cảm ơn chân thành.",
+        "s": "Giao tiếp lịch sự"
+      },
+      {
+        "c": "TV1-B14-002",
+        "d": "basic",
+        "p": "Nếu lỡ tay làm rơi quyển vở của bạn xuống đất, em cần làm gì đầu tiên?",
+        "o": [
+          "Nhặt vở lên và nói lời xin lỗi bạn",
+          "Chạy đi chỗ khác ngay",
+          "Cười thật to",
+          "Đổ lỗi cho gió thổi"
+        ],
+        "k": "A",
+        "e": "Biết nhận lỗi, nhặt đồ giúp bạn và xin lỗi thể hiện sự tôn trọng bạn bè.",
+        "s": "Ứng xử"
+      },
+      {
+        "c": "TV1-B14-003",
+        "d": "basic",
+        "p": "Từ nào chỉ tình cảm gắn bó thân thiết giữa hai người bạn?",
+        "o": [
+          "xa lạ",
+          "giận dỗi",
+          "thân thiết",
+          "ghen ghét"
+        ],
+        "k": "C",
+        "e": "\"Thân thiết\" thể hiện tình bạn gắn bó, yêu quý nhau.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B14-004",
+        "d": "basic",
+        "p": "Hoạt động nào thể hiện sự chia sẻ với bạn?",
+        "o": [
+          "Không cho bạn ngồi cùng bàn",
+          "Chê bai chữ viết của bạn",
+          "Cho bạn xem chung sách khi bạn quên sách",
+          "Giấu sách của bạn đi"
+        ],
+        "k": "C",
+        "e": "Xem chung sách khi bạn quên mang thể hiện lòng tốt và sự sẻ chia.",
+        "s": "Nhận thức"
+      },
+      {
+        "c": "TV1-B14-005",
+        "d": "basic",
+        "p": "Trong câu \"Hoa và Lan cùng nhau tưới cây ở vườn trường\", ai là những nhân vật được nhắc đến?",
+        "o": [
+          "Hoa và Lan",
+          "Lan và mẹ",
+          "Cô giáo và Hoa",
+          "Chỉ có Hoa"
+        ],
+        "k": "A",
+        "e": "Câu văn nêu rõ tên hai bạn nhỏ là Hoa và Lan.",
+        "s": "Đọc hiểu"
+      },
+      {
+        "c": "TV1-B14-006",
+        "d": "basic",
+        "p": "Tiếng \"bạn\" trong từ \"bạn bè\" chứa vần gì?",
+        "o": [
+          "ăn",
+          "an",
+          "ân",
+          "am"
+        ],
+        "k": "B",
+        "e": "Tiếng \"bạn\" gồm âm b, vần an và thanh nặng.",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV1-B14-007",
+        "d": "application",
+        "p": "Đọc đoạn: \"Giờ ra chơi, Minh bị ngã trầy đầu gối. Huy vội chạy lại đỡ Minh đứng dậy và đưa vào phòng y tế.\" Việc làm của Huy đáng khen ở điểm nào?",
+        "o": [
+          "Biết kể chuyện cười rất hay",
+          "Biết chạy thật nhanh trong sân",
+          "Biết giữ bí mật cho riêng mình",
+          "Biết quan tâm và giúp đỡ bạn lúc gặp khó khăn"
+        ],
+        "k": "D",
+        "e": "Huy nhanh chóng đỡ bạn và đưa vào phòng y tế cho thấy tấm lòng quan tâm, giúp đỡ bạn.",
+        "s": "Đọc hiểu truyện"
+      },
+      {
+        "c": "TV1-B14-008",
+        "d": "application",
+        "p": "Điền từ thích hợp vào câu: \"Bạn ... tốt luôn sẵn sàng giúp đỡ nhau.\"",
+        "o": [
+          "vẻ",
+          "nhẹ",
+          "bẻ",
+          "bè"
+        ],
+        "k": "D",
+        "e": "Từ ghép quen thuộc là \"bạn bè\".",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B14-009",
+        "d": "application",
+        "p": "Trong lớp có một bạn mới chuyển từ trường khác tới còn bỡ ngỡ. Em nên làm gì?",
+        "o": [
+          "Chủ động làm quen và rủ bạn cùng chơi",
+          "Mặc kệ bạn ngồi một mình",
+          "Trêu chọc giọng nói của bạn",
+          "Không trả lời khi bạn hỏi"
+        ],
+        "k": "A",
+        "e": "Chủ động làm quen giúp bạn mới nhanh hòa nhập và vui vẻ hơn.",
+        "s": "Xử lí tình huống"
+      },
+      {
+        "c": "TV1-B14-010",
+        "d": "application",
+        "p": "Chọn câu hỏi đúng về tình cảm bạn bè trong đoạn: \"Đôi bạn Rùa và Thỏ cùng giúp nhau vượt qua suối nhỏ.\"",
+        "o": [
+          "Ai là chủ khu rừng?",
+          "Thỏ ngủ ở đâu?",
+          "Rùa và Thỏ đã làm gì cùng nhau?",
+          "Rùa ăn quả gì?"
+        ],
+        "k": "C",
+        "e": "Câu hỏi khớp với thông tin hành động cùng vượt suối trong đoạn văn.",
+        "s": "Đặt câu hỏi"
+      },
+      {
+        "c": "TV1-B14-011",
+        "d": "application",
+        "p": "Chọn từ viết ĐÚNG chính tả chỉ thái độ vui vẻ khi gặp bạn:",
+        "o": [
+          "tươi cừi",
+          "tươi cười",
+          "tươi cườ",
+          "tơi cười"
+        ],
+        "k": "B",
+        "e": "\"Tươi cười\" (ư-ơ-i và ư-ơ-i) viết chuẩn chính tả.",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV1-B14-012",
+        "d": "application",
+        "p": "Trong hai câu: \"Cảm ơn cậu nhé! Tớ vẽ xong rồi.\" Câu thứ nhất dùng để làm gì?",
+        "o": [
+          "Nhờ bạn làm bài hộ",
+          "Bày tỏ lòng biết ơn với bạn",
+          "Hỏi thăm sức khỏe bạn",
+          "Chê bức tranh của bạn"
+        ],
+        "k": "B",
+        "e": "\"Cảm ơn cậu nhé!\" là lời cảm ơn lịch sự.",
+        "s": "Chức năng câu"
+      },
+      {
+        "c": "TV1-B14-013",
+        "d": "advanced",
+        "p": "Đọc: \"Bầu ơi thương lấy bí cùng / Tuy rằng khác giống nhưng chung một giàn.\" Câu ca dao khuyên chúng ta điều gì?",
+        "o": [
+          "Không cần giúp đỡ ai khác",
+          "Phải trồng nhiều bầu và bí",
+          "Biết yêu thương, đùm bọc và đoàn kết với mọi người xung quanh",
+          "Chỉ chơi với bạn giống hệt mình"
+        ],
+        "k": "C",
+        "e": "Câu ca dao mượn hình ảnh bầu và bí để khuyên mọi người đoàn kết, thương yêu nhau.",
+        "s": "Cảm thụ văn học"
+      },
+      {
+        "c": "TV1-B14-014",
+        "d": "advanced",
+        "p": "Bảng ghi số việc tốt giúp bạn trong tuần của 3 bạn. Bạn nào có nhiều việc tốt nhất?",
+        "o": [
+          "Ba bạn bằng nhau",
+          "Bạn An",
+          "Bạn Bình",
+          "Bạn Chi"
+        ],
+        "k": "B",
+        "e": "Theo bảng, An có 6 việc tốt, nhiều hơn Bình (4) và Chi (5).",
+        "s": "Đọc bảng số liệu",
+        "fig": {
+          "type": "table",
+          "title": "Bảng việc tốt trong tuần",
+          "head": [
+            "Tên bạn",
+            "Số việc tốt"
+          ],
+          "rows": [
+            [
+              "An",
+              "6 việc"
+            ],
+            [
+              "Bình",
+              "4 việc"
+            ],
+            [
+              "Chi",
+              "5 việc"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV1-B14-015",
+        "d": "advanced",
+        "p": "Khi hai bạn cùng thích một chiếc xe đồ chơi ở góc lớp, cách giải quyết nào giúp giữ tình bạn đẹp?",
+        "o": [
+          "Giành giật cho bằng được",
+          "Thỏa thuận chơi luân phiên hoặc cùng chơi chung",
+          "Giấu đồ chơi đi không ai chơi",
+          "Nghỉ chơi với bạn luôn"
+        ],
+        "k": "B",
+        "e": "Biết nhường nhịn và chơi luân phiên giúp hai bạn vừa vui vừa gắn bó.",
+        "s": "Giải quyết xung đột"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet1-c4",
+    "lesson": {
+      "code": "tiengviet1-b15",
+      "title": "Bài 15. Mái ấm gia đình – Bàn tay mẹ",
+      "seq": 15,
+      "subtitle": "Đọc hiểu bài về tình cảm gia đình, biết cách thể hiện lòng hiếu thảo với người thân",
+      "concepts": [
+        "Gia đình yêu thương",
+        "Từ chỉ người thân",
+        "Kính trọng ông bà, cha mẹ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV1-B15-001",
+        "d": "basic",
+        "p": "Những người nào sau đây thường cùng sống chung trong một mái ấm gia đình nhỏ?",
+        "o": [
+          "Chú công an và lái xe",
+          "Bố, mẹ và các con",
+          "Bác sĩ và y tá",
+          "Cô giáo và các bạn"
+        ],
+        "k": "B",
+        "e": "Gia đình thường gồm bố, mẹ, con cái (và có thể có ông bà).",
+        "s": "Kiến thức gia đình"
+      },
+      {
+        "c": "TV1-B15-002",
+        "d": "basic",
+        "p": "Trong gia đình, em gái của mẹ gọi là gì (theo cách gọi phổ biến)?",
+        "o": [
+          "Dì",
+          "Ông",
+          "Bác trai",
+          "Chú"
+        ],
+        "k": "A",
+        "e": "Em gái của mẹ gọi là dì; em trai của bố gọi là chú.",
+        "s": "Từ xưng hô"
+      },
+      {
+        "c": "TV1-B15-003",
+        "d": "basic",
+        "p": "Bàn tay mẹ thường làm những việc nào để chăm sóc gia đình?",
+        "o": [
+          "Làm hỏng đồ chơi của con",
+          "Nấu cơm, giặt giũ, vỗ về con",
+          "Ngủ quên cả buổi sáng",
+          "Chỉ ngồi xem tivi cả ngày"
+        ],
+        "k": "B",
+        "e": "Mẹ chăm lo bữa ăn, giấc ngủ và việc nhà cho cả gia đình.",
+        "s": "Đọc hiểu chủ đề"
+      },
+      {
+        "c": "TV1-B15-004",
+        "d": "basic",
+        "p": "Từ nào viết ĐÚNG chính tả chỉ sự chăm sóc dịu dàng của mẹ dành cho con?",
+        "o": [
+          "au yếm",
+          "âu yến",
+          "âu iếm",
+          "âu yếm"
+        ],
+        "k": "D",
+        "e": "\"Âu yếm\" viết đúng với vần iêm -> yêm (yếm).",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV1-B15-005",
+        "d": "basic",
+        "p": "Việc làm nào phù hợp với sức của học sinh lớp 1 để giúp đỡ bố mẹ ở nhà?",
+        "o": [
+          "Quét nhà, gấp quần áo nhỏ, nhặt rau",
+          "Lái xe ô tô chở bố mẹ",
+          "Sửa chữa dây điện cao thế",
+          "Nấu cỗ lớn cho hàng trăm người"
+        ],
+        "k": "A",
+        "e": "Học sinh lớp 1 có thể làm việc nhà vừa sức như quét nhà, gấp đồ, nhặt rau.",
+        "s": "Phẩm chất chăm chỉ"
+      },
+      {
+        "c": "TV1-B15-006",
+        "d": "basic",
+        "p": "Trong câu \"Ông nội kể chuyện cho cả nhà cùng nghe\", chữ cái đầu tiên của câu viết như thế nào?",
+        "o": [
+          "Bỏ trống",
+          "Viết số",
+          "Viết hoa (Ông)",
+          "Viết thường (ông)"
+        ],
+        "k": "C",
+        "e": "Quy tắc viết câu Tiếng Việt: chữ cái đầu câu luôn viết hoa.",
+        "s": "Quy tắc viết câu"
+      },
+      {
+        "c": "TV1-B15-007",
+        "d": "application",
+        "p": "Đọc đoạn: \"Trời trở lạnh, bà lấy chiếc khăn len ấm quàng cổ cho Na rồi dặn Na nhớ đi tất.\" Bà thể hiện tình cảm gì với Na?",
+        "o": [
+          "Sự thờ ơ không quan tâm",
+          "Sự trách mắng nghiêm khắc",
+          "Sự vội vàng hối thúc",
+          "Sự yêu thương, chăm lo chu đáo"
+        ],
+        "k": "D",
+        "e": "Hành động quàng khăn và dặn đi tất thể hiện tình yêu thương ân cần của bà.",
+        "s": "Đọc hiểu"
+      },
+      {
+        "c": "TV1-B15-008",
+        "d": "application",
+        "p": "Từ nào dùng để miêu tả bữa cơm gia đình quây quần bên nhau rất vui vẻ?",
+        "o": [
+          "ấm áp",
+          "vắng tanh",
+          "lạnh lẽo",
+          "buồn bã"
+        ],
+        "k": "A",
+        "e": "Không khí gia đình sum họp vui vẻ thường được tả là \"ấm áp\".",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B15-009",
+        "d": "application",
+        "p": "Trong bài thơ: \"Mẹ về trời đã tối / Áo ướt đẫm mồ hôi / Thương mẹ làm vất vả / Em rót nước mời ngay.\" Bạn nhỏ đã làm gì khi thấy mẹ đi làm về?",
+        "o": [
+          "Đòi mẹ mua quà ngay lập tức",
+          "Rót nước mời mẹ uống",
+          "Tắt đèn đi ngủ trước",
+          "Chạy ra sân đá bóng ngay"
+        ],
+        "k": "B",
+        "e": "Hai câu cuối nêu rõ bạn nhỏ thương mẹ vất vả nên rót nước mời mẹ ngay.",
+        "s": "Đọc hiểu thơ"
+      },
+      {
+        "c": "TV1-B15-010",
+        "d": "application",
+        "p": "Chọn từ ghép chỉ chung những người sinh thành và nuôi dưỡng ta:",
+        "o": [
+          "thầy cô",
+          "cha mẹ",
+          "bạn bè",
+          "hàng xóm"
+        ],
+        "k": "B",
+        "e": "\"Cha mẹ\" (hoặc bố mẹ) là những người sinh thành và nuôi dưỡng ta.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B15-011",
+        "d": "application",
+        "p": "Khi mẹ bị ốm phải nằm nghỉ, em nên cư xử như thế nào?",
+        "o": [
+          "Đập cửa phòng ầm ĩ",
+          "Mở loa thật to hát nhảy",
+          "Đòi mẹ đi công viên ngay",
+          "Giữ im lặng, rót nước hoặc lấy khăn giúp mẹ"
+        ],
+        "k": "D",
+        "e": "Giữ yên tĩnh để mẹ nghỉ ngơi và hỏi thăm chăm sóc mẹ là việc nên làm.",
+        "s": "Ứng xử gia đình"
+      },
+      {
+        "c": "TV1-B15-012",
+        "d": "application",
+        "p": "Chọn câu viết ĐÚNG chính tả hoàn chỉnh:",
+        "o": [
+          "Cả nhà em quây quần bên mâm cơm tối.",
+          "Cả nhà em quay quần bên mâm cơm tối.",
+          "cả nhà em quây quần bên mâm cơm tối",
+          "Cả nhà em quây cuần bên mâm cơm tối."
+        ],
+        "k": "A",
+        "e": "\"Quây quần\" dùng vần ây ở tiếng thứ nhất, đầu câu viết hoa và cuối câu có dấu chấm.",
+        "s": "Chính tả câu"
+      },
+      {
+        "c": "TV1-B15-013",
+        "d": "advanced",
+        "p": "Đọc câu ca dao: \"Công cha như núi Thái Sơn / Nghĩa mẹ như nước trong nguồn chảy ra.\" Vì sao công lao của cha mẹ lại được so sánh với núi cao và nước nguồn?",
+        "o": [
+          "Vì nhà ông bà ở gần ngọn núi và con suối",
+          "Vì công lao cha mẹ vô cùng to lớn, dạt dào không bao giờ cạn",
+          "Vì cha mẹ thích đi du lịch leo núi",
+          "Vì núi rất nặng còn nước rất lạnh"
+        ],
+        "k": "B",
+        "e": "Hình ảnh núi cao và nước nguồn bất tận ca ngợi công ơn sinh thành dưỡng dục vô bờ bến của cha mẹ.",
+        "s": "Cảm thụ"
+      },
+      {
+        "c": "TV1-B15-014",
+        "d": "advanced",
+        "p": "Tìm từ gồm 2 tiếng đều chỉ hoạt động yêu thương giữa các thành viên trong nhà:",
+        "o": [
+          "chạy nhảy",
+          "chăm sóc",
+          "học toán",
+          "xem phim"
+        ],
+        "k": "B",
+        "e": "\"Chăm sóc\" là hành động quan tâm, lo lắng, giữ gìn sức khỏe cho người thân.",
+        "s": "Từ vựng"
+      },
+      {
+        "c": "TV1-B15-015",
+        "d": "advanced",
+        "p": "Ghép đúng các tiếng \"yêu, gia, đình, thương\" thành một câu ngắn có nghĩa hoàn chỉnh:",
+        "o": [
+          "Em yêu thương gia đình.",
+          "Thương đình gia em yêu.",
+          "Gia đình thương yêu là.",
+          "Yêu gia em đình thương."
+        ],
+        "k": "A",
+        "e": "Câu \"Em yêu thương gia đình.\" đúng ngữ pháp và truyền tải trọn vẹn thông điệp.",
+        "s": "Sắp xếp câu"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet1-c4",
+    "lesson": {
+      "code": "tiengviet1-b16",
+      "title": "Bài 16. Lễ phép với ông bà, cha mẹ và thầy cô",
+      "seq": 16,
+      "subtitle": "Rèn cách thưa gửi, chào hỏi lễ phép và biết lắng nghe lời dạy bảo",
+      "concepts": [
+        "Từ ngữ lễ phép",
+        "Nói năng tròn câu, có thưa gửi",
+        "Đọc hiểu truyện giáo dục"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV1-B16-001",
+        "d": "basic",
+        "p": "Khi gặp thầy giáo hoặc cô giáo ở cổng trường, học sinh cần nói gì?",
+        "o": [
+          "Nói trống không: Chào!",
+          "Chào thầy hoặc chào cô ạ!",
+          "Đi thẳng không nói gì",
+          "Cười rồi quay mặt đi"
+        ],
+        "k": "B",
+        "e": "Chào hỏi có từ \"ạ\" và gọi đúng vai vế thể hiện sự lễ phép.",
+        "s": "Giao tiếp"
+      },
+      {
+        "c": "TV1-B16-002",
+        "d": "basic",
+        "p": "Từ nào đặt ở cuối câu giúp lời nói với người lớn trở nên lịch sự, lễ phép hơn?",
+        "o": [
+          "nhỉ",
+          "nhé",
+          "cơ",
+          "ạ"
+        ],
+        "k": "D",
+        "e": "Tiếng \"ạ\" ở cuối câu thể hiện thái độ kính trọng với ông bà, cha mẹ, thầy cô.",
+        "s": "Ngữ dụng học"
+      },
+      {
+        "c": "TV1-B16-003",
+        "d": "basic",
+        "p": "Khi nhận đồ vật từ tay người lớn, em nên đón nhận bằng cách nào?",
+        "o": [
+          "Đón bằng hai tay và nói lời cảm ơn",
+          "Giật bằng một tay rồi chạy đi",
+          "Nói: Có thế thôi à?",
+          "Để đồ rơi xuống đất"
+        ],
+        "k": "A",
+        "e": "Đưa và nhận bằng hai tay kèm lời cảm ơn là phép lịch sự đẹp.",
+        "s": "Kĩ năng sống"
+      },
+      {
+        "c": "TV1-B16-004",
+        "d": "basic",
+        "p": "Trong câu \"Cháu chào bà ạ!\", ai là người đang nói câu này?",
+        "o": [
+          "Người bà",
+          "Cô giáo",
+          "Bạn hàng xóm",
+          "Người cháu"
+        ],
+        "k": "D",
+        "e": "Cháu tự xưng \"Cháu\" và chào \"bà ạ\", nên người nói là người cháu.",
+        "s": "Đọc hiểu"
+      },
+      {
+        "c": "TV1-B16-005",
+        "d": "basic",
+        "p": "Tiếng \"lễ\" trong từ \"lễ phép\" mang thanh điệu gì?",
+        "o": [
+          "Thanh sắc",
+          "Thanh hỏi",
+          "Thanh ngã",
+          "Thanh nặng"
+        ],
+        "k": "C",
+        "e": "Chữ \"lễ\" có dấu ngã ở trên âm ê.",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV1-B16-006",
+        "d": "basic",
+        "p": "Từ nào chỉ thái độ biết kính trọng và vâng lời người trên?",
+        "o": [
+          "kính trọng",
+          "cãi lại",
+          "bướng bỉnh",
+          "ngỗ ngược"
+        ],
+        "k": "A",
+        "e": "\"Kính trọng\" thể hiện sự tôn kính, lễ độ với người lớn tuổi.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B16-007",
+        "d": "application",
+        "p": "Bà hỏi: \"Cháu đi học về rồi đấy à?\" Câu trả lời nào lễ phép nhất?",
+        "o": [
+          "Ừ, về rồi!",
+          "Sao bà hỏi thế?",
+          "Biết rồi còn hỏi!",
+          "Dạ, cháu mới đi học về ạ!"
+        ],
+        "k": "D",
+        "e": "Bắt đầu bằng \"Dạ\" và kết thúc bằng \"ạ\" thể hiện sự ngoan ngoãn, lễ phép.",
+        "s": "Ứng xử"
+      },
+      {
+        "c": "TV1-B16-008",
+        "d": "application",
+        "p": "Đọc đoạn: \"Lúc đi học, Minh khoanh tay thưa: Con chào bố mẹ con đi học ạ! Chiều về, Minh lại chạy ra chào ông bà ngay từ cửa.\" Nhận xét nào đúng về Minh?",
+        "o": [
+          "Minh là cậu bé rất lễ phép và hiếu thảo",
+          "Minh chỉ chào bố mẹ vào buổi chiều",
+          "Minh hay quên chào người thân",
+          "Minh không thích đi học"
+        ],
+        "k": "A",
+        "e": "Minh nhớ chào hỏi đầy đủ khi đi và về, rất ngoan và lễ phép.",
+        "s": "Đọc hiểu"
+      },
+      {
+        "c": "TV1-B16-009",
+        "d": "application",
+        "p": "Chọn câu viết ĐÚNG chính tả:",
+        "o": [
+          "Cháu mời ông bà ăn cơm ạ.",
+          "Cháu mời ông bà ăn cơm ạ?",
+          "Cháu mời ông bà an cơm ạ.",
+          "Cháu mời ông bà ăn cơm nha."
+        ],
+        "k": "A",
+        "e": "Câu mời cơm lễ phép kết thúc bằng dấu chấm và viết đúng chính tả \"ăn cơm\".",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV1-B16-010",
+        "d": "application",
+        "p": "Khi bố mẹ đang nói chuyện với khách đến chơi nhà, em cần làm gì?",
+        "o": [
+          "Chào khách rồi giữ trật tự, không nói chen ngang",
+          "Đứng nghe lén sau cánh cửa",
+          "Hét thật to giữa phòng khách",
+          "Kéo áo bố mẹ đòi mua đồ ngay"
+        ],
+        "k": "A",
+        "e": "Chào hỏi lịch sự và không ngắt lời người lớn đang trò chuyện là phép lịch sự cơ bản.",
+        "s": "Ứng xử"
+      },
+      {
+        "c": "TV1-B16-011",
+        "d": "application",
+        "p": "Trong hai từ \"chào hỏi\" và \"lễ phép\", các tiếng đều không chứa âm đầu nào dưới đây?",
+        "o": [
+          "âm s",
+          "âm ch",
+          "âm ph",
+          "âm h"
+        ],
+        "k": "A",
+        "e": "\"chào (ch), hỏi (h), lễ (l), phép (ph)\" đều không có âm s.",
+        "s": "Phân tích tiếng"
+      },
+      {
+        "c": "TV1-B16-012",
+        "d": "application",
+        "p": "Điền từ thích hợp: \"Kính thầy ... bạn.\"",
+        "o": [
+          "quên",
+          "sợ",
+          "ghét",
+          "yêu"
+        ],
+        "k": "D",
+        "e": "Câu khẩu hiệu quen thuộc ở trường Tiểu học là \"Kính thầy yêu bạn\".",
+        "s": "Thành ngữ học đường"
+      },
+      {
+        "c": "TV1-B16-013",
+        "d": "advanced",
+        "p": "Đọc: \"Lời chào cao hơn mâm cỗ.\" Câu tục ngữ muốn nhắc nhở điều gì?",
+        "o": [
+          "Trước khi ăn cỗ phải chào thật lâu",
+          "Không cần ăn cơm chỉ cần chào",
+          "Mâm cỗ đặt trên bàn thấp hơn người",
+          "Lời chào hỏi lễ phép, chân thành quý giá hơn cả vật chất hay đồ ăn ngon"
+        ],
+        "k": "D",
+        "e": "Câu tục ngữ đề cao giá trị tinh thần của thái độ lịch sự, trọng tình nghĩa trong giao tiếp.",
+        "s": "Hiểu tục ngữ"
+      },
+      {
+        "c": "TV1-B16-014",
+        "d": "advanced",
+        "p": "So sánh hai cách nói: (1) \"Bà đưa cháu quyển sách.\" và (2) \"Bà ơi, bà cho cháu xin quyển sách ạ!\" Cách nào đúng mực hơn và vì sao?",
+        "o": [
+          "Cả hai đều giống nhau",
+          "Cách (1) vì không cần hỏi xin",
+          "Cách (1) vì nói nhanh hơn",
+          "Cách (2) vì có lời thưa gọi và từ \"ạ\" lễ phép"
+        ],
+        "k": "D",
+        "e": "Với người lớn tuổi, lời nói cần có từ xưng hô thân thương (\"Bà ơi\") và từ lễ phép (\"xin... ạ\").",
+        "s": "So sánh giao tiếp"
+      },
+      {
+        "c": "TV1-B16-015",
+        "d": "advanced",
+        "p": "Bạn An lỡ nói trống không với bác hàng xóm. Nếu là bạn thân của An, em nên khuyên An thế nào?",
+        "o": [
+          "Chê bạn trước mặt mọi người",
+          "Nhẹ nhàng nhắc bạn lần sau nhớ thêm \"Dạ, thưa bác, ... ạ!\" cho lễ phép",
+          "Không thèm chơi với bạn nữa",
+          "Cười theo và bắt chước bạn"
+        ],
+        "k": "B",
+        "e": "Góp ý nhẹ nhàng giúp bạn sửa thói quen chưa tốt mà vẫn giữ được tình bạn.",
+        "s": "Ứng xử thông minh"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet1-c5",
+    "lesson": {
+      "code": "tiengviet1-b17",
+      "title": "Bài 17. Trường học của em – Thầy cô và bạn bè",
+      "seq": 17,
+      "subtitle": "Đọc hiểu văn bản miêu tả ngôi trường, sân trường và tình cảm với thầy cô",
+      "concepts": [
+        "Từ ngữ về trường học",
+        "Đọc hiểu miêu tả",
+        "Câu kể đơn giản"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV1-B17-001",
+        "d": "basic",
+        "p": "Nơi học sinh đến đọc sách, mượn truyện trong trường gọi là gì?",
+        "o": [
+          "Thư viện",
+          "Sân bóng",
+          "Bãi đỗ xe",
+          "Nhà ăn"
+        ],
+        "k": "A",
+        "e": "Thư viện là phòng lưu giữ nhiều sách, truyện phục vụ học sinh đọc và học tập.",
+        "s": "Vốn từ trường học"
+      },
+      {
+        "c": "TV1-B17-002",
+        "d": "basic",
+        "p": "Trong trường học, ai là người trực tiếp giảng bài trên lớp cho các em?",
+        "o": [
+          "Bác bảo vệ",
+          "Thầy cô giáo",
+          "Cô lao công",
+          "Chú lái xe"
+        ],
+        "k": "B",
+        "e": "Thầy cô giáo trực tiếp dạy dỗ kiến thức và rèn luyện học sinh.",
+        "s": "Nhận diện"
+      },
+      {
+        "c": "TV1-B17-003",
+        "d": "basic",
+        "p": "Từ nào chỉ âm thanh quen thuộc báo hiệu giờ vào lớp hoặc giờ ra chơi?",
+        "o": [
+          "tiếng gió",
+          "tiếng còi tàu",
+          "tiếng trống",
+          "tiếng mưa"
+        ],
+        "k": "C",
+        "e": "Tiếng trống trường \"tùng tùng tùng\" báo hiệu giờ học và giờ giải lao.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B17-004",
+        "d": "basic",
+        "p": "Cây xanh được trồng trên sân trường có tác dụng chính là gì?",
+        "o": [
+          "Tỏa bóng mát và làm đẹp cảnh quan",
+          "Làm sân trường tối tăm",
+          "Ngăn không cho các bạn chơi",
+          "Che khuất hết cửa sổ lớp học"
+        ],
+        "k": "A",
+        "e": "Cây xanh giúp sân trường rợp bóng mát và không khí trong lành.",
+        "s": "Hiểu biết"
+      },
+      {
+        "c": "TV1-B17-005",
+        "d": "basic",
+        "p": "Tiếng \"trường\" trong \"trường học\" bắt đầu bằng âm nào?",
+        "o": [
+          "tr",
+          "t",
+          "th",
+          "ch"
+        ],
+        "k": "A",
+        "e": "Tiếng \"trường\" bắt đầu bằng phụ âm tr, vần ương và thanh huyền.",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV1-B17-006",
+        "d": "basic",
+        "p": "Từ nào chỉ hoạt động làm cho lớp học luôn sạch đẹp?",
+        "o": [
+          "nói chuyện",
+          "ngủ gật",
+          "trực nhật",
+          "chạy nhảy"
+        ],
+        "k": "C",
+        "e": "Trực nhật là cùng nhau quét lớp, lau bảng, sắp xếp bàn ghế gọn gàng.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B17-007",
+        "d": "application",
+        "p": "Đọc đoạn: \"Giờ ra chơi, sân trường rộn rã tiếng cười. Nhóm bạn nữ nhảy dây dưới tán phượng, nhóm bạn nam đá cầu gần bồn hoa.\" Sân trường giờ ra chơi như thế nào?",
+        "o": [
+          "Buồn bã vì trời mưa",
+          "Im ắng, không một bóng người",
+          "Rộn rã, vui tươi với nhiều trò chơi",
+          "Mọi người đều ngồi trong lớp"
+        ],
+        "k": "C",
+        "e": "Từ \"rộn rã tiếng cười\" cùng các trò chơi nhảy dây, đá cầu cho thấy sân trường rất vui nhộn.",
+        "s": "Đọc hiểu"
+      },
+      {
+        "c": "TV1-B17-008",
+        "d": "application",
+        "p": "Từ nào tả màu sắc rực rỡ của hoa phượng vào mùa hè ở sân trường?",
+        "o": [
+          "tím ngắt",
+          "đỏ rực",
+          "xanh thẫm",
+          "trắng xóa"
+        ],
+        "k": "B",
+        "e": "Hoa phượng nở mùa hè có màu đỏ rực.",
+        "s": "Từ tả màu sắc"
+      },
+      {
+        "c": "TV1-B17-009",
+        "d": "application",
+        "p": "Bác bảo vệ và cô lao công ở trường làm công việc gì giúp học sinh?",
+        "o": [
+          "Chấm điểm bài kiểm tra",
+          "Giữ gìn an ninh cổng trường và giữ trường sạch đẹp",
+          "Dạy môn Tiếng Anh",
+          "Bán sách giáo khoa"
+        ],
+        "k": "B",
+        "e": "Mỗi người ở trường đều đóng góp công sức chăm lo cho môi trường học tập an toàn, sạch sẽ.",
+        "s": "Hiểu biết xã hội"
+      },
+      {
+        "c": "TV1-B17-010",
+        "d": "application",
+        "p": "Chọn câu tả đúng về lớp học của em:",
+        "o": [
+          "Phòng học của em biết bơi dưới sông.",
+          "Phòng học của em bay trên bầu trời.",
+          "Phòng học của em mọc nhiều cỏ dại.",
+          "Phòng học của em thoáng mát và đủ ánh sáng."
+        ],
+        "k": "D",
+        "e": "\"Thoáng mát và đủ ánh sáng\" miêu tả hợp lí, chân thực một lớp học đẹp.",
+        "s": "Đặt câu"
+      },
+      {
+        "c": "TV1-B17-011",
+        "d": "application",
+        "p": "Trong hai từ \"bảng đen\" và \"phấn trắng\", tiếng nào có âm cuối là chữ \"n\"?",
+        "o": [
+          "Không có tiếng nào",
+          "Cả \"đen\" và \"phấn\"",
+          "Chỉ có \"trắng\"",
+          "Chỉ có \"bảng\""
+        ],
+        "k": "B",
+        "e": "\"Đen\" (vần en) và \"phấn\" (vần ân) kết thúc bằng n; \"bảng\" và \"trắng\" kết thúc bằng ng.",
+        "s": "So sánh vần"
+      },
+      {
+        "c": "TV1-B17-012",
+        "d": "application",
+        "p": "Sắp xếp các từ \"em, yêu, ngôi, trường, này\" thành câu đúng:",
+        "o": [
+          "Yêu em này ngôi trường.",
+          "Em yêu ngôi trường này.",
+          "Ngôi này trường em yêu.",
+          "Trường ngôi này yêu em."
+        ],
+        "k": "B",
+        "e": "Câu chuẩn ngữ pháp là \"Em yêu ngôi trường này.\"",
+        "s": "Ghép câu"
+      },
+      {
+        "c": "TV1-B17-013",
+        "d": "advanced",
+        "p": "Đọc: \"Bốn mùa cây bàng thay lá / Mùa xuân lá non xanh mơn mởn / Mùa hạ tán lá xòe ô che nắng.\" Cây bàng vào mùa hạ có điểm gì nổi bật?",
+        "o": [
+          "Tán lá xòe rộng như chiếc ô che nắng cho học sinh",
+          "Lá bàng rụng hết trơ cành",
+          "Lá bàng vừa mới nhú mầm nhỏ",
+          "Cây bàng nở hoa màu vàng"
+        ],
+        "k": "A",
+        "e": "Đoạn văn nêu rõ \"Mùa hạ tán lá xòe ô che nắng\".",
+        "s": "Đọc hiểu chi tiết"
+      },
+      {
+        "c": "TV1-B17-014",
+        "d": "advanced",
+        "p": "Trong đoạn trên, từ \"mơn mởn\" gợi tả điều gì của lá bàng mùa xuân?",
+        "o": [
+          "Vẻ tươi non, xanh mướt đầy sức sống",
+          "Vẻ cứng cáp như gỗ",
+          "Vẻ khô héo sắp rụng",
+          "Vẻ úa vàng vào mùa thu"
+        ],
+        "k": "A",
+        "e": "\"Xanh mơn mởn\" diễn tả sắc xanh non tơ, tươi mát của lá non mùa xuân.",
+        "s": "Cảm thụ từ ngữ"
+      },
+      {
+        "c": "TV1-B17-015",
+        "d": "advanced",
+        "p": "Em cần làm gì để thể hiện tình yêu với ngôi trường mình đang học?",
+        "o": [
+          "Ngắt hoa ở bồn hoa sân trường",
+          "Vẽ bậy lên tường lớp học",
+          "Xả giấy vụn dưới gầm bàn",
+          "Giữ gìn bàn ghế, không xả rác và chăm chỉ học tập"
+        ],
+        "k": "D",
+        "e": "Bảo vệ tài sản trường lớp, giữ vệ sinh và học tốt là cách yêu trường thiết thực nhất.",
+        "s": "Liên hệ bản thân"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet1-c5",
+    "lesson": {
+      "code": "tiengviet1-b18",
+      "title": "Bài 18. Bốn mùa tươi đẹp và cây cối quanh ta",
+      "seq": 18,
+      "subtitle": "Đọc hiểu về đặc điểm bốn mùa xuân, hạ, thu, đông và ích lợi của cây xanh",
+      "concepts": [
+        "Đặc điểm bốn mùa",
+        "Từ chỉ thời tiết, cây cối",
+        "Đọc hiểu thông tin"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV1-B18-001",
+        "d": "basic",
+        "p": "Một năm có tất cả mấy mùa theo thứ tự tuần hoàn?",
+        "o": [
+          "4 mùa",
+          "5 mùa",
+          "3 mùa",
+          "2 mùa"
+        ],
+        "k": "A",
+        "e": "Một năm gồm 4 mùa: Xuân, Hạ (Hè), Thu, Đông.",
+        "s": "Kiến thức tự nhiên",
+        "fig": {
+          "type": "table",
+          "title": "Bốn mùa trong năm",
+          "head": [
+            "Mùa",
+            "Đặc điểm nổi bật"
+          ],
+          "rows": [
+            [
+              "Xuân",
+              "Ấm áp, hoa nở"
+            ],
+            [
+              "Hạ",
+              "Nắng nóng, ve kêu"
+            ],
+            [
+              "Thu",
+              "Mát mẻ, trăng rằm"
+            ],
+            [
+              "Đông",
+              "Gió lạnh, mặc ấm"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV1-B18-002",
+        "d": "basic",
+        "p": "Mùa nào trong năm thời tiết ấm áp, muôn hoa đua nở và có dịp Tết cổ truyền?",
+        "o": [
+          "Mùa thu",
+          "Mùa xuân",
+          "Mùa đông",
+          "Mùa hạ"
+        ],
+        "k": "B",
+        "e": "Mùa xuân ấm áp, cây cối đâm chồi nảy lộc và có Tết Nguyên đán.",
+        "s": "Nhận biết mùa"
+      },
+      {
+        "c": "TV1-B18-003",
+        "d": "basic",
+        "p": "Vào mùa nào các bạn học sinh thường có kì nghỉ dài, nghe tiếng ve kêu và thấy hoa phượng nở?",
+        "o": [
+          "Mùa thu",
+          "Mùa hạ",
+          "Mùa đông",
+          "Mùa xuân"
+        ],
+        "k": "B",
+        "e": "Mùa hạ (mùa hè) nắng ấm rực rỡ, phượng nở đỏ rực và có ve sầu kêu.",
+        "s": "Nhận biết mùa"
+      },
+      {
+        "c": "TV1-B18-004",
+        "d": "basic",
+        "p": "Bộ phận nào của cây giúp hút nước và chất dinh dưỡng từ dưới đất lên?",
+        "o": [
+          "Quả",
+          "Rễ cây",
+          "Hoa",
+          "Lá cây"
+        ],
+        "k": "B",
+        "e": "Rễ cây bám sâu trong lòng đất để hút nước, muối khoáng nuôi cây.",
+        "s": "Từ vựng cây cối"
+      },
+      {
+        "c": "TV1-B18-005",
+        "d": "basic",
+        "p": "Từ nào chỉ thời tiết đặc trưng của mùa đông ở miền Bắc nước ta?",
+        "o": [
+          "oi bức",
+          "nắng gắt",
+          "giá rét",
+          "nóng nực"
+        ],
+        "k": "C",
+        "e": "Mùa đông có gió mùa đông bắc làm thời tiết lạnh, giá rét.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B18-006",
+        "d": "basic",
+        "p": "Loại quả nào thường gắn với mâm cỗ Trung thu vào mùa thu?",
+        "o": [
+          "Lá bàng rụng",
+          "Quả phượng vĩ",
+          "Hạt thóc khô",
+          "Quả bưởi, quả hồng"
+        ],
+        "k": "D",
+        "e": "Mùa thu tiết trời dịu mát, có Tết Trung thu với bưởi, hồng, na.",
+        "s": "Văn hóa - tự nhiên"
+      },
+      {
+        "c": "TV1-B18-007",
+        "d": "application",
+        "p": "Đọc đoạn: \"Xuân về, mưa bụi bay lất phất. Những mầm non xanh biếc bật lên từ kẽ lá nâu.\" Từ nào tả những hạt mưa mùa xuân?",
+        "o": [
+          "tầm tã",
+          "lất phất",
+          "ào ào",
+          "xối xả"
+        ],
+        "k": "B",
+        "e": "\"Lất phất\" miêu tả những hạt mưa xuân nhỏ li ti, rơi nhẹ nhàng.",
+        "s": "Cảm thụ từ ngữ"
+      },
+      {
+        "c": "TV1-B18-008",
+        "d": "application",
+        "p": "Trong câu \"Mùa thu, bầu trời cao và trong xanh\", thời tiết được miêu tả như thế nào?",
+        "o": [
+          "Trời cao, trong xanh",
+          "Trời nhiều mây đen sấm sét",
+          "Trời xám xịt mù sương",
+          "Trời đầy mưa bão"
+        ],
+        "k": "A",
+        "e": "Câu văn tả rõ bầu trời mùa thu cao và trong xanh.",
+        "s": "Đọc hiểu"
+      },
+      {
+        "c": "TV1-B18-009",
+        "d": "application",
+        "p": "Chọn câu viết ĐÚNG chính tả khi nhắc đến việc trồng cây:",
+        "o": [
+          "Trồng cây gây rừng giúp không khí chong lành.",
+          "Trồng cây gây dừng giúp không khí trong lành.",
+          "Chồng cây gây rừng giúp không khí trong lành.",
+          "Trồng cây gây rừng giúp không khí trong lành."
+        ],
+        "k": "D",
+        "e": "\"Trồng\" (tr), \"rừng\" (r), \"trong\" (tr) đều viết chuẩn chính tả.",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV1-B18-010",
+        "d": "application",
+        "p": "Trong hai từ \"đâm chồi\" và \"nảy lộc\", tiếng nào có vần bắt đầu bằng âm \"ô\" (vần ôc)?",
+        "o": [
+          "nảy",
+          "đâm",
+          "chồi",
+          "lộc"
+        ],
+        "k": "D",
+        "e": "Tiếng \"lộc\" có vần ôc (âm chính ô, âm cuối c).",
+        "s": "Phân tích vần"
+      },
+      {
+        "c": "TV1-B18-011",
+        "d": "application",
+        "p": "Tại sao vào mùa đông chúng ta cần mặc áo khoác ấm, quàng khăn?",
+        "o": [
+          "Để chạy nhảy nhanh hơn",
+          "Vì áo khoác nhẹ hơn áo cộc",
+          "Để đi bơi dưới biển",
+          "Để giữ ấm cơ thể, phòng tránh bị cảm lạnh"
+        ],
+        "k": "D",
+        "e": "Thời tiết lạnh giá đòi hỏi mặc đủ ấm để bảo vệ sức khỏe.",
+        "s": "Liên hệ thực tế"
+      },
+      {
+        "c": "TV1-B18-012",
+        "d": "application",
+        "p": "Nhóm từ nào chỉ các bộ phận của cây?",
+        "o": [
+          "xuân, hạ, thu, đông",
+          "mây, mưa, gió, bão",
+          "bút, thước, sách, vở",
+          "rễ, thân, cành, lá"
+        ],
+        "k": "D",
+        "e": "\"Rễ, thân, cành, lá\" đều là các bộ phận cấu tạo nên cây xanh.",
+        "s": "Phân loại từ"
+      },
+      {
+        "c": "TV1-B18-013",
+        "d": "advanced",
+        "p": "Đọc thơ: \"Nắng vàng rải khắp đồng / Tiếng ve ngân rộn rã / Phượng thắp lửa trên cành / Đón mùa ... gõ cửa.\" Điền tên mùa thích hợp vào chỗ trống:",
+        "o": [
+          "hạ",
+          "xuân",
+          "đông",
+          "thu"
+        ],
+        "k": "A",
+        "e": "Tiếng ve ngân và hoa phượng đỏ (\"thắp lửa\") là dấu hiệu đặc trưng của mùa hạ.",
+        "s": "Đọc hiểu thơ"
+      },
+      {
+        "c": "TV1-B18-014",
+        "d": "advanced",
+        "p": "Hình ảnh \"Phượng thắp lửa trên cành\" có nghĩa là gì?",
+        "o": [
+          "Người ta treo đèn lồng lên cây",
+          "Lá cây chuyển sang màu đen",
+          "Hoa phượng nở đỏ rực trên cành trông như những ngọn lửa nhỏ",
+          "Cành cây phượng bị cháy thật"
+        ],
+        "k": "C",
+        "e": "Tác giả ví hoa phượng đỏ rực như ngọn lửa thắp sáng trên cành cây.",
+        "s": "Biện pháp hình ảnh"
+      },
+      {
+        "c": "TV1-B18-015",
+        "d": "advanced",
+        "p": "Em nhìn thấy bạn định bẻ một cành hoa đang nở đẹp ở công viên. Em nên nói gì với bạn?",
+        "o": [
+          "Kệ cây đi, nó mọc lại nhanh lắm!",
+          "Bạn đừng bẻ cành nhé, hãy để hoa nở đẹp cho mọi người cùng ngắm!",
+          "Cậu bẻ cho tớ một bông nữa đi!",
+          "Để tớ giữ cành giúp cậu bẻ!"
+        ],
+        "k": "B",
+        "e": "Khuyên bạn không ngắt hoa bẻ cành góp phần bảo vệ thiên nhiên xanh đẹp.",
+        "s": "Bảo vệ môi trường"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet1-c5",
+    "lesson": {
+      "code": "tiengviet1-b19",
+      "title": "Bài 19. Thế giới loài vật quanh em",
+      "seq": 19,
+      "subtitle": "Đọc hiểu truyện về loài vật, nhận biết tiếng kêu, đặc điểm và lợi ích của con vật",
+      "concepts": [
+        "Từ tả đặc điểm con vật",
+        "Truyện đồng thoại thiếu nhi",
+        "Đọc hiểu nội dung"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV1-B19-001",
+        "d": "basic",
+        "p": "Con vật nào thường gáy \"ò ó o\" mỗi buổi sáng sớm để đánh thức mọi người?",
+        "o": [
+          "Gà trống",
+          "Mèo mướp",
+          "Vịt bầu",
+          "Chó mực"
+        ],
+        "k": "A",
+        "e": "Gà trống có tiếng gáy \"ò ó o\" vang xa lúc bình minh.",
+        "s": "Nhận biết con vật"
+      },
+      {
+        "c": "TV1-B19-002",
+        "d": "basic",
+        "p": "Loài vật nào giỏi bắt chuột bảo vệ mùa màng và thóc gạo trong nhà?",
+        "o": [
+          "Con trâu",
+          "Con bướm",
+          "Con cá",
+          "Con mèo"
+        ],
+        "k": "D",
+        "e": "Mèo nhanh nhẹn, thị giác tốt trong bóng tối nên bắt chuột rất giỏi.",
+        "s": "Lợi ích con vật"
+      },
+      {
+        "c": "TV1-B19-003",
+        "d": "basic",
+        "p": "Con vật nào có chiếc vòi dài, thân hình to lớn nhất trên cạn?",
+        "o": [
+          "Con voi",
+          "Con hươu",
+          "Con sóc",
+          "Con thỏ"
+        ],
+        "k": "A",
+        "e": "Voi nổi bật với chiếc vòi dài dùng uống nước, hái lá và đôi ngà trắng.",
+        "s": "Đặc điểm loài vật"
+      },
+      {
+        "c": "TV1-B19-004",
+        "d": "basic",
+        "p": "Từ nào chỉ tiếng kêu của chú vịt khi bơi dưới ao?",
+        "o": [
+          "chíp chíp",
+          "gâu gâu",
+          "meo meo",
+          "cạc cạc"
+        ],
+        "k": "D",
+        "e": "Vịt kêu \"cạc cạc\" hoặc \"quạc quạc\".",
+        "s": "Từ tượng thanh"
+      },
+      {
+        "c": "TV1-B19-005",
+        "d": "basic",
+        "p": "Con cá thở và bơi lội tự nhiên ở môi trường nào?",
+        "o": [
+          "Trong hang đá khô",
+          "Dưới nước",
+          "Trên ngọn cây cao",
+          "Trên bầu trời"
+        ],
+        "k": "B",
+        "e": "Cá có vây và mang thích nghi hoàn toàn với đời sống dưới nước.",
+        "s": "Môi trường sống"
+      },
+      {
+        "c": "TV1-B19-006",
+        "d": "basic",
+        "p": "Trong từ \"ong mật\", tiếng \"mật\" chứa vần gì?",
+        "o": [
+          "ăt",
+          "ôt",
+          "ât",
+          "at"
+        ],
+        "k": "C",
+        "e": "Tiếng \"mật\" gồm âm m, vần ât và thanh nặng.",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV1-B19-007",
+        "d": "application",
+        "p": "Đọc đoạn: \"Chú sóc nâu có cái đuôi xù như bông. Sóc chuyền cành thoăn thoắt để tìm hạt dẻ.\" Từ nào tả cách di chuyển của sóc?",
+        "o": [
+          "thoăn thoắt",
+          "lạch bạch",
+          "lề mề",
+          "chậm chạp"
+        ],
+        "k": "A",
+        "e": "\"Thoăn thoắt\" miêu tả động tác leo trèo, chuyền cành cực kì nhanh nhẹn.",
+        "s": "Từ tả hoạt động"
+      },
+      {
+        "c": "TV1-B19-008",
+        "d": "application",
+        "p": "Từ nào tả dáng đi quen thuộc của chú vịt con trên bờ?",
+        "o": [
+          "uy nghi",
+          "lạch bạch",
+          "vùn vụt",
+          "rón rén"
+        ],
+        "k": "B",
+        "e": "Vịt bước đi nghiêng bên nọ bên kia gọi là \"lạch bạch\".",
+        "s": "Từ láy miêu tả"
+      },
+      {
+        "c": "TV1-B19-009",
+        "d": "application",
+        "p": "Đọc câu: \"Chim sâu cần mẫn bắt sâu bọ bảo vệ vườn rau xanh.\" Chim sâu có ích lợi gì?",
+        "o": [
+          "Ăn hết lá rau non",
+          "Đuổi các loài ong đi",
+          "Giúp tiêu diệt sâu bọ, bảo vệ cây trồng",
+          "Làm tổ phá hỏng cây"
+        ],
+        "k": "C",
+        "e": "Chim sâu ăn sâu bọ gây hại nên rất có ích cho nhà nông và vườn cây.",
+        "s": "Đọc hiểu"
+      },
+      {
+        "c": "TV1-B19-010",
+        "d": "application",
+        "p": "Chọn câu viết ĐÚNG chính tả tả chú mèo:",
+        "o": [
+          "Mèo con có bộ nông mượt mà như nhung.",
+          "Mèo con có bộ lông mợt mà như nhung.",
+          "Mèo con có bộ lông mượt mà như nhung.",
+          "Mèo con có bộ lông mượt mà như dung."
+        ],
+        "k": "C",
+        "e": "\"Lông\" (l), \"mượt mà\" (ươt), \"nhung\" (nh) đều viết đúng chính tả.",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV1-B19-011",
+        "d": "application",
+        "p": "Nếu nuôi một chú cún con trong nhà, em cần làm gì để chăm sóc bạn ấy?",
+        "o": [
+          "Không cho uống nước bao giờ",
+          "Cho ăn uống sạch sẽ, giữ ấm và tiêm phòng đầy đủ",
+          "Nhốt cún vào tủ quần áo tối om",
+          "Đánh đập khi cún chạy chậm"
+        ],
+        "k": "B",
+        "e": "Chăm sóc vật nuôi chu đáo giúp thú cưng khỏe mạnh và thân thiện.",
+        "s": "Yêu thương loài vật"
+      },
+      {
+        "c": "TV1-B19-012",
+        "d": "application",
+        "p": "Bảng so sánh 3 loài vật. Con vật nào di chuyển chủ yếu bằng cách bay lượn?",
+        "o": [
+          "Cả ba con vật",
+          "Chim bồ câu",
+          "Cá vàng",
+          "Thỏ trắng"
+        ],
+        "k": "B",
+        "e": "Bảng ghi rõ chim bồ câu dùng cánh để bay lượn trên không trung.",
+        "s": "Đọc bảng",
+        "fig": {
+          "type": "table",
+          "title": "Đặc điểm loài vật",
+          "head": [
+            "Con vật",
+            "Cách di chuyển"
+          ],
+          "rows": [
+            [
+              "Chim bồ câu",
+              "Bay bằng cánh"
+            ],
+            [
+              "Cá vàng",
+              "Bơi bằng vây"
+            ],
+            [
+              "Thỏ trắng",
+              "Nhảy trên cạn"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV1-B19-013",
+        "d": "advanced",
+        "p": "Trong truyện ngụ ngôn \"Rùa và Thỏ\", vì sao Rùa chậm chạp lại về đích trước Thỏ chạy nhanh?",
+        "o": [
+          "Vì Rùa kiên trì cố gắng không bỏ cuộc, còn Thỏ chủ quan ngủ quên",
+          "Vì đường chạy rất ngắn",
+          "Vì Thỏ bị lạc sang khu rừng khác",
+          "Vì Rùa biết đi xe đạp"
+        ],
+        "k": "A",
+        "e": "Bài học nổi tiếng: sự kiên trì, khiêm tốn luôn chiến thắng tính kiêu ngạo, chủ quan.",
+        "s": "Đọc hiểu truyện"
+      },
+      {
+        "c": "TV1-B19-014",
+        "d": "advanced",
+        "p": "Tìm cặp từ trái nghĩa nói về tốc độ của Thỏ và Rùa trong truyện:",
+        "o": [
+          "nóng và lạnh",
+          "cao và thấp",
+          "to và nhỏ",
+          "nhanh và chậm"
+        ],
+        "k": "D",
+        "e": "\"Nhanh\" và \"chậm\" là cặp từ trái nghĩa miêu tả tốc độ di chuyển.",
+        "s": "Từ trái nghĩa"
+      },
+      {
+        "c": "TV1-B19-015",
+        "d": "advanced",
+        "p": "Đọc: \"Kiến tuy nhỏ bé nhưng biết hợp sức khiêng mồi to về tổ.\" Câu chuyện về đàn kiến khuyên ta đức tính gì?",
+        "o": [
+          "Tinh thần đoàn kết, chăm chỉ hợp tác cùng nhau",
+          "Sự sợ hãi khi gặp khó khăn",
+          "Tính ham ăn ngủ nhiều",
+          "Thói quen làm việc một mình"
+        ],
+        "k": "A",
+        "e": "Nhiều con kiến nhỏ hợp sức tạo thành sức mạnh lớn — bài học về tinh thần đoàn kết.",
+        "s": "Ý nghĩa câu chuyện"
+      }
+    ]
+  },
+  {
+    "chapter": "tiengviet1-c5",
+    "lesson": {
+      "code": "tiengviet1-b20",
+      "title": "Bài 20. Ôn tập Tiếng Việt 1 – Chính tả và Đọc hiểu",
+      "seq": 20,
+      "subtitle": "Tổng hợp quy tắc chính tả lớp 1, cấu tạo tiếng, từ vựng và kĩ năng đọc hiểu",
+      "concepts": [
+        "Tổng hợp quy tắc chính tả",
+        "Đặt câu và dấu câu",
+        "Đọc hiểu văn bản ngắn"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TV1-B20-001",
+        "d": "basic",
+        "p": "Nhóm chữ cái nào bắt buộc đi với các nguyên âm e, ê, i?",
+        "o": [
+          "d, đ, l",
+          "gh, ngh, k",
+          "b, m, n",
+          "g, ng, c"
+        ],
+        "k": "B",
+        "e": "Ba quy tắc vàng lớp 1: gh, ngh, k luôn đứng trước e, ê, i.",
+        "s": "Tổng hợp luật",
+        "fig": {
+          "type": "table",
+          "title": "Tổng hợp quy tắc",
+          "head": [
+            "Trước e, ê, i",
+            "Trước âm khác"
+          ],
+          "rows": [
+            [
+              "gh / ngh / k",
+              "g / ng / c"
+            ],
+            [
+              "ghế / nghĩ / kéo",
+              "gà / ngô / cá"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TV1-B20-002",
+        "d": "basic",
+        "p": "Trong bảng chữ cái Tiếng Việt, có mấy chữ cái tất cả?",
+        "o": [
+          "29 chữ cái",
+          "32 chữ cái",
+          "26 chữ cái",
+          "24 chữ cái"
+        ],
+        "k": "A",
+        "e": "Bảng chữ cái Tiếng Việt chuẩn gồm 29 chữ cái (từ a đến y).",
+        "s": "Kiến thức nền"
+      },
+      {
+        "c": "TV1-B20-003",
+        "d": "basic",
+        "p": "Cuối một câu kể thông thường ta đặt dấu câu nào?",
+        "o": [
+          "Dấu hỏi chấm (?)",
+          "Dấu chấm (.)",
+          "Dấu phẩy (,)",
+          "Không dùng dấu"
+        ],
+        "k": "B",
+        "e": "Câu kể kết thúc bằng dấu chấm; câu hỏi kết thúc bằng dấu chấm hỏi.",
+        "s": "Dấu câu"
+      },
+      {
+        "c": "TV1-B20-004",
+        "d": "basic",
+        "p": "Từ nào dưới đây viết ĐÚNG chính tả?",
+        "o": [
+          "ngôi trường",
+          "nghôi trường",
+          "ngôi tường",
+          "ngôi chường"
+        ],
+        "k": "A",
+        "e": "Trước ô viết ng (ngôi), con chữ tr ở tiếng \"trường\".",
+        "s": "Chính tả"
+      },
+      {
+        "c": "TV1-B20-005",
+        "d": "basic",
+        "p": "Trong tiếng \"sáng\", đâu là phần vần?",
+        "o": [
+          "ang",
+          "s",
+          "ng",
+          "sá"
+        ],
+        "k": "A",
+        "e": "Tiếng \"sáng\" gồm âm đầu s, vần ang và thanh sắc.",
+        "s": "Phân tích tiếng"
+      },
+      {
+        "c": "TV1-B20-006",
+        "d": "basic",
+        "p": "Tiếng Việt có mấy thanh điệu ghi bằng dấu (không tính thanh ngang)?",
+        "o": [
+          "3 thanh có dấu",
+          "4 thanh có dấu",
+          "6 thanh có dấu",
+          "5 thanh có dấu"
+        ],
+        "k": "D",
+        "e": "Trong 6 thanh điệu, thanh ngang không dấu, còn lại 5 thanh mang dấu: huyền, sắc, hỏi, ngã, nặng.",
+        "s": "Thanh điệu"
+      },
+      {
+        "c": "TV1-B20-007",
+        "d": "application",
+        "p": "Chọn câu viết ĐÚNG cả về chính tả và cách dùng dấu câu:",
+        "o": [
+          "Bé thích đọc chiện tranh cùng mẹ.",
+          "bé thích đọc truyện tranh cùng mẹ",
+          "Bé thích đọc truyện tranh cùng mẹ.",
+          "Bé thích đọc truyện chanh cùng mẹ."
+        ],
+        "k": "C",
+        "e": "Chữ cái đầu câu viết hoa (\"Bé\"), đúng chính tả \"truyện tranh\", cuối câu có dấu chấm.",
+        "s": "Chính tả tổng hợp"
+      },
+      {
+        "c": "TV1-B20-008",
+        "d": "application",
+        "p": "Tìm từ viết SAI quy tắc chính tả trong dãy sau:",
+        "o": [
+          "ghế đá",
+          "nghành cây",
+          "ngành nghề",
+          "cành cây"
+        ],
+        "k": "B",
+        "e": "Trước âm a (trong vần anh) phải viết \"ng\" thành \"ngành\", không viết \"ngh\".",
+        "s": "Bắt lỗi"
+      },
+      {
+        "c": "TV1-B20-009",
+        "d": "application",
+        "p": "Từ nào trái nghĩa với \"chăm chỉ\"?",
+        "o": [
+          "lười biếng",
+          "siêng năng",
+          "ngoan ngoãn",
+          "cần cù"
+        ],
+        "k": "A",
+        "e": "\"Chăm chỉ\" đối lập hoàn toàn với \"lười biếng\".",
+        "s": "Từ trái nghĩa"
+      },
+      {
+        "c": "TV1-B20-010",
+        "d": "application",
+        "p": "Điền cặp âm đầu đúng vào câu: \"...on ...ò trắng kiếm ăn bên bờ sông.\"",
+        "o": [
+          "K... k... (Kon kò)",
+          "C... k... (Con kò)",
+          "Qu... c... (Quon cò)",
+          "C... c... (Con cò)"
+        ],
+        "k": "D",
+        "e": "Trước o đều viết chữ c: \"Con cò\".",
+        "s": "Vận dụng c và k"
+      },
+      {
+        "c": "TV1-B20-011",
+        "d": "application",
+        "p": "Đọc đoạn: \"Hè về, ve kêu râm ran trên cành sấu già. Học sinh lớp Một sắp bước sang lớp Hai.\" Các bạn nhỏ trong đoạn văn chuẩn bị lên lớp mấy?",
+        "o": [
+          "Lớp Mẫu giáo",
+          "Lớp Một",
+          "Lớp Ba",
+          "Lớp Hai"
+        ],
+        "k": "D",
+        "e": "Câu thứ hai nói rõ: \"Học sinh lớp Một sắp bước sang lớp Hai.\"",
+        "s": "Đọc hiểu"
+      },
+      {
+        "c": "TV1-B20-012",
+        "d": "application",
+        "p": "Từ nào chỉ tâm trạng phấn khởi, vui sướng khi được cô giáo khen?",
+        "o": [
+          "tức giận",
+          "lo âu",
+          "vui mừng",
+          "buồn rầu"
+        ],
+        "k": "C",
+        "e": "\"Vui mừng\" diễn tả cảm xúc hạnh phúc, phấn khởi.",
+        "s": "Vốn từ"
+      },
+      {
+        "c": "TV1-B20-013",
+        "d": "advanced",
+        "p": "Xác định câu KHÔNG có lỗi chính tả trong 4 câu sau:",
+        "o": [
+          "Kiên cẻ bảng rất thẳng rồi kất cây thước vào cặp.",
+          "Kiên kẻ bảng rất thẳng rồi cất cây thước vào cặp.",
+          "Kiên kẻ bảng giất thẳng rồi cất cây thước vào kặp.",
+          "Ciên kẻ bảng rất thẳng rồi cất cây thước vào cặp."
+        ],
+        "k": "B",
+        "e": "Kiểm tra từng âm: Kiên (k trước i), kẻ (k trước e), cất (c trước â), cây (c trước â), cặp (c trước ă).",
+        "s": "Tổng kiểm tra c và k"
+      },
+      {
+        "c": "TV1-B20-014",
+        "d": "advanced",
+        "p": "Đọc đoạn thơ: \"Cô dạy em tập viết / Gió đưa thoảng hương nhài / Nắng ghé vào cửa lớp / Xem chúng em học bài.\" Hình ảnh nào làm cho cảnh lớp học trở nên sinh động như có hồn?",
+        "o": [
+          "Sân trường có nhiều ghế đá",
+          "Mùa đông gió thổi rất lạnh",
+          "Bảng đen treo trên tường",
+          "Nắng ghé vào cửa lớp xem các bạn học bài"
+        ],
+        "k": "D",
+        "e": "Nắng được tả như một người bạn ghé cửa lớp xem học sinh học bài, rất sinh động và đáng yêu.",
+        "s": "Cảm thụ thơ"
+      },
+      {
+        "c": "TV1-B20-015",
+        "d": "advanced",
+        "p": "Nhìn biểu đồ số sách các tổ đọc được trong tháng. Tổ nào cần đọc thêm nhiều sách hơn và kém tổ đọc nhiều nhất bao nhiêu quyển?",
+        "o": [
+          "Tổ 1, kém 4 quyển",
+          "Tổ 4, kém 2 quyển",
+          "Tổ 3, kém 5 quyển",
+          "Tổ 2, kém 6 quyển"
+        ],
+        "k": "D",
+        "e": "Tổ 3 đọc nhiều nhất (14 quyển), Tổ 2 đọc ít nhất (8 quyển), kém 14 - 8 = 6 quyển.",
+        "s": "Đọc biểu đồ kết hợp",
+        "fig": {
+          "type": "bars",
+          "title": "Số sách đọc trong tháng",
+          "labels": [
+            "Tổ 1",
+            "Tổ 2",
+            "Tổ 3",
+            "Tổ 4"
+          ],
+          "series": [
+            {
+              "values": [
+                11,
+                8,
+                14,
+                12
+              ]
+            }
+          ],
+          "unit": "quyển"
+        }
+      }
+    ]
+  }
+]

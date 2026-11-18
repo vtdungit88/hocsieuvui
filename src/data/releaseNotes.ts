@@ -15,6 +15,16 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.2',
+    date: '2026-11-18',
+    title: 'Mở khóa bộ câu hỏi Lớp 1–3 cho 8 môn học',
+    items: [
+      'Mở khóa 7 môn mới Lớp 1–3: Tiếng Việt (56 bài · 840 câu), Tiếng Anh (62 bài · 930 câu), Mĩ thuật (58 bài · 870 câu), Âm nhạc (48 bài · 720 câu), Đạo đức (43 bài · 645 câu), Giáo dục lối sống (36 bài · 540 câu), Giáo dục thể chất (48 bài · 720 câu) với 681 hình minh họa SVG.',
+      'Hiển thị chính thức Tự nhiên và Xã hội Lớp 1–3 (18 chương · 89 bài học).',
+      'Nâng cấp tải chương trình phân trang để hỗ trợ ổn định trên 1.000 bài học; HĐTN 1–3, Tin học 3 và Công nghệ 3 sẽ cập nhật ở đợt tiếp theo.'
+    ]
+  },
+  {
     version: '0.2.1',
     date: '2026-11-15',
     title: 'Vuốt để di chuyển, giao diện rõ hơn',
