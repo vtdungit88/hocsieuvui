@@ -138,7 +138,7 @@ function barsSvg(fig: BarsFigure): string {
     s += `<text x="${f(L + i * slot + slot / 2)}" y="${H - 18}" text-anchor="middle" font-size="11" fill="${INK}" font-family="'Be Vietnam Pro',system-ui,sans-serif">${esc(lb)}</text>`;
   });
   s += `<line x1="${L}" y1="${T}" x2="${L}" y2="${T + ph}" stroke="${INK}"/><line x1="${L}" y1="${T + ph}" x2="${W - R}" y2="${T + ph}" stroke="${INK}"/>`;
-  if (fig.unit) s += `<text x="4" y="${T - 4}" font-size="10" fill="#475569" font-family="sans-serif">${esc(fig.unit)}</text>`;
+  if (fig.unit) s += `<text x="${L + 6}" y="${T - 3}" font-size="10" fill="#475569" font-family="sans-serif">${esc(fig.unit)}</text>`;
   if (series.length > 1 || series[0]?.name) {
     series.forEach((se, j) => { s += `<rect x="${L + j * 80}" y="${H - 12}" width="9" height="9" fill="${PALETTE[j]}"/><text x="${L + j * 80 + 12}" y="${H - 4}" font-size="10" fill="${INK}" font-family="'Be Vietnam Pro',system-ui,sans-serif">${esc(se.name ?? '')}</text>`; });
   }

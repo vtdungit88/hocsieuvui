@@ -1,0 +1,2378 @@
+[
+ {
+  "chapter": "toan6-c3",
+  "lesson": {
+   "code": "toan6-b13",
+   "title": "Bài 13. Tập hợp các số nguyên",
+   "seq": 1,
+   "subtitle": "Số nguyên âm, số đối, trục số, so sánh số nguyên",
+   "concepts": [
+    "Tập hợp ℤ",
+    "Số đối",
+    "Trục số",
+    "So sánh số nguyên"
+   ]
+  },
+  "questions": [
+   {
+    "c": "T6-B13-001",
+    "d": "basic",
+    "p": "Tập hợp các số nguyên ℤ gồm những số nào?",
+    "o": [
+     "Chỉ gồm số 0 và các số nguyên dương",
+     "Chỉ gồm các số nguyên âm và các số nguyên dương, không có số 0",
+     "Chỉ gồm các số nguyên âm và số 0",
+     "Các số nguyên âm, số 0 và các số nguyên dương"
+    ],
+    "k": "D",
+    "e": "Tập hợp ℤ = {…; −3; −2; −1; 0; 1; 2; 3; …} gồm các số nguyên âm, số 0 và các số nguyên dương. Số 0 vừa không âm vừa không dương nhưng vẫn là số nguyên."
+   },
+   {
+    "c": "T6-B13-002",
+    "d": "basic",
+    "p": "Số đối của số nguyên −9 là số nào?",
+    "o": [
+     "−9",
+     "0",
+     "9",
+     "−10"
+    ],
+    "k": "C",
+    "e": "Hai số đối nhau là hai số nằm về hai phía của gốc O và cách đều O. Số đối của −9 là 9 (đổi dấu). Lỗi hay mắc: viết lại chính số −9."
+   },
+   {
+    "c": "T6-B13-003",
+    "d": "basic",
+    "p": "Trên trục số ở hình vẽ, điểm A biểu diễn số nguyên nào?",
+    "o": [
+     "−4",
+     "4",
+     "−3",
+     "−5"
+    ],
+    "k": "A",
+    "e": "Điểm A nằm bên trái gốc O và cách O bốn đơn vị nên biểu diễn số −4. Điểm nằm bên trái gốc O biểu diễn số nguyên âm.",
+    "fig": {
+     "w": 520,
+     "h": 110,
+     "items": [
+      {
+       "t": "line",
+       "a": [
+        18,
+        62
+       ],
+       "b": [
+        502.0,
+        62
+       ],
+       "arrow": 1,
+       "w": 2
+      },
+      {
+       "t": "line",
+       "a": [
+        40.0,
+        57
+       ],
+       "b": [
+        40.0,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        40.0,
+        84
+       ],
+       "s": "−6",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        76.67,
+        57
+       ],
+       "b": [
+        76.67,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        76.67,
+        84
+       ],
+       "s": "−5",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        113.33,
+        57
+       ],
+       "b": [
+        113.33,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        113.33,
+        84
+       ],
+       "s": "−4",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        150.0,
+        57
+       ],
+       "b": [
+        150.0,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        150.0,
+        84
+       ],
+       "s": "−3",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        186.67,
+        57
+       ],
+       "b": [
+        186.67,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        186.67,
+        84
+       ],
+       "s": "−2",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        223.33,
+        57
+       ],
+       "b": [
+        223.33,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        223.33,
+        84
+       ],
+       "s": "−1",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        260.0,
+        57
+       ],
+       "b": [
+        260.0,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        260.0,
+        84
+       ],
+       "s": "0",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        296.67,
+        57
+       ],
+       "b": [
+        296.67,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        296.67,
+        84
+       ],
+       "s": "1",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        333.33,
+        57
+       ],
+       "b": [
+        333.33,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        333.33,
+        84
+       ],
+       "s": "2",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        370.0,
+        57
+       ],
+       "b": [
+        370.0,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        370.0,
+        84
+       ],
+       "s": "3",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        406.67,
+        57
+       ],
+       "b": [
+        406.67,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        406.67,
+        84
+       ],
+       "s": "4",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        443.33,
+        57
+       ],
+       "b": [
+        443.33,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        443.33,
+        84
+       ],
+       "s": "5",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        480.0,
+        57
+       ],
+       "b": [
+        480.0,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        480.0,
+        84
+       ],
+       "s": "6",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "pt",
+       "p": [
+        113.33,
+        62
+       ],
+       "l": "A",
+       "dx": -5,
+       "dy": -12
+      },
+      {
+       "t": "pt",
+       "p": [
+        296.67,
+        62
+       ],
+       "l": "B",
+       "dx": -5,
+       "dy": -12
+      },
+      {
+       "t": "pt",
+       "p": [
+        260.0,
+        62
+       ],
+       "l": "O",
+       "dx": -5,
+       "dy": -12
+      }
+     ]
+    }
+   },
+   {
+    "c": "T6-B13-004",
+    "d": "application",
+    "p": "Sắp xếp các số nguyên −5; 3; −12; 0; 8 theo thứ tự tăng dần.",
+    "o": [
+     "8; 3; 0; −5; −12",
+     "−12; −5; 0; 3; 8",
+     "0; 3; −5; 8; −12",
+     "−5; −12; 0; 3; 8"
+    ],
+    "k": "B",
+    "e": "Trên trục số, số ở bên trái nhỏ hơn số ở bên phải. Với số âm, số có phần số tự nhiên lớn hơn thì nhỏ hơn: −12 < −5 < 0 < 3 < 8. Lỗi hay mắc: sắp xếp theo giá trị tuyệt đối."
+   },
+   {
+    "c": "T6-B13-005",
+    "d": "application",
+    "p": "Có bao nhiêu số nguyên x thỏa mãn −4 < x < 2?",
+    "o": [
+     "7",
+     "6",
+     "5",
+     "4"
+    ],
+    "k": "C",
+    "e": "Các số nguyên đó là −3; −2; −1; 0; 1, tức là 5 số. Không tính hai đầu −4 và 2 vì bất đẳng thức là chặt. Lỗi hay mắc: quên số 0 hoặc tính cả hai đầu."
+   },
+   {
+    "c": "T6-B13-006",
+    "d": "application",
+    "p": "Trên trục số, điểm A biểu diễn số −6 (hình vẽ). Khoảng cách từ điểm A đến gốc O là bao nhiêu đơn vị?",
+    "o": [
+     "−6",
+     "0",
+     "12",
+     "6"
+    ],
+    "k": "D",
+    "e": "Khoảng cách từ điểm A đến gốc O là số đơn vị giữa hai điểm, luôn là số không âm. Từ −6 đến 0 có 6 đơn vị.",
+    "fig": {
+     "w": 500,
+     "h": 110,
+     "items": [
+      {
+       "t": "line",
+       "a": [
+        18,
+        62
+       ],
+       "b": [
+        482,
+        62
+       ],
+       "arrow": 1,
+       "w": 2
+      },
+      {
+       "t": "line",
+       "a": [
+        40,
+        57
+       ],
+       "b": [
+        40,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        40,
+        84
+       ],
+       "s": "−8",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        82,
+        57
+       ],
+       "b": [
+        82,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        82,
+        84
+       ],
+       "s": "−7",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        124,
+        57
+       ],
+       "b": [
+        124,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        124,
+        84
+       ],
+       "s": "−6",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        166,
+        57
+       ],
+       "b": [
+        166,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        166,
+        84
+       ],
+       "s": "−5",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        208,
+        57
+       ],
+       "b": [
+        208,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        208,
+        84
+       ],
+       "s": "−4",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        250,
+        57
+       ],
+       "b": [
+        250,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        250,
+        84
+       ],
+       "s": "−3",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        292,
+        57
+       ],
+       "b": [
+        292,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        292,
+        84
+       ],
+       "s": "−2",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        334,
+        57
+       ],
+       "b": [
+        334,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        334,
+        84
+       ],
+       "s": "−1",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        376,
+        57
+       ],
+       "b": [
+        376,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        376,
+        84
+       ],
+       "s": "0",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        418,
+        57
+       ],
+       "b": [
+        418,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        418,
+        84
+       ],
+       "s": "1",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        460,
+        57
+       ],
+       "b": [
+        460,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        460,
+        84
+       ],
+       "s": "2",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "pt",
+       "p": [
+        124,
+        62
+       ],
+       "l": "A",
+       "dx": -5,
+       "dy": -12
+      },
+      {
+       "t": "pt",
+       "p": [
+        376,
+        62
+       ],
+       "l": "O",
+       "dx": -5,
+       "dy": -12
+      }
+     ]
+    }
+   },
+   {
+    "c": "T6-B13-007",
+    "d": "advanced",
+    "p": "Bảng cho biết nhiệt độ lúc 6 giờ sáng của một số thành phố. Có bao nhiêu thành phố có nhiệt độ thấp hơn −2 °C?",
+    "o": [
+     "2",
+     "1",
+     "3",
+     "4"
+    ],
+    "k": "A",
+    "e": "Nhiệt độ thấp hơn −2 °C là các số nhỏ hơn −2: −12 và −4, tức là 2 thành phố. Sa Pa có −1 > −2 nên không tính. Lỗi hay mắc: coi −1 < −2 vì 1 < 2.",
+    "fig": {
+     "type": "table",
+     "title": "Nhiệt độ lúc 6 giờ sáng (°C)",
+     "head": [
+      "Mát-xcơ-va",
+      "Bắc Kinh",
+      "Hà Nội",
+      "Sa Pa",
+      "Tô-ky-ô"
+     ],
+     "rows": [
+      [
+       "−12",
+       "−4",
+       "15",
+       "−1",
+       "3"
+      ]
+     ]
+    }
+   },
+   {
+    "c": "T6-B13-008",
+    "d": "advanced",
+    "p": "Trên trục số, điểm A biểu diễn −4 và điểm B biểu diễn 6 (hình vẽ). Điểm C nằm giữa A và B, cách đều A và B. Điểm C biểu diễn số nguyên nào?",
+    "o": [
+     "0",
+     "1",
+     "5",
+     "2"
+    ],
+    "k": "B",
+    "e": "Khoảng cách AB = 6 − (−4) = 10 đơn vị nên AC = CB = 5 đơn vị. Từ A (−4) sang phải 5 đơn vị được số 1. Lỗi hay mắc: lấy điểm giữa 0 và 6 hoặc tính nhầm AB = 2.",
+    "fig": {
+     "w": 520,
+     "h": 110,
+     "items": [
+      {
+       "t": "line",
+       "a": [
+        18,
+        62
+       ],
+       "b": [
+        502.0,
+        62
+       ],
+       "arrow": 1,
+       "w": 2
+      },
+      {
+       "t": "line",
+       "a": [
+        40.0,
+        57
+       ],
+       "b": [
+        40.0,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        40.0,
+        84
+       ],
+       "s": "−5",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        76.67,
+        57
+       ],
+       "b": [
+        76.67,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        76.67,
+        84
+       ],
+       "s": "−4",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        113.33,
+        57
+       ],
+       "b": [
+        113.33,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        113.33,
+        84
+       ],
+       "s": "−3",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        150.0,
+        57
+       ],
+       "b": [
+        150.0,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        150.0,
+        84
+       ],
+       "s": "−2",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        186.67,
+        57
+       ],
+       "b": [
+        186.67,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        186.67,
+        84
+       ],
+       "s": "−1",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        223.33,
+        57
+       ],
+       "b": [
+        223.33,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        223.33,
+        84
+       ],
+       "s": "0",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        260.0,
+        57
+       ],
+       "b": [
+        260.0,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        260.0,
+        84
+       ],
+       "s": "1",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        296.67,
+        57
+       ],
+       "b": [
+        296.67,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        296.67,
+        84
+       ],
+       "s": "2",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        333.33,
+        57
+       ],
+       "b": [
+        333.33,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        333.33,
+        84
+       ],
+       "s": "3",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        370.0,
+        57
+       ],
+       "b": [
+        370.0,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        370.0,
+        84
+       ],
+       "s": "4",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        406.67,
+        57
+       ],
+       "b": [
+        406.67,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        406.67,
+        84
+       ],
+       "s": "5",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        443.33,
+        57
+       ],
+       "b": [
+        443.33,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        443.33,
+        84
+       ],
+       "s": "6",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        480.0,
+        57
+       ],
+       "b": [
+        480.0,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        480.0,
+        84
+       ],
+       "s": "7",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "pt",
+       "p": [
+        76.67,
+        62
+       ],
+       "l": "A",
+       "dx": -5,
+       "dy": -12
+      },
+      {
+       "t": "pt",
+       "p": [
+        443.33,
+        62
+       ],
+       "l": "B",
+       "dx": -5,
+       "dy": -12
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "chapter": "toan6-c3",
+  "lesson": {
+   "code": "toan6-b14",
+   "title": "Bài 14. Phép cộng và phép trừ số nguyên",
+   "seq": 2,
+   "subtitle": "Cộng, trừ số nguyên, quy tắc cộng cùng dấu và khác dấu",
+   "concepts": [
+    "Cộng hai số nguyên cùng dấu",
+    "Cộng hai số nguyên khác dấu",
+    "Phép trừ số nguyên"
+   ]
+  },
+  "questions": [
+   {
+    "c": "T6-B14-001",
+    "d": "basic",
+    "p": "Tính (−7) + (−5).",
+    "o": [
+     "−12",
+     "12",
+     "−2",
+     "2"
+    ],
+    "k": "A",
+    "e": "Cộng hai số nguyên âm: cộng hai số đối của chúng rồi đặt dấu \"−\" trước kết quả: 7 + 5 = 12 nên kết quả là −12."
+   },
+   {
+    "c": "T6-B14-002",
+    "d": "basic",
+    "p": "Tính 6 − 10.",
+    "o": [
+     "4",
+     "−4",
+     "16",
+     "−16"
+    ],
+    "k": "B",
+    "e": "Số trừ lớn hơn số bị trừ nên hiệu là số âm: 6 − 10 = 6 + (−10) = −(10 − 6) = −4."
+   },
+   {
+    "c": "T6-B14-003",
+    "d": "basic",
+    "p": "Muốn trừ số nguyên a cho số nguyên b, ta làm thế nào?",
+    "o": [
+     "Cộng a với b: a − b = a + b",
+     "Cộng số đối của a với b: a − b = (−a) + b",
+     "Cộng a với số đối của b: a − b = a + (−b)",
+     "Cộng số đối của a với số đối của b"
+    ],
+    "k": "C",
+    "e": "Quy tắc trừ hai số nguyên: a − b = a + (−b), tức là cộng a với số đối của b. Ví dụ 5 − (−3) = 5 + 3 = 8."
+   },
+   {
+    "c": "T6-B14-004",
+    "d": "application",
+    "p": "Tính (−23) + 15.",
+    "o": [
+     "8",
+     "−38",
+     "38",
+     "−8"
+    ],
+    "k": "D",
+    "e": "Hai số khác dấu: lấy số lớn trừ số nhỏ trong hai giá trị tuyệt đối (23 − 15 = 8) và đặt dấu của số có giá trị tuyệt đối lớn hơn (dấu −). Kết quả −8."
+   },
+   {
+    "c": "T6-B14-005",
+    "d": "application",
+    "p": "Trên trục số, từ điểm M biểu diễn số 4, di chuyển sang bên trái 7 đơn vị được điểm N (hình vẽ). Điểm N biểu diễn số nào?",
+    "o": [
+     "−3",
+     "3",
+     "11",
+     "−11"
+    ],
+    "k": "A",
+    "e": "Di chuyển sang trái 7 đơn vị tương ứng với cộng thêm số −7: 4 + (−7) = −3. Lỗi hay mắc: nhầm chiều di chuyển và cho kết quả 11.",
+    "fig": {
+     "w": 520,
+     "h": 115,
+     "items": [
+      {
+       "t": "line",
+       "a": [
+        18,
+        70
+       ],
+       "b": [
+        502.0,
+        70
+       ],
+       "arrow": 1,
+       "w": 2
+      },
+      {
+       "t": "line",
+       "a": [
+        40.0,
+        65
+       ],
+       "b": [
+        40.0,
+        75
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        40.0,
+        92
+       ],
+       "s": "−6",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        76.67,
+        65
+       ],
+       "b": [
+        76.67,
+        75
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        76.67,
+        92
+       ],
+       "s": "−5",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        113.33,
+        65
+       ],
+       "b": [
+        113.33,
+        75
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        113.33,
+        92
+       ],
+       "s": "−4",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        150.0,
+        65
+       ],
+       "b": [
+        150.0,
+        75
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        150.0,
+        92
+       ],
+       "s": "−3",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        186.67,
+        65
+       ],
+       "b": [
+        186.67,
+        75
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        186.67,
+        92
+       ],
+       "s": "−2",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        223.33,
+        65
+       ],
+       "b": [
+        223.33,
+        75
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        223.33,
+        92
+       ],
+       "s": "−1",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        260.0,
+        65
+       ],
+       "b": [
+        260.0,
+        75
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        260.0,
+        92
+       ],
+       "s": "0",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        296.67,
+        65
+       ],
+       "b": [
+        296.67,
+        75
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        296.67,
+        92
+       ],
+       "s": "1",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        333.33,
+        65
+       ],
+       "b": [
+        333.33,
+        75
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        333.33,
+        92
+       ],
+       "s": "2",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        370.0,
+        65
+       ],
+       "b": [
+        370.0,
+        75
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        370.0,
+        92
+       ],
+       "s": "3",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        406.67,
+        65
+       ],
+       "b": [
+        406.67,
+        75
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        406.67,
+        92
+       ],
+       "s": "4",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        443.33,
+        65
+       ],
+       "b": [
+        443.33,
+        75
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        443.33,
+        92
+       ],
+       "s": "5",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        480.0,
+        65
+       ],
+       "b": [
+        480.0,
+        75
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        480.0,
+        92
+       ],
+       "s": "6",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "pt",
+       "p": [
+        406.67,
+        70
+       ],
+       "l": "M",
+       "dx": -5,
+       "dy": -12
+      },
+      {
+       "t": "line",
+       "a": [
+        406.67,
+        42
+       ],
+       "b": [
+        150.0,
+        42
+       ],
+       "arrow": 1,
+       "color": "#2563eb",
+       "w": 2.4
+      },
+      {
+       "t": "txt",
+       "p": [
+        278.33,
+        34
+       ],
+       "s": "7 đơn vị",
+       "anchor": "middle",
+       "size": 12,
+       "color": "#2563eb"
+      }
+     ]
+    }
+   },
+   {
+    "c": "T6-B14-006",
+    "d": "application",
+    "p": "Tính 38 + (−52) − (−9).",
+    "o": [
+     "5",
+     "−23",
+     "81",
+     "−5"
+    ],
+    "k": "D",
+    "e": "Trừ cho −9 nghĩa là cộng với 9: 38 + (−52) + 9 = 47 − 52 = −5. Lỗi hay mắc: giữ nguyên dấu \"−\" khi trừ cho một số âm."
+   },
+   {
+    "c": "T6-B14-007",
+    "d": "advanced",
+    "p": "Lúc sáng sớm nhiệt độ là −3 °C. Đến trưa nhiệt độ tăng thêm 9 °C, đến tối lại giảm 11 °C so với buổi trưa. Nhiệt độ buổi tối là bao nhiêu?",
+    "o": [
+     "5 °C",
+     "−23 °C",
+     "−5 °C",
+     "17 °C"
+    ],
+    "k": "C",
+    "e": "Nhiệt độ buổi trưa: −3 + 9 = 6 (°C). Buổi tối: 6 − 11 = −5 (°C). Tăng ứng với phép cộng, giảm ứng với phép trừ."
+   },
+   {
+    "c": "T6-B14-008",
+    "d": "advanced",
+    "p": "Tính tổng tất cả các số nguyên x thỏa mãn −4 ≤ x ≤ 3.",
+    "o": [
+     "0",
+     "−4",
+     "4",
+     "−10"
+    ],
+    "k": "B",
+    "e": "Ta có tổng (−3) + 3 = 0, (−2) + 2 = 0, (−1) + 1 = 0 và số 0. Còn lại số −4, nên tổng bằng −4. Lỗi hay mắc: quên số −4 vì chỉ ghép các cặp số đối."
+   }
+  ]
+ },
+ {
+  "chapter": "toan6-c3",
+  "lesson": {
+   "code": "toan6-b15",
+   "title": "Bài 15. Quy tắc dấu ngoặc",
+   "seq": 3,
+   "subtitle": "Bỏ dấu ngoặc, tính chất đẳng thức, quy tắc chuyển vế",
+   "concepts": [
+    "Quy tắc dấu ngoặc",
+    "Quy tắc chuyển vế"
+   ]
+  },
+  "questions": [
+   {
+    "c": "T6-B15-001",
+    "d": "basic",
+    "p": "Bỏ dấu ngoặc trong biểu thức a − (b − c) ta được:",
+    "o": [
+     "a − b − c",
+     "a − b + c",
+     "a + b − c",
+     "a + b + c"
+    ],
+    "k": "B",
+    "e": "Dấu \"−\" đứng trước dấu ngoặc nên khi bỏ ngoặc phải đổi dấu tất cả các số hạng trong ngoặc: a − (b − c) = a − b + c."
+   },
+   {
+    "c": "T6-B15-002",
+    "d": "basic",
+    "p": "Bỏ dấu ngoặc trong biểu thức 12 + (7 − 5) ta được:",
+    "o": [
+     "12 + 7 − 5",
+     "12 + 7 + 5",
+     "12 − 7 − 5",
+     "12 − 7 + 5"
+    ],
+    "k": "A",
+    "e": "Dấu \"+\" đứng trước dấu ngoặc nên khi bỏ ngoặc giữ nguyên dấu các số hạng trong ngoặc: 12 + (7 − 5) = 12 + 7 − 5."
+   },
+   {
+    "c": "T6-B15-003",
+    "d": "basic",
+    "p": "Theo quy tắc chuyển vế, nếu x − 4 = 9 thì:",
+    "o": [
+     "x = 9 − 4",
+     "x = 4 − 9",
+     "x = 9 + 4",
+     "x = −9 − 4"
+    ],
+    "k": "C",
+    "e": "Khi chuyển một số hạng từ vế này sang vế kia phải đổi dấu số hạng đó: −4 chuyển sang vế phải thành +4, nên x = 9 + 4 = 13."
+   },
+   {
+    "c": "T6-B15-004",
+    "d": "application",
+    "p": "Tính 35 − (14 − 20).",
+    "o": [
+     "1",
+     "69",
+     "29",
+     "41"
+    ],
+    "k": "D",
+    "e": "Bỏ ngoặc có dấu \"−\" đứng trước: 35 − 14 + 20 = 41. Hoặc tính trong ngoặc trước: 14 − 20 = −6, rồi 35 − (−6) = 41."
+   },
+   {
+    "c": "T6-B15-005",
+    "d": "application",
+    "p": "Tìm số nguyên x, biết x + 17 = −5.",
+    "o": [
+     "22",
+     "−22",
+     "12",
+     "−12"
+    ],
+    "k": "B",
+    "e": "Chuyển vế: x = −5 − 17 = −22. Lỗi hay mắc: quên đổi dấu số 17 khi chuyển vế."
+   },
+   {
+    "c": "T6-B15-006",
+    "d": "application",
+    "p": "Bỏ ngoặc rồi tính: (−24) − (−24 + 15).",
+    "o": [
+     "−15",
+     "15",
+     "−33",
+     "−63"
+    ],
+    "k": "A",
+    "e": "Bỏ ngoặc và đổi dấu: −24 + 24 − 15 = −15. Hoặc −24 + 24 = 0 rồi trừ 15."
+   },
+   {
+    "c": "T6-B15-007",
+    "d": "advanced",
+    "p": "Tính tổng S = 1 − 2 + 3 − 4 + … + 99 − 100.",
+    "o": [
+     "50",
+     "0",
+     "−50",
+     "−100"
+    ],
+    "k": "C",
+    "e": "Nhóm từng cặp liên tiếp: (1 − 2) + (3 − 4) + … + (99 − 100). Mỗi cặp bằng −1 và có 50 cặp nên S = −50."
+   },
+   {
+    "c": "T6-B15-008",
+    "d": "advanced",
+    "p": "Tìm số nguyên x, biết 12 − (x − 9) = 25.",
+    "o": [
+     "4",
+     "−22",
+     "28",
+     "−4"
+    ],
+    "k": "D",
+    "e": "Bỏ ngoặc: 12 − x + 9 = 25 nên 21 − x = 25, suy ra x = 21 − 25 = −4. Lỗi hay mắc: không đổi dấu −9 khi bỏ ngoặc, được x = −22."
+   }
+  ]
+ },
+ {
+  "chapter": "toan6-c3",
+  "lesson": {
+   "code": "toan6-b16",
+   "title": "Bài 16. Phép nhân số nguyên",
+   "seq": 4,
+   "subtitle": "Quy tắc dấu, tính chất giao hoán, kết hợp, phân phối",
+   "concepts": [
+    "Nhân hai số nguyên",
+    "Quy tắc dấu",
+    "Tính chất của phép nhân"
+   ]
+  },
+  "questions": [
+   {
+    "c": "T6-B16-001",
+    "d": "basic",
+    "p": "Tính (−6) · (−7).",
+    "o": [
+     "42",
+     "−42",
+     "13",
+     "−13"
+    ],
+    "k": "A",
+    "e": "Nhân hai số nguyên cùng dấu: nhân hai giá trị tuyệt đối rồi đặt dấu \"+\": 6 · 7 = 42."
+   },
+   {
+    "c": "T6-B16-002",
+    "d": "basic",
+    "p": "Khẳng định nào sau đây đúng?",
+    "o": [
+     "Tích của hai số nguyên khác dấu là một số nguyên dương",
+     "Tích của hai số nguyên âm là một số nguyên dương",
+     "Tích của hai số nguyên âm là một số nguyên âm",
+     "Tích của một số nguyên âm với số 0 là một số nguyên âm"
+    ],
+    "k": "B",
+    "e": "Quy tắc dấu: (−)·(−) = (+), (−)·(+) = (−). Tích của bất kì số nào với 0 đều bằng 0."
+   },
+   {
+    "c": "T6-B16-003",
+    "d": "basic",
+    "p": "Tính (−13) · 0.",
+    "o": [
+     "−13",
+     "13",
+     "0",
+     "1"
+    ],
+    "k": "C",
+    "e": "Tích của một số nguyên với 0 luôn bằng 0, vì vậy (−13) · 0 = 0."
+   },
+   {
+    "c": "T6-B16-004",
+    "d": "application",
+    "p": "Tính nhanh (−4) · 17 · (−25).",
+    "o": [
+     "−1700",
+     "−68",
+     "170",
+     "1700"
+    ],
+    "k": "D",
+    "e": "Dùng tính chất giao hoán và kết hợp: [(−4) · (−25)] · 17 = 100 · 17 = 1700. Hai thừa số âm nên tích dương."
+   },
+   {
+    "c": "T6-B16-005",
+    "d": "application",
+    "p": "Tính 12 · (−37) + 12 · (−63).",
+    "o": [
+     "−1200",
+     "1200",
+     "−100",
+     "120"
+    ],
+    "k": "A",
+    "e": "Đặt thừa số chung (tính chất phân phối): 12 · [(−37) + (−63)] = 12 · (−100) = −1200."
+   },
+   {
+    "c": "T6-B16-006",
+    "d": "application",
+    "p": "Tính (−3) · (−2) · (−5) · 4.",
+    "o": [
+     "120",
+     "−30",
+     "−120",
+     "30"
+    ],
+    "k": "C",
+    "e": "Có ba thừa số âm nên tích là số âm. Giá trị tuyệt đối: 3 · 2 · 5 · 4 = 120. Vậy tích bằng −120."
+   },
+   {
+    "c": "T6-B16-007",
+    "d": "advanced",
+    "p": "Một tàu ngầm đang ở mực nước biển (độ cao 0 m) rồi lặn xuống đều mỗi phút 12 m. Sau 7 phút tàu ở độ cao bao nhiêu mét so với mực nước biển?",
+    "o": [
+     "84 m",
+     "−84 m",
+     "−96 m",
+     "−5 m"
+    ],
+    "k": "B",
+    "e": "Mỗi phút độ cao thay đổi −12 m nên sau 7 phút thay đổi (−12) · 7 = −84 (m). Độ cao −84 m nghĩa là dưới mực nước biển 84 m."
+   },
+   {
+    "c": "T6-B16-008",
+    "d": "advanced",
+    "p": "Cho a = −3 và b = 4. Tính giá trị biểu thức a · (b − 2) − b · (a + 1).",
+    "o": [
+     "−2",
+     "14",
+     "−14",
+     "2"
+    ],
+    "k": "D",
+    "e": "a · (b − 2) = (−3) · 2 = −6. b · (a + 1) = 4 · (−2) = −8. Vậy biểu thức bằng −6 − (−8) = 2. Lỗi hay mắc: trừ cho −8 mà không đổi dấu."
+   }
+  ]
+ },
+ {
+  "chapter": "toan6-c3",
+  "lesson": {
+   "code": "toan6-b17",
+   "title": "Bài 17. Phép chia hết. Ước và bội của một số nguyên",
+   "seq": 5,
+   "subtitle": "Phép chia hết, ước và bội của số nguyên",
+   "concepts": [
+    "Phép chia hết",
+    "Ước của số nguyên",
+    "Bội của số nguyên"
+   ]
+  },
+  "questions": [
+   {
+    "c": "T6-B17-001",
+    "d": "basic",
+    "p": "Tính (−48) : 6.",
+    "o": [
+     "−8",
+     "8",
+     "−42",
+     "42"
+    ],
+    "k": "A",
+    "e": "Chia hai số nguyên khác dấu: chia hai giá trị tuyệt đối rồi đặt dấu \"−\": 48 : 6 = 8, kết quả −8."
+   },
+   {
+    "c": "T6-B17-002",
+    "d": "basic",
+    "p": "Trong các số sau, số nào là ước của −12?",
+    "o": [
+     "5",
+     "8",
+     "9",
+     "4"
+    ],
+    "k": "D",
+    "e": "Số 4 là ước của −12 vì (−12) : 4 = −3 là phép chia hết. Các số 5; 8; 9 đều không chia hết −12."
+   },
+   {
+    "c": "T6-B17-003",
+    "d": "basic",
+    "p": "Số nguyên nào là bội của mọi số nguyên khác 0?",
+    "o": [
+     "1",
+     "−1",
+     "0",
+     "10"
+    ],
+    "k": "C",
+    "e": "Với mọi số nguyên a khác 0 ta có 0 = a · 0 nên 0 là bội của a. Các số 1 và −1 là ước của mọi số nguyên, không phải bội của mọi số."
+   },
+   {
+    "c": "T6-B17-004",
+    "d": "application",
+    "p": "Tập hợp các ước của −10 là:",
+    "o": [
+     "{1; 2; 5; 10}",
+     "{−10; −5; −2; −1; 1; 2; 5; 10}",
+     "{−10; −5; −2; 2; 5; 10}",
+     "{−5; −2; 2; 5}"
+    ],
+    "k": "B",
+    "e": "Mỗi ước dương của 10 là 1; 2; 5; 10 đều đi kèm số đối của nó. Vậy các ước của −10 là −10; −5; −2; −1; 1; 2; 5; 10. Lỗi hay mắc: bỏ sót 1 và −1 hoặc chỉ xét số dương."
+   },
+   {
+    "c": "T6-B17-005",
+    "d": "application",
+    "p": "Có bao nhiêu bội của 6 lớn hơn −20 và nhỏ hơn 20?",
+    "o": [
+     "6",
+     "3",
+     "5",
+     "7"
+    ],
+    "k": "D",
+    "e": "Các bội của 6 trong khoảng đó là −18; −12; −6; 0; 6; 12; 18, tức là 7 số. Lỗi hay mắc: quên số 0 hoặc chỉ tính các bội dương."
+   },
+   {
+    "c": "T6-B17-006",
+    "d": "application",
+    "p": "Tính [(−84) + 24] : (−12).",
+    "o": [
+     "−5",
+     "−86",
+     "5",
+     "7"
+    ],
+    "k": "C",
+    "e": "Tính trong ngoặc trước: (−84) + 24 = −60. Sau đó (−60) : (−12) = 5 vì chia hai số nguyên cùng dấu cho kết quả dương."
+   },
+   {
+    "c": "T6-B17-007",
+    "d": "advanced",
+    "p": "Có bao nhiêu số nguyên x để 12 chia hết cho x?",
+    "o": [
+     "6",
+     "12",
+     "8",
+     "10"
+    ],
+    "k": "B",
+    "e": "x phải là ước của 12. Ước dương: 1; 2; 3; 4; 6; 12 (6 số), cộng với 6 số đối của chúng nên có 12 số nguyên x. Lỗi hay mắc: chỉ đếm các ước dương."
+   },
+   {
+    "c": "T6-B17-008",
+    "d": "advanced",
+    "p": "Một cửa hàng lỗ tổng cộng 120 triệu đồng trong 8 tháng, mỗi tháng lỗ như nhau. Coi lỗ là số âm, lợi nhuận mỗi tháng của cửa hàng là bao nhiêu triệu đồng?",
+    "o": [
+     "−15",
+     "15",
+     "−960",
+     "−128"
+    ],
+    "k": "A",
+    "e": "Tổng lợi nhuận là −120 triệu đồng, chia đều cho 8 tháng: (−120) : 8 = −15 (triệu đồng). Số âm cho biết cửa hàng bị lỗ."
+   }
+  ]
+ },
+ {
+  "chapter": "toan6-c3",
+  "lesson": {
+   "code": "toan6_ch3"
+  },
+  "questions": [
+   {
+    "c": "T6-C3-R01",
+    "d": "basic",
+    "p": "Trên trục số ở hình vẽ, điểm nào biểu diễn số nguyên nhỏ nhất trong các điểm A, B, C, O?",
+    "o": [
+     "Điểm A",
+     "Điểm C",
+     "Điểm B",
+     "Điểm O"
+    ],
+    "k": "B",
+    "e": "Trên trục số, điểm càng bên trái càng biểu diễn số nhỏ. Điểm C biểu diễn −6, là số nhỏ nhất trong −4; 1; −6; 0.",
+    "fig": {
+     "w": 520,
+     "h": 110,
+     "items": [
+      {
+       "t": "line",
+       "a": [
+        18,
+        62
+       ],
+       "b": [
+        502.0,
+        62
+       ],
+       "arrow": 1,
+       "w": 2
+      },
+      {
+       "t": "line",
+       "a": [
+        40.0,
+        57
+       ],
+       "b": [
+        40.0,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        40.0,
+        84
+       ],
+       "s": "−8",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        76.67,
+        57
+       ],
+       "b": [
+        76.67,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        76.67,
+        84
+       ],
+       "s": "−7",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        113.33,
+        57
+       ],
+       "b": [
+        113.33,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        113.33,
+        84
+       ],
+       "s": "−6",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        150.0,
+        57
+       ],
+       "b": [
+        150.0,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        150.0,
+        84
+       ],
+       "s": "−5",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        186.67,
+        57
+       ],
+       "b": [
+        186.67,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        186.67,
+        84
+       ],
+       "s": "−4",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        223.33,
+        57
+       ],
+       "b": [
+        223.33,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        223.33,
+        84
+       ],
+       "s": "−3",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        260.0,
+        57
+       ],
+       "b": [
+        260.0,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        260.0,
+        84
+       ],
+       "s": "−2",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        296.67,
+        57
+       ],
+       "b": [
+        296.67,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        296.67,
+        84
+       ],
+       "s": "−1",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        333.33,
+        57
+       ],
+       "b": [
+        333.33,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        333.33,
+        84
+       ],
+       "s": "0",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        370.0,
+        57
+       ],
+       "b": [
+        370.0,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        370.0,
+        84
+       ],
+       "s": "1",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        406.67,
+        57
+       ],
+       "b": [
+        406.67,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        406.67,
+        84
+       ],
+       "s": "2",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        443.33,
+        57
+       ],
+       "b": [
+        443.33,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        443.33,
+        84
+       ],
+       "s": "3",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "line",
+       "a": [
+        480.0,
+        57
+       ],
+       "b": [
+        480.0,
+        67
+       ],
+       "w": 1.6
+      },
+      {
+       "t": "txt",
+       "p": [
+        480.0,
+        84
+       ],
+       "s": "4",
+       "anchor": "middle",
+       "size": 12
+      },
+      {
+       "t": "pt",
+       "p": [
+        186.67,
+        62
+       ],
+       "l": "A",
+       "dx": -5,
+       "dy": -12
+      },
+      {
+       "t": "pt",
+       "p": [
+        370.0,
+        62
+       ],
+       "l": "B",
+       "dx": -5,
+       "dy": -12
+      },
+      {
+       "t": "pt",
+       "p": [
+        113.33,
+        62
+       ],
+       "l": "C",
+       "dx": -5,
+       "dy": -12
+      },
+      {
+       "t": "pt",
+       "p": [
+        333.33,
+        62
+       ],
+       "l": "O",
+       "dx": -5,
+       "dy": -12
+      }
+     ]
+    }
+   },
+   {
+    "c": "T6-C3-R02",
+    "d": "basic",
+    "p": "Khẳng định nào sau đây đúng?",
+    "o": [
+     "−9 < −4",
+     "−9 > −4",
+     "−9 > 0",
+     "−4 < −9"
+    ],
+    "k": "A",
+    "e": "Trong hai số nguyên âm, số nào có giá trị tuyệt đối lớn hơn thì nhỏ hơn: 9 > 4 nên −9 < −4. Mọi số nguyên âm đều nhỏ hơn 0."
+   },
+   {
+    "c": "T6-C3-R03",
+    "d": "basic",
+    "p": "Trong các số sau, số nào là ước của 15?",
+    "o": [
+     "2",
+     "4",
+     "−5",
+     "6"
+    ],
+    "k": "C",
+    "e": "15 : (−5) = −3 là phép chia hết nên −5 là ước của 15. Các số 2; 4; 6 đều không chia hết 15."
+   },
+   {
+    "c": "T6-C3-R04",
+    "d": "application",
+    "p": "Tính 18 − (−7) + (−10).",
+    "o": [
+     "1",
+     "35",
+     "21",
+     "15"
+    ],
+    "k": "D",
+    "e": "Trừ cho −7 là cộng với 7: 18 + 7 + (−10) = 25 − 10 = 15."
+   },
+   {
+    "c": "T6-C3-R05",
+    "d": "application",
+    "p": "Tìm số nguyên x, biết x − (−12) = −3.",
+    "o": [
+     "15",
+     "9",
+     "−9",
+     "−15"
+    ],
+    "k": "D",
+    "e": "Bỏ ngoặc: x + 12 = −3. Chuyển vế: x = −3 − 12 = −15. Lỗi hay mắc: tính −3 + 12 = 9."
+   },
+   {
+    "c": "T6-C3-R06",
+    "d": "application",
+    "p": "Tập hợp các ước âm của 6 là:",
+    "o": [
+     "{1; 2; 3; 6}",
+     "{−6; −3; −2}",
+     "{−6; −3; −2; −1}",
+     "{−6; −3; −2; −1; 1; 2; 3; 6}"
+    ],
+    "k": "C",
+    "e": "Ước của 6 gồm 1; 2; 3; 6 và các số đối của chúng. Các ước âm là −6; −3; −2; −1. Lỗi hay mắc: bỏ sót −1."
+   },
+   {
+    "c": "T6-C3-R07",
+    "d": "advanced",
+    "p": "Bảng cho biết kết quả kinh doanh bốn quý của một công ty (lãi là số dương, lỗ là số âm). Cả năm công ty lãi hay lỗ bao nhiêu triệu đồng?",
+    "o": [
+     "Lỗ 30 triệu đồng",
+     "Lãi 30 triệu đồng",
+     "Lãi 110 triệu đồng",
+     "Lỗ 70 triệu đồng"
+    ],
+    "k": "A",
+    "e": "Tổng: 25 + (−40) + 15 + (−30) = −30. Kết quả âm nghĩa là cả năm công ty lỗ 30 triệu đồng.",
+    "fig": {
+     "type": "table",
+     "title": "Lãi (+) hoặc lỗ (−) của một công ty (triệu đồng)",
+     "head": [
+      "Quý I",
+      "Quý II",
+      "Quý III",
+      "Quý IV"
+     ],
+     "rows": [
+      [
+       "25",
+       "−40",
+       "15",
+       "−30"
+      ]
+     ]
+    }
+   },
+   {
+    "c": "T6-C3-R08",
+    "d": "advanced",
+    "p": "Tính giá trị của biểu thức (−3) · (x − 4) + 2x khi x = −2.",
+    "o": [
+     "22",
+     "14",
+     "2",
+     "−14"
+    ],
+    "k": "B",
+    "e": "Thay x = −2: (−3) · (−2 − 4) + 2 · (−2) = (−3) · (−6) − 4 = 18 − 4 = 14. Lỗi hay mắc: quên nhân −3 với số −4 trong ngoặc."
+   }
+  ]
+ }
+]

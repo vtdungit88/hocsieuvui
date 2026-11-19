@@ -1,0 +1,956 @@
+[
+ {
+  "chapter": "toan6-c1",
+  "lesson": {
+   "code": "toan6-b01",
+   "title": "Bài 1. Tập hợp",
+   "seq": 1,
+   "subtitle": "Tập hợp, phần tử, cách viết tập hợp",
+   "concepts": [
+    "Tập hợp",
+    "Phần tử",
+    "Kí hiệu ∈, ∉",
+    "Cách cho tập hợp"
+   ]
+  },
+  "questions": [
+   {
+    "c": "T6-B01-001",
+    "d": "basic",
+    "p": "Gọi A là tập hợp các số tự nhiên nhỏ hơn 5. Cách viết nào sau đây đúng?",
+    "o": [
+     "A = {1; 2; 3; 4; 5}",
+     "A = {0; 1; 2; 3; 4; 5}",
+     "A = {0; 1; 2; 3; 4}",
+     "A = {1; 2; 3; 4}"
+    ],
+    "k": "C",
+    "e": "Các số tự nhiên nhỏ hơn 5 là 0, 1, 2, 3, 4 (số 0 là số tự nhiên, còn 5 không nhỏ hơn 5). Lỗi hay gặp: bỏ sót số 0 hoặc đưa số 5 vào tập hợp."
+   },
+   {
+    "c": "T6-B01-002",
+    "d": "basic",
+    "p": "Cho tập hợp B = {2; 4; 6; 8}. Khẳng định nào sau đây đúng?",
+    "o": [
+     "5 ∈ B",
+     "6 ∈ B",
+     "8 ∉ B",
+     "10 ∈ B"
+    ],
+    "k": "B",
+    "e": "6 là một phần tử của B nên viết 6 ∈ B. Các số 5 và 10 không có trong B nên 5 ∉ B, 10 ∉ B; còn 8 ∈ B."
+   },
+   {
+    "c": "T6-B01-003",
+    "d": "basic",
+    "p": "Cho tập hợp C = {x ∈ ℕ | 3 < x ≤ 7}. Viết tập hợp C bằng cách liệt kê các phần tử ta được",
+    "o": [
+     "C = {3; 4; 5; 6; 7}",
+     "C = {4; 5; 6; 7}",
+     "C = {4; 5; 6}",
+     "C = {3; 4; 5; 6}"
+    ],
+    "k": "B",
+    "e": "x > 3 nên không lấy số 3; x ≤ 7 nên lấy cả số 7. Vậy C = {4; 5; 6; 7}."
+   },
+   {
+    "c": "T6-B01-004",
+    "d": "application",
+    "p": "Số phần tử của tập hợp D = {x ∈ ℕ | 10 ≤ x < 20} là",
+    "o": [
+     "10",
+     "9",
+     "11",
+     "20"
+    ],
+    "k": "A",
+    "e": "D gồm các số 10, 11, …, 19 nên có 19 − 10 + 1 = 10 phần tử. Lỗi hay gặp: lấy 19 − 10 = 9 hoặc đếm cả số 20."
+   },
+   {
+    "c": "T6-B01-005",
+    "d": "application",
+    "p": "Số phần tử của tập hợp các số tự nhiên chẵn nhỏ hơn 12 là",
+    "o": [
+     "5",
+     "6",
+     "7",
+     "12"
+    ],
+    "k": "B",
+    "e": "Các số tự nhiên chẵn nhỏ hơn 12 là 0, 2, 4, 6, 8, 10 nên có 6 phần tử. Lỗi hay gặp: quên số 0 (được 5) hoặc đếm cả số 12."
+   },
+   {
+    "c": "T6-B01-006",
+    "d": "application",
+    "p": "Cho A = {1; 3; 5; 7} và B = {x ∈ ℕ | x là số lẻ, x < 6}. Khẳng định nào sau đây đúng?",
+    "o": [
+     "Mỗi phần tử của A đều thuộc B",
+     "7 ∈ B",
+     "Mỗi phần tử của B đều thuộc A",
+     "B có 4 phần tử"
+    ],
+    "k": "C",
+    "e": "B = {1; 3; 5}, mỗi phần tử của B đều thuộc A. Tuy nhiên 7 ∈ A mà 7 ∉ B và B chỉ có 3 phần tử."
+   },
+   {
+    "c": "T6-B01-007",
+    "d": "advanced",
+    "p": "Gọi M là tập hợp các số tự nhiên có hai chữ số mà tổng các chữ số bằng 4. Số phần tử của M là",
+    "o": [
+     "4",
+     "3",
+     "5",
+     "6"
+    ],
+    "k": "A",
+    "e": "Liệt kê: 13, 22, 31, 40, nên M = {13; 22; 31; 40} có 4 phần tử. Số 04 không phải số có hai chữ số."
+   },
+   {
+    "c": "T6-B01-008",
+    "d": "advanced",
+    "p": "Gọi P là tập hợp các số tự nhiên chẵn x thỏa mãn 10 < x ≤ 30. Số phần tử của P là",
+    "o": [
+     "9",
+     "11",
+     "20",
+     "10"
+    ],
+    "k": "D",
+    "e": "P = {12; 14; 16; …; 30}. Hai số chẵn liên tiếp cách nhau 2 đơn vị nên số phần tử là (30 − 12) : 2 + 1 = 10."
+   }
+  ]
+ },
+ {
+  "chapter": "toan6-c1",
+  "lesson": {
+   "code": "toan6-b02",
+   "title": "Bài 2. Cách ghi số tự nhiên",
+   "seq": 2,
+   "subtitle": "Hệ thập phân, giá trị theo vị trí, số La Mã",
+   "concepts": [
+    "Hệ thập phân",
+    "Giá trị của chữ số theo vị trí",
+    "Số La Mã"
+   ]
+  },
+  "questions": [
+   {
+    "c": "T6-B02-001",
+    "d": "basic",
+    "p": "Trong số 5 207, chữ số hàng trăm là",
+    "o": [
+     "5",
+     "0",
+     "7",
+     "2"
+    ],
+    "k": "D",
+    "e": "Số 5 207 gồm 5 nghìn, 2 trăm, 0 chục, 7 đơn vị nên chữ số hàng trăm là 2."
+   },
+   {
+    "c": "T6-B02-002",
+    "d": "basic",
+    "p": "Số tự nhiên gồm 4 nghìn, 0 trăm, 3 chục và 8 đơn vị được viết là",
+    "o": [
+     "4038",
+     "4308",
+     "4380",
+     "438"
+    ],
+    "k": "A",
+    "e": "Viết lần lượt các chữ số hàng nghìn, trăm, chục, đơn vị: 4, 0, 3, 8 được 4 038. Không được bỏ chữ số 0 ở hàng trăm."
+   },
+   {
+    "c": "T6-B02-003",
+    "d": "basic",
+    "p": "Số La Mã XIV có giá trị bằng",
+    "o": [
+     "16",
+     "14",
+     "6",
+     "11"
+    ],
+    "k": "B",
+    "e": "XIV = X + IV = 10 + 4 = 14 (IV là 5 − 1 = 4). Số 16 được viết là XVI."
+   },
+   {
+    "c": "T6-B02-004",
+    "d": "application",
+    "p": "Viết số 3 705 dưới dạng tổng giá trị các chữ số theo vị trí, ta được",
+    "o": [
+     "3 000 + 70 + 5",
+     "3 000 + 700 + 5",
+     "3 000 + 700 + 50",
+     "300 + 70 + 5"
+    ],
+    "k": "B",
+    "e": "Số 3 705 có 3 nghìn, 7 trăm, 0 chục, 5 đơn vị nên 3 705 = 3 000 + 700 + 5."
+   },
+   {
+    "c": "T6-B02-005",
+    "d": "application",
+    "p": "Số 29 viết bằng số La Mã là",
+    "o": [
+     "XXXI",
+     "XXXIX",
+     "XIX",
+     "XXIX"
+    ],
+    "k": "D",
+    "e": "29 = 20 + 9 = XX + IX = XXIX. XXXI là 31, XXXIX là 39, XIX là 19."
+   },
+   {
+    "c": "T6-B02-006",
+    "d": "application",
+    "p": "Số tự nhiên lớn nhất có ba chữ số khác nhau là",
+    "o": [
+     "999",
+     "998",
+     "987",
+     "789"
+    ],
+    "k": "C",
+    "e": "Chọn chữ số lớn nhất cho hàng trăm (9), rồi chữ số lớn nhất còn lại cho hàng chục (8) và đơn vị (7) được 987. Các số 999, 998 có chữ số lặp lại."
+   },
+   {
+    "c": "T6-B02-007",
+    "d": "advanced",
+    "p": "Có bao nhiêu số tự nhiên có ba chữ số, chữ số hàng trăm là 5 và chữ số hàng đơn vị là 7?",
+    "o": [
+     "9",
+     "10",
+     "11",
+     "100"
+    ],
+    "k": "B",
+    "e": "Các số có dạng 5x7 với chữ số hàng chục x nhận một trong 10 giá trị 0, 1, …, 9. Vậy có 10 số: 507, 517, …, 597."
+   },
+   {
+    "c": "T6-B02-008",
+    "d": "advanced",
+    "p": "Dùng ba chữ số 0, 3, 5, mỗi chữ số dùng đúng một lần, viết được bao nhiêu số tự nhiên có ba chữ số?",
+    "o": [
+     "6",
+     "3",
+     "5",
+     "4"
+    ],
+    "k": "D",
+    "e": "Chữ số hàng trăm khác 0 nên chỉ là 3 hoặc 5: 305, 350, 503, 530. Có 4 số; các hoán vị bắt đầu bằng 0 (035, 053) không phải số có ba chữ số."
+   }
+  ]
+ },
+ {
+  "chapter": "toan6-c1",
+  "lesson": {
+   "code": "toan6-b03",
+   "title": "Bài 3. Thứ tự trong tập hợp các số tự nhiên",
+   "seq": 3,
+   "subtitle": "So sánh, số liền trước, số liền sau",
+   "concepts": [
+    "So sánh số tự nhiên",
+    "Số liền trước, số liền sau",
+    "Kí hiệu ≤, ≥"
+   ]
+  },
+  "questions": [
+   {
+    "c": "T6-B03-001",
+    "d": "basic",
+    "p": "Số liền sau của số 2 019 là",
+    "o": [
+     "2018",
+     "2021",
+     "2029",
+     "2020"
+    ],
+    "k": "D",
+    "e": "Số liền sau của số tự nhiên a là a + 1. Vậy số liền sau của 2 019 là 2 020."
+   },
+   {
+    "c": "T6-B03-002",
+    "d": "basic",
+    "p": "Khẳng định nào sau đây đúng?",
+    "o": [
+     "12 345 > 12 354",
+     "9 999 > 10 000",
+     "12 345 < 12 354",
+     "100 < 99"
+    ],
+    "k": "C",
+    "e": "Hai số 12 345 và 12 354 có cùng số chữ số; so từ trái sang phải, đến hàng chục có 4 < 5 nên 12 345 < 12 354. Số có ít chữ số hơn thì nhỏ hơn nên 9 999 < 10 000 và 100 > 99."
+   },
+   {
+    "c": "T6-B03-003",
+    "d": "basic",
+    "p": "Số liền trước của số 1 000 là",
+    "o": [
+     "999",
+     "1001",
+     "990",
+     "900"
+    ],
+    "k": "A",
+    "e": "Số liền trước của số tự nhiên a (a ≠ 0) là a − 1. Vậy số liền trước của 1 000 là 999."
+   },
+   {
+    "c": "T6-B03-004",
+    "d": "application",
+    "p": "Sắp xếp các số 5 807; 5 780; 5 870; 5 708 theo thứ tự từ bé đến lớn ta được",
+    "o": [
+     "5 708; 5 780; 5 807; 5 870",
+     "5 870; 5 807; 5 780; 5 708",
+     "5 708; 5 807; 5 780; 5 870",
+     "5 780; 5 708; 5 807; 5 870"
+    ],
+    "k": "A",
+    "e": "Cả bốn số đều có 4 chữ số và cùng chữ số hàng nghìn 5. So tiếp hàng trăm: 7 < 8; trong hai số hàng trăm 7 thì 5 708 < 5 780; trong hai số hàng trăm 8 thì 5 807 < 5 870."
+   },
+   {
+    "c": "T6-B03-005",
+    "d": "application",
+    "p": "Có bao nhiêu số tự nhiên x thỏa mãn 7 < x ≤ 15?",
+    "o": [
+     "7",
+     "8",
+     "9",
+     "15"
+    ],
+    "k": "B",
+    "e": "x nhận các giá trị 8, 9, 10, …, 15 nên có 15 − 8 + 1 = 8 số. Không lấy x = 7 vì 7 < x."
+   },
+   {
+    "c": "T6-B03-006",
+    "d": "application",
+    "p": "Ba số tự nhiên liên tiếp tăng dần có số lớn nhất là 2 000. Số bé nhất trong ba số đó là",
+    "o": [
+     "1997",
+     "1999",
+     "1998",
+     "1996"
+    ],
+    "k": "C",
+    "e": "Ba số liên tiếp là 1 998; 1 999; 2 000. Số bé nhất là 1 998 (kém số lớn nhất 2 đơn vị)."
+   },
+   {
+    "c": "T6-B03-007",
+    "d": "advanced",
+    "p": "Số tự nhiên lớn nhất có bốn chữ số mà tổng các chữ số bằng 5 là",
+    "o": [
+     "4100",
+     "1004",
+     "2300",
+     "5000"
+    ],
+    "k": "D",
+    "e": "Để số lớn nhất, chữ số hàng nghìn phải lớn nhất có thể: bằng 5, khi đó các chữ số còn lại đều bằng 0. Vậy số cần tìm là 5 000."
+   },
+   {
+    "c": "T6-B03-008",
+    "d": "advanced",
+    "p": "Độ cao của một số ngọn núi: Phan-xi-păng 3 143 m; Ngọc Linh 2 598 m; Bạch Mã 1 450 m; Tây Côn Lĩnh 2 419 m. Ngọn núi cao thứ ba trong bốn ngọn núi trên là",
+    "o": [
+     "Tây Côn Lĩnh",
+     "Ngọc Linh",
+     "Bạch Mã",
+     "Phan-xi-păng"
+    ],
+    "k": "A",
+    "e": "Xếp từ cao đến thấp: 3 143 > 2 598 > 2 419 > 1 450, tức Phan-xi-păng, Ngọc Linh, Tây Côn Lĩnh, Bạch Mã. Ngọn thứ ba là Tây Côn Lĩnh."
+   }
+  ]
+ },
+ {
+  "chapter": "toan6-c1",
+  "lesson": {
+   "code": "toan6-b04",
+   "title": "Bài 4. Phép cộng và phép trừ số tự nhiên",
+   "seq": 4,
+   "subtitle": "Tính chất phép cộng, tính nhanh, tìm x, bài toán thực tế",
+   "concepts": [
+    "Tính chất giao hoán, kết hợp của phép cộng",
+    "Phép trừ",
+    "Tính nhanh",
+    "Tìm số chưa biết"
+   ]
+  },
+  "questions": [
+   {
+    "c": "T6-B04-001",
+    "d": "basic",
+    "p": "Đẳng thức nào sau đây thể hiện tính chất kết hợp của phép cộng?",
+    "o": [
+     "(a + b) + c = a + (b + c)",
+     "a + b = b + a",
+     "a + 0 = a",
+     "(a − b) − c = a − (b − c)"
+    ],
+    "k": "A",
+    "e": "Tính chất kết hợp: muốn cộng một tổng hai số với số thứ ba, ta có thể cộng số thứ nhất với tổng của số thứ hai và số thứ ba. Phép trừ không có tính chất kết hợp."
+   },
+   {
+    "c": "T6-B04-002",
+    "d": "basic",
+    "p": "Kết quả của phép tính 3 456 + 2 789 là",
+    "o": [
+     "6235",
+     "5245",
+     "6345",
+     "6245"
+    ],
+    "k": "D",
+    "e": "Cộng theo cột có nhớ: 6 + 9 = 15 viết 5 nhớ 1; 5 + 8 + 1 = 14 viết 4 nhớ 1; 4 + 7 + 1 = 12 viết 2 nhớ 1; 3 + 2 + 1 = 6. Kết quả 6 245."
+   },
+   {
+    "c": "T6-B04-003",
+    "d": "basic",
+    "p": "Kết quả của phép tính 5 000 − 2 368 là",
+    "o": [
+     "3632",
+     "2632",
+     "2732",
+     "2642"
+    ],
+    "k": "B",
+    "e": "Trừ theo cột có nhớ (hoặc 5 000 − 2 368 = 4 999 − 2 368 + 1 = 2 632). Thử lại: 2 632 + 2 368 = 5 000."
+   },
+   {
+    "c": "T6-B04-004",
+    "d": "application",
+    "p": "Tính nhanh: 87 + 36 + 13",
+    "o": [
+     "126",
+     "146",
+     "123",
+     "136"
+    ],
+    "k": "D",
+    "e": "Dùng tính chất giao hoán và kết hợp: 87 + 36 + 13 = (87 + 13) + 36 = 100 + 36 = 136."
+   },
+   {
+    "c": "T6-B04-005",
+    "d": "application",
+    "p": "Tính nhanh: 25 + 37 + 75 + 63",
+    "o": [
+     "190",
+     "210",
+     "100",
+     "200"
+    ],
+    "k": "D",
+    "e": "Nhóm các số có tổng tròn trăm: (25 + 75) + (37 + 63) = 100 + 100 = 200."
+   },
+   {
+    "c": "T6-B04-006",
+    "d": "application",
+    "p": "Tìm số tự nhiên x, biết x − 245 = 316.",
+    "o": [
+     "71",
+     "551",
+     "561",
+     "461"
+    ],
+    "k": "C",
+    "e": "Số bị trừ bằng hiệu cộng số trừ: x = 316 + 245 = 561. Lỗi hay gặp: lấy 316 − 245 = 71."
+   },
+   {
+    "c": "T6-B04-007",
+    "d": "advanced",
+    "p": "Một cửa hàng ngày thứ nhất bán 1 245 kg gạo; ngày thứ hai bán nhiều hơn ngày thứ nhất 380 kg; ngày thứ ba bán ít hơn ngày thứ hai 215 kg. Cả ba ngày cửa hàng bán được bao nhiêu ki-lô-gam gạo?",
+    "o": [
+     "4710",
+     "2870",
+     "4280",
+     "2760"
+    ],
+    "k": "C",
+    "e": "Ngày hai: 1 245 + 380 = 1 625 kg. Ngày ba: 1 625 − 215 = 1 410 kg. Tổng: 1 245 + 1 625 + 1 410 = 4 280 kg."
+   },
+   {
+    "c": "T6-B04-008",
+    "d": "advanced",
+    "p": "Tính nhanh: 2 021 − 387 − 613",
+    "o": [
+     "2247",
+     "3021",
+     "1100",
+     "1021"
+    ],
+    "k": "D",
+    "e": "Trừ liên tiếp hai số bằng trừ tổng của chúng: 2 021 − (387 + 613) = 2 021 − 1 000 = 1 021. Lỗi hay gặp: đổi dấu thành 2 021 − 387 + 613."
+   }
+  ]
+ },
+ {
+  "chapter": "toan6-c1",
+  "lesson": {
+   "code": "toan6-b05",
+   "title": "Bài 5. Phép nhân và phép chia số tự nhiên",
+   "seq": 5,
+   "subtitle": "Tính chất phép nhân, phép chia hết, chia có dư",
+   "concepts": [
+    "Tính chất giao hoán, kết hợp, phân phối",
+    "Phép chia hết và phép chia có dư",
+    "Tính nhanh"
+   ]
+  },
+  "questions": [
+   {
+    "c": "T6-B05-001",
+    "d": "basic",
+    "p": "Đẳng thức a · (b + c) = a · b + a · c thể hiện tính chất nào của phép nhân?",
+    "o": [
+     "Tính chất giao hoán",
+     "Tính chất phân phối của phép nhân đối với phép cộng",
+     "Tính chất kết hợp",
+     "Nhân với số 1"
+    ],
+    "k": "B",
+    "e": "Đẳng thức cho biết nhân một số với một tổng bằng tổng các tích của số đó với từng số hạng: đó là tính chất phân phối của phép nhân đối với phép cộng."
+   },
+   {
+    "c": "T6-B05-002",
+    "d": "basic",
+    "p": "Kết quả của phép tính 47 · 23 là",
+    "o": [
+     "1071",
+     "987",
+     "1181",
+     "1081"
+    ],
+    "k": "D",
+    "e": "47 · 23 = 47 · 20 + 47 · 3 = 940 + 141 = 1 081."
+   },
+   {
+    "c": "T6-B05-003",
+    "d": "basic",
+    "p": "Thực hiện phép chia 487 cho 12, ta được",
+    "o": [
+     "thương là 40, số dư là 7",
+     "thương là 40, số dư là 17",
+     "thương là 39, số dư là 19",
+     "thương là 4, số dư là 7"
+    ],
+    "k": "A",
+    "e": "Ta có 487 = 12 · 40 + 7 với 0 ≤ 7 < 12. Số dư phải nhỏ hơn số chia nên số dư 17 hoặc 19 là sai (khi đó thương còn tăng được)."
+   },
+   {
+    "c": "T6-B05-004",
+    "d": "application",
+    "p": "Tính nhanh: 4 · 37 · 25",
+    "o": [
+     "370",
+     "3600",
+     "3700",
+     "7400"
+    ],
+    "k": "C",
+    "e": "Dùng giao hoán, kết hợp: 4 · 37 · 25 = (4 · 25) · 37 = 100 · 37 = 3 700."
+   },
+   {
+    "c": "T6-B05-005",
+    "d": "application",
+    "p": "Tính nhanh: 36 · 25 + 36 · 75",
+    "o": [
+     "900",
+     "2700",
+     "3100",
+     "3600"
+    ],
+    "k": "D",
+    "e": "Đặt thừa số chung: 36 · 25 + 36 · 75 = 36 · (25 + 75) = 36 · 100 = 3 600."
+   },
+   {
+    "c": "T6-B05-006",
+    "d": "application",
+    "p": "Tìm số tự nhiên x, biết (x − 15) : 4 = 12.",
+    "o": [
+     "48",
+     "33",
+     "183",
+     "63"
+    ],
+    "k": "D",
+    "e": "x − 15 = 12 · 4 = 48, suy ra x = 48 + 15 = 63. Lỗi hay gặp: dừng ở 48 mà quên cộng 15."
+   },
+   {
+    "c": "T6-B05-007",
+    "d": "advanced",
+    "p": "Mỗi xe ô tô chở được nhiều nhất 45 người. Cần ít nhất bao nhiêu xe để chở hết 500 người?",
+    "o": [
+     "12",
+     "11",
+     "13",
+     "10"
+    ],
+    "k": "A",
+    "e": "500 : 45 được thương 11, dư 5. Với 11 xe chỉ chở được 495 người, còn 5 người nữa nên cần thêm 1 xe: 12 xe."
+   },
+   {
+    "c": "T6-B05-008",
+    "d": "advanced",
+    "p": "Một cửa hàng nhập 8 thùng bút, mỗi thùng có 12 hộp, mỗi hộp có 10 chiếc bút. Cửa hàng đã bán 650 chiếc bút. Số bút còn lại là",
+    "o": [
+     "410",
+     "310",
+     "300",
+     "1610"
+    ],
+    "k": "B",
+    "e": "Số bút nhập: 8 · 12 · 10 = 960 chiếc. Số bút còn lại: 960 − 650 = 310 chiếc."
+   }
+  ]
+ },
+ {
+  "chapter": "toan6-c1",
+  "lesson": {
+   "code": "toan6-b06",
+   "title": "Bài 6. Lũy thừa với số mũ tự nhiên",
+   "seq": 6,
+   "subtitle": "Lũy thừa, nhân và chia hai lũy thừa cùng cơ số",
+   "concepts": [
+    "Lũy thừa",
+    "Cơ số, số mũ",
+    "Nhân, chia hai lũy thừa cùng cơ số"
+   ]
+  },
+  "questions": [
+   {
+    "c": "T6-B06-001",
+    "d": "basic",
+    "p": "Viết gọn tích 5 · 5 · 5 · 5 bằng lũy thừa, ta được",
+    "o": [
+     "$4^5$",
+     "$5^4$",
+     "$5^3$",
+     "$5 \\cdot 4$"
+    ],
+    "k": "B",
+    "e": "Tích của 4 thừa số bằng nhau, mỗi thừa số là 5, được viết là $5^4$ (cơ số 5, số mũ 4)."
+   },
+   {
+    "c": "T6-B06-002",
+    "d": "basic",
+    "p": "Giá trị của lũy thừa $2^5$ là",
+    "o": [
+     "10",
+     "25",
+     "32",
+     "16"
+    ],
+    "k": "C",
+    "e": "$2^5 = 2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2 = 32$. Lỗi hay gặp: nhân cơ số với số mũ (2 · 5 = 10)."
+   },
+   {
+    "c": "T6-B06-003",
+    "d": "basic",
+    "p": "Công thức nào sau đây đúng (với m, n là các số tự nhiên)?",
+    "o": [
+     "$a^m \\cdot a^n = a^{m+n}$",
+     "$a^m \\cdot a^n = a^{m \\cdot n}$",
+     "$a^m \\cdot a^n = a^{m-n}$",
+     "$a^m \\cdot a^n = a^m + a^n$"
+    ],
+    "k": "A",
+    "e": "Khi nhân hai lũy thừa cùng cơ số, ta giữ nguyên cơ số và cộng các số mũ."
+   },
+   {
+    "c": "T6-B06-004",
+    "d": "application",
+    "p": "Viết kết quả của phép tính $3^4 \\cdot 3^5$ dưới dạng một lũy thừa.",
+    "o": [
+     "$3^9$",
+     "$3^{20}$",
+     "$9^9$",
+     "$3^1$"
+    ],
+    "k": "A",
+    "e": "Giữ nguyên cơ số 3 và cộng số mũ: $3^4 \\cdot 3^5 = 3^{4+5} = 3^9$."
+   },
+   {
+    "c": "T6-B06-005",
+    "d": "application",
+    "p": "Viết kết quả của phép tính $7^8 : 7^3$ dưới dạng một lũy thừa.",
+    "o": [
+     "$7^5$",
+     "$7^{11}$",
+     "$7^{24}$",
+     "$7^6$"
+    ],
+    "k": "A",
+    "e": "Khi chia hai lũy thừa cùng cơ số, giữ nguyên cơ số và trừ các số mũ: $7^8 : 7^3 = 7^{8-3} = 7^5$."
+   },
+   {
+    "c": "T6-B06-006",
+    "d": "application",
+    "p": "Khẳng định nào sau đây đúng?",
+    "o": [
+     "$2^3 < 3^2$",
+     "$2^3 > 3^2$",
+     "$2^3 = 3^2$",
+     "$2^3 = 6$"
+    ],
+    "k": "A",
+    "e": "$2^3 = 8$ và $3^2 = 9$ nên $2^3 < 3^2$. Lỗi hay gặp: coi $2^3$ là 2 · 3 = 6."
+   },
+   {
+    "c": "T6-B06-007",
+    "d": "advanced",
+    "p": "Viết số 4 072 dưới dạng tổng các lũy thừa của 10 (bỏ qua các hạng tử bằng 0), ta được",
+    "o": [
+     "$4 \\cdot 10^3 + 7 \\cdot 10^2 + 2$",
+     "$4 \\cdot 10^3 + 7 \\cdot 10 + 2$",
+     "$4 \\cdot 10^4 + 7 \\cdot 10 + 2$",
+     "$4 \\cdot 10^2 + 7 \\cdot 10 + 2$"
+    ],
+    "k": "B",
+    "e": "4 072 = 4 · 1 000 + 0 · 100 + 7 · 10 + 2 = $4 \\cdot 10^3 + 7 \\cdot 10 + 2$. Hàng chục ứng với $10^1 = 10$, hàng trăm có chữ số 0 nên bị bỏ."
+   },
+   {
+    "c": "T6-B06-008",
+    "d": "advanced",
+    "p": "Tìm số tự nhiên n, biết $2^n \\cdot 4 = 128$.",
+    "o": [
+     "7",
+     "5",
+     "6",
+     "32"
+    ],
+    "k": "B",
+    "e": "Ta có $2^n = 128 : 4 = 32 = 2^5$ nên n = 5. Lỗi hay gặp: bỏ qua thừa số 4 và cho $2^n = 128 = 2^7$."
+   }
+  ]
+ },
+ {
+  "chapter": "toan6-c1",
+  "lesson": {
+   "code": "toan6-b07",
+   "title": "Bài 7. Thứ tự thực hiện các phép tính",
+   "seq": 7,
+   "subtitle": "Thứ tự thực hiện phép tính, biểu thức có dấu ngoặc",
+   "concepts": [
+    "Biểu thức",
+    "Thứ tự thực hiện các phép tính",
+    "Dấu ngoặc ( ), [ ], { }"
+   ]
+  },
+  "questions": [
+   {
+    "c": "T6-B07-001",
+    "d": "basic",
+    "p": "Giá trị của biểu thức 50 − 20 + 10 là",
+    "o": [
+     "40",
+     "20",
+     "60",
+     "30"
+    ],
+    "k": "A",
+    "e": "Biểu thức chỉ có phép cộng và trừ nên thực hiện từ trái sang phải: 50 − 20 = 30, rồi 30 + 10 = 40."
+   },
+   {
+    "c": "T6-B07-002",
+    "d": "basic",
+    "p": "Giá trị của biểu thức 3 + 4 · 5 là",
+    "o": [
+     "35",
+     "19",
+     "27",
+     "23"
+    ],
+    "k": "D",
+    "e": "Nhân chia trước, cộng trừ sau: 4 · 5 = 20, rồi 3 + 20 = 23. Lỗi hay gặp: tính (3 + 4) · 5 = 35."
+   },
+   {
+    "c": "T6-B07-003",
+    "d": "basic",
+    "p": "Biểu thức có chứa các dấu ngoặc ( ), [ ], { } thì ta thực hiện các phép tính theo thứ tự nào?",
+    "o": [
+     "{ } → [ ] → ( )",
+     "[ ] → ( ) → { }",
+     "( ) → [ ] → { }",
+     "( ) → { } → [ ]"
+    ],
+    "k": "C",
+    "e": "Ta thực hiện các phép tính trong dấu ngoặc tròn trước, rồi đến ngoặc vuông, cuối cùng đến ngoặc nhọn."
+   },
+   {
+    "c": "T6-B07-004",
+    "d": "application",
+    "p": "Giá trị của biểu thức $2 \\cdot 3^2 - 5$ là",
+    "o": [
+     "31",
+     "1",
+     "13",
+     "25"
+    ],
+    "k": "C",
+    "e": "Lũy thừa trước: $3^2 = 9$; rồi nhân: 2 · 9 = 18; cuối cùng trừ: 18 − 5 = 13. Lỗi hay gặp: tính $(2 \\cdot 3)^2 = 36$."
+   },
+   {
+    "c": "T6-B07-005",
+    "d": "application",
+    "p": "Giá trị của biểu thức 100 − [60 − (12 − 5)] là",
+    "o": [
+     "33",
+     "53",
+     "47",
+     "140"
+    ],
+    "k": "C",
+    "e": "Trong ngoặc tròn trước: 12 − 5 = 7; trong ngoặc vuông: 60 − 7 = 53; cuối cùng 100 − 53 = 47."
+   },
+   {
+    "c": "T6-B07-006",
+    "d": "application",
+    "p": "Giá trị của biểu thức 5 · (12 + 8) : 4 − 10 là",
+    "o": [
+     "35",
+     "15",
+     "90",
+     "25"
+    ],
+    "k": "B",
+    "e": "Trong ngoặc: 12 + 8 = 20; rồi nhân chia từ trái sang phải: 5 · 20 = 100, 100 : 4 = 25; cuối cùng 25 − 10 = 15."
+   },
+   {
+    "c": "T6-B07-007",
+    "d": "advanced",
+    "p": "Giá trị của biểu thức $2 \\cdot [15 + 3 \\cdot (8 - 5)^2]$ là",
+    "o": [
+     "84",
+     "324",
+     "192",
+     "57"
+    ],
+    "k": "A",
+    "e": "8 − 5 = 3; $3^2 = 9$; 3 · 9 = 27; 15 + 27 = 42; 2 · 42 = 84. Phải nhân 3 với $9$ trước khi cộng với 15."
+   },
+   {
+    "c": "T6-B07-008",
+    "d": "advanced",
+    "p": "Mẹ mua 3 hộp bút giá 25 000 đồng một hộp và 2 quyển vở giá 9 000 đồng một quyển, đưa người bán hàng 100 000 đồng. Số tiền mẹ được trả lại là",
+    "o": [
+     "16 000 đồng",
+     "43 000 đồng",
+     "7 000 đồng",
+     "93 000 đồng"
+    ],
+    "k": "C",
+    "e": "Số tiền phải trả: 3 · 25 000 + 2 · 9 000 = 75 000 + 18 000 = 93 000 đồng. Tiền thừa: 100 000 − 93 000 = 7 000 đồng."
+   }
+  ]
+ },
+ {
+  "chapter": "toan6-c1",
+  "lesson": {
+   "code": "toan6_ch1"
+  },
+  "questions": [
+   {
+    "c": "T6-C1-R01",
+    "d": "basic",
+    "p": "Cho tập hợp K = {x ∈ ℕ* | x < 4}. Viết K bằng cách liệt kê các phần tử là",
+    "o": [
+     "K = {0; 1; 2; 3}",
+     "K = {1; 2; 3; 4}",
+     "K = {0; 1; 2; 3; 4}",
+     "K = {1; 2; 3}"
+    ],
+    "k": "D",
+    "e": "ℕ* là tập hợp các số tự nhiên khác 0, nên x ∈ ℕ* và x < 4 cho x = 1, 2, 3."
+   },
+   {
+    "c": "T6-C1-R02",
+    "d": "basic",
+    "p": "Số La Mã XXIV có giá trị bằng",
+    "o": [
+     "26",
+     "24",
+     "16",
+     "14"
+    ],
+    "k": "B",
+    "e": "XXIV = XX + IV = 20 + 4 = 24."
+   },
+   {
+    "c": "T6-C1-R03",
+    "d": "basic",
+    "p": "Giá trị của lũy thừa $4^3$ là",
+    "o": [
+     "12",
+     "81",
+     "64",
+     "7"
+    ],
+    "k": "C",
+    "e": "$4^3 = 4 \\cdot 4 \\cdot 4 = 64$. Lỗi hay gặp: nhân 4 · 3 = 12."
+   },
+   {
+    "c": "T6-C1-R04",
+    "d": "application",
+    "p": "Giá trị của biểu thức $15 + 5 \\cdot (20 - 4^2) : 2$ là",
+    "o": [
+     "40",
+     "45",
+     "80",
+     "25"
+    ],
+    "k": "D",
+    "e": "Trong ngoặc: $4^2 = 16$, 20 − 16 = 4. Sau đó 5 · 4 = 20, 20 : 2 = 10, cuối cùng 15 + 10 = 25."
+   },
+   {
+    "c": "T6-C1-R05",
+    "d": "application",
+    "p": "Số tự nhiên có ba chữ số, chữ số hàng trăm là 7, chữ số hàng chục là chữ số nhỏ nhất, chữ số hàng đơn vị là số liền sau của 4 là",
+    "o": [
+     "704",
+     "745",
+     "705",
+     "750"
+    ],
+    "k": "C",
+    "e": "Chữ số nhỏ nhất là 0; số liền sau của 4 là 5. Vậy số cần tìm là 705."
+   },
+   {
+    "c": "T6-C1-R06",
+    "d": "application",
+    "p": "Tìm số tự nhiên x, biết 3 · (x + 5) = 48.",
+    "o": [
+     "16",
+     "11",
+     "43",
+     "53"
+    ],
+    "k": "B",
+    "e": "x + 5 = 48 : 3 = 16, suy ra x = 16 − 5 = 11. Lỗi hay gặp: dừng ở x + 5 = 16."
+   },
+   {
+    "c": "T6-C1-R07",
+    "d": "advanced",
+    "p": "Một nhà máy ngày đầu sản xuất 1 200 sản phẩm; mỗi ngày sau sản xuất nhiều hơn ngày liền trước 150 sản phẩm. Trong ba ngày đầu, nhà máy sản xuất được tất cả",
+    "o": [
+     "3750",
+     "4350",
+     "4050",
+     "3600"
+    ],
+    "k": "C",
+    "e": "Ba ngày sản xuất lần lượt 1 200; 1 350; 1 500 sản phẩm. Tổng là 1 200 + 1 350 + 1 500 = 4 050 sản phẩm."
+   },
+   {
+    "c": "T6-C1-R08",
+    "d": "advanced",
+    "p": "Giá trị của biểu thức $2^3 \\cdot 5 - 3^2 \\cdot 4 + 10$ là",
+    "o": [
+     "14",
+     "26",
+     "16",
+     "86"
+    ],
+    "k": "A",
+    "e": "Tính lũy thừa: $2^3 = 8$, $3^2 = 9$. Rồi nhân: 8 · 5 = 40, 9 · 4 = 36. Cuối cùng 40 − 36 + 10 = 14."
+   }
+  ]
+ }
+]
