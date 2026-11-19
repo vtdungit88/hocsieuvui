@@ -52,7 +52,7 @@ export const InstallShareModal: React.FC<InstallShareModalProps> = ({ isOpen, on
   };
 
   // Lời mời ngắn gọn, đúng tính năng thật; link nằm riêng một dòng để Zalo/Facebook dựng thẻ xem trước
-  const shareText = `Học Siêu Vui – vừa học vừa chơi Toán lớp 1–9 & KHTN lớp 6–9 theo SGK. Đấu trường, bản đồ thám hiểm, gom Sao leo bảng xếp hạng. Chơi miễn phí:\n${getShareUrl()}`;
+  const shareText = `Học Siêu Vui – vừa học vừa chơi, giỏi lên mỗi ngày! Đa môn học cho học sinh Tiểu học & THCS; Đấu trường, Bản đồ thám hiểm, Sảnh Online giao lưu trực tuyến; Gom Sao – Leo hạng. Chơi miễn phí:\n${getShareUrl()}`;
 
   const handleCopyLink = (textToCopy: string, type: string) => {
     soundManager.play('click');
@@ -369,10 +369,10 @@ export const InstallShareModal: React.FC<InstallShareModalProps> = ({ isOpen, on
                     <div className="p-2.5 space-y-1">
                       <div className="text-[10px] text-blue-600 font-bold uppercase">VNPTLUONGSON.CLOUD</div>
                       <div className="text-xs font-bold text-slate-900 dark:text-white line-clamp-1">
-                        Học Siêu Vui – Vừa học vừa chơi Toán & KHTN
+                        Học Siêu Vui – Vừa học vừa chơi, giỏi lên mỗi ngày
                       </div>
                       <p className="text-[10px] text-slate-500 line-clamp-2">
-                        Toán lớp 1–9, KHTN lớp 6–9 theo SGK. Đấu trường, bản đồ thám hiểm, gom Sao leo bảng xếp hạng. Chơi miễn phí!
+                        Đa môn học cho học sinh Tiểu học & THCS. Đấu trường, Bản đồ thám hiểm, Sảnh Online giao lưu trực tuyến, Gom Sao – Leo hạng. Chơi miễn phí!
                       </p>
                     </div>
                   </div>
