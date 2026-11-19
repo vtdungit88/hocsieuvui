@@ -1,0 +1,5797 @@
+[
+  {
+    "chapter": "tienganh4-c1",
+    "lesson": {
+      "code": "tienganh4-b01",
+      "title": "Unit 1. My friends",
+      "seq": 1,
+      "subtitle": "Hỏi và trả lời về quốc gia, quê hương của bạn bè (Where are you from? – Where is he or she from?) và giới thiệu bạn mới",
+      "concepts": [
+        "Từ vựng tên các nước (Viet Nam, Britain, Japan, Australia)",
+        "Mẫu câu Where are you from?",
+        "Đại từ ngôi thứ 3 he, she với is"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA4-B01-001",
+        "d": "basic",
+        "p": "Chọn câu trả lời đúng cho câu hỏi: \"Where are you from?\"",
+        "o": [
+          "Yes, I am from.",
+          "I'm ten years old.",
+          "I'm fine, thank you.",
+          "I'm from Viet Nam."
+        ],
+        "k": "D",
+        "e": "\"Where are you from?\" dùng để hỏi quê hương/quốc gia -> trả lời \"I'm from + tên nước.\"",
+        "s": "Tiếng Anh 4",
+        "h": "Hỏi quê hương đất nước"
+      },
+      {
+        "c": "TA4-B01-002",
+        "d": "basic",
+        "p": "Từ nào sau đây là tên một quốc gia (country)?",
+        "o": [
+          "Swimming",
+          "Monday",
+          "Library",
+          "Australia"
+        ],
+        "k": "D",
+        "e": "Australia (nước Úc) là tên quốc gia; Monday là thứ, Library là nơi ở trường, Swimming là hoạt động.",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm tên một đất nước"
+      },
+      {
+        "c": "TA4-B01-003",
+        "d": "basic",
+        "p": "Hoàn thành câu: \"Where ... Ben from?\" – \"He is from Britain.\"",
+        "o": [
+          "is",
+          "are",
+          "am",
+          "do"
+        ],
+        "k": "A",
+        "e": "Chủ ngữ \"Ben\" (ngôi thứ ba số ít, tương ứng \"he\") đi với động từ to be \"is\".",
+        "s": "Tiếng Anh 4",
+        "h": "Chú ý chủ ngữ Ben (số ít)"
+      },
+      {
+        "c": "TA4-B01-004",
+        "d": "basic",
+        "p": "Chọn nghĩa Tiếng Việt đúng của từ \"Singapore\":",
+        "o": [
+          "Nước Hoa Kì (Mĩ)",
+          "Nước Nhật Bản",
+          "Nước Xin-ga-po",
+          "Nước Anh"
+        ],
+        "k": "C",
+        "e": "Singapore là quốc đảo ở Đông Nam Á; Japan là Nhật Bản, America là Hoa Kì, Britain là Anh.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ tên quốc gia quen thuộc"
+      },
+      {
+        "c": "TA4-B01-005",
+        "d": "basic",
+        "p": "Điền từ thích hợp: \"Hello! Nice to ... you.\" – \"Nice to meet you, too.\"",
+        "o": [
+          "live",
+          "go",
+          "meet",
+          "from"
+        ],
+        "k": "C",
+        "e": "Cụm chào hỏi làm quen chuẩn là \"Nice to meet you\" (Rất vui được gặp bạn).",
+        "s": "Tiếng Anh 4",
+        "h": "Mẫu câu làm quen"
+      },
+      {
+        "c": "TA4-B01-006",
+        "d": "basic",
+        "p": "Quan sát bảng danh sách các bạn quốc tế. Bạn Akiko đến từ quốc gia nào?",
+        "o": [
+          "Viet Nam",
+          "Thailand",
+          "Malaysia",
+          "Japan"
+        ],
+        "k": "D",
+        "e": "Dựa vào bảng, cột Country của Akiko ghi Japan (Nhật Bản).",
+        "s": "Tiếng Anh 4",
+        "h": "Xem dòng Akiko trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "International Friends",
+          "head": [
+            "Name",
+            "Country"
+          ],
+          "rows": [
+            [
+              "Minh",
+              "Viet Nam"
+            ],
+            [
+              "Akiko",
+              "Japan"
+            ],
+            [
+              "Tony",
+              "Australia"
+            ],
+            [
+              "Hakim",
+              "Malaysia"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA4-B01-007",
+        "d": "application",
+        "p": "Sắp xếp các từ sau thành câu hỏi hoàn chỉnh: from / Where / Linda / is / ?",
+        "o": [
+          "Where Linda is from?",
+          "From where is Linda?",
+          "Where is Linda from?",
+          "Is Linda where from?"
+        ],
+        "k": "C",
+        "e": "Trật tự câu hỏi Wh-: Wh-word (Where) + to be (is) + Chủ ngữ (Linda) + from?",
+        "s": "Tiếng Anh 4",
+        "h": "Từ để hỏi đứng đầu câu"
+      },
+      {
+        "c": "TA4-B01-008",
+        "d": "application",
+        "p": "Chọn cặp hỏi đáp khớp nhau về ngôi và giới tính:",
+        "o": [
+          "A: Where is Ben from? – B: She is from Japan.",
+          "A: Where is Lucy from? – B: She is from Britain.",
+          "A: Where are Lucy from? – B: I am from Britain.",
+          "A: Where is Lucy from? – B: He is from Britain."
+        ],
+        "k": "B",
+        "e": "Lucy là tên bạn nữ nên câu trả lời thay bằng đại từ \"She\"; Ben là bạn nam dùng \"He\".",
+        "s": "Tiếng Anh 4",
+        "h": "Chú ý đại từ he và she"
+      },
+      {
+        "c": "TA4-B01-009",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"My new friend Tom are from America.\"",
+        "o": [
+          "Sai từ \"are\", phải sửa thành \"is\" vì \"My new friend Tom\" là một người (số ít)",
+          "Sai từ \"My\", phải đổi thành \"Me\"",
+          "Sai từ \"from\", phải sửa thành \"at\"",
+          "Sai từ \"America\", phải viết thường chữ đầu"
+        ],
+        "k": "A",
+        "e": "Chủ ngữ số ít (1 người bạn tên Tom) đi với \"is\", không dùng \"are\".",
+        "s": "Tiếng Anh 4",
+        "h": "Kiểm tra sự hòa hợp chủ – vị"
+      },
+      {
+        "c": "TA4-B01-010",
+        "d": "application",
+        "p": "Đọc đoạn giới thiệu: \"Hi, I am Nam. This is Mary. She is from Australia.\" Mary đến từ đâu?",
+        "o": [
+          "She is from Viet Nam.",
+          "He is from Australia.",
+          "She is from Australia.",
+          "I am from America."
+        ],
+        "k": "C",
+        "e": "Câu cuối đoạn nói rõ \"She is from Australia\" (Mary đến từ nước Úc).",
+        "s": "Tiếng Anh 4",
+        "h": "Đọc câu giới thiệu Mary"
+      },
+      {
+        "c": "TA4-B01-011",
+        "d": "application",
+        "p": "Khi gặp một bạn mới chuyển tới lớp ở hành lang, câu giao tiếp lịch sự nhất để hỏi quê của bạn là gì?",
+        "o": [
+          "\"What colour is your school bag?\"",
+          "\"Give me your notebook now.\"",
+          "\"Hi! I'm Linh. Where are you from?\"",
+          "\"Sit down and be quiet!\""
+        ],
+        "k": "C",
+        "e": "Chào thân thiện, giới thiệu tên rồi hỏi \"Where are you from?\" rất lịch sự.",
+        "s": "Tiếng Anh 4",
+        "h": "Chọn lời chào làm quen tự nhiên"
+      },
+      {
+        "c": "TA4-B01-012",
+        "d": "application",
+        "p": "Chọn từ khác loại với ba từ còn lại: Thailand, Japan, Malaysia, nationality.",
+        "o": [
+          "nationality",
+          "Thailand",
+          "Japan",
+          "Malaysia"
+        ],
+        "k": "A",
+        "e": "Ba từ kia là tên các quốc gia cụ thể; \"nationality\" là danh từ chung nghĩa là quốc tịch.",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm danh từ chung khác nhóm"
+      },
+      {
+        "c": "TA4-B01-013",
+        "d": "advanced",
+        "p": "Đọc đoạn ngắn: \"Tom and Bill are from Britain. They are new pupils in Class 4A.\" Câu hỏi \"Where are Tom and Bill from?\" trả lời chuẩn nhất thế nào?",
+        "o": [
+          "She are from Britain.",
+          "They are from Britain.",
+          "We is from Britain.",
+          "He is from Britain."
+        ],
+        "k": "B",
+        "e": "Hai bạn trở lên (số nhiều) dùng đại từ \"They\" đi với động từ \"are\".",
+        "s": "Tiếng Anh 4",
+        "h": "Chú ý chủ ngữ số nhiều Tom and Bill"
+      },
+      {
+        "c": "TA4-B01-014",
+        "d": "advanced",
+        "p": "Hoàn thành đoạn hội thoại: \"A: Are you from Malaysia? – B: No, ... . I'm from Singapore.\"",
+        "o": [
+          "I don't",
+          "it isn't",
+          "I am",
+          "I'm not"
+        ],
+        "k": "D",
+        "e": "Câu hỏi Yes or No dùng \"Are you...?\" thì phủ định trả lời \"No, I'm not.\"",
+        "s": "Tiếng Anh 4",
+        "h": "Trả lời phủ định với to be"
+      },
+      {
+        "c": "TA4-B01-015",
+        "d": "advanced",
+        "p": "Nếu Nam muốn giới thiệu Lan (người Việt Nam) với Tony (người Úc), câu nào đúng ngữ pháp và tự nhiên nhất?",
+        "o": [
+          "\"Tony, this are my friend Lan. He from Viet Nam.\"",
+          "\"Lan, you are from Australia, is it?\"",
+          "\"My name is Lan and Tony are from Viet Nam.\"",
+          "\"Tony, this is my friend Lan. She is from Viet Nam.\""
+        ],
+        "k": "D",
+        "e": "Cấu trúc giới thiệu người thứ ba là \"This is + tên\", nối tiếp bằng \"She is from...\".",
+        "s": "Tiếng Anh 4",
+        "h": "Dùng cấu trúc This is..."
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh4-c1",
+    "lesson": {
+      "code": "tienganh4-b02",
+      "title": "Unit 2. Time and daily routines",
+      "seq": 2,
+      "subtitle": "Hỏi và nói giờ đúng, giờ lẻ (What time is it? – It's six thirty) và kể các hoạt động sinh hoạt hằng ngày theo khung giờ",
+      "concepts": [
+        "Hỏi đáp về giờ giấc (o'clock, thirty, fifteen)",
+        "Cụm từ daily routines (get up, have breakfast, go to bed)",
+        "What time do you ...? – I ... at ..."
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA4-B02-001",
+        "d": "basic",
+        "p": "Câu hỏi tiếng Anh dùng để hỏi \"Mấy giờ rồi?\" là gì?",
+        "o": [
+          "Where are you now?",
+          "How old are you?",
+          "What time is it?",
+          "What day is it?"
+        ],
+        "k": "C",
+        "e": "\"What time is it?\" dùng để hỏi giờ hiện tại.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ mẫu câu hỏi giờ"
+      },
+      {
+        "c": "TA4-B02-002",
+        "d": "basic",
+        "p": "Cụm động từ \"get up\" nghĩa là gì trong sinh hoạt buổi sáng?",
+        "o": [
+          "xem ti vi vào buổi chiều",
+          "ăn bữa tối cùng gia đình",
+          "thức dậy (ra khỏi giường)",
+          "đi ngủ buổi tối"
+        ],
+        "k": "C",
+        "e": "Thứ tự sáng thường là: get up (thức dậy) -> have breakfast (ăn sáng) -> go to school.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ hoạt động đầu ngày"
+      },
+      {
+        "c": "TA4-B02-003",
+        "d": "basic",
+        "p": "Điền giới từ chỉ thời gian chính xác đứng trước giờ: \"I go to school ... six forty-five.\"",
+        "o": [
+          "under",
+          "on",
+          "in",
+          "at"
+        ],
+        "k": "D",
+        "e": "Trước giờ cụ thể luôn dùng giới từ \"at\" (at 6:45).",
+        "s": "Tiếng Anh 4",
+        "h": "Giới từ đi với giờ"
+      },
+      {
+        "c": "TA4-B02-004",
+        "d": "basic",
+        "p": "Khi đồng hồ chỉ đúng 7 giờ 00, cách nói chuẩn bằng tiếng Anh là gì?",
+        "o": [
+          "It's seven o'clock.",
+          "It's seven fifteen.",
+          "It's seventeen o'clock.",
+          "It's seven thirty."
+        ],
+        "k": "A",
+        "e": "Giờ chẵn dùng số giờ + \"o'clock\".",
+        "s": "Tiếng Anh 4",
+        "h": "Giờ đúng không có phút lẻ"
+      },
+      {
+        "c": "TA4-B02-005",
+        "d": "basic",
+        "p": "Chọn hoạt động thường diễn ra vào buổi tối trước khi đi ngủ:",
+        "o": [
+          "go to school in the morning",
+          "have breakfast",
+          "go to bed",
+          "get up at six"
+        ],
+        "k": "C",
+        "e": "\"go to bed\" nghĩa là đi ngủ vào cuối ngày.",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm hoạt động cuối ngày"
+      },
+      {
+        "c": "TA4-B02-006",
+        "d": "basic",
+        "p": "Quan sát đồng hồ minh họa. \"What time is it?\"",
+        "o": [
+          "It's three thirty.",
+          "It's six thirty.",
+          "It's twelve o'clock.",
+          "It's six o'clock."
+        ],
+        "k": "B",
+        "e": "Kim ngắn chỉ giữa 6 và 7, kim dài chỉ số 6 (30 phút) -> 6:30 (six thirty).",
+        "s": "Tiếng Anh 4",
+        "h": "Đọc vị trí kim ngắn và kim dài",
+        "fig": {
+          "w": 300,
+          "h": 180,
+          "items": [
+            {
+              "t": "circle",
+              "c": [
+                150,
+                88
+              ],
+              "r": 62,
+              "fill": "#f8fafc",
+              "stroke": "#1e293b",
+              "w": 2.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                174.5,
+                49.6
+              ],
+              "s": "1",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                192.4,
+                67.5
+              ],
+              "s": "2",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                199.0,
+                92.0
+              ],
+              "s": "3",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                192.4,
+                116.5
+              ],
+              "s": "4",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                174.5,
+                134.4
+              ],
+              "s": "5",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                150.0,
+                141.0
+              ],
+              "s": "6",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                125.5,
+                134.4
+              ],
+              "s": "7",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                107.6,
+                116.5
+              ],
+              "s": "8",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                101.0,
+                92.0
+              ],
+              "s": "9",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                107.6,
+                67.5
+              ],
+              "s": "10",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                125.5,
+                49.6
+              ],
+              "s": "11",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                150.0,
+                43.0
+              ],
+              "s": "12",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "line",
+              "a": [
+                150,
+                88
+              ],
+              "b": [
+                142.2,
+                117.0
+              ],
+              "arrow": true,
+              "color": "#1e293b",
+              "w": 3.5
+            },
+            {
+              "t": "line",
+              "a": [
+                150,
+                88
+              ],
+              "b": [
+                150.0,
+                134.0
+              ],
+              "arrow": true,
+              "color": "#dc2626",
+              "w": 2.2
+            },
+            {
+              "t": "pt",
+              "p": [
+                150,
+                88
+              ]
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                168
+              ],
+              "s": "Morning routine",
+              "anchor": "middle",
+              "size": 12
+            }
+          ]
+        }
+      },
+      {
+        "c": "TA4-B02-007",
+        "d": "application",
+        "p": "Hoàn thành câu hỏi: \"What time ... you have breakfast?\" – \"I have breakfast at six fifteen.\"",
+        "o": [
+          "are",
+          "is",
+          "does",
+          "do"
+        ],
+        "k": "D",
+        "e": "Chủ ngữ \"you\" đi với trợ động từ \"do\" trong câu hỏi với động từ thường \"have\".",
+        "s": "Tiếng Anh 4",
+        "h": "Chọn trợ động từ cho \"you\""
+      },
+      {
+        "c": "TA4-B02-008",
+        "d": "application",
+        "p": "Sắp xếp thứ tự đúng các hoạt động trong một ngày bình thường của học sinh:",
+        "o": [
+          "get up -> have breakfast -> go to school -> go to bed",
+          "go to bed -> get up -> have breakfast -> go to school",
+          "go to school -> get up -> go to bed -> have breakfast",
+          "have breakfast -> go to bed -> get up -> go to school"
+        ],
+        "k": "A",
+        "e": "Buổi sáng thức dậy, ăn sáng rồi đến trường; buổi tối đi ngủ.",
+        "s": "Tiếng Anh 4",
+        "h": "Sắp xếp theo trình tự sáng đến tối"
+      },
+      {
+        "c": "TA4-B02-009",
+        "d": "application",
+        "p": "Viết số \"9:45\" bằng chữ tiếng Anh đúng chuẩn:",
+        "o": [
+          "nine fifty-four",
+          "nine o'clock",
+          "nine fourteen",
+          "nine forty-five"
+        ],
+        "k": "D",
+        "e": "45 đọc là forty-five (40 = forty, không có chữ u như four).",
+        "s": "Tiếng Anh 4",
+        "h": "Chú ý chính tả forty-five"
+      },
+      {
+        "c": "TA4-B02-010",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"What time is you go to bed?\"",
+        "o": [
+          "Sai từ \"is\", phải sửa thành \"do\" vì \"go\" là động từ thường",
+          "Sai từ \"to\", phải đổi thành \"at\"",
+          "Sai từ \"What\", phải đổi thành \"Who\"",
+          "Sai từ \"bed\", phải đổi thành \"desk\""
+        ],
+        "k": "A",
+        "e": "Với động từ thường \"go\", câu hỏi ngôi \"you\" dùng trợ động từ \"do\": \"What time do you go to bed?\".",
+        "s": "Tiếng Anh 4",
+        "h": "Phân biệt động từ thường và to be"
+      },
+      {
+        "c": "TA4-B02-011",
+        "d": "application",
+        "p": "Đọc lịch của Mai: \"Mai gets up at 6:00. She goes to school at 6:50. She goes to bed at 9:30.\" Câu nào ĐÚNG?",
+        "o": [
+          "Mai gets up at six fifty.",
+          "Mai has breakfast at nine thirty.",
+          "Mai goes to bed at six o'clock.",
+          "Mai goes to school at six fifty."
+        ],
+        "k": "D",
+        "e": "Đoạn văn nêu rõ \"She goes to school at 6:50\" (six fifty).",
+        "s": "Tiếng Anh 4",
+        "h": "Đối chiếu giờ với từng hoạt động"
+      },
+      {
+        "c": "TA4-B02-012",
+        "d": "application",
+        "p": "Chọn câu trả lời phù hợp cho câu hỏi: \"What time do you watch TV?\"",
+        "o": [
+          "It is a new television.",
+          "I watch TV at eight fifteen in the evening.",
+          "On Monday and Friday.",
+          "Yes, I have a big TV."
+        ],
+        "k": "B",
+        "e": "\"What time...?\" yêu cầu thông tin về giờ giấc cụ thể (\"at eight fifteen...\").",
+        "s": "Tiếng Anh 4",
+        "h": "Trả lời bằng mốc giờ"
+      },
+      {
+        "c": "TA4-B02-013",
+        "d": "advanced",
+        "p": "Quan sát đồng hồ. Nếu 15 phút nữa là đến tiết học Toán, tiết Toán bắt đầu lúc mấy giờ?",
+        "o": [
+          "Seven forty-five (7:45)",
+          "Eight o'clock (8:00)",
+          "Seven thirty (7:30)",
+          "Eight fifteen (8:15)"
+        ],
+        "k": "B",
+        "e": "Đồng hồ đang chỉ 7:45; thêm 15 phút nữa tròn 8:00 (eight o'clock).",
+        "s": "Tiếng Anh 4",
+        "h": "Đọc giờ hiện tại rồi cộng 15 phút",
+        "fig": {
+          "w": 300,
+          "h": 180,
+          "items": [
+            {
+              "t": "circle",
+              "c": [
+                150,
+                88
+              ],
+              "r": 62,
+              "fill": "#f8fafc",
+              "stroke": "#1e293b",
+              "w": 2.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                174.5,
+                49.6
+              ],
+              "s": "1",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                192.4,
+                67.5
+              ],
+              "s": "2",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                199.0,
+                92.0
+              ],
+              "s": "3",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                192.4,
+                116.5
+              ],
+              "s": "4",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                174.5,
+                134.4
+              ],
+              "s": "5",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                150.0,
+                141.0
+              ],
+              "s": "6",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                125.5,
+                134.4
+              ],
+              "s": "7",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                107.6,
+                116.5
+              ],
+              "s": "8",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                101.0,
+                92.0
+              ],
+              "s": "9",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                107.6,
+                67.5
+              ],
+              "s": "10",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                125.5,
+                49.6
+              ],
+              "s": "11",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "txt",
+              "p": [
+                150.0,
+                43.0
+              ],
+              "s": "12",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "line",
+              "a": [
+                150,
+                88
+              ],
+              "b": [
+                126.2,
+                106.3
+              ],
+              "arrow": true,
+              "color": "#1e293b",
+              "w": 3.5
+            },
+            {
+              "t": "line",
+              "a": [
+                150,
+                88
+              ],
+              "b": [
+                104.0,
+                88.0
+              ],
+              "arrow": true,
+              "color": "#dc2626",
+              "w": 2.2
+            },
+            {
+              "t": "pt",
+              "p": [
+                150,
+                88
+              ]
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                168
+              ],
+              "s": "15 mins before Maths",
+              "anchor": "middle",
+              "size": 12
+            }
+          ]
+        }
+      },
+      {
+        "c": "TA4-B02-014",
+        "d": "advanced",
+        "p": "Khi muốn kể về bạn Minh (ngôi thứ ba số ít): \"Minh ... up at 6:00 every morning\", dạng đúng của động từ là gì?",
+        "o": [
+          "are get",
+          "getting",
+          "get",
+          "gets"
+        ],
+        "k": "D",
+        "e": "Trong thì hiện tại đơn với chủ ngữ số ít \"Minh\", động từ \"get\" thêm \"s\" thành \"gets\".",
+        "s": "Tiếng Anh 4",
+        "h": "Chia động từ với chủ ngữ Minh"
+      },
+      {
+        "c": "TA4-B02-015",
+        "d": "advanced",
+        "p": "Điền hai từ còn thiếu hợp lí nhất: \"It's time ... go to school, Nam!\" – \"OK, Mum. I'm ready ... school.\"",
+        "o": [
+          "for ... to",
+          "in ... at",
+          "at ... on",
+          "to ... for"
+        ],
+        "k": "D",
+        "e": "Cấu trúc quen thuộc: \"It's time to + V\" (đến giờ làm gì) và \"It's time for + N\" / \"ready for school\".",
+        "s": "Tiếng Anh 4",
+        "h": "Phân biệt to + V và for + N"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh4-c1",
+    "lesson": {
+      "code": "tienganh4-b03",
+      "title": "Unit 3. My week",
+      "seq": 3,
+      "subtitle": "Nhận biết các ngày trong tuần (Monday đến Sunday), hỏi đáp hôm nay là thứ mấy và kể hoạt động thường làm vào các ngày",
+      "concepts": [
+        "7 ngày trong tuần viết hoa chữ cái đầu",
+        "What day is it today?",
+        "What do you do on + thứ (số nhiều)?"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA4-B03-001",
+        "d": "basic",
+        "p": "Câu nào dùng để hỏi \"Hôm nay là thứ mấy?\"",
+        "o": [
+          "What day is it today?",
+          "Where is the school today?",
+          "What time is it now?",
+          "Who is your teacher today?"
+        ],
+        "k": "A",
+        "e": "\"What day is it today?\" hỏi về thứ trong tuần -> trả lời \"It's + tên thứ.\"",
+        "s": "Tiếng Anh 4",
+        "h": "Phân biệt What day và What time"
+      },
+      {
+        "c": "TA4-B03-002",
+        "d": "basic",
+        "p": "Ngày thứ Tư trong tiếng Anh viết đúng chính tả là từ nào?",
+        "o": [
+          "Thursday",
+          "Tuesday",
+          "Wenesday",
+          "Wednesday"
+        ],
+        "k": "D",
+        "e": "Thứ Tư viết là \"Wednesday\" (có chữ d câm ở giữa).",
+        "s": "Tiếng Anh 4",
+        "h": "Kiểm tra chính tả Wednesday"
+      },
+      {
+        "c": "TA4-B03-003",
+        "d": "basic",
+        "p": "Điền giới từ đứng trước các ngày trong tuần: \"I play football ... Saturdays.\"",
+        "o": [
+          "at",
+          "in",
+          "to",
+          "on"
+        ],
+        "k": "D",
+        "e": "Trước các ngày trong tuần luôn dùng giới từ \"on\" (on Monday, on Sundays).",
+        "s": "Tiếng Anh 4",
+        "h": "Giới từ đi với ngày trong tuần"
+      },
+      {
+        "c": "TA4-B03-004",
+        "d": "basic",
+        "p": "Hai ngày cuối tuần (the weekend) gồm những ngày nào?",
+        "o": [
+          "Monday and Tuesday",
+          "Wednesday and Thursday",
+          "Saturday and Sunday",
+          "Tuesday and Friday"
+        ],
+        "k": "C",
+        "e": "Thứ Bảy (Saturday) và Chủ nhật (Sunday) là hai ngày cuối tuần.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ tên 2 ngày cuối tuần"
+      },
+      {
+        "c": "TA4-B03-005",
+        "d": "basic",
+        "p": "Chọn hoạt động học tập phù hợp: \"On weekdays, I ... to school from Monday to Friday.\"",
+        "o": [
+          "listen",
+          "cook",
+          "go",
+          "swim"
+        ],
+        "k": "C",
+        "e": "Cụm cố định là \"go to school\" (đi học).",
+        "s": "Tiếng Anh 4",
+        "h": "Động từ đi với to school"
+      },
+      {
+        "c": "TA4-B03-006",
+        "d": "basic",
+        "p": "Quan sát thời khóa biểu hoạt động của Nam. Nam làm gì vào thứ Tư (Wednesday)?",
+        "o": [
+          "study at school",
+          "do housework",
+          "listen to music",
+          "go swimming"
+        ],
+        "k": "D",
+        "e": "Hàng Wednesday trên bảng ghi hoạt động \"go swimming\".",
+        "s": "Tiếng Anh 4",
+        "h": "Xem cột Activity của Wednesday",
+        "fig": {
+          "type": "table",
+          "title": "Nam's Weekly Plan",
+          "head": [
+            "Day",
+            "Activity"
+          ],
+          "rows": [
+            [
+              "Monday",
+              "study at school"
+            ],
+            [
+              "Wednesday",
+              "go swimming"
+            ],
+            [
+              "Friday",
+              "listen to music"
+            ],
+            [
+              "Sunday",
+              "do housework"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA4-B03-007",
+        "d": "application",
+        "p": "Nếu hôm nay là Thursday, ngày hôm qua (yesterday) là thứ mấy và ngày mai (tomorrow) là thứ mấy?",
+        "o": [
+          "Yesterday was Tuesday; tomorrow is Saturday.",
+          "Yesterday was Wednesday; tomorrow is Friday.",
+          "Yesterday was Monday; tomorrow is Sunday.",
+          "Yesterday was Friday; tomorrow is Wednesday."
+        ],
+        "k": "B",
+        "e": "Thứ tự ngày: Wednesday (Thứ 4) -> Thursday (Thứ 5) -> Friday (Thứ 6).",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ thứ tự 7 ngày trong tuần"
+      },
+      {
+        "c": "TA4-B03-008",
+        "d": "application",
+        "p": "Hoàn thành câu: \"What do you do ... Sundays?\" – \"I help my parents with the housework.\"",
+        "o": [
+          "on",
+          "from",
+          "with",
+          "at"
+        ],
+        "k": "A",
+        "e": "\"on Sundays\" (thêm s vào Sunday) diễn tả thói quen lặp lại vào các ngày Chủ nhật.",
+        "s": "Tiếng Anh 4",
+        "h": "Giới từ đi với Sundays"
+      },
+      {
+        "c": "TA4-B03-009",
+        "d": "application",
+        "p": "Chọn câu viết ĐÚNG quy tắc viết hoa tên thứ trong tiếng Anh:",
+        "o": [
+          "We go to an English club on tuesday.",
+          "We have a english club meeting on tuesday.",
+          "We have an English club meeting on tuesdays.",
+          "We have an English club meeting on Tuesday."
+        ],
+        "k": "D",
+        "e": "Tên các ngày trong tuần và tên môn học ngôn ngữ (English) luôn viết hoa chữ cái đầu.",
+        "s": "Tiếng Anh 4",
+        "h": "Kiểm tra viết hoa thứ trong tuần"
+      },
+      {
+        "c": "TA4-B03-010",
+        "d": "application",
+        "p": "Phân biệt hai từ gần giống nhau: \"Tuesday\" và \"Thursday\". Thứ tự nào đúng?",
+        "o": [
+          "Cả hai từ đều có nghĩa là Chủ nhật",
+          "Tuesday là Thứ Ba; Thursday là Thứ Năm",
+          "Tuesday là Thứ Tư; Thursday là Thứ Sáu",
+          "Tuesday là Thứ Năm; Thursday là Thứ Ba"
+        ],
+        "k": "B",
+        "e": "Mon (T2) -> Tue (T3) -> Wed (T4) -> Thu (T5) -> Fri (T6).",
+        "s": "Tiếng Anh 4",
+        "h": "Phân biệt Tue và Thu"
+      },
+      {
+        "c": "TA4-B03-011",
+        "d": "application",
+        "p": "Đọc hội thoại: \"A: What do you do on Saturdays? – B: ...\" Câu trả lời nào khớp ngữ pháp và ý nghĩa?",
+        "o": [
+          "It is Saturday today.",
+          "Yes, I do homework on Monday.",
+          "At seven thirty o'clock.",
+          "I play badminton with my brother in the morning."
+        ],
+        "k": "D",
+        "e": "Hỏi hoạt động ngày thứ Bảy -> trả lời bằng cụm hành động phù hợp.",
+        "s": "Tiếng Anh 4",
+        "h": "Chọn câu nêu hoạt động"
+      },
+      {
+        "c": "TA4-B03-012",
+        "d": "application",
+        "p": "Tìm từ khác loại trong bốn từ: Tuesday, Friday, weekend, Sunday.",
+        "o": [
+          "Sunday",
+          "Tuesday",
+          "weekend",
+          "Friday"
+        ],
+        "k": "C",
+        "e": "Tuesday, Friday, Sunday là tên ngày cụ thể; \"weekend\" chỉ chung dịp cuối tuần.",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm từ không phải tên một ngày cụ thể"
+      },
+      {
+        "c": "TA4-B03-013",
+        "d": "advanced",
+        "p": "Vì sao trong câu hỏi thói quen \"What do you do on Mondays?\" lại thêm chữ \"s\" vào cuối \"Monday\"?",
+        "o": [
+          "Vì chữ \"on\" bắt buộc mọi từ đứng sau phải thêm \"s\"",
+          "Vì trong một tuần có tới ba ngày Thứ Hai khác nhau",
+          "Vì đó là lỗi đánh máy dư chữ cái không có ý nghĩa",
+          "Để chỉ mọi ngày Thứ Hai hằng tuần lặp lại đều đặn (thói quen thường xuyên)"
+        ],
+        "k": "D",
+        "e": "on Monday = vào Thứ Hai (tuần này); on Mondays = vào các ngày Thứ Hai hằng tuần.",
+        "s": "Tiếng Anh 4",
+        "h": "Hiểu nghĩa số nhiều on Mondays"
+      },
+      {
+        "c": "TA4-B03-014",
+        "d": "advanced",
+        "p": "Đọc đoạn: \"Linh studies at school from Monday to Friday. On Saturday morning, she goes to the music club. On Sunday, she visits her grandparents.\" Linh đến câu lạc bộ âm nhạc khi nào?",
+        "o": [
+          "From Monday to Friday.",
+          "On Wednesday morning.",
+          "On Saturday morning.",
+          "On Sunday afternoon."
+        ],
+        "k": "C",
+        "e": "Câu thứ hai ghi rõ: \"On Saturday morning, she goes to the music club.\"",
+        "s": "Tiếng Anh 4",
+        "h": "Đọc kĩ thông tin ngày thứ Bảy"
+      },
+      {
+        "c": "TA4-B03-015",
+        "d": "advanced",
+        "p": "Hoàn thành câu sau sao cho đúng cả ngữ pháp lẫn logic: \"... it Tuesday today?\" – \"No, it ... . Today is Wednesday.\"",
+        "o": [
+          "Is ... isn't",
+          "Are ... aren't",
+          "Does ... doesn't",
+          "Do ... don't"
+        ],
+        "k": "A",
+        "e": "Với chủ ngữ \"it\", câu hỏi Yes or No là \"Is it Tuesday today?\" -> phủ định \"No, it isn't.\"",
+        "s": "Tiếng Anh 4",
+        "h": "Dùng to be is và isn't"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh4-c1",
+    "lesson": {
+      "code": "tienganh4-b04",
+      "title": "Unit 4. My birthday party",
+      "seq": 4,
+      "subtitle": "Nắm vững tên 12 tháng trong năm, hỏi đáp ngày sinh nhật (When's your birthday?) và mời đồ ăn thức uống trong bữa tiệc",
+      "concepts": [
+        "12 tháng trong năm (January đến December)",
+        "When is your birthday? – It's in + tháng",
+        "What do you want to eat or drink? – I want some..."
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA4-B04-001",
+        "d": "basic",
+        "p": "Câu hỏi tiếng Anh dùng để hỏi \"Sinh nhật của bạn vào khi nào?\" là gì?",
+        "o": [
+          "What time is your birthday?",
+          "When's your birthday?",
+          "Who is your birthday?",
+          "Where's your birthday?"
+        ],
+        "k": "B",
+        "e": "Từ để hỏi về thời gian ngày tháng là \"When\" -> \"When's your birthday?\".",
+        "s": "Tiếng Anh 4",
+        "h": "Dùng từ hỏi When"
+      },
+      {
+        "c": "TA4-B04-002",
+        "d": "basic",
+        "p": "Điền giới từ đứng trước tên THÁNG (không có ngày kèm theo): \"My birthday is ... May.\"",
+        "o": [
+          "at",
+          "on",
+          "in",
+          "under"
+        ],
+        "k": "C",
+        "e": "Trước tháng đứng riêng lẻ dùng giới từ \"in\" (in January, in May).",
+        "s": "Tiếng Anh 4",
+        "h": "Giới từ đi với tháng"
+      },
+      {
+        "c": "TA4-B04-003",
+        "d": "basic",
+        "p": "Tháng đầu tiên (tháng 1) và tháng cuối cùng (tháng 12) trong năm tiếng Anh là cặp nào?",
+        "o": [
+          "February and November",
+          "April and September",
+          "March and October",
+          "January and December"
+        ],
+        "k": "D",
+        "e": "January (tháng 1) mở đầu năm; December (tháng 12) kết thúc năm.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ tháng 1 và tháng 12"
+      },
+      {
+        "c": "TA4-B04-004",
+        "d": "basic",
+        "p": "Để hỏi bạn muốn ăn gì ở bữa tiệc sinh nhật, ta dùng mẫu câu nào?",
+        "o": [
+          "What do you want to eat?",
+          "How many balloons are there?",
+          "When do you go home?",
+          "What do you want to drink?"
+        ],
+        "k": "A",
+        "e": "\"eat\" nghĩa là ăn, còn \"drink\" nghĩa là uống.",
+        "s": "Tiếng Anh 4",
+        "h": "Phân biệt eat và drink"
+      },
+      {
+        "c": "TA4-B04-005",
+        "d": "basic",
+        "p": "Món nào dưới đây là ĐỒ UỐNG (drink) trong bữa tiệc?",
+        "o": [
+          "grapes",
+          "apple juice",
+          "chips",
+          "birthday cake"
+        ],
+        "k": "B",
+        "e": "apple juice (nước ép táo) là đồ uống; chips, grapes, birthday cake là đồ ăn.",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm thức uống"
+      },
+      {
+        "c": "TA4-B04-006",
+        "d": "basic",
+        "p": "Quan sát bảng sinh nhật 4 bạn nhỏ. Sinh nhật của bạn Mai rơi vào tháng mấy?",
+        "o": [
+          "July (Tháng 7)",
+          "November (Tháng 11)",
+          "August (Tháng 8)",
+          "March (Tháng 3)"
+        ],
+        "k": "C",
+        "e": "Cột Month ứng với Mai ghi \"August\".",
+        "s": "Tiếng Anh 4",
+        "h": "Xem hàng Mai trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Birthday Calendar",
+          "head": [
+            "Name",
+            "Month"
+          ],
+          "rows": [
+            [
+              "Mai",
+              "August"
+            ],
+            [
+              "Phong",
+              "March"
+            ],
+            [
+              "Hoa",
+              "November"
+            ],
+            [
+              "Tuan",
+              "July"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA4-B04-007",
+        "d": "application",
+        "p": "Sắp xếp 4 tháng sau theo đúng thứ tự lịch trong năm: October, April, July, February.",
+        "o": [
+          "July -> October -> February -> April",
+          "October -> July -> April -> February",
+          "April -> February -> October -> July",
+          "February -> April -> July -> October"
+        ],
+        "k": "D",
+        "e": "February (T2) -> April (T4) -> July (T7) -> October (T10).",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ số thứ tự từng tháng"
+      },
+      {
+        "c": "TA4-B04-008",
+        "d": "application",
+        "p": "Hoàn thành câu trả lời lịch sự tại bàn tiệc: \"What do you want to drink?\" – \"I want ... lemonade, please.\"",
+        "o": [
+          "many",
+          "a",
+          "some",
+          "an"
+        ],
+        "k": "C",
+        "e": "\"lemonade\" (nước chanh) là danh từ không đếm được, không dùng a, an hay many; dùng \"some\".",
+        "s": "Tiếng Anh 4",
+        "h": "Danh từ không đếm được dùng some"
+      },
+      {
+        "c": "TA4-B04-009",
+        "d": "application",
+        "p": "Tìm từ viết ĐÚNG chính tả trong các tên tháng sau:",
+        "o": [
+          "February",
+          "Febuary",
+          "Janury",
+          "Septemper"
+        ],
+        "k": "A",
+        "e": "Tháng 2 viết chuẩn là \"February\" (có hai chữ r); tháng 1 là January; tháng 9 là September.",
+        "s": "Tiếng Anh 4",
+        "h": "Kiểm tra kĩ từng chữ cái"
+      },
+      {
+        "c": "TA4-B04-010",
+        "d": "application",
+        "p": "Hoàn thành câu hỏi: \"What do you want to eat?\" – \"I want some ... .\" (Chọn món ăn hợp lí)",
+        "o": [
+          "orange juice and milk",
+          "water and lemonade",
+          "tea and apple juice",
+          "chips and grapes"
+        ],
+        "k": "D",
+        "e": "Hỏi \"eat\" (ăn) thì trả lời bằng thức ăn (chips and grapes), không trả lời bằng nước uống.",
+        "s": "Tiếng Anh 4",
+        "h": "Khớp câu hỏi eat với thức ăn"
+      },
+      {
+        "c": "TA4-B04-011",
+        "d": "application",
+        "p": "Mở rộng câu: \"Here you are!\" khi bạn đưa cho mình ly nước ép. Lời đáp lại lịch sự nhất là gì?",
+        "o": [
+          "\"I don't want to look.\"",
+          "\"When is your birthday?\"",
+          "\"You are wrong!\"",
+          "\"Thank you very much!\""
+        ],
+        "k": "D",
+        "e": "Khi nhận đồ từ người khác luôn cảm ơn lịch sự (\"Thank you!\").",
+        "s": "Tiếng Anh 4",
+        "h": "Phép lịch sự khi nhận quà, đồ uống"
+      },
+      {
+        "c": "TA4-B04-012",
+        "d": "application",
+        "p": "Chọn câu hỏi ĐÚNG ngữ pháp để hỏi sinh nhật của em gái bạn:",
+        "o": [
+          "When your sister's birthday?",
+          "What is your sister's birthday at?",
+          "Where is your sister's birthday?",
+          "When's your sister's birthday?"
+        ],
+        "k": "D",
+        "e": "Thiếu động từ \"is\" ở phương án sai đầu; hỏi thời gian phải dùng \"When's ...\".",
+        "s": "Tiếng Anh 4",
+        "h": "Kiểm tra động từ to be và từ hỏi When"
+      },
+      {
+        "c": "TA4-B04-013",
+        "d": "advanced",
+        "p": "Đọc lời mời: \"Come to my birthday party on June 10th. There are grapes, jam and milk tea.\" Vì sao viết \"in June\" nhưng lại viết \"on June 10th\"?",
+        "o": [
+          "Vì tháng Sáu là tháng duy nhất không được dùng giới từ in",
+          "Vì chỉ có tên tháng dùng \"in\" (in June), còn khi có kèm ngày cụ thể thì dùng \"on\" (on June 10th)",
+          "Vì chữ June 10th là một ngày thứ Bảy đặc biệt",
+          "Vì người viết thích đổi chữ in sang on cho mới lạ"
+        ],
+        "k": "B",
+        "e": "Quy tắc vàng giới từ thời gian: in + tháng/năm, on + ngày/thứ/ngày tháng cụ thể.",
+        "s": "Tiếng Anh 4",
+        "h": "Phân biệt tháng đứng riêng với ngày cụ thể"
+      },
+      {
+        "c": "TA4-B04-014",
+        "d": "advanced",
+        "p": "Quan sát biểu đồ món ăn các bạn chọn dự tiệc. Món nào được nhiều bạn lựa chọn nhất?",
+        "o": [
+          "Grapes (7 bạn chọn)",
+          "Pizza (12 bạn chọn)",
+          "Chips (9 bạn chọn)",
+          "Cake (10 bạn chọn)"
+        ],
+        "k": "B",
+        "e": "Cột cao nhất trên biểu đồ là Pizza đạt giá trị 12.",
+        "s": "Tiếng Anh 4",
+        "h": "So sánh độ cao 4 cột",
+        "fig": {
+          "type": "bars",
+          "title": "Party Food Choices",
+          "labels": [
+            "Cake",
+            "Pizza",
+            "Grapes",
+            "Chips"
+          ],
+          "series": [
+            {
+              "values": [
+                10,
+                12,
+                7,
+                9
+              ],
+              "name": "Votes"
+            }
+          ],
+          "unit": "kids"
+        }
+      },
+      {
+        "c": "TA4-B04-015",
+        "d": "advanced",
+        "p": "Sửa lỗi sai trong câu: \"She want some biscuits and milk for her birthday.\"",
+        "o": [
+          "Đổi \"and\" thành \"in\"",
+          "Đổi \"some\" thành \"an\"",
+          "Đổi \"want\" thành \"wants\" vì chủ ngữ là ngôi thứ ba số ít \"She\"",
+          "Đổi \"her\" thành \"he\""
+        ],
+        "k": "C",
+        "e": "Chủ ngữ \"She\" đi với động từ chia số ít thêm s (\"wants\").",
+        "s": "Tiếng Anh 4",
+        "h": "Chia động từ ở hiện tại đơn"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh4-c1",
+    "lesson": {
+      "code": "tienganh4-b05",
+      "title": "Unit 5. Things we can do",
+      "seq": 5,
+      "subtitle": "Sử dụng động từ khuyết thiếu can và can't để hỏi đáp về khả năng làm các hoạt động thể thao, âm nhạc, kĩ năng sống",
+      "concepts": [
+        "Từ vựng kĩ năng (swim, ride a bike, roller skate, cook)",
+        "I can ... / I can't ...",
+        "Can you ...? / Can he or she ...? + but"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA4-B05-001",
+        "d": "basic",
+        "p": "Động từ \"can\" đứng trước động từ thường biểu thị ý nghĩa gì?",
+        "o": [
+          "Không thích màu sắc của đồ chơi",
+          "Đang ngủ say vào ban đêm",
+          "Có khả năng làm được việc gì đó (\"có thể\")",
+          "Sẽ đi du lịch vào mùa hè năm sau"
+        ],
+        "k": "C",
+        "e": "\"can\" diễn tả khả năng làm được một hành động; phủ định là \"can't\" (cannot).",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ nghĩa của can"
+      },
+      {
+        "c": "TA4-B05-002",
+        "d": "basic",
+        "p": "Cụm từ nào nghĩa là \"đi xe đạp\"?",
+        "o": [
+          "ride a bike",
+          "play the guitar",
+          "ride a horse",
+          "cook dinner"
+        ],
+        "k": "A",
+        "e": "\"ride a bike\" = đi xe đạp; \"ride a horse\" = cưỡi ngựa.",
+        "s": "Tiếng Anh 4",
+        "h": "Phân biệt bike và horse"
+      },
+      {
+        "c": "TA4-B05-003",
+        "d": "basic",
+        "p": "Điền dạng động từ đúng sau \"can\": \"Nam can ... very well.\"",
+        "o": [
+          "swimming",
+          "to swim",
+          "swims",
+          "swim"
+        ],
+        "k": "D",
+        "e": "Sau \"can\" và \"can't\" luôn dùng động từ nguyên thể không \"to\", không thêm \"s\".",
+        "s": "Tiếng Anh 4",
+        "h": "Nguyên tắc động từ sau can"
+      },
+      {
+        "c": "TA4-B05-004",
+        "d": "basic",
+        "p": "Trả lời khẳng định đúng cho câu hỏi \"Can you play the piano?\":",
+        "o": [
+          "Yes, I can.",
+          "Yes, I am.",
+          "No, I can.",
+          "Yes, I do."
+        ],
+        "k": "A",
+        "e": "Hỏi bằng \"Can you...?\" -> trả lời \"Yes, I can.\" hoặc \"No, I can't.\"",
+        "s": "Tiếng Anh 4",
+        "h": "Trả lời khớp trợ động từ can"
+      },
+      {
+        "c": "TA4-B05-005",
+        "d": "basic",
+        "p": "Từ nào là tên một nhạc cụ thường đi với động từ \"play the ...\"?",
+        "o": [
+          "badminton",
+          "skipping",
+          "football",
+          "guitar"
+        ],
+        "k": "D",
+        "e": "\"play the guitar\" (chơi đàn ghi-ta); các môn thể thao dùng \"play\" không có \"the\".",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm tên nhạc cụ"
+      },
+      {
+        "c": "TA4-B05-006",
+        "d": "basic",
+        "p": "Quan sát bảng khả năng của 3 bạn. Bạn nào biết trượt patin (roller skate)?",
+        "o": [
+          "Không bạn nào cả",
+          "Nam",
+          "Mai",
+          "Ben"
+        ],
+        "k": "C",
+        "e": "Dòng Roller skate đánh dấu \"Yes\" ở cột bạn Mai.",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm ô Yes ở dòng Roller skate",
+        "fig": {
+          "type": "table",
+          "title": "What Can They Do?",
+          "head": [
+            "Skill",
+            "Nam",
+            "Mai",
+            "Ben"
+          ],
+          "rows": [
+            [
+              "Swim",
+              "Yes",
+              "No",
+              "Yes"
+            ],
+            [
+              "Cook",
+              "No",
+              "Yes",
+              "No"
+            ],
+            [
+              "Roller skate",
+              "No",
+              "Yes",
+              "No"
+            ],
+            [
+              "Play piano",
+              "Yes",
+              "No",
+              "Yes"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA4-B05-007",
+        "d": "application",
+        "p": "Nối hai vế tương phản bằng liên từ phù hợp: \"I can swim, ... I can't roller skate.\"",
+        "o": [
+          "and",
+          "so",
+          "but",
+          "or"
+        ],
+        "k": "C",
+        "e": "Vế một khẳng định (biết bơi), vế hai phủ định (không biết trượt patin) -> nối bằng \"but\" (nhưng).",
+        "s": "Tiếng Anh 4",
+        "h": "Biết làm A nhưng không biết làm B"
+      },
+      {
+        "c": "TA4-B05-008",
+        "d": "application",
+        "p": "Đặt câu hỏi về khả năng của bạn nữ ở ngôi thứ ba: \"... she ride a horse?\" – \"No, she can't.\"",
+        "o": [
+          "Does",
+          "Is",
+          "Do",
+          "Can"
+        ],
+        "k": "D",
+        "e": "\"can\" dùng chung cho tất cả các ngôi (I, you, he, she, they) không đổi dạng.",
+        "s": "Tiếng Anh 4",
+        "h": "Can không chia theo ngôi"
+      },
+      {
+        "c": "TA4-B05-009",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"My sister cans play the piano very well.\"",
+        "o": [
+          "Sai từ \"play\", phải đổi thành \"plays\"",
+          "Sai từ \"cans\", phải viết là \"can\" vì động từ khuyết thiếu không thêm \"s\"",
+          "Sai từ \"the\", phải đổi thành \"a\"",
+          "Sai từ \"well\", phải đổi thành \"goodly\""
+        ],
+        "k": "B",
+        "e": "\"can\" giữ nguyên hình thức với mọi chủ ngữ, kể cả \"my sister\".",
+        "s": "Tiếng Anh 4",
+        "h": "Không bao giờ viết cans"
+      },
+      {
+        "c": "TA4-B05-010",
+        "d": "application",
+        "p": "Chọn câu hoàn chỉnh đúng trật tự từ: horse / can / ride / a / you / ?",
+        "o": [
+          "Can ride you a horse?",
+          "Can you ride a horse?",
+          "You can ride a horse?",
+          "Ride a horse you can?"
+        ],
+        "k": "B",
+        "e": "Câu hỏi Yes or No với can: Can + S + V nguyên thể...?",
+        "s": "Tiếng Anh 4",
+        "h": "Đưa Can lên đầu câu hỏi"
+      },
+      {
+        "c": "TA4-B05-011",
+        "d": "application",
+        "p": "Đọc câu: \"Ben can draw nice pictures, and he can play the guitar too.\" Hai khả năng của Ben là gì?",
+        "o": [
+          "Chơi cờ vua và đá bóng",
+          "Nấu ăn ngon và bơi lội giỏi",
+          "Vẽ tranh đẹp và chơi đàn ghi-ta",
+          "Cưỡi ngựa và nhảy dây nhanh"
+        ],
+        "k": "C",
+        "e": "\"draw nice pictures\" = vẽ tranh đẹp; \"play the guitar\" = chơi đàn ghi-ta.",
+        "s": "Tiếng Anh 4",
+        "h": "Dịch chính xác hai cụm động từ"
+      },
+      {
+        "c": "TA4-B05-012",
+        "d": "application",
+        "p": "Khi viết đoạn ngắn: \"I can't cook, ... I can wash the dishes to help my mum.\" Điền từ nối hợp lí nhất:",
+        "o": [
+          "from",
+          "in",
+          "because",
+          "but"
+        ],
+        "k": "D",
+        "e": "Không biết nấu ăn NHƯNG có thể rửa bát giúp mẹ -> dùng \"but\".",
+        "s": "Tiếng Anh 4",
+        "h": "Nối hai vế tương phản"
+      },
+      {
+        "c": "TA4-B05-013",
+        "d": "advanced",
+        "p": "Phân biệt cách dùng \"the\": câu nào sau đây ĐÚNG chuẩn ngữ pháp tiếng Anh?",
+        "o": [
+          "He can play a table tennis, and I can play the football.",
+          "He can play the piano, and I can play table tennis.",
+          "He can plays the piano, and I can playing tennis.",
+          "He can play piano, and I can play the table tennis."
+        ],
+        "k": "B",
+        "e": "Quy tắc: play + the + nhạc cụ (play the piano); play + môn thể thao (play table tennis, không có the).",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ quy tắc the với nhạc cụ"
+      },
+      {
+        "c": "TA4-B05-014",
+        "d": "advanced",
+        "p": "Đọc đoạn ngắn: \"Tom can swim and ride a bike, but he can't play badminton. Lucy can't swim, but she can play badminton very well.\" Ai có thể dạy bạn kia chơi cầu lông?",
+        "o": [
+          "Neither of them can play badminton.",
+          "Lucy can teach Tom to swim.",
+          "Tom can teach Lucy to play badminton.",
+          "Lucy can teach Tom to play badminton."
+        ],
+        "k": "D",
+        "e": "Lucy chơi cầu lông giỏi còn Tom chưa biết chơi cầu lông -> Lucy hướng dẫn Tom.",
+        "s": "Tiếng Anh 4",
+        "h": "Đọc kĩ ai biết và ai chưa biết"
+      },
+      {
+        "c": "TA4-B05-015",
+        "d": "advanced",
+        "p": "Viết lại câu khẳng định sau sang dạng phủ định ngắn gọn tự nhiên nhất: \"They can speak three languages.\"",
+        "o": [
+          "They can't to speak three languages.",
+          "They aren't can speak three languages.",
+          "They can't speak three languages.",
+          "They don't can speak three languages."
+        ],
+        "k": "C",
+        "e": "Phủ định của \"can\" là \"can't\" (cannot), KHÔNG mượn trợ động từ don't hoặc aren't.",
+        "s": "Tiếng Anh 4",
+        "h": "Không dùng don't với can"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh4-c2",
+    "lesson": {
+      "code": "tienganh4-b06",
+      "title": "Unit 6. Our school facilities",
+      "seq": 6,
+      "subtitle": "Hỏi đáp vị trí ngôi trường (Where's your school?) và số lượng các phòng chức năng, cơ sở vật chất trong trường học",
+      "concepts": [
+        "Từ vựng vị trí (in the city, in the village, in the mountains)",
+        "Từ vựng phòng học (computer room, playground, garden)",
+        "How many ... are there at your school?"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA4-B06-001",
+        "d": "basic",
+        "p": "Câu hỏi \"Where is your school?\" dùng để hỏi thông tin gì về ngôi trường?",
+        "o": [
+          "Số lượng học sinh trong một lớp học",
+          "Vị trí địa lí của trường (ở thành phố, làng quê hay miền núi)",
+          "Giờ bắt đầu tiết học đầu tiên",
+          "Tên của thầy hiệu trưởng nhà trường"
+        ],
+        "k": "B",
+        "e": "Trả lời thường gặp: \"It's in the city.\" / \"It's in the mountains.\" / \"It's in the village.\"",
+        "s": "Tiếng Anh 4",
+        "h": "Chú ý từ hỏi Where"
+      },
+      {
+        "c": "TA4-B06-002",
+        "d": "basic",
+        "p": "Phòng học nào được trang bị nhiều máy tính để học môn Tin học?",
+        "o": [
+          "computer room",
+          "playground",
+          "school garden",
+          "music room"
+        ],
+        "k": "A",
+        "e": "\"computer room\" là phòng máy tính (phòng Tin học).",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm tên phòng máy tính"
+      },
+      {
+        "c": "TA4-B06-003",
+        "d": "basic",
+        "p": "Điền từ để hỏi số lượng vào chỗ trống: \"... playgrounds are there at your school?\" – \"There is one.\"",
+        "o": [
+          "What time",
+          "How many",
+          "Where",
+          "How much"
+        ],
+        "k": "B",
+        "e": "Hỏi số lượng danh từ đếm được số nhiều luôn dùng \"How many + N(s/es) + are there...?\"",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ mẫu câu hỏi số lượng"
+      },
+      {
+        "c": "TA4-B06-004",
+        "d": "basic",
+        "p": "Chọn giới từ đúng chỉ vị trí: \"My school is ... the mountains.\"",
+        "o": [
+          "between",
+          "in",
+          "from",
+          "on"
+        ],
+        "k": "B",
+        "e": "Cụm chuẩn là \"in the city / in the town / in the village / in the mountains\".",
+        "s": "Tiếng Anh 4",
+        "h": "Giới từ đi với khu vực địa lí"
+      },
+      {
+        "c": "TA4-B06-005",
+        "d": "basic",
+        "p": "Nghĩa Tiếng Việt của từ \"buildings\" trong cụm \"two tall buildings\" là gì?",
+        "o": [
+          "các sân chơi ngoài trời",
+          "các thư viện sách",
+          "các khu vườn trồng hoa",
+          "các tòa nhà cao tầng"
+        ],
+        "k": "D",
+        "e": "\"building\" = tòa nhà; thêm s chỉ số nhiều (\"two tall buildings\").",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ nghĩa danh từ building"
+      },
+      {
+        "c": "TA4-B06-006",
+        "d": "basic",
+        "p": "Quan sát biểu đồ thống kê các khu vực tại trường Bình Minh. Có bao nhiêu tòa nhà học tập (buildings)?",
+        "o": [
+          "Two (2 buildings)",
+          "Three (3 buildings)",
+          "Four (4 buildings)",
+          "One (1 building)"
+        ],
+        "k": "B",
+        "e": "Cột \"Buildings\" trên biểu đồ đạt mức 3.",
+        "s": "Tiếng Anh 4",
+        "h": "Đọc giá trị cột Buildings",
+        "fig": {
+          "type": "bars",
+          "title": "Binh Minh School Map",
+          "labels": [
+            "Buildings",
+            "Gardens",
+            "Playgrounds",
+            "CompRooms"
+          ],
+          "series": [
+            {
+              "values": [
+                3,
+                2,
+                1,
+                2
+              ],
+              "name": "Facilities"
+            }
+          ],
+          "unit": "count"
+        }
+      },
+      {
+        "c": "TA4-B06-007",
+        "d": "application",
+        "p": "Chọn câu trả lời đúng ngữ pháp số ít – số nhiều cho câu hỏi: \"How many computer rooms are there at your school?\"",
+        "o": [
+          "There are two computer rooms.",
+          "There are one computer room.",
+          "Yes, it is a computer room.",
+          "There is two computer rooms."
+        ],
+        "k": "A",
+        "e": "Số lượng 2 trở lên dùng \"There are + số lượng + danh từ số nhiều\".",
+        "s": "Tiếng Anh 4",
+        "h": "Phân biệt There is và There are"
+      },
+      {
+        "c": "TA4-B06-008",
+        "d": "application",
+        "p": "Chuyển câu khẳng định sau sang số ít đúng chuẩn: \"There is one ... at our school.\"",
+        "o": [
+          "computer rooms",
+          "buildings",
+          "libraries",
+          "library"
+        ],
+        "k": "D",
+        "e": "Sau \"There is one\" phải là danh từ đếm được số ít không thêm s hay es.",
+        "s": "Tiếng Anh 4",
+        "h": "Số ít sau one"
+      },
+      {
+        "c": "TA4-B06-009",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"How many garden is there at your school?\"",
+        "o": [
+          "Phải viết \"gardens are\" vì sau \"How many\" luôn dùng danh từ số nhiều và \"are there\"",
+          "Phải đổi \"How\" thành \"Who\"",
+          "Phải đổi \"at\" thành \"under\"",
+          "Phải đổi \"school\" thành \"schools\""
+        ],
+        "k": "A",
+        "e": "Công thức chuẩn: \"How many + N(số nhiều) + are there...?\"",
+        "s": "Tiếng Anh 4",
+        "h": "Kiểm tra danh từ sau How many"
+      },
+      {
+        "c": "TA4-B06-010",
+        "d": "application",
+        "p": "Hoàn thành đoạn hội thoại: \"A: Is your school in the city? – B: No, it isn't. It's in a small ... near the river.\"",
+        "o": [
+          "village",
+          "room",
+          "playground",
+          "library"
+        ],
+        "k": "A",
+        "e": "\"village\" (ngôi làng) là địa điểm đối lập phù hợp với \"city\" (thành phố).",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm địa danh nhỏ ở nông thôn"
+      },
+      {
+        "c": "TA4-B06-011",
+        "d": "application",
+        "p": "Sắp xếp thành câu hoàn chỉnh: there / three / are / buildings / my / at / school / .",
+        "o": [
+          "There are three buildings at my school.",
+          "Three buildings there are my school at.",
+          "At my school are there three buildings.",
+          "Are there three buildings at my school."
+        ],
+        "k": "A",
+        "e": "Câu trần thuật bắt đầu bằng \"There are + số lượng + danh từ + địa điểm\".",
+        "s": "Tiếng Anh 4",
+        "h": "Đặt There are ở đầu câu kể"
+      },
+      {
+        "c": "TA4-B06-012",
+        "d": "application",
+        "p": "Chọn từ trái nghĩa với \"noisy\" hoặc tả một ngôi trường có không gian xanh mát, nhiều cây cối:",
+        "o": [
+          "small and dark",
+          "hot and dusty",
+          "green and peaceful",
+          "old and broken"
+        ],
+        "k": "C",
+        "e": "\"green and peaceful\" (xanh mát và yên bình) phù hợp miêu tả trường có vườn cây đẹp.",
+        "s": "Tiếng Anh 4",
+        "h": "Chọn cặp tính từ tích cực"
+      },
+      {
+        "c": "TA4-B06-013",
+        "d": "advanced",
+        "p": "Đọc mô tả: \"Welcome to Sunshine Primary School! It's in the town. There is a big playground, two computer rooms and a lovely garden.\" Có bao nhiêu khu vực được nhắc tới?",
+        "o": [
+          "3 khu vực (3 computer rooms)",
+          "4 khu vực (1 playground, 2 computer rooms, 1 garden)",
+          "Chỉ có 2 khu vực (1 town, 1 garden)",
+          "5 phòng máy tính và 2 thư viện"
+        ],
+        "k": "B",
+        "e": "Tổng cộng có: 1 sân chơi + 2 phòng máy tính + 1 khu vườn = 4 khu vực cơ sở vật chất.",
+        "s": "Tiếng Anh 4",
+        "h": "Đếm kĩ số lượng từng mục"
+      },
+      {
+        "c": "TA4-B06-014",
+        "d": "advanced",
+        "p": "Khi muốn hỏi thăm trường bạn mình có phòng âm nhạc không (dạng câu hỏi Yes or No), câu nào chuẩn nhất?",
+        "o": [
+          "Where are a music room at your school?",
+          "How many music room are there?",
+          "Is there a music room at your school?",
+          "Are there a music room at your school?"
+        ],
+        "k": "C",
+        "e": "Danh từ số ít \"a music room\" dùng cấu trúc hỏi \"Is there a ...?\"",
+        "s": "Tiếng Anh 4",
+        "h": "Hỏi sự tồn tại của 1 phòng"
+      },
+      {
+        "c": "TA4-B06-015",
+        "d": "advanced",
+        "p": "Chọn câu hoàn chỉnh nhất nối hai ý về ngôi trường:",
+        "o": [
+          "My school is in the city, and it has a large playground for us to play at break time.",
+          "My school in the city, but it don't have a buildings.",
+          "In the city is my school, or it have two playground.",
+          "My school are in the city, and they have a large playground."
+        ],
+        "k": "A",
+        "e": "Câu chuẩn xác cả hòa hợp chủ – vị (\"is\", \"has\") và ngữ nghĩa tích cực.",
+        "s": "Tiếng Anh 4",
+        "h": "Soát kĩ động từ has và số ít"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh4-c2",
+    "lesson": {
+      "code": "tienganh4-b07",
+      "title": "Unit 7. Our timetables",
+      "seq": 7,
+      "subtitle": "Nhận biết tên các môn học Tiểu học, hỏi đáp hôm nay có môn gì (What subjects do you have today?) và khi nào có một môn học cụ thể",
+      "concepts": [
+        "Tên môn học (Vietnamese, Maths, English, Science, IT, Art, Music, PE)",
+        "What subjects do you have today?",
+        "When do you have + môn học?"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA4-B07-001",
+        "d": "basic",
+        "p": "Câu hỏi \"What subjects do you have today?\" có nghĩa là gì?",
+        "o": [
+          "Bạn thích màu sắc nào nhất?",
+          "Mấy giờ bạn tan học về nhà?",
+          "Trường học của bạn nằm ở đâu?",
+          "Hôm nay bạn có những môn học nào?"
+        ],
+        "k": "D",
+        "e": "\"subject\" nghĩa là môn học; câu hỏi hỏi thời khóa biểu các môn trong ngày hôm nay.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ nghĩa từ subject"
+      },
+      {
+        "c": "TA4-B07-002",
+        "d": "basic",
+        "p": "Môn học nào trong Tiếng Anh là môn Lịch sử và Địa lí?",
+        "o": [
+          "Information Technology",
+          "History and Geography",
+          "Physical Education",
+          "Music and Art"
+        ],
+        "k": "B",
+        "e": "History = Lịch sử; Geography = Địa lí.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ tên tiếng Anh của hai phân môn"
+      },
+      {
+        "c": "TA4-B07-003",
+        "d": "basic",
+        "p": "Cụm viết tắt môn \"IT\" (Tin học) đại diện cho từ đầy đủ nào?",
+        "o": [
+          "International Time",
+          "Information Technology",
+          "Interesting Topic",
+          "Internet Table"
+        ],
+        "k": "B",
+        "e": "IT viết tắt của Information Technology (Công nghệ thông tin – Tin học).",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ từ đầy đủ của IT"
+      },
+      {
+        "c": "TA4-B07-004",
+        "d": "basic",
+        "p": "Hoàn thành câu: \"When do you have Music?\" – \"I have it ... Fridays.\"",
+        "o": [
+          "at",
+          "in",
+          "on",
+          "to"
+        ],
+        "k": "C",
+        "e": "Ngày thứ Sáu đứng sau giới từ \"on\" (\"on Fridays\").",
+        "s": "Tiếng Anh 4",
+        "h": "Giới từ đi với ngày trong tuần"
+      },
+      {
+        "c": "TA4-B07-005",
+        "d": "basic",
+        "p": "Từ \"Maths\" (hoặc Mathematics) chỉ môn học nào?",
+        "o": [
+          "Môn Mĩ thuật",
+          "Môn Toán",
+          "Môn Âm nhạc",
+          "Môn Tiếng Việt"
+        ],
+        "k": "B",
+        "e": "Maths là tên viết gọn thông dụng của môn Toán trong chương trình Anh – Việt.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ tên môn Maths"
+      },
+      {
+        "c": "TA4-B07-006",
+        "d": "basic",
+        "p": "Quan sát thời khóa biểu thứ Hai và thứ Ba của lớp 4B. Lớp 4B học môn Science vào ngày nào?",
+        "o": [
+          "Wednesday (Thứ Tư)",
+          "Monday (Thứ Hai)",
+          "Tuesday (Thứ Ba)",
+          "Sunday (Chủ nhật)"
+        ],
+        "k": "C",
+        "e": "Cột Tuesday liệt kê môn Science cùng English và Art.",
+        "s": "Tiếng Anh 4",
+        "h": "Xem cột thứ hai trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Class 4B Timetable",
+          "head": [
+            "Monday",
+            "Tuesday"
+          ],
+          "rows": [
+            [
+              "Vietnamese",
+              "English"
+            ],
+            [
+              "Maths",
+              "Science"
+            ],
+            [
+              "Music",
+              "Art"
+            ],
+            [
+              "PE",
+              "IT"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA4-B07-007",
+        "d": "application",
+        "p": "Tìm từ viết hoa ĐÚNG quy tắc tên môn học trong Tiếng Anh:",
+        "o": [
+          "Vietnamese and English",
+          "english and Music",
+          "vietnamese and Art",
+          "maths and science"
+        ],
+        "k": "A",
+        "e": "Theo quy chuẩn SGK Tiểu học Việt Nam, tên các môn học riêng biệt (đặc biệt tên ngôn ngữ Vietnamese, English và các môn học trong thời khóa biểu) viết hoa chữ cái đầu.",
+        "s": "Tiếng Anh 4",
+        "h": "Chú ý viết hoa tên ngôn ngữ"
+      },
+      {
+        "c": "TA4-B07-008",
+        "d": "application",
+        "p": "Hoàn thành đoạn hội thoại: \"A: What ... do you have today? – B: I have Vietnamese, Maths and PE.\"",
+        "o": [
+          "days",
+          "facilities",
+          "subjects",
+          "subject"
+        ],
+        "k": "C",
+        "e": "Liệt kê nhiều môn học nên danh từ trong câu hỏi \"What ...?\" ở dạng số nhiều \"subjects\".",
+        "s": "Tiếng Anh 4",
+        "h": "Dùng số nhiều subjects"
+      },
+      {
+        "c": "TA4-B07-009",
+        "d": "application",
+        "p": "Nếu một bạn trả lời: \"I have English on Mondays, Wednesdays and Fridays\", bạn ấy có mấy buổi học Tiếng Anh mỗi tuần?",
+        "o": [
+          "2 buổi một tuần",
+          "3 buổi một tuần (3 times a week)",
+          "5 buổi một tuần",
+          "4 buổi một tuần"
+        ],
+        "k": "B",
+        "e": "Gồm Thứ Hai (Mondays), Thứ Tư (Wednesdays) và Thứ Sáu (Fridays) -> 3 buổi.",
+        "s": "Tiếng Anh 4",
+        "h": "Đếm số thứ được nhắc tới"
+      },
+      {
+        "c": "TA4-B07-010",
+        "d": "application",
+        "p": "Chọn câu hỏi ĐÚNG để hỏi thời điểm bạn Minh có môn Lịch sử và Địa lí:",
+        "o": [
+          "What time does Minh has History?",
+          "When does Minh have History and Geography?",
+          "Where are Minh have Geography?",
+          "When do Minh has History and Geography?"
+        ],
+        "k": "B",
+        "e": "Chủ ngữ \"Minh\" số ít mượn trợ động từ \"does\", động từ chính giữ nguyên thể \"have\".",
+        "s": "Tiếng Anh 4",
+        "h": "Chú ý does + nguyên thể have"
+      },
+      {
+        "c": "TA4-B07-011",
+        "d": "application",
+        "p": "Điền tên môn học thích hợp vào ngữ cảnh: \"In ..., we learn to draw pictures and mix colours.\"",
+        "o": [
+          "Maths",
+          "Science",
+          "PE",
+          "Art"
+        ],
+        "k": "D",
+        "e": "Vẽ tranh (draw pictures) và pha màu (mix colours) là hoạt động đặc trưng của môn Art (Mĩ thuật).",
+        "s": "Tiếng Anh 4",
+        "h": "Gắn hoạt động với môn học"
+      },
+      {
+        "c": "TA4-B07-012",
+        "d": "application",
+        "p": "Sắp xếp thành câu hoàn chỉnh: have / English / I / Tuesdays / on / and / Thursdays / .",
+        "o": [
+          "English have I on Tuesdays and Thursdays.",
+          "On Tuesdays and Thursdays have I English.",
+          "I have English on Tuesdays and Thursdays.",
+          "I on Tuesdays have English and Thursdays."
+        ],
+        "k": "C",
+        "e": "Cấu trúc chuẩn: Chủ ngữ (I) + have + tên môn (English) + on + ngày trong tuần.",
+        "s": "Tiếng Anh 4",
+        "h": "Đặt chủ ngữ và động từ ở đầu câu"
+      },
+      {
+        "c": "TA4-B07-013",
+        "d": "advanced",
+        "p": "Đọc thời khóa biểu của Mai: \"Today is Thursday. Mai has Science, Art and Vietnamese. She doesn't have Maths today.\" Mai CÓ học Toán vào thứ Năm không?",
+        "o": [
+          "No, she doesn't.",
+          "Yes, she does.",
+          "Yes, she has Maths.",
+          "No, she isn't."
+        ],
+        "k": "A",
+        "e": "Câu hỏi \"Does Mai have Maths on Thursday?\" phủ định chuẩn là \"No, she doesn't.\"",
+        "s": "Tiếng Anh 4",
+        "h": "Chú ý phủ định với doesn't"
+      },
+      {
+        "c": "TA4-B07-014",
+        "d": "advanced",
+        "p": "Chuyển câu sau sang ngôi thứ ba số ít: \"I have IT on Wednesdays.\" -> \"Phong ... IT on Wednesdays.\"",
+        "o": [
+          "haves",
+          "has",
+          "have",
+          "having"
+        ],
+        "k": "B",
+        "e": "Động từ \"have\" khi đi với chủ ngữ số ít (he, she, Phong) biến đổi thành \"has\", không viết \"haves\".",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ biến đổi đặc biệt have -> has"
+      },
+      {
+        "c": "TA4-B07-015",
+        "d": "advanced",
+        "p": "Trong đoạn văn: \"PE is fun! Every Monday and Thursday, our class runs and plays games in the playground.\" Từ \"PE\" viết đầy đủ là gì?",
+        "o": [
+          "Personal Energy",
+          "Physical Education (Giáo dục thể chất)",
+          "Primary English",
+          "Play Exercise"
+        ],
+        "k": "B",
+        "e": "PE là chữ viết tắt quen thuộc của môn Physical Education.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ tên đầy đủ của PE"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh4-c2",
+    "lesson": {
+      "code": "tienganh4-b08",
+      "title": "Unit 8. My favourite subjects",
+      "seq": 8,
+      "subtitle": "Hỏi đáp về môn học yêu thích (What's your favourite subject?) và giải thích lí do yêu thích môn học với Because...",
+      "concepts": [
+        "What's your favourite subject? – It's...",
+        "Why do you like...? – Because I want to...",
+        "Nghề nghiệp mơ ước (English teacher, painter, singer)"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA4-B08-001",
+        "d": "basic",
+        "p": "Từ \"favourite\" (hoặc favorite) có nghĩa là gì?",
+        "o": [
+          "nhàm chán nhất",
+          "cuối cùng nhất",
+          "khó khăn nhất",
+          "yêu thích nhất"
+        ],
+        "k": "D",
+        "e": "\"My favourite subject\" nghĩa là môn học yêu thích nhất của tôi.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ nghĩa tính từ favourite"
+      },
+      {
+        "c": "TA4-B08-002",
+        "d": "basic",
+        "p": "Để hỏi lí do \"Tại sao bạn thích môn Âm nhạc?\", ta dùng từ để hỏi nào?",
+        "o": [
+          "When",
+          "Why",
+          "Where",
+          "How many"
+        ],
+        "k": "B",
+        "e": "Câu hỏi lí do luôn bắt đầu bằng \"Why\" và câu trả lời bắt đầu bằng \"Because\".",
+        "s": "Tiếng Anh 4",
+        "h": "Cặp hỏi đáp Why – Because"
+      },
+      {
+        "c": "TA4-B08-003",
+        "d": "basic",
+        "p": "Hoàn thành câu: \"What's your favourite subject?\" – \"... Maths.\"",
+        "o": [
+          "They're",
+          "I'm",
+          "It's",
+          "She's"
+        ],
+        "k": "C",
+        "e": "Trả lời cho một môn học số ít (\"favourite subject\") dùng \"It's + tên môn học.\"",
+        "s": "Tiếng Anh 4",
+        "h": "Một môn học dùng It's"
+      },
+      {
+        "c": "TA4-B08-004",
+        "d": "basic",
+        "p": "Chọn cặp môn học – nghề nghiệp mơ ước khớp nhau: \"I like Art because I want to be a ... .\"",
+        "o": [
+          "painter",
+          "singer",
+          "maths teacher",
+          "footballer"
+        ],
+        "k": "A",
+        "e": "Thích Mĩ thuật (Art) gắn liền với mong muốn trở thành họa sĩ (painter).",
+        "s": "Tiếng Anh 4",
+        "h": "Nối môn học với nghề tương ứng"
+      },
+      {
+        "c": "TA4-B08-005",
+        "d": "basic",
+        "p": "Cụm từ \"an English teacher\" nghĩa là gì?",
+        "o": [
+          "một họa sĩ vẽ tranh",
+          "một giáo viên Tiếng Anh",
+          "một bác sĩ thú y",
+          "một ca sĩ nổi tiếng"
+        ],
+        "k": "B",
+        "e": "\"teacher\" là giáo viên; \"an English teacher\" dùng mạo từ \"an\" trước nguyên âm E.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ nghĩa của teacher"
+      },
+      {
+        "c": "TA4-B08-006",
+        "d": "basic",
+        "p": "Quan sát biểu đồ khảo sát môn học yêu thích của lớp 4A. Môn nào được nhiều bạn bình chọn nhất?",
+        "o": [
+          "Music (6 bạn)",
+          "English (14 bạn)",
+          "Art (8 bạn)",
+          "Maths (10 bạn)"
+        ],
+        "k": "B",
+        "e": "Cột English cao nhất trên biểu đồ với giá trị 14.",
+        "s": "Tiếng Anh 4",
+        "h": "So sánh độ cao 4 cột",
+        "fig": {
+          "type": "bars",
+          "title": "Favourite Subjects (4A)",
+          "labels": [
+            "Maths",
+            "English",
+            "Art",
+            "Music"
+          ],
+          "series": [
+            {
+              "values": [
+                10,
+                14,
+                8,
+                6
+              ],
+              "name": "Votes"
+            }
+          ],
+          "unit": "kids"
+        }
+      },
+      {
+        "c": "TA4-B08-007",
+        "d": "application",
+        "p": "Điền cụm lí do hợp lí: \"Why do you like English?\" – \"Because I want to be an ... .\"",
+        "o": [
+          "astronaut in Art",
+          "painter",
+          "English teacher",
+          "driver"
+        ],
+        "k": "C",
+        "e": "Thích học Tiếng Anh để trở thành giáo viên Tiếng Anh (\"an English teacher\").",
+        "s": "Tiếng Anh 4",
+        "h": "Gắn lí do sát với môn Tiếng Anh"
+      },
+      {
+        "c": "TA4-B08-008",
+        "d": "application",
+        "p": "Phân biệt cách dùng \"a\" hay \"an\": cụm nào sau đây sử dụng mạo từ ĐÚNG?",
+        "o": [
+          "an Music teacher",
+          "a Art teacher",
+          "an Art teacher",
+          "an Maths teacher"
+        ],
+        "k": "C",
+        "e": "Trước âm nguyên âm như \"Art\" hoặc \"English\" dùng \"an\"; trước phụ âm như \"Music\", \"Maths\" dùng \"a\".",
+        "s": "Tiếng Anh 4",
+        "h": "Quy tắc chọn a hoặc an"
+      },
+      {
+        "c": "TA4-B08-009",
+        "d": "application",
+        "p": "Sắp xếp thành câu hoàn chỉnh: like / Why / you / do / Music / ?",
+        "o": [
+          "Like Music why do you?",
+          "Why you do like Music?",
+          "Why do you like Music?",
+          "Do why you like Music?"
+        ],
+        "k": "C",
+        "e": "Cấu trúc hỏi lí do: Why + do + S + like + môn học?",
+        "s": "Tiếng Anh 4",
+        "h": "Trợ động từ đứng trước chủ ngữ"
+      },
+      {
+        "c": "TA4-B08-010",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"I like Science because I want be a scientist.\"",
+        "o": [
+          "Sai từ \"Science\", phải đổi thành \"Singer\"",
+          "Sai từ \"like\", phải thêm \"s\" thành \"likes\"",
+          "Thiếu từ \"to\" giữa \"want\" và \"be\" -> phải viết \"want to be\"",
+          "Thiếu từ \"on\" trước \"because\""
+        ],
+        "k": "C",
+        "e": "Cấu trúc chuẩn là \"want to be + nghề nghiệp\" (muốn trở thành...).",
+        "s": "Tiếng Anh 4",
+        "h": "Cụm cố định want to be"
+      },
+      {
+        "c": "TA4-B08-011",
+        "d": "application",
+        "p": "Hoàn thành câu: \"What's ... favourite subject?\" – \"His favourite subject is IT.\"",
+        "o": [
+          "her",
+          "their",
+          "my",
+          "his"
+        ],
+        "k": "D",
+        "e": "Câu trả lời là \"His favourite subject...\" nên câu hỏi tương ứng hỏi về bạn nam dùng tính từ sở hữu \"his\".",
+        "s": "Tiếng Anh 4",
+        "h": "Khớp his ở hỏi và đáp"
+      },
+      {
+        "c": "TA4-B08-012",
+        "d": "application",
+        "p": "Chọn câu trả lời phù hợp khi bạn hỏi: \"Why do you like PE?\"",
+        "o": [
+          "Because I want to stay healthy and strong.",
+          "Because it is on Tuesday morning.",
+          "Because I want to sing many English songs.",
+          "Because I have three books in my bag."
+        ],
+        "k": "A",
+        "e": "Môn Giáo dục thể chất (PE) giúp rèn luyện sức khỏe (\"stay healthy and strong\").",
+        "s": "Tiếng Anh 4",
+        "h": "Chọn lí do phù hợp với môn thể dục"
+      },
+      {
+        "c": "TA4-B08-013",
+        "d": "advanced",
+        "p": "Đọc đoạn ngắn: \"Lan likes Maths and IT, but her favourite subject is Art because she loves drawing animals.\" Môn yêu thích NHẤT của Lan là môn nào?",
+        "o": [
+          "Art",
+          "Music",
+          "Maths",
+          "IT"
+        ],
+        "k": "A",
+        "e": "Dù thích Toán và Tin học, nhưng \"her favourite subject is Art\" khẳng định Mĩ thuật là nhất.",
+        "s": "Tiếng Anh 4",
+        "h": "Chú ý mệnh đề sau but"
+      },
+      {
+        "c": "TA4-B08-014",
+        "d": "advanced",
+        "p": "Khi hỏi về bạn nữ Minh Anh: \"Why ... Minh Anh like History?\" – \"Because she ... to learn about the past.\"",
+        "o": [
+          "does ... want",
+          "do ... want",
+          "does ... wants",
+          "is ... want"
+        ],
+        "k": "C",
+        "e": "Chủ ngữ số ít \"Minh Anh\" / \"she\": câu hỏi dùng trợ động từ \"does\", câu trả lời động từ \"want\" thêm s thành \"wants\".",
+        "s": "Tiếng Anh 4",
+        "h": "Chú ý chia động từ ở cả 2 vế"
+      },
+      {
+        "c": "TA4-B08-015",
+        "d": "advanced",
+        "p": "Viết lại câu hỏi cùng nghĩa với \"What's your favourite subject?\" dùng động từ \"like\":",
+        "o": [
+          "Where subject do you like?",
+          "When do you like best?",
+          "Which subject do you like best?",
+          "How many subjects do you want?"
+        ],
+        "k": "C",
+        "e": "\"like ... best\" (thích nhất) đồng nghĩa tự nhiên với \"favourite\".",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm câu hỏi tương đương nghĩa"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh4-c2",
+    "lesson": {
+      "code": "tienganh4-b09",
+      "title": "Unit 9. Our sports day",
+      "seq": 9,
+      "subtitle": "Hỏi đáp xác nhận xem Ngày hội thể thao có diễn ra vào một tháng cụ thể không (Is your sports day in ...?) và hỏi chính xác ngày diễn ra",
+      "concepts": [
+        "Từ vựng sự kiện trường (sports day, Teachers' Day, Children's Day)",
+        "Is your sports day in May? – Yes, it is / No, it isn't",
+        "When's your sports day? – It's in + tháng"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA4-B09-001",
+        "d": "basic",
+        "p": "Cụm từ \"sports day\" trong trường học có nghĩa là gì?",
+        "o": [
+          "Ngày khai giảng năm học mới",
+          "Ngày hội đọc sách thư viện",
+          "Ngày hội thể thao",
+          "Ngày tổng kết kì nghỉ hè"
+        ],
+        "k": "C",
+        "e": "\"sports day\" là ngày hội thi đấu các môn thể thao của trường học.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ nghĩa của sports day"
+      },
+      {
+        "c": "TA4-B09-002",
+        "d": "basic",
+        "p": "Câu hỏi xác nhận: \"Is your sports day in May?\" có hai cách trả lời ngắn chuẩn là gì?",
+        "o": [
+          "Yes, it is. hoặc No, it isn't.",
+          "Yes, I am. hoặc No, I'm not.",
+          "Yes, I do. hoặc No, I don't.",
+          "Yes, there are. hoặc No, they aren't."
+        ],
+        "k": "A",
+        "e": "Chủ ngữ \"your sports day\" là một sự kiện số ít -> thay bằng \"it\" trong câu trả lời.",
+        "s": "Tiếng Anh 4",
+        "h": "Dùng đại từ it cho sports day"
+      },
+      {
+        "c": "TA4-B09-003",
+        "d": "basic",
+        "p": "Trong câu: \"Our sports day is ... November\", cần điền giới từ nào trước tên tháng?",
+        "o": [
+          "under",
+          "at",
+          "in",
+          "on"
+        ],
+        "k": "C",
+        "e": "Trước tháng không kèm ngày luôn dùng giới từ \"in\" (in November).",
+        "s": "Tiếng Anh 4",
+        "h": "Giới từ đi với tháng"
+      },
+      {
+        "c": "TA4-B09-004",
+        "d": "basic",
+        "p": "Sự kiện \"Teachers' Day\" ở Việt Nam (ngày Nhà giáo) diễn ra vào tháng mấy?",
+        "o": [
+          "September (Tháng 9)",
+          "January (Tháng 1)",
+          "November (Tháng 11)",
+          "June (Tháng 6)"
+        ],
+        "k": "C",
+        "e": "Ngày Nhà giáo Việt Nam là 20 tháng 11 (in November).",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ tháng của ngày Nhà giáo"
+      },
+      {
+        "c": "TA4-B09-005",
+        "d": "basic",
+        "p": "Mẫu câu hỏi trực tiếp xem Ngày hội thể thao diễn ra vào tháng nào là gì?",
+        "o": [
+          "When's your sports day?",
+          "How's your sports day?",
+          "Who's your sports day?",
+          "What's your sports day?"
+        ],
+        "k": "A",
+        "e": "Từ để hỏi thời điểm (tháng/ngày) là \"When\" -> \"When's your sports day?\".",
+        "s": "Tiếng Anh 4",
+        "h": "Dùng When cho thời gian"
+      },
+      {
+        "c": "TA4-B09-006",
+        "d": "basic",
+        "p": "Quan sát lịch sự kiện trường học. \"Sports day\" diễn ra vào tháng nào?",
+        "o": [
+          "October (Tháng 10)",
+          "December (Tháng 12)",
+          "May (Tháng 5)",
+          "November (Tháng 11)"
+        ],
+        "k": "A",
+        "e": "Dòng \"Sports day\" trên bảng lịch ghi tháng \"October\".",
+        "s": "Tiếng Anh 4",
+        "h": "Xem hàng Sports day trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "School Events Calendar",
+          "head": [
+            "Event",
+            "Month"
+          ],
+          "rows": [
+            [
+              "Opening Day",
+              "September"
+            ],
+            [
+              "Sports day",
+              "October"
+            ],
+            [
+              "Teachers' Day",
+              "November"
+            ],
+            [
+              "Children's Day",
+              "June"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA4-B09-007",
+        "d": "application",
+        "p": "Hoàn thành hội thoại: \"A: Is your sports day in April? – B: No, it isn't. ... in May.\"",
+        "o": [
+          "I'm",
+          "It's",
+          "They're",
+          "We're"
+        ],
+        "k": "B",
+        "e": "Thay thế cho \"our sports day\" số ít dùng \"It's\" (It is).",
+        "s": "Tiếng Anh 4",
+        "h": "Chọn đại từ thay cho ngày hội"
+      },
+      {
+        "c": "TA4-B09-008",
+        "d": "application",
+        "p": "Sắp xếp thành câu hỏi hoàn chỉnh: your / Is / day / sports / in / December / ?",
+        "o": [
+          "Sports day your is in December?",
+          "Your sports day is in December?",
+          "Is your sports day in December?",
+          "Is in December your sports day?"
+        ],
+        "k": "C",
+        "e": "Đưa \"Is\" lên đầu câu hỏi Yes or No: Is + your sports day + in + tháng?",
+        "s": "Tiếng Anh 4",
+        "h": "Đặt Is lên đầu câu"
+      },
+      {
+        "c": "TA4-B09-009",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"When's your sports day? – It's on September.\"",
+        "o": [
+          "Sai giới từ \"on\", phải sửa thành \"in\" vì September là tên tháng đứng riêng",
+          "Sai từ \"It's\", phải đổi thành \"He's\"",
+          "Sai từ \"When's\", phải đổi thành \"Where's\"",
+          "Sai chữ \"September\", phải viết thường chữ cái đầu"
+        ],
+        "k": "A",
+        "e": "Tháng đứng riêng luôn đi với giới từ \"in\".",
+        "s": "Tiếng Anh 4",
+        "h": "Sửa giới từ trước tháng"
+      },
+      {
+        "c": "TA4-B09-010",
+        "d": "application",
+        "p": "Trong ngày hội thể thao, hoạt động nào thường được các bạn học sinh tham gia thi đấu?",
+        "o": [
+          "running, jumping and playing tug of war (kéo co)",
+          "baking a birthday cake in bed",
+          "watching cartoons alone at home",
+          "sleeping in the library"
+        ],
+        "k": "A",
+        "e": "Chạy, nhảy và kéo co là các môn thi đấu thể thao phổ biến trong ngày hội.",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm hoạt động thể thao"
+      },
+      {
+        "c": "TA4-B09-011",
+        "d": "application",
+        "p": "Đọc câu: \"We play badminton and football on our sports day.\" Vì sao ở đây lại dùng \"on our sports day\" mà không dùng \"in\"?",
+        "o": [
+          "Vì \"sports day\" là một ngày cụ thể (có chữ \"day\") nên dùng giới từ \"on\"",
+          "Vì chữ \"football\" bắt buộc đi với từ \"on\"",
+          "Vì các hoạt động diễn ra vào ban đêm",
+          "Vì đó là lỗi viết tắt của từ \"in\""
+        ],
+        "k": "A",
+        "e": "Quy tắc nhất quán: các cụm có từ \"day\" (on Monday, on my birthday, on sports day) dùng \"on\".",
+        "s": "Tiếng Anh 4",
+        "h": "Ghi nhớ: có \"day\" dùng \"on\""
+      },
+      {
+        "c": "TA4-B09-012",
+        "d": "application",
+        "p": "Chọn câu đúng ngữ pháp và hợp nghĩa để hỏi thăm trường bạn bên cạnh:",
+        "o": [
+          "A: Is your school's sports day in March? – B: Yes, it is.",
+          "A: Are your school's sports day in March? – B: Yes, they are.",
+          "A: Is your school's sports day on March? – B: Yes, it is.",
+          "A: Do your sports day in March? – B: Yes, I do."
+        ],
+        "k": "A",
+        "e": "Dùng \"Is...?\", giới từ \"in March\" và trả lời ngắn \"Yes, it is.\" là hoàn toàn chính xác.",
+        "s": "Tiếng Anh 4",
+        "h": "Kiểm tra cả 3 điểm: Is, in, it is"
+      },
+      {
+        "c": "TA4-B09-013",
+        "d": "advanced",
+        "p": "Đọc đoạn ngắn: \"In our school, Sports Day is in May, but the Music Festival is in November. We practise very hard in April.\" Học sinh tập luyện chuẩn bị cho Sports Day vào tháng mấy?",
+        "o": [
+          "In April (Tháng 4)",
+          "In November (Tháng 11)",
+          "In May (Tháng 5)",
+          "In March (Tháng 3)"
+        ],
+        "k": "A",
+        "e": "Câu cuối nêu rõ \"We practise very hard in April\" (tập luyện vào tháng 4 để thi vào tháng 5).",
+        "s": "Tiếng Anh 4",
+        "h": "Đọc kĩ động từ practise"
+      },
+      {
+        "c": "TA4-B09-014",
+        "d": "advanced",
+        "p": "Khi muốn hỏi xác nhận một sự kiện khác: \"... your school's Children's Day in June?\" và câu trả lời \"... , it is.\"",
+        "o": [
+          "Does ... No",
+          "When ... Yes",
+          "Are ... Yes",
+          "Is ... Yes"
+        ],
+        "k": "D",
+        "e": "Câu hỏi Yes or No với danh từ số ít dùng \"Is\", trả lời khẳng định đi với \"Yes, it is.\"",
+        "s": "Tiếng Anh 4",
+        "h": "Khớp câu hỏi Is với Yes"
+      },
+      {
+        "c": "TA4-B09-015",
+        "d": "advanced",
+        "p": "Nếu Nam viết: \"My school has two sports days a year: one in April and one in November\", ta có thể đặt câu hỏi đúng cho thông tin này là gì?",
+        "o": [
+          "When are your school's sports days?",
+          "When is your school's sports days?",
+          "Where are your sports days in?",
+          "How old is your sports day?"
+        ],
+        "k": "A",
+        "e": "Khi nhắc từ 2 ngày hội trở lên (số nhiều \"sports days\") phải đổi \"is\" thành \"are\".",
+        "s": "Tiếng Anh 4",
+        "h": "Chú ý số nhiều sports days -> are"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh4-c2",
+    "lesson": {
+      "code": "tienganh4-b10",
+      "title": "Unit 10. Our summer holidays",
+      "seq": 10,
+      "subtitle": "Làm quen thì quá khứ đơn với to be (was, were) để hỏi đáp bạn đã ở đâu vào kì nghỉ hè vừa qua (Where were you last summer?)",
+      "concepts": [
+        "Địa điểm du lịch (at the zoo, on the beach, in the countryside, in London)",
+        "Where were you last summer? – I was...",
+        "Were you ... yesterday? – Yes, I was / No, I wasn't"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA4-B10-001",
+        "d": "basic",
+        "p": "Trong câu hỏi về quá khứ: \"Where ... you last summer?\" ta điền động từ to be quá khứ nào?",
+        "o": [
+          "is",
+          "was",
+          "were",
+          "am"
+        ],
+        "k": "C",
+        "e": "Chủ ngữ \"you\" ở thì quá khứ đơn luôn đi với \"were\" (\"Where were you...?\").",
+        "s": "Tiếng Anh 4",
+        "h": "You luôn đi với were"
+      },
+      {
+        "c": "TA4-B10-002",
+        "d": "basic",
+        "p": "Chủ ngữ \"I\" ở thì quá khứ (khi kể nơi mình đã đến) dùng động từ to be nào?",
+        "o": [
+          "were",
+          "am",
+          "are",
+          "was (\"I was on the beach.\")"
+        ],
+        "k": "D",
+        "e": "Quá khứ của \"am\" và \"is\" là \"was\" -> \"I was...\".",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ quá khứ của am là was"
+      },
+      {
+        "c": "TA4-B10-003",
+        "d": "basic",
+        "p": "Cụm từ \"on the beach\" mang nghĩa Tiếng Việt là gì?",
+        "o": [
+          "trong vườn bách thú",
+          "trên đỉnh núi cao",
+          "trên bãi biển",
+          "ở miền quê yên tĩnh"
+        ],
+        "k": "C",
+        "e": "\"beach\" = bãi biển; giới từ quen thuộc đi kèm là \"on the beach\".",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ cụm on the beach"
+      },
+      {
+        "c": "TA4-B10-004",
+        "d": "basic",
+        "p": "Trạng từ thời gian nào sau đây chỉ KÌ NGHỈ HÈ NĂM NGOÁI (thì quá khứ)?",
+        "o": [
+          "last summer",
+          "now",
+          "every day",
+          "next summer"
+        ],
+        "k": "A",
+        "e": "\"last + thời gian\" (last summer, last weekend, yesterday) là dấu hiệu của thì quá khứ.",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm từ khóa quá khứ"
+      },
+      {
+        "c": "TA4-B10-005",
+        "d": "basic",
+        "p": "Phủ định của \"was\" khi trả lời \"Were you in Bangkok last summer? – No, I ...\" là gì?",
+        "o": [
+          "weren't",
+          "don't",
+          "wasn't",
+          "isn't"
+        ],
+        "k": "C",
+        "e": "Câu trả lời cho chủ ngữ \"I\" dùng \"was\" -> phủ định là \"No, I wasn't.\"",
+        "s": "Tiếng Anh 4",
+        "h": "Chủ ngữ I đi với wasn't"
+      },
+      {
+        "c": "TA4-B10-006",
+        "d": "basic",
+        "p": "Quan sát bảng nhật kí nghỉ hè của 4 bạn. Bạn Tony đã ở đâu vào mùa hè năm ngoái?",
+        "o": [
+          "Ha Long Bay",
+          "Tokyo",
+          "London",
+          "Sydney"
+        ],
+        "k": "D",
+        "e": "Dòng Tony trong bảng ghi địa điểm \"Sydney\".",
+        "s": "Tiếng Anh 4",
+        "h": "Xem hàng Tony trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Last Summer Holidays",
+          "head": [
+            "Name",
+            "Place visited"
+          ],
+          "rows": [
+            [
+              "Mai",
+              "Ha Long Bay"
+            ],
+            [
+              "Tony",
+              "Sydney"
+            ],
+            [
+              "Linda",
+              "London"
+            ],
+            [
+              "Akiko",
+              "Tokyo"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA4-B10-007",
+        "d": "application",
+        "p": "Chọn câu hỏi xác nhận ĐÚNG ngữ pháp quá khứ: \"... you at the zoo yesterday morning?\"",
+        "o": [
+          "Are",
+          "Was",
+          "Were",
+          "Did"
+        ],
+        "k": "C",
+        "e": "Với chủ ngữ \"you\" và cụm chỉ nơi chốn \"at the zoo\", không có động từ thường nên dùng \"Were\".",
+        "s": "Tiếng Anh 4",
+        "h": "You dùng Were không dùng Was"
+      },
+      {
+        "c": "TA4-B10-008",
+        "d": "application",
+        "p": "Hoàn thành câu kể về chuyến đi của bạn gái Mary: \"Mary ... in the countryside last weekend.\"",
+        "o": [
+          "is",
+          "were",
+          "was",
+          "are"
+        ],
+        "k": "C",
+        "e": "\"last weekend\" là quá khứ, \"Mary\" (tương ứng she) số ít nên dùng \"was\".",
+        "s": "Tiếng Anh 4",
+        "h": "Chủ ngữ số ít ở quá khứ dùng was"
+      },
+      {
+        "c": "TA4-B10-009",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"I were at the campsite with my friends last Sunday.\"",
+        "o": [
+          "Sai từ \"were\", phải sửa thành \"was\" vì đi với chủ ngữ \"I\"",
+          "Sai từ \"at\", phải đổi thành \"under\"",
+          "Sai từ \"with\", phải đổi thành \"on\"",
+          "Sai từ \"last\", phải đổi thành \"tomorrow\""
+        ],
+        "k": "A",
+        "e": "Với \"I\", thì quá khứ đơn của to be luôn là \"was\", không dùng \"were\".",
+        "s": "Tiếng Anh 4",
+        "h": "Kiểm tra cặp I was"
+      },
+      {
+        "c": "TA4-B10-010",
+        "d": "application",
+        "p": "Chọn giới từ phù hợp cho từng địa điểm: \"I was ... London, and my brother was ... the beach.\"",
+        "o": [
+          "under ... from",
+          "at ... at",
+          "on ... in",
+          "in ... on"
+        ],
+        "k": "D",
+        "e": "Thành phố/đất nước dùng \"in\" (in London), bãi biển dùng \"on\" (on the beach).",
+        "s": "Tiếng Anh 4",
+        "h": "Phân biệt in và on theo nơi chốn"
+      },
+      {
+        "c": "TA4-B10-011",
+        "d": "application",
+        "p": "Trả lời đầy đủ cho câu hỏi: \"Were Nam and Phong at the zoo last Saturday?\" (Có, hai bạn ấy đã ở đó)",
+        "o": [
+          "Yes, it was.",
+          "Yes, we are.",
+          "Yes, he was.",
+          "Yes, they were."
+        ],
+        "k": "D",
+        "e": "Nam and Phong (2 người, ngôi they) trả lời bằng \"they were\".",
+        "s": "Tiếng Anh 4",
+        "h": "Số nhiều dùng they were"
+      },
+      {
+        "c": "TA4-B10-012",
+        "d": "application",
+        "p": "Sắp xếp các từ sau thành câu kể đúng: was / I / countryside / the / in / summer / last / .",
+        "o": [
+          "Last summer was I in the countryside.",
+          "I was in the countryside last summer.",
+          "I were in the countryside last summer.",
+          "In the countryside was I last summer."
+        ],
+        "k": "B",
+        "e": "Cấu trúc chuẩn: I was + nơi chốn (in the countryside) + thời gian quá khứ (last summer).",
+        "s": "Tiếng Anh 4",
+        "h": "Giữ đúng trật tự I was..."
+      },
+      {
+        "c": "TA4-B10-013",
+        "d": "advanced",
+        "p": "Phân biệt hai câu: (1) \"I am at school today.\" và (2) \"I ... at home yesterday.\" Chữ cần điền và lí do là gì?",
+        "o": [
+          "is – vì hành động ở nhà là thói quen hiện tại",
+          "were – vì \"yesterday\" có nhiều giờ nên phải dùng số nhiều",
+          "was – vì \"yesterday\" chỉ thời gian đã qua nên \"am\" chuyển sang quá khứ là \"was\"",
+          "are – vì \"I\" đứng trước \"at home\" luôn dùng \"are\""
+        ],
+        "k": "C",
+        "e": "Chú ý đối chiếu \"today\" (hiện tại -> am) với \"yesterday\" (quá khứ -> was).",
+        "s": "Tiếng Anh 4",
+        "h": "Đối chiếu trạng từ thời gian"
+      },
+      {
+        "c": "TA4-B10-014",
+        "d": "advanced",
+        "p": "Đọc đoạn nhật kí: \"Last July, our family went to Da Nang. On Monday we were on My Khe beach. On Tuesday we were in Ba Na Hills.\" Gia đình ở bãi biển Mỹ Khê vào ngày nào?",
+        "o": [
+          "On Monday.",
+          "On Tuesday.",
+          "Last June.",
+          "Every Sunday."
+        ],
+        "k": "A",
+        "e": "Câu thứ hai ghi rõ: \"On Monday we were on My Khe beach.\"",
+        "s": "Tiếng Anh 4",
+        "h": "Đối chiếu ngày với địa điểm"
+      },
+      {
+        "c": "TA4-B10-015",
+        "d": "advanced",
+        "p": "Chọn câu hoàn chỉnh KHÔNG mắc lỗi thì hoặc lỗi chủ – vị khi kể chuyện hè năm ngoái:",
+        "o": [
+          "Where were your parents tomorrow? – They are in Singapore.",
+          "Where was your parents last summer? – They was in Singapore.",
+          "Where were your parents last summer? – They were in Singapore.",
+          "Where are your parents last summer? – They were in Singapore."
+        ],
+        "k": "C",
+        "e": "\"your parents\" (bố mẹ, số nhiều) dùng \"were\" cả trong câu hỏi và câu trả lời với \"They were\".",
+        "s": "Tiếng Anh 4",
+        "h": "Kiểm tra danh từ số nhiều parents"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh4-c3",
+    "lesson": {
+      "code": "tienganh4-b11",
+      "title": "Unit 11. My home",
+      "seq": 11,
+      "subtitle": "Hỏi đáp địa chỉ nhà (Where do you live?) và miêu tả đặc điểm khu phố, làng quê nơi gia đình sinh sống (What's the city like?)",
+      "concepts": [
+        "Địa chỉ đường phố (street, road, village, city)",
+        "Where do you live? – I live in ...",
+        "What's the ... like? – It's big, busy, quiet"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA4-B11-001",
+        "d": "basic",
+        "p": "Câu hỏi tiếng Anh dùng để hỏi \"Bạn sống ở đâu?\" là gì?",
+        "o": [
+          "Where do you live?",
+          "What do you live?",
+          "Who do you live?",
+          "When do you live?"
+        ],
+        "k": "A",
+        "e": "\"Where do you live?\" dùng hỏi nơi ở, địa chỉ nhà.",
+        "s": "Tiếng Anh 4",
+        "h": "Dùng từ hỏi Where"
+      },
+      {
+        "c": "TA4-B11-002",
+        "d": "basic",
+        "p": "Điền giới từ đứng trước tên một con đường hoặc tên thành phố: \"I live ... Quang Trung Street.\"",
+        "o": [
+          "at (trước tên đường không có số nhà)",
+          "under",
+          "in (hoặc on theo Anh-Mĩ, nhưng SGK Tiểu học VN chuẩn dùng in)",
+          "between"
+        ],
+        "k": "C",
+        "e": "Trong chương trình Tiểu học Việt Nam: live in + tên đường/phố/làng/thành phố; live at + số nhà cụ thể.",
+        "s": "Tiếng Anh 4",
+        "h": "Phân biệt in và at với địa chỉ"
+      },
+      {
+        "c": "TA4-B11-003",
+        "d": "basic",
+        "p": "Tính từ \"quiet\" dùng để tả một ngôi làng có nghĩa là gì?",
+        "o": [
+          "ồn ào, náo nhiệt",
+          "yên tĩnh, thanh bình",
+          "cao chót vót",
+          "đông đúc, chật chội"
+        ],
+        "k": "B",
+        "e": "\"quiet\" (yên tĩnh) trái nghĩa với \"noisy\" hay \"busy\" (náo nhiệt).",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ nghĩa của quiet"
+      },
+      {
+        "c": "TA4-B11-004",
+        "d": "basic",
+        "p": "Để hỏi đặc điểm nơi ở (\"Thành phố trông như thế nào?\"), ta dùng mẫu câu nào?",
+        "o": [
+          "Where's the city?",
+          "Who likes the city?",
+          "What's the city like?",
+          "How many cities are there?"
+        ],
+        "k": "C",
+        "e": "\"What's + địa điểm + like?\" hỏi về đặc điểm tính chất nơi đó.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ mẫu What... like?"
+      },
+      {
+        "c": "TA4-B11-005",
+        "d": "basic",
+        "p": "Chọn cụm mô tả phù hợp cho một con đường đông đúc giữa trung tâm thành phố:",
+        "o": [
+          "a quiet village",
+          "a small river",
+          "an empty desert",
+          "a busy street"
+        ],
+        "k": "D",
+        "e": "\"a busy street\" nghĩa là một con phố nhộn nhịp, đông xe cộ.",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm cụm chỉ đường phố nhộn nhịp"
+      },
+      {
+        "c": "TA4-B11-006",
+        "d": "basic",
+        "p": "Quan sát bảng thông tin nơi ở của 4 bạn. Bạn Linh sống ở con đường nào?",
+        "o": [
+          "Tran Phu Road",
+          "Le Loi Street",
+          "Nguyen Du Street",
+          "Hoa Binh Village"
+        ],
+        "k": "B",
+        "e": "Dòng Linh ghi rõ địa chỉ \"15 Le Loi Street\".",
+        "s": "Tiếng Anh 4",
+        "h": "Xem hàng của Linh trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Where We Live",
+          "head": [
+            "Student",
+            "Home Address"
+          ],
+          "rows": [
+            [
+              "Linh",
+              "15 Le Loi Street"
+            ],
+            [
+              "Hung",
+              "Tran Phu Road"
+            ],
+            [
+              "Lan",
+              "Hoa Binh Village"
+            ],
+            [
+              "Minh",
+              "Nguyen Du Street"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA4-B11-007",
+        "d": "application",
+        "p": "Phân biệt \"in\" và \"at\" khi nói địa chỉ có số nhà cụ thể: \"My grandparents live ... 82 Hai Ba Trung Street.\"",
+        "o": [
+          "under",
+          "on",
+          "in",
+          "at"
+        ],
+        "k": "D",
+        "e": "Khi có số nhà cụ thể đứng đầu (\"82 Hai Ba Trung Street\") luôn dùng giới từ \"at\".",
+        "s": "Tiếng Anh 4",
+        "h": "Có số nhà dùng at"
+      },
+      {
+        "c": "TA4-B11-008",
+        "d": "application",
+        "p": "Hoàn thành câu trả lời: \"What's your village like?\" – \"... small and quiet.\"",
+        "o": [
+          "We're",
+          "I'm",
+          "It's",
+          "They're"
+        ],
+        "k": "C",
+        "e": "Thay thế cho \"your village\" (số ít) dùng \"It's\" + tính từ miêu tả.",
+        "s": "Tiếng Anh 4",
+        "h": "Ngôi làng số ít dùng It's"
+      },
+      {
+        "c": "TA4-B11-009",
+        "d": "application",
+        "p": "Sắp xếp thành câu hỏi hoàn chỉnh: live / Where / your / does / friend / ?",
+        "o": [
+          "Where your friend does live?",
+          "Where does your friend live?",
+          "Does where your friend live?",
+          "Where do your friend live?"
+        ],
+        "k": "B",
+        "e": "Chủ ngữ số ít \"your friend\" dùng trợ động từ \"does\" và động từ chính \"live\" nguyên thể.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ dùng does với your friend"
+      },
+      {
+        "c": "TA4-B11-010",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"Hoa lives in a busy road, so it are very noisy.\"",
+        "o": [
+          "Sai từ \"busy\", phải đổi thành \"busily\"",
+          "Sai từ \"are\", phải sửa thành \"is\" vì chủ ngữ là \"it\"",
+          "Sai từ \"lives\", phải bỏ chữ \"s\"",
+          "Sai từ \"noisy\", phải đổi thành \"noise\""
+        ],
+        "k": "B",
+        "e": "Đại từ số ít \"it\" luôn đi với động từ to be \"is\".",
+        "s": "Tiếng Anh 4",
+        "h": "Kiểm tra it + is"
+      },
+      {
+        "c": "TA4-B11-011",
+        "d": "application",
+        "p": "Đọc câu: \"I live in a big city. There are many tall buildings, shops and parks.\" Hai đặc điểm nào khớp với thành phố đó?",
+        "o": [
+          "small and quiet",
+          "short and silent",
+          "old and empty",
+          "big and modern (lớn và hiện đại)"
+        ],
+        "k": "D",
+        "e": "Có nhiều nhà cao tầng, cửa hàng, công viên -> miêu tả phù hợp là lớn và hiện đại.",
+        "s": "Tiếng Anh 4",
+        "h": "Gắn dữ kiện với tính từ miêu tả"
+      },
+      {
+        "c": "TA4-B11-012",
+        "d": "application",
+        "p": "Chọn câu hỏi ĐÚNG để hỏi xem bạn mới sống ở đường nào:",
+        "o": [
+          "Who street do you live at?",
+          "What street do you live in?",
+          "Where street do you live?",
+          "How many street do you live?"
+        ],
+        "k": "B",
+        "e": "Hỏi tên đường dùng cụm \"What street do you live in?\" (hoặc on).",
+        "s": "Tiếng Anh 4",
+        "h": "Dùng What street"
+      },
+      {
+        "c": "TA4-B11-013",
+        "d": "advanced",
+        "p": "Đọc đoạn ngắn: \"Phong lives at 24 Hoa Sen Street. His house is small, but it has a green garden behind it. The street is very quiet at night.\" Vì sao Phong thích con phố mình ở?",
+        "o": [
+          "Because the street is quiet and his house has a green garden.",
+          "Because he lives far away in another city without any garden.",
+          "Because his house is a very tall building with no trees.",
+          "Because the street is very busy and noisy at night."
+        ],
+        "k": "A",
+        "e": "Đoạn văn nêu rõ hai điểm dễ chịu: khu vườn xanh phía sau và con phố yên tĩnh về đêm.",
+        "s": "Tiếng Anh 4",
+        "h": "Tổng hợp thông tin tích cực trong bài"
+      },
+      {
+        "c": "TA4-B11-014",
+        "d": "advanced",
+        "p": "Chuyển câu sau sang ngôi thứ ba số ít: \"Do you live in a town?\" -> \"... Mai ... in a town?\"",
+        "o": [
+          "Is ... live",
+          "Does ... lives",
+          "Do ... lives",
+          "Does ... live"
+        ],
+        "k": "D",
+        "e": "Sau \"Does\", động từ chính \"live\" trở về nguyên thể không thêm s.",
+        "s": "Tiếng Anh 4",
+        "h": "Does đi kèm V nguyên thể"
+      },
+      {
+        "c": "TA4-B11-015",
+        "d": "advanced",
+        "p": "Từ nào KHÔNG cùng nhóm với \"street, road, avenue, building\"?",
+        "o": [
+          "avenue",
+          "building (tòa nhà, còn lại là đường sá giao thông)",
+          "street",
+          "road"
+        ],
+        "k": "B",
+        "e": "Street, road, avenue đều chỉ đường đi; building là tòa nhà.",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm từ không chỉ đường đi"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh4-c3",
+    "lesson": {
+      "code": "tienganh4-b12",
+      "title": "Unit 12. Jobs",
+      "seq": 12,
+      "subtitle": "Hỏi đáp nghề nghiệp của bố mẹ, người thân (What does he or she do?) và nơi làm việc tương ứng của từng nghề (Where does a ... work?)",
+      "concepts": [
+        "Nghề nghiệp (farmer, doctor, nurse, driver, worker, policeman)",
+        "What does your father/mother do? – He's/She's a...",
+        "Nơi làm việc (on a farm, in a hospital, in a factory)"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA4-B12-001",
+        "d": "basic",
+        "p": "Câu hỏi \"What does your mother do?\" dùng để hỏi về điều gì?",
+        "o": [
+          "Sở thích ăn uống của mẹ bạn",
+          "Nghề nghiệp của mẹ bạn",
+          "Tuổi tác hiện tại của mẹ bạn",
+          "Món quà mẹ bạn mua hôm qua"
+        ],
+        "k": "B",
+        "e": "\"What does + người + do?\" là mẫu câu chuẩn hỏi về nghề nghiệp.",
+        "s": "Tiếng Anh 4",
+        "h": "Phân biệt What does ... do?"
+      },
+      {
+        "c": "TA4-B12-002",
+        "d": "basic",
+        "p": "Bác sĩ (\"a doctor\") và y tá (\"a nurse\") thường làm việc ở đâu?",
+        "o": [
+          "in a hospital",
+          "on a farm",
+          "in a school",
+          "in a factory"
+        ],
+        "k": "A",
+        "e": "\"hospital\" là bệnh viện; \"farm\" = nông trại; \"factory\" = nhà máy.",
+        "s": "Tiếng Anh 4",
+        "h": "Gắn nghề với nơi làm việc"
+      },
+      {
+        "c": "TA4-B12-003",
+        "d": "basic",
+        "p": "Chọn nghề nghiệp đúng với nơi làm việc \"on a farm\" (trên nông trại):",
+        "o": [
+          "an actor",
+          "a farmer",
+          "a teacher",
+          "a driver"
+        ],
+        "k": "B",
+        "e": "Bác nông dân (farmer) trồng trọt, chăn nuôi trên nông trại (on a farm).",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm nghề nông"
+      },
+      {
+        "c": "TA4-B12-004",
+        "d": "basic",
+        "p": "Hoàn thành câu: \"My uncle is a ... . He works in a factory.\"",
+        "o": [
+          "doctor",
+          "nurse",
+          "worker",
+          "cook at a farm"
+        ],
+        "k": "C",
+        "e": "Công nhân (worker) làm việc trong nhà máy (in a factory).",
+        "s": "Tiếng Anh 4",
+        "h": "Nghề làm ở nhà máy"
+      },
+      {
+        "c": "TA4-B12-005",
+        "d": "basic",
+        "p": "Điền mạo từ thích hợp trước nghề nghiệp bắt đầu bằng phụ âm: \"He is ... policeman.\"",
+        "o": [
+          "some",
+          "two",
+          "an",
+          "a"
+        ],
+        "k": "D",
+        "e": "\"policeman\" (số ít, bắt đầu bằng âm phụ âm p) đi với mạo từ \"a\".",
+        "s": "Tiếng Anh 4",
+        "h": "Dùng a trước phụ âm"
+      },
+      {
+        "c": "TA4-B12-006",
+        "d": "basic",
+        "p": "Quan sát bảng nghề nghiệp và nơi làm việc của gia đình Nam. Bố của Nam làm nghề gì?",
+        "o": [
+          "A farmer (nông dân)",
+          "A nurse (y tá)",
+          "A driver (lái xe)",
+          "A teacher (giáo viên)"
+        ],
+        "k": "C",
+        "e": "Dòng Father trên bảng ghi nghề nghiệp \"driver\".",
+        "s": "Tiếng Anh 4",
+        "h": "Xem hàng Father trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Nam's Family Jobs",
+          "head": [
+            "Member",
+            "Job",
+            "Workplace"
+          ],
+          "rows": [
+            [
+              "Father",
+              "driver",
+              "on the roads"
+            ],
+            [
+              "Mother",
+              "nurse",
+              "in a hospital"
+            ],
+            [
+              "Uncle",
+              "worker",
+              "in a factory"
+            ],
+            [
+              "Aunt",
+              "teacher",
+              "in a school"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA4-B12-007",
+        "d": "application",
+        "p": "Chọn câu hỏi ĐÚNG về nơi làm việc của một bác nông dân:",
+        "o": [
+          "What does a farmer work?",
+          "Where is a farmer works?",
+          "Where do a farmer work?",
+          "Where does a farmer work?"
+        ],
+        "k": "D",
+        "e": "Danh từ số ít \"a farmer\" đi với trợ động từ \"does\" và động từ chính \"work\" nguyên thể.",
+        "s": "Tiếng Anh 4",
+        "h": "Dùng Where does... work?"
+      },
+      {
+        "c": "TA4-B12-008",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"My aunt are an office worker in a big company.\"",
+        "o": [
+          "Sai từ \"in\", phải sửa thành \"on\"",
+          "Sai từ \"worker\", phải thêm \"s\"",
+          "Sai từ \"are\", phải sửa thành \"is\" vì \"My aunt\" là một người (số ít)",
+          "Sai từ \"an\", phải sửa thành \"a\""
+        ],
+        "k": "C",
+        "e": "Với 1 người (\"My aunt\") dùng \"is\"; và \"an office worker\" dùng \"an\" là đúng.",
+        "s": "Tiếng Anh 4",
+        "h": "Kiểm tra động từ to be"
+      },
+      {
+        "c": "TA4-B12-009",
+        "d": "application",
+        "p": "Điền cụm giới từ chính xác vào hai chỗ trống: \"My grandfather works ... a farm, and my mother works ... a nursing home.\"",
+        "o": [
+          "in ... on",
+          "on ... in",
+          "at ... under",
+          "on ... on"
+        ],
+        "k": "B",
+        "e": "Quy tắc: on a farm (trên nông trại), in a nursing home / hospital / factory / school.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ cụm cố định on a farm"
+      },
+      {
+        "c": "TA4-B12-010",
+        "d": "application",
+        "p": "Sắp xếp thành câu hoàn chỉnh: works / hospital / a / My / in / sister / .",
+        "o": [
+          "A hospital works in my sister.",
+          "In a hospital works my sister.",
+          "My sister works in a hospital.",
+          "My sister work in a hospital."
+        ],
+        "k": "C",
+        "e": "Chủ ngữ số ít \"My sister\" + động từ \"works\" + trạng ngữ nơi chốn \"in a hospital\".",
+        "s": "Tiếng Anh 4",
+        "h": "Kiểm tra chữ s ở works"
+      },
+      {
+        "c": "TA4-B12-011",
+        "d": "application",
+        "p": "Chọn câu trả lời phù hợp khi bạn hỏi: \"What does your father do?\"",
+        "o": [
+          "He's an actor.",
+          "He likes playing chess.",
+          "He's from Da Nang.",
+          "He's forty years old."
+        ],
+        "k": "A",
+        "e": "Câu hỏi nghề nghiệp -> trả lời \"He's + a hoặc an + tên nghề nghiệp.\"",
+        "s": "Tiếng Anh 4",
+        "h": "Trả lời đúng trọng tâm nghề nghiệp"
+      },
+      {
+        "c": "TA4-B12-012",
+        "d": "application",
+        "p": "Cụm từ \"a friendly nurse\" và \"a brave firefighter\" miêu tả nghề gì?",
+        "o": [
+          "Một giáo viên âm nhạc và một họa sĩ trẻ",
+          "Một đầu bếp giỏi và một bác sĩ nha khoa",
+          "Một y tá thân thiện và một lính cứu hỏa dũng cảm",
+          "Một nông dân chăm chỉ và một phi công"
+        ],
+        "k": "C",
+        "e": "\"nurse\" = y tá; \"firefighter\" = lính cứu hỏa.",
+        "s": "Tiếng Anh 4",
+        "h": "Dịch chính xác danh từ nghề nghiệp"
+      },
+      {
+        "c": "TA4-B12-013",
+        "d": "advanced",
+        "p": "Đọc đoạn văn: \"This is my uncle, Mr Minh. He wears a uniform and helps keep our town safe. He doesn't work in a hospital or a factory.\" Nghề của chú Minh là gì?",
+        "o": [
+          "A policeman (chú công an / cảnh sát)",
+          "A doctor",
+          "A worker",
+          "A farmer"
+        ],
+        "k": "A",
+        "e": "Mặc đồng phục (wears a uniform) và giữ an toàn khu phố (keep our town safe) là công việc của policeman.",
+        "s": "Tiếng Anh 4",
+        "h": "Suy luận từ mô tả công việc"
+      },
+      {
+        "c": "TA4-B12-014",
+        "d": "advanced",
+        "p": "Phân biệt hai câu hỏi về anh trai bạn: Câu nào hỏi NGHỀ NGHIỆP và câu nào hỏi HÀNH ĐỘNG ĐANG LÀM lúc này?",
+        "o": [
+          "\"What is your brother doing?\" dùng để hỏi nghề nghiệp ổn định",
+          "Không có câu nào hỏi về anh trai bạn cả",
+          "\"What does your brother do?\" hỏi nghề nghiệp; \"What is your brother doing?\" hỏi việc đang làm ngay lúc này",
+          "Cả hai câu đều hỏi nơi làm việc của anh trai bạn"
+        ],
+        "k": "C",
+        "e": "Hiện tại đơn (What does... do?) hỏi nghề nghiệp; hiện tại tiếp diễn (What is... doing?) hỏi việc đang diễn ra.",
+        "s": "Tiếng Anh 4",
+        "h": "Phân biệt thì hiện tại đơn và tiếp diễn"
+      },
+      {
+        "c": "TA4-B12-015",
+        "d": "advanced",
+        "p": "Viết lại câu khẳng định sau cho hai người cùng làm bác sĩ: \"My father is a doctor, and my mother is a doctor.\" -> \"My parents ... .\"",
+        "o": [
+          "are doctors",
+          "is doctors",
+          "is a doctor",
+          "are a doctor"
+        ],
+        "k": "A",
+        "e": "\"My parents\" (số nhiều) đi với \"are\" và danh từ nghề nghiệp thêm s thành \"doctors\" (bỏ \"a\").",
+        "s": "Tiếng Anh 4",
+        "h": "Số nhiều bỏ mạo từ a và thêm s"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh4-c3",
+    "lesson": {
+      "code": "tienganh4-b13",
+      "title": "Unit 13. Appearance",
+      "seq": 13,
+      "subtitle": "Hỏi đáp và miêu tả ngoại hình (vóc dáng, chiều cao, khuôn mặt, mái tóc, đôi mắt) của người thân và bạn bè bằng tiếng Anh",
+      "concepts": [
+        "Tính từ dáng vóc (tall, short, slim, big)",
+        "Đặc điểm khuôn mặt & tóc (long hair, short hair, round face, big eyes)",
+        "What does he or she look like? – He or She is... / has..."
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA4-B13-001",
+        "d": "basic",
+        "p": "Câu hỏi \"What does she look like?\" dùng để hỏi về điều gì của cô ấy?",
+        "o": [
+          "Nghề nghiệp hằng ngày của cô ấy",
+          "Ngày sinh nhật của cô ấy",
+          "Môn học yêu thích nhất của cô ấy",
+          "Ngoại hình, dáng vẻ bên ngoài của cô ấy"
+        ],
+        "k": "D",
+        "e": "\"What does + S + look like?\" dùng hỏi ngoại hình (cao thấp, gầy béo, tóc tai, khuôn mặt).",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ cụm look like"
+      },
+      {
+        "c": "TA4-B13-002",
+        "d": "basic",
+        "p": "Tính từ nào miêu tả vóc dáng mảnh mai, thon gọn (trái nghĩa với \"big\" hay \"fat\")?",
+        "o": [
+          "long",
+          "tall",
+          "slim",
+          "round"
+        ],
+        "k": "C",
+        "e": "\"slim\" = mảnh mai, thon thả; \"tall\" = cao; \"round\" = tròn.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ nghĩa của slim"
+      },
+      {
+        "c": "TA4-B13-003",
+        "d": "basic",
+        "p": "Cụm từ \"a round face\" nghĩa là gì?",
+        "o": [
+          "một chiều cao nổi bật",
+          "một khuôn mặt tròn",
+          "một đôi mắt to tròn",
+          "một mái tóc dài thẳng"
+        ],
+        "k": "B",
+        "e": "\"round\" = tròn; \"face\" = khuôn mặt.",
+        "s": "Tiếng Anh 4",
+        "h": "Dịch chính xác round face"
+      },
+      {
+        "c": "TA4-B13-004",
+        "d": "basic",
+        "p": "Khi tả mái tóc hay đôi mắt (\"cô ấy có mái tóc dài\"), ta dùng động từ nào với chủ ngữ \"She\"?",
+        "o": [
+          "are (\"She are long hair.\")",
+          "has (\"She has long hair.\")",
+          "is (\"She is long hair.\")",
+          "have (\"She have long hair.\")"
+        ],
+        "k": "B",
+        "e": "Tả dáng vóc tổng thể dùng to be (She is tall); tả bộ phận sở hữu (tóc, mắt, mặt) dùng have hoặc has (\"She has...\").",
+        "s": "Tiếng Anh 4",
+        "h": "Phân biệt is và has khi tả ngoại hình"
+      },
+      {
+        "c": "TA4-B13-005",
+        "d": "basic",
+        "p": "Cặp tính từ nào trái nghĩa nhau khi tả chiều cao?",
+        "o": [
+          "round and black",
+          "tall and short",
+          "slim and hair",
+          "big and long"
+        ],
+        "k": "B",
+        "e": "tall (cao) đối lập với short (thấp) khi nói về chiều cao con người.",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm cặp từ trái nghĩa"
+      },
+      {
+        "c": "TA4-B13-006",
+        "d": "basic",
+        "p": "Quan sát bảng mô tả ngoại hình 4 bạn học sinh. Bạn nào có mái tóc ngắn (short hair) và vóc dáng cao (tall)?",
+        "o": [
+          "Hoa",
+          "Tuan",
+          "Lan",
+          "Minh"
+        ],
+        "k": "D",
+        "e": "Dòng Minh ghi Height: tall và Hair: short hair.",
+        "s": "Tiếng Anh 4",
+        "h": "Đối chiếu hai cột trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Friends Appearance",
+          "head": [
+            "Name",
+            "Height",
+            "Hair"
+          ],
+          "rows": [
+            [
+              "Lan",
+              "slim",
+              "long hair"
+            ],
+            [
+              "Minh",
+              "tall",
+              "short hair"
+            ],
+            [
+              "Hoa",
+              "short",
+              "curly hair"
+            ],
+            [
+              "Tuan",
+              "big",
+              "short hair"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA4-B13-007",
+        "d": "application",
+        "p": "Điền đúng \"is\" hoặc \"has\" vào hai chỗ trống: \"My brother ... very tall, and he ... short black hair.\"",
+        "o": [
+          "has ... is",
+          "has ... have",
+          "is ... are",
+          "is ... has"
+        ],
+        "k": "D",
+        "e": "\"tall\" là tính từ vóc dáng -> dùng \"is\"; \"short black hair\" là cụm danh từ chỉ bộ phận -> dùng \"has\".",
+        "s": "Tiếng Anh 4",
+        "h": "Tính từ dùng is, cụm danh từ dùng has"
+      },
+      {
+        "c": "TA4-B13-008",
+        "d": "application",
+        "p": "Sắp xếp tính từ và danh từ đúng trật tự tiếng Anh (mái tóc dài màu nâu):",
+        "o": [
+          "brown hair long",
+          "long brown hair",
+          "hair long brown",
+          "long hair brown"
+        ],
+        "k": "B",
+        "e": "Trong tiếng Anh, tính từ kích thước/độ dài đứng trước tính từ màu sắc, danh từ đứng cuối: long + brown + hair.",
+        "s": "Tiếng Anh 4",
+        "h": "Kích thước trước màu sắc trước danh từ"
+      },
+      {
+        "c": "TA4-B13-009",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"What does your grandparents look like?\"",
+        "o": [
+          "Sai từ \"does\", phải sửa thành \"do\" vì \"your grandparents\" là số nhiều (ông bà)",
+          "Sai từ \"look\", phải thêm \"s\" thành \"looks\"",
+          "Sai từ \"like\", phải đổi thành \"likes\"",
+          "Sai từ \"What\", phải đổi thành \"Who\""
+        ],
+        "k": "A",
+        "e": "Chủ ngữ số nhiều \"your grandparents\" mượn trợ động từ \"do\".",
+        "s": "Tiếng Anh 4",
+        "h": "Kiểm tra chủ ngữ số nhiều"
+      },
+      {
+        "c": "TA4-B13-010",
+        "d": "application",
+        "p": "Hoàn thành câu: \"She has ... eyes and a ... face.\"",
+        "o": [
+          "slim ... curly",
+          "big ... round",
+          "short ... tall",
+          "tall ... slim"
+        ],
+        "k": "B",
+        "e": "Mắt to (big eyes) và mặt tròn (round face) là hai kết hợp chuẩn mực tự nhiên nhất.",
+        "s": "Tiếng Anh 4",
+        "h": "Chọn tính từ khớp mắt và mặt"
+      },
+      {
+        "c": "TA4-B13-011",
+        "d": "application",
+        "p": "Chọn câu hỏi đúng để hỏi ngoại hình của bạn nam mới chuyển lớp:",
+        "o": [
+          "How does the new boy look like?",
+          "What do the new boy look like?",
+          "What does the new boy look like?",
+          "What is the new boy look like?"
+        ],
+        "k": "C",
+        "e": "Hỏi ngoại hình luôn dùng \"What does + người số ít + look like?\" (không dùng How).",
+        "s": "Tiếng Anh 4",
+        "h": "Luôn dùng What ... look like?"
+      },
+      {
+        "c": "TA4-B13-012",
+        "d": "application",
+        "p": "Phát hiện câu sai ngữ pháp vì dùng nhầm danh từ số nhiều cho \"hair\":",
+        "o": [
+          "\"My sister has a long hairs.\"",
+          "\"My aunt is slim and tall.\"",
+          "\"My sister has long hair.\"",
+          "\"My brother has big black eyes.\""
+        ],
+        "k": "A",
+        "e": "\"hair\" (mái tóc nói chung) trong tiếng Anh là danh từ không đếm được -> không dùng \"a\" và không thêm \"s\".",
+        "s": "Tiếng Anh 4",
+        "h": "Không viết a hair hay hairs"
+      },
+      {
+        "c": "TA4-B13-013",
+        "d": "advanced",
+        "p": "Đọc đoạn văn: \"My best friend is Phong. He is not very tall, and he is slim. He has short curly hair and big bright eyes. Everyone loves his friendly smile.\" Đặc điểm nào KHÔNG phải của Phong?",
+        "o": [
+          "He has big bright eyes.",
+          "He has short curly hair.",
+          "He is slim.",
+          "He is very tall."
+        ],
+        "k": "D",
+        "e": "Câu thứ hai nói \"He is not very tall\" (cậu ấy không cao lắm).",
+        "s": "Tiếng Anh 4",
+        "h": "Đọc kĩ từ phủ định not"
+      },
+      {
+        "c": "TA4-B13-014",
+        "d": "advanced",
+        "p": "Hoàn thành lời miêu tả hai chị em sinh đôi: \"Lan and Hoa ... slim, and they ... long black hair.\"",
+        "o": [
+          "are ... has",
+          "are ... have",
+          "is ... have",
+          "is ... has"
+        ],
+        "k": "B",
+        "e": "Hai người (số nhiều, thay bằng \"they\") đi với to be \"are\" và động từ sở hữu \"have\".",
+        "s": "Tiếng Anh 4",
+        "h": "Chủ ngữ số nhiều dùng are và have"
+      },
+      {
+        "c": "TA4-B13-015",
+        "d": "advanced",
+        "p": "Phân biệt hai câu hỏi hay bị nhầm: (1) \"What does she like?\" và (2) \"What does she look like?\" Nghĩa khác nhau ra sao?",
+        "o": [
+          "Câu (1) hỏi cô ấy thích cái gì (sở thích); câu (2) hỏi cô ấy trông như thế nào (ngoại hình)",
+          "Câu (1) hỏi ngoại hình; câu (2) hỏi nghề nghiệp",
+          "Hai câu giống hệt nhau hoàn toàn về nghĩa",
+          "Câu (2) hỏi cô ấy thích món ăn gì nhất"
+        ],
+        "k": "A",
+        "e": "Có động từ \"look\" đi kèm (\"look like\") mới mang nghĩa hỏi ngoại hình bên ngoài.",
+        "s": "Tiếng Anh 4",
+        "h": "Chú ý chữ look trong look like"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh4-c3",
+    "lesson": {
+      "code": "tienganh4-b14",
+      "title": "Unit 14. Daily activities",
+      "seq": 14,
+      "subtitle": "Hỏi đáp các hoạt động thường nhật vào buổi sáng, buổi trưa, buổi tối (When do you watch TV? – What do you do in the morning?)",
+      "concepts": [
+        "Các hoạt động hằng ngày (watch TV, read books, clean the floor, wash the dishes, wash clothes)",
+        "Các buổi trong ngày (in the morning, at noon, in the afternoon, in the evening)",
+        "Hỏi đáp hoạt động gia đình"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA4-B14-001",
+        "d": "basic",
+        "p": "Cụm từ \"wash the dishes\" có nghĩa là việc nhà gì?",
+        "o": [
+          "lau sàn nhà",
+          "tưới cây hoa",
+          "giặt quần áo",
+          "rửa bát đĩa"
+        ],
+        "k": "D",
+        "e": "\"wash the dishes\" = rửa bát đĩa; \"clean the floor\" = lau sàn; \"wash the clothes\" = giặt đồ.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ nghĩa các việc nhà"
+      },
+      {
+        "c": "TA4-B14-002",
+        "d": "basic",
+        "p": "Điền giới từ đúng cho buổi trưa (12 giờ): \"I take a short nap ... noon.\"",
+        "o": [
+          "on",
+          "under",
+          "at",
+          "in"
+        ],
+        "k": "C",
+        "e": "Quy tắc: in the morning / afternoon / evening, NHƯNG dùng \"at noon\" và \"at night\".",
+        "s": "Tiếng Anh 4",
+        "h": "Ghi nhớ ngoại lệ at noon"
+      },
+      {
+        "c": "TA4-B14-003",
+        "d": "basic",
+        "p": "Hoạt động \"clean the floor\" giúp ngôi nhà trở nên như thế nào?",
+        "o": [
+          "tối om vì tắt hết bóng đèn",
+          "ồn ào vì mở ti vi quá to",
+          "sạch sẽ (clean) bằng cách lau hoặc quét sàn nhà",
+          "bừa bộn hơn rất nhiều"
+        ],
+        "k": "C",
+        "e": "\"floor\" là sàn nhà; \"clean the floor\" = quét, lau sàn nhà.",
+        "s": "Tiếng Anh 4",
+        "h": "Hiểu nghĩa cụm việc nhà"
+      },
+      {
+        "c": "TA4-B14-004",
+        "d": "basic",
+        "p": "Câu hỏi tiếng Anh dùng để hỏi \"Bạn làm gì vào buổi chiều?\" là gì?",
+        "o": [
+          "Where do you go in the morning?",
+          "What do you do in the afternoon?",
+          "Who cleans the floor?",
+          "When is the afternoon?"
+        ],
+        "k": "B",
+        "e": "\"What do you do + buổi trong ngày?\" hỏi hoạt động thường làm vào buổi đó.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ mẫu câu hỏi hoạt động"
+      },
+      {
+        "c": "TA4-B14-005",
+        "d": "basic",
+        "p": "Điền giới từ: \"My family often watches TV together ... the evening.\"",
+        "o": [
+          "in",
+          "on",
+          "at",
+          "for"
+        ],
+        "k": "A",
+        "e": "Buổi tối dùng cụm cố định \"in the evening\".",
+        "s": "Tiếng Anh 4",
+        "h": "Giới từ đi với the evening"
+      },
+      {
+        "c": "TA4-B14-006",
+        "d": "basic",
+        "p": "Quan sát bảng thời gian biểu buổi tối của gia đình bạn An. Ai là người rửa bát đĩa (wash the dishes)?",
+        "o": [
+          "Mother (Mẹ)",
+          "Father (Bố)",
+          "An (bạn An)",
+          "Sister (Em gái)"
+        ],
+        "k": "C",
+        "e": "Dòng \"An\" trên bảng ghi công việc \"wash the dishes\".",
+        "s": "Tiếng Anh 4",
+        "h": "Xem hàng của An trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Evening Chores",
+          "head": [
+            "Person",
+            "Daily Activity"
+          ],
+          "rows": [
+            [
+              "Father",
+              "clean the floor"
+            ],
+            [
+              "Mother",
+              "wash the clothes"
+            ],
+            [
+              "An",
+              "wash the dishes"
+            ],
+            [
+              "Sister",
+              "water the flowers"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA4-B14-007",
+        "d": "application",
+        "p": "Hoàn thành câu về thói quen của mẹ: \"In the afternoon, my mother ... the clothes and cooks dinner.\"",
+        "o": [
+          "washs",
+          "wash",
+          "washes",
+          "washing"
+        ],
+        "k": "C",
+        "e": "Động từ tận cùng bằng \"-sh\" khi chia với ngôi thứ ba số ít (\"my mother\") thêm \"-es\" thành \"washes\".",
+        "s": "Tiếng Anh 4",
+        "h": "Quy tắc thêm es sau sh"
+      },
+      {
+        "c": "TA4-B14-008",
+        "d": "application",
+        "p": "Tương tự động từ \"watch\" khi chia với chủ ngữ số ít \"He\" sẽ viết thế nào?",
+        "o": [
+          "He is watch TV at seven thirty.",
+          "He watch TV at seven thirty.",
+          "He watchs TV at seven thirty.",
+          "He watches TV at seven thirty."
+        ],
+        "k": "D",
+        "e": "Động từ tận cùng bằng \"-ch\" thêm \"-es\" -> \"watches\".",
+        "s": "Tiếng Anh 4",
+        "h": "Quy tắc thêm es sau ch"
+      },
+      {
+        "c": "TA4-B14-009",
+        "d": "application",
+        "p": "Sắp xếp thành câu hỏi hoàn chỉnh: you / do / morning / What / in / do / the / ?",
+        "o": [
+          "What do you do in the morning?",
+          "Do you what do in the morning?",
+          "What you do in the morning?",
+          "What do you in the morning do?"
+        ],
+        "k": "A",
+        "e": "Cấu trúc: What + do + you + do (động từ chính) + in the morning?",
+        "s": "Tiếng Anh 4",
+        "h": "Chú ý hai chữ do (trợ động từ và động từ chính)"
+      },
+      {
+        "c": "TA4-B14-010",
+        "d": "application",
+        "p": "Chọn câu trả lời khớp với câu hỏi \"When do you wash the dishes?\"",
+        "o": [
+          "I wash the dishes with my mother.",
+          "Because my mother is busy.",
+          "Yes, I like helping my parents.",
+          "I wash the dishes in the evening after dinner."
+        ],
+        "k": "D",
+        "e": "\"When...?\" hỏi về thời gian/thời điểm -> trả lời \"in the evening after dinner\".",
+        "s": "Tiếng Anh 4",
+        "h": "Hỏi When trả lời thời điểm"
+      },
+      {
+        "c": "TA4-B14-011",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"At the morning, I brush my teeth and help my dad clean the floor.\"",
+        "o": [
+          "Sai giới từ \"At\", phải sửa thành \"In\" (\"In the morning\")",
+          "Sai từ \"clean\", phải đổi thành \"cleans\"",
+          "Sai từ \"dad\", phải viết hoa chữ đầu",
+          "Sai từ \"teeth\", phải đổi thành \"tooth\""
+        ],
+        "k": "A",
+        "e": "Với \"the morning\", \"the afternoon\", \"the evening\" luôn dùng giới từ \"In\".",
+        "s": "Tiếng Anh 4",
+        "h": "Sửa At thành In"
+      },
+      {
+        "c": "TA4-B14-012",
+        "d": "application",
+        "p": "Cụm từ nào diễn tả thói quen học tập hằng ngày vào buổi tối?",
+        "o": [
+          "wake up and brush teeth",
+          "do my homework and read books",
+          "play football at noon in the sun",
+          "have breakfast and go to school"
+        ],
+        "k": "B",
+        "e": "Làm bài tập về nhà (do homework) và đọc sách (read books) là thói quen buổi tối tốt.",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm hoạt động học buổi tối"
+      },
+      {
+        "c": "TA4-B14-013",
+        "d": "advanced",
+        "p": "Đọc đoạn ngắn: \"At home, everyone helps with the housework. My dad cleans the floor at 6 p.m. My mum washes the clothes in the afternoon. I wash the dishes after dinner. At 8 p.m., we read books together.\" Gia đình làm việc gì cùng nhau lúc 8 giờ tối?",
+        "o": [
+          "They watch cartoons at noon.",
+          "They clean the floor together.",
+          "They read books together.",
+          "They wash the dishes together."
+        ],
+        "k": "C",
+        "e": "Câu cuối ghi rõ: \"At 8 p.m., we read books together.\"",
+        "s": "Tiếng Anh 4",
+        "h": "Xem mốc giờ 8 p.m."
+      },
+      {
+        "c": "TA4-B14-014",
+        "d": "advanced",
+        "p": "Điền đúng các giới từ thời gian theo thứ tự: \"... the morning, I go to school; ... noon, I have lunch at school; ... Sunday mornings, I help my mum.\"",
+        "o": [
+          "At ... in ... on",
+          "In ... on ... at",
+          "In ... at ... on",
+          "On ... at ... in"
+        ],
+        "k": "C",
+        "e": "In the morning; at noon; và khi gắn kèm thứ (Sunday mornings) thì đổi lại thành \"on\" (on Sunday mornings)!",
+        "s": "Tiếng Anh 4",
+        "h": "Ghi nhớ: có tên thứ đi kèm luôn dùng on"
+      },
+      {
+        "c": "TA4-B14-015",
+        "d": "advanced",
+        "p": "Viết câu hỏi cho câu trả lời: \"My brother reads comic books in the evening.\" (hỏi về thời gian anh trai làm việc này)",
+        "o": [
+          "Where does your brother read comic books?",
+          "When does your brother read comic books?",
+          "What does your brother read in the evening?",
+          "When do your brother read comic books?"
+        ],
+        "k": "B",
+        "e": "Hỏi thời điểm dùng \"When\", chủ ngữ \"your brother\" số ít dùng \"does + read\" nguyên thể.",
+        "s": "Tiếng Anh 4",
+        "h": "Khớp từ hỏi When với câu trả lời"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh4-c3",
+    "lesson": {
+      "code": "tienganh4-b15",
+      "title": "Unit 15. My family's weekends",
+      "seq": 15,
+      "subtitle": "Hỏi đáp các địa điểm gia đình thường đến vào dịp cuối tuần (shopping centre, cinema, swimming pool, sports centre) và hoạt động tại đó",
+      "concepts": [
+        "Địa điểm giải trí (cinema, shopping centre, sports centre, swimming pool)",
+        "Where does he or she go on Saturdays?",
+        "What does he or she do there?"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA4-B15-001",
+        "d": "basic",
+        "p": "Nơi nào mọi người đến để xem các bộ phim chiếu rạp (\"watch films\")?",
+        "o": [
+          "library",
+          "cinema",
+          "bakery",
+          "swimming pool"
+        ],
+        "k": "B",
+        "e": "\"cinema\" là rạp chiếu phim.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ nghĩa của cinema"
+      },
+      {
+        "c": "TA4-B15-002",
+        "d": "basic",
+        "p": "Cụm từ \"shopping centre\" có nghĩa Tiếng Việt là gì?",
+        "o": [
+          "công viên bách thú",
+          "sân vận động thể thao",
+          "trung tâm mua sắm (trung tâm thương mại)",
+          "bể bơi công cộng"
+        ],
+        "k": "C",
+        "e": "\"shopping\" = mua sắm; \"centre\" = trung tâm.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ cụm shopping centre"
+      },
+      {
+        "c": "TA4-B15-003",
+        "d": "basic",
+        "p": "Hoàn thành câu: \"Where does your sister go on Sundays?\" – \"She ... to the swimming pool.\"",
+        "o": [
+          "is go",
+          "going",
+          "go",
+          "goes"
+        ],
+        "k": "D",
+        "e": "Động từ \"go\" tận cùng bằng \"-o\" khi đi với chủ ngữ số ít \"She\" thêm \"-es\" thành \"goes\".",
+        "s": "Tiếng Anh 4",
+        "h": "Quy tắc thêm es vào go -> goes"
+      },
+      {
+        "c": "TA4-B15-004",
+        "d": "basic",
+        "p": "Để tập các môn thể thao như cầu lông, bóng bàn hoặc yoga trong nhà cuối tuần, người ta thường đến đâu?",
+        "o": [
+          "cinema",
+          "post office",
+          "sports centre",
+          "bookshop"
+        ],
+        "k": "C",
+        "e": "\"sports centre\" là trung tâm thể dục thể thao.",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm địa điểm tập thể thao"
+      },
+      {
+        "c": "TA4-B15-005",
+        "d": "basic",
+        "p": "Điền từ thích hợp: \"What does he ... at the shopping centre?\" – \"He buys food and clothes.\"",
+        "o": [
+          "do",
+          "did",
+          "does",
+          "doing"
+        ],
+        "k": "A",
+        "e": "Sau trợ động từ \"does\" trong câu hỏi, động từ chính phải ở dạng nguyên thể \"do\".",
+        "s": "Tiếng Anh 4",
+        "h": "Does + S + V nguyên thể"
+      },
+      {
+        "c": "TA4-B15-006",
+        "d": "basic",
+        "p": "Quan sát bảng kế hoạch cuối tuần của gia đình Mai. Vào Chủ nhật (Sunday), cả nhà Mai cùng nhau đi đâu?",
+        "o": [
+          "The cinema",
+          "The swimming pool",
+          "The sports centre",
+          "The shopping centre"
+        ],
+        "k": "A",
+        "e": "Hàng \"All family\" vào cột Sunday ghi \"cinema\".",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm dòng All family trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Family Weekend Places",
+          "head": [
+            "Person",
+            "Saturday",
+            "Sunday"
+          ],
+          "rows": [
+            [
+              "Father",
+              "sports centre",
+              "cinema"
+            ],
+            [
+              "Mother",
+              "shopping centre",
+              "cinema"
+            ],
+            [
+              "Mai",
+              "swimming pool",
+              "cinema"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA4-B15-007",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"Where does your parents go on Saturdays?\"",
+        "o": [
+          "Sai từ \"does\", phải sửa thành \"do\" vì \"your parents\" (bố mẹ) là chủ ngữ số nhiều",
+          "Sai từ \"Saturdays\", phải bỏ chữ \"s\"",
+          "Sai từ \"on\", phải sửa thành \"in\"",
+          "Sai từ \"go\", phải sửa thành \"goes\""
+        ],
+        "k": "A",
+        "e": "Hai người trở lên dùng trợ động từ \"do\", không dùng \"does\".",
+        "s": "Tiếng Anh 4",
+        "h": "Kiểm tra chủ ngữ parents"
+      },
+      {
+        "c": "TA4-B15-008",
+        "d": "application",
+        "p": "Hoàn thành câu về bạn Nam: \"On Saturdays, Nam goes to the bookshop and ... some storybooks.\"",
+        "o": [
+          "buys",
+          "buying",
+          "buy",
+          "to buy"
+        ],
+        "k": "A",
+        "e": "Cùng chủ ngữ \"Nam\" số ít ở hiện tại đơn: cả \"goes\" và \"buys\" đều chia số ít.",
+        "s": "Tiếng Anh 4",
+        "h": "Chia song song hai động từ cho Nam"
+      },
+      {
+        "c": "TA4-B15-009",
+        "d": "application",
+        "p": "Nối câu hỏi với câu trả lời tương ứng hợp lí nhất: \"What does your mum do at the sports centre?\"",
+        "o": [
+          "She plays tennis and does yoga there.",
+          "Yes, she likes the sports centre.",
+          "She goes there at seven o'clock.",
+          "She buys fresh apples and milk."
+        ],
+        "k": "A",
+        "e": "Tại trung tâm thể thao thì chơi tennis và tập yoga; mua táo và sữa là ở siêu thị.",
+        "s": "Tiếng Anh 4",
+        "h": "Chọn hoạt động khớp với sports centre"
+      },
+      {
+        "c": "TA4-B15-010",
+        "d": "application",
+        "p": "Sắp xếp các từ thành câu đúng: goes / Saturday / My / swimming / father / the / to / on / pool / morning / .",
+        "o": [
+          "My father go to the swimming pool on Saturday morning.",
+          "On Saturday morning goes my father to the swimming pool.",
+          "My father goes the swimming pool to on Saturday morning.",
+          "My father goes to the swimming pool on Saturday morning."
+        ],
+        "k": "D",
+        "e": "Cấu trúc chuẩn: Chủ ngữ + động từ (goes to) + địa điểm + thời gian.",
+        "s": "Tiếng Anh 4",
+        "h": "Giữ đúng goes to + địa điểm"
+      },
+      {
+        "c": "TA4-B15-011",
+        "d": "application",
+        "p": "Chọn câu đúng để nói bạn Linda KHÔNG đi xem phim vào Chủ nhật:",
+        "o": [
+          "Linda don't go to the cinema on Sundays.",
+          "Linda doesn't go to the cinema on Sundays.",
+          "Linda isn't go to the cinema on Sundays.",
+          "Linda doesn't goes to the cinema on Sundays."
+        ],
+        "k": "B",
+        "e": "Phủ định cho chủ ngữ số ít \"Linda\" với động từ thường \"go\" là \"doesn't go\".",
+        "s": "Tiếng Anh 4",
+        "h": "Phủ định số ít: doesn't + V nguyên thể"
+      },
+      {
+        "c": "TA4-B15-012",
+        "d": "application",
+        "p": "Cụm từ nào diễn tả hành động thường làm tại \"bakery\" (tiệm bánh)?",
+        "o": [
+          "do gymnastics",
+          "watch a film",
+          "swim in the water",
+          "buy bread and cakes"
+        ],
+        "k": "D",
+        "e": "Tại tiệm bánh (bakery) mọi người mua bánh mì và bánh ngọt (bread and cakes).",
+        "s": "Tiếng Anh 4",
+        "h": "Gắn hoạt động với tiệm bánh"
+      },
+      {
+        "c": "TA4-B15-013",
+        "d": "advanced",
+        "p": "Đọc đoạn văn: \"On Saturdays, Tom goes to the sports centre with his dad to play badminton. On Sundays, they visit Tom's grandparents in the countryside and water the vegetables.\" Hai bố con Tom chơi cầu lông khi nào và ở đâu?",
+        "o": [
+          "On Saturdays, at the cinema.",
+          "On Mondays, at the swimming pool.",
+          "On Saturdays, at the sports centre.",
+          "On Sundays, in the countryside."
+        ],
+        "k": "C",
+        "e": "Câu đầu đoạn nêu rõ: ngày thứ Bảy (on Saturdays) tại trung tâm thể thao (sports centre).",
+        "s": "Tiếng Anh 4",
+        "h": "Đọc kĩ cả ngày và địa điểm"
+      },
+      {
+        "c": "TA4-B15-014",
+        "d": "advanced",
+        "p": "Thay thế phần gạch chân trong câu sau bằng một trạng từ chỉ địa điểm ngắn gọn: \"My brother goes to the library on Saturdays. He reads books AT THE LIBRARY.\"",
+        "o": [
+          "here",
+          "there (\"He reads books there.\")",
+          "where",
+          "then"
+        ],
+        "k": "B",
+        "e": "\"there\" (ở đó) thay thế gọn tự nhiên cho cụm nơi chốn \"at the library\" vừa nhắc.",
+        "s": "Tiếng Anh 4",
+        "h": "Đại từ/trạng từ chỉ nơi đã nhắc: there"
+      },
+      {
+        "c": "TA4-B15-015",
+        "d": "advanced",
+        "p": "Chọn câu hoàn chỉnh KHÔNG mắc bất kì lỗi ngữ pháp nào:",
+        "o": [
+          "Do your sister cook meals at the weekend? – Yes, she do.",
+          "Does your sister cooking meals at the weekend? – Yes, she is.",
+          "Does your sister cooks meals at the weekend? – Yes, she does.",
+          "Does your sister cook meals at the weekend? – Yes, she does. She cooks very well."
+        ],
+        "k": "D",
+        "e": "Does + your sister + cook (nguyên thể); trả lời \"Yes, she does.\" và câu tiếp \"She cooks...\" rất chuẩn.",
+        "s": "Tiếng Anh 4",
+        "h": "Kiểm tra nguyên tắc Does + V nguyên thể"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh4-c4",
+    "lesson": {
+      "code": "tienganh4-b16",
+      "title": "Unit 16. Weather",
+      "seq": 16,
+      "subtitle": "Hỏi đáp thời tiết hôm nay và hôm qua (What was the weather like yesterday?), kết hợp đề xuất hoạt động phù hợp thời tiết",
+      "concepts": [
+        "Từ vựng thời tiết (sunny, rainy, windy, cloudy)",
+        "What was the weather like last weekend?",
+        "Đề xuất đi chơi (Do you want to go to the...?)"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA4-B16-001",
+        "d": "basic",
+        "p": "Câu hỏi \"What was the weather like yesterday?\" hỏi về điều gì?",
+        "o": [
+          "Thời tiết dự kiến vào năm sau",
+          "Lịch kiểm tra môn Toán tuần trước",
+          "Nhiệt độ của cốc nước lọc trong bếp",
+          "Thời tiết ngày hôm qua như thế nào"
+        ],
+        "k": "D",
+        "e": "\"was ... yesterday\" hỏi thời tiết trong quá khứ (ngày hôm qua).",
+        "s": "Tiếng Anh 4",
+        "h": "Chú ý động từ quá khứ was"
+      },
+      {
+        "c": "TA4-B16-002",
+        "d": "basic",
+        "p": "Tính từ thời tiết nào miêu tả trời có nhiều gió thổi?",
+        "o": [
+          "rainy",
+          "windy",
+          "sunny",
+          "cloudy"
+        ],
+        "k": "B",
+        "e": "wind (gió) -> windy (có gió); sun -> sunny; rain -> rainy; cloud -> cloudy.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ gốc từ wind"
+      },
+      {
+        "c": "TA4-B16-003",
+        "d": "basic",
+        "p": "Điền động từ thích hợp: \"Today it is sunny, but yesterday it ... rainy.\"",
+        "o": [
+          "is",
+          "was",
+          "are",
+          "were"
+        ],
+        "k": "B",
+        "e": "Chủ ngữ \"it\" với trạng từ quá khứ \"yesterday\" dùng \"was\".",
+        "s": "Tiếng Anh 4",
+        "h": "Yesterday + it -> was"
+      },
+      {
+        "c": "TA4-B16-004",
+        "d": "basic",
+        "p": "Khi trời mưa to (\"rainy\"), đồ vật nào cần mang theo khi ra ngoài?",
+        "o": [
+          "a kite to fly high",
+          "ice cream for hot weather",
+          "a raincoat or an umbrella",
+          "sunglasses for bright sun"
+        ],
+        "k": "C",
+        "e": "Trời mưa cần áo mưa (raincoat) hoặc ô/dù (umbrella).",
+        "s": "Tiếng Anh 4",
+        "h": "Đồ dùng khi trời mưa"
+      },
+      {
+        "c": "TA4-B16-005",
+        "d": "basic",
+        "p": "Lời rủ: \"Do you want to go to the food stall?\" mang nghĩa gì?",
+        "o": [
+          "Quầy bán đồ ăn mở cửa lúc mấy giờ?",
+          "Tại sao quầy bán đồ ăn hôm nay đóng cửa?",
+          "Bạn đã mua gì ở quầy bán đồ ăn hôm qua?",
+          "Bạn có muốn đến quầy bán đồ ăn không?"
+        ],
+        "k": "D",
+        "e": "\"Do you want to...?\" là mẫu câu mời/đề xuất rủ bạn cùng đi đâu làm gì.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ mẫu câu đề xuất"
+      },
+      {
+        "c": "TA4-B16-006",
+        "d": "basic",
+        "p": "Quan sát bảng dự báo thời tiết 4 ngày qua. Ngày Thứ Năm (Thursday) thời tiết như thế nào?",
+        "o": [
+          "Windy (Có gió)",
+          "Rainy (Có mưa)",
+          "Sunny (Có nắng)",
+          "Cloudy (Nhiều mây)"
+        ],
+        "k": "D",
+        "e": "Cột Weather tại dòng Thursday ghi \"Cloudy\".",
+        "s": "Tiếng Anh 4",
+        "h": "Xem hàng Thursday trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Weather Log (Last Week)",
+          "head": [
+            "Day",
+            "Weather"
+          ],
+          "rows": [
+            [
+              "Monday",
+              "Sunny"
+            ],
+            [
+              "Tuesday",
+              "Windy"
+            ],
+            [
+              "Wednesday",
+              "Rainy"
+            ],
+            [
+              "Thursday",
+              "Cloudy"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA4-B16-007",
+        "d": "application",
+        "p": "Đáp lại lời rủ: \"Do you want to go to the bakery? It's sunny today.\" Nếu đồng ý, câu trả lời tự nhiên nhất là gì?",
+        "o": [
+          "Yes, I do want not.",
+          "It was rainy yesterday.",
+          "Great! Let's go.",
+          "No, I wasn't."
+        ],
+        "k": "C",
+        "e": "\"Great! Let's go.\" (Tuyệt! Chúng mình đi thôi!) là cách hưởng ứng lời rủ rất tự nhiên.",
+        "s": "Tiếng Anh 4",
+        "h": "Chọn câu đồng ý tự nhiên"
+      },
+      {
+        "c": "TA4-B16-008",
+        "d": "application",
+        "p": "Hoạt động nào phù hợp nhất với một buổi chiều có gió nhẹ và trời quang (\"windy and cool\")?",
+        "o": [
+          "staying inside because of heavy rain",
+          "wearing a thick winter coat near snow",
+          "flying a kite in the field (thả diều ngoài đồng)",
+          "staying in bed all morning"
+        ],
+        "k": "C",
+        "e": "Trời nhiều gió mát rất thích hợp để thả diều (fly a kite).",
+        "s": "Tiếng Anh 4",
+        "h": "Gắn thời tiết gió với trò thả diều"
+      },
+      {
+        "c": "TA4-B16-009",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"What is the weather like last Sunday?\"",
+        "o": [
+          "Sai từ \"last\", phải đổi thành \"every\"",
+          "Sai từ \"weather\", phải thêm \"s\"",
+          "Sai từ \"like\", phải bỏ khỏi câu",
+          "Sai từ \"is\", phải sửa thành \"was\" vì có trạng từ quá khứ \"last Sunday\""
+        ],
+        "k": "D",
+        "e": "Hỏi thời tiết đã qua (\"last Sunday\") dùng \"What was the weather like...?\"",
+        "s": "Tiếng Anh 4",
+        "h": "Đối chiếu trạng từ quá khứ"
+      },
+      {
+        "c": "TA4-B16-010",
+        "d": "application",
+        "p": "Sắp xếp thành câu hoàn chỉnh: like / What / the / was / weather / yesterday / morning / ?",
+        "o": [
+          "What the weather was like yesterday morning?",
+          "What like was the weather yesterday morning?",
+          "Was what the weather like yesterday morning?",
+          "What was the weather like yesterday morning?"
+        ],
+        "k": "D",
+        "e": "Trật tự chuẩn: What + was + the weather + like + thời gian quá khứ?",
+        "s": "Tiếng Anh 4",
+        "h": "Đặt What was đứng đầu"
+      },
+      {
+        "c": "TA4-B16-011",
+        "d": "application",
+        "p": "Hoàn thành đoạn hội thoại: \"A: Let's go to the water park! – B: Oh, no. Look outside! It's ... and cold today.\"",
+        "o": [
+          "sunny and warm",
+          "hot and bright",
+          "rainy",
+          "fine for swimming outdoors"
+        ],
+        "k": "C",
+        "e": "Từ chối đi công viên nước vì trời lạnh và đang mưa (\"rainy and cold\").",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm thời tiết không thuận lợi đi công viên nước"
+      },
+      {
+        "c": "TA4-B16-012",
+        "d": "application",
+        "p": "Chọn câu miêu tả ĐÚNG ngữ pháp về thời tiết hai ngày liên tiếp:",
+        "o": [
+          "Yesterday it is cloudy, and today it was sunny.",
+          "Yesterday it was cloudy, and today it is sunny.",
+          "Yesterday it were cloudy, and today it are sunny.",
+          "Yesterday it cloudy, and today it sunny."
+        ],
+        "k": "B",
+        "e": "Yesterday đi với \"was\", today đi với \"is\" và đủ động từ to be trước tính từ.",
+        "s": "Tiếng Anh 4",
+        "h": "Phân biệt thì quá khứ và hiện tại"
+      },
+      {
+        "c": "TA4-B16-013",
+        "d": "advanced",
+        "p": "Đọc đoạn ngắn: \"Last weekend, our class went on a picnic. On Saturday morning, it was sunny and warm, so we played games on the grass. In the afternoon, it was rainy, so we went into a big tent.\" Cả lớp phải vào lều lớn khi nào và vì sao?",
+        "o": [
+          "On Friday evening, because it was cloudy.",
+          "On Saturday morning, because it was too sunny.",
+          "On Sunday afternoon, because it was windy.",
+          "On Saturday afternoon, because it was rainy."
+        ],
+        "k": "D",
+        "e": "Câu cuối đoạn nói rõ buổi chiều trời mưa (\"In the afternoon, it was rainy\") nên cả lớp vào lều.",
+        "s": "Tiếng Anh 4",
+        "h": "Đọc kĩ mốc chiều thứ Bảy"
+      },
+      {
+        "c": "TA4-B16-014",
+        "d": "advanced",
+        "p": "Chuyển câu sau sang dạng câu hỏi Yes or No về quá khứ: \"It was windy in Ha Long yesterday.\"",
+        "o": [
+          "Was it windy in Ha Long yesterday?",
+          "Is it windy in Ha Long yesterday?",
+          "Were it windy in Ha Long yesterday?",
+          "Did it windy in Ha Long yesterday?"
+        ],
+        "k": "A",
+        "e": "Với to be \"was\", chỉ cần đảo \"Was\" lên trước chủ ngữ \"it\" để tạo câu hỏi.",
+        "s": "Tiếng Anh 4",
+        "h": "Đảo Was lên đầu câu"
+      },
+      {
+        "c": "TA4-B16-015",
+        "d": "advanced",
+        "p": "Từ \"weather\" khác với nhóm \"sunny, cloudy, windy, rainy\" ở điểm nào về từ loại?",
+        "o": [
+          "Bốn từ kia là danh từ riêng tên các thành phố",
+          "\"weather\" là trạng từ chỉ thời gian quá khứ",
+          "\"weather\" là động từ chỉ hành động đi lại",
+          "\"weather\" là danh từ (thời tiết); bốn từ kia là tính từ miêu tả trạng thái thời tiết"
+        ],
+        "k": "D",
+        "e": "Danh từ + hậu tố \"-y\" tạo thành tính từ thời tiết (sun -> sunny, cloud -> cloudy).",
+        "s": "Tiếng Anh 4",
+        "h": "Nhận diện cấu tạo tính từ thời tiết"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh4-c4",
+    "lesson": {
+      "code": "tienganh4-b17",
+      "title": "Unit 17. In the city",
+      "seq": 17,
+      "subtitle": "Đọc hiểu biển báo giao thông cơ bản (Stop, Go straight, Turn left, Turn right) và chỉ đường đến các địa điểm trong thành phố",
+      "concepts": [
+        "Biển báo và chỉ dẫn (stop, go straight, turn left, turn right, turn round)",
+        "What does that sign mean? – It means \"...\"",
+        "How can I get to the ...?"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA4-B17-001",
+        "d": "basic",
+        "p": "Biển báo ghi chữ \"STOP\" trên đường yêu cầu người tham gia giao thông làm gì?",
+        "o": [
+          "Đi thẳng thật nhanh",
+          "Dừng lại (Stop!)",
+          "Quay đầu xe ngược lại",
+          "Rẽ trái ngay lập tức"
+        ],
+        "k": "B",
+        "e": "\"Stop\" nghĩa là dừng lại quan sát an toàn.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ nghĩa biển Stop"
+      },
+      {
+        "c": "TA4-B17-002",
+        "d": "basic",
+        "p": "Cụm chỉ dẫn đường \"Go straight\" có nghĩa là gì?",
+        "o": [
+          "Dừng lại",
+          "Rẽ phải",
+          "Đi thẳng",
+          "Rẽ trái"
+        ],
+        "k": "C",
+        "e": "\"Go straight\" = đi thẳng; \"Turn left\" = rẽ trái; \"Turn right\" = rẽ phải.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ nghĩa go straight"
+      },
+      {
+        "c": "TA4-B17-003",
+        "d": "basic",
+        "p": "Câu hỏi tiếng Anh dùng để hỏi \"Làm thế nào tôi có thể đi đến hiệu sách?\" là gì?",
+        "o": [
+          "How can I get to the bookshop?",
+          "When do you buy a book?",
+          "What colour is the bookshop?",
+          "How many books are there?"
+        ],
+        "k": "A",
+        "e": "\"How can I get to + địa điểm?\" là mẫu câu hỏi đường quen thuộc.",
+        "s": "Tiếng Anh 4",
+        "h": "Mẫu câu hỏi đường"
+      },
+      {
+        "c": "TA4-B17-004",
+        "d": "basic",
+        "p": "Khi thấy mũi tên rẽ sang bên trái, câu chỉ dẫn tiếng Anh tương ứng là gì?",
+        "o": [
+          "Turn left.",
+          "Go straight.",
+          "Turn right.",
+          "Turn round."
+        ],
+        "k": "A",
+        "e": "\"left\" = bên trái; \"right\" = bên phải.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ từ left"
+      },
+      {
+        "c": "TA4-B17-005",
+        "d": "basic",
+        "p": "Từ \"means\" trong câu \"It means 'Turn right'.\" có nghĩa là gì?",
+        "o": [
+          "nằm ở góc phố",
+          "có nghĩa là (biểu thị ý nghĩa)",
+          "chạy rất nhanh",
+          "màu xanh lam"
+        ],
+        "k": "B",
+        "e": "\"mean\" là động từ có nghĩa là \"mang ý nghĩa\"; chủ ngữ \"It\" số ít thêm s thành \"means\".",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ nghĩa động từ mean"
+      },
+      {
+        "c": "TA4-B17-006",
+        "d": "basic",
+        "p": "Quan sát đèn tín hiệu giao thông minh họa (đèn đỏ sáng trên cùng). Khi thấy tín hiệu này, bạn phải làm gì?",
+        "o": [
+          "Go straight quickly",
+          "Run across the street",
+          "Turn right without looking",
+          "Stop (Dừng lại trước vạch kẻ)"
+        ],
+        "k": "D",
+        "e": "Đèn đỏ (red light) trên cùng báo hiệu \"Stop\" – tất cả phương tiện và người đi bộ dừng lại.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhìn vị trí đèn đỏ đang sáng",
+        "fig": {
+          "w": 300,
+          "h": 175,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  125,
+                  16
+                ],
+                [
+                  175,
+                  16
+                ],
+                [
+                  175,
+                  146
+                ],
+                [
+                  125,
+                  146
+                ]
+              ],
+              "fill": "#334155",
+              "stroke": "#0f172a",
+              "w": 2
+            },
+            {
+              "t": "circle",
+              "c": [
+                150,
+                42
+              ],
+              "r": 14,
+              "fill": "#ef4444",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "circle",
+              "c": [
+                150,
+                81
+              ],
+              "r": 14,
+              "fill": "#facc15",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "circle",
+              "c": [
+                150,
+                120
+              ],
+              "r": 14,
+              "fill": "#22c55e",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                162
+              ],
+              "s": "Red light on top",
+              "anchor": "middle",
+              "size": 12.5
+            }
+          ]
+        }
+      },
+      {
+        "c": "TA4-B17-007",
+        "d": "application",
+        "p": "Hoàn thành câu hỏi ý nghĩa biển báo: \"What ... that sign mean?\" – \"It ... 'Do not enter'.\"",
+        "o": [
+          "does ... mean",
+          "does ... means",
+          "is ... means",
+          "do ... mean"
+        ],
+        "k": "B",
+        "e": "Chủ ngữ số ít \"that sign\" hỏi với \"does\" + \"mean\" (nguyên thể); trả lời với \"It\" chia \"means\".",
+        "s": "Tiếng Anh 4",
+        "h": "Chú ý does + mean và It + means"
+      },
+      {
+        "c": "TA4-B17-008",
+        "d": "application",
+        "p": "Sắp xếp thành câu chỉ đường hoàn chỉnh: straight / Go / then / and / turn / right / .",
+        "o": [
+          "Straight go and turn right then.",
+          "Go straight and then turn right.",
+          "Turn right straight and then go.",
+          "Go and straight turn then right."
+        ],
+        "k": "B",
+        "e": "Động từ mệnh lệnh \"Go straight\" nối bằng \"and then\" với \"turn right\".",
+        "s": "Tiếng Anh 4",
+        "h": "Động từ mệnh lệnh đứng đầu câu"
+      },
+      {
+        "c": "TA4-B17-009",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu hỏi đường: \"How can I gets to the supermarket?\"",
+        "o": [
+          "Sai từ \"to\", phải đổi thành \"at\"",
+          "Sai từ \"How\", phải đổi thành \"Where\"",
+          "Sai từ \"gets\", phải viết nguyên thể \"get\" vì đứng sau \"can\"",
+          "Sai từ \"supermarket\", phải thêm \"s\""
+        ],
+        "k": "C",
+        "e": "Sau động từ khuyết thiếu \"can\", mọi động từ thường đều giữ nguyên thể.",
+        "s": "Tiếng Anh 4",
+        "h": "Sau can không thêm s"
+      },
+      {
+        "c": "TA4-B17-010",
+        "d": "application",
+        "p": "Khi đọc chỉ dẫn: \"Go straight along Hoa Binh Street. The bakery is on your left, opposite the park.\" Hiệu bánh nằm ở đâu so với bạn và công viên?",
+        "o": [
+          "Nằm phía trên nóc tòa nhà công viên",
+          "Nằm bên tay trái của bạn và đối diện công viên",
+          "Nằm bên tay phải của bạn và sau lưng bạn",
+          "Nằm ở cuối đường bên trong công viên"
+        ],
+        "k": "B",
+        "e": "\"on your left\" = bên tay trái bạn; \"opposite\" = đối diện.",
+        "s": "Tiếng Anh 4",
+        "h": "Dịch chuẩn on your left và opposite"
+      },
+      {
+        "c": "TA4-B17-011",
+        "d": "application",
+        "p": "Chọn câu trả lời phù hợp nhất khi khách du lịch hỏi: \"Excuse me, how can I get to the cinema?\"",
+        "o": [
+          "Go straight, then turn left. It's on your right.",
+          "It's sunny and warm today.",
+          "Yes, I watch films there.",
+          "There are four rooms in my house."
+        ],
+        "k": "A",
+        "e": "Hỏi đường đi thì đáp bằng các bước chỉ hướng rõ ràng (\"Go straight, then turn left...\").",
+        "s": "Tiếng Anh 4",
+        "h": "Trả lời bằng chỉ dẫn đường đi"
+      },
+      {
+        "c": "TA4-B17-012",
+        "d": "application",
+        "p": "Biển báo chữ \"P\" nền xanh dương trong thành phố thường có nghĩa là gì?",
+        "o": [
+          "Parking (Nơi đỗ xe được phép)",
+          "Stop immediately (Dừng khẩn cấp)",
+          "No bicycles allowed (Cấm xe đạp)",
+          "School ahead (Phía trước có trường học)"
+        ],
+        "k": "A",
+        "e": "Chữ P viết tắt của Parking (khu vực đỗ xe).",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ chữ cái P của Parking"
+      },
+      {
+        "c": "TA4-B17-013",
+        "d": "advanced",
+        "p": "Quan sát biển báo minh họa (biển tròn viền đỏ). Nhóm biển báo có vòng tròn đỏ viền ngoài trên đường phố thường mang chức năng gì?",
+        "o": [
+          "Biển báo CẤM (Prohibition signs – không được phép làm gì)",
+          "Biển báo thời tiết nắng mưa trong tuần",
+          "Biển báo quảng cáo cửa hàng đồ chơi mới",
+          "Biển báo chỉ dẫn bãi đỗ xe miễn phí"
+        ],
+        "k": "A",
+        "e": "Theo quy chuẩn giao thông, biển tròn viền đỏ thuộc nhóm biển báo cấm (prohibit).",
+        "s": "Tiếng Anh 4",
+        "h": "Nhận diện nhóm biển tròn viền đỏ",
+        "fig": {
+          "w": 300,
+          "h": 175,
+          "items": [
+            {
+              "t": "circle",
+              "c": [
+                150,
+                80
+              ],
+              "r": 52,
+              "fill": "#ffffff",
+              "stroke": "#dc2626",
+              "w": 7
+            },
+            {
+              "t": "line",
+              "a": [
+                114,
+                44
+              ],
+              "b": [
+                186,
+                116
+              ],
+              "color": "#dc2626",
+              "w": 7
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                162
+              ],
+              "s": "Red-border circle sign",
+              "anchor": "middle",
+              "size": 12.5
+            }
+          ]
+        }
+      },
+      {
+        "c": "TA4-B17-014",
+        "d": "advanced",
+        "p": "Đọc chỉ dẫn: \"From the school gate, turn right. Walk 100 metres and cross the street at the zebra crossing. The bookshop is next to the post office.\" \"Zebra crossing\" là chỗ nào để qua đường an toàn?",
+        "o": [
+          "Vạch kẻ đường sọc trắng dành cho người đi bộ sang đường",
+          "Bãi cỏ giữa ngã tư không có đèn tín hiệu",
+          "Chuồng nuôi ngựa vằn trong công viên thú",
+          "Cây cầu vượt dành riêng cho tàu hỏa chạy qua"
+        ],
+        "k": "A",
+        "e": "Vạch sọc trắng qua đường giống sọc ngựa vằn nên tiếng Anh gọi là \"zebra crossing\"!",
+        "s": "Tiếng Anh 4",
+        "h": "Liên tưởng vạch sọc sang đường"
+      },
+      {
+        "c": "TA4-B17-015",
+        "d": "advanced",
+        "p": "Nếu bạn đứng ở cổng trường hướng ra đường chính và hiệu sách nằm ở phía sau lưng trường, câu chỉ dẫn nào KHÔNG đúng?",
+        "o": [
+          "Turn round, go along the side street behind the school.",
+          "Go to the back gate of the school.",
+          "Go straight ahead into the playground to find the bookshop across the city.",
+          "Walk around the school building to the street behind it."
+        ],
+        "k": "C",
+        "e": "Đích đến ở phía sau mà bảo \"đi thẳng vào sân chơi băng qua thành phố\" là sai hướng hoàn toàn.",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm chỉ dẫn ngược hướng"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh4-c4",
+    "lesson": {
+      "code": "tienganh4-b18",
+      "title": "Unit 18. At the shopping centre",
+      "seq": 18,
+      "subtitle": "Hỏi đáp vị trí các gian hàng trong trung tâm thương mại (Where's the bookshop? – near, behind, opposite, between) và hỏi giá tiền món đồ (How much is...?)",
+      "concepts": [
+        "Giới từ vị trí (near, behind, opposite, between ... and ...)",
+        "Trang phục & đồ dùng (T-shirt, skirt, pen, school bag)",
+        "How much is the ...? – It's ... dong"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA4-B18-001",
+        "d": "basic",
+        "p": "Câu hỏi \"How much is the T-shirt?\" dùng để hỏi thông tin gì về chiếc áo phông?",
+        "o": [
+          "Màu sắc yêu thích của người bán hàng",
+          "Nơi sản xuất chiếc áo phông",
+          "Số lượng chiếc áo phông có trong cửa hàng",
+          "Giá tiền của chiếc áo phông là bao nhiêu"
+        ],
+        "k": "D",
+        "e": "\"How much is + đồ vật?\" dùng để hỏi giá tiền một món đồ.",
+        "s": "Tiếng Anh 4",
+        "h": "Phân biệt How much và How many"
+      },
+      {
+        "c": "TA4-B18-002",
+        "d": "basic",
+        "p": "Giới từ \"opposite\" chỉ vị trí tương đối nào giữa hai cửa hàng?",
+        "o": [
+          "ở phía đối diện nhau",
+          "nằm sát ở phía bên trên mái nhà",
+          "nằm ở bên trong cùng một hộp",
+          "nằm ở phía sau lưng"
+        ],
+        "k": "A",
+        "e": "\"opposite\" = đối diện; \"behind\" = phía sau; \"near\" = gần.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ nghĩa của opposite"
+      },
+      {
+        "c": "TA4-B18-003",
+        "d": "basic",
+        "p": "Điền từ còn thiếu trong cụm giới từ: \"The bakery is ... the bookshop and the gift shop.\"",
+        "o": [
+          "opposite",
+          "between",
+          "behind",
+          "near"
+        ],
+        "k": "B",
+        "e": "Khi ở giữa hai địa điểm (\"... and ...\") luôn dùng cấu trúc \"between A and B\".",
+        "s": "Tiếng Anh 4",
+        "h": "Cặp cấu trúc between ... and ..."
+      },
+      {
+        "c": "TA4-B18-004",
+        "d": "basic",
+        "p": "Món đồ nào là một chiếc \"skirt\"?",
+        "o": [
+          "Chiếc chân váy",
+          "Chiếc quần dài",
+          "Đôi giày thể thao",
+          "Chiếc mũ bảo hiểm"
+        ],
+        "k": "A",
+        "e": "\"skirt\" = chân váy; \"T-shirt\" = áo phông ngắn tay.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ từ vựng trang phục"
+      },
+      {
+        "c": "TA4-B18-005",
+        "d": "basic",
+        "p": "Trả lời giá tiền 50.000 đồng cho câu hỏi \"How much is the pen?\":",
+        "o": [
+          "It's fifteen thousand dong.",
+          "It's five hundred thousand dong.",
+          "It's fifty thousand dong.",
+          "They are fifty thousand dong."
+        ],
+        "k": "C",
+        "e": "50 = fifty; 1.000 = thousand -> 50.000 = fifty thousand dong.",
+        "s": "Tiếng Anh 4",
+        "h": "Đọc chính xác số 50 nghìn"
+      },
+      {
+        "c": "TA4-B18-006",
+        "d": "basic",
+        "p": "Quan sát bảng giá tại cửa hàng đồ dùng học tập. Món đồ nào có giá 80.000 đồng?",
+        "o": [
+          "School bag (Cặp sách)",
+          "Pencil case (45.000 đồng)",
+          "T-shirt (90.000 đồng)",
+          "Notebook (15.000 đồng)"
+        ],
+        "k": "A",
+        "e": "Cột Price ứng với School bag ghi \"80,000 dong\".",
+        "s": "Tiếng Anh 4",
+        "h": "Xem giá của School bag trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Shop Price List",
+          "head": [
+            "Item",
+            "Price (VND)"
+          ],
+          "rows": [
+            [
+              "Notebook",
+              "15,000 dong"
+            ],
+            [
+              "Pencil case",
+              "45,000 dong"
+            ],
+            [
+              "School bag",
+              "80,000 dong"
+            ],
+            [
+              "T-shirt",
+              "90,000 dong"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA4-B18-007",
+        "d": "application",
+        "p": "Phân biệt câu hỏi giá tiền số ít và số nhiều: \"... are those shoes?\"",
+        "o": [
+          "What colour",
+          "How much",
+          "How many",
+          "Where"
+        ],
+        "k": "B",
+        "e": "Với hai chiếc giày (số nhiều \"those shoes\") hỏi giá tiền vẫn dùng \"How much\" nhưng đổi \"is\" thành \"are\": \"How much are those shoes?\".",
+        "s": "Tiếng Anh 4",
+        "h": "Hỏi giá số nhiều vẫn dùng How much"
+      },
+      {
+        "c": "TA4-B18-008",
+        "d": "application",
+        "p": "Hoàn thành câu: \"Where is the sports shop?\" – \"It's ... the second floor, ... the bookshop.\"",
+        "o": [
+          "on ... near",
+          "under ... behind to",
+          "in ... between",
+          "at ... opposite to"
+        ],
+        "k": "A",
+        "e": "Tầng nhà dùng \"on the second floor\"; gần nơi nào dùng \"near\" (không thêm \"to\" sau near hay behind).",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ cụm on the second floor"
+      },
+      {
+        "c": "TA4-B18-009",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"How much is the school bag and the pen?\"",
+        "o": [
+          "Sai từ \"pen\", phải đổi thành \"pens\"",
+          "Sai từ \"and\", phải đổi thành \"in\"",
+          "Sai từ \"is\", phải sửa thành \"are\" vì hỏi giá của HAI món đồ cùng lúc",
+          "Sai từ \"much\", phải đổi thành \"many\""
+        ],
+        "k": "C",
+        "e": "Tổng hai vật khác nhau là số nhiều -> dùng \"How much are...\".",
+        "s": "Tiếng Anh 4",
+        "h": "Hai món đồ dùng are"
+      },
+      {
+        "c": "TA4-B18-010",
+        "d": "application",
+        "p": "Đọc vị trí các quầy hàng trên một dãy hành lang: \"The gift shop is between the toy shop and the bookshop. The bakery is opposite the gift shop.\" Nếu bạn đứng ở tiệm bánh (bakery) nhìn thẳng sang bên kia hành lang, bạn thấy cửa hàng nào?",
+        "o": [
+          "The gift shop (Cửa hàng quà tặng)",
+          "The countryside",
+          "The swimming pool",
+          "The school yard"
+        ],
+        "k": "A",
+        "e": "Bakery đối diện (opposite) gift shop, nên nhìn thẳng sang sẽ thấy gift shop.",
+        "s": "Tiếng Anh 4",
+        "h": "Suy luận vị trí đối diện"
+      },
+      {
+        "c": "TA4-B18-011",
+        "d": "application",
+        "p": "Đổi sang cách nói số nhiều đúng: \"How much is this skirt?\" -> \"How much ... these skirts?\"",
+        "o": [
+          "does",
+          "are",
+          "is",
+          "was"
+        ],
+        "k": "B",
+        "e": "\"these skirts\" số nhiều đi với \"are\".",
+        "s": "Tiếng Anh 4",
+        "h": "Khớp these + danh từ số nhiều + are"
+      },
+      {
+        "c": "TA4-B18-012",
+        "d": "application",
+        "p": "Người bán hàng nói: \"Can I help you?\" (Tôi có thể giúp gì cho bạn?). Câu trả lời lịch sự khi muốn hỏi mua một chiếc áo khoác là gì?",
+        "o": [
+          "\"Turn left and stop!\"",
+          "\"Yes, please. How much is that jacket?\"",
+          "\"It's on Monday morning.\"",
+          "\"No, thank you, give me money.\""
+        ],
+        "k": "B",
+        "e": "\"Yes, please...\" kèm câu hỏi giá tiền lịch sự đúng ngữ cảnh mua sắm.",
+        "s": "Tiếng Anh 4",
+        "h": "Giao tiếp mua sắm lịch sự"
+      },
+      {
+        "c": "TA4-B18-013",
+        "d": "advanced",
+        "p": "Quan sát bảng giá ở câu 6 (Notebook 15k, Pencil case 45k, School bag 80k, T-shirt 90k). Bạn Lan có 100.000 đồng. Lan mua một chiếc cặp sách (School bag) và một quyển vở (Notebook). Lan còn thừa bao nhiêu tiền?",
+        "o": [
+          "5,000 dong (Five thousand dong)",
+          "20,000 dong (Twenty thousand dong)",
+          "10,000 dong (Ten thousand dong)",
+          "15,000 dong (Fifteen thousand dong)"
+        ],
+        "k": "A",
+        "e": "80.000 + 15.000 = 95.000 đồng; 100.000 - 95.000 = 5.000 đồng (five thousand dong).",
+        "s": "Tiếng Anh 4",
+        "h": "Cộng giá hai món rồi trừ từ 100k"
+      },
+      {
+        "c": "TA4-B18-014",
+        "d": "advanced",
+        "p": "Cặp từ nào sau đây viết ĐÚNG số tiền \"75.000 đồng\" bằng tiếng Anh?",
+        "o": [
+          "seventy-five thousands dong",
+          "seven-five thousand dongs",
+          "seventeen-five thousand dong",
+          "seventy-five thousand dong"
+        ],
+        "k": "D",
+        "e": "75 = seventy-five; đơn vị thousand và dong trong cách đọc tiền không thêm \"s\".",
+        "s": "Tiếng Anh 4",
+        "h": "Không thêm s sau thousand và dong"
+      },
+      {
+        "c": "TA4-B18-015",
+        "d": "advanced",
+        "p": "Chọn câu hoàn chỉnh KHÔNG sai giới từ lẫn động từ to be:",
+        "o": [
+          "The gift shop is near to the bakery, and those hat are sixty thousand dong.",
+          "The gift shop is between the bakery, and those hats is sixty thousand dong.",
+          "The gift shop are opposite of the bakery, and that hats are sixty thousand dong.",
+          "The gift shop is behind the bakery, and those hats are sixty thousand dong."
+        ],
+        "k": "D",
+        "e": "Không có \"opposite of\" hay \"near to\"; \"between\" cần 2 đối tượng; \"those hats\" số nhiều đi với \"are\".",
+        "s": "Tiếng Anh 4",
+        "h": "Kiểm tra từng giới từ và to be"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh4-c4",
+    "lesson": {
+      "code": "tienganh4-b19",
+      "title": "Unit 19. The animal world",
+      "seq": 19,
+      "subtitle": "Nhận biết tên các loài động vật hoang dã ở sở thú (giraffes, hippos, crocodiles, peacocks, lions) và nói lí do yêu thích qua hoạt động nổi bật của chúng",
+      "concepts": [
+        "Tên động vật (giraffes, hippos, peacocks, crocodiles)",
+        "What are these animals? – They're...",
+        "Why do you like...? – Because they... (run fast, dance beautifully, roar loudly)"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA4-B19-001",
+        "d": "basic",
+        "p": "Loài vật nào có chiếc cổ rất cao giúp ăn lá trên ngọn cây cao?",
+        "o": [
+          "hippos (hà mã)",
+          "peacocks (chim công)",
+          "giraffes (hươu cao cổ)",
+          "crocodiles (cá sấu)"
+        ],
+        "k": "C",
+        "e": "\"giraffe\" là hươu cao cổ.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ tên loài cổ dài"
+      },
+      {
+        "c": "TA4-B19-002",
+        "d": "basic",
+        "p": "Loài chim nào nổi tiếng với bộ lông đuôi xòe rực rỡ và múa rất đẹp (\"dance beautifully\")?",
+        "o": [
+          "elephants (voi)",
+          "peacocks (chim công)",
+          "lions (sư tử)",
+          "hippos (hà mã)"
+        ],
+        "k": "B",
+        "e": "Chim công (peacock) xòe đuôi múa tuyệt đẹp.",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm loài chim biết múa"
+      },
+      {
+        "c": "TA4-B19-003",
+        "d": "basic",
+        "p": "Câu hỏi \"What are these animals?\" dùng để hỏi về nhóm con vật như thế nào?",
+        "o": [
+          "Giờ mở cửa vườn bách thú",
+          "Một con vật ở rất xa (số ít \"that\")",
+          "Những con vật ở gần người nói (số nhiều \"these\")",
+          "Thức ăn yêu thích của các con vật"
+        ],
+        "k": "C",
+        "e": "\"these\" chỉ từ 2 con vật trở lên ở gần; trả lời \"They're + tên loài số nhiều.\"",
+        "s": "Tiếng Anh 4",
+        "h": "Phân biệt these và those"
+      },
+      {
+        "c": "TA4-B19-004",
+        "d": "basic",
+        "p": "Trạng từ nào bổ nghĩa phù hợp cho động từ \"roar\" (gầm) của loài sư tử (\"lions\")?",
+        "o": [
+          "slowly like snails",
+          "quietly when sleeping",
+          "beautifully",
+          "loudly (\"They roar loudly.\")"
+        ],
+        "k": "D",
+        "e": "Sư tử gầm vang rất to -> \"roar loudly\".",
+        "s": "Tiếng Anh 4",
+        "h": "Trạng từ đi với roar"
+      },
+      {
+        "c": "TA4-B19-005",
+        "d": "basic",
+        "p": "Chọn câu trả lời đúng cho câu hỏi: \"Why do you like giraffes?\"",
+        "o": [
+          "Because they run fast.",
+          "Yes, they are giraffes.",
+          "I go to the zoo on Sunday.",
+          "They are in the zoo."
+        ],
+        "k": "A",
+        "e": "Câu hỏi \"Why...?\" trả lời bắt đầu bằng \"Because...\" nêu đặc điểm ấn tượng của loài vật.",
+        "s": "Tiếng Anh 4",
+        "h": "Hỏi Why trả lời Because"
+      },
+      {
+        "c": "TA4-B19-006",
+        "d": "basic",
+        "p": "Quan sát biểu đồ số lượng một số loài thú tại sở thú. Loài vật nào có số lượng nhiều nhất?",
+        "o": [
+          "Giraffes (8 con)",
+          "Monkeys (16 con)",
+          "Lions (6 con)",
+          "Hippos (4 con)"
+        ],
+        "k": "B",
+        "e": "Cột Monkeys cao nhất đạt giá trị 16.",
+        "s": "Tiếng Anh 4",
+        "h": "Xem cột cao nhất biểu đồ",
+        "fig": {
+          "type": "bars",
+          "title": "Zoo Animal Count",
+          "labels": [
+            "Lions",
+            "Giraffes",
+            "Hippos",
+            "Monkeys"
+          ],
+          "series": [
+            {
+              "values": [
+                6,
+                8,
+                4,
+                16
+              ],
+              "name": "Count"
+            }
+          ],
+          "unit": "animals"
+        }
+      },
+      {
+        "c": "TA4-B19-007",
+        "d": "application",
+        "p": "Tìm từ số nhiều viết ĐÚNG quy tắc trong 4 cặp sau:",
+        "o": [
+          "one sheep -> two sheeps",
+          "one mouse -> two mouses",
+          "one hippo -> two hippos",
+          "one fish -> two fishes (khi đếm cùng loài)"
+        ],
+        "k": "C",
+        "e": "Trong chương trình Lớp 4, \"hippos, giraffes, lions, peacocks, crocodiles\" đều thêm \"s\" trực tiếp chuẩn xác; sheep không thêm s, mouse thành mice.",
+        "s": "Tiếng Anh 4",
+        "h": "Kiểm tra số nhiều chuẩn"
+      },
+      {
+        "c": "TA4-B19-008",
+        "d": "application",
+        "p": "Hoàn thành câu bằng trạng từ đúng: \"I like peacocks because they dance ... .\"",
+        "o": [
+          "beautifully",
+          "loud",
+          "beautiful",
+          "fastly"
+        ],
+        "k": "A",
+        "e": "Sau động từ thường \"dance\" cần TRẠNG TỪ chỉ cách thức: \"beautifully\" (không dùng tính từ \"beautiful\", và \"fast\" không có dạng \"fastly\").",
+        "s": "Tiếng Anh 4",
+        "h": "Động từ thường đi với trạng từ"
+      },
+      {
+        "c": "TA4-B19-009",
+        "d": "application",
+        "p": "Phân biệt hai câu đúng hay sai: Câu nào dùng ĐÚNG từ loại sau động từ \"run\"?",
+        "o": [
+          "Giraffes can run very fast.",
+          "Giraffes can runs very fast.",
+          "Giraffes can run very fastly.",
+          "Giraffes are run very fast."
+        ],
+        "k": "A",
+        "e": "\"fast\" vừa là tính từ vừa là trạng từ, tuyệt đối KHÔNG viết \"fastly\"!",
+        "s": "Tiếng Anh 4",
+        "h": "Ghi nhớ từ fast không thêm -ly"
+      },
+      {
+        "c": "TA4-B19-010",
+        "d": "application",
+        "p": "Sắp xếp thành câu hoàn chỉnh: lions / you / Why / like / do / ?",
+        "o": [
+          "Lions why do you like?",
+          "Why do you like lions?",
+          "Why you do like lions?",
+          "Do why you like lions?"
+        ],
+        "k": "B",
+        "e": "Cấu trúc: Why + do + you + like + danh từ số nhiều?",
+        "s": "Tiếng Anh 4",
+        "h": "Why + do + S + like..."
+      },
+      {
+        "c": "TA4-B19-011",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"What are that animals? – They are crocodiles.\"",
+        "o": [
+          "Sai từ \"They\", phải đổi thành \"It\"",
+          "Sai từ \"are\", phải đổi thành \"is\"",
+          "Sai từ \"crocodiles\", phải bỏ chữ \"s\"",
+          "Sai từ \"that\", phải sửa thành \"those\" (hoặc \"these\") để khớp với số nhiều \"animals\" và \"are\""
+        ],
+        "k": "D",
+        "e": "\"that\" chỉ dùng cho số ít; số nhiều ở xa dùng \"those\", ở gần dùng \"these\".",
+        "s": "Tiếng Anh 4",
+        "h": "Khớp these hoặc those với số nhiều"
+      },
+      {
+        "c": "TA4-B19-012",
+        "d": "application",
+        "p": "Loài nào vừa sống dưới nước vừa lên bờ và có hàm răng khỏe (\"crocodiles\")?",
+        "o": [
+          "Chim công (Peacocks)",
+          "Cá sấu (Crocodiles)",
+          "Hươu cao cổ (Giraffes)",
+          "Khỉ (Monkeys)"
+        ],
+        "k": "B",
+        "e": "\"crocodile\" là con cá sấu.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ nghĩa của crocodile"
+      },
+      {
+        "c": "TA4-B19-013",
+        "d": "advanced",
+        "p": "Đọc đoạn ngắn: \"At the zoo, Nam likes lions because they roar loudly. Mai doesn't like lions; she thinks they are scary. She likes peacocks because they dance beautifully.\" Vì sao Mai KHÔNG thích sư tử?",
+        "o": [
+          "Because there are no lions at the zoo.",
+          "Because they run too slowly.",
+          "Because she thinks they are scary (đáng sợ).",
+          "Because they cannot dance."
+        ],
+        "k": "C",
+        "e": "Đoạn văn nói rõ \"she thinks they are scary\" (cô bạn thấy sư tử đáng sợ).",
+        "s": "Tiếng Anh 4",
+        "h": "Tìm tính từ scary"
+      },
+      {
+        "c": "TA4-B19-014",
+        "d": "advanced",
+        "p": "Hoàn thành câu nói chung về một loài vật bằng thì hiện tại đơn: \"Look at the kangaroos! They ... very high, and they ... in Australia.\"",
+        "o": [
+          "jump ... live",
+          "jumping ... living",
+          "are jump ... are live",
+          "jumps ... lives"
+        ],
+        "k": "A",
+        "e": "Chủ ngữ \"They\" (kangaroos số nhiều) đi với động từ nguyên thể \"jump\" và \"live\".",
+        "s": "Tiếng Anh 4",
+        "h": "Chủ ngữ They giữ nguyên động từ"
+      },
+      {
+        "c": "TA4-B19-015",
+        "d": "advanced",
+        "p": "Chọn câu hoàn chỉnh KHÔNG sai ngữ pháp:",
+        "o": [
+          "What is those animals over there? – It's hippos.",
+          "What are those animals over there? – They're hippos. They look big and heavy.",
+          "Those giraffe have long necks and run fastly.",
+          "Why do you like peacock? – Because it dance beautifully."
+        ],
+        "k": "B",
+        "e": "Kiểm tra đủ 3 chỗ: those animals + are, trả lời They're hippos, tính từ sau look (\"look big and heavy\").",
+        "s": "Tiếng Anh 4",
+        "h": "Soát số nhiều và trạng từ"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh4-c4",
+    "lesson": {
+      "code": "tienganh4-b20",
+      "title": "Unit 20. At summer camp",
+      "seq": 20,
+      "subtitle": "Sử dụng thì hiện tại tiếp diễn (What is he or she doing? – What are they doing?) để miêu tả các hoạt động vui chơi ở trại hè",
+      "concepts": [
+        "Hoạt động trại hè (pitching a tent, building a campfire, taking photos, singing around the campfire)",
+        "Thì Hiện tại tiếp diễn (am, is, are + V-ing)",
+        "Hỏi đáp hoạt động đang diễn ra"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA4-B20-001",
+        "d": "basic",
+        "p": "Cụm từ \"pitching a tent\" ở trại hè có nghĩa là gì?",
+        "o": [
+          "đang dựng lều trại",
+          "đang kể chuyện ma",
+          "đang chụp ảnh kỉ niệm",
+          "đang đốt lửa trại"
+        ],
+        "k": "A",
+        "e": "\"pitch a tent\" = dựng lều; \"build a campfire\" = nhóm lửa trại.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ cụm dựng lều"
+      },
+      {
+        "c": "TA4-B20-002",
+        "d": "basic",
+        "p": "Câu hỏi \"What are they doing?\" dùng thì gì và hỏi về ai?",
+        "o": [
+          "Thì hiện tại tiếp diễn, hỏi nhiều người (\"they\") đang làm gì ngay lúc này",
+          "Thì quá khứ đơn, hỏi một người đã làm gì năm ngoái",
+          "Hỏi xem những bạn ấy đến từ quốc gia nào",
+          "Thì tương lai, hỏi tuần sau bạn đi đâu"
+        ],
+        "k": "A",
+        "e": "\"are + V-ing\" diễn tả hành động đang diễn ra tại thời điểm nói.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhận diện thì hiện tại tiếp diễn"
+      },
+      {
+        "c": "TA4-B20-003",
+        "d": "basic",
+        "p": "Chọn dạng thêm \"-ing\" đúng của động từ \"take\" (trong \"take photos\"):",
+        "o": [
+          "takes",
+          "takeing",
+          "takking",
+          "taking (\"They are taking photos.\")"
+        ],
+        "k": "D",
+        "e": "Động từ tận cùng bằng \"-e\" câm bỏ \"e\" rồi mới thêm \"-ing\": take -> taking, dance -> dancing.",
+        "s": "Tiếng Anh 4",
+        "h": "Quy tắc bỏ e thêm ing"
+      },
+      {
+        "c": "TA4-B20-004",
+        "d": "basic",
+        "p": "Hoạt động \"building a campfire\" thường diễn ra vào thời điểm nào tại trại hè ngoài trời?",
+        "o": [
+          "Giữa phòng tin học có nhiều máy tính đang bật",
+          "Trên xe buýt đang chạy tốc độ cao",
+          "Buổi tối để sưởi ấm, quây quần hát múa và kể chuyện cùng bạn bè",
+          "Trong thư viện yên lặng lúc đang đọc sách"
+        ],
+        "k": "C",
+        "e": "\"campfire\" là lửa trại buổi tối quây quần tập thể.",
+        "s": "Tiếng Anh 4",
+        "h": "Hiểu ngữ cảnh lửa trại"
+      },
+      {
+        "c": "TA4-B20-005",
+        "d": "basic",
+        "p": "Điền to be đúng vào câu tiếp diễn: \"Look! Nam and Phong ... playing tug of war.\"",
+        "o": [
+          "is",
+          "am",
+          "do",
+          "are"
+        ],
+        "k": "D",
+        "e": "Hai người \"Nam and Phong\" (số nhiều) đi với \"are\" + V-ing.",
+        "s": "Tiếng Anh 4",
+        "h": "Số nhiều dùng are"
+      },
+      {
+        "c": "TA4-B20-006",
+        "d": "basic",
+        "p": "Quan sát bảng các hoạt động đang diễn ra tại trại hè. Bạn Hoa đang làm gì lúc này?",
+        "o": [
+          "She is pitching a tent.",
+          "She is taking photos.",
+          "She is building a campfire.",
+          "She is playing tug of war."
+        ],
+        "k": "B",
+        "e": "Hàng \"Hoa\" trên bảng ghi hoạt động \"taking photos\".",
+        "s": "Tiếng Anh 4",
+        "h": "Xem hàng Hoa trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Summer Camp Right Now",
+          "head": [
+            "Camper",
+            "Activity Now"
+          ],
+          "rows": [
+            [
+              "Minh",
+              "pitching a tent"
+            ],
+            [
+              "Hoa",
+              "taking photos"
+            ],
+            [
+              "Ben",
+              "building a campfire"
+            ],
+            [
+              "Lan",
+              "playing tug of war"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA4-B20-007",
+        "d": "application",
+        "p": "Chọn câu viết ĐÚNG chính tả khi thêm \"-ing\" cho tất cả các động từ: swim, dance, put.",
+        "o": [
+          "swiming, danceing, puting",
+          "swimming, danceing, putting",
+          "swimming, dancing, putting",
+          "swiming, dancing, puting"
+        ],
+        "k": "C",
+        "e": "1 âm tiết kết thúc 1 nguyên âm + 1 phụ âm gấp đôi phụ âm cuối (swimming, putting); kết thúc -e câm bỏ e (dancing).",
+        "s": "Tiếng Anh 4",
+        "h": "Kiểm tra gấp đôi phụ âm cuối và bỏ e"
+      },
+      {
+        "c": "TA4-B20-008",
+        "d": "application",
+        "p": "Hoàn thành đoạn hội thoại: \"A: What ... Lucy doing? – B: She ... singing around the campfire.\"",
+        "o": [
+          "is ... is (hoặc 's)",
+          "is ... does",
+          "does ... is",
+          "are ... are"
+        ],
+        "k": "A",
+        "e": "Thì hiện tại tiếp diễn luôn có cấu trúc to be (\"is\" cho Lucy/she) + V-ing ở cả câu hỏi và trả lời.",
+        "s": "Tiếng Anh 4",
+        "h": "Không dùng does trong câu V-ing"
+      },
+      {
+        "c": "TA4-B20-009",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"At summer camp now, the children is singing and dancing happily.\"",
+        "o": [
+          "Sai từ \"now\", phải đổi thành \"yesterday\"",
+          "Sai từ \"singing\", phải đổi thành \"sing\"",
+          "Sai từ \"happily\", phải đổi thành \"happyly\"",
+          "Sai từ \"is\", phải sửa thành \"are\" vì \"children\" là danh từ số nhiều (những đứa trẻ)"
+        ],
+        "k": "D",
+        "e": "\"children\" là số nhiều bất quy tắc của \"child\", nên luôn đi với \"are\".",
+        "s": "Tiếng Anh 4",
+        "h": "Chú ý danh từ số nhiều children"
+      },
+      {
+        "c": "TA4-B20-010",
+        "d": "application",
+        "p": "Sắp xếp thành câu hoàn chỉnh: photos / are / They / taking / the / in / park / .",
+        "o": [
+          "In the park taking photos they are.",
+          "Are they taking photos in the park.",
+          "They taking are photos in the park.",
+          "They are taking photos in the park."
+        ],
+        "k": "D",
+        "e": "Câu khẳng định: Chủ ngữ (They) + are + V-ing (taking photos) + nơi chốn (in the park).",
+        "s": "Tiếng Anh 4",
+        "h": "Đặt are trước V-ing"
+      },
+      {
+        "c": "TA4-B20-011",
+        "d": "application",
+        "p": "Câu nào diễn tả ĐÚNG hoạt động \"playing tug of war\" ở trại hè?",
+        "o": [
+          "Two teams are pulling a long rope in opposite directions.",
+          "One boy is taking photos of colourful butterflies.",
+          "A group is singing English songs by the fire.",
+          "Two friends are sleeping inside a blue tent."
+        ],
+        "k": "A",
+        "e": "\"tug of war\" là trò chơi kéo co gồm hai đội kéo hai đầu dây thừng.",
+        "s": "Tiếng Anh 4",
+        "h": "Nhớ nghĩa trò chơi tug of war"
+      },
+      {
+        "c": "TA4-B20-012",
+        "d": "application",
+        "p": "Trả lời phủ định hợp lí cho câu hỏi: \"Are they pitching a tent?\" (Không, họ đang nấu bữa tối)",
+        "o": [
+          "No, they don't. They cook dinner yesterday.",
+          "No, they aren't. They're cooking dinner.",
+          "No, it isn't. They are pitching a tent.",
+          "Yes, they are. They're building a campfire."
+        ],
+        "k": "B",
+        "e": "Hỏi \"Are they...?\" -> phủ định \"No, they aren't.\" rồi nêu hành động đúng bằng V-ing.",
+        "s": "Tiếng Anh 4",
+        "h": "Phủ định hiện tại tiếp diễn"
+      },
+      {
+        "c": "TA4-B20-013",
+        "d": "advanced",
+        "p": "Đọc đoạn tường thuật trực tiếp: \"Hi Mum! We are at Cuc Phuong National Park. Look at the boys: Minh and Tom are pitching a big tent. Mai is taking photos of the tall trees, and our teacher is building a campfire.\" Có mấy bạn đang dựng lều?",
+        "o": [
+          "Two boys (Minh and Tom).",
+          "Three girls (Mai, Lan and Hoa).",
+          "The teacher and Mai.",
+          "Only one boy (Tom)."
+        ],
+        "k": "A",
+        "e": "Đoạn văn nêu rõ \"Minh and Tom are pitching a big tent\" -> 2 bạn nam.",
+        "s": "Tiếng Anh 4",
+        "h": "Đọc kĩ chủ ngữ của pitching a big tent"
+      },
+      {
+        "c": "TA4-B20-014",
+        "d": "advanced",
+        "p": "Phân biệt hai câu: (1) \"I play badminton every Saturday.\" và (2) \"I am playing badminton now.\" Sự khác nhau về thời điểm và cấu trúc là gì?",
+        "o": [
+          "Câu (1) nói thói quen lặp lại (Hiện tại đơn); câu (2) nói việc đang xảy ra ngay lúc nói (Hiện tại tiếp diễn)",
+          "Câu (1) nói việc ngày hôm qua; câu (2) nói việc năm sau",
+          "Câu (2) sai ngữ pháp vì không có chữ \"every Saturday\"",
+          "Cả hai câu đều nói thói quen không bao giờ thay đổi"
+        ],
+        "k": "A",
+        "e": "every Saturday -> Hiện tại đơn; now / look! / at the moment -> Hiện tại tiếp diễn.",
+        "s": "Tiếng Anh 4",
+        "h": "Phân biệt thói quen với đang diễn ra"
+      },
+      {
+        "c": "TA4-B20-015",
+        "d": "advanced",
+        "p": "Chọn câu tổng kết Lớp 4 đúng HOÀN TOÀN cả chính tả lẫn ngữ pháp:",
+        "o": [
+          "We're having a wonderful summer camp, and everyone is smiling for the camera!",
+          "We having a wonderful summer camp, and everyone are smile!",
+          "We're have a wonderful summer camp, and everyone is smiling!",
+          "We are having a wonderful summer camp yesterday!"
+        ],
+        "k": "A",
+        "e": "Kiểm tra đủ \"We're having\" (bỏ e thêm ing) và \"everyone\" số ít đi với \"is smiling\".",
+        "s": "Tiếng Anh 4",
+        "h": "Kiểm tra everyone đi với động từ số ít"
+      }
+    ]
+  }
+]

@@ -1,0 +1,3411 @@
+[
+  {
+    "chapter": "lssong4-c1",
+    "lesson": {
+      "code": "lssong4-b01",
+      "title": "Bài 1. Nếp sống Thanh lịch, Văn minh nơi Công cộng",
+      "seq": 1,
+      "subtitle": "Thực hành nếp sống văn minh, giữ trật tự xếp hàng, tôn trọng không gian chung tại thư viện, rạp chiếu phim, siêu thị và phương tiện giao thông công cộng",
+      "concepts": [
+        "Văn hóa xếp hàng và không chen lấn",
+        "Giữ trật tự âm lượng nơi công cộng (rạp phim, thư viện, bệnh viện)",
+        "Vệ sinh chung khi tham quan khu vui chơi, siêu thị"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS4-B01-001",
+        "d": "basic",
+        "p": "Biểu hiện rõ nhất của nếp sống thanh lịch, văn minh khi xếp hàng mua vé hoặc thanh toán ở siêu thị là gì?",
+        "o": [
+          "Nhờ một bạn đứng giữ chỗ hộ rồi rủ thêm năm bạn chen vào",
+          "Đẩy vai người đứng trước đi thật nhanh",
+          "Luồn lách lên chen sát đầu hàng để được phục vụ trước",
+          "Đứng ngay ngắn theo hàng, giữ khoảng cách lịch sự và kiên nhẫn chờ tới lượt mình không chen ngang"
+        ],
+        "k": "D",
+        "e": "Văn hóa xếp hàng giúp mọi người được phục vụ công bằng, trật tự và an toàn.",
+        "s": "Lối sống 4",
+        "h": "Văn hóa xếp hàng lịch sự"
+      },
+      {
+        "c": "LS4-B01-002",
+        "d": "basic",
+        "p": "Khi vào rạp chiếu phim xem phim thiếu nhi cùng gia đình, hành động nào là KHÔNG văn minh và làm phiền khán giả xung quanh?",
+        "o": [
+          "Đặt điện thoại ở chế độ im lặng trước khi phim bắt đầu",
+          "Nói chuyện to tiếng bình luận phim, đạp chân vào lưng ghế hàng trước và để điện thoại sáng màn hình",
+          "Mang vỏ hộp bắp rang bơ bỏ gọn vào thùng rác sau khi kết thúc",
+          "Đi nhẹ nhàng vào đúng số ghế trên vé của mình"
+        ],
+        "k": "B",
+        "e": "Không gian tối và yên tĩnh của rạp chiếu phim đòi hỏi sự tôn trọng trải nghiệm chung của tất cả khán giả.",
+        "s": "Lối sống 4",
+        "h": "Ứng xử văn minh trong rạp chiếu phim"
+      },
+      {
+        "c": "LS4-B01-003",
+        "d": "basic",
+        "p": "Trong phòng đọc Thư viện công cộng hoặc Thư viện trường học, quy tắc âm lượng nào luôn phải tuân thủ?",
+        "o": [
+          "Đọc to thành tiếng từng trang truyện tranh cho cả phòng cùng nghe",
+          "Chạy nhảy đuổi bắt quanh các giá sách cao",
+          "Bật nhạc trên điện thoại bằng loa ngoài trong lúc tìm sách",
+          "Đi nhẹ, nói khẽ thì thầm vừa đủ nghe (hoặc giữ im lặng hoàn toàn) để không cắt ngang sự tập trung của bạn đọc khác"
+        ],
+        "k": "D",
+        "e": "Yên tĩnh là điều kiện số một giúp bạn đọc tập trung tiếp thu tri thức tại thư viện.",
+        "s": "Lối sống 4",
+        "h": "Giữ im lặng nơi thư viện"
+      },
+      {
+        "c": "LS4-B01-004",
+        "d": "basic",
+        "p": "Quan sát bảng quy tắc thanh lịch nơi công cộng dưới đây. Khi đi thang cuốn trong trung tâm thương mại, cách đứng an toàn và lịch sự là gì?",
+        "o": [
+          "Đứng gọn về phía bên phải bậc thang cuốn, nắm nhẹ tay vịn, bước gọn dứt khoát khi tới đầu thang và không chạy ngược chiều",
+          "Đứng dàn hàng ba chắn kín lối đi ngay cửa ra đầu thang",
+          "Chạy ngược từ trên xuống dưới trên thang cuốn đang đi lên",
+          "Ngồi bệt xuống bậc thang cuốn hoặc thò đầu nhìn ra ngoài tay vịn"
+        ],
+        "k": "A",
+        "e": "Giữ thăng bằng trên thang cuốn và nhường một làn bên trái cho người có việc vội bảo đảm an toàn chung.",
+        "s": "Lối sống 4",
+        "h": "Văn minh an toàn khi đi thang cuốn",
+        "fig": {
+          "type": "table",
+          "title": "Thanh lịch Nơi Công cộng",
+          "head": [
+            "Địa điểm chung",
+            "Hành động văn minh"
+          ],
+          "rows": [
+            [
+              "Siêu thị, quầy vé",
+              "Xếp hàng đúng lượt"
+            ],
+            [
+              "Thư viện, bệnh viện",
+              "Đi nhẹ, nói khẽ"
+            ],
+            [
+              "Thang cuốn",
+              "Đứng gọn, bám vịn"
+            ],
+            [
+              "Công viên, khu chơi",
+              "Giữ sạch, không bứt"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS4-B01-005",
+        "d": "basic",
+        "p": "Khi bước vào cửa hàng tiện lợi hoặc siêu thị, nếu lấy một món hàng từ kệ ra xem nhưng sau đó quyết định không mua nữa, em nên làm gì?",
+        "o": [
+          "Vứt thẳng xuống sàn lối đi cho nhân viên tự nhặt",
+          "Bỏ đại vào tủ kem đông lạnh dù đó là quyển vở giấy",
+          "Xé mở bao bì ra xem bên trong rồi đặt lại",
+          "Đặt gọn lại món hàng đó về đúng vị trí kệ cũ của nó thay vì vứt bừa sang quầy khác"
+        ],
+        "k": "D",
+        "e": "Trả đồ về đúng kệ hàng giảm gánh nặng sắp xếp cho nhân viên và giữ siêu thị gọn đẹp.",
+        "s": "Lối sống 4",
+        "h": "Đặt hàng về đúng chỗ trong siêu thị"
+      },
+      {
+        "c": "LS4-B01-006",
+        "d": "basic",
+        "p": "Khi đi thăm bệnh nhân tại bệnh viện hoặc phòng khám, hành vi nào thể hiện sự tinh tế và tôn trọng quy định y tế?",
+        "o": [
+          "Tụ tập đông người nói cười thật to ngay bên giường người bệnh đang nghỉ",
+          "Bật chuông điện thoại thật to giữa hành lang cấp cứu",
+          "Giữ giọng nói nhỏ nhẹ, không chạy nhảy ồn ào, rửa tay sát khuẩn sạch và không mang đồ ăn nặng mùi vào phòng bệnh chung",
+          "Sờ nghịch các nút bấm thiết bị máy y tế trong phòng"
+        ],
+        "k": "C",
+        "e": "Người bệnh cần sự yên tĩnh tuyệt đối và môi trường sạch khuẩn để mau chóng hồi phục sức khỏe.",
+        "s": "Lối sống 4",
+        "h": "Văn minh khi vào bệnh viện"
+      },
+      {
+        "c": "LS4-B01-007",
+        "d": "application",
+        "p": "Em đang xếp hàng chờ lên xe buýt thì thấy một cụ già chống gậy đứng phía sau dưới trời nắng. Cách xử lí nào vừa lịch sự vừa nhân ái nhất?",
+        "o": [
+          "Chủ động bước nhường vị trí của mình cho cụ lên trước và đỡ nhẹ phụ cụ bước lên bậc cửa xe an toàn",
+          "Cố chạy vọt thật nhanh lên chiếm hết hai chỗ ngồi đầu tiên",
+          "Bảo cụ phải tự đi bộ vì cụ đến sau",
+          "Đứng che nắng cho riêng mình rồi quay lưng lại cụ"
+        ],
+        "k": "A",
+        "e": "Văn hóa xếp hàng luôn đi kèm ngoại lệ nhân văn ưu tiên người già, trẻ nhỏ, phụ nữ mang thai và người khuyết tật.",
+        "s": "Lối sống 4",
+        "h": "Ưu tiên người yếu thế khi xếp hàng"
+      },
+      {
+        "c": "LS4-B01-008",
+        "d": "application",
+        "p": "Đi siêu thị cùng mẹ, em thấy bạn nhỏ đứng bên cạnh vô tình bóc mở một hộp bánh ngay tại quầy rồi ăn thử khi chưa trả tiền thu ngân. Nếu đi cùng bạn nhỏ đó, em nhắc bạn thế nào?",
+        "o": [
+          "Nhắc nhẹ bạn không được bóc ăn hàng hóa trước khi thanh toán vì sản phẩm trên kệ vẫn thuộc tài sản cửa hàng; cần giữ nguyên bao bì ra quầy tính tiền trước",
+          "Mở thêm một gói kẹo nữa ăn cùng cho vui rồi giấu vỏ sau kệ",
+          "Bảo bạn cứ ăn thoải mái miễn đừng để bảo vệ nhìn thấy",
+          "Mắng bạn to tiếng giữa siêu thị là đồ ăn cắp"
+        ],
+        "k": "A",
+        "e": "Thanh toán trước khi sử dụng là quy tắc trung thực văn minh tối thiểu tại cửa hàng tự chọn.",
+        "s": "Lối sống 4",
+        "h": "Không dùng thử hàng chưa thanh toán"
+      },
+      {
+        "c": "LS4-B01-009",
+        "d": "application",
+        "p": "Khi bước ra vào cửa kính lớn ở trung tâm thương mại hoặc cửa hàng có người đi ngay phía sau mình, cử chỉ thanh lịch nhỏ mà rất đẹp là gì?",
+        "o": [
+          "Chạy vọt thật nhanh qua khe cửa hẹp rồi mặc kệ cửa đóng sập",
+          "Giữ nhẹ cánh cửa mở thêm vài giây đợi người đi sát sau nắm tiếp rồi mới thả tay chứ không buông cửa bật mạnh vào mặt họ",
+          "Đẩy thật mạnh cho cửa đập sầm ngược lại phía sau",
+          "Đứng chặn ngay giữa khe cửa soi gương chỉnh tóc 5 phút"
+        ],
+        "k": "B",
+        "e": "Thói quen giữ cửa cho người đi sau (Holding the door) là nét đẹp thanh lịch được trân trọng trên toàn thế giới.",
+        "s": "Lối sống 4",
+        "h": "Thói quen thanh lịch giữ cửa cho người sau"
+      },
+      {
+        "c": "LS4-B01-010",
+        "d": "application",
+        "p": "Trong công viên trò chơi cuối tuần có rất đông trẻ em chờ chơi cầu trượt, xích đu. Em đang ngồi trên xích đu chơi đã 15 phút trong khi hàng dài bạn nhỏ vẫn đứng đợi. Em nên làm gì?",
+        "o": [
+          "Chơi thêm 1–2 lượt ngắn rồi vui vẻ nhường xích đu cho bạn kế tiếp để ai cũng có phần niềm vui công bằng",
+          "Ngồi lì luôn suốt cả buổi chiều không nhường cho bất kì ai",
+          "Nhảy từ xích đu xuống khi đang bay cao để trêu bạn",
+          "Bắt bạn nhỏ đứng đợi phải trả tiền mới cho chơi"
+        ],
+        "k": "A",
+        "e": "Chia sẻ lượt chơi đồ chơi công cộng thể hiện sự lịch thiệp và công bằng.",
+        "s": "Lối sống 4",
+        "h": "Biết nhường lượt chơi khu vui chơi"
+      },
+      {
+        "c": "LS4-B01-011",
+        "d": "application",
+        "p": "Nếu vô tình bị ho hoặc hắt hơi mạnh khi đang ngồi giữa phòng học hay rạp phim đông người, thao tác văn minh giữ vệ sinh phòng dịch là gì?",
+        "o": [
+          "Dùng khăn giấy hoặc che kín mũi miệng bằng mặt trong khuỷu tay (không che bằng lòng bàn tay trần rồi chạm khắp nơi) và quay nhẹ sang hướng trống",
+          "Ho tự do thoải mái rồi lấy tay quệt vào ghế ngồi công cộng",
+          "Ngẩng mặt hắt hơi thẳng về phía mặt bạn ngồi trước mặt",
+          "Chạy vọt ra la hét khắp phòng"
+        ],
+        "k": "A",
+        "e": "Che bằng khuỷu tay hoặc khăn giấy (sau đó bỏ thùng rác và rửa tay) ngăn chặn giọt bắn phát tán vi khuẩn virus hiệu quả nhất.",
+        "s": "Lối sống 4",
+        "h": "Phép lịch sự vệ sinh khi ho, hắt hơi"
+      },
+      {
+        "c": "LS4-B01-012",
+        "d": "application",
+        "p": "Ở sân bay, nhà ga hoặc bến xe lớn, hành khách thường phải ngồi chờ khá lâu. Cách giữ gìn hình ảnh thanh lịch của gia đình và bản thân là gì?",
+        "o": [
+          "Mở đồ ăn nặng mùi cá mắm lan tỏa khắp phòng chờ máy lạnh",
+          "Ngồi gọn đúng hàng ghế (không gác chân bẩn lên ghế khác hoặc nằm chiếm 3 ghế), nói chuyện âm lượng vừa phải và gom rác cá nhân gọn gàng",
+          "Nằm ngủ dài chiếm trọn một dãy bốn ghế lúc nhiều người lớn tuổi đang đứng",
+          "Tháo giày đặt cả hai chân lên lưng ghế trước cho mát"
+        ],
+        "k": "B",
+        "e": "Không gian chờ chung đòi hỏi mỗi người tự thu gọn diện tích sinh hoạt và mùi vị ảnh hưởng tới xung quanh.",
+        "s": "Lối sống 4",
+        "h": "Ứng xử văn minh tại phòng chờ bến xe, ga tàu"
+      },
+      {
+        "c": "LS4-B01-013",
+        "d": "advanced",
+        "p": "Nhiều người cho rằng \"Nếp sống thanh lịch chỉ cần giữ khi đi chỗ sang trọng hay gặp người lạ, còn về nhà hoặc đi với bạn thân thì xuề xòa sao cũng được\". Quan điểm này thiếu sót ở đâu?",
+        "o": [
+          "Bạn thân thì không bao giờ cần cảm ơn hay xin lỗi",
+          "Chỉ khi nào mặc quần áo mới đắt tiền mới cần lịch sự",
+          "Hoàn toàn đúng, về nhà thì nói trống không và vứt rác ra sàn cũng được",
+          "Thanh lịch văn minh xuất phát từ thói quen hằng ngày từ nhà ra phố, mới là nét đẹp tự nhiên bền vững chứ không phải diễn kịch"
+        ],
+        "k": "D",
+        "e": "Sự thanh lịch chân thật bắt nguồn từ thói quen tôn trọng chính mình và người thân ngay trong sinh hoạt thường nhật.",
+        "s": "Lối sống 4",
+        "h": "Thanh lịch từ thói quen tự nhiên hàng ngày"
+      },
+      {
+        "c": "LS4-B01-014",
+        "d": "advanced",
+        "p": "Khi đi du lịch cùng gia đình tới một vùng văn hóa khác có những quy định riêng ở điểm tham quan (ví dụ mặc áo có tay kín đáo khi vào đền chùa, giữ im lặng ở đài tưởng niệm), cách ứng xử của người văn minh là gì?",
+        "o": [
+          "Tự ý trèo lên bàn thờ cổ chụp ảnh tạo dáng kì quặc",
+          "Tìm hiểu trước và vui vẻ tôn trọng tuân thủ nội quy văn hóa trang phục – nghi thức tại địa phương đó (\"Nhập gia tùy tục\" văn minh)",
+          "Cười chê phong tục trang nghiêm của người dân bản địa",
+          "Cố tình mặc quần ngắn áo hở và nói to phản đối nội quy nơi đó"
+        ],
+        "k": "B",
+        "e": "Tôn trọng quy ước không gian văn hóa tâm linh nơi mình đặt chân đến là chuẩn mực du khách quốc tế văn minh.",
+        "s": "Lối sống 4",
+        "h": "Ứng xử \"Nhập gia tùy tục\" tại điểm văn hóa"
+      },
+      {
+        "c": "LS4-B01-015",
+        "d": "advanced",
+        "p": "Tại sao nói \"Một hành động nhặt rác hoặc giữ im lặng nhỏ của một bạn nhỏ nơi công cộng có sức lan tỏa giáo dục mạnh mẽ hơn cả chục tấm biển cấm\"?",
+        "o": [
+          "Vì trẻ em không cần nghe lời nhắc của các biển báo",
+          "Vì một bạn nhỏ nhặt xong một cái vỏ kẹo thì cả thành phố sạch bóng lập tức",
+          "Vì biển báo bằng chữ không ai biết đọc hết",
+          "Vì hành động đẹp trực tiếp đánh thức lòng tự trọng của những người lớn và bạn nhỏ xung quanh, tạo hiệu ứng noi gương tự giác thay đổi thói quen chung"
+        ],
+        "k": "D",
+        "e": "Nêu gương sống đẹp tự giác mang sức thuyết phục dịu dàng mà sâu sắc tới cả cộng đồng.",
+        "s": "Lối sống 4",
+        "h": "Sức lan tỏa của hành vi thanh lịch tự giác"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong4-c1",
+    "lesson": {
+      "code": "lssong4-b02",
+      "title": "Bài 2. Văn hóa Ứng xử Lịch sự với Ông bà, Cha mẹ và Hàng xóm",
+      "seq": 2,
+      "subtitle": "Thực hành giao tiếp lễ phép, ân cần lắng nghe ông bà cha mẹ; giữ nếp sống hòa nhã, tôn trọng không gian yên tĩnh chung với bà con hàng xóm láng giềng",
+      "concepts": [
+        "Lễ phép thưa gửi, lắng nghe và nói lời yêu thương với ông bà, cha mẹ",
+        "Giữ trật tự giờ nghỉ ngơi, chào hỏi vui vẻ với hàng xóm",
+        "Xử lí hòa nhã khi có bất đồng nhỏ trong khu dân cư"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS4-B02-001",
+        "d": "basic",
+        "p": "Lời nói và cử chỉ nào thể hiện rõ nét nếp sống lễ phép hằng ngày khi em đi học về bước vào cửa nhà gặp ông bà, bố mẹ?",
+        "o": [
+          "Hét to đòi: \"Đói rồi, có cơm chưa mang ra ngay đi!\"",
+          "Khoanh tay hoặc gật đầu tươi cười chào to rõ ràng: \"Cháu chào ông bà, con chào bố mẹ con mới đi học về ạ!\"",
+          "Cúi gằm mặt đi thẳng vào phòng ngủ đóng sầm cửa cái rầm",
+          "Đi lướt qua mặt ông bà không nói một tiếng nào"
+        ],
+        "k": "B",
+        "e": "Lời chào ấm áp lúc đi – về gắn kết tình cảm gia đình và tạo không khí lễ độ, vui tươi trong nhà.",
+        "s": "Lối sống 4",
+        "h": "Lễ phép chào hỏi lúc đi và về"
+      },
+      {
+        "c": "LS4-B02-002",
+        "d": "basic",
+        "p": "Khi ông bà hoặc cha mẹ đang nhắc nhở góp ý một khuyết điểm mình vừa mắc phải, thái độ ứng xử đúng đắn của con cháu là gì?",
+        "o": [
+          "Lắng nghe nghiêm túc không ngắt lời, bình tĩnh suy nghĩ nhận lỗi nếu sai và trình bày lễ phép nếu cần giải thích thêm",
+          "Ném mạnh cặp sách xuống sàn nhà để phản đối",
+          "Cãi lại to tiếng gắt gỏng đổ lỗi tại mọi người khác",
+          "Bịt hai tai lại quay lưng bỏ chạy ra ngoài sân"
+        ],
+        "k": "A",
+        "e": "Nghe lời góp ý của người thân bằng thái độ cầu thị giúp em sửa sai nhanh và giữ hòa khí ấm êm.",
+        "s": "Lối sống 4",
+        "h": "Lắng nghe góp ý của cha mẹ, ông bà"
+      },
+      {
+        "c": "LS4-B02-003",
+        "d": "basic",
+        "p": "Trong khu dân cư hoặc chung cư, những hành động nào thể hiện sự tôn trọng tình làng nghĩa xóm đáng quý?",
+        "o": [
+          "Ném bóng hoặc đá bóng rầm rầm liên tục vào tường cửa cuốn nhà hàng xóm",
+          "Quét lá khô trước cửa nhà mình hất sang thẳng trước cổng nhà bên cạnh",
+          "Mở loa hát nhạc thật to hết cỡ lúc 12 giờ trưa hoặc 23 giờ đêm",
+          "Gặp hàng xóm mỉm cười chào hỏi lễ phép, không làm ồn giờ nghỉ trưa – đêm muộn và không để rác trước cửa nhà hàng xóm"
+        ],
+        "k": "D",
+        "e": "\"Bán anh em xa mua láng giềng gần\"; tôn trọng không gian yên tĩnh và sạch sẽ chung giúp cả xóm an vui.",
+        "s": "Lối sống 4",
+        "h": "Giữ gìn tình làng nghĩa xóm"
+      },
+      {
+        "c": "LS4-B02-004",
+        "d": "basic",
+        "p": "Quan sát bảng quy tắc ứng xử gia đình và khu phố sau. Trong bữa cơm gia đình quây quần, cử chỉ lịch sự truyền thống của người Việt là gì?",
+        "o": [
+          "Vừa nhai cơm vừa nói to phun thức ăn ra bàn",
+          "Bưng bát ăn vội trước một mình rồi bỏ đi xem tivi khi ông bà chưa ngồi vào mâm",
+          "Dùng đũa cá nhân đang ăn đảo tung đĩa thức ăn tìm miếng ngon nhất",
+          "Mời ông bà, cha mẹ và mọi người dùng bữa trước rồi mới cầm đũa ăn, ngồi gọn gàng không chọc đũa bới đĩa thức ăn chung"
+        ],
+        "k": "D",
+        "e": "Mâm cơm gia đình là trường học đầu tiên về phép lịch sự, kính trên nhường dưới và quan tâm lẫn nhau.",
+        "s": "Lối sống 4",
+        "h": "Văn hóa lịch sự trên mâm cơm gia đình",
+        "fig": {
+          "type": "table",
+          "title": "Ứng xử Gia đình & Hàng xóm",
+          "head": [
+            "Đối tượng",
+            "Nét đẹp cần giữ"
+          ],
+          "rows": [
+            [
+              "Ông bà, cha mẹ",
+              "Chào hỏi, mời cơm"
+            ],
+            [
+              "Em nhỏ trong nhà",
+              "Nhường em, làm gương"
+            ],
+            [
+              "Hàng xóm khu phố",
+              "Chào hỏi, giữ sạch"
+            ],
+            [
+              "Giờ nghỉ chung",
+              "Hạ nhỏ loa sau 21h30"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS4-B02-005",
+        "d": "basic",
+        "p": "Khi thấy nhà hàng xóm vừa nhận hàng bưu phẩm hoặc chú hàng xóm xách đồ nặng mở cửa tay vướng víu, việc làm đẹp nào rất vừa sức em?",
+        "o": [
+          "Chạy biến vào nhà giả vờ không trông thấy",
+          "Chạy tới vui vẻ nhấn nút giữ cửa thang máy hoặc mở giúp cánh cổng hộ bác rồi lễ phép chào bác",
+          "Hỏi xem trong túi đồ của bác có kẹo cho mình không",
+          "Đứng nhìn cười rồi đóng sập cổng lại ngay trước mặt bác"
+        ],
+        "k": "B",
+        "e": "Những cử chỉ nhỏ giúp đỡ láng giềng làm mối quan hệ khu phố trở nên thân tình, ấm áp.",
+        "s": "Lối sống 4",
+        "h": "Giúp đỡ nhỏ nhặt hàng xóm xung quanh"
+      },
+      {
+        "c": "LS4-B02-006",
+        "d": "basic",
+        "p": "Vì sao khi nói chuyện hay trả lời câu hỏi của người lớn tuổi, chúng ta luôn dùng đầy đủ \"Dạ, thưa, vâng, ạ\" thay vì nói trống không?",
+        "o": [
+          "Vì nói trống không làm cổ họng bị đau ngay lập tức",
+          "Vì tiếng Việt giàu từ ngữ kính trọng; thêm \"dạ, thưa, ạ\" thể hiện sự giáo dục, lòng kính mến và làm người nghe thấy được tôn trọng",
+          "Vì chữ \"ạ\" giúp nói nhanh hơn một nửa thời gian",
+          "Vì chỉ có học sinh tiểu học mới phải dùng chữ \"ạ\""
+        ],
+        "k": "B",
+        "e": "Lời ăn tiếng nói lễ độ là tấm danh thiếp văn hóa đẹp nhất của một học sinh thanh lịch.",
+        "s": "Lối sống 4",
+        "h": "Nói năng đầy đủ chủ vị kính ngữ"
+      },
+      {
+        "c": "LS4-B02-007",
+        "d": "application",
+        "p": "Buổi trưa cuối tuần, em và vài bạn nhỏ sang nhà chơi trò chơi hơi ồn ào một chút làm bác hàng xóm lớn tuổi bị bệnh tim ở căn hộ sát vách mất ngủ. Khi bác sang nhắc nhẹ, cả nhóm ứng xử thế nào?",
+        "o": [
+          "Ngoan ngoãn nói lời xin lỗi bác ngay vì đã vô ý làm ồn, lập tức hạ nhỏ giọng chuyển sang trò chơi yên tĩnh (như ghép hình, cờ vua)",
+          "Khóc ầm ĩ trách mẹ không cho chơi ngoài hành lang chung",
+          "Đợi bác quay lưng đi vào liền đập cửa tường trêu bác thêm",
+          "Cãi lại bác rằng ban ngày nhà cháu có quyền hét to tùy thích"
+        ],
+        "k": "A",
+        "e": "Lắng nghe sửa ngay khi vô ý ảnh hưởng tới người bệnh và người già xung quanh thể hiện sự trưởng thành văn minh.",
+        "s": "Lối sống 4",
+        "h": "Ứng xử đúng khi bị nhắc làm ồn"
+      },
+      {
+        "c": "LS4-B02-008",
+        "d": "application",
+        "p": "Sáng nay mẹ vội đi làm quên dặn, tới bữa trưa ông nội nấu món canh rau hơi nhạt hơn khẩu vị của em một chút. Câu nói nào vừa chân thật vừa thể hiện lòng biết ơn với ông?",
+        "o": [
+          "Nhăn mặt đẩy bát canh ra xa nói: \"Ông nấu dở tệ chẳng ăn được!\"",
+          "Lễ phép cảm ơn ông đã nấu bữa trưa nóng hổi cho cháu và nhẹ nhàng xin thêm chút nước mắm/gia vị chấm thêm nếu cần, không chê bai nhăn mặt",
+          "Đổ hết bát canh xuống bồn rửa ngay trước mặt ông",
+          "Ngồi khoanh tay nhịn cơm giận dỗi suốt buổi trưa"
+        ],
+        "k": "B",
+        "e": "Trân trọng công sức nấu nướng của ông bà cha mẹ giúp bữa cơm gia đình luôn ấm áp tình thương.",
+        "s": "Lối sống 4",
+        "h": "Lịch sự trân trọng công nấu ăn của người thân"
+      },
+      {
+        "c": "LS4-B02-009",
+        "d": "application",
+        "p": "Bà ngoại em chưa rành sử dụng điện thoại thông minh nên thường nhờ em chỉ lặp lại cách gọi video hoặc chỉnh cỡ chữ to lên 3–4 lần. Em nên giúp bà với thái độ ra sao?",
+        "o": [
+          "Thở dài bực bội quát lên: \"Con nói mãi rồi sao bà vẫn quên thế!\"",
+          "Nói dối bà rằng điện thoại bị hỏng vĩnh viễn rồi",
+          "Kiên nhẫn ngồi cạnh cầm tay chỉ từng bước chậm rãi bằng giọng vui vẻ, ghi ra một tờ giấy chữ thật to dán gọn hoặc cài sẵn nút gọi nhanh giúp bà dễ nhớ",
+          "Giật lấy điện thoại bấm hộ trong 2 giây rồi bỏ đi không chỉ cho bà"
+        ],
+        "k": "C",
+        "e": "Kiên nhẫn hướng dẫn người lớn tuổi tiếp cận công nghệ là biểu hiện hiếu thảo thời đại số cực kì đáng quý.",
+        "s": "Lối sống 4",
+        "h": "Kiên nhẫn chỉ dẫn ông bà dùng công nghệ"
+      },
+      {
+        "c": "LS4-B02-010",
+        "d": "application",
+        "p": "Gia đình em nuôi một chú chó nhỏ dễ thương ở khu dân cư đông đúc. Khi dắt chú cún đi dạo buổi chiều quanh đường phố, quy tắc văn minh với hàng xóm bắt buộc phải nhớ là gì?",
+        "o": [
+          "Luôn xích dây giữ sát bên mình (đeo rọ mõm khi cần ở nơi đông trẻ em) và mang sẵn túi giấy – xẻng nhỏ thu dọn sạch chất thải của thú cưng ngay lập tức",
+          "Khuyến khích chó sủa ầm ĩ đuổi theo trẻ em đạp xe đi qua",
+          "Thả rông cho chó chạy tự do phóng uế trước cửa nhà hàng xóm rồi bỏ đi",
+          "Để chó nhảy bẩn lên quần áo sạch của khách đi đường"
+        ],
+        "k": "A",
+        "e": "Chăm nuôi thú cưng văn minh giữ vệ sinh chung và bảo đảm an toàn cho hàng xóm đặc biệt là trẻ nhỏ.",
+        "s": "Lối sống 4",
+        "h": "Nuôi thú cưng văn minh tại khu dân cư"
+      },
+      {
+        "c": "LS4-B02-011",
+        "d": "application",
+        "p": "Em vô tình đá quả bóng nhựa bay qua tường rào làm gãy mất một cành hoa hồng đẹp mà bác hàng xóm rất nâng niu chăm sóc. Cách xử lí dũng cảm và lịch sự nhất là gì?",
+        "o": [
+          "Trốn tiệt vào trong nhà bỏ luôn quả bóng không dám sang nhận lỗi",
+          "Đổ thừa cho bạn khác đá chứ không phải mình",
+          "Sang bấm chuông lễ phép xin phép bác nhận lại bóng, thành thật xin lỗi bác về sự bất cẩn của mình và phụ giúp bác quét dọn cành lá rụng (kèm báo bố mẹ biết)",
+          "Chui lén qua hàng rào giật vội bóng rồi bẻ thêm hoa chạy mất"
+        ],
+        "k": "C",
+        "e": "Nhận lỗi trung thực giúp hàng xóm cảm thông yêu quý thay vì bực bội nghi ngờ.",
+        "s": "Lối sống 4",
+        "h": "Thành thật xin lỗi hàng xóm khi vô ý làm hỏng đồ"
+      },
+      {
+        "c": "LS4-B02-012",
+        "d": "application",
+        "p": "Khi nhà có khách của bố mẹ đến chơi và trò chuyện ở phòng khách, nếp sống thanh lịch của con cái trong gia đình là gì?",
+        "o": [
+          "Lờ đi như không thấy có khách vào nhà",
+          "Ngắt lời người lớn liên tục để khoe chiếc ô tô đồ chơi mới",
+          "Chạy ra ngồi chen vào giữa ghế khách hét ầm đòi bật tivi xem hoạt hình",
+          "Ra chào hỏi khách lễ phép, rót mời nước bằng hai tay nếu được dặn rồi xin phép về phòng học chơi, không nghe trộm chuyện người lớn"
+        ],
+        "k": "D",
+        "e": "Chào hỏi đàng hoàng và giữ không gian riêng cho cuộc trò chuyện của người lớn là phép lịch sự gia đình chuẩn mực.",
+        "s": "Lối sống 4",
+        "h": "Phép lịch sự khi gia đình có khách"
+      },
+      {
+        "c": "LS4-B02-013",
+        "d": "advanced",
+        "p": "Nhiều gia đình hiện đại có khoảng cách thế hệ (ông bà thích nghe chèo, ăn mặc truyền thống; bố mẹ bận rộn công việc; con cái thích công nghệ và nhạc trẻ). Làm sao để em đóng vai trò \"nhịp cầu gắn kết\" yêu thương trong ngôi nhà ba thế hệ?",
+        "o": [
+          "Chỉ nói chuyện với bố mẹ khi cần xin tiền mua đồ",
+          "Cười chê sở thích nghe nhạc truyền thống của ông bà là lạc hậu",
+          "Dành 15 phút mỗi tối tắt màn hình trò chuyện nghe ông bà kể chuyện xưa, chia sẻ chuyện trường lớp với bố mẹ và chỉ ông bà xem ảnh gia đình",
+          "Đóng kín cửa phòng riêng cả ngày chỉ nói chuyện với người trên mạng"
+        ],
+        "k": "C",
+        "e": "Sự lắng nghe hai chiều xóa nhòa khoảng cách thế hệ, biến mái nhà thành tổ ấm thực sự.",
+        "s": "Lối sống 4",
+        "h": "Làm cầu nối gắn kết các thế hệ trong gia đình"
+      },
+      {
+        "c": "LS4-B02-014",
+        "d": "advanced",
+        "p": "Giữa hai thái độ khi sống trong khu chung cư/ngõ xóm: (1) Đóng kín cửa \"đèn nhà ai nấy rạng\", chẳng quen biết chào hỏi ai; (2) Biết giữ tôn trọng riêng tư đồng thời thân thiện chào hỏi, sẵn sàng giúp đỡ khi hàng xóm gặp hoạn nạn ốm đau. Vì sao thái độ (2) mang lại cuộc sống an toàn hạnh phúc hơn?",
+        "o": [
+          "Vì hàng xóm thân thiện vừa tôn trọng riêng tư vừa hỗ trợ kịp thời lúc khẩn cấp (cháy nổ, ốm đau, trông nhà), tạo môi trường an toàn cho trẻ",
+          "Hàng xóm không bao giờ giúp đỡ nhau trong bất kì việc gì",
+          "Thái độ (1) tốt hơn vì không cần chào hỏi ai cho đỡ mỏi miệng",
+          "Thái độ (2) bắt buộc phải sang nhà hàng xóm ngủ qua đêm mới thân được"
+        ],
+        "k": "A",
+        "e": "Tình láng giềng hiện đại kết hợp hài hòa giữa Tôn trọng riêng tư và Tương trợ nhân ái.",
+        "s": "Lối sống 4",
+        "h": "Giá trị cộng đồng hàng xóm thân thiện văn minh"
+      },
+      {
+        "c": "LS4-B02-015",
+        "d": "advanced",
+        "p": "Mẹ đi làm về mệt nên vô tình gắt nhẹ em một câu vì em chưa cất giày đúng kệ. Nếu bình thường em có thể dỗi khóc hoặc cãi lại, nhưng hôm nay em chọn phản ứng trưởng thành nào để làm dịu bầu không khí cả nhà?",
+        "o": [
+          "Hiểu mẹ đang mệt, em nhanh nhẹn xếp gọn giày lên kệ, rót cốc nước mát và nói: \"Con xin lỗi mẹ quên cất giày, mẹ uống nước cho đỡ mệt ạ!\"",
+          "Đá văng đôi giày ra tận ngoài cổng rồi khóa trái cửa phòng",
+          "Hét toáng lên phản đối tại sao mẹ lại mắng con vô cớ thế",
+          "Bỏ luôn bữa tối cho mẹ phải dỗ dành xin lỗi mình"
+        ],
+        "k": "A",
+        "e": "Thấu cảm trước sự mệt mỏi của cha mẹ là dấu hiệu trưởng thành cảm xúc tuyệt vời của học sinh Lớp 4.",
+        "s": "Lối sống 4",
+        "h": "Thấu cảm giúp hóa giải căng thẳng gia đình"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong4-c1",
+    "lesson": {
+      "code": "lssong4-b03",
+      "title": "Bài 3. Thói quen Sinh hoạt Khoa học, Vệ sinh Cá nhân và Giấc ngủ Lành mạnh",
+      "seq": 3,
+      "subtitle": "Rèn luyện thói quen sinh hoạt điều độ tuổi tiền dậy thì (vệ sinh thân thể sạch sẽ, bảo vệ mắt – cột sống, ăn uống lành mạnh và ngủ đủ 9–10 tiếng mỗi đêm)",
+      "concepts": [
+        "Vệ sinh cá nhân hằng ngày bảo vệ cơ thể đang lớn",
+        "Tư thế ngồi học đúng chuẩn 3 điểm, bảo vệ mắt cận thị",
+        "Giấc ngủ đủ 9–10 tiếng giúp phát triển chiều cao và trí nhớ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS4-B03-001",
+        "d": "basic",
+        "p": "Ở lứa tuổi học sinh Lớp 4 (9–10 tuổi), thời lượng ngủ trung bình hợp lí mỗi đêm giúp phát triển tốt chiều cao, trí não và tinh thần tỉnh táo là bao nhiêu?",
+        "o": [
+          "Chỉ cần ngủ 4 giờ mỗi đêm là quá đủ rồi",
+          "Khoảng 9 đến 10 giờ mỗi đêm (nên đi ngủ trước 21h30–22h00)",
+          "Không cần ngủ ban đêm vào ngày cuối tuần",
+          "Phải ngủ liên tục 18 tiếng mỗi ngày"
+        ],
+        "k": "B",
+        "e": "Khi ngủ sâu từ 22h đến 2h sáng, cơ thể tiết hoóc-môn tăng trưởng mạnh nhất giúp cao lớn và củng cố trí nhớ ban ngày.",
+        "s": "Lối sống 4",
+        "h": "Thời lượng giấc ngủ chuẩn Lớp 4"
+      },
+      {
+        "c": "LS4-B03-002",
+        "d": "basic",
+        "p": "Những thời điểm \"vàng\" nào trong ngày học sinh BẮT BUỘC phải rửa tay bằng xà phòng và nước sạch trong ít nhất 20 giây?",
+        "o": [
+          "Chỉ rửa đầu ngón tay trỏ bằng nước lạnh 2 giây là sạch vi khuẩn",
+          "Chỉ cần rửa tay đúng một lần duy nhất vào ngày Chủ nhật",
+          "Trước khi ăn uống, sau khi đi vệ sinh, sau khi chơi ngoài sân/làm vườn, chạm thú cưng và sau khi ho – hắt hơi – đi học về",
+          "Không cần rửa tay trước khi bốc ăn bánh quy"
+        ],
+        "k": "C",
+        "e": "Rửa tay 6 bước bằng xà phòng diệt phần lớn vi khuẩn, virus gây tiêu chảy, tay chân miệng và cúm mùa.",
+        "s": "Lối sống 4",
+        "h": "Thời điểm bắt buộc rửa tay xà phòng"
+      },
+      {
+        "c": "LS4-B03-003",
+        "d": "basic",
+        "p": "Khoảng cách hợp lí từ mắt đến trang sách vở khi ngồi đọc và viết bài để phòng chống tật cận thị học đường là bao nhiêu?",
+        "o": [
+          "Đọc sách trong phòng tắt hết đèn chỉ bật ánh sáng mờ của điện thoại",
+          "Nằm sấp úp mặt xuống đệm giường vừa đọc vừa xem tivi",
+          "Khoảng 25 đến 30 cm, lưng thẳng không tì ngực sát mép bàn, ánh sáng đủ sáng không bị sấp bóng tay viết",
+          "Cúi sát mặt cách vở chỉ đúng 5 cm cho nhìn rõ từng nét mực"
+        ],
+        "k": "C",
+        "e": "Tư thế ngồi chuẩn và ánh sáng đầy đủ giữ trục cột sống thẳng đẹp và giảm điều tiết căng thẳng cho thủy tinh thể mắt.",
+        "s": "Lối sống 4",
+        "h": "Khoảng cách và tư thế học chống cận"
+      },
+      {
+        "c": "LS4-B03-004",
+        "d": "basic",
+        "p": "Quan sát bảng thói quen sinh hoạt khoa học dưới đây. Việc đánh răng đúng cách cần thực hiện ít nhất mấy lần mỗi ngày và vào lúc nào quan trọng nhất?",
+        "o": [
+          "Chỉ đánh răng vào mỗi buổi sáng, tối ăn kẹo xong đi ngủ luôn khỏi đánh",
+          "Ít nhất 2 lần mỗi ngày vào buổi sáng sau khi thức dậy (hoặc sau ăn sáng) và đặc biệt là buổi tối trước khi đi ngủ",
+          "Chỉ đánh răng trước khi đi khám nha sĩ",
+          "Đánh răng thật mạnh theo chiều ngang 5 giây là xong"
+        ],
+        "k": "B",
+        "e": "Ban đêm tuyến nước bọt tiết ít đi, thức ăn thừa nếu không chải sạch sẽ bị vi khuẩn lên men phá hủy men răng suốt đêm.",
+        "s": "Lối sống 4",
+        "h": "Vệ sinh răng miệng đúng thời điểm",
+        "fig": {
+          "type": "table",
+          "title": "Sinh hoạt Khoa học Lớp 4",
+          "head": [
+            "Thói quen tốt",
+            "Mức khuyến nghị"
+          ],
+          "rows": [
+            [
+              "Giấc ngủ ban đêm",
+              "9 - 10h, trước 22h"
+            ],
+            [
+              "Đánh răng sạch",
+              "Tối trước ngủ & sáng"
+            ],
+            [
+              "Khoảng cách đọc",
+              "25-30cm, ngồi thẳng"
+            ],
+            [
+              "Uống nước lọc",
+              "1,2 - 1,5 lít/ngày"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS4-B03-005",
+        "d": "basic",
+        "p": "Đeo cặp sách đi học hằng ngày thế nào để bảo vệ hai vai và cột sống không bị cong vẹo ở tuổi đang phát triển nhanh?",
+        "o": [
+          "Nhét tất cả sách vở đồ chơi cả tuần vào cặp nặng 10 kg mang đi mỗi ngày",
+          "Xách cặp một bên tay kéo lê xuống đất",
+          "Chọn cặp hai quai bản rộng êm, đeo đều cân cả hai bên vai (sắp xếp vừa đủ sách theo thời khóa biểu cho nhẹ bớt cặp)",
+          "Luôn đeo lệch một quai duy nhất sang bên vai phải suốt cả năm"
+        ],
+        "k": "C",
+        "e": "Đeo cặp một bên hoặc cặp quá nặng dễ gây lệch vai và cong vẹo cột sống học đường.",
+        "s": "Lối sống 4",
+        "h": "Đeo cặp hai vai bảo vệ cột sống"
+      },
+      {
+        "c": "LS4-B03-006",
+        "d": "basic",
+        "p": "Bước vào giai đoạn Lớp 4–5, cơ thể bắt đầu có nhiều thay đổi và hoạt động vận động ra nhiều mồ hôi hơn. Thói quen vệ sinh thân thể hằng ngày nào rất cần thiết?",
+        "o": [
+          "Không thay tất chân dù tất đã ướt đẫm mồ hôi",
+          "Đợi hết một tuần mới gội đầu và tắm một lần vào mùa hè",
+          "Giữ nguyên bộ quần áo đồng phục dính mồ hôi mặc liên tiếp 4 ngày không thay",
+          "Tắm gội sạch sẽ hằng ngày bằng nước sạch ấm vừa, thay giặt quần áo lót sạch mỗi ngày và cắt gọn móng tay móng chân định kì"
+        ],
+        "k": "D",
+        "e": "Giữ vệ sinh da và trang phục lót sạch khô ngăn ngừa mùi cơ thể, rôm sảy và các bệnh nấm da.",
+        "s": "Lối sống 4",
+        "h": "Vệ sinh thân thể khi vận động nhiều"
+      },
+      {
+        "c": "LS4-B03-007",
+        "d": "application",
+        "p": "Bạn Minh hay có thói quen tối nào cũng nằm trên giường đọc truyện hoặc xem điện thoại dưới ánh sáng màn hình xanh tới 23h30 mới chịu tắt máy ngủ. Tác hại kép dễ thấy ngay sau một tuần ở Minh là gì?",
+        "o": [
+          "Mắt mỏi mờ nhức khô, khó chìm vào giấc ngủ sâu, sáng hôm sau uể oải ngủ gật trên lớp và giảm khả năng ghi nhớ bài giảng",
+          "Minh làm bài kiểm tra chính xác nhanh hơn",
+          "Minh tự nhiên cao vượt thêm 10 cm nhờ thức khuya",
+          "Đôi mắt của Minh sáng tinh anh gấp đôi ban ngày"
+        ],
+        "k": "A",
+        "e": "Ánh sáng xanh từ màn hình ức chế hoóc-môn melatonin gây ngủ, phá hỏng chất lượng giấc ngủ và thị lực học sinh.",
+        "s": "Lối sống 4",
+        "h": "Tác hại thói quen xem màn hình khuya"
+      },
+      {
+        "c": "LS4-B03-008",
+        "d": "application",
+        "p": "Trong lớp học, em thấy một bạn ngồi bàn thứ ba thường xuyên nheo mắt, phải nghiêng đầu rướn người về phía trước mới chép được chữ trên bảng của cô giáo. Em nên khuyên bạn làm gì?",
+        "o": [
+          "Bảo bạn chép lại vở bạn bên cạnh suốt cả năm khỏi nhìn bảng",
+          "Chê bạn là đồ \"cú vọ mắt kém\" để trêu bạn",
+          "Khuyên bạn cố nheo mắt thật chặt thêm vài tháng nữa cho mắt tự quen",
+          "Khuyên bạn nói ngay với cô giáo và bố mẹ để đi khám kiểm tra thị lực sớm tại bệnh viện mắt (và tạm thời báo cô đổi chỗ lên gần bảng hơn nếu cần)"
+        ],
+        "k": "D",
+        "e": "Phát hiện sớm tật khúc xạ (cận thị, loạn thị) giúp điều chỉnh kính đúng độ kịp thời, tránh tăng độ cận nhanh.",
+        "s": "Lối sống 4",
+        "h": "Phát hiện sớm dấu hiệu suy giảm thị lực"
+      },
+      {
+        "c": "LS4-B03-009",
+        "d": "application",
+        "p": "Quan sát biểu đồ tỉ lệ học sinh ăn sáng đầy đủ và kết quả mức độ tập trung trong tiết học buổi sáng tại một khối lớp. Thông điệp sức khỏe rõ ràng nhất từ số liệu là gì?",
+        "o": [
+          "Nhóm học sinh ăn sáng đầy đủ dinh dưỡng ở nhà đạt mức độ tập trung học tập buổi sáng rất cao (88%), vượt xa nhóm thường xuyên nhịn ăn sáng (42%)",
+          "Bữa sáng không ảnh hưởng gì tới kết quả học tập buổi sáng",
+          "Nhịn ăn sáng giúp não bộ thông minh và tập trung hơn hẳn",
+          "Ăn sáng bằng một gói bim bim thay cơm là đủ năng lượng nhất"
+        ],
+        "k": "A",
+        "e": "Bữa sáng cung cấp glucose thiết yếu cho não bộ sau 10 tiếng nghỉ đêm; tuyệt đối không bỏ bữa sáng đi học.",
+        "s": "Lối sống 4",
+        "h": "Vai trò bữa sáng với trí não buổi sáng",
+        "fig": {
+          "type": "bars",
+          "title": "Tỉ lệ tập trung tốt giờ học sáng (%)",
+          "labels": [
+            "Nhịn ăn sáng",
+            "Ăn vặt cổng trường",
+            "Ăn sáng đủ chất"
+          ],
+          "series": [
+            {
+              "values": [
+                42,
+                61,
+                88
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "c": "LS4-B03-010",
+        "d": "application",
+        "p": "Ở trường vào giờ ra chơi giữa tiết 2 và tiết 3, nhiều bạn chỉ thích ngồi lì trong lớp chơi cờ hoặc đọc truyện suốt 20 phút dưới bóng đèn huỳnh quang. Cách tận dụng 20 phút ra chơi tốt nhất cho đôi mắt và cơ thể là gì?",
+        "o": [
+          "Uống liên tiếp hai lon nước ngọt có ga ướp lạnh",
+          "Dí sát mắt vào sách truyện chữ nhỏ xíu đọc tiếp suốt 20 phút",
+          "Úp mặt xuống bàn ngủ vùi không đứng dậy bước nào",
+          "Đứng dậy rời bàn học, bước ra hành lang hoặc sân trường thoáng sáng, phóng tầm mắt nhìn cây xanh ở xa và tham gia vận động nhẹ nhảy dây, đá cầu cùng bạn"
+        ],
+        "k": "D",
+        "e": "Nhìn xa ngoài trời ánh sáng tự nhiên thư giãn hoàn toàn cơ điều tiết mắt, làm chậm tốc độ cận thị cực kì hiệu quả.",
+        "s": "Lối sống 4",
+        "h": "Nghỉ mắt nhìn xa và vận động giờ ra chơi"
+      },
+      {
+        "c": "LS4-B03-011",
+        "d": "application",
+        "p": "Bạn Hoa thuận tay phải nhưng khi đặt đèn bàn học ở nhà lại để bóng đèn nằm lệch hẳn bên tay PHẢI của mình. Khi cầm bút viết bài buổi tối, điều gì gây bất tiện cho mắt của Hoa?",
+        "o": [
+          "Không có bóng đổ nào cả vì tay phải trong suốt",
+          "Bóng đèn sẽ sáng gấp đôi bình thường",
+          "Bàn tay phải của Hoa sẽ che khuất ánh đèn, đổ bóng tối lên ngòi bút đang viết; nên đặt đèn học ở phía tay TRÁI (đối diện tay viết)",
+          "Ánh sáng đèn tự động đổi sang màu đỏ chói"
+        ],
+        "k": "C",
+        "e": "Người thuận tay phải đặt đèn bàn chếch bên trái; người thuận tay trái đặt đèn bàn chếch bên phải để triệt tiêu bóng tay che chữ.",
+        "s": "Lối sống 4",
+        "h": "Bố trí hướng đặt đèn học chống sấp bóng"
+      },
+      {
+        "c": "LS4-B03-012",
+        "d": "application",
+        "p": "Khi khát nước sau giờ tập thể dục buổi chiều nóng bức, đồ uống nào tốt nhất cho sức khỏe và răng miệng của học sinh Lớp 4?",
+        "o": [
+          "Nước lọc đun sôi để nguội (uống từng ngụm vừa phải, không uống ừng ực nước quá lạnh buốt ngay khi vừa chạy mệt)",
+          "Trà sữa trân châu ngập siro đường hóa học mỗi ngày",
+          "Ba lon nước ngọt có ga nhiều đường ướp thật buốt",
+          "Nước tăng lực chứa caffein dành cho người lớn"
+        ],
+        "k": "A",
+        "e": "Nước lọc bù nước tinh khiết cho mọi tế bào cơ thể mà không gây sâu răng, béo phì hay kích thích tim đập nhanh.",
+        "s": "Lối sống 4",
+        "h": "Chọn nước uống lành mạnh sau vận động"
+      },
+      {
+        "c": "LS4-B03-013",
+        "d": "advanced",
+        "p": "Nhiều bạn nhỏ có thói quen \"ngủ bù\" bằng cách các ngày đi học thức khuya tới 23h30 rồi sang thứ Bảy, Chủ nhật ngủ nướng một mạch tới 11 giờ trưa. Vì sao cách sinh hoạt này vẫn làm đồng hồ sinh học cơ thể rối loạn mệt mỏi?",
+        "o": [
+          "Ngủ trễ Chủ nhật giúp sáng thứ Hai thức dậy tỉnh táo hơn hẳn",
+          "Thiếu ngủ tích tụ làm giảm khả năng tiếp thu ban ngày, còn ngủ trễ cuối tuần làm lệch nhịp sinh học gây mất ngủ trở lại vào tối Chủ nhật",
+          "Cách ngủ bù đó giúp cơ thể khỏe mạnh gấp đôi người ngủ đúng giờ hằng ngày",
+          "Đồng hồ sinh học tự động tắt đi vào hai ngày cuối tuần"
+        ],
+        "k": "B",
+        "e": "Duy trì giờ đi ngủ và thức dậy ổn định đều đặn cả tuần (sai lệch không quá 1 giờ) giữ nhịp sinh học vàng cho trẻ.",
+        "s": "Lối sống 4",
+        "h": "Tác hại rối loạn nhịp sinh học khi ngủ bù cuối tuần"
+      },
+      {
+        "c": "LS4-B03-014",
+        "d": "advanced",
+        "p": "Khi nhìn vào một ngày sinh hoạt toàn diện của học sinh Lớp 4, vì sao thói quen \"Ăn chậm nhai kĩ – không vừa ăn vừa xem điện thoại hay đọc truyện\" vừa tốt cho dạ dày lại vừa gắn kết gia đình?",
+        "o": [
+          "Vì xem điện thoại khi ăn làm thức ăn tự động rơi ra ngoài đĩa",
+          "Vì nhai nhanh nuốt chửng giúp dạ dày đỡ phải làm việc gì cả",
+          "Nhai kĩ hỗ trợ tiêu hóa nhẹ nhàng và báo no đúng lúc tránh béo phì; rời màn hình giúp mọi người trò chuyện vui vẻ gắn kết bên mâm cơm",
+          "Vì điện thoại sẽ hút hết dinh dưỡng ra khỏi bát cơm"
+        ],
+        "k": "C",
+        "e": "Chánh niệm khi ăn uống (Mindful eating) bảo vệ hệ tiêu hóa khỏe mạnh và nuôi dưỡng hạnh phúc gia đình.",
+        "s": "Lối sống 4",
+        "h": "Lợi ích ăn chậm nhai kĩ không xem màn hình"
+      },
+      {
+        "c": "LS4-B03-015",
+        "d": "advanced",
+        "p": "Một học sinh muốn thay đổi thói quen xấu là hay cắn móng tay hoặc dụi mắt bằng tay bẩn khi căng thẳng suy nghĩ bài khó. Biện pháp thay thế thói quen nào khoa học và dễ thành công nhất?",
+        "o": [
+          "Cắt móng tay gọn sạch, giữ khăn giấy sạch hoặc quả bóng mềm nhỏ trên bàn để bận tay khi nghĩ bài và tự nhắc \"tay sạch không chạm mặt mắt\"",
+          "Bôi ớt cay đỏ rực lên tất cả mười đầu ngón tay suốt cả ngày đi học",
+          "Đeo găng tay dày cộm không cầm được bút suốt một tháng",
+          "Tự đánh thật đau vào tay mình mỗi lần quên"
+        ],
+        "k": "A",
+        "e": "Thay thế hành vi cũ bằng một hành động an toàn khác (Habit replacement) kèm giữ móng gọn sạch là phương pháp tâm lí hành vi hiệu quả.",
+        "s": "Lối sống 4",
+        "h": "Thay thế thói quen dụi mắt cắn móng tay"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong4-c2",
+    "lesson": {
+      "code": "lssong4-b04",
+      "title": "Bài 4. An toàn Giao thông khi Đi xe đạp và Tham gia Giao thông Đường bộ",
+      "seq": 4,
+      "subtitle": "Nhận biết ý nghĩa các nhóm biển báo giao thông phổ biến, kiểm tra an toàn xe đạp trước khi đi, tuân thủ đội mũ bảo hiểm – đi đúng làn đường và xử lí điểm mù xe lớn",
+      "concepts": [
+        "Kiểm tra phanh, lốp, chuông, đèn phản quang xe đạp",
+        "Quy tắc đội mũ bảo hiểm cài quai chuẩn và nhận biết nhóm biển báo",
+        "Phòng tránh điểm mù xe tải, xe buýt và an toàn qua đường"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS4-B04-001",
+        "d": "basic",
+        "p": "Trước khi dắt chiếc xe đạp ra đường đi học hoặc tập thể dục, bộ phận an toàn nào trên xe bắt buộc phải kiểm tra hoạt động tốt đầu tiên?",
+        "o": [
+          "Phanh trước – phanh sau, độ căng lốp xe, xích xe, chuông báo hiệu và đèn/tấm phản quang",
+          "Chỉ cần gắn thật nhiều hình dán hoạt hình lên khung xe",
+          "Không cần kiểm tra gì cả, cứ nhảy lên đạp phóng đi luôn",
+          "Chỉ cần lau sạch màu sơn trên yên xe cho bóng đẹp"
+        ],
+        "k": "A",
+        "e": "Xe đạp mất phanh hoặc tuột xích khi xuống dốc hay qua đường rất dễ gây tai nạn bất ngờ.",
+        "s": "Lối sống 4",
+        "h": "Kiểm tra an toàn xe đạp trước khi đi"
+      },
+      {
+        "c": "LS4-B04-002",
+        "d": "basic",
+        "p": "Khi tham gia giao thông bằng xe đạp trên đường bộ có phần đường dành cho xe thô sơ, em phải đi như thế nào cho đúng luật?",
+        "o": [
+          "Đạp ngược chiều sát lề bên trái cho dễ nhìn xe ô tô đi tới",
+          "Đi dàn hàng ba hàng tư trò chuyện cười đùa chiếm giữa lòng đường",
+          "Đi sát bên phải theo chiều đi của mình (trong làn xe thô sơ nếu có), đi thành một hàng dọc không dàn hàng ngang hai ba",
+          "Buông cả hai tay hoặc lạng lách đánh võng biểu diễn"
+        ],
+        "k": "C",
+        "e": "Đi bên phải một hàng dọc và giữ hai tay trên ghi-đông bảo đảm khoảng cách an toàn cho bản thân và dòng xe xung quanh.",
+        "s": "Lối sống 4",
+        "h": "Quy tắc đi xe đạp đúng làn hàng một"
+      },
+      {
+        "c": "LS4-B04-003",
+        "d": "basic",
+        "p": "Theo quy định pháp luật và an toàn giao thông, khi ngồi sau xe mô tô, xe gắn máy hoặc xe đạp điện của người thân, học sinh Lớp 4 bắt buộc phải làm gì?",
+        "o": [
+          "Cầm mũ bảo hiểm trên tay hoặc treo ở giỏ xe đợi thấy công an mới đội",
+          "Đứng lên yên xe hoặc quay ngược người ngồi ra phía sau",
+          "Chỉ cần đặt hờ mũ bảo hiểm lên đầu không cần cài quai cho đỡ nóng",
+          "Đội mũ bảo hiểm đạt chuẩn và cài chặt quai đúng quy cách (luồn vừa hai ngón tay dưới cằm), ngồi ngay ngắn bám chắc người lái"
+        ],
+        "k": "D",
+        "e": "Mũ bảo hiểm không cài quai sẽ văng bay mất trước khi đầu chạm đất lúc va chạm, hoàn toàn mất tác dụng bảo vệ sọ não.",
+        "s": "Lối sống 4",
+        "h": "Đội mũ bảo hiểm cài quai đúng chuẩn"
+      },
+      {
+        "c": "LS4-B04-004",
+        "d": "basic",
+        "p": "Quan sát biển báo hình tam giác viền đỏ nền vàng dưới đây. Biển báo có hình dạng và màu sắc đặc trưng này thuộc nhóm biển báo gì?",
+        "o": [
+          "Nhóm biển báo CHỈ DẪN hướng đường đi du lịch",
+          "Nhóm biển báo NGUY HIỂM (cảnh báo trước các nguy hiểm trên đường để người đi đường giảm tốc độ chú ý phòng tránh)",
+          "Nhóm biển báo HIỆU LỆNH bắt buộc thi hành",
+          "Nhóm biển báo CẤM tuyệt đối không được đi vào"
+        ],
+        "k": "B",
+        "e": "Ghi nhớ nhóm biển báo qua hình dáng: Tam giác vàng viền đỏ = Cảnh báo nguy hiểm; Tròn viền đỏ = Cấm; Tròn xanh = Hiệu lệnh.",
+        "s": "Lối sống 4",
+        "h": "Nhận biết nhóm biển báo nguy hiểm",
+        "fig": {
+          "w": 300,
+          "h": 175,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  150,
+                  24
+                ],
+                [
+                  88,
+                  130
+                ],
+                [
+                  212,
+                  130
+                ]
+              ],
+              "fill": "#facc15",
+              "stroke": "#dc2626",
+              "w": 6
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                110
+              ],
+              "s": "!",
+              "anchor": "middle",
+              "size": 36,
+              "color": "#1e293b"
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                162
+              ],
+              "s": "Biển Tam giác viền đỏ nền vàng",
+              "anchor": "middle",
+              "size": 12.5
+            }
+          ]
+        }
+      },
+      {
+        "c": "LS4-B04-005",
+        "d": "basic",
+        "p": "Khi điều khiển xe đạp muốn rẽ sang trái hoặc sang phải để sang đường, em cần thực hiện thao tác báo hiệu nào bảo đảm an toàn?",
+        "o": [
+          "Giảm tốc độ, quan sát kĩ cả phía trước lẫn ngoái nhìn kiểm tra an toàn phía sau rồi giơ tay xin đường rõ ràng trước khi chuyển hướng từ từ",
+          "Bấm chuông liên hồi rồi quay ngược tay lái sang phải",
+          "Bất ngờ đánh tay lái rẽ ngoặt gấp vuông góc ngay trước đầu xe máy đang chạy tới",
+          "Không nhìn trước sau gì cả, cứ nhắm mắt đạp thật nhanh cắt ngang đường"
+        ],
+        "k": "A",
+        "e": "Quan sát đa hướng và phát tín hiệu bằng tay sớm giúp xe cơ giới phía sau kịp nhận biết giảm tốc nhường đường.",
+        "s": "Lối sống 4",
+        "h": "Tín hiệu giơ tay xin rẽ an toàn"
+      },
+      {
+        "c": "LS4-B04-006",
+        "d": "basic",
+        "p": "Khi đi bộ qua đường tại nơi có cầu vượt bộ hành, hầm đi bộ hoặc vạch kẻ trắng dành cho người đi bộ có đèn tín hiệu, em chọn cách nào an toàn nhất?",
+        "o": [
+          "Chạy vọt qua đường khi đèn cho người đi bộ vẫn đang màu đỏ",
+          "Đi đúng trên cầu vượt, hầm đi bộ hoặc bấm/đợi đèn xanh người đi bộ trên vạch kẻ trắng sau khi chắc chắn các xe đã dừng lại nhường đường",
+          "Trèo qua dải phân cách sắt giữa đường cho gần hơn 30 mét",
+          "Vừa qua đường vừa cúi đầu đọc truyện tranh"
+        ],
+        "k": "B",
+        "e": "Sử dụng hạ tầng an toàn dành riêng cho người đi bộ và chờ xe dừng hẳn trước khi bước xuống lòng đường là thói quen cứu mạng.",
+        "s": "Lối sống 4",
+        "h": "An toàn qua đường đúng vạch và cầu vượt"
+      },
+      {
+        "c": "LS4-B04-007",
+        "d": "application",
+        "p": "Đang chạy xe đạp đi học về gặp trời mưa giông to, một bạn dùng một tay cầm chiếc ô (dù) xòe rộng che mưa còn một tay giữ tay lái đạp xe trên đường phố đông đúc. Em khuyên bạn ngừng ngay hành động này vì sao?",
+        "o": [
+          "Vì chỉ có trời nắng mới được phép cầm ô đạp xe",
+          "Vì cầm ô sẽ làm màu sơn của chiếc xe đạp bị phai nhạt nhanh",
+          "Cầm ô làm mất một tay giữ phanh lái vững, gió dễ lật ô cản tầm nhìn và vướng xe cạnh bên gây tai nạn ngã ra đường rất nguy hiểm",
+          "Vì mưa sẽ tự tạnh ngay sau khi gấp ô lại"
+        ],
+        "k": "C",
+        "e": "Khi mưa phải mặc áo mưa gọn gàng (tránh vạt áo mưa phủ trùm che đèn hoặc quấn vào nan hoa bánh xe) để giữ trọn hai tay lái an toàn.",
+        "s": "Lối sống 4",
+        "h": "Không cầm ô một tay khi đi xe đạp"
+      },
+      {
+        "c": "LS4-B04-008",
+        "d": "application",
+        "p": "Em xem hình bảng nhắc nhở an toàn xung quanh xe tải lớn và xe buýt. \"Điểm mù\" của xe ô tô tải là gì và người đi bộ – đi xe đạp phải giữ quy tắc gì khi ở gần xe tải lớn?",
+        "o": [
+          "Điểm mù là chỗ đèn pha sáng nhất trước đầu xe; nên chạy sát ngay sát đầu xe tải cho sáng đường",
+          "Nên bám tay vào đuôi xe tải lớn lúc đạp xe để đỡ tốn sức",
+          "Là chỗ ngồi bên trong xe buýt bị hỏng bóng đèn",
+          "Là vùng sát đầu, sát hông và sau đuôi xe mà tài xế nhìn gương không thấy được; tuyệt đối không đi sát hay dừng núp trong các vùng đó"
+        ],
+        "k": "D",
+        "e": "Đặc biệt khi xe tải/xe buýt chuẩn bị rẽ phải, bánh sau rẽ bó hẹp vào trong lề (vùng tử thần); luôn lùi chờ xa hẳn phía sau khi xe lớn rẽ.",
+        "s": "Lối sống 4",
+        "h": "Phòng tránh vùng điểm mù xe tải lớn",
+        "fig": {
+          "type": "table",
+          "title": "An toàn với Điểm mù Xe lớn",
+          "head": [
+            "Vị trí quanh xe lớn",
+            "Quy tắc phòng tránh"
+          ],
+          "rows": [
+            [
+              "Ngay trước đầu xe",
+              "Tránh đi sát mũi xe"
+            ],
+            [
+              "Sát hai bên hông xe",
+              "Không đi song song"
+            ],
+            [
+              "Phía sau đuôi xe",
+              "Giữ khoảng cách xa"
+            ],
+            [
+              "Khi xe rẽ phải",
+              "Dừng lùi xa vỉa hè"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS4-B04-009",
+        "d": "application",
+        "p": "Mỗi sáng đi học qua đường sắt cắt ngang đường bộ có rào chắn gác chắn tàu hỏa. Khi chuông reo vang và đèn đỏ hai bên nhấp nháy báo hiệu tàu hỏa sắp đến nhưng thanh chắn barie mới bắt đầu hạ xuống một nửa, em phải làm gì?",
+        "o": [
+          "Cúi rạp người đạp xe phóng vọt lách qua nhanh trước khi thanh chắn đóng khít",
+          "Dừng ngay lập tức trước vạch dừng an toàn cách đường ray tối thiểu 5 mét; tuyệt đối không cố lách chui qua thanh chắn đang hạ xuống",
+          "Đứng sát ngay cạnh thanh ray tàu để nhìn tàu chạy cho rõ nét",
+          "Kêu gọi các bạn cùng nâng thanh chắn lên cho cả đoàn đi qua"
+        ],
+        "k": "B",
+        "e": "Tàu hỏa chạy tốc độ cao và quãng đường phanh dài hàng trăm mét không thể dừng kịp; tuyệt đối tuân thủ tín hiệu chắn tàu.",
+        "s": "Lối sống 4",
+        "h": "An toàn tuyệt đối tại đường ngang tàu hỏa"
+      },
+      {
+        "c": "LS4-B04-010",
+        "d": "application",
+        "p": "Bạn Nam được bố chở ngồi sau xe máy đi chúc Tết. Bỗng Nam phát hiện một chiếc mũ bảo hiểm đội hơi lỏng rộng quá cỡ đầu mình nên cứ lắc lư tụt che mất mắt, còn quai mũ bị đứt khóa cài. Nam xử lí thế nào?",
+        "o": [
+          "Báo ngay với bố dừng lại đổi ngay cho mình một chiếc mũ bảo hiểm trẻ em vừa cỡ đầu và có khóa quai chắc chắn trước khi nổ máy xuất phát",
+          "Kệ cứ đội tạm chiếc mũ gãy khóa cho nhanh kẻo trễ giờ đi chơi",
+          "Cởi luôn mũ bảo hiểm vứt ở nhà cho nhẹ đầu",
+          "Lấy dây chun buộc tóc buộc tạm quai mũ cho có hình thức"
+        ],
+        "k": "A",
+        "e": "Mũ bảo hiểm quá rộng hoặc gãy khóa không bảo vệ được hộp sọ khi va chạm; luôn chọn mũ đúng cỡ đầu trẻ em.",
+        "s": "Lối sống 4",
+        "h": "Chọn mũ bảo hiểm vừa cỡ và lành khóa"
+      },
+      {
+        "c": "LS4-B04-011",
+        "d": "application",
+        "p": "Trên một đoạn vỉa hè nhỏ hẹp trước cổng trường giờ tan tầm, một số phụ huynh đỗ xe máy kín vỉa hè khiến học sinh phải đi bộ tràn xuống lòng đường xe chạy. Hành động văn minh an toàn của học sinh và gia đình em nên là gì?",
+        "o": [
+          "Nhờ bố mẹ đỗ xe gọn cách cổng trường vài chục mét đúng nơi quy định chừa vỉa hè thông thoáng cho học sinh đi bộ, tránh ùn tắc cổng trường",
+          "Bảo bố chạy thẳng xe máy vào giữa sân trường đỗ ngay trước cửa lớp học",
+          "Đi bộ nghênh ngang thành hàng ngang ngay giữa lòng đường xe ô tô chạy",
+          "Trèo lên yên các xe máy đang đỗ để bước qua cho nhanh"
+        ],
+        "k": "A",
+        "e": "Văn hóa \"Cổng trường An toàn Giao thông\" bắt đầu từ mỗi phụ huynh tự giác đậu xe gọn cách cổng tránh nút thắt cổ chai.",
+        "s": "Lối sống 4",
+        "h": "Xây dựng cổng trường an toàn không ùn tắc"
+      },
+      {
+        "c": "LS4-B04-012",
+        "d": "application",
+        "p": "Vào buổi chập choạng tối mùa đông trời nhanh tối mù sương, khi đi bộ hoặc đạp xe về nhà, những chi tiết nhỏ nào trên quần áo, cặp sách hoặc xe giúp lái xe ô tô – xe máy dễ nhận ra em từ xa tránh va chạm?",
+        "o": [
+          "Đeo tai nghe bật nhạc thật to để khỏi nghe tiếng còi xe",
+          "Mặc áo sáng màu có dải phản quang (hoặc dán miếng phản quang trên cặp sách – mũ bảo hiểm – nan hoa xe đạp) và bật đèn xe đạp nếu có",
+          "Mặc nguyên bộ quần áo đen tuyền từ đầu đến chân để ngụy trang",
+          "Tắt hết đèn và tháo bỏ miếng phản quang màu đỏ sau yên xe đạp"
+        ],
+        "k": "B",
+        "e": "Dải phản quang phản chiếu ánh đèn pha ô tô từ cách xa hơn 100 mét, bảo vệ người đi bộ/xe đạp hiệu quả lúc chạng vạng tối.",
+        "s": "Lối sống 4",
+        "h": "Tăng khả năng nhận diện phản quang buổi tối"
+      },
+      {
+        "c": "LS4-B04-013",
+        "d": "advanced",
+        "p": "Giả sử em đang đi xe đạp cùng một bạn bỗng một chú chó lạ lao ra sủa đuổi hoặc có hòn đá lớn nằm chắn bất ngờ giữa đường. Phản xạ điều khiển xe đạp an toàn để tránh tai nạn liên hoàn với xe cơ giới phía sau là gì?",
+        "o": [
+          "Đạp thật nhanh tốc độ tối đa không nhìn phía trước",
+          "Bóp đều cả hai phanh giảm tốc độ giữ thẳng tay lái dừng sát lề phải; tuyệt đối KHÔNG hoảng loạn đánh ngoặt lái đột ngột ra giữa làn xe chạy",
+          "Quay ngoắt tay lái 90 độ phóng thẳng sang làn ô tô bên trái để né chú chó",
+          "Nhắm tịt cả hai mắt lại và buông rời hai tay khỏi ghi-đông"
+        ],
+        "k": "B",
+        "e": "Phản xạ đánh lái bất ngờ ra làn giữa là nguyên nhân gây nhiều vụ tai nạn giao thông thương tâm; luôn giảm tốc thẳng hướng sát lề an toàn.",
+        "s": "Lối sống 4",
+        "h": "Kĩ năng giữ thẳng làn xử lí bất ngờ không đánh lái ẩu"
+      },
+      {
+        "c": "LS4-B04-014",
+        "d": "advanced",
+        "p": "Tại sao học sinh Lớp 4 (dưới 12 tuổi) KHÔNG ĐƯỢC PHÉP điều khiển xe đạp điện hay xe gắn máy tham gia giao thông ngoài đường phố dù thấy mình đã cao lớn hoặc biết giữ thăng bằng xe?",
+        "o": [
+          "Vì xe đạp điện hết pin không bao giờ sạc được cho trẻ em dưới 12 tuổi",
+          "Vì yên xe đạp điện luôn cao tận 2 mét không trèo lên nổi",
+          "Vì trẻ em dưới 12 tuổi không biết bóp phanh tay",
+          "Xe đạp điện có tốc độ cao và trọng lượng nặng vượt khả năng phản xạ xử lí tình huống phức tạp của trẻ em, dễ gây mất kiểm soát và vi phạm luật"
+        ],
+        "k": "D",
+        "e": "Tuổi nhỏ tầm quan sát ngoại biên, phán đoán tốc độ xe tới và lực xử lí tình huống khẩn cấp chưa hoàn thiện cho xe chạy động cơ điện.",
+        "s": "Lối sống 4",
+        "h": "Lí do an toàn tuổi học sinh chưa đi xe điện"
+      },
+      {
+        "c": "LS4-B04-015",
+        "d": "advanced",
+        "p": "Khi đứng trước đường thẳng thông thoáng có vạch kẻ người đi bộ không có đèn tín hiệu ở phố lớn có nhiều làn xe, quy tắc \"Nhìn trái – Nhìn phải – Nhìn lại bên trái và Giao tiếp bằng ánh mắt\" giúp ích gì khi băng qua đường?",
+        "o": [
+          "Kiểm tra xe tới cả hai hướng đã giảm tốc nhường đường, đồng thời nhìn ánh mắt tài xế xác nhận họ đã thấy mình trước khi bước qua đường dứt khoát",
+          "Để tìm xem có bạn học cùng lớp đang đi bộ ở phía bên kia không",
+          "Để đếm xem trong 1 phút có bao nhiêu chiếc xe màu trắng đi qua",
+          "Chỉ cần nhắm mắt chạy thật nhanh là không cần nhìn bên nào cả"
+        ],
+        "k": "A",
+        "e": "Xác nhận tương tác mắt với người lái xe tránh hoàn toàn rủi ro tài xế mất tập trung hoặc không nhìn thấy trẻ nhỏ vóc dáng thấp.",
+        "s": "Lối sống 4",
+        "h": "Quy tắc quan sát và tương tác mắt qua đường"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong4-c2",
+    "lesson": {
+      "code": "lssong4-b05",
+      "title": "Bài 5. Phòng tránh Tai nạn Thương tích, Bỏng nhiệt và Điện giật trong Gia đình",
+      "seq": 5,
+      "subtitle": "Nhận diện các mối nguy cơ gây bỏng, điện giật, ngộ độc hóa chất, ngã cao và hỏa hoạn ngay trong ngôi nhà quen thuộc; nắm vững kĩ năng sơ cứu ban đầu đúng khoa học (không bôi kem đánh răng lên vết bỏng)",
+      "concepts": [
+        "Phòng tránh bỏng nước sôi, dầu mỡ nóng, bàn là, ống bô xe máy",
+        "Sơ cứu đúng khi bị bỏng nhẹ: làm mát bằng nước sạch mát 15–20 phút",
+        "Phòng tránh điện giật, ngộ độc nhầm chai hóa chất và ngã ban công"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS4-B05-001",
+        "d": "basic",
+        "p": "Nếu không may bị bỏng nhẹ do chạm vào thành nồi canh nóng hoặc nước sôi bắn vào mu bàn tay, việc sơ cứu ĐÚNG KHOA HỌC ĐẦU TIÊN cần làm ngay lập tức là gì?",
+        "o": [
+          "Chọc vỡ ngay các nốt phồng nước bằng kim khâu rồi rắc muối",
+          "Chườm cục nước đá đông cứng trực tiếp lên vết bỏng suốt nửa tiếng",
+          "Đưa ngay vùng da bị bỏng dưới vòi nước sạch mát (không dùng nước đá lạnh buốt) xả nhẹ liên tục từ 15 đến 20 phút để hạ nhiệt nhanh",
+          "Bôi ngay lập tức kem đánh răng, nước mắm hoặc mỡ trăn dày lên vết bỏng"
+        ],
+        "k": "C",
+        "e": "Xả nước mát sạch làm hạ nhiệt độ mô da ngăn bỏng ăn sâu, còn bôi kem đánh răng hay nước mắm gây nhiễm trùng nặng và ủ nhiệt thêm.",
+        "s": "Lối sống 4",
+        "h": "Sơ cứu bỏng chuẩn bằng nước mát sạch"
+      },
+      {
+        "c": "LS4-B05-002",
+        "d": "basic",
+        "p": "Những vị trí và đồ vật nào trong nhà dễ gây bỏng nhiệt cho trẻ nhỏ nhất nếu bất cẩn không chú ý?",
+        "o": [
+          "Phích nước nóng, ấm siêu tốc đang sôi, chảo dầu mỡ bắn trên bếp, bàn ủi (bàn là) vừa cắm và ống xả (bô) xe máy vừa chạy về",
+          "Chiếc thước nhựa đặt trong hộp bút trên bàn học",
+          "Chậu hoa nhựa màu xanh ngoài ban công",
+          "Gối bông ngủ trên giường và cuốn vở viết bài"
+        ],
+        "k": "A",
+        "e": "Để tay cầm chảo quay vào phía trong mặt bếp và đặt phích nước nóng ở kệ cao vững tránh tầm với em nhỏ ngăn phần lớn tai nạn bỏng.",
+        "s": "Lối sống 4",
+        "h": "Nhận diện nguồn gây bỏng trong gia đình"
+      },
+      {
+        "c": "LS4-B05-003",
+        "d": "basic",
+        "p": "Để phòng tránh ngộ độc hóa chất nguy hiểm trong gia đình có trẻ nhỏ, quy tắc lưu trữ nước tẩy rửa, thuốc diệt côn trùng và xăng dầu là gì?",
+        "o": [
+          "Luôn đựng trong chai gốc có nhãn cảnh báo rõ ràng, khóa cất trên tủ cao ngoài tầm với trẻ em và TUYỆT ĐỐI KHÔNG chiết sang vỏ chai nước ngọt, nước suối",
+          "Chiết nước tẩy bồn cầu màu xanh sang vỏ chai nước khoáng đặt cạnh bàn ăn",
+          "Để chai thuốc xịt muỗi ngay cạnh rổ bánh kẹo của em bé",
+          "Xé bỏ hết nhãn mác cảnh báo độc hại trên mọi chai lọ"
+        ],
+        "k": "A",
+        "e": "Chiết hóa chất độc vào vỏ chai nước uống quen thuộc là nguyên nhân hàng đầu khiến trẻ nhỏ và người già uống nhầm nguy hiểm tính mạng.",
+        "s": "Lối sống 4",
+        "h": "Không chiết hóa chất vào vỏ chai nước uống"
+      },
+      {
+        "c": "LS4-B05-004",
+        "d": "basic",
+        "p": "Quan sát bảng phòng tránh tai nạn trong nhà dưới đây. Hành vi nào cực kì nguy hiểm ở khu vực cửa sổ và ban công tầng cao chung cư hoặc nhà nhiều tầng?",
+        "o": [
+          "Không kê bàn ghế đồ vật dễ leo trèo cạnh lan can ban công",
+          "Lắp đặt lưới bảo vệ an toàn hoặc song chắn chắc chắn đúng tiêu chuẩn",
+          "Đặt ghế, chậu hoa sát mép lan can khiến trẻ nhỏ có thể trèo lên cao ngó nhìn ra ngoài dẫn tới trượt ngã từ tầng cao",
+          "Luôn đóng chốt an toàn cửa sổ phòng trẻ nhỏ"
+        ],
+        "k": "C",
+        "e": "Hầu hết tai nạn rơi tầng cao xảy ra khi có bàn ghế/bồn cây kê sát lan can làm \"bậc thang\" cho trẻ hiếu động trèo qua.",
+        "s": "Lối sống 4",
+        "h": "Phòng tránh tai nạn ngã ban công tầng cao",
+        "fig": {
+          "type": "table",
+          "title": "Phòng Tránh Tai nạn Trong Nhà",
+          "head": [
+            "Nguy cơ thường gặp",
+            "Cách phòng ngừa"
+          ],
+          "rows": [
+            [
+              "Bỏng bếp, nước sôi",
+              "Quay cán chảo vào"
+            ],
+            [
+              "Uống nhầm hóa chất",
+              "Giữ nguyên chai gốc"
+            ],
+            [
+              "Ngã ban công cao",
+              "Không kê ghế gần"
+            ],
+            [
+              "Điện giật sinh hoạt",
+              "Tay khô, bịt ổ thấp"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS4-B05-005",
+        "d": "basic",
+        "p": "Nếu phát hiện một mùi hăng nồng nặc của khí ga (gas) rò rỉ nồng trong phòng bếp đóng kín cửa, điều TUYỆT ĐỐI KHÔNG ĐƯỢC LÀM ngay lúc đó là gì?",
+        "o": [
+          "Tuyệt đối không bật tắt công tắc đèn điện, quạt hút hay đánh diêm bật lửa vì tia lửa điện nhỏ sẽ kích nổ khối khí ga ngay lập tức",
+          "Di chuyển mọi người ra khỏi nhà ra chỗ thoáng và gọi người lớn xử lí",
+          "Bình tĩnh khóa ngay van bình ga và mở toang hết các cửa sổ – cửa ra vào cho thoáng khí",
+          "Lấy quạt nan giấy phẩy nhẹ hoặc đứng xa an toàn chờ ga bay hết"
+        ],
+        "k": "A",
+        "e": "Khi ga rò rỉ đầy phòng, chỉ một tia lửa tí hon phát ra khi bấm công tắc đèn cũng đủ gây cháy nổ kinh hoàng; hãy mở cửa thông gió và khóa van ga ngay.",
+        "s": "Lối sống 4",
+        "h": "Phản xạ an toàn tuyệt đối khi ngửi thấy mùi ga"
+      },
+      {
+        "c": "LS4-B05-006",
+        "d": "basic",
+        "p": "Để giữ an toàn cho bản thân và em nhỏ khỏi nguy cơ hóc nghẹn dị vật đường thở khi ăn uống, thói quen nào cần giữ nghiêm trên bàn ăn?",
+        "o": [
+          "Nhét hai đồng xu hay viên bi nhỏ vào miệng ngậm chơi",
+          "Ngồi yên ngay ngắn, ăn miếng nhỏ nhai kĩ, không cười đùa chạy nhảy hay tung hứng đồ ăn khi ngậm thức ăn (hạt nhãn, thạch, xương cá)",
+          "Ngửa cổ lên trời ném hạt lạc vào miệng cho vui",
+          "Vừa chạy đuổi bắt quanh phòng vừa nhét đầy miệng thạch rau câu mềm"
+        ],
+        "k": "B",
+        "e": "Hóc dị vật đường thở làm ngạt thở chỉ trong vài phút; luôn ngồi yên nhai kĩ và không cho em nhỏ chơi vật nhỏ dễ nuốt.",
+        "s": "Lối sống 4",
+        "h": "Phòng tránh hóc nghẹn dị vật đường thở"
+      },
+      {
+        "c": "LS4-B05-007",
+        "d": "application",
+        "p": "Em đang ở nhà trông em bé 4 tuổi giúp mẹ nấu cơm. Bỗng chiếc chảo dầu đang nóng trên bếp có quai cầm thò hẳn ra ngoài mép bàn bếp ngang tầm tay với của em bé đang chạy lại gần. Em xử lí thế nào?",
+        "o": [
+          "Nhanh nhẹn giữ em bé đứng lùi xa khu vực bếp nấu ra phòng khách an toàn và xoay gọn phần cán chảo quay ngược vào phía tường bên trong",
+          "Bưng nguyên chảo dầu đang sôi chạy khắp nhà",
+          "Kệ vì em bé chắc không với tới đâu",
+          "Nhắc em bé tự cầm quai chảo xoay lại hộ mình"
+        ],
+        "k": "A",
+        "e": "Xoay cán nồi chảo quay vào trong tạo vùng cách li an toàn tuyệt đối quanh bếp nấu.",
+        "s": "Lối sống 4",
+        "h": "Phòng ngừa lật đổ chảo nóng với em nhỏ"
+      },
+      {
+        "c": "LS4-B05-008",
+        "d": "application",
+        "p": "Vừa bước ra khỏi nhà tắm với hai bàn tay và bàn chân vẫn còn ướt sũng nước, bạn Minh định đưa tay bấm ngay công tắc đèn hoặc rút phích cắm máy sấy tóc trên tường. Em kịp ngăn Minh lại và bảo Minh làm gì trước?",
+        "o": [
+          "Bảo Minh cứ cắm máy sấy tóc ngay trong khi đứng trong bồn nước",
+          "Bảo Minh chỉ cần chạm nhẹ bằng một đầu ngón tay ướt thật nhanh là không sao",
+          "Bảo Minh lấy chân ướt bấm công tắc cho khỏi ướt tay",
+          "Bảo Minh lau thật khô ráo hai bàn tay và đứng lên thảm khô / đi dép khô ráo trước khi chạm vào bất kì công tắc hay phích cắm điện nào"
+        ],
+        "k": "D",
+        "e": "Nước giảm mạnh điện trở cơ thể; lau khô tay và đứng nơi khô ráo là quy tắc an toàn điện sống còn.",
+        "s": "Lối sống 4",
+        "h": "Tay khô ráo mới chạm công tắc ổ cắm"
+      },
+      {
+        "c": "LS4-B05-009",
+        "d": "application",
+        "p": "Nếu quần áo đang mặc trên người bất ngờ bén phải ngọn lửa nhỏ (ví dụ gần bếp lửa hoặc nến), phản xạ \"Dừng lại – Nằm xuống – Lăn tròn\" (Stop, Drop and Roll) giúp dập lửa thế nào?",
+        "o": [
+          "Dừng chạy ngay (vì chạy làm gió thổi lửa bùng to), nằm áp xuống sàn, lấy hai tay che mặt và lăn tròn qua lại ép chặt dập tắt ngọn lửa",
+          "Tự lấy chổi quét vào ngọn lửa trên áo mình",
+          "Đứng nguyên giơ hai tay lên trời hét to thật lâu",
+          "Chạy thật nhanh ra ngoài sân gió to cho lửa tự bay mất"
+        ],
+        "k": "A",
+        "e": "Chạy làm tăng nguồn gió oxi thổi bùng lửa lên vùng đầu mặt; nằm lăn tròn chặn oxi cứu sống cơ thể khỏi bỏng diện rộng.",
+        "s": "Lối sống 4",
+        "h": "Kĩ năng \"Dừng lại - Nằm xuống - Lăn tròn\" khi cháy áo"
+      },
+      {
+        "c": "LS4-B05-010",
+        "d": "application",
+        "p": "Trong một phòng ngủ có lắp điều hòa bật kín mít nhưng nhà bị mất điện vào ngày nóng hoặc rét nên một số gia đình định mang bếp than tổ ong vào đốt ngay trong phòng kín cửa. Vì sao em phải kiên quyết ngăn gia đình tuyệt đối KHÔNG làm điều này?",
+        "o": [
+          "Vì đốt than trong phòng kín sản sinh lượng lớn khí độc CO (Cacbon mônôxit) không màu không mùi làm mọi người ngạt thở hôn mê tử vong âm thầm trong lúc ngủ",
+          "Vì than tổ ong làm sàn gạch đổi màu vàng",
+          "Vì mùi than làm điều hòa bị hỏng ngay lập tức",
+          "Vì bếp than làm phòng quá sáng khiến mọi người không ngủ ngon được"
+        ],
+        "k": "A",
+        "e": "Ngộ độc khí CO từ đốt than củi hay nổ máy phát điện trong phòng kín là tai nạn thương tâm rất hay gặp ở nhiều gia đình.",
+        "s": "Lối sống 4",
+        "h": "Cảnh báo ngộ độc khí CO chết người khi đốt than phòng kín"
+      },
+      {
+        "c": "LS4-B05-011",
+        "d": "application",
+        "p": "Lỡ tay đánh rơi làm vỡ một chiếc cốc thủy tinh xuống nền gạch nhà bếp thành nhiều mảnh vụn li ti sắc bén. Quy trình thu dọn mảnh vỡ thủy tinh an toàn nhất không làm đứt tay hay sót mảnh đâm vào chân là gì?",
+        "o": [
+          "Dùng tay trần nhặt từng mảnh thủy tinh ném vào túi nilon mỏng dính rồi vứt lẫn vào đất vườn",
+          "Đi dép dày, giữ em nhỏ tránh xa, quét gom mảnh lớn bọc báo dày ghi \"Mảnh vỡ\", dùng khăn giấy ẩm thấm sạch vụn li ti rồi bỏ thùng rác riêng",
+          "Lấy máy sấy tóc thổi bay tung mảnh vụn thủy tinh khắp phòng",
+          "Dùng chân trần đẩy các mảnh vỡ vào dưới gầm tủ lạnh cho khuất mắt"
+        ],
+        "k": "B",
+        "e": "Dùng khăn giấy ẩm gấp dày dặm hút các mảnh kính bụi siêu nhỏ giúp nền nhà sạch tuyệt đối không còn vụn sắc đâm chân.",
+        "s": "Lối sống 4",
+        "h": "Quy trình dọn sạch mảnh thủy tinh vỡ an toàn"
+      },
+      {
+        "c": "LS4-B05-012",
+        "d": "application",
+        "p": "Trong nhà có ổ cắm điện đặt ở vị trí thấp gần tầm với của em bé 2 tuổi hay tò mò. Thiết bị phụ trợ rẻ tiền mà cực kì hữu ích lắp vào lỗ ổ cắm chưa sử dụng là gì?",
+        "o": [
+          "Cắm sẵn một chiếc đinh sắt vào lỗ ổ cắm để giữ chỗ",
+          "Dán một mảnh giấy báo mỏng lên trên lỗ ổ cắm",
+          "Nút bịt ổ cắm an toàn bằng nhựa cách điện (lắp khít vào các lỗ ổ cắm trống để trẻ nhỏ không chọc ngón tay hay que sắt vào được)",
+          "Bôi nước xà phòng lên mặt ổ cắm"
+        ],
+        "k": "C",
+        "e": "Nút che an toàn cho ổ cắm thấp ngăn chặn triệt để tai nạn trẻ em dùng chìa khóa hay đũa sắt chọc vào điện lưới.",
+        "s": "Lối sống 4",
+        "h": "Dùng nút bịt ổ cắm bảo vệ trẻ nhỏ"
+      },
+      {
+        "c": "LS4-B05-013",
+        "d": "advanced",
+        "p": "Giả sử khi trong phòng hoặc hành lang chung cư xuất hiện khói đen dày đặc do cháy nhỏ ở tầng dưới, tại sao kĩ năng thoát nạn dạy mọi người phải \"dùng khăn ướt che mũi miệng và cúi thấp người bò sát mặt sàn\" khi di chuyển tìm lối thoát hiểm?",
+        "o": [
+          "Vì bò sát mặt sàn giúp chạy nhanh gấp ba lần đứng thẳng chạy bình thường",
+          "Để tìm xem có đồng xu nào đánh rơi dưới sàn không",
+          "Vì ngọn lửa chỉ cháy ở đúng vị trí độ cao ngang thắt lưng người lớn",
+          "Khí nóng khói độc nhẹ bay dồn lên sát trần, còn lớp không khí sát sàn giữ được oxi sạch hơn giúp tránh ngạt độc khi tìm cầu thang thoát nạn"
+        ],
+        "k": "D",
+        "e": "Hơn 80% nạn nhân trong đám cháy tử vong do ngạt khói độc chứ không phải lửa; bò thấp sát sàn và thấm khăn ướt lọc khói là kĩ năng sinh tồn vàng.",
+        "s": "Lối sống 4",
+        "h": "Nguyên lí cúi thấp khăn ướt thoát hiểm đám cháy"
+      },
+      {
+        "c": "LS4-B05-014",
+        "d": "advanced",
+        "p": "Khi em phát hiện có ngọn lửa cháy phát sinh từ chảo dầu ăn quá nóng trên bếp (cháy dầu mỡ), tuyệt đối KHÔNG được dội thẳng ca nước lạnh vào chảo dầu đang cháy vì sao và cách dập đúng tại chỗ là gì?",
+        "o": [
+          "Bưng chảo dầu đang cháy chạy thẳng vào phòng ngủ giấu đi",
+          "Dội thật nhiều nước lạnh càng mạnh vào chảo dầu càng tắt nhanh nhất",
+          "Thổi thật mạnh bằng miệng vào giữa chảo dầu đang bốc lửa",
+          "Nước bùng hơi làm bắn tung dầu lửa lan khắp bếp; cách đúng là ngắt bếp rồi đậy vung kim loại lớn kín miệng chảo (hoặc chăn ướt) để cắt oxi"
+        ],
+        "k": "D",
+        "e": "Cháy dầu mỡ (Cháy loại B/K) dập bằng cách đậy nắp kín cắt oxi hoặc bình bột/CO2 – không bao giờ dội nước.",
+        "s": "Lối sống 4",
+        "h": "Cách dập cháy chảo dầu đúng khoa học"
+      },
+      {
+        "c": "LS4-B05-015",
+        "d": "advanced",
+        "p": "Nhiều bạn nhỏ lầm tưởng: \"Trong nhà mình quen thuộc lắm nên cứ tự tin làm gì cũng an toàn hết, chỉ ngoài đường mới nguy hiểm!\". Nhận xét số liệu thực tế về tai nạn thương tích trẻ em giúp thay đổi suy nghĩ chủ quan này thế nào?",
+        "o": [
+          "Chỉ có nhà hàng xóm mới nguy hiểm còn nhà mình luôn an toàn 100%",
+          "Tỉ lệ tai nạn bỏng, ngã, điện giật, hóc dị vật ở trẻ xảy ra ngay tại gia đình rất cao do tâm lí chủ quan thiếu sắp xếp an toàn từ đồ quen thuộc",
+          "Hoàn toàn đúng, trong nhà riêng không bao giờ có bất kì nguy hiểm nào xảy ra được",
+          "Càng sống lâu trong nhà thì đồ điện tự động mất hết khả năng gây giật"
+        ],
+        "k": "B",
+        "e": "Cẩn trọng và rà soát loại bỏ các mối nguy trong chính ngôi nhà quen thuộc bảo vệ bình yên cho cả gia đình mỗi ngày.",
+        "s": "Lối sống 4",
+        "h": "Xóa bỏ tâm lí chủ quan ngay trong chính nhà mình"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong4-c2",
+    "lesson": {
+      "code": "lssong4-b06",
+      "title": "Bài 6. Phòng chống Đuối nước và Kĩ năng An toàn khi Bơi lội, Du lịch Sông biển",
+      "seq": 6,
+      "subtitle": "Nắm vững các quy tắc phòng tránh đuối nước ở sông hồ, ao suối và bể bơi; biết kĩ năng xử lí khi bị chuột rút, khi gặp vùng nước xoáy và tuyệt đối không nhảy xuống cứu người nếu không biết kĩ thuật cứu hộ an toàn",
+      "concepts": [
+        "Nhận diện nguy cơ đuối nước ở sông hồ, hố công trình, bờ biển, bể bơi",
+        "Quy tắc khởi động trước bơi, mặc áo phao khi đi thuyền đò và bơi nơi có cứu hộ",
+        "Kĩ năng cứu đuối gián tiếp an toàn: Hô hoán – Ném phao/Gậy sào – KHÔNG nhảy xuống khi không đủ kĩ năng"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS4-B06-001",
+        "d": "basic",
+        "p": "Địa điểm nào sau đây an toàn nhất cho học sinh Lớp 4 tập bơi hoặc vui chơi dưới nước vào mùa hè?",
+        "o": [
+          "Ao sâu, hố nước công trình đang đào dở không có rào chắn",
+          "Bờ biển lúc đang nổi sóng to gió bão giật mạnh",
+          "Bể bơi đạt chuẩn có phân chia độ sâu rõ ràng, có nhân viên cứu hộ trực quan sát và có người lớn đi kèm",
+          "Đoạn sông lớn chảy xiết nước đục ngầu không có người lớn nào"
+        ],
+        "k": "C",
+        "e": "Chỉ bơi tại khu vực có người giám sát, độ sâu phù hợp sức mình và có lực lượng cứu hộ chuyên nghiệp.",
+        "s": "Lối sống 4",
+        "h": "Chọn địa điểm bơi lội an toàn"
+      },
+      {
+        "c": "LS4-B06-002",
+        "d": "basic",
+        "p": "Khi lên thuyền, ca-nô, đò ngang qua sông hoặc đi du lịch tàu thủy trên vịnh biển, vật dụng bảo hộ BẮT BUỘC mọi hành khách kể cả người biết bơi giỏi phải mặc ngay là gì?",
+        "o": [
+          "Một chiếc mũ lưỡi trai vải mỏng",
+          "Một cặp kính râm thời trang",
+          "Áo mưa nilon mỏng cài khuy",
+          "Áo phao cứu sinh cài chặt đầy đủ khóa dây đúng cỡ người"
+        ],
+        "k": "D",
+        "e": "Kể cả người bơi giỏi khi gặp sự cố lật thuyền giữa sông sóng lớn, lạnh hay va đập vẫn có thể đuối sức; áo phao giữ nổi đầu trên mặt nước chờ cứu hộ.",
+        "s": "Lối sống 4",
+        "h": "Bắt buộc mặc áo phao khi đi tàu thuyền"
+      },
+      {
+        "c": "LS4-B06-003",
+        "d": "basic",
+        "p": "Trước khi bước xuống hồ bơi, động tác bắt buộc cần làm từ 5 đến 10 phút trên bờ là gì để tránh bị chuột rút bất ngờ dưới nước?",
+        "o": [
+          "Uống liên tiếp một lít nước đá lạnh rồi lao đầu xuống đáy hồ",
+          "Khởi động xoay kĩ các khớp tay, chân, cổ, eo và làm ướt nhẹ cơ thể thích nghi nhiệt độ nước trước khi xuống hồ",
+          "Ngồi yên một chỗ không cử động gì cho tiết kiệm sức",
+          "Ăn thật no căng bụng một bát phở lớn rồi nhảy ùm xuống nước ngay lập tức"
+        ],
+        "k": "B",
+        "e": "Khởi động làm nóng cơ bắp và làm quen nhiệt độ nước ngăn ngừa chuột rút đột ngột và sốc nhiệt.",
+        "s": "Lối sống 4",
+        "h": "Khởi động kĩ phòng tránh chuột rút"
+      },
+      {
+        "c": "LS4-B06-004",
+        "d": "basic",
+        "p": "Quan sát bảng quy tắc phòng chống đuối nước sau. Khi nhìn thấy một bạn bị trượt chân rơi xuống ao sâu và đang vùng vẫy kêu cứu, điều ĐẦU TIÊN một học sinh Lớp 4 cần làm (và điều CẤM làm) là gì?",
+        "o": [
+          "Quay lưng chạy thẳng về nhà đi ngủ giấu kín không nói với ai",
+          "Hô hoán thật to gọi người lớn tới cứu đồng thời tìm sào dài, dây hoặc phao nổi ném ra cho bạn bám; TUYỆT ĐỐI KHÔNG nhảy xuống ôm kéo bạn",
+          "Đứng nhìn bạn chìm xuống mới bắt đầu đi tìm người lớn",
+          "Im lặng lao thẳng xuống nước ôm chầm lấy người bạn đang hoảng loạn"
+        ],
+        "k": "B",
+        "e": "Người sắp đuối nước hoảng loạn có sức ghì cực mạnh sẽ kéo chìm theo cả người nhảy xuống cứu; phải cứu GIÁN TIẾP từ trên bờ an toàn.",
+        "s": "Lối sống 4",
+        "h": "Nguyên tắc vàng cứu đuối gián tiếp an toàn",
+        "fig": {
+          "type": "table",
+          "title": "An toàn Phòng Chống Đuối nước",
+          "head": [
+            "Tình huống",
+            "Quy tắc vàng"
+          ],
+          "rows": [
+            [
+              "Đi thuyền, đò, phà",
+              "Mặc áo phao cài khóa"
+            ],
+            [
+              "Trước khi xuống bơi",
+              "Khởi động 5 - 10p"
+            ],
+            [
+              "Thấy bạn đuối nước",
+              "Hô to, ném phao/sào"
+            ],
+            [
+              "Chưa biết cứu hộ",
+              "Không nhảy xuống ôm"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS4-B06-005",
+        "d": "basic",
+        "p": "Những vật dụng quen thuộc nào sẵn có ở bờ hồ hoặc gia đình có thể tận dụng ném ngay làm vật nổi khẩn cấp cho người rơi xuống nước?",
+        "o": [
+          "Viên gạch đặc hoặc hòn đá tảng to nặng",
+          "Một nắm cát khô",
+          "Phao tròn, can nhựa rỗng đậy kín nắp, chai nhựa to rỗng buộc chùm lại, quả bóng nhựa lớn hoặc tấm xốp dày",
+          "Một tờ giấy báo mỏng ướt nước"
+        ],
+        "k": "C",
+        "e": "Các vật rỗng chứa khí nhẹ hơn nước (can nhựa, chai nước rỗng đậy nắp) giúp người bị nạn bám giữ đầu nổi lên mặt nước chờ cứu.",
+        "s": "Lối sống 4",
+        "h": "Tận dụng vật nổi quanh bờ cứu nạn"
+      },
+      {
+        "c": "LS4-B06-006",
+        "d": "basic",
+        "p": "Vì sao khi ăn uống quá no căng bụng hoặc khi vừa đi nắng gắt mồ hôi đầm đìa về lại KHÔNG nên nhảy xuống hồ bơi, sông suối tắm ngay lập tức?",
+        "o": [
+          "Vì mồ hôi sẽ làm mất hết nước trong sông",
+          "Vì nước hồ bơi sẽ biến thành màu đục ngay khi người no bước xuống",
+          "Vì ăn no quá sẽ làm chìm cả áo phao xuống đáy bể",
+          "Vừa ăn no dễ gây tức bụng chuột rút nôn ói sặc nước; còn đang nóng nắng nhảy xuống nước lạnh dễ bị sốc nhiệt co mạch ngất xỉu dưới nước"
+        ],
+        "k": "D",
+        "e": "Nghỉ ngơi hạ nhiệt lau khô mồ hôi 15 phút (và đợi sau ăn chính khoảng 1–2 giờ) mới xuống nước bơi an toàn.",
+        "s": "Lối sống 4",
+        "h": "Tránh bơi lúc vừa ăn no hoặc đang nóng gắt"
+      },
+      {
+        "c": "LS4-B06-007",
+        "d": "application",
+        "p": "Bạn Hùng mới biết bơi được vài mét trong bể cạn, nhưng sang nghỉ hè về quê thấy dòng sông nước chảy êm bề mặt nên định rủ hai bạn nữa cởi quần áo nhảy ùm xuống giữa sông thi bơi sang bờ bên kia. Em can ngăn Hùng ngay bằng lí do nào đúng nhất?",
+        "o": [
+          "Nước sông quê bẩn làm hỏng màu quần áo bơi mới mua",
+          "Dưới sông không có gạch men nên đạp chân không êm",
+          "Bơi ở sông tốn thời gian hơn ở bể bơi thành phố",
+          "Mặt sông êm nhưng bên dưới hay có dòng chảy ngầm xiết, hố sâu bất ngờ, rong rêu quấn chân và không có cứu hộ; nhảy xuống cực kì nguy hiểm"
+        ],
+        "k": "D",
+        "e": "Sông hồ tự nhiên ẩn chứa hố xoáy sâu, bùn lầy và dòng chảy ngầm rất khác hồ bơi nhân tạo phẳng đáy.",
+        "s": "Lối sống 4",
+        "h": "Cảnh báo nguy hiểm sông hồ tự nhiên"
+      },
+      {
+        "c": "LS4-B06-008",
+        "d": "application",
+        "p": "Trong khi đang bơi ở hồ bơi hợp chuẩn bỗng nhiên em cảm thấy bắp chân bị co cứng đau buốt (chuột rút) khiến chân không đạp tiếp được. Kĩ năng xử lí bình tĩnh tại chỗ đúng nhất là gì?",
+        "o": [
+          "Bắt một bạn nhỏ khác đang bơi cạnh cõng mình trên lưng",
+          "Giữ bình tĩnh không vùng vẫy, thả lỏng nằm ngửa nổi mặt hít thở đều (hoặc bám thành bể), gọi cứu hộ và nhẹ nhàng gập mũi chân về phía gối",
+          "Cố nén đau ngụp đầu sâu xuống tận đáy bể ngồi nghỉ",
+          "Hoảng sợ quẫy đập hai tay thật mạnh liên tục xuống đáy hồ và há miệng la hét dưới nước"
+        ],
+        "k": "B",
+        "e": "Nằm ngửa nổi trên mặt nước (tư thế \"con sao biển\" giữ phổi chứa khí) tiết kiệm năng lượng tối đa để chờ cứu hộ tới kéo vào bờ.",
+        "s": "Lối sống 4",
+        "h": "Xử lí bình tĩnh khi bị chuột rút dưới nước"
+      },
+      {
+        "c": "LS4-B06-009",
+        "d": "application",
+        "p": "Khi đi tắm biển cùng gia đình, nhân viên cứu hộ cắm cờ ĐỎ tại một khu vực bãi biển hoặc thông báo có \"Dòng chảy xa bờ\" (Rip current – dải nước sẫm màu lặng sóng bất ngờ kéo tuột người ra ngoài khơi). Nếu vô tình bị cuốn vào dòng chảy này, quy tắc bơi thoát hiểm là gì?",
+        "o": [
+          "Chống hai chân xuống đáy cát biển thật mạnh",
+          "Không cố bơi ngược dòng làm kiệt sức; hãy giữ bình tĩnh nổi giữ sức và bơi SONG SONG với bờ biển thoát khỏi dải dòng chảy hẹp rồi bơi vào bờ",
+          "Cố dốc hết toàn bộ sức lực bơi ngược thẳng vào hướng bãi cát đứng đối diện dòng nước",
+          "Ngậm nước biển và đứng im chịu trận bị cuốn ra xa"
+        ],
+        "k": "B",
+        "e": "Dòng chảy xa bờ rất hẹp theo chiều ngang nhưng kéo ra khơi cực mạnh; bơi ngang song song bờ thoát ra ngoài luồng nước là kĩ năng cứu mạng ở biển.",
+        "s": "Lối sống 4",
+        "h": "Kĩ năng thoát dòng chảy xa bờ (Rip current)"
+      },
+      {
+        "c": "LS4-B06-010",
+        "d": "application",
+        "p": "Một nhóm bạn rủ nhau chơi trò đùa ác ý ở hồ bơi: lén đẩy bất ngờ bạn đứng trên thành bể ngã ngửa xuống nước hoặc nhấn dìm đầu bạn xuống nước lâu xem ai nín thở giỏi hơn. Hành vi này nguy hiểm ra sao?",
+        "o": [
+          "Đẩy ngã làm đầu đập vào thành bể bất tỉnh hoặc sặc nước tràn phổi tức thì; nhấn dìm nước gây ngạt thở tử vong cực kì nguy hiểm",
+          "Chỉ làm bạn hơi ướt tóc một chút chứ chẳng có nguy cơ nào",
+          "Trò chơi đó rất vui giúp bạn tự động biết bơi chỉ trong 5 giây",
+          "Giúp tăng tình đoàn kết trong nhóm bạn lớp 4"
+        ],
+        "k": "A",
+        "e": "Tuyệt đối nghiêm cấm mọi trò xô đẩy, nhấn dìm, nhảy cắm đầu nơi nước nông ở bể bơi và bờ sông.",
+        "s": "Lối sống 4",
+        "h": "Nghiêm cấm trò đùa xô đẩy, nhấn dìm dưới nước"
+      },
+      {
+        "c": "LS4-B06-011",
+        "d": "application",
+        "p": "Sau một trận mưa lớn dài ngày, nước ngoài đường phố và các ao hồ dâng cao ngập lấp miệng cống thoát nước không nhìn rõ ranh giới bờ. Khi di chuyển về nhà qua vùng ngập lụt, nguyên tắc an toàn bắt buộc là gì?",
+        "o": [
+          "Chạy nhảy lội ùa vào chỗ nước xoáy ùng ục cạnh vỉa hè để bắt cá",
+          "Bám tay vào cột đèn thép giữa vũng nước ngập để nghỉ chân",
+          "Không đi vào đoạn đường nước chảy xiết hoặc ngập sâu quá đầu gối khi không có người lớn dắt và gậy dò đường, tránh xa cột điện và miệng cống xoáy nước hở nắp",
+          "Lấy xe đạp lao thẳng qua cầu tràn đang ngập ngập bánh xe một mình"
+        ],
+        "k": "C",
+        "e": "Mùa mưa lũ ẩn chứa cống mất nắp cuốn người, hố sâu và rò điện cột đèn ngập nước cực kì nguy hiểm.",
+        "s": "Lối sống 4",
+        "h": "An toàn phòng chống đuối nước mùa mưa lũ"
+      },
+      {
+        "c": "LS4-B06-012",
+        "d": "application",
+        "p": "Quan sát biểu đồ thống kê các nguyên nhân phổ biến gây tai nạn đuối nước ở trẻ em tiểu học. Biện pháp phòng ngừa chiến lược quan trọng nhất từ góc độ gia đình và nhà trường là gì?",
+        "o": [
+          "Phổ cập kĩ năng bơi an toàn và sinh tồn dưới nước cho trẻ sớm, kết hợp luôn có người lớn giám sát chặt và rào chắn biển báo các ao hồ nguy hiểm",
+          "Cấm trẻ em không bao giờ được uống nước lọc nữa",
+          "Chờ lên cấp 3 mới bắt đầu cho trẻ tìm hiểu về kĩ năng phòng tránh đuối nước",
+          "Chỉ cần mua thật nhiều quần áo bơi đẹp mặc đi học"
+        ],
+        "k": "A",
+        "e": "Trang bị \"áo phao tự nhiên\" (biết bơi và biết nổi tự cứu) kết hợp giám sát người lớn giảm thiểu tối đa tai nạn thương tâm.",
+        "s": "Lối sống 4",
+        "h": "Đọc số liệu nguyên nhân phòng chống đuối nước",
+        "fig": {
+          "type": "bars",
+          "title": "Nguyên nhân đuối nước phổ biến (%)",
+          "labels": [
+            "Chủ quan chơi ao hồ",
+            "Thiếu người giám sát",
+            "Chưa biết bơi & nổi",
+            "Bão lũ, sạt lở"
+          ],
+          "series": [
+            {
+              "values": [
+                38,
+                27,
+                25,
+                10
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "c": "LS4-B06-013",
+        "d": "advanced",
+        "p": "Nhiều bạn nhỏ tự hào: \"Tớ biết bơi sải rất nhanh trong hồ bơi rồi nên không bao giờ tớ có thể bị đuối nước nữa đâu!\". Suy nghĩ chủ quan này ẩn chứa sai lầm chết người nào?",
+        "o": [
+          "Bơi trong hồ tĩnh khác hẳn sinh tồn nơi sông biển nước lạnh, sóng xoáy hay chuột rút; tâm lí chủ quan khiến trẻ dễ thử thách ở vùng nguy hiểm",
+          "Người biết bơi nhanh thì không bao giờ bị chuột rút dưới nước",
+          "Càng bơi ra giữa sông sâu rộng càng an toàn hơn gần bờ",
+          "Không sai chút nào; đã biết bơi 25 mét thì bơi giữa đại dương cũng hoàn toàn an toàn"
+        ],
+        "k": "A",
+        "e": "Khái niệm \"Bơi an toàn\" khác \"Bơi thành tích\": bơi an toàn bao gồm nhận biết giới hạn bản thân, biết nổi ngửa bảo toàn sức và không coi thường thiên nhiên.",
+        "s": "Lối sống 4",
+        "h": "Phân biệt biết bơi và năng lực phòng đuối nước"
+      },
+      {
+        "c": "LS4-B06-014",
+        "d": "advanced",
+        "p": "Giả sử em đi bơi cùng 3 người bạn ở bể bơi ngoài trời vào một buổi chiều bỗng nghe tiếng sấm rền vang và thấy tia chớp sáng lóe từ xa trên bầu trời. Quy tắc an toàn ngay lập tức cho tất cả mọi người dưới hồ bơi là gì?",
+        "o": [
+          "Cầm ô cán sắt đứng ngay giữa thành hồ bơi chờ mưa tạnh",
+          "Tiếp tục ngụp lặn dưới mặt nước hồ bơi suốt cơn giông vì nghĩ nước không dẫn sét",
+          "Lập tức lên khỏi hồ bơi ngay dù trời chưa đổ mưa, di chuyển vào bên trong nhà mái kín khô ráo tránh xa mặt nước rộng và cột cao",
+          "Chạy ra đứng trú mưa dưới gốc cây cao đơn độc sát bể bơi"
+        ],
+        "k": "C",
+        "e": "Khi có sấm sét (kể cả từ xa), mặt nước hồ bơi/bãi biển trống là nơi cực kì hút tia sét và dẫn điện lan tỏa chết người.",
+        "s": "Lối sống 4",
+        "h": "Thoát khỏi hồ bơi lập tức khi có sấm sét"
+      },
+      {
+        "c": "LS4-B06-015",
+        "d": "advanced",
+        "p": "Tổng hợp quy trình an toàn \"Nước an toàn 3 lớp\" bảo vệ trẻ em suốt 4 mùa gồm những lớp lá chắn nào phối hợp với nhau?",
+        "o": [
+          "Lớp 1: Môi trường an toàn (rào ao, áo phao) – Lớp 2: Giám sát của người lớn – Lớp 3: Trẻ biết bơi, nổi sinh tồn và không tắm sông tự do",
+          "Chỉ cần dặn trẻ em không đi học bơi là an toàn 100%",
+          "Chỉ cần một lớp duy nhất là treo biển cấm còn không cần biết bơi hay giám sát",
+          "Chỉ mặc áo phao khi ngồi trên ô tô chạy trên cầu"
+        ],
+        "k": "A",
+        "e": "Phòng chống đuối nước hiệu quả tuyệt đối khi kết hợp đồng bộ Môi trường – Giám sát – Kĩ năng tự bảo vệ của trẻ.",
+        "s": "Lối sống 4",
+        "h": "Hệ thống lá chắn an toàn 3 lớp phòng đuối nước"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong4-c3",
+    "lesson": {
+      "code": "lssong4-b07",
+      "title": "Bài 7. Sử dụng Điện, Nước Tiết kiệm và Bảo quản Đồ dùng Gia đình",
+      "seq": 7,
+      "subtitle": "Thực hành thói quen tắt thiết bị điện không dùng, khóa vòi nước chống lãng phí, giữ gìn sách vở đồ dùng học tập và phân loại bảo quản tài sản chung trong gia đình",
+      "concepts": [
+        "Thói quen tắt đèn quạt, tận dụng ánh sáng và gió tự nhiên",
+        "Khóa kín vòi nước, tái sử dụng nước sạch hợp lí",
+        "Giữ gìn, sửa chữa nhỏ sách vở và đồ dùng gia đình"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS4-B07-001",
+        "d": "basic",
+        "p": "Hành động đơn giản nào giúp tiết kiệm điện năng rõ rệt nhất ngay trong sinh hoạt hằng ngày tại phòng học hoặc phòng ngủ của em?",
+        "o": [
+          "Mở toang cửa sổ trời nắng gắt đồng thời bật điều hòa 18 độ",
+          "Bật tất cả đèn trần và máy lạnh cả ngày ngay cả khi không có ai ở nhà",
+          "Cắm sạc máy tính bảng suốt 24 giờ liên tục",
+          "Tắt đèn, quạt, ti vi và rút phích sạc khi ra khỏi phòng quá 5 phút; tận dụng ánh sáng và gió tự nhiên ban ngày"
+        ],
+        "k": "D",
+        "e": "Tắt thiết bị khi không sử dụng giúp giảm hóa đơn tiền điện và giảm phát thải bảo vệ môi trường.",
+        "s": "Lối sống 4",
+        "h": "Thói quen tắt thiết bị điện khi ra khỏi phòng"
+      },
+      {
+        "c": "LS4-B07-002",
+        "d": "basic",
+        "p": "Khi đánh răng rửa mặt hoặc rửa tay bằng xà phòng trước bồn rửa, mẹo nhỏ nào giúp tiết kiệm hàng chục lít nước sạch mỗi ngày?",
+        "o": [
+          "Vặn vòi nước chảy rỉ tí tách suốt đêm",
+          "Dùng vòi xịt sân vườn thật mạnh để rửa một cái thìa nhỏ",
+          "Khóa vòi nước trong lúc đang chải răng hay xoa xà phòng, chỉ mở vừa đủ khi súc miệng và tráng sạch tay",
+          "Xả vòi nước chảy xối xả suốt từ đầu đến cuối lúc đánh răng"
+        ],
+        "k": "C",
+        "e": "Một vòi nước mở xả liên tục trong 3 phút đánh răng tốn tới hơn 15 lít nước sạch lãng phí.",
+        "s": "Lối sống 4",
+        "h": "Khóa vòi nước khi chải răng, xoa xà phòng"
+      },
+      {
+        "c": "LS4-B07-003",
+        "d": "basic",
+        "p": "Khi sử dụng tủ lạnh trong gia đình, thói quen nào vừa tiết kiệm điện vừa giữ thực phẩm tươi ngon lâu hơn?",
+        "o": [
+          "Mở toang cửa tủ lạnh đứng hóng mát và suy nghĩ 5 phút xem ăn gì",
+          "Để thức ăn thừa vừa nấu sôi sùng sục bỏ ngay vào ngăn mát",
+          "Nghĩ trước món cần lấy rồi mở cửa nhanh và đóng khít ngay; không cất đồ ăn đang nóng bốc hơi vào thẳng tủ lạnh",
+          "Nhét đầy ắp thực phẩm che kín hoàn toàn khe thổi gió lạnh"
+        ],
+        "k": "C",
+        "e": "Mỗi lần mở tủ lạnh lâu làm hơi lạnh thoát ra ngoài khiến máy nén phải chạy hết công suất tốn nhiều điện.",
+        "s": "Lối sống 4",
+        "h": "Dùng tủ lạnh đúng cách tiết kiệm điện"
+      },
+      {
+        "c": "LS4-B07-004",
+        "d": "basic",
+        "p": "Quan sát bảng hướng dẫn tiết kiệm điện nước gia đình dưới đây. Cách sử dụng nước hợp lí nào tận dụng tốt nguồn nước thứ cấp?",
+        "o": [
+          "Mở vòi nước sân cho chảy tràn ra đường buổi trưa cho mát",
+          "Dùng nước lọc đóng chai tinh khiết để rửa xe đạp mỗi tuần",
+          "Xả đầy bồn tắm lớn chỉ để ngâm một chiếc khăn tay nhỏ",
+          "Hứng lại nước vo gạo hoặc nước rửa rau sạch để tưới chậu cây cảnh ngoài ban công thay vì đổ bỏ hết xuống cống"
+        ],
+        "k": "D",
+        "e": "Tái sử dụng nước vo gạo, nước rửa rau vừa tiết kiệm nước máy vừa cung cấp thêm chất dinh dưỡng cho cây.",
+        "s": "Lối sống 4",
+        "h": "Tái sử dụng nước sinh hoạt thông minh",
+        "fig": {
+          "type": "table",
+          "title": "Tiết kiệm Điện & Nước",
+          "head": [
+            "Thiết bị / Nguồn",
+            "Mẹo dùng tốt"
+          ],
+          "rows": [
+            [
+              "Đèn, quạt, ti vi",
+              "Tắt khi ra khỏi"
+            ],
+            [
+              "Điều hòa nhiệt độ",
+              "Đặt 26 - 28 độ C"
+            ],
+            [
+              "Vòi rửa sinh hoạt",
+              "Khóa khi xoa bọt"
+            ],
+            [
+              "Nước vo gạo, rửa rau",
+              "Dùng tưới cây xanh"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS4-B07-005",
+        "d": "basic",
+        "p": "Với sách giáo khoa, vở viết và hộp bút hằng ngày, cách bảo quản nào giúp đồ dùng học tập bền đẹp suốt năm học?",
+        "o": [
+          "Bẻ gãy thước kẻ nhựa để kiểm tra độ cứng",
+          "Gấp quăn mép trang sách làm đánh dấu rồi vứt bừa xuống gầm giường",
+          "Bọc bìa sách gọn gàng, viết sạch sẽ không vẽ bậy hay xé trang giữa, cất gọn vào cặp và giữ đầu bút, tẩy ngay ngắn",
+          "Xé giấy vở mới tinh gấp hàng chục máy bay phóng khắp sân"
+        ],
+        "k": "C",
+        "e": "Giữ gìn sách vở sạch đẹp giúp cuối năm có thể tặng lại các em lớp dưới hoặc góc thư viện xanh.",
+        "s": "Lối sống 4",
+        "h": "Bảo quản sách vở và đồ dùng học tập"
+      },
+      {
+        "c": "LS4-B07-006",
+        "d": "basic",
+        "p": "Khi phát hiện một chiếc vòi nước trong nhà vệ sinh dù đã vặn khóa hết cỡ vẫn bị nhỏ giọt liên tục \"tỏng, tỏng\", em nên làm gì?",
+        "o": [
+          "Lấy búa đập mạnh vào tay vặn vòi cho rụng ra hẳn",
+          "Lấy băng dính giấy dán tạm lên miệng vòi nước",
+          "Báo ngay cho bố mẹ kiểm tra thay gioăng cao su hoặc sửa khóa vòi, đồng thời tạm đặt một chiếc xô hứng nước dùng lau nhà",
+          "Mặc kệ vì mỗi giây chỉ rớt đúng một giọt nhỏ không đáng kể"
+        ],
+        "k": "C",
+        "e": "Một vòi rò rỉ nhỏ giọt suốt cả tháng có thể làm thất thoát hàng trăm lít nước sạch mỗi ngày.",
+        "s": "Lối sống 4",
+        "h": "Phát hiện và báo sửa vòi nước rò rỉ"
+      },
+      {
+        "c": "LS4-B07-007",
+        "d": "application",
+        "p": "Vào buổi trưa hè nóng bức 37 độ C, gia đình em bật điều hòa phòng ngủ. Mức nhiệt độ hợp lí nhất vừa giữ mát khỏe mạnh vừa tiết kiệm điện năng là khoảng bao nhiêu?",
+        "o": [
+          "Hạ xuống mức thấp nhất 16 độ C rồi đắp chăn bông dày cho thích",
+          "Đặt 18 độ C và mở toang hết cửa ban công cho thoáng khí trời",
+          "Khoảng 26 đến 28 độ C, kết hợp đóng kín cửa phòng và bật thêm quạt nhẹ xoay đều cho luồng khí mát lưu thông",
+          "Bật điều hòa liên tục suốt cả ngày lẫn đêm không tắt"
+        ],
+        "k": "C",
+        "e": "Giảm thêm 1 độ C khiến điều hòa tiêu thụ thêm 7–10% điện năng và dễ gây sốc nhiệt đường hô hấp cho trẻ nhỏ.",
+        "s": "Lối sống 4",
+        "h": "Cài nhiệt độ điều hòa hợp lí 26–28 độ C"
+      },
+      {
+        "c": "LS4-B07-008",
+        "d": "application",
+        "p": "Mẹ vừa phơi giúp em bộ đồng phục mới giặt, còn bố vừa mua cho em một chiếc cặp sách mới. Thói quen nào thể hiện biết giữ gìn đồ dùng cá nhân và trân trọng công sức cha mẹ?",
+        "o": [
+          "Cất treo quần áo đồng phục ngay ngắn vào móc sau khi mặc sạch, không kéo lê cặp dưới đất bẩn và lau sạch khi dính bụi bùn",
+          "Đứng lên nhảy giậm lên chiếc cặp sách cho vui",
+          "Kéo quai cặp lê sệt trên mặt đường nhựa mỗi lần đi học về",
+          "Vứt vo tròn đồng phục vào góc tủ khi áo còn ướt đẫm mồ hôi"
+        ],
+        "k": "A",
+        "e": "Quý trọng giữ gìn từng món đồ dùng là trân trọng công sức lao động của cha mẹ.",
+        "s": "Lối sống 4",
+        "h": "Trân trọng và giữ gìn trang phục, cặp sách"
+      },
+      {
+        "c": "LS4-B07-009",
+        "d": "application",
+        "p": "Quan sát biểu đồ lượng điện tiêu thụ trung bình một tháng của một hộ gia đình 4 người theo nhóm thiết bị. Thiết bị nào ngốn nhiều điện nhất và cần chú ý dùng tiết kiệm đúng giờ nhất?",
+        "o": [
+          "Bóng đèn LED chiếu sáng bàn học tốn điện nhiều nhất nhà",
+          "Cả bốn thiết bị tiêu thụ lượng điện bằng nhau",
+          "Quạt máy nhỏ tốn điện gấp năm lần máy điều hòa nhiệt độ",
+          "Máy điều hòa và bình nóng lạnh chiếm tỉ trọng điện cao nhất, cần cài nhiệt độ hợp lí và tắt đúng lúc khi không dùng"
+        ],
+        "k": "D",
+        "e": "Hiểu thiết bị tiêu thụ công suất lớn giúp gia đình điều chỉnh thói quen sử dụng thông minh hiệu quả nhất.",
+        "s": "Lối sống 4",
+        "h": "Đọc biểu đồ tiêu thụ điện gia đình",
+        "fig": {
+          "type": "bars",
+          "title": "Tỉ lệ điện tiêu thụ trong nhà (%)",
+          "labels": [
+            "Điều hòa nhiệt độ",
+            "Bình nóng lạnh",
+            "Tủ lạnh, tivi",
+            "Đèn LED, quạt"
+          ],
+          "series": [
+            {
+              "values": [
+                44,
+                24,
+                20,
+                12
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "c": "LS4-B07-010",
+        "d": "application",
+        "p": "Cuối tuần ở nhà dọn giá sách, em thấy có khoảng 20 quyển truyện tranh và sách giáo khoa lớp dưới mình đã học xong còn rất mới. Cách xử lí nào vừa gọn nhà vừa có ý nghĩa cộng đồng nhất?",
+        "o": [
+          "Xé rời từng trang bỏ vào thùng rác sinh hoạt hằng ngày",
+          "Ném bừa xuống gầm tủ cho bụi bám đầy",
+          "Phân loại bọc giữ phẳng phiu, đóng gói sạch sẽ gửi tặng tủ sách lớp học hoặc quyên góp cho học sinh vùng khó khăn",
+          "Đem ra sân đốt bỏ hết để lấy chỗ trống trên giá sách"
+        ],
+        "k": "C",
+        "e": "Chia sẻ sách cũ còn nguyên vẹn giúp kéo dài vòng đời tri thức và lan tỏa tình yêu thương.",
+        "s": "Lối sống 4",
+        "h": "Phân loại và tặng sách cũ còn tốt"
+      },
+      {
+        "c": "LS4-B07-011",
+        "d": "application",
+        "p": "Khi mở cửa sổ phòng học buổi sáng trời mát mẻ có ánh nắng nhẹ, việc kéo rèm sáng tự nhiên và tắt bớt dãy đèn sát cửa sổ đem lại lợi ích kép nào?",
+        "o": [
+          "Khiến quạt trần quay nhanh gấp ba lần bình thường",
+          "Làm mất hoàn toàn tia sáng trong phòng học",
+          "Làm căn phòng tối om không nhìn thấy chữ trong vở viết",
+          "Giảm lượng điện tiêu thụ cho bóng đèn và giúp đôi mắt học sinh được tiếp xúc ánh sáng tự nhiên dịu nhẹ dễ chịu hơn"
+        ],
+        "k": "D",
+        "e": "Ánh sáng ban ngày tự nhiên vừa miễn phí vừa có phổ sáng cân bằng tốt cho thị lực hơn đèn nhân tạo.",
+        "s": "Lối sống 4",
+        "h": "Tận dụng ánh sáng tự nhiên tiết kiệm điện"
+      },
+      {
+        "c": "LS4-B07-012",
+        "d": "application",
+        "p": "Một chiếc bàn gỗ trong gia đình bị lung lay nhẹ một con ốc vít ở chân bàn và cuốn sách yêu thích bị bung nhẹ gáy bìa. Cách ứng xử tích cực của học sinh Lớp 4 là gì?",
+        "o": [
+          "Lắc mạnh thêm cho chân bàn gãy hẳn rồi đòi bố mẹ mua bàn mới",
+          "Vứt thẳng cuốn sách bung bìa vào sọt rác dù trang giấy còn mới",
+          "Lấy bút xóa bôi đầy lên vết nứt gỗ",
+          "Nhờ bố hỗ trợ vặn chặt lại ốc vít chân bàn và tự lấy băng keo giấy dán giữ gọn gáy sách kịp thời để tiếp tục dùng bền lâu"
+        ],
+        "k": "D",
+        "e": "Chủ động sửa chữa bảo dưỡng nhỏ giúp rèn đôi tay khéo léo và thói quen tiêu dùng bền vững.",
+        "s": "Lối sống 4",
+        "h": "Chủ động sửa chữa nhỏ đồ dùng gia đình"
+      },
+      {
+        "c": "LS4-B07-013",
+        "d": "advanced",
+        "p": "Nhiều bạn nhỏ nghĩ: \"Nhà mình trả tiền điện nước đầy đủ rồi thì mình bật đèn, xả nước thoải mái bao nhiêu cũng chẳng ảnh hưởng tới ai!\". Suy nghĩ này thiếu sót ở điểm nào?",
+        "o": [
+          "Tiết kiệm điện nước chỉ dành cho người thiếu thốn",
+          "Không thiếu sót gì cả, chỉ cần có tiền là nước sạch tự mọc lên vô tận",
+          "Nước sạch và nhiên liệu sản xuất điện là tài nguyên hữu hạn; lãng phí làm cạn kiệt tài nguyên chung và tăng ô nhiễm môi trường",
+          "Dùng càng nhiều điện nước thì không khí Trái Đất càng trong lành hơn"
+        ],
+        "k": "C",
+        "e": "Tiết kiệm năng lượng và nước sạch là trách nhiệm công dân toàn cầu với hành tinh và thế hệ tương lai.",
+        "s": "Lối sống 4",
+        "h": "Ý thức trách nhiệm với tài nguyên điện nước"
+      },
+      {
+        "c": "LS4-B07-014",
+        "d": "advanced",
+        "p": "Cùng là mua sắm quần áo và đồ dùng cá nhân, thói quen \"Chỉ mua món thực sự cần, dùng bền kĩ\" khác với \"Mua theo mốt chớp nhoáng rồi vứt bỏ sớm\" ở giá trị sống nào?",
+        "o": [
+          "Học sinh Lớp 4 nên thay mới cặp sách mỗi tháng một chiếc",
+          "Giúp gia đình tiết kiệm tài chính, rèn tính giản dị biết đủ và giảm lượng rác thải công nghiệp – dệt may xả ra môi trường",
+          "Mua theo mốt giúp tủ quần áo bừa bộn nhiều đồ thừa hơn nên tốt hơn",
+          "Đồ mới dùng một tuần rồi vứt đi giúp bảo vệ môi trường xanh"
+        ],
+        "k": "B",
+        "e": "Lối sống tối giản và trân trọng đồ vật giảm mạnh áp lực rác thải nhựa – vải lên thiên nhiên.",
+        "s": "Lối sống 4",
+        "h": "Giá trị lối sống tiêu dùng giản dị bền vững"
+      },
+      {
+        "c": "LS4-B07-015",
+        "d": "advanced",
+        "p": "Nếu lớp em muốn phát động phong trào \"Lớp học Xanh tiết kiệm năng lượng\" hoạt động thực chất suốt cả năm mà không mang tính phong trào hình thức, giải pháp phân công nào hiệu quả nhất?",
+        "o": [
+          "Cấm học sinh uống nước ở trường cả ngày để tiết kiệm nước",
+          "Luân phiên cử đôi bạn \"Đội xanh\" kiểm tra tắt hết đèn quạt trước giờ ra về, gắn nhãn nhắc nhỏ cạnh công tắc và thống kê giảm kWh điện mỗi tháng",
+          "Chỉ treo một tấm băng rôn thật to rồi không ai thực hiện tắt quạt lúc ra chơi",
+          "Tắt toàn bộ đèn phòng học kể cả lúc trời mưa âm u tối mù"
+        ],
+        "k": "B",
+        "e": "Biến quy tắc thành thói quen kiểm tra nhắc nhau nhẹ nhàng hằng ngày tạo chuyển biến thực sự bền vững.",
+        "s": "Lối sống 4",
+        "h": "Tổ chức phong trào tiết kiệm thực chất ở lớp"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong4-c3",
+    "lesson": {
+      "code": "lssong4-b08",
+      "title": "Bài 8. Vệ sinh An toàn Thực phẩm và Dinh dưỡng Lành mạnh",
+      "seq": 8,
+      "subtitle": "Nhận biết dấu hiệu thực phẩm tươi an toàn với thực phẩm ôi thiu hết hạn; thực hành rửa rau quả, bảo quản thức ăn sạch và tránh hàng rong không rõ nguồn gốc trước cổng trường",
+      "concepts": [
+        "Kiểm tra hạn sử dụng, bao bì và dấu hiệu thực phẩm hỏng",
+        "Phòng tránh ngộ độc thực phẩm: ăn chín uống sôi, tránh đồ hàng rong bẩn",
+        "Bữa ăn cân bằng 4 nhóm chất cho lứa tuổi phát triển"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS4-B08-001",
+        "d": "basic",
+        "p": "Trước khi mở một hộp sữa tươi hoặc gói bánh quy mua ở cửa hàng ra ăn, chi tiết quan trọng đầu tiên phải kiểm tra trên vỏ bao bì là gì?",
+        "o": [
+          "Chỉ cần nhìn xem hình vẽ hoạt hình trên vỏ hộp có đẹp mắt không",
+          "Ngày sản xuất, hạn sử dụng (HSD), độ nguyên vẹn phồng rộp hay rách thủng của bao bì và nhãn nguồn gốc rõ ràng",
+          "Lắc mạnh hộp sữa nghe tiếng nước kêu rào rào rồi uống luôn",
+          "Chỉ cần ngửi vỏ giấy bên ngoài xem có mùi thơm kẹo không"
+        ],
+        "k": "B",
+        "e": "Thực phẩm quá hạn hoặc bao bì bị phồng méo rỉ khí có thể đã nhiễm vi khuẩn sinh độc tố nguy hiểm.",
+        "s": "Lối sống 4",
+        "h": "Kiểm tra hạn sử dụng và bao bì thực phẩm"
+      },
+      {
+        "c": "LS4-B08-002",
+        "d": "basic",
+        "p": "Dấu hiệu nhận biết dễ thấy nhất cho thấy món thịt cá nấu chín hoặc cơm canh để ngoài trời nắng nóng đã bị ôi thiu hỏng không thể ăn được là gì?",
+        "o": [
+          "Màu sắc tươi sáng tự nhiên và vị ngọt thanh vừa miệng",
+          "Thức ăn còn bốc hơi thơm ngon nghi ngút vừa nấu xong",
+          "Để gọn gàng trong hộp thủy tinh đậy nắp sạch",
+          "Có mùi chua thiu khó chịu, bề mặt nổi bọt khí, nhớt dính bất thường hoặc đổi màu sắc lạ"
+        ],
+        "k": "D",
+        "e": "Tuyệt đối không tiếc rẻ ăn lại đồ ôi thiu hay đun lại thức ăn đã chua nhớt vì nhiều độc tố vi khuẩn không bị phá hủy bởi nhiệt.",
+        "s": "Lối sống 4",
+        "h": "Nhận biết thực phẩm ôi thiu hư hỏng"
+      },
+      {
+        "c": "LS4-B08-003",
+        "d": "basic",
+        "p": "Theo nguyên tắc vàng vệ sinh an toàn thực phẩm, \"Ăn chín, uống sôi\" có tác dụng cốt lõi gì đối với sức khỏe hệ tiêu hóa?",
+        "o": [
+          "Nhiệt độ cao khi nấu chín kĩ và đun sôi nước giúp tiêu diệt phần lớn vi khuẩn, kí sinh trùng gây tiêu chảy, ngộ độc và giun sán",
+          "Giúp giữ nguyên mọi loại trứng giun sống trong thực phẩm",
+          "Giúp thức ăn trở nên ngọt như thêm đường cát trắng",
+          "Làm món ăn có màu xanh đậm bắt mắt hơn bình thường"
+        ],
+        "k": "A",
+        "e": "Hạn chế ăn đồ tái sống không bảo đảm vệ sinh (gỏi cá sống, tiết canh, nước lã) ngăn bệnh đường ruột hiệu quả.",
+        "s": "Lối sống 4",
+        "h": "Ý nghĩa quy tắc ăn chín uống sôi"
+      },
+      {
+        "c": "LS4-B08-004",
+        "d": "basic",
+        "p": "Quan sát bảng hướng dẫn lựa chọn thực phẩm an toàn dưới đây. Đối với đồ ăn vặt bày bán trần không che đậy ở vỉa hè cổng trường, rủi ro sức khỏe lớn nhất là gì?",
+        "o": [
+          "Bị đóng gói trong hộp kín hút chân không sạch sẽ quá mức",
+          "Dễ bám bụi đường, ruồi nhặng đậu truyền vi khuẩn tả lị, dùng phẩm màu công nghiệp độc hại hoặc dầu chiên đi chiên lại nhiều lần",
+          "Giá bán quá đắt đỏ như thực phẩm trong siêu thị lớn",
+          "Chứa quá nhiều rau xanh tươi và vitamin tự nhiên"
+        ],
+        "k": "B",
+        "e": "Đồ ăn vặt sặc sỡ rẻ tiền không nhãn mác cổng trường thường tiềm ẩn phụ gia cấm và nguy cơ ngộ độc cấp tính.",
+        "s": "Lối sống 4",
+        "h": "Phòng tránh đồ ăn vặt mất vệ sinh cổng trường",
+        "fig": {
+          "type": "table",
+          "title": "An toàn Thực phẩm Lớp 4",
+          "head": [
+            "Tiêu chí kiểm tra",
+            "Lựa chọn an toàn"
+          ],
+          "rows": [
+            [
+              "Hộp sữa, bánh kẹo",
+              "Còn hạn, không phồng"
+            ],
+            [
+              "Thức ăn nấu chín",
+              "Đậy kín, cất tủ mát"
+            ],
+            [
+              "Rau quả ăn tươi",
+              "Rửa dưới vòi sạch"
+            ],
+            [
+              "Đồ bán cổng trường",
+              "Tránh đồ trần sặc sỡ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS4-B08-005",
+        "d": "basic",
+        "p": "Trong căn bếp gia đình, vì sao bố mẹ luôn dùng hai chiếc thớt riêng biệt (một thớt thái thịt cá sống, một thớt thái thức ăn chín và hoa quả)?",
+        "o": [
+          "Để tránh lây nhiễm chéo vi khuẩn, trứng sán từ thực phẩm tươi sống sang đồ ăn đã nấu chín hoặc ăn trực tiếp",
+          "Vì thớt gỗ không thể thái được thịt sống",
+          "Vì thớt thái thịt sống phải to gấp đôi bàn ăn mới vừa",
+          "Để trang trí căn bếp trông đủ màu sắc xanh đỏ đẹp hơn"
+        ],
+        "k": "A",
+        "e": "Nhiễm chéo giữa đồ sống và đồ chín qua thớt, dao, đũa dùng chung là nguyên nhân gây ngộ độc phổ biến ngay tại nhà.",
+        "s": "Lối sống 4",
+        "h": "Tách riêng dụng cụ chế biến sống và chín"
+      },
+      {
+        "c": "LS4-B08-006",
+        "d": "basic",
+        "p": "Bốn nhóm chất dinh dưỡng thiết yếu cần phối hợp cân đối trong bữa cơm hằng ngày của học sinh Lớp 4 gồm những nhóm nào?",
+        "o": [
+          "Chỉ uống sữa hộp thay thế hoàn toàn rau xanh và thịt cá",
+          "Chỉ ăn toàn cơm trắng chấm muối vừng suốt cả tháng",
+          "Chất bột đường (cơm, bún, khoai), chất đạm (thịt, cá, trứng, đậu), chất béo (dầu, mỡ, lạc vừng) và vitamin – khoáng chất (rau xanh, quả chín)",
+          "Chỉ cần ăn duy nhất kẹo ngọt, nước có ga và khoai tây chiên"
+        ],
+        "k": "C",
+        "e": "Ăn đa dạng thực phẩm thuộc 4 nhóm chất giúp cơ thể phát triển toàn diện cả thể lực lẫn trí não.",
+        "s": "Lối sống 4",
+        "h": "Cân bằng 4 nhóm chất dinh dưỡng mỗi ngày"
+      },
+      {
+        "c": "LS4-B08-007",
+        "d": "application",
+        "p": "Sáng nay chuẩn bị đi học, em mở tủ lấy hộp sữa tiệt trùng uống kèm bánh mì nhưng phát hiện đáy hộp sữa bị phồng căng tròn khác thường dù hạn sử dụng ghi còn 1 tháng nữa. Em xử lí thế nào?",
+        "o": [
+          "Chọc ống hút vào uống thử một ngụm xem có vị chua không rồi tính",
+          "Tuyệt đối không mở uống hộp sữa đó, báo ngay cho bố mẹ kiểm tra loại bỏ vì hộp có thể bị hở vi khí làm vi khuẩn sinh hơi hỏng sữa bên trong",
+          "Mang cho em nhỏ 3 tuổi uống hộ cho đỡ phí",
+          "Lấy tay bóp mạnh cho hộp sữa xẹp xuống bình thường rồi uống hết"
+        ],
+        "k": "B",
+        "e": "Bao bì phồng căng chứng tỏ vi sinh vật yếm khí đã lên men sinh khí bên trong; không bao giờ nếm thử thực phẩm nghi hỏng.",
+        "s": "Lối sống 4",
+        "h": "Xử lí hộp sữa phồng bất thường trước hạn"
+      },
+      {
+        "c": "LS4-B08-008",
+        "d": "application",
+        "p": "Tan học buổi chiều, vài bạn rủ em mua những xiên thịt nướng đỏ rực và nước siro pha màu tím chói bày trên xe đẩy không che kính sát đường bụi bặm vì giá chỉ 5 nghìn đồng. Em từ chối và góp ý với bạn thế nào?",
+        "o": [
+          "Trả thêm tiền bảo cô bán hàng chiên lại cho nóng là diệt hết hóa chất độc",
+          "Cứ ăn thử một xiên thôi chắc vi khuẩn không kịp chui vào bụng đâu",
+          "Khuyên bạn không nên ăn vì đồ nướng không nguồn gốc dễ ôi tẩm phẩm màu độc, nhiều bụi khói xe gây đau bụng ngộ độc; nên về ăn bữa phụ sạch ở nhà",
+          "Chỉ uống cốc nước màu tím chứ không ăn xiên thịt"
+        ],
+        "k": "C",
+        "e": "Hóa chất phẩm màu công nghiệp và độc tố thực phẩm ôi không thể mất đi khi chiên nóng lại.",
+        "s": "Lối sống 4",
+        "h": "Từ chối hàng rong cổng trường không an toàn"
+      },
+      {
+        "c": "LS4-B08-009",
+        "d": "application",
+        "p": "Khoảng 2 giờ sau bữa liên hoan có ăn món đồ lạ, một bạn trong lớp bỗng kêu đau quặn bụng dữ dội, buồn nôn liên tục, chóng mặt và toát mồ hôi lạnh. Việc khẩn cấp em và các bạn phải làm ngay là gì?",
+        "o": [
+          "Bảo bạn nằm sấp im lặng một góc tới hết buổi học",
+          "Cho bạn uống ngay một chai nước ngọt có ga thật lạnh rồi chạy bộ cho tiêu cơm",
+          "Báo ngay lập tức cho cô giáo chủ nhiệm và cán bộ y tế trường học (hoặc bố mẹ) đưa bạn đi kiểm tra kịp thời, giữ lại mẫu thức ăn nghi ngờ nếu có",
+          "Giấu kín không báo cô giáo vì sợ cả lớp bị phạt"
+        ],
+        "k": "C",
+        "e": "Ngộ độc thực phẩm cấp có thể gây mất nước trụy mạch nhanh ở trẻ em; cần báo người lớn và nhân viên y tế xử lí ngay.",
+        "s": "Lối sống 4",
+        "h": "Xử lí nhanh khi bạn có dấu hiệu ngộ độc"
+      },
+      {
+        "c": "LS4-B08-010",
+        "d": "application",
+        "p": "Mẹ nhờ em rửa sạch một rổ táo tươi và cà chua bi để cả nhà ăn tráng miệng. Thao tác rửa hoa quả đúng vệ sinh giúp loại bỏ bụi đất và dư lượng chất bẩn bề mặt tốt nhất là gì?",
+        "o": [
+          "Rửa quả táo bằng nước rửa bát thật nhiều bọt",
+          "Nhúng vội cả rổ hoa quả 3 giây vào một chậu nước nhỏ đục ngầu rồi vớt lên",
+          "Lấy vạt áo đồng phục lau qua quả táo cho bóng rồi cắn ăn luôn",
+          "Rửa tay sạch bằng xà phòng trước, sau đó rửa từng quả kĩ dưới vòi nước sạch đang chảy nhẹ (hoặc ngâm tráng nước sạch) rồi gọt vỏ/bỏ ráo"
+        ],
+        "k": "D",
+        "e": "Rửa dưới vòi nước sạch chảy cuốn trôi bụi bẩn, trứng kí sinh trùng và dư lượng thuốc bảo vệ thực vật hiệu quả hơn ngâm nước tù.",
+        "s": "Lối sống 4",
+        "h": "Thao tác rửa hoa quả tươi đúng sạch"
+      },
+      {
+        "c": "LS4-B08-011",
+        "d": "application",
+        "p": "Quan sát biểu đồ mức độ tiêu thụ các nhóm thực phẩm trong bữa ăn vặt hằng tuần của một bạn học sinh (đồ chiên rán ngọt chiếm 65%, rau củ quả tươi chỉ chiếm 10%). Nguy cơ sức khỏe dài hạn nào dễ xảy ra với bạn ấy nếu không điều chỉnh sớm?",
+        "o": [
+          "Răng miệng chắc khỏe bóng đẹp hơn hẳn không cần đánh răng",
+          "Dễ bị thừa cân béo phì, sâu răng, táo bón thiếu chất xơ và thiếu vitamin thiết yếu làm cơ thể hay mệt mỏi kém dẻo dai",
+          "Cao vượt thêm 15 cm chỉ trong vòng hai tháng",
+          "Sẽ trở thành vận động viên chạy nhanh khỏe mạnh nhất trường"
+        ],
+        "k": "B",
+        "e": "Thừa đường – chất béo xấu nhưng thiếu chất xơ, vitamin từ rau quả là gánh nặng kép gây béo phì và thiếu vi chất.",
+        "s": "Lối sống 4",
+        "h": "Nhận diện mất cân bằng dinh dưỡng đồ ăn nhanh",
+        "fig": {
+          "type": "bars",
+          "title": "Cơ cấu bữa phụ trong tuần (%)",
+          "labels": [
+            "Bánh kẹo, gà rán",
+            "Nước ngọt trà sữa",
+            "Sữa, ngũ cốc",
+            "Rau quả tươi"
+          ],
+          "series": [
+            {
+              "values": [
+                40,
+                25,
+                25,
+                10
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "c": "LS4-B08-012",
+        "d": "application",
+        "p": "Khi gia đình làm cỗ hoặc ăn không hết một nồi thịt kho vào buổi tối, cách bảo quản đúng để giữ thức ăn không hỏng qua đêm là gì?",
+        "o": [
+          "Đậy hờ nắp để nguyên nồi thịt trên bàn bếp suốt hai ngày mùa hè nóng bức",
+          "Đổ lẫn thức ăn chín chung vào khay đựng thịt sống",
+          "Bỏ nguyên nồi canh đang nóng bỏng 90 độ đặt thẳng vào ngăn đá",
+          "Để thức ăn nguội bớt về nhiệt độ phòng (trong vòng 2 giờ), cho vào hộp sạch đậy nắp kín cất ngăn mát tủ lạnh và hâm sôi kĩ khi ăn lại"
+        ],
+        "k": "D",
+        "e": "Khoảng nhiệt độ 5–60 độ C là vùng vi khuẩn sinh sôi cực nhanh; không để thức ăn chín ngoài nhiệt độ phòng quá 2 giờ.",
+        "s": "Lối sống 4",
+        "h": "Bảo quản thức ăn thừa an toàn qua đêm"
+      },
+      {
+        "c": "LS4-B08-013",
+        "d": "advanced",
+        "p": "Nhiều bạn nhỏ chỉ thích ăn thịt gà rán và xúc xích nhưng nhất quyết nhè bỏ tất cả các loại rau xanh trong bữa cơm hằng ngày. Vì sao chế độ ăn \"chỉ toàn đạm mỡ, không rau xanh\" gây hại cho sức khỏe học sinh?",
+        "o": [
+          "Vì không ăn rau sẽ khiến xương tay trở nên mềm dẻo như cao su",
+          "Thiếu chất xơ làm chậm tiêu hóa gây táo bón kéo dài, đồng thời thiếu vitamin – khoáng chất giúp hấp thu dưỡng chất và tăng sức đề kháng chống bệnh",
+          "Vì rau xanh giúp tạo ra chất béo dự trữ thay thế hoàn toàn cho cơm gạo",
+          "Vì chỉ có rau xanh mới chứa chất đạm nuôi cơ bắp"
+        ],
+        "k": "B",
+        "e": "Chất xơ từ rau củ là \"chiếc chổi sạch\" cho đường ruột và là nguồn vi chất tăng miễn dịch tự nhiên không gì thay thế được.",
+        "s": "Lối sống 4",
+        "h": "Vai trò không thể thay thế của rau xanh"
+      },
+      {
+        "c": "LS4-B08-014",
+        "d": "advanced",
+        "p": "Khi đi siêu thị cùng mẹ, em thấy hai hộp bánh giống nhau: Hộp A vỏ đẹp sặc sỡ nhưng không có nhãn tiếng Việt, không ghi ngày hết hạn; Hộp B bao bì đơn giản hơn nhưng ghi đủ thành phần, địa chỉ sản xuất và hạn dùng rõ nét. Lựa chọn thông minh và lí do là gì?",
+        "o": [
+          "Trộn lẫn bánh hai hộp vào nhau ăn chung cho cân bằng",
+          "Chọn Hộp A vì không ghi hạn sử dụng tức là bánh để được mãi mãi 10 năm không hỏng",
+          "Chọn Hộp B vì thông tin nguồn gốc – thành phần – hạn sử dụng minh bạch giúp kiểm soát chất lượng an toàn và có cơ sở chịu trách nhiệm",
+          "Chọn Hộp A vì màu sắc càng rực rỡ càng chứa nhiều vitamin tự nhiên"
+        ],
+        "k": "C",
+        "e": "Người tiêu dùng thông minh luôn đọc kĩ nhãn thực phẩm (Food label) thay vì bị thu hút bởi màu sắc bao bì bắt mắt.",
+        "s": "Lối sống 4",
+        "h": "Kĩ năng đọc nhãn lựa chọn thực phẩm an toàn"
+      },
+      {
+        "c": "LS4-B08-015",
+        "d": "advanced",
+        "p": "Một quả táo bị thối nhũn một góc nhỏ bằng đồng xu trên vỏ. Nhiều người hay cắt bỏ đúng chỗ hỏng nhỏ đó rồi ăn phần còn lại vì nghĩ \"không sao đâu\". Theo khuyến cáo an toàn thực phẩm, với trái cây mềm nhiều nước bị mốc thối thì sao?",
+        "o": [
+          "Rửa sơ dưới vòi nước lạnh là phần thối tự tươi cứng lại",
+          "Cắt sát mép vết thối nửa milimét là diệt sạch hoàn toàn 100% bào tử nấm mốc",
+          "Sợi nấm mốc và độc tố vô hình có thể đã lan thấm sâu vào phần thịt quả mọng nước xung quanh chỗ thối, nên an toàn nhất là bỏ cả quả mềm đã mốc",
+          "Nướng quả táo thối lên ăn sẽ bổ dưỡng gấp đôi quả tươi"
+        ],
+        "k": "C",
+        "e": "Ở thực phẩm mềm và nhiều nước (cà chua, táo, bánh mì), rễ nấm mốc phát triển rộng bên trong rất khó thấy bằng mắt thường.",
+        "s": "Lối sống 4",
+        "h": "Hiểu về lan truyền nấm mốc trong thực phẩm mềm"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong4-c3",
+    "lesson": {
+      "code": "lssong4-b09",
+      "title": "Bài 9. Ứng phó An toàn với Thiên tai: Bão lũ, Sấm sét và Nắng nóng",
+      "seq": 9,
+      "subtitle": "Nắm vững kĩ năng tự bảo vệ trước các hiện tượng thời tiết cực đoan ở Việt Nam: phòng tránh sét đánh ngoài trời, ứng phó khi có bão mạnh – ngập lụt và phòng sốc nhiệt ngày nắng nóng",
+      "concepts": [
+        "Quy tắc phòng tránh sét đánh ngoài trời và trong nhà",
+        "Chuẩn bị vật dụng khẩn cấp và trú ẩn an toàn khi bão lớn",
+        "Phòng tránh say nắng, sốc nhiệt và ứng xử khi ngập lụt"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS4-B09-001",
+        "d": "basic",
+        "p": "Khi đang chơi ở sân vận động hoặc đi ngoài đồng trống bỗng gặp cơn dông kèm sấm sét đánh dữ dội, nơi trú ẩn nào sau đây CỰC KÌ NGUY HIỂM tuyệt đối phải tránh xa?",
+        "o": [
+          "Đứng trú mưa dưới gốc cây cao đơn độc, cạnh cột điện sắt, hàng rào kim loại hoặc bơi dưới ao hồ nước rộng",
+          "Tìm vào sảnh nhà xây vững chắc cao ráo",
+          "Ngồi yên trong xe ô tô đóng kín cửa sổ không chạm vỏ kim loại",
+          "Vào trong tòa nhà kiên cố có cửa đóng kín tránh xa cửa sổ kim loại"
+        ],
+        "k": "A",
+        "e": "Tia sét ưu tiên đánh vào các điểm nhô cao đơn độc (cây cao, cột sắt) và lan truyền điện rất mạnh trên mặt nước trống.",
+        "s": "Lối sống 4",
+        "h": "Nơi cực kì nguy hiểm khi trời có sấm sét"
+      },
+      {
+        "c": "LS4-B09-002",
+        "d": "basic",
+        "p": "Nếu đang ở ngoài khu vực đồng trống không kịp chạy vào nhà kiên cố mà cảm thấy tóc dựng đứng lên và sấm chớp ngay sát đầu, tư thế giảm nguy cơ sét đánh (tư thế an toàn dông sét) là gì?",
+        "o": [
+          "Ngồi xổm thật thấp tại chỗ trũng (tránh nằm bẹp xuống đất), hai bàn chân khép sát nhau trên mũi chân, cúi đầu gục giữa hai gối và bịt tai",
+          "Đứng thẳng giơ hai tay nắm lấy thân cây cao gần nhất",
+          "Nằm dài thẳng cẳng cả thân người sát trên mặt đất ướt",
+          "Chạy thật nhanh trên ruộng cầm theo chiếc ô cán kim loại giơ cao"
+        ],
+        "k": "A",
+        "e": "Khép sát hai chân giảm hiệu điện thế bước chạy qua người khi sét lan mặt đất; không nằm bẹp để giảm diện tích tiếp xúc đất.",
+        "s": "Lối sống 4",
+        "h": "Tư thế ngồi xổm khép chân phòng sét khẩn cấp"
+      },
+      {
+        "c": "LS4-B09-003",
+        "d": "basic",
+        "p": "Khi nghe bản tin dự báo thời tiết báo bão lớn sắp đổ bộ vào địa phương, gia đình em cần chuẩn bị sẵn những vật dụng thiết yếu nào trong \"Túi đồ khẩn cấp\"?",
+        "o": [
+          "Mở toang tất cả các cửa kính ra đón gió bão vào nhà cho mát",
+          "Chỉ cần xếp đầy hộp đồ chơi lego và quả bóng đá",
+          "Đèn pin, pin dự phòng, nước uống đóng chai, đồ ăn khô (lương khô, bánh), bộ sơ cứu y tế, thuốc thiết yếu, áo mưa và giấy tờ bọc túi chống nước",
+          "Đợi nước ngập tới mái nhà mới đi mua đèn pin"
+        ],
+        "k": "C",
+        "e": "Chuẩn bị sẵn túi khẩn cấp giúp cả nhà chủ động ứng phó khi mất điện, cắt nước hay cần sơ tán nhanh.",
+        "s": "Lối sống 4",
+        "h": "Chuẩn bị túi vật dụng khẩn cấp mùa bão lũ"
+      },
+      {
+        "c": "LS4-B09-004",
+        "d": "basic",
+        "p": "Quan sát bảng hướng dẫn ứng phó thời tiết cực đoan dưới đây. Vào những ngày nắng nóng gay gắt 38–40 độ C buổi trưa hè, hoạt động nào dễ gây say nắng – kiệt sức nhất cho học sinh?",
+        "o": [
+          "Chơi cờ vua, đọc sách trong bóng mát thoáng gió và uống đủ nước lọc",
+          "Chạy nhảy đá bóng liên tục giữa sân nắng gắt không đội mũ, không uống đủ nước trong khung giờ 11h đến 15h",
+          "Uống nước từng ngụm nhỏ đều đặn suốt buổi",
+          "Đội mũ rộng vành mặc áo dài tay thoáng mát khi đi ra ngoài"
+        ],
+        "k": "B",
+        "e": "Khung giờ 10h–16h bức xạ nhiệt và tia UV rất cao; vận động mạnh ngoài trời lúc này làm thân nhiệt tăng vọt gây sốc nhiệt.",
+        "s": "Lối sống 4",
+        "h": "Phòng tránh say nắng ngày hè gay gắt",
+        "fig": {
+          "type": "table",
+          "title": "Ứng phó Thời tiết Cực đoan",
+          "head": [
+            "Hiện tượng",
+            "Việc nên làm ngay"
+          ],
+          "rows": [
+            [
+              "Dông có sấm sét",
+              "Vào nhà, xa gốc cây"
+            ],
+            [
+              "Bão gió giật mạnh",
+              "Chốt cửa, ở giữa nhà"
+            ],
+            [
+              "Ngập lụt đường phố",
+              "Tránh cột điện, cống"
+            ],
+            [
+              "Nắng nóng đỉnh điểm",
+              "Đội mũ, uống đủ nước"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS4-B09-005",
+        "d": "basic",
+        "p": "Trong lúc cơn bão đang hoành hành gió rít mạnh bên ngoài, tại sao các chuyên gia cứu nạn khuyên học sinh tuyệt đối không đứng sát nhìn qua khung cửa kính lớn?",
+        "o": [
+          "Vì kính cửa sổ sẽ tự tan chảy khi gặp nước mưa",
+          "Vì vật bay theo gió bão hoặc áp lực gió giật mạnh có thể làm vỡ tung kính, bắn mảnh kính sắc vào mặt và người cực kì nguy hiểm",
+          "Vì nhìn ra ngoài sẽ làm tốc độ gió bão tăng gấp đôi",
+          "Để tiết kiệm ánh sáng trong phòng"
+        ],
+        "k": "B",
+        "e": "Khi bão tới gần, hãy chằng dán gia cố cửa và di chuyển vào khu vực phòng kín giữa nhà không có cửa sổ kính lớn.",
+        "s": "Lối sống 4",
+        "h": "Không đứng gần cửa kính trong tâm bão"
+      },
+      {
+        "c": "LS4-B09-006",
+        "d": "basic",
+        "p": "Sau khi cơn bão tan bỗng có nắng hửng hoặc gió lặng bất ngờ (có thể là vùng mắt bão đi qua), hành động nào rất nguy hiểm hay gặp ở nhiều người chủ quan?",
+        "o": [
+          "Tiếp tục theo dõi thông báo an toàn từ chính quyền địa phương trước khi ra ngoài",
+          "Giữ liên lạc với bố mẹ và người thân trong nhà",
+          "Chạy ùa ngay ra ngoài đường dạo chơi hay sửa mái nhà khi chưa có thông báo bão đã đi qua hẳn hoặc khi dây điện đứt còn rơi vương trên vũng nước",
+          "Kiểm tra từ xa tuyệt đối không chạm vào dây điện bị đứt võng xuống đất"
+        ],
+        "k": "C",
+        "e": "Sau bão luôn tiềm ẩn gió giật đợt hai, dây điện đứt nhiễm điện trong vũng nước và cây to gãy đổ bất ngờ.",
+        "s": "Lối sống 4",
+        "h": "Cẩn trọng cảnh giác dây điện đứt sau bão"
+      },
+      {
+        "c": "LS4-B09-007",
+        "d": "application",
+        "p": "Đang đi học về bỗng gió lốc thổi ào ạt cuốn bụi mù, biển quảng cáo tôn rung lắc kêu rầm rầm và cành cây xà cừ lớn bắt đầu rung mạnh nghiêng ngả. Em và mẹ đang đi xe máy trên đường cần xử lí ngay thế nào?",
+        "o": [
+          "Nhanh chóng tấp xe vào hiên nhà xây kiên cố vững chắc (tránh xa gốc cây to cổ thụ, cột điện và biển quảng cáo lớn trên cao) chờ hết cơn lốc",
+          "Đứng nép ngay dưới gốc cây cổ thụ rễ nông giữa ngã tư đường",
+          "Cố phóng xe thật nhanh vượt qua dưới tấm biển quảng cáo sắt đang lắc lư",
+          "Dừng xe đứng sát bên trạm biến áp điện cao thế"
+        ],
+        "k": "A",
+        "e": "Cây to gãy cành và biển hiệu quảng cáo rơi là hai hiểm họa hàng đầu trong gió lốc đầu cơn giông.",
+        "s": "Lối sống 4",
+        "h": "Trú tránh an toàn khi gặp gió lốc đột ngột"
+      },
+      {
+        "c": "LS4-B09-008",
+        "d": "application",
+        "p": "Buổi chiều ở trường, sau giờ tập thể dục ngoài sân nắng, một bạn bỗng mặt đỏ bừng nóng ran, da khô nóng, choáng váng nhức đầu buồn nôn. Cách sơ cứu bạn bị say nắng đúng nhất trong lúc gọi y tế là gì?",
+        "o": [
+          "Bắt bạn chạy thêm ba vòng sân nắng nữa cho quen thời tiết",
+          "Dội xô nước đá buốt 0 độ thẳng lên đỉnh đầu bạn",
+          "Đưa ngay bạn vào chỗ râm mát thoáng gió, nới lỏng cổ áo, chườm khăn thấm nước mát lên trán – cổ – nách và cho uống từng ngụm nước mát nhỏ nếu còn tỉnh táo",
+          "Đắp ngay lên người bạn một chiếc chăn bông thật dày cho ra mồ hôi"
+        ],
+        "k": "C",
+        "e": "Làm mát cơ thể từ từ ở nơi râm thoáng và bù nước nhẹ là cách hạ nhiệt an toàn nhất cho người say nắng.",
+        "s": "Lối sống 4",
+        "h": "Sơ cứu đúng người bị say nắng trên sân trường"
+      },
+      {
+        "c": "LS4-B09-009",
+        "d": "application",
+        "p": "Gia đình bạn An sống ở vùng đồng trũng thường hay bị nước lũ dâng nhanh vào mùa mưa bão. Trong bản kế hoạch sơ tán an toàn của gia đình, điều gì giúp giữ an toàn nhất cho trẻ em?",
+        "o": [
+          "Chấp hành sơ tán sớm khi có lệnh báo động trước lúc nước dâng ngập đường, mang sẵn áo phao, túi khẩn cấp và nắm chặt tay người lớn không tách đoàn",
+          "Cố ở lại tầng trệt đến khi nước ngập quá ngực mới tự bơi đi tìm thuyền",
+          "Cho trẻ tự chèo thau nhựa đi chơi trong dòng nước lũ chảy xiết",
+          "Bỏ lại áo phao ở nhà vì sợ làm bẩn quần áo mới"
+        ],
+        "k": "A",
+        "e": "Di chuyển sơ tán trước khi lũ đạt đỉnh trong lúc trời còn sáng giúp tránh hoàn toàn cảnh mắc kẹt nguy hiểm ban đêm.",
+        "s": "Lối sống 4",
+        "h": "Chủ động sơ tán sớm vùng ngập lũ"
+      },
+      {
+        "c": "LS4-B09-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ thống kê các sự cố thường gặp ngay sau một trận mưa bão lớn tại khu dân cư. Theo số liệu, nguy cơ hàng đầu cần cảnh giác khi bước chân ra đường dọn dẹp sau bão là gì?",
+        "o": [
+          "Dây điện bị đứt rơi xuống nước đã mất hoàn toàn dòng điện",
+          "Chỉ có sương mù nhẹ là đáng lo nhất theo biểu đồ",
+          "Nguy cơ bị cháy nắng sa mạc ngay trong mưa bão là cao nhất",
+          "Nguy cơ điện giật do dây điện đứt rò điện ngập nước (42%) và cây xanh gãy đổ bất ngờ (28%) – luôn kiểm tra kĩ từ xa, tuyệt đối không chạm dây điện rơi"
+        ],
+        "k": "D",
+        "e": "Dây điện đứt nằm trong vũng nước vẫn có thể mang điện áp cao chết người; thấy dây điện rơi phải đứng xa ít nhất 10m và báo ngay điện lực.",
+        "s": "Lối sống 4",
+        "h": "Cảnh giác rò điện và cây đổ sau bão",
+        "fig": {
+          "type": "bars",
+          "title": "Sự cố nguy hiểm sau bão (%)",
+          "labels": [
+            "Dây điện rò ngập",
+            "Cây đổ, tôn bay",
+            "Sụt lở, hố cống",
+            "Trượt ngã ẩm ướt"
+          ],
+          "series": [
+            {
+              "values": [
+                42,
+                28,
+                18,
+                12
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "c": "LS4-B09-011",
+        "d": "application",
+        "p": "Khi trời đang nổ sấm sét ngoài cửa sổ phòng khách, em lại thấy bạn cùng phòng định mở vòi nước tắm gội bằng bình nóng lạnh và đeo tai nghe cắm dây điện trực tiếp vào ổ tường xem phim. Em nhắc bạn điều gì?",
+        "o": [
+          "Tạm hoãn tắm gội và rút phích điện không cần thiết lúc dông sét dữ dội vì sét có thể truyền xung điện qua dây dẫn hoặc ống nước",
+          "Đứng sát vào đường ống nước bằng sắt trong nhà tắm",
+          "Mở cửa sổ thò tay ra hứng nước mưa cho mát",
+          "Bật thêm tất cả ti vi, máy tính, máy sấy tóc cùng lúc để chia nhỏ tia sét"
+        ],
+        "k": "A",
+        "e": "Sét đánh vào mạng lưới điện hoặc cột thu lôi gần nhà có thể lan truyền qua dây điện và đường ống kim loại ẩm ướt.",
+        "s": "Lối sống 4",
+        "h": "Hạn chế dùng điện lưới và tắm lúc dông sét"
+      },
+      {
+        "c": "LS4-B09-012",
+        "d": "application",
+        "p": "Nếu sống ở khu vực miền núi, trung du vào mùa mưa bão kéo dài nhiều ngày, dấu hiệu cảnh báo sớm nguy cơ SẠT LỞ ĐẤT hoặc LŨ QUÉT để kịp thời báo người lớn sơ tán khẩn cấp là gì?",
+        "o": [
+          "Thấy vết nứt mới trên sườn đồi, cây nghiêng dần, tiếng đất đá nổ ầm từ đỉnh núi hoặc nước suối đục đỏ quạch dâng rút thất thường",
+          "Thấy mặt đất khô nứt nẻ giữa mùa hè nắng hạn không mưa",
+          "Thấy đàn chim bay về tổ lúc hoàng hôn bình thường",
+          "Thấy bầu trời xuất hiện cầu vồng bảy sắc sau cơn mưa nhỏ"
+        ],
+        "k": "A",
+        "e": "Nhận biết sớm dấu hiệu lũ quét – sạt lở đất giúp cả bản làng chạy lên sườn đồi cao an toàn chỉ trong vài phút vàng.",
+        "s": "Lối sống 4",
+        "h": "Nhận biết sớm dấu hiệu lũ quét, sạt lở đất"
+      },
+      {
+        "c": "LS4-B09-013",
+        "d": "advanced",
+        "p": "Tại sao nói \"Thiên tai ngày càng bất thường do biến đổi khí hậu, nhưng mức độ thiệt hại nhiều hay ít phụ thuộc rất lớn vào sự chuẩn bị và ý thức tuân thủ của con người\"?",
+        "o": [
+          "Vì thiên tai chỉ xảy ra với những người không biết xem đồng hồ",
+          "Vì xả rác nhiều vào cống rãnh giúp nước rút nhanh gấp đôi",
+          "Vì con người có thể ra lệnh cho cơn bão dừng lại ngoài biển bằng tiếng hô to",
+          "Nếu mọi người theo dõi dự báo sớm, không xả rác bít cống gây ngập, tuân thủ lệnh cấm qua ngầm tràn và có kĩ năng tự cứu, thiệt hại sẽ giảm mạnh"
+        ],
+        "k": "D",
+        "e": "Phòng ngừa chủ động từ những hành động nhỏ (khơi thông cống, trồng cây chắn gió, diễn tập thoát hiểm) cứu sống rất nhiều người.",
+        "s": "Lối sống 4",
+        "h": "Vai trò chủ động của con người giảm nhẹ thiên tai"
+      },
+      {
+        "c": "LS4-B09-014",
+        "d": "advanced",
+        "p": "Một bản tin giả trên mạng xã hội tung tin đồn thất thiệt: \"Ngày mai sẽ có sóng thần cao 50 mét nhấn chìm hoàn toàn thành phố Hà Nội\" gây hoang mang cho một số bạn nhỏ. Em phân tích tin này dựa vào đâu?",
+        "o": [
+          "Dựa vào nguồn tin chính thức của cơ quan Khí tượng Thủy văn và hiểu biết địa lí (Hà Nội ở sâu trong đất liền không giáp biển) để bác bỏ tin giả",
+          "Chỉ tin mọi tin đồn giật gân có nhiều lượt thích trên mạng xã hội",
+          "Thu dọn đồ đạc trèo lên mái nhà ngồi suốt cả tuần vì tin lời mạng",
+          "Lập tức chia sẻ tin đồn này cho 50 bạn khác vì sợ nhỡ có thật thì sao"
+        ],
+        "k": "A",
+        "e": "Khi có thiên tai, chỉ tiếp nhận và chia sẻ thông tin từ đài truyền hình quốc gia, cơ quan khí tượng và chính quyền địa phương.",
+        "s": "Lối sống 4",
+        "h": "Giữ bình tĩnh kiểm chứng tin giả về thiên tai"
+      },
+      {
+        "c": "LS4-B09-015",
+        "d": "advanced",
+        "p": "Sau một đợt lũ lụt nước rút ở miền Trung, trường học phát động phong trào \"Chia sẻ yêu thương giúp bạn vùng lũ\". Đóng góp nào thiết thực và phù hợp nhất với lứa tuổi học sinh Lớp 4?",
+        "o": [
+          "Chỉ đăng một dòng bình luận trên mạng rồi không làm gì cả",
+          "Quyên góp sạch sẽ sách vở đồ dùng học tập còn tốt, quần áo ấm sạch gấp gọn và một phần tiền tiết kiệm nhỏ ăn sáng gửi qua nhà trường",
+          "Gửi toàn bộ bài tập về nhà chưa làm nhờ các bạn làm hộ",
+          "Gửi đồ ăn dễ ôi thiu đang hỏng dở hoặc quần áo rách bẩn mất cúc"
+        ],
+        "k": "B",
+        "e": "Trao tặng đồ dùng sạch sẽ, đóng gói phân loại rõ ràng thể hiện sự tôn trọng chân thành đối với bạn vùng lũ.",
+        "s": "Lối sống 4",
+        "h": "Hỗ trợ thiết thực và văn minh cho bạn vùng lũ"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong4-c4",
+    "lesson": {
+      "code": "lssong4-b10",
+      "title": "Bài 10. Phòng tránh Lừa đảo, Bắt cóc và Kĩ năng An toàn khi bị Lạc",
+      "seq": 10,
+      "subtitle": "Nhận diện các chiêu trò dụ dỗ phổ biến của người lạ (cho quà, nhờ tìm vật nuôi, giả danh người quen của bố mẹ); thực hành quy tắc 3 bước khi bị lạc ở siêu thị – khu vui chơi và thuộc số điện thoại khẩn cấp",
+      "concepts": [
+        "Nhận biết chiêu trò tiếp cận dụ dỗ và nguyên tắc nói KHÔNG với người lạ",
+        "Quy tắc xử lí khi bị lạc: Đứng yên – Tìm người có đồng phục – Không đi theo người lạ",
+        "Ghi nhớ số điện thoại bố mẹ và tổng đài 111, 113, 114, 115"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS4-B10-001",
+        "d": "basic",
+        "p": "Tổng đài Quốc gia bảo vệ trẻ em miễn phí hoạt động 24/7 tại Việt Nam (gọi khi bị xâm hại, đe dọa hoặc cần hỗ trợ khẩn cấp) là số nào?",
+        "o": [
+          "1080",
+          "999",
+          "888",
+          "111 (bên cạnh các số khẩn cấp 113 Công an, 114 Cứu hỏa và 115 Cấp cứu y tế)"
+        ],
+        "k": "D",
+        "e": "Mỗi bạn nhỏ cần ghi nhớ lòng bốn số điện thoại cứu hộ vàng: 111 (Bảo vệ trẻ em), 113 (Công an), 114 (Chữa cháy), 115 (Cấp cứu).",
+        "s": "Lối sống 4",
+        "h": "Ghi nhớ tổng đài Bảo vệ Trẻ em 111"
+      },
+      {
+        "c": "LS4-B10-002",
+        "d": "basic",
+        "p": "Khi em vô tình bị lạc mất bố mẹ giữa siêu thị đông đúc hoặc công viên trò chơi rộng lớn, quy tắc ĐẦU TIÊN an toàn nhất em cần làm là gì?",
+        "o": [
+          "Khóc to lên rồi leo lên xe máy của một chú lạ bảo chú ấy chở đi kiếm mẹ",
+          "Trốn tít vào góc tối nhà kho đóng cửa ngồi im một mình",
+          "Chạy thật nhanh ra tận ngoài đường cái lớn tìm xe buýt tự bắt về nhà",
+          "Giữ bình tĩnh đứng yên tại chỗ hoặc quay ngay về điểm hẹn đã dặn, tuyệt đối không chạy lung tung ra cổng hay đi theo người lạ dắt đi tìm"
+        ],
+        "k": "D",
+        "e": "Chạy lung tung khiến bố mẹ và mình càng lạc xa nhau; đứng ở chỗ sáng dễ thấy và tìm người có trách nhiệm hỗ trợ là chuẩn mực nhất.",
+        "s": "Lối sống 4",
+        "h": "Quy tắc đầu tiên khi bị lạc nơi đông người"
+      },
+      {
+        "c": "LS4-B10-003",
+        "d": "basic",
+        "p": "Ở siêu thị, sân bay hoặc trung tâm thương mại, nếu bị lạc bố mẹ, em nên tìm nhờ ai giúp đỡ gọi loa thông báo tìm người thân là AN TOÀN NHẤT?",
+        "o": [
+          "Một người đang ngồi một mình trong ô tô kín cửa",
+          "Một anh thanh niên rủ em ra ngoài ngõ tối để gọi điện thoại nhờ",
+          "Chú bảo vệ mặc đồng phục, cô nhân viên thu ngân quầy tính tiền hoặc quầy thông tin khách hàng có biển hiệu rõ ràng",
+          "Bất kì người lạ nào đi ngang qua đang đứng sát bãi đỗ xe vắng vẻ"
+        ],
+        "k": "C",
+        "e": "Nhân viên mặc đồng phục quầy dịch vụ và bảo vệ tại chỗ làm việc cố định có hệ thống loa nội bộ an toàn tin cậy cao nhất.",
+        "s": "Lối sống 4",
+        "h": "Chọn đúng người tin cậy nhờ giúp khi bị lạc"
+      },
+      {
+        "c": "LS4-B10-004",
+        "d": "basic",
+        "p": "Quan sát bảng nhận diện các chiêu trò dụ dỗ trẻ em hay gặp sau đây. Nếu có một người lạ đứng trước cổng trường nói: \"Mẹ cháu bị ngã xe vào viện rồi, chú là bạn mẹ đến đón cháu đi thăm mẹ ngay!\", em cần phản ứng thế nào?",
+        "o": [
+          "Tin ngay lập tức và nhảy vội lên yên sau xe máy của người lạ đó",
+          "Tự hỏi xem chú ấy có cho mình kẹo sô-cô-la không rồi mới lên xe",
+          "Tuyệt đối KHÔNG lên xe; lập tức lùi vào trong sân trường báo ngay cho thầy cô giáo chủ nhiệm hoặc chú bảo vệ gọi điện kiểm tra thẳng với bố mẹ",
+          "Im lặng đi bộ theo chú ấy ra một quán nước vắng gần đó nói chuyện"
+        ],
+        "k": "C",
+        "e": "Đánh vào tâm lí lo lắng cho bố mẹ gặp tai nạn là thủ đoạn lừa bắt cóc rất phổ biến; luôn xác minh qua thầy cô và điện thoại trực tiếp.",
+        "s": "Lối sống 4",
+        "h": "Cảnh giác chiêu trò giả danh bạn của bố mẹ",
+        "fig": {
+          "type": "table",
+          "title": "Nhận diện Thủ đoạn Dụ dỗ",
+          "head": [
+            "Chiêu trò thường gặp",
+            "Phản xạ bảo vệ mình"
+          ],
+          "rows": [
+            [
+              "Cho kẹo, đồ chơi đắt",
+              "Nói KHÔNG, lùi xa 2m"
+            ],
+            [
+              "Nhờ giúp tìm cún con",
+              "Từ chối, báo bố mẹ"
+            ],
+            [
+              "Bảo bố mẹ vừa bị nạn",
+              "Báo cô giáo xác minh"
+            ],
+            [
+              "Lạc mất người thân",
+              "Tìm bảo vệ, thu ngân"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS4-B10-005",
+        "d": "basic",
+        "p": "Một người lạ mặt cầm tấm ảnh chú cún con dễ thương bảo em: \"Cháu vào con ngõ nhỏ đằng kia giúp chú tìm chú chó đi lạc với, chú thưởng cho 100 nghìn!\". Quy tắc vàng với yêu cầu nhờ giúp của người lạ là gì?",
+        "o": [
+          "Đứng sát bên cạnh sờ đầu con chó trong thùng xe tải kín",
+          "Đi theo người lạ vào ngõ vắng giúp ngay để nhận 100 nghìn đồng tiền thưởng",
+          "Gọi thêm hai bạn nhỏ nữa cùng chui vào ngõ tối giúp người lạ",
+          "Người lớn khỏe mạnh thật sự cần giúp đỡ sẽ tìm hỏi một NGƯỜI LỚN khác chứ không nhờ một trẻ em đi vào chỗ vắng; em kiên quyết từ chối và lùi về chỗ đông người"
+        ],
+        "k": "D",
+        "e": "\"Người lớn không nhờ trẻ con vào chỗ vắng\" là quy tắc an toàn cá nhân rất dễ nhớ để nhận diện bẫy dụ dỗ.",
+        "s": "Lối sống 4",
+        "h": "Quy tắc \"Người lớn không nhờ trẻ em vào chỗ vắng\""
+      },
+      {
+        "c": "LS4-B10-006",
+        "d": "basic",
+        "p": "Thông tin cá nhân nào sau đây mỗi học sinh Lớp 4 BẮT BUỘC phải học thuộc lòng chính xác như tên mình để đề phòng trường hợp khẩn cấp?",
+        "o": [
+          "Số tiền lương hằng tháng của hàng xóm",
+          "Họ tên đầy đủ của bố mẹ, ít nhất 1–2 số điện thoại di động của bố hoặc mẹ và địa chỉ nhà chính xác của gia đình",
+          "Mật khẩu tài khoản trò chơi điện tử của anh trai",
+          "Biển số tất cả các xe ô tô đậu trước cổng trường"
+        ],
+        "k": "B",
+        "e": "Khi bị lạc mà không nhớ số điện thoại bố mẹ, thời gian tìm lại gia đình sẽ kéo dài và dễ rơi vào nguy hiểm.",
+        "s": "Lối sống 4",
+        "h": "Thuộc lòng số điện thoại bố mẹ và địa chỉ nhà"
+      },
+      {
+        "c": "LS4-B10-007",
+        "d": "application",
+        "p": "Cuối giờ tan học, mẹ em dặn đứng chờ trong sân trường ngay ghế đá trước phòng bảo vệ nhưng hôm nay mẹ tắc đường đến muộn 15 phút. Lúc này một bác hàng xóm ở cùng ngõ đi qua bảo: \"Lên xe bác chở về luôn đỡ phải đợi mẹ!\". Trong khi mẹ chưa nhắn dặn gì với cô giáo hay em trước đó, em chọn cách nào?",
+        "o": [
+          "Lên xe đi theo bác luôn không cần báo ai cả",
+          "Bảo bác đưa cho mình hai chục nghìn mua trà sữa uống đứng cổng sau",
+          "Đi bộ lang thang một mình ra công viên cách trường hai cây số chơi",
+          "Lễ phép cảm ơn bác nhưng kiên quyết từ chối, xin phép ở lại trong trường ngay gần phòng bảo vệ nhờ thầy cô gọi điện xác nhận hỏi ý kiến mẹ trước"
+        ],
+        "k": "D",
+        "e": "Kể cả người quen sơ hoặc hàng xóm, nếu chưa có sự đồng ý trước từ bố mẹ và báo thầy cô biết thì không tự ý rời khỏi trường.",
+        "s": "Lối sống 4",
+        "h": "Quy tắc đi nhờ xe kể cả với người quen sơ"
+      },
+      {
+        "c": "LS4-B10-008",
+        "d": "application",
+        "p": "Em đang ở nhà một mình buổi chiều có bố mẹ dặn khóa cửa cẩn thận. Bỗng có tiếng gõ cửa và giọng một chú lạ bảo: \"Chú là nhân viên sửa mạng/giao hàng bưu phẩm của bố cháu, mở cửa cho chú vào kiểm tra dây mạng trong phòng ngủ!\". Em ứng xử thế nào?",
+        "o": [
+          "Giữ cửa khóa chốt an toàn từ bên trong, trả lời bố mẹ không có nhà, đề nghị chú gọi điện hẹn bố mẹ lúc khác rồi báo ngay cho bố mẹ",
+          "Chạy ra tận cổng mở khóa cổng cho chú ấy dắt xe vào sân",
+          "Mở toang cửa mời chú ấy vào tận phòng ngủ ngồi uống nước chờ bố về",
+          "Lò đầu ra ngoài cửa sổ ném chìa khóa nhà xuống cho chú"
+        ],
+        "k": "A",
+        "e": "Tuyệt đối không mở cửa nhà khi chỉ có mình ở nhà cho bất kì người lạ nào kể cả mặc áo nhân viên giao hàng hay thợ điện.",
+        "s": "Lối sống 4",
+        "h": "An toàn không mở cửa cho người lạ khi ở nhà một mình"
+      },
+      {
+        "c": "LS4-B10-009",
+        "d": "application",
+        "p": "Trên đường đi bộ cùng nhóm bạn về nhà, một người lạ mặt tiến lại gần giơ tay định nắm cổ tay em kéo về phía xe máy đang nổ máy chờ sẵn. Phản xạ thoát thân 3 bước mạnh mẽ nào phát huy hiệu quả nhất ngay lúc đó?",
+        "o": [
+          "Nhắm mắt đứng im tại chỗ không nhúc nhích bước nào",
+          "Im lặng ngoan ngoãn đi theo vì sợ hét to làm hàng xóm chê mất lịch sự",
+          "Rút tiền mừng tuổi trong túi ra đưa cho người lạ",
+          "Hét thật to (\"Cứu cháu với! Không phải bố mẹ cháu!\"), giật mạnh khuỷu tay vùng thoát hướng ngón cái và chạy vọt vào nơi đông người nhất"
+        ],
+        "k": "D",
+        "e": "Kêu to câu rõ ràng \"Không phải bố mẹ cháu!\" khiến người qua đường lập tức nhận ra vụ bắt cóc và can thiệp kịp thời thay vì tưởng gia đình mắng con.",
+        "s": "Lối sống 4",
+        "h": "Kĩ năng hét to thoát thân khi bị người lạ kéo tay"
+      },
+      {
+        "c": "LS4-B10-010",
+        "d": "application",
+        "p": "Gia đình em chuẩn bị đi tham quan khu du lịch hội chợ cực kì đông người cuối tuần. Để chủ động phòng tránh thất lạc trẻ nhỏ ngay từ trước khi đi, cả nhà nên thống nhất trước hai việc nào?",
+        "o": [
+          "Không cần dặn trước gì vì tới đâu tính tới đó",
+          "Mỗi người mặc áo màu giống hệt nhau rồi ai thích chạy hướng nào thì chạy",
+          "Tắt nguồn tất cả điện thoại di động cất ở nhà cho nhẹ túi",
+          "Thống nhất rõ một điểm hẹn dễ nhận diện nếu lỡ lạc nhau, chụp lại ảnh bộ quần áo em mặc hôm đó và cài sẵn mảnh giấy ghi số điện thoại bố mẹ vào túi áo em"
+        ],
+        "k": "D",
+        "e": "Chụp ảnh trang phục trong ngày và đặt \"điểm hẹn an toàn\" là quy trình chuẩn bảo vệ trẻ khi du lịch nơi đông đúc.",
+        "s": "Lối sống 4",
+        "h": "Chuẩn bị phương án phòng bị lạc trước khi đi chơi đông"
+      },
+      {
+        "c": "LS4-B10-011",
+        "d": "application",
+        "p": "Khi chơi trò chơi trực tuyến trên máy tính bảng, một tài khoản lạ xưng là \"bạn học sinh bằng tuổi\" nhắn tin khen em chơi giỏi và rủ em: \"Gửi cho tớ ảnh chụp thẻ học sinh có tên trường, địa chỉ nhà và hẹn chiều mai gặp riêng ở công viên nhận quà nhé!\". Em làm gì?",
+        "o": [
+          "Gửi thêm cả mật khẩu điện thoại của mẹ cho bạn tin tưởng",
+          "Gửi ngay địa chỉ nhà và lịch đi học về một mình cho người bạn mạng đó",
+          "Tuyệt đối không gửi thông tin cá nhân, ảnh trường lớp hay hẹn gặp ngoài đời bất kì người quen trên mạng nào; chặn tài khoản đó và báo ngay cho bố mẹ biết",
+          "Lén giấu bố mẹ tự đi bộ ra công viên gặp thử xem có quà thật không"
+        ],
+        "k": "C",
+        "e": "Kẻ xấu trên mạng thường giả danh bạn nhỏ đồng trang lứa kết thân để khai thác thông tin cá nhân và dụ gặp mặt ngoài đời.",
+        "s": "Lối sống 4",
+        "h": "Cảnh giác người lạ giả danh bạn nhỏ trên mạng"
+      },
+      {
+        "c": "LS4-B10-012",
+        "d": "application",
+        "p": "Quan sát biểu đồ mức độ ghi nhớ các biện pháp phòng tránh rủi ro của học sinh khối 4 trong một khảo sát thực tế. Kĩ năng quan trọng nào còn yếu nhất (chỉ 34%) cần cả lớp rèn luyện bổ sung ngay?",
+        "o": [
+          "Kĩ năng nhớ đúng tổng đài khẩn cấp 111 và kiểm chứng thông tin người đón bất thường còn thấp (34%), cần thực hành đóng vai thường xuyên trên lớp",
+          "Bốn kĩ năng đều đạt mức hoàn hảo 100%",
+          "Các bạn đã biết rất giỏi việc đi theo người lạ rồi nên không cần tập nữa",
+          "Tỉ lệ nhớ được tên đồ chơi yêu thích quá thấp"
+        ],
+        "k": "A",
+        "e": "Kiến thức an toàn chỉ biến thành phản xạ sống còn khi được thực hành diễn tập tình huống thực tế nhiều lần.",
+        "s": "Lối sống 4",
+        "h": "Phân tích số liệu rèn luyện kĩ năng an toàn",
+        "fig": {
+          "type": "bars",
+          "title": "Tỉ lệ HS xử lí đúng tình huống (%)",
+          "labels": [
+            "Thuộc SĐT bố mẹ",
+            "Không nhận quà lạ",
+            "Đứng yên khi bị lạc",
+            "Nhớ 111 & kiểm chứng"
+          ],
+          "series": [
+            {
+              "values": [
+                82,
+                74,
+                58,
+                34
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "c": "LS4-B10-013",
+        "d": "advanced",
+        "p": "Nhiều bạn nhỏ ngại nói từ chối thẳng thắn với người lớn lạ mặt vì được dạy là \"phải luôn lễ phép nghe lời người lớn\". Làm thế nào để phân biệt giữa \"Lễ phép với người lớn\" và \"An toàn không thỏa hiệp trước hành vi nguy hiểm\"?",
+        "o": [
+          "Đã là trẻ em thì bất kì người lớn nào ra lệnh gì ở đâu cũng bắt buộc phải vâng lời làm theo",
+          "Chỉ những người lạ mặc áo đen mới đáng sợ, còn mặc đồ đẹp thì cứ đi theo",
+          "Lễ phép áp dụng trong giao tiếp lịch sự hằng ngày, còn khi người lạ xâm phạm ranh giới hay rủ vào chỗ vắng thì ĐƯỢC QUYỀN nói KHÔNG và bỏ chạy",
+          "Để tỏ ra an toàn thì phải gặp ông bà thầy cô cũng hét to từ chối chào hỏi"
+        ],
+        "k": "C",
+        "e": "Dạy trẻ \"Không phải ai lớn tuổi cũng đúng khi yêu cầu điều bất thường\" là lá chắn tâm lí bảo vệ trẻ em hiện đại.",
+        "s": "Lối sống 4",
+        "h": "Ranh giới giữa lễ phép và tự bảo vệ an toàn"
+      },
+      {
+        "c": "LS4-B10-014",
+        "d": "advanced",
+        "p": "Một gia đình đặt quy ước \"Mật khẩu gia đình bí mật\" (chỉ bố mẹ và con biết, ví dụ tên chú cún bông ở nhà). Hệ thống mật khẩu đơn giản này phát huy tác dụng trong tình huống nào?",
+        "o": [
+          "Khi người lạ tự nhận được bố mẹ nhờ đón hộ khẩn cấp: nếu họ không đọc đúng \"mật khẩu gia đình\", em biết ngay là nói dối và báo thầy cô",
+          "Dùng để mở khóa cửa kính tự động ở các trung tâm thương mại",
+          "Dùng để khoe công khai lên mạng xã hội cho mọi bạn bè cùng biết",
+          "Dùng để đăng kí mua vé xem phim được giảm giá"
+        ],
+        "k": "A",
+        "e": "Mật khẩu an toàn gia đình (Family Safe Word) chỉ chia sẻ nội bộ cha mẹ – con cái giúp phát hiện ngay chiêu trò giả danh đón hộ.",
+        "s": "Lối sống 4",
+        "h": "Vai trò quy ước \"Mật khẩu gia đình bí mật\""
+      },
+      {
+        "c": "LS4-B10-015",
+        "d": "advanced",
+        "p": "Tại sao việc công khai đăng ảnh đồng phục có rõ tên trường – tên lớp của học sinh kèm dòng trạng thái \"Bố mẹ đi công tác 3 ngày, con ở nhà một mình\" lên mạng xã hội lại cực kì nguy hiểm?",
+        "o": [
+          "Hoàn toàn không nguy hiểm gì vì chỉ có bạn bè cùng lớp đọc được",
+          "Vì kẻ xấu dễ dàng thu thập chính xác địa điểm trường học, giờ tan tầm và thời điểm nhà vắng người lớn để lập kế hoạch lừa đảo hoặc đột nhập gây hại cho trẻ",
+          "Vì tên trường trên áo sẽ bị phai mực ngay sau khi chụp ảnh",
+          "Vì đăng ảnh như vậy làm hỏng màn hình điện thoại di động"
+        ],
+        "k": "B",
+        "e": "Bảo mật thông tin định vị sinh hoạt hằng ngày (không đăng lịch ở nhà một mình hay địa chỉ trường lớp công khai) bảo vệ an toàn ngoài đời thực.",
+        "s": "Lối sống 4",
+        "h": "Bảo mật thông tin đời thực trên mạng xã hội"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong4-c4",
+    "lesson": {
+      "code": "lssong4-b11",
+      "title": "Bài 11. Kĩ năng Tự phục vụ, Lập kế hoạch Tuần và Tự lập khi Bố mẹ vắng nhà",
+      "seq": 11,
+      "subtitle": "Rèn luyện tính tự lập tuổi Lớp 4: tự chuẩn bị sách vở – đồng phục từ tối hôm trước, biết dọn dẹp góc học tập, phụ giúp việc nhà vừa sức, nấu món ăn đơn giản an toàn và lập thời gian biểu tuần cân bằng",
+      "concepts": [
+        "Chuẩn bị đồ đi học buổi tối và tự giác thức dậy đúng giờ",
+        "Kĩ năng nội trợ cơ bản an toàn: vo gạo cắm cơm, nhặt rau, gấp quần áo",
+        "Lập thời gian biểu tuần cân bằng học tập – việc nhà – vui chơi"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS4-B11-001",
+        "d": "basic",
+        "p": "Thói quen nào giúp em mỗi buổi sáng thức dậy đi học luôn nhẹ nhàng, đúng giờ và không bao giờ quên sách vở hay đồ dùng môn học?",
+        "o": [
+          "Sáng hôm sau sát giờ vào lớp 5 phút mới cuống cuồng lục tìm vở khắp nhà",
+          "Tối hôm trước tự xem thời khóa biểu xếp đủ sách vở, bút thước vào cặp và treo sẵn bộ đồng phục gọn gàng trước khi ngủ",
+          "Nhét bừa tất cả mọi quyển sách cả tuần vào cặp suốt năm",
+          "Nhờ mẹ tự dọn giúp cặp sách còn mình chỉ nằm chờ sáng dậy"
+        ],
+        "k": "B",
+        "e": "Chuẩn bị buổi tối mất chỉ 5 phút nhưng giúp sáng hôm sau bình tĩnh tự tin và rèn tính kỉ luật bản thân.",
+        "s": "Lối sống 4",
+        "h": "Tự chuẩn bị sách vở và trang phục từ tối"
+      },
+      {
+        "c": "LS4-B11-002",
+        "d": "basic",
+        "p": "Những việc nhà nào sau đây hoàn toàn vừa sức và an toàn để học sinh Lớp 4 chủ động đảm nhận hằng ngày giúp bố mẹ?",
+        "o": [
+          "Khiêng bình ga công nghiệp nặng 30 kg lên tầng 3",
+          "Gấp chăn màn sau khi ngủ dậy, quét lau nhà, nhặt rau, vo gạo cắm nồi cơm điện, rửa bát nhẹ và phân loại gấp quần áo khô của mình",
+          "Lái xe máy đi chợ mua đồ ăn cho cả tuần",
+          "Leo thang cao 4 mét tự sửa dây điện tổng ngoài cột điện"
+        ],
+        "k": "B",
+        "e": "Tham gia việc nhà vừa sức rèn đôi tay khéo léo, tinh thần trách nhiệm và biết san sẻ nhọc nhằn với cha mẹ.",
+        "s": "Lối sống 4",
+        "h": "Lựa chọn việc nhà vừa sức học sinh Lớp 4"
+      },
+      {
+        "c": "LS4-B11-003",
+        "d": "basic",
+        "p": "Khi sử dụng nồi cơm điện để tự nấu cơm phụ giúp gia đình, chi tiết an toàn điện bắt buộc phải kiểm tra trước khi cắm phích vào ổ điện là gì?",
+        "o": [
+          "Lau khô sạch đáy ngoài và mặt xung quanh lòng nồi kim loại (đặc biệt là lau khô tay) rồi mới đặt cân vào mâm nhiệt và cắm điện",
+          "Cạy mở phần đáy dây điện bên dưới nồi xem thử",
+          "Đổ ngập nước lên thẳng phần dây điện bên ngoài vỏ nồi cho sạch",
+          "Để nguyên đáy nồi ướt đẫm nước đặt thẳng lên mâm điện rồi cắm phích bằng tay ướt"
+        ],
+        "k": "A",
+        "e": "Đáy lòng nồi còn nước dính sẽ làm rò điện, chập cháy mâm nhiệt hoặc làm hỏng nồi cơm điện.",
+        "s": "Lối sống 4",
+        "h": "Thao tác an toàn khi cắm nồi cơm điện"
+      },
+      {
+        "c": "LS4-B11-004",
+        "d": "basic",
+        "p": "Quan sát bảng các công việc tự phục vụ hằng ngày của học sinh Lớp 4 sau. Thứ tự thực hiện công việc rửa bát đĩa gọn sạch và tiết kiệm nước nhất là gì?",
+        "o": [
+          "Trút toàn bộ xương cá và cơm thừa xuống thẳng ống thoát bồn rửa cho trôi",
+          "Rửa xoong chảo dính đầy dầu mỡ trước rồi mới nhúng cốc uống nước vào bồn xà phòng đó",
+          "Dùng một giọt nước lạnh xối qua bát rồi cất vào chạn khi còn trơn nhớt xà phòng",
+          "Gạt sạch thức ăn thừa vào sọt rác, rửa trước cốc chén ít dầu mỡ rồi tới bát đĩa ăn, rửa sạch bọt xà phòng hai lần nước sạch và úp ráo lên giá"
+        ],
+        "k": "D",
+        "e": "Rửa từ đồ sạch đến đồ nhiều dầu mỡ và gạt rác thức ăn giúp bát đĩa sạch bóng, không tắc ống cống bồn rửa.",
+        "s": "Lối sống 4",
+        "h": "Quy trình rửa bát sạch gọn đúng chuẩn",
+        "fig": {
+          "type": "table",
+          "title": "Tự phục vụ Tuổi Lớp 4",
+          "head": [
+            "Kĩ năng tự lập",
+            "Điểm cần nhớ nhất"
+          ],
+          "rows": [
+            [
+              "Chuẩn bị đi học",
+              "Soạn cặp từ tối hôm"
+            ],
+            [
+              "Cắm nồi cơm điện",
+              "Lau khô đáy nồi, tay"
+            ],
+            [
+              "Rửa bát đĩa ăn",
+              "Gạt rác thừa trước"
+            ],
+            [
+              "Lập thời gian biểu",
+              "Ưu tiên việc chính"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS4-B11-005",
+        "d": "basic",
+        "p": "Khi gấp giữ gìn quần áo đã phơi khô của bản thân và cất vào ngăn tủ, cách phân chia nào giúp lúc cần lấy đồ mặc luôn nhanh gọn không làm rối tung tủ?",
+        "o": [
+          "Xếp phân loại theo nhóm (áo đồng phục, quần áo ở nhà, tất – đồ lót riêng), gấp phẳng gọn và đặt những chiếc hay mặc dễ lấy nhất",
+          "Vo tròn tất cả quần áo bẩn lẫn quần áo sạch nhét chung vào một góc tủ",
+          "Mỗi lần tìm một chiếc tất lại lôi tung toàn bộ quần áo rơi ra sàn nhà",
+          "Nhờ bố mẹ mỗi sáng chọn và mặc giúp từng chiếc áo"
+        ],
+        "k": "A",
+        "e": "Tủ quần áo phân loại theo ngăn giúp tiết kiệm thời gian mỗi sáng và rèn thói quen ngăn nắp lâu dài.",
+        "s": "Lối sống 4",
+        "h": "Phân loại và gấp gọn quần áo cá nhân"
+      },
+      {
+        "c": "LS4-B11-006",
+        "d": "basic",
+        "p": "Trên một tờ \"Thời gian biểu tuần\" cân bằng tốt nhất cho học sinh Lớp 4, ngoài giờ học trên lớp và làm bài tập ở nhà, những khung giờ quan trọng nào KHÔNG thể thiếu?",
+        "o": [
+          "Bỏ trống hoàn toàn mục giờ đi ngủ buổi tối",
+          "Dành 6 tiếng mỗi ngày chỉ để chơi điện tử trên điện thoại",
+          "Giờ phụ giúp việc nhà, giờ vận động thể thao ngoài trời – đọc sách giải trí lành mạnh và giờ đi ngủ nghỉ ngơi đủ giấc",
+          "Chỉ ghi kín lịch học chữ từ 6 giờ sáng tới 11 giờ đêm không có giờ chơi hay thể thao"
+        ],
+        "k": "C",
+        "e": "Lịch sinh hoạt cân bằng giữa Học tập – Lao động nhẹ – Vận động – Nghỉ ngơi giúp trẻ phát triển toàn diện không bị quá tải.",
+        "s": "Lối sống 4",
+        "h": "Xây dựng thời gian biểu tuần cân bằng"
+      },
+      {
+        "c": "LS4-B11-007",
+        "d": "application",
+        "p": "Chiều thứ Bảy bố mẹ đi công tác về muộn 1 tiếng và có dặn em ở nhà tự lo ôn bài rồi cắm sẵn nồi cơm. Để buổi chiều trôi qua an toàn và hoàn thành tốt mọi việc trước khi bố mẹ về, em sắp xếp thứ tự thế nào?",
+        "o": [
+          "Bật máy tính chơi trò chơi điện tử suốt 3 tiếng quên luôn cắm cơm lẫn bài tập",
+          "Mở toang hết cửa ra đường rồi chạy sang ngõ bên kia chơi tới tối mịt mới về",
+          "Tự lấy bật lửa nhóm bếp than ngoài ban công để nướng bánh",
+          "Khóa chốt cửa an toàn, làm xong bài tập về nhà trước, tới 17h30 lau tay khô vo gạo cắm cơm sạch sẽ và không mở cửa cho người lạ gọi"
+        ],
+        "k": "D",
+        "e": "Hoàn thành nhiệm vụ trước rồi giải trí nhẹ trong không gian nhà khóa an toàn là biểu hiện tự lập đáng khen ngợi.",
+        "s": "Lối sống 4",
+        "h": "Kĩ năng tự lập an toàn khi bố mẹ về muộn"
+      },
+      {
+        "c": "LS4-B11-008",
+        "d": "application",
+        "p": "Góc bàn học của bạn Nam lúc nào cũng chất đầy vỏ kẹo, bút chì gãy, giấy nháp nhàu nát và sách vở xếp chồng ngổn ngang nên mỗi lần ngồi vào bàn tìm một quyển vở mất cả 15 phút. Em gợi ý cho Nam phương pháp dọn nhanh góc học tập theo quy tắc nào?",
+        "o": [
+          "Mua thêm ba chiếc bàn học mới đặt cạnh nhau",
+          "Lấy tấm khăn trải bàn phủ trùm kín hết đống đồ bừa bộn bên trên cho khuất mắt",
+          "Bỏ rác cũ vào sọt trước, cất đồ chơi không thuộc bàn học sang ngăn khác, sắp xếp sách vở thẳng đứng theo kích cỡ và để riêng hộp bút – giấy nháp gọn góc bàn",
+          "Hất toàn bộ đồ trên bàn xuống gầm giường là mặt bàn trống ngay"
+        ],
+        "k": "C",
+        "e": "Bàn học thoáng gọn sạch sẽ (áp dụng tinh thần 5S: Sàng lọc – Sắp xếp – Sạch sẽ) giúp trí não vào trạng thái tập trung nhanh gấp đôi.",
+        "s": "Lối sống 4",
+        "h": "Dọn sắp xếp góc học tập gọn khoa học"
+      },
+      {
+        "c": "LS4-B11-009",
+        "d": "application",
+        "p": "Một hôm đi học về em thấy rất đói bụng trong khi bố mẹ chưa kịp về nấu cơm tối, trên bàn chỉ có sẵn quả chuối chín, hộp sữa tươi sạch, bánh mì lát và bát mì tôm. Nếu muốn tự chuẩn bị bữa nhẹ an toàn không cần bật bếp lửa hay đun nước sôi một mình, em chọn món nào?",
+        "o": [
+          "Tự bật bếp ga lớn nấu nước sôi sùng sục một mình để pha mì khi tay còn run đói",
+          "Rửa tay sạch bằng xà phòng rồi ăn bánh mì kèm quả chuối chín và uống hộp sữa tươi đã kiểm tra hạn sử dụng",
+          "Mở tủ lạnh uống vội một lon nước ngọt có ga cho hết đói",
+          "Ăn thật nhiều kẹo ngọt thay cơm"
+        ],
+        "k": "B",
+        "e": "Biết chọn bữa phụ dinh dưỡng sẵn dùng (sữa, trái cây, bánh mì) giúp trẻ tự phục vụ an toàn tuyệt đối tránh rủi ro bỏng bếp.",
+        "s": "Lối sống 4",
+        "h": "Tự chuẩn bị bữa phụ an toàn không dùng bếp lửa"
+      },
+      {
+        "c": "LS4-B11-010",
+        "d": "application",
+        "p": "Em được giao 3 việc trong buổi tối thứ Sáu: (A) Làm 2 bài toán cô giáo dặn nộp sáng thứ Bảy; (B) Đọc tiếp chương truyện tranh yêu thích; (C) Sắp xếp cặp sách ngày mai. Theo nguyên tắc \"Ưu tiên việc quan trọng trước\", thứ tự hợp lí nhất là gì?",
+        "o": [
+          "Đọc hết (B) truyện tranh tới 22h30 buồn ngủ rũ mắt rồi bỏ luôn (A) lẫn (C)",
+          "Vừa đọc truyện tranh vừa làm toán vừa tìm sách cùng lúc",
+          "Làm xong (A) bài toán quan trọng cần nộp trước -> sắp xếp (C) cặp sách ngày mai gọn gàng -> rồi mới thư giãn (B) đọc truyện tranh thoải mái",
+          "Chỉ làm (C) rồi đi ngủ không thèm làm bài toán nộp sáng hôm sau"
+        ],
+        "k": "C",
+        "e": "Giải quyết xong nhiệm vụ bắt buộc quan trọng trước giúp phần thời gian đọc truyện giải trí sau đó trở nên thảnh thơi trọn vẹn.",
+        "s": "Lối sống 4",
+        "h": "Ưu tiên việc quan trọng trước khi giải trí"
+      },
+      {
+        "c": "LS4-B11-011",
+        "d": "application",
+        "p": "Khi đi du lịch hoặc về quê 2 ngày cùng lớp và gia đình, em muốn tự mình chuẩn bị chiếc ba lô hành lí cá nhân thật gọn gàng mà không bỏ sót đồ dùng cần thiết. Danh sách kiểm tra (Checklist) gọn nhẹ thông minh gồm những nhóm nào?",
+        "o": [
+          "Đóng gói toàn bộ giá sách nặng 15 kg và bốn bộ chăn màn mùa đông",
+          "Nhờ bố xách giúp bốn chiếc túi to đựng toàn thú nhồi bông",
+          "Chỉ mang duy nhất một bộ đồ chơi xếp hình mà quên hết quần áo lót và bàn chải",
+          "Quần áo vừa đủ số ngày kèm 1 bộ dự phòng, bàn chải – khăn mặt – mũ nón, bình nước cá nhân, thuốc say xe/băng cá nhân nếu cần và túi đựng đồ bẩn riêng"
+        ],
+        "k": "D",
+        "e": "Viết Checklist theo nhóm (Trang phục – Vệ sinh – Y tế nhỏ – Đồ bẩn riêng) giúp hành trình gọn nhẹ chủ động mọi lúc.",
+        "s": "Lối sống 4",
+        "h": "Lập checklist tự chuẩn bị hành lí cá nhân"
+      },
+      {
+        "c": "LS4-B11-012",
+        "d": "application",
+        "p": "Quan sát biểu đồ thời gian trung bình một ngày nghỉ cuối tuần của bạn Hà. Dựa vào biểu đồ, em nhận thấy điểm nào chưa cân bằng mà Hà cần điều chỉnh lại để khỏe mạnh và học vui hơn?",
+        "o": [
+          "Hà vận động ngoài trời quá nhiều (0,5 giờ), nên nằm yên cả ngày không bước chân khỏi giường",
+          "Thời gian xem tivi và điện thoại quá nhiều (4,5 giờ) trong khi vận động ngoài trời quá ít (0,5 giờ) – nên giảm màn hình để tăng chơi vận động",
+          "Hà cần giảm giấc ngủ ban đêm xuống còn 3 giờ cho cân bằng",
+          "Hà nên cắt bỏ hết thời gian đọc sách và giúp mẹ việc nhà để xem thêm ti vi"
+        ],
+        "k": "B",
+        "e": "Cân bằng giảm thời gian tĩnh tại trước màn hình (< 1,5 giờ giải trí/ngày) và tăng vận động ngoài trời bảo vệ thị lực và sức khỏe.",
+        "s": "Lối sống 4",
+        "h": "Điều chỉnh thời gian biểu cuối tuần cân bằng",
+        "fig": {
+          "type": "bars",
+          "title": "Thời gian hoạt động ngày nghỉ (giờ)",
+          "labels": [
+            "Ngủ nghỉ ngơi",
+            "Xem TV, điện thoại",
+            "Học bài, đọc sách",
+            "Việc nhà, vận động"
+          ],
+          "series": [
+            {
+              "values": [
+                9.5,
+                4.5,
+                2.0,
+                0.5
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "c": "LS4-B11-013",
+        "d": "advanced",
+        "p": "Nhiều phụ huynh thương con nên làm hộ con mọi việc từ buộc dây giày, dọn cặp sách tới dọn đồ chơi vì \"làm hộ cho nhanh chứ để con làm chậm lắm!\". Vì sao sự bao bọc làm hộ quá mức này lại làm hại tương lai của chính bạn nhỏ?",
+        "o": [
+          "Vì làm hộ giúp bạn nhỏ trở nên nhanh nhẹn tháo vát tự lập gấp đôi",
+          "Vì bố mẹ buộc dây giày hộ sẽ làm đôi giày tự động rách nát trong một ngày",
+          "Vì học sinh tiểu học không có khả năng buộc dây giày hay gấp áo",
+          "Khiến trẻ ỉ lại thiếu tự tin, lúng túng trước những kĩ năng sống tối thiểu khi lớn lên hoặc xa nhà và không cảm nhận được niềm vui tự chủ – trách nhiệm"
+        ],
+        "k": "D",
+        "e": "Tự lập được nuôi dưỡng từ những lần \"làm vụng về ban đầu\" nhưng được kiên nhẫn khích lệ tự làm hằng ngày.",
+        "s": "Lối sống 4",
+        "h": "Tác hại của tâm lí ỉ lại khi được làm hộ hết"
+      },
+      {
+        "c": "LS4-B11-014",
+        "d": "advanced",
+        "p": "Một kế hoạch học tập đặt ra rất hoành tráng với 10 mục tiêu khít từng phút, nhưng thực hiện được đúng 2 ngày bạn lại nản chí bỏ cuộc vì quá mệt. Cách điều chỉnh nào giúp bạn duy trì được kế hoạch dài lâu?",
+        "o": [
+          "Viết lại thời gian biểu kín đặc gấp đôi lên tới 20 mục tiêu mỗi ngày",
+          "Chia mục tiêu vừa sức thực tế, chừa \"khoảng đệm\" 15–20 phút dự phòng mỗi ngày và kiên trì hoàn thành 3 thói quen cốt lõi trước khi thêm việc mới",
+          "Thức trắng cả đêm thứ Sáu để làm bù toàn bộ bài tập cả tuần",
+          "Xé bỏ mọi kế hoạch và sống hoàn toàn tùy hứng không giờ giấc gì cả"
+        ],
+        "k": "B",
+        "e": "Kế hoạch thông minh luôn có khoảng thời gian đệm linh hoạt và bắt đầu từ những bước nhỏ bền bỉ thay vì cầu toàn kiệt sức.",
+        "s": "Lối sống 4",
+        "h": "Thiết kế kế hoạch khả thi có khoảng thời gian đệm"
+      },
+      {
+        "c": "LS4-B11-015",
+        "d": "advanced",
+        "p": "Theo em, giữa một bạn học sinh \"học thuộc rất giỏi nhưng luôn đợi bố mẹ nhắc mới ngồi vào bàn\" và một bạn \"biết tự đặt báo thức, tự soạn cặp, tự chia giờ học và tự dọn góc bàn\", điểm khác biệt lớn nhất nằm ở năng lực nào?",
+        "o": [
+          "Cả hai bạn đều phụ thuộc hoàn toàn vào lời nhắc của người lớn",
+          "Năng lực Tự chủ và Quản lí bản thân (Self-management) – nền tảng quyết định thành công bền vững khi bước lên các lớp lớn hơn và trong cuộc sống",
+          "Bạn thứ nhất học giỏi hơn nên không bao giờ cần phải dọn bàn học hay soạn cặp",
+          "Khác biệt duy nhất là bạn thứ hai mua được chiếc đồng hồ báo thức đắt tiền hơn"
+        ],
+        "k": "B",
+        "e": "Năng lực tự chủ biến kỉ luật bên ngoài thành động lực tự giác bên trong mỗi bạn nhỏ.",
+        "s": "Lối sống 4",
+        "h": "Giá trị cốt lõi của năng lực tự chủ bản thân"
+      }
+    ]
+  },
+  {
+    "chapter": "lssong4-c4",
+    "lesson": {
+      "code": "lssong4-b12",
+      "title": "Bài 12. Sống Xanh, Tiêu dùng Thông minh và Bảo vệ Không gian Sống Sạch Đẹp",
+      "seq": 12,
+      "subtitle": "Thực hành lối sống thân thiện môi trường theo nguyên tắc 3T (Tiết giảm – Tái sử dụng – Tái chế), phân loại rác tại nguồn, giảm rác thải nhựa dùng một lần và giữ gìn cây xanh nơi ở",
+      "concepts": [
+        "Thực hành nguyên tắc 3T trong trường học và gia đình",
+        "Hạn chế túi nilon – ống hút nhựa dùng một lần bằng đồ cá nhân tái sử dụng",
+        "Phân loại rác tại nguồn và chăm sóc mảng xanh khu dân cư"
+      ]
+    },
+    "questions": [
+      {
+        "c": "LS4-B12-001",
+        "d": "basic",
+        "p": "Nguyên tắc \"3T\" (3R trong bảo vệ môi trường xanh) khuyến khích mỗi người thực hành theo đúng thứ tự ưu tiên ba hành động nào?",
+        "o": [
+          "Thải bỏ – Tích trữ – Đốt cháy toàn bộ",
+          "Tăng mua sắm – Tiêu xài hết – Thay mới liên tục",
+          "Tích rác nhựa – Trộn lẫn rác – Tưới nước",
+          "Tiết giảm (Reduce) – Tái sử dụng (Reuse) – Tái chế (Recycle)"
+        ],
+        "k": "D",
+        "e": "Trong 3T, \"Tiết giảm\" (giảm phát sinh rác ngay từ đầu) đứng ở vị trí số 1 vì không tạo rác là giải pháp tốt nhất cho Trái Đất.",
+        "s": "Lối sống 4",
+        "h": "Thứ tự ưu tiên nguyên tắc 3T bảo vệ môi trường"
+      },
+      {
+        "c": "LS4-B12-002",
+        "d": "basic",
+        "p": "Khi đi học hoặc đi dã ngoại cùng lớp, vật dụng cá nhân nào thay thế hoàn hảo cho hàng chục chai nước suối nhựa dùng một lần mỗi tháng?",
+        "o": [
+          "Không uống nước suốt cả ngày đi dã ngoại",
+          "Dùng túi nilon buộc dây thun đựng nước mang theo đi học",
+          "Mỗi ngày mua mới ba chai nhựa nhỏ uống xong ném luôn vào bụi cây",
+          "Bình nước cá nhân bền đẹp mang theo từ nhà và châm thêm nước đun sôi để nguội sạch sẽ khi hết"
+        ],
+        "k": "D",
+        "e": "Một bình nước tái sử dụng giúp một bạn học sinh giảm hàng trăm chai nhựa thải ra bãi rác mỗi năm.",
+        "s": "Lối sống 4",
+        "h": "Thay chai nhựa dùng một lần bằng bình cá nhân"
+      },
+      {
+        "c": "LS4-B12-003",
+        "d": "basic",
+        "p": "Trong việc phân loại rác thải sinh hoạt tại nguồn ở gia đình và trường học, vỏ chuối, cọng rau thừa và bã trà thuộc nhóm rác nào?",
+        "o": [
+          "Nhóm rác hữu cơ dễ phân hủy (có thể ủ làm phân bón hữu cơ cho cây xanh)",
+          "Nhóm rác nhựa polime khó phân hủy trăm năm",
+          "Nhóm rác thải nguy hại phóng xạ y tế",
+          "Nhóm rác tái chế kim loại sắc nhọn"
+        ],
+        "k": "A",
+        "e": "Tách riêng rác thực phẩm hữu cơ giúp giảm mùi hôi bãi rác, giữ sạch giấy vỏ hộp tái chế và tạo nguồn phân compost màu mỡ.",
+        "s": "Lối sống 4",
+        "h": "Phân loại rác hữu cơ dễ phân hủy"
+      },
+      {
+        "c": "LS4-B12-004",
+        "d": "basic",
+        "p": "Quan sát bảng hướng dẫn thực hành Sống xanh 3T sau đây. Vì sao pin đồng hồ, pin điều khiển ti vi đã dùng hết KHÔNG ĐƯỢC vứt lẫn vào thùng rác sinh hoạt hằng ngày?",
+        "o": [
+          "Vì pin cũ sẽ mọc mầm phát triển thành cây sắt to lớn trong thùng rác",
+          "Vì pin hết điện nhẹ hơn không khí nên tự bay lên mây",
+          "Vì pin cũ là rác hữu cơ giúp giun đất béo tốt hơn",
+          "Vì trong pin cũ chứa các kim loại nặng độc hại (chì, thủy ngân, ca-đi-mi) thấm vào đất và nguồn nước ngầm gây bệnh nghiêm trọng"
+        ],
+        "k": "D",
+        "e": "Pin thải là rác nguy hại cần thu gom vào hộp riêng để đưa tới các điểm thu hồi tái chế chuyên biệt (như \"Viên pin nhỏ – Trái tim xanh\").",
+        "s": "Lối sống 4",
+        "h": "Thu gom riêng pin cũ bảo vệ đất và nước",
+        "fig": {
+          "type": "table",
+          "title": "Thực hành Sống Xanh 3T",
+          "head": [
+            "Hành động 3T",
+            "Ví dụ dễ làm"
+          ],
+          "rows": [
+            [
+              "Tiết giảm (Reduce)",
+              "Bớt túi nilon thừa"
+            ],
+            [
+              "Tái sử dụng (Reuse)",
+              "Túi vải, bình nước"
+            ],
+            [
+              "Tái chế (Recycle)",
+              "Gom giấy, lon, hộp"
+            ],
+            [
+              "Rác nguy hại (Pin)",
+              "Bỏ hộp thu hồi riêng"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "LS4-B12-005",
+        "d": "basic",
+        "p": "Những món rác nào sau đây thuộc nhóm RÁC TÁI CHẾ sạch sẽ có thể gom gọn bán hoặc đổi lấy cây xanh trong ngày hội môi trường trường học?",
+        "o": [
+          "Bơm kim tiêm y tế sắc nhọn và mảnh thủy tinh vỡ vụn",
+          "Khăn giấy ướt đã dùng lau dầu mỡ và thức ăn thiu mốc",
+          "Giấy vở viết hết, thùng bìa các-tông, chai nhựa sạch ép dẹp, vỏ lon nhôm nước ngọt và vỏ hộp sữa đã tráng sạch gấp gọn",
+          "Pin đồng hồ rỉ sét chảy nước axit"
+        ],
+        "k": "C",
+        "e": "Rác tái chế cần được đổ sạch nước cặn và tráng khô sơ để không làm bẩn cả lô giấy nhựa thu gom.",
+        "s": "Lối sống 4",
+        "h": "Nhận diện nhóm rác tái chế sạch"
+      },
+      {
+        "c": "LS4-B12-006",
+        "d": "basic",
+        "p": "Hành động đẹp nào góp phần mở rộng và giữ gìn mảng xanh sạch đẹp ngay tại ban công gia đình hoặc khuôn viên khu phố nơi em sống?",
+        "o": [
+          "Ngắt sạch toàn bộ hoa mới nở mang về chơi rồi vứt đi",
+          "Tưới nước chăm sóc cây xanh hằng ngày, không bẻ cành hái hoa công viên và tận dụng chai lọ cũ trồng thêm chậu rau gia vị – hoa nhỏ xinh",
+          "Đổ nước xà phòng giặt quần áo thẳng vào gốc cây ven đường",
+          "Khắc tên mình bằng dao nhọn lên thân cây xanh trong công viên"
+        ],
+        "k": "B",
+        "e": "Mỗi mảng xanh ban công hay sân trường hấp thụ CO2, giữ bụi mịn và mang lại bóng mát dịu mắt mỗi ngày.",
+        "s": "Lối sống 4",
+        "h": "Chăm sóc mảng xanh quanh nơi ở"
+      },
+      {
+        "c": "LS4-B12-007",
+        "d": "application",
+        "p": "Đi mua một cây bút chì và hai quyển vở ở hiệu sách gần nhà, cô bán hàng định bỏ vào một chiếc túi nilon nhỏ dù em đang đeo chiếc cặp sách rộng rãi trên vai. Hành động sống xanh tinh tế nhất của em lúc đó là gì?",
+        "o": [
+          "Vứt thẳng túi nilon của cô ra ngay vỉa hè trước cửa hiệu sách",
+          "Mỉm cười lễ phép cảm ơn cô và từ chối nhận túi nilon: \"Cháu xin phép cất thẳng vở vào cặp cho gọn, đỡ tốn túi nilon của cô ạ!\"",
+          "Xin thêm năm chiếc túi nilon mới nữa về gấp máy bay thả chơi",
+          "Bắt cô phải gói từng cây bút vào từng chiếc túi riêng biệt"
+        ],
+        "k": "B",
+        "e": "Chủ động nói lời từ chối lịch sự chiếc túi nilon nhỏ không cần thiết là thói quen \"Tiết giảm\" đầy quyền năng.",
+        "s": "Lối sống 4",
+        "h": "Chủ động từ chối túi nilon thừa khi mua sắm"
+      },
+      {
+        "c": "LS4-B12-008",
+        "d": "application",
+        "p": "Vỏ hộp sữa giấy uống xong ở lớp nếu vứt thẳng chưa làm dẹp vào thùng rác thường bốc mùi hôi thiu thu hút ruồi kiến và chiếm chật thùng. Quy trình xử lí vỏ hộp sữa học đường chuẩn \"Sạch – Gọn – Xanh\" là gì?",
+        "o": [
+          "Uống hết sữa, đẩy gọn ống hút vào bên trong vỏ hộp (hoặc tráng nhẹ nước sạch nếu ở nhà), mở hai tai hộp gấp phẳng dẹp gọn rồi bỏ vào thùng thu gom vỏ hộp sữa",
+          "Ném thẳng vỏ hộp qua cửa sổ xuống sân cỏ trường",
+          "Vứt nguyên vỏ hộp còn nửa sữa lẫn vào ngăn kéo bàn học bạn bên cạnh",
+          "Thổi phồng vỏ hộp sữa lên rồi giậm chân nổ \"bốp\" văng tung sữa thừa lên tường lớp"
+        ],
+        "k": "A",
+        "e": "Tráng nhẹ và gấp phẳng vỏ hộp sữa giảm 5 lần thể tích thùng rác và giữ nguyên lớp giấy nhôm chất lượng cao đi tái chế thành tấm lợp, giấy kraft.",
+        "s": "Lối sống 4",
+        "h": "Quy trình gấp gọn vỏ hộp sữa đúng chuẩn xanh"
+      },
+      {
+        "c": "LS4-B12-009",
+        "d": "application",
+        "p": "Quan sát biểu đồ so sánh thời gian phân hủy ước tính trong tự nhiên của một số loại rác thải phổ biến. Dựa vào số liệu, tại sao việc giảm dùng chai nhựa và túi nilon lại cấp bách hơn nhiều so với rác thực phẩm giấy ăn?",
+        "o": [
+          "Vì tất cả các loại rác đều có thời gian phân hủy bằng nhau",
+          "Vì rác thực phẩm rau củ mất tới 500 năm mới phân hủy hết",
+          "Vì chai nhựa và túi nilon tự biến mất hoàn toàn chỉ sau đúng 2 ngày nắng",
+          "Vì lõi táo – giấy ăn phân hủy trong vài tuần đến vài tháng, còn túi nilon và chai nhựa PET tồn tại hàng chục tới hàng trăm năm gây ô nhiễm đất biển kéo dài"
+        ],
+        "k": "D",
+        "e": "Một chiếc chai nhựa dùng trong 10 phút nhưng mất tới 450 năm tồn tại dưới dạng vi nhựa trong đại dương.",
+        "s": "Lối sống 4",
+        "h": "Đọc số liệu thời gian phân hủy của rác thải",
+        "fig": {
+          "type": "bars",
+          "title": "Thời gian phân hủy ước tính (năm)",
+          "labels": [
+            "Chai nhựa PET",
+            "Lon nhôm, hộp xốp",
+            "Túi nilon mỏng",
+            "Giấy, vỏ rau quả"
+          ],
+          "series": [
+            {
+              "values": [
+                450,
+                200,
+                30,
+                1
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "c": "LS4-B12-010",
+        "d": "application",
+        "p": "Gia đình em có một vỏ chai nhựa dầu ăn lớn rửa sạch và một ít ống hút giấy màu còn dư sau sinh nhật. Ý tưởng \"Tái sử dụng sáng tạo\" (Upcycling) hữu ích cho học tập hoặc cây xanh là gì?",
+        "o": [
+          "Cắt tỉa gọn an toàn vỏ chai lớn trang trí thành bình tưới cây hoa ban công hoặc ống cắm bút xinh xắn đặt trên bàn học",
+          "Nghiền nát bỏ lẫn vào nồi cơm đang nấu",
+          "Đem ra đốt khét lẹt lấy khói đen thổi vào vườn hàng xóm",
+          "Chôn sâu xuống đất cát sân chơi để làm bẫy vấp ngã"
+        ],
+        "k": "A",
+        "e": "Tái sử dụng biến vật bỏ đi thành đồ dùng mới có ích (Upcycling) kéo dài tuổi thọ vật liệu và nuôi dưỡng óc sáng tạo.",
+        "s": "Lối sống 4",
+        "h": "Sáng tạo tái sử dụng chai lọ sạch"
+      },
+      {
+        "c": "LS4-B12-011",
+        "d": "application",
+        "p": "Khi đi mua đồ dùng học tập mới đầu năm, thế nào là cách lựa chọn \"Tiêu dùng thông minh – Tránh lãng phí\" đúng nghĩa?",
+        "o": [
+          "Chọn mua đồ dùng nhựa giòn dễ gãy vì giá rẻ dù phải thay liên tục",
+          "Vứt sạch toàn bộ bút thước thước đo độ còn mới tinh để mua bộ mới cho oai",
+          "Mua 10 chiếc tẩy hình thú đắt tiền chỉ để ngửi mùi thơm rồi không dùng",
+          "Giữ lại hộp bút, thước kẻ, bảng con năm cũ còn tốt; chỉ mua bổ sung món còn thiếu chất lượng bền thay vì chạy theo đồ trang trí nhanh hỏng"
+        ],
+        "k": "D",
+        "e": "Tiêu dùng thông minh ưu tiên chất lượng bền lâu và tận dụng tối đa giá trị đồ dùng còn tốt.",
+        "s": "Lối sống 4",
+        "h": "Thực hành tiêu dùng đồ học tập thông minh"
+      },
+      {
+        "c": "LS4-B12-012",
+        "d": "application",
+        "p": "Cuối tuần khu dân cư tổ chức \"Ngày Chủ nhật Xanh\" quét dọn ngõ xóm, nhổ cỏ dại và trồng thêm hàng hoa mười giờ dọc bồn cây. Em tham gia hoạt động nào phù hợp và an toàn nhất?",
+        "o": [
+          "Đạp đổ các thùng rác đã phân loại gọn của tổ dân phố",
+          "Đeo găng tay vải bảo hộ quét lá rụng, thu gom túi rác nhỏ bỏ đúng nơi quy định, tưới nước giúp cây mới trồng và không chạm tay trần vào mảnh vỡ hay kim tiêm lạ",
+          "Dùng tay trần bốc nắm mảnh thủy tinh vỡ vụn giấu vào gầm xe ô tô",
+          "Chạy vòng quanh bấm còi xe đạp ầm ĩ trêu các bác đang quét đường"
+        ],
+        "k": "B",
+        "e": "Luôn trang bị găng tay, khẩu trang và báo ngay người lớn nếu thấy vật sắc nhọn nguy hiểm khi tham gia dọn vệ sinh cộng đồng.",
+        "s": "Lối sống 4",
+        "h": "Tham gia Ngày Chủ nhật Xanh an toàn"
+      },
+      {
+        "c": "LS4-B12-013",
+        "d": "advanced",
+        "p": "Nhiều cửa hàng hiện nay quảng cáo các sản phẩm \"hộp xốp dùng một lần giá siêu rẻ\" rất tiện lợi. Nhưng nếu phân tích theo chi phí thực tế đối với môi trường và sức khỏe cộng đồng, vì sao lại nói \"đồ nhựa xốp rẻ nhưng cái giá phải trả lại cực kì đắt\"?",
+        "o": [
+          "Vì đồ ăn đựng trong hộp xốp sẽ tự biến mất ngay lập tức",
+          "Vì hộp xốp làm bằng vàng nguyên chất nên rất đắt tiền mua ban đầu",
+          "Vì hộp xốp khó phân hủy hàng trăm năm, dễ thôi chất độc khi đựng đồ ăn nóng và tốn chi phí khổng lồ xử lí ô nhiễm đất, sông ngòi, đại dương về lâu dài",
+          "Vì hộp xốp tự động làm tăng giá tiền điện của nhà nước gấp mười lần"
+        ],
+        "k": "C",
+        "e": "Tính cả \"chi phí môi trường\" (Environmental cost) giúp nhận ra đồ dùng một lần thật ra đắt đỏ nhất với tương lai nhân loại.",
+        "s": "Lối sống 4",
+        "h": "Hiểu \"chi phí môi trường\" của đồ dùng một lần"
+      },
+      {
+        "c": "LS4-B12-014",
+        "d": "advanced",
+        "p": "Một chiến dịch trồng cây xanh phát động rất rầm rộ: cả trăm cây non được trồng xuống đất chỉ trong một buổi sáng chụp ảnh xong rồi bỏ mặc không ai tưới nước chăm sóc khiến 80% cây chết khô sau hai tuần nắng. Bài học sâu sắc rút ra ở đây là gì?",
+        "o": [
+          "Nên tưới bằng nước ngọt có ga để cây lớn nhanh hơn nước lọc",
+          "Không bao giờ nên trồng cây xanh nữa vì trồng cây nào cũng chắc chắn chết",
+          "Chỉ cần chụp thật nhiều ảnh đẹp đăng mạng là cây tự động lớn nhanh không cần nước",
+          "Bảo vệ môi trường cần hành động bền bỉ thực chất (\"trồng cây nào, chăm sống cây đó\"), phân công người tưới giữ cây lâu dài thay vì làm hình thức lấy phong trào"
+        ],
+        "k": "D",
+        "e": "Hành động xanh thực chất đo bằng kết quả sống khỏe lâu dài của thiên nhiên chứ không phải số lượng ảnh chụp sự kiện.",
+        "s": "Lối sống 4",
+        "h": "Sống xanh thực chất bền bỉ tránh hình thức"
+      },
+      {
+        "c": "LS4-B12-015",
+        "d": "advanced",
+        "p": "Trong bức tranh tổng thể về nếp sống đẹp của học sinh Lớp 4 suốt cả năm học, mối liên hệ giữa \"Giữ mình thanh lịch – An toàn – Tự lập\" và \"Yêu thiên nhiên, sống xanh\" tạo nên hình mẫu công dân nhỏ thế nào?",
+        "o": [
+          "Chỉ áp dụng được trong duy nhất một tuần nghỉ hè",
+          "Tạo nên học sinh văn minh toàn diện: biết tự chăm lo bảo vệ bản thân an toàn, ứng xử nhân ái lễ phép và có trách nhiệm giữ Trái Đất xanh bền vững",
+          "Chỉ giúp học sinh làm bài kiểm tra môn Toán nhanh hơn 5 phút",
+          "Làm học sinh quên hết mọi phép lịch sự với ông bà cha mẹ"
+        ],
+        "k": "B",
+        "e": "Từ cá nhân khỏe mạnh – tự chủ -> gia đình khu phố ấm áp -> hành tinh xanh tươi là vòng tròn giá trị trọn vẹn của Lối sống Lớp 4.",
+        "s": "Lối sống 4",
+        "h": "Hình mẫu công dân nhỏ văn minh, an toàn, sống xanh"
+      }
+    ]
+  }
+]

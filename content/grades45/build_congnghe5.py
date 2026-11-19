@@ -1,0 +1,22 @@
+import json
+import os
+import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+if HERE not in sys.path:
+    sys.path.insert(0, HERE)
+
+from cn5 import get_lessons
+
+
+def main():
+    all_lessons = get_lessons()
+    assert len(all_lessons) == 10, f'Expected 10 lessons, got {len(all_lessons)}'
+    out_path = os.path.join(HERE, 'congnghe5_batches.json')
+    with open(out_path, 'w', encoding='utf-8') as f:
+        json.dump(all_lessons, f, ensure_ascii=False, indent=2)
+    print(f'Wrote {len(all_lessons)} lessons to {out_path}')
+
+
+if __name__ == '__main__':
+    main()

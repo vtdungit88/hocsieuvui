@@ -15,6 +15,15 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.4',
+    date: '2026-11-19',
+    title: 'Mở khóa trọn bộ 9 môn Lớp 4–5 mới (thêm Khoa học & Lịch sử – Địa lí)',
+    items: [
+      'Mở khóa 9 môn cho Lớp 4–5 (272 bài học · 4.080 câu hỏi · 455 hình minh họa SVG): Tiếng Việt 4–5 (540 câu), Tiếng Anh 4–5 (600 câu), Khoa học 4–5 (540 câu), Lịch sử và Địa lí 4–5 (540 câu), Tin học 4–5 (420 câu), Công nghệ 4–5 (300 câu), Đạo đức 4–5 (360 câu), Giáo dục lối sống 4–5 (360 câu) và Âm nhạc 4–5 (420 câu).',
+      'Nâng tổng kho câu hỏi trực tuyến trên hệ thống lên hơn 16.900 câu; 3 môn Lớp 4–5 còn lại (Mĩ thuật, Giáo dục thể chất, Hoạt động trải nghiệm) đang tiếp tục hoàn thiện.'
+    ]
+  },
+  {
     version: '0.2.3',
     date: '2026-11-18',
     title: 'Hoàn tất trọn bộ 11 môn Lớp 1–3 (thêm Tin học, Công nghệ & HĐTN)',

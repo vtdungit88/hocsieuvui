@@ -1,0 +1,5393 @@
+[
+  {
+    "chapter": "tienganh5-c1",
+    "lesson": {
+      "code": "tienganh5-b01",
+      "title": "Unit 1. All about me!",
+      "seq": 1,
+      "subtitle": "Giới thiệu bản thân, lớp học, địa chỉ ở thành phố hay nông thôn và hỏi đáp sở thích (món ăn, môn thể thao, màu sắc, con vật)",
+      "concepts": [
+        "Giới thiệu thông tin cá nhân (name, class, countryside or city)",
+        "What's your favourite...? – It's...",
+        "Hỏi đáp làm quen đầu năm lớp 5"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA5-B01-001",
+        "d": "basic",
+        "p": "Hoàn thành câu giới thiệu lớp học của mình: \"I'm in ... 5A.\"",
+        "o": [
+          "Country",
+          "Class",
+          "City",
+          "Street"
+        ],
+        "k": "B",
+        "e": "Giới thiệu tên lớp dùng \"I'm in Class 5A.\"",
+        "s": "Tiếng Anh 5",
+        "h": "Từ chỉ lớp học"
+      },
+      {
+        "c": "TA5-B01-002",
+        "d": "basic",
+        "p": "Câu hỏi tiếng Anh dùng để hỏi \"Con vật yêu thích của bạn là gì?\" là gì?",
+        "o": [
+          "Where is your favourite animal?",
+          "When is your favourite food?",
+          "What's your favourite animal?",
+          "What's your favourite sport?"
+        ],
+        "k": "C",
+        "e": "\"animal\" là động vật, con vật; \"sport\" là môn thể thao; \"food\" là đồ ăn.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ từ vựng animal"
+      },
+      {
+        "c": "TA5-B01-003",
+        "d": "basic",
+        "p": "Chọn câu trả lời phù hợp cho câu hỏi: \"Can you tell me about yourself?\"",
+        "o": [
+          "At six thirty every morning.",
+          "Sure! My name's Minh. I'm in Class 5B, and I live in the countryside.",
+          "Yes, it's in the city.",
+          "No, I don't like dolphin."
+        ],
+        "k": "B",
+        "e": "Khi bạn hỏi giới thiệu bản thân, hãy nêu tên, lớp, nơi sống hoặc sở thích.",
+        "s": "Tiếng Anh 5",
+        "h": "Giới thiệu tổng quan bản thân"
+      },
+      {
+        "c": "TA5-B01-004",
+        "d": "basic",
+        "p": "Trong các từ sau, từ nào là tên một món ăn (food)?",
+        "o": [
+          "table tennis",
+          "pink",
+          "dolphin",
+          "sandwich"
+        ],
+        "k": "D",
+        "e": "sandwich (bánh mì kẹp) là đồ ăn; table tennis là thể thao, dolphin là động vật, pink là màu sắc.",
+        "s": "Tiếng Anh 5",
+        "h": "Tìm danh từ chỉ đồ ăn"
+      },
+      {
+        "c": "TA5-B01-005",
+        "d": "basic",
+        "p": "Điền từ thích hợp: \"I live ... the countryside with my grandparents.\"",
+        "o": [
+          "under",
+          "on",
+          "at",
+          "in"
+        ],
+        "k": "D",
+        "e": "Cụm chuẩn là \"in the countryside\" (ở vùng nông thôn) hoặc \"in the city\".",
+        "s": "Tiếng Anh 5",
+        "h": "Giới từ đi với countryside"
+      },
+      {
+        "c": "TA5-B01-006",
+        "d": "basic",
+        "p": "Quan sát hồ sơ giới thiệu của bạn Mai. Món ăn yêu thích nhất của Mai là gì?",
+        "o": [
+          "Badminton",
+          "Dolphin",
+          "Pizza",
+          "Blue"
+        ],
+        "k": "C",
+        "e": "Hàng \"Favourite food\" trên thẻ hồ sơ của Mai ghi \"Pizza\".",
+        "s": "Tiếng Anh 5",
+        "h": "Đọc bảng thông tin Mai",
+        "fig": {
+          "type": "table",
+          "title": "Mai's Profile Card",
+          "head": [
+            "Category",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Class",
+              "5A"
+            ],
+            [
+              "Home",
+              "city"
+            ],
+            [
+              "Favourite food",
+              "Pizza"
+            ],
+            [
+              "Favourite sport",
+              "Badminton"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA5-B01-007",
+        "d": "application",
+        "p": "Sắp xếp thành câu hỏi hoàn chỉnh: your / sport / What / favourite / is / ?",
+        "o": [
+          "Is what your favourite sport?",
+          "What your favourite sport is?",
+          "Sport favourite is what your?",
+          "What is your favourite sport?"
+        ],
+        "k": "D",
+        "e": "Câu hỏi Wh-: What + is + your favourite + danh từ?",
+        "s": "Tiếng Anh 5",
+        "h": "Đưa What is lên đầu"
+      },
+      {
+        "c": "TA5-B01-008",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"My favourite animals is dolphins.\"",
+        "o": [
+          "Sai sự hòa hợp số nhiều: phải viết \"My favourite animal is the dolphin.\" hoặc \"My favourite animals are dolphins.\"",
+          "Sai từ \"is\", phải đổi thành \"do\"",
+          "Sai từ \"My\", phải đổi thành \"Me\"",
+          "Sai từ \"favourite\", phải bỏ chữ u"
+        ],
+        "k": "A",
+        "e": "Nếu \"animals\" số nhiều thì động từ phải là \"are\"; nếu \"is\" thì chủ ngữ phải số ít.",
+        "s": "Tiếng Anh 5",
+        "h": "Kiểm tra số ít – số nhiều"
+      },
+      {
+        "c": "TA5-B01-009",
+        "d": "application",
+        "p": "Hoàn thành hội thoại: \"A: Do you live in the city? – B: No, I don't. I live in a small ... near a river.\"",
+        "o": [
+          "colour",
+          "sandwich",
+          "sport",
+          "village"
+        ],
+        "k": "D",
+        "e": "Phủ định sống ở thành phố -> sống ở làng quê (village).",
+        "s": "Tiếng Anh 5",
+        "h": "Chọn nơi sống đối lập city"
+      },
+      {
+        "c": "TA5-B01-010",
+        "d": "application",
+        "p": "Chọn câu đúng ngữ pháp khi kể về bạn thân Nam (ngôi thứ ba):",
+        "o": [
+          "Nam lives in Da Nang, and his favourite colour is green.",
+          "Nam living in Da Nang, and her favourite colour is green.",
+          "Nam live in Da Nang, and his favourite colour are green.",
+          "Nam lives at Da Nang, and he favourite colour is green."
+        ],
+        "k": "A",
+        "e": "Chủ ngữ Nam số ít dùng \"lives\", giới từ thành phố dùng \"in\", tính từ sở hữu bạn nam là \"his\".",
+        "s": "Tiếng Anh 5",
+        "h": "Soát lives, in, his"
+      },
+      {
+        "c": "TA5-B01-011",
+        "d": "application",
+        "p": "Từ nào KHÔNG cùng nhóm với \"football, badminton, basketball, dolphin\"?",
+        "o": [
+          "badminton",
+          "dolphin (cá heo – động vật, ba từ kia là môn thể thao)",
+          "basketball",
+          "football"
+        ],
+        "k": "B",
+        "e": "Ba từ đầu là môn thể thao dùng bóng hoặc vợt; dolphin là loài vật biển.",
+        "s": "Tiếng Anh 5",
+        "h": "Tìm từ khác chủ đề"
+      },
+      {
+        "c": "TA5-B01-012",
+        "d": "application",
+        "p": "Đọc câu: \"I'm in Grade 5 now. My new school year started in September.\" Bạn học sinh đang nói về điều gì?",
+        "o": [
+          "Sắp tốt nghiệp trung học phổ thông",
+          "Đang học Lớp 5 và năm học mới bắt đầu vào tháng Chín",
+          "Đang học Lớp 4 và nghỉ hè vào tháng Bảy",
+          "Sống ở nước Anh và thích ăn kem"
+        ],
+        "k": "B",
+        "e": "\"Grade 5\" = khối Lớp 5; \"school year\" = năm học; \"September\" = tháng Chín.",
+        "s": "Tiếng Anh 5",
+        "h": "Hiểu ngữ cảnh lớp học mới"
+      },
+      {
+        "c": "TA5-B01-013",
+        "d": "advanced",
+        "p": "Đọc đoạn giới thiệu: \"Hello! I'm Linh. I'm ten years old, and I'm a pupil at Binh Minh Primary School. I like dolphins because they are clever, and I play table tennis after school.\" Sở thích thể thao của Linh là gì?",
+        "o": [
+          "Badminton",
+          "Dolphins",
+          "Swimming",
+          "Table tennis (Bóng bàn)"
+        ],
+        "k": "D",
+        "e": "Động vật yêu thích là dolphins; môn thể thao chơi sau giờ học là table tennis.",
+        "s": "Tiếng Anh 5",
+        "h": "Phân biệt animal và sport"
+      },
+      {
+        "c": "TA5-B01-014",
+        "d": "advanced",
+        "p": "Hoàn thành câu hỏi phỏng vấn bạn cùng bàn dùng đúng đại từ và trợ động từ: \"What's ... favourite subject, Lan?\" – \"... favourite subject is Science.\"",
+        "o": [
+          "your ... My",
+          "my ... Your",
+          "his ... Her",
+          "their ... Our"
+        ],
+        "k": "A",
+        "e": "Hỏi trực tiếp bạn Lan dùng \"your\" -> Lan tự trả lời dùng \"My\".",
+        "s": "Tiếng Anh 5",
+        "h": "Cặp đối đáp trực tiếp your – My"
+      },
+      {
+        "c": "TA5-B01-015",
+        "d": "advanced",
+        "p": "Chọn câu ghép giới thiệu bản thân tự nhiên và chuẩn ngữ pháp nhất:",
+        "o": [
+          "My name Hoa, I lives in Hanoi, and my favourite food is pho.",
+          "I'm Hoa, I live on Hanoi, or my favourite food is pho.",
+          "I'm Hoa, I living in Hanoi, and me favourite food are pho.",
+          "I'm Hoa, I live in Hanoi, and my favourite food is pho."
+        ],
+        "k": "D",
+        "e": "Đủ động từ \"I'm\", \"live in + thành phố\", \"my favourite food is...\".",
+        "s": "Tiếng Anh 5",
+        "h": "Kiểm tra am, live in, my favourite... is"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh5-c1",
+    "lesson": {
+      "code": "tienganh5-b02",
+      "title": "Unit 2. Our homes",
+      "seq": 2,
+      "subtitle": "Hỏi đáp về loại hình nhà ở (house, flat, building, tower) và địa chỉ cụ thể (Do you live in this house? – What's your address?)",
+      "concepts": [
+        "Từ vựng nhà ở (house, flat, building, tower)",
+        "Do you live in this...? – Yes, I do / No, I don't",
+        "What's your address? – It's 65 Le Loi Street"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA5-B02-001",
+        "d": "basic",
+        "p": "Từ \"flat\" (tương đương \"apartment\") trong Tiếng Việt có nghĩa là gì?",
+        "o": [
+          "cửa hàng bán bánh mì",
+          "ngôi nhà sàn miền núi",
+          "căn hộ chung cư",
+          "bãi biển cát trắng"
+        ],
+        "k": "C",
+        "e": "\"a flat\" là căn hộ nằm trong một tòa nhà chung cư cao tầng (building/tower).",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa của flat"
+      },
+      {
+        "c": "TA5-B02-002",
+        "d": "basic",
+        "p": "Câu hỏi \"What's your address?\" dùng để hỏi thông tin gì?",
+        "o": [
+          "Số điện thoại di động của bạn",
+          "Địa chỉ nhà của bạn là gì",
+          "Tên trường học cũ của bạn",
+          "Nghề nghiệp của bố mẹ bạn"
+        ],
+        "k": "B",
+        "e": "\"address\" = địa chỉ nhà (gồm số nhà, tên đường hoặc thôn xóm).",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa từ address"
+      },
+      {
+        "c": "TA5-B02-003",
+        "d": "basic",
+        "p": "Trả lời khẳng định đúng cho câu hỏi: \"Do you live in this building?\"",
+        "o": [
+          "Yes, I am.",
+          "Yes, I do.",
+          "Yes, it is.",
+          "Yes, I live."
+        ],
+        "k": "B",
+        "e": "Câu hỏi bắt đầu bằng \"Do you...?\" luôn trả lời ngắn bằng \"Yes, I do.\" hoặc \"No, I don't.\"",
+        "s": "Tiếng Anh 5",
+        "h": "Trả lời khớp trợ động từ Do"
+      },
+      {
+        "c": "TA5-B02-004",
+        "d": "basic",
+        "p": "Điền giới từ đứng trước số nhà cụ thể: \"I live ... 18 Nguyen Trai Street.\"",
+        "o": [
+          "under",
+          "in",
+          "at",
+          "on"
+        ],
+        "k": "C",
+        "e": "Khi có số nhà cụ thể (\"18 Nguyen Trai Street\") dùng giới từ \"at\".",
+        "s": "Tiếng Anh 5",
+        "h": "Có số nhà cụ thể dùng at"
+      },
+      {
+        "c": "TA5-B02-005",
+        "d": "basic",
+        "p": "Tòa nhà rất cao ở thành phố lớn có nhiều căn hộ hay văn phòng thường gọi là gì?",
+        "o": [
+          "a tower (hoặc a tall building)",
+          "a garden",
+          "a village",
+          "a cottage"
+        ],
+        "k": "A",
+        "e": "\"tower\" = tòa tháp/tòa nhà cao tầng.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ từ vựng tower"
+      },
+      {
+        "c": "TA5-B02-006",
+        "d": "basic",
+        "p": "Quan sát bảng thông tin nhà ở của 4 bạn. Bạn Nam sống trong loại nhà nào?",
+        "o": [
+          "A tall tower",
+          "A small house",
+          "A modern flat",
+          "A big villa"
+        ],
+        "k": "B",
+        "e": "Hàng \"Nam\" ở cột Home Type ghi \"small house\".",
+        "s": "Tiếng Anh 5",
+        "h": "Xem bảng cột Home Type",
+        "fig": {
+          "type": "table",
+          "title": "Our Home Addresses",
+          "head": [
+            "Name",
+            "Home Type",
+            "Address"
+          ],
+          "rows": [
+            [
+              "Nam",
+              "small house",
+              "12 Hoa Binh St"
+            ],
+            [
+              "Mai",
+              "modern flat",
+              "45 Le Loi St"
+            ],
+            [
+              "Tom",
+              "tall tower",
+              "8 Green Lane"
+            ],
+            [
+              "Lan",
+              "village house",
+              "Xuan Mai"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA5-B02-007",
+        "d": "application",
+        "p": "Phân biệt hai câu hỏi về địa chỉ của bạn Mai: \"... does Mai live?\" và \"What's Mai's ...?\"",
+        "o": [
+          "What ... street",
+          "When ... address",
+          "Who ... building",
+          "Where ... address"
+        ],
+        "k": "D",
+        "e": "\"Where does Mai live?\" (Mai sống ở đâu?) và \"What's Mai's address?\" (Địa chỉ của Mai là gì?).",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ hai cách hỏi nơi ở"
+      },
+      {
+        "c": "TA5-B02-008",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"Do your friend live in that flat?\"",
+        "o": [
+          "Sai từ \"live\", phải thêm \"s\" thành \"lives\"",
+          "Sai từ \"that\", phải đổi thành \"these\"",
+          "Sai từ \"Do\", phải sửa thành \"Does\" vì \"your friend\" là một người (số ít)",
+          "Sai từ \"flat\", phải đổi thành \"flats\""
+        ],
+        "k": "C",
+        "e": "Chủ ngữ số ít dùng trợ động từ \"Does\" + \"live\" nguyên thể.",
+        "s": "Tiếng Anh 5",
+        "h": "Kiểm tra chủ ngữ your friend"
+      },
+      {
+        "c": "TA5-B02-009",
+        "d": "application",
+        "p": "Hoàn thành câu: \"I live in Flat 402 ... the fourth floor of Lotus Tower.\"",
+        "o": [
+          "under",
+          "at",
+          "between",
+          "on"
+        ],
+        "k": "D",
+        "e": "Tầng nhà (the fourth floor) luôn dùng giới từ \"on\" (\"on the fourth floor\").",
+        "s": "Tiếng Anh 5",
+        "h": "Tầng nhà dùng giới từ on"
+      },
+      {
+        "c": "TA5-B02-010",
+        "d": "application",
+        "p": "Sắp xếp các từ sau thành câu hỏi đúng: live / you / Do / that / in / house / ?",
+        "o": [
+          "Do you live in that house?",
+          "Do live you in that house?",
+          "You live do in that house?",
+          "In that house do you live?"
+        ],
+        "k": "A",
+        "e": "Câu hỏi Yes or No: Do + you + live + in + that house?",
+        "s": "Tiếng Anh 5",
+        "h": "Đưa Do lên đầu câu"
+      },
+      {
+        "c": "TA5-B02-011",
+        "d": "application",
+        "p": "Nếu số nhà ghi là \"Flat 10, Floor 3, Sunshine Building\", câu nào miêu tả ĐÚNG vị trí căn hộ này?",
+        "o": [
+          "It is a flat on the third floor of Sunshine Building.",
+          "It is a small village behind Sunshine Building.",
+          "It is a house on the tenth floor of Sunshine Building.",
+          "It is a flat under the ground floor."
+        ],
+        "k": "A",
+        "e": "\"Floor 3\" tương ứng số thứ tự \"the third floor\".",
+        "s": "Tiếng Anh 5",
+        "h": "Chuyển số 3 sang số thứ tự third"
+      },
+      {
+        "c": "TA5-B02-012",
+        "d": "application",
+        "p": "Từ nào KHÔNG chỉ nơi con người sinh sống: flat, house, tower, playground?",
+        "o": [
+          "flat",
+          "house",
+          "tower",
+          "playground (sân chơi)"
+        ],
+        "k": "D",
+        "e": "Flat, house, tower là nơi ở; playground là khu vực vui chơi ở trường hoặc công viên.",
+        "s": "Tiếng Anh 5",
+        "h": "Tìm từ không phải nhà ở"
+      },
+      {
+        "c": "TA5-B02-013",
+        "d": "advanced",
+        "p": "Đọc đoạn ngắn: \"My aunt lives at 105 Tran Hung Dao Street. Her flat is on the second floor. She doesn't live in a house because she likes the view from high up.\" Vì sao dì thích sống ở căn hộ tầng 2 hơn nhà đất?",
+        "o": [
+          "Because she doesn't have an address.",
+          "Because she lives in the countryside with no buildings.",
+          "Because her flat is on the tenth floor of a hotel.",
+          "Because she likes the view from high up."
+        ],
+        "k": "D",
+        "e": "Câu cuối giải thích rõ: \"because she likes the view from high up\" (thích ngắm cảnh từ trên cao).",
+        "s": "Tiếng Anh 5",
+        "h": "Đọc lí do sau because"
+      },
+      {
+        "c": "TA5-B02-014",
+        "d": "advanced",
+        "p": "Phân biệt chính xác cách dùng ba giới từ trong cùng một câu miêu tả: \"I live ... 25 Nguyen Du Street, ... a nice flat ... the fifth floor.\"",
+        "o": [
+          "on ... in ... at",
+          "at ... in ... on",
+          "at ... on ... in",
+          "in ... at ... on"
+        ],
+        "k": "B",
+        "e": "Số nhà cụ thể dùng \"at\"; bên trong căn hộ dùng \"in\"; trên tầng 5 dùng \"on\".",
+        "s": "Tiếng Anh 5",
+        "h": "Ghi nhớ: at số nhà, in căn hộ, on tầng"
+      },
+      {
+        "c": "TA5-B02-015",
+        "d": "advanced",
+        "p": "Chọn câu hoàn chỉnh ĐÚNG cả ngữ pháp lẫn logic giao tiếp:",
+        "o": [
+          "A: Do you live in that green house? – B: No, I don't. I live in the blue building next to it.",
+          "A: Does you live in that green house? – B: No, I doesn't.",
+          "A: Are you live in that green house? – B: No, I'm not.",
+          "A: Do you live at that green house? – B: Yes, I am."
+        ],
+        "k": "A",
+        "e": "Không bao giờ ghép \"Are you live...\"; phải dùng \"Do you live...?\" và trả lời \"No, I don't.\"",
+        "s": "Tiếng Anh 5",
+        "h": "Tránh ghép to be với động từ nguyên thể live"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh5-c1",
+    "lesson": {
+      "code": "tienganh5-b03",
+      "title": "Unit 3. My foreign friends",
+      "seq": 3,
+      "subtitle": "Phân biệt quốc gia và quốc tịch (Australian, Malaysian, American, Japanese) và hỏi đáp tính cách bạn bè (friendly, helpful, clever, active)",
+      "concepts": [
+        "Quốc tịch (Australian, Japanese, Malaysian, American)",
+        "What nationality is he or she? – He's or She's...",
+        "What's he or she like? – friendly, helpful, clever, active"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA5-B03-001",
+        "d": "basic",
+        "p": "Câu hỏi \"What nationality is she?\" dùng để hỏi thông tin gì?",
+        "o": [
+          "Cô ấy trông bên ngoài cao hay thấp",
+          "Cô ấy làm nghề nghiệp gì",
+          "Cô ấy mang quốc tịch gì (là người nước nào)",
+          "Cô ấy đang sống ở con đường nào"
+        ],
+        "k": "C",
+        "e": "\"nationality\" = quốc tịch; trả lời \"She's + tính từ quốc tịch\" (e.g. Japanese, Vietnamese).",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa của nationality"
+      },
+      {
+        "c": "TA5-B03-002",
+        "d": "basic",
+        "p": "Chọn cặp QUỐC GIA – QUỐC TỊCH khớp nhau đúng quy tắc:",
+        "o": [
+          "America -> Americish",
+          "Japan -> Japanese",
+          "Malaysia -> Malayese",
+          "Australia -> Australese"
+        ],
+        "k": "B",
+        "e": "Nhật Bản -> Japanese; Úc -> Australian; Mĩ -> American; Ma-lai-xi-a -> Malaysian.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ đuôi -ese và -an"
+      },
+      {
+        "c": "TA5-B03-003",
+        "d": "basic",
+        "p": "Tính từ nào miêu tả một người bạn \"thân thiện, dễ gần\"?",
+        "o": [
+          "clever",
+          "active",
+          "friendly",
+          "helpful"
+        ],
+        "k": "C",
+        "e": "\"friendly\" = thân thiện; \"helpful\" = hay giúp đỡ; \"clever\" = thông minh; \"active\" = năng động.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa 4 tính từ tính cách"
+      },
+      {
+        "c": "TA5-B03-004",
+        "d": "basic",
+        "p": "Hoàn thành câu miêu tả tính cách: \"Nam always helps his classmates clean the classroom. He is very ... .\"",
+        "o": [
+          "Australian",
+          "lazy",
+          "helpful",
+          "foreign"
+        ],
+        "k": "C",
+        "e": "Luôn sẵn lòng giúp đỡ mọi người -> tính từ \"helpful\" (hay giúp đỡ, có ích).",
+        "s": "Tiếng Anh 5",
+        "h": "Gắn hành động giúp đỡ với helpful"
+      },
+      {
+        "c": "TA5-B03-005",
+        "d": "basic",
+        "p": "Câu hỏi \"What's he like?\" (KHÔNG có từ \"look\") hỏi về điều gì của bạn nam đó?",
+        "o": [
+          "Ngoại hình khuôn mặt bên ngoài của cậu ấy",
+          "Màu áo đồng phục cậu ấy đang mặc",
+          "Tính cách bên trong của cậu ấy (hiền, thân thiện, thông minh...)",
+          "Thức ăn cậu ấy thích ăn vào bữa trưa"
+        ],
+        "k": "C",
+        "e": "\"What's + người + like?\" hỏi về tính cách (personality), khác với \"What does ... look like?\" hỏi ngoại hình.",
+        "s": "Tiếng Anh 5",
+        "h": "Phân biệt like và look like"
+      },
+      {
+        "c": "TA5-B03-006",
+        "d": "basic",
+        "p": "Quan sát bảng thông tin các bạn nước ngoài. Bạn Hakim mang quốc tịch gì và tính cách ra sao?",
+        "o": [
+          "American và helpful",
+          "Japanese và clever",
+          "Australian và active",
+          "Malaysian và friendly"
+        ],
+        "k": "D",
+        "e": "Dòng Hakim ghi Nationality: Malaysian và Personality: friendly.",
+        "s": "Tiếng Anh 5",
+        "h": "Xem hàng Hakim trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Foreign Friends",
+          "head": [
+            "Name",
+            "Nationality",
+            "Personality"
+          ],
+          "rows": [
+            [
+              "Akiko",
+              "Japanese",
+              "clever"
+            ],
+            [
+              "Tom",
+              "American",
+              "active"
+            ],
+            [
+              "Hakim",
+              "Malaysian",
+              "friendly"
+            ],
+            [
+              "Lucy",
+              "Australian",
+              "helpful"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA5-B03-007",
+        "d": "application",
+        "p": "Phân biệt chính xác cách trả lời hai câu hỏi: (1) \"Where is Tom from?\" và (2) \"What nationality is Tom?\"",
+        "o": [
+          "(1) He's from America. – (2) He's American.",
+          "(1) He's America. – (2) He's from American.",
+          "(1) He's from American. – (2) He's America.",
+          "(1) He's American. – (2) He's from America."
+        ],
+        "k": "A",
+        "e": "Sau \"from\" luôn là TÊN NƯỚC (\"from America\"); trả lời \"What nationality\" dùng TÍNH TỪ QUỐC TỊCH không có \"from\" (\"He's American\").",
+        "s": "Tiếng Anh 5",
+        "h": "Có from dùng tên nước, không có from dùng quốc tịch"
+      },
+      {
+        "c": "TA5-B03-008",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"My new friend is from Australian, and she is very clever.\"",
+        "o": [
+          "Sai từ \"Australian\", sau \"from\" phải là tên quốc gia \"Australia\"",
+          "Sai từ \"and\", phải đổi thành \"but\"",
+          "Sai từ \"is\", phải đổi thành \"are\"",
+          "Sai từ \"clever\", phải đổi thành \"cleverly\""
+        ],
+        "k": "A",
+        "e": "Australia = nước Úc (tên nước); Australian = người Úc/thuộc nước Úc (quốc tịch).",
+        "s": "Tiếng Anh 5",
+        "h": "Kiểm tra từ đứng sau from"
+      },
+      {
+        "c": "TA5-B03-009",
+        "d": "application",
+        "p": "Chọn tính từ tính cách phù hợp: \"She solves difficult puzzles quickly and knows many facts. She is ... .\"",
+        "o": [
+          "clever",
+          "Malaysian",
+          "noisy",
+          "shy"
+        ],
+        "k": "A",
+        "e": "Giải câu đố khó nhanh và hiểu biết rộng thể hiện sự thông minh, nhanh trí (\"clever\").",
+        "s": "Tiếng Anh 5",
+        "h": "Gắn với trí tuệ nhanh nhạy"
+      },
+      {
+        "c": "TA5-B03-010",
+        "d": "application",
+        "p": "Sắp xếp thành câu hỏi hoàn chỉnh: like / What / new / teacher / is / your / ?",
+        "o": [
+          "Is what your new teacher like?",
+          "What like is your new teacher?",
+          "What is your new teacher like?",
+          "What your new teacher is like?"
+        ],
+        "k": "C",
+        "e": "Trật tự câu hỏi tính cách: What + is + người + like?",
+        "s": "Tiếng Anh 5",
+        "h": "Đặt like ở cuối câu hỏi"
+      },
+      {
+        "c": "TA5-B03-011",
+        "d": "application",
+        "p": "Điền hai từ đúng vào chỗ trống: \"Linh is ... Viet Nam. She is ... .\"",
+        "o": [
+          "in ... Viet Nam",
+          "from ... Viet Nam",
+          "at ... Vietnamese",
+          "from ... Vietnamese"
+        ],
+        "k": "D",
+        "e": "\"is from Viet Nam\" (đến từ Việt Nam) và \"is Vietnamese\" (mang quốc tịch Việt Nam).",
+        "s": "Tiếng Anh 5",
+        "h": "Kết hợp from + tên nước và quốc tịch"
+      },
+      {
+        "c": "TA5-B03-012",
+        "d": "application",
+        "p": "Tìm từ khác loại trong bốn từ: active, clever, helpful, nationality.",
+        "o": [
+          "clever",
+          "active",
+          "helpful",
+          "nationality (danh từ chung)"
+        ],
+        "k": "D",
+        "e": "Active, clever, helpful là tính từ chỉ tính cách; nationality là danh từ.",
+        "s": "Tiếng Anh 5",
+        "h": "Tìm danh từ trong nhóm tính từ"
+      },
+      {
+        "c": "TA5-B03-013",
+        "d": "advanced",
+        "p": "Đọc đoạn văn: \"I have two foreign friends at my international club. Yuki is Japanese. She is quiet at first, but very helpful when we draw pictures. Mark is Australian. He is active and plays sports every afternoon.\" Câu nào ĐÚNG?",
+        "o": [
+          "Yuki is helpful, and Mark is active.",
+          "Yuki and Mark are both from America.",
+          "Yuki is Australian, and Mark is Japanese.",
+          "Mark is quiet and dislikes sports."
+        ],
+        "k": "A",
+        "e": "Đoạn văn nêu rõ: Yuki là người Nhật rất helpful; Mark là người Úc rất active.",
+        "s": "Tiếng Anh 5",
+        "h": "Đối chiếu từng bạn với quốc tịch và tính cách"
+      },
+      {
+        "c": "TA5-B03-014",
+        "d": "advanced",
+        "p": "Khi hỏi về HAI bạn mới người Malaysia cùng lúc (\"What nationality ... they?\"), câu trả lời chuẩn là gì?",
+        "o": [
+          "is ... They're Malaysia.",
+          "do ... They're Malaysians from.",
+          "are ... They're Malaysian.",
+          "are ... They're from Malaysian."
+        ],
+        "k": "C",
+        "e": "Chủ ngữ \"they\" đi với \"are\"; tính từ quốc tịch \"Malaysian\" không thêm \"s\" khi làm tính từ vị ngữ.",
+        "s": "Tiếng Anh 5",
+        "h": "Chú ý tính từ quốc tịch không thêm s"
+      },
+      {
+        "c": "TA5-B03-015",
+        "d": "advanced",
+        "p": "Chọn câu miêu tả VỪA ĐÚNG ngữ pháp VỪA tự nhiên nhất về bạn Minh:",
+        "o": [
+          "Minh is an active boy who loves joining outdoor games with his friendly classmates.",
+          "Minh are an active boy and friendlys classmates.",
+          "Minh looks like active and helpful every day.",
+          "Minh is a active boy who love joining outdoor games."
+        ],
+        "k": "A",
+        "e": "Dùng đúng mạo từ \"an\" trước \"active\" (\"an active boy\"), không dùng \"looks like + tính từ\" ở đây.",
+        "s": "Tiếng Anh 5",
+        "h": "Kiểm tra an active boy"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh5-c1",
+    "lesson": {
+      "code": "tienganh5-b04",
+      "title": "Unit 4. Our free-time activities",
+      "seq": 4,
+      "subtitle": "Hỏi đáp về các hoạt động yêu thích trong thời gian rảnh rỗi (What do you like doing in your free time? – I like + V-ing) và thói quen cuối tuần",
+      "concepts": [
+        "Hoạt động rảnh rỗi (playing the violin, surfing the Internet, going for a walk, watering the flowers)",
+        "like + V-ing",
+        "What do you do at the weekend? – I always/often/usually..."
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA5-B04-001",
+        "d": "basic",
+        "p": "Cụm từ \"in your free time\" có nghĩa Tiếng Việt là gì?",
+        "o": [
+          "trong thời gian rảnh rỗi của bạn",
+          "trong giờ kiểm tra trên lớp",
+          "trong tiết học môn Toán",
+          "vào lúc nửa đêm đang ngủ"
+        ],
+        "k": "A",
+        "e": "\"free time\" là thời gian rảnh không bận việc học hay việc bắt buộc.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa free time"
+      },
+      {
+        "c": "TA5-B04-002",
+        "d": "basic",
+        "p": "Hoạt động \"watering the flowers\" có nghĩa là làm gì?",
+        "o": [
+          "tưới nước cho hoa",
+          "nhổ bỏ hết hoa trong vườn",
+          "vẽ tranh bông hoa lên giấy",
+          "mua hoa ở trung tâm thương mại"
+        ],
+        "k": "A",
+        "e": "\"water\" (động từ) = tưới nước; \"watering the flowers\" = tưới hoa.",
+        "s": "Tiếng Anh 5",
+        "h": "Động từ water nghĩa là tưới"
+      },
+      {
+        "c": "TA5-B04-003",
+        "d": "basic",
+        "p": "Sau động từ \"like\" khi nói về sở thích làm gì (\"I like ...\"), dạng động từ theo sau chuẩn nhất ở Unit 4 là gì?",
+        "o": [
+          "Động từ thêm đuôi \"-ing\" (like + V-ing)",
+          "Động từ luôn giữ nguyên có \"does\" ở trước",
+          "Chỉ được dùng danh từ chỉ đồ ăn",
+          "Động từ thêm đuôi \"-ed\" quá khứ"
+        ],
+        "k": "A",
+        "e": "Mẫu câu trọng tâm: \"What do you like doing in your free time? – I like + V-ing.\"",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ mẫu câu like + V-ing"
+      },
+      {
+        "c": "TA5-B04-004",
+        "d": "basic",
+        "p": "Cụm từ \"surfing the Internet\" mô tả hoạt động nào?",
+        "o": [
+          "đi dạo bộ quanh công viên",
+          "lướt ván trên sóng biển mùa hè",
+          "lướt mạng Internet để tìm thông tin hoặc giải trí",
+          "lau chùi bàn phím máy tính"
+        ],
+        "k": "C",
+        "e": "\"surf the Internet\" là lướt mạng.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ cụm surf the Internet"
+      },
+      {
+        "c": "TA5-B04-005",
+        "d": "basic",
+        "p": "Trạng từ tần suất nào diễn tả mức độ thường xuyên CAO NHẤT (100%, lúc nào cũng làm)?",
+        "o": [
+          "rarely",
+          "sometimes",
+          "always",
+          "never"
+        ],
+        "k": "C",
+        "e": "Mức độ giảm dần: always (luôn luôn) > usually > often > sometimes > never.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ thứ tự trạng từ tần suất"
+      },
+      {
+        "c": "TA5-B04-006",
+        "d": "basic",
+        "p": "Quan sát biểu đồ sở thích lúc rảnh của lớp 5C. Hoạt động nào được ít bạn chọn nhất?",
+        "o": [
+          "Playing chess (8 bạn)",
+          "Gardening (4 bạn)",
+          "Reading books (12 bạn)",
+          "Going for a walk (6 bạn)"
+        ],
+        "k": "B",
+        "e": "Cột \"Gardening\" (làm vườn) thấp nhất với giá trị 4.",
+        "s": "Tiếng Anh 5",
+        "h": "Tìm cột thấp nhất biểu đồ",
+        "fig": {
+          "type": "bars",
+          "title": "Free-Time Survey (5C)",
+          "labels": [
+            "Reading",
+            "Chess",
+            "Walking",
+            "Gardening"
+          ],
+          "series": [
+            {
+              "values": [
+                12,
+                8,
+                6,
+                4
+              ],
+              "name": "Pupils"
+            }
+          ],
+          "unit": "kids"
+        }
+      },
+      {
+        "c": "TA5-B04-007",
+        "d": "application",
+        "p": "Hoàn thành câu trả lời: \"What does Linda like doing in her free time?\" – \"She likes ... for a walk in the park.\"",
+        "o": [
+          "goes",
+          "going",
+          "went",
+          "go"
+        ],
+        "k": "B",
+        "e": "Sau \"likes\" dùng V-ing -> \"going for a walk\".",
+        "s": "Tiếng Anh 5",
+        "h": "Đổi go thành V-ing sau likes"
+      },
+      {
+        "c": "TA5-B04-008",
+        "d": "application",
+        "p": "Điền trạng từ tần suất phù hợp vào câu: \"I ... play the violin on Sundays, maybe once or twice a month.\"",
+        "o": [
+          "sometimes",
+          "always",
+          "every day",
+          "never"
+        ],
+        "k": "A",
+        "e": "Mỗi tháng chỉ làm một hoặc hai lần là thỉnh thoảng -> \"sometimes\".",
+        "s": "Tiếng Anh 5",
+        "h": "Khớp tần suất 1–2 lần/tháng"
+      },
+      {
+        "c": "TA5-B04-009",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"My brother like playing table tennis and riding his bike.\"",
+        "o": [
+          "Sai từ \"like\", phải thêm \"s\" thành \"likes\" vì chủ ngữ \"My brother\" là số ít",
+          "Sai từ \"playing\", phải đổi thành \"play\"",
+          "Sai từ \"his\", phải đổi thành \"her\"",
+          "Sai từ \"riding\", phải viết là \"rideing\""
+        ],
+        "k": "A",
+        "e": "Chủ ngữ số ít \"My brother\" chia động từ thành \"likes\".",
+        "s": "Tiếng Anh 5",
+        "h": "Chia động từ với My brother"
+      },
+      {
+        "c": "TA5-B04-010",
+        "d": "application",
+        "p": "Chọn câu viết đúng chính tả khi chuyển các động từ sau sang V-ing: write, surf, water.",
+        "o": [
+          "writing, surfving, water",
+          "writing, surfing, watering",
+          "writeing, surfing, waterring",
+          "writting, surffing, watering"
+        ],
+        "k": "B",
+        "e": "\"write\" kết thúc bằng e câm -> bỏ e thành \"writing\"; \"surf\" và \"water\" thêm \"-ing\" bình thường.",
+        "s": "Tiếng Anh 5",
+        "h": "Kiểm tra bỏ e của write"
+      },
+      {
+        "c": "TA5-B04-011",
+        "d": "application",
+        "p": "Sắp xếp thành câu hoàn chỉnh: doing / What / like / in / do / free / you / time / your / ?",
+        "o": [
+          "What do you like doing in your free time?",
+          "In your free time what do you doing like?",
+          "What you do like doing in your free time?",
+          "What like do you doing in your free time?"
+        ],
+        "k": "A",
+        "e": "Trật tự: What + do + you + like doing + in your free time?",
+        "s": "Tiếng Anh 5",
+        "h": "Giữ đúng trợ động từ do"
+      },
+      {
+        "c": "TA5-B04-012",
+        "d": "application",
+        "p": "Khi đọc câu: \"I usually read comic books at the weekend, but sometimes I help my dad with the gardening\", chữ \"gardening\" nghĩa là gì?",
+        "o": [
+          "buổi biểu diễn đàn vi-ô-lông",
+          "công việc làm vườn (trồng và chăm sóc cây)",
+          "trò chơi điện tử trên mạng",
+          "công việc sửa chữa xe đạp"
+        ],
+        "k": "B",
+        "e": "garden (khu vườn) -> gardening (việc làm vườn).",
+        "s": "Tiếng Anh 5",
+        "h": "Liên hệ từ gốc garden"
+      },
+      {
+        "c": "TA5-B04-013",
+        "d": "advanced",
+        "p": "Đọc đoạn ngắn: \"At the weekend, Phong always waters the flowers on Saturday morning. He often plays badminton with his dad on Saturday afternoon. On Sunday, he sometimes surfs the Internet for English stories.\" Phong KHÔNG bao giờ quên làm gì vào cuối tuần?",
+        "o": [
+          "Going to school on Sunday afternoon.",
+          "Playing badminton every evening.",
+          "Watering the flowers on Saturday morning (vì dùng \"always\").",
+          "Surfing the Internet on Saturday morning."
+        ],
+        "k": "C",
+        "e": "Từ \"always\" (luôn luôn) gắn với việc tưới hoa sáng thứ Bảy.",
+        "s": "Tiếng Anh 5",
+        "h": "Tìm hoạt động gắn với always"
+      },
+      {
+        "c": "TA5-B04-014",
+        "d": "advanced",
+        "p": "Vị trí đứng CHUẨN của trạng từ tần suất (always, usually, often) trong câu có động từ thường (\"I ... go for a walk\") là ở đâu?",
+        "o": [
+          "Đứng kẹp giữa \"for\" và \"a walk\"",
+          "Đứng ngay sau động từ thường (\"I go always for a walk.\")",
+          "Luôn đứng sau chủ ngữ ngay cả khi phía sau là to be \"am/is/are\"",
+          "Đứng ngay trước động từ thường (\"I always go for a walk.\")"
+        ],
+        "k": "D",
+        "e": "Quy tắc vàng: trạng từ tần suất đứng TRƯỚC động từ thường, và đứng SAU động từ to be.",
+        "s": "Tiếng Anh 5",
+        "h": "Vị trí trước động từ thường"
+      },
+      {
+        "c": "TA5-B04-015",
+        "d": "advanced",
+        "p": "Hoàn thành hai vế câu tương xứng: \"What ... your parents do at the weekend?\" – \"They ... go for a walk around the lake.\"",
+        "o": [
+          "do ... usually",
+          "does ... always",
+          "are ... sometimes",
+          "do ... never likes"
+        ],
+        "k": "A",
+        "e": "Chủ ngữ \"your parents\" (số nhiều) dùng trợ động từ \"do\"; trạng từ \"usually\" đứng trước \"go\".",
+        "s": "Tiếng Anh 5",
+        "h": "Chú ý số nhiều parents"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh5-c1",
+    "lesson": {
+      "code": "tienganh5-b05",
+      "title": "Unit 5. My future job",
+      "seq": 5,
+      "subtitle": "Hỏi đáp nghề nghiệp mơ ước trong tương lai (What would you like to be in the future?) và giải thích lí do (Why would you like to be...?)",
+      "concepts": [
+        "Nghề nghiệp mới (firefighter, gardener, reporter, writer, teacher)",
+        "What would you like to be in the future? – I'd like to be a...",
+        "Why would you like to be...? – Because I'd like to..."
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA5-B05-001",
+        "d": "basic",
+        "p": "Cụm từ \"in the future\" mang nghĩa Tiếng Việt là gì?",
+        "o": [
+          "trong tương lai",
+          "vào năm ngoái",
+          "vào ngày hôm qua",
+          "vào sáng nay"
+        ],
+        "k": "A",
+        "e": "\"future\" = tương lai; câu hỏi nghề nghiệp tương lai dùng \"in the future\".",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa của future"
+      },
+      {
+        "c": "TA5-B05-002",
+        "d": "basic",
+        "p": "Từ viết tắt \"I'd like to be\" là viết gọn của cụm nào?",
+        "o": [
+          "I would like to be (Tôi muốn trở thành)",
+          "I did like to be",
+          "I had like to be",
+          "I am like to be"
+        ],
+        "k": "A",
+        "e": "\"I'd like\" = \"I would like\" (diễn đạt mong muốn lịch sự).",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa của I'd like"
+      },
+      {
+        "c": "TA5-B05-003",
+        "d": "basic",
+        "p": "Nghề \"a writer\" làm công việc chính là gì?",
+        "o": [
+          "trồng và chăm sóc cây cối",
+          "dẫn bản tin thời sự trên ti vi",
+          "viết sách, viết truyện (nhà văn)",
+          "chữa cháy và cứu người"
+        ],
+        "k": "C",
+        "e": "write (viết) -> writer (nhà văn, tác giả).",
+        "s": "Tiếng Anh 5",
+        "h": "Liên hệ động từ write"
+      },
+      {
+        "c": "TA5-B05-004",
+        "d": "basic",
+        "p": "Ai là người đưa tin tức thời sự và phỏng vấn mọi người (\"report the news\")?",
+        "o": [
+          "a dentist (nha sĩ)",
+          "a reporter (phóng viên)",
+          "a firefighter (lính cứu hỏa)",
+          "a gardener (người làm vườn)"
+        ],
+        "k": "B",
+        "e": "report (báo cáo, đưa tin) -> reporter (phóng viên).",
+        "s": "Tiếng Anh 5",
+        "h": "Liên hệ động từ report"
+      },
+      {
+        "c": "TA5-B05-005",
+        "d": "basic",
+        "p": "Điền nghề nghiệp hợp lí: \"I'd like to be a ... because I'd like to grow flowers and trees.\"",
+        "o": [
+          "gardener",
+          "reporter",
+          "pilot",
+          "writer"
+        ],
+        "k": "A",
+        "e": "Muốn trồng hoa và cây xanh -> nghề làm vườn (\"gardener\").",
+        "s": "Tiếng Anh 5",
+        "h": "Gắn công việc trồng cây với gardener"
+      },
+      {
+        "c": "TA5-B05-006",
+        "d": "basic",
+        "p": "Quan sát bảng nghề nghiệp mơ ước của 4 bạn nhỏ. Bạn Minh muốn làm nghề gì trong tương lai?",
+        "o": [
+          "A reporter (phóng viên)",
+          "A writer (nhà văn)",
+          "A firefighter (lính cứu hỏa)",
+          "A gardener (người làm vườn)"
+        ],
+        "k": "C",
+        "e": "Dòng Minh ghi Dream Job: firefighter và Reason: help people.",
+        "s": "Tiếng Anh 5",
+        "h": "Xem hàng Minh trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Future Career Dreams",
+          "head": [
+            "Name",
+            "Dream Job",
+            "Reason"
+          ],
+          "rows": [
+            [
+              "Minh",
+              "firefighter",
+              "help people"
+            ],
+            [
+              "Lan",
+              "writer",
+              "write stories"
+            ],
+            [
+              "Hoa",
+              "reporter",
+              "report news"
+            ],
+            [
+              "Tuan",
+              "gardener",
+              "plant flowers"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA5-B05-007",
+        "d": "application",
+        "p": "Chọn câu trả lời phù hợp nhất cho câu hỏi: \"Why would you like to be a teacher?\"",
+        "o": [
+          "Because I'd like to put out fires.",
+          "Because I'm from Viet Nam.",
+          "Because I'd like to teach children.",
+          "Because I'd like to grow rice on a farm."
+        ],
+        "k": "C",
+        "e": "Nghề giáo viên (teacher) gắn với công việc dạy học sinh (\"teach children\").",
+        "s": "Tiếng Anh 5",
+        "h": "Gắn lí do với nghề teacher"
+      },
+      {
+        "c": "TA5-B05-008",
+        "d": "application",
+        "p": "Hoàn thành câu hỏi về ước mơ của bạn nữ Hoa: \"What ... Hoa like to be in the future?\"",
+        "o": [
+          "can",
+          "does",
+          "is",
+          "would"
+        ],
+        "k": "D",
+        "e": "Mẫu câu cố định với mọi chủ ngữ: \"What would + S + like to be...?\"",
+        "s": "Tiếng Anh 5",
+        "h": "Dùng would cho câu hỏi ước mơ"
+      },
+      {
+        "c": "TA5-B05-009",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"I'd like to be a firefighter because I'd like help people.\"",
+        "o": [
+          "Thiếu từ \"to\" giữa \"like\" và \"help\" -> phải viết \"I'd like to help people\"",
+          "Sai từ \"be\", phải đổi thành \"is\"",
+          "Sai từ \"because\", phải đổi thành \"but\"",
+          "Sai từ \"a\", phải đổi thành \"an\""
+        ],
+        "k": "A",
+        "e": "Sau \"would like\" luôn dùng \"to + động từ nguyên thể\" (\"would like to help\").",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ cấu trúc would like to V"
+      },
+      {
+        "c": "TA5-B05-010",
+        "d": "application",
+        "p": "Cụm từ nào diễn tả công việc đặc trưng của một \"firefighter\"?",
+        "o": [
+          "write stories for children",
+          "teach English in a school",
+          "put out fires and save people",
+          "plant flowers in the park"
+        ],
+        "k": "C",
+        "e": "\"put out fires\" = dập tắt đám cháy.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ cụm put out fires"
+      },
+      {
+        "c": "TA5-B05-011",
+        "d": "application",
+        "p": "Sắp xếp thành câu hoàn chỉnh: like / Why / to / you / would / be / reporter / a / ?",
+        "o": [
+          "Would why you like to be a reporter?",
+          "Why would you like to be a reporter?",
+          "Why would like you to be a reporter?",
+          "Why you would like to be a reporter?"
+        ],
+        "k": "B",
+        "e": "Câu hỏi Wh-: Why + would + you + like to be + a + nghề nghiệp?",
+        "s": "Tiếng Anh 5",
+        "h": "Đảo would lên trước you"
+      },
+      {
+        "c": "TA5-B05-012",
+        "d": "application",
+        "p": "Chọn cặp mạo từ \"a\" hay \"an\" ĐÚNG trước tên hai nghề nghiệp: \"... architect\" và \"... writer\".",
+        "o": [
+          "an ... an",
+          "a ... an",
+          "an ... a",
+          "a ... a"
+        ],
+        "k": "C",
+        "e": "\"architect\" (kiến trúc sư) bắt đầu bằng nguyên âm a -> dùng \"an\"; \"writer\" bắt đầu bằng phụ âm -> dùng \"a\".",
+        "s": "Tiếng Anh 5",
+        "h": "Phân biệt a và an"
+      },
+      {
+        "c": "TA5-B05-013",
+        "d": "advanced",
+        "p": "Đọc đoạn ngắn: \"In the future, Mai would like to be a writer because she loves reading books and creating new adventures for children. Her brother Long wouldn't like to work indoors; he wants to be a gardener.\" Vì sao anh Long muốn làm nghề làm vườn?",
+        "o": [
+          "Because he is afraid of flowers and trees.",
+          "Because he wants to write storybooks indoors.",
+          "Because he wouldn't like to work indoors (cậu ấy thích làm việc ngoài trời, gần thiên nhiên).",
+          "Because Mai told him to become a reporter."
+        ],
+        "k": "C",
+        "e": "Đoạn văn nói Long không thích làm việc trong nhà (\"wouldn't like to work indoors\").",
+        "s": "Tiếng Anh 5",
+        "h": "Hiểu nghĩa từ indoors"
+      },
+      {
+        "c": "TA5-B05-014",
+        "d": "advanced",
+        "p": "Phân biệt hai mẫu câu dễ nhầm: \"What does he do?\" và \"What would he like to be?\" Nghĩa khác nhau thế nào?",
+        "o": [
+          "Câu đầu hỏi ước mơ tương lai; câu sau hỏi nghề hiện tại",
+          "Hai câu giống hệt nhau hoàn toàn không khác gì",
+          "Cả hai câu đều hỏi cậu ấy muốn ăn món gì vào bữa tối",
+          "Câu đầu hỏi nghề nghiệp HIỆN TẠI đang làm; câu sau hỏi nghề nghiệp MƠ ƯỚC trong tương lai"
+        ],
+        "k": "D",
+        "e": "\"does... do\" chỉ hiện tại; \"would... like to be\" chỉ mong muốn tương lai.",
+        "s": "Tiếng Anh 5",
+        "h": "Phân biệt hiện tại và tương lai"
+      },
+      {
+        "c": "TA5-B05-015",
+        "d": "advanced",
+        "p": "Hoàn thành câu văn mở rộng không mắc lỗi ngữ pháp: \"If Nam studies Science well, maybe he ... a scientist one day.\"",
+        "o": [
+          "being",
+          "is be",
+          "to be",
+          "will be (hoặc would like to be)"
+        ],
+        "k": "D",
+        "e": "Không ghép \"is be\" hay để V-ing làm động từ chính; \"will be\" hoặc \"would like to be\" hợp nghĩa tương lai.",
+        "s": "Tiếng Anh 5",
+        "h": "Chọn cụm động từ chính đúng thì tương lai"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh5-c2",
+    "lesson": {
+      "code": "tienganh5-b06",
+      "title": "Unit 6. Our school rooms",
+      "seq": 6,
+      "subtitle": "Nắm vững số thứ tự tầng lầu (first, second, third, ground), hỏi đáp vị trí các phòng học (Where's the art room?) và hỏi – chỉ đường trong trường",
+      "concepts": [
+        "Số thứ tự tầng (ground floor, first floor, second floor, third floor)",
+        "Where's the ... room? – It's on the ... floor",
+        "Could you tell me the way to...? – Go upstairs, go past, turn right"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA5-B06-001",
+        "d": "basic",
+        "p": "Trong trường học nhiều tầng, cụm \"the second floor\" có nghĩa là tầng mấy?",
+        "o": [
+          "Tầng bốn",
+          "Tầng trệt (tầng đất)",
+          "Tầng ba",
+          "Tầng hai (theo cách gọi thứ tự 1st, 2nd, 3rd)"
+        ],
+        "k": "D",
+        "e": "first = thứ nhất (1st); second = thứ hai (2nd); third = thứ ba (3rd).",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ số thứ tự second"
+      },
+      {
+        "c": "TA5-B06-002",
+        "d": "basic",
+        "p": "Cụm từ \"go upstairs\" khi chỉ đường đi trong tòa nhà có nghĩa là gì?",
+        "o": [
+          "đi ra khỏi cổng trường",
+          "quay đầu chạy ngược lại",
+          "đi lên cầu thang (lên tầng trên)",
+          "đi xuống cầu thang (xuống tầng dưới)"
+        ],
+        "k": "C",
+        "e": "\"upstairs\" = lên trên lầu; \"downstairs\" = xuống dưới lầu.",
+        "s": "Tiếng Anh 5",
+        "h": "Chú ý gốc từ up"
+      },
+      {
+        "c": "TA5-B06-003",
+        "d": "basic",
+        "p": "Điền giới từ đứng trước tầng nhà: \"The computer room is ... the third floor.\"",
+        "o": [
+          "under",
+          "on",
+          "at",
+          "in"
+        ],
+        "k": "B",
+        "e": "Với mọi tầng lầu (on the ground floor, on the first floor...) luôn dùng giới từ \"on\".",
+        "s": "Tiếng Anh 5",
+        "h": "Tầng nhà luôn dùng on"
+      },
+      {
+        "c": "TA5-B06-004",
+        "d": "basic",
+        "p": "Câu hỏi lịch sự dùng để hỏi đường tới thư viện trường: \"Could you ... me the way to the library, please?\"",
+        "o": [
+          "talk",
+          "speak",
+          "tell",
+          "say"
+        ],
+        "k": "C",
+        "e": "Mẫu câu chuẩn: \"Could you tell me the way to + địa điểm, please?\"",
+        "s": "Tiếng Anh 5",
+        "h": "Cụm cố định tell me the way"
+      },
+      {
+        "c": "TA5-B06-005",
+        "d": "basic",
+        "p": "Động từ chỉ dẫn \"go past the library\" nghĩa là đi thế nào?",
+        "o": [
+          "đi vòng ra phía sau sân bóng",
+          "đi ngang qua (vượt qua) thư viện",
+          "đi thẳng vào ngồi trong thư viện",
+          "dừng hẳn lại trước cửa thư viện"
+        ],
+        "k": "B",
+        "e": "\"go past\" = đi ngang qua một điểm mốc rồi đi tiếp.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa của go past"
+      },
+      {
+        "c": "TA5-B06-006",
+        "d": "basic",
+        "p": "Quan sát sơ đồ tầng của trường học. Nếu bạn đang đứng ở Tầng 1 và muốn đến phòng Tin học (Computer Room), bạn cần làm gì?",
+        "o": [
+          "Go downstairs to the ground floor",
+          "Stay on the first floor",
+          "Go to the second floor",
+          "Go upstairs to the third floor (Đi lên tầng 3)"
+        ],
+        "k": "D",
+        "e": "Bảng sơ đồ cho thấy Computer Room nằm ở \"3rd floor\".",
+        "s": "Tiếng Anh 5",
+        "h": "Xem vị trí Computer Room trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "School Floor Directory",
+          "head": [
+            "Floor",
+            "Rooms"
+          ],
+          "rows": [
+            [
+              "Ground",
+              "Gym, Canteen"
+            ],
+            [
+              "1st floor",
+              "Classrooms 4A-5B"
+            ],
+            [
+              "2nd floor",
+              "Art Room, Library"
+            ],
+            [
+              "3rd floor",
+              "Music, Computer Room"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA5-B06-007",
+        "d": "application",
+        "p": "Chuyển các số đếm \"1, 2, 3\" thành số thứ tự chuẩn dùng cho tầng lầu:",
+        "o": [
+          "onest, twoth, threeth",
+          "one, two, three",
+          "firsth, secondth, thirdth",
+          "first, second, third"
+        ],
+        "k": "D",
+        "e": "1st = first; 2nd = second; 3rd = third (ba số thứ tự bất quy tắc quan trọng nhất).",
+        "s": "Tiếng Anh 5",
+        "h": "Kiểm tra chính tả 3 số thứ tự đầu"
+      },
+      {
+        "c": "TA5-B06-008",
+        "d": "application",
+        "p": "Hoàn thành chỉ dẫn: \"Go along the corridor and turn left. The art room is ... .\"",
+        "o": [
+          "on your left (hoặc next to the library)",
+          "on the three floor",
+          "in downstairs",
+          "between the library"
+        ],
+        "k": "A",
+        "e": "\"three floor\" sai số thứ tự, \"between\" thiếu 2 mốc; \"on your left\" chuẩn cả ngữ pháp lẫn nghĩa.",
+        "s": "Tiếng Anh 5",
+        "h": "Kiểm tra giới từ và số thứ tự"
+      },
+      {
+        "c": "TA5-B06-009",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"Where's the music room? – It's in the first floor.\"",
+        "o": [
+          "Sai từ \"It's\", phải đổi thành \"They're\"",
+          "Sai từ \"first\", phải đổi thành \"one\"",
+          "Sai từ \"Where's\", phải sửa thành \"Who's\"",
+          "Sai giới từ \"in\", phải sửa thành \"on\" (\"on the first floor\")"
+        ],
+        "k": "D",
+        "e": "Định vị tầng tòa nhà bắt buộc dùng \"on + the + số thứ tự + floor\".",
+        "s": "Tiếng Anh 5",
+        "h": "Sửa in thành on"
+      },
+      {
+        "c": "TA5-B06-010",
+        "d": "application",
+        "p": "Đọc chỉ dẫn: \"You are on the ground floor. Go upstairs to the second floor. Go past Class 5A and turn right.\" Nếu đi hết tầng 1 lên tầng 2 và thấy Lớp 5A ngay trước mặt, bước cuối rẽ hướng nào?",
+        "o": [
+          "Turn left (Rẽ trái)",
+          "Turn round (Quay lại)",
+          "Go downstairs (Đi xuống)",
+          "Turn right (Rẽ phải)"
+        ],
+        "k": "D",
+        "e": "Câu cuối ghi \"Go past Class 5A and turn right.\"",
+        "s": "Tiếng Anh 5",
+        "h": "Đọc kĩ từ chỉ hướng cuối câu"
+      },
+      {
+        "c": "TA5-B06-011",
+        "d": "application",
+        "p": "Sắp xếp thành câu hỏi hoàn chỉnh: the / way / Could / tell / you / me / library / to / the / ?",
+        "o": [
+          "Tell could you me the way to the library?",
+          "Could you tell the way me to the library?",
+          "Could you tell me the way to the library?",
+          "Could tell you me the way to the library?"
+        ],
+        "k": "C",
+        "e": "Cấu trúc lịch sự: Could + you + tell me + the way to + nơi cần đến?",
+        "s": "Tiếng Anh 5",
+        "h": "Đưa Could you lên đầu"
+      },
+      {
+        "c": "TA5-B06-012",
+        "d": "application",
+        "p": "Chọn câu trả lời phù hợp khi khách hỏi: \"Excuse me, where is Class 5C?\"",
+        "o": [
+          "Yes, Class 5C has thirty pupils.",
+          "I'm in Class 5C with Mai.",
+          "We have Maths on Mondays.",
+          "It's on the second floor. Go upstairs and turn left."
+        ],
+        "k": "D",
+        "e": "Hỏi vị trí phòng học -> chỉ rõ tầng mấy và cách đi tới đó.",
+        "s": "Tiếng Anh 5",
+        "h": "Trả lời nêu vị trí và hướng đi"
+      },
+      {
+        "c": "TA5-B06-013",
+        "d": "advanced",
+        "p": "Quan sát lại sơ đồ trường ở câu 6 (Ground: Gym/Canteen, 1st: Classrooms, 2nd: Art Room/Library, 3rd: Music/Computer Room). Nếu Minh đang ở phòng Mĩ thuật (Art Room) và muốn xuống nhà ăn (Canteen), bạn ấy đi thế nào?",
+        "o": [
+          "Go downstairs two floors to the ground floor.",
+          "Go upstairs to the third floor.",
+          "Walk straight on the same second floor.",
+          "Go upstairs one floor to the first floor."
+        ],
+        "k": "A",
+        "e": "Từ tầng 2 (2nd floor) xuống tầng trệt (ground floor) là đi xuống cầu thang (go downstairs).",
+        "s": "Tiếng Anh 5",
+        "h": "Xác định đi lên hay đi xuống"
+      },
+      {
+        "c": "TA5-B06-014",
+        "d": "advanced",
+        "p": "Trong tiếng Anh Anh (chương trình SGK Việt Nam) và tiếng Anh Mĩ, \"the ground floor\" tương ứng với tầng nào?",
+        "o": [
+          "Tầng hầm chứa rác ngoài cổng",
+          "Tầng trệt (tầng sát mặt đất, ngay dưới the first floor)",
+          "Tầng áp mái cao nhất của tòa nhà",
+          "Tầng số bốn trên cùng"
+        ],
+        "k": "B",
+        "e": "Trong chuẩn Anh-Anh (SGK), tầng mặt đất là ground floor, lên một tầng mới là first floor.",
+        "s": "Tiếng Anh 5",
+        "h": "Hiểu khái niệm ground floor"
+      },
+      {
+        "c": "TA5-B06-015",
+        "d": "advanced",
+        "p": "Viết lại câu cùng nghĩa một cách lịch sự hơn cho câu \"Show me the art room!\":",
+        "o": [
+          "Is there an art room on the fifth floor?",
+          "You must go to the art room right now!",
+          "Where do you draw in the art room?",
+          "Could you tell me the way to the art room, please?"
+        ],
+        "k": "D",
+        "e": "Dùng \"Could you tell me the way to..., please?\" lịch sự chuẩn mực giao tiếp.",
+        "s": "Tiếng Anh 5",
+        "h": "Chọn câu hỏi đường lịch sự"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh5-c2",
+    "lesson": {
+      "code": "tienganh5-b07",
+      "title": "Unit 7. Our favourite school activities",
+      "seq": 7,
+      "subtitle": "Hỏi đáp về các hoạt động học tập yêu thích ở trường (doing projects, solving maths problems, reading books, playing games) và lí do yêu thích (fun, useful, interesting, good for group work)",
+      "concepts": [
+        "Hoạt động trường học (doing projects, solving maths problems, reading books, playing games)",
+        "What school activity does he or she like? – He or She likes...",
+        "Tính từ lí do (fun, useful, interesting, good for group work)"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA5-B07-001",
+        "d": "basic",
+        "p": "Cụm từ \"doing projects\" ở trường học có nghĩa là gì?",
+        "o": [
+          "chơi trò chơi điện tử một mình",
+          "làm các dự án học tập (thường làm theo nhóm)",
+          "hát múa trong buổi chào cờ",
+          "lau dọn bàn ghế phòng học"
+        ],
+        "k": "B",
+        "e": "\"project\" = dự án học tập; \"doing projects\" = thực hiện dự án.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa của doing projects"
+      },
+      {
+        "c": "TA5-B07-002",
+        "d": "basic",
+        "p": "Hoạt động \"solving maths problems\" nghĩa là gì?",
+        "o": [
+          "giải các bài toán (vấn đề toán học)",
+          "học thuộc lòng bài hát tiếng Anh",
+          "chạy tiếp sức trên sân thể dục",
+          "vẽ tranh phong cảnh quê hương"
+        ],
+        "k": "A",
+        "e": "\"solve\" = giải quyết; \"maths problems\" = các bài toán.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ cụm solving maths problems"
+      },
+      {
+        "c": "TA5-B07-003",
+        "d": "basic",
+        "p": "Tính từ \"useful\" khi giải thích lí do thích một hoạt động học tập mang nghĩa gì?",
+        "o": [
+          "mệt mỏi, tốn sức",
+          "hữu ích, có ích",
+          "nguy hiểm, đáng sợ",
+          "buồn tẻ, chán ngắt"
+        ],
+        "k": "B",
+        "e": "\"useful\" = hữu ích; \"interesting\" = thú vị; \"fun\" = vui nhộn.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa tính từ useful"
+      },
+      {
+        "c": "TA5-B07-004",
+        "d": "basic",
+        "p": "Hoàn thành câu: \"What school activity does Mai like?\" – \"She likes ... books.\"",
+        "o": [
+          "to reading",
+          "reading",
+          "read",
+          "reads"
+        ],
+        "k": "B",
+        "e": "Sau \"likes\" dùng danh động từ V-ing -> \"likes reading books\".",
+        "s": "Tiếng Anh 5",
+        "h": "Dùng V-ing sau likes"
+      },
+      {
+        "c": "TA5-B07-005",
+        "d": "basic",
+        "p": "Cụm lí do \"good for group work\" dùng khen hoạt động nào phù hợp nhất?",
+        "o": [
+          "doing science projects together (làm dự án khoa học theo nhóm)",
+          "eating lunch in five minutes",
+          "sleeping quietly alone",
+          "forgetting homework at home"
+        ],
+        "k": "A",
+        "e": "\"group work\" = làm việc nhóm -> phù hợp nhất với làm dự án tập thể.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa group work"
+      },
+      {
+        "c": "TA5-B07-006",
+        "d": "basic",
+        "p": "Quan sát bảng khảo sát hoạt động trường học của 4 bạn. Bạn Hùng thích hoạt động gì và vì sao?",
+        "o": [
+          "Solving maths problems, because he thinks it's interesting",
+          "Playing word games, because it's fun",
+          "Doing projects, because it's good for group work",
+          "Reading books, because it's useful"
+        ],
+        "k": "A",
+        "e": "Hàng \"Hung\" trên bảng ghi Activity: solving maths problems và Reason: interesting.",
+        "s": "Tiếng Anh 5",
+        "h": "Xem hàng Hung trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "School Activities Survey",
+          "head": [
+            "Student",
+            "Activity",
+            "Reason"
+          ],
+          "rows": [
+            [
+              "Lan",
+              "doing projects",
+              "good for group work"
+            ],
+            [
+              "Hung",
+              "solving maths",
+              "interesting"
+            ],
+            [
+              "Mai",
+              "reading books",
+              "useful"
+            ],
+            [
+              "Nam",
+              "playing games",
+              "fun"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA5-B07-007",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"Why does Phong likes doing projects?\"",
+        "o": [
+          "Sai từ \"Why\", phải đổi thành \"Where\"",
+          "Sai từ \"doing\", phải đổi thành \"do\"",
+          "Sai từ \"projects\", phải bỏ chữ \"s\"",
+          "Sai từ \"likes\", phải dùng nguyên thể \"like\" vì đã có trợ động từ \"does\" đứng trước chủ ngữ"
+        ],
+        "k": "D",
+        "e": "Trong câu hỏi có \"does\", động từ chính trở về dạng nguyên thể không thêm \"s\".",
+        "s": "Tiếng Anh 5",
+        "h": "Does + S + like (không thêm s)"
+      },
+      {
+        "c": "TA5-B07-008",
+        "d": "application",
+        "p": "Chọn câu trả lời khớp với câu hỏi: \"Why does she like playing word games in English class?\"",
+        "o": [
+          "She plays games on Fridays.",
+          "Because she goes to school at seven.",
+          "Because she thinks it's fun.",
+          "Yes, she likes word games."
+        ],
+        "k": "C",
+        "e": "Câu hỏi \"Why...?\" yêu cầu giải thích lí do -> \"Because she thinks it's fun.\"",
+        "s": "Tiếng Anh 5",
+        "h": "Hỏi Why trả lời bằng Because"
+      },
+      {
+        "c": "TA5-B07-009",
+        "d": "application",
+        "p": "Sắp xếp thành câu hoàn chỉnh: school / does / activity / What / he / like / ?",
+        "o": [
+          "What school activity he does like?",
+          "What does school activity he like?",
+          "What school activity does he like?",
+          "He likes what school activity?"
+        ],
+        "k": "C",
+        "e": "Cụm từ hỏi là \"What school activity\" + trợ động từ \"does\" + he + like?",
+        "s": "Tiếng Anh 5",
+        "h": "Giữ cụm What school activity đứng đầu"
+      },
+      {
+        "c": "TA5-B07-010",
+        "d": "application",
+        "p": "Hoàn thành câu: \"We enjoy ... maths problems together because we learn from each other.\"",
+        "o": [
+          "solved",
+          "solve",
+          "solving",
+          "solves"
+        ],
+        "k": "C",
+        "e": "Tương tự \"like\", sau \"enjoy\" cũng dùng V-ing; \"solve\" bỏ \"e\" thêm \"-ing\" thành \"solving\".",
+        "s": "Tiếng Anh 5",
+        "h": "Enjoy + V-ing và bỏ e của solve"
+      },
+      {
+        "c": "TA5-B07-011",
+        "d": "application",
+        "p": "Phân biệt hai câu đúng hay sai: Câu nào chia động từ ĐÚNG cho hai bạn?",
+        "o": [
+          "Minh and Hoa liking reading stories because it are useful.",
+          "Minh and Hoa like read stories because they think it useful.",
+          "Minh and Hoa like reading stories because they think it is useful.",
+          "Minh and Hoa likes reading stories because they thinks it is useful."
+        ],
+        "k": "C",
+        "e": "Hai người (số nhiều) dùng \"like\", \"think\"; \"reading stories\" là cụm động từ làm chủ ngữ số ít đi với \"is\".",
+        "s": "Tiếng Anh 5",
+        "h": "Kiểm tra số nhiều ở Minh and Hoa"
+      },
+      {
+        "c": "TA5-B07-012",
+        "d": "application",
+        "p": "Điền giới từ đúng vào cụm cố định: \"Doing projects is good ... group work.\"",
+        "o": [
+          "with",
+          "for",
+          "on",
+          "at"
+        ],
+        "k": "B",
+        "e": "Cụm cố định trong SGK: \"good for group work\" (tốt cho làm việc nhóm).",
+        "s": "Tiếng Anh 5",
+        "h": "Cụm good for + danh từ"
+      },
+      {
+        "c": "TA5-B07-013",
+        "d": "advanced",
+        "p": "Đọc đoạn ngắn: \"In Class 5A, most pupils like playing games in English lessons because it is fun and helps them remember new words easily. Some pupils prefer doing projects because it is good for teamwork.\" Vì sao đa số học sinh lớp 5A thích chơi trò chơi trong tiết Tiếng Anh?",
+        "o": [
+          "Because playing games is boring and difficult.",
+          "Because it is fun and helps them remember new words easily.",
+          "Because teamwork is only for Maths lessons.",
+          "Because they don't have any books to read."
+        ],
+        "k": "B",
+        "e": "Đoạn văn nêu hai lí do: vui nhộn (\"fun\") và giúp nhớ từ mới dễ dàng (\"remember new words easily\").",
+        "s": "Tiếng Anh 5",
+        "h": "Tìm 2 lí do ở câu đầu"
+      },
+      {
+        "c": "TA5-B07-014",
+        "d": "advanced",
+        "p": "Vì sao trong câu \"Because he thinks it's interesting\", lại dùng \"it's\" (số ít) thay cho cụm \"solving maths problems\" hay \"playing games\"?",
+        "o": [
+          "Vì \"it\" thay thế cho cả một HOẠT ĐỘNG nói chung (sự việc chơi/giải toán), coi như danh từ số ít",
+          "Vì \"interesting\" không bao giờ dùng với chủ ngữ số nhiều",
+          "Vì chữ \"problems\" viết sai số nhiều",
+          "Vì bạn nam chỉ làm đúng một bài toán rồi nghỉ"
+        ],
+        "k": "A",
+        "e": "Cả cụm hành động (V-ing + O) được xem như một hoạt động duy nhất -> đại từ thay thế là \"it\".",
+        "s": "Tiếng Anh 5",
+        "h": "Hiểu chức năng đại từ it cho cả cụm V-ing"
+      },
+      {
+        "c": "TA5-B07-015",
+        "d": "advanced",
+        "p": "Chọn câu hoàn chỉnh KHÔNG mắc lỗi nào cả:",
+        "o": [
+          "Does your brother like doing science projects? – Yes, he does. He thinks it's very useful.",
+          "Does your brother like do science projects? – Yes, he does.",
+          "Do your brother likes doing science projects? – Yes, he is.",
+          "Does your brother like doing science project? – Yes, he thinks it useful."
+        ],
+        "k": "A",
+        "e": "Kiểm tra đủ: Does + brother + like + doing + projects (số nhiều); \"it's\" có động từ to be.",
+        "s": "Tiếng Anh 5",
+        "h": "Soát Does, like doing và it's"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh5-c2",
+    "lesson": {
+      "code": "tienganh5-b08",
+      "title": "Unit 8. In our classroom",
+      "seq": 8,
+      "subtitle": "Nhận biết đồ dùng học tập (crayon, glue stick, pencil sharpener, set square), hỏi vị trí (beside, under, above, in front of) và hỏi chủ sở hữu (Whose ... is this?)",
+      "concepts": [
+        "Đồ dùng học tập (crayon, glue stick, pencil sharpener, set square)",
+        "Giới từ vị trí (beside, under, above, in front of)",
+        "Whose ... is this? – It's + tên's (sở hữu cách)"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA5-B08-001",
+        "d": "basic",
+        "p": "Đồ dùng học tập \"a pencil sharpener\" dùng để làm việc gì?",
+        "o": [
+          "Gọt bút chì (cái gọt bút chì)",
+          "Đo góc vuông (ê-ke)",
+          "Tô màu sáp (bút sáp màu)",
+          "Dán giấy thủ công (keo dán)"
+        ],
+        "k": "A",
+        "e": "\"pencil sharpener\" = cái gọt bút chì; \"glue stick\" = hồ dán; \"set square\" = thước ê-ke.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ tên 4 đồ dùng lớp 5"
+      },
+      {
+        "c": "TA5-B08-002",
+        "d": "basic",
+        "p": "Từ để hỏi \"Whose\" trong câu \"Whose crayon is this?\" dùng để hỏi điều gì?",
+        "o": [
+          "Hỏi xem đồ vật này nằm ở đâu",
+          "Hỏi xem đồ vật này có màu gì",
+          "Hỏi xem đồ vật này giá bao nhiêu tiền",
+          "Hỏi xem đồ vật này là của ai (chủ sở hữu)"
+        ],
+        "k": "D",
+        "e": "\"Whose + vật...?\" hỏi quyền sở hữu (\"Của ai?\").",
+        "s": "Tiếng Anh 5",
+        "h": "Phân biệt Whose và Who"
+      },
+      {
+        "c": "TA5-B08-003",
+        "d": "basic",
+        "p": "Giới từ vị trí \"above\" (như \"above the bookcase\") nghĩa là gì?",
+        "o": [
+          "ở ngay bên cạnh",
+          "ở phía dưới gầm bàn",
+          "ở phía trước mặt",
+          "ở phía bên trên (không chạm vào bề mặt)"
+        ],
+        "k": "D",
+        "e": "\"above\" = ở bên trên (treo tường phía trên tủ sách); \"under\" = bên dưới; \"beside\" = bên cạnh.",
+        "s": "Tiếng Anh 5",
+        "h": "Phân biệt above và under"
+      },
+      {
+        "c": "TA5-B08-004",
+        "d": "basic",
+        "p": "Cụm từ \"in front of the desk\" chỉ vị trí nào?",
+        "o": [
+          "ở phía sau lưng cái bàn học",
+          "ở bên trên mặt bàn",
+          "ở bên trong ngăn kéo bàn",
+          "ở phía trước cái bàn học"
+        ],
+        "k": "D",
+        "e": "\"in front of\" = ở phía trước (trái nghĩa với \"behind\").",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ cụm in front of"
+      },
+      {
+        "c": "TA5-B08-005",
+        "d": "basic",
+        "p": "Chọn cách trả lời ĐÚNG sở hữu cách cho câu hỏi \"Whose glue stick is this?\" (của bạn Mai):",
+        "o": [
+          "It's Mai.",
+          "They're Mai's.",
+          "It's Mai's.",
+          "It's of Mai's."
+        ],
+        "k": "C",
+        "e": "Sở hữu cách thêm \"'s\" ngay sau tên người (\"Mai's\" = của Mai).",
+        "s": "Tiếng Anh 5",
+        "h": "Dùng sở hữu cách 's"
+      },
+      {
+        "c": "TA5-B08-006",
+        "d": "basic",
+        "p": "Quan sát bảng đồ dùng thất lạc trong lớp 5A. Chiếc thước ê-ke (Set square) là của bạn nào và đang nằm ở đâu?",
+        "o": [
+          "Của bạn Minh, nằm trên giá sách",
+          "Của bạn Hoa, nằm ở dưới quyển vở",
+          "Của bạn Lan, nằm trước bảng đen",
+          "Của bạn Nam, nằm ở bên cạnh hộp bút (beside the pencil case)"
+        ],
+        "k": "D",
+        "e": "Dòng \"Set square\" trên bảng ghi Owner: Nam và Location: beside pencil case.",
+        "s": "Tiếng Anh 5",
+        "h": "Xem hàng Set square trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Lost & Found (Class 5A)",
+          "head": [
+            "Item",
+            "Owner",
+            "Location"
+          ],
+          "rows": [
+            [
+              "Crayon",
+              "Lan",
+              "under the desk"
+            ],
+            [
+              "Glue stick",
+              "Hoa",
+              "in the school bag"
+            ],
+            [
+              "Set square",
+              "Nam",
+              "beside pencil case"
+            ],
+            [
+              "Sharpener",
+              "Minh",
+              "in front of book"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA5-B08-007",
+        "d": "application",
+        "p": "Phân biệt số ít và số nhiều với \"Whose\": \"... are these?\" – \"They're Linh's.\"",
+        "o": [
+          "Whose crayon",
+          "Who crayons",
+          "Whose crayons",
+          "Whose is crayons"
+        ],
+        "k": "C",
+        "e": "Vì có \"are these\" và \"They're\" (số nhiều) nên danh từ sau Whose phải ở dạng số nhiều: \"Whose crayons are these?\".",
+        "s": "Tiếng Anh 5",
+        "h": "Khớp crayons với are these"
+      },
+      {
+        "c": "TA5-B08-008",
+        "d": "application",
+        "p": "Điền giới từ đối lập nhau hợp lí: \"The clock is ... the picture, and the bookcase is ... the picture.\" (biết đồng hồ treo cao nhất, rồi đến bức tranh, dưới cùng sát đất là tủ sách)",
+        "o": [
+          "under ... above",
+          "in front of ... beside",
+          "above ... under",
+          "beside ... between"
+        ],
+        "k": "C",
+        "e": "Đồng hồ ở phía trên bức tranh (\"above\"), tủ sách ở phía dưới bức tranh (\"under\").",
+        "s": "Tiếng Anh 5",
+        "h": "Xếp thứ tự trên – giữa – dưới"
+      },
+      {
+        "c": "TA5-B08-009",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"Where is the glue sticks? – They're on the teacher's desk.\"",
+        "o": [
+          "Sai từ \"teacher's\", phải bỏ dấu nháy và s",
+          "Sai từ \"is\", phải sửa thành \"are\" vì \"the glue sticks\" là số nhiều",
+          "Sai từ \"on\", phải sửa thành \"under\"",
+          "Sai từ \"They're\", phải sửa thành \"It's\""
+        ],
+        "k": "B",
+        "e": "Danh từ có \"-s\" (\"sticks\") đi với \"are\" trong câu hỏi \"Where are...?\"",
+        "s": "Tiếng Anh 5",
+        "h": "Kiểm tra số nhiều sticks -> are"
+      },
+      {
+        "c": "TA5-B08-010",
+        "d": "application",
+        "p": "Sắp xếp thành câu hỏi hoàn chỉnh: map / Where / the / is / ?",
+        "o": [
+          "Is where the map?",
+          "Where the map is?",
+          "The map is where?",
+          "Where is the map?"
+        ],
+        "k": "D",
+        "e": "Đặt \"is\" trước chủ ngữ \"the map\" trong câu hỏi Wh-: Where + is + the map?",
+        "s": "Tiếng Anh 5",
+        "h": "Đảo is lên trước chủ ngữ"
+      },
+      {
+        "c": "TA5-B08-011",
+        "d": "application",
+        "p": "Chọn câu viết ĐÚNG ngữ pháp miêu tả đồ dùng của Nam:",
+        "o": [
+          "Nam's is the green set square beside of the notebook.",
+          "The green set square beside the notebook are Nam's.",
+          "The green set square beside the notebook is Nam's.",
+          "The green set square beside the notebook is Nam."
+        ],
+        "k": "C",
+        "e": "Không viết \"beside of\" và phải dùng sở hữu cách \"Nam's\" cho một chiếc ê-ke (\"is\").",
+        "s": "Tiếng Anh 5",
+        "h": "Soát beside không có of và dùng Nam's"
+      },
+      {
+        "c": "TA5-B08-012",
+        "d": "application",
+        "p": "Phân biệt hai cụm gần âm hay nhầm: \"Who's that?\" và \"Whose pen is that?\"",
+        "o": [
+          "\"Whose\" viết tắt của \"Who is\"; \"Who's\" hỏi của ai",
+          "Hai từ viết khác nhau nhưng đều có nghĩa là \"Ở đâu?\"",
+          "Cả hai đều dùng để hỏi giá tiền chiếc bút",
+          "\"Who's\" viết tắt của \"Who is\" (Ai kia?); \"Whose\" là từ để hỏi sở hữu (Của ai?)"
+        ],
+        "k": "D",
+        "e": "\"Who's\" = Who is (hỏi người); \"Whose\" (hỏi đồ vật thuộc về ai).",
+        "s": "Tiếng Anh 5",
+        "h": "Phân biệt Who's và Whose"
+      },
+      {
+        "c": "TA5-B08-013",
+        "d": "advanced",
+        "p": "Đọc mô tả góc học tập: \"Look at Phong's desk! His school bag is under the desk. His pencil sharpener is beside his notebook, and his crayons are in his pencil case. Above the desk, there is a big world map.\" Món đồ nào KHÔNG nằm trên mặt bàn hoặc dưới gầm bàn?",
+        "o": [
+          "His crayons",
+          "His school bag",
+          "His pencil sharpener",
+          "The big world map (treo trên tường phía trên bàn học)"
+        ],
+        "k": "D",
+        "e": "Bản đồ thế giới nằm \"Above the desk\" (treo trên tường cao phía trên bàn), không đặt trên hay dưới gầm bàn.",
+        "s": "Tiếng Anh 5",
+        "h": "Hiểu nghĩa above (phía trên tách rời)"
+      },
+      {
+        "c": "TA5-B08-014",
+        "d": "advanced",
+        "p": "Nếu câu hỏi là \"Whose scissors are these?\" (cây kéo luôn dùng dạng số nhiều \"scissors\"), câu trả lời chuẩn ngắn gọn nào đúng?",
+        "o": [
+          "She's Hoa's.",
+          "They're Hoa.",
+          "It's Hoa's.",
+          "They're Hoa's."
+        ],
+        "k": "D",
+        "e": "Vì \"scissors\" luôn đi với động từ số nhiều \"are\", câu trả lời ngắn dùng \"They're + tên's\".",
+        "s": "Tiếng Anh 5",
+        "h": "Chú ý danh từ số nhiều scissors"
+      },
+      {
+        "c": "TA5-B08-015",
+        "d": "advanced",
+        "p": "Hoàn thành câu bằng từ thích hợp: \"Is this Lan's ruler?\" – \"No, it isn't. ... ruler is yellow, not blue.\"",
+        "o": [
+          "She",
+          "Her",
+          "Lan",
+          "His"
+        ],
+        "k": "B",
+        "e": "Trước danh từ \"ruler\" cần TÍNH TỪ SỞ HỮU chỉ bạn nữ Lan -> \"Her ruler\".",
+        "s": "Tiếng Anh 5",
+        "h": "Dùng tính từ sở hữu Her trước danh từ"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh5-c2",
+    "lesson": {
+      "code": "tienganh5-b09",
+      "title": "Unit 9. Our outdoor activities",
+      "seq": 9,
+      "subtitle": "Hỏi đáp về các địa điểm vui chơi ngoài trời trong quá khứ (Were you at the aquarium/campsite/funfair?) và các hành động đã làm hôm qua (What did you do yesterday?)",
+      "concepts": [
+        "Địa điểm ngoài trời (aquarium, campsite, funfair, theatre)",
+        "Were you at the...? – Yes, we were / No, we weren't",
+        "Quá khứ đơn (danced, watched, listened, walked, played)"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA5-B09-001",
+        "d": "basic",
+        "p": "Địa điểm \"aquarium\" nơi trẻ em đi tham quan ngắm rất nhiều loài cá và sinh vật biển gọi là gì?",
+        "o": [
+          "Rạp hát, nhà hát",
+          "Khu cắm trại",
+          "Hội chợ vui chơi",
+          "Thủy cung"
+        ],
+        "k": "D",
+        "e": "\"aquarium\" = thủy cung; \"campsite\" = khu cắm trại; \"theatre\" = nhà hát; \"funfair\" = hội chợ giải trí.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa của aquarium"
+      },
+      {
+        "c": "TA5-B09-002",
+        "d": "basic",
+        "p": "Câu hỏi \"Were you at the theatre yesterday?\" (hỏi một nhóm bạn \"các bạn có ở nhà hát hôm qua không?\") trả lời khẳng định thế nào?",
+        "o": [
+          "Yes, I was. (nếu hỏi số nhiều thì we were chuẩn hơn)",
+          "Yes, we were.",
+          "Yes, we did.",
+          "Yes, we are."
+        ],
+        "k": "B",
+        "e": "Hỏi nhiều người (\"Were you...?\") trả lời \"Yes, we were.\" (hoặc 1 người \"Yes, I was.\").",
+        "s": "Tiếng Anh 5",
+        "h": "Khớp Were you với we were"
+      },
+      {
+        "c": "TA5-B09-003",
+        "d": "basic",
+        "p": "Dạng quá khứ đơn có quy tắc của các động từ: watch, dance, listen là gì?",
+        "o": [
+          "watches, dances, listens",
+          "watched, danced, listened",
+          "watchs, danceed, listend",
+          "watching, dancing, listening"
+        ],
+        "k": "B",
+        "e": "Động từ kết thúc bằng \"-e\" chỉ thêm \"-d\" (danced); động từ thường thêm \"-ed\" (watched, listened).",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ quy tắc thêm d và ed"
+      },
+      {
+        "c": "TA5-B09-004",
+        "d": "basic",
+        "p": "Cụm từ \"watched the fish\" thường gắn với chuyến tham quan địa điểm nào?",
+        "o": [
+          "at the library",
+          "at the cinema",
+          "at the bakery",
+          "at the aquarium"
+        ],
+        "k": "D",
+        "e": "Xem các loài cá bơi lội (watched the fish) là hoạt động chính ở thủy cung.",
+        "s": "Tiếng Anh 5",
+        "h": "Gắn hoạt động với aquarium"
+      },
+      {
+        "c": "TA5-B09-005",
+        "d": "basic",
+        "p": "Trợ động từ dùng trong câu hỏi hoạt động quá khứ \"What ... you do yesterday?\" là gì?",
+        "o": [
+          "were",
+          "does",
+          "do",
+          "did"
+        ],
+        "k": "D",
+        "e": "Với động từ thường ở thì quá khứ đơn, mượn trợ động từ \"did\" cho mọi chủ ngữ.",
+        "s": "Tiếng Anh 5",
+        "h": "Hỏi hành động quá khứ dùng did"
+      },
+      {
+        "c": "TA5-B09-006",
+        "d": "basic",
+        "p": "Quan sát bảng nhật kí cuối tuần qua của lớp 5B. Các bạn đã làm gì tại khu cắm trại (campsite)?",
+        "o": [
+          "Watched the fish",
+          "Walked around the lake",
+          "Danced around the campfire",
+          "Listened to music"
+        ],
+        "k": "C",
+        "e": "Hàng \"Campsite\" ghi Activity: danced around campfire.",
+        "s": "Tiếng Anh 5",
+        "h": "Xem hàng Campsite trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Last Weekend Trips",
+          "head": [
+            "Place",
+            "Activity Done"
+          ],
+          "rows": [
+            [
+              "Aquarium",
+              "watched the fish"
+            ],
+            [
+              "Campsite",
+              "danced around fire"
+            ],
+            [
+              "Funfair",
+              "played fun games"
+            ],
+            [
+              "Theatre",
+              "listened to music"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA5-B09-007",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu kể chuyện quá khứ: \"Yesterday, we didn't watched TV; we walked around the lake.\"",
+        "o": [
+          "Sai từ \"didn't\", phải đổi thành \"weren't\"",
+          "Sai từ \"Yesterday\", phải đổi thành \"Today\"",
+          "Sai từ \"walked\", phải bỏ \"-ed\"",
+          "Sai từ \"watched\", sau \"didn't\" động từ phải trở về nguyên thể \"watch\""
+        ],
+        "k": "D",
+        "e": "Cấu trúc phủ định quá khứ đơn: S + didn't + V nguyên thể.",
+        "s": "Tiếng Anh 5",
+        "h": "Sau didn't không thêm ed"
+      },
+      {
+        "c": "TA5-B09-008",
+        "d": "application",
+        "p": "Hoàn thành đoạn hội thoại: \"A: Were you at the funfair last Sunday? – B: No, we ... . We ... at the sports centre.\"",
+        "o": [
+          "wasn't ... was",
+          "aren't ... are",
+          "weren't ... were",
+          "didn't ... did"
+        ],
+        "k": "C",
+        "e": "Chủ ngữ \"we\" (số nhiều) ở thì quá khứ dùng \"weren't\" và \"were\".",
+        "s": "Tiếng Anh 5",
+        "h": "Khớp we với were và weren't"
+      },
+      {
+        "c": "TA5-B09-009",
+        "d": "application",
+        "p": "Điền đúng dạng động từ quá khứ vào câu: \"Last Saturday, Mai and Hoa ... badminton and ... to English songs.\"",
+        "o": [
+          "playing ... listening",
+          "plays ... listens",
+          "play ... listen",
+          "played ... listened"
+        ],
+        "k": "D",
+        "e": "Có trạng từ \"Last Saturday\" (quá khứ) nên cả hai động từ cùng chia quá khứ thêm \"-ed\".",
+        "s": "Tiếng Anh 5",
+        "h": "Chia quá khứ cả hai động từ"
+      },
+      {
+        "c": "TA5-B09-010",
+        "d": "application",
+        "p": "Sắp xếp thành câu hoàn chỉnh: around / We / walked / the / yesterday / lake / afternoon / .",
+        "o": [
+          "We around the lake walked yesterday afternoon.",
+          "We walked around the lake yesterday afternoon.",
+          "Yesterday afternoon we walk around the lake.",
+          "Walked we around the lake yesterday afternoon."
+        ],
+        "k": "B",
+        "e": "Trật tự chuẩn: Chủ ngữ (We) + động từ quá khứ (walked) + nơi chốn + thời gian.",
+        "s": "Tiếng Anh 5",
+        "h": "Giữ đúng trật tự quá khứ đơn"
+      },
+      {
+        "c": "TA5-B09-011",
+        "d": "application",
+        "p": "Chọn câu trả lời phù hợp cho câu hỏi: \"What did you do at the campsite?\"",
+        "o": [
+          "At seven o'clock in the evening.",
+          "Yes, we were at the campsite.",
+          "We danced around the campfire and sang happy songs.",
+          "We will go there next month."
+        ],
+        "k": "C",
+        "e": "Hỏi \"What did you do...?\" (Đã làm gì?) -> trả lời bằng hành động ở thì quá khứ (\"danced\", \"sang\").",
+        "s": "Tiếng Anh 5",
+        "h": "Trả lời bằng động từ quá khứ"
+      },
+      {
+        "c": "TA5-B09-012",
+        "d": "application",
+        "p": "Phân biệt hai động từ quá khứ bất quy tắc phổ biến hay đi kèm hoạt động ngoài trời: \"go\" -> \"...\" và \"sing\" -> \"...\".",
+        "o": [
+          "gone ... sung",
+          "goed ... singed",
+          "going ... singing",
+          "went ... sang"
+        ],
+        "k": "D",
+        "e": "Quá khứ bất quy tắc: go -> went; sing -> sang; see -> saw.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ dạng quá khứ bất quy tắc"
+      },
+      {
+        "c": "TA5-B09-013",
+        "d": "advanced",
+        "p": "Đọc đoạn nhật kí: \"Last Sunday, our class visited Thu Le Park. First, we walked around the lake. Then we watched the monkeys and fed the fish. In the afternoon, we didn't go to the cinema because it started to rain.\" Vì sao cả lớp KHÔNG đi xem phim buổi chiều?",
+        "o": [
+          "Because it started to rain.",
+          "Because they didn't like movies.",
+          "Because they wanted to visit the aquarium instead.",
+          "Because the park was too far from school."
+        ],
+        "k": "A",
+        "e": "Mệnh đề sau \"because\" giải thích trực tiếp lí do: \"it started to rain\" (trời bắt đầu mưa).",
+        "s": "Tiếng Anh 5",
+        "h": "Đọc kĩ lí do ở câu cuối"
+      },
+      {
+        "c": "TA5-B09-014",
+        "d": "advanced",
+        "p": "Đặt câu hỏi quá khứ cho câu trả lời: \"Yes, she did. Linh played tug of war at the funfair.\"",
+        "o": [
+          "Did Linh play tug of war at the funfair?",
+          "Was Linh play tug of war at the funfair?",
+          "Does Linh play tug of war at the funfair?",
+          "Did Linh played tug of war at the funfair?"
+        ],
+        "k": "A",
+        "e": "Câu hỏi Yes or No với động từ thường quá khứ: Did + S + V nguyên thể...?",
+        "s": "Tiếng Anh 5",
+        "h": "Did + S + play nguyên thể"
+      },
+      {
+        "c": "TA5-B09-015",
+        "d": "advanced",
+        "p": "Chọn câu hoàn chỉnh ĐÚNG ngữ pháp quá khứ đơn:",
+        "o": [
+          "Where were your friends yesterday? – They were at the theatre and watched a puppet show.",
+          "Were your friends at the theatre? – Yes, they did.",
+          "Where was your friends yesterday? – They were at the theatre and watch a puppet show.",
+          "Where did your friends yesterday? – They was at the theatre."
+        ],
+        "k": "A",
+        "e": "\"your friends\" số nhiều dùng \"were\"; động từ \"watched\" nối song song chia quá khứ.",
+        "s": "Tiếng Anh 5",
+        "h": "Kiểm tra were và watched"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh5-c2",
+    "lesson": {
+      "code": "tienganh5-b10",
+      "title": "Unit 10. Our school trip",
+      "seq": 10,
+      "subtitle": "Hỏi đáp về chuyến tham quan dã ngoại của trường (Did they go to Ba Na Hills?) và các hoạt động bảo vệ môi trường, tìm hiểu lịch sử tại điểm đến",
+      "concepts": [
+        "Địa điểm dã ngoại (Ba Na Hills, Hoan Kiem Lake, Suoi Tien Theme Park, Bai Dinh Pagoda)",
+        "Did they go to...? – Yes, they did / No, they didn't",
+        "Hoạt động (planted trees, visited the old buildings, played games)"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA5-B10-001",
+        "d": "basic",
+        "p": "Câu hỏi \"Did they go to Ba Na Hills last weekend?\" dùng để hỏi về việc gì?",
+        "o": [
+          "Họ thích món ăn nào nhất ở Bà Nà Hills",
+          "Họ có đi tới Bà Nà Hills vào cuối tuần trước không",
+          "Bà Nà Hills nằm ở thành phố nào",
+          "Họ đang làm gì ở Bà Nà Hills ngay bây giờ"
+        ],
+        "k": "B",
+        "e": "\"Did + S + go...?\" hỏi xác nhận xem một sự việc trong quá khứ có xảy ra hay không.",
+        "s": "Tiếng Anh 5",
+        "h": "Hiểu câu hỏi Did..."
+      },
+      {
+        "c": "TA5-B10-002",
+        "d": "basic",
+        "p": "Trả lời phủ định ngắn chuẩn xác cho câu hỏi: \"Did Nam and Mai go to Suoi Tien Theme Park?\"",
+        "o": [
+          "No, they don't.",
+          "No, they didn't.",
+          "No, they weren't.",
+          "No, he didn't."
+        ],
+        "k": "B",
+        "e": "Hỏi bằng \"Did they...?\" -> phủ định là \"No, they didn't.\"",
+        "s": "Tiếng Anh 5",
+        "h": "Khớp Did với didn't"
+      },
+      {
+        "c": "TA5-B10-003",
+        "d": "basic",
+        "p": "Cụm hoạt động \"planted trees\" trong chuyến đi thực tế có nghĩa là gì?",
+        "o": [
+          "đã trồng cây xanh",
+          "đã dọn dẹp phòng máy tính",
+          "đã vẽ tranh tường",
+          "đã hái hết hoa trong công viên"
+        ],
+        "k": "A",
+        "e": "\"plant\" = trồng cây; dạng quá khứ là \"planted\".",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa của planted trees"
+      },
+      {
+        "c": "TA5-B10-004",
+        "d": "basic",
+        "p": "Cụm \"visited the old buildings\" nghĩa là gì?",
+        "o": [
+          "đã xây dựng một khu chợ mới",
+          "đã tham quan các công trình kiến trúc cổ kính",
+          "đã bơi lội trong bể bơi hiện đại",
+          "đã mua sách mới tại hiệu sách"
+        ],
+        "k": "B",
+        "e": "\"visit\" = thăm, tham quan; \"old buildings\" = các tòa nhà/công trình cổ.",
+        "s": "Tiếng Anh 5",
+        "h": "Dịch chính xác cụm từ"
+      },
+      {
+        "c": "TA5-B10-005",
+        "d": "basic",
+        "p": "Điền từ đúng: \"What did they ... on the school trip?\" – \"They visited Bai Dinh Pagoda.\"",
+        "o": [
+          "does",
+          "did",
+          "doing",
+          "do"
+        ],
+        "k": "D",
+        "e": "Sau \"did\" trong câu hỏi (\"What did they...?\"), động từ chính luôn ở nguyên thể \"do\".",
+        "s": "Tiếng Anh 5",
+        "h": "Sau did dùng V nguyên thể"
+      },
+      {
+        "c": "TA5-B10-006",
+        "d": "basic",
+        "p": "Quan sát bảng tổng kết chuyến dã ngoại của 3 lớp khối 5. Lớp 5B đã đi tham quan địa điểm nào?",
+        "o": [
+          "Bai Dinh Pagoda",
+          "Ba Na Hills",
+          "Suoi Tien Park",
+          "Hoan Kiem Lake"
+        ],
+        "k": "D",
+        "e": "Hàng \"Class 5B\" ghi Place: Hoan Kiem Lake và Activity: walked around lake.",
+        "s": "Tiếng Anh 5",
+        "h": "Xem hàng Class 5B trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "School Trip Summary",
+          "head": [
+            "Class",
+            "Destination",
+            "Activity"
+          ],
+          "rows": [
+            [
+              "Class 5A",
+              "Ba Na Hills",
+              "visited old houses"
+            ],
+            [
+              "Class 5B",
+              "Hoan Kiem Lake",
+              "walked around lake"
+            ],
+            [
+              "Class 5C",
+              "Bai Dinh Pagoda",
+              "planted trees"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA5-B10-007",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"Did your class went to Cuc Phuong National Park last Friday?\"",
+        "o": [
+          "Sai từ \"Did\", phải sửa thành \"Were\"",
+          "Sai từ \"last\", phải đổi thành \"next\"",
+          "Sai từ \"to\", phải đổi thành \"at\"",
+          "Sai từ \"went\", phải sửa về nguyên thể \"go\" vì đã có \"Did\" ở đầu câu hỏi"
+        ],
+        "k": "D",
+        "e": "Trong câu hỏi và phủ định có trợ động từ \"did / didn't\", động từ chính tuyệt đối giữ nguyên thể.",
+        "s": "Tiếng Anh 5",
+        "h": "Did + S + go (không dùng went)"
+      },
+      {
+        "c": "TA5-B10-008",
+        "d": "application",
+        "p": "Chọn câu kể sử dụng ĐÚNG dạng quá khứ của cả hai động từ: visit, see.",
+        "o": [
+          "We visit the museum and saw many old photos.",
+          "We visiting the museum and seeing many old photos.",
+          "We visited the museum and saw many old photos.",
+          "We visited the museum and seed many old photos."
+        ],
+        "k": "C",
+        "e": "\"visit\" có quy tắc -> \"visited\"; \"see\" bất quy tắc -> \"saw\" (không có \"seed\").",
+        "s": "Tiếng Anh 5",
+        "h": "Kiểm tra dạng quá khứ saw"
+      },
+      {
+        "c": "TA5-B10-009",
+        "d": "application",
+        "p": "Hoàn thành câu: \"Did Lucy ... photos with her friends on the trip?\" – \"Yes, she ... .\"",
+        "o": [
+          "takes ... does",
+          "take ... was",
+          "take ... did",
+          "took ... did"
+        ],
+        "k": "C",
+        "e": "Sau \"Did\" dùng nguyên thể \"take\", câu trả lời ngắn giữ trợ động từ \"did\".",
+        "s": "Tiếng Anh 5",
+        "h": "Did + take và Yes, she did"
+      },
+      {
+        "c": "TA5-B10-010",
+        "d": "application",
+        "p": "Sắp xếp thành câu hoàn chỉnh: planted / around / the / They / trees / pagoda / .",
+        "o": [
+          "Planted they trees around the pagoda.",
+          "They planted trees around the pagoda.",
+          "They around the pagoda planted trees.",
+          "Trees planted they around the pagoda."
+        ],
+        "k": "B",
+        "e": "Câu khẳng định: Chủ ngữ (They) + động từ quá khứ (planted) + tân ngữ (trees) + nơi chốn.",
+        "s": "Tiếng Anh 5",
+        "h": "Đặt chủ ngữ và động từ ở đầu"
+      },
+      {
+        "c": "TA5-B10-011",
+        "d": "application",
+        "p": "Khi viết đoạn kể chuyến đi: \"On the school trip, we ... games, ... lunch together and ... home at 4 p.m.\" Ba động từ quá khứ điền đúng lần lượt là gì?",
+        "o": [
+          "playing ... having ... going",
+          "play ... have ... go",
+          "played ... haved ... goed",
+          "played ... had ... went"
+        ],
+        "k": "D",
+        "e": "Quá khứ bất quy tắc: have -> had; go -> went; và có quy tắc: play -> played.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ had và went"
+      },
+      {
+        "c": "TA5-B10-012",
+        "d": "application",
+        "p": "Chọn câu trả lời phù hợp cho câu hỏi: \"Did you enjoy the school trip to Ba Na Hills?\"",
+        "o": [
+          "Yes, I am going next week.",
+          "Yes, I do every Monday.",
+          "Yes, I did! It was awesome.",
+          "No, I was at home tomorrow."
+        ],
+        "k": "C",
+        "e": "Hỏi cảm nhận chuyến đi đã qua (\"Did you enjoy...?\") -> \"Yes, I did! It was awesome.\"",
+        "s": "Tiếng Anh 5",
+        "h": "Khớp thì quá khứ ở hỏi và đáp"
+      },
+      {
+        "c": "TA5-B10-013",
+        "d": "advanced",
+        "p": "Đọc đoạn văn: \"Last month, Class 5A went on a school trip to Ninh Binh. In the morning, they visited Bai Dinh Pagoda. At noon, they had lunch under big green trees. In the afternoon, they didn't go swimming; they took a boat ride to see caves.\" Buổi chiều lớp 5A đã làm gì?",
+        "o": [
+          "They planted trees in the school garden.",
+          "They went swimming in a pool.",
+          "They took a boat ride to see caves.",
+          "They visited Bai Dinh Pagoda in the afternoon."
+        ],
+        "k": "C",
+        "e": "Câu cuối nêu rõ buổi chiều không đi bơi mà đi thuyền ngắm hang động (\"took a boat ride to see caves\").",
+        "s": "Tiếng Anh 5",
+        "h": "Đọc kĩ thông tin buổi chiều"
+      },
+      {
+        "c": "TA5-B10-014",
+        "d": "advanced",
+        "p": "Phân biệt hai câu hỏi về chuyến đi hôm qua: (1) \"Were you tired after the trip?\" và (2) \"Did you enjoy the trip?\" Vì sao câu (1) dùng \"Were\" còn câu (2) dùng \"Did\"?",
+        "o": [
+          "Vì câu (1) xảy ra hôm nay còn câu (2) xảy ra năm ngoái",
+          "Vì \"tired\" là số nhiều còn \"enjoy\" là số ít",
+          "Không có lí do gì, dùng Did hay Were đều như nhau",
+          "Vì \"tired\" là TÍNH TỪ (dùng to be Were); còn \"enjoy\" là ĐỘNG TỪ THƯỜNG (mượn trợ động từ Did)"
+        ],
+        "k": "D",
+        "e": "Quy tắc nền tảng tiếng Anh: to be (was/were) đi với tính từ/danh từ/nơi chốn; did đi với động từ thường.",
+        "s": "Tiếng Anh 5",
+        "h": "Phân biệt tính từ tired với động từ enjoy"
+      },
+      {
+        "c": "TA5-B10-015",
+        "d": "advanced",
+        "p": "Đặt câu hỏi cho phần thông tin in hoa: \"They planted thirty young trees IN THE ECO-PARK.\"",
+        "o": [
+          "When did they plant thirty young trees?",
+          "What did they planted in the eco-park?",
+          "Where did they plant thirty young trees?",
+          "Who planted thirty young trees in the park?"
+        ],
+        "k": "C",
+        "e": "Hỏi địa điểm (\"IN THE ECO-PARK\") dùng \"Where\" + did + they + plant (nguyên thể).",
+        "s": "Tiếng Anh 5",
+        "h": "Hỏi nơi chốn dùng Where + did + V nguyên thể"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh5-c3",
+    "lesson": {
+      "code": "tienganh5-b11",
+      "title": "Unit 11. Family time",
+      "seq": 11,
+      "subtitle": "Kể lại chuyến du lịch cùng gia đình trong quá khứ (Did you swim? – When did you go to Ha Long Bay?) và các hoạt động biển đảo",
+      "concepts": [
+        "Cụm hoạt động du lịch (swim, take photos, eat seafood, buy souvenirs, see interesting places)",
+        "Did you ...? – Yes, I did / No, I didn't",
+        "When did you go to...? – What did your family do there?"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA5-B11-001",
+        "d": "basic",
+        "p": "Cụm từ \"buy souvenirs\" trong chuyến du lịch gia đình nghĩa là gì?",
+        "o": [
+          "chụp ảnh phong cảnh biển",
+          "ăn hải sản tươi sống",
+          "mua quà lưu niệm",
+          "thu thập vỏ sò trên cát"
+        ],
+        "k": "C",
+        "e": "\"souvenirs\" = quà lưu niệm; \"seafood\" = hải sản; \"seashells\" = vỏ sò.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa của souvenirs"
+      },
+      {
+        "c": "TA5-B11-002",
+        "d": "basic",
+        "p": "Hoạt động \"eat seafood\" thường phổ biến ở địa điểm du lịch nào?",
+        "o": [
+          "trên sân bóng rổ trường học",
+          "ở vùng biển đảo (như Nha Trang, Phu Quoc, Ha Long Bay)",
+          "trong thư viện trường học",
+          "ở phòng tin học máy tính"
+        ],
+        "k": "B",
+        "e": "\"seafood\" là hải sản (tôm, cua, cá biển).",
+        "s": "Tiếng Anh 5",
+        "h": "Liên hệ sea (biển) và food"
+      },
+      {
+        "c": "TA5-B11-003",
+        "d": "basic",
+        "p": "Dạng quá khứ đơn của động từ bất quy tắc \"swim\" và \"buy\" là cặp nào?",
+        "o": [
+          "swimming and buying",
+          "swims and buys",
+          "swimmed and buyed",
+          "swam and bought"
+        ],
+        "k": "D",
+        "e": "Bất quy tắc: swim -> swam; buy -> bought; eat -> ate; take -> took.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ dạng quá khứ swam và bought"
+      },
+      {
+        "c": "TA5-B11-004",
+        "d": "basic",
+        "p": "Câu hỏi \"Did you swim in the sea with your family?\" trả lời khẳng định đúng là gì?",
+        "o": [
+          "Yes, I swam. (không chuẩn câu trả lời ngắn)",
+          "Yes, I was.",
+          "Yes, I do.",
+          "Yes, I did. (hoặc Yes, we did.)"
+        ],
+        "k": "D",
+        "e": "Hỏi bằng \"Did...?\" trả lời ngắn là \"Yes, S + did.\"",
+        "s": "Tiếng Anh 5",
+        "h": "Trả lời ngắn khớp Did"
+      },
+      {
+        "c": "TA5-B11-005",
+        "d": "basic",
+        "p": "Từ nào viết đúng dạng quá khứ của động từ \"take\" (chụp ảnh)?",
+        "o": [
+          "taking",
+          "taken",
+          "taked",
+          "took (\"I took some photos.\")"
+        ],
+        "k": "D",
+        "e": "take -> took (\"took some photos\").",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ took trong took photos"
+      },
+      {
+        "c": "TA5-B11-006",
+        "d": "basic",
+        "p": "Quan sát bảng hoạt động kì nghỉ gia đình của bạn Minh tại Nha Trang. Gia đình Minh ăn hải sản vào thời điểm nào?",
+        "o": [
+          "Day 4 (Ngày thứ tư)",
+          "Day 1 (Ngày thứ nhất)",
+          "Day 2 (Ngày thứ hai)",
+          "Day 3 (Ngày thứ ba)"
+        ],
+        "k": "C",
+        "e": "Dòng Day 2 ghi Activity: ate seafood.",
+        "s": "Tiếng Anh 5",
+        "h": "Xem dòng Day 2 trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Nha Trang Family Trip",
+          "head": [
+            "Day",
+            "Activity Done"
+          ],
+          "rows": [
+            [
+              "Day 1",
+              "swam in the sea"
+            ],
+            [
+              "Day 2",
+              "ate seafood"
+            ],
+            [
+              "Day 3",
+              "took boat tour"
+            ],
+            [
+              "Day 4",
+              "bought souvenirs"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA5-B11-007",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"When did you went to Phu Quoc Island?\"",
+        "o": [
+          "Sai từ \"When\", phải đổi thành \"Who\"",
+          "Sai từ \"Island\", phải viết thành \"Islands\"",
+          "Sai từ \"went\", phải đưa về nguyên thể \"go\" vì đã có trợ động từ \"did\"",
+          "Sai từ \"to\", phải đổi thành \"in\""
+        ],
+        "k": "C",
+        "e": "Sau \"did\" trong câu hỏi quá khứ, động từ chính giữ nguyên thể \"go\".",
+        "s": "Tiếng Anh 5",
+        "h": "Did + S + go"
+      },
+      {
+        "c": "TA5-B11-008",
+        "d": "application",
+        "p": "Hoàn thành câu kể: \"Last summer, my family went to Ha Long Bay. We ... a boat trip and ... lots of photos.\"",
+        "o": [
+          "take ... take",
+          "have ... take",
+          "took ... took (hoặc had ... took)",
+          "taked ... taked"
+        ],
+        "k": "C",
+        "e": "Hai hành động nối tiếp trong quá khứ đều chia quá khứ đơn: \"had/took a boat trip and took lots of photos\".",
+        "s": "Tiếng Anh 5",
+        "h": "Chia quá khứ đơn cả hai động từ"
+      },
+      {
+        "c": "TA5-B11-009",
+        "d": "application",
+        "p": "Chọn câu trả lời phù hợp cho câu hỏi \"When did you go to Da Nang?\"",
+        "o": [
+          "Because the beach was clean.",
+          "I went there in July last year.",
+          "I went there with my parents.",
+          "Yes, I did."
+        ],
+        "k": "B",
+        "e": "\"When...?\" hỏi thời gian -> trả lời bằng mốc thời gian quá khứ (\"in July last year\").",
+        "s": "Tiếng Anh 5",
+        "h": "Hỏi When trả lời thời điểm"
+      },
+      {
+        "c": "TA5-B11-010",
+        "d": "application",
+        "p": "Sắp xếp thành câu hoàn chỉnh: souvenirs / Did / any / buy / you / yesterday / ?",
+        "o": [
+          "Buy did you any souvenirs yesterday?",
+          "You did buy any souvenirs yesterday?",
+          "Did you buy any souvenirs yesterday?",
+          "Did you bought any souvenirs yesterday?"
+        ],
+        "k": "C",
+        "e": "Did + S + V nguyên thể (buy) + tân ngữ (any souvenirs) + yesterday?",
+        "s": "Tiếng Anh 5",
+        "h": "Dùng buy nguyên thể và any trong câu hỏi"
+      },
+      {
+        "c": "TA5-B11-011",
+        "d": "application",
+        "p": "Phân biệt quá khứ bất quy tắc: cặp động từ nào biến đổi ĐÚNG hoàn toàn?",
+        "o": [
+          "eat -> eated; see -> seed",
+          "buy -> buyed; swim -> swimmed",
+          "take -> taked; collect -> collect",
+          "eat -> ate; see -> saw"
+        ],
+        "k": "D",
+        "e": "Quá khứ: eat -> ate; see -> saw; buy -> bought; swim -> swam; collect -> collected.",
+        "s": "Tiếng Anh 5",
+        "h": "Kiểm tra hai động từ bất quy tắc"
+      },
+      {
+        "c": "TA5-B11-012",
+        "d": "application",
+        "p": "Hoàn thành câu phủ định: \"We went to the beach, but we ... in the sea because the water was cold.\"",
+        "o": [
+          "don't swim",
+          "didn't swim",
+          "weren't swim",
+          "didn't swam"
+        ],
+        "k": "B",
+        "e": "Phủ định động từ thường quá khứ dùng \"didn't + V nguyên thể\" -> \"didn't swim\".",
+        "s": "Tiếng Anh 5",
+        "h": "Didn't + swim nguyên thể"
+      },
+      {
+        "c": "TA5-B11-013",
+        "d": "advanced",
+        "p": "Đọc đoạn ngắn: \"Last June, Hoa's family visited Hue. They saw Thien Mu Pagoda and walked along the Perfume River. They didn't swim because Hue is famous for its quiet heritage, and they ate delicious Hue food before returning home.\" Gia đình Hoa KHÔNG làm việc gì ở Huế?",
+        "o": [
+          "They didn't swim.",
+          "They didn't visit Thien Mu Pagoda.",
+          "They didn't walk along the river.",
+          "They didn't eat Hue food."
+        ],
+        "k": "A",
+        "e": "Đoạn văn nói rõ \"They didn't swim\" trong khi các hoạt động kia đều có thực hiện.",
+        "s": "Tiếng Anh 5",
+        "h": "Tìm câu phủ định didn't"
+      },
+      {
+        "c": "TA5-B11-014",
+        "d": "advanced",
+        "p": "Viết câu hỏi cho phần được hỏi bằng \"What\": \"My sister collected colourful seashells on the beach.\"",
+        "o": [
+          "What did your sister collected on the beach?",
+          "What does your sister collect on the beach?",
+          "What did your sister collect on the beach?",
+          "What was your sister collect on the beach?"
+        ],
+        "k": "C",
+        "e": "Hỏi việc đã làm ở quá khứ: What + did + your sister + collect (nguyên thể)...?",
+        "s": "Tiếng Anh 5",
+        "h": "Đưa collected về collect sau did"
+      },
+      {
+        "c": "TA5-B11-015",
+        "d": "advanced",
+        "p": "Chọn câu hoàn chỉnh ĐÚNG ngữ pháp kể lại trải nghiệm gia đình:",
+        "o": [
+          "We has a great family time in Da Lat, and we seed lots of flowers.",
+          "We didn't had a good time because it rained yesterday.",
+          "We had a great family time in Da Lat, and we saw lots of colourful flowers.",
+          "Did your family had a boat trip around the islands?"
+        ],
+        "k": "C",
+        "e": "\"had\" và \"saw\" chia quá khứ chính xác; hai câu sau sai vì dùng \"didn't had\" và \"Did... had\".",
+        "s": "Tiếng Anh 5",
+        "h": "Tránh ghép did/didn't với had"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh5-c3",
+    "lesson": {
+      "code": "tienganh5-b12",
+      "title": "Unit 12. Our Tet holiday",
+      "seq": 12,
+      "subtitle": "Sử dụng thì tương lai đơn với will để nói về dự định đón Tết Nguyên đán (decorate the house, make banh chung, visit grandparents, watch fireworks)",
+      "concepts": [
+        "Hoạt động Tết (decorate the house, make banh chung, visit grandparents, watch fireworks, do the shopping)",
+        "Will you ... for Tet? – Yes, I will / No, I won't",
+        "Where will you go at Tet? – I'll go to ..."
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA5-B12-001",
+        "d": "basic",
+        "p": "Động từ khuyết thiếu \"will\" trong câu \"We will decorate the house for Tet\" dùng để chỉ thời gian nào?",
+        "o": [
+          "Thì tương lai (dự định, việc sẽ làm sắp tới)",
+          "Thì quá khứ (việc đã làm xong năm ngoái)",
+          "Sự thật lịch sử hàng trăm năm trước",
+          "Thói quen lặp đi lặp lại mỗi sáng thứ Hai"
+        ],
+        "k": "A",
+        "e": "\"will + V nguyên thể\" diễn tả hành động hoặc dự định trong tương lai.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ dấu hiệu tương lai will"
+      },
+      {
+        "c": "TA5-B12-002",
+        "d": "basic",
+        "p": "Cụm từ \"decorate the house\" chuẩn bị đón Tết có nghĩa là gì?",
+        "o": [
+          "xem pháo hoa giao thừa",
+          "trang trí nhà cửa",
+          "đi chúc Tết ông bà",
+          "nấu bánh chưng xanh"
+        ],
+        "k": "B",
+        "e": "\"decorate\" = trang trí (hoa đào, hoa mai, đèn lồng).",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa từ decorate"
+      },
+      {
+        "c": "TA5-B12-003",
+        "d": "basic",
+        "p": "Viết dạng rút gọn của \"will not\" khi trả lời \"No, I ...\" cho câu hỏi \"Will you go to the flower market tomorrow?\":",
+        "o": [
+          "willn't",
+          "don't",
+          "wasn't",
+          "won't"
+        ],
+        "k": "D",
+        "e": "\"will not\" viết tắt chuẩn là \"won't\" (không viết willn't).",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ dạng viết tắt won't"
+      },
+      {
+        "c": "TA5-B12-004",
+        "d": "basic",
+        "p": "Hoạt động truyền thống ngắm pháo hoa đêm giao thừa trong tiếng Anh là gì?",
+        "o": [
+          "do the shopping",
+          "buy roses",
+          "make banh chung",
+          "watch fireworks"
+        ],
+        "k": "D",
+        "e": "\"fireworks\" = pháo hoa -> \"watch fireworks\".",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ từ fireworks"
+      },
+      {
+        "c": "TA5-B12-005",
+        "d": "basic",
+        "p": "Sau \"will\" hay \"won't\" luôn điền động từ ở dạng nào?",
+        "o": [
+          "Động từ thêm đuôi \"-ing\"",
+          "Động từ nguyên thể không \"to\" (\"We will visit our grandparents.\")",
+          "Động từ thêm đuôi \"-ed\"",
+          "Động từ thêm \"s\" khi chủ ngữ là he hoặc she"
+        ],
+        "k": "B",
+        "e": "Mọi chủ ngữ dùng \"will + V nguyên thể\", không chia \"-s\", \"-ed\" hay \"-ing\".",
+        "s": "Tiếng Anh 5",
+        "h": "Sau will dùng V nguyên thể"
+      },
+      {
+        "c": "TA5-B12-006",
+        "d": "basic",
+        "p": "Quan sát bảng kế hoạch đón Tết của bạn Lan. Vào mùng 1 Tết (1st Day of Tet), gia đình Lan sẽ đi đâu?",
+        "o": [
+          "Visit grandparents",
+          "Go to the flower market",
+          "Decorate the house",
+          "Make banh chung"
+        ],
+        "k": "A",
+        "e": "Dòng \"1st Day of Tet\" ghi Plan: Visit grandparents.",
+        "s": "Tiếng Anh 5",
+        "h": "Xem hàng 1st Day of Tet",
+        "fig": {
+          "type": "table",
+          "title": "Lan's Tet Plan",
+          "head": [
+            "Time",
+            "Tet Activity"
+          ],
+          "rows": [
+            [
+              "28th Dec (Lunar)",
+              "decorate the house"
+            ],
+            [
+              "29th Dec (Lunar)",
+              "make banh chung"
+            ],
+            [
+              "New Year's Eve",
+              "watch fireworks"
+            ],
+            [
+              "1st Day of Tet",
+              "visit grandparents"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA5-B12-007",
+        "d": "application",
+        "p": "Hoàn thành đoạn hội thoại: \"A: ... you make banh chung for Tet? – B: Yes, I ... . I love helping my grandma.\"",
+        "o": [
+          "Will ... will",
+          "Are ... am",
+          "Do ... will",
+          "Will ... do"
+        ],
+        "k": "A",
+        "e": "Câu hỏi tương lai dùng \"Will you...?\" -> trả lời ngắn khẳng định \"Yes, I will.\"",
+        "s": "Tiếng Anh 5",
+        "h": "Khớp Will ở hỏi và đáp"
+      },
+      {
+        "c": "TA5-B12-008",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"My sister will buys a branch of peach blossoms for Tet.\"",
+        "o": [
+          "Sai từ \"buys\", phải bỏ \"s\" thành nguyên thể \"buy\" vì đứng sau \"will\"",
+          "Sai từ \"will\", phải đổi thành \"wills\"",
+          "Sai từ \"for\", phải đổi thành \"at\"",
+          "Sai từ \"peach\", phải đổi thành \"peaches\""
+        ],
+        "k": "A",
+        "e": "Sau \"will\" động từ tuyệt đối không thêm \"-s\" dù chủ ngữ là số ít \"My sister\".",
+        "s": "Tiếng Anh 5",
+        "h": "Không chia s sau will"
+      },
+      {
+        "c": "TA5-B12-009",
+        "d": "application",
+        "p": "Sắp xếp thành câu hoàn chỉnh: go / Where / at / will / Tet / you / ?",
+        "o": [
+          "Where will you go at Tet?",
+          "Where you will go at Tet?",
+          "Where will go you at Tet?",
+          "Will where you go at Tet?"
+        ],
+        "k": "A",
+        "e": "Trật tự câu hỏi Wh- tương lai: Where + will + you + go + at Tet?",
+        "s": "Tiếng Anh 5",
+        "h": "Đảo will lên trước you"
+      },
+      {
+        "c": "TA5-B12-010",
+        "d": "application",
+        "p": "Điền giới từ chuẩn cho dịp lễ Tết: \"What will you do ... Tet?\" – \"I'll wear new clothes and get lucky money.\"",
+        "o": [
+          "at",
+          "under",
+          "in",
+          "on"
+        ],
+        "k": "A",
+        "e": "Dịp lễ không có chữ \"day\" đứng cuối luôn dùng \"at\": at Tet, at Christmas, at Mid-Autumn Festival.",
+        "s": "Tiếng Anh 5",
+        "h": "Dịp lễ dùng at Tet"
+      },
+      {
+        "c": "TA5-B12-011",
+        "d": "application",
+        "p": "Chọn câu trả lời phù hợp khi bạn hỏi: \"Where will your family go at Tet?\"",
+        "o": [
+          "Because Tet is a big festival.",
+          "Yes, we will make spring rolls.",
+          "We'll go to my grandparents' house in the countryside.",
+          "We decorated the house last Sunday."
+        ],
+        "k": "C",
+        "e": "Hỏi \"Where will... go?\" (Sẽ đi đâu?) -> trả lời bằng địa điểm kèm \"We'll go to...\".",
+        "s": "Tiếng Anh 5",
+        "h": "Trả lời nơi sẽ đến"
+      },
+      {
+        "c": "TA5-B12-012",
+        "d": "application",
+        "p": "Hai loại hoa đặc trưng trang trí ngày Tết ở miền Bắc và miền Nam Việt Nam (peach blossoms & apricot blossoms) nghĩa là gì?",
+        "o": [
+          "Hoa đào và hoa mai",
+          "Hoa phượng đỏ và hoa bằng lăng",
+          "Hoa sen và hoa cúc trắng",
+          "Hoa hồng và hoa hướng dương"
+        ],
+        "k": "A",
+        "e": "\"peach blossoms\" = hoa đào; \"apricot blossoms\" = hoa mai vàng.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ tên 2 loài hoa Tết"
+      },
+      {
+        "c": "TA5-B12-013",
+        "d": "advanced",
+        "p": "Đọc đoạn ngắn: \"Tet is coming soon! Next week, my parents will do the shopping, and I will clean my room and buy roses to decorate our living room. On New Year's Eve, we will stay up to watch fireworks.\" Việc nào bạn nhỏ KHÔNG tự làm trong đoạn trên?",
+        "o": [
+          "Buying roses",
+          "Watching fireworks on New Year's Eve",
+          "Doing the shopping (bố mẹ bạn nhỏ sẽ đi mua sắm)",
+          "Cleaning the room"
+        ],
+        "k": "C",
+        "e": "Câu thứ hai ghi rõ \"my parents will do the shopping\" (bố mẹ đi mua sắm).",
+        "s": "Tiếng Anh 5",
+        "h": "Phân biệt việc của bố mẹ và việc của tôi"
+      },
+      {
+        "c": "TA5-B12-014",
+        "d": "advanced",
+        "p": "Viết lại câu sau dùng dạng rút gọn chuẩn của \"I will\": \"I will visit my teachers during the Tet holiday.\"",
+        "o": [
+          "I'd visit my teachers during the Tet holiday.",
+          "I've visit my teachers during the Tet holiday.",
+          "I'm visit my teachers during the Tet holiday.",
+          "I'll visit my teachers during the Tet holiday."
+        ],
+        "k": "D",
+        "e": "\"I will\" viết gọn là \"I'll\"; \"I'd\" là I would; \"I'm\" là I am.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ viết gọn I'll = I will"
+      },
+      {
+        "c": "TA5-B12-015",
+        "d": "advanced",
+        "p": "Chọn câu hoàn chỉnh ĐÚNG cả ngữ pháp lẫn dấu câu về dự định Tết:",
+        "o": [
+          "Does your cousins will come to Ha Noi? – No, they won't.",
+          "Will your cousins come to Ha Noi this Tet? – No, they won't. They'll celebrate Tet in Hue.",
+          "Will your cousins to come to Ha Noi this Tet? – No, they willn't.",
+          "Will your cousins coming to Ha Noi? – No, they don't."
+        ],
+        "k": "B",
+        "e": "Will + S + come (không \"to\", không \"-ing\"), trả lời phủ định \"No, they won't.\" chuẩn xác.",
+        "s": "Tiếng Anh 5",
+        "h": "Soát quy tắc Will + S + V nguyên thể"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh5-c3",
+    "lesson": {
+      "code": "tienganh5-b13",
+      "title": "Unit 13. Our special days",
+      "seq": 13,
+      "subtitle": "Hỏi đáp về các ngày lễ đặc biệt trong năm học (Children's Day, Teachers' Day, Sports Day, Mid-Autumn Festival) và các món ăn, hoạt động dự kiến tổ chức",
+      "concepts": [
+        "Ngày đặc biệt (Children's Day, Teachers' Day, Sports Day, Mid-Autumn Festival)",
+        "What will you do on...? – We'll...",
+        "Đồ ăn đồ uống tiệc (pizza, burgers, chips, milk tea, apple juice)"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA5-B13-001",
+        "d": "basic",
+        "p": "Lễ hội \"Mid-Autumn Festival\" được tổ chức vào ngày rằm tháng Tám âm lịch có nghĩa là gì?",
+        "o": [
+          "Ngày Nhà giáo Việt Nam",
+          "Tết Trung Thu",
+          "Ngày Quốc tế Thiếu nhi",
+          "Tết Nguyên Đán"
+        ],
+        "k": "B",
+        "e": "\"Mid-Autumn Festival\" = Tết Trung Thu (thường ăn bánh trung thu, rước đèn ông sao).",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ tên tiếng Anh Tết Trung Thu"
+      },
+      {
+        "c": "TA5-B13-002",
+        "d": "basic",
+        "p": "Điền giới từ đứng trước một ngày lễ có chữ \"Day\" ở cuối: \"What will you do ... Children's Day?\"",
+        "o": [
+          "at",
+          "in",
+          "on",
+          "under"
+        ],
+        "k": "C",
+        "e": "Bất kì cụm ngày nào có chữ \"Day\" (on Children's Day, on Teachers' Day, on Sports Day) đều dùng giới từ \"on\".",
+        "s": "Tiếng Anh 5",
+        "h": "Có chữ Day luôn dùng on"
+      },
+      {
+        "c": "TA5-B13-003",
+        "d": "basic",
+        "p": "Hoạt động \"give flowers and cards\" thường diễn ra vào dịp nào nhiều nhất để tri ân?",
+        "o": [
+          "on Teachers' Day (Ngày Nhà giáo)",
+          "at midnight",
+          "on Sports Day",
+          "during a maths test"
+        ],
+        "k": "A",
+        "e": "Tặng hoa và thiệp chúc mừng là cách bày tỏ lòng biết ơn thầy cô vào Ngày Nhà giáo.",
+        "s": "Tiếng Anh 5",
+        "h": "Gắn hành động với Teachers' Day"
+      },
+      {
+        "c": "TA5-B13-004",
+        "d": "basic",
+        "p": "Câu hỏi \"What food and drinks will you have at the party?\" hỏi về điều gì?",
+        "o": [
+          "Bữa tiệc sẽ bắt đầu lúc mấy giờ",
+          "Ai sẽ đến dự bữa tiệc sinh nhật",
+          "Đồ ăn và thức uống gì sẽ có trong bữa tiệc",
+          "Trò chơi nào sẽ diễn ra ngoài sân trường"
+        ],
+        "k": "C",
+        "e": "\"food and drinks\" = đồ ăn và thức uống.",
+        "s": "Tiếng Anh 5",
+        "h": "Hiểu cụm food and drinks"
+      },
+      {
+        "c": "TA5-B13-005",
+        "d": "basic",
+        "p": "Món nào dưới đây là ĐỒ UỐNG phổ biến học sinh hay chọn trong tiệc lớp?",
+        "o": [
+          "fried chicken",
+          "burgers",
+          "chips",
+          "milk tea (trà sữa) hoặc fruit juice"
+        ],
+        "k": "D",
+        "e": "milk tea = trà sữa; ba món kia đều là đồ ăn (food).",
+        "s": "Tiếng Anh 5",
+        "h": "Tìm thức uống"
+      },
+      {
+        "c": "TA5-B13-006",
+        "d": "basic",
+        "p": "Quan sát bảng kế hoạch các ngày đặc biệt của lớp 5A. Lớp 5A dự định tổ chức múa hát vào ngày nào?",
+        "o": [
+          "Teachers' Day (20th Nov)",
+          "Sports Day (15th Oct)",
+          "Children's Day (1st Jun)",
+          "Mid-Autumn (15th Aug Lunar)"
+        ],
+        "k": "A",
+        "e": "Hàng \"Teachers' Day\" ghi Activity: sing and dance.",
+        "s": "Tiếng Anh 5",
+        "h": "Xem hàng Teachers' Day trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Special Days Plan (5A)",
+          "head": [
+            "Special Day",
+            "Planned Activity"
+          ],
+          "rows": [
+            [
+              "Children's Day",
+              "have a class party"
+            ],
+            [
+              "Sports Day",
+              "run and play chess"
+            ],
+            [
+              "Teachers' Day",
+              "sing and dance"
+            ],
+            [
+              "Mid-Autumn",
+              "make star lanterns"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA5-B13-007",
+        "d": "application",
+        "p": "Hoàn thành hội thoại: \"A: What will you do on Sports Day? – B: We ... play basketball and table tennis.\"",
+        "o": [
+          "did",
+          "will (hoặc 'll)",
+          "are",
+          "were"
+        ],
+        "k": "B",
+        "e": "Câu hỏi dùng thì tương lai \"What will you do...?\" -> câu trả lời đồng nhất dùng \"will + V nguyên thể\".",
+        "s": "Tiếng Anh 5",
+        "h": "Khớp thì tương lai will"
+      },
+      {
+        "c": "TA5-B13-008",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"In Children's Day, we'll have pizza, burgers and apple juice.\"",
+        "o": [
+          "Sai từ \"have\", phải đổi thành \"having\"",
+          "Sai từ \"burgers\", phải bỏ chữ \"s\"",
+          "Sai từ \"apple\", phải đổi thành \"an apple\"",
+          "Sai giới từ \"In\", phải sửa thành \"On\" (\"On Children's Day\")"
+        ],
+        "k": "D",
+        "e": "Ngày lễ cụ thể kết thúc bằng \"Day\" luôn dùng giới từ \"On\".",
+        "s": "Tiếng Anh 5",
+        "h": "Sửa In thành On"
+      },
+      {
+        "c": "TA5-B13-009",
+        "d": "application",
+        "p": "Sắp xếp thành câu hỏi hoàn chỉnh: have / What / will / at / drinks / you / party / the / ?",
+        "o": [
+          "What will drinks you have at the party?",
+          "What drinks will you have at the party?",
+          "What you will have drinks at the party?",
+          "Drinks what will you have at the party?"
+        ],
+        "k": "B",
+        "e": "Cụm hỏi \"What drinks\" + will + you + have + at the party?",
+        "s": "Tiếng Anh 5",
+        "h": "Giữ cụm What drinks đứng đầu"
+      },
+      {
+        "c": "TA5-B13-010",
+        "d": "application",
+        "p": "Chọn câu viết ĐÚNG hình thức sở hữu số nhiều cho ngày Nhà giáo (\"Teachers' Day\") và ngày Thiếu nhi (\"Children's Day\"):",
+        "o": [
+          "Teachers Day and Childrens Day",
+          "Teacher's Day and Childrens' Day",
+          "Teacher Day and Children Day",
+          "Teachers' Day and Children's Day"
+        ],
+        "k": "D",
+        "e": "\"Teachers\" số nhiều thêm \"'\" ở ngoài chữ s (\"Teachers' Day\"); \"Children\" số nhiều không có s nên thêm \"'s\" (\"Children's Day\").",
+        "s": "Tiếng Anh 5",
+        "h": "Phân biệt s' và 's của danh từ số nhiều"
+      },
+      {
+        "c": "TA5-B13-011",
+        "d": "application",
+        "p": "Đọc câu: \"On Mid-Autumn Festival, we'll eat mooncakes and carry colourful lanterns.\" Hai nét văn hóa được nhắc tới là gì?",
+        "o": [
+          "Chạy thi tiếp sức và chơi kéo co",
+          "Tặng hoa hồng và thiệp chúc mừng thầy cô",
+          "Ăn bánh chưng và xem pháo hoa đêm giao thừa",
+          "Ăn bánh trung thu và rước đèn lồng nhiều màu sắc"
+        ],
+        "k": "D",
+        "e": "\"mooncakes\" = bánh trung thu; \"lanterns\" = đèn lồng.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ mooncakes và lanterns"
+      },
+      {
+        "c": "TA5-B13-012",
+        "d": "application",
+        "p": "Khi viết danh sách thực đơn dự kiến cho tiệc lớp: \"We'll have ... pizza, ... chips and ... milk tea.\" Điền từ thích hợp trước danh từ:",
+        "o": [
+          "some ... some ... some",
+          "many ... many ... many",
+          "a ... a ... a",
+          "an ... an ... an"
+        ],
+        "k": "A",
+        "e": "\"some\" dùng được cho cả danh từ đếm được số nhiều (chips) lẫn danh từ không đếm được (pizza, milk tea) trong câu khẳng định.",
+        "s": "Tiếng Anh 5",
+        "h": "Some dùng rất tiện cho thực đơn"
+      },
+      {
+        "c": "TA5-B13-013",
+        "d": "advanced",
+        "p": "Đọc đoạn ngắn: \"Next Friday is Teachers' Day at our school. In the morning, Class 5C will perform a musical play. At 10 a.m., we will give handmade cards to our teachers. We won't have a big food party in class because we will join the outdoor festival.\" Lớp 5C CÓ mở tiệc ăn uống lớn trong lớp không?",
+        "o": [
+          "Yes, they will.",
+          "Yes, at 10 a.m.",
+          "No, they won't.",
+          "No, they didn't."
+        ],
+        "k": "C",
+        "e": "Đoạn văn nói rõ \"We won't have a big food party in class\" -> phủ định tương lai \"No, they won't.\"",
+        "s": "Tiếng Anh 5",
+        "h": "Chú ý phủ định won't"
+      },
+      {
+        "c": "TA5-B13-014",
+        "d": "advanced",
+        "p": "Phân biệt hai câu đúng: Câu nào nói về DỰ ĐỊNH NGÀY LỄ SẮP TỚI và câu nào nói về KỈ NIỆM NGÀY LỄ NĂM NGOÁI?",
+        "o": [
+          "\"We will dance\" là quá khứ còn \"We danced\" là tương lai",
+          "Cả hai câu đều nói về sự kiện đã xảy ra năm ngoái",
+          "Cả hai câu đều thiếu dấu hỏi chấm ở cuối",
+          "\"We will dance on Children's Day next week\" (sắp tới); \"We danced on Children's Day last year\" (năm ngoái)"
+        ],
+        "k": "D",
+        "e": "will + V = tương lai; V-ed = quá khứ.",
+        "s": "Tiếng Anh 5",
+        "h": "Đối chiếu will dance và danced"
+      },
+      {
+        "c": "TA5-B13-015",
+        "d": "advanced",
+        "p": "Hoàn thành câu mời bạn tham gia ngày hội đầy đủ và tự nhiên: \"... you join our Mid-Autumn party next Saturday? – Yes, I ... . I'll bring some mooncakes!\"",
+        "o": [
+          "Will ... will",
+          "Do ... will",
+          "Did ... did",
+          "Are ... am"
+        ],
+        "k": "A",
+        "e": "\"next Saturday\" chỉ tương lai -> dùng \"Will you join...?\" và đáp \"Yes, I will.\"",
+        "s": "Tiếng Anh 5",
+        "h": "Nhận biết dấu hiệu next Saturday"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh5-c3",
+    "lesson": {
+      "code": "tienganh5-b14",
+      "title": "Unit 14. Staying healthy",
+      "seq": 14,
+      "subtitle": "Hỏi đáp về thói quen giữ gìn sức khỏe (do morning exercise, eat healthy food, drink fresh juice, play sports) và tần suất thực hiện (How often does he or she...?)",
+      "concepts": [
+        "Thói quen sống khỏe (do morning exercise, eat healthy food, drink fresh juice, play sports)",
+        "How does he or she stay healthy? – He or She...",
+        "How often do you...? – Every day / Once a week / Twice a week / Three times a week"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA5-B14-001",
+        "d": "basic",
+        "p": "Cụm từ \"staying healthy\" có nghĩa là gì?",
+        "o": [
+          "giữ gìn sức khỏe tốt, sống khỏe mạnh",
+          "thức khuya chơi điện tử",
+          "ăn thật nhiều đồ ngọt và nước có ga",
+          "ngủ suốt cả ngày cuối tuần"
+        ],
+        "k": "A",
+        "e": "\"healthy\" = khỏe mạnh, lành mạnh; \"stay healthy\" = duy trì sức khỏe tốt.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa từ healthy"
+      },
+      {
+        "c": "TA5-B14-002",
+        "d": "basic",
+        "p": "Cụm hoạt động \"do morning exercise\" giúp cơ thể khỏe khoắn là làm gì?",
+        "o": [
+          "uống nước ép trái cây tươi",
+          "đi ngủ sớm trước mười giờ",
+          "ăn nhiều rau củ quả sạch",
+          "tập thể dục buổi sáng"
+        ],
+        "k": "D",
+        "e": "\"exercise\" = bài tập thể dục; \"do morning exercise\" = tập thể dục buổi sáng.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ cụm do morning exercise"
+      },
+      {
+        "c": "TA5-B14-003",
+        "d": "basic",
+        "p": "Để hỏi tần suất \"Bạn chơi thể thao bao lâu một lần?\", ta dùng cặp từ để hỏi nào?",
+        "o": [
+          "How often",
+          "How far",
+          "How many",
+          "How much"
+        ],
+        "k": "A",
+        "e": "\"How often...?\" dùng hỏi mức độ thường xuyên (tần suất thực hiện hành động).",
+        "s": "Tiếng Anh 5",
+        "h": "Từ hỏi tần suất: How often"
+      },
+      {
+        "c": "TA5-B14-004",
+        "d": "basic",
+        "p": "Cách nói \"hai lần một tuần\" trong tiếng Anh là cụm nào?",
+        "o": [
+          "twice a week",
+          "three times a week",
+          "two times week",
+          "once a week"
+        ],
+        "k": "A",
+        "e": "1 lần = once; 2 lần = twice; từ 3 lần trở lên dùng số + times (three times a week).",
+        "s": "Tiếng Anh 5",
+        "h": "Ghi nhớ: 1 once, 2 twice"
+      },
+      {
+        "c": "TA5-B14-005",
+        "d": "basic",
+        "p": "Nhóm thực phẩm nào được xem là \"healthy food\" (thức ăn tốt cho sức khỏe)?",
+        "o": [
+          "too much fast food and soda",
+          "only salty chips every night",
+          "lots of sweets before bed",
+          "fresh vegetables, fruit and fish"
+        ],
+        "k": "D",
+        "e": "Rau tươi, trái cây và cá cung cấp nhiều vitamin và dinh dưỡng lành mạnh.",
+        "s": "Tiếng Anh 5",
+        "h": "Tìm nhóm thực phẩm bổ dưỡng"
+      },
+      {
+        "c": "TA5-B14-006",
+        "d": "basic",
+        "p": "Quan sát bảng thói quen sống khỏe của bạn Mai. Bạn Mai uống nước ép trái cây tươi (fresh juice) bao lâu một lần?",
+        "o": [
+          "Twice a week (2 lần một tuần)",
+          "Every day (Hằng ngày)",
+          "Three times a week (3 lần một tuần)",
+          "Once a week (1 lần một tuần)"
+        ],
+        "k": "C",
+        "e": "Hàng \"Drink fresh juice\" ghi Frequency: 3 times a week.",
+        "s": "Tiếng Anh 5",
+        "h": "Xem hàng thứ ba trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Mai's Healthy Habits",
+          "head": [
+            "Habit",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "Morning exercise",
+              "every day"
+            ],
+            [
+              "Eat vegetables",
+              "every day"
+            ],
+            [
+              "Drink fresh juice",
+              "3 times a week"
+            ],
+            [
+              "Play badminton",
+              "twice a week"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA5-B14-007",
+        "d": "application",
+        "p": "Hoàn thành câu: \"How ... your sister stay healthy?\" – \"She ... healthy food and plays yoga.\"",
+        "o": [
+          "does ... eat",
+          "is ... eats",
+          "does ... eats",
+          "do ... eat"
+        ],
+        "k": "C",
+        "e": "Chủ ngữ số ít \"your sister\" / \"She\": câu hỏi dùng \"does\" (+ stay nguyên thể), câu trả lời \"eats\" thêm s.",
+        "s": "Tiếng Anh 5",
+        "h": "Kiểm tra does và eats"
+      },
+      {
+        "c": "TA5-B14-008",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"I play football two times a week to keep fit.\"",
+        "o": [
+          "Sai từ \"fit\", phải đổi thành \"fat\"",
+          "Sai từ \"a\", phải đổi thành \"an\"",
+          "Nên viết chuẩn tự nhiên là \"twice a week\" thay vì \"two times a week\"",
+          "Sai từ \"play\", phải đổi thành \"do\""
+        ],
+        "k": "C",
+        "e": "Tiếng Anh chuẩn dùng \"once\" (1 lần) và \"twice\" (2 lần), chỉ từ 3 lần trở lên mới dùng \"three times\".",
+        "s": "Tiếng Anh 5",
+        "h": "Thay two times bằng twice"
+      },
+      {
+        "c": "TA5-B14-009",
+        "d": "application",
+        "p": "Sắp xếp thành câu hỏi hoàn chỉnh: often / you / do / How / do / judo / ?",
+        "o": [
+          "How do often you do judo?",
+          "Often how do you do judo?",
+          "How often you do do judo?",
+          "How often do you do judo?"
+        ],
+        "k": "D",
+        "e": "Cấu trúc: How often + do + you + động từ chính (do judo)?",
+        "s": "Tiếng Anh 5",
+        "h": "Đặt How often ở đầu"
+      },
+      {
+        "c": "TA5-B14-010",
+        "d": "application",
+        "p": "Điền đúng động từ (do, play, eat, drink) tương ứng với mỗi danh từ: \"... sports\", \"... morning exercise\", \"... fresh juice\".",
+        "o": [
+          "play ... do ... drink",
+          "do ... play ... eat",
+          "drink ... do ... play",
+          "eat ... play ... do"
+        ],
+        "k": "A",
+        "e": "Kết hợp chuẩn: play sports (chơi thể thao), do morning exercise (tập thể dục), drink juice (uống nước ép).",
+        "s": "Tiếng Anh 5",
+        "h": "Khớp đúng động từ đi kèm"
+      },
+      {
+        "c": "TA5-B14-011",
+        "d": "application",
+        "p": "Chọn câu trả lời phù hợp nhất cho câu hỏi: \"How does your grandfather stay healthy?\"",
+        "o": [
+          "He walks in the park every morning and eats lots of vegetables.",
+          "He is seventy-two years old.",
+          "Yes, he likes doing morning exercise.",
+          "He lives in a small village near the river."
+        ],
+        "k": "A",
+        "e": "Hỏi \"How... stay healthy?\" (Giữ sức khỏe bằng cách nào?) -> nêu các thói quen sinh hoạt lành mạnh.",
+        "s": "Tiếng Anh 5",
+        "h": "Nêu cách rèn luyện sức khỏe"
+      },
+      {
+        "c": "TA5-B14-012",
+        "d": "application",
+        "p": "Cụm từ \"unhealthy habits\" chỉ những thói quen nào cần tránh?",
+        "o": [
+          "staying up too late and drinking sugary soft drinks every day",
+          "riding a bicycle with friends on Sundays",
+          "eating green vegetables and fresh fruit",
+          "going to bed early at 9:30 p.m."
+        ],
+        "k": "A",
+        "e": "Thức quá khuya và uống nhiều nước ngọt có đường hằng ngày gây hại sức khỏe.",
+        "s": "Tiếng Anh 5",
+        "h": "Tìm thói quen xấu cho sức khỏe"
+      },
+      {
+        "c": "TA5-B14-013",
+        "d": "advanced",
+        "p": "Đọc đoạn văn: \"Nam wants to stay strong for the school football team. Every day, he does morning exercise for 20 minutes. He eats fish, rice and vegetables for lunch, and drinks plenty of water. He plays football four times a week and never skips breakfast.\" Thông tin nào ĐÚNG về Nam?",
+        "o": [
+          "He never eats breakfast before school.",
+          "He hates eating fish and vegetables.",
+          "He plays football four times a week and always has breakfast.",
+          "He only plays football once a month."
+        ],
+        "k": "C",
+        "e": "\"never skips breakfast\" (không bao giờ bỏ bữa sáng) nghĩa là luôn ăn sáng đầy đủ.",
+        "s": "Tiếng Anh 5",
+        "h": "Hiểu nghĩa cụm never skips breakfast"
+      },
+      {
+        "c": "TA5-B14-014",
+        "d": "advanced",
+        "p": "Chuyển câu sau sang ngôi thứ ba số ít: \"Do you drink fresh milk every day?\" -> \"... Phong ... fresh milk every day?\"",
+        "o": [
+          "Is ... drinking",
+          "Does ... drink",
+          "Do ... drinks",
+          "Does ... drinks"
+        ],
+        "k": "B",
+        "e": "Hỏi thói quen của Phong dùng \"Does Phong drink...?\" (drink nguyên thể).",
+        "s": "Tiếng Anh 5",
+        "h": "Does + S + V nguyên thể"
+      },
+      {
+        "c": "TA5-B14-015",
+        "d": "advanced",
+        "p": "Hoàn thành lời khuyên sống khỏe mạch lạc nhất: \"To stay healthy, you ... eat more fruit and vegetables, and ... go to bed too late.\"",
+        "o": [
+          "shouldn't ... should",
+          "willn't ... should",
+          "should ... shouldn't",
+          "did ... didn't"
+        ],
+        "k": "C",
+        "e": "Lời khuyên nên làm (\"should\") và không nên làm (\"shouldn't\").",
+        "s": "Tiếng Anh 5",
+        "h": "Dùng cặp should và shouldn't"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh5-c3",
+    "lesson": {
+      "code": "tienganh5-b15",
+      "title": "Unit 15. Our health",
+      "seq": 15,
+      "subtitle": "Hỏi đáp về các vấn đề sức khỏe thường gặp (headache, toothache, sore throat, stomach ache) và đưa ra lời khuyên phù hợp với should và shouldn't",
+      "concepts": [
+        "Các bệnh thường gặp (headache, toothache, sore throat, stomach ache)",
+        "What's the matter? – I have a...",
+        "You should ... / You shouldn't ..."
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA5-B15-001",
+        "d": "basic",
+        "p": "Câu hỏi \"What's the matter?\" (hoặc \"What's the matter with you?\") dùng khi muốn hỏi điều gì?",
+        "o": [
+          "Bạn muốn ăn món gì vào buổi trưa?",
+          "Bạn đã đi du lịch đâu vào mùa hè qua?",
+          "Bạn đang gặp vấn đề gì về sức khỏe thế (bị ốm hay đau ở đâu vậy)?",
+          "Bạn thích môn học nào nhất ở trường?"
+        ],
+        "k": "C",
+        "e": "Khi thấy ai đó mệt mỏi, ta hỏi thăm \"What's the matter?\" (Có chuyện gì vậy / Bạn sao thế?).",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ câu hỏi thăm sức khỏe"
+      },
+      {
+        "c": "TA5-B15-002",
+        "d": "basic",
+        "p": "Bệnh \"a toothache\" nghĩa là đau bộ phận nào?",
+        "o": [
+          "đau họng",
+          "đau răng",
+          "đau đầu",
+          "đau bụng (đau dạ dày)"
+        ],
+        "k": "B",
+        "e": "tooth (răng) + ache (đau nhức) -> toothache (đau răng); headache (đau đầu); stomach ache (đau bụng).",
+        "s": "Tiếng Anh 5",
+        "h": "Ghép tooth + ache"
+      },
+      {
+        "c": "TA5-B15-003",
+        "d": "basic",
+        "p": "Cụm từ \"a sore throat\" chỉ triệu chứng gì?",
+        "o": [
+          "đau lưng sau khi bê nặng",
+          "gãy tay khi ngã xe đạp",
+          "sốt cao kèm ớn lạnh",
+          "đau họng (rát cổ họng)"
+        ],
+        "k": "D",
+        "e": "\"throat\" = cổ họng; \"a sore throat\" = đau họng.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa của sore throat"
+      },
+      {
+        "c": "TA5-B15-004",
+        "d": "basic",
+        "p": "Khi bạn bị đau răng (\"I have a toothache\"), bạn nên đến gặp ai để khám chữa?",
+        "o": [
+          "sing very loudly all day",
+          "drink ice-cold water",
+          "eat lots of sticky candies",
+          "go to the dentist (nha sĩ)"
+        ],
+        "k": "D",
+        "e": "\"dentist\" là bác sĩ nha khoa (nha sĩ) chuyên chữa bệnh răng miệng.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghề dentist"
+      },
+      {
+        "c": "TA5-B15-005",
+        "d": "basic",
+        "p": "Sau động từ khuyết thiếu \"should\" và \"shouldn't\" (nên và không nên), động từ đứng sau luôn ở dạng nào?",
+        "o": [
+          "Động từ nguyên thể không \"to\" (\"You should take a rest.\")",
+          "Động từ thêm \"-ing\"",
+          "Động từ thêm \"-s\"",
+          "Động từ thêm \"-ed\""
+        ],
+        "k": "A",
+        "e": "Giống can và will, \"should + V nguyên thể\" không biến đổi dạng động từ.",
+        "s": "Tiếng Anh 5",
+        "h": "Should + V nguyên thể"
+      },
+      {
+        "c": "TA5-B15-006",
+        "d": "basic",
+        "p": "Quan sát bảng hướng dẫn xử trí sức khỏe thông thường. Khi bị đau họng (sore throat), lời khuyên ĐÚNG là gì?",
+        "o": [
+          "Carry heavy boxes",
+          "Drink warm water and rest your voice",
+          "Eat lots of sweets",
+          "Drink ice-cold cola"
+        ],
+        "k": "B",
+        "e": "Dòng \"Sore throat\" ghi Should: drink warm water và Shouldn't: drink cold water.",
+        "s": "Tiếng Anh 5",
+        "h": "Xem hàng Sore throat trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Health Care Advice",
+          "head": [
+            "Symptom",
+            "Should Do",
+            "Shouldn't Do"
+          ],
+          "rows": [
+            [
+              "Toothache",
+              "go to dentist",
+              "eat many sweets"
+            ],
+            [
+              "Headache",
+              "have a rest",
+              "watch screens long"
+            ],
+            [
+              "Sore throat",
+              "drink warm water",
+              "drink cold water"
+            ],
+            [
+              "Stomach ache",
+              "eat light food",
+              "eat spicy snacks"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA5-B15-007",
+        "d": "application",
+        "p": "Hoàn thành hội thoại: \"A: What's the matter with Nam? – B: He ... a stomach ache.\"",
+        "o": [
+          "is",
+          "having",
+          "have",
+          "has"
+        ],
+        "k": "D",
+        "e": "Chủ ngữ ngôi thứ ba số ít \"He\" dùng \"has\" trong cụm \"has a stomach ache\".",
+        "s": "Tiếng Anh 5",
+        "h": "He + has + tên bệnh"
+      },
+      {
+        "c": "TA5-B15-008",
+        "d": "application",
+        "p": "Tìm lỗi sai trong lời khuyên sau: \"You have a headache. You shouldn't to watch TV for hours.\"",
+        "o": [
+          "Sai từ \"watch\", phải đổi thành \"watching\"",
+          "Sai từ \"have\", phải đổi thành \"has\"",
+          "Sai từ \"headache\", phải bỏ chữ \"a\"",
+          "Thừa từ \"to\" sau \"shouldn't\", phải viết là \"You shouldn't watch TV...\""
+        ],
+        "k": "D",
+        "e": "Sau \"should / shouldn't\" không dùng \"to\".",
+        "s": "Tiếng Anh 5",
+        "h": "Không dùng shouldn't to V"
+      },
+      {
+        "c": "TA5-B15-009",
+        "d": "application",
+        "p": "Chọn lời khuyên ĐÚNG và hợp tình huống khi em gái bị đau đầu (\"a headache\"):",
+        "o": [
+          "You should take a rest in a quiet room.",
+          "You shouldn't drink any water.",
+          "You should read small books in the dark.",
+          "You should play loud music."
+        ],
+        "k": "A",
+        "e": "Bị đau đầu cần nghỉ ngơi ở nơi yên tĩnh (\"take a rest\"), tránh ánh sáng mạnh và tiếng ồn.",
+        "s": "Tiếng Anh 5",
+        "h": "Chọn việc giúp giảm đau đầu"
+      },
+      {
+        "c": "TA5-B15-010",
+        "d": "application",
+        "p": "Điền đúng \"should\" hay \"shouldn't\" vào hai chỗ trống: \"Lan has a toothache. She ... brush her teeth gently and ... eat too many candies.\"",
+        "o": [
+          "should ... should",
+          "shouldn't ... should",
+          "shouldn't ... shouldn't",
+          "should ... shouldn't"
+        ],
+        "k": "D",
+        "e": "Nên đánh răng nhẹ nhàng (should) và không nên ăn nhiều kẹo ngọt (shouldn't).",
+        "s": "Tiếng Anh 5",
+        "h": "Phân biệt việc nên và không nên"
+      },
+      {
+        "c": "TA5-B15-011",
+        "d": "application",
+        "p": "Sắp xếp thành câu hoàn chỉnh: matter / What / with / the / is / Mai / ?",
+        "o": [
+          "With Mai what is the matter?",
+          "Is what the matter with Mai?",
+          "What the matter is with Mai?",
+          "What is the matter with Mai?"
+        ],
+        "k": "D",
+        "e": "Mẫu câu hỏi thăm người khác: What is the matter with + tên người?",
+        "s": "Tiếng Anh 5",
+        "h": "Đảo is lên trước the matter"
+      },
+      {
+        "c": "TA5-B15-012",
+        "d": "application",
+        "p": "Cụm từ \"rinse your mouth with warm salt water\" có ích nhất khi bạn bị vấn đề gì?",
+        "o": [
+          "a broken leg",
+          "a stomach ache from spicy food",
+          "sunburn on your back",
+          "a sore throat or toothache"
+        ],
+        "k": "D",
+        "e": "Súc miệng/họng bằng nước muối ấm giúp dịu cổ họng và sạch răng miệng.",
+        "s": "Tiếng Anh 5",
+        "h": "Hiểu lợi ích nước muối ấm"
+      },
+      {
+        "c": "TA5-B15-013",
+        "d": "advanced",
+        "p": "Đọc đoạn hội thoại: \"Mum: You look pale, Minh. What's the matter? – Minh: Oh, Mum, my stomach hurts! – Mum: Why? Did you eat anything strange? – Minh: I ate three ice creams right after school.\" Minh bị triệu chứng gì và có thể do nguyên nhân nào?",
+        "o": [
+          "He has a toothache because he didn't brush his teeth.",
+          "He has a sore throat because he shouted loudly.",
+          "He has a stomach ache because he ate too many ice creams.",
+          "He has a headache because he studied late."
+        ],
+        "k": "C",
+        "e": "\"my stomach hurts\" = bị đau bụng (stomach ache); ăn liền 3 que kem lạnh dễ gây đau bụng.",
+        "s": "Tiếng Anh 5",
+        "h": "Nối stomach hurts với stomach ache"
+      },
+      {
+        "c": "TA5-B15-014",
+        "d": "advanced",
+        "p": "Cách trả lời nào là lịch sự nhất khi ai đó gửi lời khuyên chăm sóc sức khỏe cho mình (\"You should go to the doctor, Tom.\")?",
+        "o": [
+          "\"You shouldn't talk to me today.\"",
+          "\"Thanks for your advice, I will!\"",
+          "\"No, I never listen to anyone.\"",
+          "\"What's the matter with you?\""
+        ],
+        "k": "B",
+        "e": "Cảm ơn lời khuyên lịch sự (\"Thanks for your advice!\") là ứng xử văn minh.",
+        "s": "Tiếng Anh 5",
+        "h": "Đáp lại lời khuyên lịch sự"
+      },
+      {
+        "c": "TA5-B15-015",
+        "d": "advanced",
+        "p": "Chọn câu viết ĐÚNG hoàn toàn cả mạo từ \"a\" trước tên bệnh lẫn ngữ pháp:",
+        "o": [
+          "Do you have sore throat? – Yes, I am.",
+          "He have a stomach ache, so he shouldn't eats cold food.",
+          "Do you have a sore throat? – Yes, I do. I'll drink some warm honey tea.",
+          "Does she has a headache? – Yes, she does."
+        ],
+        "k": "C",
+        "e": "Tên các bệnh đơn (a headache, a toothache, a sore throat, a stomach ache) luôn có mạo từ \"a\" đứng trước!",
+        "s": "Tiếng Anh 5",
+        "h": "Ghi nhớ: have a + tên bệnh"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh5-c4",
+    "lesson": {
+      "code": "tienganh5-b16",
+      "title": "Unit 16. Seasons and the weather",
+      "seq": 16,
+      "subtitle": "Hỏi đáp đặc điểm thời tiết các mùa trong năm (How's the weather in Ha Noi in spring/summer/autumn/winter?) và trang phục mặc phù hợp theo mùa",
+      "concepts": [
+        "4 mùa (spring, summer, autumn, winter) và tính từ (warm, hot, cool, cold, humid, dry)",
+        "How's the weather in + nơi + in + mùa?",
+        "What do you usually wear in...? – jumper, jeans, blouse, trousers"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA5-B16-001",
+        "d": "basic",
+        "p": "Bốn mùa trong năm theo thứ tự Xuân -> Hạ -> Thu -> Đông tiếng Anh là gì?",
+        "o": [
+          "winter, spring, summer, autumn",
+          "summer, spring, winter, autumn",
+          "autumn, winter, spring, summer",
+          "spring, summer, autumn, winter"
+        ],
+        "k": "D",
+        "e": "Spring (Xuân) -> Summer (Hạ) -> Autumn (Thu) -> Winter (Đông).",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ thứ tự 4 mùa"
+      },
+      {
+        "c": "TA5-B16-002",
+        "d": "basic",
+        "p": "Thời tiết đặc trưng của mùa thu (\"autumn\") thường dễ chịu và mát mẻ, dùng tính từ nào?",
+        "o": [
+          "freezing cold",
+          "hot",
+          "stormy",
+          "cool"
+        ],
+        "k": "D",
+        "e": "4 cặp mùa – nhiệt độ chuẩn: spring–warm, summer–hot, autumn–cool, winter–cold.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ cặp autumn – cool"
+      },
+      {
+        "c": "TA5-B16-003",
+        "d": "basic",
+        "p": "Câu hỏi \"How's the weather in Ha Noi in winter?\" tương đương với cách hỏi nào đã học ở Lớp 4?",
+        "o": [
+          "When's the winter in Ha Noi?",
+          "What's the weather like in Ha Noi in winter?",
+          "Who's in Ha Noi in winter?",
+          "Where's the weather in Ha Noi?"
+        ],
+        "k": "B",
+        "e": "\"How's the weather...?\" và \"What's the weather like...?\" đều hỏi đặc điểm thời tiết.",
+        "s": "Tiếng Anh 5",
+        "h": "Hai mẫu câu hỏi thời tiết đồng nghĩa"
+      },
+      {
+        "c": "TA5-B16-004",
+        "d": "basic",
+        "p": "Món trang phục \"a jumper\" (hoặc sweater) thường được mặc vào mùa nào để giữ ấm?",
+        "o": [
+          "hot summer afternoons",
+          "swimming at the beach",
+          "when it is 38 degrees Celsius",
+          "winter (mùa đông lạnh)"
+        ],
+        "k": "D",
+        "e": "\"jumper\" là áo len dài tay giữ ấm cơ thể vào mùa đông.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa của jumper"
+      },
+      {
+        "c": "TA5-B16-005",
+        "d": "basic",
+        "p": "Điền giới từ đứng trước tên MÙA trong năm: \"It's usually very hot ... summer.\"",
+        "o": [
+          "between",
+          "in",
+          "on",
+          "at"
+        ],
+        "k": "B",
+        "e": "Trước tên các mùa (in spring, in summer, in autumn, in winter) luôn dùng giới từ \"in\".",
+        "s": "Tiếng Anh 5",
+        "h": "Giới từ đi với mùa là in"
+      },
+      {
+        "c": "TA5-B16-006",
+        "d": "basic",
+        "p": "Quan sát bảng 4 mùa ở Hà Nội. Mùa Xuân (Spring) ở Hà Nội có đặc điểm thời tiết và trang phục gợi ý gì?",
+        "o": [
+          "Hot and sunny, wearing shorts and T-shirt",
+          "Warm and damp, wearing a light jacket or blouse",
+          "Cool and dry, wearing jeans and a scarf",
+          "Cold and windy, wearing a thick coat"
+        ],
+        "k": "B",
+        "e": "Hàng \"Spring\" trên bảng ghi Weather: warm and damp và Clothing: light jacket.",
+        "s": "Tiếng Anh 5",
+        "h": "Xem hàng Spring trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Ha Noi Four Seasons",
+          "head": [
+            "Season",
+            "Weather",
+            "Clothing"
+          ],
+          "rows": [
+            [
+              "Spring",
+              "warm and damp",
+              "light jacket"
+            ],
+            [
+              "Summer",
+              "hot and sunny",
+              "T-shirt, shorts"
+            ],
+            [
+              "Autumn",
+              "cool and breezy",
+              "blouse, jeans"
+            ],
+            [
+              "Winter",
+              "cold and dry",
+              "jumper, coat"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA5-B16-007",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"What do you usually wears in autumn?\"",
+        "o": [
+          "Sai từ \"in\", phải đổi thành \"on\"",
+          "Sai từ \"wears\", phải dùng nguyên thể \"wear\" vì đã có trợ động từ \"do\" với chủ ngữ \"you\"",
+          "Sai từ \"autumn\", phải đổi thành \"autumns\"",
+          "Sai từ \"usually\", phải đặt ở cuối câu"
+        ],
+        "k": "B",
+        "e": "Câu hỏi có \"do / does\" luôn giữ động từ chính ở dạng nguyên thể (\"wear\").",
+        "s": "Tiếng Anh 5",
+        "h": "Kiểm tra do you + V nguyên thể"
+      },
+      {
+        "c": "TA5-B16-008",
+        "d": "application",
+        "p": "Từ \"trousers\" hoặc \"jeans\" (quần dài) khi chia động từ to be đi kèm phải dùng dạng nào?",
+        "o": [
+          "Dạng số ít (\"This trousers is blue.\")",
+          "Không bao giờ dùng được với động từ to be",
+          "Dùng mạo từ \"a\" đứng trước (\"a trousers\")",
+          "Dạng số nhiều (\"These trousers are blue.\")"
+        ],
+        "k": "D",
+        "e": "Quần dài gồm hai ống (\"trousers\", \"jeans\", \"shorts\") luôn là danh từ số nhiều -> dùng \"are / these / those\", không dùng \"a\".",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ trousers/jeans luôn là số nhiều"
+      },
+      {
+        "c": "TA5-B16-009",
+        "d": "application",
+        "p": "Hoàn thành câu miêu tả hai miền khí hậu Việt Nam: \"In Ha Noi, there are four seasons, ... in Ho Chi Minh City, there are only two main seasons: the dry season and the rainy season.\"",
+        "o": [
+          "but (hoặc while)",
+          "or",
+          "so",
+          "because"
+        ],
+        "k": "A",
+        "e": "So sánh sự khác biệt 4 mùa ở miền Bắc với 2 mùa ở miền Nam dùng liên từ đối chiếu \"but\".",
+        "s": "Tiếng Anh 5",
+        "h": "Nối hai vế đối chiếu"
+      },
+      {
+        "c": "TA5-B16-010",
+        "d": "application",
+        "p": "Sắp xếp thành câu hỏi hoàn chỉnh: weather / How / in / the / is / spring / Da Lat / in / ?",
+        "o": [
+          "In Da Lat how is in spring the weather?",
+          "How is the weather in Da Lat in spring?",
+          "How the weather is in spring in Da Lat?",
+          "How is weather the in Da Lat spring?"
+        ],
+        "k": "B",
+        "e": "Trật tự chuẩn: How + is + the weather + nơi chốn (in Da Lat) + mùa (in spring)?",
+        "s": "Tiếng Anh 5",
+        "h": "Nơi chốn thường đứng trước thời gian"
+      },
+      {
+        "c": "TA5-B16-011",
+        "d": "application",
+        "p": "Từ nào là tên một trang phục thường mặc của bạn nữ (\"áo kiểu sơ mi nhẹ\") trong SGK Lớp 5?",
+        "o": [
+          "coat",
+          "blouse",
+          "scarf",
+          "raincoat"
+        ],
+        "k": "B",
+        "e": "\"blouse\" = áo sơ mi kiểu nữ; \"coat\" = áo khoác; \"scarf\" = khăn quàng cổ.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ từ vựng blouse"
+      },
+      {
+        "c": "TA5-B16-012",
+        "d": "application",
+        "p": "Chọn câu trả lời khớp hoàn hảo với câu hỏi: \"What do you usually wear in winter?\"",
+        "o": [
+          "I usually wear a warm jumper, long trousers and a thick coat.",
+          "It is cold and windy in winter.",
+          "Yes, I have three jumpers in my wardrobe.",
+          "I usually eat hot soup and drink warm tea."
+        ],
+        "k": "A",
+        "e": "Hỏi \"What do you... wear?\" (Mặc gì?) -> liệt kê các món quần áo giữ ấm phù hợp mùa đông.",
+        "s": "Tiếng Anh 5",
+        "h": "Trả lời đúng trọng tâm trang phục"
+      },
+      {
+        "c": "TA5-B16-013",
+        "d": "advanced",
+        "p": "Đọc đoạn ngắn: \"In autumn, the weather in Ha Noi is cool and dry with bright golden sunshine. The sky is high and blue. People often go for walks around Hoan Kiem Lake wearing light blouses or thin sweaters.\" Thời tiết mùa thu Hà Nội KHÔNG có đặc điểm nào?",
+        "o": [
+          "It is freezing cold with heavy snow.",
+          "The sky is high and blue.",
+          "There is bright golden sunshine.",
+          "It is cool and dry."
+        ],
+        "k": "A",
+        "e": "Hà Nội vào thu mát mẻ, khô ráo và nắng vàng, hoàn toàn không có tuyết rơi rét buốt.",
+        "s": "Tiếng Anh 5",
+        "h": "Tìm chi tiết sai thực tế lẫn đoạn đọc"
+      },
+      {
+        "c": "TA5-B16-014",
+        "d": "advanced",
+        "p": "Từ \"autumn\" trong tiếng Anh Anh còn có tên gọi đồng nghĩa phổ biến nào khác trong tiếng Anh Mĩ?",
+        "o": [
+          "dry",
+          "breeze",
+          "fall",
+          "spring"
+        ],
+        "k": "C",
+        "e": "Cả \"autumn\" và \"fall\" đều chỉ mùa Thu (mùa lá rụng).",
+        "s": "Tiếng Anh 5",
+        "h": "Biết từ đồng nghĩa của autumn"
+      },
+      {
+        "c": "TA5-B16-015",
+        "d": "advanced",
+        "p": "Hoàn thành đoạn hội thoại chuẩn ngữ pháp: \"A: How's the weather in your hometown today? – B: ... warm and sunny, so I ... wearing a T-shirt.\"",
+        "o": [
+          "It's ... am",
+          "It's ... are",
+          "They're ... is",
+          "There's ... do"
+        ],
+        "k": "A",
+        "e": "Nói về thời tiết dùng chủ ngữ giả \"It's\"; \"I am wearing\" là hiện tại tiếp diễn tả bộ đồ đang mặc hôm nay.",
+        "s": "Tiếng Anh 5",
+        "h": "Khớp It's và I am wearing"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh5-c4",
+    "lesson": {
+      "code": "tienganh5-b17",
+      "title": "Unit 17. Stories for children",
+      "seq": 17,
+      "subtitle": "Kể tên các nhân vật truyện thiếu nhi nổi tiếng (Snow White, the Tortoise and the Hare, the Ant and the Grasshopper, the Crow and the Fox) và dùng trạng từ miêu tả hành động của nhân vật",
+      "concepts": [
+        "Nhân vật truyện (Snow White, tortoise, hare, ant, grasshopper, fox, crow)",
+        "Who are the main characters in the story?",
+        "How did he or she do it? – fast, hard, well, slowly, loudly"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA5-B17-001",
+        "d": "basic",
+        "p": "Câu chuyện ngụ ngôn \"The Tortoise and the Hare\" kể về cuộc đua giữa hai con vật nào?",
+        "o": [
+          "Con Rùa và con Thỏ",
+          "Con Kiến và con Châu Chấu",
+          "Con Quạ và con Cáo",
+          "Con Chuột đồng và con Mèo rừng"
+        ],
+        "k": "A",
+        "e": "\"tortoise\" = rùa cạn; \"hare\" = thỏ rừng.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ tên nhân vật Rùa và Thỏ"
+      },
+      {
+        "c": "TA5-B17-002",
+        "d": "basic",
+        "p": "Câu hỏi \"Who are the main characters in the story?\" dùng để hỏi điều gì?",
+        "o": [
+          "Tác giả viết câu chuyện năm nào",
+          "Quyển truyện dày bao nhiêu trang",
+          "Câu chuyện diễn ra vào mùa nào trong năm",
+          "Những nhân vật chính trong câu chuyện là ai"
+        ],
+        "k": "D",
+        "e": "\"main characters\" = các nhân vật chính.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ cụm main characters"
+      },
+      {
+        "c": "TA5-B17-003",
+        "d": "basic",
+        "p": "Trong truyện \"The Ant and the Grasshopper\", chú Kiến làm việc chăm chỉ suốt mùa hè được miêu tả bằng trạng từ nào?",
+        "o": [
+          "badly",
+          "hard (\"The ant worked hard.\")",
+          "slowly",
+          "lazily (\"The ant worked lazily.\")"
+        ],
+        "k": "B",
+        "e": "\"hard\" (vừa là tính từ vừa là trạng từ) nghĩa là chăm chỉ, vất vả -> \"worked hard\" (KHÔNG viết hardly vì hardly nghĩa là hầu như không!).",
+        "s": "Tiếng Anh 5",
+        "h": "Cẩn thận: chăm chỉ là hard, không phải hardly"
+      },
+      {
+        "c": "TA5-B17-004",
+        "d": "basic",
+        "p": "Nhân vật nàng công chúa tốt bụng trong truyện \"Snow White and the Seven Dwarfs\" tiếng Việt là ai?",
+        "o": [
+          "Nàng Tiên Cá",
+          "Nàng Bạch Tuyết",
+          "Cô bé quàng khăn đỏ",
+          "Cô bé Lọ Lem"
+        ],
+        "k": "B",
+        "e": "\"Snow White\" = Bạch Tuyết; \"Seven Dwarfs\" = bảy chú lùn.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ tên truyện kinh điển"
+      },
+      {
+        "c": "TA5-B17-005",
+        "d": "basic",
+        "p": "Dạng TRẠNG TỪ (adverb) của tính từ \"good\" (giỏi, tốt) là từ bất quy tắc nào?",
+        "o": [
+          "bestest",
+          "goodly",
+          "goodness",
+          "well (\"She sang very well.\")"
+        ],
+        "k": "D",
+        "e": "Tính từ \"good\" đổi sang trạng từ bổ nghĩa cho động từ thường thành \"well\" (\"cook well\", \"sing well\").",
+        "s": "Tiếng Anh 5",
+        "h": "Ghi nhớ: good -> well"
+      },
+      {
+        "c": "TA5-B17-006",
+        "d": "basic",
+        "p": "Quan sát bảng tổng hợp 4 truyện thiếu nhi quen thuộc. Trong truyện \"The Fox and the Crow\", chú Quạ được khen hát thế nào để Cáo lừa lấy miếng pho mát?",
+        "o": [
+          "Beautifully / Well (hát hay)",
+          "Quietly (hát thật nhỏ)",
+          "Hard (chăm chỉ)",
+          "Slowly (chậm chạp)"
+        ],
+        "k": "A",
+        "e": "Cáo nịnh Quạ có giọng hát hay (\"sing beautifully/well\") để Quạ mở mỏ làm rơi pho mát.",
+        "s": "Tiếng Anh 5",
+        "h": "Xem hàng Fox and Crow trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Classic Children Stories",
+          "head": [
+            "Story",
+            "Main Characters",
+            "Key Lesson"
+          ],
+          "rows": [
+            [
+              "Snow White",
+              "Princess, 7 Dwarfs",
+              "Be kind and pure"
+            ],
+            [
+              "Tortoise & Hare",
+              "Tortoise, Hare",
+              "Keep trying steadily"
+            ],
+            [
+              "Ant & Grasshopper",
+              "Ant, Grasshopper",
+              "Work hard ahead"
+            ],
+            [
+              "Fox & Crow",
+              "Fox, Crow",
+              "Avoid vain flattery"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA5-B17-007",
+        "d": "application",
+        "p": "Chọn câu sử dụng ĐÚNG trạng từ miêu tả cách thức sau động từ thường:",
+        "o": [
+          "The tortoise walked slow, but it won the race.",
+          "The hare ran very fastly at the beginning.",
+          "The tortoise walked slowly, but it won the race.",
+          "Snow White treated the dwarfs kindly and goodly."
+        ],
+        "k": "C",
+        "e": "\"slowly\" đúng sau động từ \"walked\"; KHÔNG viết \"fastly\" hoặc \"goodly\".",
+        "s": "Tiếng Anh 5",
+        "h": "Tránh lỗi fastly và goodly"
+      },
+      {
+        "c": "TA5-B17-008",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"The ant worked hardly all summer to store food for winter.\"",
+        "o": [
+          "Sai từ \"hardly\" (nghĩa là hầu như không), phải sửa thành \"hard\" (chăm chỉ, cần cù)",
+          "Sai từ \"worked\", phải bỏ đuôi \"-ed\"",
+          "Sai từ \"ant\", phải viết là \"ants\"",
+          "Sai từ \"summer\", phải đổi thành \"winter\""
+        ],
+        "k": "A",
+        "e": "Bẫy kinh điển tiếng Anh: trạng từ của chăm chỉ là \"hard\" (worked hard), còn \"hardly\" mang nghĩa phủ định \"hầu như không\".",
+        "s": "Tiếng Anh 5",
+        "h": "Phân biệt hard và hardly"
+      },
+      {
+        "c": "TA5-B17-009",
+        "d": "application",
+        "p": "Hoàn thành câu hỏi về hành động trong truyện quá khứ: \"How ... the tortoise run?\" – \"It walked slowly and steadily.\"",
+        "o": [
+          "did",
+          "does",
+          "is",
+          "was"
+        ],
+        "k": "A",
+        "e": "Kể lại câu chuyện đã đọc dùng quá khứ đơn với trợ động từ \"did\" + động từ chính \"run\" nguyên thể.",
+        "s": "Tiếng Anh 5",
+        "h": "Dùng did kể chuyện quá khứ"
+      },
+      {
+        "c": "TA5-B17-010",
+        "d": "application",
+        "p": "Sắp xếp thành câu hoàn chỉnh: sang / The / beautifully / nightingale / sweet / very / . (sửa lỗi nếu cần chọn câu ĐÚNG)",
+        "o": [
+          "The nightingale sang very beautiful.",
+          "The nightingale sang very beautifully.",
+          "The nightingale sing very beautifully.",
+          "Sang very beautifully the nightingale."
+        ],
+        "k": "B",
+        "e": "\"sang\" là động từ quá khứ của \"sing\", bổ nghĩa bằng trạng từ \"beautifully\".",
+        "s": "Tiếng Anh 5",
+        "h": "Động từ quá khứ sang + trạng từ beautifully"
+      },
+      {
+        "c": "TA5-B17-011",
+        "d": "application",
+        "p": "Từ nào sau đây đóng vai trò TRẠNG TỪ đúng quy tắc thêm \"-ly\" từ tính từ?",
+        "o": [
+          "fastly, well-ly, hard-ly",
+          "loudly, quickly, carefully",
+          "slow, quick, careful",
+          "sing, dance, work"
+        ],
+        "k": "B",
+        "e": "Tính từ thêm \"-ly\": loud -> loudly, quick -> quickly, careful -> carefully.",
+        "s": "Tiếng Anh 5",
+        "h": "Chọn nhóm có đuôi -ly chuẩn"
+      },
+      {
+        "c": "TA5-B17-012",
+        "d": "application",
+        "p": "Bài học đạo đức cốt lõi nhất từ câu chuyện \"The Ant and the Grasshopper\" (Kiến và Châu Chấu) là gì?",
+        "o": [
+          "Never share your food with any animals.",
+          "Running fast is better than being careful.",
+          "Sleep all summer and sing in the snow.",
+          "Always work hard and prepare for the future instead of playing all the time."
+        ],
+        "k": "D",
+        "e": "Kiến chăm chỉ tích trữ lương thực mùa hè nên ấm no mùa đông; Châu Chấu mải chơi sẽ thiếu đói.",
+        "s": "Tiếng Anh 5",
+        "h": "Rút ra thông điệp ngụ ngôn"
+      },
+      {
+        "c": "TA5-B17-013",
+        "d": "advanced",
+        "p": "Đọc đoạn tóm tắt: \"Once upon a time, there was a hare and a tortoise. The hare ran fast, but he was too proud and slept under a tree. The tortoise never stopped; he walked slowly step by step and crossed the finish line first.\" Vì sao Thỏ thua cuộc dù chạy rất nhanh?",
+        "o": [
+          "Because he hurt his leg before the race started.",
+          "Because he was too proud and slept during the race.",
+          "Because the race was only for water animals.",
+          "Because the tortoise pushed him off the road."
+        ],
+        "k": "B",
+        "e": "Thỏ kiêu ngạo, chủ quan ngủ giữa đường nên bị Rùa vượt qua.",
+        "s": "Tiếng Anh 5",
+        "h": "Đọc nguyên nhân thất bại của Thỏ"
+      },
+      {
+        "c": "TA5-B17-014",
+        "d": "advanced",
+        "p": "Phân biệt hai câu đúng hay sai về từ loại: Câu (1) \"Mai is a good storyteller.\" và Câu (2) \"Mai tells stories well.\" Cả hai câu có đúng không?",
+        "o": [
+          "Cả hai câu đều ĐÚNG: câu (1) dùng tính từ \"good\" trước danh từ \"storyteller\"; câu (2) dùng trạng từ \"well\" sau động từ \"tells\"",
+          "Cả hai câu đều sai vì thiếu trạng từ \"fastly\"",
+          "Chỉ câu (1) đúng, câu (2) phải sửa \"well\" thành \"good\"",
+          "Chỉ câu (2) đúng, câu (1) phải sửa \"good\" thành \"well\""
+        ],
+        "k": "A",
+        "e": "Tính từ đứng trước danh từ bổ nghĩa cho danh từ; trạng từ đứng sau động từ bổ nghĩa cho hành động.",
+        "s": "Tiếng Anh 5",
+        "h": "Nắm chắc vai trò tính từ vs trạng từ"
+      },
+      {
+        "c": "TA5-B17-015",
+        "d": "advanced",
+        "p": "Hoàn thành câu kể chuyện với cặp động từ quá khứ chuẩn: \"Long ago, a hungry fox ... a crow sitting in a tree with cheese in its beak, so the fox ... kindly to trick it.\"",
+        "o": [
+          "see ... speak",
+          "saw ... spoke",
+          "seed ... spoke",
+          "saw ... speaked"
+        ],
+        "k": "B",
+        "e": "Quá khứ bất quy tắc: see -> saw; speak -> spoke.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ dạng quá khứ saw và spoke"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh5-c4",
+    "lesson": {
+      "code": "tienganh5-b18",
+      "title": "Unit 18. Means of transport",
+      "seq": 18,
+      "subtitle": "Hỏi đáp địa điểm muốn tham quan trong thành phố (Dragon Bridge, Ho Chi Minh City Museum, Ngo Mon Square) và hỏi phương tiện di chuyển (How can I get to...? – by bus, by taxi, by bicycle, on foot)",
+      "concepts": [
+        "Địa điểm tham quan nổi tiếng (Dragon Bridge, Ho Chi Minh City Museum, Ngo Mon Square)",
+        "Where do you want to visit? – I want to visit...",
+        "Phương tiện đi lại (by bus, by bicycle, by taxi, on foot)"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA5-B18-001",
+        "d": "basic",
+        "p": "Địa danh nổi tiếng \"Dragon Bridge\" (Cầu Rồng) nằm ở thành phố nào của Việt Nam?",
+        "o": [
+          "Ha Noi Capital",
+          "Sa Pa Town",
+          "Can Tho City",
+          "Da Nang City (Thành phố Đà Nẵng)"
+        ],
+        "k": "D",
+        "e": "Cầu Rồng (Dragon Bridge) là biểu tượng nổi tiếng bắc qua sông Hàn ở Đà Nẵng.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ địa danh Cầu Rồng Đà Nẵng"
+      },
+      {
+        "c": "TA5-B18-002",
+        "d": "basic",
+        "p": "Điền giới từ đứng trước phương tiện giao thông (\"đi bằng xe buýt\"): \"You can get there ... bus.\"",
+        "o": [
+          "with",
+          "on",
+          "in",
+          "by"
+        ],
+        "k": "D",
+        "e": "Cụm cố định: by bus, by taxi, by train, by plane, by bicycle.",
+        "s": "Tiếng Anh 5",
+        "h": "Phương tiện dùng giới từ by"
+      },
+      {
+        "c": "TA5-B18-003",
+        "d": "basic",
+        "p": "Khi KHÔNG đi xe mà đi bộ tới địa điểm gần, cụm giới từ chuẩn phải dùng là gì?",
+        "o": [
+          "in foot",
+          "on foot (KHÔNG dùng by foot)",
+          "at feet",
+          "by foot"
+        ],
+        "k": "B",
+        "e": "Ngoại lệ cực kì quan trọng: đi bộ là \"on foot\" (hoặc động từ \"walk\").",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ ngoại lệ on foot"
+      },
+      {
+        "c": "TA5-B18-004",
+        "d": "basic",
+        "p": "Di tích \"Ngo Mon Square\" (Quảng trường Ngọ Môn) gắn với cố đô nào?",
+        "o": [
+          "Da Lat",
+          "Hai Phong",
+          "Phu Quoc",
+          "Hue (Thành phố Huế)"
+        ],
+        "k": "D",
+        "e": "Ngọ Môn là cổng chính phía nam của Hoàng thành Huế.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ Ngọ Môn ở Huế"
+      },
+      {
+        "c": "TA5-B18-005",
+        "d": "basic",
+        "p": "Câu hỏi \"How can I get to Hoan Kiem Lake?\" hỏi về điều gì?",
+        "o": [
+          "Hồ Hoàn Kiếm mở cửa vào tháng mấy",
+          "Hồ Hoàn Kiếm rộng bao nhiêu mét vuông",
+          "Làm thế nào (bằng phương tiện gì hay lối nào) tôi có thể đi tới Hồ Hoàn Kiếm",
+          "Ai là người xây Tháp Rùa trên hồ"
+        ],
+        "k": "C",
+        "e": "\"How can I get to...?\" hỏi cách thức/phương tiện di chuyển đến nơi nào.",
+        "s": "Tiếng Anh 5",
+        "h": "Hiểu câu hỏi How can I get to...?"
+      },
+      {
+        "c": "TA5-B18-006",
+        "d": "basic",
+        "p": "Quan sát bảng hướng dẫn phương tiện tham quan của khách du lịch. Để đến Tháp Chăm (Po Nagar Towers) ở xa, gợi ý dùng phương tiện nào?",
+        "o": [
+          "By skateboard",
+          "On foot (đi bộ)",
+          "By taxi (hoặc by bus)",
+          "By boat"
+        ],
+        "k": "C",
+        "e": "Dòng \"Po Nagar Towers\" trên bảng ghi Transport: by taxi.",
+        "s": "Tiếng Anh 5",
+        "h": "Xem hàng Po Nagar Towers trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "City Sightseeing Guide",
+          "head": [
+            "Place",
+            "Distance",
+            "Best Transport"
+          ],
+          "rows": [
+            [
+              "City Museum",
+              "500 m",
+              "on foot"
+            ],
+            [
+              "Dragon Bridge",
+              "2 km",
+              "by bicycle"
+            ],
+            [
+              "Ngo Mon Square",
+              "6 km",
+              "by bus"
+            ],
+            [
+              "Po Nagar Towers",
+              "10 km",
+              "by taxi"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA5-B18-007",
+        "d": "application",
+        "p": "Hoàn thành câu: \"Where do you want to visit this Sunday?\" – \"I want ... Ho Chi Minh City Museum.\"",
+        "o": [
+          "visit",
+          "visiting",
+          "to visit",
+          "visited"
+        ],
+        "k": "C",
+        "e": "Sau động từ \"want\" luôn dùng \"to + V nguyên thể\" -> \"want to visit\".",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ want + to V"
+      },
+      {
+        "c": "TA5-B18-008",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"My house is near the school, so I go to school by foot every morning.\"",
+        "o": [
+          "Sai từ \"near\", phải thêm \"to\"",
+          "Sai cụm \"by foot\", phải sửa thành \"on foot\" (hoặc thay bằng động từ \"walk to school\")",
+          "Sai từ \"every\", phải đổi thành \"last\"",
+          "Sai từ \"is\", phải đổi thành \"are\""
+        ],
+        "k": "B",
+        "e": "Không bao giờ dùng \"by foot\"; luôn nói \"on foot\" hoặc \"walk\".",
+        "s": "Tiếng Anh 5",
+        "h": "Sửa by foot thành on foot"
+      },
+      {
+        "c": "TA5-B18-009",
+        "d": "application",
+        "p": "Sắp xếp thành câu hoàn chỉnh: get / can / the / I / How / to / Opera / House / ?",
+        "o": [
+          "How I can get to the Opera House?",
+          "How can get I to the Opera House?",
+          "How can I get to the Opera House?",
+          "Can how I get to the Opera House?"
+        ],
+        "k": "C",
+        "e": "Câu hỏi với động từ khuyết thiếu \"can\": How + can + I + get to + địa điểm?",
+        "s": "Tiếng Anh 5",
+        "h": "Đảo can lên trước I"
+      },
+      {
+        "c": "TA5-B18-010",
+        "d": "application",
+        "p": "Chọn câu hỏi và câu trả lời khớp nhau về phương tiện di chuyển:",
+        "o": [
+          "A: Where can we get to Thong Nhat Park? – B: By bicycle.",
+          "A: How can we get to the museum? – B: Yes, I want to visit it.",
+          "A: What can we get to Dragon Bridge? – B: In 20 minutes.",
+          "A: How can we get to Thong Nhat Park? – B: You can get there by bus number 32."
+        ],
+        "k": "D",
+        "e": "Hỏi \"How can we get to...?\" trả lời bằng phương tiện \"by bus...\".",
+        "s": "Tiếng Anh 5",
+        "h": "Khớp câu hỏi How với phương tiện"
+      },
+      {
+        "c": "TA5-B18-011",
+        "d": "application",
+        "p": "Phương tiện nào phù hợp nhất với thông điệp bảo vệ môi trường (không khói bụi) khi di chuyển quãng đường ngắn 2 km trong thành phố?",
+        "o": [
+          "by old diesel truck",
+          "by private helicopter",
+          "by motorbike",
+          "by bicycle (hoặc on foot)"
+        ],
+        "k": "D",
+        "e": "Đi xe đạp (by bicycle) hoặc đi bộ (on foot) không thải khí CO2 gây ô nhiễm.",
+        "s": "Tiếng Anh 5",
+        "h": "Chọn phương tiện xanh"
+      },
+      {
+        "c": "TA5-B18-012",
+        "d": "application",
+        "p": "Hoàn thành hai câu với dạng động từ đúng: \"Does Hoa want ... Dragon Bridge?\" – \"Yes, she ... . She wants to see it breathe fire.\"",
+        "o": [
+          "visit ... do",
+          "visiting ... is",
+          "to visit ... wants",
+          "to visit ... does"
+        ],
+        "k": "D",
+        "e": "Sau \"want\" có \"to visit\"; trả lời câu hỏi \"Does Hoa...?\" dùng \"Yes, she does.\"",
+        "s": "Tiếng Anh 5",
+        "h": "Khớp Does và want to V"
+      },
+      {
+        "c": "TA5-B18-013",
+        "d": "advanced",
+        "p": "Đọc đoạn ngắn: \"Tom is visiting Ha Noi for two days. His hotel is right next to Hoan Kiem Lake, so he walks around the lake on foot. In the afternoon, he takes a green electric bus to visit the Temple of Literature.\" Vì sao Tom đi bộ quanh hồ nhưng lại đi xe buýt tới Văn Miếu?",
+        "o": [
+          "Because he doesn't know how to ride a bicycle.",
+          "Because the electric bus only runs inside his hotel room.",
+          "Because walking on foot around the lake is not allowed.",
+          "Because the lake is right next to his hotel, while the Temple of Literature is farther away."
+        ],
+        "k": "D",
+        "e": "Khách sạn ngay sát hồ (\"right next to\") nên đi bộ tiện lợi; đi xa hơn thì chọn xe buýt điện.",
+        "s": "Tiếng Anh 5",
+        "h": "So sánh khoảng cách hai nơi"
+      },
+      {
+        "c": "TA5-B18-014",
+        "d": "advanced",
+        "p": "Trong hai cụm \"by bus\" và \"on the bus\", khi nào dùng \"by bus\" còn khi nào dùng \"on the bus\"?",
+        "o": [
+          "Cả hai cụm giống hệt nhau, đổi cho nhau mọi lúc được",
+          "\"on bus\" không có \"the\" mới là cách dùng chuẩn",
+          "\"by bus\" nói chung phương tiện di chuyển (không có \"the\"); \"on the bus\" chỉ vị trí đang ngồi trên một chuyến xe buýt cụ thể",
+          "\"by the bus\" luôn bắt buộc phải có chữ \"the\" ở giữa"
+        ],
+        "k": "C",
+        "e": "Quy tắc mạo từ: sau \"by + phương tiện\" không có a, an hay the (by bus, by car); có a hoặc the thì dùng in/on.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ không có \"the\" sau by"
+      },
+      {
+        "c": "TA5-B18-015",
+        "d": "advanced",
+        "p": "Chọn câu hoàn chỉnh ĐÚNG ngữ pháp giới thiệu hành trình tham quan:",
+        "o": [
+          "We want to visit Ben Thanh Market first, and we can get there by taxi in ten minutes.",
+          "We want to visits Ben Thanh Market, and go there by foot.",
+          "We want visiting Ben Thanh Market first, and we can get there by a taxi.",
+          "We wants to visit Ben Thanh Market, and get there on taxi."
+        ],
+        "k": "A",
+        "e": "want + to visit; by taxi (không có \"a\"); không nói \"on taxi\" hay \"by foot\".",
+        "s": "Tiếng Anh 5",
+        "h": "Soát want to và by taxi"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh5-c4",
+    "lesson": {
+      "code": "tienganh5-b19",
+      "title": "Unit 19. Places of interest",
+      "seq": 19,
+      "subtitle": "Bày tỏ ý kiến cảm nhận về các thắng cảnh Việt Nam (Ban Gioc Waterfall, Hoi An Old Town, Ba Be Lake) và hỏi khoảng cách giữa hai địa điểm (How far is it from... to...?)",
+      "concepts": [
+        "Thắng cảnh (Ban Gioc Waterfall, Hoi An Old Town, Ba Be Lake, Golden Bridge)",
+        "What do you think of...? – I think it's peaceful/exciting/fantastic",
+        "How far is it from... to...? – It's about ... kilometres"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA5-B19-001",
+        "d": "basic",
+        "p": "Câu hỏi \"What do you think of Hoi An Old Town?\" dùng để hỏi điều gì?",
+        "o": [
+          "Phố cổ Hội An nằm ở tỉnh nào",
+          "Bạn đến Phố cổ Hội An bằng phương tiện gì",
+          "Khi nào bạn sẽ rời Phố cổ Hội An",
+          "Bạn nghĩ gì (cảm nhận thế nào) về Phố cổ Hội An"
+        ],
+        "k": "D",
+        "e": "\"What do you think of + địa điểm?\" hỏi cảm nhận, đánh giá cá nhân.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ mẫu câu What do you think of...?"
+      },
+      {
+        "c": "TA5-B19-002",
+        "d": "basic",
+        "p": "Tính từ \"peaceful\" khi miêu tả một ngôi làng cổ hay mặt hồ êm ả có nghĩa là gì?",
+        "o": [
+          "ồn ào, náo nhiệt",
+          "yên bình, thanh tĩnh",
+          "đông đúc, chật chội",
+          "cũ nát, nguy hiểm"
+        ],
+        "k": "B",
+        "e": "\"peaceful\" = thanh bình, yên ả; \"exciting\" = thú vị, sôi động; \"fantastic\" = tuyệt vời.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa của peaceful"
+      },
+      {
+        "c": "TA5-B19-003",
+        "d": "basic",
+        "p": "Câu hỏi khoảng cách địa lí giữa hai nơi luôn bắt đầu bằng cụm từ hỏi nào?",
+        "o": [
+          "How far (\"How far is it from Ha Noi to Ninh Binh?\")",
+          "How long",
+          "How heavy",
+          "How often"
+        ],
+        "k": "A",
+        "e": "\"How far is it from A to B?\" hỏi khoảng cách bao nhiêu ki-lô-mét.",
+        "s": "Tiếng Anh 5",
+        "h": "Hỏi khoảng cách dùng How far"
+      },
+      {
+        "c": "TA5-B19-004",
+        "d": "basic",
+        "p": "Thắng cảnh \"Ban Gioc Waterfall\" là kì quan thiên nhiên nổi tiếng ở tỉnh nào?",
+        "o": [
+          "Cao Bằng (Thác Bản Giốc)",
+          "Quảng Nam",
+          "Khánh Hòa",
+          "Kiên Giang"
+        ],
+        "k": "A",
+        "e": "Thác Bản Giốc (Ban Gioc Waterfall) nằm ở huyện Trùng Khánh, tỉnh Cao Bằng.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ địa danh Thác Bản Giốc"
+      },
+      {
+        "c": "TA5-B19-005",
+        "d": "basic",
+        "p": "Điền cặp giới từ trong câu hỏi khoảng cách: \"How far is it ... Ho Chi Minh City ... Vung Tau?\"",
+        "o": [
+          "at ... to",
+          "between ... for",
+          "from ... to",
+          "in ... on"
+        ],
+        "k": "C",
+        "e": "Cấu trúc cố định: \"from + điểm đầu + to + điểm cuối\".",
+        "s": "Tiếng Anh 5",
+        "h": "Cặp giới từ from ... to"
+      },
+      {
+        "c": "TA5-B19-006",
+        "d": "basic",
+        "p": "Quan sát bảng thông tin các thắng cảnh Việt Nam. Khoảng cách từ Hà Nội đến Vịnh Hạ Long (Ha Long Bay) theo bảng là bao nhiêu?",
+        "o": [
+          "About 100 kilometres",
+          "About 160 kilometres",
+          "About 330 kilometres",
+          "About 230 kilometres"
+        ],
+        "k": "B",
+        "e": "Hàng \"Ha Long Bay\" ghi Distance from Ha Noi: 160 km.",
+        "s": "Tiếng Anh 5",
+        "h": "Xem khoảng cách Ha Long Bay trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Viet Nam Attractions",
+          "head": [
+            "Place",
+            "Impression",
+            "From Ha Noi"
+          ],
+          "rows": [
+            [
+              "Ba Be Lake",
+              "peaceful",
+              "230 km"
+            ],
+            [
+              "Ha Long Bay",
+              "fantastic",
+              "160 km"
+            ],
+            [
+              "Ban Gioc Falls",
+              "amazing",
+              "330 km"
+            ],
+            [
+              "Ninh Binh",
+              "quiet & green",
+              "100 km"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA5-B19-007",
+        "d": "application",
+        "p": "Hoàn thành câu trả lời: \"What do you think of Ba Na Hills?\" – \"I ... it's very exciting.\"",
+        "o": [
+          "thoughtful",
+          "thinks",
+          "thinking",
+          "think"
+        ],
+        "k": "D",
+        "e": "Chủ ngữ \"I\" chia hiện tại đơn \"think\" -> \"I think it's + tính từ.\"",
+        "s": "Tiếng Anh 5",
+        "h": "I + think + it's..."
+      },
+      {
+        "c": "TA5-B19-008",
+        "d": "application",
+        "p": "Chọn đáp án viết ĐÚNG đơn vị đo khoảng cách khi lớn hơn 1 ki-lô-mét: \"It's about 30 ... .\"",
+        "o": [
+          "kilometre",
+          "litres",
+          "kilometres",
+          "kilograms"
+        ],
+        "k": "C",
+        "e": "Số lượng 30 (số nhiều) dùng \"kilometres\" (thêm s); kilogram đo cân nặng, litre đo thể tích.",
+        "s": "Tiếng Anh 5",
+        "h": "Đơn vị khoảng cách số nhiều kilometres"
+      },
+      {
+        "c": "TA5-B19-009",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"How far it is from Hoi An to Da Nang?\"",
+        "o": [
+          "Sai từ \"to\", phải đổi thành \"with\"",
+          "Sai trật tự \"it is\", trong câu hỏi phải đảo thành \"is it\" (\"How far is it...\")",
+          "Sai từ \"from\", phải đổi thành \"in\"",
+          "Sai từ \"How far\", phải đổi thành \"How many\""
+        ],
+        "k": "B",
+        "e": "Câu hỏi luôn đảo động từ to be lên trước chủ ngữ giả \"it\": \"How far is it...?\"",
+        "s": "Tiếng Anh 5",
+        "h": "Đảo is lên trước it"
+      },
+      {
+        "c": "TA5-B19-010",
+        "d": "application",
+        "p": "Sắp xếp thành câu hoàn chỉnh: think / What / you / do / Ha Long Bay / of / ?",
+        "o": [
+          "What do you think of Ha Long Bay?",
+          "What do think you of Ha Long Bay?",
+          "Think what do you of Ha Long Bay?",
+          "What you do think of Ha Long Bay?"
+        ],
+        "k": "A",
+        "e": "What + do + you + think of + địa điểm?",
+        "s": "Tiếng Anh 5",
+        "h": "Giữ giới từ of sau think"
+      },
+      {
+        "c": "TA5-B19-011",
+        "d": "application",
+        "p": "Phân biệt hai tính từ cảm nhận: khi thấy công viên giải trí nhiều trò chơi náo nhiệt dùng \"...\"; khi thấy làng quê yên ả cổ kính dùng \"...\".",
+        "o": [
+          "sad ... exciting",
+          "quiet ... noisy",
+          "peaceful ... boring",
+          "exciting ... peaceful"
+        ],
+        "k": "D",
+        "e": "Trò chơi náo nhiệt -> exciting; làng quê yên ả -> peaceful.",
+        "s": "Tiếng Anh 5",
+        "h": "Khớp tính từ với không khí nơi chốn"
+      },
+      {
+        "c": "TA5-B19-012",
+        "d": "application",
+        "p": "Chọn câu trả lời phù hợp nhất cho câu hỏi \"How far is it from your house to your school?\"",
+        "o": [
+          "I think my school is big and clean.",
+          "It's about two kilometres.",
+          "It's on Le Loi Street.",
+          "I go to school by bicycle."
+        ],
+        "k": "B",
+        "e": "Hỏi \"How far...?\" luôn trả lời bằng ước lượng khoảng cách (\"It's about + số + km / metres.\").",
+        "s": "Tiếng Anh 5",
+        "h": "Trả lời đúng đơn vị khoảng cách"
+      },
+      {
+        "c": "TA5-B19-013",
+        "d": "advanced",
+        "p": "Đọc đoạn ngắn: \"Last weekend, Mai visited Hoi An Old Town with her family. It is about 30 kilometres from Da Nang. Mai thinks Hoi An is peaceful and beautiful, especially in the evening when colourful lanterns light up the streets.\" Vì sao Mai thấy Hội An đặc biệt đẹp vào buổi tối?",
+        "o": [
+          "Because it rains heavily every evening.",
+          "Because it is 30 kilometres from Da Nang.",
+          "Because there are no people on the streets.",
+          "Because colourful lanterns light up the streets."
+        ],
+        "k": "D",
+        "e": "Câu cuối giải thích rõ: đèn lồng đầy màu sắc thắp sáng các con phố (\"colourful lanterns light up the streets\").",
+        "s": "Tiếng Anh 5",
+        "h": "Tìm thông tin evening trong câu cuối"
+      },
+      {
+        "c": "TA5-B19-014",
+        "d": "advanced",
+        "p": "Nếu từ thành phố A đến thành phố B dài 120 km và từ B đến C (cùng tuyến thẳng) dài thêm 80 km nữa, câu trả lời đúng cho \"How far is it from A to C?\" là gì?",
+        "o": [
+          "It's about two hundred kilometres.",
+          "It's about one hundred and twenty kilometres.",
+          "It's about two thousands kilometres.",
+          "It's about forty kilometres."
+        ],
+        "k": "A",
+        "e": "120 + 80 = 200 km -> \"two hundred kilometres\" (hundred không thêm s khi đứng sau số đếm two).",
+        "s": "Tiếng Anh 5",
+        "h": "Tính tổng rồi đọc đúng two hundred"
+      },
+      {
+        "c": "TA5-B19-015",
+        "d": "advanced",
+        "p": "Chọn câu hoàn chỉnh KHÔNG mắc lỗi nào về giới từ lẫn câu hỏi:",
+        "o": [
+          "What does your sister think of Ban Gioc Waterfall? – She thinks it's breathtaking!",
+          "What does your sister thinks about Ban Gioc Waterfall?",
+          "How far is it between Ha Noi to Cao Bang? – About 330 km.",
+          "What do your sister think of Ban Gioc Waterfall? – She think it's great!"
+        ],
+        "k": "A",
+        "e": "Does + sister + think of; She + thinks; không ghép \"between... to...\".",
+        "s": "Tiếng Anh 5",
+        "h": "Soát Does... think of và She thinks"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh5-c4",
+    "lesson": {
+      "code": "tienganh5-b20",
+      "title": "Unit 20. Our summer holidays",
+      "seq": 20,
+      "subtitle": "Sử dụng cấu trúc tương lai gần be going to để hỏi đáp kế hoạch kì nghỉ hè sắp tới (Where are you going to visit? – What are you going to do this summer?)",
+      "concepts": [
+        "Điểm đến mùa hè (Phong Nha Cave, Phu Quoc Island, Huong River, eco-farm)",
+        "Hoạt động hè (go camping, join a music club, practise swimming, visit an eco-farm)",
+        "be going to + V nguyên thể"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA5-B20-001",
+        "d": "basic",
+        "p": "Cấu trúc \"be going to + V nguyên thể\" trong Unit 20 dùng để diễn đạt điều gì?",
+        "o": [
+          "Việc đã làm xong vào mùa hè năm ngoái",
+          "Kế hoạch, dự định đã lên lịch cho kì nghỉ hè sắp tới",
+          "Sự việc đang diễn ra ngay giây phút này trong lớp",
+          "Thói quen mỗi sáng thức dậy lúc sáu giờ"
+        ],
+        "k": "B",
+        "e": "\"I am going to visit Phu Quoc\" = Tôi dự định sẽ đi thăm Phú Quốc.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa dự định tương lai gần"
+      },
+      {
+        "c": "TA5-B20-002",
+        "d": "basic",
+        "p": "Địa danh \"Phong Nha Cave\" nổi tiếng với hệ thống hang động kì vĩ nằm ở tỉnh nào?",
+        "o": [
+          "Lào Cai",
+          "Đồng Nai",
+          "Quảng Bình (Động Phong Nha)",
+          "Cần Thơ"
+        ],
+        "k": "C",
+        "e": "Động Phong Nha – Kẻ Bàng là di sản thiên nhiên thế giới tại Quảng Bình.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ địa danh Động Phong Nha"
+      },
+      {
+        "c": "TA5-B20-003",
+        "d": "basic",
+        "p": "Hoạt động \"join a music club\" trong dịp hè nghĩa là gì?",
+        "o": [
+          "tập bơi tại bể bơi thành phố",
+          "đi cắm trại qua đêm trên núi",
+          "tham gia một câu lạc bộ âm nhạc",
+          "thăm một nông trại sinh thái"
+        ],
+        "k": "C",
+        "e": "\"join\" = tham gia; \"music club\" = câu lạc bộ âm nhạc.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa động từ join"
+      },
+      {
+        "c": "TA5-B20-004",
+        "d": "basic",
+        "p": "Điền to be đúng vào câu hỏi kế hoạch hè: \"Where ... you going to visit this summer?\"",
+        "o": [
+          "do",
+          "will",
+          "are",
+          "is"
+        ],
+        "k": "C",
+        "e": "Với chủ ngữ \"you\", cấu trúc \"be going to\" dùng động từ to be \"are\": \"Where are you going to...?\"",
+        "s": "Tiếng Anh 5",
+        "h": "You luôn đi với are"
+      },
+      {
+        "c": "TA5-B20-005",
+        "d": "basic",
+        "p": "Cụm từ \"visit an eco-farm\" mô tả trải nghiệm hè nào rất thú vị?",
+        "o": [
+          "xem phim hoạt hình trong phòng tối",
+          "mua sắm ở trung tâm thương mại sầm uất",
+          "tham quan một nông trại sinh thái xanh sạch",
+          "ngồi yên trong thư viện suốt tuần"
+        ],
+        "k": "C",
+        "e": "\"eco-farm\" là nông trại sinh thái thân thiện môi trường.",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa của eco-farm"
+      },
+      {
+        "c": "TA5-B20-006",
+        "d": "basic",
+        "p": "Quan sát bảng kế hoạch hè của 4 bạn lớp 5. Bạn Minh dự định làm gì mùa hè này?",
+        "o": [
+          "Go camping in a national park",
+          "Visit an eco-farm",
+          "Join a music club",
+          "Visit Phong Nha Cave"
+        ],
+        "k": "A",
+        "e": "Dòng Minh ghi Summer Plan: go camping.",
+        "s": "Tiếng Anh 5",
+        "h": "Xem hàng Minh trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Summer Holiday Plans",
+          "head": [
+            "Student",
+            "Summer Plan",
+            "Place"
+          ],
+          "rows": [
+            [
+              "Minh",
+              "go camping",
+              "Cuc Phuong Park"
+            ],
+            [
+              "Mai",
+              "practise swimming",
+              "Phu Quoc Island"
+            ],
+            [
+              "Lan",
+              "join a music club",
+              "Youth House"
+            ],
+            [
+              "Nam",
+              "visit an eco-farm",
+              "Ba Vi"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA5-B20-007",
+        "d": "application",
+        "p": "Tìm lỗi sai trong câu: \"Next month, my brother is going to visits Phong Nha Cave.\"",
+        "o": [
+          "Sai từ \"Next\", phải đổi thành \"Last\"",
+          "Sai từ \"is\", phải đổi thành \"are\"",
+          "Sai từ \"visits\", sau \"be going to\" động từ phải ở nguyên thể \"visit\"",
+          "Sai từ \"to\", phải bỏ đi"
+        ],
+        "k": "C",
+        "e": "Công thức chuẩn: am, is, are + going to + V nguyên thể (không thêm s, -ed hay -ing).",
+        "s": "Tiếng Anh 5",
+        "h": "Sau going to dùng V nguyên thể"
+      },
+      {
+        "c": "TA5-B20-008",
+        "d": "application",
+        "p": "Hoàn thành câu trả lời về dự định của Hoa: \"What is Hoa going to do this summer?\" – \"She's ... practise swimming.\"",
+        "o": [
+          "going to",
+          "going",
+          "go to",
+          "goes to"
+        ],
+        "k": "A",
+        "e": "Cấu trúc đầy đủ là \"She's going to + V nguyên thể\" (không bỏ mất \"to\" hoặc viết \"go to\").",
+        "s": "Tiếng Anh 5",
+        "h": "Đủ cả going to"
+      },
+      {
+        "c": "TA5-B20-009",
+        "d": "application",
+        "p": "Sắp xếp thành câu hỏi hoàn chỉnh: going / What / to / are / do / summer / this / you / ?",
+        "o": [
+          "What are you going to do this summer?",
+          "Are what you going to do this summer?",
+          "What you are going to do this summer?",
+          "What are going you to do this summer?"
+        ],
+        "k": "A",
+        "e": "Câu hỏi Wh- với be going to: What + are + you + going to + do + this summer?",
+        "s": "Tiếng Anh 5",
+        "h": "Đảo are lên trước you"
+      },
+      {
+        "c": "TA5-B20-010",
+        "d": "application",
+        "p": "Điền đúng các dạng của to be: \"I ... going to stay at home, my sister ... going to learn guitar, and our parents ... going to travel.\"",
+        "o": [
+          "am ... is ... are",
+          "are ... is ... am",
+          "am ... are ... is",
+          "is ... am ... are"
+        ],
+        "k": "A",
+        "e": "I -> am; my sister (số ít) -> is; our parents (số nhiều) -> are.",
+        "s": "Tiếng Anh 5",
+        "h": "Chia chuẩn am – is – are"
+      },
+      {
+        "c": "TA5-B20-011",
+        "d": "application",
+        "p": "Chọn câu trả lời phù hợp khi bạn hỏi: \"Where are you going to visit this summer?\"",
+        "o": [
+          "I went to Da Nang last summer.",
+          "I'm going to visit Phu Quoc Island.",
+          "Because it has beautiful white beaches.",
+          "Yes, I am going to go camping."
+        ],
+        "k": "B",
+        "e": "Hỏi \"Where are you going to visit...?\" -> trả lời bằng địa điểm sắp đi kèm \"I'm going to visit...\".",
+        "s": "Tiếng Anh 5",
+        "h": "Khớp thì tương lai gần và địa điểm"
+      },
+      {
+        "c": "TA5-B20-012",
+        "d": "application",
+        "p": "Cụm từ \"practise swimming\" trong kế hoạch hè có nghĩa là gì?",
+        "o": [
+          "đọc sách về các loài cá",
+          "vẽ tranh phong cảnh biển",
+          "luyện tập bơi lội (nâng cao kĩ năng bơi an toàn)",
+          "đi câu cá ngoài bờ sông"
+        ],
+        "k": "C",
+        "e": "\"practise\" (động từ) = thực hành, rèn luyện; theo sau thường là V-ing (\"practise swimming\").",
+        "s": "Tiếng Anh 5",
+        "h": "Nhớ nghĩa của practise"
+      },
+      {
+        "c": "TA5-B20-013",
+        "d": "advanced",
+        "p": "Đọc thư điện tử: \"Dear Lucy, School finishes next week! This July, my family is going to visit Huong River in Hue. We are going to take a boat ride and listen to traditional Hue songs. In August, I'm going to join an English club before Grade 6. Write soon! Mai.\" Khi nào Mai tham gia câu lạc bộ Tiếng Anh?",
+        "o": [
+          "Next week when school finishes.",
+          "In July (vào tháng Bảy).",
+          "Every Sunday at school.",
+          "In August (vào tháng Tám, trước khi lên Lớp 6)."
+        ],
+        "k": "D",
+        "e": "Câu kế cuối ghi rõ: \"In August, I'm going to join an English club before Grade 6.\"",
+        "s": "Tiếng Anh 5",
+        "h": "Đọc kĩ mốc tháng Tám"
+      },
+      {
+        "c": "TA5-B20-014",
+        "d": "advanced",
+        "p": "Phân biệt hai câu đúng: Câu nào diễn đạt KẾ HOẠCH ĐÃ DỰ TÍNH TỪ TRƯỚC (\"be going to\") và câu nào nói ĐANG ĐI ĐƯỜNG NGAY LÚC NÀY?",
+        "o": [
+          "Hai câu có ý nghĩa giống hệt nhau không có gì khác",
+          "\"We are going to visit Ba Be Lake next month\" (kế hoạch tương lai); \"We are going to the park right now\" (đang trên đường đi hiện tại)",
+          "Câu đầu không phải kế hoạch mà là hành động vừa kết thúc",
+          "Cả hai câu đều nói về quá khứ năm ngoái"
+        ],
+        "k": "B",
+        "e": "Có động từ nguyên thể theo sau \"going to\" + thời gian tương lai chỉ dự định; \"going to + địa điểm + now\" chỉ đang di chuyển.",
+        "s": "Tiếng Anh 5",
+        "h": "Phân biệt be going to V với đang đi đâu"
+      },
+      {
+        "c": "TA5-B20-015",
+        "d": "advanced",
+        "p": "Chọn câu chúc và dự định tổng kết Tiểu học ĐÚNG HOÀN TOÀN ngữ pháp:",
+        "o": [
+          "We're going have a wonderful summer holiday next month!",
+          "We're going to have a wonderful summer holiday before we start Grade 6!",
+          "We're going to having a wonderful summer holiday soon!",
+          "We going to have a wonderful summer holiday before Grade 6!"
+        ],
+        "k": "B",
+        "e": "Đủ ba phần: to be (\"'re\"), \"going to\", và động từ nguyên thể (\"have\").",
+        "s": "Tiếng Anh 5",
+        "h": "Kiểm tra đủ are + going to + have"
+      }
+    ]
+  }
+]

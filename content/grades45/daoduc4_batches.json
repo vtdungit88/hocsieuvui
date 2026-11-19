@@ -1,0 +1,3264 @@
+[
+  {
+    "chapter": "daoduc4-c1",
+    "lesson": {
+      "code": "daoduc4-b01",
+      "title": "Bài 1. Biết ơn người lao động",
+      "seq": 1,
+      "subtitle": "Nhận biết đóng góp thầm lặng của mọi ngành nghề lao động quanh ta và thể hiện thái độ kính trọng, lễ phép, biết ơn bằng lời nói và việc làm thiết thực",
+      "concepts": [
+        "Mọi nghề nghiệp chân chính đều đáng quý và có ích cho xã hội",
+        "Thái độ lễ phép, biết ơn người lao động quanh em",
+        "Giữ gìn sản phẩm lao động là cách tri ân thiết thực"
+      ]
+    },
+    "questions": [
+      {
+        "c": "DD4-B01-001",
+        "d": "basic",
+        "p": "Vì sao chúng ta cần biết ơn tất cả những người làm nghề lao động chân chính quanh mình như bác nông dân, cô lao công, chú thợ xây, thầy cô giáo?",
+        "o": [
+          "Vì nhờ công sức lao động vất vả của họ mà chúng ta có cơm ăn, áo mặc, trường lớp sạch đẹp và cuộc sống tiện nghi hằng ngày",
+          "Vì người lao động nào cũng làm việc hoàn toàn không mệt mỏi",
+          "Vì chỉ có một vài nghề giàu có mới đóng góp cho xã hội",
+          "Vì trẻ em bắt buộc phải sợ hãi mọi người lớn"
+        ],
+        "k": "A",
+        "e": "Mỗi sản phẩm hay dịch vụ ta dùng đều thấm đẫm mồ hôi của nhiều người lao động thuộc nhiều ngành nghề khác nhau.",
+        "s": "Đạo đức 4",
+        "h": "Ý nghĩa lòng biết ơn người lao động"
+      },
+      {
+        "c": "DD4-B01-002",
+        "d": "basic",
+        "p": "Hành động nào dưới đây thể hiện rõ sự kính trọng và biết ơn đối với bác lao công quét rác ở trường học hoặc khu phố?",
+        "o": [
+          "Lấy chổi của bác đem giấu đi để trêu chọc",
+          "Chào hỏi lễ phép khi gặp bác và luôn bỏ rác đúng nơi quy định để bác đỡ vất vả",
+          "Chê bai công việc của bác là bẩn thỉu và gọi bác trống không",
+          "Cố tình vứt vỏ bánh kẹo ra sân ngay trước mặt bác"
+        ],
+        "k": "B",
+        "e": "Không xả rác bừa bãi giúp giảm bớt gánh nặng và thể hiện sự tôn trọng thiết thực nhất dành cho công nhân vệ sinh.",
+        "s": "Đạo đức 4",
+        "h": "Tôn trọng cô chú lao công"
+      },
+      {
+        "c": "DD4-B01-003",
+        "d": "basic",
+        "p": "Khi sử dụng sách vở, bàn ghế, cơm ăn hay quần áo hằng ngày, việc làm nào thể hiện lòng biết ơn đối với người đã làm ra chúng?",
+        "o": [
+          "Vẽ bậy khắc tên lên mặt bàn gỗ mới của lớp",
+          "Xé giấy trắng gấp máy bay ném khắp sân trường",
+          "Ăn hết suất cơm không bỏ mứa lãng phí, giữ gìn sách vở gọn sạch và dùng đồ đạc cẩn thận bền lâu",
+          "Đổ bỏ nửa bát cơm trắng khi mới ăn vài miếng"
+        ],
+        "k": "C",
+        "e": "Trân trọng, tiết kiệm thành quả lao động chính là thước đo chân thật của lòng biết ơn.",
+        "s": "Đạo đức 4",
+        "h": "Giữ gìn thành quả lao động"
+      },
+      {
+        "c": "DD4-B01-004",
+        "d": "basic",
+        "p": "Quan sát bảng các nghề nghiệp gần gũi dưới đây. Nhận xét nào đúng về giá trị xã hội của các nghề nghiệp này?",
+        "o": [
+          "Chỉ có nghề ca sĩ mới mang lại niềm vui cho người khác",
+          "Nghề ngồi văn phòng cao quý hơn hẳn nghề quét đường hay trồng lúa",
+          "Nghề trồng lúa không quan trọng vì có thể nhịn ăn quanh năm",
+          "Mọi nghề nghiệp lương thiện (dù trí óc hay chân tay) đều bình đẳng về nhân phẩm và góp phần giữ cuộc sống vận hành tốt đẹp"
+        ],
+        "k": "D",
+        "e": "Không có nghề nào tầm thường nếu đó là lao động chân chính tạo ra giá trị cho cộng đồng.",
+        "s": "Đạo đức 4",
+        "h": "Bình đẳng giá trị mọi nghề chân chính",
+        "fig": {
+          "type": "table",
+          "title": "Đóng góp Người Lao động",
+          "head": [
+            "Người lao động",
+            "Giá trị mang lại"
+          ],
+          "rows": [
+            [
+              "Nông dân",
+              "Lúa gạo, rau quả"
+            ],
+            [
+              "Công nhân môi trường",
+              "Phố phường sạch xanh"
+            ],
+            [
+              "Bác sĩ, y tá",
+              "Chăm sóc sức khỏe"
+            ],
+            [
+              "Kĩ sư, công nhân",
+              "Nhà cửa, điện nước"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "DD4-B01-005",
+        "d": "basic",
+        "p": "Khi nhận một gói hàng từ chú giao hàng hoặc một bát phở nóng từ cô bán hàng, câu nói lịch sự nào nên thốt ra ngay lập tức?",
+        "o": [
+          "Nói lời \"Cháu cảm ơn chú ạ!\" hoặc \"Cháu cảm ơn cô ạ!\" bằng giọng nhẹ nhàng, vui vẻ",
+          "Cầm lấy rồi quay lưng bỏ đi không nói một câu nào",
+          "Gắt gỏng bảo sao đưa chậm thế dù chú đang đội nắng mưa",
+          "Nhìn chằm chằm rồi đóng sầm cửa lại"
+        ],
+        "k": "A",
+        "e": "Lời cảm ơn chân thành giúp người lao động thấy ấm lòng và thêm yêu công việc phục vụ cộng đồng.",
+        "s": "Đạo đức 4",
+        "h": "Nói lời cảm ơn lễ phép"
+      },
+      {
+        "c": "DD4-B01-006",
+        "d": "basic",
+        "p": "Câu tục ngữ Việt Nam nào nhắc nhở thế hệ sau phải biết nhớ công ơn của người đã trồng trọt, tạo dựng thành quả cho mình hưởng thụ?",
+        "o": [
+          "\"Ăn quả nhớ kẻ trồng cây\"",
+          "\"Nước đến chân mới nhảy\"",
+          "\"Đứng núi này trông núi nọ\"",
+          "\"Há miệng chờ sung\""
+        ],
+        "k": "A",
+        "e": "\"Ăn quả nhớ kẻ trồng cây\" là bài học đạo lí truyền thống sâu sắc về lòng biết ơn.",
+        "s": "Đạo đức 4",
+        "h": "Tục ngữ về lòng biết ơn"
+      },
+      {
+        "c": "DD4-B01-007",
+        "d": "application",
+        "p": "Buổi trưa nắng gắt, bác thợ điện đang trèo sửa đường dây ngoài ngõ mồ hôi ướt đẫm áo. Nếu ở nhà cùng bà, em nên đề xuất làm gì để bày tỏ lòng biết ơn với bác?",
+        "o": [
+          "Đứng dưới gốc cây cười chỉ trỏ trêu đùa bác",
+          "Lễ phép mời bác vào bóng râm nghỉ tay uống một cốc nước mát khi bác hoàn thành xong công việc",
+          "Tạt nước từ trên gác xuống cho bác mát bất ngờ",
+          "Đóng chặt cửa bảo bác đi chỗ khác sửa"
+        ],
+        "k": "B",
+        "e": "Cử chỉ mời nước mát đúng lúc thể hiện sự quan tâm ấm áp và biết ơn sự cống hiến thầm lặng của thợ điện.",
+        "s": "Đạo đức 4",
+        "h": "Ứng xử ân cần với bác thợ điện"
+      },
+      {
+        "c": "DD4-B01-008",
+        "d": "application",
+        "p": "Trong lớp có bạn Tùng hay nói với giọng coi thường rằng bố bạn An làm nghề thợ sửa xe máy nên \"tay dính đầy dầu mỡ rất bẩn\". Nếu là bạn cùng bàn với Tùng, em sẽ khuyên bạn điều gì?",
+        "o": [
+          "Khuyên Tùng dừng ngay thái độ sai đó vì nghề sửa xe rất vất vả, cần kĩ năng giỏi giúp hàng trăm xe đi lại an toàn mỗi ngày và đáng được kính trọng",
+          "Khuyên bố bạn An bỏ nghề ngay lập tức",
+          "Cười hùa theo Tùng trêu chọc bạn An thêm cho vui",
+          "Xúi bạn An giấu kín nghề nghiệp của bố đi"
+        ],
+        "k": "A",
+        "e": "Phê phán thái độ kì thị nghề nghiệp chân tay và bảo vệ danh dự người lao động là bổn phận đạo đức của học sinh.",
+        "s": "Đạo đức 4",
+        "h": "Phê phán thái độ coi thường nghề nghiệp"
+      },
+      {
+        "c": "DD4-B01-009",
+        "d": "application",
+        "p": "Ngày 20 tháng 11 sắp tới, lớp em muốn tổ chức hoạt động tri ân không chỉ dành cho thầy cô giáo giảng dạy mà còn tới bác bảo vệ và cô lao công trường. Hoạt động nào giàu ý nghĩa và vừa sức nhất?",
+        "o": [
+          "Mua thật nhiều pháo hoa đốt trong phòng hội đồng",
+          "Nghỉ học ở nhà cả tuần để tự chúc mừng",
+          "Bắt bác bảo vệ trực gác thêm ngoài giờ để lớp chơi đùa",
+          "Tự tay viết thiệp cảm ơn gửi bác bảo vệ, cô lao công, thầy cô giáo và cam kết giữ lớp sạch đẹp, xếp hàng trật tự đúng giờ"
+        ],
+        "k": "D",
+        "e": "Sự ngoan ngoãn, giữ vệ sinh trường lớp và tấm thiệp chân thành là món quà tinh thần quý giá nhất với cán bộ nhà trường.",
+        "s": "Đạo đức 4",
+        "h": "Tri ân toàn thể người lao động trường học"
+      },
+      {
+        "c": "DD4-B01-010",
+        "d": "application",
+        "p": "Khi đi ăn cùng gia đình tại nhà hàng hoặc quán ăn bình dân, hành động nào cho thấy em tôn trọng công sức của bác đầu bếp và cô chú phục vụ?",
+        "o": [
+          "Chỉ gọi lượng món vừa đủ sức ăn, ăn gọn gàng, nói cảm ơn khi được dọn món và xếp gọn bát đũa sau khi dùng xong",
+          "Vứt giấy ăn rơi vãi đầy dưới gầm bàn cho nhân viên tự nhặt",
+          "Gọi đầy một bàn 10 món đắt tiền rồi chỉ nếm mỗi món một thìa rồi bỏ đi",
+          "Gõ đũa ầm ĩ vào bát để giục cô phục vụ"
+        ],
+        "k": "A",
+        "e": "Ăn uống văn minh, không lãng phí đồ ăn và phụ xếp gọn bát đũa giúp công việc phục vụ nhẹ nhàng hơn rất nhiều.",
+        "s": "Đạo đức 4",
+        "h": "Văn minh tri ân tại quán ăn"
+      },
+      {
+        "c": "DD4-B01-011",
+        "d": "application",
+        "p": "Một hôm trời mưa to, chú bưu tá hoặc cô thu gom rác vẫn mặc áo mưa đi làm đúng giờ qua ngõ nhà em. Khi mang túi rác gia đình ra điểm tập kết, em làm gì giúp cô chú thuận tiện an toàn?",
+        "o": [
+          "Vứt tung rác lỏng ra mặt đường không bỏ vào túi",
+          "Buộc chặt kín miệng túi rác gọn gàng (tách riêng mảnh vỡ thủy tinh bọc kĩ có ghi chú) và đặt đúng vị trí trước giờ xe đến",
+          "Trộn lẫn mảnh chai vỡ sắc nhọn vào túi nilon mỏng không báo hiệu",
+          "Đứng ném mạnh túi rác vào người cô đang đi tới"
+        ],
+        "k": "B",
+        "e": "Bọc kín rác và gói kĩ vật sắc nhọn bảo vệ trực tiếp đôi tay người công nhân môi trường khỏi tai nạn đứt tay nhiễm trùng.",
+        "s": "Đạo đức 4",
+        "h": "Gói rác an toàn giúp cô chú vệ sinh"
+      },
+      {
+        "c": "DD4-B01-012",
+        "d": "application",
+        "p": "Em xem kết quả bình chọn \"Những người lao động em biết ơn nhất quanh khu phố\" của học sinh Lớp 4A. Điều ý nghĩa nhất rút ra từ biểu đồ đa dạng này là gì?",
+        "o": [
+          "Các ngành nghề không có mối liên hệ gì với nhau",
+          "Học sinh không cần biết ơn ai ngoài gia đình mình",
+          "Chỉ cần một mình bác bảo vệ là đủ hết mọi thứ trong xã hội",
+          "Cuộc sống an bình của mỗi bạn nhỏ được tạo nên từ sự gắn kết của rất nhiều ngành nghề khác nhau, không ai có thể sống tách rời cộng đồng"
+        ],
+        "k": "D",
+        "e": "Mạng lưới phân công lao động xã hội kết nối mọi người lại với nhau; biết ơn tất cả giúp ta sống nhân ái hơn.",
+        "s": "Đạo đức 4",
+        "h": "Ý nghĩa gắn kết giữa các ngành nghề",
+        "fig": {
+          "type": "bars",
+          "title": "Lượt tri ân của Lớp 4A (Phiếu)",
+          "labels": [
+            "Nông dân",
+            "Lao công",
+            "Bác sĩ",
+            "Thầy cô"
+          ],
+          "series": [
+            {
+              "values": [
+                42,
+                38,
+                45,
+                48
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "c": "DD4-B01-013",
+        "d": "advanced",
+        "p": "Có bạn cho rằng: \"Nhà mình trả tiền mua gạo, trả tiền thuê cô giúp việc hay trả tiền vé xe buýt rồi thì không cần phải tỏ ra biết ơn hay nói cảm ơn họ nữa\". Em phản biện lại quan điểm đó thế nào cho sâu sắc?",
+        "o": [
+          "Chỉ nên cảm ơn khi người ta cho không miễn phí món hàng",
+          "Tiền chỉ trao đổi hàng hóa, không mua được sự tận tâm; lời cảm ơn thể hiện nhân cách văn minh và sự tôn trọng",
+          "Không cần nói cảm ơn vì người bán hàng không hiểu tiếng Việt",
+          "Đúng vậy, đã trả tiền thì có quyền quát mắng người làm thuê thoải mái"
+        ],
+        "k": "B",
+        "e": "Quan hệ tiền bạc không thay thế được đạo đức tôn trọng nhân phẩm và lòng biết ơn giữa con người.",
+        "s": "Đạo đức 4",
+        "h": "Phản biện quan điểm dùng tiền mua hết ơn nghĩa"
+      },
+      {
+        "c": "DD4-B01-014",
+        "d": "advanced",
+        "p": "Trong bữa cơm gia đình, hạt gạo dẻo thơm nằm trong bát của em đã phải trải qua những bàn tay lao động nào mới đến được bàn ăn?",
+        "o": [
+          "Chỉ cần duy nhất cô bán hàng ở siêu thị là có gạo",
+          "Từ bác nông dân cày cấy phơi nắng, chú kĩ sư thủy lợi – máy gặt, bác lái xe vận chuyển đến cô bán hàng và bố mẹ đi làm nấu nướng",
+          "Từ máy in văn phòng tự động in ra thành hạt gạo",
+          "Chỉ tự nhiên từ trong nồi cơm điện mọc ra không cần ai làm"
+        ],
+        "k": "B",
+        "e": "Nhìn thấy chuỗi lao động dài đằng sau một hạt gạo giúp học sinh biết quý từng hạt cơm và trân trọng công sức xã hội.",
+        "s": "Đạo đức 4",
+        "h": "Chuỗi lao động đằng sau hạt gạo"
+      },
+      {
+        "c": "DD4-B01-015",
+        "d": "advanced",
+        "p": "Để thể hiện lòng biết ơn người lao động không chỉ bằng lời nói suông trong một ngày lễ mà trở thành thói quen sống suốt cả năm học, kế hoạch hành động cá nhân nào thiết thực nhất?",
+        "o": [
+          "Rèn thói quen chào hỏi lễ phép mọi cô bác lao động mỗi ngày, giữ gìn đồ dùng học tập và tài sản công, tích cực học tốt và phụ giúp việc nhà vừa sức",
+          "Chỉ viết một tấm thiệp thật đẹp vào tháng 11 rồi cả năm còn lại vứt rác bừa bãi",
+          "Lấy tiền tiết kiệm mua bánh kẹo ăn một mình giấu trong phòng",
+          "Nghỉ học ở nhà ngồi khen ngợi mọi người trên mạng xã hội"
+        ],
+        "k": "A",
+        "e": "Đạo đức bền vững thể hiện qua chuỗi hành động nhỏ lặp lại hằng ngày ở nhà, ở trường và ngoài phố.",
+        "s": "Đạo đức 4",
+        "h": "Biến lòng biết ơn thành thói quen hằng ngày"
+      }
+    ]
+  },
+  {
+    "chapter": "daoduc4-c1",
+    "lesson": {
+      "code": "daoduc4-b02",
+      "title": "Bài 2. Cảm thông, giúp đỡ người gặp khó khăn",
+      "seq": 2,
+      "subtitle": "Biết đặt mình vào hoàn cảnh của người khác để sẻ chia nỗi buồn, khó khăn và thực hiện những việc làm giúp đỡ phù hợp khả năng với thái độ chân thành, tôn trọng",
+      "concepts": [
+        "Khái niệm cảm thông (thấu cảm) và sẻ chia",
+        "Cách giúp đỡ vừa sức học sinh Lớp 4 mà vẫn giữ lòng tự trọng cho người nhận",
+        "Phê phán thái độ thờ ơ, vô cảm hoặc chế giễu người yếu thế"
+      ]
+    },
+    "questions": [
+      {
+        "c": "DD4-B02-001",
+        "d": "basic",
+        "p": "Biểu hiện rõ nhất của lòng cảm thông trước nỗi buồn hoặc hoàn cảnh éo le của bạn bè hay người xung quanh là gì?",
+        "o": [
+          "Biết lắng nghe, chia sẻ nỗi buồn với bạn, không cười cợt trêu chọc và sẵn sàng tìm cách giúp đỡ bạn vượt qua khó khăn",
+          "Quay mặt bỏ đi thật nhanh vì sợ phiền phức",
+          "Cười phá lên chế giễu khi thấy bạn bị ngã hay thiếu thốn",
+          "Kể lể bêu xấu hoàn cảnh của bạn cho cả lớp cùng cười"
+        ],
+        "k": "A",
+        "e": "Cảm thông là biết rung cảm, đặt mình vào vị trí của người gặp hoạn nạn để thấu hiểu và nâng đỡ họ.",
+        "s": "Đạo đức 4",
+        "h": "Khái niệm cảm thông"
+      },
+      {
+        "c": "DD4-B02-002",
+        "d": "basic",
+        "p": "Những việc làm nào sau đây hoàn toàn phù hợp với khả năng của học sinh Lớp 4 để giúp đỡ bạn học sinh vùng lũ lụt hoặc bạn có hoàn cảnh khó khăn trong lớp?",
+        "o": [
+          "Bỏ học đi làm thuê nặng nhọc ngoài công trường kiếm tiền",
+          "Góp sách giáo khoa cũ sạch đẹp, quần áo ấm còn tốt, trích một phần tiền tiết kiệm ăn sáng và giảng bài giúp bạn nghỉ ốm",
+          "Hứa tặng bạn một căn nhà biệt thự mới xây",
+          "Tự ý lấy trộm tiền trong ví của bố mẹ để đi làm từ thiện"
+        ],
+        "k": "B",
+        "e": "Giúp đỡ vừa sức bằng đồ dùng, tri thức và tấm lòng chân thành từ chính phần tiết kiệm của bản thân mới đúng và bền vững.",
+        "s": "Đạo đức 4",
+        "h": "Việc làm giúp đỡ phù hợp lứa tuổi"
+      },
+      {
+        "c": "DD4-B02-003",
+        "d": "basic",
+        "p": "Trong lớp có bạn bị khuyết tật vận động ở chân nên đi lại rất chậm khi di chuyển xuống sân tập thể dục. Thái độ nào thể hiện sự cảm thông văn minh nhất?",
+        "o": [
+          "Bắt bạn đó phải tự vác thêm ba chiếc ghế nặng",
+          "Chạy vọt đi trước rồi đứng dưới sân cười nhạo dáng đi của bạn",
+          "Chủ động đi chậm lại đợi bạn, nhã nhặn hỏi bạn có cần xách giúp cặp sách hay dìu nhẹ khi xuống cầu thang không",
+          "Nhại lại bước đi khập khiễng của bạn trước đám đông"
+        ],
+        "k": "C",
+        "e": "Giúp đỡ tôn trọng phẩm giá (hỏi ý kiến và đồng hành tự nhiên) giúp bạn khuyết tật hòa nhập tự tin hơn.",
+        "s": "Đạo đức 4",
+        "h": "Cảm thông với bạn khuyết tật"
+      },
+      {
+        "c": "DD4-B02-004",
+        "d": "basic",
+        "p": "Quan sát bảng các tình huống và cách ứng xử sau. Câu tục ngữ Việt Nam nào ca ngợi tinh thần tương thân tương ái, giúp đỡ nhau lúc hoạn nạn?",
+        "o": [
+          "\"Mạnh ai nấy chạy\"",
+          "\"Đèn nhà ai nấy rạng\"",
+          "\"Cháy nhà hàng xóm bình chân như vại\"",
+          "\"Lá lành đùm lá rách\""
+        ],
+        "k": "D",
+        "e": "\"Lá lành đùm lá rách\" hay \"Một con ngựa đau cả tàu bỏ cỏ\" là truyền thống nhân ái quý báu của dân tộc Việt Nam.",
+        "s": "Đạo đức 4",
+        "h": "Tục ngữ về tương thân tương ái",
+        "fig": {
+          "type": "table",
+          "title": "Giúp đỡ Đúng cách",
+          "head": [
+            "Hoàn cảnh gặp",
+            "Cách sẻ chia phù hợp"
+          ],
+          "rows": [
+            [
+              "Bạn bị ốm nghỉ học",
+              "Chép, giảng giúp bạn"
+            ],
+            [
+              "Đồng bào vùng bão lũ",
+              "Góp sách, áo ấm, vở"
+            ],
+            [
+              "Cụ già qua đường",
+              "Giúp, nhờ người lớn"
+            ],
+            [
+              "Bạn mới chuyển lớp",
+              "Rủ chơi hòa nhập"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "DD4-B02-005",
+        "d": "basic",
+        "p": "Khi thấy một bạn nhỏ bị trượt chân ngã xây xát đầu gối ngay giữa sân trường, phản ứng đầu tiên của em là gì?",
+        "o": [
+          "Hét to cho cả sân trường quay lại nhìn cười ồ lên",
+          "Đứng khoanh tay quay video để đăng lên mạng trêu bạn",
+          "Chạy lại ân cần đỡ bạn đứng dậy, hỏi thăm chỗ đau, nhặt giúp sách vở rơi và đưa bạn xuống phòng y tế trường nếu chảy máu",
+          "Giẫm qua sách vở của bạn rồi chạy thẳng vào lớp"
+        ],
+        "k": "C",
+        "e": "Kịp thời đỡ dậy, an ủi và hỗ trợ y tế là ứng xử nhân hậu cơ bản.",
+        "s": "Đạo đức 4",
+        "h": "Giúp bạn khi bị ngã"
+      },
+      {
+        "c": "DD4-B02-006",
+        "d": "basic",
+        "p": "Tại sao khi trao tặng quà, quần áo cũ hoặc sách vở cho các bạn vùng khó khăn, ta lại cần giặt sạch, gấp phẳng phiu và lựa chọn những đồ còn dùng tốt?",
+        "o": [
+          "Để che giấu tên lớp mình gửi tặng",
+          "Vì chỉ đồ đắt tiền mới được phép giặt sạch",
+          "Vì món quà gửi đi bằng sự trân trọng sẽ giúp người nhận cảm thấy ấm lòng, được tôn trọng chứ không phải nhận đồ bỏ đi",
+          "Vì quần áo bẩn rách mới làm bạn bất ngờ vui hơn"
+        ],
+        "k": "C",
+        "e": "Của cho không bằng cách cho; đồ sạch tươm tất thể hiện tấm lòng trân quý phẩm giá của người bạn đang gặp khó khăn.",
+        "s": "Đạo đức 4",
+        "h": "Cách cho tôn trọng người nhận"
+      },
+      {
+        "c": "DD4-B02-007",
+        "d": "application",
+        "p": "Bạn Minh bị ốm phải nằm viện suốt một tuần, vừa đi học lại nên rất lo lắng vì bị hổng mất nhiều bài Toán và Tiếng Việt. Nếu là tổ trưởng của Minh, em tổ chức giúp bạn thế nào hiệu quả nhất?",
+        "o": [
+          "Bắt Minh nộp phạt tiền cho tổ vì dám nghỉ ốm lâu",
+          "Phân công các bạn học tốt trong tổ thay phiên cho Minh mượn vở chép bù sạch sẽ và ở lại 15 phút đầu giờ giảng kĩ phần kiến thức Minh còn thiếu",
+          "Cho Minh chép nguyên bài kiểm tra của mình lúc cô giáo không nhìn",
+          "Bảo Minh tự nghỉ học luôn hết năm rồi sang năm học lại"
+        ],
+        "k": "B",
+        "e": "Giúp bạn học bổ sung kiến thức thực chất mới là sự giúp đỡ bền vững (khác hẳn việc tiếp tay gian lận chép bài thi).",
+        "s": "Đạo đức 4",
+        "h": "Giúp bạn ốm bắt kịp bài học"
+      },
+      {
+        "c": "DD4-B02-008",
+        "d": "application",
+        "p": "Bác hàng xóm nhà bên bị đau lưng đi lại khó khăn đang xách hai túi đồ khá nặng từ chợ về tới đầu ngõ. Em thấy vậy nên làm gì ngay?",
+        "o": [
+          "Đòi bác phải trả tiền công 10 nghìn đồng mới xách hộ",
+          "Đứng nhìn từ xa xem bác có đánh rơi túi đồ không",
+          "Chạy tới lễ phép: \"Bác ơi, cháu giúp bác xách một túi về tận cổng nhà nhé ạ!\" và đi chậm vừa bước của bác",
+          "Cầm một túi của bác rồi chạy biến vào nhà mình trước"
+        ],
+        "k": "C",
+        "e": "Chủ động ngỏ lời và thực hiện nhiệt tình vừa sức giúp việc thiện trở nên tự nhiên và đầy niềm vui.",
+        "s": "Đạo đức 4",
+        "h": "Giúp đỡ người cao tuổi gần nhà"
+      },
+      {
+        "c": "DD4-B02-009",
+        "d": "application",
+        "p": "Một bạn học sinh mới từ vùng xa chuyển đến lớp em còn rụt rè, nói giọng địa phương hơi khác nên chưa quen ai. Trong giờ ra chơi, cách hành xử nào thể hiện lòng cảm thông sâu sắc?",
+        "o": [
+          "Bắt bạn phải hát một bài trước cả lớp mới cho làm bạn",
+          "Tụ tập thành nhóm xì xào chỉ trỏ giọng nói của bạn",
+          "Chủ động tới làm quen, giới thiệu tên bạn với nhóm mình, rủ bạn cùng chơi trò chơi chung và không nhại giọng nói của bạn",
+          "Cô lập không cho bạn ngồi cùng bàn hay chơi chung đội"
+        ],
+        "k": "C",
+        "e": "Sự đón nhận cởi mở giúp bạn mới nhanh vượt qua cảm giác lạc lõng, nhớ nhà.",
+        "s": "Đạo đức 4",
+        "h": "Đón nhận bạn mới chuyển trường"
+      },
+      {
+        "c": "DD4-B02-010",
+        "d": "application",
+        "p": "Trong lớp có phong trào nuôi \"Heo đất giúp bạn nghèo ăn Tết\". Khi một bạn có hoàn cảnh gia đình thật sự rất khó khăn không có nhiều tiền bỏ heo đất như các bạn khác, cả lớp nên ứng xử ra sao?",
+        "o": [
+          "Cười chê bạn là người keo kiệt nhất lớp",
+          "Ép buộc bạn đó phải nộp đúng 100 nghìn đồng như tổ trưởng",
+          "Khuyến khích bạn đóng góp bằng tấm lòng tùy sức dù rất nhỏ (như 1 chiếc bút chì hay lời chúc tốt đẹp) và tuyệt đối không chê bai so bì số tiền đóng góp",
+          "Viết tên những bạn góp ít lên bảng lớp để phê bình"
+        ],
+        "k": "C",
+        "e": "Hoạt động thiện nguyện xuất phát từ tấm lòng tự nguyện và tinh thần tôn trọng hoàn cảnh riêng từng thành viên.",
+        "s": "Đạo đức 4",
+        "h": "Tôn trọng mức đóng góp thiện nguyện"
+      },
+      {
+        "c": "DD4-B02-011",
+        "d": "application",
+        "p": "Khi chứng kiến một bạn lớn lớp trên đang bắt nạt, giật hộp bút của một em nhỏ Lớp 1 đang khóc thút thít ở góc sân sau, em xử lí thế nào để giúp em nhỏ mà vẫn bảo đảm an toàn cho bản thân?",
+        "o": [
+          "Đứng cổ vũ cho bạn lớn lấy hết cặp sách của em nhỏ",
+          "Nhảy vào đánh nhau tay đôi ngay giữa sân trường một mình",
+          "Quay đầu bỏ chạy thẳng về lớp giả vờ như không thấy gì",
+          "Lên tiếng nhắc bạn lớn dừng tay nếu an toàn, nhanh chóng gọi thêm các bạn xung quanh hoặc chạy báo ngay cho thầy cô trực nhật/bác bảo vệ tới giải quyết kịp thời"
+        ],
+        "k": "D",
+        "e": "Chống bắt nạt cần sự can đảm kết hợp khôn ngoan: tìm người lớn hỗ trợ kịp thời để bảo vệ nạn nhân an toàn.",
+        "s": "Đạo đức 4",
+        "h": "Bảo vệ em nhỏ bị bắt nạt an toàn"
+      },
+      {
+        "c": "DD4-B02-012",
+        "d": "application",
+        "p": "Khi đọc được tin tức có trường hợp người gặp nạn giả mạo xin tiền lừa đảo ở ngoài đường phố lúc em đi cùng bố mẹ, thái độ tỉnh táo hợp lí nào kết hợp được cả lòng nhân ái lẫn sự an toàn?",
+        "o": [
+          "Lấy hết tiền học phí của mẹ đưa cho người lạ không hỏi mẹ",
+          "Luôn giữ lòng thương người nhưng tham khảo ý kiến bố mẹ và ưu tiên ủng hộ qua các quỹ từ thiện chính thống của trường học, Mặt trận Tổ quốc hoặc Hội Chữ thập đỏ",
+          "Kết luận rằng trên đời toàn người giả dối nên không bao giờ giúp đỡ ai nữa",
+          "Tin ngay mọi người lạ dọc đường và tự ý chạy theo họ vào hẻm vắng"
+        ],
+        "k": "B",
+        "e": "Lòng tốt cần đi kèm sự hiểu biết và an toàn; trẻ em luôn thông qua gia đình, nhà trường và tổ chức uy tín khi giúp người lạ.",
+        "s": "Đạo đức 4",
+        "h": "Lòng tốt đi kèm tỉnh táo và an toàn"
+      },
+      {
+        "c": "DD4-B02-013",
+        "d": "advanced",
+        "p": "Nhiều bạn nhỏ có lòng tốt nhưng khi giúp bạn nghèo trong lớp lại vô tình nói to trước đông người: \"Này, nhà cậu nghèo rớt không có tiền mua áo mới nên tớ bố thí cho cái áo cũ này này!\". Cách nói này sai ở điểm nào và nên sửa lại ra sao?",
+        "o": [
+          "Nên viết lên bảng đen tên người nhận kèm dòng chữ \"Đồ bố thí\"",
+          "Tốt nhất không tặng gì nữa mà giữ mặc dù đã chật cứng",
+          "Sai vì lời ban ơn làm tổn thương tự trọng của bạn; nên trao riêng kín đáo và nói khéo giữ thể diện cho bạn",
+          "Không sai chút nào vì nói thật to cho cả lớp biết mình giàu có tốt bụng"
+        ],
+        "k": "C",
+        "e": "Bảo vệ lòng tự trọng của người nhận còn quý giá hơn bản thân món quà; sự tế nhị là đỉnh cao của lòng nhân ái.",
+        "s": "Đạo đức 4",
+        "h": "Sự tế nhị bảo vệ lòng tự trọng người nhận"
+      },
+      {
+        "c": "DD4-B02-014",
+        "d": "advanced",
+        "p": "Giữa hai cách giúp một bạn học kém môn Toán vì gia đình bận rộn: Cách A cho bạn chép bài tập về nhà mỗi sáng; Cách B kiên nhẫn chỉ bạn từng bước cách tự giải một bài dễ rồi nâng dần lên. Cách nào thực sự yêu thương và giúp bạn tiến bộ?",
+        "o": [
+          "Cách B, vì giúp bạn hiểu gốc rễ phương pháp và tự tin tự lực; còn Cách A chỉ tạo thói quen ỷ lại và làm bạn trượt sâu hơn khi kiểm tra thật",
+          "Cách A vì nhanh gọn đỡ mất thời gian giờ ra chơi của cả hai",
+          "Không có cách nào đúng, tốt nhất mặc kệ bạn bị điểm kém mãi",
+          "Cách A giúp bạn tự nhiên giỏi Toán hơn mà không cần suy nghĩ"
+        ],
+        "k": "A",
+        "e": "Trao \"cần câu\" (kiến thức và phương pháp tự học) luôn bền vững hơn trao \"con cá\" (chép sẵn đối phó).",
+        "s": "Đạo đức 4",
+        "h": "Phân biệt giúp đỡ thực chất và làm thay sai lầm"
+      },
+      {
+        "c": "DD4-B02-015",
+        "d": "advanced",
+        "p": "Tại sao nói \"Sự thờ ơ vô cảm\" trước nỗi đau hoặc tai nạn của người xung quanh là một căn bệnh nguy hiểm cho cộng đồng?",
+        "o": [
+          "Vì người vô cảm lúc nào cũng bị ho và sốt cao 40 độ",
+          "Vì sự vô cảm làm đường phố bị kẹt xe giờ tan tầm",
+          "Vì khi mọi người đều ngoảnh mặt làm ngơ, người gặp nạn sẽ cô độc không được cứu kịp thời, cái xấu dễ lộng hành và xã hội mất đi sợi dây gắn kết yêu thương",
+          "Vì người vô cảm không thể cầm đũa ăn cơm được"
+        ],
+        "k": "C",
+        "e": "Chống lại thái độ vô cảm bắt đầu từ những rung cảm và hành động quan tâm nhỏ nhất của mỗi học sinh mỗi ngày.",
+        "s": "Đạo đức 4",
+        "h": "Phê phán thói vô cảm trong xã hội"
+      }
+    ]
+  },
+  {
+    "chapter": "daoduc4-c1",
+    "lesson": {
+      "code": "daoduc4-b03",
+      "title": "Bài 3. Yêu lao động và Trách nhiệm công việc",
+      "seq": 3,
+      "subtitle": "Nhận biết ý nghĩa của lao động sáng tạo đối với sự trưởng thành cá nhân; tự giác hoàn thành công việc ở nhà, trực nhật ở trường và phê phán thói lười biếng, ỷ lại",
+      "concepts": [
+        "Lao động giúp rèn sức khỏe, trí tuệ và tự lập",
+        "Các việc làm lao động vừa sức ở nhà và trường học",
+        "Thái độ tự giác, chăm chỉ và làm việc đến nơi đến chốn"
+      ]
+    },
+    "questions": [
+      {
+        "c": "DD4-B03-001",
+        "d": "basic",
+        "p": "Lợi ích quan trọng nhất của việc học sinh Lớp 4 thường xuyên tham gia lao động vừa sức (quét nhà, nhặt rau, trực nhật lớp, trồng cây) là gì?",
+        "o": [
+          "Giúp cơ thể khỏe mạnh nhanh nhẹn, rèn tính tự lập, kĩ năng sống thực tế và chia sẻ gánh nặng cùng cha mẹ, thầy cô",
+          "Chỉ có tác dụng làm bẩn quần áo mới",
+          "Làm học sinh bị mất hết kiến thức sách vở",
+          "Giúp không bao giờ phải đi học các môn khác nữa"
+        ],
+        "k": "A",
+        "e": "Lao động rèn đôi tay khéo léo, tinh thần trách nhiệm và niềm vui khi tự mình tạo ra không gian sống sạch đẹp.",
+        "s": "Đạo đức 4",
+        "h": "Ý nghĩa rèn luyện của lao động"
+      },
+      {
+        "c": "DD4-B03-002",
+        "d": "basic",
+        "p": "Những việc làm nào sau đây phù hợp với sức khỏe và lứa tuổi của học sinh Lớp 4 khi phụ giúp gia đình hằng ngày?",
+        "o": [
+          "Vác bao xi măng nặng 50 kg giúp thợ xây ngoài công trường",
+          "Tự ý lái xe máy chở hàng nặng ra đường lớn",
+          "Trèo lên mái nhà cao sửa mái tôn giữa trời gió to",
+          "Quét dọn nhà cửa, rửa bát đĩa sạch gọn, gấp quần áo của mình, nhặt rau và tưới cây cảnh trong vườn"
+        ],
+        "k": "D",
+        "e": "Tham gia lao động phù hợp lứa tuổi bảo đảm an toàn sức khỏe và hình thành nền nếp sinh hoạt gia đình tốt đẹp.",
+        "s": "Đạo đức 4",
+        "h": "Việc làm lao động vừa sức Lớp 4"
+      },
+      {
+        "c": "DD4-B03-003",
+        "d": "basic",
+        "p": "Biểu hiện của một học sinh có thái độ \"Yêu lao động\" khi đến phiên trực nhật lớp của tổ mình là gì?",
+        "o": [
+          "Trốn ra ngoài cổng trường đợi chuông reo vào lớp mới chạy vào",
+          "Đùn đẩy hết việc nặng cho bạn hiền lành làm còn mình ngồi chơi",
+          "Đi học sớm hơn 10 phút, vui vẻ nhận phần việc quét lớp, lau bảng, sắp xếp bàn ghế thẳng hàng và kiểm tra sạch sẽ trước khi vào tiết 1",
+          "Quét qua loa dồn rác vào gầm bàn cô giáo để giấu cho nhanh"
+        ],
+        "k": "C",
+        "e": "Tự giác, không ngại khó và làm tròn trách nhiệm được phân công là phẩm chất cốt lõi của người yêu lao động.",
+        "s": "Đạo đức 4",
+        "h": "Biểu hiện yêu lao động khi trực nhật"
+      },
+      {
+        "c": "DD4-B03-004",
+        "d": "basic",
+        "p": "Trong bảng so sánh thái độ làm việc dưới đây, thói quen nào đáng phê phán vì cản trở sự tiến bộ của học sinh?",
+        "o": [
+          "Sáng tạo cách sắp xếp đồ gọn gàng nhanh hơn",
+          "Giúp đỡ bạn khi bạn làm chưa xong phần việc",
+          "Chăm chỉ hoàn thành công việc đúng hẹn",
+          "Lười biếng, ỷ lại chờ bố mẹ làm hộ mọi thứ và làm việc nửa vời bỏ dở"
+        ],
+        "k": "D",
+        "e": "Tính ỷ lại khiến trẻ chậm trưởng thành, lúng túng trước các tình huống tự lập khi lớn lên.",
+        "s": "Đạo đức 4",
+        "h": "Phê phán thói lười biếng ỷ lại",
+        "fig": {
+          "type": "table",
+          "title": "Thái độ với Lao động",
+          "head": [
+            "Biểu hiện tích cực",
+            "Thói quen cần bỏ"
+          ],
+          "rows": [
+            [
+              "Tự giác làm việc nhà",
+              "Đùn đẩy, lười biếng"
+            ],
+            [
+              "Làm sạch tới cùng",
+              "Làm ẩu cho xong"
+            ],
+            [
+              "Giữ đồ học gọn gàng",
+              "Ỷ lại bố mẹ dọn"
+            ],
+            [
+              "Tìm cách làm hay hơn",
+              "Ngại khó, than vãn"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "DD4-B03-005",
+        "d": "basic",
+        "p": "Câu tục ngữ nào của ông cha ta đề cao giá trị lao động bền bỉ để làm ra của cải ấm no?",
+        "o": [
+          "\"Làm chơi ăn thật\"",
+          "\"Có làm thì mới có ăn / Không dưng ai dễ đem phần đến cho\"",
+          "\"Tay làm hàm nhai, tay quai miệng trễ\" (chỉ mặt trái khi nghỉ tay -> câu trên rõ nghĩa nhất là Có làm mới có ăn)",
+          "\"Ngồi mát ăn bát vàng\""
+        ],
+        "k": "B",
+        "e": "\"Có làm thì mới có ăn\" khẳng định lao động là nguồn gốc vinh quang tạo nên mọi giá trị đời sống.",
+        "s": "Đạo đức 4",
+        "h": "Tục ngữ đề cao lao động"
+      },
+      {
+        "c": "DD4-B03-006",
+        "d": "basic",
+        "p": "Sau khi làm xong phần việc nhặt rau giúp mẹ hoặc làm xong bài tập ở bàn học, người có tinh thần lao động tốt luôn làm thêm bước kết thúc nào?",
+        "o": [
+          "Đá thau nước đổ tung tóe ra lối đi",
+          "Thu dọn vỏ rau vào thùng rác, lau sạch mặt bàn và cất dụng cụ đúng chỗ gọn gàng",
+          "Bắt em nhỏ 2 tuổi dọn dẹp hết chiến trường của mình",
+          "Để nguyên đống rác rải rác khắp nền bếp rồi bỏ đi xem tivi"
+        ],
+        "k": "B",
+        "e": "Kết thúc công việc trọn vẹn bằng bước thu dọn sạch sẽ thể hiện tác phong lao động chuyên nghiệp.",
+        "s": "Đạo đức 4",
+        "h": "Dọn dẹp gọn gàng sau lao động"
+      },
+      {
+        "c": "DD4-B03-007",
+        "d": "application",
+        "p": "Bạn Quân năm nay đã học Lớp 4 nhưng sáng nào ngủ dậy cũng không tự gấp chăn màn, chờ mẹ đi làm về dọn phòng và thậm chí bắt bà nội đi tìm hộ đôi tất. Nếu là bạn thân của Quân, em góp ý thế nào?",
+        "o": [
+          "Khen Quân sướng nhất lớp vì có cả mẹ lẫn bà phục vụ như ông hoàng",
+          "Mách Quân giả vờ đau bụng mỗi sáng để khỏi phải làm gì cả",
+          "Khuyên Quân tập tự gấp chăn màn, chuẩn bị cặp sách và tự sắp xếp đồ cá nhân mỗi ngày để trưởng thành hơn và đỡ gánh nặng cho mẹ và bà",
+          "Khuyên Quân cứ giữ nguyên thói quen đó đến tận lúc vào đại học"
+        ],
+        "k": "C",
+        "e": "Tự phục vụ bản thân là bước khởi đầu quan trọng nhất của tinh thần lao động tự lập.",
+        "s": "Đạo đức 4",
+        "h": "Khuyên bạn bỏ thói ỷ lại trong gia đình"
+      },
+      {
+        "c": "DD4-B03-008",
+        "d": "application",
+        "p": "Đến giờ lao động tổng vệ sinh sân trường, cả lớp được chia làm 4 nhóm nhổ cỏ bồn hoa và quét lá khô. Bạn Hùng thấy lá rụng nhiều nên kêu ca: \"Mệt chết đi được, tí lại rụng nữa, quét làm gì!\". Em sẽ giải thích với Hùng ra sao?",
+        "o": [
+          "Giải thích buổi dọn chỉ mất 20 phút nhưng giúp sân trường sạch thoáng không muỗi bọ, cả tổ cùng làm sẽ rất nhanh và vui",
+          "Đốt đống lá khô ngay dưới tán cây phượng sân trường",
+          "Đồng tình bỏ luôn chổi ngồi gốc cây đợi hết giờ rồi về",
+          "Lấy chổi gạt hết đống lá sang khu vực của lớp bạn bên cạnh"
+        ],
+        "k": "A",
+        "e": "Biết động viên nhau và nhìn thấy ý nghĩa của việc giữ vệ sinh chung tạo nên tinh thần lao động tập thể hăng say.",
+        "s": "Đạo đức 4",
+        "h": "Động viên bạn trước tâm lí ngại lao động"
+      },
+      {
+        "c": "DD4-B03-009",
+        "d": "application",
+        "p": "Khi được mẹ giao nhiệm vụ lau sạch bộ bàn ghế phòng khách chuẩn bị đón khách quý đến chơi, em chọn cách thực hiện nào thể hiện tính trách nhiệm và cẩn thận cao nhất?",
+        "o": [
+          "Đổ cả chậu nước to lên ghế gỗ rồi để ướt sũng",
+          "Lấy chổi quét đất quơ qua một cái lên mặt bàn cho nhanh",
+          "Chỉ lau đúng một vệt chính giữa mặt bàn rồi chạy đi chơi game",
+          "Chuẩn bị khăn sạch ẩm vừa phải, lau kĩ cả mặt bàn, khe ghế, chân bàn từ trên xuống dưới, đặt lại ngay ngắn rồi giặt phơi khăn sạch sẽ"
+        ],
+        "k": "D",
+        "e": "Làm việc có phương pháp (từ trên xuống, lau sạch các khe góc, giữ dụng cụ sau làm) nâng cao chất lượng thành quả lao động.",
+        "s": "Đạo đức 4",
+        "h": "Làm việc có trách nhiệm và phương pháp"
+      },
+      {
+        "c": "DD4-B03-010",
+        "d": "application",
+        "p": "Một số bạn nói rằng: \"Học sinh chỉ cần học giỏi chữ nghĩa trên sách vở là đủ, không cần biết nấu cơm, quét nhà hay trồng cây làm gì cả\". Nhận xét nào đúng đắn nhất về quan điểm này?",
+        "o": [
+          "Quan điểm đó phiến diện; học tốt đi đôi với lao động vừa sức giúp phát triển toàn diện, biết quý trọng sức lao động và tự tin tự lập trong cuộc sống",
+          "Đúng; làm việc nhà sẽ làm giảm điểm kiểm tra môn Tiếng Việt",
+          "Đúng tuyệt đối; người học giỏi Toán thì không bao giờ cần phải biết quét nhà",
+          "Chỉ người nghèo mới cần lao động còn người học giỏi thì không"
+        ],
+        "k": "A",
+        "e": "Học đi đôi với hành và lao động rèn nhân cách là nền tảng giáo dục toàn diện.",
+        "s": "Đạo đức 4",
+        "h": "Kết hợp hài hòa học tập và lao động"
+      },
+      {
+        "c": "DD4-B03-011",
+        "d": "application",
+        "p": "Trong nhóm làm báo tường chào mừng ngày Nhà giáo Việt Nam, bạn Lan được giao vẽ viền hoa góc báo. Dù bạn đã hoàn thành khá nhanh nhưng thấy bạn Minh đang lúng túng cắt chữ tiêu đề chưa kịp giờ nộp. Lan nên làm gì?",
+        "o": [
+          "Khoanh tay ngồi nhìn Minh cuống cuồng rồi cười vì phần mình đã xong",
+          "Xé rách chữ bạn Minh vừa cắt vì chê bạn làm chậm",
+          "Chủ động hỗ trợ Minh cắt phụ hoặc sắp xếp bố cục giúp cả nhóm kịp hoàn thành sản phẩm chung đúng tiến độ đẹp nhất",
+          "Mang sản phẩm chưa xong của nhóm đi nộp riêng tên mình"
+        ],
+        "k": "C",
+        "e": "Tinh thần đồng đội hỗ trợ nhau khi phần việc chung gặp khó khăn thể hiện trách nhiệm tập thể cao.",
+        "s": "Đạo đức 4",
+        "h": "Hỗ trợ đồng đội hoàn thành mục tiêu chung"
+      },
+      {
+        "c": "DD4-B03-012",
+        "d": "application",
+        "p": "Quan sát biểu đồ thời gian rèn thói quen tự lập làm việc nhà mỗi ngày của học sinh tổ 1 sau một tháng phát động phong trào \"Tuổi nhỏ làm việc nhỏ\". Ý nghĩa tích cực nhất thấy được từ số liệu này là gì?",
+        "o": [
+          "Học sinh phải làm việc nhà 5 tiếng một ngày mới đạt yêu cầu",
+          "Tất cả học sinh đều không làm việc gì vào buổi tối",
+          "Bạn nào làm việc nhà ít nhất mới là bạn chăm ngoan nhất",
+          "Chỉ cần 20 đến 30 phút mỗi ngày duy trì đều đặn, học sinh hoàn toàn có thể tự gọn gàng góc học tập và giúp đỡ gia đình hiệu quả mà không ảnh hưởng giờ học"
+        ],
+        "k": "D",
+        "e": "Quỹ thời gian hợp lí 20–30 phút/ngày cân bằng tuyệt vời giữa học tập, vui chơi và lao động giúp đỡ gia đình.",
+        "s": "Đạo đức 4",
+        "h": "Đọc số liệu phong trào tự lập việc nhà",
+        "fig": {
+          "type": "bars",
+          "title": "Thời gian giúp việc nhà/ngày (Phút)",
+          "labels": [
+            "Tuần 1",
+            "Tuần 2",
+            "Tuần 3",
+            "Tuần 4"
+          ],
+          "series": [
+            {
+              "values": [
+                10,
+                18,
+                25,
+                30
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "c": "DD4-B03-013",
+        "d": "advanced",
+        "p": "Em hiểu câu nói \"Lao động sáng tạo mang lại niềm vui lớn gấp đôi lao động máy móc đối phó\" như thế nào qua một ví dụ cụ thể ở trường lớp?",
+        "o": [
+          "Làm việc thật chậm kéo dài 2 tiếng đồng hồ cho hết giờ học",
+          "Chỉ chịu làm việc khi được cô giáo thưởng tiền mặt",
+          "Khi dọn tủ sách lớp, em nghĩ ra cách phân loại theo môn học và làm kẹp ngăn tái chế giúp cả lớp tìm sách nhanh",
+          "Khi bị bắt quét sân trường thì cố tình làm gãy cán chổi để được nghỉ sớm"
+        ],
+        "k": "C",
+        "e": "Suy nghĩ tìm cải tiến nhỏ làm công việc sạch đẹp, nhanh gọn và tiện ích hơn chính là tinh thần lao động sáng tạo.",
+        "s": "Đạo đức 4",
+        "h": "Ví dụ về lao động sáng tạo ở trường học"
+      },
+      {
+        "c": "DD4-B03-014",
+        "d": "advanced",
+        "p": "Trong giờ thực hành làm sản phẩm tái chế nhóm 4 người, trưởng nhóm phân công rõ: bạn A cắt bìa, bạn B tô màu, bạn C dán khung, bạn D viết thuyết trình. Tuy nhiên bạn B chê phần tô màu dễ quá hay khó chịu bỏ đi chơi chỗ khác. Trưởng nhóm nên giải quyết sao cho công bằng mà vẫn hoàn thành việc?",
+        "o": [
+          "Cả 3 bạn còn lại cũng bỏ việc luôn để phản đối bạn B",
+          "Chửi mắng bạn B thật to ngay giữa lớp học",
+          "Đuổi bạn B ra khỏi lớp và không báo cô giáo biết",
+          "Lắng nghe bạn B, giải thích khâu tô màu rất quan trọng cho sản phẩm (hoặc hoán đổi việc hợp lí) và nhắc giữ cam kết"
+        ],
+        "k": "D",
+        "e": "Giải quyết xung đột công việc nhóm bằng đối thoại tôn trọng, nêu rõ giá trị từng vai trò và linh hoạt điều phối.",
+        "s": "Đạo đức 4",
+        "h": "Giải quyết phân công công việc trong nhóm"
+      },
+      {
+        "c": "DD4-B03-015",
+        "d": "advanced",
+        "p": "Bác Hồ từng căn dặn thiếu niên nhi đồng 5 điều, trong đó có hai ý liên quan trực tiếp đến thái độ học tập và lao động là \"Học tập tốt, lao động tốt\". Hai phẩm chất này bổ trợ cho nhau thế nào suốt cuộc đời con người?",
+        "o": [
+          "Hai việc này hoàn toàn trái ngược nhau, làm việc này phải bỏ việc kia",
+          "Chỉ cần học thuộc lòng 5 điều Bác Hồ là đủ, không cần làm theo",
+          "Học tập đem lại tri thức giúp lao động sáng tạo hơn; lao động tốt rèn nghị lực, kỉ luật và biến tri thức thành giá trị thật",
+          "Lao động tốt chỉ cần thiết khi nghỉ hè còn trong năm học thì không cần"
+        ],
+        "k": "C",
+        "e": "Tri thức và Thực hành lao động như hai cánh chim giúp con người vươn cao vững vàng trong mọi thời đại.",
+        "s": "Đạo đức 4",
+        "h": "Mối quan hệ Học tập tốt và Lao động tốt"
+      }
+    ]
+  },
+  {
+    "chapter": "daoduc4-c2",
+    "lesson": {
+      "code": "daoduc4-b04",
+      "title": "Bài 4. Tôn trọng tài sản của người khác",
+      "seq": 4,
+      "subtitle": "Hiểu thế nào là tôn trọng tài sản cá nhân của người khác (xin phép trước khi mượn, giữ gìn cẩn thận, trả đúng hẹn và không xâm phạm thư từ, đồ riêng tư)",
+      "concepts": [
+        "Không tự ý lấy, xem hoặc sử dụng đồ dùng của người khác khi chưa được phép",
+        "Quy tắc mượn – giữ gìn – trả đúng hẹn và bồi hoàn nếu làm hỏng",
+        "Nhặt được của rơi trả lại người mất"
+      ]
+    },
+    "questions": [
+      {
+        "c": "DD4-B04-001",
+        "d": "basic",
+        "p": "Việc làm nào sau đây thể hiện rõ sự tôn trọng tài sản của người khác khi em muốn sử dụng chiếc tẩy hoặc thước kẻ của bạn ngồi cạnh?",
+        "o": [
+          "Dùng dao rọc khắc tên mình lên chiếc thước bạn mới cho mượn",
+          "Hỏi mượn bạn một cách lịch sự, đợi bạn đồng ý mới cầm, dùng xong giữ sạch sẽ và trả lại đúng tay bạn kèm lời cảm ơn",
+          "Mượn xong tiện tay bỏ luôn vào cặp mình mang về nhà làm của riêng",
+          "Thò tay sang hộp bút của bạn lấy dùng luôn khi bạn chưa quay lại nhìn"
+        ],
+        "k": "B",
+        "e": "Xin phép trước – giữ gìn cẩn thận – trả đúng hẹn là ba bước vàng khi sử dụng tài sản của người khác.",
+        "s": "Đạo đức 4",
+        "h": "Quy tắc 3 bước khi mượn đồ người khác"
+      },
+      {
+        "c": "DD4-B04-002",
+        "d": "basic",
+        "p": "Ngoài tiền bạc, đồ dùng học tập và xe đạp, những thứ nào sau đây cũng thuộc quyền sở hữu riêng tư của mỗi người cần được tôn trọng tuyệt đối?",
+        "o": [
+          "Cột đèn giao thông ở ngã tư đường",
+          "Thư từ, nhật kí cá nhân, tin nhắn điện thoại, tệp ảnh và sản phẩm sáng tạo của người đó",
+          "Không khí ngoài sân trường",
+          "Chiếc ghế đá ngoài công viên công cộng"
+        ],
+        "k": "B",
+        "e": "Quyền sở hữu và quyền riêng tư bao gồm cả tài sản vật chất lẫn thông tin, nhật kí, tác phẩm trí tuệ cá nhân.",
+        "s": "Đạo đức 4",
+        "h": "Mở rộng khái niệm tài sản và riêng tư"
+      },
+      {
+        "c": "DD4-B04-003",
+        "d": "basic",
+        "p": "Nếu vô tình nhặt được một chiếc ví nhỏ hoặc chiếc đồng hồ đẹp có bạn đánh rơi trên hành lang sân trường, hành động đúng đạo đức là gì?",
+        "o": [
+          "Mang nộp ngay cho thầy cô chủ nhiệm, phòng Đội hoặc cô phụ trách thư viện để tìm trả lại cho người đánh mất",
+          "Tháo dây đồng hồ ra vứt vào sọt rác cho vui",
+          "Nhìn trước ngó sau không thấy ai rồi đút túi mang về dùng riêng",
+          "Đem ra cổng trường bán lấy tiền mua quà ăn vặt"
+        ],
+        "k": "A",
+        "e": "\"Nhặt được của rơi, trả người đánh mất\" là biểu hiện trung thực và tôn trọng tài sản người khác rõ nét nhất.",
+        "s": "Đạo đức 4",
+        "h": "Nhặt được của rơi trả người mất"
+      },
+      {
+        "c": "DD4-B04-004",
+        "d": "basic",
+        "p": "Quan sát bảng quy tắc ứng xử với tài sản cá nhân dưới đây. Nếu lỡ tay làm gãy chiếc bút máy hoặc rách trang truyện tranh đã mượn của bạn, em cần xử lí thế nào?",
+        "o": [
+          "Đổ lỗi cho em bé nhà mình hoặc bạn ngồi bên cạnh",
+          "Trả lén lúc bạn không để ý rồi trốn mất",
+          "Thành thật xin lỗi bạn ngay lập tức và bàn với bố mẹ tìm mua lại chiếc mới giống hệt (hoặc sửa đền bù thỏa đáng) cho bạn",
+          "Lén giấu xuống gầm bàn rồi chối bay chối biến rằng không phải mình làm"
+        ],
+        "k": "C",
+        "e": "Dũng cảm nhận lỗi và khắc phục hậu quả giúp giữ trọn lòng tin và tình bạn bền chặt.",
+        "s": "Đạo đức 4",
+        "h": "Trách nhiệm khi làm hỏng đồ mượn",
+        "fig": {
+          "type": "table",
+          "title": "Tôn trọng Tài sản Người khác",
+          "head": [
+            "Tình huống",
+            "Cách ứng xử chuẩn"
+          ],
+          "rows": [
+            [
+              "Muốn dùng đồ của bạn",
+              "Hỏi xin phép trước"
+            ],
+            [
+              "Đang mượn đồ dùng",
+              "Giữ sạch sẽ cẩn thận"
+            ],
+            [
+              "Lỡ làm rách, hỏng",
+              "Xin lỗi & đền bù"
+            ],
+            [
+              "Nhặt được của rơi",
+              "Nộp thầy cô trả lại"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "DD4-B04-005",
+        "d": "basic",
+        "p": "Vì sao không được phép tự ý mở cặp sách hoặc đọc trộm trang nhật kí của bạn bè, anh chị em trong nhà khi họ không có mặt ở đó?",
+        "o": [
+          "Vì hành động đó xâm phạm quyền riêng tư và tài sản cá nhân, làm người khác mất lòng tin và tổn thương tình cảm sâu sắc",
+          "Vì cặp sách của bạn luôn bị khóa bằng mã số sắt",
+          "Vì đọc xong sẽ quên hết bài tập Toán",
+          "Vì đọc trộm nhật kí rất hại cho đôi mắt vào ban ngày"
+        ],
+        "k": "A",
+        "e": "Tôn trọng không gian riêng tư (cặp sách, ngăn bàn, nhật kí, tài khoản số) là biểu hiện người văn minh.",
+        "s": "Đạo đức 4",
+        "h": "Tôn trọng không gian riêng tư"
+      },
+      {
+        "c": "DD4-B04-006",
+        "d": "basic",
+        "p": "Khi đến chơi nhà bạn thân cùng lớp, cách cư xử nào thể hiện sự tôn trọng tài sản của gia đình bạn?",
+        "o": [
+          "Tự ý chạy khắp các tầng mở tung mọi ngăn tủ quần áo xem có gì",
+          "Tiện tay cầm một món đồ chơi nhỏ đẹp của em bạn đút vào túi mang về",
+          "Nhảy chân bẩn lên nệm giường trắng trong phòng ngủ của bố mẹ bạn",
+          "Xin phép chủ nhà trước khi chạm vào đồ chơi hay sách truyện trên giá, không tự ý mở tủ lạnh hay lục lọi ngăn tủ các phòng khác"
+        ],
+        "k": "D",
+        "e": "Khách lịch sự luôn giữ giới hạn không gian sinh hoạt chung và hỏi phép trước khi sử dụng đồ của chủ nhà.",
+        "s": "Đạo đức 4",
+        "h": "Phép lịch sự khi đến chơi nhà bạn"
+      },
+      {
+        "c": "DD4-B04-007",
+        "d": "application",
+        "p": "Bạn Hoa mượn cuốn truyện tranh mới tinh của bạn Mai hẹn thứ Hai tuần sau trả. Đến thứ Hai Hoa mới đọc được một nửa. Cách ứng xử có trách nhiệm nhất của Hoa lúc này là gì?",
+        "o": [
+          "Xé rách một trang đánh dấu rồi giữ luôn cuốn truyện",
+          "Tắt máy trốn tránh mỗi khi Mai nhắn hỏi lấy lại sách",
+          "Chủ động mang truyện tới lớp nói rõ với Mai và hỏi xem Mai có cho mượn gia hạn thêm vài ngày không; nếu Mai cần dùng ngay thì vui vẻ trả đúng hẹn",
+          "Cứ giữ luôn ở nhà đọc hết thêm 2 tuần nữa mà không thèm nói năng gì"
+        ],
+        "k": "C",
+        "e": "Giữ chữ tín về thời hạn hoặc chủ động xin gia hạn kịp thời bảo đảm tôn trọng quyền định đoạt của chủ sở hữu.",
+        "s": "Đạo đức 4",
+        "h": "Giữ chữ tín về thời gian trả đồ"
+      },
+      {
+        "c": "DD4-B04-008",
+        "d": "application",
+        "p": "Trên đường đi học về cùng bạn Thắng, em thấy Thắng thò tay qua hàng rào nhà dân hái trộm chùm khế chín mang ra ăn. Em nên khuyên ngăn Thắng thế nào?",
+        "o": [
+          "Nhảy qua hàng rào phụ Thắng hái sạch hết cả cây cho nhanh",
+          "Đứng ngoài cổng canh chừng giúp Thắng khỏi bị bác chủ nhà phát hiện",
+          "Khuyên Thắng dừng ngay và không ăn quả hái trộm vì cây quả trong vườn thuộc công sức chăm sóc của chủ nhà; muốn xin hãy vào lễ phép hỏi xin bác chủ nhà",
+          "Khen Thắng dũng cảm nhanh nhẹn và xin một nửa số quả hái trộm"
+        ],
+        "k": "C",
+        "e": "\"Của một đồng công một nén\"; tự ý hái quả nhà người khác không xin phép là hành vi xâm phạm tài sản cần ngăn chặn.",
+        "s": "Đạo đức 4",
+        "h": "Không tự ý hái quả vườn nhà người khác"
+      },
+      {
+        "c": "DD4-B04-009",
+        "d": "application",
+        "p": "Một bạn học sinh tìm thấy chiếc bút mực đắt tiền rơi dưới chân cầu thang vắng vẻ. Bạn ấy suy nghĩ: \"Mình giữ luôn làm của riêng vì chắc người mất nhiều tiền lắm, mất một cái chắc không sao đâu\". Nhận định đạo đức nào phản bác ý nghĩ sai trái đó?",
+        "o": [
+          "Chỉ cần không rơi trên bàn giáo viên thì nhặt được đều thuộc về mình",
+          "Người mất giàu rồi nên tự mua cái khác, trả lại là thừa thãi",
+          "Đúng đấy, đồ càng đắt tiền thì càng nên giữ kín làm của riêng mình",
+          "Dù đồ lớn hay nhỏ của ai đi nữa, giữ của rơi làm của riêng đều thiếu trung thực và có thể lấy mất kỉ vật quý của họ"
+        ],
+        "k": "D",
+        "e": "Giá trị tinh thần và kỉ niệm gắn với món đồ (như chiếc bút bố tặng, thẻ học sinh, chìa khóa nhà) đôi khi vô giá đối với chủ nhân.",
+        "s": "Đạo đức 4",
+        "h": "Phê phán thói tham của rơi"
+      },
+      {
+        "c": "DD4-B04-010",
+        "d": "application",
+        "p": "Trong giờ Mĩ thuật, bạn Nam quên mang hộp sáp màu nên quay sang tự ý lấy cây màu đỏ mới nguyên của bạn Linh dùng miết thật mạnh làm gãy làm đôi rồi đặt lén trả vào hộp Linh không nói gì. Việc làm của Nam mắc liền lúc hai lỗi đạo đức nào?",
+        "o": [
+          "Không mắc lỗi nào vì chỉ là một cây sáp màu nhỏ xíu",
+          "Mắc lỗi quên không lấy luôn cả hộp màu của Linh",
+          "Chỉ mắc lỗi tô màu đỏ không đúng đề bài vẽ tranh phong cảnh",
+          "Vừa tự ý lấy đồ chưa xin phép, vừa thiếu trung thực trốn tránh trách nhiệm khi làm hư hỏng tài sản của bạn"
+        ],
+        "k": "D",
+        "e": "Dám nhận lỗi và bồi hoàn dù chỉ là vật nhỏ rèn nhân cách thẳng thắn và sự tôn trọng công bằng.",
+        "s": "Đạo đức 4",
+        "h": "Phân tích hai lỗi tự ý và thiếu trung thực"
+      },
+      {
+        "c": "DD4-B04-011",
+        "d": "application",
+        "p": "Khi tìm kiếm hình ảnh hoặc bài thơ của một bạn khác sáng tác để đưa vào bài báo tường của lớp, hành động nào thể hiện sự tôn trọng tài sản trí tuệ của tác giả?",
+        "o": [
+          "Cắt ghép sửa bậy làm xấu tác phẩm của bạn mà không hỏi ý kiến",
+          "Xóa tên tác giả gốc đi và điền tên mình vào dưới bức vẽ tuyệt đẹp đó",
+          "Hỏi xin phép tác giả trước khi sử dụng và ghi rõ đầy đủ họ tên tác giả phía dưới bức tranh hoặc bài thơ đó",
+          "Chụp lén mang đi thi lấy giải thưởng cá nhân cho mình"
+        ],
+        "k": "C",
+        "e": "Tài sản trí tuệ (bài viết, bức tranh, mã chương trình) cũng là công sức lao động quý báu cần được ghi nhận đúng tác giả.",
+        "s": "Đạo đức 4",
+        "h": "Tôn trọng bản quyền tác phẩm của bạn"
+      },
+      {
+        "c": "DD4-B04-012",
+        "d": "application",
+        "p": "Trong một gia đình có hai chị em dùng chung góc học tập gần nhau. Để tránh tranh cãi mất đồ hoặc làm hỏng đồ của nhau, quy tắc thỏa thuận chung nào là hay nhất?",
+        "o": [
+          "Trộn lẫn tất cả sách vở đồ dùng hai người vào chung một đống lớn",
+          "Ai lấy được đồ nào trước thì đồ đó trở thành của người ấy luôn",
+          "Phân định rõ ngăn hộp riêng của mỗi người, quy ước ai muốn mượn đồ bên ngăn kia phải hỏi tiếng trước và cất trả đúng vị trí cũ sau khi dùng",
+          "Cấm hai chị em không bao giờ nói chuyện với nhau"
+        ],
+        "k": "C",
+        "e": "Ranh giới tài sản rõ ràng ngay giữa anh chị em ruột thịt giúp nuôi dưỡng thói quen tôn trọng lẫn nhau từ nhỏ.",
+        "s": "Đạo đức 4",
+        "h": "Quy ước tôn trọng tài sản giữa anh chị em"
+      },
+      {
+        "c": "DD4-B04-013",
+        "d": "advanced",
+        "p": "Giả sử em đang gấp vội phải nộp bài kiểm tra mà bút hết mực, bạn ngồi cạnh vừa xin ra ngoài 2 phút chưa kịp quay lại bàn. Em rất cần mượn tạm chiếc bút dự phòng trên hộp bút của bạn trong 1 phút. Xử lí thế nào là chuẩn mực nhất trong tình huống bất khả kháng này?",
+        "o": [
+          "Thưa xin phép thầy cô chứng kiến, giữ gìn cẩn thận rồi ngay khi bạn về liền xin lỗi và cảm ơn vì đã mượn gấp",
+          "Không thèm báo ai, giấu luôn cây bút vào túi áo mình sau giờ thi",
+          "Bẻ lấy ngòi bút của bạn lắp vào thân bút mình",
+          "Cứ tự nhiên lấy dùng xong vứt lại bừa bãi không nói lại một lời nào với bạn"
+        ],
+        "k": "A",
+        "e": "Trong tình huống khẩn cấp có người giám sát (giáo viên), tính minh bạch trước và lời giải thích chân thành ngay sau đó vẫn bảo toàn sự tôn trọng.",
+        "s": "Đạo đức 4",
+        "h": "Ứng xử minh bạch trong tình huống gấp"
+      },
+      {
+        "c": "DD4-B04-014",
+        "d": "advanced",
+        "p": "Có bạn lí sự: \"Bạn thân với nhau rồi thì việc gì phải giữ kẽ xin phép mượn đồ hay đợi cho phép mới đọc tin nhắn trên máy bạn chứ, bạn bè chia sẻ tất cả!\". Em nghĩ sao về ranh giới tình bạn này?",
+        "o": [
+          "Hoàn toàn đúng; đã là bạn thân thì có thể tự lấy tiêu tiền tiết kiệm của nhau không cần hỏi",
+          "Bạn càng thân càng cần tôn trọng ranh giới riêng tư và đồ dùng của nhau, không tùy tiện xâm phạm để tình bạn bền vững",
+          "Nếu bạn thân không cho đọc nhật kí nghĩa là bạn đó đang ghét mình",
+          "Bạn thân bắt buộc phải cho nhau hết toàn bộ mật khẩu tài khoản cá nhân"
+        ],
+        "k": "B",
+        "e": "Sự thân thiết không đồng nghĩa với xóa bỏ quyền riêng tư; tôn trọng giúp tình bạn khỏe mạnh và tin cậy.",
+        "s": "Đạo đức 4",
+        "h": "Ranh giới tôn trọng trong tình bạn thân"
+      },
+      {
+        "c": "DD4-B04-015",
+        "d": "advanced",
+        "p": "Trường học phát động xây dựng \"Tủ đồ thất lạc – Trả lại bạn bè\" ở sảnh tầng 1. Để mô hình này thực sự phát huy giá trị đạo đức cho toàn trường suốt nhiều năm, điều gì quan trọng nhất từ phía học sinh?",
+        "o": [
+          "Mỗi học sinh tự giác viết tên lớp lên đồ dùng cá nhân, chủ động nhặt gửi vật rơi vào tủ thất lạc và chỉ nhận đúng món đồ thuộc về mình",
+          "Không bao giờ ghi tên vào đồ cá nhân và cũng không thèm nhặt giúp bạn",
+          "Đổ rác thải bánh kẹo vào bên trong tủ đồ thất lạc",
+          "Tranh thủ ra tủ thất lạc lấy bớt những món đồ đẹp của bạn khác mang về"
+        ],
+        "k": "A",
+        "e": "Văn hóa trung thực cộng đồng biến tủ đồ thất lạc thành bài học sống động về lòng tự trọng và tôn trọng tài sản chung – riêng.",
+        "s": "Đạo đức 4",
+        "h": "Văn hóa cộng đồng với tủ đồ thất lạc"
+      }
+    ]
+  },
+  {
+    "chapter": "daoduc4-c2",
+    "lesson": {
+      "code": "daoduc4-b05",
+      "title": "Bài 5. Bảo vệ của công",
+      "seq": 5,
+      "subtitle": "Nhận biết tài sản công cộng tại trường học và địa phương (bàn ghế, công viên, thư viện, xe buýt, đèn đường), biết giữ gìn và nhắc nhở mọi người cùng bảo vệ của công",
+      "concepts": [
+        "Phân biệt của công (tài sản chung phục vụ cộng đồng) và tài sản tư nhân",
+        "Hành vi giữ gìn trường lớp, công viên, di tích, công trình công cộng",
+        "Lên án và ngăn chặn hành vi phá hoại tài sản chung"
+      ]
+    },
+    "questions": [
+      {
+        "c": "DD4-B05-001",
+        "d": "basic",
+        "p": "\"Của công\" (tài sản công cộng) được hiểu đúng nhất là gì?",
+        "o": [
+          "Những tài sản, công trình thuộc sở hữu chung phục vụ lợi ích tập thể và toàn xã hội như trường học, công viên, cầu đường",
+          "Chỉ là những món đồ chơi cũ không ai thèm nhận trong nhà kho",
+          "Tài sản riêng của một gia đình nào đó tự bỏ tiền mua",
+          "Chỉ là đồ dùng học tập nằm trong cặp sách cá nhân của một bạn"
+        ],
+        "k": "A",
+        "e": "Của công do Nhà nước và nhân dân đóng góp xây dựng nên để phục vụ chung cho mọi người cùng hưởng lợi.",
+        "s": "Đạo đức 4",
+        "h": "Khái niệm tài sản công cộng"
+      },
+      {
+        "c": "DD4-B05-002",
+        "d": "basic",
+        "p": "Trong trường học, những tài sản nào sau đây là \"của công\" mà mọi học sinh đều có trách nhiệm giữ gìn bảo vệ?",
+        "o": [
+          "Chiếc cặp sách mới bố mẹ mua cho riêng em",
+          "Cây bút chì riêng nằm trong hộp bút của em",
+          "Chiếc áo đồng phục em đang mặc trên người",
+          "Bàn ghế lớp học, bảng viết, quạt trần, đèn điện, sách thư viện, thiết bị nhà vệ sinh và cây xanh sân trường"
+        ],
+        "k": "D",
+        "e": "Mọi cơ sở vật chất của nhà trường đều phục vụ hàng trăm thế hệ học sinh nối tiếp nhau học tập.",
+        "s": "Đạo đức 4",
+        "h": "Nhận biết của công trong trường học"
+      },
+      {
+        "c": "DD4-B05-003",
+        "d": "basic",
+        "p": "Hành động nào sau đây thể hiện tốt ý thức bảo vệ của công khi sử dụng ghế đá và dụng cụ tập thể dục ngoài công viên?",
+        "o": [
+          "Đu bám nhảy mạnh tập thể dục quá tải làm cong gãy trục máy tập",
+          "Lấy gạch nhọn khắc tên kỉ niệm lên lưng ghế đá mới sơn",
+          "Đổ sơn màu lên các biển báo chỉ dẫn trong công viên",
+          "Ngồi nhẹ nhàng sạch sẽ không đứng cả giày dép bùn lên mặt ghế, không viết vẽ bậy và sử dụng thiết bị tập đúng hướng dẫn"
+        ],
+        "k": "D",
+        "e": "Sử dụng đúng công năng và giữ sạch sẽ giúp các công trình công cộng luôn bền đẹp cho mọi người.",
+        "s": "Đạo đức 4",
+        "h": "Bảo vệ thiết bị công viên công cộng"
+      },
+      {
+        "c": "DD4-B05-004",
+        "d": "basic",
+        "p": "Quan sát bảng so sánh sau. Khi nhìn thấy một vòi nước rửa tay ở khu vệ sinh trường bị ai đó quên vặn khóa nên đang chảy xối xả lãng phí, em làm gì ngay?",
+        "o": [
+          "Mặc kệ bỏ chạy thẳng lên lớp vì không phải tiền nước nhà mình trả",
+          "Chạy tới vặn khóa chặt vòi nước lại ngay để tiết kiệm nước sạch chung; nếu khóa bị hỏng rò rỉ thì báo ngay cho bác bảo vệ sửa chữa",
+          "Lấy tay bịt đầu vòi xịt tung nước ra khắp sàn cho vui",
+          "Mở to thêm hai vòi bên cạnh nữa"
+        ],
+        "k": "B",
+        "e": "Tiết kiệm điện nước chung ở trường học chính là biểu hiện văn minh bảo vệ tài sản và ngân sách cộng đồng.",
+        "s": "Đạo đức 4",
+        "h": "Khóa vòi nước công cộng tiết kiệm tài sản chung",
+        "fig": {
+          "type": "table",
+          "title": "Giữ gìn Tài sản Chung",
+          "head": [
+            "Nơi công cộng",
+            "Việc nên làm bảo vệ"
+          ],
+          "rows": [
+            [
+              "Lớp học",
+              "Tắt điện khi ra về"
+            ],
+            [
+              "Thư viện",
+              "Không vẽ vào sách"
+            ],
+            [
+              "Xe buýt",
+              "Không rạch đệm ghế"
+            ],
+            [
+              "Công viên",
+              "Giữ sạch ghế đá, cây"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "DD4-B05-005",
+        "d": "basic",
+        "p": "Khi mượn sách đọc từ Thư viện nhà trường, hành động nào là KHÔNG được làm vì gây hư hại tài sản chung của nhiều thế hệ bạn đọc?",
+        "o": [
+          "Rửa tay sạch sẽ trước khi mở sách đọc",
+          "Gấp mép trang sách làm dấu, dùng bút bi gạch chân vẽ bậy vào sách hoặc làm đổ nước ướt nhòe bìa sách",
+          "Trả sách đúng hạn cho cô thủ thư khi đọc xong",
+          "Dùng một mảnh giấy đánh dấu trang (Bookmark) kẹp nhẹ vào trang đang đọc"
+        ],
+        "k": "B",
+        "e": "Sách thư viện luân chuyển qua tay hàng chục bạn đọc khác nhau; giữ sách phẳng sạch là trách nhiệm công dân nhí.",
+        "s": "Đạo đức 4",
+        "h": "Bảo vệ sách chung thư viện"
+      },
+      {
+        "c": "DD4-B05-006",
+        "d": "basic",
+        "p": "Tại sao việc tắt hết đèn điện, quạt trần và đóng cài cửa sổ lớp học trước khi ra về sau buổi học lại là hành động bảo vệ của công thiết thực?",
+        "o": [
+          "Giúp tiết kiệm tiền điện cho nhà trường, kéo dài tuổi thọ bóng đèn – quạt và ngăn mưa tạt gió va đập làm vỡ kính cửa sổ",
+          "Để hôm sau không ai vào lớp học được nữa",
+          "Vì tắt điện giúp bàn ghế tự động sạch bụi",
+          "Chỉ để làm tối om lớp học cho bạn trực nhật sợ"
+        ],
+        "k": "A",
+        "e": "Một thao tác tắt cầu dao/công tắc chỉ mất 5 giây nhưng tiết kiệm lượng điện năng khổng lồ trên toàn quốc.",
+        "s": "Đạo đức 4",
+        "h": "Tắt thiết bị điện khi rời phòng chung"
+      },
+      {
+        "c": "DD4-B05-007",
+        "d": "application",
+        "p": "Trên xe buýt công cộng đông khách, em thấy một bạn nhỏ ngồi ghế trước đang cầm chiếc ghim nhọn rạch từng đường nhỏ lên lớp đệm da ghế ngồi. Em ứng xử thế nào cho phù hợp và hiệu quả?",
+        "o": [
+          "Nhắm mắt quay sang cửa sổ coi như không thấy gì",
+          "Lấy bút bi vẽ thêm hình ngôi sao cạnh chỗ bạn ấy vừa rạch",
+          "Đánh mạnh vào tay bạn ấy gây gổ đánh nhau ngay trên xe buýt",
+          "Nhắc nhẹ bạn dừng tay vì ghế xe là của chung mọi người; nếu bạn vẫn tiếp tục thì báo ngay cho bác tài xế hoặc phụ xe"
+        ],
+        "k": "D",
+        "e": "Nhắc nhở lịch sự kết hợp báo nhân viên quản lí trực tiếp là cách bảo vệ tài sản giao thông công cộng văn minh.",
+        "s": "Đạo đức 4",
+        "h": "Ngăn chặn phá hoại ghế xe buýt"
+      },
+      {
+        "c": "DD4-B05-008",
+        "d": "application",
+        "p": "Em xem sơ đồ chi phí sửa chữa cơ sở vật chất hằng năm của một trường tiểu học trước và sau khi thực hiện phong trào \"Lớp em tự quản giữ gìn của công\". Kết quả số liệu cho thấy điều gì?",
+        "o": [
+          "Học sinh giữ gìn của công tốt giúp giảm mạnh tiền sửa đồ hỏng, để dành kinh phí mua thêm sách và đồ chơi sân trường",
+          "Năm thứ 3 học sinh không được ngồi bàn ghế nữa",
+          "Không cần giữ gìn của công vì chi phí sửa chữa lúc nào cũng bằng không",
+          "Học sinh càng giữ gìn thì bàn ghế càng tốn nhiều tiền sửa hơn"
+        ],
+        "k": "A",
+        "e": "Tiền sửa chữa đồ công bị phá hoại vốn trích từ ngân sách chung; giữ gìn tốt sẽ tạo thêm ngân sách nâng cấp môi trường học tập tốt hơn.",
+        "s": "Đạo đức 4",
+        "h": "Đọc số liệu lợi ích bảo vệ của công",
+        "fig": {
+          "type": "bars",
+          "title": "Chi phí sửa đồ hư hại (Triệu đồng)",
+          "labels": [
+            "Năm 1",
+            "Năm 2",
+            "Năm 3"
+          ],
+          "series": [
+            {
+              "values": [
+                24,
+                11,
+                4
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "c": "DD4-B05-009",
+        "d": "application",
+        "p": "Trong giờ ra chơi, một nhóm bạn nam đá bóng mạnh ngay sát dãy cửa kính tầng 1 làm quả bóng đập rầm vào khung kính suýt vỡ. Với tư cách bạn cùng lớp, em góp ý thế nào?",
+        "o": [
+          "Chạy đi đóng rèm lại rồi cho các bạn đá thẳng vào cửa kính",
+          "Cổ vũ các bạn sút mạnh hơn nữa xem kính lớp nào dày hơn",
+          "Nhắc các bạn ra bãi sân trống xa dãy cửa kính lớp học để đá bóng thoải mái mà không làm vỡ kính gây nguy hiểm",
+          "Đứng cười thích thú chờ kính vỡ toang"
+        ],
+        "k": "C",
+        "e": "Phòng ngừa rủi ro trước khi tai nạn vỡ kính xảy ra bảo vệ cả tính mạng bạn bè lẫn cơ sở vật chất nhà trường.",
+        "s": "Đạo đức 4",
+        "h": "Chuyển chỗ đá bóng tránh vỡ kính trường"
+      },
+      {
+        "c": "DD4-B05-010",
+        "d": "application",
+        "p": "Khi đi tham quan bảo tàng lịch sử hoặc khu di tích văn hóa địa phương có biển báo \"Không chạm tay vào hiện vật\", hành động nào thể hiện đúng ý thức bảo vệ di sản công cộng?",
+        "o": [
+          "Chụp ảnh bật đèn flash sáng chói dí sát vào tranh cổ dù biển cấm",
+          "Lén sờ thử xem bức tượng cổ bằng đồng có lạnh không",
+          "Dùng tay cạo thử lớp sơn son thếp vàng cổ kính",
+          "Đứng ngắm qua vạch quy định, giữ im lặng lắng nghe thuyết minh và tuyệt đối không sờ chạm hay trèo lên bệ trưng bày"
+        ],
+        "k": "D",
+        "e": "Mỗi dấu tay mồ hôi hay ánh đèn flash mạnh có thể làm hư hại không thể phục hồi các bảo vật lịch sử quý giá hàng trăm năm.",
+        "s": "Đạo đức 4",
+        "h": "Bảo vệ hiện vật bảo tàng và di tích"
+      },
+      {
+        "c": "DD4-B05-011",
+        "d": "application",
+        "p": "Bạn Minh nói: \"Cái bàn này của nhà trường chứ có phải bố mình bỏ tiền mua đâu, mình cứ vẽ nháp Toán lên mặt bàn rồi lấy tẩy gôm cho tiện!\". Cách giải thích nào giúp Minh thay đổi suy nghĩ sai lầm đó?",
+        "o": [
+          "Bảo Minh cứ vẽ kín hết bàn này rồi xin đổi bàn mới",
+          "Khen Minh tiết kiệm được hẳn 1 tờ giấy nháp cho bố mẹ",
+          "Mượn luôn mặt bàn của Minh để cả tổ cùng vẽ nháp cho vui",
+          "Giải thích bàn ghế do công sức nhân dân đóng góp để nhiều khóa học sinh dùng tiếp; vẽ bẩn vừa xấu lớp vừa tốn công lau sửa"
+        ],
+        "k": "D",
+        "e": "Tài sản công gắn liền với đóng góp của chính cha mẹ mình và quyền lợi học tập của các em khóa sau.",
+        "s": "Đạo đức 4",
+        "h": "Phản biện tâm lí \"cha chung không ai khóc\""
+      },
+      {
+        "c": "DD4-B05-012",
+        "d": "application",
+        "p": "Nếu phát hiện một cánh cửa sổ lớp học bị lỏng bản lề sắp bung rơi hoặc chân ghế gỗ bị lung lay dễ gãy, cách xử lí đúng trách nhiệm công dân nhí là gì?",
+        "o": [
+          "Cố tình rung lắc thật mạnh cho bản lề gãy rụng hẳn xuống sàn rồi cười",
+          "Để mặc kệ cho bạn nào vô ý ngồi lên bị ngã sấp mặt",
+          "Không rung lắc giật thêm cho gãy hẳn, đặt tạm biển/báo cho cả lớp tránh ngồi vào ghế hỏng đó và báo ngay cô chủ nhiệm cùng bác bảo vệ sửa gia cố kịp thời",
+          "Lấy chiếc ghế hỏng đó tráo đổi sang bàn bạn bên cạnh mà không nói gì"
+        ],
+        "k": "C",
+        "e": "Báo hỏng sớm khi sự cố còn nhỏ giúp sửa chữa nhanh gọn, ít tốn kém và phòng tránh tai nạn thương tích học đường.",
+        "s": "Đạo đức 4",
+        "h": "Báo sửa kịp thời khi thấy thiết bị lỏng hỏng"
+      },
+      {
+        "c": "DD4-B05-013",
+        "d": "advanced",
+        "p": "Nhiều nơi vẫn còn tồn tại thói quen xấu \"Cha chung không ai khóc\" (thấy tài sản chung hỏng hóc hoặc bị phá hoại thì làm ngơ, dùng phá phách hơn đồ nhà mình). Theo em, thói quen này gây hậu quả lâu dài gì cho cộng đồng?",
+        "o": [
+          "Không ảnh hưởng gì đến cuộc sống của bản thân và gia đình mình",
+          "Giúp mọi người giàu có nhanh hơn rất nhiều",
+          "Làm cho các công viên và trường học tự động trở nên đẹp đẽ hơn",
+          "Công trình chung nhanh hỏng bẩn, tốn tiền xây sửa lại nhiều lần và chính gia đình mình cũng mất nơi sạch đẹp để sử dụng"
+        ],
+        "k": "D",
+        "e": "Bảo vệ của công chính là bảo vệ quyền lợi thụ hưởng văn minh dài lâu của bản thân và gia đình mình.",
+        "s": "Đạo đức 4",
+        "h": "Tác hại của thói quen \"cha chung không ai khóc\""
+      },
+      {
+        "c": "DD4-B05-014",
+        "d": "advanced",
+        "p": "Giả sử em đang đi bộ dạo công viên buổi tối thì thấy hai bạn nhỏ tuổi hơn mình đang ném đá làm vỡ một chiếc đèn trang trí dọc lối đi. Em xử lí thế nào để vừa ngăn chặn được việc phá hoại tiếp theo vừa mang tính giáo dục ôn hòa?",
+        "o": [
+          "Nhặt thêm hòn đá ném vỡ nốt chiếc đèn còn lại thi xem ai ném trúng hơn",
+          "Giải thích đèn chiếu sáng giúp khu phố an toàn ban đêm, mảnh kính vỡ gây nguy hiểm và báo bảo vệ công viên tới xử lí",
+          "Quay lưng bỏ đi về nhà ngủ coi như mình bị mù không thấy gì",
+          "Quát mắng dọa đánh hai em nhỏ khiến các em hoảng sợ chạy mất"
+        ],
+        "k": "B",
+        "e": "Ngăn chặn ôn hòa, giải thích hậu quả an toàn và nhờ lực lượng quản lí thu dọn mảnh vỡ bảo vệ cả cộng đồng.",
+        "s": "Đạo đức 4",
+        "h": "Xử lí ngăn chặn phá hoại đèn công cộng"
+      },
+      {
+        "c": "DD4-B05-015",
+        "d": "advanced",
+        "p": "Để trường học xây dựng được văn hóa \"Bảo vệ của công từ những điều nhỏ nhất\", bản thân mỗi học sinh Lớp 4 cần gắn kết ba yếu tố nào?",
+        "o": [
+          "Nhận thức đúng giá trị chung – Tự giác giữ gìn từ bàn ghế, điện nước, sách thư viện – Dũng cảm nhắc nhở lan tỏa ý thức tốt tới bạn bè xung quanh",
+          "Chỉ trông chờ bác bảo vệ đi theo canh gác từng chiếc bàn học",
+          "Chỉ giữ gìn đồ ở nhà riêng còn đồ ở trường mặc kệ",
+          "Chỉ cần ký tên vào bản cam kết đầu năm rồi cất đi không cần thực hiện"
+        ],
+        "k": "A",
+        "e": "Nhận thức – Tự giác – Lan tỏa tạo nên môi trường văn hóa học đường bền vững.",
+        "s": "Đạo đức 4",
+        "h": "Ba trụ cột xây dựng ý thức bảo vệ của công"
+      }
+    ]
+  },
+  {
+    "chapter": "daoduc4-c2",
+    "lesson": {
+      "code": "daoduc4-b06",
+      "title": "Bài 6. Thiết lập và Duy trì quan hệ bạn bè",
+      "seq": 6,
+      "subtitle": "Biết cách chủ động làm quen, mở rộng tình bạn chân thành, bình đẳng; rèn kĩ năng lắng nghe, tôn trọng sự khác biệt và giải quyết bất đồng để tình bạn bền lâu",
+      "concepts": [
+        "Cách chủ động bắt chuyện, làm quen thân thiện với bạn mới",
+        "Bí quyết giữ gìn tình bạn bền lâu: chân thành, lắng nghe, tin cậy, giúp nhau tiến bộ",
+        "Phân biệt tình bạn tốt và sự bao che khuyết điểm"
+      ]
+    },
+    "questions": [
+      {
+        "c": "DD4-B06-001",
+        "d": "basic",
+        "p": "Để chủ động làm quen với một bạn mới ở lớp học thêm hoặc khu phố, cách mở lời nào tự nhiên, lịch sự và thân thiện nhất?",
+        "o": [
+          "Đẩy vai bạn thật mạnh một cái rồi chạy biến",
+          "Mỉm cười tươi, chào hỏi, giới thiệu tên mình rồi hỏi thăm nhẹ nhàng về tên, lớp hoặc sở thích chung (đọc sách, thể thao) của bạn",
+          "Hỏi dồn dập xem nhà bạn có bao nhiêu tiền và bố mẹ bạn làm chức gì",
+          "Khoanh tay nhìn chằm chằm vào mặt bạn từ đầu đến chân rồi im lặng"
+        ],
+        "k": "B",
+        "e": "Nụ cười thân thiện, lời giới thiệu ngắn gọn và câu hỏi mở về sở thích chung giúp xóa tan sự ngại ngùng ban đầu.",
+        "s": "Đạo đức 4",
+        "h": "Cách chủ động làm quen thân thiện"
+      },
+      {
+        "c": "DD4-B06-002",
+        "d": "basic",
+        "p": "Những đức tính nào sau đây giúp duy trì một tình bạn gắn bó, tin cậy và bền vững lâu dài?",
+        "o": [
+          "Chân thành, trung thực, biết lắng nghe, tôn trọng lẫn nhau và sẵn sàng giúp đỡ khi bạn gặp khó khăn",
+          "Luôn tranh giành phần hơn, hay nói xấu sau lưng bạn",
+          "Chê bai ngoại hình bạn và bắt bạn phải nghe lời mình tuyệt đối",
+          "Chỉ chơi với bạn lúc bạn có đồ chơi đẹp hoặc quà bánh"
+        ],
+        "k": "A",
+        "e": "Tình bạn đẹp dựa trên sự bình đẳng, chân thành và tin tưởng chứ không vụ lợi hay áp đặt.",
+        "s": "Đạo đức 4",
+        "h": "Nền tảng giữ gìn tình bạn bền vững"
+      },
+      {
+        "c": "DD4-B06-003",
+        "d": "basic",
+        "p": "Khi bạn thân đang hào hứng kể lại câu chuyện vui hoặc chia sẻ nỗi buồn gia đình cho em nghe, cử chỉ lắng nghe nào giúp bạn cảm nhận được sự tôn trọng?",
+        "o": [
+          "Cúi gằm mặt bấm điện thoại hoặc ngáp dài quay sang nhìn nơi khác",
+          "Chê bai ngay rằng chuyện của bạn thật nhàm chán ngớ ngẩn",
+          "Cướp lời kể ngay chuyện khác của mình đè lên câu chuyện của bạn",
+          "Nhìn vào bạn với ánh mắt chăm chú, không ngắt lời ngang giữa chừng và phản hồi cảm xúc chân thành sau khi bạn nói xong"
+        ],
+        "k": "D",
+        "e": "Lắng nghe bằng cả sự chú tâm (Active listening) là món quà quý giá nhất nuôi dưỡng tình bạn sâu sắc.",
+        "s": "Đạo đức 4",
+        "h": "Kĩ năng lắng nghe tích cực bạn bè"
+      },
+      {
+        "c": "DD4-B06-004",
+        "d": "basic",
+        "p": "Quan sát bảng các biểu hiện trong tình bạn sau. Cách giải quyết nào giúp bạn bè giữ được hòa khí mỗi khi lỡ xảy ra hiểu lầm nhỏ?",
+        "o": [
+          "Kể xấu bịa chuyện thêm về bạn cho nhóm khác ghét lây",
+          "Động tay động chân xô đẩy nhau giữa lớp",
+          "Bình tĩnh ngồi nói chuyện thẳng thắn nhẹ nhàng, lắng nghe góc nhìn của bạn và sẵn sàng nói lời xin lỗi nếu mình có phần sai",
+          "Chặn mặt không nhìn nhau suốt cả học kì mà không hỏi rõ nguyên nhân"
+        ],
+        "k": "C",
+        "e": "Đối thoại bình tĩnh làm rõ hiểu lầm giúp tình bạn hiểu nhau sâu hơn thay vì rạn nứt đáng tiếc.",
+        "s": "Đạo đức 4",
+        "h": "Hóa giải hiểu lầm trong tình bạn",
+        "fig": {
+          "type": "table",
+          "title": "Xây dựng Tình bạn Đẹp",
+          "head": [
+            "Nên làm",
+            "Cần tránh xa"
+          ],
+          "rows": [
+            [
+              "Cười chào thân thiện",
+              "Chê bai ngoại hình"
+            ],
+            [
+              "Lắng nghe khi bạn kể",
+              "Ngắt lời, quay đi"
+            ],
+            [
+              "Góp ý chân thành",
+              "Bao che thói xấu"
+            ],
+            [
+              "Giữ lời hứa, tin cậy",
+              "Nói xấu sau lưng bạn"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "DD4-B06-005",
+        "d": "basic",
+        "p": "Vì sao trong một nhóm bạn thân vẫn cần tôn trọng sở thích, tính cách riêng của nhau (ví dụ người thích đá bóng, người thích vẽ tranh, người hướng nội ít nói)?",
+        "o": [
+          "Vì mỗi cá nhân đều có nét độc đáo riêng đáng quý; tôn trọng sự khác biệt giúp mọi người thoải mái là chính mình và bổ sung thế mạnh cho nhau",
+          "Vì ai thích vẽ tranh thì không bao giờ chạy nhảy được",
+          "Vì chỉ nên chơi với những người giống hệt mình như bản sao",
+          "Vì ép bạn đổi sở thích sẽ tốn rất nhiều tiền"
+        ],
+        "k": "A",
+        "e": "Chấp nhận sự khác biệt lành mạnh (miễn không trái đạo đức, pháp luật) làm tập thể phong phú và gắn bó.",
+        "s": "Đạo đức 4",
+        "h": "Tôn trọng sự khác biệt của bạn"
+      },
+      {
+        "c": "DD4-B06-006",
+        "d": "basic",
+        "p": "Việc làm nào thể hiện rõ tình bạn đẹp giúp đỡ nhau CÙNG TIẾN BỘ trong học tập và rèn luyện?",
+        "o": [
+          "Giấu sách vở không cho bạn xem bài giảng lúc bạn nghỉ ốm",
+          "Cho bạn chép nguyên bài kiểm tra môn Tiếng Việt khi cô giáo quay đi",
+          "Rủ nhau trốn tiết học ra quán điện tử chơi cùng cho vui",
+          "Cùng lập đôi bạn học tập nhắc nhau ôn bài, chia sẻ cách giải hay và động viên bạn khi bạn bị điểm chưa cao"
+        ],
+        "k": "D",
+        "e": "Tình bạn chân chính nâng cả hai cùng tiến lên về tri thức và đạo đức, không kéo nhau đi xuống.",
+        "s": "Đạo đức 4",
+        "h": "Đôi bạn cùng tiến giúp nhau học tốt"
+      },
+      {
+        "c": "DD4-B06-007",
+        "d": "application",
+        "p": "Bạn An nói xấu bạn Bình ngay trước mặt em vì Bình không cho An mượn truyện lúc Bình đang đọc dở. Em nên phản ứng thế nào để bảo vệ tình bạn chung của cả ba người?",
+        "o": [
+          "Hùa vào nói xấu thêm mười tật xấu nữa của Bình cho An hả dạ",
+          "Cầm quyển truyện của Bình giật đưa luôn cho An",
+          "Nhắc nhẹ An không nên nói sau lưng khi Bình chưa đọc xong, giúp An hiểu Bình đọc xong sẽ cho mượn ngay và khuyên hai bạn trao đổi nhẹ nhàng trực tiếp với nhau",
+          "Chạy ngay sang mách Bình thêm thắt câu chuyện để hai bạn cãi nhau to hơn"
+        ],
+        "k": "C",
+        "e": "Không tiếp tay cho thói nói xấu sau lưng mà làm cầu nối thiện chí là bản lĩnh của người bạn tốt.",
+        "s": "Đạo đức 4",
+        "h": "Ứng xử văn minh khi nghe bạn nói xấu bạn khác"
+      },
+      {
+        "c": "DD4-B06-008",
+        "d": "application",
+        "p": "Khi bạn thân của em mắc lỗi (ví dụ vô tình làm vỡ chậu hoa của lớp hoặc nói dối bố mẹ trốn học đi chơi), hành động nào mới thực sự là BẠN TỐT đích thực?",
+        "o": [
+          "Cổ vũ bạn tiếp tục trốn học thêm nhiều buổi nữa cho vui",
+          "Khuyên bạn nhận ra lỗi để tự giác sửa sai (có thể đồng hành động viên bạn nhận lỗi) chứ không bao che tiếp tay cái xấu",
+          "Bao che nói dối thay cho bạn trước cô giáo để bạn khỏi bị nhắc nhở",
+          "Cắt đứt luôn tình bạn ngay lập tức và mắng bạn thậm tệ"
+        ],
+        "k": "B",
+        "e": "Bao che lỗi sai không phải là giúp bạn mà đẩy bạn lún sâu vào thói quen xấu; góp ý chân thành giúp bạn sửa sai mới là bạn thật sự.",
+        "s": "Đạo đức 4",
+        "h": "Góp ý giúp bạn sửa lỗi thay vì bao che"
+      },
+      {
+        "c": "DD4-B06-009",
+        "d": "application",
+        "p": "Trong lớp có hai nhóm bạn chơi thân nhưng hay tách biệt không nói chuyện với nhau. Để gắn kết không khí lớp đoàn kết hơn nhân dịp hội trại sắp tới, em có thể đề xuất ý tưởng gì?",
+        "o": [
+          "Đề xuất lập đội thi trò chơi dân gian hoặc trang trí góc báo tường chung có thành viên phối hợp từ cả hai nhóm để cùng trò chuyện, hợp tác vui vẻ",
+          "Tổ chức hai nhóm đấu khẩu thi xem nhóm nào chê nhóm kia hay hơn",
+          "Chỉ chọn riêng nhóm mình chơi còn nhóm kia ngồi nhìn",
+          "Vẽ vạch phấn chia đôi phòng học cấm nhóm này bước sang bên kia"
+        ],
+        "k": "A",
+        "e": "Hoạt động chung mục tiêu vui vẻ (kéo co, văn nghệ, làm báo tường) là chất keo tuyệt vời xóa bỏ ranh giới bè phái.",
+        "s": "Đạo đức 4",
+        "h": "Xây dựng tình bạn rộng mở không chia bè phái"
+      },
+      {
+        "c": "DD4-B06-010",
+        "d": "application",
+        "p": "Em lỡ quên không mang sách vở trả cho bạn đúng ngày đã hẹn như lời hứa hôm qua khiến bạn bị thiếu sách học tiết đầu. Phản ứng nào giúp cứu vãn lòng tin trong tình bạn?",
+        "o": [
+          "Lảng tránh ngồi sang bàn khác coi như chưa từng mượn quyển sách đó",
+          "Cười xòa cho qua rồi để sang tháng sau mới nhớ trả",
+          "Thành thật xin lỗi bạn ngay đầu giờ, chủ động báo thưa cô giáo để bạn không bị hiểu nhầm phạt nhầm và tranh thủ giờ trưa/chiều mang trả tận nơi ngay lập tức",
+          "Đổ thừa ngược lại rằng tại bạn hôm qua không nhắn tin nhắc mình"
+        ],
+        "k": "C",
+        "e": "Nhận trách nhiệm trực tiếp và hành động bù đắp nhanh nhất giúp giữ vững chữ tín bạn bè.",
+        "s": "Đạo đức 4",
+        "h": "Giữ chữ tín và sửa sai khi lỡ hẹn"
+      },
+      {
+        "c": "DD4-B06-011",
+        "d": "application",
+        "p": "Bạn Minh là người rất giỏi giải cờ vua nhưng hơi nhút nhát trước đám đông; còn em lại hoạt bát nhanh nhẹn nhưng chơi cờ chưa giỏi. Nếu kết bạn thân với nhau, hai bạn có thể duy trì tình bạn tuyệt vời bằng cách nào?",
+        "o": [
+          "Em rủ Minh chơi cùng nhẹ nhàng giúp bạn cởi mở hơn, còn Minh dạy em đánh cờ – hai bạn tôn trọng học hỏi thế mạnh của nhau",
+          "Minh chê em dốt cờ rồi không thèm chơi nữa",
+          "Cả hai không bao giờ chia sẻ điểm mạnh của mình cho nhau",
+          "Em ép Minh phải đứng giữa sân trường hét to cho đỡ nhút nhát"
+        ],
+        "k": "A",
+        "e": "Bổ sung thế mạnh cho nhau giúp mỗi người trở thành phiên bản tốt hơn nhờ có bạn đồng hành.",
+        "s": "Đạo đức 4",
+        "h": "Học hỏi và bổ sung thế mạnh cho nhau"
+      },
+      {
+        "c": "DD4-B06-012",
+        "d": "application",
+        "p": "Trong một lần tranh luận bài nhóm, em lỡ nóng nảy nói một câu nặng lời làm bạn cùng nhóm buồn rầu im lặng suốt cả buổi. Sau giờ học, việc đầu tiên em nên làm là gì?",
+        "o": [
+          "Chờ bạn phải qua xin lỗi mình trước dù mình sai rành rành",
+          "Chủ động đến bên cạnh bạn nói lời xin lỗi chân thành vì đã mất bình tĩnh lúc thảo luận và lắng nghe lại ý kiến của bạn",
+          "Nhắn tin trêu chọc tiếp cho bạn tức thêm",
+          "Xóa tên bạn ra khỏi danh sách nhóm"
+        ],
+        "k": "B",
+        "e": "Dũng cảm nói lời xin lỗi trước khi mình nóng nảy làm tổn thương bạn là biểu hiện của bản lĩnh trưởng thành.",
+        "s": "Đạo đức 4",
+        "h": "Chủ động xin lỗi khi lỡ nặng lời"
+      },
+      {
+        "c": "DD4-B06-013",
+        "d": "advanced",
+        "p": "Một số bạn thích lập \"nhóm kín\" chỉ có 3 người rồi đặt ra luật lệ độc đoán: \"Ai muốn vào nhóm phải bắt buộc cắt đứt không chơi với bạn X lớp mình, hoặc phải nghe theo mọi lệnh của nhóm trưởng\". Đây có phải là tình bạn lành mạnh không và vì sao?",
+        "o": [
+          "Cần thiết phải cô lập vài bạn thì nhóm mới đoàn kết được",
+          "Rất lành mạnh vì giúp nhóm kín trở nên bí ẩn ngầu hơn",
+          "Không lành mạnh; đó là bè phái thao túng và cô lập bạn học. Tình bạn đẹp luôn cởi mở, bình đẳng và không bắt nạt ai",
+          "Nên nghe theo mọi yêu cầu của nhóm trưởng kể cả việc trốn học"
+        ],
+        "k": "C",
+        "e": "Nhận diện sớm nhóm bạn độc hại (thao túng, cô lập người khác) giúp học sinh Lớp 4 bảo vệ bản thân và xây dựng môi trường thân thiện.",
+        "s": "Đạo đức 4",
+        "h": "Nhận diện và từ chối nhóm bạn độc hại"
+      },
+      {
+        "c": "DD4-B06-014",
+        "d": "advanced",
+        "p": "Khi bạn thân tin tưởng kể cho em một bí mật gia đình rất riêng tư và dặn giữ kín (không phải chuyện nguy hiểm gây hại đến tính mạng ai), em giữ gìn tình bạn đó thế nào?",
+        "o": [
+          "Kể ngay bí mật đó cho toàn bộ lớp biết ngay trong giờ ra chơi tiếp theo",
+          "Giữ kín bằng lòng tin cậy; chỉ báo người lớn hỗ trợ nếu bí mật đó liên quan đến nguy cơ mất an toàn hay xâm hại bạn",
+          "Đăng công khai lên trang mạng của lớp cho mọi người bình luận",
+          "Đem bí mật đó ra làm điều kiện uy hiếp bắt bạn phải cho mình chép bài"
+        ],
+        "k": "B",
+        "e": "Giữ chữ tín bí mật riêng tư (ngoại trừ trường hợp liên quan an toàn/xâm hại cần người lớn bảo vệ) là thước đo cao quý của lòng tin bạn bè.",
+        "s": "Đạo đức 4",
+        "h": "Giữ bí mật riêng tư đúng giới hạn an toàn"
+      },
+      {
+        "c": "DD4-B06-015",
+        "d": "advanced",
+        "p": "Tại sao nói \"Tình bạn đẹp thời tiểu học là hành trang tinh thần quý giá nâng bước học sinh suốt cả quãng đường khôn lớn\"?",
+        "o": [
+          "Vì bạn thân sẽ làm hộ mọi công việc suốt đời cho mình",
+          "Vì tình bạn tiểu học giúp miễn thi tất cả các môn học lên cấp 2",
+          "Vì chỉ cần có bạn thân là không cần học bài ở nhà vẫn giỏi",
+          "Qua tình bạn đẹp, em học cách lắng nghe sẻ chia, giải quyết bất đồng ôn hòa và tự tin hòa nhập tốt vào cộng đồng"
+        ],
+        "k": "D",
+        "e": "Những kĩ năng xã hội rèn luyện qua tình bạn tuổi thơ là nền móng cho hạnh phúc và sự thành công suốt đời.",
+        "s": "Đạo đức 4",
+        "h": "Giá trị lâu dài của tình bạn đẹp"
+      }
+    ]
+  },
+  {
+    "chapter": "daoduc4-c3",
+    "lesson": {
+      "code": "daoduc4-b07",
+      "title": "Bài 7. Quyền của Trẻ em",
+      "seq": 7,
+      "subtitle": "Nhận biết các nhóm quyền cơ bản của trẻ em theo Luật Trẻ em Việt Nam (quyền sống còn, bảo vệ, phát triển, tham gia) và biết lên tiếng tìm kiếm trợ giúp khi quyền bị xâm phạm",
+      "concepts": [
+        "4 nhóm quyền cơ bản của trẻ em",
+        "Tổng đài Quốc gia Bảo vệ Trẻ em 111",
+        "Tôn trọng quyền của các bạn xung quanh"
+      ]
+    },
+    "questions": [
+      {
+        "c": "DD4-B07-001",
+        "d": "basic",
+        "p": "Theo Luật Trẻ em Việt Nam năm 2016, trẻ em là người dưới bao nhiêu tuổi?",
+        "o": [
+          "Dưới 6 tuổi",
+          "Dưới 16 tuổi",
+          "Dưới 25 tuổi",
+          "Dưới 10 tuổi"
+        ],
+        "k": "B",
+        "e": "Luật Trẻ em quy định trẻ em là người dưới 16 tuổi, được hưởng đầy đủ các quyền bảo vệ và chăm sóc đặc biệt.",
+        "s": "Đạo đức 4",
+        "h": "Độ tuổi trẻ em theo luật Việt Nam"
+      },
+      {
+        "c": "DD4-B07-002",
+        "d": "basic",
+        "p": "Việc trẻ em được khai sinh, đặt họ tên, chăm sóc y tế tiêm chủng đầy đủ và được đến trường học tập thể hiện nhóm quyền nào?",
+        "o": [
+          "Quyền bắt nạt các em nhỏ hơn mình",
+          "Quyền vi phạm luật giao thông mà không ai được nhắc",
+          "Quyền tự ý bỏ học đi làm kiếm tiền nặng nhọc",
+          "Quyền được sống còn, bảo vệ và quyền được phát triển (học tập, vui chơi)"
+        ],
+        "k": "D",
+        "e": "Được sống khỏe mạnh, mang quốc tịch, được học hành vui chơi là những quyền thiêng liêng đầu đời của mọi trẻ em.",
+        "s": "Đạo đức 4",
+        "h": "Quyền sống còn và phát triển"
+      },
+      {
+        "c": "DD4-B07-003",
+        "d": "basic",
+        "p": "Trong lớp học, khi cô giáo lấy ý kiến học sinh về nội quy lớp hoặc chọn trò chơi dã ngoại cuối học kì, các em được thực hiện quyền cơ bản nào?",
+        "o": [
+          "Quyền tự ý nghỉ học không xin phép",
+          "Quyền nói leo ngắt lời người khác",
+          "Quyền được tham gia và bày tỏ ý kiến về các vấn đề liên quan đến trẻ em",
+          "Quyền không bao giờ phải làm bài tập về nhà"
+        ],
+        "k": "C",
+        "e": "Trẻ em có quyền được lắng nghe, bày tỏ nguyện vọng chính đáng trong gia đình, trường học và cộng đồng.",
+        "s": "Đạo đức 4",
+        "h": "Quyền tham gia và bày tỏ ý kiến"
+      },
+      {
+        "c": "DD4-B07-004",
+        "d": "basic",
+        "p": "Quan sát bảng 4 nhóm quyền trẻ em sau. Hành vi ép trẻ em 10 tuổi nghỉ học đi làm thuê nặng nhọc hoặc đánh đập chửi mắng trẻ vi phạm trực tiếp nhóm quyền nào?",
+        "o": [
+          "Quyền được bảo vệ khỏi bạo lực, bóc lột, xâm hại và bỏ rơi",
+          "Quyền được sáng tác tranh vẽ",
+          "Quyền được giữ bí mật riêng tư về nhật kí",
+          "Quyền được vui chơi giải trí dịp hè"
+        ],
+        "k": "A",
+        "e": "Mọi hành vi bạo hành, bóc lột sức lao động trẻ em đều vi phạm nghiêm trọng quyền được bảo vệ.",
+        "s": "Đạo đức 4",
+        "h": "Nhận biết vi phạm quyền bảo vệ",
+        "fig": {
+          "type": "table",
+          "title": "4 Nhóm Quyền Trẻ em",
+          "head": [
+            "Nhóm quyền",
+            "Ví dụ cụ thể"
+          ],
+          "rows": [
+            [
+              "Quyền sống còn",
+              "Khai sinh, chăm y tế"
+            ],
+            [
+              "Quyền bảo vệ",
+              "Tránh bạo lực, hại"
+            ],
+            [
+              "Quyền phát triển",
+              "Học tập, vui chơi"
+            ],
+            [
+              "Quyền tham gia",
+              "Nêu ý kiến, vui chơi"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "DD4-B07-005",
+        "d": "basic",
+        "p": "Số điện thoại đường dây nóng quốc gia miễn phí hoạt động 24/24 giờ để tiếp nhận thông tin bảo vệ trẻ em bị bạo lực hoặc xâm hại tại Việt Nam là số nào?",
+        "o": [
+          "113",
+          "115",
+          "111",
+          "114"
+        ],
+        "k": "C",
+        "e": "Tổng đài 111 luôn sẵn sàng lắng nghe, tư vấn tâm lí và kết nối giải cứu bảo vệ trẻ em hoàn toàn miễn phí.",
+        "s": "Đạo đức 4",
+        "h": "Tổng đài Bảo vệ Trẻ em 111"
+      },
+      {
+        "c": "DD4-B07-006",
+        "d": "basic",
+        "p": "Quyền được giữ gìn bí mật đời tư cá nhân của trẻ em trong lớp học có ý nghĩa gì?",
+        "o": [
+          "Trẻ em có quyền giấu bố mẹ đi chơi khuya một mình",
+          "Không được phép cho thầy cô biết tên họ thật của mình",
+          "Không ai được phép tự ý đọc trộm nhật kí, lục cặp sách hay bêu riếu thông tin riêng tư của bạn lên mạng",
+          "Được phép giấu sách vở của bạn khác"
+        ],
+        "k": "C",
+        "e": "Pháp luật bảo vệ danh dự, nhân phẩm và bí mật đời tư của trẻ em trước mọi hành vi chế giễu, tung tin sai trái.",
+        "s": "Đạo đức 4",
+        "h": "Quyền bảo vệ bí mật đời tư"
+      },
+      {
+        "c": "DD4-B07-007",
+        "d": "application",
+        "p": "Một bạn nhỏ bị người hàng xóm thường xuyên đánh đập hoặc đe dọa bắt giữ bí mật xấu. Để bảo vệ chính mình, bạn nhỏ đó nên làm gì ngay?",
+        "o": [
+          "Dũng cảm từ chối, chạy tới nơi đông người an toàn, kể ngay cho cha mẹ, thầy cô tin cậy hoặc gọi Tổng đài 111",
+          "Im lặng chịu đựng một mình vì sợ người kia tức giận thêm",
+          "Tự lấy gậy đi đánh trả lại người lớn đó một mình",
+          "Đóng chặt cửa phòng trốn suốt ngày không nói với ai"
+        ],
+        "k": "A",
+        "e": "Phá vỡ sự im lặng và tìm sự hỗ trợ từ người lớn tin cậy hoặc cơ quan chức năng là cách tự bảo vệ hiệu quả nhất.",
+        "s": "Đạo đức 4",
+        "h": "Lên tiếng khi bị xâm hại hoặc bạo lực"
+      },
+      {
+        "c": "DD4-B07-008",
+        "d": "application",
+        "p": "Bạn Minh hay dùng điện thoại chụp lén các khoảnh khắc hài hước lúc bạn cùng lớp ngủ gật rồi ghép chữ trêu chọc đăng lên nhóm chat lớp. Việc làm của Minh đã xâm phạm quyền nào của bạn?",
+        "o": [
+          "Không xâm phạm quyền gì vì chỉ là đùa cho lớp vui",
+          "Xâm phạm quyền bảo vệ danh dự, nhân phẩm và hình ảnh riêng tư của bạn",
+          "Xâm phạm quyền sử dụng thư viện trường",
+          "Xâm phạm quyền được tiêm chủng mở rộng"
+        ],
+        "k": "B",
+        "e": "Đăng tải hình ảnh cá nhân nhằm bôi nhọ, chế giễu người khác trên mạng là hành vi vi phạm quyền trẻ em và đạo đức số.",
+        "s": "Đạo đức 4",
+        "h": "Không chụp ghép ảnh trêu bạn trên mạng"
+      },
+      {
+        "c": "DD4-B07-009",
+        "d": "application",
+        "p": "Trong buổi họp bầu Ban cán sự lớp, cô giáo khuyến khích mọi bạn tự ứng cử và bỏ phiếu công khai. Tuy nhiên một bạn cười bảo: \"Bạn nữ thì làm sao làm Lớp trưởng giỏi bằng bạn nam!\". Câu nói này đi ngược nguyên tắc nào?",
+        "o": [
+          "Nguyên tắc xếp hàng vào lớp đúng giờ",
+          "Nguyên tắc bảo vệ cây xanh sân trường",
+          "Nguyên tắc bình đẳng không phân biệt giới tính trong quyền tham gia của trẻ em",
+          "Nguyên tắc tiết kiệm điện nước trường học"
+        ],
+        "k": "C",
+        "e": "Mọi trẻ em nam hay nữ đều có quyền bình đẳng về cơ hội phát triển năng lực và đảm nhận vai trò lãnh đạo tập thể.",
+        "s": "Đạo đức 4",
+        "h": "Bình đẳng giới trong quyền tham gia"
+      },
+      {
+        "c": "DD4-B07-010",
+        "d": "application",
+        "p": "Gần nhà em có gia đình hoàn cảnh khó khăn định cho em bé 11 tuổi nghỉ học sớm đi phụ bán hàng suốt ngày. Em và gia đình có thể làm gì phù hợp để hỗ trợ em bé?",
+        "o": [
+          "Chế giễu em bé đó không được mặc đồng phục đi học",
+          "Mặc kệ không quan tâm vì đó là chuyện riêng nhà hàng xóm",
+          "Báo cho bố mẹ em cùng cô giáo hoặc cán bộ đoàn thể địa phương biết để vận động, hỗ trợ học bổng giúp em bé tiếp tục được đi học",
+          "Khuyên em bé bỏ học sớm để nhanh kiếm nhiều tiền"
+        ],
+        "k": "C",
+        "e": "Chung tay bảo vệ quyền được học tập của mọi trẻ em quanh mình thể hiện trách nhiệm cộng đồng nhân ái.",
+        "s": "Đạo đức 4",
+        "h": "Chung tay bảo vệ quyền học tập cho bạn"
+      },
+      {
+        "c": "DD4-B07-011",
+        "d": "application",
+        "p": "Khi được bố mẹ hỏi ý kiến chọn lớp năng khiếu học thêm vào cuối tuần (vẽ, bơi lội hay võ thuật), cách thực hiện quyền tham gia lịch sự nhất là gì?",
+        "o": [
+          "Im lặng không nói gì rồi sau đó bỏ trốn không đi học",
+          "Bày tỏ rõ ràng sở thích, lí do của mình với bố mẹ và cùng bố mẹ lắng nghe sắp xếp lịch hợp lí không ảnh hưởng việc học chính",
+          "Bắt bố mẹ phải cho đi chơi game thay vì học năng khiếu",
+          "La hét giậm chân đòi học bằng được mọi môn bất chấp điều kiện gia đình"
+        ],
+        "k": "B",
+        "e": "Quyền bày tỏ ý kiến luôn đi kèm thái độ lễ phép, biết lắng nghe và hợp tác cùng gia đình.",
+        "s": "Đạo đức 4",
+        "h": "Thực hiện quyền tham gia lễ phép"
+      },
+      {
+        "c": "DD4-B07-012",
+        "d": "application",
+        "p": "Em thấy một trang mạng rao bán thông tin cá nhân hoặc rủ trẻ em tham gia trò chơi cá cược ăn tiền. Để thực hiện quyền được an toàn trên môi trường mạng, em cần làm gì?",
+        "o": [
+          "Bấm thử vào xem để nhận quà miễn phí",
+          "Không bấm vào đường link lạ, không cung cấp thông tin cá nhân và báo ngay cho bố mẹ để chặn, báo xấu trang đó",
+          "Điền ngay tên tuổi, số điện thoại mẹ vào biểu mẫu trên trang đó",
+          "Gửi chia sẻ đường link đó cho tất cả các bạn trong lớp"
+        ],
+        "k": "B",
+        "e": "Cảnh giác trước link lạ và báo người lớn là lá chắn bảo vệ trẻ em trên không gian mạng.",
+        "s": "Đạo đức 4",
+        "h": "Bảo vệ quyền an toàn trên mạng"
+      },
+      {
+        "c": "DD4-B07-013",
+        "d": "advanced",
+        "p": "Một số bạn hiểu nhầm: \"Trẻ em có quyền vui chơi giải trí và quyền được bày tỏ ý kiến nên mình có quyền đòi hỏi chơi điện tử suốt đêm và cãi lại bố mẹ mọi lúc!\". Em giải thích cho bạn hiểu đúng ranh giới của Quyền thế nào?",
+        "o": [
+          "Quyền luôn gắn với Bổn phận và giới hạn an toàn: vui chơi lành mạnh đúng giờ, nói lên ý kiến lễ phép và tôn trọng mọi người",
+          "Trẻ em chỉ có quyền chơi game chứ không có bổn phận học tập",
+          "Bạn ấy hiểu hoàn toàn chính xác, quyền nghĩa là muốn làm gì tùy thích",
+          "Bố mẹ không có quyền nhắc nhở thời gian ngủ nghỉ của con"
+        ],
+        "k": "A",
+        "e": "Không có quyền nào tách rời bổn phận và chuẩn mực đạo đức; tự do phải đi kèm trách nhiệm với sức khỏe bản thân.",
+        "s": "Đạo đức 4",
+        "h": "Quyền trẻ em luôn đi kèm Bổn phận"
+      },
+      {
+        "c": "DD4-B07-014",
+        "d": "advanced",
+        "p": "Trong lớp học hòa nhập có bạn bị khiếm thính nhẹ hoặc khó khăn học tập. Việc cả lớp kiên nhẫn nói rõ nhìn thẳng mặt cho bạn dễ hiểu và không đặt biệt danh xấu nhằm bảo đảm quyền gì cho bạn?",
+        "o": [
+          "Quyền được miễn mọi quy định chung của xã hội",
+          "Quyền được nghỉ học suốt cả năm",
+          "Quyền được tôn trọng, hòa nhập bình đẳng và không bị phân biệt đối xử vì tình trạng sức khỏe",
+          "Quyền được làm bài thi hộ bạn khác"
+        ],
+        "k": "C",
+        "e": "Trẻ khuyết tật có đầy đủ mọi quyền trẻ em và xứng đáng được cộng đồng tạo điều kiện hòa nhập thân thiện.",
+        "s": "Đạo đức 4",
+        "h": "Bảo đảm quyền hòa nhập bình đẳng"
+      },
+      {
+        "c": "DD4-B07-015",
+        "d": "advanced",
+        "p": "Tại sao nói \"Lắng nghe tiếng nói trẻ em\" giúp gia đình và nhà trường đưa ra những quyết định tốt đẹp và hiệu quả hơn?",
+        "o": [
+          "Vì chỉ cần cho trẻ em tự quyết định toàn bộ tiền chi tiêu trong nhà",
+          "Vì trẻ em luôn hiểu biết nhiều kinh nghiệm sống hơn tất cả người lớn",
+          "Vì nghe theo trẻ em để người lớn khỏi phải suy nghĩ làm gì nữa",
+          "Trẻ em trực tiếp trải nghiệm cuộc sống của mình nên giúp người lớn hiểu đúng nhu cầu của trẻ và giúp trẻ tự tin trưởng thành"
+        ],
+        "k": "D",
+        "e": "Đối thoại bình đẳng hai chiều tạo môi trường gia đình – học đường dân chủ, tin cậy và hạnh phúc.",
+        "s": "Đạo đức 4",
+        "h": "Giá trị của việc lắng nghe trẻ em"
+      }
+    ]
+  },
+  {
+    "chapter": "daoduc4-c3",
+    "lesson": {
+      "code": "daoduc4-b08",
+      "title": "Bài 8. Bổn phận của Trẻ em",
+      "seq": 8,
+      "subtitle": "Nhận biết và thực hiện 5 nhóm bổn phận cơ bản của trẻ em đối với gia đình, nhà trường, cộng đồng xã hội, quê hương đất nước và bản thân mình",
+      "concepts": [
+        "Bổn phận với gia đình: kính trọng, hiếu thảo, giúp đỡ ông bà cha mẹ",
+        "Bổn phận với nhà trường và xã hội: chăm học, chấp hành nội quy, giữ môi trường",
+        "Bổn phận với bản thân: rèn sức khỏe, không sa vào tệ nạn"
+      ]
+    },
+    "questions": [
+      {
+        "c": "DD4-B08-001",
+        "d": "basic",
+        "p": "Bổn phận hàng đầu của trẻ em đối với ông bà, cha mẹ và những người thân trong gia đình là gì?",
+        "o": [
+          "Phó mặc mọi việc nhà cho ông bà lớn tuổi làm hết",
+          "Kính trọng, lễ phép, hiếu thảo, quan tâm chăm sóc và giúp đỡ gia đình những việc phù hợp sức mình",
+          "Cãi lời và giận dỗi bỏ cơm mỗi khi không vừa ý",
+          "Đòi hỏi đáp ứng mọi món đồ chơi đắt tiền ngay lập tức"
+        ],
+        "k": "B",
+        "e": "Hiếu thảo, lễ phép và sẻ chia việc nhà là nền tảng bổn phận gia đình của trẻ em Việt Nam.",
+        "s": "Đạo đức 4",
+        "h": "Bổn phận với gia đình"
+      },
+      {
+        "c": "DD4-B08-002",
+        "d": "basic",
+        "p": "Đối với nhà trường và thầy cô giáo, trẻ em Lớp 4 có những bổn phận cơ bản nào?",
+        "o": [
+          "Đi học muộn, trốn tiết và giấu điểm kém",
+          "Xả rác bừa bãi và vẽ bẩn lên tường lớp học",
+          "Chỉ học mỗi môn mình thích còn bỏ bê các môn khác",
+          "Chăm chỉ học tập, trung thực trong kiểm tra, kính trọng thầy cô, đoàn kết bạn bè và giữ gìn vệ sinh – nội quy trường lớp"
+        ],
+        "k": "D",
+        "e": "Tự giác học tập và chấp hành nội quy trường lớp giúp xây dựng môi trường giáo dục kỉ cương, thân thiện.",
+        "s": "Đạo đức 4",
+        "h": "Bổn phận với nhà trường"
+      },
+      {
+        "c": "DD4-B08-003",
+        "d": "basic",
+        "p": "Việc làm nào sau đây thể hiện bổn phận của trẻ em đối với cộng đồng và xã hội?",
+        "o": [
+          "Chấp hành luật lệ giao thông, giữ vệ sinh nơi công cộng, tôn trọng người cao tuổi và người khuyết tật",
+          "Xả rác xuống cống thoát nước và hái hoa công viên",
+          "Vượt đèn đỏ khi đi xe đạp qua ngã tư vắng",
+          "Bắt nạt các em nhỏ tuổi hơn ngoài khu phố"
+        ],
+        "k": "A",
+        "e": "Mỗi công dân nhỏ biết giữ trật tự công cộng góp phần làm xã hội an toàn, văn minh hơn.",
+        "s": "Đạo đức 4",
+        "h": "Bổn phận với cộng đồng xã hội"
+      },
+      {
+        "c": "DD4-B08-004",
+        "d": "basic",
+        "p": "Quan sát bảng 5 nhóm bổn phận trẻ em theo Luật Trẻ em sau. Việc tập thể dục, đánh răng rửa mặt đều đặn và tránh xa chất độc hại thuộc nhóm bổn phận nào?",
+        "o": [
+          "Bổn phận giữ bí mật của người lạ",
+          "Bổn phận đối với di tích lịch sử",
+          "Bổn phận đi làm kiếm tiền nuôi gia đình",
+          "Bổn phận đối với bản thân"
+        ],
+        "k": "D",
+        "e": "Chăm lo rèn luyện thân thể, bảo vệ sức khỏe an toàn cho chính mình cũng là một bổn phận quan trọng được luật quy định.",
+        "s": "Đạo đức 4",
+        "h": "Bổn phận tự chăm sóc bảo vệ bản thân",
+        "fig": {
+          "type": "table",
+          "title": "5 Bổn phận của Trẻ em",
+          "head": [
+            "Đối tượng",
+            "Việc làm tiêu biểu"
+          ],
+          "rows": [
+            [
+              "Với gia đình",
+              "Hiếu thảo, việc nhà"
+            ],
+            [
+              "Với nhà trường",
+              "Chăm học, kính thầy"
+            ],
+            [
+              "Với cộng đồng",
+              "Tuân luật, giữ sạch"
+            ],
+            [
+              "Với bản thân",
+              "Giữ thân an toàn"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "DD4-B08-005",
+        "d": "basic",
+        "p": "Bổn phận của trẻ em đối với quê hương, đất nước thể hiện qua những hành động gần gũi nào ở lứa tuổi tiểu học?",
+        "o": [
+          "Chê bai món ăn truyền thống và tiếng nói quê hương mình",
+          "Yêu Tổ quốc, kính trọng Quốc kì, hát Quốc ca trang nghiêm, gìn giữ bản sắc văn hóa dân tộc và giữ gìn môi trường quê hương xanh sạch",
+          "Xả rác bừa bãi tại các khu danh lam thắng cảnh",
+          "Đợi đến khi 30 tuổi mới bắt đầu nghĩ tới quê hương đất nước"
+        ],
+        "k": "B",
+        "e": "Tình yêu Tổ quốc bắt nguồn từ thái độ trang nghiêm khi chào cờ và hành động gìn giữ quê hương mỗi ngày.",
+        "s": "Đạo đức 4",
+        "h": "Bổn phận với quê hương đất nước"
+      },
+      {
+        "c": "DD4-B08-006",
+        "d": "basic",
+        "p": "Trong giờ Chào cờ đầu tuần tại sân trường, biểu hiện thực hiện tốt bổn phận công dân nhí là gì?",
+        "o": [
+          "Ngồi thụp xuống buộc dây giày khi cả trường đang hát Quốc ca",
+          "Đứng nghiêm trang, mắt hướng về lá Quốc kì, hát Quốc ca rõ lời hùng tráng và giữ trật tự lắng nghe phổ biến tuần mới",
+          "Nói chuyện riêng cười đùa liên tục suốt lúc kéo cờ",
+          "Đưa tay nghịch trêu bạn đứng hàng phía trước"
+        ],
+        "k": "B",
+        "e": "Lễ Chào cờ thiêng liêng rèn lòng tự hào dân tộc và ý thức kỉ luật tập thể.",
+        "s": "Đạo đức 4",
+        "h": "Thực hiện nghiêm túc lễ Chào cờ"
+      },
+      {
+        "c": "DD4-B08-007",
+        "d": "application",
+        "p": "Tối hôm đó bố mẹ đều đi làm về muộn và mệt mỏi, mẹ lại hơi cảm sốt nhẹ. Em vừa học bài xong thì thấy mâm bát chưa rửa và em nhỏ đang khóc đòi chơi. Em thực hiện bổn phận gia đình thế nào?",
+        "o": [
+          "Đòi mẹ phải nấu thêm món ăn cầu kì cho riêng mình lúc đó",
+          "Bỏ ra phòng khách bật tivi thật to mặc kệ mẹ tự dọn dẹp",
+          "Càu nhàu trách bố mẹ về muộn làm mình chán",
+          "Chủ động lấy nước ấm và khăn giúp mẹ nghỉ ngơi, dỗ dành chơi cùng em nhỏ ngoan và giúp rửa gọn bát đĩa vừa sức"
+        ],
+        "k": "D",
+        "e": "Biết quan tâm chăm sóc cha mẹ lúc ốm mệt bằng hành động thiết thực thể hiện tình yêu thương gia đình sâu sắc.",
+        "s": "Đạo đức 4",
+        "h": "Chia sẻ gánh nặng khi cha mẹ mệt"
+      },
+      {
+        "c": "DD4-B08-008",
+        "d": "application",
+        "p": "Bạn Tuấn nói với em: \"Ở trường phải đóng học phí rồi, thế nên giữ bàn ghế hay quét lớp là việc của lao công, học sinh chẳng có bổn phận gì phải quét lớp cả!\". Em giải thích lại cho Tuấn hiểu thế nào?",
+        "o": [
+          "Học sinh có bổn phận giữ gìn tài sản công và vệ sinh trường lớp để rèn tính tự lập, tôn trọng người lao động",
+          "Đồng ý ngay với Tuấn và vứt hết giấy vụn xuống gầm bàn",
+          "Bảo Tuấn chỉ cần quét đúng chỗ ghế của mình ngồi thôi",
+          "Mách Tuấn giả vờ đau tay mỗi lần tới phiên tổ trực nhật"
+        ],
+        "k": "A",
+        "e": "Trực nhật và giữ sạch lớp học không phải để thay người lao công mà để rèn tinh thần trách nhiệm cộng đồng.",
+        "s": "Đạo đức 4",
+        "h": "Hiểu đúng bổn phận giữ vệ sinh trường lớp"
+      },
+      {
+        "c": "DD4-B08-009",
+        "d": "application",
+        "p": "Trên đường đi học bằng xe đạp, em thấy đèn tín hiệu phía trước vừa chuyển sang màu đỏ dù ngã tư lúc đó rất vắng xe cộ qua lại. Thực hiện bổn phận công dân đối với xã hội lúc này đòi hỏi em làm gì?",
+        "o": [
+          "Dừng xe đạp ngay ngắn trước vạch dừng, kiên nhẫn chờ đến khi đèn chuyển sang màu xanh mới tiếp tục đi qua ngã tư",
+          "Vừa đạp xe vừa buông cả hai tay ăn bánh mì",
+          "Phóng vọt nhanh qua luôn vì nghĩ không có công an đứng gác",
+          "Đi vòng ngược chiều lên vỉa hè cho khỏi gặp đèn đỏ"
+        ],
+        "k": "A",
+        "e": "Tự giác tuân thủ luật giao thông ngay cả khi không có người giám sát là thước đo ý thức công dân đích thực.",
+        "s": "Đạo đức 4",
+        "h": "Tự giác dừng đèn đỏ khi vắng người"
+      },
+      {
+        "c": "DD4-B08-010",
+        "d": "application",
+        "p": "Một nhóm bạn rủ em sau giờ học trốn bố mẹ ghé thử quán bi-a hoặc thử hút thuốc lá điện tử mùi trái cây cho \"ra dáng người lớn\". Nhớ tới bổn phận đối với bản thân, em cần làm gì?",
+        "o": [
+          "Nói dối bố mẹ là ở lại trường học thêm để đi chơi theo nhóm đó",
+          "Ngồi lại cổ vũ cho các bạn khác hút thử xem mùi ra sao",
+          "Hút thử một hơi cho khỏi bị các bạn chê là nhát gan",
+          "Kiên quyết từ chối ngay, tránh xa chất gây nghiện độc hại, rời đi về nhà an toàn và kể lại cho bố mẹ hoặc thầy cô biết nếu bị ép buộc"
+        ],
+        "k": "D",
+        "e": "Thuốc lá điện tử chứa nicotine và hóa chất độc hại phá hủy phổi, não bộ trẻ em; nói KHÔNG dứt khoát bảo vệ tương lai chính mình.",
+        "s": "Đạo đức 4",
+        "h": "Thực hiện bổn phận bảo vệ bản thân khỏi tệ nạn"
+      },
+      {
+        "c": "DD4-B08-011",
+        "d": "application",
+        "p": "Nhân dịp cuối tuần về thăm quê nội ở vùng nông thôn, em nhìn thấy rác vỏ chai nhựa vứt gần bờ ao làng và đoạn đường nhỏ. Hành động nhỏ nào thể hiện tình yêu và bổn phận với quê hương?",
+        "o": [
+          "Ném thêm túi nilon xuống ao xem có nổi lên không",
+          "Chê quê hương bẩn thỉu rồi trốn vào nhà đóng kín cửa suốt hai ngày",
+          "Cùng anh chị em hoặc người thân nhặt gom sạch chai nhựa bỏ đúng thùng rác và nhắc nhỏ các em bé trong xóm giữ sạch ao làng",
+          "Cười chê bà con ở quê không biết giữ gìn như thành phố"
+        ],
+        "k": "C",
+        "e": "Yêu quê hương bằng hành động xắn tay làm sạch đẹp từng góc nhỏ còn quý giá hơn vạn lời khen ngợi.",
+        "s": "Đạo đức 4",
+        "h": "Thể hiện bổn phận với quê hương"
+      },
+      {
+        "c": "DD4-B08-012",
+        "d": "application",
+        "p": "Nếu một học sinh luôn đòi hỏi đủ mọi quyền lợi của trẻ em (được ăn ngon, mua sắm, vui chơi thoải mái) nhưng lại lười học, vô lễ với ông bà và hay phá hoại đồ chung, ta nhận xét bạn đó đang thiếu điều gì?",
+        "o": [
+          "Bạn đó thiếu tiền mua thêm đồ chơi mới",
+          "Bạn đó đang thực hiện thiếu nghiêm túc bổn phận của trẻ em – tách rời giữa hưởng quyền và làm tròn trách nhiệm",
+          "Bạn đó chỉ cần đòi hỏi thêm nhiều quyền nữa là sẽ ngoan",
+          "Bạn đó hoàn toàn gương mẫu đáng được tuyên dương trước cờ"
+        ],
+        "k": "B",
+        "e": "Quyền và Bổn phận như hai mặt của cùng một tờ giấy: hưởng quyền đi đôi với thực hiện tốt bổn phận.",
+        "s": "Đạo đức 4",
+        "h": "Nhận xét sự mất cân bằng Quyền – Bổn phận"
+      },
+      {
+        "c": "DD4-B08-013",
+        "d": "advanced",
+        "p": "Nhiều bạn nhỏ nghĩ bổn phận \"Giữ gìn, phát huy truyền thống bản sắc văn hóa dân tộc\" nghe rất xa vời to tát. Hãy chọn một việc làm cụ thể ngay tại Lớp 4 thể hiện bổn phận này một cách sinh động nhất?",
+        "o": [
+          "Tìm hiểu tích cực các trò chơi dân gian, làn điệu dân ca, trang phục áo dài truyền thống và giữ gìn sự trong sáng của tiếng Việt khi nói – viết",
+          "Chỉ mặc đồ hiệu nước ngoài và chê tiếng Việt không hay bằng tiếng lạ",
+          "Không bao giờ đọc truyện cổ tích hay lịch sử Việt Nam",
+          "Từ chối tham gia hội diễn dân ca hoặc trò chơi kéo co, ô ăn quan ngày hội trường"
+        ],
+        "k": "A",
+        "e": "Giữ tiếng Việt chuẩn đẹp, yêu dân ca và tự hào di sản cha ông giúp bản sắc dân tộc sống mãi trong thế hệ trẻ.",
+        "s": "Đạo đức 4",
+        "h": "Thực hành giữ gìn bản sắc văn hóa dân tộc"
+      },
+      {
+        "c": "DD4-B08-014",
+        "d": "advanced",
+        "p": "Giả sử em được giao giữ quỹ kế hoạch nhỏ của lớp nhưng phát hiện một bạn thân lén định lấy bớt tiền quỹ mua đồ ăn vặt và rủ em cùng chia đôi. Em hành động thế nào để giữ trọn bổn phận trung thực và bảo vệ tập thể?",
+        "o": [
+          "Kiên quyết ngăn bạn lại, yêu cầu trả nguyên tiền quỹ chung cả lớp; thiếu tiền tiêu vặt thì tự tiết kiệm chứ không lấy của chung",
+          "Im lặng cho bạn lấy một mình để khỏi mất lòng bạn thân",
+          "Chụp ảnh đi rêu rao khắp trường cho bạn thật xấu hổ trước khi bạn kịp dừng",
+          "Đồng ý chia đôi ngay vì nghĩ ít tiền thế cả lớp không phát hiện ra đâu"
+        ],
+        "k": "A",
+        "e": "Giữ sự liêm khiết công tư phân minh và giúp bạn dừng kịp thời trước sai phạm lớn bảo toàn cả quỹ lớp lẫn danh dự bạn.",
+        "s": "Đạo đức 4",
+        "h": "Giữ liêm khiết trước cám dỗ quỹ chung"
+      },
+      {
+        "c": "DD4-B08-015",
+        "d": "advanced",
+        "p": "Khi hoàn thành tốt đồng thời cả 5 nhóm bổn phận (với gia đình, nhà trường, cộng đồng, đất nước và bản thân), phần thưởng tinh thần quý giá nhất mà chính bản thân em nhận lại là gì?",
+        "o": [
+          "Sự trưởng thành vững vàng về nhân cách, niềm tin yêu tự hào từ mọi người xung quanh và tâm thế bình an hạnh phúc mỗi ngày",
+          "Tự động trở nên giàu có mà không cần học nghề nghiệp nào",
+          "Không bao giờ gặp bất kì khó khăn nào trong cuộc sống",
+          "Được miễn toàn bộ mọi kì thi chuyển cấp lên cấp 2"
+        ],
+        "k": "A",
+        "e": "Sống có trách nhiệm chính là con đường ngắn nhất kiến tạo tự trọng, niềm tin xã hội và hạnh phúc bền lâu.",
+        "s": "Đạo đức 4",
+        "h": "Giá trị tinh thần khi làm tròn bổn phận"
+      }
+    ]
+  },
+  {
+    "chapter": "daoduc4-c3",
+    "lesson": {
+      "code": "daoduc4-b09",
+      "title": "Bài 9. Bảo vệ cái đúng, cái tốt và Dũng cảm nhận lỗi",
+      "seq": 9,
+      "subtitle": "Biết phân biệt hành động đúng – sai trong cuộc sống học đường; dũng cảm bảo vệ điều tốt, người yếu thế một cách khôn ngoan an toàn và dám nhận lỗi, sửa lỗi khi mình làm sai",
+      "concepts": [
+        "Nhận diện cái đúng, cái tốt cần ủng hộ và cái sai cần ngăn chặn",
+        "Cách bảo vệ lẽ phải khéo léo, an toàn, không dùng bạo lực",
+        "Dũng cảm nhận lỗi và sửa sai là biểu hiện của bản lĩnh thật sự"
+      ]
+    },
+    "questions": [
+      {
+        "c": "DD4-B09-001",
+        "d": "basic",
+        "p": "Biểu hiện rõ nhất của một học sinh biết \"bảo vệ cái đúng, cái tốt\" trong lớp học là gì?",
+        "o": [
+          "Luôn đứng về phía bạn đông người hơn bất kể đúng hay sai",
+          "Cười nhạo những bạn chăm học trực nhật sạch sẽ gọi là \"làm màu\"",
+          "Dũng cảm lên tiếng ủng hộ bạn làm việc tốt, bênh vực lẽ phải và khuyên ngăn hoặc báo thầy cô khi thấy hành vi gian dối, bắt nạt, phá hoại",
+          "Giữ im lặng ủng hộ kẻ bắt nạt để được bình yên"
+        ],
+        "k": "C",
+        "e": "Ủng hộ điều thiện và không thỏa hiệp với cái xấu tạo nên môi trường tập thể công bằng, tích cực.",
+        "s": "Đạo đức 4",
+        "h": "Khái niệm bảo vệ cái đúng cái tốt"
+      },
+      {
+        "c": "DD4-B09-002",
+        "d": "basic",
+        "p": "Khi bản thân vô tình mắc lỗi làm vỡ bình hoa của lớp hoặc làm bạn bị đau trong lúc đùa nghịch, hành động nào thể hiện lòng dũng cảm thật sự?",
+        "o": [
+          "Thẳng thắn nhận lỗi với thầy cô và bạn, nói lời xin lỗi chân thành và tìm cách khắc phục sửa sai",
+          "Cãi chày cãi cối rằng tại cái bình hoa tự nhảy xuống đất vỡ",
+          "Lén bỏ trốn về chỗ ngồi giả vờ không liên quan gì",
+          "Nhanh chóng đổ lỗi cho một bạn khác hiền lành hơn mình"
+        ],
+        "k": "A",
+        "e": "Dám đối diện với lỗi lầm của mình đòi hỏi sự dũng cảm vượt qua nỗi sợ bị trách phạt.",
+        "s": "Đạo đức 4",
+        "h": "Dũng cảm nhận lỗi và sửa lỗi"
+      },
+      {
+        "c": "DD4-B09-003",
+        "d": "basic",
+        "p": "Tại sao nói bảo vệ cái đúng KHÔNG có nghĩa là dùng bạo lực (đánh nhau hay chửi mắng thô tục) với người làm sai?",
+        "o": [
+          "Vì pháp luật cho phép trẻ em đánh nhau ngoài sân trường",
+          "Vì bạo lực chỉ gây thương tích và thù hận thêm; bảo vệ cái đúng cần thái độ kiên quyết ôn hòa, dùng lí lẽ thuyết phục hoặc nhờ thầy cô, người lớn can thiệp",
+          "Vì người làm sai luôn khỏe hơn tất cả mọi người",
+          "Vì đánh nhau không tốn sức bằng nói chuyện"
+        ],
+        "k": "B",
+        "e": "Bản lĩnh văn minh giải quyết cái sai bằng chuẩn mực đạo đức, lí lẽ rõ ràng và sự hỗ trợ của tổ chức.",
+        "s": "Đạo đức 4",
+        "h": "Bảo vệ lẽ phải không dùng bạo lực"
+      },
+      {
+        "c": "DD4-B09-004",
+        "d": "basic",
+        "p": "Quan sát bảng so sánh giữa dũng cảm nhận lỗi và trốn tránh lỗi lầm sau. Điều gì tốt đẹp thường xảy ra sau khi ta thành thật nhận lỗi và khắc phục?",
+        "o": [
+          "Mình sẽ quên hết toàn bộ lỗi vừa phạm để lặp lại y nguyên",
+          "Thầy cô và bạn bè dễ cảm thông tha thứ hơn, lòng mình thấy nhẹ nhõm thanh thản và rút ra bài học không tái phạm nữa",
+          "Chiếc bình vỡ sẽ tự động lành nguyên vẹn ngay lập tức",
+          "Mọi người càng ghét bỏ mãi mãi suốt cả đời"
+        ],
+        "k": "B",
+        "e": "\"Đánh kẻ chạy đi, không ai đánh người chạy lại\"; sự thành khẩn mở ra cơ hội sửa chữa và trưởng thành.",
+        "s": "Đạo đức 4",
+        "h": "Kết quả tích cực của nhận lỗi thành thật",
+        "fig": {
+          "type": "table",
+          "title": "Bản lĩnh Dũng cảm",
+          "head": [
+            "Hành động dũng cảm",
+            "Thái độ né tránh"
+          ],
+          "rows": [
+            [
+              "Ủng hộ việc tốt",
+              "A dua chê bạn tốt"
+            ],
+            [
+              "Báo cô ngăn bắt nạt",
+              "Thờ ơ quay mặt bỏ đi"
+            ],
+            [
+              "Thẳng thắn nhận lỗi",
+              "Đổ thừa người khác"
+            ],
+            [
+              "Kiên trì sửa lỗi",
+              "Giấu giếm, tái phạm"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "DD4-B09-005",
+        "d": "basic",
+        "p": "Trong lớp có bạn hay trêu ghẹo bạn Nam vì Nam chăm chỉ giúp cô giáo xếp gọn sách vở cuối giờ, gọi Nam là \"nịnh cô\". Em nên nói gì để bảo vệ việc làm tốt của Nam?",
+        "o": [
+          "Cười lớn phụ họa trêu Nam tiếp để hòa đồng với nhóm kia",
+          "Nói rõ với nhóm bạn đó rằng giúp thầy cô và giữ lớp gọn gàng là việc làm tốt đẹp đáng học tập, không nên nói lời mỉa mai làm bạn nản lòng",
+          "Khuyên Nam từ nay bỏ mặc lớp bừa bộn cho khỏi bị trêu",
+          "Mắng chửi nhóm bạn kia thậm tệ"
+        ],
+        "k": "B",
+        "e": "Bảo vệ người làm việc tốt trước lời gièm pha giúp cái thiện lan tỏa thay vì bị thui chột.",
+        "s": "Đạo đức 4",
+        "h": "Bảo vệ bạn làm việc tốt trước lời trêu chọc"
+      },
+      {
+        "c": "DD4-B09-006",
+        "d": "basic",
+        "p": "Nếu lỡ mắc lỗi nhỏ nhưng kịp thời tự giác nhận lỗi với bố mẹ ngay, thái độ tiếp theo cần có để chứng tỏ lời xin lỗi là thật lòng chứ không phải xin lỗi cho xong chuyện là gì?",
+        "o": [
+          "Hành động sửa lỗi cụ thể và ghi nhớ không lặp lại sai phạm tương tự về sau",
+          "Ghi lỗi của mình ra vở rồi giấu kín dưới gầm giường",
+          "Xin lỗi xong quay sang đòi bố mẹ mua quà thưởng vì đã biết nhận lỗi",
+          "Chỉ nói \"Con xin lỗi\" thật to rồi 5 phút sau làm sai y như cũ"
+        ],
+        "k": "A",
+        "e": "Lời xin lỗi có giá trị nhất khi đi kèm sự thay đổi tích cực trong hành động tiếp nối.",
+        "s": "Đạo đức 4",
+        "h": "Nhận lỗi phải đi đôi với sửa lỗi"
+      },
+      {
+        "c": "DD4-B09-007",
+        "d": "application",
+        "p": "Trong giờ kiểm tra 15 phút, bạn ngồi bên cạnh em lén mở vở chép tài liệu và ra hiệu rủ em cùng xem cho điểm cao. Cách bảo vệ sự công bằng trung thực hợp lí nhất lúc này là gì?",
+        "o": [
+          "Mượn luôn quyển vở của bạn chép thật nhanh cho kịp hết giờ",
+          "Lấy thước kẻ đánh mạnh vào đầu bạn ấy ngay tại chỗ",
+          "Từ chối thẳng thắn bằng cái lắc đầu dứt khoát không nhìn vào tài liệu của bạn; giờ ra chơi khuyên bạn tự ôn học thật để đạt kết quả xứng đáng",
+          "Hét ầm lên giữa phòng thi làm cả lớp giật mình dừng làm bài"
+        ],
+        "k": "C",
+        "e": "Không tiếp tay cho gian lận, giữ vững nguyên tắc bản thân và góp ý riêng mang tính xây dựng bảo vệ công bằng học đường.",
+        "s": "Đạo đức 4",
+        "h": "Từ chối tiếp tay cho gian lận thi cử"
+      },
+      {
+        "c": "DD4-B09-008",
+        "d": "application",
+        "p": "Nhóm em bầu chọn bạn xứng đáng nhận phiếu khen \"Cháu ngoan Bác Hồ\" tháng này. Bạn Hoa thật sự rất chăm chỉ, trung thực nhưng lại ít nói; còn một bạn khác hay khoe khoang lại vận động rủ các bạn bỏ phiếu cho mình đổi lấy kẹo. Em lựa chọn thế nào?",
+        "o": [
+          "Kiên quyết bỏ phiếu công tâm đúng người xứng đáng là bạn Hoa và từ chối nhận kẹo mua chuộc phiếu bầu",
+          "Gạch hỏng cả hai phiếu để không ai được chọn",
+          "Sợ mất lòng nên nghỉ học đúng hôm lớp bỏ phiếu",
+          "Nhận kẹo ngay rồi bỏ phiếu cho bạn kia dù biết bạn chưa gương mẫu"
+        ],
+        "k": "A",
+        "e": "Công tâm, không bị mua chuộc vì lợi ích nhỏ là hành động bảo vệ cái đúng đầy bản lĩnh.",
+        "s": "Đạo đức 4",
+        "h": "Công tâm bầu chọn không nhận lợi ích riêng"
+      },
+      {
+        "c": "DD4-B09-009",
+        "d": "application",
+        "p": "Lỡ tay đánh rơi làm vỡ màn hình máy tính bảng của chị gái khi mượn chơi mà chị chưa hay biết. Dù rất sợ bị mẹ và chị trách mắng, cách ứng xử dũng cảm chuẩn mực là gì?",
+        "o": [
+          "Nói dối là có chú mèo hàng xóm chạy vào làm rơi",
+          "Chủ động tới gặp chị và mẹ thành thật nhận lỗi do mình bất cẩn, xin lỗi chân thành và xin trích tiền tiết kiệm góp sửa máy",
+          "Giấu kín chiếc máy xuống đáy tủ quần áo rồi giả vờ không biết máy đâu",
+          "Đặt nhẹ máy vỡ lên giường em út rồi đổ vấy cho em bé làm rơi"
+        ],
+        "k": "B",
+        "e": "Tránh nói dối nối tiếp sai lầm; trung thực nhận trách nhiệm sớm giúp gia đình xử lí sửa chữa kịp thời và giữ trọn niềm tin.",
+        "s": "Đạo đức 4",
+        "h": "Dũng cảm nhận lỗi với người thân"
+      },
+      {
+        "c": "DD4-B09-010",
+        "d": "application",
+        "p": "Bạn Minh phát hiện anh trai mình đi xe đạp điện không đội mũ bảo hiểm chuẩn bị phóng ra đường. Bạn ấy nên góp ý bảo vệ điều đúng với người thân như thế nào?",
+        "o": [
+          "Im lặng không dám nói gì vì nghĩ anh trai lớn hơn mình",
+          "Trốn lên phòng ngủ vì sợ anh cáu",
+          "Nhắc nhẹ nhàng nhưng kiên quyết: \"Anh ơi đội mũ bảo hiểm cài quai chắc vào cho an toàn và đúng luật giao thông ạ!\" và lấy giúp anh chiếc mũ",
+          "Cười thích thú quay video anh chạy đầu trần ngoài đường"
+        ],
+        "k": "C",
+        "e": "Bảo vệ cái đúng ngay cả với người thân bằng thái độ lễ phép chân thành góp phần bảo vệ an toàn tính mạng cho chính họ.",
+        "s": "Đạo đức 4",
+        "h": "Nhắc nhở người thân làm điều đúng"
+      },
+      {
+        "c": "DD4-B09-011",
+        "d": "application",
+        "p": "Khi thấy một nhóm đông bạn trong lớp trêu chọc cô lập một bạn có hoàn cảnh khó khăn hoặc mặc quần áo giản dị, phản ứng nào thể hiện lòng nhân ái kết hợp dũng cảm bảo vệ cái tốt?",
+        "o": [
+          "Làm ngơ cắm cúi đọc truyện như điếc không nghe gì",
+          "Sợ bị trêu lây nên vội vàng đứng chung vào nhóm trêu bạn đó",
+          "Chủ động đứng bên cạnh ngồi chơi trò chuyện cùng bạn bị cô lập và nhắc nhóm bạn kia dừng lời nói tổn thương bạn ấy lại",
+          "Khuyên bạn mặc đồ giản dị nên xin chuyển trường đi chỗ khác"
+        ],
+        "k": "C",
+        "e": "Chỉ cần một người bạn dũng cảm đứng cạnh người yếu thế, sức mạnh của đám đông bắt nạt lập tức bị tan rã.",
+        "s": "Đạo đức 4",
+        "h": "Đứng cạnh bảo vệ bạn bị cô lập"
+      },
+      {
+        "c": "DD4-B09-012",
+        "d": "application",
+        "p": "Em từng hiểu lầm bạn Lan lấy mất cây bút đẹp của mình nên đã nói lời nặng nề trách móc bạn trước tổ. Tối về tìm kĩ lại cặp sách thì thấy cây bút nằm kẹt dưới đáy ngăn phụ cặp mình! Sáng hôm sau đến lớp em phải làm gì ngay?",
+        "o": [
+          "Nói rằng chắc tại hôm qua Lan cầm nhầm rồi nay tự trả vào cặp mình",
+          "Giấu biến cây bút vào hộc tủ ở nhà và vẫn giận Lan suốt năm học",
+          "Gặp riêng Lan (hoặc xin lỗi công khai trước tổ như lúc đã trách nhầm) để thành thật nhận mình đã hồ đồ hiểu lầm và xin lỗi Lan chân thành",
+          "Lén nhét cây bút đó vào cặp của Lan để khỏi bị mang tiếng hiểu lầm"
+        ],
+        "k": "C",
+        "e": "Dám xin lỗi để minh oan cho người bị mình trách nhầm là đỉnh cao của lòng tự trọng và công bằng.",
+        "s": "Đạo đức 4",
+        "h": "Dũng cảm xin lỗi khi hiểu lầm người khác"
+      },
+      {
+        "c": "DD4-B09-013",
+        "d": "advanced",
+        "p": "Nhiều bạn ngại tố giác hành vi xấu (như bạn lớp trên trấn lột tiền ăn sáng của các em nhỏ) vì sợ bị mang tiếng là \"mách lẻo\" hoặc sợ bị trả thù. Sự khác nhau cơ bản giữa \"mách lẻo vụn vặt\" và \"dũng cảm báo cáo bảo vệ cái đúng\" là gì?",
+        "o": [
+          "Nếu bị bạn lớp trên đe dọa lấy tiền thì phải ngoan ngoãn đưa thêm tiền hàng ngày",
+          "Chỉ người lớn mới có quyền báo cáo kẻ bắt nạt, trẻ em tuyệt đối phải im lặng",
+          "Mách lẻo là soi lỗi nhỏ cho vui; báo cáo bạo lực, xâm hại hay phá hoại là trách nhiệm dũng cảm bảo vệ an toàn cho bạn",
+          "Hai việc này hoàn toàn giống hệt nhau nên tốt nhất im lặng trước mọi tội ác"
+        ],
+        "k": "C",
+        "e": "Phân biệt rạch ròi giúp học sinh không bị chi phối bởi tâm lí sợ \"mách lẻo\" khi cần bảo vệ an toàn cho mình và bạn.",
+        "s": "Đạo đức 4",
+        "h": "Phân biệt mách lẻo và dũng cảm bảo vệ an toàn"
+      },
+      {
+        "c": "DD4-B09-014",
+        "d": "advanced",
+        "p": "Để bảo vệ cái đúng một cách thông minh khi đối mặt với tình huống nguy hiểm vượt sức (như thấy người lớn trộm xe máy ngoài cổng trường hay xô xát có hung khí), em cần áp dụng nguyên tắc an toàn nào?",
+        "o": [
+          "Lao thẳng một mình ra giằng co với kẻ gian để thể hiện anh hùng",
+          "Đứng sát ngay bên cạnh quay livestream trực tiếp thật lâu",
+          "Tự lấy đá ném thẳng vào xe của kẻ gian rồi đứng nguyên tại chỗ",
+          "Giữ an toàn cho mình ở khoảng cách kín, nhớ đặc điểm nhận dạng rồi chạy báo ngay bảo vệ, thầy cô hoặc gọi 113 hỗ trợ"
+        ],
+        "k": "D",
+        "e": "Dũng cảm luôn gắn liền với trí tuệ và tự bảo vệ sinh mạng để huy động đúng lực lượng chức năng hỗ trợ kịp thời.",
+        "s": "Đạo đức 4",
+        "h": "Dũng cảm khôn ngoan bảo đảm an toàn bản thân"
+      },
+      {
+        "c": "DD4-B09-015",
+        "d": "advanced",
+        "p": "Câu nói \"Không có ai hoàn toàn không bao giờ mắc lỗi, chỉ có người dám sửa lỗi mới ngày một hoàn thiện hơn\" mang thông điệp gì cho học sinh Lớp 4?",
+        "o": [
+          "Cứ thoải mái mắc thật nhiều lỗi mỗi ngày mà không cần sửa chữa gì cả",
+          "Vì ai cũng mắc lỗi nên không cần phải nói lời xin lỗi ai bao giờ",
+          "Đừng sợ hãi che giấu khuyết điểm đến mức nói dối; mỗi lần nhận lỗi chân thành và rút kinh nghiệm sửa chữa là một bước giúp bản thân trưởng thành vững vàng hơn",
+          "Chỉ những bạn học kém mới từng mắc lỗi sai"
+        ],
+        "k": "C",
+        "e": "Thái độ cầu thị, dám nhận – dám sửa biến mọi sai sót tuổi thơ thành bài học trưởng thành vô giá.",
+        "s": "Đạo đức 4",
+        "h": "Thông điệp trưởng thành từ nhận và sửa lỗi"
+      }
+    ]
+  },
+  {
+    "chapter": "daoduc4-c4",
+    "lesson": {
+      "code": "daoduc4-b10",
+      "title": "Bài 10. Trung thực trong học tập và sinh hoạt",
+      "seq": 10,
+      "subtitle": "Hiểu giá trị của sự trung thực trong lời nói, học tập và sinh hoạt hằng ngày; biết tránh nói dối, không gian lận thi cử và biết lựa chọn lời nói thật tế nhị, xây dựng",
+      "concepts": [
+        "Trung thực là tôn trọng sự thật, không gian dối trong học tập và sinh hoạt",
+        "Tác hại của bệnh thành tích, quay cóp, nói dối",
+        "Sự khác biệt giữa nói thật chân thành và lời nói thô lỗ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "DD4-B10-001",
+        "d": "basic",
+        "p": "Biểu hiện rõ nhất của tính \"Trung thực trong học tập\" đối với học sinh Lớp 4 là gì?",
+        "o": [
+          "Nhờ anh chị lớp trên làm hết bài tập về nhà mỗi tối",
+          "Chép y nguyên bài văn mẫu trên mạng rồi nhận là mình tự nghĩ",
+          "Giấu điểm kiểm tra 5 rồi tự sửa số trên giấy thành điểm 9",
+          "Tự lực làm bài tập và bài kiểm tra bằng chính kiến thức của mình, không chép bài bạn hay quay cóp tài liệu"
+        ],
+        "k": "D",
+        "e": "Học thật – thi thật giúp em biết chính xác phần kiến thức mình đã vững và phần còn hổng để tiến bộ.",
+        "s": "Đạo đức 4",
+        "h": "Biểu hiện trung thực trong học tập"
+      },
+      {
+        "c": "DD4-B10-002",
+        "d": "basic",
+        "p": "Vì sao thói quen \"nói dối\" dù chỉ một vài lần nhỏ lúc đầu lại rất nguy hiểm đối với nhân cách và các mối quan hệ?",
+        "o": [
+          "Vì nói dối làm giọng nói bị khàn mất tiếng vĩnh viễn",
+          "Vì nói dối giúp mọi người tin tưởng mình hơn",
+          "Vì một lời nói dối thường kéo theo nhiều lời nói dối khác để che đậy, lâu dần khiến mọi người mất hoàn toàn lòng tin vào mình",
+          "Vì nói dối chỉ xảy ra ở người lớn chứ trẻ em không bao giờ nói dối"
+        ],
+        "k": "C",
+        "e": "\"Một lần bất tín, vạn lần bất tin\" – lòng tin mất đi rất khó xây dựng lại.",
+        "s": "Đạo đức 4",
+        "h": "Hậu quả của thói quen nói dối"
+      },
+      {
+        "c": "DD4-B10-003",
+        "d": "basic",
+        "p": "Khi bác thu ngân ở hiệu sách vô tình thối nhầm dư lại cho em hẳn 20 nghìn đồng so với giá tiền sách phải trả, hành động trung thực cần làm ngay là gì?",
+        "o": [
+          "Đưa cho bạn đi cùng rồi chia đôi tiền dư đó",
+          "Nhanh chóng nhét túi chạy biến ra khỏi cửa hàng mua kẹo ăn hết",
+          "Kiểm lại rõ ràng rồi lễ phép gửi trả ngay số tiền thối dư đó cho bác thu ngân và nói \"Cháu gửi lại bác tiền thối dư ạ\"",
+          "Cười thầm bảo tại bác thu ngân mắt kém tự chịu"
+        ],
+        "k": "C",
+        "e": "Trả lại tiền thối dư thể hiện phẩm chất liêm khiết, ngay thẳng không tham của không thuộc về mình.",
+        "s": "Đạo đức 4",
+        "h": "Trung thực khi được trả nhầm tiền thừa"
+      },
+      {
+        "c": "DD4-B10-004",
+        "d": "basic",
+        "p": "Quan sát bảng các tình huống rèn tính trung thực dưới đây. Khi chưa kịp học thuộc bài cũ vì tối qua bị sốt mệt, em nên nói thế nào với cô giáo đầu tiết học?",
+        "o": [
+          "Mượn vở của bạn ngồi cạnh xóa tên điền tên mình vào nộp",
+          "Thẳng thắn đứng dậy xin lỗi cô, trình bày trung thực lí do sức khỏe tối qua và hứa sẽ học bù đầy đủ vào tiết hôm sau",
+          "Chui xuống gầm bàn trốn không cho cô nhìn thấy mặt",
+          "Nói dối là quyển vở vừa bị chó nhà hàng xóm cắn mất tối qua"
+        ],
+        "k": "B",
+        "e": "Thẳng thắn trình bày sự thật giúp thầy cô cảm thông hỗ trợ đúng cách thay vì nói dối tạo thói quen xấu.",
+        "s": "Đạo đức 4",
+        "h": "Nói thật khi chưa kịp chuẩn bị bài",
+        "fig": {
+          "type": "table",
+          "title": "Rèn luyện Tính Trung thực",
+          "head": [
+            "Hoàn cảnh",
+            "Cách chọn trung thực"
+          ],
+          "rows": [
+            [
+              "Làm bài kiểm tra",
+              "Tự làm, không cóp"
+            ],
+            [
+              "Thiếu bài do ốm mệt",
+              "Thưa thật với cô"
+            ],
+            [
+              "Bác bán hàng thối dư",
+              "Trả lại tiền thừa"
+            ],
+            [
+              "Chấm điểm tổ giúp cô",
+              "Công minh khách quan"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "DD4-B10-005",
+        "d": "basic",
+        "p": "Nếu được cô giáo giao nhiệm vụ chấm chéo bài chính tả cho bạn ngồi cạnh, nguyên tắc trung thực đòi hỏi em chấm thế nào?",
+        "o": [
+          "Chữa ngầm lỗi sai giúp bạn thân rồi cho điểm 10 tròn",
+          "Không cần đọc bài bạn mà ghi bừa một con điểm bất kì",
+          "Chấm đúng từng lỗi chính xác khách quan theo đáp án cô hướng dẫn, không chấm vống lên cho bạn thân hay cố tình gạch sai của bạn không thích",
+          "Gạch sai thêm nhiều lỗi của bạn mình ghét cho bạn bị điểm thấp"
+        ],
+        "k": "C",
+        "e": "Công tâm, khách quan dù khi chấm bài cho bạn thân hay bạn chưa thân là thước đo bản lĩnh trung thực.",
+        "s": "Đạo đức 4",
+        "h": "Công tâm khi chấm chéo bài bạn"
+      },
+      {
+        "c": "DD4-B10-006",
+        "d": "basic",
+        "p": "Câu tục ngữ Việt Nam nào khuyên con người luôn giữ lòng ngay thẳng, không gian dối vụ lợi?",
+        "o": [
+          "\"Gần mực thì đen, gần đèn thì rạng\"",
+          "\"Đi một ngày đàng học một sàng khôn\"",
+          "\"Cây ngay không sợ chết đứng\"",
+          "\"Khéo ăn thì no, khéo co thì ấm\""
+        ],
+        "k": "C",
+        "e": "\"Cây ngay không sợ chết đứng\" ca ngợi phẩm chất quang minh chính đại, không làm điều khuất tất.",
+        "s": "Đạo đức 4",
+        "h": "Tục ngữ về lòng ngay thẳng"
+      },
+      {
+        "c": "DD4-B10-007",
+        "d": "application",
+        "p": "Bạn An nói với em: \"Hôm nay cậu cho tớ chép bài Tập làm văn đi để tớ được 9 điểm cho mẹ vui, chứ điểm 5 thì mẹ buồn lắm!\". Em giúp An thế nào mới đúng tinh thần trung thực và thương mẹ?",
+        "o": [
+          "Không cho chép nguyên bài; gợi ý hướng dẫn An dàn ý và cách dùng từ để An tự viết bằng cảm xúc thật của mình tiến bộ từng ngày cho mẹ vui thực sự",
+          "Nói dối cô giáo là An bị gãy tay không viết được bài",
+          "Khuyên An lấy bài văn mẫu trên mạng in ra dán vào vở nộp cô",
+          "Đưa luôn bài làm của mình cho An chép từng chữ một cho nhanh"
+        ],
+        "k": "A",
+        "e": "Điểm 9 đi mượn không mang lại năng lực thật; giúp bạn tự làm mới làm cha mẹ tự hào bền lâu.",
+        "s": "Đạo đức 4",
+        "h": "Giúp bạn học thật thay vì chép bài làm vui lòng cha mẹ"
+      },
+      {
+        "c": "DD4-B10-008",
+        "d": "application",
+        "p": "Một bạn học sinh lấy tiền đóng quỹ ủng hộ đồng bào bão lụt do mẹ đưa cất tạm vào túi áo, trên đường đi làm rơi mất một nửa nhưng sợ mẹ mắng nên nói dối cô giáo rằng \"Mẹ em năm nay chỉ gửi ủng hộ bấy nhiêu thôi\". Em khuyên bạn làm gì?",
+        "o": [
+          "Khuyên bạn nói dối luôn là có bạn nào đó trong lớp ăn cắp mất",
+          "Khen bạn thông minh biết xử lí êm đẹp không ai biết",
+          "Bảo bạn lấy nốt số tiền còn lại đi mua đồ chơi",
+          "Khuyên bạn nói thật ngay với mẹ về việc vô ý đánh rơi tiền để mẹ biết sự thật, rút kinh nghiệm giữ tiền cẩn thận hơn chứ không giấu nhẹm nói dối cả mẹ lẫn cô"
+        ],
+        "k": "D",
+        "e": "Lỗi sơ ý đánh rơi đáng tiếc dễ được cha mẹ cảm thông hơn nhiều so với lỗi nói dối và nghi ngờ sai cho người khác.",
+        "s": "Đạo đức 4",
+        "h": "Trung thực giải quyết sự cố làm mất tiền"
+      },
+      {
+        "c": "DD4-B10-009",
+        "d": "application",
+        "p": "Khi được cô giáo trả lại bài kiểm tra Toán và phát hiện cô cộng nhầm dư cho mình 1 điểm (thực ra mình chỉ được 8 điểm nhưng cô ghi thành 9 điểm), em xử lí thế nào?",
+        "o": [
+          "Cười chê cô giáo không biết làm phép cộng lớp 1",
+          "Im lặng cất vội bài vào cặp khoe khắp nhà được 9 điểm",
+          "Cầm bài lên bàn giáo viên lễ phép thưa rõ với cô phần cộng nhầm điểm để cô sửa lại đúng số điểm 8 thực tế của mình",
+          "Cố tình viết sửa thêm vào bài làm để hợp thức hóa điểm 9"
+        ],
+        "k": "C",
+        "e": "Trung thực cả khi mình bị thiệt một chút điểm chính là minh chứng sáng ngời của lòng tự trọng.",
+        "s": "Đạo đức 4",
+        "h": "Trung thực trả lại điểm cô chấm nhầm dư"
+      },
+      {
+        "c": "DD4-B10-010",
+        "d": "application",
+        "p": "Nhóm em làm thí nghiệm Khoa học trồng cây đậu đo chiều cao mỗi ngày 1 lần. Đến hôm báo cáo, nhóm nhận thấy có một ngày quên không đo nên cột số liệu bị trống. Nhóm xử lí thế nào cho đúng đạo đức khoa học trung thực?",
+        "o": [
+          "Mượn số liệu đo cây đậu của nhóm khác chép sang bảng mình",
+          "Tự bịa đại một con số đẹp mắt điền vào cho đủ bảng rồi nộp",
+          "Xóa luôn cả bảng số liệu không nộp nữa",
+          "Ghi trung thực ngày đó chưa kịp đo (hoặc đánh dấu khoảng trống giải thích rõ với cô) tuyệt đối không tự bịa ra một con số giả điền vào bảng"
+        ],
+        "k": "D",
+        "e": "Trung thực với số liệu thực nghiệm là nguyên tắc bất di bất dịch trong học tập và nghiên cứu khoa học.",
+        "s": "Đạo đức 4",
+        "h": "Trung thực số liệu thí nghiệm học tập"
+      },
+      {
+        "c": "DD4-B10-011",
+        "d": "application",
+        "p": "Một bạn mua nhầm chiếc áo mới trông hơi rộng và màu không hợp lắm, bạn ấy hào hứng hỏi em: \"Cậu thấy chiếc áo này tớ mặc có đẹp không?\". Làm sao để vừa trung thực vừa tế nhị không làm bạn cụt hứng tổn thương?",
+        "o": [
+          "Quay lưng cười khẩy bỏ đi không trả lời",
+          "Chê thẳng mặt to tiếng: \"Xấu kinh khủng như cái bao tải, đừng mặc nữa!\"",
+          "Khen điểm tích cực (như chất vải mát, đường may đẹp) rồi góp ý nhẹ nhàng rằng nếu chọn cỡ vừa hơn một chút sẽ tôn dáng đẹp hơn nữa",
+          "Nói dối tâng bốc quá đà: \"Đẹp nhất thế giới luôn, mặc đi thi hoa hậu được!\""
+        ],
+        "k": "C",
+        "e": "Trung thực không đồng nghĩa với nói lời thô lỗ gây tổn thương; sự chân thành kết hợp tế nhị luôn chạm tới trái tim bạn.",
+        "s": "Đạo đức 4",
+        "h": "Trung thực đi kèm tế nhị góp ý"
+      },
+      {
+        "c": "DD4-B10-012",
+        "d": "application",
+        "p": "Nếu trong trò chơi thể thao của lớp (như kéo co hay đá bóng), quả bóng vô tình chạm nhẹ tay em lăn ra biên ngoài nhưng trọng tài ở xa không kịp nhìn thấy. Hành động chuẩn tinh thần thể thao trung thực (Fair-play) là gì?",
+        "o": [
+          "Chủ động giơ tay báo nhận bóng đã chạm tay mình hoặc ra biên để trọng tài cho đội bạn phát bóng đúng luật",
+          "Cãi to tiếng đổ vấy cho hậu vệ đội bạn đẩy bóng ra ngoài",
+          "Nhắc cả đội mình im lặng coi như không có chuyện gì",
+          "Lờ đi đá tiếp thật nhanh tranh thủ ghi bàn thắng gian lận"
+        ],
+        "k": "A",
+        "e": "Tinh thần Fair-play trung thực được khán giả và đối thủ kính trọng hơn cả chiếc huy chương gian dối.",
+        "s": "Đạo đức 4",
+        "h": "Tinh thần trung thực Fair-play trong thể thao"
+      },
+      {
+        "c": "DD4-B10-013",
+        "d": "advanced",
+        "p": "Giả sử em tình cờ chứng kiến có người xấu rình rập hỏi địa chỉ nhà bạn thân em với thái độ khả nghi đáng sợ. Trong tình huống bảo vệ an toàn tính mạng hoặc bí mật cấp thiết này, việc không trả lời thật địa chỉ của bạn cho kẻ lạ mặt có bị coi là vi phạm đạo đức trung thực không?",
+        "o": [
+          "Không! Bảo vệ tính mạng an toàn là ưu tiên số một; từ chối cung cấp thông tin hay né tránh kẻ xấu hoàn toàn chính đáng",
+          "Có, bất kể kẻ cướp hay người xấu hỏi gì cũng bắt buộc phải khai thật hết địa chỉ và chìa khóa nhà",
+          "Phải dẫn người lạ đó về tận cửa nhà bạn để chứng tỏ mình trung thực",
+          "Không trả lời được vì trẻ em không biết nói gì với người lạ"
+        ],
+        "k": "A",
+        "e": "Đạo đức thực tiễn luôn linh hoạt theo mục tiêu bảo vệ sự sống và điều thiện; từ chối cung cấp thông tin cho kẻ xấu là kĩ năng tự vệ thông minh.",
+        "s": "Đạo đức 4",
+        "h": "Giới hạn bảo vệ an toàn trước kẻ xấu"
+      },
+      {
+        "c": "DD4-B10-014",
+        "d": "advanced",
+        "p": "Một số người lớn vì muốn con đạt giải cao nên làm hộ toàn bộ mô hình dự thi STEM rồi gắn tên học sinh đi nộp. Theo em, việc \"làm hộ cho có giải\" này gây hại sâu xa nhất điều gì cho chính người học sinh?",
+        "o": [
+          "Không hại gì cả vì chỉ cần tấm bằng khen treo tường là đủ rồi",
+          "Làm các mô hình tự động biết tự sửa chữa về sau",
+          "Làm học sinh mất đi cơ hội tự rèn tay nghề – tư duy, hình thành tâm lí gian dối hưởng thành quả không do mình tạo ra và thiếu tự tin thực chất về sau",
+          "Giúp học sinh đó tự động thông minh vượt bậc ngay lập tức"
+        ],
+        "k": "C",
+        "e": "Thành tích ảo nuôi dưỡng sự lệ thuộc và thói gian dối; quá trình tự mày mò thất bại rồi thành công mới là giá trị thật của giáo dục.",
+        "s": "Đạo đức 4",
+        "h": "Phê phán bệnh thành tích và làm hộ"
+      },
+      {
+        "c": "DD4-B10-015",
+        "d": "advanced",
+        "p": "Nếu lớp học muốn xây dựng danh hiệu \"Lớp học Trung thực – Nói không với quay cóp\", giải pháp đồng bộ nào vừa khuyến khích trung thực vừa giảm áp lực khiến bạn yếu không nảy sinh ý định chép bài?",
+        "o": [
+          "Bỏ hẳn mọi bài kiểm tra và cho cả lớp toàn điểm 10 miễn phí",
+          "Lập đôi bạn cùng tiến ôn tập sớm, đề cao sự tiến bộ thực chất hơn so bì điểm số và nêu gương trung thực trước lớp",
+          "Bắt tất cả các bạn dưới điểm 9 phải đứng góc lớp suốt một tuần",
+          "Lắp 10 chiếc camera sát mặt từng học sinh rồi trừ điểm cả lớp nếu có 1 bạn quay ngang"
+        ],
+        "k": "B",
+        "e": "Xây dựng môi trường an toàn cho sự tiến bộ thực chất là gốc rễ triệt tiêu động cơ gian lận thi cử.",
+        "s": "Đạo đức 4",
+        "h": "Giải pháp xây dựng văn hóa trung thực học đường"
+      }
+    ]
+  },
+  {
+    "chapter": "daoduc4-c4",
+    "lesson": {
+      "code": "daoduc4-b11",
+      "title": "Bài 11. Giữ lời hứa và Uy tín cá nhân",
+      "seq": 11,
+      "subtitle": "Hiểu thế nào là giữ lời hứa, suy nghĩ kĩ trước khi nhận lời và chịu trách nhiệm thông báo kịp thời, khắc phục khi gặp trở ngại khách quan không thể thực hiện đúng hẹn",
+      "concepts": [
+        "Giữ lời hứa là thực hiện đúng điều mình đã cam kết với người khác và với bản thân",
+        "Suy nghĩ kĩ khả năng trước khi hứa (không hứa suông, hứa liều)",
+        "Xử lí có trách nhiệm khi gặp sự cố bất khả kháng trễ hẹn"
+      ]
+    },
+    "questions": [
+      {
+        "c": "DD4-B11-001",
+        "d": "basic",
+        "p": "Thế nào được gọi là người \"Biết giữ lời hứa\"?",
+        "o": [
+          "Người chỉ thực hiện lời hứa khi được trả thêm tiền thưởng",
+          "Người không bao giờ dám nhận bất kì việc gì giúp ai",
+          "Người hay hứa thật nhiều cho người khác vui rồi quên sạch ngay sau đó",
+          "Người thực hiện đúng điều mình đã nói, đã nhận lời hẹn với bạn bè, gia đình và thầy cô (cũng như tự hứa với bản thân)"
+        ],
+        "k": "D",
+        "e": "Lời hứa gắn liền với danh dự và uy tín cá nhân; giữ lời tạo nên sự tin cậy bền vững.",
+        "s": "Đạo đức 4",
+        "h": "Khái niệm giữ lời hứa"
+      },
+      {
+        "c": "DD4-B11-002",
+        "d": "basic",
+        "p": "Trước khi nhận lời hứa làm một việc giúp bạn hoặc hứa với mẹ một mục tiêu lớn, bước suy nghĩ nào rất cần thiết để tránh thất hứa về sau?",
+        "o": [
+          "Hứa thật to nhưng trong bụng định trước là sẽ không làm",
+          "Cân nhắc thật kĩ xem việc đó có đúng đắn không và bản thân mình có đủ thời gian, sức khỏe, khả năng hoàn thành hay không rồi mới nhận lời",
+          "Chỉ nhận lời khi thấy việc đó cực kì nhàn hạ không cần động tay",
+          "Cứ gật đầu hứa bừa cho xong chuyện lúc đó rồi tính sau"
+        ],
+        "k": "B",
+        "e": "Suy nghĩ kĩ trước khi hứa giúp lời hứa trở nên có trọng lượng và khả thi thực hiện.",
+        "s": "Đạo đức 4",
+        "h": "Cân nhắc khả năng trước khi hứa"
+      },
+      {
+        "c": "DD4-B11-003",
+        "d": "basic",
+        "p": "Tác hại lớn nhất của việc một người thường xuyên hứa suông, thất hứa (như hẹn giờ gặp nhóm rồi không đến, hứa trả đồ rồi quên mãi) là gì?",
+        "o": [
+          "Giúp tiết kiệm được nhiều thời gian cho cả nhóm",
+          "Làm đồng hồ chạy nhanh hơn bình thường",
+          "Giúp người thất hứa trở thành người hài hước được yêu quý hơn",
+          "Làm người khác thất vọng, lỡ kế hoạch chung và dần mất hoàn toàn lòng tin nơi bạn bè, gia đình"
+        ],
+        "k": "D",
+        "e": "Chữ tín một khi bị rạn nứt vì thất hứa liên tiếp sẽ khiến mọi người e ngại không dám giao việc hay kết bạn thân.",
+        "s": "Đạo đức 4",
+        "h": "Hậu quả mất uy tín do thất hứa"
+      },
+      {
+        "c": "DD4-B11-004",
+        "d": "basic",
+        "p": "Quan sát bảng so sánh sau. Điều gì làm nên giá trị của việc \"Giữ lời hứa với chính bản thân mình\" (ví dụ tự hứa tối nay đọc 10 trang sách trước khi ngủ)?",
+        "o": [
+          "Không có giá trị gì vì chẳng ai phạt nếu mình nuốt lời với bản thân",
+          "Chỉ để ghi chép cho đầy quyển sổ tay rồi gấp lại",
+          "Để khoe khoang với các bạn khác rằng mình rất bận rộn",
+          "Giúp rèn luyện ý chí kỉ luật, thói quen tự giác kiên trì và lòng tự trọng từ bên trong ngay cả khi không ai giám sát"
+        ],
+        "k": "D",
+        "e": "Người biết giữ lời hứa với chính bản thân sẽ làm chủ được thói quen tốt và kế hoạch cuộc đời mình.",
+        "s": "Đạo đức 4",
+        "h": "Giữ lời hứa với chính bản thân",
+        "fig": {
+          "type": "table",
+          "title": "Xây dựng Uy tín Cá nhân",
+          "head": [
+            "Nguyên tắc",
+            "Hành động cụ thể"
+          ],
+          "rows": [
+            [
+              "Trước khi hứa",
+              "Nghĩ kĩ trước hứa"
+            ],
+            [
+              "Khi đã nhận lời",
+              "Ghi chú, cố gắng làm"
+            ],
+            [
+              "Gặp sự cố gấp",
+              "Báo trước, xin lỗi"
+            ],
+            [
+              "Hứa với bản thân",
+              "Tự giác rèn kỉ luật"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "DD4-B11-005",
+        "d": "basic",
+        "p": "Để tránh tình trạng \"hứa xong rồi vô tình quên mất\" vì mải học hay mải chơi nhiều việc khác, mẹo thực tế nào giúp em giữ đúng mọi cuộc hẹn và lời hứa?",
+        "o": [
+          "Chỉ nhận lời hứa qua điện thoại rồi tắt nguồn ngay",
+          "Ghi chú ngắn gọn lời hứa và thời hạn vào sổ tay, lịch bàn hoặc đặt nhắc giờ rõ ràng ngay sau khi nhận lời",
+          "Nhờ một người bạn hay quên khác nhớ hộ giúp mình",
+          "Cứ giữ trong đầu rồi chơi game liên tục cả ngày"
+        ],
+        "k": "B",
+        "e": "Ghi chép vào lịch nhắc việc biến quyết tâm thành hệ thống hành động tin cậy.",
+        "s": "Đạo đức 4",
+        "h": "Mẹo ghi chú nhắc nhớ giữ lời hứa"
+      },
+      {
+        "c": "DD4-B11-006",
+        "d": "basic",
+        "p": "Câu tục ngữ Việt Nam nào nhắc nhở về giá trị danh dự của lời nói đã thốt ra?",
+        "o": [
+          "\"Nước đổ lá khoai\"",
+          "\"Lời nói gói vàng\" (hoặc \"Nói chín thì nên làm mười / Nói mười làm chín kẻ cười người chê\")",
+          "\"Gió chiều nào che chiều ấy\"",
+          "\"Chuồn chuồn bay thấp thì mưa\""
+        ],
+        "k": "B",
+        "e": "Cha ông ta luôn coi trọng chữ Tín: đã nói ra thì phải nỗ lực thực hiện trọn vẹn.",
+        "s": "Đạo đức 4",
+        "h": "Tục ngữ về chữ Tín và lời nói"
+      },
+      {
+        "c": "DD4-B11-007",
+        "d": "application",
+        "p": "Sáng thứ Bảy em đã hẹn 8 giờ sang nhà bạn Mai để cùng tập thuyết trình bài nhóm. Bỗng nhiên 7 giờ sáng hôm đó trời mưa bão sấm sét rất to và em bị sốt cao bất ngờ không thể đi được. Em làm thế nào cho có trách nhiệm nhất?",
+        "o": [
+          "Nhờ bố mẹ gọi điện hoặc nhắn tin báo cho Mai và cô/nhóm biết sớm trước 8 giờ kèm lời xin lỗi, bàn cách tập trực tuyến nhẹ nhàng hoặc hẹn bù thời gian khác",
+          "Tắt chuông điện thoại để Mai tự ngồi chờ một mình suốt buổi sáng",
+          "Cứ mặc áo mưa đi bộ giữa bão sấm sét cho đúng lời hứa",
+          "Nằm ngủ yên tới 11 giờ trưa cho qua giờ hẹn rồi không nói câu nào"
+        ],
+        "k": "A",
+        "e": "Khi gặp trở ngại khách quan bất khả kháng, báo tin SỚM NHẤT có thể giúp người hẹn chủ động điều chỉnh kế hoạch, không bị chờ đợi vô ích.",
+        "s": "Đạo đức 4",
+        "h": "Xử lí sự cố bất khả kháng khi trễ hẹn"
+      },
+      {
+        "c": "DD4-B11-008",
+        "d": "application",
+        "p": "Bạn Hùng hứa với em sẽ mang trả quả bóng đá vào sáng thứ Hai để lớp đá giải giao hữu, nhưng sáng thứ Hai Hùng quên ở nhà. Hùng bèn nói: \"Thôi, tuần sau trả cũng được, việc gì phải vội!\". Nếu là em, em góp ý với Hùng ra sao?",
+        "o": [
+          "Giận dữ cắt đứt tình bạn và mắng Hùng trước toàn trường",
+          "Đồng tình với Hùng rồi bảo cả đội nghỉ đá giải luôn",
+          "Tự ý lấy trộm bóng của lớp khác ra đá thay",
+          "Nhắc Hùng hiểu trận đá diễn ra hôm nay nên thất hẹn làm ảnh hưởng cả đội; khuyên bạn nhờ người nhà mang giúp hoặc chuẩn bị sớm"
+        ],
+        "k": "D",
+        "e": "Nhận ra tác động của việc thất hẹn lên tập thể giúp người trẻ biết trân trọng sự chuẩn bị từ tối hôm trước.",
+        "s": "Đạo đức 4",
+        "h": "Nhận thức hậu quả trễ hẹn với tập thể"
+      },
+      {
+        "c": "DD4-B11-009",
+        "d": "application",
+        "p": "Một người bạn rủ em hứa bí mật: \"Cậu hứa hôm nay đi chơi điện tử trốn tiết Tin học với tớ nhé, không được nuốt lời đấy!\". Em xử lí lời đề nghị hứa sai trái này thế nào?",
+        "o": [
+          "Nhận lời hứa luôn cho ra dáng người trọng chữ tín rồi trốn học theo bạn",
+          "Im lặng đi theo bạn vào quán điện tử không cần hứa",
+          "Nhận lời hứa giả vờ rồi lát sau trốn về nhà",
+          "Từ chối ngay không nhận lời hứa sai phạm nội quy trường học; chỉ hứa những điều đúng đắn, lành mạnh và an toàn"
+        ],
+        "k": "D",
+        "e": "Bản lĩnh là biết từ chối nhận lời những việc làm sai đạo đức hay vi phạm kỉ luật ngay từ đầu.",
+        "s": "Đạo đức 4",
+        "h": "Không nhận lời hứa làm việc sai trái"
+      },
+      {
+        "c": "DD4-B11-010",
+        "d": "application",
+        "p": "Em đã lỡ nhận lời hứa giúp một em nhỏ Lớp 1 chỉ cách gấp thuyền giấy vào giờ ra chơi, nhưng đúng lúc đó các bạn rủ đi chơi nhảy dây rất vui. Giữ chữ tín lúc này đòi hỏi em chọn cách nào?",
+        "o": [
+          "Gấp hướng dẫn em nhỏ làm xong chiếc thuyền giấy thật vui như đã hứa rồi mới xin phép qua chơi nhảy dây cùng các bạn sau (hoặc rủ em nhỏ cùng chơi)",
+          "Gấp vội một cục giấy nhàu nát ném cho em nhỏ rồi chạy đi",
+          "Bảo em nhỏ tuần sau quay lại hẹn tiếp lần nữa",
+          "Chạy thẳng ra chơi nhảy dây luôn bỏ mặc em nhỏ đứng đợi ngơ ngác"
+        ],
+        "k": "A",
+        "e": "Không để niềm vui cá nhân nhất thời làm mình bội tín với người đã tin tưởng chờ đợi mình.",
+        "s": "Đạo đức 4",
+        "h": "Ưu tiên giữ lời hứa trước cám dỗ vui chơi"
+      },
+      {
+        "c": "DD4-B11-011",
+        "d": "application",
+        "p": "Đầu học kì II, em tự lập bảng cam kết cá nhân với bố mẹ gồm 3 mục tiêu: đi ngủ trước 21h30, đọc sách 20 phút mỗi tối và tự dọn góc học tập. Sau 1 tháng, em đạt được kết quả 27/30 ngày rất tốt. Điều gì giúp em duy trì tốt như vậy?",
+        "o": [
+          "Vì mục tiêu đó không cần làm gì tự nhiên vẫn đạt",
+          "Đặt mục tiêu vừa sức cụ thể, tự kiểm tra đánh dấu mỗi ngày và có động lực giữ uy tín lời hứa với bố mẹ cùng bản thân",
+          "Vì em xé bảng cam kết đi từ ngày thứ hai",
+          "Vì bố mẹ ép phạt roi vọt mỗi đêm không cho ngủ"
+        ],
+        "k": "B",
+        "e": "Mục tiêu SMART vừa sức và bảng theo dõi hằng ngày biến lời hứa thành thói quen tích cực bền vững.",
+        "s": "Đạo đức 4",
+        "h": "Duy trì cam kết bằng mục tiêu vừa sức"
+      },
+      {
+        "c": "DD4-B11-012",
+        "d": "application",
+        "p": "Nhóm em nhận lời cô giáo tổng phụ trách chuẩn bị tiết mục hát tốp ca cho lễ chào cờ đầu tuần sau. Tuy nhiên mới tập được 1 buổi đã có hai bạn lười tập đòi bỏ cuộc giữa chừng. Là nhóm trưởng, em làm gì để giữ uy tín của cả tập thể?",
+        "o": [
+          "Động viên các bạn nhớ trách nhiệm lời hứa với cô và toàn trường, chia nhỏ đoạn hát dễ nhớ hơn và tổ chức tập vui vẻ đúng giờ cùng nhau",
+          "Gửi đơn đổ hết lỗi lên đầu hai bạn kia rồi mình cũng nghỉ luôn",
+          "Đồng ý bỏ luôn không báo cô giáo để sáng thứ Hai sân trường trống không",
+          "Lên sân khấu đứng im bật nhạc không hát"
+        ],
+        "k": "A",
+        "e": "Uy tín tập thể được bảo toàn bằng sự kiên trì, đoàn kết động viên nhau vượt qua giai đoạn nản chí.",
+        "s": "Đạo đức 4",
+        "h": "Giữ uy tín cam kết của cả tập thể"
+      },
+      {
+        "c": "DD4-B11-013",
+        "d": "advanced",
+        "p": "Giả sử trước đây em lỡ hứa một việc sai lầm do bị bạn xấu lôi kéo hoặc bồng bột (ví dụ hứa giữ kín chuyện bạn mang vật nhọn nguy hiểm vào trường gây gổ). Khi nhận ra mức độ nguy hiểm thật sự, em nên tiếp tục giữ lời hứa \"giữ bí mật\" đó hay báo ngay cho thầy cô?",
+        "o": [
+          "Không nói gì với thầy cô mà tự đi tìm vật nhọn khác mang theo",
+          "Tuyệt đối giữ bí mật tới cùng kể cả khi có bạn bị thương tích nặng",
+          "Chờ xảy ra đánh nhau xong hết rồi mới báo thầy cô",
+          "Báo ngay cho thầy cô xử lí kịp thời; bảo vệ an toàn tính mạng luôn cao hơn lời hứa bồng bột gây hại cho người khác"
+        ],
+        "k": "D",
+        "e": "An toàn tính mạng con người và pháp luật là giới hạn tối thượng; dũng cảm phá vỡ \"lời hứa xấu\" để cứu bạn là hành động sáng suốt.",
+        "s": "Đạo đức 4",
+        "h": "Giới hạn đạo đức của lời hứa khi liên quan an toàn"
+      },
+      {
+        "c": "DD4-B11-014",
+        "d": "advanced",
+        "p": "Một bạn hay được khen là \"tốt bụng\" vì ai nhờ gì cũng vội vàng gật đầu nhận lời hứa ngay tắp lự, nhưng sau đó toàn không làm kịp khiến hết bạn này đến thầy cô kia lỡ dở công việc. Em phân tích điểm yếu của bạn ấy và khuyên cách sửa thế nào?",
+        "o": [
+          "Khuyên bạn ấy nhận hứa thêm gấp đôi nữa cho mọi người quý hơn",
+          "Bạn mắc tật cả nể không dám từ chối; cần xem kĩ quỹ thời gian, chỉ nhận việc đủ sức làm tốt và lịch sự từ chối khi quá tải",
+          "Bạn ấy hoàn toàn tốt bụng tuyệt đối không cần sửa gì cả",
+          "Khuyên bạn ấy tắt điện thoại biến mất sau mỗi lần nhận lời"
+        ],
+        "k": "B",
+        "e": "Lời từ chối trung thực ngay từ đầu còn tử tế và đáng tin cậy gấp trăm lần lời hứa suông làm lỡ việc người khác.",
+        "s": "Đạo đức 4",
+        "h": "Khắc phục tật cả nể hứa bừa"
+      },
+      {
+        "c": "DD4-B11-015",
+        "d": "advanced",
+        "p": "Trong xã hội hiện đại, uy tín cá nhân (chữ Tín) có vai trò ra sao đối với sự hợp tác làm việc và thành công của một con người khi trưởng thành?",
+        "o": [
+          "Chỉ cần khéo léo lừa gạt được một lần là giàu mãi mãi",
+          "Là tài sản vô hình quý giá nhất giúp được đồng nghiệp, đối tác, khách hàng và bạn bè tin tưởng giao trọng trách, mở ra nhiều cơ hội hợp tác bền vững lâu dài",
+          "Không có vai trò gì vì máy tính hiện đại làm thay hết mọi việc",
+          "Uy tín chỉ cần thiết đối với bác bảo vệ trường học"
+        ],
+        "k": "B",
+        "e": "Chữ Tín là thước đo vàng trong mọi giao dịch xã hội và là nền móng vững chắc của nhân cách công dân toàn cầu.",
+        "s": "Đạo đức 4",
+        "h": "Giá trị chữ Tín trong cuộc sống trưởng thành"
+      }
+    ]
+  },
+  {
+    "chapter": "daoduc4-c4",
+    "lesson": {
+      "code": "daoduc4-b12",
+      "title": "Bài 12. Bảo vệ thiên nhiên và Yêu quý quê hương đất nước",
+      "seq": 12,
+      "subtitle": "Nhận biết vẻ đẹp thiên nhiên và truyền thống quê hương đất nước Việt Nam; thực hành lối sống xanh bảo vệ cây xanh, nguồn nước, động vật hoang dã và cảnh quan quê hương",
+      "concepts": [
+        "Yêu quê hương qua thiên nhiên tươi đẹp, di sản và con người hiền hòa",
+        "Hành động bảo vệ môi trường: 3T (Tiết giảm, Tái sử dụng, Tái chế), tiết kiệm điện nước",
+        "Không săn bắt ăn thịt động vật hoang dã quý hiếm, không xả rác bừa bãi"
+      ]
+    },
+    "questions": [
+      {
+        "c": "DD4-B12-001",
+        "d": "basic",
+        "p": "Những hành động hằng ngày nào của học sinh Lớp 4 góp phần thiết thực bảo vệ thiên nhiên và môi trường sống xanh sạch?",
+        "o": [
+          "Bỏ rác đúng nơi phân loại, trồng và chăm sóc cây xanh, tiết kiệm điện nước sạch và hạn chế dùng túi nilon một lần",
+          "Bẻ cành hái hoa ven đường và vứt vỏ hộp sữa ra sân cỏ",
+          "Mở vòi nước chảy tràn suốt buổi khi đánh răng",
+          "Đốt rác thải nhựa ngay sát hàng rào trường học"
+        ],
+        "k": "A",
+        "e": "Những thói quen xanh nhỏ hằng ngày của hàng triệu học sinh tạo nên sức mạnh bảo vệ môi trường to lớn.",
+        "s": "Đạo đức 4",
+        "h": "Hành động bảo vệ thiên nhiên hằng ngày"
+      },
+      {
+        "c": "DD4-B12-002",
+        "d": "basic",
+        "p": "Ý nghĩa của nguyên tắc sống xanh \"3T\" (Tiết giảm – Tái sử dụng – Tái chế) là gì?",
+        "o": [
+          "Thay mới cặp sách hộp bút mỗi tuần một lần dù chưa hỏng",
+          "Thải toàn bộ rác thải độc hại xuống sông suối cho trôi nhanh",
+          "Giảm bớt lượng đồ dùng một lần, tận dụng dùng lại đồ còn tốt và biến rác phân loại thành vật dụng hữu ích mới để giảm gánh nặng rác thải",
+          "Tăng thật nhiều túi nilon và ống hút nhựa mỗi lần đi mua hàng"
+        ],
+        "k": "C",
+        "e": "Thực hiện đúng 3T giúp tiết kiệm tài nguyên thiên nhiên quý giá và giữ Trái Đất xanh sạch hơn.",
+        "s": "Đạo đức 4",
+        "h": "Ý nghĩa nguyên tắc 3T bảo vệ môi trường"
+      },
+      {
+        "c": "DD4-B12-003",
+        "d": "basic",
+        "p": "Khi đi du lịch tham quan danh lam thắng cảnh như vịnh Hạ Long, động Phong Nha hay công viên biển cùng gia đình, việc làm nào thể hiện tình yêu quê hương đất nước?",
+        "o": [
+          "Giữ gìn cảnh quan nguyên vẹn, không xả rác xuống biển hang động, không khắc viết chữ lên vách đá và tìm hiểu trân trọng lịch sử nơi đó",
+          "Bẻ mang một nhánh san hô sống ngoài biển về nhà bày",
+          "Vứt thẳng vỏ chai nhựa xuống vịnh nước xanh",
+          "Khắc tên mình lên thạch nhũ hang động hoặc tường di tích cổ để làm kỉ niệm"
+        ],
+        "k": "A",
+        "e": "Di sản thiên nhiên cần hàng triệu năm kiến tạo; mỗi du khách văn minh đều góp phần bảo tồn nguyên vẹn cho đời sau.",
+        "s": "Đạo đức 4",
+        "h": "Du lịch xanh bảo vệ danh lam thắng cảnh"
+      },
+      {
+        "c": "DD4-B12-004",
+        "d": "basic",
+        "p": "Quan sát bảng các hành động bảo vệ thiên nhiên sau. Đối với các loài chim rừng và động vật hoang dã quý hiếm, thái độ đúng đắn của chúng ta là gì?",
+        "o": [
+          "Chặt hết rừng cây lâu năm lấy chỗ xây bãi rác",
+          "Đặt bẫy bắt giữ động vật rừng quý hiếm đem bán lấy tiền",
+          "Bảo vệ môi trường sống tự nhiên của chúng, không bắn phá tổ chim và nói không với việc nuôi nhốt hay tiêu thụ động vật hoang dã",
+          "Dùng ná cao su bắn chim trên cành cây sân trường làm trò vui"
+        ],
+        "k": "C",
+        "e": "Bảo vệ đa dạng sinh học giúp cân bằng hệ sinh thái tự nhiên nuôi sống chính con người.",
+        "s": "Đạo đức 4",
+        "h": "Bảo vệ chim muông và động vật hoang dã",
+        "fig": {
+          "type": "table",
+          "title": "Sống Xanh Yêu Quê hương",
+          "head": [
+            "Lĩnh vực",
+            "Việc làm thiết thực"
+          ],
+          "rows": [
+            [
+              "Rác thải (3T)",
+              "Phân loại, giảm nhựa"
+            ],
+            [
+              "Tài nguyên",
+              "Tiết kiệm điện, nước"
+            ],
+            [
+              "Cây xanh & Thú",
+              "Trồng cây, giữ thú"
+            ],
+            [
+              "Cảnh quan quê hương",
+              "Giữ sạch, không khắc"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "DD4-B12-005",
+        "d": "basic",
+        "p": "Tại sao việc tiết kiệm giấy vở (viết kín trang sạch sẽ, tận dụng mặt sau giấy in một mặt làm nháp, thu gom giấy vụn làm Kế hoạch nhỏ) lại góp phần bảo vệ rừng?",
+        "o": [
+          "Vì giấy vở tự nhiên mọc ra từ dưới lòng đất sâu",
+          "Vì tiết kiệm giấy giúp làm nóng khí hậu toàn cầu hơn",
+          "Vì giấy vụn biến thành túi nilon sau 1 ngày",
+          "Vì nguyên liệu sản xuất giấy phần lớn lấy từ bột gỗ cây rừng; tiết kiệm giấy giúp giảm chặt phá rừng xanh bảo vệ lá phổi Trái Đất"
+        ],
+        "k": "D",
+        "e": "Mỗi tấn giấy tái chế cứu sống hàng chục cây xanh trưởng thành và tiết kiệm lượng nước sản xuất khổng lồ.",
+        "s": "Đạo đức 4",
+        "h": "Tiết kiệm giấy góp phần bảo vệ rừng"
+      },
+      {
+        "c": "DD4-B12-006",
+        "d": "basic",
+        "p": "Tình yêu quê hương đất nước của học sinh Lớp 4 trước hết được nuôi dưỡng từ những điều gần gũi nào?",
+        "o": [
+          "Chỉ nói suông khẩu hiệu trên giấy nhưng vứt rác khắp ngõ xóm",
+          "Chỉ cần khoe khoang chê bai đất nước khác mà không làm gì có ích",
+          "Chờ khi nào lớn hẳn mới bắt đầu yêu thương gia đình và trường lớp",
+          "Yêu gia đình, yêu mái trường thầy cô bạn bè, tự hào về cảnh đẹp – truyền thống quê mình và nỗ lực học rèn thành người có ích"
+        ],
+        "k": "D",
+        "e": "Yêu nhà, yêu trường, yêu xóm làng và giữ gìn vẻ đẹp xung quanh chính là cội nguồn sâu thẳm của lòng yêu nước.",
+        "s": "Đạo đức 4",
+        "h": "Nuôi dưỡng tình yêu quê hương từ điều gần gũi"
+      },
+      {
+        "c": "DD4-B12-007",
+        "d": "application",
+        "p": "Bạn Minh chuẩn bị đi siêu thị mua một hộp bút nhỏ và hai quyển vở cùng mẹ. Để thực hiện bước \"Tiết giảm\" (Reduce) rác nhựa, hai mẹ con nên làm gì khi tới quầy thanh toán?",
+        "o": [
+          "Xin cô thu ngân cho hẳn 5 chiếc túi nilon bọc riêng từng cây bút",
+          "Mua thêm 20 ống hút nhựa dùng một lần về vứt bớt",
+          "Vứt bỏ luôn hộp giấy đựng bút ngay giữa cửa siêu thị",
+          "Mang theo túi vải dùng nhiều lần từ nhà đi để đựng đồ thay vì lấy thêm túi nilon mỏng dùng một lần từ siêu thị"
+        ],
+        "k": "D",
+        "e": "Từ chối túi nilon thừa bằng túi vải cá nhân là thói quen tiêu dùng xanh đơn giản và hiệu quả nhất.",
+        "s": "Đạo đức 4",
+        "h": "Áp dụng Tiết giảm túi nilon khi mua sắm"
+      },
+      {
+        "c": "DD4-B12-008",
+        "d": "application",
+        "p": "Trong khu phố có bác hàng xóm hay mang đống túi nilon, xốp vụn và rác thải sinh hoạt ra góc đường đốt khói đen mù mịt khét lẹt vào mỗi buổi chiều. Em và gia đình có thể góp ý văn minh thế nào?",
+        "o": [
+          "Chạy ra ném thêm lốp cao su vào đống lửa đốt cùng bác cho vui",
+          "Nhờ bố mẹ góp ý nhẹ nhàng rằng đốt nhựa sinh khói độc hại phổi cả xóm và hướng dẫn bỏ gọn vào xe rác đúng giờ",
+          "Lén mang rác nhà mình sang vứt trước cửa nhà bác ấy",
+          "Đứng chửi bới to tiếng gây gổ đánh nhau với bác hàng xóm"
+        ],
+        "k": "B",
+        "e": "Đốt rác nhựa ngoài trời phát sinh chất độc dioxin và bụi mịn nguy hiểm; truyền thông nhẹ nhàng giúp thay đổi thói quen cộng đồng.",
+        "s": "Đạo đức 4",
+        "h": "Phòng chống đốt rác nhựa gây ô nhiễm"
+      },
+      {
+        "c": "DD4-B12-009",
+        "d": "application",
+        "p": "Một nhóm bạn học sinh nhìn thấy một chú rùa nhỏ bò lạc gần bờ hồ công viên sau cơn mưa lớn. Hành động bảo vệ thiên nhiên chuẩn xác nhất là gì?",
+        "o": [
+          "Nhờ người lớn nhẹ nhàng thả chú rùa về lại bờ hồ tự nhiên hoặc báo ban quản lí công viên, không bắt nuôi nhốt hay bán",
+          "Đem ra chợ bán lấy tiền mua bánh tráng trộn",
+          "Lấy que chọc trêu cho chú rùa sợ hãi thụt đầu lại",
+          "Bắt ngay chú rùa bỏ vào hộp kín không nước mang về cất trong cặp"
+        ],
+        "k": "A",
+        "e": "Động vật tự nhiên chỉ sống khỏe bền vững trong môi trường sinh thái vốn có của nó.",
+        "s": "Đạo đức 4",
+        "h": "Bảo vệ động vật tự nhiên khi gặp lạc"
+      },
+      {
+        "c": "DD4-B12-010",
+        "d": "application",
+        "p": "Ngày cuối tuần, chi đội Lớp 4 em tổ chức hoạt động \"Chủ nhật Xanh\" dọn vệ sinh một đoạn đường nhỏ dẫn vào trường. Để buổi hoạt động vừa sạch hiệu quả vừa an toàn tuyệt đối cho các bạn nhỏ, cần chuẩn bị gì?",
+        "o": [
+          "Đốt hết đống lá khô và chai nhựa ngay cạnh trạm xăng",
+          "Đi chân đất không mang găng tay chạy thẳng ra giữa lòng đường đông xe tải",
+          "Chỉ chụp đúng một tấm ảnh cầm chổi cười tươi rồi bỏ về hết không nhặt rác",
+          "Đeo găng tay dày, mặc áo gọn mũ nón, có thầy cô và phụ huynh giám sát phần đường sát xe cộ, tuyệt đối không dùng tay trần nhặt mảnh kính vỡ hay kim tiêm lạ"
+        ],
+        "k": "D",
+        "e": "An toàn vệ sinh khi lao động tình nguyện cộng đồng (găng tay, kẹp gắp rác, giám sát giao thông) luôn đặt lên hàng đầu.",
+        "s": "Đạo đức 4",
+        "h": "An toàn trong hoạt động Chủ nhật Xanh"
+      },
+      {
+        "c": "DD4-B12-011",
+        "d": "application",
+        "p": "Khi viết thư hoặc trò chuyện giới thiệu về quê hương Việt Nam với một người bạn nước ngoài mới quen, em sẽ chọn giới thiệu những nét đẹp nào để bạn ấy thêm yêu quý đất nước mình?",
+        "o": [
+          "Bịa đặt các câu chuyện không có thật về Việt Nam",
+          "Kể về thiên nhiên tươi đẹp (vịnh Hạ Long, ruộng bậc thang), ẩm thực truyền thống (phở, bánh chưng) và con người thân thiện",
+          "Chỉ kể về các vụ kẹt xe và rác thải ngoài ngõ",
+          "Chê bai phong tục truyền thống của quê hương mình"
+        ],
+        "k": "B",
+        "e": "Tự hào giới thiệu đúng bản sắc văn hóa, thiên nhiên và con người Việt Nam giúp quảng bá hình ảnh đất nước tươi đẹp ra thế giới.",
+        "s": "Đạo đức 4",
+        "h": "Giới thiệu tự hào vẻ đẹp quê hương"
+      },
+      {
+        "c": "DD4-B12-012",
+        "d": "application",
+        "p": "Khi chọn mang một bình nước cá nhân sạch sẽ có thể rửa dùng lại hàng năm thay cho việc mỗi ngày mua 2 chai nước nhựa đóng chai dùng một lần, sau một năm học (khoảng 200 ngày đi học) riêng em đã giúp giảm thải ra môi trường bao nhiêu vỏ chai nhựa?",
+        "o": [
+          "Chỉ giảm đúng 2 vỏ chai nhựa suốt cả năm",
+          "Giảm thải tới 400 vỏ chai nhựa dùng một lần",
+          "Làm tăng thêm 400 vỏ chai nhựa ra bãi rác",
+          "Không giảm được vỏ chai nào cả"
+        ],
+        "k": "B",
+        "e": "Phép nhân nhỏ 2 × 200 = 400 chai cho thấy sức mạnh kì diệu của một lựa chọn xanh cá nhân duy trì đều đặn.",
+        "s": "Đạo đức 4",
+        "h": "Tính toán tác động tích cực dùng bình cá nhân"
+      },
+      {
+        "c": "DD4-B12-013",
+        "d": "advanced",
+        "p": "Nhiều bạn nghĩ: \"Một mình mình tiết kiệm một cốc nước hay nhặt một vỏ kẹo thì chẳng thấm vào đâu so với rác thải khổng lồ của cả thành phố!\". Em phản biện suy nghĩ bi quan này bằng lập luận nào?",
+        "o": [
+          "Hàng triệu học sinh cùng làm một việc xanh nhỏ mỗi ngày sẽ tạo sức mạnh khổng lồ cứu môi trường và lan tỏa cảm hứng sống xanh",
+          "Chờ khi nào toàn thế giới sạch bóng rác thì mình mới bắt đầu giữ vệ sinh",
+          "Đúng thế, một người vứt thêm một túi rác nữa cũng chẳng sao cả",
+          "Chỉ có nhà máy lớn mới cần bảo vệ môi trường còn học sinh thì không cần"
+        ],
+        "k": "A",
+        "e": "Hiệu ứng lan tỏa tích cực (Ripple effect) biến hành động cá nhân thành văn hóa chung của cả một thế hệ công dân xanh.",
+        "s": "Đạo đức 4",
+        "h": "Phản biện tâm lí \"một mình làm chẳng ăn thua\""
+      },
+      {
+        "c": "DD4-B12-014",
+        "d": "advanced",
+        "p": "Biến đổi khí hậu gây ra bão lũ thất thường, hạn hán kéo dài và nắng nóng gay gắt đang ảnh hưởng trực tiếp tới quê hương Việt Nam. Từ kiến thức Công nghệ – Khoa học – Đạo đức đã học, ba hành động thiết thực nào của thế hệ trẻ góp phần ứng phó với biến đổi khí hậu?",
+        "o": [
+          "Đốt thêm thật nhiều than đá và nilon vào mùa hè",
+          "Phá bỏ vườn cây trong phố để đổ thêm bê tông toàn bộ sân trường",
+          "Bật điều hòa lạnh 16 độ C suốt ngày đồng thời mở toang mọi cửa sổ",
+          "Trồng và giữ cây xanh, tiết kiệm điện dùng năng lượng sạch, giảm rác thải nhựa và cùng tuyên truyền sống xanh"
+        ],
+        "k": "D",
+        "e": "Kết nối liên môn Đạo đức – Khoa học – Công nghệ biến hiểu biết môi trường thành hành động công dân toàn cầu sáng suốt.",
+        "s": "Đạo đức 4",
+        "h": "Liên hệ hành động ứng phó biến đổi khí hậu"
+      },
+      {
+        "c": "DD4-B12-015",
+        "d": "advanced",
+        "p": "Tổng kết môn Đạo đức Lớp 4: điều gì kết nối xuyên suốt từ lòng biết ơn người lao động, tôn trọng tài sản chung riêng, dũng cảm trung thực đến bảo vệ quê hương thiên nhiên?",
+        "o": [
+          "Chỉ cần thực hiện tốt một bài duy nhất là đủ rồi, bỏ qua các bài khác",
+          "Đó là các quy tắc chỉ dùng để học thuộc lòng cho qua bài kiểm tra cuối năm",
+          "Đó đều là biểu hiện của tình yêu thương, tinh thần trách nhiệm và lòng tự trọng của một công dân nhí văn minh đối với bản thân, gia đình, cộng đồng và Tổ quốc",
+          "Những bài học đó không liên quan gì tới cuộc sống ngoài cổng trường"
+        ],
+        "k": "C",
+        "e": "Yêu thương – Trách nhiệm – Trung thực – Dũng cảm là bộ la bàn nhân cách dẫn lối học sinh bước vào Lớp 5 tự tin vững vàng.",
+        "s": "Đạo đức 4",
+        "h": "Kết nối giá trị cốt lõi Đạo đức Lớp 4"
+      }
+    ]
+  }
+]

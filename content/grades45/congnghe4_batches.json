@@ -1,0 +1,3286 @@
+[
+  {
+    "chapter": "congnghe4-c1",
+    "lesson": {
+      "code": "congnghe4-b01",
+      "title": "Bài 1. Hoa và Cây cảnh quanh em",
+      "seq": 1,
+      "subtitle": "Nhận biết lợi ích của hoa và cây cảnh đối với không gian sống, phân biệt một số loài hoa – cây cảnh phổ biến theo đặc điểm thân, lá, hoa",
+      "concepts": [
+        "Lợi ích làm đẹp, thanh lọc không khí, tạo hương thơm",
+        "Đặc điểm một số loài hoa quen thuộc (hoa hồng, hoa cúc, hoa sen, hoa đào)",
+        "Đặc điểm cây cảnh lá và cây cảnh thế (lưỡi hổ, trầu bà, xương rồng)"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN4-B01-001",
+        "d": "basic",
+        "p": "Lợi ích chủ yếu của việc trồng hoa và cây cảnh trong gia đình và trường học là gì?",
+        "o": [
+          "Trang trí cảnh quan tươi đẹp, thanh lọc không khí và mang lại cảm giác thư thái cho con người",
+          "Làm tăng bụi mịn và tiếng ồn trong lớp học",
+          "Thu hút muỗi truyền bệnh sốt xuất huyết nhiều hơn",
+          "Chiếm hết lối đi lại và che khuất bảng viết"
+        ],
+        "k": "A",
+        "e": "Hoa và cây cảnh hấp thụ khí cacbonic, nhả oxi, điều hòa không khí và làm đẹp môi trường sống.",
+        "s": "Công nghệ 4",
+        "h": "Nhớ lợi ích hoa và cây cảnh"
+      },
+      {
+        "c": "CN4-B01-002",
+        "d": "basic",
+        "p": "Loài hoa nào dưới đây có thân bụi nhiều gai nhỏ, hoa nhiều lớp cánh và tỏa hương thơm quyến rũ, được mệnh danh là \"nữ hoàng các loài hoa\"?",
+        "o": [
+          "Hoa hồng",
+          "Cây dương xỉ",
+          "Cây xương rồng tròn",
+          "Hoa súng"
+        ],
+        "k": "A",
+        "e": "Hoa hồng có gai ở thân cành, lá kép răng cưa và bông nhiều cánh thơm ngát.",
+        "s": "Công nghệ 4",
+        "h": "Đặc điểm nhận dạng hoa hồng"
+      },
+      {
+        "c": "CN4-B01-003",
+        "d": "basic",
+        "p": "Loài cây cảnh nào có lá mọng nước, nhiều gai nhọn thay cho lá để hạn chế thoát hơi nước và chịu hạn cực tốt?",
+        "o": [
+          "Cây sen hồng",
+          "Cây xương rồng",
+          "Cây phong lan hồ điệp",
+          "Cây bèo tây"
+        ],
+        "k": "B",
+        "e": "Xương rồng biến đổi lá thành gai để thích nghi môi trường khô hạn nắng nóng.",
+        "s": "Công nghệ 4",
+        "h": "Cây chịu hạn thân mọng nước"
+      },
+      {
+        "c": "CN4-B01-004",
+        "d": "basic",
+        "p": "Trong bảng phân loại cây trồng sau, loài cây nào thường được đặt trong phòng học hoặc bàn học vì vừa chịu bóng râm nhẹ vừa lọc không khí tốt?",
+        "o": [
+          "Cây lưỡi hổ và cây trầu bà",
+          "Cây phượng vĩ cổ thụ",
+          "Cây lúa nước",
+          "Cây tre gai ngoài đồng"
+        ],
+        "k": "A",
+        "e": "Lưỡi hổ, trầu bà, lan ý ưa bóng bán phần và có khả năng hấp thụ một số khí độc trong nhà.",
+        "s": "Công nghệ 4",
+        "h": "Cây cảnh nội thất chịu bóng",
+        "fig": {
+          "type": "table",
+          "title": "Nhóm Hoa & Cây cảnh",
+          "head": [
+            "Loài cây",
+            "Đặc điểm nổi bật"
+          ],
+          "rows": [
+            [
+              "Hoa hồng",
+              "Thân gai, nhiều cánh"
+            ],
+            [
+              "Hoa hướng dương",
+              "Hoa to, hướng nắng"
+            ],
+            [
+              "Xương rồng",
+              "Thân mọng, ưa khô"
+            ],
+            [
+              "Trầu bà",
+              "Dây leo, chịu bóng"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN4-B01-005",
+        "d": "basic",
+        "p": "Loài hoa nào có cánh mỏng màu hồng hoặc trắng, mọc từ bùn lầy ao hồ nhưng vẫn vươn lên tỏa hương thơm thanh khiết?",
+        "o": [
+          "Hoa đào",
+          "Hoa mai vàng",
+          "Hoa sen",
+          "Hoa giấy"
+        ],
+        "k": "C",
+        "e": "Hoa sen là loài thủy sinh sống dưới ao đầm, lá to tròn nâng đỡ bông hoa vươn khỏi mặt nước.",
+        "s": "Công nghệ 4",
+        "h": "Đặc điểm hoa sen thủy sinh"
+      },
+      {
+        "c": "CN4-B01-006",
+        "d": "basic",
+        "p": "Hoa đào ở miền Bắc và hoa mai ở miền Nam thường nở rộ nhất vào dịp nào trong năm?",
+        "o": [
+          "Dịp Tết Nguyên đán (mùa xuân)",
+          "Dịp Tết Trung thu (mùa thu)",
+          "Giữa mùa đông lạnh giá tháng 12 âm lịch",
+          "Giữa mùa mưa bão tháng 8 dương lịch"
+        ],
+        "k": "A",
+        "e": "Hoa đào hồng và hoa mai vàng là biểu tượng báo hiệu mùa xuân và Tết cổ truyền Việt Nam.",
+        "s": "Công nghệ 4",
+        "h": "Mùa nở hoa đào và hoa mai"
+      },
+      {
+        "c": "CN4-B01-007",
+        "d": "application",
+        "p": "Gia đình bạn Mai ở tầng 4 chung cư có ban công hướng Tây nắng gắt vào buổi chiều. Loại cây nào phù hợp nhất để trồng ở ban công này?",
+        "o": [
+          "Cây dương xỉ ưa ẩm râm mát trong hang tối",
+          "Cây rêu rừng ẩm ướt",
+          "Hoa giấy hoặc hoa mười giờ vì chúng rất ưa nắng và chịu nóng tốt",
+          "Cây súng nước mọc giữa ao sâu"
+        ],
+        "k": "C",
+        "e": "Hoa giấy và hoa mười giờ ưa nắng mạnh; càng nhiều nắng hoa càng sai và rực rỡ màu sắc.",
+        "s": "Công nghệ 4",
+        "h": "Chọn cây hợp điều kiện nắng gắt"
+      },
+      {
+        "c": "CN4-B01-008",
+        "d": "application",
+        "p": "Khi chọn đặt cây cảnh ngay trong phòng ngủ kín ban đêm, em cần lưu ý nguyên tắc an toàn nào?",
+        "o": [
+          "Tưới nước ngập tràn sàn gỗ phòng ngủ mỗi tối",
+          "Không đặt quá nhiều chậu cây lớn trong phòng ngủ đóng kín cửa vì ban đêm cây hô hấp lấy oxi và thải cacbonic (trừ số ít cây như lưỡi hổ, nha đam)",
+          "Đóng kín mọi cửa sổ suốt cả tuần không mở",
+          "Đặt thật nhiều bó hoa ly nồng nặc sát đầu giường ngủ"
+        ],
+        "k": "B",
+        "e": "Phần lớn cây xanh quang hợp ban ngày nhả oxi nhưng ban đêm hô hấp thải CO2 nên không để rậm rạp trong phòng kín.",
+        "s": "Công nghệ 4",
+        "h": "An toàn đặt cây trong phòng kín"
+      },
+      {
+        "c": "CN4-B01-009",
+        "d": "application",
+        "p": "Cô giáo muốn cả lớp trang trí góc thiên nhiên trên bệ cửa sổ bằng chai thủy tinh trồng thủy sinh không cần đất để sạch sẽ. Cây cảnh nào dễ sống khỏe trong nước sạch?",
+        "o": [
+          "Cây xương rồng tai thỏ",
+          "Cây sen đá lá dày",
+          "Cây hoa hướng dương cao to",
+          "Cây trầu bà hoặc cây vạn niên thanh"
+        ],
+        "k": "D",
+        "e": "Trầu bà và vạn niên thanh dễ ra rễ trắng trong nước sạch, ít bị thối rễ.",
+        "s": "Công nghệ 4",
+        "h": "Chọn cây trồng thủy sinh trong lớp"
+      },
+      {
+        "c": "CN4-B01-010",
+        "d": "application",
+        "p": "Em hãy quan sát biểu đồ chiều cao trung bình của 4 loại cây trồng trong vườn trường. Cây nào có thân bụi cao phù hợp trồng viền hàng rào hơn là đặt trên bàn học?",
+        "o": [
+          "Cây trầu bà mini (20 cm)",
+          "Cây sen đá (8 cm)",
+          "Hoa giấy (150 cm)",
+          "Hoa mười giờ (12 cm)"
+        ],
+        "k": "C",
+        "e": "Hoa giấy phát triển tán cao 1,5 m trở lên hợp làm giàn cổng hoặc hàng rào, không hợp đặt bàn học nhỏ.",
+        "s": "Công nghệ 4",
+        "h": "Đọc số liệu kích thước chọn vị trí trồng",
+        "fig": {
+          "type": "bars",
+          "title": "Chiều cao trung bình (cm)",
+          "labels": [
+            "Sen đá",
+            "Mười giờ",
+            "Trầu bà",
+            "Hoa giấy"
+          ],
+          "series": [
+            {
+              "values": [
+                8,
+                12,
+                20,
+                150
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "c": "CN4-B01-011",
+        "d": "application",
+        "p": "Khi quan sát một bông hoa hướng dương đang nở ngoài sân nắng, em nhận thấy đặc điểm đặc biệt nào của nó?",
+        "o": [
+          "Đài hoa to tròn viền cánh vàng rực có xu hướng xoay hướng về phía ánh sáng Mặt Trời",
+          "Hoa mọc chìm hoàn toàn dưới đáy bùn ao",
+          "Hoa chỉ nở vào lúc nửa đêm tối đen",
+          "Cây không có lá và toàn thân phủ gai dài"
+        ],
+        "k": "A",
+        "e": "Đúng như tên gọi Hướng dương (hướng về Mặt Trời), loài hoa này rất ưa sáng mạnh.",
+        "s": "Công nghệ 4",
+        "h": "Tập tính hướng sáng của hoa hướng dương"
+      },
+      {
+        "c": "CN4-B01-012",
+        "d": "application",
+        "p": "Trong công viên có biển báo \"Cấm hái hoa, bẻ cành\". Hành động nào sau đây thể hiện nếp sống văn minh của học sinh Lớp 4?",
+        "o": [
+          "Bứt hết lá non trên cành ném xuống hồ",
+          "Chỉ ngắm nhìn, chụp ảnh lưu niệm, không dẫm lên thảm cỏ và nhắc bạn không ngắt hoa",
+          "Khắc tên mình lên thân cây cảnh bằng chìa khóa",
+          "Ngắt một bông hoa đẹp nhất mang về ép vở"
+        ],
+        "k": "B",
+        "e": "Bảo vệ cây xanh nơi công cộng giúp giữ gìn cảnh quan chung cho mọi người cùng thưởng thức.",
+        "s": "Công nghệ 4",
+        "h": "Ý thức bảo vệ hoa nơi công cộng"
+      },
+      {
+        "c": "CN4-B01-013",
+        "d": "advanced",
+        "p": "Bạn Hùng mới mua một chậu cây sen đá nhỏ xíu, thấy trời nóng nên ngày nào Hùng cũng tưới đẫm hai ca nước đầy vào chậu. Sau một tuần, lá sen đá bị mềm nhũn và rụng hàng loạt. Nguyên nhân do đâu?",
+        "o": [
+          "Do sen đá sợ ánh sáng nên phải nhốt vào tủ tối",
+          "Do sen đá bị thiếu nước trầm trọng cần ngâm ngập cả chậu",
+          "Do sen đá cần ăn nhiều đường và muối trắng",
+          "Sen đá là cây mọng nước chịu hạn, tưới quá nhiều làm úng ngập và thối rễ, thối thân lá"
+        ],
+        "k": "D",
+        "e": "Cây mọng nước dự trữ sẵn nước trong lá; chỉ tưới khi đất khô hẳn mới tránh được bệnh thối nhũn.",
+        "s": "Công nghệ 4",
+        "h": "Phân tích nguyên nhân cây mọng nước bị úng"
+      },
+      {
+        "c": "CN4-B01-014",
+        "d": "advanced",
+        "p": "Trên thân lá cây hoa hồng ở vườn trường xuất hiện nhiều đốm trắng nhỏ và sâu ăn lá. Giải pháp nào vừa bảo vệ cây vừa an toàn nhất cho học sinh tiểu học?",
+        "o": [
+          "Bắt sâu thủ công bằng găng tay bảo hộ, tỉa bỏ lá sâu bệnh và dùng dung dịch tỏi ớt gừng pha loãng thay vì thuốc trừ sâu hóa học độc hại",
+          "Nhổ bỏ toàn bộ vườn hoa mang đi đốt hết",
+          "Đổ nước xà phòng đặc trực tiếp vào gốc rễ mỗi giờ",
+          "Phun thuốc diệt sâu hóa học nồng độ cao ngay giờ ra chơi"
+        ],
+        "k": "A",
+        "e": "Trong khuôn viên trường học, ưu tiên biện pháp cơ học (tỉa lá, bắt sâu) và chế phẩm sinh học an toàn.",
+        "s": "Công nghệ 4",
+        "h": "Xử lí sâu bệnh an toàn trong trường học"
+      },
+      {
+        "c": "CN4-B01-015",
+        "d": "advanced",
+        "p": "Để tạo món quà tặng mẹ nhân ngày 8 tháng 3 bằng một chậu cây cảnh có ý nghĩa bền lâu mà ít tốn công chăm sóc vì mẹ đi làm bận rộn, em nên chọn sự kết hợp nào?",
+        "o": [
+          "Cắm vài cành hoa dại không có rễ vào cốc không có nước",
+          "Trồng cây lúa nước trong chiếc bát nhựa không đục lỗ",
+          "Trồng cây lưỡi hổ mini hoặc cây trầu bà trong chậu gốm thoát nước tốt kèm tấm thiệp hướng dẫn lịch tưới 1 đến 2 lần mỗi tuần",
+          "Tặng chậu cây có gai nhọn dài đặt ngay cạnh chỗ em bé tập bò"
+        ],
+        "k": "C",
+        "e": "Cây khỏe, ít sâu bệnh, dễ chăm trong nhà và an toàn cho gia đình là lựa chọn thiết thực, giàu ý nghĩa.",
+        "s": "Công nghệ 4",
+        "h": "Tư duy chọn cây làm quà tặng hợp lí"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe4-c1",
+    "lesson": {
+      "code": "congnghe4-b02",
+      "title": "Bài 2. Vật liệu và Dụng cụ Trồng hoa, Cây cảnh trong Chậu",
+      "seq": 2,
+      "subtitle": "Lựa chọn chậu trồng, giá thể đất tơi xốp thoát nước và sử dụng đúng chức năng, bảo đảm an toàn các dụng cụ làm vườn cầm tay",
+      "concepts": [
+        "Các loại chậu trồng (nhựa, sứ, đất nung) và vai trò lỗ thoát nước",
+        "Thành phần giá thể (đất thịt, xơ dừa, trấu hun, phân hữu cơ)",
+        "Dụng cụ cầm tay: xẻng nhỏ, cào đất, bình tưới, kéo tỉa cành, găng tay"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN4-B02-001",
+        "d": "basic",
+        "p": "Chi tiết bắt buộc phải có dưới đáy của hầu hết các loại chậu trồng hoa, cây cảnh bằng đất thông thường là gì?",
+        "o": [
+          "Một lớp băng dính dày bịt kín đáy chậu",
+          "Một tấm gương soi đặt ngửa bên dưới",
+          "Lỗ thoát nước để nước thừa chảy ra ngoài, tránh ngập úng thối rễ",
+          "Một chiếc chuông nhỏ phát tiếng kêu"
+        ],
+        "k": "C",
+        "e": "Rễ cây cần oxi để hô hấp; lỗ thoát nước giúp đất không bị sũng nước gây nghẹt rễ.",
+        "s": "Công nghệ 4",
+        "h": "Vai trò của lỗ thoát nước đáy chậu"
+      },
+      {
+        "c": "CN4-B02-002",
+        "d": "basic",
+        "p": "Loại vật liệu nào nhẹ, giữ ẩm tốt nhưng vẫn thông thoáng, thường được trộn cùng đất để làm giá thể trồng hoa trong chậu?",
+        "o": [
+          "Xơ dừa xử lí sạch và vỏ trấu hun",
+          "Mảnh thủy tinh vỡ sắc nhọn",
+          "Đá dăm xây dựng nặng trịch trộn xi măng",
+          "Túi nilon cắt vụn trộn vào đất"
+        ],
+        "k": "A",
+        "e": "Giá thể chuẩn gồm đất tơi xốp trộn phân hữu cơ, xơ dừa hoặc trấu hun giúp rễ bám chắc và thoáng khí.",
+        "s": "Công nghệ 4",
+        "h": "Thành phần giá thể tơi xốp"
+      },
+      {
+        "c": "CN4-B02-003",
+        "d": "basic",
+        "p": "Dụng cụ nào có lưỡi nhỏ hình lòng máng dùng để xúc đất cho vào chậu hoặc đào hố nhỏ trồng cây con?",
+        "o": [
+          "Thước kẻ thẳng",
+          "Bình tưới hoa sen",
+          "Xẻng nhỏ (bay làm vườn)",
+          "Kéo cắt giấy văn phòng"
+        ],
+        "k": "C",
+        "e": "Xẻng làm vườn cầm tay nhỏ gọn rất thuận tiện xúc giá thể và vun đất quanh gốc cây trong chậu.",
+        "s": "Công nghệ 4",
+        "h": "Công dụng của xẻng nhỏ"
+      },
+      {
+        "c": "CN4-B02-004",
+        "d": "basic",
+        "p": "Trong bảng sau, loại chậu nào có khả năng thấm khí tự nhiên qua thành chậu tốt nhất nhưng dễ vỡ khi đánh rơi mạnh?",
+        "o": [
+          "Chậu xốp mỏng",
+          "Chậu đất nung",
+          "Chậu nhựa dẻo",
+          "Chậu gỗ công nghiệp"
+        ],
+        "k": "B",
+        "e": "Chậu đất nung có các lỗ nhỏ li ti giúp đất thoáng mát và thoát hơi ẩm tốt, song dễ vỡ nếu va đập.",
+        "s": "Công nghệ 4",
+        "h": "Đặc tính chậu đất nung",
+        "fig": {
+          "type": "table",
+          "title": "So sánh Chậu trồng cây",
+          "head": [
+            "Loại chậu",
+            "Ưu điểm chính"
+          ],
+          "rows": [
+            [
+              "Chậu nhựa",
+              "Nhẹ, rẻ, khó vỡ"
+            ],
+            [
+              "Chậu đất nung",
+              "Thoáng khí, thoát ẩm"
+            ],
+            [
+              "Chậu sứ men",
+              "Bóng đẹp, sang trọng"
+            ],
+            [
+              "Chậu tự chế",
+              "Tận dụng chai nhựa"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN4-B02-005",
+        "d": "basic",
+        "p": "Để tưới nước nhẹ nhàng cho hạt mới gieo hoặc cây hoa nhỏ mà không làm dập lá, xói bật rễ, em nên chọn dụng cụ tưới nào?",
+        "o": [
+          "Ống nước cứu hỏa phun áp lực cực mạnh",
+          "Xô nước lớn dội ào trực tiếp một lần",
+          "Bình tưới có đầu vòi hoa sen phun tia nước nhỏ mịn",
+          "Chiếc thìa nhựa nhỏ xúc từng giọt"
+        ],
+        "k": "C",
+        "e": "Đầu vòi hoa sen chia dòng nước thành nhiều tia nhỏ dịu nhẹ giống hạt mưa tự nhiên.",
+        "s": "Công nghệ 4",
+        "h": "Tưới dịu nhẹ bằng bình vòi sen"
+      },
+      {
+        "c": "CN4-B02-006",
+        "d": "basic",
+        "p": "Đeo găng tay làm vườn khi trộn đất và trồng cây giúp bảo vệ học sinh khỏi điều gì?",
+        "o": [
+          "Giúp đôi tay trở nên lạnh hơn vào mùa đông",
+          "Thay thế cho việc rửa tay bằng xà phòng sau khi làm",
+          "Tránh đất bẩn bám móng tay, tránh trầy xước tay bởi gai cây, mảnh sành hoặc côn trùng cắn",
+          "Để cây mọc hoa nhanh gấp mười lần"
+        ],
+        "k": "C",
+        "e": "Găng tay bảo hộ giữ vệ sinh và an toàn cho da tay khi tiếp xúc với đất, phân bón và gai nhọn.",
+        "s": "Công nghệ 4",
+        "h": "Tác dụng của găng tay bảo hộ"
+      },
+      {
+        "c": "CN4-B02-007",
+        "d": "application",
+        "p": "Bạn Minh tận dụng chai nhựa 1,5 lít cắt bỏ phần đầu làm chậu trồng cây hành lá bên cửa sổ. Trước khi đổ đất vào chai nhựa đó, bước kĩ thuật đầu tiên Minh cần làm là gì?",
+        "o": [
+          "Nhờ người lớn hỗ trợ đục vài lỗ thoát nước ở dưới đáy chai nhựa",
+          "Sơn kín màu đen vào mặt trong đáy chai",
+          "Đổ đầy nước lã ngập đến miệng chai rồi đổ đất vào",
+          "Dán kín đáy chai bằng keo nến cho thật dày"
+        ],
+        "k": "A",
+        "e": "Chai nhựa vốn kín hoàn toàn nên bắt buộc phải đục lỗ thoát nước ở đáy trước khi cho giá thể vào.",
+        "s": "Công nghệ 4",
+        "h": "Đục lỗ thoát nước khi tái chế chai nhựa"
+      },
+      {
+        "c": "CN4-B02-008",
+        "d": "application",
+        "p": "Em đang chuẩn bị trồng cây hoa cúc cao khoảng 25 cm có bộ rễ chùm phát triển khá nhiều. Em nên chọn cỡ chậu nào trong ba cỡ chậu sau?",
+        "o": [
+          "Chậu có đường kính và chiều cao khoảng 20 đến 25 cm để đủ chỗ cho đất và rễ phát triển",
+          "Chiếc cốc nhựa nhỏ xíu đường kính 4 cm",
+          "Chiếc thùng phi sắt cao tới tận 1,5 mét",
+          "Một chiếc đĩa ăn cơm bằng phẳng"
+        ],
+        "k": "A",
+        "e": "Chậu quá nhỏ làm rễ chật chội thiếu dinh dưỡng; chậu quá khổng lồ tốn đất và dễ đọng nước lâu khô.",
+        "s": "Công nghệ 4",
+        "h": "Chọn kích thước chậu phù hợp cây"
+      },
+      {
+        "c": "CN4-B02-009",
+        "d": "application",
+        "p": "Sau khi dùng kéo tỉa cành cắt bỏ lá vàng và cành khô trên cây hoa hồng, em cần xử lí chiếc kéo như thế nào trước khi cất vào hộp dụng cụ?",
+        "o": [
+          "Ngâm cả chiếc kéo vào chậu nước muối qua đêm",
+          "Cầm kéo chạy đùa quanh sân trường",
+          "Lau sạch nhựa cây và đất bám trên lưỡi kéo bằng khăn khô (có thể thoa chút dầu chống gỉ), khóa chốt an toàn nếu có rồi cất gọn",
+          "Vứt luôn kéo nằm ngửa dưới nền đất ẩm ngoài vườn"
+        ],
+        "k": "C",
+        "e": "Vệ sinh, làm khô lưỡi kéo và đóng chốt an toàn giúp dụng cụ bền lâu không gỉ sét và an toàn cho người sau.",
+        "s": "Công nghệ 4",
+        "h": "Bảo quản kéo tỉa cành sau sử dụng"
+      },
+      {
+        "c": "CN4-B02-010",
+        "d": "application",
+        "p": "Nếu chậu hoa đặt trên bàn học hoặc ban công có sàn gạch sạch, làm sao để khi tưới cây nước thoát từ lỗ đáy chậu không làm bẩn mặt bàn hay sàn nhà?",
+        "o": [
+          "Đặt chậu nghiêng 45 độ sát mép bàn cho chảy xuống đất",
+          "Lấy xi măng trát bịt kín lỗ thoát nước dưới đáy chậu lại",
+          "Đặt một chiếc đĩa lót hứng nước vừa vặn bên dưới đáy chậu",
+          "Không bao giờ tưới nước cho cây nữa"
+        ],
+        "k": "C",
+        "e": "Đĩa lót chậu hứng phần nước thừa chảy ra, vừa giữ vệ sinh mặt bàn vừa nhắc người trồng đổ bỏ nước đọng nếu đầy.",
+        "s": "Công nghệ 4",
+        "h": "Dùng đĩa lót hứng nước thừa"
+      },
+      {
+        "c": "CN4-B02-011",
+        "d": "application",
+        "p": "Khi trộn giá thể trồng cây từ đất vườn hơi bị bết dính (nhiều sét) với xơ dừa và phân hữu cơ hoai mục, dấu hiệu nào cho thấy hỗn hợp giá thể đạt yêu cầu?",
+        "o": [
+          "Đất nhão nhoét chảy nước thành bùn đặc sệt",
+          "Đất khô cứng vón thành từng cục to như nắm tay",
+          "Đất bốc mùi hôi thối nồng nặc của rác chưa phân hủy",
+          "Đất tơi xốp, có độ ẩm vừa phải (nắm nhẹ trong tay hơi kết thành khối nhưng bóp nhẹ là vỡ tơi ngay), không lẫn sỏi đá lớn"
+        ],
+        "k": "D",
+        "e": "Giá thể đạt chuẩn có cấu trúc thoáng khí, giàu dinh dưỡng nhưng không bị bết dính giữ nước quá mức.",
+        "s": "Công nghệ 4",
+        "h": "Kiểm tra độ tơi xốp của giá thể"
+      },
+      {
+        "c": "CN4-B02-012",
+        "d": "application",
+        "p": "Dụng cụ nào có đầu gồm 3 hoặc 5 răng nhọn cong dùng để xới nhẹ lớp đất mặt quanh gốc cây trong chậu giúp đất thoáng khí?",
+        "o": [
+          "Cào đất cầm tay (cào răng nhỏ)",
+          "Thước dây cuộn",
+          "Cưa gỗ cầm tay",
+          "Búa đóng đinh"
+        ],
+        "k": "A",
+        "e": "Cào đất mini xới tơi lớp đất mặt bị đóng váng sau nhiều ngày tưới nước mà ít làm đứt rễ sâu.",
+        "s": "Công nghệ 4",
+        "h": "Công dụng cào đất cầm tay"
+      },
+      {
+        "c": "CN4-B02-013",
+        "d": "advanced",
+        "p": "Để lót dưới đáy chậu ngay phía trên lỗ thoát nước trước khi đổ hỗn hợp đất trồng vào, các bác nông dân thường đặt một lớp mỏng sỏi nhẹ, mảnh sành vỡ cong hoặc lưới nhựa mịn. Việc làm nhỏ này có tác dụng gì?",
+        "o": [
+          "Thay thế hoàn toàn phân bón suốt năm năm",
+          "Ngăn không cho giun hoặc côn trùng ăn cánh hoa trên ngọn",
+          "Ngăn đất mịn trôi theo nước bít tắc lỗ thoát nước, đồng thời tạo khe thoáng giúp nước dư rút nhanh xuống đáy chậu",
+          "Làm chậu nặng thêm để trộm không bê đi được"
+        ],
+        "k": "C",
+        "e": "Lớp lót đáy (drainage layer) giúp lỗ thoát nước luôn thông suốt suốt nhiều tháng chăm sóc cây.",
+        "s": "Công nghệ 4",
+        "h": "Vai trò lớp lót thoát nước đáy chậu"
+      },
+      {
+        "c": "CN4-B02-014",
+        "d": "advanced",
+        "p": "Khi mua bao phân hữu cơ hoặc xơ dừa ngoài cửa hàng về sử dụng ngay, vì sao cần đọc kĩ thông tin trên bao bì xem đã \"ủ hoai mục / xử lí chát\" chưa?",
+        "o": [
+          "Vì xơ dừa chưa xử lí luôn biến thành kim loại",
+          "Vì phân tươi hoặc xơ dừa chưa xả chất chát (tanin) khi bón vào chậu kín dễ sinh nhiệt, mang mầm nấm bệnh và làm xót cháy rễ non",
+          "Để đếm xem trong bao có đủ một nghìn hạt cát không",
+          "Vì bao bì đẹp hơn thì cây mới chịu ra hoa"
+        ],
+        "k": "B",
+        "e": "Giá thể chưa hoai mục gây ngộ độc rễ (xót rễ, nấm mốc) đặc biệt nguy hiểm trong không gian chậu nhỏ hẹp.",
+        "s": "Công nghệ 4",
+        "h": "Xử lí giá thể an toàn cho rễ non"
+      },
+      {
+        "c": "CN4-B02-015",
+        "d": "advanced",
+        "p": "Một nhóm học sinh trồng hoa cùng lúc ngoài vườn trường dùng chung một bộ dụng cụ (kéo, xẻng, bình tưới). Khi hoàn thành công việc, quy trình thu dọn chuẩn mực gồm những bước nào?",
+        "o": [
+          "Đổ hết đất thừa vào bồn rửa mặt trong nhà vệ sinh trường",
+          "Bỏ mặc toàn bộ dụng cụ lăn lóc giữa lối đi để hôm sau làm tiếp",
+          "Cất vội kéo dính đất bùn vào cặp sách đi học luôn",
+          "Rửa sạch đất cát trên xẻng – cào, lau khô kéo và khóa chốt an toàn, đổ nước thừa trong bình tưới, cất đúng vị trí quy định rồi rửa tay sạch bằng xà phòng"
+        ],
+        "k": "D",
+        "e": "Giữ gìn dụng cụ sạch sẽ, thu gom rác thực vật và vệ sinh cá nhân kết thúc buổi thực hành đúng tác phong lao động.",
+        "s": "Công nghệ 4",
+        "h": "Quy trình thu dọn và vệ sinh dụng cụ"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe4-c1",
+    "lesson": {
+      "code": "congnghe4-b03",
+      "title": "Bài 3. Gieo hạt và Trồng hoa, Cây cảnh trong Chậu",
+      "seq": 3,
+      "subtitle": "Thực hiện đúng trình tự các bước gieo hạt hoa trong chậu và trồng cây con vào chậu bảo đảm tỉ lệ sống cao, cây đứng vững",
+      "concepts": [
+        "Chuẩn bị hạt giống tốt và kiểm tra độ sâu lấp hạt",
+        "Quy trình 4 bước gieo hạt trong chậu",
+        "Quy trình trồng cây hoa, cây cảnh con vào chậu không làm dập bầu rễ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN4-B03-001",
+        "d": "basic",
+        "p": "Trước khi gieo hạt hoa vào chậu, tiêu chí quan trọng nhất để chọn được hạt giống tốt là gì?",
+        "o": [
+          "Hạt lép nhẹ, vỏ bị nứt mốc trắng",
+          "Hạt càng nhỏ vụn nát càng tốt",
+          "Hạt mẩy, chắc, không sâu mọt, không ẩm mốc và còn hạn sử dụng",
+          "Hạt đã hết hạn sử dụng từ 3 năm trước"
+        ],
+        "k": "C",
+        "e": "Hạt giống mẩy khỏe có phôi đầy đủ và nguồn dinh dưỡng dự trữ giúp tỉ lệ nảy mầm cao.",
+        "s": "Công nghệ 4",
+        "h": "Tiêu chuẩn chọn hạt giống"
+      },
+      {
+        "c": "CN4-B03-002",
+        "d": "basic",
+        "p": "Quan sát lưu đồ quy trình gieo hạt trong chậu dưới đây. Sau bước \"Cho giá thể vào chậu\" và \"Gieo hạt đều lên mặt giá thể\", ta cần thực hiện ngay bước nào tiếp theo?",
+        "o": [
+          "Đặt chậu lên bếp đun nóng cho hạt nhanh nở",
+          "Đổ nước ngập đầy tràn miệng chậu suốt ba ngày",
+          "Nén chặt đất bằng búa nặng xuống thật cứng",
+          "Phủ một lớp giá thể mỏng lấp kín hạt rồi tưới ẩm nhẹ bằng vòi phun sương hoặc vòi sen nhỏ"
+        ],
+        "k": "D",
+        "e": "Lấp một lớp đất mỏng giữ ẩm cho hạt nhưng vẫn đủ thoáng khí để mầm non dễ dàng đội đất chui lên.",
+        "s": "Công nghệ 4",
+        "h": "Bước phủ đất và tưới ẩm sau gieo hạt",
+        "fig": {
+          "w": 320,
+          "h": 185,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  100,
+                  14
+                ],
+                [
+                  220,
+                  14
+                ],
+                [
+                  220,
+                  44
+                ],
+                [
+                  100,
+                  44
+                ]
+              ],
+              "fill": "#dcfce7",
+              "stroke": "#16a34a",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                33
+              ],
+              "s": "Chuẩn bị chậu & giá thể",
+              "anchor": "middle",
+              "size": 11.5
+            },
+            {
+              "t": "line",
+              "a": [
+                160,
+                44
+              ],
+              "b": [
+                160,
+                62
+              ],
+              "arrow": true,
+              "color": "#334155",
+              "w": 2
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  160,
+                  64
+                ],
+                [
+                  235,
+                  94
+                ],
+                [
+                  160,
+                  124
+                ],
+                [
+                  85,
+                  94
+                ]
+              ],
+              "fill": "#fef3c7",
+              "stroke": "#d97706",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                98
+              ],
+              "s": "Đã rải hạt đều?",
+              "anchor": "middle",
+              "size": 11.5
+            },
+            {
+              "t": "line",
+              "a": [
+                85,
+                94
+              ],
+              "b": [
+                55,
+                138
+              ],
+              "arrow": true,
+              "color": "#16a34a",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                58,
+                110
+              ],
+              "s": "Đúng",
+              "anchor": "middle",
+              "size": 10.5,
+              "color": "#15803d"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  10,
+                  140
+                ],
+                [
+                  135,
+                  140
+                ],
+                [
+                  135,
+                  170
+                ],
+                [
+                  10,
+                  170
+                ]
+              ],
+              "fill": "#dbeafe",
+              "stroke": "#2563eb",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                72,
+                159
+              ],
+              "s": "Lấp đất mỏng, tưới ẩm",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "line",
+              "a": [
+                235,
+                94
+              ],
+              "b": [
+                265,
+                138
+              ],
+              "arrow": true,
+              "color": "#dc2626",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                264,
+                110
+              ],
+              "s": "Sai",
+              "anchor": "middle",
+              "size": 10.5,
+              "color": "#dc2626"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  185,
+                  140
+                ],
+                [
+                  310,
+                  140
+                ],
+                [
+                  310,
+                  170
+                ],
+                [
+                  185,
+                  170
+                ]
+              ],
+              "fill": "#fee2e2",
+              "stroke": "#dc2626",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                247,
+                159
+              ],
+              "s": "Rải đều hạt hơn",
+              "anchor": "middle",
+              "size": 11
+            }
+          ]
+        }
+      },
+      {
+        "c": "CN4-B03-003",
+        "d": "basic",
+        "p": "Khi cho giá thể vào chậu để chuẩn bị trồng cây, ta nên đổ đất đầy đến mức nào so với miệng chậu?",
+        "o": [
+          "Chỉ đổ đúng một lớp mỏng 1 cm dưới đáy chậu",
+          "Đổ vun cao hơn hẳn miệng chậu 5 cm",
+          "Đổ cách miệng chậu khoảng 2 đến 3 cm để khi tưới nước và đất không bị tràn văng ra ngoài",
+          "Đổ đầy ắp bằng khít mép trên của miệng chậu"
+        ],
+        "k": "C",
+        "e": "Chừa khoảng cách 2–3 cm tính từ mặt đất tới miệng chậu giúp giữ nước tưới thấm đều xuống gốc cây.",
+        "s": "Công nghệ 4",
+        "h": "Mức đổ giá thể cách miệng chậu"
+      },
+      {
+        "c": "CN4-B03-004",
+        "d": "basic",
+        "p": "Vì sao khi trồng cây hoa con có bầu đất sẵn vào chậu mới, em cần giữ nguyên vẹn bầu đất quanh rễ chứ không nên rũ sạch hết đất cũ?",
+        "o": [
+          "Vì cây không cần rễ vẫn sống bình thường",
+          "Để làm chậu cây nặng hơn nhiều lần",
+          "Vì đất cũ chứa nhiều đá sỏi sắc nhọn",
+          "Để tránh làm đứt các rễ tơ mỏng manh đang hút nước, giúp cây nhanh bén rễ và không bị héo sốc"
+        ],
+        "k": "D",
+        "e": "Rễ non rất dễ tổn thương; giữ nguyên bầu đất giúp cây phục hồi nhanh sau khi chuyển chậu.",
+        "s": "Công nghệ 4",
+        "h": "Giữ nguyên bầu đất bảo vệ rễ tơ"
+      },
+      {
+        "c": "CN4-B03-005",
+        "d": "basic",
+        "p": "Khi đặt cây con vào hốc đất chính giữa chậu xong, ta lấp đất quanh gốc rồi ấn nhẹ tay nhằm mục đích gì?",
+        "o": [
+          "Ép gãy toàn bộ rễ cọc bên dưới",
+          "Làm đất cứng như gạch để nước không thấm vào được",
+          "Chôn lấp kín toàn bộ lá ngọn của cây xuống đất",
+          "Giữ cho thân cây đứng thẳng vững vàng, rễ tiếp xúc sát với giá thể ẩm"
+        ],
+        "k": "D",
+        "e": "Ấn nhẹ vừa tay giúp loại bỏ túi khí hở quanh rễ và cố định dáng cây đứng thẳng.",
+        "s": "Công nghệ 4",
+        "h": "Ấn nhẹ cố định gốc cây"
+      },
+      {
+        "c": "CN4-B03-006",
+        "d": "basic",
+        "p": "Ngay sau khi vừa trồng cây con vào chậu xong, em nên đặt chậu cây ở vị trí nào trong 2 đến 3 ngày đầu?",
+        "o": [
+          "Giữa sân bê tông nắng chang chang 40 độ C lúc 12 giờ trưa",
+          "Nơi râm mát, thoáng gió và tránh ánh nắng gay gắt trực tiếp chiếu thẳng vào cây mới trồng",
+          "Sát bên cạnh bếp lửa đang cháy",
+          "Bên trong tủ quần áo đóng kín không có ánh sáng"
+        ],
+        "k": "B",
+        "e": "Cây mới sang chậu bộ rễ chưa ổn định nên cần đặt nơi mát nhẹ vài ngày để hồi sức trước khi đưa dần ra nắng.",
+        "s": "Công nghệ 4",
+        "h": "Dưỡng cây mới trồng nơi mát nhẹ"
+      },
+      {
+        "c": "CN4-B03-007",
+        "d": "application",
+        "p": "Bạn Hà gieo hạt hoa hướng dương to bằng đầu ngón tay út và hạt hoa mười giờ nhỏ li ti như hạt vừng. Cách lấp đất nào hợp lí nhất cho hai loại hạt này?",
+        "o": [
+          "Chôn cả hai loại hạt xuống tận đáy chậu sâu 15 cm",
+          "Để cả hai loại hạt phơi trần ngoài gió không che đậy gì cả",
+          "Hạt hướng dương lấp lớp đất dày khoảng 1 đến 2 cm; hạt mười giờ nhỏ li ti chỉ phủ lớp đất siêu mỏng hoặc rải trên mặt ẩm nhẹ",
+          "Chôn hạt mười giờ sâu hơn hạt hướng dương gấp ba lần"
+        ],
+        "k": "C",
+        "e": "Nguyên tắc gieo hạt: độ sâu lấp đất tỉ lệ thuận với kích thước hạt (khoảng 2 đến 3 lần đường kính hạt).",
+        "s": "Công nghệ 4",
+        "h": "Độ sâu lấp hạt theo kích thước hạt"
+      },
+      {
+        "c": "CN4-B03-008",
+        "d": "application",
+        "p": "Khi tháo túi nilon đen bọc bầu cây hoa vạn thọ con ra để đặt vào chậu mới, thao tác nào đúng kĩ thuật?",
+        "o": [
+          "Cầm thân ngọn cây kéo giật mạnh ra khỏi túi nilon",
+          "Để nguyên cả túi nilon kín mít đó chôn luôn xuống đất",
+          "Dùng xẻng chặt đứt làm đôi bầu đất cho vừa chậu nhỏ",
+          "Dùng kéo cắt nhẹ dọc mép túi nilon hoặc bóp nhẹ bầu rồi tuốt vỏ túi từ dưới lên một cách cẩn thận để bầu đất không bị vỡ nát"
+        ],
+        "k": "D",
+        "e": "Nếu giữ nguyên túi nilon, rễ không mọc xuyên ra ngoài được; kéo giật mạnh lại làm đứt rễ và gãy ngọn cây.",
+        "s": "Công nghệ 4",
+        "h": "Thao tác tháo vỏ bầu cây an toàn"
+      },
+      {
+        "c": "CN4-B03-009",
+        "d": "application",
+        "p": "Gieo hạt xong trong chậu, ngày nào em cũng đặt chậu ở chỗ râm mát ẩm nhưng không có bảng ghi chú gì nên nhiều bạn tưởng chậu bỏ không và bới đất lên nghịch. Giải pháp nhỏ nào rất hay để khắc phục?",
+        "o": [
+          "Cắm thêm một chiếc thẻ nhỏ ghi tên loại hạt hoa và ngày gieo ngay cạnh mép chậu",
+          "Không nói cho ai biết mình đang trồng cây gì",
+          "Phủ kín chậu bằng nắp nồi inox đen kịt suốt một tháng",
+          "Đổ đầy sỏi lên mặt chậu để giấu hạt đi"
+        ],
+        "k": "A",
+        "e": "Thẻ tên cây (Plant label) giúp theo dõi tiến độ nảy mầm theo ngày và nhắc mọi người nhẹ tay bảo vệ mầm non.",
+        "s": "Công nghệ 4",
+        "h": "Gắn nhãn tên và ngày gieo cho chậu"
+      },
+      {
+        "c": "CN4-B03-010",
+        "d": "application",
+        "p": "Em đang đặt cây hoa hồng vào chậu và lấp đất. Độ cao mặt bầu đất của cây con so với mặt đất trong chậu nên điều chỉnh thế nào là chuẩn?",
+        "o": [
+          "Mặt bầu đất ngang bằng với mặt giá thể trong chậu, giữ phần cổ rễ thoáng sạch không bị chôn quá sâu",
+          "Chôn sâu tít tận giữa thân cây làm lấp cả cành lá dưới",
+          "Để bầu rễ nhô hẳn lên trên không khí cao hơn mặt đất 10 cm",
+          "Đặt cây nằm ngang ra sát miệng chậu"
+        ],
+        "k": "A",
+        "e": "Trồng quá sâu dễ thối cổ rễ, trồng quá nông làm trơ rễ đổ cây; mặt bầu ngang mặt đất chuẩn là lí tưởng nhất.",
+        "s": "Công nghệ 4",
+        "h": "Điều chỉnh độ sâu đặt bầu cây"
+      },
+      {
+        "c": "CN4-B03-011",
+        "d": "application",
+        "p": "Trong một chậu tròn nhỏ đường kính 18 cm, bạn Khoa gieo tới 30 hạt đậu bắp sát vào một góc chậu. Khi hạt nảy mầm sẽ xảy ra hiện tượng gì?",
+        "o": [
+          "Cây con mọc chen chúc dày đặc, tranh ánh sáng và dinh dưỡng nên thân vống cao gầy yếu dễ đổ ngã",
+          "Mỗi cây mọc khỏe gấp ba lần bình thường",
+          "Cây nở hoa to ngay sau hai ngày gieo",
+          "Các cây tự động nhảy sang chậu bên cạnh"
+        ],
+        "k": "A",
+        "e": "Gieo quá dày gây cạnh tranh ánh sáng, dinh dưỡng và tăng nguy cơ nấm bệnh lở cổ rễ.",
+        "s": "Công nghệ 4",
+        "h": "Tác hại gieo hạt quá dày"
+      },
+      {
+        "c": "CN4-B03-012",
+        "d": "application",
+        "p": "Để cải thiện tình trạng 10 hạt giống hoa sao nhái vỏ khá cứng khó thấm nước lâu nảy mầm, trước khi gieo vào chậu em có thể làm thao tác nào?",
+        "o": [
+          "Phơi hạt trực tiếp trên mái tôn nóng cả ngày rồi gieo khô",
+          "Ngâm hạt trong nước ấm sạch (khoảng 2 sôi 3 lạnh) từ 2 đến 4 giờ rồi vớt ra gieo vào đất ẩm",
+          "Ngâm hạt vào nước rửa chén đặc",
+          "Ngâm hạt vào nước sôi 100 độ C đang sủi bọt"
+        ],
+        "k": "B",
+        "e": "Nước ấm vừa giúp làm mềm vỏ hạt, kích thích phôi thức giấc nảy mầm nhanh và đều hơn.",
+        "s": "Công nghệ 4",
+        "h": "Xử lí ngâm nước ấm kích thích nảy mầm"
+      },
+      {
+        "c": "CN4-B03-013",
+        "d": "advanced",
+        "p": "Sau khi gieo hạt hoa được 5 ngày, hạt đã nhú hai lá mầm xanh non rất yếu ớt, trên bề mặt đất lại khô trắng. Nếu dùng gáo nước múc dội mạnh vào chậu lúc này sẽ gây ra hậu quả gì và nên thay bằng cách tưới nào?",
+        "o": [
+          "Không có hại gì vì rễ mầm cứng hơn rễ cây cổ thụ",
+          "Nên ngừng tưới hẳn 2 tuần cho cây tự quen với hạn hán",
+          "Cây mầm sẽ uống no nước và lớn phổng lên ngay sau 1 phút",
+          "Dòng nước mạnh sẽ xô ngã hoặc làm bật gốc rễ non chưa bám chắc; nên dùng bình xịt phun sương mịn tưới ẩm đều mặt đất"
+        ],
+        "k": "D",
+        "e": "Giai đoạn cây mầm cực kì mong manh, phun sương mịn giữ ẩm vừa đủ mà không đánh đổ thân non.",
+        "s": "Công nghệ 4",
+        "h": "Bảo vệ cây mầm bằng tưới phun sương"
+      },
+      {
+        "c": "CN4-B03-014",
+        "d": "advanced",
+        "p": "Bạn An trồng cây cảnh thủy sinh (cây trầu bà) trong lọ thủy tinh trong suốt. Khi chuyển từ đất sang trồng nước, việc bắt buộc phải làm trước khi thả rễ vào bình nước sạch là gì?",
+        "o": [
+          "Cắt cụt hết toàn bộ rễ đi chỉ để lại thân lá",
+          "Rửa thật sạch hết đất bùn cũ bám quanh bộ rễ dưới vòi nước nhẹ nhàng, cắt bỏ rễ thối dập rồi mới đặt vào bình nước ngập khoảng hai phần ba bộ rễ",
+          "Giữ nguyên cả tảng đất bùn đặc cho vào bình nước cho cây có chất",
+          "Đổ đầy nước ngập lút lên tận ngọn lá trên cùng"
+        ],
+        "k": "B",
+        "e": "Đất bẩn tan vào nước làm nước đục nhanh chóng, sinh vi khuẩn gây thối rễ; chừa khoảng trống trên cổ rễ giúp rễ thở.",
+        "s": "Công nghệ 4",
+        "h": "Kĩ thuật vệ sinh rễ khi trồng thủy sinh"
+      },
+      {
+        "c": "CN4-B03-015",
+        "d": "advanced",
+        "p": "Trong giờ thực hành nhóm, lớp chia làm 4 tổ cùng gieo hạt vào 4 chậu đặt ở bệ cửa sổ. Sau 10 ngày chỉ có chậu của Tổ 3 không mọc cây nào dù cùng một túi hạt giống. Nguyên nhân hợp lí nhất cần kiểm tra là gì?",
+        "o": [
+          "Kiểm tra xem Tổ 3 có lấp hạt quá sâu, quên tưới giữ ẩm khiến đất khô kiệt, hoặc tưới úng ngập do quên đục lỗ đáy chậu làm hạt bị thối hay không",
+          "Chắc chắn do bệ cửa sổ Tổ 3 có tên màu khác",
+          "Vì chậu Tổ 3 đặt quay về hướng Đông",
+          "Vì hạt giống nghe thấy tiếng ồn trong lớp nên ngủ quên"
+        ],
+        "k": "A",
+        "e": "Tỉ lệ nảy mầm phụ thuộc trực tiếp vào độ ẩm, độ thoáng khí (không úng), nhiệt độ và độ sâu lấp hạt.",
+        "s": "Công nghệ 4",
+        "h": "Chẩn đoán nguyên nhân hạt không nảy mầm"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe4-c1",
+    "lesson": {
+      "code": "congnghe4-b04",
+      "title": "Bài 4. Chăm sóc Hoa và Cây cảnh trong Chậu",
+      "seq": 4,
+      "subtitle": "Thực hiện các công việc chăm sóc thường xuyên: tưới nước đúng thời điểm, bón phân hợp lí, xới đất, nhặt cỏ dại, tỉa lá úa và xoay chậu đều nắng",
+      "concepts": [
+        "Thời điểm và lượng nước tưới tùy loại cây và thời tiết",
+        "Bón phân đúng lượng, đúng cách và xa gốc non",
+        "Vệ sinh chậu: nhổ cỏ dại, tỉa lá vàng, xới xáo nhẹ mặt đất"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN4-B04-001",
+        "d": "basic",
+        "p": "Thời điểm nào trong ngày được xem là tốt nhất để tưới nước cho hoa và cây cảnh trồng ngoài trời?",
+        "o": [
+          "Nửa đêm lúc trời lạnh giá nhất kèm mưa to",
+          "Sáng sớm hoặc chiều mát khi nắng đã dịu",
+          "Đúng 12 giờ trưa nắng chói chang gay gắt nhất",
+          "Bất cứ lúc nào đang có nắng gắt 40 độ C"
+        ],
+        "k": "B",
+        "e": "Tưới vào sáng sớm hoặc chiều mát giúp cây hấp thụ nước tốt, hạn chế bốc hơi nhanh và tránh hiện tượng bỏng lá do giọt nước tụ nắng.",
+        "s": "Công nghệ 4",
+        "h": "Thời điểm tưới nước lí tưởng"
+      },
+      {
+        "c": "CN4-B04-002",
+        "d": "basic",
+        "p": "Vì sao cần thường xuyên nhổ bỏ cỏ dại mọc chen bên trong chậu trồng hoa?",
+        "o": [
+          "Vì cỏ dại làm đất màu mỡ hơn cho hoa",
+          "Vì cỏ dại hút mất nước, chất dinh dưỡng của hoa và có thể trở thành nơi ẩn náu của sâu bệnh",
+          "Vì cỏ dại làm chậu cây quá nặng không nhấc nổi",
+          "Vì cỏ dại đuổi hết ánh nắng đi chỗ khác"
+        ],
+        "k": "B",
+        "e": "Diệt cỏ dại kịp thời tập trung dinh dưỡng và không gian cho cây trồng chính phát triển khỏe mạnh.",
+        "s": "Công nghệ 4",
+        "h": "Tác hại của cỏ dại trong chậu"
+      },
+      {
+        "c": "CN4-B04-003",
+        "d": "basic",
+        "p": "Cách đơn giản nhất bằng tay để kiểm tra xem đất trong chậu hoa đã cần tưới nước hay chưa là gì?",
+        "o": [
+          "Đếm số chiếc lá trên cành để suy ra",
+          "Chạm ngón tay xuống lớp đất sâu khoảng 2 cm: thấy đất khô ráo thì tưới, thấy còn ẩm ướt dính tay thì chưa cần tưới thêm",
+          "Nhìn màu sắc của bông hoa rồi đoán mò",
+          "Nghe xem chậu cây có kêu tiếng gì không"
+        ],
+        "k": "B",
+        "e": "Đo độ ẩm lớp đất mặt bằng tay hoặc que gỗ tránh được cả lỗi thiếu nước lẫn lỗi tưới úng hàng ngày.",
+        "s": "Công nghệ 4",
+        "h": "Cách kiểm tra độ ẩm đất trước khi tưới"
+      },
+      {
+        "c": "CN4-B04-004",
+        "d": "basic",
+        "p": "Trong bảng lịch chăm sóc dưới đây, công việc nào giúp loại bỏ lá già héo úa để cây tập trung nhựa nuôi mầm mới và nụ hoa?",
+        "o": [
+          "Cắt trụi toàn bộ rễ dưới gốc",
+          "Tỉa bỏ lá vàng, lá sâu bệnh và hoa đã tàn héo",
+          "Bón gấp đôi phân đạm cùng lúc",
+          "Phủ kín túi nilon lên tán lá"
+        ],
+        "k": "B",
+        "e": "Tỉa cành lá úa giúp tán cây thông thoáng, hạn chế nấm bệnh lây lan và kích thích chồi non phát triển.",
+        "s": "Công nghệ 4",
+        "h": "Lợi ích việc tỉa lá vàng hoa tàn",
+        "fig": {
+          "type": "table",
+          "title": "Lịch Chăm sóc Cây",
+          "head": [
+            "Công việc",
+            "Mục đích chính"
+          ],
+          "rows": [
+            [
+              "Tưới nước đúng lúc",
+              "Đủ ẩm, không úng"
+            ],
+            [
+              "Nhổ cỏ dại",
+              "Hết tranh dưỡng chất"
+            ],
+            [
+              "Xới nhẹ đất mặt",
+              "Đất thoáng khí"
+            ],
+            [
+              "Tỉa lá úa, hoa tàn",
+              "Phòng bệnh, ra nụ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN4-B04-005",
+        "d": "basic",
+        "p": "Hành động xới nhẹ lớp đất trên bề mặt chậu quanh gốc cây mang lại lợi ích gì?",
+        "o": [
+          "Phá vỡ lớp váng đóng cứng trên mặt đất, giúp không khí và nước dễ dàng thấm xuống vùng rễ",
+          "Làm đứt hết các rễ lớn dưới sâu cho cây mọc lại",
+          "Đổ bớt đất trong chậu đi cho nhẹ",
+          "Làm cỏ dại mọc nhanh gấp đôi"
+        ],
+        "k": "A",
+        "e": "Tưới nước lâu ngày dễ nén chặt mặt đất; xới nhẹ (tránh sát quá vào cổ rễ) giúp đất tơi xốp trở lại.",
+        "s": "Công nghệ 4",
+        "h": "Tác dụng xới nhẹ đất mặt"
+      },
+      {
+        "c": "CN4-B04-006",
+        "d": "basic",
+        "p": "Đối với cây thủy sinh trồng trong lọ nước sạch ở lớp học, ta cần thay nước định kì (thường 5 đến 7 ngày mỗi lần) nhằm mục đích gì?",
+        "o": [
+          "Để làm rễ cây bị lạnh run lên",
+          "Để biến cây thủy sinh thành cây xương rồng",
+          "Cung cấp nước mới giàu oxi hòa tan, rửa sạch rong rêu và ngăn muỗi đẻ trứng gây sốt xuất huyết",
+          "Để lá cây rụng bớt cho gọn"
+        ],
+        "k": "C",
+        "e": "Nước tù đọng lâu ngày dễ sinh mùi hôi, cạn oxi hòa tan và thành ổ lăng quăng/bọ gậy gây bệnh.",
+        "s": "Công nghệ 4",
+        "h": "Vệ sinh thay nước cho cây thủy sinh"
+      },
+      {
+        "c": "CN4-B04-007",
+        "d": "application",
+        "p": "Chậu cây hoa hồng đặt cạnh cửa sổ một phía trong nhà nên tất cả ngọn cây đều mọc nghiêng vẹo hẳn về phía có nắng. Em nên làm gì để dáng cây thẳng đều đẹp mắt?",
+        "o": [
+          "Bẻ gập ngược ngọn cây xuống dưới mặt đất",
+          "Định kì vài ngày xoay chậu một góc 90 độ hoặc 180 độ để các phía tán lá đều nhận được ánh sáng đồng đều",
+          "Đặt chậu vào trong ngăn kéo tối luôn",
+          "Cắt cụt hết phần ngọn mọc hướng ra cửa sổ"
+        ],
+        "k": "B",
+        "e": "Cây luôn hướng ngọn về nguồn sáng (hiện tượng hướng sáng); xoay chậu đều đặn giúp tán tròn cân đối.",
+        "s": "Công nghệ 4",
+        "h": "Xoay chậu đều tránh lệch tán"
+      },
+      {
+        "c": "CN4-B04-008",
+        "d": "application",
+        "p": "Khi bón phân tan chậm hoặc phân hữu cơ dạng viên cho chậu hoa đã bén rễ, vị trí rải phân hợp lí nhất là ở đâu?",
+        "o": [
+          "Đặt viên phân vào trong đĩa lót dưới đáy chậu",
+          "Rải đều quanh vành đất gần mép chậu (cách xa gốc cây) rồi lấp nhẹ đất mỏng và tưới ẩm",
+          "Đổ dồn hết một đống cao dính sát vào thân non ngay cổ rễ",
+          "Rắc trực tiếp lên trên cánh hoa và lá non"
+        ],
+        "k": "B",
+        "e": "Rễ hút dinh dưỡng nằm ở vùng rễ tơ phía ngoài tán, rải sát gốc dễ gây xót cháy cổ rễ.",
+        "s": "Công nghệ 4",
+        "h": "Vị trí bón phân an toàn xa cổ rễ"
+      },
+      {
+        "c": "CN4-B04-009",
+        "d": "application",
+        "p": "Lớp học có chậu cây bị vàng lá từ gốc lan lên, đất trong chậu lúc nào cũng sũng nước và có mùi chua ẩm. Biện pháp cấp cứu nào đúng nhất?",
+        "o": [
+          "Tưới bù thêm hai ca nước nữa cho hết mùi chua",
+          "Ngừng tưới nước ngay, kiểm tra thông tắc lỗ thoát nước dưới đáy chậu, xới nhẹ mặt đất và đưa ra chỗ thoáng sáng dịu cho ráo nước",
+          "Bón thật nhiều phân hóa học cho lá xanh lại ngay",
+          "Bịt chặt thêm lỗ đáy chậu cho kín"
+        ],
+        "k": "B",
+        "e": "Vàng lá kèm đất sũng mùi chua là dấu hiệu cây bị úng rễ thiếu oxi; tuyệt đối không bón phân khi rễ đang yếu tổn thương.",
+        "s": "Công nghệ 4",
+        "h": "Cấp cứu chậu cây bị úng nước"
+      },
+      {
+        "c": "CN4-B04-010",
+        "d": "application",
+        "p": "Nếu mùa hè trời nắng nóng kéo dài, gia đình em đi du lịch 4 ngày không có ai ở nhà tưới chậu hoa ngoài ban công. Giải pháp tự chăm nào đơn giản mà hiệu quả?",
+        "o": [
+          "Đóng gói chậu cây kín mít vào túi nilon buộc chặt miệng rồi phơi nắng",
+          "Đổ nước muối mặn ngập đáy đĩa lót chậu",
+          "Nhổ cây ra khỏi đất rồi cất vào tủ lạnh",
+          "Chuyển tạm chậu vào nơi mát dịu bớt nắng gắt, phủ lớp rơm khô hoặc xơ dừa lên mặt đất giữ ẩm và làm hệ thống dây vải dẫn nước nhỏ giọt từ chai nước đặt bên cạnh"
+        ],
+        "k": "D",
+        "e": "Bớt nắng làm giảm bốc hơi nước, che phủ gốc giữ ẩm và dùng dây thấm mao dẫn giữ đất ẩm đều suốt vài ngày.",
+        "s": "Công nghệ 4",
+        "h": "Cách giữ ẩm cho cây khi đi vắng"
+      },
+      {
+        "c": "CN4-B04-011",
+        "d": "application",
+        "p": "Nhận thấy một cây hoa cúc sau vài tháng trồng bị \"bó rễ\" (rễ trắng chui dày đặc ra ngoài lỗ thoát nước đáy chậu và đất bị chai cứng), em cần làm gì?",
+        "o": [
+          "Cắt hết toàn bộ rễ mọc dài rồi nhét lại chậu cũ nhỏ hơn",
+          "Chuyển cây sang một chiếc chậu mới lớn hơn một cỡ kèm bổ sung thêm giá thể tơi xốp giàu dinh dưỡng",
+          "Dùng búa đập nhẹ thành chậu cho rễ chui vào trong",
+          "Chỉ tưới nước sôi vào gốc"
+        ],
+        "k": "B",
+        "e": "Thay chậu (Repotting) khi cây lớn vượt cỡ chậu giúp bộ rễ có không gian mới phát triển và ra hoa bền đẹp.",
+        "s": "Công nghệ 4",
+        "h": "Nhận biết lúc cần thay chậu lớn hơn"
+      },
+      {
+        "c": "CN4-B04-012",
+        "d": "application",
+        "p": "Nhóm trực nhật Lớp 4 muốn bón thêm nước vo gạo sạch hoặc phân trùn quế cho bồn hoa lớp. Khi tưới phân lỏng tự nhiên cần lưu ý gì để không thu hút ruồi bọ và gây mùi trong lớp?",
+        "o": [
+          "Để xô nước vo gạo thối rữa suốt một tháng ngay dưới gầm bàn cô giáo",
+          "Đổ đặc sệt lên toàn bộ ngọn lá và bông hoa",
+          "Pha loãng vừa phải và tưới trực tiếp vào vùng đất ẩm quanh gốc, không tưới thừa tràn lan lên mặt bàn hay lá cây",
+          "Trộn lẫn với nước lau sàn hóa chất trước khi tưới"
+        ],
+        "k": "C",
+        "e": "Dinh dưỡng hữu cơ lỏng dùng với liều loãng hợp lí vào đất giúp vi sinh vật phân giải nhanh mà vẫn sạch đẹp lớp học.",
+        "s": "Công nghệ 4",
+        "h": "Sử dụng phân hữu cơ lỏng sạch sẽ"
+      },
+      {
+        "c": "CN4-B04-013",
+        "d": "advanced",
+        "p": "Vì sao khi trời đang nắng gắt giữa trưa mà ta thấy lá cây hơi rũ xuống lại KHÔNG nên vội vàng dội nước lạnh lên lá ngay, trừ trường hợp khẩn cấp?",
+        "o": [
+          "Vì tưới trưa làm hoa nở to quá mức quy định",
+          "Vì nắng trưa làm bình tưới bằng nhựa tan chảy ngay lập tức",
+          "Vì nước giếng giữa trưa sẽ tự động biến thành băng đá",
+          "Đất nóng gặp nước lạnh làm rễ sốc nhiệt giảm hút nước, còn giọt nước trên lá dễ hội tụ nắng gây cháy đốm lá"
+        ],
+        "k": "D",
+        "e": "Nên đưa chậu cây héo rũ do nắng vào chỗ mát nghỉ ngơi 15–20 phút cho dịu nhiệt rồi mới tưới nước mát vừa phải vào gốc.",
+        "s": "Công nghệ 4",
+        "h": "Giải thích hiện tượng sốc nhiệt và cháy lá"
+      },
+      {
+        "c": "CN4-B04-014",
+        "d": "advanced",
+        "p": "Khi em dùng phân bón NPK vô cơ pha loãng cho cây hoa đang nở nụ nhưng lỡ pha quá đặc (quá liều hướng dẫn gấp 5 lần), cây sẽ phản ứng ra sao và xử lí thế nào?",
+        "o": [
+          "Cây lập tức mọc cao thêm 1 mét sau một đêm",
+          "Lập tức cắt bỏ toàn bộ thân cây sát gốc",
+          "Cây bị \"cháy phân\" (rễ mất nước, mép lá khô xoăn héo nhanh); cần tưới xả nước sạch nhiều lần liên tục qua lỗ đáy chậu để rửa trôi bớt muối phân dư trong đất",
+          "Nên rắc thêm một nắm muối ăn lên mặt đất để trung hòa"
+        ],
+        "k": "C",
+        "e": "Nồng độ muối khoáng trong đất quá cao gây hút ngược nước từ rễ ra ngoài; xả trôi nước sạch nhiều lần giúp hạ nồng độ kịp thời.",
+        "s": "Công nghệ 4",
+        "h": "Xử lí cây bị xót cháy phân bón"
+      },
+      {
+        "c": "CN4-B04-015",
+        "d": "advanced",
+        "p": "Một học sinh muốn lập bảng theo dõi sự sinh trưởng của cây hoa trong 4 tuần. Những thông số nào cần ghi chép đều đặn để đánh giá hiệu quả chăm sóc?",
+        "o": [
+          "Chỉ đo cân nặng của chiếc kéo tỉa cành mỗi ngày",
+          "Ngày tưới/lượng nước, chiều cao thân (cm), số lượng lá xanh/nụ hoa mới, tình trạng sâu bệnh và thời tiết trong tuần",
+          "Ghi tên các bài hát học sinh hát cạnh chậu cây",
+          "Chỉ ghi lại giá tiền của chiếc chậu và màu áo người tưới"
+        ],
+        "k": "B",
+        "e": "Nhật kí quan sát thực nghiệm ghi các chỉ số định lượng (chiều cao, số lá, số nụ) giúp điều chỉnh cách chăm sóc khoa học.",
+        "s": "Công nghệ 4",
+        "h": "Lập nhật kí theo dõi sinh trưởng cây"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe4-c1",
+    "lesson": {
+      "code": "congnghe4-b05",
+      "title": "Bài 5. Lợi ích và An toàn khi Chăm sóc Cây xanh tại Trường, Nhà",
+      "seq": 5,
+      "subtitle": "Nhận biết các quy tắc an toàn cá nhân, phân công trách nhiệm chăm sóc góc thiên nhiên và giữ vệ sinh môi trường học đường",
+      "concepts": [
+        "An toàn với cây có gai, nhựa độc, phấn hoa gây dị ứng",
+        "An toàn khi dùng dụng cụ sắc nhọn và chất chăm sóc cây",
+        "Xây dựng góc xanh lớp học đoàn kết và bền vững"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN4-B05-001",
+        "d": "basic",
+        "p": "Trong một số loài cây cảnh phổ biến, loài nào cần nhắc nhở trẻ nhỏ KHÔNG tự ý ngắt lá hoặc chạm vào nhựa trắng vì nhựa cây có thể gây kích ứng da hoặc nguy hiểm nếu dính vào mắt, miệng?",
+        "o": [
+          "Cây rau xà lách trồng trong khay sạch",
+          "Cây húng quế ăn sống",
+          "Cây hành lá xanh trên bậu cửa",
+          "Cây vạn niên thanh lá đốm trắng (một số giống môn kiểng) hoặc cây trạng nguyên, xương rồng bát tiên"
+        ],
+        "k": "D",
+        "e": "Nhiều cây cảnh đẹp có nhựa chứa tinh thể gây ngứa rát da niêm mạc nếu chạm hoặc nuốt phải; luôn rửa tay sạch và không đưa lên miệng.",
+        "s": "Công nghệ 4",
+        "h": "Nhận biết cây cảnh có nhựa kích ứng"
+      },
+      {
+        "c": "CN4-B05-002",
+        "d": "basic",
+        "p": "Khi di chuyển một chậu cây sứ nặng ra vị trí có nắng trên ban công tầng hai, quy tắc an toàn nào cần đặt lên hàng đầu?",
+        "o": [
+          "Kê chậu chênh vênh lên mép ngoài cùng của lan can cho thoáng",
+          "Xếp chồng ba chậu nhỏ lên đầu một chậu khác ngoài mép cửa sổ",
+          "Đặt chậu vào giữa bệ chắc chắn có lan can hoặc gờ chắn bảo vệ, tuyệt đối không đặt chênh vênh sát mép lan can tầng cao gây rơi xuống người đi bên dưới",
+          "Ném chậu từ tầng dưới lên tầng trên cho nhanh"
+        ],
+        "k": "C",
+        "e": "Chậu cây rơi từ tầng cao là tai nạn cực kì nguy hiểm; chỉ đặt cây ở vị trí cố định vững chãi có khung đỡ an toàn.",
+        "s": "Công nghệ 4",
+        "h": "An toàn vị trí đặt chậu ở tầng cao"
+      },
+      {
+        "c": "CN4-B05-003",
+        "d": "basic",
+        "p": "Trong bảng sau, trang phục và đồ bảo hộ nào phù hợp nhất cho buổi lao động trồng – chăm sóc bồn hoa vườn trường?",
+        "o": [
+          "Mặc váy dài quét đất vướng víu khi bưng chậu",
+          "Đeo trang sức dài dễ mắc kẹt vào cành cây",
+          "Đi dép lê trơn trượt hoặc đi chân đất giữa đất sỏi",
+          "Quần áo gọn gàng, đi giày dép kín mũi chống trơn, đội mũ nón và đeo găng tay bảo hộ"
+        ],
+        "k": "D",
+        "e": "Trang phục gọn gàng, giày kín mũi và găng tay bảo vệ học sinh khỏi sỏi nhọn, bùn trơn và côn trùng.",
+        "s": "Công nghệ 4",
+        "h": "Trang phục an toàn khi làm vườn",
+        "fig": {
+          "type": "table",
+          "title": "An toàn Chăm sóc Cây",
+          "head": [
+            "Tình huống",
+            "Cách xử lí đúng"
+          ],
+          "rows": [
+            [
+              "Chạm nhựa cây lạ",
+              "Rửa ngay nước sạch"
+            ],
+            [
+              "Dùng kéo tỉa cành",
+              "Cẩn thận hướng lưỡi"
+            ],
+            [
+              "Đặt chậu ban công",
+              "Tránh mép dễ rơi"
+            ],
+            [
+              "Sau khi làm vườn",
+              "Rửa tay xà phòng"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN4-B05-004",
+        "d": "basic",
+        "p": "Sau khi kết thúc buổi chăm sóc vườn hoa của lớp, việc làm vệ sinh cá nhân nào là bắt buộc trước khi ăn quà nhẹ hoặc quay vào lớp cầm sách vở?",
+        "o": [
+          "Rửa tay thật sạch bằng xà phòng dưới vòi nước chảy và lau khô",
+          "Vệ sinh móng tay bằng cách cắn móng tay",
+          "Chỉ phủi nhẹ bụi đất trên hai bàn tay vào quần áo",
+          "Lấy khăn mặt lau mồ hôi khi tay vẫn dính bùn đất"
+        ],
+        "k": "A",
+        "e": "Đất trồng có thể chứa trứng giun, vi khuẩn và tàn dư phân bón; rửa tay xà phòng phòng ngừa bệnh đường tiêu hóa hiệu quả.",
+        "s": "Công nghệ 4",
+        "h": "Rửa tay xà phòng sau làm vườn"
+      },
+      {
+        "c": "CN4-B05-005",
+        "d": "basic",
+        "p": "Nếu không may bị gai hoa hồng hoặc gai cây xương rồng đâm vào đầu ngón tay khi thực hành ở lớp, em cần làm gì đầu tiên?",
+        "o": [
+          "Khóc ầm ĩ rồi chạy ra ngoài cổng trường một mình",
+          "Báo ngay cho thầy cô giáo để được kiểm tra, gắp gai sạch và sát trùng vết thương đúng cách",
+          "Giấu kín không nói ai và dùng bút chì tự chọc sâu vào da",
+          "Bôi bùn đất ẩm lên vết gai đâm cho mát"
+        ],
+        "k": "B",
+        "e": "Báo ngay cho người lớn (giáo viên hoặc y tế học đường) giúp xử lí vết xước vô trùng, tránh nhiễm trùng.",
+        "s": "Công nghệ 4",
+        "h": "Báo thầy cô khi bị thương tích nhỏ"
+      },
+      {
+        "c": "CN4-B05-006",
+        "d": "basic",
+        "p": "Học sinh Lớp 4 có nên tự ý cầm bình xịt thuốc hóa học diệt sâu hoặc hóa chất làm vườn không có nhãn mác của người lớn để xịt cây hay không?",
+        "o": [
+          "Tuyệt đối không tự ý chạm vào hoặc sử dụng thuốc bảo vệ thực vật hóa học",
+          "Càng xịt nhiều mùi hắc thì lớp càng sạch",
+          "Có thể dùng thoải mái như bình xịt nước lọc",
+          "Chỉ cần nín thở 5 giây lúc xịt là an toàn hoàn toàn"
+        ],
+        "k": "A",
+        "e": "Thuốc bảo vệ thực vật chứa độc tố nguy hiểm qua da và đường hô hấp; học sinh chỉ dùng nước sạch và biện pháp thủ công dưới hướng dẫn giáo viên.",
+        "s": "Công nghệ 4",
+        "h": "Tránh xa hóa chất bảo vệ thực vật"
+      },
+      {
+        "c": "CN4-B05-007",
+        "d": "application",
+        "p": "Một bạn trong lớp bị dị ứng nhẹ với phấn hoa (hay hắt hơi, ngứa mũi khi ngửi sát bông hoa nhiều phấn). Để vẫn tham gia hoạt động \"Góc xanh lớp em\" vui vẻ và an toàn, bạn đó nên nhận nhiệm vụ gì?",
+        "o": [
+          "Bắt buộc bạn đó đứng ngửi sát bình hoa bách hợp cả giờ học",
+          "Phụ trách trồng các loại cây cảnh lá không có hoa nhiều phấn (như trầu bà, lưỡi hổ), làm thẻ tên cây hoặc lập lịch phân công tưới nước",
+          "Trồng thêm 20 chậu hoa nhiều phấn đặt ngay cạnh bàn bạn ấy",
+          "Không cho bạn đó ngồi trong lớp học cùng các bạn nữa"
+        ],
+        "k": "B",
+        "e": "Phân công hợp lí dựa trên tình trạng sức khỏe thể hiện sự quan tâm, tôn trọng lẫn nhau trong làm việc nhóm.",
+        "s": "Công nghệ 4",
+        "h": "Phân công phù hợp cho bạn dị ứng phấn hoa"
+      },
+      {
+        "c": "CN4-B05-008",
+        "d": "application",
+        "p": "Khi truyền tay chiếc kéo tỉa cành cho bạn đứng cạnh trong giờ thực hành Công nghệ, tư thế đưa kéo nào bảo đảm an toàn tuyệt đối cho cả hai người?",
+        "o": [
+          "Vung vẩy kéo lên ngang mặt vừa đi vừa nói chuyện",
+          "Mở rộng hai lưỡi kéo sắc nhọn chĩa thẳng về phía bụng bạn",
+          "Tung ném chiếc kéo qua đầu các bạn khác để tiết kiệm bước đi",
+          "Gấp khép hai lưỡi kéo lại, một tay nắm lấy phần đầu mũi lưỡi kéo hướng xuống dưới và đưa phần tay cầm hướng về phía bạn nhận"
+        ],
+        "k": "D",
+        "e": "Nguyên tắc an toàn đưa vật sắc nhọn: luôn hướng phần chuôi cầm về phía người nhận và giữ mũi nhọn khép kín.",
+        "s": "Công nghệ 4",
+        "h": "Kĩ năng trao kéo an toàn"
+      },
+      {
+        "c": "CN4-B05-009",
+        "d": "application",
+        "p": "Em xem dữ liệu thống kê tỉ lệ cây sống khỏe của 4 lớp trong phong trào \"Trường em Xanh - Sạch - Đẹp\" sau một học kì. Điểm khác biệt giúp Lớp 4A đạt tỉ lệ 98% cây sống khỏe nhất khối là gì?",
+        "o": [
+          "Lớp 4A tưới nước ngập tràn cả ngày 5 lần vào các chậu cây",
+          "Lớp 4A khóa kín cửa sổ không cho cây nhìn thấy ánh nắng",
+          "Lớp 4A phân công lịch tưới – chăm sóc luân phiên rõ ràng hằng tuần kết hợp kiểm tra độ ẩm đất thay vì tưới tùy hứng",
+          "Lớp 4A mua toàn cây giả bằng nhựa để vào góc thiên nhiên"
+        ],
+        "k": "C",
+        "e": "Chăm sóc đều đặn theo lịch khoa học và quan sát kịp thời giúp cây sinh trưởng ổn định nhất.",
+        "s": "Công nghệ 4",
+        "h": "Đọc biểu đồ hiệu quả quản lí góc xanh",
+        "fig": {
+          "type": "bars",
+          "title": "Tỉ lệ cây sống khỏe (%)",
+          "labels": [
+            "Lớp 4A",
+            "Lớp 4B",
+            "Lớp 4C",
+            "Lớp 4D"
+          ],
+          "series": [
+            {
+              "values": [
+                98,
+                82,
+                76,
+                88
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "c": "CN4-B05-010",
+        "d": "application",
+        "p": "Trong lớp học sử dụng nước tưới cây, sàn gạch men rất dễ bị đọng nước gây trơn trượt. Sau khi tưới xong lỡ làm đổ nước ra lối đi giữa hai dãy bàn, em làm gì ngay?",
+        "o": [
+          "Rải thêm đất khô lên vũng nước rồi đi về chỗ",
+          "Lấy cây lau nhà hoặc giẻ khô lau sạch vũng nước ngay lập tức để tránh bạn bè vấp trượt ngã",
+          "Lấy ghế che lên vũng nước mà không lau",
+          "Kệ cho nước tự khô vào cuối buổi học"
+        ],
+        "k": "B",
+        "e": "Giữ mặt sàn khô ráo ngay sau khi tưới là thói quen an toàn phòng tránh tai nạn trượt ngã trong trường học.",
+        "s": "Công nghệ 4",
+        "h": "Xử lí nước đổ tránh trơn trượt"
+      },
+      {
+        "c": "CN4-B05-011",
+        "d": "application",
+        "p": "Vào kì nghỉ hè dài ngày không có học sinh đến lớp, phương án nhân văn và tiết kiệm nhất cho những chậu hoa nhỏ của góc thiên nhiên lớp 4 là gì?",
+        "o": [
+          "Vứt tất cả chậu hoa ra thùng rác vào ngày bế giảng",
+          "Phân công các bạn xung phong nhận mang về nhà chăm sóc hộ trong hè hoặc gom chuyển xuống vườn trường nhờ bác bảo vệ – cô tổng phụ trách chăm chung",
+          "Bỏ mặc toàn bộ cây khô héo chết hết trong phòng học khóa cửa",
+          "Tưới một thùng nước thật đầy ngập mặt bàn rồi khóa cửa về"
+        ],
+        "k": "B",
+        "e": "Bàn giao hoặc nhận nuôi cây mùa hè giữ sống hệ cây xanh của lớp suốt năm học.",
+        "s": "Công nghệ 4",
+        "h": "Phương án chăm cây dịp nghỉ hè"
+      },
+      {
+        "c": "CN4-B05-012",
+        "d": "application",
+        "p": "Khi nhặt được một chiếc vỏ chai nước nhựa và vỏ hộp sữa sạch sau giờ ra chơi, cách xử lí nào góp phần phát triển góc xanh thân thiện môi trường của trường?",
+        "o": [
+          "Rửa sạch, để ráo rồi tái chế thành chậu cây treo tường hoặc ống đựng dụng cụ làm vườn mini của lớp",
+          "Ném bừa bãi vào gốc cây hoa ngoài sân trường",
+          "Đem chôn nguyên chai nhựa dưới đáy bồn hoa không cắt bỏ",
+          "Đốt cháy chai nhựa ngay cạnh chậu hoa giấy"
+        ],
+        "k": "A",
+        "e": "Tái sử dụng đồ nhựa sạch thành chậu trồng vừa giảm rác thải nhựa vừa tạo góc sáng tạo xanh tiết kiệm chi phí.",
+        "s": "Công nghệ 4",
+        "h": "Tái chế rác nhựa cho góc thiên nhiên"
+      },
+      {
+        "c": "CN4-B05-013",
+        "d": "advanced",
+        "p": "Giả sử khi đang làm cỏ ở bồn hoa góc khuất sân trường, một bạn phát hiện có một con ong vò vẽ hoặc tổ kiến lửa lớn ngay dưới gốc cây. Cách phản ứng khôn ngoan nhất của cả nhóm là gì?",
+        "o": [
+          "Giữ bình tĩnh lùi xa khu vực đó ngay lập tức, không chọc phá xua đuổi khiến ong/kiến tấn công và báo ngay cho thầy cô giáo xử lí an toàn",
+          "Ném sỏi đá tới tấp vào tổ kiến lửa",
+          "Lấy que gỗ chọc mạnh vào tổ ong để xem bên trong có gì",
+          "Cả nhóm xúm thật đông lại vỗ tay thật to ngay sát tổ ong"
+        ],
+        "k": "A",
+        "e": "Không bao giờ chọc phá tổ côn trùng có nọc đốt (ong, kiến lửa, rết); giữ khoảng cách an toàn và báo người lớn.",
+        "s": "Công nghệ 4",
+        "h": "Ứng xử an toàn khi gặp côn trùng có nọc"
+      },
+      {
+        "c": "CN4-B05-014",
+        "d": "advanced",
+        "p": "Nhiều bạn thích đổ bã trà hoặc bã cà phê thừa trực tiếp thành đống dày lên mặt đất trong chậu cây nhỏ đặt trong phòng học máy lạnh. Điều gì bất lợi dễ xảy ra sau vài ngày?",
+        "o": [
+          "Cây nở hoa hồng biến thành hoa màu đen ngay lập tức",
+          "Đất bốc cháy thành ngọn lửa giữa phòng máy lạnh",
+          "Chậu cây tự động nhân đôi kích thước",
+          "Bã ướt chưa ủ phân hủy dễ lên mốc trắng, chua đất, bốc mùi ẩm và thu hút ruồi giấm bay trong phòng kín"
+        ],
+        "k": "D",
+        "e": "Đồ hữu cơ thừa chưa qua ủ hoai đặt trong phòng kín dễ mốc và sinh côn trùng; nếu muốn làm phân cần ủ riêng ngoài trời đúng cách.",
+        "s": "Công nghệ 4",
+        "h": "Tránh đổ bã hữu cơ sống vào chậu trong phòng"
+      },
+      {
+        "c": "CN4-B05-015",
+        "d": "advanced",
+        "p": "Để đánh giá tổng thể một \"Góc thiên nhiên Lớp 4\" đạt chuẩn Xanh – Sạch – An toàn, ba tiêu chí cốt lõi nhất cần xem xét là gì?",
+        "o": [
+          "Phải sơn toàn bộ bàn ghế và tường lớp thành màu xanh lá cây",
+          "Chỉ cần mua một bó hoa nhựa thật to đặt trên bàn giáo viên",
+          "Càng có nhiều cây gai nhọn càng tốt, không cần lối đi và tưới nước tràn xuống sàn",
+          "Cây xanh tốt hợp ánh sáng lớp; chậu đĩa sạch không đọng nước muỗi; dụng cụ gọn và vị trí đặt không chắn lối đi"
+        ],
+        "k": "D",
+        "e": "Một không gian xanh học đường chuẩn mực luôn cân bằng cả 3 yếu tố: sinh trưởng tự nhiên, vệ sinh phòng dịch và an toàn giao thông lớp học.",
+        "s": "Công nghệ 4",
+        "h": "Tiêu chí góc thiên nhiên an toàn bền vững"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe4-c2",
+    "lesson": {
+      "code": "congnghe4-b06",
+      "title": "Bài 6. Bộ Lắp ghép Mô hình Kĩ thuật (Chi tiết và Dụng cụ)",
+      "seq": 6,
+      "subtitle": "Nhận biết tên gọi, hình dạng các nhóm chi tiết cơ bản (tấm, thanh thẳng, chữ U, chữ L, trục, bánh xe, ốc vít) và thực hành bắt – tháo vít đúng chiều bằng tua-vít và cờ-lê",
+      "concepts": [
+        "Nhóm chi tiết dạng tấm và thanh thẳng có lỗ đều nhau",
+        "Nhóm chi tiết trục, bánh xe, vòng hãm và bulông – đai ốc",
+        "Sử dụng cờ-lê và tua-vít lắp ghép mối nối chắc chắn"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN4-B06-001",
+        "d": "basic",
+        "p": "Trong bộ lắp ghép mô hình kĩ thuật tiểu học, để nối chặt hai thanh thẳng lại với nhau tại các lỗ tròn, ta sử dụng cặp chi tiết nhỏ nào?",
+        "o": [
+          "Vít (bulông) và đai ốc (ốc vít)",
+          "Hồ dán giấy và băng dính trong",
+          "Dây len màu và kim khâu áo",
+          "Đất nặn sáp màu"
+        ],
+        "k": "A",
+        "e": "Mối ghép bằng vít và đai ốc vừa chắc chắn vừa dễ dàng tháo rời để lắp ghép sang nhiều mô hình khác nhau.",
+        "s": "Công nghệ 4",
+        "h": "Cặp chi tiết vít và đai ốc"
+      },
+      {
+        "c": "CN4-B06-002",
+        "d": "basic",
+        "p": "Hai dụng cụ chính đi kèm trong bộ lắp ghép dùng để giữ đai ốc và vặn xoáy vít cho thật chặt là gì?",
+        "o": [
+          "Kim băng và kẹp tóc",
+          "Cưa tay và bào gỗ",
+          "Cờ-lê (chìa vặn ốc) và Tua-vít (tuốc-nơ-vít)",
+          "Kéo cắt giấy và thước kẻ"
+        ],
+        "k": "C",
+        "e": "Cờ-lê ôm giữ chặt cạnh đai ốc đứng yên, còn tua-vít khớp vào rãnh đầu vít để vặn xoay thuận lợi.",
+        "s": "Công nghệ 4",
+        "h": "Bộ đôi dụng cụ Cờ-lê và Tua-vít"
+      },
+      {
+        "c": "CN4-B06-003",
+        "d": "basic",
+        "p": "Chi tiết có tên gọi \"Vòng hãm\" (vòng cao su hoặc nhựa tròn nhỏ lồng khít vào trục) có tác dụng gì trong mô hình bánh xe hoặc trục quay?",
+        "o": [
+          "Trang trí cho đầu trục thành bông hoa năm cánh",
+          "Giữ cố định vị trí của bánh xe hoặc thanh lắp trên trục, không cho chúng trượt tuột ra ngoài khi quay",
+          "Thay thế hoàn toàn cho cờ-lê khi vặn ốc",
+          "Nối dài hai thanh thẳng 11 lỗ"
+        ],
+        "k": "B",
+        "e": "Vòng hãm tạo điểm chặn sát hai bên giúp bánh xe quay trơn quanh trục mà không bị xô lệch dọc trục.",
+        "s": "Công nghệ 4",
+        "h": "Công dụng của vòng hãm trục"
+      },
+      {
+        "c": "CN4-B06-004",
+        "d": "basic",
+        "p": "Quan sát bảng các nhóm chi tiết sau. \"Thanh chữ L\" và \"Thanh chữ U\" thuộc nhóm chi tiết nào và thường dùng làm gì?",
+        "o": [
+          "Nhóm bánh xe và lốp cao su để chạy trên đường",
+          "Nhóm chi tiết trang trí mềm bằng vải",
+          "Nhóm thanh thẳng và thanh gấp góc, dùng làm giá đỡ, chân đế hoặc tạo khung góc vuông 90 độ cho mô hình",
+          "Nhóm dụng cụ cầm tay thay cho cờ-lê"
+        ],
+        "k": "C",
+        "e": "Thanh chữ U và chữ L tạo khớp vuông góc cứng cáp để dựng chân cột, khung đu quay hoặc ghế bập bênh.",
+        "s": "Công nghệ 4",
+        "h": "Công dụng thanh chữ L và chữ U",
+        "fig": {
+          "type": "table",
+          "title": "Nhóm Chi tiết Lắp ghép",
+          "head": [
+            "Nhóm chi tiết",
+            "Ví dụ tiêu biểu"
+          ],
+          "rows": [
+            [
+              "Dạng tấm",
+              "Tấm lớn, tấm nhỏ"
+            ],
+            [
+              "Dạng thanh",
+              "Thanh thẳng, U, L"
+            ],
+            [
+              "Chuyển động",
+              "Trục dài, bánh xe"
+            ],
+            [
+              "Lắp nối & Dụng cụ",
+              "Vít, ốc, cờ-lê"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN4-B06-005",
+        "d": "basic",
+        "p": "Theo quy ước phổ thông (quy tắc bàn tay phải), muốn vặn vít vào đai ốc cho CHẶT lại thì xoay tua-vít theo chiều nào?",
+        "o": [
+          "Xoay cùng chiều kim đồng hồ (chiều vặn sang phải)",
+          "Ấn thẳng thật mạnh không cần xoay tròn",
+          "Lắc ngang tua-vít sang hai bên",
+          "Xoay ngược chiều kim đồng hồ (chiều sang trái)"
+        ],
+        "k": "A",
+        "e": "Quy tắc dễ nhớ: \"Vào theo chiều kim đồng hồ (siết chặt), ra ngược chiều kim đồng hồ (nới lỏng)\".",
+        "s": "Công nghệ 4",
+        "h": "Quy ước chiều vặn chặt vít"
+      },
+      {
+        "c": "CN4-B06-006",
+        "d": "basic",
+        "p": "Chi tiết hình trụ tròn dài trơn nhẵn (như trục thẳng dài, trục quay) thường được luồn xuyên qua lỗ tròn của bánh xe hoặc thanh đỡ để làm gì?",
+        "o": [
+          "Làm trục xoay cho các bộ phận như bánh xe, cánh quạt hoặc bập bênh chuyển động quay quanh một đường thẳng",
+          "Dùng để vặn đai ốc thay cho cờ-lê",
+          "Dán lên làm mái nhà che nắng",
+          "Làm dụng cụ gõ đinh thay cho búa sắt"
+        ],
+        "k": "A",
+        "e": "Các chi tiết trục tạo khớp quay mượt cho cơ cấu chuyển động của mô hình kĩ thuật.",
+        "s": "Công nghệ 4",
+        "h": "Vai trò chi tiết trục quay"
+      },
+      {
+        "c": "CN4-B06-007",
+        "d": "application",
+        "p": "Bạn Minh muốn tháo một mối ghép đang bị siết khá chặt giữa hai thanh thẳng. Tay trái bạn giữ cờ-lê ôm đai ốc đứng yên, tay phải cầm tua-vít xoay đầu vít theo chiều nào để tháo rời ốc vít ra?",
+        "o": [
+          "Xoay tua-vít ngược chiều kim đồng hồ để nới lỏng và tháo vít ra",
+          "Xoay tua-vít thật mạnh cùng chiều kim đồng hồ",
+          "Gõ tua-vít lên mặt bàn gỗ cho đai ốc tự rơi",
+          "Cầm tay giật đứt gãy đôi thanh nhựa"
+        ],
+        "k": "A",
+        "e": "Ngược chiều kim đồng hồ giúp các bước ren vít nhả dần ra khỏi đai ốc an toàn, không làm toét đầu vít.",
+        "s": "Công nghệ 4",
+        "h": "Thao tác tháo mối ghép đúng chiều"
+      },
+      {
+        "c": "CN4-B06-008",
+        "d": "application",
+        "p": "Nếu chỉ cầm tua-vít xoay đầu vít mà KHÔNG dùng tay kia giữ chặt đai ốc bằng cờ-lê thì điều gì thường xảy ra khi bắt đầu siết?",
+        "o": [
+          "Đai ốc tự động hàn dính chặt hơn gấp mười lần",
+          "Vít biến mất khỏi thanh nhựa",
+          "Đai ốc xoay tròn theo con vít luôn nên mối ghép bị lỏng lẻo, không thể vặn chặt khít hai thanh lại với nhau",
+          "Cờ-lê tự bay lại hỗ trợ xoay"
+        ],
+        "k": "C",
+        "e": "Khi không giữ đai ốc, ma sát làm cả vít và ốc quay đồng thời; dùng cờ-lê giữ ốc là kĩ năng cốt lõi.",
+        "s": "Công nghệ 4",
+        "h": "Tác dụng giữ cố định ốc bằng cờ-lê"
+      },
+      {
+        "c": "CN4-B06-009",
+        "d": "application",
+        "p": "Một học sinh cần nối dài hai thanh thẳng 7 lỗ để tạo thành một thanh thẳng dài hơn mà không bị xoay gập gãy khúc ở chỗ nối. Cần bắt tối thiểu mấy bộ vít – đai ốc tại phần chồng khít lên nhau giữa hai thanh?",
+        "o": [
+          "Chỉ cần đúng 1 bộ vít – đai ốc ở một lỗ duy nhất",
+          "Cần tới 15 bộ vít nhồi chung vào cùng một lỗ",
+          "Không cần bắt vít nào, chỉ đặt cạnh nhau",
+          "Tối thiểu 2 bộ vít – đai ốc tại hai lỗ khác nhau trên phần chồng lên nhau"
+        ],
+        "k": "D",
+        "e": "Nếu chỉ bắt 1 vít, hai thanh sẽ xoay quanh tâm vít như chiếc kéo; bắt từ 2 vít trở lên mới khóa cứng thành thanh thẳng cố định.",
+        "s": "Công nghệ 4",
+        "h": "Nguyên lí bắt 2 vít khóa khớp cố định"
+      },
+      {
+        "c": "CN4-B06-010",
+        "d": "application",
+        "p": "Ngược lại, khi muốn hai thanh thẳng nối với nhau nhưng VẪN CÓ THỂ xoay gập mở linh hoạt như hai cánh kéo hoặc khớp cánh tay robot, ta lắp mối ghép bằng mấy vít và độ chặt ra sao?",
+        "o": [
+          "Lắp 3 vít siết chặt cứng đơ không nhúc nhích được",
+          "Bỏ luôn con vít chỉ giữ bằng hai ngón tay",
+          "Lắp tại 1 lỗ chung bằng 1 vít – đai ốc (hoặc dùng vòng hãm vừa khít) và vặn ở mức vừa phải để hai thanh xoay quanh nhau được mà không sút ra",
+          "Dán keo 502 ngập kín toàn bộ thanh thẳng"
+        ],
+        "k": "C",
+        "e": "Mối ghép động (khớp bản lề 1 trục) cần đúng 1 điểm quay chung và độ hở hợp lí để truyền chuyển động.",
+        "s": "Công nghệ 4",
+        "h": "Tạo khớp xoay linh hoạt bằng 1 vít"
+      },
+      {
+        "c": "CN4-B06-011",
+        "d": "application",
+        "p": "Trong một chiếc xe tải mô hình, để phần đầu trục xuyên qua khung xe không làm xước kẹt hoặc không làm bánh xe bị tụt ra ngoài khi xe lăn trên mặt bàn, thứ tự lắp các chi tiết dọc theo hai đầu trục nên có chi tiết chặn nào ở hai bên?",
+        "o": [
+          "Lấy đất nặn bọc kín toàn bộ trục và bánh xe",
+          "Kẹp chặt bánh xe bằng hai thanh chữ U siết cứng không cho quay",
+          "Dùng vòng hãm (vòng đệm) gài chặt vào trục ở sát hai bên khung hoặc hai bên bánh xe, chừa một khe hở cực nhỏ cho bánh quay trơn",
+          "Bẻ cong hai đầu trục sắt thành góc vuông bằng kìm"
+        ],
+        "k": "C",
+        "e": "Vòng hãm giữ khoảng cách chuẩn giúp bánh xe không cạ sát vào thân xe và không rơi khỏi trục.",
+        "s": "Công nghệ 4",
+        "h": "Bố trí vòng hãm giữ bánh xe"
+      },
+      {
+        "c": "CN4-B06-012",
+        "d": "application",
+        "p": "Em xem hình học cơ bản dưới đây. Chi tiết khung tấm lớn trong bộ lắp ghép kĩ thuật thường có hình chữ nhật với hàng loạt lỗ tròn đều nhau để làm gì?",
+        "o": [
+          "Để gắn nam châm lên tủ lạnh",
+          "Cho phép lắp ghép linh hoạt các thanh đỡ, trục, bánh xe ở nhiều vị trí và khoảng cách chuẩn khác nhau",
+          "Để làm giảm khối lượng sắt cho dễ ném xa",
+          "Để làm đồ chơi thổi bong bóng xà phòng"
+        ],
+        "k": "B",
+        "e": "Hệ thống lưới lỗ tiêu chuẩn đồng nhất bước lỗ giúp mọi chi tiết tấm – thanh lắp khớp với nhau dễ dàng.",
+        "s": "Công nghệ 4",
+        "h": "Ý nghĩa lưới lỗ đều trên chi tiết tấm",
+        "fig": {
+          "w": 300,
+          "h": 190,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  60,
+                  45
+                ],
+                [
+                  240,
+                  45
+                ],
+                [
+                  240,
+                  135
+                ],
+                [
+                  60,
+                  135
+                ]
+              ],
+              "fill": "#e2e8f0",
+              "stroke": "#334155",
+              "w": 2.5
+            },
+            {
+              "t": "rt",
+              "at": [
+                60,
+                135
+              ],
+              "u": [
+                0,
+                -1
+              ],
+              "v": [
+                1,
+                0
+              ],
+              "s": 12
+            },
+            {
+              "t": "tick",
+              "a": [
+                60,
+                45
+              ],
+              "b": [
+                240,
+                45
+              ],
+              "n": 2
+            },
+            {
+              "t": "tick",
+              "a": [
+                60,
+                135
+              ],
+              "b": [
+                240,
+                135
+              ],
+              "n": 2
+            },
+            {
+              "t": "tick",
+              "a": [
+                60,
+                45
+              ],
+              "b": [
+                60,
+                135
+              ],
+              "n": 1
+            },
+            {
+              "t": "tick",
+              "a": [
+                240,
+                45
+              ],
+              "b": [
+                240,
+                135
+              ],
+              "n": 1
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                178
+              ],
+              "s": "Tấm lớn có lưới lỗ",
+              "anchor": "middle",
+              "size": 13
+            }
+          ]
+        }
+      },
+      {
+        "c": "CN4-B06-013",
+        "d": "advanced",
+        "p": "Khi vặn vít quá mạnh tay bằng tua-vít với các chi tiết bằng nhựa dẻo, hậu quả kĩ thuật nào dễ xảy ra và làm hỏng chi tiết?",
+        "o": [
+          "Đai ốc tự nhảy ra khỏi thanh nhựa ngay lập tức",
+          "Mô hình tự chạy nhanh hơn không cần pin",
+          "Làm vỡ mép lỗ nhựa, cong vênh thanh chi tiết hoặc làm toét rãnh đầu vít khiến lần sau không thể tháo ra được",
+          "Chi tiết nhựa tự động biến thành sắt thép bền hơn"
+        ],
+        "k": "C",
+        "e": "Trong lắp ghép kĩ thuật, siết vừa đủ chặt tay đến khi mối nối chắc chắn (không lung lay), tránh dùng quá sức làm hỏng ren hoặc nứt nhựa.",
+        "s": "Công nghệ 4",
+        "h": "Kĩ thuật siết vít vừa đủ lực"
+      },
+      {
+        "c": "CN4-B06-014",
+        "d": "advanced",
+        "p": "Trong giờ thực hành nhóm, vì sao giáo viên luôn yêu cầu đổ các ốc vít, đai ốc nhỏ ra một chiếc nắp hộp riêng đặt gọn trên mặt bàn chứ không để rải rác trên sàn hay trực tiếp cạnh sách vở?",
+        "o": [
+          "Vì không được phép chạm tay vào mặt bàn học",
+          "Vì đặt trong nắp hộp thì ốc vít sẽ tự đẻ thêm nhiều ốc mới",
+          "Để giấu không cho các nhóm bạn khác mượn",
+          "Ốc vít rất nhỏ dễ lăn rơi mất xuống sàn, gây thất lạc thiếu chi tiết khi lắp hoặc vô tình giẫm phải đau chân"
+        ],
+        "k": "D",
+        "e": "Quản lí chi tiết nhỏ gọn gàng trong khay nắp hộp (phân loại trước khi lắp) giúp tăng tốc độ lắp ghép và giữ đủ bộ cho cả lớp.",
+        "s": "Công nghệ 4",
+        "h": "Kĩ năng phân loại chi tiết vào khay gọn gàng"
+      },
+      {
+        "c": "CN4-B06-015",
+        "d": "advanced",
+        "p": "Sau khi lắp xong một khung hình chữ nhật bằng 4 thanh thẳng (mỗi góc chỉ bắt 1 vít), em cầm thử khung lên thì thấy khung bị xô nghiêng méo thành hình bình hành rất dễ dàng. Muốn gia cố cho khung hình chữ nhật cứng vững tuyệt đối không bị xô lệch, em nên lắp thêm thanh nào?",
+        "o": [
+          "Lắp thêm một thanh thẳng nối chéo hai góc đối diện (hoặc thanh giằng góc tam giác) vì hình tam giác có tính bất biến hình dạng cực kì vững chắc",
+          "Sơn màu đỏ lên toàn bộ 4 thanh thẳng đó",
+          "Thay 4 thanh thẳng bằng 4 sợi dây chỉ mềm",
+          "Tháo bớt một cạnh của hình chữ nhật đi chỉ giữ 3 cạnh hở"
+        ],
+        "k": "A",
+        "e": "Kết cấu tam giác là nguyên lí vàng trong cơ khí và xây dựng (giàn cầu, khung tháp) chống xô lệch biến dạng.",
+        "s": "Công nghệ 4",
+        "h": "Ứng dụng tính cứng vững của hình tam giác"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe4-c2",
+    "lesson": {
+      "code": "congnghe4-b07",
+      "title": "Bài 7. Lắp ghép Mô hình Cái Đu và Bập bênh",
+      "seq": 7,
+      "subtitle": "Đọc bảng chi tiết, lắp ghép hoàn chỉnh hai mô hình chuyển động lắc – quay cơ bản: Cái Đu và Cái Bập bênh cân bằng, chắc chắn và hoạt động trơn tru",
+      "concepts": [
+        "Cấu tạo mô hình Cái Đu: Giá đỡ chữ A hoặc khung chữ U, trục quay và ghế đu",
+        "Cấu tạo mô hình Bập bênh: Chân đế vững, trục tâm chính giữa và thanh đòn dài",
+        "Kiểm tra độ thăng bằng và chuyển động lắc nhịp nhàng"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN4-B07-001",
+        "d": "basic",
+        "p": "Mô hình Cái Đu gồm hai bộ phận chính nào phối hợp với nhau để ghế đu có thể đung đưa qua lại?",
+        "o": [
+          "Một chiếc đèn pin và công tắc điện",
+          "Chỉ có một tấm nhựa lớn đặt nằm bệt dưới đất",
+          "Bộ phận giá đỡ (khung trụ đứng vững trên mặt bàn) và bộ phận ghế đu treo vào trục ngang phía trên",
+          "Bốn bánh xe cao su và vô lăng lái"
+        ],
+        "k": "C",
+        "e": "Giá đỡ giữ khung đứng vững, còn ghế đu treo trên trục ngang cao giúp đu đưa tự do.",
+        "s": "Công nghệ 4",
+        "h": "Hai bộ phận chính của mô hình Cái Đu"
+      },
+      {
+        "c": "CN4-B07-002",
+        "d": "basic",
+        "p": "Trong mô hình Bập bênh cân đối cho hai người chơi hai đầu, trục quay nằm ở vị trí nào của thanh đòn dài?",
+        "o": [
+          "Ở sát hẳn một đầu mút ngoài cùng bên trái của thanh đòn",
+          "Không cần trục quay nào cả",
+          "Ở tận đáy chân đế tiếp xúc mặt sàn",
+          "Chính giữa (tâm đối xứng) của thanh đòn dài nằm ngang"
+        ],
+        "k": "D",
+        "e": "Bập bênh hoạt động dựa trên nguyên lí đòn bẩy có điểm tựa ở chính giữa để hai đầu nâng hạ luân phiên nhẹ nhàng.",
+        "s": "Công nghệ 4",
+        "h": "Vị trí trục quay của Bập bênh"
+      },
+      {
+        "c": "CN4-B07-003",
+        "d": "basic",
+        "p": "Để chân đế của giá đỡ Cái Đu không bị lật đổ về phía trước hoặc phía sau khi ghế đu đung đưa mạnh, ta nên thiết kế chân trụ giá đỡ có dạng mở rộng thế nào?",
+        "o": [
+          "Bỏ hết chân đế chỉ cầm tay giữ",
+          "Làm chân trụ bằng một que tăm nhọn hoắt cắm đứng",
+          "Chân đế mở rộng diện tích tiếp xúc với mặt bàn (ví dụ dùng thanh chữ U hoặc hai thanh chân đế choãi rộng hình chữ A nối giằng chắc chắn)",
+          "Gắn toàn bộ chân trụ bằng bánh xe lăn tự do không phanh"
+        ],
+        "k": "C",
+        "e": "Mặt chân đế rộng và liên kết giằng tam giác giúp trọng tâm ổn định, không rung lắc hay đổ ngã.",
+        "s": "Công nghệ 4",
+        "h": "Nguyên tắc giữ thăng bằng chân giá đỡ"
+      },
+      {
+        "c": "CN4-B07-004",
+        "d": "basic",
+        "p": "Quan sát bảng các bộ phận chính dưới đây. Trong mô hình Cái Đu, trục dài phía trên nối giữa hai cột giá đỡ có nhiệm vụ gì?",
+        "o": [
+          "Làm ghế ngồi cho người chơi ngồi lên trên cùng",
+          "Làm hàng rào chắn xung quanh sân chơi",
+          "Làm búa đóng vào hai chân đế",
+          "Làm trục treo để hai thanh treo ghế đu móc qua và đung đưa êm ái"
+        ],
+        "k": "D",
+        "e": "Trục ngang gác qua lỗ trên đỉnh hai cột giá đỡ là trục xoay nâng đỡ toàn bộ phần ghế đu.",
+        "s": "Công nghệ 4",
+        "h": "Vai trò trục treo của Cái Đu",
+        "fig": {
+          "type": "table",
+          "title": "Bộ phận Cái Đu & Bập bênh",
+          "head": [
+            "Mô hình",
+            "Bộ phận cốt lõi"
+          ],
+          "rows": [
+            [
+              "Cái Đu",
+              "Giá đỡ, trục, ghế đu"
+            ],
+            [
+              "Bập bênh",
+              "Đế, trục tâm, đòn"
+            ],
+            [
+              "Khớp chuyển động",
+              "Lắp trơn, không kẹt"
+            ],
+            [
+              "An toàn mô hình",
+              "Chắc chắn, không đổ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN4-B07-005",
+        "d": "basic",
+        "p": "Sau khi lắp xong phần chân giá đỡ và ghế đu riêng lẻ, bước tiếp theo để hoàn thành mô hình Cái Đu là gì?",
+        "o": [
+          "Tháo rời tất cả các ốc vít ra cất vào hộp",
+          "Bẻ gãy trục dài làm đôi",
+          "Luồn trục quay qua các lỗ trên đỉnh hai cột giá đỡ và hai tay treo ghế đu, rồi gài vòng hãm cố định trục",
+          "Dán chết ghế đu dính chặt xuống mặt đất không cho nhúc nhích"
+        ],
+        "k": "C",
+        "e": "Lắp ghép tổ hợp từng cụm chi tiết rồi gắn vào trục chung có vòng hãm là quy trình lắp ráp chuẩn.",
+        "s": "Công nghệ 4",
+        "h": "Bước lắp ghép hoàn chỉnh các bộ phận"
+      },
+      {
+        "c": "CN4-B07-006",
+        "d": "basic",
+        "p": "Đẩy nhẹ vào một đầu của mô hình Bập bênh chuẩn khi không đặt vật nặng gì lên hai đầu. Trạng thái lí tưởng cần đạt là gì?",
+        "o": [
+          "Thanh bập bênh bập bênh nhịp nhàng qua lại nhẹ nhàng và dần dừng lại gần trạng thái cân bằng, không bị kẹt cứng hoặc vẹo lệch sang một bên",
+          "Các con ốc rơi lả tả xuống bàn",
+          "Thanh bập bênh bị kẹt cứng đơ không nhúc nhích nổi",
+          "Cả chân đế nhấc bổng khỏi mặt bàn và lăn vòng tròn"
+        ],
+        "k": "A",
+        "e": "Kiểm tra độ trơn mượt của khớp trục và độ vững của chân đế là tiêu chí nghiệm thu quan trọng nhất.",
+        "s": "Công nghệ 4",
+        "h": "Tiêu chuẩn hoạt động của mô hình Bập bênh"
+      },
+      {
+        "c": "CN4-B07-007",
+        "d": "application",
+        "p": "Bạn Lan lắp xong mô hình Cái Đu nhưng khi đẩy ghế đu đung đưa thì thấy phần ghế đu bị trượt dạt sang hẳn bên phải cạ kẹt vào cột giá đỡ phải. Lan quên chi tiết gì trên trục quay?",
+        "o": [
+          "Quên gắn vòng hãm ở hai bên tay treo ghế đu (và bên ngoài cột giá đỡ) để giữ ghế nằm đúng giữa khoảng không giữa hai cột",
+          "Quên sơn ghế đu sang màu vàng",
+          "Quên bắt 4 con vít siết chặt tay treo vào cột giá đỡ",
+          "Quên lắp thêm bốn bánh xe vào dưới đáy ghế"
+        ],
+        "k": "A",
+        "e": "Vòng hãm đặt đúng hai phía tay treo giữ ghế đu luôn ở chính giữa trục, không cọ xát vào khung trụ.",
+        "s": "Công nghệ 4",
+        "h": "Dùng vòng hãm căn giữa ghế đu"
+      },
+      {
+        "c": "CN4-B07-008",
+        "d": "application",
+        "p": "Em lắp mô hình Bập bênh bằng thanh thẳng 11 lỗ làm thanh đòn dài. Ở đầu số 1 gắn một chiếc ghế nặng, đầu số 11 gắn chiếc ghế giống hệt. Ta phải luồn trục tâm qua lỗ thứ mấy (tính từ trái sang) để bập bênh cân bằng hoàn hảo?",
+        "o": [
+          "Lỗ thứ 1 ngoài cùng",
+          "Lỗ thứ 2 gần sát đầu trái",
+          "Lỗ thứ 10 gần sát đầu phải",
+          "Lỗ chính giữa là lỗ thứ 6 (chia mỗi bên còn lại đúng 5 lỗ đều nhau)"
+        ],
+        "k": "D",
+        "e": "Thanh 11 lỗ có tâm đối xứng nằm tại lỗ số (1 + 11) : 2 = 6; hai cánh tay đòn hai bên bằng nhau tăm tắp.",
+        "s": "Công nghệ 4",
+        "h": "Tính lỗ chính giữa thanh đòn 11 lỗ"
+      },
+      {
+        "c": "CN4-B07-009",
+        "d": "application",
+        "p": "Trong lúc lắp ghế đu cho Cái Đu, bạn Hùng vặn vít nối hai thanh treo ghế vào tấm ghế ngồi rất chắc (2 vít mỗi bên), nhưng lại gắn luôn vít khóa cứng hai thanh treo vào cột trụ thay vì dùng trục quay trơn. Cái Đu của Hùng bị lỗi gì?",
+        "o": [
+          "Ghế đu bị dính cứng vào khung trụ không thể đung đưa tới lui được",
+          "Cái Đu chuyển thành chiếc xe ô tô chạy thẳng",
+          "Ghế đu quay vòng tròn quá nhanh không dừng lại",
+          "Ghế đu tự phát nhạc"
+        ],
+        "k": "A",
+        "e": "Giữa khung đứng và bộ phận chuyển động bắt buộc phải là khớp quay trơn (trục tròn qua lỗ), không phải mối ghép cứng.",
+        "s": "Công nghệ 4",
+        "h": "Phân biệt khớp cố định và khớp quay"
+      },
+      {
+        "c": "CN4-B07-010",
+        "d": "application",
+        "p": "Nếu đặt mô hình Bập bênh ở trạng thái bình thường mà một bên ghế luôn chúi nặng hẳn xuống bàn dù chưa có ai ngồi, nguyên nhân nào có thể xảy ra?",
+        "o": [
+          "Do bập bênh đặt hướng về cửa sổ",
+          "Thanh đòn đặt trục bị lệch tâm (cánh tay đòn bên chúi dài hơn) hoặc hai bên lắp số lượng chi tiết/ốc vít nặng không đều nhau",
+          "Do mặt bàn học phẳng quá mức",
+          "Do màu sắc hai đầu ghế khác nhau"
+        ],
+        "k": "B",
+        "e": "Muốn đòn bẩy cân bằng không tải thì cả chiều dài tay đòn lẫn khối lượng phụ kiện hai bên tâm trục phải cân xứng.",
+        "s": "Công nghệ 4",
+        "h": "Chẩn đoán lỗi bập bênh nghiêng lệch"
+      },
+      {
+        "c": "CN4-B07-011",
+        "d": "application",
+        "p": "Khi cần kiểm tra chân đế mô hình Cái Đu xem có đứng phẳng êm trên mặt bàn hay bị bập bênh cập kênh hay không, thao tác đơn giản nào giúp phát hiện ngay?",
+        "o": [
+          "Đặt mô hình lên mặt bàn phẳng, dùng ngón tay nhấn nhẹ luân phiên vào 4 góc chân đế: nếu không thấy tiếng cộc cạch lắc lư thì chân đế đã cân bằng phẳng",
+          "Tung mô hình lên không trung rồi bắt lại",
+          "Đặt mô hình lên một chiếc gối bông mềm",
+          "Lấy nước đổ ướt hết mặt bàn rồi xem"
+        ],
+        "k": "A",
+        "e": "Bề mặt phẳng chuẩn là thước đo tốt nhất giúp điều chỉnh nới chỉnh lại các vít chân đế trước khi siết chặt hoàn toàn.",
+        "s": "Công nghệ 4",
+        "h": "Kiểm tra độ phẳng chân đế"
+      },
+      {
+        "c": "CN4-B07-012",
+        "d": "application",
+        "p": "Em muốn trang trí cải tiến mô hình Cái Đu thêm an toàn cho búp bê nhỏ ngồi chơi không bị trượt ngã ra phía sau khi đu cao. Em có thể lắp thêm chi tiết gì cho ghế đu?",
+        "o": [
+          "Gắn mũi nhọn lên mặt ghế",
+          "Lắp thêm một thanh tựa lưng nhỏ phía sau và thanh chắn ngang phía trước cho chiếc ghế đu",
+          "Chụp kín hộp các-tông lên đỉnh giá đỡ",
+          "Tháo bỏ hoàn toàn mặt ghế ngồi chỉ giữ lại mỗi trục quay"
+        ],
+        "k": "B",
+        "e": "Ghế có lưng tựa và thanh vịn trước vừa tăng tính thẩm mĩ vừa mô phỏng đúng nguyên tắc an toàn đồ chơi trẻ em.",
+        "s": "Công nghệ 4",
+        "h": "Cải tiến an toàn cho ghế cái đu"
+      },
+      {
+        "c": "CN4-B07-013",
+        "d": "advanced",
+        "p": "Khi hai bạn nặng khác nhau cùng chơi bập bênh thật ở công viên (một bạn nặng 40 kg, bạn nhỏ nặng 20 kg), làm sao để hai bạn vẫn chơi bập bênh cân bằng vui vẻ được? Ta có thể áp dụng nguyên lí đòn bẩy này cho mô hình bằng cách nào?",
+        "o": [
+          "Đặt bạn nặng hơn ngồi dịch vào gần trục tâm hơn (cánh tay đòn ngắn), bạn nhẹ hơn ngồi xa đầu mút hơn (cánh tay đòn dài) hoặc dịch lỗ trục tâm",
+          "Tháo trục tâm bập bênh vứt đi",
+          "Không thể nào chơi chung trừ khi nặng bằng đúng từng gam",
+          "Bắt bạn nhỏ buộc thêm 20 kg đá sỏi vào chân"
+        ],
+        "k": "A",
+        "e": "Nguyên lí đòn bẩy cân bằng khi (Trọng lượng × Khoảng cách tới tâm) hai bên bằng nhau; thực tế kĩ thuật giải thích rất hay!",
+        "s": "Công nghệ 4",
+        "h": "Ứng dụng đòn bẩy khi khối lượng hai bên lệch"
+      },
+      {
+        "c": "CN4-B07-014",
+        "d": "advanced",
+        "p": "Một nhóm lắp Cái Đu hoàn chỉnh nhưng khi cho ghế đu dao động mạnh, cả chiếc khung Cái Đu bị trượt lắc rung bần bật trên bàn và dễ ngã nhào về phía trước. Biện pháp gia cố kết cấu nào giải quyết triệt để nhất?",
+        "o": [
+          "Mở rộng chiều dài thanh chân đế choãi ra trước và sau sâu hơn độ văng của ghế, đồng thời thêm các thanh giằng chéo tạo khung tam giác cứng giữa cột và chân đế",
+          "Thay tấm ghế ngồi nhẹ bằng viên gạch nặng gấp mười lần",
+          "Làm hai cột giá đỡ cao gấp đôi lên mà vẫn giữ chân đế bé xíu",
+          "Vặn lỏng hết tất cả các con ốc ở phần chân đế"
+        ],
+        "k": "A",
+        "e": "Chân đế dài hơn biên độ đu và có thanh giằng tam giác giúp giữ trọng tâm luôn nằm trong vùng chân đế khi chuyển động.",
+        "s": "Công nghệ 4",
+        "h": "Gia cố chống lật khi mô hình chuyển động mạnh"
+      },
+      {
+        "c": "CN4-B07-015",
+        "d": "advanced",
+        "p": "Sau khi cả lớp hoàn thành lắp ghép Cái Đu và Bập bênh, quy trình 3 bước đánh giá sản phẩm trước khi tháo cất gồm những tiêu chí nào?",
+        "o": [
+          "Không cần kiểm tra chạy thử, tháo ngay lập tức",
+          "Chỉ chấm điểm xem ai lấy nhiều chi tiết nhất bỏ vào túi",
+          "Đếm xem ai vặn hỏng nhiều con vít nhựa nhất",
+          "Kiểm tra đủ chi tiết theo thiết kế – mối ghép chắc chắn không lỏng ốc – thử vận hành chuyển động trơn tru êm ái và cân bằng"
+        ],
+        "k": "D",
+        "e": "Nghiệm thu đủ chi tiết, bền mối ghép và đạt chức năng chuyển động đúng mục tiêu là quy trình đánh giá sản phẩm công nghệ.",
+        "s": "Công nghệ 4",
+        "h": "Bộ 3 tiêu chí nghiệm thu sản phẩm mô hình"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe4-c2",
+    "lesson": {
+      "code": "congnghe4-b08",
+      "title": "Bài 8. Lắp ghép Mô hình Xe nôi hoặc Robot đơn giản",
+      "seq": 8,
+      "subtitle": "Phối hợp thanh chữ U, L, chi tiết tấm và hệ thống trục – bánh xe để lắp ghép mô hình Xe nôi chuyển động êm hoặc Robot có khớp tay chân cử động linh hoạt",
+      "concepts": [
+        "Cấu tạo Xe nôi/Xe đẩy: Khung sàn xe, tay đẩy, mui che và 2 trục 4 bánh xe",
+        "Cấu tạo Robot đơn giản: Chân đế vững, thân tấm lớn, đầu và khớp vai chuyển động",
+        "Kiểm tra bánh xe lăn thẳng hướng hoặc khớp tay Robot cử động"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN4-B08-001",
+        "d": "basic",
+        "p": "Trong mô hình Xe nôi (hoặc xe đẩy đồ chơi) lắp ghép từ bộ kĩ thuật, bộ phận nào giúp xe di chuyển lăn nhẹ nhàng trên mặt phẳng?",
+        "o": [
+          "Tấm mui che nắng phía trên đầu xe",
+          "Hệ thống trục và các bánh xe lắp lốp cao su đặt cân xứng ở dưới khung sàn xe",
+          "Một quả bóng bay buộc trên nóc",
+          "Thanh tay đẩy phía sau lưng xe"
+        ],
+        "k": "B",
+        "e": "Bánh xe lắp qua trục và vòng hãm giúp chuyển động lăn êm ái giảm ma sát với mặt đường.",
+        "s": "Công nghệ 4",
+        "h": "Bộ phận chuyển động của Xe nôi"
+      },
+      {
+        "c": "CN4-B08-002",
+        "d": "basic",
+        "p": "Để mô hình Robot tự đứng vững được trên mặt bàn mà không bị ngã sấp hay ngửa ra sau, bộ phận \"bàn chân / chân đế\" của Robot nên lắp như thế nào?",
+        "o": [
+          "Dùng hai bánh xe tròn không phanh dựng đứng làm hai chân",
+          "Lắp mỗi chân chỉ bằng một đầu vít nhọn đứng bằng một điểm",
+          "Dùng các thanh chữ U hoặc tấm nhỏ hướng phẳng rộng ra phía trước và sau làm đế cân bằng vững chắc",
+          "Không cần lắp phần chân, chỉ lắp đầu và tay"
+        ],
+        "k": "C",
+        "e": "Chân đế có diện tích tựa rộng giúp hình chiếu trọng tâm của thân Robot rơi gọn trong chân đế.",
+        "s": "Công nghệ 4",
+        "h": "Thiết kế chân đế vững cho Robot"
+      },
+      {
+        "c": "CN4-B08-003",
+        "d": "basic",
+        "p": "Muốn hai cánh tay của mô hình Robot có thể giơ lên, hạ xuống linh hoạt khi em dùng tay điều chỉnh tư thế cho Robot, em nối phần tay vào thân Robot bằng loại mối ghép nào?",
+        "o": [
+          "Không nối tay vào thân mà đặt rời bên cạnh",
+          "Dùng băng dính cuộn chặt tay dính liền vào hông Robot",
+          "Mối ghép cố định bắt 3 bộ vít siết cứng đơ",
+          "Mối ghép động dùng 1 bộ vít – đai ốc siết vừa đủ để khớp vai xoay được"
+        ],
+        "k": "D",
+        "e": "Khớp vai là khớp xoay 1 bậc tự do, chỉ cần 1 trục vít vừa lực giúp tay Robot cử động tự nhiên.",
+        "s": "Công nghệ 4",
+        "h": "Lắp khớp xoay cho tay Robot"
+      },
+      {
+        "c": "CN4-B08-004",
+        "d": "basic",
+        "p": "Khi lắp 4 bánh xe cho mô hình Xe nôi từ 2 trục thẳng, yêu cầu quan trọng về vị trí đặt hai trục trước và sau là gì?",
+        "o": [
+          "Hai trục phải song song với nhau, vuông góc với trục dọc thân xe và nằm trên cùng một mặt phẳng ngang để cả 4 bánh cùng chạm đất đều nhau",
+          "Một trục đặt cao hơn trục kia 3 cm cho ngộ nghĩnh",
+          "Hai trục đặt chéo cắt nhau hình chữ X dưới gầm xe",
+          "Lắp 3 bánh bên trái và 1 bánh bên phải"
+        ],
+        "k": "A",
+        "e": "Trục song song và đồng mức giúp 4 bánh cùng tiếp xúc đều mặt phẳng và chạy thẳng mượt không bị vẹo.",
+        "s": "Công nghệ 4",
+        "h": "Lắp 2 trục bánh xe song song đồng mức",
+        "fig": {
+          "type": "table",
+          "title": "Kiểm tra Xe nôi & Robot",
+          "head": [
+            "Mô hình",
+            "Yêu cầu kĩ thuật"
+          ],
+          "rows": [
+            [
+              "Xe nôi",
+              "4 bánh lăn thẳng"
+            ],
+            [
+              "Tay đẩy xe",
+              "Chắc, vừa tầm đẩy"
+            ],
+            [
+              "Chân Robot",
+              "Đứng vững không đổ"
+            ],
+            [
+              "Tay Robot",
+              "Xoay tay linh hoạt"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN4-B08-005",
+        "d": "basic",
+        "p": "Khi lắp bộ phận \"Tay đẩy\" cho mô hình Xe nôi, thanh tay đẩy thường nối với khung xe bằng góc nghiêng hợp lí hướng về phía sau nhằm mục đích gì?",
+        "o": [
+          "Để che kín hết tầm nhìn vào bên trong nôi",
+          "Giúp người đẩy dễ dàng đặt tay đẩy xe tiến về phía trước và quan sát được bên trong nôi xe",
+          "Để làm xe tự lật ngửa ra đằng sau",
+          "Để làm bánh xe dự phòng chạm xuống đất"
+        ],
+        "k": "B",
+        "e": "Tay đẩy nghiêng ra sau tạo tư thế công thái học thuận tiện để đẩy và điều khiển hướng đi.",
+        "s": "Công nghệ 4",
+        "h": "Thiết kế tay đẩy xe nôi"
+      },
+      {
+        "c": "CN4-B08-006",
+        "d": "basic",
+        "p": "Trong bộ lắp ghép kĩ thuật, bộ phận \"thân\" của mô hình Robot đơn giản thường chọn chi tiết nào làm khung chính để gắn ghép đầu, hai tay và hai chân?",
+        "o": [
+          "Một vòng hãm cao su bé xíu",
+          "Một bánh xe duy nhất",
+          "Chiếc tua-vít cầm tay",
+          "Tấm lớn (hoặc hai thanh chữ U ghép khung hộp chắc chắn) có nhiều hàng lỗ phân bố đều hai bên và trên dưới"
+        ],
+        "k": "D",
+        "e": "Tấm lớn cung cấp nhiều vị trí lỗ đối xứng trái – phải, trên – dưới để lắp đầu, tay và chân cân đối.",
+        "s": "Công nghệ 4",
+        "h": "Chi tiết làm thân Robot"
+      },
+      {
+        "c": "CN4-B08-007",
+        "d": "application",
+        "p": "Bạn Tuấn lắp xong chiếc Xe nôi có 4 bánh xe rất đẹp, nhưng khi đặt xuống bàn đẩy nhẹ thử thì chiếc xe cứ bị kẹt lết bánh chứ bánh xe không quay tròn. Lỗi nào rất dễ đã xảy ra?",
+        "o": [
+          "Do sàn bàn quá phẳng và trơn bóng",
+          "Do xe nôi chưa gắn đèn pha chiếu sáng",
+          "Do màu của hai bánh trước khác hai bánh sau",
+          "Vòng hãm hoặc khung chữ L bị lắp ép quá sát vào hai mặt bánh xe khiến bánh kẹp chặt vào khung không quay được (hoặc lắp lỗ trục bị lệch)"
+        ],
+        "k": "D",
+        "e": "Khi gắn vòng hãm giữ bánh xe, luôn phải chừa khe hở nhỏ chừng 1 mm để bánh quay trơn quanh trục mà không cạ sát khung.",
+        "s": "Công nghệ 4",
+        "h": "Sửa lỗi kẹt bánh xe không lăn"
+      },
+      {
+        "c": "CN4-B08-008",
+        "d": "application",
+        "p": "Em hoàn thành xong mô hình Robot có đầu, thân, hai tay giơ được nhưng cứ thả tay ra là Robot ngã ngửa ra đằng sau ngay lập tức. Cách điều chỉnh nào khắc phục được lỗi này?",
+        "o": [
+          "Cắt bỏ toàn bộ đầu và thân đi chỉ để lại hai chân",
+          "Nới chỉnh hai thanh chân đế hướng về phía sau dài hơn một chút (hoặc gắn thêm phần bàn chân mở rộng cả trước lẫn sau) và cân lại trọng tâm thân thẳng đứng",
+          "Dùng keo dán chết chân Robot xuống bàn giáo viên",
+          "Nâng phần tay đẩy ngửa hết ra sau cho nặng thêm"
+        ],
+        "k": "B",
+        "e": "Ngã ngửa chứng tỏ trọng tâm đang rơi ra ngoài mép sau chân đế; kéo dài chân đế ra sau đưa vùng đỡ bao trùm lại trọng tâm.",
+        "s": "Công nghệ 4",
+        "h": "Khắc phục Robot ngã ngửa"
+      },
+      {
+        "c": "CN4-B08-009",
+        "d": "application",
+        "p": "Một chiếc Xe nôi khi đẩy thử trên mặt bàn lại tự động quẹo hẳn sang bên phải thay vì chạy thẳng. Kiểm tra phần khung gầm cần chú ý điều gì?",
+        "o": [
+          "Kiểm tra xem hai thanh khung gắn trục bánh xe có bị lệch không song song, hoặc một bên bánh bị siết sát vào khung tạo lực ma sát hãm khiến xe rẽ về bên kẹt hơn",
+          "Lắp thêm 5 cái vòng hãm vào đầu tay đẩy",
+          "Đổi màu nút bấm trang trí trên mui xe",
+          "Tháo bỏ hai bánh xe phía sau cho nhẹ xe"
+        ],
+        "k": "A",
+        "e": "Bên nào bánh quay nặng/kẹt hơn hoặc khoảng cách hai trục bên ngắn hơn sẽ kéo hướng chạy của xe quẹo về bên đó.",
+        "s": "Công nghệ 4",
+        "h": "Chẩn đoán xe chạy lệch hướng"
+      },
+      {
+        "c": "CN4-B08-010",
+        "d": "application",
+        "p": "Muốn cải tiến mô hình Robot đứng yên thành \"Robot thám hiểm có bánh xe\" có thể đẩy trượt nhẹ trên sa bàn, em thay đổi phần chân đế như thế nào?",
+        "o": [
+          "Lắp thêm một khung sàn nhỏ gắn 2 trục với 4 bánh xe (hoặc 2 bánh xe hai bên chân đế vững) thay cho bàn chân phẳng cố định",
+          "Xoay ngược phần đầu Robot cắm xuống mặt đất",
+          "Vặn lỏng hết toàn bộ ốc vít ở cổ Robot",
+          "Tháo bỏ hai chân, gắn hai cái ghế đu vào vai Robot"
+        ],
+        "k": "A",
+        "e": "Kết hợp mô-đun thân Robot với cụm bánh xe của bài Xe là cách sáng tạo kết hợp các cụm chi tiết rất hay.",
+        "s": "Công nghệ 4",
+        "h": "Cải tiến gắn bánh xe cho Robot"
+      },
+      {
+        "c": "CN4-B08-011",
+        "d": "application",
+        "p": "Xem sơ đồ kiểm thử lắp ghép dưới đây. Khi lắp ghép mô hình có nhiều chi tiết đối xứng như hai cánh tay Robot hoặc hai thành bên Xe nôi, kinh nghiệm giúp lắp nhanh và không bị lệch là gì?",
+        "o": [
+          "Chỉ dùng đúng 1 chiếc cờ-lê gõ các lỗ vào nhau",
+          "Lắp toàn bộ một bên dài gấp đôi bên kia cho lạ mắt",
+          "Nhắm mắt tự đoán vị trí lỗ bất kì rồi bắt vít thật chặt ngay từ đầu",
+          "Đếm chính xác số lượng lỗ trên thanh trước khi bắt vít và lắp đối xứng đồng thời cả bên trái lẫn bên phải theo bản vẽ hoặc bảng chi tiết"
+        ],
+        "k": "D",
+        "e": "Đếm lỗ đối xứng giúp khung xe cân vuông góc và hai tay, hai chân Robot cân bằng tuyệt đối.",
+        "s": "Công nghệ 4",
+        "h": "Kĩ năng đếm lỗ lắp đối xứng",
+        "fig": {
+          "w": 320,
+          "h": 185,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  100,
+                  14
+                ],
+                [
+                  220,
+                  14
+                ],
+                [
+                  220,
+                  44
+                ],
+                [
+                  100,
+                  44
+                ]
+              ],
+              "fill": "#dcfce7",
+              "stroke": "#16a34a",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                33
+              ],
+              "s": "Lắp khung & trục cân",
+              "anchor": "middle",
+              "size": 11.5
+            },
+            {
+              "t": "line",
+              "a": [
+                160,
+                44
+              ],
+              "b": [
+                160,
+                62
+              ],
+              "arrow": true,
+              "color": "#334155",
+              "w": 2
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  160,
+                  64
+                ],
+                [
+                  235,
+                  94
+                ],
+                [
+                  160,
+                  124
+                ],
+                [
+                  85,
+                  94
+                ]
+              ],
+              "fill": "#fef3c7",
+              "stroke": "#d97706",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                98
+              ],
+              "s": "Xe lăn thẳng, Robot vững?",
+              "anchor": "middle",
+              "size": 11.5
+            },
+            {
+              "t": "line",
+              "a": [
+                85,
+                94
+              ],
+              "b": [
+                55,
+                138
+              ],
+              "arrow": true,
+              "color": "#16a34a",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                58,
+                110
+              ],
+              "s": "Đúng",
+              "anchor": "middle",
+              "size": 10.5,
+              "color": "#15803d"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  10,
+                  140
+                ],
+                [
+                  135,
+                  140
+                ],
+                [
+                  135,
+                  170
+                ],
+                [
+                  10,
+                  170
+                ]
+              ],
+              "fill": "#dbeafe",
+              "stroke": "#2563eb",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                72,
+                159
+              ],
+              "s": "Hoàn thiện & Trang trí",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "line",
+              "a": [
+                235,
+                94
+              ],
+              "b": [
+                265,
+                138
+              ],
+              "arrow": true,
+              "color": "#dc2626",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                264,
+                110
+              ],
+              "s": "Sai",
+              "anchor": "middle",
+              "size": 10.5,
+              "color": "#dc2626"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  185,
+                  140
+                ],
+                [
+                  310,
+                  140
+                ],
+                [
+                  310,
+                  170
+                ],
+                [
+                  185,
+                  170
+                ]
+              ],
+              "fill": "#fee2e2",
+              "stroke": "#dc2626",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                247,
+                159
+              ],
+              "s": "Chỉnh lại trục & chân đế",
+              "anchor": "middle",
+              "size": 11
+            }
+          ]
+        }
+      },
+      {
+        "c": "CN4-B08-012",
+        "d": "application",
+        "p": "Khi lắp mui che nắng hình mái vòm hoặc thành chắn xung quanh giỏ của Xe nôi, nên dùng nhóm chi tiết nào để kết nối gọn đẹp các thanh tạo thành chiếc nôi kín vừa vặn?",
+        "o": [
+          "Dùng toàn bộ 10 vòng hãm ghép thành mái che",
+          "Để trống không có tấm sàn và thành bên nào",
+          "Dùng chiếc tua-vít buộc ngang lên làm mui xe",
+          "Kết hợp các tấm nhỏ, tấm bên thành xe cùng thanh chữ L để tạo thành lòng nôi vững chắc có thành bảo vệ xung quanh"
+        ],
+        "k": "D",
+        "e": "Các tấm nhỏ đóng vai trò mặt phẳng che chắn còn thanh chữ L liên kết góc vuông chắc chắn tạo khung nôi xe.",
+        "s": "Công nghệ 4",
+        "h": "Kết hợp tấm và thanh chữ L làm nôi xe"
+      },
+      {
+        "c": "CN4-B08-013",
+        "d": "advanced",
+        "p": "Giả sử khi giơ cánh tay mô hình Robot lên cao để chào nhưng thả tay ra thì cánh tay cứ bị rơi sụp xuống ngay vì ốc bắt ở khớp vai quá lỏng. Làm sao chỉnh lại khớp vai để vừa xoay được bằng tay, vừa giữ nguyên được tư thế giơ tay mong muốn?",
+        "o": [
+          "Nhích siết chặt thêm chút vừa đủ tạo ma sát giữ cánh tay Robot ở tư thế giơ mà vẫn xoay chỉnh nhẹ nhàng được",
+          "Bôi dầu mỡ trơn trượt thật nhiều vào giữa thanh tay và thân",
+          "Lắp thêm 3 con vít nữa khóa cứng chết cánh tay ở tư thế chào",
+          "Cắt bớt cánh tay đi chỉ còn 1 lỗ cho hết nặng"
+        ],
+        "k": "A",
+        "e": "Điều chỉnh độ chặt siết vít tạo ma sát hãm vừa đủ là tinh chỉnh cơ khí rất tinh tế trong lắp khớp động.",
+        "s": "Công nghệ 4",
+        "h": "Tinh chỉnh ma sát khớp giữ tư thế tay Robot"
+      },
+      {
+        "c": "CN4-B08-014",
+        "d": "advanced",
+        "p": "Nếu đặt hai chiếc Xe nôi cùng trọng lượng lên đỉnh một tấm ván nghiêng nhẹ: Xe A lắp lốp cao su bám khít bánh xe quay trơn trên trục; Xe B không có vòng hãm nên trục trượt cạ sát vào khung gỗ/nhựa và bánh hơi nghiêng. Hiện tượng gì xảy ra khi thả tay cùng lúc?",
+        "o": [
+          "Xe A lăn nhanh, êm và đi thẳng xa hơn hẳn Xe B nhờ trục quay trơn ít ma sát trượt và bánh xe thẳng hướng",
+          "Xe B chạy nhanh gấp đôi Xe A vì càng cạ sát càng tăng tốc",
+          "Cả hai xe đều đứng im không thể lăn xuống dốc được",
+          "Xe A bay lơ lửng lên trần nhà"
+        ],
+        "k": "A",
+        "e": "Ma sát trượt cạ khung làm tiêu hao năng lượng chuyển động; lắp thẳng trục và hạn chế cọ xát là bài học cơ khí thiết thực.",
+        "s": "Công nghệ 4",
+        "h": "Phân tích lực cản ma sát khi cho xe chạy thử"
+      },
+      {
+        "c": "CN4-B08-015",
+        "d": "advanced",
+        "p": "Khi làm việc nhóm 4 bạn cùng lắp một mô hình Robot hoặc Xe nôi lớn từ một bộ kĩ thuật chung trong thời gian 25 phút, cách phân công nào giúp cả nhóm hoàn thành nhanh nhất và tránh nhầm lẫn?",
+        "o": [
+          "Phân công theo cụm (nhóm lắp khung chân, nhóm lắp thân đầu, 1 bạn kiểm đếm chi tiết) rồi cùng ghép tổng thể",
+          "Cả 4 bạn cùng tranh nhau cầm 1 chiếc tua-vít vặn chung 1 con ốc",
+          "Mỗi bạn tự ý lắp một con vật khác nhau không theo mô hình chung",
+          "Chỉ 1 bạn làm từ đầu tới cuối, 3 bạn còn lại ngồi chơi nói chuyện"
+        ],
+        "k": "A",
+        "e": "Lắp ghép theo từng cụm mô-đun song song (Modular assembly) là phương pháp công nghiệp chuẩn giúp làm việc nhóm hiệu quả cao.",
+        "s": "Công nghệ 4",
+        "h": "Làm việc nhóm theo mô-đun lắp ráp"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe4-c2",
+    "lesson": {
+      "code": "congnghe4-b09",
+      "title": "Bài 9. Đồ chơi Dân gian (Đèn lồng, Chong chóng, Diều giấy)",
+      "seq": 9,
+      "subtitle": "Khám phá nét đẹp văn hóa và nguyên lí hoạt động cơ bản của đồ chơi dân gian Việt Nam (chong chóng quay nhờ gió, đèn lồng giấy, diều giấy nâng nhờ lực cản – nâng của gió)",
+      "concepts": [
+        "Ý nghĩa văn hóa và sự khéo léo trong đồ chơi dân gian",
+        "Nguyên lí quay của chong chóng 4 cánh chéo góc",
+        "Vật liệu truyền thống làm đèn lồng và diều giấy an toàn"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN4-B09-001",
+        "d": "basic",
+        "p": "Món đồ chơi dân gian nào thường được thiếu nhi Việt Nam tự làm từ giấy màu, thanh tre và cầm chạy ngược chiều gió để các cánh quay tít vui mắt?",
+        "o": [
+          "Ô ăn quan bằng sỏi",
+          "Chong chóng giấy",
+          "Con quay gỗ",
+          "Tò he nặn bằng bột"
+        ],
+        "k": "B",
+        "e": "Chong chóng giấy gồm các cánh gấp xéo đón luồng gió thổi vào làm quay quanh trục tâm đinh ghim hoặc ống hút.",
+        "s": "Công nghệ 4",
+        "h": "Nhận biết chong chóng giấy"
+      },
+      {
+        "c": "CN4-B09-002",
+        "d": "basic",
+        "p": "Loại đồ chơi dân gian nào gắn liền với lễ hội rước đèn rực rỡ trong đêm rằm tháng Tám (Tết Trung thu)?",
+        "o": [
+          "Ván trượt tuyết",
+          "Đèn lồng (như đèn ông sao năm cánh, đèn kéo quân, đèn cá chép)",
+          "Xe điều khiển từ xa bằng sóng radio",
+          "Vợt cầu lông sợi cacbon"
+        ],
+        "k": "B",
+        "e": "Đèn ông sao, đèn kéo quân và đèn cá chép là biểu tượng văn hóa Trung thu truyền thống của trẻ em Việt Nam.",
+        "s": "Công nghệ 4",
+        "h": "Đồ chơi gắn với Tết Trung thu"
+      },
+      {
+        "c": "CN4-B09-003",
+        "d": "basic",
+        "p": "Để làm một chiếc chong chóng giấy 4 cánh từ một tờ giấy màu hình vuông, sau khi kẻ hai đường chéo tâm, ta cắt theo 4 đường chéo từ 4 góc vào gần tâm rồi làm gì tiếp?",
+        "o": [
+          "Vo tròn tờ giấy lại thành quả bóng nhỏ",
+          "Gấp phẳng tờ giấy làm đôi thành hình chữ nhật",
+          "Cắt đứt vụn tờ giấy thành 4 hình tam giác rời nhau hoàn toàn",
+          "Chừa một khoảng ở giữa tâm không cắt đứt rời, rồi gập luân phiên 4 đỉnh góc chéo về chính giữa tâm và xuyên ghim trục qua"
+        ],
+        "k": "D",
+        "e": "Chừa phần tâm liền mạch giữ sức bền tờ giấy và gấp xen kẽ một góc một cánh tạo độ nghiêng hứng gió.",
+        "s": "Công nghệ 4",
+        "h": "Kĩ thuật cắt và gấp cánh chong chóng"
+      },
+      {
+        "c": "CN4-B09-004",
+        "d": "basic",
+        "p": "Trong bảng sau, cánh diều giấy muốn bay lên cao ổn định trên bầu trời cần nhờ vào yếu tố tự nhiên chủ yếu nào và bộ phận nào giúp giữ diều không bị xoay lộn vòng?",
+        "o": [
+          "Nhờ cắt bỏ hết đuôi diều và dây thả",
+          "Nhờ gió thổi từ trên trời ép thẳng xuống đất và không cần dây giữ",
+          "Nhờ đổ đầy cát nặng vào thân diều",
+          "Nhờ luồng gió nâng bề mặt cánh nghiêng và có chiếc đuôi diều dài cân bằng lực cản giúp diều bay vững"
+        ],
+        "k": "D",
+        "e": "Đuôi diều tạo lực cản nhẹ giữ đầu diều hướng lên ổn định trước các luồng gió đổi chiều.",
+        "s": "Công nghệ 4",
+        "h": "Nguyên lí cân bằng của diều giấy",
+        "fig": {
+          "type": "table",
+          "title": "Đồ chơi Dân gian Việt Nam",
+          "head": [
+            "Đồ chơi",
+            "Nguyên lí / Dịp chơi"
+          ],
+          "rows": [
+            [
+              "Chong chóng",
+              "Cánh nghiêng đón gió"
+            ],
+            [
+              "Đèn ông sao",
+              "Khung tre, giấy màu"
+            ],
+            [
+              "Đèn kéo quân",
+              "Khí nóng đẩy quay"
+            ],
+            [
+              "Diều giấy",
+              "Cân đối, có đuôi"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN4-B09-005",
+        "d": "basic",
+        "p": "Với chiếc đèn lồng giấy xếp đơn giản (hoặc đèn ông sao truyền thống), để bảo đảm an toàn phòng chống cháy nổ tuyệt đối cho học sinh khi rước đèn, nên chọn nguồn sáng nào bên trong đèn?",
+        "o": [
+          "Đèn LED mini chạy pin nhỏ (ánh sáng mát, không sinh lửa)",
+          "Que diêm đang cháy dở cầm trực tiếp trong tay",
+          "Mẩu than củi đang đỏ hồng",
+          "Nến đốt cháy to sát mép giấy mỏng dễ bén lửa"
+        ],
+        "k": "A",
+        "e": "Giấy màu và giấy kiếng cực kì dễ bén lửa; đèn LED dùng pin nút hoặc pin tiểu an toàn tuyệt đối cho trẻ nhỏ.",
+        "s": "Công nghệ 4",
+        "h": "Nguồn sáng LED an toàn cho đèn lồng"
+      },
+      {
+        "c": "CN4-B09-006",
+        "d": "basic",
+        "p": "Để cắt giấy thủ công uốn lượn làm cánh đèn lồng hoặc cắt các đường chéo chong chóng được thẳng sắc nét và an toàn, học sinh nên dùng dụng cụ gì?",
+        "o": [
+          "Dùng răng cắn đứt từng cạnh tờ giấy",
+          "Dao rọc giấy lưỡi dài sắc lẹm tự ý cắt trên đùi",
+          "Lưỡi lam cạo râu không có tay cầm",
+          "Kéo thủ công đầu tù dành cho học sinh kết hợp thước kẻ và bút chì vạch dấu trước khi cắt"
+        ],
+        "k": "D",
+        "e": "Kéo đầu tròn an toàn kết hợp kẻ vạch chì trước giúp đường cắt chính xác và không làm đứt tay.",
+        "s": "Công nghệ 4",
+        "h": "Dụng cụ cắt giấy an toàn học sinh"
+      },
+      {
+        "c": "CN4-B09-007",
+        "d": "application",
+        "p": "Bạn Nam làm chong chóng 4 cánh xong nhưng khi cầm chạy trước gió thì chong chóng quay rất chậm hoặc bị cọ sát khựng lại ở đầu trục ghim. Nam nên bổ sung chi tiết nhỏ nào giữa mặt sau cánh chong chóng và que cầm (hoặc đầu đinh ghim)?",
+        "o": [
+          "Lồng thêm một hạt cườm nhỏ hoặc khoanh ống hút nhựa ngắn làm vòng đệm giảm ma sát giúp cánh quay tít trơn tru",
+          "Bọc thêm 10 vòng băng dính siết cứng đầu trục ghim",
+          "Dán chặt hồ dán cố định cánh chong chóng dính liền vào que cầm",
+          "Nhúng ướt toàn bộ chong chóng vào xô nước"
+        ],
+        "k": "A",
+        "e": "Hạt cườm/đoạn ống hút ngắn đóng vai trò bạc đạn giảm diện tích tiếp xúc giúp chong chóng quay rất nhẹ và tít.",
+        "s": "Công nghệ 4",
+        "h": "Giảm ma sát trục chong chóng bằng hạt cườm"
+      },
+      {
+        "c": "CN4-B09-008",
+        "d": "application",
+        "p": "Một bạn làm chong chóng nhưng lại gấp TẤT CẢ 8 góc của 4 cánh cùng chụm hết vào chính giữa tâm mà không chừa góc nào mở xòe ra ngoài. Khi thổi gió vào, điều gì xảy ra?",
+        "o": [
+          "Tờ giấy bị xếp bẹp dúm kín không còn cánh nghiêng hứng gió nên chong chóng không thể quay đều được",
+          "Chong chóng bay vụt lên tận mây xanh",
+          "Chong chóng tự phát sáng ban đêm",
+          "Chong chóng quay nhanh gấp ba lần bình thường"
+        ],
+        "k": "A",
+        "e": "Mỗi hình tam giác góc chỉ gập một đỉnh cách quãng vào tâm để chừa cánh xòe tạo góc nghiêng hứng gió.",
+        "s": "Công nghệ 4",
+        "h": "Sửa lỗi gấp sai cánh chong chóng"
+      },
+      {
+        "c": "CN4-B09-009",
+        "d": "application",
+        "p": "Khi chọn địa điểm thả diều giấy vào buổi chiều nhiều gió, khu vực nào bảo đảm an toàn tuyệt đối cho các em nhỏ và mọi người xung quanh?",
+        "o": [
+          "Bãi cỏ rộng thoáng, sân vận động hoặc cánh đồng trống KHÔNG có đường dây điện cao thế, đường giao thông xe cộ và ao sâu",
+          "Trên sân thượng không có lan can của tòa nhà cao tầng",
+          "Ngay bên dưới hệ thống đường dây điện chằng chịt ở khu phố",
+          "Ngay giữa lòng đường nhựa có nhiều ô tô xe máy qua lại"
+        ],
+        "k": "A",
+        "e": "Diều mắc vào đường dây điện gây nguy cơ điện giật chết người và mất điện khu vực; thả ngoài đường gây tai nạn giao thông nghiêm trọng.",
+        "s": "Công nghệ 4",
+        "h": "An toàn tuyệt đối về địa điểm thả diều"
+      },
+      {
+        "c": "CN4-B09-010",
+        "d": "application",
+        "p": "Trong lớp học thủ công làm đèn lồng hình trụ bằng giấy màu hình chữ nhật (gấp đôi theo chiều dọc, cắt các nan song song chừa mép trên dưới rồi dán cuộn tròn lại), vì sao KHÔNG được cắt đứt rời các nan ra sát hai mép trên và dưới?",
+        "o": [
+          "Vì keo dán không thể dính được trên giấy bị cắt",
+          "Vì phải chừa khoảng mép liền khoảng 1,5 đến 2 cm ở hai đầu để giữ tất cả các nan nối kết thành một khung lồng hoàn chỉnh và làm chỗ dán ghép",
+          "Vì cắt sát mép sẽ làm đèn lồng biến thành con diều bay mất",
+          "Vì giấy màu sẽ đổi sang màu trắng"
+        ],
+        "k": "B",
+        "e": "Phần biên chừa ở hai đầu giữ cấu trúc thống nhất để khi cuộn ống tròn và ấn nhẹ hai đầu, các nan giấy tự động phồng cong đẹp mắt.",
+        "s": "Công nghệ 4",
+        "h": "Kĩ thuật chừa mép cắt nan đèn lồng"
+      },
+      {
+        "c": "CN4-B09-011",
+        "d": "application",
+        "p": "Em xem hình ngôi sao 5 cánh bên dưới. Khi làm khung đèn ông sao dân gian từ các nan tre mỏng dẻo, bộ phận khung nào làm cho ngôi sao năm cánh giữ hình phẳng phiu không bị xẹp méo?",
+        "o": [
+          "Hai ngôi sao 5 cánh đặt chồng khớp và buộc cố định giữ khoảng cách ở tâm bằng thanh chống ngắn (tạo hình khối lăng trụ sao nổi 3D)",
+          "Gấp đôi tờ báo cũ lại không cần nan tre",
+          "Chỉ cần 1 que tre thẳng duy nhất",
+          "Ngâm nan tre vào dầu hỏa cho mềm nhũn"
+        ],
+        "k": "A",
+        "e": "Hai khung sao buộc chụm ở 5 đỉnh nhọn và chống bung ở giữa tâm tạo không gian rỗng treo bóng đèn cực kì đẹp mắt.",
+        "s": "Công nghệ 4",
+        "h": "Cấu trúc nổi 3D của đèn ông sao",
+        "fig": {
+          "w": 300,
+          "h": 190,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  150.0,
+                  34.0
+                ],
+                [
+                  163.5,
+                  71.4
+                ],
+                [
+                  203.3,
+                  72.7
+                ],
+                [
+                  171.9,
+                  97.1
+                ],
+                [
+                  182.9,
+                  135.3
+                ],
+                [
+                  150.0,
+                  113.0
+                ],
+                [
+                  117.1,
+                  135.3
+                ],
+                [
+                  128.1,
+                  97.1
+                ],
+                [
+                  96.7,
+                  72.7
+                ],
+                [
+                  136.5,
+                  71.4
+                ]
+              ],
+              "fill": "#fef08a",
+              "stroke": "#dc2626",
+              "w": 2.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                178
+              ],
+              "s": "Đèn ông sao 5 cánh",
+              "anchor": "middle",
+              "size": 13
+            }
+          ]
+        }
+      },
+      {
+        "c": "CN4-B09-012",
+        "d": "application",
+        "p": "Khi dán ghép hai mép giấy hoặc dán dây treo cho chiếc đèn lồng giấy, loại keo dán nào vừa bám nhanh vừa sạch sẽ gọn gàng nhất cho học sinh Lớp 4?",
+        "o": [
+          "Băng dính hai mặt bản nhỏ hoặc keo khô (keo thỏi) bôi vừa đủ dọc theo mép dán",
+          "Dùng đinh sắt đóng xuyên qua giấy",
+          "Đổ ngập một chai hồ nước lỏng tràn lên toàn bộ các nan giấy",
+          "Dùng nhựa đường nóng chảy"
+        ],
+        "k": "A",
+        "e": "Băng dính hai mặt hoặc hồ khô không làm ướt nhũn rách giấy và dính chắc ngay tức thì.",
+        "s": "Công nghệ 4",
+        "h": "Chọn keo dán phù hợp làm đồ chơi giấy"
+      },
+      {
+        "c": "CN4-B09-013",
+        "d": "advanced",
+        "p": "Chiếc đèn kéo quân truyền thống hoạt động kì diệu nhờ luồng khí nóng từ ngọn nến dưới đáy bốc lên đẩy chong chóng giấy trên đỉnh quay vòng, kéo theo bóng các nhân vật giấy xoay theo trên mặt đèn. Hiện tượng vật lí và công nghệ kết hợp ở đây là gì?",
+        "o": [
+          "Sự đối lưu không khí nóng bốc lên trên tạo lực đẩy cánh quạt nghiêng biến nhiệt năng thành chuyển động quay và tạo hình ảnh chiếu bóng lên vách giấy mờ",
+          "Do người chơi phải thổi hơi liên tục vào đáy đèn",
+          "Đèn kéo quân có gắn động cơ xăng giấu trong thân gỗ",
+          "Do mặt trăng hút nam châm trên đỉnh đèn vào đêm rằm"
+        ],
+        "k": "A",
+        "e": "Đèn kéo quân là sáng chế dân gian tuyệt vời ứng dụng đối lưu khí nóng, cơ cấu cánh quạt và nghệ thuật chiếu bóng.",
+        "s": "Công nghệ 4",
+        "h": "Nguyên lí hoạt động của Đèn kéo quân"
+      },
+      {
+        "c": "CN4-B09-014",
+        "d": "advanced",
+        "p": "Một bạn làm chiếc diều giấy hình thoi có 2 nan khung tre nhưng khi thả lên trời, diều chỉ bay lên được vài mét rồi xoay tít mù như chong chóng và đâm sầm xuống đất. Em hãy chỉ ra 2 nguyên nhân kĩ thuật phổ biến nhất cần kiểm tra sửa lại?",
+        "o": [
+          "Do bầu trời hôm đó không có mây trắng",
+          "Hai bên khung cánh trái – phải không cân đối (một bên nặng hơn hoặc lệch nan) và chiếc diều thiếu đuôi dài (hoặc dây lèo buộc bị lệch sang một bên)",
+          "Do bạn đó chạy quá chậm 1 bước chân",
+          "Do tờ giấy màu xanh lá cây nặng hơn màu đỏ"
+        ],
+        "k": "B",
+        "e": "Cánh diều đòi hỏi đối xứng trái – phải tuyệt đối, dây lèo căn đúng góc đón gió và có đuôi giữ ổn định khí động học.",
+        "s": "Công nghệ 4",
+        "h": "Gỡ lỗi diều bị lộn vòng đâm đầu"
+      },
+      {
+        "c": "CN4-B09-015",
+        "d": "advanced",
+        "p": "Nếu lớp tổ chức \"Ngày hội Đồ chơi Dân gian Sáng tạo\", nhóm em muốn làm một chiếc chong chóng 2 tầng nhiều màu hoặc đèn lồng tái chế từ vỏ chai nhựa và thìa sữa chua sạch. Tiêu chí nào vừa giữ bản sắc dân gian vừa hiện đại thân thiện môi trường?",
+        "o": [
+          "Làm chiếc đèn lồng quá nặng đến mức không treo lên được",
+          "Giữ dáng và nguyên lí truyền thống, dùng vật liệu tái chế sạch bo tròn mép cắt, trang trí đẹp và thay nến bằng đèn LED",
+          "Cắt mảnh thủy tinh và vỏ lon sắc bén không bọc mép cho bạn nhỏ cầm chơi",
+          "Mua đồ chơi nhựa dùng pin chạy ầm ĩ ngoài chợ về gắn nhãn tự làm"
+        ],
+        "k": "B",
+        "e": "Sáng tạo dựa trên di sản kết hợp vật liệu tái chế xử lí mép an toàn và đèn LED mát là định hướng STEM rất giàu giá trị.",
+        "s": "Công nghệ 4",
+        "h": "Đổi mới đồ chơi dân gian an toàn STEM"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe4-c2",
+    "lesson": {
+      "code": "congnghe4-b10",
+      "title": "Bài 10. Làm Đồ chơi Thủ công An toàn, Sáng tạo và Thân thiện Môi trường",
+      "seq": 10,
+      "subtitle": "Vận dụng quy trình thiết kế kĩ thuật đơn giản (Ý tưởng – Bản vẽ – Chọn vật liệu tái chế – Chế tạo – Kiểm tra điều chỉnh) để làm đồ chơi an toàn, tiết kiệm và bảo vệ môi trường",
+      "concepts": [
+        "Quy trình 5 bước làm sản phẩm đồ chơi thủ công",
+        "Tận dụng vật liệu tái chế sạch (bìa các-tông, lõi giấy, chai nhựa, nắp chai)",
+        "Kiểm tra bo tròn góc sắc nhọn, độ bền chắc và tính thẩm mĩ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN4-B10-001",
+        "d": "basic",
+        "p": "Nhóm vật liệu nào sau đây rất sạch, an toàn, dễ cắt ghép và thân thiện môi trường để học sinh Lớp 4 tái chế làm đồ chơi xe ô tô, robot hoặc ống đựng bút?",
+        "o": [
+          "Pin cũ chảy nước axit",
+          "Bìa các-tông sạch, lõi cuộn giấy vệ sinh, que kem gỗ sạch, nắp chai nhựa và ống hút giấy",
+          "Mảnh kính vỡ sắc nhọn và mảnh tôn gỉ sét",
+          "Bóng đèn huỳnh quang hỏng chứa thủy ngân"
+        ],
+        "k": "B",
+        "e": "Bìa giấy, lõi giấy, nắp nhựa sạch nhẹ, không độc hại và dễ xử lí; tuyệt đối tránh thủy tinh, kim loại gỉ và pin hỏng.",
+        "s": "Công nghệ 4",
+        "h": "Chọn vật liệu tái chế an toàn"
+      },
+      {
+        "c": "CN4-B10-002",
+        "d": "basic",
+        "p": "Để biến 4 chiếc nắp chai nhựa bỏ đi thành 4 bánh xe ô tô đồ chơi bằng bìa các-tông quay được trên hai trục que tre (hoặc ống hút cứng), ta cần làm bước gì trên tâm mỗi nắp chai?",
+        "o": [
+          "Cắt bỏ phần vành tròn xung quanh nắp chai đi",
+          "Nhờ người lớn hỗ trợ dùi một lỗ nhỏ ngay chính giữa tâm nắp chai vừa khít với đầu trục que tre rồi cố định chặt trục và nắp",
+          "Đặt nghiêng 4 nắp chai dính keo cứng xuống gầm hộp",
+          "Bỏ cả 4 nắp chai vào trong thân hộp các-tông"
+        ],
+        "k": "B",
+        "e": "Khoan/dùi đúng tâm giúp bánh xe quay tròn đều không bị nhảy khập khiễng khi lăn trên sàn.",
+        "s": "Công nghệ 4",
+        "h": "Tạo bánh xe từ nắp chai nhựa"
+      },
+      {
+        "c": "CN4-B10-003",
+        "d": "basic",
+        "p": "Trước khi bắt tay cắt dán ngay lên tấm bìa các-tông để làm một món đồ chơi mới, bước \"Phác thảo ý tưởng trên giấy nháp\" giúp ích điều gì?",
+        "o": [
+          "Làm kéo cắt giấy sắc nhọn hơn",
+          "Thay thế hoàn toàn việc cắt dán vật thật",
+          "Khiến món đồ chơi nặng hơn",
+          "Giúp hình dung trước hình dáng, kích thước từng bộ phận, tránh cắt hỏng lãng phí vật liệu"
+        ],
+        "k": "D",
+        "e": "Bản phác thảo thiết kế giúp tính toán tỉ lệ hợp lí giữa các bộ phận ngay từ đầu.",
+        "s": "Công nghệ 4",
+        "h": "Vai trò bước phác thảo ý tưởng"
+      },
+      {
+        "c": "CN4-B10-004",
+        "d": "basic",
+        "p": "Quan sát bảng quy trình làm đồ chơi thủ công bên dưới. Sau bước \"Chế tạo sản phẩm\", bước tiếp theo không thể thiếu trước khi mang trưng bày là gì?",
+        "o": [
+          "Tháo rời hết các mảnh vừa dán thành đống bìa vụn",
+          "Đóng gói cất sâu vào kho không cho ai xem",
+          "Chạy thử kiểm tra hoạt động, sửa chữa điểm lỏng hoặc góc sắc rồi mới hoàn thiện trang trí",
+          "Vứt luôn sản phẩm vào thùng rác"
+        ],
+        "k": "C",
+        "e": "Thử nghiệm và tinh chỉnh lỗi kĩ thuật giúp sản phẩm vận hành ổn định và an toàn cho người chơi.",
+        "s": "Công nghệ 4",
+        "h": "Kiểm thử và hoàn thiện sản phẩm",
+        "fig": {
+          "type": "table",
+          "title": "Quy trình Chế tạo Đồ chơi",
+          "head": [
+            "Bước",
+            "Hoạt động trọng tâm"
+          ],
+          "rows": [
+            [
+              "1. Ý tưởng",
+              "Chọn mẫu, mục đích"
+            ],
+            [
+              "2. Thiết kế",
+              "Vẽ phác, đo kích cỡ"
+            ],
+            [
+              "3. Chuẩn bị",
+              "Vật liệu, dụng cụ"
+            ],
+            [
+              "4. Chế tạo & Thử",
+              "Cắt ghép, kiểm tra"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN4-B10-005",
+        "d": "basic",
+        "p": "Khi làm đồ chơi cho em nhỏ mầm non từ bìa các-tông dày, với các góc nhọn sắc của miếng bìa hoặc đầu nhọn que tre nhô ra ngoài, em cần xử lí thế nào?",
+        "o": [
+          "Dùng kéo cắt bo tròn các góc bìa nhọn và cắt ngắn bớt hoặc bọc đầu que tre bằng hạt xốp/đất nặn khô an toàn",
+          "Mài các góc bìa càng nhọn hoắt càng tốt",
+          "Gắn thêm đinh sắt thò ra hai bên thân xe",
+          "Không cần xử lí gì vì trẻ nhỏ tự biết né tránh"
+        ],
+        "k": "A",
+        "e": "Bo tròn cạnh nhọn và giấu đầu trục nhô là yêu cầu an toàn tối thiểu khi thiết kế đồ chơi cho trẻ em.",
+        "s": "Công nghệ 4",
+        "h": "Bo tròn góc và bọc đầu nhọn an toàn"
+      },
+      {
+        "c": "CN4-B10-006",
+        "d": "basic",
+        "p": "Sử dụng vật liệu tái chế để làm đồ chơi thủ công mang lại lợi ích kép nào cho bản thân và cộng đồng?",
+        "o": [
+          "Vừa tiết kiệm tiền mua sắm, rèn óc sáng tạo khéo léo, vừa giảm lượng rác thải nhựa – giấy ra môi trường tự nhiên",
+          "Làm học sinh quên hết kiến thức môn Toán",
+          "Làm tăng gấp đôi rác thải khó phân hủy ở bãi rác",
+          "Gây tốn kém nhiều tiền hơn mua đồ chơi nhập khẩu"
+        ],
+        "k": "A",
+        "e": "Tái sử dụng sáng tạo (Upcycling) thực hành sống xanh 3T (Tiết giảm – Tái sử dụng – Tái chế) thiết thực ngay từ tuổi tiểu học.",
+        "s": "Công nghệ 4",
+        "h": "Ý nghĩa sống xanh của tái chế đồ chơi"
+      },
+      {
+        "c": "CN4-B10-007",
+        "d": "application",
+        "p": "Bạn Hà làm chiếc xe ô tô chạy bằng lực đẩy của một quả bóng bay thổi căng gắn ống hút trên nóc hộp sữa giấy. Nguyên lí nào giúp chiếc xe tiến về phía trước khi thả tay mở miệng ống hút?",
+        "o": [
+          "Màu sắc rực rỡ của bóng bay hút từ trường Trái Đất",
+          "Luồng khí phụt mạnh từ bóng bay qua ống hút hướng về phía sau sẽ tạo lực phản lực đẩy chiếc xe chạy tiến về phía trước",
+          "Ống hút hút gió từ phía trước kéo xe chạy ngược lại",
+          "Không khí nặng trong bóng bay chìm xuống làm xe trượt đi"
+        ],
+        "k": "B",
+        "e": "Đây là nguyên lí phản lực (giống tên lửa): khí đẩy mạnh về sau sinh lực đẩy vật tiến lên phía trước.",
+        "s": "Công nghệ 4",
+        "h": "Nguyên lí xe chạy bằng bóng bay phản lực"
+      },
+      {
+        "c": "CN4-B10-008",
+        "d": "application",
+        "p": "Để chiếc xe bóng bay của bạn Hà chạy được xa nhất trên mặt bàn, thân xe nên làm từ vật liệu gì và trục bánh cần điều kiện ra sao?",
+        "o": [
+          "Gắn ống hút hướng thẳng vuông góc lên trần nhà",
+          "Dán chết 4 bánh xe không quay bằng băng dính xuống gầm xe",
+          "Thân xe thật nhẹ và thon gọn (hộp giấy mỏng hoặc miếng xốp nhẹ), trục que tre luồn trong hai ống hút nhỏ gắn chặt gầm xe để quay cực trơn",
+          "Làm thân xe bằng cục gạch đặc nặng 2 kg"
+        ],
+        "k": "C",
+        "e": "Trọng lượng nhẹ và ổ trục ống hút quay trơn giảm lực cản ma sát giúp lực đẩy bóng bay đưa xe đi xa nhất.",
+        "s": "Công nghệ 4",
+        "h": "Tối ưu trọng lượng và ổ trục xe đồ chơi"
+      },
+      {
+        "c": "CN4-B10-009",
+        "d": "application",
+        "p": "Khi thu gom chai nhựa cũ hoặc hộp sữa tươi đã uống hết ở nhà để tuần sau mang lên lớp làm đồ chơi, khâu vệ sinh ban đầu nào BẮT BUỘC phải thực hiện ngay?",
+        "o": [
+          "Đem hộp còn ướt sũng đặt ngay lên trên sách vở trong cặp",
+          "Để nguyên cặn sữa chua thiu trong hộp suốt một tuần cho mềm giấy",
+          "Đốt nóng hộp sữa cho khô ngay trên ngọn lửa bếp ga",
+          "Súc rửa thật sạch phần sữa/nước ngọt thừa bên trong bằng nước và chút xà phòng rồi phơi ráo khô hoàn toàn trước khi cất giữ"
+        ],
+        "k": "D",
+        "e": "Sữa hoặc nước ngọt thừa lên men gây mùi hôi, nấm mốc và thu hút kiến gián rất mất vệ sinh.",
+        "s": "Công nghệ 4",
+        "h": "Vệ sinh phơi khô vỏ hộp tái chế"
+      },
+      {
+        "c": "CN4-B10-010",
+        "d": "application",
+        "p": "Em xem biểu đồ mức độ hài lòng của các bạn nhỏ sau khi chơi thử 4 sản phẩm đồ chơi tái chế của lớp. Mẫu đồ chơi nào vừa bền chắc, an toàn vừa chơi vui nhất theo đánh giá của cả lớp?",
+        "o": [
+          "Xe bóng bay ống hút (95 điểm)",
+          "Ống nhòm lõi giấy (78 điểm)",
+          "Thuyền chai nhựa (88 điểm)",
+          "Mê cung nắp hộp (84 điểm)"
+        ],
+        "k": "A",
+        "e": "Số liệu biểu đồ cột giúp lớp so sánh khách quan chất lượng từng mẫu thử để tiếp tục nhân rộng cải tiến.",
+        "s": "Công nghệ 4",
+        "h": "Đọc biểu đồ đánh giá sản phẩm đồ chơi",
+        "fig": {
+          "type": "bars",
+          "title": "Điểm đánh giá mẫu thử (Thang 100)",
+          "labels": [
+            "Ống nhòm",
+            "Mê cung",
+            "Thuyền",
+            "Xe bóng"
+          ],
+          "series": [
+            {
+              "values": [
+                78,
+                84,
+                88,
+                95
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "c": "CN4-B10-011",
+        "d": "application",
+        "p": "Bạn Minh làm trò chơi \"Mê cung lăn bi\" bằng nắp hộp giày các-tông cũ và các thanh bìa cắt nhỏ dán làm vách đường đi. Tuy nhiên khi lăn hòn bi ve nhỏ, viên bi hay chui lọt qua khe hở dưới chân vách ngăn. Cách sửa nhanh và đẹp nhất là gì?",
+        "o": [
+          "Gỡ toàn bộ vách ngăn ra vứt đi để mặt hộp trơn tuột",
+          "Thay viên bi bằng một hạt cát siêu nhỏ hơn nữa",
+          "Cắt thủng đáy hộp giày đi cho bi rơi luôn xuống bàn",
+          "Bôi đường keo vừa đủ dọc kín chân vách bìa tiếp xúc với mặt đáy hộp và dùng các đoạn băng giấy nhỏ dán gia cố góc chân vách sát phẳng với đáy"
+        ],
+        "k": "D",
+        "e": "Gia cố chân vách khít phẳng đáy hộp bảo đảm bi chỉ chạy theo đúng đường mê cung đã thiết kế.",
+        "s": "Công nghệ 4",
+        "h": "Khắc phục khe hở vách ngăn mê cung"
+      },
+      {
+        "c": "CN4-B10-012",
+        "d": "application",
+        "p": "Nếu muốn nối hai mảnh bìa các-tông dày vuông góc nhau thật chắc mà KHÔNG bị bung ra như khi dùng hồ dán giấy văn phòng loãng, nhóm học sinh nên dùng kĩ thuật ghép khe hoặc chất kết dính nào?",
+        "o": [
+          "Cắt rãnh khớp cài chữ thập lồng vào nhau kết hợp băng dính giấy/keo sữa đặc (hoặc súng bắn keo nến có cô giáo giám sát)",
+          "Dùng hạt cơm nguội bôi lên rồi đợi 1 phút",
+          "Chỉ xoa một chút nước lọc lên hai mép bìa rồi áp vào nhau",
+          "Đặt hai mảnh bìa cạnh nhau mà không liên kết gì"
+        ],
+        "k": "A",
+        "e": "Khớp cài rãnh (Slotted cardboard) vừa tạo độ cứng cơ học rất cao mà không tốn keo, rất hợp kĩ thuật STEM.",
+        "s": "Công nghệ 4",
+        "h": "Kĩ thuật ghép rãnh bìa các-tông"
+      },
+      {
+        "c": "CN4-B10-013",
+        "d": "advanced",
+        "p": "Em làm một chiếc thuyền tái chế từ hai chai nhựa rỗng buộc ghép song song như hai chiếc phao và gắn cánh quạt dây chun phía đuôi. Vì sao thiết kế ghép hai chai song song lại giúp thuyền khó bị lật úp trên mặt nước hơn so với chỉ dùng một chai đơn lẻ?",
+        "o": [
+          "Vì hai chai nhựa nặng hơn nên chìm hẳn xuống đáy chậu nước",
+          "Hai thân chai song song tạo mặt chân đế nổi rộng sang hai bên (nguyên lí thuyền hai thân Catamaran), giúp tăng độ ổn định chống nghiêng lật vượt trội",
+          "Vì màu sắc hai vỏ chai làm nước đứng yên hoàn toàn",
+          "Vì hai chai nhựa tự đẩy nước biến mất khỏi chậu"
+        ],
+        "k": "B",
+        "e": "Kết cấu hai thân song song mở rộng bề ngang tựa trên mặt nước tương tự tàu phà hai thân ngoài thực tế.",
+        "s": "Công nghệ 4",
+        "h": "Nguyên lí giữ thăng bằng thuyền hai thân"
+      },
+      {
+        "c": "CN4-B10-014",
+        "d": "advanced",
+        "p": "Khi sử dụng súng bắn keo nến để gắn chi tiết nhanh trong dự án làm đồ chơi, nguy cơ tai nạn nào dễ xảy ra nhất với học sinh Lớp 4 và cách phòng tránh chuẩn xác là gì?",
+        "o": [
+          "Cắm điện xong để súng bắn keo nằm lăn xuống đống giấy vụn rồi đi chơi",
+          "Nguy cơ keo nến biến thành đá lạnh làm tê tay",
+          "Có thể chạm thẳng ngón tay trỏ vào đầu kim loại nóng để kiểm tra xem keo đã chảy chưa",
+          "Nguy cơ bỏng từ đầu vòi nóng và keo chảy; chỉ dùng dưới hướng dẫn của giáo viên, cầm tay cầm cách nhiệt và không chạm keo nóng"
+        ],
+        "k": "D",
+        "e": "Bỏng nhiệt từ keo nến là rủi ro hàng đầu trong giờ thủ công; tuân thủ an toàn nhiệt và ưu tiên khớp cài/keo sữa cho học sinh nhỏ.",
+        "s": "Công nghệ 4",
+        "h": "An toàn nhiệt khi sử dụng súng bắn keo"
+      },
+      {
+        "c": "CN4-B10-015",
+        "d": "advanced",
+        "p": "Trong buổi thuyết trình giới thiệu sản phẩm đồ chơi tự làm cuối học kì, một nhóm chỉ nói 1 câu \"Đây là cái xe bằng bìa của nhóm em\" rồi đứng im. Nếu là nhóm trưởng, em sẽ trình bày thêm những ý nào để bài giới thiệu thuyết phục và đầy đủ tinh thần Công nghệ?",
+        "o": [
+          "Nêu tên sản phẩm, vật liệu tái chế, điểm sáng tạo, chạy thử minh họa an toàn và chia sẻ kinh nghiệm sửa lỗi",
+          "Kể tên các món ăn nhóm thích ăn vào buổi sáng",
+          "Che kín sản phẩm lại bằng khăn vải không cho ai nhìn thấy",
+          "Chỉ đọc to giá mua một hộp bút chì màu ở siêu thị"
+        ],
+        "k": "A",
+        "e": "Thuyết trình công nghệ gắn liền 4 mảng: Vật liệu xanh – Thiết kế sáng tạo – Demo thực tế – Kinh nghiệm cải tiến.",
+        "s": "Công nghệ 4",
+        "h": "Nội dung thuyết trình sản phẩm thủ công"
+      }
+    ]
+  }
+]

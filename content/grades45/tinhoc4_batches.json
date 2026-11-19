@@ -1,0 +1,4571 @@
+[
+  {
+    "chapter": "tinhoc4-c1",
+    "lesson": {
+      "code": "tinhoc4-b01",
+      "title": "Bài 1. Phần cứng và Phần mềm máy tính",
+      "seq": 1,
+      "subtitle": "Phân biệt phần cứng (hardware) và phần mềm (software), hiểu mối quan hệ phụ thuộc lẫn nhau giữa phần cứng và phần mềm",
+      "concepts": [
+        "Phần cứng máy tính (cầm nắm, chạm thấy)",
+        "Phần mềm hệ thống và ứng dụng",
+        "Mối quan hệ phần cứng – phần mềm"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH4-B01-001",
+        "d": "basic",
+        "p": "Phần cứng máy tính là gì?",
+        "o": [
+          "Những trò chơi điện tử chỉ chạy trên màn hình",
+          "Những bộ phận vật lí có hình dạng cụ thể mà ta có thể nhìn thấy và chạm tay vào được",
+          "Các bài thơ và bài hát lưu trên trang web",
+          "Các tệp văn bản và video chưa lưu ra đĩa"
+        ],
+        "k": "B",
+        "e": "Phần cứng gồm thân máy, màn hình, bàn phím, chuột, loa, máy in... là vật thể thực.",
+        "s": "Tin học 4",
+        "h": "Vật thể cầm nắm được"
+      },
+      {
+        "c": "TH4-B01-002",
+        "d": "basic",
+        "p": "Thiết bị nào sau đây là PHẦN CỨNG máy tính?",
+        "o": [
+          "Trình duyệt web Chrome",
+          "Hệ điều hành Windows",
+          "Phần mềm soạn thảo Word",
+          "Chuột máy tính và bàn phím"
+        ],
+        "k": "D",
+        "e": "Chuột và bàn phím là thiết bị vật lí; Word, Windows, Chrome là phần mềm.",
+        "s": "Tin học 4",
+        "h": "Tìm thiết bị cầm nắm được"
+      },
+      {
+        "c": "TH4-B01-003",
+        "d": "basic",
+        "p": "Phần mềm máy tính là gì?",
+        "o": [
+          "Các chương trình ra lệnh cho phần cứng hoạt động để thực hiện công việc theo yêu cầu con người",
+          "Vỏ nhựa và dây điện nối màn hình máy tính",
+          "Nguồn điện xoay chiều từ ổ cắm trên tường",
+          "Chiếc bàn đặt máy tính trong phòng Tin học"
+        ],
+        "k": "A",
+        "e": "Phần mềm là tập hợp câu lệnh chạy trên máy tính như phần mềm vẽ, trình chiếu, học toán.",
+        "s": "Tin học 4",
+        "h": "Các chương trình chạy bên trong"
+      },
+      {
+        "c": "TH4-B01-004",
+        "d": "basic",
+        "p": "Chương trình nào sau đây là một PHẦN MỀM ứng dụng quen thuộc?",
+        "o": [
+          "Ổ cứng lưu trữ dữ liệu",
+          "Màn hình cảm ứng điện thoại",
+          "Phần mềm trình chiếu PowerPoint (hoặc phần mềm vẽ Paint)",
+          "Máy in màu gắn dây cáp"
+        ],
+        "k": "C",
+        "e": "PowerPoint và Paint là phần mềm; màn hình, máy in, ổ cứng là phần cứng.",
+        "s": "Tin học 4",
+        "h": "Tìm tên chương trình ứng dụng"
+      },
+      {
+        "c": "TH4-B01-005",
+        "d": "basic",
+        "p": "Nếu máy tính có đầy đủ phần cứng tốt nhưng chưa cài bất kì phần mềm nào (kể cả hệ điều hành) thì máy tính có hoạt động hữu ích được không?",
+        "o": [
+          "Có, máy tự động viết văn và vẽ tranh ngay lập tức",
+          "Có, bàn phím tự động in bài tập ra giấy trắng",
+          "Có, màn hình tự phát sáng rồi tự đọc sách cho ta nghe",
+          "Không, phần cứng cần phần mềm điều khiển mới hoạt động và phục vụ người dùng được"
+        ],
+        "k": "D",
+        "e": "Phần cứng và phần mềm luôn phải kết hợp với nhau thì máy tính mới làm việc được.",
+        "s": "Tin học 4",
+        "h": "Mối quan hệ hai chiều"
+      },
+      {
+        "c": "TH4-B01-006",
+        "d": "basic",
+        "p": "Quan sát bảng phân loại Phần cứng và Phần mềm. Nhóm \"Phần mềm\" ở bảng gồm những ví dụ nào?",
+        "o": [
+          "Dây sạc, ổ cắm điện, bàn ghế",
+          "Máy in, thân máy, tai nghe",
+          "Windows, Paint, Scratch, Word",
+          "Bàn phím, chuột, loa, màn hình"
+        ],
+        "k": "C",
+        "e": "Windows là phần mềm hệ thống; Paint, Scratch, Word là phần mềm ứng dụng.",
+        "s": "Tin học 4",
+        "h": "Xem cột Phần mềm",
+        "fig": {
+          "type": "table",
+          "title": "Phần cứng & Phần mềm",
+          "head": [
+            "Phần cứng",
+            "Phần mềm"
+          ],
+          "rows": [
+            [
+              "Màn hình, Loa",
+              "Hệ điều hành Windows"
+            ],
+            [
+              "Bàn phím, Chuột",
+              "Soạn thảo Word"
+            ],
+            [
+              "Thân máy, Máy in",
+              "Vẽ Paint, Scratch"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH4-B01-007",
+        "d": "application",
+        "p": "Bạn An muốn gõ một bức thư tặng bà và trang trí thêm hình vẽ đẹp. An cần sự phối hợp của bộ đôi phần cứng – phần mềm nào?",
+        "o": [
+          "Chỉ cần thân máy tháo rời không cắm màn hình hay bàn phím",
+          "Bàn phím, chuột, màn hình (phần cứng) và phần mềm soạn thảo Word (phần mềm)",
+          "Chỉ cần chiếc loa máy tính tắt điện không cần phần mềm",
+          "Chỉ cần phần mềm nghe nhạc và chiếc máy in hết giấy"
+        ],
+        "k": "B",
+        "e": "Nhập văn bản cần bàn phím, chuột, màn hình kết hợp phần mềm soạn thảo văn bản.",
+        "s": "Tin học 4",
+        "h": "Chọn cặp đúng nhu cầu soạn văn bản"
+      },
+      {
+        "c": "TH4-B01-008",
+        "d": "application",
+        "p": "Khi bạn bật loa máy tính đúng cổng rồi nhưng quên tắt chế độ im lặng (Mute) trong phần mềm phát nhạc, chuyện gì xảy ra?",
+        "o": [
+          "Chiếc loa phần cứng lập tức bị hỏng nặng phần vỏ nhựa",
+          "Không nghe thấy âm thanh vì phần mềm chưa gửi tín hiệu phát tiếng ra phần cứng loa",
+          "Loa vẫn phát nhạc rất to xuyên qua chế độ Mute",
+          "Màn hình tự động tắt nguồn ngay trong một giây"
+        ],
+        "k": "B",
+        "e": "Điều khiển phần mềm ảnh hưởng trực tiếp tới hoạt động của thiết bị phần cứng.",
+        "s": "Tin học 4",
+        "h": "Hiểu vai trò điều khiển của phần mềm"
+      },
+      {
+        "c": "TH4-B01-009",
+        "d": "application",
+        "p": "Một bạn lỡ xóa mất phần mềm trình chiếu PowerPoint khỏi máy tính, điều gì xảy ra với chiếc màn hình và bàn phím (phần cứng)?",
+        "o": [
+          "Màn hình và bàn phím vẫn nguyên vẹn không hỏng, chỉ không mở được bài trình chiếu PowerPoint bằng phần mềm đó",
+          "Toàn bộ bàn phím bị rơi các phím chữ cái xuống bàn",
+          "Màn hình và bàn phím cũng biến mất theo phần mềm",
+          "Máy tính không thể bật nguồn điện lên nữa"
+        ],
+        "k": "A",
+        "e": "Xóa phần mềm ứng dụng chỉ bỏ chương trình đó khỏi bộ nhớ, không làm hỏng phần cứng vật lí.",
+        "s": "Tin học 4",
+        "h": "Phân biệt xóa phần mềm với hỏng phần cứng"
+      },
+      {
+        "c": "TH4-B01-010",
+        "d": "application",
+        "p": "Phát biểu nào sau đây SAI khi nói về phần cứng và phần mềm?",
+        "o": [
+          "\"Không có phần mềm, phần cứng chỉ là khối thiết bị vô tri.\"",
+          "\"Ta có thể cầm chiếc phần mềm Word bằng tay và đặt lên cân đo khối lượng.\"",
+          "\"Phần mềm hoạt động nhờ được lưu trữ và chạy trên phần cứng máy tính.\"",
+          "\"Thao tác gõ phím sai có thể làm hỏng phần cứng nếu ấn quá mạnh hoặc làm đổ nước vào.\""
+        ],
+        "k": "B",
+        "e": "Phần mềm là chương trình thông tin vô hình, không cầm nắm hay cân khối lượng như đồ vật được.",
+        "s": "Tin học 4",
+        "h": "Tìm câu sai bản chất"
+      },
+      {
+        "c": "TH4-B01-011",
+        "d": "application",
+        "p": "Trong hai bộ phận: (1) Hệ điều hành Windows và (2) Bộ xử lí CPU bên trong thân máy, đâu là phần mềm hệ thống nền tảng?",
+        "o": [
+          "Hệ điều hành Windows (1)",
+          "Cả hai đều là thiết bị ngoại vi cắm ngoài",
+          "Bộ xử lí CPU (2)",
+          "Cả hai đều là phần cứng bằng kim loại"
+        ],
+        "k": "A",
+        "e": "CPU là vi mạch phần cứng; Windows là phần mềm hệ thống quản lí phần cứng và chạy ứng dụng.",
+        "s": "Tin học 4",
+        "h": "Phân biệt CPU và Windows"
+      },
+      {
+        "c": "TH4-B01-012",
+        "d": "application",
+        "p": "Khi gắn thêm một chiếc máy in mới vào máy tính nhưng máy chưa nhận in được, thường phải làm bước nào về phần mềm?",
+        "o": [
+          "Cài đặt phần mềm điều khiển (driver) phù hợp cho máy in trên máy tính",
+          "Sơn lại màu vỏ của chiếc máy in cho giống màn hình",
+          "Tắt luôn cả màn hình máy tính khi đang bấm nút in",
+          "Thay đổi phông chữ trong tập tin ảnh của máy"
+        ],
+        "k": "A",
+        "e": "Thiết bị phần cứng mới muốn giao tiếp trơn tru với máy tính cần trình điều khiển phần mềm tương ứng.",
+        "s": "Tin học 4",
+        "h": "Hiểu cầu nối phần mềm cho phần cứng"
+      },
+      {
+        "c": "TH4-B01-013",
+        "d": "advanced",
+        "p": "Vì sao một chiếc điện thoại thông minh cùng cấu hình phần cứng lại chạy được thêm nhiều tính năng mới (chỉnh ảnh, học tiếng Anh, đo bước chân) theo thời gian?",
+        "o": [
+          "Nhờ người dùng cài đặt thêm các phần mềm (ứng dụng) mới cho phần cứng đó thực thi",
+          "Vì dung lượng pin tự tăng kích thước lớn gấp đôi sau một năm",
+          "Vì phần cứng bằng nhựa bên ngoài tự mọc thêm máy ảnh mới",
+          "Vì không cần bất kì dòng lệnh phần mềm nào bên trong"
+        ],
+        "k": "A",
+        "e": "Sức mạnh linh hoạt của máy tính hiện đại nằm ở khả năng chạy vô số phần mềm khác nhau trên cùng một phần cứng.",
+        "s": "Tin học 4",
+        "h": "Suy luận tính linh hoạt của phần mềm"
+      },
+      {
+        "c": "TH4-B01-014",
+        "d": "advanced",
+        "p": "Em cần tránh hành động nào dưới đây vì dễ làm hỏng CẢ phần cứng lẫn mất dữ liệu phần mềm của máy tính?",
+        "o": [
+          "Khởi động phần mềm học gõ phím mười ngón hằng ngày",
+          "Vừa uống nước ngọt sát bàn phím vừa rút phích cắm điện đột ngột không tắt máy đúng cách",
+          "Tắt máy bằng lệnh Shut down rồi đóng nắp máy nhẹ nhàng",
+          "Lưu bài tập Tin học vào đúng thư mục cá nhân"
+        ],
+        "k": "B",
+        "e": "Nước làm chập mạch phần cứng, ngắt điện đột ngột dễ hỏng ổ cứng và mất tệp đang soạn.",
+        "s": "Tin học 4",
+        "h": "Bảo vệ an toàn cho máy tính"
+      },
+      {
+        "c": "TH4-B01-015",
+        "d": "advanced",
+        "p": "Trong tình huống phòng máy trường có 30 bộ máy tính: thầy giáo cài đặt thêm phần mềm Scratch trên toàn bộ các máy. Việc đó thuộc thao tác với thành phần nào?",
+        "o": [
+          "Cập nhật, bổ sung phần mềm ứng dụng lập trình lên hệ thống phần cứng sẵn có",
+          "Tắt bỏ hệ điều hành khỏi các máy tính",
+          "Nâng cấp chiều cao bàn ghế trong phòng Tin học",
+          "Thay thế toàn bộ chuột và bàn phím phần cứng mới"
+        ],
+        "k": "A",
+        "e": "Cài thêm chương trình mới là mở rộng phần mềm mà không cần thay đổi linh kiện phần cứng.",
+        "s": "Tin học 4",
+        "h": "Xác định bản chất thao tác cài phần mềm"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc4-c1",
+    "lesson": {
+      "code": "tinhoc4-b02",
+      "title": "Bài 2. Lợi ích của việc gõ bàn phím đúng cách",
+      "seq": 2,
+      "subtitle": "Hiểu rõ tư thế ngồi đúng, cách đặt tay trên hàng phím cơ sở và lợi ích to lớn của kĩ năng gõ bàn phím bằng mười ngón tay",
+      "concepts": [
+        "Hàng phím cơ sở (A S D F J K L ;)",
+        "Quy tắc đặt 10 ngón tay và tư thế ngồi",
+        "Lợi ích gõ mười ngón: nhanh, chính xác, bảo vệ sức khỏe"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH4-B02-001",
+        "d": "basic",
+        "p": "Hàng phím cơ sở (nơi đặt tám ngón tay ở vị trí xuất phát) gồm dãy phím chính nào?",
+        "o": [
+          "Z, X, C, V, B, N, M",
+          "A, S, D, F, G, H, J, K, L, ;",
+          "1, 2, 3, 4, 5, 6, 7, 8, 9, 0",
+          "Q, W, E, R, T, Y, U, I, O, P"
+        ],
+        "k": "B",
+        "e": "Hàng phím cơ sở nằm ở giữa khu vực phím chữ, có hai phím gai F và J để định vị.",
+        "s": "Tin học 4",
+        "h": "Nhớ dãy phím hàng giữa"
+      },
+      {
+        "c": "TH4-B02-002",
+        "d": "basic",
+        "p": "Trên bàn phím chuẩn, hai phím nào có gờ nổi nhỏ (phím có gai) giúp hai ngón trỏ dễ nhận biết vị trí mà không cần nhìn xuống?",
+        "o": [
+          "Phím Shift và Caps Lock",
+          "Phím F và phím J",
+          "Phím Space (cách) và Enter",
+          "Phím Q và phím P"
+        ],
+        "k": "B",
+        "e": "Ngón trỏ tay trái đặt lên phím F, ngón trỏ tay phải đặt lên phím J.",
+        "s": "Tin học 4",
+        "h": "Nhớ hai phím có gờ nổi F và J"
+      },
+      {
+        "c": "TH4-B02-003",
+        "d": "basic",
+        "p": "Hai ngón cái khi gõ bàn phím bằng mười ngón phụ trách bấm phím nào?",
+        "o": [
+          "Các phím số từ 1 đến 9",
+          "Phím Escape góc trên bên trái",
+          "Phím cách (Spacebar) dài nhất ở hàng phím dưới cùng",
+          "Phím Backspace xóa lùi"
+        ],
+        "k": "C",
+        "e": "Hai ngón cái đặt nhẹ lên phím Spacebar dài bên dưới để tách khoảng trắng giữa các từ.",
+        "s": "Tin học 4",
+        "h": "Nhiệm vụ của hai ngón cái"
+      },
+      {
+        "c": "TH4-B02-004",
+        "d": "basic",
+        "p": "Lợi ích quan trọng nhất của việc luyện gõ bàn phím đúng cách bằng mười ngón là gì?",
+        "o": [
+          "Giúp tăng dung lượng ổ cứng thêm gấp đôi",
+          "Làm hỏng các phím chữ nhanh hơn bình thường",
+          "Gõ nhanh hơn, ít sai chính tả, không phải nhìn bàn phím và giảm mỏi tay – mỏi cổ",
+          "Không cần dùng màn hình máy tính vẫn đọc được ảnh"
+        ],
+        "k": "C",
+        "e": "Gõ đúng mười ngón tăng tốc độ nhập liệu và bảo vệ mắt, cột sống cổ.",
+        "s": "Tin học 4",
+        "h": "Nhớ 3 lợi ích: nhanh, chuẩn, đỡ mỏi"
+      },
+      {
+        "c": "TH4-B02-005",
+        "d": "basic",
+        "p": "Phím nào dùng để xuống dòng khi soạn thảo hoặc xác nhận một lệnh?",
+        "o": [
+          "Phím Ctrl",
+          "Phím Enter",
+          "Phím Space",
+          "Phím Alt"
+        ],
+        "k": "B",
+        "e": "Enter thực hiện ngắt xuống đoạn mới hoặc xác nhận thực thi.",
+        "s": "Tin học 4",
+        "h": "Nhớ công dụng phím Enter"
+      },
+      {
+        "c": "TH4-B02-006",
+        "d": "basic",
+        "p": "Quan sát bảng phân công các hàng phím chữ. Dãy phím Q, W, E, R, T, Y, U, I, O, P thuộc hàng phím nào?",
+        "o": [
+          "Hàng phím số",
+          "Hàng phím cơ sở",
+          "Hàng phím dưới",
+          "Hàng phím trên (nằm ngay phía trên hàng phím cơ sở)"
+        ],
+        "k": "D",
+        "e": "Từ trên xuống: Hàng phím số -> Hàng phím trên -> Hàng phím cơ sở -> Hàng phím dưới.",
+        "s": "Tin học 4",
+        "h": "Xem hàng 2 trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Các hàng phím chính",
+          "head": [
+            "Tên hàng phím",
+            "Ví dụ phím"
+          ],
+          "rows": [
+            [
+              "Hàng phím số",
+              "1, 2, 3, 4... 9, 0"
+            ],
+            [
+              "Hàng phím trên",
+              "Q, W, E, R, T..."
+            ],
+            [
+              "Hàng phím cơ sở",
+              "A, S, D, F, J, K, L"
+            ],
+            [
+              "Hàng phím dưới",
+              "Z, X, C, V, B, N, M"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH4-B02-007",
+        "d": "application",
+        "p": "Bạn Minh hay gõ văn bản kiểu \"mổ cò\" (chỉ dùng hai ngón trỏ và cúi gằm nhìn xuống từng phím). Tác hại dễ thấy của thói quen này là gì?",
+        "o": [
+          "Giúp các ngón tay khác tự động thuộc vị trí phím",
+          "Giúp màn hình tự động sáng đẹp hơn",
+          "Giúp gõ nhanh hơn người gõ mười ngón gấp ba lần",
+          "Tốc độ gõ rất chậm, dễ bỏ sót lỗi sai trên màn hình và hay bị mỏi cổ, mỏi mắt"
+        ],
+        "k": "D",
+        "e": "Cúi nhìn bàn phím liên tục khiến cổ mỏi và mắt phải điều tiết liên tục giữa phím và màn hình.",
+        "s": "Tin học 4",
+        "h": "Phân tích nhược điểm gõ 2 ngón"
+      },
+      {
+        "c": "TH4-B02-008",
+        "d": "application",
+        "p": "Tư thế ngồi gõ bàn phím khoa học giúp bảo vệ sức khỏe cột sống và mắt học sinh là gì?",
+        "o": [
+          "Để bàn phím cao ngang tầm trán để tập thể dục tay",
+          "Lưng thẳng, vai thả lỏng, cổ tay ngang tự nhiên, mắt nhìn ngang tầm màn hình cách 50–80 cm",
+          "Nằm rạp người lên bàn phím, mặt cách màn hình 10 cm",
+          "Ngồi vắt chéo chân cong lưng suốt hai giờ liên tục"
+        ],
+        "k": "B",
+        "e": "Ngồi thẳng lưng và giữ khoảng cách mắt hợp lí chống cận thị và cong vẹo cột sống.",
+        "s": "Tin học 4",
+        "h": "Chọn tư thế ngồi chuẩn"
+      },
+      {
+        "c": "TH4-B02-009",
+        "d": "application",
+        "p": "Sau khi vươn ngón giữa tay trái lên gõ chữ \"E\" ở hàng phím trên, ngón tay đó cần làm gì ngay tiếp theo?",
+        "o": [
+          "Rút hẳn cả bàn tay ra khỏi bàn phím nghỉ năm phút",
+          "Đưa trở lại vị trí xuất phát ban đầu ở phím D trên hàng phím cơ sở",
+          "Chuyển sang đặt chồng lên phím J bên tay phải",
+          "Giữ chặt luôn trên phím E không nhấc lên nữa"
+        ],
+        "k": "B",
+        "e": "Nguyên tắc vàng của gõ mười ngón: gõ xong phím khác lại thu về hàng phím cơ sở để giữ định vị.",
+        "s": "Tin học 4",
+        "h": "Thu ngón tay về phím gốc"
+      },
+      {
+        "c": "TH4-B02-010",
+        "d": "application",
+        "p": "Phân biệt chức năng của phím Backspace và phím Delete khi sửa lỗi chính tả trên văn bản:",
+        "o": [
+          "Hai phím đều chỉ xóa được duy nhất dòng cuối cùng của trang",
+          "Backspace xóa kí tự nằm BÊN TRÁI con trỏ soạn thảo; Delete xóa kí tự nằm BÊN PHẢI con trỏ",
+          "Backspace để viết chữ hoa; Delete để lưu văn bản",
+          "Backspace xóa bên phải; Delete xóa bên trái con trỏ"
+        ],
+        "k": "B",
+        "e": "Nhớ hướng mũi tên lùi của Backspace (xóa lùi bên trái) và Delete (xóa phía trước bên phải).",
+        "s": "Tin học 4",
+        "h": "Phân biệt hướng xóa trái và phải"
+      },
+      {
+        "c": "TH4-B02-011",
+        "d": "application",
+        "p": "Để gõ MỘT chữ cái viết hoa đầu câu khi đang tắt chế độ Caps Lock, cách thao tác chuẩn hai tay là gì?",
+        "o": [
+          "Gõ phím chữ cái đó liên tiếp ba lần cho máy hiểu",
+          "Bấm nút nguồn máy tính tắt đi bật lại",
+          "Nhấn phím Spacebar hai lần liên tiếp trước chữ đó",
+          "Một tay giữ phím Shift bên này, tay kia gõ phím chữ cái cần viết hoa rồi thả ra"
+        ],
+        "k": "D",
+        "e": "Giữ Shift + gõ chữ cái giúp viết hoa nhanh một chữ mà không cần bật tắt Caps Lock nhiều lần.",
+        "s": "Tin học 4",
+        "h": "Dùng phím Shift viết hoa nhanh"
+      },
+      {
+        "c": "TH4-B02-012",
+        "d": "application",
+        "p": "Khi luyện gõ trên phần mềm hỗ trợ (như RapidTyping hay TypingClub), màu sắc khác nhau gán cho các phím trên màn hình hướng dẫn điều gì?",
+        "o": [
+          "Chỉ rõ mỗi vùng phím tương ứng do ngón tay nào phụ trách để tránh gõ sai ngón",
+          "Đo nhiệt độ của căn phòng học Tin học",
+          "Báo hiệu những phím đã bị hỏng không bấm được",
+          "Trang trí cho màn hình giống một bức tranh cầu vồng"
+        ],
+        "k": "A",
+        "e": "Mỗi ngón tay được tô một màu khớp vùng phím phụ trách giúp người mới học nhớ nhanh quy tắc.",
+        "s": "Tin học 4",
+        "h": "Hiểu ý nghĩa mã màu ngón tay"
+      },
+      {
+        "c": "TH4-B02-013",
+        "d": "advanced",
+        "p": "Vì sao thời gian đầu tập gõ mười ngón có thể thấy hơi chậm hơn gõ hai ngón quen tay, nhưng thầy cô vẫn khuyên kiên trì rèn đúng ngay từ Lớp 4?",
+        "o": [
+          "Vì bàn phím chỉ nhận đủ lực khi dùng tất cả mười ngón bấm cùng một lúc",
+          "Vì khi đã thuộc vị trí phím bằng phản xạ ngón tay, tốc độ và độ chính xác sẽ tăng vượt trội và dùng hữu ích suốt đời",
+          "Vì gõ hai ngón sẽ làm máy tính tự động xóa hết tệp tin",
+          "Vì lên Lớp 5 không còn dùng bàn phím nữa"
+        ],
+        "k": "B",
+        "e": "Ban đầu não đang tạo phản xạ mới nên hơi chậm; kiên trì vài tuần sẽ gõ chạm (touch typing) nhanh gấp nhiều lần.",
+        "s": "Tin học 4",
+        "h": "Nhìn giá trị rèn kĩ năng lâu dài"
+      },
+      {
+        "c": "TH4-B02-014",
+        "d": "advanced",
+        "p": "Giả sử con trỏ soạn thảo đang nằm giữa chữ \"H\" và chữ \"o\" trong từ \"Hoàn\" (\"H|oàn\"). Nếu bấm phím Backspace một lần thì từ còn lại trên màn hình là gì?",
+        "o": [
+          "\"Hàn\" (xóa chữ \"o\" bên phải)",
+          "\"H|oàn\" (không xóa chữ nào cả)",
+          "\"oàn\" (vì Backspace xóa kí tự \"H\" ngay bên trái con trỏ)",
+          "\"Hoà\" (xóa chữ \"n\" cuối từ)"
+        ],
+        "k": "C",
+        "e": "Con trỏ đứng sau \"H\" và trước \"o\" -> Backspace xóa bên trái là xóa chữ \"H\".",
+        "s": "Tin học 4",
+        "h": "Xác định đúng chữ bên trái con trỏ"
+      },
+      {
+        "c": "TH4-B02-015",
+        "d": "advanced",
+        "p": "Một bạn bật đèn Caps Lock quên tắt nên toàn bộ đoạn văn viết ra bị IN HOA HẾT. Dấu hiệu đèn nào trên bàn phím giúp bạn ấy phát hiện sớm lỗi này?",
+        "o": [
+          "Loa máy tính phát ra tiếng chuông cảnh báo lớn",
+          "Chuột máy tính không di chuyển được sang phải",
+          "Đèn báo kết nối mạng Wi-Fi tắt màu",
+          "Đèn báo Caps Lock đang sáng hoặc nhìn chữ trên màn hình hiện toàn bộ dạng CHỮ IN HOA"
+        ],
+        "k": "D",
+        "e": "Quan sát màn hình kết hợp đèn chỉ báo Caps Lock giúp kiểm soát chữ hoa – chữ thường kịp thời.",
+        "s": "Tin học 4",
+        "h": "Kiểm tra đèn Caps Lock"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc4-c1",
+    "lesson": {
+      "code": "tinhoc4-b03",
+      "title": "Bài 3. Tổ chức cây thư mục và Quản lí tệp trên máy tính",
+      "seq": 3,
+      "subtitle": "Biết cách tạo, đổi tên, sao chép, di chuyển, xóa thư mục/tệp hợp lí theo cấu trúc cây thư mục để tìm kiếm nhanh chóng",
+      "concepts": [
+        "Cấu trúc cây thư mục phân cấp",
+        "Thao tác tạo, đổi tên, sao chép, di chuyển, xóa",
+        "Nguyên tắc đặt tên tệp và thư mục khoa học"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH4-B03-001",
+        "d": "basic",
+        "p": "Trong máy tính, THƯ MỤC (Folder) được tạo ra với mục đích chính gì?",
+        "o": [
+          "Tăng tốc độ kết nối mạng Wi-Fi cho máy tính",
+          "Sửa chữa lỗi màn hình bị vỡ mặt kính",
+          "Thay thế cho bộ vi xử lí bên trong thân máy",
+          "Chứa các tệp và thư mục con để sắp xếp dữ liệu gọn gàng, khoa học, dễ tìm lại"
+        ],
+        "k": "D",
+        "e": "Thư mục giống như ngăn kéo hoặc cặp tài liệu giúp phân loại tệp theo chủ đề, môn học.",
+        "s": "Tin học 4",
+        "h": "Hình dung thư mục như ngăn tủ hồ sơ"
+      },
+      {
+        "c": "TH4-B03-002",
+        "d": "basic",
+        "p": "Thư mục nằm bên trong một thư mục khác được gọi là gì?",
+        "o": [
+          "Thư mục con (subfolder)",
+          "Tệp văn bản Word",
+          "Thư mục gốc của ổ đĩa",
+          "Thùng rác hệ thống"
+        ],
+        "k": "A",
+        "e": "Cấu trúc mẹ – con tạo thành sơ đồ hình cây phân cấp rõ ràng.",
+        "s": "Tin học 4",
+        "h": "Nhớ tên gọi thư mục lồng bên trong"
+      },
+      {
+        "c": "TH4-B03-003",
+        "d": "basic",
+        "p": "Sự khác nhau giữa SAO CHÉP (Copy – Paste) và DI CHUYỂN (Cut – Paste) một tệp từ thư mục A sang thư mục B là gì?",
+        "o": [
+          "Hai lệnh thực hiện giống hệt nhau không có bất kì điểm gì khác",
+          "Sao chép giữ lại bản gốc ở thư mục A và tạo thêm bản sao ở B; Di chuyển chuyển hẳn tệp sang B và không còn ở A",
+          "Di chuyển chỉ dùng cho ảnh, Sao chép chỉ dùng cho bài hát",
+          "Sao chép làm mất tệp ở cả hai nơi; Di chuyển giữ lại ở cả hai nơi"
+        ],
+        "k": "B",
+        "e": "Copy = nhân đôi (còn ở gốc); Cut = chuyển chỗ (xóa khỏi chỗ cũ sang chỗ mới).",
+        "s": "Tin học 4",
+        "h": "Phân biệt Copy và Cut"
+      },
+      {
+        "c": "TH4-B03-004",
+        "d": "basic",
+        "p": "Lệnh \"Rename\" khi nhấp chuột phải vào một thư mục dùng để làm gì?",
+        "o": [
+          "Xóa vĩnh viễn thư mục khỏi ổ đĩa",
+          "Khóa mật khẩu không cho ai mở máy tính",
+          "Tạo thêm một bản sao y hệt ở thư mục khác",
+          "Đổi tên thư mục (hoặc tệp) cho rõ nghĩa hơn"
+        ],
+        "k": "D",
+        "e": "\"Rename\" = đặt lại tên (đổi tên).",
+        "s": "Tin học 4",
+        "h": "Nhớ nghĩa lệnh Rename"
+      },
+      {
+        "c": "TH4-B03-005",
+        "d": "basic",
+        "p": "Khi nhấn nút Delete để xóa nhầm một tệp trên ổ đĩa cứng, tệp đó thường được chuyển tạm vào đâu để có thể khôi phục (Restore)?",
+        "o": [
+          "Trình duyệt web",
+          "Bàn phím ảo",
+          "Thùng rác (Recycle Bin)",
+          "Phần mềm vẽ Paint"
+        ],
+        "k": "C",
+        "e": "Recycle Bin lưu giữ tạm các tệp mới xóa thông thường giúp người dùng lấy lại nếu lỡ tay.",
+        "s": "Tin học 4",
+        "h": "Nơi chứa tệp vừa xóa"
+      },
+      {
+        "c": "TH4-B03-006",
+        "d": "basic",
+        "p": "Quan sát cây thư mục minh họa \"Lớp 4A\". Thư mục nào là thư mục CON trực tiếp của thư mục gốc \"Lớp 4A\"?",
+        "o": [
+          "Chỉ có duy nhất tệp văn bản \"Bai1.docx\"",
+          "Toán, Tiếng Việt và Tin học",
+          "Không có thư mục con nào cả",
+          "Tất cả nằm ngoài ổ đĩa cứng"
+        ],
+        "k": "B",
+        "e": "Sơ đồ cây chỉ rõ 3 nhánh con trực thuộc \"Lớp 4A\": Toán, Tiếng Việt, Tin học.",
+        "s": "Tin học 4",
+        "h": "Đọc 3 nhánh trong sơ đồ cây",
+        "fig": {
+          "w": 340,
+          "h": 200,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  35,
+                  32
+                ],
+                [
+                  135,
+                  32
+                ],
+                [
+                  135,
+                  62
+                ],
+                [
+                  35,
+                  62
+                ]
+              ],
+              "fill": "#fef08a",
+              "stroke": "#ca8a04",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                85,
+                51
+              ],
+              "s": "Lớp 4A",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "line",
+              "a": [
+                135,
+                47
+              ],
+              "b": [
+                180,
+                47
+              ],
+              "color": "#64748b",
+              "w": 1.8
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  180,
+                  32
+                ],
+                [
+                  305,
+                  32
+                ],
+                [
+                  305,
+                  62
+                ],
+                [
+                  180,
+                  62
+                ]
+              ],
+              "fill": "#dbeafe",
+              "stroke": "#2563eb",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                242,
+                51
+              ],
+              "s": "Toán",
+              "anchor": "middle",
+              "size": 11.5
+            },
+            {
+              "t": "line",
+              "a": [
+                135,
+                47
+              ],
+              "b": [
+                180,
+                83
+              ],
+              "color": "#64748b",
+              "w": 1.8
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  180,
+                  68
+                ],
+                [
+                  305,
+                  68
+                ],
+                [
+                  305,
+                  98
+                ],
+                [
+                  180,
+                  98
+                ]
+              ],
+              "fill": "#dbeafe",
+              "stroke": "#2563eb",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                242,
+                87
+              ],
+              "s": "Tiếng Việt",
+              "anchor": "middle",
+              "size": 11.5
+            },
+            {
+              "t": "line",
+              "a": [
+                135,
+                47
+              ],
+              "b": [
+                180,
+                119
+              ],
+              "color": "#64748b",
+              "w": 1.8
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  180,
+                  104
+                ],
+                [
+                  305,
+                  104
+                ],
+                [
+                  305,
+                  134
+                ],
+                [
+                  180,
+                  134
+                ]
+              ],
+              "fill": "#dbeafe",
+              "stroke": "#2563eb",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                242,
+                123
+              ],
+              "s": "Tin học",
+              "anchor": "middle",
+              "size": 11.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                170,
+                190
+              ],
+              "s": "Cây thư mục học tập",
+              "anchor": "middle",
+              "size": 12
+            }
+          ]
+        }
+      },
+      {
+        "c": "TH4-B03-007",
+        "d": "application",
+        "p": "Bạn Lan đặt tên cho năm bài văn liên tiếp là \"bai1\", \"abc\", \"123\", \"moi\", \"khongbiet\". Cách đặt tên này gây bất tiện gì?",
+        "o": [
+          "Khiến máy tính tự động đổi hết chữ sang tiếng nước ngoài",
+          "Làm hỏng nút chuột trái khi bấm vào tệp",
+          "Khó nhớ nội dung bên trong từng tệp là gì, mất nhiều thời gian mở từng tệp để tìm lại",
+          "Không thể mở được phần mềm soạn thảo Word nữa"
+        ],
+        "k": "C",
+        "e": "Nên đặt tên gợi nhớ theo chủ đề và ngày tháng (ví dụ: TaCayPhuong_T10) để nhìn tên là biết nội dung.",
+        "s": "Tin học 4",
+        "h": "Chọn nguyên tắc đặt tên tệp khoa học"
+      },
+      {
+        "c": "TH4-B03-008",
+        "d": "application",
+        "p": "Thao tác phím tắt chuẩn nào trên bàn phím giúp SAO CHÉP (Copy) và DÁN (Paste) nhanh chóng một tệp đã chọn?",
+        "o": [
+          "Enter + Space để sao chép",
+          "Ctrl + C để sao chép và Ctrl + V để dán",
+          "Ctrl + X để sao chép và Ctrl + Z để dán",
+          "Ctrl + A để xóa và Ctrl + S để tắt máy"
+        ],
+        "k": "B",
+        "e": "Bộ phím tắt kinh điển: Ctrl+C (Copy), Ctrl+X (Cut), Ctrl+V (Paste), Ctrl+Z (Undo).",
+        "s": "Tin học 4",
+        "h": "Nhớ bộ phím tắt Copy – Paste"
+      },
+      {
+        "c": "TH4-B03-009",
+        "d": "application",
+        "p": "Vì sao KHÔNG nên lưu tất cả hàng trăm tệp bài tập, hình ảnh, nhạc, trò chơi trực tiếp ra màn hình nền (Desktop) mà không cho vào thư mục?",
+        "o": [
+          "Vì ổ đĩa sẽ tự động xóa hết tệp sau mỗi năm phút",
+          "Vì màn hình nền không bao giờ mở được tệp ảnh",
+          "Làm màn hình nền rối rắm, khó tìm tệp cần dùng và dễ làm chậm máy khi khởi động",
+          "Vì lưu ngoài màn hình nền làm chuột không di chuyển được"
+        ],
+        "k": "C",
+        "e": "Tổ chức cây thư mục theo từng ổ đĩa dữ liệu (như D:\\HocTap\\...) giúp bảo quản an toàn và gọn gàng.",
+        "s": "Tin học 4",
+        "h": "Tổ chức lưu trữ gọn gàng"
+      },
+      {
+        "c": "TH4-B03-010",
+        "d": "application",
+        "p": "Thầy giáo yêu cầu nộp bài vẽ ở thư mục \"HinhVe_4B\" vào USB của lớp nhưng vẫn giữ lại bản lưu trên máy tính cá nhân em. Em dùng thao tác nào?",
+        "o": [
+          "Chỉ kéo biểu tượng phần mềm Paint vào USB",
+          "Sao chép (Copy) tệp từ máy tính rồi Dán (Paste) vào USB",
+          "Đổi tên (Rename) ổ USB thành tên bài vẽ của em",
+          "Di chuyển (Cut) tệp sang USB rồi xóa luôn trong Thùng rác"
+        ],
+        "k": "B",
+        "e": "Muốn cả máy tính và USB đều có tệp thì phải dùng Sao chép (Copy – Paste).",
+        "s": "Tin học 4",
+        "h": "Giữ bản gốc + tạo bản mới = Copy"
+      },
+      {
+        "c": "TH4-B03-011",
+        "d": "application",
+        "p": "Khi xóa một thư mục mẹ có chứa 5 tệp bài tập quan trọng bên trong, điều gì xảy ra với 5 tệp đó?",
+        "o": [
+          "5 tệp tự động nhân đôi thành 10 tệp mới",
+          "Chỉ cái vỏ thư mục biến mất, còn 5 tệp vẫn đứng nguyên trên màn hình",
+          "Cả 5 tệp bên trong cũng bị xóa theo thư mục mẹ vào Thùng rác",
+          "Máy tính không bao giờ cho phép xóa thư mục có chứa tệp"
+        ],
+        "k": "C",
+        "e": "Xóa thư mục là xóa toàn bộ cây con và các tệp nằm trong nó -> phải kiểm tra kĩ trước khi xóa.",
+        "s": "Tin học 4",
+        "h": "Cẩn trọng trước khi xóa thư mục"
+      },
+      {
+        "c": "TH4-B03-012",
+        "d": "application",
+        "p": "Nhận biết nhanh đâu là THƯ MỤC và đâu là TỆP văn bản trong cửa sổ quản lí tệp (File Explorer):",
+        "o": [
+          "Tệp văn bản luôn chứa được nhiều thư mục con bên trong",
+          "Thư mục thường có biểu tượng kẹp hồ sơ màu vàng và không có phần đuôi mở rộng như .docx, .jpg",
+          "Hai đối tượng giống hệt nhau hoàn toàn không thể phân biệt",
+          "Thư mục luôn có đuôi .mp3 và biểu tượng chiếc loa"
+        ],
+        "k": "B",
+        "e": "Icon thư mục hình bìa cặp màu vàng; tệp có icon riêng của phần mềm kèm phần mở rộng (.docx, .pptx, .jpg).",
+        "s": "Tin học 4",
+        "h": "Phân biệt biểu tượng thư mục và tệp"
+      },
+      {
+        "c": "TH4-B03-013",
+        "d": "advanced",
+        "p": "Giả sử đường dẫn một tệp là: D:\\HocTap\\Lop4\\TinHoc\\Bai3.pptx. Thư mục cha TRỰC TIẾP chứa tệp \"Bai3.pptx\" là thư mục nào?",
+        "o": [
+          "Ổ đĩa D",
+          "HocTap",
+          "Lop4",
+          "TinHoc"
+        ],
+        "k": "D",
+        "e": "Đọc từ phải sang trái: tệp Bai3.pptx nằm trực tiếp bên trong TinHoc (thuộc Lop4 thuộc HocTap).",
+        "s": "Tin học 4",
+        "h": "Xem thư mục ngay trước tên tệp"
+      },
+      {
+        "c": "TH4-B03-014",
+        "d": "advanced",
+        "p": "Bạn Hùng lỡ bấm nhầm Ctrl + X rồi bấm Delete làm mất một tệp hoặc vô tình xóa nhầm trong lúc thao tác quản lí tệp. Phím tắt nào giúp hoàn tác (Undo) nhanh thao tác vừa làm ngay lập tức?",
+        "o": [
+          "Ctrl + N",
+          "Ctrl + C",
+          "Ctrl + Z",
+          "Ctrl + P"
+        ],
+        "k": "C",
+        "e": "Ctrl + Z (Undo) quay lại bước ngay trước đó khi lỡ xóa hoặc di chuyển nhầm.",
+        "s": "Tin học 4",
+        "h": "Nhớ phím tắt hoàn tác Ctrl + Z"
+      },
+      {
+        "c": "TH4-B03-015",
+        "d": "advanced",
+        "p": "Trong lớp dùng chung một máy tính phòng thực hành, em thấy bài của bạn khác nằm trong thư mục \"Nhom3\". Em nên làm gì?",
+        "o": [
+          "Không tự ý sửa đổi tên hay xóa tệp trong thư mục của bạn; tạo thư mục riêng mang tên mình hoặc tổ mình để lưu bài",
+          "Xóa hết bài của bạn để giải phóng chỗ trống lưu bài mình",
+          "Chuyển toàn bộ thư mục của bạn vào Thùng rác rồi dọn sạch",
+          "Đổi tên tệp của bạn thành tên mình cho nhanh xong việc"
+        ],
+        "k": "A",
+        "e": "Tôn trọng dữ liệu của người khác là nguyên tắc đạo đức cơ bản khi dùng máy tính dùng chung.",
+        "s": "Tin học 4",
+        "h": "Tôn trọng dữ liệu người khác"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc4-c2",
+    "lesson": {
+      "code": "tinhoc4-b04",
+      "title": "Bài 4. Thông tin trên trang web",
+      "seq": 4,
+      "subtitle": "Nhận biết các dạng thông tin đa phương tiện trên trang web (văn bản, hình ảnh, âm thanh, video) và hiểu công dụng của siêu liên kết (hyperlink)",
+      "concepts": [
+        "Các dạng thông tin trên trang web",
+        "Nhận biết siêu liên kết (hyperlink)",
+        "Cẩn trọng với liên kết lạ, quảng cáo gây hại"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH4-B04-001",
+        "d": "basic",
+        "p": "Trên một trang web học tập thiếu nhi, ta có thể gặp những dạng thông tin nào?",
+        "o": [
+          "Chỉ có duy nhất các con số 0 và 1 chạy dọc màn hình",
+          "Chỉ có tiếng nói phát ra mà không hiện chữ hay hình",
+          "Văn bản, hình ảnh, âm thanh, video (đa phương tiện) và các siêu liên kết",
+          "Chỉ có chữ viết tay bằng bút mực không có hình nào"
+        ],
+        "k": "C",
+        "e": "Trang web hiện đại kết hợp đa phương tiện (multimedia) giúp truyền tải sinh động.",
+        "s": "Tin học 4",
+        "h": "Nhớ các dạng thông tin trên web"
+      },
+      {
+        "c": "TH4-B04-002",
+        "d": "basic",
+        "p": "Siêu liên kết (Hyperlink) trên trang web là gì?",
+        "o": [
+          "Tên gọi một phím chức năng nằm trên hàng phím số",
+          "Thành phần (dòng chữ gạch chân, nút bấm hoặc hình ảnh) khi nhấp chuột vào sẽ mở dẫn tới trang web hoặc nội dung khác",
+          "Một loại phần mềm diệt vi-rút cài trên điện thoại",
+          "Chiếc dây cáp mạng cắm vào phía sau thùng máy"
+        ],
+        "k": "B",
+        "e": "Siêu liên kết giúp người dùng di chuyển nhanh giữa các trang thông tin chỉ bằng một cú nhấp chuột.",
+        "s": "Tin học 4",
+        "h": "Hiểu công dụng chuyển trang của hyperlink"
+      },
+      {
+        "c": "TH4-B04-003",
+        "d": "basic",
+        "p": "Dấu hiệu nhận biết quen thuộc khi di chuyển con trỏ chuột (hover) qua một siêu liên kết trên trang web là gì?",
+        "o": [
+          "Con trỏ chuột từ hình mũi tên thường đổi thành hình bàn tay chỉ ngón trỏ (và dòng chữ có thể gạch chân hoặc đổi màu)",
+          "Bàn phím tự động phát ra âm thanh tiếng chuông lớn",
+          "Con trỏ chuột biến mất hoàn toàn không thấy nữa",
+          "Màn hình tự động tắt tối đen trong năm giây"
+        ],
+        "k": "A",
+        "e": "Biểu tượng bàn tay chỉ là dấu hiệu trực quan báo chỗ đó có thể nhấp để chuyển liên kết.",
+        "s": "Tin học 4",
+        "h": "Nhìn hình dạng con trỏ chuột"
+      },
+      {
+        "c": "TH4-B04-004",
+        "d": "basic",
+        "p": "Phần mềm nào dùng để mở, xem và lướt các trang web trên Internet (ví dụ: Chrome, Edge, Firefox)?",
+        "o": [
+          "Phần mềm vẽ Paint",
+          "Phần mềm bảng tính Excel",
+          "Trình duyệt web (Web Browser)",
+          "Phần mềm soạn thảo văn bản Notepad"
+        ],
+        "k": "C",
+        "e": "Trình duyệt web đọc và hiển thị nội dung các trang web.",
+        "s": "Tin học 4",
+        "h": "Nhớ tên trình duyệt web"
+      },
+      {
+        "c": "TH4-B04-005",
+        "d": "basic",
+        "p": "Trên trình duyệt web, nút mũi tên quay ngược sang trái (\"Back\") dùng để làm gì?",
+        "o": [
+          "Tải lại toàn bộ hệ điều hành máy tính",
+          "Đóng tắt hoàn toàn trình duyệt web và tắt máy",
+          "Xóa sạch toàn bộ dữ liệu trong ổ đĩa D",
+          "Quay trở lại trang web vừa xem ngay trước đó"
+        ],
+        "k": "D",
+        "e": "Nút Back quay lại trang trước; nút Forward tiến tới trang tiếp; nút Reload tải lại trang.",
+        "s": "Tin học 4",
+        "h": "Chức năng nút Back"
+      },
+      {
+        "c": "TH4-B04-006",
+        "d": "basic",
+        "p": "Quan sát bảng nhận biết 4 thành phần phổ biến trên trang web thiếu nhi. Thành phần \"Video minh họa\" thuộc dạng thông tin gì?",
+        "o": [
+          "Thông tin chỉ gồm chữ cái in hoa",
+          "Thông tin kết hợp hình ảnh chuyển động và âm thanh",
+          "Chỉ là đường dẫn chuyển trang không có hình",
+          "Chỉ là tệp âm thanh không có hình ảnh"
+        ],
+        "k": "B",
+        "e": "Video truyền tải đồng thời hình ảnh động và âm thanh rất trực quan.",
+        "s": "Tin học 4",
+        "h": "Xem hàng 3 trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Thành phần Trang web",
+          "head": [
+            "Thành phần",
+            "Đặc điểm nhận biết"
+          ],
+          "rows": [
+            [
+              "Văn bản",
+              "Tiêu đề, đoạn văn"
+            ],
+            [
+              "Hình ảnh",
+              "Ảnh tĩnh minh họa"
+            ],
+            [
+              "Video",
+              "Hình động, âm thanh"
+            ],
+            [
+              "Siêu liên kết",
+              "Bấm mở trang khác"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH4-B04-007",
+        "d": "application",
+        "p": "Bạn Hoa đang đọc bài báo về lịch sử trên web thì thấy một ô cửa sổ bật lên nhấp nháy ghi: \"Chúc mừng bạn trúng điện thoại miễn phí! Bấm vào đây ngay!\". Hoa nên làm gì?",
+        "o": [
+          "Tải mọi tập tin lạ từ quảng cáo đó về máy tính",
+          "Bấm ngay lập tức rồi nhập đầy đủ số điện thoại và địa chỉ nhà",
+          "Chia sẻ liên kết trúng thưởng đó cho tất cả bạn trong lớp",
+          "Không bấm vào liên kết lạ đáng ngờ đó, đóng cửa sổ quảng cáo và báo người lớn nếu thấy lạ"
+        ],
+        "k": "D",
+        "e": "Quảng cáo giật gân tặng quà miễn phí thường là bẫy lừa đảo hoặc chứa mã độc.",
+        "s": "Tin học 4",
+        "h": "Cảnh giác trước bẫy nhấp chuột"
+      },
+      {
+        "c": "TH4-B04-008",
+        "d": "application",
+        "p": "Khi đọc một trang bách khoa trực tuyến cho trẻ em về \"Vườn quốc gia Cúc Phương\", đâu là mục giúp em chuyển ngay tới trang tìm hiểu riêng về \"Voọc mông trắng\"?",
+        "o": [
+          "Nhấp vào chữ \"Voọc mông trắng\" được tô màu xanh gạch chân (siêu liên kết) trong bài",
+          "Chụp ảnh màn hình rồi đóng trình duyệt web lại",
+          "Gõ lại toàn bộ bài báo ra giấy nháp bằng bút chì",
+          "Nhấn nút tắt nguồn màn hình để tải trang mới"
+        ],
+        "k": "A",
+        "e": "Siêu liên kết nối thẳng từ từ khóa trong bài sang trang bài viết chi tiết tương ứng.",
+        "s": "Tin học 4",
+        "h": "Dùng hyperlink tra cứu mở rộng"
+      },
+      {
+        "c": "TH4-B04-009",
+        "d": "application",
+        "p": "Trong một trang web học Tiếng Anh trực tuyến, nút bấm hình chiếc loa nhỏ đặt cạnh từ vựng mới thường làm nhiệm vụ gì?",
+        "o": [
+          "Phát âm thanh đọc mẫu cách phát âm từ vựng đó",
+          "Thay đổi màu nền của cả trang web",
+          "Tắt kết nối mạng Wi-Fi của máy tính",
+          "Xóa từ vựng đó khỏi từ điển trực tuyến"
+        ],
+        "k": "A",
+        "e": "Biểu tượng chiếc loa đại diện cho thông tin dạng âm thanh (audio).",
+        "s": "Tin học 4",
+        "h": "Gắn biểu tượng loa với âm thanh"
+      },
+      {
+        "c": "TH4-B04-010",
+        "d": "application",
+        "p": "Nếu một trang web đang tải dở bị chậm hoặc hình ảnh chưa hiện đủ do mạng chập chờn, nút biểu tượng mũi tên xoay tròn trên thanh công cụ trình duyệt giúp làm gì?",
+        "o": [
+          "Chuyển sang trang web mua sắm trực tuyến",
+          "Xóa tài khoản học tập của học sinh",
+          "Tải lại trang web (Reload / Refresh)",
+          "Mở phần mềm soạn thảo Word"
+        ],
+        "k": "C",
+        "e": "Biểu tượng mũi tên vòng tròn thực hiện làm mới/tải lại nội dung trang web hiện tại.",
+        "s": "Tin học 4",
+        "h": "Nhớ nút Reload"
+      },
+      {
+        "c": "TH4-B04-011",
+        "d": "application",
+        "p": "Vì sao khi đọc thông tin trên Internet, em không nên tin ngay lập tức mọi tin tức giật gân trên một trang lạ không rõ tác giả?",
+        "o": [
+          "Vì tất cả mọi trang web trên thế giới đều viết sai hoàn toàn",
+          "Vì trên Internet bất kì ai cũng có thể đăng tin sai sự thật; cần kiểm chứng qua các trang chính thống uy tín hoặc hỏi thầy cô, bố mẹ",
+          "Vì trang web chỉ hiển thị đúng sự thật vào ban ngày",
+          "Vì máy tính tự động thay đổi chữ của tác giả mỗi giờ"
+        ],
+        "k": "B",
+        "e": "Tư duy phản biện và kiểm chứng nguồn tin là năng lực số thiết yếu từ bậc Tiểu học.",
+        "s": "Tin học 4",
+        "h": "Kiểm chứng độ tin cậy nguồn tin"
+      },
+      {
+        "c": "TH4-B04-012",
+        "d": "application",
+        "p": "Địa chỉ nào sau đây là địa chỉ định vị một trang web (URL) hợp lệ để nhập vào thanh địa chỉ trình duyệt?",
+        "o": [
+          "BaiTapVeNha_Lan.jpg",
+          "https://moet.gov.vn",
+          "C:\\Windows\\System32",
+          "D:\\HocTap\\Toan4.docx"
+        ],
+        "k": "B",
+        "e": "Địa chỉ trang web bắt đầu bằng giao thức web (https://...) và tên miền (.vn, .edu, .org, .com...); các chuỗi C:\\, D:\\ là đường dẫn tệp nội bộ.",
+        "s": "Tin học 4",
+        "h": "Phân biệt URL web với đường dẫn ổ đĩa"
+      },
+      {
+        "c": "TH4-B04-013",
+        "d": "advanced",
+        "p": "Khi em vô tình bấm nhầm vào một siêu liên kết dẫn sang trang web có nội dung không phù hợp với lứa tuổi học sinh tiểu học, phản ứng an toàn và đúng đắn nhất là gì?",
+        "o": [
+          "Gửi đường link trang đó cho các bạn cùng lớp xem thử",
+          "Đóng ngay tab hoặc cửa sổ trang web đó lại và báo cho bố mẹ, thầy cô biết để được hỗ trợ",
+          "Tiếp tục bấm thêm nhiều liên kết bên trong trang lạ đó để xem có gì hay",
+          "Giữ im lặng và thử tải các phần mềm lạ trên trang đó về máy"
+        ],
+        "k": "B",
+        "e": "Thoát ra ngay và chia sẻ với người lớn đáng tin cậy giúp bảo vệ bản thân an toàn trên mạng.",
+        "s": "Tin học 4",
+        "h": "Quy tắc 3 bước an toàn số"
+      },
+      {
+        "c": "TH4-B04-014",
+        "d": "advanced",
+        "p": "Quan sát hai phần tử trên trang báo thiếu nhi: (A) Ảnh minh họa bông hoa tĩnh, không đổi trỏ chuột khi rê qua; (B) Ảnh băng-rôn \"Tham gia Cuộc thi Kể chuyện\" đổi trỏ chuột thành hình bàn tay khi rê qua. Phần tử nào chứa siêu liên kết?",
+        "o": [
+          "Chỉ phần tử (B) là ảnh gắn siêu liên kết; phần tử (A) chỉ là hình ảnh minh họa thuần túy",
+          "Cả (A) và (B) đều không thể bấm vào được",
+          "Không thể biết được nếu không tắt máy tính khởi động lại",
+          "Chỉ phần tử (A) là siêu liên kết dẫn sang trang khác"
+        ],
+        "k": "A",
+        "e": "Không phải mọi hình ảnh đều là liên kết; chỉ phần tử nào gắn hyperlink mới đổi trỏ chuột thành bàn tay khi trỏ vào.",
+        "s": "Tin học 4",
+        "h": "Dùng dấu hiệu con trỏ bàn tay nhận diện"
+      },
+      {
+        "c": "TH4-B04-015",
+        "d": "advanced",
+        "p": "Vì sao trang web giáo dục hiện đại thường hạn chế nhồi nhét quá nhiều chữ dày đặc mà chia mục rõ ràng, kèm hình ảnh và video ngắn?",
+        "o": [
+          "Vì trình duyệt web không thể hiển thị quá một trăm chữ cái trên màn hình",
+          "Giúp học sinh dễ đọc quét thông tin, đỡ mỏi mắt và tiếp thu kiến thức trực quan, hứng thú hơn",
+          "Vì hình ảnh không chiếm bất kì dung lượng bộ nhớ nào",
+          "Vì máy tính không lưu được chữ cái tiếng Việt có dấu"
+        ],
+        "k": "B",
+        "e": "Thiết kế web thân thiện kết hợp chữ ngắn gọn với đa phương tiện tối ưu trải nghiệm học tập.",
+        "s": "Tin học 4",
+        "h": "Hiểu lợi ích thiết kế trang web khoa học"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc4-c2",
+    "lesson": {
+      "code": "tinhoc4-b05",
+      "title": "Bài 5. Bước đầu tìm kiếm thông tin trên Internet bằng từ khóa",
+      "seq": 5,
+      "subtitle": "Biết cách sử dụng máy tìm kiếm (Google, Bing...), lựa chọn từ khóa ngắn gọn đúng trọng tâm và đọc chọn kết quả tìm kiếm phù hợp",
+      "concepts": [
+        "Máy tìm kiếm thông tin trên Internet",
+        "Cách chọn từ khóa (keywords) chính xác",
+        "Đánh giá và lọc kết quả tìm kiếm"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH4-B05-001",
+        "d": "basic",
+        "p": "Máy tìm kiếm (Search Engine) trên Internet có chức năng chính là gì?",
+        "o": [
+          "Dùng để vẽ tranh tô màu giống phần mềm Paint",
+          "Chỉ dùng để gõ văn bản đơn giản giống phần mềm Notepad",
+          "Giúp người dùng tìm nhanh các trang web, hình ảnh, video chứa thông tin liên quan đến từ khóa đã nhập",
+          "Dùng để tăng âm lượng loa ngoài của máy tính"
+        ],
+        "k": "C",
+        "e": "Google, Bing, Cốc Cốc Search là các máy tìm kiếm phổ biến giúp tra cứu kho thông tin khổng lồ.",
+        "s": "Tin học 4",
+        "h": "Nhớ công dụng máy tìm kiếm"
+      },
+      {
+        "c": "TH4-B05-002",
+        "d": "basic",
+        "p": "\"Từ khóa\" (keyword) khi tìm kiếm thông tin trên máy tìm kiếm là gì?",
+        "o": [
+          "Mật khẩu bí mật dùng để mở khóa điện thoại của bố mẹ",
+          "Một bài văn dài năm trang gõ vào ô tìm kiếm",
+          "Một từ hoặc cụm từ ngắn gọn mang nội dung cốt lõi cần tìm",
+          "Tên đầy đủ của toàn bộ các bạn học sinh trong trường"
+        ],
+        "k": "C",
+        "e": "Từ khóa súc tích, đúng trọng tâm giúp máy tìm kiếm trả về kết quả chính xác nhất.",
+        "s": "Tin học 4",
+        "h": "Khái niệm từ khóa tìm kiếm"
+      },
+      {
+        "c": "TH4-B05-003",
+        "d": "basic",
+        "p": "Để tìm hiểu về loài \"Sao la ở Việt Nam\", cụm từ khóa nào gọn gàng và hiệu quả nhất để nhập vào ô tìm kiếm?",
+        "o": [
+          "con gì có sừng sống ở trong rừng hôm qua tôi mới nghe kể",
+          "loài sao la Việt Nam (hoặc động vật sao la)",
+          "a b c d e f g 1 2 3 4",
+          "xin chào máy tính hãy kể cho tôi nghe một câu chuyện hay về rừng rậm"
+        ],
+        "k": "B",
+        "e": "Bỏ các từ xã giao thừa (\"xin chào\", \"hãy kể cho tôi\"), giữ lại danh từ trọng tâm \"sao la Việt Nam\".",
+        "s": "Tin học 4",
+        "h": "Chọn từ khóa súc tích trọng tâm"
+      },
+      {
+        "c": "TH4-B05-004",
+        "d": "basic",
+        "p": "Trên trang kết quả tìm kiếm, mỗi mục kết quả thường hiển thị những thông tin gì để em chọn đọc?",
+        "o": [
+          "Chỉ hiện ảnh đại diện của tất cả mọi người trên thế giới",
+          "Tiêu đề trang (có siêu liên kết), địa chỉ trang web và đoạn mô tả tóm tắt ngắn",
+          "Không hiện dòng chữ nào, chỉ có tiếng nhạc nền",
+          "Chỉ hiện giá bán của chiếc máy tính em đang ngồi học"
+        ],
+        "k": "B",
+        "e": "Đọc lướt tiêu đề, tên miền và đoạn trích ngắn giúp chọn đúng trang uy tín mà không cần mở bừa.",
+        "s": "Tin học 4",
+        "h": "Quan sát cấu trúc mỗi dòng kết quả"
+      },
+      {
+        "c": "TH4-B05-005",
+        "d": "basic",
+        "p": "Khi gõ từ khóa tìm kiếm bằng tiếng Việt vào máy tìm kiếm hiện đại, lưu ý nào giúp thu hẹp kết quả sát ý hơn?",
+        "o": [
+          "Không bao giờ dùng phím cách giữa các chữ",
+          "Cố tình viết sai chính tả thật nhiều chữ cái",
+          "Gõ có dấu tiếng Việt đầy đủ, đúng chính tả và thêm từ khóa chỉ đối tượng/phạm vi cụ thể (như \"Lớp 4\", \"cho thiếu nhi\")",
+          "Chỉ gõ duy nhất một chữ cái \"a\" rồi nhấn Enter"
+        ],
+        "k": "C",
+        "e": "Thêm từ khóa ngữ cảnh (\"toán lớp 4\", \"cho trẻ em\") loại bỏ bớt kết quả không phù hợp độ tuổi.",
+        "s": "Tin học 4",
+        "h": "Kĩ năng làm rõ từ khóa"
+      },
+      {
+        "c": "TH4-B05-006",
+        "d": "basic",
+        "p": "Quan sát bảng so sánh hai cách đặt Từ khóa. Vì sao từ khóa ở hàng 2 lại hiệu quả hơn hàng 1?",
+        "o": [
+          "Vì ngắn gọn, đúng trọng tâm chủ đề (\"Tháp Rùa Hồ Gươm\") thay vì câu tâm sự dài dòng",
+          "Vì hàng 2 chứa toàn các kí hiệu toán học phức tạp",
+          "Vì máy tìm kiếm cấm gõ chữ \"hôm nay\"",
+          "Vì hàng 1 viết thiếu chữ cái tiếng Anh"
+        ],
+        "k": "A",
+        "e": "Máy tìm kiếm so khớp các từ có nghĩa; câu văn dài chứa nhiều từ phụ gây nhiễu kết quả.",
+        "s": "Tin học 4",
+        "h": "So sánh cột 2 trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Chọn từ khóa hay",
+          "head": [
+            "Cách đặt",
+            "Ví dụ tìm kiếm",
+            "Đánh giá"
+          ],
+          "rows": [
+            [
+              "Kể lể dài",
+              "Em muốn biết tháp...",
+              "Dài, nhiều nhiễu"
+            ],
+            [
+              "Đúng trọng tâm",
+              "Tháp Rùa Hồ Gươm",
+              "Ngắn, chính xác"
+            ],
+            [
+              "Cụ thể thêm",
+              "lịch sử Tháp Rùa",
+              "Sát độ tuổi học"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH4-B05-007",
+        "d": "application",
+        "p": "Bạn Nam muốn tìm ảnh đẹp về \"Vịnh Hạ Long\" để chèn vào bài trình chiếu Địa lí 4. Thao tác nào trên máy tìm kiếm giúp lọc ra NGAY toàn hình ảnh?",
+        "o": [
+          "Chuyển sang thẻ Bản đồ chỉ đường rồi đóng trình duyệt",
+          "Gõ thêm chữ \"bài hát mp3\" vào sau tên địa danh",
+          "Nhập từ khóa \"Vịnh Hạ Long\" rồi chuyển sang thẻ (tab) Hình ảnh (Images)",
+          "Chuyển sang thẻ Mua sắm (Shopping) rồi tìm giá vé máy bay"
+        ],
+        "k": "C",
+        "e": "Máy tìm kiếm chia các thẻ chuyên biệt: Tất cả, Hình ảnh, Video, Tin tức... rất tiện lợi.",
+        "s": "Tin học 4",
+        "h": "Dùng bộ lọc tab Hình ảnh"
+      },
+      {
+        "c": "TH4-B05-008",
+        "d": "application",
+        "p": "Khi kết quả tìm kiếm hiện ra trang đầu tiên có chữ \"Được tài trợ / Quảng cáo\" (Sponsored / Ad) và bên dưới là các bài viết bách khoa/báo chính thống. Em nên lưu ý điều gì?",
+        "o": [
+          "Phải mua món hàng trong phần Quảng cáo mới được xem kết quả tìm kiếm",
+          "Tuyệt đối không được đọc bất kì kết quả nào từ dòng thứ hai trở xuống",
+          "Mục đầu tiên có chữ Quảng cáo luôn luôn là tài liệu khoa học chuẩn xác nhất",
+          "Nhận biết mục \"Quảng cáo\" thường do đơn vị trả tiền đưa lên đầu để bán hàng, nên xem kĩ địa chỉ trang và chọn nguồn tin cậy bên dưới"
+        ],
+        "k": "D",
+        "e": "Phân biệt kết quả tài trợ với kết quả tự nhiên là kĩ năng tìm kiếm thông minh.",
+        "s": "Tin học 4",
+        "h": "Không nhầm quảng cáo là kết quả chuẩn"
+      },
+      {
+        "c": "TH4-B05-009",
+        "d": "application",
+        "p": "Em cần tìm công thức giải thích \"Vì sao bầu trời có màu xanh?\" dễ hiểu cho học sinh tiểu học. Từ khóa nào tối ưu nhất?",
+        "o": [
+          "vì sao bầu trời màu xanh cho trẻ em",
+          "bầu trời hôm nay thế nào",
+          "hệ mặt trời và các hành tinh xa xôi",
+          "màu xanh dương"
+        ],
+        "k": "A",
+        "e": "Bổ sung \"cho trẻ em\" (hoặc \"khoa học thiếu nhi\") giúp ra bài viết giải thích ngắn gọn, dễ hiểu.",
+        "s": "Tin học 4",
+        "h": "Thêm từ khóa đối tượng"
+      },
+      {
+        "c": "TH4-B05-010",
+        "d": "application",
+        "p": "Khi tìm cụm từ chính xác nguyên văn tên một bài thơ (ví dụ \"Hạt gạo làng ta\"), đặt cặp dấu ngoặc kép quanh cụm từ (\"Hạt gạo làng ta\") trên máy tìm kiếm có tác dụng gì?",
+        "o": [
+          "Dịch tự động bài thơ sang năm thứ tiếng khác",
+          "Bắt buộc máy tính phát nhạc nền khi đọc",
+          "Xóa bài thơ đó khỏi Internet mãi mãi",
+          "Yêu cầu máy tìm kiếm ưu tiên trả về những trang có chứa ĐÚNG nguyên cụm từ theo đúng trật tự ấy"
+        ],
+        "k": "D",
+        "e": "Mẹo tìm kiếm với dấu ngoặc kép \"...\" khóa chặt cụm từ cần tìm chính xác.",
+        "s": "Tin học 4",
+        "h": "Mẹo dùng dấu ngoặc kép \"...\""
+      },
+      {
+        "c": "TH4-B05-011",
+        "d": "application",
+        "p": "Nếu lần tìm kiếm đầu tiên trả về quá ít kết quả hoặc chưa đúng ý muốn, em nên xử lí thế nào?",
+        "o": [
+          "Tắt máy tính và khẳng định thông tin đó không tồn tại",
+          "Đập mạnh vào bàn phím cho máy tìm ra nhanh hơn",
+          "Ngồi chờ nguyên tại chỗ ba tiếng đồng hồ không làm gì",
+          "Thay đổi hoặc điều chỉnh từ khóa sang từ đồng nghĩa gần hơn, ngắn gọn hơn rồi tìm lại"
+        ],
+        "k": "D",
+        "e": "Điều chỉnh từ khóa (thử từ đồng nghĩa, bỏ bớt từ thừa quá hẹp) là bước tinh chỉnh tìm kiếm rất tự nhiên.",
+        "s": "Tin học 4",
+        "h": "Linh hoạt đổi từ khóa"
+      },
+      {
+        "c": "TH4-B05-012",
+        "d": "application",
+        "p": "Phát biểu nào sau đây SAI khi nói về việc sử dụng máy tìm kiếm?",
+        "o": [
+          "\"Mọi trang web hiện ra trên trang 1 của máy tìm kiếm đều hoàn toàn chính xác 100%, không cần kiểm tra lại.\"",
+          "\"Từ khóa càng chính xác thì kết quả tìm được càng sát nhu cầu.\"",
+          "\"Có thể dùng máy tìm kiếm để tìm hình ảnh, video phục vụ bài thuyết trình.\"",
+          "\"Nên chọn thông tin từ các trang báo chính thống, cổng thông tin giáo dục uy tín.\""
+        ],
+        "k": "A",
+        "e": "Máy tìm kiếm chỉ xếp hạng theo mức độ khớp từ khóa và thuật toán, người đọc vẫn phải tự kiểm chứng độ tin cậy.",
+        "s": "Tin học 4",
+        "h": "Phản biện độ tin cậy kết quả"
+      },
+      {
+        "c": "TH4-B05-013",
+        "d": "advanced",
+        "p": "Quan sát lưu đồ 4 bước Tìm kiếm thông tin cho bài thuyết trình Lịch sử. Bước quyết định (hình thoi) kiểm tra điều gì trước khi lưu thông tin về máy?",
+        "o": [
+          "Kiểm tra xem chữ trên màn hình có màu đỏ hay không",
+          "Kiểm tra xem giá máy tính đang tăng hay giảm",
+          "Kiểm tra xem thông tin vừa tìm được có đúng trọng tâm và đáng tin cậy chưa",
+          "Kiểm tra xem trang web có nhiều trò chơi giải trí hay không"
+        ],
+        "k": "C",
+        "e": "Nếu thông tin chưa đạt (No), quay lại đổi từ khóa tìm lại; nếu đạt (Yes) mới ghi chú, lưu dùng.",
+        "s": "Tin học 4",
+        "h": "Đọc nhánh Yes/No của lưu đồ",
+        "fig": {
+          "w": 320,
+          "h": 185,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  100,
+                  14
+                ],
+                [
+                  220,
+                  14
+                ],
+                [
+                  220,
+                  44
+                ],
+                [
+                  100,
+                  44
+                ]
+              ],
+              "fill": "#dcfce7",
+              "stroke": "#16a34a",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                33
+              ],
+              "s": "Nhập từ khóa tìm",
+              "anchor": "middle",
+              "size": 11.5
+            },
+            {
+              "t": "line",
+              "a": [
+                160,
+                44
+              ],
+              "b": [
+                160,
+                62
+              ],
+              "arrow": true,
+              "color": "#334155",
+              "w": 2
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  160,
+                  64
+                ],
+                [
+                  235,
+                  94
+                ],
+                [
+                  160,
+                  124
+                ],
+                [
+                  85,
+                  94
+                ]
+              ],
+              "fill": "#fef3c7",
+              "stroke": "#d97706",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                98
+              ],
+              "s": "Tin chuẩn & đúng ý?",
+              "anchor": "middle",
+              "size": 11.5
+            },
+            {
+              "t": "line",
+              "a": [
+                85,
+                94
+              ],
+              "b": [
+                55,
+                138
+              ],
+              "arrow": true,
+              "color": "#16a34a",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                58,
+                110
+              ],
+              "s": "Đúng",
+              "anchor": "middle",
+              "size": 10.5,
+              "color": "#15803d"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  10,
+                  140
+                ],
+                [
+                  135,
+                  140
+                ],
+                [
+                  135,
+                  170
+                ],
+                [
+                  10,
+                  170
+                ]
+              ],
+              "fill": "#dbeafe",
+              "stroke": "#2563eb",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                72,
+                159
+              ],
+              "s": "Lưu trích dẫn nguồn",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "line",
+              "a": [
+                235,
+                94
+              ],
+              "b": [
+                265,
+                138
+              ],
+              "arrow": true,
+              "color": "#dc2626",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                264,
+                110
+              ],
+              "s": "Sai",
+              "anchor": "middle",
+              "size": 10.5,
+              "color": "#dc2626"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  185,
+                  140
+                ],
+                [
+                  310,
+                  140
+                ],
+                [
+                  310,
+                  170
+                ],
+                [
+                  185,
+                  170
+                ]
+              ],
+              "fill": "#fee2e2",
+              "stroke": "#dc2626",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                247,
+                159
+              ],
+              "s": "Đổi từ khóa khác",
+              "anchor": "middle",
+              "size": 11
+            }
+          ]
+        }
+      },
+      {
+        "c": "TH4-B05-014",
+        "d": "advanced",
+        "p": "An cần tìm hiểu về \"Vua Lê Lợi\" nhưng gõ từ khóa quá ngắn chỉ có mỗi hai chữ \"Lê Lợi\". Kết quả ra rất nhiều tên đường phố, trường học, quán ăn mang tên Lê Lợi. An nên bổ sung thêm từ nào?",
+        "o": [
+          "\"quán ăn ngon trên phố Lê Lợi\"",
+          "\"Lê Lợi 2026\"",
+          "\"tiểu sử vua Lê Lợi\" hoặc \"sự tích Lê Lợi trả gươm\"",
+          "\"địa chỉ đường Lê Lợi\""
+        ],
+        "k": "C",
+        "e": "Từ khóa quá ngắn gây loãng nghĩa; thêm \"tiểu sử vua\" hoặc \"sự tích\" khoanh đúng chủ đề lịch sử.",
+        "s": "Tin học 4",
+        "h": "Thu hẹp bằng từ khóa chủ đề lịch sử"
+      },
+      {
+        "c": "TH4-B05-015",
+        "d": "advanced",
+        "p": "Sau khi tìm được một đoạn thông tin và bức ảnh hay trên mạng để đưa vào bài trình chiếu của lớp, thói quen văn minh nào em nên làm thêm ở cuối trang?",
+        "o": [
+          "Ghi chú lại nguồn trang web (hoặc tên tác giả) nơi đã lấy thông tin, hình ảnh đó",
+          "Chụp ảnh lại rồi bán cho các bạn khác trong lớp",
+          "Không bao giờ cho thầy cô và bạn bè biết mình tìm ở đâu",
+          "Xóa tên tác giả gốc đi và tự ghi tên mình làm tác giả bức ảnh"
+        ],
+        "k": "A",
+        "e": "Tôn trọng bản quyền bắt đầu từ thói quen ghi rõ nguồn tham khảo (trích dẫn nguồn).",
+        "s": "Tin học 4",
+        "h": "Gắn tìm kiếm với văn hóa trích dẫn nguồn"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc4-c3",
+    "lesson": {
+      "code": "tinhoc4-b06",
+      "title": "Bài 6. Bản quyền nội dung thông tin",
+      "seq": 6,
+      "subtitle": "Hiểu khái niệm bản quyền đối với sản phẩm số (bài viết, tranh ảnh, nhạc, phần mềm) và biết ứng xử tôn trọng bản quyền trong học tập",
+      "concepts": [
+        "Bản quyền nội dung thông tin là gì?",
+        "Biểu tượng © và quyền của tác giả",
+        "Cách dùng tài liệu mạng đúng luật và văn minh"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH4-B06-001",
+        "d": "basic",
+        "p": "Bản quyền (Copyright) đối với một bài viết, bức ảnh, bản nhạc hay phần mềm là gì?",
+        "o": [
+          "Quyền của tác giả hoặc chủ sở hữu đối với tác phẩm do chính họ sáng tạo ra (quyết định ai được sao chép, chia sẻ, sử dụng)",
+          "Quyền tự ý lấy mọi bức ảnh của người khác rồi đổi thành tên mình",
+          "Quyền bắt buộc tất cả mọi người phải tắt máy tính lúc 8 giờ tối",
+          "Tên một loại giấy in màu dày đặt trong máy in"
+        ],
+        "k": "A",
+        "e": "Tác giả bỏ công sức trí tuệ sáng tạo tác phẩm nên được pháp luật bảo vệ quyền tác giả.",
+        "s": "Tin học 4",
+        "h": "Hiểu khái niệm quyền tác giả"
+      },
+      {
+        "c": "TH4-B06-002",
+        "d": "basic",
+        "p": "Kí hiệu hình chữ C nằm trong vòng tròn (©) thường thấy ở cuối trang web, bìa sách hay cuối video biểu thị điều gì?",
+        "o": [
+          "Nút bật tắt nguồn điện cho màn hình",
+          "Thông báo bản quyền (Copyright) của tác giả hoặc đơn vị sở hữu nội dung đó",
+          "Nhiệt độ mát mẻ tính theo độ C",
+          "Số lượng người đã bấm thích bài viết"
+        ],
+        "k": "B",
+        "e": "Chữ C viết tắt của Copyright (Bản quyền).",
+        "s": "Tin học 4",
+        "h": "Nhớ biểu tượng © = Copyright"
+      },
+      {
+        "c": "TH4-B06-003",
+        "d": "basic",
+        "p": "Hành động nào sau đây VI PHẠM bản quyền nội dung thông tin?",
+        "o": [
+          "Trích dẫn một câu thơ nổi tiếng kèm ghi rõ tên nhà thơ",
+          "Mua sách giáo khoa chính hãng tại hiệu sách để học tập",
+          "Tự vẽ bức tranh mới bằng phần mềm Paint",
+          "Tải nguyên văn bài văn hay bức tranh của bạn trên mạng rồi nộp dự thi với tên tác giả là mình"
+        ],
+        "k": "D",
+        "e": "Nhận vơ sản phẩm trí tuệ của người khác làm của mình (đạo văn/đạo nhái) vi phạm nghiêm trọng bản quyền.",
+        "s": "Tin học 4",
+        "h": "Tìm hành vi chiếm đoạt công sức người khác"
+      },
+      {
+        "c": "TH4-B06-004",
+        "d": "basic",
+        "p": "Khi sử dụng lại một bức ảnh minh họa từ trang web giáo dục vào bài trình chiếu của tổ em, cách làm ĐÚNG đắn nhất là gì?",
+        "o": [
+          "Cắt bỏ dòng tên tác giả in ở góc ảnh đi cho sạch đẹp",
+          "Bán lại bức ảnh đó để thu tiền của các bạn",
+          "Nói dối cả lớp rằng bức ảnh do tự tay mình chụp bằng máy ảnh",
+          "Kiểm tra xem ảnh có cho phép dùng học tập không và ghi chú nguồn ảnh bên dưới"
+        ],
+        "k": "D",
+        "e": "Ghi nguồn tác giả thể hiện sự trung thực và tôn trọng công sức sáng tạo.",
+        "s": "Tin học 4",
+        "h": "Luôn ghi nguồn khi trích dẫn"
+      },
+      {
+        "c": "TH4-B06-005",
+        "d": "basic",
+        "p": "Vì sao chúng ta KHÔNG nên tải và cài đặt các phần mềm \"bẻ khóa\" (lậu) không rõ nguồn gốc trên mạng?",
+        "o": [
+          "Vì mọi phần mềm đều hoàn toàn miễn phí nên không cần bẻ khóa",
+          "Vừa vi phạm bản quyền của nhà phát triển, vừa có nguy cơ cực cao làm máy tính nhiễm vi-rút và bị đánh cắp dữ liệu",
+          "Vì cài phần mềm lậu giúp bàn phím gõ nhanh hơn",
+          "Vì phần mềm có bản quyền chạy chậm hơn phần mềm nhiễm vi-rút"
+        ],
+        "k": "B",
+        "e": "Phần mềm lậu thường bị kẻ xấu chèn mã độc gây hỏng dữ liệu và mất an toàn thông tin.",
+        "s": "Tin học 4",
+        "h": "Hai nguy cơ: phạm luật và nhiễm mã độc"
+      },
+      {
+        "c": "TH4-B06-006",
+        "d": "basic",
+        "p": "Quan sát bảng hướng dẫn Ứng xử với Bản quyền số. Với tài liệu đánh dấu miễn phí chia sẻ cho giáo dục (như Creative Commons ghi công), ta cần làm gì khi dùng lại?",
+        "o": [
+          "Xóa sạch mọi đường dẫn nguồn trước khi trình chiếu",
+          "Được phép đem bán lấy tiền dù tác giả cấm thương mại",
+          "Không cần ghi tên tác giả, tự nhận mình sáng tác",
+          "Được phép dùng nhưng phải ghi rõ tên tác giả gốc và tuân thủ điều kiện kèm theo"
+        ],
+        "k": "D",
+        "e": "Giấy phép mở cho phép chia sẻ cộng đồng nhưng vẫn yêu cầu ghi công tác giả.",
+        "s": "Tin học 4",
+        "h": "Xem hàng 2 trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Ứng xử với Bản quyền",
+          "head": [
+            "Trường hợp",
+            "Cách làm đúng"
+          ],
+          "rows": [
+            [
+              "Tự sáng tác",
+              "Giữ quyền, chia sẻ"
+            ],
+            [
+              "Nguồn mở (CC)",
+              "Dùng kèm ghi nguồn"
+            ],
+            [
+              "Cấm sao chép",
+              "Chỉ xem, không chép"
+            ],
+            [
+              "Phần mềm trả phí",
+              "Mua hoặc xin phép"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH4-B06-007",
+        "d": "application",
+        "p": "Bạn Minh chụp được một bức ảnh rất đẹp về cánh đồng lúa quê mình và đăng lên trang cá nhân của lớp. Bạn khác muốn lấy ảnh đó in lên báo tường của tổ thì nên làm gì trước?",
+        "o": [
+          "Lấy lén về in ngay không cần nói với Minh lời nào",
+          "Chê bai bức ảnh rồi vẫn đem đi thi cấp trường dưới tên mình",
+          "Cắt ghép tên mình đè lên chữ kí của Minh",
+          "Hỏi xin phép bạn Minh và ghi chú rõ \"Ảnh: Minh – Lớp 4A\" dưới bức ảnh trên báo tường"
+        ],
+        "k": "D",
+        "e": "Xin phép và ghi tên người chụp là phép lịch sự và tuân thủ quyền tác giả ngay trong trường học.",
+        "s": "Tin học 4",
+        "h": "Ứng xử văn minh với bạn bè"
+      },
+      {
+        "c": "TH4-B06-008",
+        "d": "application",
+        "p": "Nếu một cuốn truyện thiếu nhi điện tử ghi dòng chữ \"Cấm mọi hình thức sao chép, đăng tải lại khi chưa có sự đồng ý của tác giả\", hành động nào sau đây bị cấm?",
+        "o": [
+          "Giới thiệu đường link trang web chính thức đó cho bạn bè vào đọc",
+          "Chụp màn hình toàn bộ các trang sách rồi đăng công khai lên trang web khác để mọi người tải tự do",
+          "Kể miệng lại cho em gái nghe cảm nhận về nhân vật chính",
+          "Đọc trực tiếp trên trang chính thức để giải trí cuối tuần"
+        ],
+        "k": "B",
+        "e": "Chia sẻ đường dẫn chính thức tôn trọng tác giả; tự ý sao chép đăng lại nguyên bản là vi phạm.",
+        "s": "Tin học 4",
+        "h": "Phân biệt chia sẻ link với sao chép trái phép"
+      },
+      {
+        "c": "TH4-B06-009",
+        "d": "application",
+        "p": "Trong lớp học, Lan tìm được một phần mềm vẽ tranh miễn phí (Freeware) do tác giả tặng cộng đồng, không mất phí bản quyền. Lan dùng phần mềm đó học tập có vi phạm bản quyền không?",
+        "o": [
+          "Không vi phạm, vì tác giả đã chủ động cho phép sử dụng miễn phí đúng mục đích",
+          "Có vi phạm nếu Lan dùng chuột máy tính màu đen",
+          "Có vi phạm, vì bất kì phần mềm nào trên đời đều bị cấm dùng",
+          "Chỉ không vi phạm nếu Lan tự viết lại phần mềm từ đầu"
+        ],
+        "k": "A",
+        "e": "Phần mềm miễn phí (Freeware) hoặc mã nguồn mở được tác giả cho phép dùng tự do hợp pháp.",
+        "s": "Tin học 4",
+        "h": "Hiểu đúng về phần mềm miễn phí"
+      },
+      {
+        "c": "TH4-B06-010",
+        "d": "application",
+        "p": "Điều gì sẽ xảy ra với xã hội nếu tình trạng sao chép lậu phim ảnh, sách báo, phần mềm diễn ra tràn lan mà không ai tôn trọng bản quyền?",
+        "o": [
+          "Các tác giả sẽ sáng tạo ra nhiều sản phẩm miễn phí hơn gấp mười lần",
+          "Các tác giả, lập trình viên, nghệ sĩ nản lòng, mất thu nhập và không còn động lực sáng tạo ra sản phẩm hay cho mọi người nữa",
+          "Không có ảnh hưởng gì đến chất lượng sách vở hay phần mềm",
+          "Tất cả máy tính trên thế giới sẽ chạy nhanh hơn hẳn"
+        ],
+        "k": "B",
+        "e": "Bảo vệ bản quyền là bảo vệ nguồn động lực sáng tạo văn hóa – khoa học của toàn xã hội.",
+        "s": "Tin học 4",
+        "h": "Suy nghĩ hậu quả lâu dài"
+      },
+      {
+        "c": "TH4-B06-011",
+        "d": "application",
+        "p": "Khi em sử dụng nhạc nền có bản quyền từ Internet ghép vào video kỉ niệm của lớp rồi đăng công khai lên mạng, rủi ro gì có thể xảy ra?",
+        "o": [
+          "Tên lớp sẽ bị xóa khỏi danh sách thi đua tuần này",
+          "Màn hình máy tính chuyển sang màu đen trắng suốt một năm",
+          "Chiếc loa máy tính sẽ tự động vỡ tan thành từng mảnh",
+          "Video có thể bị tắt tiếng hoặc bị gỡ bỏ tự động do hệ thống phát hiện vi phạm bản quyền âm nhạc"
+        ],
+        "k": "D",
+        "e": "Các nền tảng số lớn đều quét bản quyền tự động; nên dùng nhạc kho miễn phí bản quyền (Royalty-free).",
+        "s": "Tin học 4",
+        "h": "Dùng kho âm thanh cho phép sử dụng"
+      },
+      {
+        "c": "TH4-B06-012",
+        "d": "application",
+        "p": "Chọn câu đúng nhất về quyền nhân thân của tác giả đối với tác phẩm:",
+        "o": [
+          "Tác giả không có quyền biết tác phẩm của mình được dùng ở đâu",
+          "Ai trả tiền mua một quyển truyện đều có quyền xóa tên tác giả và ghi tên mình lên bìa sách",
+          "Sau khi viết xong một tuần, quyền tác giả tự động biến mất",
+          "Tác giả luôn có quyền được đứng tên thật trên tác phẩm và bảo vệ sự toàn vẹn của tác phẩm không bị bóp méo"
+        ],
+        "k": "D",
+        "e": "Quyền được ghi nhận tên tuổi và không bị sửa đổi xuyên tạc nội dung là quyền cốt lõi của tác giả.",
+        "s": "Tin học 4",
+        "h": "Nhớ quyền đứng tên và bảo vệ tác phẩm"
+      },
+      {
+        "c": "TH4-B06-013",
+        "d": "advanced",
+        "p": "Giáo viên hướng dẫn: \"Các em có thể dùng tối đa 1–2 câu thơ trích trong sách để làm dẫn chứng cho bài viết của mình, miễn là đặt trong ngoặc kép và ghi rõ tên tác giả.\" Ngoại lệ hợp lí này gọi là gì?",
+        "o": [
+          "Trích dẫn hợp lí cho mục đích học tập, nghiên cứu mà vẫn tôn trọng công sức tác giả",
+          "Chiếm đoạt tác phẩm để in sách bán kiếm lời",
+          "Xóa bỏ hoàn toàn luật bản quyền trên toàn thế giới",
+          "Đạo văn hợp pháp không cần ghi tên ai"
+        ],
+        "k": "A",
+        "e": "Luật Sở hữu trí tuệ cho phép trích dẫn ngắn hợp lí phục vụ học tập – giảng dạy nếu ghi rõ nguồn.",
+        "s": "Tin học 4",
+        "h": "Hiểu trích dẫn hợp lí trong học tập"
+      },
+      {
+        "c": "TH4-B06-014",
+        "d": "advanced",
+        "p": "Một bạn biện minh: \"Tớ chỉ lấy bài trình chiếu của anh họ rồi sửa mỗi tên ở trang đầu mang đi nộp thôi, có sao đâu!\" Em sẽ khuyên bạn ấy thế nào?",
+        "o": [
+          "Như vậy là gian lận và không tôn trọng bản quyền lẫn sự trung thực; mình có thể tham khảo cách làm rồi tự tay thiết kế bài của riêng mình",
+          "Khen bạn thông minh vì tiết kiệm được nhiều thời gian làm bài",
+          "Khuyên bạn nên xóa luôn tên trang đầu để không ai phát hiện",
+          "Xin bạn gửi file đó cho cả lớp cùng nộp giống hệt nhau"
+        ],
+        "k": "A",
+        "e": "Tự lực sáng tạo rèn luyện kĩ năng thật sự và giữ chữ tín trung thực trong học tập.",
+        "s": "Tin học 4",
+        "h": "Giữ trung thực học thuật"
+      },
+      {
+        "c": "TH4-B06-015",
+        "d": "advanced",
+        "p": "Khi tìm hình ảnh trên máy tìm kiếm để chắc chắn an toàn bản quyền cho bài thuyết trình dự thi cấp trường, bộ lọc nào trong phần Tìm kiếm Hình ảnh rất hữu ích?",
+        "o": [
+          "Mục Công cụ (Tools) -> Quyền sử dụng (Usage Rights) -> Giấy phép Creative Commons",
+          "Mục Màu sắc -> Màu đen trắng",
+          "Mục Kích thước -> Hình ảnh siêu nhỏ (Icon)",
+          "Mục Thời gian -> Một giờ trước bất kì"
+        ],
+        "k": "A",
+        "e": "Công cụ lọc Giấy phép Creative Commons giúp tìm nhanh nguồn ảnh tác giả cho phép tái sử dụng có ghi nguồn.",
+        "s": "Tin học 4",
+        "h": "Biết mẹo lọc ảnh an toàn bản quyền"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc4-c3",
+    "lesson": {
+      "code": "tinhoc4-b07",
+      "title": "Bài 7. An toàn khi giao tiếp trực tuyến và bảo vệ thông tin cá nhân",
+      "seq": 7,
+      "subtitle": "Nhận biết các thông tin cá nhân cần giữ bí mật trên mạng, biết phòng tránh rủi ro khi trò chuyện trực tuyến và quy tắc ứng xử văn minh",
+      "concepts": [
+        "Thông tin cá nhân cần bảo vệ",
+        "Nguyên tắc 5 KHÔNG an toàn cho trẻ em trên mạng",
+        "Nhờ bố mẹ, thầy cô hỗ trợ khi gặp đe dọa trực tuyến"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH4-B07-001",
+        "d": "basic",
+        "p": "Thông tin nào sau đây thuộc NHÓM BÍ MẬT CÁ NHÂN tuyệt đối KHÔNG nên công khai cho người lạ trên mạng?",
+        "o": [
+          "Thời tiết nắng ấm hôm nay tại Hà Nội",
+          "Tên một quyển truyện cổ tích nổi tiếng",
+          "Họ tên đầy đủ, số điện thoại, địa chỉ nhà, tên trường lớp đang học và mật khẩu tài khoản",
+          "Tên loài hoa màu vàng em thích nhất"
+        ],
+        "k": "C",
+        "e": "Kẻ xấu có thể lợi dụng địa chỉ, số điện thoại, lịch học để quấy rối hoặc lừa đảo.",
+        "s": "Tin học 4",
+        "h": "Nhận diện thông tin nhạy cảm"
+      },
+      {
+        "c": "TH4-B07-002",
+        "d": "basic",
+        "p": "Khi có một tài khoản người lạ trên mạng kết bạn và đòi gọi video hoặc hẹn gặp riêng ngoài đời thực, học sinh Lớp 4 cần làm gì?",
+        "o": [
+          "Từ chối ngay lập tức, không cung cấp thông tin và báo ngay cho bố mẹ hoặc thầy cô giáo",
+          "Gửi ngay ảnh chụp thẻ học sinh và địa chỉ nhà cho người đó",
+          "Giữ bí mật tuyệt đối không bao giờ kể với bố mẹ",
+          "Đồng ý đi gặp một mình ngay sau giờ tan học mà không nói ai"
+        ],
+        "k": "A",
+        "e": "Người lạ trên mạng có thể giả danh bằng ảnh đại diện giả để dụ dỗ trẻ em.",
+        "s": "Tin học 4",
+        "h": "Tuyệt đối không gặp người lạ quen qua mạng"
+      },
+      {
+        "c": "TH4-B07-003",
+        "d": "basic",
+        "p": "Mật khẩu (Password) đặt cho tài khoản học tập trực tuyến nên có đặc điểm nào để an toàn?",
+        "o": [
+          "Đủ dài và kết hợp chữ hoa, chữ thường, chữ số, kí hiệu; không dùng ngày sinh hay \"123456\" quá dễ đoán",
+          "Chia sẻ mật khẩu cho tất cả các bạn trong nhóm chat biết",
+          "Viết mật khẩu lên một tờ giấy dán công khai ngoài cửa lớp",
+          "Đặt là \"123456\" hoặc chính tên mình cho tất cả mọi người cùng nhớ"
+        ],
+        "k": "A",
+        "e": "Mật khẩu mạnh kết hợp nhiều loại kí tự giúp ngăn người khác tự ý đăng nhập vào tài khoản.",
+        "s": "Tin học 4",
+        "h": "Nguyên tắc đặt mật khẩu an toàn"
+      },
+      {
+        "c": "TH4-B07-004",
+        "d": "basic",
+        "p": "Thái độ giao tiếp lịch sự, văn minh khi nhắn tin trong nhóm học tập của lớp (Netiquette) thể hiện qua việc gì?",
+        "o": [
+          "Đăng ảnh dìm hàng bạn bè lên nhóm để mọi người cười nhạo",
+          "Gõ toàn bộ chữ in hoa kèm dấu chấm than để quát mắng các bạn",
+          "Dùng ngôn từ lễ phép, tôn trọng bạn bè, không nói xấu, chế giễu hay gửi tin nhắn rác làm phiền",
+          "Gửi liên tục năm mươi nhãn dán vô nghĩa khi cô giáo đang dặn dò"
+        ],
+        "k": "C",
+        "e": "Giao tiếp trên mạng cũng cần lịch sự và tôn trọng cảm xúc người khác như ngoài đời thực.",
+        "s": "Tin học 4",
+        "h": "Ứng xử văn minh trên không gian mạng"
+      },
+      {
+        "c": "TH4-B07-005",
+        "d": "basic",
+        "p": "Khi sử dụng chung máy tính ở phòng Tin học trường hoặc thư viện, thao tác bắt buộc trước khi đứng dậy ra về nếu có đăng nhập tài khoản cá nhân là gì?",
+        "o": [
+          "Để nguyên tài khoản đang mở cho bạn ngồi ca sau dùng tiếp",
+          "Tắt mỗi màn hình còn thùng máy vẫn chạy tài khoản đó",
+          "Đăng xuất (Log out / Sign out) hoàn toàn khỏi tài khoản của mình",
+          "Lưu mật khẩu vào trình duyệt công cộng cho tiện lần sau"
+        ],
+        "k": "C",
+        "e": "Đăng xuất trên máy dùng chung bảo vệ tài khoản khỏi bị người khác mở xem hoặc sửa bài.",
+        "s": "Tin học 4",
+        "h": "Luôn đăng xuất trên máy dùng chung"
+      },
+      {
+        "c": "TH4-B07-006",
+        "d": "basic",
+        "p": "Quan sát bảng quy tắc \"Nên làm – Không nên làm\" khi lên mạng. Hành động nào nằm ở cột KHÔNG NÊN LÀM?",
+        "o": [
+          "Bấm vào đường link lạ hứa tặng xu thưởng trò chơi",
+          "Giữ bí mật mật khẩu cá nhân",
+          "Hỏi ý kiến bố mẹ trước khi cài đặt ứng dụng mới",
+          "Ứng xử hòa nhã trong nhóm học"
+        ],
+        "k": "A",
+        "e": "Đường link dụ tặng thưởng game miễn phí là thủ đoạn đánh cắp tài khoản rất phổ biến.",
+        "s": "Tin học 4",
+        "h": "Xem cột Không nên làm trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "An toàn Trực tuyến",
+          "head": [
+            "NÊN LÀM",
+            "KHÔNG NÊN LÀM"
+          ],
+          "rows": [
+            [
+              "Đặt mật khẩu mạnh",
+              "Dùng mật khẩu 123456"
+            ],
+            [
+              "Đăng xuất máy chung",
+              "Lộ số ĐT, địa chỉ"
+            ],
+            [
+              "Hỏi bố mẹ khi lạ",
+              "Bấm link tặng quà lạ"
+            ],
+            [
+              "Nhắn tin lịch sự",
+              "Trêu chọc, nói xấu"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH4-B07-007",
+        "d": "application",
+        "p": "Bạn Hùng nhận được tin nhắn từ tài khoản giả danh bạn thân: \"Cậu chụp mã số gửi về điện thoại mẹ cậu gửi qua đây cho tớ mượn chút nhé!\" Hùng xử lí thế nào?",
+        "o": [
+          "Xóa luôn hộp thư đến của mẹ mà không nói năng gì",
+          "Nhắn lại mật khẩu tài khoản của cả gia đình cho bạn giữ hộ",
+          "Nhanh chóng chụp mã số gửi qua luôn để giúp bạn",
+          "Không gửi bất kì mã xác thực (OTP) nào; gọi trực tiếp hoặc hỏi lại bạn thân ngoài đời và báo cho mẹ biết"
+        ],
+        "k": "D",
+        "e": "Mã OTP là chìa khóa bảo mật tối quan trọng; kẻ xấu thường hack nick người quen để lừa xin mã.",
+        "s": "Tin học 4",
+        "h": "Tuyệt đối không chia sẻ mã OTP"
+      },
+      {
+        "c": "TH4-B07-008",
+        "d": "application",
+        "p": "Một số bạn trong nhóm chat lớp lập ra phòng trò chuyện riêng để chê bai ngoại hình một bạn cùng lớp. Nếu chứng kiến việc đó, em làm gì đúng đắn nhất?",
+        "o": [
+          "Không tham gia hùa theo bình luận xấu, bênh vực hoặc an ủi bạn bị trêu chọc và báo cô giáo chủ nhiệm giải quyết kịp thời",
+          "Cười hưởng ứng và chụp màn hình gửi đi khắp khối 4 cho vui",
+          "Khuyên bạn bị trêu nên nghỉ học ở nhà luôn",
+          "Tạo thêm một nhóm chat khác nói xấu nhiều bạn hơn nữa"
+        ],
+        "k": "A",
+        "e": "Bắt nạt trực tuyến gây tổn thương tinh thần nặng nề; học sinh cần dũng cảm lên tiếng và nhờ thầy cô hỗ trợ.",
+        "s": "Tin học 4",
+        "h": "Phòng chống bắt nạt mạng"
+      },
+      {
+        "c": "TH4-B07-009",
+        "d": "application",
+        "p": "Khi đăng ảnh hoạt động ngoại khóa của lớp lên cổng thông tin hoặc nhóm lớp, cần kiểm tra chi tiết nào để không vô tình lộ thông tin nhạy cảm?",
+        "o": [
+          "Đảm bảo bầu trời trong ảnh phải hoàn toàn không có đám mây nào",
+          "Tránh chụp rõ biển số xe gia đình, địa chỉ số nhà cụ thể, số điện thoại hoặc giấy tờ cá nhân trong khung hình",
+          "Không chụp chung với bất kì cây xanh nào trong sân trường",
+          "Đảm bảo các bạn mặc áo cùng đúng một màu xanh lá"
+        ],
+        "k": "B",
+        "e": "Bối cảnh ảnh vô tình chứa địa chỉ nhà, thẻ căn cước, số điện thoại dễ bị kẻ xấu thu thập.",
+        "s": "Tin học 4",
+        "h": "Kiểm tra hậu cảnh ảnh trước khi đăng"
+      },
+      {
+        "c": "TH4-B07-010",
+        "d": "application",
+        "p": "Vì sao viết TOÀN BỘ TIN NHẮN BẰNG CHỮ IN HOA trong nhóm thảo luận trực tuyến thường bị xem là thiếu lịch sự?",
+        "o": [
+          "Vì bàn phím bị hỏng hết các phím chữ thường",
+          "Vì màn hình không đọc được chữ in hoa tiếng Việt",
+          "Vì trong quy tắc giao tiếp mạng, viết toàn chữ in hoa mang cảm giác như đang quát tháo, giận dữ với người đọc",
+          "Vì tin nhắn chữ in hoa tốn nhiều tiền điện hơn"
+        ],
+        "k": "C",
+        "e": "Chỉ dùng chữ hoa đúng quy tắc chính tả hoặc nhấn mạnh thật cần thiết một hai từ.",
+        "s": "Tin học 4",
+        "h": "Tránh viết in hoa toàn bộ tin nhắn"
+      },
+      {
+        "c": "TH4-B07-011",
+        "d": "application",
+        "p": "Khi tham gia lớp học trực tuyến qua mạng, hành vi nào thể hiện ý thức kỉ luật và tôn trọng thầy cô, bạn bè?",
+        "o": [
+          "Vào lớp đúng giờ, tắt micro khi chưa phát biểu, bật camera nghiêm túc và không vẽ bậy lên màn hình chung",
+          "Viết bậy lên màn hình chia sẻ của cô giáo để gây cười",
+          "Vừa bật loa to hát karaoke vừa chạy quanh phòng",
+          "Tự ý ghi âm lén giọng bạn lúc bạn đọc vấp để trêu chọc"
+        ],
+        "k": "A",
+        "e": "Nội quy lớp học trực tuyến giúp giờ học trật tự, hiệu quả như trên lớp học trực tiếp.",
+        "s": "Tin học 4",
+        "h": "Giữ nề nếp lớp học trực tuyến"
+      },
+      {
+        "c": "TH4-B07-012",
+        "d": "application",
+        "p": "Bộ quy tắc chọn mật khẩu mạnh: giữa bốn mật khẩu sau, mật khẩu nào an toàn nhất cho tài khoản học tập của học sinh?",
+        "o": [
+          "12345678",
+          "lop4a4a",
+          "HocSinh#4A!2026",
+          "nguyenminhan"
+        ],
+        "k": "C",
+        "e": "HocSinh#4A!2026 dài 15 kí tự, có đủ chữ hoa, chữ thường, số và kí hiệu đặc biệt (#, !).",
+        "s": "Tin học 4",
+        "h": "Chọn mật khẩu phức tạp khó đoán"
+      },
+      {
+        "c": "TH4-B07-013",
+        "d": "advanced",
+        "p": "Một bạn chia sẻ: \"Mỗi khi dùng mạng Internet, em thấy bức bối hoặc bị ai đó dọa nạt ép làm điều xấu, em cứ im lặng chịu đựng vì sợ bố mẹ mắng.\" Lời khuyên nào giúp bạn ấy vượt qua đúng cách?",
+        "o": [
+          "Khuyên bạn làm theo mọi yêu cầu của kẻ dọa nạt để mọi chuyện yên ổn",
+          "Khuyên bạn đừng tự chịu một mình mà hãy nói ngay với bố mẹ, thầy cô; người lớn sẽ bảo vệ và giúp chặn kẻ xấu",
+          "Khuyên bạn xóa tài khoản rồi lập tài khoản khác kết bạn lại với người đó",
+          "Khuyên bạn cãi nhau tay đôi thật gay gắt với người lạ trên mạng"
+        ],
+        "k": "B",
+        "e": "Giữ im lặng chỉ khiến kẻ bắt nạt lấn tới; người lớn và thầy cô luôn là điểm tựa bảo vệ an toàn cho trẻ em.",
+        "s": "Tin học 4",
+        "h": "Chia sẻ với bố mẹ/thầy cô là giải pháp số 1"
+      },
+      {
+        "c": "TH4-B07-014",
+        "d": "advanced",
+        "p": "Phân tích vì sao việc ngồi trước màn hình máy tính/điện thoại chơi mạng liên tục nhiều giờ liền lại gây hại cả sức khỏe lẫn an toàn?",
+        "o": [
+          "Không hề gây hại gì nếu đeo thêm một chiếc kính râm màu đen",
+          "Vì màn hình càng bật lâu càng phát ra nước làm ướt sách vở",
+          "Gây mỏi mắt, cận thị, đau cổ lưng, giảm vận động thể chất, đồng thời khi mệt mỏi dễ mất cảnh giác trước tin giả và bẫy lừa đảo",
+          "Vì máy tính chỉ hoạt động tốt vào ban đêm lúc mọi người đã ngủ"
+        ],
+        "k": "C",
+        "e": "Sử dụng thiết bị số điều độ, nghỉ giải lao mắt theo quy tắc 20-20-20 bảo vệ sức khỏe toàn diện.",
+        "s": "Tin học 4",
+        "h": "Cân bằng thời gian sử dụng thiết bị số"
+      },
+      {
+        "c": "TH4-B07-015",
+        "d": "advanced",
+        "p": "Hãy tổng kết 3 nguyên tắc vàng bảo vệ thông tin cá nhân trên Internet mà học sinh Lớp 4 cần ghi nhớ:",
+        "o": [
+          "Công khai mật khẩu – Kết bạn tất cả mọi người – Bấm vào mọi link trúng thưởng",
+          "Giữ bí mật thông tin riêng – Không gặp hay tin người lạ – Luôn hỏi người lớn khi thấy dấu hiệu bất thường",
+          "Tắt hết tường lửa – Dùng mật khẩu 111111 – Lưu mật khẩu ở máy công cộng",
+          "Chỉ chơi game ban đêm – Không học bài – Không nói chuyện với bố mẹ"
+        ],
+        "k": "B",
+        "e": "Ba nguyên tắc đơn giản nhưng tạo lá chắn an toàn vững chắc cho học sinh tiểu học trên môi trường số.",
+        "s": "Tin học 4",
+        "h": "Khắc ghi 3 nguyên tắc vàng an toàn mạng"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc4-c4",
+    "lesson": {
+      "code": "tinhoc4-b08",
+      "title": "Bài 8. Tạo và định dạng trang chiếu đơn giản (PowerPoint)",
+      "seq": 8,
+      "subtitle": "Làm quen phần mềm trình chiếu PowerPoint: tạo trang chiếu mới, chọn bố cục (Layout), định dạng chữ và quy tắc thiết kế trang chiếu rõ đẹp",
+      "concepts": [
+        "Trang chiếu (Slide) và bài trình chiếu",
+        "Thao tác thêm trang New Slide, chọn Layout",
+        "Định dạng cỡ chữ, màu chữ rõ ràng"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH4-B08-001",
+        "d": "basic",
+        "p": "Chức năng chính của phần mềm trình chiếu (như Microsoft PowerPoint) là gì?",
+        "o": [
+          "Chỉ dùng để diệt vi-rút trong ổ đĩa cứng máy tính",
+          "Chỉ dùng để tính tổng các dãy số lớn trong bảng tính",
+          "Chỉ dùng để quay video ngoài công viên",
+          "Tạo bài trình chiếu gồm các trang chiếu chứa chữ, hình ảnh, hiệu ứng phục vụ thuyết trình trực quan"
+        ],
+        "k": "D",
+        "e": "PowerPoint giúp người thuyết trình minh họa ý chính sinh động trước lớp.",
+        "s": "Tin học 4",
+        "h": "Nhớ công dụng trình chiếu"
+      },
+      {
+        "c": "TH4-B08-002",
+        "d": "basic",
+        "p": "Trong PowerPoint, để thêm một trang chiếu mới (Slide mới), ta nhấp vào nút lệnh nào trên thẻ Home?",
+        "o": [
+          "Font Color",
+          "Delete Slide",
+          "New Slide",
+          "Slide Show"
+        ],
+        "k": "C",
+        "e": "\"New Slide\" chèn thêm trang chiếu mới ngay dưới trang đang chọn.",
+        "s": "Tin học 4",
+        "h": "Nhớ nút New Slide"
+      },
+      {
+        "c": "TH4-B08-003",
+        "d": "basic",
+        "p": "Nút lệnh \"Layout\" trong nhóm Slides dùng để làm gì?",
+        "o": [
+          "Phát âm thanh tiếng trống cổ vũ",
+          "Đổi toàn bộ chữ sang màu trắng không nhìn thấy gì",
+          "Chọn bố cục sắp xếp sẵn các khung văn bản, tiêu đề, hình ảnh cho trang chiếu",
+          "Thoát khỏi phần mềm PowerPoint không lưu bài"
+        ],
+        "k": "C",
+        "e": "Chọn đúng Layout (Title Slide, Title and Content, Two Content...) giúp trình bày cân đối rất nhanh.",
+        "s": "Tin học 4",
+        "h": "Nhớ ý nghĩa bố cục Layout"
+      },
+      {
+        "c": "TH4-B08-004",
+        "d": "basic",
+        "p": "Để bắt đầu trình chiếu toàn màn hình từ trang chiếu đầu tiên, ta nhấn phím chức năng nào trên bàn phím?",
+        "o": [
+          "Phím Spacebar",
+          "Phím F5",
+          "Phím Backspace",
+          "Phím Caps Lock"
+        ],
+        "k": "B",
+        "e": "Phím F5 trình chiếu từ trang đầu; tổ hợp Shift + F5 trình chiếu từ trang hiện tại.",
+        "s": "Tin học 4",
+        "h": "Nhớ phím tắt F5"
+      },
+      {
+        "c": "TH4-B08-005",
+        "d": "basic",
+        "p": "Quy tắc thiết kế văn bản trên trang chiếu sao cho các bạn ngồi cuối lớp vẫn đọc rõ là gì?",
+        "o": [
+          "Nội dung cô đọng theo gạch đầu dòng, cỡ chữ đủ lớn (thường từ 24 trở lên) và màu chữ tương phản rõ với màu nền",
+          "Đặt mười kiểu phông chữ khác nhau trên cùng một trang",
+          "Chép nguyên một trang văn bản dài 500 chữ với cỡ chữ thật nhỏ 10 pt",
+          "Chọn chữ màu vàng nhạt đặt trên nền trang chiếu màu trắng tinh"
+        ],
+        "k": "A",
+        "e": "Trang chiếu phục vụ khán giả nhìn từ xa -> chữ lớn, ít chữ, tương phản cao.",
+        "s": "Tin học 4",
+        "h": "Nguyên tắc chữ to, ý gọn, tương phản"
+      },
+      {
+        "c": "TH4-B08-006",
+        "d": "basic",
+        "p": "Quan sát bảng 4 Bố cục (Layout) trang chiếu quen thuộc. Bố cục nào phù hợp nhất cho TRANG ĐẦU TIÊN (trang bìa tên đề tài và người trình bày)?",
+        "o": [
+          "Title Only",
+          "Comparison",
+          "Title Slide",
+          "Blank"
+        ],
+        "k": "C",
+        "e": "Trang bìa cần khung Tiêu đề lớn ở giữa và Tiêu đề phụ ghi tên tác giả/lớp -> Title Slide.",
+        "s": "Tin học 4",
+        "h": "Xem hàng 1 trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Bố cục Trang chiếu",
+          "head": [
+            "Layout",
+            "Mục đích phù hợp"
+          ],
+          "rows": [
+            [
+              "Title Slide",
+              "Trang bìa mở đầu"
+            ],
+            [
+              "Title & Content",
+              "Tiêu đề + nội dung"
+            ],
+            [
+              "Two Content",
+              "So sánh 2 cột song"
+            ],
+            [
+              "Blank",
+              "Trang trống tự vẽ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH4-B08-007",
+        "d": "application",
+        "p": "Bạn Lan chọn nền trang chiếu màu xanh dương đậm. Màu chữ nào dưới đây sẽ tạo độ tương phản dễ đọc nhất cho bài thuyết trình?",
+        "o": [
+          "Màu đen thẫm",
+          "Màu trắng hoặc màu vàng sáng",
+          "Màu xanh dương nhạt gần trùng màu nền",
+          "Màu tím sẫm tối"
+        ],
+        "k": "B",
+        "e": "Nền tối đi với chữ sáng (trắng, vàng sáng); nền sáng đi với chữ tối (đen, xanh than).",
+        "s": "Tin học 4",
+        "h": "Chọn cặp nền tối – chữ sáng"
+      },
+      {
+        "c": "TH4-B08-008",
+        "d": "application",
+        "p": "Để gõ thêm một khung chữ tùy ý vào vị trí trống trên trang chiếu kiểu \"Blank\", em vào thẻ Insert rồi chọn công cụ nào?",
+        "o": [
+          "Slide Sorter",
+          "WordArt hoặc Table",
+          "Text Box",
+          "New Slide"
+        ],
+        "k": "C",
+        "e": "Text Box cho phép vẽ khung hộp chữ ở bất kì vị trí nào trên trang chiếu.",
+        "s": "Tin học 4",
+        "h": "Chèn hộp văn bản Text Box"
+      },
+      {
+        "c": "TH4-B08-009",
+        "d": "application",
+        "p": "Trong lúc trình chiếu toàn màn hình (Slide Show), muốn thoát trở về màn hình soạn thảo ngay lập tức, em nhấn phím nào ở góc trên bên trái bàn phím?",
+        "o": [
+          "Phím Ctrl",
+          "Phím Esc (Escape)",
+          "Phím Shift",
+          "Phím Enter"
+        ],
+        "k": "B",
+        "e": "Phím Esc luôn dùng để thoát chế độ trình chiếu toàn màn hình nhanh chóng.",
+        "s": "Tin học 4",
+        "h": "Nhớ phím Esc thoát trình chiếu"
+      },
+      {
+        "c": "TH4-B08-010",
+        "d": "application",
+        "p": "Bạn Minh thiết kế một trang chiếu về \"Vịnh Hạ Long\": trang có quá nhiều dòng chữ chi chít tràn hết lề khiến người xem không kịp đọc. Minh nên sửa thế nào?",
+        "o": [
+          "Tóm tắt giữ lại 3–4 gạch đầu dòng ý chính ngắn gọn, tăng cỡ chữ và chèn thêm 1 bức ảnh minh họa rõ nét",
+          "Giảm cỡ chữ xuống còn 8 pt cho nằm lọt hết vào một góc",
+          "Đổi màu toàn bộ văn bản sang màu đỏ tươi chói mắt",
+          "Thêm ba bức ảnh chồng đè lên mặt chữ"
+        ],
+        "k": "A",
+        "e": "Mỗi trang chiếu chỉ nên truyền tải 1 ý trọng tâm ngắn gọn để người nghe tập trung vào lời giảng.",
+        "s": "Tin học 4",
+        "h": "Giảm chữ, tăng cỡ chữ và hình ảnh"
+      },
+      {
+        "c": "TH4-B08-011",
+        "d": "application",
+        "p": "Để lưu bài trình chiếu vừa tạo lần đầu vào thư mục \"D:\\BaiTap_TH4\", em chọn lệnh File -> Save (hoặc bấm tổ hợp phím nào)?",
+        "o": [
+          "Ctrl + V",
+          "Ctrl + S",
+          "Ctrl + P",
+          "Ctrl + C"
+        ],
+        "k": "B",
+        "e": "Ctrl + S (Save) giúp lưu bài nhanh chóng; nên bấm thường xuyên để tránh mất bài khi mất điện.",
+        "s": "Tin học 4",
+        "h": "Nhớ phím tắt Ctrl + S"
+      },
+      {
+        "c": "TH4-B08-012",
+        "d": "application",
+        "p": "Tệp bài trình chiếu được lưu bởi PowerPoint hiện đại thường có phần tên mở rộng (đuôi tệp) là gì?",
+        "o": [
+          ".docx",
+          ".mp3",
+          ".pptx (hoặc .ppt)",
+          ".xlsx"
+        ],
+        "k": "C",
+        "e": ".pptx là phần mở rộng của PowerPoint; .docx là Word; .xlsx là Excel.",
+        "s": "Tin học 4",
+        "h": "Nhận diện đuôi tệp .pptx"
+      },
+      {
+        "c": "TH4-B08-013",
+        "d": "advanced",
+        "p": "Một nhóm trình bày 6 trang chiếu nhưng mỗi trang dùng một màu nền sặc sỡ khác nhau (đỏ, tím, cam, xanh neon...) và 4 phông chữ uốn lượn khó đọc. Điều này ảnh hưởng thế nào?",
+        "o": [
+          "Gây rối mắt, thiếu chuyên nghiệp và phân tán sự chú ý của người nghe khỏi nội dung chính",
+          "Giúp tệp lưu trên máy nhẹ hơn hẳn",
+          "Giúp bài thuyết trình trở nên rõ ràng và dễ nhớ gấp đôi",
+          "Bắt buộc máy chiếu tự động tắt sau 2 phút"
+        ],
+        "k": "A",
+        "e": "Một bài trình chiếu chuẩn nên thống nhất một bộ 2–3 màu chủ đạo và 1–2 phông chữ không chân dễ đọc.",
+        "s": "Tin học 4",
+        "h": "Thống nhất màu sắc và phông chữ"
+      },
+      {
+        "c": "TH4-B08-014",
+        "d": "advanced",
+        "p": "Khi gõ xong trang 1 và muốn tạo nhanh trang 2 có thiết kế y hệt trang 1 để giữ bố cục rồi sửa chữ bên trong, lệnh chuột phải nào vào hình thu nhỏ trang 1 rất tiện lợi?",
+        "o": [
+          "Delete Slide (Xóa trang chiếu)",
+          "Reset Slide",
+          "Hide Slide (Ẩn trang chiếu)",
+          "Duplicate Slide (Nhân đôi trang chiếu)"
+        ],
+        "k": "D",
+        "e": "Duplicate Slide tạo bản sao giống hệt trang đã chọn giúp tiết kiệm công sức định dạng lại.",
+        "s": "Tin học 4",
+        "h": "Dùng Duplicate Slide để nhân bản"
+      },
+      {
+        "c": "TH4-B08-015",
+        "d": "advanced",
+        "p": "Trước buổi thuyết trình trước lớp bằng PowerPoint, bước kiểm tra cuối cùng nào giúp tránh sự cố hiển thị font chữ hoặc hình ảnh?",
+        "o": [
+          "Xóa hết tiêu đề của tất cả trang chiếu cho gọn",
+          "Thay đổi tên tệp thành kí tự ngẫu nhiên rồi tắt máy",
+          "Không cần xem lại vì phần mềm tự động sửa hết mọi lỗi",
+          "Chạy thử chế độ trình chiếu (F5) từ đầu đến cuối để soát lỗi chính tả, kích thước chữ và bố cục từng trang"
+        ],
+        "k": "D",
+        "e": "Chạy thử Slide Show cho thấy đúng góc nhìn khán giả sẽ thấy trên màn chiếu.",
+        "s": "Tin học 4",
+        "h": "Chạy thử F5 kiểm tra trước khi trình bày"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc4-c4",
+    "lesson": {
+      "code": "tinhoc4-b09",
+      "title": "Bài 9. Chuyển giữa 2 trang và chèn hình ảnh vào bài trình chiếu",
+      "seq": 9,
+      "subtitle": "Biết cách chèn hình ảnh từ máy tính vào trang chiếu, điều chỉnh kích thước vị trí ảnh và tạo hiệu ứng chuyển trang (Transitions) hợp lí",
+      "concepts": [
+        "Chèn hình ảnh từ Insert -> Pictures",
+        "Thay đổi kích thước, cắt xén ảnh cân đối",
+        "Tạo hiệu ứng chuyển trang Transitions"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH4-B09-001",
+        "d": "basic",
+        "p": "Trong PowerPoint, để chèn một hình ảnh lưu sẵn trên máy tính vào trang chiếu, ta mở thẻ nào trên thanh công cụ?",
+        "o": [
+          "Thẻ View -> Zoom",
+          "Thẻ Design -> Themes",
+          "Thẻ Insert -> Pictures",
+          "Thẻ Transitions -> Sound"
+        ],
+        "k": "C",
+        "e": "Thẻ Insert chứa các lệnh chèn đối tượng: Pictures (ảnh), Shapes (hình khối), Text Box...",
+        "s": "Tin học 4",
+        "h": "Vào Insert để chèn đối tượng"
+      },
+      {
+        "c": "TH4-B09-002",
+        "d": "basic",
+        "p": "Thẻ \"Transitions\" trong phần mềm trình chiếu dùng để tạo loại hiệu ứng nào?",
+        "o": [
+          "Hiệu ứng chuyển tiếp từ trang chiếu này sang trang chiếu kế tiếp",
+          "Hiệu ứng thay đổi màu chữ tiêu đề sang chữ nghiêng",
+          "Hiệu ứng xoay ngược hình ảnh 180 độ",
+          "Hiệu ứng kiểm tra lỗi chính tả tiếng Việt"
+        ],
+        "k": "A",
+        "e": "Transitions = hiệu ứng chuyển trang chiếu; Animations = hiệu ứng động cho từng đối tượng trên trang.",
+        "s": "Tin học 4",
+        "h": "Nhớ Transitions = chuyển trang"
+      },
+      {
+        "c": "TH4-B09-003",
+        "d": "basic",
+        "p": "Khi nhấp chọn một bức ảnh vừa chèn vào trang chiếu, xung quanh ảnh xuất hiện 8 chấm tròn nhỏ (tay nắm). Để phóng to hoặc thu nhỏ ảnh mà KHÔNG làm méo hình, ta kéo nút nào?",
+        "o": [
+          "Nhấn phím Delete trên bàn phím",
+          "Kéo chấm tròn ở giữa cạnh trên xuống thật thấp",
+          "Kéo chấm tròn ở giữa cạnh trái sang phải thật mạnh",
+          "Kéo một trong 4 chấm tròn ở 4 GÓC của bức ảnh"
+        ],
+        "k": "D",
+        "e": "Kéo nút ở góc giữ nguyên tỉ lệ dài – rộng của bức ảnh; kéo cạnh giữa sẽ làm ảnh bị bẹp hoặc kéo dài méo mó.",
+        "s": "Tin học 4",
+        "h": "Kéo ở 4 góc để giữ đúng tỉ lệ ảnh"
+      },
+      {
+        "c": "TH4-B09-004",
+        "d": "basic",
+        "p": "Nút lệnh \"Crop\" (trong thẻ Picture Format khi chọn ảnh) có công dụng gì?",
+        "o": [
+          "Lưu bài trình chiếu thành tệp âm thanh",
+          "Tăng số trang chiếu lên gấp đôi",
+          "Cắt bỏ phần rìa thừa không cần thiết xung quanh bức ảnh",
+          "Chèn thêm một bảng 5 cột"
+        ],
+        "k": "C",
+        "e": "\"Crop\" giúp cắt gọn khung hình để tập trung vào chủ thể chính của bức ảnh.",
+        "s": "Tin học 4",
+        "h": "Nhớ công dụng Crop cắt gọn ảnh"
+      },
+      {
+        "c": "TH4-B09-005",
+        "d": "basic",
+        "p": "Nếu muốn áp dụng cùng một hiệu ứng chuyển trang vừa chọn cho TẤT CẢ các trang chiếu trong bài chỉ bằng một cú nhấp chuột, ta bấm nút nào trong thẻ Transitions?",
+        "o": [
+          "New Slide",
+          "Undo",
+          "Apply To All",
+          "Preview"
+        ],
+        "k": "C",
+        "e": "\"Apply To All\" áp dụng đồng loạt kiểu chuyển trang đang chọn cho toàn bộ bài trình chiếu.",
+        "s": "Tin học 4",
+        "h": "Nhớ nút Apply To All"
+      },
+      {
+        "c": "TH4-B09-006",
+        "d": "basic",
+        "p": "Quan sát bảng phân biệt các thẻ công cụ hay dùng trong PowerPoint. Thẻ nào dùng để chỉnh sửa màu sắc, khung viền hoặc cắt xén bức ảnh đang chọn?",
+        "o": [
+          "Picture Format (hiện ra khi chọn ảnh)",
+          "Transitions",
+          "Slide Show",
+          "Insert"
+        ],
+        "k": "A",
+        "e": "Thẻ ngữ cảnh Picture Format chỉ xuất hiện trên thanh Ribbon khi người dùng nhấp chọn vào một bức ảnh.",
+        "s": "Tin học 4",
+        "h": "Xem hàng 4 trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Thẻ PowerPoint hay dùng",
+          "head": [
+            "Tên thẻ",
+            "Công dụng chính"
+          ],
+          "rows": [
+            [
+              "Insert",
+              "Chèn ảnh, hộp chữ"
+            ],
+            [
+              "Design",
+              "Chọn mẫu giao diện"
+            ],
+            [
+              "Transitions",
+              "Chuyển giữa 2 trang"
+            ],
+            [
+              "Picture Format",
+              "Cắt, khung viền ảnh"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH4-B09-007",
+        "d": "application",
+        "p": "Bạn Mai chèn một bức ảnh phong cảnh rất lớn vào trang chiếu khiến bức ảnh che lấp hết phần chữ giới thiệu nằm bên dưới. Mai nên bấm chuột phải vào ảnh và chọn lệnh nào?",
+        "o": [
+          "Phóng to bức ảnh lớn gấp đôi màn hình hơn nữa",
+          "Send to Back (Đưa ảnh ra lớp phía sau) hoặc thu nhỏ ảnh đặt sang một bên chữ",
+          "Duplicate Slide để nhân đôi lỗi che chữ sang trang mới",
+          "Bấm Delete xóa sạch toàn bộ phần chữ đi"
+        ],
+        "k": "B",
+        "e": "Sắp xếp lớp đối tượng (Bring to Front / Send to Back) hoặc đặt ảnh gọn cạnh khung chữ đảm bảo chữ luôn đọc rõ.",
+        "s": "Tin học 4",
+        "h": "Xử lí ảnh che chữ"
+      },
+      {
+        "c": "TH4-B09-008",
+        "d": "application",
+        "p": "Trong một bài thuyết trình trang trọng về \"Lịch sử Đền Hùng\", bạn Nam chọn hiệu ứng chuyển trang quá cầu kì (vỡ vụn, xoay tít 5 giây) kèm âm thanh tiếng nổ lớn ở mọi trang. Điểm nào chưa hợp lí?",
+        "o": [
+          "Hiệu ứng quá lòe loẹt, kéo dài thời gian và âm thanh ồn ào làm phân tán sự tập trung vào nội dung trang nghiêm",
+          "Vì chủ đề Lịch sử chỉ được phép dùng một trang duy nhất",
+          "Vì PowerPoint không cho phép chọn hiệu ứng chuyển trang nào cả",
+          "Vì hình ảnh không được xuất hiện cùng hiệu ứng chuyển trang"
+        ],
+        "k": "A",
+        "e": "Nên chọn hiệu ứng chuyển trang nhẹ nhàng, thống nhất (như Fade, Push, Wipe) với thời lượng ngắn ~0.5–1 giây.",
+        "s": "Tin học 4",
+        "h": "Chọn hiệu ứng hợp nội dung"
+      },
+      {
+        "c": "TH4-B09-009",
+        "d": "application",
+        "p": "Tìm lỗi trình bày thường gặp khi chèn hình ảnh minh họa vào trang chiếu:",
+        "o": [
+          "Giữ khoảng trống thoáng giữa ảnh và đoạn văn bản ngắn",
+          "Căn thẳng hàng khung ảnh với lề tiêu đề của trang chiếu",
+          "Chèn ảnh độ phân giải quá thấp bị mờ vỡ hạt hoặc chèn 6–7 ảnh nhỏ xíu chồng chéo nhau trên cùng một trang",
+          "Chọn 1–2 bức ảnh sắc nét minh họa trực tiếp cho ý chính của trang"
+        ],
+        "k": "C",
+        "e": "Ít mà chất lượng (1–2 ảnh nét, bố cục thoáng) luôn đẹp và chuyên nghiệp hơn nhồi nhét ảnh mờ.",
+        "s": "Tin học 4",
+        "h": "Tránh nhồi nhét ảnh mờ vỡ"
+      },
+      {
+        "c": "TH4-B09-010",
+        "d": "application",
+        "p": "Nút lệnh \"Preview\" ở góc trái thẻ Transitions có tác dụng gì ngay trong khi soạn bài?",
+        "o": [
+          "Đóng tệp trình chiếu đang mở",
+          "Xóa toàn bộ hiệu ứng vừa chọn trên mọi trang",
+          "In bài trình chiếu ra máy in màu ngay lập tức",
+          "Xem trước hiệu ứng chuyển trang ngay trên khung soạn thảo để kiểm tra đẹp hay chưa"
+        ],
+        "k": "D",
+        "e": "\"Preview\" phát thử hiệu ứng ngay tức thì giúp chỉnh sửa nhanh trước khi chạy F5 toàn bài.",
+        "s": "Tin học 4",
+        "h": "Nhớ nút Preview xem trước"
+      },
+      {
+        "c": "TH4-B09-011",
+        "d": "application",
+        "p": "Thao tác nào giúp xoay nghiêng hoặc lật đối xứng một bức ảnh mũi tên minh họa trên trang chiếu?",
+        "o": [
+          "Dùng lệnh New Slide để tạo thêm hai trang nữa",
+          "Kéo tay nắm hình mũi tên xoay tròn phía trên ảnh hoặc dùng lệnh Rotate trong Picture Format",
+          "Dùng phím Backspace liên tục năm lần",
+          "Nhấn tổ hợp Ctrl + S nhiều lần"
+        ],
+        "k": "B",
+        "e": "Tay nắm xoay tròn phía đỉnh khung ảnh hoặc nút Rotate xoay theo các góc chuẩn 90 độ rất chính xác.",
+        "s": "Tin học 4",
+        "h": "Dùng nút Rotate hoặc tay nắm xoay"
+      },
+      {
+        "c": "TH4-B09-012",
+        "d": "application",
+        "p": "Trên thẻ Transitions, mục \"Duration\" (ví dụ 01.00 giây) điều chỉnh thông số gì của hiệu ứng chuyển trang?",
+        "o": [
+          "Âm lượng loa phát ra khi mở máy tính",
+          "Số lượng hình ảnh được phép chèn vào trang chiếu",
+          "Cỡ chữ của dòng tiêu đề trên cùng",
+          "Thời gian diễn ra hiệu ứng chuyển trang nhanh hay chậm"
+        ],
+        "k": "D",
+        "e": "\"Duration\" càng nhỏ chuyển trang càng nhanh; khoảng 0.50 đến 1.00 giây là vừa mắt nhất.",
+        "s": "Tin học 4",
+        "h": "Duration là độ dài thời gian hiệu ứng"
+      },
+      {
+        "c": "TH4-B09-013",
+        "d": "advanced",
+        "p": "So sánh \"Transitions\" và \"Animations\" trong PowerPoint để không dùng nhầm khi thuyết trình:",
+        "o": [
+          "Animations chỉ hoạt động ở trang đầu tiên của bài",
+          "Transitions chỉ dùng cho chữ; Animations chỉ dùng cho ảnh",
+          "Transitions là hiệu ứng chuyển đổi giữa CẢ HAI TRANG CHIẾU; Animations là hiệu ứng xuất hiện/di chuyển của TỪNG ĐỐI TƯỢNG (chữ, ảnh) bên trong một trang",
+          "Hai thẻ hoàn toàn giống nhau, dùng thẻ nào cũng chuyển trang như nhau"
+        ],
+        "k": "C",
+        "e": "Nắm chắc ranh giới: Trang -> Trang dùng Transitions; Chữ/Ảnh trên trang -> Animations.",
+        "s": "Tin học 4",
+        "h": "Phân biệt mức trang và mức đối tượng"
+      },
+      {
+        "c": "TH4-B09-014",
+        "d": "advanced",
+        "p": "Giả sử em đang làm bài trình chiếu cho màn chiếu lớp học mà quên mang kết nối Internet. Cách chèn ảnh nào an toàn 100% giúp ảnh KHÔNG BAO GIỜ bị mất khi mở bài ở máy lớp?",
+        "o": [
+          "Không chèn bất kì ảnh nào dù đã có sẵn ảnh trong USB",
+          "Chỉ dán đường link trang web chứa ảnh lên trang chiếu",
+          "Tải ảnh lưu về máy tính trước rồi chèn bằng Insert -> Pictures (nhúng thẳng ảnh vào tệp .pptx)",
+          "Ghi tên từ khóa tìm kiếm ra trang chiếu rồi chờ lên lớp mới tìm"
+        ],
+        "k": "C",
+        "e": "Chèn trực tiếp từ tệp ảnh cục bộ giúp tệp .pptx chứa sẵn ảnh bên trong, mở ngoại tuyến ở đâu cũng hiển thị đủ.",
+        "s": "Tin học 4",
+        "h": "Chèn ảnh cục bộ để dùng ngoại tuyến"
+      },
+      {
+        "c": "TH4-B09-015",
+        "d": "advanced",
+        "p": "Khi thuyết trình về quy trình 3 bước, thay vì cho cả 3 bức ảnh và 3 dòng chữ hiện cùng lúc ngay khi mở trang, nếu muốn mỗi lần thầy/cô bấm chuột mới hiện từng bước thì áp dụng cài đặt gì?",
+        "o": [
+          "Tắt màn hình máy chiếu đi mỗi khi chuẩn bị nói sang bước tiếp theo",
+          "Gắn hiệu ứng xuất hiện (Animation) theo thứ tự On Click cho từng cặp ảnh – chữ của bước 1, bước 2, bước 3",
+          "Đặt thời gian Duration của trang lên thành 60 giây",
+          "Xóa bớt bước 2 và bước 3 khỏi bài trình chiếu"
+        ],
+        "k": "B",
+        "e": "Hiện từng bước theo nhịp nói (On Click) giúp khán giả theo dõi mạch logic mà không đọc trước làm mất tập trung.",
+        "s": "Tin học 4",
+        "h": "Kiểm soát nhịp xuất hiện nội dung"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc4-c4",
+    "lesson": {
+      "code": "tinhoc4-b10",
+      "title": "Bài 10. Định dạng văn bản, căn lề và tạo danh sách (Word)",
+      "seq": 10,
+      "subtitle": "Thành thạo các thao tác định dạng phông chữ, cỡ chữ, kiểu chữ (In đậm, Nghiêng, Gạch chân), căn lề đoạn văn và tạo danh sách gạch đầu dòng/số thứ tự trong Word",
+      "concepts": [
+        "Định dạng kí tự (Font, Size, B, I, U, Màu chữ)",
+        "Căn lề đoạn văn (Trái, Giữa, Phải, Đều hai bên)",
+        "Tạo danh sách Bullets và Numbering"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH4-B10-001",
+        "d": "basic",
+        "p": "Trong phần mềm soạn thảo văn bản Word, bộ ba nút lệnh B – I – U có tác dụng lần lượt là gì?",
+        "o": [
+          "Tạo bảng – Chèn ảnh – In ra giấy",
+          "Xóa chữ – Dán chữ – Lưu tệp",
+          "Căn trái – Căn giữa – Căn phải",
+          "In đậm (Bold) – In nghiêng (Italic) – Gạch chân chữ"
+        ],
+        "k": "D",
+        "e": "B = Bold (đậm), I = Italic (nghiêng), U = Underline (gạch chân).",
+        "s": "Tin học 4",
+        "h": "Nhớ bộ ba nút B, I, U"
+      },
+      {
+        "c": "TH4-B10-002",
+        "d": "basic",
+        "p": "Trước khi thực hiện định dạng (đổi màu, tăng cỡ chữ, in đậm) cho một đoạn chữ đã gõ sẵn, thao tác BẮT BUỘC đầu tiên là gì?",
+        "o": [
+          "Đóng tệp Word lại rồi mở lại từ đầu",
+          "Chọn (bôi đen) phần văn bản cần định dạng",
+          "Đưa con trỏ lên thanh tiêu đề trên cùng",
+          "Nhấn phím Enter năm lần liên tiếp"
+        ],
+        "k": "B",
+        "e": "Nguyên tắc chọn trước – xử lí sau: phải bôi đen đối tượng thì máy mới biết định dạng phần nào.",
+        "s": "Tin học 4",
+        "h": "Luôn bôi đen phần cần sửa"
+      },
+      {
+        "c": "TH4-B10-003",
+        "d": "basic",
+        "p": "Kiểu căn lề nào thường dùng cho TIÊU ĐỀ bài thơ hoặc tên bài văn ở đầu trang cho cân đối?",
+        "o": [
+          "Căn lề phải (Align Right)",
+          "Đẩy lùi ra ngoài mép giấy",
+          "Căn giữa (Center – phím tắt Ctrl + E)",
+          "Căn lề trái (Align Left)"
+        ],
+        "k": "C",
+        "e": "Tiêu đề đứng chính giữa dòng nhờ nút căn giữa (Center).",
+        "s": "Tin học 4",
+        "h": "Tiêu đề đặt ở chính giữa"
+      },
+      {
+        "c": "TH4-B10-004",
+        "d": "basic",
+        "p": "Khi trình bày một bản nội quy lớp học gồm 5 điều theo thứ tự 1, 2, 3, 4, 5, nút lệnh nào tự động đánh số thứ tự gọn gàng?",
+        "o": [
+          "Line Spacing (Giãn dòng)",
+          "Numbering (Danh sách đánh số thứ tự)",
+          "Bullets (Dấu chấm tròn không thứ tự)",
+          "Font Color (Đổi màu chữ)"
+        ],
+        "k": "B",
+        "e": "Numbering tự động đánh số 1, 2, 3...; Bullets tạo kí hiệu chấm tròn hoặc vuông đầu dòng.",
+        "s": "Tin học 4",
+        "h": "Phân biệt Numbering và Bullets"
+      },
+      {
+        "c": "TH4-B10-005",
+        "d": "basic",
+        "p": "Kiểu căn lề \"Justify\" (biểu tượng các dòng kẻ bằng nhau cả hai bên, phím tắt Ctrl + J) tạo hình thức đoạn văn thế nào?",
+        "o": [
+          "Căn thẳng đều cả hai mép lề trái và lề phải, trông trang văn bản ngay ngắn như trang sách in",
+          "Dồn toàn bộ chữ lệch hẳn sang góc bên phải",
+          "Đưa tất cả các dòng xếp thành một cột dọc ở giữa",
+          "Biến toàn bộ văn bản thành chữ viết hoa"
+        ],
+        "k": "A",
+        "e": "Các đoạn văn xuôi dài khi căn đều hai bên (Justify) nhìn rất gọn gàng, chuyên nghiệp.",
+        "s": "Tin học 4",
+        "h": "Công dụng căn đều Justify"
+      },
+      {
+        "c": "TH4-B10-006",
+        "d": "basic",
+        "p": "Quan sát bảng tổng hợp phím tắt định dạng nhanh trong Word. Tổ hợp phím nào dùng để IN ĐẬM nhanh phần chữ đang bôi đen?",
+        "o": [
+          "Ctrl + B",
+          "Ctrl + I",
+          "Ctrl + E",
+          "Ctrl + U"
+        ],
+        "k": "A",
+        "e": "Chữ cái đầu của Bold (B), Italic (I), Underline (U) gắn liền với phím tắt Ctrl+B, Ctrl+I, Ctrl+U.",
+        "s": "Tin học 4",
+        "h": "Xem hàng 1 trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Phím tắt Word hay dùng",
+          "head": [
+            "Phím tắt",
+            "Chức năng định dạng"
+          ],
+          "rows": [
+            [
+              "Ctrl + B",
+              "In đậm (Bold)"
+            ],
+            [
+              "Ctrl + I",
+              "In nghiêng (Italic)"
+            ],
+            [
+              "Ctrl + U",
+              "Gạch chân chữ"
+            ],
+            [
+              "Ctrl + E",
+              "Căn giữa đoạn văn"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH4-B10-007",
+        "d": "application",
+        "p": "Bạn Lan gõ văn bản tiếng Việt nhưng vô tình chọn một phông chữ nước ngoài không hỗ trợ dấu tiếng Việt nên chữ hiện lộn xộn ô vuông. Lan nên đổi sang nhóm phông chữ chuẩn phổ biến nào?",
+        "o": [
+          "Times New Roman, Arial hoặc Tahoma (chuẩn Unicode tiếng Việt)",
+          "Xóa sạch toàn bộ dấu thanh trong tiếng Việt đi",
+          "Bất kì phông chữ kí hiệu biểu tượng Wingdings nào",
+          "Chuyển cỡ chữ xuống nhỏ nhất 4 pt"
+        ],
+        "k": "A",
+        "e": "Times New Roman và Arial hỗ trợ đầy đủ bảng mã Unicode tiếng Việt rõ nét, chuẩn văn bản hành chính.",
+        "s": "Tin học 4",
+        "h": "Chọn font chuẩn Unicode"
+      },
+      {
+        "c": "TH4-B10-008",
+        "d": "application",
+        "p": "Để chọn NHANH toàn bộ văn bản trong tệp Word dài 5 trang để thống nhất lại một cỡ chữ 14 chung, tổ hợp phím nào tiện lợi nhất?",
+        "o": [
+          "Ctrl + S",
+          "Ctrl + A",
+          "Ctrl + P",
+          "Ctrl + X"
+        ],
+        "k": "B",
+        "e": "Ctrl + A (Select All) chọn toàn bộ nội dung văn bản trong tài liệu ngay lập tức.",
+        "s": "Tin học 4",
+        "h": "Nhớ phím tắt Ctrl + A"
+      },
+      {
+        "c": "TH4-B10-009",
+        "d": "application",
+        "p": "Trong một bức thư gửi thầy cô cũ: dòng \"Hà Nội, ngày 20 tháng 11 năm 2026\" ở góc trên nên dùng kiểu căn lề nào cho đúng thể thức?",
+        "o": [
+          "Căn phải (Align Right – Ctrl + R)",
+          "Căn giữa sát dòng cuối trang",
+          "Căn trái (Align Left)",
+          "Không cần căn lề mà bấm phím Spacebar 60 lần"
+        ],
+        "k": "A",
+        "e": "Địa điểm, ngày tháng viết thư hay văn bản hành chính thường căn phải (Align Right) gọn đẹp, không gõ phím cách thủ công.",
+        "s": "Tin học 4",
+        "h": "Tránh lạm dụng phím cách để căn lề"
+      },
+      {
+        "c": "TH4-B10-010",
+        "d": "application",
+        "p": "Một bạn học sinh muốn đẩy tiêu đề ra giữa dòng nên bấm phím Spacebar (dấu cách) liên tục 30 lần thay vì dùng nút Căn giữa (Center). Nhược điểm của thói quen này là gì?",
+        "o": [
+          "Dòng chữ lệch không chuẩn giữa trang và khi đổi cỡ chữ hoặc mở trên máy khác sẽ bị xô lệch hàng lối",
+          "Phím Spacebar không bao giờ hoạt động trong phần mềm Word",
+          "Làm cho máy tính tự động đổi sang ngôn ngữ khác",
+          "Xóa hết các câu thơ đứng phía dưới tiêu đề"
+        ],
+        "k": "A",
+        "e": "Luôn dùng công cụ căn lề chuẩn (Align Left/Center/Right/Justify) thay vì bấm dấu cách thủ công.",
+        "s": "Tin học 4",
+        "h": "Lí do dùng nút căn lề chuẩn"
+      },
+      {
+        "c": "TH4-B10-011",
+        "d": "application",
+        "p": "Khi đang tạo danh sách Bullets (các đầu dòng chấm tròn), muốn kết thúc danh sách để viết tiếp đoạn văn bình thường ở dòng dưới, ta làm thế nào?",
+        "o": [
+          "Bấm giữ phím Shift suốt hai phút",
+          "Tắt phần mềm Word rồi mở lại một tệp trắng hoàn toàn",
+          "Nhấn Enter hai lần liên tiếp (hoặc nhấp tắt nút Bullets trên thanh công cụ)",
+          "Nhấn Ctrl + A rồi bấm phím Delete"
+        ],
+        "k": "C",
+        "e": "Nhấn Enter ở dòng danh sách rỗng tự động tắt chế độ danh sách trở về đoạn thường.",
+        "s": "Tin học 4",
+        "h": "Cách thoát danh sách Bullets/Numbering"
+      },
+      {
+        "c": "TH4-B10-012",
+        "d": "application",
+        "p": "Khi soạn danh sách \"Các đồ dùng cần mang đi dã ngoại\" không bắt buộc thứ tự ưu tiên trước sau, dùng loại danh sách nào tự nhiên hơn?",
+        "o": [
+          "Danh sách kí hiệu đầu dòng (Bullets)",
+          "Chép dính liền tất cả món đồ vào một từ không dấu cách",
+          "Bôi đen rồi gạch bỏ tất cả tên đồ dùng",
+          "Danh sách đánh số bước 1, 2, 3 bắt buộc làm tuần tự"
+        ],
+        "k": "A",
+        "e": "Danh sách không phân thứ tự trước sau dùng Bullets; quy trình từng bước hoặc xếp hạng dùng Numbering.",
+        "s": "Tin học 4",
+        "h": "Phân biệt lúc dùng Bullets và Numbering"
+      },
+      {
+        "c": "TH4-B10-013",
+        "d": "advanced",
+        "p": "Phân biệt hai khái niệm định dạng trong Word: Định dạng KÍ TỰ (Font) và Định dạng ĐOẠN VĂN BẢN (Paragraph). Căn lề và giãn dòng thuộc nhóm nào?",
+        "o": [
+          "Thuộc chức năng đóng mở tệp tin",
+          "Thuộc Định dạng Đoạn văn bản (áp dụng cho cả đoạn mà con trỏ đang đứng hoặc các đoạn được chọn)",
+          "Thuộc Định dạng Kí tự (chỉ đổi được cho một chữ cái lẻ)",
+          "Chỉ áp dụng cho hình ảnh chèn thêm vào"
+        ],
+        "k": "B",
+        "e": "Chỉ cần đặt con trỏ vào bất kì chỗ nào trong đoạn là căn lề/giãn dòng áp dụng cho cả đoạn đó; còn đổi cỡ chữ/in đậm phải bôi đen từng cụm từ.",
+        "s": "Tin học 4",
+        "h": "Hiểu phạm vi tác động Font vs Paragraph"
+      },
+      {
+        "c": "TH4-B10-014",
+        "d": "advanced",
+        "p": "Bạn Hùng lỡ cài màu chữ đỏ gạch chân toàn bộ đoạn văn dài nhìn rất rối mắt. Nút lệnh \"Clear All Formatting\" (hình chữ A kèm cục tẩy) giúp Hùng làm gì nhanh nhất?",
+        "o": [
+          "Xóa sạch toàn bộ nội dung chữ khiến trang giấy trắng tinh",
+          "In ngay văn bản ra máy in màu",
+          "Xóa sạch mọi định dạng màu sắc, cỡ chữ, in đậm/nghiêng vừa chỉnh để đưa chữ về định dạng mặc định ban đầu",
+          "Tô đậm gấp đôi toàn bộ đoạn văn đó"
+        ],
+        "k": "C",
+        "e": "Nút Clear All Formatting giữ nguyên nội dung chữ, chỉ gỡ bỏ định dạng rối để định dạng lại sạch sẽ.",
+        "s": "Tin học 4",
+        "h": "Biết nút cục tẩy gỡ định dạng"
+      },
+      {
+        "c": "TH4-B10-015",
+        "d": "advanced",
+        "p": "Nếu lỡ tay xóa mất một đoạn văn đã định dạng rất công phu rồi mới phát hiện, bạn có thể khôi phục bằng nút Undo (Ctrl + Z) nếu chưa đóng tệp; còn nếu muốn lặp lại ngay vừa thao tác định dạng đó ở chỗ khác thì phím tắt nào giúp làm lại?",
+        "o": [
+          "Alt + F4 (Đóng cửa sổ)",
+          "Ctrl + Y (Redo) hoặc chổi sao chép định dạng Format Painter",
+          "Ctrl + X (Cut)",
+          "Backspace"
+        ],
+        "k": "B",
+        "e": "Ctrl + Y thực hiện lại thao tác (Redo), và Format Painter quét sao chép định dạng cực nhanh giữa các đoạn.",
+        "s": "Tin học 4",
+        "h": "Biết Redo và Format Painter"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc4-c4",
+    "lesson": {
+      "code": "tinhoc4-b11",
+      "title": "Bài 11. Luyện tập gõ văn bản tiếng Việt (Unikey, dấu thanh, sửa lỗi gõ)",
+      "seq": 11,
+      "subtitle": "Biết kiểm tra bộ gõ tiếng Việt (Unikey), bảng mã Unicode, gõ thành thạo dấu mũ và dấu thanh theo kiểu Telex/VNI và khắc phục lỗi gõ thường gặp",
+      "concepts": [
+        "Bộ gõ Unikey và bảng mã Unicode",
+        "Quy tắc gõ chữ ă, â, ê, ô, ơ, ư, đ và 5 dấu thanh Telex",
+        "Khắc phục lỗi chế độ gõ tiếng Anh (E) / sai bảng mã"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH4-B11-001",
+        "d": "basic",
+        "p": "Để gõ được tiếng Việt có dấu trên máy tính Windows, bên cạnh phông chữ hỗ trợ tiếng Việt, máy cần bật phần mềm bộ gõ nào phổ biến ở trường học?",
+        "o": [
+          "Unikey (ở chế độ tiếng Việt biểu tượng chữ V màu đỏ)",
+          "Máy tính bỏ túi Calculator",
+          "Phần mềm vẽ Paint",
+          "Trình duyệt Chrome"
+        ],
+        "k": "A",
+        "e": "Unikey chuyển tổ hợp phím thành kí tự tiếng Việt có dấu; chữ V (tiếng Việt), chữ E (tiếng Anh).",
+        "s": "Tin học 4",
+        "h": "Nhớ biểu tượng chữ V của Unikey"
+      },
+      {
+        "c": "TH4-B11-002",
+        "d": "basic",
+        "p": "Bảng mã chuẩn thống nhất hiện nay dùng khi gõ văn bản tiếng Việt trên Word, PowerPoint và Internet là bảng mã nào?",
+        "o": [
+          "Unicode",
+          "VNI Windows",
+          "ASCII thuần",
+          "TCVN3 (ABC)"
+        ],
+        "k": "A",
+        "e": "Unicode là bảng mã quốc tế giúp văn bản hiển thị chuẩn trên mọi máy tính, điện thoại và trang web.",
+        "s": "Tin học 4",
+        "h": "Chọn bảng mã Unicode"
+      },
+      {
+        "c": "TH4-B11-003",
+        "d": "basic",
+        "p": "Theo kiểu gõ Telex phổ biến nhất, muốn gõ các chữ có dấu mũ và dấu móc \"â, ê, ô, ơ, ư, đ\", ta gõ tổ hợp nào?",
+        "o": [
+          "ax -> â, ex -> ê, ox -> ô, dx -> đ",
+          "as -> â, ef -> ê, oj -> ô, dr -> đ",
+          "a1 -> â, e2 -> ê, o3 -> ô, d4 -> đ",
+          "aa -> â, ee -> ê, oo -> ô, ow -> ơ, uw -> ư, dd -> đ"
+        ],
+        "k": "D",
+        "e": "Telex nhân đôi nguyên âm cho dấu mũ (aa, ee, oo), thêm w cho ă/ơ/ư (aw, ow, uw), nhân đôi d cho đ.",
+        "s": "Tin học 4",
+        "h": "Nhớ quy tắc chữ cái Telex"
+      },
+      {
+        "c": "TH4-B11-004",
+        "d": "basic",
+        "p": "Theo kiểu gõ Telex, 5 phím chữ cái quy định 5 dấu thanh \"Sắc – Huyền – Hỏi – Ngã – Nặng\" theo đúng thứ tự là gì?",
+        "o": [
+          "w – e – r – t – y",
+          "a – b – c – d – e",
+          "s – f – r – x – j",
+          "1 – 2 – 3 – 4 – 5"
+        ],
+        "k": "C",
+        "e": "Telex: s (sắc), f (huyền), r (hỏi), x (ngã), j (nặng); gõ z để xóa dấu thanh.",
+        "s": "Tin học 4",
+        "h": "Nhớ bộ 5 phím s, f, r, x, j"
+      },
+      {
+        "c": "TH4-B11-005",
+        "d": "basic",
+        "p": "Nếu góc phải thanh tác vụ đang hiện biểu tượng chữ \"E\" màu xanh của Unikey mà em gõ \"Tieengs Vieetj\", trên màn hình sẽ hiện ra gì?",
+        "o": [
+          "Hiện nguyên chữ không dấu \"Tieengs Vieetj\" vì đang ở chế độ gõ tiếng Anh (E)",
+          "Vẫn ra chữ \"Tiếng Việt\" bình thường",
+          "Đổi sang tiếng Pháp ngay lập tức",
+          "Tự động xóa hết cả trang văn bản"
+        ],
+        "k": "A",
+        "e": "Chữ E = English (tắt gõ tiếng Việt); nhấp vào chữ E để chuyển sang chữ V màu đỏ rồi mới gõ tiếng Việt.",
+        "s": "Tin học 4",
+        "h": "Chuyển E thành V để gõ tiếng Việt"
+      },
+      {
+        "c": "TH4-B11-006",
+        "d": "basic",
+        "p": "Quan sát bảng tra cứu gõ kiểu Telex. Để gõ được từ \"trường\" trong cụm \"trường học\", dãy phím Telex chuẩn cần gõ là gì?",
+        "o": [
+          "t r u w o w n g x",
+          "t r u o n g s",
+          "t r u w o w n g f (hoặc t r u o w n g f)",
+          "t r u u o o n g j"
+        ],
+        "k": "C",
+        "e": "ư = uw (hoặc uo gõ w ở cuối cụm \"uow\"), ơ = ow, dấu huyền = f -> \"truowngf\" ra chữ \"trường\".",
+        "s": "Tin học 4",
+        "h": "Xem quy tắc uw, ow và dấu f trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Bảng quy tắc Telex",
+          "head": [
+            "Chữ cái / Dấu",
+            "Phím gõ Telex"
+          ],
+          "rows": [
+            [
+              "ă, â, ê, ô",
+              "aw, aa, ee, oo"
+            ],
+            [
+              "ơ, ư, đ",
+              "ow, uw, dd"
+            ],
+            [
+              "Sắc, Huyền",
+              "phím s, phím f"
+            ],
+            [
+              "Hỏi, Ngã, Nặng",
+              "phím r, x, j"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH4-B11-007",
+        "d": "application",
+        "p": "Gõ theo kiểu Telex, dãy phím nào sau đây tạo thành từ \"Nguyễn\"?",
+        "o": [
+          "N g u y e e n r",
+          "N g u y e n s",
+          "N g u y e n j",
+          "N g u y e e n x (hoặc N g u y e n x e)"
+        ],
+        "k": "D",
+        "e": "ữ ê dùng ee, dấu ngã dùng x -> Nguyen + e + x tạo ra \"Nguyễn\".",
+        "s": "Tin học 4",
+        "h": "Kiểm tra dấu mũ ê và dấu ngã x"
+      },
+      {
+        "c": "TH4-B11-008",
+        "d": "application",
+        "p": "Phát hiện cách sửa nhanh: Bạn Nam lỡ gõ chữ \"toan\" nhưng định viết là \"toán\", bạn ấy lại đi xóa hết cả từ để gõ lại từ đầu. Cách gõ thông minh với Telex khi gõ tiếp sau chữ \"n\" là gì?",
+        "o": [
+          "Bấm phím \"z\" hai lần liên tiếp",
+          "Phải nhấn phím nguồn tắt máy rồi bật lại mới thêm dấu được",
+          "Bấm phím \"f\" để tạo dấu sắc",
+          "Chỉ cần gõ thêm phím \"s\" ở cuối (\"toan\" + \"s\") là Unikey tự đặt dấu sắc đúng vị trí thành \"toán\""
+        ],
+        "k": "D",
+        "e": "Tính năng bỏ dấu tự do của Unikey cho phép gõ hết chữ không dấu rồi gõ phím dấu ở cuối rất nhanh.",
+        "s": "Tin học 4",
+        "h": "Bỏ dấu ở cuối từ cực tiện"
+      },
+      {
+        "c": "TH4-B11-009",
+        "d": "application",
+        "p": "Khi cần gõ một từ tiếng Anh có chứa hai chữ cái giống nhau như \"book\" hoặc \"cool\" hoặc từ \"software\" (chứa \"w\") khi đang bật chế độ gõ tiếng Việt (V), chuyện gì dễ xảy ra và khắc phục thế nào?",
+        "o": [
+          "Phải tháo hẳn bàn phím ra lắp bàn phím mới",
+          "\"oo\" dễ bị biến thành \"ô\" (\"bôk\") và \"w\" thành \"ư\"; khắc phục bằng cách tạm chuyển Unikey sang E hoặc gõ lặp chữ đó thêm một lần để trả lại chữ gốc",
+          "Máy tính không bao giờ gõ được bất kì chữ tiếng Anh nào",
+          "Chỉ gõ chữ in hoa toàn bộ từ tiếng Anh đó"
+        ],
+        "k": "B",
+        "e": "Trong Telex, gõ thêm phím lặp (\"oo\"+\"o\" -> \"oo\") hoàn nguyên kí tự gốc, hoặc bấm Ctrl+Shift / nhấp chữ V thành E.",
+        "s": "Tin học 4",
+        "h": "Mẹo xử lí xung đột từ tiếng Anh trong Telex"
+      },
+      {
+        "c": "TH4-B11-010",
+        "d": "application",
+        "p": "Phím \"z\" trong kiểu gõ Telex có chức năng đặc biệt gì?",
+        "o": [
+          "Xóa bỏ dấu vừa gõ sai trên từ hiện tại (ví dụ lỡ gõ dấu sắc thì gõ z để bỏ dấu)",
+          "Tạo chữ đ viết hoa ở đầu dòng",
+          "Tạo dấu nặng dưới chân chữ cái",
+          "Đóng chương trình soạn thảo Word"
+        ],
+        "k": "A",
+        "e": "Nhớ phím z là phím xóa dấu nhanh khi lỡ gõ nhầm dấu thanh.",
+        "s": "Tin học 4",
+        "h": "Phím z xóa dấu thanh"
+      },
+      {
+        "c": "TH4-B11-011",
+        "d": "application",
+        "p": "Bạn Hà gõ một đoạn thơ rất hay nhưng sau khi gõ xong kiểm tra lại thấy lỗi chữ \"hoà\" và \"hòa\" viết chưa thống nhất kiểu đặt dấu. Nên bật tính năng nào trong Unikey để đặt dấu thanh chuẩn quy tắc mới?",
+        "o": [
+          "Tắt hẳn phông chữ Times New Roman",
+          "Đổi kiểu gõ từ Telex sang chữ số hoàn toàn",
+          "Chuyển bảng mã sang bảng mã chữ tượng hình",
+          "Bật tùy chọn \"Sử dụng kiểu bỏ dấu mới\" (hoặc quy chuẩn oà, uý / òa, úy thống nhất cả bài)"
+        ],
+        "k": "D",
+        "e": "Thống nhất kiểu bỏ dấu (ví dụ \"hòa\", \"thúy\" hay \"hoà\", \"thuý\") giúp bài viết sạch đẹp đồng bộ.",
+        "s": "Tin học 4",
+        "h": "Giữ đồng bộ cách bỏ dấu thanh"
+      },
+      {
+        "c": "TH4-B11-012",
+        "d": "application",
+        "p": "Lỗi gõ sai phổ biến nào khiến trên màn hình hiện chữ tiếng Việt bị nhảy rời rạc kiểu \"Tiee'ng Viee.t\" (chính dấu nháy và dấu chấm)?",
+        "o": [
+          "Sử dụng chuột không dây thay cho chuột có dây",
+          "Chỉnh kích thước phông chữ lên cỡ 16",
+          "Đặt bàn phím bị nghiêng sang bên trái 5 độ",
+          "Chọn nhầm kiểu gõ VNI (dùng số) trong Unikey nhưng lại gõ bằng phím chữ Telex hoặc ngược lại, hay dùng sai phần mềm gõ"
+        ],
+        "k": "D",
+        "e": "Nhớ: kiểu Telex dùng chữ cái (s, f, r, x, j); kiểu VNI dùng hàng phím số (1, 2, 3, 4, 5). Phải khớp cài đặt Unikey!",
+        "s": "Tin học 4",
+        "h": "Kiểm tra khớp kiểu gõ Telex/VNI"
+      },
+      {
+        "c": "TH4-B11-013",
+        "d": "advanced",
+        "p": "Giả sử em mở một tệp văn bản cũ trên mạng tải về, thấy chữ tiếng Việt hiện loằng ngoằng kiểu \".VnTime\" (\"Céng hßa x· héi...\"). Nguyên nhân và hướng xử lí là gì?",
+        "o": [
+          "Phải gõ lại bằng tay từng chữ từ đầu, không có cách nào sửa",
+          "Tệp cũ đó dùng bảng mã TCVN3 (.VnTime) thay vì Unicode; có thể dùng công cụ Chuyển mã (Ctrl + Shift + F6) của Unikey chuyển sang Unicode",
+          "Do màn hình bị hỏng bóng đèn nền bên trong",
+          "Do tệp văn bản đó viết bằng ngôn ngữ lập trình Scratch"
+        ],
+        "k": "B",
+        "e": "Công cụ Unikey Toolkit hỗ trợ chuyển đổi hàng loạt giữa các bảng mã cũ (TCVN3, VNI) về chuẩn Unicode hiện đại.",
+        "s": "Tin học 4",
+        "h": "Biết công cụ chuyển mã Unikey Toolkit"
+      },
+      {
+        "c": "TH4-B11-014",
+        "d": "advanced",
+        "p": "Khi gõ đúng chính tả quy tắc đánh vần tiếng Việt chuẩn (như \"nghỉ ngơi\", \"giữ gìn\", \"dễ dàng\"), trong kiểu gõ Telex, từ \"dữ dội\" cần gõ đúng tổ hợp nào?",
+        "o": [
+          "d u w x space d o o j i",
+          "d d u w x space d o o i s",
+          "d u w s space d o i j",
+          "z u w x space z o o i j"
+        ],
+        "k": "A",
+        "e": "Chữ đầu: d (không phải dd = đ) + uw + x = \"dữ\"; chữ sau: d + oo + j + i = \"dội\".",
+        "s": "Tin học 4",
+        "h": "Phân biệt d thường với đ (dd)"
+      },
+      {
+        "c": "TH4-B11-015",
+        "d": "advanced",
+        "p": "Khi soạn văn bản có dấu câu (dấu chấm, dấu phẩy, dấu hai chấm, dấu ngoặc kép), quy tắc đặt KHOẢNG TRẮNG (Space) chuẩn quốc tế và tiếng Việt là gì?",
+        "o": [
+          "Gõ ba dấu cách liên tiếp sau mỗi dấu phẩy cho thoáng",
+          "Gõ một dấu cách trước dấu phẩy rồi gõ thêm một dấu cách sau dấu phẩy",
+          "Dấu chấm, phẩy, hai chấm, chấm hỏi đặt SÁT ngay sau chữ đứng trước, rồi mới cách một dấu cách trước chữ tiếp theo",
+          "Không bao giờ cần dấu cách sau dấu chấm câu"
+        ],
+        "k": "C",
+        "e": "Quy chuẩn đánh máy: \"Hà Nội, ngày...\" (KHÔNG viết \"Hà Nội ,ngày...\" hay \"Hà Nội , ngày...\").",
+        "s": "Tin học 4",
+        "h": "Quy tắc chuẩn dấu câu và dấu cách"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc4-c5",
+    "lesson": {
+      "code": "tinhoc4-b12",
+      "title": "Bài 12. Làm quen với môi trường lập trình trực quan Scratch",
+      "seq": 12,
+      "subtitle": "Làm quen giao diện phần mềm lập trình kéo thả khối lệnh Scratch (Sân khấu, Nhân vật, Khu vực khối lệnh, Vùng viết kịch bản) và tạo chương trình đầu tiên",
+      "concepts": [
+        "Thành phần giao diện Scratch",
+        "Nhân vật (Sprite) và Phông nền (Backdrop)",
+        "Ghép khối lệnh chạy khi bấm Cờ xanh"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH4-B12-001",
+        "d": "basic",
+        "p": "Phần mềm Scratch thuộc loại công cụ nào trong học tập Tin học Tiểu học?",
+        "o": [
+          "Hệ điều hành dùng để bật tắt nguồn máy tính",
+          "Môi trường lập trình trực quan bằng cách kéo – thả các khối lệnh ghép nối như trò chơi lắp ghép",
+          "Phần mềm chỉ dùng để gõ văn bản hành chính như Word",
+          "Phần mềm bảng tính kế toán dùng trong ngân hàng"
+        ],
+        "k": "B",
+        "e": "Scratch giúp học sinh sáng tạo câu chuyện tương tác, hoạt hình và trò chơi qua các khối lệnh màu sắc.",
+        "s": "Tin học 4",
+        "h": "Lập trình kéo thả khối lệnh"
+      },
+      {
+        "c": "TH4-B12-002",
+        "d": "basic",
+        "p": "Trên giao diện Scratch, khu vực màn hình nơi nhân vật (như chú Mèo Scratch) biểu diễn, di chuyển và nói chuyện được gọi là gì?",
+        "o": [
+          "Thanh tiêu đề văn bản",
+          "Sân khấu (Stage)",
+          "Thùng rác (Recycle Bin)",
+          "Khu vực khối lệnh (Blocks Palette)"
+        ],
+        "k": "B",
+        "e": "Sân khấu (Stage) là nơi hiển thị trực tiếp kết quả chạy của chương trình.",
+        "s": "Tin học 4",
+        "h": "Nhớ khu vực biểu diễn gọi là Stage"
+      },
+      {
+        "c": "TH4-B12-003",
+        "d": "basic",
+        "p": "Các đối tượng nhân vật (chú mèo, bạn nhỏ, quả bóng, xe ô tô...) xuất hiện trên sân khấu Scratch được gọi là gì?",
+        "o": [
+          "Phông nền (Backdrop)",
+          "Nhân vật (Sprite)",
+          "Tập tin âm thanh",
+          "Biến nhớ (Variable)"
+        ],
+        "k": "B",
+        "e": "Mỗi nhân vật (Sprite) có thể có nhiều trang phục (Costumes) và kịch bản lệnh riêng.",
+        "s": "Tin học 4",
+        "h": "Nhớ từ khóa Sprite = Nhân vật"
+      },
+      {
+        "c": "TH4-B12-004",
+        "d": "basic",
+        "p": "Biểu tượng lá Cờ màu xanh lá cây (Green Flag) phía trên Sân khấu trong Scratch dùng để làm gì?",
+        "o": [
+          "Lưu bài thành tệp văn bản Word",
+          "Bắt đầu chạy (khởi chạy) chương trình kịch bản của các nhân vật",
+          "Xóa sạch toàn bộ nhân vật khỏi dự án",
+          "Đóng tắt phần mềm Scratch ngay lập tức"
+        ],
+        "k": "B",
+        "e": "Khối sự kiện \"Khi bấm vào lá cờ xanh\" kết hợp nút Cờ xanh chạy toàn bộ kịch bản.",
+        "s": "Tin học 4",
+        "h": "Nút Cờ xanh chạy chương trình"
+      },
+      {
+        "c": "TH4-B12-005",
+        "d": "basic",
+        "p": "Biểu tượng nút hình lục giác/tròn màu Đỏ (Stop) bên cạnh lá Cờ xanh có công dụng gì?",
+        "o": [
+          "Dừng toàn bộ chương trình đang chạy trên Sân khấu",
+          "Phóng to nhân vật lên gấp mười lần",
+          "Tăng tốc độ chạy của nhân vật",
+          "Đổi màu nền sân khấu sang màu đỏ"
+        ],
+        "k": "A",
+        "e": "Cờ xanh = Start (Bắt đầu); nút Đỏ = Stop (Dừng lại).",
+        "s": "Tin học 4",
+        "h": "Nút đỏ dừng kịch bản"
+      },
+      {
+        "c": "TH4-B12-006",
+        "d": "basic",
+        "p": "Quan sát bảng 4 nhóm Khối lệnh màu sắc quen thuộc trong Scratch. Nhóm khối lệnh màu Xanh dương (Motion) điều khiển chức năng gì?",
+        "o": [
+          "Thay đổi lời nói, suy nghĩ và trang phục nhân vật",
+          "Tạo vòng lặp và điều kiện rẽ nhánh",
+          "Di chuyển, xoay hướng và thay đổi vị trí tọa độ của nhân vật trên Sân khấu",
+          "Phát âm thanh tiếng kêu hoặc bản nhạc"
+        ],
+        "k": "C",
+        "e": "Motion (Xanh dương) phụ trách chuyển động; Looks (Tím) hiển thị; Sound (Hồng) âm thanh; Events/Control sự kiện và điều khiển.",
+        "s": "Tin học 4",
+        "h": "Xem hàng 1 trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Nhóm khối lệnh Scratch",
+          "head": [
+            "Nhóm (Màu)",
+            "Chức năng điều khiển"
+          ],
+          "rows": [
+            [
+              "Motion (Xanh lam)",
+              "Di chuyển, xoay góc"
+            ],
+            [
+              "Looks (Tím)",
+              "Nói, đổi trang phục"
+            ],
+            [
+              "Sound (Tím hồng)",
+              "Phát tiếng, nốt nhạc"
+            ],
+            [
+              "Events (Vàng)",
+              "Bấm cờ xanh, phím"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH4-B12-007",
+        "d": "application",
+        "p": "Bạn Minh muốn đổi nền trắng trống trải phía sau chú mèo thành bức ảnh khu rừng xanh hoặc vũ trụ sao đêm. Minh cần thao tác với mục nào?",
+        "o": [
+          "Mở phần mềm bảng tính Excel để vẽ nền",
+          "Chọn Phông nền (Choose a Backdrop) ở góc dưới bên phải giao diện Scratch",
+          "Bấm nút Cờ xanh mười lần liên tiếp",
+          "Xóa chú mèo đi rồi vẽ đè lên khung khối lệnh"
+        ],
+        "k": "B",
+        "e": "Backdrop là hình ảnh phông nền của Sân khấu (khác với Sprite là nhân vật di chuyển bên trên).",
+        "s": "Tin học 4",
+        "h": "Phân biệt Backdrop và Sprite"
+      },
+      {
+        "c": "TH4-B12-008",
+        "d": "application",
+        "p": "Để nhân vật chú mèo thực hiện hành động ngay khi em bấm chuột vào lá Cờ xanh, khối lệnh đầu tiên (hình mũ) phải đặt trên đỉnh đoạn lệnh là khối nào?",
+        "o": [
+          "Khối \"Khi bấm vào [lá cờ xanh]\" (When green flag clicked) thuộc nhóm Events",
+          "Khối \"Phát âm thanh Meow\" thuộc nhóm Sound",
+          "Khối \"Dừng lại tất cả\" (Stop all) thuộc nhóm Control",
+          "Khối \"Di chuyển 10 bước\" (Move 10 steps) thuộc nhóm Motion"
+        ],
+        "k": "A",
+        "e": "Khối sự kiện hình mũ cong tròn ở trên là điểm khởi đầu kích hoạt chuỗi lệnh ghép bên dưới.",
+        "s": "Tin học 4",
+        "h": "Nhớ khối mũ Events"
+      },
+      {
+        "c": "TH4-B12-009",
+        "d": "application",
+        "p": "Bạn Hoa kéo hai khối lệnh thả vào vùng viết kịch bản nhưng để hai khối rời cách nhau một khoảng trắng, không khớp ngàm dính vào nhau. Khi bấm Cờ xanh, điều gì xảy ra?",
+        "o": [
+          "Phần mềm Scratch bị hỏng không mở lại được nữa",
+          "Khối lệnh không gắn vào khối sự kiện Cờ xanh sẽ KHÔNG tự động chạy theo luồng kịch bản đó",
+          "Hai khối lệnh tự động bay sát vào dính chặt với nhau",
+          "Chú mèo nhảy ra ngoài màn hình máy tính"
+        ],
+        "k": "B",
+        "e": "Các khối lệnh phải lắp khít ngàm với nhau thành chuỗi liên tiếp dưới khối Sự kiện thì máy mới chạy tuần tự.",
+        "s": "Tin học 4",
+        "h": "Ghép khít ngàm khối lệnh"
+      },
+      {
+        "c": "TH4-B12-010",
+        "d": "application",
+        "p": "Muốn chuyển ngôn ngữ giao diện các khối lệnh Scratch từ tiếng Anh sang Tiếng Việt cho dễ đọc hiểu ở Lớp 4, ta nhấp vào biểu tượng nào ở thanh trên cùng?",
+        "o": [
+          "Biểu tượng hình Quả địa cầu (Language) ở góc trên bên trái thanh menu",
+          "Biểu tượng lá Cờ xanh",
+          "Biểu tượng cái Kéo cắt ảnh",
+          "Biểu tượng hình Thùng rác"
+        ],
+        "k": "A",
+        "e": "Biểu tượng Quả địa cầu cho phép chọn hàng chục ngôn ngữ, bao gồm Tiếng Việt chuẩn xác.",
+        "s": "Tin học 4",
+        "h": "Nút Quả địa cầu đổi ngôn ngữ"
+      },
+      {
+        "c": "TH4-B12-011",
+        "d": "application",
+        "p": "Sân khấu trong Scratch được chia theo hệ trục tọa độ (x, y) với tâm chính giữa màn hình có tọa độ là bao nhiêu?",
+        "o": [
+          "(x = 10, y = 20)",
+          "(x = 100, y = 100)",
+          "(x = -240, y = 180)",
+          "(x = 0, y = 0)"
+        ],
+        "k": "D",
+        "e": "Chính giữa sân khấu là gốc tọa độ (0, 0); chiều ngang x từ -240 đến 240; chiều dọc y từ -180 đến 180.",
+        "s": "Tin học 4",
+        "h": "Nhớ tâm sân khấu (0, 0)"
+      },
+      {
+        "c": "TH4-B12-012",
+        "d": "application",
+        "p": "Khi viết xong một kịch bản hay cho nhân vật, để lưu dự án Scratch về máy tính phòng thực hành (tệp có đuôi .sb3), em vào bảng chọn nào?",
+        "o": [
+          "Âm thanh (Sounds) -> Ghi âm mới",
+          "Trang phục (Costumes) -> Tô màu nền",
+          "Tập tin (File) -> Lưu về máy tính (Save to your computer)",
+          "Chỉnh sửa (Edit) -> Bật chế độ Turbo"
+        ],
+        "k": "C",
+        "e": "Lưu dự án về máy tính tạo tệp .sb3 để buổi sau mở lại tiếp tục lập trình.",
+        "s": "Tin học 4",
+        "h": "Menu File -> Save to your computer"
+      },
+      {
+        "c": "TH4-B12-013",
+        "d": "advanced",
+        "p": "Quan sát chuỗi khối lệnh Scratch minh họa bên dưới. Khi bấm vào lá Cờ xanh, nhân vật sẽ thực hiện thứ tự công việc thế nào?",
+        "o": [
+          "Di chuyển 50 bước trước khi bấm lá cờ xanh",
+          "Nói \"Xin chào!\" trong 2 giây rồi di chuyển 50 bước và phát âm thanh Meow",
+          "Không chạy gì cả vì thiếu khối di chuyển",
+          "Phát âm thanh Meow trước rồi mới nói \"Xin chào!\""
+        ],
+        "k": "B",
+        "e": "Trong lập trình tuần tự, các khối ghép từ trên xuống dưới được thực hiện lần lượt đúng theo thứ tự lắp ghép.",
+        "s": "Tin học 4",
+        "h": "Đọc tuần tự từ khối trên xuống dưới",
+        "fig": {
+          "w": 320,
+          "h": 186,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  45,
+                  18
+                ],
+                [
+                  275,
+                  18
+                ],
+                [
+                  275,
+                  46
+                ],
+                [
+                  45,
+                  46
+                ]
+              ],
+              "fill": "#eab308",
+              "stroke": "#1e293b",
+              "w": 1.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                36
+              ],
+              "s": "Khi bấm vào Cờ xanh",
+              "anchor": "middle",
+              "size": 11,
+              "color": "#ffffff"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  45,
+                  52
+                ],
+                [
+                  275,
+                  52
+                ],
+                [
+                  275,
+                  80
+                ],
+                [
+                  45,
+                  80
+                ]
+              ],
+              "fill": "#3b82f6",
+              "stroke": "#1e293b",
+              "w": 1.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                70
+              ],
+              "s": "Nói \"Xin chào!\" 2 giây",
+              "anchor": "middle",
+              "size": 11,
+              "color": "#ffffff"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  45,
+                  86
+                ],
+                [
+                  275,
+                  86
+                ],
+                [
+                  275,
+                  114
+                ],
+                [
+                  45,
+                  114
+                ]
+              ],
+              "fill": "#f97316",
+              "stroke": "#1e293b",
+              "w": 1.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                104
+              ],
+              "s": "Di chuyển 50 bước",
+              "anchor": "middle",
+              "size": 11,
+              "color": "#ffffff"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  45,
+                  120
+                ],
+                [
+                  275,
+                  120
+                ],
+                [
+                  275,
+                  148
+                ],
+                [
+                  45,
+                  148
+                ]
+              ],
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "w": 1.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                138
+              ],
+              "s": "Phát âm thanh Meow",
+              "anchor": "middle",
+              "size": 11,
+              "color": "#ffffff"
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                174
+              ],
+              "s": "Kịch bản Scratch đầu tiên",
+              "anchor": "middle",
+              "size": 11.5
+            }
+          ]
+        }
+      },
+      {
+        "c": "TH4-B12-014",
+        "d": "advanced",
+        "p": "Giả sử sân khấu có 2 nhân vật: Chú Mèo và Quả Táo. Bạn Minh lỡ viết hết toàn bộ khối lệnh điều khiển quả táo rơi vào trong phần kịch bản của Chú Mèo. Kết quả là gì?",
+        "o": [
+          "Scratch tự động sửa lại toàn bộ kịch bản hộ Minh",
+          "Cả hai nhân vật biến mất khỏi sân khấu",
+          "Quả Táo tự động hiểu và rơi theo lệnh của Chú Mèo",
+          "Chú Mèo sẽ chạy các lệnh đó còn Quả Táo đứng im; cần chọn đúng nhân vật Quả Táo trước khi ghép lệnh cho nó"
+        ],
+        "k": "D",
+        "e": "Mỗi Sprite sở hữu vùng viết kịch bản riêng biệt; luôn nhìn góc phải xem đang chọn đúng Sprite cần lập trình chưa.",
+        "s": "Tin học 4",
+        "h": "Mỗi Sprite có kịch bản riêng"
+      },
+      {
+        "c": "TH4-B12-015",
+        "d": "advanced",
+        "p": "Lợi ích giáo dục lớn nhất của việc học lập trình Scratch ở Tiểu học là gì?",
+        "o": [
+          "Thay thế hoàn toàn môn Tiếng Việt và môn Toán trên lớp",
+          "Chỉ để nhớ thuộc lòng tên màu sắc của tám hình chữ nhật",
+          "Giúp không cần gõ bất kì văn bản nào trong cuộc sống",
+          "Rèn tư duy logic, chia nhỏ vấn đề, sáng tạo câu chuyện số và biết kiểm thử – sửa lỗi (debug) từng bước"
+        ],
+        "k": "D",
+        "e": "Scratch rèn tư duy thuật toán (Algorithmic thinking) và năng lực giải quyết vấn đề sáng tạo.",
+        "s": "Tin học 4",
+        "h": "Phát triển tư duy logic và sáng tạo"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc4-c5",
+    "lesson": {
+      "code": "tinhoc4-b13",
+      "title": "Bài 13. Tạo chương trình với các khối lệnh Chuyển động, Hiển thị và Âm thanh",
+      "seq": 13,
+      "subtitle": "Phối hợp thành thạo các khối lệnh Motion (di chuyển, xoay, bật lại khi chạm cạnh), Looks (nói, đổi trang phục) và Sound tạo hoạt cảnh sinh động",
+      "concepts": [
+        "Khối Motion: Di chuyển, Xoay, Bật lại nếu chạm cạnh",
+        "Khối Looks: Nói/Nghĩ, Trang phục kế tiếp",
+        "Đồng bộ Thời gian đợi (Wait) và Âm thanh"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH4-B13-001",
+        "d": "basic",
+        "p": "Trong nhóm Chuyển động (Motion), muốn nhân vật tiến thẳng về phía trước theo hướng đang quay mặt một đoạn 20 bước, em dùng khối lệnh nào?",
+        "o": [
+          "Di chuyển [20] bước (Move 20 steps)",
+          "Đợi [20] giây (Wait 20 seconds)",
+          "Đặt kích thước thành [20]%",
+          "Xoay phải [20] độ (Turn right 20 degrees)"
+        ],
+        "k": "A",
+        "e": "\"Move ... steps\" dịch chuyển nhân vật thẳng theo hướng hiện tại.",
+        "s": "Tin học 4",
+        "h": "Nhớ khối Move steps"
+      },
+      {
+        "c": "TH4-B13-002",
+        "d": "basic",
+        "p": "Khối lệnh \"Trang phục kế tiếp\" (Next costume) thuộc nhóm Hiển thị (Looks) dùng để tạo hiệu ứng gì?",
+        "o": [
+          "Phát một bài hát mp3 dài ba phút",
+          "Chuyển đổi liên tiếp giữa các hình dáng khác nhau của cùng một nhân vật (như bước chân chạy, vỗ cánh)",
+          "Xóa bỏ nhân vật khỏi sân khấu mãi mãi",
+          "Đưa nhân vật nhảy vọt ra ngoài màn hình"
+        ],
+        "k": "B",
+        "e": "Thay đổi lần lượt các Costumes kết hợp di chuyển tạo cảm giác hoạt hình mượt mà như nhân vật đang bước đi thật.",
+        "s": "Tin học 4",
+        "h": "Hiểu cơ chế Next costume"
+      },
+      {
+        "c": "TH4-B13-003",
+        "d": "basic",
+        "p": "Khi hai nhân vật đối thoại với nhau trên sân khấu, vì sao nên dùng khối \"Nói [câu thoại] trong [2] giây\" (Say ... for 2 seconds) thay vì khối \"Nói [...]\" không giới hạn giây?",
+        "o": [
+          "Vì khối có quy định thời gian sẽ tự tắt bong bóng thoại sau 2 giây trước khi nhân vật kia đáp lời, không bị nói chồng đè lên nhau",
+          "Vì khối có số giây làm nhân vật biến thành màu đỏ",
+          "Vì máy tính chỉ chạy được tối đa một khối nói trong cả bài",
+          "Vì khối \"Nói [...]\" không cho phép gõ chữ tiếng Việt"
+        ],
+        "k": "A",
+        "e": "Dùng \"Nói ... trong ... giây\" giúp điều phối nhịp đối thoại chuẩn xác giữa nhiều nhân vật.",
+        "s": "Tin học 4",
+        "h": "Điều phối nhịp thoại bằng số giây"
+      },
+      {
+        "c": "TH4-B13-004",
+        "d": "basic",
+        "p": "Sự khác nhau giữa hai khối lệnh Âm thanh: \"Phát âm thanh [Meow] đến hết\" (Play sound until done) và \"Bắt đầu âm thanh [Meow]\" (Start sound)?",
+        "o": [
+          "Hai khối hoàn toàn giống nhau không khác gì về thời gian",
+          "\"Bắt đầu âm thanh\" chỉ dùng được khi đã tắt loa máy tính",
+          "\"Phát ... đến hết\" không phát ra tiếng gì cả",
+          "\"Phát ... đến hết\" chờ âm thanh chạy xong hoàn toàn rồi mới thực hiện khối lệnh tiếp theo; \"Bắt đầu âm thanh\" vừa phát nhạc vừa chạy tiếp lệnh bên dưới ngay"
+        ],
+        "k": "D",
+        "e": "Khi muốn nhạc nền vang lên CÙNG LÚC nhân vật bước đi, dùng \"Bắt đầu âm thanh\"; muốn xong câu hát mới đi tiếp dùng \"đến hết\".",
+        "s": "Tin học 4",
+        "h": "Phân biệt Start sound và Play until done"
+      },
+      {
+        "c": "TH4-B13-005",
+        "d": "basic",
+        "p": "Nếu nhân vật đi mãi tới sát mép phải của Sân khấu và bị khuất mất một nửa, khối lệnh nào trong nhóm Motion giúp nhân vật chạm cạnh thì quay đầu bật lại?",
+        "o": [
+          "Ẩn nhân vật (Hide)",
+          "Xóa hết trang phục (Delete costume)",
+          "Đi tới vị trí ngẫu nhiên (Go to random position)",
+          "Bật lại nếu chạm cạnh (If on edge, bounce)"
+        ],
+        "k": "D",
+        "e": "Kết hợp \"If on edge, bounce\" với kiểu xoay trái – phải giữ nhân vật luôn đi lại gọn trong Sân khấu.",
+        "s": "Tin học 4",
+        "h": "Nhớ khối If on edge, bounce"
+      },
+      {
+        "c": "TH4-B13-006",
+        "d": "basic",
+        "p": "Quan sát bảng công dụng các khối lệnh Looks & Motion hay dùng. Khối nào làm nhân vật lộn ngược đầu lại nếu không chú ý chỉnh kiểu xoay?",
+        "o": [
+          "Xoay 180 độ khi chạm cạnh mà đang để kiểu xoay mặc định \"Xoay xung quanh (all around)\"",
+          "Nói \"Chào bạn\" trong 2 giây",
+          "Phóng to kích thước thêm 10%",
+          "Chuyển sang trang phục kế tiếp"
+        ],
+        "k": "A",
+        "e": "Để nhân vật quay trái – phải bình thường không bị chổng ngược đầu, cần đặt kiểu xoay Trái – Phải (left-right).",
+        "s": "Tin học 4",
+        "h": "Xem hàng 3 trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Khối Chuyển động & Hiển thị",
+          "head": [
+            "Khối lệnh",
+            "Tác dụng chính"
+          ],
+          "rows": [
+            [
+              "Di chuyển 10 bước",
+              "Tiến theo hướng mặt"
+            ],
+            [
+              "Trang phục kế tiếp",
+              "Tạo dáng bước chạy"
+            ],
+            [
+              "Đặt kiểu xoay L-R",
+              "Quay mặt đúng chiều"
+            ],
+            [
+              "Nói ... trong 2 giây",
+              "Hiện bóng thoại tạm"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH4-B13-007",
+        "d": "application",
+        "p": "Bạn Minh cho chú Mèo đi từ trái sang phải, chạm mép sân khấu rồi bật lại bằng \"Bật lại nếu chạm cạnh\", nhưng khi quay ngược về bên trái chú Mèo bị lộn ngược chân lên trời! Minh phải sửa bằng khối lệnh nào?",
+        "o": [
+          "Đặt kiểu xoay \"Trái – Phải\" (Set rotation style [left-right])",
+          "Thêm khối \"Ẩn\" (Hide) ngay sau khi chạm cạnh",
+          "Bấm nút Dừng lại rồi vẽ lại chú mèo lộn ngược bằng tay",
+          "Xóa bỏ khối \"Di chuyển 10 bước\""
+        ],
+        "k": "A",
+        "e": "Kiểu xoay \"left-right\" giúp nhân vật lật hướng mặt sang trái/phải tự nhiên không bị quay tròn lộn đầu.",
+        "s": "Tin học 4",
+        "h": "Đặt rotation style left-right"
+      },
+      {
+        "c": "TH4-B13-008",
+        "d": "application",
+        "p": "Để nhân vật A nói trước 2 giây rồi nhân vật B mới trả lời ngay sau đó mà không bị nói cùng một lúc, kịch bản của nhân vật B cần đặt khối gì ngay đầu sau Cờ xanh?",
+        "o": [
+          "Khối \"Đợi [2] giây\" (Wait 2 seconds) thuộc nhóm Điều khiển (Control) trước khi hiện câu thoại của B",
+          "Khối \"Dừng lại tất cả\" trước khi nói",
+          "Khối \"Ẩn\" vĩnh viễn nhân vật A đi",
+          "Khối \"Xoay 90 độ\" năm lần liên tiếp"
+        ],
+        "k": "A",
+        "e": "Dùng \"Wait N seconds\" là cách đồng bộ thời gian cơ bản khi hai nhân vật cùng bắt đầu từ Cờ xanh.",
+        "s": "Tin học 4",
+        "h": "Đồng bộ hội thoại bằng Wait"
+      },
+      {
+        "c": "TH4-B13-009",
+        "d": "application",
+        "p": "Muốn chú Chim có 2 trang phục (cánh giơ lên và cánh hạ xuống) đập cánh mượt mà dễ nhìn bằng mắt thường khi chạy trong vòng lặp, cần đặt thêm khối gì giữa hai lần đổi trang phục?",
+        "o": [
+          "Khối \"Đi tới (x:0, y:0)\" sau mỗi lần đổi cánh",
+          "Khối \"Đợi [60] giây\" (chờ đúng một phút mỗi cái vỗ cánh)",
+          "Không đợi gì và tắt luôn khối \"Trang phục kế tiếp\"",
+          "Khối \"Đợi [0.2] giây\" (Wait 0.2 seconds) để mắt kịp thấy rõ từng nhịp vỗ cánh"
+        ],
+        "k": "D",
+        "e": "Máy tính chạy rất nhanh; thêm độ trễ ngắn 0.1–0.3 giây giúp chuyển động cánh chim vừa nhịp tự nhiên.",
+        "s": "Tin học 4",
+        "h": "Tạo nhịp trễ ngắn Wait 0.2s"
+      },
+      {
+        "c": "TH4-B13-010",
+        "d": "application",
+        "p": "Khối lệnh \"Xoay phải [90] độ\" lặp lại 4 lần xen kẽ với \"Di chuyển [100] bước\" sẽ làm nhân vật vẽ nên đường đi có hình dạng gì (nếu có bút vẽ)?",
+        "o": [
+          "Một hình vuông có độ dài cạnh 100 bước",
+          "Nhân vật đứng im tại một điểm không nhúc nhích",
+          "Một hình tam giác đều có 3 góc",
+          "Một đường thẳng dài vô tận ra khỏi màn hình"
+        ],
+        "k": "A",
+        "e": "Hình vuông gồm 4 cạnh bằng nhau và 4 góc quay vuông 90 độ (4 × 90 = 360 độ).",
+        "s": "Tin học 4",
+        "h": "4 lần đi thẳng + rẽ 90 độ = hình vuông"
+      },
+      {
+        "c": "TH4-B13-011",
+        "d": "application",
+        "p": "Trong nhóm Hiển thị (Looks), cặp khối lệnh \"Hiện\" (Show) và \"Ẩn\" (Hide) thường đi kèm quy tắc thực hành nào khi bấm lại Cờ xanh?",
+        "o": [
+          "Không bao giờ được dùng khối \"Hiện\" khi mới bắt đầu chương trình",
+          "Phải xóa nhân vật đi rồi tạo lại nhân vật mới mỗi lần chơi",
+          "Nếu trong kịch bản có làm nhân vật \"Ẩn\" đi ở cuối truyện, cần đặt khối \"Hiện\" ở ngay đầu khi bấm Cờ xanh để lần chơi sau nhân vật hiện lại bình thường",
+          "Chỉ cần dùng mỗi khối \"Ẩn\" là nhân vật tự hiện lại ở lần chạy sau"
+        ],
+        "k": "C",
+        "e": "Scratch ghi nhớ trạng thái cuối cùng; khởi tạo lại trạng thái ban đầu (Show, vị trí gốc, kích thước 100%) sau Cờ xanh là thói quen lập trình chuẩn.",
+        "s": "Tin học 4",
+        "h": "Khởi tạo lại trạng thái đầu sau Cờ xanh"
+      },
+      {
+        "c": "TH4-B13-012",
+        "d": "application",
+        "p": "Muốn đưa nhân vật trở về ngay chính giữa Sân khấu mỗi khi khởi động lại chương trình từ Cờ xanh, dùng khối lệnh Motion nào?",
+        "o": [
+          "Đặt y bằng [180]",
+          "Thay đổi x một lượng [10]",
+          "Đi tới điểm x: [0] y: [0] (Go to x: 0 y: 0)",
+          "Bật lại nếu chạm cạnh"
+        ],
+        "k": "C",
+        "e": "\"Go to x: 0 y: 0\" đặt nhân vật về đúng tâm Sân khấu bất kể lúc trước nó chạy đi đâu.",
+        "s": "Tin học 4",
+        "h": "Đặt tọa độ khởi đầu (0, 0)"
+      },
+      {
+        "c": "TH4-B13-013",
+        "d": "advanced",
+        "p": "Quan sát chuỗi khối lệnh Scratch minh họa bước đi. Nếu trang phục 1 của Mèo đưa chân trái trước và trang phục 2 đưa chân phải trước, đoạn lệnh sau tạo hoạt cảnh gì?",
+        "o": [
+          "Chú Mèo xoay tròn tại chỗ một vòng 360 độ",
+          "Chú Mèo biến mất khỏi Sân khấu sau 1 giây",
+          "Chú Mèo bước đi về phía trước 4 nhịp chân sinh động, mỗi bước cách 0.2 giây",
+          "Chú Mèo nói câu chào rồi đứng yên"
+        ],
+        "k": "C",
+        "e": "Lặp 4 lần (di chuyển 15 bước -> đổi dáng chân -> đợi 0.2s) mô phỏng hoạt cảnh đi bộ tự nhiên.",
+        "s": "Tin học 4",
+        "h": "Đọc kết hợp khối Move + Next costume + Wait",
+        "fig": {
+          "w": 320,
+          "h": 186,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  45,
+                  18
+                ],
+                [
+                  275,
+                  18
+                ],
+                [
+                  275,
+                  46
+                ],
+                [
+                  45,
+                  46
+                ]
+              ],
+              "fill": "#eab308",
+              "stroke": "#1e293b",
+              "w": 1.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                36
+              ],
+              "s": "Khi bấm vào Cờ xanh",
+              "anchor": "middle",
+              "size": 11,
+              "color": "#ffffff"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  45,
+                  52
+                ],
+                [
+                  275,
+                  52
+                ],
+                [
+                  275,
+                  80
+                ],
+                [
+                  45,
+                  80
+                ]
+              ],
+              "fill": "#3b82f6",
+              "stroke": "#1e293b",
+              "w": 1.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                70
+              ],
+              "s": "Lặp lại 4 lần:",
+              "anchor": "middle",
+              "size": 11,
+              "color": "#ffffff"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  45,
+                  86
+                ],
+                [
+                  275,
+                  86
+                ],
+                [
+                  275,
+                  114
+                ],
+                [
+                  45,
+                  114
+                ]
+              ],
+              "fill": "#f97316",
+              "stroke": "#1e293b",
+              "w": 1.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                104
+              ],
+              "s": "  Di chuyển 15 bước",
+              "anchor": "middle",
+              "size": 11,
+              "color": "#ffffff"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  45,
+                  120
+                ],
+                [
+                  275,
+                  120
+                ],
+                [
+                  275,
+                  148
+                ],
+                [
+                  45,
+                  148
+                ]
+              ],
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "w": 1.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                138
+              ],
+              "s": "  Trang phục kế tiếp",
+              "anchor": "middle",
+              "size": 11,
+              "color": "#ffffff"
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                174
+              ],
+              "s": "Hoạt cảnh bước đi",
+              "anchor": "middle",
+              "size": 11.5
+            }
+          ]
+        }
+      },
+      {
+        "c": "TH4-B13-014",
+        "d": "advanced",
+        "p": "Bạn An lập trình chú Ong bay chéo lên góc trên bên phải bằng cách cho \"Đi tới điểm x: 200 y: 150\", nhưng sau khi bấm Cờ xanh lần 1 chú Ong đã đứng sẵn ở đó nên lần 2 bấm Cờ xanh không thấy bay nữa. Vì sao và sửa thế nào?",
+        "o": [
+          "Vì thiếu lệnh đặt vị trí xuất phát ban đầu (ví dụ \"Đi tới điểm x: -180 y: -120\") và nên dùng khối \"Lướt trong [2] giây tới điểm x: 200 y: 150\" (Glide)",
+          "Vì tọa độ (200, 150) nằm ngoài Hệ Mặt Trời",
+          "Phải đổi tên chú Ong thành chú Bướm thì mới chạy lần 2 được",
+          "Vì Scratch chỉ cho phép nhân vật bay đúng một lần duy nhất trong đời"
+        ],
+        "k": "A",
+        "e": "Đặt vị trí gốc lúc đầu + dùng lệnh \"Lướt trong ... giây tới điểm...\" (Glide) mới nhìn thấy hành trình bay mượt mà mỗi lần bấm Cờ xanh.",
+        "s": "Tin học 4",
+        "h": "Dùng vị trí xuất phát + Glide"
+      },
+      {
+        "c": "TH4-B13-015",
+        "d": "advanced",
+        "p": "Khi thay đổi kích thước nhân vật bằng \"Đặt kích thước thành [100]%\" so với \"Thay đổi kích thước một lượng [10]\", sự khác biệt cốt lõi là gì?",
+        "o": [
+          "Hai khối hoàn toàn giống nhau, bấm khối nào cũng cho ra cùng một số",
+          "\"Thay đổi một lượng\" luôn thu nhỏ nhân vật về 0%",
+          "\"Đặt kích thước\" chỉ đổi màu sắc chứ không đổi độ lớn",
+          "\"Đặt kích thước thành...\" đưa về đúng tỉ lệ cố định (ví dụ 100% gốc); \"Thay đổi ... một lượng\" cộng thêm (hoặc trừ đi) so với kích thước hiện tại"
+        ],
+        "k": "D",
+        "e": "Phân biệt \"Set...\" (gán giá trị tuyệt đối) với \"Change... by...\" (tăng/giảm tương đối) là tư duy lập trình rất quan trọng.",
+        "s": "Tin học 4",
+        "h": "Phân biệt Set (đặt) và Change (thay đổi thêm)"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc4-c5",
+    "lesson": {
+      "code": "tinhoc4-b14",
+      "title": "Bài 14. Sử dụng Cấu trúc lặp liên tục và lặp hữu hạn trong Scratch",
+      "seq": 14,
+      "subtitle": "Phân biệt và vận dụng đúng vòng lặp hữu hạn (Lặp lại n lần – Repeat) và vòng lặp vô hạn (Liên tục – Forever) để chương trình gọn gàng, thông minh",
+      "concepts": [
+        "Khái niệm cấu trúc lặp trong lập trình",
+        "Lặp lại N lần (Repeat) vs Liên tục (Forever)",
+        "Kết hợp lặp điều khiển chuyển động, âm thanh nền"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH4-B14-001",
+        "d": "basic",
+        "p": "Trong lập trình Scratch, nhóm khối lệnh \"Cấu trúc lặp\" thuộc nhóm màu cam có tên là gì?",
+        "o": [
+          "Âm thanh (Sound)",
+          "Điều khiển (Control)",
+          "Hiển thị (Looks)",
+          "Chuyển động (Motion)"
+        ],
+        "k": "B",
+        "e": "Hai khối lặp chính \"Lặp lại [10] lần\" (Repeat) và \"Liên tục\" (Forever) đều nằm trong nhóm Control.",
+        "s": "Tin học 4",
+        "h": "Nhớ nhóm Control màu cam"
+      },
+      {
+        "c": "TH4-B14-002",
+        "d": "basic",
+        "p": "Sự khác nhau cơ bản nhất giữa khối \"Lặp lại [10] lần\" (Repeat 10) và khối \"Liên tục\" (Forever) là gì?",
+        "o": [
+          "\"Lặp lại [10] lần\" chỉ lặp đúng 10 lần rồi dừng (hữu hạn); \"Liên tục\" lặp mãi không ngừng cho đến khi bấm nút Đỏ dừng chương trình",
+          "Cả hai khối đều không thể chứa bất kì khối lệnh nào bên trong",
+          "\"Liên tục\" chỉ chạy đúng một lần rồi tự tắt luôn",
+          "\"Lặp lại [10] lần\" chạy mãi mãi không bao giờ kết thúc"
+        ],
+        "k": "A",
+        "e": "Repeat = biết trước số lần lặp (hữu hạn); Forever = lặp không ngừng (vô hạn).",
+        "s": "Tin học 4",
+        "h": "Phân biệt hữu hạn và vô hạn"
+      },
+      {
+        "c": "TH4-B14-003",
+        "d": "basic",
+        "p": "Lợi ích lớn nhất của việc dùng Cấu trúc lặp thay vì kéo thả lặp đi lặp lại cùng một khối lệnh 20 lần nối tiếp nhau là gì?",
+        "o": [
+          "Bắt buộc máy tính không được phát âm thanh",
+          "Khiến nhân vật di chuyển chậm hơn gấp mười lần",
+          "Giúp kịch bản ngắn gọn, dễ đọc, dễ sửa chữa và tiết kiệm công sức lập trình rất nhiều",
+          "Làm chương trình dài lê thê gấp đôi bình thường"
+        ],
+        "k": "C",
+        "e": "Thay vì xếp 50 khối giống hệt nhau, chỉ cần 1 khối Repeat 50 rất gọn và dễ chỉnh số lần.",
+        "s": "Tin học 4",
+        "h": "Ưu điểm gọn và dễ bảo trì của vòng lặp"
+      },
+      {
+        "c": "TH4-B14-004",
+        "d": "basic",
+        "p": "Quan sát đáy dưới của khối lệnh \"Liên tục\" (Forever): vì sao đáy dưới của khối này phẳng trơn, KHÔNG có khớp nối để ghép thêm khối lệnh nào bên dưới nó nữa?",
+        "o": [
+          "Vì không có khối nào khác trong nhóm Điều khiển",
+          "Vì khối Liên tục luôn đứng cao nhất trên đầu màn hình",
+          "Vì vòng lặp Liên tục chạy mãi không bao giờ kết thúc nên mọi lệnh ghép phía dưới nó sẽ không bao giờ được thực hiện tới",
+          "Vì nhà sản xuất phần mềm quên vẽ ngàm nối cho khối này"
+        ],
+        "k": "C",
+        "e": "Luồng điều khiển bị giữ mãi bên trong vòng Forever (trừ khi gặp lệnh Stop), nên không thể thoát xuống dưới.",
+        "s": "Tin học 4",
+        "h": "Hiểu thiết kế phẳng đáy của Forever"
+      },
+      {
+        "c": "TH4-B14-005",
+        "d": "basic",
+        "p": "Muốn chú Cá bơi qua bơi lại không bao giờ dừng trong bể thủy cung trên Sân khấu, em chọn khối lặp nào bọc quanh lệnh bơi và bật lại khi chạm cạnh?",
+        "o": [
+          "Khối \"Liên tục\" (Forever)",
+          "Khối \"Đợi 1 giây\" (Wait 1 second)",
+          "Khối \"Lặp lại 1 lần\" (Repeat 1)",
+          "Khối \"Dừng lại tất cả\" (Stop all)"
+        ],
+        "k": "A",
+        "e": "Chuyển động nền liên tục suốt thời gian xem cần đặt trong vòng lặp Forever.",
+        "s": "Tin học 4",
+        "h": "Chạy suốt không dừng dùng Forever"
+      },
+      {
+        "c": "TH4-B14-006",
+        "d": "basic",
+        "p": "Quan sát bảng so sánh 2 loại Vòng lặp trong Scratch. Bài toán \"Đếm ngược 5 giây trước khi phóng tên lửa: 5, 4, 3, 2, 1\" nên dùng khối lặp nào?",
+        "o": [
+          "Bấm nút Đỏ 5 lần",
+          "Không dùng khối lặp nào, chỉ dùng khối Ẩn",
+          "Liên tục (Forever)",
+          "Lặp lại [5] lần (Repeat 5)"
+        ],
+        "k": "D",
+        "e": "Đếm ngược 5 giây có số bước xác định trước là 5 -> dùng vòng lặp hữu hạn Repeat 5.",
+        "s": "Tin học 4",
+        "h": "Xem hàng 1 trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "2 Loại vòng lặp Scratch",
+          "head": [
+            "Khối lệnh",
+            "Khi nào nên chọn"
+          ],
+          "rows": [
+            [
+              "Lặp lại [N] lần",
+              "Biết rõ số lần lặp"
+            ],
+            [
+              "Liên tục",
+              "Chạy mãi không dừng"
+            ],
+            [
+              "Lưu ý ghép",
+              "Đáy Forever phẳng"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH4-B14-007",
+        "d": "application",
+        "p": "Trong vòng lặp \"Lặp lại [4] lần\": bên trong có 2 khối là \"Di chuyển 10 bước\" và \"Nói Xin chào 1 giây\". Tổng cộng nhân vật sẽ di chuyển bao nhiêu bước sau khi vòng lặp kết thúc?",
+        "o": [
+          "400 bước",
+          "14 bước",
+          "40 bước (4 × 10 = 40 bước)",
+          "10 bước"
+        ],
+        "k": "C",
+        "e": "Mỗi vòng chạy 10 bước, lặp đúng 4 vòng -> tổng quãng đường 4 × 10 = 40 bước.",
+        "s": "Tin học 4",
+        "h": "Nhân số lần lặp với số bước mỗi lần"
+      },
+      {
+        "c": "TH4-B14-008",
+        "d": "application",
+        "p": "Bạn Minh muốn làm đồng hồ cát phát tiếng \"tích\" đều đặn ĐÚNG 10 tiếng rồi dừng hẳn và chú Mèo nói \"Hết giờ!\". Minh phải dùng khối lặp nào?",
+        "o": [
+          "Không dùng khối đợi nào mà chỉ phát tiếng một lần",
+          "Dùng khối \"Lặp lại [10] lần\" (bên trong có phát tiếng và đợi 1 giây), sau đó ghép khối \"Nói Hết giờ!\" ngay DƯỚI vòng lặp đó",
+          "Đặt cả khối \"Nói Hết giờ!\" vào bên trong vòng lặp 10 lần khiến mèo nói suốt 10 lần",
+          "Dùng khối \"Liên tục\" rồi ghép khối \"Nói Hết giờ!\" vào phía dưới (không ghép được)"
+        ],
+        "k": "B",
+        "e": "Repeat 10 chạy xong 10 nhịp thì thoát ra thực hiện câu lệnh \"Nói Hết giờ!\" đặt bên dưới.",
+        "s": "Tin học 4",
+        "h": "Đặt lệnh kết thúc sau Repeat"
+      },
+      {
+        "c": "TH4-B14-009",
+        "d": "application",
+        "p": "Một bản nhạc nền ngắn dài 4 giây được đặt trong vòng \"Liên tục\" (Forever). Nếu bên trong Forever em dùng nhầm khối \"Bắt đầu âm thanh\" (Start sound) thay vì \"Phát âm thanh đến hết\" (Play until done), lỗi gì sẽ xảy ra?",
+        "o": [
+          "Bản nhạc chạy thật hay và hoàn hảo gấp mười lần",
+          "Nhân vật chú mèo biến mất khỏi màn hình",
+          "Vòng lặp chạy siêu nhanh lặp lại lệnh Start sound hàng trăm lần mỗi giây gây âm thanh rè, chói tai liên hồi",
+          "Loa máy tính tự động tắt hoàn toàn không phát tiếng gì"
+        ],
+        "k": "C",
+        "e": "Phải dùng \"Play sound ... until done\" để vòng lặp đợi bản nhạc phát trọn vẹn rồi mới lặp lại vòng kế.",
+        "s": "Tin học 4",
+        "h": "Phải dùng Play until done trong Forever"
+      },
+      {
+        "c": "TH4-B14-010",
+        "d": "application",
+        "p": "Để nhân vật thay đổi màu sắc lấp lánh liên tục như đèn trang trí cây thông Noel, cặp khối lệnh nào đặt bên trong \"Liên tục\" là phù hợp nhất?",
+        "o": [
+          "\"Nói Màu đỏ\" + \"Phát âm thanh Meow\"",
+          "\"Thay đổi hiệu ứng [màu] một lượng [25]\" (Change color effect by 25) + \"Đợi [0.2] giây\"",
+          "\"Đặt kiểu xoay trái-phải\" + \"Dừng lại tất cả\"",
+          "\"Di chuyển 100 bước\" + \"Ẩn\""
+        ],
+        "k": "B",
+        "e": "Change color effect by 25 trong vòng lặp kèm độ trễ ngắn 0.2s tạo hiệu ứng đổi màu cầu vồng rất đẹp.",
+        "s": "Tin học 4",
+        "h": "Dùng Change color effect trong Forever"
+      },
+      {
+        "c": "TH4-B14-011",
+        "d": "application",
+        "p": "Quan sát đoạn lệnh Scratch minh họa bên dưới. Kết quả khi chạy xong đoạn kịch bản này là gì?",
+        "o": [
+          "Chú Mèo chỉ đi 10 bước rồi nói 3 lần liên tiếp",
+          "Chú Mèo tiến 30 bước rồi dừng lại và nói \"Xong rồi!\" trong 2 giây",
+          "Chú Mèo đứng yên một chỗ nói \"Xong rồi!\" 3 lần",
+          "Chú Mèo tiến mãi mãi không bao giờ nói \"Xong rồi!\""
+        ],
+        "k": "B",
+        "e": "Lặp lại 3 lần (Di chuyển 10 bước) = 30 bước; kết thúc vòng lặp mới chạy tiếp khối bên dưới là Nói \"Xong rồi!\".",
+        "s": "Tin học 4",
+        "h": "Tính số bước và xem khối bên dưới",
+        "fig": {
+          "w": 320,
+          "h": 186,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  45,
+                  18
+                ],
+                [
+                  275,
+                  18
+                ],
+                [
+                  275,
+                  46
+                ],
+                [
+                  45,
+                  46
+                ]
+              ],
+              "fill": "#eab308",
+              "stroke": "#1e293b",
+              "w": 1.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                36
+              ],
+              "s": "Khi bấm vào Cờ xanh",
+              "anchor": "middle",
+              "size": 11,
+              "color": "#ffffff"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  45,
+                  52
+                ],
+                [
+                  275,
+                  52
+                ],
+                [
+                  275,
+                  80
+                ],
+                [
+                  45,
+                  80
+                ]
+              ],
+              "fill": "#3b82f6",
+              "stroke": "#1e293b",
+              "w": 1.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                70
+              ],
+              "s": "Lặp lại 3 lần:",
+              "anchor": "middle",
+              "size": 11,
+              "color": "#ffffff"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  45,
+                  86
+                ],
+                [
+                  275,
+                  86
+                ],
+                [
+                  275,
+                  114
+                ],
+                [
+                  45,
+                  114
+                ]
+              ],
+              "fill": "#f97316",
+              "stroke": "#1e293b",
+              "w": 1.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                104
+              ],
+              "s": "  Di chuyển 10 bước",
+              "anchor": "middle",
+              "size": 11,
+              "color": "#ffffff"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  45,
+                  120
+                ],
+                [
+                  275,
+                  120
+                ],
+                [
+                  275,
+                  148
+                ],
+                [
+                  45,
+                  148
+                ]
+              ],
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "w": 1.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                138
+              ],
+              "s": "Nói \"Xong rồi!\" 2 giây",
+              "anchor": "middle",
+              "size": 11,
+              "color": "#ffffff"
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                174
+              ],
+              "s": "Vòng lặp hữu hạn",
+              "anchor": "middle",
+              "size": 11.5
+            }
+          ]
+        }
+      },
+      {
+        "c": "TH4-B14-012",
+        "d": "application",
+        "p": "Bạn Hoa muốn lập trình: Sau khi bấm Cờ xanh, chú Chó sủa đúng 3 tiếng rồi sau đó chạy nhảy tự do liên tục khắp sân cỏ. Cấu trúc lệnh sắp xếp từ trên xuống đúng nhất là gì?",
+        "o": [
+          "Đặt khối \"Lặp lại 3 lần\" vào bên trong khối \"Liên tục\"",
+          "Đặt khối \"Liên tục\" lên trên cùng rồi cố ghép khối \"Lặp lại 3 lần\" ở dưới đáy",
+          "Chỉ dùng một khối \"Đợi 3 giây\" mà không cần khối lặp nào",
+          "Khối \"Lặp lại [3] lần\" (sủa + đợi) ở trên, nối tiếp bên dưới là khối \"Liên tục\" (chạy + bật lại nếu chạm cạnh)"
+        ],
+        "k": "D",
+        "e": "Việc cần thực hiện hữu hạn (sủa 3 lần) chạy trước, phần chạy mãi mãi (Forever) đặt ở cuối chuỗi!",
+        "s": "Tin học 4",
+        "h": "Repeat hữu hạn trước, Forever đặt sau cùng"
+      },
+      {
+        "c": "TH4-B14-013",
+        "d": "advanced",
+        "p": "Giả sử bạn Nam đặt khối \"Lặp lại [3] lần\" (nói \"Xin chào\" 1 giây) vào BÊN TRONG một khối \"Lặp lại [4] lần\" (vòng lặp lồng nhau). Hỏi tổng cộng nhân vật nói \"Xin chào\" bao nhiêu lần?",
+        "o": [
+          "3 lần (vòng ngoài không có tác dụng)",
+          "1 lần duy nhất",
+          "12 lần (4 × 3 = 12 lần)",
+          "7 lần (4 + 3 = 7 lần)"
+        ],
+        "k": "C",
+        "e": "Mỗi 1 vòng ngoài lặp 3 vòng trong; tổng 4 vòng ngoài -> 4 × 3 = 12 lần.",
+        "s": "Tin học 4",
+        "h": "Nhân số lần vòng ngoài với vòng trong"
+      },
+      {
+        "c": "TH4-B14-014",
+        "d": "advanced",
+        "p": "Một bạn hỏi: \"Trong lúc vòng lặp Liên tục (Forever) đang chạy khiến máy tính không bao giờ tự thoát ra được, làm cách nào để kết thúc trò chơi khi nhân vật về đích?\" Lệnh nào giải quyết được việc này?",
+        "o": [
+          "Kéo thả thêm một khối Liên tục thứ hai đè lên trên",
+          "Giảm kích thước nhân vật xuống còn 0%",
+          "Chỉ có cách duy nhất là rút dây điện nguồn của máy tính ra",
+          "Dùng lệnh điều kiện kiểm tra về đích rồi gọi khối \"Dừng lại [tất cả]\" (Stop all / Stop this script) thuộc nhóm Control"
+        ],
+        "k": "D",
+        "e": "Khối \"Stop all\" hoặc \"Stop this script\" cho phép ngắt chủ động vòng lặp Forever khi đạt mục tiêu.",
+        "s": "Tin học 4",
+        "h": "Ngắt Forever bằng lệnh Stop"
+      },
+      {
+        "c": "TH4-B14-015",
+        "d": "advanced",
+        "p": "Phân tích đoạn lệnh sau: Trong vòng \"Lặp lại [5] lần\" có \"Đi tới điểm (x: 0, y: 0)\" và \"Di chuyển 50 bước\". Sau khi chạy xong 5 lần, nhân vật đang đứng ở tọa độ x bằng bao nhiêu?",
+        "o": [
+          "x = 250 (vì 5 × 50 = 250)",
+          "x = 55 (vì 5 + 50 = 55)",
+          "x = 0 (vì không đi bước nào)",
+          "x = 50 (vì mỗi lần lặp lại kéo nhân vật về lại x = 0 rồi mới đi 50 bước)"
+        ],
+        "k": "D",
+        "e": "Cẩn thận thứ tự lệnh bên trong vòng lặp: vì lệnh \"Đi tới (0, 0)\" nằm TRONG vòng lặp nên nó đặt lại gốc ở mỗi vòng!",
+        "s": "Tin học 4",
+        "h": "Đọc kĩ lệnh Đi tới (0,0) nằm trong hay ngoài vòng lặp"
+      }
+    ]
+  }
+]
