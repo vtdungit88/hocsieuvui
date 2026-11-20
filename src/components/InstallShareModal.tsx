@@ -362,7 +362,7 @@ export const InstallShareModal: React.FC<InstallShareModalProps> = ({ isOpen, on
 
                   <div className="rounded-xl border border-slate-200 dark:border-slate-700 overflow-hidden shadow-xs bg-slate-50 dark:bg-slate-900">
                     <img 
-                      src={`${import.meta.env.BASE_URL}og-share.jpg`}
+                      src={`${import.meta.env.BASE_URL}og-share.jpg?v=20261120-1`}
                       alt="Thẻ xem trước Học Siêu Vui"
                       className="w-full aspect-[1200/630] object-cover"
                     />
