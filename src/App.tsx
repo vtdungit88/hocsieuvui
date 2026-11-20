@@ -352,12 +352,11 @@ export default function App() {
                       <SubjectIcon name={activeSubjectMeta.iconName} className="w-5 h-5" />
                     </span>
                     <span>
-                      {activeSubjectMeta.name} · Lớp {currentGrade} · Tập {currentTerm}
+                      {activeSubjectMeta.name} · Lớp {currentGrade}
                     </span>
                   </div>
                   <div className="flex items-center gap-2">
-                    {([1, 2] as const).map((t) => (
-                      <button
+                    <button
                         key={t}
                         onClick={() => {
                           soundManager.play('click');
