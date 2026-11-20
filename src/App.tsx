@@ -352,26 +352,10 @@ export default function App() {
                       <SubjectIcon name={activeSubjectMeta.iconName} className="w-5 h-5" />
                     </span>
                     <span>
-                      {activeSubjectMeta.name} · Lớp {currentGrade} · Tập {currentTerm}
+                      {activeSubjectMeta.name} · Lớp {currentGrade}
                     </span>
                   </div>
                   <div className="flex items-center gap-2">
-                    {([1, 2] as const).map((t) => (
-                      <button
-                        key={t}
-                        onClick={() => {
-                          soundManager.play('click');
-                          setCurrentTerm(t);
-                        }}
-                        className={`px-3 py-1.5 rounded-xl text-xs font-bold cursor-pointer ${
-                          currentTerm === t
-                            ? 'bg-indigo-600 text-white'
-                            : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300'
-                        }`}
-                      >
-                        Tập {t}
-                      </button>
-                    ))}
                     <button
                       onClick={() => {
                         soundManager.play('click');
@@ -435,11 +419,11 @@ export default function App() {
                     subject={pickSubject}
                     initialLevel={pickLevel}
                     onBack={() => setPickSubject(null)}
-                    onStart={(grade, term) => {
+                    onStart={(grade) => {
                       soundManager.play('click');
                       setCurrentSubjectId(pickSubject.id);
                       setCurrentGrade(grade);
-                      setCurrentTerm(term);
+                      setCurrentTerm(1);
                       setLearning(true);
                     }}
                     onJumpToActive={(targetSubj, lv) => {
