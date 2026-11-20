@@ -1,0 +1,1156 @@
+{
+  "schemaVersion": "1.0.0",
+  "subjectCode": "toan",
+  "series": {
+    "code": "ket-noi-tri-thuc",
+    "name": "Kết nối tri thức với cuộc sống",
+    "publisher": "Nhà xuất bản Giáo dục Việt Nam"
+  },
+  "scope": {
+    "grades": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "volume": 1,
+    "volumeTitle": "Tập một",
+    "status": "draft_source_transcribed",
+    "studentVisible": false
+  },
+  "grades": [
+    {
+      "grade": 1,
+      "source": {
+        "catalogUrl": "https://taphuan.nxbgd.vn/tap-huan?grade=1",
+        "bookUrl": "https://taphuan.nxbgd.vn/tap-huan/doc-sach/sgk-toan-1-tap-mot.4698216815",
+        "tocEvidenceUrl": "https://sach-giao-khoa.com/sach/sgk-toan-1-tap-mot-4698216815",
+        "evidence": "NXBGDVN Tập huấn book listing and scanned TOC; lesson transcription cross-checked against book TOC mirror",
+        "review": "pending_second_person_review"
+      },
+      "topics": [
+        {
+          "topicNo": 1,
+          "title": "Các số từ 0 đến 10",
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Các số 0, 1, 2, 3, 4, 5",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 2,
+              "title": "Các số 6, 7, 8, 9, 10",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 3,
+              "title": "Nhiều hơn, ít hơn, bằng nhau",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 4,
+              "title": "So sánh số",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 5,
+              "title": "Mấy và mấy",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 6,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 2,
+          "title": "Làm quen với một số hình phẳng",
+          "lessons": [
+            {
+              "lessonNo": 7,
+              "title": "Hình vuông, hình tròn, hình tam giác, hình chữ nhật",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 8,
+              "title": "Thực hành lắp ghép, xếp hình",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 9,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 3,
+          "title": "Phép cộng, phép trừ trong phạm vi 10",
+          "lessons": [
+            {
+              "lessonNo": 10,
+              "title": "Phép cộng trong phạm vi 10",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 11,
+              "title": "Phép trừ trong phạm vi 10",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 12,
+              "title": "Bảng cộng, bảng trừ trong phạm vi 10",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 13,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 4,
+          "title": "Làm quen với một số hình khối",
+          "lessons": [
+            {
+              "lessonNo": 14,
+              "title": "Khối lập phương, khối hộp chữ nhật",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 15,
+              "title": "Vị trí, định hướng trong không gian",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 16,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 5,
+          "title": "Ôn tập học kì I",
+          "lessons": [
+            {
+              "lessonNo": 17,
+              "title": "Ôn tập các số trong phạm vi 10",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 18,
+              "title": "Ôn tập phép cộng, phép trừ trong phạm vi 10",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 19,
+              "title": "Ôn tập hình học",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 20,
+              "title": "Ôn tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        }
+      ],
+      "topicCount": 5,
+      "lessonCount": 20
+    },
+    {
+      "grade": 2,
+      "source": {
+        "catalogUrl": "https://taphuan.nxbgd.vn/tap-huan?grade=2",
+        "bookUrl": "https://taphuan.nxbgd.vn/tap-huan/doc-sach/sgk-toan-2-tap-mot.4698648594",
+        "tocEvidenceUrl": "https://partner.olm.vn/thu-vien-so/doc-sach/sach.4491472559.4491472559",
+        "evidence": "NXBGDVN Tập huấn book listing; TOC transcribed from the corresponding digital-book catalog",
+        "review": "pending_second_person_review"
+      },
+      "topics": [
+        {
+          "topicNo": 1,
+          "title": "Ôn tập và bổ sung",
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Ôn tập các số đến 100",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 2,
+              "title": "Tia số. Số liền trước, số liền sau",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 3,
+              "title": "Các thành phần của phép cộng, phép trừ",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 4,
+              "title": "Hơn, kém nhau bao nhiêu",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 5,
+              "title": "Ôn tập phép cộng, phép trừ (không nhớ) trong phạm vi 100",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 6,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 2,
+          "title": "Phép cộng, phép trừ trong phạm vi 20",
+          "lessons": [
+            {
+              "lessonNo": 7,
+              "title": "Phép cộng (qua 10) trong phạm vi 20",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 8,
+              "title": "Bảng cộng (qua 10)",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 9,
+              "title": "Bài toán về thêm, bớt một số đơn vị",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 10,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 11,
+              "title": "Phép trừ (qua 10) trong phạm vi 20",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 12,
+              "title": "Bảng trừ (qua 10)",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 13,
+              "title": "Bài toán về nhiều hơn, ít hơn một số đơn vị",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 14,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 3,
+          "title": "Làm quen với khối lượng, dung tích",
+          "lessons": [
+            {
+              "lessonNo": 15,
+              "title": "Ki-lô-gam",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 16,
+              "title": "Lít",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 17,
+              "title": "Thực hành và trải nghiệm với các đơn vị ki-lô-gam, lít",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 18,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 4,
+          "title": "Phép cộng, phép trừ (có nhớ) trong phạm vi 100",
+          "lessons": [
+            {
+              "lessonNo": 19,
+              "title": "Phép cộng (có nhớ) số có hai chữ số với số có một chữ số",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 20,
+              "title": "Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 21,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 22,
+              "title": "Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 23,
+              "title": "Phép trừ (có nhớ) số có hai chữ số cho số có hai chữ số",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 24,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 5,
+          "title": "Làm quen với hình phẳng",
+          "lessons": [
+            {
+              "lessonNo": 25,
+              "title": "Điểm, đoạn thẳng, đường thẳng, đường cong, ba điểm thẳng hàng",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 26,
+              "title": "Đường gấp khúc. Hình tứ giác",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 27,
+              "title": "Thực hành gấp, cắt, ghép, xếp hình. Vẽ đoạn thẳng",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 28,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 6,
+          "title": "Ngày - giờ, giờ - phút, ngày - tháng",
+          "lessons": [
+            {
+              "lessonNo": 29,
+              "title": "Ngày - giờ, giờ - phút",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 30,
+              "title": "Ngày - tháng",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 31,
+              "title": "Thực hành và trải nghiệm xem đồng hồ, xem lịch",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 32,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 7,
+          "title": "Ôn tập học kì I",
+          "lessons": [
+            {
+              "lessonNo": 33,
+              "title": "Ôn tập phép cộng, phép trừ trong phạm vi 20, 100",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 34,
+              "title": "Ôn tập hình phẳng",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 35,
+              "title": "Ôn tập đo lường",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 36,
+              "title": "Ôn tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        }
+      ],
+      "topicCount": 7,
+      "lessonCount": 36
+    },
+    {
+      "grade": 3,
+      "source": {
+        "catalogUrl": "https://taphuan.nxbgd.vn/tap-huan?grade=3",
+        "bookUrl": "https://sachdientu.nxbgd.vn/thu-vien-so/doc-sach/shs-toan-tap-1.4491468835",
+        "tocEvidenceUrl": "https://sachdientu.nxbgd.vn/thu-vien-so/doc-sach/shs-toan-tap-1.4491468835",
+        "evidence": "NXBGDVN digital textbook table of contents",
+        "review": "pending_second_person_review"
+      },
+      "topics": [
+        {
+          "topicNo": 1,
+          "title": "Ôn tập và bổ sung",
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Ôn tập các số đến 1 000",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 2,
+              "title": "Ôn tập phép cộng, phép trừ trong phạm vi 1 000",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 3,
+              "title": "Tìm thành phần trong phép cộng, phép trừ",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 4,
+              "title": "Ôn tập bảng nhân 2; 5, bảng chia 2; 5",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 5,
+              "title": "Bảng nhân 3, bảng chia 3",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 6,
+              "title": "Bảng nhân 4, bảng chia 4",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 7,
+              "title": "Ôn tập hình học và đo lường",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 8,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 2,
+          "title": "Bảng nhân, bảng chia",
+          "lessons": [
+            {
+              "lessonNo": 9,
+              "title": "Bảng nhân 6, bảng chia 6",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 10,
+              "title": "Bảng nhân 7, bảng chia 7",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 11,
+              "title": "Bảng nhân 8, bảng chia 8",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 12,
+              "title": "Bảng nhân 9, bảng chia 9",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 13,
+              "title": "Tìm thành phần trong phép nhân, phép chia",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 14,
+              "title": "Một phần mấy",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 15,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 3,
+          "title": "Làm quen với hình phẳng, hình khối",
+          "lessons": [
+            {
+              "lessonNo": 16,
+              "title": "Điểm ở giữa, trung điểm của đoạn thẳng",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 17,
+              "title": "Hình tròn. Tâm, bán kính, đường kính của hình tròn",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 18,
+              "title": "Góc, góc vuông, góc không vuông",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 19,
+              "title": "Hình tam giác, hình tứ giác. Hình chữ nhật, hình vuông",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 20,
+              "title": "Thực hành vẽ góc vuông, vẽ đường tròn, hình vuông, hình chữ nhật và vẽ trang trí",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 21,
+              "title": "Khối lập phương, khối hộp chữ nhật",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 22,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 4,
+          "title": "Phép nhân, phép chia trong phạm vi 100",
+          "lessons": [
+            {
+              "lessonNo": 23,
+              "title": "Nhân số có hai chữ số với số có một chữ số",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 24,
+              "title": "Gấp một số lên một số lần",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 25,
+              "title": "Phép chia hết, phép chia có dư",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 26,
+              "title": "Chia số có hai chữ số cho số có một chữ số",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 27,
+              "title": "Giảm một số đi một số lần",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 28,
+              "title": "Giải bài toán bằng hai bước tính",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 29,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 5,
+          "title": "Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ",
+          "lessons": [
+            {
+              "lessonNo": 30,
+              "title": "Mi-li-mét",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 31,
+              "title": "Gam",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 32,
+              "title": "Mi-li-lít",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 33,
+              "title": "Nhiệt độ. Đơn vị đo nhiệt độ",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 34,
+              "title": "Thực hành và trải nghiệm các đơn vị mi-li-mét, gam, mi-li-lít, độ C",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 35,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 6,
+          "title": "Phép nhân, phép chia trong phạm vi 1 000",
+          "lessons": [
+            {
+              "lessonNo": 36,
+              "title": "Nhân số có ba chữ số với số có một chữ số",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 37,
+              "title": "Chia số có ba chữ số cho số có một chữ số",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 38,
+              "title": "Biểu thức số. Tính giá trị của biểu thức số",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 39,
+              "title": "So sánh số lớn gấp mấy lần số bé",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 40,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 7,
+          "title": "Ôn tập học kì I",
+          "lessons": [
+            {
+              "lessonNo": 41,
+              "title": "Ôn tập phép nhân, phép chia trong phạm vi 100, 1 000",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 42,
+              "title": "Ôn tập biểu thức số",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 43,
+              "title": "Ôn tập hình học và đo lường",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 44,
+              "title": "Ôn tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        }
+      ],
+      "topicCount": 7,
+      "lessonCount": 44
+    },
+    {
+      "grade": 4,
+      "source": {
+        "catalogUrl": "https://taphuan.nxbgd.vn/tap-huan?grade=4",
+        "bookUrl": "https://taphuan.nxbgd.vn/tap-huan/doc-sach/sgk-toan-4-tap-mot.4714093295",
+        "tocEvidenceUrl": "https://sgk.olm.vn/thu-vien-so/doc-sach/shs-toan-tap-1.4491523128",
+        "evidence": "NXBGDVN Tập huấn scanned TOC and matching digital-book catalog; cross-check with official NXBGDVN-aligned workbook contents",
+        "review": "pending_second_person_review"
+      },
+      "topics": [
+        {
+          "topicNo": 1,
+          "title": "Ôn tập và bổ sung",
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Ôn tập các số đến 100 000",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 2,
+              "title": "Ôn tập các phép tính trong phạm vi 100 000",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 3,
+              "title": "Số chẵn, số lẻ",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 4,
+              "title": "Biểu thức chứa chữ",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 5,
+              "title": "Giải bài toán có ba bước tính",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 6,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 2,
+          "title": "Góc và đơn vị đo góc",
+          "lessons": [
+            {
+              "lessonNo": 7,
+              "title": "Đo góc, đơn vị đo góc",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 8,
+              "title": "Góc nhọn, góc tù, góc bẹt",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 9,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 3,
+          "title": "Số có nhiều chữ số",
+          "lessons": [
+            {
+              "lessonNo": 10,
+              "title": "Số có sáu chữ số. Số 1 000 000",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 11,
+              "title": "Hàng và lớp",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 12,
+              "title": "Các số trong phạm vi lớp triệu",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 13,
+              "title": "Làm tròn số đến hàng trăm nghìn",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 14,
+              "title": "So sánh các số có nhiều chữ số",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 15,
+              "title": "Làm quen với dãy số tự nhiên",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 16,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 4,
+          "title": "Một số đơn vị đo đại lượng",
+          "lessons": [
+            {
+              "lessonNo": 17,
+              "title": "Yến, tạ, tấn",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 18,
+              "title": "Đề-xi-mét vuông, mét vuông, mi-li-mét vuông",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 19,
+              "title": "Giây, thế kỉ",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 20,
+              "title": "Thực hành và trải nghiệm sử dụng một số đơn vị đo đại lượng",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 21,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 5,
+          "title": "Phép cộng và phép trừ",
+          "lessons": [
+            {
+              "lessonNo": 22,
+              "title": "Phép cộng các số có nhiều chữ số",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 23,
+              "title": "Phép trừ các số có nhiều chữ số",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 24,
+              "title": "Tính chất giao hoán và kết hợp của phép cộng",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 25,
+              "title": "Tìm hai số biết tổng và hiệu của hai số đó",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 26,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 6,
+          "title": "Đường thẳng vuông góc. Đường thẳng song song",
+          "lessons": [
+            {
+              "lessonNo": 27,
+              "title": "Hai đường thẳng vuông góc",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 28,
+              "title": "Thực hành và trải nghiệm vẽ hai đường thẳng vuông góc",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 29,
+              "title": "Hai đường thẳng song song",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 30,
+              "title": "Thực hành và trải nghiệm vẽ hai đường thẳng song song",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 31,
+              "title": "Hình bình hành, hình thoi",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 32,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 7,
+          "title": "Ôn tập học kì I",
+          "lessons": [
+            {
+              "lessonNo": 33,
+              "title": "Ôn tập các số đến lớp triệu",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 34,
+              "title": "Ôn tập phép cộng, phép trừ",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 35,
+              "title": "Ôn tập hình học",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 36,
+              "title": "Ôn tập đo lường",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 37,
+              "title": "Ôn tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        }
+      ],
+      "topicCount": 7,
+      "lessonCount": 37
+    },
+    {
+      "grade": 5,
+      "source": {
+        "catalogUrl": "https://taphuan.nxbgd.vn/tap-huan?grade=5",
+        "bookUrl": "https://sachdientu.nxbgd.vn/thu-vien-so/doc-sach/shs-toan-tap-1.4491508429",
+        "tocEvidenceUrl": "https://sachdientu.nxbgd.vn/thu-vien-so/doc-sach/shs-toan-tap-1.4491508429",
+        "evidence": "NXBGDVN digital textbook table of contents",
+        "review": "pending_second_person_review"
+      },
+      "topics": [
+        {
+          "topicNo": 1,
+          "title": "Ôn tập và bổ sung",
+          "lessons": [
+            {
+              "lessonNo": 1,
+              "title": "Ôn tập số tự nhiên",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 2,
+              "title": "Ôn tập các phép tính với số tự nhiên",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 3,
+              "title": "Ôn tập phân số",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 4,
+              "title": "Phân số thập phân",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 5,
+              "title": "Ôn tập các phép tính với phân số",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 6,
+              "title": "Cộng, trừ hai phân số khác mẫu số",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 7,
+              "title": "Hỗn số",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 8,
+              "title": "Ôn tập hình học và đo lường",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 9,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 2,
+          "title": "Số thập phân",
+          "lessons": [
+            {
+              "lessonNo": 10,
+              "title": "Khái niệm số thập phân",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 11,
+              "title": "So sánh các số thập phân",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 12,
+              "title": "Viết số đo đại lượng dưới dạng số thập phân",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 13,
+              "title": "Làm tròn số thập phân",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 14,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 3,
+          "title": "Một số đơn vị đo diện tích",
+          "lessons": [
+            {
+              "lessonNo": 15,
+              "title": "Ki-lô-mét vuông. Héc-ta",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 16,
+              "title": "Các đơn vị đo diện tích",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 17,
+              "title": "Thực hành và trải nghiệm với một số đơn vị đo đại lượng",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 18,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 4,
+          "title": "Các phép tính với số thập phân",
+          "lessons": [
+            {
+              "lessonNo": 19,
+              "title": "Phép cộng số thập phân",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 20,
+              "title": "Phép trừ số thập phân",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 21,
+              "title": "Phép nhân số thập phân",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 22,
+              "title": "Phép chia số thập phân",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 23,
+              "title": "Nhân, chia số thập phân với 10; 100; 1 000; ... hoặc với 0,1; 0,01; 0,001; ...",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 24,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 5,
+          "title": "Một số hình phẳng. Chu vi và diện tích",
+          "lessons": [
+            {
+              "lessonNo": 25,
+              "title": "Hình tam giác. Diện tích hình tam giác",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 26,
+              "title": "Hình thang. Diện tích hình thang",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 27,
+              "title": "Đường tròn. Chu vi và diện tích hình tròn",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 28,
+              "title": "Thực hành và trải nghiệm đo, vẽ, lắp ghép, tạo hình",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 29,
+              "title": "Luyện tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        },
+        {
+          "topicNo": 6,
+          "title": "Ôn tập học kì I",
+          "lessons": [
+            {
+              "lessonNo": 30,
+              "title": "Ôn tập số thập phân",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 31,
+              "title": "Ôn tập các phép tính với số thập phân",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 32,
+              "title": "Ôn tập một số hình phẳng",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 33,
+              "title": "Ôn tập diện tích, chu vi một số hình phẳng",
+              "visualReviewRequired": true
+            },
+            {
+              "lessonNo": 34,
+              "title": "Ôn tập đo lường",
+              "visualReviewRequired": false
+            },
+            {
+              "lessonNo": 35,
+              "title": "Ôn tập chung",
+              "visualReviewRequired": false
+            }
+          ]
+        }
+      ],
+      "topicCount": 6,
+      "lessonCount": 35
+    }
+  ],
+  "geometryKeywords": [
+    "hình",
+    "góc",
+    "đường thẳng",
+    "đoạn thẳng",
+    "khối",
+    "đường tròn",
+    "diện tích",
+    "chu vi"
+  ]
+}
