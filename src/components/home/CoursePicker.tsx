@@ -8,11 +8,11 @@ interface Props {
   subject: SubjectMeta;
   initialLevel?: SchoolLevel;
   onBack: () => void;
-  onStart: (grade: GradeLevel, term: 1 | 2) => void;
+  onStart: (grade: GradeLevel) => void;
   onJumpToActive?: (subject: SubjectMeta, level: SchoolLevel) => void;
 }
 
-/** Step after choosing a subject: pick level (if shared), grade, then term (Tập). */
+/** Step after choosing a subject: pick school level (if shared) and grade. All published chapters are shown. */
 export const CoursePicker: React.FC<Props> = ({
   subject,
   initialLevel,
@@ -36,9 +36,6 @@ export const CoursePicker: React.FC<Props> = ({
 
   const isOpen = (g: GradeLevel) =>
     grades.some((x) => x.grade === g && (x.term1Available || x.term2Available));
-  const termOpen = (t: 1 | 2) =>
-    !!grade && grades.some((x) => x.grade === grade && (t === 1 ? x.term1Available : x.term2Available));
-
   const selectedGradeMeta = grades.find((x) => x.grade === grade);
   const hasAnyOpenGrade = grades.some((x) => x.term1Available || x.term2Available);
   const fallbackMath = SUBJECTS_CATALOG.find((s) => s.id === 'math');
@@ -130,19 +127,16 @@ export const CoursePicker: React.FC<Props> = ({
 
         {hasAnyOpenGrade ? (
           <div className={grade ? '' : 'opacity-50'}>
-            <h3 className="text-lg font-black text-slate-900 dark:text-white mb-3">2. Chọn tập</h3>
-            <div className="grid grid-cols-2 gap-3 max-w-md">
-              {([1, 2] as const).map((t) => (
-                <button
-                  key={t}
-                  type="button"
-                  disabled={!termOpen(t)}
-                  onClick={() => grade && onStart(grade, t)}
-                  className="rounded-2xl py-4 font-black text-lg bg-gradient-to-r from-emerald-400 to-teal-500 text-white shadow-md hover:shadow-xl hover:-translate-y-0.5 disabled:from-slate-200 disabled:to-slate-200 dark:disabled:from-slate-800 dark:disabled:to-slate-800 disabled:text-slate-400 disabled:shadow-none disabled:cursor-not-allowed transition-all cursor-pointer"
-                >
-                  Tập {t} →
-                </button>
-              ))}
+            <h3 className="text-lg font-black text-slate-900 dark:text-white mb-3">2. Bắt đầu học</h3>
+            <div className="max-w-md">
+              <button
+                type="button"
+                disabled={!grade || !isOpen(grade)}
+                onClick={() => grade && onStart(grade)}
+                className="w-full rounded-2xl py-4 font-black text-lg bg-gradient-to-r from-emerald-400 to-teal-500 text-white shadow-md hover:shadow-xl hover:-translate-y-0.5 disabled:from-slate-200 disabled:to-slate-200 dark:disabled:from-slate-800 dark:disabled:to-slate-800 disabled:text-slate-400 disabled:shadow-none disabled:cursor-not-allowed transition-all cursor-pointer"
+              >
+                {grade ? `Vào học Lớp ${grade} →` : 'Chọn lớp để bắt đầu'}
+              </button>
             </div>
             {!grade && <p className="text-xs text-slate-500 mt-2">Hãy chọn lớp trước nhé.</p>}
           </div>
