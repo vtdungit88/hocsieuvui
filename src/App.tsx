@@ -419,11 +419,11 @@ export default function App() {
                     subject={pickSubject}
                     initialLevel={pickLevel}
                     onBack={() => setPickSubject(null)}
-                    onStart={(grade, term) => {
+                    onStart={(grade) => {
                       soundManager.play('click');
                       setCurrentSubjectId(pickSubject.id);
                       setCurrentGrade(grade);
-                      setCurrentTerm(term);
+                      setCurrentTerm(1);
                       setLearning(true);
                     }}
                     onJumpToActive={(targetSubj, lv) => {
