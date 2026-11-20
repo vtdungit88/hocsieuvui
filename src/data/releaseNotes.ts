@@ -15,6 +15,15 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.5',
+    date: '2026-11-19',
+    title: 'Hoàn tất trọn bộ 12 môn Lớp 4–5 ngoài Toán (thêm Mĩ thuật, GDTC & HĐTN)',
+    items: [
+      'Mở khóa 3 môn Lớp 4–5 còn lại (88 bài học · 1.320 câu hỏi · 163 hình minh họa SVG): Mĩ thuật 4–5 (28 bài · 420 câu), Giáo dục thể chất 4–5 (28 bài · 420 câu) và Hoạt động trải nghiệm 4–5 (32 bài · 480 câu).',
+      'Hoàn thiện toàn bộ 12 môn ngoài Toán cho Khối Tiểu học (riêng Lớp 4–5 đạt 360 bài · 5.400 câu · 618 hình SVG), nâng tổng kho câu hỏi trực tuyến trên toàn hệ thống cùng Toán 1–9 và KHTN 6–9 vượt mốc 18.200 câu.'
+    ]
+  },
+  {
     version: '0.2.4',
     date: '2026-11-19',
     title: 'Mở khóa trọn bộ 9 môn Lớp 4–5 mới (thêm Khoa học & Lịch sử – Địa lí)',

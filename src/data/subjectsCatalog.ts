@@ -401,11 +401,11 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
     color: 'from-orange-500 to-red-500',
     description: 'Màu sắc, bố cục tạo hình, vẽ tranh sáng tạo và thưởng thức di sản mĩ thuật.',
     status: 'active',
-    tagline: 'Lớp 1 → 3 · 58 bài · 870 câu',
+    tagline: 'Lớp 1 → 5 · 86 bài · 1.290 câu',
     schoolLevels: ['primary', 'secondary'],
     levelMeta: {
       primary: {
-        tagline: 'Lớp 1 → 3 · 58 bài · 870 câu (Lớp 4–5 sắp mở)',
+        tagline: 'Lớp 1 → 5 · 86 bài · 1.290 câu',
         description: 'Chấm nét, hình khối, pha màu cơ bản và sáng tạo thủ công (Lớp 1–5).',
         gradeRangeLabel: 'Lớp 1 – 5'
       },
@@ -419,8 +419,8 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
       { grade: '1', term1Available: true, term2Available: true, notes: '4 chương, 18 bài (270 câu)' },
       { grade: '2', term1Available: true, term2Available: true, notes: '4 chương, 20 bài (300 câu)' },
       { grade: '3', term1Available: true, term2Available: true, notes: '4 chương, 20 bài (300 câu)' },
-      { grade: '4', term1Available: false, term2Available: false, notes: 'Mĩ thuật 4' },
-      { grade: '5', term1Available: false, term2Available: false, notes: 'Mĩ thuật 5' },
+      { grade: '4', term1Available: true, term2Available: true, notes: '4 chương, 14 bài (210 câu)' },
+      { grade: '5', term1Available: true, term2Available: true, notes: '4 chương, 14 bài (210 câu)' },
       { grade: '6', term1Available: false, term2Available: false, notes: 'Mĩ thuật 6' },
       { grade: '7', term1Available: false, term2Available: false, notes: 'Mĩ thuật 7' },
       { grade: '8', term1Available: false, term2Available: false, notes: 'Mĩ thuật 8' },
@@ -435,11 +435,11 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
     color: 'from-sky-500 to-blue-600',
     description: 'Kiến thức rèn luyện thể lực, tư thế vận động, thể thao tự chọn và dinh dưỡng.',
     status: 'active',
-    tagline: 'Lớp 1 → 3 · 48 bài · 720 câu',
+    tagline: 'Lớp 1 → 5 · 76 bài · 1.140 câu',
     schoolLevels: ['primary', 'secondary'],
     levelMeta: {
       primary: {
-        tagline: 'Lớp 1 → 3 · 48 bài · 720 câu (Lớp 4–5 sắp mở)',
+        tagline: 'Lớp 1 → 5 · 76 bài · 1.140 câu',
         description: 'Đội hình đội ngũ, bài tập thể dục buổi sáng và trò chơi vận động (Lớp 1–5).',
         gradeRangeLabel: 'Lớp 1 – 5'
       },
@@ -453,8 +453,8 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
       { grade: '1', term1Available: true, term2Available: true, notes: '4 chương, 16 bài (240 câu)' },
       { grade: '2', term1Available: true, term2Available: true, notes: '4 chương, 16 bài (240 câu)' },
       { grade: '3', term1Available: true, term2Available: true, notes: '4 chương, 16 bài (240 câu)' },
-      { grade: '4', term1Available: false, term2Available: false, notes: 'Giáo dục thể chất 4' },
-      { grade: '5', term1Available: false, term2Available: false, notes: 'Giáo dục thể chất 5' },
+      { grade: '4', term1Available: true, term2Available: true, notes: '4 chương, 14 bài (210 câu)' },
+      { grade: '5', term1Available: true, term2Available: true, notes: '4 chương, 14 bài (210 câu)' },
       { grade: '6', term1Available: false, term2Available: false, notes: 'Giáo dục thể chất 6' },
       { grade: '7', term1Available: false, term2Available: false, notes: 'Giáo dục thể chất 7' },
       { grade: '8', term1Available: false, term2Available: false, notes: 'Giáo dục thể chất 8' },
@@ -469,11 +469,11 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
     color: 'from-emerald-500 to-green-600',
     description: 'Khám phá bản thân, giao lưu tập thể, bảo vệ môi trường & hoạt động cộng đồng (Lớp 1–5).',
     status: 'active',
-    tagline: 'Lớp 1 → 3 · 54 bài · 810 câu',
+    tagline: 'Lớp 1 → 5 · 86 bài · 1.290 câu',
     schoolLevels: ['primary'],
     levelMeta: {
       primary: {
-        tagline: 'Lớp 1 → 3 · 54 bài · 810 câu (Lớp 4–5 sắp mở)',
+        tagline: 'Lớp 1 → 5 · 86 bài · 1.290 câu',
         description: 'Tự lập, kết bạn, bảo vệ thiên nhiên và truyền thống quê hương (Lớp 1–5).',
         gradeRangeLabel: 'Lớp 1 – 5'
       }
@@ -482,8 +482,8 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
       { grade: '1', term1Available: true, term2Available: true, notes: '4 chương, 18 bài (270 câu)' },
       { grade: '2', term1Available: true, term2Available: true, notes: '4 chương, 18 bài (270 câu)' },
       { grade: '3', term1Available: true, term2Available: true, notes: '4 chương, 18 bài (270 câu)' },
-      { grade: '4', term1Available: false, term2Available: false, notes: 'Hoạt động trải nghiệm 4' },
-      { grade: '5', term1Available: false, term2Available: false, notes: 'Hoạt động trải nghiệm 5' }
+      { grade: '4', term1Available: true, term2Available: true, notes: '4 chương, 16 bài (240 câu)' },
+      { grade: '5', term1Available: true, term2Available: true, notes: '4 chương, 16 bài (240 câu)' }
     ]
   },
   {
