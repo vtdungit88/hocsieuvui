@@ -53,7 +53,7 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
     status: 'draft',
   },
   {
-    id: 'hg7-history-explorations',
+    id: 'hg7-history-lamson',
     grade: 7,
     strand: 'history',
     title: 'Các cuộc phát kiến địa lí và những biến đổi',
@@ -95,7 +95,7 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
     status: 'draft',
   },
   {
-    id: 'hg8-geography-vietnam-climate',
+    id: 'hg8-geography-vietnam',
     grade: 8,
     strand: 'geography',
     title: 'Khí hậu Việt Nam và tác động đến đời sống',
@@ -109,7 +109,7 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
     status: 'draft',
   },
   {
-    id: 'hg9-history-vietnam-renovation',
+    id: 'hg9-history-doimoi',
     grade: 9,
     strand: 'history',
     title: 'Việt Nam trong thời kì Đổi mới',
@@ -123,7 +123,7 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
     status: 'draft',
   },
   {
-    id: 'hg9-geography-data',
+    id: 'hg9-geography-economy',
     grade: 9,
     strand: 'geography',
     title: 'Phân tích bảng số liệu và biểu đồ kinh tế',
