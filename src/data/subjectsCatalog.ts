@@ -162,9 +162,9 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
     name: 'Tiếng Anh',
     iconName: 'Languages',
     color: 'from-amber-500 to-orange-600',
-    description: 'Từ vựng, ngữ pháp, hội thoại (Global Success & Ngoại ngữ tự chọn từ Lớp 1–9).',
+    description: 'Từ vựng, ngữ pháp, phát âm và giao tiếp trọn bộ Lớp 1–9 (Global Success 1–9).',
     status: 'active',
-    tagline: 'Lớp 1 → 5 · 102 bài · 1.530 câu',
+    tagline: 'Lớp 1 → 9 · 166 bài · 2.490 câu',
     schoolLevels: ['primary', 'secondary'],
     levelMeta: {
       primary: {
@@ -173,8 +173,8 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
         gradeRangeLabel: 'Lớp 1 – 5'
       },
       secondary: {
-        tagline: 'Lớp 6 → 9 · Sắp mở',
-        description: 'Vocabulary, Grammar quiz và giao tiếp tiếng Anh THCS (Global Success 6–9).',
+        tagline: 'Lớp 6 → 9 · 64 bài · 960 câu',
+        description: 'Từ vựng, ngữ pháp, phát âm và đọc hiểu tiếng Anh THCS (Global Success 6–9).',
         gradeRangeLabel: 'Lớp 6 – 9'
       }
     },
@@ -184,10 +184,10 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
       { grade: '3', term1Available: true, term2Available: true, notes: '5 chương, 22 bài (330 câu · Global Success)' },
       { grade: '4', term1Available: true, term2Available: true, notes: '4 chương, 20 bài (300 câu · Global Success)' },
       { grade: '5', term1Available: true, term2Available: true, notes: '4 chương, 20 bài (300 câu · Global Success)' },
-      { grade: '6', term1Available: false, term2Available: false, notes: 'Tiếng Anh 6' },
-      { grade: '7', term1Available: false, term2Available: false, notes: 'Tiếng Anh 7' },
-      { grade: '8', term1Available: false, term2Available: false, notes: 'Tiếng Anh 8' },
-      { grade: '9', term1Available: false, term2Available: false, notes: 'Tiếng Anh 9' }
+      { grade: '6', term1Available: true, term2Available: true, notes: '4 chương, 16 bài (240 câu · Global Success)' },
+      { grade: '7', term1Available: true, term2Available: true, notes: '4 chương, 16 bài (240 câu · Global Success)' },
+      { grade: '8', term1Available: true, term2Available: true, notes: '4 chương, 16 bài (240 câu · Global Success)' },
+      { grade: '9', term1Available: true, term2Available: true, notes: '4 chương, 16 bài (240 câu · Global Success)' }
     ]
   },
   {
@@ -509,8 +509,7 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
       { grade: '8', term1Available: false, term2Available: false, notes: 'HĐTN, HN 8' },
       { grade: '9', term1Available: false, term2Available: false, notes: 'HĐTN, HN 9' }
     ]
-  },
-
+  }
 ];
 
 export const SUBJECT_DB_CODES: Record<string, string> = Object.fromEntries(
