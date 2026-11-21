@@ -196,7 +196,7 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
     name: 'Lịch Sử và Địa Lí',
     iconName: 'Compass',
     color: 'from-cyan-600 to-blue-700',
-    description: 'Khám phá bản đồ Việt Nam, vùng miền, các triều đại lịch sử và văn minh nhân loại.',
+    description: 'Lịch sử và Địa lí theo chương trình GDPT; nội dung THCS lấy SGK Kết nối tri thức với cuộc sống làm chuẩn.',
     status: 'active',
     tagline: 'Lớp 4 → 5 · 36 bài · 540 câu',
     schoolLevels: ['primary', 'secondary'],
@@ -208,15 +208,15 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
       },
       secondary: {
         tagline: 'Lớp 6 → 9 · Sắp mở',
-        description: 'Lịch sử Việt Nam, thế giới cổ – cận – hiện đại và địa lí tự nhiên – kinh tế.',
+        description: 'Lớp 6–9 dự kiến theo SGK Kết nối tri thức với cuộc sống; hiện khóa đến khi học liệu, dữ liệu và kiểm thử được duyệt.',
         gradeRangeLabel: 'Lớp 6 – 9'
       }
     },
     availableGrades: [
       { grade: '4', term1Available: true, term2Available: true, notes: '6 chương, 18 bài (270 câu)' },
       { grade: '5', term1Available: true, term2Available: true, notes: '6 chương, 18 bài (270 câu)' },
-      { grade: '6', term1Available: false, term2Available: false, notes: 'Lịch sử và Địa lí 6' },
-      { grade: '7', term1Available: false, term2Available: false, notes: 'Sắp ra mắt' },
+      { grade: '6', term1Available: false, term2Available: false, notes: 'Kết nối tri thức – đang hoàn thiện, chưa mở' },
+      { grade: '7', term1Available: false, term2Available: false, notes: 'Kết nối tri thức – đang hoàn thiện, chưa mở' },
       { grade: '8', term1Available: false, term2Available: false, notes: 'Sắp ra mắt' },
       { grade: '9', term1Available: false, term2Available: false, notes: 'Sắp ra mắt' }
     ]
