@@ -134,26 +134,26 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
   },
   {
     id: 'literature',
-    dbCode: 'nguvan',
+    dbSubjectCode: 'nguvan',
     name: 'Ngữ Văn',
     iconName: 'BookMarked',
     color: 'from-rose-500 to-pink-600',
-    description: 'Thơ ca, truyện ngắn, nghị luận văn học, thực hành tiếng Việt và viết đoạn văn.',
-    status: 'coming_soon',
-    tagline: 'Lớp 6 → 9 · Tập 1 & 2',
+    description: 'Đọc hiểu truyện, thơ, nghị luận, văn bản thông tin, thực hành tiếng Việt & viết (Kết nối tri thức 6–9).',
+    status: 'active',
+    tagline: 'Lớp 6 → 9 · 48 bài · 720 câu',
     schoolLevels: ['secondary'],
     levelMeta: {
       secondary: {
-        tagline: 'Lớp 6 → 9 · Sắp mở',
-        description: 'Thơ ca, truyện ngắn, nghị luận văn học và thực hành tiếng Việt THCS.',
+        tagline: 'Lớp 6 → 9 · 48 bài · 720 câu',
+        description: 'Đọc hiểu văn bản, tiếng Việt và làm văn chuẩn SGK Kết nối tri thức Lớp 6–9.',
         gradeRangeLabel: 'Lớp 6 – 9'
       }
     },
     availableGrades: [
-      { grade: '6', term1Available: false, term2Available: false, notes: 'Đang biên soạn câu hỏi Ngữ văn 6' },
-      { grade: '7', term1Available: false, term2Available: false, notes: 'Sắp ra mắt' },
-      { grade: '8', term1Available: false, term2Available: false, notes: 'Sắp ra mắt' },
-      { grade: '9', term1Available: false, term2Available: false, notes: 'Sắp ra mắt' }
+      { grade: '6', term1Available: true, term2Available: true, notes: '4 chương, 12 bài (180 câu · Kết nối tri thức)' },
+      { grade: '7', term1Available: true, term2Available: true, notes: '4 chương, 12 bài (180 câu · Kết nối tri thức)' },
+      { grade: '8', term1Available: true, term2Available: true, notes: '4 chương, 12 bài (180 câu · Kết nối tri thức)' },
+      { grade: '9', term1Available: true, term2Available: true, notes: '4 chương, 12 bài (180 câu · Kết nối tri thức)' }
     ]
   },
   {
