@@ -509,7 +509,7 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
       { grade: '8', term1Available: false, term2Available: false, notes: 'HĐTN, HN 8' },
       { grade: '9', term1Available: false, term2Available: false, notes: 'HĐTN, HN 9' }
     ]
-  }
+  },
   {
     id: 'history_geography',
     dbCode: 'lichsu_dialy',
