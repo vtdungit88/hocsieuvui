@@ -510,30 +510,7 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
       { grade: '9', term1Available: false, term2Available: false, notes: 'HĐTN, HN 9' }
     ]
   },
-  {
-    id: 'history_geography',
-    dbCode: 'lichsu_dialy',
-    name: 'Lịch sử và Địa lí',
-    iconName: 'BookOpen',
-    color: 'from-amber-500 to-orange-600',
-    description: 'Khám phá lịch sử dân tộc và thế giới, bản đồ, tự nhiên, dân cư và kinh tế qua các lớp THCS.',
-    status: 'coming_soon',
-    tagline: 'Lớp 6 → 9 · Đang biên soạn',
-    schoolLevels: ['secondary'],
-    levelMeta: {
-      secondary: {
-        tagline: 'Lớp 6 → 9 · Đang biên soạn',
-        description: 'Học lịch sử qua tư liệu, dòng thời gian; học địa lí qua bản đồ, biểu đồ và dữ liệu.',
-        gradeRangeLabel: 'Lớp 6 – 9'
-      }
-    },
-    availableGrades: [
-      { grade: '6', term1Available: false, term2Available: false, notes: 'Lịch sử và Địa lí 6 — đang biên soạn' },
-      { grade: '7', term1Available: false, term2Available: false, notes: 'Lịch sử và Địa lí 7 — đang biên soạn' },
-      { grade: '8', term1Available: false, term2Available: false, notes: 'Lịch sử và Địa lí 8 — đang biên soạn' },
-      { grade: '9', term1Available: false, term2Available: false, notes: 'Lịch sử và Địa lí 9 — đang biên soạn' }
-    ]
-  },
+
 ];
 
 export const SUBJECT_DB_CODES: Record<string, string> = Object.fromEntries(
