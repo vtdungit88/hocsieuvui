@@ -15,6 +15,16 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.8',
+    date: '2026-11-22',
+    title: 'Toán 6 chuẩn SGK: 52 bài, 416 câu, có hình minh họa',
+    items: [
+      'Toán lớp 6 được soạn lại theo đúng từng bài của SGK Kết nối tri thức (9 chương, 43 bài + ôn tập chương), mỗi bài 8 câu trắc nghiệm kiểm tra lại đáp án.',
+      'Câu hỏi hình học và thống kê có hình minh họa ngay trong đề (tam giác, góc, đường tròn, biểu đồ cột, bảng số liệu).',
+      'Toán lớp 9 chương 1–3 (phương trình, bất phương trình, căn bậc hai, căn bậc ba) đã có bộ câu hỏi theo từng bài; các chương còn lại đang được cập nhật dần.'
+    ]
+  },
+  {
     version: '0.2.7',
     date: '2026-11-21',
     title: 'Mở khóa trọn bộ Ngữ Văn Lớp 6–9 (Kết nối tri thức THCS)',

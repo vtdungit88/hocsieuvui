@@ -23,7 +23,7 @@ import { StarIcon } from './GameIcons';
 import { answerQuestion, QUICK_QUESTIONS, type BrainAnswer, type NavView } from '../lib/assistantBrain';
 
 const GUIDE_ITEMS: { title: string; desc: string; cta: string; view: NavView; Icon: React.ComponentType<{ className?: string }>; tone: string }[] = [
-  { title: 'Bài Học', desc: 'Chọn môn, lớp, tập và chương rồi làm 15 câu. Đúng mỗi câu được xu.', cta: 'Bắt đầu học', view: 'study', Icon: BookOpen, tone: 'bg-blue-100 text-blue-600' },
+  { title: 'Bài Học', desc: 'Chọn môn, lớp, chương rồi chọn từng bài SGK để làm trắc nghiệm (Toán 6 có 43 bài + ôn tập chương, câu hình học có hình minh họa). Đúng mỗi câu được xu.', cta: 'Bắt đầu học', view: 'study', Icon: BookOpen, tone: 'bg-blue-100 text-blue-600' },
   { title: 'Bản Đồ Ải', desc: 'Mỗi chương là một hòn đảo. Đạt 1–3 sao để mở ải sau, đánh bại Trùm Cuối.', cta: 'Mở bản đồ', view: 'map', Icon: Map, tone: 'bg-emerald-100 text-emerald-600' },
   { title: 'Đấu Trường', desc: 'Siêu Tốc 60 giây, Thách Đấu 1v1 với Vui-Bot để lên hạng Elo, hoặc Phòng Lớp Học bằng mã PIN.', cta: 'Vào đấu trường', view: 'blitz', Icon: Zap, tone: 'bg-orange-100 text-orange-600' },
   { title: 'Studio của tôi', desc: 'Đổi tóc, trang phục, hậu cảnh cho nhân vật và mở rương. Đồ lưu trên tài khoản.', cta: 'Tới Studio', view: 'shop', Icon: Shirt, tone: 'bg-amber-100 text-amber-600' },
