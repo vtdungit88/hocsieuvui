@@ -1,8 +1,7 @@
 /**
  * Học Siêu Vui — Lịch sử và Địa lí THCS (lớp 6–9)
- * Curriculum scaffold: thematic outline for content production and review.
- * This is NOT a question bank and is not yet wired into the live subject catalog.
- * Verify chapter/lesson naming against the school's selected textbook series before publishing.
+ * Curriculum outline aligned to the Kết nối tri thức với cuộc sống textbook series baseline.
+ * Original learning content will be authored (not copied from the textbook); verify facts and scope before publishing.
  * Framework: GDPT 2018, môn Lịch sử và Địa lí THCS; amendments per TT 17/2025.
  */
 export type HistoryGeographyStrand = 'history' | 'geography';
@@ -17,6 +16,7 @@ export interface HGTopic {
 
 export interface HGGradeCurriculum {
   grade: 6 | 7 | 8 | 9;
+  textbookSeries: 'Kết nối tri thức với cuộc sống';
   history: HGTopic[];
   geography: HGTopic[];
   integratedTopics: HGTopic[];
@@ -25,6 +25,7 @@ export interface HGGradeCurriculum {
 export const historyGeographyCurriculum: HGGradeCurriculum[] = [
   {
     grade: 6,
+    textbookSeries: 'Kết nối tri thức với cuộc sống',
     history: [
       { id: 'h6-01', title: 'Vì sao phải học lịch sử?', strand: 'history', focus: 'Lịch sử, tư liệu, cách tìm hiểu và phục dựng quá khứ; thời gian lịch sử.' },
       { id: 'h6-02', title: 'Xã hội nguyên thủy', strand: 'history', focus: 'Nguồn gốc loài người, đời sống và chuyển biến xã hội nguyên thủy.' },
@@ -47,6 +48,7 @@ export const historyGeographyCurriculum: HGGradeCurriculum[] = [
   },
   {
     grade: 7,
+    textbookSeries: 'Kết nối tri thức với cuộc sống',
     history: [
       { id: 'h7-01', title: 'Tây Âu từ thế kỉ V đến nửa đầu thế kỉ XVI', strand: 'history', focus: 'Xã hội phong kiến, thành thị, văn hóa và các chuyển biến cuối thời trung đại.' },
       { id: 'h7-02', title: 'Trung Quốc từ thế kỉ VII đến giữa thế kỉ XIX', strand: 'history', focus: 'Các triều đại, kinh tế, xã hội và thành tựu văn hóa.' },
@@ -72,6 +74,7 @@ export const historyGeographyCurriculum: HGGradeCurriculum[] = [
   },
   {
     grade: 8,
+    textbookSeries: 'Kết nối tri thức với cuộc sống',
     history: [
       { id: 'h8-01', title: 'Châu Âu và Bắc Mỹ từ thế kỉ XVI đến XVIII', strand: 'history', focus: 'Biến đổi kinh tế, xã hội, cách mạng và hình thành trật tự mới.' },
       { id: 'h8-02', title: 'Cách mạng công nghiệp và biến đổi xã hội', strand: 'history', focus: 'Phát minh, sản xuất, đô thị hóa và tác động xã hội.' },
@@ -96,6 +99,7 @@ export const historyGeographyCurriculum: HGGradeCurriculum[] = [
   },
   {
     grade: 9,
+    textbookSeries: 'Kết nối tri thức với cuộc sống',
     history: [
       { id: 'h9-01', title: 'Thế giới từ năm 1918 đến năm 1945', strand: 'history', focus: 'Trật tự thế giới, khủng hoảng, chiến tranh và các chuyển biến.' },
       { id: 'h9-02', title: 'Việt Nam từ năm 1918 đến năm 1945', strand: 'history', focus: 'Xã hội, phong trào yêu nước, các tổ chức và sự kiện dẫn tới 1945.' },
