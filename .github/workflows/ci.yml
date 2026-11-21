@@ -16,6 +16,8 @@ jobs:
         run: |
           if [ -f package-lock.json ]; then npm ci; else npm install --no-audit --no-fund --package-lock; fi
       - run: npm run lint
+      - name: Validate History & Geography draft content
+        run: npm run validate:history-geography
       - name: Release notes khớp phiên bản (trợ lý ảo được cập nhật)
         run: node tests/check-release-notes.mjs
       - run: npm run build
