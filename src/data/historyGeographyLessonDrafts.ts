@@ -53,7 +53,7 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
     status: 'draft',
   },
   {
-    id: 'hg7-history-lamson',
+    id: 'hg7-history-explorations',
     grade: 7,
     strand: 'history',
     title: 'Các cuộc phát kiến địa lí và những biến đổi',
