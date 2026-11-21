@@ -1,0 +1,5051 @@
+[
+  {
+    "chapter": "tienganh6-c1",
+    "lesson": {
+      "code": "tienganh6-b01",
+      "title": "Unit 1. My New School",
+      "seq": 1,
+      "subtitle": "Từ vựng đồ dùng và hoạt động trường THCS, âm /ɑː/ và /ʌ/, thì hiện tại đơn và trạng từ tần suất",
+      "concepts": [
+        "School supplies & subjects",
+        "Present simple & adverbs of frequency",
+        "Pronunciation /ɑː/ and /ʌ/"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA6-B01-001",
+        "d": "basic",
+        "p": "Chọn từ có phần gạch chân phát âm là /ɑː/ khác với các từ còn lại (phát âm /ʌ/):",
+        "o": [
+          "study",
+          "Monday",
+          "subject",
+          "smart"
+        ],
+        "k": "D",
+        "e": "\"smart\" phát âm nguyên âm /ɑː/, còn \"study\", \"subject\", \"Monday\" có âm /ʌ/.",
+        "s": "Tiếng Anh 6",
+        "h": "Phân biệt /ɑː/ và /ʌ/"
+      },
+      {
+        "c": "TA6-B01-002",
+        "d": "basic",
+        "p": "Đồ dùng nào học sinh dùng để tính toán nhanh trong giờ Toán?",
+        "o": [
+          "compass",
+          "calculator",
+          "pencil sharpener",
+          "rubber"
+        ],
+        "k": "B",
+        "e": "\"calculator\" là máy tính cầm tay; \"compass\" là compa, \"pencil sharpener\" là gọt bút chì, \"rubber\" là cục tẩy.",
+        "s": "Tiếng Anh 6",
+        "h": "Từ vựng đồ dùng học tập"
+      },
+      {
+        "c": "TA6-B01-003",
+        "d": "basic",
+        "p": "Điền động từ đúng ở thì hiện tại đơn: \"Phong ... his homework every evening.\"",
+        "o": [
+          "does",
+          "do",
+          "did",
+          "doing"
+        ],
+        "k": "A",
+        "e": "Chủ ngữ \"Phong\" ngôi thứ ba số ít và có \"every evening\" nên dùng thì hiện tại đơn: \"does\".",
+        "s": "Tiếng Anh 6",
+        "h": "Chia động từ với ngôi thứ ba số ít"
+      },
+      {
+        "c": "TA6-B01-004",
+        "d": "basic",
+        "p": "Hoàn thành cụm từ chỉ hoạt động đầu năm học: \"My friends and I ... school uniforms on Mondays.\"",
+        "o": [
+          "wear",
+          "have",
+          "do",
+          "study"
+        ],
+        "k": "A",
+        "e": "Cụm cố định trong Unit 1 là \"wear uniforms\" (mặc đồng phục).",
+        "s": "Tiếng Anh 6",
+        "h": "Collocation với uniforms"
+      },
+      {
+        "c": "TA6-B01-005",
+        "d": "basic",
+        "p": "Trạng từ tần suất nào mang nghĩa \"hiếm khi\" (khoảng 10%)?",
+        "o": [
+          "rarely",
+          "always",
+          "often",
+          "usually"
+        ],
+        "k": "A",
+        "e": "\"always\" (luôn luôn), \"usually\" (thường xuyên), \"often\" (thường), \"rarely\" (hiếm khi).",
+        "s": "Tiếng Anh 6",
+        "h": "Thang trạng từ tần suất"
+      },
+      {
+        "c": "TA6-B01-006",
+        "d": "basic",
+        "p": "Quan sát thời khóa biểu thứ Hai của An. Tiết học thứ ba của An là môn gì?",
+        "o": [
+          "History",
+          "Science",
+          "Maths",
+          "English"
+        ],
+        "k": "D",
+        "e": "Theo bảng thời khóa biểu, Period 3 là môn English (8:50 – 9:35).",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc bảng thời khóa biểu",
+        "fig": {
+          "type": "table",
+          "title": "Monday Schedule",
+          "head": [
+            "Period",
+            "Subject",
+            "Time"
+          ],
+          "rows": [
+            [
+              "Period 1",
+              "Maths",
+              "07:15"
+            ],
+            [
+              "Period 2",
+              "Science",
+              "08:00"
+            ],
+            [
+              "Period 3",
+              "English",
+              "08:50"
+            ],
+            [
+              "Period 4",
+              "History",
+              "09:45"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B01-007",
+        "d": "application",
+        "p": "Chọn câu đặt trạng từ tần suất đúng vị trí theo ngữ pháp tiếng Anh:",
+        "o": [
+          "Always Mai is punctual for her morning classes.",
+          "Mai always is punctual for her morning classes.",
+          "Mai is punctual always for her morning classes.",
+          "Mai is always punctual for her morning classes."
+        ],
+        "k": "D",
+        "e": "Trạng từ tần suất đứng SAU động từ \"to be\" (is) và TRƯỚC động từ thường.",
+        "s": "Tiếng Anh 6",
+        "h": "Vị trí trạng từ tần suất với to be"
+      },
+      {
+        "c": "TA6-B01-008",
+        "d": "application",
+        "p": "Hoàn thành câu phủ định thì hiện tại đơn: \"Students at boarding schools ... go home every day.\"",
+        "o": [
+          "don't",
+          "aren't",
+          "doesn't",
+          "isn't"
+        ],
+        "k": "A",
+        "e": "Chủ ngữ \"Students\" số nhiều với động từ thường \"go\" nên mượn trợ động từ phủ định \"don't\".",
+        "s": "Tiếng Anh 6",
+        "h": "Phủ định hiện tại đơn với chủ ngữ số nhiều"
+      },
+      {
+        "c": "TA6-B01-009",
+        "d": "application",
+        "p": "Chọn câu hỏi đúng cho câu trả lời: \"I walk to school twice a week.\"",
+        "o": [
+          "How long do you walk to school?",
+          "What time do you walk to school?",
+          "How far do you walk to school?",
+          "How often do you walk to school?"
+        ],
+        "k": "D",
+        "e": "Câu trả lời nêu tần suất \"twice a week\" nên câu hỏi dùng \"How often...?\".",
+        "s": "Tiếng Anh 6",
+        "h": "Đặt câu hỏi cho tần suất"
+      },
+      {
+        "c": "TA6-B01-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ khảo sát số bạn thích các môn học lớp 6A. Môn nào có nhiều bạn thích gấp đôi môn Music?",
+        "o": [
+          "Science",
+          "English",
+          "Art",
+          "Maths"
+        ],
+        "k": "B",
+        "e": "Music có 6 bạn; English có 12 bạn (gấp đôi 6 bạn). Maths có 14, Science 10, Art 8.",
+        "s": "Tiếng Anh 6",
+        "h": "So sánh số liệu biểu đồ cột",
+        "fig": {
+          "type": "bars",
+          "title": "Class 6A Favourite Subjects",
+          "labels": [
+            "Maths",
+            "English",
+            "Science",
+            "Art",
+            "Music"
+          ],
+          "series": [
+            {
+              "values": [
+                14,
+                12,
+                10,
+                8,
+                6
+              ]
+            }
+          ],
+          "unit": "students"
+        }
+      },
+      {
+        "c": "TA6-B01-011",
+        "d": "application",
+        "p": "Chọn lời đáp lịch sự khi bạn mới cùng bàn muốn mượn cục tẩy của em:",
+        "o": [
+          "Yes, I am a student.",
+          "Nice to meet your teacher.",
+          "No, I go by bike.",
+          "Sure. Here you are."
+        ],
+        "k": "D",
+        "e": "\"Sure. Here you are.\" (Chắc chắn rồi. Của bạn đây.) là cách đáp tự nhiên khi cho bạn mượn đồ.",
+        "s": "Tiếng Anh 6",
+        "h": "Giao tiếp lớp học"
+      },
+      {
+        "c": "TA6-B01-012",
+        "d": "application",
+        "p": "Từ nào KHÔNG cùng nhóm với các từ còn lại về chủ đề \"trường học\"?",
+        "o": [
+          "library",
+          "playground",
+          "laboratory",
+          "wardrobe"
+        ],
+        "k": "D",
+        "e": "\"library\", \"playground\", \"laboratory\" là các khu vực trong trường; \"wardrobe\" (tủ quần áo) thuộc phòng ngủ.",
+        "s": "Tiếng Anh 6",
+        "h": "Phân loại từ vựng"
+      },
+      {
+        "c": "TA6-B01-013",
+        "d": "advanced",
+        "p": "Tìm lỗi sai cần sửa trong câu: \"Does your brother plays football after school with his classmates?\"",
+        "o": [
+          "Sửa \"Does\" thành \"Do\" để hợp với \"brother\"",
+          "Sửa \"after school\" thành \"in school\"",
+          "Sửa \"his\" thành \"her\" vì là câu hỏi",
+          "Sửa \"plays\" thành \"play\" vì đã có trợ động từ \"Does\""
+        ],
+        "k": "D",
+        "e": "Trong câu hỏi hiện tại đơn có \"Do\" hoặc \"Does\", động từ chính giữ ở dạng nguyên mẫu không chia \"-s\".",
+        "s": "Tiếng Anh 6",
+        "h": "Cấu trúc câu hỏi Does + S + V-inf"
+      },
+      {
+        "c": "TA6-B01-014",
+        "d": "advanced",
+        "p": "Đọc bảng thông tin so sánh hai trường. Phát biểu nào ĐÚNG theo bảng?",
+        "o": [
+          "Sunrise School has fewer students than Dream School.",
+          "Dream School is older than Sunrise School.",
+          "Both schools have twenty classrooms.",
+          "Sunrise School has no library."
+        ],
+        "k": "A",
+        "e": "Sunrise có 450 học sinh, Dream có 620 học sinh nên Sunrise ít học sinh hơn.",
+        "s": "Tiếng Anh 6",
+        "h": "Đối chiếu thông tin trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "School Info",
+          "head": [
+            "Feature",
+            "Sunrise",
+            "Dream"
+          ],
+          "rows": [
+            [
+              "Students",
+              "450",
+              "620"
+            ],
+            [
+              "Classrooms",
+              "18",
+              "24"
+            ],
+            [
+              "Library",
+              "Yes",
+              "Yes"
+            ],
+            [
+              "Clubs",
+              "6",
+              "9"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B01-015",
+        "d": "advanced",
+        "p": "Chọn câu hoàn chỉnh từ gợi ý: \"Lan / usually / have / breakfast / 6.30 / then / ride / bike / school.\"",
+        "o": [
+          "Lan usually has breakfast at 6.30 and then rides her bike to school.",
+          "Lan is usually has breakfast in 6.30 and rides bike to school.",
+          "Lan usually having breakfast at 6.30 and then riding to school.",
+          "Lan usually have breakfast at 6.30 and then ride bike to school."
+        ],
+        "k": "A",
+        "e": "Chủ ngữ \"Lan\" số ít chia hai động từ song song là \"has\" và \"rides\", giờ dùng giới từ \"at\".",
+        "s": "Tiếng Anh 6",
+        "h": "Viết câu hoàn chỉnh ở hiện tại đơn"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh6-c1",
+    "lesson": {
+      "code": "tienganh6-b02",
+      "title": "Unit 2. My House",
+      "seq": 2,
+      "subtitle": "Các loại nhà, phòng và đồ nội thất, phát âm đuôi -s/-es, sở hữu cách và giới từ chỉ vị trí",
+      "concepts": [
+        "Rooms & furniture",
+        "Possessive case ('s) & prepositions of place",
+        "Final -s and -es sounds"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA6-B02-001",
+        "d": "basic",
+        "p": "Chọn từ có đuôi \"-s\" phát âm là /s/ (khác với /z/ hoặc /ɪz/):",
+        "o": [
+          "beds",
+          "watches",
+          "lamps",
+          "tables"
+        ],
+        "k": "C",
+        "e": "\"lamp\" kết thúc bằng âm vô thanh /p/ nên \"-s\" phát âm là /s/. \"beds\", \"tables\" là /z/; \"watches\" là /ɪz/.",
+        "s": "Tiếng Anh 6",
+        "h": "Quy tắc phát âm đuôi -s/-es"
+      },
+      {
+        "c": "TA6-B02-002",
+        "d": "basic",
+        "p": "Đồ vật nào thường đặt trong nhà bếp để giữ lạnh thực phẩm?",
+        "o": [
+          "wardrobe",
+          "pillow",
+          "sofa",
+          "fridge"
+        ],
+        "k": "D",
+        "e": "\"fridge\" là tủ lạnh; \"sofa\" (ghế sô-pha), \"wardrobe\" (tủ quần áo), \"pillow\" (gối).",
+        "s": "Tiếng Anh 6",
+        "h": "Từ vựng đồ đạc trong nhà"
+      },
+      {
+        "c": "TA6-B02-003",
+        "d": "basic",
+        "p": "Loại nhà nào thường có ở vùng nông thôn Việt Nam với mái lợp và sân vườn riêng?",
+        "o": [
+          "department store",
+          "skyscraper",
+          "flat",
+          "country house"
+        ],
+        "k": "D",
+        "e": "\"country house\" là nhà ở nông thôn; \"flat\" là căn hộ chung cư, \"skyscraper\" là tòa nhà chọc trời.",
+        "s": "Tiếng Anh 6",
+        "h": "Các loại hình nhà ở"
+      },
+      {
+        "c": "TA6-B02-004",
+        "d": "basic",
+        "p": "Hoàn thành câu sở hữu cách: \"This is ... bedroom. She decorates it with blue posters.\"",
+        "o": [
+          "Elena of",
+          "Elena's",
+          "Elenas'",
+          "Elena"
+        ],
+        "k": "B",
+        "e": "Sở hữu cách với danh từ số ít \"Elena\" viết là \"Elena's bedroom\".",
+        "s": "Tiếng Anh 6",
+        "h": "Dùng sở hữu cách 's"
+      },
+      {
+        "c": "TA6-B02-005",
+        "d": "basic",
+        "p": "Điền giới từ chỉ vị trí: \"The television is ... the shelf and the sofa, right in the middle.\"",
+        "o": [
+          "in",
+          "under",
+          "between",
+          "behind"
+        ],
+        "k": "C",
+        "e": "Có hai vật \"the shelf and the sofa\" và \"in the middle\" nên dùng \"between ... and ...\".",
+        "s": "Tiếng Anh 6",
+        "h": "Giới từ between"
+      },
+      {
+        "c": "TA6-B02-006",
+        "d": "basic",
+        "p": "Quan sát bảng thống kê số đồ vật trong nhà Minh. Đồ vật nào có số lượng nhiều nhất?",
+        "o": [
+          "Chairs",
+          "Tables",
+          "Beds",
+          "Lamps"
+        ],
+        "k": "A",
+        "e": "Theo bảng, Chairs có 8 chiếc, nhiều hơn Tables (3), Beds (4), Lamps (5).",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc bảng số liệu nội thất",
+        "fig": {
+          "type": "table",
+          "title": "Home Inventory",
+          "head": [
+            "Item",
+            "Room",
+            "Count"
+          ],
+          "rows": [
+            [
+              "Beds",
+              "Bedroom",
+              "4"
+            ],
+            [
+              "Chairs",
+              "Dining",
+              "8"
+            ],
+            [
+              "Tables",
+              "Living",
+              "3"
+            ],
+            [
+              "Lamps",
+              "Study",
+              "5"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B02-007",
+        "d": "application",
+        "p": "Chọn từ có đuôi \"-es\" phát âm là /ɪz/:",
+        "o": [
+          "clocks",
+          "fridges",
+          "chairs",
+          "books"
+        ],
+        "k": "B",
+        "e": "Danh từ kết thúc bằng âm /dʒ/ như \"fridge\" khi thêm \"-s\" đọc là /ɪz/.",
+        "s": "Tiếng Anh 6",
+        "h": "Phát âm -s/-es thành /ɪz/"
+      },
+      {
+        "c": "TA6-B02-008",
+        "d": "application",
+        "p": "Hoàn thành câu: \"There ... a chest of drawers and two armchairs in our living room.\"",
+        "o": [
+          "be",
+          "is",
+          "have",
+          "are"
+        ],
+        "k": "B",
+        "e": "Theo quy tắc hòa hợp gần nhất trong cấu trúc \"There is + danh từ số ít (a chest of drawers) + ...\", động từ chia \"is\".",
+        "s": "Tiếng Anh 6",
+        "h": "Cấu trúc There is / There are"
+      },
+      {
+        "c": "TA6-B02-009",
+        "d": "application",
+        "p": "Chọn câu dùng sở hữu cách đúng với danh từ số nhiều tận cùng bằng \"-s\":",
+        "o": [
+          "My parents' bedroom is on the second floor.",
+          "My parents bedroom is on the second floor.",
+          "My parent's bedrooms is on the second floor.",
+          "My parents's bedroom is on the second floor."
+        ],
+        "k": "A",
+        "e": "Danh từ số nhiều \"parents\" kết thúc bằng \"-s\" chỉ thêm dấu nháy đơn ở cuối: \"parents' bedroom\".",
+        "s": "Tiếng Anh 6",
+        "h": "Sở hữu cách số nhiều"
+      },
+      {
+        "c": "TA6-B02-010",
+        "d": "application",
+        "p": "Quan sát sơ đồ bố trí phòng khách. Chiếc bàn trà nằm ở vị trí nào so với ghế sofa?",
+        "o": [
+          "In front of the sofa",
+          "Above the lamp",
+          "Under the sofa",
+          "Behind the sofa"
+        ],
+        "k": "A",
+        "e": "Bảng mô tả vị trí ghi Coffee table ở vị trí \"In front of sofa\".",
+        "s": "Tiếng Anh 6",
+        "h": "Xác định vị trí đồ vật theo bảng",
+        "fig": {
+          "type": "table",
+          "title": "Living Room Layout",
+          "head": [
+            "Object",
+            "Position"
+          ],
+          "rows": [
+            [
+              "Sofa",
+              "Against wall"
+            ],
+            [
+              "Coffee table",
+              "In front of sofa"
+            ],
+            [
+              "Rug",
+              "Under table"
+            ],
+            [
+              "Clock",
+              "On the wall"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B02-011",
+        "d": "application",
+        "p": "Chọn câu đề nghị hợp lý khi muốn rủ bạn chuyển bàn học gần cửa sổ:",
+        "o": [
+          "How about put the desk behind the wall?",
+          "Let's put the desk next to the window for more light.",
+          "Why don't we sleeping next to the desk?",
+          "Let's putting the desk under the ceiling."
+        ],
+        "k": "B",
+        "e": "Cấu trúc đề xuất: \"Let's + động từ nguyên mẫu (put)...\".",
+        "s": "Tiếng Anh 6",
+        "h": "Câu đề nghị Let's + V"
+      },
+      {
+        "c": "TA6-B02-012",
+        "d": "application",
+        "p": "Điền giới từ đúng: \"Don't stand ... the TV! I can't see the football match.\"",
+        "o": [
+          "in front of",
+          "next to",
+          "under",
+          "behind"
+        ],
+        "k": "A",
+        "e": "Đứng chắn tầm nhìn trước tivi dùng \"in front of the TV\".",
+        "s": "Tiếng Anh 6",
+        "h": "Giới từ in front of"
+      },
+      {
+        "c": "TA6-B02-013",
+        "d": "advanced",
+        "p": "Đọc đoạn miêu tả: \"My cousin lives in a stilt house in Hoa Binh. The living space is on wooden posts above the ground, and there is a small garden behind the house.\" Câu nào ĐÚNG?",
+        "o": [
+          "There are no windows in his house.",
+          "His house stands on wooden posts above the ground.",
+          "He lives in a modern city flat.",
+          "The garden is inside the living room."
+        ],
+        "k": "B",
+        "e": "\"stilt house\" là nhà sàn, dựng trên các cột gỗ cao hơn mặt đất (\"on wooden posts above the ground\").",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc hiểu mô tả nhà ở"
+      },
+      {
+        "c": "TA6-B02-014",
+        "d": "advanced",
+        "p": "Chọn câu hỏi đúng cho phần in đậm trong câu: \"The dictionary is **on the top bookshelf**.\"",
+        "o": [
+          "How many dictionaries are there?",
+          "Where is the dictionary?",
+          "What is on the bookshelf?",
+          "Whose dictionary is it?"
+        ],
+        "k": "B",
+        "e": "\"on the top bookshelf\" chỉ vị trí nên câu hỏi dùng từ để hỏi \"Where\".",
+        "s": "Tiếng Anh 6",
+        "h": "Câu hỏi vị trí với Where"
+      },
+      {
+        "c": "TA6-B02-015",
+        "d": "advanced",
+        "p": "Hoàn thành câu miêu tả nhà sao cho chuẩn ngữ pháp nhất:",
+        "o": [
+          "My grandparent house has quiet attic behind the kitchen.",
+          "My grandparents' house has a quiet attic and a small pond behind the kitchen.",
+          "House of my grandparents are a quiet attic and a small pond.",
+          "My grandparents's house have a quiet attic and small pond."
+        ],
+        "k": "B",
+        "e": "Sở hữu cách số nhiều \"grandparents'\", động từ số ít \"has\", mạo từ \"a\" đầy đủ trước danh từ đếm được số ít.",
+        "s": "Tiếng Anh 6",
+        "h": "Viết câu mô tả ngôi nhà"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh6-c1",
+    "lesson": {
+      "code": "tienganh6-b03",
+      "title": "Unit 3. My Friends",
+      "seq": 3,
+      "subtitle": "Miêu tả ngoại hình và tính cách bạn bè, phát âm /b/ và /p/, thì hiện tại tiếp diễn",
+      "concepts": [
+        "Appearance & personality adjectives",
+        "Present continuous",
+        "Pronunciation /b/ and /p/"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA6-B03-001",
+        "d": "basic",
+        "p": "Chọn từ bắt đầu bằng âm /p/ khác với các từ bắt đầu bằng âm /b/:",
+        "o": [
+          "biscuit",
+          "picnic",
+          "blonde",
+          "brother"
+        ],
+        "k": "B",
+        "e": "\"picnic\" bắt đầu bằng âm /p/; còn \"biscuit\", \"blonde\", \"brother\" bắt đầu bằng âm /b/.",
+        "s": "Tiếng Anh 6",
+        "h": "Phân biệt âm /b/ và /p/"
+      },
+      {
+        "c": "TA6-B03-002",
+        "d": "basic",
+        "p": "Tính từ nào miêu tả người bạn chăm chỉ, luôn làm bài tập đầy đủ?",
+        "o": [
+          "talkative",
+          "shy",
+          "lazy",
+          "hard-working"
+        ],
+        "k": "D",
+        "e": "\"hard-working\" nghĩa là chăm chỉ; \"shy\" (nhút nhát), \"talkative\" (nói nhiều), \"lazy\" (lười).",
+        "s": "Tiếng Anh 6",
+        "h": "Tính từ chỉ tính cách"
+      },
+      {
+        "c": "TA6-B03-003",
+        "d": "basic",
+        "p": "Từ nào miêu tả mái tóc xoăn?",
+        "o": [
+          "chubby",
+          "curly",
+          "tall",
+          "straight"
+        ],
+        "k": "B",
+        "e": "\"curly hair\" (tóc xoăn), \"straight hair\" (tóc thẳng), \"chubby\" (mũm mĩm), \"tall\" (cao).",
+        "s": "Tiếng Anh 6",
+        "h": "Tính từ miêu tả ngoại hình"
+      },
+      {
+        "c": "TA6-B03-004",
+        "d": "basic",
+        "p": "Chia động từ ở thì hiện tại tiếp diễn: \"Look! Nam and Minh ... basketball in the yard.\"",
+        "o": [
+          "plays",
+          "are playing",
+          "play",
+          "is playing"
+        ],
+        "k": "B",
+        "e": "Dấu hiệu \"Look!\" chỉ hành động đang diễn ra lúc nói, chủ ngữ số nhiều \"Nam and Minh\" dùng \"are playing\".",
+        "s": "Tiếng Anh 6",
+        "h": "Thì hiện tại tiếp diễn"
+      },
+      {
+        "c": "TA6-B03-005",
+        "d": "basic",
+        "p": "Chọn động từ đúng để hoàn thành: \"Lan is very ...; she loves meeting new people and making friends.\"",
+        "o": [
+          "strict",
+          "friendly",
+          "unfriendly",
+          "boring"
+        ],
+        "k": "B",
+        "e": "Người thích gặp gỡ và kết bạn mới là người thân thiện (\"friendly\").",
+        "s": "Tiếng Anh 6",
+        "h": "Từ vựng tính cách"
+      },
+      {
+        "c": "TA6-B03-006",
+        "d": "basic",
+        "p": "Quan sát bảng mô tả các bạn lớp 6B. Bạn nào có mái tóc dài màu đen và tính cách sáng tạo?",
+        "o": [
+          "Kien",
+          "Duc",
+          "Linh",
+          "Trang"
+        ],
+        "k": "C",
+        "e": "Theo bảng, Linh có \"Long black\" hair và tính cách \"Creative\".",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc bảng thông tin bạn bè",
+        "fig": {
+          "type": "table",
+          "title": "Friends Profile",
+          "head": [
+            "Name",
+            "Hair",
+            "Personality"
+          ],
+          "rows": [
+            [
+              "Kien",
+              "Short curly",
+              "Funny"
+            ],
+            [
+              "Linh",
+              "Long black",
+              "Creative"
+            ],
+            [
+              "Trang",
+              "Short brown",
+              "Confident"
+            ],
+            [
+              "Duc",
+              "Wavy black",
+              "Kind"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B03-007",
+        "d": "application",
+        "p": "Điền dạng đúng của động từ: \"Shh! Keep quiet! The baby ... in the next room.\"",
+        "o": [
+          "is sleeping",
+          "sleep",
+          "sleeps",
+          "are sleeping"
+        ],
+        "k": "A",
+        "e": "Tín hiệu \"Shh! Keep quiet!\" chỉ sự việc đang xảy ra ngay lúc nói, \"The baby\" số ít dùng \"is sleeping\".",
+        "s": "Tiếng Anh 6",
+        "h": "Nhận biết thì hiện tại tiếp diễn"
+      },
+      {
+        "c": "TA6-B03-008",
+        "d": "application",
+        "p": "Chọn câu dùng đúng động từ \"have\" hoặc \"be\" khi miêu tả ngoại hình:",
+        "o": [
+          "Mi is big brown eyes and a round face.",
+          "Mi has big brown eyes and a round face.",
+          "Mi has tall and slim.",
+          "Mi are long curly hair."
+        ],
+        "k": "B",
+        "e": "Miêu tả bộ phận cơ thể (eyes, hair, face) dùng \"have/has\"; miêu tả vóc dáng (tall, slim) dùng \"be\".",
+        "s": "Tiếng Anh 6",
+        "h": "Phân biệt be và have trong miêu tả"
+      },
+      {
+        "c": "TA6-B03-009",
+        "d": "application",
+        "p": "Thì hiện tại tiếp diễn trong câu \"We are visiting the book fair this Saturday.\" diễn tả điều gì?",
+        "o": [
+          "Một kế hoạch đã sắp xếp chắc chắn cho tương lai gần",
+          "Một sự việc đã kết thúc năm ngoái",
+          "Một thói quen lặp lại hằng tuần",
+          "Một sự thật hiển nhiên luôn đúng"
+        ],
+        "k": "A",
+        "e": "Với trạng từ thời gian tương lai như \"this Saturday\", hiện tại tiếp diễn diễn tả dự định đã lên lịch sẵn.",
+        "s": "Tiếng Anh 6",
+        "h": "Hiện tại tiếp diễn chỉ kế hoạch tương lai"
+      },
+      {
+        "c": "TA6-B03-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ hoạt động cuối tuần của nhóm bạn. Hai hoạt động nào có tổng cộng đúng 14 lượt chọn?",
+        "o": [
+          "Cycling và Drawing",
+          "Football và Swimming",
+          "Reading và Drawing",
+          "Cycling và Reading"
+        ],
+        "k": "D",
+        "e": "Theo biểu đồ, Cycling = 8 và Reading = 6, tổng cộng là 14.",
+        "s": "Tiếng Anh 6",
+        "h": "Tính toán từ biểu đồ cột",
+        "fig": {
+          "type": "bars",
+          "title": "Weekend Plans",
+          "labels": [
+            "Football",
+            "Cycling",
+            "Reading",
+            "Drawing",
+            "Swimming"
+          ],
+          "series": [
+            {
+              "values": [
+                10,
+                8,
+                6,
+                4,
+                7
+              ]
+            }
+          ],
+          "unit": "votes"
+        }
+      },
+      {
+        "c": "TA6-B03-011",
+        "d": "application",
+        "p": "Chọn câu hỏi phù hợp để hỏi về tính cách một người bạn:",
+        "o": [
+          "What does your new friend look like?",
+          "What is your new friend like?",
+          "What is your new friend doing?",
+          "Where does your new friend live?"
+        ],
+        "k": "B",
+        "e": "\"What is ... like?\" hỏi về tính cách; còn \"What does ... look like?\" hỏi về ngoại hình.",
+        "s": "Tiếng Anh 6",
+        "h": "Phân biệt What...like và look like"
+      },
+      {
+        "c": "TA6-B03-012",
+        "d": "application",
+        "p": "Chia dạng \"-ing\" đúng cho động từ \"write\" và \"sit\":",
+        "o": [
+          "writing, sitting",
+          "writing, siting",
+          "writting, sitting",
+          "writeing, siting"
+        ],
+        "k": "A",
+        "e": "\"write\" bỏ \"e\" thêm \"-ing\" thành \"writing\"; \"sit\" (1 âm tiết, 1 nguyên âm + 1 phụ âm) gấp đôi \"t\" thành \"sitting\".",
+        "s": "Tiếng Anh 6",
+        "h": "Quy tắc thêm -ing"
+      },
+      {
+        "c": "TA6-B03-013",
+        "d": "advanced",
+        "p": "Tìm câu KHÔNG dùng thì hiện tại tiếp diễn đúng ngữ cảnh (động từ chỉ trạng thái cảm xúc/nhận thức):",
+        "o": [
+          "We are meeting our teacher at four this afternoon.",
+          "I am knowing the answer to this English puzzle now.",
+          "They are preparing snacks for the school picnic.",
+          "She is wearing a bright yellow jacket today."
+        ],
+        "k": "B",
+        "e": "\"know\" là động từ trạng thái (stative verb) không chia ở thì tiếp diễn; phải dùng \"I know...\".",
+        "s": "Tiếng Anh 6",
+        "h": "Động từ không chia tiếp diễn"
+      },
+      {
+        "c": "TA6-B03-014",
+        "d": "advanced",
+        "p": "Đọc bảng thời khóa biểu câu lạc bộ. Nếu bây giờ là 15:30 thứ Tư, nhóm học sinh đang làm gì?",
+        "o": [
+          "They are planting trees.",
+          "They are painting landscapes.",
+          "They are playing chess.",
+          "They are practising English speaking."
+        ],
+        "k": "D",
+        "e": "Bảng ghi thứ Tư lúc 15:00–16:00 là hoạt động \"English Club\".",
+        "s": "Tiếng Anh 6",
+        "h": "Suy luận ngữ cảnh thời gian thực",
+        "fig": {
+          "type": "table",
+          "title": "After-school Clubs",
+          "head": [
+            "Day",
+            "Time",
+            "Activity"
+          ],
+          "rows": [
+            [
+              "Monday",
+              "15:00-16:00",
+              "Chess Club"
+            ],
+            [
+              "Wednesday",
+              "15:00-16:00",
+              "English Club"
+            ],
+            [
+              "Friday",
+              "15:30-16:30",
+              "Art Club"
+            ],
+            [
+              "Saturday",
+              "08:30-10:00",
+              "Green Club"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B03-015",
+        "d": "advanced",
+        "p": "Chọn câu miêu tả bạn thân đúng cả ngữ pháp và ý nghĩa:",
+        "o": [
+          "Hoa is kind and helpful; she helping me right now.",
+          "Hoa is kind and helpful; she is helping me with my project right now.",
+          "Hoa has kind and helpful; she helps me right now.",
+          "Hoa is kindness; she is help me with my project now."
+        ],
+        "k": "B",
+        "e": "Tính từ tính cách đi sau \"is\" (\"is kind and helpful\"); hành động ngay lúc nói \"right now\" dùng \"is helping\".",
+        "s": "Tiếng Anh 6",
+        "h": "Kết hợp miêu tả và hiện tại tiếp diễn"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh6-c1",
+    "lesson": {
+      "code": "tienganh6-b04",
+      "title": "Review 1. Units 1–3",
+      "seq": 4,
+      "subtitle": "Ôn tập tổng hợp Units 1–3: âm /ɑː/–/ʌ/, -s/-es, /b/–/p/, từ vựng trường-nhà-bạn bè, hiện tại đơn và tiếp diễn",
+      "concepts": [
+        "Review phonetics Units 1-3",
+        "Present simple vs Present continuous",
+        "Possessive 's & prepositions"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA6-B04-001",
+        "d": "basic",
+        "p": "Chọn từ có phần gạch chân phát âm là /ʌ/:",
+        "o": [
+          "start",
+          "garden",
+          "compass",
+          "smart"
+        ],
+        "k": "C",
+        "e": "\"compass\" có âm /ʌ/; \"smart\", \"garden\", \"start\" có âm /ɑː/.",
+        "s": "Tiếng Anh 6",
+        "h": "Ôn tập nguyên âm /ʌ/ và /ɑː/"
+      },
+      {
+        "c": "TA6-B04-002",
+        "d": "basic",
+        "p": "Chọn từ có đuôi \"-s/-es\" phát âm khác với ba từ còn lại:",
+        "o": [
+          "rooms",
+          "notebooks",
+          "windows",
+          "tables"
+        ],
+        "k": "B",
+        "e": "\"notebooks\" kết thúc bằng âm /k/ nên \"-s\" đọc là /s/; ba từ còn lại đọc là /z/.",
+        "s": "Tiếng Anh 6",
+        "h": "Ôn tập phát âm -s/-es"
+      },
+      {
+        "c": "TA6-B04-003",
+        "d": "basic",
+        "p": "Từ nào KHÔNG cùng nhóm với \"generous, creative, reliable, kitchen\"?",
+        "o": [
+          "creative",
+          "reliable",
+          "generous",
+          "kitchen"
+        ],
+        "k": "D",
+        "e": "\"kitchen\" là danh từ chỉ phòng trong nhà; ba từ kia là tính từ miêu tả tính cách.",
+        "s": "Tiếng Anh 6",
+        "h": "Phân loại từ vựng Units 1-3"
+      },
+      {
+        "c": "TA6-B04-004",
+        "d": "basic",
+        "p": "Chọn dạng động từ đúng: \"My sister usually ... her teeth twice a day, and she ... them right now.\"",
+        "o": [
+          "brushes ... is brushing",
+          "brush ... brushes",
+          "is brushing ... brushes",
+          "brushed ... is brushing"
+        ],
+        "k": "A",
+        "e": "Vế đầu có \"usually\" -> hiện tại đơn (\"brushes\"); vế sau có \"right now\" -> hiện tại tiếp diễn (\"is brushing\").",
+        "s": "Tiếng Anh 6",
+        "h": "Phân biệt hiện tại đơn và tiếp diễn"
+      },
+      {
+        "c": "TA6-B04-005",
+        "d": "basic",
+        "p": "Điền giới từ thích hợp: \"Look at the picture! There is a bookshelf ... the desk and the bed.\"",
+        "o": [
+          "inside",
+          "on",
+          "under",
+          "between"
+        ],
+        "k": "D",
+        "e": "Vị trí nằm giữa hai vật dùng \"between ... and ...\".",
+        "s": "Tiếng Anh 6",
+        "h": "Giới từ chỉ nơi chốn"
+      },
+      {
+        "c": "TA6-B04-006",
+        "d": "basic",
+        "p": "Quan sát bảng tổng kết hoạt động tuần của Khôi. Khôi làm hoạt động nào ít lần nhất trong tuần?",
+        "o": [
+          "Clean room",
+          "Read English",
+          "Play chess",
+          "Ride bike"
+        ],
+        "k": "C",
+        "e": "Theo bảng, Play chess chỉ 1 lần/tuần (lowest), ít hơn Clean room (2), Ride bike (4), Read English (5).",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc bảng tần suất hoạt động",
+        "fig": {
+          "type": "table",
+          "title": "Khoi's Weekly Habits",
+          "head": [
+            "Activity",
+            "Times/Week"
+          ],
+          "rows": [
+            [
+              "Read English",
+              "5"
+            ],
+            [
+              "Ride bike",
+              "4"
+            ],
+            [
+              "Clean room",
+              "2"
+            ],
+            [
+              "Play chess",
+              "1"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B04-007",
+        "d": "application",
+        "p": "Hoàn thành câu sở hữu cách: \"Where are ... schoolbags? They left them in the hall.\"",
+        "o": [
+          "the boys'",
+          "the boy's",
+          "the boy",
+          "the boys's"
+        ],
+        "k": "A",
+        "e": "Đại từ thay thế là \"They\" (số nhiều) nên danh từ sở hữu phải là số nhiều \"the boys'\".",
+        "s": "Tiếng Anh 6",
+        "h": "Sở hữu cách gắn với đại từ They"
+      },
+      {
+        "c": "TA6-B04-008",
+        "d": "application",
+        "p": "Chọn câu đúng ngữ pháp khi nói về thói quen và hành động hiện tại:",
+        "o": [
+          "Normally I walk to school, but today I am going by bus because it is raining.",
+          "Normally I walks to school, but today I going by bus.",
+          "Normally I walk to school, but today I go by bus because it rains.",
+          "Normally I am walking to school, but today I go by bus."
+        ],
+        "k": "A",
+        "e": "\"Normally\" đi với hiện tại đơn (\"walk\"); \"today\" diễn tả ngoại lệ tạm thời dùng hiện tại tiếp diễn (\"am going\", \"is raining\").",
+        "s": "Tiếng Anh 6",
+        "h": "Hiện tại đơn vs ngoại lệ hôm nay"
+      },
+      {
+        "c": "TA6-B04-009",
+        "d": "application",
+        "p": "Sắp xếp thành câu hoàn chỉnh: next / Is / post office / there / the / a / bakery / to / ?",
+        "o": [
+          "Is there next to a bakery the post office?",
+          "Is there a bakery next to the post office?",
+          "There is a bakery next to the post office?",
+          "Is a bakery there next to the post office?"
+        ],
+        "k": "B",
+        "e": "Câu hỏi \"Is there + a/an + N + giới từ vị trí...?\"",
+        "s": "Tiếng Anh 6",
+        "h": "Đặt câu hỏi với Is there"
+      },
+      {
+        "c": "TA6-B04-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ chi tiêu quỹ lớp 6A. Mục nào chiếm nhiều kinh phí hơn cả: Notebooks hay Books?",
+        "o": [
+          "Notebooks (180 nghìn đồng)",
+          "Books (240 nghìn đồng)",
+          "Plants (150 nghìn đồng)",
+          "Chalks (90 nghìn đồng)"
+        ],
+        "k": "B",
+        "e": "Cột Books đạt 240, cao hơn Notebooks (180), Plants (150) và Chalks (90).",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc số liệu biểu đồ",
+        "fig": {
+          "type": "bars",
+          "title": "Class Fund (k VND)",
+          "labels": [
+            "Books",
+            "Notebooks",
+            "Plants",
+            "Chalks"
+          ],
+          "series": [
+            {
+              "values": [
+                240,
+                180,
+                150,
+                90
+              ]
+            }
+          ],
+          "unit": "k"
+        }
+      },
+      {
+        "c": "TA6-B04-011",
+        "d": "application",
+        "p": "Chọn lời khen đúng ngữ pháp cho bức tranh bạn vẽ:",
+        "o": [
+          "What lovely a picture of your country house!",
+          "How a lovely picture of your country house!",
+          "What a lovely pictures of your country house!",
+          "What a lovely picture of your country house!"
+        ],
+        "k": "D",
+        "e": "Cảm thán với danh từ đếm được số ít: \"What + a/an + adj + N!\".",
+        "s": "Tiếng Anh 6",
+        "h": "Câu cảm thán khen ngợi"
+      },
+      {
+        "c": "TA6-B04-012",
+        "d": "application",
+        "p": "Điền từ đúng để tạo câu hỏi về ngoại hình: \"What does your cousin look like?\" – \"He ... tall with short curly hair.\"",
+        "o": [
+          "does",
+          "has",
+          "looks like",
+          "is"
+        ],
+        "k": "D",
+        "e": "Chú ý cấu trúc \"He is tall (tính từ) with short curly hair (danh từ)\".",
+        "s": "Tiếng Anh 6",
+        "h": "Cấu trúc miêu tả tổng hợp"
+      },
+      {
+        "c": "TA6-B04-013",
+        "d": "advanced",
+        "p": "Đọc đoạn ngắn: \"This Saturday morning, our class isn't studying indoors. We are visiting the Botanical Garden at 8 a.m. Everyone must bring a notebook and a water bottle.\" Mục đích chính của đoạn thông báo là gì?",
+        "o": [
+          "Kể lại chuyến đi tham quan đã diễn ra tháng trước",
+          "Thông báo lịch đi tham quan vườn thực vật và đồ cần mang vào sáng thứ Bảy",
+          "Yêu cầu học sinh mua sách mới ở thư viện trường",
+          "Hủy toàn bộ tiết học tiếng Anh trong tuần tới"
+        ],
+        "k": "B",
+        "e": "Thì hiện tại tiếp diễn (\"are visiting\") + \"this Saturday morning\" nêu kế hoạch dã ngoại sắp tới và vật dụng cần chuẩn bị.",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc hiểu thông báo ngắn"
+      },
+      {
+        "c": "TA6-B04-014",
+        "d": "advanced",
+        "p": "Quan sát bảng so sánh hai phòng học. Nhận xét nào KHÔNG ĐÚNG theo bảng?",
+        "o": [
+          "Room 6A has more desks than Room 6B.",
+          "Room 6B has more windows than Room 6A.",
+          "Room 6A is larger in floor area.",
+          "Both rooms have a projector."
+        ],
+        "k": "B",
+        "e": "Theo bảng, Room 6A có 4 cửa sổ, còn Room 6B chỉ có 3 cửa sổ nên nói 6B nhiều cửa sổ hơn là sai.",
+        "s": "Tiếng Anh 6",
+        "h": "Tìm thông tin sai theo bảng",
+        "fig": {
+          "type": "table",
+          "title": "Classroom Check",
+          "head": [
+            "Detail",
+            "Room 6A",
+            "Room 6B"
+          ],
+          "rows": [
+            [
+              "Desks",
+              "22",
+              "18"
+            ],
+            [
+              "Windows",
+              "4",
+              "3"
+            ],
+            [
+              "Projector",
+              "Yes",
+              "Yes"
+            ],
+            [
+              "Area",
+              "56 m2",
+              "48 m2"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B04-015",
+        "d": "advanced",
+        "p": "Chọn câu hoàn chỉnh KHÔNG mắc lỗi về chính tả và ngữ pháp:",
+        "o": [
+          "My best friends's desk is next to my, and he always helps others.",
+          "My best friend desk is next to mine, and he always help others.",
+          "My best friend's desk is next to mine, and he is always helping others.",
+          "My best friend's desk are next to mine, and he is helping always."
+        ],
+        "k": "C",
+        "e": "Sở hữu cách \"friend's desk\", động từ số ít \"is\", đại từ sở hữu \"mine\" và \"is always helping\" đều chính xác.",
+        "s": "Tiếng Anh 6",
+        "h": "Kiểm tra lỗi ngữ pháp tổng hợp"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh6-c2",
+    "lesson": {
+      "code": "tienganh6-b05",
+      "title": "Unit 4. My Neighbourhood",
+      "seq": 5,
+      "subtitle": "Địa điểm khu phố, chỉ đường, phát âm /ɪ/ và /iː/ và so sánh hơn của tính từ",
+      "concepts": [
+        "Places in a neighbourhood",
+        "Giving directions",
+        "Comparative adjectives & /ɪ/ vs /iː/"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA6-B05-001",
+        "d": "basic",
+        "p": "Chọn từ có nguyên âm phát âm là /iː/ (i dài) khác với /ɪ/:",
+        "o": [
+          "building",
+          "peaceful",
+          "noisy",
+          "historic"
+        ],
+        "k": "B",
+        "e": "\"peaceful\" có âm /iː/; còn \"historic\", \"noisy\", \"building\" chứa âm /ɪ/.",
+        "s": "Tiếng Anh 6",
+        "h": "Phân biệt âm /ɪ/ và /iː/"
+      },
+      {
+        "c": "TA6-B05-002",
+        "d": "basic",
+        "p": "Địa điểm nào trong khu phố là nơi trưng bày cổ vật và tranh lịch sử?",
+        "o": [
+          "cathedral",
+          "post office",
+          "museum",
+          "railway station"
+        ],
+        "k": "C",
+        "e": "\"museum\" là bảo tàng; \"railway station\" là ga tàu, \"post office\" là bưu điện, \"cathedral\" là nhà thờ lớn.",
+        "s": "Tiếng Anh 6",
+        "h": "Từ vựng địa điểm khu phố"
+      },
+      {
+        "c": "TA6-B05-003",
+        "d": "basic",
+        "p": "Chọn cụm chỉ đường đúng nghĩa \"rẽ trái ở ngã tư thứ hai\":",
+        "o": [
+          "turn left at the second turning",
+          "go straight ahead at the bank",
+          "take the first right on foot",
+          "cross the bridge on your right"
+        ],
+        "k": "A",
+        "e": "\"turn left at the second turning\" = rẽ trái ở lối rẽ/ngã tư thứ hai.",
+        "s": "Tiếng Anh 6",
+        "h": "Mẫu câu chỉ đường"
+      },
+      {
+        "c": "TA6-B05-004",
+        "d": "basic",
+        "p": "Điền dạng so sánh hơn đúng của tính từ \"noisy\": \"The city centre is much ... than my quiet village.\"",
+        "o": [
+          "noisiest",
+          "noisy",
+          "more noisy",
+          "noisier"
+        ],
+        "k": "D",
+        "e": "Tính từ 2 âm tiết tận cùng bằng \"-y\" như \"noisy\" đổi thành \"-ier\": \"noisier\".",
+        "s": "Tiếng Anh 6",
+        "h": "So sánh hơn tính từ đuôi -y"
+      },
+      {
+        "c": "TA6-B05-005",
+        "d": "basic",
+        "p": "Từ nào trái nghĩa với tính từ \"modern\" (hiện đại)?",
+        "o": [
+          "crowded",
+          "exciting",
+          "convenient",
+          "historic"
+        ],
+        "k": "D",
+        "e": "\"historic\" / \"ancient\" mang nghĩa cổ kính, thuộc về lịch sử, trái nghĩa với \"modern\".",
+        "s": "Tiếng Anh 6",
+        "h": "Tính từ miêu tả khu phố"
+      },
+      {
+        "c": "TA6-B05-006",
+        "d": "basic",
+        "p": "Quan sát bảng so sánh hai khu phố. Khu phố nào có đường phố yên tĩnh hơn và giá cả rẻ hơn?",
+        "o": [
+          "Metro Centre",
+          "Both towns",
+          "Neither town",
+          "Green Town"
+        ],
+        "k": "D",
+        "e": "Green Town được đánh dấu Quiet (Yes) và Price (Low), còn Metro Centre ồn ào hơn và giá cao hơn.",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc bảng so sánh khu phố",
+        "fig": {
+          "type": "table",
+          "title": "Neighbourhoods",
+          "head": [
+            "Feature",
+            "Green Town",
+            "Metro Centre"
+          ],
+          "rows": [
+            [
+              "Streets",
+              "Quiet",
+              "Crowded"
+            ],
+            [
+              "Parks",
+              "3 parks",
+              "1 park"
+            ],
+            [
+              "Prices",
+              "Low",
+              "High"
+            ],
+            [
+              "Traffic",
+              "Light",
+              "Heavy"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B05-007",
+        "d": "application",
+        "p": "Chọn dạng so sánh hơn đúng của tính từ dài \"expensive\":",
+        "o": [
+          "expensiver",
+          "the more expensive",
+          "more expensive",
+          "most expensive"
+        ],
+        "k": "C",
+        "e": "Tính từ có từ 2 âm tiết trở lên (không kết thúc bằng -y/-er/-ow/-le) dùng \"more + tính từ\": \"more expensive\".",
+        "s": "Tiếng Anh 6",
+        "h": "So sánh hơn tính từ dài"
+      },
+      {
+        "c": "TA6-B05-008",
+        "d": "application",
+        "p": "Hoàn thành câu so sánh bất quy tắc: \"The air in the countryside is ... than in an industrial zone.\"",
+        "o": [
+          "best",
+          "gooder",
+          "better",
+          "more good"
+        ],
+        "k": "C",
+        "e": "Dạng so sánh hơn bất quy tắc của \"good\" là \"better\".",
+        "s": "Tiếng Anh 6",
+        "h": "So sánh hơn bất quy tắc"
+      },
+      {
+        "c": "TA6-B05-009",
+        "d": "application",
+        "p": "Chọn cách hỏi đường lịch sự và tự nhiên nhất khi hỏi đường tới nhà ga:",
+        "o": [
+          "Excuse me, where the railway station going?",
+          "Excuse me, could you tell me the way to the railway station?",
+          "Tell me now the way railway station.",
+          "Could you speak me how far is the railway station?"
+        ],
+        "k": "B",
+        "e": "\"Excuse me, could you tell me the way to + địa điểm?\" là mẫu câu chuẩn trong Unit 4.",
+        "s": "Tiếng Anh 6",
+        "h": "Hỏi đường lịch sự"
+      },
+      {
+        "c": "TA6-B05-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ khoảng cách từ nhà Mai đến các địa điểm. Nơi nào xa nhà Mai hơn thư viện nhưng gần hơn rạp chiếu phim?",
+        "o": [
+          "Park",
+          "School",
+          "Market",
+          "Post office"
+        ],
+        "k": "D",
+        "e": "Library = 400 m, Post office = 650 m, Cinema = 900 m nên Post office nằm giữa 400 m và 900 m.",
+        "s": "Tiếng Anh 6",
+        "h": "So sánh số liệu khoảng cách",
+        "fig": {
+          "type": "bars",
+          "title": "Distance from Home (m)",
+          "labels": [
+            "School",
+            "Library",
+            "Post office",
+            "Cinema"
+          ],
+          "series": [
+            {
+              "values": [
+                250,
+                400,
+                650,
+                900
+              ]
+            }
+          ],
+          "unit": "m"
+        }
+      },
+      {
+        "c": "TA6-B05-011",
+        "d": "application",
+        "p": "Chọn câu hoàn chỉnh đúng khi so sánh hai con đường:",
+        "o": [
+          "Nguyen Hue Street is wider than Le Loi Street.",
+          "Nguyen Hue Street wider than Le Loi Street.",
+          "Nguyen Hue Street is more wide than Le Loi Street.",
+          "Nguyen Hue Street is wider as Le Loi Street."
+        ],
+        "k": "A",
+        "e": "\"wide\" là tính từ ngắn kết thúc bằng \"e\", thêm \"r\" thành \"wider\", đi với \"than\".",
+        "s": "Tiếng Anh 6",
+        "h": "Tính từ ngắn kết thúc bằng -e"
+      },
+      {
+        "c": "TA6-B05-012",
+        "d": "application",
+        "p": "Điền từ đúng để chỉ đường: \"Go straight ... until you reach the traffic lights, then turn right.\"",
+        "o": [
+          "over",
+          "behind",
+          "ahead",
+          "between"
+        ],
+        "k": "C",
+        "e": "Cụm cố định \"go straight ahead\" nghĩa là đi thẳng về phía trước.",
+        "s": "Tiếng Anh 6",
+        "h": "Cụm go straight ahead"
+      },
+      {
+        "c": "TA6-B05-013",
+        "d": "advanced",
+        "p": "Tìm và sửa lỗi sai trong câu: \"This hotel is more convenient and cleanner than the old one near the port.\"",
+        "o": [
+          "Sửa \"than\" thành \"as\"",
+          "Sửa \"more convenient\" thành \"convenienter\"",
+          "Sửa \"cleanner\" thành \"cleaner\" (chỉ có 1 chữ n)",
+          "Sửa \"one\" thành \"ones\""
+        ],
+        "k": "C",
+        "e": "\"clean\" có hai nguyên âm \"ea\" đứng trước phụ âm \"n\" nên KHÔNG gấp đôi \"n\"; dạng đúng là \"cleaner\".",
+        "s": "Tiếng Anh 6",
+        "h": "Quy tắc gấp đôi phụ âm trong so sánh hơn"
+      },
+      {
+        "c": "TA6-B05-014",
+        "d": "advanced",
+        "p": "Đọc chỉ dẫn: \"Start at the square. Walk along Park Road for 200 metres. Turn right at the bakery. The art gallery is on your left, opposite the café.\" Người hỏi đang đứng đối diện quán cà phê và rẽ phải ở tiệm bánh; điểm đến nằm phía nào?",
+        "o": [
+          "Bên tay trái, đối diện quán cà phê",
+          "Phía sau tiệm bánh, cách 500 mét",
+          "Bên tay phải, ngay cạnh quảng trường",
+          "Trên tầng hai của quán cà phê"
+        ],
+        "k": "A",
+        "e": "Đề nêu rõ: \"The art gallery is on your left, opposite the café.\"",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc hiểu chỉ đường chi tiết"
+      },
+      {
+        "c": "TA6-B05-015",
+        "d": "advanced",
+        "p": "Chọn câu viết lại giữ nguyên nghĩa cho câu: \"Hoi An is quieter than Ho Chi Minh City.\"",
+        "o": [
+          "Ho Chi Minh City is busier and noisier than Hoi An.",
+          "Hoi An is as noisy as Ho Chi Minh City.",
+          "Hoi An is busier than Ho Chi Minh City.",
+          "Ho Chi Minh City is quieter than Hoi An."
+        ],
+        "k": "A",
+        "e": "Hội An yên tĩnh hơn TP.HCM đồng nghĩa TP.HCM nhộn nhịp và ồn ào hơn Hội An.",
+        "s": "Tiếng Anh 6",
+        "h": "Viết lại câu so sánh ngược"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh6-c2",
+    "lesson": {
+      "code": "tienganh6-b06",
+      "title": "Unit 5. Natural Wonders of Viet Nam",
+      "seq": 6,
+      "subtitle": "Kì quan thiên nhiên Việt Nam và đồ dùng du lịch, âm /t/ và /d/, danh từ đếm được và không đếm được, must và mustn't",
+      "concepts": [
+        "Natural wonders & travel items",
+        "Countable/uncountable nouns & quantifiers",
+        "Must / Mustn't & sounds /t/, /d/"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA6-B06-001",
+        "d": "basic",
+        "p": "Chọn từ có âm /d/ ở đầu từ (khác với âm /t/):",
+        "o": [
+          "tent",
+          "temple",
+          "desert",
+          "torch"
+        ],
+        "k": "C",
+        "e": "\"desert\" bắt đầu bằng âm /d/; còn \"tent\", \"torch\", \"temple\" bắt đầu bằng âm /t/.",
+        "s": "Tiếng Anh 6",
+        "h": "Phân biệt âm /t/ và /d/"
+      },
+      {
+        "c": "TA6-B06-002",
+        "d": "basic",
+        "p": "Vật dụng nào giúp em bôi lên da để tránh cháy nắng khi đi biển hoặc leo núi?",
+        "o": [
+          "scissors",
+          "suncream",
+          "compass",
+          "sleeping bag"
+        ],
+        "k": "B",
+        "e": "\"suncream\" là kem chống nắng; \"sleeping bag\" (túi ngủ), \"compass\" (la bàn), \"scissors\" (cái kéo).",
+        "s": "Tiếng Anh 6",
+        "h": "Từ vựng đồ dùng dã ngoại"
+      },
+      {
+        "c": "TA6-B06-003",
+        "d": "basic",
+        "p": "Kì quan nào của Việt Nam nổi tiếng với hàng nghìn đảo đá vôi trên vịnh biển?",
+        "o": [
+          "Ha Long Bay",
+          "Fansipan",
+          "Mui Ne",
+          "Son Doong"
+        ],
+        "k": "A",
+        "e": "Ha Long Bay (Vịnh Hạ Long) nổi tiếng với các đảo đá vôi; Fansipan là đỉnh núi, Mui Ne nổi tiếng đồi cát, Son Doong là hang động.",
+        "s": "Tiếng Anh 6",
+        "h": "Kì quan thiên nhiên Việt Nam"
+      },
+      {
+        "c": "TA6-B06-004",
+        "d": "basic",
+        "p": "Trong các danh từ sau, danh từ nào là danh từ KHÔNG đếm được (uncountable noun)?",
+        "o": [
+          "island",
+          "waterfall",
+          "backpack",
+          "luggage"
+        ],
+        "k": "D",
+        "e": "\"luggage\" (hành lý) là danh từ không đếm được, không có dạng số nhiều \"luggages\".",
+        "s": "Tiếng Anh 6",
+        "h": "Nhận biết danh từ không đếm được"
+      },
+      {
+        "c": "TA6-B06-005",
+        "d": "basic",
+        "p": "Điền \"must\" hoặc \"mustn't\" đúng quy định khu bảo tồn: \"Visitors ... drop litter in the national park.\"",
+        "o": [
+          "should",
+          "must",
+          "mustn't",
+          "can"
+        ],
+        "k": "C",
+        "e": "Không được phép xả rác trong vườn quốc gia nên dùng \"mustn't\" (cấm làm).",
+        "s": "Tiếng Anh 6",
+        "h": "Dùng mustn't diễn tả điều cấm"
+      },
+      {
+        "c": "TA6-B06-006",
+        "d": "basic",
+        "p": "Quan sát bảng dữ liệu kì quan thiên nhiên. Địa danh nào ở tỉnh Lào Cai?",
+        "o": [
+          "Ganh Da Dia",
+          "Fansipan",
+          "Ha Long Bay",
+          "Mui Ne"
+        ],
+        "k": "B",
+        "e": "Theo bảng, Fansipan nằm ở tỉnh Lao Cai (độ cao 3.143 m).",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc bảng thông tin địa lý",
+        "fig": {
+          "type": "table",
+          "title": "Viet Nam Wonders",
+          "head": [
+            "Wonder",
+            "Province",
+            "Type"
+          ],
+          "rows": [
+            [
+              "Ha Long Bay",
+              "Quang Ninh",
+              "Bay"
+            ],
+            [
+              "Fansipan",
+              "Lao Cai",
+              "Mountain"
+            ],
+            [
+              "Mui Ne",
+              "Binh Thuan",
+              "Sand dunes"
+            ],
+            [
+              "Ganh Da Dia",
+              "Phu Yen",
+              "Rock coast"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B06-007",
+        "d": "application",
+        "p": "Chọn lượng từ đúng cho danh từ không đếm được \"information\": \"Can you give me ... information about Phu Quoc Island?\"",
+        "o": [
+          "some",
+          "an",
+          "many",
+          "a few"
+        ],
+        "k": "A",
+        "e": "\"information\" là danh từ không đếm được nên có thể dùng với \"some\" trong lời đề nghị; không dùng \"many\", \"a few\", \"an\".",
+        "s": "Tiếng Anh 6",
+        "h": "Lượng từ với danh từ không đếm được"
+      },
+      {
+        "c": "TA6-B06-008",
+        "d": "application",
+        "p": "Điền \"much\" hoặc \"many\": \"How ... water should hikers carry per day in hot weather?\"",
+        "o": [
+          "few",
+          "a",
+          "much",
+          "many"
+        ],
+        "k": "C",
+        "e": "\"water\" là danh từ không đếm được nên hỏi số lượng dùng \"How much water...?\".",
+        "s": "Tiếng Anh 6",
+        "h": "How much vs How many"
+      },
+      {
+        "c": "TA6-B06-009",
+        "d": "application",
+        "p": "Chọn câu dùng \"a few\" và \"a little\" chính xác:",
+        "o": [
+          "We have much bananas and many milk for breakfast.",
+          "We have a few bananas and a little milk for breakfast at camp.",
+          "We have a little bananas and a few milk for breakfast.",
+          "We have any bananas and a few milk for breakfast."
+        ],
+        "k": "B",
+        "e": "\"bananas\" đếm được số nhiều dùng \"a few\"; \"milk\" không đếm được dùng \"a little\".",
+        "s": "Tiếng Anh 6",
+        "h": "Phân biệt a few và a little"
+      },
+      {
+        "c": "TA6-B06-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ lượng khách du lịch tham quan bốn địa điểm (nghìn lượt). Vịnh Hạ Long đón nhiều hơn Phong Nha bao nhiêu nghìn lượt?",
+        "o": [
+          "15 nghìn lượt",
+          "30 nghìn lượt",
+          "25 nghìn lượt",
+          "20 nghìn lượt"
+        ],
+        "k": "C",
+        "e": "Ha Long Bay = 65 nghìn lượt, Phong Nha = 40 nghìn lượt; hiệu là 65 − 40 = 25 nghìn lượt.",
+        "s": "Tiếng Anh 6",
+        "h": "Tính hiệu số từ biểu đồ cột",
+        "fig": {
+          "type": "bars",
+          "title": "Visitors (thousands)",
+          "labels": [
+            "Ha Long",
+            "Phong Nha",
+            "Mui Ne",
+            "Ba Be"
+          ],
+          "series": [
+            {
+              "values": [
+                65,
+                40,
+                35,
+                25
+              ]
+            }
+          ],
+          "unit": "k"
+        }
+      },
+      {
+        "c": "TA6-B06-011",
+        "d": "application",
+        "p": "Hoàn thành nội quy leo núi: \"All climbers ... wear sturdy shoes and follow the trail guide.\"",
+        "o": [
+          "must",
+          "mustn't",
+          "aren't",
+          "can't"
+        ],
+        "k": "A",
+        "e": "Quy định bắt buộc đảm bảo an toàn dùng \"must + động từ nguyên mẫu\".",
+        "s": "Tiếng Anh 6",
+        "h": "Must với quy tắc an toàn"
+      },
+      {
+        "c": "TA6-B06-012",
+        "d": "application",
+        "p": "Chọn lời khuyên phù hợp khi bạn sắp đi cắm trại ban đêm trong rừng:",
+        "o": [
+          "You must pick rare flowers in the forest.",
+          "Don't bring any water because it is heavy.",
+          "Take only high heels for mountain climbing.",
+          "Remember to bring a torch and a warm sleeping bag."
+        ],
+        "k": "D",
+        "e": "Cắm trại ban đêm cần đèn pin (\"torch\") và túi ngủ ấm (\"warm sleeping bag\").",
+        "s": "Tiếng Anh 6",
+        "h": "Chuẩn bị đồ cắm trại"
+      },
+      {
+        "c": "TA6-B06-013",
+        "d": "advanced",
+        "p": "Tìm lỗi sai trong câu: \"There aren't some waterfalls in this dry desert, only a little sand dunes.\"",
+        "o": [
+          "Sai \"desert\" (phải viết hoa)",
+          "Sai cả \"some\" (phải đổi thành \"any\") và \"a little\" (phải đổi thành \"a few\")",
+          "Sai \"waterfalls\" (phải bỏ \"-s\")",
+          "Sai \"aren't\" (phải đổi thành \"isn't\")"
+        ],
+        "k": "B",
+        "e": "Câu phủ định dùng \"any\" thay cho \"some\"; \"sand dunes\" đếm được số nhiều phải dùng \"a few\".",
+        "s": "Tiếng Anh 6",
+        "h": "Kiểm tra lượng từ phủ định và đếm được"
+      },
+      {
+        "c": "TA6-B06-014",
+        "d": "advanced",
+        "p": "Quan sát bảng chuẩn bị hành lý. Món nào còn thiếu khi đi thám hiểm hang động tối và ẩm?",
+        "o": [
+          "Glass vase",
+          "Waterproof torch",
+          "Heavy dictionary",
+          "Ice skates"
+        ],
+        "k": "B",
+        "e": "Bảng ghi Cave Tour cần Shoes (Yes), Helmet (Yes), Raincoat (Yes), còn Torch đang là Missing.",
+        "s": "Tiếng Anh 6",
+        "h": "Xác định đồ thiếu từ bảng",
+        "fig": {
+          "type": "table",
+          "title": "Cave Trip Checklist",
+          "head": [
+            "Item",
+            "Required",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Hiking shoes",
+              "Yes",
+              "Packed"
+            ],
+            [
+              "Helmet",
+              "Yes",
+              "Packed"
+            ],
+            [
+              "Torch",
+              "Yes",
+              "Missing"
+            ],
+            [
+              "Raincoat",
+              "Yes",
+              "Packed"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B06-015",
+        "d": "advanced",
+        "p": "Chọn câu viết chuẩn ngữ pháp khi nói về quy định ở Vườn quốc gia Cúc Phương:",
+        "o": [
+          "You must stay on the marked paths and must not feed the wild animals.",
+          "You must to stay on the paths and mustn't to feed wild animals.",
+          "You must staying on the marked paths and mustn't feeding animals.",
+          "You must stay on the paths and don't must feed wild animals."
+        ],
+        "k": "A",
+        "e": "Sau \"must / must not\" luôn dùng động từ nguyên mẫu không \"to\" (stay, feed).",
+        "s": "Tiếng Anh 6",
+        "h": "Động từ khuyết thiếu must + V-inf"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh6-c2",
+    "lesson": {
+      "code": "tienganh6-b07",
+      "title": "Unit 6. Our Tet Holiday",
+      "seq": 7,
+      "subtitle": "Từ vựng ngày Tết cổ truyền, phát âm /s/ và /ʃ/, lời khuyên should/shouldn't và lượng từ some/any",
+      "concepts": [
+        "Tet traditions & wishes",
+        "Should / Shouldn't for advice",
+        "Some / Any & sounds /s/, /ʃ/"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA6-B07-001",
+        "d": "basic",
+        "p": "Chọn từ có âm /ʃ/ (sh) khác với các từ bắt đầu bằng âm /s/:",
+        "o": [
+          "shopping",
+          "special",
+          "smile",
+          "spring"
+        ],
+        "k": "A",
+        "e": "\"shopping\" bắt đầu bằng âm /ʃ/; còn \"special\", \"spring\", \"smile\" bắt đầu bằng âm /s/.",
+        "s": "Tiếng Anh 6",
+        "h": "Phân biệt âm /s/ và /ʃ/"
+      },
+      {
+        "c": "TA6-B07-002",
+        "d": "basic",
+        "p": "Phong tục truyền thống vào sáng mùng Một Tết người lớn tặng trẻ em bao đỏ gọi là gì?",
+        "o": [
+          "peach blossoms",
+          "furniture",
+          "lucky money",
+          "fireworks"
+        ],
+        "k": "C",
+        "e": "\"lucky money\" là tiền lì xì đầu năm; \"fireworks\" là pháo hoa, \"peach blossoms\" là hoa đào.",
+        "s": "Tiếng Anh 6",
+        "h": "Từ vựng phong tục ngày Tết"
+      },
+      {
+        "c": "TA6-B07-003",
+        "d": "basic",
+        "p": "Hoạt động nào gia đình thường làm TRƯỚC giao thừa để đón năm mới tinh tươm?",
+        "o": [
+          "clean and decorate the house",
+          "break bowls and plates",
+          "make loud noise at midnight",
+          "throw rubbish on the floor"
+        ],
+        "k": "A",
+        "e": "Trước Tết, mọi nhà đều dọn dẹp và trang trí nhà cửa (\"clean and decorate the house\").",
+        "s": "Tiếng Anh 6",
+        "h": "Phong tục chuẩn bị đón Tết"
+      },
+      {
+        "c": "TA6-B07-004",
+        "d": "basic",
+        "p": "Điền \"should\" hoặc \"shouldn't\" đúng văn hóa ứng xử ngày Tết: \"Children ... say bad things on the first day of Tet.\"",
+        "o": [
+          "will",
+          "shouldn't",
+          "must",
+          "should"
+        ],
+        "k": "B",
+        "e": "Ngày Tết nên kiêng nói điều xui xẻo, nên dùng lời khuyên \"shouldn't\".",
+        "s": "Tiếng Anh 6",
+        "h": "Dùng shouldn't khuyên nhủ"
+      },
+      {
+        "c": "TA6-B07-005",
+        "d": "basic",
+        "p": "Điền \"some\" hoặc \"any\": \"Are there ... apricot blossoms in the flower market today?\"",
+        "o": [
+          "some",
+          "an",
+          "any",
+          "a"
+        ],
+        "k": "C",
+        "e": "Câu hỏi thông thường dùng \"any\" trước danh từ số nhiều \"apricot blossoms\".",
+        "s": "Tiếng Anh 6",
+        "h": "Some và Any trong câu hỏi"
+      },
+      {
+        "c": "TA6-B07-006",
+        "d": "basic",
+        "p": "Quan sát bảng việc chuẩn bị Tết của gia đình Hùng. Ai là người phụ trách mua hoa đào và cây quất?",
+        "o": [
+          "Hung",
+          "Mum",
+          "Dad",
+          "Lan"
+        ],
+        "k": "C",
+        "e": "Bảng ghi cột Task \"Buy peach & kumquat\" tương ứng Person \"Dad\".",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc bảng phân công ngày Tết",
+        "fig": {
+          "type": "table",
+          "title": "Tet Preparation",
+          "head": [
+            "Person",
+            "Task",
+            "Day"
+          ],
+          "rows": [
+            [
+              "Mum",
+              "Cook banh chung",
+              "28th Tet"
+            ],
+            [
+              "Dad",
+              "Buy peach trees",
+              "28th Tet"
+            ],
+            [
+              "Hung",
+              "Sweep the yard",
+              "29th Tet"
+            ],
+            [
+              "Lan",
+              "Arrange fruit tray",
+              "30th Tet"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B07-007",
+        "d": "application",
+        "p": "Chọn câu dùng \"some\" đúng trong lời mời lịch sự:",
+        "o": [
+          "Do you want any a cup of tea?",
+          "Would you like any candied ginger and green tea?",
+          "Would you like many green tea?",
+          "Would you like some candied ginger and green tea?"
+        ],
+        "k": "D",
+        "e": "Trong lời mời, đề nghị lịch sự bắt đầu bằng \"Would you like...?\", ta dùng \"some\" thay cho \"any\".",
+        "s": "Tiếng Anh 6",
+        "h": "Ngoại lệ dùng some trong lời mời"
+      },
+      {
+        "c": "TA6-B07-008",
+        "d": "application",
+        "p": "Hoàn thành câu chúc Tết truyền thống: \"I wish you a New Year full of good ... and happiness!\"",
+        "o": [
+          "illness",
+          "health",
+          "healthy",
+          "noise"
+        ],
+        "k": "B",
+        "e": "Sau tính từ \"good\" cần một danh từ: \"good health\" (sức khỏe dồi dào).",
+        "s": "Tiếng Anh 6",
+        "h": "Từ loại trong lời chúc"
+      },
+      {
+        "c": "TA6-B07-009",
+        "d": "application",
+        "p": "Chọn cặp âm /ʃ/ xuất hiện ở cả hai từ:",
+        "o": [
+          "celebrate, summer",
+          "rice, spring",
+          "sweet, clean",
+          "wish, sugar"
+        ],
+        "k": "D",
+        "e": "\"wish\" (/wɪʃ/) và \"sugar\" (/ˈʃʊɡə/) đều chứa âm /ʃ/.",
+        "s": "Tiếng Anh 6",
+        "h": "Nhận diện âm /ʃ/"
+      },
+      {
+        "c": "TA6-B07-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ mức độ ưa thích hoạt động ngày Tết của học sinh khối 6. Hoạt động nào đứng thứ hai sau \"Get lucky money\"?",
+        "o": [
+          "Watch fireworks",
+          "Go to flower market",
+          "Eat banh chung",
+          "Visit relatives"
+        ],
+        "k": "A",
+        "e": "Get lucky money = 28, Watch fireworks = 22 (đứng thứ hai), Visit relatives = 18, Eat banh chung = 14.",
+        "s": "Tiếng Anh 6",
+        "h": "Xếp hạng từ biểu đồ cột",
+        "fig": {
+          "type": "bars",
+          "title": "Favourite Tet Activities",
+          "labels": [
+            "Lucky money",
+            "Fireworks",
+            "Relatives",
+            "Banh chung"
+          ],
+          "series": [
+            {
+              "values": [
+                28,
+                22,
+                18,
+                14
+              ]
+            }
+          ],
+          "unit": "votes"
+        }
+      },
+      {
+        "c": "TA6-B07-011",
+        "d": "application",
+        "p": "Điền từ thích hợp: \"At Tet, many families go to the ... to wish for peace and luck.\"",
+        "o": [
+          "pagoda",
+          "supermarket",
+          "stadium",
+          "factory"
+        ],
+        "k": "A",
+        "e": "Đi lễ chùa đầu năm cầu bình an, may mắn dùng từ \"pagoda\".",
+        "s": "Tiếng Anh 6",
+        "h": "Văn hóa lễ chùa đầu năm"
+      },
+      {
+        "c": "TA6-B07-012",
+        "d": "application",
+        "p": "Chọn lời đáp phù hợp khi được người lớn chúc Tết và tặng lì xì:",
+        "o": [
+          "Good afternoon, see you last week.",
+          "Thank you very much! I wish you great health and joy.",
+          "You should give me more tomorrow.",
+          "No, I do not want any money."
+        ],
+        "k": "B",
+        "e": "Khi nhận lì xì và lời chúc, đáp lại bằng lời cảm ơn và chúc sức khỏe, niềm vui.",
+        "s": "Tiếng Anh 6",
+        "h": "Giao tiếp lễ phép ngày Tết"
+      },
+      {
+        "c": "TA6-B07-013",
+        "d": "advanced",
+        "p": "Tìm lỗi sai trong câu: \"Before Tet, we shouldn't decorating the living room with withered flowers.\"",
+        "o": [
+          "Sửa \"Before Tet\" thành \"At Tet\"",
+          "Sửa \"decorating\" thành \"decorate\" vì sau \"shouldn't\" là động từ nguyên mẫu",
+          "Sửa \"living room\" thành \"kitchen\"",
+          "Sửa \"with\" thành \"by\""
+        ],
+        "k": "B",
+        "e": "Động từ khuyết thiếu \"should / shouldn't\" luôn đi kèm động từ nguyên mẫu không \"to\" (decorate).",
+        "s": "Tiếng Anh 6",
+        "h": "Ngữ pháp should + V-inf"
+      },
+      {
+        "c": "TA6-B07-014",
+        "d": "advanced",
+        "p": "Quan sát bảng phong tục Tết một số nước châu Á. Điểm chung giữa Việt Nam và Hàn Quốc theo bảng là gì?",
+        "o": [
+          "Both visit family and wear traditional clothes",
+          "Both never eat rice cakes",
+          "Both celebrate in July only",
+          "Both cook banh chung in banana leaves"
+        ],
+        "k": "A",
+        "e": "Theo bảng, cả Viet Nam và Korea đều có mục Family visit = Yes và Traditional dress = Yes.",
+        "s": "Tiếng Anh 6",
+        "h": "So sánh văn hóa qua bảng",
+        "fig": {
+          "type": "table",
+          "title": "New Year Customs",
+          "head": [
+            "Custom",
+            "Viet Nam",
+            "Korea"
+          ],
+          "rows": [
+            [
+              "Family visit",
+              "Yes",
+              "Yes"
+            ],
+            [
+              "Traditional food",
+              "Banh chung",
+              "Tteokguk"
+            ],
+            [
+              "Traditional dress",
+              "Ao dai",
+              "Hanbok"
+            ],
+            [
+              "Lucky money",
+              "Yes",
+              "Yes"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B07-015",
+        "d": "advanced",
+        "p": "Chọn câu hoàn chỉnh khuyên bạn nên giữ truyền thống Tết an toàn, tiết kiệm:",
+        "o": [
+          "We should to help our parents clean the house and shouldn't wasting food.",
+          "We should helping parents clean house and shouldn't waste any foods.",
+          "We should help our parents clean the house and shouldn't waste food during Tet.",
+          "We shouldn't help parents and should waste food during Tet."
+        ],
+        "k": "C",
+        "e": "Cấu trúc song song chuẩn với \"should + V-inf\" (\"help\") và \"shouldn't + V-inf\" (\"waste\").",
+        "s": "Tiếng Anh 6",
+        "h": "Cấu trúc câu ghép với should"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh6-c2",
+    "lesson": {
+      "code": "tienganh6-b08",
+      "title": "Review 2. Units 4–6",
+      "seq": 8,
+      "subtitle": "Ôn tập tổng hợp Units 4–6: so sánh hơn, danh từ đếm được/không đếm được, must/should, some/any, âm /ɪ/-/iː/, /t/-/d/, /s/-/ʃ/",
+      "concepts": [
+        "Review comparatives & quantifiers",
+        "Must vs Should",
+        "Review phonetics Units 4-6"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA6-B08-001",
+        "d": "basic",
+        "p": "Chọn từ có nguyên âm phát âm là /iː/ khác với các từ còn lại:",
+        "o": [
+          "cheap",
+          "city",
+          "noisy",
+          "village"
+        ],
+        "k": "A",
+        "e": "\"cheap\" phát âm /tʃiːp/ với nguyên âm dài /iː/; ba từ còn lại có âm /ɪ/.",
+        "s": "Tiếng Anh 6",
+        "h": "Ôn tập /iː/ và /ɪ/"
+      },
+      {
+        "c": "TA6-B08-002",
+        "d": "basic",
+        "p": "Chọn từ có âm /ʃ/:",
+        "o": [
+          "spring",
+          "square",
+          "street",
+          "should"
+        ],
+        "k": "D",
+        "e": "\"should\" bắt đầu bằng âm /ʃ/; ba từ kia bắt đầu bằng cụm âm /s/.",
+        "s": "Tiếng Anh 6",
+        "h": "Ôn tập /ʃ/ và /s/"
+      },
+      {
+        "c": "TA6-B08-003",
+        "d": "basic",
+        "p": "Hoàn thành câu so sánh hơn: \"Ha Long Bay is ... famous than many small beaches in the area.\"",
+        "o": [
+          "much",
+          "many",
+          "more",
+          "most"
+        ],
+        "k": "C",
+        "e": "\"famous\" là tính từ dài nên dạng so sánh hơn là \"more famous than\".",
+        "s": "Tiếng Anh 6",
+        "h": "Ôn tập so sánh hơn"
+      },
+      {
+        "c": "TA6-B08-004",
+        "d": "basic",
+        "p": "Điền từ thích hợp: \"How ... islands are there in Ha Long Bay?\"",
+        "o": [
+          "any",
+          "much",
+          "little",
+          "many"
+        ],
+        "k": "D",
+        "e": "\"islands\" là danh từ đếm được số nhiều nên dùng \"How many\".",
+        "s": "Tiếng Anh 6",
+        "h": "How many với danh từ số nhiều"
+      },
+      {
+        "c": "TA6-B08-005",
+        "d": "basic",
+        "p": "Chọn từ đúng điền vào bảng chỉ dẫn trong bảo tàng: \"You ... touch the ancient statues.\"",
+        "o": [
+          "should",
+          "must",
+          "mustn't",
+          "some"
+        ],
+        "k": "C",
+        "e": "Nội quy cấm sờ vào hiện vật dùng \"mustn't\".",
+        "s": "Tiếng Anh 6",
+        "h": "Biển báo quy định mustn't"
+      },
+      {
+        "c": "TA6-B08-006",
+        "d": "basic",
+        "p": "Quan sát bảng thông tin ba con đường. Đường nào hẹp nhất nhưng yên tĩnh nhất?",
+        "o": [
+          "River Road",
+          "Lotus Lane",
+          "None of them",
+          "Central Avenue"
+        ],
+        "k": "B",
+        "e": "Theo bảng, Lotus Lane có Width = 4 m (hẹp nhất) và Noise = Very quiet.",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc bảng so sánh đường phố",
+        "fig": {
+          "type": "table",
+          "title": "City Streets",
+          "head": [
+            "Street",
+            "Width",
+            "Noise"
+          ],
+          "rows": [
+            [
+              "Central Ave",
+              "24 m",
+              "Very noisy"
+            ],
+            [
+              "River Road",
+              "12 m",
+              "Moderate"
+            ],
+            [
+              "Lotus Lane",
+              "4 m",
+              "Very quiet"
+            ],
+            [
+              "Market St",
+              "10 m",
+              "Busy"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B08-007",
+        "d": "application",
+        "p": "Chọn câu dùng đúng lượng từ cho danh từ không đếm được và đếm được:",
+        "o": [
+          "There is some milk in the fridge, and there are a few apples on the tray.",
+          "There are any milk in the fridge, and there is some apples.",
+          "There is many milk in the fridge, and there are a little apples.",
+          "There are some milk in the fridge, and there is a few apples."
+        ],
+        "k": "A",
+        "e": "\"milk\" không đếm được dùng \"There is some milk\"; \"apples\" đếm được số nhiều dùng \"there are a few apples\".",
+        "s": "Tiếng Anh 6",
+        "h": "Hòa hợp There is/are với lượng từ"
+      },
+      {
+        "c": "TA6-B08-008",
+        "d": "application",
+        "p": "Sắp xếp thành câu lời khuyên ngày Tết: should / before / We / house / Tet / decorate / our / .",
+        "o": [
+          "Before Tet we house should decorate our.",
+          "Should we decorate before Tet our house.",
+          "We should decorate our house before Tet.",
+          "We decorate should our house before Tet."
+        ],
+        "k": "C",
+        "e": "Trật tự câu khẳng định: Chủ ngữ (We) + should + động từ (decorate) + tân ngữ + thời gian.",
+        "s": "Tiếng Anh 6",
+        "h": "Trật tự từ với should"
+      },
+      {
+        "c": "TA6-B08-009",
+        "d": "application",
+        "p": "Hoàn thành hội thoại chỉ đường: \"A: Excuse me, is there a bank near here? – B: Yes. Go past the cinema and ... left at the corner.\"",
+        "o": [
+          "cross",
+          "turn",
+          "take",
+          "go"
+        ],
+        "k": "B",
+        "e": "Chỉ hướng rẽ trái/phải luôn dùng động từ \"turn\": \"turn left / turn right\".",
+        "s": "Tiếng Anh 6",
+        "h": "Động từ chỉ hướng rẽ"
+      },
+      {
+        "c": "TA6-B08-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ lượng hành lý mang theo của 4 nhóm (kg). Tổng khối lượng hành lý của Group A và Group C là bao nhiêu?",
+        "o": [
+          "48 kg",
+          "42 kg",
+          "45 kg",
+          "36 kg"
+        ],
+        "k": "B",
+        "e": "Group A = 24 kg, Group C = 18 kg; tổng 24 + 18 = 42 kg.",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc số liệu và cộng từ biểu đồ",
+        "fig": {
+          "type": "bars",
+          "title": "Group Luggage (kg)",
+          "labels": [
+            "Group A",
+            "Group B",
+            "Group C",
+            "Group D"
+          ],
+          "series": [
+            {
+              "values": [
+                24,
+                30,
+                18,
+                22
+              ]
+            }
+          ],
+          "unit": "kg"
+        }
+      },
+      {
+        "c": "TA6-B08-011",
+        "d": "application",
+        "p": "Chọn câu dùng so sánh hơn đúng với tính từ \"bad\":",
+        "o": [
+          "Traffic at 5 p.m. is worse than traffic at 10 a.m.",
+          "Traffic at 5 p.m. is more bad than traffic at 10 a.m.",
+          "Traffic at 5 p.m. is badder than traffic at 10 a.m.",
+          "Traffic at 5 p.m. is the worst than traffic at 10 a.m."
+        ],
+        "k": "A",
+        "e": "Dạng so sánh hơn bất quy tắc của \"bad\" là \"worse than\".",
+        "s": "Tiếng Anh 6",
+        "h": "So sánh hơn của bad"
+      },
+      {
+        "c": "TA6-B08-012",
+        "d": "application",
+        "p": "Điền \"some\" hoặc \"any\": \"We don't have ... fireworks left, so let's buy ... sparklers.\"",
+        "o": [
+          "any ... any",
+          "some ... any",
+          "any ... some",
+          "some ... some"
+        ],
+        "k": "C",
+        "e": "Vế phủ định \"don't have\" dùng \"any\"; vế đề nghị khẳng định \"let's buy\" dùng \"some\".",
+        "s": "Tiếng Anh 6",
+        "h": "Some và Any trong một câu"
+      },
+      {
+        "c": "TA6-B08-013",
+        "d": "advanced",
+        "p": "Đọc đoạn văn ngắn: \"Sapa is cooler and more peaceful than Hanoi in July. However, tourists must bring warm jackets because temperatures drop at night, and they shouldn't leave rubbish on the mountain trails.\" Thông tin nào ĐÚNG?",
+        "o": [
+          "Hanoi is quieter than mountain trails.",
+          "Tourists mustn't wear jackets in Sapa.",
+          "Visitors need warm jackets at night and must keep the trails clean.",
+          "Sapa is hotter than Hanoi in July."
+        ],
+        "k": "C",
+        "e": "Đoạn văn nêu rõ \"must bring warm jackets\" vào ban đêm và \"shouldn't leave rubbish\" (giữ sạch đường mòn).",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc hiểu kết hợp so sánh và quy định"
+      },
+      {
+        "c": "TA6-B08-014",
+        "d": "advanced",
+        "p": "Quan sát bảng quy định hành lý và trang phục tour. Khẳng định nào SAI theo bảng?",
+        "o": [
+          "Visitors must bring large pets on the boat.",
+          "Visitors should wear hats for sun protection.",
+          "Visitors must wear life jackets on the bay.",
+          "Visitors should not drop plastic bottles."
+        ],
+        "k": "A",
+        "e": "Cột Allowed của \"Large pets\" ghi \"No (Mustn't)\" nên khẳng định bắt mang thú cưng là sai.",
+        "s": "Tiếng Anh 6",
+        "h": "Phân biệt must, mustn't, should từ bảng",
+        "fig": {
+          "type": "table",
+          "title": "Bay Tour Rules",
+          "head": [
+            "Rule Item",
+            "Level",
+            "Allowed"
+          ],
+          "rows": [
+            [
+              "Life jacket",
+              "Must",
+              "Required"
+            ],
+            [
+              "Sun hat",
+              "Should",
+              "Yes"
+            ],
+            [
+              "Littering",
+              "Mustn't",
+              "No"
+            ],
+            [
+              "Large pets",
+              "Mustn't",
+              "No"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B08-015",
+        "d": "advanced",
+        "p": "Chọn câu chuẩn ngữ pháp tổng hợp cả so sánh hơn và lời khuyên:",
+        "o": [
+          "The countryside is cleaner as the city, so we mustn't plant more trees.",
+          "The countryside is cleaner than the city, so we should plant more trees around our town.",
+          "The countryside cleaner than the city, so we should planting more trees.",
+          "The countryside is more clean than the city, so we should to plant trees."
+        ],
+        "k": "B",
+        "e": "\"clean\" -> \"cleaner than\", liên từ kết quả \"so\", và \"should + plant\" (nguyên mẫu) hoàn toàn chính xác.",
+        "s": "Tiếng Anh 6",
+        "h": "Tổng hợp ngữ pháp Units 4-6"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh6-c3",
+    "lesson": {
+      "code": "tienganh6-b09",
+      "title": "Unit 7. Television",
+      "seq": 9,
+      "subtitle": "Chương trình truyền hình, âm /θ/ và /ð/, từ để hỏi Wh-questions và liên từ câu ghép and, but, so",
+      "concepts": [
+        "TV programmes & adjectives",
+        "Wh-questions & conjunctions (and, but, so)",
+        "Pronunciation /θ/ and /ð/"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA6-B09-001",
+        "d": "basic",
+        "p": "Chọn từ có chữ \"th\" phát âm là /θ/ (âm vô thanh, khác với /ð/):",
+        "o": [
+          "weather",
+          "theatre",
+          "there",
+          "brother"
+        ],
+        "k": "B",
+        "e": "\"theatre\" phát âm âm đầu là /θ/; còn \"there\", \"weather\", \"brother\" có âm hữu thanh /ð/.",
+        "s": "Tiếng Anh 6",
+        "h": "Phân biệt âm /θ/ và /ð/"
+      },
+      {
+        "c": "TA6-B09-002",
+        "d": "basic",
+        "p": "Chương trình truyền hình hoạt hình dành cho thiếu nhi gọi là gì?",
+        "o": [
+          "documentary",
+          "news",
+          "comedy",
+          "cartoon"
+        ],
+        "k": "D",
+        "e": "\"cartoon\" là phim hoạt hình; \"news\" (thời sự), \"documentary\" (phim tài liệu), \"comedy\" (hài kịch).",
+        "s": "Tiếng Anh 6",
+        "h": "Từ vựng thể loại chương trình TV"
+      },
+      {
+        "c": "TA6-B09-003",
+        "d": "basic",
+        "p": "Tính từ nào phù hợp để miêu tả một chương trình khoa học mang lại nhiều kiến thức bổ ích?",
+        "o": [
+          "boring",
+          "terrible",
+          "educational",
+          "clumsy"
+        ],
+        "k": "C",
+        "e": "\"educational\" mang nghĩa có tính giáo dục, bổ ích.",
+        "s": "Tiếng Anh 6",
+        "h": "Tính từ đánh giá chương trình"
+      },
+      {
+        "c": "TA6-B09-004",
+        "d": "basic",
+        "p": "Chọn từ để hỏi phù hợp: \"... days a week do you watch the wildlife show?\" – \"Three days a week.\"",
+        "o": [
+          "Who",
+          "How much",
+          "What time",
+          "How many"
+        ],
+        "k": "D",
+        "e": "\"days\" là danh từ đếm được số nhiều nên hỏi số lượng dùng \"How many days...?\".",
+        "s": "Tiếng Anh 6",
+        "h": "Từ để hỏi Wh-"
+      },
+      {
+        "c": "TA6-B09-005",
+        "d": "basic",
+        "p": "Điền liên từ đúng: \"This talent show is very exciting, ... it finishes quite late.\"",
+        "o": [
+          "but",
+          "and",
+          "because",
+          "so"
+        ],
+        "k": "A",
+        "e": "Hai ý tương phản (thú vị nhưng kết thúc muộn) nối bằng liên từ \"but\".",
+        "s": "Tiếng Anh 6",
+        "h": "Liên từ câu ghép but"
+      },
+      {
+        "c": "TA6-B09-006",
+        "d": "basic",
+        "p": "Quan sát lịch phát sóng TV tối thứ Sáu. Chương trình nào phát lúc 19:30?",
+        "o": [
+          "Music Live",
+          "Tom and Jerry",
+          "Science World",
+          "Evening News"
+        ],
+        "k": "C",
+        "e": "Theo bảng, khung giờ 19:30 phát chương trình \"Science World\".",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc lịch phát sóng truyền hình",
+        "fig": {
+          "type": "table",
+          "title": "Friday TV Guide",
+          "head": [
+            "Time",
+            "Programme",
+            "Channel"
+          ],
+          "rows": [
+            [
+              "18:30",
+              "Tom and Jerry",
+              "KidsTV"
+            ],
+            [
+              "19:00",
+              "Evening News",
+              "VTV1"
+            ],
+            [
+              "19:30",
+              "Science World",
+              "VTV2"
+            ],
+            [
+              "20:30",
+              "Music Live",
+              "VTV3"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B09-007",
+        "d": "application",
+        "p": "Chọn câu dùng liên từ \"so\" đúng quan hệ nguyên nhân – kết quả:",
+        "o": [
+          "Minh finished his homework early, so his parents let him watch a cartoon.",
+          "His parents let Minh watch a cartoon, so he finished his homework.",
+          "Minh finished his homework early, or he watched a cartoon.",
+          "Minh finished his homework early, but his parents let him watch a cartoon."
+        ],
+        "k": "A",
+        "e": "\"hoàn thành bài tập sớm\" dẫn đến kết quả \"bố mẹ cho xem hoạt hình\" nên nối bằng \"so\".",
+        "s": "Tiếng Anh 6",
+        "h": "Quan hệ nguyên nhân – kết quả với so"
+      },
+      {
+        "c": "TA6-B09-008",
+        "d": "application",
+        "p": "Chọn câu hỏi đúng để biết kênh phát sóng chương trình yêu thích:",
+        "o": [
+          "Which channel is the sports programme on?",
+          "Where channel does the sports programme on?",
+          "What channel is the sports programme in?",
+          "How channel is the sports programme?"
+        ],
+        "k": "A",
+        "e": "Hỏi tên kênh phát sóng dùng giới từ \"on\": \"Which channel is ... on?\".",
+        "s": "Tiếng Anh 6",
+        "h": "Giới từ on với kênh truyền hình"
+      },
+      {
+        "c": "TA6-B09-009",
+        "d": "application",
+        "p": "Từ nào có \"th\" phát âm là /ð/?",
+        "o": [
+          "thank",
+          "both",
+          "earth",
+          "feather"
+        ],
+        "k": "D",
+        "e": "\"feather\" (/ˈfeðə/) chứa âm /ð/; còn \"earth\", \"thank\", \"both\" chứa âm /θ/.",
+        "s": "Tiếng Anh 6",
+        "h": "Nhận diện âm /ð/"
+      },
+      {
+        "c": "TA6-B09-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ khảo sát thời gian xem TV trung bình mỗi ngày của 4 bạn (phút). Thời gian xem của Nga bằng một nửa của ai?",
+        "o": [
+          "Tuan",
+          "Không có ai",
+          "Minh",
+          "Hoa"
+        ],
+        "k": "A",
+        "e": "Nga xem 30 phút; Tuan xem 60 phút (30 bằng một nửa 60). Minh = 45, Hoa = 50.",
+        "s": "Tiếng Anh 6",
+        "h": "So sánh tỉ lệ từ biểu đồ cột",
+        "fig": {
+          "type": "bars",
+          "title": "Daily TV Time (min)",
+          "labels": [
+            "Tuan",
+            "Hoa",
+            "Minh",
+            "Nga"
+          ],
+          "series": [
+            {
+              "values": [
+                60,
+                50,
+                45,
+                30
+              ]
+            }
+          ],
+          "unit": "min"
+        }
+      },
+      {
+        "c": "TA6-B09-011",
+        "d": "application",
+        "p": "Hoàn thành câu: \"Tom is a famous ...; he brings laughter to millions of TV viewers.\"",
+        "o": [
+          "viewer",
+          "weathergirl",
+          "character",
+          "comedian"
+        ],
+        "k": "D",
+        "e": "Người diễn hài mang lại tiếng cười là \"comedian\" (diễn viên hài).",
+        "s": "Tiếng Anh 6",
+        "h": "Từ vựng nghề truyền hình"
+      },
+      {
+        "c": "TA6-B09-012",
+        "d": "application",
+        "p": "Chọn câu hỏi đúng với \"Why\" cho câu trả lời \"Because I learn many new facts about oceans.\"",
+        "o": [
+          "How often do you watch ocean documentaries?",
+          "Why do you enjoy watching ocean documentaries?",
+          "When do you enjoy watching ocean documentaries?",
+          "Who watches ocean documentaries with you?"
+        ],
+        "k": "B",
+        "e": "Câu trả lời bắt đầu bằng \"Because...\" trả lời cho câu hỏi nguyên nhân \"Why...?\".",
+        "s": "Tiếng Anh 6",
+        "h": "Câu hỏi với Why"
+      },
+      {
+        "c": "TA6-B09-013",
+        "d": "advanced",
+        "p": "Tìm lỗi sai trong câu: \"I like watching animal programmes, because they are very interesting and useful.\" (Lưu ý quy tắc dùng dấu phẩy trong Unit 7)",
+        "o": [
+          "Sửa \"animal programmes\" thành \"animals programme\"",
+          "Sửa \"watching\" thành \"watch\"",
+          "Sửa \"interesting\" thành \"interested\"",
+          "Không dùng \"because\" sau dấu phẩy như liên từ ghép; dùng \"and\" hoặc bỏ dấu phẩy trước \"because\""
+        ],
+        "k": "D",
+        "e": "Trong bài học về liên từ câu ghép (and, but, so), câu dùng \"because\" không tách bằng dấu phẩy ở giữa câu như \"..., so ...\".",
+        "s": "Tiếng Anh 6",
+        "h": "Cấu trúc câu ghép and, but, so"
+      },
+      {
+        "c": "TA6-B09-014",
+        "d": "advanced",
+        "p": "Đọc bảng nhận xét 3 chương trình TV. Bạn An thích chương trình hài hước và ngắn dưới 35 phút. Bạn An nên chọn chương trình nào?",
+        "o": [
+          "Cả World Wonders và Quiz Master",
+          "Funny Pets",
+          "World Wonders",
+          "Quiz Master"
+        ],
+        "k": "B",
+        "e": "Bảng ghi Funny Pets dài 25 min và mang phong cách Funny; hai chương trình kia dài 45 min và 50 min.",
+        "s": "Tiếng Anh 6",
+        "h": "Chọn lọc thông tin theo nhiều tiêu chí",
+        "fig": {
+          "type": "table",
+          "title": "TV Show Reviews",
+          "head": [
+            "Show",
+            "Length",
+            "Style"
+          ],
+          "rows": [
+            [
+              "World Wonders",
+              "45 min",
+              "Educational"
+            ],
+            [
+              "Funny Pets",
+              "25 min",
+              "Funny"
+            ],
+            [
+              "Quiz Master",
+              "50 min",
+              "Exciting"
+            ],
+            [
+              "News Today",
+              "30 min",
+              "Serious"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B09-015",
+        "d": "advanced",
+        "p": "Chọn câu hoàn chỉnh từ gợi ý: \"My sister / prefer / talent shows / but / I / prefer / animated films.\"",
+        "o": [
+          "My sister prefers talent shows, because I prefer animated films.",
+          "My sister is prefer talent shows, and I prefer animated films.",
+          "My sister prefer talent shows, so I prefers animated films.",
+          "My sister prefers talent shows, but I prefer animated films."
+        ],
+        "k": "D",
+        "e": "Chủ ngữ \"My sister\" số ít chia \"prefers\", hai vế đối lập dùng dấu phẩy + \"but\", chủ ngữ \"I\" chia \"prefer\".",
+        "s": "Tiếng Anh 6",
+        "h": "Viết câu ghép hoàn chỉnh"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh6-c3",
+    "lesson": {
+      "code": "tienganh6-b10",
+      "title": "Unit 8. Sports and Games",
+      "seq": 10,
+      "subtitle": "Thể thao và dụng cụ thi đấu, âm /e/ và /æ/, thì quá khứ đơn và câu mệnh lệnh",
+      "concepts": [
+        "Sports & equipment",
+        "Past simple tense",
+        "Imperatives & /e/ vs /æ/"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA6-B10-001",
+        "d": "basic",
+        "p": "Chọn từ có nguyên âm phát âm là /æ/ (khác với /e/):",
+        "o": [
+          "exercise",
+          "tennis",
+          "racket",
+          "chess"
+        ],
+        "k": "C",
+        "e": "\"racket\" có âm /æ/; còn \"chess\", \"tennis\", \"exercise\" có âm /e/.",
+        "s": "Tiếng Anh 6",
+        "h": "Phân biệt âm /e/ và /æ/"
+      },
+      {
+        "c": "TA6-B10-002",
+        "d": "basic",
+        "p": "Dụng cụ nào không thể thiếu khi chơi môn cầu lông (badminton) hoặc quần vợt (tennis)?",
+        "o": [
+          "skateboard",
+          "ski",
+          "goggles",
+          "racket"
+        ],
+        "k": "D",
+        "e": "\"racket\" là cái vợt; \"goggles\" (kính bơi), \"skateboard\" (ván trượt), \"ski\" (ván trượt tuyết).",
+        "s": "Tiếng Anh 6",
+        "h": "Từ vựng dụng cụ thể thao"
+      },
+      {
+        "c": "TA6-B10-003",
+        "d": "basic",
+        "p": "Điền động từ đúng đi với \"karate\" và \"aerobics\": \"My brother ... karate at the sports centre every Tuesday.\"",
+        "o": [
+          "plays",
+          "runs",
+          "does",
+          "goes"
+        ],
+        "k": "C",
+        "e": "Với các môn võ thuật và thể dục (karate, judo, aerobics), tiếng Anh dùng động từ \"do\".",
+        "s": "Tiếng Anh 6",
+        "h": "Phân biệt play, do, go với thể thao"
+      },
+      {
+        "c": "TA6-B10-004",
+        "d": "basic",
+        "p": "Chia động từ ở thì quá khứ đơn: \"Our school football team ... the inter-school match last Sunday.\"",
+        "o": [
+          "wins",
+          "won",
+          "win",
+          "winning"
+        ],
+        "k": "B",
+        "e": "Trạng từ \"last Sunday\" chỉ quá khứ; động từ bất quy tắc \"win\" đổi thành \"won\".",
+        "s": "Tiếng Anh 6",
+        "h": "Quá khứ đơn động từ bất quy tắc"
+      },
+      {
+        "c": "TA6-B10-005",
+        "d": "basic",
+        "p": "Chọn câu mệnh lệnh nhắc nhở an toàn khi đi bơi:",
+        "o": [
+          "No swimming to deep water alone!",
+          "Don't swim in deep water alone!",
+          "Doesn't swim in deep water alone!",
+          "Not swim in deep water alone!"
+        ],
+        "k": "B",
+        "e": "Câu mệnh lệnh phủ định bắt đầu bằng \"Don't + động từ nguyên mẫu\".",
+        "s": "Tiếng Anh 6",
+        "h": "Câu mệnh lệnh phủ định"
+      },
+      {
+        "c": "TA6-B10-006",
+        "d": "basic",
+        "p": "Quan sát bảng tổng kết huy chương hội khỏe của 4 lớp. Lớp nào giành được tổng số huy chương nhiều nhất?",
+        "o": [
+          "Class 6B",
+          "Class 6D",
+          "Class 6C",
+          "Class 6A"
+        ],
+        "k": "A",
+        "e": "Class 6A: 3+2+4=9; Class 6B: 5+4+3=12; Class 6C: 2+5+2=9; Class 6D: 4+1+3=8.",
+        "s": "Tiếng Anh 6",
+        "h": "Tính tổng từ bảng huy chương",
+        "fig": {
+          "type": "table",
+          "title": "School Sports Day",
+          "head": [
+            "Class",
+            "Gold",
+            "Silver",
+            "Bronze"
+          ],
+          "rows": [
+            [
+              "Class 6A",
+              "3",
+              "2",
+              "4"
+            ],
+            [
+              "Class 6B",
+              "5",
+              "4",
+              "3"
+            ],
+            [
+              "Class 6C",
+              "2",
+              "5",
+              "2"
+            ],
+            [
+              "Class 6D",
+              "4",
+              "1",
+              "3"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B10-007",
+        "d": "application",
+        "p": "Chọn câu hỏi ở thì quá khứ đơn đúng ngữ pháp:",
+        "o": [
+          "Did you went cycling around the lake yesterday afternoon?",
+          "Did you go cycling around the lake yesterday afternoon?",
+          "Do you went cycling around the lake yesterday afternoon?",
+          "Were you go cycling around the lake yesterday afternoon?"
+        ],
+        "k": "B",
+        "e": "Câu hỏi quá khứ đơn với động từ thường dùng \"Did + S + động từ nguyên mẫu (go)...?\".",
+        "s": "Tiếng Anh 6",
+        "h": "Câu hỏi thì quá khứ đơn"
+      },
+      {
+        "c": "TA6-B10-008",
+        "d": "application",
+        "p": "Hoàn thành câu với \"play, do, go\" phù hợp: \"On weekends, Tuan ... table tennis with his dad and ... swimming with his friends.\"",
+        "o": [
+          "plays ... goes",
+          "goes ... does",
+          "does ... plays",
+          "plays ... does"
+        ],
+        "k": "A",
+        "e": "Thể thao đối kháng dùng bóng (\"table tennis\") dùng \"play\"; môn kết thúc bằng \"-ing\" (\"swimming\") dùng \"go\".",
+        "s": "Tiếng Anh 6",
+        "h": "Quy tắc play và go"
+      },
+      {
+        "c": "TA6-B10-009",
+        "d": "application",
+        "p": "Điền \"was\" hoặc \"were\": \"The weather ... sunny, and all the runners ... excited before the marathon.\"",
+        "o": [
+          "was ... were",
+          "were ... was",
+          "were ... were",
+          "was ... was"
+        ],
+        "k": "A",
+        "e": "\"The weather\" không đếm được dùng \"was\"; \"all the runners\" số nhiều dùng \"were\".",
+        "s": "Tiếng Anh 6",
+        "h": "Quá khứ của động từ to be"
+      },
+      {
+        "c": "TA6-B10-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ môn thể thao yêu thích của học sinh khối 6. Số học sinh thích Badminton và Swimming cộng lại nhiều hơn Chess bao nhiêu em?",
+        "o": [
+          "22 học sinh",
+          "26 học sinh",
+          "18 học sinh",
+          "34 học sinh"
+        ],
+        "k": "B",
+        "e": "Badminton = 22, Swimming = 18 -> tổng = 40; Chess = 14 -> 40 − 14 = 26 học sinh.",
+        "s": "Tiếng Anh 6",
+        "h": "Phép tính trên biểu đồ cột",
+        "fig": {
+          "type": "bars",
+          "title": "Favourite Sports",
+          "labels": [
+            "Football",
+            "Badminton",
+            "Swimming",
+            "Chess"
+          ],
+          "series": [
+            {
+              "values": [
+                30,
+                22,
+                18,
+                14
+              ]
+            }
+          ],
+          "unit": "students"
+        }
+      },
+      {
+        "c": "TA6-B10-011",
+        "d": "application",
+        "p": "Chọn danh từ chỉ người chiến thắng trong một giải đấu thể thao:",
+        "o": [
+          "equipment",
+          "champion",
+          "stadium",
+          "score"
+        ],
+        "k": "B",
+        "e": "\"champion\" là nhà vô địch; \"score\" (tỉ số), \"equipment\" (dụng cụ), \"stadium\" (sân vận động).",
+        "s": "Tiếng Anh 6",
+        "h": "Từ vựng thi đấu thể thao"
+      },
+      {
+        "c": "TA6-B10-012",
+        "d": "application",
+        "p": "Chọn câu mệnh lệnh tích cực cổ vũ bạn trong giờ thể dục:",
+        "o": [
+          "Warming up carefully before you start running!",
+          "Warms up carefully before you start running!",
+          "To warm up carefully before starting running!",
+          "Warm up carefully before you start running!"
+        ],
+        "k": "D",
+        "e": "Câu mệnh lệnh khẳng định bắt đầu bằng động từ nguyên mẫu: \"Warm up...\".",
+        "s": "Tiếng Anh 6",
+        "h": "Câu mệnh lệnh khẳng định"
+      },
+      {
+        "c": "TA6-B10-013",
+        "d": "advanced",
+        "p": "Tìm lỗi sai trong câu: \"Last month, our class didn't participated in the tug-of-war competition because of heavy rain.\"",
+        "o": [
+          "Sửa \"Last month\" thành \"Next month\"",
+          "Sửa \"participated\" thành \"participate\" vì sau \"didn't\" phải là động từ nguyên mẫu",
+          "Sửa \"because of\" thành \"because\"",
+          "Sửa \"didn't\" thành \"wasn't\""
+        ],
+        "k": "B",
+        "e": "Sau trợ động từ phủ định \"didn't\", động từ chính luôn trở về dạng nguyên mẫu không chia \"-ed\".",
+        "s": "Tiếng Anh 6",
+        "h": "Phủ định quá khứ đơn didn't + V-inf"
+      },
+      {
+        "c": "TA6-B10-014",
+        "d": "advanced",
+        "p": "Quan sát bảng thành tích chạy 100 m của 4 học sinh. Nhận xét nào ĐÚNG?",
+        "o": [
+          "Khai ran the slowest of the four runners.",
+          "Binh finished before Huy by 0.4 seconds.",
+          "Dat took less time than Khai.",
+          "Huy ran faster than Binh and won first place."
+        ],
+        "k": "D",
+        "e": "Thời gian chạy ngắn nhất là nhanh nhất: Huy 13.8 s (nhanh nhất), tiếp theo Binh 14.2 s, Khai 14.5 s, Dat 15.1 s.",
+        "s": "Tiếng Anh 6",
+        "h": "Phân tích số liệu thành tích chạy",
+        "fig": {
+          "type": "table",
+          "title": "100m Sprint Results",
+          "head": [
+            "Runner",
+            "Time",
+            "Rank"
+          ],
+          "rows": [
+            [
+              "Huy",
+              "13.8 s",
+              "1st"
+            ],
+            [
+              "Binh",
+              "14.2 s",
+              "2nd"
+            ],
+            [
+              "Khai",
+              "14.5 s",
+              "3rd"
+            ],
+            [
+              "Dat",
+              "15.1 s",
+              "4th"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B10-015",
+        "d": "advanced",
+        "p": "Chọn câu hoàn chỉnh kể về kỉ niệm thể thao tuần trước:",
+        "o": [
+          "We play volleyball on the beach last Saturday and had a wonderful time.",
+          "We played volleyball on the beach last Saturday and having a wonderful time.",
+          "We played volleyball on the beach last Saturday and had a wonderful time together.",
+          "We were play volleyball on the beach last Saturday and have a wonderful time."
+        ],
+        "k": "C",
+        "e": "Hai hành động nối tiếp trong quá khứ \"last Saturday\" cùng chia quá khứ đơn: \"played ... and had\".",
+        "s": "Tiếng Anh 6",
+        "h": "Chuỗi động từ quá khứ đơn"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh6-c3",
+    "lesson": {
+      "code": "tienganh6-b11",
+      "title": "Unit 9. Cities of the World",
+      "seq": 11,
+      "subtitle": "Thành phố nổi tiếng, danh thắng và món ăn đường phố, âm /əʊ/ và /aʊ/, đại từ sở hữu và câu cảm thán",
+      "concepts": [
+        "Cities, landmarks & weather",
+        "Possessive adjectives vs Possessive pronouns",
+        "Pronunciation /əʊ/ and /aʊ/"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA6-B11-001",
+        "d": "basic",
+        "p": "Chọn từ có nguyên âm đôi phát âm là /aʊ/ (khác với /əʊ/):",
+        "o": [
+          "postcard",
+          "crowded",
+          "cold",
+          "boat"
+        ],
+        "k": "B",
+        "e": "\"crowded\" có âm /aʊ/; còn \"postcard\", \"cold\", \"boat\" có âm /əʊ/.",
+        "s": "Tiếng Anh 6",
+        "h": "Phân biệt /əʊ/ và /aʊ/"
+      },
+      {
+        "c": "TA6-B11-002",
+        "d": "basic",
+        "p": "Địa danh nổi tiếng nào là biểu tượng nằm bên bờ vịnh của thành phố Sydney (Úc)?",
+        "o": [
+          "Sydney Opera House",
+          "Big Ben",
+          "Times Square",
+          "Eiffel Tower"
+        ],
+        "k": "A",
+        "e": "Sydney Opera House (Nhà hát Con Sò) là biểu tượng của Sydney; Big Ben ở London, Eiffel Tower ở Paris, Times Square ở New York.",
+        "s": "Tiếng Anh 6",
+        "h": "Danh thắng nổi tiếng thế giới"
+      },
+      {
+        "c": "TA6-B11-003",
+        "d": "basic",
+        "p": "Tính từ nào miêu tả món ăn đường phố rất ngon miệng?",
+        "o": [
+          "crowded",
+          "rainy",
+          "tasty",
+          "ancient"
+        ],
+        "k": "C",
+        "e": "\"tasty\" (ngon miệng) hay dùng cho ẩm thực; \"crowded\" (đông đúc), \"rainy\" (có mưa), \"ancient\" (cổ kính).",
+        "s": "Tiếng Anh 6",
+        "h": "Từ vựng miêu tả đồ ăn và thành phố"
+      },
+      {
+        "c": "TA6-B11-004",
+        "d": "basic",
+        "p": "Chọn đại từ sở hữu thay thế cho cụm \"her postcard\": \"This is my postcard from Paris, and that one on the desk is ... .\"",
+        "o": [
+          "her",
+          "hers",
+          "herself",
+          "she"
+        ],
+        "k": "B",
+        "e": "Đại từ sở hữu đứng độc lập không có danh từ theo sau cho \"she/her\" là \"hers\".",
+        "s": "Tiếng Anh 6",
+        "h": "Đại từ sở hữu hers"
+      },
+      {
+        "c": "TA6-B11-005",
+        "d": "basic",
+        "p": "Hoàn thành câu cảm thán khen thời tiết: \"... sunny weather we are having in Nha Trang!\"",
+        "o": [
+          "Which",
+          "What",
+          "How",
+          "Who"
+        ],
+        "k": "B",
+        "e": "Cảm thán với danh từ không đếm được \"weather\": \"What + adj + N!\" (\"What sunny weather!\").",
+        "s": "Tiếng Anh 6",
+        "h": "Câu cảm thán What + adj + N"
+      },
+      {
+        "c": "TA6-B11-006",
+        "d": "basic",
+        "p": "Quan sát bảng thông tin bốn thành phố lớn. Thành phố nào có dân số đông nhất trong bảng?",
+        "o": [
+          "London",
+          "Sydney",
+          "Tokyo",
+          "Paris"
+        ],
+        "k": "C",
+        "e": "Theo bảng, Tokyo có 37M dân, vượt xa London (9M), Paris (11M), Sydney (5.3M).",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc bảng thông tin thành phố",
+        "fig": {
+          "type": "table",
+          "title": "World Cities",
+          "head": [
+            "City",
+            "Country",
+            "Landmark"
+          ],
+          "rows": [
+            [
+              "London",
+              "UK (9M)",
+              "Big Ben"
+            ],
+            [
+              "Paris",
+              "France (11M)",
+              "Eiffel Tower"
+            ],
+            [
+              "Tokyo",
+              "Japan (37M)",
+              "Tokyo Tower"
+            ],
+            [
+              "Sydney",
+              "Australia (5M)",
+              "Opera House"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B11-007",
+        "d": "application",
+        "p": "Chọn cặp tính từ sở hữu và đại từ sở hữu đúng: \"Is this ... camera, Nam?\" – \"No, ... is black. Maybe it is Linh's.\"",
+        "o": [
+          "yours ... mine",
+          "your ... my",
+          "your ... mine",
+          "yours ... my"
+        ],
+        "k": "C",
+        "e": "Trước danh từ \"camera\" dùng tính từ sở hữu \"your\"; đứng một mình làm chủ ngữ dùng đại từ sở hữu \"mine\".",
+        "s": "Tiếng Anh 6",
+        "h": "Phân biệt your và mine"
+      },
+      {
+        "c": "TA6-B11-008",
+        "d": "application",
+        "p": "Chọn câu cảm thán ĐÚNG ngữ pháp với danh từ đếm được số ít \"landmark\":",
+        "o": [
+          "How a breathtaking landmark!",
+          "What breathtaking landmark!",
+          "What a breathtaking landmark!",
+          "What an breathtaking landmark!"
+        ],
+        "k": "C",
+        "e": "\"landmark\" đếm được số ít nên cần mạo từ \"a\" trước tính từ \"breathtaking\": \"What a breathtaking landmark!\".",
+        "s": "Tiếng Anh 6",
+        "h": "Mạo từ trong câu cảm thán"
+      },
+      {
+        "c": "TA6-B11-009",
+        "d": "application",
+        "p": "Chọn từ có âm /əʊ/ giống trong \"snow\":",
+        "o": [
+          "tower",
+          "town",
+          "mouth",
+          "floating"
+        ],
+        "k": "D",
+        "e": "\"floating\" (/ˈfləʊtɪŋ/) có âm /əʊ/; còn \"tower\", \"mouth\", \"town\" có âm /aʊ/.",
+        "s": "Tiếng Anh 6",
+        "h": "Phát âm /əʊ/"
+      },
+      {
+        "c": "TA6-B11-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ nhiệt độ trung bình tháng 7 của 4 thành phố (°C). Thành phố nào mát mẻ nhất vào tháng 7?",
+        "o": [
+          "Sydney",
+          "Hanoi",
+          "Tokyo",
+          "Bangkok"
+        ],
+        "k": "A",
+        "e": "Vào tháng 7 (mùa đông Nam bán cầu), Sydney có nhiệt độ thấp nhất trong biểu đồ: 17°C.",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc biểu đồ nhiệt độ các thành phố",
+        "fig": {
+          "type": "bars",
+          "title": "July Average Temp (C)",
+          "labels": [
+            "Bangkok",
+            "Hanoi",
+            "Tokyo",
+            "Sydney"
+          ],
+          "series": [
+            {
+              "values": [
+                33,
+                31,
+                27,
+                17
+              ]
+            }
+          ],
+          "unit": "C"
+        }
+      },
+      {
+        "c": "TA6-B11-011",
+        "d": "application",
+        "p": "Điền giới từ đúng khi nói về địa điểm tham quan: \"People love visiting the floating market ... Can Tho by boat.\"",
+        "o": [
+          "under",
+          "between",
+          "on",
+          "in"
+        ],
+        "k": "D",
+        "e": "Trước tên thành phố hoặc tỉnh dùng giới từ \"in\": \"in Can Tho\".",
+        "s": "Tiếng Anh 6",
+        "h": "Giới từ in trước tên thành phố"
+      },
+      {
+        "c": "TA6-B11-012",
+        "d": "application",
+        "p": "Hoàn thành câu: \"Those bicycles belong to our neighbours. They are ... .\"",
+        "o": [
+          "theirs",
+          "their",
+          "they",
+          "them"
+        ],
+        "k": "A",
+        "e": "Thay cho \"their bicycles\", đại từ sở hữu tương ứng với \"they/their\" là \"theirs\".",
+        "s": "Tiếng Anh 6",
+        "h": "Đại từ sở hữu theirs"
+      },
+      {
+        "c": "TA6-B11-013",
+        "d": "advanced",
+        "p": "Tìm lỗi sai trong câu: \"Look at those ancient buildings in Hoi An! What an old and charming streets!\"",
+        "o": [
+          "Sửa \"What\" thành \"How\"",
+          "Sửa \"in Hoi An\" thành \"at Hoi An\"",
+          "Bỏ \"an\" vì \"streets\" là danh từ số nhiều, viết đúng là \"What old and charming streets!\"",
+          "Sửa \"buildings\" thành \"building\""
+        ],
+        "k": "C",
+        "e": "Trong câu cảm thán \"What + adj + N!\", không dùng \"a\" hay \"an\" trước danh từ số nhiều (\"streets\").",
+        "s": "Tiếng Anh 6",
+        "h": "Câu cảm thán với danh từ số nhiều"
+      },
+      {
+        "c": "TA6-B11-014",
+        "d": "advanced",
+        "p": "Đọc bảng thời tiết 4 ngày ở Đà Lạt. Nhận xét nào ĐÚNG theo bảng?",
+        "o": [
+          "All four days are sunny and dry.",
+          "Wednesday is colder than Monday and has rain.",
+          "Tuesday is the warmest day of the four.",
+          "Thursday is warmer than Monday."
+        ],
+        "k": "B",
+        "e": "Monday 22°C (Sunny), Tuesday 20°C (Cloudy), Wednesday 16°C (Rainy), Thursday 19°C (Windy).",
+        "s": "Tiếng Anh 6",
+        "h": "Đối chiếu thông tin bảng thời tiết",
+        "fig": {
+          "type": "table",
+          "title": "Da Lat Weather",
+          "head": [
+            "Day",
+            "Temp",
+            "Sky"
+          ],
+          "rows": [
+            [
+              "Monday",
+              "22 C",
+              "Sunny"
+            ],
+            [
+              "Tuesday",
+              "20 C",
+              "Cloudy"
+            ],
+            [
+              "Wednesday",
+              "16 C",
+              "Rainy"
+            ],
+            [
+              "Thursday",
+              "19 C",
+              "Windy"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B11-015",
+        "d": "advanced",
+        "p": "Chọn câu hoàn chỉnh sử dụng đúng cả sở hữu cách và đại từ sở hữu:",
+        "o": [
+          "Our city's river is wide, and theirs is famous for its colourful night market.",
+          "Ours city's river is wide, and theirs is famous for it's night market.",
+          "Our city's river is wide, and their is famous for its night market.",
+          "Our city river is wide, and them is famous for its night market."
+        ],
+        "k": "A",
+        "e": "\"Our city's river\" đúng sở hữu cách; \"theirs\" đúng đại từ sở hữu làm chủ ngữ; \"its\" đúng tính từ sở hữu.",
+        "s": "Tiếng Anh 6",
+        "h": "Sở hữu cách và đại từ sở hữu nâng cao"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh6-c3",
+    "lesson": {
+      "code": "tienganh6-b12",
+      "title": "Review 3. Units 7–9",
+      "seq": 12,
+      "subtitle": "Ôn tập tổng hợp Units 7–9: Wh-questions, liên từ, quá khứ đơn, mệnh lệnh, đại từ sở hữu, cảm thán và phát âm",
+      "concepts": [
+        "Review Wh-questions & conjunctions",
+        "Review past simple & possessive pronouns",
+        "Review phonetics Units 7-9"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA6-B12-001",
+        "d": "basic",
+        "p": "Chọn từ có chữ \"th\" phát âm là /θ/:",
+        "o": [
+          "father",
+          "together",
+          "weather",
+          "thousand"
+        ],
+        "k": "D",
+        "e": "\"thousand\" phát âm /θ/; ba từ còn lại có âm /ð/.",
+        "s": "Tiếng Anh 6",
+        "h": "Ôn tập /θ/ và /ð/"
+      },
+      {
+        "c": "TA6-B12-002",
+        "d": "basic",
+        "p": "Chọn từ có nguyên âm đôi phát âm là /e/ (như \"bed\"):",
+        "o": [
+          "badminton",
+          "weather",
+          "match",
+          "marathon"
+        ],
+        "k": "B",
+        "e": "\"weather\" (/ˈweðə/) có âm /e/; \"marathon\", \"match\", \"badminton\" chứa âm /æ/.",
+        "s": "Tiếng Anh 6",
+        "h": "Ôn tập /e/ và /æ/"
+      },
+      {
+        "c": "TA6-B12-003",
+        "d": "basic",
+        "p": "Điền liên từ thích hợp: \"I stayed up late to watch the match, ... I feel sleepy this morning.\"",
+        "o": [
+          "although",
+          "so",
+          "or",
+          "but"
+        ],
+        "k": "B",
+        "e": "Thức khuya là nguyên nhân dẫn đến buồn ngủ, dùng \"so\" (vì vậy).",
+        "s": "Tiếng Anh 6",
+        "h": "Ôn tập liên từ so"
+      },
+      {
+        "c": "TA6-B12-004",
+        "d": "basic",
+        "p": "Chia động từ ở thì quá khứ đơn: \"Yesterday, Phong ... a lot of photos at the stadium.\"",
+        "o": [
+          "take",
+          "took",
+          "takes",
+          "taken"
+        ],
+        "k": "B",
+        "e": "\"Yesterday\" chỉ quá khứ; động từ bất quy tắc \"take\" -> \"took\".",
+        "s": "Tiếng Anh 6",
+        "h": "Quá khứ đơn của take"
+      },
+      {
+        "c": "TA6-B12-005",
+        "d": "basic",
+        "p": "Chọn đại từ sở hữu đúng: \"That blue helmet belongs to Quan. It is ... .\"",
+        "o": [
+          "him",
+          "he",
+          "he is",
+          "his"
+        ],
+        "k": "D",
+        "e": "Đại từ sở hữu tương ứng với chủ ngữ nam số ít (Quan) là \"his\".",
+        "s": "Tiếng Anh 6",
+        "h": "Đại từ sở hữu his"
+      },
+      {
+        "c": "TA6-B12-006",
+        "d": "basic",
+        "p": "Quan sát bảng điểm thi đấu thể thao 3 đội. Đội nào có tổng điểm cao nhất?",
+        "o": [
+          "Red Lions",
+          "Green Tigers",
+          "Equal scores",
+          "Blue Falcons"
+        ],
+        "k": "D",
+        "e": "Red Lions: 12+15=27; Blue Falcons: 18+14=32; Green Tigers: 14+13=27.",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc bảng điểm thi đấu",
+        "fig": {
+          "type": "table",
+          "title": "Quiz & Sports Score",
+          "head": [
+            "Team",
+            "Quiz",
+            "Relay"
+          ],
+          "rows": [
+            [
+              "Red Lions",
+              "12",
+              "15"
+            ],
+            [
+              "Blue Falcons",
+              "18",
+              "14"
+            ],
+            [
+              "Green Tigers",
+              "14",
+              "13"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B12-007",
+        "d": "application",
+        "p": "Chọn câu mệnh lệnh hợp lý trong rạp chiếu phim hoặc trước màn hình TV:",
+        "o": [
+          "Doesn't sit too close to the TV screen!",
+          "Not to sit too close to the TV screen!",
+          "Don't sit too close to the TV screen!",
+          "Don't sitting too close to the TV screen!"
+        ],
+        "k": "C",
+        "e": "Mệnh lệnh phủ định: \"Don't + động từ nguyên mẫu (sit)\".",
+        "s": "Tiếng Anh 6",
+        "h": "Ôn tập câu mệnh lệnh"
+      },
+      {
+        "c": "TA6-B12-008",
+        "d": "application",
+        "p": "Hoàn thành câu cảm thán: \"... exciting football match we watched last night!\"",
+        "o": [
+          "What",
+          "What an",
+          "How an",
+          "What a"
+        ],
+        "k": "B",
+        "e": "\"match\" đếm được số ít, tính từ \"exciting\" bắt đầu bằng nguyên âm /ɪ/ nên dùng \"What an exciting football match!\".",
+        "s": "Tiếng Anh 6",
+        "h": "Cảm thán với What an"
+      },
+      {
+        "c": "TA6-B12-009",
+        "d": "application",
+        "p": "Chọn câu hỏi Wh- đúng cho thông tin được gạch chân: \"We visited **Ho Chi Minh City** last summer.\"",
+        "o": [
+          "What did you visited last summer?",
+          "Who did you visit last summer?",
+          "Which city did you visit last summer?",
+          "When did you visit Ho Chi Minh City?"
+        ],
+        "k": "C",
+        "e": "Hỏi tên thành phố ở thì quá khứ dùng \"Which city did you visit...?\".",
+        "s": "Tiếng Anh 6",
+        "h": "Ôn tập câu hỏi Wh- ở quá khứ"
+      },
+      {
+        "c": "TA6-B12-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ lượng khách đến tham quan 4 thành phố của một đoàn học sinh (người). Tổng số lượt ở Da Nang và Hoi An là bao nhiêu?",
+        "o": [
+          "75 lượt",
+          "80 lượt",
+          "85 lượt",
+          "65 lượt"
+        ],
+        "k": "A",
+        "e": "Da Nang = 40, Hoi An = 35; tổng cộng là 40 + 35 = 75 lượt.",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc biểu đồ du lịch",
+        "fig": {
+          "type": "bars",
+          "title": "City Tour Visitors",
+          "labels": [
+            "Hanoi",
+            "Hue",
+            "Da Nang",
+            "Hoi An"
+          ],
+          "series": [
+            {
+              "values": [
+                45,
+                30,
+                40,
+                35
+              ]
+            }
+          ],
+          "unit": "guests"
+        }
+      },
+      {
+        "c": "TA6-B12-011",
+        "d": "application",
+        "p": "Điền hai từ đúng vào chỗ trống: \"Did you ... badminton with Lan?\" – \"Yes, we ... for an hour.\"",
+        "o": [
+          "played ... play",
+          "play ... play",
+          "played ... played",
+          "play ... played"
+        ],
+        "k": "D",
+        "e": "Sau \"Did you\" dùng nguyên mẫu \"play\"; câu trả lời kể lại quá khứ dùng \"played\".",
+        "s": "Tiếng Anh 6",
+        "h": "Động từ trong câu hỏi và trả lời quá khứ"
+      },
+      {
+        "c": "TA6-B12-012",
+        "d": "application",
+        "p": "Chọn cặp từ có cùng âm /aʊ/:",
+        "o": [
+          "boat, slow",
+          "south, house",
+          "cold, gold",
+          "coast, snow"
+        ],
+        "k": "B",
+        "e": "\"south\" (/saʊθ/) và \"house\" (/haʊs/) cùng chứa nguyên âm đôi /aʊ/.",
+        "s": "Tiếng Anh 6",
+        "h": "Nhận diện cặp âm /aʊ/"
+      },
+      {
+        "c": "TA6-B12-013",
+        "d": "advanced",
+        "p": "Tìm lỗi sai trong câu: \"Our team trained very hard, but we didn't won the trophy yesterday afternoon.\"",
+        "o": [
+          "Sửa \"but\" thành \"so\"",
+          "Sửa \"won\" thành \"win\" vì đứng sau trợ động từ phủ định \"didn't\"",
+          "Sửa \"yesterday afternoon\" thành \"tomorrow\"",
+          "Sửa \"trained\" thành \"train\""
+        ],
+        "k": "B",
+        "e": "Trong câu phủ định quá khứ đơn, sau \"didn't\" luôn dùng động từ nguyên mẫu \"win\".",
+        "s": "Tiếng Anh 6",
+        "h": "Sửa lỗi thì quá khứ đơn"
+      },
+      {
+        "c": "TA6-B12-014",
+        "d": "advanced",
+        "p": "Đọc đoạn nhật ký: \"Yesterday I went to London by train. It was foggy in the morning, so we visited the British Museum first. In the afternoon, the sky cleared up and we rode the London Eye.\" Đoàn đi tham quan theo thứ tự nào?",
+        "o": [
+          "Đi vòng quay London Eye vào buổi sáng rồi đi bảo tàng buổi chiều",
+          "Ở trong khách sạn cả ngày vì sương mù dày đặc",
+          "Bảo tàng Anh vào buổi sáng, rồi đi vòng quay London Eye vào buổi chiều",
+          "Đi máy bay đến London vào buổi tối"
+        ],
+        "k": "C",
+        "e": "Đoạn văn nêu rõ \"visited the British Museum first\" (buổi sáng) và \"In the afternoon... rode the London Eye\".",
+        "s": "Tiếng Anh 6",
+        "h": "Sắp xếp trình tự sự việc quá khứ"
+      },
+      {
+        "c": "TA6-B12-015",
+        "d": "advanced",
+        "p": "Chọn câu hoàn chỉnh tổng hợp đúng ngữ pháp Units 7–9:",
+        "o": [
+          "How a lovely postcard! Mine is on the desk, and your's is next to the lamp.",
+          "What lovely postcard! My is on the desk, and your is next to the lamp.",
+          "What a lovely postcard! Mine are on the desk, and yours are next to lamp.",
+          "What a lovely postcard! Mine is on the desk, and yours is next to the lamp."
+        ],
+        "k": "D",
+        "e": "Cảm thán \"What a lovely postcard!\", đại từ sở hữu số ít \"Mine is\" và \"yours is\" đều chính xác.",
+        "s": "Tiếng Anh 6",
+        "h": "Kiểm tra ngữ pháp tổng hợp Units 7-9"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh6-c4",
+    "lesson": {
+      "code": "tienganh6-b13",
+      "title": "Unit 10. Our Houses in the Future",
+      "seq": 13,
+      "subtitle": "Nhà ở tương lai và thiết bị thông minh, trọng âm từ hai âm tiết, thì tương lai đơn will và động từ khuyết thiếu might",
+      "concepts": [
+        "Future houses & smart appliances",
+        "Future simple (will / won't) & might",
+        "Word stress in two-syllable words"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA6-B13-001",
+        "d": "basic",
+        "p": "Chọn từ hai âm tiết có trọng âm rơi vào âm tiết thứ HAI (khác với ba từ còn lại nhấn âm 1):",
+        "o": [
+          "solar",
+          "wireless",
+          "machine",
+          "robot"
+        ],
+        "k": "C",
+        "e": "\"machine\" (/məˈʃiːn/) nhấn âm 2; còn \"robot\", \"solar\", \"wireless\" nhấn âm 1.",
+        "s": "Tiếng Anh 6",
+        "h": "Trọng âm từ hai âm tiết"
+      },
+      {
+        "c": "TA6-B13-002",
+        "d": "basic",
+        "p": "Thiết bị gia dụng nào sử dụng công nghệ thông minh để tự động giặt giũ và sấy khô quần áo?",
+        "o": [
+          "washing machine",
+          "wireless TV",
+          "dishwasher",
+          "smart clock"
+        ],
+        "k": "A",
+        "e": "\"washing machine\" là máy giặt; \"dishwasher\" là máy rửa bát, \"wireless TV\" là tivi không dây.",
+        "s": "Tiếng Anh 6",
+        "h": "Từ vựng thiết bị trong nhà"
+      },
+      {
+        "c": "TA6-B13-003",
+        "d": "basic",
+        "p": "Loại năng lượng nào lấy từ ánh sáng Mặt Trời để cung cấp điện cho ngôi nhà tương lai?",
+        "o": [
+          "fossil fuel",
+          "wind power",
+          "water wave",
+          "solar energy"
+        ],
+        "k": "D",
+        "e": "\"solar energy\" là năng lượng mặt trời.",
+        "s": "Tiếng Anh 6",
+        "h": "Năng lượng mặt trời"
+      },
+      {
+        "c": "TA6-B13-004",
+        "d": "basic",
+        "p": "Hoàn thành câu dự đoán ở thì tương lai đơn: \"In 2050, smart fridges ... order food online automatically.\"",
+        "o": [
+          "are",
+          "did",
+          "will",
+          "were"
+        ],
+        "k": "C",
+        "e": "Dự đoán tương lai với mốc \"In 2050\" dùng \"will + động từ nguyên mẫu (order)\".",
+        "s": "Tiếng Anh 6",
+        "h": "Thì tương lai đơn will"
+      },
+      {
+        "c": "TA6-B13-005",
+        "d": "basic",
+        "p": "Động từ khuyết thiếu \"might\" trong câu \"We might live on the Moon one day.\" diễn tả điều gì?",
+        "o": [
+          "Một sự kiện đã xảy ra tuần trước",
+          "Một thói quen lặp lại mỗi sáng",
+          "Một khả năng có thể xảy ra trong tương lai nhưng chưa chắc chắn 100%",
+          "Một điều bị nghiêm cấm tuyệt đối"
+        ],
+        "k": "C",
+        "e": "\"might + V-inf\" diễn tả khả năng có thể xảy ra ở tương lai với mức độ không chắc chắn.",
+        "s": "Tiếng Anh 6",
+        "h": "Nghĩa của động từ khuyết thiếu might"
+      },
+      {
+        "c": "TA6-B13-006",
+        "d": "basic",
+        "p": "Quan sát bảng thiết kế ngôi nhà tương lai của bạn Quân. Ngôi nhà nằm ở đâu và dùng nguồn điện nào?",
+        "o": [
+          "In a big city, powered by coal",
+          "On Mars, powered by wood",
+          "Underground, powered by gas",
+          "By the sea, powered by solar energy"
+        ],
+        "k": "D",
+        "e": "Theo bảng, Location ghi \"By the sea\" và Energy ghi \"Solar panels\".",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc bảng thông số ngôi nhà tương lai",
+        "fig": {
+          "type": "table",
+          "title": "Quan's Future Home",
+          "head": [
+            "Category",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "Location",
+              "By the sea"
+            ],
+            [
+              "Energy",
+              "Solar panels"
+            ],
+            [
+              "Rooms",
+              "5 smart rooms"
+            ],
+            [
+              "Appliance",
+              "Home robot"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B13-007",
+        "d": "application",
+        "p": "Chọn câu phủ định đúng ở thì tương lai đơn:",
+        "o": [
+          "Future cars will not to use petrol; they will run on electricity.",
+          "Future cars won't using petrol; they run on electricity.",
+          "Future cars don't will use petrol; they will run on electricity.",
+          "Future cars won't use petrol; they will run on electricity."
+        ],
+        "k": "D",
+        "e": "Phủ định của \"will\" là \"won't\" (will not) theo sau là động từ nguyên mẫu \"use\".",
+        "s": "Tiếng Anh 6",
+        "h": "Phủ định won't + V-inf"
+      },
+      {
+        "c": "TA6-B13-008",
+        "d": "application",
+        "p": "Điền dạng đúng: \"I'm not sure yet, but our family ... move to a smart apartment next year.\"",
+        "o": [
+          "does",
+          "might",
+          "did",
+          "was"
+        ],
+        "k": "B",
+        "e": "Cụm \"I'm not sure yet\" báo hiệu sự chưa chắc chắn -> dùng \"might\".",
+        "s": "Tiếng Anh 6",
+        "h": "Dùng might khi chưa chắc chắn"
+      },
+      {
+        "c": "TA6-B13-009",
+        "d": "application",
+        "p": "Từ nào có cùng vị trí trọng âm (nhấn âm tiết thứ 1) với từ \"palace\"?",
+        "o": [
+          "around",
+          "cottage",
+          "outside",
+          "control"
+        ],
+        "k": "B",
+        "e": "\"palace\" và \"cottage\" cùng nhấn âm 1; \"around\", \"outside\", \"control\" nhấn âm 2.",
+        "s": "Tiếng Anh 6",
+        "h": "Trọng âm danh từ hai âm tiết"
+      },
+      {
+        "c": "TA6-B13-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ bình chọn mẫu nhà tương lai của lớp 6C. Tổng số phiếu của hai mẫu được chọn nhiều nhất là bao nhiêu?",
+        "o": [
+          "24 phiếu",
+          "30 phiếu",
+          "20 phiếu",
+          "26 phiếu"
+        ],
+        "k": "D",
+        "e": "UFO house = 14 và Ocean house = 12 (hai mẫu cao nhất); tổng là 14 + 12 = 26 phiếu.",
+        "s": "Tiếng Anh 6",
+        "h": "Cộng hai cột cao nhất biểu đồ",
+        "fig": {
+          "type": "bars",
+          "title": "Dream House Votes",
+          "labels": [
+            "UFO house",
+            "Ocean house",
+            "Treehouse",
+            "Moon villa"
+          ],
+          "series": [
+            {
+              "values": [
+                14,
+                12,
+                8,
+                6
+              ]
+            }
+          ],
+          "unit": "votes"
+        }
+      },
+      {
+        "c": "TA6-B13-011",
+        "d": "application",
+        "p": "Chọn cụm từ đúng chức năng của \"smart dishwasher\":",
+        "o": [
+          "send emails to friends",
+          "wash and dry dirty plates and bowls",
+          "cook hot soup for dinner",
+          "water green plants in the yard"
+        ],
+        "k": "B",
+        "e": "Máy rửa bát thông minh (\"smart dishwasher\") dùng để rửa và làm khô bát đĩa.",
+        "s": "Tiếng Anh 6",
+        "h": "Chức năng thiết bị gia đình"
+      },
+      {
+        "c": "TA6-B13-012",
+        "d": "application",
+        "p": "Chọn câu hỏi nghi vấn đúng ở thì tương lai đơn:",
+        "o": [
+          "Does your future house have a garden in 2050?",
+          "Do your future house will have a garden on the roof?",
+          "Will your future house have a garden on the roof?",
+          "Will your future house has a garden on the roof?"
+        ],
+        "k": "C",
+        "e": "Câu hỏi tương lai đơn đảo \"Will\" lên trước chủ ngữ và giữ động từ nguyên mẫu \"have\".",
+        "s": "Tiếng Anh 6",
+        "h": "Câu hỏi với Will"
+      },
+      {
+        "c": "TA6-B13-013",
+        "d": "advanced",
+        "p": "Tìm lỗi sai trong câu: \"Our smart house mights control the lights and temperature by voice commands in the future.\"",
+        "o": [
+          "Sửa \"in the future\" thành \"at future\"",
+          "Sửa \"control\" thành \"controlling\"",
+          "Sửa \"mights\" thành \"might\" vì động từ khuyết thiếu không thêm \"-s\"",
+          "Sửa \"by\" thành \"on\""
+        ],
+        "k": "C",
+        "e": "\"might\" là động từ khuyết thiếu nên không chia \"-s\" ở bất kỳ ngôi nào.",
+        "s": "Tiếng Anh 6",
+        "h": "Động từ khuyết thiếu không chia -s"
+      },
+      {
+        "c": "TA6-B13-014",
+        "d": "advanced",
+        "p": "Đọc bảng khảo sát thiết bị thông minh học sinh muốn có nhất. Thiết bị nào nhận được mức quan tâm (Want %) cao hơn Smart TV nhưng thấp hơn Home Robot?",
+        "o": [
+          "Smart Clock",
+          "Smart Fridge",
+          "Smart Curtain",
+          "Robot Vacuum"
+        ],
+        "k": "B",
+        "e": "Home Robot = 85%, Smart Fridge = 70%, Smart TV = 60%, Smart Clock = 45%.",
+        "s": "Tiếng Anh 6",
+        "h": "So sánh phần trăm trong bảng",
+        "fig": {
+          "type": "table",
+          "title": "Smart Tech Survey",
+          "head": [
+            "Device",
+            "Want %",
+            "Energy"
+          ],
+          "rows": [
+            [
+              "Home Robot",
+              "85%",
+              "Solar"
+            ],
+            [
+              "Smart Fridge",
+              "70%",
+              "Low power"
+            ],
+            [
+              "Smart TV",
+              "60%",
+              "Wireless"
+            ],
+            [
+              "Smart Clock",
+              "45%",
+              "Battery"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B13-015",
+        "d": "advanced",
+        "p": "Chọn câu diễn đạt hợp lý nhất một dự đoán chắc chắn và một khả năng chưa chắc chắn:",
+        "o": [
+          "All houses might will use solar energy, and some grow food on the walls.",
+          "All houses will using solar energy, and some might to grow food on walls.",
+          "All houses in this eco-town will use solar energy, and some might even grow food on the walls.",
+          "All houses will use solar energy, and some might grew food on the walls."
+        ],
+        "k": "C",
+        "e": "Sau cả \"will\" và \"might\" đều dùng động từ nguyên mẫu (\"use\", \"grow\"), không ghép \"might will\".",
+        "s": "Tiếng Anh 6",
+        "h": "Kết hợp will và might chuẩn ngữ pháp"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh6-c4",
+    "lesson": {
+      "code": "tienganh6-b14",
+      "title": "Unit 11. Our Greener World",
+      "seq": 14,
+      "subtitle": "Bảo vệ môi trường với 3Rs (Reduce, Reuse, Recycle), mạo từ a/an/the và câu điều kiện loại 1",
+      "concepts": [
+        "The 3Rs & green habits",
+        "Articles a, an and the",
+        "First conditional (If + present, will + V)"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA6-B14-001",
+        "d": "basic",
+        "p": "Trong quy tắc 3Rs, hành động \"mang túi vải thay vì xin túi ni-lông mới\" thuộc bước nào?",
+        "o": [
+          "Reduce (Giảm thiểu)",
+          "Replace (Thay thế)",
+          "Repair (Sửa chữa)",
+          "Recycle (Tái chế)"
+        ],
+        "k": "A",
+        "e": "Giảm lượng rác thải và túi nhựa sử dụng ngay từ đầu gọi là \"Reduce\".",
+        "s": "Tiếng Anh 6",
+        "h": "Ý nghĩa Reduce, Reuse, Recycle"
+      },
+      {
+        "c": "TA6-B14-002",
+        "d": "basic",
+        "p": "Hành động biến chai nhựa cũ thành chậu trồng cây nhỏ gọi là gì?",
+        "o": [
+          "Reuse (Tái sử dụng)",
+          "Throw away (Vứt bỏ)",
+          "Burn (Đốt bỏ)",
+          "Pollute (Làm ô nhiễm)"
+        ],
+        "k": "A",
+        "e": "Dùng lại vật dụng đã qua sử dụng cho mục đích khác là \"Reuse\".",
+        "s": "Tiếng Anh 6",
+        "h": "Phân biệt Reuse và Recycle"
+      },
+      {
+        "c": "TA6-B14-003",
+        "d": "basic",
+        "p": "Điền mạo từ đúng: \"My school started ... eco-club to collect old paper and batteries.\"",
+        "o": [
+          "an",
+          "the",
+          "a",
+          "many"
+        ],
+        "k": "A",
+        "e": "\"eco-club\" bắt đầu bằng âm nguyên âm /iː/ ở dạng số ít nhắc lần đầu nên dùng \"an\".",
+        "s": "Tiếng Anh 6",
+        "h": "Mạo từ an trước nguyên âm"
+      },
+      {
+        "c": "TA6-B14-004",
+        "d": "basic",
+        "p": "Chọn mạo từ đúng khi vật đã được xác định hoặc duy nhất: \"Turn off the tap when you don't need ... water from it.\"",
+        "o": [
+          "the",
+          "an",
+          "one",
+          "a"
+        ],
+        "k": "A",
+        "e": "\"the water from it\" chỉ nguồn nước xác định từ chiếc vòi vừa nhắc đến.",
+        "s": "Tiếng Anh 6",
+        "h": "Dùng mạo từ the"
+      },
+      {
+        "c": "TA6-B14-005",
+        "d": "basic",
+        "p": "Hoàn thành câu điều kiện loại 1: \"If we plant more trees around the school, the air ... fresher.\"",
+        "o": [
+          "was",
+          "would be",
+          "is being",
+          "will be"
+        ],
+        "k": "D",
+        "e": "Cấu trúc điều kiện loại 1: If + S + V(hiện tại đơn), S + will + V-inf (\"will be\").",
+        "s": "Tiếng Anh 6",
+        "h": "Câu điều kiện loại 1"
+      },
+      {
+        "c": "TA6-B14-006",
+        "d": "basic",
+        "p": "Quan sát bảng kế hoạch thu gom tái chế khối 6. Khối lượng giấy vụn thu được nhiều nhất là bao nhiêu kg?",
+        "o": [
+          "32 kg",
+          "48 kg",
+          "28 kg",
+          "36 kg"
+        ],
+        "k": "B",
+        "e": "Theo bảng, Paper thu được 48 kg, nhiều hơn Plastic (32 kg), Cans (18 kg), Glass (24 kg).",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc bảng số liệu tái chế",
+        "fig": {
+          "type": "table",
+          "title": "Green Week Totals",
+          "head": [
+            "Material",
+            "Weight",
+            "Bin Colour"
+          ],
+          "rows": [
+            [
+              "Paper",
+              "48 kg",
+              "Blue"
+            ],
+            [
+              "Plastic",
+              "32 kg",
+              "Yellow"
+            ],
+            [
+              "Glass",
+              "24 kg",
+              "Green"
+            ],
+            [
+              "Cans",
+              "18 kg",
+              "Grey"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B14-007",
+        "d": "application",
+        "p": "Chọn đáp án đúng cho cả hai chỗ trống: \"If everyone ... plastic bags less, we ... protect ocean animals better.\"",
+        "o": [
+          "use ... won't",
+          "will use ... can",
+          "used ... will",
+          "uses ... will"
+        ],
+        "k": "D",
+        "e": "Mệnh đề \"If\" chia hiện tại đơn (\"everyone\" số ít -> \"uses\"), mệnh đề chính dùng \"will + protect\".",
+        "s": "Tiếng Anh 6",
+        "h": "Chia động từ câu điều kiện loại 1"
+      },
+      {
+        "c": "TA6-B14-008",
+        "d": "application",
+        "p": "Điền mạo từ đúng vào câu: \"I bought ... reusable bottle yesterday. ... bottle helps me avoid plastic cups.\"",
+        "o": [
+          "a ... A",
+          "the ... A",
+          "an ... A",
+          "a ... The"
+        ],
+        "k": "D",
+        "e": "Nhắc lần đầu dùng \"a reusable bottle\" (âm đầu /j/ là phụ âm); nhắc lại lần hai dùng \"The bottle\".",
+        "s": "Tiếng Anh 6",
+        "h": "Quy tắc nhắc lần đầu vs lần hai"
+      },
+      {
+        "c": "TA6-B14-009",
+        "d": "application",
+        "p": "Chọn câu hoàn chỉnh từ các từ gợi ý: \"recycle / If / we / paper / save / will / trees / we / more / .\"",
+        "o": [
+          "If we will recycle paper, we save more trees.",
+          "We recycle paper if we will save more trees.",
+          "If we paper recycle, more trees we save will.",
+          "If we recycle paper, we will save more trees."
+        ],
+        "k": "D",
+        "e": "Mệnh đề điều kiện \"If we recycle paper,\" đứng trước mệnh đề kết quả \"we will save more trees.\".",
+        "s": "Tiếng Anh 6",
+        "h": "Sắp xếp câu điều kiện loại 1"
+      },
+      {
+        "c": "TA6-B14-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ số học sinh thực hiện các thói quen xanh ở lớp 6A. Thói quen nào ít bạn thực hiện nhất?",
+        "o": [
+          "Turn off lights",
+          "Reusable bag",
+          "Cycling",
+          "Composting"
+        ],
+        "k": "D",
+        "e": "Theo biểu đồ, Turn off lights = 28, Reusable bag = 24, Cycling = 18, Composting = 10.",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc giá trị nhỏ nhất trên biểu đồ",
+        "fig": {
+          "type": "bars",
+          "title": "Green Habits (Class 6A)",
+          "labels": [
+            "Lights off",
+            "Cloth bag",
+            "Cycling",
+            "Compost"
+          ],
+          "series": [
+            {
+              "values": [
+                28,
+                24,
+                18,
+                10
+              ]
+            }
+          ],
+          "unit": "pupils"
+        }
+      },
+      {
+        "c": "TA6-B14-011",
+        "d": "application",
+        "p": "Hoàn thành câu: \"Putting waste into ... bins helps the recycling factory sort materials quickly.\"",
+        "o": [
+          "recycling",
+          "charity",
+          "broken",
+          "noisy"
+        ],
+        "k": "A",
+        "e": "\"recycling bins\" là thùng phân loại rác tái chế.",
+        "s": "Tiếng Anh 6",
+        "h": "Từ vựng tái chế"
+      },
+      {
+        "c": "TA6-B14-012",
+        "d": "application",
+        "p": "Chọn cách diễn đạt đúng về tác hại của ô nhiễm tiếng ồn:",
+        "o": [
+          "If there is too much noise pollution, people will get stressed and tired.",
+          "Noise pollution will gets better if people shout loudly.",
+          "If there will be noise pollution, people get tired.",
+          "If there are too much noise pollution, people will get tired."
+        ],
+        "k": "A",
+        "e": "\"noise pollution\" không đếm được dùng \"there is\"; mệnh đề chính chia \"will get\".",
+        "s": "Tiếng Anh 6",
+        "h": "Điều kiện loại 1 với there is"
+      },
+      {
+        "c": "TA6-B14-013",
+        "d": "advanced",
+        "p": "Tìm lỗi sai trong câu: \"If you will leave the lights on when leaving the classroom, our school wastes electricity.\"",
+        "o": [
+          "Sửa \"when leaving\" thành \"when leave\"",
+          "Sửa \"electricity\" thành \"electricities\"",
+          "Mệnh đề \"If\" phải chia hiện tại đơn (\"leave\"), mệnh đề chính dùng tương lai đơn (\"will waste\")",
+          "Sửa \"the lights\" thành \"a lights\""
+        ],
+        "k": "C",
+        "e": "Không dùng \"will\" trong mệnh đề \"If\" của câu điều kiện loại 1; phải chuyển \"will\" sang mệnh đề kết quả.",
+        "s": "Tiếng Anh 6",
+        "h": "Tránh lỗi dùng will trong mệnh đề If"
+      },
+      {
+        "c": "TA6-B14-014",
+        "d": "advanced",
+        "p": "Quan sát bảng dự báo tác động nếu trường thực hiện \"No Plastic Day\". Kết luận nào ĐÚNG?",
+        "o": [
+          "Electricity bills will increase by 65%.",
+          "Plastic bottle waste will double every week.",
+          "Students will throw away more plastic bags.",
+          "Plastic bottle waste will fall by 65%, and paper cups will also decrease."
+        ],
+        "k": "D",
+        "e": "Bảng ghi Plastic bottles \"-65%\" và Plastic bags \"-80%\", cho thấy rác nhựa giảm mạnh.",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc hiểu bảng dự báo môi trường",
+        "fig": {
+          "type": "table",
+          "title": "Eco Impact Forecast",
+          "head": [
+            "Item",
+            "Weekly Change"
+          ],
+          "rows": [
+            [
+              "Plastic bottles",
+              "-65%"
+            ],
+            [
+              "Plastic bags",
+              "-80%"
+            ],
+            [
+              "Paper cups",
+              "-40%"
+            ],
+            [
+              "Cloth bags",
+              "+75%"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B14-015",
+        "d": "advanced",
+        "p": "Chọn câu đúng cả về mạo từ và câu điều kiện loại 1:",
+        "o": [
+          "If we will protect the environment today, the Earth becomes the cleaner place.",
+          "If we protect the environment today, the Earth will become a cleaner place for everyone.",
+          "If we protect an environment today, a Earth will become cleaner place.",
+          "If we protect the environment today, the Earth become a cleaner place."
+        ],
+        "k": "B",
+        "e": "\"the environment\" và \"the Earth\" là danh từ duy nhất dùng \"the\"; \"a cleaner place\" là danh từ đếm được số ít; \"will become\" đúng thì.",
+        "s": "Tiếng Anh 6",
+        "h": "Tổng hợp mạo từ và điều kiện loại 1"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh6-c4",
+    "lesson": {
+      "code": "tienganh6-b15",
+      "title": "Unit 12. Robots",
+      "seq": 15,
+      "subtitle": "Các loại rô-bốt và khả năng làm việc, ngữ điệu câu trần thuật và so sánh nhất của tính từ",
+      "concepts": [
+        "Types of robots & abilities",
+        "Superlative adjectives",
+        "Falling tone in statements"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA6-B15-001",
+        "d": "basic",
+        "p": "Loại rô-bốt nào giúp trẻ em ôn tập bài vở và trả lời câu hỏi học tập?",
+        "o": [
+          "space robot",
+          "worker robot",
+          "doctor robot",
+          "teaching robot"
+        ],
+        "k": "D",
+        "e": "\"teaching robot\" là rô-bốt dạy học; \"space robot\" làm việc ngoài không gian, \"doctor robot\" hỗ trợ y tế.",
+        "s": "Tiếng Anh 6",
+        "h": "Phân loại các loại rô-bốt"
+      },
+      {
+        "c": "TA6-B15-002",
+        "d": "basic",
+        "p": "Động từ nào diễn tả việc rô-bốt công nhân nâng các khối thép nặng?",
+        "o": [
+          "iron shirts",
+          "lift heavy things",
+          "water flowers",
+          "guard the house"
+        ],
+        "k": "B",
+        "e": "\"lift heavy things\" là nhấc đồ nặng; \"water flowers\" (tưới hoa), \"iron shirts\" (là áo).",
+        "s": "Tiếng Anh 6",
+        "h": "Khả năng của rô-bốt"
+      },
+      {
+        "c": "TA6-B15-003",
+        "d": "basic",
+        "p": "Điền dạng so sánh nhất của tính từ ngắn \"fast\": \"Robo-X is ... runner in the robot race.\"",
+        "o": [
+          "fastest than",
+          "faster",
+          "the fastest",
+          "the most fast"
+        ],
+        "k": "C",
+        "e": "So sánh nhất với tính từ ngắn: \"the + tính từ + -est\" -> \"the fastest\".",
+        "s": "Tiếng Anh 6",
+        "h": "So sánh nhất tính từ ngắn"
+      },
+      {
+        "c": "TA6-B15-004",
+        "d": "basic",
+        "p": "Điền dạng so sánh nhất của tính từ dài \"useful\": \"I think a home robot is ... helper for busy families.\"",
+        "o": [
+          "most useful than",
+          "the most useful",
+          "the usefulest",
+          "more useful"
+        ],
+        "k": "B",
+        "e": "So sánh nhất với tính từ dài: \"the most + tính từ\" -> \"the most useful\".",
+        "s": "Tiếng Anh 6",
+        "h": "So sánh nhất tính từ dài"
+      },
+      {
+        "c": "TA6-B15-005",
+        "d": "basic",
+        "p": "Khi đọc một câu kể bình thường như \"Robots can clean our floors.\", ngữ điệu cuối câu thường như thế nào?",
+        "o": [
+          "Dừng lại giữa mọi từ trong câu",
+          "Xuống giọng ở cuối câu (falling tone)",
+          "Đọc nhanh dần rồi hét to cuối câu",
+          "Lên giọng thật cao ở cuối câu"
+        ],
+        "k": "B",
+        "e": "Trong tiếng Anh (Unit 12), câu trần thuật khẳng định hoặc phủ định thường có ngữ điệu đi xuống ở cuối câu.",
+        "s": "Tiếng Anh 6",
+        "h": "Ngữ điệu câu trần thuật"
+      },
+      {
+        "c": "TA6-B15-006",
+        "d": "basic",
+        "p": "Quan sát bảng thông số 4 mẫu rô-bốt. Mẫu rô-bốt nào nặng nhất?",
+        "o": [
+          "Worker-9",
+          "Teach-2",
+          "Home-A",
+          "Space-Z"
+        ],
+        "k": "A",
+        "e": "Theo bảng, Worker-9 nặng 120 kg, nặng hơn Space-Z (85 kg), Home-A (35 kg), Teach-2 (28 kg).",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc bảng thông số rô-bốt",
+        "fig": {
+          "type": "table",
+          "title": "Robot Comparison",
+          "head": [
+            "Model",
+            "Weight",
+            "Speed"
+          ],
+          "rows": [
+            [
+              "Home-A",
+              "35 kg",
+              "5 km/h"
+            ],
+            [
+              "Teach-2",
+              "28 kg",
+              "4 km/h"
+            ],
+            [
+              "Worker-9",
+              "120 kg",
+              "8 km/h"
+            ],
+            [
+              "Space-Z",
+              "85 kg",
+              "12 km/h"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B15-007",
+        "d": "application",
+        "p": "Chọn dạng so sánh nhất ĐÚNG cho tính từ có hai âm tiết tận cùng bằng \"-y\" (\"heavy\"):",
+        "o": [
+          "the most heavy",
+          "heavier than all",
+          "the heaviest",
+          "the heavyest"
+        ],
+        "k": "C",
+        "e": "\"heavy\" bỏ \"-y\" thêm \"-iest\" thành \"the heaviest\".",
+        "s": "Tiếng Anh 6",
+        "h": "So sánh nhất tính từ đuôi -y"
+      },
+      {
+        "c": "TA6-B15-008",
+        "d": "application",
+        "p": "Hoàn thành câu so sánh nhất bất quy tắc: \"Among all the models, Aid-Bot has ... battery life (24 hours).\"",
+        "o": [
+          "better",
+          "the goodest",
+          "the best",
+          "the most good"
+        ],
+        "k": "C",
+        "e": "So sánh nhất bất quy tắc của \"good\" là \"the best\".",
+        "s": "Tiếng Anh 6",
+        "h": "So sánh nhất của good"
+      },
+      {
+        "c": "TA6-B15-009",
+        "d": "application",
+        "p": "Từ \"understand\" trong câu \"Can modern robots understand human feelings?\" có nghĩa gần nhất với cụm nào?",
+        "o": [
+          "move at high speed",
+          "repair broken cars quickly",
+          "know what people feel and mean",
+          "lift heavy boxes easily"
+        ],
+        "k": "C",
+        "e": "\"understand\" nghĩa là hiểu được cảm xúc hoặc ý nghĩa lời nói của con người.",
+        "s": "Tiếng Anh 6",
+        "h": "Từ vựng động từ chỉ nhận thức"
+      },
+      {
+        "c": "TA6-B15-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ so sánh giá bán của 4 mẫu rô-bốt giáo dục (triệu đồng). Mẫu nào rẻ nhất và chênh lệch với mẫu đắt nhất bao nhiêu triệu?",
+        "o": [
+          "SmartKid rẻ nhất; chênh lệch 7 triệu đồng",
+          "AlphaBot rẻ nhất; chênh lệch 8 triệu đồng",
+          "MiniBot rẻ nhất; chênh lệch 9 triệu đồng",
+          "EduPro rẻ nhất; chênh lệch 5 triệu đồng"
+        ],
+        "k": "C",
+        "e": "MiniBot = 3 triệu (thấp nhất), AlphaBot = 12 triệu (cao nhất); hiệu = 12 − 3 = 9 triệu.",
+        "s": "Tiếng Anh 6",
+        "h": "Tìm min-max và hiệu trên biểu đồ",
+        "fig": {
+          "type": "bars",
+          "title": "Robot Prices (M VND)",
+          "labels": [
+            "AlphaBot",
+            "EduPro",
+            "SmartKid",
+            "MiniBot"
+          ],
+          "series": [
+            {
+              "values": [
+                12,
+                9,
+                6,
+                3
+              ]
+            }
+          ],
+          "unit": "M"
+        }
+      },
+      {
+        "c": "TA6-B15-011",
+        "d": "application",
+        "p": "Hoàn thành câu: \"Space robots are designed to work in dangerous places where humans ... go safely.\"",
+        "o": [
+          "isn't",
+          "doesn't",
+          "aren't",
+          "can't"
+        ],
+        "k": "D",
+        "e": "Chỉ khả năng không thể thực hiện được của con người dùng \"can't\".",
+        "s": "Tiếng Anh 6",
+        "h": "Dùng can't chỉ khả năng"
+      },
+      {
+        "c": "TA6-B15-012",
+        "d": "application",
+        "p": "Chọn câu dùng so sánh nhất đúng với tính từ ngắn kết thúc 1 nguyên âm + 1 phụ âm (\"big\"):",
+        "o": [
+          "That factory uses the biggest worker robot in the country.",
+          "That factory uses the bigest worker robot in the country.",
+          "That factory uses bigger worker robot in the country.",
+          "That factory uses the most big worker robot in the country."
+        ],
+        "k": "A",
+        "e": "\"big\" gấp đôi phụ âm cuối \"g\" thành \"the biggest\".",
+        "s": "Tiếng Anh 6",
+        "h": "Gấp đôi phụ âm trong so sánh nhất"
+      },
+      {
+        "c": "TA6-B15-013",
+        "d": "advanced",
+        "p": "Tìm lỗi sai trong câu: \"Doctor robots are one of the most smartest inventions in modern hospitals.\"",
+        "o": [
+          "Sửa \"Doctor robots\" thành \"Doctors robot\"",
+          "Bỏ \"most\" vì \"smartest\" đã ở dạng so sánh nhất của tính từ ngắn",
+          "Sửa \"inventions\" thành \"invention\"",
+          "Sửa \"are\" thành \"is\""
+        ],
+        "k": "B",
+        "e": "Không bao giờ dùng \"most\" trước tính từ đã thêm \"-est\" (\"the smartest\", không phải \"the most smartest\").",
+        "s": "Tiếng Anh 6",
+        "h": "Tránh lỗi lặp so sánh nhất"
+      },
+      {
+        "c": "TA6-B15-014",
+        "d": "advanced",
+        "p": "Dựa vào bảng thử nghiệm 4 rô-bốt. Mẫu nào vừa thông minh nhất vừa tiết kiệm pin nhất?",
+        "o": [
+          "CleanBot",
+          "CookBot",
+          "CareBot",
+          "GuardBot"
+        ],
+        "k": "C",
+        "e": "Trong bảng, CareBot đứng đầu cả Intelligence (95/100) lẫn Battery Save (High).",
+        "s": "Tiếng Anh 6",
+        "h": "Đối chiếu nhiều tiêu chí chọn đáp án tối ưu",
+        "fig": {
+          "type": "table",
+          "title": "Robot Lab Test",
+          "head": [
+            "Robot",
+            "AI Score",
+            "Battery Save"
+          ],
+          "rows": [
+            [
+              "CleanBot",
+              "72",
+              "Medium"
+            ],
+            [
+              "CookBot",
+              "80",
+              "Low"
+            ],
+            [
+              "CareBot",
+              "95",
+              "High"
+            ],
+            [
+              "GuardBot",
+              "88",
+              "Medium"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B15-015",
+        "d": "advanced",
+        "p": "Chọn câu viết hoàn chỉnh nhất so sánh nhất trong nhóm các rô-bốt của cuộc thi:",
+        "o": [
+          "Although MiniBot is the most small robot, it is the smartliest at puzzles.",
+          "Although MiniBot is the smallest robot in the contest, it is the smartest at solving puzzles.",
+          "Although MiniBot is smallest robot, it is smartest at solving puzzles.",
+          "Although MiniBot is the smaller robot, it is the smartest at solving puzzles."
+        ],
+        "k": "B",
+        "e": "Cả hai tính từ ngắn trong so sánh nhất đều có mạo từ \"the\": \"the smallest\" và \"the smartest\".",
+        "s": "Tiếng Anh 6",
+        "h": "Viết câu so sánh nhất đầy đủ"
+      }
+    ]
+  },
+  {
+    "chapter": "tienganh6-c4",
+    "lesson": {
+      "code": "tienganh6-b16",
+      "title": "Review 4. Units 10–12",
+      "seq": 16,
+      "subtitle": "Ôn tập tổng hợp học kì 2 (Units 10–12): tương lai đơn will, might, mạo từ a/an/the, điều kiện loại 1 và so sánh nhất",
+      "concepts": [
+        "Review will & might",
+        "Review articles & First conditional",
+        "Review superlatives & pronunciation"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TA6-B16-001",
+        "d": "basic",
+        "p": "Chọn từ có trọng âm rơi vào âm tiết thứ NHẤT:",
+        "o": [
+          "robot",
+          "repair",
+          "reuse",
+          "protect"
+        ],
+        "k": "A",
+        "e": "\"robot\" nhấn âm 1; ba động từ \"repair\", \"protect\", \"reuse\" nhấn âm 2.",
+        "s": "Tiếng Anh 6",
+        "h": "Ôn tập trọng âm hai âm tiết"
+      },
+      {
+        "c": "TA6-B16-002",
+        "d": "basic",
+        "p": "Điền từ thích hợp: \"In the future, robots ... help doctors care for patients at home.\"",
+        "o": [
+          "will",
+          "did",
+          "were",
+          "was"
+        ],
+        "k": "A",
+        "e": "Cụm \"In the future\" dùng thì tương lai đơn \"will\".",
+        "s": "Tiếng Anh 6",
+        "h": "Ôn tập thì tương lai đơn"
+      },
+      {
+        "c": "TA6-B16-003",
+        "d": "basic",
+        "p": "Hoàn thành câu điều kiện loại 1: \"If we turn off unused fans, we ... save a lot of electricity.\"",
+        "o": [
+          "were",
+          "did",
+          "will",
+          "would"
+        ],
+        "k": "C",
+        "e": "Mệnh đề \"If\" chia hiện tại đơn (\"turn off\"), mệnh đề chính dùng \"will + V-inf\".",
+        "s": "Tiếng Anh 6",
+        "h": "Ôn tập điều kiện loại 1"
+      },
+      {
+        "c": "TA6-B16-004",
+        "d": "basic",
+        "p": "Điền mạo từ đúng: \"Have you ever seen ... smart robot that can speak five languages?\"",
+        "o": [
+          "an",
+          "a",
+          "many",
+          "the"
+        ],
+        "k": "B",
+        "e": "\"smart robot\" là danh từ đếm được số ít bắt đầu bằng phụ âm /s/, nhắc lần đầu nên dùng \"a\".",
+        "s": "Tiếng Anh 6",
+        "h": "Ôn tập mạo từ a và an"
+      },
+      {
+        "c": "TA6-B16-005",
+        "d": "basic",
+        "p": "Điền dạng so sánh nhất: \"Solar energy is one of ... cleanest power sources for future homes.\"",
+        "o": [
+          "an",
+          "a",
+          "the",
+          "most"
+        ],
+        "k": "C",
+        "e": "Trước tính từ ngắn chia \"-est\" trong so sánh nhất luôn có mạo từ \"the\": \"the cleanest\".",
+        "s": "Tiếng Anh 6",
+        "h": "Mạo từ trong so sánh nhất"
+      },
+      {
+        "c": "TA6-B16-006",
+        "d": "basic",
+        "p": "Quan sát bảng tổng hợp 3 dự án xanh của trường. Dự án nào giúp tiết kiệm nhiều điện nhất?",
+        "o": [
+          "Solar Roof",
+          "Paper Bank",
+          "Green Walk",
+          "All equal"
+        ],
+        "k": "A",
+        "e": "Theo bảng, Solar Roof đạt mức Energy Saved là \"520 kWh\", cao nhất trong 3 dự án.",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc bảng tổng hợp dự án",
+        "fig": {
+          "type": "table",
+          "title": "School Eco Projects",
+          "head": [
+            "Project",
+            "Participants",
+            "Power Saved"
+          ],
+          "rows": [
+            [
+              "Paper Bank",
+              "120",
+              "180 kWh"
+            ],
+            [
+              "Solar Roof",
+              "85",
+              "520 kWh"
+            ],
+            [
+              "Green Walk",
+              "160",
+              "210 kWh"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TA6-B16-007",
+        "d": "application",
+        "p": "Chọn câu dùng đúng \"might\" để nói về khả năng chưa chắc chắn:",
+        "o": [
+          "My family might visiting Con Dao Island next summer.",
+          "My family mights visit Con Dao Island next summer.",
+          "My family might visit Con Dao Island next summer if we have enough time.",
+          "My family might to visit Con Dao Island next summer."
+        ],
+        "k": "C",
+        "e": "\"might\" không chia \"-s\" và đi trực tiếp với động từ nguyên mẫu không \"to\" (\"visit\").",
+        "s": "Tiếng Anh 6",
+        "h": "Ôn tập cấu trúc might"
+      },
+      {
+        "c": "TA6-B16-008",
+        "d": "application",
+        "p": "Hoàn thành câu với mạo từ chính xác: \"... Moon is the only natural satellite of ... Earth.\"",
+        "o": [
+          "An ... the",
+          "The ... a",
+          "A ... an",
+          "The ... the"
+        ],
+        "k": "D",
+        "e": "\"the Moon\" và \"the Earth\" là các thiên thể duy nhất nên đều dùng mạo từ xác định \"the\".",
+        "s": "Tiếng Anh 6",
+        "h": "Mạo từ the cho thực thể duy nhất"
+      },
+      {
+        "c": "TA6-B16-009",
+        "d": "application",
+        "p": "Chọn dạng đúng của tính từ trong ngoặc: \"Which is (modern) appliance in your smart kitchen?\"",
+        "o": [
+          "the most modern",
+          "more modern",
+          "the modernest",
+          "most modern"
+        ],
+        "k": "A",
+        "e": "\"modern\" là tính từ hai âm tiết dùng với \"more/the most\": \"the most modern\".",
+        "s": "Tiếng Anh 6",
+        "h": "So sánh nhất với modern"
+      },
+      {
+        "c": "TA6-B16-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ mức tiêu thụ điện (kWh) trước và sau khi dùng nhà thông minh. Lượng điện giảm được vào tháng Tư là bao nhiêu kWh?",
+        "o": [
+          "40 kWh",
+          "50 kWh",
+          "70 kWh",
+          "60 kWh"
+        ],
+        "k": "D",
+        "e": "Trước (Jan) = 210, Apr (sau khi lắp thiết bị tiết kiệm) = 150; chênh lệch 210 − 150 = 60 kWh.",
+        "s": "Tiếng Anh 6",
+        "h": "Đọc và tính chênh lệch biểu đồ",
+        "fig": {
+          "type": "bars",
+          "title": "Monthly Power (kWh)",
+          "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr"
+          ],
+          "series": [
+            {
+              "values": [
+                210,
+                190,
+                170,
+                150
+              ]
+            }
+          ],
+          "unit": "kWh"
+        }
+      },
+      {
+        "c": "TA6-B16-011",
+        "d": "application",
+        "p": "Hoàn thành câu điều kiện loại 1 dạng phủ định: \"If people ... protect forests, many wild animals won't have homes.\"",
+        "o": [
+          "don't",
+          "won't",
+          "aren't",
+          "didn't"
+        ],
+        "k": "A",
+        "e": "Mệnh đề \"If\" ở hiện tại đơn phủ định với chủ ngữ \"people\" (số nhiều) dùng \"don't + protect\".",
+        "s": "Tiếng Anh 6",
+        "h": "Điều kiện loại 1 mệnh đề phủ định"
+      },
+      {
+        "c": "TA6-B16-012",
+        "d": "application",
+        "p": "Từ nào đồng nghĩa với \"not noisy, calm and quiet\" khi miêu tả ngôi nhà sinh thái?",
+        "o": [
+          "harmful",
+          "crowded",
+          "peaceful",
+          "expensive"
+        ],
+        "k": "C",
+        "e": "\"peaceful\" nghĩa là yên bình, thanh tĩnh.",
+        "s": "Tiếng Anh 6",
+        "h": "Từ vựng miêu tả không gian sống"
+      },
+      {
+        "c": "TA6-B16-013",
+        "d": "advanced",
+        "p": "Tìm lỗi sai trong câu: \"If the robot helper will break down, our engineer repairs it on Monday.\"",
+        "o": [
+          "Sửa \"breaks\" thành \"broke\"",
+          "Sửa \"the robot helper\" thành \"a robot helpers\"",
+          "Sửa \"on Monday\" thành \"in Monday\"",
+          "Đổi vế thành \"If the robot helper breaks down, our engineer will repair it on Monday.\""
+        ],
+        "k": "D",
+        "e": "Mệnh đề \"If\" chia hiện tại đơn (\"breaks down\"), mệnh đề chính dùng tương lai đơn (\"will repair\").",
+        "s": "Tiếng Anh 6",
+        "h": "Kiểm tra vị trí thì trong điều kiện loại 1"
+      },
+      {
+        "c": "TA6-B16-014",
+        "d": "advanced",
+        "p": "Đọc đoạn ngắn: \"In 2040, Eco-City will be the greenest town in the region. Every rooftop will have solar panels, and driverless electric buses might replace old cars completely.\" Điều gì được tác giả dự đoán dưới dạng CÓ THỂ xảy ra (chưa khẳng định chắc chắn)?",
+        "o": [
+          "Xe buýt điện không người lái có thể thay thế hoàn toàn ô tô cũ",
+          "Thành phố Eco-City sẽ nằm dưới đáy đại dương",
+          "Mọi mái nhà chắc chắn không dùng điện mặt trời",
+          "Con người sẽ ngừng đi lại hoàn toàn"
+        ],
+        "k": "A",
+        "e": "Câu dùng \"might replace\" diễn tả khả năng xe buýt điện không người lái có thể thay thế ô tô cũ.",
+        "s": "Tiếng Anh 6",
+        "h": "Phân biệt mức độ chắc chắn will vs might"
+      },
+      {
+        "c": "TA6-B16-015",
+        "d": "advanced",
+        "p": "Chọn câu hoàn chỉnh KHÔNG mắc lỗi ngữ pháp tổng hợp toàn bộ kiến thức Lớp 6:",
+        "o": [
+          "If we use an eco-friendly robot, our house will becomes the most clean place.",
+          "If we will use a eco-friendly robot, our house becomes cleanest place in neighbourhood.",
+          "If we use an eco-friendly robot, our house will become the cleanest place in the neighbourhood.",
+          "If we uses the eco-friendly robot, our house might became the cleanest place."
+        ],
+        "k": "C",
+        "e": "Đủ 3 điểm chuẩn: \"an eco-friendly robot\", điều kiện loại 1 (\"use ... will become\"), so sánh nhất (\"the cleanest place\").",
+        "s": "Tiếng Anh 6",
+        "h": "Tổng hợp ngữ pháp lớp 6"
+      }
+    ]
+  }
+]

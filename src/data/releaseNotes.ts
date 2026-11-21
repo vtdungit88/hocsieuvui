@@ -15,6 +15,24 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.7',
+    date: '2026-11-21',
+    title: 'Mở khóa trọn bộ Ngữ Văn Lớp 6–9 (Kết nối tri thức THCS)',
+    items: [
+      'Hoàn thiện chương trình Ngữ Văn THCS Lớp 6, 7, 8, 9 theo bộ sách Kết nối tri thức với cuộc sống (16 chương · 48 bài học kèm ôn tập HK1 & HK2 · 720 câu hỏi · 63 bảng tổng hợp và biểu đồ SVG minh họa).',
+      'Phủ trọn bộ môn lõi Ngữ Văn THCS cùng Toán 1–9, Tiếng Anh 1–9, KHTN 6–9 và toàn bộ Tiểu học, đưa tổng kho câu hỏi trực tuyến vượt mốc 19.800 câu.'
+    ]
+  },
+  {
+    version: '0.2.6',
+    date: '2026-11-21',
+    title: 'Mở khóa trọn bộ Tiếng Anh Lớp 6–9 (Global Success 6–9 THCS)',
+    items: [
+      'Hoàn thiện chương trình Tiếng Anh THCS Lớp 6, 7, 8, 9 theo bộ sách Global Success (16 chương · 64 bài học gồm 48 Unit và 16 bài Review · 960 câu hỏi · 158 bảng và biểu đồ SVG minh họa).',
+      'Phủ trọn môn Tiếng Anh từ Lớp 1 đến Lớp 9 (166 bài · 2.490 câu), đưa tổng kho câu hỏi trực tuyến cùng Toán 1–9, KHTN 6–9 và toàn bộ Tiểu học vượt mốc 19.100 câu.'
+    ]
+  },
+  {
     version: '0.2.5',
     date: '2026-11-19',
     title: 'Hoàn tất trọn bộ 12 môn Lớp 4–5 ngoài Toán (thêm Mĩ thuật, GDTC & HĐTN)',
