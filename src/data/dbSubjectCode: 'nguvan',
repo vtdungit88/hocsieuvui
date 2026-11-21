@@ -134,7 +134,7 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
   },
   {
     id: 'literature',
-    dbSubjectCode: 'nguvan',
+    dbCode: 'nguvan',
     name: 'Ngữ Văn',
     iconName: 'BookMarked',
     color: 'from-rose-500 to-pink-600',
