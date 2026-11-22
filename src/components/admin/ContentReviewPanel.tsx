@@ -14,6 +14,7 @@ import { QuestionFigure } from '../QuestionFigure';
 const statusLabel: Record<string, string> = {
   staged: 'Đã nhập',
   validated: 'Đã kiểm tra cấu trúc',
+  imported: 'Đã xuất bản',
   pending_review: 'Chờ duyệt',
   approved: 'Đã duyệt',
   published: 'Đã xuất bản',
