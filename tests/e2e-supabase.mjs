@@ -40,7 +40,7 @@ await check('anon: can read published chapters/lessons', async () => {
   assert(!c.error && c.data.length >= 111, JSON.stringify(c.error));
   const l = await anon.from('lessons').select('id,code').eq('status', 'published');
   assert(!l.error && l.data.length >= 111);
-  lesson = l.data.find((x) => x.code === 'toan6_ch1')?.id;
+  lesson = l.data.find((x) => /^toan6-/.test(x.code))?.id;
   assert(lesson);
 });
 await check('anon: cannot read questions, answer keys, explanations', async () => {
