@@ -57,7 +57,7 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
     grade: 7,
     strand: 'history',
     title: 'Khởi nghĩa Lam Sơn và khôi phục độc lập',
-    summary: 'Khởi nghĩa Lam Sơn (1418–1427) do Lê Lợi lãnh đạo chống ách đô hộ nhà Minh. Từ căn cứ ban đầu ở Thanh Hóa, nghĩa quân từng bước xây dựng lực lượng, chuyển sang thế chủ động và giành thắng lợi, mở đường khôi phục nền độc lập. Năm 1428, Lê Lợi lên ngôi, lập triều Lê sơ.
+    summary: 'Khởi nghĩa Lam Sơn (1418–1427) do Lê Lợi lãnh đạo chống ách đô hộ nhà Minh. Từ căn cứ ban đầu ở Thanh Hóa, nghĩa quân từng bước xây dựng lực lượng, chuyển sang thế chủ động và giành thắng lợi, mở đường khôi phục nền độc lập. Năm 1428, Lê Lợi lên ngôi, lập triều Lê sơ.',
     learningObjectives: ['Nêu được mốc khởi đầu và kết thúc chính của khởi nghĩa Lam Sơn.', 'Nhận biết vai trò của Lê Lợi, Nguyễn Trãi và một số chiến thắng tiêu biểu.', 'Phân biệt năm kết thúc chiến tranh (1427) với năm Lê Lợi lên ngôi (1428).'],
     questions: [
       { id: 'q1', level: 'basic', prompt: 'Khởi nghĩa Lam Sơn bắt đầu năm nào?', options: ['1407', '1418', '1427', '1431'], answer: 1, explanation: 'Khởi nghĩa Lam Sơn bắt đầu năm 1418.' },
