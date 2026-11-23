@@ -1322,5 +1322,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-history-13', grade: 8, strand: 'history',
+    title: 'Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX',
+    summary: 'Khái quát những thành tựu tiêu biểu của khoa học tự nhiên, kĩ thuật, văn học và nghệ thuật trong các thế kỉ XVIII–XIX; nhận biết tác động của tri thức và sáng tạo đối với sản xuất, đời sống và tư tưởng xã hội.',
+    learningObjectives: [
+      'Nêu được một số thành tựu tiêu biểu của khoa học và kĩ thuật trong các thế kỉ XVIII–XIX.',
+      'Nhận biết được một số xu hướng, tác giả và tác phẩm văn học, nghệ thuật tiêu biểu.',
+      'Giải thích được tác động của thành tựu khoa học, kĩ thuật và văn hóa đối với xã hội.'
+    ],
+    sections: [
+      {
+        heading: 'Thành tựu khoa học tự nhiên',
+        body: 'Trong các thế kỉ XVIII–XIX, khoa học tự nhiên phát triển mạnh với những bước tiến trong vật lí, hóa học, sinh học và các lĩnh vực nghiên cứu khác. Các nhà khoa học xây dựng phương pháp quan sát, thí nghiệm và khái quát lí thuyết ngày càng chặt chẽ. Những thành tựu này giúp con người hiểu sâu hơn về tự nhiên, tạo cơ sở cho nhiều ứng dụng kĩ thuật và y học. Khi học về một phát minh hay học thuyết, cần xác định lĩnh vực, đóng góp và bối cảnh xuất hiện thay vì chỉ học thuộc tên nhà khoa học.',
+        keyPoints: ['Khoa học tự nhiên phát triển cả về phương pháp nghiên cứu và tri thức, góp phần tạo nền tảng cho ứng dụng thực tiễn.'],
+        example: 'Có thể phân loại thành tựu theo vật lí, hóa học, sinh học rồi liên hệ với những thay đổi trong sản xuất và đời sống.'
+      },
+      {
+        heading: 'Tiến bộ kĩ thuật và ứng dụng',
+        body: 'Những cải tiến về máy móc, luyện kim, năng lượng và giao thông đã thúc đẩy sản xuất công nghiệp và kết nối các vùng. Đầu máy xe lửa, tàu thủy chạy bằng hơi nước, các phương tiện liên lạc và thiết bị sản xuất mới làm thay đổi tốc độ vận chuyển, trao đổi thông tin và tổ chức lao động. Tiến bộ kĩ thuật không chỉ tạo ra tiện ích mà còn làm biến đổi nghề nghiệp, đô thị và môi trường. Cần phân biệt phát minh khoa học với ứng dụng kĩ thuật, bởi một ứng dụng thường dựa trên nhiều kết quả nghiên cứu và cải tiến nối tiếp nhau.',
+        keyPoints: ['Kĩ thuật cơ khí, giao thông và liên lạc phát triển, tác động sâu rộng đến sản xuất và đời sống.'],
+        example: 'So sánh việc vận chuyển bằng sức kéo với đường sắt hơi nước giúp nhận ra thay đổi về tốc độ và quy mô.'
+      },
+      {
+        heading: 'Văn học, nghệ thuật và đời sống tư tưởng',
+        body: 'Văn học và nghệ thuật thế kỉ XVIII–XIX phản ánh những biến đổi của xã hội, các cuộc cách mạng, công nghiệp hóa và đời sống con người. Nhiều trào lưu và phong cách phát triển, trong đó có chủ nghĩa cổ điển, lãng mạn và hiện thực ở những bối cảnh khác nhau. Hội họa, âm nhạc, kiến trúc và văn chương vừa kế thừa truyền thống vừa tìm cách thể hiện những vấn đề mới của thời đại. Tác phẩm nghệ thuật có thể giúp người học nhận biết tâm tư, khát vọng và mâu thuẫn xã hội, nhưng cần đặt tác phẩm trong hoàn cảnh sáng tác cụ thể.',
+        keyPoints: ['Văn học và nghệ thuật phản ánh xã hội, con người và những tư tưởng mới của thời đại.'],
+        example: 'Khi phân tích một tác phẩm, hãy liên hệ đề tài, nhân vật, phong cách và bối cảnh lịch sử thay vì tách rời tác phẩm khỏi thời đại.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
