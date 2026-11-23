@@ -1290,5 +1290,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-history-12', grade: 8, strand: 'history',
+    title: 'Chiến tranh thế giới thứ nhất (1914 - 1918) và Cách mạng tháng Mười Nga năm 1917',
+    summary: 'Tìm hiểu nguyên nhân, diễn biến và hậu quả của Chiến tranh thế giới thứ nhất; nhận biết bối cảnh, diễn biến chính và ý nghĩa của Cách mạng tháng Mười Nga năm 1917.',
+    learningObjectives: [
+      'Nêu được nguyên nhân sâu xa và sự kiện mở đầu Chiến tranh thế giới thứ nhất.',
+      'Trình bày được một số nét chính về diễn biến và hậu quả của chiến tranh.',
+      'Nêu được bối cảnh, diễn biến chính và ý nghĩa của Cách mạng tháng Mười Nga năm 1917.'
+    ],
+    sections: [
+      {
+        heading: 'Nguyên nhân và diễn biến Chiến tranh thế giới thứ nhất',
+        body: 'Cuối thế kỉ XIX – đầu thế kỉ XX, mâu thuẫn giữa các cường quốc về thị trường, thuộc địa và phạm vi ảnh hưởng ngày càng gay gắt. Các nước hình thành những khối liên minh quân sự và chạy đua vũ trang. Ngày 28/7/1914, Áo – Hung tuyên chiến với Xéc-bi, chiến tranh bùng nổ và nhanh chóng lan rộng thành cuộc chiến giữa nhiều cường quốc. Chiến sự diễn ra trên nhiều mặt trận; năm 1917, Mỹ tham chiến, trong khi nước Nga trải qua biến động cách mạng. Ngày 11/11/1918, Đức kí đình chiến, chiến tranh kết thúc.',
+        keyPoints: ['Chiến tranh bùng nổ năm 1914 từ mâu thuẫn giữa các cường quốc; kết thúc năm 1918.'],
+        example: 'Khi lập dòng thời gian, phân biệt nguyên nhân lâu dài, sự kiện bùng nổ năm 1914 và mốc đình chiến năm 1918.'
+      },
+      {
+        heading: 'Hậu quả của chiến tranh',
+        body: 'Chiến tranh thế giới thứ nhất gây tổn thất rất lớn về người, của và cơ sở vật chất, làm nhiều khu vực bị tàn phá và đời sống dân cư đảo lộn. Bản đồ chính trị thế giới thay đổi; một số đế quốc và chế độ quân chủ sụp đổ, các tranh chấp và bất ổn tiếp tục tồn tại sau chiến tranh. Hòa ước và trật tự quốc tế sau chiến tranh không giải quyết triệt để các mâu thuẫn, tạo ra những vấn đề mới trong quan hệ giữa các nước. Khi đánh giá hậu quả, cần xem xét cả tổn thất nhân đạo, kinh tế và biến động chính trị.',
+        keyPoints: ['Chiến tranh để lại hậu quả nặng nề về nhân mạng, kinh tế và trật tự chính trị quốc tế.'],
+        example: 'Có thể phân loại hậu quả theo ba nhóm: con người, kinh tế – xã hội và chính trị – lãnh thổ.'
+      },
+      {
+        heading: 'Cách mạng tháng Mười Nga năm 1917',
+        body: 'Nước Nga tham gia chiến tranh trong khi tồn tại nhiều mâu thuẫn về ruộng đất, lao động và quyền lực chính trị. Cách mạng tháng Hai năm 1917 làm chế độ quân chủ Nga sụp đổ, nhưng Chính phủ lâm thời tiếp tục tham chiến và chưa giải quyết những yêu cầu cấp thiết của quần chúng. Tháng Mười năm 1917, lực lượng Bolshevik dưới sự lãnh đạo của V. I. Lê-nin tổ chức khởi nghĩa ở Petrograd, giành chính quyền. Cách mạng mở ra nhà nước Xô viết và có ảnh hưởng sâu rộng đến lịch sử thế giới thế kỉ XX. Cần phân biệt Cách mạng tháng Hai và Cách mạng tháng Mười theo thời điểm, lực lượng và kết quả.',
+        keyPoints: ['Cách mạng tháng Mười năm 1917 do Bolshevik lãnh đạo, giành chính quyền và mở ra nhà nước Xô viết.'],
+        example: 'So sánh tháng Hai và tháng Mười năm 1917 theo bối cảnh, lực lượng lãnh đạo và kết quả để tránh nhầm lẫn.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
