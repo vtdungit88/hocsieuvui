@@ -136,4 +136,25 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
     ],
     status: 'draft',
   },
+
+  {
+    id: 'g6-history-01',
+    grade: 6,
+    strand: 'history',
+    title: 'Lịch sử và cuộc sống',
+    summary: 'Lịch sử là những gì đã diễn ra trong quá khứ của xã hội loài người. Học lịch sử giúp mỗi người hiểu cội nguồn, nhận biết sự thay đổi của cộng đồng và rút ra kinh nghiệm cho hiện tại. Kiến thức lịch sử được xây dựng từ việc đặt câu hỏi, tìm kiếm tư liệu, đối chiếu chứng cứ và giải thích sự kiện trong bối cảnh.',
+    learningObjectives: ['Nêu được lịch sử là gì và phân biệt lịch sử với cách kể lại lịch sử.', 'Giải thích được vì sao cần học lịch sử.', 'Liên hệ được một ví dụ về dấu tích quá khứ ở gia đình hoặc địa phương.'],
+    questions: [],
+    status: 'draft',
+  },
+  {
+    id: 'g6-geography-01',
+    grade: 6,
+    strand: 'geography',
+    title: 'Hệ thống kinh, vĩ tuyến. Tọa độ địa lí',
+    summary: 'Kinh tuyến là những nửa đường tròn nối hai cực; vĩ tuyến là những vòng tròn song song với Xích đạo. Kinh độ cho biết khoảng cách góc về phía đông hoặc tây so với kinh tuyến gốc; vĩ độ cho biết khoảng cách góc về phía bắc hoặc nam so với Xích đạo. Tọa độ địa lí được xác định bằng cặp kinh độ và vĩ độ.',
+    learningObjectives: ['Nhận biết được kinh tuyến, vĩ tuyến, kinh tuyến gốc và Xích đạo.', 'Phân biệt được kinh độ và vĩ độ.', 'Đọc và ghi được tọa độ địa lí đơn giản trên bản đồ hoặc lưới kinh vĩ tuyến.'],
+    questions: [],
+    status: 'draft',
+  },
 ];
