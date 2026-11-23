@@ -1,7 +1,7 @@
 /** Initial reviewed quiz sets (draft). Each set has 11 basic, 3 application, 1 challenge question. */
 export type HGQuestionLevel = 'basic' | 'application' | 'challenge';
 export type HGQuizQuestion = { id:string; level:HGQuestionLevel; prompt:string; options:[string,string,string,string]; answer:0|1|2|3; explanation:string };
-export type HGQuizSet = { lessonId:string; grade:6|7|8|9; strand:'history'; title:string; questions:HGQuizQuestion[]; status:'draft' };
+export type HGQuizSet = { lessonId:string; grade:6|7|8|9; strand:'history'|'integrated'; title:string; questions:HGQuizQuestion[]; status:'draft' };
 type RawQ = [string,string,string,string,string,number,string];
 function buildQuestions(prefix:string, rows:RawQ[]): HGQuizQuestion[] { return rows.map((r,i)=>({id:prefix+'-q'+String(i+1).padStart(2,'0'),level:i<11?'basic':i<14?'application':'challenge',prompt:r[0],options:[r[1],r[2],r[3],r[4]],answer:r[5] as 0|1|2|3,explanation:r[6]})); }
 export const historyGeographyQuizDrafts:HGQuizSet[] = [
