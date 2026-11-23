@@ -273,7 +273,6 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
     learningObjectives: ['Mô tả được chuyển động quanh Mặt Trời và thời gian chuyển động của Trái Đất.', 'Giải thích được nguyên nhân hình thành các mùa trong năm.', 'Nhận biết được sự thay đổi độ dài ngày đêm theo mùa và giữa hai bán cầu.'],
     questions: [], status: 'draft',
   },
-,
   {
     id: "g6-history-09", grade: 6, strand: "history",
     title: "Trung Quốc từ thời cổ đại đến thế kỉ VII",
