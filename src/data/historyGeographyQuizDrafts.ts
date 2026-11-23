@@ -731,7 +731,7 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
     ["Nếu bản đồ hành chính cho thấy số tỉnh và cách phân chia thay đổi dưới Minh Mạng, điều đó phản ánh gì?","Nỗ lực tăng cường quản lí thống nhất lãnh thổ","Việc chấm dứt nhà nước trung ương","Sự hình thành các thuộc địa","Sự biến mất của bộ máy quan lại",0,"Cải cách hành chính nhằm củng cố quản lí thống nhất từ trung ương."],
     ["Một địa phương có di tích kiến trúc thời Nguyễn. Khi nghiên cứu, nên làm gì?","Chỉ dựa vào truyền miệng","Kết hợp khảo sát di tích, tư liệu và bối cảnh lịch sử","Tự suy đoán niên đại","Không cần kiểm tra nguồn",1,"Nghiên cứu di tích cần kết hợp quan sát và nhiều nguồn tư liệu đáng tin cậy."],
     ["Nhận định nào phù hợp nhất về Việt Nam dưới triều Nguyễn nửa đầu thế kỉ XIX?","Không có hoạt động cải cách","Chỉ phát triển công nghiệp hiện đại","Nhà nước được củng cố và văn hóa có thành tựu, song xã hội và chính sách đối ngoại còn nhiều hạn chế","Đất nước không có biến động xã hội",2,"Giai đoạn có cả nỗ lực củng cố nhà nước, thành tựu văn hóa và những hạn chế đáng kể."]
-  ]),status:'draft'},,
+  ]),status:'draft'},
 
   {lessonId:'g8-history-17',grade:8,strand:'history',title:'Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884',questions:buildQuestions('g8-history-17',[
     ["Thực dân Pháp nổ súng mở đầu cuộc xâm lược Việt Nam vào ngày nào?","1/9/1858","1/9/1862","5/6/1862","25/8/1883",0,"Ngày 1/9/1858, liên quân Pháp – Tây Ban Nha tấn công Đà Nẵng."],
