@@ -79,3 +79,12 @@ The remaining ten Grade 7 History lessons and their 150 questions have been adde
 - Latest source head at time of update: `93ec4b90acd20827e5f5a8a0ca2b162885ff723d`. CI run 45156148026 was still running when checked; do not treat this head as green until its completed result is confirmed.
 - Earlier QA findings above remain open unless separately evidenced as resolved. The structural validator does not certify factual accuracy, curriculum fidelity, source quality, or answer/explanation correctness. Teacher/subject-expert review is still required.
 - No merge, deployment, production import, or grade unlock has been performed. Grades 6–9 remain locked; production data and runtime were not changed.
+
+
+## Progress update — 2026-11-23 (continued)
+
+- Grade 8 History drafts now include manifest lessons 1–2: `g8-history-01` and `g8-history-02`, each with three learning sections and a matching 15-question assessment.
+- Current expected totals updated in the validator: **100 draft quiz packs / 1,500 questions** including 8 retained legacy samples; **92 manifest-aligned lesson drafts and 92 matching quiz packs**.
+- Coverage: Grade 6 50/50; Grade 7 History 18/18; Grade 7 Geography 19/19; Grade 7 integrated 2/2; Grade 8 History 2/19; remaining Grade 8 units 0/14; Grade 9 0/44.
+- CI run 45156243320 exposed a missing comma between lesson objects in `historyGeographyLessonDrafts.ts`; fixed in commit `40df809`. New content and validator changes followed. Run 45156533542 is checking commit `8e68d6b`; this run predates the final validator commit `ecb677b`, so a green result on the final branch head is still required.
+- No merge, deployment, production import or grade unlock. Drafts still require independent subject-matter review.
