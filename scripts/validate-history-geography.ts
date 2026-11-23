@@ -8,6 +8,7 @@ import { geographyQuizDrafts } from '../src/data/historyGeographyGeographyQuizDr
 const quizSets = [...historyGeographyQuizDrafts, ...geographyQuizDrafts];
 const lessonById = new Map(historyGeographyLessonDrafts.map((lesson) => [lesson.id, lesson]));
 const lessonIds = new Set(lessonById.keys());
+assert.equal(lessonIds.size, historyGeographyLessonDrafts.length, 'Duplicate lesson draft ID');
 const quizLessonIds = new Set<string>();
 const questionIds = new Set<string>();
 const normalizedPrompts = new Map<string, string>();
@@ -90,7 +91,7 @@ for (const set of quizSets) {
   }
   assert.deepEqual(levels, expectedLevels, `${set.lessonId} has an incorrect difficulty distribution`);
 }
-assert.equal(quizSets.length, 24, 'Expected 24 current/legacy draft quiz sets (not a claim of syllabus completeness)');
+assert.equal(quizSets.length, 32, 'Expected 32 current/legacy draft quiz sets (not a claim of syllabus completeness)');
 assert.equal(quizLessonIds.size, lessonIds.size, 'Every current lesson draft must have exactly one quiz set');
 
 const manifestLessonIds = new Set(syllabusLessons.map((lesson) => lesson.id));
