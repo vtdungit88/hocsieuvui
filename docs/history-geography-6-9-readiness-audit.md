@@ -315,3 +315,14 @@ The remaining ten Grade 7 History lessons and their 150 questions have been adde
 - Validator expected totals updated to 115 manifest-aligned lessons/packs, 123 total quiz sets and 1,845 questions; Grade 8 Geography assertion updated to seven lessons.
 - CI passed on commit `2bf86de8311bafe8ca3b715a9fbbde56d0ae9535` through Grade 8 Geography lesson 4. Lessons 5–7 and latest validator changes require a fresh complete green run on the current head.
 - All materials remain draft-only and require independent teacher/subject-matter review. No production import, publish, unlock, merge or deployment has occurred.
+
+
+## Progress update — 2026-11-23 (Grade 8 Geography lesson 8)
+
+- Added `g8-geography-08`: **Tác động của biến đổi khí hậu đối với khí hậu và thủy văn Việt Nam**, with three substantive sections and a matching 15-question geography quiz.
+- Grade 8 History remains complete at 19/19; Grade 8 Geography is now 8/12.
+- Overall inventory: **116/166 manifest units** and 116 matching manifest quiz packs. Including 8 legacy sample packs: **124 quiz sets / 1,860 questions**.
+- Remaining Grade 8 units: **6** (4 Geography + 2 integrated/common). Grade 9: **44** units. Total remaining: 50.
+- Validator expected totals updated to 116 manifest-aligned lessons/packs, 124 total quiz sets and 1,860 questions; Grade 8 Geography assertion updated to eight lessons.
+- CI passed on commit `8c01e9a3633ff8559b2f7bf920c248f1569f93ea` through Grade 8 Geography lesson 7. Lesson 8 and latest validator changes require a fresh complete green run on the current head.
+- All materials remain draft-only and require independent teacher/subject-matter review. No production import, publish, unlock, merge or deployment has occurred.
