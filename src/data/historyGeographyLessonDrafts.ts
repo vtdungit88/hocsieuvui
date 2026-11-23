@@ -1034,5 +1034,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-history-04', grade: 8, strand: 'history',
+    title: 'Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX',
+    summary: 'Khái quát tình hình các quốc gia Đông Nam Á trong bối cảnh mở rộng thương mại quốc tế, sự xâm nhập của phương Tây và những chuyển biến chính trị, kinh tế, xã hội từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX.',
+    learningObjectives: [
+      'Nêu được một số nét chính về tình hình Đông Nam Á trong giai đoạn.',
+      'Giải thích được những tác động của hoạt động thương mại và sự can thiệp của các nước phương Tây.',
+      'Nhận biết được các hình thức đấu tranh và ứng phó của cư dân, chính quyền bản địa.'
+    ],
+    sections: [
+      {
+        heading: 'Bối cảnh khu vực và hoạt động thương mại',
+        body: 'Từ nửa sau thế kỉ XVI, Đông Nam Á tiếp tục giữ vị trí quan trọng trên các tuyến giao thương nối Ấn Độ Dương và Thái Bình Dương. Các mặt hàng như gia vị, hương liệu, lúa gạo và sản vật nhiệt đới thu hút thương nhân bên ngoài. Một số cảng thị phát triển, đồng thời các thế lực châu Âu từng bước mở rộng hoạt động buôn bán, lập thương điếm và tìm cách kiểm soát nguồn hàng, tuyến đường. Hoạt động thương mại đem lại cơ hội trao đổi nhưng cũng làm gia tăng cạnh tranh và sức ép từ bên ngoài.',
+        keyPoints: ['Vị trí giao thương và nguồn sản vật khiến Đông Nam Á trở thành địa bàn cạnh tranh của các thế lực bên ngoài.'],
+        example: 'Khi tìm hiểu một cảng thị, cần xem xét vị trí trên tuyến hàng hải, mặt hàng trao đổi và các lực lượng tham gia.'
+      },
+      {
+        heading: 'Sự xâm nhập và mở rộng ảnh hưởng của phương Tây',
+        body: 'Các nước phương Tây sử dụng nhiều biện pháp khác nhau để mở rộng ảnh hưởng tại Đông Nam Á, từ lập thương điếm, độc quyền buôn bán đến can thiệp chính trị và dùng vũ lực. Quá trình này diễn ra không đồng đều giữa các quốc gia. Một số vùng lãnh thổ dần trở thành thuộc địa hoặc chịu sự kiểm soát ngày càng chặt chẽ; một số chính quyền tìm cách cải cách, thương lượng hoặc điều chỉnh chính sách để bảo vệ chủ quyền. Không nên coi toàn khu vực có cùng một diễn biến hay cùng một thời điểm mất độc lập.',
+        keyPoints: ['Quá trình bành trướng của phương Tây khác nhau theo từng quốc gia và từng thời điểm.'],
+        example: 'So sánh cách ứng phó của các chính quyền trong khu vực giúp thấy rõ sự đa dạng của bối cảnh lịch sử.'
+      },
+      {
+        heading: 'Chuyển biến xã hội và các phong trào đấu tranh',
+        body: 'Sự cạnh tranh thương mại, chiến tranh và chính sách cai trị từ bên ngoài tác động đến đời sống kinh tế, xã hội ở nhiều nơi. Người dân phải đối mặt với thuế khóa, lao dịch, mất đất hoặc những thay đổi trong hoạt động sản xuất. Nhiều cuộc đấu tranh chống xâm lược và chống áp bức diễn ra với thành phần, mục tiêu và kết quả khác nhau. Khi học về giai đoạn này, cần đặt mỗi phong trào trong hoàn cảnh cụ thể, phân biệt đấu tranh bảo vệ chủ quyền với những xung đột nội bộ.',
+        keyPoints: ['Sức ép bên ngoài và biến đổi trong nước làm nảy sinh nhiều hình thức đấu tranh, phản kháng.'],
+        example: 'Lập bảng gồm nguyên nhân, lực lượng tham gia, mục tiêu và kết quả sẽ giúp so sánh các phong trào.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
