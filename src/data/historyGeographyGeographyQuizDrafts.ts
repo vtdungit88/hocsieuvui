@@ -407,5 +407,23 @@ export const geographyQuizDrafts:HGGeoQuizSet[]=[
   ["Khi xác định vị trí Việt Nam trên bản đồ khu vực, nên chú ý điều gì?","Mối quan hệ với bán đảo Đông Dương, Biển Đông và các nước láng giềng","Chỉ tên thủ đô","Chỉ màu nền bản đồ","Chỉ đường xích đạo",0,"Các yếu tố không gian này giúp định vị Việt Nam chính xác."],
   ["Vì sao vị trí địa lí có ý nghĩa quan trọng với kinh tế biển?","Vì Việt Nam không có bờ biển","Vì nước ta giáp Biển Đông và có vùng biển, đảo rộng","Vì mọi hoạt động kinh tế đều ở trên núi","Vì không có tuyến giao thông biển",1,"Vị trí giáp Biển Đông tạo điều kiện cho giao thông, khai thác và dịch vụ biển."],
   ["Một địa phương ven biển vừa có lợi thế cảng biển vừa thường chịu bão. Cách đánh giá phù hợp nhất là gì?","Chỉ tính lợi ích vận tải","Bỏ qua mọi rủi ro","Kết hợp khai thác lợi thế giao thông với quy hoạch an toàn và phòng chống thiên tai","Cấm mọi hoạt động kinh tế",2,"Quy hoạch cần cân bằng lợi thế phát triển với rủi ro thiên tai và an toàn cộng đồng."]
+ ]),status:'draft'},,
+
+ {lessonId:'g8-geography-02',grade:8,strand:'geography',title:'Địa hình Việt Nam',questions:buildGeo('g8-geography-02',[
+  ["Dạng địa hình nào chiếm phần lớn diện tích lãnh thổ Việt Nam?","Đồi núi","Đồng bằng","Hoang mạc","Băng hà",0,"Đồi núi chiếm phần lớn diện tích lãnh thổ Việt Nam."],
+  ["Đồi núi Việt Nam chủ yếu có độ cao như thế nào?","Rất cao trên toàn quốc","Đồi núi thấp","Chỉ là núi lửa","Không có phân bậc",1,"Phần lớn địa hình đồi núi nước ta là đồi núi thấp."],
+  ["Hai hướng địa hình chính của Việt Nam là gì?","Bắc – nam và đông – tây","Đông bắc – tây nam và nam – bắc","Tây bắc – đông nam và hướng vòng cung","Chỉ hướng đông – tây",2,"Địa hình có hướng tây bắc – đông nam và hướng vòng cung."],
+  ["Đồng bằng nào là một trong hai đồng bằng lớn nhất Việt Nam?","Đồng bằng ven biển Ninh Thuận","Đồng bằng Mường Thanh","Đồng bằng Tuy Hòa","Đồng bằng sông Hồng",3,"Đồng bằng sông Hồng là một trong hai đồng bằng lớn nhất nước ta."],
+  ["Đồng bằng lớn còn lại của Việt Nam là gì?","Đồng bằng sông Cửu Long","Đồng bằng ven biển Quảng Ninh","Đồng bằng Nghệ An","Đồng bằng Phan Rang",0,"Đồng bằng sông Cửu Long nằm ở Nam Bộ."],
+  ["Quá trình nào phổ biến ở miền núi do mưa và dòng chảy?","Bồi tụ biển sâu","Xâm thực và rửa trôi","Đóng băng quanh năm","Bồi tụ phù sa đồng bằng",1,"Mưa lớn và dòng chảy làm xói mòn, rửa trôi đất ở vùng dốc."],
+  ["Quá trình bồi tụ phù sa thường góp phần hình thành dạng địa hình nào?","Đỉnh núi cao","Hang động núi đá vôi","Đồng bằng châu thổ","Sườn núi dốc",2,"Phù sa sông bồi đắp tạo nên các đồng bằng châu thổ."],
+  ["Đồng bằng duyên hải miền Trung thường có đặc điểm nào?","Rộng lớn liên tục như đồng bằng Nam Bộ","Nằm hoàn toàn ở miền núi","Không tiếp giáp biển","Hẹp ngang và bị chia cắt bởi các dãy núi ăn ra biển",3,"Các đồng bằng ven biển miền Trung thường hẹp ngang và bị chia cắt."],
+  ["Địa hình có ảnh hưởng đến yếu tố tự nhiên nào?","Khí hậu, sông ngòi, đất và sinh vật","Chỉ dân số","Chỉ ngôn ngữ","Không ảnh hưởng đến tự nhiên",0,"Địa hình tác động đến khí hậu, dòng chảy, đất và sinh vật."],
+  ["Một thế mạnh thường gặp ở vùng núi là gì?","Trồng lúa nước tập trung trên đồng bằng rộng","Lâm nghiệp và thủy điện ở nơi có điều kiện phù hợp","Cảng biển nước sâu ở mọi thung lũng","Nuôi trồng thủy sản nước mặn trên đỉnh núi",1,"Nhiều vùng núi có tiềm năng lâm nghiệp và thủy điện."],
+  ["Một rủi ro địa hình thường gặp ở sườn dốc khi mưa lớn là gì?","Sương muối ở mọi độ cao","Bồi tụ cát biển","Sạt lở đất","Xâm nhập mặn",2,"Mưa lớn trên địa hình dốc làm tăng nguy cơ sạt lở."],
+  ["Địa hình đồng bằng thuận lợi cho hoạt động nào?","Khai thác băng tuyết","Trồng rừng đầu nguồn trên sườn dốc","Xây dựng hồ thủy điện trên thượng nguồn","Trồng lúa và tập trung dân cư",3,"Đồng bằng có địa hình tương đối bằng phẳng, thuận lợi cho nông nghiệp và cư trú."],
+  ["Vì sao đồng bằng ven biển miền Trung thường hẹp?","Dãy núi có nhiều nhánh ăn ra sát biển","Vì nằm ở vùng cực","Vì không có sông","Vì toàn bộ bị băng phủ",0,"Địa hình núi ăn ra biển làm đồng bằng ven biển bị thu hẹp và chia cắt."],
+  ["Khi xây dựng đường qua vùng núi, yếu tố nào cần được khảo sát?","Chỉ khoảng cách đường thẳng","Độ dốc, địa chất và nguy cơ sạt lở","Chỉ màu sắc đất","Chỉ số lượng nhà dân",1,"Độ dốc và điều kiện địa chất quyết định an toàn của tuyến đường."],
+  ["Một khu vực đồng bằng vừa thuận lợi trồng trọt vừa dễ ngập lụt. Cách quy hoạch phù hợp là gì?","Chỉ tăng diện tích xây dựng","Bỏ qua hệ thống thoát nước","Kết hợp sử dụng đất hợp lí với đê điều, thoát nước và thích ứng lũ","Cấm mọi hoạt động sản xuất",2,"Quy hoạch cần tận dụng lợi thế đồng bằng đồng thời giảm rủi ro ngập lụt."]
  ]),status:'draft'},
 ];
