@@ -122,4 +122,23 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
     ['Kết luận nào phản ánh đúng tính không đồng đều của quá trình chuyển biến xã hội nguyên thủy?','Mọi nơi đều hình thành nhà nước cùng một thời điểm','Mọi cộng đồng đều có cùng công cụ','Các khu vực có nhịp độ và con đường biến đổi khác nhau','Không có nơi nào xuất hiện phân hóa',2,'Điều kiện tự nhiên, kinh tế và lịch sử khác nhau khiến quá trình biến đổi không đồng đều.']
   ]),status:'draft'},
 
+
+  {lessonId:'g6-history-07',grade:6,strand:'history',title:'Ai Cập và Lưỡng Hà cổ đại',questions:buildQuestions('g6-history-07',[
+    ['Nền văn minh Ai Cập cổ đại hình thành chủ yếu bên lưu vực con sông nào?','Sông Nin','Sông Hoàng Hà','Sông Ấn','Sông Đa-nuýp',0,'Sông Nin cung cấp nước và phù sa, tạo điều kiện cho nông nghiệp Ai Cập.'],
+    ['Lưỡng Hà cổ đại nằm giữa hai con sông nào?','Sông Nin và sông Hằng','Sông Ti-grơ và sông Ơ-phơ-rát','Sông Hoàng Hà và Trường Giang','Sông Ấn và sông Hằng',1,'Tên gọi Lưỡng Hà gắn với vùng đất giữa hai sông Ti-grơ và Ơ-phơ-rát.'],
+    ['Công trình kiến trúc nổi tiếng gắn với Ai Cập cổ đại là gì?','Đấu trường Cô-li-dê','Vạn Lý Trường Thành','Kim tự tháp','Đền Pác-tê-nông',2,'Kim tự tháp là công trình kiến trúc tiêu biểu của Ai Cập cổ đại.'],
+    ['Chữ viết tiêu biểu của cư dân Ai Cập cổ đại là gì?','Chữ hình nêm','Chữ La-tinh','Chữ Phạn','Chữ tượng hình',3,'Người Ai Cập sử dụng chữ tượng hình để ghi chép.'],
+    ['Chữ viết tiêu biểu của cư dân Lưỡng Hà là gì?','Chữ hình nêm','Chữ tượng hình Ai Cập','Chữ Hán giản thể','Chữ Quốc ngữ',0,'Chữ hình nêm được khắc trên các bảng đất sét.'],
+    ['Bộ luật Ha-mu-ra-bi gắn với nền văn minh nào?','Ai Cập','Lưỡng Hà','Hy Lạp','La Mã',1,'Ha-mu-ra-bi là vị vua Babylon nổi tiếng với bộ luật thành văn.'],
+    ['Vì sao các nền văn minh cổ đại thường hình thành ở lưu vực sông lớn?','Vì không cần đất canh tác','Vì sông ngăn cản mọi giao lưu','Vì có nước, phù sa và điều kiện thuận lợi cho sản xuất nông nghiệp','Vì không có thiên tai',2,'Nguồn nước và phù sa hỗ trợ trồng trọt, cư trú và phát triển cộng đồng.'],
+    ['Người Ai Cập cổ đại sử dụng vật liệu nào để làm giấy viết nổi tiếng?','Tre nứa','Lụa tơ tằm','Da thuộc','Cây pa-pi-rút',3,'Giấy pa-pi-rút được làm từ một loài cây mọc ven sông Nin.'],
+    ['Thành tựu lịch pháp của cư dân Ai Cập cổ đại có liên quan đến nhu cầu nào?','Theo dõi thời gian và chu kì lũ sông Nin, tổ chức sản xuất','Tìm đường bay vào vũ trụ','Dự báo động đất chính xác','Đo tốc độ internet',0,'Lịch giúp xác định mùa vụ và tổ chức các hoạt động xã hội.'],
+    ['Nhà nước cổ đại ở Ai Cập thường gắn với quyền lực của ai?','Hội đồng học sinh','Pha-ra-ông','Thủ lĩnh hàng hải Hy Lạp','Quan chấp chính La Mã',1,'Pha-ra-ông là người đứng đầu nhà nước Ai Cập cổ đại.'],
+    ['Một bảng đất sét có dấu khắc hình nêm được tìm thấy tại vùng Lưỡng Hà. Nhận định nào phù hợp?','Đó chắc chắn là chữ tượng hình Ai Cập','Đó là chữ viết hiện đại','Có thể là tư liệu chữ viết của cư dân Lưỡng Hà, cần nghiên cứu nội dung và niên đại','Đó là bản đồ vệ tinh',2,'Chữ hình nêm là đặc trưng của nhiều tư liệu văn tự Lưỡng Hà.'],
+    ['Điểm chung nổi bật về điều kiện tự nhiên của Ai Cập và Lưỡng Hà cổ đại là gì?','Đều nằm ở vùng băng giá quanh năm','Đều không có sông','Đều hình thành trên đảo núi lửa','Đều gắn với các lưu vực sông lớn',3,'Cả hai nền văn minh đều phát triển ở những vùng đồng bằng ven sông.'],
+    ['Khi so sánh hai nền văn minh, cách làm nào giúp tránh nhầm lẫn thành tựu?','Gắn mỗi thành tựu với đúng khu vực, tư liệu và bối cảnh lịch sử','Cho rằng mọi thành tựu đều xuất hiện ở cùng một nơi','Chỉ dựa vào tên gọi ngày nay','Bỏ qua nguồn gốc tư liệu',0,'Đối chiếu địa điểm và bối cảnh giúp phân biệt thành tựu của từng nền văn minh.'],
+    ['Một cộng đồng ven sông xây dựng kênh mương quy mô lớn. Hoạt động này gợi ra nhu cầu xã hội nào?','Chỉ phục vụ trang trí','Tổ chức lao động và quản lí nguồn nước chung','Không cần sự phối hợp','Thay thế hoàn toàn nông nghiệp',1,'Công trình thủy lợi đòi hỏi sự phối hợp và tổ chức cộng đồng.'],
+    ['Vì sao chữ viết được xem là thành tựu quan trọng của các nhà nước cổ đại?','Vì chữ viết làm cho mọi người cùng nói một ngôn ngữ','Vì chữ viết thay thế hoàn toàn truyền miệng','Vì giúp ghi chép, quản lí và lưu truyền tri thức qua thời gian','Vì chữ viết chỉ dùng để trang trí',2,'Chữ viết hỗ trợ quản lí nhà nước, trao đổi và lưu giữ tri thức.']
+  ]),status:'draft'},
+
 ];
