@@ -461,7 +461,7 @@ export const geographyQuizDrafts:HGGeoQuizSet[]=[
   ["Một địa phương có mùa khô kéo dài. Biện pháp thích ứng phù hợp là gì?","Quản lí nguồn nước, tưới tiết kiệm và lựa chọn cây trồng phù hợp","Tăng sử dụng nước không giới hạn","Bỏ qua dự báo hạn","Chỉ trồng cây cần nhiều nước",0,"Quản lí nước và chọn cây trồng phù hợp giúp giảm tác động mùa khô."],
   ["Lịch gieo trồng nên được điều chỉnh dựa trên yếu tố nào?","Chỉ ngày lễ","Đặc điểm mùa vụ, nhiệt độ, mưa và nguy cơ thiên tai địa phương","Chỉ giá bán phân bón","Chỉ số dân",1,"Lịch thời vụ cần căn cứ điều kiện khí hậu và rủi ro từng vùng."],
   ["Một khu vực có mưa lớn tập trung và địa hình dốc. Giải pháp nào nên được ưu tiên?","Mở rộng xây dựng trên sườn dốc","Phá rừng đầu nguồn","Cảnh báo lũ quét, sạt lở và bảo vệ rừng","Không cần phương án sơ tán",2,"Mưa lớn trên địa hình dốc làm tăng nguy cơ lũ quét và sạt lở."]
- ]),status:'draft'},,
+ ]),status:'draft'},
 
  {lessonId:'g8-geography-05',grade:8,strand:'geography',title:'Thực hành: Vẽ và phân tích biểu đồ khí hậu',questions:buildGeo('g8-geography-05',[
   ["Trước khi vẽ biểu đồ khí hậu, cần kiểm tra điều gì?","Tên địa điểm, thời gian, đơn vị và số liệu 12 tháng","Chỉ màu bút","Chỉ tên người lập bảng","Chỉ kích thước giấy",0,"Cần kiểm tra nguồn, thời gian, đơn vị và độ đầy đủ của số liệu."],
