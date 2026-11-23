@@ -1770,5 +1770,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-geography-08', grade: 8, strand: 'geography',
+    title: 'Tác động của biến đổi khí hậu đối với khí hậu và thủy văn Việt Nam',
+    summary: 'Nhận biết biểu hiện của biến đổi khí hậu ở Việt Nam, phân tích tác động đến nhiệt độ, mưa, dòng chảy, lũ lụt, hạn hán và xâm nhập mặn; đề xuất biện pháp thích ứng phù hợp.',
+    learningObjectives: [
+      'Nêu được một số biểu hiện của biến đổi khí hậu ở Việt Nam.',
+      'Phân tích được tác động đến khí hậu, nguồn nước và các vùng dễ bị tổn thương.',
+      'Đề xuất được biện pháp thích ứng và giảm nhẹ biến đổi khí hậu ở địa phương.'
+    ],
+    sections: [
+      {
+        heading: 'Biểu hiện của biến đổi khí hậu',
+        body: 'Biến đổi khí hậu thể hiện qua xu hướng tăng nhiệt độ trung bình, thay đổi chế độ mưa, gia tăng một số hiện tượng thời tiết cực đoan và mực nước biển dâng. Ở Việt Nam, biểu hiện cụ thể khác nhau giữa các vùng và từng năm; không phải mọi hiện tượng thời tiết riêng lẻ đều có thể quy trực tiếp cho biến đổi khí hậu. Cần sử dụng chuỗi số liệu dài hạn, nguồn quan trắc đáng tin cậy và so sánh theo thời gian để nhận diện xu thế. Các yếu tố khí hậu và thủy văn có mối liên hệ chặt chẽ nên thay đổi về mưa, nhiệt độ có thể tác động đến dòng chảy và nguồn nước.',
+        keyPoints: ['Nhận diện biến đổi khí hậu cần dựa trên xu thế dài hạn, không chỉ một sự kiện thời tiết đơn lẻ.'],
+        example: 'So sánh số liệu nhiệt độ trung bình nhiều thập kỉ giúp nhận biết xu hướng thay đổi rõ hơn so với quan sát một ngày nóng.'
+      },
+      {
+        heading: 'Tác động đến khí hậu và thủy văn',
+        body: 'Nhiệt độ tăng có thể làm tăng nhu cầu nước, bốc hơi và nguy cơ nắng nóng. Mưa thay đổi về cường độ và phân bố có thể làm tăng rủi ro mưa lớn, lũ quét, sạt lở ở một số khu vực, đồng thời kéo dài hạn hán ở nơi khác. Nước biển dâng kết hợp triều cường và suy giảm dòng chảy mùa khô làm gia tăng nguy cơ ngập và xâm nhập mặn ở vùng ven biển, đặc biệt tại đồng bằng sông Cửu Long và một số khu vực thấp trũng. Các tác động phụ thuộc điều kiện địa hình, sử dụng đất, công trình thủy lợi và cách quản lí lưu vực.',
+        keyPoints: ['Biến đổi khí hậu có thể làm tăng rủi ro nắng nóng, mưa cực đoan, hạn hán, ngập và xâm nhập mặn.'],
+        example: 'Ở vùng cửa sông, theo dõi độ mặn và dòng chảy mùa khô giúp chủ động điều chỉnh lịch lấy nước.'
+      },
+      {
+        heading: 'Thích ứng và giảm nhẹ tác động',
+        body: 'Thích ứng cần kết hợp quy hoạch không gian an toàn, hệ thống cảnh báo sớm, công trình phòng chống thiên tai và giải pháp dựa vào hệ sinh thái. Nông nghiệp có thể điều chỉnh mùa vụ, sử dụng giống chịu hạn hoặc chịu mặn, thay đổi cơ cấu cây trồng và áp dụng tưới tiết kiệm. Đô thị cần tăng khả năng thoát nước, bảo vệ không gian trữ nước và hạn chế xây dựng ở vùng có nguy cơ cao. Giảm nhẹ biến đổi khí hậu thông qua tiết kiệm năng lượng, sử dụng năng lượng sạch, bảo vệ rừng và giảm phát thải. Mỗi địa phương cần lựa chọn giải pháp dựa trên dữ liệu và sự tham gia của cộng đồng.',
+        keyPoints: ['Thích ứng giảm thiệt hại; giảm nhẹ góp phần hạn chế nguyên nhân gây biến đổi khí hậu.'],
+        example: 'Một vùng ven biển có thể kết hợp phục hồi rừng ngập mặn, cảnh báo mặn, trữ nước ngọt và điều chỉnh mùa vụ.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
