@@ -1514,7 +1514,7 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
-  },,
+  },
 
   {
     id: 'g8-history-19', grade: 8, strand: 'history',
