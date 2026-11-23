@@ -9,7 +9,20 @@ G123 = os.path.join(os.path.dirname(HERE), 'grades123')
 if G123 not in sys.path:
     sys.path.insert(0, G123)
 
-from fig_helpers_g123 import bars_fig, draw_fig, table_fig  # noqa: E402, F401
+from fig_helpers_g123 import (  # noqa: E402, F401
+    bars_fig,
+    draw_fig,
+    fig_clock,
+    fig_color_mix,
+    fig_flowchart,
+    fig_folder_tree,
+    fig_formation,
+    fig_lines,
+    fig_music_staff,
+    fig_shape,
+    fig_traffic_sign,
+    table_fig,
+)
 
 FORBIDDEN_OPT_RE = re.compile(
     r'tất cả các (đáp án|ý) (trên|đều)|cả [abcd] và [abcd]|không có (đáp án|phương án) nào đúng',

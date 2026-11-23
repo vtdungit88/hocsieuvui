@@ -1,0 +1,3292 @@
+[
+  {
+    "chapter": "nguvan6-c1",
+    "lesson": {
+      "code": "nguvan6-b01",
+      "title": "Bài 1. Tôi và các bạn",
+      "seq": 1,
+      "subtitle": "Đọc hiểu truyện đồng thoại và thơ (Bài học đường đời đầu tiên, Nếu cậu muốn có một người bạn, Bắt nạt), từ đơn – từ phức, biện pháp tu từ so sánh và đoạn văn ghi lại cảm xúc về bài thơ",
+      "concepts": [
+        "Truyện đồng thoại & ngôi kể thứ nhất",
+        "Từ đơn, từ ghép và từ láy",
+        "So sánh & cảm nhận thơ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV6-B01-001",
+        "d": "basic",
+        "p": "Văn bản \"Bài học đường đời đầu tiên\" được trích từ tác phẩm nổi tiếng nào của nhà văn Tô Hoài?",
+        "o": [
+          "Đất rừng phương Nam",
+          "Dế Mèn phiêu lưu kí",
+          "Tuổi thơ dữ dội",
+          "Quê nội"
+        ],
+        "k": "B",
+        "e": "\"Bài học đường đời đầu tiên\" là chương mở đầu của tác phẩm \"Dế Mèn phiêu lưu kí\" (Tô Hoài).",
+        "s": "Ngữ Văn 6",
+        "h": "Tác phẩm và tác giả",
+        "fig": {
+          "type": "table",
+          "title": "Tác phẩm Bài 1 (NV6)",
+          "head": [
+            "Văn bản",
+            "Tác giả",
+            "Thể loại"
+          ],
+          "rows": [
+            [
+              "Đường đời đầu tiên",
+              "Tô Hoài",
+              "Truyện đồng thoại"
+            ],
+            [
+              "Có một người bạn",
+              "Saint-Exupéry",
+              "Truyện ngắn"
+            ],
+            [
+              "Bắt nạt",
+              "Ng. Thế Hoàng Linh",
+              "Thơ năm chữ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV6-B01-002",
+        "d": "basic",
+        "p": "Trong \"Bài học đường đời đầu tiên\", Dế Mèn tự kể lại câu chuyện của chính mình bằng lời xưng \"tôi\". Đây là ngôi kể thứ mấy?",
+        "o": [
+          "Ngôi kể thứ hai",
+          "Ngôi kể thứ ba toàn tri",
+          "Ngôi kể thứ nhất",
+          "Ngôi kể hỗn hợp gián tiếp"
+        ],
+        "k": "C",
+        "e": "Người kể chuyện xưng \"tôi\" và trực tiếp tham gia sự việc là đặc trưng của ngôi kể thứ nhất.",
+        "s": "Ngữ Văn 6",
+        "h": "Nhận diện ngôi kể"
+      },
+      {
+        "c": "NV6-B01-003",
+        "d": "basic",
+        "p": "Theo đoạn trích \"Nếu cậu muốn có một người bạn\" (trích \"Hoàng tử bé\"), động từ \"cảm hóa\" được con cáo giải thích có nghĩa cốt lõi là gì?",
+        "o": [
+          "Trao đổi quà tặng vật chất càng đắt tiền càng tốt",
+          "Làm cho gần gũi, tạo nên sự gắn bó yêu thương và trách nhiệm với nhau",
+          "Giữ khoảng cách lạnh nhạt để khỏi bị tổn thương",
+          "Ra lệnh bắt buộc người khác phải nghe theo mình"
+        ],
+        "k": "B",
+        "e": "Trong cuộc trò chuyện với Hoàng tử bé, cáo nói \"cảm hóa\" nghĩa là \"làm cho gần gũi hơn\", gắn kết bằng tình cảm chân thành.",
+        "s": "Ngữ Văn 6",
+        "h": "Ý nghĩa từ khóa trong văn bản"
+      },
+      {
+        "c": "NV6-B01-004",
+        "d": "basic",
+        "p": "Trong các từ sau đây trích từ \"Bài học đường đời đầu tiên\", từ nào là từ láy?",
+        "o": [
+          "hung hăng",
+          "đầu tiên",
+          "bờ ruộng",
+          "đôi cánh"
+        ],
+        "k": "A",
+        "e": "\"hung hăng\" là từ láy âm đầu h-; các từ còn lại là từ ghép có nghĩa.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân biệt từ láy và từ ghép"
+      },
+      {
+        "c": "NV6-B01-005",
+        "d": "basic",
+        "p": "Bài thơ \"Bắt nạt\" của Nguyễn Thế Hoàng Linh thể hiện thái độ nào của tác giả đối với hành vi bắt nạt bạn bè?",
+        "o": [
+          "Khuyến khích học sinh dùng sức mạnh để giải quyết mâu thuẫn",
+          "Phê phán nhẹ nhàng, dí dỏm thói bắt nạt và khuyên mọi người sống nhân ái, biết bảo vệ bạn yếu thế",
+          "Khen ngợi những bạn biết trêu chọc để tạo tiếng cười",
+          "Thờ ơ coi bắt nạt là chuyện bình thường của tuổi nhỏ"
+        ],
+        "k": "B",
+        "e": "Bài thơ nhìn nhận bắt nạt là thói xấu đáng chê bằng giọng điệu vui tươi, đồng thời hướng tới tinh thần thân ái.",
+        "s": "Ngữ Văn 6",
+        "h": "Thông điệp bài thơ Bắt nạt"
+      },
+      {
+        "c": "NV6-B01-006",
+        "d": "basic",
+        "p": "Cụm từ nào sau đây là từ ghép phân loại (ghép chính phụ) chứ không phải từ ghép tổng hợp (đẳng lập)?",
+        "o": [
+          "vui buồn",
+          "quần áo",
+          "bàn ghế",
+          "xe đạp"
+        ],
+        "k": "D",
+        "e": "\"xe đạp\" có tiếng chính \"xe\" và tiếng phụ \"đạp\" chỉ loại xe cụ thể nên là từ ghép phân loại.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân biệt từ ghép"
+      },
+      {
+        "c": "NV6-B01-007",
+        "d": "application",
+        "p": "Chi tiết Dế Mèn trêu chị Cốc dẫn đến cái chết thương tâm của Dế Choắt mang lại bài học gì cho nhân vật \"tôi\"?",
+        "o": [
+          "Phải luôn giữ vẻ ngoài oai vệ bằng mọi giá",
+          "Không được kiêu căng, xốc nổi, coi thường người yếu thế; phải biết suy nghĩ đến hậu quả trước khi hành động",
+          "Nên đào hang thật sâu để trốn trách nhiệm khi gặp sự cố",
+          "Chỉ cần kết bạn với những con vật khỏe mạnh hơn mình"
+        ],
+        "k": "B",
+        "e": "Cái chết và lời khuyên cuối cùng của Dế Choắt khiến Dế Mèn ân hận sâu sắc, nhận ra bài học về lòng khiêm tốn và tình nhân ái.",
+        "s": "Ngữ Văn 6",
+        "h": "Ý nghĩa bài học đường đời"
+      },
+      {
+        "c": "NV6-B01-008",
+        "d": "application",
+        "p": "Câu văn miêu tả Dế Mèn: \"Những ngọn cỏ gãy rạp, y như có nhát dao vừa lia qua\" sử dụng biện pháp tu từ nào?",
+        "o": [
+          "So sánh",
+          "Điệp ngữ",
+          "Nói quá tách rời hình ảnh",
+          "Chơi chữ đồng âm"
+        ],
+        "k": "A",
+        "e": "Tác giả dùng từ so sánh \"y như\" để đối chiếu vết cắn cỏ sắc ngọt của Dế Mèn với nhát dao vừa lia qua.",
+        "s": "Ngữ Văn 6",
+        "h": "Biện pháp tu từ trong miêu tả"
+      },
+      {
+        "c": "NV6-B01-009",
+        "d": "application",
+        "p": "Dựa vào cấu tạo tiếng, từ nào dưới đây là từ đơn chứ không phải từ phức?",
+        "o": [
+          "thân thiết",
+          "lung linh",
+          "bạn bè",
+          "sách"
+        ],
+        "k": "D",
+        "e": "\"sách\" chỉ gồm một tiếng có nghĩa nên là từ đơn; các từ còn lại gồm hai tiếng tạo thành từ phức.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân biệt từ đơn và từ phức"
+      },
+      {
+        "c": "NV6-B01-010",
+        "d": "application",
+        "p": "Khi viết đoạn văn ghi lại cảm xúc về một bài thơ, người viết KHÔNG nên làm điều nào sau đây?",
+        "o": [
+          "Chỉ chép lại nguyên văn bài thơ mà không nêu cảm nghĩ hay chi tiết nghệ thuật gây ấn tượng",
+          "Dùng ngôi thứ nhất (em, tôi) để bộc lộ cảm xúc chân thực",
+          "Nêu cảm nhận về nội dung và giọng điệu đặc sắc của bài thơ",
+          "Trích dẫn một vài câu thơ, hình ảnh nổi bật làm dẫn chứng"
+        ],
+        "k": "A",
+        "e": "Đoạn văn ghi cảm xúc về bài thơ cần có dẫn chứng thơ kết hợp phân tích cảm nhận cá nhân bằng ngôi thứ nhất.",
+        "s": "Ngữ Văn 6",
+        "h": "Kĩ năng viết đoạn cảm xúc thơ"
+      },
+      {
+        "c": "NV6-B01-011",
+        "d": "application",
+        "p": "Vì sao con cáo dặn Hoàng tử bé: \"Cậu có trách nhiệm mãi mãi với những gì cậu đã cảm hóa\"?",
+        "o": [
+          "Bởi con người cần phải sở hữu hoàn toàn tự do của bạn bè",
+          "Bởi động vật hoang dã không thể tự sống thiếu con người",
+          "Bởi tình bạn đích thực đòi hỏi sự quan tâm, gắn bó bền lâu và ý thức giữ gìn điều quý giá ta đã tạo dựng",
+          "Bởi chỉ cần gặp nhau đúng một lần là đủ để nhớ suốt đời"
+        ],
+        "k": "C",
+        "e": "Cáo nhấn mạnh trách nhiệm và sự trân trọng trong tình bạn, tình yêu thương chân thành.",
+        "s": "Ngữ Văn 6",
+        "h": "Cảm nhận chiều sâu lời thoại"
+      },
+      {
+        "c": "NV6-B01-012",
+        "d": "application",
+        "p": "Dòng nào gồm toàn các từ láy gợi tả dáng vẻ hoặc tâm trạng trong tiếng Việt?",
+        "o": [
+          "lững thững, bối rối, rón rén",
+          "chạy nhảy, vui vẻ, học tập",
+          "sách vở, bâng khuâng, bàn học",
+          "trắng tinh, xanh ngắt, rì rào"
+        ],
+        "k": "A",
+        "e": "Cả ba từ \"lững thững\", \"bối rối\", \"rón rén\" đều là từ láy miêu tả dáng đi hoặc trạng thái tâm lí.",
+        "s": "Ngữ Văn 6",
+        "h": "Nhận diện nhóm từ láy"
+      },
+      {
+        "c": "NV6-B01-013",
+        "d": "advanced",
+        "p": "Trong đoạn văn tả ngoại hình Dế Mèn (\"càng mẫm bóng\", \"vuốt cứng\", \"đạp phanh phách\"), sự kết hợp giữa từ láy tượng thanh, tượng hình và ngôi kể thứ nhất có tác dụng gì?",
+        "o": [
+          "Chuyển câu chuyện thành văn bản thuyết minh khoa học về côn trùng",
+          "Làm giảm tính sinh động của các hành động nhân vật",
+          "Làm nổi bật vẻ đẹp khỏe khoắn nhưng cũng bộc lộ rõ nét tính cách tự phụ, kiêu ngạo của Dế Mèn khi nhìn lại tuổi trẻ",
+          "Che giấu toàn bộ khuyết điểm của nhân vật trước người đọc"
+        ],
+        "k": "C",
+        "e": "Các từ ngữ giàu sức gợi giúp chân dung Dế Mèn hiện lên sống động, đồng thời phản ánh tâm lí tự mãn thời trẻ của nhân vật.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân tích nghệ thuật miêu tả nhân vật"
+      },
+      {
+        "c": "NV6-B01-014",
+        "d": "advanced",
+        "p": "Đọc khổ thơ: \"Đừng bắt nạt người lớn / Đừng bắt nạt trẻ con / Đừng bắt nạt nước khác / Trên khắp trái đất tròn\". Biện pháp điệp ngữ \"Đừng bắt nạt\" đem lại hiệu quả nghệ thuật nào?",
+        "o": [
+          "Làm bài thơ trở nên buồn bã và mang tính trừng phạt nặng nề",
+          "Chỉ nhắc nhở riêng một nhóm bạn trong lớp học",
+          "Thể hiện sự do dự không chắc chắn của người nói",
+          "Nhấn mạnh lời khuyên dứt khoát, tạo nhịp điệu rành mạch và mở rộng thông điệp yêu thương ra phạm vi rộng lớn"
+        ],
+        "k": "D",
+        "e": "Điệp cấu trúc \"Đừng bắt nạt\" kết hợp phép liệt kê từ gần đến xa giúp thông điệp hòa bình, thân ái vang lên tự nhiên mà thấm thía.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân tích điệp ngữ trong thơ"
+      },
+      {
+        "c": "NV6-B01-015",
+        "d": "advanced",
+        "p": "Nếu viết lại đoạn trích \"Bài học đường đời đầu tiên\" theo ngôi kể thứ ba (\"hắn\", \"Dế Mèn\"), điểm khác biệt lớn nhất về hiệu quả nghệ thuật so với bản gốc là gì?",
+        "o": [
+          "Giảm bớt sắc thái tự thú, day dứt và sự gần gũi trực tiếp trong dòng tâm trạng ăn năn của chính nhân vật \"tôi\"",
+          "Làm mất hoàn toàn toàn bộ chuỗi sự kiện Dế Mèn trêu chị Cốc",
+          "Không thể miêu tả được ngoại hình của các loài vật nữa",
+          "Biến truyện đồng thoại thành một bài thơ lục bát truyền thống"
+        ],
+        "k": "A",
+        "e": "Ngôi thứ nhất giúp người đọc nghe trực tiếp giọng ân hận của Dế Mèn; đổi sang ngôi thứ ba sẽ khách quan hơn nhưng giảm độ lắng sâu nội tâm.",
+        "s": "Ngữ Văn 6",
+        "h": "So sánh tác dụng ngôi kể"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan6-c1",
+    "lesson": {
+      "code": "nguvan6-b02",
+      "title": "Bài 2. Gõ cửa trái tim",
+      "seq": 2,
+      "subtitle": "Thơ tình cảm gia đình (Chuyện cổ tích về loài người, Mây và sóng), văn xuôi Bức tranh của em gái tôi, biện pháp ẩn dụ, hoán dụ và cách viết đoạn văn nêu cảm xúc về bài thơ có yếu tố tự sự, miêu tả",
+      "concepts": [
+        "Thơ có yếu tố tự sự và miêu tả",
+        "Biện pháp tu từ ẩn dụ",
+        "Tình cảm gia đình & vị tha"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV6-B02-001",
+        "d": "basic",
+        "p": "Bài thơ \"Chuyện cổ tích về loài người\" là sáng tác của nhà thơ nào?",
+        "o": [
+          "Ý Nhi",
+          "Xuân Quỳnh",
+          "Phan Thị Thanh Nhàn",
+          "Lâm Thị Mỹ Dạ"
+        ],
+        "k": "B",
+        "e": "Xuân Quỳnh sáng tác bài thơ \"Chuyện cổ tích về loài người\" với góc nhìn hồn nhiên, ấm áp tình mẫu tử.",
+        "s": "Ngữ Văn 6",
+        "h": "Tác giả bài thơ Bài 2"
+      },
+      {
+        "c": "NV6-B02-002",
+        "d": "basic",
+        "p": "Trong bài thơ \"Chuyện cổ tích về loài người\" (Xuân Quỳnh), ai được sinh ra đầu tiên trên Trái Đất?",
+        "o": [
+          "Người lớn và bà ngoại",
+          "Ông mặt trời và biển cả",
+          "Cây cối và dòng sông",
+          "Trẻ con"
+        ],
+        "k": "D",
+        "e": "Bằng trí tưởng tượng cổ tích độc đáo, bài thơ mở đầu bằng câu \"Trời sinh ra trước nhất / Chỉ toàn là trẻ con\".",
+        "s": "Ngữ Văn 6",
+        "h": "Mạch tưởng tượng trong bài thơ"
+      },
+      {
+        "c": "NV6-B02-003",
+        "d": "basic",
+        "p": "Tác phẩm \"Mây và sóng\" của đại thi hào Ấn Độ R. Ta-go thể hiện chủ đề chính nào dưới đây?",
+        "o": [
+          "Cuộc thi tài giữa các hiện tượng tự nhiên trên bầu trời",
+          "Nỗi buồn khi mùa hè kết thúc phải quay lại trường học",
+          "Tình mẫu tử thiêng liêng, sâu nặng thắng mọi cám dỗ vui chơi ngoài thế giới rộng lớn",
+          "Khát vọng chinh phục đỉnh núi cao của những nhà thám hiểm"
+        ],
+        "k": "C",
+        "e": "Em bé từ chối lời mời gọi hấp dẫn của mây và sóng để ở bên mẹ, tạo nên trò chơi hạnh phúc bên mẹ.",
+        "s": "Ngữ Văn 6",
+        "h": "Chủ đề Mây và sóng"
+      },
+      {
+        "c": "NV6-B02-004",
+        "d": "basic",
+        "p": "Truyện ngắn \"Bức tranh của em gái tôi\" của tác giả Tạ Duy Anh kể về hai anh em nào?",
+        "o": [
+          "Hai chị em Lan và Sơn",
+          "Cậu bé Dế Mèn và Dế Choắt",
+          "Người anh trai và em gái Kiều Phương (Mèo)",
+          "Cậu bé An và cô em gái Thu Hà"
+        ],
+        "k": "C",
+        "e": "Nhân vật trung tâm là cô em gái Kiều Phương (biệt danh Mèo) có năng khiếu hội họa và người anh trai tự kể chuyện.",
+        "s": "Ngữ Văn 6",
+        "h": "Nhân vật trong truyện Bài 2"
+      },
+      {
+        "c": "NV6-B02-005",
+        "d": "basic",
+        "p": "Biện pháp tu từ gọi tên sự vật, hiện tượng này bằng tên sự vật, hiện tượng khác có nét tương đồng với nó nhằm tăng sức gợi hình, gợi cảm gọi là gì?",
+        "o": [
+          "Ẩn dụ",
+          "So sánh có từ \"như\"",
+          "Chơi chữ",
+          "Nói giảm nói tránh"
+        ],
+        "k": "A",
+        "e": "Ẩn dụ (so sánh ngầm) dựa trên quan hệ tương đồng giữa hai sự vật, hiện tượng.",
+        "s": "Ngữ Văn 6",
+        "h": "Khái niệm ẩn dụ"
+      },
+      {
+        "c": "NV6-B02-006",
+        "d": "basic",
+        "p": "Trong câu chuyện \"Bức tranh của em gái tôi\", giải Nhất cuộc thi vẽ quốc tế mà Kiều Phương đạt được vẽ đề tài gì?",
+        "o": [
+          "Bức tranh \"Anh trai tôi\"",
+          "Bức tranh ngôi nhà nhỏ và đàn mèo",
+          "Bức tranh phong cảnh dòng sông quê",
+          "Bức tranh bầu trời sao đêm"
+        ],
+        "k": "A",
+        "e": "Bức tranh đoạt giải mang tên \"Anh trai tôi\", khắc họa hình ảnh người anh bằng ánh nhìn trong sáng và yêu thương.",
+        "s": "Ngữ Văn 6",
+        "h": "Chi tiết bước ngoặt trong truyện"
+      },
+      {
+        "c": "NV6-B02-007",
+        "d": "application",
+        "p": "Trong bài thơ \"Chuyện cổ tích về loài người\", vì sao tác giả cho rằng mặt trời, cây cỏ, tiếng chim, dòng sông, rồi mẹ, bà và thầy giáo đều xuất hiện vì trẻ con?",
+        "o": [
+          "Để tôn vinh vai trò trung tâm của trẻ em và khẳng định mọi điều tốt đẹp của gia đình, thiên nhiên đều dành để nuôi dưỡng tuổi thơ",
+          "Vì trẻ em không cần sự chăm sóc hay dạy dỗ của người lớn",
+          "Vì nhà thơ muốn chứng minh giả thuyết khoa học về nguồn gốc Trái Đất",
+          "Vì ngày xưa chưa có sách giáo khoa lịch sử tự nhiên"
+        ],
+        "k": "A",
+        "e": "Cách lí giải theo lối cổ tích tôn vinh tình yêu thương vô điều kiện mà gia đình và cuộc đời dành cho trẻ thơ.",
+        "s": "Ngữ Văn 6",
+        "h": "Ý nghĩa nghệ thuật tưởng tượng cổ tích"
+      },
+      {
+        "c": "NV6-B02-008",
+        "d": "application",
+        "p": "Hình ảnh \"mây\" và \"sóng\" trong bài thơ \"Mây và sóng\" có thể hiểu là ẩn dụ cho điều gì trong cuộc sống?",
+        "o": [
+          "Những niềm vui mới lạ, lời mời gọi hấp dẫn của thế giới bên ngoài",
+          "Những người bạn cùng lớp đang rủ em bé đi học",
+          "Những bài tập khó mà em bé chưa muốn làm",
+          "Những cơn bão nguy hiểm đe dọa vùng ven biển"
+        ],
+        "k": "A",
+        "e": "Mây và sóng tượng trưng cho thế giới rực rỡ, đầy mời gọi ngoài kia nhưng không thể sánh bằng vòng tay mẹ.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân tích hình ảnh ẩn dụ"
+      },
+      {
+        "c": "NV6-B02-009",
+        "d": "application",
+        "p": "Khi đứng trước bức tranh \"Anh trai tôi\" trong phòng triển lãm, tâm trạng của người anh diễn biến như thế nào?",
+        "o": [
+          "Hoàn toàn tức giận và xé bỏ bức tranh ngay tại phòng triển lãm",
+          "Chỉ quan tâm đến giá trị giải thưởng bằng tiền của cuộc thi",
+          "Không nhận ra mình trong tranh và bỏ đi chơi cùng bạn",
+          "Từ ngỡ ngàng, hãnh diện đến xấu hổ, ân hận và xúc động sâu sắc trước tấm lòng nhân hậu của em gái"
+        ],
+        "k": "D",
+        "e": "Người anh nhận ra mình quá nhỏ nhen đố kị so với tâm hồn trong sáng của Kiều Phương, từ đó thức tỉnh lương tri.",
+        "s": "Ngữ Văn 6",
+        "h": "Diễn biến tâm lí nhân vật người anh"
+      },
+      {
+        "c": "NV6-B02-010",
+        "d": "application",
+        "p": "Câu thơ \"Mặt trời của bắp thì nằm trên đồi / Mặt trời của mẹ, em nằm trên lưng\" (Nguyễn Khoa Điềm) dùng biện pháp tu từ nào với cụm từ \"Mặt trời của mẹ\"?",
+        "o": [
+          "Liệt kê tăng tiến",
+          "Nói quá phóng đại",
+          "Điệp ngữ cách quãng",
+          "Ẩn dụ"
+        ],
+        "k": "D",
+        "e": "\"Mặt trời của mẹ\" là ẩn dụ chỉ em bé – nguồn sáng, niềm tin và hạnh phúc sưởi ấm cuộc đời người mẹ.",
+        "s": "Ngữ Văn 6",
+        "h": "Nhận diện ẩn dụ qua ví dụ"
+      },
+      {
+        "c": "NV6-B02-011",
+        "d": "application",
+        "p": "Quan sát bảng tổng hợp các biện pháp tu từ. Biện pháp nào sử dụng quan hệ tương cận (gần gũi gắn bó) thay cho tên gọi trực tiếp?",
+        "o": [
+          "Hoán dụ",
+          "Ẩn dụ",
+          "Điệp ngữ",
+          "So sánh"
+        ],
+        "k": "A",
+        "e": "Hoán dụ dựa trên quan hệ gần gũi thực tế (như bộ phận – toàn thể, vật chứa – vật bị chứa), khác với ẩn dụ dựa trên nét tương đồng.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân biệt ẩn dụ và hoán dụ",
+        "fig": {
+          "type": "table",
+          "title": "Nhận diện Biện pháp Tu từ",
+          "head": [
+            "Biện pháp",
+            "Cơ sở liên tưởng"
+          ],
+          "rows": [
+            [
+              "So sánh",
+              "Đối chiếu có từ ngữ"
+            ],
+            [
+              "Ẩn dụ",
+              "Tương đồng ngầm hiểu"
+            ],
+            [
+              "Hoán dụ",
+              "Tương cận gắn bó"
+            ],
+            [
+              "Nhân hóa",
+              "Gắn đặc điểm người"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV6-B02-012",
+        "d": "application",
+        "p": "Trong lời thơ: \"Con là mây và mẹ sẽ là trăng. Hai bàn tay con ôm lấy mẹ, và mái nhà ta sẽ là bầu trời xanh thẳm\", cảm xúc của em bé dành cho mẹ được thể hiện qua điều gì?",
+        "o": [
+          "Trí tưởng tượng hồn nhiên biến tình mẫu tử thành trò chơi kì diệu vừa gần gũi vừa bao la vô tận",
+          "Mong muốn nhanh chóng lớn lên để rời xa mái nhà",
+          "Sự tiếc nuối vì không được đi chơi cùng những người trên mây",
+          "Nỗi lo lắng vì trời sắp chuyển mưa bão"
+        ],
+        "k": "A",
+        "e": "Trò chơi tưởng tượng đặt mẹ ở vị trí vầng trăng dịu hiền và ngôi nhà là bầu trời bình yên bao bọc hai mẹ con.",
+        "s": "Ngữ Văn 6",
+        "h": "Cảm nhận khổ thơ Mây và sóng"
+      },
+      {
+        "c": "NV6-B02-013",
+        "d": "advanced",
+        "p": "Đoạn văn nào thể hiện đúng bản chất chuyển biến tâm lí sâu sắc nhất của người anh trong \"Bức tranh của em gái tôi\"?",
+        "o": [
+          "Người anh vui mừng vì bản thân nổi tiếng khắp thành phố nhờ bức tranh",
+          "Người anh cho rằng ban giám khảo chấm nhầm giải cho em gái",
+          "Người anh khóc vì tiếc rằng mình đã không học vẽ sớm hơn em gái",
+          "Em gái đã vẽ người anh bằng ánh nhìn bao dung nhất; chính sự hoàn hảo trong tranh lại soi rọi phần nhỏ nhen ngoài đời khiến người anh tự thức tỉnh"
+        ],
+        "k": "D",
+        "e": "Sự đối lập giữa người anh trong bức tranh nhân hậu của Mèo và người anh hay cáu kỉnh, ghen tị ngoài đời là điểm nhấn nhân văn của truyện.",
+        "s": "Ngữ Văn 6",
+        "h": "Đánh giá chiều sâu tư tưởng truyện"
+      },
+      {
+        "c": "NV6-B02-014",
+        "d": "advanced",
+        "p": "Vì sao trong câu mở đầu \"Nếu cậu muốn có một người bạn\" và \"Bức tranh của em gái tôi\", việc hiểu góc nhìn của người khác đóng vai trò then chốt?",
+        "o": [
+          "Vì biết đặt mình vào vị trí người khác giúp xóa bỏ định kiến, lòng ích kỉ và xây dựng sự thấu cảm bền vững",
+          "Vì tránh bày tỏ chính kiến riêng sẽ giúp ít gặp rắc rối",
+          "Vì người khác luôn đúng trong mọi hoàn cảnh bất kể lí lẽ",
+          "Vì lắng nghe giúp ta thắng trong mọi cuộc tranh cãi hơn thua"
+        ],
+        "k": "A",
+        "e": "Cả hai văn bản đều hướng người đọc tới lòng bao dung, lắng nghe và nhìn nhận giá trị thực của người xung quanh.",
+        "s": "Ngữ Văn 6",
+        "h": "Kết nối chủ đề liên văn bản"
+      },
+      {
+        "c": "NV6-B02-015",
+        "d": "advanced",
+        "p": "Khi viết đoạn văn ghi lại cảm xúc về bài thơ \"Mây và sóng\", nhận định nào sau đây phân tích tinh tế nhất giá trị của thể thơ văn xuôi giàu nhịp điệu?",
+        "o": [
+          "Thể thơ văn xuôi giúp tác giả đưa vào nhiều số liệu thống kê khoa học",
+          "Không bị gò bó bởi vần điệu cố định, những câu thơ dài ngắn đan xen như lời thủ thỉ tâm tình tự nhiên của con trẻ bên mẹ",
+          "Vì không có vần nên người đọc chỉ cần đọc lướt để nắm cốt truyện lịch sử",
+          "Vì viết bằng văn xuôi nên bài thơ không chứa bất kì hình ảnh biểu cảm nào"
+        ],
+        "k": "B",
+        "e": "Thơ văn xuôi kết hợp tự sự đối thoại và chất trữ tình bay bổng, rất phù hợp với giọng kể hồn nhiên của em bé.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân tích hình thức thơ văn xuôi"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan6-c1",
+    "lesson": {
+      "code": "nguvan6-b03",
+      "title": "Bài 3. Yêu thương và chia sẻ",
+      "seq": 3,
+      "subtitle": "Đọc hiểu truyện ngắn nhân văn (Cô bé bán diêm, Gió lạnh đầu mùa, Con chào mào), cụm danh từ – cụm động từ – cụm tính từ và tóm tắt văn bản bằng sơ đồ",
+      "concepts": [
+        "Cấu tạo cụm danh từ, cụm động từ, cụm tính từ",
+        "Nghệ thuật tương phản trong truyện",
+        "Tóm tắt văn bản bằng sơ đồ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV6-B03-001",
+        "d": "basic",
+        "p": "Tác phẩm \"Cô bé bán diêm\" là truyện cổ nổi tiếng của nhà văn người Đan Mạch nào?",
+        "o": [
+          "Han Cri-xti-an An-đéc-sen (H. C. Andersen)",
+          "Sác-lơ Pê-rô",
+          "Anh em nhà Grim",
+          "Ô Hen-ri"
+        ],
+        "k": "A",
+        "e": "An-đéc-sen là nhà văn Đan Mạch nổi tiếng thế giới với nhiều truyện cổ đầy lòng nhân ái như \"Cô bé bán diêm\".",
+        "s": "Ngữ Văn 6",
+        "h": "Tác giả Cô bé bán diêm"
+      },
+      {
+        "c": "NV6-B03-002",
+        "d": "basic",
+        "p": "Truyện ngắn \"Gió lạnh đầu mùa\" của nhà văn Thạch Lam xoay quanh hành động sẻ chia ấm áp nào của hai chị em Lan và Sơn?",
+        "o": [
+          "Tặng toàn bộ số tiền tiết kiệm của mẹ cho một đoàn xiếc đi ngang",
+          "Mời các bạn trong xóm đến nhà ăn cỗ tất niên suốt ba ngày",
+          "Nhờ bác thợ may may cho cả lớp bộ đồng phục mùa đông mới",
+          "Lấy chiếc áo bông cũ của em Duyên để lại đem cho Hiên – cô bạn nghèo hàng xóm đang rét run"
+        ],
+        "k": "D",
+        "e": "Hai chị em Lan và Sơn đồng lòng mang chiếc áo bông cũ sang mặc cho Hiên giữa ngày đầu đông giá rét.",
+        "s": "Ngữ Văn 6",
+        "h": "Cốt truyện Gió lạnh đầu mùa"
+      },
+      {
+        "c": "NV6-B03-003",
+        "d": "basic",
+        "p": "Trong tác phẩm \"Cô bé bán diêm\", ở lần quẹt diêm cuối cùng (quẹt cả bao diêm còn lại), cô bé nhìn thấy ai hiện ra trong ánh sáng rực rỡ?",
+        "o": [
+          "Người bà hiền hậu đã mất",
+          "Nàng tiên tuyết tặng túi bánh mì nóng",
+          "Người cha đang trở về nhà đón con",
+          "Đoàn kị sĩ cưỡi ngựa qua quảng trường"
+        ],
+        "k": "A",
+        "e": "Cô bé quẹt hết các que diêm còn lại để níu giữ hình ảnh người bà hiền từ và cùng bà bay lên trời cao.",
+        "s": "Ngữ Văn 6",
+        "h": "Chi tiết lần quẹt diêm cuối"
+      },
+      {
+        "c": "NV6-B03-004",
+        "d": "basic",
+        "p": "Cụm từ nào dưới đây là cụm danh từ?",
+        "o": [
+          "vô cùng ấm áp và dịu dàng",
+          "những cánh hoa đào tươi thắm ấy",
+          "hãy giữ gìn vệ sinh chung",
+          "đang chạy rất nhanh trên sân"
+        ],
+        "k": "B",
+        "e": "Trung tâm là danh từ \"cánh hoa đào\", đi kèm phần phụ trước \"những\" và phần phụ sau \"tươi thắm ấy\".",
+        "s": "Ngữ Văn 6",
+        "h": "Nhận diện cụm danh từ"
+      },
+      {
+        "c": "NV6-B03-005",
+        "d": "basic",
+        "p": "Trong bảng cấu tạo cụm từ sau, thành phần trung tâm của cụm động từ \"đang chăm chú đọc sách\" là từ nào?",
+        "o": [
+          "chăm chú",
+          "đang",
+          "đọc",
+          "sách"
+        ],
+        "k": "C",
+        "e": "Trong cụm động từ \"đang chăm chú đọc sách\", động từ \"đọc\" giữ vai trò hạt nhân trung tâm.",
+        "s": "Ngữ Văn 6",
+        "h": "Thành phần trung tâm cụm từ",
+        "fig": {
+          "type": "table",
+          "title": "Mô hình Cụm từ Tiếng Việt",
+          "head": [
+            "Loại cụm từ",
+            "Ví dụ chuẩn",
+            "Trung tâm"
+          ],
+          "rows": [
+            [
+              "Cụm danh từ",
+              "ba cô bé ấy",
+              "cô bé"
+            ],
+            [
+              "Cụm động từ",
+              "đang đọc sách",
+              "đọc"
+            ],
+            [
+              "Cụm tính từ",
+              "rất ấm áp",
+              "ấm áp"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV6-B03-006",
+        "d": "basic",
+        "p": "Khi tóm tắt văn bản tự sự bằng sơ đồ, yếu tố nào cần được sắp xếp mạch lạc theo các ô và mũi tên?",
+        "o": [
+          "Danh sách các từ khó kèm số trang trong sách giáo khoa",
+          "Toàn bộ lời thoại phụ và miêu tả chi tiết từng chiếc lá cây",
+          "Các sự việc chính diễn ra theo trình tự hợp lí cùng nhân vật trung tâm",
+          "Cảm nhận cá nhân dài dòng thay cho diễn biến câu chuyện"
+        ],
+        "k": "C",
+        "e": "Sơ đồ tóm tắt giúp người đọc nắm nhanh chuỗi sự việc cốt lõi và mối liên hệ giữa chúng.",
+        "s": "Ngữ Văn 6",
+        "h": "Nguyên tắc tóm tắt bằng sơ đồ"
+      },
+      {
+        "c": "NV6-B03-007",
+        "d": "application",
+        "p": "Nghệ thuật tương phản trong phần đầu \"Cô bé bán diêm\" được thể hiện rõ nhất qua sự đối lập nào?",
+        "o": [
+          "Giữa mùa xuân ấm áp ở quê hương với mùa thu vàng rực",
+          "Giữa tiếng nhạc vui tươi ở trường học với giờ kiểm tra im lặng",
+          "Giữa hai chị em sinh đôi có tính cách trái ngược nhau",
+          "Giữa khung cảnh đêm giao thừa ấm áp, rực rỡ ánh đèn trong các ngôi nhà giàu với cái rét buốt, đói khát của cô bé ngoài đường"
+        ],
+        "k": "D",
+        "e": "Sự tương phản giữa thế giới sáng rực bên trong cửa sổ và bóng tối rét mướt bên ngoài làm bật lên cảnh ngộ thương tâm của cô bé.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân tích nghệ thuật tương phản"
+      },
+      {
+        "c": "NV6-B03-008",
+        "d": "application",
+        "p": "Thái độ của mẹ Sơn khi biết hai con tự ý lấy áo bông cũ của Duyên đem cho bé Hiên thể hiện phẩm chất gì?",
+        "o": [
+          "Tấm lòng nhân hậu, tế nhị, cảm thông với hoàn cảnh nghèo khó của mẹ con Hiên",
+          "Sự thờ ơ không quan tâm đến chuyện của con cái",
+          "Mong muốn khoe khoang sự giàu có của gia đình với hàng xóm",
+          "Sự giận dữ tột độ vì mất một kỉ vật đắt tiền của gia đình"
+        ],
+        "k": "A",
+        "e": "Không những không trách mắng hai con, mẹ Sơn còn ân cần lấy thúng gạo cho mẹ Hiên mượn để may áo ấm cho con.",
+        "s": "Ngữ Văn 6",
+        "h": "Ý nghĩa cách ứng xử của người lớn"
+      },
+      {
+        "c": "NV6-B03-009",
+        "d": "application",
+        "p": "Mỗi lần quẹt diêm của cô bé bán diêm mang lại một mộng tưởng đẹp (lò sưởi, bàn ăn, cây thông Nô-en, người bà) rồi vụt tắt. Ý nghĩa của chi tiết lặp lại này là gì?",
+        "o": [
+          "Phản ánh những khao khát chính đáng rất đỗi bình dị của tuổi thơ nhưng bị hiện thực phũ phàng tước đoạt",
+          "Khẳng định cô bé rất ham mê các trò ảo thuật đường phố",
+          "Chứng minh rằng que diêm có phép thuật thần kì có thể biến đồ vật thành thật",
+          "Tạo tiếng cười hài hước cho không khí đêm giao thừa"
+        ],
+        "k": "A",
+        "e": "Chuỗi mộng tưởng nối tiếp nhau cho thấy cô bé chỉ ao ước hơi ấm, bữa ăn no và tình thương gia đình.",
+        "s": "Ngữ Văn 6",
+        "h": "Ý nghĩa các lần quẹt diêm"
+      },
+      {
+        "c": "NV6-B03-010",
+        "d": "application",
+        "p": "Trong cụm tính từ \"rất ấm áp tình người\", từ nào là phụ ngữ phía trước chỉ mức độ?",
+        "o": [
+          "rất",
+          "người",
+          "ấm áp",
+          "tình"
+        ],
+        "k": "A",
+        "e": "Từ \"rất\" đứng trước tính từ trung tâm \"ấm áp\" để bổ sung ý nghĩa mức độ.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân tích cụm tính từ"
+      },
+      {
+        "c": "NV6-B03-011",
+        "d": "application",
+        "p": "Hình ảnh \"con chào mào\" ở phần cuối bài thơ cùng tên của Mai Văn Phấn gợi thông điệp gì về cách ứng xử với thiên nhiên?",
+        "o": [
+          "Khuyến khích săn bắt các loài chim quý để làm thú vui sưu tầm",
+          "Yêu quý vẻ đẹp tự nhiên và tôn trọng sự tự do bay lượn của muôn loài thay vì giam cầm trong chiếc lồng chật hẹp",
+          "Phê phán những người thích ngắm bình minh ngoài cánh đồng",
+          "Cho rằng chim rừng chỉ hót hay khi sống trong nhà kính"
+        ],
+        "k": "B",
+        "e": "Tác giả vẽ chiếc lồng trong ý nghĩ rồi xua tay xóa đi để chim tự do bay về phía trời xanh.",
+        "s": "Ngữ Văn 6",
+        "h": "Thông điệp bài thơ Con chào mào"
+      },
+      {
+        "c": "NV6-B03-012",
+        "d": "application",
+        "p": "Việc dùng cụm động từ và cụm tính từ giàu sắc thái (như \"co ro nép mình\", \"tím bầm lại vì rét\") trong truyện Thạch Lam có tác dụng nào?",
+        "o": [
+          "Che giấu hoàn cảnh nghèo khổ của xóm chợ quê nghèo",
+          "Thay thế hoàn toàn vai trò của cốt truyện và lời đối thoại",
+          "Khắc họa chân thực hoàn cảnh thiếu thốn của nhân vật để khơi dậy lòng trắc ẩn nơi người đọc",
+          "Làm câu văn dài hơn để đủ số chữ quy định của một bài báo"
+        ],
+        "k": "C",
+        "e": "Cụm động từ, cụm tính từ chi tiết giúp người đọc cảm nhận trực tiếp cái rét cắt da và tình người ấm áp.",
+        "s": "Ngữ Văn 6",
+        "h": "Giá trị biểu đạt của cụm từ"
+      },
+      {
+        "c": "NV6-B03-013",
+        "d": "advanced",
+        "p": "Mẹ của bé Hiên mang chiếc áo bông trả lại cho gia đình Sơn vì sợ mang tiếng tham lam, rồi mới nhận sự giúp đỡ chân thành của mẹ Sơn. Chi tiết này nâng tầm giá trị nhân văn của truyện ở điểm nào?",
+        "o": [
+          "Thể hiện mâu thuẫn không thể hòa giải giữa hai gia đình trong xóm",
+          "Cho thấy chiếc áo bông bị rách hỏng không còn sử dụng được nữa",
+          "Khắc họa vẻ đẹp lòng tự trọng của người nghèo và sự sẻ chia đầy tôn trọng, không mang tính ban ơn của người cho",
+          "Chứng minh rằng người nghèo không bao giờ cần đến sự giúp đỡ từ hàng xóm"
+        ],
+        "k": "C",
+        "e": "Người nghèo giàu tự trọng và người giúp đỡ giàu sự tế nhị đã tạo nên bức tranh tình người đẹp đẽ, bình đẳng.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân tích chi tiết nghệ thuật đắt giá"
+      },
+      {
+        "c": "NV6-B03-014",
+        "d": "advanced",
+        "p": "Kết thúc truyện \"Cô bé bán diêm\", An-đéc-sen viết cô bé chết cóng nhưng \"đôi má hồng và đôi môi đang mỉm cười\". Cách kết thúc ấy gợi cảm nhận kép nào?",
+        "o": [
+          "Chứng tỏ người qua đường đã kịp thời cứu sống cô bé vào sáng hôm sau",
+          "Khẳng định rằng thời tiết đêm giao thừa hôm đó thực chất rất ấm áp",
+          "Vừa xót xa tột cùng trước cái chết oan nghiệt của em bé giữa xã hội vô cảm, vừa an ủi em đã được giải thoát khỏi khổ đau bên bà",
+          "Biểu thị thái độ hài lòng của tác giả trước lối sống thờ ơ của thị dân"
+        ],
+        "k": "C",
+        "e": "Nụ cười trên môi xác lạnh vừa tô đậm bi kịch hiện thực vừa thể hiện tấm lòng trân trọng ước mơ trong sáng của nhà văn.",
+        "s": "Ngữ Văn 6",
+        "h": "Đánh giá ý nghĩa kết thúc truyện"
+      },
+      {
+        "c": "NV6-B03-015",
+        "d": "advanced",
+        "p": "So sánh cách thể hiện tình yêu thương trong \"Cô bé bán diêm\" và \"Gió lạnh đầu mùa\", điểm khác biệt cơ bản nằm ở đâu?",
+        "o": [
+          "\"Cô bé bán diêm\" đánh thức tình thương qua bi kịch cô độc; còn \"Gió lạnh đầu mùa\" lan tỏa tình thương qua hành động sẻ chia ấm áp ngay đời thực",
+          "\"Gió lạnh đầu mùa\" kết thúc bằng cái chết của nhân vật chính còn \"Cô bé bán diêm\" kết thúc có hậu",
+          "Cả hai tác phẩm đều được viết theo thể thơ lục bát dân gian Việt Nam",
+          "\"Cô bé bán diêm\" kể về tình bạn động vật còn \"Gió lạnh đầu mùa\" là truyện cổ tích thần kì"
+        ],
+        "k": "A",
+        "e": "Một tác phẩm tố cáo sự vô cảm để đòi quyền sống cho trẻ thơ; một tác phẩm sưởi ấm lòng người bằng tình làng nghĩa xóm.",
+        "s": "Ngữ Văn 6",
+        "h": "So sánh giá trị nhân đạo hai văn bản"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan6-c2",
+    "lesson": {
+      "code": "nguvan6-b04",
+      "title": "Bài 4. Quê hương yêu dấu",
+      "seq": 4,
+      "subtitle": "Ca dao về quê hương đất nước, thơ lục bát (Chuyện cổ nước mình, Hành trình của bầy ong), kí Cây tre Việt Nam, từ đồng âm – từ đa nghĩa, nghĩa của từ ngữ và cách làm thơ lục bát",
+      "concepts": [
+        "Thể thơ lục bát: vần, nhịp, thanh điệu",
+        "Từ đồng âm và từ đa nghĩa",
+        "Tình yêu quê hương đất nước"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV6-B04-001",
+        "d": "basic",
+        "p": "Trong thể thơ lục bát truyền thống của dân tộc Việt Nam, mỗi cặp câu gồm mấy tiếng ở mỗi dòng?",
+        "o": [
+          "Một dòng 6 tiếng (lục) và một dòng 8 tiếng (bát)",
+          "Một dòng 5 tiếng và một dòng 7 tiếng",
+          "Hai dòng đều có 7 tiếng bằng nhau",
+          "Bốn dòng đều có 4 tiếng"
+        ],
+        "k": "A",
+        "e": "Lục bát nghĩa là \"sáu – tám\": mỗi cặp gồm một câu 6 tiếng nối tiếp một câu 8 tiếng.",
+        "s": "Ngữ Văn 6",
+        "h": "Đặc điểm số tiếng thơ lục bát"
+      },
+      {
+        "c": "NV6-B04-002",
+        "d": "basic",
+        "p": "Quy luật gieo vần chuẩn của cặp câu lục bát là gì?",
+        "o": [
+          "Chỉ cần gieo vần ở câu đầu tiên, các câu sau không cần vần",
+          "Tất cả các tiếng cuối của bốn dòng đều bắt buộc vần trắc giống nhau",
+          "Tiếng thứ 6 của câu lục vần với tiếng thứ 6 của câu bát; tiếng thứ 8 của câu bát lại vần với tiếng thứ 6 của câu lục tiếp theo",
+          "Tiếng thứ 1 của câu lục vần với tiếng thứ 8 của câu bát"
+        ],
+        "k": "C",
+        "e": "Cách bắt vần lưng đặc trưng (6 → 6, 8 → 6) tạo nên nhạc điệu uyển chuyển, liền mạch của thơ lục bát.",
+        "s": "Ngữ Văn 6",
+        "h": "Luật gieo vần thơ lục bát",
+        "fig": {
+          "type": "table",
+          "title": "Luật Thơ Lục Bát Cơ Bản",
+          "head": [
+            "Dòng thơ",
+            "Số tiếng",
+            "Tiếng vần chuẩn"
+          ],
+          "rows": [
+            [
+              "Câu lục",
+              "6 tiếng",
+              "Tiếng thứ 6 (B)"
+            ],
+            [
+              "Câu bát",
+              "8 tiếng",
+              "Tiếng 6 (B), 8 (B)"
+            ],
+            [
+              "Nhịp phổ biến",
+              "Chẵn",
+              "2/2/2 hoặc 4/4"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV6-B04-003",
+        "d": "basic",
+        "p": "Bài thơ \"Chuyện cổ nước mình\" gợi nhắc đến nhiều truyện cổ dân gian Việt Nam là sáng tác của nhà thơ nào?",
+        "o": [
+          "Xuân Quỳnh",
+          "Tố Hữu",
+          "Trần Đăng Khoa",
+          "Lâm Thị Mỹ Dạ"
+        ],
+        "k": "D",
+        "e": "\"Chuyện cổ nước mình\" là tác phẩm tiêu biểu viết bằng thể lục bát của nữ sĩ Lâm Thị Mỹ Dạ.",
+        "s": "Ngữ Văn 6",
+        "h": "Tác giả Chuyện cổ nước mình"
+      },
+      {
+        "c": "NV6-B04-004",
+        "d": "basic",
+        "p": "Tác phẩm kí nổi tiếng \"Cây tre Việt Nam\" ca ngợi phẩm chất cao đẹp của cây tre và con người Việt Nam là của tác giả nào?",
+        "o": [
+          "Nguyên Hồng",
+          "Tô Hoài",
+          "Nguyễn Tuân",
+          "Thép Mới"
+        ],
+        "k": "D",
+        "e": "Nhà văn Thép Mới viết bài tùy bút, bình luận phim tài liệu nổi tiếng \"Cây tre Việt Nam\".",
+        "s": "Ngữ Văn 6",
+        "h": "Tác giả Cây tre Việt Nam"
+      },
+      {
+        "c": "NV6-B04-005",
+        "d": "basic",
+        "p": "Trong câu ca dao: \"Đường vô xứ Nghệ quanh quanh / Non xanh nước biếc như tranh họa đồ\", vẻ đẹp thiên nhiên miền Trung được ca ngợi như thế nào?",
+        "o": [
+          "Ồn ào phố thị với nhiều nhà cao tầng san sát",
+          "Hùng vĩ, tươi đẹp, hài hòa màu sắc non xanh nước biếc tựa một bức tranh vẽ công phu",
+          "U ám, buồn bã dưới những cơn mưa dầm kéo dài",
+          "Hoang vu, khô cằn và đầy hiểm nguy khó đi lại"
+        ],
+        "k": "B",
+        "e": "Câu ca dao tự hào ngợi ca cảnh sắc sơn thủy hữu tình của dải đất xứ Nghệ.",
+        "s": "Ngữ Văn 6",
+        "h": "Cảm nhận ca dao quê hương"
+      },
+      {
+        "c": "NV6-B04-006",
+        "d": "basic",
+        "p": "Cặp từ \"đường\" trong hai cụm từ \"con đường đến trường\" và \"viên đường ngọt lịm\" thuộc hiện tượng từ vựng nào?",
+        "o": [
+          "Từ nhiều nghĩa chuyển ẩn dụ",
+          "Từ ghép đẳng lập",
+          "Từ đồng âm",
+          "Từ láy mô phỏng âm thanh"
+        ],
+        "k": "C",
+        "e": "Hai từ \"đường\" đọc và viết giống nhau nhưng mang hai nghĩa hoàn toàn khác nhau, không có mối liên hệ nguồn gốc nghĩa nên là từ đồng âm.",
+        "s": "Ngữ Văn 6",
+        "h": "Nhận diện từ đồng âm"
+      },
+      {
+        "c": "NV6-B04-007",
+        "d": "application",
+        "p": "Xét về luật bằng trắc trong một câu bát (8 tiếng) chuẩn mực, các tiếng ở vị trí thứ 2, 4, 6, 8 thường mang thanh điệu theo trật tự nào?",
+        "o": [
+          "Tiếng 2 Trắc – Tiếng 4 Bằng – Tiếng 6 Trắc – Tiếng 8 Trắc",
+          "Không có quy định thanh điệu ở tiếng chẵn nào",
+          "Tất cả các tiếng chẵn 2, 4, 6, 8 đều bắt buộc dùng thanh trắc",
+          "Tiếng 2 Bằng – Tiếng 4 Trắc – Tiếng 6 Bằng – Tiếng 8 Bằng (riêng tiếng 6 và tiếng 8 khác thanh huyền/ngang để hài hòa)"
+        ],
+        "k": "D",
+        "e": "Quy tắc \"nhất tam ngũ bất luận, nhị tứ lục phân minh\" với câu bát theo mẫu Bằng (2) – Trắc (4) – Bằng (6) – Bằng (8).",
+        "s": "Ngữ Văn 6",
+        "h": "Thanh điệu thơ lục bát"
+      },
+      {
+        "c": "NV6-B04-008",
+        "d": "application",
+        "p": "Trong hai dòng: \"Tôi yêu chuyện cổ nước tôi / Vừa nhân hậu lại tuyệt vời sâu xa\", tác giả nhắc tới hình ảnh cô Tấm, Đẽo cày giữa đường, Thạch Sanh nhằm khẳng định điều gì?",
+        "o": [
+          "Truyện cổ nước mình giống hệt truyện thần thoại phương Tây",
+          "Truyện cổ chỉ là những câu chuyện giải trí hư cấu không gắn với đời sống",
+          "Kho tàng truyện cổ lưu giữ tâm hồn nhân hậu, lòng vị tha và triết lí sống sâu sắc của ông cha truyền lại cho thế hệ sau",
+          "Chỉ trẻ em nhỏ tuổi mới cần đọc chuyện cổ tích trước khi ngủ"
+        ],
+        "k": "C",
+        "e": "Chuyện cổ trở thành chiếc cầu nối truyền thống nhân nghĩa, sự công bằng và đức tính cần cù của dân tộc.",
+        "s": "Ngữ Văn 6",
+        "h": "Ý nghĩa mạch thơ Chuyện cổ nước mình"
+      },
+      {
+        "c": "NV6-B04-009",
+        "d": "application",
+        "p": "Trong các dòng sau, trường hợp nào sử dụng từ \"chân\" theo nghĩa chuyển (hiện tượng từ đa nghĩa)?",
+        "o": [
+          "cá rô đồng, hoa đồng tiền",
+          "chân núi, chân bàn, chân trời",
+          "chân thật, chân thành, chân lí",
+          "đôi bàn chân bé nhỏ, đá bóng bằng chân phải"
+        ],
+        "k": "B",
+        "e": "\"chân\" trong \"chân núi, chân bàn, chân trời\" giữ nét nghĩa gốc chỉ phần dưới cùng nâng đỡ hoặc tiếp giáp mặt đất/nền.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân biệt từ đa nghĩa và từ đồng âm"
+      },
+      {
+        "c": "NV6-B04-010",
+        "d": "application",
+        "p": "Vì sao trong \"Cây tre Việt Nam\", nhà văn Thép Mới viết: \"Tre xung phong vào xe tăng, đại bác. Tre giữ làng, giữ nước, giữ mái nhà tranh, giữ đồng lúa chín\"?",
+        "o": [
+          "Nhằm khuyên nông dân nên bỏ trồng lúa để chuyển sang trồng tre",
+          "Nhằm mô tả kĩ thuật chế tạo vũ khí hiện đại bằng gỗ trong xưởng máy",
+          "Nhằm liệt kê các loài thực vật mọc ven bờ sông miền Bắc",
+          "Nhằm nhấn mạnh sự gắn bó thủy chung của cây tre với nhân dân trong cả lao động bình dị lẫn chiến đấu giữ nước anh hùng"
+        ],
+        "k": "D",
+        "e": "Biện pháp nhân hóa kết hợp điệp ngữ \"giữ\" tôn vinh cây tre như biểu tượng bất khuất của dân tộc Việt Nam.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân tích điệp ngữ và nhân hóa"
+      },
+      {
+        "c": "NV6-B04-011",
+        "d": "application",
+        "p": "Trong bài thơ \"Hành trình của bầy ong\" (Nguyễn Đức Mậu), câu \"Nối liền mùa hoa – rừng xa – biển rộng\" ngợi ca phẩm chất nào của bầy ong?",
+        "o": [
+          "Thói quen tích trữ mật chỉ để dùng cho riêng cá nhân",
+          "Sự rong chơi tự do không theo bầy đàn của loài côn trùng",
+          "Khả năng bay nhanh hơn mọi loài chim di cư vào mùa đông",
+          "Sự chăm chỉ bền bỉ, tinh thần cống hiến âm thầm dâng cho đời giọt mật thơm từ khắp mọi miền quê hương"
+        ],
+        "k": "D",
+        "e": "Bầy ong không mệt mỏi tìm hoa dâng mật ngọt, gợi liên tưởng tới những con người lao động cần cù góp hương sắc cho đất nước.",
+        "s": "Ngữ Văn 6",
+        "h": "Cảm nhận Hành trình của bầy ong"
+      },
+      {
+        "c": "NV6-B04-012",
+        "d": "application",
+        "p": "Khi tập làm thơ lục bát, cặp câu nào dưới đây bảo đảm đúng cả số tiếng, vần lưng và thanh điệu chuẩn?",
+        "o": [
+          "Quê hương xanh mát lũy tre / Sông dài uốn lượn trưa hè gió đưa",
+          "Quê hương tôi rất đẹp tươi / Con sông chảy mãi về nơi biển lớn",
+          "Cánh đồng lúa chín vàng ươm / Em đi học sớm trên con đường dài",
+          "Nắng vàng trải khắp sân trường / Tiếng cười rộn rã vang lên trong nắng"
+        ],
+        "k": "A",
+        "e": "Ở cặp đầu: \"tre\" (tiếng 6 câu lục) vần với \"hè\" (tiếng 6 câu bát), tiếng 8 \"đưa\" mang thanh bằng đúng chuẩn; các cặp còn lại sai vần hoặc sai thanh tiếng 8.",
+        "s": "Ngữ Văn 6",
+        "h": "Kiểm tra thực hành làm thơ lục bát"
+      },
+      {
+        "c": "NV6-B04-013",
+        "d": "advanced",
+        "p": "Phân tích vẻ đẹp biểu đạt của điệp ngữ và từ láy trong hai câu ca dao: \"Gió đưa cành trúc la đà / Tiếng chuông Trấn Vũ, canh gà Thọ Xương\"?",
+        "o": [
+          "Chỉ nhằm ghi chép lại giá vé tham quan hồ Tây và chùa Trấn Quốc",
+          "Diễn tả sự náo nhiệt ồn ào của khu chợ hiện đại vào giờ cao điểm",
+          "Từ láy \"la đà\" gợi dáng mềm mại kết hợp âm thanh vang vọng của chuông chùa, tiếng gà tạo nên bức tranh Thăng Long cổ kính, thanh bình",
+          "Thể hiện nỗi sợ hãi của người đi đường giữa đêm khuya vắng lặng"
+        ],
+        "k": "C",
+        "e": "Sự hòa quyện giữa hình ảnh (cành trúc la đà), âm thanh (tiếng chuông, canh gà) và địa danh cổ gợi tình yêu tha thiết với mảnh đất kinh kì.",
+        "s": "Ngữ Văn 6",
+        "h": "Cảm thụ tinh tế ca dao Thăng Long"
+      },
+      {
+        "c": "NV6-B04-014",
+        "d": "advanced",
+        "p": "Cách tác giả Thép Mới đặt tre bên cạnh hình ảnh \"người Việt Nam\" xuyên suốt bài kí (\"Dưới bóng tre của ngàn xưa...\", \"Tre anh hùng lao động! Tre anh hùng chiến đấu!\") tạo ra hiệu quả nghệ thuật đặc sắc nào?",
+        "o": [
+          "Biến một loài cây bình dị thành biểu tượng văn hóa – tinh thần mang đầy đủ cốt cách thanh cao, giản dị, kiên cường của dân tộc Việt Nam",
+          "Khiến văn bản trở thành một bản hướng dẫn đan lát đồ mây tre",
+          "Hạ thấp vai trò của con người so với thiên nhiên hoang dã",
+          "Làm người đọc nhầm lẫn giữa kiến thức sinh học và lịch sử"
+        ],
+        "k": "A",
+        "e": "Tre và con người hòa làm một, nâng văn bản kí lên tầm sử thi giàu nhạc điệu và cảm xúc tự hào dân tộc.",
+        "s": "Ngữ Văn 6",
+        "h": "Đánh giá hình tượng nghệ thuật"
+      },
+      {
+        "c": "NV6-B04-015",
+        "d": "advanced",
+        "p": "Điểm chung sâu sắc nhất kết nối các văn bản trong Bài 4 (\"Chùm ca dao quê hương\", \"Chuyện cổ nước mình\", \"Cây tre Việt Nam\", \"Hành trình của bầy ong\") là gì?",
+        "o": [
+          "Khơi dậy tình yêu quê hương từ điều gần gũi: cảnh sắc thiên nhiên, tiếng hát dân gian, truyện cổ tích và phẩm chất cần cù nhân hậu của người Việt",
+          "Tất cả đều sử dụng ngôi kể thứ nhất của một nhân vật phản diện",
+          "Tất cả đều là văn bản thông tin trình bày số liệu kinh tế",
+          "Tất cả đều viết về các chuyến du lịch mạo hiểm ở châu Âu"
+        ],
+        "k": "A",
+        "e": "Từ ca dao đến thơ hiện đại và kí, mỗi văn bản là một nhịp cầu bồi đắp căn cước văn hóa và lòng yêu nước.",
+        "s": "Ngữ Văn 6",
+        "h": "Tổng hợp chủ đề bài học"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan6-c2",
+    "lesson": {
+      "code": "nguvan6-b05",
+      "title": "Bài 5. Những nẻo đường xứ sở",
+      "seq": 5,
+      "subtitle": "Đọc hiểu du kí (Cô Tô – Nguyễn Tuân, Hang Én – Hà My, Cửu Long Giang ta ơi – Nguyên Hồng), dấu ngoặc kép, nghệ thuật tả cảnh sinh hoạt và viết bài văn tả cảnh sinh hoạt",
+      "concepts": [
+        "Thể loại du kí & người kể chuyện trải nghiệm",
+        "Công dụng dấu ngoặc kép",
+        "Viết bài văn tả cảnh sinh hoạt"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV6-B05-001",
+        "d": "basic",
+        "p": "Bài kí nổi tiếng \"Cô Tô\" miêu tả cảnh đẹp biển đảo sau cơn bão và cảnh mặt trời mọc trên biển là tác phẩm của nhà văn nào?",
+        "o": [
+          "Vũ Bằng",
+          "Nguyễn Tuân",
+          "Thép Mới",
+          "Nguyễn Ngọc Tư"
+        ],
+        "k": "B",
+        "e": "Nguyễn Tuân – bậc thầy tùy bút, du kí Việt Nam – đã khắc họa vẻ đẹp tráng lệ của đảo Cô Tô (Quảng Ninh).",
+        "s": "Ngữ Văn 6",
+        "h": "Tác giả kí Cô Tô"
+      },
+      {
+        "c": "NV6-B05-002",
+        "d": "basic",
+        "p": "Văn bản \"Hang Én\" (Hà My) ghi lại trải nghiệm khám phá hang động tự nhiên kì vĩ thuộc tỉnh nào của nước ta?",
+        "o": [
+          "Lào Cai (dãy Hoàng Liên Sơn)",
+          "Kiên Giang (đảo Phú Quốc)",
+          "Quảng Bình (Vườn quốc gia Phong Nha – Kẻ Bàng)",
+          "Lâm Đồng (cao nguyên Lang Biang)"
+        ],
+        "k": "C",
+        "e": "Hang Én là một trong những hang động tự nhiên lớn thuộc Vườn quốc gia Phong Nha – Kẻ Bàng (Quảng Bình).",
+        "s": "Ngữ Văn 6",
+        "h": "Địa danh trong du kí Hang Én"
+      },
+      {
+        "c": "NV6-B05-003",
+        "d": "basic",
+        "p": "Du kí thường được viết theo ngôi kể nào để ghi lại chân thực hành trình và cảm xúc trực tiếp của người đi?",
+        "o": [
+          "Chỉ dùng văn bản hành chính công vụ",
+          "Ngôi kể thứ hai dùng đại từ mệnh lệnh",
+          "Ngôi kể thứ nhất (xưng \"tôi\" hoặc \"chúng tôi\")",
+          "Thể thơ thất ngôn bát cú cổ điển"
+        ],
+        "k": "C",
+        "e": "Du kí ghi chép lại chuyến đi thực tế nên tác giả thường xưng \"tôi\" hoặc \"chúng tôi\" để truyền tải trực tiếp trải nghiệm.",
+        "s": "Ngữ Văn 6",
+        "h": "Đặc trưng thể loại du kí"
+      },
+      {
+        "c": "NV6-B05-004",
+        "d": "basic",
+        "p": "Trong câu sau, dấu ngoặc kép dùng để làm gì: Trong \"Cô Tô\", Nguyễn Tuân viết: \"Nước biển lại lam biếc đạm đà hơn hết cả mọi khi\"?",
+        "o": [
+          "Đánh dấu tên tác phẩm \"Cô Tô\" và trích dẫn trực tiếp nguyên văn câu văn của tác giả",
+          "Ngăn cách các vế trong một phép tính số học",
+          "Đánh dấu những từ ngữ viết sai chính tả cần sửa lại",
+          "Thay thế cho dấu chấm hỏi ở cuối câu nghi vấn"
+        ],
+        "k": "A",
+        "e": "Dấu ngoặc kép dùng để trích dẫn nguyên văn lời nói/câu văn, đánh dấu tên tác phẩm hoặc từ dùng theo nghĩa đặc biệt.",
+        "s": "Ngữ Văn 6",
+        "h": "Công dụng dấu ngoặc kép",
+        "fig": {
+          "type": "table",
+          "title": "Công dụng Dấu Ngoặc Kép",
+          "head": [
+            "Trường hợp dùng",
+            "Ví dụ ngắn gọn"
+          ],
+          "rows": [
+            [
+              "Trích dẫn trực tiếp",
+              "Nói: \"Hãy học tốt\""
+            ],
+            [
+              "Đánh dấu tên bài",
+              "Truyện \"Cô Tô\""
+            ],
+            [
+              "Hiểu nghĩa đặc biệt",
+              "\"Lính chì\" dũng cảm"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV6-B05-005",
+        "d": "basic",
+        "p": "Trong văn bản \"Cô Tô\", hình ảnh mặt trời lúc bình minh trên biển được Nguyễn Tuân ví đẹp như vật gì?",
+        "o": [
+          "Tròn trĩnh phúc hậu như lòng đỏ một quả trứng thiên nhiên đầy đặn",
+          "Nhỏ bé lạnh lẽo như một đồng xu bạc rơi dưới đáy cát",
+          "Mờ nhạt xa xăm như ngọn đèn dầu trong sương đêm",
+          "Sắc nhọn gắt gỏng như ngọn giáo lửa nung đỏ"
+        ],
+        "k": "A",
+        "e": "So sánh độc đáo \"tròn trĩnh phúc hậu như lòng đỏ một quả trứng thiên nhiên đầy đặn\" tạo nên vẻ đẹp rực rỡ, trù phú của bình minh biển đảo.",
+        "s": "Ngữ Văn 6",
+        "h": "Hình ảnh so sánh trong Cô Tô"
+      },
+      {
+        "c": "NV6-B05-006",
+        "d": "basic",
+        "p": "Khi viết bài văn tả cảnh sinh hoạt (như phiên chợ quê, giờ ra chơi, đêm hội trăng rằm), trọng tâm miêu tả là gì?",
+        "o": [
+          "Hoạt động nhộn nhịp, tương tác sinh động của con người hòa quyện với khung cảnh xung quanh",
+          "Liệt kê thực đơn món ăn gia đình suốt cả tháng",
+          "Chỉ miêu tả tỉ mỉ kích thước của một viên gạch không có bóng người",
+          "Tóm tắt lại tiểu sử lịch sử của mười vị tướng thời xưa"
+        ],
+        "k": "A",
+        "e": "Khác với tả cảnh tĩnh thuần túy, tả cảnh sinh hoạt tập trung vào nhịp sống, cử chỉ, âm thanh hoạt động của con người trong bối cảnh cụ thể.",
+        "s": "Ngữ Văn 6",
+        "h": "Trọng tâm bài văn tả cảnh sinh hoạt"
+      },
+      {
+        "c": "NV6-B05-007",
+        "d": "application",
+        "p": "Bức tranh sinh hoạt bên giếng nước ngọt đảo Thanh Luân ở phần cuối \"Cô Tô\" thể hiện vẻ đẹp gì của cuộc sống biển đảo?",
+        "o": [
+          "Sự tranh giành mất trật tự của thuyền bè ngoài bến cảng",
+          "Nỗi lo âu nặng nề sau khi cơn bão vừa tràn qua",
+          "Không khí lao động khẩn trương, tươi vui, ấm áp tình quân dân trước chuyến ra khơi đánh cá",
+          "Cảnh hoang vắng thiếu thốn nước ngọt khiến người dân bỏ đảo"
+        ],
+        "k": "C",
+        "e": "Cảnh gánh nước sớm quanh giếng đảo Thanh Luân tràn đầy sức sống lao động và sự bình yên của vùng biển Tổ quốc.",
+        "s": "Ngữ Văn 6",
+        "h": "Ý nghĩa cảnh sinh hoạt đảo Thanh Luân"
+      },
+      {
+        "c": "NV6-B05-008",
+        "d": "application",
+        "p": "Khi đọc đoạn trích \"Hang Én\", chi tiết hàng vạn con én bay lượn tự do trong vòm hang khổng lồ và du khách giữ gìn sự tĩnh lặng nhắc nhở điều gì về du lịch sinh thái?",
+        "o": [
+          "Con người cần chiêm ngưỡng thiên nhiên với thái độ tôn trọng, không xả rác hay làm xáo trộn môi trường sống hoang dã",
+          "Nên dùng đèn chiếu công suất cực mạnh vào ban đêm để bắt chim én",
+          "Chỉ nên xem ảnh qua mạng chứ không cần bảo tồn tự nhiên",
+          "Nên xây dựng nhiều nhà hàng lớn ngay bên trong lòng hang động"
+        ],
+        "k": "A",
+        "e": "Vẻ đẹp nguyên sơ của Hang Én chỉ trường tồn khi con người biết trân trọng và bảo vệ hệ sinh thái tự nhiên.",
+        "s": "Ngữ Văn 6",
+        "h": "Thông điệp bảo tồn thiên nhiên"
+      },
+      {
+        "c": "NV6-B05-009",
+        "d": "application",
+        "p": "Câu văn nào dưới đây dùng dấu ngoặc kép với chức năng đánh dấu từ ngữ được hiểu theo nghĩa đặc biệt (hoặc có hàm ý mỉa mai/trìu mến)?",
+        "o": [
+          "Trên vòm hang cao, những \"cư dân tí hon\" mang bộ lông óng mượt ríu rít gọi bầy",
+          "Em rất thích đọc truyện \"Dế Mèn phiêu lưu kí\" của Tô Hoài",
+          "Cô giáo nhắc: \"Các em nhớ chuẩn bị bài kĩ trước khi đến lớp\"",
+          "\"Hang Én\" là một bài du kí hấp dẫn trong sách Ngữ văn 6"
+        ],
+        "k": "A",
+        "e": "Cụm \"cư dân tí hon\" dùng ngoặc kép để gọi bầy én theo lối nhân hóa trìu mến, giàu hình ảnh.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân biệt chức năng dấu ngoặc kép"
+      },
+      {
+        "c": "NV6-B05-010",
+        "d": "application",
+        "p": "Trong đoạn thơ \"Cửu Long Giang ta ơi\" (Nguyên Hồng), tên gọi dòng sông gắn với hình ảnh lịch sử và phù sa màu mỡ nhằm gợi cảm xúc gì?",
+        "o": [
+          "Niềm tự hào mãnh liệt và tình yêu sâu nặng dành cho mảnh đất Nam Bộ trù phú, anh dũng",
+          "Nỗi buồn khi nhìn thấy nước sông dâng cao vào mùa mưa",
+          "Mong muốn đổi tên dòng sông thành một tên gọi hiện đại hơn",
+          "Sự mệt mỏi vì hành trình đi dọc bờ sông quá dài"
+        ],
+        "k": "A",
+        "e": "Nguyên Hồng sử dụng giọng thơ hào sảng, tha thiết để ca ngợi dòng sông Cửu Long gắn với bao thế hệ lao động và chiến đấu.",
+        "s": "Ngữ Văn 6",
+        "h": "Cảm nhận bài thơ Cửu Long Giang ta ơi"
+      },
+      {
+        "c": "NV6-B05-011",
+        "d": "application",
+        "p": "Trình tự miêu tả hợp lí nhất trong phần Thân bài của một bài văn tả cảnh sinh hoạt là gì?",
+        "o": [
+          "Nêu cảm nghĩ trước rồi mới giới thiệu địa điểm ở cuối bài",
+          "Chỉ chép lại lời bài hát rồi kết thúc ngay lập tức",
+          "Kể lại giấc mơ tối hôm trước không liên quan đến cảnh sinh hoạt",
+          "Giới thiệu bao quát khung cảnh và thời điểm → Miêu tả cụ thể các hoạt động chính theo trình tự thời gian hoặc không gian → Nêu không khí chung đọng lại"
+        ],
+        "k": "D",
+        "e": "Đi từ bao quát đến chi tiết theo trình tự không gian/thời gian giúp bức tranh sinh hoạt có chiều sâu và mạch lạc.",
+        "s": "Ngữ Văn 6",
+        "h": "Bố cục tả cảnh sinh hoạt"
+      },
+      {
+        "c": "NV6-B05-012",
+        "d": "application",
+        "p": "Nhóm từ nào sau đây giúp câu văn tả cảnh buổi chợ sớm trở nên sinh động về cả âm thanh lẫn màu sắc?",
+        "o": [
+          "lao xao, rực rỡ, tíu tít, óng ánh",
+          "vuông vức, chính xác, thống kê, đo lường",
+          "tổng hợp, phân tích, chứng minh, bình luận",
+          "chậm chạp, xám xịt, lặng ngắt, khô khan"
+        ],
+        "k": "A",
+        "e": "Sự phối hợp các từ láy tượng thanh (\"lao xao\", \"tíu tít\") và gợi sắc màu (\"rực rỡ\", \"óng ánh\") tăng sức truyền cảm cho đoạn tả cảnh.",
+        "s": "Ngữ Văn 6",
+        "h": "Lựa chọn từ ngữ miêu tả"
+      },
+      {
+        "c": "NV6-B05-013",
+        "d": "advanced",
+        "p": "Nguyễn Tuân miêu tả cảnh bão biển Cô Tô bằng những động từ mạnh (\"gầm\", \"rít\", \"bắn\", \"quăng\") rồi chuyển sang khung cảnh trong trẻo \"như gội rửa sạch hết mọi bụi bặm\". Nghệ thuật chuyển cảnh này có tác dụng gì?",
+        "o": [
+          "Làm người đọc mất tập trung không nhớ được địa danh đảo Cô Tô",
+          "Chứng minh rằng thời tiết vùng biển lúc nào cũng dịu êm không có gió",
+          "Thể hiện sự chán nản của nhà văn khi chuyến đi bị mưa bão cản trở",
+          "Tạo sự đối lập kì vĩ, tôn lên vẻ đẹp tinh khôi, tràn đầy sức sống của biển đảo khi thiên nhiên qua cơn thử thách"
+        ],
+        "k": "D",
+        "e": "Bút pháp tương phản tài hoa của Nguyễn Tuân làm cảnh bình minh sau bão hiện ra rực rỡ gấp bội.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân tích bút pháp Nguyễn Tuân"
+      },
+      {
+        "c": "NV6-B05-014",
+        "d": "advanced",
+        "p": "Điểm khác nhau cốt lõi giữa một văn bản du kí (như \"Hang Én\") và một bài quảng cáo du lịch thông thường là gì?",
+        "o": [
+          "Du kí không bao giờ được phép nhắc đến tên địa danh có thật trên bản đồ",
+          "Du kí chú trọng trải nghiệm chân thực, chiều sâu cảm xúc, khám phá văn hóa – thiên nhiên của tác giả; còn quảng cáo chỉ nhằm mời chào mua dịch vụ",
+          "Quảng cáo du lịch bắt buộc phải viết dài hàng trăm trang bằng ngôi thứ nhất",
+          "Du kí chỉ nói về giá cả phòng nghỉ và phương tiện vận chuyển"
+        ],
+        "k": "B",
+        "e": "Du kí mang giá trị văn học ở rung động cá nhân và cái nhìn tinh tế trước cảnh sắc xứ sở.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân biệt thể loại văn bản"
+      },
+      {
+        "c": "NV6-B05-015",
+        "d": "advanced",
+        "p": "Đọc đoạn mở đầu tả cảnh giờ ra chơi ở sân trường: \"Tiếng trống tùng tùng vừa dứt, sân trường bỗng hóa thành một biển áo trắng rộn rã tiếng cười\". Câu văn hay ở điểm nào?",
+        "o": [
+          "Kết hợp hài hòa giữa âm thanh (\"tùng tùng\", \"rộn rã\") và hình ảnh ẩn dụ (\"biển áo trắng\"), mở ra không khí sôi nổi ngay từ câu đầu",
+          "Dùng hoàn toàn câu ghép điều kiện để giải thích quy chế thi đua",
+          "Sử dụng câu đặc biệt để liệt kê danh sách các môn học buổi chiều",
+          "Miêu tả sân trường im ắng không có học sinh nào ra ngoài"
+        ],
+        "k": "A",
+        "e": "Sự phối hợp giác quan (thính giác, thị giác) và biện pháp ẩn dụ giúp đoạn văn tả cảnh sinh hoạt cuốn hút ngay từ đầu.",
+        "s": "Ngữ Văn 6",
+        "h": "Đánh giá câu văn miêu tả hay"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan6-c2",
+    "lesson": {
+      "code": "nguvan6-b06",
+      "title": "Ôn tập Học kì I (Ngữ Văn 6)",
+      "seq": 6,
+      "subtitle": "Hệ thống hóa kiến thức Đọc hiểu (truyện đồng thoại, thơ, truyện ngắn nhân văn, ca dao, du kí), Thực hành tiếng Việt (từ đơn/phức, ẩn dụ, hoán dụ, cụm từ, từ đồng âm/đa nghĩa, dấu ngoặc kép) và Tập làm văn Học kì I",
+      "concepts": [
+        "Tổng hợp thể loại Đọc hiểu HK1",
+        "Tổng hợp Tiếng Việt HK1",
+        "Kĩ năng viết văn HK1"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV6-B06-001",
+        "d": "basic",
+        "p": "Bảng phân loại thể loại HK1 sau đây khớp đúng tác phẩm nào với thể loại \"Du kí\"?",
+        "o": [
+          "Chuyện cổ nước mình và Hành trình của bầy ong",
+          "Bài học đường đời đầu tiên và Bức tranh của em gái tôi",
+          "Cô Tô (Nguyễn Tuân) và Hang Én (Hà My)",
+          "Cô bé bán diêm và Gió lạnh đầu mùa"
+        ],
+        "k": "C",
+        "e": "\"Cô Tô\" và \"Hang Én\" đều ghi lại những chuyến đi và cảm xúc trực tiếp của tác giả nên thuộc thể loại kí (du kí).",
+        "s": "Ngữ Văn 6",
+        "h": "Phân loại thể loại HK1",
+        "fig": {
+          "type": "table",
+          "title": "Tổng hợp Văn bản HK1 (NV6)",
+          "head": [
+            "Thể loại",
+            "Tác phẩm tiêu biểu"
+          ],
+          "rows": [
+            [
+              "Truyện đồng thoại",
+              "Đường đời đầu tiên"
+            ],
+            [
+              "Truyện ngắn",
+              "Bức tranh em gái"
+            ],
+            [
+              "Thơ lục bát",
+              "Chuyện cổ nước mình"
+            ],
+            [
+              "Du kí",
+              "Cô Tô, Hang Én"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV6-B06-002",
+        "d": "basic",
+        "p": "Dòng nào sau đây chỉ gồm toàn các từ ghép (không chứa từ láy)?",
+        "o": [
+          "quê hương, học sinh, bàn ghế",
+          "lung linh, rì rào, bờ bãi",
+          "mênh mông, đất nước, cây cối",
+          "rón rén, bạn bè, vui tươi"
+        ],
+        "k": "A",
+        "e": "Cả ba từ \"quê hương\", \"học sinh\", \"bàn ghế\" đều được tạo bằng cách ghép các tiếng có nghĩa với nhau.",
+        "s": "Ngữ Văn 6",
+        "h": "Ôn tập từ ghép"
+      },
+      {
+        "c": "NV6-B06-003",
+        "d": "basic",
+        "p": "Trong câu \"Ngôi nhà ấy rộn rã tiếng cười\", từ \"ngôi nhà\" là hoán dụ chỉ đối tượng nào?",
+        "o": [
+          "Cánh cửa gỗ lim mở ra ngoài sân",
+          "Bức tường gạch mới sơn màu vàng",
+          "Những người thân sống trong gia đình ấy",
+          "Mảnh vườn trồng rau phía sau"
+        ],
+        "k": "C",
+        "e": "Dùng vật chứa (\"ngôi nhà\") để chỉ vật/người ở bên trong (các thành viên gia đình) là phép hoán dụ quen thuộc.",
+        "s": "Ngữ Văn 6",
+        "h": "Ôn tập phép hoán dụ"
+      },
+      {
+        "c": "NV6-B06-004",
+        "d": "basic",
+        "p": "Kiểu bài viết nào KHÔNG thuộc chương trình Học kì I Ngữ văn 6 Kết nối tri thức?",
+        "o": [
+          "Viết bài văn kể lại một trải nghiệm của bản thân",
+          "Viết bài văn tả cảnh sinh hoạt",
+          "Viết bài văn thuyết minh giải thích một hiện tượng tự nhiên (lớp 8)",
+          "Viết đoạn văn ghi lại cảm xúc về một bài thơ"
+        ],
+        "k": "C",
+        "e": "HK1 Ngữ văn 6 tập trung vào viết đoạn cảm xúc thơ, kể trải nghiệm, làm thơ lục bát và tả cảnh sinh hoạt.",
+        "s": "Ngữ Văn 6",
+        "h": "Hệ thống kiểu bài viết HK1"
+      },
+      {
+        "c": "NV6-B06-005",
+        "d": "basic",
+        "p": "Cặp câu thơ lục bát nào dưới đây bị sai quy tắc gieo vần?",
+        "o": [
+          "Trong đầm gì đẹp bằng sen / Lá xanh bông trắng lại chen nhị vàng",
+          "Công cha như núi Thái Sơn / Nghĩa mẹ như nước trong sông chảy ra",
+          "Trăm năm trong cõi người ta / Chữ tài chữ mệnh khéo là ghét nhau",
+          "Tháp Mười đẹp nhất bông sen / Việt Nam đẹp nhất có tên Bác Hồ"
+        ],
+        "k": "B",
+        "e": "Trong câu gốc đúng là \"trong nguồn chảy ra\" (\"Sơn\" và \"nguồn\" hiệp vần gần nhau); đổi thành \"sông\" làm hỏng vần.",
+        "s": "Ngữ Văn 6",
+        "h": "Kiểm tra vần lục bát"
+      },
+      {
+        "c": "NV6-B06-006",
+        "d": "basic",
+        "p": "Cụm từ \"đang nhẹ nhàng bay lượn trên bầu trời\" là loại cụm từ nào?",
+        "o": [
+          "Cụm danh từ",
+          "Cụm tính từ",
+          "Cụm động từ",
+          "Cụm quan hệ từ"
+        ],
+        "k": "C",
+        "e": "Động từ trung tâm là \"bay lượn\", có phụ ngữ chỉ tiếp diễn \"đang\", cách thức \"nhẹ nhàng\" và địa điểm \"trên bầu trời\".",
+        "s": "Ngữ Văn 6",
+        "h": "Nhận diện cụm từ"
+      },
+      {
+        "c": "NV6-B06-007",
+        "d": "application",
+        "p": "Quan sát biểu đồ thống kê mức độ thành thạo Tiếng Việt HK1 của một nhóm học sinh. Nhóm nào cần được ôn tập tăng cường nhiều nhất?",
+        "o": [
+          "Nhóm Phân biệt Ẩn dụ và Hoán dụ (65%)",
+          "Nhóm Công dụng Dấu ngoặc kép (85%)",
+          "Nhóm Luật vần Lục bát (80%)",
+          "Nhóm Từ đơn và Từ phức (90%)"
+        ],
+        "k": "A",
+        "e": "Theo biểu đồ, tỉ lệ đạt chuẩn ở nội dung Ẩn dụ và Hoán dụ thấp nhất (65%) nên cần luyện tập thêm.",
+        "s": "Ngữ Văn 6",
+        "h": "Đọc hiểu biểu đồ ôn tập",
+        "fig": {
+          "type": "bars",
+          "title": "Tỉ lệ đạt chuẩn Tiếng Việt HK1",
+          "labels": [
+            "Từ đơn/phức",
+            "Ẩn dụ/Hoán dụ",
+            "Cụm từ",
+            "Ngoặc kép"
+          ],
+          "series": [
+            {
+              "values": [
+                90,
+                65,
+                78,
+                85
+              ]
+            }
+          ],
+          "unit": "%"
+        }
+      },
+      {
+        "c": "NV6-B06-008",
+        "d": "application",
+        "p": "Trong hai câu thơ: \"Thuyền về có nhớ bến chăng? / Bến thì một dạ khăng khăng đợi thuyền\", biện pháp tu từ nào được dùng để biểu đạt tình cảm thủy chung?",
+        "o": [
+          "Ẩn dụ kết hợp nhân hóa (thuyền ẩn dụ cho người đi xa, bến ẩn dụ cho người ở lại)",
+          "Liệt kê các loại phương tiện giao thông đường thủy",
+          "Điệp ngữ cách quãng năm lần liên tiếp",
+          "Nói quá nhằm phóng đại kích thước con thuyền"
+        ],
+        "k": "A",
+        "e": "Hình ảnh \"thuyền\" và \"bến\" ẩn dụ cho đôi lứa hoặc người đi – người ở với tấm lòng thủy chung.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân tích ẩn dụ trong ca dao"
+      },
+      {
+        "c": "NV6-B06-009",
+        "d": "application",
+        "p": "Chọn câu sử dụng đúng công dụng của dấu ngoặc kép:",
+        "o": [
+          "\"Tác phẩm\" Gió lạnh đầu mùa gửi gắm thông điệp ấm áp về tình thương yêu con người",
+          "Tác phẩm Gió lạnh đầu mùa gửi gắm thông điệp ấm áp \"về\" tình thương yêu con người",
+          "Tác phẩm Gió lạnh đầu mùa gửi gắm \"thông điệp\" ấm áp về tình thương yêu con người",
+          "Tác phẩm \"Gió lạnh đầu mùa\" gửi gắm thông điệp ấm áp về tình thương yêu con người."
+        ],
+        "k": "D",
+        "e": "Dấu ngoặc kép dùng đúng khi bao quanh tên tác phẩm cụ thể \"Gió lạnh đầu mùa\".",
+        "s": "Ngữ Văn 6",
+        "h": "Sử dụng đúng dấu ngoặc kép"
+      },
+      {
+        "c": "NV6-B06-010",
+        "d": "application",
+        "p": "Trong các câu sau, câu nào có từ \"chạy\" được dùng theo nghĩa gốc?",
+        "o": [
+          "Các vận động viên đang chạy nước rút về đích.",
+          "Chiếc đồng hồ đeo tay của em vẫn chạy rất đều.",
+          "Cư dân ven biển hối hả chạy bão vào nơi trú ẩn.",
+          "Chiếc ô tô điện chạy êm ru trên đại lộ."
+        ],
+        "k": "A",
+        "e": "\"chạy\" nghĩa gốc là hoạt động di chuyển nhanh bằng hai chân của người hoặc động vật; các câu kia là nghĩa chuyển.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân biệt nghĩa gốc và nghĩa chuyển"
+      },
+      {
+        "c": "NV6-B06-011",
+        "d": "application",
+        "p": "Khi kể lại một trải nghiệm đáng nhớ của bản thân (Bài 2), ngôi kể và trình tự hợp lí nhất là gì?",
+        "o": [
+          "Chép lại một truyện cổ tích có sẵn rồi đổi tên nhân vật chính",
+          "Chỉ ghi lại ngày tháng năm mà không tả lại sự việc cụ thể nào",
+          "Kể theo ngôi thứ ba như một bài tin thời sự khô khan không cảm xúc",
+          "Kể theo ngôi thứ nhất (\"tôi\", \"em\"), kết hợp diễn biến sự việc với suy nghĩ, cảm xúc và bài học rút ra"
+        ],
+        "k": "D",
+        "e": "Bài văn kể trải nghiệm đòi hỏi sự chân thật từ ngôi thứ nhất, có sự việc, chi tiết miêu tả và suy ngẫm ý nghĩa.",
+        "s": "Ngữ Văn 6",
+        "h": "Kĩ năng viết bài kể trải nghiệm"
+      },
+      {
+        "c": "NV6-B06-012",
+        "d": "application",
+        "p": "Điểm giống nhau giữa hình tượng nhân vật Dế Mèn (sau biến cố Dế Choắt) và người anh (trong \"Bức tranh của em gái tôi\") là gì?",
+        "o": [
+          "Cả hai đều có phép màu kì diệu giúp hóa giải mọi rắc rối",
+          "Cả hai đều đổ lỗi hoàn toàn cho người khác khi gặp chuyện buồn",
+          "Cả hai đều từng mắc sai lầm do thói kiêu căng hoặc đố kị, nhưng biết tự nhận thức và ân hận để trưởng thành hơn",
+          "Cả hai đều giành được giải Nhất trong một cuộc thi vẽ quốc tế"
+        ],
+        "k": "C",
+        "e": "Sự thức tỉnh lương tri sau lỗi lầm là nét chung nhân văn sâu sắc ở cả hai nhân vật.",
+        "s": "Ngữ Văn 6",
+        "h": "Liên hệ nhân vật văn học"
+      },
+      {
+        "c": "NV6-B06-013",
+        "d": "advanced",
+        "p": "Phát biểu nào phân tích đúng nhất vai trò của \"chi tiết nhỏ\" trong truyện ngắn (như chiếc áo bông cũ trong \"Gió lạnh đầu mùa\" hay những que diêm trong \"Cô bé bán diêm\")?",
+        "o": [
+          "Chi tiết nhỏ mang sức chứa tư tưởng lớn, là điểm tựa kết nối cốt truyện và bộc lộ sâu sắc phẩm chất nhân vật cùng tấm lòng nhà văn",
+          "Chi tiết nhỏ chỉ dùng để kéo dài số trang cho đủ dung lượng một tập truyện",
+          "Chi tiết càng rườm rà không liên quan đến nhân vật chính càng có giá trị cao",
+          "Người đọc có thể bỏ qua hoàn toàn mọi chi tiết mà vẫn hiểu hết giá trị nghệ thuật"
+        ],
+        "k": "A",
+        "e": "Trong truyện ngắn, chi tiết nghệ thuật đắt giá đóng vai trò \"giọt nước phản chiếu mặt trời\", gói trọn thông điệp nhân văn.",
+        "s": "Ngữ Văn 6",
+        "h": "Vai trò chi tiết nghệ thuật"
+      },
+      {
+        "c": "NV6-B06-014",
+        "d": "advanced",
+        "p": "Đọc đoạn thơ: \"Nắng lên cho má em hồng / Cho lúa trổ đòng, cho biếc vườn cây\". Xác định hai biện pháp tu từ phối hợp chặt chẽ trong hai dòng thơ này:",
+        "o": [
+          "Hoán dụ và chơi chữ đồng âm khác nghĩa",
+          "Điệp ngữ (\"cho\") kết hợp liệt kê theo trình tự gợi vẻ đẹp tươi mới của sự sống dưới ánh nắng",
+          "Nói quá và câu hỏi tu từ mang sắc thái trách móc",
+          "So sánh ngang bằng có từ \"như\" và nhân hóa gió bão"
+        ],
+        "k": "B",
+        "e": "Điệp từ \"cho\" đi cùng phép liệt kê (\"má em hồng\", \"lúa trổ đòng\", \"biếc vườn cây\") tạo nhịp điệu vui tươi, tràn sức sống.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân tích phối hợp tu từ"
+      },
+      {
+        "c": "NV6-B06-015",
+        "d": "advanced",
+        "p": "Để chuẩn bị cho bài thi cuối Học kì I Ngữ văn 6 đạt kết quả cao với một ngữ liệu đọc hiểu mới ngoài sách giáo khoa, chiến lược đọc hiểu hiệu quả nhất là gì?",
+        "o": [
+          "Chỉ đọc câu cuối cùng của văn bản để đoán toàn bộ nội dung bài",
+          "Xác định đúng thể loại và ngôi kể → Tìm từ khóa, chi tiết nghệ thuật, biện pháp tu từ tiêu biểu → Rút ra chủ đề, thông điệp gắn với văn bản",
+          "Học thuộc lòng lời giải mẫu trong sách cũ rồi chép nguyên văn bất kể đề hỏi gì",
+          "Bỏ qua phần chú thích từ ngữ và chỉ trả lời theo cảm tính cá nhân"
+        ],
+        "k": "B",
+        "e": "Nắm chắc đặc trưng thể loại và quy trình đọc hiểu văn bản mới giúp học sinh tự tin giải quyết mọi đề kiểm tra theo chương trình mới.",
+        "s": "Ngữ Văn 6",
+        "h": "Chiến lược đọc hiểu ngữ liệu mới"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan6-c3",
+    "lesson": {
+      "code": "nguvan6-b07",
+      "title": "Bài 6. Chuyện kể về những người anh hùng",
+      "seq": 7,
+      "subtitle": "Truyền thuyết dân gian (Thánh Gióng, Sơn Tinh – Thủy Tinh), văn bản Ai ơi mồng 9 tháng 4, dấu chấm phẩy và bài văn thuyết minh thuật lại một sự kiện văn hóa",
+      "concepts": [
+        "Đặc trưng thể loại truyền thuyết",
+        "Công dụng dấu chấm phẩy",
+        "Thuyết minh thuật lại sự kiện"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV6-B07-001",
+        "d": "basic",
+        "p": "Truyền thuyết dân gian Việt Nam có đặc điểm nổi bật nào sau đây?",
+        "o": [
+          "Chỉ kể về thế giới loài vật nói tiếng người nhằm khuyên răn thói quen hằng ngày",
+          "Luôn viết bằng thể thơ thất ngôn tứ tuyệt chữ Hán",
+          "Kể về các nhân vật và sự kiện liên quan đến lịch sử quá khứ, thường có yếu tố kì ảo thể hiện cách đánh giá của nhân dân",
+          "Là bản ghi chép số liệu kinh tế chính xác của cơ quan nhà nước hiện đại"
+        ],
+        "k": "C",
+        "e": "Truyền thuyết gắn với cốt lõi lịch sử, nhân vật anh hùng văn hóa/dựng nước giữ nước và đan cài yếu tố kì ảo.",
+        "s": "Ngữ Văn 6",
+        "h": "Đặc trưng truyền thuyết"
+      },
+      {
+        "c": "NV6-B07-002",
+        "d": "basic",
+        "p": "Trong truyền thuyết \"Thánh Gióng\", trước khi ra trận đánh giặc Ân, cậu bé làng Phù Đổng đòi vua những vật dụng gì?",
+        "o": [
+          "Một cây cung thần bằng vàng và một con thuyền rồng",
+          "Một thanh gươm thuận thiên báu vật dưới đáy hồ",
+          "Một con ngựa sắt, một cái roi sắt và một tấm áo giáp sắt",
+          "Một túi gấm ba gang đựng đầy châu báu"
+        ],
+        "k": "C",
+        "e": "Sứ giả tâu vua đúc ngựa sắt, roi sắt, áo giáp sắt theo đúng yêu cầu của Gióng để đánh giặc cứu nước.",
+        "s": "Ngữ Văn 6",
+        "h": "Chi tiết truyền thuyết Thánh Gióng"
+      },
+      {
+        "c": "NV6-B07-003",
+        "d": "basic",
+        "p": "Truyền thuyết \"Sơn Tinh, Thủy Tinh\" giải thích hiện tượng tự nhiên quen thuộc nào ở đồng bằng Bắc Bộ nước ta?",
+        "o": [
+          "Nguồn gốc hình thành các quần đảo san hô ngoài biển Đông",
+          "Hiện tượng nhật thực và nguyệt thực diễn ra theo chu kì",
+          "Sự thay đổi bốn mùa xuân, hạ, thu, đông trên Trái Đất",
+          "Hiện tượng mưa bão, lũ lụt hằng năm và công cuộc đắp đê chống lũ của nhân dân"
+        ],
+        "k": "D",
+        "e": "Cuộc giao tranh giữa Sơn Tinh (núi cao) và Thủy Tinh (nước lũ) lí giải nạn lụt hằng năm và ý chí trị thủy của người Việt cổ.",
+        "s": "Ngữ Văn 6",
+        "h": "Ý nghĩa Sơn Tinh, Thủy Tinh"
+      },
+      {
+        "c": "NV6-B07-004",
+        "d": "basic",
+        "p": "Dấu chấm phẩy (;) trong câu văn dùng để làm gì?",
+        "o": [
+          "Đánh dấu ranh giới giữa các vế của câu ghép có cấu tạo phức tạp hoặc các bộ phận trong phép liệt kê phức tạp",
+          "Thay thế cho toàn bộ các dấu phẩy trong mọi câu đơn ngắn",
+          "Kết thúc hoàn toàn một đoạn văn biểu cảm có giọng điệu ngạc nhiên",
+          "Đặt sau tên riêng của nhân vật lịch sử để thay thế dấu ngoặc đơn"
+        ],
+        "k": "A",
+        "e": "Dấu chấm phẩy giúp phân tách rành mạch các vế câu dài hoặc từng hạng mục trong một chuỗi liệt kê nhiều tầng.",
+        "s": "Ngữ Văn 6",
+        "h": "Công dụng dấu chấm phẩy",
+        "fig": {
+          "type": "table",
+          "title": "Nhân vật Truyền thuyết (Bài 6)",
+          "head": [
+            "Truyện",
+            "Nhân vật chính",
+            "Chiến công"
+          ],
+          "rows": [
+            [
+              "Thánh Gióng",
+              "Phù Đổng Thiên Vương",
+              "Đánh tan giặc Ân"
+            ],
+            [
+              "Sơn Tinh, Thủy Tinh",
+              "Sơn Tinh (Tản Viên)",
+              "Dựng núi chống lũ"
+            ],
+            [
+              "Hội Gióng",
+              "Làng Phù Đổng",
+              "Di sản văn hóa"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV6-B07-005",
+        "d": "basic",
+        "p": "Văn bản \"Ai ơi mồng 9 tháng 4\" giới thiệu về sinh hoạt văn hóa truyền thống nào của dân tộc?",
+        "o": [
+          "Lễ hội đua ghe ngo của đồng bào Khmer Nam Bộ",
+          "Lễ hội Gióng (Hội Gióng) được tổ chức hằng năm để tưởng nhớ công ơn Thánh Gióng",
+          "Tết cổ truyền đón năm mới trên vùng núi cao Tây Bắc",
+          "Lễ hội thả đèn hoa đăng bên bờ sông Hoài"
+        ],
+        "k": "B",
+        "e": "Câu ca dân gian \"Ai ơi mồng chín tháng tư / Không đi hội Gióng cũng hư mất đời\" tôn vinh lễ hội Gióng – di sản phi vật thể.",
+        "s": "Ngữ Văn 6",
+        "h": "Kiến thức văn hóa Hội Gióng"
+      },
+      {
+        "c": "NV6-B07-006",
+        "d": "basic",
+        "p": "Trong truyền thuyết \"Thánh Gióng\", sau khi đánh tan giặc Ân ở núi Trâu, Gióng đã làm gì?",
+        "o": [
+          "Hóa thân thành một ngọn núi đá vôi chắn sóng ngoài biển",
+          "Cởi bỏ áo giáp sắt lại chân núi Sóc rồi cả người lẫn ngựa từ từ bay về trời",
+          "Trở về kinh đô nhận chức Tể tướng cai quản triều đình suốt đời",
+          "Ở lại làng Phù Đổng mở xưởng rèn vũ khí cho quân đội"
+        ],
+        "k": "B",
+        "e": "Thánh Gióng không màng danh lợi, cởi giáp sắt ở núi Sóc (Sóc Sơn) rồi bay về trời để lại nhiều dấu tích quê hương.",
+        "s": "Ngữ Văn 6",
+        "h": "Kết thúc truyện Thánh Gióng"
+      },
+      {
+        "c": "NV6-B07-007",
+        "d": "application",
+        "p": "Chi tiết Gióng vươn vai biến thành tráng sĩ cao hơn trượng sau khi ăn cơm cà của cả làng góp sức mang ý nghĩa sâu xa nào?",
+        "o": [
+          "Sức mạnh đánh giặc cứu nước của người anh hùng được nuôi dưỡng từ tình đoàn kết, sự đùm bọc của toàn thể nhân dân",
+          "Trẻ em chỉ cần ăn thật nhiều cơm cà thì sẽ tự động cao lớn phi thường",
+          "Nhân vật không muốn lớn lên trong thời bình vì sợ phải đi cày",
+          "Vua Hùng không chuẩn bị đủ lương thực cho quân đội ngoài chiến trường"
+        ],
+        "k": "A",
+        "e": "Bà con hàng xóm góp gạo nuôi Gióng là biểu tượng tuyệt đẹp cho sức mạnh đại đoàn kết toàn dân tộc.",
+        "s": "Ngữ Văn 6",
+        "h": "Ý nghĩa chi tiết kì ảo Thánh Gióng"
+      },
+      {
+        "c": "NV6-B07-008",
+        "d": "application",
+        "p": "Vì sao khi roi sắt gãy, Thánh Gióng lại nhổ những cụm tre đằng ngà bên đường quật vào quân giặc?",
+        "o": [
+          "Thể hiện tinh thần sẵn sàng dùng mọi vật dụng bình dị của quê hương làm vũ khí chiến đấu bảo vệ đất nước",
+          "Vì tất cả vũ khí sắt của triều đình đều bị gãy hỏng cùng lúc",
+          "Vì Gióng muốn thử nghiệm xem tre hay sắt cứng hơn khi va chạm",
+          "Vì Gióng muốn chặt bớt tre để mở rộng con đường tiến quân"
+        ],
+        "k": "A",
+        "e": "Ngọn tre làng Việt trở thành vũ khí thiêng quét sạch quân xâm lược, gắn liền huyền tích màu vàng óng của tre đằng ngà.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân tích hình ảnh tre đằng ngà"
+      },
+      {
+        "c": "NV6-B07-009",
+        "d": "application",
+        "p": "Trong câu nào sau đây, dấu chấm phẩy (;) được dùng chính xác nhất?",
+        "o": [
+          "Phần lễ có nghi thức rước kiệu trang nghiêm, dâng hương tưởng nhớ anh hùng; phần hội có múa rồng, đánh trống, kéo co tưng bừng náo nhiệt.",
+          "Sáng mồng 9 tháng 4; em cùng bố mẹ đi xem hội Gióng ở Sóc Sơn.",
+          "Thánh Gióng đánh giặc Ân bằng; roi sắt và những khóm tre đằng ngà.",
+          "Truyền thuyết là câu chuyện dân gian; rất hấp dẫn đối với thiếu nhi."
+        ],
+        "k": "A",
+        "e": "Hai vế của câu ghép đều có liệt kê nội dung riêng (dấu phẩy bên trong) nên dùng dấu chấm phẩy ở giữa để tách rõ hai phần lễ và hội.",
+        "s": "Ngữ Văn 6",
+        "h": "Thực hành dùng dấu chấm phẩy"
+      },
+      {
+        "c": "NV6-B07-010",
+        "d": "application",
+        "p": "Khi viết bài văn thuyết minh thuật lại một sự kiện (một sinh hoạt văn hóa), người viết cần giữ thái độ và ngôi kể như thế nào?",
+        "o": [
+          "Trình bày khách quan, chính xác theo diễn biến thực tế (ngôi 3 hoặc \"chúng tôi\"), nêu rõ thời gian, địa điểm, diễn biến và ý nghĩa sự kiện",
+          "Chỉ kể lại tâm trạng buồn vui cá nhân mà không nêu sự kiện diễn ra ở đâu, gồm những hoạt động nào",
+          "Tưởng tượng ra nhiều phép thuật hư cấu không có thật trong buổi lễ để gây bất ngờ",
+          "Biến bài viết thành một bài thơ lục bát kể chuyện cổ tích"
+        ],
+        "k": "A",
+        "e": "Thuyết minh thuật lại sự kiện cần trung thực, rõ ràng về trình tự thời gian, không gian, hoạt động chính và giá trị văn hóa.",
+        "s": "Ngữ Văn 6",
+        "h": "Yêu cầu bài thuyết minh sự kiện"
+      },
+      {
+        "c": "NV6-B07-011",
+        "d": "application",
+        "p": "Các dấu tích thực tế còn lưu lại ở cuối truyện \"Thánh Gióng\" (làng Cháy, ao hồ liên tiếp do vết chân ngựa, tre đằng ngà vàng óng) có vai trò gì trong truyền thuyết?",
+        "o": [
+          "Tăng độ tin cậy, tạo cảm giác câu chuyện có thật gắn bó mật thiết với non sông và tâm thức tự hào của nhân dân",
+          "Giải thích quy trình khai thác khoáng sản sắt thời Hùng Vương",
+          "Chứng minh rằng người xưa đã quay phim chụp ảnh lại toàn bộ trận đánh",
+          "Làm cho người đọc quên mất tên tuổi nhân vật chính"
+        ],
+        "k": "A",
+        "e": "Những dấu tích địa danh khiến truyền thuyết bám rễ sâu vào đời sống văn hóa và cảnh quan quê hương.",
+        "s": "Ngữ Văn 6",
+        "h": "Vai trò dấu tích trong truyền thuyết"
+      },
+      {
+        "c": "NV6-B07-012",
+        "d": "application",
+        "p": "Trong truyện \"Sơn Tinh, Thủy Tinh\", các sính lễ mà vua Hùng yêu cầu (voi chín ngà, gà chín cựa, ngựa chín hồng mao) chủ yếu thuộc vùng nào và hàm ý điều gì?",
+        "o": [
+          "Thuộc vùng biển sâu nhằm thử thách khả năng lặn biển của Sơn Tinh",
+          "Là những vật phẩm ngoại nhập đắt tiền do thương nhân phương Tây mang tới",
+          "Thuộc vùng rừng núi – đất liền, ngầm thể hiện sự ủng hộ nghiêng về phía Sơn Tinh tài đức và gắn bó với đời sống cư dân đất Việt",
+          "Là tên gọi các món ăn cổ truyền trong ngày giỗ Tổ Hùng Vương"
+        ],
+        "k": "C",
+        "e": "Toàn bộ lễ vật đều là sản vật núi rừng, biểu thị sự lựa chọn sáng suốt của nhà vua trước tai họa nước lũ.",
+        "s": "Ngữ Văn 6",
+        "h": "Ý nghĩa chi tiết lễ vật kén rể"
+      },
+      {
+        "c": "NV6-B07-013",
+        "d": "advanced",
+        "p": "Đánh giá nhận định sau: \"Yếu tố kì ảo trong truyền thuyết không tách rời thực tại mà nhằm tôn vinh tầm vóc lịch sử của người anh hùng và khát vọng chiến thắng của nhân dân\". Nhận định này đúng với \"Thánh Gióng\" ở điểm nào?",
+        "o": [
+          "Vì nhân vật Gióng không cần sự trợ giúp nào của nhân dân vẫn thắng lợi",
+          "Chiến công phi thường (lớn nhanh như thổi, bay về trời) xuất phát từ hiện thực chống giặc ngoại xâm giữ nước, thể hiện lí tưởng bất tử hóa anh hùng",
+          "Vì Thánh Gióng hoàn toàn không có bối cảnh thời đại hay tên giặc ngoại xâm cụ thể nào",
+          "Vì yếu tố kì ảo chỉ xuất hiện ở phần mở đầu để làm vui lòng trẻ nhỏ rồi biến mất"
+        ],
+        "k": "B",
+        "e": "Kì ảo và lịch sử hòa quyện tạo nên vẻ đẹp sử thi bất tử của hình tượng Phù Đổng Thiên Vương.",
+        "s": "Ngữ Văn 6",
+        "h": "Bình luận vai trò yếu tố kì ảo"
+      },
+      {
+        "c": "NV6-B07-014",
+        "d": "advanced",
+        "p": "Khi so sánh \"Thánh Gióng\" và \"Sơn Tinh, Thủy Tinh\", điểm tương đồng sâu sắc nhất về mặt ý nghĩa biểu tượng của hai hình tượng anh hùng là gì?",
+        "o": [
+          "Cả hai nhân vật đều là hoàng tử trong cung đình đi chu du bốn phương",
+          "Kết tinh sức mạnh, trí tuệ và khát vọng lớn lao của cộng đồng Việt cổ: đánh thắng giặc ngoại xâm (Thánh Gióng) và chinh phục thiên tai (Sơn Tinh)",
+          "Cả hai câu chuyện đều kết thúc bằng việc nhân vật anh hùng rời bỏ quê hương vĩnh viễn",
+          "Cả hai đều sử dụng yếu tố hài hước để châm biếm thói tham lam của quan lại"
+        ],
+        "k": "B",
+        "e": "Hai truyền thuyết tiêu biểu phản ánh hai nhiệm vụ sinh tồn vĩ đại nhất của dân tộc ta từ thuở dựng nước: giữ nước và trị thủy.",
+        "s": "Ngữ Văn 6",
+        "h": "So sánh giá trị biểu tượng truyền thuyết"
+      },
+      {
+        "c": "NV6-B07-015",
+        "d": "advanced",
+        "p": "Nếu viết mở bài cho bài văn thuyết minh thuật lại Lễ hội Đền Hùng (Giỗ Tổ Hùng Vương), phương án nào đạt chuẩn nhất về thông tin và sắc thái văn hóa?",
+        "o": [
+          "Trong tiết học hôm nay, chúng em được cô giáo cho xem một đoạn phim hoạt hình rất buồn cười.",
+          "Ngày xưa có hai vị thần đánh nhau rất dữ dội làm nước sông dâng ngập cả cánh đồng lúa xanh tốt.",
+          "Hằng năm cứ đến mồng 10 tháng Ba âm lịch, hàng triệu người con đất Việt lại về Khu di tích Đền Hùng (Phú Thọ) dự Lễ hội tri ân công đức Vua Hùng.",
+          "Theo em, đi lễ hội rất đông người nên mọi người không cần giữ gìn trật tự hay xếp hàng làm gì."
+        ],
+        "k": "C",
+        "e": "Mở bài thuyết minh nêu rõ tên sự kiện, thời gian, địa điểm và ý nghĩa văn hóa khái quát với giọng văn trang trọng, rõ ràng.",
+        "s": "Ngữ Văn 6",
+        "h": "Thực hành viết mở bài thuyết minh"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan6-c3",
+    "lesson": {
+      "code": "nguvan6-b08",
+      "title": "Bài 7. Thế giới cổ tích",
+      "seq": 8,
+      "subtitle": "Đọc hiểu truyện cổ tích (Thạch Sanh, Em bé thông minh, Cây khế), từ Hán Việt thông dụng, trạng ngữ chỉ thời gian/nơi chốn/cách thức và viết bài văn đóng vai nhân vật kể lại một truyện cổ tích",
+      "concepts": [
+        "Đặc trưng truyện cổ tích thần kì & sinh hoạt",
+        "Nghĩa của yếu tố Hán Việt",
+        "Đóng vai nhân vật kể lại truyện cổ tích"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV6-B08-001",
+        "d": "basic",
+        "p": "Nhân vật chính trong truyện cổ tích \"Thạch Sanh\" thuộc kiểu nhân vật quen thuộc nào của cổ tích dân gian?",
+        "o": [
+          "Nhân vật lịch sử có thật giữ chức vụ cao trong triều đình",
+          "Người dũng sĩ tài năng, thật thà, nhân hậu nhưng chịu nhiều bất công trước khi được đền đáp xứng đáng",
+          "Nhân vật phản diện chuyên dùng mưu mẹo hãm hại người lương thiện",
+          "Nhân vật nhà khoa học nghiên cứu thiên văn học"
+        ],
+        "k": "B",
+        "e": "Thạch Sanh đại diện cho kiểu nhân vật dũng sĩ bình dân giàu lòng nghĩa hiệp trong cổ tích thần kì.",
+        "s": "Ngữ Văn 6",
+        "h": "Kiểu nhân vật cổ tích"
+      },
+      {
+        "c": "NV6-B08-002",
+        "d": "basic",
+        "p": "Trong truyện \"Em bé thông minh\", nhân vật em bé đã vượt qua các thử thách oái oăm của viên quan và sứ thần bằng yếu tố gì?",
+        "o": [
+          "Thanh gươm báu lấy được từ hang chằn tinh",
+          "Sức khỏe phi thường nhấc bổng tảng đá khổng lồ",
+          "Trí tuệ dân gian sắc sảo, nhanh trí dựa trên quan sát thực tế đời sống",
+          "Các phép biến hóa thần kì do Bụt ban tặng"
+        ],
+        "k": "C",
+        "e": "\"Em bé thông minh\" thuộc truyện cổ tích sinh hoạt, đề cao trí khôn thực tế và óc hài hước của người lao động.",
+        "s": "Ngữ Văn 6",
+        "h": "Đặc điểm Em bé thông minh"
+      },
+      {
+        "c": "NV6-B08-003",
+        "d": "basic",
+        "p": "Trong truyện \"Cây khế\", chim thần đã nhắc người em may túi đựng vàng có kích thước như thế nào?",
+        "o": [
+          "Ba chiếc rương gỗ lớn",
+          "Túi ba gang",
+          "Một chiếc bao tải khổng lồ",
+          "Túi mười hai gang"
+        ],
+        "k": "B",
+        "e": "Chim dặn \"May túi ba gang, mang đi mà đựng\"; người em làm đúng lời dặn còn người anh tham lam may túi mười hai gang.",
+        "s": "Ngữ Văn 6",
+        "h": "Chi tiết truyện Cây khế"
+      },
+      {
+        "c": "NV6-B08-004",
+        "d": "basic",
+        "p": "Yếu tố Hán Việt \"nhân\" trong các từ \"nhân hậu\", \"nhân ái\", \"nhân từ\" có nghĩa là gì?",
+        "o": [
+          "Nguyên nhân gây ra việc",
+          "Phép nhân trong toán học",
+          "Con người nói chung",
+          "Lòng thương người"
+        ],
+        "k": "D",
+        "e": "Yếu tố \"nhân\" ở đây mang nghĩa lòng thương yêu, bao dung đối với con người (khác với đồng âm \"nhân\" nghĩa là người hay phép nhân).",
+        "s": "Ngữ Văn 6",
+        "h": "Giải nghĩa yếu tố Hán Việt",
+        "fig": {
+          "type": "table",
+          "title": "Tra cứu Yếu tố Hán Việt",
+          "head": [
+            "Từ Hán Việt",
+            "Yếu tố cần hiểu",
+            "Nghĩa cơ bản"
+          ],
+          "rows": [
+            [
+              "gia đình, quốc gia",
+              "gia",
+              "nhà"
+            ],
+            [
+              "công bằng, công tâm",
+              "công",
+              "chung, ngay thẳng"
+            ],
+            [
+              "thủy chung",
+              "thủy / chung",
+              "đầu / cuối"
+            ],
+            [
+              "vô giá, vô tận",
+              "vô",
+              "không có"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV6-B08-005",
+        "d": "basic",
+        "p": "Trong câu \"Khi Lý Thông lừa xuống hang cứu công chúa, Thạch Sanh chẳng hề nghi ngờ bạn kết nghĩa\", cụm từ in trước dấu phẩy giữ chức năng gì?",
+        "o": [
+          "Trạng ngữ chỉ thời gian",
+          "Chủ ngữ của câu đơn",
+          "Thành phần biệt lập cảm thán",
+          "Vị ngữ miêu tả hành động"
+        ],
+        "k": "A",
+        "e": "Cụm \"Khi Lý Thông lừa xuống hang cứu công chúa\" bổ sung thông tin về thời điểm diễn ra sự việc chính trong câu.",
+        "s": "Ngữ Văn 6",
+        "h": "Nhận diện trạng ngữ"
+      },
+      {
+        "c": "NV6-B08-006",
+        "d": "basic",
+        "p": "Thế giới cổ tích thường kết thúc theo mô-típ phổ biến nào thể hiện ước mơ công lí của nhân dân?",
+        "o": [
+          "Kẻ tham lam luôn chiếm hết tài sản và bỏ trốn sang nước khác",
+          "Câu chuyện dừng lại đột ngột giữa lúc nhân vật đang gặp nguy hiểm",
+          "Ở hiền gặp lành, người tốt được hưởng hạnh phúc, kẻ ác và tham lam bị trừng phạt đích đáng",
+          "Mọi nhân vật đều biến mất trong một trận hỏa hoạn lớn"
+        ],
+        "k": "C",
+        "e": "Kết thúc có hậu phản ánh khát vọng công bằng, cái thiện chiến thắng cái ác của người lao động xưa.",
+        "s": "Ngữ Văn 6",
+        "h": "Mô-típ kết thúc cổ tích"
+      },
+      {
+        "c": "NV6-B08-007",
+        "d": "application",
+        "p": "Thạch Sanh hai lần tha chết cho mẹ con Lý Thông rồi lại đánh đàn cho quân chư hầu nghe và mời niêu cơm thần ăn mãi không hết. Các chi tiết này khắc họa phẩm chất nào của chàng?",
+        "o": [
+          "Lòng nhân đạo sâu sắc, vị tha và khát vọng hòa bình, không ham chiến tranh đổ máu",
+          "Sự yếu đuối, thiếu quyết đoán trước kẻ thù xâm lược",
+          "Ý định khoe khoang kho báu kì lạ trước các nước láng giềng",
+          "Mong muốn nhanh chóng từ bỏ cuộc sống bình dị để đi du ngoạn"
+        ],
+        "k": "A",
+        "e": "Tiếng đàn giải vây và niêu cơm thần là biểu tượng độc đáo cho sức mạnh cảm hóa bằng hòa bình và lòng nhân ái của dân tộc ta.",
+        "s": "Ngữ Văn 6",
+        "h": "Ý nghĩa tiếng đàn và niêu cơm"
+      },
+      {
+        "c": "NV6-B08-008",
+        "d": "application",
+        "p": "Trước câu đố khó của sứ thần nước ngoài (\"xâu sợi chỉ mềm qua đường ruột con ốc xoắn\"), em bé đã giải quyết bằng cách nào?",
+        "o": [
+          "Đốt lửa hơ nóng con ốc cho mềm ra rồi dùng que chọc thẳng",
+          "Đập vỡ vỏ con ốc rồi luồn thẳng sợi chỉ qua bằng kim khâu",
+          "Từ chối trả lời và nhờ trạng nguyên của triều đình giải hộ",
+          "Dùng bài đồng dao gợi ý buộc sợi chỉ vào chân con kiến rồi bôi mỡ ở đầu kia để kiến tự bò xuyên qua ruột ốc"
+        ],
+        "k": "D",
+        "e": "Cách giải bằng con kiến và giọt mỡ chứng tỏ trí thông minh linh hoạt, gắn liền với hiểu biết tự nhiên dân gian.",
+        "s": "Ngữ Văn 6",
+        "h": "Cách giải câu đố của em bé"
+      },
+      {
+        "c": "NV6-B08-009",
+        "d": "application",
+        "p": "Trong hai câu sau, câu nào có từ \"tử\" mang nghĩa \"con\" (như trong mẫu tử) chứ không phải nghĩa \"chết\"?",
+        "o": [
+          "Bệnh nhân được bác sĩ tận tình cứu chữa thoát khỏi cửa tử.",
+          "Tình mẫu tử thiêng liêng là nguồn sức mạnh nâng đỡ mỗi con người suốt cuộc đời.",
+          "Các chiến sĩ quyết tử để bảo vệ từng tấc đất thiêng liêng của Tổ quốc.",
+          "Số người tử vong do tai nạn giao thông đã giảm rõ rệt nhờ đội mũ bảo hiểm."
+        ],
+        "k": "B",
+        "e": "Trong \"mẫu tử\" (mẹ con), \"tử\" nghĩa là con; ở ba câu kia, \"tử\" đều mang nghĩa chết/cái chết.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân biệt từ Hán Việt đồng âm"
+      },
+      {
+        "c": "NV6-B08-010",
+        "d": "application",
+        "p": "Khi đóng vai một nhân vật (ví dụ: đóng vai Thạch Sanh hoặc Cô Tấm) để kể lại một truyện cổ tích, yêu cầu quan trọng nhất cần tuân thủ là gì?",
+        "o": [
+          "Sử dụng ngôi kể thứ ba (\"anh ta\", \"nàng ấy\") từ đầu đến cuối bài",
+          "Thay đổi toàn bộ cốt truyện gốc và biến các nhân vật tốt thành kẻ xấu",
+          "Sử dụng ngôi kể thứ nhất (\"tôi\"), giữ đúng các sự việc cốt lõi của truyện gốc nhưng bộc lộ tự nhiên tâm trạng, suy nghĩ từ góc nhìn của nhân vật đó",
+          "Chỉ chép lại nguyên văn sách giáo khoa mà không thêm sắc thái cảm xúc của nhân vật"
+        ],
+        "k": "C",
+        "e": "Đóng vai kể chuyện giúp câu chuyện dân gian thêm gần gũi khi người kể sống trong tâm trạng nhân vật mà vẫn tôn trọng mạch truyện gốc.",
+        "s": "Ngữ Văn 6",
+        "h": "Kĩ năng đóng vai kể truyện cổ tích"
+      },
+      {
+        "c": "NV6-B08-011",
+        "d": "application",
+        "p": "Trong câu \"Nhờ tiếng đàn thần kì ấy, mười tám nước chư hầu phải rút quân về nước\", trạng ngữ ở đầu câu biểu thị ý nghĩa gì?",
+        "o": [
+          "Nguyên nhân / Phương tiện giúp đạt được kết quả",
+          "Mục đích tương lai chưa xảy ra",
+          "Nhượng bộ trái ngược với kết quả",
+          "Địa điểm diễn ra cuộc chiến đấu"
+        ],
+        "k": "A",
+        "e": "Quan hệ từ \"Nhờ\" mở đầu trạng ngữ chỉ nguyên nhân tích cực/phương tiện dẫn đến kết quả rút quân.",
+        "s": "Ngữ Văn 6",
+        "h": "Chức năng của trạng ngữ"
+      },
+      {
+        "c": "NV6-B08-012",
+        "d": "application",
+        "p": "Trong truyện \"Cây khế\", chi tiết hai anh em phản ứng khác nhau trước cùng một cơ hội từ chim thần có tác dụng giáo dục điều gì?",
+        "o": [
+          "Khẳng định chim phượng hoàng không biết phân biệt người tốt kẻ xấu",
+          "Phê phán thói tham lam, ích kỉ dẫn tới tự chuốc họa vào thân và ca ngợi lối sống hiền lành, biết đủ, giữ lời hứa",
+          "Cho rằng chỉ có người em út mới được phép đi ra đảo lấy vàng",
+          "Khuyên mọi người không bao giờ nên trồng cây ăn quả quanh nhà"
+        ],
+        "k": "B",
+        "e": "Cặp nhân vật đối lập (người anh tham lam – người em hiền hậu) làm nổi bật bài học đạo đức giản dị mà sâu sắc.",
+        "s": "Ngữ Văn 6",
+        "h": "Ý nghĩa đối lập nhân vật Cây khế"
+      },
+      {
+        "c": "NV6-B08-013",
+        "d": "advanced",
+        "p": "Vì sao trong phần kết truyện \"Em bé thông minh\", việc thử thách đặt ra từ \"sứ thần nước ngoài\" chứ không chỉ dừng ở \"viên quan trong nước\" lại làm tăng giá trị của câu chuyện?",
+        "o": [
+          "Vì tác giả muốn kể thêm một chuyến du lịch ra nước ngoài của em bé",
+          "Vì viên quan không được phép nói chuyện với các em nhỏ ở vùng quê",
+          "Nâng tầm trí tuệ dân gian bình dị thành sức mạnh bảo vệ danh dự, chủ quyền quốc gia trong tình huống bang giao hiểm hóc",
+          "Vì người dân trong nước hoàn toàn không biết chơi trò đố vui"
+        ],
+        "k": "C",
+        "e": "Bốn chặng thử thách tăng cấp từ gia đình → làng xóm → nhà vua → sứ thần nước ngoài tôn vinh trí tuệ dân tộc vượt lên mọi lễ nghi quyền uy.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân tích kết cấu tăng cấp"
+      },
+      {
+        "c": "NV6-B08-014",
+        "d": "advanced",
+        "p": "So sánh \"Thạch Sanh\" (cổ tích thần kì) và \"Thánh Gióng\" (truyền thuyết) về cách kết thúc, sự khác biệt lớn nhất là gì?",
+        "o": [
+          "Thạch Sanh lên ngôi hưởng hạnh phúc trần thế theo ước mơ công lí cổ tích; còn Thánh Gióng bay về trời hóa bất tử trong tâm thức sử thi dân tộc",
+          "Truyện Thánh Gióng là truyện cười còn Thạch Sanh là văn bản nghị luận",
+          "Thạch Sanh hoàn toàn không dùng bất kì bảo vật thần kì nào còn Thánh Gióng thì có",
+          "Thánh Gióng kết hôn với công chúa còn Thạch Sanh đi tu trên đỉnh núi cao"
+        ],
+        "k": "A",
+        "e": "Kết thúc khác nhau phản ánh đặc trưng thể loại: truyền thuyết hướng về chiến công lịch sử bất tử, cổ tích hướng về công bằng hạnh phúc cá nhân.",
+        "s": "Ngữ Văn 6",
+        "h": "So sánh truyền thuyết và cổ tích"
+      },
+      {
+        "c": "NV6-B08-015",
+        "d": "advanced",
+        "p": "Nếu đóng vai Lý Thông (nhân vật phản diện) để tự kể lại truyện \"Thạch Sanh\", cách viết nào phù hợp nhất về nghệ thuật kể chuyện?",
+        "o": [
+          "Giữ đúng các sự việc đã làm với Thạch Sanh (lừa thế mạng, cướp công) nhưng thể hiện giọng tự thú, ân hận khi nhìn lại lòng tham mù quáng của bản thân",
+          "Chuyển câu chuyện thành bài thuyết minh về cách nấu cơm niêu",
+          "Kể rằng Thạch Sanh là kẻ xấu chuyên đi cướp công của mình",
+          "Xuyên tạc rằng chính Lý Thông mới là người chém chằn tinh và cứu công chúa"
+        ],
+        "k": "A",
+        "e": "Đóng vai nhân vật phản diện cần trung thực với sự kiện gốc và có góc nhìn tự soi chiếu để giữ đúng giá trị nhân văn của truyện.",
+        "s": "Ngữ Văn 6",
+        "h": "Kĩ năng nhập vai sáng tạo"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan6-c3",
+    "lesson": {
+      "code": "nguvan6-b09",
+      "title": "Bài 8. Khác biệt và gần gũi",
+      "seq": 9,
+      "subtitle": "Đọc hiểu văn bản nghị luận xã hội (Xem người ta kìa!, Hai loại khác biệt) và truyện ngắn (Bức tranh/hoặc tình huống giao tiếp), chuỗi từ ngữ liên kết – câu ghép/mở rộng thành phần chính bằng cụm từ và viết bài văn trình bày ý kiến về một hiện tượng đời sống",
+      "concepts": [
+        "Văn bản nghị luận: ý kiến, lí lẽ, bằng chứng",
+        "Mở rộng thành phần chính bằng cụm từ",
+        "Viết bài văn trình bày ý kiến"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV6-B09-001",
+        "d": "basic",
+        "p": "Ba yếu tố cốt lõi cấu thành một văn bản nghị luận gồm những gì?",
+        "o": [
+          "Nhân vật, cốt truyện và lời đối thoại",
+          "Số liệu bảng biểu, hình vẽ và chú thích ảnh",
+          "Ý kiến (luận điểm), lí lẽ và bằng chứng",
+          "Vần lưng, nhịp chẵn và quy luật bằng trắc"
+        ],
+        "k": "C",
+        "e": "Trong văn bản nghị luận, người viết nêu ý kiến rồi dùng lí lẽ hợp lí và bằng chứng xác thực để thuyết phục người đọc.",
+        "s": "Ngữ Văn 6",
+        "h": "Yếu tố cốt lõi văn bản nghị luận",
+        "fig": {
+          "type": "table",
+          "title": "Cấu trúc Văn bản Nghị luận",
+          "head": [
+            "Thành phần",
+            "Vai trò chính"
+          ],
+          "rows": [
+            [
+              "Ý kiến (Luận điểm)",
+              "Quan điểm khẳng định"
+            ],
+            [
+              "Lí lẽ",
+              "Giải thích, lập luận"
+            ],
+            [
+              "Bằng chứng",
+              "Ví dụ, sự thật đúng"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV6-B09-002",
+        "d": "basic",
+        "p": "Trong văn bản \"Xem người ta kìa!\" (Lạc Thanh), điều khiến nhân vật \"tôi\" hồi nhỏ từng cảm thấy khó chịu là gì?",
+        "o": [
+          "Thường xuyên bị mẹ đem ra so sánh với những người khác (\"xem người ta kìa\")",
+          "Bị bạn bè trêu chọc vì viết chữ chưa đẹp",
+          "Phải chuyển trường nhiều lần khiến không có bạn thân",
+          "Không được mẹ mua cho sách truyện mới vào dịp đầu năm học"
+        ],
+        "k": "A",
+        "e": "Câu nói \"Xem người ta kìa!\" lặp đi lặp lại khiến đứa trẻ cảm thấy tổn thương, tự ti trước sự so sánh của người lớn.",
+        "s": "Ngữ Văn 6",
+        "h": "Nội dung văn bản Xem người ta kìa"
+      },
+      {
+        "c": "NV6-B09-003",
+        "d": "basic",
+        "p": "Theo văn bản \"Hai loại khác biệt\" (Giong-mi Mun), hai loại khác biệt được tác giả phân biệt rõ là gì?",
+        "o": [
+          "Khác biệt giữa thời tiết mùa xuân và mùa đông ở miền Bắc",
+          "Khác biệt giữa môn Toán và môn Văn ở bậc trung học cơ sở",
+          "Khác biệt giữa văn bản truyện cổ tích và văn bản thơ lục bát",
+          "Khác biệt vô nghĩa (lố bịch, phô trương để gây chú ý) và khác biệt có ý nghĩa (tạo ra giá trị tích cực, bản sắc riêng đáng trân trọng)"
+        ],
+        "k": "D",
+        "e": "Tác giả phân tích hai dạng khác biệt để khuyên học sinh hướng tới sự khác biệt tích cực, có giá trị.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân biệt hai loại khác biệt"
+      },
+      {
+        "c": "NV6-B09-004",
+        "d": "basic",
+        "p": "Xét câu: \"Những hành động sẻ chia chân thành ấy đã giúp bạn nhỏ tự tin hòa nhập\". Chủ ngữ của câu đã được mở rộng bằng loại cụm từ nào?",
+        "o": [
+          "Cụm tính từ",
+          "Cụm danh từ",
+          "Một từ đơn duy nhất",
+          "Cụm động từ"
+        ],
+        "k": "B",
+        "e": "Danh từ trung tâm là \"hành động\" kết hợp định ngữ trước và sau tạo thành cụm danh từ làm chủ ngữ giàu thông tin.",
+        "s": "Ngữ Văn 6",
+        "h": "Mở rộng thành phần chính câu"
+      },
+      {
+        "c": "NV6-B09-005",
+        "d": "basic",
+        "p": "Trong văn nghị luận, \"bằng chứng\" là gì?",
+        "o": [
+          "Những lời khen ngợi chung chung không gắn với sự kiện nào",
+          "Những ví dụ thực tế, sự việc có thật, số liệu hoặc trích dẫn cụ thể dùng để chứng minh cho lí lẽ",
+          "Những câu hỏi mở đặt ra ở phần kết thúc bài viết",
+          "Những giả định tưởng tượng không có căn cứ ngoài đời"
+        ],
+        "k": "B",
+        "e": "Bằng chứng giúp ý kiến và lí lẽ trở nên đáng tin cậy, thuyết phục hơn.",
+        "s": "Ngữ Văn 6",
+        "h": "Khái niệm bằng chứng nghị luận"
+      },
+      {
+        "c": "NV6-B09-006",
+        "d": "basic",
+        "p": "Thông điệp nhân văn lớn nhất từ bài \"Xem người ta kìa!\" gửi gắm tới cả cha mẹ và học sinh là gì?",
+        "o": [
+          "Mọi học sinh đều phải đạt điểm cao nhất ở tất cả các môn như nhau",
+          "Người khác giỏi hơn đồng nghĩa với việc bản thân không còn giá trị gì",
+          "Cha mẹ không bao giờ nên trò chuyện về việc học của con cái",
+          "Mỗi người là một cá thể độc đáo có thế mạnh riêng, cần tôn trọng sự khác biệt và không so sánh phiến diện gây tổn thương nhau"
+        ],
+        "k": "D",
+        "e": "Thấu hiểu giá trị riêng của từng cá nhân giúp tạo nên sự gắn kết và tôn trọng lẫn nhau.",
+        "s": "Ngữ Văn 6",
+        "h": "Thông điệp tôn trọng khác biệt"
+      },
+      {
+        "c": "NV6-B09-007",
+        "d": "application",
+        "p": "Vì sao khi nêu bằng chứng trong bài \"Xem người ta kìa!\", tác giả kể lại chuyện cô bạn học giỏi nhưng rụt rè, rồi người anh họ chơi thể thao giỏi nhưng viết văn chưa hay?",
+        "o": [
+          "Để chứng minh một cách thuyết phục rằng không ai hoàn hảo ở mọi lĩnh vực và mỗi người đều có ưu điểm, khuyết điểm riêng",
+          "Để kể một câu chuyện trinh thám li kì cho người đọc giải trí",
+          "Để chứng minh môn thể thao không cần thiết bằng môn Ngữ văn",
+          "Để chê bai khuyết điểm của những người thân quen xung quanh tác giả"
+        ],
+        "k": "A",
+        "e": "Những ví dụ gần gũi thực tế là bằng chứng xác đáng bác bỏ cách nhìn so sánh một chiều.",
+        "s": "Ngữ Văn 6",
+        "h": "Tác dụng của bằng chứng thực tế"
+      },
+      {
+        "c": "NV6-B09-008",
+        "d": "application",
+        "p": "Một bạn học sinh cố tình nhuộm tóc sặc sỡ trái nội quy và nói chuyện ồn ào trong giờ học để chứng tỏ mình \"cá tính\". Theo bài \"Hai loại khác biệt\", hành động đó thuộc loại nào?",
+        "o": [
+          "Khác biệt có ý nghĩa giúp nâng cao thành tích học tập của tập thể",
+          "Biểu hiện của tinh thần hợp tác và tôn trọng nội quy lớp học",
+          "Sự sáng tạo nghệ thuật đột phá cần được tuyên dương trước toàn trường",
+          "Khác biệt vô nghĩa (chỉ nhằm gây sự chú ý bề ngoài, làm phiền người khác mà không tạo ra giá trị tốt đẹp)"
+        ],
+        "k": "D",
+        "e": "Khác biệt chỉ chạy theo sự lập dị bề ngoài, vi phạm chuẩn mực chung thuộc loại khác biệt vô nghĩa.",
+        "s": "Ngữ Văn 6",
+        "h": "Vận dụng phân loại khác biệt"
+      },
+      {
+        "c": "NV6-B09-009",
+        "d": "application",
+        "p": "So với câu ngắn \"Bạn Nam học tốt\", câu mở rộng thành phần chính: \"Bạn Nam – lớp trưởng gương mẫu của lớp 6A – luôn học tập rất chăm chỉ và sáng tạo\" mang lại ưu thế gì?",
+        "o": [
+          "Biến câu trần thuật thành câu cầu khiến ra lệnh cho người nghe",
+          "Cung cấp thông tin cụ thể hơn về đối tượng được nói đến và làm rõ cách thức, mức độ của hành động",
+          "Làm sai lệch hoàn toàn cấu trúc ngữ pháp chủ ngữ – vị ngữ",
+          "Lược bỏ bớt toàn bộ thông tin về chủ thể hành động"
+        ],
+        "k": "B",
+        "e": "Mở rộng chủ ngữ bằng cụm danh từ và vị ngữ bằng cụm động từ/tính từ giúp câu văn giàu thông tin và sinh động hơn.",
+        "s": "Ngữ Văn 6",
+        "h": "Tác dụng mở rộng thành phần câu"
+      },
+      {
+        "c": "NV6-B09-010",
+        "d": "application",
+        "p": "Khi viết bài văn trình bày ý kiến về một hiện tượng đời sống (ví dụ: hiện tượng vứt rác bừa bãi ở sân trường), phần Thân bài cần triển khai theo hướng nào?",
+        "o": [
+          "Chép lại một bài thơ về mùa thu rồi nêu cảm nhận cá nhân",
+          "Nêu thực trạng và nguyên nhân → Phân tích hậu quả bằng lí lẽ và bằng chứng cụ thể → Đề xuất giải pháp khắc phục khả thi",
+          "Chỉ kể lại câu chuyện cổ tích Tấm Cám từ đầu đến cuối",
+          "Khen ngợi hành vi xả rác là thói quen tiết kiệm thời gian"
+        ],
+        "k": "B",
+        "e": "Bố cục logic (thực trạng – lí lẽ/bằng chứng tác hại – giải pháp) giúp bài nghị luận đời sống thuyết phục và rõ ràng.",
+        "s": "Ngữ Văn 6",
+        "h": "Lập dàn ý bài trình bày ý kiến"
+      },
+      {
+        "c": "NV6-B09-011",
+        "d": "application",
+        "p": "Trong một cuộc thảo luận nhóm về thói quen đọc sách, khi bạn đưa ra ý kiến khác với mình, cách ứng xử văn minh nhất là gì?",
+        "o": [
+          "Lắng nghe hết ý kiến của bạn, ghi nhận điểm hợp lí rồi trao đổi lại nhẹ nhàng bằng lí lẽ và dẫn chứng tôn trọng nhau",
+          "Ngắt lời ngay lập tức và chê ý kiến của bạn là lạc hậu",
+          "Cười đùa trêu chọc giọng nói của bạn trước cả lớp",
+          "Im lặng giận dỗi và từ chối làm việc nhóm trong những tiết sau"
+        ],
+        "k": "A",
+        "e": "Tôn trọng sự khác biệt trong đối thoại là nền tảng của giao tiếp văn minh và tư duy phản biện.",
+        "s": "Ngữ Văn 6",
+        "h": "Kĩ năng nói và nghe thảo luận"
+      },
+      {
+        "c": "NV6-B09-012",
+        "d": "application",
+        "p": "Đoạn văn nào dưới đây mở rộng thành phần vị ngữ bằng một cụm tính từ giàu sức biểu cảm?",
+        "o": [
+          "Các bạn học sinh đang xếp hàng vào lớp.",
+          "Cô bé cười.",
+          "Ánh mắt của cô bé rạng rỡ niềm tin và ấm áp tình người.",
+          "Ngoài sân trường, tiếng trống vang lên."
+        ],
+        "k": "C",
+        "e": "Vị ngữ \"rạng rỡ niềm tin và ấm áp tình người\" sử dụng các cụm tính từ mở rộng làm rõ sắc thái cảm xúc.",
+        "s": "Ngữ Văn 6",
+        "h": "Thực hành mở rộng vị ngữ"
+      },
+      {
+        "c": "NV6-B09-013",
+        "d": "advanced",
+        "p": "Mối quan hệ biện chứng giữa hai nửa tiêu đề \"Khác biệt\" và \"Gần gũi\" trong Bài 8 được hiểu sâu sắc nhất là gì?",
+        "o": [
+          "Người có cá tính khác biệt thì không bao giờ có thể kết bạn với bất kì ai",
+          "Muốn gần gũi với bạn bè thì bắt buộc phải từ bỏ mọi sở thích cá nhân để giống hệt số đông",
+          "Tôn trọng nét riêng của mỗi người không làm chúng ta xa cách mà trái lại giúp mọi người hiểu nhau, bổ sung cho nhau để sống hòa hợp và gắn bó hơn",
+          "Sự gần gũi chỉ tồn tại giữa những người có cùng điểm số kiểm tra"
+        ],
+        "k": "C",
+        "e": "Hòa hợp trong đa dạng: mỗi người giữ bản sắc tích cực nhưng vẫn kết nối với cộng đồng bằng lòng thấu cảm.",
+        "s": "Ngữ Văn 6",
+        "h": "Tổng hợp tư tưởng chủ đề Bài 8"
+      },
+      {
+        "c": "NV6-B09-014",
+        "d": "advanced",
+        "p": "Đọc ý kiến: \"Không nên dùng điện thoại trong giờ ra chơi vì rất có hại\". Nếu giữ nguyên ý kiến này nhưng nâng cấp thành một đoạn nghị luận thuyết phục, em cần bổ sung yếu tố nào là quan trọng nhất?",
+        "o": [
+          "Dùng nhiều từ ngữ mắng mỏ nặng nề những bạn có điện thoại",
+          "Lặp lại câu khẳng định đó đúng mười lần liên tiếp để gây ấn tượng",
+          "Bổ sung lí lẽ (giảm giao tiếp trực tiếp, mỏi mắt, mất cơ hội vận động) và bằng chứng cụ thể (tỉ lệ học sinh ít chơi thể thao khi dán mắt vào màn hình)",
+          "Thêm các chi tiết tưởng tượng về người ngoài hành tinh sử dụng điện thoại"
+        ],
+        "k": "C",
+        "e": "Một ý kiến chỉ có sức nặng thuyết phục khi đi kèm hệ thống lí lẽ logic và bằng chứng thực tế xác đáng.",
+        "s": "Ngữ Văn 6",
+        "h": "Nâng cao chất lượng lập luận"
+      },
+      {
+        "c": "NV6-B09-015",
+        "d": "advanced",
+        "p": "Nhận xét nào đúng nhất về giọng điệu nghị luận trong văn bản \"Xem người ta kìa!\"?",
+        "o": [
+          "Hoàn toàn phi thực tế vì không gắn với tình huống gia đình nào",
+          "Châm biếm cay độc nhằm hạ thấp vai trò của người làm cha mẹ",
+          "Gay gắt, khô khan như một bản văn bản quy phạm pháp luật hành chính",
+          "Thủ thỉ, gần gũi, xuất phát từ trải nghiệm chân thực tuổi thơ kết hợp lập luận thấu tình đạt lí nên dễ đi vào lòng người đọc"
+        ],
+        "k": "D",
+        "e": "Sự kết hợp giữa tự sự trải nghiệm cá nhân và nghị luận nhân văn giúp bài viết vừa có lí vừa có tình.",
+        "s": "Ngữ Văn 6",
+        "h": "Đánh giá giọng điệu văn nghị luận"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan6-c4",
+    "lesson": {
+      "code": "nguvan6-b10",
+      "title": "Bài 9. Trái Đất – Ngôi nhà chung",
+      "seq": 10,
+      "subtitle": "Đọc hiểu văn bản thông tin (Trái Đất – cái nôi của sự sống, Các loài chung sống với nhau như thế nào?), sa-pô – nhan đề – đề mục – phương tiện phi ngôn ngữ, từ mượn và viết biên bản một cuộc họp hoặc thảo luận",
+      "concepts": [
+        "Cấu trúc văn bản thông tin & sa-pô",
+        "Từ mượn & quy tắc viết",
+        "Viết biên bản cuộc họp"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV6-B10-001",
+        "d": "basic",
+        "p": "Trong văn bản thông tin (như \"Trái Đất – cái nôi của sự sống\"), đoạn chữ in đậm đặt ngay dưới nhan đề nhằm giới thiệu tóm tắt nội dung và thu hút người đọc gọi là gì?",
+        "o": [
+          "Sa-pô (Sapo)",
+          "Chú thích nguồn ảnh",
+          "Đề mục phụ ở cuối trang",
+          "Biên bản ghi nhớ"
+        ],
+        "k": "A",
+        "e": "Sa-pô là đoạn mở đầu ngắn gọn đặt dưới nhan đề văn bản thông tin, báo chí để tóm tắt vấn đề trọng tâm.",
+        "s": "Ngữ Văn 6",
+        "h": "Thành phần văn bản thông tin",
+        "fig": {
+          "type": "table",
+          "title": "Cấu trúc Văn bản Thông tin",
+          "head": [
+            "Thành phần",
+            "Chức năng chính"
+          ],
+          "rows": [
+            [
+              "Nhan đề",
+              "Nêu chủ đề bao quát"
+            ],
+            [
+              "Sa-pô",
+              "Tóm tắt, gợi mở ý"
+            ],
+            [
+              "Đề mục",
+              "Chia nhỏ các ý chính"
+            ],
+            [
+              "Hình, biểu đồ",
+              "Minh họa số liệu"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV6-B10-002",
+        "d": "basic",
+        "p": "Theo văn bản \"Trái Đất – cái nôi của sự sống\" (Hồ Thanh Trang), yếu tố tự nhiên nào chiếm gần 3/4 bề mặt Trái Đất và là điều kiện sống còn cho mọi sinh vật?",
+        "o": [
+          "Kim loại nặng trong lòng đất",
+          "Các khối băng từ sao Hỏa",
+          "Khí các-bo-níc đậm đặc",
+          "Nước"
+        ],
+        "k": "D",
+        "e": "Nước chiếm gần 3/4 diện tích bề mặt hành tinh xanh, duy trì sự sống cho thực vật, động vật và con người.",
+        "s": "Ngữ Văn 6",
+        "h": "Thông tin trong bài học"
+      },
+      {
+        "c": "NV6-B10-003",
+        "d": "basic",
+        "p": "Văn bản \"Các loài chung sống với nhau như thế nào?\" (Ngọc Phú) đề cập đến giá trị cốt lõi nào của tự nhiên?",
+        "o": [
+          "Các loài động vật ăn thịt cần tiêu diệt hết các loài ăn cỏ",
+          "Sự đa dạng sinh học và mối quan hệ nương tựa, cân bằng sinh thái giữa các loài trên Trái Đất",
+          "Con người có thể sống hoàn toàn tách biệt khỏi mọi loài sinh vật khác",
+          "Chỉ có những loài cây trồng lấy gỗ mới cần được bảo vệ"
+        ],
+        "k": "B",
+        "e": "Mọi loài sinh vật đều có mắt xích vai trò trong hệ sinh thái; mất đi một loài sẽ phá vỡ cân bằng tự nhiên.",
+        "s": "Ngữ Văn 6",
+        "h": "Thông điệp đa dạng sinh học"
+      },
+      {
+        "c": "NV6-B10-004",
+        "d": "basic",
+        "p": "Từ nào sau đây trong tiếng Việt là từ mượn có nguồn gốc từ tiếng Ấn – Âu (như tiếng Anh, tiếng Pháp)?",
+        "o": [
+          "lung linh, rì rào, xào xạc",
+          "làng xóm, cánh đồng, bến nước",
+          "ô-xi, ra-đi-ô, in-tơ-nét",
+          "sơn thủy, quốc gia, đồng bào"
+        ],
+        "k": "C",
+        "e": "Các thuật ngữ khoa học, công nghệ hiện đại như \"ô-xi\", \"ra-đi-ô\", \"in-tơ-nét\" được tiếng Việt tiếp nhận từ ngôn ngữ Ấn – Âu.",
+        "s": "Ngữ Văn 6",
+        "h": "Nhận diện nguồn gốc từ mượn"
+      },
+      {
+        "c": "NV6-B10-005",
+        "d": "basic",
+        "p": "Trong một bản biên bản cuộc họp hoặc cuộc thảo luận nhóm, thông tin bắt buộc nào không thể thiếu ở phần cuối?",
+        "o": [
+          "Thời gian kết thúc cuộc họp cùng họ tên, chữ kí xác nhận của Chủ tọa (người chủ trì) và Thư kí (người ghi biên bản)",
+          "Danh sách các món ăn yêu thích của từng thành viên trong lớp",
+          "Một bài thơ lục bát tự sáng tác về phong cảnh quê hương",
+          "Đoạn văn miêu tả ngoại hình thầy cô giáo"
+        ],
+        "k": "A",
+        "e": "Biên bản là văn bản ghi chép trung thực diễn biến cuộc họp nên cần xác nhận của người chủ trì và thư kí.",
+        "s": "Ngữ Văn 6",
+        "h": "Thể thức biên bản cuộc họp"
+      },
+      {
+        "c": "NV6-B10-006",
+        "d": "basic",
+        "p": "Trong văn bản thông tin, hình ảnh, bảng số liệu, sơ đồ, biểu đồ được gọi chung là gì?",
+        "o": [
+          "Cốt truyện đa tuyến",
+          "Thành phần biệt lập",
+          "Phương tiện giao tiếp phi ngôn ngữ",
+          "Biện pháp tu từ ẩn dụ"
+        ],
+        "k": "C",
+        "e": "Hình vẽ, ảnh, biểu đồ, bảng biểu là phương tiện phi ngôn ngữ phối hợp với kênh chữ để truyền tải thông tin trực quan.",
+        "s": "Ngữ Văn 6",
+        "h": "Khái niệm phương tiện phi ngôn ngữ"
+      },
+      {
+        "c": "NV6-B10-007",
+        "d": "application",
+        "p": "Vì sao văn bản \"Trái Đất – cái nôi của sự sống\" sử dụng lần lượt các đề mục rõ ràng (như \"Trái Đất trong hệ Mặt Trời\", \"Vị thần hộ mệnh của sự sống...\", \"Con người trên Trái Đất\")?",
+        "o": [
+          "Giúp người đọc dễ theo dõi mạch thông tin logic từ tổng quan vị trí vũ trụ tới điều kiện sự sống và trách nhiệm của con người",
+          "Để biến văn bản thông tin khoa học thành một kịch bản sân khấu hài hước",
+          "Để giấu bớt các số liệu quan trọng ở phần giữa văn bản",
+          "Vì tác giả quên mất cách ghép các đoạn văn lại thành một bài hoàn chỉnh"
+        ],
+        "k": "A",
+        "e": "Hệ thống đề mục tổ chức tri thức khoa học theo từng mảng rõ ràng, thuận tiện tra cứu và ghi nhớ.",
+        "s": "Ngữ Văn 6",
+        "h": "Tác dụng của đề mục"
+      },
+      {
+        "c": "NV6-B10-008",
+        "d": "application",
+        "p": "Quan sát biểu đồ tỉ lệ nhóm sinh vật minh họa trong một hệ sinh thái rừng nhiệt đới sau. Nhóm nào có tỉ trọng đóng góp lớn nhất?",
+        "o": [
+          "Thực vật bản địa (48%)",
+          "Chim và Thú (16%)",
+          "Nấm và Vi sinh vật (10%)",
+          "Côn trùng (26%)"
+        ],
+        "k": "A",
+        "e": "Trên biểu đồ cột, cột Thực vật bản địa đạt 48%, cao nhất trong bốn nhóm được thống kê.",
+        "s": "Ngữ Văn 6",
+        "h": "Đọc biểu đồ trong văn bản thông tin",
+        "fig": {
+          "type": "bars",
+          "title": "Cơ cấu Sinh vật Hệ sinh thái (%)",
+          "labels": [
+            "Thực vật",
+            "Côn trùng",
+            "Chim/Thú",
+            "Nấm/VSV"
+          ],
+          "series": [
+            {
+              "values": [
+                48,
+                26,
+                16,
+                10
+              ]
+            }
+          ],
+          "unit": "%"
+        }
+      },
+      {
+        "c": "NV6-B10-009",
+        "d": "application",
+        "p": "Nguyên tắc đúng khi sử dụng từ mượn trong giao tiếp và viết văn tiếng Việt là gì?",
+        "o": [
+          "Thay thế toàn bộ các từ thuần Việt quen thuộc bằng từ tiếng Anh",
+          "Cố tình pha trộn nhiều ngoại ngữ trong một câu văn để tỏ ra sành điệu",
+          "Cấm sử dụng tất cả các từ Hán Việt như \"giáo dục\", \"hòa bình\"",
+          "Chỉ mượn từ cần thiết khi tiếng Việt chưa có từ tương đương sát nghĩa; tránh lạm dụng từ nước ngoài gây khó hiểu và mất sự trong sáng tiếng Việt"
+        ],
+        "k": "D",
+        "e": "Giữ gìn sự trong sáng của tiếng Việt đòi hỏi sử dụng từ mượn đúng lúc, đúng chỗ, không sính ngoại quá mức.",
+        "s": "Ngữ Văn 6",
+        "h": "Nguyên tắc dùng từ mượn"
+      },
+      {
+        "c": "NV6-B10-010",
+        "d": "application",
+        "p": "Khi ghi biên bản một buổi thảo luận lớp về kế hoạch \"Ngày hội Trái Đất xanh\", người làm thư kí cần ghi chép nội dung theo cách nào?",
+        "o": [
+          "Chỉ ghi ý kiến của những bạn thân với mình và bỏ qua ý kiến khác",
+          "Ghi theo trình tự đảo lộn từ kết luận ngược về phần chào hỏi",
+          "Ghi trung thực, khách quan, ngắn gọn đầy đủ các ý kiến phát biểu và kết luận thống nhất, không tự ý sửa đổi ý người khác",
+          "Dùng nhiều biện pháp so sánh hoa mĩ, tưởng tượng thêm lời nói chưa từng phát biểu"
+        ],
+        "k": "C",
+        "e": "Tính chính xác, khách quan và đầy đủ là tiêu chuẩn hàng đầu của một biên bản.",
+        "s": "Ngữ Văn 6",
+        "h": "Kĩ năng ghi biên bản trung thực"
+      },
+      {
+        "c": "NV6-B10-011",
+        "d": "application",
+        "p": "Nếu số lượng một loài thiên địch (ví dụ: chim ăn sâu) trong khu vườn bị suy giảm nghiêm trọng do săn bắt, điều gì dễ xảy ra tiếp theo theo quy luật cân bằng sinh thái?",
+        "o": [
+          "Cây trồng tự động phát triển xanh tốt gấp đôi nhờ yên tĩnh hơn",
+          "Sâu bọ sinh sôi mất kiểm soát, phá hoại cây trồng và làm ảnh hưởng dây chuyền đến toàn bộ khu vườn",
+          "Các loài cây sẽ tự chuyển sang ăn thịt sâu bọ thay cho chim",
+          "Nước tưới cây trong vườn tự động sạch hơn trước"
+        ],
+        "k": "B",
+        "e": "Trong lưới thức ăn, sự biến mất của một mắt xích kéo theo mất cân bằng dây chuyền cho các loài khác.",
+        "s": "Ngữ Văn 6",
+        "h": "Vận dụng kiến thức cân bằng sinh thái"
+      },
+      {
+        "c": "NV6-B10-012",
+        "d": "application",
+        "p": "Câu văn nào trong văn bản thông tin vừa cung cấp tri thức chính xác vừa gợi thái độ trân trọng bảo vệ hành tinh?",
+        "o": [
+          "Trái Đất có phải là một kho báu vô tận không? Thực tế, nhiều nguồn tài nguyên đang cạn kiệt dần nếu con người khai thác thiếu kiểm soát.",
+          "Trái Đất là hành tinh thứ ba tính từ Mặt Trời theo sách thiên văn.",
+          "Một năm trên Trái Đất gồm khoảng 365 ngày quay quanh Mặt Trời.",
+          "Nước biển có vị mặn tự nhiên do chứa các loại muối khoáng hòa tan."
+        ],
+        "k": "A",
+        "e": "Câu hỏi gợi mở kết hợp thông tin cảnh báo giúp đánh thức ý thức bảo vệ tài nguyên thiên nhiên của người đọc.",
+        "s": "Ngữ Văn 6",
+        "h": "Kết hợp thông tin và thông điệp"
+      },
+      {
+        "c": "NV6-B10-013",
+        "d": "advanced",
+        "p": "Cách đặt nhan đề \"Trái Đất – cái nôi của sự sống\" sử dụng biện pháp tu từ nào và có giá trị gì đối với một văn bản thông tin?",
+        "o": [
+          "Dùng phép nói quá nhằm khẳng định Trái Đất lớn hơn Mặt Trời",
+          "Dùng phép điệp ngữ lặp lại bốn lần để tạo âm điệu bài hát thiếu nhi",
+          "Dùng phép ẩn dụ (\"cái nôi\") gợi hình ảnh ấm áp, bao bọc, qua đó truyền cảm hứng yêu quý Trái Đất ngay từ tiêu đề bài viết khoa học",
+          "Dùng phép chơi chữ đồng âm khiến người đọc hiểu lầm sang đồ gỗ nội thất"
+        ],
+        "k": "C",
+        "e": "Hình ảnh ẩn dụ \"cái nôi\" làm mềm hóa văn phong khoa học, khơi gợi tình cảm gắn bó tự nhiên với hành tinh xanh.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân tích nhan đề giàu hình ảnh"
+      },
+      {
+        "c": "NV6-B10-014",
+        "d": "advanced",
+        "p": "Khi đọc một văn bản thông tin đa phương thức trên báo điện tử hoặc sách mới (gồm chữ, bảng, biểu đồ), cách kết hợp đọc hiểu hiệu quả nhất là gì?",
+        "o": [
+          "Đọc từng chữ từ cuối bài ngược lên đầu bài để tránh bị sa-pô dẫn dắt",
+          "Đọc nhan đề và sa-pô để nắm chủ đề → Đọc đề mục và kênh chữ lấy thông tin cốt lõi → Đối chiếu số liệu/hình ảnh trong biểu đồ để hiểu sâu và kiểm chứng thông tin",
+          "Chỉ học thuộc các con số phần trăm mà không cần biết con số đó nói về sự vật gì",
+          "Chỉ xem hình minh họa màu sắc đẹp rồi bỏ qua toàn bộ phần chữ viết"
+        ],
+        "k": "B",
+        "e": "Kênh chữ và phương tiện phi ngôn ngữ bổ trợ cho nhau tạo nên bức tranh tri thức toàn diện.",
+        "s": "Ngữ Văn 6",
+        "h": "Đọc hiểu văn bản đa phương thức"
+      },
+      {
+        "c": "NV6-B10-015",
+        "d": "advanced",
+        "p": "Tại sao các từ Hán Việt như \"sinh quyển\", \"đa dạng sinh học\", \"tuyệt chủng\" chiếm tỉ lệ cao trong văn bản thông tin khoa học thay vì dùng hoàn toàn từ thuần Việt?",
+        "o": [
+          "Vì các nhà khoa học chỉ muốn học sinh gặp khó khăn khi tra từ điển",
+          "Vì quy định của biên bản bắt buộc mỗi câu phải có ít nhất ba từ Hán Việt",
+          "Vì tiếng Việt không có khả năng biểu đạt bất kì khái niệm thiên nhiên nào",
+          "Vì từ Hán Việt có tính khái quát cao, ngắn gọn, sắc thái trang trọng và chuẩn xác về mặt thuật ngữ khoa học"
+        ],
+        "k": "D",
+        "e": "Hệ thống thuật ngữ Hán Việt góp phần diễn đạt chính xác, cô đọng các khái niệm chuyên ngành.",
+        "s": "Ngữ Văn 6",
+        "h": "Giá trị của lớp từ Hán Việt"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan6-c4",
+    "lesson": {
+      "code": "nguvan6-b11",
+      "title": "Bài 10. Cuốn sách tôi yêu",
+      "seq": 11,
+      "subtitle": "Đọc hiểu văn bản giới thiệu sách và phát triển văn hóa đọc (Mỗi ngày một cuốn sách, Nhà thơ Lò Ngân Sủn – người con của núi), tổng hợp kĩ năng đọc – viết – nói và nghe về sách",
+      "concepts": [
+        "Phương pháp đọc sách hiệu quả",
+        "Giới thiệu một cuốn sách yêu thích",
+        "Văn hóa đọc trong đời sống"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV6-B11-001",
+        "d": "basic",
+        "p": "Bài học số 10 \"Cuốn sách tôi yêu\" trong sách Ngữ văn 6 Kết nối tri thức tập trung hướng dẫn học sinh hoạt động trọng tâm nào?",
+        "o": [
+          "Tổng hợp kiến thức, phát triển niềm yêu thích đọc sách và thực hành giới thiệu cuốn sách yêu thích",
+          "Thực hành giải các phương trình bậc nhất hai ẩn lớp 9",
+          "Soạn thảo hợp đồng mua bán bất động sản thương mại",
+          "Học thuộc lòng toàn bộ bảng tuần hoàn các nguyên tố hóa học"
+        ],
+        "k": "A",
+        "e": "Bài 10 đóng vai trò tổng kết năm học qua chủ đề sách và văn hóa đọc, rèn cả bốn kĩ năng đọc – viết – nói – nghe.",
+        "s": "Ngữ Văn 6",
+        "h": "Mục tiêu Bài 10 Ngữ văn 6"
+      },
+      {
+        "c": "NV6-B11-002",
+        "d": "basic",
+        "p": "Khi đọc một cuốn sách văn học dày nhiều trang, thói quen nào giúp em ghi nhớ sâu sắc nội dung và các chi tiết hay?",
+        "o": [
+          "Chỉ đọc bìa trước và trang mục lục rồi cất sách lên giá ngay",
+          "Vừa xem phim hoạt hình vừa lật thật nhanh các trang sách cho xong",
+          "Xé rời những trang sách mình thích để dán lên cửa sổ",
+          "Đọc chậm có suy ngẫm, ghi chép lại vào sổ tay đọc sách những câu trích dẫn, nhân vật và cảm nhận ấn tượng"
+        ],
+        "k": "D",
+        "e": "Lập sổ tay đọc sách và ghi chú chủ động giúp biến tri thức trong sách thành vốn hiểu biết của bản thân.",
+        "s": "Ngữ Văn 6",
+        "h": "Phương pháp đọc sách hiệu quả"
+      },
+      {
+        "c": "NV6-B11-003",
+        "d": "basic",
+        "p": "Nhà thơ Lò Ngân Sủn – tác giả nổi tiếng với những vần thơ tha thiết về vùng núi cao – là người con của dân tộc nào và quê hương nào?",
+        "o": [
+          "Dân tộc Kinh ở vùng đồng bằng sông Cửu Long",
+          "Dân tộc Khmer ở tỉnh Sóc Trăng",
+          "Dân tộc Giáy ở tỉnh Lào Cai (vùng núi cao Tây Bắc)",
+          "Dân tộc Chăm ở vùng duyên hải Nam Trung Bộ"
+        ],
+        "k": "C",
+        "e": "Lò Ngân Sủn (dân tộc Giáy, quê Lào Cai) được biết đến như \"người con của núi\", giàu bản sắc văn hóa miền biên cương.",
+        "s": "Ngữ Văn 6",
+        "h": "Kiến thức về tác giả Lò Ngân Sủn"
+      },
+      {
+        "c": "NV6-B11-004",
+        "d": "basic",
+        "p": "Khi giới thiệu một cuốn sách yêu thích trước lớp (kĩ năng Nói và Nghe), thông tin nào cần nêu ngay ở phần mở đầu?",
+        "o": [
+          "Giá bán chi tiết của tất cả các loại giấy in trên thị trường",
+          "Danh sách điểm kiểm tra giữa kì của các môn học khác",
+          "Lịch trình xe buýt đi từ nhà em tới cửa hàng sách gần nhất",
+          "Tên cuốn sách, tên tác giả (hoặc dịch giả) và lí do ấn tượng khiến em muốn giới thiệu cuốn sách đó"
+        ],
+        "k": "D",
+        "e": "Mở đầu bài giới thiệu sách cần định danh rõ tên sách, tác giả và khơi gợi sự tò mò của người nghe.",
+        "s": "Ngữ Văn 6",
+        "h": "Mở đầu bài giới thiệu sách"
+      },
+      {
+        "c": "NV6-B11-005",
+        "d": "basic",
+        "p": "Trong bảng gợi ý chọn cách đọc phù hợp với từng loại sách sau, loại sách \"Truyện dài văn học\" nên được đọc theo cách nào?",
+        "o": [
+          "Đọc kĩ từng chương, theo dõi tâm lí nhân vật và cảm nhận vẻ đẹp ngôn từ",
+          "Chỉ nhìn bìa sách để chấm điểm hình thức",
+          "Đọc lướt thật nhanh tiêu đề rồi bỏ qua hoàn toàn cốt truyện",
+          "Chỉ tra mục lục rồi đọc đúng một bảng số liệu thống kê"
+        ],
+        "k": "A",
+        "e": "Mỗi thể loại sách đòi hỏi cách đọc riêng; sách văn học cần sự lắng đọng, đồng cảm cùng nhân vật và ngôn ngữ nghệ thuật.",
+        "s": "Ngữ Văn 6",
+        "h": "Lựa chọn cách đọc theo thể loại",
+        "fig": {
+          "type": "table",
+          "title": "Chọn Cách Đọc Theo Loại Sách",
+          "head": [
+            "Loại sách",
+            "Cách đọc hiệu quả"
+          ],
+          "rows": [
+            [
+              "Truyện văn học",
+              "Đọc sâu, cảm nhận"
+            ],
+            [
+              "Từ điển, tra cứu",
+              "Tra mục lục từ khóa"
+            ],
+            [
+              "Sách khoa học",
+              "Nắm ý chính, sơ đồ"
+            ],
+            [
+              "Tuyển tập thơ",
+              "Đọc chậm, ngẫm vần"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV6-B11-006",
+        "d": "basic",
+        "p": "Câu thành ngữ, tục ngữ nào dưới đây ca ngợi giá trị to lớn của việc đọc sách và học hỏi?",
+        "o": [
+          "Đứng núi này trông núi nọ",
+          "Đi một ngày đàng, học một sàng khôn",
+          "Đẽo cày giữa đường",
+          "Nước đổ đầu vịt"
+        ],
+        "k": "B",
+        "e": "\"Đi một ngày đàng, học một sàng khôn\" đề cao tinh thần ham học hỏi, mở rộng tri thức từ cuộc sống và trang sách.",
+        "s": "Ngữ Văn 6",
+        "h": "Thành ngữ đề cao tri thức"
+      },
+      {
+        "c": "NV6-B11-007",
+        "d": "application",
+        "p": "Một bạn học sinh muốn giới thiệu cuốn \"Dế Mèn phiêu lưu kí\" nhưng lại kể hết sạch mọi tình tiết bí mật đến tận trang cuối cùng khiến các bạn hết háo hức tìm đọc. Bạn ấy nên điều chỉnh phần nội dung thế nào?",
+        "o": [
+          "Chỉ nói về màu sắc bìa sách mà không nhắc gì đến nội dung",
+          "Nên đọc nguyên văn từ trang 1 đến trang cuối trong suốt hai tiết học",
+          "Chỉ tóm tắt ngắn gọn bối cảnh, nhân vật chính và nêu một vài điểm hấp dẫn nhất để khơi gợi sự tò mò tự khám phá ở người nghe",
+          "Không cần nhắc tên tác giả Tô Hoài hay nhân vật Dế Mèn nữa"
+        ],
+        "k": "C",
+        "e": "Giới thiệu sách hay là mở ra cánh cửa gợi tò mò vừa đủ, tôn trọng niềm vui tự đọc của bạn đọc mới.",
+        "s": "Ngữ Văn 6",
+        "h": "Nghệ thuật giới thiệu sách hấp dẫn"
+      },
+      {
+        "c": "NV6-B11-008",
+        "d": "application",
+        "p": "Vì sao bài đọc mở rộng cuối lớp 6 lại giới thiệu chân dung nhà thơ Lò Ngân Sủn – một nhà thơ dân tộc thiểu số gắn bó sâu nặng với núi rừng quê hương?",
+        "o": [
+          "Vì tác giả chỉ viết sách hướng dẫn leo núi dành cho vận động viên",
+          "Vì chỉ có các tác giả sống ở vùng núi cao mới được phép sáng tác thơ",
+          "Vì văn học vùng đồng bằng không có bài thơ nào viết về thiên nhiên",
+          "Giúp học sinh hiểu thêm sự đa dạng, giàu bản sắc của nền văn học Việt Nam và trân trọng tiếng nói văn hóa của các dân tộc anh em"
+        ],
+        "k": "D",
+        "e": "Tiếng thơ Lò Ngân Sủn mang hương sắc núi rừng Tây Bắc, góp phần làm phong phú bức tranh văn hóa 54 dân tộc.",
+        "s": "Ngữ Văn 6",
+        "h": "Ý nghĩa giáo dục văn hóa đa dạng"
+      },
+      {
+        "c": "NV6-B11-009",
+        "d": "application",
+        "p": "Trong hoạt động trưng bày \"Ngày hội với sách\", phương tiện hỗ trợ nào giúp phần thuyết trình giới thiệu sách của nhóm em sinh động và thuyết phục nhất?",
+        "o": [
+          "Mười chiếc bút chì chưa gọt đặt im lặng trên bàn",
+          "Một tập giấy nháp chi chít các phép tính toán học không liên quan",
+          "Cuốn sách thật, thẻ đánh dấu trang (bookmark) tự thiết kế, sơ đồ tóm tắt nhân vật hoặc vài đoạn trích ngắn đọc diễn cảm",
+          "Đoạn ghi âm tiếng ồn ngoài đường phố giờ tan tầm"
+        ],
+        "k": "C",
+        "e": "Kết hợp sách thật, sản phẩm trực quan (sơ đồ, bookmark) và trích đọc diễn cảm giúp bài thuyết trình cuốn hút.",
+        "s": "Ngữ Văn 6",
+        "h": "Thiết kế sản phẩm trưng bày sách"
+      },
+      {
+        "c": "NV6-B11-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ thời gian đọc sách trung bình mỗi tuần của học sinh khối 6 trong một trường học. Thời lượng đọc sách cao nhất rơi vào ngày nào?",
+        "o": [
+          "Thứ Hai (15 phút)",
+          "Thứ Sáu (25 phút)",
+          "Chủ nhật (45 phút)",
+          "Thứ Tư (20 phút)"
+        ],
+        "k": "C",
+        "e": "Cột Chủ nhật cao nhất trên biểu đồ với thời lượng đọc sách trung bình 45 phút.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân tích biểu đồ thói quen đọc sách",
+        "fig": {
+          "type": "bars",
+          "title": "Thời gian Đọc sách Trung bình (phút)",
+          "labels": [
+            "Thứ 2",
+            "Thứ 4",
+            "Thứ 6",
+            "Chủ nhật"
+          ],
+          "series": [
+            {
+              "values": [
+                15,
+                20,
+                25,
+                45
+              ]
+            }
+          ],
+          "unit": "phút"
+        }
+      },
+      {
+        "c": "NV6-B11-011",
+        "d": "application",
+        "p": "Khi viết đoạn văn chia sẻ cảm nghĩ về một nhân vật văn học em yêu thích trong năm lớp 6, cách lập luận nào đạt hiệu quả cao nhất?",
+        "o": [
+          "Chỉ viết một câu khen \"Nhân vật rất tốt\" rồi chuyển sang chủ đề khác",
+          "Bịa đặt thêm nhiều chi tiết không có trong tác phẩm để nhân vật trở nên kì lạ",
+          "Chỉ chép lại tên các nhân vật phụ mà không nêu một hành động nào",
+          "Nêu rõ tên nhân vật, tác phẩm → Chỉ ra những hành động, lời nói, chi tiết tiêu biểu của nhân vật → Lí giải vì sao chi tiết đó làm em cảm phục hoặc đồng cảm"
+        ],
+        "k": "D",
+        "e": "Cảm nhận nhân vật luôn phải bám sát chi tiết văn bản và bộc lộ chân thực bài học rút ra cho bản thân.",
+        "s": "Ngữ Văn 6",
+        "h": "Viết cảm nhận về nhân vật"
+      },
+      {
+        "c": "NV6-B11-012",
+        "d": "application",
+        "p": "Giữa thời đại mạng xã hội có rất nhiều video ngắn, thói quen đọc sách giấy (hoặc sách dài chính thống) vẫn giữ vai trò không thể thay thế bởi vì sao?",
+        "o": [
+          "Đọc sách rèn luyện khả năng tập trung sâu, tư duy logic, giàu vốn từ ngữ Tiếng Việt và nuôi dưỡng tâm hồn lắng đọng",
+          "Vì sách giấy có thể dùng để che nắng tốt hơn màn hình điện thoại",
+          "Vì đọc sách không bao giờ cần phải suy nghĩ hay tưởng tượng",
+          "Vì các video ngắn hoàn toàn không có bất kì âm thanh hay hình ảnh nào"
+        ],
+        "k": "A",
+        "e": "Đọc sách sâu giúp hình thành năng lực ngôn ngữ, khả năng suy ngẫm phản biện và trí tưởng tượng phong phú.",
+        "s": "Ngữ Văn 6",
+        "h": "Giá trị của văn hóa đọc thời số"
+      },
+      {
+        "c": "NV6-B11-013",
+        "d": "advanced",
+        "p": "Đọc lời khuyên về đọc sách: \"Một cuốn sách hay không kết thúc ở trang cuối cùng mà bắt đầu nảy mầm trong suy nghĩ và hành động của người đọc\". Câu nói này nhấn mạnh điều gì?",
+        "o": [
+          "Người đọc chỉ cần đọc một cuốn sách duy nhất suốt cả cuộc đời",
+          "Mọi cuốn sách hay đều bị in thiếu các trang kết thúc câu chuyện",
+          "Giá trị thực sự của việc đọc nằm ở khả năng chiêm nghiệm, chuyển hóa tri thức và tình cảm tốt đẹp từ trang sách vào cách sống hằng ngày",
+          "Sau khi đọc xong sách thì không cần ghi nhớ hay suy nghĩ gì thêm"
+        ],
+        "k": "C",
+        "e": "Đọc sách tích cực là đối thoại với tác giả để hoàn thiện nhân cách và hành động đẹp ngoài đời thực.",
+        "s": "Ngữ Văn 6",
+        "h": "Chiêm nghiệm triết lí đọc sách"
+      },
+      {
+        "c": "NV6-B11-014",
+        "d": "advanced",
+        "p": "Nếu phải lựa chọn một tác phẩm đã học ở Ngữ văn 6 để giới thiệu cho một người bạn đang cảm thấy tự ti về ngoại hình hoặc hoàn cảnh của mình, lựa chọn nào phù hợp nhất?",
+        "o": [
+          "\"Hang Én\" để giới thiệu chi tiết bản đồ địa chất hang động đá vôi",
+          "\"Sơn Tinh, Thủy Tinh\" để hướng dẫn kĩ thuật đắp đê chống lũ sông Hồng",
+          "\"Thánh Gióng\" để nghiên cứu quy trình luyện kim thời cổ đại",
+          "\"Xem người ta kìa!\" hoặc \"Bức tranh của em gái tôi\" vì đều giúp nhận ra giá trị riêng đáng quý của bản thân và sức mạnh của lòng nhân hậu, sự thấu hiểu"
+        ],
+        "k": "D",
+        "e": "Kết nối sách với nhu cầu tinh thần của người đọc là đỉnh cao của văn hóa chia sẻ sách.",
+        "s": "Ngữ Văn 6",
+        "h": "Kết nối sách với đời sống"
+      },
+      {
+        "c": "NV6-B11-015",
+        "d": "advanced",
+        "p": "Nhìn lại toàn bộ hành trình Ngữ văn 6 (từ \"Tôi và các bạn\" ở Bài 1 đến \"Cuốn sách tôi yêu\" ở Bài 10), mạch phát triển chủ đề của sách giáo khoa hướng học sinh tới điều gì?",
+        "o": [
+          "Mở rộng vòng kết nối từ bản thân, gia đình, bạn bè, quê hương, di sản dân tộc đến trách nhiệm bảo vệ Trái Đất và nuôi dưỡng tâm hồn qua trang sách",
+          "Tách rời hoàn toàn kĩ năng đọc với kĩ năng viết, nói và nghe",
+          "Thu hẹp phạm vi quan tâm của học sinh chỉ trong bốn bức tường phòng học",
+          "Chỉ tập trung ghi nhớ ngày sinh năm mất của các nhà văn mà không gắn với cuộc sống"
+        ],
+        "k": "A",
+        "e": "Mười bài học Ngữ văn 6 tạo thành vòng tròn đồng tâm nuôi dưỡng năng lực ngôn ngữ và nhân cách sống đẹp.",
+        "s": "Ngữ Văn 6",
+        "h": "Khái quát mạch chủ đề Ngữ văn 6"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan6-c4",
+    "lesson": {
+      "code": "nguvan6-b12",
+      "title": "Ôn tập Học kì II & Tổng kết Ngữ Văn 6",
+      "seq": 12,
+      "subtitle": "Hệ thống hóa kiến thức Đọc hiểu Học kì II (truyền thuyết, cổ tích, nghị luận đời sống, văn bản thông tin), Tiếng Việt (dấu chấm phẩy, từ Hán Việt, trạng ngữ, mở rộng thành phần chính, từ mượn) và kĩ năng Viết tổng hợp lớp 6",
+      "concepts": [
+        "Tổng kết thể loại văn học lớp 6",
+        "Hệ thống Tiếng Việt lớp 6",
+        "Ôn tập phương pháp đọc – viết"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV6-B12-001",
+        "d": "basic",
+        "p": "So sánh nhanh truyền thuyết và truyện cổ tích trong bảng tổng kết lớp 6. Điểm khác biệt rõ nhất về nhân vật chính là gì?",
+        "o": [
+          "Truyền thuyết không có yếu tố kì ảo; cổ tích toàn bộ dựa trên tài liệu lịch sử chính thống",
+          "Truyền thuyết gắn với nhân vật, sự kiện lịch sử dân tộc; còn cổ tích xoay quanh số phận con người bình thường trong đời sống, gia đình, xã hội",
+          "Truyền thuyết luôn kết thúc bằng hôn lễ ở cung điện; cổ tích luôn kể về đánh giặc Ân",
+          "Cả hai thể loại đều không sử dụng lời kể dân gian truyền miệng"
+        ],
+        "k": "B",
+        "e": "Truyền thuyết hướng tới lịch sử cộng đồng dân tộc; cổ tích hướng về số phận cá nhân và ước mơ công lí.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân biệt truyền thuyết và cổ tích",
+        "fig": {
+          "type": "table",
+          "title": "Tổng hợp Thể loại HK2 (NV6)",
+          "head": [
+            "Thể loại",
+            "Tác phẩm tiêu biểu"
+          ],
+          "rows": [
+            [
+              "Truyền thuyết",
+              "Thánh Gióng"
+            ],
+            [
+              "Cổ tích",
+              "Thạch Sanh, Cây khế"
+            ],
+            [
+              "Nghị luận",
+              "Xem người ta kìa!"
+            ],
+            [
+              "Văn bản thông tin",
+              "Trái Đất, Hang Én"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV6-B12-002",
+        "d": "basic",
+        "p": "Từ \"quốc gia\" trong câu \"Bảo vệ môi trường là trách nhiệm chung của mỗi quốc gia\" là từ Hán Việt có nghĩa gì?",
+        "o": [
+          "Thủ đô lớn nhất một vùng",
+          "Hội đồng khoa học quốc tế",
+          "Đất nước, nhà nước",
+          "Ngôi nhà nhỏ trong khu vườn"
+        ],
+        "k": "C",
+        "e": "\"quốc\" (nước) kết hợp \"gia\" (nhà) tạo thành từ Hán Việt \"quốc gia\" nghĩa là đất nước, nhà nước.",
+        "s": "Ngữ Văn 6",
+        "h": "Ôn tập nghĩa từ Hán Việt"
+      },
+      {
+        "c": "NV6-B12-003",
+        "d": "basic",
+        "p": "Thành phần nào trong câu \"Trên bầu trời xanh thẳm, những cánh én chao nghiêng\" là trạng ngữ?",
+        "o": [
+          "Trên bầu trời xanh thẳm",
+          "những cánh én",
+          "chao nghiêng",
+          "xanh thẳm"
+        ],
+        "k": "A",
+        "e": "Cụm \"Trên bầu trời xanh thẳm\" đặt đầu câu, ngăn cách bằng dấu phẩy và chỉ không gian diễn ra sự việc.",
+        "s": "Ngữ Văn 6",
+        "h": "Xác định trạng ngữ chỉ nơi chốn"
+      },
+      {
+        "c": "NV6-B12-004",
+        "d": "basic",
+        "p": "Trong các kiểu văn bản đã học ở lớp 6, văn bản nào đòi hỏi phải có Quốc hiệu, Tiêu ngữ (hoặc Tên cơ quan/lớp), Thời gian, Địa điểm, Thành phần tham dự và Chữ kí Chủ tọa – Thư kí?",
+        "o": [
+          "Bài văn tả cảnh sinh hoạt ngày hội mùa xuân",
+          "Biên bản một cuộc họp hoặc cuộc thảo luận",
+          "Đoạn văn ghi lại cảm xúc về một bài thơ lục bát",
+          "Bài văn đóng vai nhân vật kể lại một truyện cổ tích"
+        ],
+        "k": "B",
+        "e": "Biên bản là văn bản hành chính – công vụ có quy chuẩn thể thức chặt chẽ về thời gian, thành phần và chữ kí xác nhận.",
+        "s": "Ngữ Văn 6",
+        "h": "Nhận diện thể thức biên bản"
+      },
+      {
+        "c": "NV6-B12-005",
+        "d": "basic",
+        "p": "Trong các từ sau, từ nào được mượn từ tiếng Anh/Pháp (tiếng Ấn – Âu) chứ không phải từ gốc Hán?",
+        "o": [
+          "nhân ái",
+          "ra-đi-ô",
+          "giang sơn",
+          "thiên nhiên"
+        ],
+        "k": "B",
+        "e": "\"ra-đi-ô\" (radio) phiên âm từ tiếng nước ngoài phương Tây; \"nhân ái\", \"giang sơn\", \"thiên nhiên\" là từ Hán Việt.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân biệt nguồn gốc từ mượn"
+      },
+      {
+        "c": "NV6-B12-006",
+        "d": "basic",
+        "p": "Đoạn văn mở đầu ngắn in đậm ngay dưới nhan đề của một bài báo khoa học hoặc văn bản thông tin gọi là gì?",
+        "o": [
+          "Chú thích cuối trang",
+          "Sa-pô",
+          "Mục lục toàn tập",
+          "Lời bạt tiểu thuyết"
+        ],
+        "k": "B",
+        "e": "Sa-pô giới thiệu khái quát nội dung chính để dẫn dắt bạn đọc bước vào văn bản thông tin.",
+        "s": "Ngữ Văn 6",
+        "h": "Ôn tập khái niệm sa-pô"
+      },
+      {
+        "c": "NV6-B12-007",
+        "d": "application",
+        "p": "Câu văn nào dưới đây mở rộng thành phần chủ ngữ bằng cụm danh từ nhằm miêu tả rõ nét hơn đối tượng được nhắc tới?",
+        "o": [
+          "Sách hay rất quý.",
+          "Em đọc sách.",
+          "Hôm qua, tại thư viện trường, em mượn một cuốn truyện.",
+          "Những trang sách ấm áp tình người ấy đã sưởi ấm tâm hồn em suốt tuổi thơ."
+        ],
+        "k": "D",
+        "e": "Chủ ngữ \"Những trang sách ấm áp tình người ấy\" là cụm danh từ mở rộng nhiều lớp định ngữ miêu tả.",
+        "s": "Ngữ Văn 6",
+        "h": "Thực hành mở rộng chủ ngữ"
+      },
+      {
+        "c": "NV6-B12-008",
+        "d": "application",
+        "p": "Khi đọc một văn bản nghị luận xã hội ở đề kiểm tra cuối năm lớp 6, làm sao nhận biết đâu là \"lí lẽ\" và đâu là \"bằng chứng\"?",
+        "o": [
+          "Lí lẽ luôn đặt trong dấu ngoặc kép; bằng chứng luôn là các bài thơ lục bát",
+          "Lí lẽ phải có số phần trăm cụ thể; bằng chứng là suy đoán cá nhân không có thật",
+          "Lí lẽ là những lời giải thích, phân tích hợp lí để làm sáng tỏ ý kiến; bằng chứng là các sự việc, nhân vật, số liệu thực tế được dẫn ra minh họa",
+          "Lí lẽ và bằng chứng hoàn toàn giống hệt nhau, chỉ khác vị trí ở mở bài và kết bài"
+        ],
+        "k": "C",
+        "e": "Phân biệt rõ lí lẽ (lập luận giải thích) và bằng chứng (dẫn chứng cụ thể) là kĩ năng đọc hiểu trọng tâm của văn nghị luận.",
+        "s": "Ngữ Văn 6",
+        "h": "Phân biệt lí lẽ và bằng chứng"
+      },
+      {
+        "c": "NV6-B12-009",
+        "d": "application",
+        "p": "Trong hai câu: (1) \"Trời mưa to nên đường trơn\" và (2) \"Vì trời mưa to, đường trở nên rất trơn trượt\", cụm từ \"Vì trời mưa to\" ở câu (2) đóng vai trò gì?",
+        "o": [
+          "Vị ngữ miêu tả đặc điểm con đường",
+          "Thành phần phụ chú giải thích địa điểm",
+          "Chủ ngữ chính của câu ghép",
+          "Trạng ngữ chỉ nguyên nhân"
+        ],
+        "k": "D",
+        "e": "\"Vì trời mưa to\" đứng đầu câu, ngăn cách bởi dấu phẩy, nêu nguyên nhân của sự việc chính.",
+        "s": "Ngữ Văn 6",
+        "h": "Nhận diện trạng ngữ chỉ nguyên nhân"
+      },
+      {
+        "c": "NV6-B12-010",
+        "d": "application",
+        "p": "Trường hợp nào sau đây sử dụng dấu chấm phẩy sai quy tắc Tiếng Việt?",
+        "o": [
+          "Ngày mai; lớp em sẽ đi tham quan bảo tàng lịch sử.",
+          "Đọc sách giúp ta mở mang tri thức; rèn luyện khả năng tập trung; bồi dưỡng tâm hồn nhân ái.",
+          "Các bạn nữ chuẩn bị hoa giấy, bóng bay; các bạn nam kê bàn ghế, treo phông chữ.",
+          "Trong truyện cổ tích, cái thiện luôn chiến thắng cái ác; người hiền lành cuối cùng sẽ gặp điều tốt đẹp."
+        ],
+        "k": "A",
+        "e": "Sau trạng ngữ chỉ thời gian ngắn \"Ngày mai\" chỉ dùng dấu phẩy (,), không dùng dấu chấm phẩy (;).",
+        "s": "Ngữ Văn 6",
+        "h": "Chữa lỗi dấu chấm phẩy"
+      },
+      {
+        "c": "NV6-B12-011",
+        "d": "application",
+        "p": "Để bài văn trình bày ý kiến về hiện tượng \"nói tục, chửi bậy trong học sinh\" vừa đúng trọng tâm vừa tránh lối viết giáo điều khô cứng, người viết nên làm gì?",
+        "o": [
+          "Chép lại toàn bộ nội quy nhà trường từ điều 1 đến điều cuối cùng",
+          "Chuyển sang kể một chuyến đi tắm biển cùng gia đình",
+          "Dùng lời lẽ nặng nề xúc phạm những bạn từng nói lỡ lời",
+          "Đưa ra lí lẽ gần gũi với tâm lí tuổi học trò, dẫn chứng thực tế trong giao tiếp hằng ngày và gợi ý những thói quen thay thế tích cực"
+        ],
+        "k": "D",
+        "e": "Nghị luận học đường hiệu quả khi phân tích thấu đáo nguyên nhân – hệ quả bằng giọng văn xây dựng, chân thành.",
+        "s": "Ngữ Văn 6",
+        "h": "Viết văn nghị luận thuyết phục"
+      },
+      {
+        "c": "NV6-B12-012",
+        "d": "application",
+        "p": "Trong bảng đối chiếu các bài viết đã học suốt lớp 6, cặp ghép nào sau đây KHỚP ĐÚNG thể loại với đặc trưng cốt lõi?",
+        "o": [
+          "Thuyết minh thuật lại sự kiện → Tự do hư cấu thêm phép thuật thần kì không có thật",
+          "Đóng vai kể truyện cổ tích → Ngôi thứ nhất, bám sát cốt truyện gốc kết hợp cảm xúc nhân vật",
+          "Đoạn cảm xúc bài thơ → Lược bỏ toàn bộ dẫn chứng thơ, chỉ nêu tên tác giả",
+          "Biên bản cuộc họp → Dùng nhiều câu thơ lục bát và phép ẩn dụ bay bổng"
+        ],
+        "k": "B",
+        "e": "Mỗi kiểu bài có yêu cầu đặc trưng riêng: đóng vai kể chuyện dùng ngôi 1 sáng tạo trên nền cốt truyện gốc.",
+        "s": "Ngữ Văn 6",
+        "h": "Tổng hợp đặc trưng các kiểu bài viết",
+        "fig": {
+          "type": "table",
+          "title": "Các Kiểu Bài Viết Lớp 6",
+          "head": [
+            "Kiểu bài",
+            "Ngôi / Sắc thái"
+          ],
+          "rows": [
+            [
+              "Đóng vai cổ tích",
+              "Ngôi 1, bám cốt gốc"
+            ],
+            [
+              "Tả cảnh sinh hoạt",
+              "Giàu giác quan, động"
+            ],
+            [
+              "Thuyết minh sự kiện",
+              "Khách quan, rõ chặng"
+            ],
+            [
+              "Trình bày ý kiến",
+              "Ý kiến, lí lẽ, chứng"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV6-B12-013",
+        "d": "advanced",
+        "p": "Khi so sánh cùng một chủ đề \"Thiên nhiên và con người\" trong văn bản văn học (\"Cô Tô\", \"Cây tre Việt Nam\") với văn bản thông tin (\"Trái Đất – cái nôi của sự sống\"), nét khác biệt chủ yếu trong cách thể hiện là gì?",
+        "o": [
+          "Văn bản văn học chỉ có bảng số liệu còn văn bản thông tin chỉ có thơ lục bát",
+          "Văn bản văn học dùng hình tượng, cảm xúc và tu từ khơi gợi rung động; văn bản thông tin ưu tiên tri thức khoa học khách quan, số liệu và đề mục rõ",
+          "Văn bản văn học luôn dài hơn văn bản thông tin ít nhất mười lần",
+          "Văn bản thông tin tuyệt đối không được đề cập đến con người và sinh vật"
+        ],
+        "k": "B",
+        "e": "Nhận diện đúng mục đích giao tiếp giúp em đọc đúng phương pháp cho từng loại văn bản.",
+        "s": "Ngữ Văn 6",
+        "h": "So sánh văn bản văn học và thông tin"
+      },
+      {
+        "c": "NV6-B12-014",
+        "d": "advanced",
+        "p": "Đọc câu: \"Trong những trang cổ tích lung linh ấy, tiếng đàn của chàng dũng sĩ đã thức tỉnh niềm tin bất diệt vào lẽ phải\". Câu này có bao nhiêu từ Hán Việt?",
+        "o": [
+          "1 từ duy nhất (lung linh)",
+          "0 từ (toàn bộ đều là từ thuần Việt)",
+          "5 từ (trang, tiếng, chàng, niềm, lẽ)",
+          "3 từ (cổ tích, dũng sĩ, bất diệt)"
+        ],
+        "k": "D",
+        "e": "Các từ \"cổ tích\", \"dũng sĩ\" và \"bất diệt\" đều là từ Hán Việt; các từ còn lại là từ thuần Việt.",
+        "s": "Ngữ Văn 6",
+        "h": "Xác định từ Hán Việt trong câu"
+      },
+      {
+        "c": "NV6-B12-015",
+        "d": "advanced",
+        "p": "Trọn bộ 3 bước nào sau đây giúp học sinh lớp 6 tự tin chuyển tiếp lên chương trình Ngữ văn lớp 7?",
+        "o": [
+          "Chỉ học thuộc lòng 5 bài thơ ngắn và bỏ qua toàn bộ phần văn bản thông tin",
+          "Nắm chắc đặc trưng thể loại đọc hiểu → Vận dụng linh hoạt từ ngữ, câu và tu từ khi viết → Duy trì thói quen đọc sách và quan sát cuộc sống hằng ngày",
+          "Không cần thực hành nói và nghe vì chỉ làm bài kiểm tra viết trên giấy",
+          "Chỉ đọc tóm tắt sơ sài trên mạng thay vì đọc trực tiếp văn bản hoàn chỉnh"
+        ],
+        "k": "B",
+        "e": "Nền tảng vững chắc về đọc hiểu thể loại, tiếng Việt và diễn đạt từ lớp 6 là hành trang tốt nhất cho bậc THCS.",
+        "s": "Ngữ Văn 6",
+        "h": "Định hướng năng lực Ngữ văn THCS"
+      }
+    ]
+  }
+]

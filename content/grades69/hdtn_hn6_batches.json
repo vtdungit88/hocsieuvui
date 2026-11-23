@@ -1,0 +1,3386 @@
+[
+  {
+    "chapter": "hdtn_hn6-c1",
+    "lesson": {
+      "code": "hdtn_hn6-b01",
+      "title": "Bài 1. Em với nhà trường mới và thầy cô, bạn bè lớp 6",
+      "seq": 1,
+      "subtitle": "Làm quen nội quy, cơ cấu hoạt động trường THCS, phương pháp học nhiều môn và kết nối thầy cô, bạn mới tự tin",
+      "concepts": [
+        "Thích ứng môi trường THCS",
+        "Thực hiện nội quy nhà trường",
+        "Xây dựng tình bạn lớp mới"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN6-B01-001",
+        "d": "basic",
+        "p": "Sự khác biệt lớn nhất về cách tổ chức học tập khi chuyển từ Tiểu học lên lớp 6 THCS là gì?",
+        "o": [
+          "Học nhiều môn với các thầy cô bộ môn khác nhau, đòi hỏi học sinh chủ động ghi chép và tự chuẩn bị bài hơn",
+          "Chỉ có một cô giáo dạy tất cả các môn suốt cả năm",
+          "Không còn sử dụng thời khóa biểu cố định hằng tuần",
+          "Không cần chuẩn bị sách vở hay làm bài tập ở nhà"
+        ],
+        "k": "A",
+        "e": "Hiểu sự thay đổi giúp học sinh lớp 6 nhanh chóng rèn tính tự lập, sắp xếp sách vở đúng theo từng môn học.",
+        "s": "HĐTN, HN 6",
+        "h": "Khác biệt giữa Tiểu học và THCS"
+      },
+      {
+        "c": "HN6-B01-002",
+        "d": "basic",
+        "p": "Trong buổi đầu nhập học lớp 6 chưa quen nhiều bạn mới, cách chào hỏi làm quen tự nhiên và thân thiện nhất là gì?",
+        "o": [
+          "Ngồi im lặng cúi gằm mặt suốt cả tuần đầu tiên",
+          "Chê bai giọng nói hoặc cặp sách của bạn khác",
+          "Mỉm cười cởi mở, chủ động giới thiệu tên, sở thích và hỏi thăm bạn ngồi cùng bàn hoặc cùng tổ",
+          "Chỉ nói chuyện với bạn cũ và lờ đi các bạn mới"
+        ],
+        "k": "C",
+        "e": "Nụ cười thân thiện và câu hỏi thăm chân thành là chiếc cầu nối dễ dàng nhất để tạo dựng những tình bạn mới đẹp đẽ.",
+        "s": "HĐTN, HN 6",
+        "h": "Cách làm quen bạn mới ngày đầu vào lớp 6"
+      },
+      {
+        "c": "HN6-B01-003",
+        "d": "basic",
+        "p": "Vì sao nội quy nhà trường THCS quy định học sinh phải đi học đúng giờ, mặc đồng phục gọn gàng và giữ trật tự chung?",
+        "o": [
+          "Chỉ áp dụng cho học sinh mới vào tuần đầu",
+          "Chỉ để làm khó dễ học sinh cho vui",
+          "Để bảo đảm an toàn, tạo môi trường học tập tôn trọng lẫn nhau và rèn tác phong kỉ luật cho mỗi học sinh",
+          "Để không ai được phép phát biểu trong giờ học"
+        ],
+        "k": "C",
+        "e": "Nội quy chung bảo vệ quyền được học tập trong môi trường an toàn, văn minh của chính tất cả học sinh trong trường.",
+        "s": "HĐTN, HN 6",
+        "h": "Ý nghĩa của nội quy trường học"
+      },
+      {
+        "c": "HN6-B01-004",
+        "d": "basic",
+        "p": "Khi chưa hiểu rõ một nội dung bài mới trên lớp THCS (vì thầy cô bộ môn giảng nhanh hơn Tiểu học), hành động phù hợp nhất là gì?",
+        "o": [
+          "Nói chuyện riêng ồn ào ngay lúc thầy cô đang giảng",
+          "Gấp sách lại và bỏ mặc không bao giờ xem lại phần đó",
+          "Đổ lỗi do môn học quá khó nên không thèm học nữa",
+          "Ghi chú lại câu hỏi vào vở và mạnh dạn giơ tay hỏi thầy cô cuối tiết hoặc trao đổi cùng bạn bè"
+        ],
+        "k": "D",
+        "e": "Chủ động đặt câu hỏi đúng lúc giúp tháo gỡ lỗ hổng kiến thức ngay từ đầu, tránh dồn ứ bài tập về sau.",
+        "s": "HĐTN, HN 6",
+        "h": "Thái độ chủ động hỏi bài thầy cô bộ môn"
+      },
+      {
+        "c": "HN6-B01-005",
+        "d": "basic",
+        "p": "Các câu lạc bộ sở thích trong trường THCS (Câu lạc bộ Đọc sách, STEM, Thể thao, Văn nghệ...) mang lại lợi ích thiết thực nào cho học sinh lớp 6?",
+        "o": [
+          "Khiến học sinh bị cấm học các môn văn hóa chính khóa",
+          "Chỉ dành riêng cho học sinh lớp 9 sắp ra trường",
+          "Giúp khám phá năng khiếu, rèn kĩ năng làm việc nhóm và mở rộng kết bạn với các anh chị, bạn bè cùng đam mê",
+          "Bắt buộc phải đóng thật nhiều tiền mới được tham gia"
+        ],
+        "k": "C",
+        "e": "Hoạt động câu lạc bộ giúp cân bằng giữa học tập và trải nghiệm, nuôi dưỡng sự tự tin gắn bó với ngôi trường mới.",
+        "s": "HĐTN, HN 6",
+        "h": "Lợi ích tham gia câu lạc bộ trường THCS"
+      },
+      {
+        "c": "HN6-B01-006",
+        "d": "basic",
+        "p": "Cách xưng hô, chào hỏi thể hiện sự kính trọng đối với thầy cô giáo và các cô bác nhân viên (bảo vệ, y tế, lao công) trong trường là gì?",
+        "o": [
+          "Gọi to tên riêng của người lớn tuổi từ đằng xa để trêu",
+          "Chào hỏi lễ phép, rõ ràng bằng hai tay hoặc cúi đầu nhẹ khi gặp mặt ở hành lang, cổng trường hay phòng học",
+          "Chỉ chào riêng thầy cô dạy lớp mình, phớt lờ thầy cô khác",
+          "Nói trống không hoặc giả vờ không nhìn thấy khi đi ngang qua"
+        ],
+        "k": "B",
+        "e": "Mọi thầy cô và cán bộ nhân viên đều góp phần chăm lo cho môi trường học tập an toàn; chào hỏi lễ phép là nét đẹp văn hóa học đường.",
+        "s": "HĐTN, HN 6",
+        "h": "Thái độ tôn trọng với tất cả thành viên nhà trường"
+      },
+      {
+        "c": "HN6-B01-007",
+        "d": "application",
+        "p": "Quan sát bảng hướng dẫn xử lí tình huống đầu năm lớp 6 dưới đây. Nếu sáng thứ hai bạn Minh đến muộn 10 phút vì xe đạp hỏng giữa đường, cách ứng xử văn minh nhất khi đến cửa lớp là gì?",
+        "o": [
+          "Lén mở cửa sau bò vào chỗ ngồi khi thầy cô quay lên bảng",
+          "Đứng ngoài cửa la hét trách móc bố mẹ không chở đi học",
+          "Gõ cửa nhẹ xin phép vào lớp, trình bày trung thực lí do ngắn gọn với thầy cô rồi nhanh chóng vào chỗ ổn định học bài",
+          "Quay xe đạp bỏ về nhà ngủ luôn cả buổi sáng"
+        ],
+        "k": "C",
+        "e": "Trung thực nhận lỗi và giữ trật tự khi vào muộn thể hiện sự tôn trọng tập thể và thầy cô giáo.",
+        "s": "HĐTN, HN 6",
+        "h": "Xử lí đúng mực khi chẳng may đi học muộn",
+        "fig": {
+          "type": "table",
+          "title": "Tình huống lớp 6",
+          "head": [
+            "Tình huống",
+            "Cách ứng xử hay"
+          ],
+          "rows": [
+            [
+              "Đến lớp muộn",
+              "Gõ cửa xin phép"
+            ],
+            [
+              "Quên đồ dùng",
+              "Mượn lịch sự bạn"
+            ],
+            [
+              "Chưa hiểu bài",
+              "Hỏi thầy cuối tiết"
+            ],
+            [
+              "Thấy bạn cô đơn",
+              "Chủ động rủ chơi"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "HN6-B01-008",
+        "d": "application",
+        "p": "Trong giờ ra chơi, bạn Hà thấy một bạn mới chuyển từ xã khác tới lớp 6A cứ đứng một mình ở góc hành lang có vẻ rụt rè. Bạn Hà nên làm gì để giúp bạn ấy hòa nhập?",
+        "o": [
+          "Chỉ tay bàn tán với các bạn khác rằng bạn mới thật kì lạ",
+          "Chủ động tới bắt chuyện làm quen, giới thiệu sơ đồ phòng chức năng, căng-tin và rủ bạn cùng chơi với nhóm mình",
+          "Phớt lờ mặc kệ vì không phải việc của mình",
+          "Đặt biệt danh trêu chọc quê quán của bạn mới"
+        ],
+        "k": "B",
+        "e": "Sự quan tâm ấm áp đầu tiên của bạn bè giúp bạn mới chuyển trường nhanh chóng xóa tan cảm giác lạc lõng.",
+        "s": "HĐTN, HN 6",
+        "h": "Giúp bạn mới hòa nhập tập thể lớp"
+      },
+      {
+        "c": "HN6-B01-009",
+        "d": "application",
+        "p": "Lớp 6B chuẩn bị phân công ban cán sự lớp và các tổ trưởng tuần đầu tiên. Nếu được tập thể tín nhiệm bầu làm Tổ trưởng tổ 2, em nên thể hiện thái độ nào?",
+        "o": [
+          "Nhận chức cho oai rồi bỏ mặc không ghi chép thi đua",
+          "Vui vẻ nhận nhiệm vụ, lắng nghe ý kiến các bạn trong tổ và gương mẫu thực hiện tốt nội quy để cùng tổ tiến bộ",
+          "Dùng quyền tổ trưởng để bắt nạt hoặc thiên vị bạn thân",
+          "Từ chối ngay vì ngại làm việc chung với tập thể"
+        ],
+        "k": "B",
+        "e": "Làm cán bộ lớp, tổ trưởng là cơ hội tuyệt vời rèn kĩ năng lãnh đạo, trách nhiệm và sự công bằng.",
+        "s": "HĐTN, HN 6",
+        "h": "Thái độ trách nhiệm khi nhận nhiệm vụ tập thể"
+      },
+      {
+        "c": "HN6-B01-010",
+        "d": "application",
+        "p": "Sang cấp THCS có tới hơn 10 môn học khác nhau khiến bạn Tuấn hay mang nhầm hoặc quên vở bài tập buổi sáng. Biện pháp thực tế nào khắc phục triệt để thói quen này?",
+        "o": [
+          "Dán thời khóa biểu trước bàn học và tập thói quen soạn sẵn cặp sách theo từng môn vào mỗi tối trước khi đi ngủ",
+          "Nhét hết toàn bộ tất cả sách vở cả tuần vào một chiếc cặp nặng",
+          "Không cần mang sách vở, tới lớp ngồi xem nhờ của bạn",
+          "Sáng hôm sau dậy sát giờ học rồi vơ bừa vài quyển vở"
+        ],
+        "k": "A",
+        "e": "Soạn cặp buổi tối theo thời khóa biểu vừa giữ cột sống không phải mang nặng vừa bảo đảm không bao giờ quên đồ dùng học tập.",
+        "s": "HĐTN, HN 6",
+        "h": "Rèn thói quen soạn sách vở buổi tối"
+      },
+      {
+        "c": "HN6-B01-011",
+        "d": "application",
+        "p": "Trong nhóm thảo luận môn KHTN đầu năm, hai bạn tranh cãi gay gắt vì ai cũng muốn làm nhóm trưởng trình bày. Là thành viên trong nhóm, em nên đề xuất cách giải quyết nào?",
+        "o": [
+          "Cổ vũ hai bạn cãi nhau to hơn xem ai thắng",
+          "Thống nhất chia việc công bằng: một bạn làm nhóm trưởng điều phối, bạn còn lại đại diện thuyết trình hoặc luân phiên từng tuần",
+          "Ngồi im bấm đồng hồ đợi hết giờ thảo luận rồi nộp giấy trắng",
+          "Bỏ sang nhóm khác chơi để mặc nhóm mình rối tung"
+        ],
+        "k": "B",
+        "e": "Phân công vai trò linh hoạt theo thế mạnh và luân phiên công bằng giúp mọi thành viên đều có cơ hội tỏa sáng.",
+        "s": "HĐTN, HN 6",
+        "h": "Giải quyết bất đồng phân công trong nhóm mới"
+      },
+      {
+        "c": "HN6-B01-012",
+        "d": "application",
+        "p": "Khi cần tìm gặp phòng Y tế trường vì bạn cùng bàn bị đứt tay nhẹ trong giờ thực hành Công nghệ, học sinh lớp 6 cần làm gì đầu tiên?",
+        "o": [
+          "Lấy nước mực bút bi bôi lên vết thương để cầm máu",
+          "Tự ý rủ nhau trèo tường ra hiệu thuốc bên ngoài trường",
+          "Im lặng giấu kín tới hết buổi chiều mới về nhà nói",
+          "Báo ngay cho giáo viên đang dạy tiết đó biết để xin phép đưa bạn xuống phòng Y tế trường xử lí kịp thời"
+        ],
+        "k": "D",
+        "e": "Ghi nhớ sơ đồ phòng Y tế, phòng Ban giám hiệu, thư viện và báo thầy cô khi có sự cố giúp xử trí an toàn đúng quy định trường học.",
+        "s": "HĐTN, HN 6",
+        "h": "Xử lí sự cố sức khỏe đúng quy trình trường học"
+      },
+      {
+        "c": "HN6-B01-013",
+        "d": "advanced",
+        "p": "Vì sao khi bước vào cấp THCS, bên cạnh việc học thuộc kiến thức sách giáo khoa, thầy cô lại đặc biệt khuyến khích học sinh lớp 6 biết tự lập \"sổ tay ghi nhớ phương pháp học từng môn\"?",
+        "o": [
+          "Vì ghi sổ tay giúp không cần đi học trên lớp",
+          "Vì nhà trường muốn học sinh phải chép lại toàn bộ sách giáo khoa",
+          "Vì học sinh lớp 6 không được phép hỏi thầy cô nữa",
+          "Vì mỗi môn học có đặc thù tư duy khác nhau (Toán cần luyện giải, Văn cần đọc viết, Ngoại ngữ cần nghe nói); biết phương pháp giúp tự học hiệu quả suốt 4 năm"
+        ],
+        "k": "D",
+        "e": "Phương pháp tự học phù hợp từng bộ môn chính là chìa khóa giúp chuyển tiếp thành công từ Tiểu học lên THCS.",
+        "s": "HĐTN, HN 6",
+        "h": "Ý nghĩa phương pháp học tập đặc thù từng môn"
+      },
+      {
+        "c": "HN6-B01-014",
+        "d": "advanced",
+        "p": "Bạn Lan cảm thấy áp lực tự ti vì ở Tiểu học bạn luôn đứng đầu lớp, nhưng sang lớp 6 có rất nhiều bạn giỏi từ các trường khác về nên điểm kiểm tra tháng đầu của Lan chỉ đạt mức khá. Lời khuyên nào giúp Lan giữ tinh thần tích cực?",
+        "o": [
+          "Hiểu rằng môi trường mới nhiều bạn giỏi là động lực quý để học hỏi; tập trung so sánh sự tiến bộ của chính mình hôm nay với hôm qua thay vì tự ti",
+          "Nghĩ rằng mình bỗng dưng mất hết năng lực nên bỏ luôn không cố gắng",
+          "Ghen tị và nói xấu các bạn đạt điểm cao hơn mình",
+          "Khóc lóc đòi chuyển về học lại lớp 5"
+        ],
+        "k": "A",
+        "e": "Tư duy phát triển (Growth Mindset) biến thử thách môi trường mới thành cơ hội nâng cao năng lực bản thân bền vững.",
+        "s": "HĐTN, HN 6",
+        "h": "Giữ vững tâm lí tự tin trước áp lực bạn giỏi"
+      },
+      {
+        "c": "HN6-B01-015",
+        "d": "advanced",
+        "p": "Để xây dựng tập thể lớp 6 đoàn kết ngay trong tháng đầu tiên nhập học, hoạt động tập thể nào vừa tạo không khí vui vẻ vừa giúp các bạn hiểu tính cách tốt của nhau nhất?",
+        "o": [
+          "Tổ chức sinh hoạt tập thể \"Chân dung đồng đội\" (giới thiệu điểm mạnh bản thân, trò chơi đồng đội và lập bộ quy ước ứng xử chung của lớp)",
+          "Chia lớp thành các nhóm nhỏ riêng rẽ theo từng trường Tiểu học cũ",
+          "Tổ chức cuộc thi so sánh xem nhà ai giàu có nhất lớp",
+          "Chỉ giao bài tập cá nhân im lặng tuyệt đối cả học kì"
+        ],
+        "k": "A",
+        "e": "Bộ quy ước lớp tự xây dựng và các hoạt động chia sẻ chân thành phá vỡ khoảng cách ban đầu, tạo nên ngôi nhà thứ hai ấm áp.",
+        "s": "HĐTN, HN 6",
+        "h": "Xây dựng văn hóa đoàn kết ngay đầu lớp 6"
+      }
+    ]
+  },
+  {
+    "chapter": "hdtn_hn6-c1",
+    "lesson": {
+      "code": "hdtn_hn6-b02",
+      "title": "Bài 2. Khám phá bản thân và sự thay đổi tuổi dậy thì",
+      "seq": 2,
+      "subtitle": "Nhận diện điểm mạnh, sở thích, giá trị cá nhân và những biến đổi tâm sinh lí bình thường tuổi dậy thì để tự tin chăm sóc mình",
+      "concepts": [
+        "Điểm mạnh và sở thích cá nhân",
+        "Biến đổi sinh lí tuổi dậy thì",
+        "Vệ sinh và tự bảo vệ cơ thể"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN6-B02-001",
+        "d": "basic",
+        "p": "Sự thay đổi nhanh chóng về chiều cao, cân nặng, giọng nói (ở bạn nam) hoặc đường nét cơ thể (ở bạn nữ) ở lứa tuổi 11–13 là dấu hiệu của giai đoạn tự nhiên nào?",
+        "o": [
+          "Giai đoạn dậy thì bình thường đánh dấu bước chuyển cơ thể trẻ em sang trưởng thành",
+          "Biểu hiện của một căn bệnh truyền nhiễm hiếm gặp",
+          "Dấu hiệu cơ thể ngừng phát triển hoàn toàn",
+          "Hậu quả do ăn uống quá nhiều rau xanh"
+        ],
+        "k": "A",
+        "e": "Mỗi người có thời điểm bắt đầu dậy thì sớm hay muộn chênh nhau 1–2 năm; đây là quá trình sinh học hoàn toàn khỏe mạnh và đáng trân trọng.",
+        "s": "HĐTN, HN 6",
+        "h": "Nhận thức đúng về giai đoạn dậy thì"
+      },
+      {
+        "c": "HN6-B02-002",
+        "d": "basic",
+        "p": "Điểm mạnh của bản thân mỗi học sinh lớp 6 có thể bộc lộ ở những khía cạnh nào?",
+        "o": [
+          "Chỉ duy nhất ở điểm số môn Toán và Tiếng Anh",
+          "Đa dạng ở cả học tập, thể thao, nghệ thuật, kĩ năng giao tiếp, sự tỉ mỉ, tinh thần trách nhiệm hay lòng nhân ái giúp đỡ mọi người",
+          "Phải đạt huy chương quốc tế mới được coi là điểm mạnh",
+          "Chỉ tính ở chiều cao vượt trội hơn bạn bè"
+        ],
+        "k": "B",
+        "e": "Mỗi cá nhân có kiểu trí thông minh và thế mạnh riêng; trân trọng thế mạnh mình và học hỏi bạn bè giúp ai cũng tự tin phát triển.",
+        "s": "HĐTN, HN 6",
+        "h": "Sự đa dạng của điểm mạnh cá nhân"
+      },
+      {
+        "c": "HN6-B02-003",
+        "d": "basic",
+        "p": "Khi thấy da mặt xuất hiện một vài nốt mụn trứng cá ở tuổi dậy thì, cách chăm sóc vệ sinh đúng khoa học và an toàn nhất là gì?",
+        "o": [
+          "Bôi các loại kem trộn trắng da không rõ nguồn gốc theo quảng cáo",
+          "Rửa mặt sạch dịu nhẹ ngày 2 lần bằng nước sạch/sữa rửa mặt dịu, ăn nhiều rau quả, ngủ đủ giấc và KHÔNG tự nặn mụn bằng tay bẩn",
+          "Không rửa mặt cả tuần cho da tự khô",
+          "Lấy móng tay bẩn cạy nặn thật mạnh cho vỡ hết mụn ngay"
+        ],
+        "k": "B",
+        "e": "Nặn mụn bằng tay dễ gây nhiễm trùng lan rộng và để lại sẹo thâm; chăm sóc vệ sinh đúng giúp làn da khỏe mạnh vượt qua tuổi dậy thì.",
+        "s": "HĐTN, HN 6",
+        "h": "Chăm sóc da đúng cách ở tuổi dậy thì"
+      },
+      {
+        "c": "HN6-B02-004",
+        "d": "basic",
+        "p": "Ở tuổi dậy thì, tuyến mồ hôi hoạt động mạnh hơn dễ gây mùi cơ thể sau khi vận động. Thói quen vệ sinh cá nhân cần duy trì hằng ngày là gì?",
+        "o": [
+          "Tắm rửa sạch sẽ mỗi ngày, thay giặt quần áo lót và tất thường xuyên, giữ cơ thể khô thoáng nhất là sau giờ thể dục",
+          "Mặc đi mặc lại một bộ đồ thể dục suốt cả tuần không giặt",
+          "Xịt thật nhiều nước hoa nồng nặc đè lên người mà không cần tắm",
+          "Tránh vận động thể dục hoàn toàn để khỏi ra mồ hôi"
+        ],
+        "k": "A",
+        "e": "Giữ cơ thể sạch thơm gọn gàng giúp học sinh tự tin thoải mái khi giao tiếp gần với thầy cô và bạn bè.",
+        "s": "HĐTN, HN 6",
+        "h": "Vệ sinh thân thể hằng ngày tuổi dậy thì"
+      },
+      {
+        "c": "HN6-B02-005",
+        "d": "basic",
+        "p": "Về mặt tâm lí, học sinh lớp 6 bước vào tuổi dậy thì thường xuất hiện nét thay đổi dễ nhận thấy nào?",
+        "o": [
+          "Quên hết toàn bộ tên gọi của người thân trong gia đình",
+          "Không còn khả năng cảm nhận niềm vui hay nỗi buồn",
+          "Nhạy cảm hơn với lời nhận xét của người khác, muốn khẳng định cái tôi độc lập nhưng tâm trạng đôi khi thay đổi thất thường",
+          "Thích phụ thuộc hoàn toàn vào bố mẹ đút cơm hằng ngày"
+        ],
+        "k": "C",
+        "e": "Hiểu sự nhạy cảm tâm lí của lứa tuổi giúp các em bình tĩnh chia sẻ với bố mẹ, thầy cô thay vì thu mình hay cáu gắt vô cớ.",
+        "s": "HĐTN, HN 6",
+        "h": "Đặc điểm tâm lí tuổi dậy thì"
+      },
+      {
+        "c": "HN6-B02-006",
+        "d": "basic",
+        "p": "Khi nhận ra một điểm còn hạn chế của bản thân (ví dụ: hay quên, ngại nói trước đám đông hoặc chữ viết chưa đẹp), thái độ lành mạnh nhất là gì?",
+        "o": [
+          "Thừa nhận khách quan không mặc cảm, lập kế hoạch rèn luyện cải thiện từng bước nhỏ mỗi ngày",
+          "Ghét bỏ bản thân và giấu giếm không dám tham gia việc gì",
+          "Bỏ mặc luôn vì nghĩ tính cách sinh ra đã thế không đổi được",
+          "Tự dối mình rằng đây là lỗi hoàn toàn do người khác gây ra"
+        ],
+        "k": "A",
+        "e": "Không ai hoàn hảo ở mọi mặt; nhìn thẳng vào điểm yếu để rèn luyện từng chút một chính là dấu hiệu của sự trưởng thành.",
+        "s": "HĐTN, HN 6",
+        "h": "Thái độ tích cực trước hạn chế bản thân"
+      },
+      {
+        "c": "HN6-B02-007",
+        "d": "application",
+        "p": "Quan sát bảng tự khám phá bản thân của bạn Bảo dưới đây. Để tham gia câu lạc bộ phù hợp phát huy thế mạnh đồng thời cải thiện dần điểm hạn chế của mình, Bảo nên chọn hướng nào?",
+        "o": [
+          "Tham gia CLB Kĩ thuật hoặc Mỹ thuật để tỏa sáng sở thích vẽ, đồng thời tập giơ tay trình bày phần giới thiệu ngắn của nhóm trước tổ để bớt rụt rè",
+          "Bắt ép mình thi vào đội tuyển hát đơn ca dù không thích hát",
+          "Chỉ ngồi vẽ một mình trong góc nhà suốt cả năm học, không nói chuyện với ai",
+          "Bỏ luôn sở thích vẽ vì thấy bản thân chưa tự tin thuyết trình"
+        ],
+        "k": "A",
+        "e": "Kết hợp phát huy thế mạnh tạo động lực tự tin để từng bước khắc phục điểm yếu là chiến lược phát triển bản thân rất thông minh.",
+        "s": "HĐTN, HN 6",
+        "h": "Vận dụng hồ sơ bản thân chọn hoạt động rèn luyện",
+        "fig": {
+          "type": "table",
+          "title": "Hồ sơ bạn Bảo",
+          "head": [
+            "Mục tự đánh giá",
+            "Nội dung cụ thể"
+          ],
+          "rows": [
+            [
+              "Sở thích nổi bật",
+              "Vẽ, lắp mô hình"
+            ],
+            [
+              "Điểm mạnh rõ",
+              "Kiên nhẫn, khéo tay"
+            ],
+            [
+              "Điểm cần rèn",
+              "Ngại nói trước lớp"
+            ],
+            [
+              "Mục tiêu học kì",
+              "Tự tin thuyết trình"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "HN6-B02-008",
+        "d": "application",
+        "p": "Giọng nói của bạn Hùng bỗng dưng bị khàn và vỡ giọng trầm ồm khi đọc bài trước lớp, khiến một vài bạn trong lớp bật cười nhỏ. Bạn Hùng và các bạn trong lớp cần ứng xử thế nào cho đúng mực?",
+        "o": [
+          "Hùng xin nghỉ học ở nhà 6 tháng vì xấu hổ",
+          "Hùng giữ bình tĩnh vì vỡ giọng là dấu hiệu dậy thì nam giới khỏe mạnh sẽ ổn định dần; các bạn khác không trêu chọc chế giễu sự thay đổi tự nhiên này",
+          "Các bạn đồng thanh cười ồ mỗi khi Hùng mở miệng phát biểu",
+          "Hùng cố nói thật the thé giả giọng em bé"
+        ],
+        "k": "B",
+        "e": "Tôn trọng sự thay đổi cơ thể của chính mình và bạn bè là nguyên tắc văn hóa ứng xử quan trọng của học sinh THCS.",
+        "s": "HĐTN, HN 6",
+        "h": "Tôn trọng hiện tượng vỡ giọng tuổi dậy thì"
+      },
+      {
+        "c": "HN6-B02-009",
+        "d": "application",
+        "p": "Một số bạn trong lớp hay trêu chọc ngoại hình của bạn Lan vì Lan phát triển cao lớn hơn hẳn các bạn cùng tuổi. Hành động nào vừa bảo vệ bạn vừa thể hiện nhận thức đúng đắn của em?",
+        "o": [
+          "Hùa theo đám đông đặt biệt danh trêu bạn Lan cho vui",
+          "Khuyên bạn Lan nhịn ăn suốt tháng để thấp bé lại",
+          "Im lặng quay video cảnh bạn bị trêu để xem lại",
+          "Lên tiếng nhắc các bạn dừng trêu chọc vì mỗi người có nhịp phát triển cơ thể khác nhau, đồng thời động viên Lan tự hào về vóc dáng khỏe khoắn của mình"
+        ],
+        "k": "D",
+        "e": "Mọi sự chế giễu ngoại hình (body shaming) đều gây tổn thương tinh thần; tôn trọng sự đa dạng cơ thể là thái độ văn minh.",
+        "s": "HĐTN, HN 6",
+        "h": "Chống trêu chọc ngoại hình (body shaming) tuổi dậy thì"
+      },
+      {
+        "c": "HN6-B02-010",
+        "d": "application",
+        "p": "Khi xuất hiện những băn khoăn thầm kín về thay đổi cơ thể tuổi dậy thì mà em ngại hỏi trực tiếp trước lớp, nguồn tham khảo và tư vấn tin cậy an toàn nhất là ai?",
+        "o": [
+          "Giấu kín hoàn toàn dù thấy cơ thể đau ốm bất thường",
+          "Hỏi những người lạ quen qua mạng xã hội đòi gửi ảnh cá nhân",
+          "Bố mẹ, thầy cô giáo môn KHTN/HĐTN, cô nhân viên y tế trường học hoặc sách khoa học chính thống về sức khỏe sinh sản vị thành niên",
+          "Tin nghe theo mọi lời đồn thổi trôi nổi của tài khoản ẩn danh trên mạng"
+        ],
+        "k": "C",
+        "e": "Tìm đúng người lớn đáng tin cậy và nguồn thông tin chính thống giúp bảo vệ an toàn sức khỏe và tránh bị lừa gạt trên không gian mạng.",
+        "s": "HĐTN, HN 6",
+        "h": "Tìm nguồn tư vấn đáng tin cậy về dậy thì"
+      },
+      {
+        "c": "HN6-B02-011",
+        "d": "application",
+        "p": "Một người quen trên mạng rủ bạn nhỏ lớp 6 chụp ảnh riêng tư gửi qua tin nhắn để \"kiểm tra sự phát triển cơ thể tuổi dậy thì\". Quy tắc an toàn bắt buộc cần làm ngay là gì?",
+        "o": [
+          "Tuyệt đối từ chối, chặn liên lạc ngay, không gửi bất kì ảnh riêng tư nào và kể ngay cho bố mẹ hoặc thầy cô để được bảo vệ",
+          "Làm theo lời rủ rê vì sợ mất lòng người ta",
+          "Xóa tin nhắn im lặng và giữ bí mật một mình không nói với ai",
+          "Gửi ảnh nhưng dặn người đó hứa giữ bí mật"
+        ],
+        "k": "A",
+        "e": "Quy tắc bàn tay giao tiếp và quyền bất khả xâm phạm cơ thể áp dụng cả ngoài đời thực lẫn trên môi trường mạng.",
+        "s": "HĐTN, HN 6",
+        "h": "Phòng tránh xâm hại trên mạng tuổi dậy thì"
+      },
+      {
+        "c": "HN6-B02-012",
+        "d": "application",
+        "p": "Trong giờ sinh hoạt giới thiệu \"Tôi là ai?\", thay vì chỉ chép lại nhận xét của người khác, cách nào giúp em tự đánh giá chính xác năng lực bản thân nhất?",
+        "o": [
+          "Chỉ dựa vào một lần bị điểm kém để kết luận mình vô dụng",
+          "Chỉ tự khen mình giỏi nhất mọi thứ dù chưa thử làm bao giờ",
+          "Sao chép y nguyên bài tự giới thiệu của bạn ngồi bên cạnh",
+          "Kết hợp tự quan sát kết quả các việc mình đã làm, hỏi ý kiến chân thành từ bố mẹ, thầy cô, bạn thân và thử sức qua các trải nghiệm mới"
+        ],
+        "k": "D",
+        "e": "\"Cửa sổ nhận thức\" đầy đủ được mở ra nhờ kết hợp góc nhìn tự soi của bản thân và phản hồi khách quan từ những người xung quanh.",
+        "s": "HĐTN, HN 6",
+        "h": "Phương pháp tự nhận thức bản thân khách quan"
+      },
+      {
+        "c": "HN6-B02-013",
+        "d": "advanced",
+        "p": "Vì sao khi bố mẹ góp ý về giờ giấc học tập hoặc cách ăn mặc ở tuổi lớp 6, nhiều bạn dễ phản ứng bực bội gay gắt dù sau đó lại thấy bố mẹ có lí? Hiểu điều này giúp em giao tiếp với gia đình tốt hơn thế nào?",
+        "o": [
+          "Cách tốt nhất là đóng sầm cửa phòng và không nói chuyện cả tuần",
+          "Vì từ lớp 6 trở đi học sinh không cần nghe lời góp ý của ai nữa",
+          "Vì bố mẹ luôn cố tình tìm cách kiểm soát vô lí con cái",
+          "Vì hormone và nhu cầu tự chủ tuổi dậy thì khiến cái tôi nhạy cảm hơn; biết dừng lại hít sâu 5 giây trước khi trả lời giúp nói chuyện bình tĩnh tôn trọng hơn"
+        ],
+        "k": "D",
+        "e": "Nhận diện phản ứng cảm xúc bốc đồng của chính mình là bước trưởng thành đầu tiên để biến tranh cãi thành đối thoại thấu hiểu.",
+        "s": "HĐTN, HN 6",
+        "h": "Điều chỉnh phản ứng cảm xúc với cha mẹ tuổi dậy thì"
+      },
+      {
+        "c": "HN6-B02-014",
+        "d": "advanced",
+        "p": "Bạn An thấy mình không học xuất sắc nổi bật một môn nào nhưng lại rất khéo hòa giải mâu thuẫn bạn bè, luôn nhớ lịch sinh nhật và làm cả nhóm vui vẻ mỗi khi căng thẳng. Giá trị bản thân đáng quý nào An đang sở hữu?",
+        "o": [
+          "Đó không phải năng lực gì đáng kể vì không có bài thi tính điểm",
+          "An nên bỏ tính cách đó đi để chỉ tập trung làm toán cả ngày",
+          "Trí tuệ cảm xúc và năng lực gắn kết con người — phẩm chất cực kì quý giá tạo nên người đồng đội tin cậy và nhà lãnh đạo tương lai",
+          "An chỉ đang tốn thời gian vô ích cho chuyện của bạn bè"
+        ],
+        "k": "C",
+        "e": "Theo thuyết đa trí tuệ, trí tuệ tương tác xã hội (Interpersonal) quan trọng không kém trí tuệ logic ngôn ngữ trong thành công và hạnh phúc.",
+        "s": "HĐTN, HN 6",
+        "h": "Nhận diện giá trị trí tuệ cảm xúc và kết nối"
+      },
+      {
+        "c": "HN6-B02-015",
+        "d": "advanced",
+        "p": "Soạn \"Bản cam kết yêu thương và bảo vệ bản thân\" cho học sinh lớp 6 bước vào tuổi mới lớn: ba trụ cột hành động thiết thực nhất cần đưa vào là gì?",
+        "o": [
+          "Ăn thật nhiều đồ ngọt để lớn nhanh, thức khuya chơi game và giấu mọi khó khăn",
+          "Chăm sóc sức khỏe thể chất (ăn đủ, ngủ sớm, vận động), tôn trọng ranh giới an toàn cơ thể, và giữ thái độ tự tin học hỏi không ngừng",
+          "So sánh ngoại hình mình mỗi ngày với người nổi tiếng trên mạng rồi buồn bã",
+          "Chỉ chăm học thuộc lòng mà bỏ hẳn vận động và vệ sinh cá nhân"
+        ],
+        "k": "B",
+        "e": "Yêu thương đúng cách là nuôi dưỡng đồng đều cả Thân khỏe – Tâm an – Trí sáng ngay từ năm đầu cấp THCS.",
+        "s": "HĐTN, HN 6",
+        "h": "Ba trụ cột chăm sóc bản thân tuổi mới lớn"
+      }
+    ]
+  },
+  {
+    "chapter": "hdtn_hn6-c1",
+    "lesson": {
+      "code": "hdtn_hn6-b03",
+      "title": "Bài 3. Quản lí thời gian, góc học tập và rèn thói quen tự chủ",
+      "seq": 3,
+      "subtitle": "Xây dựng thời gian biểu hợp lí cân bằng học và nghỉ, sắp xếp góc học tập khoa học 5S và rèn tính tự giác không cần nhắc nhở",
+      "concepts": [
+        "Thời gian biểu khoa học",
+        "Góc học tập ngăn nắp",
+        "Tính tự giác và trì hoãn"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN6-B03-001",
+        "d": "basic",
+        "p": "Công cụ đơn giản và hiệu quả nhất giúp học sinh lớp 6 sắp xếp cân đối giữa giờ tự học, làm việc nhà, vui chơi thể thao và giấc ngủ hằng ngày là gì?",
+        "o": [
+          "Nhớ mang máng trong đầu lúc nào nhớ việc gì thì làm việc đó",
+          "Lập thời gian biểu cá nhân cụ thể theo ngày/tuần và đặt ở nơi dễ quan sát nhất",
+          "Chỉ tập trung xem tivi tới khuya rồi sáng dậy mới vội làm bài",
+          "Chờ bố mẹ nhắc từng việc nhỏ mới bắt đầu làm"
+        ],
+        "k": "B",
+        "e": "Thời gian biểu trực quan giúp biến các dự định tốt thành hành động đều đặn, tránh cảnh \"nước đến chân mới nhảy\".",
+        "s": "HĐTN, HN 6",
+        "h": "Công cụ quản lí thời gian cá nhân"
+      },
+      {
+        "c": "HN6-B03-002",
+        "d": "basic",
+        "p": "Theo nguyên tắc sắp xếp góc học tập khoa học, những vật dụng nào nên đặt ở vị trí gần tầm tay nhất trên mặt bàn khi ngồi học bài?",
+        "o": [
+          "Đặt sát ngay bên cạnh tivi đang bật âm lượng thật lớn",
+          "Chất đống truyện tranh, đồ chơi, điện thoại game và bát đũa ăn vặt",
+          "Chỉ để sách vở, dụng cụ phục vụ đúng môn đang học, đèn học đủ sáng và đồng hồ theo dõi giờ",
+          "Chất cao chồng sách của cả 12 môn che kín cả mặt bàn"
+        ],
+        "k": "C",
+        "e": "Mặt bàn gọn thoáng giúp mắt tập trung vào sách vở, giảm phân tâm bởi các vật kích thích xung quanh.",
+        "s": "HĐTN, HN 6",
+        "h": "Sắp xếp mặt bàn học tập gọn gàng"
+      },
+      {
+        "c": "HN6-B03-003",
+        "d": "basic",
+        "p": "Khi ngồi học tại bàn vào buổi tối, nguồn ánh sáng đèn học nên bố trí chiếu từ phía nào (đối với học sinh thuận tay phải) để không bị tay che bóng mờ lên trang vở?",
+        "o": [
+          "Đặt đèn ngay sát sau lưng người ngồi",
+          "Đặt đèn học ở phía trước bên TRÁI, ánh sáng chiếu dịu đều xuống vở và không rọi thẳng chói vào mắt",
+          "Đặt đèn phía bên phải ngay sát bàn tay cầm bút",
+          "Tắt hết đèn học và chỉ dùng ánh sáng màn hình điện thoại"
+        ],
+        "k": "B",
+        "e": "Chiếu sáng từ phía đối diện tay cầm bút (tay phải -> đèn bên trái) loại bỏ hoàn toàn bóng râm tay che chữ, giúp bảo vệ thị lực.",
+        "s": "HĐTN, HN 6",
+        "h": "Vị trí đặt đèn học bảo vệ mắt"
+      },
+      {
+        "c": "HN6-B03-004",
+        "d": "basic",
+        "p": "Thói quen \"Trì hoãn\" (cứ định làm bài tập từ 19 giờ nhưng lại lần lữa lướt mạng tới 22 giờ mới mở vở) thường dẫn đến hậu quả gì?",
+        "o": [
+          "Bài làm vội vàng sơ sài nhiều lỗi, tâm lí căng thẳng lo âu, phải thức khuya ảnh hưởng giấc ngủ và sức khỏe hôm sau",
+          "Giúp có thêm nhiều thời gian ngủ sớm hơn",
+          "Bài làm tự nhiên đạt điểm cao xuất sắc hơn bình thường",
+          "Khiến sách vở tự động hoàn thành bài tập"
+        ],
+        "k": "A",
+        "e": "Nhận diện \"kẻ trộm thời gian\" giúp học sinh chủ động cắt bỏ thói quen trì hoãn bằng những bước khởi đầu nhỏ ngay lập tức.",
+        "s": "HĐTN, HN 6",
+        "h": "Tác hại của thói quen trì hoãn"
+      },
+      {
+        "c": "HN6-B03-005",
+        "d": "basic",
+        "p": "Người học sinh có tính \"tự chủ, tự giác\" trong sinh hoạt gia đình buổi tối thể hiện rõ nhất qua hành vi nào?",
+        "o": [
+          "Giấu điện thoại dưới gầm bàn để chơi lén lúc bố mẹ tưởng đang học",
+          "Tự ngồi vào bàn học đúng giờ đã lập, hoàn thành việc nhà được giao và tắt thiết bị điện tử đi ngủ đúng giờ không đợi cha mẹ giục",
+          "Ngồi vào bàn học rồi cứ 5 phút lại đứng dậy chạy đi mở tủ lạnh",
+          "Chỉ chịu mở cặp học bài khi cha mẹ quát mắng nhắc nhở ba bốn lần"
+        ],
+        "k": "B",
+        "e": "Sự tự giác là thước đo trưởng thành rõ nhất của học sinh THCS, tạo niềm tin lớn nơi cha mẹ.",
+        "s": "HĐTN, HN 6",
+        "h": "Biểu hiện học sinh tự chủ sinh hoạt"
+      },
+      {
+        "c": "HN6-B03-006",
+        "d": "basic",
+        "p": "Trong buổi tự học kéo dài 90 phút buổi tối, việc dành 5 phút giải lao đứng dậy vươn vai nhìn ra xa sau mỗi 30–40 phút tập trung mang lại ích lợi gì?",
+        "o": [
+          "Làm học sinh quên sạch hết những gì vừa học 30 phút trước",
+          "Gây lãng phí thời gian vô ích nên phải ngồi lì 3 tiếng không nhúc nhích",
+          "Khiến bài tập tự động tăng lên gấp đôi",
+          "Giúp mắt được thư giãn chống cận thị, máu lưu thông bớt mỏi vai gáy và não bộ tiếp thu phần bài tiếp theo tỉnh táo hơn"
+        ],
+        "k": "D",
+        "e": "Nhịp làm việc xen kẽ nghỉ ngắn (tương tự phương pháp Pomodoro) giúp duy trì hiệu suất tập trung cao suốt cả buổi tối.",
+        "s": "HĐTN, HN 6",
+        "h": "Lợi ích giải lao ngắn khi tự học"
+      },
+      {
+        "c": "HN6-B03-007",
+        "d": "application",
+        "p": "Quan sát sơ đồ quy trình ra quyết định sắp xếp thứ tự việc buổi tối dưới đây. Bạn Nam vừa đi học thêm về lúc 18 giờ 30 phút, còn bài tập Toán sáng mai nộp, một trận bóng đá phát lại và chưa dọn bát phụ mẹ. Nam nên làm theo thứ tự ưu tiên nào?",
+        "o": [
+          "Bật xem trọn vẹn trận bóng đá 2 tiếng trước rồi 22 giờ 30 mới mở vở Toán",
+          "Ngủ ngay từ 19 giờ tới sáng mai lên lớp chép bài của bạn",
+          "Ưu tiên việc gấp: ăn tối, dọn bát phụ mẹ, nghỉ ngắn rồi làm xong Toán trước; chỉ xem bóng đá khi còn dư thời gian trước giờ ngủ",
+          "Bỏ luôn việc dọn bát và bài tập Toán để chơi game tới nửa đêm"
+        ],
+        "k": "C",
+        "e": "Phân biệt rõ việc \"Quan trọng & Khẩn cấp\" với việc giải trí trì hoãn giúp hoàn thành trọn vẹn trách nhiệm mà tâm lí vẫn nhẹ nhõm.",
+        "s": "HĐTN, HN 6",
+        "h": "Áp dụng quy trình ưu tiên việc buổi tối",
+        "fig": {
+          "w": 320,
+          "h": 185,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  100,
+                  14
+                ],
+                [
+                  220,
+                  14
+                ],
+                [
+                  220,
+                  44
+                ],
+                [
+                  100,
+                  44
+                ]
+              ],
+              "fill": "#dcfce7",
+              "stroke": "#16a34a",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                33
+              ],
+              "s": "Liệt kê các việc tối",
+              "anchor": "middle",
+              "size": 11.5
+            },
+            {
+              "t": "line",
+              "a": [
+                160,
+                44
+              ],
+              "b": [
+                160,
+                62
+              ],
+              "arrow": true,
+              "color": "#334155",
+              "w": 2
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  160,
+                  64
+                ],
+                [
+                  235,
+                  94
+                ],
+                [
+                  160,
+                  124
+                ],
+                [
+                  85,
+                  94
+                ]
+              ],
+              "fill": "#fef3c7",
+              "stroke": "#d97706",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                98
+              ],
+              "s": "Quan trọng và gấp?",
+              "anchor": "middle",
+              "size": 11.5
+            },
+            {
+              "t": "line",
+              "a": [
+                85,
+                94
+              ],
+              "b": [
+                55,
+                138
+              ],
+              "arrow": true,
+              "color": "#16a34a",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                58,
+                110
+              ],
+              "s": "Đúng",
+              "anchor": "middle",
+              "size": 10.5,
+              "color": "#15803d"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  10,
+                  140
+                ],
+                [
+                  135,
+                  140
+                ],
+                [
+                  135,
+                  170
+                ],
+                [
+                  10,
+                  170
+                ]
+              ],
+              "fill": "#dbeafe",
+              "stroke": "#2563eb",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                72,
+                159
+              ],
+              "s": "Làm ngay trước tiên",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "line",
+              "a": [
+                235,
+                94
+              ],
+              "b": [
+                265,
+                138
+              ],
+              "arrow": true,
+              "color": "#dc2626",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                264,
+                110
+              ],
+              "s": "Sai",
+              "anchor": "middle",
+              "size": 10.5,
+              "color": "#dc2626"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  185,
+                  140
+                ],
+                [
+                  310,
+                  140
+                ],
+                [
+                  310,
+                  170
+                ],
+                [
+                  185,
+                  170
+                ]
+              ],
+              "fill": "#fee2e2",
+              "stroke": "#dc2626",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                247,
+                159
+              ],
+              "s": "Xếp sau khi rảnh",
+              "anchor": "middle",
+              "size": 11
+            }
+          ]
+        }
+      },
+      {
+        "c": "HN6-B03-008",
+        "d": "application",
+        "p": "Áp dụng phương pháp 5S gọn gàng vào góc học tập cuối tuần của em (Sàng lọc – Sắp xếp – Sạch sẽ – Săn sóc – Sẵn sàng), bước \"Sàng lọc\" đầu tiên cần làm gì với ngăn kéo bàn học đầy đồ?",
+        "o": [
+          "Mua thêm một cái tủ mới to hơn nhét hết cả rác cũ lẫn đồ mới vào chung",
+          "Phân loại loại bỏ giấy nháp cũ hỏng, bút hết mực, rác vụn và cất riêng đồ không dùng tới để chỉ giữ lại sách vở dụng cụ thực sự cần thiết",
+          "Đổ hết mọi thứ xuống gầm giường cho mặt bàn nhìn trông sạch",
+          "Giữ nguyên toàn bộ giấy gói kẹo và vỏ bút gãy làm kỉ niệm trong ngăn bàn"
+        ],
+        "k": "B",
+        "e": "Dọn góc học tập là dọn chính sự rối rắm trong tâm trí; không gian gọn sạch tạo cảm hứng ngồi vào bàn học ngay lập tức.",
+        "s": "HĐTN, HN 6",
+        "h": "Thực hành bước Sàng lọc góc học tập"
+      },
+      {
+        "c": "HN6-B03-009",
+        "d": "application",
+        "p": "Bạn Hà đặt mục tiêu giải hết 10 bài tập Lịch sử và Luyện từ nhưng cứ cầm điện thoại tra từ điển lại bị tin nhắn nhóm chat cuốn đi mất 40 phút. Cách khắc phục thực tế nhất lúc ngồi học là gì?",
+        "o": [
+          "Đặt điện thoại chế độ im lặng để xa tầm tay (hoặc dùng từ điển giấy), học trọn một phiên 35 phút rồi mới xem tin nhắn lúc giải lao",
+          "Chuyển sang gọi điện nói chuyện luôn với cả nhóm suốt 2 tiếng",
+          "Vứt hỏng luôn điện thoại ra ngoài cửa sổ",
+          "Cứ giữ điện thoại mở màn hình ngay cạnh vở để tiện trả lời mọi tin nhắn tức thì"
+        ],
+        "k": "A",
+        "e": "Thiết kế môi trường ít cám dỗ (cất điện thoại ra khỏi tầm mắt) hiệu quả hơn rất nhiều so với việc cố dùng ý chí chống lại tiếng chuông thông báo.",
+        "s": "HĐTN, HN 6",
+        "h": "Loại bỏ xao nhãng điện thoại khi học bài"
+      },
+      {
+        "c": "HN6-B03-010",
+        "d": "application",
+        "p": "Nhìn vào thời gian biểu bạn Lan tự lập có điểm chưa ổn: 17h–19h xem phim; 19h–20h ăn tối; 20h–23h30 học liền không nghỉ; 23h30 mới đi ngủ và 6h sáng dậy. Em hãy góp ý chỉnh giúp Lan hai điểm quan trọng nhất?",
+        "o": [
+          "Bỏ hẳn bữa tối lúc 19h để có thêm 1 tiếng học muộn tới 0h30",
+          "Chuyển giờ học chính lên sớm hơn (ví dụ 19h30–21h30 có nghỉ xen kẽ 5 phút), giảm giờ xem phim chiều và đi ngủ trước 22h–22h30 để đủ giấc 8 tiếng",
+          "Tăng thời gian xem phim lên 4 tiếng một tối cho vui",
+          "Ngủ từ 18h chiều tới 2h sáng dậy học bài"
+        ],
+        "k": "B",
+        "e": "Ngủ sau 23h30 và dậy 6h sáng chỉ được 6,5 tiếng ngủ – quá thiếu so với nhu cầu 8–9 tiếng của tuổi lớp 6, khiến ban ngày uể oải kém tập trung.",
+        "s": "HĐTN, HN 6",
+        "h": "Nhận xét và tối ưu thời gian biểu cá nhân"
+      },
+      {
+        "c": "HN6-B03-011",
+        "d": "application",
+        "p": "Thứ bảy được nghỉ học trên trường nhưng bạn Minh có tới ba việc phải xong trong ngày: ôn bài kiểm tra thứ hai, quét dọn phòng riêng và đá bóng giao hữu chiều cùng tổ. Bí quyết chia khung giờ nào hiệu quả nhất?",
+        "o": [
+          "Vừa ôm sách giáo khoa vừa chạy theo quả bóng trên sân",
+          "Khất cả ba việc sang chủ nhật tuần sau rồi ngủ nướng tới 11h trưa",
+          "Chơi điện tử suốt buổi sáng, chiều đá bóng mệt nhoài rồi tối muộn mới hoảng hốt mở vở",
+          "Hoàn thành phần ôn bài lúc đầu óc tỉnh táo nhất buổi sáng, dọn phòng gọn gàng trước trưa để buổi chiều hoàn toàn thoải mái đá bóng hết mình"
+        ],
+        "k": "D",
+        "e": "Làm việc trí óc quan trọng vào buổi sáng khi năng lượng dồi dào giúp tiết kiệm một nửa thời gian và tận hưởng cuộc vui buổi chiều trọn vẹn.",
+        "s": "HĐTN, HN 6",
+        "h": "Sắp xếp hợp lí lịch ngày cuối tuần"
+      },
+      {
+        "c": "HN6-B03-012",
+        "d": "application",
+        "p": "Khi đặt mục tiêu tuần mới: \"Cải thiện kĩ năng viết chữ và tăng tốc độ tính toán\", bạn Khoa nên viết mục tiêu theo cách cụ thể đo được như thế nào để dễ tự kiểm tra vào cuối tuần?",
+        "o": [
+          "\"Mỗi tối luyện viết nắn nót 1 trang vở sạch và tự giải đúng thêm 5 bài toán tính nhanh trong 15 phút\"",
+          "\"Mình sẽ cố gắng trở thành thiên tài ngay ngày mai\"",
+          "\"Lúc nào thích thì mở vở ra viết vài dòng cho vui\"",
+          "\"Từ tuần sau sẽ không bao giờ mắc một lỗi nào nữa suốt đời\""
+        ],
+        "k": "A",
+        "e": "Mục tiêu rõ ràng về số lượng và thời gian cụ thể giúp em dễ dàng đánh dấu \"hoàn thành\" mỗi tối, tạo cảm giác tự hào khích lệ bản thân.",
+        "s": "HĐTN, HN 6",
+        "h": "Chuyển mục tiêu chung chung thành hành động đo được"
+      },
+      {
+        "c": "HN6-B03-013",
+        "d": "advanced",
+        "p": "Nhiều bạn lớp 6 lập thời gian biểu rất chi tiết đẹp mắt vào đầu năm nhưng chỉ thực hiện đúng 3 ngày rồi bỏ xó. Nguyên nhân gốc rễ phổ biến nhất và cách khắc phục là gì?",
+        "o": [
+          "Do lập lịch quá dày đặc không chừa khoảng đệm linh hoạt; cần chừa 30 phút \"thời gian dự phòng\" mỗi ngày để dễ điều chỉnh thực tế",
+          "Do thời gian biểu chưa vẽ nhiều màu sặc sỡ bằng bút dạ quang",
+          "Do không ai cần dùng thời gian biểu nếu học giỏi sẵn",
+          "Khắc phục bằng cách cắt bỏ hoàn toàn giờ ăn cơm và giờ nghỉ ngơi"
+        ],
+        "k": "A",
+        "e": "Thời gian biểu tốt không phải cái lồng nhốt chặt từng phút mà là người bạn đồng hành linh hoạt chừa chỗ cho sự cố phát sinh và niềm vui.",
+        "s": "HĐTN, HN 6",
+        "h": "Bí quyết duy trì thời gian biểu bền lâu"
+      },
+      {
+        "c": "HN6-B03-014",
+        "d": "advanced",
+        "p": "Áp dụng \"Quy tắc 5 phút khởi động\" khi gặp một bài văn dài hoặc đề cương ôn tập khó khiến bạn rất ngại bắt tay vào làm: ý nghĩa tâm lí của quy tắc này là gì?",
+        "o": [
+          "Chỉ làm bài đúng 5 phút rồi đóng sách đi ngủ ngay dù chưa xong chữ nào",
+          "Chép thật nhanh trong 5 phút toàn bộ bài của bạn khác",
+          "Tự nhủ chỉ cần ngồi vào bàn làm tập trung đúng 5 phút đầu; khi não đã vượt qua sức ì ban đầu và vào guồng công việc, ta sẽ tự nhiên tiếp tục làm nhẹ nhàng",
+          "Đứng nhìn đồng hồ đếm 5 phút rồi mới quyết định có học hay không"
+        ],
+        "k": "C",
+        "e": "Bước khó nhất của mọi công việc không phải là giữa chừng mà là giây đầu tiên bắt tay vào làm; quy tắc 5 phút đánh bại sự trì hoãn cực kì hiệu quả.",
+        "s": "HĐTN, HN 6",
+        "h": "Cơ chế tâm lí quy tắc 5 phút chống trì hoãn"
+      },
+      {
+        "c": "HN6-B03-015",
+        "d": "advanced",
+        "p": "Giữa hai học sinh lớp 6 có lực học ban đầu tương đương nhau: bạn A mỗi ngày tự giác học đúng 2 tiếng vào khung giờ cố định, bàn học gọn gàng; bạn B học ngẫu hứng lúc 0 tiếng lúc 5 tiếng xuyên đêm trước ngày kiểm tra. Sau 1 học kì, kết quả khác nhau thế nào và vì sao?",
+        "o": [
+          "Bạn A bị quên kiến thức vì ngủ đủ giấc mỗi đêm",
+          "Bạn B nhớ lâu hơn vì học nhồi nhét xuyên đêm kích thích não tốt nhất",
+          "Bạn A học nhẹ nhàng ít áp lực, kiến thức chắc sâu, sức khỏe tốt và đạt kết quả ổn định cao hơn vì não bộ ghi nhớ bền vững nhờ lặp lại đều đặn hằng ngày",
+          "Cả hai đạt kết quả hoàn toàn giống hệt nhau mọi môn"
+        ],
+        "k": "C",
+        "e": "Khoa học não bộ chứng minh học đều đặn ngắt quãng mỗi ngày (Spaced Practice) giúp chuyển kiến thức vào trí nhớ dài hạn tốt gấp nhiều lần học dồn sát ngày thi.",
+        "s": "HĐTN, HN 6",
+        "h": "So sánh học đều đặn tự chủ với học dồn đối phó"
+      }
+    ]
+  },
+  {
+    "chapter": "hdtn_hn6-c2",
+    "lesson": {
+      "code": "hdtn_hn6-b04",
+      "title": "Bài 4. Nhận diện và điều chỉnh cảm xúc tích cực",
+      "seq": 4,
+      "subtitle": "Phân biệt các cung bậc cảm xúc, hiểu nguyên nhân nảy sinh cơn giận hoặc lo lắng và thực hành kĩ thuật làm dịu cảm xúc tiêu cực",
+      "concepts": [
+        "Nhận diện cảm xúc bản thân",
+        "Kiểm soát cơn giận bộc phát",
+        "Nuôi dưỡng cảm xúc tích cực"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN6-B04-001",
+        "d": "basic",
+        "p": "Trong tâm lí học học đường, cảm xúc vui vẻ, tự hào, biết ơn, bình tĩnh, hi vọng thuộc nhóm cảm xúc nào?",
+        "o": [
+          "Biểu hiện rối loạn tâm lí nghiêm trọng",
+          "Nhóm cảm xúc chỉ xuất hiện khi bị điểm kém",
+          "Nhóm cảm xúc tích cực giúp mở rộng tư duy, tăng năng lượng và gắn kết tốt với mọi người",
+          "Nhóm cảm xúc có hại cần che giấu hoàn toàn"
+        ],
+        "k": "C",
+        "e": "Nuôi dưỡng cảm xúc tích cực không có nghĩa là chối bỏ nỗi buồn mà là biết giữ tinh thần lạc quan vững vàng trước khó khăn.",
+        "s": "HĐTN, HN 6",
+        "h": "Nhận diện nhóm cảm xúc tích cực"
+      },
+      {
+        "c": "HN6-B04-002",
+        "d": "basic",
+        "p": "Khi gặp một tình huống bực bội (như bị bạn vô tình va làm rơi hộp bút), có cảm xúc tức giận xuất hiện trong lòng là điều bình thường hay đáng xấu hổ?",
+        "o": [
+          "Không bao giờ một học sinh ngoan được phép thấy buồn hay bực mình",
+          "Phải đập phá đồ đạc xung quanh thì cơn giận mới được công nhận",
+          "Hoàn toàn bình thường ở mọi con người; điều quan trọng quyết định đúng – sai nằm ở HÀNH VI ứng xử ngay sau cảm xúc đó",
+          "Là điều xấu xa chứng tỏ mình là người hư hỏng"
+        ],
+        "k": "C",
+        "e": "\"Mọi cảm xúc đều hợp lệ, chỉ có hành vi gây hại mới cần kiểm soát\" — đây là nguyên tắc vàng trong giáo dục trí tuệ cảm xúc.",
+        "s": "HĐTN, HN 6",
+        "h": "Phân biệt cảm xúc tự nhiên và hành vi kiểm soát"
+      },
+      {
+        "c": "HN6-B04-003",
+        "d": "basic",
+        "p": "Dấu hiệu cơ thể nào thường báo hiệu cơn tức giận hoặc căng thẳng đang dâng lên để ta kịp nhận biết và hãm phanh kịp thời?",
+        "o": [
+          "Cảm thấy mát lạnh dễ chịu ở bàn tay bàn chân",
+          "Buồn ngủ ríu mắt và ngáp dài thoải mái",
+          "Tim đập nhanh hơn, hơi thở gấp nông, mặt nóng bừng, hai hàm răng nghiến lại và nắm tay siết chặt",
+          "Cơ thể thư giãn nhẹ nhàng, mỉm cười và nói chuyện nhỏ nhẹ"
+        ],
+        "k": "C",
+        "e": "Nhận ra \"tín hiệu báo động đỏ\" trên cơ thể giúp ta dừng lại vài giây quý giá trước khi thốt ra lời làm tổn thương người khác.",
+        "s": "HĐTN, HN 6",
+        "h": "Tín hiệu sinh lí cảnh báo cơn giận"
+      },
+      {
+        "c": "HN6-B04-004",
+        "d": "basic",
+        "p": "Kĩ thuật thở đơn giản nhất có thể thực hiện ngay tại chỗ ngồi trên lớp để làm dịu nhanh nhịp tim khi đang hồi hộp hoặc sắp nổi nóng là gì?",
+        "o": [
+          "Hít sâu chậm qua mũi (đếm 4 giây), giữ nhẹ 2 giây rồi thở ra êm dài qua miệng (đếm 6 giây) lặp lại 3–5 lần",
+          "Hét thật to hết sức vào tai bạn ngồi bên cạnh",
+          "Nín thở liên tục cho tới khi tím mặt",
+          "Đứng dậy vung tay đập mạnh xuống mặt bàn gỗ"
+        ],
+        "k": "A",
+        "e": "Kéo dài nhịp thở ra hơn nhịp hít vào kích hoạt hệ thần kinh thư giãn, hạ nhịp tim và trả lại sự sáng suốt chỉ trong 30 giây.",
+        "s": "HĐTN, HN 6",
+        "h": "Kĩ thuật thở sâu 4-2-6 hạ nhiệt cảm xúc"
+      },
+      {
+        "c": "HN6-B04-005",
+        "d": "basic",
+        "p": "Khi cảm thấy buồn bã thất vọng vì một chuyện không như ý, việc tìm cách chia sẻ tâm sự với người thân hoặc viết ra nhật kí cá nhân có tác dụng gì?",
+        "o": [
+          "Khiến người nghe bị lây bệnh cảm cúm",
+          "Giúp giải tỏa áp lực dồn nén trong lòng, nhìn vấn đề khách quan hơn và nhận được sự đồng cảm, gợi ý sáng suốt",
+          "Làm nỗi buồn nhân lên gấp mười lần mãi mãi không hết",
+          "Chứng tỏ bản thân yếu đuối không đáng tin cậy"
+        ],
+        "k": "B",
+        "e": "Gọi tên được cảm xúc của mình (\"Mình đang thấy thất vọng vì...\") giúp não bộ giảm ngay một nửa cường độ hoảng loạn cảm xúc.",
+        "s": "HĐTN, HN 6",
+        "h": "Tác dụng của chia sẻ và viết nhật kí cảm xúc"
+      },
+      {
+        "c": "HN6-B04-006",
+        "d": "basic",
+        "p": "Thói quen \"Mỗi tối nhớ lại 3 điều tốt đẹp hoặc đáng biết ơn trong ngày\" giúp ích gì cho đời sống tinh thần của học sinh lớp 6?",
+        "o": [
+          "Chỉ làm tốn giấy mực vô ích",
+          "Rèn cho não bộ thói quen chú ý đến những giá trị tích cực quanh mình, tăng sự hài lòng và ngủ ngon hơn",
+          "Làm học sinh quên hết bài tập cần làm ngày mai",
+          "Khiến người tập trở nên kiêu căng tự mãn"
+        ],
+        "k": "B",
+        "e": "Thực hành lòng biết ơn là bài tập tâm lí tích cực đơn giản nhất đã được chứng minh làm tăng hạnh phúc bền vững.",
+        "s": "HĐTN, HN 6",
+        "h": "Bài tập thực hành lòng biết ơn cuối ngày"
+      },
+      {
+        "c": "HN6-B04-007",
+        "d": "application",
+        "p": "Quan sát bảng các cách giải tỏa cảm xúc tiêu cực lành mạnh dưới đây. Khi bạn Minh vừa bị mất điểm bài kiểm tra 15 phút vì đọc nhầm đề nên rất ức chế muốn xé nháp, Minh nên chọn cách nào ngay lúc đó?",
+        "o": [
+          "Đập bàn ầm ĩ và đổ lỗi tại bạn ngồi bên cạnh làm mình phân tâm",
+          "Về nhà đập hỏng cây vợt cầu lông yêu thích cho bõ tức",
+          "Xé nát tờ đề ngay trước mặt thầy cô rồi đi ra khỏi lớp",
+          "Đặt bút xuống hít sâu 5 nhịp, uống ngụm nước mát, ghi lại lỗi đọc nhầm vào góc vở để rút kinh nghiệm lần sau thay vì xé giấy trút giận"
+        ],
+        "k": "D",
+        "e": "Chuyển năng lượng tức giận sang hành động phân tích lỗi sai cụ thể giúp em tiến bộ thực chất mà không gây hậu quả đáng tiếc.",
+        "s": "HĐTN, HN 6",
+        "h": "Áp dụng cách hạ nhiệt đúng lúc tức giận",
+        "fig": {
+          "type": "table",
+          "title": "Điều chỉnh cảm xúc",
+          "head": [
+            "Cảm xúc mạnh",
+            "Hành động lành mạnh"
+          ],
+          "rows": [
+            [
+              "Tức giận bốc đồng",
+              "Thở sâu, đếm 10"
+            ],
+            [
+              "Lo âu trước thi",
+              "Chuẩn bị kĩ, tự tin"
+            ],
+            [
+              "Buồn nản thất bại",
+              "Tâm sự người thân"
+            ],
+            [
+              "Căng thẳng mệt mỏi",
+              "Đi bộ, nghe nhạc êm"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "HN6-B04-008",
+        "d": "application",
+        "p": "Sáng nay mẹ bận việc vội nên lỡ hiểu nhầm trách oan bạn Lan chưa dọn bàn ăn dù Lan đã dọn sạch từ sớm. Để tránh cãi vã làm cả hai mẹ con buồn lòng, Lan nên đáp lại thế nào?",
+        "o": [
+          "Lên mạng viết dòng trạng thái nói xấu mẹ với bạn bè",
+          "Hét lớn đáp trả: \"Mẹ lúc nào cũng vô lí thiên vị, con không làm việc nhà nữa!\"",
+          "Im lặng giận dỗi ném mạnh cặp sách xuống đất rồi bỏ đi không chào",
+          "Đợi nhịp nói bình tĩnh, nói nhẹ nhàng lễ phép: \"Mẹ ơi, sáng nay con dọn sạch trước lúc mẹ xuống rồi ạ, chắc lúc nãy em bé mới bày thêm ra đó mẹ\""
+        ],
+        "k": "D",
+        "e": "Phản hồi bằng sự thật điềm tĩnh và tôn trọng giúp hóa giải hiểu nhầm ngay trong một câu nói mà vẫn giữ ấm tình cảm gia đình.",
+        "s": "HĐTN, HN 6",
+        "h": "Giao tiếp điềm tĩnh khi bị cha mẹ hiểu nhầm"
+      },
+      {
+        "c": "HN6-B04-009",
+        "d": "application",
+        "p": "Trước ngày kiểm tra giữa kì môn Toán, bạn Huy hồi hộp tới mức tim đập thình thịch, tay ra mồ hôi và lo sợ mình sẽ quên sạch kiến thức. Việc làm thực tế nào giúp Huy bình tĩnh nhất tối hôm trước?",
+        "o": [
+          "Nhắn tin hỏi khắp lớp xem có ai cho chép bài mai không",
+          "Uống liền 3 lon nước tăng lực cho đỡ run",
+          "Rà lại bảng công thức tóm tắt 15 phút, chuẩn bị sẵn đồ dùng thước kẻ máy tính gọn gàng rồi tắt đèn đi ngủ sớm đúng giờ",
+          "Thức trắng tới 3 giờ sáng giải thêm 50 bài khó mới toanh"
+        ],
+        "k": "C",
+        "e": "Chuẩn bị đầy đủ dụng cụ và giấc ngủ sâu là liều thuốc tự nhiên tốt nhất ổn định hệ thần kinh trước mọi kì kiểm tra.",
+        "s": "HĐTN, HN 6",
+        "h": "Giải tỏa lo âu trước kì kiểm tra"
+      },
+      {
+        "c": "HN6-B04-010",
+        "d": "application",
+        "p": "Khi thấy bạn thân cùng tổ đang khóc nức nở ở góc sân sau giờ trả bài văn vì kết quả thấp hơn mong đợi, cách an ủi tinh tế và có giá trị nâng đỡ nhất là gì?",
+        "o": [
+          "Nói ngay: \"Thôi có gì đâu mà khóc, bài dễ ợt thế mà cậu cũng làm sai!\"",
+          "Khoe khoang ngay điểm 9 của mình trước mặt bạn",
+          "Chụp ảnh bạn đang khóc gửi vào nhóm chat lớp cho mọi người xem",
+          "Ngồi yên bên cạnh lắng nghe bạn chia sẻ, đưa khăn giấy nhẹ nhàng và nói lời động viên chân thành khi bạn bớt khóc"
+        ],
+        "k": "D",
+        "e": "Đôi khi một người bạn biết ngồi bên lắng nghe không phán xét quý giá hơn hàng trăm lời khuyên rao giảng vội vã.",
+        "s": "HĐTN, HN 6",
+        "h": "Kĩ năng lắng nghe nâng đỡ bạn đang buồn"
+      },
+      {
+        "c": "HN6-B04-011",
+        "d": "application",
+        "p": "Một bạn trong nhóm đá bóng vô tình sút bóng làm vỡ kính cửa sổ lớp học rồi hoảng sợ định bỏ chạy giấu nhẹm. Cảm xúc sợ hãi lúc này dễ dẫn đến sai lầm lớn nào và cách xử lí bản lĩnh là gì?",
+        "o": [
+          "Sợ bị phạt dễ khiến nói dối trốn tránh làm sự việc nặng hơn; bản lĩnh đúng là hít sâu bình tĩnh nhận lỗi với thầy cô và cùng giải quyết an toàn mảnh kính vỡ",
+          "Nhặt mảnh kính vỡ bằng tay trần không báo người lớn",
+          "Chạy biến ra ngoài cổng trường và đổ tội cho lớp khác đi ngang qua",
+          "Cười đùa bỏ mặc kính vỡ nguy hiểm trên sàn lớp"
+        ],
+        "k": "A",
+        "e": "Dám chịu trách nhiệm trước lỗi lầm vô ý thể hiện lòng dũng cảm và giúp giữ an toàn cho các bạn khác khỏi dẫm mảnh kính.",
+        "s": "HĐTN, HN 6",
+        "h": "Vượt qua nỗi sợ để nhận trách nhiệm trung thực"
+      },
+      {
+        "c": "HN6-B04-012",
+        "d": "application",
+        "p": "Mỗi khi gặp bài tập khó giải mãi không ra khiến em bực bội muốn bỏ cuộc, câu tự nhủ tích cực nào giúp thay đổi trạng thái tâm lí hiệu quả nhất?",
+        "o": [
+          "\"Lên mạng chép bừa đáp án cho xong khỏi phải nghĩ\"",
+          "\"Bài này hơi thử thách một chút; mình thử đọc lại ví dụ mẫu, chia nhỏ từng bước hoặc nghỉ uống nước 5 phút rồi làm lại!\"",
+          "\"Môn học này thật vô dụng, thề không bao giờ đụng vào nữa\"",
+          "\"Mình đúng là đứa ngu ngốc nhất lớp, học mãi cũng chẳng hiểu gì\""
+        ],
+        "k": "B",
+        "e": "Ngôn ngữ tự nói chuyện với bản thân (Self-talk) quyết định rất lớn việc não bộ tiếp tục tìm lời giải hay đầu hàng sớm.",
+        "s": "HĐTN, HN 6",
+        "h": "Thay đổi độc thoại nội tâm khi gặp bài khó"
+      },
+      {
+        "c": "HN6-B04-013",
+        "d": "advanced",
+        "p": "Vì sao các chuyên gia tâm lí khuyên: \"Đừng bao giờ đưa ra quyết định lớn hay gửi tin nhắn phản ứng ngay lúc cảm xúc tức giận đang ở đỉnh điểm\"?",
+        "o": [
+          "Vì đợi qua cơn giận sẽ quên mất người kia là ai",
+          "Vì tin nhắn gửi lúc giận sẽ bị mất kết nối mạng",
+          "Vì lúc giận dữ mạnh, phần não cảm xúc lấn át vùng não trước trán phụ trách lí trí suy xét hậu quả, khiến lời nói và hành động rất dễ sai lầm hối tiếc",
+          "Vì lúc giận các ngón tay không thể bấm phím điện thoại được"
+        ],
+        "k": "C",
+        "e": "Quy tắc \"Khoảng lặng 10 giây (hoặc 1 đêm)\" trước khi trả lời tin nhắn gây bực bội giúp bảo vệ biết bao tình bạn đẹp trên mạng xã hội.",
+        "s": "HĐTN, HN 6",
+        "h": "Cơ chế não lí trí và khoảng lặng trước phản ứng"
+      },
+      {
+        "c": "HN6-B04-014",
+        "d": "advanced",
+        "p": "Phân biệt giữa \"Kiềm chế nén giận vào trong âm ỉ kéo dài\" với \"Điều chỉnh chuyển hóa cảm xúc lành mạnh\": cách thứ hai khác biệt và tốt cho sức khỏe ở điểm nào?",
+        "o": [
+          "Điều chỉnh lành mạnh giúp nhận rõ nguyên nhân, giải tỏa căng thẳng qua vận động, viết lách hoặc đối thoại xây dựng để thật sự nhẹ lòng",
+          "Nén giận kéo dài tốt cho dạ dày và giấc ngủ hơn",
+          "Cách thứ hai là tìm người yếu thế hơn để trút giận thay",
+          "Hai cách hoàn toàn giống nhau ở việc phải giả vờ cười tươi khi đang rất đau lòng"
+        ],
+        "k": "A",
+        "e": "Biến cảm xúc khó chịu thành hành động tích cực (chơi thể thao, trao đổi thẳng thắn lịch sự) giữ tâm trí trong lành không tích tụ độc hại.",
+        "s": "HĐTN, HN 6",
+        "h": "Phân biệt kìm nén tiêu cực và chuyển hóa cảm xúc"
+      },
+      {
+        "c": "HN6-B04-015",
+        "d": "advanced",
+        "p": "Nếu lớp 6A muốn lập một \"Góc Bình Yên / Hòm thư Chia Sẻ\" ngay trong lớp học để các bạn biết tự chăm sóc sức khỏe tinh thần, thiết kế nội dung nào ý nghĩa và an toàn nhất?",
+        "o": [
+          "Chỉ trưng bày các mô hình đồ chơi đắt tiền không có hoạt động kết nối",
+          "Làm nơi để các bạn viết lời nói xấu nặc danh chê bai nhau",
+          "Dán công khai bảng xếp hạng những bạn khóc nhè hoặc bị điểm kém nhất tuần",
+          "Đặt các thẻ gợi ý mẹo thở thư giãn, bảng ghi nhận lời khen bí mật gửi bạn bè mỗi tuần và hòm thư tin cậy chỉ cô chủ nhiệm đọc để hỗ trợ bạn gặp khó khăn"
+        ],
+        "k": "D",
+        "e": "Một tập thể lớp an toàn về mặt cảm xúc là nơi mọi bạn nhỏ đều được lắng nghe, khích lệ và không bị phán xét.",
+        "s": "HĐTN, HN 6",
+        "h": "Thiết kế góc hỗ trợ cảm xúc tích cực cho lớp"
+      }
+    ]
+  },
+  {
+    "chapter": "hdtn_hn6-c2",
+    "lesson": {
+      "code": "hdtn_hn6-b05",
+      "title": "Bài 5. Giao tiếp lịch sự, lắng nghe và hóa giải hiểu lầm bạn bè",
+      "seq": 5,
+      "subtitle": "Kĩ năng lắng nghe tích cực bằng ánh mắt và ngôn ngữ cơ thể, giao tiếp tôn trọng trực tiếp cũng như trên mạng xã hội, hòa giải bất đồng",
+      "concepts": [
+        "Lắng nghe tích cực",
+        "Giao tiếp văn minh trực tiếp và online",
+        "Hòa giải hiểu lầm bạn bè"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN6-B05-001",
+        "d": "basic",
+        "p": "Thái độ và tư thế nào thể hiện \"Lắng nghe tích cực\" khi bạn bè hoặc người thân đang tâm sự câu chuyện quan trọng với em?",
+        "o": [
+          "Hướng người về phía người nói, nhìn vào mắt thiện cảm, gật đầu nhẹ khích lệ và không ngắt lời khi bạn chưa nói xong",
+          "Ngắt ngang giữa câu bạn để kể ngay chiến tích của riêng mình",
+          "Ngáp dài liên tục và quay lưng đi chỗ khác",
+          "Vừa ậm ừ nghe vừa cắm cúi lướt màn hình điện thoại liên tục"
+        ],
+        "k": "A",
+        "e": "Lắng nghe bằng cả đôi tai, ánh mắt và sự tập trung trọn vẹn là món quà tôn trọng lớn nhất dành cho người đối diện.",
+        "s": "HĐTN, HN 6",
+        "h": "Biểu hiện lắng nghe tích cực"
+      },
+      {
+        "c": "HN6-B05-002",
+        "d": "basic",
+        "p": "Trong giao tiếp trên nhóm chat lớp học hoặc mạng xã hội, quy tắc phép lịch sự tối thiểu khi nhắn tin là gì?",
+        "o": [
+          "Chụp lén màn hình tin nhắn riêng tư tung lên nhóm đông cười cợt",
+          "Nhắn tin cộc lốc trống không vào lúc 12 giờ đêm đòi trả lời ngay",
+          "Gửi hàng loạt tin nhắn rác hoặc ảnh chế trêu ghẹo bạn bè",
+          "Dùng ngôn từ văn minh có chủ ngữ vị ngữ, tránh viết chữ IN HOA toàn bộ như quát mắng và tôn trọng giờ nghỉ ngơi của thầy cô, bạn bè"
+        ],
+        "k": "D",
+        "e": "Văn hóa ứng xử số phản ánh nhân cách thật của mỗi học sinh không khác gì giao tiếp mặt đối mặt ngoài đời.",
+        "s": "HĐTN, HN 6",
+        "h": "Phép lịch sự khi nhắn tin nhóm lớp"
+      },
+      {
+        "c": "HN6-B05-003",
+        "d": "basic",
+        "p": "Khi hai người bạn hiểu lầm nhau vì nghe kể tam sao thất bản qua một người thứ ba, cách giải quyết khôn ngoan nhất để giữ tình bạn là gì?",
+        "o": [
+          "Lập tức hủy kết bạn và nói xấu lại sau lưng cho hả giận",
+          "Rủ thêm 5 bạn khác tới bao vây gây gổ lúc tan học",
+          "Chiến tranh lạnh kéo dài suốt cả năm học không hỏi một câu",
+          "Gặp mặt trực tiếp ở nơi yên tĩnh, hỏi thẳng nhẹ nhàng để kiểm chứng sự thật từ chính bạn thay vì vội tin lời đồn thổi"
+        ],
+        "k": "D",
+        "e": "80% mâu thuẫn tuổi học trò xuất phát từ hiểu lầm thiếu đối thoại trực tiếp; nói chuyện thẳng thắn nhẹ nhàng xóa tan mọi nghi ngờ.",
+        "s": "HĐTN, HN 6",
+        "h": "Hóa giải hiểu lầm qua đối thoại trực tiếp"
+      },
+      {
+        "c": "HN6-B05-004",
+        "d": "basic",
+        "p": "Khi em lỡ làm hỏng hoặc làm mất một đồ dùng học tập mượn của bạn, lời nói và hành động lịch sự có trách nhiệm nhất là gì?",
+        "o": [
+          "Tránh mặt luôn không trả lại nữa",
+          "Đổ thừa tại đồ của bạn vốn đã cũ rích sẵn rồi",
+          "Lén đặt lại chỗ cũ rồi vờ như không biết chuyện gì xảy ra",
+          "Chủ động báo ngay cho bạn biết, nói lời xin lỗi chân thành và tìm cách sửa chữa hoặc đền lại món đồ tương đương sớm nhất"
+        ],
+        "k": "D",
+        "e": "Nhận lỗi và chủ động khắc phục hậu quả tuy hơi ngại lúc đầu nhưng giữ trọn được uy tín và sự tin cậy lâu dài.",
+        "s": "HĐTN, HN 6",
+        "h": "Ứng xử có trách nhiệm khi làm hỏng đồ mượn"
+      },
+      {
+        "c": "HN6-B05-005",
+        "d": "basic",
+        "p": "Để góp ý giúp một bạn trong nhóm sửa thói quen hay đi trễ làm ảnh hưởng tiến độ chung mà bạn không bị tự ái, em nên mở đầu lời góp ý thế nào?",
+        "o": [
+          "Viết bảng tên bạn bêu riếu lên bảng đen trước lớp",
+          "Gặp riêng nói nhẹ nhàng, ghi nhận sự nhiệt tình của bạn trước rồi nêu mong muốn cụ thể (\"Nếu cậu tới đúng 8h sáng mai thì nhóm mình chạy bài kịp hẳn!\")",
+          "Im lặng bằng mặt không bằng lòng rồi tự gạch tên bạn khỏi nhóm",
+          "Đứng giữa sân trường hét toáng lên chê bạn lười biếng vô kỉ luật"
+        ],
+        "k": "B",
+        "e": "Khen riêng trước – góp ý khéo ở chỗ kín – đề xuất giải pháp hướng tới tương lai là nghệ thuật góp ý khiến ai cũng dễ đón nhận.",
+        "s": "HĐTN, HN 6",
+        "h": "Nghệ thuật góp ý khéo léo với bạn"
+      },
+      {
+        "c": "HN6-B05-006",
+        "d": "basic",
+        "p": "Khi từ chối một lời rủ rê của bạn bè mà em thấy không phù hợp hoặc không an toàn (như đi chơi xa không xin phép bố mẹ), cách nói từ chối khéo léo kiên quyết là gì?",
+        "o": [
+          "Làm theo cho bằng bạn bằng bè dù trong lòng rất lo sợ",
+          "Giữ giọng thân thiện nhưng dứt khoát từ chối, nêu lí do rõ ràng không vòng vo và có thể gợi ý hoạt động thay thế an toàn hơn",
+          "Cười trừ nhận lời đại rồi hôm đó trốn biến tắt máy",
+          "Chửi mắng bạn là đồ xấu xa ngay trước đám đông"
+        ],
+        "k": "B",
+        "e": "Biết nói \"Không\" văn minh nhưng kiên định giúp bảo vệ bản thân an toàn mà vẫn giữ được sự tôn trọng của bạn bè.",
+        "s": "HĐTN, HN 6",
+        "h": "Kĩ năng từ chối khéo léo và kiên quyết"
+      },
+      {
+        "c": "HN6-B05-007",
+        "d": "application",
+        "p": "Quan sát bảng so sánh cách diễn đạt thông điệp \"Tôi\" (I-message) và cách đổ lỗi \"Bạn\" (You-message) dưới đây. Khi bạn cùng bàn hay lấy nhầm bút của em mà không hỏi trước, câu nói nào vừa bảo vệ quyền lợi vừa giữ hòa khí nhất?",
+        "o": [
+          "\"Cậu ơi, lúc mình cần ghi bài mà tìm không thấy bút nên mình hơi cuống; lần sau cậu cần dùng cứ hỏi mình trước một câu nhé!\"",
+          "\"Từ nay đừng hòng mượn bất cứ thứ gì của tôi nữa!\"",
+          "\"Cậu đúng là đồ hay lấy trộm đồ của người khác không biết xấu hổ!\"",
+          "\"Cậu lúc nào cũng bừa bãi vô duyên hết phần thiên hạ!\""
+        ],
+        "k": "A",
+        "e": "Thông điệp \"Tôi\" nêu rõ cảm xúc và mong muốn cụ thể của bản thân thay vì dán nhãn công kích nhân cách bạn, giúp bạn dễ sửa ngay lập tức.",
+        "s": "HĐTN, HN 6",
+        "h": "Áp dụng thông điệp \"Tôi\" khi góp ý bạn",
+        "fig": {
+          "type": "table",
+          "title": "Thông điệp Tôi vs Bạn",
+          "head": [
+            "Cách nói công kích",
+            "Nói Thông điệp Tôi"
+          ],
+          "rows": [
+            [
+              "Bạn thật ích kỉ!",
+              "Mình buồn bị bỏ rơi"
+            ],
+            [
+              "Cậu làm hỏng hết!",
+              "Mình lo nhóm trễ hạn"
+            ],
+            [
+              "Sao cậu nói dối?",
+              "Mình cần sự thật"
+            ],
+            [
+              "Đừng làm phiền!",
+              "Mình cần yên 15p"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "HN6-B05-008",
+        "d": "application",
+        "p": "Bạn Tuấn kể với cả nhóm rằng bạn Hùng nói xấu bạn Minh sau lưng. Trước khi tỏ thái độ giận Hùng, bạn Minh cần kiểm chứng thông tin bằng bước nào?",
+        "o": [
+          "Lập tức đăng bài tố cáo Hùng lên nhóm chat toàn trường",
+          "Kéo cả tổ đến cô lập không cho Hùng ngồi cùng bàn nữa",
+          "Bình tĩnh không vội kết tội ngay; tìm cơ hội hỏi nhẹ trực tiếp Hùng để lắng nghe từ hai phía xem câu chuyện có bị hiểu sai ngữ cảnh không",
+          "Tin sái cổ 100% lời kể lại và trả đũa lại Tuấn lẫn Hùng"
+        ],
+        "k": "C",
+        "e": "Trong cuộc sống rất nhiều mâu thuẫn bị thổi bùng do lời truyền miệng thiếu chính xác; kiểm chứng thông tin hai chiều là biểu hiện của người thông minh.",
+        "s": "HĐTN, HN 6",
+        "h": "Kiểm chứng tin đồn trước khi phán xét bạn"
+      },
+      {
+        "c": "HN6-B05-009",
+        "d": "application",
+        "p": "Trong một buổi thảo luận làm báo tường tổ 3, bạn Nam đưa ra ý tưởng bị các bạn cho là hơi cầu kì khó làm kịp. Cách phản hồi nào giúp Nam không bị tổn thương mà vẫn chọn được phương án khả thi?",
+        "o": [
+          "\"Từ đầu năm tới giờ cậu toàn nghĩ ra mấy trò vớ vẩn tốn thời gian\"",
+          "\"Ý tưởng vẽ cổng chào nổi của Nam rất sáng tạo; nhưng vì chỉ còn 2 ngày nên mình giữ phần chữ nổi còn khung nền làm đơn giản hơn được không?\"",
+          "Cả nhóm cười phá lên rồi xé luôn giấy phác thảo của Nam",
+          "\"Ý tưởng dở ẹt thế mà cũng đòi góp ý, im lặng đi cho người khác làm!\""
+        ],
+        "k": "B",
+        "e": "Ghi nhận mặt tích cực trong ý kiến của người khác trước khi bàn tính khả thi giữ cho không khí thảo luận luôn cởi mở sáng tạo.",
+        "s": "HĐTN, HN 6",
+        "h": "Phản hồi xây dựng ý kiến nhóm"
+      },
+      {
+        "c": "HN6-B05-010",
+        "d": "application",
+        "p": "Hai bạn thân cùng tổ cãi nhau nảy lửa vì tranh giành cây chổi tốt lúc trực nhật lớp, không ai chịu nhường ai. Em đứng cạnh đó có thể đóng vai trò \"người hòa giải\" thế nào cho khéo?",
+        "o": [
+          "Nhẹ nhàng mời hai bạn tạm dừng một nhịp, nhắc mục tiêu chung là dọn lớp sạch kịp giờ ra chơi rồi đề nghị chia công việc đều hai khu vực hoặc thay phiên cầm chổi",
+          "Chọn đứng hẳn về một phía nói xấu bạn còn lại",
+          "Giật lấy cây chổi vứt ra ngoài cửa sổ cho hết tranh",
+          "Đứng vỗ tay cổ vũ xem hai bạn ai to tiếng hơn"
+        ],
+        "k": "A",
+        "e": "Người hòa giải trung lập không đổ thêm dầu vào lửa mà khéo léo nhắc mọi người nhớ lại mục tiêu chung và giải pháp đôi bên cùng có lợi.",
+        "s": "HĐTN, HN 6",
+        "h": "Vai trò trung gian hòa giải mâu thuẫn bạn bè"
+      },
+      {
+        "c": "HN6-B05-011",
+        "d": "application",
+        "p": "Một bức ảnh bạn lớp mình trượt chân ngã dáng hơi hài hước trong giờ Thể dục vô tình bị chụp lại và sắp có bạn gửi lên nhóm mạng xã hội trêu đùa. Em nên phản ứng ra sao?",
+        "o": [
+          "Nhấn thích và thả hàng loạt biểu tượng cười cợt bình luận phía dưới",
+          "Gửi tiếp sang nhóm các lớp khác để nhiều người biết hơn",
+          "Khuyên bạn đừng đăng hay chia sẻ vì làm bạn bị ngã xấu hổ tổn thương, đề nghị xóa ảnh ngay và hỏi thăm xem bạn ngã có đau không",
+          "Xin gửi ngay về máy mình để làm ảnh đại diện trêu cho vui"
+        ],
+        "k": "C",
+        "e": "Không lan truyền hình ảnh dìm hàng người khác trên mạng là thước đo quan trọng của lòng nhân ái và văn hóa số.",
+        "s": "HĐTN, HN 6",
+        "h": "Ngăn chặn chia sẻ ảnh chế giễu bạn trên mạng"
+      },
+      {
+        "c": "HN6-B05-012",
+        "d": "application",
+        "p": "Khi cần trao đổi hỏi bài tập khó với thầy cô bộ môn qua tin nhắn sau giờ học, tin nhắn nào thể hiện phép lịch sự và thông minh nhất?",
+        "o": [
+          "Gọi điện thoại liên hồi 10 cuộc cho tới khi thầy cô bắt máy mới thôi",
+          "Nhắn giờ hợp lí (trước 21h), chào thầy cô, xưng tên lớp rõ ràng, nêu ngắn gọn chỗ đã thử làm nhưng còn vướng và cảm ơn khi thầy cô đáp",
+          "Nhắn: \"Cô giải hộ con bài 5 gấp lên, sáng mai nộp rồi!\"",
+          "Gửi một dấu chấm hỏi \"?\" trống trơn lúc 23 giờ 30 phút đêm"
+        ],
+        "k": "B",
+        "e": "Tin nhắn rõ tên lớp, nội dung cụ thể đã tự cố gắng và đúng giờ giấc giúp thầy cô hỗ trợ nhanh chóng và rất quý trọng thái độ học trò.",
+        "s": "HĐTN, HN 6",
+        "h": "Quy tắc gửi tin nhắn lễ phép cho thầy cô"
+      },
+      {
+        "c": "HN6-B05-013",
+        "d": "advanced",
+        "p": "Vì sao trong giao tiếp trực tiếp, cách nói chuyện \"người nói 1 người nghe hiểu ý nhau hoàn toàn\" thực chất hiếm xảy ra nếu thiếu bước kiểm tra lại thông tin (Phản hồi xác nhận)?",
+        "o": [
+          "Vì nghe qua một lần ai cũng chắc chắn hiểu 100% giống nhau",
+          "Vì mọi người đều cố tình nói dối nhau trong mọi câu chuyện",
+          "Vì mỗi người nghe qua lăng kính riêng; nhắc lại ngắn ý vừa hiểu (\"Ý cậu là...\") giúp kịp phát hiện điểm lệch nghĩa trước khi làm sai",
+          "Vì tiếng Việt không có đủ từ vựng để giao tiếp rõ ràng"
+        ],
+        "k": "C",
+        "e": "Kĩ năng \"Diễn đạt lại để xác nhận\" (Paraphrasing) vừa chứng tỏ em thực sự lắng nghe sâu vừa loại bỏ tới 90% sai sót hiểu lầm trong làm việc nhóm.",
+        "s": "HĐTN, HN 6",
+        "h": "Vai trò kĩ thuật phản hồi xác nhận thông tin"
+      },
+      {
+        "c": "HN6-B05-014",
+        "d": "advanced",
+        "p": "Khi hai bạn thân có tính cách rất trái ngược nhau (một bạn hướng ngoại thích sôi nổi, một bạn hướng nội thích yên tĩnh), cách ứng xử nào giúp tình bạn bền chặt lâu dài?",
+        "o": [
+          "Thay phiên nhau nói xấu tính cách khác biệt của bạn với người khác",
+          "Thấu hiểu và tôn trọng nhịp giao tiếp riêng của nhau: không ép bạn ít nói phải ồn ào và không chê bạn sôi nổi là phiền phức, tìm điểm chung yêu thích để gắn kết",
+          "Kết luận hai người trái tính không bao giờ có thể chơi cùng nhau",
+          "Cố ép bằng được bạn kia phải thay đổi tính cách giống y hệt mình"
+        ],
+        "k": "B",
+        "e": "Tình bạn đẹp không đòi hỏi hai bản sao giống hệt nhau mà nằm ở sự tôn trọng khác biệt và bổ sung điểm mạnh cho nhau.",
+        "s": "HĐTN, HN 6",
+        "h": "Tôn trọng khác biệt tính cách hướng nội - hướng ngoại"
+      },
+      {
+        "c": "HN6-B05-015",
+        "d": "advanced",
+        "p": "Trong cuộc tranh luận bảo vệ quan điểm đúng nhưng ý kiến của em bị số đông nhóm bác bỏ vì chưa kịp hiểu kĩ. Thái độ ứng xử trưởng thành nhất là gì?",
+        "o": [
+          "Giận dỗi đứng lên bỏ về, tuyên bố nhóm làm hỏng đáng đời",
+          "Nói móc mỉa rằng các bạn đều dốt nát không hiểu tầm nhìn của mình",
+          "Phá hoại ngầm công việc của nhóm để chứng minh mình đúng",
+          "Bình tĩnh nêu ngắn gọn bằng chứng thuyết phục thêm lần nữa; nếu tập thể vẫn chọn phương án kia thì tôn trọng quyết định chung và hỗ trợ"
+        ],
+        "k": "D",
+        "e": "Dám bảo vệ điều đúng một cách lịch sự và vẫn hợp tác tích cực vì mục tiêu chung là bản lĩnh dân chủ văn minh.",
+        "s": "HĐTN, HN 6",
+        "h": "Ứng xử văn minh khi quan điểm cá nhân khác số đông"
+      }
+    ]
+  },
+  {
+    "chapter": "hdtn_hn6-c2",
+    "lesson": {
+      "code": "hdtn_hn6-b06",
+      "title": "Bài 6. Trách nhiệm chăm sóc gia đình và chi tiêu tiết kiệm",
+      "seq": 6,
+      "subtitle": "Chủ động chia sẻ việc nhà phù hợp lứa tuổi, chăm sóc người thân lúc ốm đau, lập kế hoạch chi tiêu cá nhân và tránh lãng phí gia đình",
+      "concepts": [
+        "Sẻ chia công việc gia đình",
+        "Chăm sóc người thân yêu thương",
+        "Chi tiêu hợp lí và tiết kiệm"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN6-B06-001",
+        "d": "basic",
+        "p": "Những công việc nhà nào hoàn toàn phù hợp sức khỏe để học sinh lớp 6 chủ động đảm nhận thường xuyên giúp đỡ cha mẹ?",
+        "o": [
+          "Chỉ làm khi được trả tiền công cao",
+          "Quét dọn nhà cửa, rửa bát sau bữa ăn, phơi gấp quần áo, chăm cây cảnh hoặc hướng dẫn em nhỏ học bài",
+          "Vận hành máy móc công nghiệp nặng hoặc sửa điện cao thế",
+          "Ngồi chờ mọi người phục vụ hết để chỉ việc ăn và chơi"
+        ],
+        "k": "B",
+        "e": "Chia sẻ việc nhà mỗi ngày giúp cha mẹ bớt mệt mỏi sau giờ làm và rèn cho học sinh lớp 6 kĩ năng sống tự lập thiết thực.",
+        "s": "HĐTN, HN 6",
+        "h": "Việc nhà vừa sức học sinh lớp 6"
+      },
+      {
+        "c": "HN6-B06-002",
+        "d": "basic",
+        "p": "Trong quản lí tài chính cá nhân bước đầu của học sinh lớp 6, việc phân biệt \"Thứ CẦN thiết\" (Needs) và \"Thứ MUỐN có\" (Wants) giúp ích gì?",
+        "o": [
+          "Giúp ưu tiên tiền tiêu vặt cho đồ dùng thiết yếu (bút vở, nước uống) và kiềm chế mua sắm bốc đồng các món đồ chơi, quà vặt không thực sự cần",
+          "Giúp tiêu hết nhẵn tiền lì xì chỉ trong một buổi sáng",
+          "Để so sánh xem đồ dùng của ai đắt tiền hơn",
+          "Để không bao giờ phải mua bất kì quyển vở viết nào nữa"
+        ],
+        "k": "A",
+        "e": "Phân biệt Cần và Muốn là bài học tài chính nền tảng đầu tiên giúp trẻ em hình thành thói quen tiêu dùng thông minh.",
+        "s": "HĐTN, HN 6",
+        "h": "Phân biệt Nhu cầu cần thiết và Mong muốn"
+      },
+      {
+        "c": "HN6-B06-003",
+        "d": "basic",
+        "p": "Khi ông bà hoặc cha mẹ bị cảm mệt nằm nghỉ ở nhà, hành động quan tâm ấm áp nhất mà học sinh lớp 6 có thể làm ngay là gì?",
+        "o": [
+          "Giữ không gian yên tĩnh, lấy nước ấm hoặc khăn chườm, hỏi thăm nhẹ nhàng, nấu mì/cháo đơn giản và tự giác hoàn thành việc nhà thay người lớn",
+          "Tự ý lấy thuốc kháng sinh người lớn cho uống không hỏi bác sĩ",
+          "Bật nhạc loa to ầm ĩ nhảy múa ngay cạnh phòng người ốm",
+          "Đòi hỏi cha mẹ đang ốm phải chở mình đi chơi bằng được"
+        ],
+        "k": "A",
+        "e": "Sự chăm sóc ân cần và tinh tế trong lúc người thân mệt mỏi là liều thuốc tinh thần quý giá nhất gắn kết gia đình.",
+        "s": "HĐTN, HN 6",
+        "h": "Quan tâm chăm sóc người thân khi ốm"
+      },
+      {
+        "c": "HN6-B06-004",
+        "d": "basic",
+        "p": "Thói quen sinh hoạt nào tại gia đình vừa giúp bảo vệ môi trường vừa tiết kiệm rõ rệt chi phí tiền điện, tiền nước hằng tháng cho cha mẹ?",
+        "o": [
+          "Bật điều hòa suốt cả ngày rồi mở toang hết các cửa chính cho thoáng",
+          "Bật sáng đèn mọi phòng cả buổi trưa nắng chói",
+          "Xả vòi nước chảy tràn liên tục trong lúc đánh răng rửa mặt",
+          "Tắt đèn, quạt, ti-vi khi ra khỏi phòng, khóa chặt vòi nước sau khi dùng và mở cửa sổ đón gió ánh sáng tự nhiên ban ngày"
+        ],
+        "k": "D",
+        "e": "Tiết kiệm điện nước từ những thói quen nhỏ hằng ngày giúp gia đình giảm chi phí sinh hoạt và góp phần tiết kiệm tài nguyên quốc gia.",
+        "s": "HĐTN, HN 6",
+        "h": "Tiết kiệm điện nước trong sinh hoạt gia đình"
+      },
+      {
+        "c": "HN6-B06-005",
+        "d": "basic",
+        "p": "Sổ ghi chép thu – chi cá nhân đơn giản của học sinh lớp 6 thường ghi lại hai cột chính nào?",
+        "o": [
+          "Số tiền có được (tiền thưởng, lì xì, tiền ăn sáng mẹ cho) và các khoản đã chi tiêu cụ thể kèm số tiền còn tiết kiệm lại",
+          "Chỉ ghi số tiền người khác nợ mình",
+          "Danh sách tên tất cả các món đồ đắt tiền nhất trong siêu thị",
+          "Ghi tên các bạn giàu có nhất khối 6"
+        ],
+        "k": "A",
+        "e": "Ghi chép thu chi giúp em nhìn thấy rõ tiền đi đâu mỗi tuần để tự điều chỉnh các khoản chi vặt hợp lí.",
+        "s": "HĐTN, HN 6",
+        "h": "Cấu trúc sổ ghi chép thu chi đơn giản"
+      },
+      {
+        "c": "HN6-B06-006",
+        "d": "basic",
+        "p": "Vì sao khi gia đình gặp một khó khăn đột xuất về kinh tế (như mùa màng thất thu hoặc cha mẹ giảm thu nhập), học sinh lớp 6 cần chia sẻ thấu hiểu cùng cha mẹ?",
+        "o": [
+          "Để giấu kín không ăn uống gì cả tuần",
+          "Để đòi bỏ học đi làm kiếm tiền ngay lập tức khi mới 11 tuổi",
+          "Để thông cảm không đòi hỏi mua sắm đồ đắt tiền theo phong trào, giữ gìn sách vở đồ dùng cẩn thận dùng lâu bền và chăm chỉ phụ việc nhà",
+          "Để buồn bã oán trách cha mẹ tại sao không giàu như nhà bạn khác"
+        ],
+        "k": "C",
+        "e": "Đồng lòng vượt khó cùng gia đình nuôi dưỡng lòng biết ơn sâu sắc và bản lĩnh sống vững vàng.",
+        "s": "HĐTN, HN 6",
+        "h": "Chia sẻ khó khăn kinh tế cùng gia đình"
+      },
+      {
+        "c": "HN6-B06-007",
+        "d": "application",
+        "p": "Quan sát bảng kế hoạch sử dụng 500.000 đồng tiền mừng tuổi (lì xì) của bạn An dưới đây. Nhận xét nào đúng nhất về cách phân bổ tài chính của bạn An?",
+        "o": [
+          "Không hợp lí vì học sinh lớp 6 không được phép mua sách tham khảo",
+          "Quá lãng phí vì đã tiêu toàn bộ vào trà sữa và trò chơi điện tử",
+          "Sai quy tắc vì bắt buộc phải tiêu hết sạch trong ngày Tết",
+          "Rất hợp lí và cân bằng: dành phần lớn để tiết kiệm dự phòng, một phần mua sách học tập bổ ích và chỉ một phần nhỏ cho sở thích cá nhân kèm chia sẻ thiện nguyện"
+        ],
+        "k": "D",
+        "e": "Nguyên tắc \"Chia hũ tiết kiệm – Học tập – Chi tiêu – Chia sẻ\" giúp đồng tiền nhỏ mang lại giá trị lớn bền vững.",
+        "s": "HĐTN, HN 6",
+        "h": "Đánh giá kế hoạch chi tiêu tiền lì xì hợp lí",
+        "fig": {
+          "type": "table",
+          "title": "Quỹ lì xì bạn An",
+          "head": [
+            "Mục sử dụng",
+            "Số tiền (VNĐ)"
+          ],
+          "rows": [
+            [
+              "Tiết kiệm dài hạn",
+              "250.000 đ"
+            ],
+            [
+              "Mua sách và bút",
+              "120.000 đ"
+            ],
+            [
+              "Chia sẻ quỹ lớp",
+              "50.000 đ"
+            ],
+            [
+              "Giải trí cuối tuần",
+              "80.000 đ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "HN6-B06-008",
+        "d": "application",
+        "p": "Một đôi giày thể thao mẫu mới đang \"hot\" trên mạng có giá tới 1.200.000 đồng khiến bạn Nam rất thích, trong khi đôi giày ở nhà của Nam vẫn còn bền tốt. Quyết định tiêu dùng thông minh nhất là gì?",
+        "o": [
+          "Cố tình làm rách hỏng đôi giày cũ để có lí do chính đáng xin mua giày mới",
+          "Nhất quyết khóc lóc ăn vạ bắt bố mẹ vay tiền mua bằng được ngay hôm nay",
+          "Lén lấy hết tiền tiết kiệm của em nhỏ để tự đi mua",
+          "Chưa mua vội để tránh lãng phí; tiếp tục giữ gìn dùng tốt đôi giày hiện tại và cất tiền tiết kiệm cho mục tiêu thực sự cần thiết sau này"
+        ],
+        "k": "D",
+        "e": "Kiềm chế tâm lí chạy theo trào lưu (FOMO) là bài học vàng giúp thoát khỏi bẫy mua sắm lãng phí.",
+        "s": "HĐTN, HN 6",
+        "h": "Vượt qua tâm lí mua sắm theo phong trào"
+      },
+      {
+        "c": "HN6-B06-009",
+        "d": "application",
+        "p": "Mỗi buổi sáng mẹ thường cho bạn Lan 20.000 đồng ăn sáng, nhưng có hôm Lan nhịn đói hoàn toàn tới trưa để lấy trọn tiền đó mua đồ chơi, sticker. Cách \"tiết kiệm\" này có nên làm không và vì sao?",
+        "o": [
+          "Rất nên làm vì càng nhịn ăn nhiều càng có nhiều tiền mua đồ chơi",
+          "Nên nhịn cả bữa trưa lẫn bữa tối để tiết kiệm tối đa",
+          "Rất tốt cho sức khỏe học sinh lớp 6 đang tuổi lớn",
+          "Không nên làm vì nhịn ăn sáng gây hại dạ dày, tụt đường huyết học kém và giảm sức khỏe; tiết kiệm đúng là ăn sáng đầy đủ lành mạnh và bớt mua quà vặt thừa thãi"
+        ],
+        "k": "D",
+        "e": "Tiết kiệm thông minh KHÔNG bao giờ đánh đổi bằng sức khỏe bản thân; chăm sóc thân thể khỏe mạnh mới là tài sản quý nhất.",
+        "s": "HĐTN, HN 6",
+        "h": "Phân biệt tiết kiệm đúng cách và nhịn ăn hại sức khỏe"
+      },
+      {
+        "c": "HN6-B06-010",
+        "d": "application",
+        "p": "Sắp đến ngày sinh nhật mẹ hoặc ngày Quốc tế Phụ nữ 8/3, dù chưa có nhiều tiền riêng, món quà nào khiến mẹ xúc động và hạnh phúc nhất?",
+        "o": [
+          "Một tấm thiệp tự tay vẽ viết lời cảm ơn chân thành kèm phiếu \"Con nhận rửa bát dọn nhà cả tuần giúp mẹ nghỉ ngơi\"",
+          "Không nói câu chúc nào và bày bừa phòng ngủ hơn mọi ngày",
+          "Mua bừa món đồ nhựa đắt tiền bằng tiền vay mượn của bạn",
+          "Xin chính mẹ 500.000 đồng rồi đi mua hộp quà đắt tiền tặng lại mẹ"
+        ],
+        "k": "A",
+        "e": "Món quà chứa đựng công sức, thời gian và tình cảm chân thành luôn có giá trị tinh thần cao hơn mọi món hàng đắt đỏ mua vội.",
+        "s": "HĐTN, HN 6",
+        "h": "Quà tặng ý nghĩa tự làm dành tặng người thân"
+      },
+      {
+        "c": "HN6-B06-011",
+        "d": "application",
+        "p": "Ở nhà có một chiếc áo khoác còn rất mới nhưng em mặc hơi chật, và vài quyển sách giáo khoa cũ giữ sạch đẹp cuối năm. Cách xử lí nào vừa tiết kiệm vừa lan tỏa giá trị tốt?",
+        "o": [
+          "Cất kín dưới đáy tủ ẩm mốc cho tới khi mục rách",
+          "Vứt thẳng toàn bộ vào thùng rác chung cho đỡ chật tủ",
+          "Xé giấy sách giáo khoa cũ ra gấp máy bay ném khắp sân",
+          "Giặt sạch gấp gọn tặng lại cho em nhỏ trong họ hàng hoặc quyên góp vào tủ sách, chương trình \"Áo ấm vùng cao\" của nhà trường"
+        ],
+        "k": "D",
+        "e": "Tái sử dụng và chia sẻ đồ còn tốt giúp tiết kiệm tài nguyên sản xuất, giảm rác thải và mang niềm vui đến cho bạn khác.",
+        "s": "HĐTN, HN 6",
+        "h": "Chia sẻ tái sử dụng đồ dùng còn tốt"
+      },
+      {
+        "c": "HN6-B06-012",
+        "d": "application",
+        "p": "Cuối tuần bố mẹ bận đi làm tăng ca về muộn lúc 19 giờ, chỉ có hai anh em ở nhà từ 17 giờ. Là anh/chị học sinh lớp 6, em nên chủ động sắp xếp việc nhà ra sao để bố mẹ về thấy ấm lòng nhất?",
+        "o": [
+          "Tự ý bật bếp ga chiên rán dầu sôi bắn tung tóe không có người lớn hướng dẫn an toàn",
+          "Gọi đồ ăn nhanh đắt tiền ngoài quán ăn hết trước rồi mặc kệ bố mẹ",
+          "Sắp xếp cắm sẵn nồi cơm điện an toàn, nhặt rửa sẵn rau củ đơn giản, nhắc em nhỏ tắm rửa làm bài tập trước và dọn bàn ăn gọn gàng chờ bố mẹ",
+          "Hai anh em mở tivi chơi game tới 19 giờ rồi đồng thanh kêu đói ầm lên"
+        ],
+        "k": "C",
+        "e": "Chủ động chuẩn bị những việc an toàn trong khả năng giúp bữa cơm gia đình thêm đầm ấm, giảm gánh nặng lo toan cho cha mẹ.",
+        "s": "HĐTN, HN 6",
+        "h": "Chủ động lo việc nhà an toàn khi bố mẹ về muộn"
+      },
+      {
+        "c": "HN6-B06-013",
+        "d": "advanced",
+        "p": "Nhiều bạn lớp 6 nghĩ rằng: \"Nhiệm vụ duy nhất của con là học thật giỏi, còn việc quét nhà, rửa bát hay gấp quần áo là việc của bố mẹ\". Quan điểm này hạn chế sự phát triển của chính học sinh ở điểm nào?",
+        "o": [
+          "Không có hạn chế nào, càng ít làm việc nhà càng có ích cho gia đình",
+          "Giúp học sinh sau này tự nhiên biết nấu ăn giỏi mà không cần tập",
+          "Khiến học sinh thiếu kĩ năng sống tự lập cơ bản, dễ hình thành tâm lí ích kỉ ỷ lại và thiếu gắn kết yêu thương với lao động vất vả của cha mẹ",
+          "Làm việc nhà làm giảm khả năng tư duy môn Toán"
+        ],
+        "k": "C",
+        "e": "Làm việc nhà không lấy mất thời gian học mà rèn sự khéo léo, tinh thần trách nhiệm và lòng biết ơn thực tế với công sức của người thân.",
+        "s": "HĐTN, HN 6",
+        "h": "Phê phán quan niệm ỷ lại không làm việc nhà"
+      },
+      {
+        "c": "HN6-B06-014",
+        "d": "advanced",
+        "p": "Khi đặt mua một món đồ dùng học tập qua mạng (hoặc chọn mua ở cửa hàng văn phòng phẩm), tư duy người tiêu dùng thông minh ở lứa tuổi lớp 6 gồm những bước cân nhắc nào?",
+        "o": [
+          "Chọn món đắt tiền nhất bất kể có dùng tới hay không để khoe bạn",
+          "Mua càng nhiều đồ lặt vặt rẻ tiền dễ hỏng càng tiết kiệm",
+          "Thấy bao bì màu sắc sặc sỡ hoặc quảng cáo giảm giá ảo là bấm mua ngay 5 cái",
+          "Kiểm tra nhà đã có đồ tương tự chưa, so sánh chất lượng – giá cả, hỏi ý kiến bố mẹ và chỉ mua đúng thứ dùng lâu dài, tránh chạy theo mẫu mã"
+        ],
+        "k": "D",
+        "e": "Mua một món đồ bền chắc dùng được cả năm luôn tiết kiệm hơn nhiều so với mua năm món rẻ tiền nhanh hỏng vứt bỏ.",
+        "s": "HĐTN, HN 6",
+        "h": "Tư duy tiêu dùng thông minh bền vững"
+      },
+      {
+        "c": "HN6-B06-015",
+        "d": "advanced",
+        "p": "Tổ chức một \"Dự án Gia đình Xanh – Tiết kiệm 30 ngày\" tại nhà của học sinh lớp 6: hành động phối hợp nào giúp cả nhà cùng hào hứng tham gia và thấy kết quả rõ rệt cuối tháng?",
+        "o": [
+          "Cùng bố mẹ áp dụng mẹo tiết kiệm điện nước, giảm túi nilon, không bỏ thừa đồ ăn; cuối tháng so hóa đơn và dùng tiền tiết kiệm liên hoan",
+          "Chỉ mình em âm thầm tắt hết điện cả nhà khi bố mẹ đang làm việc",
+          "Treo bảng phạt tiền thật nặng lên tường nhà để dọa mọi người",
+          "Chỉ hô khẩu hiệu ngày đầu tháng rồi bỏ quên suốt 29 ngày sau"
+        ],
+        "k": "A",
+        "e": "Biến việc tiết kiệm thành niềm vui chung có ghi nhận thành quả cuối tháng giúp gắn kết cả gia đình trong lối sống xanh bền vững.",
+        "s": "HĐTN, HN 6",
+        "h": "Thực hiện dự án Gia đình Xanh – Tiết kiệm"
+      }
+    ]
+  },
+  {
+    "chapter": "hdtn_hn6-c3",
+    "lesson": {
+      "code": "hdtn_hn6-b07",
+      "title": "Bài 7. Xây dựng tình bạn đẹp và phòng chống bạo lực học đường",
+      "seq": 7,
+      "subtitle": "Nhận diện các hình thức bạo lực học đường (thể chất, lời nói, mạng xã hội), kĩ năng ứng xử an toàn và lên tiếng bảo vệ tình bạn đẹp",
+      "concepts": [
+        "Giá trị tình bạn chân chính",
+        "Nhận diện bạo lực học đường",
+        "Kĩ năng phòng tránh và tìm trợ giúp"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN6-B07-001",
+        "d": "basic",
+        "p": "Những biểu hiện cốt lõi của một tình bạn đẹp, lành mạnh trong môi trường học đường lớp 6 là gì?",
+        "o": [
+          "Chỉ kết bạn khi bạn mang quà bánh hoặc đồ chơi đắt tiền cho mình",
+          "Chân thành, tôn trọng lẫn nhau, cùng nhau tiến bộ trong học tập và sẵn sàng giúp đỡ đúng lúc khó khăn",
+          "Bao che mọi lỗi sai, rủ rê nhau trốn học chơi game",
+          "Bắt buộc bạn phải làm theo mọi ý mình mới chơi cùng"
+        ],
+        "k": "B",
+        "e": "Tình bạn đẹp giúp mỗi người trở thành phiên bản tốt hơn, vui vẻ hơn mỗi ngày đến trường.",
+        "s": "HĐTN, HN 6",
+        "h": "Đặc điểm của tình bạn lành mạnh"
+      },
+      {
+        "c": "HN6-B07-002",
+        "d": "basic",
+        "p": "Hành vi nào sau đây CŨNG được coi là một dạng bạo lực học đường dù không hề đánh đập chạm vào thân thể bạn?",
+        "o": [
+          "Lăng mạ, chửi bới, đặt biệt danh ác ý, cố tình cô lập tẩy chay bạn khỏi tập thể hoặc nói xấu bêu riếu bạn trên mạng xã hội",
+          "Góp ý nhẹ nhàng riêng với bạn về bài thuyết trình nhóm",
+          "Mời bạn mới ngồi ăn trưa cùng nhóm",
+          "Nhắc bạn giữ trật tự khi cả lớp đang nghe giảng"
+        ],
+        "k": "A",
+        "e": "Bạo lực tinh thần và bạo lực mạng để lại vết thương tâm lí rất sâu sắc cho nạn nhân, cần được nhận diện và ngăn chặn nghiêm túc.",
+        "s": "HĐTN, HN 6",
+        "h": "Nhận diện bạo lực tinh thần và bạo lực mạng"
+      },
+      {
+        "c": "HN6-B07-003",
+        "d": "basic",
+        "p": "Khi bản thân hoặc chứng kiến bạn khác đang có nguy cơ bị một nhóm học sinh lớn hơn đe dọa bắt nạt ở cổng trường, việc làm an toàn và đúng đắn nhất là gì?",
+        "o": [
+          "Im lặng giấu kín một mình vì sợ bị trả thù nên cam chịu mãi",
+          "Nhanh chóng tránh sang nơi đông người an toàn (phòng bảo vệ, văn phòng trường) và báo ngay cho thầy cô, cha mẹ hoặc người lớn tin cậy",
+          "Đứng quay video rồi cổ vũ reo hò cho hai bên đánh nhau",
+          "Mang theo hung khí sắc nhọn tới trường để tự đánh trả"
+        ],
+        "k": "B",
+        "e": "Tìm kiếm sự hỗ trợ từ thầy cô, nhà trường và cha mẹ là quyền và là giải pháp khôn ngoan bảo vệ an toàn tính mạng, tinh thần cho mọi học sinh.",
+        "s": "HĐTN, HN 6",
+        "h": "Cách xử lí an toàn khi bị đe dọa bắt nạt"
+      },
+      {
+        "c": "HN6-B07-004",
+        "d": "basic",
+        "p": "Vì sao khi xảy ra mâu thuẫn căng thẳng với bạn bè, hành động \"lấy bạo lực giải quyết mâu thuẫn\" luôn sai trái và gây hậu quả nặng nề?",
+        "o": [
+          "Vì chỉ cần đánh thắng là mọi thầy cô sẽ khen ngợi",
+          "Vì đánh nhau gây chấn thương thân thể, vi phạm nội quy nhà trường và pháp luật, đồng thời làm mâu thuẫn thù hận ngày càng trầm trọng thêm",
+          "Vì đánh nhau giúp hai người tự động trở thành bạn thân ngay hôm sau",
+          "Vì đánh nhau không bao giờ gây thương tích"
+        ],
+        "k": "B",
+        "e": "Sức mạnh thực sự nằm ở khả năng làm chủ cơn giận và giải quyết bất đồng bằng đối thoại hòa bình, không nằm ở nắm đấm.",
+        "s": "HĐTN, HN 6",
+        "h": "Hậu quả của bạo lực giải quyết mâu thuẫn"
+      },
+      {
+        "c": "HN6-B07-005",
+        "d": "basic",
+        "p": "Tổng đài quốc gia bảo vệ trẻ em miễn phí 24/7 tại Việt Nam để trẻ em và học sinh có thể gọi điện cầu cứu tư vấn khi bị bạo lực hoặc xâm hại là số nào?",
+        "o": [
+          "Số 1080",
+          "Số 111 (Tổng đài Điện thoại Quốc gia Bảo vệ Trẻ em)",
+          "Số 114",
+          "Số 9999"
+        ],
+        "k": "B",
+        "e": "Ghi nhớ số 111 (Tổng đài Bảo vệ Trẻ em) cùng số 113 (Công an), 114 (Cứu hỏa), 115 (Cấp cứu) là kĩ năng sinh tồn cơ bản của mọi học sinh.",
+        "s": "HĐTN, HN 6",
+        "h": "Số Tổng đài quốc gia Bảo vệ Trẻ em 111"
+      },
+      {
+        "c": "HN6-B07-006",
+        "d": "basic",
+        "p": "Trong lớp học, thái độ thờ ơ \"đứng xem, cười cợt hoặc quay clip\" khi thấy một bạn đang bị bắt nạt thực chất gây ra tác hại gì?",
+        "o": [
+          "Không liên quan hay ảnh hưởng gì tới tâm lí bạn bị nạn",
+          "Là hành động anh hùng dũng cảm nhất của tập thể lớp",
+          "Vô tình tiếp tay cổ vũ cho người đi bắt nạt lấn tới và làm bạn nạn nhân cảm thấy cô đơn tuyệt vọng hơn gấp bội",
+          "Giúp chấm dứt ngay hành vi bạo lực chỉ bằng tiếng cười"
+        ],
+        "k": "C",
+        "e": "Từ \"người ngoài cuộc vô cảm\" trở thành \"người bạn lên tiếng bảo vệ công bằng (Upstander)\" là tinh thần cao đẹp cần xây dựng trong mỗi lớp học.",
+        "s": "HĐTN, HN 6",
+        "h": "Tác hại của sự thờ ơ trước bạo lực học đường"
+      },
+      {
+        "c": "HN6-B07-007",
+        "d": "application",
+        "p": "Quan sát bảng 4 bước ứng xử an toàn trước hành vi bắt nạt học đường dưới đây. Khi bạn Bảo nhận được tin nhắn nặc danh đe dọa tống tiền ăn sáng và chửi bới trên mạng xã hội, bước hành động thông minh đầu tiên Bảo cần làm là gì?",
+        "o": [
+          "Xóa sạch toàn bộ tin nhắn chứng cứ và giấu kín không nói với ai",
+          "Chụp ảnh màn hình lưu lại toàn bộ bằng chứng tin nhắn, không nhắn đáp trả cãi vã, chặn tài khoản đó và báo ngay cho cha mẹ cùng thầy cô chủ nhiệm",
+          "Hoảng sợ mang hết tiền ăn sáng của cả tháng đi nộp cho kẻ lạ mặt",
+          "Nhắn tin chửi bới thách thức hẹn đánh nhau sau giờ học"
+        ],
+        "k": "B",
+        "e": "Lưu giữ bằng chứng ảnh chụp màn hình và thông báo ngay cho người lớn giúp nhà trường và gia đình có cơ sở chặn đứng hành vi xấu kịp thời.",
+        "s": "HĐTN, HN 6",
+        "h": "Xử lí khi bị bắt nạt đe dọa trên mạng",
+        "fig": {
+          "type": "table",
+          "title": "Phòng bạo lực mạng",
+          "head": [
+            "Bước xử lí",
+            "Hành động cụ thể"
+          ],
+          "rows": [
+            [
+              "Bước 1: Dừng lại",
+              "Không cãi tay đôi"
+            ],
+            [
+              "Bước 2: Lưu chứng cứ",
+              "Chụp ảnh màn hình"
+            ],
+            [
+              "Bước 3: Ngăn chặn",
+              "Chặn và báo cáo nick"
+            ],
+            [
+              "Bước 4: Cầu cứu",
+              "Báo cha mẹ, thầy cô"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "HN6-B07-008",
+        "d": "application",
+        "p": "Trong nhóm bạn chơi thân ở lớp 6C, một bạn rủ cả nhóm đồng loạt lập nhóm chat riêng để \"tẩy chay không ai thèm nói chuyện với bạn Lan suốt tuần cho chừa\". Là thành viên trong nhóm, em nên làm gì?",
+        "o": [
+          "Thẳng thắn phản đối hành vi tẩy chay gây tổn thương bạn, không tham gia nhóm chat xấu đó và chủ động rủ Lan cùng học hoặc chơi bình thường",
+          "Nhắn tin trêu chọc thêm vào nhóm để chứng tỏ mình trung thành",
+          "Im lặng đứng ngoài xem bạn Lan khóc lóc cô đơn suốt cả tuần",
+          "Đồng ý tham gia ngay vì sợ nếu không hùa theo mình cũng sẽ bị tẩy chay"
+        ],
+        "k": "A",
+        "e": "Dám nói không với áp lực số đông tiêu cực bảo vệ lẽ phải chính là bản lĩnh cao quý nhất của tình bạn chân chính.",
+        "s": "HĐTN, HN 6",
+        "h": "Từ chối tham gia tẩy chay cô lập bạn"
+      },
+      {
+        "c": "HN6-B07-009",
+        "d": "application",
+        "p": "Khi tan học đi qua dãy nhà đa năng vắng người, em bắt gặp hai học sinh đang ép một bạn lớp 6 khác vào góc tường lục cặp sách. Em đi một mình yếu sức hơn hai bạn kia thì hành động khôn ngoan an toàn nhất lúc này là gì?",
+        "o": [
+          "Chạy lại đứng xem hò reo cổ vũ",
+          "Đứng lại lấy điện thoại quay lại cảnh đó để tối đăng mạng câu lượt xem",
+          "Nhắm mắt đi thẳng về nhà coi như không hề nhìn thấy gì",
+          "Không xông vào đánh nhau tay đôi dễ gặp nguy hiểm; lập tức chạy thật nhanh gọi thầy cô, bác bảo vệ gần nhất tới can thiệp kịp thời"
+        ],
+        "k": "D",
+        "e": "Giúp đỡ thông minh là gọi người có thẩm quyền can thiệp thật nhanh để bảo vệ an toàn cho cả bạn bị nạn lẫn chính bản thân em.",
+        "s": "HĐTN, HN 6",
+        "h": "Ứng cứu thông minh khi thấy bạn bị bắt nạt"
+      },
+      {
+        "c": "HN6-B07-010",
+        "d": "application",
+        "p": "Bạn Minh và bạn Khoa chơi rất thân nhưng dạo gần đây Khoa hay lấy lý do \"bạn thân\" để ép Minh phải cho chép bài kiểm tra, nếu không sẽ dọa nghỉ chơi. Minh nên ứng xử thế nào để giữ tình bạn lành mạnh?",
+        "o": [
+          "Bỏ bài kiểm tra của mình làm sai theo Khoa",
+          "Cho Khoa chép hết mọi bài kiểm tra để giữ lấy tình bạn",
+          "Kiên quyết từ chối cho chép bài vì hại cả hai, đề nghị giảng lại bài giúp Khoa sau giờ học; nếu Khoa vẫn ép buộc thì giữ khoảng cách an toàn",
+          "Chửi mắng đánh nhau với Khoa ngay giữa giờ kiểm tra"
+        ],
+        "k": "C",
+        "e": "Bạn tốt không bao giờ dùng tình bạn làm công cụ ép buộc bạn làm điều sai trái hay gian lận.",
+        "s": "HĐTN, HN 6",
+        "h": "Đặt ranh giới lành mạnh trước đòi hỏi sai từ bạn"
+      },
+      {
+        "c": "HN6-B07-011",
+        "d": "application",
+        "p": "Một số bạn nam hay đùa nghịch bằng cách bất ngờ giật ghế khi bạn khác đang ngồi xuống hoặc ngáng chân giữa hành lang làm bạn ngã đau. Nhận thức đúng về những trò \"đùa dai\" này là gì?",
+        "o": [
+          "Chỉ là trò đùa trẻ con vô hại, bạn nào giận là không biết đùa",
+          "Nên chơi thường xuyên trong giờ ra chơi cho lớp thêm vui nhộn",
+          "Đây KHÔNG phải đùa vui mà là hành vi nguy hiểm rất dễ gây chấn thương cột sống, đập đầu cho bạn, cần chấm dứt tuyệt đối ngay lập tức",
+          "Càng kéo mạnh ghế ngã càng đau thì cả lớp cười càng to"
+        ],
+        "k": "C",
+        "e": "Nhiều tai nạn học đường thương tâm xuất phát từ trò đùa giật ghế hay ngáng chân thiếu suy nghĩ; an toàn thân thể luôn đặt lên hàng đầu.",
+        "s": "HĐTN, HN 6",
+        "h": "Phân biệt đùa vui lành mạnh và hành vi gây hại"
+      },
+      {
+        "c": "HN6-B07-012",
+        "d": "application",
+        "p": "Để phòng ngừa mâu thuẫn nhỏ leo thang thành xô xát trong lớp 6B, tập thể lớp nên xây dựng thói quen văn hóa ứng xử nào hằng tuần?",
+        "o": [
+          "Chia phe phái đối đầu thi đấu xem nhóm nào khỏe hơn",
+          "Khuyến khích mọi người có tức giận gì cứ giữ im lặng nhịn tới cuối năm",
+          "Dành 10 phút sinh hoạt cuối tuần để bạn bè nói lời cảm ơn hoặc góp ý hòa bình giải quyết vướng mắc nhỏ dưới sự điều phối của cô chủ nhiệm",
+          "Cấm hoàn toàn học sinh nói chuyện với nhau giờ ra chơi"
+        ],
+        "k": "C",
+        "e": "Giải tỏa vướng mắc từ lúc còn nhỏ như ngọn lửa vừa nhen nhóm giúp ngôi trường thực sự trở thành môi trường hạnh phúc an toàn.",
+        "s": "HĐTN, HN 6",
+        "h": "Xây dựng cơ chế đối thoại phòng ngừa mâu thuẫn lớp"
+      },
+      {
+        "c": "HN6-B07-013",
+        "d": "advanced",
+        "p": "Vì sao các nạn nhân bị bạo lực học đường kéo dài thường có xu hướng im lặng giấu gia đình và thầy cô, và điều gì có thể giúp phá vỡ vòng luẩn quẩn im lặng đó?",
+        "o": [
+          "Cách phá vỡ tốt nhất là bảo nạn nhân tự đi học võ về đánh trả thật nặng",
+          "Vì nạn nhân thực chất thấy rất thích thú khi bị đánh đập trêu chọc",
+          "Vì trẻ em ở nhà không có giọng nói để kể chuyện",
+          "Vì nạn nhân sợ trả thù, xấu hổ hoặc lo người lớn trách ngược; chỉ khi thầy cô, cha mẹ và bạn bè lắng nghe không phán xét, các em mới dám báo"
+        ],
+        "k": "D",
+        "e": "Xây dựng niềm tin rằng \"khi con nói ra, con sẽ được lắng nghe và bảo vệ an toàn\" là trách nhiệm chung của cả gia đình, nhà trường và tập thể lớp.",
+        "s": "HĐTN, HN 6",
+        "h": "Phá vỡ tâm lí sợ hãi im lặng của nạn nhân"
+      },
+      {
+        "c": "HN6-B07-014",
+        "d": "advanced",
+        "p": "So sánh hai phản ứng của đám đông học sinh chứng kiến một vụ gây gổ: Nhóm 1 rút điện thoại quay phim hô hào; Nhóm 2 nhanh chóng tách hai bạn ra, an ủi hạ nhiệt và gọi giáo viên trực ban. Sự khác biệt tác động xã hội của hai nhóm là gì?",
+        "o": [
+          "Cả hai nhóm đều vô ích như nhau trước người đang nóng giận",
+          "Nhóm 1 kích động khiến hai bạn đánh nặng hơn và vi phạm quyền riêng tư khi quay phát tán; Nhóm 2 ngăn nguy cơ chấn thương và giữ danh dự cho bạn",
+          "Nhóm 2 làm hỏng niềm vui giờ ra chơi của trường",
+          "Nhóm 1 giúp ích hơn vì lưu lại được nhiều hình ảnh bạo lực làm giải trí"
+        ],
+        "k": "B",
+        "e": "Thái độ của những người đứng xung quanh chính là công tắc bật hoặc tắt bạo lực học đường trong tích tắc.",
+        "s": "HĐTN, HN 6",
+        "h": "Vai trò định hướng đám đông văn minh"
+      },
+      {
+        "c": "HN6-B07-015",
+        "d": "advanced",
+        "p": "Chiến dịch \"Xây dựng trường học hạnh phúc – Nói không với bạo lực học đường\" của lớp 6A cần triển khai 3 hoạt động thiết thực nào trong học kì này?",
+        "o": [
+          "Kí cam kết ứng xử lịch sự trực tiếp lẫn trên mạng, diễn tiểu phẩm rèn kĩ năng hòa giải và lập mạng lưới \"Đôi bạn cùng tiến – Sẵn sàng lắng nghe\"",
+          "Tổ chức cuộc thi tranh luận công kích điểm yếu của từng bạn",
+          "Kiểm tra cặp sách bằng cách lục tung đồ cá nhân của bạn không xin phép",
+          "Chỉ treo một tấm băng-rôn ở cửa lớp rồi không có bất kì hoạt động nào"
+        ],
+        "k": "A",
+        "e": "Kết hợp cam kết rõ ràng, thực hành kĩ năng xử lí tình huống và tinh thần đồng đội gắn kết biến khẩu hiệu thành văn hóa sống đẹp mỗi ngày.",
+        "s": "HĐTN, HN 6",
+        "h": "Hoạt động thiết thực xây dựng trường học hạnh phúc"
+      }
+    ]
+  },
+  {
+    "chapter": "hdtn_hn6-c3",
+    "lesson": {
+      "code": "hdtn_hn6-b08",
+      "title": "Bài 8. Bảo vệ cảnh quan thiên nhiên và phân loại rác tại nguồn",
+      "seq": 8,
+      "subtitle": "Tìm hiểu vẻ đẹp cảnh quan thiên nhiên địa phương, thực hành phân loại rác thải 3 nhóm (hữu cơ, tái chế, còn lại) và nguyên tắc 3R giảm nhựa",
+      "concepts": [
+        "Bảo vệ cảnh quan địa phương",
+        "Phân loại rác thải 3 nhóm",
+        "Lối sống xanh giảm nhựa 3R"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN6-B08-001",
+        "d": "basic",
+        "p": "Nguyên tắc 3R nổi tiếng trong bảo vệ môi trường xanh – sạch – đẹp gồm ba hành động nào theo đúng thứ tự ưu tiên từ cao xuống thấp?",
+        "o": [
+          "Chỉ tái chế (Recycle) mà không cần giảm bớt rác thải",
+          "Mua thật nhiều (Buy) – Dùng một lần (Use) – Vứt ngay (Drop)",
+          "Vứt bỏ (Remove) – Đốt cháy (Burn) – Chôn lấp (Bury)",
+          "Tiết giảm (Reduce) – Tái sử dụng (Reuse) – Tái chế (Recycle)"
+        ],
+        "k": "D",
+        "e": "Ưu tiên hàng đầu là Tiết giảm ngay từ đầu (từ chối túi nilon thừa) trước khi nghĩ tới Tái sử dụng và Tái chế tốn năng lượng.",
+        "s": "HĐTN, HN 6",
+        "h": "Thứ tự ưu tiên nguyên tắc 3R"
+      },
+      {
+        "c": "HN6-B08-002",
+        "d": "basic",
+        "p": "Theo quy định phân loại rác thải sinh hoạt tại nguồn ở Việt Nam (3 nhóm cơ bản), vỏ rau củ, thức ăn thừa, lá cây khô rụng thuộc nhóm rác nào?",
+        "o": [
+          "Nhóm vật liệu xây dựng gạch ngói vỡ",
+          "Nhóm chất thải nguy hại từ pin hỏng và bóng đèn",
+          "Nhóm chất thải tái chế như chai nhựa, lon nhôm, giấy báo",
+          "Nhóm chất thải hữu cơ dễ phân hủy sinh học (có thể ủ làm phân compost bón cây)"
+        ],
+        "k": "D",
+        "e": "Tách riêng rác hữu cơ giữ cho nguồn giấy nhựa tái chế không bị dính bẩn hôi thối, tăng vọt tỉ lệ tái chế thành công.",
+        "s": "HĐTN, HN 6",
+        "h": "Nhận diện nhóm rác hữu cơ dễ phân hủy"
+      },
+      {
+        "c": "HN6-B08-003",
+        "d": "basic",
+        "p": "Những vật dụng nào dưới đây thuộc nhóm \"Chất thải rắn có khả năng tái sử dụng, tái chế\" cần rửa sạch ép gọn trước khi bỏ đúng ngăn?",
+        "o": [
+          "Khẩu trang y tế đã qua sử dụng và mảnh sành sứ vỡ",
+          "Thức ăn thừa, vỏ tôm cua và bã cà phê",
+          "Vỏ lon nước ngọt bằng nhôm, chai nhựa PET sạch, thùng bìa các-tông, sách báo giấy vở cũ",
+          "Pin tiểu đã dùng hết và nhiệt kế thủy ngân vỡ"
+        ],
+        "k": "C",
+        "e": "Giữ vật liệu tái chế khô sạch giúp các cơ sở tái chế dễ dàng biến chúng thành sản phẩm mới hữu ích.",
+        "s": "HĐTN, HN 6",
+        "h": "Vật liệu thuộc nhóm rác tái chế"
+      },
+      {
+        "c": "HN6-B08-004",
+        "d": "basic",
+        "p": "Vì sao tuyệt đối KHÔNG nên vứt viên pin tiểu hỏng, bóng đèn huỳnh quang vỡ hoặc lọ hóa chất tẩy rửa bừa bãi chung với rác hữu cơ hay ra sông hồ?",
+        "o": [
+          "Vì chỉ làm thùng rác nặng thêm vài gam không gây hại gì",
+          "Vì pin tiểu làm phân bón cho rau mọc nhanh hơn",
+          "Vì chúng thuộc nhóm chất thải nguy hại chứa kim loại nặng độc hại (thủy ngân, chì, axit) gây ô nhiễm đất, nguồn nước ngầm lâu dài",
+          "Vì pin hỏng có thể tự mọc thành cây xanh trong vườn"
+        ],
+        "k": "C",
+        "e": "Hãy thu gom pin cũ vào các hộp thu hồi pin chuyên biệt tại trường học hoặc siêu thị để xử lí an toàn theo quy định.",
+        "s": "HĐTN, HN 6",
+        "h": "Xử lí đúng cách pin hỏng và rác nguy hại"
+      },
+      {
+        "c": "HN6-B08-005",
+        "d": "basic",
+        "p": "Hành động đẹp nào của học sinh lớp 6 góp phần trực tiếp bảo vệ cảnh quan thiên nhiên khi đi tham quan dã ngoại tại công viên, rừng cây hay bãi biển?",
+        "o": [
+          "Khắc tên mình thật to lên vách đá di tích làm kỉ niệm",
+          "Không bẻ cành hái hoa, không khắc vẽ lên thân cây vách đá và thu gom toàn bộ rác của nhóm mang về bỏ đúng nơi quy định",
+          "Thả túi nilon và hộp xốp trôi theo dòng suối cho nhẹ ba lô",
+          "Bẻ thật nhiều cành hoa mang về trang trí phòng rồi vứt héo"
+        ],
+        "k": "B",
+        "e": "\"Không để lại gì ngoài những dấu chân, không mang đi gì ngoài những bức ảnh đẹp\" là quy tắc vàng của du lịch sinh thái văn minh.",
+        "s": "HĐTN, HN 6",
+        "h": "Ứng xử bảo vệ cảnh quan khi dã ngoại"
+      },
+      {
+        "c": "HN6-B08-006",
+        "d": "basic",
+        "p": "Trong lớp học và sân trường, một chai nhựa đựng nước uống dùng một lần sau khi bỏ ra môi trường tự nhiên mất khoảng bao lâu mới phân hủy hoàn toàn?",
+        "o": [
+          "Hàng trăm năm (thường ước tính khoảng 400–500 năm hoặc lâu hơn, vỡ thành hạt vi nhựa gây hại sinh vật)",
+          "Khoảng 1 tháng giống vỏ chuối",
+          "Tan biến ngay lập tức khi gặp ánh nắng sáng hôm sau",
+          "Chỉ đúng 2 ngày sau một cơn mưa rào"
+        ],
+        "k": "A",
+        "e": "Nhựa tồn tại dai dẳng hàng trăm năm là lí do cấp thiết nhất để học sinh tập thói quen mang bình nước cá nhân thay chai nhựa dùng một lần.",
+        "s": "HĐTN, HN 6",
+        "h": "Thời gian tồn tại lâu dài của rác nhựa"
+      },
+      {
+        "c": "HN6-B08-007",
+        "d": "application",
+        "p": "Quan sát bảng hướng dẫn phân loại rác tại nguồn 3 thùng màu của trường THCS dưới đây. Sau giờ ăn trưa bán trú gồm: hộp xốp dính dầu mỡ, chai nước suối nhựa còn nắp sạch, vỏ cam chuối và viên pin điều khiển hỏng, bạn Hà nên phân loại thế nào cho đúng?",
+        "o": [
+          "Đổ trộn chung tất cả vào một túi nilon đen rồi vứt ra góc sân",
+          "Bỏ pin hỏng cùng vỏ cam chuối vào thùng rác hữu cơ làm phân bón",
+          "Bỏ hộp xốp dính đầy dầu mỡ vào ngăn giấy báo tái chế sạch",
+          "Vỏ cam chuối bỏ thùng Xanh (hữu cơ); chai nhựa súc sạch bỏ thùng Vàng/Trắng (tái chế); hộp xốp bẩn bỏ thùng Còn lại; pin hỏng đưa vào hộp thu gom pin riêng"
+        ],
+        "k": "D",
+        "e": "Phân loại chuẩn từng món rác ngay tại tay người bỏ giúp hệ thống xử lí rác của trường học vận hành trơn tru không bị ô nhiễm chéo.",
+        "s": "HĐTN, HN 6",
+        "h": "Thực hành phân loại rác trường học chuẩn xác",
+        "fig": {
+          "type": "table",
+          "title": "Thùng rác 3 ngăn",
+          "head": [
+            "Ngăn phân loại",
+            "Loại rác bỏ vào"
+          ],
+          "rows": [
+            [
+              "Hữu cơ (Xanh)",
+              "Vỏ quả, thức ăn"
+            ],
+            [
+              "Tái chế (Vàng)",
+              "Giấy, lon, chai sạch"
+            ],
+            [
+              "Còn lại (Xám)",
+              "Hộp xốp bẩn, túi"
+            ],
+            [
+              "Hộp riêng",
+              "Pin cũ, bóng đèn"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "HN6-B08-008",
+        "d": "application",
+        "p": "Bạn Minh muốn giảm rác thải nhựa khi mua đồ ăn sáng hoặc đi siêu thị cùng mẹ hằng ngày. Thay đổi thói quen nào thực hiện nguyên tắc Reduce (Tiết giảm) hiệu quả nhất?",
+        "o": [
+          "Xin cô bán hàng bọc thêm 3 lớp túi nilon cho chắc chắn rồi về vứt hết",
+          "Mỗi ngày mua 2 chai nước suối nhựa dùng một lần rồi vứt xuống ngăn bàn",
+          "Mang theo bình nước cá nhân đi học, dùng hộp cặp lồng sạch đựng xôi cháo và mang túi vải tái sử dụng nhiều lần khi đi chợ cùng mẹ",
+          "Dùng ống hút nhựa cho tất cả mọi loại cốc nước tại nhà"
+        ],
+        "k": "C",
+        "e": "Từ chối đồ nhựa dùng một lần ngay tại điểm mua giúp cắt giảm hàng trăm túi nilon và ống hút nhựa mỗi năm cho một học sinh.",
+        "s": "HĐTN, HN 6",
+        "h": "Thực hành tiết giảm nhựa dùng một lần"
+      },
+      {
+        "c": "HN6-B08-009",
+        "d": "application",
+        "p": "Cuối học kì I có rất nhiều chai nhựa sạch, lon sữa và giấy bìa vụn trong lớp. Ý tưởng \"Tái sử dụng sáng tạo\" (Reuse) nào vừa hữu ích cho lớp 6A vừa tiết kiệm chi phí?",
+        "o": [
+          "Giữ nguyên chai nhựa dơ bẩn chất đống kín cả cuối lớp học",
+          "Cắt chai nhựa thành các mảnh nhọn rồi vứt rải ra bãi cỏ",
+          "Làm chậu trồng cây xanh treo cửa sổ lớp từ chai nhựa trang trí đẹp mắt, làm hộp đựng phấn bút từ lon giấy cứng an toàn và gom giấy vở sạch đóng sổ nháp",
+          "Đốt toàn bộ chai nhựa ngay phía sau sân trường cho nhanh gọn"
+        ],
+        "k": "C",
+        "e": "Biến vật liệu cũ thành chậu cây, ống bút hay sổ nháp vừa làm đẹp không gian học vừa nuôi dưỡng óc sáng tạo xanh.",
+        "s": "HĐTN, HN 6",
+        "h": "Ý tưởng tái sử dụng vật liệu cũ trong lớp học"
+      },
+      {
+        "c": "HN6-B08-010",
+        "d": "application",
+        "p": "Khi đến tham quan một khu bảo tồn thiên nhiên hoặc thác nước địa phương, lớp 6B thấy vài nhóm khách đi trước bỏ lại vỏ chai và túi nilon bên bờ suối. Việc làm thiết thực và phù hợp sức mình nhất của cả lớp là gì?",
+        "o": [
+          "Đẩy toàn bộ đống rác đó xuống dòng nước suối cho trôi khuất mắt",
+          "Đứng chê bai to tiếng nhưng không nhặt một mảnh rác nào",
+          "Dùng găng tay hoặc kẹp thu gom rác bỏ vào túi riêng mang ra thùng rác khu du lịch, đồng thời chụp ảnh truyền thông nhắc nhở mọi người giữ cảnh quan chung",
+          "Vứt thêm rác của lớp mình vào đống đó cho có bạn"
+        ],
+        "k": "C",
+        "e": "Hành động trực tiếp dọn sạch điểm dừng chân lan tỏa thông điệp bảo vệ thiên nhiên mạnh mẽ hơn mọi lời khẩu hiệu suông.",
+        "s": "HĐTN, HN 6",
+        "h": "Bảo vệ cảnh quan khu du lịch thiên nhiên"
+      },
+      {
+        "c": "HN6-B08-011",
+        "d": "application",
+        "p": "Vườn thực vật nhỏ của trường có nhiều lá cây khô rụng mỗi tuần thay vì đốt bỏ gây khói bụi ngột ngạt. Phương án xử lí xanh thân thiện môi trường nhất thầy cô và học sinh có thể cùng làm là gì?",
+        "o": [
+          "Châm lửa đốt ngay giữa sân trường giờ ra chơi cho thơm mùi khói",
+          "Nhồi vào hàng chục túi nilon mới rồi ném ra bãi đất trống",
+          "Quét dồn hết lá rụng ném xuống cống thoát nước trước cổng trường",
+          "Quét gom lá khô vào hố ủ phân hữu cơ (kết hợp đất ẩm và vi sinh tự nhiên) để tạo đất mùn tơi xốp bón lại cho chính vườn cây của trường"
+        ],
+        "k": "D",
+        "e": "Ủ phân lá khô khép kín chu trình dinh dưỡng tự nhiên không khói bụi, biến \"rác\" sân trường thành nguồn phân bón giàu dưỡng chất.",
+        "s": "HĐTN, HN 6",
+        "h": "Ủ phân hữu cơ lá cây thay thế đốt rác"
+      },
+      {
+        "c": "HN6-B08-012",
+        "d": "application",
+        "p": "Khu dân cư nhà bạn Lan có một dòng kênh nhỏ dạo gần đây bị nhiều người vứt rác sinh hoạt xuống gây mùi hôi và tắc dòng chảy. Em và nhóm bạn lớp 6 có thể tham gia hoạt động nào an toàn, vừa sức để góp phần cải thiện?",
+        "o": [
+          "Đi cãi cọ to tiếng gõ cửa từng nhà hàng xóm",
+          "Báo tổ dân phố/Đoàn thanh niên tổ chức Chủ nhật xanh dọn rác ven bờ an toàn, gắn biển \"Không xả rác xuống kênh\" và phân loại rác tại nhà",
+          "Gom rác nhà mình ném tiếp xuống kênh vào ban đêm cho bớt thấy",
+          "Một mình tự ý lội xuống dòng kênh nước sâu chảy xiết không có người lớn"
+        ],
+        "k": "B",
+        "e": "Học sinh lớp 6 luôn đặt an toàn lên trên hết (không tự xuống nước sâu hay tiếp xúc rác độc hại không bảo hộ), phối hợp cùng người lớn địa phương tạo sức mạnh cộng đồng.",
+        "s": "HĐTN, HN 6",
+        "h": "Tham gia bảo vệ nguồn nước địa phương an toàn"
+      },
+      {
+        "c": "HN6-B08-013",
+        "d": "advanced",
+        "p": "Nhiều bạn thắc mắc: \"Ở nhà em mất công phân loại thành 3 túi riêng, nhưng lỡ xe chở rác ngoài đường lại đổ chung thì phân loại có còn tác dụng gì không?\". Cách nhìn đúng đắn và hành động thúc đẩy thay đổi tích cực là gì?",
+        "o": [
+          "Không vứt rác vào thùng nữa mà ném thẳng ra ngoài đường",
+          "Rác tái chế và hữu cơ tự tách có thể giao cô ve chai, điểm tái chế hoặc ủ cây không hề phí; đồng thời rèn ý thức xanh chờ thu gom đồng bộ",
+          "Chỉ phân loại khi có máy quay phim kiểm tra",
+          "Kết luận phân loại rác hoàn toàn vô ích nên trộn lẫn hết lại như cũ"
+        ],
+        "k": "B",
+        "e": "Tự tách nguồn ve chai tái chế và ủ rác bếp tại nhà vốn đã cắt giảm trực tiếp 60–70% lượng rác phải đưa ra bãi chôn lấp mỗi ngày!",
+        "s": "HĐTN, HN 6",
+        "h": "Giải đáp băn khoăn về hiệu quả phân loại rác tại nhà"
+      },
+      {
+        "c": "HN6-B08-014",
+        "d": "advanced",
+        "p": "So sánh vòng đời của một cái túi nilon mỏng dùng 5 phút mua đồ với một chiếc túi vải dùng lại 200 lần trong 2 năm: vì sao sử dụng túi vải mang lại lợi ích môi trường và kinh tế vượt trội?",
+        "o": [
+          "Túi nilon thân thiện hơn vì bay theo gió nhanh hơn túi vải",
+          "Túi vải chỉ dùng được một lần rồi phải vứt đi",
+          "Không có sự khác biệt nào về lượng rác thải ra môi trường",
+          "Một túi vải thay thế hàng trăm túi nilon khó phân hủy, tiết kiệm dầu mỏ sản xuất, giảm vi nhựa ra đại dương và chi phí mỗi lần dùng rẻ hơn nhiều"
+        ],
+        "k": "D",
+        "e": "Thay đổi thói quen tiêu dùng nhỏ lặp lại mỗi ngày của hàng triệu học sinh tạo ra tác động tích cực khổng lồ tới hệ sinh thái Trái Đất.",
+        "s": "HĐTN, HN 6",
+        "h": "Phân tích vòng đời túi vải và túi nilon"
+      },
+      {
+        "c": "HN6-B08-015",
+        "d": "advanced",
+        "p": "Nếu lớp 6A phát động mô hình \"Lớp học Không Rác Nhựa Dùng Một Lần\" trong 1 học kì, bộ giải pháp đồng bộ nào vừa khả thi cho học sinh vừa không tốn kém?",
+        "o": [
+          "Cấm học sinh uống nước suốt 5 tiết học buổi sáng tại trường",
+          "Mua máy nghiền rác công nghiệp đặt ngay trên bục giảng",
+          "Thu tiền phạt thật cao những bạn mang cặp sách cũ",
+          "Mỗi bạn mang bình nước cá nhân, đặt trạm phân loại rác 3 ngăn cuối lớp, đổi giấy vụn/chai sạch lấy cây xanh và thi đua tổ xanh hằng tuần"
+        ],
+        "k": "D",
+        "e": "Mô hình kết hợp thói quen bình nước cá nhân + phân loại 3 ngăn + quỹ cây xanh từ ve chai vừa thực tế, vui nhộn vừa tạo cảnh quan lớp học đầy sức sống.",
+        "s": "HĐTN, HN 6",
+        "h": "Thiết kế mô hình Lớp học Không Rác Nhựa"
+      }
+    ]
+  },
+  {
+    "chapter": "hdtn_hn6-c3",
+    "lesson": {
+      "code": "hdtn_hn6-b09",
+      "title": "Bài 9. Hoạt động thiện nguyện và gắn kết cộng đồng địa phương",
+      "seq": 9,
+      "subtitle": "Hiểu ý nghĩa chia sẻ cộng đồng, tham gia các hoạt động nhân đạo phù hợp lứa tuổi lớp 6 với thái độ tôn trọng chân thành",
+      "concepts": [
+        "Lòng nhân ái vì cộng đồng",
+        "Tổ chức hoạt động thiện nguyện",
+        "Ứng xử tôn trọng người nhận giúp đỡ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN6-B09-001",
+        "d": "basic",
+        "p": "Ý nghĩa sâu sắc nhất của việc học sinh lớp 6 tham gia các hoạt động thiện nguyện (như quyên góp sách vở, áo ấm hoặc thăm hỏi người neo đơn) là gì?",
+        "o": [
+          "Lan tỏa tình yêu thương tương thân tương ái, đồng thời giúp chính bản thân học sinh biết đồng cảm, trân trọng cuộc sống và sống có trách nhiệm",
+          "Chỉ để chụp ảnh khoe khoang lên mạng xã hội cho thật nổi tiếng",
+          "Để được cộng thật nhiều điểm vào bài kiểm tra Toán",
+          "Để ép mọi người xung quanh phải biết ơn mình mãi"
+        ],
+        "k": "A",
+        "e": "Làm thiện nguyện không chỉ trao đi giá trị vật chất nhỏ mà còn nuôi dưỡng trái tim ấm áp biết sẻ chia bên trong mỗi học sinh.",
+        "s": "HĐTN, HN 6",
+        "h": "Giá trị nhân văn của hoạt động thiện nguyện"
+      },
+      {
+        "c": "HN6-B09-002",
+        "d": "basic",
+        "p": "Hoạt động thiện nguyện nào thiết thực, an toàn và phù hợp nhất với khả năng đóng góp của học sinh lớp 6?",
+        "o": [
+          "Tự ý quyên góp hàng trăm triệu đồng khi chưa có thu nhập",
+          "Đi bộ một mình sang tỉnh khác suốt một tuần để phát quà",
+          "Quyên góp sách giáo khoa, truyện thiếu nhi, quần áo còn sạch tốt; làm thiệp chúc Tết tặng cụ già neo đơn hoặc chăm sóc nghĩa trang liệt sĩ cùng trường",
+          "Đưa đồ chơi hỏng vỡ nát và quần áo rách bẩn đi tặng"
+        ],
+        "k": "C",
+        "e": "Những món đồ còn lành lặn sạch sẽ, tấm thiệp tay hoặc ngày công quét dọn nghĩa trang đều xuất phát từ tấm lòng chân thành đáng quý.",
+        "s": "HĐTN, HN 6",
+        "h": "Hoạt động cộng đồng vừa sức học sinh lớp 6"
+      },
+      {
+        "c": "HN6-B09-003",
+        "d": "basic",
+        "p": "Khi chuẩn bị quần áo và sách vở cũ để gửi tặng các bạn học sinh vùng lũ hoặc vùng cao khó khăn, bước kiểm tra nào BẮT BUỘC phải làm trước khi đóng thùng?",
+        "o": [
+          "Không cần giặt vì nghĩ ở nơi khó khăn dùng đồ bẩn cũng được",
+          "Giặt sạch phơi khô quần áo, kiểm tra loại bỏ đồ rách quá mức hoặc sách thiếu nhiều trang, gấp gọn gàng phân loại rõ độ tuổi/khối lớp",
+          "Trộn lẫn chai thủy tinh vỡ vào bên trong thùng quần áo",
+          "Vơ bừa tất cả giẻ lau bẩn và sách rách nát nhét chung cho đầy thùng"
+        ],
+        "k": "B",
+        "e": "\"Của cho không bằng cách cho\" — gửi đi đồ dùng sạch đẹp gọn gàng thể hiện trọn vẹn sự tôn trọng nhân phẩm người nhận.",
+        "s": "HĐTN, HN 6",
+        "h": "Chuẩn bị đồ quyên góp sạch đẹp tôn trọng"
+      },
+      {
+        "c": "HN6-B09-004",
+        "d": "basic",
+        "p": "Trong buổi giao lưu tặng quà cho các bạn nhỏ ở mái ấm tình thương hoặc trung tâm bảo trợ xã hội, thái độ giao tiếp nào thể hiện sự tinh tế và tôn trọng nhất?",
+        "o": [
+          "Chụp ảnh cận mặt bạn đang bối rối rồi đăng mạng viết lời kể lể",
+          "Nói giọng thương hại ban ơn hoặc chỉ trỏ bàn tán xì xào",
+          "Đứng tách riêng thành một góc bịt mũi chê bai cơ sở vật chất",
+          "Nói chuyện tự nhiên thân thiện ngang hàng như những người bạn mới, cùng hát chơi trò chơi vui vẻ và không nhìn chằm chằm tò mò vào khiếm khuyết của bạn"
+        ],
+        "k": "D",
+        "e": "Sự bình đẳng chân thành giúp người được giúp đỡ cảm thấy ấm áp và giữ nguyên lòng tự trọng đáng quý.",
+        "s": "HĐTN, HN 6",
+        "h": "Thái độ tôn trọng khi tiếp xúc cộng đồng"
+      },
+      {
+        "c": "HN6-B09-005",
+        "d": "basic",
+        "p": "Các hoạt động truyền thống \"Uống nước nhớ nguồn\", chăm sóc bia tưởng niệm hoặc thăm hỏi gia đình thương binh liệt sĩ tại địa phương giáo dục học sinh phẩm chất gì?",
+        "o": [
+          "Thói quen đi du lịch ngắm cảnh chụp ảnh tự do",
+          "Sự cạnh tranh giành giật phần quà địa phương",
+          "Lòng biết ơn sâu sắc đối với thế hệ cha anh đã hi sinh bảo vệ Tổ quốc và ý thức trách nhiệm xây dựng quê hương",
+          "Tâm lí sợ hãi trốn tránh mọi công việc tập thể"
+        ],
+        "k": "C",
+        "e": "Giữ gìn nghĩa trang, nghe bác cựu chiến binh kể chuyện lịch sử địa phương là những bài học sống động bồi đắp lòng yêu nước.",
+        "s": "HĐTN, HN 6",
+        "h": "Ý nghĩa hoạt động Đền ơn đáp nghĩa"
+      },
+      {
+        "c": "HN6-B09-006",
+        "d": "basic",
+        "p": "Khi thấy nhà trường phát động phong trào \"Nuôi lợn đất tình bạn\" hoặc \"Kế hoạch nhỏ\" gây quỹ giúp bạn nghèo vượt khó ngay trong trường, nguồn đóng góp tốt nhất đến từ đâu?",
+        "o": [
+          "Nhịn ăn sáng nhiều ngày tới mức ngất xỉu để góp tiền",
+          "Từ việc lén lấy trộm tiền trong ví của cha mẹ để bỏ cho nhiều nhất",
+          "Từ tiền tiết kiệm nhỏ trong ăn vặt hằng ngày, tiền bán giấy vụn ve chai tự thu gom của mỗi học sinh trong khả năng gia đình cho phép",
+          "Đi trấn lột tiền của các em nhỏ lớp dưới"
+        ],
+        "k": "C",
+        "e": "Giá trị của quỹ thiện nguyện lớp học nằm ở tinh thần mỗi bạn góp một phần nhỏ từ công sức tiết kiệm chân chính của mình.",
+        "s": "HĐTN, HN 6",
+        "h": "Nguồn đóng góp đúng đắn cho quỹ lớp"
+      },
+      {
+        "c": "HN6-B09-007",
+        "d": "application",
+        "p": "Quan sát bảng kế hoạch dự án \"Tủ sách Chia sẻ yêu thương\" của lớp 6A dưới đây. Để tủ sách gửi đến trường bạn vùng khó khăn thực sự có ích ngay khi mở thùng, nhóm thực hiện bước kiểm soát nào quan trọng nhất ở khâu 2?",
+        "o": [
+          "Chỉ giữ lại những quyển truyện hay còn gửi đi toàn đề thi cũ",
+          "Chờ đúng sáng ngày xe tải tới đón mới vội vàng nhét bừa sách vào",
+          "Phân loại sạch sẽ theo môn/độ tuổi, dán bọc bảo vệ gáy sách bị sờn nhẹ, loại sách viết bậy quá nhiều và ghi danh mục rõ dán ngoài thùng",
+          "Trộn lẫn sách lớp 9, truyện tranh rách nát và giấy nháp toán vào một bao tải"
+        ],
+        "k": "C",
+        "e": "Sự chu đáo trong phân loại và đóng gói giúp các bạn nhận sách sử dụng được ngay với niềm vui trọn vẹn như đón nhận món quà mới.",
+        "s": "HĐTN, HN 6",
+        "h": "Quản lí chất lượng dự án Tủ sách Chia sẻ",
+        "fig": {
+          "type": "table",
+          "title": "Dự án Tủ sách 6A",
+          "head": [
+            "Giai đoạn",
+            "Việc cần hoàn thành"
+          ],
+          "rows": [
+            [
+              "1. Phát động",
+              "Mỗi bạn góp 2-3 sách"
+            ],
+            [
+              "2. Phân loại",
+              "Làm sạch, chia cấp"
+            ],
+            [
+              "3. Lời chúc",
+              "Viết thiệp kẹp sách"
+            ],
+            [
+              "4. Trao tặng",
+              "Bàn giao minh bạch"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "HN6-B09-008",
+        "d": "application",
+        "p": "Một người lạ không rõ danh tính nhắn tin vào nhóm phụ huynh/học sinh kêu gọi chuyển khoản gấp 200.000 đồng để ủng hộ một hoàn cảnh bệnh hiểm nghèo kèm đường link lạ. Học sinh lớp 6 cần xử lí thế nào?",
+        "o": [
+          "Cho người lạ mật khẩu ngân hàng của gia đình để tự trừ tiền",
+          "Chia sẻ lại đường link lạ đó cho tất cả mọi người cùng bấm vào",
+          "Vội vàng lấy tài khoản của bố mẹ chuyển khoản ngay không cần hỏi",
+          "Không bấm link lạ hay tự chuyển khoản; đưa thông tin cho cha mẹ, thầy cô kiểm chứng qua kênh chính thống của nhà trường hoặc Hội Chữ thập đỏ"
+        ],
+        "k": "D",
+        "e": "Cảnh giác trước chiêu trò lợi dụng lòng tốt để lừa đảo chiếm đoạt tài sản qua mạng là kĩ năng an toàn công dân số cực kì quan trọng.",
+        "s": "HĐTN, HN 6",
+        "h": "Cảnh giác lừa đảo núp bóng từ thiện qua mạng"
+      },
+      {
+        "c": "HN6-B09-009",
+        "d": "application",
+        "p": "Trong lớp 6B có một bạn gia đình vừa gặp hỏa hoạn mất hết sách vở đồ dùng học tập. Cách tổ chức hỗ trợ bạn vừa kịp thời vừa giữ trọn sự tế nhị cho bạn là gì?",
+        "o": [
+          "Bắt bạn đứng giữa sân trường đọc hoàn cảnh khốn khó trước micro toàn trường",
+          "Bàn tán hỏi han xoi mói từng chi tiết đau buồn của vụ cháy",
+          "Tặng bạn toàn những đồ chơi hỏng không dùng tới trong học tập",
+          "Nhanh chóng cùng cô chủ nhiệm bàn bạc thống nhất quyên góp đúng những sách vở, đồng phục, bút viết bạn đang cần ngay và trao gọn ân cần qua cô hoặc đại diện lớp"
+        ],
+        "k": "D",
+        "e": "Giúp đúng thứ bạn đang cấp bách cần với thái độ ân cần nhẹ nhàng giúp bạn sớm ổn định việc học và cảm thấy tập thể như gia đình.",
+        "s": "HĐTN, HN 6",
+        "h": "Hỗ trợ bạn cùng lớp gặp thiên tai tế nhị"
+      },
+      {
+        "c": "HN6-B09-010",
+        "d": "application",
+        "p": "Thôn/tổ dân phố phát động buổi \"Chủ nhật xanh\" dọn cỏ rác hai bên đường làng ngõ xóm vào sáng chủ nhật. Một số bạn bảo: \"Đó là việc của cô chú vệ sinh môi trường, học sinh bận lắm!\". Em thuyết phục các bạn bằng lí do nào?",
+        "o": [
+          "Nói rằng ai không đi quét đường sẽ bị cô giáo đuổi học ngay",
+          "Chỉ đồng ý đi nếu tổ dân phố trả lương thật cao",
+          "Ra đứng chỉ tay xem các bác lớn tuổi làm việc rồi về",
+          "Đường ngõ sạch đẹp là không gian mình đi học mỗi ngày; góp sức sáng chủ nhật vừa rèn sức khỏe, gắn kết hàng xóm vừa đỡ vất cho cô chú lao công"
+        ],
+        "k": "D",
+        "e": "Ý thức làm chủ không gian sống cộng đồng biến công việc quét dọn bình thường thành niềm tự hào đóng góp cho quê hương.",
+        "s": "HĐTN, HN 6",
+        "h": "Thuyết phục bạn tham gia Chủ nhật xanh địa phương"
+      },
+      {
+        "c": "HN6-B09-011",
+        "d": "application",
+        "p": "Sau chiến dịch bán đồ tái chế thủ công gây quỹ \"Mùa đông ấm\" thu được 1.500.000 đồng, ban tổ chức lớp 6 cần làm bước cuối cùng nào để bảo đảm tính minh bạch và xây dựng niềm tin cho các bạn?",
+        "o": [
+          "Giữ kín số tiền trong túi riêng thủ quỹ không báo lại cho ai",
+          "Tự ý trích một nửa số tiền đi ăn uống liên hoan riêng nhóm tổ trưởng",
+          "Quên luôn chuyện báo cáo kết quả sau khi quyên góp xong",
+          "Công khai rõ ràng toàn bộ số tiền thu được, hóa đơn mua đồ tặng hoặc biên nhận bàn giao quỹ cho nhà trường và báo cáo trước giờ sinh hoạt lớp"
+        ],
+        "k": "D",
+        "e": "Sự công khai minh bạch tài chính dù chỉ vài trăm nghìn đồng là nền tảng đạo đức tạo dựng uy tín lâu dài cho mọi hoạt động tập thể.",
+        "s": "HĐTN, HN 6",
+        "h": "Nguyên tắc công khai minh bạch quỹ cộng đồng"
+      },
+      {
+        "c": "HN6-B09-012",
+        "d": "application",
+        "p": "Khi đến thăm hỏi chúc Tết một cụ già neo đơn gần nhà cùng các anh chị Đoàn viên, hành động nhỏ nào khiến cụ vui ấm lòng nhất?",
+        "o": [
+          "Chạy nhảy ồn ào khắp nhà, tự ý lục lọi đồ đạc kỉ niệm của cụ",
+          "Chỉ đứng ngoài cửa chụp vài tấm ảnh rồi đi",
+          "Đặt túi quà xuống bàn rồi lập tức chạy về luôn sau 30 giây",
+          "Lễ phép chúc sức khỏe, phụ quét dọn sạch sẽ khoảng sân nhỏ, pha ấm trà ấm và ngồi chăm chú nghe cụ kể chuyện ngày xưa"
+        ],
+        "k": "D",
+        "e": "Đối với người lớn tuổi neo đơn, thời gian ngồi bên lắng nghe câu chuyện của cụ đôi khi còn quý giá hơn cả món quà vật chất.",
+        "s": "HĐTN, HN 6",
+        "h": "Thăm hỏi chân thành người cao tuổi neo đơn"
+      },
+      {
+        "c": "HN6-B09-013",
+        "d": "advanced",
+        "p": "Phân biệt sự khác nhau giữa \"Làm thiện nguyện nhất thời theo phong trào\" và \"Sống có tinh thần cộng đồng bền vững\": đâu là giá trị cốt lõi cần hướng tới ở học sinh THCS?",
+        "o": [
+          "Chỉ làm từ thiện khi có giải thưởng lớn từ truyền hình",
+          "Làm theo phong trào ồn ào một ngày rồi cả năm thờ ơ là hiệu quả nhất",
+          "Phải bỏ học cả tháng để đi khắp nơi làm từ thiện mới đáng quý",
+          "Tinh thần cộng đồng bền vững thể hiện qua việc nhỏ hằng ngày (không xả rác, nhường ghế, hòa nhã, minh bạch) chứ không chỉ đợi lễ phát động"
+        ],
+        "k": "D",
+        "e": "Trái tim cộng đồng bắt đầu từ những cử chỉ văn minh tử tế hằng ngày ngay tại gia đình, lớp học và ngõ phố mình đang sống.",
+        "s": "HĐTN, HN 6",
+        "h": "Xây dựng ý thức cộng đồng bền vững mỗi ngày"
+      },
+      {
+        "c": "HN6-B09-014",
+        "d": "advanced",
+        "p": "Một chiến dịch từ thiện tốt cần tuân thủ nguyên tắc \"Trao cần câu hay chỉ trao con cá\" phù hợp từng hoàn cảnh. Đối với các bạn học sinh khó khăn có ý chí vươn lên, cách hỗ trợ lâu dài ý nghĩa nhất của trường lớp là gì?",
+        "o": [
+          "Chỉ cho vài cái kẹo một lần rồi bỏ mặc suốt cả năm học",
+          "Làm hộ toàn bộ bài tập về nhà cho bạn để bạn không phải suy nghĩ",
+          "Khuyên bạn nghỉ học sớm để tiết kiệm tiền mua vở",
+          "Kết hợp hỗ trợ sách vở dụng cụ cấp bách với thành lập nhóm bạn cùng học kèm cặp nâng kiến thức, kết nối học bổng dài hạn giúp bạn tự tin tự lập lâu dài"
+        ],
+        "k": "D",
+        "e": "Trao tri thức, tình bạn nâng đỡ và cơ hội học tập tiếp tục giúp người được giúp đỡ tự đứng vững vươn lên bằng chính đôi chân mình.",
+        "s": "HĐTN, HN 6",
+        "h": "Hỗ trợ bền vững giúp bạn vươn lên học tập"
+      },
+      {
+        "c": "HN6-B09-015",
+        "d": "advanced",
+        "p": "Giả sử nhóm em được giao lên kế hoạch một hoạt động \"Kết nối thế hệ\" tại địa phương (như dạy ông bà sử dụng điện thoại thông minh an toàn tránh lừa đảo hoặc nghe kể truyền thống quê hương). Quy trình 4 bước tổ chức chuyên nghiệp nhất gồm những gì?",
+        "o": [
+          "Chỉ phát tờ rơi chữ bé xíu rồi bỏ về luôn",
+          "Khảo sát nhu cầu an toàn – Chuẩn bị tài liệu chữ to dễ hiểu/quà nhỏ – Hướng dẫn kiên nhẫn 1 kèm 1 hoặc giao lưu ấm cúng – Tổng kết rút kinh nghiệm",
+          "Tới thẳng nhà người dân lúc trưa ngủ mà không báo trước hay chuẩn bị gì",
+          "Nói nhanh hàng loạt thuật ngữ công nghệ khó hiểu rồi chê các cụ chậm tiếp thu"
+        ],
+        "k": "B",
+        "e": "Sự chuẩn bị thấu hiểu đối tượng (chữ to, kiên nhẫn, thân thiện) giúp thu hẹp khoảng cách thế hệ và mang lại giá trị thực tiễn cao cho địa phương.",
+        "s": "HĐTN, HN 6",
+        "h": "Tổ chức hoạt động cộng đồng \"Kết nối thế hệ\""
+      }
+    ]
+  },
+  {
+    "chapter": "hdtn_hn6-c4",
+    "lesson": {
+      "code": "hdtn_hn6-b10",
+      "title": "Bài 10. Tìm hiểu nghề truyền thống ở quê hương em",
+      "seq": 10,
+      "subtitle": "Nhận biết nét đặc trưng, giá trị văn hóa – kinh tế của các nghề truyền thống địa phương và tìm hiểu cách người làm nghề gìn giữ tinh hoa",
+      "concepts": [
+        "Đặc điểm nghề truyền thống",
+        "Giá trị văn hóa kinh tế địa phương",
+        "Gìn giữ và phát triển nghề truyền thống"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN6-B10-001",
+        "d": "basic",
+        "p": "Thế nào được gọi là một \"Nghề truyền thống\" ở quê hương, địa phương?",
+        "o": [
+          "Là nghề chỉ tồn tại ở nước ngoài không có ở Việt Nam",
+          "Là nghề đã hình thành và tồn tại lâu đời qua nhiều thế hệ, tạo ra sản phẩm mang bản sắc văn hóa riêng và truyền bí quyết từ đời trước sang đời sau",
+          "Là nghề vừa mới xuất hiện trên điện thoại được đúng 2 tuần",
+          "Là một trò chơi giải trí không tạo ra sản phẩm nào"
+        ],
+        "k": "B",
+        "e": "Từ làm gốm Bát Tràng, dệt lụa Vạn Phúc, nón lá làng Chuông đến đan lát mây tre hay làm nước mắm truyền thống đều là niềm tự hào bản sắc quê hương.",
+        "s": "HĐTN, HN 6",
+        "h": "Khái niệm nghề truyền thống"
+      },
+      {
+        "c": "HN6-B10-002",
+        "d": "basic",
+        "p": "Những nghề truyền thống nổi tiếng lâu đời của Việt Nam như gốm sứ, dệt thổ cẩm, chạm khắc gỗ, đúc đồng, làm tranh dân gian đóng góp giá trị kép nào cho địa phương?",
+        "o": [
+          "Chỉ dùng để cất trong kho không bao giờ bán ra thị trường",
+          "Khiến người dân địa phương phải bỏ quê đi nơi khác hết",
+          "Chỉ tốn nguyên liệu thiên nhiên mà không đem lại thu nhập nào",
+          "Vừa tạo công ăn việc làm nâng cao thu nhập kinh tế cho người dân vừa bảo tồn bản sắc văn hóa lịch sử độc đáo thu hút du lịch"
+        ],
+        "k": "D",
+        "e": "Sản phẩm thủ công mĩ nghệ truyền thống vừa mang giá trị sử dụng vừa chứa đựng tâm hồn, câu chuyện lịch sử của cả một vùng đất.",
+        "s": "HĐTN, HN 6",
+        "h": "Giá trị kép văn hóa và kinh tế của làng nghề"
+      },
+      {
+        "c": "HN6-B10-003",
+        "d": "basic",
+        "p": "Khi đi thực tế tìm hiểu một cơ sở nghề truyền thống ở địa phương (như cơ sở mây tre đan, làm bánh truyền thống, mộc mĩ nghệ), thái độ đúng mực nhất của học sinh là gì?",
+        "o": [
+          "Chạy nhảy la hét đuổi nhau khắp xưởng làm việc",
+          "Tự ý cầm nghịch máy móc đang chạy và làm vỡ sản phẩm trưng bày",
+          "Lễ phép chào hỏi các nghệ nhân, lắng nghe chăm chú quy trình làm nghề, giữ trật tự và hỏi xin phép trước khi chạm vào sản phẩm hay chụp ảnh",
+          "Chê bai các bác thợ quê mùa lạc hậu ngay trước mặt họ"
+        ],
+        "k": "C",
+        "e": "Mỗi sản phẩm thủ công là kết tinh hàng giờ lao động tỉ mỉ; sự trân trọng từ học sinh tạo động lực rất lớn cho các nghệ nhân giữ nghề.",
+        "s": "HĐTN, HN 6",
+        "h": "Thái độ tôn trọng khi tham quan làng nghề"
+      },
+      {
+        "c": "HN6-B10-004",
+        "d": "basic",
+        "p": "Khó khăn phổ biến nhất mà nhiều nghề truyền thống đang phải đối mặt trong thời đại công nghiệp hiện nay là gì?",
+        "o": [
+          "Sự cạnh tranh gay gắt của hàng công nghiệp giá rẻ sản xuất hàng loạt và nguy cơ thiếu lớp trẻ kế cận theo học bí quyết nghề",
+          "Thời gian làm việc quá nhanh chỉ mất 1 giây xong một sản phẩm",
+          "Không có người tiêu dùng nào trên thế giới thích sản phẩm thủ công nữa",
+          "Sản phẩm truyền thống quá rẻ mạt so với đồ nhựa"
+        ],
+        "k": "A",
+        "e": "Nhận rõ thách thức giúp thế hệ trẻ tìm cách kết hợp tinh hoa thủ công truyền thống với thiết kế sáng tạo và công nghệ hiện đại.",
+        "s": "HĐTN, HN 6",
+        "h": "Thách thức của nghề truyền thống ngày nay"
+      },
+      {
+        "c": "HN6-B10-005",
+        "d": "basic",
+        "p": "Trong bản phỏng vấn tìm hiểu một nghề truyền thống quê hương, những thông tin cơ bản nào học sinh lớp 6 cần ghi chép lại?",
+        "o": [
+          "Không cần ghi chép gì, chỉ xin một sản phẩm mang về",
+          "Chỉ ghi tên món ăn trưa của người phỏng vấn",
+          "Tên nghề và lịch sử hình thành, nguyên liệu và công cụ chính, quy trình các bước làm ra sản phẩm, thị trường tiêu thụ và giá trị của nghề",
+          "Chỉ hỏi xem bác thợ kiếm được bao nhiêu tiền trong một giờ"
+        ],
+        "k": "C",
+        "e": "Phiếu phỏng vấn đầy đủ thông tin cốt lõi giúp học sinh có tư liệu viết bài giới thiệu nghề truyền thống quê hương sinh động và chuẩn xác.",
+        "s": "HĐTN, HN 6",
+        "h": "Nội dung cần tìm hiểu về một nghề truyền thống"
+      },
+      {
+        "c": "HN6-B10-006",
+        "d": "basic",
+        "p": "Nghệ nhân ưu tú ở các làng nghề truyền thống đóng vai trò đặc biệt quan trọng nào đối với sự tồn tại của nghề?",
+        "o": [
+          "Là nhân viên bảo vệ cổng làng",
+          "Là người nắm giữ kĩ thuật tinh xảo bậc nhất, sáng tạo mẫu mã và trực tiếp truyền dạy \"ngọn lửa nghề\" tâm huyết cho thế hệ trẻ",
+          "Là người chuyên thu mua hàng công nghiệp nhựa bán lại",
+          "Là người giữ bí quyết kín mít không truyền lại cho bất kì ai kể cả con cháu"
+        ],
+        "k": "B",
+        "e": "Nếu thiếu sự truyền lửa và đào tạo truyền nghề từ các nghệ nhân tâm huyết, nhiều kĩ thuật thủ công tinh hoa sẽ đứng trước nguy cơ thất truyền.",
+        "s": "HĐTN, HN 6",
+        "h": "Vai trò của nghệ nhân giữ lửa nghề"
+      },
+      {
+        "c": "HN6-B10-007",
+        "d": "application",
+        "p": "Quan sát bảng tổng hợp một số nghề truyền thống tiêu biểu theo vùng miền dưới đây. Nếu trường em muốn tổ chức chuyên đề \"Trải nghiệm sản phẩm thân thiện môi trường từ làng nghề\", cặp nghề và sản phẩm nào phù hợp chủ đề nhất?",
+        "o": [
+          "Nghề đan lát mây tre (giỏ xách, đèn tre, khay mây thay thế nhựa) và nghề làm nón lá / chiếu cói tự nhiên",
+          "Nghề đúc đồ chơi nhựa pha chì độc hại",
+          "Nghề khai thác phá rừng gỗ quý hiếm trái phép",
+          "Nghề sản xuất túi nilon dùng một lần thật mỏng nhẹ"
+        ],
+        "k": "A",
+        "e": "Các sản phẩm mây tre đan, cói, gốm đất nung của làng nghề Việt Nam đang cực kì được ưa chuộng trên thế giới nhờ xu hướng tiêu dùng xanh bền vững.",
+        "s": "HĐTN, HN 6",
+        "h": "Kết nối sản phẩm làng nghề với tiêu dùng xanh",
+        "fig": {
+          "type": "table",
+          "title": "Nghề truyền thống VN",
+          "head": [
+            "Tên nghề",
+            "Sản phẩm tiêu biểu"
+          ],
+          "rows": [
+            [
+              "Đan mây tre",
+              "Giỏ, đèn, khay tre"
+            ],
+            [
+              "Làm gốm sứ",
+              "Bát đĩa, bình hoa"
+            ],
+            [
+              "Dệt lụa tơ tằm",
+              "Vải lụa, khăn áo"
+            ],
+            [
+              "Chạm khắc gỗ",
+              "Tượng, đồ gỗ mĩ nghệ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "HN6-B10-008",
+        "d": "application",
+        "p": "Khi quan sát bác thợ làm nghề làm bánh cốm hoặc bánh chưng truyền thống ở quê thấy quy trình rất tỉ mỉ qua nhiều công đoạn ngâm gạo, giã/gói, luộc lâu. Em rút ra bài học quý giá nào cho việc học tập của chính mình?",
+        "o": [
+          "Chỉ những người không học chữ mới phải làm nghề thủ công",
+          "Để tạo nên thành quả chất lượng và uy tín lâu dài cần sự kiên nhẫn, chăm chút từng bước nhỏ và tuyệt đối không làm ẩu cắt bớt công đoạn vì lợi trước mắt",
+          "Học tập thì chỉ cần làm qua loa 5 phút là xong",
+          "Nên cắt bớt hết các bước khó để làm thật nhanh bán vội"
+        ],
+        "k": "B",
+        "e": "Phẩm chất tỉ mỉ, kiên trì và tự trọng nghề nghiệp của người thợ thủ công là tấm gương rèn luyện nhân cách tuyệt vời cho học sinh.",
+        "s": "HĐTN, HN 6",
+        "h": "Bài học kiên trì tỉ mỉ từ người thợ làng nghề"
+      },
+      {
+        "c": "HN6-B10-009",
+        "d": "application",
+        "p": "Nhóm bạn Hoa được giao phỏng vấn bác Hùng — người có 35 năm làm nghề mộc chạm khắc truyền thống gần trường. Câu hỏi mở nào giúp bác Hùng chia sẻ câu chuyện sâu sắc thú vị nhất?",
+        "o": [
+          "\"Bác làm nghề này chắc mệt lắm nhỉ, sao bác không nghỉ luôn cho khỏe?\"",
+          "\"Mỗi tháng bác thu nhập đúng bao nhiêu tiền lương?\"",
+          "\"Nghề này bây giờ chẳng còn ai dùng nữa đâu bác nhỉ?\"",
+          "\"Thưa bác, kỉ niệm nào đáng nhớ nhất trong 35 năm làm nghề khiến bác tự hào và điều gì bác mong muốn gửi gắm nhất tới thế hệ cháu chúng cháu ạ?\""
+        ],
+        "k": "D",
+        "e": "Câu hỏi mở lịch sự chạm tới niềm tự hào và tâm huyết của người làm nghề sẽ mở ra những câu chuyện vô cùng chân thực và giàu cảm xúc.",
+        "s": "HĐTN, HN 6",
+        "h": "Đặt câu hỏi phỏng vấn tinh tế với nghệ nhân"
+      },
+      {
+        "c": "HN6-B10-010",
+        "d": "application",
+        "p": "Một số làng nghề truyền thống hiện nay đang kết hợp mô hình \"Làng nghề gắn với Du lịch trải nghiệm\" (mời du khách và học sinh tự tay nặn gốm, dệt thử vải, làm nón). Mô hình này mang lại lợi ích nổi bật nào?",
+        "o": [
+          "Làm mất sạch bản sắc văn hóa địa phương",
+          "Khiến người thợ phải bỏ nghề truyền thống sang bán hàng rong",
+          "Làm giảm số lượng người biết tới sản phẩm làng nghề",
+          "Tạo thêm nguồn thu nhập tại chỗ cho người dân, quảng bá thương hiệu sản phẩm trực tiếp và khơi gợi tình yêu nghề cho thế hệ trẻ từ trải nghiệm thực tế"
+        ],
+        "k": "D",
+        "e": "Trải nghiệm tự tay làm ra một chiếc cốc gốm nhỏ hay chiếc quạt giấy giúp học sinh thấu hiểu giá trị lao động và nhớ mãi không quên.",
+        "s": "HĐTN, HN 6",
+        "h": "Lợi ích mô hình Làng nghề kết hợp Du lịch trải nghiệm"
+      },
+      {
+        "c": "HN6-B10-011",
+        "d": "application",
+        "p": "Gia đình bạn Minh ở làng nghề nấu nước mắm hoặc làm bún bánh truyền thống gặp tình trạng nước thải sơ chế đổ thẳng ra rãnh gây mùi khó chịu cho xóm làng. Hướng phát triển bền vững nào vừa giữ nghề vừa bảo vệ quê hương?",
+        "o": [
+          "Đợi trời mưa to thật lớn rồi xả trộm ra sông",
+          "Đầu tư bể lắng lọc xử lí nước thải đúng quy chuẩn môi trường (hoặc chuyển vào cụm công nghiệp làng nghề tập trung) để nghề phát triển sạch và lâu dài",
+          "Cứ đổ bừa xuống ao hồ chung miễn nhà mình sạch là được",
+          "Cấm hoàn toàn không cho bất kì ai làm nghề truyền thống nữa"
+        ],
+        "k": "B",
+        "e": "Phát triển làng nghề gắn liền bảo vệ môi trường xanh là bài toán sống còn để nghề truyền thống được cấp chứng nhận chuẩn sạch và xuất khẩu bền vững.",
+        "s": "HĐTN, HN 6",
+        "h": "Giải quyết vấn đề môi trường ở làng nghề"
+      },
+      {
+        "c": "HN6-B10-012",
+        "d": "application",
+        "p": "Là học sinh lớp 6 sinh sống tại địa phương, hành động nhỏ thực tế nào của em trực tiếp góp phần gìn giữ và quảng bá nghề truyền thống quê mình?",
+        "o": [
+          "Tìm hiểu lịch sử sản phẩm quê hương để giới thiệu bạn bè, ưu tiên dùng hoặc tặng quà thủ công địa phương và vẽ tranh, viết bài truyền thông",
+          "Xúi giục các bác thợ chặt bỏ hết nguyên liệu tự nhiên",
+          "Chỉ mua dùng toàn đồ nhập khẩu nước ngoài và chê đồ quê mình",
+          "Mỗi khi nói về quê hương đều giấu nhẹm vì xấu hổ với nghề chân tay của cha mẹ"
+        ],
+        "k": "A",
+        "e": "Niềm tự hào về nghề nghiệp lao động chân chính của cha ông chính là bước khởi đầu quan trọng nhất để bảo tồn di sản nghề quê hương.",
+        "s": "HĐTN, HN 6",
+        "h": "Hành động thiết thực của học sinh quảng bá nghề quê hương"
+      },
+      {
+        "c": "HN6-B10-013",
+        "d": "advanced",
+        "p": "Vì sao nhiều làng nghề truyền thống trẻ hóa thành công lại đến từ việc những bạn trẻ thế hệ mới quay về hợp tác với các nghệ nhân cao tuổi? Sự kết hợp hai thế hệ này tạo ra sức mạnh bổ trợ gì?",
+        "o": [
+          "Nghệ nhân nắm tinh hoa tay nghề và văn hóa gốc; người trẻ giỏi thiết kế mẫu mã hiện đại, chụp ảnh, bán hàng online và tiếng Anh quảng bá toàn cầu",
+          "Hai thế hệ không thể hợp tác được vì luôn bất đồng mọi thứ",
+          "Thế hệ trẻ về chỉ để dẹp bỏ hết kĩ thuật truyền thống thay bằng máy 100%",
+          "Nghệ nhân cao tuổi sẽ nghỉ làm hoàn toàn ngay lập tức"
+        ],
+        "k": "A",
+        "e": "\"Bàn tay vàng truyền thống + Tư duy thiết kế số hiện đại\" đang hồi sinh ngoạn mục hàng loạt làng gốm, mây tre, tranh dân gian Việt Nam vươn ra toàn cầu.",
+        "s": "HĐTN, HN 6",
+        "h": "Sức mạnh kết hợp giữa nghệ nhân và thế hệ trẻ"
+      },
+      {
+        "c": "HN6-B10-014",
+        "d": "advanced",
+        "p": "Khi thiết kế bao bì và nhãn mác cho một sản phẩm nghề truyền thống quê hương (như hộp trà sen, gói bánh đậu xanh hoặc giỏ tre), yếu tố thông tin nào tạo niềm tin cao nhất cho khách hàng ngày nay?",
+        "o": [
+          "Ghi rõ xuất xứ địa phương, thành phần an toàn thực phẩm, câu chuyện làng nghề và hướng dẫn dùng/bảo quản trên bao bì thân thiện môi trường",
+          "Bỏ trống không ghi bất kì chữ gì trên hộp, gói tạm bằng giấy báo cũ bẩn",
+          "In hình nhân vật hoạt hình không liên quan rồi tăng giá gấp 10 lần",
+          "Ghi sai xuất xứ thành hàng sản xuất tại nước ngoài để lừa người mua"
+        ],
+        "k": "A",
+        "e": "Bao bì chỉn chu kể được câu chuyện văn hóa bản địa và minh bạch tiêu chuẩn chất lượng nâng tầm giá trị kinh tế của sản phẩm thủ công lên nhiều lần.",
+        "s": "HĐTN, HN 6",
+        "h": "Nâng tầm giá trị sản phẩm truyền thống qua bao bì minh bạch"
+      },
+      {
+        "c": "HN6-B10-015",
+        "d": "advanced",
+        "p": "Nếu lớp 6A tổ chức \"Ngày hội Triển lãm Nghề truyền thống Quê em\" nhân dịp kỉ niệm thành lập trường, phương án trưng bày nào sinh động hấp dẫn nhất thay vì chỉ treo vài tờ giấy chữ dài dằng dặc?",
+        "o": [
+          "Thuê người ngoài làm hết toàn bộ còn học sinh ngồi chơi điện tử",
+          "Mua bánh kẹo công nghiệp bày lên bàn cho mọi người ăn rồi về",
+          "Bố trí gian hàng sản phẩm – dụng cụ đặc trưng, góc làm thử trực tiếp (nặn tò he, gấp lá dừa...) và mã QR dẫn tới video phỏng vấn nghệ nhân",
+          "Chỉ dán một tờ báo nhỏ chữ dày đặc lên góc khuất cuối lớp học"
+        ],
+        "k": "C",
+        "e": "Kết hợp vật thật – trải nghiệm chạm tay – thuyết minh đa phương tiện biến buổi học hướng nghiệp thành ngày hội văn hóa khó quên.",
+        "s": "HĐTN, HN 6",
+        "h": "Thiết kế triển lãm Nghề truyền thống sinh động"
+      }
+    ]
+  },
+  {
+    "chapter": "hdtn_hn6-c4",
+    "lesson": {
+      "code": "hdtn_hn6-b11",
+      "title": "Bài 11. Công cụ lao động, sản phẩm và an toàn nghề truyền thống",
+      "seq": 11,
+      "subtitle": "Nhận biết dụng cụ đặc trưng, quy trình tạo sản phẩm của một số nghề truyền thống và nhận diện quy tắc an toàn lao động khi làm nghề",
+      "concepts": [
+        "Công cụ đặc trưng của nghề",
+        "Quy trình tạo ra sản phẩm",
+        "An toàn vệ sinh lao động"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN6-B11-001",
+        "d": "basic",
+        "p": "Công cụ đặc trưng gắn liền với người thợ gốm Bát Tràng khi chuốt tạo hình dáng tròn đều cho bình hoa, bát đĩa là gì?",
+        "o": [
+          "Bàn xoay gốm kết hợp đôi bàn tay khéo léo và que gọt, dây cắt",
+          "Cây đàn bầu và sáo trúc",
+          "Khung cửi dệt vải tơ tằm",
+          "Máy hàn điện hồ quang và mỏ lết sắt"
+        ],
+        "k": "A",
+        "e": "Bàn xoay quay đều kết hợp lực ép tinh tế từ mười đầu ngón tay người thợ tạo nên đường cong mềm mại cân đối cho từng sản phẩm gốm.",
+        "s": "HĐTN, HN 6",
+        "h": "Công cụ đặc trưng của nghề làm gốm"
+      },
+      {
+        "c": "HN6-B11-002",
+        "d": "basic",
+        "p": "Trong nghề mộc truyền thống, công cụ nào giúp người thợ làm phẳng mịn bề mặt tấm gỗ sau khi cưa xẻ thô?",
+        "o": [
+          "Cái bào gỗ (bào tay hoặc bào thẩm), giấy nhám và các loại đục chạm",
+          "Kim khâu và cuộn chỉ thêu",
+          "Cối giã gạo bằng đá",
+          "Bàn xoay làm gốm và lò nung gạch"
+        ],
+        "k": "A",
+        "e": "Hiểu đúng tên gọi và công dụng của cưa, bào, đục, thước vuông giúp nhận diện đặc trưng lao động chuẩn xác của nghề mộc.",
+        "s": "HĐTN, HN 6",
+        "h": "Công cụ làm mịn gỗ của thợ mộc"
+      },
+      {
+        "c": "HN6-B11-003",
+        "d": "basic",
+        "p": "Khi tham gia hoặc quan sát người thợ làm nghề thủ công có sử dụng dao sắc (chẻ nan tre, vót khung diều, gọt gỗ), nguyên tắc an toàn cơ bản cần nhớ là gì?",
+        "o": [
+          "Nhắm mắt hoặc quay mặt nói chuyện phiếm trong khi tay đang gọt",
+          "Hướng lưỡi dao sắc đi ra xa phía ngoài cơ thể và bàn tay giữ nguyên liệu luôn đặt phía sau đường dao, không đùa nghịch lúc cầm vật sắc nhọn",
+          "Chĩa mũi dao thẳng hướng vào ngực mình để cắt cho có lực",
+          "Vừa cầm dao sắc nhọn vừa chạy đùa đuổi theo bạn bè"
+        ],
+        "k": "B",
+        "e": "Chỉ một giây lơ đãng hướng lưỡi dao về phía tay giữ hoặc thân người rất dễ gây vết cắt sâu nguy hiểm.",
+        "s": "HĐTN, HN 6",
+        "h": "Quy tắc an toàn hướng lưỡi dao khi làm thủ công"
+      },
+      {
+        "c": "HN6-B11-004",
+        "d": "basic",
+        "p": "Trong các xưởng nghề dễ phát sinh bụi mịn gỗ, bụi đá mài hoặc mùi sơn (như nghề mộc, chạm khắc đá, sơn mài), trang bị bảo hộ cá nhân thiết yếu nhất cần đeo là gì?",
+        "o": [
+          "Khẩu trang chống bụi đạt chuẩn, kính bảo hộ che mắt, găng tay bảo hộ và giữ xưởng thông thoáng gió",
+          "Đeo tai nghe nghe nhạc âm lượng lớn hết cỡ",
+          "Chỉ cần đội một chiếc mũ vải thời trang cho đẹp",
+          "Mặc quần áo thật mỏng rộng thùng thình gần máy quay"
+        ],
+        "k": "A",
+        "e": "Trang bị bảo hộ đúng quy chuẩn bảo vệ trực tiếp phổi, đôi mắt và đôi tay – vốn quý nhất của người lao động suốt đời.",
+        "s": "HĐTN, HN 6",
+        "h": "Trang bị bảo hộ chống bụi và bảo vệ mắt"
+      },
+      {
+        "c": "HN6-B11-005",
+        "d": "basic",
+        "p": "Trong một nghề chế biến thực phẩm truyền thống (làm bánh, miến dong, tương bần, kẹo lạc), yêu cầu an toàn hàng đầu quyết định uy tín sản phẩm là gì?",
+        "o": [
+          "Để nguyên tay bẩn sau khi dọn rác vào nhào bột làm bánh",
+          "Chế biến ngay sát cạnh chuồng gia súc và cống rãnh ẩm thấp",
+          "Bảo đảm vệ sinh an toàn thực phẩm tuyệt đối: nguyên liệu sạch rõ nguồn gốc, dụng cụ sạch sẽ, người làm đeo găng, mũ trùm sạch và không dùng hóa chất cấm",
+          "Dùng phẩm màu công nghiệp thật rực rỡ bắt mắt cho rẻ tiền"
+        ],
+        "k": "C",
+        "e": "Thực phẩm sạch không hóa chất độc hại vừa bảo vệ sức khỏe người tiêu dùng vừa là lương tâm đạo đức tối thượng của người làm nghề ăn uống.",
+        "s": "HĐTN, HN 6",
+        "h": "Nguyên tắc an toàn vệ sinh thực phẩm làng nghề"
+      },
+      {
+        "c": "HN6-B11-006",
+        "d": "basic",
+        "p": "Khi một công cụ lao động bằng điện (máy khoan, máy may công nghiệp, máy mài) ở xưởng gia đình xuất hiện dây điện bị hở lõi đồng hoặc bốc mùi khét, việc đầu tiên cần làm ngay là gì?",
+        "o": [
+          "Ngắt nguồn điện an toàn (tắt công tắc/cầu dao bằng tay khô ráo), tuyệt đối không chạm vào phần dây hở và báo ngay cho người lớn sửa chữa thay mới",
+          "Lấy xô nước tạt thẳng vào ổ điện đang cắm",
+          "Dùng tay ướt nắm chặt phần dây hở quấn băng keo giấy lên trên",
+          "Tiếp tục bật máy chạy hết công suất cho xong nốt sản phẩm"
+        ],
+        "k": "A",
+        "e": "An toàn điện trong lao động gia đình và làng nghề luôn đặt nguyên tắc \"Ngắt nguồn trước – Báo người có chuyên môn xử lí sau\".",
+        "s": "HĐTN, HN 6",
+        "h": "Xử lí nguy cơ mất an toàn điện trong xưởng"
+      },
+      {
+        "c": "HN6-B11-007",
+        "d": "application",
+        "p": "Quan sát bảng đối chiếu Công cụ – Sản phẩm – Nguy cơ cần phòng tránh của bốn nghề thủ công dưới đây. Khi lớp 6A tổ chức buổi trải nghiệm đan lát mây tre đơn giản tại trường, học sinh cần lưu ý trang bị an toàn nào trước khi thực hành?",
+        "o": [
+          "Ngồi sát chen chúc nhau 5 bạn một ghế để dễ quệt thanh tre vào mặt nhau",
+          "Dùng răng cắn đứt các sợi mây cứng cho nhanh",
+          "Đeo găng vải mỏng khi uốn nan tre, ngồi giãn cách để đầu nan không chọc trúng mắt bạn và chỉ dùng nan đã được thầy cô vót nhẵn cạnh sắc",
+          "Phát cho mỗi bạn một con dao rựa thật sắc tự vót nan trên mặt bàn học nhỏ"
+        ],
+        "k": "C",
+        "e": "Lường trước nguy cơ cạnh sắc của nan tre và tầm vung dài của thanh nan khi ngồi gần giúp buổi trải nghiệm đan lát vui vẻ không một vết xước tay.",
+        "s": "HĐTN, HN 6",
+        "h": "Bảo đảm an toàn khi học sinh trải nghiệm đan mây tre",
+        "fig": {
+          "type": "table",
+          "title": "An toàn nghề thủ công",
+          "head": [
+            "Nghề",
+            "Rủi ro hay gặp"
+          ],
+          "rows": [
+            [
+              "Đan mây tre",
+              "Xước tay, chọc nan"
+            ],
+            [
+              "Nghề mộc, đá",
+              "Bụi mịn, mạt gỗ"
+            ],
+            [
+              "Nghề gốm, rèn",
+              "Nhiệt cao lò nung"
+            ],
+            [
+              "May, thêu",
+              "Kim nhọn, kéo sắc"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "HN6-B11-008",
+        "d": "application",
+        "p": "Một nghệ nhân làm nghề nón lá truyền thống thực hiện quy trình: chẻ và là phẳng lá cọ -> uốn vòng khung tre -> xếp lợp lá lên khung -> khâu chỉ cước từng mũi đều tăm tắp -> quét dầu bóng chống thấm. Công đoạn cuối \"quét dầu bóng\" có tác dụng thực tế gì?",
+        "o": [
+          "Chỉ để chiếc nón không đội được lên đầu nữa",
+          "Làm chiếc nón nặng thêm 5 kg để đội cho chắc",
+          "Làm lá nón đổi sang màu đen kịt ngay lập tức",
+          "Giúp chiếc nón bền đẹp óng ánh, chống thấm nước mưa và ngăn ẩm mốc khi người dân đội ra đồng nắng mưa"
+        ],
+        "k": "D",
+        "e": "Mỗi bước trong quy trình nghề truyền thống đều mang một mục đích kĩ thuật cụ thể được đúc kết qua hàng trăm năm thực nghiệm.",
+        "s": "HĐTN, HN 6",
+        "h": "Hiểu công dụng các bước quy trình làm nón lá"
+      },
+      {
+        "c": "HN6-B11-009",
+        "d": "application",
+        "p": "Khi quan sát cô thợ dệt vải thổ cẩm truyền thống vận hành khung cửi thủ công, bạn Nam thấy có con thoi gỗ luồn qua luồn lại giữa hàng trăm sợi dọc căng đều. Bạn Nam rút ra nhận xét kĩ thuật nào đúng?",
+        "o": [
+          "Các sợi vải tự dính vào nhau bằng hồ dán mà không cần đan dệt",
+          "Vải dệt xong hoàn toàn không có sợi ngang nào",
+          "Các sợi ngang được con thoi đan xen kẽ trên – dưới đều đặn với hệ sợi dọc căng tạo nên tấm vải chắc chắn và họa tiết hoa văn tinh xảo",
+          "Con thoi dùng để cắt đứt hết toàn bộ sợi dọc"
+        ],
+        "k": "C",
+        "e": "Quan sát tinh tế nguyên lí vận hành công cụ giúp học sinh hiểu sự thông minh sáng tạo khoa học ẩn sau nghề cổ truyền.",
+        "s": "HĐTN, HN 6",
+        "h": "Nhận biết nguyên lí đan sợi dọc - ngang của khung cửi"
+      },
+      {
+        "c": "HN6-B11-010",
+        "d": "application",
+        "p": "Nhà bác Tư làm nghề đan giỏ tre có nhiều mùn vót tre vụn dễ bắt lửa nhưng bác lại đặt bếp đun nước và ổ cắm điện ngay cạnh đống nguyên liệu khô đó. Nếu em góp ý giúp bác phòng cháy chữa cháy an toàn hơn, em sẽ đề xuất gì?",
+        "o": [
+          "Treo thêm thật nhiều đèn lồng giấy sát ngay bên trên bếp lửa",
+          "Chuyển đống tre khô ra kho gọn gàng cách xa hẳn khu vực bếp lửa và nguồn điện, trang bị bình chữa cháy xách tay và thường xuyên quét sạch phoi tre vụn cuối ngày",
+          "Rót thêm dầu hỏa vào đống tre khô cho đỡ bụi",
+          "Không cần thay đổi gì vì trước giờ chưa cháy bao giờ"
+        ],
+        "k": "B",
+        "e": "Phòng cháy chữa cháy tại các cơ sở sản xuất nguyên liệu dễ cháy (gỗ, tre, vải, giấy) bắt đầu từ nguyên tắc tách biệt nguồn nhiệt – lửa khỏi kho vật liệu khô.",
+        "s": "HĐTN, HN 6",
+        "h": "Phòng ngừa nguy cơ cháy nổ ở cơ sở mây tre gỗ"
+      },
+      {
+        "c": "HN6-B11-011",
+        "d": "application",
+        "p": "Khi thực hành khâu hoặc thêu tay sản phẩm nhỏ trong giờ trải nghiệm nghề may thêu truyền thống, thói quen bảo quản kim khâu nào giúp tránh kim rơi thất lạc gây nguy hiểm cho mọi người trong phòng học?",
+        "o": [
+          "Luôn cắm kim vào gối cắm kim (hoặc cuộn chỉ) ngay khi dừng tay; tuyệt đối không ngậm kim vào miệng và không cắm kim bừa lên ghế đệm hay quần áo đang mặc",
+          "Vứt kim thẳng xuống sàn nhà cuối giờ rồi đi về",
+          "Cắm tạm kim vào mặt ghế của bạn ngồi bên cạnh",
+          "Ngậm ngang cây kim trong miệng cho rảnh cả hai tay"
+        ],
+        "k": "A",
+        "e": "Quản lí gọn từng cây kim, mũi kéo ngay từ khi ngồi bàn học là thói quen an toàn nghề nghiệp quan trọng của mọi nhà thiết kế và thợ thêu.",
+        "s": "HĐTN, HN 6",
+        "h": "An toàn sử dụng và bảo quản kim khâu"
+      },
+      {
+        "c": "HN6-B11-012",
+        "d": "application",
+        "p": "Trong một lần đi tham quan lò gốm nung truyền thống đang hoạt động, dù rất tò mò muốn xem bên trong lò nóng, quy tắc an toàn nào học sinh lớp 6 bắt buộc phải tuân thủ?",
+        "o": [
+          "Chạm tay trần ngay vào chiếc bình vừa gắp ra khỏi lò kiểm tra độ bóng",
+          "Thò đầu sát vào cửa lò đang đỏ lửa để chụp ảnh tự sướng",
+          "Giữ khoảng cách an toàn phía sau vạch ranh giới hướng dẫn viên quy định, tuyệt đối không chạm tay vào vỏ lò nung hay sản phẩm mới ra lò còn bỏng rát",
+          "Chạy nô đùa đẩy bạn về phía khu vực lò nung"
+        ],
+        "k": "C",
+        "e": "Nhiệt độ lò nung gốm hoặc lò rèn có thể lên tới hàng trăm đến hơn một nghìn độ C; tôn trọng vạch an toàn bảo vệ khỏi tai nạn bỏng nặng.",
+        "s": "HĐTN, HN 6",
+        "h": "An toàn khoảng cách quanh lò nung nhiệt độ cao"
+      },
+      {
+        "c": "HN6-B11-013",
+        "d": "advanced",
+        "p": "Nhiều làng nghề truyền thống ngày nay đưa máy móc bán tự động vào hỗ trợ khâu nặng nhọc (như máy xẻ gỗ thô, máy vót nan, lò nung gas/điện sạch thay lò than củi), nhưng vẫn giữ phần chạm khắc, vẽ hoa văn hoặc đan hoàn thiện bằng tay. Lợi ích chiến lược của sự kết hợp này là gì?",
+        "o": [
+          "Giảm vất vả độc hại và khói bụi, tăng năng suất hạ giá thành hợp lí nhưng vẫn giữ trọn giá trị nghệ thuật thủ công tinh xảo làm nên hồn cốt",
+          "Máy móc làm thay hết 100% để người thợ không cần biết gì về nghề nữa",
+          "Làm hỏng hoàn toàn giá trị truyền thống nên phải cấm mọi loại máy điện",
+          "Chỉ làm tăng thêm lượng khói bụi than củi ra môi trường"
+        ],
+        "k": "A",
+        "e": "Ứng dụng công nghệ hỗ trợ khâu nặng và giảm ô nhiễm chính là con đường thông minh giúp nghề truyền thống vừa nhân văn cho người thợ vừa cạnh tranh tốt hơn.",
+        "s": "HĐTN, HN 6",
+        "h": "Kết hợp máy móc hỗ trợ và tinh hoa thủ công"
+      },
+      {
+        "c": "HN6-B11-014",
+        "d": "advanced",
+        "p": "Vì sao khi một người thợ làm nghề lâu năm ngồi sai tư thế gù lưng quá lâu hoặc thiếu ánh sáng suốt nhiều năm lại dễ mắc \"bệnh nghề nghiệp\" (đau cột sống, mờ mắt, đau cổ tay)? Bài học công thái học (Ergonomics) nào học sinh lớp 6 áp dụng được ngay lúc ngồi học?",
+        "o": [
+          "Nên ngồi một tư thế bất động liên tục 6 tiếng không thay đổi",
+          "Chỉ người thợ mộc mới cần ngồi thẳng lưng, học sinh nằm bò ra bàn học cũng được",
+          "Càng cúi sát mặt cách vở 5 cm càng bảo vệ mắt",
+          "Chọn chiều cao bàn ghế vừa vóc dáng giữ lưng thẳng tự nhiên, đủ ánh sáng không lóa mắt và đứng dậy vận động giãn cơ nhẹ sau mỗi 45 phút ngồi làm việc"
+        ],
+        "k": "D",
+        "e": "Kiến thức bảo vệ cột sống, thị lực và cổ tay trong lao động áp dụng trực tiếp ngay tại góc học tập hằng ngày của học sinh.",
+        "s": "HĐTN, HN 6",
+        "h": "Liên hệ an toàn lao động với tư thế ngồi học chuẩn"
+      },
+      {
+        "c": "HN6-B11-015",
+        "d": "advanced",
+        "p": "Hãy sắp xếp thành chuỗi hợp lí quy trình kiểm tra an toàn trước khi bắt đầu một buổi thực hành nghề thủ công (vót tre, khâu thêu hoặc làm mô hình) của tổ học sinh lớp 6:",
+        "o": [
+          "Vừa ăn uống kẹo bánh trên bàn vừa làm chung với keo dán hóa chất",
+          "Gọn gàng trang phục tóc tai – Kiểm tra dụng cụ sắc/điện an toàn – Đeo găng/kính nếu cần – Bàn làm việc thoáng sáng – Dọn cất gọn ngay sau khi xong",
+          "Dùng xong vứt dụng cụ sắc nhọn lẫn lộn vào ngăn cặp sách",
+          "Cầm dao kéo chạy ra sân ngay không cần kiểm tra mặt bàn hay trang phục"
+        ],
+        "k": "B",
+        "e": "Quy trình \"An toàn trước – Trong – Sau thực hành\" là nền tảng văn hóa công nghiệp và lao động chuyên nghiệp ở mọi ngành nghề.",
+        "s": "HĐTN, HN 6",
+        "h": "Quy trình 5 bước an toàn thực hành nghề"
+      }
+    ]
+  },
+  {
+    "chapter": "hdtn_hn6-c4",
+    "lesson": {
+      "code": "hdtn_hn6-b12",
+      "title": "Bài 12. Rèn phẩm chất, hứng thú nghề nghiệp từ việc làm hằng ngày",
+      "seq": 12,
+      "subtitle": "Nhận biết mối liên hệ giữa sở thích, thói quen sinh hoạt, học tập hiện tại với các phẩm chất nghề nghiệp tương lai và biết nuôi dưỡng ước mơ",
+      "concepts": [
+        "Sở thích và phẩm chất nghề nghiệp",
+        "Rèn thái độ lao động nghiêm túc",
+        "Nuôi dưỡng ước mơ nghề nghiệp"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN6-B12-001",
+        "d": "basic",
+        "p": "Những phẩm chất quý báu nào cần có ở hầu hết mọi ngành nghề trong xã hội hiện đại (từ bác sĩ, kĩ sư, giáo viên tới người thợ làng nghề)?",
+        "o": [
+          "Thường xuyên đi làm muộn và làm việc qua loa cho xong",
+          "Chỉ cần giọng nói thật to và hay quát mắng đồng nghiệp",
+          "Biết trốn tránh công việc khó để nhường cho người khác làm hết",
+          "Tính trung thực, tinh thần trách nhiệm cao, sự chăm chỉ kiên trì, ý thức hợp tác và lòng ham học hỏi"
+        ],
+        "k": "D",
+        "e": "Kiến thức chuyên môn có thể học bổ sung dần, nhưng phẩm chất trung thực và trách nhiệm là nền tảng cốt lõi khiến bất kì tổ chức nào cũng trân trọng.",
+        "s": "HĐTN, HN 6",
+        "h": "Phẩm chất chung nền tảng của mọi nghề"
+      },
+      {
+        "c": "HN6-B12-002",
+        "d": "basic",
+        "p": "Việc học sinh lớp 6 rèn thói quen hoàn thành nhiệm vụ trực nhật lớp sạch sẽ đúng hạn đang âm thầm nuôi dưỡng năng lực nghề nghiệp nào sau này?",
+        "o": [
+          "Chỉ rèn kĩ năng trốn việc về sớm",
+          "Khiến học sinh quên kiến thức các môn học khác",
+          "Không nuôi dưỡng kĩ năng gì vì trực nhật chỉ là quét dọn tạm thời",
+          "Ý thức trách nhiệm với công việc được giao, tinh thần làm việc nhóm và khả năng quản lí thời gian cá nhân"
+        ],
+        "k": "D",
+        "e": "Cách ta làm một việc nhỏ hằng ngày (quét lớp, giữ vở sạch, đúng hẹn với bạn) phản ánh thói quen làm những việc lớn sau này.",
+        "s": "HĐTN, HN 6",
+        "h": "Giá trị hướng nghiệp từ thói quen nhỏ hằng ngày"
+      },
+      {
+        "c": "HN6-B12-003",
+        "d": "basic",
+        "p": "Nếu một bạn lớp 6 đặc biệt yêu thích động vật, thích chăm sóc cây cối và hay tìm tòi sách về thiên nhiên sinh học, bạn ấy bước đầu có hứng thú phù hợp với nhóm nghề nào?",
+        "o": [
+          "Nhóm nghề Nông – Lâm – Ngư nghiệp, Bác sĩ thú y, Nhà sinh học bảo tồn thiên nhiên hoặc Kĩ sư môi trường",
+          "Nhóm nghề kế toán kiểm toán ngân hàng",
+          "Nhóm nghề diễn viên xiếc nhào lộn",
+          "Nhóm nghề sửa chữa động cơ máy bay phản lực"
+        ],
+        "k": "A",
+        "e": "Quan sát những việc khiến em say mê quên thời gian lúc rảnh rỗi là gợi ý tự nhiên đầu tiên về nhóm nghề tiềm năng của bản thân.",
+        "s": "HĐTN, HN 6",
+        "h": "Kết nối sở thích thiên nhiên với nhóm nghề"
+      },
+      {
+        "c": "HN6-B12-004",
+        "d": "basic",
+        "p": "Khi thấy một bạn thích nấu ăn hoặc khéo tay may vá sửa đồ, thái độ đúng đắn nhất về bình đẳng nghề nghiệp hiện đại là gì?",
+        "o": [
+          "Khuyên bạn gái tuyệt đối không nên học lập trình hay kĩ thuật cơ khí",
+          "Chế giễu rằng con trai không bao giờ được học nấu ăn hay may vá",
+          "Phân chia nghề nghiệp thành nghề sang trọng và nghề hèn kém",
+          "Tôn trọng và khích lệ vì mọi nghề lương thiện (đầu bếp, thiết kế, kĩ sư, giáo viên...) đều đáng quý, hợp cả nam lẫn nữ nếu có đam mê năng lực"
+        ],
+        "k": "D",
+        "e": "Không có nghề nào phân biệt giới tính hay cao thấp; mọi lao động chân chính tạo giá trị cho xã hội đều xứng đáng được tôn vinh.",
+        "s": "HĐTN, HN 6",
+        "h": "Nhận thức đúng về bình đẳng giới trong nghề nghiệp"
+      },
+      {
+        "c": "HN6-B12-005",
+        "d": "basic",
+        "p": "Vì sao một học sinh lớp 6 không nên quá lo lắng nếu hôm nay mình chưa chọn chốt cố định được một nghề duy nhất cho suốt cả cuộc đời?",
+        "o": [
+          "Vì sau khi tốt nghiệp lớp 6 không ai cần đi làm nghề gì nữa",
+          "Vì đến năm 12 tuổi bắt buộc phải kí hợp đồng nghề suốt đời",
+          "Vì mọi người đều đổi nghề ngẫu nhiên bằng cách bốc thăm",
+          "Vì ở lớp 6 các em mới ở giai đoạn đầu khám phá mở rộng trải nghiệm; sở thích và năng lực sẽ tiếp tục phát triển rõ nét dần qua THCS và THPT"
+        ],
+        "k": "D",
+        "e": "Lớp 6 là mùa gieo hạt trải nghiệm: hãy tò mò thử sức nhiều lĩnh vực lành mạnh để hiểu rõ mình hợp và giỏi điều gì nhất.",
+        "s": "HĐTN, HN 6",
+        "h": "Tâm thế cởi mở khám phá nghề nghiệp ở lớp 6"
+      },
+      {
+        "c": "HN6-B12-006",
+        "d": "basic",
+        "p": "Sự tôn trọng và biết ơn đối với những người lao động bình dị xung quanh trường em (bác bảo vệ, cô lao công, bác nông dân trồng rau, chú giao hàng) thể hiện điều gì?",
+        "o": [
+          "Sự thương hại vì cho rằng những nghề đó không có ích",
+          "Mong muốn không bao giờ phải giữ gìn vệ sinh trường lớp nữa",
+          "Nhận thức nhân văn sâu sắc rằng mỗi nghề đều là một mắt xích không thể thiếu giúp cuộc sống xã hội vận hành sạch đẹp, an toàn mỗi ngày",
+          "Thái độ xã giao giả tạo chỉ để xin đồ ăn"
+        ],
+        "k": "C",
+        "e": "Thử tưởng tượng chỉ một ngày thiếu cô lao công hay bác nông dân, cuộc sống sẽ ra sao — từ đó ta biết trân quý mồ hôi lao động của mọi ngành nghề.",
+        "s": "HĐTN, HN 6",
+        "h": "Trân trọng giá trị mọi người lao động quanh ta"
+      },
+      {
+        "c": "HN6-B12-007",
+        "d": "application",
+        "p": "Quan sát bảng kết nối Sở thích – Hoạt động rèn luyện lớp 6 dưới đây. Bạn Khoa vừa thích lắp ráp rô-bốt đồ chơi vừa thích tìm hiểu cách hoạt động của quạt điện, đồng hồ cũ ở nhà. Hoạt động nào giúp Khoa nuôi dưỡng hứng thú nghề nghiệp này đúng hướng ngay từ lớp 6?",
+        "o": [
+          "Bỏ hết môn Toán và Công nghệ để chỉ ngồi xem video quảng cáo máy móc",
+          "Đập vỡ hết tivi máy giặt đang dùng tốt của gia đình",
+          "Tự ý tháo tung ổ cắm điện 220V đang có điện trong nhà khi không có người lớn",
+          "Tham gia CLB STEM/Khoa học kĩ thuật ở trường, học tốt môn Công nghệ – Toán – Tin học và thực hành tháo lắp mạch đơn giản an toàn dưới hướng dẫn thầy cô"
+        ],
+        "k": "D",
+        "e": "Kết nối đam mê kĩ thuật với kiến thức nền tảng Toán – Công nghệ – Tin học và nguyên tắc an toàn biến tò mò tuổi thơ thành năng lực kĩ sư tương lai.",
+        "s": "HĐTN, HN 6",
+        "h": "Nuôi dưỡng đam mê kĩ thuật an toàn từ lớp 6",
+        "fig": {
+          "type": "table",
+          "title": "Sở thích - Nghề nghiệp",
+          "head": [
+            "Hứng thú nổi bật",
+            "Môn học, CLB hỗ trợ"
+          ],
+          "rows": [
+            [
+              "Vẽ, trang trí đẹp",
+              "Mĩ thuật, Thiết kế"
+            ],
+            [
+              "Lắp ráp, máy móc",
+              "Công nghệ, STEM"
+            ],
+            [
+              "Viết lách, kể chuyện",
+              "Ngữ văn, Báo chí"
+            ],
+            [
+              "Chăm sóc, giúp đỡ",
+              "Sinh, Y tế, Sư phạm"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "HN6-B12-008",
+        "d": "application",
+        "p": "Bạn Hà ước mơ sau này trở thành một bác sĩ chữa bệnh cho mọi người, nhưng hiện tại Hà hay vứt bài tập dở dang khi thấy khó và rất ngại rửa tay sạch hay dọn phòng. Em sẽ góp ý thế nào để Hà rèn phẩm chất từ hôm nay?",
+        "o": [
+          "Bảo Hà chỉ cần mua bộ đồ chơi ống nghe nhựa là đủ làm bác sĩ",
+          "Nhắc Hà bác sĩ cần sạch sẽ, cẩn thận, kiên trì và học chắc KHTN; hãy tập ngay từ việc giữ góc học tập gọn sạch và giải trọn bài mỗi ngày",
+          "Nói với Hà rằng cứ chơi thoải mái đi, khi nào lớn tự nhiên sẽ biến thành bác sĩ giỏi",
+          "Khuyên Hà bỏ ngay ước mơ vì học sinh lớp 6 không cần giữ sạch sẽ"
+        ],
+        "k": "B",
+        "e": "Ước mơ lớn luôn cần được xây bằng những viên gạch thói quen nhỏ ngay trong sinh hoạt hôm nay.",
+        "s": "HĐTN, HN 6",
+        "h": "Chuyển ước mơ nghề nghiệp thành rèn luyện hôm nay"
+      },
+      {
+        "c": "HN6-B12-009",
+        "d": "application",
+        "p": "Khi đọc câu chuyện về một kĩ sư công nghệ phần mềm hoặc một đầu bếp nổi tiếng từng trải qua nhiều lần thất bại, phải tự học ngoại ngữ và kiên trì sửa sai hàng trăm lần mới thành công. Bài học chung quan trọng nhất là gì?",
+        "o": [
+          "Gặp thất bại một lần đầu tiên thì nên lập tức bỏ cuộc đổi nghề khác ngay",
+          "Chỉ những người cực kì may mắn mới thành công mà không cần cố gắng",
+          "Thành công ở bất kì nghề nào không tự nhiên mà có; nó đòi hỏi tinh thần học hỏi suốt đời, không sợ thất bại và bền bỉ luyện tập nâng cao tay nghề",
+          "Học xong lớp 6 là đã đủ kiến thức suốt đời không cần học thêm"
+        ],
+        "k": "C",
+        "e": "Tinh thần kiên trì đứng dậy sau sai sót và học hỏi liên tục là mẫu số chung của tất cả những người thành công ở mọi lĩnh vực.",
+        "s": "HĐTN, HN 6",
+        "h": "Bài học tinh thần kiên trì từ gương nghề nghiệp"
+      },
+      {
+        "c": "HN6-B12-010",
+        "d": "application",
+        "p": "Gia đình bạn Tuấn mở tiệm sửa chữa xe máy/đồ điện nhỏ ngay tại nhà. Thay vì ngại ngùng vì tay bố hay dính dầu mỡ, bạn Tuấn có thể học hỏi điều tích cực gì từ công việc của bố mình?",
+        "o": [
+          "Không có gì đáng học vì nghề sửa xe không dùng đến sách vở",
+          "Giấu bạn bè nói dối nghề nghiệp của bố mẹ mình",
+          "Học tính tỉ mỉ kiểm tra từng chi tiết hỏng hóc, thái độ trung thực báo đúng lỗi đúng giá cho khách và cách sắp xếp cờ-lê dụng cụ gọn đúng vị trí",
+          "Lén lấy phụ tùng tốt đổi cho khách hàng cũ lấy tiền tiêu riêng"
+        ],
+        "k": "C",
+        "e": "Mọi người cha người mẹ lao động chân chính đều là những người thầy đầu tiên dạy ta đạo đức nghề nghiệp và sự tận tâm phục vụ cộng đồng.",
+        "s": "HĐTN, HN 6",
+        "h": "Học phẩm chất nghề nghiệp từ lao động của cha mẹ"
+      },
+      {
+        "c": "HN6-B12-011",
+        "d": "application",
+        "p": "Trong giờ thuyết trình về \"Nghề nghiệp mơ ước\", bạn Lan trình bày rõ: \"Em thích làm Hướng dẫn viên du lịch để giới thiệu cảnh đẹp văn hóa Việt Nam tới bạn bè quốc tế\". Theo em, hai kĩ năng/môn học nào Lan cần chú trọng rèn luyện ngay từ THCS?",
+        "o": [
+          "Học giỏi Lịch sử – Địa lí văn hóa quê hương, rèn kĩ năng giao tiếp thuyết trình tự tin và chăm chỉ học tốt Tiếng Anh (ngoại ngữ)",
+          "Chỉ cần biết dùng máy tính chơi game là đủ",
+          "Chỉ cần luyện chạy thật nhanh và giữ im lặng hoàn toàn không nói chuyện với ai",
+          "Bỏ hẳn môn Lịch sử và Tiếng Anh vì hướng dẫn viên không cần dùng"
+        ],
+        "k": "A",
+        "e": "Biết liên hệ giữa ước mơ nghề nghiệp với các môn học hiện tại giúp việc học trên lớp trở nên thú vị và có mục tiêu rõ ràng hơn hẳn.",
+        "s": "HĐTN, HN 6",
+        "h": "Xác định môn học và kĩ năng nền cho ước mơ"
+      },
+      {
+        "c": "HN6-B12-012",
+        "d": "application",
+        "p": "Hằng ngày trên đường tới trường, bạn Nam thấy chú công nhân điện lực trèo trụ cao kiểm tra đường dây trong cái nắng gay gắt, cô bán hàng rau dậy từ 4 giờ sáng chuẩn bị rau tươi. Nhận xét nào thể hiện sự trưởng thành trong nhận thức xã hội của Nam?",
+        "o": [
+          "Chỉ quan tâm tới điện thoại trên tay và không bao giờ để ý xung quanh",
+          "Cảm thấy những công việc ngoài trời thật vất vả nên coi thường họ",
+          "Thấy sau tiện nghi hằng ngày là mồ hôi của bao nghề âm thầm, từ đó quý trọng đồng tiền lao động và sống biết ơn, không lãng phí",
+          "Nghĩ rằng điện và rau tự nhiên mọc ra miễn phí cho mình dùng"
+        ],
+        "k": "C",
+        "e": "Sự thấu cảm với người lao động giúp học sinh bỏ thói quen lãng phí điện, nước, thức ăn và ứng xử nhã nhặn hơn với mọi người xung quanh.",
+        "s": "HĐTN, HN 6",
+        "h": "Nuôi dưỡng lòng biết ơn qua quan sát xã hội"
+      },
+      {
+        "c": "HN6-B12-013",
+        "d": "advanced",
+        "p": "Nhiều bạn lớp 6 chia sẻ rằng: \"Em thích làm cầu thủ bóng đá / ca sĩ / nhà sáng tạo nội dung vì thấy trên tivi rất hào nhoáng nổi tiếng!\". Góc nhìn thực tế đầy đủ nào giúp các em hiểu đúng về mặt sau của những nghề nghiệp hấp dẫn ấy?",
+        "o": [
+          "Sau vài phút tỏa sáng là hàng nghìn giờ khổ luyện, kỉ luật ăn ngủ nghiêm ngặt, vượt qua chấn thương và áp lực dư luận nặng nề",
+          "Không cần học văn hóa hay rèn kỉ luật bản thân vẫn có thể thành công bền lâu",
+          "Những nghề đó hoàn toàn dễ dàng, chỉ cần lên tivi cười một cái là có nhiều tiền",
+          "Nghề nào nổi tiếng thì không bao giờ gặp thất bại hay mệt mỏi"
+        ],
+        "k": "A",
+        "e": "Hiểu cả ánh hào quang lẫn mồ hôi thử thách phía sau giúp các em chọn ước mơ bằng cả tình yêu thực sự lẫn ý chí sẵn sàng rèn luyện nghiêm túc.",
+        "s": "HĐTN, HN 6",
+        "h": "Nhìn nhận thực tế hai mặt của nghề mơ ước"
+      },
+      {
+        "c": "HN6-B12-014",
+        "d": "advanced",
+        "p": "Trong thế giới nghề nghiệp thay đổi nhanh với trí tuệ nhân tạo và tự động hóa, nhiều công việc lặp lại đơn giản dần thay đổi, nhưng những năng lực người nào ngày càng trở nên đắt giá không máy móc nào dễ thay thế?",
+        "o": [
+          "Năng lực sáng tạo ý tưởng, đồng cảm thấu hiểu con người, giải quyết vấn đề phức tạp, đạo đức nghề nghiệp và giao tiếp hợp tác linh hoạt",
+          "Chỉ kĩ năng chép lại văn bản y hệt bản gốc không sai một dấu chấm",
+          "Thái độ lười suy nghĩ, phó mặc toàn bộ bài tập cho phần mềm làm hộ",
+          "Khả năng làm việc máy móc một mình không cần giao tiếp với bất kì ai"
+        ],
+        "k": "A",
+        "e": "Không dựa dẫm công cụ làm hộ bài tập mà dùng công nghệ để học sâu và rèn tư duy độc lập chính là cách chuẩn bị vững chắc nhất cho nghề nghiệp thế kỉ 21.",
+        "s": "HĐTN, HN 6",
+        "h": "Năng lực người giá trị trong kỉ nguyên công nghệ"
+      },
+      {
+        "c": "HN6-B12-015",
+        "d": "advanced",
+        "p": "Kết thúc năm học lớp 6, mỗi học sinh lập một \"Hồ sơ Hành trình Trưởng thành Lớp 6\" nhìn lại 1 năm đã qua. Bộ tiêu chí phản ánh đầy đủ nhất sự tiến bộ toàn diện hướng nghiệp của bản thân gồm những gì?",
+        "o": [
+          "Chỉ liệt kê danh sách các món đồ chơi, quần áo mới được mua trong năm",
+          "Thói quen tự giác mới, kĩ năng giao tiếp – kiểm soát cảm xúc tiến bộ, đóng góp gia đình/cộng đồng và 2–3 sở thích, điểm mạnh khám phá tiếp ở lớp 7",
+          "Chỉ ghi duy nhất một con số tổng kết điểm môn Toán cuối năm",
+          "Ghi toàn những lời chê bai lỗi sai của các bạn khác trong lớp"
+        ],
+        "k": "B",
+        "e": "Tổng kết một năm bằng sự trưởng thành nhân cách, kĩ năng và hiểu biết bản thân đặt nền móng rực rỡ cho hành trình trải nghiệm lớp 7 sắp tới.",
+        "s": "HĐTN, HN 6",
+        "h": "Tổng kết Hồ sơ Trưởng thành cuối năm lớp 6"
+      }
+    ]
+  }
+]

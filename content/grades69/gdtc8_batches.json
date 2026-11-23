@@ -1,0 +1,3490 @@
+[
+  {
+    "chapter": "gdtc8-c1",
+    "lesson": {
+      "code": "gdtc8-b01",
+      "title": "Bài 1. Kĩ năng theo dõi mạch đập, vùng nhịp tim và hồi phục thể lực",
+      "seq": 1,
+      "subtitle": "Cách bắt mạch cổ tay hoặc mạch cảnh đếm nhịp tim, tính vùng nhịp tim tập luyện hợp lí và phương pháp hồi phục",
+      "concepts": [
+        "Đo mạch đập kiểm tra sức khỏe",
+        "Vùng nhịp tim tập luyện hiệu quả",
+        "Hồi phục cơ bắp sau vận động"
+      ]
+    },
+    "questions": [
+      {
+        "c": "GD8-B01-001",
+        "d": "basic",
+        "p": "Hai vị trí trên cơ thể dễ dàng nhất để học sinh dùng đầu ngón trỏ và ngón giữa tự bắt mạch đếm nhịp tim của mình khi đang nghỉ ngơi hoặc ngay sau tập luyện là ở đâu?",
+        "o": [
+          "Đỉnh đầu trán và phần gót chân dưới đế giày",
+          "Mạch quay ở cổ tay (phía dưới ngón tay cái) và mạch cảnh ở hai bên hõm cổ (trên động mạch cổ, ấn thật nhẹ một bên)",
+          "Giữa lòng bàn tay phải và khuỷu tay trái",
+          "Đầu ngón chân út và đầu mũi"
+        ],
+        "k": "B",
+        "e": "Dùng ngón trỏ và ngón giữa (không dùng ngón cái vì ngón cái có mạch đập riêng dễ đếm nhầm!) đặt nhẹ sẽ cảm nhận nhịp đập tức thì.",
+        "s": "GDTC 8",
+        "h": "Vị trí và ngón tay bắt mạch chuẩn"
+      },
+      {
+        "c": "GD8-B01-002",
+        "d": "basic",
+        "p": "Trong buổi tập thể dục ngoài sân, để đo nhanh tần số nhịp tim (số nhịp trong 1 phút) ngay sau khi vừa kết thúc bài chạy mệt, học sinh thường áp dụng cách đếm rút gọn chuẩn xác nào?",
+        "o": [
+          "Đếm số lần chớp mắt trong 1 phút",
+          "Đếm số nhịp tim đập trong vòng 10 giây (hoặc 15 giây) ngay sau khi dừng tập rồi nhân kết quả với 6 (hoặc nhân với 4)",
+          "Đoán mò một con số bất kì mà không cần chạm tay vào cổ tay",
+          "Đếm liên tục suốt 10 phút đồng hồ khi nhịp tim đã hạ xuống bình thường hẳn"
+        ],
+        "k": "B",
+        "e": "Vì nhịp tim tụt rất nhanh ngay 30 giây đầu sau dừng tập; đếm nhanh trong 10 giây (×6) hoặc 15 giây (×4) phản ánh sát nhất cường độ vận động thực tế vừa xong.",
+        "s": "GDTC 8",
+        "h": "Cách đếm nhanh nhịp tim 10 giây × 6"
+      },
+      {
+        "c": "GD8-B01-003",
+        "d": "basic",
+        "p": "Nhịp tim lúc nghỉ ngơi hoàn toàn (buổi sáng vừa thức dậy chưa ra khỏi giường) của một học sinh THCS khỏe mạnh thường nằm trong khoảng nào?",
+        "o": [
+          "Tăng vọt lên tới 220 đến 250 nhịp mỗi phút",
+          "Khoảng 65 đến 85 nhịp mỗi phút (người thường xuyên tập thể thao bền bỉ có thể thấp hơn nhẹ, khoảng 60–70 nhịp/phút)",
+          "Chỉ từ 10 đến 15 nhịp mỗi phút",
+          "Đập 0 nhịp mỗi phút khi đang ngủ"
+        ],
+        "k": "B",
+        "e": "Theo dõi nhịp tim nghỉ ngơi buổi sáng qua nhiều tuần giúp nhận biết sớm cơ thể đang khỏe dần lên (tim đập chậm chắc hơn) hay đang quá tải mệt mỏi/sắp ốm.",
+        "s": "GDTC 8",
+        "h": "Mức nhịp tim nghỉ ngơi chuẩn tuổi thiếu niên"
+      },
+      {
+        "c": "GD8-B01-004",
+        "d": "basic",
+        "p": "Công thức phổ thông dễ nhớ dùng để ước lượng \"Nhịp tim tối đa lí thuyết\" (HRmax) theo độ tuổi là gì?",
+        "o": [
+          "Số giờ ngủ ban đêm nhân với 10",
+          "220 nhân đôi với số tuổi hiện tại",
+          "100 cộng thêm với số cân nặng cơ thể",
+          "220 trừ đi số tuổi hiện tại (ví dụ học sinh 14 tuổi có nhịp tim tối đa ước tính khoảng 206 nhịp mỗi phút)"
+        ],
+        "k": "D",
+        "e": "Biết giới hạn trần HRmax (~206 nhịp/phút ở tuổi 14) giúp học sinh chia các vùng cường độ tập luyện vừa sức, không bao giờ đẩy tim quá ngưỡng nguy hiểm.",
+        "s": "GDTC 8",
+        "h": "Công thức ước tính nhịp tim tối đa HRmax"
+      },
+      {
+        "c": "GD8-B01-005",
+        "d": "basic",
+        "p": "Để bài tập thể dục mang lại hiệu quả rèn luyện sức bền tim phổi tốt nhất mà vẫn an toàn cho học sinh lớp 8, nhịp tim trong lúc tập thường duy trì trong vùng cường độ nào?",
+        "o": [
+          "Dưới 50 nhịp mỗi phút chậm hơn cả lúc đang nằm ngủ say",
+          "Khoảng 60 đến 80 phần trăm của nhịp tim tối đa (khoảng 125 đến 165 nhịp mỗi phút đối với tuổi 13–14)",
+          "Không thay đổi chút nào so với khi ngồi yên đọc sách",
+          "Luôn ép vọt lên vượt quá 210 nhịp mỗi phút suốt 1 tiếng liên tục"
+        ],
+        "k": "B",
+        "e": "Vùng 60–80 phần trăm HRmax là \"vùng tập luyện vàng\" giúp cơ tim dày khỏe hơn và tăng khả năng hấp thụ ô-xi tối đa.",
+        "s": "GDTC 8",
+        "h": "Vùng nhịp tim tập luyện ưa khí tối ưu"
+      },
+      {
+        "c": "GD8-B01-006",
+        "d": "basic",
+        "p": "Biểu hiện khách quan rõ ràng nhất cho thấy cơ thể học sinh đã hồi phục tốt sau một buổi tập nặng vào ngày hôm trước là gì?",
+        "o": [
+          "Sáng hôm sau ngủ dậy thấy sảng khoái, nhịp tim nghỉ ngơi trở về mức bình thường ổn định, ăn ngon miệng và cơ bắp chỉ hơi căng nhẹ chứ không đau nhói kiệt sức",
+          "Chóng mặt buồn nôn kéo dài suốt cả ngày",
+          "Nhịp tim buổi sáng tăng vọt thêm 20 nhịp/phút so với bình thường và chán ăn mất ngủ",
+          "Đau buốt nhói khớp gối tới mức không bước xuống cầu thang được"
+        ],
+        "k": "A",
+        "e": "Nhận biết ranh giới giữa \"mỏi cơ tích cực\" và \"quá tải mệt mỏi\" là kĩ năng tự quản lí sức khỏe cực kì quan trọng.",
+        "s": "GDTC 8",
+        "h": "Dấu hiệu nhận biết cơ thể hồi phục tốt"
+      },
+      {
+        "c": "GD8-B01-007",
+        "d": "application",
+        "p": "Quan sát bảng phân vùng nhịp tim ước tính cho học sinh 14 tuổi (HRmax = 206) dưới đây, một bạn tập chạy bền thấy đo nhanh 10 giây được 25 nhịp (tức 150 nhịp/phút), vẫn nói được cụm từ ngắn 4–5 chữ thoải mái. Bạn ấy đang tập ở vùng cường độ nào?",
+        "o": [
+          "Vùng nghỉ ngơi hoàn toàn chưa có tác dụng rèn luyện tim mạch nào",
+          "Vùng quá tải cực độ sắp ngất xỉu cần dừng cấp cứu ngay lập tức",
+          "Vùng rèn sức bền tim phổi (hiếu khí hiệu quả: khoảng 73 phần trăm HRmax), cực kì lí tưởng để duy trì 20–30 phút cải thiện thể lực toàn diện",
+          "Vùng chạy nước rút yếm khí tối đa không dùng ô-xi"
+        ],
+        "k": "C",
+        "e": "Kết hợp \"đo mạch 10 giây\" và \"bài kiểm tra nói chuyện\" (Talk Test) giúp kiểm soát cường độ tập ở bất kì đâu ngay cả khi không có đồng hồ thông minh.",
+        "s": "GDTC 8",
+        "h": "Đọc hiểu vùng nhịp tim qua kết quả 10 giây",
+        "fig": {
+          "type": "table",
+          "title": "Vùng nhịp tim tuổi 14",
+          "head": [
+            "Mức cường độ",
+            "Nhịp (bpm)"
+          ],
+          "rows": [
+            [
+              "Nghỉ ngơi",
+              "65 - 85"
+            ],
+            [
+              "Khởi động nhẹ",
+              "105 - 125"
+            ],
+            [
+              "Sức bền hiếu khí",
+              "130 - 165"
+            ],
+            [
+              "Bứt tốc tối đa",
+              "175 - 195"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "GD8-B01-008",
+        "d": "application",
+        "p": "Trong một tiết thể dục, bạn Minh tự đếm mạch cổ tay bằng cách lấy ngón tay CÁI ấn thật mạnh lên cổ tay trái một hồi rồi báo kết quả rất sai lệch. Thầy giáo chỉ ra hai lỗi thao tác cần sửa ngay của Minh là gì?",
+        "o": [
+          "Không dùng ngón cái (có mạch riêng dễ đếm sai) và không ấn quá mạnh đè bẹp mạch; đặt nhẹ đầu ngón trỏ và ngón giữa lên hõm động mạch cổ tay",
+          "Phải dùng ngón chân cái ấn mạnh vào cổ tay mới cảm nhận được",
+          "Phải vừa chạy thật nhanh vừa đếm mạch cổ tay trong 1 phút mới đúng",
+          "Càng ấn mạnh hết sức bằng cả nắm tay vào mạch càng chính xác"
+        ],
+        "k": "A",
+        "e": "Chạm nhẹ êm bằng phần thịt đầu ngón trỏ - ngón giữa là mẹo bắt mạch chuẩn xác y khoa ai cũng làm được chỉ sau 1 lần thử.",
+        "s": "GDTC 8",
+        "h": "Sửa lỗi dùng ngón cái và ấn quá mạnh khi bắt mạch"
+      },
+      {
+        "c": "GD8-B01-009",
+        "d": "application",
+        "p": "Sau một buổi thi đấu giải bóng đá học đường rất căng thẳng mệt nhoài, phương pháp hồi phục chủ động (Active Recovery) nào giúp bắp chân hết căng cứng nhanh hơn hẳn vào ngày hôm sau so với việc nằm bất động hoàn toàn cả ngày?",
+        "o": [
+          "Nằm bẹp trên giường suốt 48 giờ không bước xuống đi lại chút nào",
+          "Ngày hôm sau chạy nước rút thật nặng thêm 20 lần nữa cho quen đau",
+          "Ngâm chân vào nước sôi nóng bỏng rồi nhịn đói để giảm cân",
+          "Đi bộ nhẹ thả lỏng, đạp xe chậm thong thả 10–15 phút, thực hiện các động tác giãn cơ tĩnh nhẹ nhàng, bù đủ nước và ăn bữa ăn giàu đạm kèm tinh bột phục hồi"
+        ],
+        "k": "D",
+        "e": "Vận động nhẹ nhàng ngày hồi phục thúc đẩy tuần hoàn máu rửa sạch các chất chuyển hóa ứ đọng và đưa dưỡng chất vào sửa chữa mô cơ.",
+        "s": "GDTC 8",
+        "h": "Lợi ích của hồi phục chủ động sau thi đấu"
+      },
+      {
+        "c": "GD8-B01-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ tốc độ hồi phục nhịp tim sau khi dừng bài chạy 800m của hai bạn A và B dưới đây (cùng đạt đỉnh 170 nhịp/phút lúc về đích), nhận xét khoa học nào về thể lực tim mạch của hai bạn là CHÍNH XÁC nhất?",
+        "o": [
+          "Bạn A có thể lực tim mạch tốt hơn hẳn vì chỉ sau 2 phút thả lỏng, nhịp tim bạn A đã hồi phục xuống 102 nhịp/phút so với 142 nhịp/phút của bạn B",
+          "Cả hai bạn có sức khỏe tim mạch hoàn toàn giống hệt nhau",
+          "Bạn B khỏe hơn bạn A vì tim bạn B tiếp tục đập rất nhanh lâu hơn",
+          "Nhịp tim hạ xuống chậm sau khi dừng tập chứng tỏ tim càng khỏe"
+        ],
+        "k": "A",
+        "e": "Chỉ số \"Nhịp tim phục hồi sau 1–2 phút\" (Heart Rate Recovery) là thước đo vàng trong y học thể thao đánh giá sức khỏe trái tim!",
+        "s": "GDTC 8",
+        "h": "Đọc biểu đồ đánh giá sức khỏe qua tốc độ hồi phục tim",
+        "fig": {
+          "type": "bars",
+          "title": "Nhịp tim bạn A và B sau dừng chạy (bpm)",
+          "labels": [
+            "Lúc về đích",
+            "A (sau 2 phút)",
+            "B (sau 2 phút)"
+          ],
+          "series": [
+            {
+              "values": [
+                170,
+                102,
+                142
+              ]
+            }
+          ],
+          "unit": "bpm"
+        }
+      },
+      {
+        "c": "GD8-B01-011",
+        "d": "application",
+        "p": "Một học sinh kiểm tra mạch ở vùng động mạch cảnh (hai bên cổ) cho bản thân ngay sau khi chạy mệt lại ấn rất mạnh vào CẢ HAI BÊN cổ cùng một lúc. Tại sao giáo viên lập tức ngăn lại và nhắc chỉ đặt nhẹ một bên?",
+        "o": [
+          "Vì cổ của học sinh rất cứng không chạm tay vào được",
+          "Để tiết kiệm công sức cho hai bàn tay",
+          "Vì ấn mạnh đè ép cả hai động mạch cảnh cùng lúc làm cản trở đột ngột lượng máu lên nuôi não, có thể gây phản xạ tụt nhịp tim, choáng ngất tức thì rất nguy hiểm",
+          "Vì mạch cảnh bên trái và bên phải đập nhanh chậm khác nhau hoàn toàn"
+        ],
+        "k": "C",
+        "e": "Đây là nguyên tắc an toàn y khoa bắt buộc: khi bắt mạch cổ chỉ đặt thật nhẹ 2 đầu ngón tay ở MỘT BÊN cổ.",
+        "s": "GDTC 8",
+        "h": "Lưu ý an toàn y khoa khi bắt mạch động mạch cảnh"
+      },
+      {
+        "c": "GD8-B01-012",
+        "d": "application",
+        "p": "Khi lập nhật kí tập luyện thể dục 4 tuần ở nhà, việc ghi chép thêm cột \"Nhịp tim nghỉ buổi sáng\" và \"Mức độ mỏi cơ từ 1–10\" bên cạnh kết quả chạy nhảy mang lại ích lợi thiết thực nào cho học sinh?",
+        "o": [
+          "Để mang đi khoe với bạn bè xem ai tim đập nhanh hơn lúc ngủ",
+          "Thay thế hoàn toàn việc khám sức khỏe tại bệnh viện",
+          "Chỉ làm tốn giấy mực chứ con số nhịp tim không thay đổi bao giờ",
+          "Giúp tự phát hiện sớm dấu hiệu cơ thể thiếu ngủ, sắp ốm hoặc tập quá sức để chủ động giảm nhẹ bài tập kịp thời, tập thông minh như vận động viên chuyên nghiệp"
+        ],
+        "k": "D",
+        "e": "Biết tự lắng nghe cơ thể qua những con số khách quan đơn giản hình thành tư duy khoa học tự chủ sức khỏe trọn đời.",
+        "s": "GDTC 8",
+        "h": "Lập nhật kí theo dõi nhịp tim tự chủ luyện tập"
+      },
+      {
+        "c": "GD8-B01-013",
+        "d": "advanced",
+        "p": "Giải thích cơ chế sinh lí kì diệu của \"Trái tim vận động viên\" — tại sao một người rèn luyện chạy bền hoặc bơi lội đều đặn nhiều năm lại có nhịp tim nghỉ ngơi rất chậm (chỉ khoảng 52–60 nhịp/phút) nhưng lại giàu năng lượng hơn người ít vận động (80–90 nhịp/phút)?",
+        "o": [
+          "Vì người tập thể dục có máu chảy chậm hơn người ít vận động",
+          "Tập bền đúng vùng giúp buồng tim mở rộng và co bóp khỏe hơn; mỗi nhát bóp tống được lượng máu lớn hơn nên tim không cần đập nhanh khi nghỉ ngơi",
+          "Vì tim của người hay vận động bị yếu đi nên đập chậm lại dần",
+          "Vì nhịp tim nghỉ càng cao vọt lên 120 nhịp/phút thì trái tim càng bền bỉ"
+        ],
+        "k": "B",
+        "e": "Hãy tính thử: giảm được 15 nhịp/phút lúc nghỉ nghĩa là mỗi ngày trái tim bạn tiết kiệm được hơn 21.000 nhát co bóp vất vả!",
+        "s": "GDTC 8",
+        "h": "Cơ chế tăng thể tích nhát bóp của trái tim khỏe"
+      },
+      {
+        "c": "GD8-B01-014",
+        "d": "advanced",
+        "p": "Trong tập luyện thể thao đỉnh cao, nhiều người hiểu nhầm rằng \"Cơ bắp khỏe lên ngay trong lúc đang nâng tạ hay chạy bứt tốc trên sân\". Sự thật sinh học của nguyên lí \"Siêu bù trừ\" (Supercompensation) diễn ra khi nào?",
+        "o": [
+          "Ăn uống và ngủ nghỉ hoàn toàn không liên quan tới sự phát triển thể lực",
+          "Chỉ cần nghỉ ngơi nằm im suốt cả tháng không tập luyện gì cơ cũng tự khỏe vượt mức",
+          "Cơ bắp lớn gấp đôi ngay ở giây phút đang chạy mệt nhất mà không cần ngủ nghỉ gì",
+          "Buổi tập nặng chỉ tạo kích thích; chính trong thời gian NGHỈ NGƠI, DINH DƯỠNG VÀ NGỦ ĐỦ sau tập, cơ thể mới hồi phục và phát triển vượt mức cũ"
+        ],
+        "k": "D",
+        "e": "Tập luyện mà bỏ qua hồi phục và dinh dưỡng giống như xây nhà liên tục mà không chịu chờ xi măng khô — chỉ dẫn tới sụp đổ quá tải.",
+        "s": "GDTC 8",
+        "h": "Nguyên lí Siêu bù trừ: Tập là kích thích, Nghỉ là lúc lớn lên"
+      },
+      {
+        "c": "GD8-B01-015",
+        "d": "advanced",
+        "p": "Hiện nay nhiều học sinh đeo đồng hồ thông minh hoặc vòng tay đo nhịp tim. Khi thấy một bạn có nhịp tim thực tế đo trong cùng bài chạy nhẹ luôn cao hơn hẳn các bạn khác 30 nhịp, ứng xử khoa học nhất là gì?",
+        "o": [
+          "Nền tảng tim mạch mỗi người khác nhau (lại phụ thuộc thời tiết, giấc ngủ); nên điều chỉnh tốc độ theo vùng nhịp tim riêng thay vì chạy đua mù quáng",
+          "Vứt bỏ thiết bị đo và không bao giờ chạy bộ nữa",
+          "Cười chê bạn ấy và ép bạn phải chạy nhanh hơn nữa cho bằng nhịp tim thấp của mình",
+          "Tin rằng nhịp tim cao vọt tới 200 ở bài khởi động là hoàn toàn bình thường"
+        ],
+        "k": "A",
+        "e": "Cá thể hóa vận động dựa trên phản hồi nhịp tim giúp mọi học sinh đều tập luyện an toàn, tự tin và tiến bộ theo đúng nhịp độ riêng.",
+        "s": "GDTC 8",
+        "h": "Cá thể hóa cường độ theo nhịp tim cá nhân"
+      }
+    ]
+  },
+  {
+    "chapter": "gdtc8-c1",
+    "lesson": {
+      "code": "gdtc8-b02",
+      "title": "Bài 2. Bài thể dục nhịp điệu Aerobics cơ bản lớp 8",
+      "seq": 2,
+      "subtitle": "Các bước chân cơ bản Aerobics (March, Step touch, V-step, Grapevine, Knee up) kết hợp đánh tay theo tiết tấu 4/4",
+      "concepts": [
+        "Các bước chân Aerobics cơ bản",
+        "Phối hợp tay chân nhịp 4/4",
+        "Sáng tạo tổ hợp nhịp điệu"
+      ]
+    },
+    "questions": [
+      {
+        "c": "GD8-B02-001",
+        "d": "basic",
+        "p": "Thể dục nhịp điệu (Aerobics) khác với bài thể dục phát triển chung tại chỗ truyền thống ở điểm nổi bật nào?",
+        "o": [
+          "Chỉ đứng bất động tại một chỗ nín thở giữ thăng bằng tĩnh suốt 15 phút",
+          "Động tác tay và bước chân chuyển động liên tục không ngắt theo nhạc sôi động (120–135 nhịp/phút), rèn khéo léo nhịp điệu và sức bền tim mạch",
+          "Không bao giờ sử dụng âm nhạc hay nhịp đếm nhanh nhẹn",
+          "Chỉ tập nâng tạ sắt nặng chậm rãi"
+        ],
+        "k": "B",
+        "e": "Từ \"Aerobics\" bắt nguồn từ chữ \"ô-xi\"; chuỗi động tác liên hoàn trên nền nhạc cuốn hút biến việc tập tim mạch thành niềm vui sảng khoái.",
+        "s": "GDTC 8",
+        "h": "Đặc trưng vận động liên tục của Aerobics"
+      },
+      {
+        "c": "GD8-B02-002",
+        "d": "basic",
+        "p": "Bước chân khởi đầu đơn giản nhất trong Aerobics dùng để làm nóng và giữ nhịp nhạc chuyển tiếp giữa các tổ hợp (\"March\") là động tác gì?",
+        "o": [
+          "Đi bộ bước đều tại chỗ năng động (nâng gối tự nhiên vừa phải, tiếp đất êm từ mũi chân lăn xuống gót, đánh tay nhịp nhàng sát thân)",
+          "Ngồi khoanh chân lắc đầu theo nhạc",
+          "Nhảy lò cò một chân cao 1 mét liên tục tại chỗ",
+          "Chạy giật lùi hết tốc lực về phía cuối phòng"
+        ],
+        "k": "A",
+        "e": "March (bước đi đều tại chỗ theo nhịp) đóng vai trò \"bước đệm nền\" cực kì hữu ích giúp người mới tập bắt nhịp phách nhạc chuẩn trước khi vào bước khó.",
+        "s": "GDTC 8",
+        "h": "Động tác nền tảng March trong Aerobics"
+      },
+      {
+        "c": "GD8-B02-003",
+        "d": "basic",
+        "p": "Trong bước chân \"Step touch\" (bước chạm), hai chân thực hiện trình tự di chuyển sang hai bên như thế nào?",
+        "o": [
+          "Bước cả hai chân nhảy chụm sang phải rồi đứng im không sang trái lại",
+          "Đứng nguyên hai chân mở rộng bằng vai không nhúc nhích",
+          "Bước chéo hai chân đan chặt vào nhau rồi xoay vòng tròn tại chỗ",
+          "Nhịp 1 bước chân phải sang phải; Nhịp 2 mũi chân trái chạm nhẹ cạnh chân phải (không chuyển trọng tâm); Nhịp 3 bước trái sang trái; Nhịp 4 chạm phải"
+        ],
+        "k": "D",
+        "e": "Nhớ kĩ mẹo: ở nhịp chạm (touch), chân chạm chỉ đặt nhẹ mũi chân xuống sàn để giữ nguyên chân trụ sẵn sàng bước tiếp sang chiều ngược lại.",
+        "s": "GDTC 8",
+        "h": "Chuỗi 4 nhịp của bước Step touch"
+      },
+      {
+        "c": "GD8-B02-004",
+        "d": "basic",
+        "p": "Bước \"V-step\" (bước hình chữ V) được đặt tên dựa trên quỹ đạo đặt hai bàn chân di chuyển ra sao trên mặt sàn?",
+        "o": [
+          "Đứng tại chỗ vẽ chữ V trên không trung bằng hai bàn tay",
+          "Nhịp 1 bước phải chếch rộng tới trước, Nhịp 2 bước trái chếch rộng sang trái (tạo đỉnh V rộng), Nhịp 3–4 lần lượt bước lùi hai chân về chụm tại tâm",
+          "Nhảy bật hai chân chụm lại sang trái rồi sang phải",
+          "Bước hai chân thật dài lùi ngược về phía sau trước rồi mới bước chéo ngang"
+        ],
+        "k": "B",
+        "e": "V-step là bước cơ bản siêu kinh điển giúp mở rộng không gian tiến lùi gọn gàng, rất dễ ghép thêm các động tác tay vươn ngực chữ V hay đẩy trước.",
+        "s": "GDTC 8",
+        "h": "Hình thái di chuyển chữ V của V-step"
+      },
+      {
+        "c": "GD8-B02-005",
+        "d": "basic",
+        "p": "Kĩ thuật bước chân bắt chéo đi ngang nối tiếp cực kì duyên dáng trong Aerobics có tên gọi \"Grapevine\" (bước dây nho) thực hiện theo 4 nhịp nào (khi đi sang bên phải)?",
+        "o": [
+          "Nhịp 1 bước phải sang phải -> Nhịp 2 bước trái bắt chéo RA SAU chân phải -> Nhịp 3 bước phải sang phải -> Nhịp 4 chạm mũi chân trái cạnh chân phải",
+          "Chạy thẳng tắp lên phía trước 10 mét rồi chạy giật lùi lại",
+          "Bước nhảy cao lên rồi xoay một vòng 360 độ giữa không trung",
+          "Nhịp 1 bước sang phải rồi nhịp 2 bước ngay về chỗ cũ không đi tiếp nữa"
+        ],
+        "k": "A",
+        "e": "Bốn bước Grapevine đưa người tập trượt ngang mượt mà trên sân khấu, dễ dàng phối hợp đánh tay mở ngực hoặc vỗ tay nhẹ ở nhịp 4.",
+        "s": "GDTC 8",
+        "h": "Trình tự 4 nhịp bước ngang Grapevine"
+      },
+      {
+        "c": "GD8-B02-006",
+        "d": "basic",
+        "p": "Trong bước \"Knee up\" (nâng cao đùi nhịp nhàng) hay \"Leg curl\" (gập gót chân về sau), yêu cầu tư thế lưng và động tác hạ chân nào bảo vệ khớp gối an toàn nhất?",
+        "o": [
+          "Giữ lưng thẳng siết nhẹ cơ bụng (không gù hay ngả ưỡn), chân trụ hơi chùng gối mềm tự nhiên và hạ chân tiếp đất êm bằng nửa mũi bàn chân trước",
+          "Khóa thẳng cứng ngắt khớp gối chân trụ và nện mạnh gót chân xuống sàn gạch",
+          "Gù cong sụp lưng xuống cố ép chạm trán vào đầu gối mỗi nhịp nâng chân",
+          "Đá vung chân quá mạnh vọt lên cao quá đầu khiến mất thăng bằng ngã ngửa"
+        ],
+        "k": "A",
+        "e": "Trong Aerobics tuyệt đối tránh động tác nện gót cứng hay giật cong lưng; sự đàn hồi êm ái của cổ chân giúp tập 30 phút vẫn nhẹ nhàng không đau khớp.",
+        "s": "GDTC 8",
+        "h": "Kĩ thuật tiếp đất mũi chân và giữ thẳng lưng"
+      },
+      {
+        "c": "GD8-B02-007",
+        "d": "application",
+        "p": "Quan sát bảng hệ thống các bước cơ bản Aerobics dưới đây, khi giáo viên ghép nối 2 tổ hợp: \"2 lần V-step (8 nhịp) + 2 lần Grapevine trái phải (8 nhịp)\" mà một bạn học sinh lại lúng túng giẫm chân chéo nhầm khi bắt đầu Grapevine. Mẹo dạy nhận biết chân bước đầu tiên nhanh nhất là gì?",
+        "o": [
+          "Luôn dùng lực tì hết 100 phần trăm sức nặng lên bàn chân chạm mũi rồi nhấc cả hai chân cùng lúc",
+          "Dừng đứng im 4 nhịp để nhìn chân thầy giáo rồi mới chạy đuổi theo",
+          "Nhấn mạnh ở nhịp chạm cuối cùng của bước trước, bàn chân chạm mũi không chịu trọng lượng sẽ là \"chân tự do sẵn sàng bước trước\" ở tổ hợp tiếp theo",
+          "Đợi tới nhịp thứ 3 của bài mới bắt đầu nhảy vọt theo các bạn"
+        ],
+        "k": "C",
+        "e": "Hiểu quy luật \"chân không chịu trọng tâm (nhịp touch) chính là chân khởi phát hướng đi tiếp theo\" giúp học sinh chuyển ghép mọi vũ điệu Aerobics cực kì mượt mà.",
+        "s": "GDTC 8",
+        "h": "Quy luật chuyển chân mượt giữa các tổ hợp",
+        "fig": {
+          "type": "table",
+          "title": "Bước cơ bản Aerobics 8",
+          "head": [
+            "Tên bước",
+            "Đặc điểm chính"
+          ],
+          "rows": [
+            [
+              "March",
+              "Đi bộ đều tại chỗ"
+            ],
+            [
+              "Step touch",
+              "Bước ngang chạm mũi"
+            ],
+            [
+              "V-step",
+              "Mở 2 chân chéo chữ V"
+            ],
+            [
+              "Grapevine",
+              "Bước ngang chéo sau"
+            ],
+            [
+              "Knee up",
+              "Nâng đùi ngang hông"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "GD8-B02-008",
+        "d": "application",
+        "p": "Một bạn học sinh tập bài Aerobics lớp 8 trên nền nhạc có tốc độ khá nhanh (132 nhịp/phút), do muốn bắt kịp nhạc nên bạn ấy rút ngắn hẳn động tác tay thành những cú vung vẩy hời hợt trước bụng và vai nhô co rúm lại. Cách chỉnh sửa hiệu quả nhất là gì?",
+        "o": [
+          "Tập thuần thục riêng phần CHÂN chậm cho tự động đúng nhịp trước, sau đó mới ghép các động tác TAY mở rộng biên độ dứt khoát trên nền nhạc chuẩn",
+          "Tăng tốc độ nhạc lên 180 nhịp/phút cho tay chân tự quay nhanh hơn",
+          "Cứ giữ nguyên tay vung hời hợt sát bụng và bỏ luôn các bước di chuyển chân",
+          "Nín thở cứng cổ gồng mạnh hai vai lên cao"
+        ],
+        "k": "A",
+        "e": "Phương pháp tách lớp \"Làm chủ đôi chân trước -> Thêm cánh tay sau\" (layering) là phương pháp chuẩn mực giúp mọi người học nhanh bất kì bài vũ đạo hay Aerobics nào.",
+        "s": "GDTC 8",
+        "h": "Phương pháp tập tách chân trước khi ghép tay"
+      },
+      {
+        "c": "GD8-B02-009",
+        "d": "application",
+        "p": "Khi tổ chức tập luyện đồng diễn Aerobics theo nhóm 6 người tạo đội hình chữ V hoặc hàng ngang so le trên sân trường, vì sao người ta quy định đặt 1 bạn nhảy chắc nhịp ở vị trí đỉnh mũi nhọn hàng đầu và 1 bạn nhịp tốt ở hàng giữa?",
+        "o": [
+          "Vì đội hình chữ V chỉ có đúng 2 bạn được phép di chuyển",
+          "Để tất cả các thành viên phía sau và hai bên đều dễ dàng nhìn thấy rõ người dẫn nhịp làm mốc thị giác đồng bộ khi chuyển hướng xoay mặt",
+          "Vì các bạn đứng hàng đầu không cần tập đúng nhịp nhạc",
+          "Để che kín hết tầm nhìn của các bạn đứng phía sau không thấy gì"
+        ],
+        "k": "B",
+        "e": "Sắp xếp vị trí đội hình khoa học theo góc nhìn (staggered formation — hàng sau đứng vào khe hở của hàng trước) giúp cả đội đồng đều đẹp mắt tức thì.",
+        "s": "GDTC 8",
+        "h": "Sắp xếp vị trí đội hình so le dễ quan sát"
+      },
+      {
+        "c": "GD8-B02-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ tiêu hao năng lượng trung bình trong 30 phút vận động của học sinh lớp 8 dưới đây, tại sao một buổi tập Aerobics liên hoàn có cường độ trung bình lại đốt cháy năng lượng ngang bằng với chạy bộ nhẹ mà lại giúp các bạn ít cảm giác nhàm chán bỏ cuộc hơn?",
+        "o": [
+          "Vì khi nghe nhạc cơ thể không tốn chút năng lượng nào",
+          "Vì tập Aerobics luôn được đứng yên uống nước giải khát cứ sau mỗi 30 giây",
+          "Vì Aerobics hoàn toàn không làm nhịp tim tăng lên so với ngồi nghỉ",
+          "Âm nhạc vui tươi giúp giảm cảm nhận mỏi của não bộ, đồng thời đổi kiểu bước liên tục giữa các nhóm cơ giúp không vùng nào bị mỏi cục bộ quá nhanh"
+        ],
+        "k": "D",
+        "e": "Nghiên cứu khoa học chứng minh nghe nhạc đúng nhịp có thể giảm tới 10–15 phần trăm cảm nhận mệt mỏi chủ quan (RPE) khi vận động sức bền.",
+        "s": "GDTC 8",
+        "h": "Lợi thế duy trì hứng thú vận động nhờ âm nhạc",
+        "fig": {
+          "type": "bars",
+          "title": "Năng lượng tiêu hao 30 phút tập (kcal)",
+          "labels": [
+            "Đi bộ chậm",
+            "Bài TD tĩnh",
+            "Aerobics nhịp vừa"
+          ],
+          "series": [
+            {
+              "values": [
+                95,
+                115,
+                225
+              ]
+            }
+          ],
+          "unit": "kcal"
+        }
+      },
+      {
+        "c": "GD8-B02-011",
+        "d": "application",
+        "p": "Trong một tổ hợp Aerobics có động tác \"Bật nhảy chữ V hoặc Jumping Jack\" cường độ cao, nếu trong lớp có bạn cân nặng hơi lớn hoặc vừa mới khỏi đau đầu gối cần tập mức độ nhẹ hơn (\"Low Impact\"), bạn ấy nên biến tấu động tác bật nhảy thế nào?",
+        "o": [
+          "Cố chịu đau buốt khớp gối tiếp tục bật nhảy mạnh lên nền bê tông",
+          "Đổi từ bật hai chân sang bước chạm từng chân luân phiên hai bên nhanh nhẹn kèm vươn tay vỗ nhịp (luôn giữ 1 chân chạm sàn để giảm chấn khớp gối)",
+          "Phải bật nhảy cao gấp đôi các bạn khác để giảm cân thật nhanh",
+          "Ngồi hẳn ra ngoài ghế đá cả buổi không tập bất kì động tác tay nào"
+        ],
+        "k": "B",
+        "e": "Phân biệt \"High Impact\" (có pha bay cả 2 chân) và \"Low Impact\" (luôn có 1 chân chạm sàn) là kiến thức hiện đại giúp mọi thể trạng đều tham gia Aerobics an toàn.",
+        "s": "GDTC 8",
+        "h": "Kĩ thuật Low Impact bảo vệ khớp cho mọi thể trạng"
+      },
+      {
+        "c": "GD8-B02-012",
+        "d": "application",
+        "p": "Để sáng tạo một bài Aerobics ngắn 4 tổ hợp (4 × 8 = 32 nhịp) cho bài kiểm tra nhóm cuối chủ đề, quy trình xây dựng nào đảm bảo bài tập vừa đúng kĩ thuật vừa liền mạch khớp nhạc?",
+        "o": [
+          "Chỉ lặp đi lặp lại mỗi động tác đứng thở 32 nhịp không di chuyển",
+          "Chọn nhạc 4/4 rõ phách 8 nhịp -> Ghép 4 bước cơ bản trơn tru theo chân chuyển -> Phối động tác tay đối xứng -> Tập ghép đội hình chuyển hướng đẹp",
+          "Nhồi nhét 15 động tác nhào lộn nguy hiểm không liên quan Aerobics vào trong 10 giây",
+          "Chọn một bản nhạc không có nhịp phách rõ ràng rồi tự nhảy tự do khác hẳn nhau"
+        ],
+        "k": "B",
+        "e": "Cấu trúc \"khối 32 nhịp\" (4 câu × 8 nhịp) chính là đơn vị tiêu chuẩn vàng để biên đạo mọi bài thể dục nhịp điệu chuyên nghiệp.",
+        "s": "GDTC 8",
+        "h": "Quy trình biên đạo tổ hợp chuẩn 32 nhịp"
+      },
+      {
+        "c": "GD8-B02-013",
+        "d": "advanced",
+        "p": "Phân tích vì sao trong tiết tấu âm nhạc Aerobics chuẩn, các huấn luyện viên chuyên nghiệp thường sử dụng \"tín hiệu báo trước\" (cueing bằng tay hoặc lời nói vào nhịp 5-6-7-8 của câu nhạc trước) trước khi đổi sang động tác mới ở nhịp 1?",
+        "o": [
+          "Vì huấn luyện viên quên mất mình vừa dạy động tác gì nên phải hỏi lại",
+          "Não và cơ cần 1–1,5 giây chuẩn bị chuyển trọng tâm chân trụ; hô báo trước 2–4 nhịp giúp cả tập thể chuyển tổ hợp đồng đều ngay phách 1 mới",
+          "Để làm học sinh mất tập trung ngơ ngác dừng lại giữa bài",
+          "Vì luật âm nhạc cấm chuyển động tác ở nhịp số 1"
+        ],
+        "k": "B",
+        "e": "Kĩ năng \"Cueing trước 4 phách\" là nghệ thuật dẫn dắt tập thể cực kì chuyên nghiệp giúp lớp trưởng hay giáo viên điều khiển hàng trăm người đồng đều tức thì.",
+        "s": "GDTC 8",
+        "h": "Nghệ thuật phát tín hiệu báo trước Cueing"
+      },
+      {
+        "c": "GD8-B02-014",
+        "d": "advanced",
+        "p": "Tại sao việc thực hành các tổ hợp phối hợp tay và chân khác nhịp hướng trong Aerobics (ví dụ chân bước Grapevine sang ngang trong khi tay đẩy vòng tròn hoặc gập trước ngực) lại đặc biệt có lợi cho não bộ tuổi thiếu niên?",
+        "o": [
+          "Vì làm não bộ ngừng hoạt động tạm thời giúp đầu óc trống rỗng",
+          "Kích thích mạnh liên kết giữa hai bán cầu não, phát triển trí nhớ vận động chuỗi phức hợp và nâng cao khả năng điều phối thần kinh - cơ tinh tế",
+          "Không có bất kì tác động nào tới hệ thần kinh hay khả năng ghi nhớ",
+          "Vì khiến hai bán cầu não tách rời nhau hoàn toàn"
+        ],
+        "k": "B",
+        "e": "Những bài tập đòi hỏi \"phối hợp đa chi theo tiết tấu\" vừa rèn tim phổi vừa là bài tập thể dục tuyệt vời giữ cho não bộ nhạy bén linh hoạt.",
+        "s": "GDTC 8",
+        "h": "Tác dụng kích thích thần kinh phối hợp tay chân"
+      },
+      {
+        "c": "GD8-B02-015",
+        "d": "advanced",
+        "p": "So với các bài tập nâng tạ đơn thuần chỉ di chuyển theo đường thẳng cứng nhắc một mặt phẳng, chuỗi bước di chuyển đa hướng (tiến, lùi, chéo chữ V, bước ngang Grapevine) trong Aerobics mang lại giá trị phòng tránh chấn thương nào trong đời sống?",
+        "o": [
+          "Chỉ có tác dụng làm đẹp trang phục khi lên sân khấu",
+          "Rèn ổn định khớp hông và gối trên cả ba mặt phẳng (trước sau, ngang, xoay), giúp cơ thể phản xạ giữ vững thăng bằng khi trượt hay né vật cản",
+          "Chỉ giúp bước đi thẳng trên đường kẻ vạch sẵn chứ không đi ngang được",
+          "Làm các dây chằng khớp gối bị giãn yếu dễ té ngã hơn"
+        ],
+        "k": "B",
+        "e": "Vận động đa mặt phẳng (multi-planar movement) xây dựng cơ thể toàn diện thực dụng cho cuộc sống năng động.",
+        "s": "GDTC 8",
+        "h": "Giá trị bảo vệ khớp của vận động đa mặt phẳng"
+      }
+    ]
+  },
+  {
+    "chapter": "gdtc8-c1",
+    "lesson": {
+      "code": "gdtc8-b03",
+      "title": "Bài 3. Đội hình đội ngũ: đi đều chuyển thành chạy đều và đổi hướng",
+      "seq": 3,
+      "subtitle": "Kĩ thuật chuyển tiếp từ đi đều sang chạy đều giữ hàng, từ chạy đều chuyển về đi đều và đi đều vòng các hướng",
+      "concepts": [
+        "Chuyển đi đều sang chạy đều",
+        "Chuyển chạy đều về đi đều",
+        "Đi đều đổi hướng vòng trái phải"
+      ]
+    },
+    "questions": [
+      {
+        "c": "GD8-B03-001",
+        "d": "basic",
+        "p": "Trong Đội hình đội ngũ lớp 8, khi cả khối đang \"Đi đều\" theo nhịp 1-2 và cần chuyển sang \"Chạy đều\" gọn gàng không lộn xộn, người chỉ huy phát ra khẩu lệnh chuẩn theo thứ tự nào?",
+        "o": [
+          "Không hô gì cả mà bất ngờ tự ý bỏ chạy trước một mình",
+          "Dự lệnh \"Chạy đều...\" kéo nhẹ, sau đó hô động lệnh \"CHẠY!\" dứt khoát đúng nhịp bước chân quy định để cả đội hình đồng loạt dậm chân chuyển chạy",
+          "Hô đột ngột một tiếng \"ĐỨNG!\" rồi lại hô \"NHẢY LÊN!\"",
+          "Hô \"Chạy nhanh hết tốc lực — BẮN!\""
+        ],
+        "k": "B",
+        "e": "Phân biệt rõ dự lệnh \"Chạy đều...\" giúp toàn khối đội hình hơi thu nhẹ hai cánh tay co sát sườn chuẩn bị ngay trước khi động lệnh \"CHẠY!\" vang lên.",
+        "s": "GDTC 8",
+        "h": "Khẩu lệnh chuyển từ đi đều sang chạy đều"
+      },
+      {
+        "c": "GD8-B03-002",
+        "d": "basic",
+        "p": "Điểm khác biệt rõ nhất về tư thế cánh tay giữa động tác \"Đi đều\" và động tác \"Chạy đều\" trong đội hình đội ngũ là gì?",
+        "o": [
+          "Khi chạy đều phải khoanh chặt hai tay trước ngực không đánh tay",
+          "Khi chạy đều duỗi thẳng cứng hai tay thõng chạm đầu gối",
+          "Khi chạy đều phải giơ thẳng cả hai tay lên cao quá đỉnh đầu vẫy chào",
+          "Ở đi đều, tay đánh vươn tự nhiên ngang ngực và ra sau; sang chạy đều, hai khuỷu tay co gọn gần vuông góc 90 độ ở bên sườn và đánh nhịp sát thân"
+        ],
+        "k": "D",
+        "e": "Co gọn cẳng tay theo hình chữ L (góc 90 độ) giúp đánh tay bắt kịp tần số bước chạy đều nhanh hơn và giữ đội hình hàng dọc/hàng ngang gọn gàng không va chạm.",
+        "s": "GDTC 8",
+        "h": "Tư thế co tay gọn sát thân khi chạy đều"
+      },
+      {
+        "c": "GD8-B03-003",
+        "d": "basic",
+        "p": "Khi chuyển từ trạng thái \"Chạy đều\" trở về lại \"Đi đều\" mà vẫn giữ vững hàng lối thẳng tắp, động lệnh \"BƯỚC!\" sau dự lệnh \"Đi đều...\" được thực hiện như thế nào?",
+        "o": [
+          "Dừng phanh đứng khựng hẳn lại 5 giây ngay lập tức giữa sân làm người sau húc ngã",
+          "Nhảy bật hai chân lên cao rồi ngồi bệt xuống sân",
+          "Khi nghe động lệnh \"BƯỚC!\" (rơi vào chân phải), chạy giảm tốc 2–3 bước chuyển êm sang đi đều từ chân trái khớp nhịp 1-2 và hạ tay về dáng đi đều",
+          "Xoay ngang chạy vọt ra ngoài lề sân rồi đi bộ lẻ về cuối hàng"
+        ],
+        "k": "C",
+        "e": "Những bước đệm chuyển giảm quán tính đều đặn giúp cả hàng chuyển nhịp từ tốc độ chạy sang bước đi đều mà khoảng cách trước sau vẫn giữ nguyên không dồn cục.",
+        "s": "GDTC 8",
+        "h": "Chuyển êm từ chạy đều về đi đều"
+      },
+      {
+        "c": "GD8-B03-004",
+        "d": "basic",
+        "p": "Trong kĩ thuật \"Đi đều vòng bên trái\" (hoặc vòng bên phải) đổi hướng di chuyển góc 90 độ cho khối nhiều hàng dọc đi song song, động lệnh chuyển hướng \"VÒNG!\" được hô tại vị trí nào?",
+        "o": [
+          "Chờ hàng cuối cùng đi qua góc sân rồi mới quay lại",
+          "Tất cả các hàng từ hàng 1 tới hàng 10 cùng đồng loạt xoay tại chỗ ngay lập tức khiến đội hình gãy vỡ tan tác",
+          "Hô khi hàng đầu tiến sát góc mốc chuyển hướng: hàng đầu xoay hướng trước, các hàng sau đi tới đúng góc mốc đó mới lần lượt xoay hướng đi theo",
+          "Hô khi hàng đầu mới cách góc chuyển hướng tới 20 mét làm cả khối đi cắt chéo bãi cỏ"
+        ],
+        "k": "C",
+        "e": "Nguyên tắc \"Đi tới đúng điểm chuyển hướng mới xoay góc\" giữ cho đường đi của cả 4 hàng dọc vuông vức sắc nét như đoàn diễu hành.",
+        "s": "GDTC 8",
+        "h": "Thời điểm hàng đầu và hàng sau thực hiện xoay vòng"
+      },
+      {
+        "c": "GD8-B03-005",
+        "d": "basic",
+        "p": "Trong khi đội hình nhiều hàng dọc song song đang thực hiện \"Đi đều vòng bên phải\" ở khúc cua, bạn đứng ở hàng bên PHẢI (vòng trong sát góc cua) và bạn ở hàng bên TRÁI (vòng ngoài xa góc cua) phối hợp độ dài bước thế nào?",
+        "o": [
+          "Bạn vòng trong bước ngắn chậm chờ nhịp, hàng giữa bước vừa, bạn vòng ngoài sải dài hơn chút để giữ mặt hàng ngang luôn thẳng tắp qua khúc cua",
+          "Bạn vòng ngoài đứng im tại chỗ đợi bạn vòng trong đi qua rồi chạy cắt chéo đuổi theo",
+          "Mọi người tách rời hẳn hàng chạy tự do theo ý thích",
+          "Bạn vòng trong chạy nước rút bỏ xa bạn vòng ngoài ở góc cua"
+        ],
+        "k": "A",
+        "e": "Cả hàng ngang đóng vai trò như một thanh thước cứng quay quanh tâm góc cua: càng xa tâm quay thì cung đường càng dài nên bước phải rộng hơn mà nhịp chân 1-2 vẫn chung một tiếng đếm!",
+        "s": "GDTC 8",
+        "h": "Phối hợp bước ngắn - dài giữa vòng trong và vòng ngoài"
+      },
+      {
+        "c": "GD8-B03-006",
+        "d": "basic",
+        "p": "Khi đội hình đang \"Chạy đều\" thành hàng dọc quanh sân trường, lỗi mất an toàn nghiêm trọng nhất có thể gây té ngã dây chuyền cả hàng là gì?",
+        "o": [
+          "Chạy bằng nửa trước bàn chân nhẹ nhàng êm ái theo nhịp chung của khối",
+          "Các bạn chạy sau chạy quá nhanh ép sát giẫm gót vào giày bạn phía trước, hoặc đột ngột dừng đứng khựng lại giữa đường chạy mà không báo trước",
+          "Giữ khoảng cách an toàn đều đặn khoảng một sải tay với người chạy trước",
+          "Thở đều sâu theo nhịp chạy đều thoải mái"
+        ],
+        "k": "B",
+        "e": "Duy trì \"khoảng cách an toàn một sải tay\" khi chạy đều giúp mọi người có đủ tầm nhìn và không gian xử lí nếu nhịp đội hình thay đổi.",
+        "s": "GDTC 8",
+        "h": "Giữ khoảng cách an toàn khi chạy đều tập thể"
+      },
+      {
+        "c": "GD8-B03-007",
+        "d": "application",
+        "p": "Quan sát bảng hướng dẫn khẩu lệnh chuyển đổi trạng thái dưới đây, trong một buổi tập duyệt nghi thức chuẩn bị Đại hội Thể dục Thể thao trường, bạn chỉ huy cho lớp chạy đều nửa vòng sân rồi hô \"Đứng lại — ĐỨNG!\" đột ngột ngay lúc tốc độ chạy đều vẫn đang khá nhanh mà không chuyển qua đi đều trước. Kết quả thực tế sẽ xảy ra điều gì?",
+        "o": [
+          "Do quán tính chạy lớn nên khó dừng đồng loạt gọn gàng, hàng dễ xô dồn; chuẩn nhất phải chuyển \"Chạy đều\" -> \"Đi đều — BƯỚC!\" rồi mới \"Đứng lại\"",
+          "Không có sự khác biệt nào giữa dừng khi đang chạy và dừng khi đang đi",
+          "Cả lớp tự động dừng khựng đứng nghiêm ngay lập tức trong nửa giây đẹp hơn đi đều",
+          "Học sinh sẽ chạy nhanh gấp đôi sau tiếng hô đứng lại"
+        ],
+        "k": "A",
+        "e": "Quy trình giảm cấp tuần tự: Chạy đều -> Đi đều -> Đứng lại giúp khối đội hình hạ quán tính đồng bộ cực kì trang nghiêm và chuẩn mực.",
+        "s": "GDTC 8",
+        "h": "Quy trình hạ tốc tuần tự Chạy đều -> Đi đều -> Đứng lại",
+        "fig": {
+          "type": "table",
+          "title": "Chuyển đổi nhịp Đội hình",
+          "head": [
+            "Chuyển đổi",
+            "Mấu chốt thực hiện"
+          ],
+          "rows": [
+            [
+              "Đi đều -> Chạy",
+              "Co tay 90°, bước"
+            ],
+            [
+              "Chạy -> Đi đều",
+              "Giảm đà 2-3 bước êm"
+            ],
+            [
+              "Vòng trái/phải",
+              "Trong ngắn, ngoài"
+            ],
+            [
+              "Chạy -> Dừng hẳn",
+              "Qua bước Đi đều"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "GD8-B03-008",
+        "d": "application",
+        "p": "Khi thực hiện chuyển từ \"Giậm chân tại chỗ\" sang \"Đi đều — BƯỚC!\", rồi sau đó chuyển sang \"Chạy đều — CHẠY!\", bạn lớp trưởng đếm nhịp chuẩn \"Một - Hai! Một - Hai!\" thế nào để hỗ trợ các bạn chuyển trạng thái thật nhịp nhàng?",
+        "o": [
+          "Nhịp \"Một\" luôn rơi vào chân TRÁI, nhịp \"Hai\" vào chân PHẢI; khi chuyển chạy đều, tiếng đếm \"Một - Hai\" tăng nhịp độ nhanh gọn theo tần số chạy",
+          "Ngừng đếm hẳn hoàn toàn im lặng suốt 2 phút cho các bạn tự đoán nhịp",
+          "Đếm loạn xạ nhanh chậm thất thường liên tục mỗi 3 bước",
+          "Đổi ngược nhịp \"Một\" sang chân phải khi bắt đầu chạy đều để thử thách lớp"
+        ],
+        "k": "A",
+        "e": "Âm thanh nhịp đếm \"Một - Hai\" ổn định chính là chiếc máy giữ nhịp (metronome) dẫn dắt bước chân cả tập thể đồng điệu.",
+        "s": "GDTC 8",
+        "h": "Vai trò giữ phách của nhịp đếm Một - Hai"
+      },
+      {
+        "c": "GD8-B03-009",
+        "d": "application",
+        "p": "Quan sát sơ đồ đội hình hàng dọc dưới đây, nếu lớp 8A đang chạy đều theo 2 hàng dọc dọc theo mép sân bóng và tới góc sân cần vòng sang phải 90 độ, bạn dẫn đầu hai hàng phải chú ý điều gì ngay khi xoay góc?",
+        "o": [
+          "Sau khi qua góc cua 90°, bạn đầu hàng không bứt tốc ngay mà giữ chậm vừa 4–5 bước để hàng sau và vòng ngoài kịp xoay hoàn tất rồi mới chạy đều lại",
+          "Chạy vòng ngược trở lại hướng cũ ngay lập tức",
+          "Dừng đứng bất động ngay sau góc cua chặn đường cả lớp phía sau",
+          "Bứt tốc chạy thật nhanh bỏ rơi toàn bộ nửa sau đội hình phía sau khúc cua"
+        ],
+        "k": "A",
+        "e": "Kĩ năng \"kìm nhịp chờ đuôi hàng qua cua\" của hai bạn đầu hàng là bí quyết vàng giữ cho đội hình 40 người không bao giờ bị đứt gãy làm hai khúc.",
+        "s": "GDTC 8",
+        "h": "Kĩ năng điều tiết nhịp của người dẫn đầu qua khúc cua",
+        "fig": {
+          "w": 300,
+          "h": 182,
+          "items": [
+            {
+              "t": "circle",
+              "c": [
+                150,
+                32
+              ],
+              "r": 11,
+              "fill": "#34d399",
+              "stroke": "#059669",
+              "w": 2
+            },
+            {
+              "t": "circle",
+              "c": [
+                150,
+                64
+              ],
+              "r": 11,
+              "fill": "#34d399",
+              "stroke": "#059669",
+              "w": 2
+            },
+            {
+              "t": "circle",
+              "c": [
+                150,
+                96
+              ],
+              "r": 11,
+              "fill": "#34d399",
+              "stroke": "#059669",
+              "w": 2
+            },
+            {
+              "t": "circle",
+              "c": [
+                150,
+                128
+              ],
+              "r": 11,
+              "fill": "#34d399",
+              "stroke": "#059669",
+              "w": 2
+            },
+            {
+              "t": "line",
+              "a": [
+                120,
+                18
+              ],
+              "b": [
+                120,
+                145
+              ],
+              "dash": true,
+              "color": "#475569"
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                170
+              ],
+              "s": "Hai hàng dọc chuẩn bị vòng hướng",
+              "anchor": "middle",
+              "size": 12.5
+            }
+          ]
+        }
+      },
+      {
+        "c": "GD8-B03-010",
+        "d": "application",
+        "p": "Trong một tiết kiểm tra chuyển từ \"Đi đều\" sang \"Chạy đều\", một bạn học sinh nghe lệnh \"CHẠY!\" thì lập tức vừa chạy vừa đánh thõng thẳng tắp hai cánh tay dài ngang ngực như lúc đi đều khiến trông rất nặng nề vướng víu. Cách sửa động tác tay chuyển pha đúng chuẩn là gì?",
+        "o": [
+          "Chống hai tay vào hông khi chạy đều",
+          "Nghe dự lệnh \"Chạy đều...\", chủ động co gập khuỷu tay ~90 độ sát hai bên hông, nắm tay hờ sẵn sàng đánh nhịp nhàng ngay khi có động lệnh \"CHẠY!\"",
+          "Giữ thẳng đơ hai tay xuôi xuống tận đầu gối khi chạy cho đỡ mỏi khuỷu tay",
+          "Đưa hai tay vòng ra sau lưng nắm lấy nhau trong suốt lúc chạy đều"
+        ],
+        "k": "B",
+        "e": "Động tác co tay gọn gàng ngay từ lúc nghe dự lệnh tạo dấu hiệu thị giác tuyệt đẹp báo hiệu sự sẵn sàng chuyển trạng thái tốc độ của cả khối.",
+        "s": "GDTC 8",
+        "h": "Sửa lỗi giữ tay duỗi dài khi chuyển sang chạy đều"
+      },
+      {
+        "c": "GD8-B03-011",
+        "d": "application",
+        "p": "Nếu đội hình 3 hàng ngang đang đi đều tiến thẳng về phía lễ đài nhưng muốn chuyển thành \"Đi đều vòng bên trái\" hướng ra đường chạy dọc sân, bạn chỉ huy cần đảm bảo người ở đầu hàng nào giữ vai trò \"trục xoay\"?",
+        "o": [
+          "Bạn đầu hàng bên TRÁI (gần tâm góc rẽ) thu bước ngắn làm trụ xoay êm sang trái; cả hàng ngang thẳng tắp như thanh thước xoay 90° rồi đi tiếp",
+          "Người đứng tận đầu bên phải chạy lùi ngược về phía sau",
+          "Tất cả 3 hàng đều bước tách rời xa nhau tới 5 mét",
+          "Bạn ở giữa hàng chạy lên trước còn hai bên đứng lại"
+        ],
+        "k": "A",
+        "e": "Dùng phép so sánh \"cánh cửa mở quanh bản lề\" giúp cả học sinh vòng trong lẫn vòng ngoài hiểu ngay vai trò của mình khi xoay cả khối đội hình.",
+        "s": "GDTC 8",
+        "h": "Nguyên lí cánh cửa quay khi đổi hướng khối đội hình"
+      },
+      {
+        "c": "GD8-B03-012",
+        "d": "application",
+        "p": "Khi luyện tập \"Chạy đều\" trên sân bê tông lớp học, một số bạn hay chạy nện mạnh cả gót chân xuống đất nghe tiếng \"bịch bịch\" rất nặng nề, gây đau ống đồng và lệch nhịp. Mẹo nhắc điều chỉnh bước chân chạy đều êm nhẹ là gì?",
+        "o": [
+          "Nhắc các bạn rút ngắn bước chạy nhẹ lại một chút, tiếp đất thật êm bằng nửa trước/giữa bàn chân kết hợp gối hơi chùng đàn hồi và giữ nhịp thở 2-2 đều đặn",
+          "Chạy bằng cách nhảy bật cao lên trời ở mỗi bước",
+          "Nện mạnh gót chân xuống hơn nữa để tiếng chân vang to cho đều",
+          "Tháo bỏ cả hai chiếc giày ra chạy chân không trên sân bê tông"
+        ],
+        "k": "A",
+        "e": "Chạy đều chuẩn vừa êm nhẹ thanh thoát không gây ồn đau khớp, vừa giúp rèn luyện nền tảng chạy bền cực kì tốt.",
+        "s": "GDTC 8",
+        "h": "Điều chỉnh tiếp đất êm nhẹ trong chạy đều"
+      },
+      {
+        "c": "GD8-B03-013",
+        "d": "advanced",
+        "p": "Tại sao kĩ thuật \"Đi đều chuyển thành chạy đều và đổi hướng linh hoạt\" lại là một kĩ năng thực hành quan trọng cho cả đội ngũ thanh niên tình nguyện, hoạt động trại hè và nghi thức lớn?",
+        "o": [
+          "Vì không có giá trị ứng dụng nào ngoài điểm kiểm tra môn Thể dục",
+          "Vì chỉ có đi thẳng một đường vô tận không bao giờ có góc rẽ trên thực tế",
+          "Vì chạy đều luôn chậm hơn đi đều nên chỉ dùng khi trời mưa",
+          "Trong sự kiện đông người hay diễu hành, đội hình liên tục đổi tốc và qua nhiều khúc cua; chuyển nhịp mượt giúp tiết kiệm thời gian và giữ an toàn trật tự"
+        ],
+        "k": "D",
+        "e": "Năng lực tự điều chỉnh tốc độ - hướng đi theo tín hiệu chung của tập thể là biểu hiện rõ nét của tác phong công nghiệp hiện đại.",
+        "s": "GDTC 8",
+        "h": "Giá trị thực tiễn trong điều phối tập thể lớn"
+      },
+      {
+        "c": "GD8-B03-014",
+        "d": "advanced",
+        "p": "Phân tích sự khác biệt giữa \"Chạy đều trong đội hình đội ngũ\" và \"Chạy bền cá nhân tính thành tích\": điểm chung và điểm khác biệt cốt lõi nào học sinh cần nắm rõ để không áp dụng nhầm?",
+        "o": [
+          "Hai hình thức chạy này hoàn toàn giống hệt nhau 100 phần trăm không có điểm khác",
+          "Chạy bền cá nhân phải bước chân trái - phải giống hệt nhịp tất cả người lạ trên đường",
+          "Chạy đều đội hình bắt buộc phải chạy nước rút nhanh hết sức như chạy 100m",
+          "Điểm chung là chạy nhẹ ưa khí thở đều; điểm khác là chạy đều đội hình ưu tiên TÍNH ĐỒNG BỘ theo hàng và nhịp chung thay vì bứt tốc tự do cá nhân"
+        ],
+        "k": "D",
+        "e": "Biết phân biệt lúc nào cần \"bứt phá tối đa cá nhân\" và lúc nào cần \"hòa nhịp đồng đều tập thể\" thể hiện sự trưởng thành toàn diện trong thể thao.",
+        "s": "GDTC 8",
+        "h": "Phân biệt Chạy đều đồng bộ và Chạy bền cá nhân"
+      },
+      {
+        "c": "GD8-B03-015",
+        "d": "advanced",
+        "p": "Nếu lớp em chuẩn bị tham gia phần thi đồng diễn diễu hành \"Chào mừng Ngày Nhà giáo Việt Nam 20-11\" trước toàn trường, làm thế nào để cả 40 bạn bước đi đều chuyển sang chạy đều vòng sân đẹp không một lỗi nhỏ dưới áp lực hàng trăm khán giả?",
+        "o": [
+          "Nhờ một bạn có sải chân dài nhất chạy thật nhanh hết sức ở hàng đầu kéo cả lớp đuổi theo",
+          "Thay đổi vị trí đứng của tất cả mọi người ngẫu nhiên ngay trước giờ lên sân khấu 1 phút",
+          "Không cần tập luyện trước mà tới hôm lễ cứ bước đại theo cảm tính",
+          "Chọn bạn sải bước ổn định và cảm nhịp tốt đứng đầu hàng làm chuẩn, phân người hô nhịp giữ tốc và tập nhìn thẳng ngang vai bạn thay vì cúi nhìn chân"
+        ],
+        "k": "D",
+        "e": "Chuẩn bị kĩ từ việc chọn đội hình dẫn đầu ổn định tới luyện nhịp tâm lí tự tin tạo nên màn trình diễn rạng rỡ tự hào cho tập thể lớp.",
+        "s": "GDTC 8",
+        "h": "Tổ chức đội hình diễu hành đồng bộ trước khán giả"
+      }
+    ]
+  },
+  {
+    "chapter": "gdtc8-c2",
+    "lesson": {
+      "code": "gdtc8-b04",
+      "title": "Bài 4. Kĩ thuật chạy cự li ngắn 100m và chạy tiếp sức trao nhận tín gậy",
+      "seq": 4,
+      "subtitle": "Kĩ thuật chạy 100m hoàn chỉnh từ bàn đạp và nguyên lí trao - nhận tín gậy cự li tiếp sức (kiểu từ trên xuống và từ dưới lên)",
+      "concepts": [
+        "Hoàn thiện chạy ngắn 100m",
+        "Trao nhận tín gậy từ trên xuống",
+        "Khu vực trao gậy đúng luật"
+      ]
+    },
+    "questions": [
+      {
+        "c": "GD8-B04-001",
+        "d": "basic",
+        "p": "Trong nội dung \"Chạy tiếp sức\" (như 4 × 100m), vật dụng bắt buộc các vận động viên cùng đội phải truyền trao liên tiếp cho nhau suốt chặng đường về đích gọi là gì?",
+        "o": [
+          "Tấm bảng gỗ viết số điểm của đội",
+          "Quả bóng rổ nặng 600 gam",
+          "Chiếc còi nhựa của trọng tài",
+          "Tín gậy tiếp sức (gậy nhôm rỗng nhẹ hoặc ống nhựa tròn nhẵn dài khoảng 28–30 cm)"
+        ],
+        "k": "D",
+        "e": "Tín gậy tiếp sức phải được giữ suốt từ người chạy số 1 tới khi người chạy số 4 vượt qua vạch đích mới được tính thành tích hợp lệ.",
+        "s": "GDTC 8",
+        "h": "Quy cách và vai trò của Tín gậy tiếp sức"
+      },
+      {
+        "c": "GD8-B04-002",
+        "d": "basic",
+        "p": "Hai kĩ thuật trao nhận tín gậy phổ biến nhất trong chạy tiếp sức tốc độ cao ở đường chạy ngắn là gì?",
+        "o": [
+          "Kĩ thuật đặt tín gậy xuống đất cho người sau tự cúi xuống nhặt",
+          "Kĩ thuật cả hai bạn cùng dừng hẳn lại ôm nhau 5 giây rồi mới chuyền gậy bằng hai tay",
+          "Trao từ TRÊN XUỐNG (người nhận ngửa lòng tay lên, trao đặt xuống) và trao từ DƯỚI LÊN (lòng tay hướng sau dưới, người trao đẩy gậy từ dưới lên)",
+          "Kĩ thuật ném thẳng tín gậy từ xa cách 10 mét cho bạn bắt trên không"
+        ],
+        "k": "C",
+        "e": "Cả hai kĩ thuật đều giúp hai vận động viên trao gậy thành công ngay khi đang chạy tốc độ cao mà không cần quay mặt nhìn lại nhiều.",
+        "s": "GDTC 8",
+        "h": "Hai kĩ thuật trao nhận tín gậy kinh điển"
+      },
+      {
+        "c": "GD8-B04-003",
+        "d": "basic",
+        "p": "Trong chạy tiếp sức cự li ngắn, người chạy tiếp theo (người nhận gậy) sử dụng kĩ thuật nhận gậy nào để KHÔNG làm giảm tốc độ chạy lao về phía trước?",
+        "o": [
+          "Dừng đứng bất động trên vạch chờ tới khi cầm chắc gậy trong tay mới bắt đầu chạy",
+          "Nhận gậy không nhìn (nhận mù): mắt nhìn thẳng phía trước, nghe tín hiệu hô từ người trao thì đưa thẳng tay ra sau đúng thế để nhận gọn gậy",
+          "Chạy quay vòng tròn tại chỗ",
+          "Đứng quay ngược mặt hẳn ra phía sau nhìn chằm chằm người chạy tới rồi đi giật lùi nhận gậy"
+        ],
+        "k": "B",
+        "e": "Nhận gậy không nhìn trong khu vực trao gậy giúp tín gậy di chuyển với vận tốc cao liên tục không bị khựng lại giây nào.",
+        "s": "GDTC 8",
+        "h": "Nguyên tắc nhận gậy không cần ngoái đầu"
+      },
+      {
+        "c": "GD8-B04-004",
+        "d": "basic",
+        "p": "Nếu một đội tiếp sức sử dụng phương án phối hợp \"Trao tay phải — Nhận tay trái\" luân phiên (ví dụ người 1 cầm tay phải trao vào tay trái người 2, người 2 không phải đổi tay vẫn cầm tay trái trao vào tay phải người 3...), lợi ích kĩ thuật lớn nhất là gì?",
+        "o": [
+          "Bắt buộc vận động viên số 2 và số 4 phải vừa chạy vừa tung hứng đổi tay 5 lần",
+          "Làm tín gậy nặng thêm gấp đôi khi chạy ở lượt 3",
+          "Các vận động viên KHÔNG mất thao tác chuyển gậy từ tay này sang tay kia giữa lúc đang chạy nước rút hết tốc lực, tránh tối đa nguy cơ làm rơi gậy dọc đường",
+          "Giúp người nhận gậy phải chạy chéo sang làn của đội khác"
+        ],
+        "k": "C",
+        "e": "Sơ đồ truyền tay chéo (Phải -> Trái -> Phải -> Trái) giúp người chạy số 1 và 3 chạy sát mép trong khúc cua dễ hơn, người 2 và 4 chạy đoạn thẳng hiệu quả tối đa.",
+        "s": "GDTC 8",
+        "h": "Lợi thế truyền gậy chéo tay không cần đổi tay"
+      },
+      {
+        "c": "GD8-B04-005",
+        "d": "basic",
+        "p": "Theo luật Điền kinh, nếu chẳng may tín gậy tiếp sức bị đánh rơi xuống mặt đường chạy trong lúc đang thi đấu hoặc trao nhận, ai là người được phép nhặt lại tín gậy đó?",
+        "o": [
+          "CHÍNH vận động viên làm rơi gậy phải tự nhặt lại an toàn đúng quy định, miễn không chạy rút ngắn quãng đường hay gây cản trở cho các đội khác",
+          "Bất kì khán giả nào ngồi trên khán đài chạy vào nhặt ném lên cho đội chạy tiếp",
+          "Đội đó bỏ luôn tín gậy chạy tay không về đích vẫn được tính huy chương",
+          "Người chạy số 1 đã chạy xong có quyền chạy đuổi theo 50 mét nhặt hộ người chạy số 2"
+        ],
+        "k": "A",
+        "e": "Luật nghiêm cấm người khác nhặt hộ tín gậy; người làm rơi phải tự nhặt lại mà không làm cản trở làn của các đội đối thủ.",
+        "s": "GDTC 8",
+        "h": "Quy định nhặt tín gậy khi vô tình làm rơi"
+      },
+      {
+        "c": "GD8-B04-006",
+        "d": "basic",
+        "p": "So với cự li 60m ở lớp 6–7, chạy cự li 100m ở lớp 8 đòi hỏi thêm điều gì về khả năng duy trì sức bền tốc độ ở đoạn 40m cuối cùng?",
+        "o": [
+          "Cúi gập người chạm tay xuống đất suốt 40 mét cuối",
+          "Dừng lại nghỉ uống nước ở mốc 50 mét giữa đường chạy",
+          "Chạy thật chậm ở 60 mét đầu giống đi bộ để dành toàn bộ sức cho 40 mét cuối",
+          "Khả năng giữ thân người thẳng thả lỏng vai mặt, giữ nhịp đánh tay dứt khoát và duy trì sải bước rộng đều không bị tụt sớm từ mét thứ 70 đến 100"
+        ],
+        "k": "D",
+        "e": "100m là cự li nữ hoàng kiểm chứng trọn vẹn từ phản xạ xuất phát thấp, gia tốc chạy lao, tốc độ tối đa và sức bền tốc độ về đích.",
+        "s": "GDTC 8",
+        "h": "Thách thức sức bền tốc độ trong cự li 100m"
+      },
+      {
+        "c": "GD8-B04-007",
+        "d": "application",
+        "p": "Quan sát bảng so sánh hai kĩ thuật trao gậy dưới đây, khi luyện tập trao gậy kiểu \"Từ trên xuống\", tư thế bàn tay đưa về sau của người nhận gậy cần mở như thế nào để người trao đặt gậy vào dính ngay trong 1 tích tắc?",
+        "o": [
+          "Tay nhận đưa thẳng ra sau tầm hông cao, lòng bàn tay NGỬA LÊN TRÊN, ngón cái tách sang bên tạo khe chữ V rộng và 4 ngón kia khép hướng ra ngoài",
+          "Úp sấp lòng bàn tay hướng xuống mặt đất rồi vẫy vẫy lên xuống liên tục",
+          "Giơ thẳng tay nhận lên cao quá đỉnh đầu 30 cm",
+          "Nắm chặt bàn tay thành nắm đấm tròn để người trao tự mở ngón tay ra"
+        ],
+        "k": "A",
+        "e": "Bàn tay mở ngửa tĩnh ổn định (không vẫy lung tung!) như một \"chiếc đĩa hứng chắc chắn\" để người trao đập nhẹ đầu gậy từ trên xuống gọn gàng.",
+        "s": "GDTC 8",
+        "h": "Tư thế bàn tay nhận gậy kiểu từ trên xuống",
+        "fig": {
+          "type": "table",
+          "title": "Trao nhận tín gậy tiếp sức",
+          "head": [
+            "Kĩ thuật",
+            "Hướng tay nhận"
+          ],
+          "rows": [
+            [
+              "Trao trên xuống",
+              "Lòng tay ngửa lên"
+            ],
+            [
+              "Trao dưới lên",
+              "Lòng tay hướng sau"
+            ],
+            [
+              "Lệnh trao gậy",
+              "Hô gọn khi vừa tầm"
+            ],
+            [
+              "Chạy tiếp sức",
+              "Không nhìn ngoái lại"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "GD8-B04-008",
+        "d": "application",
+        "p": "Trong một khu vực trao nhận tín gậy dài quy định (20m hoặc 30m theo chuẩn mới), lỗi chiến thuật phổ biến nhất của học sinh khi lần đầu chạy tiếp sức là gì khiến bị phạm quy ngoài vùng hoặc hụt mất tốc độ?",
+        "o": [
+          "Ném tín gậy bay qua đầu nhau qua vạch giới hạn",
+          "Người nhận đứng lì đợi bạn tới mới chạy làm mất đà, hoặc xuất phát quá sớm hết tốc lực khiến bạn chạy sau đuổi không kịp ra ngoài vùng trao mới gặp",
+          "Cả hai bạn đứng ôm tay nhau chạy cùng tốc độ từ đầu đường chạy",
+          "Đo vạch mốc (check mark) trước khu vực trao 15–20 bàn chân tùy tốc độ: khi người trao chạm mốc đó thì người nhận lao xuất phát để khớp giữa vùng"
+        ],
+        "k": "B",
+        "e": "Đo \"vạch mốc xuất phát phụ\" (check mark) bằng thực nghiệm 2–3 lần thử là bí mật toán học đơn giản biến hai người chạy thành cỗ máy gặp nhau ở vận tốc cực đại đúng giữa vùng trao!",
+        "s": "GDTC 8",
+        "h": "Xác định vạch mốc xuất phát phối hợp hoàn hảo"
+      },
+      {
+        "c": "GD8-B04-009",
+        "d": "application",
+        "p": "Một bạn học sinh chuẩn bị nhận gậy lại đứng ở tư thế xuất phát nhìn thẳng về trước nhưng khi người chạy trước chạy tới gần và hô \"HỘ!\" (hoặc \"TRAO!\") thì bạn nhận vừa chạy vừa quay ngoái đầu lại nhìn tay người trao, dẫn đến bước chạy bị chệch làn và giảm tốc độ hẳn. Cách sửa triệt để là gì?",
+        "o": [
+          "Nhờ bạn nhận quay hẳn lưng chạy giật lùi suốt 30 mét khu vực trao gậy",
+          "Tập tin tưởng đồng đội từ đi bộ tới chạy chậm nhận không nhìn; khi người nhận mắt nhìn thẳng và giữ tay nhận ổn định thì người trao đặt trúng rất dễ",
+          "Cho người nhận cầm theo một chiếc gương nhỏ soi ra phía sau",
+          "Yêu cầu người nhận cứ vừa chạy vừa quay đầu lại nhìn cho chắc ăn hơn"
+        ],
+        "k": "B",
+        "e": "Niềm tin vào đồng đội là chất keo gắn kết của môn chạy tiếp sức: \"Người nhận làm tốt nhiệm vụ giữ ổn định tay và chạy lao thẳng; người trao chịu trách nhiệm đặt trúng gậy vào tay bạn\".",
+        "s": "GDTC 8",
+        "h": "Xây dựng niềm tin đồng đội khi nhận gậy không nhìn"
+      },
+      {
+        "c": "GD8-B04-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ đóng góp thời gian trong cự li tiếp sức 4 × 100m của hai đội có 4 thành viên chạy 100m cá nhân bằng nhau (cùng 13,5 giây/người) dưới đây, tại sao Đội A lại đạt tổng thành tích nhanh hơn hẳn Đội B tới hơn 2 giây?",
+        "o": [
+          "Vì Đội A được trọng tài cho chạy ngắn hơn Đội B 50 mét",
+          "Vì Đội A chỉ chạy có 3 người thay vì 4 người",
+          "Vì tín gậy của Đội A nhẹ hơn và có gắn động cơ đẩy",
+          "Đội A trao nhận mượt khi người nhận đã tăng tốc chạy lao, còn Đội B bị dừng khựng chờ gậy mất đà tới 3 lần nên mất nhiều giây quý giá"
+        ],
+        "k": "D",
+        "e": "4 lần chạy 100m riêng lẻ cộng lại mất 54 giây, nhưng đội tiếp sức 4×100m phối hợp tốt luôn chạy nhanh hơn tổng thành tích cá nhân cộng lại từ 2–3 giây!",
+        "s": "GDTC 8",
+        "h": "Lợi thế \"chạy đà lấy tốc độ\" của chạy tiếp sức",
+        "fig": {
+          "type": "bars",
+          "title": "Tổng thành tích 4x100m cùng sức (giây)",
+          "labels": [
+            "Cộng 4 cá nhân",
+            "Đội B trao khựng",
+            "Đội A trao mượt"
+          ],
+          "series": [
+            {
+              "values": [
+                54.0,
+                54.6,
+                51.4
+              ]
+            }
+          ],
+          "unit": "giây"
+        }
+      },
+      {
+        "c": "GD8-B04-011",
+        "d": "application",
+        "p": "Nếu thực hành chạy tiếp sức đồng đội trong không gian sân trường thẳng hẹp (kiểu chạy con thoi quay đầu quanh cọc mốc 4 × 30m), quy tắc trao gậy và đổi hướng quanh cọc an toàn nhất là gì?",
+        "o": [
+          "Cầm gậy gõ mạnh lên đỉnh đầu bạn tiếp theo thay lời chào",
+          "Chạy lao thẳng đâm thẳng vào người bạn đứng chờ không tránh sang bên nào",
+          "Ném thẳng tín gậy từ khoảng cách 8 mét trước khi tới vạch",
+          "Chạy vòng gọn bên phải cọc mốc thẳng hướng bạn chờ, trao gậy gọn rõ vào tay thuận ngay trước mặt rồi chạy tránh sang một bên ngoài khu vực đứng"
+        ],
+        "k": "D",
+        "e": "Trong tiếp sức con thoi đối mặt trong trường học, trao gậy gọn dọc thân bên hông trái/phải và bước né gọn ra ngoài tránh va chạm trực diện là chuẩn mực an toàn.",
+        "s": "GDTC 8",
+        "h": "An toàn trao gậy trong chạy tiếp sức con thoi sân trường"
+      },
+      {
+        "c": "GD8-B04-012",
+        "d": "application",
+        "p": "Khi luyện tập chạy 100m cá nhân để chuẩn bị đánh giá cuối kì, cách bố trí tập luyện theo tuần nào giúp học sinh lớp 8 tăng thành tích an toàn không bị căng rách cơ đùi sau?",
+        "o": [
+          "Khởi động kĩ với nâng cao đùi và chạy tăng tốc 60–70% sức; mỗi buổi chỉ chạy tối đa 1–2 lần 100m và nghỉ hồi phục đủ 4–5 phút giữa các lượt",
+          "Không cần khởi động bước vào chạy hết ga 100m ngay giây đầu tiên",
+          "Tập chạy hết sức ngay sau khi ăn no bụng",
+          "Chạy bứt tốc hết sức 100m liên tục 15 lần không nghỉ ngơi trong một buổi chiều"
+        ],
+        "k": "A",
+        "e": "Luyện tốc độ tối đa đòi hỏi nghỉ hồi phục hoàn toàn (full recovery) giữa các lần chạy để hệ thần kinh phục hồi phát xung nhanh nhất.",
+        "s": "GDTC 8",
+        "h": "Nguyên tắc nghỉ đủ phục hồi khi tập tốc độ tối đa"
+      },
+      {
+        "c": "GD8-B04-013",
+        "d": "advanced",
+        "p": "Trong đội hình 4 người chạy tiếp sức 4 × 100m chuyên nghiệp, các huấn luyện viên thường bố trí thế mạnh của 4 thành viên theo trình tự chiến thuật thông minh như thế nào?",
+        "o": [
+          "Xếp bất kì ngẫu nhiên không cần quan tâm ai chạy khúc cua giỏi hay xuất phát giỏi",
+          "Người 1: xuất phát bàn đạp và chạy cua tốt; Người 2: bền tốc đoạn thẳng; Người 3: chạy cua khéo; Người 4: nước rút mạnh và tâm lí vững nhất chốt đích",
+          "Xếp người chạy chậm nhất vào vị trí số 4 để đi bộ về đích cuối cùng",
+          "Bắt buộc cả 4 người phải có chiều cao chính xác bằng nhau tới từng milimét"
+        ],
+        "k": "B",
+        "e": "Đặt đúng người vào đúng vị trí tối ưu sở trường cá nhân biến tập thể 4 người thành cỗ máy chiến thắng mạnh hơn tổng các cá nhân cộng lại.",
+        "s": "GDTC 8",
+        "h": "Chiến thuật sắp xếp 4 vị trí đội hình tiếp sức"
+      },
+      {
+        "c": "GD8-B04-014",
+        "d": "advanced",
+        "p": "Tại sao kĩ thuật \"Chạy trên đường vòng (khúc cua)\" ở người chạy số 1 và số 3 trong 4 × 100m lại khác với chạy trên đường thẳng — cơ thể cần điều chỉnh thế nào để không bị lực ly tâm hất văng ra làn ngoài?",
+        "o": [
+          "Ngả hẳn thân người nghiêng ra phía bên phải ra ngoài vòng cua",
+          "Nghiêng toàn thân từ cổ chân hướng vào tâm vòng tròn bên trái, đánh tay phải rộng hơn tay trái chút và giữ mũi chân bám sát mép trong làn chạy",
+          "Chạy thẳng tắp không xoay hướng làm bay ra khỏi đường sân",
+          "Giảm tốc độ xuống như đi bộ suốt đoạn vòng cung"
+        ],
+        "k": "B",
+        "e": "Nghiêng thân vào tâm cua đối trọng lực ly tâm (tương tự tay đua mô-tô nghiêng xe ôm cua) là kiến thức Vật lí cực kì thú vị ứng dụng ngay trên đường chạy.",
+        "s": "GDTC 8",
+        "h": "Ứng dụng lực hướng tâm khi chạy đường vòng khúc cua"
+      },
+      {
+        "c": "GD8-B04-015",
+        "d": "advanced",
+        "p": "Một đội tiếp sức gồm 4 vận động viên có tốc độ cá nhân rất nhanh nhưng hay tự ái đổ lỗi cho nhau mỗi khi trao hụt gậy, so với một đội chạy cá nhân hơi chậm hơn một chút nhưng rất đoàn kết tin tưởng và động viên nhau luyện tập ăn ý. Đội nào thường thắng và giá trị cuộc sống rút ra là gì?",
+        "o": [
+          "Thái độ đồng đội hoàn toàn không ảnh hưởng gì tới pha trao nhận gậy",
+          "Đội đổ lỗi cho nhau luôn thắng lớn nhờ có nhiều ngôi sao cá nhân chạy riêng",
+          "Chạy tiếp sức thực chất là môn thi cá nhân không cần quan tâm đồng đội",
+          "Đội ăn ý thường thắng vì thành tích đo bằng tốc độ chiếc tín gậy không lỗi nhịp; thể thao dạy ta tin cậy đồng đội và đặt trách nhiệm chung lên trước"
+        ],
+        "k": "D",
+        "e": "Một lần đánh rơi gậy có thể mất hết nỗ lực của cả 4 người — vì vậy lắng nghe, tôn trọng và nâng đỡ đồng đội là bài học lớn nhất của chạy tiếp sức.",
+        "s": "GDTC 8",
+        "h": "Giá trị niềm tin đồng đội trong chạy tiếp sức"
+      }
+    ]
+  },
+  {
+    "chapter": "gdtc8-c2",
+    "lesson": {
+      "code": "gdtc8-b05",
+      "title": "Bài 5. Kĩ thuật chạy đà chếch và giậm nhảy cao kiểu bước qua",
+      "seq": 5,
+      "subtitle": "Xác định chân giậm nhảy, chạy đà chếch góc 30–45 độ, kĩ thuật đặt gót giậm và đá thẳng chân lăng qua xà bước qua",
+      "concepts": [
+        "Đo đà góc chếch 30-45 độ",
+        "Đặt gót chống bật giậm nhảy",
+        "Đá thẳng chân lăng qua xà"
+      ]
+    },
+    "questions": [
+      {
+        "c": "GD8-B05-001",
+        "d": "basic",
+        "p": "Trong môn Nhảy cao kiểu bước qua (kĩ thuật cơ bản an toàn rất phù hợp trong trường học), góc chạy đà tiếp cận thanh xà ngang thường đặt chếch một góc khoảng bao nhiêu độ so với mặt phẳng thanh xà?",
+        "o": [
+          "Chạy vòng tròn 360 độ xung quanh cột xà",
+          "Chạy vuông góc thẳng đứng 90 độ lao thẳng đầu vào giữa thanh xà",
+          "Góc chếch khoảng 30 đến 45 độ so với đường chiếu thanh xà ngang",
+          "Chạy song song góc 0 độ không bao giờ tiến lại gần thanh xà"
+        ],
+        "k": "C",
+        "e": "Chạy đà góc chếch 30–45 độ vừa tạo đủ đà tiến qua xà vừa giữ cơ thể ở vị trí lý tưởng để lần lượt từng chân bước cắt kéo qua thanh xà.",
+        "s": "GDTC 8",
+        "h": "Góc chạy đà chếch chuẩn nhảy cao bước qua"
+      },
+      {
+        "c": "GD8-B05-002",
+        "d": "basic",
+        "p": "Cách chọn bên hướng chạy đà chuẩn xác cho người nhảy cao kiểu bước qua phụ thuộc vào điều gì?",
+        "o": [
+          "Bất kì ai trên thế giới cũng bắt buộc phải chạy đà từ bên phải bất kể chân nào khỏe",
+          "Phải chạy từ phía sau đệm rơi ngược ra phía trước",
+          "Chọn ngẫu nhiên bên nào cũng được miễn là nhắm mắt nhảy",
+          "Nếu bạn giậm nhảy bằng chân TRÁI (chân lăng là chân phải) thì chạy đà chếch từ bên PHẢI xà; ngược lại nếu giậm nhảy bằng chân PHẢI thì chạy đà từ bên TRÁI xà"
+        ],
+        "k": "D",
+        "e": "Quy tắc cực dễ nhớ: \"Chân lăng (chân đá lên trước qua xà) ở phía gần thanh xà hơn; chân giậm nhảy đứng ở phía ngoài xa xà hơn để có không gian giậm thoải mái\".",
+        "s": "GDTC 8",
+        "h": "Chọn hướng chạy đà theo chân giậm nhảy"
+      },
+      {
+        "c": "GD8-B05-003",
+        "d": "basic",
+        "p": "Khoảng cách độ dài chạy đà hợp lí đối với học sinh lớp 8 mới luyện tập kĩ thuật nhảy cao kiểu bước qua thường khoảng bao nhiêu bước chạy?",
+        "o": [
+          "Chạy đà thật dài tới 100 mét hết ga như chạy nước rút",
+          "Chạy đà đúng 1 bước lùi rồi nhảy ngược",
+          "Khoảng 7 đến 9 bước chạy (tương đương 10–14 mét) tăng tốc nhẹ nhàng nhịp nhàng chuẩn bị cho 3 bước cuối vào điểm giậm",
+          "Chỉ đứng yên 0 bước dưới thanh xà rồi nhảy tại chỗ mãi mãi"
+        ],
+        "k": "C",
+        "e": "Số bước lẻ (7 hoặc 9 bước) giúp người nhảy bước chân thuận lợi và giữ tâm lí tập trung cao độ không bị hụt hơi trước lúc giậm.",
+        "s": "GDTC 8",
+        "h": "Độ dài chạy đà 7-9 bước chuẩn xác"
+      },
+      {
+        "c": "GD8-B05-004",
+        "d": "basic",
+        "p": "Điểm đặt chân giậm nhảy trên mặt đất trong nhảy cao kiểu bước qua cách hình chiếu thẳng đứng của thanh xà xuống đất khoảng bao xa?",
+        "o": [
+          "Đặt vượt sang tuốt phía bên kia thanh xà gần hố cát",
+          "Khoảng 60 đến 80 cm (khoảng một cánh tay duỗi hoặc 2,5 đến 3 bàn chân) hơi chếch về phía gần cột xà bên chạy đà tới",
+          "Đặt ngay sát đúng dưới đường chiếu thanh xà (0 cm) khiến khi đá chân hất tung xà rơi ngay lập tức",
+          "Đặt tít xa thanh xà tới 3 mét giống hệt ván nhảy xa"
+        ],
+        "k": "B",
+        "e": "Nếu giậm quá sát dưới xà, chân đá lên sẽ quệt gãy rơi xà; nếu giậm quá xa xà thì đỉnh quỹ đạo bay rơi trước khi qua xà.",
+        "s": "GDTC 8",
+        "h": "Khoảng cách đặt điểm giậm trước thanh xà"
+      },
+      {
+        "c": "GD8-B05-005",
+        "d": "basic",
+        "p": "Thao tác đặt bàn chân giậm nhảy ở bước cuối cùng của nhảy cao kiểu bước qua có đặc điểm kĩ thuật rất đặc trưng nào để chuyển đà ngang thành lực bật thẳng đứng lên trời?",
+        "o": [
+          "Chậm rãi đứng dừng lại hẳn 2 giây trước xà rồi mới kiễng gót",
+          "Đặt mũi chân chạm trước rồi khuỵu gập sụp đầu gối xuống mặt sân",
+          "Cúi rạp đầu chúi xuống đất và giậm nhảy bằng hai chân cùng lúc",
+          "Bước cuối đặt gót chân giậm hơi vươn trước trọng tâm (\"chống bật\"), rồi lăn nhanh cả bàn chân sang mũi chân đạp duỗi bật mạnh thân lên cao gần thẳng"
+        ],
+        "k": "D",
+        "e": "Động tác \"đặt gót chống hãm kết hợp hơi ngả nhẹ thân trên ở bước cuối\" biến động năng chạy đà thành lực hất bổng thân người bay thẳng lên cao!",
+        "s": "GDTC 8",
+        "h": "Kĩ thuật đặt gót hãm bật trong nhảy cao"
+      },
+      {
+        "c": "GD8-B05-006",
+        "d": "basic",
+        "p": "Trong pha đá chân lăng (chân ở phía gần thanh xà hơn) khi giậm nhảy cao kiểu bước qua, tư thế đầu gối chân lăng đúng chuẩn kĩ thuật là gì?",
+        "o": [
+          "Thả buông thõng chân lăng dưới đất không nhấc lên khỏi mặt sân",
+          "Chân lăng duỗi tương đối thẳng đá vọt mạnh lên cao hướng qua mép trên thanh xà với mũi bàn chân hơi gập hướng lên trên",
+          "Co gập thật chặt gót chân lăng chạm sát vào mông rồi mới giơ ngang đùi",
+          "Đá ngược chân lăng ra phía sau lưng"
+        ],
+        "k": "B",
+        "e": "Chân lăng duỗi thẳng vung như con lắc mạnh tạo thêm xung lực nhấc bổng toàn bộ trọng tâm cơ thể lên cao hơn hẳn.",
+        "s": "GDTC 8",
+        "h": "Đá thẳng chân lăng tạo lực nhấc trọng tâm"
+      },
+      {
+        "c": "GD8-B05-007",
+        "d": "application",
+        "p": "Quan sát bảng quy trình kĩ thuật chạy đà - giậm nhảy dưới đây, một học sinh thuận giậm chân TRÁI lại chọn đứng chạy đà từ bên TRÁI xà (gần bên chân giậm). Khi vào sát xà bạn ấy cực kì lúng túng vướng chân lăng phải. Hãy giúp bạn sửa hướng chạy đà đúng chuẩn?",
+        "o": [
+          "Chuyển sang chạy đà chếch 30–45° từ phía PHẢI xà: khi đó chân lăng (chân phải) nằm sát xà vung qua trước thuận lợi còn chân giậm (trái) đặt phía ngoài",
+          "Chuyển thành chạy vuông góc 90 độ đâm thẳng giữa xà rồi nhảy bằng hai chân",
+          "Bắt bạn ấy đổi sang giậm nhảy bằng tay",
+          "Cứ chạy tiếp từ bên trái nhưng bắt bạn ấy nhắm mắt nhảy giật lùi"
+        ],
+        "k": "A",
+        "e": "Nhớ quy tắc soi gương đơn giản: Giậm Trái -> Chạy từ Phải; Giậm Phải -> Chạy từ Trái.",
+        "s": "GDTC 8",
+        "h": "Sửa lỗi chọn sai hướng chạy đà theo chân giậm",
+        "fig": {
+          "type": "table",
+          "title": "Chuẩn chạy đà giậm Nhảy cao",
+          "head": [
+            "Chi tiết",
+            "Yêu cầu kĩ thuật"
+          ],
+          "rows": [
+            [
+              "Góc chạy đà",
+              "Chếch 30 - 45 độ"
+            ],
+            [
+              "Giậm Trái",
+              "Chạy từ phía Phải"
+            ],
+            [
+              "Điểm giậm",
+              "Cách xà 60 - 80 cm"
+            ],
+            [
+              "Bước cuối",
+              "Đặt gót chống bật"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "GD8-B05-008",
+        "d": "application",
+        "p": "Trong một buổi tập nhảy cao ban đầu, thầy giáo dùng một sợi dây chun mềm nhiều màu (hoặc thanh xốp mềm) thay cho thanh xà gỗ/sợi thủy tinh cứng trong 2 tuần đầu luyện tập. Tác dụng tâm lí và kĩ thuật to lớn của biện pháp này là gì?",
+        "o": [
+          "Để học sinh tập quen thói quen giậm nhảy thật thấp làm rơi xà liên tục",
+          "Vì trường học không thể mua nổi thanh xà nhẹ bằng ống nhựa hay thanh nhôm",
+          "Giúp học sinh xóa bỏ nỗi sợ bị xà cứng đập đau hay vấp ngã, từ đó dám chạy đà tự tin dứt khoát và đá thẳng chân lăng hết biên độ lên cao",
+          "Để học sinh tự do chạy chui qua bên dưới dây chun"
+        ],
+        "k": "C",
+        "e": "Loại bỏ rào cản tâm lí sợ đau ở người mới học chính là bí quyết sư phạm giúp kĩ thuật nhảy cao hình thành nhanh gấp ba lần.",
+        "s": "GDTC 8",
+        "h": "Giá trị tâm lí an toàn của dây chun thay xà cứng"
+      },
+      {
+        "c": "GD8-B05-009",
+        "d": "application",
+        "p": "Khi thực hiện 3 bước chạy đà cuối cùng vào điểm giậm nhảy cao kiểu bước qua, nhịp điệu bước chân và sự thay đổi độ cao trọng tâm diễn ra thế nào mới đạt độ bùng nổ cao nhất?",
+        "o": [
+          "3 bước cuối chậm dần lại gần như dừng hẳn đứng im rồi mới nhảy lên",
+          "Chạy đều bằng gót chân cả 9 bước với lưng còng gập xuống",
+          "Bước cuối nhảy bật cả hai chân lên thật cao trước khi chạm vạch giậm",
+          "3 bước cuối tăng dần nhịp, bước áp chót hạ nhẹ trọng tâm để bước cuối đặt gót chống bật búng mạnh thân người lên cao như lò xo nén rồi bật"
+        ],
+        "k": "D",
+        "e": "Nhịp điệu tăng nhanh dồn 3 bước cuối (\"tích - tăc - BẬT!\") tích tụ xung lực đàn hồi tối đa ngay trước lúc chân giậm rời đất.",
+        "s": "GDTC 8",
+        "h": "Nhịp điệu 3 bước cuối hạ tâm chuẩn bị bật"
+      },
+      {
+        "c": "GD8-B05-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ ảnh hưởng của điểm đặt giậm nhảy tới quỹ đạo vượt xà dưới đây, bạn Lan giậm nhảy có sức bật rất tốt nhưng thanh xà luôn bị rơi bởi gót chân Lan khi hạ xuống ngay phía trên xà. Điểm đặt chân giậm của Lan có thể đã bị đặt ở đâu?",
+        "o": [
+          "Đặt chân giậm ở ngay chính giữa đệm rơi phía bên kia xà",
+          "Đặt chân giậm ở đúng vị trí chuẩn 70 cm phía trước xà",
+          "Đặt điểm giậm QUÁ XA thanh xà (> 1,2m) khiến đỉnh cao quỹ đạo nằm trước xà, tới lúc bay qua mặt xà thì người đã bắt đầu rơi xuống quệt xà",
+          "Chạy đà ở tốc độ quá chậm khiến người không nhấc lên được"
+        ],
+        "k": "C",
+        "e": "Quan sát vị trí rơi xà (rơi lúc chân đang đi lên = giậm quá sát xà; rơi lúc thân chân bắt đầu hạ xuống = giậm quá xa xà) giúp chỉnh điểm đo đà chính xác từng xăng-ti-mét!",
+        "s": "GDTC 8",
+        "h": "Đọc dấu hiệu rơi xà để chỉnh điểm giậm nhảy",
+        "fig": {
+          "type": "bars",
+          "title": "Độ cao đạt được tại mặt phẳng xà (cm)",
+          "labels": [
+            "Giậm quá gần (30cm)",
+            "Giậm chuẩn (70cm)",
+            "Giậm quá xa (120cm)"
+          ],
+          "series": [
+            {
+              "values": [
+                92,
+                118,
+                95
+              ]
+            }
+          ],
+          "unit": "cm"
+        }
+      },
+      {
+        "c": "GD8-B05-011",
+        "d": "application",
+        "p": "Để đánh thức phản xạ \"đá chân lăng duỗi thẳng vọt lên cao kết hợp đánh hai tay hãm ngang vai\" ngay tại chỗ trước khi chạy đà đầy đủ, bài tập bổ trợ đơn giản nào rất hiệu quả tại sân trường?",
+        "o": [
+          "Ngồi trên ghế gập duỗi hai ngón chân cái chậm rãi trong 5 phút",
+          "Nhảy cóc bằng hai chân liên tiếp 50 mét",
+          "Chạy bền quanh sân 1.000 mét không cần nhảy lần nào",
+          "Đứng bước lùi 1 bước đà -> thực hiện bước giậm chân đặt gót chống -> đá thẳng chân lăng chạm mũi giày lên lòng bàn tay bạn hoặc vật treo mềm đặt cao ngang vai"
+        ],
+        "k": "D",
+        "e": "Bài tập \"1 bước giậm đá tay cao\" tập trung đúng khoảnh khắc quyết định nhất của nhảy cao mà không tốn sức chạy đà nhiều lần.",
+        "s": "GDTC 8",
+        "h": "Bài tập 1 bước giậm đá chân lăng chạm đích cao"
+      },
+      {
+        "c": "GD8-B05-012",
+        "d": "application",
+        "p": "Khi tổ chức đo đạc xác định vạch xuất phát chạy đà 7 bước chuẩn xác cho riêng mỗi bạn trong lớp học nhảy cao, cách thực hiện đơn giản và chính xác nhất tại sân tập là gì?",
+        "o": [
+          "Đo bằng sải tay ngang chứ không chạy thử lần nào",
+          "Ước lượng đại bằng mắt rồi vừa chạy vừa nhìn xuống điều chỉnh bước chân",
+          "Lấy chung một vạch xuất phát duy nhất cho cả bạn cao 1m40 lẫn bạn cao 1m75",
+          "Từ điểm giậm chuẩn (cách xà ~70 cm) chạy ngược lại đúng 7 bước đánh dấu xuất phát, rồi chạy xuôi thử 2–3 lần để tinh chỉnh lại nửa bàn chân cho chuẩn"
+        ],
+        "k": "D",
+        "e": "Mỗi người có độ dài sải chân riêng; tự lập \"thước đo đà cá nhân\" giúp bạn nhảy tự tin ngẩng mặt nhìn thanh xà chứ không cúi đầu soi chân.",
+        "s": "GDTC 8",
+        "h": "Phương pháp chạy ngược đo vạch đà cá nhân"
+      },
+      {
+        "c": "GD8-B05-013",
+        "d": "advanced",
+        "p": "Phân tích sự khác biệt bản chất về hướng chuyển lực giữa \"Giậm nhảy Xa\" và \"Giậm nhảy Cao\": tại sao khi chạy đà nhảy cao lại KHÔNG nên chạy quá nhanh hết ga 100 phần trăm tốc độ như chạy 100m?",
+        "o": [
+          "Vì thanh xà sẽ tự nâng cao lên nếu người nhảy chạy nhanh",
+          "Nhảy cao cần chuyển lực bật ĐỨNG lên qua xà chứ không lao ngang xa; chạy quá nhanh vượt khả năng hãm bật dễ làm sụp gối hoặc lao ngang sầm vào xà",
+          "Vì chạy chậm gần như đi bộ luôn giúp bật cao hơn hẳn mọi tốc độ khác",
+          "Vì luật nhảy cao cấm người nhảy chạy nhanh quá 3 m/s"
+        ],
+        "k": "B",
+        "e": "Tốc độ chạy đà nhảy cao tối ưu là \"tốc độ kiểm soát cao nhất mà chân giậm vẫn đủ khỏe để chống hãm bẻ hướng lực vút thẳng lên trời\".",
+        "s": "GDTC 8",
+        "h": "Tại sao tốc độ đà nhảy cao cần kiểm soát tối ưu"
+      },
+      {
+        "c": "GD8-B05-014",
+        "d": "advanced",
+        "p": "Trong khoảnh khắc giậm nhảy cao, hai cánh tay vung từ sau ra trước lên cao tới khoảng ngang mặt - vai rồi đột ngột \"hãm dừng lại\" thay vì vung tiếp vòng ra sau đỉnh đầu. Nguyên lí cơ học nào giải thích hiệu quả của cú vung tay dừng hãm này?",
+        "o": [
+          "Vì vung tay qua đỉnh đầu bị luật thi đấu phạt thẻ vàng",
+          "Vì hai tay vung lên cao làm cơ thể nặng thêm 10 kilôgam rơi nhanh hơn",
+          "Hai tay vung mạnh lên cao rồi hãm đột ngột ngang vai giúp truyền xung lực hướng lên qua khớp vai, kéo nhấc bổng trọng tâm thân lên cao thêm vài cm",
+          "Vì dừng tay lại giúp không khí đẩy người đứng yên tại chỗ trên trời"
+        ],
+        "k": "C",
+        "e": "\"Động tác dừng hãm tích cực\" của chân lăng và hai tay chính là bí mật sinh cơ học cộng lực trong mọi môn bật nhảy (nhảy cao, bóng chuyền, bóng rổ).",
+        "s": "GDTC 8",
+        "h": "Hiệu ứng truyền xung lực khi vung và hãm dừng tay"
+      },
+      {
+        "c": "GD8-B05-015",
+        "d": "advanced",
+        "p": "So sánh hai kĩ thuật nhảy cao nổi tiếng trong lịch sử: \"Kiểu bước qua\" (Scissor jump học ở lớp 8) và \"Kiểu úp lưng qua xà\" (Fosbury Flop của Olympic): vì sao ở cấp THCS học sinh bắt buộc nắm vững kiểu Bước qua trước?",
+        "o": [
+          "Vì kiểu úp lưng không cần chạy đà hay giậm nhảy",
+          "Vì kiểu Bước qua luôn nhảy cao hơn kiểu úp lưng Fosbury tới nửa mét",
+          "Kiểu Bước qua giữ đầu thẳng đứng và tiếp đất bằng chân rất an toàn trên cát thường, lại dạy chuẩn nguyên lí giậm bật - đá lăng làm nền mọi kĩ thuật sau",
+          "Vì học sinh lớp 8 không được phép tập trên đệm mút dày bao giờ"
+        ],
+        "k": "C",
+        "e": "Kiểu Bước qua vừa an toàn tối đa trên điều kiện sân trường vừa trang bị trọn vẹn nền tảng cơ sinh học chuẩn mực cho kĩ thuật nhảy cao.",
+        "s": "GDTC 8",
+        "h": "Vai trò nền tảng an toàn của nhảy cao kiểu bước qua"
+      }
+    ]
+  },
+  {
+    "chapter": "gdtc8-c2",
+    "lesson": {
+      "code": "gdtc8-b06",
+      "title": "Bài 6. Phối hợp qua xà và tiếp đất an toàn nhảy cao kiểu bước qua",
+      "seq": 6,
+      "subtitle": "Kĩ thuật gập thân qua xà nối tiếp chân lăng - chân giậm, điều chỉnh hướng thân trên xà và tiếp đất hố cát/đệm an toàn",
+      "concepts": [
+        "Động tác cắt kéo hai chân qua xà",
+        "Gập thân hạ chân lăng tránh quệt xà",
+        "Tiếp đất êm ái bằng hai chân"
+      ]
+    },
+    "questions": [
+      {
+        "c": "GD8-B06-001",
+        "d": "basic",
+        "p": "Trong giai đoạn \"Trên không\" của kĩ thuật nhảy cao kiểu bước qua, trình tự hai chân di chuyển vượt qua thanh xà ngang như hình dáng cây kéo cắt diễn ra thế nào?",
+        "o": [
+          "Chân lăng (gần xà) duỗi thẳng đá qua xà trước rồi chủ động hạ nhanh xuống bên kia, nối tiếp ngay bởi chân giậm co nhấc xoay mở vượt qua xà sau đó",
+          "Đầu và hai tay cắm chúc xuống chạm đất trước khi hai chân rời sân",
+          "Cả hai chân chụm sát dính chặt vào nhau nhảy qua xà cùng một lúc",
+          "Chân giậm ở phía xa vượt qua xà trước còn chân lăng chờ ở dưới đất"
+        ],
+        "k": "A",
+        "e": "Chuyển động gối tiếp nhau nhịp nhàng \"chân lăng đi qua hạ xuống -> kéo hông chân giậm lướt qua theo\" giữ trọng tâm luôn đi sát gọn qua trên mặt xà.",
+        "s": "GDTC 8",
+        "h": "Trình tự cắt kéo chân lăng và chân giậm qua xà"
+      },
+      {
+        "c": "GD8-B06-002",
+        "d": "basic",
+        "p": "Để phần mông và chân giậm (chân qua sau) không bị hạ thấp vướng chạm làm rơi thanh xà ở khoảnh khắc chân lăng đang vượt sang bên kia, thân trên của người nhảy cần thực hiện động tác hỗ trợ nào trên không?",
+        "o": [
+          "Duỗi thẳng cứng người đứng nghiêm bất động trên không",
+          "Giơ thẳng đứng cả hai tay lên cao tít trên trời làm hông trĩu nặng xuống",
+          "Hơi gập thân trên về phía đùi chân lăng và đánh hạ tay đối diện, đồng thời xoay nhẹ hông sang phía chân lăng hướng mũi chân giậm chếch lên ngoài",
+          "Ngửa hẳn lưng gập ra phía sau hết cỡ để đầu hướng xuống mặt đất phía trước xà"
+        ],
+        "k": "C",
+        "e": "Nguyên tắc đối trọng cơ thể trên không: khi thân trên hơi gập về trước và chân lăng hạ xuống bên kia xà, phần hông và chân giậm phía sau tự động được nhấc xoay gọn qua xà cực kì khéo léo!",
+        "s": "GDTC 8",
+        "h": "Gập thân nhẹ xoay hông nhấc chân giậm qua xà"
+      },
+      {
+        "c": "GD8-B06-003",
+        "d": "basic",
+        "p": "Trong kĩ thuật nhảy cao kiểu bước qua, tư thế tiếp đất ĐÚNG CHUẨN VÀ AN TOÀN nhất xuống hố cát hoặc tấm đệm dày là tiếp đất bằng bộ phận nào?",
+        "o": [
+          "Tiếp đất êm ái bằng BÀN CHÂN: mũi chân chạm lăn cả bàn chân lăng rồi tiếp ngay chân giậm (hoặc cả hai chân), chùng mềm gối nhún giảm chấn",
+          "Thả rơi thẳng lưng đập ngửa bẹt xuống nền cát cứng",
+          "Tiếp đất bằng đỉnh đầu và gáy cổ lộn vòng xuống hố cát",
+          "Chống thẳng đơ hai bàn tay ngược ra sau đón toàn bộ trọng lượng rơi"
+        ],
+        "k": "A",
+        "e": "Chính đặc điểm \"tiếp đất bằng đôi chân đứng thẳng\" làm cho nhảy cao kiểu bước qua trở thành kĩ thuật nhảy cao an toàn nhất trong trường học.",
+        "s": "GDTC 8",
+        "h": "Tiếp đất chủ động bằng chân khi qua xà"
+      },
+      {
+        "c": "GD8-B06-004",
+        "d": "basic",
+        "p": "Theo luật thi đấu nhảy cao chuẩn, trong mỗi lượt nhảy ở một mức xà quy định, vận động viên được phép nhảy tối đa bao nhiêu lần (nếu nhảy hỏng) trước khi bị loại khỏi cuộc thi?",
+        "o": [
+          "Được phép giậm nhảy bằng cả hai chân cùng một lúc để qua xà",
+          "Chỉ được nhảy đúng 1 lần duy nhất cả giải đấu",
+          "Tối đa 3 lần nhảy liên tiếp ở một mức xà (hoặc cộng dồn 3 lần hỏng liên tiếp nói chung là bị loại); ở cả hai trường hợp chỉ được giậm nhảy bằng MỘT chân",
+          "Được quyền nhảy lại 10 lần liên tiếp ở cùng một mức xà nếu làm rơi xà"
+        ],
+        "k": "C",
+        "e": "Luật \"giậm nhảy bằng 1 chân\" và \"3 lần hỏng liên tiếp bị loại\" rất công bằng và tạo nên sự kịch tính hấp dẫn của môn Nhảy cao.",
+        "s": "GDTC 8",
+        "h": "Luật 1 chân giậm và tối đa 3 lần nhảy mức xà"
+      },
+      {
+        "c": "GD8-B06-005",
+        "d": "basic",
+        "p": "Những trường hợp nào bị trọng tài phất cờ đỏ xác định là lượt nhảy cao KHÔNG HỢP LỆ (phạm quy)?",
+        "o": [
+          "Giậm nhảy mạnh bằng đúng một chân thuận ở phía trước vạch xà",
+          "Gió nhẹ làm rung nhẹ thanh xà nhưng thanh xà vẫn nằm yên trên giá đỡ sau khi người nhảy rời đệm",
+          "Quần áo lướt cực nhẹ qua thanh xà nhưng xà không rơi khỏi chốt giá",
+          "Làm rơi thanh xà khỏi giá đỡ; giậm nhảy bằng cả hai chân; hoặc chưa qua xà mà thân thể đã chạm xuống đệm hay hố nhảy phía sau mặt phẳng cột xà"
+        ],
+        "k": "D",
+        "e": "Chú ý chi tiết tinh tế trong luật: thanh xà chỉ bị tính phạm quy nếu RƠI KHỎI GIÁ ĐỠ do tác động của vận động viên; nếu xà rung nhẹ mà vẫn nằm lại trên chốt đỡ thì lượt nhảy VẪN THÀNH CÔNG!",
+        "s": "GDTC 8",
+        "h": "Quy định hợp lệ khi thanh xà rung nhưng không rơi"
+      },
+      {
+        "c": "GD8-B06-006",
+        "d": "basic",
+        "p": "Khi bố trí khu vực tiếp đất cho bài tập nhảy cao kiểu bước qua tại trường học (sử dụng đệm mút dày hoặc hố cát tơi), yêu cầu kiểm tra an toàn trước lúc nhảy là gì?",
+        "o": [
+          "Đảm bảo đệm nhảy ghép khít không lộ khe nền cứng (hoặc hố cát xới dày tơi sạch sỏi) và kiểm tra hai cột xà đứng vững gọn không vướng lối chạy đà",
+          "Đặt thêm hai chiếc ghế gỗ cứng ngay trên mặt đệm tiếp đất",
+          "Để nguyên thanh xà buộc chặt cứng vào cột sắt không cho rơi được khi vấp chân",
+          "Đặt các tấm đệm cách rời xa nhau chừa khe hở rộng 50 cm ngay chính giữa điểm rơi"
+        ],
+        "k": "A",
+        "e": "Cảnh báo an toàn tối quan trọng: thanh xà PHẢI đặt tự do trên chốt đỡ hướng mở để dễ rơi khi va chạm; tuyệt đối KHÔNG BAO GIỜ buộc chặt xà vào cột vì sẽ làm vấp ngã đập mặt người nhảy!",
+        "s": "GDTC 8",
+        "h": "Tuyệt đối không buộc chặt thanh xà vào cột đỡ"
+      },
+      {
+        "c": "GD8-B06-007",
+        "d": "application",
+        "p": "Quan sát bảng sửa lỗi giai đoạn trên không và tiếp đất dưới đây, bạn Hà đá chân lăng qua xà rất cao nhưng khi hạ xuống lại thường bị bắp chân giậm phía sau quệt làm rơi thanh xà. Quan sát thấy khi qua xà Hà để đầu gối chân giậm buông thõng thẳng xuống dưới thay vì co xoay ngang. Cách sửa chuẩn là gì?",
+        "o": [
+          "Khi chân lăng hạ xuống bên kia xà, xoay nhẹ hông về phía xà và nâng co gối chân giậm gập ngang song song với thanh xà, mũi chân chếch ngoài để vắt qua",
+          "Duỗi thẳng thõng chân giậm xuống sát mặt đất hơn nữa trong lúc bay",
+          "Đạp chân giậm mạnh thẳng vào giữa thanh xà đẩy xà bay đi trước",
+          "Nằm ngửa hẳn người ra sau khi qua xà"
+        ],
+        "k": "A",
+        "e": "Động tác xoay mở hông nâng gập chân giậm qua xà (\"clearance twist\") giống như nhấc chân bước qua chiếc hàng rào thấp ngang rất gọn gàng.",
+        "s": "GDTC 8",
+        "h": "Kĩ thuật co nâng xoay gọn chân giậm tránh quệt xà",
+        "fig": {
+          "type": "table",
+          "title": "Giai đoạn Trên không - Tiếp đất",
+          "head": [
+            "Lỗi thường gặp",
+            "Cách sửa kĩ thuật"
+          ],
+          "rows": [
+            [
+              "Quệt chân giậm",
+              "Xoay hông nâng gối"
+            ],
+            [
+              "Ngã ngửa trên xà",
+              "Gập ngực về trước"
+            ],
+            [
+              "Đứng cứng tiếp đất",
+              "Chùng gối giảm chấn"
+            ],
+            [
+              "Chống tay sau",
+              "Đánh tay giữ thăng"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "GD8-B06-008",
+        "d": "application",
+        "p": "Nếu một học sinh nhảy qua mức xà 1m15 thành công, khi rơi xuống hố cát hoặc đệm dày lại quên chùng gối mà giữ thẳng cứng hai đầu gối để gót chân giáng thẳng xuống mặt hố cát. Nguy cơ chấn thương dễ xảy ra nhất là gì?",
+        "o": [
+          "Giúp nhảy cao thêm được 20 cm ở lượt nhảy kế tiếp",
+          "Xung lực phản hồi mạnh dội thẳng từ gót qua khớp gối, háng lên cột sống thắt lưng dễ gây đau khớp gối, bong gân cổ chân hoặc chấn động lưng",
+          "Giúp tăng chiều cao tức thì lên thêm 5 xăng-ti-mét",
+          "Không gây ra bất kì áp lực vật lí nào lên xương khớp"
+        ],
+        "k": "B",
+        "e": "Hãy luôn rèn phản xạ \"chùng gối nhún lò xo\" ngay khoảnh khắc mũi chân chạm cát hoặc đệm để tiêu tán êm ái toàn bộ động năng rơi từ trên cao.",
+        "s": "GDTC 8",
+        "h": "Bảo vệ cột sống gối nhờ tiếp đất chùng gối giảm chấn"
+      },
+      {
+        "c": "GD8-B06-009",
+        "d": "application",
+        "p": "Một bạn nữ vừa mới tập nhảy cao kiểu bước qua rất thích chạy thẳng vuông góc mặt xà như nhảy xa thay vì chạy đà chếch 30–45 độ. Điểm bất lợi nghiêm trọng nào xảy ra ngay ở giai đoạn trên không nếu chạy thẳng vuông góc mặt xà?",
+        "o": [
+          "Giúp nhảy cao vượt qua xà dễ dàng gấp ba lần kiểu chạy chếch",
+          "Chạy vuông góc khiến cả thanh xà chắn ngang trước mặt dễ va hai chân, lại khó xoay hông thu chân giậm và dễ quệt mông vào xà khi đá chân lăng",
+          "Làm thanh xà tự động nâng lên tránh chạm vào người nhảy",
+          "Giúp tiếp đất bằng lưng êm hơn hẳn"
+        ],
+        "k": "B",
+        "e": "Góc chạy chếch 30–45 độ giúp cơ thể \"lướt dọc theo chiều thanh xà\" trong khi từng chân lần lượt cắt qua mặt cắt ngang mỏng nhất của xà.",
+        "s": "GDTC 8",
+        "h": "Ưu thế hình học của góc chạy chếch qua xà"
+      },
+      {
+        "c": "GD8-B06-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ mức xà đạt được theo thời gian luyện tập của nhóm bạn lớp 8B dưới đây, tại sao việc dành 15 phút cuối buổi tập nhảy cao để tập bài \"Bật nhảy đơn chân chạm bảng cao\" và \"Gập bụng đá thẳng chân\" lại giúp nâng mức xà vượt trội nhanh chóng?",
+        "o": [
+          "Vì hai bài tập này giúp người nhảy giảm cân nặng xuống còn 20 kilôgam trong một ngày",
+          "Vì làm giảm sức mạnh của cơ chân để nhảy nhẹ hơn",
+          "Bật nhảy một chân trực tiếp tăng lực bột phát cho chân giậm, còn gập bụng đá thẳng chân làm khỏe cơ hông giúp đá chân lăng cao và thu chân qua xà gọn",
+          "Chỉ là bài tập thư giãn không liên quan tới các nhóm cơ nhảy cao"
+        ],
+        "k": "C",
+        "e": "Kết hợp giữa rèn \"động cơ bật\" (cơ đùi bắp chân) và \"nhóm cơ kéo chân qua xà\" (cơ bụng dưới - gập hông) là cặp bài tập bổ trợ vàng cho môn nhảy cao.",
+        "s": "GDTC 8",
+        "h": "Hai nhóm cơ chủ lực quyết định thành tích nhảy cao",
+        "fig": {
+          "type": "bars",
+          "title": "Mức xà qua được trung bình (cm)",
+          "labels": [
+            "Tuần 1 (cơ bản)",
+            "Tuần 4 (đều nhịp)",
+            "Tuần 8 (bổ trợ cơ)"
+          ],
+          "series": [
+            {
+              "values": [
+                95,
+                108,
+                120
+              ]
+            }
+          ],
+          "unit": "cm"
+        }
+      },
+      {
+        "c": "GD8-B06-011",
+        "d": "application",
+        "p": "Trong một buổi kiểm tra nhảy cao có nhiều mức xà tăng dần (từ 95cm -> 100cm -> 105cm...), nếu thanh xà chẳng may rơi ở lần nhảy đầu tiên tại mức 105cm, học sinh nên làm gì trong khoảng thời gian 1 phút chuẩn bị cho lần nhảy thứ hai?",
+        "o": [
+          "Hoảng loạn chạy lên nhảy bừa ngay lập tức không thèm suy nghĩ điều chỉnh gì",
+          "Lùi điểm chạy đà ra xa thêm 30 mét",
+          "Bình tĩnh tự phân tích vừa quệt xà bằng phần nào (chân lăng quệt -> lùi nhẹ điểm giậm/đá cao; chân giậm quệt -> xoay nâng gối nhanh và gập ngực) để sửa ngay",
+          "Cáu gắt đá đổ luôn cả cột xà và bỏ về chỗ không nhảy nữa"
+        ],
+        "k": "C",
+        "e": "Năng lực \"tự phân tích lỗi chỉ trong 30 giây giữa hai lượt nhảy\" là phẩm chất cực kì bản lĩnh của vận động viên điền kinh thông minh.",
+        "s": "GDTC 8",
+        "h": "Tư duy tự điều chỉnh nhanh giữa các lượt nhảy"
+      },
+      {
+        "c": "GD8-B06-012",
+        "d": "application",
+        "p": "Trong giờ thực hành chia 2 tổ tập ở 2 bộ cột xà trên sân trường, bạn trực nhật nhiệm vụ nâng đặt lại thanh xà rơi cần chú ý thói quen an toàn nào?",
+        "o": [
+          "Quan sát chắc không có bạn đang chạy đà rồi mới vào đặt lại xà ngay ngắn trên chốt đỡ, sau đó bước gọn ra ngoài đường đà rồi mới ra hiệu tiếp tục",
+          "Đứng ngay giữa đường chạy đà gài thanh xà trong khi bạn tiếp theo đang lao hết tốc lực tới",
+          "Buộc chặt hai đầu thanh xà bằng dây thừng vào cột sắt cho đỡ phải nhặt nhiều lần",
+          "Giơ đầu thanh xà chĩa thẳng ra trước mặt bạn đang chạy tới"
+        ],
+        "k": "A",
+        "e": "Sự phối hợp nhịp nhàng an toàn giữa người nhảy và đội trực nhật đặt xà đảm bảo tiết thực hành trôi chảy được nhiều lượt nhảy nhất.",
+        "s": "GDTC 8",
+        "h": "An toàn khi trực nhật đặt lại thanh xà"
+      },
+      {
+        "c": "GD8-B06-013",
+        "d": "advanced",
+        "p": "Phân tích nguyên lí vật lí về \"Tâm khối cơ thể\" (Center of Mass) qua câu hỏi thú vị: Khi vận động viên nhảy qua xà kiểu bước qua, thực tế trọng tâm cơ thể họ phải vượt cao hơn mức thanh xà bao nhiêu, và làm sao để qua xà cao nhất với cùng một lực bật?",
+        "o": [
+          "Chỉ cần nhảy sao cho đầu gối cao ngang xà còn người nằm dưới xà hoàn toàn ở kiểu bước qua",
+          "Trọng tâm cơ thể không hề di chuyển lên cao khi người nhảy giậm chân",
+          "Kiểu bước qua cắt kéo giữ trọng tâm cao hơn xà ~10–15 cm; gập thân hợp lí và hạ nhanh chân lăng lúc chân giậm qua giúp thu gọn khoảng dư để qua mức cao hơn",
+          "Trọng tâm cơ thể luôn phải cao hơn xà ít nhất 1 mét mới qua được ở kiểu bước qua"
+        ],
+        "k": "C",
+        "e": "Thực ra sau này khi học kiểu úp lưng Fosbury Flop (uốn cong lưng trên xà), trọng tâm thậm chí có thể đi LUỒN DƯỚI thanh xà trong khi cơ thể vẫn uốn vòng qua trên xà — điều kì diệu bậc nhất của cơ học thể thao!",
+        "s": "GDTC 8",
+        "h": "Tối ưu khoảng cách trọng tâm trên mặt thanh xà"
+      },
+      {
+        "c": "GD8-B06-014",
+        "d": "advanced",
+        "p": "Tại sao trong nhảy cao, giai đoạn \"trên không\" không thể tạo thêm lực đẩy lên trời được nữa (quỹ đạo trọng tâm đã định đoạt ngay khoảnh khắc chân giậm rời mặt đất), nhưng kĩ thuật cắt kéo và gập thân trên không vẫn có thể thay đổi thành tích tới 10–15 xăng-ti-mét?",
+        "o": [
+          "Vì gập thân giúp làm thanh xà tự động cong võng xuống dưới",
+          "Kĩ thuật trên không không nâng đỉnh trọng tâm mà định hình tư thế quanh trọng tâm: nâng phần đang qua xà và hạ phần đã/chưa qua làm đối trọng để không quệt xà",
+          "Vì vung tay trên không giúp trọng lực Trái Đất giảm đi một nửa",
+          "Vì không khí trên cao tạo ra một mặt sàn vô hình cho chân giậm đạp bật lần thứ hai"
+        ],
+        "k": "B",
+        "e": "Hiểu đúng quy luật bảo toàn quỹ đạo trọng tâm giải phóng mọi ngộ nhận và tập trung chuẩn xác vào hai khâu: Bật cao nhất lúc giậm + Xếp gọn thân quanh trọng tâm trên không!",
+        "s": "GDTC 8",
+        "h": "Ý nghĩa thực sự của kĩ thuật xếp gọn thân trên không"
+      },
+      {
+        "c": "GD8-B06-015",
+        "d": "advanced",
+        "p": "Nhảy cao là môn thể thao cá nhân có thanh xà luôn được nâng lên cao dần tới khi mỗi người chạm giới hạn thất bại ở mức cuối cùng. Bài học tâm lí vượt giới hạn bản thân nào môn Nhảy cao dạy cho tuổi học trò?",
+        "o": [
+          "Thành công trong thể thao nghĩa là không bao giờ gặp bất kì thử thách nào",
+          "Nếu làm rơi xà một lần nghĩa là hoàn toàn thất bại và nên bỏ cuộc mãi mãi",
+          "Mọi VĐV nhảy cao đều kết thúc bằng 3 lần rớt xà ở mức kỉ lục mới! Điều đó dạy ta đừng sợ vấp ngã khi đặt mục tiêu cao hơn, coi mỗi lần hỏng là bài học chỉnh đà",
+          "Chỉ nên đặt thanh xà thấp thật dễ dàng suốt đời để không bao giờ bị làm rơi xà"
+        ],
+        "k": "C",
+        "e": "Trong nhảy cao không có người nào không từng làm rơi xà; dũng cảm nâng mức xà thử thách bản thân mới chính là vẻ đẹp kiêu hãnh nhất của môn học này.",
+        "s": "GDTC 8",
+        "h": "Triết lí dám nâng cao mức xà thử thách bản thân"
+      }
+    ]
+  },
+  {
+    "chapter": "gdtc8-c3",
+    "lesson": {
+      "code": "gdtc8-b07",
+      "title": "Bài 7. Chiến thuật phân phối sức chạy cự li trung bình 800m - 1000m",
+      "seq": 7,
+      "subtitle": "Phân phối nhịp chạy đều qua các vòng sân 800m–1000m, kĩ thuật chạy vượt đối thủ đúng luật và nước rút 150m cuối",
+      "concepts": [
+        "Phân chia chặng 800m - 1000m",
+        "Chiến thuật vượt người an toàn",
+        "Tăng tốc nước rút đoạn cuối"
+      ]
+    },
+    "questions": [
+      {
+        "c": "GD8-B07-001",
+        "d": "basic",
+        "p": "Ở bậc lớp 8, học sinh bắt đầu thử sức với cự li chạy bền trung bình dài hơn trước (800m đối với nữ và 1000m đối với nam). Điểm khác biệt lớn nhất về yêu cầu thể lực của cự li này so với 500m lớp 6 là gì?",
+        "o": [
+          "Đòi hỏi duy trì nhịp độ ổn định và hô hấp sâu đều suốt 3,5–5 phút liên tục, kiểm soát cảm giác mỏi cơ tích lũy và giữ sức cho pha bứt tốc cuối",
+          "Được phép ngồi nghỉ giải lao 2 phút giữa mỗi vòng sân",
+          "Không cần sử dụng ô-xi mà chỉ dùng sức bật của cổ chân",
+          "Chỉ cần nín thở chạy bứt tốc hết ga từ đầu tới cuối trong 10 giây"
+        ],
+        "k": "A",
+        "e": "800m–1000m là giao điểm tuyệt vời đòi hỏi cả sức bền ưa khí tim phổi lẫn sức bền tốc độ yếm khí ở đoạn nước rút cuối.",
+        "s": "GDTC 8",
+        "h": "Đặc trưng sinh lí cự li trung bình 800m-1000m"
+      },
+      {
+        "c": "GD8-B07-002",
+        "d": "basic",
+        "p": "Tư thế xuất phát chuẩn được sử dụng trong các cuộc thi chạy cự li trung bình 800m và 1000m là kiểu xuất phát nào?",
+        "o": [
+          "Xuất phát thấp có bàn đạp sắt chống tay 5 điểm chạm",
+          "Xuất phát từ tư thế nằm ngửa quay lưng lại hướng đích",
+          "Xuất phát cao (2 khẩu lệnh \"Vào chỗ!\" — \"Chạy!\", không sử dụng bàn đạp xuất phát chống tay như 100m)",
+          "Xuất phát nhảy chụm hai chân qua vạch vôi"
+        ],
+        "k": "C",
+        "e": "Xuất phát cao giúp cơ thể vào nhịp chạy thả lỏng thoải mái nhanh chóng ngay từ những mét đầu tiên mà không tiêu tốn năng lượng bùng nổ quá mức.",
+        "s": "GDTC 8",
+        "h": "Tư thế xuất phát cao ở cự li trung bình"
+      },
+      {
+        "c": "GD8-B07-003",
+        "d": "basic",
+        "p": "Trong một cuộc thi chạy 800m hoặc 1000m theo vòng sân vận động chung (không phân làn riêng sau đoạn cua đầu hoặc chạy chung ngay từ đầu), muốn vượt qua một bạn đang chạy chậm ngay phía trước mặt, hành động ĐÚNG LUẬT và AN TOÀN là gì?",
+        "o": [
+          "Dùng tay đẩy mạnh vai bạn phía trước dạt vào trong để lấy đường vượt",
+          "Quan sát thoáng phía ngoài, tăng nhẹ tốc độ vượt lên ở phía BÊN PHẢI cách bạn đó một khoảng an toàn rồi mới nhập lại làn trong sau khi vượt hẳn 2 mét",
+          "Chạy luồn sát vào trong bãi cỏ phía trong mép vạch trắng đường chạy để rút ngắn đường",
+          "Chạy ép cắt sát ngay mũi giày bạn kia khiến bạn ấy vấp ngã ngay lập tức"
+        ],
+        "k": "B",
+        "e": "Cắt vào trong phạm vi mép cỏ bên trong đường chạy sẽ bị loại ngay lập tức vì chạy ngắn hơn quãng đường quy định; luôn vượt về phía ngoài một cách lịch sự an toàn!",
+        "s": "GDTC 8",
+        "h": "Quy tắc vượt người phía ngoài đúng luật"
+      },
+      {
+        "c": "GD8-B07-004",
+        "d": "basic",
+        "p": "Giai đoạn \"Chạy tăng tốc về đích\" (nước rút cuối cùng) ở cự li 800m–1000m thường được phát động hiệu quả nhất vào khoảng cách nào trước vạch đích?",
+        "o": [
+          "Cách đích 800 mét",
+          "Khoảng 100 đến 150 mét cuối cùng (tùy lượng sức tích lũy còn lại, dồn sức nâng nhẹ tần số đánh tay và đẩy bước dài hơn tới qua vạch đích)",
+          "Ngay tại 20 mét đầu tiên vừa mới xuất phát khỏi vạch xuất phát",
+          "Đợi tới khi đã chạy vượt qua vạch đích 10 mét mới bắt đầu chạy nhanh"
+        ],
+        "k": "B",
+        "e": "Giữ được phần dự trữ năng lượng cho 150m cuối biến vòng sân cuối cùng thành màn bứt phá nghẹt thở đầy phấn khích.",
+        "s": "GDTC 8",
+        "h": "Thời điểm phát động nước rút về đích"
+      },
+      {
+        "c": "GD8-B07-005",
+        "d": "basic",
+        "p": "Trong khi chạy 800m–1000m, nếu thấy nhịp thở trở nên gấp gáp hỗn loạn (hít ngắn nông dồn dập), cách điều chỉnh tức thì trên đường chạy để ổn định lại hệ hô hấp là gì?",
+        "o": [
+          "Nín thở hoàn toàn trong 15 giây rồi chạy nhanh gấp đôi",
+          "Giảm nhẹ tốc độ 15–20 giây, chủ động thở ra thật sâu dài bằng miệng 3–4 nhịp để đẩy hết khí các-bo-níc ứ đọng rồi quay lại nhịp thở đều đặn 2-2",
+          "Ngửa cổ lên trời mở thật rộng miệng thở gấp nhanh hơn nữa",
+          "Dừng đứng khựng lại ngồi xuống giữa làn chạy số 1"
+        ],
+        "k": "B",
+        "e": "\"Ưu tiên nhịp thở sâu hơn, không ưu tiên chạy nhanh hơn khi đang hụt hơi\" là quy luật sống còn giữ bạn không bỏ cuộc giữa chừng.",
+        "s": "GDTC 8",
+        "h": "Điều hòa lại nhịp thở sâu khi bị hụt hơi"
+      },
+      {
+        "c": "GD8-B07-006",
+        "d": "basic",
+        "p": "Khi chạy nhiều vòng liên tiếp trên đường chạy hình bầu dục có các khúc cua cong đều (sân 200m hoặc 400m), người chạy cần duy trì vị trí chạy ở đâu trên đường chạy để KHÔNG tự làm mình chạy dài thêm nhiều mét oan uổng?",
+        "o": [
+          "Chạy cắt thẳng xuyên qua giữa bãi cỏ sân bóng đá bên trong",
+          "Chạy zíc-zắc liên tục từ làn 1 sang làn 8 rồi lại chạy vào làn 1 mỗi vòng",
+          "Chạy gọn sát vào làn trong cùng (làn số 1, ngay sát mép ngoài vạch biên trong đường chạy), chỉ dạt ra ngoài khi cần vượt qua bạn phía trước",
+          "Chạy ở làn số 8 ngoài cùng sát tường rào khán đài suốt cả 5 vòng sân"
+        ],
+        "k": "C",
+        "e": "Tính thử theo toán học hình tròn: chạy ở làn ngoài cùng 1 vòng sân 400m có thể khiến bạn vô tình phải chạy dài thêm gần 40–50 mét mỗi vòng so với bạn chạy sát làn 1!",
+        "s": "GDTC 8",
+        "h": "Chiến thuật tiết kiệm quãng đường sát làn 1"
+      },
+      {
+        "c": "GD8-B07-007",
+        "d": "application",
+        "p": "Quan sát bảng chiến thuật phân phối tốc độ cho bài kiểm tra chạy 1000m (5 vòng sân trường 200m) dưới đây, một bạn học sinh chạy vòng 1 hết sức mất có 40 giây để dẫn đầu oai phong, nhưng qua vòng 3–4 thì kiệt sức đi bộ mất 75 giây mỗi vòng. So sánh với bạn B chạy đều mỗi vòng ~52–54 giây và vòng 5 rút về 48 giây: vì sao chiến thuật đều sức (even pace) thắng áp đảo?",
+        "o": [
+          "Vì chạy chậm vòng đầu được trọng tài trừ bớt cho 1 vòng sân",
+          "Vì vòng sân số 1 dài hơn vòng sân số 5 gấp đôi",
+          "Chạy quá nhanh vòng 1 vượt ngưỡng ưa khí gây tích axit lactic làm cứng mỏi cơ suốt 4 vòng sau; giữ nhịp vừa sức giúp đốt năng lượng đều và dư sức bứt đích",
+          "Vì bạn A chạy vòng 1 quá chậm mất tới 40 giây"
+        ],
+        "k": "C",
+        "e": "Số liệu thực nghiệm chứng minh chạy bung sức quá sớm ở cự li trung bình là cái bẫy tâm lí phổ biến nhất làm giảm tổng thành tích tới hàng chục giây.",
+        "s": "GDTC 8",
+        "h": "Phân tích tác hại của xuất phát quá nhanh ở vòng 1",
+        "fig": {
+          "type": "table",
+          "title": "Chiến thuật 5 vòng 1000m",
+          "head": [
+            "Chặng vòng",
+            "Mục tiêu tốc độ"
+          ],
+          "rows": [
+            [
+              "Vòng 1 (0-200m)",
+              "Ổn định nhịp độ"
+            ],
+            [
+              "Vòng 2-3 (200-600m)",
+              "Giữ đều tốc, thở 2-2"
+            ],
+            [
+              "Vòng 4 (600-800m)",
+              "Kiên trì nhịp tay"
+            ],
+            [
+              "Vòng 5 (800-1000m)",
+              "Tăng tốc 150m cuối"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "GD8-B07-008",
+        "d": "application",
+        "p": "Khi tập luyện chuẩn bị cho bài thi chạy 800m–1000m, thầy giáo cho học sinh tập phương pháp \"Chạy biến tốc nhẹ trên đoạn ngắn\" (ví dụ: chạy nhịp độ mục tiêu 200m trong 50 giây, nghỉ đi bộ chậm 1 phút rồi lặp lại 4–5 lần). Lợi ích đặc biệt của bài tập chia đoạn này là gì?",
+        "o": [
+          "Vì học sinh không được phép chạy liền quá 200m",
+          "Giúp cơ thể ghi nhớ chính xác \"cảm giác tốc độ chuẩn\" từng vòng sân và nâng ngưỡng chịu đựng tim phổi tốt hơn hẳn việc chạy đều chậm một tốc độ mãi",
+          "Làm học sinh chạy chậm hơn ở cả quãng đường ngắn lẫn dài",
+          "Chỉ để giúp học sinh quên mất cảm giác chạy liên tục 1000m"
+        ],
+        "k": "B",
+        "e": "Phương pháp chạy lặp lại theo đoạn (Interval Training) kết hợp với 1 buổi chạy liên tục dài mỗi tuần là công thức tập luyện đỉnh cao mọi vận động viên đều dùng.",
+        "s": "GDTC 8",
+        "h": "Vai trò của bài tập biến tốc chia đoạn 200m"
+      },
+      {
+        "c": "GD8-B07-009",
+        "d": "application",
+        "p": "Trong một cuộc thi chạy 800m có 15 học sinh cùng xuất phát một lượt, ngay sau tiếng còi xuất phát thì đám đông thường dồn cục chạy chen chúc ở 50 mét đầu tiên. Chiến thuật thông minh nào giúp em thoát khỏi cảnh va chạm giẫm chân nguy hiểm mà không tốn quá nhiều sức?",
+        "o": [
+          "Chạy thoáng gọn 20–30m đầu để chọn vị trí thông thoáng tránh vướng chen ở làn trong hoặc mép ngoài nhóm, rồi hạ ngay về nhịp độ mục tiêu ổn định",
+          "Xô đẩy khuỷu tay thật mạnh sang hai bên gạt ngã các bạn xung quanh",
+          "Chạy luồn lách zíc-zắc thật mạnh xuyên qua khe hẹp giữa hai bạn sát vai nhau",
+          "Chủ động chạy thật chậm đứng khựng ở ngay vạch xuất phát đợi mọi người chạy xong 100m mới chạy theo"
+        ],
+        "k": "A",
+        "e": "Chiếm khoảng không an toàn trong 20m đầu rồi lập tức \"hạ nhịp vào guồng\" (settle into pace) là kĩ năng thi đấu thực chiến rất khôn ngoan.",
+        "s": "GDTC 8",
+        "h": "Kĩ năng thoát đám đông an toàn 30m đầu"
+      },
+      {
+        "c": "GD8-B07-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ 3 kiểu phân phối thời gian từng vòng (cự li 800m gồm 4 vòng 200m) dưới đây, đường biểu diễn tốc độ nào thể hiện \"chiến thuật phân phối sức thông minh kiểu chuyên nghiệp\" nhất?",
+        "o": [
+          "Đường ổn định mượt mà quanh mức 52–54 giây ở 3 vòng đầu và bứt tốc nhẹ xuống 49 giây ở vòng 4 cuối cùng (thành tích tổng rất cao mà trạng thái về đích tỉnh táo)",
+          "Đường cứ đi bộ 90 giây suốt 3 vòng đầu rồi mới chạy 45 giây vòng cuối",
+          "Đường vòng 1 lao vọt 42 giây rồi tụt thảm hại lên 68, 75, 82 giây ở các vòng cuối",
+          "Đường bỏ cuộc dừng lại ở vòng thứ 3 không về đích"
+        ],
+        "k": "A",
+        "e": "Biểu đồ thời gian các vòng (\"Split graph\") là tấm gương phản chiếu trung thực nhất khả năng tự làm chủ bản thân của người chạy bền.",
+        "s": "GDTC 8",
+        "h": "Nhận diện biểu đồ phân phối sức tối ưu qua 4 vòng",
+        "fig": {
+          "type": "bars",
+          "title": "Thời gian 4 vòng chạy 800m chuẩn (giây)",
+          "labels": [
+            "Vòng 1",
+            "Vòng 2",
+            "Vòng 3",
+            "Vòng 4 rút"
+          ],
+          "series": [
+            {
+              "values": [
+                53,
+                54,
+                54,
+                49
+              ]
+            }
+          ],
+          "unit": "giây"
+        }
+      },
+      {
+        "c": "GD8-B07-011",
+        "d": "application",
+        "p": "Ở vòng cuối cùng của cự li 800m–1000m khi bắp chân đã mỏi nặng và hơi thở dồn dập, nhiều học sinh muốn tăng tốc về đích lại cố vung sải bước chân thật dài ra trước nhưng thấy chân càng nặng nề lết chậm hơn. Cách bứt tốc cuối quãng hiệu quả hơn lúc đang mỏi là gì?",
+        "o": [
+          "Cúi rạp đầu sát đầu gối và dừng vung tay lại cho đỡ mỏi vai",
+          "Tập trung đánh HAI KHUỶU TAY NHANH VÀ DỨT KHOÁT hơn dọc hông — guồng tay nhanh tự động kéo tăng tần số bước chân lao tới đích không cần rướn quá sức",
+          "Ngoái đầu nhìn liên tục về sau xem có ai sắp đuổi kịp mình không",
+          "Nín thở nhảy lò cò trên một chân ở 100 mét cuối"
+        ],
+        "k": "B",
+        "e": "\"Khi đôi chân đã mỏi, hãy chạy về đích bằng đôi tay và trái tim\" — nhịp đánh tay là nút tăng ga dự phòng hiệu quả nhất lúc cuối cuộc đua!",
+        "s": "GDTC 8",
+        "h": "Dùng nhịp đánh tay nhanh kéo tần số bước khi mệt"
+      },
+      {
+        "c": "GD8-B07-012",
+        "d": "application",
+        "p": "Ngay sau khi kết thúc bài kiểm tra chạy 1000m mệt lả tại sân trường, cách sắp xếp khu vực sau đích và chăm sóc nhóm bạn về đích an toàn là gì?",
+        "o": [
+          "Người về đích đi bộ chậm 3–5 phút để điều hòa tim - thở, nhấp từng ngụm nước nhỏ và tuyệt đối không chắn lối các bạn phía sau đang chạy nước rút về đích",
+          "Nằm ngửa bất động ngay trên làn chạy số 1",
+          "Đứng tụ tập ngồi phịch ngay sát vạch đích uống nước và chụp ảnh làm cản đường bạn đang lao tới",
+          "Chạy thẳng vào ngồi bệt dưới chân quạt công suất lớn hoặc máy lạnh 16 độ"
+        ],
+        "k": "A",
+        "e": "Giữ thông thoáng khu vực đích cho lượt chạy tiếp nối và đi bộ hồi tĩnh là phép lịch sự tối thiểu trên mọi đường chạy điền kinh.",
+        "s": "GDTC 8",
+        "h": "Văn hóa giữ thoáng sau vạch đích và hồi tĩnh"
+      },
+      {
+        "c": "GD8-B07-013",
+        "d": "advanced",
+        "p": "Phân tích tỉ lệ đóng góp của hai hệ năng lượng \"Ưa khí (Aerobic)\" và \"Yếm khí (Anaerobic)\" trong cự li 800m–1000m: tại sao cự li này lại được các vận động viên điền kinh coi là một trong những cự li thử thách ý chí bậc nhất?",
+        "o": [
+          "Vì nó dễ dàng và nhàn hạ hơn đi bộ dạo chơi 200m rất nhiều",
+          "Vì cự li này chỉ sử dụng 100 phần trăm năng lượng tức thời trong 3 giây đầu",
+          "Vì chạy 800m–1000m không hề dùng đến bất kì hệ năng lượng nào của cơ thể",
+          "Nó vừa đòi hỏi nền tảng tim phổi ưa khí (65–70%) vừa chạy tốc độ cao huy động năng lượng yếm khí (30–35%) gây mỏi cơ nửa cuối, thử thách cả kĩ thuật và ý chí"
+        ],
+        "k": "D",
+        "e": "Chinh phục xuất sắc cự li 800m–1000m rèn luyện tinh thần bền gan vững chí cực kì đáng nể cho học sinh lớp 8.",
+        "s": "GDTC 8",
+        "h": "Giao điểm hai hệ năng lượng trong cự li trung bình"
+      },
+      {
+        "c": "GD8-B07-014",
+        "d": "advanced",
+        "p": "Trong tâm lí học thể thao, kĩ thuật \"Chia nhỏ mục tiêu trên đường chạy\" (Chunking) giúp người chạy vượt qua cảm giác ngán ngẩm mệt mỏi ở vòng giữa 1000m như thế nào?",
+        "o": [
+          "Nhắm mắt không nhìn bất kì cột mốc nào trên đường chạy",
+          "Thay vì nghĩ \"còn tận 600m sao xa thế\", chia đường chạy thành các mốc ngắn 50–100m trước mắt giúp giảm mạnh áp lực tâm lí lên hệ thần kinh khi mệt",
+          "Nghĩ về việc bỏ cuộc ngồi xuống nghỉ ngay từ mét thứ 100",
+          "Nhẩm đếm ngược từng xăng-ti-mét một từ 100.000 xuống 0 khiến đầu óc mệt thêm"
+        ],
+        "k": "B",
+        "e": "Chiến thuật chia nhỏ quãng đường không chỉ là bí quyết của nhà vô địch marathon mà còn áp dụng tuyệt vời khi đối diện bài học khó trong cuộc sống.",
+        "s": "GDTC 8",
+        "h": "Chiến thuật tâm lí chia nhỏ cột mốc đường chạy"
+      },
+      {
+        "c": "GD8-B07-015",
+        "d": "advanced",
+        "p": "Nếu lớp có nhiều bạn chạy 800m–1000m chưa tốt vì sợ hãi cảm giác mệt ở vòng cuối, cách thầy cô và bạn bè đồng hành khích lệ (\"Pacing buddy\") thông minh nhất trong các buổi tập là gì?",
+        "o": [
+          "Cười nhạo chế giễu các bạn chạy chậm ở vòng cuối cùng",
+          "Bắt các bạn chạy yếu phải chạy thêm gấp đôi 2000m ngay lập tức",
+          "Chia nhóm chạy cùng tốc độ mục tiêu ổn định nhịp các vòng đầu, đồng thời các bạn về đích vỗ tay cổ vũ tiếp sức cho những bạn sau cùng hoàn thành trọn vẹn",
+          "Chỉ chấm điểm khen ngợi 3 bạn chạy nhanh nhất rồi bỏ vào lớp đóng cửa mặc kệ các bạn chạy sau"
+        ],
+        "k": "C",
+        "e": "Tiếng vỗ tay cổ vũ bạn về cuối cùng hoàn thành trọn vẹn 1000m chính là khoảnh khắc nhân văn đẹp nhất trên sân thể dục học đường.",
+        "s": "GDTC 8",
+        "h": "Tinh thần đồng đội nâng đỡ nhau về đích"
+      }
+    ]
+  },
+  {
+    "chapter": "gdtc8-c3",
+    "lesson": {
+      "code": "gdtc8-b08",
+      "title": "Bài 8. Kĩ thuật trượt đà bước đệm vai hướng ném (đẩy bóng nhồi, tạ nhỏ)",
+      "seq": 8,
+      "subtitle": "Phối hợp bước trượt đà ngang hoặc trượt lùi ngắn tạo đà cho pha ra sức cuối cùng đẩy bóng nhồi, tạ nhẹ",
+      "concepts": [
+        "Các bước trượt đà ngang vai hướng",
+        "Liên kết trượt đà và chống trụ",
+        "Ra sức cuối cùng không phạm vạch"
+      ]
+    },
+    "questions": [
+      {
+        "c": "GD8-B08-001",
+        "d": "basic",
+        "p": "Ở lớp 8, học sinh phát triển kĩ thuật đẩy bóng nhồi / tạ nhỏ từ \"đẩy tại chỗ\" (lớp 7) lên kĩ thuật có đà đơn giản gọi là gì?",
+        "o": [
+          "Kĩ thuật đứng ngồi im một chỗ nhắm mắt đẩy",
+          "Kĩ thuật chạy nước rút 30 mét rồi tung tay ném qua đầu",
+          "Kĩ thuật lộn nhào hai vòng trên đệm rồi mới đẩy",
+          "Kĩ thuật trượt đà bước đệm vai hướng ném (hoặc bước trượt đà ngang nối tiếp pha ra sức cuối cùng)"
+        ],
+        "k": "D",
+        "e": "Thêm nhịp bước trượt đà ngang nhẹ nhàng giúp tăng vận tốc ban đầu của thân người truyền trực tiếp vào quả tạ/bóng nhồi.",
+        "s": "GDTC 8",
+        "h": "Nâng cấp từ đẩy tại chỗ lên có bước trượt đà"
+      },
+      {
+        "c": "GD8-B08-002",
+        "d": "basic",
+        "p": "Trong tư thế chuẩn bị ban đầu của kĩ thuật \"Trượt đà vai hướng ném\" (vai trái hướng về hướng đẩy, bóng nhồi hoặc tạ nhẹ đặt áp sát hõm cổ phải), trọng tâm cơ thể đặt ở đâu trước khi trượt?",
+        "o": [
+          "Cả hai chân khép sát thẳng đơ nhón gót quay lưng hẳn về phía sau",
+          "Trọng tâm đổ dồn hết ra phía trước vượt qua khỏi vạch chặn",
+          "Ngồi hẳn xuống sàn nhà",
+          "Hai chân đứng rộng vừa thoải mái dọc hướng đẩy, trọng tâm dồn nhẹ chân phải đặt sau, chân trái bước nhẹ phía trước gần hướng đẩy (sẵn sàng lướt ngang)"
+        ],
+        "k": "D",
+        "e": "Thế đứng giữ vững thăng bằng trục vai trái hướng đích giúp người tập trượt ngang mượt mà không làm xóc rơi tạ khỏi hõm cổ.",
+        "s": "GDTC 8",
+        "h": "Tư thế chuẩn bị trượt đà vai hướng ném"
+      },
+      {
+        "c": "GD8-B08-003",
+        "d": "basic",
+        "p": "Điểm đặc biệt bắt buộc khi thực hiện bước trượt đà ngang vai hướng ném so với chạy đà bật nhảy cao lên trời là gì?",
+        "o": [
+          "Trọng tâm phải di chuyển LƯỚT NGANG THẤP sát mặt đất (không bật nhảy bổng lên cao) để tạo đà đẩy ngang nhanh mượt vào tư thế chống trụ ra sức cuối",
+          "Nhảy bật bổng lên cao tới 1 mét rồi rơi phịch xuống mới đẩy bóng",
+          "Bước hai chân chéo xoắn vào nhau rồi quay tròn",
+          "Dừng đứng thẳng hẳn dậy 3 giây giữa bước trượt và bước đẩy"
+        ],
+        "k": "A",
+        "e": "Bật cao lên khi trượt đà làm đứt quãng đà ngang và mất thời gian khi rơi xuống; lướt thấp êm gọn giúp hai chân tiếp đất gần như tức thì ở vị trí sẵn sàng đẩy.",
+        "s": "GDTC 8",
+        "h": "Nguyên tắc trượt thấp sát mặt sân không bật cao"
+      },
+      {
+        "c": "GD8-B08-004",
+        "d": "basic",
+        "p": "Ngay khi kết thúc nhịp trượt bước ngang vào gần vạch chặn, vị trí tiếp đất của hai bàn chân (chân phải sau và chân trái trước) phải đảm bảo yêu cầu nào để sẵn sàng ra sức cuối cùng?",
+        "o": [
+          "Chân phải đặt nhanh dưới trọng tâm hơi khuỵu (mũi xoay ~45°), chân trái đặt sát mép trong vạch chặn duỗi thẳng làm trụ hãm; vai vẫn đóng ngang chờ bung xoay",
+          "Hai chân khép dính sát lại vào nhau như tư thế đứng nghiêm",
+          "Chân trái bước vượt ra ngoài vạch chặn nửa mét còn chân phải đứng tít đằng sau",
+          "Vai trái mở xoay hẳn sang bên trái trước khi hai chân kịp chạm đất"
+        ],
+        "k": "A",
+        "e": "Giữ vai và ngực \"chờ lại phía sau\" (chưa xoay mở sớm) trong khi hai chân đã vào đúng thế chống trụ chính là bí mật tích tụ lực đàn hồi tối đa.",
+        "s": "GDTC 8",
+        "h": "Giữ vai kín đúng vị trí khi vừa trượt đà xong"
+      },
+      {
+        "c": "GD8-B08-005",
+        "d": "basic",
+        "p": "Trong suốt quá trình thực hiện bước trượt đà từ đầu vòng cho tới khi chuẩn bị ra sức cuối cùng, tay cầm tạ/bóng nhồi phải tuân thủ quy định kĩ thuật nào?",
+        "o": [
+          "Đưa tay cầm tạ duỗi thẳng tít ra sau lưng rồi vung quay 1 vòng cho có đà",
+          "Nâng quả tạ lên đỉnh đầu giữ bằng hai tay trong lúc trượt đà",
+          "Luôn giữ tạ áp sát cố định vào hõm cổ dưới xương hàm, khuỷu tay mở thoáng tự nhiên, tuyệt đối không để tạ rời xa cổ hay rụt kéo tay ra phía sau vai",
+          "Tung nhẹ quả bóng tạ lên không trung rồi bắt lại trong lúc nhảy trượt"
+        ],
+        "k": "C",
+        "e": "Giữ cố định tạ sát cổ suốt pha trượt đà bảo vệ an toàn khớp vai và đảm bảo 100 phần trăm hợp lệ theo luật Điền kinh.",
+        "s": "GDTC 8",
+        "h": "Giữ tạ áp sát hõm cổ suốt pha trượt đà"
+      },
+      {
+        "c": "GD8-B08-006",
+        "d": "basic",
+        "p": "Khi luyện tập kĩ thuật trượt đà đẩy bóng nhồi 2 kg hoặc tạ nhẹ trong lớp đông học sinh, quy tắc kiểm soát vạch và hướng đẩy an toàn nào phải thực hiện tuyệt đối?",
+        "o": [
+          "Nhặt tạ ném trả lại ngay cho bạn tiếp theo bằng cách tung bổng qua đầu",
+          "Đứng sát ngay sau lưng bạn đang vung chân trượt đà trong khoảng cách 50 cm",
+          "Kiểm tra bãi rơi hoàn toàn trống người, trượt đà gọn trong ô quy định không va bạn đứng chờ và chỉ lên nhặt tạ khi có hiệu lệnh còi chung của giáo viên",
+          "Trượt đà ngang rồi quay ngược đẩy sang hàng bên cạnh cho vui"
+        ],
+        "k": "C",
+        "e": "Người đứng chờ lượt phải đứng lùi cách xa vòng đẩy tối thiểu 2–3 mét phía sau để tránh va trúng chân đá lấy đà của bạn đang thực hiện.",
+        "s": "GDTC 8",
+        "h": "Khoảng cách chờ lượt an toàn sau vòng đẩy"
+      },
+      {
+        "c": "GD8-B08-007",
+        "d": "application",
+        "p": "Quan sát bảng tổng hợp lỗi kĩ thuật trượt đà đẩy tạ nhẹ dưới đây, bạn Minh tập đẩy có trượt đà nhưng thành tích lại NGẮN HƠN cả lúc đẩy đứng yên tại chỗ! Quan sát thấy vừa kết thúc trượt đà xong Minh dừng hẳn lại 1 giây hít thở rồi mới đẩy tay. Lỗi mấu chốt là gì?",
+        "o": [
+          "Vì đẩy đứng yên tại chỗ luôn xa hơn đẩy có trượt đà ở mọi trình độ",
+          "Do Minh trượt đà nhanh nhẹn quá nên bóng bay chậm lại",
+          "Bị \"khựng đứt nhịp\" giữa trượt đà và đẩy cuối làm mất sạch động năng trượt vừa tạo; trượt xong chân phải phải lập tức đạp xoay hông bật nối tiếp ngay",
+          "Do Minh đặt chân trái sát vạch chặn quá chuẩn xác"
+        ],
+        "k": "C",
+        "e": "Nếu trượt đà xong rồi dừng lại nghỉ thì bước trượt chỉ làm tốn thêm sức vô ích; linh hồn của trượt đà nằm ở \"nhịp nối liền mạch không điểm dừng\" (\"1-2-ĐẨY!\").",
+        "s": "GDTC 8",
+        "h": "Khắc phục lỗi dừng khựng giữa trượt đà và đẩy",
+        "fig": {
+          "type": "table",
+          "title": "Trượt đà đẩy tạ/bóng nhồi",
+          "head": [
+            "Pha thực hiện",
+            "Điểm chuẩn nối nhịp"
+          ],
+          "rows": [
+            [
+              "Chuẩn bị trượt",
+              "Tạ sát cổ, vai hướng"
+            ],
+            [
+              "Trượt đà ngang",
+              "Lướt thấp sát đất"
+            ],
+            [
+              "Chống trụ cuối",
+              "Chân trước, vai chờ"
+            ],
+            [
+              "Nối nhịp đẩy",
+              "Không khựng, bung"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "GD8-B08-008",
+        "d": "application",
+        "p": "Một học sinh khi tập trượt đà ngang lại xoay mở ngực mặt hướng thẳng về phía khu vực đẩy NGAY TRONG LÚC đang bước trượt trên không trung. Hậu quả kĩ thuật nào xảy ra ngay khi chân chạm đất?",
+        "o": [
+          "Tăng thêm quãng đường tạo lực đẩy giúp bóng bay xa kỷ lục",
+          "Làm cơ đùi chân phải khỏe gấp đôi",
+          "Giúp tay cầm tạ tự động thẳng ra sớm hơn",
+          "Mất vòng xoắn kéo căng giữa hông và ngực vai (mất quãng xoay thân tạo gia tốc), biến cú đẩy thành động tác gẩy nhẹ bằng mỗi sức tay rất yếu ớt"
+        ],
+        "k": "D",
+        "e": "\"Giữ lưng ngực đóng kín (nhìn ngang hoặc hơi chếch sau) cho tới khi hai chân đặt chắc xuống đất\" là bí mật của mọi nhà vô địch đẩy tạ.",
+        "s": "GDTC 8",
+        "h": "Tránh mở xoay ngực vai sớm trong lúc đang trượt"
+      },
+      {
+        "c": "GD8-B08-009",
+        "d": "application",
+        "p": "Để luyện tập cho học sinh làm quen nhịp trượt nối liền mạch trước khi cầm bóng nhồi nặng hay tạ thật, thầy giáo cho cả lớp tập bài \"Trượt đà tay không bắt nhịp 1-2-Bung\" hoặc đẩy bóng tennis nhẹ theo kĩ thuật đẩy. Lợi thế của phương pháp tập không tải này là gì?",
+        "o": [
+          "Chỉ dùng để giết thời gian vì đẩy tay không không có tác dụng kĩ thuật nào",
+          "Làm học sinh quên mất cách cầm tạ áp cổ",
+          "Giúp hệ thần kinh tập trung ghi nhớ 100 phần trăm nhịp điệu phối hợp chân hông mượt mà ở tốc độ cao mà không bị sức nặng quả tạ làm gồng cứng lệch dáng",
+          "Gây chấn thương cổ tay nặng hơn đẩy tạ thật"
+        ],
+        "k": "C",
+        "e": "Tập mô phỏng không tải (shadow drill) xen kẽ tập có bóng nhồi nhẹ giúp hình thành đường dẫn truyền thần kinh cực kì sắc nét.",
+        "s": "GDTC 8",
+        "h": "Hiệu quả của bài tập mô phỏng nhịp không tải"
+      },
+      {
+        "c": "GD8-B08-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ ảnh hưởng của góc xoay chân sau sau khi kết thúc trượt đà dưới đây, tại sao nếu đặt chân phải tiếp đất xong mà gót chân phải bị \"dính chết\" không xoay hướng về phía đẩy thì hông không thể đưa qua được?",
+        "o": [
+          "Vì xoay bàn chân làm lực đẩy bị chuyển ngược ra phía sau",
+          "Vì chân phải bắt buộc phải đứng im bất động 100 phần trăm trong lúc đẩy",
+          "Khi mũi chân phải không xoay chuyển vào trong, khớp hông bên phải bị khóa cứng kẹt lại, không thể xoay đẩy toàn bộ trọng lượng cơ thể tới sau quả tạ",
+          "Vì giày thể thao có độ bám quá tốt nên cần bôi dầu trơn lên đế giày"
+        ],
+        "k": "C",
+        "e": "Nhắc câu khẩu quyết dễ nhớ: \"Chân phải xoay gót đẩy hông tới — Chân trái chống thẳng chặn hất lên\"!",
+        "s": "GDTC 8",
+        "h": "Tầm quan trọng của động tác xoay bàn chân phải đẩy hông",
+        "fig": {
+          "type": "bars",
+          "title": "Cự li đẩy bóng 2kg theo chuyển động hông (m)",
+          "labels": [
+            "Không xoay hông",
+            "Xoay nửa hông",
+            "Xoay trọn chân-hông"
+          ],
+          "series": [
+            {
+              "values": [
+                4.6,
+                5.9,
+                7.2
+              ]
+            }
+          ],
+          "unit": "mét"
+        }
+      },
+      {
+        "c": "GD8-B08-011",
+        "d": "application",
+        "p": "Khi thực hiện bước trượt đà vào cuối vòng đẩy, nhiều bạn bị trượt quá mạnh tới sát vạch chặn làm mũi chân trái đập vào thành gỗ chặn (hoặc vượt vạch vôi phạm quy). Điều chỉnh độ dài bước trượt thế nào để dừng đẹp ngay sát mép trong vòng đẩy?",
+        "o": [
+          "Bước trượt dài gấp đôi tới 1,8 mét để nhảy hẳn ra ngoài vòng đẩy",
+          "Ướm thử độ dài ô đẩy và chỉnh chỗ đứng sao cho bước trượt vừa đủ (~70–90 cm) để bàn chân trái chặn rơi gọn ngay sát cạnh trong vạch mà không giẫm đè",
+          "Nhắm mắt trượt đại không cần đo kích thước vạch giới hạn",
+          "Đẩy quả tạ ngược vào phía giữa vòng đẩy cho an toàn"
+        ],
+        "k": "B",
+        "e": "Kiểm soát biên độ từng bước trong không gian giới hạn (như vòng tròn đường kính 2,135m chuẩn quốc tế) rèn khả năng ước lượng không gian tuyệt vời.",
+        "s": "GDTC 8",
+        "h": "Canh chỉnh độ dài bước trượt vừa gọn trong vạch"
+      },
+      {
+        "c": "GD8-B08-012",
+        "d": "application",
+        "p": "Sau khi kết thúc pha ra sức cuối cùng của bài đẩy bóng nhồi có trượt đà và nhảy đổi chân giữ thăng bằng thành công trong vòng đẩy, quy tắc bước ra khỏi vòng tròn đẩy chuẩn luật Điền kinh là gì?",
+        "o": [
+          "Chạy vòng ra phía trước mặt vòng đẩy vẫy tay chào trọng tài rồi mới nhặt",
+          "Bước nhảy ngay về phía trước chạy đi nhặt tạ ngay khi bóng vừa rời tay",
+          "Ngồi lại trong vòng đẩy 1 phút rồi mới đứng dậy",
+          "Phải đợi quả tạ/bóng chạm đất xong và bước ra ngoài từ NỬA PHÍA SAU của vòng tròn đẩy (tuyệt đối không bước ra về phía trước vạch chặn dù chỉ bằng một mũi chân)"
+        ],
+        "k": "D",
+        "e": "Cả trong nhảy xa lẫn đẩy tạ, luật quy định cực kì nghiêm ngặt về hướng rời khu vực thi đấu sau khi thực hiện: Đẩy tạ bước ra phía SAU vạch giữa vòng; Nhảy xa bước ra phía TRƯỚC dấu cát!",
+        "s": "GDTC 8",
+        "h": "Luật rời vòng tròn đẩy ở nửa phía sau"
+      },
+      {
+        "c": "GD8-B08-013",
+        "d": "advanced",
+        "p": "Phân tích lí do vật lí khiến bước \"Trượt đà lùi\" hoặc \"Trượt đà vai hướng\" trong đẩy tạ giúp tăng thành tích đáng kể so với đẩy đứng yên tại chỗ: cơ chế nào đóng vai trò chính?",
+        "o": [
+          "Vì tạ sắt tự động nhẹ bớt đi một nửa khi người đẩy bước sang ngang",
+          "Vì trượt đà làm rút ngắn cự li đường bay của tạ xuống mặt đất",
+          "Ngoài cộng thêm vận tốc ban đầu v0 cho tạ, trượt nhanh vào thế nén thấp còn kích hoạt phản xạ kéo giãn - co rút (SSC) ở đùi, hông, ngực để bung lực mạnh hơn",
+          "Vì khi trượt đà không cần sử dụng lực đẩy của cánh tay phải"
+        ],
+        "k": "C",
+        "e": "Sự kết hợp giữa \"động lượng sẵn có\" và \"phản xạ đàn hồi cơ bắp tức thời\" tạo nên sức bật mạnh mẽ khác hẳn với lực cơ tĩnh thuần túy.",
+        "s": "GDTC 8",
+        "h": "Hai cơ chế vật lí và sinh cơ học của bước trượt đà"
+      },
+      {
+        "c": "GD8-B08-014",
+        "d": "advanced",
+        "p": "Ở trình độ quốc tế Olympic môn Đẩy tạ, vận động viên sử dụng hai trường phái chính là \"Trượt đà thẳng lùi\" (Glide) và \"Xoay người 1,5 vòng\" (Spin/Rotational). Kĩ thuật trượt đà vai hướng học ở lớp 8 đóng vai trò nền tảng gì nếu các em phát triển lên?",
+        "o": [
+          "Không có bất kì liên hệ nào với các kĩ thuật đẩy tạ nâng cao trên thế giới",
+          "Nó tạo lập hoàn hảo thế nén ra sức cuối (chân sau khuỵu chịu lực, chân trước chặn thẳng, hông đóng chờ bung, tạ sát cổ) mà mọi kĩ thuật đỉnh cao đều hội tụ về",
+          "Chỉ làm học sinh học nhầm kĩ thuật sai không thể sửa được sau này",
+          "Vì ở Olympic người ta cấm sử dụng tư thế chống trụ đẩy vai"
+        ],
+        "k": "B",
+        "e": "Mọi biến thể chạy đà hay xoay người đều chỉ là cách tăng tốc dẫn tới cùng một \"Tư thế phát lực vàng\" (Power Position) ở cuối pha!",
+        "s": "GDTC 8",
+        "h": "Kết nối chuẩn kĩ thuật cơ bản tới Power Position đỉnh cao"
+      },
+      {
+        "c": "GD8-B08-015",
+        "d": "advanced",
+        "p": "Tại sao dù đã trang bị đầy đủ kĩ thuật trượt đà, các vận động viên ném đẩy vẫn luôn cần giữ tâm lí bình tĩnh ổn định và nhịp thở nín nhẹ đúng một khoảnh khắc ra sức cuối cùng (\"kĩ thuật phát lực kèm tiếng hét nhẹ/thở mạnh dứt khoát\")?",
+        "o": [
+          "Vì luật thi đấu phạt tiền nếu không hét to khi đẩy tạ",
+          "Để làm mềm nhũn toàn bộ cơ bụng ngay khoảnh khắc đẩy",
+          "Giữ nhẹ áp lực bụng một tích tắc rồi thở bật mạnh (\"Hà!\") khi đẩy bung giúp giữ vững cột sống, truyền trọn lực chân lên vai tay không thất thoát qua thắt lưng",
+          "Để dọa nạt làm trọng tài giật mình đo nhầm thước dây xa thêm"
+        ],
+        "k": "C",
+        "e": "Hiện tượng \"thở bật khi phát lực cực đại\" xuất hiện tự nhiên ở cả đẩy tạ, cử tạ, quần vợt lẫn võ thuật để khóa vững lõi cột sống và tối ưu lực bùng nổ.",
+        "s": "GDTC 8",
+        "h": "Cơ chế thở bật dứt khoát khóa vững cơ lõi khi phát lực"
+      }
+    ]
+  },
+  {
+    "chapter": "gdtc8-c3",
+    "lesson": {
+      "code": "gdtc8-b09",
+      "title": "Bài 9. Bài tập phát triển sức nhanh, phản xạ và sức mạnh bùng nổ",
+      "seq": 9,
+      "subtitle": "Thang dây nhanh chân (Agility Ladder), bật cóc bậc thấp, phản xạ theo tín hiệu màu sắc âm thanh và bài tập Plyometrics nhẹ",
+      "concepts": [
+        "Thang dây rèn bước chân nhanh",
+        "Phản xạ thị giác - thính giác",
+        "Plyometrics an toàn cho thiếu niên"
+      ]
+    },
+    "questions": [
+      {
+        "c": "GD8-B09-001",
+        "d": "basic",
+        "p": "Dụng cụ tập luyện đơn giản đặt phẳng trên mặt sân gồm các ô vuông nối tiếp nhau giống hình chiếc thang nằm ngang dùng để rèn luyện tố chất nào hiệu quả nhất?",
+        "o": [
+          "Thang dây rèn sự nhanh nhẹn (Agility Ladder): giúp rèn tốc độ guồng chân nhanh nhạy, phối hợp nhịp mắt - chân chính xác và thăng bằng chuyển hướng",
+          "Chỉ dùng để leo trèo lên cao giống cái thang gỗ sửa mái nhà",
+          "Chỉ để tập kéo co giữa hai tổ học sinh",
+          "Dùng để đo chiều dài sân bóng đá 100 mét"
+        ],
+        "k": "A",
+        "e": "Những bài tập bước 1 chạm, 2 chạm hay nhảy zíc-zắc qua ô thang dây khiến đôi chân trở nên linh hoạt nhanh nhẹn như lò xo.",
+        "s": "GDTC 8",
+        "h": "Công dụng tuyệt vời của Thang dây nhanh chân"
+      },
+      {
+        "c": "GD8-B09-002",
+        "d": "basic",
+        "p": "Hai hình thức phản xạ nhanh nhạy cơ bản nhất mà các bài tập trò chơi tốc độ hướng tới phát triển cho học sinh lớp 8 là gì?",
+        "o": [
+          "Đứng im bất động không phản ứng gì trước mọi tín hiệu",
+          "Chỉ ngồi yên nhắm mắt suy nghĩ thật chậm trong 10 phút",
+          "Phản xạ đơn giản (đáp ứng 1 tín hiệu biết trước như tiếng còi) và phản xạ phức hợp (nhận diện nhanh tín hiệu bất ngờ như màu cờ, hướng bóng để chọn hướng chạy)",
+          "Phản xạ ngủ sâu ngay khi nghe tiếng chuông đồng hồ báo thức"
+        ],
+        "k": "C",
+        "e": "Rèn phản xạ phức hợp (lựa chọn nhanh hướng chạy theo màu sắc hay động tác giả của đối thủ) cực kì quan trọng trong các môn thể thao bóng.",
+        "s": "GDTC 8",
+        "h": "Phân biệt phản xạ đơn và phản xạ phức hợp"
+      },
+      {
+        "c": "GD8-B09-003",
+        "d": "basic",
+        "p": "Khi thực hiện các bài tập \"bật nhảy nhanh liên tiếp qua vạch hoặc qua các chướng ngại thấp\" (nhảy Plyometrics nhẹ nhàng), yếu tố kĩ thuật nào quan trọng nhất để tạo \"sức mạnh bùng nổ đàn hồi\"?",
+        "o": [
+          "Giáng gót chân cứng nhắc mạnh hết sức xuống mặt sàn bê tông",
+          "Chạm sân bằng nửa bàn chân trước thật NHANH VÀ ĐÀN HỒI để rút ngắn thời gian tiếp xúc tối đa như bóng cao su nảy bật tức thì, không đứng lún lâu dưới đất",
+          "Khép chặt hai tay vào túi quần khi bật nhảy",
+          "Hạ mông ngồi xổm hẳn xuống đất nghỉ 3 giây sau mỗi cú nhảy rồi mới bật tiếp"
+        ],
+        "k": "B",
+        "e": "Bí quyết của bài tập bật đàn hồi (Plyometrics) là nguyên tắc \"Mặt đất nóng bỏng\" — chân vừa chạm đất là lập tức búng bật lên ngay!",
+        "s": "GDTC 8",
+        "h": "Nguyên tắc tiếp đất nhanh đàn hồi trong bật nhảy"
+      },
+      {
+        "c": "GD8-B09-004",
+        "d": "basic",
+        "p": "Bài tập nào rất an toàn và kinh điển để kiểm tra hoặc phát triển \"sức mạnh bùng nổ cơ chân\" theo phương ngang mà không cần dụng cụ đắt tiền?",
+        "o": [
+          "Đứng yên tại chỗ giơ tay trái lên cao trong 1 phút",
+          "Ngồi trên ghế đá nâng một chiếc bút chì",
+          "Đi bộ lùi thật chậm 50 mét",
+          "Bật xa tại chỗ (đứng hai chân sau vạch, vung hai tay lấy đà nhún gối bật mạnh cả hai chân về phía trước xa nhất có thể rồi tiếp đất giữ thăng bằng)"
+        ],
+        "k": "D",
+        "e": "Bật xa tại chỗ là chỉ tiêu đánh giá sức mạnh tốc độ cơ đùi mông tiêu chuẩn được sử dụng rộng rãi cho thanh thiếu niên toàn quốc.",
+        "s": "GDTC 8",
+        "h": "Bài tập chuẩn mực Bật xa tại chỗ"
+      },
+      {
+        "c": "GD8-B09-005",
+        "d": "basic",
+        "p": "Khi thực hiện động tác chạy nhanh trên các ô Thang dây thể lực, tư thế thân trên và cánh tay nào giúp đôi chân đạt tốc độ guồng nhanh tối đa không bị vướng giẫm vạch?",
+        "o": [
+          "Nhắm mắt chạy giật lùi thật nhanh qua các ô",
+          "Đặt cả gót chân phẳng lì nện mạnh xuống từng thanh ngang của thang dây",
+          "Cúi gập sát đầu nhìn xuống đúng bàn chân đang bước trong ô và buông thõng hai tay",
+          "Kiễng nhẹ nửa bàn chân trước, thân thẳng hơi chồm tự nhiên, hai khuỷu co 90° đánh nhanh đồng bộ bước chân và mắt liếc bao quát 2–3 ô dây phía trước"
+        ],
+        "k": "D",
+        "e": "Ngẩng nhẹ tầm mắt nhìn trước 2–3 ô và đánh tay dồn dập giúp tần số bước chân đạt tốc độ tối đa cực kì nhẹ nhàng.",
+        "s": "GDTC 8",
+        "h": "Tư thế kiễng nhẹ đánh tay nhanh trên thang dây"
+      },
+      {
+        "c": "GD8-B09-006",
+        "d": "basic",
+        "p": "Vì sao khi tập luyện nhóm bài tập phát triển sức nhanh và bật nhảy bùng nổ (Plyometrics nhẹ), học sinh KHÔNG được tập quá nhiều lần tới mức kiệt sức rã rời trong một buổi?",
+        "o": [
+          "Càng mệt lả rã rời không nhấc nổi chân thì tập bật nhảy càng cao hơn hẳn",
+          "Tập bật nhanh khi cơ khớp đã mệt dễ mất đàn hồi gây lật cổ chân, đau gân gót Achilles và không còn kích thích được thần kinh phát xung tốc độ cao nữa",
+          "Vì mỗi năm chỉ được phép bật nhảy tối đa đúng 5 cái",
+          "Vì các bài tập nhanh không cần tốn chút năng lượng hay nghỉ ngơi nào"
+        ],
+        "k": "B",
+        "e": "Chất lượng từng cú bật (\"ít lượt nhưng mỗi lượt bật hết sức sảng khoái và nghỉ đủ giữa các tổ\") quan trọng gấp trăm lần số lượng kiệt sức.",
+        "s": "GDTC 8",
+        "h": "Nguyên tắc chất lượng cao - nghỉ đủ cho tập sức nhanh"
+      },
+      {
+        "c": "GD8-B09-007",
+        "d": "application",
+        "p": "Quan sát bảng hướng dẫn tập 4 tổ hợp phát triển sức nhanh - bật nhảy dưới đây, trong một buổi học sân trường bê tông hơi cứng, bài tập nào thầy giáo cần GIẢM BỚT cường độ hoặc lót thảm cỏ êm thay thế để bảo vệ khớp gối tuổi lớp 8?",
+        "o": [
+          "Bỏ hoàn toàn mọi bài chạy nhẹ và tập thang dây trên sân phẳng",
+          "Tăng độ cao nhảy rơi từ bờ tường cao 1,5 mét xuống thẳng nền gạch hoa",
+          "Hạn chế nhảy từ bục quá cao xuống nền bê tông cứng; thay bằng bật nhảy nhẹ qua vạch thấp trên sân cỏ hay đệm cao su êm với khối lượng vừa sức (3×8 lần)",
+          "Cấm học sinh không được đi giày thể thao có đệm khi bật nhảy"
+        ],
+        "k": "C",
+        "e": "Chọn độ cao rơi phù hợp lứa tuổi (dưới 30–40 cm trên nền êm) bảo vệ tuyệt đối sụn tăng trưởng đầu gối đang phát triển của học sinh lớp 8.",
+        "s": "GDTC 8",
+        "h": "Điều chỉnh độ cao bật nhảy an toàn cho tuổi dậy thì",
+        "fig": {
+          "type": "table",
+          "title": "Bài tập Sức nhanh - Bùng nổ",
+          "head": [
+            "Bài tập",
+            "Mục tiêu chủ yếu"
+          ],
+          "rows": [
+            [
+              "Thang dây 1-2 chạm",
+              "Tần số bước nhanh"
+            ],
+            [
+              "Chạy phản xạ cờ màu",
+              "Nhanh nhạy lựa chọn"
+            ],
+            [
+              "Bật nhảy vạch thấp",
+              "Đàn hồi cổ chân"
+            ],
+            [
+              "Bật xa tại chỗ",
+              "Bùng nổ cơ đùi mông"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "GD8-B09-008",
+        "d": "application",
+        "p": "Khi tập kĩ thuật \"Bật xa tại chỗ\", một bạn nam khi vung tay lấy đà lại vung tay ra sau quá nhẹ rồi bật nhảy trong khi hai đầu gối gần như thẳng đơ không khuỵu lấy đà, dẫn đến thành tích rất khiêm tốn. Hãy hướng dẫn bạn ấy quy trình nhún lấy đà chuẩn để bật xa hơn ngay lập tức?",
+        "o": [
+          "Chụm sát gót chân và đứng thẳng đơ hoàn toàn rồi chỉ bật bằng hai cổ chân",
+          "Kiễng nhẹ đưa tay tới trước rồi khuỵu gối ~100–110° đồng thời vung mạnh hai tay ra sau; lập tức đạp duỗi bùng nổ hai chân kèm quất tay chếch 45° lên trước",
+          "Gập ngồi xổm mông chạm sát mặt đất giữ nguyên 5 giây rồi mới đứng lên",
+          "Vung hai tay ra sau rồi giữ chặt tay ở sau lưng suốt lúc bay"
+        ],
+        "k": "B",
+        "e": "Chỉ cần chỉnh đúng nhịp \"vung tay ra sau đồng thời hạ gối -> bùng nổ vung tay tới trước bật duỗi\", hầu hết học sinh tăng ngay thành tích bật xa lên thêm 15–25 cm!",
+        "s": "GDTC 8",
+        "h": "Tối ưu nhịp đánh tay lấy đà trong bật xa tại chỗ"
+      },
+      {
+        "c": "GD8-B09-009",
+        "d": "application",
+        "p": "Thầy giáo tổ chức trò chơi \"Phản xạ tín hiệu ba màu\": đặt 3 cọc mốc Xanh - Đỏ - Vàng ở ba hướng khác nhau cách tâm 6 mét. Học sinh chạy bước nhỏ tại chỗ giữa tâm, khi thầy giơ lá cờ màu nào phải lập tức bứt tốc chạm mốc màu đó và thu nhanh về tâm. Bài tập này mô phỏng tình huống thực tế của môn thể thao nào nhất?",
+        "o": [
+          "Chỉ dùng riêng cho môn cử tạ đứng yên tại chỗ",
+          "Mô phỏng việc ngồi yên đọc sách trong thư viện yên tĩnh",
+          "Không liên quan gì tới bất kì môn thể thao đối kháng nào",
+          "Mô phỏng chính xác đòi hỏi phản xạ đọc tình huống bất ngờ và đổi hướng bứt tốc cực nhanh trong Bóng đá, Bóng rổ, Cầu lông và Bóng chuyền"
+        ],
+        "k": "D",
+        "e": "Kết hợp \"xử lí tín hiệu thị giác\" với \"di chuyển bứt tốc đa hướng\" biến giờ tập thể lực trở nên cực kì thú vị và thiết thực.",
+        "s": "GDTC 8",
+        "h": "Giá trị thực chiến của bài tập phản xạ màu sắc"
+      },
+      {
+        "c": "GD8-B09-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ so sánh thời gian tiếp xúc mặt đất (Ground Contact Time) ở mỗi bước bật nhảy dưới đây, vì sao người tập đạt hiệu suất sức mạnh bùng nổ tốt luôn có thời gian chạm đất ngắn hơn hẳn (chỉ khoảng 0,18 giây) so với người nhảy chậm nặng nề (0,42 giây)?",
+        "o": [
+          "Do đồng hồ đo bị lỗi không bấm kịp lúc bật nhảy",
+          "Vì thời gian chạm đất càng lâu tới 2 giây thì lực đàn hồi càng mạnh gấp mười",
+          "Chạm đất thật ngắn giúp bảo toàn năng lượng đàn hồi tích trong gân cơ để nảy bật tiếp ngay; đứng lún lâu làm năng lượng tan thành nhiệt mất hết lực nảy",
+          "Vì người bật nhảy giỏi không hề chạm bàn chân xuống mặt đất lần nào"
+        ],
+        "k": "C",
+        "e": "\"Giảm thời gian tiếp xúc mặt đất\" (Reactive Strength) chính là chìa khóa giúp cầu thủ bật tranh bóng bổng nhanh hơn hẳn đối thủ dù nhảy cùng độ cao!",
+        "s": "GDTC 8",
+        "h": "Bí mật của thời gian tiếp xúc đất cực ngắn",
+        "fig": {
+          "type": "bars",
+          "title": "Thời gian chạm đất khi bật nhảy liên tiếp (ms)",
+          "labels": [
+            "Lún gối chậm",
+            "Bật trung bình",
+            "Đàn hồi nhanh"
+          ],
+          "series": [
+            {
+              "values": [
+                420,
+                270,
+                180
+              ]
+            }
+          ],
+          "unit": "ms"
+        }
+      },
+      {
+        "c": "GD8-B09-011",
+        "d": "application",
+        "p": "Trong khi chạy tập bài \"Bước zíc-zắc nhanh qua thang dây thể lực\", một bạn liên tục bị mũi giày vướng vào thanh dây nhựa làm xô lệch thang và suýt vấp ngã. Cách nhắc chỉnh kĩ thuật chân nhỏ gọn để chạy mượt mà không vấp là gì?",
+        "o": [
+          "Nhấc nhẹ mũi chân vừa đủ qua thanh ngang gọn dứt khoát bằng cổ chân và gối, tránh bước dài thừa và giữ tầm mắt nhìn trước 2 ô dây thay vì lết mũi chân",
+          "Nhảy bật cao 80 cm qua từng thanh dây một thật chậm chạp",
+          "Tháo dây thang cuộn tròn cất đi không tập bài chân nhanh nữa",
+          "Kéo lết lê mũi giày sát mặt đất qua các thanh nhựa"
+        ],
+        "k": "A",
+        "e": "Dùng thang dây kẻ vạch sơn hoặc dây dẹt sát mặt sân cũng là mẹo an toàn tuyệt vời giúp người mới học không sợ vướng ngã.",
+        "s": "GDTC 8",
+        "h": "Khắc phục lỗi vướng mũi giày khi tập thang dây"
+      },
+      {
+        "c": "GD8-B09-012",
+        "d": "application",
+        "p": "Khi kết thúc pha bay bật xa tại chỗ và tiếp đất bằng hai chân, nhiều bạn bật rất xa nhưng sau khi gót vừa chạm vạch lại bị mất thăng bằng ngã ngửa mông đập ra phía sau làm tụt mất gần nửa mét thành tích. Cách tiếp đất giữ thành tích tối đa là gì?",
+        "o": [
+          "Duỗi thẳng cứng đơ cả hai đầu gối không thèm gập chân xuống chút nào",
+          "Khi sắp chạm đất, đánh mạnh hai tay ra sau lưng và ngửa mặt nhìn lên trời",
+          "Chống hai bàn tay thẳng ra sau mông cho đỡ ngã",
+          "Trước khi chạm đất, vươn hai gót tới trước đồng thời gập gối giảm chấn và VUNG MẠNH HAI TAY TỚI TRƯỚC kéo thân chồm lên để vượt qua vết chạm gót"
+        ],
+        "k": "D",
+        "e": "Áp dụng chuẩn nguyên lí tiếp đất nhảy xa: vung tay lao ngực tới trước giữ toàn bộ trọng tâm đi tiếp qua vạch chạm gót.",
+        "s": "GDTC 8",
+        "h": "Giữ thăng bằng lao thân tới trước sau bật xa tại chỗ"
+      },
+      {
+        "c": "GD8-B09-013",
+        "d": "advanced",
+        "p": "Phân tích sự khác biệt giữa \"Sức mạnh tối đa\" (ví dụ cử tạ nâng một vật thật nặng chậm rãi trong 4 giây) và \"Sức mạnh tốc độ / Bùng nổ\" (Power = Lực × Vận tốc trong thể thao trường học): tại sao sức mạnh bùng nổ lại quan trọng hơn hẳn cho hầu hết các môn thể thao của học sinh?",
+        "o": [
+          "Vì học sinh không cần dùng sức cơ bắp trong bất kì môn chạy nhảy nào",
+          "Vì nâng vật càng chậm thì quả bóng hay cơ thể càng bay nhanh hơn",
+          "Trong chạy ngắn, bật nhảy hay sút bóng chỉ có 0,15–0,25 giây để truyền lực tối đa; phát lực càng nhanh trong tích tắc ngắn ngủi đó thì thành tích càng vượt trội",
+          "Vì sức mạnh bùng nổ hoàn toàn không cần đến tốc độ co cơ"
+        ],
+        "k": "C",
+        "e": "Khả năng huy động hàng loạt sợi cơ nhanh (Fast-twitch fibers) cùng lúc trong 200 mili-giây chính là định nghĩa của Power thể thao.",
+        "s": "GDTC 8",
+        "h": "Phân biệt Sức mạnh chậm và Sức mạnh bùng nổ Power"
+      },
+      {
+        "c": "GD8-B09-014",
+        "d": "advanced",
+        "p": "Tại sao trong giáo trình huấn luyện hiện đại gọi tổ hợp kĩ năng \"Nhanh nhẹn đổi hướng\" (Agility) không chỉ đơn thuần là tốc độ chân nhanh mà là \"Tốc độ chạy đổi hướng CÓ ĐÁP ỨNG VỚI TÍN HIỆU MÔI TRƯỜNG\"?",
+        "o": [
+          "Vì chạy qua cọc cố định luôn khó hơn phản ứng trước đối thủ di động",
+          "Chạy zíc-zắc cọc cố định chỉ là đổi hướng cơ bản; Agility đòi hỏi não nhận diện tín hiệu bất ngờ rồi quyết định đổi hướng tức thì",
+          "Vì tốc độ đổi hướng hoàn toàn không cần não bộ tham gia xử lí",
+          "Vì Agility nghĩa là đứng yên bất động không cần nhìn tín hiệu nào xung quanh"
+        ],
+        "k": "B",
+        "e": "Chơi các môn đối kháng đồng đội hay bài tập phản xạ tín hiệu bất ngờ chính là cách rèn trí thông minh vận động Agility tối ưu nhất.",
+        "s": "GDTC 8",
+        "h": "Bản chất nhận thức của năng lực nhanh nhẹn Agility"
+      },
+      {
+        "c": "GD8-B09-015",
+        "d": "advanced",
+        "p": "Trong việc thiết kế một buổi tập rèn sức nhanh và sức mạnh bùng nổ kéo dài 25 phút cho thanh thiếu niên, thứ tự bố trí khoa học giữa \"Bài tập tốc độ phản xạ\", \"Bật nhảy bùng nổ\" và \"Chạy bền\" nên xếp theo trật tự nào và vì sao?",
+        "o": [
+          "Chỉ tập phản xạ tốc độ khi mọi người đều đang buồn ngủ mệt mỏi nhất",
+          "Thứ tự chuẩn: Khởi động kĩ -> Phản xạ tốc độ & thang dây -> Bật nhảy bùng nổ khi thần kinh tươi tỉnh nhất (nghỉ đủ giữa các tổ) -> cuối cùng mới chạy bền",
+          "Bắt chạy bền thật mệt kiệt sức trước rồi mới tập phản xạ tốc độ và bật nhảy cuối buổi",
+          "Tập bật nhảy rơi bục trước khi làm nóng khởi động khớp cổ chân"
+        ],
+        "k": "B",
+        "e": "Nguyên tắc \"Hệ thần kinh tươi mới cho Tốc độ và Kĩ thuật; Hệ tuần hoàn chịu đựng cho Sức bền cuối buổi\" là quy luật vàng của khoa học huấn luyện.",
+        "s": "GDTC 8",
+        "h": "Trật tự sắp xếp tối ưu trong một buổi tập thể lực"
+      }
+    ]
+  },
+  {
+    "chapter": "gdtc8-c4",
+    "lesson": {
+      "code": "gdtc8-b10",
+      "title": "Bài 10. Làm quen bóng chuyền: tư thế chuẩn bị, chuyền bóng cao tay và đệm bóng thấp tay",
+      "seq": 10,
+      "subtitle": "Tư thế chuẩn bị bóng chuyền, hình phễu ngón tay chuyền cao tay trước mặt và khóa khớp cổ tay - cẳng tay đệm bóng thấp tay",
+      "concepts": [
+        "Tư thế chuẩn bị linh hoạt",
+        "Chuyền bóng cao tay bằng ngón",
+        "Đệm bóng thấp tay bằng cẳng tay"
+      ]
+    },
+    "questions": [
+      {
+        "c": "GD8-B10-001",
+        "d": "basic",
+        "p": "Tư thế chuẩn bị cơ bản trong môn Bóng chuyền có đặc điểm đứng thế nào để người chơi có thể bứt di chuyển hoặc hạ thấp đón bóng ngay lập tức?",
+        "o": [
+          "Đứng chụm sát hai chân thẳng đơ đầu gối và đan hai tay ra sau lưng",
+          "Hai chân rộng bằng vai (1 chân nhích nhẹ nửa bàn), hai gối khuỵu thấp trọng tâm, thân hơi chồm trước, hai tay co trước thắt lưng và mắt theo sát bóng",
+          "Ngồi hẳn xuống sàn sân chờ bóng bay tới sát đầu mới đứng dậy",
+          "Nằm sấp xuống mặt sân giơ hai chân lên cao"
+        ],
+        "k": "B",
+        "e": "Tư thế chuẩn bị hơi kiễng nhẹ gót và hạ thấp trọng tâm giúp người chơi bật ngang hay lao tới cứu bóng chỉ trong tích tắc.",
+        "s": "GDTC 8",
+        "h": "Tư thế chuẩn bị cơ bản trong bóng chuyền"
+      },
+      {
+        "c": "GD8-B10-002",
+        "d": "basic",
+        "p": "Khi thực hiện kĩ thuật \"Chuyền bóng cao tay trước mặt\" (búng chuyền bóng bằng các ngón tay ở phía trên trán), hình dáng hai bàn tay đặt đón bóng chuẩn xác trông giống hình gì?",
+        "o": [
+          "Để quả bóng rơi nện thẳng vào lòng bàn tay mở phẳng bẹt như cái mâm",
+          "Khép sát thẳng cứng tất cả 10 đầu ngón tay lại thành hai mặt phẳng chĩa thẳng đâm vào bóng",
+          "Mở rộng các ngón khum tròn hình phễu ôm vừa dáng bóng (hai ngón cái và hai ngón trỏ hướng vào nhau tạo khung tam giác thoáng ngay trước trán)",
+          "Nắm chặt hai bàn tay thành nắm đấm đấm mạnh vào đáy quả bóng"
+        ],
+        "k": "C",
+        "e": "Hình tam giác khum ngón tay trước trán tạo độ đàn hồi cực kì êm nhạy, tránh tuyệt đối lỗi chọc thẳng ngón tay gây sưng khớp ngón (\"lụt ngón tay\") và tránh lỗi dính bóng.",
+        "s": "GDTC 8",
+        "h": "Hình phễu tam giác ngón tay khi chuyền cao tay"
+      },
+      {
+        "c": "GD8-B10-003",
+        "d": "basic",
+        "p": "Trong kĩ thuật chuyền bóng cao tay, điểm tiếp xúc bóng chuẩn xác nằm ở đâu so với khuôn mặt và cơ thể người thực hiện?",
+        "o": [
+          "Ở phía trước và hơi cao hơn trán (~15–20 cm) để mắt nhìn xuyên khe tam giác thấy bóng, đồng thời duỗi bật phối hợp chân - thân - tay đẩy bóng đi",
+          "Ngay ngang tầm đầu gối phía dưới bụng",
+          "Phía sau đỉnh gáy đầu tuốt ra tận sau lưng",
+          "Chạm trực tiếp vào chóp mũi hoặc cằm"
+        ],
+        "k": "A",
+        "e": "Tiếp xúc phía trên trước trán giúp người chuyền quan sát cùng lúc cả quả bóng lẫn đồng đội đập bóng bên lưới.",
+        "s": "GDTC 8",
+        "h": "Điểm tiếp xúc bóng chuẩn phía trên trước trán"
+      },
+      {
+        "c": "GD8-B10-004",
+        "d": "basic",
+        "p": "Kĩ thuật \"Đệm bóng thấp tay bằng hai tay\" (bước một đỡ phát bóng hoặc cứu bóng mạnh tầm thấp) yêu cầu hai bàn tay nắm ghép vào nhau và phần nào của cánh tay tiếp xúc với quả bóng?",
+        "o": [
+          "Hai tay lồng nắm chắc (hai ngón cái song song hướng xuống), hai khuỷu duỗi THẲNG TẮP khóa chặt tạo mặt phẳng đều ở phần trong hai cẳng tay để đỡ bóng",
+          "Dùng hai nắm đấm rời nhau đấm mạnh vào bóng cho bóng văng lên trần nhà",
+          "Mở rộng hai bàn tay ra bắt dính giữ quả bóng lại trên sân rồi mới tung lên",
+          "Gập cong hai khuỷu tay lại như đang bế em bé và đón bóng bằng hai cổ tay lỏng lẻo"
+        ],
+        "k": "A",
+        "e": "Duỗi thẳng khóa cứng khớp khuỷu tay và hạ gập nhẹ hai cổ tay xuống tạo ra \"tấm ván cẳng tay phẳng rộng\" giúp bóng bật lên đúng hướng chuẩn xác.",
+        "s": "GDTC 8",
+        "h": "Khóa thẳng khuỷu tay tạo mặt đệm phẳng cẳng tay"
+      },
+      {
+        "c": "GD8-B10-005",
+        "d": "basic",
+        "p": "Khi đệm bóng thấp tay đúng kĩ thuật, lực đẩy chính đưa quả bóng bay lên cao tới chuyền hai được tạo ra từ động tác nào là chủ yếu (thay vì vung mạnh hai cánh tay lên cao quá vai)?",
+        "o": [
+          "Vung giật mạnh cả hai cánh tay từ đầu gối quất ngược qua đỉnh đầu ra sau lưng",
+          "Đứng thẳng cứng hai chân bất động hoàn toàn chỉ lắc mạnh cổ tay lên",
+          "Nhảy bật thật cao hai chân lên không trung trước khi bóng tới",
+          "Từ lực duỗi nhẹ HAI ĐẦU GỐI và đẩy hông tới trước (nâng trọng tâm thân người êm ái) kết hợp giữ vững mặt phẳng cẳng tay hơi nâng nhẹ lên ngang ngực"
+        ],
+        "k": "D",
+        "e": "Lỗi lớn nhất của người mới tập là \"vung tay quá cao ngang mặt\"; nhớ nguyên tắc: \"Đệm bóng bằng đôi chân nhún đẩy, cẳng tay chỉ là tấm bảng điều hướng ổn định dưới tầm vai\".",
+        "s": "GDTC 8",
+        "h": "Dùng lực nhún chân đẩy bóng thay vì vung tay quá cao"
+      },
+      {
+        "c": "GD8-B10-006",
+        "d": "basic",
+        "p": "Theo luật Bóng chuyền cơ bản 6 người, mỗi đội được chạm bóng tối đa bao nhiêu lần ở phần sân mình để tổ chức đưa bóng sang lưới (không tính pha chắn bóng trên lưới) và một người có được chạm bóng hai lần liên tiếp không?",
+        "o": [
+          "Một cầu thủ được tự tâng chuyền bóng bằng hai tay 5 lần rồi mới đập sang",
+          "Chạm tối đa 3 lần mỗi pha bên sân mình; một cầu thủ KHÔNG được chạm bóng 2 lần liên tiếp (trừ trường hợp lần chạm đầu tiên là chắn bóng trên lưới)",
+          "Chạm không giới hạn số lần, thích chuyền 10 lần trong sân mình cũng được",
+          "Chỉ được chạm tối đa đúng 1 lần duy nhất sang sân bạn ngay lập tức"
+        ],
+        "k": "B",
+        "e": "Luật \"tối đa 3 chạm: Bước 1 (Đỡ) -> Bước 2 (Chuyền hai) -> Bước 3 (Đập/Đẩy sang) và không chạm kép\" tạo nên nét đẹp phối hợp đồng đội tuyệt vời của bóng chuyền.",
+        "s": "GDTC 8",
+        "h": "Luật tối đa 3 chạm và cấm một người chạm kép"
+      },
+      {
+        "c": "GD8-B10-007",
+        "d": "application",
+        "p": "Quan sát bảng hướng dẫn sửa lỗi hai kĩ thuật cơ bản bóng chuyền dưới đây, một bạn học sinh khi tập chuyền bóng cao tay thường xuyên để ngón tay cái chĩa thẳng vuông góc vào quả bóng đang rơi xuống làm bị đau chói đầu ngón cái. Cách điều chỉnh tư thế bàn tay khắc phục ngay là gì?",
+        "o": [
+          "Cắt bỏ toàn bộ bài tập chuyền cao tay chỉ chơi bóng đá bằng chân",
+          "Khép thẳng cứng ngắt các ngón tay hơn nữa và đẩy thật mạnh từ cổ tay",
+          "Đấm mạnh quả bóng bằng lòng bàn tay sưng đỏ lên cho quen dần",
+          "Mở rộng cổ tay khum các ngón ôm theo hình cầu của bóng (hai ngón cái tạo đáy tam giác mềm) để phần đệm đốt ngón đón êm thay vì chọc thẳng mũi ngón"
+        ],
+        "k": "D",
+        "e": "Tư thế \"bàn tay hình quả cầu khum tự nhiên\" tăng diện tích tiếp xúc lên gấp 4 lần ở các đốt ngón tay trên, vừa êm tay tuyệt đối vừa kiểm soát đường chuyền chính xác.",
+        "s": "GDTC 8",
+        "h": "Khắc phục lỗi chọc thẳng ngón tay khi chuyền cao tay",
+        "fig": {
+          "type": "table",
+          "title": "Kĩ thuật cơ bản Bóng chuyền",
+          "head": [
+            "Kĩ thuật",
+            "Điểm chuẩn xác"
+          ],
+          "rows": [
+            [
+              "Chuyền cao tay",
+              "Phễu tay trên trán"
+            ],
+            [
+              "Chân khi chuyền",
+              "Nhún đẩy nhẹ thân"
+            ],
+            [
+              "Đệm thấp tay",
+              "Khóa thẳng khuỷu tay"
+            ],
+            [
+              "Điểm chạm đệm",
+              "Trên cổ tay cẳng tay"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "GD8-B10-008",
+        "d": "application",
+        "p": "Khi tập đệm bóng thấp tay đón một đường bóng bay sang hơi lệch về phía bên trái thân người, bạn học sinh chỉ đứng chôn chặt hai chân tại chỗ rồi cố vặn vẹo nghiêng xoắn cánh tay sang trái để với bóng, làm bóng bay tít ra ngoài đường biên. Động tác di chuyển chân chuẩn phải làm trước khi đệm là gì?",
+        "o": [
+          "Đá chân sang trái đẩy bóng thay vì đệm bóng bằng tay",
+          "Nhắm mắt quay lưng chạy tránh xa khỏi quỹ đạo quả bóng bay tới",
+          "Đứng chôn chân một chỗ càng vươn dài một tay sang ngang càng tốt",
+          "Di chuyển bước trượt ngang nhanh đưa thân người vào ĐÚNG SAU ĐƯỜNG BÓNG sao cho bóng nằm ngay trước giữa thân trước khi khép tay đệm thẳng hướng đồng đội"
+        ],
+        "k": "D",
+        "e": "\"Đưa cơ thể ra sau trái bóng bằng đôi chân trước khi chạm bóng bằng đôi tay\" là bí quyết của mọi cầu thủ chuyền một bước một xuất sắc.",
+        "s": "GDTC 8",
+        "h": "Di chuyển chân đưa thân ra sau tâm bóng trước khi đệm"
+      },
+      {
+        "c": "GD8-B10-009",
+        "d": "application",
+        "p": "Trong lúc đệm bóng thấp tay (đặc biệt khi bắt bóng phát sang khá mạnh), tại sao nhiều bạn học sinh lại để bóng bay bật trúng vào hai nắm tay đan nhau (vùng khớp ngón cái nhô lên) khiến bóng bay vọt lộn xộn đi lung tung mất hướng?",
+        "o": [
+          "Vùng nắm tay nhiều khớp xương lồi lõm làm bóng nảy lệch; cần dịch điểm chạm lên mặt phẳng đều của hai cẳng tay (trên cổ tay 5–10 cm) và chúc nhẹ nắm tay",
+          "Vì hai nắm tay mềm quá làm bóng bị xẹp mất hơi khi chạm vào",
+          "Vì luật bóng chuyền phạt lỗi chạm kép nếu bóng chạm vào phần cẳng tay",
+          "Vì nắm tay luôn phẳng hơn phần cẳng tay rất nhiều"
+        ],
+        "k": "A",
+        "e": "Hạ chúc nhẹ hai ngón cái xuống phía đất (\"push thumbs down\") tự nhiên ép thẳng khuỷu tay và lộ ra mặt phẳng tuyệt đẹp của hai cẳng tay!",
+        "s": "GDTC 8",
+        "h": "Bí quyết ấn chúc hai ngón cái phẳng mặt cẳng tay"
+      },
+      {
+        "c": "GD8-B10-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ tỉ lệ chuyền trúng đích qua 2 bài tập làm quen của lớp 8A dưới đây, trong giai đoạn đầu mới học chuyền cao tay hoặc đệm bóng, bài tập cặp đôi nào giúp học sinh chỉnh sửa dáng tay nhanh gấp đôi so với đánh qua lại liên tiếp khi tay chưa chuẩn?",
+        "o": [
+          "Mỗi người tự tung bóng lên trần nhà cao 10 mét rồi chạy đi chỗ khác",
+          "Thi nhau đập mạnh hết sức sang nhau ngay từ phút đầu tiên cho bóng bay lung tung đi nhặt suốt buổi",
+          "Một bạn tung bóng bổng chuẩn bằng hai tay — bạn kia thực hiện 1 lần chuyền hoặc đệm gọn trả vào tay bạn tung (Toss - Pass - Catch) để chuẩn hóa từng nhịp",
+          "Đứng quay lưng lại không tung bóng chỉ ngồi nói chuyện"
+        ],
+        "k": "C",
+        "e": "Chu kì \"Tung chuẩn - Thực hiện 1 chạm đẹp - Bắt giữ kiểm tra phản hồi\" sửa lỗi kĩ thuật siêu tốc mà không tốn công chạy đi nhặt bóng rơi.",
+        "s": "GDTC 8",
+        "h": "Phương pháp tập Tung chuẩn - Chạm chuẩn theo cặp",
+        "fig": {
+          "type": "bars",
+          "title": "Số đường chuyền trúng tay bạn trong 20 lần",
+          "labels": [
+            "Đánh bừa liên tục",
+            "Tung chuẩn - Chạm 1 nhịp"
+          ],
+          "series": [
+            {
+              "values": [
+                7,
+                16
+              ]
+            }
+          ],
+          "unit": "lần"
+        }
+      },
+      {
+        "c": "GD8-B10-011",
+        "d": "application",
+        "p": "Khi đệm bóng cho đồng đội đứng ở gần lưới phía trước mặt, góc độ mặt phẳng hai cẳng tay hợp với mặt đất phải thay đổi thế nào giữa hai tình huống: bóng bay tới RẤT MẠNH và bóng rơi tới NHẸ CHẬM?",
+        "o": [
+          "Không bao giờ thay đổi lực tay mà để bóng tự bay ra ngoài sân",
+          "Bóng càng lao tới mạnh bao nhiêu thì càng phải vung tay đánh ngược lại hết sức bấy nhiêu",
+          "Bóng mạnh thì hạ nhẹ góc cẳng tay và thu êm không vung (cho tự nảy vừa); bóng nhẹ chậm thì mở chếch cẳng tay hướng đích và nhún chân đẩy lực chủ động hơn",
+          "Cúi người thấp xuống để bóng đập thẳng vào đầu"
+        ],
+        "k": "C",
+        "e": "Kiểm soát \"góc phản xạ của tấm bảng cẳng tay\" theo tốc độ bóng đến biến bạn thành người đỡ bóng bước một êm như nhung.",
+        "s": "GDTC 8",
+        "h": "Điều chỉnh góc và lực cẳng tay theo tốc độ bóng đến"
+      },
+      {
+        "c": "GD8-B10-012",
+        "d": "application",
+        "p": "Trong một tiết học bóng chuyền dùng bóng da hoặc bóng chuyền hơi nhẹ tập luyện ở sân trường, những quy tắc an toàn và văn minh nào học sinh phải luôn nhớ?",
+        "o": [
+          "Cố tình đánh bóng mạnh bất ngờ vào lúc bạn cặp đang cúi buộc dây giày",
+          "Đeo nhiều vòng tay kim loại cứng và đồng hồ to nặng trên cổ tay khi đệm bóng",
+          "Dùng chân sút thật mạnh hết sức quả bóng chuyền bay thẳng qua hàng rào",
+          "Tháo nhẫn, vòng cứng hoặc đồng hồ sắc cạnh dễ gây xước trật ngón tay; tuyệt đối không dùng chân sút mạnh làm hỏng méo bóng chuyền hay bay trúng mặt bạn"
+        ],
+        "k": "D",
+        "e": "Tôn trọng quy cách từng môn bóng (không dùng chân đá mạnh bóng chuyền/bóng rổ) vừa giữ bền dụng cụ nhà trường vừa tránh tai nạn cho bạn bè.",
+        "s": "GDTC 8",
+        "h": "Bảo vệ khớp ngón tay và giữ gìn bóng chuyền"
+      },
+      {
+        "c": "GD8-B10-013",
+        "d": "advanced",
+        "p": "Phân tích vì sao trong bóng chuyền hiện đại, kĩ thuật \"Chuyền bóng cao tay\" được xem là kĩ thuật truyền bóng CHÍNH XÁC nhất để làm \"chuyền hai kiến tạo tấn công\", còn \"Đệm bóng thấp tay\" lại là kĩ thuật CHỦ LỰC để đỡ các pha phát bóng và đập bóng cực mạnh?",
+        "o": [
+          "Vì hai kĩ thuật này hoàn toàn có thể thay thế 100 phần trăm cho nhau không có khác biệt",
+          "Vì luật bóng chuyền cấm cầu thủ chuyền hai được chạm bóng bằng ngón tay",
+          "Vì đệm bóng thấp tay có độ chính xác gấp 5 lần chuyền bằng 10 đầu ngón tay ở bóng nhẹ",
+          "Chuyền cao tay dùng ngón chỉnh hướng, độ cao tinh vi cho đồng đội đập; khi đỡ bóng đập mạnh dễ chấn thương hoặc dính bóng, đệm cẳng tay an toàn hơn"
+        ],
+        "k": "D",
+        "e": "Mỗi kĩ thuật sinh ra để giải quyết bài toán vật lí riêng: mềm dẻo chính xác cho kiến tạo tinh tế, cứng cáp rộng mặt cho phòng thủ hứng lực mạnh.",
+        "s": "GDTC 8",
+        "h": "Phân công vai trò vật lí giữa Chuyền cao và Đệm thấp"
+      },
+      {
+        "c": "GD8-B10-014",
+        "d": "advanced",
+        "p": "Theo luật bóng chuyền nghiêm ngặt, hai lỗi kĩ thuật rất hay bị trọng tài thổi phạt khi học sinh thực hiện pha \"Chuyền bóng cao tay\" là lỗi \"Dính bóng\" (Caught/Thrown) và lỗi \"Hai chạm / Đánh bóng không đồng thời\" (Double Contact). Hai lỗi này xảy ra thế nào và cách phòng tránh là gì?",
+        "o": [
+          "Chờ bóng rơi xuống tận ngang thắt lưng rồi ôm giữ 2 giây trước khi tung lên",
+          "Dính bóng là đỡ rơi sâu xuống ngực rồi hất lên; Hai chạm là hai tay chạm lệch nhịp; cần đón trên trán và bật đẩy đồng đều tức thời",
+          "Không bao giờ sử dụng các ngón tay chạm bóng mà chỉ dùng trán húc bóng",
+          "Cố ý dùng tay phải đẩy trước rồi tay trái đẩy sau tạo hai nhịp rõ rệt"
+        ],
+        "k": "B",
+        "e": "Âm thanh \"chạm một tiếng gọn êm\" (single clean touch) là dấu hiệu của một pha chuyền hai đẹp chuẩn mực luật bóng chuyền.",
+        "s": "GDTC 8",
+        "h": "Phòng tránh lỗi dính bóng và chạm kép khi chuyền cao tay"
+      },
+      {
+        "c": "GD8-B10-015",
+        "d": "advanced",
+        "p": "Trong tập thể đội hình 6 người của bóng chuyền, trái bóng KHÔNG BAO GIỜ được phép chạm đất trong suốt pha bóng kéo dài. Văn hóa tinh thần đồng đội đặc trưng nhất của môn Bóng chuyền thể hiện qua câu nói quen thuộc nào trên sân?",
+        "o": [
+          "\"Không để bóng rơi và luôn hô to báo hiệu tin tưởng nhường hoặc nhận bóng\": bóng chuyền không thể giữ bóng một mình, mọi điểm đều đi qua nhiều cánh tay phối hợp",
+          "\"Thấy bóng rơi xa 1 mét cứ đứng nhìn cho đồng đội tự chạy tới\"",
+          "\"Chỉ có người đập bóng cuối cùng mới quan trọng, người đỡ bước một không cần thiết\"",
+          "\"Bóng của ai người nấy tự giữ lấy không bao giờ chuyền cho ai\""
+        ],
+        "k": "A",
+        "e": "Không có bước một đệm lên chính xác, không có chuyền hai kiến tạo đẹp — mọi vai trò thầm lặng trên sân bóng chuyền đều tỏa sáng ngang nhau!",
+        "s": "GDTC 8",
+        "h": "Triết lí đồng đội Không để bóng rơi trên sân"
+      }
+    ]
+  },
+  {
+    "chapter": "gdtc8-c4",
+    "lesson": {
+      "code": "gdtc8-b11",
+      "title": "Bài 11. Kĩ thuật phát bóng thấp tay chính diện trong bóng chuyền",
+      "seq": 11,
+      "subtitle": "Tư thế đứng ngoài biên ngang phát bóng thấp tay chính diện (nghiêng vai cầm bóng, tung bóng thấp ổn định, vung tay thẳng đánh gót bàn tay)",
+      "concepts": [
+        "Tư thế đứng và tung bóng chuẩn",
+        "Vung tay thẳng tiếp xúc đáy bóng",
+        "Quy định luật phát bóng qua lưới"
+      ]
+    },
+    "questions": [
+      {
+        "c": "GD8-B11-001",
+        "d": "basic",
+        "p": "Mục đích ban đầu của kĩ thuật \"Phát bóng thấp tay chính diện\" trong chương trình bóng chuyền học đường lớp 8 là gì?",
+        "o": [
+          "Tung bóng cao lên 10 mét rồi dùng hai tay chuyền sang lưới",
+          "Chuyền bóng lăn sệt dưới mặt đất chui qua gầm lưới",
+          "Đập bóng từ độ cao 3 mét xuống thẳng mặt sân mình",
+          "Đưa bóng nhập cuộc qua lưới sang sân đối phương một cách ổn định, an toàn, đúng luật và dễ kiểm soát hướng rơi vào khoảng trống sân đối thủ"
+        ],
+        "k": "D",
+        "e": "Phát bóng thấp tay chính diện là kiểu phát bóng dễ học, tỉ lệ qua lưới thành công cao nhất cho học sinh mới làm quen thi đấu bóng chuyền.",
+        "s": "GDTC 8",
+        "h": "Ưu điểm ổn định của phát bóng thấp tay chính diện"
+      },
+      {
+        "c": "GD8-B11-002",
+        "d": "basic",
+        "p": "Trong tư thế chuẩn bị phát bóng thấp tay chính diện (dành cho người thuận tay đánh bóng là tay PHẢI), hai chân đặt ở vị trí nào phía sau vạch biên ngang cuối sân?",
+        "o": [
+          "Cả hai chân đứng ngang hàng giẫm đè hẳn lên vạch biên cuối sân",
+          "Chân PHẢI đặt trước còn chân trái lùi ra sau khiến thân vướng tay vung đánh",
+          "Quay lưng lại nhìn ra ngoài sân rồi ném bóng qua đầu",
+          "Chân TRÁI đặt trước sát ngay sau vạch cuối sân (không giẫm vạch), chân PHẢI đặt lùi nửa bước hơi mở sang phải, hai gối hơi khuỵu thân ngả nhẹ về trước"
+        ],
+        "k": "D",
+        "e": "Nguyên tắc đứng chân ngược bên tay đánh (\"chân trái trước - tay phải đánh\") tạo lối hành lang thoáng sạch bên hông phải cho cánh tay vung thẳng từ sau ra trước.",
+        "s": "GDTC 8",
+        "h": "Tư thế đứng chân ngược tay đánh bóng chuẩn"
+      },
+      {
+        "c": "GD8-B11-003",
+        "d": "basic",
+        "p": "Động tác tay không đánh bóng (tay trái) thực hiện thao tác \"tung bóng\" trước khi tay phải đánh bóng chuẩn kĩ thuật nhất là như thế nào?",
+        "o": [
+          "Tung bóng bay chếch ra phía sau gáy đầu bên trái",
+          "Giữ chặt bóng dính nguyên trên lòng bàn tay trái không tung rời tay chút nào rồi lấy tay phải đập vào cả bóng lẫn tay trái",
+          "Đặt bóng trên tay trái đưa trước ngang thắt lưng thẳng trục vai phải, tung bóng thẳng đứng lên 20–30 cm rồi mới đánh (KHÔNG đánh khi bóng còn dính trên tay)",
+          "Tung quả bóng vọt lên cao tới 4 mét rồi xoay người quay vòng tìm bóng"
+        ],
+        "k": "C",
+        "e": "Luật bóng chuyền bắt buộc bóng phải ĐƯỢC TUNG RỜI KHỎI TAY trước khi tay đánh chạm bóng! Tung thấp ổn định 20–30 cm giúp căn điểm chạm cực kì dễ trúng tâm.",
+        "s": "GDTC 8",
+        "h": "Tung bóng thấp 20-30cm rời khỏi tay trước khi đánh"
+      },
+      {
+        "c": "GD8-B11-004",
+        "d": "basic",
+        "p": "Phần nào của bàn tay phải tiếp xúc vào vị trí nào trên quả bóng khi phát bóng thấp tay chính diện để bóng bay bổng qua lưới đẹp mắt?",
+        "o": [
+          "Dùng phần gốc lòng bàn tay hoặc nắm tay khép gọn đều mặt (mặt cứng phẳng) đánh thẳng dứt khoát vào phần DƯỚI - SAU TÂM quả bóng để tạo hướng bay lên cao",
+          "Hất bóng bằng mu bàn tay từ trên cao xuống",
+          "Đánh bằng các đầu ngón tay mềm xòe rộng vào đỉnh trên cùng quả bóng làm bóng cắm thẳng xuống đất",
+          "Đánh bằng phần khuỷu tay vào giữa sườn bên trái quả bóng"
+        ],
+        "k": "A",
+        "e": "Dùng gốc bàn tay cứng chắc tiếp xúc vào phần nửa sau dưới tâm bóng tạo đường bay vòng cung vượt qua mép lưới an toàn.",
+        "s": "GDTC 8",
+        "h": "Tiếp xúc gốc bàn tay vào nửa sau dưới bóng"
+      },
+      {
+        "c": "GD8-B11-005",
+        "d": "basic",
+        "p": "Hướng vung cánh tay đánh bóng và chuyển trọng tâm cơ thể trong pha \"đánh phát bóng thấp tay\" diễn ra như thế nào?",
+        "o": [
+          "Đánh xong giật phanh tay dừng khựng ngay ngang đầu gối",
+          "Kéo gập khuỷu tay ép chặt vào bụng rồi vẩy ngang cổ tay sang bên trái",
+          "Cánh tay phải duỗi thẳng vung từ sau sát hông lao mạnh ra trước chếch qua lưới, đồng thời đạp chân phải sau chuyển trọng tâm dồn lên chân trái theo đà",
+          "Đứng nguyên trọng tâm dồn tít về chân sau và ngửa lưng ra sau khi tay vung lên"
+        ],
+        "k": "C",
+        "e": "Thả tay vung thẳng tự nhiên theo đà hướng tới mục tiêu (follow-through hướng lên lưới) giúp đường bóng đi thẳng tắp ổn định đúng vị trí ngắm.",
+        "s": "GDTC 8",
+        "h": "Chuyển trọng tâm chân sau lên chân trước khi vung thẳng tay"
+      },
+      {
+        "c": "GD8-B11-006",
+        "d": "basic",
+        "p": "Theo luật thi đấu Bóng chuyền, hai lỗi phạm quy phổ biến nhất ngay ở tình huống phát bóng khiến đội bạn được tặng ngay 1 điểm và quyền phát bóng là gì?",
+        "o": [
+          "Tung bóng lên cao rồi chờ 1 giây mới bước chân đánh qua lưới",
+          "Chạm lưới nhẹ khi phát bóng nhưng quả bóng vẫn nảy rơi sang gọn bên trong phần sân đối phương (theo luật hiện đại bóng chạm mép lưới qua sân VẪN HỢP LỆ!)",
+          "Di chuyển thoải mái dọc theo suốt chiều dài phía sau vạch biên ngang cuối sân trước khi phát",
+          "Giẫm đè hoặc bước qua vạch cuối sân trước khi tay đánh bóng; đánh bóng khi chưa tung rời khỏi tay; hoặc phát bóng chạm lưới không qua hay bay ra ngoài biên"
+        ],
+        "k": "D",
+        "e": "Lưu ý cập nhật luật bóng chuyền hiện đại rất hay bị nhầm: khi phát bóng mà bóng khẽ chạm mép trên lưới rồi vẫn bay lọt vào trong sân đối phương thì pha phát bóng ĐÓ HOÀN TOÀN HỢP LỆ (không phát lại như bóng bàn hay cầu lông)!",
+        "s": "GDTC 8",
+        "h": "Cập nhật luật bóng chạm mép lưới qua sân vẫn hợp lệ"
+      },
+      {
+        "c": "GD8-B11-007",
+        "d": "application",
+        "p": "Quan sát bảng sửa lỗi phát bóng thấp tay chính diện dưới đây, bạn An phát bóng 10 quả thì tới 7 quả bóng bay rất thấp đâm thẳng cắm vào giữa lưới không qua được sân bạn. Kiểm tra thấy An vung tay quá ngang hướng mặt sàn và chạm vào phần giữa ngang lưng bóng. Cách chỉnh điểm chạm nào giúp bóng bay cao qua lưới ngay lập tức?",
+        "o": [
+          "Đánh vào hẳn đỉnh trên cùng quả bóng để bóng nảy xuống đất trước lưới",
+          "Tung bóng gọn trước vai phải tầm thắt lưng, giữ thân thẳng hơn và vung tay từ dưới chếch lên chạm vào PHẦN NỬA DƯỚI SAU của bóng thay vì đánh ngang tâm",
+          "Chạy lao lên giẫm vượt qua vạch biên ngang rồi mới đánh",
+          "Lùi ra xa vạch cuối sân thêm 10 mét nữa rồi đánh ngang mạnh hơn"
+        ],
+        "k": "B",
+        "e": "Hạ điểm chạm xuống thấp hơn nửa sau dưới tâm bóng lập tức nâng quỹ đạo bay vòng cung vút qua mép lưới dễ dàng.",
+        "s": "GDTC 8",
+        "h": "Chỉnh điểm chạm thấp dưới tâm đưa bóng qua lưới",
+        "fig": {
+          "type": "table",
+          "title": "Chuẩn phát bóng thấp tay",
+          "head": [
+            "Lỗi hay gặp",
+            "Cách chỉnh chuẩn"
+          ],
+          "rows": [
+            [
+              "Bóng đâm vào lưới",
+              "Đánh dưới sau bóng"
+            ],
+            [
+              "Bóng bay lệch ngang",
+              "Vung tay thẳng hướng"
+            ],
+            [
+              "Đau ngón tay",
+              "Đánh gốc bàn tay"
+            ],
+            [
+              "Giẫm vạch cuối sân",
+              "Lùi cách vạch 10cm"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "GD8-B11-008",
+        "d": "application",
+        "p": "Một học sinh khi phát bóng thấp tay lại tung bóng lên quá cao (tới gần 2 mét) rồi phải chạy tiến lùi loạn nhịp đón bóng rơi và thường đánh trượt hoặc giẫm vào vạch biên cuối sân. Độ cao và khoảng thời gian chuẩn xác cho cú tung bóng thấp tay là gì?",
+        "o": [
+          "Tung bóng cao 3 mét lên trần nhà thể chất cho có đà lấy sức",
+          "Tung bóng nảy xuống mặt sân trước 1 lần rồi mới đánh khi nảy lên",
+          "Không cần tung bóng mà giữ chặt dính tay trái để tay phải đấm thẳng vào",
+          "Chỉ tung bóng rời lòng tay trái nhẹ nhàng khoảng 20–30 cm ngay trước vai phải — vừa đủ nhịp cho tay phải vung đánh ngang thắt lưng mà chân không phải đuổi theo"
+        ],
+        "k": "D",
+        "e": "\"Tung thấp, tung thẳng trước vai đánh\" giúp triệt tiêu tới 90 phần trăm sai số khi mới học phát bóng.",
+        "s": "GDTC 8",
+        "h": "Luyện tung bóng ổn định chuẩn 20-30cm trước vai phải"
+      },
+      {
+        "c": "GD8-B11-009",
+        "d": "application",
+        "p": "Nếu em muốn phát bóng thấp tay chính diện có ý đồ chiến thuật \"nhắm chính xác về góc cuối sâu bên trái sân đối phương\" (nơi hàng thủ bạn đang đứng hổng vị trí), yếu tố nào trong động tác vung tay quyết định hướng bay chuẩn xác của bóng?",
+        "o": [
+          "Tung bóng sang tận bên trái vai trái rồi chạy vòng sang đánh",
+          "Vung cong cánh tay quét vòng tròn từ ngoài vào trong ngang bụng",
+          "Chỉnh hướng mũi chân trái trước, mặt phẳng hông - vai và đường vung cánh tay thẳng tắp nhắm thẳng về góc sân mục tiêu (tránh đánh tạt xéo ngang thân)",
+          "Nhắm mắt quay lưng hướng khác rồi cầu may bóng tự bay chéo góc"
+        ],
+        "k": "C",
+        "e": "Quả bóng đi theo đúng đường thẳng chuyển động của cánh tay sau thời điểm va chạm; chỉ cần xoay nhẹ cả trục chân-hông về góc mục tiêu trước khi tung bóng là xong!",
+        "s": "GDTC 8",
+        "h": "Điều chỉnh hướng chân và tay ngắm mục tiêu chiến thuật"
+      },
+      {
+        "c": "GD8-B11-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ tỉ lệ phát bóng qua lưới hợp lệ của lớp 8B sau 4 tuần áp dụng cách cầm bàn tay chuẩn dưới đây, tại sao học sinh nắm tay hờ khép chặt (hoặc mở căng cứng gốc bàn tay) lại đánh bóng đi căng và ít bị xiên lệch hơn hẳn việc xòe lỏng lẻo các ngón tay chạm bóng?",
+        "o": [
+          "Vì luật bóng chuyền cấm dùng gốc bàn tay chạm bóng khi phát",
+          "Gốc lòng bàn tay hay mặt nắm tay tạo mặt phẳng cứng ổn định truyền lực thẳng không biến dạng; ngón tay xòe lỏng dễ làm lực phân tán lệch bóng và đau khớp",
+          "Vì xòe ngón tay luôn tạo ra lực đánh mạnh hơn gấp đôi gốc bàn tay",
+          "Vì nắm tay giúp quả bóng nặng gấp ba lần"
+        ],
+        "k": "B",
+        "e": "Luyện cảm giác điểm chạm \"gốc lòng bàn tay cứng\" ở khoảng cách gần 3–4 mét vào tường hoặc sang bạn bên kia lưới xây dựng sự tự tin cực nhanh.",
+        "s": "GDTC 8",
+        "h": "Lợi thế ổn định của điểm tiếp xúc gốc lòng bàn tay",
+        "fig": {
+          "type": "bars",
+          "title": "Tỉ lệ phát bóng thấp tay qua lưới (%)",
+          "labels": [
+            "Ngón tay lỏng",
+            "Nắm tay chưa thẳng",
+            "Gốc tay chuẩn"
+          ],
+          "series": [
+            {
+              "values": [
+                45,
+                68,
+                91
+              ]
+            }
+          ],
+          "unit": "%"
+        }
+      },
+      {
+        "c": "GD8-B11-011",
+        "d": "application",
+        "p": "Sau khi vừa phát bóng thành công qua lưới sang sân đối phương, nhiệm vụ tiếp theo ngay lập tức của người phát bóng là gì chứ không đứng yên ngoài sân ngắm bóng?",
+        "o": [
+          "Đứng im mãi ở ngoài đường biên cuối sân vỗ tay khen mình phát đẹp tới hết pha bóng",
+          "Chạy sang hẳn phần sân đối phương đứng cổ vũ",
+          "Chạy nhanh ngay vào vị trí phòng thủ được phân công trong sân nhà (vị trí số 1 hoặc vị trí chiến thuật), hạ trọng tâm sẵn sàng đỡ pha đánh trả của đối thủ",
+          "Ngồi xuống thắt lại dây giày giữa lúc bóng đang qua lại trên lưới"
+        ],
+        "k": "C",
+        "e": "Trong bóng chuyền tốc độ cao, đội vừa phát bóng xong chỉ có 2 giây để lùi vào đội hình phòng thủ 6 người chặt chẽ sẵn sàng đón đòn đánh của đối thủ.",
+        "s": "GDTC 8",
+        "h": "Chuyển trạng thái nhanh vào sân phòng thủ sau phát bóng"
+      },
+      {
+        "c": "GD8-B11-012",
+        "d": "application",
+        "p": "Trong buổi thực hành chia hai nhóm đứng hai bên lưới tập phát bóng từ khoảng cách gần (vạch 3m) rồi lùi dần ra vạch cuối sân (9m), tại sao thầy giáo lại cho học sinh đứng gần vạch 3m phát qua lưới thành công trước khi lùi ra hết sân 9m?",
+        "o": [
+          "Vì sân bóng chuyền thi đấu thực tế chỉ dài tổng cộng 3 mét",
+          "Vì đứng gần lưới giúp học sinh ném bóng bằng hai tay dễ hơn",
+          "Để học sinh không cần dùng sức chân khi phát bóng",
+          "Cự li gần giúp học sinh tập trung chuẩn hóa nhịp tung bóng - vung tay thẳng - chạm gốc tay mà không bị tâm lí sợ hụt lực gây gồng vặn sai kĩ thuật"
+        ],
+        "k": "D",
+        "e": "Phương pháp \"tiến gần chuẩn dáng rồi lùi dần tăng lực\" (progressive distance) tránh hỏng form kĩ thuật ngay từ buổi học đầu.",
+        "s": "GDTC 8",
+        "h": "Chiến lược tập phát bóng lùi dần khoảng cách"
+      },
+      {
+        "c": "GD8-B11-013",
+        "d": "advanced",
+        "p": "Phân tích tại sao trong thi đấu bóng chuyền đỉnh cao, ngoài việc phát bóng qua lưới an toàn, kĩ thuật phát bóng thấp tay (và sau này là phát bóng cao tay tấn công) lại được xem là \"đòn tấn công đầu tiên\" chứ không chỉ là thủ tục đưa bóng vào cuộc?",
+        "o": [
+          "Vì quả bóng phát hợp lệ không bao giờ được tính điểm trực tiếp (Ace) ngay cả khi chạm đất",
+          "Phát bóng hiểm vào kẽ hở giữa hai người hoặc ép vào cầu thủ đỡ bước một yếu có thể phá vỡ khâu chuyền hai đối phương, buộc họ đẩy bóng dễ cho mình phản công",
+          "Vì người phát bóng được phép chạy lên lưới tự mình đập bóng lần thứ hai ngay lập tức",
+          "Vì phát bóng chỉ là nghi thức chào hỏi không ảnh hưởng gì tới kết quả trận đấu"
+        ],
+        "k": "B",
+        "e": "\"Tấn công ngay từ vạch phát bóng\" (Serving as first weapon) tạo áp lực tâm lí khổng lồ buộc đối thủ phải phòng thủ lúng túng ngay từ giây đầu tiên.",
+        "s": "GDTC 8",
+        "h": "Giá trị chiến thuật tấn công ngay từ vạch phát bóng"
+      },
+      {
+        "c": "GD8-B11-014",
+        "d": "advanced",
+        "p": "Giải thích quy định luật về vị trí đứng của 6 người trên sân ngay khoảnh khắc người phát bóng vừa chạm tay phát bóng đi: tại sao 5 đồng đội còn lại phải đứng đúng thứ tự xoay vòng (vị trí 1 đến 6) chứ không được chạy đổi chỗ lung tung TRƯỚC lúc bóng được phát?",
+        "o": [
+          "Vì luật cấm mọi sự thay đổi vị trí dù bóng đã bay qua lưới sang sân bạn",
+          "Để cản trở tầm nhìn của người phát bóng",
+          "Vì 5 người còn lại bắt buộc phải đứng bất động suốt cả pha bóng không được phép di chuyển tới khi bóng rơi",
+          "Giúp mọi cầu thủ luân phiên đủ hàng trước và hàng sau (tránh xếp cố định người cao ở lưới); ngay sau phát bóng mới được đổi về vị trí sở trường"
+        ],
+        "k": "D",
+        "e": "Hiểu rõ \"luật vị trí lúc phát bóng\" (chỉ bắt buộc ngay khoảnh khắc chạm bóng phát, sau đó di chuyển đổi vị trí chuyên môn thoải mái) giúp tổ chức chiến thuật đội bóng chuyền trường học cực kì linh hoạt.",
+        "s": "GDTC 8",
+        "h": "Hiểu quy định vị trí xoay vòng khi phát bóng"
+      },
+      {
+        "c": "GD8-B11-015",
+        "d": "advanced",
+        "p": "Nhiều bạn trẻ khi đi thi đấu giải hội khỏe Phù Đổng rất hay mắc tâm lí căng thẳng run tay ở lượt phát bóng quyết định điểm cuối trận dẫn tới phát hỏng vào lưới. Chiến lược thói quen tâm lí (\"Pre-serve routine\") của vận động viên chuyên nghiệp giúp ổn định tuyệt đối cú phát bóng áp lực cao là gì?",
+        "o": [
+          "Giữ chu trình quen thuộc trước mỗi lần phát: thở sâu điều hòa nhịp tim, đập bóng lấy cảm giác, nhìn cố định điểm rơi bên kia lưới rồi tung phát dứt khoát",
+          "Chạy vội vã ra sau vạch vồ lấy bóng đánh ngay trong 0,5 giây khi tim đang đập loạn nhịp",
+          "Thay đổi sang một kiểu phát bóng lạ hoắc chưa từng tập bao giờ ngay ở điểm quyết định",
+          "Nhìn vào bảng tỉ số căng thẳng suy nghĩ xem nếu hỏng thì đội có thua không"
+        ],
+        "k": "A",
+        "e": "Thói quen nghi thức tiền phát bóng (Pre-serve Routine) neo giữ não bộ vào quy trình cơ học tự động quen thuộc thay vì bị nỗi sợ thua cuộc chi phối.",
+        "s": "GDTC 8",
+        "h": "Nghi thức tâm lí ổn định bản lĩnh ở điểm quyết định"
+      }
+    ]
+  },
+  {
+    "chapter": "gdtc8-c4",
+    "lesson": {
+      "code": "gdtc8-b12",
+      "title": "Bài 12. Kĩ thuật đánh cầu lông cao sâu thuận tay và đập cầu cơ bản",
+      "seq": 12,
+      "subtitle": "Kĩ thuật đánh cầu cao sâu thuận tay (Clear) đưa cầu về cuối sân, bước di chuyển lùi chéo và kĩ thuật đập cầu (Smash) cơ bản",
+      "concepts": [
+        "Đánh cầu cao sâu thuận tay",
+        "Phối hợp xoay hông vút vai",
+        "Làm quen đập cầu góc cắm"
+      ]
+    },
+    "questions": [
+      {
+        "c": "GD8-B12-001",
+        "d": "basic",
+        "p": "Trong môn Cầu lông, kĩ thuật \"Đánh cầu cao sâu thuận tay\" (Overhead Forehand Clear) nhằm mục đích chiến thuật gì?",
+        "o": [
+          "Đập cắm quả cầu thẳng xuống mặt đất trước mặt lưới bên sân mình",
+          "Đánh cầu từ trên đầu bay cao bổng sâu tới tận đường biên cuối sân đối phương, vừa giúp mình có thời gian về tâm sân vừa ép đối thủ lùi sâu về cuối sân",
+          "Đánh nhẹ quả cầu rơi sệt ngay sát chân lưới bên sân mình",
+          "Chỉ dùng để giao cầu thấp tay khi bắt đầu ván đấu"
+        ],
+        "k": "B",
+        "e": "Cầu cao sâu (Clear) là cú đánh trụ cột số một của cầu lông: ai đánh được cầu bay thẳng gọn tới sát vạch cuối sân đối thủ sẽ nắm hoàn toàn thế chủ động kiểm soát trận đấu.",
+        "s": "GDTC 8",
+        "h": "Mục tiêu chiến thuật của đánh cầu cao sâu"
+      },
+      {
+        "c": "GD8-B12-002",
+        "d": "basic",
+        "p": "Khi chuẩn bị thực hiện cú đánh cầu cao sâu thuận tay trên đầu (với người cầm vợt tay PHẢI), tư thế chuẩn bị thân người và vị trí hai vai nên xoay chuyển thế nào ngay trước khi vung vợt?",
+        "o": [
+          "Đứng hai chân ngang bằng nhau đối diện thẳng trực diện mặt vào lưới và chỉ dùng cổ tay vẩy nhẹ",
+          "Giữ thẳng cánh tay phải buông xuôi chạm đùi bên phải",
+          "Cúi gập sát đầu xuống tận đầu gối",
+          "Xoay ngang thân sang phải sao cho vai TRÁI hướng lưới, chân PHẢI lùi sau làm trụ chịu trọng tâm, tay phải cầm vợt gập khuỷu sau gáy chuẩn bị vươn cao đánh"
+        ],
+        "k": "D",
+        "e": "Xoay vai ngang về phía lưới (\"tư thế cung thủ giương cung\" — giống tư thế ném bóng nhỏ!) huy động sức xoay của hông và thân trên giúp cầu bay tít ra cuối sân rất nhàn.",
+        "s": "GDTC 8",
+        "h": "Xoay ngang vai và chân trụ trước khi đánh cầu cao"
+      },
+      {
+        "c": "GD8-B12-003",
+        "d": "basic",
+        "p": "Điểm tiếp xúc mặt vợt chạm quả cầu chuẩn xác nhất trong kĩ thuật đánh cầu cao sâu thuận tay nằm ở vị trí nào?",
+        "o": [
+          "Ở điểm cao nhất mà cánh tay cầm vợt vươn thẳng tự nhiên phía trước trán bên phải, mặt vợt mở hướng thẳng về cuối sân đối phương để truyền lực tốt nhất",
+          "Đánh ở sát bên hông trái ngang thắt lưng",
+          "Đánh cầu ở tuốt phía sau gáy lưng khi thân đang ngửa hẳn ra sau",
+          "Đợi quả cầu rơi tụt xuống tận ngang đầu gối mới vung vợt đón lên"
+        ],
+        "k": "A",
+        "e": "Đón cầu ở điểm cao nhất phía trước trán tạo tầm đánh vươn dài nhất, giúp cầu bay qua lưới theo góc mở thoáng đẹp và quan sát được sân bạn rõ ràng.",
+        "s": "GDTC 8",
+        "h": "Đón điểm chạm cầu cao nhất phía trước đầu"
+      },
+      {
+        "c": "GD8-B12-004",
+        "d": "basic",
+        "p": "Sự khác biệt kĩ thuật quan trọng nhất giữa cú \"Đánh cầu cao sâu thuận tay\" (Clear) và cú \"Đập cầu thuận tay cơ bản\" (Smash) là ở chi tiết nào ngay khoảnh khắc mặt vợt chạm cầu?",
+        "o": [
+          "Đập cầu dùng chân đá mạnh quả cầu qua lưới",
+          "Đập cầu bắt buộc phải đứng quỳ hai gối xuống giữa sân đánh từ dưới đất lên",
+          "Chuẩn bị ban đầu y hệt để đánh lừa; nhưng Phông cầu đón chếch trên đầu đẩy bay cao xa cuối sân, còn Đập cầu đón sớm về trước, gập cổ tay cắm dốc",
+          "Đánh cao sâu và đập cầu hoàn toàn khác nhau từ cách đứng chân lẫn cách cầm vợt trái tay"
+        ],
+        "k": "C",
+        "e": "Chính nhờ tư thế chuẩn bị ban đầu giống hệt nhau giữa Đánh cao sâu - Bỏ nhỏ - Đập cầu (ngụy trang động tác), đối phương không tài nào đoán trước được ý đồ của bạn!",
+        "s": "GDTC 8",
+        "h": "Điểm giống chuẩn bị và điểm khác khoảnh khắc chạm giữa Clear và Smash"
+      },
+      {
+        "c": "GD8-B12-005",
+        "d": "basic",
+        "p": "Trong môn Cầu lông, cách cầm vợt chuẩn nhất để thực hiện cả cú đánh cầu cao sâu lẫn đập cầu thuận tay là cách cầm nào?",
+        "o": [
+          "Cách cầm vợt thuận tay kiểu \"bắt tay\": ngón cái và trỏ tạo chữ V dọc sống hẹp cán vợt, cổ tay thả lỏng để xoay gập cẳng tay bùng nổ ở giây chạm cầu",
+          "Dùng hai tay nắm cùng lúc vào cán vợt",
+          "Cầm ngược tít lên phần khung kim loại tròn trên đầu vợt",
+          "Cách cầm vợt kiểu cầm chảo đập ruồi (mặt vợt phẳng ngang cố định)"
+        ],
+        "k": "A",
+        "e": "Nếu cầm kiểu chảo, cẳng tay không thể xoay sấp tự nhiên (pronation) nên cú đập cầu yếu xìu và rất dễ đau khớp cổ tay.",
+        "s": "GDTC 8",
+        "h": "Giữ chuẩn cầm bắt tay tạo lực xoay cẳng tay"
+      },
+      {
+        "c": "GD8-B12-006",
+        "d": "basic",
+        "p": "Cách di chuyển bước chân lùi về cuối sân để đánh cầu cao sâu thuận tay an toàn và nhanh nhất (tránh vấp té ngã ngửa) là gì?",
+        "o": [
+          "Xoay ngang người dùng bước lùi chéo hoặc bước lướt ngang kết hợp xoay hông sang phải, tuyệt đối không quay mặt lưới chạy giật lùi dài rất dễ ngã ngửa",
+          "Nhảy lò cò một chân trái từ giữa sân ra tới vạch biên cuối",
+          "Quay hẳn lưng lại chạy về cuối sân rồi ngồi xuống",
+          "Đứng nguyên thẳng mặt nhìn lưới rồi chạy bước dài giật lùi thật nhanh bằng gót chân"
+        ],
+        "k": "A",
+        "e": "Chạy lùi nghiêng thân (side-step / cross-over step) vừa nhanh gấp rưỡi chạy giật lùi thẳng lưng vừa mở sẵn vai vào tư thế đánh cầu cực đẹp!",
+        "s": "GDTC 8",
+        "h": "Di chuyển bước lùi nghiêng thân an toàn về cuối sân"
+      },
+      {
+        "c": "GD8-B12-007",
+        "d": "application",
+        "p": "Quan sát bảng tổng hợp lỗi đánh cầu cao sâu và đập cầu dưới đây, một bạn học sinh đập rất mạnh vào quả cầu nhưng cầu lúc nào cũng bay thẳng cắm vào lưới bên sân mình hoặc rúc xuống chân lưới. Điểm tiếp xúc và góc mặt vợt đang gặp lỗi gì?",
+        "o": [
+          "Do đón cầu quá thấp ngang vai mặt hoặc úp mặt vợt quá sớm (hay nhảy lên rơi xuống mới đập); cần vươn thẳng tay đánh ở điểm CAO NHẤT trước mặt với góc cổ tay vừa",
+          "Do quả cầu lông nhẹ quá nên tự rúc vào lưới",
+          "Do bạn ấy vươn cánh tay thẳng lên cao quá nên cầu bay cao vọt qua lưới",
+          "Do cầm vợt kiểu bắt tay làm mặt vợt xoay tự nhiên quá tốt"
+        ],
+        "k": "A",
+        "e": "Hãy tập đập cầu từ góc cao nhẹ trước (\"đập cầu đúng điểm rơi 70 phần trăm lực\") cho quen góc thoát mép lưới rồi mới tăng dần tốc độ vung tối đa.",
+        "s": "GDTC 8",
+        "h": "Khắc phục lỗi đập cầu cắm thẳng vào lưới",
+        "fig": {
+          "type": "table",
+          "title": "Đánh cầu cao sâu và Đập cầu",
+          "head": [
+            "Kĩ thuật",
+            "Điểm chuẩn xác"
+          ],
+          "rows": [
+            [
+              "Chuẩn bị chung",
+              "Xoay vai hướng lưới"
+            ],
+            [
+              "Cầu cao sâu",
+              "Đánh cao cuối sân"
+            ],
+            [
+              "Đập cầu cơ bản",
+              "Chạm trước, gập tay"
+            ],
+            [
+              "Bước lùi về sau",
+              "Lùi nghiêng, an toàn"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "GD8-B12-008",
+        "d": "application",
+        "p": "Bạn Minh tập đánh cầu cao sâu thuận tay nhưng đánh hết sức vẫn chỉ đưa được cầu bay tới ngang giữa sân đối phương (tạo cơ hội cho đối thủ đứng sẵn đập ngay lại!). Quan sát thấy Minh giữ nguyên thân quay thẳng mặt nhìn lưới, không xoay vai và không đổi trọng tâm từ chân sau lên chân trước. Bài sửa tức thì giúp cầu bay vọt sâu tới vạch cuối sân là gì?",
+        "o": [
+          "Giữ nguyên hai chân đứng đóng đinh tại chỗ và chỉ dùng lực cổ tay búng nhẹ",
+          "Nhắc bạn xoay vai trái hướng lưới dồn trụ chân phải sau; khi đánh xoay hông bước chân phải tới trước theo đà kết hợp xoay vút cẳng tay nhanh ở điểm cao nhất",
+          "Nín thở cúi gằm đầu xuống sàn trong suốt pha vung vợt",
+          "Lùi hẳn ra ngoài bức tường sau sân mới đánh"
+        ],
+        "k": "B",
+        "e": "Cộng lực xoay hông - chuyển chân từ sau ra trước với cú vút xoay cẳng tay giống hệt chuyển lực trong ném bóng nhỏ làm quả cầu bay vút cuối sân rất nhẹ nhàng.",
+        "s": "GDTC 8",
+        "h": "Kết hợp xoay hông chuyển chân tăng gấp đôi tầm bay"
+      },
+      {
+        "c": "GD8-B12-009",
+        "d": "application",
+        "p": "Trong một pha cầu cao sâu, sau khi tay phải vung vợt đánh chạm cầu ở điểm cao nhất phía trên trán, động tác \"theo đà kết thúc\" (follow-through) của cánh tay phải chuẩn xác nên hạ xuống bên nào của thân người?",
+        "o": [
+          "Buông thõng vứt vợt rơi xuống đất",
+          "Vung lướt mềm theo đà chéo xuống bên TRÁI thân người (ngang hông trái), đồng thời chân phải bước lên lấy thăng bằng để nhanh chóng thu về giữa sân",
+          "Phanh dừng khựng cánh tay thẳng đứng trên đầu rồi giật ngược lại bên phải",
+          "Giơ thẳng cánh tay ra sau lưng sau khi đánh trúng cầu"
+        ],
+        "k": "B",
+        "e": "Vung vợt theo đà chéo xuống bên hông trái giúp xả êm toàn bộ quán tính tốc độ lớn bảo vệ gân vai khuỷu tay không bị viêm đau.",
+        "s": "GDTC 8",
+        "h": "Theo đà vung vợt chéo hông trái bảo vệ khớp vai"
+      },
+      {
+        "c": "GD8-B12-010",
+        "d": "application",
+        "p": "Quan sát biểu đồ tốc độ cầu bay và tỉ lệ vào sân trong tập luyện đập cầu dưới đây, tại sao giáo viên khuyên học sinh lớp 8 nên làm chủ \"Đập cầu kiểm soát độ cắm và góc hẹp 80 phần trăm lực\" trước khi cố vung bừa 100 phần trăm sức lực?",
+        "o": [
+          "Vung quá sức dễ lệch tâm đánh hụt tâm vợt làm cầu bay ra ngoài; đập ở ~80% lực giữ trúng điểm ngọt mặt vợt thực chất cho tốc độ cầu nhanh và hiểm hơn nhiều",
+          "Vì luật cầu lông phạt điểm nếu đập cầu quá nhanh qua lưới",
+          "Vì cầu lông luôn bay nhanh nhất khi người chơi chỉ chạm nhẹ hời hợt vào cầu",
+          "Vì đập 100 phần trăm lực làm quả cầu bay chậm như đi bộ"
+        ],
+        "k": "A",
+        "e": "\"Chạm đúng tâm ngọt mặt vợt (Sweet Spot) ở 80% tốc độ tạo ra uy lực lớn hơn vung 100% sức mà lệch khung vợt!\"",
+        "s": "GDTC 8",
+        "h": "Tầm quan trọng của độ chính xác tâm mặt vợt khi đập",
+        "fig": {
+          "type": "bars",
+          "title": "Hiệu quả qua lưới vào sân khi đập cầu (%)",
+          "labels": [
+            "Vung 100% mất dáng",
+            "Vung 80% đúng tâm ngọt"
+          ],
+          "series": [
+            {
+              "values": [
+                42,
+                86
+              ]
+            }
+          ],
+          "unit": "%"
+        }
+      },
+      {
+        "c": "GD8-B12-011",
+        "d": "application",
+        "p": "Trong bài tập đánh cầu cao sâu qua lại giữa hai bạn đứng đối diện hai đầu sân (\"tập kéo phông cầu cao sâu\"), yếu tố hợp tác nào giúp cả hai cùng tiến bộ nhanh nhất?",
+        "o": [
+          "Chỉ đứng im một góc đánh sệt sát mặt đất qua lại",
+          "Cả hai đánh cầu cao sâu đều nhịp sang cuối sân bạn chứ không bỏ nhỏ cắt mạch tập, đồng thời luôn thu bước nhanh về tâm sân ngay sau mỗi cú đánh chuẩn bị",
+          "Đánh hết sức bay ra tận ngoài hàng rào rồi bắt bạn kia chạy đi nhặt một mình",
+          "Cố tình đánh quả cầu cắm thật mạnh vào giữa mặt bạn kia khi bạn chưa sẵn sàng"
+        ],
+        "k": "B",
+        "e": "Tập luyện phối hợp có mục tiêu rõ ràng (cooperative drill) giúp mỗi bạn đánh trúng hàng trăm quả cầu cao sâu chuẩn dáng chỉ trong một tiết học.",
+        "s": "GDTC 8",
+        "h": "Tinh thần hợp tác trong bài tập kéo phông cầu"
+      },
+      {
+        "c": "GD8-B12-012",
+        "d": "application",
+        "p": "Trong thi đấu cầu lông đánh đôi 2 người một bên sân (hoặc khi đứng tập theo hàng gần nhau), nếu đồng đội của bạn đang chuẩn bị vung hết sức thực hiện một cú đập cầu phía sau sân, vị trí đứng và tư thế an toàn bắt buộc của bạn đứng phía trước lưới là gì?",
+        "o": [
+          "Đứng thẳng tắp quay hẳn mặt lại phía sau nhìn chằm chằm vào quả cầu bạn sắp đập mạnh tới",
+          "Chạy lùi thật nhanh đè thẳng vào dưới cánh tay đang vung đập cầu của đồng đội",
+          "Cúi nhẹ thân ngang mép lưới, giơ sẵn vợt che trước vùng ngực mặt và TUYỆT ĐỐI KHÔNG quay đầu ngoái mặt nhìn ngược ra sau khi đồng đội phía sau sắp đập cầu",
+          "Giơ vợt cao vung ngang chặn trước mặt đồng đội phía sau"
+        ],
+        "k": "C",
+        "e": "Bảo vệ đôi mắt khi đánh đôi bằng nguyên tắc: \"Người đứng trước hạ thấp đầu sẵn sàng đỡ trả lưới, tuyệt đối không ngoái mặt nhìn ngược về cú đập sau lưng\".",
+        "s": "GDTC 8",
+        "h": "Quy tắc an toàn mắt khi đồng đội đập cầu phía sau"
+      },
+      {
+        "c": "GD8-B12-013",
+        "d": "advanced",
+        "p": "Phân tích lí do khiến trong các giải cầu lông đỉnh cao, cùng một động tác vung vai có vẻ nhẹ nhàng nhưng vận động viên chuyên nghiệp vẫn tạo ra tiếng nổ vang giòn và tốc độ cầu vượt 300 km/h: bí mật nằm ở \"Chuỗi động học vút roi và xoay sấp cẳng tay\" nào?",
+        "o": [
+          "Do họ chạy đà tới 15 mét trên sân trước khi chạm cầu",
+          "Do họ luôn gồng cứng ngắt toàn bộ bắp tay bắp vai suốt cả trận đấu",
+          "Do họ dùng cây vợt làm bằng thép đặc nặng 5 kilôgam để nện xuống cầu",
+          "Thả lỏng tay tới sát lúc chạm cầu rồi bùng nổ liên hoàn: đạp chân -> xoay hông -> mở ngực -> kéo khuỷu -> xoay sấp cẳng tay, gập cổ tay nhanh"
+        ],
+        "k": "D",
+        "e": "Hiểu bí mật \"thả lỏng trước khi bùng nổ\" (relaxation before impact) giải thích tại sao gồng cứng cơ bắp lại luôn làm cú đập bị chậm và yếu đi!",
+        "s": "GDTC 8",
+        "h": "Bí mật tốc độ vút roi và xoay sấp cẳng tay (Pronation)"
+      },
+      {
+        "c": "GD8-B12-014",
+        "d": "advanced",
+        "p": "Phân tích mối liên hệ chiến thuật giữa ba cú đánh trên đầu cùng một tư thế chuẩn bị: \"Đánh cao sâu (Clear) - Chặt cầu bỏ nhỏ nhanh (Drop) - Đập cầu (Smash)\". Tại sao chỉ khi học sinh làm chủ được cú Đánh cao sâu tới cuối sân thì cú Đập cầu và Bỏ nhỏ mới thực sự phát huy hết uy lực?",
+        "o": [
+          "Vì luật cầu lông cấm không cho đập cầu nếu trước đó chưa đánh cao sâu 5 lần",
+          "Không có liên hệ chiến thuật nào giữa ba cú đánh trên đầu",
+          "Đánh cao sâu tốt ép đối thủ lùi sát biên cuối sân, khi đó khoảng trống sát lưới và hai hông mới mở toang cho cú Bỏ nhỏ hay Đập cầu kết thúc điểm hiệu quả",
+          "Vì ba cú đánh này phải cầm vợt bằng tay trái mới thực hiện được"
+        ],
+        "k": "C",
+        "e": "\"Phông cầu cao sâu là nền móng mở không gian cho toàn bộ thế trận tấn công cầu lông\".",
+        "s": "GDTC 8",
+        "h": "Mối liên kết chiến thuật Clear - Drop - Smash"
+      },
+      {
+        "c": "GD8-B12-015",
+        "d": "advanced",
+        "p": "Nhìn lại tổng thể chương trình GDTC 8 (theo dõi nhịp tim vùng hiếu khí, Aerobics, biến đổi đội hình nâng cao, tiếp sức 4×100m, nhảy cao bước qua, trượt đà đẩy bóng, chạy 1000m và bóng chuyền - cầu lông): thói quen lối sống khoa học nào giúp bạn duy trì phong độ đỉnh cao sang cả lớp 9 và suốt đời?",
+        "o": [
+          "Chỉ tập duy nhất một ngày trước buổi thi kiểm tra cuối năm học rồi nghỉ suốt cả năm",
+          "Coi trọng thắng thua hơn sự an toàn và tinh thần cao thượng với bạn bè",
+          "Tự lập lịch vận động 3–5 buổi/tuần hài hòa giữa sức bền và sức mạnh, đo mạch kiểm soát cường độ vừa sức, giữ kĩ thuật bảo vệ khớp và lan tỏa sống khỏe",
+          "Thức khuya chơi thiết bị điện tử và nhịn ăn sáng thường xuyên trước giờ vận động"
+        ],
+        "k": "C",
+        "e": "Mỗi giọt mồ hôi đúng kĩ thuật hôm nay chính là khoản tích lũy sức khỏe vô giá cho tuổi thanh xuân rực rỡ phía trước!",
+        "s": "GDTC 8",
+        "h": "Xây dựng lối sống vận động khoa học tự chủ lâu dài"
+      }
+    ]
+  }
+]
