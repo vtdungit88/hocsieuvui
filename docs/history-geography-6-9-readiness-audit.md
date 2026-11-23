@@ -108,3 +108,14 @@ The remaining ten Grade 7 History lessons and their 150 questions have been adde
 - Fixed CI-detected empty array slots caused by accidental duplicate commas during insertion. The latest branch head after these fixes is `41433e98c2e9763ea60f8f60b4feae3c5481f020`; CI must be checked on this exact head before calling the tranche green.
 - Current content totals: **95/166 manifest units** and 95 matching manifest-aligned quiz packs. With 8 retained legacy samples: **103 quiz packs / 1,545 questions**. Grade 8 History is now 5/19; remaining Grade 8 units are 28 and Grade 9 remains 44.
 - All added materials remain draft-only. They have not received independent teacher/subject-matter expert review. Validator checks structural integrity and mappings, not textbook fidelity or factual correctness. No production Supabase import, publish, unlock, merge or deployment has occurred.
+
+
+## Progress update — 2026-11-23 (Grade 8 History lessons 4–6; inventory reconciled)
+
+- Added manifest-aligned lesson `g8-history-04`: **Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX**.
+- Added manifest-aligned lesson `g8-history-05`: **Cuộc xung đột Nam - Bắc triều và Trịnh - Nguyễn**.
+- Added manifest-aligned lesson `g8-history-06`: **Công cuộc khai phá vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII**.
+- Each has three substantive learning sections and a matching 15-question draft quiz with the 11/3/1 level distribution.
+- Reconciled the validator against the actual source inventory: **95/166 manifest units** and 95 matching manifest-aligned quiz packs. There are 8 retained legacy quiz samples, so the correct total is **103 quiz sets / 1,545 questions** (not 104 / 1,560). Grade 8 History is 6/19; 27 Grade 8 units and 44 Grade 9 units remain.
+- The latest CI run on an earlier head failed because the validator's expected total was one too high (actual 102 vs expected 103 at that earlier point). The validator is now corrected to 95 manifest lessons/packs, 103 total quiz sets and 1,545 questions. CI must still be checked on the latest branch head after this reconciliation.
+- All new materials remain draft-only and have not received independent teacher/subject-matter expert review. No production Supabase import, publish, unlock, merge or deployment has occurred.
