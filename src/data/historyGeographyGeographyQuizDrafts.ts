@@ -339,7 +339,7 @@ export const geographyQuizDrafts:HGGeoQuizSet[]=[
  ]),status:'draft'},
 
  {lessonId:"g7-geography-01",grade:7,strand:'geography',title:"Vị trí địa lí, đặc điểm tự nhiên châu Âu",questions:buildGeo("g7-geography-01",[
- ["Châu Âu nằm chủ yếu ở bán cầu nào?","Bán cầu Nam","Bán cầu Bắc","Cả hai bán cầu như nhau","Bán cầu Tây בלבד",1,"Phần lớn lãnh thổ châu Âu nằm ở bán cầu Bắc."],
+ ["Châu Âu nằm chủ yếu ở bán cầu nào?","Bán cầu Nam","Bán cầu Bắc","Cả hai bán cầu như nhau","Bán cầu Tây",1,"Phần lớn lãnh thổ châu Âu nằm ở bán cầu Bắc."],
  ["Châu Âu là bộ phận của lục địa nào?","Phi – Á","Bắc Mỹ","Á – Âu","Nam Cực",2,"Châu Âu và châu Á cùng nằm trên lục địa Á – Âu."],
  ["Đại dương nằm ở phía tây châu Âu là?","Thái Bình Dương","Ấn Độ Dương","Nam Đại Dương","Đại Tây Dương",3,"Đại Tây Dương tiếp giáp phía tây châu Âu."],
  ["Biển nào nằm ở phía nam châu Âu?","Địa Trung Hải","Biển Ca-ri-bê","Biển Nhật Bản","Biển A-rập",0,"Địa Trung Hải nằm giữa châu Âu, châu Phi và châu Á."],
@@ -356,4 +356,21 @@ export const geographyQuizDrafts:HGGeoQuizSet[]=[
  ["Một sườn núi đón gió ẩm thường có khả năng nhận mưa nhiều hơn sườn khuất gió. Đây là minh họa cho tác động của yếu tố nào?","Kinh độ","Độ sâu đại dương","Mật độ dân số","Địa hình đối với khí hậu",3,"Địa hình làm không khí ẩm bị nâng lên, gây mưa ở sườn đón gió và tạo khác biệt với sườn khuất gió."]
  ]),status:'draft'},
 
+ {lessonId:"g7-geography-02",grade:7,strand:'geography',title:"Đặc điểm dân cư, xã hội châu Âu",questions:buildGeo("g7-geography-02",[
+ ["Dân cư châu Âu phân bố như thế nào?","Đồng đều tuyệt đối","Chỉ tập trung ở phía bắc","Không có dân cư ở đồng bằng","Không đồng đều giữa các khu vực",3,"Dân cư tập trung khác nhau tùy điều kiện tự nhiên, lịch sử và kinh tế."],
+ ["Khu vực nào thường có mật độ dân số cao hơn?","Đồng bằng, đô thị và vùng kinh tế phát triển","Miền núi cao hẻo lánh","Vùng cực lạnh","Khu vực xa mạng lưới giao thông",0,"Địa hình thuận lợi, giao thông và việc làm góp phần thu hút dân cư."],
+ ["Già hóa dân số là xu hướng nào?","Tỉ lệ trẻ em luôn tăng nhanh","Tỉ trọng người cao tuổi tăng trong cơ cấu dân số","Mọi người chuyển về nông thôn","Mật độ dân số bằng nhau",1,"Già hóa thể hiện ở sự gia tăng tỉ trọng nhóm tuổi cao."],
+ ["Chỉ tiêu nào cho biết số người trung bình sống trên một đơn vị diện tích?","Tỉ lệ sinh","Tuổi thọ trung bình","Mật độ dân số","Tỉ lệ đô thị hóa",2,"Mật độ dân số thường được tính bằng số người trên một đơn vị diện tích."],
+ ["Nguyên nhân nào góp phần làm dân cư tập trung ở các đô thị?","Không có hoạt động dịch vụ","Thiếu cơ hội việc làm","Địa hình luôn hiểm trở","Nhiều việc làm và dịch vụ giáo dục, y tế, giao thông",3,"Đô thị tập trung hoạt động kinh tế và dịch vụ nên thu hút dân cư."],
+ ["Các ngôn ngữ German, Romance và Slavic cho thấy điều gì?","Châu Âu có sự đa dạng về ngôn ngữ","Mọi quốc gia chỉ dùng một ngôn ngữ","Ngôn ngữ không liên quan lịch sử","Châu Âu không có giao lưu",0,"Đây là những nhóm ngôn ngữ lớn được sử dụng ở nhiều khu vực châu Âu."],
+ ["Yếu tố nào góp phần làm phong phú văn hóa châu Âu?","Sự tách biệt hoàn toàn","Giao lưu, di cư và biến động lịch sử","Chỉ có một truyền thống duy nhất","Không có trao đổi giữa các vùng",1,"Giao lưu và lịch sử lâu dài tạo nên sự đa dạng văn hóa."],
+ ["Khi tìm hiểu một lễ hội địa phương, thông tin nào cần xác định?","Chỉ màu sắc trang phục","Số lượt xem trên mạng","Cộng đồng hoặc quốc gia gắn với lễ hội","Tên một châu lục bất kì",2,"Đặt lễ hội trong bối cảnh cộng đồng cụ thể giúp tránh khái quát sai."],
+ ["Vì sao không nên coi châu Âu là một cộng đồng văn hóa đồng nhất?","Mọi quốc gia có phong tục giống nhau","Không có khác biệt ngôn ngữ","Chỉ có một nhóm dân tộc","Các quốc gia và vùng có lịch sử, ngôn ngữ, bản sắc riêng",3,"Châu Âu đa dạng về dân tộc, ngôn ngữ, lịch sử và tập quán."],
+ ["Đô thị hóa ở châu Âu thể hiện rõ nhất qua đặc điểm nào?","Tỉ lệ dân thành thị cao","Toàn bộ dân cư làm nông nghiệp","Không có thành phố lớn","Dân cư chỉ sống ở miền núi",0,"Phần lớn dân cư châu Âu sinh sống tại các khu vực đô thị."],
+ ["Áp lực nào có thể tăng khi đô thị phát triển nhanh?","Diện tích hoang mạc tăng ở mọi nơi","Nhu cầu nhà ở, giao thông và xử lí chất thải","Số lượng dịch vụ biến mất","Mọi vấn đề môi trường tự hết",1,"Dân số đô thị tăng làm tăng nhu cầu hạ tầng và quản lí môi trường."],
+ ["Già hóa dân số có thể làm tăng nhu cầu nào?","Chỉ sân chơi trẻ em","Chỉ bến cảng","Dịch vụ chăm sóc sức khỏe và an sinh cho người cao tuổi","Giảm mọi dịch vụ công",2,"Cơ cấu dân số già làm tăng nhu cầu chăm sóc sức khỏe và hỗ trợ xã hội."],
+ ["Một thành phố muốn cải thiện chất lượng sống. Giải pháp nào phù hợp nhất?","Mở rộng đường cho xe cá nhân mà không xét hệ quả","Thu hẹp toàn bộ không gian xanh","Bỏ qua xử lí nước thải","Phát triển giao thông công cộng, không gian xanh và xử lí chất thải",3,"Quy hoạch bền vững cần đồng thời quan tâm giao thông, môi trường và tiện ích."],
+ ["Một quốc gia có tỉ lệ người cao tuổi tăng và lực lượng lao động giảm. Chính sách nào có thể hỗ trợ thích ứng?","Nâng cao năng suất, đào tạo lại và cải thiện dịch vụ chăm sóc","Ngừng đầu tư giáo dục","Bỏ qua nhu cầu chăm sóc","Chỉ tăng diện tích đô thị",0,"Nâng năng suất và phát triển dịch vụ xã hội giúp ứng phó với thay đổi cơ cấu dân số."],
+ ["Khi so sánh hai quốc gia về mức độ đô thị hóa, cần làm gì để kết luận công bằng?","Chỉ so sánh diện tích lãnh thổ","Dùng cùng chỉ tiêu, đơn vị và mốc thời gian","Chỉ dựa vào tên thủ đô","Bỏ qua nguồn số liệu",1,"So sánh cần thống nhất chỉ tiêu và thời điểm, đồng thời kiểm tra nguồn dữ liệu."]
+ ]),status:'draft'},
 ];
