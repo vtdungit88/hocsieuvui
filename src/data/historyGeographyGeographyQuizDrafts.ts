@@ -587,7 +587,7 @@ export const geographyQuizDrafts:HGGeoQuizSet[]=[
   ["Một dự án du lịch gần rạn san hô cần ưu tiên biện pháp nào?","Kiểm soát sức tải, nước thải và hoạt động gây hư hại san hô","Cho phép neo tàu trực tiếp lên san hô","Xả nước thải chưa xử lí","Khai thác san hô làm quà",0,"Bảo vệ rạn san hô cần kiểm soát hoạt động du lịch và ô nhiễm."],
   ["Khi đọc bản đồ vùng biển, cần chú ý điều gì?","Chỉ tên thành phố","Chú giải, đường cơ sở và các giới hạn vùng biển","Chỉ màu nền đại dương","Chỉ hướng gió",1,"Chú giải và các đường giới hạn giúp đọc đúng bản đồ biển."],
   ["Một địa phương ven biển muốn phát triển cảng và du lịch nhưng thường có bão. Cách quy hoạch phù hợp là gì?","Xây dựng sát khu vực nguy hiểm không cần đánh giá","Bỏ qua dự báo khí tượng","Kết hợp đánh giá rủi ro, tiêu chuẩn an toàn, bảo vệ hệ sinh thái và quy hoạch sử dụng biển","Chỉ ưu tiên tăng số công trình",2,"Phát triển bền vững cần cân bằng kinh tế, an toàn và bảo tồn biển."]
- ]),status:'draft'},,
+ ]),status:'draft'},
 
  {lessonId:'g8-geography-12',grade:8,strand:'geography',title:'Môi trường và tài nguyên biển đảo Việt Nam',questions:buildGeo('g8-geography-12',[
   ["Nhóm tài nguyên nào có ở vùng biển Việt Nam?","Hải sản, dầu khí, năng lượng, cảnh quan và giao thông","Chỉ đất trồng lúa","Chỉ rừng lá kim","Chỉ khoáng sản vùng núi cao",0,"Biển có tài nguyên sinh vật, khoáng sản, năng lượng, du lịch và vị trí giao thông."],
