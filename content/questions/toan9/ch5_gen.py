@@ -44,7 +44,7 @@ L.append(q('T9-B13-003', 'basic', 'Trên đường tròn (O) có bốn dây AB, 
 O = (150, 130); s = 18
 Bt, Ct = (O[0] - 90, O[1]), (O[0] + 90, O[1]); At = (O[0] - 1.4 * s, O[1] - 4.8 * s)
 assert abs(math.dist(At, Bt) - 6 * s) < 1e-9 and abs(math.dist(At, Ct) - 8 * s) < 1e-9 and abs(math.dist(At, O) - 90) < 1e-9
-f = Ocirc(O, 90, [poly([At, Bt, Ct], '#dbeafe'), vlab(At, O, 'A'), vlab(Bt, O, 'B', 17), vlab(Ct, O, 'C', 17), sl(At, Bt, '6 cm', -13), sl(At, Ct, '8 cm', 13)], 300, 250, (-6, 17))
+f = Ocirc(O, 90, [poly([At, Bt, Ct], '#dbeafe'), vlab(At, O, 'A'), vlab(Bt, O, 'B', 17), vlab(Ct, O, 'C', 17), sl(At, Bt, '6 cm', -20), sl(At, Ct, '8 cm', 13)], 300, 250, (-6, 17))
 L.append(q('T9-B13-004', 'application', 'Tam giác ABC vuông tại A có AB = 6 cm, AC = 8 cm. Đường tròn đi qua ba đỉnh A, B, C có tâm O là trung điểm của BC (hình vẽ). Bán kính của đường tròn bằng',
            '5 cm', ['10 cm', '7 cm', '4,8 cm'],
            'Theo định lí Pythagore, $BC=\\sqrt{6^2+8^2}=10$ cm. Tâm O là trung điểm cạnh huyền nên $R=\\frac{BC}{2}=5$ cm. Lấy 10 cm là đường kính, không phải bán kính.', fig=f))
@@ -52,7 +52,7 @@ O = (150, 125); sc = 90 / 6.5; w2, h2 = 6 * sc, 2.5 * sc
 assert abs(math.hypot(12, 5) / 2 - 6.5) < 1e-12
 Ar, Br, Cr, Dr = (O[0] - w2, O[1] + h2), (O[0] + w2, O[1] + h2), (O[0] + w2, O[1] - h2), (O[0] - w2, O[1] - h2)
 f = Ocirc(O, 90, [poly([Ar, Br, Cr, Dr], '#dbeafe'), dash(Ar, Cr), dash(Br, Dr), vlab(Ar, O, 'A', 16), vlab(Br, O, 'B', 16), vlab(Cr, O, 'C', 16), vlab(Dr, O, 'D', 16),
-                     txt((O[0], O[1] + h2 + 17), '12 cm'), txt((Br[0] - 6, O[1] + 4), '5 cm', 'end')], 300, 250, (-4, 17))
+                     txt((O[0], O[1] + h2 + 17), '12 cm'), txt((Br[0] + 14, O[1] + 4), '5 cm', 'start')], 300, 250, (-4, 17))
 L.append(q('T9-B13-005', 'application', 'Hình chữ nhật ABCD có AB = 12 cm, BC = 5 cm; O là giao điểm của hai đường chéo (hình vẽ). Bốn đỉnh A, B, C, D cùng nằm trên đường tròn tâm O có bán kính bằng',
            '6,5 cm', ['13 cm', '8,5 cm', '6 cm'],
            'Hai đường chéo bằng nhau và cắt nhau tại trung điểm mỗi đường nên $OA=OB=OC=OD=\\frac{AC}{2}$. Với $AC=\\sqrt{12^2+5^2}=13$ cm, bán kính là 6,5 cm. 13 cm là đường kính.', fig=f))
@@ -219,7 +219,7 @@ def lcfig(R, d, s, lab_d, lab_R=True, tangent_angle=False):
     it = [circle(O, Rp), line((20, y), (280, y), w=2.2), txt((270, y - 8), 'a', 'end', 14), dot(O, 'O', 9, -6)]
     H = (O[0], y); it += [dot(H, 'H', 5, 16)]
     if d > 0 and not tangent_angle: it += [dash(O, H), rtm(H, (0, -1), (-1, 0), 9)]
-    if lab_d: it.append(txt((O[0] + 10, (O[1] + y) / 2 + 4), lab_d, 'start', 12))
+    if lab_d: it.append(txt((O[0] + 10, ((O[1] + Rp + y) / 2 if d > R else (O[1] + y) / 2) + 4), lab_d, 'start', 12))
     return fig(300, int(y + 40) if d >= R else int(O[1] + Rp + 30), it), O, H
 f, O, H = lcfig(5, 3, 18, '3 cm', True); f['items'].append(sl(O, pol(O, 90, 150), '5 cm', 12)); f['items'].insert(1, line(O, pol(O, 90, 150)))
 assert 3 < 5
