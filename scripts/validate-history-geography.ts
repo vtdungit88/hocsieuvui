@@ -108,7 +108,7 @@ for (const set of quizSets) {
   }
   assert.deepEqual(levels, expectedLevels, `${set.lessonId} has an incorrect difficulty distribution`);
 }
-assert.equal(quizSets.length, 40, 'Expected 40 current/legacy draft quiz sets (not a claim of syllabus completeness)');
+assert.equal(quizSets.length, 48, 'Expected 48 current/legacy draft quiz sets (not a claim of syllabus completeness)');
 assert.equal(quizLessonIds.size, lessonIds.size, 'Every current lesson draft must have exactly one quiz set');
 
 const manifestLessonIds = new Set(syllabusLessons.map((lesson) => lesson.id));
