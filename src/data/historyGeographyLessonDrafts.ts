@@ -1802,5 +1802,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-geography-09', grade: 8, strand: 'geography',
+    title: 'Thổ nhưỡng Việt Nam',
+    summary: 'Tìm hiểu đặc điểm chung của thổ nhưỡng Việt Nam, các nhóm đất chính, sự phân bố và vai trò của đất đối với sản xuất; nhận biết nguyên nhân thoái hóa đất và biện pháp bảo vệ.',
+    learningObjectives: [
+      'Nêu được các nhân tố hình thành đất và đặc điểm chung của thổ nhưỡng Việt Nam.',
+      'Phân biệt được đất feralit, đất phù sa và một số nhóm đất khác.',
+      'Đề xuất được biện pháp sử dụng hợp lí và bảo vệ tài nguyên đất.'
+    ],
+    sections: [
+      {
+        heading: 'Nhân tố hình thành và đặc điểm thổ nhưỡng',
+        body: 'Thổ nhưỡng hình thành dưới tác động tổng hợp của đá mẹ, khí hậu, sinh vật, địa hình, thời gian và hoạt động của con người. Khí hậu nhiệt đới ẩm làm quá trình phong hóa và rửa trôi diễn ra mạnh ở nhiều vùng đồi núi, trong khi sông ngòi bồi đắp phù sa ở đồng bằng. Vì vậy, đất Việt Nam đa dạng, có sự phân hóa theo địa hình và vùng khí hậu. Độ phì của đất phụ thuộc vào thành phần, cấu trúc, chất hữu cơ, nước và cách sử dụng đất.',
+        keyPoints: ['Đất hình thành do nhiều nhân tố tác động; thổ nhưỡng Việt Nam đa dạng và phân hóa theo vùng.'],
+        example: 'Một sườn núi dốc, mưa nhiều có thể bị rửa trôi mạnh hơn khu vực bằng phẳng được che phủ thực vật.'
+      },
+      {
+        heading: 'Các nhóm đất chính và phân bố',
+        body: 'Đất feralit phân bố chủ yếu ở vùng đồi núi, hình thành trong điều kiện nhiệt đới ẩm, thường có màu đỏ hoặc vàng do tích tụ các hợp chất sắt và nhôm; đất này thích hợp với một số cây công nghiệp lâu năm nếu được bảo vệ và cải tạo phù hợp. Đất phù sa tập trung ở đồng bằng và dọc các thung lũng sông, có giá trị lớn đối với trồng lúa, rau màu và cây ăn quả. Ngoài ra còn có các nhóm đất mặn, đất phèn ở một số vùng ven biển và đồng bằng thấp, đất cát ven biển cùng các loại đất khác có đặc tính riêng.',
+        keyPoints: ['Đất feralit phổ biến ở đồi núi; đất phù sa tập trung ở đồng bằng; đất mặn, phèn và đất cát phân bố ở một số khu vực đặc thù.'],
+        example: 'Dựa vào bản đồ đất để liên hệ loại đất với địa hình, nguồn gốc hình thành và cây trồng phù hợp.'
+      },
+      {
+        heading: 'Thoái hóa đất và bảo vệ tài nguyên đất',
+        body: 'Đất có thể bị thoái hóa do xói mòn, rửa trôi, bạc màu, mặn hóa, phèn hóa, ô nhiễm hóa chất hoặc sử dụng vượt quá khả năng phục hồi. Phá rừng, canh tác trên đất dốc không có biện pháp bảo vệ, tưới tiêu thiếu hợp lí và lạm dụng phân bón, thuốc bảo vệ thực vật làm tăng nguy cơ suy thoái. Biện pháp bảo vệ gồm duy trì độ che phủ thực vật, canh tác theo đường đồng mức, luân canh và bổ sung hữu cơ, quản lí tưới tiêu, cải tạo đất phù hợp và kiểm soát chất thải. Sử dụng đất cần gắn với quy hoạch và bảo vệ lâu dài.',
+        keyPoints: ['Chống xói mòn, duy trì thảm thực vật, canh tác hợp lí và kiểm soát ô nhiễm là những biện pháp bảo vệ đất.'],
+        example: 'Ở vùng dốc, trồng theo đường đồng mức và giữ lớp phủ thực vật giúp hạn chế dòng chảy mặt và xói mòn.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
