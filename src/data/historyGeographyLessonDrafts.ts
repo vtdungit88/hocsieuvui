@@ -1226,5 +1226,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-history-10', grade: 8, strand: 'history',
+    title: 'Sự hình thành chủ nghĩa đế quốc ở các nước Âu - Mỹ (cuối thế kỉ XIX - đầu thế kỉ XX)',
+    summary: 'Tìm hiểu những biến đổi của chủ nghĩa tư bản trong giai đoạn cuối thế kỉ XIX – đầu thế kỉ XX, sự hình thành các tổ chức độc quyền, quá trình mở rộng thuộc địa và những mâu thuẫn quốc tế ngày càng gay gắt.',
+    learningObjectives: [
+      'Nêu được một số đặc điểm kinh tế của các nước tư bản Âu – Mỹ cuối thế kỉ XIX – đầu thế kỉ XX.',
+      'Giải thích được sự hình thành tổ chức độc quyền và xu hướng mở rộng thuộc địa.',
+      'Nhận biết được những mâu thuẫn và hệ quả của quá trình cạnh tranh đế quốc.'
+    ],
+    sections: [
+      {
+        heading: 'Chuyển biến kinh tế và sự hình thành tổ chức độc quyền',
+        body: 'Cuối thế kỉ XIX – đầu thế kỉ XX, những thành tựu của cách mạng công nghiệp lần thứ hai thúc đẩy sản xuất công nghiệp phát triển mạnh ở nhiều nước Âu – Mỹ. Quy mô nhà máy và lượng vốn đầu tư tăng, nhiều doanh nghiệp liên kết hoặc thôn tính đối thủ, hình thành các tổ chức độc quyền trong một số ngành. Ngân hàng và công nghiệp ngày càng gắn bó, vốn tài chính có vai trò lớn trong nền kinh tế. Quá trình tập trung sản xuất và tư bản diễn ra không giống nhau ở mọi quốc gia, tùy theo thời điểm và điều kiện phát triển.',
+        keyPoints: ['Tập trung sản xuất, tư bản và sự gắn kết giữa ngân hàng với công nghiệp là những đặc điểm nổi bật.'],
+        example: 'Khi phân tích tổ chức độc quyền, cần chú ý quy mô vốn, mức độ tập trung doanh nghiệp và khả năng chi phối thị trường.'
+      },
+      {
+        heading: 'Mở rộng thuộc địa và cạnh tranh giữa các đế quốc',
+        body: 'Nhu cầu về nguyên liệu, thị trường, nơi đầu tư và vị trí chiến lược thúc đẩy các nước tư bản lớn mở rộng ảnh hưởng ra bên ngoài. Nhiều khu vực ở châu Á, châu Phi và các nơi khác bị xâm chiếm hoặc đặt dưới ách thống trị thuộc địa. Các cường quốc cạnh tranh để phân chia lãnh thổ và phạm vi ảnh hưởng; những nước công nghiệp phát triển muộn tìm cách thay đổi tương quan thuộc địa đã được thiết lập trước đó. Quá trình này gắn với chiến tranh xâm lược, áp bức và khai thác thuộc địa, gây hậu quả nặng nề cho cư dân bản địa.',
+        keyPoints: ['Cạnh tranh thuộc địa gắn với nhu cầu nguyên liệu, thị trường, đầu tư và lợi ích chiến lược.'],
+        example: 'Đọc bản đồ thuộc địa theo thời gian giúp nhận biết sự thay đổi phạm vi kiểm soát và cạnh tranh giữa các cường quốc.'
+      },
+      {
+        heading: 'Mâu thuẫn quốc tế và hệ quả lịch sử',
+        body: 'Sự phát triển không đồng đều giữa các nước tư bản cùng với việc phân chia thuộc địa không cân xứng làm gia tăng mâu thuẫn giữa các cường quốc. Bên cạnh cạnh tranh kinh tế, các nước tăng cường quân bị và hình thành những liên minh đối lập. Chủ nghĩa đế quốc góp phần làm sâu sắc thêm xung đột quốc tế, trở thành một trong những bối cảnh dẫn tới Chiến tranh thế giới thứ nhất năm 1914. Khi học nội dung này, cần phân biệt nguyên nhân lâu dài, các mâu thuẫn và sự kiện trực tiếp dẫn tới chiến tranh.',
+        keyPoints: ['Cạnh tranh giữa các đế quốc và mâu thuẫn về thuộc địa làm tình hình quốc tế thêm căng thẳng.'],
+        example: 'Sơ đồ nguyên nhân giúp phân biệt cạnh tranh kinh tế, tranh chấp thuộc địa, chạy đua vũ trang và sự kiện trực tiếp.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
