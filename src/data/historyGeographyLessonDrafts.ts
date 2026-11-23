@@ -1482,5 +1482,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-history-18', grade: 8, strand: 'history',
+    title: 'Phong trào kháng chiến chống Pháp trong những năm 1885 - 1896',
+    summary: 'Tìm hiểu sự bùng nổ của phong trào Cần Vương, vai trò của vua Hàm Nghi và Tôn Thất Thuyết, các cuộc khởi nghĩa tiêu biểu và nguyên nhân thất bại của phong trào chống Pháp cuối thế kỉ XIX.',
+    learningObjectives: [
+      'Trình bày được bối cảnh ra đời và nội dung chính của phong trào Cần Vương.',
+      'Nêu được các giai đoạn và một số cuộc khởi nghĩa tiêu biểu trong phong trào.',
+      'Phân tích được nguyên nhân thất bại và ý nghĩa lịch sử của phong trào.'
+    ],
+    sections: [
+      {
+        heading: 'Sự bùng nổ phong trào Cần Vương',
+        body: 'Sau khi triều đình kí các hiệp ước thừa nhận sự bảo hộ của Pháp, mâu thuẫn trong triều đình ngày càng gay gắt. Đêm 4 rạng sáng 5/7/1885, phe chủ chiến do Tôn Thất Thuyết đứng đầu tổ chức cuộc phản công quân Pháp tại kinh thành Huế nhưng thất bại. Tôn Thất Thuyết đưa vua Hàm Nghi ra căn cứ Tân Sở và nhân danh nhà vua ban Chiếu Cần Vương tháng 7/1885, kêu gọi văn thân, sĩ phu và nhân dân giúp vua cứu nước. Chiếu Cần Vương thúc đẩy phong trào chống Pháp lan rộng ở nhiều địa phương.',
+        keyPoints: ['Chiếu Cần Vương năm 1885 kêu gọi giúp vua cứu nước và trở thành ngọn cờ tập hợp lực lượng chống Pháp.'],
+        example: 'Dùng dòng thời gian phân biệt cuộc phản công ở Huế đầu tháng 7/1885 với thời điểm ban Chiếu Cần Vương.'
+      },
+      {
+        heading: 'Các giai đoạn và cuộc khởi nghĩa tiêu biểu',
+        body: 'Phong trào Cần Vương thường được chia thành hai giai đoạn: từ năm 1885 đến năm 1888, phong trào phát triển rộng với sự hưởng ứng của nhiều địa phương; từ năm 1888 đến năm 1896, các cuộc khởi nghĩa tiếp tục nhưng dần tập trung thành những trung tâm lớn. Một số cuộc khởi nghĩa tiêu biểu gồm Ba Đình ở Thanh Hóa, Bãi Sậy ở Hưng Yên và Hương Khê ở Hà Tĩnh – Nghệ An, do Phan Đình Phùng và Cao Thắng lãnh đạo. Khởi nghĩa Hương Khê kéo dài đến năm 1896, được xem là một trong những cuộc khởi nghĩa tiêu biểu và có tổ chức của phong trào.',
+        keyPoints: ['Ba Đình, Bãi Sậy và Hương Khê là những cuộc khởi nghĩa tiêu biểu; Hương Khê kết thúc năm 1896.'],
+        example: 'Lập bảng địa bàn – lãnh đạo – thời gian – đặc điểm để phân biệt các cuộc khởi nghĩa.'
+      },
+      {
+        heading: 'Kết quả, nguyên nhân thất bại và ý nghĩa',
+        body: 'Đến năm 1896, các trung tâm kháng chiến lớn lần lượt bị đàn áp, phong trào Cần Vương kết thúc. Nguyên nhân thất bại gồm tương quan lực lượng chênh lệch, vũ khí và phương thức tổ chức còn hạn chế, các cuộc khởi nghĩa hoạt động phân tán và chưa có sự phối hợp thống nhất trên phạm vi cả nước. Dù thất bại, phong trào thể hiện tinh thần yêu nước, ý chí chống xâm lược và vai trò của văn thân, sĩ phu cùng đông đảo nhân dân. Phong trào để lại kinh nghiệm và ảnh hưởng đối với các xu hướng cứu nước đầu thế kỉ XX.',
+        keyPoints: ['Phong trào thất bại năm 1896 nhưng khẳng định tinh thần yêu nước và để lại ảnh hưởng cho các phong trào sau.'],
+        example: 'Khi giải thích thất bại, cần kết hợp nguyên nhân khách quan và hạn chế trong tổ chức, phối hợp của phong trào.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
