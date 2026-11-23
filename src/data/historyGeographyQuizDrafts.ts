@@ -30,7 +30,7 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
 
  {lessonId:"g6-history-02",grade:6,strand:'history',title:"Dựa vào đâu để biết và phục dựng lại lịch sử?",questions:buildQuestions("g6-history-02",[
     ["Tư liệu lịch sử là gì?","Những dấu tích và thông tin còn lại từ quá khứ","Mọi dự đoán về tương lai","Chỉ những câu chuyện hư cấu","Chỉ các văn bản mới viết",0,"Tư liệu lịch sử là dấu tích, tài liệu và thông tin giúp con người tìm hiểu quá khứ."],
-    ["Đâu là tư liệu hiện vật?","Một bài bình luận hôm nay","Một chiếc rìu đá được khai quật","Một dự báo thời tiết","Một kế hoạch chưa thực hiện",1,"Công cụ đá còn lại từ quá khứ là tư liệu hiện vật."],
+    ["Trong khai quật khảo cổ, vật dụng bằng đá còn nguyên dấu chế tác được xếp vào nhóm nào?","Tư liệu truyền miệng","Tư liệu hiện vật","Tư liệu thống kê","Tư liệu dự báo",1,"Công cụ bằng đá còn lại từ quá khứ là tư liệu hiện vật."],
     ["Đâu là tư liệu chữ viết?","Một chiếc bình gốm","Một lời kể chưa ghi lại","Một tấm bia có khắc văn bản","Một bức tường thành",2,"Văn bản trên bia là tư liệu chữ viết."],
     ["Truyện kể dân gian về một nhân vật xưa thuộc loại tư liệu nào?","Hiện vật","Bản đồ tự nhiên","Tư liệu số liệu","Tư liệu truyền miệng",3,"Thông tin được lưu truyền qua lời kể thuộc tư liệu truyền miệng."],
     ["Ảnh chụp một sự kiện lịch sử được xếp vào nhóm tư liệu nào?","Tư liệu hình ảnh","Tư liệu địa chất","Tư liệu khí hậu","Tư liệu dự báo",0,"Hình ảnh ghi lại sự kiện là một dạng tư liệu hình ảnh."],
