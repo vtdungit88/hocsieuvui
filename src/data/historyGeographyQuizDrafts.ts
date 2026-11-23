@@ -551,7 +551,7 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
     ["Nếu so sánh mốc 1611 và 1698, nhận xét nào phù hợp?","Đây là hai mốc ở các giai đoạn khác nhau của quá trình mở rộng và tổ chức quản lí","Hai sự kiện xảy ra cùng một năm","Mốc 1698 diễn ra trước 1611","Cả hai đều đánh dấu sự thành lập nhà Mạc",0,"1611 gắn với phủ Phú Yên; 1698 gắn với việc tổ chức hành chính vùng Đồng Nai – Gia Định."],
     ["Một địa phương có dấu tích kiến trúc, địa danh và lễ hội của nhiều cộng đồng. Có thể tìm hiểu điều gì?","Chỉ lịch sử một triều đại","Dấu ấn giao lưu, cộng cư và biến đổi văn hóa","Chỉ khí hậu hiện tại","Không có thông tin lịch sử",1,"Di tích, địa danh và lễ hội có thể phản ánh sự giao lưu văn hóa qua thời gian."],
     ["Kết luận nào phản ánh đầy đủ nhất công cuộc khai phá vùng đất phía nam?","Chỉ là quá trình quân sự","Chỉ là sự di chuyển của một nhóm người","Là tiến trình lâu dài gồm di dân, khai hoang, tổ chức hành chính, phát triển kinh tế và giao lưu đa cộng đồng","Diễn ra đồng loạt trong một thời điểm",2,"Tiến trình có nhiều mặt và có sự tham gia của nhiều cộng đồng cư dân."]
-  ]),status:'draft'},,
+  ]),status:'draft'},
 
   {lessonId:'g8-history-07',grade:8,strand:'history',title:'Khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII',questions:buildQuestions('g8-history-07',[
     ["Phong trào khởi nghĩa nông dân ở Đàng Ngoài phát triển mạnh trong thế kỉ nào?","Thế kỉ XVIII","Thế kỉ X","Thế kỉ XIII","Thế kỉ XX",0,"Nhiều cuộc khởi nghĩa nông dân diễn ra ở Đàng Ngoài trong thế kỉ XVIII."],
