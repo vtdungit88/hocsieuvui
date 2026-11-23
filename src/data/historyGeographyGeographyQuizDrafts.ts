@@ -28,7 +28,7 @@ export const geographyQuizDrafts:HGGeoQuizSet[]=[
  ]),status:'draft'},
 
  {lessonId:"g6-geography-02",grade:6,strand:'geography',title:"Bản đồ. Một số lưới kinh vĩ tuyến. Phương hướng trên bản đồ",questions:buildGeo("g6-geography-02",[
-    ["Bản đồ là gì?","Hình ảnh thu nhỏ, có chọn lọc bề mặt Trái Đất hoặc một khu vực trên mặt phẳng","Ảnh chụp nguyên trạng toàn bộ Trái Đất","Bảng thống kê dân số","Mô hình thời tiết",0,"Bản đồ thể hiện bề mặt Trái Đất hoặc một phần trên mặt phẳng theo quy ước."],
+    ["Một bản đồ địa lí được hiểu là sản phẩm nào?","Hình ảnh thu nhỏ, có chọn lọc bề mặt Trái Đất hoặc một khu vực trên mặt phẳng","Ảnh chụp nguyên trạng toàn bộ Trái Đất","Bảng thống kê dân số","Mô hình thời tiết",0,"Bản đồ thể hiện bề mặt Trái Đất hoặc một phần trên mặt phẳng theo quy ước."],
     ["Lưới kinh, vĩ tuyến trên bản đồ có tác dụng chính nào?","Trang trí khung bản đồ","Hỗ trợ xác định vị trí và phương hướng","Thể hiện giá cả","Thay thế chú giải",1,"Lưới kinh vĩ tuyến là cơ sở định vị và thể hiện vị trí trên bản đồ."],
     ["Trên bản đồ có mũi tên chỉ chữ B, chữ B thường biểu thị hướng nào?","Nam","Đông","Bắc","Tây",2,"Theo quy ước thông dụng, chữ B là hướng Bắc."],
     ["Nếu hướng Bắc ở phía trên bản đồ thì hướng Đông nằm ở đâu?","Bên trái","Phía dưới","Phía trên","Bên phải",3,"Khi Bắc ở trên, Đông ở bên phải, Nam ở dưới và Tây ở bên trái."],
