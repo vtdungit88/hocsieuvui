@@ -348,3 +348,14 @@ The remaining ten Grade 7 History lessons and their 150 questions have been adde
 - Validator expected totals updated to 118 manifest-aligned lessons/packs, 126 total quiz sets and 1,890 questions; Grade 8 Geography assertion updated to ten lessons.
 - CI passed on commit `8c01e9a3633ff8559b2f7bf920c248f1569f93ea` through Grade 8 Geography lesson 7. Lessons 8–10 and latest validator changes require a fresh complete green run on the current head.
 - All materials remain draft-only and require independent teacher/subject-matter review. No production import, publish, unlock, merge or deployment has occurred.
+
+
+## Progress update — 2026-11-23 (Grade 8 Geography lesson 11)
+
+- Added `g8-geography-11`: **Phạm vi Biển Đông. Vùng biển đảo và đặc điểm tự nhiên vùng biển đảo Việt Nam**, with three substantive sections and a matching 15-question geography quiz.
+- Grade 8 History remains complete at 19/19; Grade 8 Geography is now 11/12.
+- Overall inventory: **119/166 manifest units** and 119 matching manifest quiz packs. Including 8 legacy sample packs: **127 quiz sets / 1,905 questions**.
+- Remaining Grade 8 units: **3** (1 Geography + 2 integrated/common). Grade 9: **44** units. Total remaining: 47.
+- Validator expected totals updated to 119 manifest-aligned lessons/packs, 127 total quiz sets and 1,905 questions; Grade 8 Geography assertion updated to eleven lessons.
+- CI passed on commit `04374898d553888c3012d63bfb79a7cb8834fcef` through Grade 8 Geography lesson 9. Lessons 10–11 and latest validator changes require a fresh complete green run on the current head.
+- All materials remain draft-only and require independent teacher/subject-matter review. No production import, publish, unlock, merge or deployment has occurred.
