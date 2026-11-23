@@ -533,7 +533,7 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
     ["Nếu bản đồ cho thấy sông Gianh là ranh giới, học sinh có thể xác định điều gì?","Vị trí tương đối của Đàng Ngoài và Đàng Trong","Ngày chính xác của mọi trận đánh","Danh tính mọi người dân thời đó","Sản lượng lúa từng làng",0,"Bản đồ giúp nhận biết không gian và ranh giới địa lí – chính trị."],
     ["Một nhận định cho rằng vua Lê hoàn toàn nắm quyền trong giai đoạn Trịnh – Nguyễn. Cách hiệu chỉnh phù hợp là gì?","Đồng ý vì danh nghĩa luôn trùng quyền lực thực tế","Phân biệt ngôi vua về danh nghĩa với quyền lực thực tế của các chúa","Bỏ qua vai trò các chúa","Cho rằng không có triều đình",1,"Cần phân biệt địa vị danh nghĩa của vua Lê với quyền lực thực tế của các chúa."],
     ["Khi đánh giá tác động của xung đột thế kỉ XVI–XVII, cần kết hợp yếu tố nào?","Chỉ số năm bắt đầu","Chỉ tên một nhân vật","Tổn thất chiến tranh cùng các chuyển biến kinh tế, xã hội đồng thời","Chỉ ranh giới hành chính hiện nay",2,"Đánh giá cân bằng phải xem cả hệ quả tiêu cực và những biến đổi diễn ra cùng thời."]
-  ]),status:'draft'},,
+  ]),status:'draft'},
 
   {lessonId:'g8-history-06',grade:8,strand:'history',title:'Công cuộc khai phá vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII',questions:buildQuestions('g8-history-06',[
     ["Công cuộc khai phá vùng đất phía Nam diễn ra chủ yếu trong khoảng thời gian nào?","Từ thế kỉ XVI đến thế kỉ XVIII","Chỉ trong thế kỉ X","Chỉ trong thế kỉ XX","Từ thế kỉ I đến thế kỉ II",0,"Đây là quá trình kéo dài qua các thế kỉ XVI–XVIII."],
