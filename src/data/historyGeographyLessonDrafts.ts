@@ -157,4 +157,25 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
     questions: [],
     status: 'draft',
   },
+
+  {
+    id: 'g6-history-02',
+    grade: 6,
+    strand: 'history',
+    title: 'Dựa vào đâu để biết và phục dựng lại lịch sử?',
+    summary: 'Con người tìm hiểu quá khứ thông qua tư liệu lịch sử. Tư liệu có thể là hiện vật, chữ viết, truyền miệng hoặc hình ảnh; mỗi loại có giá trị và giới hạn riêng. Khi phục dựng một sự kiện, cần xác định xuất xứ, thời điểm, người tạo lập, đối chiếu nhiều nguồn và đặt chứng cứ trong bối cảnh lịch sử.',
+    learningObjectives: ['Phân biệt được các loại tư liệu lịch sử phổ biến.', 'Nêu được giá trị và giới hạn của từng loại tư liệu.', 'Biết lựa chọn, đối chiếu tư liệu để tìm hiểu một vấn đề lịch sử.'],
+    questions: [],
+    status: 'draft',
+  },
+  {
+    id: 'g6-geography-02',
+    grade: 6,
+    strand: 'geography',
+    title: 'Bản đồ. Một số lưới kinh vĩ tuyến. Phương hướng trên bản đồ',
+    summary: 'Bản đồ là hình ảnh thu nhỏ, có chọn lọc và khái quát bề mặt Trái Đất hoặc một khu vực trên mặt phẳng theo những quy ước nhất định. Lưới kinh, vĩ tuyến giúp xác định vị trí và thể hiện bề mặt cong lên mặt phẳng; phương hướng thường được xác định theo kinh tuyến, vĩ tuyến hoặc mũi tên chỉ Bắc trên bản đồ.',
+    learningObjectives: ['Nêu được khái niệm bản đồ và vai trò của lưới kinh, vĩ tuyến.', 'Nhận biết được một số cách thể hiện lưới kinh, vĩ tuyến trên bản đồ.', 'Xác định được phương hướng cơ bản dựa vào bản đồ.'],
+    questions: [],
+    status: 'draft',
+  },
 ];
