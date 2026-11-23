@@ -265,3 +265,14 @@ Các bộ mới chưa được phê duyệt để phát hành. Không thay đổ
 Mỗi bài có học liệu tóm tắt, 3 mục tiêu và 15 câu hỏi theo cấu trúc 11/3/1. Độ phủ theo manifest tăng lên **14/166 bài**, tương ứng **210 câu hỏi** trong các bộ quiz gắn ID bài. Tổng dữ liệu quiz draft hiện là **22 bộ / 330 câu**.
 
 Các câu hỏi đã được viết theo hướng kiểm tra kiến thức và vận dụng, không dùng câu hỏi giữ chỗ. Toàn bộ nội dung vẫn là draft; chưa import Supabase, chưa mở khóa lớp và chưa merge production.
+
+
+## 15. Mở rộng nội dung lớp 6 — bài 8 (23/11/2026)
+
+Đã bổ sung:
+- `g6-history-08`: **Ấn Độ cổ đại** — văn minh sông Ấn, đô thị Harappa/Mohenjo-daro, văn hóa Vê-đa, Maurya, A-sô-ca, Phật giáo, Kì-na giáo và đóng góp toán học.
+- `g6-geography-08`: **Chuyển động của Trái Đất quanh Mặt Trời và các hệ quả** — quỹ đạo, chu kì 365 ngày 6 giờ, độ nghiêng trục, các mùa và độ dài ngày đêm theo mùa.
+
+Mỗi bài có học liệu tóm tắt, 3 mục tiêu và 15 câu hỏi có bốn phương án, đáp án và giải thích; phân bố 11 cơ bản, 3 vận dụng, 1 thử thách. Độ phủ theo manifest đạt **16/166 bài**, gồm **240 câu hỏi** trong 16 bộ quiz gắn bài. Tổng quiz draft là **24 bộ / 360 câu** (gồm các bộ chủ đề mẫu cũ không tính độ phủ).
+
+Validator được cập nhật số bộ quiz dự kiến và CI cần chạy lại trên head mới. Nội dung vẫn là draft, chưa import Supabase, chưa mở khóa lớp và chưa merge production.
