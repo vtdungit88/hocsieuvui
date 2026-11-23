@@ -551,7 +551,7 @@ export const geographyQuizDrafts:HGGeoQuizSet[]=[
   ["Khi sử dụng bản đồ đất, cần kết hợp thông tin nào để chọn cây trồng?","Loại đất, địa hình, khí hậu và nhu cầu nước","Chỉ tên tỉnh","Chỉ màu nền bản đồ","Chỉ mật độ dân số",0,"Loại đất cần được xem cùng điều kiện địa hình, khí hậu và nước."],
   ["Một vùng đất dốc bị xói mòn mạnh. Giải pháp tổng hợp nào phù hợp?","Tăng phá rừng để mở rộng diện tích","Phục hồi thảm thực vật, làm ruộng bậc thang hoặc canh tác theo đường đồng mức","Tăng cày xới xuôi dốc","Xả nước tập trung trên sườn",1,"Kết hợp che phủ và kĩ thuật canh tác giúp giảm xói mòn."],
   ["Một khu vực đất bị ô nhiễm do chất thải sản xuất. Cách quản lí nào cần ưu tiên?","Chuyển chất thải sang ruộng bên cạnh","Che phủ bằng cát mà không xử lí","Kiểm soát nguồn thải, xử lí ô nhiễm và theo dõi chất lượng đất","Tiếp tục sử dụng không kiểm tra",2,"Cần kiểm soát nguồn ô nhiễm và phục hồi chất lượng đất."]
- ]),status:'draft'},,
+ ]),status:'draft'},
 
  {lessonId:'g8-geography-10',grade:8,strand:'geography',title:'Sinh vật Việt Nam',questions:buildGeo('g8-geography-10',[
   ["Đa dạng sinh học thường được xem xét qua những cấp độ nào?","Hệ sinh thái, loài và nguồn gen","Chỉ số lượng thành phố","Chỉ diện tích đất nông nghiệp","Chỉ số lượng sông",0,"Đa dạng sinh học gồm đa dạng hệ sinh thái, loài và nguồn gen."],
