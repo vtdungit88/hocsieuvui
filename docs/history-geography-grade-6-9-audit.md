@@ -170,3 +170,35 @@ Danh sách trên là kết quả đối chiếu nhiều nguồn học tập, kh�
 
 - CI đã chạy thành công trên đúng head hiện tại `7714561711786818fd1ca01a423422a08dee4414`: Run #162 / #45103910867, kết luận `success`.
 - CI xanh chỉ xác nhận chất lượng kỹ thuật của thay đổi hiện tại; không xác nhận nội dung SGK đã đủ hoặc đạt kiểm định sư phạm.
+
+
+## 8. Cập nhật triển khai manifest và học liệu (23/11/2026)
+
+Đã bổ sung file nguồn chuẩn `src/data/historyGeographySyllabusManifest.ts`. File này là danh mục theo chương/bài/phân môn, tách riêng phần Chủ đề chung, giữ số bài trong SGK và tạo ID nội bộ ổn định.
+
+| Khối | Lịch sử | Địa lí | Chủ đề chung | Tổng mục |
+|---|---:|---:|---:|---:|
+| 6 | 20 | 30 | 0 | 50 |
+| 7 | 18 | 19 | 2 | 39 |
+| 8 | 19 | 12 | 2 | 33 |
+| 9 | 21 | 21 | 2 | 44 |
+| **Tổng** | **78** | **82** | **6** | **166** |
+
+Nguồn mục lục:
+- Lớp 6: SGV NXBGDVN, https://sachdientu.nxbgd.vn/thu-vien-so/doc-sach/sgv-lich-su-va-dia-li-6.4496193929
+- Lớp 7: tài liệu bồi dưỡng giáo viên NXBGDVN và mục lục sách Kết nối tri thức, https://medialib.qlgd.edu.vn/Uploads/THU_VIEN/shn/2/37/UserFiles/5.-Lich-su-va-dia-li-7-d9d65a75-ee7e-4333-ab5a-abcc7e4b7a7f.pdf
+- Lớp 8: SGK và SGV NXBGDVN, https://sachdientu.nxbgd.vn/thu-vien-so/doc-sach/shs-lich-su-va-dia-ly.4495351297
+- Lớp 9: SGK NXBGDVN, https://sachdientu.nxbgd.vn/thu-vien-so/doc-sach/shs-lich-su-va-dia-ly.4495357589
+
+Validator `scripts/validate-history-geography.ts` đã được nâng cấp để:
+- Kiểm tra ID syllabus trùng, số bài trùng trong cùng phân môn, chương rỗng, sai phân môn, sai chapterId/chapterTitle.
+- Đối chiếu bài học và quiz pack với manifest khi dùng ID chính xác; không tính các draft chủ đề cũ là một bài SGK đầy đủ.
+- Phát hiện ID câu hỏi trùng, prompt trùng sau chuẩn hoá, phương án trống/trùng, đáp án ngoài phạm vi, giải thích thiếu và phân bố độ khó sai.
+- In báo cáo số bài/học liệu/quiz còn thiếu; có chế độ `--strict-coverage` để chặn phát hành nếu chưa phủ đủ.
+
+Học liệu và ngân hàng câu hỏi mới:
+- Bổ sung học liệu gốc cho lớp 6, Bài 1 Lịch sử và Bài 1 Địa lí.
+- Mỗi bài mới có 15 câu hỏi (11 cơ bản, 3 vận dụng, 1 thử thách), tổng cộng thêm 30 câu; câu hỏi và lời giải được biên soạn mới, không sao chép nguyên văn SGK.
+- Hiện có 10 bộ quiz × 15 = 150 câu trong các file draft; tuy nhiên chỉ 2 bộ mới được gắn ID bài chính xác trong manifest. 8 bộ cũ vẫn là bộ mẫu/chủ đề tổng hợp và không được tính là phủ bài SGK.
+
+**Cổng phát hành vẫn đóng:** manifest đã có 166 mục, nhưng phần lớn bài chưa có học liệu và bộ câu hỏi riêng. Chưa import Supabase, chưa bật lớp 6–9, chưa merge PR. CI đang kiểm tra các thay đổi mới; chỉ cập nhật trạng thái pass sau khi workflow hoàn tất.
