@@ -1258,5 +1258,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-history-11', grade: 8, strand: 'history',
+    title: 'Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học',
+    summary: 'Tìm hiểu sự hình thành giai cấp công nhân, các hình thức đấu tranh của phong trào công nhân trong thế kỉ XIX và sự ra đời của chủ nghĩa xã hội khoa học gắn với C. Mác và Ph. Ăng-ghen.',
+    learningObjectives: [
+      'Giải thích được bối cảnh hình thành giai cấp công nhân và phong trào công nhân.',
+      'Nêu được một số hình thức, phong trào và tổ chức tiêu biểu của công nhân thế kỉ XIX.',
+      'Trình bày được hoàn cảnh ra đời và ý nghĩa cơ bản của chủ nghĩa xã hội khoa học.'
+    ],
+    sections: [
+      {
+        heading: 'Sự hình thành giai cấp công nhân và phong trào đấu tranh',
+        body: 'Cách mạng công nghiệp làm xuất hiện và phát triển đội ngũ công nhân làm việc trong nhà máy, hầm mỏ và các cơ sở sản xuất. Trong giai đoạn đầu, người lao động thường phải làm việc nhiều giờ, tiền công thấp và điều kiện an toàn hạn chế. Để bảo vệ quyền lợi, công nhân đấu tranh dưới nhiều hình thức như đập phá máy móc trong một số phong trào ban đầu, đình công, mít tinh và thành lập tổ chức nghề nghiệp. Qua thực tiễn, phong trào dần chuyển từ những phản ứng tự phát sang đấu tranh có tổ chức và mục tiêu rõ hơn.',
+        keyPoints: ['Giai cấp công nhân hình thành cùng công nghiệp hóa; phong trào phát triển từ đấu tranh tự phát đến có tổ chức.'],
+        example: 'So sánh một cuộc phản kháng tự phát với một cuộc đình công có tổ chức để nhận ra sự thay đổi về mục tiêu và phương thức.'
+      },
+      {
+        heading: 'Phong trào công nhân và sự phát triển của tổ chức quốc tế',
+        body: 'Trong thế kỉ XIX, phong trào công nhân phát triển ở nhiều nước châu Âu và Bắc Mỹ, đòi cải thiện tiền lương, thời gian làm việc và quyền chính trị. Những phong trào như Hiến chương ở Anh thể hiện yêu cầu mở rộng quyền tham gia chính trị của người lao động. Năm 1864, Hội Liên hiệp Lao động quốc tế (Quốc tế thứ nhất) được thành lập, góp phần kết nối phong trào công nhân ở nhiều nước. Công xã Pa-ri năm 1871 trở thành một sự kiện quan trọng, cho thấy người lao động có thể tham gia tổ chức và quản lí chính quyền trong hoàn cảnh lịch sử đặc biệt.',
+        keyPoints: ['Phong trào công nhân mở rộng về quy mô, mục tiêu và tổ chức; Quốc tế thứ nhất thành lập năm 1864.'],
+        example: 'Dòng thời gian có thể giúp phân biệt phong trào Hiến chương, Quốc tế thứ nhất và Công xã Pa-ri.'
+      },
+      {
+        heading: 'Sự ra đời của chủ nghĩa xã hội khoa học',
+        body: 'Trước những biến đổi của xã hội công nghiệp và yêu cầu của phong trào công nhân, C. Mác và Ph. Ăng-ghen nghiên cứu các quan hệ kinh tế, xã hội và lịch sử. Năm 1848, hai ông công bố Tuyên ngôn của Đảng Cộng sản, trình bày những luận điểm cơ bản của chủ nghĩa xã hội khoa học và kêu gọi người lao động đoàn kết đấu tranh. Học thuyết này có ảnh hưởng lớn đến phong trào công nhân quốc tế và sự phát triển của tư tưởng chính trị hiện đại. Khi học cần đặt tác phẩm trong bối cảnh lịch sử thế kỉ XIX và phân biệt nội dung tư tưởng với các diễn biến chính trị về sau.',
+        keyPoints: ['C. Mác và Ph. Ăng-ghen là những người đặt nền tảng cho chủ nghĩa xã hội khoa học; Tuyên ngôn công bố năm 1848.'],
+        example: 'Khi phân tích một văn kiện lịch sử, cần xác định tác giả, thời điểm, bối cảnh và thông điệp chính.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
