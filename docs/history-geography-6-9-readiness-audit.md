@@ -146,3 +146,12 @@ The remaining ten Grade 7 History lessons and their 150 questions have been adde
 - Validator expected totals updated to 98 manifest-aligned lessons/packs, 106 total quiz sets and 1,590 questions.
 - CI was green on commit `859ea97425a510c27ed2a07a9494bb79ee1054e7` (content and validator through Grade 8 History lesson 7). The new lesson 8–9 changes require a fresh green run on the current head.
 - All new materials remain draft-only and require independent teacher/subject-matter review. No production import, publish, unlock, merge or deployment has occurred.
+
+
+## Progress update — 2026-11-23 (Grade 8 History lesson 10)
+
+- Added `g8-history-10`: **Sự hình thành chủ nghĩa đế quốc ở các nước Âu - Mỹ (cuối thế kỉ XIX - đầu thế kỉ XX)**, with three substantive sections and a matching 15-question draft quiz.
+- Current inventory: **99/166 manifest units** and 99 matching manifest quiz packs. Including 8 legacy sample packs: **107 quiz sets / 1,605 questions**. Grade 8 History is 10/19; 23 Grade 8 units and 44 Grade 9 units remain.
+- Validator expected totals updated to 99 manifest-aligned lessons/packs, 107 total quiz sets and 1,605 questions.
+- CI was green on commit `859ea97425a510c27ed2a07a9494bb79ee1054e7` (through Grade 8 History lesson 7). Lesson 8–10 and their validator changes need a fresh green run on the latest head.
+- All new materials remain draft-only and require independent teacher/subject-matter review. No production import, publish, unlock, merge or deployment has occurred.
