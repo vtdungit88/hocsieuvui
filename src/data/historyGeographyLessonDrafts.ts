@@ -1514,5 +1514,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-history-19', grade: 8, strand: 'history',
+    title: 'Phong trào yêu nước chống Pháp ở Việt Nam từ đầu thế kỉ XX đến năm 1917',
+    summary: 'Tìm hiểu những xu hướng yêu nước mới đầu thế kỉ XX, hoạt động của Phan Bội Châu, Phan Châu Trinh, Đông Kinh Nghĩa Thục và sự kiện Nguyễn Tất Thành ra đi tìm đường cứu nước năm 1911.',
+    learningObjectives: [
+      'Nêu được bối cảnh xuất hiện những xu hướng yêu nước mới đầu thế kỉ XX.',
+      'Phân biệt được khuynh hướng bạo động và cải cách qua hoạt động của các nhà yêu nước tiêu biểu.',
+      'Trình bày được ý nghĩa của sự kiện Nguyễn Tất Thành ra đi tìm đường cứu nước năm 1911.'
+    ],
+    sections: [
+      {
+        heading: 'Xu hướng bạo động và phong trào Đông Du',
+        body: 'Đầu thế kỉ XX, sau khi các phong trào Cần Vương và khởi nghĩa Yên Thế gặp nhiều khó khăn, một bộ phận sĩ phu Việt Nam tìm kiếm con đường cứu nước mới. Phan Bội Châu chủ trương dựa vào sự giúp đỡ từ bên ngoài và sử dụng bạo động để giành độc lập. Năm 1904, ông cùng các đồng chí thành lập Duy Tân hội; phong trào Đông Du được tổ chức từ năm 1905, đưa thanh niên sang Nhật Bản học tập. Khi Nhật Bản thỏa hiệp với Pháp, phong trào bị giải tán năm 1909. Dù không đạt mục tiêu, phong trào góp phần khơi dậy tinh thần yêu nước và mở rộng giao lưu với bên ngoài.',
+        keyPoints: ['Phan Bội Châu gắn với Duy Tân hội và phong trào Đông Du; Đông Du bị giải tán năm 1909.'],
+        example: 'Dùng bảng mốc thời gian để phân biệt việc thành lập Duy Tân hội năm 1904 và hoạt động Đông Du từ năm 1905.'
+      },
+      {
+        heading: 'Xu hướng cải cách và các phong trào xã hội',
+        body: 'Phan Châu Trinh chủ trương cải cách xã hội, nâng cao dân trí, chấn hưng kinh tế và cải thiện đời sống, không đặt trọng tâm vào bạo động vũ trang. Những tư tưởng canh tân có ảnh hưởng đến phong trào Duy Tân ở Trung Kì và sự ra đời của Đông Kinh Nghĩa Thục tại Hà Nội năm 1907. Năm 1908, phong trào chống thuế bùng nổ ở Trung Kì, phản ánh sự bất bình trước sưu thuế và chính sách cai trị của thực dân. Các phong trào có phương thức khác nhau nhưng cùng thể hiện khát vọng đổi mới đất nước và giành quyền sống, quyền tự chủ.',
+        keyPoints: ['Phan Châu Trinh gắn với xu hướng cải cách; Đông Kinh Nghĩa Thục thành lập năm 1907; phong trào chống thuế Trung Kì diễn ra năm 1908.'],
+        example: 'So sánh Phan Bội Châu và Phan Châu Trinh theo mục tiêu, phương pháp và hoạt động tiêu biểu.'
+      },
+      {
+        heading: 'Nguyễn Tất Thành ra đi tìm đường cứu nước',
+        body: 'Trong bối cảnh các phong trào yêu nước đầu thế kỉ XX chưa tìm được con đường thành công, Nguyễn Tất Thành sớm suy nghĩ về con đường giải phóng dân tộc. Ngày 5/6/1911, tại Bến Nhà Rồng, Người rời Việt Nam trên con tàu Amiral Latouche-Tréville, bắt đầu hành trình tìm hiểu các nước và con đường cứu nước. Sự kiện đánh dấu bước khởi đầu của quá trình khảo sát thực tiễn thế giới, tìm kiếm hướng đi mới cho cách mạng Việt Nam. Khi học cần phân biệt sự kiện ra đi năm 1911 với những bước phát triển tư tưởng và hoạt động chính trị diễn ra trong các năm tiếp theo.',
+        keyPoints: ['Ngày 5/6/1911, Nguyễn Tất Thành ra đi tìm đường cứu nước từ Bến Nhà Rồng.'],
+        example: 'Đặt sự kiện năm 1911 trong bối cảnh các xu hướng cứu nước trước đó để hiểu vì sao xuất hiện nhu cầu tìm con đường mới.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
