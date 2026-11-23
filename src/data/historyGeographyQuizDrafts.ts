@@ -45,4 +45,40 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
     ["Vì sao cần đặt tư liệu vào bối cảnh lịch sử?","Để bỏ qua thời gian","Để hiểu điều kiện, mục đích và hoàn cảnh tạo ra tư liệu","Để mọi tư liệu có cùng ý nghĩa","Để thay đổi niên đại",1,"Bối cảnh giúp giải thích đúng ý nghĩa của tư liệu, tránh áp đặt cách hiểu hiện nay."],
     ["Một nhóm chỉ có một bức ảnh không rõ nơi chụp để kết luận về một sự kiện. Cách làm khoa học hơn là gì?","Khẳng định ngay kết luận","Tự suy ra tên người trong ảnh","Tìm thêm nguồn xác thực thời gian, địa điểm và đối chiếu chứng cứ","Xóa bỏ mọi tư liệu khác",2,"Một ảnh đơn lẻ thiếu xuất xứ chưa đủ; cần xác minh và đối chiếu nguồn khác."],
  ]),status:'draft'},
+
+  {lessonId:'g6-history-03',grade:6,strand:'history',title:'Thời gian trong lịch sử',questions:buildQuestions('g6-history-03',[
+    ['Trong lịch sử, thời gian giúp xác định điều gì?','Thời điểm và trình tự diễn ra của sự kiện','Màu sắc hiện vật','Kích thước bản đồ','Nhiệt độ không khí',0,'Mốc thời gian cho biết khi nào sự kiện diễn ra và giúp sắp xếp trình tự.'],
+    ['Dương lịch được tính chủ yếu dựa trên chu kì nào?','Mặt Trăng quay quanh Trái Đất','Trái Đất chuyển động quanh Mặt Trời','Thủy triều','Sự thay đổi mùa mưa',1,'Dương lịch dựa trên chu kì Trái Đất chuyển động quanh Mặt Trời.'],
+    ['Âm lịch truyền thống chủ yếu dựa vào chu kì nào?','Sự tự quay của Trái Đất','Chu kì nhật thực','Tuần trăng của Mặt Trăng','Sự chuyển động của sao Hỏa',2,'Âm lịch truyền thống căn cứ vào chu kì tuần trăng.'],
+    ['Công nguyên được quy ước lấy mốc trung tâm là sự kiện nào?','Thành lập nhà nước Văn Lang','Xây dựng Kim tự tháp','Phát minh chữ viết','Năm được quy ước gắn với sự ra đời của Chúa Giê-su',3,'Công nguyên lấy mốc quy ước gắn với năm sinh của Chúa Giê-su.'],
+    ['Những năm trước Công nguyên được tính theo chiều nào?','Càng xa mốc Công nguyên thì số năm càng lớn','Càng gần hiện tại thì số năm càng lớn','Luôn tăng từ 1 đến vô hạn về phía hiện tại','Không thể sắp xếp',0,'Năm trước Công nguyên giảm dần khi tiến gần đến mốc Công nguyên.'],
+    ['Một thế kỉ có bao nhiêu năm?','10 năm','100 năm','500 năm','1.000 năm',1,'Một thế kỉ gồm 100 năm.'],
+    ['Năm 2026 thuộc thế kỉ nào?','Thế kỉ XX','Thế kỉ XXI','Thế kỉ XIX','Thế kỉ XXII',1,'Các năm từ 2001 đến 2100 thuộc thế kỉ XXI.'],
+    ['Năm 1453 thuộc thế kỉ nào?','Thế kỉ XIII','Thế kỉ XIV','Thế kỉ XV','Thế kỉ XVI',2,'Các năm 1401–1500 thuộc thế kỉ XV.'],
+    ['Năm 938 thuộc thế kỉ nào?','Thế kỉ VIII','Thế kỉ IX','Thế kỉ X','Thế kỉ XI',1,'Các năm 901–1000 thuộc thế kỉ X.'],
+    ['Trên trục thời gian, sự kiện nằm bên trái thường xảy ra như thế nào so với sự kiện bên phải?','Muộn hơn','Cùng lúc trong mọi trường hợp','Không xác định được','Sớm hơn',3,'Trục thời gian thường sắp xếp các mốc từ quá khứ đến hiện tại theo chiều trái sang phải.'],
+    ['Từ năm 1200 đến năm 1250 cách nhau bao nhiêu năm?','50 năm','100 năm','25 năm','150 năm',0,'Lấy 1250 trừ 1200 được 50 năm.'],
+    ['Khi ghi một sự kiện năm 40 trước Công nguyên, cách viết nào phù hợp?','Năm 40','Năm 40 sau Công nguyên','Năm 40 TCN','Thế kỉ 40',2,'TCN là viết tắt của trước Công nguyên.'],
+    ['Một sự kiện xảy ra năm 1010 và sự kiện khác năm 1015. Sự kiện nào diễn ra trước?','Sự kiện năm 1015','Hai sự kiện cùng lúc','Không thể biết','Sự kiện năm 1010',3,'Năm 1010 sớm hơn năm 1015.'],
+    ['Khi so sánh hai sự kiện ở hai thời kì khác nhau, cần làm gì?','Đưa các mốc về cùng hệ quy chiếu thời gian và xác định rõ TCN/CN','Bỏ qua niên đại','Chỉ dựa vào độ dài tên sự kiện','Đổi tùy ý mốc năm',0,'Cần xác định đúng hệ tính năm và mốc trước/sau Công nguyên để tránh nhầm lẫn.'],
+    ['Sự kiện A diễn ra năm 200 TCN, sự kiện B diễn ra năm 150 TCN. Kết luận nào đúng?','A diễn ra sau B','B diễn ra sau A','Hai sự kiện cách nhau 350 năm','Không thể xác định thứ tự',1,'Trong thời kì trước Công nguyên, năm 200 TCN sớm hơn năm 150 TCN.']
+  ]),status:'draft'},
+  {lessonId:'g6-geography-03',grade:6,strand:'geography',title:'Tỉ lệ bản đồ. Tính khoảng cách thực tế dựa vào tỉ lệ bản đồ',questions:buildGeo('g6-geography-03',[
+    ['Tỉ lệ bản đồ cho biết điều gì?','Mức độ thu nhỏ khoảng cách trên bản đồ so với thực tế','Độ cao của địa hình','Số lượng kí hiệu','Thời gian lập bản đồ',0,'Tỉ lệ thể hiện mức độ thu nhỏ khoảng cách thực tế lên bản đồ.'],
+    ['Tỉ lệ số 1:100 000 có nghĩa là 1 cm trên bản đồ bằng bao nhiêu ngoài thực tế?','100 m','1 km','10 km','100 km',1,'100 000 cm bằng 1 000 m, tức 1 km.'],
+    ['Tỉ lệ 1:50 000 nghĩa là 1 cm trên bản đồ tương ứng?','50 km','5 km','500 m','50 m',2,'50 000 cm đổi bằng 500 m.'],
+    ['Tỉ lệ bản đồ thường được biểu hiện bằng những cách nào?','Chỉ bằng màu sắc','Chỉ bằng kí hiệu điểm','Chỉ bằng lời mô tả','Tỉ lệ số và thước tỉ lệ',3,'Hai cách biểu hiện phổ biến là tỉ lệ số và thước tỉ lệ.'],
+    ['Trên bản đồ tỉ lệ 1:200 000, 1 cm tương ứng thực tế bao nhiêu?','2 km','200 m','20 km','200 km',0,'200 000 cm bằng 2 km.'],
+    ['Khoảng cách hai điểm đo được trên bản đồ là 3 cm, tỉ lệ 1:100 000. Khoảng cách thực tế là?','300 m','3 km','30 km','300 km',1,'3 cm × 100 000 = 300 000 cm = 3 km.'],
+    ['Với cùng một khu vực, bản đồ tỉ lệ 1:25 000 so với 1:100 000 có mức độ thể hiện như thế nào?','Ít chi tiết hơn','Không thể hiện được đường','Chi tiết hơn','Luôn có diện tích giấy nhỏ hơn',2,'Mẫu số càng nhỏ thì tỉ lệ càng lớn và thường thể hiện chi tiết hơn.'],
+    ['Trên bản đồ tỉ lệ 1:500 000, 2 cm tương ứng bao nhiêu km?','2 km','5 km','20 km','10 km',3,'2 × 500 000 cm = 1 000 000 cm = 10 km.'],
+    ['Khi tính khoảng cách thực tế từ bản đồ, bước đầu tiên là gì?','Đo khoảng cách giữa hai điểm trên bản đồ','Nhân diện tích trang giấy','Đo nhiệt độ','Đếm số màu',0,'Cần đo khoảng cách trên bản đồ trước khi áp dụng tỉ lệ.'],
+    ['Nếu khoảng cách thực tế là 4 km và tỉ lệ 1:100 000, khoảng cách trên bản đồ là?','40 cm','4 cm','0,4 cm','400 cm',1,'4 km = 400 000 cm; chia 100 000 được 4 cm.'],
+    ['Một bản đồ có tỉ lệ 1:1 000 000. 1 cm trên bản đồ tương ứng?','100 m','1 km','10 km','100 km',2,'1 000 000 cm bằng 10 km.'],
+    ['Vì sao cần đổi các khoảng cách về cùng đơn vị trước khi tính?','Để bản đồ có nhiều màu','Để tăng tỉ lệ','Để khỏi cần đo','Để phép tính và kết quả nhất quán, tránh sai số đơn vị',3,'Đổi về cùng đơn vị giúp nhân/chia theo tỉ lệ chính xác.'],
+    ['Hai điểm cách nhau 5 cm trên bản đồ tỉ lệ 1:20 000. Khoảng cách thực tế là?','1 km','100 m','10 km','5 km',0,'5 × 20 000 cm = 100 000 cm = 1 km.'],
+    ['Một tuyến đường dài 6 km được biểu hiện trên bản đồ tỉ lệ 1:200 000. Độ dài trên bản đồ là?','12 cm','3 cm','6 cm','30 cm',1,'6 km = 600 000 cm; chia 200 000 được 3 cm.'],
+    ['Trên bản đồ tỉ lệ 1:50 000, đoạn AB dài 4 cm, đoạn CD dài 7 cm. Kết luận nào đúng?','AB dài thực tế hơn CD','Hai đoạn bằng nhau','CD dài hơn AB 1,5 km','Không thể so sánh dù cùng bản đồ',2,'AB là 2 km, CD là 3,5 km; CD dài hơn 1,5 km.']
+  ]),status:'draft'},
+
 ];
