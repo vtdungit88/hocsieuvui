@@ -1130,5 +1130,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-history-07', grade: 8, strand: 'history',
+    title: 'Khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII',
+    summary: 'Tìm hiểu nguyên nhân, một số cuộc khởi nghĩa nông dân tiêu biểu ở Đàng Ngoài thế kỉ XVIII và tác động của phong trào đối với chính quyền Lê – Trịnh và xã hội đương thời.',
+    learningObjectives: [
+      'Giải thích được những nguyên nhân chủ yếu dẫn đến phong trào khởi nghĩa nông dân.',
+      'Nêu được một số cuộc khởi nghĩa tiêu biểu và đặc điểm chung của phong trào.',
+      'Đánh giá được tác động của các cuộc khởi nghĩa đối với chính quyền và xã hội.'
+    ],
+    sections: [
+      {
+        heading: 'Nguyên nhân bùng nổ phong trào',
+        body: 'Trong thế kỉ XVIII, chính quyền Lê – Trịnh ở Đàng Ngoài lâm vào tình trạng khủng hoảng. Quan lại tham nhũng, bộ máy cai trị suy yếu, tô thuế và các khoản đóng góp nặng nề khiến đời sống nhiều tầng lớp nhân dân khó khăn. Thiên tai, mất mùa và nạn đói ở một số địa phương càng làm mâu thuẫn xã hội gay gắt. Trong hoàn cảnh đó, nhiều cuộc nổi dậy của nông dân và người dân nghèo bùng nổ ở các vùng khác nhau.',
+        keyPoints: ['Khủng hoảng chính quyền, áp bức kinh tế và khó khăn đời sống là những nguyên nhân quan trọng.'],
+        example: 'Khi giải thích nguyên nhân một cuộc khởi nghĩa, cần kết hợp bối cảnh chính trị với điều kiện kinh tế và đời sống.'
+      },
+      {
+        heading: 'Một số cuộc khởi nghĩa tiêu biểu',
+        body: 'Phong trào diễn ra rộng ở nhiều địa phương, có những cuộc nổi dậy kéo dài và gây sức ép lớn đối với chính quyền. Có thể kể đến cuộc khởi nghĩa của Nguyễn Hữu Cầu ở vùng ven biển và đồng bằng Bắc Bộ, Hoàng Công Chất ở vùng Sơn Nam rồi phát triển lên Tây Bắc, cùng các phong trào do Nguyễn Danh Phương và những thủ lĩnh khác lãnh đạo. Mỗi cuộc khởi nghĩa có địa bàn, lực lượng và diễn biến riêng; không phải tất cả đều liên kết thành một phong trào thống nhất. Phần lớn cuối cùng bị đàn áp, nhưng cho thấy sự bất ổn sâu sắc của xã hội.',
+        keyPoints: ['Các cuộc khởi nghĩa có nhiều trung tâm, thủ lĩnh và địa bàn khác nhau; phong trào không phải một tổ chức thống nhất.'],
+        example: 'Lập bảng theo thủ lĩnh, địa bàn, thời gian và kết quả giúp tránh nhầm lẫn giữa các cuộc khởi nghĩa.'
+      },
+      {
+        heading: 'Tác động và ý nghĩa lịch sử',
+        body: 'Dù phần lớn bị đàn áp, các cuộc khởi nghĩa làm chính quyền Lê – Trịnh phải đối phó trên nhiều địa bàn, bộc lộ rõ sự suy yếu của bộ máy cai trị và làm rung chuyển trật tự xã hội. Phong trào phản ánh nguyện vọng chống áp bức, đòi cải thiện đời sống của nhân dân. Tuy nhiên, do lực lượng phân tán, mục tiêu và cách tổ chức khác nhau, các cuộc nổi dậy chưa tạo được một chính quyền thay thế bền vững. Đây là bối cảnh quan trọng để hiểu những biến động lớn hơn ở Đàng Ngoài vào nửa sau thế kỉ XVIII.',
+        keyPoints: ['Phong trào thể hiện mâu thuẫn xã hội sâu sắc và góp phần làm suy yếu chính quyền Lê – Trịnh.'],
+        example: 'Đánh giá phong trào cần nêu cả tác động làm rung chuyển chính quyền và hạn chế do thiếu sự liên kết thống nhất.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
