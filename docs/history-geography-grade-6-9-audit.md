@@ -221,3 +221,14 @@ Học liệu và ngân hàng câu hỏi mới:
 Mỗi bộ gồm 15 câu hỏi mới, đủ phân bố 11 cơ bản + 3 vận dụng + 1 thử thách, có bốn phương án, đáp án và giải thích. Tổng độ phủ hiện tại là **6/166 bài**, tương ứng **90 câu hỏi** trong 6 bộ quiz gắn ID bài chính xác. Tổng quiz draft là **14 bộ / 210 câu**, trong đó 8 bộ chủ đề cũ vẫn không được tính là độ phủ chương trình.
 
 Đã sửa một câu hỏi lớp 6 Địa lí bị trùng nội dung với bộ mẫu bản đồ cũ; validator tiếp tục kiểm tra trùng prompt trên toàn bộ tập câu hỏi. Nội dung vẫn ở trạng thái draft, chưa import Supabase, chưa mở khóa lớp và chưa merge production.
+
+
+## 11. Mở rộng nội dung lớp 6 — bài 4 (23/11/2026)
+
+Đã bổ sung học liệu và ngân hàng câu hỏi cho:
+- `g6-history-04`: **Nguồn gốc loài người** — bằng chứng khảo cổ/nhân học, hóa thạch, tiến hóa, công cụ, lửa, hợp tác, di cư và phương pháp kiểm chứng.
+- `g6-geography-04`: **Kí hiệu và bảng chú giải bản đồ. Tìm đường trên bản đồ** — kí hiệu điểm/đường, chú giải, định hướng, xác định điểm đi/đến và lựa chọn tuyến.
+
+Mỗi bài có học liệu tóm tắt, 3 mục tiêu và 15 câu hỏi có 4 phương án, đáp án, giải thích; phân bố 11 cơ bản, 3 vận dụng, 1 thử thách. Độ phủ theo ID manifest tăng lên **8/166 bài**, với **120 câu hỏi** thuộc 8 bộ quiz bài học. Tổng quiz draft là **16 bộ / 240 câu**; các bộ mẫu cũ vẫn được tách riêng, không tính vào độ phủ SGK.
+
+Đã sửa một ký tự ngoại ngữ lẫn vào nội dung câu hỏi trước khi kiểm định. Tất cả dữ liệu tiếp tục ở trạng thái draft; chưa import Supabase, chưa mở khóa lớp và chưa merge production.
