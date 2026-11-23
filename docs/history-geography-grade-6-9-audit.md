@@ -278,7 +278,7 @@ Mỗi bài có học liệu tóm tắt, 3 mục tiêu và 15 câu hỏi có bố
 Validator được cập nhật số bộ quiz dự kiến và CI cần chạy lại trên head mới. Nội dung vẫn là draft, chưa import Supabase, chưa mở khóa lớp và chưa merge production.
 
 
-## 9. Bổ sung học liệu lớp 6 — đợt tiếp theo (23/11/2026)
+## 16. Bổ sung học liệu lớp 6 — đợt tiếp theo (23/11/2026)
 
 Đã bổ sung 8 bài tiếp theo, gắn ID chính xác với manifest: Lịch sử 09–12 và Địa lí 09–12. Mỗi bài có tóm tắt tự biên soạn, 3 mục tiêu học tập và 15 câu hỏi trắc nghiệm mới có 4 phương án, đáp án và giải thích; phân bố 11 cơ bản, 3 vận dụng, 1 thử thách.
 
@@ -302,4 +302,4 @@ Nguồn đối chiếu phạm vi/kiến thức:
 - [SGKVN — Quá trình nội sinh, ngoại sinh và tạo núi](https://sgkvn.com/lop-6-3/ket-noi-tri-thuc-voi-cuoc-song-3/phan-dia-ly-chuong-3-cau-tao-cua-trai-dat-vo-trai-dat-2531/bai-11-qua-trinh-noi-sinh-va-qua-trinh-ngoai-sinh-hien-tuong-tao-nui-8751.html)
 - [SGKVN — Núi lửa và động đất](https://sgkvn.com/lop-6-3/ket-noi-tri-thuc-voi-cuoc-song-3/phan-dia-ly-chuong-3-cau-tao-cua-trai-dat-vo-trai-dat-2531/bai-12-nui-lua-va-dong-dat-8752.html)
 
-Sau đợt này: 24/166 bài manifest có học liệu và quiz gắn đúng ID (14,46%); 32 bộ quiz tổng cộng gồm 8 bộ mẫu cũ không tính vào độ phủ, 24 bộ theo bài SGK; 360 câu hỏi trong các bộ quiz. Tất cả vẫn là draft, chưa nhập Supabase và chưa mở lớp 6–9. Kiểm tra cấu trúc không thay thế thẩm định chuyên môn độc lập từng đáp án.
+Sau đợt này: 24/166 bài manifest có học liệu và quiz gắn đúng ID (14,46%); 32 bộ quiz gồm 8 bộ mẫu cũ và 24 bộ theo bài SGK. Có 360 câu hỏi gắn đúng bài trong 24 bộ theo SGK và 120 câu trong 8 bộ mẫu cũ, tổng cộng 480 câu. Tất cả vẫn là draft, chưa nhập Supabase và chưa mở lớp 6–9. Kiểm tra cấu trúc không thay thế thẩm định chuyên môn độc lập từng đáp án.
