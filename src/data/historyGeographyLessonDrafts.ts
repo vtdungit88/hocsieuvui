@@ -1834,5 +1834,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-geography-10', grade: 8, strand: 'geography',
+    title: 'Sinh vật Việt Nam',
+    summary: 'Tìm hiểu sự đa dạng sinh vật và hệ sinh thái Việt Nam, các nhân tố ảnh hưởng đến phân bố sinh vật, giá trị tài nguyên sinh vật và yêu cầu bảo tồn đa dạng sinh học.',
+    learningObjectives: [
+      'Nêu được đặc điểm chung về sự đa dạng sinh vật ở Việt Nam.',
+      'Giải thích được ảnh hưởng của khí hậu, địa hình và con người đến phân bố sinh vật.',
+      'Đề xuất được biện pháp bảo vệ rừng, động vật hoang dã và đa dạng sinh học.'
+    ],
+    sections: [
+      {
+        heading: 'Đa dạng sinh vật và hệ sinh thái',
+        body: 'Việt Nam có sự đa dạng về loài, nguồn gen và hệ sinh thái nhờ vị trí nhiệt đới, khí hậu ẩm, địa hình phân hóa và đường bờ biển dài. Các hệ sinh thái tiêu biểu gồm rừng nhiệt đới, rừng núi cao, rừng ngập mặn, đất ngập nước, thảm cỏ biển và rạn san hô. Thành phần sinh vật thay đổi theo độ cao, vĩ độ, điều kiện đất và nước. Nhiều loài có giá trị sinh thái và kinh tế, trong đó có loài đặc hữu hoặc quý hiếm cần được bảo vệ.',
+        keyPoints: ['Đa dạng sinh học gồm đa dạng hệ sinh thái, loài và nguồn gen; Việt Nam có nhiều kiểu hệ sinh thái trên cạn và dưới nước.'],
+        example: 'So sánh rừng núi, rừng ngập mặn và rạn san hô theo môi trường sống, loài sinh vật và vai trò sinh thái.'
+      },
+      {
+        heading: 'Nhân tố ảnh hưởng đến phân bố sinh vật',
+        body: 'Khí hậu quyết định nhiều đặc điểm về nhiệt, ẩm và mùa sinh trưởng; địa hình tạo ra các đai cao và môi trường sống khác nhau; đất và nguồn nước ảnh hưởng đến khả năng tồn tại của thực vật và động vật. Hoạt động của con người có thể làm biến đổi hệ sinh thái thông qua khai thác rừng, chuyển đổi đất, ô nhiễm, săn bắt và du nhập loài ngoại lai. Ngược lại, phục hồi rừng, bảo vệ sinh cảnh và quản lí tài nguyên hợp lí giúp duy trì quần thể sinh vật và cân bằng sinh thái.',
+        keyPoints: ['Sinh vật phân bố theo điều kiện khí hậu, địa hình, đất, nước và chịu tác động mạnh của hoạt động con người.'],
+        example: 'Một loài sống ở rừng ngập mặn phụ thuộc vào môi trường nước lợ, bãi triều và nguồn thức ăn đặc trưng.'
+      },
+      {
+        heading: 'Giá trị và bảo tồn đa dạng sinh học',
+        body: 'Sinh vật cung cấp lương thực, thực phẩm, dược liệu, nguyên liệu và dịch vụ hệ sinh thái như điều hòa khí hậu, giữ đất, lọc nước và bảo vệ bờ biển. Suy giảm sinh cảnh, khai thác quá mức, ô nhiễm và biến đổi khí hậu làm nhiều quần thể suy giảm, đe dọa các loài quý hiếm. Bảo tồn cần kết hợp khu bảo tồn thiên nhiên, vườn quốc gia, hành lang sinh thái, phục hồi sinh cảnh, kiểm soát săn bắt và buôn bán động vật hoang dã, cùng giáo dục cộng đồng. Sử dụng tài nguyên sinh vật phải bảo đảm khả năng tái tạo và lợi ích lâu dài.',
+        keyPoints: ['Bảo tồn sinh vật cần bảo vệ sinh cảnh, ngăn khai thác trái phép, phục hồi hệ sinh thái và nâng cao nhận thức cộng đồng.'],
+        example: 'Khi tham quan vườn quốc gia, du khách cần đi theo tuyến quy định, không cho động vật hoang dã ăn và không lấy mẫu sinh vật.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
