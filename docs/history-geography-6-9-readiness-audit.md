@@ -119,3 +119,12 @@ The remaining ten Grade 7 History lessons and their 150 questions have been adde
 - Reconciled the validator against the actual source inventory: **95/166 manifest units** and 95 matching manifest-aligned quiz packs. There are 8 retained legacy quiz samples, so the correct total is **103 quiz sets / 1,545 questions** (not 104 / 1,560). Grade 8 History is 6/19; 27 Grade 8 units and 44 Grade 9 units remain.
 - The latest CI run on an earlier head failed because the validator's expected total was one too high (actual 102 vs expected 103 at that earlier point). The validator is now corrected to 95 manifest lessons/packs, 103 total quiz sets and 1,545 questions. CI must still be checked on the latest branch head after this reconciliation.
 - All new materials remain draft-only and have not received independent teacher/subject-matter expert review. No production Supabase import, publish, unlock, merge or deployment has occurred.
+
+
+## Progress update — 2026-11-23 (Grade 8 History lessons 6–7)
+
+- Added `g8-history-06`: **Công cuộc khai phá vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII**, with three substantive sections and a matching 15-question draft quiz.
+- Added `g8-history-07`: **Khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII**, with three substantive sections and a matching 15-question draft quiz.
+- Reconciled counts from the actual manifest-aligned source IDs: **96/166 units** and 96 matching quiz packs. With 8 legacy sample packs, the total is **104 quiz sets / 1,560 questions**. Grade 8 History is 7/19; 26 Grade 8 units and 44 Grade 9 units remain.
+- Validator now expects 96 manifest-aligned lessons/packs, 104 total quiz sets and 1,560 questions. Accidental empty array slots have been removed from both source arrays. CI has been triggered on the latest branch head `10ee6a2a38c03250abf25283b69742ea926fd410` and remains to be verified.
+- All new materials remain draft-only and require independent teacher/subject-matter review. No production import, publish, unlock, merge or deployment has occurred.
