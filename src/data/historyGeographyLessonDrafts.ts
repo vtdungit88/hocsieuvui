@@ -1098,5 +1098,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-history-06', grade: 8, strand: 'history',
+    title: 'Công cuộc khai phá vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII',
+    summary: 'Tìm hiểu quá trình người Việt mở rộng cư trú, khai phá đất đai và hình thành các đơn vị hành chính ở vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII; nhận biết vai trò của nhiều cộng đồng cư dân trong tiến trình này.',
+    learningObjectives: [
+      'Nêu được một số mốc chính trong quá trình mở rộng về phía nam.',
+      'Giải thích được vai trò của di dân, khai hoang, thương mại và tổ chức hành chính.',
+      'Nhận biết được sự đa dạng cộng đồng cư dân và những chuyển biến ở vùng đất phía Nam.'
+    ],
+    sections: [
+      {
+        heading: 'Bối cảnh và các đợt di dân',
+        body: 'Từ thế kỉ XVI, cùng với quá trình hình thành thế lực họ Nguyễn ở Đàng Trong, nhiều nhóm cư dân từ các vùng khác nhau di chuyển về phía nam. Họ khai hoang, lập làng, phát triển ruộng đồng, nghề thủ công và hoạt động trao đổi. Quá trình này diễn ra trong thời gian dài, gắn với điều kiện tự nhiên, chính sách của chính quyền và sự giao lưu với các cộng đồng đã sinh sống tại đây. Không nên hiểu việc mở rộng cư trú là một sự kiện diễn ra trong một năm hay chỉ do một lực lượng thực hiện.',
+        keyPoints: ['Di dân và khai hoang là quá trình lâu dài, có sự tham gia của nhiều cộng đồng cư dân.'],
+        example: 'Khi nghiên cứu một vùng đất mới khai phá, cần xem xét cư dân đến từ đâu, điều kiện tự nhiên và cách thức tổ chức sản xuất.'
+      },
+      {
+        heading: 'Mở rộng địa bàn và tổ chức hành chính',
+        body: 'Chính quyền họ Nguyễn từng bước mở rộng phạm vi quản lí về phía nam. Năm 1611, phủ Phú Yên được thành lập; năm 1698, Nguyễn Hữu Cảnh được cử vào kinh lược vùng đất phía nam, tổ chức đơn vị hành chính ở khu vực Đồng Nai và Gia Định. Ở phía tây nam, quá trình xác lập quan hệ và tổ chức quản lí diễn ra qua nhiều bước, có sự tham gia của các lực lượng và cộng đồng khác nhau. Các mốc này cho thấy sự mở rộng địa bàn gắn với việc thiết lập bộ máy quản lí, chứ không chỉ là hoạt động di chuyển dân cư.',
+        keyPoints: ['Các mốc 1611 và 1698 là dấu mốc quan trọng trong quá trình mở rộng và tổ chức quản lí vùng đất phía nam.'],
+        example: 'Đặt các mốc 1611 và 1698 lên dòng thời gian để nhận ra tiến trình diễn ra qua nhiều giai đoạn.'
+      },
+      {
+        heading: 'Kinh tế, văn hóa và sự đa dạng cư dân',
+        body: 'Cùng với khai hoang và lập làng, sản xuất nông nghiệp, nghề thủ công và thương mại phát triển ở nhiều địa bàn. Một số đô thị, thương cảng trở thành nơi giao lưu trong khu vực và với bên ngoài. Vùng đất phía nam là không gian sinh sống, giao lưu của người Việt, Khmer, Hoa, Chăm và các cộng đồng khác. Quá trình cộng cư tạo nên những nét phong phú về kinh tế, tín ngưỡng, phong tục và văn hóa. Khi học nội dung này cần tôn trọng vai trò và lịch sử của các cộng đồng cư dân đã sinh sống, đóng góp tại vùng đất.',
+        keyPoints: ['Vùng đất phía nam hình thành qua giao lưu, cộng cư và đóng góp của nhiều cộng đồng.'],
+        example: 'Tìm hiểu tên địa danh, di tích hoặc lễ hội địa phương có thể giúp nhận biết dấu ấn giao lưu văn hóa.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
