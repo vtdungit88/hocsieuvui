@@ -425,5 +425,23 @@ export const geographyQuizDrafts:HGGeoQuizSet[]=[
   ["Vì sao đồng bằng ven biển miền Trung thường hẹp?","Dãy núi có nhiều nhánh ăn ra sát biển","Vì nằm ở vùng cực","Vì không có sông","Vì toàn bộ bị băng phủ",0,"Địa hình núi ăn ra biển làm đồng bằng ven biển bị thu hẹp và chia cắt."],
   ["Khi xây dựng đường qua vùng núi, yếu tố nào cần được khảo sát?","Chỉ khoảng cách đường thẳng","Độ dốc, địa chất và nguy cơ sạt lở","Chỉ màu sắc đất","Chỉ số lượng nhà dân",1,"Độ dốc và điều kiện địa chất quyết định an toàn của tuyến đường."],
   ["Một khu vực đồng bằng vừa thuận lợi trồng trọt vừa dễ ngập lụt. Cách quy hoạch phù hợp là gì?","Chỉ tăng diện tích xây dựng","Bỏ qua hệ thống thoát nước","Kết hợp sử dụng đất hợp lí với đê điều, thoát nước và thích ứng lũ","Cấm mọi hoạt động sản xuất",2,"Quy hoạch cần tận dụng lợi thế đồng bằng đồng thời giảm rủi ro ngập lụt."]
+ ]),status:'draft'},,
+
+ {lessonId:'g8-geography-03',grade:8,strand:'geography',title:'Khoáng sản Việt Nam',questions:buildGeo('g8-geography-03',[
+  ["Tài nguyên khoáng sản Việt Nam có đặc điểm nào?","Khá đa dạng nhưng phân bố không đều","Chỉ có một loại duy nhất","Phân bố đồng đều tuyệt đối","Có thể tái tạo nhanh trong vài năm",0,"Khoáng sản đa dạng nhưng phân bố không đều giữa các vùng."],
+  ["Khoáng sản được xếp vào nhóm tài nguyên nào?","Tài nguyên vô hạn","Tài nguyên hữu hạn, không thể phục hồi trong thời gian ngắn","Tài nguyên có thể tái sinh mỗi mùa","Tài nguyên sinh vật",1,"Khoáng sản hình thành qua quá trình địa chất lâu dài và là tài nguyên hữu hạn."],
+  ["Khu vực nào nổi bật về than đá ở Việt Nam?","Tây Nguyên","Đồng bằng sông Cửu Long","Quảng Ninh","Tây Nam Bộ",2,"Quảng Ninh là vùng than quan trọng của nước ta."],
+  ["Bô-xít có tiềm năng lớn ở khu vực nào?","Đồng bằng sông Hồng","Duyên hải Nam Trung Bộ","Đông Bắc","Tây Nguyên",3,"Tây Nguyên có tiềm năng lớn về bô-xít."],
+  ["A-pa-tít tập trung nổi bật ở tỉnh nào?","Lào Cai","Cà Mau","Bình Thuận","Bến Tre",0,"A-pa-tít tập trung chủ yếu ở Lào Cai."],
+  ["Dầu mỏ và khí tự nhiên của Việt Nam phân bố chủ yếu ở đâu?","Các đỉnh núi cao","Các bể trầm tích ngoài khơi","Đồng bằng nội địa","Các cao nguyên bazan",1,"Dầu khí tập trung ở các bể trầm tích ngoài khơi."],
+  ["Đá vôi có vai trò quan trọng đối với ngành công nghiệp nào?","Điện tử","Dệt may","Sản xuất xi măng và vật liệu xây dựng","Chế tạo máy bay",2,"Đá vôi là nguyên liệu quan trọng trong sản xuất xi măng."],
+  ["Vì sao khoáng sản phân bố không đều?","Vì mọi nơi có cùng cấu trúc địa chất","Vì con người di chuyển mỏ","Vì khí hậu quyết định toàn bộ vị trí mỏ","Do lịch sử và điều kiện địa chất khác nhau giữa các vùng",3,"Sự phân bố khoáng sản gắn với cấu trúc và lịch sử địa chất."],
+  ["Bản đồ khoáng sản giúp người học làm gì?","Xác định khu vực phân bố theo kí hiệu và chú giải","Biết chính xác mọi trữ lượng hiện tại","Thay thế toàn bộ khảo sát địa chất","Dự đoán giá khoáng sản",0,"Bản đồ thể hiện vị trí và loại khoáng sản theo chú giải."],
+  ["Một tác động môi trường có thể xảy ra khi khai thác khoáng sản thiếu kiểm soát là gì?","Tăng độ phì đất ở mọi nơi","Ô nhiễm nước, đất và không khí","Làm khoáng sản tự tái tạo","Không thay đổi cảnh quan",1,"Khai thác thiếu kiểm soát có thể gây ô nhiễm và suy thoái môi trường."],
+  ["Vì sao cần đánh giá trữ lượng và chất lượng trước khi khai thác?","Để khai thác càng nhanh càng tốt","Để không cần quy hoạch","Để xác định khả năng khai thác và hiệu quả sử dụng hợp lí","Để bỏ qua tác động môi trường",2,"Điều tra trữ lượng và chất lượng giúp lập kế hoạch khai thác phù hợp."],
+  ["Hoạt động nào góp phần tiết kiệm tài nguyên khoáng sản?","Khai thác không giới hạn","Bỏ qua tái chế","Đổ bỏ vật liệu còn sử dụng được","Tái chế và sử dụng nguyên liệu hiệu quả",3,"Tái chế và tiết kiệm nguyên liệu giúp giảm áp lực khai thác mới."],
+  ["Một mỏ than nằm gần khu dân cư. Biện pháp nào cần được ưu tiên?","Kiểm soát bụi, nước thải, tiếng ồn và bảo đảm an toàn cộng đồng","Chỉ tăng sản lượng","Không công khai thông tin","Bỏ qua giám sát môi trường",0,"Khai thác cần kiểm soát tác động môi trường và bảo vệ sức khỏe cư dân."],
+  ["Sau khi kết thúc khai thác, doanh nghiệp cần thực hiện việc gì?","Để nguyên hố mỏ không rào chắn","Phục hồi môi trường, hoàn thổ và xử lí chất thải theo quy định","Chuyển chất thải ra sông","Không cần theo dõi",1,"Phục hồi môi trường là trách nhiệm quan trọng sau khai thác."],
+  ["Một dự án khai thác có lợi nhuận cao nhưng gây ô nhiễm nguồn nước. Cách đánh giá phù hợp nhất là gì?","Chỉ xem doanh thu","Bỏ qua sức khỏe cộng đồng","Cân nhắc hiệu quả kinh tế cùng tác động môi trường, xã hội và giải pháp giảm thiểu","Tự động chấp thuận dự án",2,"Đánh giá bền vững phải tính đến cả lợi ích và chi phí môi trường – xã hội."]
  ]),status:'draft'},
 ];
