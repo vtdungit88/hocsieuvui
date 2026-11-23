@@ -1642,5 +1642,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-geography-04', grade: 8, strand: 'geography',
+    title: 'Khí hậu Việt Nam',
+    summary: 'Tìm hiểu đặc điểm khí hậu nhiệt đới ẩm gió mùa của Việt Nam, sự phân hóa khí hậu theo mùa, theo bắc – nam, theo độ cao và tác động đến sản xuất, đời sống.',
+    learningObjectives: [
+      'Trình bày được các đặc điểm cơ bản của khí hậu Việt Nam.',
+      'Giải thích được nguyên nhân và biểu hiện của sự phân hóa khí hậu.',
+      'Phân tích được ảnh hưởng của khí hậu đến sản xuất, sinh hoạt và phòng chống thiên tai.'
+    ],
+    sections: [
+      {
+        heading: 'Đặc điểm nhiệt đới ẩm gió mùa',
+        body: 'Khí hậu Việt Nam mang tính chất nhiệt đới ẩm gió mùa do vị trí nằm trong vùng nội chí tuyến, tiếp giáp Biển Đông và chịu tác động của các hoàn lưu gió mùa. Nhiệt độ trung bình năm nhìn chung cao, lượng mưa lớn và độ ẩm không khí cao. Gió mùa hoạt động theo mùa, kết hợp với địa hình và ảnh hưởng biển tạo nên sự khác biệt về thời tiết giữa các vùng. Khí hậu có vai trò quan trọng đối với hệ sinh thái, nguồn nước và hoạt động sản xuất.',
+        keyPoints: ['Khí hậu Việt Nam có tính chất nhiệt đới ẩm gió mùa: nhiệt độ cao, mưa nhiều và độ ẩm lớn.'],
+        example: 'Khi đọc biểu đồ khí hậu, cần xem đồng thời nhiệt độ, lượng mưa và sự thay đổi theo tháng.'
+      },
+      {
+        heading: 'Sự phân hóa khí hậu theo mùa và không gian',
+        body: 'Khí hậu phân hóa theo mùa do hoạt động của gió mùa. Miền Bắc có mùa đông tương đối lạnh và mùa hạ nóng ẩm, mưa nhiều; miền Nam thể hiện rõ mùa mưa và mùa khô. Miền Trung chịu ảnh hưởng của địa hình Trường Sơn và gió mùa, có thời kì mưa lớn tập trung vào thu – đông ở nhiều nơi. Khí hậu còn phân hóa theo chiều bắc – nam, theo độ cao địa hình và theo hướng sườn núi. Vì vậy, không thể dùng đặc điểm khí hậu của một địa phương để khái quát cho toàn quốc.',
+        keyPoints: ['Khí hậu khác nhau giữa miền Bắc, miền Nam, miền Trung và giữa các đai cao.'],
+        example: 'So sánh biểu đồ khí hậu Hà Nội, Huế và Thành phố Hồ Chí Minh để nhận ra khác biệt về nhiệt độ và mùa mưa.'
+      },
+      {
+        heading: 'Ảnh hưởng của khí hậu đến đời sống và sản xuất',
+        body: 'Khí hậu nhiệt đới ẩm tạo điều kiện cho cây trồng phát triển, tăng vụ và đa dạng hóa sản phẩm nông nghiệp. Tuy nhiên, bão, mưa lớn, lũ lụt, hạn hán, rét đậm, nắng nóng và xâm nhập mặn có thể gây thiệt hại cho sản xuất và đời sống. Các ngành giao thông, du lịch, năng lượng và xây dựng cũng chịu tác động của thời tiết và khí hậu. Thích ứng cần dựa trên dự báo, mùa vụ phù hợp, công trình phòng chống thiên tai, tiết kiệm nước và bảo vệ hệ sinh thái.',
+        keyPoints: ['Khí hậu vừa tạo thuận lợi cho sản xuất nhiệt đới vừa đặt ra rủi ro thiên tai và yêu cầu thích ứng.'],
+        example: 'Lựa chọn lịch gieo trồng cần căn cứ mùa mưa, mùa khô và nguy cơ thiên tai của từng địa phương.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
