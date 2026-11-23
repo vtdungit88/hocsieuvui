@@ -22,6 +22,8 @@ for (const id of [
   'g6-geography-17','g6-geography-18','g6-geography-19','g6-geography-20',
   'g6-geography-21','g6-geography-22','g6-geography-23','g6-geography-24','g6-geography-25',
   'g6-geography-26','g6-geography-27','g6-geography-28','g6-geography-29','g6-geography-30',
+  'g7-history-01','g7-history-02','g7-history-03','g7-history-04',
+  'g7-history-05','g7-history-06','g7-history-07','g7-history-08',
 ]) {
   assert.equal(lessonById.get(id)?.sections?.length ?? 0, 3, `${id}: exactly three structured learning sections are required`);
 }
@@ -125,15 +127,15 @@ for (const set of quizSets) {
   }
   assert.deepEqual(levels, expectedLevels, `${set.lessonId} has an incorrect difficulty distribution`);
 }
-assert.equal(quizSets.length, 58, 'Expected 58 current/legacy draft quiz sets (not a claim of syllabus completeness)');
-assert.equal(questionIds.size, 870, 'Expected 870 questions across 58 draft quiz sets');
+assert.equal(quizSets.length, 66, 'Expected 66 current/legacy draft quiz sets (not a claim of syllabus completeness)');
+assert.equal(questionIds.size, 990, 'Expected 990 questions across 66 draft quiz sets');
 assert.equal(quizLessonIds.size, lessonIds.size, 'Every current lesson draft must have exactly one quiz set');
 
 const manifestLessonIds = new Set(syllabusLessons.map((lesson) => lesson.id));
 const authoredManifestLessons = historyGeographyLessonDrafts.filter((lesson) => manifestLessonIds.has(lesson.id));
 const authoredManifestQuizIds = new Set(quizSets.map((set) => set.lessonId).filter((id) => manifestLessonIds.has(id)));
-assert.equal(authoredManifestLessons.length, 50, 'Expected 50 manifest-aligned lesson drafts in the current tranche');
-assert.equal(authoredManifestQuizIds.size, 50, 'Expected 50 manifest-aligned quiz packs in the current tranche');
+assert.equal(authoredManifestLessons.length, 58, 'Expected 58 manifest-aligned lesson drafts in the current tranche');
+assert.equal(authoredManifestQuizIds.size, 58, 'Expected 58 manifest-aligned quiz packs in the current tranche');
 const missingLessons = syllabusLessons.filter((lesson) => !authoredManifestLessons.some((draft) => draft.id === lesson.id));
 const missingQuizSets = syllabusLessons.filter((lesson) => !authoredManifestQuizIds.has(lesson.id));
 const counts = historyGeographySyllabusManifest.map((grade) => ({
