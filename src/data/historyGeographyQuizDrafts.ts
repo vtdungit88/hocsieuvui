@@ -623,7 +623,7 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
     ["Một doanh nghiệp lớn kiểm soát phần lớn sản lượng một ngành có thể gây ra hệ quả nào?","Tăng khả năng chi phối giá và thị trường","Làm mọi đối thủ mạnh lên","Xóa bỏ nhu cầu tiêu dùng","Khiến cạnh tranh luôn bình đẳng",0,"Tổ chức độc quyền có thể chi phối thị trường và hạn chế cạnh tranh."],
     ["Vì sao cần phân biệt nguyên nhân lâu dài và sự kiện trực tiếp dẫn tới chiến tranh?","Để bỏ qua bối cảnh kinh tế","Để hiểu nhiều tầng nguyên nhân và trình tự diễn biến","Để coi mọi sự kiện giống nhau","Để chỉ ghi nhớ một mốc",1,"Phân biệt giúp giải thích đầy đủ bối cảnh và diễn biến dẫn tới chiến tranh."],
     ["Nhận định nào khái quát đúng về chủ nghĩa đế quốc cuối thế kỉ XIX – đầu thế kỉ XX?","Chỉ là thay đổi văn hóa","Không liên quan đến kinh tế","Gắn với độc quyền, tư bản tài chính, mở rộng thuộc địa và cạnh tranh quốc tế","Chấm dứt mọi xung đột",2,"Các đặc điểm kinh tế và cạnh tranh thuộc địa là những nét nổi bật của giai đoạn."]
-  ]),status:'draft'},,
+  ]),status:'draft'},
 
   {lessonId:'g8-history-11',grade:8,strand:'history',title:'Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học',questions:buildQuestions('g8-history-11',[
     ["Giai cấp công nhân công nghiệp hình thành gắn với quá trình nào?","Cách mạng công nghiệp","Sự tan rã của Liên hợp quốc","Cách mạng số thế kỉ XXI","Sự hình thành các quốc gia cổ đại",0,"Công nghiệp hóa làm xuất hiện và phát triển đội ngũ công nhân nhà máy."],
