@@ -378,3 +378,16 @@ ALTER TABLE "private"."content_review_events" ENABLE ROW LEVEL SECURITY;
 Cần rà soát vai trò truy cập và thiết kế policy phù hợp trước khi áp dụng. Advisor cũng còn cảnh báo Auth leaked-password protection đang tắt và hai hàm `xp_for_level`, `xp_to_level` có `search_path` chưa cố định. Không thay đổi các cấu hình này trong đợt nội dung để tránh ảnh hưởng ngoài phạm vi.
 
 **Kết luận:** nội dung vẫn là draft; chưa import, chưa publish, chưa mở lớp 6–9, chưa merge. Còn 126 mục manifest chưa có bộ học liệu/quiz riêng; các bài đã có cần tiếp tục thẩm định chuyên môn độc lập.
+
+## 9. Cập nhật tiến độ nội dung lớp 6 (23/11/2026)
+
+- Manifest chuẩn hiện có **166 đơn vị học tập**: lớp 6 (20 Lịch sử + 30 Địa lí), lớp 7 (18 Lịch sử + 19 Địa lí + 2 chủ đề chung), lớp 8 (19 + 12 + 2), lớp 9 (21 + 21 + 2).
+- Đã bổ sung đủ học liệu nháp và bộ câu hỏi riêng cho toàn bộ **50/50 bài lớp 6**. Lịch sử 20/20; Địa lí 30/30.
+- Riêng lượt bổ sung này hoàn thiện 10 bài Địa lí 6 (Bài 21–30): mỗi bài có tóm tắt, 3 mục tiêu, 3 phần học liệu có nội dung, ví dụ và 15 câu hỏi có đáp án/giải thích.
+- Độ phủ manifest toàn môn hiện là **50/166 bài**, tương ứng 50 bộ câu hỏi theo đúng mã bài và 750 câu hỏi. Tám bộ cũ theo chủ đề rộng vẫn được giữ để kiểm tra cấu trúc, cộng 120 câu; tổng 58 bộ / 870 câu nháp. Không tính tám bộ mẫu vào độ phủ SGK.
+- Validator đã nâng ngưỡng kiểm tra học liệu có cấu trúc cho các bài Địa lí 6 mới, kiểm tra 58 bộ/870 câu, giữ yêu cầu 11 cơ bản + 3 vận dụng + 1 thử thách, bốn phương án khác nhau, đáp án hợp lệ, giải thích, ID và nội dung câu hỏi không trùng.
+- Lớp 6 đã đủ bản nháp theo manifest nhưng **chưa được xem là đã thẩm định chuyên môn**. Kiểm tra tự động không chứng minh đáp án đúng về mặt học thuật; cần người có chuyên môn rà soát độc lập trước khi duyệt.
+- Lớp 7–9 còn 116 đơn vị học tập chưa có học liệu/quiz theo đúng mã bài. Sáu chủ đề chung cũng chưa được biên soạn.
+- Catalog vẫn giữ lớp 4–5 mở; lớp 6–9 tiếp tục term1Available=false và term2Available=false. Không có dữ liệu Lịch sử & Địa lí lớp 6–9 trong Supabase production; chưa import hoặc publish.
+- Supabase production chưa có development branch. Không tạo branch staging trong lượt này để tránh chi phí compute phát sinh; production không được dùng làm staging.
+
