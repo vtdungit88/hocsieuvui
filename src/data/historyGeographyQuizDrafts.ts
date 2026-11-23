@@ -749,5 +749,23 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
     ["Các hiệp ước từ 1862 đến 1884 có điểm chung nào?","Từng bước làm suy giảm chủ quyền và mở rộng quyền kiểm soát của Pháp","Giúp Việt Nam giành lại toàn bộ lãnh thổ","Chấm dứt mọi sự can thiệp của Pháp","Làm triều Nguyễn tăng quyền tự chủ",0,"Các hiệp ước lần lượt mở rộng quyền lợi và phạm vi kiểm soát của Pháp."],
     ["Vì sao cần phân biệt phong trào kháng chiến của nhân dân với chính sách của triều đình?","Vì hai bên luôn có cùng mục tiêu và cách làm","Vì nhân dân nhiều nơi tiếp tục chống Pháp trong khi triều đình có những lựa chọn và nhượng bộ khác nhau","Vì không có cuộc kháng chiến nào","Vì triều đình không tham gia bất cứ sự kiện nào",1,"Cần xem xét riêng tinh thần kháng chiến của nhân dân và đường lối của triều đình."],
     ["Nhận định nào khái quát đúng giai đoạn 1858–1884?","Pháp chiếm toàn bộ Việt Nam ngay năm 1858","Không có sự chống trả của nhân dân","Pháp từng bước mở rộng xâm lược, nhân dân kháng chiến ở nhiều nơi và triều đình kí các hiệp ước làm mất dần chủ quyền","Việt Nam giữ nguyên chủ quyền đến cuối thế kỉ XIX",2,"Quá trình xâm lược diễn ra từng bước, song song với kháng chiến và các hiệp ước bất lợi."]
+  ]),status:'draft'},,
+
+  {lessonId:'g8-history-18',grade:8,strand:'history',title:'Phong trào kháng chiến chống Pháp trong những năm 1885 - 1896',questions:buildQuestions('g8-history-18',[
+    ["Chiếu Cần Vương được ban bố vào năm nào?","1885","1883","1884","1896",0,"Chiếu Cần Vương được ban bố tháng 7/1885."],
+    ["Ai là người đứng đầu phe chủ chiến và tổ chức cuộc phản công ở kinh thành Huế tháng 7/1885?","Phan Đình Phùng","Tôn Thất Thuyết","Hoàng Hoa Thám","Trương Định",1,"Tôn Thất Thuyết là người đứng đầu phe chủ chiến."],
+    ["Cuộc phản công của phe chủ chiến tại kinh thành Huế diễn ra vào thời gian nào?","Tháng 9/1858","Tháng 6/1884","Đêm 4 rạng sáng 5/7/1885","Tháng 8/1896",2,"Cuộc phản công diễn ra đêm 4 rạng sáng 5/7/1885."],
+    ["Vua nào gắn với Chiếu Cần Vương?","Gia Long","Minh Mạng","Tự Đức","Hàm Nghi",3,"Chiếu Cần Vương được ban nhân danh vua Hàm Nghi."],
+    ["Nội dung chính của Chiếu Cần Vương là gì?","Kêu gọi văn thân, sĩ phu và nhân dân giúp vua cứu nước","Kêu gọi ngừng mọi hoạt động kháng chiến","Thành lập chính quyền thuộc địa","Mở rộng giao thương với Pháp",0,"Chiếu kêu gọi các lực lượng yêu nước đứng lên chống Pháp, giúp vua cứu nước."],
+    ["Phong trào Cần Vương thường được chia thành mấy giai đoạn?","Ba giai đoạn","Hai giai đoạn","Bốn giai đoạn","Một giai đoạn",1,"Phong trào thường được chia thành hai giai đoạn 1885–1888 và 1888–1896."],
+    ["Cuộc khởi nghĩa Ba Đình diễn ra ở tỉnh nào?","Hưng Yên","Hà Tĩnh","Thanh Hóa","Quảng Nam",2,"Ba Đình là cuộc khởi nghĩa tiêu biểu ở Thanh Hóa."],
+    ["Khởi nghĩa Bãi Sậy gắn với địa bàn nào?","Nghệ An","Quảng Bình","Bình Định","Hưng Yên",3,"Bãi Sậy là căn cứ khởi nghĩa ở Hưng Yên."],
+    ["Ai là lãnh đạo tiêu biểu của khởi nghĩa Hương Khê?","Phan Đình Phùng","Nguyễn Trung Trực","Nguyễn Tri Phương","Nguyễn Hữu Cầu",0,"Phan Đình Phùng là lãnh đạo tiêu biểu của khởi nghĩa Hương Khê."],
+    ["Cao Thắng có đóng góp gắn với cuộc khởi nghĩa nào?","Ba Đình","Hương Khê","Bãi Sậy","Yên Thế",1,"Cao Thắng là cộng sự quan trọng của Phan Đình Phùng trong khởi nghĩa Hương Khê."],
+    ["Phong trào Cần Vương kết thúc vào năm nào?","1885","1888","1896","1905",2,"Đến năm 1896, các trung tâm kháng chiến lớn lần lượt bị đàn áp."],
+    ["Một nguyên nhân khiến phong trào Cần Vương thất bại là gì?","Không có người tham gia","Không có tinh thần yêu nước","Pháp không sử dụng quân đội","Các cuộc khởi nghĩa phân tán, thiếu phối hợp thống nhất",3,"Sự phân tán và thiếu phối hợp là một trong những hạn chế của phong trào."],
+    ["Vì sao khởi nghĩa Hương Khê được xem là tiêu biểu?","Có tổ chức, kéo dài đến năm 1896 và có ảnh hưởng rộng","Diễn ra trong một ngày","Không có lực lượng tham gia","Không chống lại thực dân Pháp",0,"Hương Khê là một cuộc khởi nghĩa có tổ chức và kéo dài đến năm 1896."],
+    ["Khi so sánh Ba Đình, Bãi Sậy và Hương Khê, tiêu chí nào hữu ích?","Chỉ màu cờ","Địa bàn, lãnh đạo, thời gian, cách tổ chức và kết quả","Chỉ dân số hiện nay","Chỉ tên tỉnh hiện tại",1,"Các tiêu chí giúp nhận diện đặc điểm riêng của từng cuộc khởi nghĩa."],
+    ["Nhận định nào đúng về ý nghĩa của phong trào Cần Vương?","Thành công giành độc lập ngay năm 1885","Không có ảnh hưởng lịch sử","Thể hiện tinh thần yêu nước và để lại ảnh hưởng cho phong trào cứu nước sau","Chấm dứt chế độ thuộc địa",2,"Dù thất bại, phong trào thể hiện ý chí chống xâm lược và ảnh hưởng đến các xu hướng cứu nước sau."]
   ]),status:'draft'},
 ];
