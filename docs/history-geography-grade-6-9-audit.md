@@ -210,3 +210,14 @@ Học liệu và ngân hàng câu hỏi mới:
 - `g6-geography-02`: **Bản đồ. Một số lưới kinh vĩ tuyến. Phương hướng trên bản đồ** — học liệu tóm tắt, 3 mục tiêu học tập, bộ 15 câu hỏi (11 cơ bản, 3 vận dụng, 1 thử thách).
 
 Độ phủ bài gắn manifest hiện là **4/166 bài**, gồm 60 câu hỏi thuộc 4 bộ quiz chính xác theo bài. Tổng dữ liệu quiz draft là 12 bộ / 180 câu; 8 bộ chủ đề mẫu cũ không được tính là độ phủ bài theo SGK. Tất cả vẫn ở trạng thái draft; chưa import Supabase hoặc mở khóa lớp. Nội dung cần tiếp tục được rà soát chuyên môn trước phát hành.
+
+
+## 10. Mở rộng nội dung lớp 6 — bài 3 (23/11/2026)
+
+Đã thêm hai học liệu và hai bộ câu hỏi theo đúng tiêu đề manifest:
+- `g6-history-03`: **Thời gian trong lịch sử** — phân biệt âm lịch/dương lịch, Công nguyên và trước Công nguyên, xác định thế kỉ, tính khoảng cách giữa các mốc năm và đọc trục thời gian.
+- `g6-geography-03`: **Tỉ lệ bản đồ. Tính khoảng cách thực tế dựa vào tỉ lệ bản đồ** — giải nghĩa tỉ lệ số, thước tỉ lệ, đổi đơn vị và giải bài toán khoảng cách.
+
+Mỗi bộ gồm 15 câu hỏi mới, đủ phân bố 11 cơ bản + 3 vận dụng + 1 thử thách, có bốn phương án, đáp án và giải thích. Tổng độ phủ hiện tại là **6/166 bài**, tương ứng **90 câu hỏi** trong 6 bộ quiz gắn ID bài chính xác. Tổng quiz draft là **14 bộ / 210 câu**, trong đó 8 bộ chủ đề cũ vẫn không được tính là độ phủ chương trình.
+
+Đã sửa một câu hỏi lớp 6 Địa lí bị trùng nội dung với bộ mẫu bản đồ cũ; validator tiếp tục kiểm tra trùng prompt trên toàn bộ tập câu hỏi. Nội dung vẫn ở trạng thái draft, chưa import Supabase, chưa mở khóa lớp và chưa merge production.
