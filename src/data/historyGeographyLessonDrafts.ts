@@ -1354,5 +1354,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-history-14', grade: 8, strand: 'history',
+    title: 'Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX',
+    summary: 'Tìm hiểu tình hình Trung Quốc trước sức ép xâm lược của phương Tây và những cải cách ở Nhật Bản từ Minh Trị; so sánh con đường biến đổi của hai quốc gia châu Á cuối thế kỉ XIX – đầu thế kỉ XX.',
+    learningObjectives: [
+      'Nêu được những nét chính về tình hình Trung Quốc trước sự xâm nhập của các nước đế quốc.',
+      'Trình bày được một số phong trào đấu tranh và biến động chính trị ở Trung Quốc.',
+      'Giải thích được nội dung, kết quả và tác động của cuộc Duy tân Minh Trị ở Nhật Bản.'
+    ],
+    sections: [
+      {
+        heading: 'Trung Quốc trước sức ép của các nước đế quốc',
+        body: 'Từ giữa thế kỉ XIX, Trung Quốc phải đối mặt với sự xâm nhập ngày càng sâu của các nước phương Tây và Nhật Bản. Các cuộc chiến tranh thuốc phiện cùng những hiệp ước bất bình đẳng làm suy giảm chủ quyền và mở rộng đặc quyền của nước ngoài. Triều đình nhà Thanh suy yếu, xã hội xuất hiện nhiều mâu thuẫn và phong trào phản kháng. Cuối thế kỉ XIX, các nước đế quốc gia tăng tranh giành phạm vi ảnh hưởng ở Trung Quốc, khiến nguy cơ mất quyền tự chủ càng lớn.',
+        keyPoints: ['Chiến tranh xâm lược và các hiệp ước bất bình đẳng làm Trung Quốc suy giảm chủ quyền.'],
+        example: 'Khi đọc một hiệp ước bất bình đẳng, cần xác định quyền lợi nước ngoài được hưởng và quyền tự chủ Trung Quốc bị hạn chế.'
+      },
+      {
+        heading: 'Phong trào đấu tranh và cách mạng ở Trung Quốc',
+        body: 'Trước khủng hoảng trong nước và sức ép bên ngoài, nhiều phong trào đấu tranh nổ ra. Phong trào Thái Bình Thiên Quốc giữa thế kỉ XIX và phong trào Nghĩa Hòa Đoàn cuối thế kỉ XIX phản ánh sự phản kháng của các tầng lớp xã hội, dù đều bị đàn áp. Một số sĩ phu và nhà cải cách đề xướng cải cách để canh tân đất nước, nhưng phong trào Duy tân Mậu Tuất năm 1898 thất bại. Cách mạng Tân Hợi năm 1911 lật đổ triều Thanh, chấm dứt chế độ quân chủ tồn tại lâu đời và dẫn tới sự thành lập Trung Hoa Dân quốc năm 1912.',
+        keyPoints: ['Cách mạng Tân Hợi năm 1911 lật đổ triều Thanh và chấm dứt chế độ quân chủ ở Trung Quốc.'],
+        example: 'Phân biệt phong trào khởi nghĩa, vận động cải cách và cách mạng bằng mục tiêu, lực lượng và kết quả.'
+      },
+      {
+        heading: 'Nhật Bản và cuộc Duy tân Minh Trị',
+        body: 'Giữa thế kỉ XIX, Nhật Bản đứng trước sức ép mở cửa từ các nước phương Tây. Năm 1868, cuộc Duy tân Minh Trị bắt đầu, tiến hành cải cách trên nhiều lĩnh vực: chính trị, kinh tế, quân sự, giáo dục và xã hội. Nhà nước tập trung quyền lực, thúc đẩy công nghiệp hóa, xây dựng quân đội và mở rộng giáo dục theo mô hình mới. Những cải cách giúp Nhật Bản phát triển thành một nước tư bản công nghiệp và tăng cường vị thế quốc tế, nhưng đồng thời quốc gia này cũng chuyển sang con đường bành trướng, gây chiến tranh với các nước láng giềng. So sánh Trung Quốc và Nhật Bản cần chú ý sự khác biệt về cải cách, tổ chức nhà nước và kết quả.',
+        keyPoints: ['Duy tân Minh Trị bắt đầu năm 1868, thúc đẩy hiện đại hóa Nhật Bản và làm thay đổi vị thế quốc gia.'],
+        example: 'Lập bảng so sánh Trung Quốc và Nhật Bản theo bối cảnh, biện pháp cải cách, kết quả và hệ quả khu vực.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
