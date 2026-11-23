@@ -105,7 +105,7 @@ Nguồn mục lục Kết nối tri thức đối chiếu: https://luyen.org/lop
 18. Phong trào chống Pháp trong những năm 1885–1896
 19. Phong trào yêu nước chống Pháp ở Việt Nam từ đầu thế kỉ XX đến năm 1917
 
-**Địa lí (12 mục được nguồn liệt kê):**
+**Địa lí (11 mục được nguồn liệt kê):**
 1. Vị trí địa lí và phạm vi lãnh thổ Việt Nam
 2. Địa hình Việt Nam
 3. Khoáng sản Việt Nam
@@ -117,8 +117,6 @@ Nguồn mục lục Kết nối tri thức đối chiếu: https://luyen.org/lop
 9. Sinh vật Việt Nam
 10. Phạm vi Biển Đông, vùng biển đảo và đặc điểm tự nhiên vùng biển đảo Việt Nam
 11. Môi trường và tài nguyên thiên nhiên biển đảo Việt Nam
-12. (Nguồn mục lục đánh số không liên tục; phải đối chiếu bản SGK trước khi khóa mã bài và số thứ tự.)
-
 **Chủ đề chung (2):** Văn minh châu thổ sông Hồng và sông Cửu Long; Bảo vệ chủ quyền, các quyền và lợi ích hợp pháp của Việt Nam ở Biển Đông.
 
 Lưu ý: nguồn trực tuyến hiển thị phần Địa lí có bước nhảy số bài (Bài 4 sang Bài 6; một số bài sau tiếp tục đánh số không liền). Không tự sửa số hoặc tự tạo Bài 5. Trước khi chốt manifest cần kiểm tra bản SGK/tài liệu giáo viên để xác nhận cách đánh số và tên bài nguyên bản.
