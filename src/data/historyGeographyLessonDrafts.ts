@@ -856,4 +856,21 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
     ],
     questions: [], status: 'draft',
   },
+
+  {
+    id: 'g7-geography-01',
+    grade: 7,
+    strand: 'geography',
+    title: 'Vị trí địa lí, đặc điểm tự nhiên châu Âu',
+    summary: 'Châu Âu nằm chủ yếu trong đới ôn hòa của bán cầu Bắc, tiếp giáp Bắc Băng Dương, Đại Tây Dương, Địa Trung Hải và châu Á. Bờ biển bị chia cắt mạnh, nhiều bán đảo và biển ven bờ. Địa hình gồm đồng bằng rộng ở phía bắc và trung tâm, núi già, núi trẻ ở phía nam. Khí hậu nhìn chung ôn hòa nhưng phân hóa theo vĩ độ, địa hình và ảnh hưởng biển.',
+    learningObjectives: ['Xác định vị trí và giới hạn của châu Âu trên bản đồ thế giới.', 'Mô tả được các đặc điểm chính của địa hình và khí hậu châu Âu.', 'Giải thích sơ bộ ảnh hưởng của vị trí, địa hình và biển đến tự nhiên châu Âu.'],
+    sections: [
+      { heading: 'Vị trí địa lí và phạm vi', body: 'Châu Âu là một bộ phận của lục địa Á – Âu, nằm chủ yếu ở bán cầu Bắc. Ranh giới với châu Á thường được xác định theo dãy U-ran, sông U-ran, biển Ca-xpi, dãy Cáp-ca, biển Đen và các eo biển nối với Địa Trung Hải. Phía bắc châu Âu giáp Bắc Băng Dương, phía tây giáp Đại Tây Dương, phía nam giáp Địa Trung Hải. Vị trí này khiến châu Âu có quan hệ tự nhiên và giao lưu lâu đời với các khu vực xung quanh.', keyPoints: ['Châu Âu thuộc lục địa Á – Âu và nằm chủ yếu ở bán cầu Bắc', 'Ba mặt tiếp giáp các biển và đại dương lớn', 'Ranh giới đông nam với châu Á được quy ước theo các dãy núi, sông và biển'], example: 'Khi đọc bản đồ, lần lượt xác định Bắc Băng Dương ở phía bắc, Đại Tây Dương ở phía tây và Địa Trung Hải ở phía nam.' },
+      { heading: 'Địa hình và bờ biển', body: 'Bờ biển châu Âu bị cắt xẻ mạnh, tạo nhiều bán đảo, vịnh, biển và đảo; điều này làm tăng khả năng tiếp xúc với biển. Địa hình có thể khái quát thành đồng bằng, núi già và núi trẻ. Đồng bằng tập trung nhiều ở phía bắc và trung tâm. Núi già thường có độ cao thấp hơn, đỉnh tương đối tròn do bị bào mòn lâu dài; núi trẻ tập trung nhiều ở phía nam, có độ cao lớn và địa hình hiểm trở hơn. Các dãy An-pơ là ví dụ tiêu biểu cho núi trẻ.', keyPoints: ['Bờ biển dài và bị chia cắt mạnh', 'Đồng bằng rộng ở phía bắc và trung tâm', 'Núi trẻ cao, đồ sộ tập trung ở phía nam'], example: 'So sánh đồng bằng Bắc Âu với dãy An-pơ trên bản đồ địa hình để nhận ra sự khác biệt về độ cao.' },
+      { heading: 'Khí hậu và tác động của biển', body: 'Phần lớn châu Âu có khí hậu ôn đới, phía bắc có khí hậu hàn đới và một số khu vực phía nam mang tính chất Địa Trung Hải. Tây Âu thường ấm và ẩm hơn những nơi cùng vĩ độ ở sâu trong lục địa do ảnh hưởng của dòng biển nóng Bắc Đại Tây Dương và gió Tây ôn đới. Càng vào sâu phía đông, tính lục địa tăng, biên độ nhiệt năm thường lớn hơn và lượng mưa có xu hướng giảm. Địa hình núi còn làm khí hậu thay đổi theo độ cao và sườn đón gió, khuất gió.', keyPoints: ['Khí hậu phân hóa từ bắc xuống nam và từ tây sang đông', 'Biển và dòng biển nóng làm dịu khí hậu Tây Âu', 'Địa hình tạo khác biệt khí hậu theo độ cao và hướng sườn'], example: 'Một địa điểm ven Đại Tây Dương thường có mùa đông bớt lạnh hơn địa điểm nằm sâu trong lục địa ở cùng vĩ độ.' }
+    ],
+    questions: [],
+    status: 'draft',
+  },
+
 ];
