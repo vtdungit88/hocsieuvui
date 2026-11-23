@@ -60,3 +60,7 @@ This document records the initial readiness audit and its eight-sample baseline.
 At this update, the canonical manifest contains 166 learning units. All 50 Grade 6 lessons (20 History + 30 Geography) now have manifest-aligned draft lesson material and 15-question draft packs each. Grades 7–9 and the six integrated topics remain incomplete. The current total is 50/166 manifest-aligned packs (750 questions) plus eight legacy structural samples (120 questions), for 870 draft questions. This is not an approval or a publication state.
 
 The Grade 6 material has not yet received independent subject-matter review. CI shape checks cannot prove factual correctness or answer-key accuracy. Grade 6–9 remain locked in the catalog; no Grade 6–9 content has been imported to production. Supabase has no development branch, and production is not an acceptable substitute for staging.
+
+### Follow-up — Grade 7 History tranche (23/11/2026)
+
+Eight manifest-aligned Grade 7 History lessons and eight 15-question packs have been added. Current manifest coverage is 58/166 (870 aligned questions) plus eight legacy structural packs (120 questions), 990 draft questions total. Grade 6 is complete as draft content; Grade 7 History is 8/18. Grade 7 Geography, the remaining Grade 7 History lessons, integrated topics, and Grades 8–9 remain incomplete. No subject-matter approval, production import, unlock, or deployment has occurred.
