@@ -515,7 +515,7 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
     ["Nếu một thương điếm dần kiểm soát việc mua bán một mặt hàng chủ lực, điều gì có thể xảy ra?","Thương nhân địa phương mất một phần quyền chủ động trong trao đổi","Mọi hoạt động kinh tế chấm dứt ngay","Không ảnh hưởng đến giá cả","Các cảng thị tự động biến mất",0,"Độc quyền thương mại có thể làm giảm quyền chủ động của lực lượng bản địa."],
     ["Khi lập bảng so sánh các phong trào đấu tranh, bộ tiêu chí nào phù hợp nhất?","Chỉ tên người đứng đầu","Nguyên nhân, lực lượng, mục tiêu, diễn biến và kết quả","Chỉ diện tích lãnh thổ","Chỉ số lượng cảng biển",1,"Các tiêu chí này giúp phân tích phong trào trong bối cảnh lịch sử cụ thể."],
     ["Một nhận định cho rằng toàn Đông Nam Á đều trở thành thuộc địa cùng lúc. Cách đánh giá nào hợp lí nhất?","Chấp nhận vì khu vực có vị trí gần nhau","Không cần kiểm tra mốc thời gian","Đối chiếu từng quốc gia, mốc thời gian và hình thức kiểm soát","Chỉ dựa vào một bản đồ hiện đại",2,"Cần phân biệt diễn biến và địa vị chính trị của từng quốc gia qua từng thời kì."]
-  ]),status:'draft'},,
+  ]),status:'draft'},
 
   {lessonId:'g8-history-05',grade:8,strand:'history',title:'Cuộc xung đột Nam - Bắc triều và Trịnh - Nguyễn',questions:buildQuestions('g8-history-05',[
     ["Nhà Mạc được thành lập vào năm nào?","1428","1527","1545","1672",1,"Mạc Đăng Dung lập nhà Mạc năm 1527."],
