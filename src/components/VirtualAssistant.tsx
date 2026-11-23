@@ -174,7 +174,7 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
                 }`}
               >
                 <Compass className="w-4 h-4" />
-                <span>Chỉ Dẫn & Chức Năng</span>
+                <span>Hướng Dẫn</span>
               </button>
 
               <button
@@ -189,7 +189,7 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
                 }`}
               >
                 <MessageSquareHeart className="w-4 h-4" />
-                <span>Gửi Phản Hồi Cho Quản Trị</span>
+                <span>Góp Ý</span>
               </button>
             </div>
 
@@ -205,7 +205,7 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
                       <span>HỆ THỐNG VỪA HỌC VỪA CHƠI SGK</span>
                     </div>
                     <p className="text-xs text-slate-700 dark:text-slate-300 leading-relaxed">
-                      Chào bạn! <strong>Học Siêu Vui</strong> là nền tảng luyện toán thông minh bám sát chương trình SGK. Mỗi bài học gồm <strong>3 cấp độ (Cơ bản, Tiêu chuẩn, Nâng cao)</strong> với <strong>15 câu/bài (60s/câu)</strong>, giúp bạn ghi nhớ kiến thức sâu sắc, nhận Xu và Sao để thỏa thích nâng cấp Studio!
+                      <strong>Học Siêu Vui</strong> là nền tảng học tập kết hợp trò chơi. Chọn môn học, lớp và bài học đang उपलब्ध để ôn tập, luyện câu hỏi, khám phá các hoạt động và tích lũy thành tích. Nội dung, số câu hỏi và cách chơi có thể khác nhau tùy môn học và chế độ.
                     </p>
                   </div>
 
@@ -230,10 +230,10 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
                         </div>
                         <div>
                           <div className="text-xs font-black text-slate-900 dark:text-white group-hover:text-blue-600 transition-colors">
-                            1. Bài Học SGK (3 Bài Tập 15 Câu)
+                            1. Bài Học & Luyện Tập
                           </div>
                           <div className="text-[11px] text-slate-500 dark:text-slate-400">
-                            Chọn Khởi Động, Tiêu Chuẩn hoặc Nâng Cao. Mỗi câu có 60 giây suy nghĩ kèm giải thích ôn bài.
+                            Chọn môn, lớp, chương và bài học để bắt đầu luyện tập. Đọc câu hỏi, chọn đáp án và xem kết quả/giải thích khi có.
                           </div>
                         </div>
                       </div>
@@ -258,7 +258,7 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
                             2. Đấu Trường Siêu Tốc (60 Giây)
                           </div>
                           <div className="text-[11px] text-slate-500 dark:text-slate-400">
-                            Luyện phản xạ tính nhẩm nhanh cho cả Tiểu học và THCS. Nhận thưởng Xu & Sao!
+                            Thử thách tốc độ trả lời câu hỏi, rèn phản xạ và tích lũy thành tích trong chế độ chơi nhanh.
                           </div>
                         </div>
                       </div>
@@ -283,7 +283,7 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
                             3. Studio Của Tôi (Tủ Đồ Avatar)
                           </div>
                           <div className="text-[11px] text-slate-500 dark:text-slate-400">
-                            Dùng Xu & Sao mở khóa xe đạp thể thao, iPhone 16 Pro Max, laptop, mèo thần tài!
+                            Khám phá vật phẩm trong Studio và sử dụng phần thưởng trong game để tùy chỉnh avatar khi tính năng/vật phẩm khả dụng.
                           </div>
                         </div>
                       </div>
@@ -308,7 +308,7 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
                             4. Bản Đồ Thám Hiểm
                           </div>
                           <div className="text-[11px] text-slate-500 dark:text-slate-400">
-                            Vượt qua các quần đảo kiến thức số tự nhiên, phân số và hình học bí ẩn.
+                            Khám phá bản đồ và mở các chặng chơi theo tiến trình, với nội dung và thử thách được cung cấp trong game.
                           </div>
                         </div>
                       </div>
@@ -333,7 +333,7 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
                             5. Đua Top Bảng Vàng
                           </div>
                           <div className="text-[11px] text-slate-500 dark:text-slate-400">
-                            Vinh danh Top 10 học sinh thật có nhiều Sao và Xu nhất toàn trường!
+                            Theo dõi thứ hạng và thành tích trên bảng xếp hạng theo dữ liệu hệ thống đang hiển thị.
                           </div>
                         </div>
                       </div>
