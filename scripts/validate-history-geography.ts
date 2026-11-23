@@ -21,7 +21,7 @@ for (const id of [
   'g6-history-17','g6-history-18','g6-history-19','g6-history-20',
   'g6-geography-17','g6-geography-18','g6-geography-19','g6-geography-20',
 ]) {
-  assert.ok(lessonById.get(id)?.sections?.length >= 3, `${id}: structured learning material is required`);
+  assert.equal(lessonById.get(id)?.sections?.length ?? 0, 3, `${id}: exactly three structured learning sections are required`);
 }
 assert.equal(lessonIds.size, historyGeographyLessonDrafts.length, 'Duplicate lesson draft ID');
 const quizLessonIds = new Set<string>();
