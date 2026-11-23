@@ -497,7 +497,7 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
     ["Nếu một tuyến đường sắt nối mỏ than với nhà máy, lợi ích trực tiếp có thể là gì?","Vận chuyển nguyên liệu thuận tiện và giảm thời gian đi lại","Làm than đá tự biến mất","Ngăn mọi hoạt động thương mại","Khiến nhà máy không cần lao động",0,"Đường sắt hỗ trợ chuyên chở nguyên liệu và hàng hóa giữa các khu vực."],
     ["Khi đánh giá đời sống công nhân thời kì đầu công nghiệp hóa, cần xem xét yếu tố nào?","Chỉ số lượng máy móc trong nhà máy","Thời gian làm việc, tiền công, an toàn và điều kiện sinh hoạt","Chỉ tên chủ nhà máy","Chỉ khoảng cách đến biển",1,"Các điều kiện lao động và sinh hoạt phản ánh mặt xã hội của công nghiệp hóa."],
     ["Một thành phố có thêm nhà máy, đường sắt và dân nhập cư nhưng cũng tăng ô nhiễm. Kết luận nào cân bằng nhất?","Công nghiệp hóa chỉ đem lại tác động tiêu cực","Không có thay đổi nào đáng kể","Công nghiệp hóa thúc đẩy kinh tế và đô thị nhưng cần giải quyết hệ quả xã hội, môi trường","Ô nhiễm chứng minh không có tăng trưởng",2,"Cần đánh giá đồng thời lợi ích về sản xuất, giao thông và các vấn đề phát sinh."]
-  ]),status:'draft'},,
+  ]),status:'draft'},
 
   {lessonId:'g8-history-04',grade:8,strand:'history',title:'Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX',questions:buildQuestions('g8-history-04',[
     ["Vì sao Đông Nam Á thu hút thương nhân và các thế lực bên ngoài trong giai đoạn này?","Do vị trí trên tuyến hàng hải và nguồn sản vật có giá trị","Do không có hoạt động trao đổi","Do nằm biệt lập với các đại dương","Do không có cảng biển",0,"Vị trí giao thương và sản vật khiến khu vực có ý nghĩa kinh tế, chiến lược."],
