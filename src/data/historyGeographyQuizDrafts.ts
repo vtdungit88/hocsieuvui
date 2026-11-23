@@ -641,7 +641,7 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
     ["Vì sao phong trào công nhân dần phát triển từ tự phát sang có tổ chức?","Do kinh nghiệm đấu tranh và nhu cầu liên kết, bảo vệ quyền lợi","Do công nhân không còn làm việc trong nhà máy","Do mọi mâu thuẫn xã hội biến mất","Do các nhà máy đóng cửa toàn bộ",0,"Kinh nghiệm thực tiễn và nhu cầu đoàn kết thúc đẩy việc tổ chức phong trào."],
     ["Dòng thời gian nào sắp xếp đúng ba mốc lịch sử?","1871 → 1848 → 1864","1848 → 1864 → 1871","1864 → 1871 → 1848","1848 → 1871 → 1864",1,"Tuyên ngôn công bố năm 1848, Quốc tế thứ nhất thành lập năm 1864, Công xã Pa-ri năm 1871."],
     ["Khi tìm hiểu một phong trào công nhân, bộ thông tin nào cần kết hợp?","Chỉ tên nhà máy","Chỉ quốc kỳ","Bối cảnh lao động, yêu cầu, hình thức đấu tranh và kết quả","Chỉ số dân thành thị hiện nay",2,"Kết hợp bối cảnh, yêu cầu, hình thức và kết quả giúp giải thích phong trào toàn diện."]
-  ]),status:'draft'},,
+  ]),status:'draft'},
 
   {lessonId:'g8-history-12',grade:8,strand:'history',title:'Chiến tranh thế giới thứ nhất (1914 - 1918) và Cách mạng tháng Mười Nga năm 1917',questions:buildQuestions('g8-history-12',[
     ["Chiến tranh thế giới thứ nhất diễn ra trong khoảng thời gian nào?","1914–1918","1900–1905","1939–1945","1945–1950",0,"Chiến tranh thế giới thứ nhất diễn ra từ năm 1914 đến năm 1918."],
