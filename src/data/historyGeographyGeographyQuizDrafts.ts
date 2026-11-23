@@ -461,5 +461,23 @@ export const geographyQuizDrafts:HGGeoQuizSet[]=[
   ["Một địa phương có mùa khô kéo dài. Biện pháp thích ứng phù hợp là gì?","Quản lí nguồn nước, tưới tiết kiệm và lựa chọn cây trồng phù hợp","Tăng sử dụng nước không giới hạn","Bỏ qua dự báo hạn","Chỉ trồng cây cần nhiều nước",0,"Quản lí nước và chọn cây trồng phù hợp giúp giảm tác động mùa khô."],
   ["Lịch gieo trồng nên được điều chỉnh dựa trên yếu tố nào?","Chỉ ngày lễ","Đặc điểm mùa vụ, nhiệt độ, mưa và nguy cơ thiên tai địa phương","Chỉ giá bán phân bón","Chỉ số dân",1,"Lịch thời vụ cần căn cứ điều kiện khí hậu và rủi ro từng vùng."],
   ["Một khu vực có mưa lớn tập trung và địa hình dốc. Giải pháp nào nên được ưu tiên?","Mở rộng xây dựng trên sườn dốc","Phá rừng đầu nguồn","Cảnh báo lũ quét, sạt lở và bảo vệ rừng","Không cần phương án sơ tán",2,"Mưa lớn trên địa hình dốc làm tăng nguy cơ lũ quét và sạt lở."]
+ ]),status:'draft'},,
+
+ {lessonId:'g8-geography-05',grade:8,strand:'geography',title:'Thực hành: Vẽ và phân tích biểu đồ khí hậu',questions:buildGeo('g8-geography-05',[
+  ["Trước khi vẽ biểu đồ khí hậu, cần kiểm tra điều gì?","Tên địa điểm, thời gian, đơn vị và số liệu 12 tháng","Chỉ màu bút","Chỉ tên người lập bảng","Chỉ kích thước giấy",0,"Cần kiểm tra nguồn, thời gian, đơn vị và độ đầy đủ của số liệu."],
+  ["Nhiệt độ trung bình tháng thường được biểu thị bằng đơn vị nào?","mm","°C","km","% dân số",1,"Nhiệt độ được biểu thị bằng độ Celsius."],
+  ["Lượng mưa tháng thường được biểu thị bằng đơn vị nào?","°C","km/h","mm","mật độ",2,"Lượng mưa thường tính bằng milimét."],
+  ["Dạng biểu đồ nào thường phù hợp để thể hiện nhiệt độ và lượng mưa theo tháng?","Biểu đồ tròn","Biểu đồ miền dân số","Sơ đồ cây","Biểu đồ kết hợp cột và đường",3,"Biểu đồ khí hậu thường dùng cột cho lượng mưa và đường cho nhiệt độ."],
+  ["Trục ngang của biểu đồ khí hậu thường thể hiện nội dung nào?","12 tháng trong năm","Độ cao địa hình","Tên các quốc gia","Mật độ dân số",0,"Trục ngang thể hiện các tháng từ 1 đến 12."],
+  ["Trong biểu đồ kết hợp khí hậu, lượng mưa thường được thể hiện bằng cách nào?","Đường gấp khúc","Các cột","Kí hiệu điểm dân cư","Mũi tên gió",1,"Lượng mưa thường được thể hiện bằng cột theo từng tháng."],
+  ["Nhiệt độ trung bình tháng thường được thể hiện bằng cách nào?","Diện tích hình tròn","Bản đồ màu","Đường nối các điểm theo tháng","Kí hiệu đường biên",2,"Các điểm nhiệt độ được nối thành đường biểu diễn."],
+  ["Vì sao biểu đồ cần có chú giải?","Để trang trí","Để thay thế số liệu","Để không cần ghi đơn vị","Để phân biệt đại lượng được thể hiện",3,"Chú giải cho biết cột và đường biểu diễn đại diện cho đại lượng nào."],
+  ["Khi nhận xét nhiệt độ năm, thông tin nào cần xác định?","Tháng cao nhất, thấp nhất và biên độ nhiệt","Chỉ tháng đầu năm","Chỉ số lượng cột","Chỉ tên biểu đồ",0,"Các giá trị cực đại, cực tiểu và biên độ giúp nhận xét diễn biến nhiệt."],
+  ["Khi nhận xét lượng mưa, cần chú ý điều gì?","Chỉ màu sắc cột","Tháng mưa nhiều, tháng ít mưa và thời kì mưa tập trung","Chỉ độ dài trục ngang","Chỉ tên địa phương",1,"Phân bố mưa theo tháng cho biết mùa mưa và mùa khô."],
+  ["Nếu thiếu số liệu tháng 7, cách xử lí phù hợp là gì?","Tự đoán một con số","Sao chép số liệu tháng 6","Kiểm tra nguồn hoặc ghi rõ dữ liệu thiếu, không tự ý bịa số","Bỏ qua toàn bộ đơn vị",2,"Không được tự ý tạo số liệu; cần kiểm tra nguồn và ghi nhận thiếu hụt."],
+  ["Khi hai trục đứng biểu thị hai đại lượng khác nhau, cần làm gì?","Dùng chung đơn vị không cần ghi","Xóa nhãn trục","Chỉ ghi tên tháng","Ghi rõ đại lượng và đơn vị trên từng trục",3,"Ghi rõ đơn vị giúp người đọc không nhầm nhiệt độ với lượng mưa."],
+  ["Một biểu đồ có nhiệt độ cao nhất tháng 7 là 30°C và thấp nhất tháng 1 là 18°C. Biên độ nhiệt năm là bao nhiêu?","12°C","18°C","30°C","48°C",0,"Biên độ nhiệt = 30 – 18 = 12°C."],
+  ["Một địa điểm có lượng mưa tập trung từ tháng 5 đến tháng 10. Nhận xét nào phù hợp?","Mưa phân bố đều tuyệt đối","Mùa mưa tập trung vào khoảng tháng 5–10","Không có mùa mưa","Mùa khô kéo dài cả năm",1,"Các tháng có lượng mưa tập trung cho thấy thời kì mùa mưa."],
+  ["Hai biểu đồ có số liệu từ các giai đoạn khác nhau. Muốn so sánh chính xác cần làm gì?","So sánh ngay không cần kiểm tra","Chỉ xem màu đường","Kiểm tra cùng đơn vị, thời kì và phương pháp thống kê trước khi kết luận","Chỉ so sánh tên địa điểm",2,"So sánh có ý nghĩa khi dữ liệu tương thích về thời gian, đơn vị và phương pháp."]
  ]),status:'draft'},
 ];
