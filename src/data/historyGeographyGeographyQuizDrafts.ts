@@ -425,7 +425,7 @@ export const geographyQuizDrafts:HGGeoQuizSet[]=[
   ["Vì sao đồng bằng ven biển miền Trung thường hẹp?","Dãy núi có nhiều nhánh ăn ra sát biển","Vì nằm ở vùng cực","Vì không có sông","Vì toàn bộ bị băng phủ",0,"Địa hình núi ăn ra biển làm đồng bằng ven biển bị thu hẹp và chia cắt."],
   ["Khi xây dựng đường qua vùng núi, yếu tố nào cần được khảo sát?","Chỉ khoảng cách đường thẳng","Độ dốc, địa chất và nguy cơ sạt lở","Chỉ màu sắc đất","Chỉ số lượng nhà dân",1,"Độ dốc và điều kiện địa chất quyết định an toàn của tuyến đường."],
   ["Một khu vực đồng bằng vừa thuận lợi trồng trọt vừa dễ ngập lụt. Cách quy hoạch phù hợp là gì?","Chỉ tăng diện tích xây dựng","Bỏ qua hệ thống thoát nước","Kết hợp sử dụng đất hợp lí với đê điều, thoát nước và thích ứng lũ","Cấm mọi hoạt động sản xuất",2,"Quy hoạch cần tận dụng lợi thế đồng bằng đồng thời giảm rủi ro ngập lụt."]
- ]),status:'draft'},,
+ ]),status:'draft'},
 
  {lessonId:'g8-geography-03',grade:8,strand:'geography',title:'Khoáng sản Việt Nam',questions:buildGeo('g8-geography-03',[
   ["Tài nguyên khoáng sản Việt Nam có đặc điểm nào?","Khá đa dạng nhưng phân bố không đều","Chỉ có một loại duy nhất","Phân bố đồng đều tuyệt đối","Có thể tái tạo nhanh trong vài năm",0,"Khoáng sản đa dạng nhưng phân bố không đều giữa các vùng."],
