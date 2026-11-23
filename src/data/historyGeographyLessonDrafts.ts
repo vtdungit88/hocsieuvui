@@ -1610,5 +1610,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-geography-03', grade: 8, strand: 'geography',
+    title: 'Khoáng sản Việt Nam',
+    summary: 'Tìm hiểu đặc điểm chung, sự phân bố và giá trị của tài nguyên khoáng sản Việt Nam; nhận biết yêu cầu khai thác hợp lí, tiết kiệm và bảo vệ môi trường.',
+    learningObjectives: [
+      'Nêu được đặc điểm chung và sự phân bố một số loại khoáng sản chính ở Việt Nam.',
+      'Xác định được một số vùng, mỏ khoáng sản tiêu biểu trên bản đồ.',
+      'Giải thích được sự cần thiết của khai thác hợp lí và sử dụng tiết kiệm tài nguyên khoáng sản.'
+    ],
+    sections: [
+      {
+        heading: 'Đặc điểm chung của tài nguyên khoáng sản',
+        body: 'Việt Nam có tài nguyên khoáng sản khá phong phú và đa dạng về chủng loại, nhưng nhiều loại có trữ lượng vừa và nhỏ, phân bố không đều giữa các vùng. Khoáng sản hình thành qua những quá trình địa chất lâu dài, vì vậy là nguồn tài nguyên hữu hạn, không thể phục hồi trong thời gian ngắn. Một số nhóm khoáng sản quan trọng gồm năng lượng, kim loại và phi kim loại. Giá trị của khoáng sản phụ thuộc vào trữ lượng, chất lượng, điều kiện khai thác, công nghệ và nhu cầu sử dụng.',
+        keyPoints: ['Khoáng sản đa dạng nhưng phân bố không đều và là tài nguyên hữu hạn.'],
+        example: 'Phân loại than, dầu khí, bô-xít, sắt và a-pa-tít theo nhóm khoáng sản để thấy sự đa dạng tài nguyên.'
+      },
+      {
+        heading: 'Sự phân bố một số khoáng sản tiêu biểu',
+        body: 'Than đá tập trung nhiều ở Quảng Ninh; dầu mỏ và khí tự nhiên phân bố ở các bể trầm tích ngoài khơi, nhất là khu vực phía nam Biển Đông. Bô-xít có tiềm năng lớn ở Tây Nguyên; a-pa-tít tập trung ở Lào Cai; sắt có ở nhiều địa phương như Hà Tĩnh và Thái Nguyên; đá vôi phân bố rộng ở các vùng núi đá vôi. Sự phân bố gắn với lịch sử phát triển địa chất của từng khu vực. Bản đồ khoáng sản giúp xác định vị trí, nhưng không thay thế việc khảo sát trữ lượng và chất lượng tại mỏ.',
+        keyPoints: ['Quảng Ninh nổi bật về than; Tây Nguyên có bô-xít; Lào Cai có a-pa-tít; dầu khí phân bố ở các bể trầm tích ngoài khơi.'],
+        example: 'Đọc bản đồ khoáng sản theo kí hiệu và chú giải để xác định khu vực phân bố của từng loại.'
+      },
+      {
+        heading: 'Khai thác và sử dụng khoáng sản bền vững',
+        body: 'Khoáng sản cung cấp nguyên liệu và năng lượng cho công nghiệp, xây dựng và nhiều hoạt động kinh tế. Tuy nhiên, khai thác thiếu quy hoạch có thể làm suy thoái đất, ô nhiễm nước và không khí, phá vỡ cảnh quan và ảnh hưởng sinh kế cộng đồng. Cần điều tra, đánh giá trữ lượng trước khi khai thác; áp dụng công nghệ phù hợp, tiết kiệm nguyên liệu, tăng tái chế và phục hồi môi trường sau khai thác. Việc lựa chọn dự án cần cân nhắc hiệu quả kinh tế, an toàn, môi trường và lợi ích lâu dài của địa phương.',
+        keyPoints: ['Khai thác khoáng sản cần gắn với tiết kiệm tài nguyên, công nghệ phù hợp và phục hồi môi trường.'],
+        example: 'Đánh giá một dự án khai thác cần xem xét việc xử lí nước thải, hoàn thổ, phục hồi thảm thực vật và giám sát cộng đồng.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
