@@ -1418,5 +1418,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-history-16', grade: 8, strand: 'history',
+    title: 'Việt Nam dưới triều Nguyễn (nửa đầu thế kỉ XIX)',
+    summary: 'Tìm hiểu quá trình thành lập và củng cố nhà Nguyễn, tổ chức bộ máy nhà nước, tình hình kinh tế – xã hội, văn hóa và chính sách đối ngoại của Việt Nam trong nửa đầu thế kỉ XIX.',
+    learningObjectives: [
+      'Nêu được sự thành lập nhà Nguyễn và một số cải cách hành chính tiêu biểu.',
+      'Trình bày được những nét chính về kinh tế, xã hội và văn hóa dưới triều Nguyễn.',
+      'Nhận xét được một số hạn chế trong chính sách đối nội và đối ngoại của triều Nguyễn.'
+    ],
+    sections: [
+      {
+        heading: 'Thành lập triều Nguyễn và tổ chức nhà nước',
+        body: 'Năm 1802, Nguyễn Ánh lên ngôi hoàng đế, lập triều Nguyễn, đóng đô ở Phú Xuân (Huế). Các vua đầu triều từng bước củng cố chính quyền trung ương và tổ chức bộ máy quản lí trên cả nước. Dưới thời Minh Mạng, cải cách hành chính được tiến hành, chia cả nước thành các tỉnh và tăng cường sự quản lí thống nhất từ trung ương. Nhà nước ban hành luật pháp, xây dựng quân đội và hệ thống quan lại, nhưng quyền lực tập trung cao và cơ chế quản lí còn nhiều hạn chế.',
+        keyPoints: ['Nhà Nguyễn thành lập năm 1802; cải cách thời Minh Mạng góp phần củng cố bộ máy hành chính.'],
+        example: 'Đối chiếu bản đồ hành chính trước và sau cải cách Minh Mạng để thấy sự thay đổi trong tổ chức lãnh thổ.'
+      },
+      {
+        heading: 'Kinh tế, xã hội và văn hóa',
+        body: 'Nông nghiệp vẫn là ngành kinh tế chủ yếu; nhà nước quan tâm khai hoang, đào kênh, đắp đê và sửa chữa thủy lợi ở một số nơi. Thủ công nghiệp nhà nước và dân gian tiếp tục phát triển, trong khi thương mại chịu ảnh hưởng của chính sách quản lí và quan hệ đối ngoại. Xã hội có sự phân hóa, đời sống nông dân ở nhiều nơi khó khăn do thuế khóa, lao dịch, thiên tai và mất mùa. Văn hóa có những thành tựu về kiến trúc, điêu khắc, văn học và sử học; quần thể di tích cố đô Huế là dấu ấn tiêu biểu của thời Nguyễn.',
+        keyPoints: ['Kinh tế nông nghiệp giữ vai trò chủ đạo; văn hóa và kiến trúc có nhiều thành tựu, song xã hội còn nhiều khó khăn.'],
+        example: 'Khi đánh giá một triều đại, cần xem xét đồng thời hoạt động nhà nước, sản xuất, đời sống cư dân và thành tựu văn hóa.'
+      },
+      {
+        heading: 'Chính sách đối ngoại và những hạn chế',
+        body: 'Triều Nguyễn duy trì quan hệ với các nước láng giềng và các thế lực bên ngoài, nhưng chính sách đối ngoại có xu hướng thận trọng, hạn chế giao thương và tiếp xúc với phương Tây ở nhiều thời điểm. Một số chính sách đối với tôn giáo và hoạt động truyền giáo gây căng thẳng trong quan hệ với các nước phương Tây. Trong nước, các cuộc nổi dậy của nông dân và những nhóm xã hội khác phản ánh mâu thuẫn và khó khăn của bộ máy cai trị. Khi nhận xét về triều Nguyễn nửa đầu thế kỉ XIX, cần phân biệt thành tựu xây dựng nhà nước, văn hóa với những hạn chế khiến đất nước gặp khó khăn trước biến động quốc tế.',
+        keyPoints: ['Triều Nguyễn củng cố nhà nước nhưng có những hạn chế trong chính sách đối nội, đối ngoại và khả năng thích ứng.'],
+        example: 'Lập bảng hai cột thành tựu – hạn chế giúp đưa ra nhận xét cân bằng, có dẫn chứng.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
