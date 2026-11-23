@@ -337,4 +337,23 @@ export const geographyQuizDrafts:HGGeoQuizSet[]=[
  ["Kết quả khảo sát nên được trình bày như thế nào?","Chỉ đưa kết luận mà không nêu phương pháp","Nêu bằng chứng, cách thu thập, nhận xét và giới hạn khảo sát","Chỉ chép lại một nguồn","Không cần đơn vị hoặc thời điểm",1,"Báo cáo rõ phương pháp và giới hạn giúp người đọc đánh giá kết quả."],
  ["Một nhóm muốn đề xuất dự án giảm rác ở kênh gần trường. Kế hoạch nào đầy đủ hơn?","Chỉ tổ chức một buổi chụp ảnh","Chỉ đặt khẩu hiệu rồi kết thúc","Xác định nguồn rác, người phối hợp, hoạt động, thời hạn và chỉ số theo dõi","Chuyển rác sang một đoạn kênh khác",2,"Kế hoạch có mục tiêu, trách nhiệm, thời hạn và chỉ số giúp đánh giá hiệu quả thực tế."]
  ]),status:'draft'},
+
+ {lessonId:"g7-geography-01",grade:7,strand:'geography',title:"Vị trí địa lí, đặc điểm tự nhiên châu Âu",questions:buildGeo("g7-geography-01",[
+ ["Châu Âu nằm chủ yếu ở bán cầu nào?","Bán cầu Nam","Bán cầu Bắc","Cả hai bán cầu như nhau","Bán cầu Tây בלבד",1,"Phần lớn lãnh thổ châu Âu nằm ở bán cầu Bắc."],
+ ["Châu Âu là bộ phận của lục địa nào?","Phi – Á","Bắc Mỹ","Á – Âu","Nam Cực",2,"Châu Âu và châu Á cùng nằm trên lục địa Á – Âu."],
+ ["Đại dương nằm ở phía tây châu Âu là?","Thái Bình Dương","Ấn Độ Dương","Nam Đại Dương","Đại Tây Dương",3,"Đại Tây Dương tiếp giáp phía tây châu Âu."],
+ ["Biển nào nằm ở phía nam châu Âu?","Địa Trung Hải","Biển Ca-ri-bê","Biển Nhật Bản","Biển A-rập",0,"Địa Trung Hải nằm giữa châu Âu, châu Phi và châu Á."],
+ ["Đặc điểm nổi bật của bờ biển châu Âu là?","Thẳng và ít vịnh","Bị chia cắt mạnh, nhiều bán đảo và vịnh","Hoàn toàn không có đảo","Chỉ có bờ biển ở phía đông",1,"Bờ biển châu Âu có nhiều bán đảo, vịnh, biển ven bờ và đảo."],
+ ["Dạng địa hình phổ biến ở phía bắc và trung tâm châu Âu là?","Hoang mạc cát","Cao nguyên băng phủ quanh năm","Đồng bằng","Núi lửa đang hoạt động",2,"Đồng bằng rộng tập trung nhiều ở phía bắc và trung tâm."],
+ ["Dãy núi An-pơ thuộc nhóm địa hình nào?","Núi già thấp","Đồng bằng châu thổ","Sơn nguyên thấp","Núi trẻ cao",3,"An-pơ là dãy núi trẻ, cao và đồ sộ ở phía nam châu Âu."],
+ ["Núi già thường có đặc điểm nào?","Đỉnh tương đối tròn, bị bào mòn lâu dài","Đỉnh nhọn và rất cao","Luôn có núi lửa hoạt động","Chỉ xuất hiện dưới đáy biển",0,"Quá trình bào mòn kéo dài làm địa hình núi già thấp và đỉnh thường tròn hơn."],
+ ["Phần lớn châu Âu có kiểu khí hậu nào?","Nhiệt đới","Ôn đới","Xích đạo","Hoang mạc nóng",1,"Phần lớn lãnh thổ châu Âu nằm trong đới ôn hòa."],
+ ["Khu vực phía bắc châu Âu có thể có kiểu khí hậu nào?","Xích đạo","Nhiệt đới gió mùa","Hàn đới","Hoang mạc nóng",2,"Vĩ độ cao khiến một bộ phận phía bắc có khí hậu hàn đới."],
+ ["Yếu tố nào góp phần làm Tây Âu ấm và ẩm hơn vùng sâu trong lục địa cùng vĩ độ?","Gió mùa Đông Á","Dòng biển lạnh ven bờ","Ảnh hưởng sa mạc Sahara","Dòng biển nóng Bắc Đại Tây Dương và gió Tây ôn đới",3,"Dòng biển nóng và gió Tây đưa không khí ẩm, tương đối ấm vào Tây Âu."],
+ ["Càng đi sâu về phía đông châu Âu, tính chất khí hậu thường thay đổi thế nào?","Tính lục địa tăng, biên độ nhiệt năm thường lớn hơn","Ảnh hưởng biển tăng mạnh","Nhiệt độ quanh năm không đổi","Mưa tăng vô hạn",0,"Xa biển hơn, tính lục địa tăng và chênh lệch nhiệt độ theo mùa thường lớn hơn."],
+ ["Một địa điểm ven Đại Tây Dương và một địa điểm sâu trong lục địa cùng vĩ độ. Nơi nào thường có mùa đông ôn hòa hơn?","Nơi sâu trong lục địa","Hai nơi luôn giống hệt nhau","Nơi ven Đại Tây Dương","Không thể chịu ảnh hưởng khí hậu",2,"Biển và dòng biển nóng giúp điều hòa nhiệt độ ở khu vực ven Đại Tây Dương."],
+ ["Khi xác định ranh giới tự nhiên giữa châu Âu và châu Á, yếu tố nào thường được sử dụng?","Đường xích đạo","Dãy U-ran và các sông, biển liên quan","Kinh tuyến gốc duy nhất","Vòng cực Nam",1,"Ranh giới quy ước thường đi qua dãy U-ran, sông U-ran, biển Ca-xpi, khu vực Cáp-ca và biển Đen."],
+ ["Một sườn núi đón gió ẩm thường có khả năng nhận mưa nhiều hơn sườn khuất gió. Đây là minh họa cho tác động của yếu tố nào?","Kinh độ","Độ sâu đại dương","Mật độ dân số","Địa hình đối với khí hậu",3,"Địa hình làm không khí ẩm bị nâng lên, gây mưa ở sườn đón gió và tạo khác biệt với sườn khuất gió."]
+ ]),status:'draft'},
+
 ];
