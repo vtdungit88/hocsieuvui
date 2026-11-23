@@ -1738,5 +1738,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-geography-07', grade: 8, strand: 'geography',
+    title: 'Vai trò của tài nguyên khí hậu và tài nguyên nước đối với sự phát triển kinh tế - xã hội của nước ta',
+    summary: 'Phân tích vai trò của khí hậu và nguồn nước đối với nông nghiệp, công nghiệp, dịch vụ, đời sống dân cư; nhận biết sự khác biệt giữa các vùng và yêu cầu sử dụng bền vững.',
+    learningObjectives: [
+      'Nêu được vai trò của tài nguyên khí hậu và tài nguyên nước đối với các ngành kinh tế.',
+      'Liên hệ được đặc điểm khí hậu, nguồn nước với hoạt động sản xuất ở một số vùng.',
+      'Đề xuất được biện pháp sử dụng tiết kiệm, hiệu quả và bảo vệ tài nguyên khí hậu, nước.'
+    ],
+    sections: [
+      {
+        heading: 'Vai trò của tài nguyên khí hậu',
+        body: 'Khí hậu nhiệt đới ẩm gió mùa tạo điều kiện phát triển nền nông nghiệp đa dạng, có thể bố trí nhiều mùa vụ và nhiều loại cây trồng, vật nuôi phù hợp với từng vùng. Nhiệt độ, lượng mưa, số giờ nắng và chế độ gió còn ảnh hưởng đến du lịch, giao thông, năng lượng và hoạt động công nghiệp. Các vùng có khí hậu khác nhau có thể phát triển sản phẩm đặc trưng như cây công nghiệp ở cao nguyên, cây ăn quả ở vùng nhiệt đới và du lịch nghỉ dưỡng ở nơi có điều kiện khí hậu phù hợp. Tuy nhiên, thời tiết cực đoan có thể làm gián đoạn sản xuất và gây thiệt hại.',
+        keyPoints: ['Khí hậu là nguồn lực cho nông nghiệp, du lịch, năng lượng và nhiều hoạt động kinh tế, nhưng cũng tạo ra rủi ro thiên tai.'],
+        example: 'Cao nguyên có điều kiện phù hợp cho một số cây công nghiệp; vùng ven biển có thể phát triển du lịch nhưng cần tính đến bão.'
+      },
+      {
+        heading: 'Vai trò của tài nguyên nước',
+        body: 'Nước mặt và nước dưới đất có vai trò thiết yếu đối với sinh hoạt, tưới tiêu, chăn nuôi, nuôi trồng thủy sản, công nghiệp và dịch vụ. Sông ngòi và hồ chứa còn cung cấp tiềm năng thủy điện, hỗ trợ giao thông và điều tiết nước ở một số lưu vực. Đồng bằng có hệ thống kênh rạch phục vụ tưới tiêu và vận tải; miền núi có tiềm năng thủy điện nhưng cần đánh giá tác động đến dòng chảy, rừng và cộng đồng hạ du. Nguồn nước phân bố không đều theo mùa và theo vùng nên cần quy hoạch sử dụng phù hợp.',
+        keyPoints: ['Nước là đầu vào quan trọng của sản xuất và đời sống; khả năng khai thác phụ thuộc vị trí, mùa và điều kiện lưu vực.'],
+        example: 'Một vùng trồng lúa cần hệ thống thủy lợi, còn vùng có sông dốc có thể có tiềm năng thủy điện nếu bảo đảm yêu cầu môi trường.'
+      },
+      {
+        heading: 'Khai thác hợp lí và thích ứng',
+        body: 'Sử dụng tài nguyên khí hậu và nước hiệu quả cần dựa trên quy hoạch theo vùng, dự báo thời tiết – thủy văn và nhu cầu thực tế. Nông nghiệp có thể điều chỉnh mùa vụ, chọn giống thích ứng và áp dụng tưới tiết kiệm; đô thị và nhà máy cần giảm thất thoát, xử lí nước thải và tăng tái sử dụng nước. Bảo vệ rừng đầu nguồn, hành lang sông, hồ và vùng đất ngập nước góp phần duy trì nguồn nước. Các quyết định phát triển phải cân bằng lợi ích kinh tế với an toàn dân cư, đa dạng sinh học và khả năng chống chịu trước biến đổi khí hậu.',
+        keyPoints: ['Quản lí bền vững cần tiết kiệm, tái sử dụng, bảo vệ lưu vực và thích ứng với biến động khí hậu.'],
+        example: 'Một địa phương thiếu nước mùa khô có thể kết hợp trữ nước, tưới nhỏ giọt, chuyển đổi cây trồng và kiểm soát khai thác nước ngầm.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
