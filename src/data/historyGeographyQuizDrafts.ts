@@ -605,7 +605,7 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
     ["Khi đọc bản đồ thương cảng, thông tin nào cần chú ý?","Vị trí, tuyến giao thông và vùng sản xuất kết nối với cảng","Chỉ màu sắc trang trí","Chỉ tên người vẽ","Chỉ ranh giới quốc gia hiện nay",0,"Vị trí và tuyến kết nối giúp giải thích vai trò thương mại của cảng thị."],
     ["Một lễ hội có yếu tố của nhiều cộng đồng. Cách tìm hiểu phù hợp là gì?","Kết luận ngay chỉ có một nguồn gốc","Tìm hiểu lịch sử, cộng đồng thực hành và quá trình giao lưu","Bỏ qua tư liệu địa phương","Chỉ dựa vào hình ảnh quảng cáo",1,"Cần xem xét bối cảnh và nhiều nguồn để hiểu quá trình giao lưu văn hóa."],
     ["Nhận định nào khái quát đúng tình hình kinh tế, văn hóa, tôn giáo giai đoạn XVI–XVIII?","Mọi hoạt động đều ngừng phát triển","Chỉ có thương mại, không có sản xuất","Có biến động theo vùng, đồng thời kinh tế, đô thị và đời sống tinh thần tiếp tục chuyển biến","Mọi cộng đồng đều có cùng tập quán",2,"Giai đoạn có những khó khăn và chuyển biến đa dạng, không đồng nhất giữa các vùng."]
-  ]),status:'draft'},,
+  ]),status:'draft'},
 
   {lessonId:'g8-history-10',grade:8,strand:'history',title:'Sự hình thành chủ nghĩa đế quốc ở các nước Âu - Mỹ (cuối thế kỉ XIX - đầu thế kỉ XX)',questions:buildQuestions('g8-history-10',[
     ["Giai đoạn nào gắn với sự hình thành chủ nghĩa đế quốc ở nhiều nước Âu – Mỹ?","Cuối thế kỉ XIX – đầu thế kỉ XX","Thế kỉ XV","Đầu thế kỉ XVII","Sau năm 1945",0,"Đây là giai đoạn tập trung sản xuất và tư bản, mở rộng thuộc địa diễn ra mạnh."],
