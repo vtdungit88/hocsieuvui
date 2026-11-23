@@ -1066,5 +1066,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-history-05', grade: 8, strand: 'history',
+    title: 'Cuộc xung đột Nam - Bắc triều và Trịnh - Nguyễn',
+    summary: 'Tìm hiểu bối cảnh phân hóa quyền lực ở Đại Việt thế kỉ XVI–XVII, cuộc đối đầu giữa nhà Mạc và lực lượng Lê trung hưng, tiếp đó là xung đột Trịnh – Nguyễn và những tác động lâu dài đối với đất nước.',
+    learningObjectives: [
+      'Trình bày được bối cảnh hình thành Nam – Bắc triều và xung đột Trịnh – Nguyễn.',
+      'Nêu được một số mốc chính và kết quả của các cuộc xung đột.',
+      'Phân tích được tác động của tình trạng chia cắt đối với chính trị, kinh tế và đời sống.'
+    ],
+    sections: [
+      {
+        heading: 'Sự hình thành Nam – Bắc triều',
+        body: 'Đầu thế kỉ XVI, triều Lê sơ suy yếu, tình hình chính trị rối ren và các phe phái tranh giành quyền lực. Năm 1527, Mạc Đăng Dung lập nhà Mạc. Một bộ phận lực lượng trung thành với nhà Lê tiếp tục hoạt động, sau đó xây dựng chính quyền Lê trung hưng ở Thanh Hóa. Từ đây hình thành cục diện đối đầu thường gọi là Nam – Bắc triều. Cuộc chiến kéo dài nhiều thập niên, làm cho đất nước bị phân chia về chính trị và gây tổn thất cho cư dân.',
+        keyPoints: ['Nhà Mạc thành lập năm 1527; lực lượng Lê trung hưng hình thành ở phía nam, tạo cục diện Nam – Bắc triều.'],
+        example: 'Khi lập dòng thời gian, cần phân biệt năm nhà Mạc thành lập với các mốc kết thúc xung đột sau đó.'
+      },
+      {
+        heading: 'Xung đột Trịnh – Nguyễn',
+        body: 'Trong lực lượng Lê trung hưng, quyền lực dần tập trung vào họ Trịnh ở Đàng Ngoài và họ Nguyễn ở Đàng Trong. Nguyễn Hoàng vào trấn thủ Thuận Hóa năm 1558, mở đầu quá trình xây dựng thế lực riêng của họ Nguyễn ở phía nam. Từ năm 1627, chiến tranh Trịnh – Nguyễn bùng nổ và diễn ra qua nhiều đợt. Đến năm 1672, hai bên ngừng giao tranh lớn, lấy sông Gianh làm ranh giới phân chia phạm vi kiểm soát. Vua Lê vẫn tồn tại về danh nghĩa, nhưng quyền lực thực tế nằm trong tay các chúa.',
+        keyPoints: ['Trịnh – Nguyễn đối đầu kéo dài; sông Gianh trở thành ranh giới phân chia Đàng Ngoài và Đàng Trong sau năm 1672.'],
+        example: 'Dùng bản đồ để xác định vị trí sông Gianh và giải thích ý nghĩa địa lí – chính trị của ranh giới này.'
+      },
+      {
+        heading: 'Hệ quả và đánh giá lịch sử',
+        body: 'Các cuộc xung đột làm suy yếu sự thống nhất chính trị, gây thiệt hại về người và của, ảnh hưởng đến sản xuất và đời sống. Tuy vậy, trong thời kì này, quá trình khai phá và mở rộng cư trú về phía nam vẫn tiếp diễn, thương mại ở một số đô thị và cảng thị phát triển. Khi đánh giá giai đoạn, cần phân biệt tác động tiêu cực của chiến tranh với những chuyển biến kinh tế, xã hội diễn ra đồng thời; tránh quy toàn bộ đời sống đất nước vào riêng một mặt của lịch sử.',
+        keyPoints: ['Chia cắt và chiến tranh gây nhiều tổn thất, trong khi một số hoạt động kinh tế và quá trình mở rộng lãnh thổ vẫn tiếp tục.'],
+        example: 'Một nhận xét cân bằng cần nêu cả hệ quả của xung đột và những chuyển biến khác trong xã hội cùng thời.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
