@@ -64,3 +64,7 @@ The Grade 6 material has not yet received independent subject-matter review. CI 
 ### Follow-up — Grade 7 History tranche (23/11/2026)
 
 Eight manifest-aligned Grade 7 History lessons and eight 15-question packs have been added. Current manifest coverage is 58/166 (870 aligned questions) plus eight legacy structural packs (120 questions), 990 draft questions total. Grade 6 is complete as draft content; Grade 7 History is 8/18. Grade 7 Geography, the remaining Grade 7 History lessons, integrated topics, and Grades 8–9 remain incomplete. No subject-matter approval, production import, unlock, or deployment has occurred.
+
+### Follow-up — Grade 7 History complete as draft (23/11/2026)
+
+The remaining ten Grade 7 History lessons and their 150 questions have been added. Grade 7 History now has 18/18 manifest-aligned draft lessons. Total coverage is 68/166 (1,020 aligned questions) plus eight legacy structural packs (120 questions), for 1,140 draft questions. The 98 remaining units are Grade 7 Geography (19) and integrated topics (2), Grade 8 (33), and Grade 9 (44). This is not independent subject-matter approval and no production import, unlock, or deployment has occurred.
