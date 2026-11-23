@@ -118,4 +118,23 @@ export const geographyQuizDrafts:HGGeoQuizSet[]=[
     ['Khi xác định vị trí Trái Đất trong hệ Mặt Trời, cách diễn đạt nào chính xác?','Trái Đất là vệ tinh của Sao Hỏa','Trái Đất là ngôi sao gần Mặt Trời nhất','Trái Đất là hành tinh thứ ba tính từ Mặt Trời','Trái Đất nằm ngoài hệ Mặt Trời',2,'Trái Đất là hành tinh thứ ba tính từ Mặt Trời.']
   ]),status:'draft'},
 
+
+  {lessonId:'g6-geography-07',grade:6,strand:'geography',title:'Chuyển động tự quay quanh trục của Trái Đất và hệ quả',questions:buildGeo('g6-geography-07',[
+    ['Trái Đất tự quay quanh trục theo hướng nào?','Từ tây sang đông','Từ đông sang tây','Từ bắc xuống nam','Từ nam lên bắc',0,'Trái Đất tự quay quanh trục theo hướng từ tây sang đông.'],
+    ['Thời gian Trái Đất tự quay một vòng quanh trục xấp xỉ bao lâu?','12 giờ','24 giờ','30 ngày','365 ngày',1,'Một vòng tự quay tương ứng khoảng một ngày đêm.'],
+    ['Hiện tượng nào là hệ quả trực tiếp của chuyển động tự quay quanh trục?','Các mùa trong năm','Thủy triều','Sự luân phiên ngày và đêm','Sự hình thành núi',2,'Nửa cầu hướng về Mặt Trời là ban ngày, nửa còn lại là ban đêm.'],
+    ['Vì sao ta thấy Mặt Trời mọc ở phía đông và lặn ở phía tây?','Vì Mặt Trời quay quanh Trái Đất mỗi ngày','Vì các lục địa di chuyển','Vì Mặt Trăng che khuất Mặt Trời','Vì Trái Đất tự quay từ tây sang đông',3,'Chuyển động tự quay từ tây sang đông tạo chuyển động biểu kiến của Mặt Trời từ đông sang tây.'],
+    ['Đường tưởng tượng nối hai cực và là trục tự quay của Trái Đất gọi là gì?','Trục Trái Đất','Xích đạo','Kinh tuyến gốc','Quỹ đạo',0,'Trục Trái Đất là đường tưởng tượng nối hai cực.'],
+    ['Khi một địa điểm đang có ban ngày, nguyên nhân chủ yếu là gì?','Địa điểm ở xa Mặt Trời hơn','Địa điểm nằm ở nửa cầu được chiếu sáng','Trái Đất ngừng tự quay','Mặt Trăng phát sáng thay Mặt Trời',1,'Ban ngày xảy ra khi địa điểm nằm ở phần Trái Đất được Mặt Trời chiếu sáng.'],
+    ['Hai địa điểm nằm ở các kinh tuyến khác nhau có thể có điều gì khác nhau?','Độ dài một năm luôn khác nhau','Hướng trục Trái Đất','Giờ địa phương','Số lượng hành tinh',2,'Do Trái Đất tự quay, các kinh tuyến lần lượt hướng về phía Mặt Trời ở những thời điểm khác nhau.'],
+    ['Trái Đất quay 360 độ trong khoảng 24 giờ. Trung bình mỗi giờ quay được bao nhiêu độ?','5 độ','10 độ','30 độ','15 độ',3,'360 độ chia 24 giờ bằng 15 độ mỗi giờ.'],
+    ['Múi giờ được xây dựng nhằm mục đích nào?','Thống nhất tương đối giờ sử dụng theo khu vực','Làm cho mọi nơi có cùng thời điểm Mặt Trời lên thiên đỉnh','Thay đổi hướng tự quay','Xác định độ cao địa hình',0,'Múi giờ giúp chuẩn hóa giờ sinh hoạt và giao lưu giữa các khu vực.'],
+    ['Nếu ở múi giờ phía đông, giờ thường so với múi giờ phía tây như thế nào?','Luôn chậm hơn','Thường sớm hơn','Luôn giống hệt','Không thể so sánh',1,'Do Trái Đất quay từ tây sang đông, các khu vực phía đông thường đón ánh sáng sớm hơn.'],
+    ['Một địa điểm ở kinh tuyến 30 độ Đông và một địa điểm ở kinh tuyến 45 độ Đông. Theo giờ địa phương lí tưởng, chênh lệch giờ giữa hai nơi là bao nhiêu?','3 giờ','2 giờ','1 giờ','4 giờ',2,'Chênh 15 độ kinh tuyến tương ứng khoảng 1 giờ.'],
+    ['Nếu một nơi đang là ban đêm, nơi đó nằm ở vị trí nào so với Mặt Trời?','Ở đúng phía đối diện quỹ đạo','Nằm trên Mặt Trăng','Ở gần cực Bắc','Ở phần Trái Đất không được Mặt Trời chiếu sáng trực tiếp',3,'Ban đêm xảy ra ở nửa cầu quay khuất khỏi Mặt Trời.'],
+    ['Khi một địa điểm chuyển từ ban ngày sang ban đêm, nguyên nhân nào giải thích đúng?','Địa điểm dần quay từ phần được chiếu sáng sang phần khuất sáng','Mặt Trời tắt trong vài giờ','Trái Đất ngừng chuyển động quanh Mặt Trời','Mặt Trăng che phủ toàn bộ Trái Đất',0,'Do Trái Đất tự quay, mỗi địa điểm lần lượt hướng về rồi khuất khỏi Mặt Trời.'],
+    ['Một bạn cho rằng các nơi trên Trái Đất có cùng giờ vì cùng nhìn một Mặt Trời. Nhận xét nào đúng?','Đúng, vì Mặt Trời chiếu sáng toàn bộ Trái Đất cùng lúc','Không đúng, do các kinh tuyến lần lượt hướng về Mặt Trời nên giờ địa phương khác nhau','Đúng, vì Trái Đất không tự quay','Không đúng vì Mặt Trời chỉ chiếu sáng một quốc gia',1,'Các nơi có kinh độ khác nhau có thời điểm Mặt Trời lên cao khác nhau.'],
+    ['Một chuyến bay đi từ khu vực phía tây sang khu vực phía đông qua nhiều múi giờ. Khi xem giờ địa phương nơi đến, cần lưu ý điều gì?','Giờ nơi đến luôn giữ nguyên như nơi đi','Chỉ cần đổi ngày tháng, không cần đổi giờ','Cần tính đến chênh lệch múi giờ giữa nơi đi và nơi đến','Giờ địa phương không phụ thuộc kinh độ',2,'Chênh lệch múi giờ ảnh hưởng đến giờ địa phương tại nơi đến.']
+  ]),status:'draft'},
+
 ];
