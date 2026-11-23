@@ -767,7 +767,7 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
     ["Vì sao khởi nghĩa Hương Khê được xem là tiêu biểu?","Có tổ chức, kéo dài đến năm 1896 và có ảnh hưởng rộng","Diễn ra trong một ngày","Không có lực lượng tham gia","Không chống lại thực dân Pháp",0,"Hương Khê là một cuộc khởi nghĩa có tổ chức và kéo dài đến năm 1896."],
     ["Khi so sánh Ba Đình, Bãi Sậy và Hương Khê, tiêu chí nào hữu ích?","Chỉ màu cờ","Địa bàn, lãnh đạo, thời gian, cách tổ chức và kết quả","Chỉ dân số hiện nay","Chỉ tên tỉnh hiện tại",1,"Các tiêu chí giúp nhận diện đặc điểm riêng của từng cuộc khởi nghĩa."],
     ["Nhận định nào đúng về ý nghĩa của phong trào Cần Vương?","Thành công giành độc lập ngay năm 1885","Không có ảnh hưởng lịch sử","Thể hiện tinh thần yêu nước và để lại ảnh hưởng cho phong trào cứu nước sau","Chấm dứt chế độ thuộc địa",2,"Dù thất bại, phong trào thể hiện ý chí chống xâm lược và ảnh hưởng đến các xu hướng cứu nước sau."]
-  ]),status:'draft'},,
+  ]),status:'draft'},
 
   {lessonId:'g8-history-19',grade:8,strand:'history',title:'Phong trào yêu nước chống Pháp ở Việt Nam từ đầu thế kỉ XX đến năm 1917',questions:buildQuestions('g8-history-19',[
     ["Một đặc điểm của phong trào yêu nước Việt Nam đầu thế kỉ XX là gì?","Xuất hiện những xu hướng và phương pháp đấu tranh mới","Chỉ lặp lại nguyên vẹn phong trào thế kỉ XV","Không còn hoạt động yêu nước","Chỉ tập trung vào hoạt động thương mại",0,"Đầu thế kỉ XX xuất hiện các xu hướng cứu nước mới với phương pháp khác nhau."],
