@@ -569,7 +569,7 @@ export const geographyQuizDrafts:HGGeoQuizSet[]=[
   ["Một khu rừng bị chia cắt thành nhiều mảnh nhỏ. Hệ quả nào có thể xảy ra?","Sinh cảnh bị phân mảnh và quần thể khó trao đổi cá thể","Đa dạng sinh học tự động tăng","Mọi loài đều thích nghi ngay","Không có ảnh hưởng",0,"Phân mảnh sinh cảnh làm giảm kết nối và tăng nguy cơ suy giảm quần thể."],
   ["Một điểm du lịch sinh thái muốn bảo vệ động vật hoang dã. Quy định nào phù hợp?","Cho khách chạm và cho ăn mọi loài","Không cho ăn, không săn bắt và đi theo tuyến được quản lí","Mang sinh vật về làm quà","Phát tiếng ồn để thu hút động vật",1,"Du lịch có trách nhiệm cần hạn chế tác động và bảo vệ tập tính tự nhiên."],
   ["Một loài quý hiếm mất nơi cư trú do chuyển đổi đất. Giải pháp dài hạn nào phù hợp?","Chỉ nuôi nhốt một vài cá thể","Không cần theo dõi quần thể","Bảo vệ và phục hồi sinh cảnh, kiểm soát tác động và theo dõi quần thể","Tiếp tục chuyển đổi toàn bộ sinh cảnh",2,"Bảo tồn hiệu quả cần giữ và phục hồi môi trường sống tự nhiên."]
- ]),status:'draft'},,
+ ]),status:'draft'},
 
  {lessonId:'g8-geography-11',grade:8,strand:'geography',title:'Phạm vi Biển Đông. Vùng biển đảo và đặc điểm tự nhiên vùng biển đảo Việt Nam',questions:buildGeo('g8-geography-11',[
   ["Biển Đông thuộc đại dương nào?","Thái Bình Dương","Đại Tây Dương","Ấn Độ Dương","Bắc Băng Dương",0,"Biển Đông là một biển nửa kín thuộc Thái Bình Dương."],
