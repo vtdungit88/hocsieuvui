@@ -443,7 +443,7 @@ export const geographyQuizDrafts:HGGeoQuizSet[]=[
   ["Một mỏ than nằm gần khu dân cư. Biện pháp nào cần được ưu tiên?","Kiểm soát bụi, nước thải, tiếng ồn và bảo đảm an toàn cộng đồng","Chỉ tăng sản lượng","Không công khai thông tin","Bỏ qua giám sát môi trường",0,"Khai thác cần kiểm soát tác động môi trường và bảo vệ sức khỏe cư dân."],
   ["Sau khi kết thúc khai thác, doanh nghiệp cần thực hiện việc gì?","Để nguyên hố mỏ không rào chắn","Phục hồi môi trường, hoàn thổ và xử lí chất thải theo quy định","Chuyển chất thải ra sông","Không cần theo dõi",1,"Phục hồi môi trường là trách nhiệm quan trọng sau khai thác."],
   ["Một dự án khai thác có lợi nhuận cao nhưng gây ô nhiễm nguồn nước. Cách đánh giá phù hợp nhất là gì?","Chỉ xem doanh thu","Bỏ qua sức khỏe cộng đồng","Cân nhắc hiệu quả kinh tế cùng tác động môi trường, xã hội và giải pháp giảm thiểu","Tự động chấp thuận dự án",2,"Đánh giá bền vững phải tính đến cả lợi ích và chi phí môi trường – xã hội."]
- ]),status:'draft'},,
+ ]),status:'draft'},
 
  {lessonId:'g8-geography-04',grade:8,strand:'geography',title:'Khí hậu Việt Nam',questions:buildGeo('g8-geography-04',[
   ["Khí hậu Việt Nam mang tính chất chung nào?","Nhiệt đới ẩm gió mùa","Ôn đới lục địa","Hàn đới","Hoang mạc",0,"Vị trí địa lí và hoàn lưu gió mùa tạo nên khí hậu nhiệt đới ẩm gió mùa."],
