@@ -205,7 +205,7 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
                       <span>HỆ THỐNG VỪA HỌC VỪA CHƠI SGK</span>
                     </div>
                     <p className="text-xs text-slate-700 dark:text-slate-300 leading-relaxed">
-                      <strong>Học Siêu Vui</strong> là nền tảng học tập kết hợp trò chơi. Chọn môn học, lớp và bài học đang उपलब्ध để ôn tập, luyện câu hỏi, khám phá các hoạt động và tích lũy thành tích. Nội dung, số câu hỏi và cách chơi có thể khác nhau tùy môn học và chế độ.
+                      <strong>Học Siêu Vui</strong> là nền tảng học tập kết hợp trò chơi. Chọn môn học, lớp và bài học hiện có để ôn tập, luyện câu hỏi, khám phá các hoạt động và tích lũy thành tích. Nội dung, số câu hỏi và cách chơi có thể khác nhau tùy môn học và chế độ.
                     </p>
                   </div>
 
