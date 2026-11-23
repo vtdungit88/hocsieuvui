@@ -99,4 +99,23 @@ export const geographyQuizDrafts:HGGeoQuizSet[]=[
     ['Một lược đồ được dùng để hướng dẫn khách đến phòng y tế trong trường. Tiêu chí nào quan trọng nhất?','Trang trí đẹp hơn mọi yếu tố khác','Có thật nhiều kí hiệu lạ','Tuyến đi, mốc nhận biết và điểm đến phải rõ ràng, nhất quán','Không cần ghi điểm xuất phát',2,'Lược đồ chỉ dẫn cần dễ đọc, có tuyến và mốc rõ để người dùng đến đúng nơi.']
   ]),status:'draft'},
 
+
+  {lessonId:'g6-geography-06',grade:6,strand:'geography',title:'Trái Đất trong hệ Mặt Trời',questions:buildGeo('g6-geography-06',[
+    ['Trái Đất là hành tinh thứ mấy tính từ Mặt Trời?','Thứ ba','Thứ nhất','Thứ năm','Thứ tám',0,'Thứ tự tính từ Mặt Trời là Thủy tinh, Kim tinh, Trái Đất.'],
+    ['Thiên thể nào nằm ở trung tâm hệ Mặt Trời?','Trái Đất','Mặt Trời','Mặt Trăng','Sao Hỏa',1,'Mặt Trời là ngôi sao ở trung tâm hệ Mặt Trời.'],
+    ['Hệ Mặt Trời có bao nhiêu hành tinh được công nhận hiện nay?','Sáu','Bảy','Tám','Chín',2,'Hệ Mặt Trời có tám hành tinh.'],
+    ['Trái Đất có dạng gần giống hình gì?','Hình lập phương','Hình trụ','Hình đĩa phẳng tuyệt đối','Hình cầu hơi dẹt ở hai cực',3,'Trái Đất gần hình cầu và hơi dẹt ở hai cực.'],
+    ['Mặt Trăng là thiên thể nào của Trái Đất?','Vệ tinh tự nhiên','Một ngôi sao','Một hành tinh độc lập trong hệ Mặt Trời','Một sao chổi',0,'Mặt Trăng là vệ tinh tự nhiên duy nhất của Trái Đất.'],
+    ['Hành tinh nào nằm ngay phía trong quỹ đạo Trái Đất?','Sao Hỏa','Sao Kim','Sao Mộc','Sao Thổ',1,'Sao Kim nằm giữa Sao Thủy và Trái Đất.'],
+    ['Hành tinh nào nằm ngay phía ngoài quỹ đạo Trái Đất?','Sao Thủy','Sao Kim','Sao Hỏa','Sao Mộc',2,'Sao Hỏa nằm ngay ngoài quỹ đạo Trái Đất.'],
+    ['Mặt Trời phát ra dạng năng lượng nào có vai trò quan trọng đối với Trái Đất?','Chỉ âm thanh','Chỉ từ trường','Chỉ bụi vũ trụ','Ánh sáng và nhiệt',3,'Ánh sáng và nhiệt từ Mặt Trời cung cấp năng lượng cho nhiều quá trình trên Trái Đất.'],
+    ['Vì sao Trái Đất có điều kiện thuận lợi cho sự sống như chúng ta biết?','Có khoảng cách phù hợp với Mặt Trời và nhiều điều kiện tự nhiên, trong đó có nước lỏng','Vì Trái Đất là hành tinh lớn nhất','Vì Trái Đất không chuyển động','Vì Trái Đất không có khí quyển',0,'Khoảng cách và các điều kiện như nước lỏng, khí quyển góp phần duy trì sự sống.'],
+    ['Hành tinh nào lớn nhất trong hệ Mặt Trời?','Sao Thổ','Sao Mộc','Trái Đất','Sao Thủy',1,'Sao Mộc là hành tinh lớn nhất trong hệ Mặt Trời.'],
+    ['Mặt Trời thuộc loại thiên thể nào?','Hành tinh','Vệ tinh','Ngôi sao','Tiểu hành tinh',2,'Mặt Trời là một ngôi sao phát sáng.'],
+    ['Các hành tinh trong hệ Mặt Trời chuyển động chủ yếu quanh thiên thể nào?','Mặt Trăng','Sao Bắc Cực','Trái Đất','Mặt Trời',3,'Các hành tinh chuyển động quanh Mặt Trời theo quỹ đạo riêng.'],
+    ['Một học sinh nói Mặt Trời quay quanh Trái Đất vì mỗi ngày thấy Mặt Trời mọc và lặn. Cách giải thích khoa học phù hợp là gì?','Hiện tượng mọc và lặn biểu kiến chủ yếu do Trái Đất tự quay quanh trục','Mặt Trời thực sự quay quanh Trái Đất mỗi ngày','Trái Đất đứng yên tuyệt đối','Mặt Trời tắt rồi bật mỗi tối',0,'Chuyển động tự quay của Trái Đất tạo ra chuyển động biểu kiến hằng ngày của Mặt Trời trên bầu trời.'],
+    ['Nếu quan sát mô hình hệ Mặt Trời, vì sao kích thước và khoảng cách thường không thể hiện đúng cùng một tỉ lệ?','Vì các hành tinh không có kích thước','Vì chênh lệch kích thước và khoảng cách rất lớn, khó biểu diễn đồng thời trong mô hình nhỏ','Vì Mặt Trời không thuộc hệ','Vì quỹ đạo không tồn tại',1,'Mô hình học tập thường phải giản lược để dễ quan sát, nên không giữ đúng mọi tỉ lệ.'],
+    ['Khi xác định vị trí Trái Đất trong hệ Mặt Trời, cách diễn đạt nào chính xác?','Trái Đất là vệ tinh của Sao Hỏa','Trái Đất là ngôi sao gần Mặt Trời nhất','Trái Đất là hành tinh thứ ba tính từ Mặt Trời','Trái Đất nằm ngoài hệ Mặt Trời',2,'Trái Đất là hành tinh thứ ba tính từ Mặt Trời.']
+  ]),status:'draft'},
+
 ];
