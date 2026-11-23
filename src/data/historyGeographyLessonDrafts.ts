@@ -1578,5 +1578,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-geography-02', grade: 8, strand: 'geography',
+    title: 'Địa hình Việt Nam',
+    summary: 'Nhận biết đặc điểm chung của địa hình Việt Nam, các khu vực địa hình chính, hướng địa hình và tác động của địa hình đến tự nhiên, dân cư và hoạt động kinh tế.',
+    learningObjectives: [
+      'Trình bày được các đặc điểm chung của địa hình Việt Nam.',
+      'Phân biệt được các khu vực đồi núi, đồng bằng và địa hình bờ biển, thềm lục địa.',
+      'Giải thích được ảnh hưởng của địa hình đến phân hóa tự nhiên và phát triển kinh tế.'
+    ],
+    sections: [
+      {
+        heading: 'Đặc điểm chung của địa hình',
+        body: 'Địa hình Việt Nam đa dạng và phân bậc rõ rệt; đồi núi chiếm phần lớn diện tích, nhưng chủ yếu là đồi núi thấp. Địa hình có hai hướng chính là tây bắc – đông nam và hướng vòng cung ở vùng Đông Bắc. Địa hình chịu tác động mạnh của khí hậu nhiệt đới ẩm gió mùa và hoạt động của con người, vì vậy quá trình xâm thực ở miền núi và bồi tụ ở đồng bằng diễn ra phổ biến. Địa hình cũng có sự phân hóa theo độ cao và theo khu vực.',
+        keyPoints: ['Đồi núi chiếm phần lớn diện tích, chủ yếu là đồi núi thấp; hai hướng chính là tây bắc – đông nam và vòng cung.'],
+        example: 'Quan sát bản đồ địa hình để nhận biết dãy núi Hoàng Liên Sơn, vùng núi Đông Bắc và các đồng bằng lớn.'
+      },
+      {
+        heading: 'Các khu vực địa hình chính',
+        body: 'Địa hình đồi núi phân bố ở phía bắc, phía tây và một phần phía đông nam, gồm nhiều khu vực có độ cao và hướng núi khác nhau. Đồng bằng chiếm diện tích nhỏ hơn nhưng có vai trò quan trọng đối với cư trú và sản xuất; hai đồng bằng lớn là đồng bằng sông Hồng và đồng bằng sông Cửu Long, ngoài ra còn có các đồng bằng duyên hải miền Trung. Bờ biển có nhiều dạng địa hình như bãi bồi, cồn cát, đầm phá, vũng vịnh; thềm lục địa thay đổi về độ rộng theo từng vùng biển.',
+        keyPoints: ['Các khu vực chính gồm đồi núi, đồng bằng, bờ biển và thềm lục địa; hai đồng bằng lớn nằm ở Bắc Bộ và Nam Bộ.'],
+        example: 'So sánh đồng bằng sông Hồng, đồng bằng sông Cửu Long và đồng bằng duyên hải miền Trung theo nguồn gốc, hình dạng và đặc điểm.'
+      },
+      {
+        heading: 'Ảnh hưởng của địa hình đến tự nhiên và kinh tế',
+        body: 'Địa hình tác động đến khí hậu, sông ngòi, đất và sinh vật, góp phần tạo nên sự phân hóa tự nhiên giữa miền núi, trung du, đồng bằng và ven biển. Miền núi có thế mạnh về lâm nghiệp, thủy điện và một số cây công nghiệp, nhưng giao thông và sản xuất chịu trở ngại bởi độ dốc, sạt lở và chia cắt địa hình. Đồng bằng thuận lợi cho trồng lúa, tập trung dân cư và phát triển đô thị, song có thể chịu ngập lụt, xâm nhập mặn hoặc sụt lún. Khai thác địa hình cần gắn với bảo vệ đất, rừng và phòng chống thiên tai.',
+        keyPoints: ['Địa hình tạo ra thế mạnh và hạn chế khác nhau giữa miền núi, đồng bằng và ven biển.'],
+        example: 'Khi chọn vị trí xây dựng công trình, cần cân nhắc độ dốc, nguy cơ sạt lở, ngập lụt và tác động đến hệ sinh thái.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
