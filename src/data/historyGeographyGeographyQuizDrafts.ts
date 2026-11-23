@@ -26,4 +26,22 @@ export const geographyQuizDrafts:HGGeoQuizSet[]=[
   ["Khi đọc tọa độ một địa điểm trên bản đồ, cần làm gì trước?","Ước lượng theo màu sắc","Xác định lưới kinh vĩ tuyến và quy ước kí hiệu","Đo kích thước trang giấy","Tìm tên người vẽ",1,"Lưới kinh vĩ tuyến và kí hiệu giúp đọc tọa độ chính xác."],
   ["Một địa điểm ở 12°N, 110°Đ và điểm khác ở 12°N, 105°Đ. Nhận xét nào đúng?","Hai điểm khác vĩ độ","Hai điểm cùng kinh độ","Hai điểm cùng vĩ độ, khác kinh độ","Không thể so sánh",2,"Cả hai cùng 12° vĩ Bắc nhưng kinh độ lần lượt là 110°Đ và 105°Đ."]
  ]),status:'draft'},
+
+ {lessonId:"g6-geography-02",grade:6,strand:'geography',title:"Bản đồ. Một số lưới kinh vĩ tuyến. Phương hướng trên bản đồ",questions:buildGeo("g6-geography-02",[
+    ["Bản đồ là gì?","Hình ảnh thu nhỏ, có chọn lọc bề mặt Trái Đất hoặc một khu vực trên mặt phẳng","Ảnh chụp nguyên trạng toàn bộ Trái Đất","Bảng thống kê dân số","Mô hình thời tiết",0,"Bản đồ thể hiện bề mặt Trái Đất hoặc một phần trên mặt phẳng theo quy ước."],
+    ["Lưới kinh, vĩ tuyến trên bản đồ có tác dụng chính nào?","Trang trí khung bản đồ","Hỗ trợ xác định vị trí và phương hướng","Thể hiện giá cả","Thay thế chú giải",1,"Lưới kinh vĩ tuyến là cơ sở định vị và thể hiện vị trí trên bản đồ."],
+    ["Trên bản đồ có mũi tên chỉ chữ B, chữ B thường biểu thị hướng nào?","Nam","Đông","Bắc","Tây",2,"Theo quy ước thông dụng, chữ B là hướng Bắc."],
+    ["Nếu hướng Bắc ở phía trên bản đồ thì hướng Đông nằm ở đâu?","Bên trái","Phía dưới","Phía trên","Bên phải",3,"Khi Bắc ở trên, Đông ở bên phải, Nam ở dưới và Tây ở bên trái."],
+    ["Hướng đối diện với hướng Tây là hướng nào?","Đông","Bắc","Nam","Đông Bắc",0,"Đông và Tây là hai hướng đối diện nhau."],
+    ["Một địa điểm nằm phía nam của điểm A trên bản đồ có hướng Bắc ở phía trên. Địa điểm đó nằm ở đâu so với A?","Bên phải","Phía dưới","Bên trái","Phía trên",1,"Phía nam tương ứng phía dưới khi bản đồ đặt Bắc ở trên."],
+    ["Lưới chiếu bản đồ được sử dụng vì sao?","Trái Đất có dạng phẳng tuyệt đối","Mọi khu vực đều nằm trên một mặt phẳng","Cần chuyển bề mặt cong của Trái Đất lên mặt phẳng","Để loại bỏ mọi biến dạng",2,"Lưới chiếu là cách chuyển bề mặt cong lên mặt phẳng; quá trình này luôn có biến dạng nhất định."],
+    ["Khi thể hiện Trái Đất trên mặt phẳng, điều gì có thể xảy ra?","Không có thay đổi nào","Tất cả khoảng cách đều chính xác tuyệt đối","Chỉ màu sắc thay đổi","Có biến dạng về diện tích, hình dạng, khoảng cách hoặc góc",3,"Các phép chiếu bản đồ không thể bảo toàn đồng thời mọi thuộc tính hình học."],
+    ["Trên bản đồ, các đường kinh tuyến thường nối những điểm nào?","Hai cực Bắc và Nam","Hai điểm bất kì trên Xích đạo","Các đỉnh núi","Các cửa sông",0,"Kinh tuyến là những nửa đường tròn nối hai cực."],
+    ["Các đường vĩ tuyến có đặc điểm chung nào?","Cắt nhau tại hai cực","Song song với Xích đạo","Luôn có độ dài bằng nhau","Chỉ có ở bán cầu Bắc",1,"Vĩ tuyến là các vòng tròn song song với Xích đạo."],
+    ["Nếu bản đồ không có mũi tên chỉ Bắc, có thể dựa vào yếu tố nào để xác định phương hướng?","Màu sắc trang giấy","Tên tác giả","Lưới kinh, vĩ tuyến và quy ước bản đồ","Kích thước chữ",2,"Lưới kinh vĩ tuyến hỗ trợ nhận biết hướng và vị trí."],
+    ["Đường kinh tuyến gốc và Xích đạo có vai trò gì trong định vị?","Xác định độ cao địa hình","Đo lượng mưa","Chỉ ranh giới quốc gia","Làm đường chuẩn để xác định kinh độ và vĩ độ",3,"Kinh tuyến gốc là mốc tính kinh độ, Xích đạo là mốc tính vĩ độ."],
+    ["Một điểm nằm về phía đông của điểm A trên bản đồ có Bắc ở phía trên. Điểm đó ở phía nào so với A?","Bên phải","Bên trái","Phía dưới","Phía trên",0,"Khi Bắc ở trên, hướng Đông nằm bên phải bản đồ."],
+    ["Vì sao cần đọc lưới kinh vĩ tuyến cùng với chú giải và tên bản đồ?","Chỉ để xác định màu nền","Để xác định vị trí và hiểu đúng nội dung, kí hiệu được thể hiện","Để biết người xem là ai","Để thay thế tỉ lệ bản đồ",1,"Các yếu tố bản đồ bổ trợ nhau: định vị, giải mã kí hiệu và xác định phạm vi/nội dung."],
+    ["Một bản đồ có lưới kinh vĩ tuyến nhưng người đọc xoay bản đồ tùy ý mà không kiểm tra mũi tên Bắc. Rủi ro lớn nhất là gì?","Không đọc được tên địa danh","Không tính được dân số","Xác định sai phương hướng tương đối giữa các địa điểm","Làm thay đổi tọa độ địa lí",2,"Cần xác định hướng Bắc theo quy ước hoặc mũi tên chỉ hướng trước khi suy ra các hướng khác."],
+ ]),status:'draft'},
 ];
