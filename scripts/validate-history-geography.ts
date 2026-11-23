@@ -9,6 +9,20 @@ import { SUBJECTS_CATALOG } from '../src/data/subjectsCatalog';
 const quizSets = [...historyGeographyQuizDrafts, ...geographyQuizDrafts];
 const lessonById = new Map(historyGeographyLessonDrafts.map((lesson) => [lesson.id, lesson]));
 const lessonIds = new Set(lessonById.keys());
+for (const lesson of historyGeographyLessonDrafts) {
+  if (!lesson.sections) continue;
+  assert.ok(lesson.sections.length >= 3, `${lesson.id}: expected at least three structured learning sections`);
+  for (const section of lesson.sections) {
+    assert.ok(section.heading.trim(), `${lesson.id}: empty learning section heading`);
+    assert.ok(section.body.trim().length >= 80, `${lesson.id}: learning section body is too short`);
+  }
+}
+for (const id of [
+  'g6-history-17','g6-history-18','g6-history-19','g6-history-20',
+  'g6-geography-17','g6-geography-18','g6-geography-19','g6-geography-20',
+]) {
+  assert.ok(lessonById.get(id)?.sections?.length >= 3, `${id}: structured learning material is required`);
+}
 assert.equal(lessonIds.size, historyGeographyLessonDrafts.length, 'Duplicate lesson draft ID');
 const quizLessonIds = new Set<string>();
 const questionIds = new Set<string>();
