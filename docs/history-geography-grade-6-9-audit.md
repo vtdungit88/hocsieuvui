@@ -335,7 +335,7 @@ Sau đợt này, độ phủ đạt **32/166 bài** (19,28%): 16 bài Lịch s�
 
 ## 18. Hoàn thiện Lịch sử lớp 6 và mở rộng Địa lí lớp 6 (23/11/2026)
 
-Đã bổ sung 8 bài tiếp theo theo đúng ID và tiêu đề manifest Kết nối tri thức:
+Đã bổ sung 8 bài tiếp theo theo đúng ID và tiêu đề manifest Kết nối tri thức. Mỗi bài có tóm tắt, 3 mục tiêu và 3 phần học liệu có cấu trúc (nội dung, ý chính, ví dụ); validator kiểm tra đủ 3 phần và độ dài tối thiểu:
 
 | Phân môn | Bài | Nội dung |
 |---|---:|---|
@@ -353,3 +353,28 @@ Mỗi bài có tóm tắt học liệu tự biên soạn, 3 mục tiêu và mộ
 Sau đợt này, lớp 6 có **40/50 bài** gắn đúng manifest: Lịch sử **20/20**, Địa lí **20/30**. Toàn bộ manifest lớp 6–9 có **40/166 bài** đã có học liệu và quiz riêng; tương ứng 600 câu hỏi gắn đúng bài. Ngoài ra vẫn còn 8 bộ mẫu cũ (120 câu) để kiểm tra cấu trúc, không tính vào độ phủ SGK. Validator dự kiến kiểm tra 48 bộ / 720 câu tổng cộng.
 
 **Trạng thái phát hành:** mọi nội dung mới vẫn là draft. Chưa nhập Supabase, chưa publish, chưa mở khóa lớp 6–9, chưa merge. Cần tiếp tục rà soát chuyên môn độc lập từng câu/đáp án/giải thích; kiểm tra cấu trúc tự động không chứng minh tính đúng đắn học thuật.
+
+
+## 19. Cấu trúc học liệu và rà soát đường nhập dữ liệu (23/11/2026)
+
+Tám bài lớp 6 mới nhất (Lịch sử 17–20, Địa lí 17–20) đã được bổ sung 3 phần học liệu có cấu trúc cho mỗi bài: nội dung giải thích, ý chính và ví dụ vận dụng. Validator có kiểm tra số phần, tiêu đề và độ dài phần nội dung. Các bài lớp 6 đã có trước đó hiện vẫn ở mức tóm tắt và mục tiêu; chưa được xem là học liệu chi tiết hoàn chỉnh.
+
+Đã đối chiếu kiến trúc runtime và schema production:
+- `CoursePicker` quyết định khả năng mở lớp theo `availableGrades`; lớp 6–9 vẫn bị khóa, trong khi lớp 4–5 tiếp tục hoạt động.
+- Game/quiz dùng luồng dữ liệu đã publish từ Supabase và RPC server-side `start_quiz`, `answer_question`, `submit_quiz`. Khóa đáp án vẫn lưu ở `private.question_answer_keys`, không đưa vào bundle trình duyệt.
+- DB môn `lsdl` hiện chỉ có lớp 4–5 (mỗi lớp 18 bài, 270 câu); không có chương/bài/câu hỏi lớp 6–9.
+- Hàm cũ `private.import_question_batch(jsonb)` tự đặt bài và câu hỏi thành `published`, nên không phù hợp cho nội dung đang chờ duyệt. Hàm `admin_publish_content_batch` yêu cầu mọi câu hỏi trong batch được duyệt độc lập trước khi publish. Chưa thực hiện nhập dữ liệu.
+- Supabase chưa có development branch. Tạo branch riêng được báo giá **US$0.01344/giờ**; không tự tạo khi chưa có chấp thuận chi phí. Không dùng production thay cho staging.
+
+### Cảnh báo bảo mật production cần xử lý riêng
+
+Supabase Security Advisor hiện báo mức **critical**: RLS đang tắt trên `private.feedback_throttle` và `private.content_review_events`. Không tự chạy SQL vì bật RLS mà chưa có policy có thể chặn các luồng hợp lệ. SQL được Advisor đề xuất để chủ dự án xem xét:
+
+```sql
+ALTER TABLE "private"."feedback_throttle" ENABLE ROW LEVEL SECURITY;
+ALTER TABLE "private"."content_review_events" ENABLE ROW LEVEL SECURITY;
+```
+
+Cần rà soát vai trò truy cập và thiết kế policy phù hợp trước khi áp dụng. Advisor cũng còn cảnh báo Auth leaked-password protection đang tắt và hai hàm `xp_for_level`, `xp_to_level` có `search_path` chưa cố định. Không thay đổi các cấu hình này trong đợt nội dung để tránh ảnh hưởng ngoài phạm vi.
+
+**Kết luận:** nội dung vẫn là draft; chưa import, chưa publish, chưa mở lớp 6–9, chưa merge. Còn 126 mục manifest chưa có bộ học liệu/quiz riêng; các bài đã có cần tiếp tục thẩm định chuyên môn độc lập.
