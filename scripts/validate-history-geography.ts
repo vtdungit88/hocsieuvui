@@ -56,7 +56,7 @@ for (const grade of [6, 7, 8, 9] as const) {
 for (const lesson of historyGeographyLessonDrafts) {
   const manifestLesson = syllabusById.get(lesson.id);
   if (manifestLesson) {
-    assert.equal(lesson.grade, Number(lesson.id.match(/^g(\\d+)-/)?.[1]), `${lesson.id}: grade encoded in ID mismatch`);
+    assert.equal(lesson.grade, Number(lesson.id.match(/^g(\d+)-/)?.[1]), `${lesson.id}: grade encoded in ID mismatch`);
     assert.equal(lesson.strand, manifestLesson.strand, `${lesson.id}: lesson strand mismatch`);
     assert.equal(lesson.title.trim(), manifestLesson.title.trim(), `${lesson.id}: lesson title mismatch`);
   }
@@ -90,7 +90,7 @@ for (const set of quizSets) {
   }
   assert.deepEqual(levels, expectedLevels, `${set.lessonId} has an incorrect difficulty distribution`);
 }
-assert.equal(quizSets.length, 8, 'Expected 8 currently authored draft quiz sets (not a claim of syllabus completeness)');
+assert.equal(quizSets.length, 10, 'Expected 10 currently authored draft quiz sets (not a claim of syllabus completeness)');
 assert.equal(quizLessonIds.size, lessonIds.size, 'Every current lesson draft must have exactly one quiz set');
 
 const manifestLessonIds = new Set(syllabusLessons.map((lesson) => lesson.id));
