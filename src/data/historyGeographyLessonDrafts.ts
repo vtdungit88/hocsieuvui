@@ -1386,5 +1386,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-history-15', grade: 8, strand: 'history',
+    title: 'Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX',
+    summary: 'Tìm hiểu quá trình thực dân hóa ở Ấn Độ và các nước Đông Nam Á, những chính sách cai trị thuộc địa và sự phát triển của phong trào đấu tranh giành độc lập cuối thế kỉ XIX – đầu thế kỉ XX.',
+    learningObjectives: [
+      'Nêu được một số nét chính về quá trình Anh thống trị Ấn Độ và chính sách cai trị thuộc địa.',
+      'Nhận biết được tình hình thuộc địa ở một số quốc gia Đông Nam Á và trường hợp Xiêm duy trì độc lập tương đối.',
+      'Trình bày được một số phong trào đấu tranh chống thực dân tiêu biểu trong khu vực.'
+    ],
+    sections: [
+      {
+        heading: 'Ấn Độ dưới ách thống trị của thực dân Anh',
+        body: 'Trong thế kỉ XIX, Anh từng bước mở rộng quyền kiểm soát ở Ấn Độ, sử dụng bộ máy cai trị và quân đội để duy trì sự thống trị. Chính sách khai thác kinh tế, thuế khóa và việc làm suy yếu một số ngành sản xuất truyền thống gây nhiều khó khăn cho cư dân. Cuộc khởi nghĩa của binh lính Xi-pay năm 1857 là một phong trào phản kháng lớn, dù cuối cùng bị đàn áp. Năm 1885, Đảng Quốc đại Ấn Độ ra đời, đánh dấu bước phát triển mới của phong trào chính trị đòi quyền lợi và cải cách.',
+        keyPoints: ['Anh thống trị Ấn Độ; khởi nghĩa Xi-pay năm 1857 và sự ra đời Đảng Quốc đại năm 1885 là các mốc tiêu biểu.'],
+        example: 'Khi tìm hiểu chính sách thuộc địa, cần xem xét tác động đến thuế, sản xuất, quyền chính trị và đời sống xã hội.'
+      },
+      {
+        heading: 'Đông Nam Á trở thành thuộc địa của các đế quốc',
+        body: 'Từ nửa sau thế kỉ XIX, phần lớn các quốc gia Đông Nam Á lần lượt bị các nước phương Tây xâm chiếm hoặc đặt dưới quyền kiểm soát thuộc địa. Anh mở rộng thống trị ở Miến Điện và bán đảo Mã Lai; Pháp thiết lập ách cai trị ở Việt Nam, Lào và Cam-pu-chia; Hà Lan củng cố quyền kiểm soát ở Indonesia; Tây Ban Nha rồi Mỹ kiểm soát Philippines trong những giai đoạn khác nhau. Chính sách cai trị và khai thác thuộc địa làm biến đổi kinh tế, xã hội, đồng thời gây ra nhiều phong trào phản kháng.',
+        keyPoints: ['Các đế quốc châu Âu và Mỹ kiểm soát những vùng khác nhau ở Đông Nam Á; không phải mọi nước đều bị cai trị bởi cùng một đế quốc.'],
+        example: 'Lập bản đồ theo từng nước giúp phân biệt quốc gia nào chịu sự thống trị của Anh, Pháp, Hà Lan, Tây Ban Nha hoặc Mỹ.'
+      },
+      {
+        heading: 'Phong trào đấu tranh và trường hợp Xiêm',
+        body: 'Nhân dân Ấn Độ và Đông Nam Á tiến hành nhiều hình thức đấu tranh, từ khởi nghĩa vũ trang đến vận động cải cách và thành lập tổ chức chính trị. Các phong trào có thành phần, mục tiêu và kết quả khác nhau, nhưng đều phản ánh nguyện vọng chống áp bức và bảo vệ quyền tự chủ. Xiêm (Thái Lan ngày nay) là trường hợp đặc biệt: nhờ cải cách của các vua Rama IV và Rama V, cùng hoạt động ngoại giao và vị trí giữa vùng ảnh hưởng Anh – Pháp, Xiêm duy trì được nền độc lập về hình thức, dù phải nhượng bộ một số quyền lợi và lãnh thổ. Cần tránh hiểu rằng Xiêm hoàn toàn không chịu sức ép từ các nước đế quốc.',
+        keyPoints: ['Xiêm duy trì độc lập tương đối nhờ cải cách và ngoại giao, nhưng vẫn chịu sức ép và phải nhượng bộ.'],
+        example: 'So sánh Xiêm với các nước thuộc địa theo mức độ kiểm soát, cải cách trong nước và hoạt động ngoại giao.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
