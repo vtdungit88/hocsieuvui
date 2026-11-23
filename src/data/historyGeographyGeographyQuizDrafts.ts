@@ -515,7 +515,7 @@ export const geographyQuizDrafts:HGGeoQuizSet[]=[
   ["Một dự án thủy điện ở miền núi cần đánh giá yếu tố nào ngoài sản lượng điện?","Dòng chảy hạ du, rừng, dân cư và hệ sinh thái","Chỉ màu sắc công trình","Chỉ số lượng khách tham quan","Chỉ khoảng cách đến thành phố",0,"Dự án cần đánh giá tác động đến môi trường và cộng đồng hạ du."],
   ["Nếu dự báo mùa mưa đến muộn, người sản xuất nên làm gì?","Giữ nguyên kế hoạch không cần xem xét","Điều chỉnh mùa vụ và phương án tưới theo dự báo, điều kiện địa phương","Tăng gieo trồng cây cần nhiều nước","Không theo dõi nguồn nước",1,"Thông tin dự báo giúp điều chỉnh lịch sản xuất và sử dụng nước."],
   ["Một địa phương muốn phát triển du lịch dựa vào khí hậu nhưng thường có bão. Quy hoạch phù hợp là gì?","Chỉ tăng số khách trong mùa bão","Không cần cảnh báo thời tiết","Chọn mùa phù hợp, có phương án an toàn và bảo vệ hệ sinh thái","Xây dựng sát vùng nguy hiểm",2,"Phát triển du lịch cần gắn với an toàn và quản lí rủi ro thiên tai."]
- ]),status:'draft'},,
+ ]),status:'draft'},
 
  {lessonId:'g8-geography-08',grade:8,strand:'geography',title:'Tác động của biến đổi khí hậu đối với khí hậu và thủy văn Việt Nam',questions:buildGeo('g8-geography-08',[
   ["Biến đổi khí hậu cần được nhận diện chủ yếu dựa trên điều gì?","Xu thế dài hạn của các yếu tố khí hậu","Một ngày nắng nóng","Một trận mưa đơn lẻ","Một bản tin không có số liệu",0,"Biến đổi khí hậu được nhận diện qua xu thế dài hạn dựa trên số liệu đáng tin cậy."],
