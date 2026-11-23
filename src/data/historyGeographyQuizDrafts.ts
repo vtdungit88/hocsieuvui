@@ -749,7 +749,7 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
     ["Các hiệp ước từ 1862 đến 1884 có điểm chung nào?","Từng bước làm suy giảm chủ quyền và mở rộng quyền kiểm soát của Pháp","Giúp Việt Nam giành lại toàn bộ lãnh thổ","Chấm dứt mọi sự can thiệp của Pháp","Làm triều Nguyễn tăng quyền tự chủ",0,"Các hiệp ước lần lượt mở rộng quyền lợi và phạm vi kiểm soát của Pháp."],
     ["Vì sao cần phân biệt phong trào kháng chiến của nhân dân với chính sách của triều đình?","Vì hai bên luôn có cùng mục tiêu và cách làm","Vì nhân dân nhiều nơi tiếp tục chống Pháp trong khi triều đình có những lựa chọn và nhượng bộ khác nhau","Vì không có cuộc kháng chiến nào","Vì triều đình không tham gia bất cứ sự kiện nào",1,"Cần xem xét riêng tinh thần kháng chiến của nhân dân và đường lối của triều đình."],
     ["Nhận định nào khái quát đúng giai đoạn 1858–1884?","Pháp chiếm toàn bộ Việt Nam ngay năm 1858","Không có sự chống trả của nhân dân","Pháp từng bước mở rộng xâm lược, nhân dân kháng chiến ở nhiều nơi và triều đình kí các hiệp ước làm mất dần chủ quyền","Việt Nam giữ nguyên chủ quyền đến cuối thế kỉ XIX",2,"Quá trình xâm lược diễn ra từng bước, song song với kháng chiến và các hiệp ước bất lợi."]
-  ]),status:'draft'},,
+  ]),status:'draft'},
 
   {lessonId:'g8-history-18',grade:8,strand:'history',title:'Phong trào kháng chiến chống Pháp trong những năm 1885 - 1896',questions:buildQuestions('g8-history-18',[
     ["Chiếu Cần Vương được ban bố vào năm nào?","1885","1883","1884","1896",0,"Chiếu Cần Vương được ban bố tháng 7/1885."],
