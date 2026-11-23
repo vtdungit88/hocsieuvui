@@ -1898,5 +1898,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-geography-12', grade: 8, strand: 'geography',
+    title: 'Môi trường và tài nguyên biển đảo Việt Nam',
+    summary: 'Tìm hiểu các dạng tài nguyên biển đảo, vai trò đối với kinh tế và đời sống; nhận biết vấn đề môi trường biển và đề xuất giải pháp khai thác bền vững, bảo vệ hệ sinh thái và chủ quyền.',
+    learningObjectives: [
+      'Nêu được một số tài nguyên và tiềm năng kinh tế của vùng biển, đảo Việt Nam.',
+      'Phân tích được các vấn đề môi trường biển và nguyên nhân suy thoái tài nguyên.',
+      'Đề xuất được biện pháp bảo vệ môi trường, sử dụng bền vững tài nguyên biển đảo.'
+    ],
+    sections: [
+      {
+        heading: 'Tài nguyên và tiềm năng kinh tế biển đảo',
+        body: 'Vùng biển Việt Nam có nguồn lợi hải sản, dầu khí, tiềm năng năng lượng gió và mặt trời, cảnh quan du lịch, cảng biển và các tuyến giao thông hàng hải. Các hệ sinh thái rừng ngập mặn, rạn san hô, thảm cỏ biển và vùng cửa sông cung cấp nơi cư trú, sinh sản cho nhiều loài, đồng thời góp phần bảo vệ bờ biển. Các ngành kinh tế biển có mối liên hệ với nhau và phụ thuộc vào chất lượng môi trường, hạ tầng, nguồn nhân lực và điều kiện tự nhiên. Khai thác cần căn cứ khả năng phục hồi của hệ sinh thái và quy định pháp luật.',
+        keyPoints: ['Tài nguyên biển gồm sinh vật, khoáng sản, năng lượng, cảnh quan và vị trí giao thông; các hệ sinh thái là nền tảng sinh thái quan trọng.'],
+        example: 'Một cảng biển có thể thúc đẩy logistics và thương mại nhưng cần quy hoạch để hạn chế tác động đến vùng sinh thái nhạy cảm.'
+      },
+      {
+        heading: 'Vấn đề môi trường biển và suy giảm tài nguyên',
+        body: 'Môi trường biển chịu sức ép từ rác thải nhựa, nước thải sinh hoạt và công nghiệp, sự cố tràn dầu, hoạt động du lịch thiếu kiểm soát và khai thác thủy sản quá mức. Phá rừng ngập mặn, hủy hoại rạn san hô, đánh bắt bằng phương thức gây hại và biến đổi khí hậu làm suy giảm sinh cảnh, đa dạng sinh học và khả năng bảo vệ bờ. Ô nhiễm từ đất liền có thể theo sông đổ ra biển, vì vậy quản lí môi trường biển cần tiếp cận từ lưu vực đến vùng ven bờ và ngoài khơi.',
+        keyPoints: ['Ô nhiễm, rác thải nhựa, khai thác quá mức và mất sinh cảnh là những sức ép chính lên môi trường biển.'],
+        example: 'Một bãi biển có nhiều rác nhựa cần kết hợp giảm đồ nhựa dùng một lần, thu gom đúng cách và kiểm soát nguồn thải từ đất liền.'
+      },
+      {
+        heading: 'Khai thác bền vững và bảo vệ biển đảo',
+        body: 'Bảo vệ tài nguyên biển đảo cần gắn với quy hoạch không gian biển, quản lí nghề cá dựa trên dữ liệu, ngăn chặn khai thác bất hợp pháp, xử lí nước thải và rác thải, phục hồi rừng ngập mặn, rạn san hô và thảm cỏ biển. Du lịch cần kiểm soát sức tải và hạn chế tác động lên sinh cảnh. Cộng đồng ven biển, doanh nghiệp và cơ quan quản lí cần phối hợp giám sát môi trường, chuẩn bị ứng phó sự cố và thiên tai. Phát triển kinh tế biển phải tuân thủ pháp luật, bảo đảm an toàn, bảo vệ chủ quyền và duy trì nguồn lợi cho thế hệ sau.',
+        keyPoints: ['Khai thác bền vững đòi hỏi quy hoạch, kiểm soát ô nhiễm, bảo vệ sinh cảnh và sự tham gia của cộng đồng.'],
+        example: 'Một địa phương có thể tổ chức khu bảo vệ rạn san hô, giới hạn hoạt động neo đậu và hướng dẫn du khách không lấy sinh vật biển.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
