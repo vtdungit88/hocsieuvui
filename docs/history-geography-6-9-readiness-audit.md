@@ -68,3 +68,14 @@ Eight manifest-aligned Grade 7 History lessons and eight 15-question packs have 
 ### Follow-up — Grade 7 History complete as draft (23/11/2026)
 
 The remaining ten Grade 7 History lessons and their 150 questions have been added. Grade 7 History now has 18/18 manifest-aligned draft lessons. Total coverage is 68/166 (1,020 aligned questions) plus eight legacy structural packs (120 questions), for 1,140 draft questions. The 98 remaining units are Grade 7 Geography (19) and integrated topics (2), Grade 8 (33), and Grade 9 (44). This is not independent subject-matter approval and no production import, unlock, or deployment has occurred.
+
+
+## Progress update — 2026-11-23
+
+- Canonical manifest: **166 units** (78 History, 82 Geography, 6 integrated/common topics).
+- Draft coverage now **90/166**: Grade 6 50/50; Grade 7 History 18/18; Grade 7 Geography 19/19; Grade 7 integrated/common 2/2; Grade 8 History 1/19; all other Grade 8 units and all Grade 9 units remain outstanding.
+- Matching manifest-aligned assessment packs: 90. Including 8 legacy sample packs: **98 draft packs / 1,470 questions**. Each pack is shaped as 11 basic, 3 application and 1 challenge items.
+- Added separate `integrated` strand typing and two Grade 7 common-topic lesson/quiz records. Added the first Grade 8 History lesson and assessment pack.
+- Latest source head at time of update: `93ec4b90acd20827e5f5a8a0ca2b162885ff723d`. CI run 45156148026 was still running when checked; do not treat this head as green until its completed result is confirmed.
+- Earlier QA findings above remain open unless separately evidenced as resolved. The structural validator does not certify factual accuracy, curriculum fidelity, source quality, or answer/explanation correctness. Teacher/subject-expert review is still required.
+- No merge, deployment, production import, or grade unlock has been performed. Grades 6–9 remain locked; production data and runtime were not changed.
