@@ -407,7 +407,7 @@ export const geographyQuizDrafts:HGGeoQuizSet[]=[
   ["Khi xác định vị trí Việt Nam trên bản đồ khu vực, nên chú ý điều gì?","Mối quan hệ với bán đảo Đông Dương, Biển Đông và các nước láng giềng","Chỉ tên thủ đô","Chỉ màu nền bản đồ","Chỉ đường xích đạo",0,"Các yếu tố không gian này giúp định vị Việt Nam chính xác."],
   ["Vì sao vị trí địa lí có ý nghĩa quan trọng với kinh tế biển?","Vì Việt Nam không có bờ biển","Vì nước ta giáp Biển Đông và có vùng biển, đảo rộng","Vì mọi hoạt động kinh tế đều ở trên núi","Vì không có tuyến giao thông biển",1,"Vị trí giáp Biển Đông tạo điều kiện cho giao thông, khai thác và dịch vụ biển."],
   ["Một địa phương ven biển vừa có lợi thế cảng biển vừa thường chịu bão. Cách đánh giá phù hợp nhất là gì?","Chỉ tính lợi ích vận tải","Bỏ qua mọi rủi ro","Kết hợp khai thác lợi thế giao thông với quy hoạch an toàn và phòng chống thiên tai","Cấm mọi hoạt động kinh tế",2,"Quy hoạch cần cân bằng lợi thế phát triển với rủi ro thiên tai và an toàn cộng đồng."]
- ]),status:'draft'},,
+ ]),status:'draft'},
 
  {lessonId:'g8-geography-02',grade:8,strand:'geography',title:'Địa hình Việt Nam',questions:buildGeo('g8-geography-02',[
   ["Dạng địa hình nào chiếm phần lớn diện tích lãnh thổ Việt Nam?","Đồi núi","Đồng bằng","Hoang mạc","Băng hà",0,"Đồi núi chiếm phần lớn diện tích lãnh thổ Việt Nam."],
