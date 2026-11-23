@@ -232,3 +232,14 @@ Mỗi bộ gồm 15 câu hỏi mới, đủ phân bố 11 cơ bản + 3 vận d�
 Mỗi bài có học liệu tóm tắt, 3 mục tiêu và 15 câu hỏi có 4 phương án, đáp án, giải thích; phân bố 11 cơ bản, 3 vận dụng, 1 thử thách. Độ phủ theo ID manifest tăng lên **8/166 bài**, với **120 câu hỏi** thuộc 8 bộ quiz bài học. Tổng quiz draft là **16 bộ / 240 câu**; các bộ mẫu cũ vẫn được tách riêng, không tính vào độ phủ SGK.
 
 Đã sửa một ký tự ngoại ngữ lẫn vào nội dung câu hỏi trước khi kiểm định. Tất cả dữ liệu tiếp tục ở trạng thái draft; chưa import Supabase, chưa mở khóa lớp và chưa merge production.
+
+
+## 12. Mở rộng nội dung lớp 6 — bài 5 (23/11/2026)
+
+Đã thêm:
+- `g6-history-05`: **Xã hội nguyên thủy** — cách kiếm sống, công cụ đá ghè đẽo/đá mài, đồ gốm, trồng trọt, chăn nuôi, định cư và thay đổi tổ chức xã hội.
+- `g6-geography-05`: **Lược đồ trí nhớ** — phạm vi, điểm mốc, phương hướng, vị trí tương đối và cách mô tả tuyến đường trong không gian quen thuộc.
+
+Mỗi bài có học liệu tóm tắt, 3 mục tiêu và 15 câu hỏi theo cấu trúc 11 cơ bản + 3 vận dụng + 1 thử thách. Độ phủ lớp 6 hiện đạt **10/166 bài** (150 câu hỏi thuộc các bộ bài học); tổng quiz draft đạt **18 bộ / 270 câu**, bao gồm các bộ mẫu cũ không tính vào độ phủ chương trình.
+
+Nội dung tiếp tục ở trạng thái draft, chưa import vào Supabase và chưa mở khóa học sinh. Các câu hỏi tình huống cần được rà soát chuyên môn trước khi phê duyệt.
