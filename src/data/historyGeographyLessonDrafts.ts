@@ -226,4 +226,20 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
     questions: [], status: 'draft',
   },
 
+
+  {
+    id: 'g6-history-06', grade: 6, strand: 'history',
+    title: 'Sự chuyển biến và phân hóa của xã hội nguyên thủy',
+    summary: 'Khi công cụ kim loại được sử dụng rộng rãi, năng suất lao động tăng, sản phẩm dư thừa xuất hiện thường xuyên hơn. Một số người có điều kiện tích lũy của cải, làm nảy sinh sự phân hóa giàu nghèo và thay đổi quan hệ cộng đồng. Quá trình này góp phần dẫn đến sự tan rã của xã hội nguyên thủy và hình thành xã hội có giai cấp, nhà nước ở một số khu vực.',
+    learningObjectives: ['Nêu được tác động của công cụ kim loại và năng suất lao động đối với đời sống.', 'Giải thích được nguyên nhân xuất hiện sản phẩm dư thừa và sự phân hóa xã hội.', 'Nhận biết mối liên hệ giữa biến đổi kinh tế với sự tan rã của xã hội nguyên thủy.'],
+    questions: [], status: 'draft',
+  },
+  {
+    id: 'g6-geography-06', grade: 6, strand: 'geography',
+    title: 'Trái Đất trong hệ Mặt Trời',
+    summary: 'Hệ Mặt Trời gồm Mặt Trời ở trung tâm và các thiên thể chuyển động quanh nó, trong đó có tám hành tinh. Trái Đất là hành tinh thứ ba tính từ Mặt Trời, có khoảng cách và điều kiện tự nhiên thuận lợi cho sự tồn tại của nước ở thể lỏng và sự sống. Trái Đất có dạng gần hình cầu và là nơi con người sinh sống.',
+    learningObjectives: ['Xác định được vị trí của Trái Đất trong hệ Mặt Trời.', 'Nêu được một số đặc điểm cơ bản của Trái Đất và hệ Mặt Trời.', 'Giải thích được ý nghĩa khái quát của vị trí Trái Đất đối với sự tồn tại sự sống.'],
+    questions: [], status: 'draft',
+  },
+
 ];
