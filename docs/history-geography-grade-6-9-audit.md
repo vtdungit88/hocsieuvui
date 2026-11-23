@@ -202,3 +202,11 @@ Học liệu và ngân hàng câu hỏi mới:
 - Hiện có 10 bộ quiz × 15 = 150 câu trong các file draft; tuy nhiên chỉ 2 bộ mới được gắn ID bài chính xác trong manifest. 8 bộ cũ vẫn là bộ mẫu/chủ đề tổng hợp và không được tính là phủ bài SGK.
 
 **Cổng phát hành vẫn đóng:** manifest đã có 166 mục, nhưng phần lớn bài chưa có học liệu và bộ câu hỏi riêng. Chưa import Supabase, chưa bật lớp 6–9, chưa merge PR. CI đang kiểm tra các thay đổi mới; chỉ cập nhật trạng thái pass sau khi workflow hoàn tất.
+
+## 9. Mở rộng nội dung lớp 6 — đợt tiếp theo (23/11/2026)
+
+Đã bổ sung hai bài bám đúng manifest:
+- `g6-history-02`: **Dựa vào đâu để biết và phục dựng lại lịch sử?** — học liệu tóm tắt, 3 mục tiêu học tập, bộ 15 câu hỏi (11 cơ bản, 3 vận dụng, 1 thử thách).
+- `g6-geography-02`: **Bản đồ. Một số lưới kinh vĩ tuyến. Phương hướng trên bản đồ** — học liệu tóm tắt, 3 mục tiêu học tập, bộ 15 câu hỏi (11 cơ bản, 3 vận dụng, 1 thử thách).
+
+Độ phủ bài gắn manifest hiện là **4/166 bài**, gồm 60 câu hỏi thuộc 4 bộ quiz chính xác theo bài. Tổng dữ liệu quiz draft là 12 bộ / 180 câu; 8 bộ chủ đề mẫu cũ không được tính là độ phủ bài theo SGK. Tất cả vẫn ở trạng thái draft; chưa import Supabase hoặc mở khóa lớp. Nội dung cần tiếp tục được rà soát chuyên môn trước phát hành.
