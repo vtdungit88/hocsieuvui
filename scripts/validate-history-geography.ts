@@ -129,15 +129,15 @@ for (const set of quizSets) {
   }
   assert.deepEqual(levels, expectedLevels, `${set.lessonId} has an incorrect difficulty distribution`);
 }
-assert.equal(quizSets.length, 89, 'Expected 89 current/legacy draft quiz sets (not a claim of syllabus completeness)');
-assert.equal(questionIds.size, 1335, 'Expected 1335 questions across 89 draft quiz sets');
+assert.equal(quizSets.length, 95, 'Expected 95 current/legacy draft quiz sets (not a claim of syllabus completeness)');
+assert.equal(questionIds.size, 1425, 'Expected 1425 questions across 95 draft quiz sets');
 assert.equal(quizLessonIds.size, lessonIds.size, 'Every current lesson draft must have exactly one quiz set');
 
 const manifestLessonIds = new Set(syllabusLessons.map((lesson) => lesson.id));
 const authoredManifestLessons = historyGeographyLessonDrafts.filter((lesson) => manifestLessonIds.has(lesson.id));
 const authoredManifestQuizIds = new Set(quizSets.map((set) => set.lessonId).filter((id) => manifestLessonIds.has(id)));
-assert.equal(authoredManifestLessons.length, 81, 'Expected 81 manifest-aligned lesson drafts in the current tranche');
-assert.equal(authoredManifestQuizIds.size, 81, 'Expected 81 manifest-aligned quiz packs in the current tranche');
+assert.equal(authoredManifestLessons.length, 87, 'Expected 87 manifest-aligned lesson drafts in the current tranche');
+assert.equal(authoredManifestQuizIds.size, 87, 'Expected 87 manifest-aligned quiz packs in the current tranche');
 assert.equal(authoredManifestLessons.filter((lesson) => lesson.grade === 6).length, 50, 'Grade 6 must have 50 manifest-aligned lesson drafts');
 assert.equal(authoredManifestLessons.filter((lesson) => lesson.grade === 7 && lesson.strand === 'history').length, 18, 'Grade 7 History must have 18 manifest-aligned lesson drafts');
 const missingLessons = syllabusLessons.filter((lesson) => !authoredManifestLessons.some((draft) => draft.id === lesson.id));
