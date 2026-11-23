@@ -695,7 +695,7 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
     ["Một hệ quả của các hiệp ước bất bình đẳng đối với Trung Quốc là gì?","Chủ quyền bị hạn chế và đặc quyền nước ngoài mở rộng","Trung Quốc kiểm soát toàn bộ ngoại thương","Chấm dứt mọi sự can thiệp bên ngoài","Tất cả vùng lãnh thổ được thống nhất ngay",0,"Các hiệp ước bất bình đẳng làm suy giảm quyền tự chủ của Trung Quốc."],
     ["Nhật Bản sau hiện đại hóa cũng có xu hướng nào gây bất ổn khu vực?","Từ bỏ hoàn toàn quân đội","Bành trướng và gây chiến tranh với các nước láng giềng","Đóng cửa vĩnh viễn với thế giới","Ngừng công nghiệp hóa",1,"Nhật Bản tăng cường bành trướng và gây chiến tranh ở khu vực."],
     ["Nhận định nào phù hợp nhất khi đánh giá Duy tân Minh Trị?","Chỉ thay đổi trang phục","Không tác động đến kinh tế","Thúc đẩy hiện đại hóa nhưng cũng gắn với quá trình bành trướng về sau","Làm Nhật Bản mất độc lập ngay lập tức",2,"Cần nhìn cả thành tựu hiện đại hóa và hệ quả của chủ nghĩa bành trướng."]
-  ]),status:'draft'},,
+  ]),status:'draft'},
 
   {lessonId:'g8-history-15',grade:8,strand:'history',title:'Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX',questions:buildQuestions('g8-history-15',[
     ["Thực dân nào từng bước mở rộng quyền thống trị ở Ấn Độ trong thế kỉ XIX?","Anh","Pháp","Hà Lan","Bồ Đào Nha",0,"Anh từng bước mở rộng và củng cố quyền kiểm soát ở Ấn Độ."],
