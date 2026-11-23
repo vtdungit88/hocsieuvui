@@ -1,0 +1,3378 @@
+[
+  {
+    "chapter": "tinhoc7-c1",
+    "lesson": {
+      "code": "tinhoc7-b01",
+      "title": "Bài 1. Thiết bị vào – ra và an toàn kết nối phần cứng",
+      "seq": 1,
+      "subtitle": "Phân biệt thiết bị vào, thiết bị ra, thiết bị hai chiều và nguyên tắc cắm nối an toàn",
+      "concepts": [
+        "Thiết bị vào và thiết bị ra",
+        "Thiết bị vừa vào vừa ra",
+        "Lắp ghép an toàn cổng kết nối"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH7-B01-001",
+        "d": "basic",
+        "p": "Thiết bị nào sau đây là thiết bị vào (Input) dùng để đưa dữ liệu hình ảnh từ giấy vào máy tính?",
+        "o": [
+          "Máy chiếu (Projector)",
+          "Loa máy tính (Speaker)",
+          "Máy in màu (Printer)",
+          "Máy quét ảnh (Scanner)"
+        ],
+        "k": "D",
+        "e": "Máy quét chuyển hình ảnh tài liệu trên giấy thành tệp dữ liệu số đưa vào máy tính.",
+        "s": "Tin Học 7",
+        "h": "Phân biệt thiết bị vào"
+      },
+      {
+        "c": "TH7-B01-002",
+        "d": "basic",
+        "p": "Thiết bị nào thuộc nhóm thiết bị ra (Output) giúp hiển thị hình ảnh cho cả lớp cùng quan sát?",
+        "o": [
+          "Màn hình và máy chiếu",
+          "Bàn phím cơ học",
+          "Micrô thu âm",
+          "Chuột máy tính"
+        ],
+        "k": "A",
+        "e": "Màn hình và máy chiếu xuất thông tin hình ảnh từ máy tính ra bên ngoài.",
+        "s": "Tin Học 7",
+        "h": "Phân biệt thiết bị ra"
+      },
+      {
+        "c": "TH7-B01-003",
+        "d": "basic",
+        "p": "Thiết bị nào vừa thực hiện chức năng nhập dữ liệu (chạm) vừa xuất dữ liệu (hiển thị)?",
+        "o": [
+          "Micrô gắn rời",
+          "Chuột có dây",
+          "Màn hình cảm ứng",
+          "Máy in kim"
+        ],
+        "k": "C",
+        "e": "Màn hình cảm ứng hiển thị nội dung đồng thời nhận thao tác chạm điều khiển từ tay người dùng.",
+        "s": "Tin Học 7",
+        "h": "Thiết bị vào và ra kết hợp"
+      },
+      {
+        "c": "TH7-B01-004",
+        "d": "basic",
+        "p": "Chuột máy tính, bàn phím và micrô thuộc nhóm thiết bị nào?",
+        "o": [
+          "Thiết bị vào (Input)",
+          "Thiết bị ra (Output)",
+          "Phần mềm ứng dụng",
+          "Bộ nhớ trong RAM"
+        ],
+        "k": "A",
+        "e": "Chuột, bàn phím, micrô đều thu nhận thao tác hoặc âm thanh của con người đưa vào máy tính.",
+        "s": "Tin Học 7",
+        "h": "Nhóm thiết bị nhập liệu"
+      },
+      {
+        "c": "TH7-B01-005",
+        "d": "basic",
+        "p": "Trước khi tháo hoặc lắp lại dây nguồn hay thẻ mở rộng bên trong thùng máy tính để bàn, việc bắt buộc đầu tiên là gì?",
+        "o": [
+          "Chỉ cần tắt màn hình còn thùng máy vẫn bật",
+          "Đổ thêm nước lên mặt bàn cho mát",
+          "Đóng mọi cửa sổ trình duyệt web",
+          "Tắt máy hoàn toàn và rút phích cắm khỏi ổ điện nguồn"
+        ],
+        "k": "D",
+        "e": "Ngắt hoàn toàn nguồn điện đảm bảo an toàn cho người thao tác và tránh chập cháy linh kiện.",
+        "s": "Tin Học 7",
+        "h": "An toàn điện khi lắp thiết bị"
+      },
+      {
+        "c": "TH7-B01-006",
+        "d": "basic",
+        "p": "Loại cổng phổ biến nhất hiện nay để cắm chuột, bàn phím và ổ nhớ flash vào máy tính là cổng nào?",
+        "o": [
+          "Lỗ thoát nhiệt quạt gió",
+          "Cổng điện xoay chiều 220V",
+          "Cổng USB",
+          "Ổ khóa chống trộm"
+        ],
+        "k": "C",
+        "e": "Chuẩn USB cho phép cắm nóng nhanh chóng hầu hết thiết bị ngoại vi thông dụng.",
+        "s": "Tin Học 7",
+        "h": "Nhận diện cổng USB"
+      },
+      {
+        "c": "TH7-B01-007",
+        "d": "application",
+        "p": "Quan sát bảng phân loại, thiết bị nào bị xếp NHẦM nhóm?",
+        "o": [
+          "Loa vi tính (xếp nhầm vào Thiết bị vào)",
+          "Ổ đĩa cứng ngoài (Vào và ra)",
+          "Bàn phím (Thiết bị vào)",
+          "Máy in (Thiết bị ra)"
+        ],
+        "k": "A",
+        "e": "Loa phát âm thanh từ máy tính ra ngoài nên phải thuộc nhóm Thiết bị ra.",
+        "s": "Tin Học 7",
+        "h": "Kiểm tra phân loại thiết bị",
+        "fig": {
+          "type": "table",
+          "title": "Bảng phân loại thiết bị",
+          "head": [
+            "Thiết bị",
+            "Nhóm xếp tạm"
+          ],
+          "rows": [
+            [
+              "Bàn phím",
+              "Thiết bị vào"
+            ],
+            [
+              "Loa vi tính",
+              "Thiết bị vào"
+            ],
+            [
+              "Máy in",
+              "Thiết bị ra"
+            ],
+            [
+              "Ổ đĩa ngoài",
+              "Vào và ra"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH7-B01-008",
+        "d": "application",
+        "p": "Khi cần kết nối máy tính xách tay với máy chiếu trong phòng học để xuất cả hình ảnh và âm thanh sắc nét chỉ bằng một sợi dây, em nên chọn cổng nào?",
+        "o": [
+          "Cổng HDMI",
+          "Cổng chuột PS2 cũ",
+          "Dây sạc pin một chiều",
+          "Giắc tai nghe 3.5 mm"
+        ],
+        "k": "A",
+        "e": "Cáp HDMI truyền tải đồng thời cả tín hiệu hình ảnh độ nét cao lẫn âm thanh số.",
+        "s": "Tin Học 7",
+        "h": "Chọn cổng kết nối máy chiếu"
+      },
+      {
+        "c": "TH7-B01-009",
+        "d": "application",
+        "p": "Máy ảnh kĩ thuật số kết nối với máy tính qua cáp dữ liệu được xem là thiết bị gì?",
+        "o": [
+          "Thiết bị vào khi truyền ảnh vào máy tính (hoặc vào-ra khi đồng bộ hai chiều)",
+          "Phần mềm diệt vi-rút",
+          "Hệ điều hành mã nguồn mở",
+          "Mạng truyền tải không dây toàn cầu"
+        ],
+        "k": "A",
+        "e": "Máy ảnh gửi tệp ảnh thu được vào máy tính để xử lí và cũng có thể nhận dữ liệu chép lại.",
+        "s": "Tin Học 7",
+        "h": "Vai trò thiết bị ngoại vi"
+      },
+      {
+        "c": "TH7-B01-010",
+        "d": "application",
+        "p": "Hiện tượng máy tính phát tiếng bíp kéo dài hoặc không lên màn hình sau khi lắp ổ RAM lỏng chân xử lí thế nào an toàn nhất?",
+        "o": [
+          "Tắt máy, rút nguồn điện rồi kiểm tra cắm chặt lại thanh RAM đúng khớp",
+          "Dùng tay ướt ấn mạnh thanh RAM khi máy đang chạy",
+          "Cắm thêm dây loa vào cổng HDMI",
+          "Gõ mạnh vào vỏ thùng máy"
+        ],
+        "k": "A",
+        "e": "Thao tác phần cứng bên trong luôn yêu cầu tắt nguồn, rút điện trước khi lắp lại đúng khớp.",
+        "s": "Tin Học 7",
+        "h": "Xử lí lắp lỏng linh kiện"
+      },
+      {
+        "c": "TH7-B01-011",
+        "d": "application",
+        "p": "Cáp VGA truyền thống có đặc điểm gì khác biệt rõ với cáp HDMI khi nối từ laptop lên TV thông minh?",
+        "o": [
+          "Cáp VGA chỉ truyền tín hiệu hình ảnh tương tự, không truyền kèm âm thanh",
+          "VGA truyền âm thanh không truyền hình ảnh",
+          "Cáp HDMI chỉ dùng để cắm chuột có dây",
+          "Cáp VGA truyền được điện lưới 220V thắp sáng TV"
+        ],
+        "k": "A",
+        "e": "Nếu dùng VGA xuất lên TV hoặc loa phòng học, cần thêm dây âm thanh 3.5 mm riêng.",
+        "s": "Tin Học 7",
+        "h": "Phân biệt chuẩn VGA và HDMI"
+      },
+      {
+        "c": "TH7-B01-012",
+        "d": "application",
+        "p": "Vì sao không nên rút đột ngột USB đang sao chép dở tệp dữ liệu lớn?",
+        "o": [
+          "Làm mất kết nối Wi-Fi của cả trường",
+          "Tự động xóa hệ điều hành trên máy",
+          "Làm màn hình đổi sang đen trắng mãi mãi",
+          "Có thể làm hỏng dữ liệu đang ghi dở hoặc gây lỗi phân vùng trên USB"
+        ],
+        "k": "D",
+        "e": "Nên chọn \"Eject / Safely Remove Hardware\" sau khi sao chép xong để dữ liệu được ghi hoàn tất vào bộ nhớ flash.",
+        "s": "Tin Học 7",
+        "h": "Tháo USB đúng cách"
+      },
+      {
+        "c": "TH7-B01-013",
+        "d": "advanced",
+        "p": "Một học sinh muốn tổ chức buổi học trực tuyến: vừa nói cho thầy cô nghe, vừa ghi hình khuôn mặt, vừa nghe giọng thầy cô và chiếu bài lên màn hình lớn. Bộ 4 thiết bị vào-ra tối thiểu tương ứng là gì?",
+        "o": [
+          "Chỉ cần duy nhất một chiếc máy in laser",
+          "Bốn chiếc máy chiếu xếp cạnh nhau",
+          "Máy in, Máy quét, Chuột và Ổ đĩa mềm",
+          "Micrô, Webcam, Loa hoặc Tai nghe, và Máy chiếu hoặc Màn hình"
+        ],
+        "k": "D",
+        "e": "Micrô và Webcam thu âm và hình vào máy; Loa và Màn hình hoặc Máy chiếu đưa âm và hình ra cho học sinh.",
+        "s": "Tin Học 7",
+        "h": "Phối hợp thiết bị học trực tuyến"
+      },
+      {
+        "c": "TH7-B01-014",
+        "d": "advanced",
+        "p": "Tai nghe có kèm micrô (Headset) dùng một giắc cắm chuẩn mới trên laptop thực chất đóng vai trò gì trong hệ thống máy tính?",
+        "o": [
+          "Là thiết bị chỉ làm mát cho laptop",
+          "Là bộ xử lí trung tâm CPU đặt bên ngoài",
+          "Là tổ hợp vừa có thiết bị ra (loa tai nghe) vừa có thiết bị vào (micrô thu giọng)",
+          "Chỉ là thiết bị lưu trữ giống thẻ nhớ SD"
+        ],
+        "k": "C",
+        "e": "Headset tích hợp hai bộ phận độc lập trên cùng một thân vỏ: phát âm ra tai và thu âm từ miệng vào máy.",
+        "s": "Tin Học 7",
+        "h": "Phân tích cấu tạo Headset"
+      },
+      {
+        "c": "TH7-B01-015",
+        "d": "advanced",
+        "p": "Khi cắm tai nghe vào cổng 3.5 mm màu xanh lá của máy tính bàn nhưng không nghe thấy tiếng dù loa ngoài trước đó vẫn kêu bình thường. Bước kiểm tra hợp lí đầu tiên là gì?",
+        "o": [
+          "Tháo rời bo mạch chủ đem đi sửa ngay",
+          "Đổi tên các tệp nhạc MP3 sang viết hoa",
+          "Kiểm tra xem giắc đã cắm khít hết cỡ đúng lỗ Headphone và kiểm tra thiết bị phát mặc định trong hệ điều hành chưa",
+          "Cài đặt lại toàn bộ phần mềm soạn thảo văn bản"
+        ],
+        "k": "C",
+        "e": "Lỗi thường gặp do cắm nhầm lỗ Micrô (màu hồng) hoặc hệ điều hành chưa chuyển ngõ ra âm thanh sang tai nghe.",
+        "s": "Tin Học 7",
+        "h": "Chẩn đoán lỗi âm thanh"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc7-c1",
+    "lesson": {
+      "code": "tinhoc7-b02",
+      "title": "Bài 2. Hệ điều hành, phần mềm ứng dụng và quản lí tệp",
+      "seq": 2,
+      "subtitle": "Vai trò của hệ điều hành và phần mềm ứng dụng, phần mở rộng tệp và biện pháp bảo vệ dữ liệu",
+      "concepts": [
+        "Hệ điều hành và phần mềm ứng dụng",
+        "Nhận diện phần mở rộng tệp",
+        "Tổ chức cây thư mục và sao lưu"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH7-B02-001",
+        "d": "basic",
+        "p": "Phần mềm nền tảng quản lí toàn bộ phần cứng và điều phối mọi chương trình khác chạy trên máy tính gọi là gì?",
+        "o": [
+          "Trình duyệt web",
+          "Bộ gõ tiếng Việt",
+          "Hệ điều hành",
+          "Phần mềm bảng tính"
+        ],
+        "k": "C",
+        "e": "Hệ điều hành (như Windows, macOS, Linux, Android, iOS) là cầu nối giữa phần cứng, phần mềm ứng dụng và người dùng.",
+        "s": "Tin Học 7",
+        "h": "Vai trò Hệ điều hành"
+      },
+      {
+        "c": "TH7-B02-002",
+        "d": "basic",
+        "p": "Các chương trình như Word, Excel, Scratch, Unikey được cài đặt phục vụ công việc cụ thể của người dùng thuộc nhóm nào?",
+        "o": [
+          "Phần mềm ứng dụng",
+          "Hệ điều hành lõi",
+          "Thiết bị ngoại vi",
+          "Mạng truyền dẫn"
+        ],
+        "k": "A",
+        "e": "Phần mềm ứng dụng chạy trên nền hệ điều hành để giải quyết các nhu cầu học tập, giải trí, văn phòng.",
+        "s": "Tin Học 7",
+        "h": "Phân biệt phần mềm ứng dụng"
+      },
+      {
+        "c": "TH7-B02-003",
+        "d": "basic",
+        "p": "Phần nào trong tên tệp \"BaoCao_Tin7.docx\" cho hệ điều hành biết đây là tệp văn bản?",
+        "o": [
+          "Chữ \"BaoCao\"",
+          "Số \"7\"",
+          "Phần mở rộng \".docx\"",
+          "Dấu gạch dưới \"_\""
+        ],
+        "k": "C",
+        "e": "Phần mở rộng sau dấu chấm cuối cùng xác định định dạng tệp và phần mềm mặc định để mở.",
+        "s": "Tin Học 7",
+        "h": "Ý nghĩa phần mở rộng tệp"
+      },
+      {
+        "c": "TH7-B02-004",
+        "d": "basic",
+        "p": "Đuôi tệp nào sau đây thường là tệp âm thanh phổ biến?",
+        "o": [
+          ".mp3",
+          ".jpg",
+          ".xlsx",
+          ".pptx"
+        ],
+        "k": "A",
+        "e": ".mp3 là âm thanh; .jpg là ảnh; .pptx là bài trình chiếu; .xlsx là bảng tính.",
+        "s": "Tin Học 7",
+        "h": "Nhận diện định dạng âm thanh"
+      },
+      {
+        "c": "TH7-B02-005",
+        "d": "basic",
+        "p": "Trong máy tính, đối tượng chứa các tệp và thư mục con khác giúp sắp xếp dữ liệu ngăn nắp gọi là gì?",
+        "o": [
+          "Thanh cuốn trang",
+          "Địa chỉ Email",
+          "Thư mục (Folder)",
+          "Chuột không dây"
+        ],
+        "k": "C",
+        "e": "Thư mục tạo cấu trúc cây phân cấp để phân loại, tìm kiếm và bảo quản tệp dễ dàng.",
+        "s": "Tin Học 7",
+        "h": "Khái niệm thư mục"
+      },
+      {
+        "c": "TH7-B02-006",
+        "d": "basic",
+        "p": "Tệp sau khi bị xóa bằng phím Delete thông thường trong Windows được chuyển tạm vào đâu để có thể khôi phục?",
+        "o": [
+          "Danh bạ điện thoại",
+          "Khay đồng hồ hệ thống",
+          "Thùng rác (Recycle Bin)",
+          "Ổ đĩa Cài đặt gốc"
+        ],
+        "k": "C",
+        "e": "Tệp trong Recycle Bin có thể chọn Restore để phục hồi nguyên vị trí ban đầu.",
+        "s": "Tin Học 7",
+        "h": "Khôi phục tệp từ Thùng rác"
+      },
+      {
+        "c": "TH7-B02-007",
+        "d": "application",
+        "p": "Dựa vào bảng định dạng, nếu em nhận được tệp \"HinhAnhLop7.png\" và \"BaiGiang.pptx\", hai tệp đó lần lượt là loại dữ liệu nào?",
+        "o": [
+          "Tệp bảng tính và tệp âm thanh",
+          "Tệp mã nguồn và tệp nén",
+          "Tệp hình ảnh và tệp bài trình chiếu",
+          "Tệp văn bản và tệp video"
+        ],
+        "k": "C",
+        "e": ".png là ảnh bitmap có hỗ trợ nền trong suốt; .pptx là tệp trình chiếu PowerPoint.",
+        "s": "Tin Học 7",
+        "h": "Đọc bảng phần mở rộng tệp",
+        "fig": {
+          "type": "table",
+          "title": "Định dạng tệp phổ biến",
+          "head": [
+            "Phần mở rộng",
+            "Loại tệp"
+          ],
+          "rows": [
+            [
+              ".docx",
+              "Văn bản"
+            ],
+            [
+              ".xlsx",
+              "Bảng tính"
+            ],
+            [
+              ".pptx",
+              "Bài trình chiếu"
+            ],
+            [
+              ".png / .jpg",
+              "Hình ảnh"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH7-B02-008",
+        "d": "application",
+        "p": "Đường dẫn đầy đủ \"D:\\HocTap\\TinHoc7\\BaiTap1.docx\" cho biết thông tin gì?",
+        "o": [
+          "Đây là tệp cài đặt hệ điều hành Windows",
+          "Ổ đĩa D chứa duy nhất một tệp văn bản",
+          "Tệp nằm trên Internet ở tên miền D",
+          "Tệp BaiTap1.docx nằm trong thư mục TinHoc7, thuộc thư mục HocTap trên ổ đĩa D"
+        ],
+        "k": "D",
+        "e": "Đường dẫn liệt kê thứ tự từ ổ đĩa mẹ qua từng cấp thư mục cha dẫn tới tệp cụ thể.",
+        "s": "Tin Học 7",
+        "h": "Đọc hiểu đường dẫn tệp"
+      },
+      {
+        "c": "TH7-B02-009",
+        "d": "application",
+        "p": "Trong cùng một thư mục \"Toan7\", vì sao hệ điều hành KHÔNG cho phép tạo hai tệp cùng tên hoàn toàn là \"DeOnTap.docx\"?",
+        "o": [
+          "Tránh xung đột định danh khiến hệ thống không phân biệt được tệp nào để mở hoặc ghi đè",
+          "Vì bộ nhớ RAM chỉ chứa được 1 tệp",
+          "Vì chuột máy tính không nhấp được hai lần",
+          "Vì chữ \"DeOnTap\" quá dài"
+        ],
+        "k": "A",
+        "e": "Trong một thư mục, mỗi tệp hoặc thư mục con phải có tên phân biệt duy nhất.",
+        "s": "Tin Học 7",
+        "h": "Quy tắc đặt tên trong một thư mục"
+      },
+      {
+        "c": "TH7-B02-010",
+        "d": "application",
+        "p": "Khi cần gửi nguyên một thư mục gồm 25 ảnh thực hành thành một tệp duy nhất cho nhẹ hơn và gọn hơn qua mạng, em nên làm thao tác nào?",
+        "o": [
+          "Đổi tên cả 25 ảnh thành số 1",
+          "Nén thư mục đó thành một tệp .zip hoặc .rar",
+          "Xóa bớt 20 ảnh rồi gửi 5 ảnh",
+          "In cả 25 ảnh ra giấy rồi chụp lại 1 tấm"
+        ],
+        "k": "B",
+        "e": "Nén tệp gom nhiều tệp con thành một tệp lưu trữ gọn gàng, giảm phần nào dung lượng.",
+        "s": "Tin Học 7",
+        "h": "Lợi ích nén tệp .zip"
+      },
+      {
+        "c": "TH7-B02-011",
+        "d": "application",
+        "p": "Thao tác nhấn tổ hợp phím Ctrl + X rồi sang thư mục đích nhấn Ctrl + V có tác dụng gì?",
+        "o": [
+          "Xóa vĩnh viễn tệp khỏi ổ cứng",
+          "Đổi phần mở rộng của tệp",
+          "Sao chép (Copy) để có hai bản giống nhau ở hai nơi",
+          "Di chuyển (Move) tệp sang thư mục mới, không giữ lại bản cũ ở nơi gốc"
+        ],
+        "k": "D",
+        "e": "Cut và Paste (Ctrl + X rồi Ctrl + V) di dời tệp từ vị trí cũ sang vị trí mới.",
+        "s": "Tin Học 7",
+        "h": "Phân biệt Di chuyển và Sao chép"
+      },
+      {
+        "c": "TH7-B02-012",
+        "d": "application",
+        "p": "Phần mềm nào KHÔNG phải là hệ điều hành trong các phương án sau?",
+        "o": [
+          "Android",
+          "Windows 11",
+          "Linux Ubuntu",
+          "Microsoft Excel"
+        ],
+        "k": "D",
+        "e": "Microsoft Excel là phần mềm ứng dụng xử lí bảng tính, chạy trên hệ điều hành.",
+        "s": "Tin Học 7",
+        "h": "Phân biệt HĐH và ứng dụng"
+      },
+      {
+        "c": "TH7-B02-013",
+        "d": "advanced",
+        "p": "Một bạn vô tình đổi tên tệp ảnh \"AnhLop.jpg\" thành \"AnhLop.docx\" rồi mở bằng trình soạn văn bản thấy toàn kí tự lạ. Cách khắc phục đơn giản và đúng nhất là gì?",
+        "o": [
+          "Đổi lại phần mở rộng đúng về \".jpg\" rồi mở bằng phần mềm xem ảnh",
+          "Cài lại toàn bộ hệ điều hành máy tính",
+          "Xóa tệp đi rồi vẽ lại bằng tay",
+          "Chuyển tệp sang ổ đĩa C"
+        ],
+        "k": "A",
+        "e": "Đổi đuôi tên tệp không biến đổi cấu trúc dữ liệu ảnh bên trong; trả lại đúng đuôi .jpg là mở lại bình thường.",
+        "s": "Tin Học 7",
+        "h": "Xử lí sai phần mở rộng tệp"
+      },
+      {
+        "c": "TH7-B02-014",
+        "d": "advanced",
+        "p": "Nếu người dùng xóa bỏ hoàn toàn Hệ điều hành trên ổ cứng máy tính, chuyện gì sẽ xảy ra với các phần mềm ứng dụng như Word và Scratch?",
+        "o": [
+          "Các phần mềm ứng dụng không thể tự khởi động và vận hành được nữa",
+          "Chuột và máy in hoạt động tự động không cần máy tính",
+          "Word vẫn chạy nhanh hơn gấp đôi vì nhẹ máy",
+          "Scratch tự nâng cấp thành hệ điều hành mới"
+        ],
+        "k": "A",
+        "e": "Mọi phần mềm ứng dụng đều phải nhờ hệ điều hành cấp phát bộ nhớ, giao tiếp CPU và thiết bị vào-ra.",
+        "s": "Tin Học 7",
+        "h": "Mối quan hệ HĐH và ứng dụng"
+      },
+      {
+        "c": "TH7-B02-015",
+        "d": "advanced",
+        "p": "Khi tổ chức kho tài liệu học tập cá nhân cho cả năm lớp 7 gồm 10 môn học, cấu trúc thư mục nào khoa học và dễ tìm kiếm nhất?",
+        "o": [
+          "Tạo thư mục gốc \"Lop7\", bên trong chia thư mục từng môn (Toan, NguVan, TinHoc...), trong mỗi môn chia Học kì 1 và Học kì 2",
+          "Đặt tên mọi tệp là \"Bai1\", \"Bai2\", \"Bai3\" trong cùng một thư mục Chung",
+          "Lưu tất cả hàng trăm tệp trực tiếp ngoài màn hình Desktop không lập thư mục",
+          "Lưu rải rác mỗi tệp vào một ổ đĩa ngẫu nhiên"
+        ],
+        "k": "A",
+        "e": "Cấu trúc phân cấp theo Năm học → Môn học → Học kì giúp tra cứu ngay trong vài giây và dễ sao lưu trọn bộ.",
+        "s": "Tin Học 7",
+        "h": "Thiết kế cây thư mục khoa học"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc7-c1",
+    "lesson": {
+      "code": "tinhoc7-b03",
+      "title": "Bài 3. Quản lí dữ liệu số và ứng xử văn minh trên mạng xã hội",
+      "seq": 3,
+      "subtitle": "Các dịch vụ mạng xã hội, lợi ích, rủi ro gây nghiện hoặc bắt nạt mạng và cách ứng xử văn hóa",
+      "concepts": [
+        "Đặc điểm mạng xã hội",
+        "Phòng tránh nghiện mạng và thông tin xấu",
+        "Biện pháp bảo vệ danh tính số"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH7-B03-001",
+        "d": "basic",
+        "p": "Trang web hoặc ứng dụng trực tuyến cho phép người dùng tạo hồ sơ cá nhân, kết nối bạn bè và chia sẻ bài viết, hình ảnh gọi là gì?",
+        "o": [
+          "Mạng xã hội (Social Network)",
+          "Phần mềm vẽ kĩ thuật",
+          "Trình điều khiển loa",
+          "Bảng tính điện tử offline"
+        ],
+        "k": "A",
+        "e": "Mạng xã hội tạo cộng đồng kết nối trực tuyến để đăng tải, bình luận và trao đổi thông tin.",
+        "s": "Tin Học 7",
+        "h": "Khái niệm mạng xã hội"
+      },
+      {
+        "c": "TH7-B03-002",
+        "d": "basic",
+        "p": "Tác động tích cực nào mạng xã hội mang lại cho học sinh khi biết sử dụng đúng mục đích?",
+        "o": [
+          "Tham gia nhóm học tập, trao đổi bài vở và cập nhật kiến thức bổ ích",
+          "Giúp mắt sáng hơn khi nhìn màn hình thâu đêm",
+          "Thay thế hoàn toàn việc ăn ngủ hàng ngày",
+          "Tự động xóa hết bài tập khó"
+        ],
+        "k": "A",
+        "e": "Tham gia cộng đồng học thuật lành mạnh giúp học sinh học hỏi nhanh và kết nối tích cực.",
+        "s": "Tin Học 7",
+        "h": "Lợi ích tích cực của mạng xã hội"
+      },
+      {
+        "c": "TH7-B03-003",
+        "d": "basic",
+        "p": "Khi thấy một tài khoản lạ bình luận thô tục hoặc quấy rối trên trang cá nhân, nút chức năng nào giúp ngăn người đó tiếp tục liên hệ?",
+        "o": [
+          "Kết bạn thân thiết",
+          "Chia sẻ công khai cho cả nước",
+          "Chặn (Block) và Báo cáo (Report)",
+          "Thích (Like) bài viết của họ"
+        ],
+        "k": "C",
+        "e": "Block cắt liên lạc ngay lập tức còn Report gửi thông tin vi phạm cho quản trị nền tảng xử lí.",
+        "s": "Tin Học 7",
+        "h": "Công cụ chặn và báo cáo"
+      },
+      {
+        "c": "TH7-B03-004",
+        "d": "basic",
+        "p": "Thông tin nào KHÔNG nên đăng công khai ở chế độ Mọi người (Public) trên mạng xã hội?",
+        "o": [
+          "Bài toán đố vui tự nghĩ ra",
+          "Ảnh một bông hoa ở công viên không kèm địa chỉ nhà",
+          "Câu châm ngôn hay về tinh thần hiếu học",
+          "Lịch trình vắng nhà của gia đình, thẻ học sinh và địa chỉ nhà chi tiết"
+        ],
+        "k": "D",
+        "e": "Công khai lịch trình vắng nhà hoặc thông tin định danh dễ tạo sơ hở cho kẻ xấu xâm nhập hoặc mạo danh.",
+        "s": "Tin Học 7",
+        "h": "Bảo vệ thông tin đời tư"
+      },
+      {
+        "c": "TH7-B03-005",
+        "d": "basic",
+        "p": "Hiện tượng học sinh bồn chồn, cáu gắt khi không được lướt mạng xã hội và bỏ bê học tập gọi là dấu hiệu gì?",
+        "o": [
+          "Năng lực bảo mật hệ thống",
+          "Nghiện mạng xã hội",
+          "Phản xạ gõ phím nhanh",
+          "Kĩ năng tìm kiếm nâng cao"
+        ],
+        "k": "B",
+        "e": "Phụ thuộc quá mức vào lượt thích và thông báo mạng xã hội gây ảnh hưởng tâm lí và kết quả học tập.",
+        "s": "Tin Học 7",
+        "h": "Dấu hiệu nghiện mạng xã hội"
+      },
+      {
+        "c": "TH7-B03-006",
+        "d": "basic",
+        "p": "Trước khi nhấn nút Chia sẻ (Share) một tin tức gây sốc lên mạng xã hội, bước quan trọng nhất cần làm là gì?",
+        "o": [
+          "Kiểm chứng nguồn tin từ báo chí chính thống hoặc cơ quan uy tín",
+          "Gắn thẻ toàn bộ danh sách bạn bè",
+          "Chia sẻ ngay lập tức để làm người đầu tiên đăng tin",
+          "Thêm các từ ngữ giật gân hơn vào bài viết"
+        ],
+        "k": "A",
+        "e": "Kiểm chứng thông tin tránh tiếp tay phát tán tin giả gây hoang mang và vi phạm pháp luật.",
+        "s": "Tin Học 7",
+        "h": "Kiểm chứng trước khi chia sẻ"
+      },
+      {
+        "c": "TH7-B03-007",
+        "d": "application",
+        "p": "Bạn Minh thấy trong nhóm lớp xuất hiện bức ảnh chế giễu ngoại hình một bạn học sinh khác. Cách ứng xử đúng đắn nhất là gì?",
+        "o": [
+          "Không bình luận hùa theo hay chia sẻ lại, nhắc bạn gỡ ảnh và báo thầy cô chủ nhiệm nếu cần",
+          "Viết bình luận chê bai nặng nề hơn",
+          "Lưu ảnh về máy rồi gửi sang lớp bên cạnh",
+          "Bấm thả biểu tượng cười lớn để hưởng ứng"
+        ],
+        "k": "A",
+        "e": "Im lặng hùa theo hoặc chia sẻ tiếp đều làm tổn thương sâu sắc nạn nhân của bắt nạt mạng.",
+        "s": "Tin Học 7",
+        "h": "Ứng xử trước bắt nạt mạng"
+      },
+      {
+        "c": "TH7-B03-008",
+        "d": "application",
+        "p": "Chế độ quyền riêng tư nào trên mạng xã hội phù hợp nhất cho nhật kí ảnh gia đình của một học sinh THCS?",
+        "o": [
+          "Chỉ bạn bè (Friends) hoặc Chỉ mình tôi (Only Me) với ảnh cần lưu giữ riêng",
+          "Công khai toàn cầu (Public) không hạn chế",
+          "Đăng kèm số tài khoản ngân hàng của bố mẹ",
+          "Cho phép mọi người lạ tải ảnh gốc về chỉnh sửa"
+        ],
+        "k": "A",
+        "e": "Giới hạn người xem ở mức Bạn bè tin cậy hoặc Riêng tư giúp kiểm soát ai được tiếp cận hình ảnh cá nhân.",
+        "s": "Tin Học 7",
+        "h": "Cài đặt quyền riêng tư bài đăng"
+      },
+      {
+        "c": "TH7-B03-009",
+        "d": "application",
+        "p": "Để khắc phục tình trạng lướt video ngắn mất 3 tiếng mỗi tối trước giờ ngủ, thói quen kĩ thuật nào hiệu quả nhất?",
+        "o": [
+          "Vừa xem video vừa làm bài tập Toán",
+          "Tăng độ sáng màn hình lên 100%",
+          "Đặt giới hạn thời gian dùng ứng dụng trên điện thoại và để thiết bị ngoài phòng ngủ trước khi đi ngủ 30 phút",
+          "Đăng kí thêm ba tài khoản mạng xã hội mới"
+        ],
+        "k": "C",
+        "e": "Đặt bộ đếm giới hạn thời gian và tách biệt thiết bị khỏi giường ngủ giúp lấy lại nhịp sinh học lành mạnh.",
+        "s": "Tin Học 7",
+        "h": "Giải pháp cai nghiện mạng xã hội"
+      },
+      {
+        "c": "TH7-B03-010",
+        "d": "application",
+        "p": "Một trang fanpage rao bán \"Phần mềm biết trước đề thi học kì 100% chính xác\" và yêu cầu chuyển khoản đặt cọc. Đây là dạng nguy cơ gì?",
+        "o": [
+          "Lừa đảo chiếm đoạt tài sản đánh vào tâm lí nhẹ dạ",
+          "Công cụ kiểm tra lỗi chính tả miễn phí",
+          "Phần mềm cập nhật hệ điều hành",
+          "Dịch vụ hỗ trợ học tập chính thức của nhà trường"
+        ],
+        "k": "A",
+        "e": "Đề thi được bảo mật nghiêm ngặt; mọi lời rao bán đề thi trên mạng đều là chiêu trò lừa đảo.",
+        "s": "Tin Học 7",
+        "h": "Nhận diện lừa đảo học đường"
+      },
+      {
+        "c": "TH7-B03-011",
+        "d": "application",
+        "p": "Dựa vào bảng thống kê thời gian sử dụng màn hình trung bình, ngày nào học sinh dùng nhiều hơn mức khuyến nghị 120 phút nhiều nhất?",
+        "o": [
+          "Chủ nhật (240 phút)",
+          "Thứ Hai (85 phút)",
+          "Thứ Sáu (95 phút)",
+          "Thứ Tư (95 phút)"
+        ],
+        "k": "A",
+        "e": "Theo bảng số liệu, Chủ nhật đạt 190 + 50 = 240 phút (gấp đôi ngưỡng khuyến nghị 120 phút một ngày).",
+        "s": "Tin Học 7",
+        "h": "Đọc bảng theo dõi thời gian số",
+        "fig": {
+          "type": "table",
+          "title": "Thời gian dùng mạng (phút)",
+          "head": [
+            "Ngày",
+            "Giải trí",
+            "Học tập"
+          ],
+          "rows": [
+            [
+              "Thứ Hai",
+              "45",
+              "40"
+            ],
+            [
+              "Thứ Tư",
+              "50",
+              "45"
+            ],
+            [
+              "Thứ Sáu",
+              "60",
+              "35"
+            ],
+            [
+              "Chủ nhật",
+              "190",
+              "50"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH7-B03-012",
+        "d": "application",
+        "p": "Khi cài đặt bảo mật cho tài khoản mạng xã hội, tính năng \"Xác thực hai yếu tố\" (2FA) giúp tăng an toàn như thế nào?",
+        "o": [
+          "Tự động xóa tài khoản sau mỗi tuần",
+          "Tăng tốc độ tải video lên gấp năm lần",
+          "Không cần nhập mật khẩu khi đăng nhập ở quán nét",
+          "Ngoài mật khẩu, kẻ gian muốn đăng nhập từ máy lạ còn phải có thêm mã xác nhận gửi về điện thoại chính chủ"
+        ],
+        "k": "D",
+        "e": "Xác thực 2 lớp ngăn kẻ xấu chiếm tài khoản ngay cả khi chúng dò ra mật khẩu.",
+        "s": "Tin Học 7",
+        "h": "Vai trò xác thực hai lớp 2FA"
+      },
+      {
+        "c": "TH7-B03-013",
+        "d": "advanced",
+        "p": "Một tài khoản mang tên y hệt cô giáo chủ nhiệm nhắn tin hỏi mượn tiền gấp và nhờ nạp thẻ điện thoại qua link lạ. Phân tích đúng nhất để tránh bị lừa là gì?",
+        "o": [
+          "Chia sẻ tin nhắn đó để cả lớp nạp tiền giúp",
+          "Tin ngay vì ảnh đại diện giống hệt cô giáo",
+          "Gửi mã thẻ cho tài khoản đó rồi hỏi cô sau",
+          "Kiểm tra lại trực tiếp bằng gọi điện thoại qua số quen của cô giáo trước khi thực hiện bất kì giao dịch nào"
+        ],
+        "k": "D",
+        "e": "Kẻ xấu thường lập nick giả hoặc chiếm nick thật; nguyên tắc vàng là xác minh lại qua kênh gọi thoại trực tiếp.",
+        "s": "Tin Học 7",
+        "h": "Xác minh tình huống mạo danh"
+      },
+      {
+        "c": "TH7-B03-014",
+        "d": "advanced",
+        "p": "Thuật toán gợi ý của nhiều mạng xã hội hoạt động theo nguyên tắc: người dùng dừng lại xem chủ đề nào lâu thì hệ thống càng hiện nhiều nội dung tương tự. Hệ quả cần cảnh giác là gì?",
+        "o": [
+          "Hệ thống tự động chọn bài giảng Toán khó nhất đưa lên đầu",
+          "Dễ bị cuốn vào vòng lặp xem mãi nội dung giải trí vô bổ hoặc thông tin một chiều thiếu kiểm chứng",
+          "Mạng xã hội tự tắt sau đúng 15 phút sử dụng",
+          "Tài khoản tự động được cộng điểm rèn luyện"
+        ],
+        "k": "B",
+        "e": "Hiểu thuật toán gợi ý giúp học sinh chủ động tìm kiếm nội dung lành mạnh thay vì bị dẫn dắt thụ động.",
+        "s": "Tin Học 7",
+        "h": "Nhận thức về thuật toán gợi ý"
+      },
+      {
+        "c": "TH7-B03-015",
+        "d": "advanced",
+        "p": "Theo quy tắc 3 bước trước khi đăng bài lên mạng: (1) Đúng sự thật không? (2) Có làm hại hay xúc phạm ai không? (3) Có cần thiết phải công khai không? Một bức ảnh chụp bạn đang ngủ gật trong lớp vi phạm ít nhất điều kiện nào?",
+        "o": [
+          "Chỉ vi phạm nếu ảnh bị mờ độ phân giải",
+          "Hoàn toàn đạt cả 3 tiêu chí nên nên đăng ngay",
+          "Chỉ vi phạm lỗi thiếu ngày tháng chụp ảnh",
+          "Vi phạm cả điều kiện làm tổn hại người khác và không cần thiết đăng công khai"
+        ],
+        "k": "D",
+        "e": "Đăng ảnh dìm hàng bạn bè khi chưa được phép xâm phạm đời tư và gây tổn thương tâm lí cho bạn.",
+        "s": "Tin Học 7",
+        "h": "Áp dụng bộ lọc đạo đức trước khi đăng"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc7-c2",
+    "lesson": {
+      "code": "tinhoc7-b04",
+      "title": "Bài 4. Làm quen với phần mềm bảng tính điện tử",
+      "seq": 4,
+      "subtitle": "Cấu trúc trang tính, hàng, cột, ô tính, địa chỉ ô, nhập dữ liệu số – chữ và lưu bảng tính",
+      "concepts": [
+        "Cấu trúc bảng tính Excel/Calc",
+        "Địa chỉ ô và vùng dữ liệu",
+        "Phân biệt dữ liệu số và văn bản"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH7-B04-001",
+        "d": "basic",
+        "p": "Phần mềm bảng tính điện tử (như Microsoft Excel hoặc LibreOffice Calc) dùng để thực hiện công việc chính gì?",
+        "o": [
+          "Duyệt các trang web trên Internet",
+          "Chỉnh sửa hiệu ứng video ca nhạc",
+          "Lưu trữ dữ liệu dạng bảng, tính toán tự động và vẽ biểu đồ",
+          "Lắp đặt hệ thống loa phòng học"
+        ],
+        "k": "C",
+        "e": "Bảng tính chuyên xử lí số liệu có cấu trúc, tính công thức tự động và biểu diễn đồ thị.",
+        "s": "Tin Học 7",
+        "h": "Công dụng phần mềm bảng tính"
+      },
+      {
+        "c": "TH7-B04-002",
+        "d": "basic",
+        "p": "Trong trang tính, các cột được đánh dấu tên bằng kí hiệu gì?",
+        "o": [
+          "Các số tự nhiên (1, 2, 3, ...)",
+          "Các chữ cái in hoa (A, B, C, ...)",
+          "Các chữ số La Mã (I, II, III)",
+          "Các kí hiệu dấu chấm hỏi"
+        ],
+        "k": "B",
+        "e": "Cột được đánh tên theo chữ cái từ A, B, C..., còn hàng đánh theo số 1, 2, 3....",
+        "s": "Tin Học 7",
+        "h": "Tên gọi cột và hàng"
+      },
+      {
+        "c": "TH7-B04-003",
+        "d": "basic",
+        "p": "Giao điểm giữa một cột và một hàng trên trang tính tạo thành thành phần gì?",
+        "o": [
+          "Ô tính (Cell)",
+          "Trang trình chiếu",
+          "Thanh công thức (Formula Bar)",
+          "Tên tệp bảng tính"
+        ],
+        "k": "A",
+        "e": "Mỗi ô tính là một đơn vị lưu trữ dữ liệu có địa chỉ duy nhất xác định bởi tên cột cộng số hàng.",
+        "s": "Tin Học 7",
+        "h": "Khái niệm ô tính"
+      },
+      {
+        "c": "TH7-B04-004",
+        "d": "basic",
+        "p": "Ô nằm ở giao của cột D và hàng thứ 12 có địa chỉ viết đúng là gì?",
+        "o": [
+          "CD12",
+          "12D",
+          "D12",
+          "D-12"
+        ],
+        "k": "C",
+        "e": "Quy tắc chuẩn viết tên cột đứng trước, số hàng đứng sau: D12.",
+        "s": "Tin Học 7",
+        "h": "Cách ghi địa chỉ ô"
+      },
+      {
+        "c": "TH7-B04-005",
+        "d": "basic",
+        "p": "Khi nhập dữ liệu mặc định (chưa căn lề thủ công), dữ liệu kiểu số trong ô tính tự động căn thẳng lề nào?",
+        "o": [
+          "Căn đều hai bên",
+          "Căn lề trái",
+          "Căn giữa ô",
+          "Căn lề phải"
+        ],
+        "k": "D",
+        "e": "Dữ liệu số mặc định căn phải ô tính, còn dữ liệu văn bản mặc định căn trái ô tính.",
+        "s": "Tin Học 7",
+        "h": "Nhận diện kiểu số và văn bản"
+      },
+      {
+        "c": "TH7-B04-006",
+        "d": "basic",
+        "p": "Mọi công thức tính toán nhập vào ô tính đều phải bắt đầu bằng dấu nào?",
+        "o": [
+          "Dấu cộng (+)",
+          "Dấu gạch chéo (/)",
+          "Dấu sao (*)",
+          "Dấu bằng (=)"
+        ],
+        "k": "D",
+        "e": "Thiếu dấu = ở đầu thì phần mềm chỉ hiểu chuỗi nhập vào là văn bản thông thường chứ không tính toán.",
+        "s": "Tin Học 7",
+        "h": "Kí hiệu bắt đầu công thức"
+      },
+      {
+        "c": "TH7-B04-007",
+        "d": "application",
+        "p": "Địa chỉ của một vùng dữ liệu hình chữ nhật kéo từ ô B2 đến hết ô E8 được viết chuẩn xác như thế nào?",
+        "o": [
+          "B2->E8",
+          "B2-E8",
+          "B2;E8",
+          "B2:E8"
+        ],
+        "k": "D",
+        "e": "Dấu hai chấm (:) nối ô góc trên bên trái với ô góc dưới bên phải của vùng chọn.",
+        "s": "Tin Học 7",
+        "h": "Kí hiệu địa chỉ vùng dữ liệu",
+        "fig": {
+          "type": "table",
+          "title": "Ví dụ vùng bảng tính",
+          "head": [
+            "Cột B",
+            "Cột C",
+            "Cột D",
+            "Cột E"
+          ],
+          "rows": [
+            [
+              "10",
+              "20",
+              "30",
+              "40"
+            ],
+            [
+              "15",
+              "25",
+              "35",
+              "45"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH7-B04-008",
+        "d": "application",
+        "p": "Một vùng dữ liệu có địa chỉ C3:E6 gồm tổng cộng bao nhiêu ô tính?",
+        "o": [
+          "12 ô",
+          "15 ô",
+          "7 ô",
+          "9 ô"
+        ],
+        "k": "A",
+        "e": "Từ cột C đến E có 3 cột (C, D, E); từ hàng 3 đến 6 có 4 hàng (3, 4, 5, 6); tổng = 3 × 4 = 12 ô.",
+        "s": "Tin Học 7",
+        "h": "Đếm số ô trong một vùng"
+      },
+      {
+        "c": "TH7-B04-009",
+        "d": "application",
+        "p": "Khi nhìn vào ô tính thấy xuất hiện hàng loạt dấu thăng \"######\" thay vì con số đã nhập, nguyên nhân đơn giản nhất là gì?",
+        "o": [
+          "Máy tính đã mất kết nối Internet",
+          "Công thức bị chia cho số 0",
+          "Tệp bảng tính bị nhiễm vi-rút nặng",
+          "Độ rộng của cột hiện tại quá hẹp không hiển thị hết toàn bộ con số"
+        ],
+        "k": "D",
+        "e": "Chỉ cần kéo mở rộng độ rộng cột chứa ô đó là con số sẽ hiện đầy đủ bình thường.",
+        "s": "Tin Học 7",
+        "h": "Xử lí lỗi hiển thị ######"
+      },
+      {
+        "c": "TH7-B04-010",
+        "d": "application",
+        "p": "Nếu ô A1 chứa số 12 và ô B1 chứa số 4, công thức `=(A1+B1)*2` cho kết quả bằng bao nhiêu?",
+        "o": [
+          "32",
+          "20",
+          "48",
+          "28"
+        ],
+        "k": "A",
+        "e": "Tính trong ngoặc trước: 12 + 4 = 16, sau đó 16 × 2 = 32.",
+        "s": "Tin Học 7",
+        "h": "Thứ tự ưu tiên phép tính"
+      },
+      {
+        "c": "TH7-B04-011",
+        "d": "application",
+        "p": "Khi cần sao chép công thức ở ô C2 (`=A2*B2`) xuống ô C3, địa chỉ tự động điều chỉnh thành gì?",
+        "o": [
+          "=A1*B1",
+          "=B3*C3",
+          "=A2*B2",
+          "=A3*B3"
+        ],
+        "k": "D",
+        "e": "Địa chỉ tương đối tự động tăng chỉ số hàng tương ứng theo chiều sao chép xuống dưới.",
+        "s": "Tin Học 7",
+        "h": "Tự điều chỉnh địa chỉ khi sao chép"
+      },
+      {
+        "c": "TH7-B04-012",
+        "d": "application",
+        "p": "Trong công thức bảng tính, kí hiệu phép toán lũy thừa (ví dụ 3 mũ 2) viết bằng dấu nào?",
+        "o": [
+          "Dấu phần trăm (%), ví dụ =3%2",
+          "Dấu mũ (^), ví dụ =3^2",
+          "Dấu đô la ($), ví dụ =3$2",
+          "Dấu sao (*), ví dụ =3*2"
+        ],
+        "k": "B",
+        "e": "Các phép toán Excel: cộng (+), trừ (-), nhân (*), chia (/), lũy thừa (^).",
+        "s": "Tin Học 7",
+        "h": "Phép toán lũy thừa trong bảng tính"
+      },
+      {
+        "c": "TH7-B04-013",
+        "d": "advanced",
+        "p": "Một bảng điểm có ô A2=8, B2=9. Khi bạn Hoa gõ vào ô C2 dòng chữ `A2+B2` (quên dấu =) rồi nhấn Enter, chuyện gì hiện trên ô C2?",
+        "o": [
+          "Ô C2 báo lỗi #DIV/0!",
+          "Ô C2 vẫn tự hiểu và ra kết quả 17",
+          "Phần mềm tự động xóa ô A2 và B2",
+          "Ô C2 hiển thị nguyên chuỗi chữ \"A2+B2\" nằm căn lề trái chứ không ra số 17"
+        ],
+        "k": "D",
+        "e": "Không có dấu = ở đầu thì mọi nội dung nhập vào đều được lưu trữ dưới dạng dữ liệu văn bản.",
+        "s": "Tin Học 7",
+        "h": "Lỗi quên dấu bằng công thức"
+      },
+      {
+        "c": "TH7-B04-014",
+        "d": "advanced",
+        "p": "Giả sử muốn tính giá trị trung bình cộng các ô A1=6, B1=8, C1=10 bằng công thức số học thường, cách viết nào đúng thứ tự ưu tiên phép toán?",
+        "o": [
+          "=(A1+B1+C1)/3",
+          "=A1/3+B1+C1",
+          "=A1+B1+C1/3",
+          "=A1+B1+(C1/3)"
+        ],
+        "k": "A",
+        "e": "Phép chia có độ ưu tiên cao hơn phép cộng; phải bọc tổng trong ngoặc đơn (A1+B1+C1) trước khi chia 3.",
+        "s": "Tin Học 7",
+        "h": "Tránh sai thứ tự phép chia"
+      },
+      {
+        "c": "TH7-B04-015",
+        "d": "advanced",
+        "p": "Trong ô tính, khi bạn nhập số điện thoại bắt đầu bằng số 0 là \"0912345678\" theo mặc định, số 0 đầu biến mất thành \"912345678\". Cách nhập giữ nguyên số 0 đầu nhanh nhất là gì?",
+        "o": [
+          "Thêm dấu bằng (=) vào đầu dãy số",
+          "Nhân cả số điện thoại đó với 10",
+          "Gõ dấu nháy đơn (') ngay trước số 0, ví dụ: '0912345678 để lưu dạng văn bản",
+          "Đổi tên tệp thành .txt"
+        ],
+        "k": "C",
+        "e": "Dấu nháy đơn đầu chuỗi báo hiệu phần mềm giữ nguyên định dạng văn bản, không tự động rút gọn số 0 vô nghĩa.",
+        "s": "Tin Học 7",
+        "h": "Mẹo nhập số 0 ở đầu"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc7-c2",
+    "lesson": {
+      "code": "tinhoc7-b05",
+      "title": "Bài 5. Các hàm cơ bản trong bảng tính và định dạng trang tính",
+      "seq": 5,
+      "subtitle": "Sử dụng hàm SUM, AVERAGE, MAX, MIN, COUNT và định dạng bảng tính chuyên nghiệp",
+      "concepts": [
+        "Hàm SUM và AVERAGE",
+        "Hàm MAX, MIN và COUNT",
+        "Định dạng số, viền bảng và màu ô"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH7-B05-001",
+        "d": "basic",
+        "p": "Hàm nào trong phần mềm bảng tính dùng để tính TỔNG giá trị các ô số trong một vùng?",
+        "o": [
+          "SUM",
+          "AVERAGE",
+          "MIN",
+          "MAX"
+        ],
+        "k": "A",
+        "e": "SUM(vùng_dữ_liệu) cộng toàn bộ các giá trị số hợp lệ.",
+        "s": "Tin Học 7",
+        "h": "Hàm tính tổng SUM"
+      },
+      {
+        "c": "TH7-B05-002",
+        "d": "basic",
+        "p": "Để tính trung bình cộng của dãy điểm thi từ ô B2 đến ô B10, ta dùng hàm nào?",
+        "o": [
+          "=MAX(B2:B10)",
+          "=SUM(B2:B10)",
+          "=AVERAGE(B2:B10)",
+          "=MIN(B2:B10)"
+        ],
+        "k": "C",
+        "e": "Hàm AVERAGE tính trung bình cộng các ô số trong danh sách đối số.",
+        "s": "Tin Học 7",
+        "h": "Hàm tính trung bình AVERAGE"
+      },
+      {
+        "c": "TH7-B05-003",
+        "d": "basic",
+        "p": "Hàm MAX trả về kết quả gì cho vùng dữ liệu số được chọn?",
+        "o": [
+          "Giá trị nhỏ nhất trong vùng",
+          "Số lượng ô chứa số",
+          "Tổng cộng các ô",
+          "Giá trị lớn nhất trong vùng"
+        ],
+        "k": "D",
+        "e": "MAX (Maximum) tìm giá trị lớn nhất; MIN (Minimum) tìm giá trị nhỏ nhất.",
+        "s": "Tin Học 7",
+        "h": "Hàm tìm giá trị lớn nhất MAX"
+      },
+      {
+        "c": "TH7-B05-004",
+        "d": "basic",
+        "p": "Hàm nào trả về giá trị nhỏ nhất trong tập hợp các ô dữ liệu số?",
+        "o": [
+          "MIN",
+          "SUM",
+          "MAX",
+          "AVERAGE"
+        ],
+        "k": "A",
+        "e": "Hàm MIN tìm số bé nhất trong vùng hoặc các đối số truyền vào.",
+        "s": "Tin Học 7",
+        "h": "Hàm tìm giá trị nhỏ nhất MIN"
+      },
+      {
+        "c": "TH7-B05-005",
+        "d": "basic",
+        "p": "Để đếm xem trong vùng C2:C20 có bao nhiêu ô chứa dữ liệu kiểu SỐ, em sử dụng hàm nào?",
+        "o": [
+          "AVERAGE",
+          "COUNT",
+          "SUM",
+          "MAX"
+        ],
+        "k": "B",
+        "e": "Hàm COUNT đếm số lượng ô có giá trị số (bỏ qua ô trống hoặc ô chứa chữ).",
+        "s": "Tin Học 7",
+        "h": "Hàm đếm số COUNT"
+      },
+      {
+        "c": "TH7-B05-006",
+        "d": "basic",
+        "p": "Nút lệnh có biểu tượng cái xô sơn đổ màu (Fill Color) trên thanh công cụ bảng tính dùng để làm gì?",
+        "o": [
+          "Sắp xếp danh sách từ lớn đến bé",
+          "Tô màu nền cho các ô tính đang được chọn",
+          "Xóa công thức trong ô",
+          "Thay đổi kiểu chữ in nghiêng"
+        ],
+        "k": "B",
+        "e": "Fill Color tô màu nền giúp phân biệt hàng tiêu đề, hàng tổng kết rất trực quan.",
+        "s": "Tin Học 7",
+        "h": "Định dạng màu nền ô"
+      },
+      {
+        "c": "TH7-B05-007",
+        "d": "application",
+        "p": "Quan sát bảng điểm ở hình, công thức `=AVERAGE(B2:D2)` cho kết quả điểm trung bình của bạn An bằng bao nhiêu?",
+        "o": [
+          "8",
+          "9",
+          "7",
+          "24"
+        ],
+        "k": "A",
+        "e": "Điểm của An là 7, 8, 9 → tổng = 24 → trung bình = 24 chia 3 bằng 8.",
+        "s": "Tin Học 7",
+        "h": "Áp dụng hàm AVERAGE",
+        "fig": {
+          "type": "table",
+          "title": "Bảng điểm Tổ 1",
+          "head": [
+            "Học sinh",
+            "Toán",
+            "Văn",
+            "Tin"
+          ],
+          "rows": [
+            [
+              "An",
+              "7",
+              "8",
+              "9"
+            ],
+            [
+              "Bình",
+              "9",
+              "7",
+              "8"
+            ],
+            [
+              "Chi",
+              "10",
+              "9",
+              "8"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH7-B05-008",
+        "d": "application",
+        "p": "Từ bảng điểm Tổ 1 ở trên, công thức `=MAX(B2:B4)` của cột Toán trả về giá trị nào?",
+        "o": [
+          "7",
+          "9",
+          "26",
+          "10"
+        ],
+        "k": "D",
+        "e": "Cột Toán gồm các giá trị 7 (An), 9 (Bình), 10 (Chi) nên MAX = 10.",
+        "s": "Tin Học 7",
+        "h": "Áp dụng hàm MAX"
+      },
+      {
+        "c": "TH7-B05-009",
+        "d": "application",
+        "p": "Từ bảng điểm Tổ 1, kết quả của biểu thức `=SUM(D2:D4)-MIN(D2:D4)` ở cột Tin là bao nhiêu?",
+        "o": [
+          "9",
+          "8",
+          "25",
+          "17"
+        ],
+        "k": "D",
+        "e": "Cột Tin gồm 9, 8, 8: SUM = 25, MIN = 8, suy ra 25 - 8 = 17.",
+        "s": "Tin Học 7",
+        "h": "Kết hợp hàm SUM và MIN"
+      },
+      {
+        "c": "TH7-B05-010",
+        "d": "application",
+        "p": "Để gộp nhiều ô ở dòng đầu tiên thành một ô tiêu đề chung căn giữa bảng tính, em dùng nút lệnh nào?",
+        "o": [
+          "Merge & Center",
+          "Wrap Text",
+          "AutoSum",
+          "Increase Decimal"
+        ],
+        "k": "A",
+        "e": "Merge & Center hợp nhất các ô được chọn và tự động căn chữ vào chính giữa.",
+        "s": "Tin Học 7",
+        "h": "Nút Merge and Center"
+      },
+      {
+        "c": "TH7-B05-011",
+        "d": "application",
+        "p": "Khi văn bản tiêu đề trong một ô bị dài quá chiều rộng cột mà em muốn chữ tự xuống dòng ngay bên trong chính ô đó thay vì tràn sang cột bên cạnh, em bật tính năng nào?",
+        "o": [
+          "Hide Column",
+          "Wrap Text (Ngắt dòng tự động trong ô)",
+          "Sort Z to A",
+          "Delete Sheet (Xóa trang tính)"
+        ],
+        "k": "B",
+        "e": "Wrap Text giữ nguyên độ rộng cột và tự động tăng chiều cao hàng để hiển thị đủ nhiều dòng chữ.",
+        "s": "Tin Học 7",
+        "h": "Tính năng Wrap Text"
+      },
+      {
+        "c": "TH7-B05-012",
+        "d": "application",
+        "p": "Nút lệnh có biểu tượng kí hiệu `0.00` kèm mũi tên sang trái hoặc sang phải trên dải Ribbon bảng tính dùng để làm gì?",
+        "o": [
+          "Đổi màu viền khung bảng",
+          "Chuyển dữ liệu số sang chữ viết hoa",
+          "Tăng hoặc giảm số chữ số phần thập phân hiển thị sau dấu phẩy",
+          "Chèn thêm một hàng trống mới"
+        ],
+        "k": "C",
+        "e": "Increase và Decrease Decimal giúp làm tròn số hiển thị (ví dụ 8,6666... gọn thành 8,67).",
+        "s": "Tin Học 7",
+        "h": "Chỉnh chữ số thập phân"
+      },
+      {
+        "c": "TH7-B05-013",
+        "d": "advanced",
+        "p": "Trong vùng A1:A5 chứa các giá trị: A1=10, A2=\"Vắng\", A3=8, A4=(ô trống), A5=6. Kết quả của `=AVERAGE(A1:A5)` bằng bao nhiêu?",
+        "o": [
+          "6",
+          "8",
+          "4,8",
+          "24"
+        ],
+        "k": "B",
+        "e": "Hàm AVERAGE bỏ qua ô chứa chữ (\"Vắng\") và ô trống, chỉ chia cho 3 ô có số: (10 + 8 + 6) chia 3 bằng 8.",
+        "s": "Tin Học 7",
+        "h": "Cách AVERAGE xử lí ô chữ và ô trống"
+      },
+      {
+        "c": "TH7-B05-014",
+        "d": "advanced",
+        "p": "Với cùng vùng dữ liệu câu trên (A1=10, A2=\"Vắng\", A3=8, A4=trống, A5=6), kết quả của `=COUNT(A1:A5)` bằng bao nhiêu?",
+        "o": [
+          "2",
+          "4",
+          "5",
+          "3"
+        ],
+        "k": "D",
+        "e": "COUNT chỉ đếm những ô chứa giá trị số (A1, A3, A5), kết quả là 3.",
+        "s": "Tin Học 7",
+        "h": "Hàm COUNT bỏ qua ô chữ và trống"
+      },
+      {
+        "c": "TH7-B05-015",
+        "d": "advanced",
+        "p": "Công thức nào tính đúng: cộng tổng hai vùng B2:B5 và D2:D5 trong cùng một hàm SUM duy nhất?",
+        "o": [
+          "=B2:B5+D2:D5",
+          "=SUM(B2:B5, D2:D5)",
+          "=SUM(B2:D5)",
+          "=SUM(B2-B5+D2-D5)"
+        ],
+        "k": "B",
+        "e": "Các vùng rời nhau được phân tách bằng dấu phẩy trong đối số của SUM; B2:D5 sẽ lấy nhầm cả cột C ở giữa.",
+        "s": "Tin Học 7",
+        "h": "Tính tổng nhiều vùng rời nhau"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc7-c2",
+    "lesson": {
+      "code": "tinhoc7-b06",
+      "title": "Bài 6. Ôn tập Học kì 1 – Tin học 7",
+      "seq": 6,
+      "subtitle": "Tổng hợp kiến thức Học kì 1: Thiết bị vào-ra, Hệ điều hành, Ứng xử mạng xã hội và Bảng tính điện tử",
+      "concepts": [
+        "Ôn tập phần cứng và tệp",
+        "An toàn mạng xã hội",
+        "Hàm và công thức bảng tính"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH7-B06-001",
+        "d": "basic",
+        "p": "Trong các thiết bị sau, thiết bị nào đóng vai trò là thiết bị nhập (vào) âm thanh vào máy tính?",
+        "o": [
+          "Máy in",
+          "Máy chiếu",
+          "Loa thùng",
+          "Micrô"
+        ],
+        "k": "D",
+        "e": "Micrô thu sóng âm thanh biến thành tín hiệu số truyền vào máy tính.",
+        "s": "Tin Học 7",
+        "h": "Ôn tập thiết bị vào"
+      },
+      {
+        "c": "TH7-B06-002",
+        "d": "basic",
+        "p": "Hệ điều hành không làm nhiệm vụ nào dưới đây?",
+        "o": [
+          "Tổ chức lưu trữ tệp và thư mục trên ổ đĩa",
+          "Quản lí tài nguyên bộ nhớ RAM và CPU",
+          "Tự sáng tác nội dung bài văn thay cho học sinh",
+          "Làm môi trường cho phần mềm ứng dụng chạy"
+        ],
+        "k": "C",
+        "e": "Hệ điều hành điều phối phần cứng và tệp dữ liệu, không tự sáng tác thay con người.",
+        "s": "Tin Học 7",
+        "h": "Ôn tập chức năng HĐH"
+      },
+      {
+        "c": "TH7-B06-003",
+        "d": "basic",
+        "p": "Khi tham gia mạng xã hội, hành động nào đảm bảo an toàn cho tài khoản cá nhân?",
+        "o": [
+          "Bật xác thực hai yếu tố và không chia sẻ mật khẩu",
+          "Dùng chung một mật khẩu 123456 cho mọi nơi",
+          "Đăng nhập trên máy lạ rồi quên đăng xuất",
+          "Gửi mã OTP tin nhắn cho người lạ"
+        ],
+        "k": "A",
+        "e": "Bảo mật hai lớp và giữ bí mật OTP giúp khóa chặt tài khoản trước kẻ xâm nhập.",
+        "s": "Tin Học 7",
+        "h": "Ôn tập an toàn mạng xã hội"
+      },
+      {
+        "c": "TH7-B06-004",
+        "d": "basic",
+        "p": "Kí hiệu địa chỉ ô nằm ở cột H hàng 25 trong bảng tính là gì?",
+        "o": [
+          "H25",
+          "25:H",
+          "H:25",
+          "25H"
+        ],
+        "k": "A",
+        "e": "Tên cột viết trước, số thứ tự hàng viết sau: H25.",
+        "s": "Tin Học 7",
+        "h": "Ôn tập địa chỉ ô"
+      },
+      {
+        "c": "TH7-B06-005",
+        "d": "basic",
+        "p": "Hàm nào dùng để tìm điểm cao nhất trong cột Điểm thi?",
+        "o": [
+          "MAX",
+          "MIN",
+          "SUM",
+          "COUNT"
+        ],
+        "k": "A",
+        "e": "Hàm MAX trích xuất giá trị lớn nhất trong tập hợp số.",
+        "s": "Tin Học 7",
+        "h": "Ôn tập hàm MAX"
+      },
+      {
+        "c": "TH7-B06-006",
+        "d": "basic",
+        "p": "Định dạng phần mở rộng mặc định của tệp bảng tính Microsoft Excel phiên bản mới là gì?",
+        "o": [
+          ".xlsx",
+          ".docx",
+          ".pptx",
+          ".mp4"
+        ],
+        "k": "A",
+        "e": ".xlsx là tệp Excel; .docx là Word; .pptx là PowerPoint; .mp4 là video.",
+        "s": "Tin Học 7",
+        "h": "Ôn tập đuôi tệp văn phòng"
+      },
+      {
+        "c": "TH7-B06-007",
+        "d": "application",
+        "p": "Bạn Minh muốn chiếu bài thuyết trình có âm thanh từ laptop ra màn hình lớn tivi thông minh bằng 1 dây cáp duy nhất. Cáp nào đáp ứng được?",
+        "o": [
+          "Cáp nguồn điện",
+          "Cáp tai nghe một chiều",
+          "Cáp VGA đơn thuần",
+          "Cáp HDMI"
+        ],
+        "k": "D",
+        "e": "HDMI truyền cả hình và tiếng chất lượng cao qua một dây cắm duy nhất.",
+        "s": "Tin Học 7",
+        "h": "Chọn dây kết nối trình chiếu"
+      },
+      {
+        "c": "TH7-B06-008",
+        "d": "application",
+        "p": "Một thư mục chứa 4 tệp ảnh với phần mở rộng: `.jpg`, `.png`, `.bmp`, `.mp3`. Tệp nào lạc loại không phải tệp hình ảnh?",
+        "o": [
+          "Tệp .jpg",
+          "Tệp .mp3",
+          "Tệp .png",
+          "Tệp .bmp"
+        ],
+        "k": "B",
+        "e": ".mp3 là tệp âm thanh nén, còn ba đuôi còn lại đều là định dạng ảnh.",
+        "s": "Tin Học 7",
+        "h": "Phân loại đuôi tệp"
+      },
+      {
+        "c": "TH7-B06-009",
+        "d": "application",
+        "p": "Cho bảng tính: ô A1=5, A2=10, A3=15, A4=20. Công thức `=SUM(A1:A4)/COUNT(A1:A4)` cho kết quả bằng bao nhiêu?",
+        "o": [
+          "12,5",
+          "15",
+          "50",
+          "4"
+        ],
+        "k": "A",
+        "e": "SUM = 50, COUNT = 4, 50 chia 4 bằng 12,5 (tương đương hàm AVERAGE).",
+        "s": "Tin Học 7",
+        "h": "Tính kết hợp SUM và COUNT"
+      },
+      {
+        "c": "TH7-B06-010",
+        "d": "application",
+        "p": "Nếu tại ô B5 có công thức `=B2+B3*B4` với B2=4, B3=5, B4=2 thì kết quả là bao nhiêu?",
+        "o": [
+          "18",
+          "14",
+          "11",
+          "28"
+        ],
+        "k": "B",
+        "e": "Nhân chia trước cộng trừ sau: 5 × 2 = 10, rồi 4 + 10 = 14.",
+        "s": "Tin Học 7",
+        "h": "Thứ tự thực hiện phép tính"
+      },
+      {
+        "c": "TH7-B06-011",
+        "d": "application",
+        "p": "Tình huống: Bạn A quay clip bạn B ngã ngoài sân trường rồi đăng lên mạng kèm lời chế giễu. Theo quy tắc ứng xử văn minh, điều này sai ở đâu?",
+        "o": [
+          "Vì chưa cài thêm nhạc nền sôi động",
+          "Xâm phạm quyền riêng tư hình ảnh cá nhân và gây tổn thương tinh thần cho bạn",
+          "Vì video quay vào buổi sáng ánh sáng yếu",
+          "Không sai gì vì ai cũng có quyền quay phim bạn"
+        ],
+        "k": "B",
+        "e": "Sử dụng hình ảnh người khác để trêu chọc, hạ thấp danh dự trên mạng là hành vi bắt nạt mạng.",
+        "s": "Tin Học 7",
+        "h": "Đánh giá hành vi trên mạng"
+      },
+      {
+        "c": "TH7-B06-012",
+        "d": "application",
+        "p": "Khi cần lưu trữ một tệp bảng tính quan trọng vào thư mục dự phòng trên ổ D với tên mới mà vẫn giữ nguyên tệp gốc cũ, em dùng lệnh nào?",
+        "o": [
+          "File → Close",
+          "File → Save As",
+          "Delete File",
+          "File → Print"
+        ],
+        "k": "B",
+        "e": "Save As tạo bản sao mới ở đường dẫn hoặc tên mới mà không ghi đè tệp cũ.",
+        "s": "Tin Học 7",
+        "h": "Phân biệt Save và Save As"
+      },
+      {
+        "c": "TH7-B06-013",
+        "d": "advanced",
+        "p": "Xem bảng chi tiêu câu lạc bộ: Tổng thu là ô B5, tổng chi các khoản là B2:B4. Công thức tính số tiền còn dư vào ô B6 là gì?",
+        "o": [
+          "=B5+AVERAGE(B2:B4)",
+          "=B5-SUM(B2:B4)",
+          "=SUM(B2:B5)",
+          "=MAX(B2:B4)-B5"
+        ],
+        "k": "B",
+        "e": "Số dư = Tổng thu (B5) trừ đi Tổng chi SUM(B2:B4).",
+        "s": "Tin Học 7",
+        "h": "Lập công thức tài chính bảng tính",
+        "fig": {
+          "type": "table",
+          "title": "Chi tiêu CLB tháng 11",
+          "head": [
+            "Khoản mục",
+            "Số tiền (đ)"
+          ],
+          "rows": [
+            [
+              "Giấy màu (B2)",
+              "45000"
+            ],
+            [
+              "Bút dạ (B3)",
+              "35000"
+            ],
+            [
+              "Nước uống (B4)",
+              "20000"
+            ],
+            [
+              "Quỹ thu (B5)",
+              "150000"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH7-B06-014",
+        "d": "advanced",
+        "p": "Theo bảng Chi tiêu CLB tháng 11 ở câu trên, giá trị số tiền còn dư tính được tại ô B6 là bao nhiêu đồng?",
+        "o": [
+          "250000",
+          "100000",
+          "150000",
+          "50000"
+        ],
+        "k": "D",
+        "e": "Tổng chi = 45.000 + 35.000 + 20.000 = 100.000; Quỹ dư = 150.000 - 100.000 = 50.000 đồng.",
+        "s": "Tin Học 7",
+        "h": "Tính toán số dư câu lạc bộ"
+      },
+      {
+        "c": "TH7-B06-015",
+        "d": "advanced",
+        "p": "Khi sao chép công thức `=B2+C2` ở ô D2 sang ô E2 bên phải, công thức tại E2 thay đổi thành gì và tại sao?",
+        "o": [
+          "Thành `=C2+D2` vì dịch sang phải 1 cột nên mỗi tên cột tăng thêm 1 bậc chữ cái",
+          "Thành `=B3+C3` vì tăng chỉ số hàng",
+          "Giữ nguyên `=B2+C2` trong mọi trường hợp",
+          "Báo lỗi #NAME? ngay lập tức"
+        ],
+        "k": "A",
+        "e": "Địa chỉ tương đối tự tịnh tiến tên cột khi kéo ngang và tự tịnh tiến số hàng khi kéo dọc.",
+        "s": "Tin Học 7",
+        "h": "Hiểu dịch chuyển địa chỉ tương đối"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc7-c3",
+    "lesson": {
+      "code": "tinhoc7-b07",
+      "title": "Bài 7. Xử lí bảng tính thực tế và in trang tính",
+      "seq": 7,
+      "subtitle": "Chèn xóa hàng cột, điều chỉnh độ rộng, sắp xếp đơn giản và thiết lập in trang bảng tính",
+      "concepts": [
+        "Chỉnh sửa cấu trúc hàng cột",
+        "Tạo bảng dự án thực hành",
+        "Thiết lập in trang tính vừa khổ giấy"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH7-B07-001",
+        "d": "basic",
+        "p": "Để điều chỉnh tự động độ rộng một cột vừa khít với dữ liệu dài nhất bên trong cột đó, em thao tác nhanh thế nào?",
+        "o": [
+          "Đổi cỡ chữ toàn bảng về 100",
+          "Tô màu đen toàn bộ cột",
+          "Nhấn phím Delete ở ô đầu cột",
+          "Nháy đúp chuột vào đường biên phải của tiêu đề cột đó"
+        ],
+        "k": "D",
+        "e": "Nháy đúp vào vạch phân cách bên phải tên cột (AutoFit) co giãn cột vừa khít nội dung.",
+        "s": "Tin Học 7",
+        "h": "Tự động vừa khít độ rộng cột"
+      },
+      {
+        "c": "TH7-B07-002",
+        "d": "basic",
+        "p": "Trong bảng tính, một tệp bảng tính có thể chứa nhiều trang tính khác nhau (Sheet1, Sheet2...). Thanh hiển thị tên các trang tính nằm ở đâu?",
+        "o": [
+          "Ở góc trên bên phải gần nút đóng",
+          "Ở chính giữa thanh tiêu đề trên cùng",
+          "Bên trong menu Phông chữ",
+          "Ở góc dưới bên trái cửa sổ phần mềm bảng tính"
+        ],
+        "k": "D",
+        "e": "Các thẻ Sheet nằm ở mép dưới, cho phép chuyển đổi, đổi tên hoặc thêm trang tính mới.",
+        "s": "Tin Học 7",
+        "h": "Vị trí thẻ trang tính (Sheet)"
+      },
+      {
+        "c": "TH7-B07-003",
+        "d": "basic",
+        "p": "Khi muốn chèn thêm một hàng mới nằm ngay phía trên hàng số 5, em nhấp chuột phải vào số thứ tự hàng 5 rồi chọn lệnh gì?",
+        "o": [
+          "Delete",
+          "Insert",
+          "Clear Contents",
+          "Hide"
+        ],
+        "k": "B",
+        "e": "Insert chèn hàng mới ngay phía trên hàng đang chọn (với cột là bên trái cột đang chọn).",
+        "s": "Tin Học 7",
+        "h": "Chèn hàng trong bảng tính"
+      },
+      {
+        "c": "TH7-B07-004",
+        "d": "basic",
+        "p": "Khác biệt giữa nút \"Delete\" trên bàn phím và lệnh \"Delete Rows\" khi chọn cả một hàng bảng tính là gì?",
+        "o": [
+          "Phím Delete chỉ xóa nội dung trong các ô; Delete Rows xóa mất hẳn cả hàng đó khỏi bảng",
+          "Phím Delete làm tắt máy tính",
+          "Delete Rows đổi màu chữ sang trắng",
+          "Hai thao tác giống nhau hoàn toàn"
+        ],
+        "k": "A",
+        "e": "Phím Delete chỉ làm rỗng dữ liệu, còn Delete Rows rút gọn cấu trúc hàng và đẩy các hàng dưới lên.",
+        "s": "Tin Học 7",
+        "h": "Phân biệt xóa nội dung và xóa hàng"
+      },
+      {
+        "c": "TH7-B07-005",
+        "d": "basic",
+        "p": "Để in bảng tính có nhiều cột vừa gọn bề ngang trên đúng 1 trang giấy khi xem trước, em chọn tùy chọn tỷ lệ nào trong trang Print?",
+        "o": [
+          "Print Selection Only",
+          "Fit All Columns on One Page (Thu vừa tất cả các cột vào 1 trang)",
+          "No Scaling (Không co giãn)",
+          "Hide All Data"
+        ],
+        "k": "B",
+        "e": "Tùy chọn Fit All Columns on One Page tự thu tỷ lệ hợp lí để tránh bị cắt cột lẻ sang trang bên cạnh.",
+        "s": "Tin Học 7",
+        "h": "Thiết lập in vừa chiều ngang"
+      },
+      {
+        "c": "TH7-B07-006",
+        "d": "basic",
+        "p": "Khi bảng số liệu chưa có đường kẻ viền rõ ràng mặc dù trên màn hình có lưới mờ (Gridlines), khi in ra giấy bảng sẽ trông thế nào nếu chưa kẻ khung?",
+        "o": [
+          "Mặc định sẽ chỉ hiện chữ và số mà không có khung viền kẻ ô đậm",
+          "Không in được bất kì chữ cái nào",
+          "Tự chuyển sang hướng giấy nằm ngang",
+          "Tự động in toàn bộ ô với nền màu đen"
+        ],
+        "k": "A",
+        "e": "Đường lưới mặc định chỉ hỗ trợ nhìn trên màn hình; muốn có khung bảng khi in cần kẻ đường viền (Borders).",
+        "s": "Tin Học 7",
+        "h": "Phân biệt lưới màn hình và Borders"
+      },
+      {
+        "c": "TH7-B07-007",
+        "d": "application",
+        "p": "Bạn Lan cần lập bảng theo dõi chi tiêu 12 tháng trên cùng một tệp Excel cho gọn. Lan nên tổ chức mỗi tháng thành gì?",
+        "o": [
+          "Chụp ảnh từng ngày lưu sang tệp âm thanh",
+          "Mỗi tháng một trang tính (Sheet) đặt tên Thang01 đến Thang12 trong cùng một tệp",
+          "Gõ dồn toàn bộ vào duy nhất ô A1",
+          "Tạo 12 thư mục riêng đặt ở 12 ổ đĩa khác nhau"
+        ],
+        "k": "B",
+        "e": "Một Workbook chứa nhiều Worksheet giúp phân tách dữ liệu 12 tháng rõ ràng và có thể tổng hợp năm dễ dàng.",
+        "s": "Tin Học 7",
+        "h": "Tổ chức nhiều trang tính"
+      },
+      {
+        "c": "TH7-B07-008",
+        "d": "application",
+        "p": "Khi tính tỉ lệ phần trăm điểm đạt trên tổng điểm (ví dụ 0,9), chọn nút biểu tượng `%` (Percent Style) trên thanh công cụ sẽ hiển thị giá trị thành gì?",
+        "o": [
+          "90%",
+          "900%",
+          "9%",
+          "0,9%"
+        ],
+        "k": "A",
+        "e": "Định dạng phần trăm nhân giá trị thập phân với 100 và gắn kí hiệu % vào sau.",
+        "s": "Tin Học 7",
+        "h": "Định dạng phần trăm (%)"
+      },
+      {
+        "c": "TH7-B07-009",
+        "d": "application",
+        "p": "Lỗi `#DIV/0!` xuất hiện trong ô công thức bảng tính có ý nghĩa gì?",
+        "o": [
+          "Công thức đang thực hiện phép chia cho số 0 hoặc ô trống",
+          "Tên hàm viết sai chính tả",
+          "Cần kết nối mạng Internet để tính",
+          "Độ rộng cột quá nhỏ"
+        ],
+        "k": "A",
+        "e": "Phép chia cho 0 không xác định trong toán học nên Excel báo #DIV/0!.",
+        "s": "Tin Học 7",
+        "h": "Đọc lỗi #DIV/0!"
+      },
+      {
+        "c": "TH7-B07-010",
+        "d": "application",
+        "p": "Lỗi `#NAME?` xảy ra khi bạn Nam gõ nhầm công thức `=SUME(B2:B10)` thay vì `=SUM(B2:B10)`. Nguyên nhân chính xác là gì?",
+        "o": [
+          "Ô B10 bị tô màu nền vàng",
+          "Phần mềm không nhận diện được tên hàm \"SUME\" vì gõ sai chính tả",
+          "Phép chia gặp số 0",
+          "Giá trị trong cột B chứa số âm"
+        ],
+        "k": "B",
+        "e": "#NAME? cảnh báo tên hàm hoặc tên vùng tham chiếu không tồn tại.",
+        "s": "Tin Học 7",
+        "h": "Đọc lỗi #NAME?"
+      },
+      {
+        "c": "TH7-B07-011",
+        "d": "application",
+        "p": "Xem bảng dự án Cây xanh trường em: công thức nào tính nhanh số cây còn sống trung bình mỗi lớp (cột D) qua 4 lớp từ hàng 2 đến hàng 5?",
+        "o": [
+          "=COUNT(D2:D5)",
+          "=AVERAGE(D2:D5)",
+          "=MAX(B2:B5)",
+          "=SUM(D2:D5)"
+        ],
+        "k": "B",
+        "e": "Cột D ghi số cây sống, từ hàng 2 đến 5 ứng với 4 lớp nên dùng =AVERAGE(D2:D5).",
+        "s": "Tin Học 7",
+        "h": "Tính trung bình dữ liệu dự án",
+        "fig": {
+          "type": "table",
+          "title": "Dự án Cây xanh trường em",
+          "head": [
+            "Lớp",
+            "Đã trồng",
+            "Bị hỏng",
+            "Còn sống"
+          ],
+          "rows": [
+            [
+              "7A",
+              "20",
+              "2",
+              "18"
+            ],
+            [
+              "7B",
+              "25",
+              "3",
+              "22"
+            ],
+            [
+              "7C",
+              "18",
+              "0",
+              "18"
+            ],
+            [
+              "7D",
+              "22",
+              "1",
+              "21"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH7-B07-012",
+        "d": "application",
+        "p": "Trong bảng dự án Cây xanh trường em ở trên, nếu cột B là Đã trồng, C là Bị hỏng thì công thức ở ô D2 để tính số cây còn sống của lớp 7A là gì?",
+        "o": [
+          "=B2*C2",
+          "=C2-B2",
+          "=B2+C2",
+          "=B2-C2"
+        ],
+        "k": "D",
+        "e": "Số cây còn sống = số đã trồng (B2) trừ số bị hỏng (C2).",
+        "s": "Tin Học 7",
+        "h": "Viết công thức tính dữ liệu hàng"
+      },
+      {
+        "c": "TH7-B07-013",
+        "d": "advanced",
+        "p": "Một bảng danh sách 45 học sinh khi cuộn xuống hàng thứ 30 thì dòng tiêu đề ở hàng 1 bị trôi mất khỏi màn hình, rất khó đối chiếu cột nào là cột nào. Tính năng nào giải quyết triệt để vấn đề này?",
+        "o": [
+          "Xóa 25 học sinh đầu danh sách đi",
+          "Copy hàng tiêu đề dán xen kẽ sau mỗi học sinh",
+          "Cố định dòng tiêu đề trên cùng bằng Freeze Panes (Freeze Top Row)",
+          "Giảm cỡ chữ xuống 5 pt cho vừa một màn hình"
+        ],
+        "k": "C",
+        "e": "Freeze Top Row giữ cố định hàng tiêu đề luôn hiển thị phía trên khi cuộn bảng dài.",
+        "s": "Tin Học 7",
+        "h": "Cố định hàng tiêu đề bảng dài"
+      },
+      {
+        "c": "TH7-B07-014",
+        "d": "advanced",
+        "p": "Khi sao chép một ô chứa công thức `=B2*C2` và dán vào một trang tính khác chỉ muốn giữ lại kết quả con số tính được mà KHÔNG mang theo công thức gốc, cần dùng lệnh dán nào?",
+        "o": [
+          "Paste Values (Dán giá trị)",
+          "Paste Formulas (Dán công thức)",
+          "Dán định dạng Format Painter",
+          "Cut và Paste thông thường"
+        ],
+        "k": "A",
+        "e": "Paste Values lấy đúng con số kết quả cố định, không tham chiếu lại ô ở bảng cũ nữa.",
+        "s": "Tin Học 7",
+        "h": "Dán giá trị Paste Values"
+      },
+      {
+        "c": "TH7-B07-015",
+        "d": "advanced",
+        "p": "Trong ô A1 đang nhập ngày tháng năm \"21/11/2026\". Khi vô tình đổi định dạng ô đó sang kiểu \"Number\", ô bỗng hiện một số nguyên lớn thay vì ngày tháng. Vì sao?",
+        "o": [
+          "Bảng tính lưu trữ ngày tháng bên trong dưới dạng số thứ tự ngày kể từ mốc lịch chuẩn (năm 1900)",
+          "Số 21 cộng 11 nhân 2026",
+          "Bảng tính bị vi-rút làm mất dữ liệu ngày",
+          "Do bàn phím đang bật phím Caps Lock"
+        ],
+        "k": "A",
+        "e": "Định dạng lại ô về kiểu Date (Ngày) sẽ hiển thị trở lại đúng định dạng 21/11/2026 nguyên vẹn.",
+        "s": "Tin Học 7",
+        "h": "Hiểu cách lưu ngày tháng trong bảng tính"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc7-c3",
+    "lesson": {
+      "code": "tinhoc7-b08",
+      "title": "Bài 8. Phần mềm trình chiếu và thiết kế bài trình bày hiệu quả",
+      "seq": 8,
+      "subtitle": "Cấu trúc bài trình chiếu PowerPoint/Impress, bố cục slide, định dạng văn bản, chèn ảnh và hiệu ứng chuyển trang hợp lí",
+      "concepts": [
+        "Bố cục bài trình chiếu khoa học",
+        "Chèn ảnh và hình khối minh họa",
+        "Hiệu ứng chuyển trang và đối tượng"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH7-B08-001",
+        "d": "basic",
+        "p": "Phần mềm nào dùng để tạo các trang chiếu (slide) phục vụ báo cáo, thuyết trình trước lớp?",
+        "o": [
+          "Microsoft Excel",
+          "Paint Brush đơn thuần",
+          "Microsoft PowerPoint hoặc LibreOffice Impress",
+          "Windows Media Player"
+        ],
+        "k": "C",
+        "e": "PowerPoint và Impress là các phần mềm trình chiếu chuyên dụng.",
+        "s": "Tin Học 7",
+        "h": "Nhận diện phần mềm trình chiếu"
+      },
+      {
+        "c": "TH7-B08-002",
+        "d": "basic",
+        "p": "Trang đầu tiên của một bài trình chiếu thường chứa những thông tin gì?",
+        "o": [
+          "Danh sách tất cả mật khẩu cá nhân",
+          "Toàn bộ nội dung chi tiết 10 trang chữ",
+          "Tên chủ đề bài trình chiếu, tên người thực hiện và nhóm hoặc lớp",
+          "Bảng tính dài 100 hàng không có tiêu đề"
+        ],
+        "k": "C",
+        "e": "Slide mở đầu giới thiệu ngắn gọn tên đề tài và tác giả trình bày.",
+        "s": "Tin Học 7",
+        "h": "Nội dung trang tiêu đề"
+      },
+      {
+        "c": "TH7-B08-003",
+        "d": "basic",
+        "p": "Phím chức năng nào trên bàn phím thường dùng để bắt đầu chế độ trình chiếu toàn màn hình từ trang đầu tiên?",
+        "o": [
+          "Phím F5",
+          "Phím Caps Lock",
+          "Phím Delete",
+          "Phím F1"
+        ],
+        "k": "A",
+        "e": "Nhấn F5 bắt đầu trình chiếu từ slide 1; Shift + F5 trình chiếu từ slide đang chọn.",
+        "s": "Tin Học 7",
+        "h": "Phím tắt trình chiếu F5"
+      },
+      {
+        "c": "TH7-B08-004",
+        "d": "basic",
+        "p": "Trong phần mềm trình chiếu, hiệu ứng áp dụng cho sự chuyển đổi qua lại giữa các trang chiếu gọi là gì?",
+        "o": [
+          "Hiệu ứng động đối tượng (Animations)",
+          "Hiệu ứng chuyển trang (Transitions)",
+          "Định dạng lề trang (Margins)",
+          "Kiểu dữ liệu tiền tệ"
+        ],
+        "k": "B",
+        "e": "Transitions kiểm soát cách slide mới xuất hiện thay thế slide trước đó.",
+        "s": "Tin Học 7",
+        "h": "Phân biệt Transitions"
+      },
+      {
+        "c": "TH7-B08-005",
+        "d": "basic",
+        "p": "Hiệu ứng làm từng dòng chữ hoặc hình ảnh bay ra xuất hiện theo thứ tự trên cùng một trang chiếu gọi là gì?",
+        "o": [
+          "Hiệu ứng chuyển trang (Transitions)",
+          "Thiết lập khổ giấy in",
+          "Hiệu ứng động (Animations)",
+          "Bộ lọc danh sách"
+        ],
+        "k": "C",
+        "e": "Animations gán chuyển động xuất hiện, nhấn mạnh hoặc biến mất cho từng đối tượng trên slide.",
+        "s": "Tin Học 7",
+        "h": "Khái niệm Animations"
+      },
+      {
+        "c": "TH7-B08-006",
+        "d": "basic",
+        "p": "Để kết thúc nhanh chế độ trình chiếu toàn màn hình và quay lại màn hình soạn thảo, em nhấn phím nào?",
+        "o": [
+          "Phím Esc",
+          "Phím Space",
+          "Phím F5",
+          "Phím Enter"
+        ],
+        "k": "A",
+        "e": "Phím Esc thoát ngay chế độ Slide Show trở về chế độ thiết kế.",
+        "s": "Tin Học 7",
+        "h": "Thoát chế độ trình chiếu"
+      },
+      {
+        "c": "TH7-B08-007",
+        "d": "application",
+        "p": "Theo quy tắc thiết kế trang chiếu đẹp dễ đọc ở bảng minh họa, cỡ chữ tối thiểu cho nội dung thân bài trên slide chiếu ở phòng học nên là bao nhiêu?",
+        "o": [
+          "Mỗi chữ một cỡ khác nhau từ 5 đến 90 pt",
+          "Từ 24 pt trở lên, tiêu đề lớn hơn từ 36 pt trở lên",
+          "Cỡ chữ 6 pt càng nhỏ càng chứa nhiều chữ",
+          "Cỡ chữ 8 pt đến 10 pt như sách in"
+        ],
+        "k": "B",
+        "e": "Cỡ chữ tối thiểu 24 pt đảm bảo học sinh ngồi cuối lớp vẫn đọc rõ thông tin trên màn chiếu.",
+        "s": "Tin Học 7",
+        "h": "Quy tắc cỡ chữ trình chiếu",
+        "fig": {
+          "type": "table",
+          "title": "Chuẩn thiết kế Slide",
+          "head": [
+            "Thành phần",
+            "Khuyến nghị"
+          ],
+          "rows": [
+            [
+              "Tiêu đề slide",
+              "36 pt - 44 pt"
+            ],
+            [
+              "Nội dung ý chính",
+              "24 pt - 28 pt"
+            ],
+            [
+              "Số dòng mỗi slide",
+              "5 - 7 gạch đầu dòng"
+            ],
+            [
+              "Tương phản màu",
+              "Chữ đậm nền sáng"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH7-B08-008",
+        "d": "application",
+        "p": "Vì sao trên mỗi trang chiếu KHÔNG nên chép nguyên cả đoạn văn dài 15–20 dòng đặc kín chữ?",
+        "o": [
+          "Vì không thể đổi màu phông chữ nếu có nhiều dòng",
+          "Gây rối mắt, người nghe chỉ lo đọc chữ trên màn hình thay vì nghe thuyết trình",
+          "Vì máy chiếu sẽ bị nóng hỏng bóng đèn ngay lập tức",
+          "Vì phần mềm chỉ cho phép tối đa 3 từ trên mỗi trang"
+        ],
+        "k": "B",
+        "e": "Slide hiệu quả dùng ý chính cô đọng và hình ảnh minh họa, phần giải thích chi tiết do người nói trình bày.",
+        "s": "Tin Học 7",
+        "h": "Nguyên tắc cô đọng nội dung slide"
+      },
+      {
+        "c": "TH7-B08-009",
+        "d": "application",
+        "p": "Cặp màu nền và màu chữ nào tạo độ tương phản tốt nhất giúp người xem dễ đọc khi chiếu lên tường lớp học có ánh sáng ban ngày?",
+        "o": [
+          "Nền ảnh phong cảnh nhiều chi tiết rực rỡ kèm chữ đỏ",
+          "Nền trắng hoặc kem rất nhạt kết hợp chữ xanh đậm hoặc đen",
+          "Nền vàng tươi kết hợp chữ trắng tinh",
+          "Nền xanh đậm kết hợp chữ đen"
+        ],
+        "k": "B",
+        "e": "Độ tương phản sáng - tối rõ ràng giữ chữ sắc nét ngay cả khi phòng học không tắt hết đèn.",
+        "s": "Tin Học 7",
+        "h": "Chọn độ tương phản màu sắc"
+      },
+      {
+        "c": "TH7-B08-010",
+        "d": "application",
+        "p": "Để chèn một biểu đồ hoặc ảnh minh họa rõ nét có sẵn trên máy tính vào slide đang thiết kế, em dùng thẻ lệnh nào?",
+        "o": [
+          "Design → Themes",
+          "Animations → Fade",
+          "Slide Show → From Beginning",
+          "Insert → Pictures"
+        ],
+        "k": "D",
+        "e": "Mọi thao tác đưa thêm ảnh, bảng, hình khối hay âm thanh vào trang chiếu đều nằm trong thẻ Insert.",
+        "s": "Tin Học 7",
+        "h": "Chèn ảnh vào slide"
+      },
+      {
+        "c": "TH7-B08-011",
+        "d": "application",
+        "p": "Thao tác nào giúp tạo nhanh một trang chiếu mới có sẵn cấu trúc giống hoặc sao chép nguyên mẫu từ trang vừa làm?",
+        "o": [
+          "Nhấp chuột phải vào hình thu nhỏ trang chiếu chọn Duplicate Slide (hoặc nhấn Ctrl + M để thêm trang mới)",
+          "Nhấn phím Delete xóa trang hiện tại",
+          "Nhấn nút Close đóng phần mềm",
+          "Đổi tên tệp sang đuôi .jpg"
+        ],
+        "k": "A",
+        "e": "Duplicate Slide nhân bản trang hoàn chỉnh để giữ thống nhất bố cục hoặc sửa nhẹ nội dung.",
+        "s": "Tin Học 7",
+        "h": "Nhân bản trang chiếu"
+      },
+      {
+        "c": "TH7-B08-012",
+        "d": "application",
+        "p": "Hiệu ứng động trên slide nên sử dụng như thế nào để đạt hiệu quả truyền đạt cao nhất?",
+        "o": [
+          "Dùng hiệu ứng kéo dài 10 giây cho mỗi gạch đầu dòng",
+          "Bật hiệu ứng âm thanh tiếng nổ to ở mọi dòng chữ",
+          "Gán mỗi chữ cái một kiểu bay nhảy xoay vòng khác nhau",
+          "Chọn 1–2 kiểu hiệu ứng nhẹ nhàng đồng bộ, chỉ nhấn mạnh vào ý cần trình bày tuần tự"
+        ],
+        "k": "D",
+        "e": "Lạm dụng hiệu ứng màu mè làm người nghe mất tập trung và kéo dài thời gian trình bày.",
+        "s": "Tin Học 7",
+        "h": "Dùng hiệu ứng hợp lí"
+      },
+      {
+        "c": "TH7-B08-013",
+        "d": "advanced",
+        "p": "Khi trình chiếu bài báo cáo nhóm có nhúng video trên một máy tính khác ở phòng hội trường, video bỗng không phát được dù trên máy nhà chạy bình thường. Giải pháp chuẩn bị an toàn trước khi đi thuyết trình là gì?",
+        "o": [
+          "Nhúng video vào tệp trình chiếu hoặc chép cả thư mục chứa tệp trình chiếu lẫn video sang máy mới và chạy thử trước",
+          "Chỉ chép riêng tệp .pptx và bỏ quên tệp video ở nhà nếu dùng liên kết ngoài",
+          "Xóa slide chứa video đi ngay lúc đang đứng trên bục",
+          "Chuyển đổi toàn bộ bài thuyết trình thành tệp âm thanh MP3"
+        ],
+        "k": "A",
+        "e": "Tệp đa phương tiện liên kết ngoài dễ mất đường dẫn khi đổi máy; luôn kiểm tra nhúng gói đầy đủ và test trước trên máy chiếu.",
+        "s": "Tin Học 7",
+        "h": "Xử lí lỗi đa phương tiện khi đổi máy"
+      },
+      {
+        "c": "TH7-B08-014",
+        "d": "advanced",
+        "p": "Để định dạng đồng bộ logo trường học, phông chữ tiêu đề và số trang tự động xuất hiện ở mọi slide chỉ bằng một lần chỉnh sửa duy nhất, em sử dụng công cụ nào?",
+        "o": [
+          "Tăng tốc độ hiệu ứng Transitions",
+          "Dùng công cụ cắt ảnh Snipping Tool",
+          "Slide Master (Trang chiếu mẫu)",
+          "Sửa thủ công từng trang trong 50 trang chiếu"
+        ],
+        "k": "C",
+        "e": "Slide Master quản lí khuôn mẫu tổng thể giúp mọi slide trong bài thuyết trình đồng bộ và chuyên nghiệp.",
+        "s": "Tin Học 7",
+        "h": "Sức mạnh của Slide Master"
+      },
+      {
+        "c": "TH7-B08-015",
+        "d": "advanced",
+        "p": "Khi xuất bài trình chiếu gửi qua email cho thầy cô tham khảo đọc trước mà muốn giữ nguyên tuyệt đối bố cục, phông chữ không bị nhảy dòng khi thầy cô mở trên điện thoại, định dạng xuất tốt nhất là gì?",
+        "o": [
+          "Chuyển sang tệp văn bản thuần .txt không định dạng",
+          "Xuất (Export / Save As) sang tệp định dạng PDF",
+          "Chụp ảnh mờ màn hình bằng điện thoại",
+          "Gửi tệp rỗng chưa lưu nội dung"
+        ],
+        "k": "B",
+        "e": "Tệp PDF đóng băng bố cục và nhúng phông chữ chuẩn nên hiển thị đồng nhất trên mọi thiết bị.",
+        "s": "Tin Học 7",
+        "h": "Xuất PDF bảo toàn bố cục"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc7-c4",
+    "lesson": {
+      "code": "tinhoc7-b09",
+      "title": "Bài 9. Thuật toán tìm kiếm tuần tự và tìm kiếm nhị phân",
+      "seq": 9,
+      "subtitle": "Tìm hiểu bài toán tìm kiếm, thuật toán tìm kiếm tuần tự và ý tưởng chia đôi của tìm kiếm nhị phân",
+      "concepts": [
+        "Tìm kiếm tuần tự",
+        "Tìm kiếm nhị phân trên dãy đã sắp xếp",
+        "So sánh số bước tìm kiếm"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH7-B09-001",
+        "d": "basic",
+        "p": "Thuật toán tìm kiếm tuần tự kiểm tra các phần tử trong danh sách theo trình tự nào?",
+        "o": [
+          "Sắp xếp lại danh sách trước khi bắt đầu mọi bước",
+          "Lần lượt từng phần tử từ đầu danh sách đến cuối danh sách cho đến khi thấy hoặc hết dãy",
+          "Kiểm tra từ vị trí ngẫu nhiên không theo thứ tự",
+          "Chỉ kiểm tra phần tử ở chính giữa rồi dừng luôn"
+        ],
+        "k": "B",
+        "e": "Tìm kiếm tuần tự duyệt tuyến tính từng phần tử từ vị trí đầu tiên.",
+        "s": "Tin Học 7",
+        "h": "Nguyên lí tìm kiếm tuần tự"
+      },
+      {
+        "c": "TH7-B09-002",
+        "d": "basic",
+        "p": "Điều kiện BẮT BUỘC của danh sách đầu vào để áp dụng được thuật toán tìm kiếm nhị phân là gì?",
+        "o": [
+          "Danh sách phải được sắp xếp theo thứ tự (tăng dần hoặc giảm dần)",
+          "Mọi phần tử trong danh sách phải là số âm",
+          "Danh sách chỉ được chứa tối đa 3 phần tử",
+          "Danh sách phải sắp xếp lộn xộn ngẫu nhiên"
+        ],
+        "k": "A",
+        "e": "Tìm kiếm nhị phân dựa trên thứ tự đã sắp xếp để loại bỏ một nửa danh sách sau mỗi lần so sánh.",
+        "s": "Tin Học 7",
+        "h": "Điều kiện của tìm kiếm nhị phân"
+      },
+      {
+        "c": "TH7-B09-003",
+        "d": "basic",
+        "p": "Trong mỗi bước so sánh của tìm kiếm nhị phân, thuật toán đối chiếu giá trị cần tìm với phần tử nào của đoạn đang xét?",
+        "o": [
+          "Phần tử cuối cùng bên phải cùng",
+          "Phần tử đầu tiên bên trái cùng",
+          "Hai phần tử bất kì ghép lại",
+          "Phần tử nằm ở vị trí chính giữa đoạn đang xét"
+        ],
+        "k": "D",
+        "e": "So sánh với phần tử giữa giúp quyết định giữ lại nửa trái hay nửa phải.",
+        "s": "Tin Học 7",
+        "h": "Chốt giữa trong tìm kiếm nhị phân"
+      },
+      {
+        "c": "TH7-B09-004",
+        "d": "basic",
+        "p": "Khi dò tìm một tên trong danh bạ điện thoại được xếp theo thứ tự bảng chữ cái A đến Z bằng cách lật từ trang giữa trang sách, ta đang áp dụng ý tưởng thuật toán nào?",
+        "o": [
+          "Sắp xếp chọn",
+          "Tìm kiếm nhị phân",
+          "Tìm kiếm tuần tự từng dòng từ trang 1",
+          "Cấu trúc lặp vô hạn"
+        ],
+        "k": "B",
+        "e": "Lật khoảng giữa và thu hẹp một nửa phạm vi tìm kiếm chính là nguyên tắc tìm kiếm nhị phân.",
+        "s": "Tin Học 7",
+        "h": "Ứng dụng tìm kiếm nhị phân thực tế"
+      },
+      {
+        "c": "TH7-B09-005",
+        "d": "basic",
+        "p": "Nếu danh sách gồm N phần tử không có trật tự và giá trị cần tìm nằm ở ngay phần tử đầu tiên, tìm kiếm tuần tự cần mấy bước so sánh?",
+        "o": [
+          "N chia 2 bước so sánh",
+          "0 bước",
+          "N bước so sánh",
+          "1 bước so sánh"
+        ],
+        "k": "D",
+        "e": "Kiểm tra phần tử đầu tiên thấy khớp ngay nên dừng lại chỉ sau 1 lần so sánh.",
+        "s": "Tin Học 7",
+        "h": "Trường hợp tốt nhất tìm tuần tự"
+      },
+      {
+        "c": "TH7-B09-006",
+        "d": "basic",
+        "p": "Nếu tìm một số KHÔNG tồn tại trong danh sách có 10 phần tử bằng thuật toán tìm kiếm tuần tự, số bước so sánh phải thực hiện là bao nhiêu?",
+        "o": [
+          "20 bước",
+          "5 bước",
+          "10 bước",
+          "1 bước"
+        ],
+        "k": "C",
+        "e": "Phải duyệt hết toàn bộ 10 phần tử mới khẳng định được giá trị không có mặt.",
+        "s": "Tin Học 7",
+        "h": "Trường hợp xấu nhất tìm tuần tự"
+      },
+      {
+        "c": "TH7-B09-007",
+        "d": "application",
+        "p": "Cho dãy số đã sắp xếp tăng dần: [3, 8, 12, 17, 24, 31, 45]. Tìm số 31 bằng tìm kiếm nhị phân, phần tử giữa đầu tiên đem ra so sánh là số nào?",
+        "o": [
+          "24",
+          "12",
+          "17",
+          "31"
+        ],
+        "k": "C",
+        "e": "Dãy có 7 phần tử (chỉ số 0..6), phần tử ở giữa (vị trí thứ 4) là 17.",
+        "s": "Tin Học 7",
+        "h": "Xác định phần tử giữa đầu tiên"
+      },
+      {
+        "c": "TH7-B09-008",
+        "d": "application",
+        "p": "Tiếp tục dãy [3, 8, 12, 17, 24, 31, 45] ở trên khi tìm số 31: sau khi thấy 31 > 17, nửa danh sách nào được giữ lại xét tiếp?",
+        "o": [
+          "[17, 24, 31]",
+          "[3, 8, 12, 17]",
+          "[24, 31, 45]",
+          "[3, 8, 12]"
+        ],
+        "k": "C",
+        "e": "Vì 31 > 17 và dãy tăng dần nên 31 chỉ có thể nằm ở nửa bên phải sau 17 là [24, 31, 45].",
+        "s": "Tin Học 7",
+        "h": "Thu hẹp phạm vi tìm kiếm nhị phân"
+      },
+      {
+        "c": "TH7-B09-009",
+        "d": "application",
+        "p": "Tìm số 25 trong danh sách chưa sắp xếp: [14, 9, 32, 25, 18, 7] bằng tìm kiếm tuần tự từ trái sang phải. Cần bao nhiêu phép so sánh để tìm thấy 25?",
+        "o": [
+          "1 phép so sánh",
+          "6 phép so sánh",
+          "3 phép so sánh",
+          "4 phép so sánh"
+        ],
+        "k": "D",
+        "e": "So sánh lần lượt với 14 (1), 9 (2), 32 (3), 25 (4) → tìm thấy ở bước thứ 4.",
+        "s": "Tin Học 7",
+        "h": "Đếm bước tìm kiếm tuần tự"
+      },
+      {
+        "c": "TH7-B09-010",
+        "d": "application",
+        "p": "Quan sát bảng số bước tối đa ở hình vẽ, với một dãy đã sắp xếp có 1024 phần tử, tìm kiếm nhị phân mất tối đa khoảng bao nhiêu bước (so với 1024 bước của tuần tự)?",
+        "o": [
+          "Khoảng 2048 bước",
+          "Khoảng 10 đến 11 bước",
+          "Đúng 1024 bước",
+          "Khoảng 512 bước"
+        ],
+        "k": "B",
+        "e": "Mỗi bước chia đôi danh sách: 1024 → 512 → 256 → 128 → 64 → 32 → 16 → 8 → 4 → 2 → 1 (10 lần chia đôi).",
+        "s": "Tin Học 7",
+        "h": "Hiệu quả vượt trội tìm kiếm nhị phân",
+        "fig": {
+          "type": "table",
+          "title": "Số bước tối đa theo cỡ dãy",
+          "head": [
+            "Số phần tử",
+            "Tuần tự",
+            "Nhị phân"
+          ],
+          "rows": [
+            [
+              "16",
+              "16 bước",
+              "5 bước"
+            ],
+            [
+              "64",
+              "64 bước",
+              "7 bước"
+            ],
+            [
+              "256",
+              "256 bước",
+              "9 bước"
+            ],
+            [
+              "1024",
+              "1024 bước",
+              "11 bước"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH7-B09-011",
+        "d": "application",
+        "p": "Dựa vào sơ đồ rẽ nhánh tìm kiếm, khi khóa K cần tìm bằng đúng giá trị phần tử giữa M (K = M) thì thuật toán làm gì?",
+        "o": [
+          "Đổi giá trị K bằng 0 rồi chạy lại từ đầu",
+          "Tiếp tục chia đôi sang nửa bên trái",
+          "Tiếp tục chia đôi sang nửa bên phải",
+          "Thông báo tìm thấy tại vị trí giữa và kết thúc thuật toán"
+        ],
+        "k": "D",
+        "e": "Gặp đúng K = M là tìm thấy ngay mục tiêu nên kết thúc.",
+        "s": "Tin Học 7",
+        "h": "Điều kiện dừng khi tìm thấy",
+        "fig": {
+          "w": 320,
+          "h": 185,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  100,
+                  14
+                ],
+                [
+                  220,
+                  14
+                ],
+                [
+                  220,
+                  44
+                ],
+                [
+                  100,
+                  44
+                ]
+              ],
+              "fill": "#dcfce7",
+              "stroke": "#16a34a",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                33
+              ],
+              "s": "Lấy phần tử giữa M",
+              "anchor": "middle",
+              "size": 11.5
+            },
+            {
+              "t": "line",
+              "a": [
+                160,
+                44
+              ],
+              "b": [
+                160,
+                62
+              ],
+              "arrow": true,
+              "color": "#334155",
+              "w": 2
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  160,
+                  64
+                ],
+                [
+                  235,
+                  94
+                ],
+                [
+                  160,
+                  124
+                ],
+                [
+                  85,
+                  94
+                ]
+              ],
+              "fill": "#fef3c7",
+              "stroke": "#d97706",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                98
+              ],
+              "s": "K = M?",
+              "anchor": "middle",
+              "size": 11.5
+            },
+            {
+              "t": "line",
+              "a": [
+                85,
+                94
+              ],
+              "b": [
+                55,
+                138
+              ],
+              "arrow": true,
+              "color": "#16a34a",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                58,
+                110
+              ],
+              "s": "Đúng",
+              "anchor": "middle",
+              "size": 10.5,
+              "color": "#15803d"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  10,
+                  140
+                ],
+                [
+                  135,
+                  140
+                ],
+                [
+                  135,
+                  170
+                ],
+                [
+                  10,
+                  170
+                ]
+              ],
+              "fill": "#dbeafe",
+              "stroke": "#2563eb",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                72,
+                159
+              ],
+              "s": "Trả về vị trí M",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "line",
+              "a": [
+                235,
+                94
+              ],
+              "b": [
+                265,
+                138
+              ],
+              "arrow": true,
+              "color": "#dc2626",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                264,
+                110
+              ],
+              "s": "Sai",
+              "anchor": "middle",
+              "size": 10.5,
+              "color": "#dc2626"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  185,
+                  140
+                ],
+                [
+                  310,
+                  140
+                ],
+                [
+                  310,
+                  170
+                ],
+                [
+                  185,
+                  170
+                ]
+              ],
+              "fill": "#fee2e2",
+              "stroke": "#dc2626",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                247,
+                159
+              ],
+              "s": "Chọn nửa trái hoặc phải",
+              "anchor": "middle",
+              "size": 11
+            }
+          ]
+        }
+      },
+      {
+        "c": "TH7-B09-012",
+        "d": "application",
+        "p": "Tại sao tìm kiếm nhị phân KHÔNG dùng được trực tiếp trên bảng danh sách tên học sinh đang xếp ngẫu nhiên không theo vần chữ cái?",
+        "o": [
+          "Vì danh sách tên không chứa các chữ số",
+          "Vì tìm kiếm nhị phân chỉ tìm được số có 2 chữ số",
+          "Vì nửa bị loại bỏ vẫn có thể chứa tên cần tìm do không tuân theo trật tự lớn bé",
+          "Vì máy tính không đếm được số học sinh"
+        ],
+        "k": "C",
+        "e": "Nguyên tắc loại một nửa chỉ đúng khi các phần tử nhỏ hơn nằm hoàn toàn một phía và lớn hơn nằm phía kia.",
+        "s": "Tin Học 7",
+        "h": "Hiểu bản chất điều kiện sắp xếp"
+      },
+      {
+        "c": "TH7-B09-013",
+        "d": "advanced",
+        "p": "Giáo viên muốn tìm học sinh có mã số \"HS098\" trong hồ sơ 1.000 học sinh đã sắp xếp tăng dần theo mã số. So sánh giữa hai thuật toán trên dữ liệu này, nhận xét nào chính xác nhất?",
+        "o": [
+          "Tìm kiếm nhị phân nhanh hơn rất nhiều lần (tối đa khoảng 10 lần so sánh) so với tìm tuần tự (có thể tới hàng trăm lần)",
+          "Không thuật toán nào tìm được mã có chữ HS",
+          "Tìm tuần tự luôn chỉ mất 1 bước với mọi mã số",
+          "Hai thuật toán tốn thời gian y hệt nhau"
+        ],
+        "k": "A",
+        "e": "Với danh sách lớn đã sắp xếp, độ phức tạp giảm từ tuyến tính O(n) xuống logarit nhanh hơn gấp bội.",
+        "s": "Tin Học 7",
+        "h": "Đánh giá hiệu năng thực tế"
+      },
+      {
+        "c": "TH7-B09-014",
+        "d": "advanced",
+        "p": "Cho dãy đã sắp xếp: [2, 5, 9, 14, 20, 27, 35, 42]. Cần tìm số 10 không có trong dãy bằng tìm kiếm nhị phân (quy ước chọn chỉ số giữa = phần nguyên của (đầu + cuối) chia 2). Thuật toán kiểm tra theo đúng chuỗi phần tử giữa nào trước khi dừng?",
+        "o": [
+          "2 → 5 → 9 → 14",
+          "14 → 5 → 9",
+          "20 → 9 → 5",
+          "14 → 27 → 35"
+        ],
+        "k": "B",
+        "e": "Đoạn [0..7] giữa idx 3 là 14 (10<14); đoạn [0..2] giữa idx 1 là 5 (10>5); đoạn [2..2] giữa idx 2 là 9 (10!=9) → hết đoạn.",
+        "s": "Tin Học 7",
+        "h": "Truy vết tìm kiếm nhị phân"
+      },
+      {
+        "c": "TH7-B09-015",
+        "d": "advanced",
+        "p": "Nếu phải tìm kiếm MỘT lần duy nhất một số trong một dãy 50 số chưa được sắp xếp (và việc sắp xếp tốn thêm nhiều bước), giải pháp nào hợp lí hơn về tổng chi phí?",
+        "o": [
+          "Phải sắp xếp lại toàn bộ rồi mới được tìm",
+          "Tạo thêm 50 dãy phụ",
+          "Dùng tìm kiếm tuần tự trực tiếp mà không cần tốn công sắp xếp trước",
+          "Nhân đôi kích thước dãy lên 100 phần tử"
+        ],
+        "k": "C",
+        "e": "Nếu chỉ tìm một lần trên dữ liệu nhỏ chưa sắp xếp, tìm tuần tự mất tối đa 50 bước, ít hơn công sắp xếp trước.",
+        "s": "Tin Học 7",
+        "h": "Cân nhắc chi phí thuật toán"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc7-c4",
+    "lesson": {
+      "code": "tinhoc7-b10",
+      "title": "Bài 10. Thuật toán sắp xếp nổi bọt và sắp xếp chọn",
+      "seq": 10,
+      "subtitle": "Bài toán sắp xếp danh sách, quy trình đổi chỗ của sắp xếp nổi bọt (Bubble Sort) và sắp xếp chọn (Selection Sort)",
+      "concepts": [
+        "Bài toán sắp xếp dãy số",
+        "Sắp xếp nổi bọt (Bubble Sort)",
+        "Sắp xếp chọn (Selection Sort)"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH7-B10-001",
+        "d": "basic",
+        "p": "Bài toán sắp xếp trong Tin học nhằm mục đích gì?",
+        "o": [
+          "Xóa hết các phần tử lớn hơn trung bình",
+          "Cộng toàn bộ các số thành một tổng duy nhất",
+          "Đổi tên tất cả các số thành chữ cái",
+          "Hoán đổi vị trí các phần tử để dãy dữ liệu theo thứ tự tăng dần hoặc giảm dần"
+        ],
+        "k": "D",
+        "e": "Sắp xếp đưa các phần tử về một trật tự xác định giúp tra cứu và xử lí thuận tiện hơn.",
+        "s": "Tin Học 7",
+        "h": "Khái niệm bài toán sắp xếp"
+      },
+      {
+        "c": "TH7-B10-002",
+        "d": "basic",
+        "p": "Thuật toán sắp xếp nổi bọt (Bubble Sort) thực hiện thao tác cốt lõi nào trong từng bước duyệt?",
+        "o": [
+          "So sánh hai phần tử đứng liền kề nhau và đổi chỗ nếu chúng sai thứ tự mong muốn",
+          "Chia đôi mảng và không bao giờ đổi chỗ",
+          "Nhân hai phần tử kề nhau lên gấp đôi",
+          "Luôn chọn ngay số đầu và số cuối để xóa"
+        ],
+        "k": "A",
+        "e": "Bubble Sort đẩy dần phần tử lớn nhất (hoặc nhỏ nhất) về cuối dãy giống như bọt khí nổi lên.",
+        "s": "Tin Học 7",
+        "h": "Nguyên lí sắp xếp nổi bọt"
+      },
+      {
+        "c": "TH7-B10-003",
+        "d": "basic",
+        "p": "Ý tưởng chính của thuật toán sắp xếp chọn (Selection Sort) tăng dần ở mỗi vòng lặp là gì?",
+        "o": [
+          "Đảo ngược thứ tự toàn bộ dãy mỗi bước",
+          "Tạo thêm một bảng tính mới",
+          "Tìm phần tử nhỏ nhất trong đoạn chưa sắp xếp rồi đổi chỗ nó với phần tử đầu đoạn đó",
+          "Chỉ hoán đổi hai số cuối cùng mãi mãi"
+        ],
+        "k": "C",
+        "e": "Selection Sort chọn phần tử cực trị đưa đúng về đầu vùng chưa sắp xếp ở mỗi lượt.",
+        "s": "Tin Học 7",
+        "h": "Nguyên lí sắp xếp chọn"
+      },
+      {
+        "c": "TH7-B10-004",
+        "d": "basic",
+        "p": "Để hoán đổi (đổi chỗ) giá trị của hai biến A và B cho nhau trong thuật toán mà không bị mất giá trị, ta thường dùng thêm gì?",
+        "o": [
+          "Một biến trung gian (tạm)",
+          "Một mật khẩu bảo vệ",
+          "Một hàm tính trung bình cộng",
+          "Một vòng lặp vô hạn"
+        ],
+        "k": "A",
+        "e": "Dùng biến tạm T: T = A; A = B; B = T giúp bảo toàn giá trị A trước khi gán B vào A.",
+        "s": "Tin Học 7",
+        "h": "Kĩ thuật hoán đổi giá trị hai biến"
+      },
+      {
+        "c": "TH7-B10-005",
+        "d": "basic",
+        "p": "Dãy số [12, 18, 25, 39, 44] đang ở trạng thái sắp xếp theo thứ tự nào?",
+        "o": [
+          "Giảm dần",
+          "Xen kẽ chẵn lẻ",
+          "Tăng dần",
+          "Ngẫu nhiên không có thứ tự"
+        ],
+        "k": "C",
+        "e": "Mỗi số đứng sau đều lớn hơn số đứng liền trước nên dãy tăng dần.",
+        "s": "Tin Học 7",
+        "h": "Nhận diện dãy tăng dần"
+      },
+      {
+        "c": "TH7-B10-006",
+        "d": "basic",
+        "p": "Vì sao các cửa hàng bán hàng trực tuyến thường tích hợp tính năng sắp xếp \"Giá từ thấp đến cao\"?",
+        "o": [
+          "Giúp khách hàng dễ dàng so sánh và tìm sản phẩm phù hợp ngân sách nhanh nhất",
+          "Để làm website tự tắt sau 5 giây",
+          "Để che giấu toàn bộ sản phẩm rẻ tiền",
+          "Để tăng kích thước màn hình điện thoại"
+        ],
+        "k": "A",
+        "e": "Sắp xếp dữ liệu hỗ trợ người dùng lọc và ra quyết định lựa chọn nhanh chóng.",
+        "s": "Tin Học 7",
+        "h": "Ứng dụng sắp xếp thực tế"
+      },
+      {
+        "c": "TH7-B10-007",
+        "d": "application",
+        "p": "Áp dụng thuật toán sắp xếp nổi bọt tăng dần cho dãy [9, 4, 7, 2], sau khi đi hết lượt duyệt đầu tiên (từ trái sang phải), số nào chắc chắn đã nổi về vị trí cuối cùng bên phải?",
+        "o": [
+          "Số 2",
+          "Số 9",
+          "Số 7",
+          "Số 4"
+        ],
+        "k": "B",
+        "e": "(9,4)→[4,9,7,2]; (9,7)→[4,7,9,2]; (9,2)→[4,7,2,9]. Phần tử lớn nhất 9 về cuối dãy.",
+        "s": "Tin Học 7",
+        "h": "Vết chạy lượt 1 Bubble Sort"
+      },
+      {
+        "c": "TH7-B10-008",
+        "d": "application",
+        "p": "Áp dụng sắp xếp chọn tăng dần cho dãy [15, 8, 22, 5, 11]. Ở lượt đầu tiên, thuật toán chọn số nào đổi chỗ với số đầu tiên 15?",
+        "o": [
+          "Số 11",
+          "Số 5",
+          "Số 22",
+          "Số 8"
+        ],
+        "k": "B",
+        "e": "Số nhỏ nhất trong cả dãy là 5 nên đổi chỗ 5 với vị trí đầu tiên (15), thu được [5, 8, 22, 15, 11].",
+        "s": "Tin Học 7",
+        "h": "Vết chạy lượt 1 Selection Sort"
+      },
+      {
+        "c": "TH7-B10-009",
+        "d": "application",
+        "p": "Cho dãy [6, 3, 8, 5] sắp xếp nổi bọt tăng dần. Trạng thái chính xác của dãy ngay sau khi hoàn tất lượt duyệt đầu tiên là gì?",
+        "o": [
+          "[8, 6, 5, 3]",
+          "[3, 5, 6, 8]",
+          "[3, 6, 5, 8]",
+          "[6, 3, 5, 8]"
+        ],
+        "k": "C",
+        "e": "(6,3) đổi → [3,6,8,5]; (6,8) giữ nguyên; (8,5) đổi → [3,6,5,8].",
+        "s": "Tin Học 7",
+        "h": "Theo dõi từng phép so sánh Bubble Sort"
+      },
+      {
+        "c": "TH7-B10-010",
+        "d": "application",
+        "p": "Với danh sách gồm 5 phần tử, thuật toán sắp xếp chọn tối đa cần chạy bao nhiêu vòng lặp chính để chắc chắn toàn bộ dãy đã được sắp xếp?",
+        "o": [
+          "1 vòng lặp",
+          "10 vòng lặp",
+          "4 vòng lặp",
+          "25 vòng lặp"
+        ],
+        "k": "C",
+        "e": "Khi 4 phần tử đầu đã nằm đúng vị trí thì phần tử thứ 5 cuối cùng tự động đúng chỗ nên cần N - 1 = 4 vòng.",
+        "s": "Tin Học 7",
+        "h": "Số vòng lặp Selection Sort"
+      },
+      {
+        "c": "TH7-B10-011",
+        "d": "application",
+        "p": "Trong dãy 4 số [1, 2, 3, 4] đã tăng dần sẵn, sắp xếp nổi bọt ở lượt 1 thực hiện bao nhiêu lần hoán đổi vị trí?",
+        "o": [
+          "3 lần hoán đổi",
+          "0 lần hoán đổi",
+          "4 lần hoán đổi",
+          "6 lần hoán đổi"
+        ],
+        "k": "B",
+        "e": "Mọi cặp kề nhau (1,2), (2,3), (3,4) đều đúng thứ tự nên không xảy ra hoán đổi nào.",
+        "s": "Tin Học 7",
+        "h": "Đếm số hoán đổi khi dãy đã xếp"
+      },
+      {
+        "c": "TH7-B10-012",
+        "d": "application",
+        "p": "Trong chương trình Scratch mô phỏng sắp xếp, để đổi chỗ giá trị phần tử 1 và phần tử 2 trong Danh sách (List), bạn Minh viết: đặt tạm = item 1; thay item 1 bằng item 2; bước 3 còn thiếu là gì?",
+        "o": [
+          "thay item 2 bằng biến tạm",
+          "đặt tạm = 0",
+          "xóa toàn bộ danh sách",
+          "thay item 2 bằng item 1"
+        ],
+        "k": "A",
+        "e": "Sau khi item 1 nhận giá trị của item 2, giá trị gốc của item 1 đang lưu ở biến tạm được gán vào item 2.",
+        "s": "Tin Học 7",
+        "h": "Hoàn thiện bước hoán đổi"
+      },
+      {
+        "c": "TH7-B10-013",
+        "d": "advanced",
+        "p": "Cho dãy [20, 10, 30, 5] sắp xếp chọn (Selection Sort) tăng dần. Dãy trông như thế nào sau KẾT THÚC lượt 2?",
+        "o": [
+          "[5, 10, 30, 20]",
+          "[5, 10, 20, 30]",
+          "[10, 20, 5, 30]",
+          "[5, 20, 30, 10]"
+        ],
+        "k": "A",
+        "e": "Lượt 1 đổi 20 và 5 → [5, 10, 30, 20]; lượt 2 phần tử nhỏ nhất từ vị trí 2 trở đi là 10 (đứng sẵn đúng chỗ) nên giữ nguyên [5, 10, 30, 20].",
+        "s": "Tin Học 7",
+        "h": "Theo dõi Selection Sort qua 2 lượt"
+      },
+      {
+        "c": "TH7-B10-014",
+        "d": "advanced",
+        "p": "Một phiên bản tối ưu của sắp xếp nổi bọt có thêm biến cờ \"Đã đổi chỗ = Sai\" ở đầu mỗi lượt. Nếu đi hết cả một lượt không đổi chỗ cặp nào, thuật toán kết luận gì?",
+        "o": [
+          "Phải chạy lại thêm 100 lượt nữa",
+          "Dãy đã hoàn toàn có thứ tự và dừng thuật toán sớm ngay lập tức",
+          "Chuyển sang sắp xếp giảm dần",
+          "Đảo ngược toàn bộ dãy lại rồi xóa"
+        ],
+        "k": "B",
+        "e": "Không có hoán đổi nào trong trọn một lượt chứng tỏ mọi cặp kề đều đạt chuẩn thứ tự, giúp tiết kiệm đáng kể bước dư thừa.",
+        "s": "Tin Học 7",
+        "h": "Cờ dừng sớm trong Bubble Sort"
+      },
+      {
+        "c": "TH7-B10-015",
+        "d": "advanced",
+        "p": "Để sắp xếp một bảng danh sách 40 học sinh theo \"Điểm giảm dần\", nếu dùng thuật toán tìm kiếm nhị phân sau đó để tìm học sinh đạt 9,0 điểm thì cần lưu ý điều gì trong điều kiện rẽ nhánh tìm kiếm nhị phân?",
+        "o": [
+          "Phải luôn xét nửa phải nếu giá trị lớn hơn",
+          "Đổi chiều rẽ nhánh so với dãy tăng dần: nếu 9,0 > phần tử giữa thì xét nửa TRÁI thay vì nửa phải",
+          "Luôn trả về phần tử đầu tiên",
+          "Không thể dùng tìm kiếm nhị phân trên dãy giảm dần"
+        ],
+        "k": "B",
+        "e": "Trên dãy giảm dần, các giá trị lớn hơn nằm bên trái phần tử giữa và các giá trị nhỏ hơn nằm bên phải.",
+        "s": "Tin Học 7",
+        "h": "Liên kết sắp xếp và tìm kiếm nhị phân"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc7-c4",
+    "lesson": {
+      "code": "tinhoc7-b11",
+      "title": "Bài 11. Mô phỏng thuật toán và kết hợp bảng tính với biểu đồ",
+      "seq": 11,
+      "subtitle": "Vẽ biểu đồ cột, đường, tròn trong bảng tính và cài đặt bài toán thực tế kết hợp thuật toán",
+      "concepts": [
+        "Các loại biểu đồ dữ liệu",
+        "Chọn biểu đồ phù hợp mục đích",
+        "Phân tích số liệu từ biểu đồ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH7-B11-001",
+        "d": "basic",
+        "p": "Trong phần mềm bảng tính, loại biểu đồ nào thích hợp nhất để so sánh số lượng giữa các nhóm riêng biệt (ví dụ số học sinh giỏi từng lớp 7A, 7B, 7C)?",
+        "o": [
+          "Đoạn văn bản thuần",
+          "Biểu đồ tròn tỉ lệ 1 phần",
+          "Biểu đồ cột (Column / Bar Chart)",
+          "Bản đồ địa lí thế giới"
+        ],
+        "k": "C",
+        "e": "Biểu đồ cột biểu diễn chiều cao trực quan giúp so sánh độ lớn giữa các đối tượng rời rạc rất nhanh.",
+        "s": "Tin Học 7",
+        "h": "Công dụng biểu đồ cột"
+      },
+      {
+        "c": "TH7-B11-002",
+        "d": "basic",
+        "p": "Loại biểu đồ nào trực quan nhất để thể hiện tỉ lệ phần trăm đóng góp của từng thành phần trong một tổng thể 100%?",
+        "o": [
+          "Bảng tính nhiều hàm SUM",
+          "Danh sách số thứ tự",
+          "Biểu đồ hình tròn (Pie Chart)",
+          "Biểu đồ đường gấp khúc"
+        ],
+        "k": "C",
+        "e": "Biểu đồ tròn chia hình tròn thành các cung tỉ lệ với phần trăm từng phần trong tổng thể.",
+        "s": "Tin Học 7",
+        "h": "Công dụng biểu đồ tròn"
+      },
+      {
+        "c": "TH7-B11-003",
+        "d": "basic",
+        "p": "Để theo dõi xu hướng tăng hoặc giảm của nhiệt độ hay doanh thu qua 12 tháng liên tiếp theo thời gian, em nên chọn biểu đồ nào?",
+        "o": [
+          "Thư mục lưu trữ ảnh",
+          "Biểu đồ tròn 3D",
+          "Hộp thoại thiết lập trang in",
+          "Biểu đồ đường (Line Chart)"
+        ],
+        "k": "D",
+        "e": "Biểu đồ đường nối các mốc thời gian liên tiếp làm nổi bật xu hướng biến thiên lên xuống.",
+        "s": "Tin Học 7",
+        "h": "Công dụng biểu đồ đường"
+      },
+      {
+        "c": "TH7-B11-004",
+        "d": "basic",
+        "p": "Thành phần nào giúp người xem hiểu ý nghĩa các màu cột hoặc đường khác nhau trong một biểu đồ có nhiều chuỗi dữ liệu?",
+        "o": [
+          "Số trang của văn bản",
+          "Phóng to màn hình",
+          "Chú giải (Legend)",
+          "Tên tác giả phần mềm"
+        ],
+        "k": "C",
+        "e": "Legend giải thích từng màu sắc hoặc hoa văn đại diện cho chuỗi số liệu nào.",
+        "s": "Tin Học 7",
+        "h": "Thành phần chú giải biểu đồ"
+      },
+      {
+        "c": "TH7-B11-005",
+        "d": "basic",
+        "p": "Thẻ lệnh nào trên thanh công cụ bảng tính chứa các nút tạo biểu đồ cột, đường và tròn?",
+        "o": [
+          "Thẻ File → Print",
+          "Thẻ Review",
+          "Thẻ Insert (Nhóm Charts)",
+          "Thẻ View"
+        ],
+        "k": "C",
+        "e": "Insert → Charts cung cấp đầy đủ các mẫu biểu đồ từ vùng dữ liệu đang chọn.",
+        "s": "Tin Học 7",
+        "h": "Vị trí lệnh tạo biểu đồ"
+      },
+      {
+        "c": "TH7-B11-006",
+        "d": "basic",
+        "p": "Khi dữ liệu trong ô bảng tính nguồn thay đổi giá trị, biểu đồ được tạo từ vùng dữ liệu đó phản ứng như thế nào?",
+        "o": [
+          "Tự động cập nhật hình dạng và chiều cao biểu đồ theo số liệu mới",
+          "Biến mất khỏi trang tính",
+          "Báo lỗi phải xóa đi vẽ lại từ đầu",
+          "Giữ nguyên hình cũ vĩnh viễn"
+        ],
+        "k": "A",
+        "e": "Biểu đồ liên kết trực tiếp tới vùng dữ liệu gốc nên cập nhật tự động theo thời gian thực.",
+        "s": "Tin Học 7",
+        "h": "Tính tự động cập nhật của biểu đồ"
+      },
+      {
+        "c": "TH7-B11-007",
+        "d": "application",
+        "p": "Quan sát biểu đồ cột số quyển sách quyên góp của 4 lớp khối 7: lớp nào đóng góp nhiều sách nhất và nhiều hơn lớp đóng góp ít nhất bao nhiêu quyển?",
+        "o": [
+          "Lớp 7C nhiều nhất, hơn 7A đúng 20 quyển",
+          "Lớp 7A nhiều nhất, hơn 7D đúng 15 quyển",
+          "Lớp 7B nhiều nhất (65 quyển), hơn lớp 7D ít nhất 25 quyển",
+          "Lớp 7B nhiều nhất, hơn 7D đúng 40 quyển"
+        ],
+        "k": "C",
+        "e": "7B đạt 65 quyển (cao nhất), 7D đạt 40 quyển (thấp nhất), chênh lệch 65 - 40 = 25 quyển.",
+        "s": "Tin Học 7",
+        "h": "Đọc hiệu số từ biểu đồ cột",
+        "fig": {
+          "type": "bars",
+          "title": "Sách quyên góp Khối 7",
+          "labels": [
+            "7A",
+            "7B",
+            "7C",
+            "7D"
+          ],
+          "series": [
+            {
+              "values": [
+                50,
+                65,
+                55,
+                40
+              ],
+              "name": "Số sách"
+            }
+          ],
+          "unit": "quyển"
+        }
+      },
+      {
+        "c": "TH7-B11-008",
+        "d": "application",
+        "p": "Từ biểu đồ Sách quyên góp Khối 7 ở câu trên, tổng số sách cả 4 lớp quyên góp được là bao nhiêu quyển?",
+        "o": [
+          "210 quyển",
+          "170 quyển",
+          "220 quyển",
+          "190 quyển"
+        ],
+        "k": "A",
+        "e": "50 + 65 + 55 + 40 = 210 quyển.",
+        "s": "Tin Học 7",
+        "h": "Tính tổng từ biểu đồ"
+      },
+      {
+        "c": "TH7-B11-009",
+        "d": "application",
+        "p": "Khi chọn vùng dữ liệu để vẽ biểu đồ từ một bảng thống kê có hàng \"Tổng cộng\" ở cuối, vì sao thường KHÔNG nên chọn gộp cả dòng \"Tổng cộng\" vào biểu đồ tròn hoặc cột thành phần?",
+        "o": [
+          "Vì dòng Tổng cộng lớn gấp nhiều lần làm các cột thành phần trông nhỏ hẳn đi hoặc làm sai tỉ lệ 100% của hình tròn",
+          "Vì phần mềm không cho phép vẽ quá 3 cột",
+          "Vì từ \"Tổng cộng\" không hợp lệ trong bảng tính",
+          "Vì làm giảm độ phân giải màn hình"
+        ],
+        "k": "A",
+        "e": "Gộp tổng chung cùng thành phần làm lệch tỉ lệ so sánh và sai lệch hoàn toàn ý nghĩa biểu đồ tròn.",
+        "s": "Tin Học 7",
+        "h": "Chọn đúng vùng dữ liệu vẽ biểu đồ"
+      },
+      {
+        "c": "TH7-B11-010",
+        "d": "application",
+        "p": "Để hiển thị rõ con số cụ thể ngay trên đầu mỗi cột trong biểu đồ cột giúp người xem không phải dóng mắt sang trục tung, em bật thành phần nào?",
+        "o": [
+          "Data Labels (Nhãn dữ liệu)",
+          "Page Break",
+          "Gridlines",
+          "Print Area"
+        ],
+        "k": "A",
+        "e": "Data Labels in trực tiếp giá trị số lên từng cột hoặc miếng hình tròn.",
+        "s": "Tin Học 7",
+        "h": "Bật nhãn dữ liệu Data Labels"
+      },
+      {
+        "c": "TH7-B11-011",
+        "d": "application",
+        "p": "Khi sao chép biểu đồ từ bảng tính sang trang chiếu PowerPoint báo cáo dự án, vì sao cần giữ nguyên Tiêu đề biểu đồ (Chart Title) rõ nghĩa?",
+        "o": [
+          "Để khóa chỉnh sửa slide",
+          "Để biểu đồ có thể phát ra nhạc nền",
+          "Giúp người nghe nhìn trang chiếu hiểu ngay biểu đồ đang nói về số liệu gì và đơn vị nào",
+          "Để tăng dung lượng tệp thêm 50 MB"
+        ],
+        "k": "C",
+        "e": "Chart Title tóm tắt nội dung cốt lõi của biểu đồ cho người xem nắm bắt tức thì.",
+        "s": "Tin Học 7",
+        "h": "Tầm quan trọng của Chart Title"
+      },
+      {
+        "c": "TH7-B11-012",
+        "d": "application",
+        "p": "Một bảng theo dõi chiều cao của cây đậu xanh đo mỗi 2 ngày trong suốt 20 ngày. Loại biểu đồ nào diễn tả sự phát triển của cây rõ ràng nhất?",
+        "o": [
+          "Biểu đồ đường (Line Chart)",
+          "Biểu đồ hình tròn",
+          "Sơ đồ cây thư mục",
+          "Biểu tượng nút lệnh"
+        ],
+        "k": "A",
+        "e": "Chuỗi đo liên tục theo các mốc thời gian liên tiếp rất hợp với biểu đồ đường.",
+        "s": "Tin Học 7",
+        "h": "Chọn biểu đồ theo dõi tăng trưởng"
+      },
+      {
+        "c": "TH7-B11-013",
+        "d": "advanced",
+        "p": "Giả sử bạn Lan có 5 con số tỷ lệ đóng góp quỹ nhóm có một giá trị bị âm (-50.000 đ). Nếu vẽ biểu đồ hình tròn (Pie Chart) với số âm, nhận xét nào chính xác?",
+        "o": [
+          "Số âm tự động cộng thành số dương lớn nhất",
+          "Biểu đồ tròn tự chuyển sang hình vuông",
+          "Biểu đồ tròn chuyên dùng riêng cho số âm",
+          "Biểu đồ hình tròn không biểu diễn được ý nghĩa phần trăm hợp lí với giá trị âm, nên chuyển sang biểu đồ cột"
+        ],
+        "k": "D",
+        "e": "Hình tròn đại diện tỉ trọng dương trên tổng 100%; dữ liệu có số âm (lỗ, giảm) phải dùng biểu đồ cột hoặc đường.",
+        "s": "Tin Học 7",
+        "h": "Giới hạn biểu đồ hình tròn"
+      },
+      {
+        "c": "TH7-B11-014",
+        "d": "advanced",
+        "p": "Một bảng tính ghi nhiệt độ tháng 1 đến tháng 6 của 2 thành phố Hà Nội và Đà Nẵng. Muốn biểu diễn cả hai thành phố trên cùng 1 biểu đồ đường để đối chiếu trực tiếp, ta chọn vùng dữ liệu gồm những gì?",
+        "o": [
+          "Cột tên tháng và cả hai cột số liệu nhiệt độ của Hà Nội và Đà Nẵng",
+          "Vẽ 2 biểu đồ tròn tách riêng ở 2 trang khác nhau",
+          "Chỉ chọn riêng cột tên tháng không chọn số",
+          "Tính tổng hai thành phố rồi vẽ 1 đường"
+        ],
+        "k": "A",
+        "e": "Chọn cả nhãn trục hoành và 2 chuỗi dữ liệu giúp phần mềm vẽ 2 đường khác màu có chú giải song song.",
+        "s": "Tin Học 7",
+        "h": "Vẽ biểu đồ đa chuỗi dữ liệu"
+      },
+      {
+        "c": "TH7-B11-015",
+        "d": "advanced",
+        "p": "Kết hợp bài sắp xếp và biểu đồ: nếu sắp xếp bảng dữ liệu số học sinh tham gia câu lạc bộ theo thứ tự giảm dần TRƯỚC khi vẽ biểu đồ cột, hiệu quả trực quan thu được là gì?",
+        "o": [
+          "Các cột tự đổi sang cùng một chiều cao bằng nhau",
+          "Xóa mất tên các câu lạc bộ",
+          "Làm biểu đồ tự biến thành biểu đồ đường",
+          "Các cột trên biểu đồ xếp thành bậc thang từ cao xuống thấp, nhìn ra ngay thứ hạng câu lạc bộ đông nhất đến ít nhất"
+        ],
+        "k": "D",
+        "e": "Sắp xếp giảm dần trước khi vẽ biểu đồ cột giúp người xem nắm ngay thứ hạng mà không cần dò mắt.",
+        "s": "Tin Học 7",
+        "h": "Phối hợp sắp xếp trước khi vẽ biểu đồ"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc7-c4",
+    "lesson": {
+      "code": "tinhoc7-b12",
+      "title": "Bài 12. Tổng kết Học kì 2 – Tin học 7",
+      "seq": 12,
+      "subtitle": "Ôn tập tổng hợp Học kì 2: Thiết lập in bảng tính, Thiết kế bài trình chiếu, Tìm kiếm và Sắp xếp",
+      "concepts": [
+        "Bảng tính và biểu đồ",
+        "Trình chiếu chuyên nghiệp",
+        "Thuật toán tìm kiếm và sắp xếp"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH7-B12-001",
+        "d": "basic",
+        "p": "Trong bảng tính, biểu đồ nào dùng các thanh đứng hoặc ngang có chiều cao tỉ lệ với giá trị dữ liệu để so sánh các mục?",
+        "o": [
+          "Bảng mã Unicode",
+          "Sơ đồ khối rẽ nhánh",
+          "Biểu đồ tròn",
+          "Biểu đồ cột (hoặc thanh ngang)"
+        ],
+        "k": "D",
+        "e": "Biểu đồ cột hoặc thanh ngang so sánh trực tiếp độ lớn giữa các đối tượng.",
+        "s": "Tin Học 7",
+        "h": "Ôn tập biểu đồ cột"
+      },
+      {
+        "c": "TH7-B12-002",
+        "d": "basic",
+        "p": "Để tránh chữ tràn sang ô khác và tự động xuống dòng trong chính ô đó trên trang tính, ta chọn lệnh nào?",
+        "o": [
+          "Sort A to Z",
+          "Wrap Text",
+          "Delete Row",
+          "Merge Cells"
+        ],
+        "k": "B",
+        "e": "Wrap Text gói gọn đoạn văn dài thành nhiều dòng ngay trong cùng ô tính.",
+        "s": "Tin Học 7",
+        "h": "Ôn tập Wrap Text"
+      },
+      {
+        "c": "TH7-B12-003",
+        "d": "basic",
+        "p": "Trên bài trình chiếu PowerPoint, muốn trình chiếu bắt đầu ngay từ trang hiện tại đang sửa (ví dụ trang số 6), ta nhấn tổ hợp phím nào?",
+        "o": [
+          "Alt + F4",
+          "Shift + F5",
+          "Ctrl + A",
+          "Ctrl + Z"
+        ],
+        "k": "B",
+        "e": "Shift + F5 bắt đầu Slide Show từ trang đang mở thay vì chạy lại từ đầu bằng F5.",
+        "s": "Tin Học 7",
+        "h": "Phím tắt chiếu từ trang hiện tại"
+      },
+      {
+        "c": "TH7-B12-004",
+        "d": "basic",
+        "p": "Điều kiện tiên quyết để tìm kiếm nhị phân hoạt động đúng là dãy dữ liệu phải như thế nào?",
+        "o": [
+          "Có độ dài đúng 100 phần tử",
+          "Đã được sắp xếp theo thứ tự tăng dần hoặc giảm dần",
+          "Chứa toàn số nguyên tố",
+          "Chưa từng qua chỉnh sửa"
+        ],
+        "k": "B",
+        "e": "Tính chất có thứ tự là nền tảng giúp tìm kiếm nhị phân loại bỏ một nửa dãy ở mỗi bước.",
+        "s": "Tin Học 7",
+        "h": "Ôn tập điều kiện tìm kiếm nhị phân"
+      },
+      {
+        "c": "TH7-B12-005",
+        "d": "basic",
+        "p": "Thuật toán sắp xếp nào liên tục so sánh và hoán đổi từng cặp phần tử đứng kề nhau sai thứ tự?",
+        "o": [
+          "Tìm kiếm nhị phân",
+          "Sắp xếp chọn (Selection Sort)",
+          "Sắp xếp nổi bọt (Bubble Sort)",
+          "Tìm kiếm tuần tự"
+        ],
+        "k": "C",
+        "e": "Bubble Sort đổi chỗ các cặp liền kề nhau qua từng lượt duyệt.",
+        "s": "Tin Học 7",
+        "h": "Ôn tập Bubble Sort"
+      },
+      {
+        "c": "TH7-B12-006",
+        "d": "basic",
+        "p": "Trên mỗi trang chiếu thuyết trình, một trong các nguyên tắc vàng giúp bài trình bày chuyên nghiệp là gì?",
+        "o": [
+          "Dùng 10 phông chữ khác nhau trên một trang",
+          "Mỗi slide chỉ nêu ý chính cô đọng, màu chữ tương phản rõ với nền",
+          "Đặt nền màu tối chữ màu đen",
+          "Viết kín chữ cỡ 10 pt từ mép trên xuống mép dưới"
+        ],
+        "k": "B",
+        "e": "Ngắn gọn, trực quan, cỡ chữ đủ lớn và tương phản tốt là chuẩn mực thiết kế slide.",
+        "s": "Tin Học 7",
+        "h": "Ôn tập thiết kế bài trình chiếu"
+      },
+      {
+        "c": "TH7-B12-007",
+        "d": "application",
+        "p": "Trong công thức bảng tính `=SUM(B2:B6)/5`, giả sử có một ô B4 bị để trống. So với `=AVERAGE(B2:B6)`, hàm AVERAGE trả về kết quả như thế nào?",
+        "o": [
+          "Kết quả lớn hơn vì AVERAGE chỉ chia cho 4 ô có số còn công thức kia luôn chia 5",
+          "Hai kết quả luôn bằng nhau trong mọi tình huống",
+          "AVERAGE chia cho 6",
+          "AVERAGE bị lỗi #DIV/0!"
+        ],
+        "k": "A",
+        "e": "Hàm AVERAGE đếm đúng số ô chứa dữ liệu số hợp lệ để làm mẫu số, còn chia tay cho 5 sẽ tính cả ô trống.",
+        "s": "Tin Học 7",
+        "h": "Phân biệt chia cố định và AVERAGE"
+      },
+      {
+        "c": "TH7-B12-008",
+        "d": "application",
+        "p": "Cho bảng điểm gồm 4 cột: STT, Họ tên, Điểm, Ghi chú. Khi muốn sắp xếp toàn bộ học sinh theo Điểm từ cao xuống thấp mà không làm lệch tên học sinh với điểm của bạn đó, thao tác đúng là gì?",
+        "o": [
+          "Xóa hết cột Họ tên trước khi sắp xếp",
+          "Chỉ bôi đen riêng cột Điểm rồi chọn Sort (bỏ qua cột Họ tên)",
+          "Tự sửa số bằng tay từng hàng",
+          "Chọn toàn bộ vùng dữ liệu cả 4 cột rồi mới thực hiện lệnh Sort theo cột Điểm"
+        ],
+        "k": "D",
+        "e": "Luôn chọn trọn bộ các cột liên quan của bản ghi để tên, điểm và ghi chú đi liền nhau khi hoán đổi hàng.",
+        "s": "Tin Học 7",
+        "h": "Sắp xếp giữ nguyên liên kết hàng"
+      },
+      {
+        "c": "TH7-B12-009",
+        "d": "application",
+        "p": "Áp dụng sắp xếp chọn (Selection Sort) tăng dần cho dãy [19, 12, 4, 25, 9]. Sau lượt thứ nhất, dãy trở thành gì?",
+        "o": [
+          "[4, 9, 12, 19, 25]",
+          "[12, 19, 4, 25, 9]",
+          "[4, 12, 19, 25, 9]",
+          "[9, 12, 4, 25, 19]"
+        ],
+        "k": "C",
+        "e": "Tìm nhỏ nhất cả dãy là 4, đổi chỗ 4 với vị trí đầu tiên 19 → [4, 12, 19, 25, 9].",
+        "s": "Tin Học 7",
+        "h": "Ôn tập lượt 1 Selection Sort"
+      },
+      {
+        "c": "TH7-B12-010",
+        "d": "application",
+        "p": "Khi tìm số 42 trong dãy [5, 11, 18, 26, 33, 42, 50] bằng tìm kiếm nhị phân, phần tử ở giữa đầu tiên là 26. Bước tiếp theo đoạn xét thu hẹp còn những số nào?",
+        "o": [
+          "[5, 11, 18]",
+          "[33, 42, 50]",
+          "[26, 33, 42]",
+          "[18, 26, 33]"
+        ],
+        "k": "B",
+        "e": "42 > 26 nên bỏ nửa trái và 26, giữ lại đoạn bên phải [33, 42, 50].",
+        "s": "Tin Học 7",
+        "h": "Ôn tập thu hẹp tìm kiếm nhị phân"
+      },
+      {
+        "c": "TH7-B12-011",
+        "d": "application",
+        "p": "Trên một slide báo cáo dự án cần dẫn nguồn tài liệu tham khảo và hình ảnh. Nơi đặt phù hợp nhất là đâu?",
+        "o": [
+          "Xóa bỏ không cần ghi để đẹp mắt hơn",
+          "Đè chữ to 50 pt che hết giữa bức ảnh",
+          "Dòng ghi chú nhỏ ở chân slide minh họa hoặc một trang Tài liệu tham khảo ở cuối bài",
+          "Giấu sang một tệp âm thanh rời"
+        ],
+        "k": "C",
+        "e": "Ghi chú gọn ở chân slide hoặc trang cuối giúp trang trọng mà vẫn tôn trọng bản quyền.",
+        "s": "Tin Học 7",
+        "h": "Trình bày trích dẫn trên slide"
+      },
+      {
+        "c": "TH7-B12-012",
+        "d": "application",
+        "p": "Lỗi `#VALUE!` trong bảng tính thường xuất hiện khi người dùng lỡ viết công thức `=A1+B1` mà ô A1 là số 10 còn ô B1 là chữ \"Bảy\". Cách sửa đúng là gì?",
+        "o": [
+          "Chuyển màu chữ ô B1 sang màu đỏ",
+          "Xóa cả trang tính đi làm lại",
+          "Nhập lại giá trị ô B1 thành dữ liệu số 7 (hoặc dùng hàm SUM bỏ qua văn bản)",
+          "Đổi dấu bằng (=) thành dấu hỏi (?)"
+        ],
+        "k": "C",
+        "e": "Phép toán + trực tiếp không cộng được số với chuỗi chữ cái \"Bảy\", cần đổi về số 7.",
+        "s": "Tin Học 7",
+        "h": "Xử lí lỗi #VALUE!"
+      },
+      {
+        "c": "TH7-B12-013",
+        "d": "advanced",
+        "p": "Một thư viện trường học có 512 đầu sách được đánh mã tăng dần S001 đến S512. Thủ thư dùng tìm kiếm nhị phân để kiểm tra sách S001 có trong danh mục không. Số phép so sánh tối đa cần thực hiện là khoảng bao nhiêu?",
+        "o": [
+          "256 phép so sánh",
+          "1 phép so sánh vì S001 đứng đầu",
+          "Khoảng 9 đến 10 phép so sánh",
+          "512 phép so sánh"
+        ],
+        "k": "C",
+        "e": "Tìm kiếm nhị phân luôn bắt đầu ở giữa (256 → 128 → 64 → ... → 1), cần khoảng 9 đến 10 bước ngay cả với phần tử đầu dãy.",
+        "s": "Tin Học 7",
+        "h": "Phân tích đường đi tìm phần tử đầu"
+      },
+      {
+        "c": "TH7-B12-014",
+        "d": "advanced",
+        "p": "Khi báo cáo trước hội đồng, bạn An muốn nhấn nút bấm ngay trên slide Mục lục để nhảy thẳng tới slide Biểu đồ (trang 12) rồi bấm nút quay lại Mục lục nhanh chóng. Tính năng nào trong phần mềm trình chiếu hỗ trợ làm việc đó?",
+        "o": [
+          "Tạo siêu liên kết (Hyperlink / Action) gắn vào nút bấm trỏ tới slide cụ thể trong cùng bài trình chiếu",
+          "Nhấn giữ phím Escape liên tục",
+          "Gán hiệu ứng xoay tròn 10 vòng",
+          "Lưu mỗi slide thành 15 tệp riêng lẻ"
+        ],
+        "k": "A",
+        "e": "Hyperlink → Place in This Document biến bài trình chiếu tuyến tính thành hệ thống điều hướng tương tác linh hoạt.",
+        "s": "Tin Học 7",
+        "h": "Tạo menu tương tác trên Slide"
+      },
+      {
+        "c": "TH7-B12-015",
+        "d": "advanced",
+        "p": "Trong bài toán sắp xếp nổi bọt tăng dần cho 5 phần tử trường hợp xấu nhất (dãy đang giảm dần hoàn toàn), tổng số cặp kề nhau phải đem ra so sánh trong suốt 4 lượt duyệt là bao nhiêu?",
+        "o": [
+          "5 cặp",
+          "4 cặp",
+          "20 cặp",
+          "10 cặp (4 + 3 + 2 + 1)"
+        ],
+        "k": "D",
+        "e": "Lượt 1 so sánh 4 cặp, lượt 2 so sánh 3 cặp, lượt 3 so sánh 2 cặp, lượt 4 so sánh 1 cặp → tổng 4 + 3 + 2 + 1 = 10.",
+        "s": "Tin Học 7",
+        "h": "Tính tổng số phép so sánh Bubble Sort"
+      }
+    ]
+  }
+]

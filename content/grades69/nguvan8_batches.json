@@ -1,0 +1,3303 @@
+[
+  {
+    "chapter": "nguvan8-c1",
+    "lesson": {
+      "code": "nguvan8-b01",
+      "title": "Bài 1. Câu chuyện của lịch sử",
+      "seq": 1,
+      "subtitle": "Đọc hiểu truyện lịch sử (Lá cờ thêu sáu chữ vàng – Nguyễn Huy Tưởng, Quang Trung đại phá quân Thanh – Ngô gia văn phái), thơ Ta đi tới (Tố Hữu), biệt ngữ xã hội và viết bài văn kể lại một chuyến đi tham quan di tích lịch sử, văn hóa",
+      "concepts": [
+        "Đặc trưng truyện lịch sử",
+        "Biệt ngữ xã hội & ngữ cảnh sử dụng",
+        "Kể lại chuyến đi di tích lịch sử"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV8-B01-001",
+        "d": "basic",
+        "p": "Tác phẩm truyện lịch sử \"Lá cờ thêu sáu chữ vàng\" khắc họa hình tượng thiếu niên anh hùng Trần Quốc Toản là sáng tác của nhà văn nào?",
+        "o": [
+          "Vũ Trọng Phụng",
+          "Nguyễn Huy Tưởng",
+          "Ngô Tất Tố",
+          "Tô Hoài"
+        ],
+        "k": "B",
+        "e": "Nhà văn Nguyễn Huy Tưởng viết \"Lá cờ thêu sáu chữ vàng\" ca ngợi lòng yêu nước sục sôi của Hoài Văn Hầu Trần Quốc Toản thời Trần.",
+        "s": "Ngữ Văn 8",
+        "h": "Tác giả Bài 1 Ngữ văn 8",
+        "fig": {
+          "type": "table",
+          "title": "Tác phẩm Bài 1 (NV8)",
+          "head": [
+            "Văn bản",
+            "Tác giả",
+            "Nhân vật, đề tài"
+          ],
+          "rows": [
+            [
+              "Lá cờ sáu chữ vàng",
+              "Ng. Huy Tưởng",
+              "Trần Quốc Toản"
+            ],
+            [
+              "Đại phá quân Thanh",
+              "Ngô gia văn phái",
+              "Vua Quang Trung"
+            ],
+            [
+              "Ta đi tới",
+              "Tố Hữu",
+              "Khí thế thắng lợi"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV8-B01-002",
+        "d": "basic",
+        "p": "Sáu chữ vàng được Hoài Văn Hầu Trần Quốc Toản thêu lên lá cờ nghĩa đánh giặc Nguyên Mông là gì?",
+        "o": [
+          "Quyết chiến, quyết thắng quân xâm lược",
+          "Thần tốc, táo bạo, bất ngờ",
+          "Phá cường địch, báo hoàng ân",
+          "Nam quốc sơn hà Nam đế cư"
+        ],
+        "k": "C",
+        "e": "Sáu chữ \"Phá cường địch, báo hoàng ân\" (Phá giặc mạnh, báo ơn vua) thể hiện chí lớn cứu nước của vị thiếu niên anh hùng.",
+        "s": "Ngữ Văn 8",
+        "h": "Chi tiết Lá cờ thêu sáu chữ vàng"
+      },
+      {
+        "c": "NV8-B01-003",
+        "d": "basic",
+        "p": "Văn bản \"Quang Trung đại phá quân Thanh\" được trích từ hồi thứ 14 của bộ tiểu thuyết lịch sử chương hồi nào?",
+        "o": [
+          "Lịch sử nước ta (Hồ Chí Minh)",
+          "Việt Nam sử lược (Trần Trọng Kim)",
+          "Hoàng Lê nhất thống chí (Ngô gia văn phái)",
+          "Đại Việt sử kí toàn thư (Ngô Sĩ Liên)"
+        ],
+        "k": "C",
+        "e": "\"Hoàng Lê nhất thống chí\" do các tác giả dòng họ Ngô Thì ở Tả Thanh Oai biên soạn ghi lại sinh động chiến công thần tốc của vua Quang Trung.",
+        "s": "Ngữ Văn 8",
+        "h": "Xuất xứ Hoàng Lê nhất thống chí"
+      },
+      {
+        "c": "NV8-B01-004",
+        "d": "basic",
+        "p": "Trong trận đại phá quân Thanh vào dịp Tết Kỷ Dậu (1789), vua Quang Trung đã thể hiện phẩm chất nổi bật nào của một thiên tài quân sự?",
+        "o": [
+          "Chỉ ngồi tại kinh thành Phú Xuân nghe báo cáo chứ không trực tiếp ra trận",
+          "Hành động mạnh mẽ, quyết đoán, trí tuệ sáng suốt, tầm nhìn xa trông rộng và tài dụng binh thần tốc",
+          "Do dự kéo dài thời gian suốt nhiều năm để chờ đợi viện binh nước ngoài",
+          "Tin tưởng tuyệt đối vào lời dụ hàng của Tôn Sĩ Nghị"
+        ],
+        "k": "B",
+        "e": "Từ việc lên ngôi, kén binh, hành quân thần tốc đến bài hịch phủ dụ quân sĩ và chiến lược đánh úp đồn Ngọc Hồi – Đống Đa đều toát lên tầm vóc anh hùng áo vải.",
+        "s": "Ngữ Văn 8",
+        "h": "Hình tượng vua Quang Trung"
+      },
+      {
+        "c": "NV8-B01-005",
+        "d": "basic",
+        "p": "Trong tiếng Việt, \"biệt ngữ xã hội\" là lớp từ ngữ như thế nào?",
+        "o": [
+          "Từ ngữ chỉ được dùng hạn chế trong một tầng lớp xã hội hoặc nhóm người có chung nghề nghiệp, lứa tuổi, sở thích nhất định",
+          "Các thuật ngữ vật lí và hóa học có mặt trong mọi sách giáo khoa",
+          "Từ ngữ toàn dân được sử dụng phổ biến trong tất cả văn bản pháp luật",
+          "Các từ cổ đã hoàn toàn biến mất khỏi đời sống con người hiện đại"
+        ],
+        "k": "A",
+        "e": "Biệt ngữ xã hội (ví dụ: tiếng lóng học đường, biệt ngữ giới thợ, biệt ngữ một nhóm xã hội) chỉ lưu hành trong phạm vi hẹp.",
+        "s": "Ngữ Văn 8",
+        "h": "Khái niệm biệt ngữ xã hội"
+      },
+      {
+        "c": "NV8-B01-006",
+        "d": "basic",
+        "p": "Khi viết bài văn kể lại một chuyến đi tham quan di tích lịch sử, văn hóa (như Văn Miếu, Đền Hùng, Hoàng thành Thăng Long), ngôi kể nào thường được sử dụng?",
+        "o": [
+          "Ngôi kể thứ hai ra lệnh cho người nghe",
+          "Ngôi kể thứ nhất (\"tôi\", \"em\" hoặc \"chúng tôi\")",
+          "Thể thức biên bản họp hội đồng không có người kể",
+          "Ngôi kể ẩn danh viết dưới dạng thông báo tìm đồ lạc"
+        ],
+        "k": "B",
+        "e": "Ngôi thứ nhất giúp người viết trực tiếp thuật lại hành trình trải nghiệm và bộc lộ cảm xúc tự hào trước di tích lịch sử.",
+        "s": "Ngữ Văn 8",
+        "h": "Ngôi kể bài văn kể chuyến đi"
+      },
+      {
+        "c": "NV8-B01-007",
+        "d": "application",
+        "p": "Trong \"Lá cờ thêu sáu chữ vàng\", chi tiết Trần Quốc Toản vô tình bóp nát quả cam quý vua ban trong lòng bàn tay vì quá uất ức trước cảnh không được vào bàn việc đánh giặc nói lên điều gì?",
+        "o": [
+          "Lòng yêu nước sục sôi, nỗi căm thù giặc sâu sắc đến mức quên cả sự tôn kính thông thường dành cho lễ vật triều đình",
+          "Sức khỏe cơ bắp vượt trội để thi đấu vật với các tướng lĩnh",
+          "Thái độ coi thường nhà vua và các bậc vương hầu trong triều",
+          "Sự tức giận vô cớ vì không được chia thêm nhiều trái cây ngon"
+        ],
+        "k": "A",
+        "e": "Cử chỉ bóp nát quả cam là chi tiết nghệ thuật kinh điển khắc họa khí phách tuổi trẻ nặng lòng với vận mệnh sơn hà.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân tích chi tiết bóp nát quả cam"
+      },
+      {
+        "c": "NV8-B01-008",
+        "d": "application",
+        "p": "Dù các tác giả \"Ngô gia văn phái\" vốn là cựu thần nhà Lê, tại sao họ vẫn khắc họa hình ảnh vua Quang Trung oai phong, lẫm liệt và quân Thanh thảm hại, nhục nhã như vậy?",
+        "o": [
+          "Bởi họ muốn chế giễu toàn bộ truyền thống lịch sử của dân tộc Việt Nam",
+          "Bởi họ viết tiểu thuyết viễn tưởng không dựa trên sự kiện nào có thật",
+          "Bởi nhà Thanh lúc đó không hề đưa quân sang nước ta",
+          "Bởi ngòi bút trung thực tôn trọng sự thật lịch sử và niềm tự hào dân tộc đã vượt lên tình cảm riêng với triều đại cũ"
+        ],
+        "k": "D",
+        "e": "Thái độ tôn trọng sự thật khách quan tạo nên giá trị sử thi và hiện thực lớn lao cho \"Hoàng Lê nhất thống chí\".",
+        "s": "Ngữ Văn 8",
+        "h": "Thái độ của Ngô gia văn phái"
+      },
+      {
+        "c": "NV8-B01-009",
+        "d": "application",
+        "p": "Tìm câu sử dụng biệt ngữ xã hội phù hợp (hoặc dùng đúng ngữ cảnh hội thoại thân mật, cần tránh lạm dụng trong bài văn trang trọng):",
+        "o": [
+          "Bài thuyết minh di tích lịch sử dùng toàn bộ tiếng lóng mạng xã hội thay cho tên triều đại.",
+          "Trong bản tuyên ngôn lịch sử, vị tướng quân sử dụng biệt ngữ \"cực chất, hết nước chấm\" để khích lệ ba quân.",
+          "Trong giờ ra chơi, mấy bạn nhóm em rủ nhau đi \"cày đề\" ôn tập để chuẩn bị cho kì thi học kì sắp tới.",
+          "Ở đơn xin phép nghỉ học gửi cô giáo chủ nhiệm, em viết rằng em bị \"tạch\" bài kiểm tra."
+        ],
+        "k": "C",
+        "e": "Biệt ngữ như \"cày đề\" có thể xuất hiện trong đối thoại bạn bè thân mật nhưng tuyệt đối không dùng trong văn bản trang trọng hay hành chính.",
+        "s": "Ngữ Văn 8",
+        "h": "Nguyên tắc sử dụng biệt ngữ xã hội"
+      },
+      {
+        "c": "NV8-B01-010",
+        "d": "application",
+        "p": "Trong đoạn trích bài thơ \"Ta đi tới\" của Tố Hữu, câu thơ \"Đường ta rộng thênh thang tám thước / Đường Bắc Sơn, Đình Cả, Thái Nguyên...\" biểu đạt cảm xúc nào của dân tộc sau chiến thắng Điện Biên Phủ?",
+        "o": [
+          "Sự lo âu chán nản trước chặng đường hành quân vất vả kéo dài",
+          "Nỗi buồn cô đơn khi phải chia tay bạn bè vùng cao Tây Bắc",
+          "Niềm vui tự hào phơi phới, khí thế hào hùng hướng về tương lai tươi sáng của đất nước thống nhất, hòa bình",
+          "Sự hoài nghi về con đường xây dựng cuộc sống mới"
+        ],
+        "k": "C",
+        "e": "Nhịp thơ dạt dào, liệt kê hàng loạt địa danh cách mạng khắc họa bước chân tự tin của dân tộc chiến thắng.",
+        "s": "Ngữ Văn 8",
+        "h": "Cảm hứng chủ đạo bài Ta đi tới"
+      },
+      {
+        "c": "NV8-B01-011",
+        "d": "application",
+        "p": "Khi viết phần Thân bài của bài văn kể lại một chuyến tham quan di tích lịch sử – văn hóa, cách kết hợp yếu tố miêu tả và biểu cảm hiệu quả nhất là gì?",
+        "o": [
+          "Chép lại toàn bộ bài thuyết minh hướng dẫn viên mà không nêu cảm nhận gì của bản thân",
+          "Thuật lại hành trình theo trình tự hợp lí, kết hợp miêu tả kiến trúc, hiện vật tiêu biểu và bộc lộ cảm nghĩ tự hào về truyền thống",
+          "Chỉ ghi tên biển số xe ô tô và giờ khởi hành rồi kết thúc ngay thân bài",
+          "Tập trung miêu tả chi tiết các món ăn vặt mua ngoài cổng di tích suốt cả trang"
+        ],
+        "k": "B",
+        "e": "Sự hòa quyện giữa tự sự (trình tự chuyến đi), miêu tả (cảnh quan, hiện vật) và biểu cảm (lòng biết ơn lịch sử) làm bài viết có chiều sâu.",
+        "s": "Ngữ Văn 8",
+        "h": "Kết hợp tự sự – miêu tả – biểu cảm"
+      },
+      {
+        "c": "NV8-B01-012",
+        "d": "application",
+        "p": "Chi tiết vua Quang Trung truyền lệnh cho quân sĩ ăn Tết trước vào ngày 30 tháng Chạp rồi hẹn mồng 7 Tết vào thành Thăng Long mở tiệc mừng chiến thắng cho thấy điều gì?",
+        "o": [
+          "Mong muốn kéo dài ngày nghỉ Tết thêm một tuần trước khi hành quân",
+          "Ý định đàm phán hòa bình lâu dài với Tôn Sĩ Nghị tại Bắc Hà",
+          "Sự chủ quan khinh địch không thèm chuẩn bị lương thực và vũ khí",
+          "Niềm tin sắt đá vào thắng lợi tất yếu, khí thế áp đảo kẻ thù và tài dự liệu thời gian chiến dịch chính xác đến từng ngày"
+        ],
+        "k": "D",
+        "e": "Lời hẹn mồng 7 (thực tế mồng 5 đã đại thắng!) trở thành minh chứng hùng hồn cho bản lĩnh và trí tuệ kiệt xuất của Nguyễn Huệ.",
+        "s": "Ngữ Văn 8",
+        "h": "Ý nghĩa lời hẹn mồng 7 Tết"
+      },
+      {
+        "c": "NV8-B01-013",
+        "d": "advanced",
+        "p": "Truyện lịch sử (như \"Lá cờ thêu sáu chữ vàng\") khác với sách giáo khoa Lịch sử ở điểm cơ bản nào trong cách tái hiện quá khứ?",
+        "o": [
+          "Truyện lịch sử tuyệt đối không được nhắc tới bất kì tên nhân vật hay triều đại có thật nào",
+          "Dựa trên sự kiện và nhân vật có thật nhưng dùng tưởng tượng nghệ thuật khắc họa sống động tâm lí, đối thoại, số phận nhằm khơi gợi rung cảm",
+          "Sách giáo khoa Lịch sử luôn viết bằng thể thơ lục bát còn truyện lịch sử viết bằng bảng số liệu",
+          "Truyện lịch sử được phép bịa đặt hoàn toàn kết quả thắng thua ngược lại với sự thật lịch sử"
+        ],
+        "k": "B",
+        "e": "Lịch sử cung cấp sự kiện xác thực; văn học lịch sử thổi hồn vào từng nhân vật và khoảnh khắc để quá khứ sống dậy gần gũi.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân biệt truyện lịch sử và sử học"
+      },
+      {
+        "c": "NV8-B01-014",
+        "d": "advanced",
+        "p": "Trong đoạn kết hồi 14 \"Hoàng Lê nhất thống chí\", cảnh Tôn Sĩ Nghị hoảng loạn bỏ ấn tín chạy trốn qua cầu phao đến nỗi quân sĩ dẫm đạp nhau rơi xuống sông Nhị Hà được đặt đối sánh với cảnh nào?",
+        "o": [
+          "Đối sánh với trận bão lớn ngoài khơi vùng biển Cô Tô",
+          "Đối sánh với hình ảnh vua Quang Trung \"áo bào sạm đen khói súng\" oai phong tiến vào Thăng Long, bật lên đối lập chính nghĩa – phi nghĩa",
+          "Đối sánh với cảnh lễ hội mùa xuân tưng bừng ở quê hương Nghệ An",
+          "Đối sánh với cảnh học sinh thi tài cờ vua tại Văn Miếu Quốc Tử Giám"
+        ],
+        "k": "B",
+        "e": "Nghệ thuật tương phản sắc nét tôn vinh tầm vóc anh hùng dân tộc và vạch trần sự thảm hại của quân xâm lược.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân tích nghệ thuật tương phản sử thi"
+      },
+      {
+        "c": "NV8-B01-015",
+        "d": "advanced",
+        "p": "Khi đọc một bài viết của bạn cùng lớp sử dụng nhiều từ lóng mạng xã hội trong phần nêu cảm nghĩ về Di tích lịch sử Thành Cổ Quảng Trị, lời góp ý chuẩn mực và tinh tế nhất là gì?",
+        "o": [
+          "Nên giữ nguyên tiếng lóng vì mọi văn bản tiếng Việt đều có phong cách giống nhau",
+          "Nên thêm thật nhiều kí hiệu cảm xúc và tiếng lóng mới hơn nữa cho hiện đại",
+          "Nên xóa bỏ toàn bộ đoạn cảm nghĩ và chỉ giữ lại giờ mở cửa bán vé",
+          "Nên thay thế các biệt ngữ, tiếng lóng suồng sã bằng từ ngữ toàn dân trang trọng, giàu sức gợi cảm để phù hợp với không khí thiêng liêng của di tích lịch sử"
+        ],
+        "k": "D",
+        "e": "Lựa chọn lớp từ ngữ phù hợp với hoàn cảnh giao tiếp và đối tượng văn hóa là biểu hiện của văn hóa ngôn từ.",
+        "s": "Ngữ Văn 8",
+        "h": "Vận dụng chuẩn mực phong cách ngôn từ"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan8-c1",
+    "lesson": {
+      "code": "nguvan8-b02",
+      "title": "Bài 2. Vẻ đẹp cổ điển",
+      "seq": 2,
+      "subtitle": "Đọc hiểu thơ thất ngôn bát cú và tứ tuyệt luật Đường (Thu điếu – Nguyễn Khuyến, Thiên Trường vãn vọng – Trần Nhân Tông), văn bản Ca Huế trên sông Hương (Hà Ánh Minh), từ tượng hình – từ tượng thanh và viết bài văn phân tích một bài thơ luật Đường",
+      "concepts": [
+        "Luật thơ Đường: thất ngôn bát cú & tứ tuyệt",
+        "Từ tượng hình và từ tượng thanh",
+        "Phân tích bài thơ Đường luật"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV8-B02-001",
+        "d": "basic",
+        "p": "Bài thơ \"Thu điếu\" (Mùa thu câu cá) nằm trong chùm ba bài thơ thu nổi tiếng của nhà thơ nào?",
+        "o": [
+          "Hồ Xuân Hương",
+          "Nguyễn Công Trứ",
+          "Nguyễn Khuyến",
+          "Bà Huyện Thanh Quan"
+        ],
+        "k": "C",
+        "e": "Chùm thơ thu gồm \"Thu điếu\", \"Thu vịnh\", \"Thu ẩm\" là đỉnh cao thơ Nôm mùa thu của Nguyễn Khuyến (Tam nguyên Yên Đổ).",
+        "s": "Ngữ Văn 8",
+        "h": "Tác giả bài thơ Thu điếu",
+        "fig": {
+          "type": "table",
+          "title": "Thơ Đường Luật & Ca Huế (Bài 2)",
+          "head": [
+            "Văn bản",
+            "Tác giả",
+            "Thể loại"
+          ],
+          "rows": [
+            [
+              "Thu điếu",
+              "Nguyễn Khuyến",
+              "Thất ngôn bát cú"
+            ],
+            [
+              "Thiên Trường chiều",
+              "Trần Nhân Tông",
+              "Thất ngôn tứ tuyệt"
+            ],
+            [
+              "Ca Huế sông Hương",
+              "Hà Ánh Minh",
+              "Văn bản thông tin"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV8-B02-002",
+        "d": "basic",
+        "p": "Thể thơ \"thất ngôn bát cú Đường luật\" có cấu trúc số câu và số tiếng mỗi câu như thế nào?",
+        "o": [
+          "Gồm 6 câu lục và 8 câu bát đan xen nhau",
+          "Gồm 4 câu thơ, mỗi câu có 5 tiếng theo vần cách",
+          "Không giới hạn số câu và mỗi câu có độ dài tự do",
+          "Gồm 8 câu thơ, mỗi câu có 7 tiếng (chia làm 4 cặp câu: Đề – Thực – Luận – Kết)"
+        ],
+        "k": "D",
+        "e": "Thất ngôn (7 tiếng) bát cú (8 câu) tuân thủ quy tắc niêm, luật bằng trắc, đối (ở hai cặp Thực và Luận) và vần chân độc vận.",
+        "s": "Ngữ Văn 8",
+        "h": "Cấu trúc thất ngôn bát cú"
+      },
+      {
+        "c": "NV8-B02-003",
+        "d": "basic",
+        "p": "Bài thơ \"Thiên Trường vãn vọng\" (Buổi chiều đứng ở phủ Thiên Trường trông ra) là sáng tác của vị vua – anh hùng dân tộc nào thời Trần?",
+        "o": [
+          "Trần Quốc Tuấn",
+          "Lê Thánh Tông",
+          "Lý Thái Tổ",
+          "Trần Nhân Tông"
+        ],
+        "k": "D",
+        "e": "Vua Trần Nhân Tông sáng tác \"Thiên Trường vãn vọng\" theo thể thất ngôn tứ tuyệt chữ Hán với bức tranh thôn quê bình yên.",
+        "s": "Ngữ Văn 8",
+        "h": "Tác giả Thiên Trường vãn vọng"
+      },
+      {
+        "c": "NV8-B02-004",
+        "d": "basic",
+        "p": "Trong các từ sau trích từ thơ Nguyễn Khuyến, đâu là từ tượng hình và đâu là từ tượng thanh: \"lơ lửng\", \"vèo\", \"eo óc\"?",
+        "o": [
+          "Cả ba từ đều là danh từ chỉ các loài cây trong vườn thu",
+          "Cả ba từ đều là số từ chỉ số lượng con cá dưới ao",
+          "Cả ba từ đều là đại từ thay thế cho người đi câu",
+          "\"lơ lửng\" là từ tượng hình (gợi dáng); \"vèo\" và \"eo óc\" thiên về gợi cảm giác chuyển động – âm thanh (tượng thanh)"
+        ],
+        "k": "D",
+        "e": "Từ tượng hình gợi hình ảnh, dáng vẻ sự vật; từ tượng thanh mô phỏng âm thanh tự nhiên hoặc của con người.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân biệt từ tượng hình, tượng thanh"
+      },
+      {
+        "c": "NV8-B02-005",
+        "d": "basic",
+        "p": "Trong bài thơ thất ngôn bát cú Đường luật chuẩn mực, phép \"đối\" thường được đặt bắt buộc ở những cặp câu nào?",
+        "o": [
+          "Chỉ sử dụng phép đối trong văn xuôi chứ không có trong thơ",
+          "Ở tất cả tám câu giống hệt nhau từng chữ",
+          "Hai cặp câu ở giữa: câu 3 đối câu 4 (Thực) và câu 5 đối câu 6 (Luận)",
+          "Chỉ ở câu 1 và câu 8 của bài thơ"
+        ],
+        "k": "C",
+        "e": "Hai cặp câu Thực (3–4) và Luận (5–6) đối xứng thanh điệu, từ loại và ý nghĩa tạo thế cân đối cổ điển.",
+        "s": "Ngữ Văn 8",
+        "h": "Quy tắc đối trong thơ Đường luật"
+      },
+      {
+        "c": "NV8-B02-006",
+        "d": "basic",
+        "p": "Văn bản \"Ca Huế trên sông Hương\" (Hà Ánh Minh) giới thiệu di sản nghệ thuật truyền thống nào của vùng đất Cố đô?",
+        "o": [
+          "Lễ hội cồng chiêng Tây Nguyên vào mùa gặt lúa mới",
+          "Nghệ thuật múa rối nước vùng đồng bằng sông Hồng",
+          "Nghệ thuật Ca Huế trình diễn trên dòng sông Hương thơ mộng với các làn điệu và nhạc cụ dân tộc tinh tế",
+          "Nghệ thuật đờn ca tài tử trên chợ nổi Cái Răng"
+        ],
+        "k": "C",
+        "e": "Ca Huế là sự kết hợp giữa dòng nhạc dân gian và nhạc cung đình nhã nhạc, vang lên sâu lắng trên sông Hương đêm trăng.",
+        "s": "Ngữ Văn 8",
+        "h": "Nội dung Ca Huế trên sông Hương"
+      },
+      {
+        "c": "NV8-B02-007",
+        "d": "application",
+        "p": "Trong \"Thu điếu\", không gian mùa thu được Nguyễn Khuyến miêu tả với nét đặc trưng nào qua chuỗi hình ảnh \"ao thu lạnh lẽo\", \"thuyền câu bé tẻo teo\", \"ngõ trúc quanh co\"?",
+        "o": [
+          "Không gian thu thanh sơ, tĩnh lặng, tinh tế mang đậm hồn cốt đồng bằng Bắc Bộ (vùng chiêm trũng Bình Lục, Hà Nam)",
+          "Không gian đô thị sầm uất đầy tiếng xe cộ và cửa hiệu",
+          "Không gian núi đá tuyết phủ trắng xóa quanh năm",
+          "Không gian biển khơi dữ dội với sóng bạc đầu và giông bão"
+        ],
+        "k": "A",
+        "e": "Sắc xanh hòa điệu (\"nước trong veo\", \"sóng biếc\", \"tầng mây lơ lửng\", \"trời xanh ngắt\") cùng không gian thu hẹp dần về chiếc thuyền câu tạo nên bức họa tuyệt mĩ.",
+        "s": "Ngữ Văn 8",
+        "h": "Vẻ đẹp bức tranh thu trong Thu điếu"
+      },
+      {
+        "c": "NV8-B02-008",
+        "d": "application",
+        "p": "Hai câu thơ trong \"Thiên Trường vãn vọng\": \"Mục đồng địch lí quy ngưu tận / Bạch lộ song song phi hạ điền\" (Trẻ chăn trâu thổi sáo lùa trâu về hết / Từng đôi cò trắng liệng xuống đồng) khắc họa bức tranh quê như thế nào?",
+        "o": [
+          "U tối, đáng sợ giữa đêm đông không một bóng người",
+          "Thanh bình, ấm áp, hài hòa giữa thiên nhiên (\"cò trắng\") và sinh hoạt lao động yên ả của con người (\"trẻ mục đồng thổi sáo\")",
+          "Hoang tàn, xơ xác sau một trận chiến tranh tàn khốc",
+          "Hối hả, ngột ngạt bởi nhịp sống công nghiệp khẩn trương"
+        ],
+        "k": "B",
+        "e": "Qua cái nhìn của một vị vua anh minh, thôn dã hiện lên thanh bình, dân giàu nước yên.",
+        "s": "Ngữ Văn 8",
+        "h": "Cảm nhận Thiên Trường vãn vọng"
+      },
+      {
+        "c": "NV8-B02-009",
+        "d": "application",
+        "p": "Trong hai câu Thực của \"Thu điếu\": \"Sóng biếc theo làn hơi gợn tí / Lá vàng trước gió khẽ đưa vèo\", động từ và từ gợi tả \"hơi gợn tí\", \"khẽ đưa vèo\" gợi chuyển động ra sao?",
+        "o": [
+          "Hoàn toàn đứng yên bất động không có bất kì ngọn gió nào",
+          "Sự ồn ào náo nhiệt của đám đông đi hội bên bờ ao",
+          "Chuyển động vô cùng khẽ khàng, tinh tế đến mức phải thật tĩnh tâm mới nhận ra, càng làm nổi bật sự tĩnh lặng mênh mang của cảnh thu",
+          "Chuyển động dữ dội như một cơn cuồng phong quét qua mặt ao"
+        ],
+        "k": "C",
+        "e": "Thủ pháp \"lấy động tả tĩnh\" bậc thầy khiến cái vèo của chiếc lá vàng cũng đủ làm xao xuyến không gian tĩnh mịch.",
+        "s": "Ngữ Văn 8",
+        "h": "Thủ pháp lấy động tả tĩnh"
+      },
+      {
+        "c": "NV8-B02-010",
+        "d": "application",
+        "p": "Chọn câu văn sử dụng hiệu quả từ tượng hình và từ tượng thanh để tăng sức gợi tả:",
+        "o": [
+          "Buổi tối hôm nay nhiệt độ ngoài trời giảm xuống khoảng hai mươi độ C.",
+          "Đêm khuya có ánh sáng trăng chiếu xuống dòng sông dài và có người thổi sáo.",
+          "Đêm khuya thanh vắng, tiếng sáo trúc vi vút từ bến sông vọng lại hòa cùng bóng trăng loang lổ trên mặt nước lăn tăn.",
+          "Trời tối nên mọi người đều đóng cửa đi ngủ sớm để mai đi làm."
+        ],
+        "k": "C",
+        "e": "\"vi vút\" (tượng thanh) kết hợp \"loang lổ\", \"lăn tăn\" (tượng hình) tái hiện sinh động cả âm thanh lẫn ánh sáng mặt nước.",
+        "s": "Ngữ Văn 8",
+        "h": "Vận dụng từ tượng hình, tượng thanh"
+      },
+      {
+        "c": "NV8-B02-011",
+        "d": "application",
+        "p": "Khi viết bài văn phân tích một bài thơ thất ngôn bát cú hoặc tứ tuyệt Đường luật, người viết cần chú ý khai thác những phương diện nào?",
+        "o": [
+          "Tóm tắt bài thơ thành một bản tin thời sự gồm ba dòng ngắn",
+          "Chỉ kể lại hoàn cảnh gia đình riêng của tác giả mà bỏ qua toàn bộ các câu thơ",
+          "Chỉ dịch nghĩa từng chữ Hán sang tiếng Việt rồi kết luận bài thơ rất hay",
+          "Kết hợp phân tích nội dung cảm xúc (cảnh vật, tâm trạng, chủ đề) với đặc sắc nghệ thuật (niêm luật, đối, từ ngữ, tả cảnh ngụ tình)"
+        ],
+        "k": "D",
+        "e": "Phân tích thơ Đường luật phải đi từ cấu trúc thể thơ, ngôn từ hàm súc đến mạch tình cảm ẩn sau từng hình ảnh.",
+        "s": "Ngữ Văn 8",
+        "h": "Yêu cầu phân tích thơ Đường luật"
+      },
+      {
+        "c": "NV8-B02-012",
+        "d": "application",
+        "p": "Trong bài \"Ca Huế trên sông Hương\", chi tiết giới thiệu tên các nhạc cụ (đàn tranh, đàn nguyệt, đàn tì bà, đàn bầu...) và các làn điệu (Hò mái nhì, Nam ai, Nam bình...) mang giá trị gì?",
+        "o": [
+          "Liệt kê danh mục hàng hóa để mở cửa hàng bán nhạc cụ xuất khẩu",
+          "Cung cấp tri thức văn hóa phong phú, chính xác về di sản âm nhạc cố đô, qua đó khơi dậy niềm tự hào và ý thức gìn giữ bản sắc dân tộc",
+          "Phê phán các làn điệu dân ca truyền thống là quá chậm rãi",
+          "Chứng minh rằng người Huế chỉ biết chơi nhạc chứ không làm nghề khác"
+        ],
+        "k": "B",
+        "e": "Văn bản thông tin văn hóa giúp người đọc hiểu rõ chiều sâu nghệ thuật truyền thống địa phương.",
+        "s": "Ngữ Văn 8",
+        "h": "Giá trị văn bản Ca Huế trên sông Hương"
+      },
+      {
+        "c": "NV8-B02-013",
+        "d": "advanced",
+        "p": "Hai câu kết bài \"Thu điếu\": \"Tựa gối, ôm cần lâu chẳng được / Cá đâu đớp động dưới chân bèo\" hé lộ tâm trạng gì của nhân vật trữ tình Nguyễn Khuyến?",
+        "o": [
+          "Niềm vui háo hức chuẩn bị dọn đồ về nhà nấu bữa cơm tối cùng bạn bè",
+          "Sự sốt ruột tức giận vì ngồi cả buổi chiều mà chưa câu được con cá lớn nào",
+          "Sự buồn ngủ vì đã thức khuya viết sách vào đêm hôm trước",
+          "Tư thế đi câu nhưng lòng thi sĩ trĩu nặng ưu tư thời thế, cô đơn thanh cao thả hồn vào cõi thu rồi giật mình trước tiếng cá đớp mồi"
+        ],
+        "k": "D",
+        "e": "Cái giật mình khe khẽ trước tiếng \"cá đâu đớp động dưới chân bèo\" mở ra chiều sâu tâm sự yêu nước thầm kín của nhà thơ ẩn dật.",
+        "s": "Ngữ Văn 8",
+        "h": "Khám phá chiều sâu tâm trạng Thu điếu"
+      },
+      {
+        "c": "NV8-B02-014",
+        "d": "advanced",
+        "p": "Trong hai câu đầu \"Thiên Trường vãn vọng\": \"Thôn hậu thôn tiền đạm tự yên / Bán vô bán hữu tịch dương biên\" (Trước xóm sau xóm mờ nhạt như khói / Lúc nửa có nửa không trong ánh nắng chiều), hình ảnh \"bán vô bán hữu\" (nửa có nửa không) gợi vẻ đẹp thẩm mĩ nào?",
+        "o": [
+          "Vẻ đẹp huyền ảo, trầm mặc, nên thơ của buổi hoàng hôn nơi thôn dã đồng thời ẩn chứa tâm thế ung dung, hòa điệu của một tâm hồn thi nhân – vị vua thời Trần",
+          "Phê phán tình trạng nhà cửa ở vùng nông thôn xây dựng thiếu quy hoạch",
+          "Chứng tỏ sương mù dày đặc làm mất điện toàn bộ làng quê nên không nhìn thấy đường",
+          "Khẳng định các ngôi làng chỉ là ảo ảnh xuất hiện trong giấc mơ của tác giả"
+        ],
+        "k": "A",
+        "e": "Nét vẽ \"nửa thực nửa hư\" đậm phong vị Đường thi kết hợp chất thiền thanh thoát của Trần Nhân Tông.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân tích thẩm mĩ Thiên Trường vãn vọng"
+      },
+      {
+        "c": "NV8-B02-015",
+        "d": "advanced",
+        "p": "Tại sao nói: \"Vẻ đẹp cổ điển không đồng nghĩa với lạc hậu, xa lạ mà luôn có sức sống đối thoại với tâm hồn con người hiện đại\"? Liên hệ qua Bài 2 Ngữ văn 8:",
+        "o": [
+          "Vì học sinh hiện nay bắt buộc phải mặc trang phục cổ đại mới được đọc thơ Nguyễn Khuyến",
+          "Vì mọi bài hát hiện đại đều phải viết bằng chữ Hán theo luật thất ngôn bát cú",
+          "Vì sau niêm luật chặt chẽ của thơ xưa hay khúc Ca Huế là tình yêu thiên nhiên, quê hương thanh bình và chiều sâu văn hóa vẫn rung động hôm nay",
+          "Vì sông Hương ngày nay chỉ cho phép thuyền chèo tay đi vào ban đêm"
+        ],
+        "k": "C",
+        "e": "Giá trị cổ điển trở thành di sản tinh thần bền vững nhờ đánh thức những rung cảm muôn thuở về cái đẹp và quê hương.",
+        "s": "Ngữ Văn 8",
+        "h": "Tổng hợp tư tưởng Vẻ đẹp cổ điển"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan8-c1",
+    "lesson": {
+      "code": "nguvan8-b03",
+      "title": "Bài 3. Lời sông núi",
+      "seq": 3,
+      "subtitle": "Đọc hiểu văn nghị luận trung đại và hiện đại (Hịch tướng sĩ – Trần Quốc Tuấn, Tinh thần yêu nước của nhân dân ta – Hồ Chí Minh, Nam quốc sơn hà – Khuyết danh, Chiếu dời đô – Lý Công Uẩn), cấu trúc đoạn văn diễn dịch – quy nạp – song song – phối hợp và viết bài văn nghị luận về một vấn đề đời sống (con người trong mối quan hệ với cộng đồng, đất nước)",
+      "concepts": [
+        "Văn nghị luận trung đại: Hịch, Chiếu",
+        "Nghị luận hiện đại: Hồ Chí Minh",
+        "Đoạn văn diễn dịch, quy nạp, song song, phối hợp"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV8-B03-001",
+        "d": "basic",
+        "p": "Tác phẩm \"Hịch tướng sĩ\" (Dụ chư tì tướng hịch văn) được Hưng Đạo Đại Vương Trần Quốc Tuấn viết vào bối cảnh lịch sử nào?",
+        "o": [
+          "Trước cuộc kháng chiến chống quân Mông – Nguyên xâm lược lần thứ hai (khoảng trước năm 1285) nhằm khích lệ tinh thần tướng sĩ",
+          "Vào buổi lễ mừng chiến thắng Ngọc Hồi – Đống Đa năm 1789",
+          "Trong dịp khánh thành Văn Miếu Quốc Tử Giám tại kinh thành Thăng Long",
+          "Sau khi đất nước đã hoàn toàn thái bình dưới triều đại nhà Nguyễn"
+        ],
+        "k": "A",
+        "e": "Trần Quốc Tuấn soạn \"Hịch tướng sĩ\" để chấn chỉnh kỷ luật, phê phán thói hưởng lạc chủ quan và khơi dậy ý chí quyết chiến chống giặc Nguyên – Mông.",
+        "s": "Ngữ Văn 8",
+        "h": "Hoàn cảnh ra đời Hịch tướng sĩ",
+        "fig": {
+          "type": "table",
+          "title": "Văn bản Nghị luận Bài 3 (NV8)",
+          "head": [
+            "Văn bản",
+            "Tác giả",
+            "Thể loại"
+          ],
+          "rows": [
+            [
+              "Hịch tướng sĩ",
+              "Trần Quốc Tuấn",
+              "Hịch trung đại"
+            ],
+            [
+              "Chiếu dời đô",
+              "Lý Công Uẩn",
+              "Chiếu trung đại"
+            ],
+            [
+              "Tinh thần yêu nước",
+              "Hồ Chí Minh",
+              "Nghị luận hiện đại"
+            ],
+            [
+              "Nam quốc sơn hà",
+              "Khuyết danh",
+              "Thất ngôn tứ tuyệt"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV8-B03-002",
+        "d": "basic",
+        "p": "Theo đoạn mở đầu bài \"Tinh thần yêu nước của nhân dân ta\" (Hồ Chí Minh), sức mạnh của lòng yêu nước truyền thống dân tộc được Bác ví với hình ảnh giàu sức gợi nào?",
+        "o": [
+          "Một ngọn gió thoảng nhẹ qua cánh đồng lúa chín buổi chiều thu",
+          "Một làn sóng vô cùng mạnh mẽ, to lớn, nó lướt qua mọi sự nguy hiểm, khó khăn, nó nhấn chìm tất cả lũ bán nước và lũ cướp nước",
+          "Một dòng suối nhỏ uốn lượn êm đềm dưới chân núi đá vôi",
+          "Một ngôi sao lẻ loi tỏa sáng giữa bầu trời mùa đông lạnh giá"
+        ],
+        "k": "B",
+        "e": "Hình ảnh so sánh \"kết thành một làn sóng vô cùng mạnh mẽ, to lớn...\" cụ thể hóa sức mạnh dời non lấp biển của lòng yêu nước.",
+        "s": "Ngữ Văn 8",
+        "h": "Hình ảnh nổi bật trong văn Hồ Chí Minh"
+      },
+      {
+        "c": "NV8-B03-003",
+        "d": "basic",
+        "p": "Bài thơ \"Nam quốc sơn hà\" được xem như bản Tuyên ngôn Độc lập đầu tiên của dân tộc khẳng định chân lí thiêng liêng nào?",
+        "o": [
+          "Quy định về thuế khóa và đo lường ruộng đất trong triều đình",
+          "Chủ quyền độc lập bất khả xâm phạm của đất nước Đại Việt đã được định đoạt rành rành nơi sách trời; kẻ thù xâm lược nhất định sẽ chuốc lấy thất bại",
+          "Lời kêu gọi nhân dân các vùng di cư sang sinh sống ở những hòn đảo xa",
+          "Sự ca ngợi vẻ đẹp phong cảnh mùa xuân ở kinh thành Hoa Lư"
+        ],
+        "k": "B",
+        "e": "Hai câu đầu khẳng định chủ quyền vững chắc, hai câu sau cảnh báo đanh thép kẻ xâm lược.",
+        "s": "Ngữ Văn 8",
+        "h": "Ý nghĩa Nam quốc sơn hà"
+      },
+      {
+        "c": "NV8-B03-004",
+        "d": "basic",
+        "p": "Đoạn văn có câu chủ đề nằm ở ĐẦU đoạn (nêu ý khái quát rồi các câu sau giải thích, phân tích, chứng minh làm rõ) là đoạn văn trình bày theo cách nào?",
+        "o": [
+          "Diễn dịch",
+          "Song song",
+          "Quy nạp",
+          "Tự sự gián tiếp"
+        ],
+        "k": "A",
+        "e": "Đoạn diễn dịch đi từ cái chung (câu chủ đề đầu đoạn) xuống cái riêng (các câu triển khai cụ thể).",
+        "s": "Ngữ Văn 8",
+        "h": "Cấu trúc đoạn văn diễn dịch"
+      },
+      {
+        "c": "NV8-B03-005",
+        "d": "basic",
+        "p": "Trong \"Chiếu dời đô\" (Thiên đô chiếu), vua Lý Công Uẩn nêu những lí do chính nào để quyết định dời đô từ Hoa Lư (Ninh Bình) ra thành Đại La (Thăng Long)?",
+        "o": [
+          "Vì kinh thành Đại La đã xây sẵn hàng trăm tòa tháp cao tầng hiện đại",
+          "Đại La ở trung tâm trời đất, thế rồng cuộn hổ ngồi, đất rộng cao ráo tránh lụt lội, thuận lợi giao thương cho muôn đời thịnh vượng",
+          "Vì nhà vua muốn tìm một vùng núi cao hiểm trở hơn nữa để dễ ẩn náu",
+          "Vì vùng đất Hoa Lư quá xa bờ biển nên không đánh bắt được hải sản"
+        ],
+        "k": "B",
+        "e": "Tầm nhìn chiến lược dài lâu \"mưu toan nghiệp lớn, tính kế cho con cháu muôn vạn đời\" là hạt nhân lập luận của \"Chiếu dời đô\".",
+        "s": "Ngữ Văn 8",
+        "h": "Lập luận trong Chiếu dời đô"
+      },
+      {
+        "c": "NV8-B03-006",
+        "d": "basic",
+        "p": "Thể loại \"Chiếu\" và \"Hịch\" trong văn học trung đại có điểm chung lớn nào về mục đích viết?",
+        "o": [
+          "Đều là nhật kí cá nhân viết kín đáo chỉ để lưu trong ngăn kéo gia đình",
+          "Đều là văn bản nghị luận do vua, chúa ban bố nhằm truyền đạt chủ trương lớn hoặc cổ vũ quân dân thực hiện nhiệm vụ trọng đại của đất nước",
+          "Đều chỉ dùng để miêu tả cảnh đẹp hoa lá bốn mùa trong vườn thượng uyển",
+          "Đều là truyện cười dân gian lưu truyền bằng miệng ở các phiên chợ quê"
+        ],
+        "k": "B",
+        "e": "Chiếu ban bố mệnh lệnh – chủ trương; Hịch cổ vũ tinh thần, thuyết phục lòng người đánh giặc.",
+        "s": "Ngữ Văn 8",
+        "h": "Đặc trưng thể Chiếu và Hịch"
+      },
+      {
+        "c": "NV8-B03-007",
+        "d": "application",
+        "p": "Trong \"Hịch tướng sĩ\", vì sao Trần Quốc Tuấn lại nêu hàng loạt tấm gương trung thần nghĩa sĩ thời xưa (như Kỉ Tín, Do Vu, Dự Nhượng, Vương Công Kiên...) trước khi chỉ trích thói hưởng lạc của các tì tướng?",
+        "o": [
+          "Để đặt một chuẩn mực đạo lí cao đẹp làm cơ sở thuyết phục không thể chối cãi, khiến các tướng sĩ tự soi mình mà thấy hổ thẹn nếu thờ ơ trước vận nước",
+          "Để kể một câu chuyện giải trí cho bớt căng thẳng trước giờ tập trận",
+          "Để khẳng định chỉ có người xưa mới biết chiến đấu bảo vệ chủ tướng",
+          "Để kiểm tra xem các tướng sĩ có thuộc hết tên sách lịch sử nước ngoài hay không"
+        ],
+        "k": "A",
+        "e": "Dùng bằng chứng lịch sử giàu sức lay động giúp bài hịch vừa sắc bén về lí trí vừa sục sôi tình cảm.",
+        "s": "Ngữ Văn 8",
+        "h": "Nghệ thuật lập luận Hịch tướng sĩ"
+      },
+      {
+        "c": "NV8-B03-008",
+        "d": "application",
+        "p": "Đọc đoạn văn: \"Từ xưa đến nay, mỗi khi Tổ quốc bị xâm lăng, thì tinh thần ấy lại sôi nổi, nó kết thành một làn sóng vô cùng mạnh mẽ, to lớn, nó lướt qua mọi sự nguy hiểm, khó khăn, nó nhấn chìm tất cả lũ bán nước và lũ cướp nước.\" Đây là đoạn văn trình bày theo cách nào?",
+        "o": [
+          "Diễn dịch (câu đầu nêu nhận định khái quát về lòng yêu nước sôi nổi, các vế sau cụ thể hóa sức mạnh như làn sóng nhấn chìm quân thù)",
+          "Quy nạp có câu chủ đề nằm ở vị trí cuối cùng của cả bài viết",
+          "Đoạn đối thoại kịch giữa hai nhân vật lịch sử",
+          "Song song gồm hai sự vật không hề có quan hệ logic nào với nhau"
+        ],
+        "k": "A",
+        "e": "Ý khái quát đặt trước rồi các cụm động từ tăng tiến (\"lướt qua\", \"nhấn chìm\") làm rõ sức mạnh ở phía sau là kết cấu diễn dịch.",
+        "s": "Ngữ Văn 8",
+        "h": "Nhận diện đoạn diễn dịch"
+      },
+      {
+        "c": "NV8-B03-009",
+        "d": "application",
+        "p": "Trong \"Tinh thần yêu nước của nhân dân ta\", Bác Hồ chứng minh lòng yêu nước của nhân dân trong kháng chiến bằng cách liệt kê theo từng cặp đối xứng (\"từ các cụ già tóc bạc đến các cháu nhi đồng trẻ thơ\", \"từ những kiều bào ở nước ngoài đến những đồng bào ở vùng tạm bị chiếm\"...). Cách viết này đem lại tác dụng gì?",
+        "o": [
+          "Cho thấy tinh thần yêu nước lan tỏa rộng khắp mọi lứa tuổi, tầng lớp, vùng miền — không sót một ai trong khối đại đoàn kết toàn dân",
+          "Chia rẽ sự gắn bó giữa người lớn tuổi và các em thiếu nhi",
+          "Chỉ tôn vinh riêng những người đi chiến đấu ngoài mặt trận",
+          "Làm văn bản kéo dài hơn mà không cần thêm bằng chứng thực tế nào"
+        ],
+        "k": "A",
+        "e": "Phép liệt kê kết hợp mô hình \"từ... đến...\" tạo nhịp văn cân đối, khẳng định tính toàn dân sâu rộng của lòng yêu nước.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân tích phép liệt kê của Hồ Chí Minh"
+      },
+      {
+        "c": "NV8-B03-010",
+        "d": "application",
+        "p": "Trong đoạn văn quy nạp, câu chủ đề (nêu ý khái quát chung của cả đoạn) nằm ở vị trí nào?",
+        "o": [
+          "Không có câu chủ đề ở bất kì vị trí nào trong đoạn",
+          "Ở ngay câu mở đầu tiên của đoạn văn",
+          "Nằm tách rời bên ngoài đoạn văn dưới dạng cước chú chân trang",
+          "Ở cuối đoạn văn, sau khi đã trình bày lần lượt các lí lẽ và bằng chứng cụ thể"
+        ],
+        "k": "D",
+        "e": "Quy nạp đi từ cụ thể (các câu khai triển) lên khái quát (câu chủ đề chốt ở cuối đoạn).",
+        "s": "Ngữ Văn 8",
+        "h": "Phân biệt quy nạp và diễn dịch"
+      },
+      {
+        "c": "NV8-B03-011",
+        "d": "application",
+        "p": "Cuối bài \"Chiếu dời đô\", Lý Công Uẩn không ra mệnh lệnh áp đặt khô khan mà đặt câu hỏi: \"Các khanh nghĩ thế nào?\". Cách kết thúc này thể hiện điều gì về phong cách của nhà vua?",
+        "o": [
+          "Sự tôn trọng đối thoại, dân chủ và mong muốn tạo sự đồng thuận từ trái tim của quần thần trước quyết định hệ trọng của quốc gia",
+          "Sự lúng túng do nhà vua chưa biết thành Đại La nằm ở hướng nào",
+          "Thái độ giận dữ muốn trừng phạt những vị quan không đồng ý kiến",
+          "Ý định hủy bỏ hoàn toàn kế hoạch dời đô để ở lại Hoa Lư"
+        ],
+        "k": "A",
+        "e": "Câu hỏi đối thoại ngắn gọn cuối chiếu biến mệnh lệnh triều đình thành ý chí chung đồng lòng giữa vua và tôi.",
+        "s": "Ngữ Văn 8",
+        "h": "Nghệ thuật thuyết phục Chiếu dời đô"
+      },
+      {
+        "c": "NV8-B03-012",
+        "d": "application",
+        "p": "Khi viết bài văn nghị luận về trách nhiệm của thế hệ trẻ hôm nay đối với đất nước, bằng chứng nào dưới đây phù hợp và thuyết phục nhất?",
+        "o": [
+          "Chỉ chép lại nguyên văn bốn câu thơ về cảnh mùa thu ao cá",
+          "Một câu chuyện cổ tích tưởng tượng về chú rùa biết bay lên Mặt Trăng",
+          "Những học sinh, sinh viên nỗ lực học tập khoa học công nghệ, tham gia bảo vệ môi trường xanh, lan tỏa văn hóa dân tộc và sẵn sàng cống hiến cho cộng đồng",
+          "Chỉ trích gay gắt rằng mọi người trẻ hiện nay đều không quan tâm đến quê hương"
+        ],
+        "k": "C",
+        "e": "Bằng chứng gắn với thực tế đời sống tuổi trẻ hôm nay làm bài nghị luận có tính thời sự và sức truyền cảm.",
+        "s": "Ngữ Văn 8",
+        "h": "Chọn bằng chứng nghị luận xã hội"
+      },
+      {
+        "c": "NV8-B03-013",
+        "d": "advanced",
+        "p": "Đọc đoạn tâm sự uất ức của Trần Quốc Tuấn trong \"Hịch tướng sĩ\": \"Ta thường tới bữa quên ăn, nửa đêm vỗ gối; ruột đau như cắt, nước mắt đầm đìa; chỉ căm tức chưa xả thịt lột da, nuốt gan uống máu quân thù.\" Giá trị lớn nhất của đoạn văn bi tráng này là gì?",
+        "o": [
+          "Miêu tả một căn bệnh hiểm nghèo khiến vị tướng không ăn ngủ được",
+          "Thể hiện tâm huyết yêu nước cháy bỏng, lòng căm thù giặc sâu sắc của vị chủ tướng, biến lí lẽ thành lời hiệu triệu từ trái tim lay động ba quân",
+          "Tạo tiếng cười trào phúng nhẹ nhàng giữa bối cảnh hội nghị quân sự",
+          "Chứng tỏ tác giả chỉ dùng sức mạnh cơ bắp chứ không hề có chiến lược quân sự"
+        ],
+        "k": "B",
+        "e": "Ngôn ngữ bi tráng giàu hình ảnh và nhịp điệu biền ngẫu hòa quyện lí trí với tình cảm tạo nên sức mạnh bất hủ của \"Hịch tướng sĩ\".",
+        "s": "Ngữ Văn 8",
+        "h": "Phân tích đoạn văn bi tráng Hịch tướng sĩ"
+      },
+      {
+        "c": "NV8-B03-014",
+        "d": "advanced",
+        "p": "Xác định kiểu cấu trúc của đoạn văn sau: \"Lòng yêu nước có thể biểu hiện qua những chiến công oanh liệt nơi chiến trường. Bên cạnh đó, lòng yêu nước còn tỏa sáng từ những việc làm thầm lặng như giữ gìn tiếng Việt trong sáng, trồng thêm một hàng cây xanh hay chăm chỉ học tập. Dù ở thời đại nào, yêu nước luôn bắt đầu từ trách nhiệm chân thành với cộng đồng.\"",
+        "o": [
+          "Đoạn văn diễn dịch có câu chủ đề ở ngay câu đầu tiên và không có câu kết",
+          "Văn bản tường trình sự cố hành chính gồm hai điều khoản",
+          "Đoạn văn đối thoại kịch giữa ba nhân vật không có người dẫn",
+          "Đoạn văn quy nạp (hai câu đầu nêu các biểu hiện cụ thể ngang hàng, câu cuối tổng hợp khái quát chủ đề chung của cả đoạn)"
+        ],
+        "k": "D",
+        "e": "Hai câu đầu nêu song song hai biểu hiện cụ thể (chiến công và việc làm thầm lặng), câu cuối khái quát chân lí chung nên đoạn viết theo lối quy nạp.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân tích cấu trúc đoạn văn thực tế"
+      },
+      {
+        "c": "NV8-B03-015",
+        "d": "advanced",
+        "p": "Đặt ba văn bản \"Nam quốc sơn hà\" (thế kỉ XI), \"Chiếu dời đô\" (1010) và \"Hịch tướng sĩ\" (thế kỉ XIII) cạnh \"Tinh thần yêu nước của nhân dân ta\" (1951), sợi chỉ đỏ tinh thần xuyên suốt lịch sử văn học dân tộc là gì?",
+        "o": [
+          "Chỉ tập trung miêu tả kĩ thuật xây dựng kinh thành cổ mà không bàn tới con người",
+          "Sự thay đổi toàn bộ ngôn ngữ tiếng Việt sang tiếng nước ngoài trong các văn bản",
+          "Việc các tác giả đều sống ở cùng một thế kỉ và thuộc cùng một triều đại phong kiến",
+          "Ý thức độc lập tự chủ, tầm nhìn dựng nước và sức mạnh đại đoàn kết đánh thắng ngoại xâm — kết tinh thành \"lời sông núi\" bất diệt qua mọi thời đại"
+        ],
+        "k": "D",
+        "e": "Từ thời Lý – Trần đến thời đại Hồ Chí Minh, khát vọng độc lập và lòng yêu nước là mạch nguồn bất tận của dân tộc.",
+        "s": "Ngữ Văn 8",
+        "h": "Kết nối truyền thống văn học yêu nước"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan8-c2",
+    "lesson": {
+      "code": "nguvan8-b04",
+      "title": "Bài 4. Tiếng cười trào phúng trong thơ",
+      "seq": 4,
+      "subtitle": "Đọc hiểu thơ trào phúng (Lễ xướng danh khoa Đinh Dậu – Trần Tế Xương, Lai Tân – Hồ Chí Minh, Vịnh cây vông – Nguyễn Công Trứ), nghĩa tường minh và nghĩa hàm ẩn của câu, phân tích một tác phẩm văn học (bài thơ trào phúng)",
+      "concepts": [
+        "Nghệ thuật trào phúng trong thơ",
+        "Nghĩa tường minh và nghĩa hàm ẩn",
+        "Phân tích bài thơ trào phúng"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV8-B04-001",
+        "d": "basic",
+        "p": "Bài thơ trào phúng \"Lễ xướng danh khoa Đinh Dậu\" (Nhà nước ba năm mở một khoa / Trường Nam thi lẫn với trường Hà...) là sáng tác của nhà thơ nào?",
+        "o": [
+          "Nguyễn Khuyến",
+          "Hồ Chí Minh",
+          "Nguyễn Công Trứ",
+          "Trần Tế Xương (Tú Xương)"
+        ],
+        "k": "D",
+        "e": "Nhà thơ Trần Tế Xương (Tú Xương) nổi tiếng với giọng thơ trào phúng cay chua mà đau đáu trước cảnh nhố nhăng của thi cử Nho học cuối thế kỉ XIX.",
+        "s": "Ngữ Văn 8",
+        "h": "Tác giả Lễ xướng danh khoa Đinh Dậu",
+        "fig": {
+          "type": "table",
+          "title": "Thơ Trào Phúng (Bài 4 - NV8)",
+          "head": [
+            "Bài thơ",
+            "Tác giả",
+            "Đối tượng châm biếm"
+          ],
+          "rows": [
+            [
+              "Xướng danh Đinh Dậu",
+              "Trần Tế Xương",
+              "Thi cử nhố nhăng"
+            ],
+            [
+              "Lai Tân",
+              "Hồ Chí Minh",
+              "Quan lại thối nát"
+            ],
+            [
+              "Vịnh cây vông",
+              "Nguyễn Công Trứ",
+              "Thói bất tài vô dụng"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV8-B04-002",
+        "d": "basic",
+        "p": "Bài thơ \"Lai Tân\" trích từ tập thơ chữ Hán nổi tiếng nào của Chủ tịch Hồ Chí Minh?",
+        "o": [
+          "Chùm thơ Việt Bắc",
+          "Đường Kách mệnh",
+          "Thơ ca cách mạng Pác Bó",
+          "Nhật kí trong tù (Ngục trung nhật kí)"
+        ],
+        "k": "D",
+        "e": "Trong những tháng ngày bị chính quyền Tưởng Giới Thạch giải qua các nhà lao Quảng Tây, Bác Hồ viết \"Lai Tân\" trong tập \"Nhật kí trong tù\".",
+        "s": "Ngữ Văn 8",
+        "h": "Xuất xứ bài thơ Lai Tân"
+      },
+      {
+        "c": "NV8-B04-003",
+        "d": "basic",
+        "p": "Trong ngôn ngữ học, sự phân biệt giữa \"nghĩa tường minh\" và \"nghĩa hàm ẩn\" của câu được hiểu đúng nhất như thế nào?",
+        "o": [
+          "Nghĩa tường minh chỉ có trong văn bản khoa học; nghĩa hàm ẩn chỉ có trong từ điển",
+          "Nghĩa tường minh là nghĩa sai; nghĩa hàm ẩn là nghĩa đúng của câu",
+          "Cả hai khái niệm đều dùng để chỉ các câu viết thiếu dấu chấm cuối câu",
+          "Nghĩa tường minh được diễn đạt trực tiếp bằng từ ngữ; nghĩa hàm ẩn là ý nghĩa không nói thẳng nhưng suy ra từ ngữ cảnh và cách diễn đạt"
+        ],
+        "k": "D",
+        "e": "Hiểu được hàm ý (nghĩa hàm ẩn) giúp người đọc nắm bắt trọn vẹn giọng điệu mỉa mai, thâm thúy của văn thơ trào phúng và giao tiếp đời sống.",
+        "s": "Ngữ Văn 8",
+        "h": "Khái niệm nghĩa tường minh và hàm ẩn"
+      },
+      {
+        "c": "NV8-B04-004",
+        "d": "basic",
+        "p": "Trong bài thơ \"Lai Tân\", ba nhân vật đại diện cho bộ máy cai trị ở huyện Lai Tân làm những việc gì hằng ngày?",
+        "o": [
+          "Nghiên cứu cải tiến nông cụ giúp nông dân gặt lúa nhanh hơn",
+          "Tổ chức lễ hội ca hát truyền thống đón chào khách phương xa",
+          "Ngày đêm chăm lo sửa đường, đắp đê chống lũ và dạy chữ miễn phí cho người dân",
+          "Ban trưởng nhà lao ngày ngày đánh bạc, Cảnh trưởng tham nhũng kiếm tiền giải phạm nhân, Huyện trưởng chong đèn hút thuốc phiện để xử việc công"
+        ],
+        "k": "D",
+        "e": "Bằng bút pháp liệt kê lạnh lùng, ba câu đầu vạch trần cảnh thối nát từ trên xuống dưới của bộ máy quan lại Quốc dân đảng.",
+        "s": "Ngữ Văn 8",
+        "h": "Nội dung ba câu đầu Lai Tân"
+      },
+      {
+        "c": "NV8-B04-005",
+        "d": "basic",
+        "p": "Mục đích chính của tiếng cười trào phúng trong văn học là gì?",
+        "o": [
+          "Che giấu toàn bộ sự thật lịch sử đằng sau những vần thơ vui",
+          "Chỉ nhằm làm trò cười vô nghĩa không gắn với bất kì hiện thực xã hội nào",
+          "Khen ngợi những thói quen tham lam, lười biếng của kẻ nắm quyền",
+          "Dùng sự hài hước, mỉa mai, châm biếm để phơi bày cái xấu, cái lố bịch, giả dối nhằm phê phán và hướng con người tới giá trị tốt đẹp"
+        ],
+        "k": "D",
+        "e": "Tiếng cười trào phúng mang tính chiến đấu và giá trị nhân văn sâu sắc đằng sau nụ cười châm biếm.",
+        "s": "Ngữ Văn 8",
+        "h": "Bản chất tiếng cười trào phúng"
+      },
+      {
+        "c": "NV8-B04-006",
+        "d": "basic",
+        "p": "Trong bài thơ \"Vịnh cây vông\" của Nguyễn Công Trứ, tác giả mượn hình ảnh cây vông có đặc điểm bên ngoài thế nào để mỉa mai hạng người bất tài?",
+        "o": [
+          "Cây vông thân to lớn bề thế nhưng ruột rỗng mềm, gai góc, không dùng làm kèo cột nhà cửa được mà chỉ hợp trồng làm hàng rào",
+          "Cây vông cho quả ngọt thơm lừng bán đắt nhất các phiên chợ",
+          "Cây vông có hoa vàng rực rỡ tượng trưng cho bậc hiền tài cứu nước",
+          "Cây vông có gỗ cứng nhất rừng, chuyên dùng đóng tàu vượt đại dương"
+        ],
+        "k": "A",
+        "e": "Hình tượng cây vông \"rỗng ruột\", \"hữu danh vô thực\" là cái cớ để tác giả châm biếm thói huênh hoang mà vô dụng.",
+        "s": "Ngữ Văn 8",
+        "h": "Hình tượng trong Vịnh cây vông"
+      },
+      {
+        "c": "NV8-B04-007",
+        "d": "application",
+        "p": "Đọc hai câu thực trong \"Lễ xướng danh khoa Đinh Dậu\": \"Lôi thôi sĩ tử vai đeo lọ / Ậm ọe quan trường miệng thét loa\". Nghệ thuật đối kết hợp hai từ láy \"lôi thôi\", \"ậm ọe\" và đảo ngữ tạo hiệu quả gì?",
+        "o": [
+          "Ca ngợi phong thái ung dung, nho nhã của các sĩ tử và quan chấm thi",
+          "Miêu tả cảnh buổi lễ phát thưởng cuối năm đầy trang trọng ở trường học",
+          "Thể hiện niềm vui hân hoan khi đất nước mở rộng giao lưu văn hóa",
+          "Khắc họa bức tranh trường thi nhếch nhác, hỗn độn, đánh mất hoàn toàn vẻ tôn nghiêm của chốn khoa cử truyền thống"
+        ],
+        "k": "D",
+        "e": "Đảo tính từ \"lôi thôi\", \"ậm ọe\" lên đầu câu đối xứng nhau phơi bày sự thảm hại của cả người đi thi lẫn kẻ coi thi.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân tích nghệ thuật đảo ngữ và đối"
+      },
+      {
+        "c": "NV8-B04-008",
+        "d": "application",
+        "p": "Câu kết bài thơ \"Lai Tân\": \"Thiên hạ thái bình\" (Hoàn toàn thái bình / Trời đất vẫn thái bình như cũ) là một cú lật trào phúng cực kì thâm thúy ở chỗ nào?",
+        "o": [
+          "Bề mặt khen \"thái bình\" nhưng đặt sau ba câu kể tội đánh bạc, ăn hối lộ, hút phiện lại hàm ẩn mỉa mai sâu cay: sự thối nát đã thành \"bình thường\"",
+          "Vì đây là câu thơ bị chép nhầm từ một bài ca dao chúc Tết mùa xuân",
+          "Vì lúc đó trời nắng đẹp không có cơn bão nào đi qua vùng Quảng Tây",
+          "Tác giả thực sự tin rằng huyện Lai Tân là vùng đất kiểu mẫu đáng học tập"
+        ],
+        "k": "A",
+        "e": "Sự đối nghịch giữa \"bản chất thối nát\" và lời khen mỉa \"thái bình\" là đòn giáng trào phúng bất ngờ nhất của bài thơ.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân tích hàm ý câu kết Lai Tân"
+      },
+      {
+        "c": "NV8-B04-009",
+        "d": "application",
+        "p": "Trong giao tiếp hằng ngày, khi mẹ nhìn căn phòng bừa bộn rồi nói: \"Ôi, phòng con hôm nay gọn gàng ngăn nắp quá cơ!\", nghĩa hàm ẩn mà mẹ muốn truyền đạt là gì?",
+        "o": [
+          "Nhắc nhở nhẹ nhàng mang sắc thái chê trách dí dỏm rằng căn phòng đang rất bừa bộn và con cần dọn dẹp ngay",
+          "Khen ngợi thật lòng vì căn phòng sạch bóng không một hạt bụi",
+          "Hỏi xem con có muốn chuyển sang ngủ ở phòng khác rộng hơn không",
+          "Khen ngợi tài năng thiết kế nội thất độc đáo của con"
+        ],
+        "k": "A",
+        "e": "Khi nói ngược lại với thực tế rành rành cùng ngữ điệu cảm thán, người nghe dễ dàng giải mã được hàm ý phê bình tế nhị.",
+        "s": "Ngữ Văn 8",
+        "h": "Giải mã nghĩa hàm ẩn đời sống"
+      },
+      {
+        "c": "NV8-B04-010",
+        "d": "application",
+        "p": "Trong hai câu luận \"Lễ xướng danh khoa Đinh Dậu\": \"Lọng cắm rợp trời quan sứ đến / Váy lê quét đất mụ đầm ra\", Tú Xương đặt hai hình ảnh nào cạnh nhau để tạo tiếng cười chua chát?",
+        "o": [
+          "Sự phô trương lố bịch đầy uy quyền của thực dân (\"quan sứ\", \"mụ đầm\") đứng cạnh sự sa sút nhục nhã của nền Nho học bản xứ",
+          "Vẻ đẹp truyền thống của áo dài Việt Nam với trang phục dân tộc miền núi",
+          "Sự hợp tác khoa học bình đẳng giữa các trường đại học quốc tế",
+          "Cảnh đám cưới truyền thống rộn ràng tiếng pháo vui tươi của làng quê"
+        ],
+        "k": "A",
+        "e": "Từ cái hài hước bề ngoài (\"váy lê quét đất\"), tiếng cười chạm tới nỗi đau mất chủ quyền và cảnh lai căng nô lệ.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân tích hai câu luận Tú Xương"
+      },
+      {
+        "c": "NV8-B04-011",
+        "d": "application",
+        "p": "Khi viết bài văn phân tích một bài thơ trào phúng (ví dụ: phân tích \"Lai Tân\" hoặc \"Lễ xướng danh khoa Đinh Dậu\"), điểm khác biệt cần nhấn mạnh so với phân tích thơ trữ tình thuần túy là gì?",
+        "o": [
+          "Bỏ qua hoàn toàn giọng điệu mỉa mai mà diễn giải mọi câu thơ theo nghĩa khen ngợi thật lòng",
+          "Chỉ chép lại các quy tắc niêm luật bằng trắc mà không nhắc đến nội dung xã hội",
+          "Làm rõ đối tượng châm biếm, thủ pháp gây cười (nói ngược, tương phản, phóng đại, đảo ngữ) và nỗi đau, tấm lòng sau tiếng cười tác giả",
+          "Chỉ đếm số lần nhân vật cười thành tiếng trong bài thơ rồi tính tỉ lệ phần trăm"
+        ],
+        "k": "C",
+        "e": "Phân tích thơ trào phúng cần bóc tách lớp vỏ hài hước để chạm tới bản chất phê phán xã hội và nhân cách thi nhân.",
+        "s": "Ngữ Văn 8",
+        "h": "Đặc thù phân tích thơ trào phúng"
+      },
+      {
+        "c": "NV8-B04-012",
+        "d": "application",
+        "p": "Hai câu kết bài \"Lễ xướng danh khoa Đinh Dậu\": \"Nhân tài đất Bắc nào ai đó? / Ngoảnh cổ mà trông cảnh nước nhà!\" chuyển từ giọng điệu giễu cợt sang sắc thái nào?",
+        "o": [
+          "Bàng quan, rũ bỏ hoàn toàn trách nhiệm của kẻ sĩ với quê hương",
+          "Chúc mừng các quan trường đã hoàn thành xuất sắc nhiệm vụ",
+          "Xót xa, cảnh tỉnh, đau đáu gọi tìm những người có thực tài và lương tri đứng lên trước vận mệnh suy tàn của đất nước",
+          "Vui sướng hả hê vì bản thân tác giả đã đỗ thủ khoa trong kì thi năm ấy"
+        ],
+        "k": "C",
+        "e": "Đằng sau tiếng cười trào lộng của Tú Xương là trái tim yêu nước quặn đau trước cảnh nước mất nhà tan.",
+        "s": "Ngữ Văn 8",
+        "h": "Giọng điệu kết bài thơ Tú Xương"
+      },
+      {
+        "c": "NV8-B04-013",
+        "d": "advanced",
+        "p": "Vì sao trong văn thơ trào phúng, biện pháp \"nói ngược, khen giả vờ\" (như \"Thiên hạ thái bình\") thường có sức công phá mạnh mẽ hơn cả lời chửi mắng trực diện?",
+        "o": [
+          "Sự mâu thuẫn giữa lời khen bề mặt và bằng chứng thối nát buộc người đọc bật cười nhận ra sự phi lí không thể bào chữa, tạo dư âm mỉa mai",
+          "Bởi tác giả sợ bị chấm sai chính tả nếu dùng các tính từ chỉ thói xấu",
+          "Bởi ngôn ngữ thơ Đường luật cấm sử dụng mọi từ ngữ phê bình xã hội",
+          "Bởi người đọc sẽ không nhận ra bất kì lỗi lầm nào của các nhân vật được nhắc tới"
+        ],
+        "k": "A",
+        "e": "Nghệ thuật trào phúng bậc cao đánh vào nhận thức qua nghịch lí hài hước, khiến đối tượng bị phê phán tự bóc trần bản chất.",
+        "s": "Ngữ Văn 8",
+        "h": "Lí giải hiệu quả nghệ thuật nói ngược"
+      },
+      {
+        "c": "NV8-B04-014",
+        "d": "advanced",
+        "p": "So sánh cái cười trong \"Lễ xướng danh khoa Đinh Dậu\" (Tú Xương) và \"Lai Tân\" (Hồ Chí Minh), điểm khác biệt nổi bật về tâm thế của hai chủ thể trữ tình là gì?",
+        "o": [
+          "Tú Xương cười trong nỗi đau xót của kẻ sĩ mất nước; còn Hồ Chí Minh cười với phong thái ung dung, tỉnh táo từ tầm cao người chiến sĩ cách mạng",
+          "Tú Xương viết bằng thể thơ tự do hiện đại còn Hồ Chí Minh viết bằng thể thơ lục bát dân gian",
+          "Bài thơ của Tú Xương không có đối tượng châm biếm nào còn bài của Hồ Chí Minh viết về thiên nhiên",
+          "Tú Xương cười vì quá ngưỡng mộ chế độ thực dân còn Hồ Chí Minh buồn bã khóc than suốt bài thơ"
+        ],
+        "k": "A",
+        "e": "Cả hai đều có tiếng cười sâu cay nhưng vị thế tâm hồn và hoàn cảnh lịch sử tạo nên sắc thái giọng điệu rất riêng.",
+        "s": "Ngữ Văn 8",
+        "h": "So sánh phong cách trào phúng"
+      },
+      {
+        "c": "NV8-B04-015",
+        "d": "advanced",
+        "p": "Trong đoạn văn phân tích một bài thơ trào phúng, phương án nào giải thích đúng nhất vai trò của việc xác định \"nghĩa hàm ẩn\" trong đọc hiểu?",
+        "o": [
+          "Giải mã nghĩa hàm ẩn giúp biến mọi bài thơ buồn thành truyện cổ tích có hậu",
+          "Nghĩa hàm ẩn chỉ xuất hiện ở các bài thơ viết sai ngữ pháp tiếng Việt",
+          "Không cần hiểu nghĩa tường minh của từ ngữ cũng có thể suy đoán tùy tiện hàm ý theo ý thích",
+          "Nếu chỉ hiểu nghĩa tường minh bề mặt sẽ hiểu ngược chủ đích mỉa mai; chỉ khi giải mã nghĩa hàm ẩn gắn ngữ cảnh mới thấy hết thông điệp sâu xa"
+        ],
+        "k": "D",
+        "e": "Nghĩa tường minh là điểm tựa ngôn từ; nghĩa hàm ẩn là chiều sâu tư tưởng — hai mặt gắn bó chặt chẽ trong đọc hiểu.",
+        "s": "Ngữ Văn 8",
+        "h": "Tổng kết vai trò hàm ẩn trong đọc hiểu"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan8-c2",
+    "lesson": {
+      "code": "nguvan8-b05",
+      "title": "Bài 5. Những câu chuyện hài",
+      "seq": 5,
+      "subtitle": "Đọc hiểu hài kịch (Trưởng giả học làm sang – Molière) và truyện cười (Chùm truyện cười dân gian Việt Nam: Lợn cưới áo mới, Treo biển; Giá không có ruồi! – Aziz Nesin), trợ từ – thán từ – nghĩa của từ địa phương/toàn dân và viết bài văn kể lại một hoạt động xã hội",
+      "concepts": [
+        "Hài kịch: xung đột & thủ pháp gây cười",
+        "Truyện cười dân gian và hiện đại",
+        "Kể lại một hoạt động xã hội"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV8-B05-001",
+        "d": "basic",
+        "p": "Đoạn trích hài kịch kinh điển \"Ông Giuốc-đanh mặc lễ phục\" nằm trong vở kịch \"Trưởng giả học làm sang\" của nhà viết kịch thiên tài người Pháp nào?",
+        "o": [
+          "Mô-li-e (Molière)",
+          "Sếch-xpia (W. Shakespeare)",
+          "A-dít Nê-xin (Aziz Nesin)",
+          "Vích-to Huy-gô (Victor Hugo)"
+        ],
+        "k": "A",
+        "e": "Mô-li-e sáng tác vở hài kịch \"Trưởng giả học làm sang\" chế giễu thói học đòi quý tộc lố bịch của ông Giuốc-đanh giàu có mà ngu dốt.",
+        "s": "Ngữ Văn 8",
+        "h": "Tác giả Trưởng giả học làm sang",
+        "fig": {
+          "type": "table",
+          "title": "Thế giới Hài kịch & Truyện cười (Bài 5)",
+          "head": [
+            "Tác phẩm",
+            "Tác giả",
+            "Thể loại"
+          ],
+          "rows": [
+            [
+              "Trưởng giả làm sang",
+              "Molière",
+              "Hài kịch"
+            ],
+            [
+              "Lợn cưới, Treo biển",
+              "Dân gian Việt Nam",
+              "Truyện cười"
+            ],
+            [
+              "Giá không có ruồi!",
+              "Aziz Nesin",
+              "Truyện trào lộng"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV8-B05-002",
+        "d": "basic",
+        "p": "Trong lớp kịch \"Ông Giuốc-đanh mặc lễ phục\", bác phó may đã lừa ông Giuốc-đanh điều gì mà ông ta vẫn vui vẻ tin sái cổ và thưởng tiền hậu hĩnh?",
+        "o": [
+          "Thuyết phục ông Giuốc-đanh quyên góp hết gia sản làm trường học miễn phí",
+          "May áo lễ phục có hoa ngược, ăn bớt vải và gọi ông ta bằng các danh hiệu \"ông lớn\", \"cụ lớn\", \"đức ông\" tâng bốc hão huyền",
+          "Đem trả lại toàn bộ số tiền công may vì nhận ra mình may sai kích thước",
+          "Khuyên ông Giuốc-đanh mặc trang phục giản dị của người thợ thủ công"
+        ],
+        "k": "B",
+        "e": "Đánh trúng tâm lí háo danh hão của trưởng giả mới giàu, thợ may và thợ phụ tung hứng gọi \"đức ông\" khiến ông Giuốc-đanh mê muội rút tiền thưởng.",
+        "s": "Ngữ Văn 8",
+        "h": "Xung đột hài kịch Ông Giuốc-đanh"
+      },
+      {
+        "c": "NV8-B05-003",
+        "d": "basic",
+        "p": "Truyện cười dân gian \"Lợn cưới áo mới\" phê phán thói xấu nào của con người?",
+        "o": [
+          "Sự keo kiệt không dám mời hàng xóm ăn bữa cơm gia đình",
+          "Thói kiêu ngạo về thành tích học tập xuất sắc trong kì thi",
+          "Tính hay khoe của, phô trương lố bịch đến mức ngớ ngẩn không đúng lúc đúng chỗ",
+          "Thói nóng nảy hay gây gổ đánh nhau ngoài đường chợ"
+        ],
+        "k": "C",
+        "e": "Cả anh có lợn cưới đi tìm lợn lẫn anh mặc áo mới đứng chờ người khen đều khoe một cách vô duyên buồn cười (\"Từ lúc tôi mặc cái áo mới này chẳng thấy con lợn nào chạy qua cả\").",
+        "s": "Ngữ Văn 8",
+        "h": "Ý nghĩa truyện Lợn cưới áo mới"
+      },
+      {
+        "c": "NV8-B05-004",
+        "d": "basic",
+        "p": "Câu chuyện cười dân gian \"Treo biển\" (nhà hàng bán cá nghe lời góp ý của từng người qua đường rồi bỏ dần chữ trên tấm biển cho đến khi cất luôn biển) khuyên chúng ta điều gì?",
+        "o": [
+          "Phải biết lắng nghe có chọn lọc và giữ vững chính kiến hợp lí, tránh ba phải để rồi mất sạch mục tiêu ban đầu",
+          "Không nên treo biển hiệu cửa hàng bằng chữ quốc ngữ vì rất dễ bị người đi đường chê",
+          "Càng xóa bớt nhiều chữ trên biển quảng cáo thì cửa hàng càng bán chạy hơn",
+          "Tuyệt đối không bao giờ sửa chữa sai sót dù lời góp ý rất xác đáng"
+        ],
+        "k": "A",
+        "e": "Giống \"Đẽo cày giữa đường\" nhưng ở sắc thái truyện cười ngắn gọn, \"Treo biển\" tạo cú bật cười khi chữ cuối cùng cũng bị dỡ nốt.",
+        "s": "Ngữ Văn 8",
+        "h": "Bài học truyện cười Treo biển"
+      },
+      {
+        "c": "NV8-B05-005",
+        "d": "basic",
+        "p": "Trong câu: \"Chính bác phó may đã lén ăn bớt vải lụa quý của ông ta đấy!\", từ \"Chính\" và từ \"đấy\" thuộc từ loại đặc biệt nào dùng để nhấn mạnh hoặc biểu thị thái độ của người nói?",
+        "o": [
+          "Trợ từ (\"Chính\") và tiểu từ tình thái (\"đấy\")",
+          "Số từ chỉ số lượng và danh từ riêng",
+          "Quan hệ từ nối hai vế câu điều kiện",
+          "Động từ chỉ hoạt động di chuyển"
+        ],
+        "k": "A",
+        "e": "Trợ từ (\"chính, ngay, đích, chỉ, mới...\") đi kèm từ ngữ nhằm nhấn mạnh hoặc đánh giá; thán từ/tiểu từ tình thái bộc lộ cảm xúc, sắc thái câu.",
+        "s": "Ngữ Văn 8",
+        "h": "Nhận diện trợ từ và thán từ"
+      },
+      {
+        "c": "NV8-B05-006",
+        "d": "basic",
+        "p": "Trong câu: \"Ôi chao! Cái áo lễ phục hoa ngược thế này mà ông ta vẫn khen lấy khen để!\", cụm từ \"Ôi chao!\" thuộc loại từ nào?",
+        "o": [
+          "Số từ chỉ thứ tự trước sau",
+          "Thán từ (bộc lộ trực tiếp cảm xúc ngạc nhiên, ngán ngẩm)",
+          "Phó từ chỉ thời gian tiếp diễn",
+          "Đại từ thay thế tên riêng"
+        ],
+        "k": "B",
+        "e": "Thán từ (\"ôi chao, chao ôi, trời ơi, vâng, dạ...\") thường đứng đầu câu làm thành phần biệt lập hoặc tạo câu đặc biệt bộc lộ trực tiếp tình cảm, lời gọi đáp.",
+        "s": "Ngữ Văn 8",
+        "h": "Khái niệm thán từ"
+      },
+      {
+        "c": "NV8-B05-007",
+        "d": "application",
+        "p": "Trong \"Ông Giuốc-đanh mặc lễ phục\", vì sao tác giả Mô-li-e lại đưa vào chi tiết bốn chú thợ phụ mặc đồ cho ông Giuốc-đanh theo điệu múa nhịp nhàng trong tiếng nhạc tưng bừng?",
+        "o": [
+          "Để ca ngợi tinh thần lao động cần cù đáng kính của nhân vật chính",
+          "Vì ông Giuốc-đanh đang tập luyện để dự thi giải khiêu vũ quốc gia",
+          "Vì xưởng may lúc đó bị mất điện nên mọi người nhảy múa cho đỡ buồn",
+          "Tăng kịch tính hài hước như một màn rối vui nhộn, biến nhân vật trưởng giả thành con rối ngốc nghếch bị kẻ nịnh hót xoay vòng quanh thói háo danh"
+        ],
+        "k": "D",
+        "e": "Thủ pháp sân khấu (âm nhạc, vũ điệu, động tác nhịp nhàng) kết hợp lời thoại nịnh bợ phô bày trọn vẹn sự lố bịch của nhân vật.",
+        "s": "Ngữ Văn 8",
+        "h": "Thủ pháp hài kịch sân khấu"
+      },
+      {
+        "c": "NV8-B05-008",
+        "d": "application",
+        "p": "Trong truyện ngắn châm biếm \"Giá không có ruồi!\" của nhà văn Thổ Nhĩ Kỳ A-dít Nê-xin, tiếng cười hướng mũi nhọn phê phán vào hiện tượng xã hội nào?",
+        "o": [
+          "Sự trì trệ, quan liêu, làm việc đối phó thiếu trách nhiệm và tìm mọi lí do bao biện cho sự yếu kém ở một số cơ quan công quyền",
+          "Sở thích sưu tầm tem thư của các em học sinh vùng nông thôn",
+          "Kĩ thuật chăn nuôi gia súc trên thảo nguyên vào mùa nắng nóng",
+          "Sự phát triển quá nhanh của các nhà máy sản xuất thủy tinh"
+        ],
+        "k": "A",
+        "e": "Câu chuyện hài hước mà chua cay về cách viện cớ \"tại con ruồi\" để che đậy thói vô trách nhiệm và lười biếng.",
+        "s": "Ngữ Văn 8",
+        "h": "Ý nghĩa truyện Giá không có ruồi"
+      },
+      {
+        "c": "NV8-B05-009",
+        "d": "application",
+        "p": "Tìm câu sử dụng \"trợ từ\" đúng vị trí để nhấn mạnh thái độ đánh giá về tính chất bất ngờ/ít ỏi của sự việc:",
+        "o": [
+          "Trời ơi, hôm nay bầu trời sao mà trong xanh đến thế!",
+          "Cuộc họp kéo dài gần hai tiếng mà chỉ đưa ra được vỏn vẹn một giải pháp tạm thời.",
+          "Dạ, em xin phép cô giáo trình bày ý kiến của nhóm một ạ.",
+          "Các bạn học sinh đang trồng cây xanh ở sân trường."
+        ],
+        "k": "B",
+        "e": "\"chỉ\" là trợ từ nhấn mạnh sự ít ỏi (\"vỏn vẹn một giải pháp\"); \"Trời ơi\", \"Dạ\" ở các câu kia là thán từ.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân biệt trợ từ và thán từ"
+      },
+      {
+        "c": "NV8-B05-010",
+        "d": "application",
+        "p": "Khi viết bài văn kể lại một hoạt động xã hội (ví dụ: chiến dịch trồng cây xanh, quyên góp sách cho vùng lũ, thăm gia đình chính sách), trọng tâm nội dung cần thể hiện là gì?",
+        "o": [
+          "Kể rõ mục đích, thành phần, diễn biến công việc theo trình tự thời gian kết hợp miêu tả không khí tập thể và nêu ý nghĩa, cảm xúc sau hoạt động",
+          "Chỉ chép lại hóa đơn mua chổi và găng tay mà không kể mọi người đã làm gì",
+          "Tưởng tượng ra câu chuyện hài kịch chế giễu các bạn cùng tham gia lao động",
+          "Chỉ viết một đoạn thơ bốn chữ nói về thời tiết ngày hôm đó"
+        ],
+        "k": "A",
+        "e": "Bài viết kể hoạt động xã hội kết nối trải nghiệm thực tế của người tham gia với ý thức trách nhiệm cộng đồng.",
+        "s": "Ngữ Văn 8",
+        "h": "Trọng tâm kể hoạt động xã hội"
+      },
+      {
+        "c": "NV8-B05-011",
+        "d": "application",
+        "p": "Trong truyện \"Treo biển\", tấm biển ban đầu có 4 thông tin: \"Ở đây có bán cá tươi\". Người đầu tiên góp ý bỏ chữ \"tươi\" (vì chẳng lẽ bán cá ươn?), người tiếp theo góp ý bỏ \"ở đây\", bỏ \"có bán\", bỏ \"cá\"... Theo em, người chủ cửa hàng đã mắc sai lầm gì khi tiếp thu góp ý?",
+        "o": [
+          "Lỗi viết chữ quá to bằng sơn màu đỏ trên nền gỗ trắng",
+          "Lỗi không biết nói lời cảm ơn lịch sự với những người khách góp ý",
+          "Xét từng chữ một cách tách rời mục đích quảng bá tổng thể: tấm biển đặt trước quán vốn cần đủ thông tin rõ ràng cho khách đi đường nhận ra ngay từ xa",
+          "Lỗi bán cá với giá cao hơn các cửa hàng ở đầu chợ"
+        ],
+        "k": "C",
+        "e": "Một góp ý thoạt nghe có vẻ có lí cục bộ nhưng đặt trong mục đích thực tế lại sai — thiếu tư duy tổng thể sẽ bị dẫn dắt sai hướng.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân tích logic tình huống Treo biển"
+      },
+      {
+        "c": "NV8-B05-012",
+        "d": "application",
+        "p": "Khác với lời kể truyện ngắn thông thường, văn bản kịch bản hài kịch (như \"Trưởng giả học làm sang\") có phần chữ in nghiêng đặt trong ngoặc đơn (gọi là chỉ dẫn sân khấu) dùng để làm gì?",
+        "o": [
+          "Hướng dẫn bối cảnh, trang phục, hành động, cử chỉ, nét mặt và giọng điệu của diễn viên khi biểu diễn trên sân khấu",
+          "Tóm tắt lại tiểu sử cá nhân của từng khán giả ngồi dưới hàng ghế",
+          "Ghi đáp án đúng cho câu hỏi trắc nghiệm ở cuối sách giáo khoa",
+          "Thay thế hoàn toàn toàn bộ lời đối thoại giữa các nhân vật"
+        ],
+        "k": "A",
+        "e": "Chỉ dẫn sân khấu giúp đạo diễn, diễn viên và người đọc hình dung trực quan không gian, động tác và sắc thái hài hước.",
+        "s": "Ngữ Văn 8",
+        "h": "Vai trò chỉ dẫn sân khấu trong kịch"
+      },
+      {
+        "c": "NV8-B05-013",
+        "d": "advanced",
+        "p": "Phân tích nguồn gốc tiếng cười trong \"Ông Giuốc-đanh mặc lễ phục\": vì sao khán giả vừa bật cười sảng khoái trước sự ngô nghê của ông Giuốc-đanh, vừa thấy bài học sâu sắc về văn hóa cá nhân?",
+        "o": [
+          "Bởi vì thời đại của Mô-li-e không có bất kì người thợ may nào biết cắt vải đúng chiều",
+          "Bởi vở kịch khuyên con người không nên mặc quần áo đẹp trong các dịp lễ",
+          "Tiếng cười vạch trần thói chạy theo danh vọng hình thức: người thiếu tri thức và tự trọng rất dễ bị kẻ cơ hội tâng bốc, biến thành trò cười",
+          "Bởi khán giả ghen tị với số tiền vàng mà ông Giuốc-đanh sở hữu trong két sắt"
+        ],
+        "k": "C",
+        "e": "Hài kịch Molière bất tử vì chạm tới thói rởm đời, háo danh muôn thuở của xã hội loài người.",
+        "s": "Ngữ Văn 8",
+        "h": "Chiều sâu tư tưởng hài kịch Molière"
+      },
+      {
+        "c": "NV8-B05-014",
+        "d": "advanced",
+        "p": "So sánh \"Lợn cưới áo mới\" (truyện cười dân gian ngắn vài dòng) và \"Giá không có ruồi!\" (truyện ngắn hiện đại của Aziz Nesin) về cách tạo tình huống gây cười:",
+        "o": [
+          "Cả hai tác phẩm đều có kết thúc buồn bã khiến người đọc bật khóc",
+          "Truyện dân gian không có nhân vật nào nói chuyện còn truyện hiện đại hoàn toàn bằng thơ lục bát",
+          "Truyện dân gian phê phán máy móc công nghiệp còn truyện hiện đại kể chuyện đi chợ quê",
+          "Truyện dân gian nén chặt tình huống đối đáp bất ngờ; còn truyện hiện đại dựng chuỗi chi tiết phóng đại nhiều cấp độ phê phán thói quan liêu"
+        ],
+        "k": "D",
+        "e": "So sánh giúp thấy sự kế thừa và phát triển của nghệ thuật trào lộng từ dân gian đến văn học hiện đại.",
+        "s": "Ngữ Văn 8",
+        "h": "So sánh kết cấu truyện cười"
+      },
+      {
+        "c": "NV8-B05-015",
+        "d": "advanced",
+        "p": "Đọc hai câu kể hoạt động xã hội: (A) \"Nhóm em đi nhặt rác ở công viên rồi về.\" (B) \"Dưới cái nắng dịu buổi sáng sớm, hơn hai mươi bạn học sinh lớp 8A chia nhau từng dãy ghế đá, thoăn thoắt thu gom từng vỏ chai nhựa trong tiếng cười rộn rã.\" Câu (B) thuyết phục hơn câu (A) ở điểm nào?",
+        "o": [
+          "Vì câu (B) không nhắc tới địa điểm hay tên người tham gia nào",
+          "Vì câu (B) dùng thật nhiều từ lóng và tiếng nước ngoài khó hiểu",
+          "Vì câu (B) thay thế hoàn toàn sự việc thật bằng một câu chuyện thần tiên hư cấu",
+          "Dùng bối cảnh cụ thể, số liệu chân thực, từ ngữ gợi tả sinh động (\"thoăn thoắt\", \"rộn rã\"), truyền được tinh thần tích cực của hoạt động"
+        ],
+        "k": "D",
+        "e": "Kể hoạt động xã hội lôi cuốn nhờ chi tiết miêu tả chân thực và cảm xúc tập thể lan tỏa.",
+        "s": "Ngữ Văn 8",
+        "h": "Nâng cao chất lượng văn bản kể hoạt động"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan8-c2",
+    "lesson": {
+      "code": "nguvan8-b06",
+      "title": "Ôn tập Học kì I (Ngữ Văn 8)",
+      "seq": 6,
+      "subtitle": "Hệ thống hóa Đọc hiểu Học kì I (truyện lịch sử, thơ luật Đường, văn nghị luận trung đại và hiện đại, thơ trào phúng, hài kịch và truyện cười), Tiếng Việt (biệt ngữ xã hội, từ tượng hình – tượng thanh, kết cấu đoạn văn, nghĩa tường minh – hàm ẩn, trợ từ – thán từ) và các kiểu bài viết HK1",
+      "concepts": [
+        "Hệ thống thể loại HK1 lớp 8",
+        "Tổng hợp Tiếng Việt HK1 lớp 8",
+        "Kĩ năng đọc – viết tổng hợp HK1"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV8-B06-001",
+        "d": "basic",
+        "p": "Dựa vào bảng tổng hợp văn bản HK1 Ngữ văn 8, cặp tác phẩm nào thuộc thể loại thơ Đường luật?",
+        "o": [
+          "Trưởng giả học làm sang và Lợn cưới áo mới",
+          "Lá cờ thêu sáu chữ vàng và Quang Trung đại phá quân Thanh",
+          "Hịch tướng sĩ và Tinh thần yêu nước của nhân dân ta",
+          "Thu điếu (Nguyễn Khuyến) và Thiên Trường vãn vọng (Trần Nhân Tông)"
+        ],
+        "k": "D",
+        "e": "Thu điếu (thất ngôn bát cú), Thiên Trường vãn vọng (thất ngôn tứ tuyệt), cùng Lễ xướng danh khoa Đinh Dậu và Lai Tân đều viết theo thể thơ Đường luật.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân loại thể loại HK1",
+        "fig": {
+          "type": "table",
+          "title": "Tổng hợp Văn bản HK1 (NV8)",
+          "head": [
+            "Thể loại",
+            "Tác phẩm tiêu biểu"
+          ],
+          "rows": [
+            [
+              "Truyện lịch sử",
+              "Lá cờ sáu chữ vàng"
+            ],
+            [
+              "Thơ Đường luật",
+              "Thu điếu, Lai Tân"
+            ],
+            [
+              "Nghị luận",
+              "Chiếu dời đô, Hịch"
+            ],
+            [
+              "Hài kịch, Cười",
+              "Lợn cưới, Treo biển"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV8-B06-002",
+        "d": "basic",
+        "p": "Từ nào sau đây là từ tượng thanh mô phỏng âm thanh trong tự nhiên hoặc đời sống?",
+        "o": [
+          "tấp nập, nhộn nhịp, lấp lánh",
+          "lênh khênh, gồ ghề, chót vót",
+          "rì rào, lộp độp, khúc khích",
+          "bồi hồi, xao xuyến, bâng khuâng"
+        ],
+        "k": "C",
+        "e": "\"rì rào\", \"lộp độp\", \"khúc khích\" mô phỏng trực tiếp âm thanh (gió, mưa, tiếng cười); các nhóm kia gợi hình dáng hoặc tâm trạng.",
+        "s": "Ngữ Văn 8",
+        "h": "Ôn tập từ tượng thanh"
+      },
+      {
+        "c": "NV8-B06-003",
+        "d": "basic",
+        "p": "Đoạn văn không có câu chủ đề đứng riêng mà các câu cùng triển khai các khía cạnh ngang hàng xoay quanh một chủ đề chung được trình bày theo cách nào?",
+        "o": [
+          "Phối hợp (tổng – phân – hợp)",
+          "Diễn dịch",
+          "Song song",
+          "Quy nạp"
+        ],
+        "k": "C",
+        "e": "Đoạn văn song song triển khai các ý bình đẳng nhau, người đọc tự tổng hợp chủ đề chung từ mạch các câu.",
+        "s": "Ngữ Văn 8",
+        "h": "Ôn tập đoạn văn song song"
+      },
+      {
+        "c": "NV8-B06-004",
+        "d": "basic",
+        "p": "Trong câu: \"Ngay cả những người khách khó tính nhất cũng phải bật cười trước tấm biển cửa hàng\", từ \"Ngay cả\" thuộc từ loại nào?",
+        "o": [
+          "Thán từ",
+          "Số từ",
+          "Danh từ chỉ người",
+          "Trợ từ"
+        ],
+        "k": "D",
+        "e": "\"Ngay cả\" đi kèm cụm danh từ để nhấn mạnh phạm vi đối tượng đặc biệt nên là trợ từ.",
+        "s": "Ngữ Văn 8",
+        "h": "Ôn tập nhận diện trợ từ"
+      },
+      {
+        "c": "NV8-B06-005",
+        "d": "basic",
+        "p": "Văn bản \"Chiếu dời đô\" của Lý Công Uẩn và \"Hịch tướng sĩ\" của Trần Quốc Tuấn cùng thuộc nhóm văn bản nào?",
+        "o": [
+          "Văn nghị luận trung đại Việt Nam",
+          "Truyện cười dân gian truyền miệng",
+          "Thơ trữ tình tự do hiện đại",
+          "Văn bản thông tin giới thiệu ẩm thực"
+        ],
+        "k": "A",
+        "e": "Cả Chiếu và Hịch đều là những áng văn nghị luận mẫu mực thời trung đại dùng lí lẽ thuyết phục quân dân.",
+        "s": "Ngữ Văn 8",
+        "h": "Ôn tập văn nghị luận trung đại"
+      },
+      {
+        "c": "NV8-B06-006",
+        "d": "basic",
+        "p": "Khi viết bài văn phân tích một bài thơ trào phúng (Bài 4), ngoài việc phân tích nội dung châm biếm, người viết cần chú ý yếu tố nào của thể thơ?",
+        "o": [
+          "Chỉ tìm các từ láy tượng thanh mà bỏ qua nghĩa hàm ẩn của câu thơ",
+          "Viết một kịch bản hài kịch dài nhiều màn có phần chỉ dẫn sân khấu",
+          "Kể lại toàn bộ các chuyến đi tham quan di tích lịch sử của lớp",
+          "Hình thức thể thơ Đường luật (bố cục, niêm luật, đối, vần, đảo ngữ) và giọng điệu mỉa mai kết hợp nỗi niềm sâu kín của tác giả"
+        ],
+        "k": "D",
+        "e": "Phân tích thơ trào phúng kết hợp hài hòa giữa thi pháp Đường luật và chiều sâu phê phán xã hội.",
+        "s": "Ngữ Văn 8",
+        "h": "Ôn tập phân tích thơ trào phúng"
+      },
+      {
+        "c": "NV8-B06-007",
+        "d": "application",
+        "p": "Quan sát biểu đồ kết quả rèn luyện kĩ năng Tiếng Việt HK1 của học sinh khối 8. Chuyên đề nào đạt tỉ lệ chính xác cao nhất?",
+        "o": [
+          "Trợ từ và thán từ (82%)",
+          "Nghĩa tường minh và nghĩa hàm ẩn (68%)",
+          "Đoạn văn diễn dịch – quy nạp (76%)",
+          "Từ tượng hình và từ tượng thanh (91%)"
+        ],
+        "k": "D",
+        "e": "Theo biểu đồ, chuyên đề Từ tượng hình, tượng thanh đạt 91% (cao nhất), còn Nghĩa tường minh – hàm ẩn đạt 68% cần luyện thêm.",
+        "s": "Ngữ Văn 8",
+        "h": "Đọc hiểu biểu đồ kết quả học tập",
+        "fig": {
+          "type": "bars",
+          "title": "Tỉ lệ Đạt chuẩn Tiếng Việt HK1 (NV8)",
+          "labels": [
+            "Biệt ngữ/ĐP",
+            "Tượng hình/thanh",
+            "Đoạn văn",
+            "Hàm ẩn"
+          ],
+          "series": [
+            {
+              "values": [
+                84,
+                91,
+                76,
+                68
+              ]
+            }
+          ],
+          "unit": "%"
+        }
+      },
+      {
+        "c": "NV8-B06-008",
+        "d": "application",
+        "p": "Xác định nghĩa hàm ẩn trong câu thoại kịch: \"Thưa ngài, ngài là bậc quý tộc sáng suốt hiếm có; chỉ có những vị đại nhân mới mặc vừa chiếc áo hoa ngược thời thượng này!\"",
+        "o": [
+          "Thợ may thực sự kính trọng học vấn uyên bác của ông Giuốc-đanh",
+          "Thợ may đang ngầm chế giễu sự ngu dốt, háo danh dễ bị lừa của ông Giuốc-đanh để che giấu lỗi cắt may sai",
+          "Áo hoa ngược thực chất là quy định trang phục bắt buộc của triều đình Pháp",
+          "Thợ may muốn khuyên ông Giuốc-đanh trả lại chiếc áo để đổi áo khác"
+        ],
+        "k": "B",
+        "e": "Lợi dụng tâm lí ham tâng bốc, lời khen bề ngoài che giấu sự mỉa mai xảo quyệt phía sau.",
+        "s": "Ngữ Văn 8",
+        "h": "Giải mã hàm ẩn trong lời thoại kịch"
+      },
+      {
+        "c": "NV8-B06-009",
+        "d": "application",
+        "p": "Đọc đoạn văn: \"(1) Thơ Đường luật mang vẻ đẹp chặt chẽ và hàm súc hiếm có. (2) Mỗi bài thất ngôn bát cú chỉ gói gọn trong năm mươi sáu chữ mà dựng nên cả không gian bao la. (3) Nhờ phép đối cân xứng và ngôn từ cô đọng, từng câu thơ đều gợi mở nhiều tầng ý nghĩa. (4) Chính sự tinh luyện ấy đã giúp thơ Đường luật sống mãi qua nhiều thế kỉ.\" Đoạn văn có cấu trúc gì?",
+        "o": [
+          "Chỉ là một chuỗi các câu hỏi tu từ nối tiếp nhau",
+          "Phối hợp (tổng – phân – hợp: câu 1 nêu chủ đề, câu 2–3 phân tích làm rõ, câu 4 tổng hợp nâng cao ý nghĩa)",
+          "Văn bản tường trình hành chính nhiều mục",
+          "Song song không có câu chủ đề ở đầu và cuối"
+        ],
+        "k": "B",
+        "e": "Có cả câu mở đoạn khái quát lẫn câu kết đoạn tổng hợp lại ở tầm cao hơn là đặc điểm của đoạn phối hợp.",
+        "s": "Ngữ Văn 8",
+        "h": "Nhận diện đoạn văn phối hợp"
+      },
+      {
+        "c": "NV8-B06-010",
+        "d": "application",
+        "p": "Chọn cặp từ ngữ địa phương – toàn dân đúng để điều chỉnh câu văn viết báo cáo hoạt động xã hội cấp toàn trường: \"Các bạn học sinh đã hăng hái dọn sạch hết mấy cái mương, cái rạch bị lấp kín vì rác thải.\"",
+        "o": [
+          "Thay toàn bộ câu thành tiếng lóng trên mạng xã hội",
+          "Thay \"các bạn học sinh\" thành \"bọn trẻ con nhà bên cạnh\"",
+          "Câu trên dùng từ ngữ phổ thông dễ hiểu, tuy nhiên có thể thay \"cái mương, cái rạch\" thành \"hệ thống kênh mương, rạch nước\" cho trang trọng, mạch lạc hơn",
+          "Giữ nguyên khẩu ngữ \"mấy cái... bị...\" và thêm nhiều từ \"ôi trời ơi\""
+        ],
+        "k": "C",
+        "e": "Trong văn bản kể hoạt động xã hội hoặc báo cáo chung, lựa chọn từ ngữ chuẩn mực giúp câu văn sáng rõ và trang trọng hơn.",
+        "s": "Ngữ Văn 8",
+        "h": "Chuẩn hóa ngôn ngữ văn bản"
+      },
+      {
+        "c": "NV8-B06-011",
+        "d": "application",
+        "p": "Trong hai câu sau, câu nào có chứa CẢ trợ từ lẫn thán từ?",
+        "o": [
+          "Than ôi! Chỉ vì một phút chủ quan mà bao công sức cả năm đã trôi theo dòng nước!",
+          "Văn bản \"Chiếu dời đô\" thuyết phục lòng người bằng lí lẽ chặt chẽ.",
+          "Sáng Chủ nhật, lớp em tổ chức dọn vệ sinh tuyến đường thanh niên.",
+          "Mặt ao thu phẳng lặng in bóng những rặng trúc xanh biếc."
+        ],
+        "k": "A",
+        "e": "\"Than ôi!\" là thán từ bộc lộ cảm xúc đau xót; \"Chỉ\" là trợ từ nhấn mạnh nguyên nhân nhỏ dẫn tới hậu quả lớn.",
+        "s": "Ngữ Văn 8",
+        "h": "Nhận diện kết hợp trợ từ và thán từ"
+      },
+      {
+        "c": "NV8-B06-012",
+        "d": "application",
+        "p": "Điểm gặp gỡ sâu sắc về nghệ thuật lập luận giữa \"Hịch tướng sĩ\" và \"Tinh thần yêu nước của nhân dân ta\" là gì?",
+        "o": [
+          "Đều viết dưới dạng thể thơ thất ngôn tứ tuyệt chữ Hán ngắn gọn bốn câu",
+          "Đều sử dụng tiếng cười hài kịch để châm biếm các nhân vật trong gia đình",
+          "Đều chỉ kể chuyện ngụ ngôn về các loài vật trong khu rừng",
+          "Đều kết hợp chặt chẽ lí lẽ sắc bén, bằng chứng thuyết phục với tình cảm chân thành, giọng văn giàu nhiệt huyết khơi dậy lòng yêu nước"
+        ],
+        "k": "D",
+        "e": "Nghị luận đỉnh cao của dân tộc luôn là sự hòa quyện giữa \"lí\" sắc và \"tình\" nồng.",
+        "s": "Ngữ Văn 8",
+        "h": "So sánh nghệ thuật nghị luận Việt Nam"
+      },
+      {
+        "c": "NV8-B06-013",
+        "d": "advanced",
+        "p": "Khi đọc hiểu một truyện cười hoặc trích đoạn hài kịch mới, dấu hiệu nào giúp người đọc xác định chính xác \"mâu thuẫn trào phúng\" trung tâm của văn bản?",
+        "o": [
+          "Chỉ đọc phần giới thiệu tên tác giả ở cuối trang sách",
+          "Tìm nhân vật nào có tuổi tác lớn nhất trong danh sách phân vai",
+          "Tìm sự vênh nhau phi lí giữa vẻ ngoài (khoe khoang, danh hiệu hão, nghiêm trang giả tạo) với bản chất thực bên trong (dốt nát, tham lam, vô trách nhiệm)",
+          "Đếm xem trong văn bản có bao nhiêu câu kết thúc bằng dấu chấm than"
+        ],
+        "k": "C",
+        "e": "Mọi tiếng cười có giá trị đều nảy sinh từ sự đối lập giữa \"cái giả tạo/kệch cỡm\" với \"chuẩn mực bình thường, đúng đắn\".",
+        "s": "Ngữ Văn 8",
+        "h": "Phương pháp giải mã hài kịch – truyện cười"
+      },
+      {
+        "c": "NV8-B06-014",
+        "d": "advanced",
+        "p": "Đọc hai câu mở bài sau cho đề văn kể lại chuyến đi tham quan Hoàng thành Thăng Long: \"Chủ nhật vừa qua, chi đội 8B chúng em đã có chuyến tham quan Hoàng thành Thăng Long – di sản văn hóa thế giới lưu giữ dấu ấn nghìn năm lịch sử của dân tộc, để lại trong em biết bao rung động tự hào.\" Nhận xét nào đánh giá đúng nhất câu mở bài này?",
+        "o": [
+          "Mắc lỗi lặp từ nặng nề và chưa nhắc tới tên di tích lịch sử nào",
+          "Quá sơ sài vì thiếu hóa đơn vé vào cổng và thực đơn bữa trưa",
+          "Đạt chuẩn cao vì chỉ trong một câu đã nêu đủ thời gian, tập thể tham gia, địa điểm di sản và ấn tượng cảm xúc chủ đạo dẫn vào bài viết",
+          "Sai thể loại vì viết giống một bài thơ trào phúng châm biếm"
+        ],
+        "k": "C",
+        "e": "Mở bài súc tích xác định rõ sự kiện, đối tượng và định hướng mạch cảm xúc cho toàn bài.",
+        "s": "Ngữ Văn 8",
+        "h": "Đánh giá kĩ năng viết mở bài"
+      },
+      {
+        "c": "NV8-B06-015",
+        "d": "advanced",
+        "p": "Trong học kì I lớp 8, học sinh vừa được đọc các bài thơ cổ điển trang trọng (Bài 2), các áng văn chính luận hào hùng (Bài 3) vừa tiếp xúc với thơ trào phúng, hài kịch (Bài 4–5). Sự đa dạng thể loại này giúp phát triển năng lực gì?",
+        "o": [
+          "Làm học sinh bối rối vì nghĩ văn học không có quy tắc rõ ràng nào",
+          "Khuyên học sinh dùng giọng điệu hài kịch để viết các bài nghị luận yêu nước",
+          "Giúp học sinh linh hoạt góc nhìn: trân trọng vẻ đẹp cổ điển – hào khí dân tộc, đồng thời tỉnh táo phê phán thói xấu bằng tiếng cười văn hóa",
+          "Chỉ giúp học sinh nhớ tên một vài tác giả người Pháp thế kỉ XVII"
+        ],
+        "k": "C",
+        "e": "Tiếp xúc đa dạng thanh sắc (trang nghiêm – bi tráng – trào lộng) bồi đắp tâm hồn toàn diện và năng lực đọc hiểu sâu sắc.",
+        "s": "Ngữ Văn 8",
+        "h": "Khái quát giá trị chương trình HK1"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan8-c3",
+    "lesson": {
+      "code": "nguvan8-b07",
+      "title": "Bài 6. Chân dung cuộc sống",
+      "seq": 7,
+      "subtitle": "Đọc hiểu truyện (Mắt sói – Daniel Pennac, Lặng lẽ Sa Pa – Nguyễn Thành Long, Chiếc lá cuối cùng – O. Henry) và thơ Bếp lửa (Bằng Việt), thành phần biệt lập (tình thái, cảm thán, gọi – đáp, phụ chú) và viết bài văn phân tích một tác phẩm truyện",
+      "concepts": [
+        "Đọc hiểu truyện hiện đại & nhân vật",
+        "Các thành phần biệt lập trong câu",
+        "Phân tích một tác phẩm truyện"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV8-B07-001",
+        "d": "basic",
+        "p": "Đoạn trích tiểu thuyết \"Mắt sói\" kể về cuộc đối thoại không lời đầy thấu cảm giữa cậu bé Phi Châu và chú Sói Lam qua ánh mắt là sáng tác của nhà văn nào?",
+        "o": [
+          "Ô Hen-ri (O. Henry)",
+          "Jules Verne",
+          "Đa-ni-en Pen-nắc (Daniel Pennac)",
+          "Chingiz Aitmatov"
+        ],
+        "k": "C",
+        "e": "\"Mắt sói\" là tác phẩm nổi tiếng của nhà văn Pháp Daniel Pennac về tình bạn kì diệu giữa cậu bé Phi Châu và con sói một mắt.",
+        "s": "Ngữ Văn 8",
+        "h": "Tác giả Mắt sói",
+        "fig": {
+          "type": "table",
+          "title": "Tác phẩm Bài 6 (NV8)",
+          "head": [
+            "Văn bản",
+            "Tác giả",
+            "Hình tượng trung tâm"
+          ],
+          "rows": [
+            [
+              "Mắt sói",
+              "Daniel Pennac",
+              "Sói Lam & Phi Châu"
+            ],
+            [
+              "Lặng lẽ Sa Pa",
+              "Ng. Thành Long",
+              "Anh thanh niên Sa Pa"
+            ],
+            [
+              "Bếp lửa",
+              "Bằng Việt",
+              "Người bà & bếp lửa"
+            ],
+            [
+              "Chiếc lá cuối cùng",
+              "O. Henry",
+              "Cụ Bơ-men, Giôn-xi"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV8-B07-002",
+        "d": "basic",
+        "p": "Trong truyện ngắn \"Lặng lẽ Sa Pa\" (Nguyễn Thành Long), nhân vật anh thanh niên làm công việc thầm lặng gì trên đỉnh Yên Sơn cao 2.600 mét?",
+        "o": [
+          "Lái xe khách đưa du khách từ Hà Nội lên Lào Cai",
+          "Làm công tác khí tượng kiêm vật lí địa cầu (đo gió, đo mưa, đo nắng, tính mây, đo chấn động mặt đất phục vụ dự báo thời tiết)",
+          "Trồng hoa hồng xuất khẩu cho khách sạn thị trấn",
+          "Khai thác gỗ quý trong rừng thông Sa Pa"
+        ],
+        "k": "B",
+        "e": "Một mình sống giữa đỉnh Yên Sơn, anh thanh niên vẫn bền bỉ ghi số liệu từng giờ, gửi niềm tin và lòng yêu nghề vào công cuộc xây dựng đất nước.",
+        "s": "Ngữ Văn 8",
+        "h": "Nhân vật anh thanh niên Sa Pa"
+      },
+      {
+        "c": "NV8-B07-003",
+        "d": "basic",
+        "p": "Trong truyện ngắn \"Chiếc lá cuối cùng\" của nhà văn Mỹ O. Henry, kiệt tác nghệ thuật cứu sống cô họa sĩ trẻ Giôn-xi là gì?",
+        "o": [
+          "Bức tranh phong cảnh mùa xuân rực rỡ ánh mặt trời trưng bày tại bảo tàng",
+          "Bình thuốc quý được chuyển bằng tàu thủy từ châu Âu sang",
+          "Bức tượng điêu khắc bằng đá cẩm thạch đặt giữa công viên thành phố",
+          "Chiếc lá thường xuân cuối cùng do cụ họa sĩ già Bơ-men vẽ lên bức tường gạch trong đêm mưa tuyết dữ dội"
+        ],
+        "k": "D",
+        "e": "Cụ Bơ-men đã hi sinh thầm lặng giữa đêm mưa gió để vẽ chiếc lá cuối cùng trông như thật, truyền lại nghị lực sống cho Giôn-xi.",
+        "s": "Ngữ Văn 8",
+        "h": "Chi tiết kiệt tác Chiếc lá cuối cùng"
+      },
+      {
+        "c": "NV8-B07-004",
+        "d": "basic",
+        "p": "Trong câu: \"Chắc hẳn anh thanh niên ấy rất nhớ tiếng nói cười của phố phường và người thân\", từ \"Chắc hẳn\" thuộc thành phần biệt lập nào?",
+        "o": [
+          "Thành phần cảm thán",
+          "Thành phần phụ chú",
+          "Thành phần gọi – đáp",
+          "Thành phần tình thái (thể hiện độ tin cậy của người nói đối với sự việc)"
+        ],
+        "k": "D",
+        "e": "Các từ như \"chắc chắn, có lẽ, chắc hẳn, hình như, dường như...\" biểu thị mức độ tin cậy hoặc cách nhìn của người nói là thành phần tình thái.",
+        "s": "Ngữ Văn 8",
+        "h": "Nhận diện thành phần tình thái"
+      },
+      {
+        "c": "NV8-B07-005",
+        "d": "basic",
+        "p": "Dấu gạch ngang hoặc dấu ngoặc đơn trong câu: \"Anh thanh niên – người đo gió trên đỉnh Yên Sơn – vẫn giữ thói quen đọc sách mỗi đêm\" tách riêng thành phần biệt lập nào?",
+        "o": [
+          "Trạng ngữ chỉ thời gian",
+          "Thành phần gọi – đáp",
+          "Thành phần cảm thán",
+          "Thành phần phụ chú (chêm xen để giải thích, bổ sung chi tiết cho \"Anh thanh niên\")"
+        ],
+        "k": "D",
+        "e": "Thành phần phụ chú bổ sung thông tin giải thích thêm cho từ ngữ đứng trước và thường đặt giữa dấu gạch ngang, ngoặc đơn hoặc dấu phẩy.",
+        "s": "Ngữ Văn 8",
+        "h": "Nhận diện thành phần phụ chú"
+      },
+      {
+        "c": "NV8-B07-006",
+        "d": "basic",
+        "p": "Trong bài thơ \"Bếp lửa\" của nhà thơ Bằng Việt, hai hình ảnh luôn song hành gắn bó làm điểm tựa tinh thần cho người cháu từ thuở ấu thơ tới lúc trưởng thành là gì?",
+        "o": [
+          "Tiếng trống trường và hàng phượng vĩ đỏ rực sân trường",
+          "Bầu trời sao đêm và dãy núi tuyết trắng xóa",
+          "Hình ảnh người bà tần tảo giàu đức hi sinh và ngọn lửa bếp ấm áp, rực sáng niềm tin",
+          "Cánh buồm trắng và con tàu thủy vượt đại dương"
+        ],
+        "k": "C",
+        "e": "\"Một bếp lửa chờn vờn sương sớm / Một bếp lửa ấp iu nồng đượm\" khơi dậy cả một đời tảo tần và tình thương bao la của bà.",
+        "s": "Ngữ Văn 8",
+        "h": "Hình tượng trung tâm bài Bếp lửa"
+      },
+      {
+        "c": "NV8-B07-007",
+        "d": "application",
+        "p": "Trong \"Lặng lẽ Sa Pa\", vì sao tác giả không đặt tên riêng cho các nhân vật (chỉ gọi là \"anh thanh niên\", \"ông họa sĩ\", \"cô kĩ sư\", \"bác lái xe\")?",
+        "o": [
+          "Vì ở đỉnh núi Sa Pa không ai sử dụng họ tên trong giấy tờ tùy thân",
+          "Để người đọc nhầm lẫn tính cách giữa ông họa sĩ già và cô kĩ sư trẻ",
+          "Để khẳng định những con người cống hiến thầm lặng ấy đại diện cho bao con người bình dị mà cao đẹp khắp đất nước, không riêng cá nhân nào",
+          "Vì tác giả viết vội nên quên chưa nghĩ ra tên gọi cụ thể cho các nhân vật"
+        ],
+        "k": "C",
+        "e": "Cách gọi phiếm chỉ theo nghề nghiệp và lứa tuổi mang ý nghĩa khái quát hóa phẩm chất đẹp đẽ của cả một thế hệ lao động mới.",
+        "s": "Ngữ Văn 8",
+        "h": "Nghệ thuật đặt tên nhân vật Sa Pa"
+      },
+      {
+        "c": "NV8-B07-008",
+        "d": "application",
+        "p": "Trong \"Mắt sói\", cách tác giả kể chuyện lồng chuyện (nhìn vào mắt nhau, dòng hồi ức hiện lên nối tiếp) giữa Phi Châu và Sói Lam tạo ra ý nghĩa gì?",
+        "o": [
+          "Khuyến khích người dân săn bắt động vật hoang dã về nuôi trong sở thú kính",
+          "Xóa nhòa ranh giới giữa con người và loài vật, cho thấy sự thấu hiểu, đồng cảm với nỗi đau mất tự do và kí ức gia đình của nhau chỉ cần qua ánh nhìn chân thành",
+          "Chứng minh rằng loài sói Bắc Cực có thể nói thành thạo tiếng Pháp và tiếng châu Phi",
+          "Làm cốt truyện rối rắm khiến không ai hiểu quá khứ của nhân vật nào"
+        ],
+        "k": "B",
+        "e": "Cấu trúc truyện lồng trong ánh mắt tôn vinh sự giao cảm tâm hồn và lời kêu gọi tôn trọng thiên nhiên.",
+        "s": "Ngữ Văn 8",
+        "h": "Nghệ thuật truyện lồng truyện Mắt sói"
+      },
+      {
+        "c": "NV8-B07-009",
+        "d": "application",
+        "p": "Xác định thành phần biệt lập trong câu: \"Này, bác có thấy chiếc lá cuối cùng vẫn bám chặt trên cành kia không?\"",
+        "o": [
+          "\"Này\" là thành phần gọi – đáp (dùng để tạo lập cuộc thoại, gọi người nghe chú ý)",
+          "\"chiếc lá cuối cùng\" là thành phần cảm thán",
+          "\"bác\" là thành phần phụ chú",
+          "\"trên cành kia\" là thành phần tình thái"
+        ],
+        "k": "A",
+        "e": "Từ \"Này\" (cùng với \"ơi, thưa, vâng, dạ...\") đứng độc lập để gọi đáp, duy trì giao tiếp nên là thành phần gọi – đáp.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân biệt bốn thành phần biệt lập"
+      },
+      {
+        "c": "NV8-B07-010",
+        "d": "application",
+        "p": "Vì sao trong \"Lặng lẽ Sa Pa\", anh thanh niên nói với ông họa sĩ: \"Mình sinh ra là gì, mình đẻ ở đâu, mình vì ai mà làm việc?\" trước khi từ chối không cho ông vẽ chân dung mình?",
+        "o": [
+          "Vì anh sắp chuyển công tác sang vùng biển khác ngay trong buổi tối",
+          "Thể hiện sự khiêm tốn chân thành: anh thấy sự đóng góp của mình còn nhỏ bé so với nhiều đồng nghiệp khác như ông kĩ sư vườn rau hay anh cán bộ bản đồ sét",
+          "Vì anh sợ bức tranh sẽ làm lộ bí mật công thức nấu ăn trên đỉnh núi",
+          "Vì anh ghét nghệ thuật hội họa và không tin tưởng tài năng của ông họa sĩ"
+        ],
+        "k": "B",
+        "e": "Sự khiêm tốn, biết trân trọng công lao thầm lặng của đồng nghiệp càng làm sáng ngời vẻ đẹp nhân cách anh thanh niên.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân tích tâm hồn anh thanh niên"
+      },
+      {
+        "c": "NV8-B07-011",
+        "d": "application",
+        "p": "Khi viết bài văn phân tích một tác phẩm truyện (như \"Chiếc lá cuối cùng\" hay \"Lặng lẽ Sa Pa\"), cách tổ chức phần Thân bài mạch lạc nhất là gì?",
+        "o": [
+          "Chỉ viết một đoạn nhận xét về năm sinh của nhà văn rồi chuyển sang kết bài",
+          "Chép lại nguyên văn toàn bộ truyện từ đầu đến cuối để đảm bảo đủ số chữ",
+          "Phân tích luật bằng trắc và cách gieo vần của thể thơ thất ngôn bát cú",
+          "Phân tích chủ đề, tình huống và cốt truyện → Phân tích nhân vật qua chi tiết tiêu biểu → Đánh giá nghệ thuật kể chuyện (ngôi kể, đảo tình huống)"
+        ],
+        "k": "D",
+        "e": "Phân tích truyện cần song hành hai phương diện: giá trị nội dung – tư tưởng (tình huống, nhân vật, chủ đề) và nghệ thuật tự sự.",
+        "s": "Ngữ Văn 8",
+        "h": "Cấu trúc bài phân tích tác phẩm truyện"
+      },
+      {
+        "c": "NV8-B07-012",
+        "d": "application",
+        "p": "Khổ thơ trong \"Bếp lửa\": \"Lận đận đời bà biết mấy nắng mưa / Mấy chục năm rồi, đến tận bây giờ / Bà vẫn giữ thói quen dậy sớm / Nhóm bếp lửa ấp iu nồng đượm / Nhóm niềm yêu thương, khoai sắn ngọt bùi...\" dùng biện pháp tu từ nào với động từ \"Nhóm\"?",
+        "o": [
+          "Chơi chữ đồng âm giữa các loại củ ngoài ruộng đồng",
+          "Điệp ngữ kết hợp ẩn dụ nâng cao nghĩa: từ nhóm lửa cụ thể hằng sáng nâng lên thành nhóm niềm yêu thương, niềm vui và ước mơ cho cháu",
+          "Nói quá phóng đại nhằm thể hiện bếp lửa lớn bằng cả ngọn núi",
+          "Nói giảm nói tránh nhằm giấu đi nỗi vất vả của người bà"
+        ],
+        "k": "B",
+        "e": "Điệp từ \"nhóm\" lặp lại bốn lần mở rộng dần từ ngọn lửa vật chất thành ngọn lửa tinh thần sưởi ấm suốt đời người cháu.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân tích điệp từ nhóm trong Bếp lửa"
+      },
+      {
+        "c": "NV8-B07-013",
+        "d": "advanced",
+        "p": "Đoạn kết \"Chiếc lá cuối cùng\" có tình huống bất ngờ khi Xiu kể cho Giôn-xi biết sự thật cụ Bơ-men đã chết vì viêm phổi sau đêm vẽ chiếc lá lên tường. Giá trị của nghệ thuật \"đảo ngược tình huống hai lần\" trong truyện là gì?",
+        "o": [
+          "Biến câu chuyện cảm động thành một vụ án trinh thám giật gân",
+          "Chứng tỏ cụ Bơ-men không phải là một họa sĩ có tài năng thật sự",
+          "Làm cho người đọc cảm thấy mệt mỏi vì cốt truyện thay đổi quá đột ngột",
+          "Đảo từ tuyệt vọng của Giôn-xi sang hồi sinh, rồi đảo sang sự thật cụ Bơ-men vẽ lá cứu người và hi sinh — tạo xúc động bàng hoàng đầy nhân ái"
+        ],
+        "k": "D",
+        "e": "Hai cú đảo tình huống sắc sảo đặc trưng của O. Henry đẩy giá trị nhân đạo của chiếc lá vẽ lên tầm kiệt tác bất tử.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân tích nghệ thuật O. Henry"
+      },
+      {
+        "c": "NV8-B07-014",
+        "d": "advanced",
+        "p": "Thành phần biệt lập không tham gia diễn đạt nghĩa sự việc của câu, vậy vì sao nếu bỏ hết các thành phần tình thái, cảm thán, phụ chú thì văn bản văn học trở nên khô cứng?",
+        "o": [
+          "Bởi không có thành phần biệt lập thì câu văn sẽ bị sai hoàn toàn ngữ pháp tiếng Việt",
+          "Bởi thành phần biệt lập luôn đóng vai trò chủ ngữ đứng đầu mọi câu đơn",
+          "Bởi thành phần biệt lập chính là nơi truyền tải thái độ, độ tin cậy, rung động chủ quan, sự dẫn dắt giải thích tinh tế giữa người nói/tác giả với người đọc",
+          "Bởi chỉ có thành phần phụ chú mới cung cấp được tên nhân vật trong truyện"
+        ],
+        "k": "C",
+        "e": "Dù \"biệt lập\" về mặt cú pháp sự việc, chúng lại là nhịp cầu cảm xúc và tương tác cực kì giàu sức biểu đạt.",
+        "s": "Ngữ Văn 8",
+        "h": "Giá trị biểu cảm của thành phần biệt lập"
+      },
+      {
+        "c": "NV8-B07-015",
+        "d": "advanced",
+        "p": "Khi đặt ba tác phẩm \"Lặng lẽ Sa Pa\", \"Chiếc lá cuối cùng\" và \"Bếp lửa\" cạnh nhau trong chủ đề \"Chân dung cuộc sống\", thông điệp chung sâu sắc nhất mà chúng cùng thắp lên là gì?",
+        "o": [
+          "Mỗi người nên sống thu mình cô độc, từ chối mọi sự giúp đỡ từ cộng đồng",
+          "Con người chỉ đạt được hạnh phúc khi sở hữu thật nhiều tiền bạc và danh tiếng hào nhoáng",
+          "Vẻ đẹp cuộc sống kết tinh từ những ngọn lửa thầm lặng: cống hiến vô tư trong lao động, lòng nhân ái hi sinh và tình thân gia đình ấm áp",
+          "Nghệ thuật chỉ có giá trị khi được trưng bày trong các phòng triển lãm sang trọng"
+        ],
+        "k": "C",
+        "e": "Những \"ngọn lửa\" bình dị mà cao quý chiếu sáng bức chân dung cuộc sống đầy nhân văn.",
+        "s": "Ngữ Văn 8",
+        "h": "Tổng hợp tư tưởng Bài 6"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan8-c3",
+    "lesson": {
+      "code": "nguvan8-b08",
+      "title": "Bài 7. Tin yêu và ước vọng",
+      "seq": 8,
+      "subtitle": "Đọc hiểu thơ tự do hiện đại (Đồng chí – Chính Hữu, Lá đỏ – Nguyễn Đình Thi, Những ngôi sao xa xôi / hoặc Mây và sóng / Quê hương / Mẹ – Đỗ Trung Quân theo mạch Ngữ văn 8 KNTT), sắc thái nghĩa của từ ngữ và lựa chọn từ ngữ, viết đoạn văn ghi lại cảm nghĩ về một bài thơ tự do",
+      "concepts": [
+        "Thơ tự do: nhịp điệu và hình ảnh",
+        "Sắc thái nghĩa của từ ngữ",
+        "Đoạn văn cảm nghĩ bài thơ tự do"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV8-B08-001",
+        "d": "basic",
+        "p": "Bài thơ \"Đồng chí\" khắc họa tình đồng đội keo sơn giữa những người lính nông dân buổi đầu kháng chiến chống Pháp là sáng tác của nhà thơ nào?",
+        "o": [
+          "Chính Hữu",
+          "Quang Dũng",
+          "Phạm Tiến Duật",
+          "Nguyễn Đình Thi"
+        ],
+        "k": "A",
+        "e": "Nhà thơ Chính Hữu sáng tác \"Đồng chí\" năm 1948 từ chính trải nghiệm cùng đồng đội trong chiến dịch Việt Bắc Thu – Đông 1947.",
+        "s": "Ngữ Văn 8",
+        "h": "Tác giả bài thơ Đồng chí",
+        "fig": {
+          "type": "table",
+          "title": "Thơ Tự do Hiện đại (Bài 7)",
+          "head": [
+            "Bài thơ",
+            "Tác giả",
+            "Hình tượng đẹp nhất"
+          ],
+          "rows": [
+            [
+              "Đồng chí",
+              "Chính Hữu",
+              "Đầu súng trăng treo"
+            ],
+            [
+              "Lá đỏ",
+              "Nguyễn Đình Thi",
+              "Cô gái tiền phương"
+            ],
+            [
+              "Mẹ",
+              "Đỗ Trung Quân",
+              "Tình mẹ bao la"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV8-B08-002",
+        "d": "basic",
+        "p": "Theo đoạn mở đầu bài thơ \"Đồng chí\", hai người lính gặp nhau từ hai miền quê nào để rồi gắn bó thành tri kỉ?",
+        "o": [
+          "Cả hai cùng sinh ra trong gia đình quý tộc giàu có nơi kinh thành",
+          "Cả hai đều là giáo sư đại học chuyên ngành thiên văn học",
+          "Một người từ thành phố lớn ở châu Âu, một người từ vùng cực Bắc",
+          "\"Quê hương anh nước mặn, đồng chua / Làng tôi nghèo đất cày lên sỏi đá\" (đều xuất thân từ những miền quê nông dân nghèo khó)"
+        ],
+        "k": "D",
+        "e": "Điểm tương đồng xuất thân nghèo khó (\"nước mặn đồng chua\" – \"đất cày lên sỏi đá\") là cơ sở đầu tiên của tình đồng chí.",
+        "s": "Ngữ Văn 8",
+        "h": "Cơ sở hình thành tình đồng chí"
+      },
+      {
+        "c": "NV8-B08-003",
+        "d": "basic",
+        "p": "Bài thơ ngắn 8 dòng \"Lá đỏ\" (Gặp em trên cao lộng gió / Rừng lạ ào ào lá đỏ...) được nhà thơ Nguyễn Đình Thi sáng tác trên tuyến đường lịch sử nào?",
+        "o": [
+          "Đường Trường Sơn trong cuộc kháng chiến chống Mĩ cứu nước (năm 1974)",
+          "Trên đỉnh Phan-xi-păng trong chuyến du lịch mùa đông",
+          "Đường phố Hà Nội trong ngày hội hoa xuân năm 2000",
+          "Ven bờ sông Hương vào một buổi chiều thu năm 1930"
+        ],
+        "k": "A",
+        "e": "Hình ảnh cô gái thanh niên xung phong đứng bên rừng lá đỏ Trường Sơn mang vẻ đẹp kiêu hãnh và niềm tin ngày toàn thắng.",
+        "s": "Ngữ Văn 8",
+        "h": "Bối cảnh bài thơ Lá đỏ"
+      },
+      {
+        "c": "NV8-B08-004",
+        "d": "basic",
+        "p": "Thế nào là \"thơ tự do\"?",
+        "o": [
+          "Văn bản hành chính liệt kê các điều khoản nội quy nhà trường",
+          "Thể thơ bắt buộc mỗi bài chỉ có đúng 8 câu và mỗi câu 7 chữ theo niêm luật",
+          "Thể thơ không bị gò bó bởi số tiếng mỗi dòng, số dòng mỗi khổ hay niêm luật bằng trắc cố định; nhịp điệu linh hoạt theo mạch cảm xúc tự nhiên",
+          "Thể thơ viết xen kẽ một câu 6 chữ với một câu 8 chữ liên tục từ đầu đến cuối"
+        ],
+        "k": "C",
+        "e": "Thơ tự do giải phóng câu chữ khỏi khuôn khổ cố định để chạy theo nhịp đập cảm xúc chân thực và hình ảnh hiện đại.",
+        "s": "Ngữ Văn 8",
+        "h": "Đặc trưng thể thơ tự do"
+      },
+      {
+        "c": "NV8-B08-005",
+        "d": "basic",
+        "p": "So sánh sắc thái nghĩa của cặp từ đồng nghĩa \"nhỏ nhắn\" và \"nhỏ nhen\": nhận xét nào đúng?",
+        "o": [
+          "\"nhỏ nhen\" mang sắc thái ca ngợi cao thượng còn \"nhỏ nhắn\" mang nghĩa tiêu cực",
+          "Cả hai đều là thuật ngữ toán học dùng để đo độ dài đoạn thẳng",
+          "Hai từ có sắc thái tình cảm hoàn toàn giống hệt nhau, có thể thay thế nhau ở mọi câu",
+          "Cùng chỉ kích thước/mức độ ít nhưng \"nhỏ nhắn\" mang sắc thái khen ngợi dễ thương (ngoại hình); còn \"nhỏ nhen\" mang sắc thái chê bai tính cách hẹp hòi, ích kỉ"
+        ],
+        "k": "D",
+        "e": "Sắc thái nghĩa (biểu cảm tích cực – tiêu cực, trang trọng – thân mật) quyết định việc lựa chọn từ ngữ tinh tế.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân biệt sắc thái nghĩa của từ"
+      },
+      {
+        "c": "NV8-B08-006",
+        "d": "basic",
+        "p": "Trong câu thơ bài \"Đồng chí\": \"Ruộng nương anh gửi bạn thân cày / Gian nhà không mặc kệ gió lung lay\", hai chữ \"mặc kệ\" bộc lộ thái độ gì của người lính?",
+        "o": [
+          "Thái độ tức giận vì gian nhà quá chật hẹp và cũ kĩ",
+          "Sự dứt khoát, bản lĩnh sẵn sàng gác lại nỗi niềm riêng và tài sản gia đình phía sau để ra đi vì nghĩa lớn",
+          "Sự ngây thơ không biết căn nhà đang bị gió làm rung chuyển",
+          "Sự vô trách nhiệm, không yêu thương gia đình và mảnh đất quê hương"
+        ],
+        "k": "B",
+        "e": "Đặt sau câu \"Ruộng nương anh gửi bạn thân cày\" và trước \"Giếng nước gốc đa nhớ người ra lính\", \"mặc kệ\" càng tôn lên sự hi sinh dũng cảm đầy lưu luyến.",
+        "s": "Ngữ Văn 8",
+        "h": "Sắc thái từ mặc kệ trong Đồng chí"
+      },
+      {
+        "c": "NV8-B08-007",
+        "d": "application",
+        "p": "Hình ảnh \"Súng bên súng, đầu sát bên đầu / Đêm rét chung chăn thành đôi tri kỉ\" trong \"Đồng chí\" diễn tả hai mặt nào của tình đồng đội?",
+        "o": [
+          "Sự thiếu thốn vũ khí đến mức cả hai chiến sĩ phải dùng chung một khẩu súng hỏng",
+          "Gắn bó chung lí tưởng, nhiệm vụ chiến đấu (\"súng bên súng, đầu sát bên đầu\") và sẻ chia gian khổ đời thường ấm áp tình người (\"đêm rét chung chăn\")",
+          "Cuộc thi chạy tiếp sức vào ban đêm giữa hai đơn vị bộ đội",
+          "Sự tranh cãi bất đồng về chiến thuật hành quân qua rừng rậm"
+        ],
+        "k": "B",
+        "e": "Sự hòa quyện giữa lí tưởng chiến đấu cao cả và tình cảm sẻ chia bình dị tạo nên sức nặng cho từ \"Đồng chí!\" vang lên thành một dòng thơ riêng.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân tích hình ảnh thơ Đồng chí"
+      },
+      {
+        "c": "NV8-B08-008",
+        "d": "application",
+        "p": "Trong bài thơ \"Lá đỏ\", hình ảnh cô gái thanh niên xung phong ở chiến trường (\"Em đứng bên đường như quê hương / Vai áo bạc quàng súng trường\") đẹp ở điểm nào?",
+        "o": [
+          "Sang trọng, lộng lẫy như một diễn viên điện ảnh trên sân khấu lớn",
+          "Đang đi du lịch ngắm cảnh lá đỏ mùa thu tại vùng rừng núi bình yên",
+          "Yếu đuối, sợ hãi trốn tránh trong hang đá suốt nhiều ngày",
+          "Bình dị, kiên cường trong chiếc áo bạc màu bom đạn nhưng lại mang tầm vóc lớn lao, thiêng liêng như hình bóng cả quê hương đang tiếp sức cho đoàn quân ra trận"
+        ],
+        "k": "D",
+        "e": "Phép so sánh \"như quê hương\" nâng tầm người chiến sĩ bình dị thành biểu tượng đẹp đẽ của đất nước.",
+        "s": "Ngữ Văn 8",
+        "h": "Cảm nhận hình tượng Lá đỏ"
+      },
+      {
+        "c": "NV8-B08-009",
+        "d": "application",
+        "p": "Chọn câu văn dùng từ có sắc thái nghĩa phù hợp nhất với ngữ cảnh đoạn văn cảm nghĩ về một bài thơ yêu nước:",
+        "o": [
+          "Bài thơ có vài chữ nghe khá hay ho, tạm được để đọc giải trí lúc rảnh rỗi.",
+          "Những vần thơ quê mùa, nhạt nhẽo ấy kể chuyện mấy anh bộ đội nghèo khổ rách rưới.",
+          "Tác giả đã cố tình phóng đại bốc phét quá đà về sức mạnh của những người lính.",
+          "Những vần thơ mộc mạc mà tha thiết ấy đã khắc họa sâu sắc tình đồng đội keo sơn và niềm tin sắt son vào ngày mai chiến thắng."
+        ],
+        "k": "D",
+        "e": "Lựa chọn các tính từ \"mộc mạc\", \"tha thiết\", \"keo sơn\", \"sắt son\" giữ sắc thái trang trọng, đồng cảm.",
+        "s": "Ngữ Văn 8",
+        "h": "Chọn từ đúng sắc thái biểu cảm"
+      },
+      {
+        "c": "NV8-B08-010",
+        "d": "application",
+        "p": "Khi viết đoạn văn ghi lại cảm nghĩ về một bài thơ tự do (ví dụ: \"Lá đỏ\" hoặc \"Mẹ\"), cách phân tích nhịp điệu và hình thức thơ tự do đúng đắn nhất là gì?",
+        "o": [
+          "Phê bình tác giả vì viết số chữ ở các dòng không bằng nhau",
+          "Chỉ ghi lại số dòng thơ rồi bỏ qua toàn bộ nội dung cảm xúc",
+          "Cố gán ghép cho bài thơ phải tuân theo luật đối của thơ thất ngôn bát cú",
+          "Chỉ ra cách ngắt dòng dài ngắn linh hoạt, nhịp thơ nhanh dồn dập hay lắng sâu chậm rãi phù hợp trực tiếp với diễn biến cảm xúc và hình ảnh bài thơ"
+        ],
+        "k": "D",
+        "e": "Thơ tự do có nhạc điệu nội tại rất riêng — chính sự biến đổi độ dài dòng thơ là dụng ý nghệ thuật tạo nhịp cảm xúc.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân tích hình thức thơ tự do"
+      },
+      {
+        "c": "NV8-B08-011",
+        "d": "application",
+        "p": "Bài thơ \"Mẹ\" của Đỗ Trung Quân gợi lên tình mẫu tử bằng những hình ảnh bình dị nào?",
+        "o": [
+          "Lời ru, câu ca dao, dáng mẹ còng lưng theo năm tháng và lời nhắn nhủ con biết yêu thương mẹ ngay khi mẹ còn ở bên (\"Đừng để mẹ khóc bao giờ...\")",
+          "Cuộc đối đầu căng thẳng giữa hai đội quân ngoài chiến trận",
+          "Chuyến du hành vượt biển của đoàn thủy thủ trẻ tuổi",
+          "Cảnh phiên chợ Tết tấp nập kẻ bán người mua sáng sớm"
+        ],
+        "k": "A",
+        "e": "Giọng thơ tự do thủ thỉ của Đỗ Trung Quân chạm vào nỗi xúc động muôn đời về sự hi sinh thầm lặng của mẹ.",
+        "s": "Ngữ Văn 8",
+        "h": "Cảm nhận bài thơ Mẹ"
+      },
+      {
+        "c": "NV8-B08-012",
+        "d": "application",
+        "p": "Trong hai từ \"hi sinh\" và \"bỏ mạng\" (cùng chỉ sự mất mát tính mạng), vì sao khi viết về người chiến sĩ bảo vệ Tổ quốc ta luôn dùng \"hi sinh\"?",
+        "o": [
+          "Vì từ \"hi sinh\" có ít chữ cái hơn nên viết nhanh hơn khi làm bài thi",
+          "Vì hai từ hoàn toàn khác nghĩa gốc không liên quan đến cái chết",
+          "Vì \"hi sinh\" mang sắc thái trang trọng, tôn vinh sự dâng hiến cao cả vì lí tưởng; còn \"bỏ mạng\" mang sắc thái coi thường, tiêu cực",
+          "Vì \"bỏ mạng\" là thuật ngữ toán học không dùng cho con người"
+        ],
+        "k": "C",
+        "e": "Sự khác biệt sắc thái biểu cảm quyết định thái độ tôn kính hay phê phán của người viết.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân biệt sắc thái trang trọng – suồng sã"
+      },
+      {
+        "c": "NV8-B08-013",
+        "d": "advanced",
+        "p": "Đọc ba dòng kết bất hủ của bài thơ \"Đồng chí\": \"Đêm nay rừng hoang sương muối / Đứng cạnh bên nhau chờ giặc tới / Đầu súng trăng treo.\" Vẻ đẹp của hình ảnh \"Đầu súng trăng treo\" được tạo nên từ sự kết hợp độc đáo nào?",
+        "o": [
+          "Chỉ đơn thuần miêu tả lỗi ngắm bắn lệch hướng do ánh sáng mặt trăng làm chói mắt",
+          "Kết hợp hiện thực chiến đấu khắc nghiệt (\"súng\", \"rừng hoang sương muối\") với lãng mạn bay bổng (\"trăng treo\") — biểu tượng cho tâm hồn người lính",
+          "Thể hiện nỗi chán nản mệt mỏi muốn buông súng đi ngủ giữa đêm đông",
+          "Miêu tả một chiếc đèn lồng hình mặt trăng được người lính buộc lên đầu nòng súng"
+        ],
+        "k": "B",
+        "e": "\"Đầu súng\" (hiện thực chiến tranh) và \"trăng treo\" (vẻ đẹp hòa bình, thi ca) hòa quyện thành một biểu tượng kép bất hủ.",
+        "s": "Ngữ Văn 8",
+        "h": "Giải mã biểu tượng Đầu súng trăng treo"
+      },
+      {
+        "c": "NV8-B08-014",
+        "d": "advanced",
+        "p": "Trong bài thơ \"Lá đỏ\", hai câu kết vang lên đầy khí thế: \"Chào em, em gái tiền phương / Hẹn gặp nhé giữa Sài Gòn\". Điều gì làm nên sức lay động đặc biệt của lời hẹn ấy?",
+        "o": [
+          "Vì hai người vốn là hàng xóm sống cùng một con phố trước khi đi bộ đội",
+          "Giữa bom đạn năm 1974, lời hẹn gặp ở Sài Gòn toát lên niềm tin tất thắng mãnh liệt và vẻ đẹp lạc quan phơi phới của cả thế hệ trẻ",
+          "Vì đoạn đường Trường Sơn lúc đó đã trải nhựa phẳng lì như đại lộ đô thị",
+          "Vì cô gái vừa xin chuyển công tác về làm việc tại một cửa hàng ở thành phố"
+        ],
+        "k": "B",
+        "e": "Lời chào – lời hẹn gắn với địa danh lịch sử biến khoảnh khắc gặp gỡ thoáng qua thành biểu tượng của \"Tin yêu và ước vọng\".",
+        "s": "Ngữ Văn 8",
+        "h": "Phân tích hai câu kết Lá đỏ"
+      },
+      {
+        "c": "NV8-B08-015",
+        "d": "advanced",
+        "p": "Tại sao trong một bài thơ tự do như \"Đồng chí\", tác giả Chính Hữu lại tách riêng hai chữ \"Đồng chí!\" thành một dòng thơ độc lập ở dòng thứ bảy?",
+        "o": [
+          "Do lỗi in ấn làm câu thơ bị xuống dòng sớm hơn quy định",
+          "Tạo điểm nhấn cảm xúc cao trào: kết tụ quá trình từ xa lạ đến sẻ chia gian khổ thành tiếng gọi thiêng liêng mở ra mạch tình cảm sâu sắc",
+          "Vì câu thơ phía trên đã hết chỗ chứa chữ trên trang giấy",
+          "Để giảm bớt sự quan trọng của tình cảm đồng đội trong bài thơ"
+        ],
+        "k": "B",
+        "e": "Một dòng thơ hai chữ đóng vai trò \"bản lề\" nâng đỡ toàn bộ cấu trúc và cảm xúc của bài thơ.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân tích cấu trúc dòng thơ đặc biệt"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan8-c3",
+    "lesson": {
+      "code": "nguvan8-b09",
+      "title": "Bài 8. Nhà văn và trang viết",
+      "seq": 9,
+      "subtitle": "Đọc hiểu nghị luận văn học (Nhà văn và trang viết / hoặc Ý nghĩa văn chương – Hoài Thanh, Nhà văn Nguyễn Huy Tưởng viết Lá cờ thêu sáu chữ vàng, Bàn về đọc sách), thành phần biệt lập / trợ từ – câu phủ định và câu khẳng định, viết bài văn giới thiệu một cuốn sách (hoặc phân tích một tác phẩm văn học)",
+      "concepts": [
+        "Nghị luận văn học: tác giả & sáng tác",
+        "Câu phủ định và câu khẳng định",
+        "Giới thiệu cuốn sách yêu thích"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV8-B09-001",
+        "d": "basic",
+        "p": "Trong câu văn nghị luận văn học: \"Văn chương không phải là bản sao chép khô khan đời sống mà là tiếng nói rung động từ trái tim nghệ sĩ\", vế \"không phải là...\" sử dụng kiểu câu nào xét theo chức năng khẳng định – phủ định?",
+        "o": [
+          "Câu cầu khiến ra lệnh",
+          "Câu phủ định (có chứa từ ngữ phủ định \"không phải\")",
+          "Câu nghi vấn dùng để hỏi thăm",
+          "Câu cảm thán bộc lộ nỗi sợ"
+        ],
+        "k": "B",
+        "e": "Câu phủ định chứa các từ ngữ phủ định (\"không, chẳng, chả, chưa, không phải, đâu có...\") để bác bỏ hoặc thông báo sự việc không tồn tại.",
+        "s": "Ngữ Văn 8",
+        "h": "Khái niệm câu phủ định"
+      },
+      {
+        "c": "NV8-B09-002",
+        "d": "basic",
+        "p": "Bài tiểu luận nổi tiếng \"Ý nghĩa văn chương\" khẳng định nguồn gốc cốt yếu của văn chương bắt nguồn từ lòng thương người và rộng ra là thương cả muôn vật, muôn loài là của nhà phê bình văn học nào?",
+        "o": [
+          "Hoài Thanh",
+          "Thạch Lam",
+          "Ngô Tất Tố",
+          "Xuân Diệu"
+        ],
+        "k": "A",
+        "e": "Nhà phê bình văn học Hoài Thanh viết \"Ý nghĩa văn chương\" với văn phong tài hoa, khẳng định sứ mệnh nhân đạo cao đẹp của văn học.",
+        "s": "Ngữ Văn 8",
+        "h": "Tác giả Ý nghĩa văn chương",
+        "fig": {
+          "type": "table",
+          "title": "Nghị luận Văn học (Bài 8)",
+          "head": [
+            "Chủ đề trọng tâm",
+            "Nội dung cốt lõi"
+          ],
+          "rows": [
+            [
+              "Nguồn gốc văn chương",
+              "Tình thương nhân hậu"
+            ],
+            [
+              "Công dụng văn chương",
+              "Nuôi dưỡng tâm hồn"
+            ],
+            [
+              "Lao động nhà văn",
+              "Tâm huyết, sáng tạo"
+            ],
+            [
+              "Câu phủ định",
+              "Bác bỏ, nhấn mạnh ý"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV8-B09-003",
+        "d": "basic",
+        "p": "Theo Hoài Thanh trong \"Ý nghĩa văn chương\", văn chương đóng vai trò gì đối với thế giới tinh thần của con người?",
+        "o": [
+          "Văn chương chỉ dành riêng cho một nhóm nhà nghiên cứu đọc trong thư viện",
+          "Văn chương tách rời hoàn toàn khỏi vui buồn, khổ đau của đời sống thật",
+          "Văn chương chỉ dùng để giải trí qua loa sau khi làm xong bài tập Toán",
+          "Văn chương là hình dung của sự sống muôn hình vạn trạng, sáng tạo ra sự sống mới, gây cho ta những tình cảm ta không có và luyện những tình cảm ta sẵn có"
+        ],
+        "k": "D",
+        "e": "Hai luận điểm bất hủ của Hoài Thanh: văn chương vừa phản ánh – sáng tạo sự sống, vừa bồi dưỡng tình cảm nhân văn sâu sắc.",
+        "s": "Ngữ Văn 8",
+        "h": "Luận điểm Ý nghĩa văn chương"
+      },
+      {
+        "c": "NV8-B09-004",
+        "d": "basic",
+        "p": "Trong các câu sau, câu nào là \"câu phủ định bác bỏ\" (dùng để phản bác một ý kiến, nhận định trước đó)?",
+        "o": [
+          "Ngoài vườn, hoa hồng vẫn chưa nở rộ vì trời còn rét đậm.",
+          "Trong cặp sách của bạn Nam không có quyển từ điển tiếng Việt.",
+          "Không phải đọc nhiều sách mà không suy ngẫm thì tự động giỏi văn; đọc ít mà đọc kĩ mới thực sự bổ ích.",
+          "Hôm qua em chưa kịp hoàn thành bản tóm tắt tác phẩm \"Mắt sói\"."
+        ],
+        "k": "C",
+        "e": "Câu đầu trực tiếp bác bỏ một quan niệm sai lầm về cách đọc sách; ba câu sau là phủ định miêu tả thông báo sự việc chưa có.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân biệt hai loại câu phủ định"
+      },
+      {
+        "c": "NV8-B09-005",
+        "d": "basic",
+        "p": "Khi đọc một văn bản viết về quá trình lao động nghệ thuật của nhà văn (như nhật kí, thư từ, hồi kí sáng tác), điều gì thường gây ấn tượng sâu sắc nhất về người cầm bút?",
+        "o": [
+          "Sự trăn trở tìm kiếm chi tiết chân thực, thái độ trách nhiệm với từng con chữ và tình yêu thương tha thiết dành cho nhân vật, quê hương",
+          "Thái độ thờ ơ trước số phận đau khổ của người lao động",
+          "Mục tiêu kiếm lợi nhuận thương mại nhanh nhất bằng mọi giá",
+          "Sự dễ dãi viết nhanh trong vài phút mà không cần sửa chữa chữ nào"
+        ],
+        "k": "A",
+        "e": "Đằng sau mỗi trang sách hay là mồ hôi, tâm huyết và nhân cách trách nhiệm của nhà văn.",
+        "s": "Ngữ Văn 8",
+        "h": "Giá trị tìm hiểu quá trình sáng tác"
+      },
+      {
+        "c": "NV8-B09-006",
+        "d": "basic",
+        "p": "Khi viết bài giới thiệu một cuốn sách (ví dụ một tập truyện ngắn hoặc tiểu thuyết em yêu thích ở lớp 8), thông tin nào cần kết hợp hài hòa?",
+        "o": [
+          "Kể toàn bộ nội dung từ chương 1 tới tận trang cuối khiến mất hết bất ngờ",
+          "Chỉ chép lại danh sách các lỗi chính tả tìm thấy trên trang đầu tiên",
+          "Chỉ bàn về chất lượng giấy in dày hay mỏng mà không nói về nội dung",
+          "Thông tin chung (tên sách, tác giả, đề tài) + Tóm tắt ngắn gọn nội dung chính + Đánh giá giá trị nghệ thuật, thông điệp và gợi ý bạn đọc"
+        ],
+        "k": "D",
+        "e": "Bài giới thiệu sách đạt chuẩn vừa cung cấp thông tin chính xác vừa khơi gợi hứng thú đọc qua những đánh giá tinh tế.",
+        "s": "Ngữ Văn 8",
+        "h": "Cấu trúc bài giới thiệu sách"
+      },
+      {
+        "c": "NV8-B09-007",
+        "d": "application",
+        "p": "Xét câu: \"Chẳng lẽ đọc một cuốn truyện hay như thế mà chúng ta lại không rút ra được bài học nào cho bản thân sao?\". Về hình thức có từ phủ định \"chẳng lẽ... không\", nhưng câu này thực chất biểu thị ý nghĩa gì?",
+        "o": [
+          "Khẳng định mạnh mẽ (người đọc chắc chắn rút ra được nhiều bài học quý giá từ cuốn truyện hay đó)",
+          "Hỏi xem tên tác giả của cuốn sách là ai",
+          "Thể hiện sự bực tức không muốn ai nhắc tới cuốn sách đó nữa",
+          "Phủ định hoàn toàn giá trị giáo dục của mọi cuốn truyện văn học"
+        ],
+        "k": "A",
+        "e": "Phủ định kết hợp nghi vấn tu từ (\"Chẳng lẽ... lại không... sao?\") chuyển hóa thành ý nghĩa khẳng định nhấn mạnh.",
+        "s": "Ngữ Văn 8",
+        "h": "Câu phủ định mang nghĩa khẳng định"
+      },
+      {
+        "c": "NV8-B09-008",
+        "d": "application",
+        "p": "Trong \"Ý nghĩa văn chương\", Hoài Thanh viết: \"Nếu trong pho lịch sử loài người xóa các thi nhân, văn nhân và đồng thời trong tâm linh loài người xóa hết những dấu vết họ còn lưu lại thì cái cảnh tượng nghèo nàn sẽ đến bực nào!\". Cách lập luận giả định này có tác dụng gì?",
+        "o": [
+          "Khuyên mọi người nên xóa bỏ môn Lịch sử để chỉ học mỗi thơ ca",
+          "Chứng minh rằng lịch sử nhân loại chưa từng có nhà thơ nào",
+          "Khẳng định các nhà văn thường xuyên làm nghèo đi vốn từ vựng dân tộc",
+          "Làm nổi bật vai trò không thể thiếu của văn chương nghệ thuật trong việc làm phong phú đời sống tinh thần và nhân tính con người"
+        ],
+        "k": "D",
+        "e": "Giả định \"nếu không có văn chương\" tạo phép tương phản mạnh mẽ khẳng định giá trị trường tồn của cái đẹp văn học.",
+        "s": "Ngữ Văn 8",
+        "h": "Nghệ thuật lập luận của Hoài Thanh"
+      },
+      {
+        "c": "NV8-B09-009",
+        "d": "application",
+        "p": "Câu nào dưới đây sử dụng hiện tượng \"phủ định của phủ định\" (hai từ phủ định đi cùng nhau) để khẳng định chắc chắn một phẩm chất tốt đẹp?",
+        "o": [
+          "Em vẫn chưa đọc xong chương cuối của cuốn tiểu thuyết lịch sử này.",
+          "Cậu bé chẳng hề sợ hãi trước bóng tối đêm mưa ngoài bãi sông.",
+          "Không một ai trong lớp đồng ý với hành vi xả rác bừa bãi ở sân trường.",
+          "Không thể không khâm phục tấm lòng nhân hậu và nghị lực phi thường của những nhân vật bước ra từ trang sách."
+        ],
+        "k": "D",
+        "e": "\"Không thể không khâm phục\" dùng hai yếu tố phủ định liên tiếp để nhấn mạnh sự khâm phục sâu sắc.",
+        "s": "Ngữ Văn 8",
+        "h": "Phủ định của phủ định"
+      },
+      {
+        "c": "NV8-B09-010",
+        "d": "application",
+        "p": "Theo quan điểm về đọc sách tinh hoa (như bài \"Bàn về đọc sách\" hoặc kinh nghiệm của các nhà văn lớn), cách đọc \"nghiền ngẫm sâu\" khác gì với \"đọc lướt số lượng nhiều\"?",
+        "o": [
+          "Đọc lướt số lượng nhiều luôn mang lại chiều sâu tư tưởng hơn đọc kĩ",
+          "Đọc nghiền ngẫm là chỉ nhìn một trang sách duy nhất suốt cả năm học",
+          "Đọc nghiền ngẫm cần chậm rãi suy tư, đối chiếu trải nghiệm sống để thấm sâu tri thức; còn đọc lướt chỉ qua bề mặt chữ nghĩa dễ quên ngay",
+          "Hai cách đọc hoàn toàn giống nhau nếu cùng đọc vào buổi sáng sớm"
+        ],
+        "k": "C",
+        "e": "Chất lượng tiếp nhận quan trọng hơn việc chạy đua theo số lượng đầu sách một cách hời hợt.",
+        "s": "Ngữ Văn 8",
+        "h": "Phương pháp đọc sách sâu"
+      },
+      {
+        "c": "NV8-B09-011",
+        "d": "application",
+        "p": "Khi viết bài giới thiệu cuốn sách \"Dế Mèn phiêu lưu kí\" hoặc \"Tuổi thơ dữ dội\" cho bạn bè cùng lứa, đoạn văn nào sau đây viết ĐẠT CHUẨN nhất?",
+        "o": [
+          "Em thấy cuốn sách dày hai trăm trang, chữ in rõ ràng và bìa có hình vẽ con dế màu nâu.",
+          "Nhân vật chính tên là Mèn, đi qua nhiều nơi, gặp nhiều con vật và cuối cùng viết hồi kí.",
+          "Với lối kể vừa hồn nhiên vừa sâu sắc, tác phẩm mở ra chuyến phiêu lưu kì thú và đánh thức lòng tự trọng, tình bạn chân thành ở tuổi mới lớn.",
+          "Cuốn sách này bán ở nhiều hiệu sách trên toàn quốc với giá bìa rất hợp lí cho học sinh."
+        ],
+        "k": "C",
+        "e": "Đoạn văn đạt chuẩn kết nối đặc sắc nghệ thuật (\"lối kể chuyện\") với sức hấp dẫn nội dung và thông điệp nhân văn chạm tới tâm lí bạn đọc.",
+        "s": "Ngữ Văn 8",
+        "h": "Viết đoạn đánh giá giá trị sách"
+      },
+      {
+        "c": "NV8-B09-012",
+        "d": "application",
+        "p": "Vì sao nhiều nhà văn lớn thường giữ thói quen viết nhật kí hoặc sổ tay ghi chép tỉ mỉ từng mẩu chuyện đời thường, từng câu nói hay của nhân dân?",
+        "o": [
+          "Bởi họ sợ mình quên cách viết chữ tiếng Việt sau mỗi kì nghỉ hè",
+          "Bởi hiện thực cuộc sống phong phú là mảnh đất màu mỡ nuôi dưỡng trang viết; ghi chép giúp nhà văn giữ lại chất liệu chân thực và cảm xúc tươi mới",
+          "Bởi nhà văn không bao giờ sử dụng trí tưởng tượng khi sáng tác truyện",
+          "Bởi nhà xuất bản yêu cầu mỗi cuốn tiểu thuyết phải kèm theo nhật kí cá nhân"
+        ],
+        "k": "B",
+        "e": "Quan sát tinh tế và ghi chép bền bỉ biến đời sống bình dị thành chất liệu nghệ thuật sống động.",
+        "s": "Ngữ Văn 8",
+        "h": "Thói quen nghề nghiệp của nhà văn"
+      },
+      {
+        "c": "NV8-B09-013",
+        "d": "advanced",
+        "p": "Phân tích câu nói sâu sắc của Hoài Thanh: \"Văn chương gây cho ta những tình cảm ta không có, luyện những tình cảm ta sẵn có\". Hai vế \"gây\" và \"luyện\" bổ sung cho nhau như thế nào?",
+        "o": [
+          "Hai từ hoàn toàn đồng nghĩa lặp lại cùng một ý cho đủ cân đối câu văn",
+          "\"Gây\" là mở ra những rung động mới mẻ vượt trải nghiệm hẹp (đồng cảm số phận xa lạ); \"luyện\" là thanh lọc, nâng cao tình cảm vốn có",
+          "\"Gây\" dùng cho trẻ em tiểu học còn \"luyện\" chỉ dùng cho nhà phê bình chuyên nghiệp",
+          "\"Gây\" chỉ việc làm người đọc tức giận cãi nhau còn \"luyện\" là tập thể dục thể thao"
+        ],
+        "k": "B",
+        "e": "Chỉ bằng hai động từ giản dị, Hoài Thanh đã khái quát toàn bộ chức năng giáo dục – thẩm mĩ kì diệu của văn học.",
+        "s": "Ngữ Văn 8",
+        "h": "Bình giảng luận điểm Ý nghĩa văn chương"
+      },
+      {
+        "c": "NV8-B09-014",
+        "d": "advanced",
+        "p": "Giả sử bạn muốn bác bỏ một cách lịch sự và thuyết phục ý kiến: \"Học sinh thời nay chỉ cần giỏi công nghệ, đọc văn học là lãng phí thời gian\". Hãy chọn lập luận có chiều sâu nhất:",
+        "o": [
+          "Mọi người đều nên vứt bỏ máy tính và điện thoại để quay lại viết bằng bút lông",
+          "Đọc văn học giúp học sinh không cần phải học thêm bất kì môn khoa học tự nhiên nào",
+          "Những người làm công nghệ chắc chắn không biết đọc chữ tiếng Việt",
+          "Công nghệ tạo công cụ mạnh nhưng chính văn học nuôi dưỡng lòng thấu cảm, ngôn ngữ tinh tế, sáng tạo và nhân cách giúp con người làm chủ công nghệ"
+        ],
+        "k": "D",
+        "e": "Không phủ nhận công nghệ mà đặt văn học làm nền tảng nhân bản và năng lực ngôn ngữ – sáng tạo giúp lập luận vừa sắc vừa thuyết phục.",
+        "s": "Ngữ Văn 8",
+        "h": "Lập luận phản biện văn học thời đại số"
+      },
+      {
+        "c": "NV8-B09-015",
+        "d": "advanced",
+        "p": "Khi đọc một bài văn nghị luận văn học (phân tích hoặc bình luận một tác phẩm), căn cứ nào giúp em đánh giá người viết thực sự \"hiểu tác phẩm\" chứ không chỉ sao chép văn mẫu?",
+        "o": [
+          "Bài viết dài tối thiểu mười trang giấy và dùng thật nhiều tính từ cảm thán giống nhau",
+          "Người viết biết chọn chi tiết nghệ thuật đắt giá, lí giải dụng ý tác giả gắn với thể loại và ngữ cảnh, đồng thời nêu suy nghĩ riêng logic",
+          "Chỉ khen tác phẩm hay bằng những câu khuôn sáo không gắn với bất kì trích dẫn cụ thể nào",
+          "Liệt kê thuộc lòng toàn bộ mục lục và năm tái bản của cuốn sách"
+        ],
+        "k": "B",
+        "e": "Tư duy văn học đích thực thể hiện ở khả năng đọc sâu chi tiết nghệ thuật và lí giải thấu đáo bằng tiếng nói riêng.",
+        "s": "Ngữ Văn 8",
+        "h": "Tiêu chí đánh giá bài nghị luận văn học"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan8-c4",
+    "lesson": {
+      "code": "nguvan8-b10",
+      "title": "Bài 9. Hôm nay và ngày mai",
+      "seq": 10,
+      "subtitle": "Đọc hiểu văn bản thông tin (Miền châu thổ sông Cửu Long cần chuyển đổi từ sống chung sang chào đón lũ – Lê Anh Tuấn, Choáng ngợp và đau đớn – những cảnh báo từ loạt phim \"Hành tinh của chúng ta\", Diễn từ ứng khẩu của thủ lĩnh da đỏ Xi-át-tơn), các kiểu câu phân loại theo mục đích nói (nghi vấn, cầu khiến, cảm thán, trần thuật), viết văn bản thuyết minh giải thích một hiện tượng tự nhiên và văn bản kiến nghị về một vấn đề đời sống",
+      "concepts": [
+        "Văn bản thông tin môi trường & sinh thái",
+        "Câu nghi vấn, cầu khiến, cảm thán, trần thuật",
+        "Thuyết minh hiện tượng tự nhiên & kiến nghị"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV8-B10-001",
+        "d": "basic",
+        "p": "Bài viết \"Miền châu thổ sông Cửu Long cần chuyển đổi từ sống chung sang chào đón lũ\" (Lê Anh Tuấn) đề xuất góc nhìn khoa học mới mẻ nào về mùa lũ ở đồng bằng sông Cửu Long?",
+        "o": [
+          "Khẳng định mùa nước nổi không hề mang lại bất kì lợi ích sinh thái nào",
+          "Xem nước lũ tự nhiên là nguồn tài nguyên quý mang phù sa, cá tôm, rửa phèn, cần chủ động \"chào đón\" và thích ứng hài hòa thay vì đắp đê ngăn chặn cực đoan",
+          "Xây dựng những bức tường bê tông khổng lồ bít kín hoàn toàn mọi cửa sông đổ ra biển",
+          "Di dời toàn bộ cư dân đồng bằng sông Cửu Long lên sinh sống trên núi cao"
+        ],
+        "k": "B",
+        "e": "Thích ứng thuận thiên (\"chào đón lũ\" có kiểm soát) giúp bảo vệ đất đai màu mỡ, trữ nước ngọt và cân bằng sinh thái châu thổ.",
+        "s": "Ngữ Văn 8",
+        "h": "Thông điệp thích ứng thuận thiên",
+        "fig": {
+          "type": "table",
+          "title": "Môi trường & Tương lai (Bài 9)",
+          "head": [
+            "Văn bản",
+            "Vấn đề trọng tâm"
+          ],
+          "rows": [
+            [
+              "Miền châu thổ ĐBSCL",
+              "Thuận thiên, đón lũ"
+            ],
+            [
+              "Hành tinh chúng ta",
+              "Cảnh báo tuyệt chủng"
+            ],
+            [
+              "Diễn từ Xi-át-tơn",
+              "Trái Đất là mẹ"
+            ],
+            [
+              "Phân loại câu",
+              "Kể, hỏi, cầu, cảm"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV8-B10-002",
+        "d": "basic",
+        "p": "Loạt phim tài liệu được nhắc đến trong bài \"Choáng ngợp và đau đớn – những cảnh báo từ loạt phim Hành tinh của chúng ta\" gây ấn tượng mạnh nhờ sự tương phản giữa hai điều gì?",
+        "o": [
+          "Giữa các loài hoa mùa xuân với các món ăn truyền thống ngày Tết",
+          "Giữa kiến trúc cung điện cổ và sân vận động thể thao hiện đại",
+          "Giữa cuộc sống cổ đại thời đồ đá với thế giới robot ngoài hành tinh",
+          "Giữa vẻ đẹp thiên nhiên kì vĩ, choáng ngợp của Trái Đất với nỗi đau đớn trước sự tàn phá hệ sinh thái, biến đổi khí hậu do con người gây ra"
+        ],
+        "k": "D",
+        "e": "Những thước phim đẹp đến nghẹt thở đi kèm cảnh báo khẩn thiết đánh thức trách nhiệm bảo vệ hành tinh xanh.",
+        "s": "Ngữ Văn 8",
+        "h": "Nội dung bài Hành tinh của chúng ta"
+      },
+      {
+        "c": "NV8-B10-003",
+        "d": "basic",
+        "p": "Trong bức \"Diễn từ ứng khẩu của thủ lĩnh da đỏ Xi-át-tơn\", người da đỏ coi mối quan hệ giữa con người với đất đai, sông suối, cỏ cây là gì?",
+        "o": [
+          "Mối quan hệ ruột thịt thiêng liêng: Đất là Mẹ, con người thuộc về Đất chứ không phải kẻ mua bán, chiếm hữu tàn phá thiên nhiên",
+          "Kẻ thù nguy hiểm cần phải chinh phục và tiêu diệt sạch sẽ",
+          "Một món hàng hóa thương mại có thể dễ dàng phá hủy để đổi lấy tiền bạc",
+          "Một phông nền trang trí vô tri không liên quan đến sự sống con người"
+        ],
+        "k": "A",
+        "e": "Thông điệp bất hủ \"Đất không thuộc về con người; chính con người thuộc về đất\" trở thành tuyên ngôn sinh thái nổi tiếng toàn cầu.",
+        "s": "Ngữ Văn 8",
+        "h": "Tư tưởng Diễn từ Xi-át-tơn"
+      },
+      {
+        "c": "NV8-B10-004",
+        "d": "basic",
+        "p": "Xét theo mục đích nói, câu \"Hãy giữ lấy màu xanh của rừng và sự trong lành cho những dòng sông!\" thuộc kiểu câu nào?",
+        "o": [
+          "Câu cầu khiến",
+          "Câu nghi vấn",
+          "Câu phủ định bác bỏ",
+          "Câu trần thuật"
+        ],
+        "k": "A",
+        "e": "Câu bắt đầu bằng từ cầu khiến \"Hãy\", kết thúc bằng dấu chấm than nhằm khuyên bảo, kêu gọi hành động.",
+        "s": "Ngữ Văn 8",
+        "h": "Nhận diện câu cầu khiến"
+      },
+      {
+        "c": "NV8-B10-005",
+        "d": "basic",
+        "p": "Khi viết văn bản thuyết minh giải thích một hiện tượng tự nhiên (ví dụ: hiện tượng lũ lụt, mưa axit, hiệu ứng nhà kính, thủy triều hay cầu vồng), yêu cầu hàng đầu về nội dung là gì?",
+        "o": [
+          "Chỉ bày tỏ tâm trạng buồn vui cá nhân khi ngắm trời mưa qua ô cửa sổ",
+          "Cung cấp tri thức khoa học chính xác về nguyên nhân, cơ chế hình thành, diễn biến và tác động của hiện tượng đó một cách khách quan, dễ hiểu",
+          "Tưởng tượng ra các vị thần trên trời đánh nhau gây nên hiện tượng như trong thần thoại",
+          "Viết một bài thơ lục bát gồm 10 câu kể lại kỉ niệm tắm mưa tuổi thơ"
+        ],
+        "k": "B",
+        "e": "Thuyết minh hiện tượng tự nhiên đòi hỏi cơ sở khoa học chuẩn xác, giải thích rõ cơ chế \"vì sao\" và \"như thế nào\".",
+        "s": "Ngữ Văn 8",
+        "h": "Yêu cầu thuyết minh hiện tượng tự nhiên"
+      },
+      {
+        "c": "NV8-B10-006",
+        "d": "basic",
+        "p": "Văn bản kiến nghị về một vấn đề đời sống (ví dụ: kiến nghị cải thiện phân loại rác tại trường học, tăng thêm cây xanh sân trường) có đặc điểm hành chính – thực tiễn nào?",
+        "o": [
+          "Gửi tới cá nhân/cơ quan có thẩm quyền để trình bày thực trạng bất cập, nêu rõ lí do và đề xuất giải pháp cụ thể, khả thi với giọng văn lịch sự, xây dựng",
+          "Viết gửi ẩn danh lên mạng để chê bai, xúc phạm người khác mà không nêu giải pháp gì",
+          "Là một bản hợp đồng mua bán thiết bị công nghệ cao có giá trị lớn",
+          "Là bài văn biểu cảm kể lại giấc mơ về tương lai một trăm năm sau"
+        ],
+        "k": "A",
+        "e": "Kiến nghị đòi hỏi thể thức rõ ràng (người nhận, người gửi, lí do, giải pháp đề xuất) và tinh thần trách nhiệm công dân.",
+        "s": "Ngữ Văn 8",
+        "h": "Đặc điểm văn bản kiến nghị"
+      },
+      {
+        "c": "NV8-B10-007",
+        "d": "application",
+        "p": "Quan sát biểu đồ minh họa lượng phù sa tự nhiên bồi đắp hàng năm cho vùng đất châu thổ trong hai kịch bản: giữ hành lang đón lũ có kiểm soát và đắp đê bao khép kín cực đoan. Theo biểu đồ, điều gì xảy ra khi đắp đê khép kín hoàn toàn?",
+        "o": [
+          "Không có bất kì sự thay đổi nào giữa hai phương án quản lí nước",
+          "Lượng phù sa tự nhiên bồi đắp giảm mạnh xuống rất thấp (từ 95 xuống còn 12 triệu tấn/năm), khiến đất dễ bạc màu và sụt lún",
+          "Lượng phù sa tự nhiên tăng vọt lên gấp mười lần so với trước đây",
+          "Lượng nước ngọt dự trữ trong lòng đất tăng lên tối đa quanh năm"
+        ],
+        "k": "B",
+        "e": "Ngăn lũ triệt để làm mất nguồn phù sa tự nhiên màu mỡ — đây chính là lí lẽ khoa học cốt lõi của bài đọc.",
+        "s": "Ngữ Văn 8",
+        "h": "Đọc hiểu biểu đồ sinh thái ĐBSCL",
+        "fig": {
+          "type": "bars",
+          "title": "Lượng Phù sa Bồi đắp (triệu tấn/năm)",
+          "labels": [
+            "Tự nhiên cũ",
+            "Đón lũ chọn lọc",
+            "Đê bao khép kín"
+          ],
+          "series": [
+            {
+              "values": [
+                95,
+                78,
+                12
+              ]
+            }
+          ],
+          "unit": "tr. tấn"
+        }
+      },
+      {
+        "c": "NV8-B10-008",
+        "d": "application",
+        "p": "Đọc câu trong diễn từ của Xi-át-tơn: \"Điều gì xảy ra cho đất đai tức là xảy ra cho những đứa con của Đất. Con người không dệt nên tấm lưới sự sống, con người chỉ là một sợi chỉ trong tấm lưới đó.\" Hình ảnh ẩn dụ \"tấm lưới sự sống\" nhấn mạnh quy luật nào?",
+        "o": [
+          "Chỉ cần bảo vệ riêng nghề dệt vải thủ công là cứu được cả hành tinh",
+          "Mất đi một vài loài động vật hoang dã không hề ảnh hưởng tới sự sống con người",
+          "Mọi sinh vật và môi trường tự nhiên gắn kết thành một mạng lưới phụ thuộc lẫn nhau; làm tổn thương thiên nhiên chính là tự hủy hoại tương lai loài người",
+          "Con người đứng bên ngoài và cao hơn hoàn toàn mọi quy luật sinh thái của Trái Đất"
+        ],
+        "k": "C",
+        "e": "Ẩn dụ \"sợi chỉ trong tấm lưới\" chuyển tải súc tích tư tưởng sinh thái hiện đại về sự gắn bó sinh tử giữa người và tự nhiên.",
+        "s": "Ngữ Văn 8",
+        "h": "Giải mã ẩn dụ Diễn từ Xi-át-tơn"
+      },
+      {
+        "c": "NV8-B10-009",
+        "d": "application",
+        "p": "Xét câu: \"Mỗi bạn học sinh có thể góp phần bảo vệ môi trường bằng việc phân loại rác ngay từ lớp học được không?\" Về hình thức là câu nghi vấn, nhưng trong bài thuyết trình bảo vệ môi trường nó được dùng với mục đích chính nào?",
+        "o": [
+          "Bộc lộ sự ngạc nhiên trước một hiện tượng thiên văn học xa xôi",
+          "Đặt câu hỏi gợi mở, kêu gọi hành động và đánh thức ý thức tự giác ở người nghe (chức năng cầu khiến gián tiếp)",
+          "Phủ nhận hoàn toàn khả năng bảo vệ môi trường của học sinh THCS",
+          "Hỏi để thu thập điểm số bài kiểm tra môn Sinh học"
+        ],
+        "k": "B",
+        "e": "Câu nghi vấn không chỉ để hỏi thông tin mà còn linh hoạt dùng để cầu khiến, khẳng định, phủ định hoặc bộc lộ cảm xúc.",
+        "s": "Ngữ Văn 8",
+        "h": "Hành động nói gián tiếp của câu nghi vấn"
+      },
+      {
+        "c": "NV8-B10-010",
+        "d": "application",
+        "p": "Trong bài văn thuyết minh giải thích hiện tượng \"Hiệu ứng nhà kính làm Trái Đất nóng lên\", trình tự triển khai Thân bài hợp lí nhất là gì?",
+        "o": [
+          "Kể lại câu chuyện thần thoại về thần Mặt Trời dùng xe lửa đi ngang bầu trời",
+          "Đưa giải pháp lên đầu bài rồi mới đoán mò khái niệm ở câu kết cuối cùng",
+          "Chỉ chép lại tên mười bộ phim tài liệu về gấu Bắc Cực mà không giải thích nguyên nhân",
+          "Giải thích khái niệm hiệu ứng nhà kính → Chỉ ra nguyên nhân khí thải → Phân tích hệ quả (băng tan, nước biển dâng) → Đề xuất giải pháp"
+        ],
+        "k": "D",
+        "e": "Mạch Khái niệm – Nguyên nhân – Cơ chế/Hệ quả – Giải pháp giúp văn bản thuyết minh hiện tượng tự nhiên mạch lạc, thuyết phục.",
+        "s": "Ngữ Văn 8",
+        "h": "Bố cục thuyết minh hiện tượng tự nhiên"
+      },
+      {
+        "c": "NV8-B10-011",
+        "d": "application",
+        "p": "Câu văn nào dưới đây là câu cảm thán thực sự (chứ không phải câu trần thuật hay cầu khiến có dấu chấm than)?",
+        "o": [
+          "Trong năm qua, mực nước biển trung bình tiếp tục tăng thêm vài mi-li-mét.",
+          "Mọi người hãy tắt các thiết bị điện không cần thiết khi ra khỏi phòng!",
+          "Ôi, vẻ đẹp kì vĩ của hành tinh xanh thật đáng nâng niu biết bao!",
+          "Bạn nhớ mang theo bình nước cá nhân để hạn chế chai nhựa nhé!"
+        ],
+        "k": "C",
+        "e": "Câu đầu có từ cảm thán \"Ôi... biết bao!\" dùng để bộc lộ trực tiếp cảm xúc ngưỡng mộ, trân trọng; hai câu tiếp theo là cầu khiến và câu cuối là trần thuật.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân biệt câu cảm thán và câu cầu khiến"
+      },
+      {
+        "c": "NV8-B10-012",
+        "d": "application",
+        "p": "Khi viết một bản kiến nghị gửi Ban Giám hiệu nhà trường đề nghị bổ sung thùng rác phân loại ở sân trường, phần đề xuất giải pháp cần đảm bảo tiêu chí nào?",
+        "o": [
+          "Chỉ than phiền sân trường bẩn mà không đề xuất bất kì hướng giải quyết cụ thể nào",
+          "Cụ thể, khả thi, phù hợp điều kiện thực tế của nhà trường và nêu rõ sự tham gia chủ động của học sinh (như đội xung kích hướng dẫn phân loại)",
+          "Dùng ngôn từ mệnh lệnh gay gắt yêu cầu phải thực hiện ngay trong vòng một giờ",
+          "Đề nghị nhà trường phá bỏ toàn bộ sân chơi để xây nhà máy tái chế công nghiệp nặng"
+        ],
+        "k": "B",
+        "e": "Kiến nghị xây dựng luôn gắn phân tích bất cập với phương án hành động khả thi và thái độ hợp tác.",
+        "s": "Ngữ Văn 8",
+        "h": "Tiêu chí viết kiến nghị thuyết phục"
+      },
+      {
+        "c": "NV8-B10-013",
+        "d": "advanced",
+        "p": "So sánh cách lập luận trong hai văn bản cùng nói về mối quan hệ với tự nhiên: \"Miền châu thổ sông Cửu Long...\" (bài báo khoa học hiện đại) và \"Diễn từ ứng khẩu của thủ lĩnh da đỏ Xi-át-tơn\" (thế kỉ XIX):",
+        "o": [
+          "Bài báo hiện đại phản đối hoàn toàn việc bảo vệ nguồn nước sạch còn diễn từ Xi-át-tơn cổ vũ khai thác rừng bừa bãi",
+          "Diễn từ Xi-át-tơn đưa ra nhiều bảng biểu thống kê lượng phù sa hơn bài báo khoa học",
+          "Cả hai văn bản đều viết theo thể thơ thất ngôn bát cú luật Đường cổ điển",
+          "Bài báo thuyết phục bằng chứng cứ thủy văn và giải pháp \"đón lũ\"; diễn từ lay động bằng ngôn ngữ thiêng liêng (\"Đất là Mẹ\"), gặp nhau ở lối sống thuận thiên"
+        ],
+        "k": "D",
+        "e": "Sự kết hợp giữa chứng cứ khoa học hiện đại và minh triết văn hóa bản địa tạo tiếng nói chung mạnh mẽ cho bảo vệ môi trường.",
+        "s": "Ngữ Văn 8",
+        "h": "So sánh hai cách tiếp cận sinh thái"
+      },
+      {
+        "c": "NV8-B10-014",
+        "d": "advanced",
+        "p": "Trong đoạn trích cảnh báo về loạt phim \"Hành tinh của chúng ta\", vì sao nhà làm phim không chỉ quay mỗi cảnh thiên nhiên bị tàn phá mà dành thời lượng lớn quay vẻ đẹp kì diệu của các loài sinh vật trước khi nêu số liệu suy giảm?",
+        "o": [
+          "Vì người quay phim không tìm thấy bất kì khu vực nào bị ô nhiễm môi trường",
+          "Để chứng minh rằng mọi loài động vật hoang dã hiện nay đều đang tăng trưởng vượt bậc",
+          "Để kéo dài bộ phim thành một chương trình quảng cáo du lịch nghỉ dưỡng cao cấp",
+          "Vì tình yêu và rung động trước vẻ đẹp sự sống là động lực bền bỉ thúc đẩy con người bảo vệ điều mình trân quý — mạnh hơn hẳn nỗi sợ hãi đơn thuần"
+        ],
+        "k": "D",
+        "e": "Kết nối \"choáng ngợp\" (tình yêu cái đẹp) với \"đau đớn\" (ý thức nguy cơ) tạo cú hích nhận thức mạnh mẽ.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân tích chiến lược truyền thông sinh thái"
+      },
+      {
+        "c": "NV8-B10-015",
+        "d": "advanced",
+        "p": "Đọc câu mở đầu bản thuyết minh hiện tượng \"Sóng thần\": \"Khác với những con sóng gió bình thường chỉ xao động trên mặt nước, sóng thần là chuỗi sóng khổng lồ dịch chuyển toàn bộ cột nước đại dương sau những cơn động đất dưới đáy biển.\" Câu mở đầu xuất sắc ở điểm nào?",
+        "o": [
+          "Đối chiếu với hiện tượng quen thuộc (\"sóng gió bình thường\") để định nghĩa bản chất khoa học và nguyên nhân chính của sóng thần một cách sáng rõ",
+          "Dùng biện pháp nói quá hài hước khiến người đọc bật cười trước thảm họa thiên nhiên",
+          "Chuyển đối tượng sang phân tích quy luật vần điệu của thơ tự do",
+          "Viết theo ngôi thứ nhất kể lại cảm xúc sợ hãi mà không cung cấp thông tin khoa học nào"
+        ],
+        "k": "A",
+        "e": "Định nghĩa đối chiếu là kĩ thuật mở bài thuyết minh khoa học cực kì hiệu quả và trực quan.",
+        "s": "Ngữ Văn 8",
+        "h": "Đánh giá kĩ thuật viết thuyết minh khoa học"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan8-c4",
+    "lesson": {
+      "code": "nguvan8-b11",
+      "title": "Bài 10. Sách – Người bạn đồng hành",
+      "seq": 11,
+      "subtitle": "Thực hành tổng hợp đọc – viết – nói và nghe về văn hóa đọc, tổ chức ngày hội sách, giới thiệu một cuốn sách và thảo luận phương pháp đọc chủ động để chuẩn bị bước vào lớp cuối cấp THCS",
+      "concepts": [
+        "Đọc như một hành trình",
+        "Kết nối cộng đồng người đọc",
+        "Giới thiệu và tranh luận về sách"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV8-B11-001",
+        "d": "basic",
+        "p": "Chủ đề Bài 10 \"Sách – Người bạn đồng hành\" của Ngữ văn 8 tập trung vào ba chặng hoạt động thực hành nào?",
+        "o": [
+          "Giải các bài tập hình học không gian và lượng giác nâng cao",
+          "Học thuộc lòng toàn bộ từ điển tiếng Việt từ vần A đến vần Y",
+          "Đọc như một hành trình (đọc sâu, chọn lọc) → Kết nối cộng đồng người đọc (chia sẻ, giới thiệu) → Ngày hội với sách (trưng bày, thuyết trình, trao đổi)",
+          "Lập biên bản kiểm tra vệ sinh lớp học hằng tuần"
+        ],
+        "k": "C",
+        "e": "Bài 10 thiết kế như một dự án văn hóa đọc nhỏ, rèn đồng bộ năng lực tiếp nhận và chia sẻ tri thức qua sách.",
+        "s": "Ngữ Văn 8",
+        "h": "Cấu trúc Bài 10 Ngữ văn 8",
+        "fig": {
+          "type": "table",
+          "title": "Dự án Đọc Sách Lớp 8 (Bài 10)",
+          "head": [
+            "Chặng dự án",
+            "Hoạt động trọng tâm"
+          ],
+          "rows": [
+            [
+              "Thách thức 1",
+              "Chọn và đọc sâu sách"
+            ],
+            [
+              "Thách thức 2",
+              "Viết giới thiệu sách"
+            ],
+            [
+              "Về đích",
+              "Ngày hội, tọa đàm"
+            ],
+            [
+              "Sản phẩm",
+              "Áp phích, nhật kí"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV8-B11-002",
+        "d": "basic",
+        "p": "Trong hoạt động giới thiệu một cuốn sách trước cộng đồng người đọc, việc trích dẫn một vài câu văn hoặc đoạn đối thoại đắt giá từ cuốn sách có tác dụng gì?",
+        "o": [
+          "Làm mất thời gian thuyết trình mà không mang lại thông tin gì thêm",
+          "Che giấu hoàn toàn tên nhân vật chính và chủ đề của cuốn sách",
+          "Giúp người nghe cảm nhận trực tiếp văn phong, giọng điệu và sức hấp dẫn nguyên bản của tác giả thay vì chỉ nghe lời tóm tắt khô khan",
+          "Biến bài thuyết trình thành một bài thi chép chính tả"
+        ],
+        "k": "C",
+        "e": "Trích dẫn tinh tế giống như cho người nghe \"nếm thử hương vị\" đặc sắc nhất của trang sách.",
+        "s": "Ngữ Văn 8",
+        "h": "Kĩ thuật trích dẫn khi giới thiệu sách"
+      },
+      {
+        "c": "NV8-B11-003",
+        "d": "basic",
+        "p": "Khi thiết kế một áp phích (poster) hoặc thẻ giới thiệu cho \"Ngày hội với sách\", yếu tố nào giúp truyền tải thông điệp cuốn sách ấn tượng nhất?",
+        "o": [
+          "Chỉ vẽ một hình tròn trống trơn mà không ghi tên sách hay tác giả",
+          "Tên sách, tên tác giả nổi bật, một câu thông điệp hoặc trích dẫn ấn tượng, hình ảnh minh họa phù hợp chủ đề và bố cục hài hòa dễ đọc",
+          "Dùng mười màu chữ chói lọi chồng chéo lên nhau khó nhìn rõ chữ",
+          "Viết kín đặc hai nghìn chữ cỡ nhỏ xíu phủ khắp tờ giấy không chừa khoảng trắng"
+        ],
+        "k": "B",
+        "e": "Sản phẩm truyền thông văn hóa đọc cần kết hợp hài hòa kênh chữ cô đọng và hình ảnh trực quan giàu thẩm mĩ.",
+        "s": "Ngữ Văn 8",
+        "h": "Thiết kế sản phẩm giới thiệu sách"
+      },
+      {
+        "c": "NV8-B11-004",
+        "d": "basic",
+        "p": "Thái độ đọc sách mang tính \"đối thoại với tác giả\" có nghĩa là gì?",
+        "o": [
+          "Phản đối bất kì cuốn sách nào chỉ vì không thích màu sắc của trang bìa",
+          "Gọi điện thoại trực tiếp cho tác giả vào lúc nửa đêm để hỏi đáp từng trang",
+          "Vừa đọc vừa chủ động đặt câu hỏi, suy ngẫm, đồng tình hoặc phản biện có căn cứ, liên hệ trang sách với trải nghiệm bản thân thay vì tiếp thu thụ động",
+          "Đọc thật to thành tiếng ở khu vực yên tĩnh trong thư viện công cộng"
+        ],
+        "k": "C",
+        "e": "Đọc tích cực là cuộc đối thoại trí tuệ và tâm hồn giữa bạn đọc với nhà văn.",
+        "s": "Ngữ Văn 8",
+        "h": "Khái niệm đọc đối thoại"
+      },
+      {
+        "c": "NV8-B11-005",
+        "d": "basic",
+        "p": "Trong các thể loại đã học ở Ngữ văn 8, cuốn sách nào phù hợp nhất để giới thiệu trong nhóm \"Sách đánh thức ý thức bảo vệ thiên nhiên và tương lai hành tinh\"?",
+        "o": [
+          "Một quyển truyện cười châm biếm thói khoe áo mới trong làng",
+          "Các tác phẩm viết về sinh thái, thiên nhiên như \"Mắt sói\" (Daniel Pennac) hoặc tuyển tập sách khoa học môi trường Trái Đất",
+          "Một bản hướng dẫn sửa chữa thiết bị điện dân dụng trong gia đình",
+          "Một danh sách các thuật ngữ kế toán tài chính doanh nghiệp"
+        ],
+        "k": "B",
+        "e": "Phân loại sách theo chủ đề giúp kết nối đúng bạn đọc có cùng mối quan tâm.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân loại sách theo chủ đề"
+      },
+      {
+        "c": "NV8-B11-006",
+        "d": "basic",
+        "p": "Vai trò của một câu lạc bộ đọc sách trong trường học là gì?",
+        "o": [
+          "Thay thế hoàn toàn các giờ học Toán, Vật lí và Tiếng Anh trên lớp",
+          "Tạo môi trường giao lưu thân thiện, duy trì thói quen đọc đều đặn, trao đổi sách hay và rèn kĩ năng lắng nghe, phản biện văn minh",
+          "Ép buộc mọi thành viên phải mua hàng chục cuốn sách đắt tiền mỗi tuần",
+          "Chỉ dành để tổ chức các giải đấu trò chơi điện tử đối kháng"
+        ],
+        "k": "B",
+        "e": "Cộng đồng người đọc biến niềm vui đọc cá nhân thành năng lượng học tập lan tỏa.",
+        "s": "Ngữ Văn 8",
+        "h": "Ý nghĩa cộng đồng đọc sách"
+      },
+      {
+        "c": "NV8-B11-007",
+        "d": "application",
+        "p": "Quan sát biểu đồ thống kê các hình thức chia sẻ sách giúp học sinh lớp 8 tìm đọc cuốn sách mới nhiều nhất. Kênh nào đạt hiệu quả lan tỏa cao nhất?",
+        "o": [
+          "Tờ rơi quảng cáo phát ngoài cổng (12%)",
+          "Áp phích trưng bày tại thư viện trường (18%)",
+          "Bạn bè trong lớp trực tiếp giới thiệu và trao đổi sách (46%)",
+          "Tìm kiếm ngẫu nhiên ngoài hiệu sách (24%)"
+        ],
+        "k": "C",
+        "e": "Sự giới thiệu chân thành từ bạn bè đồng trang lứa (46%) tạo niềm tin và sức hút mạnh mẽ nhất.",
+        "s": "Ngữ Văn 8",
+        "h": "Đọc hiểu biểu đồ kết nối người đọc",
+        "fig": {
+          "type": "bars",
+          "title": "Kênh Gợi ý Đọc Sách Hiệu quả (%)",
+          "labels": [
+            "Bạn bè kể",
+            "Tự tìm kiếm",
+            "Thư viện",
+            "Tờ rơi"
+          ],
+          "series": [
+            {
+              "values": [
+                46,
+                24,
+                18,
+                12
+              ]
+            }
+          ],
+          "unit": "%"
+        }
+      },
+      {
+        "c": "NV8-B11-008",
+        "d": "application",
+        "p": "Một bạn chia sẻ: \"Mình rất muốn đọc hết các cuốn sách văn học kinh điển nhưng đọc được vài chục trang đầu thấy dài và chậm nên hay bỏ dở\". Lời khuyên thiết thực nhất dành cho bạn ấy là gì?",
+        "o": [
+          "Hãy đọc lướt thật nhanh mỗi trang chỉ một giây để hết sách trong mười phút",
+          "Chỉ đọc trang bìa sau và trang mục lục rồi coi như đã đọc xong toàn bộ tác phẩm",
+          "Chia nhỏ mục tiêu đọc 15–20 trang mỗi ngày nơi yên tĩnh, ghi chú sổ tay hoặc khởi đầu bằng truyện hợp lứa tuổi rồi nâng dần độ dài",
+          "Bỏ hẳn việc đọc sách chữ và không bao giờ mở bất kì cuốn sách nào nữa"
+        ],
+        "k": "C",
+        "e": "Kiên nhẫn chia nhỏ mục tiêu và chọn đầu sách vừa sức giúp xây dựng sức bền tập trung khi đọc tác phẩm lớn.",
+        "s": "Ngữ Văn 8",
+        "h": "Giải pháp duy trì thói quen đọc sâu"
+      },
+      {
+        "c": "NV8-B11-009",
+        "d": "application",
+        "p": "Khi viết bài giới thiệu cuốn tiểu thuyết lịch sử \"Lá cờ thêu sáu chữ vàng\" cho một bạn ít quan tâm đến môn Lịch sử, góc tiếp cận nào dễ thuyết phục bạn ấy nhất?",
+        "o": [
+          "Nhấn mạnh câu chuyện hấp dẫn về cậu thiếu niên 16 tuổi nhiệt huyết, những tình huống kịch tính gần tâm lí tuổi trẻ khiến trang sử hóa sống động",
+          "Chỉ liệt kê ngày tháng năm xảy ra toàn bộ các trận đánh lớn thời Trần",
+          "Khẳng định rằng ai không đọc cuốn này thì chắc chắn không hiểu biết gì",
+          "Chép lại toàn bộ bảng chú giải từ Hán Việt ở cuối sách"
+        ],
+        "k": "A",
+        "e": "Kết nối sách với tâm lí và nhu cầu đồng cảm của người đọc mới là nghệ thuật giới thiệu sách thông minh.",
+        "s": "Ngữ Văn 8",
+        "h": "Nghệ thuật chạm tới người đọc"
+      },
+      {
+        "c": "NV8-B11-010",
+        "d": "application",
+        "p": "Trong một buổi tọa đàm \"Ngày hội với sách\", hai bạn tranh luận trái chiều về kết thúc mở của một truyện ngắn. Câu dẫn hòa giải và khơi sâu thảo luận nào thể hiện tư duy văn học tốt nhất?",
+        "o": [
+          "Hai bạn đừng nói nữa, kết thúc của sách chắc chắn chỉ có một đáp án duy nhất giống đáp án thầy đọc.",
+          "Kết thúc mở để lại khoảng trống suy ngẫm nên góc nhìn của hai bạn đều có cơ sở; hãy cùng đối chiếu lại chi tiết đoạn cuối truyện nhé.",
+          "Ai nói to tiếng hơn thì ý kiến của người đó là chân lí cuối cùng.",
+          "Kết thúc mở chứng tỏ tác giả viết vội nên quên mất chưa nghĩ ra đoạn kết."
+        ],
+        "k": "B",
+        "e": "Tác phẩm văn học đích thực mời gọi nhiều cách diễn giải có căn cứ từ văn bản, làm giàu đối thoại văn hóa.",
+        "s": "Ngữ Văn 8",
+        "h": "Điều phối thảo luận văn học"
+      },
+      {
+        "c": "NV8-B11-011",
+        "d": "application",
+        "p": "Tại sao bước \"tự kiểm tra và chỉnh sửa\" sau khi viết xong một bài giới thiệu sách hoặc bài phân tích truyện lại quan trọng không kém bước lập dàn ý?",
+        "o": [
+          "Giúp phát hiện và sửa kịp thời lỗi chính tả, câu tối nghĩa, thiếu liên kết đoạn, trích dẫn chưa chính xác hoặc mất cân đối giữa tóm tắt và đánh giá nghệ thuật",
+          "Vì bắt buộc phải viết lại toàn bộ bài văn bằng một ngôn ngữ khác",
+          "Thực ra bước chỉnh sửa không có tác dụng gì nếu viết bằng bút bi xanh",
+          "Vì giúp tăng gấp đôi số trang giấy bằng cách chép lặp lại phần mở bài"
+        ],
+        "k": "A",
+        "e": "Rà soát văn bản là thói quen chuyên nghiệp bảo đảm chất lượng ngôn từ và tính chuẩn xác thông tin.",
+        "s": "Ngữ Văn 8",
+        "h": "Vai trò quy trình viết – chỉnh sửa"
+      },
+      {
+        "c": "NV8-B11-012",
+        "d": "application",
+        "p": "Chọn câu văn sử dụng thành phần biệt lập hợp lí để tạo giọng điệu thân thiện, kết nối người nghe khi mở đầu bài thuyết trình giới thiệu sách:",
+        "o": [
+          "Hôm nay là thứ Năm ngày hai mươi mốt, nhiệt độ phòng học là hai mươi sáu độ C.",
+          "Các bạn thân mến! Có lẽ ít ai ngờ cuốn sách mỏng này lại có thể thay đổi cách chúng ta nhìn nhận về tình bạn và thiên nhiên sâu sắc đến vậy.",
+          "Tôi không thích cuốn sách này lắm nhưng vẫn phải giới thiệu cho đủ bài kiểm tra.",
+          "Các bạn im lặng nghe tôi đọc ngay bài giới thiệu cuốn sách này theo quy định."
+        ],
+        "k": "B",
+        "e": "Thành phần gọi – đáp (\"Các bạn thân mến!\") kết hợp thành phần tình thái (\"Có lẽ\") tạo sự gần gũi, tò mò tự nhiên.",
+        "s": "Ngữ Văn 8",
+        "h": "Mở đầu thuyết trình sách hấp dẫn"
+      },
+      {
+        "c": "NV8-B11-013",
+        "d": "advanced",
+        "p": "Phân tích ý nghĩa câu nói: \"Thư viện không chỉ là nơi cất giữ sách cũ mà là bến đỗ nơi những thế hệ đối thoại cùng tri thức nhân loại để đi tới tương lai\". Câu nói gợi ý cách tổ chức thư viện trường học như thế nào?",
+        "o": [
+          "Nên bán hết toàn bộ sách lịch sử văn học để lấy chỗ kê bàn bóng bàn",
+          "Nên khóa chặt tủ sách lại chỉ để trưng bày cho sạch sẽ, tránh học sinh mượn làm nhàu giấy",
+          "Thư viện cần trở thành không gian học tập mở: cập nhật sách mới, tổ chức tọa đàm, kết hợp sách giấy – học liệu số và khuyến khích khám phá",
+          "Chỉ cho phép giáo viên vào thư viện còn học sinh chỉ đứng nhìn qua cửa sổ"
+        ],
+        "k": "C",
+        "e": "Biến thư viện thành không gian văn hóa đọc sống động là xu hướng giáo dục hiện đại.",
+        "s": "Ngữ Văn 8",
+        "h": "Tầm nhìn xây dựng văn hóa đọc"
+      },
+      {
+        "c": "NV8-B11-014",
+        "d": "advanced",
+        "p": "Giữa bối cảnh công cụ tìm kiếm và tóm tắt tự động ngày càng phổ biến, lí do sâu sắc nhất khiến con người vẫn cần rèn luyện năng lực tự đọc sách hoàn chỉnh và viết cảm nhận bằng tư duy của chính mình là gì?",
+        "o": [
+          "Bởi vì đọc sách chỉ cần nhớ năm xuất bản là đủ trả lời mọi vấn đề đời sống",
+          "Bởi vì các công cụ tìm kiếm không thể hiển thị được chữ cái tiếng Việt có dấu",
+          "Bởi tư duy phản biện, sự tinh tế cảm xúc và bản lĩnh ngôn ngữ chỉ hình thành khi tự suy ngẫm, đối thoại với tác phẩm — không máy nào cảm thụ hộ ta",
+          "Bởi vì công nghệ hiện đại cấm hoàn toàn việc sử dụng sách in truyền thống"
+        ],
+        "k": "C",
+        "e": "Giữ chủ quyền tư duy và năng lực rung cảm nhân văn là giá trị tối thượng của người đọc sách trong kỉ nguyên số.",
+        "s": "Ngữ Văn 8",
+        "h": "Giá trị tự đọc trong thời đại công nghệ"
+      },
+      {
+        "c": "NV8-B11-015",
+        "d": "advanced",
+        "p": "Nhìn lại cả 10 bài học của Ngữ văn 8 (từ \"Câu chuyện của lịch sử\", \"Vẻ đẹp cổ điển\", \"Lời sông núi\", \"Tiếng cười trào phúng\", \"Chân dung cuộc sống\" đến \"Hôm nay và ngày mai\", \"Sách – người bạn đồng hành\"), mạch tư tưởng nào gắn kết toàn bộ chương trình?",
+        "o": [
+          "Hành trình đánh thức ý thức công dân: trân trọng lịch sử – cái đẹp, phê phán thói xấu, thấu hiểu người bình dị, bảo vệ hành tinh xanh và làm bạn cùng sách",
+          "Chỉ yêu cầu học sinh học thuộc lòng các vở hài kịch cổ điển phương Tây",
+          "Chỉ tập trung rèn kĩ năng viết văn bản hành chính đơn từ để đi làm công sở",
+          "Tách biệt hoàn toàn văn học dân tộc khỏi các vấn đề môi trường và thời đại hiện nay"
+        ],
+        "k": "A",
+        "e": "Ngữ văn 8 bồi đắp đồng thời chiều sâu truyền thống dân tộc và tầm nhìn trách nhiệm toàn cầu.",
+        "s": "Ngữ Văn 8",
+        "h": "Tổng hợp tư tưởng Ngữ văn 8"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan8-c4",
+    "lesson": {
+      "code": "nguvan8-b12",
+      "title": "Ôn tập Học kì II & Tổng kết Ngữ Văn 8",
+      "seq": 12,
+      "subtitle": "Hệ thống hóa Đọc hiểu Học kì II (truyện hiện đại, thơ tự do, nghị luận văn học, văn bản thông tin sinh thái), Tiếng Việt (thành phần biệt lập, sắc thái nghĩa từ ngữ, câu phủ định và câu khẳng định, các kiểu câu theo mục đích nói) và tổng kết các kiểu bài viết trọng tâm lớp 8",
+      "concepts": [
+        "Tổng kết thể loại Đọc hiểu lớp 8",
+        "Hệ thống Tiếng Việt lớp 8",
+        "Ôn tập kĩ năng viết và đọc hiểu"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV8-B12-001",
+        "d": "basic",
+        "p": "Trong bảng tổng hợp thể loại HK2 Ngữ văn 8, văn bản \"Lặng lẽ Sa Pa\" và \"Chiếc lá cuối cùng\" thuộc thể loại nào?",
+        "o": [
+          "Hài kịch sân khấu",
+          "Văn bản kiến nghị hành chính",
+          "Truyện ngắn hiện đại",
+          "Thơ thất ngôn bát cú Đường luật"
+        ],
+        "k": "C",
+        "e": "Cả \"Lặng lẽ Sa Pa\" (Nguyễn Thành Long) và \"Chiếc lá cuối cùng\" (O. Henry) đều là truyện ngắn hiện đại xuất sắc về vẻ đẹp thầm lặng của con người.",
+        "s": "Ngữ Văn 8",
+        "h": "Tổng hợp thể loại HK2",
+        "fig": {
+          "type": "table",
+          "title": "Tổng hợp Văn bản HK2 (NV8)",
+          "head": [
+            "Thể loại",
+            "Tác phẩm tiêu biểu"
+          ],
+          "rows": [
+            [
+              "Truyện hiện đại",
+              "Mắt sói, Sa Pa"
+            ],
+            [
+              "Thơ tự do",
+              "Đồng chí, Lá đỏ"
+            ],
+            [
+              "Nghị luận văn học",
+              "Ý nghĩa văn chương"
+            ],
+            [
+              "Thông tin sinh thái",
+              "Đón lũ, Xi-át-tơn"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV8-B12-002",
+        "d": "basic",
+        "p": "Trong câu: \"Chao ôi! Ngọn bếp lửa của bà sao mà ấm áp nghĩa tình đến thế!\", cụm từ \"Chao ôi!\" là thành phần biệt lập gì?",
+        "o": [
+          "Thành phần gọi – đáp",
+          "Thành phần cảm thán",
+          "Thành phần phụ chú",
+          "Thành phần tình thái"
+        ],
+        "k": "B",
+        "e": "\"Chao ôi!\" bộc lộ trực tiếp cảm xúc xúc động ngạc nhiên của người nói và đứng tách biệt về cú pháp sự việc.",
+        "s": "Ngữ Văn 8",
+        "h": "Ôn tập thành phần cảm thán"
+      },
+      {
+        "c": "NV8-B12-003",
+        "d": "basic",
+        "p": "Xét theo mục đích nói, câu \"Học sinh lớp 8 đang tích cực tham gia dự án Ngày hội đọc sách.\" thuộc kiểu câu nào?",
+        "o": [
+          "Câu nghi vấn",
+          "Câu cảm thán",
+          "Câu cầu khiến",
+          "Câu trần thuật"
+        ],
+        "k": "D",
+        "e": "Câu dùng để kể, thông báo nhận định sự việc và kết thúc bằng dấu chấm là câu trần thuật.",
+        "s": "Ngữ Văn 8",
+        "h": "Ôn tập phân loại câu theo mục đích nói"
+      },
+      {
+        "c": "NV8-B12-004",
+        "d": "basic",
+        "p": "Trong câu: \"Tôi không hề hối tiếc khi dành cả ngày Chủ nhật đi trồng cây xanh cùng các bạn\", đây là kiểu câu nào?",
+        "o": [
+          "Câu cầu khiến đề nghị dọn phòng",
+          "Câu cảm thán bộc lộ nỗi sợ hãi",
+          "Câu phủ định miêu tả (thông báo sự việc không diễn ra sự hối tiếc)",
+          "Câu nghi vấn hỏi về thời tiết"
+        ],
+        "k": "C",
+        "e": "Từ phủ định \"không hề\" thông báo trực tiếp trạng thái tâm lí không hối tiếc của chủ thể.",
+        "s": "Ngữ Văn 8",
+        "h": "Ôn tập câu phủ định"
+      },
+      {
+        "c": "NV8-B12-005",
+        "d": "basic",
+        "p": "Kiểu bài viết nào sau đây thuộc chương trình Học kì II Ngữ văn 8 Kết nối tri thức?",
+        "o": [
+          "Viết đoạn văn tả cảnh sinh hoạt giờ ra chơi lớp 6",
+          "Đóng vai nhân vật kể lại một truyện cổ tích thần kì lớp 6",
+          "Viết bản tường trình sự cố vỡ kính lớp 7",
+          "Phân tích một tác phẩm truyện; ghi lại cảm nghĩ bài thơ tự do; giới thiệu một cuốn sách; thuyết minh giải thích hiện tượng tự nhiên và viết văn bản kiến nghị"
+        ],
+        "k": "D",
+        "e": "Lớp 8 nâng bậc sang phân tích tác phẩm truyện/thơ, giới thiệu sách, thuyết minh hiện tượng tự nhiên và văn bản kiến nghị.",
+        "s": "Ngữ Văn 8",
+        "h": "Hệ thống kiểu bài viết lớp 8"
+      },
+      {
+        "c": "NV8-B12-006",
+        "d": "basic",
+        "p": "Cụm từ nằm giữa hai dấu gạch ngang trong câu: \"Truyện ngắn Chiếc lá cuối cùng – một kiệt tác của O. Henry – ca ngợi tình thương cao cả\" thuộc thành phần biệt lập nào?",
+        "o": [
+          "Thành phần cảm thán",
+          "Thành phần phụ chú",
+          "Thành phần tình thái",
+          "Thành phần gọi – đáp"
+        ],
+        "k": "B",
+        "e": "Cụm \"một kiệt tác của O. Henry\" giải thích bổ sung thông tin cho danh từ đứng trước nó.",
+        "s": "Ngữ Văn 8",
+        "h": "Ôn tập thành phần phụ chú"
+      },
+      {
+        "c": "NV8-B12-007",
+        "d": "application",
+        "p": "Chọn câu sử dụng đúng sắc thái nghĩa của từ ngữ để khen ngợi tinh thần làm việc trong bài phân tích \"Lặng lẽ Sa Pa\":",
+        "o": [
+          "Anh thanh niên là một người khờ khạo, bồng bột khi bỏ phố thị lên núi làm việc.",
+          "Anh thanh niên hiện lên với lối sống cần mẫn, khiêm nhường và lòng yêu nghề tha thiết giữa núi rừng Sa Pa lặng lẽ.",
+          "Anh thanh niên sống ích kỉ, keo kiệt nên không muốn xuống núi giao lưu với ai.",
+          "Anh thanh niên có tính khí cứng đầu, liều lĩnh trốn lên đỉnh núi ở một mình cho đỡ phiền."
+        ],
+        "k": "B",
+        "e": "Các từ \"cần mẫn\", \"khiêm nhường\", \"tha thiết\" biểu đạt đúng sắc thái trân trọng nhân vật tích cực.",
+        "s": "Ngữ Văn 8",
+        "h": "Vận dụng đúng sắc thái từ ngữ"
+      },
+      {
+        "c": "NV8-B12-008",
+        "d": "application",
+        "p": "Trong hai câu sau, câu nào là câu cầu khiến có sắc thái lịch sự, tôn trọng người nghe hơn?",
+        "o": [
+          "Cấm không được nói chuyện nữa, im ngay lập tức!",
+          "Trời ơi, lớp học hôm nay sao ồn ào kinh khủng thế!",
+          "Nhờ bạn giữ trật tự giúp mình một chút để cả nhóm nghe rõ đoạn đọc diễn cảm nhé!",
+          "Bây giờ mấy giờ rồi mà các bạn vẫn chưa đọc xong bài?"
+        ],
+        "k": "C",
+        "e": "Dùng động từ \"nhờ... giúp\" kết hợp tiểu từ tình thái \"nhé\" thực hiện mục đích cầu khiến nhẹ nhàng, lịch sự.",
+        "s": "Ngữ Văn 8",
+        "h": "Chọn sắc thái câu cầu khiến lịch sự"
+      },
+      {
+        "c": "NV8-B12-009",
+        "d": "application",
+        "p": "Quan sát bảng đối chiếu kiến thức Tiếng Việt toàn năm lớp 8. Cặp ghép nào KHỚP ĐÚNG khái niệm với ví dụ minh họa?",
+        "o": [
+          "Thành phần tình thái → Dùng để gọi người nghe bắt đầu cuộc trò chuyện như \"Này, Ơi\"",
+          "Câu trần thuật → Luôn kết thúc bằng dấu chấm hỏi để hỏi thông tin chưa biết",
+          "Từ tượng thanh → Gợi dáng vẻ, hình khối của sự vật như \"chót vót, gập ghềnh\"",
+          "Biệt ngữ xã hội → từ ngữ lưu hành riêng trong một nhóm xã hội, nghề nghiệp hoặc lứa tuổi"
+        ],
+        "k": "D",
+        "e": "Bảng giúp rà soát chính xác từng đơn vị kiến thức tiếng Việt suốt cả hai học kì lớp 8.",
+        "s": "Ngữ Văn 8",
+        "h": "Tổng hợp Tiếng Việt toàn năm lớp 8",
+        "fig": {
+          "type": "table",
+          "title": "Tổng hợp Tiếng Việt Lớp 8",
+          "head": [
+            "Chuyên đề",
+            "Chức năng tiêu biểu"
+          ],
+          "rows": [
+            [
+              "Tượng hình / thanh",
+              "Tả dáng và âm thanh"
+            ],
+            [
+              "Đoạn diễn/quy/phối",
+              "Vị trí câu chủ đề"
+            ],
+            [
+              "Nghĩa hàm ẩn",
+              "Ý sâu sau lớp vỏ chữ"
+            ],
+            [
+              "Thành phần biệt lập",
+              "Thái độ và phụ chú"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV8-B12-010",
+        "d": "application",
+        "p": "Khi đọc hiểu một câu có dấu hiệu phủ định như \"Đâu có ai không từng vấp ngã trên hành trình trưởng thành\", người đọc cần xác định nghĩa thực của câu là gì?",
+        "o": [
+          "Hỏi đường đi lên đỉnh núi để tránh bị trượt ngã",
+          "Khuyên mọi người không bao giờ nên thử làm việc gì mới mẻ",
+          "Ai cũng từng có lúc vấp ngã trên hành trình trưởng thành (nghĩa khẳng định phổ quát)",
+          "Không một ai trên đời này từng gặp khó khăn hay sai lầm bao giờ"
+        ],
+        "k": "C",
+        "e": "Hai yếu tố phủ định (\"đâu có... không\") đặt trong câu hỏi tu từ chuyển hóa thành lời khẳng định mạnh mẽ.",
+        "s": "Ngữ Văn 8",
+        "h": "Giải mã câu phủ định tu từ"
+      },
+      {
+        "c": "NV8-B12-011",
+        "d": "application",
+        "p": "Điểm khác nhau trọng tâm giữa \"Viết bài văn thuyết minh giải thích một hiện tượng tự nhiên\" (Bài 9) và \"Viết bài văn phân tích một tác phẩm truyện\" (Bài 6) là gì?",
+        "o": [
+          "Thuyết minh hiện tượng tự nhiên phải sáng tác nhiều nhân vật giả tưởng còn phân tích truyện thì ghi số liệu khí hậu",
+          "Phân tích truyện tuyệt đối không được nêu bất kì dẫn chứng chi tiết nào",
+          "Cả hai kiểu bài đều viết dưới dạng bản kiến nghị gửi lên nhà trường",
+          "Thuyết minh hiện tượng tự nhiên nêu tri thức khoa học về nguyên nhân – tác động; còn phân tích truyện khám phá tình huống, nhân vật và thông điệp văn học"
+        ],
+        "k": "D",
+        "e": "Phân biệt văn bản thông tin khoa học và văn bản nghị luận văn học giúp viết đúng văn phong và cấu trúc.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân biệt kiểu bài viết lớp 8"
+      },
+      {
+        "c": "NV8-B12-012",
+        "d": "application",
+        "p": "Đọc câu: \"Có lẽ, điều làm nên sức sống lâu bền của truyện ngắn Lặng lẽ Sa Pa – như nhiều thế hệ bạn đọc từng chia sẻ – chính là vẻ đẹp tâm hồn trong sáng của những con người bình dị.\" Câu này chứa những thành phần biệt lập nào?",
+        "o": [
+          "Thành phần cảm thán và thành phần gọi – đáp",
+          "Chỉ có duy nhất một trạng ngữ chỉ thời gian",
+          "Không có thành phần biệt lập nào trong câu văn trên",
+          "Thành phần tình thái (\"Có lẽ\") và thành phần phụ chú (\"như nhiều thế hệ bạn đọc từng chia sẻ\")"
+        ],
+        "k": "D",
+        "e": "\"Có lẽ\" nêu độ phỏng đoán tình thái; phần nằm giữa hai dấu gạch ngang chêm xen giải thích nguồn đồng cảm là thành phần phụ chú.",
+        "s": "Ngữ Văn 8",
+        "h": "Phân tích đa thành phần biệt lập"
+      },
+      {
+        "c": "NV8-B12-013",
+        "d": "advanced",
+        "p": "Vì sao khi phân tích một tác phẩm truyện (như \"Mắt sói\" hay \"Chiếc lá cuối cùng\"), việc chỉ tóm tắt lại cốt truyện từ đầu đến cuối dù đúng hết sự việc vẫn không thể đạt điểm cao?",
+        "o": [
+          "Bởi tóm tắt chỉ nêu \"Chuyện gì đã xảy ra?\"; còn phân tích đòi hỏi lí giải \"Tác phẩm hay ở đâu và bằng nghệ thuật nào?\" (tình huống, điểm nhìn, chi tiết)",
+          "Bởi vì người chấm bài không quan tâm tác giả đã viết chi tiết nghệ thuật gì",
+          "Bởi vì đề bài yêu cầu không được phép nhắc tới tên bất kì nhân vật nào trong truyện",
+          "Bởi vì tóm tắt cốt truyện luôn phải viết bằng thể thơ lục bát chứ không dùng văn xuôi"
+        ],
+        "k": "A",
+        "e": "Bước nhảy từ \"kể lại\" (lớp 6–7) sang \"phân tích nghệ thuật – tư tưởng\" (lớp 8–9) là cột mốc trưởng thành tư duy đọc hiểu.",
+        "s": "Ngữ Văn 8",
+        "h": "Nâng tầm phân tích tác phẩm truyện"
+      },
+      {
+        "c": "NV8-B12-014",
+        "d": "advanced",
+        "p": "Xác định giá trị phối hợp giữa \"thơ Đường luật – văn nghị luận trung đại\" (HK1) với \"văn bản thông tin môi trường – nghị luận văn học\" (HK2) trong việc chuẩn bị cho học sinh lớp 8 bước lên lớp 9:",
+        "o": [
+          "Giúp học sinh bỏ qua hoàn toàn các vấn đề đời sống đương đại khi lên lớp 9",
+          "Rèn luyện nền tảng cảm thụ cổ điển, bản lĩnh văn hóa dân tộc cùng năng lực lập luận phản biện, đọc hiểu đa phương thức và giải quyết vấn đề thực tiễn xã hội",
+          "Chỉ nhằm mục đích giúp học sinh học thuộc lòng thật nhiều điển cố chữ Hán cổ",
+          "Thay thế toàn bộ các bài tập làm văn nghị luận bằng câu hỏi trắc nghiệm"
+        ],
+        "k": "B",
+        "e": "Mọi kĩ năng đọc – viết – tiếng Việt lớp 8 là bước đệm trực tiếp cho kì thi và chương trình tổng hợp ở lớp 9.",
+        "s": "Ngữ Văn 8",
+        "h": "Kết nối năng lực lớp 8 lên lớp 9"
+      },
+      {
+        "c": "NV8-B12-015",
+        "d": "advanced",
+        "p": "Nếu phải giải thích ngắn gọn cho một người bạn vì sao \"lời nói có hàm ẩn, câu có tình thái, trợ từ\" lại giúp giao tiếp tiếng Việt tinh tế hơn nhiều, nhận định nào sâu sắc nhất?",
+        "o": [
+          "Bởi ngôn ngữ không chỉ truyền tin khô cứng như máy móc mà còn chở cả thái độ tôn trọng, sự tế nhị, niềm vui trào lộng và chiều sâu tình cảm giữa người với người",
+          "Bởi trợ từ và thành phần tình thái luôn làm thay đổi nghĩa gốc của mọi danh từ",
+          "Bởi ngữ pháp tiếng Việt cấm nói thẳng suy nghĩ trong mọi tình huống giao tiếp",
+          "Bởi dùng càng nhiều câu dài rối rắm khó hiểu thì người nghe càng nể phục"
+        ],
+        "k": "A",
+        "e": "Nắm vững thanh sắc ngữ dụng của tiếng Việt giúp học sinh giao tiếp văn minh, thấu cảm và thuyết phục.",
+        "s": "Ngữ Văn 8",
+        "h": "Tổng kết giá trị ngữ dụng tiếng Việt"
+      }
+    ]
+  }
+]

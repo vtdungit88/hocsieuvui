@@ -1,0 +1,3228 @@
+[
+  {
+    "chapter": "congnghe6-c1",
+    "lesson": {
+      "code": "congnghe6-b01",
+      "title": "Bài 1. Nhà ở đối với con người và kiến trúc nhà ở Việt Nam",
+      "seq": 1,
+      "subtitle": "Vai trò của nhà ở, cấu trúc chung, vật liệu xây dựng và các kiểu kiến trúc nhà ở đặc trưng tại Việt Nam",
+      "concepts": [
+        "Vai trò và cấu trúc chung nhà ở",
+        "Vật liệu xây dựng phổ biến",
+        "Kiến trúc nhà ở các vùng miền"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN6-B01-001",
+        "d": "basic",
+        "p": "Vai trò quan trọng nhất của nhà ở đối với đời sống con người là gì?",
+        "o": [
+          "Bảo vệ con người khỏi tác động thiên nhiên, thời tiết và đáp ứng nhu cầu sinh hoạt vật chất tinh thần",
+          "Chỉ để cất giữ máy móc công nghiệp nặng",
+          "Ngăn không cho ánh sáng tự nhiên lọt vào",
+          "Thay thế hoàn toàn trường học và bệnh viện"
+        ],
+        "k": "A",
+        "e": "Nhà ở là nơi trú ẩn an toàn trước nắng mưa gió bão và là tổ ấm sinh hoạt của gia đình.",
+        "s": "Công Nghệ 6",
+        "h": "Vai trò của nhà ở"
+      },
+      {
+        "c": "CN6-B01-002",
+        "d": "basic",
+        "p": "Cấu tạo chung của một ngôi nhà ở gồm ba phần chính nào tính từ dưới lên trên?",
+        "o": [
+          "Phần sân vườn, phần hàng rào và phần cổng ngõ",
+          "Phần đường ống nước, phần dây điện và phần sơn tường",
+          "Phần móng nhà, phần thân nhà và phần mái nhà",
+          "Phần bếp gas, phần tủ lạnh và phần bàn ăn"
+        ],
+        "k": "C",
+        "e": "Móng chịu tải truyền xuống đất; thân gồm cột, tường, sàn tạo không gian; mái che chắn phía trên.",
+        "s": "Công Nghệ 6",
+        "h": "Cấu tạo ba phần của ngôi nhà"
+      },
+      {
+        "c": "CN6-B01-003",
+        "d": "basic",
+        "p": "Kiểu kiến trúc nhà ở truyền thống phổ biến ở vùng núi cao và vùng có sông ngòi ngập nước tại Việt Nam giúp tránh ẩm ướt, thú dữ là kiểu nào?",
+        "o": [
+          "Nhà biệt thự mái bằng bê tông",
+          "Nhà chung cư cao tầng",
+          "Nhà ống mặt phố",
+          "Nhà sàn"
+        ],
+        "k": "D",
+        "e": "Nhà sàn có sàn nâng cao cách mặt đất giúp thông thoáng, tránh côn trùng, thú dữ và ngập lụt.",
+        "s": "Công Nghệ 6",
+        "h": "Kiến trúc nhà sàn Việt Nam"
+      },
+      {
+        "c": "CN6-B01-004",
+        "d": "basic",
+        "p": "Vật liệu xây dựng tự nhiên nào thường được dùng cùng xi măng và thép để tạo thành bê tông cốt thép vững chắc?",
+        "o": [
+          "Cát, đá (sỏi) và nước sạch",
+          "Gỗ mùn cưa và sáp nến",
+          "Giấy bìa cứng và vải lụa",
+          "Nhựa dẻo PVC và cao su non"
+        ],
+        "k": "A",
+        "e": "Hỗn hợp xi măng, cát, đá và nước bao bọc cốt thép tạo khung chịu lực bền vững cho nhà hiện đại.",
+        "s": "Công Nghệ 6",
+        "h": "Vật liệu bê tông cốt thép"
+      },
+      {
+        "c": "CN6-B01-005",
+        "d": "basic",
+        "p": "Kiểu nhà ở tập trung nhiều căn hộ trong cùng một tòa nhà cao tầng ở các đô thị lớn đông dân gọi là gì?",
+        "o": [
+          "Nhà ba gian nông thôn",
+          "Nhà chung cư",
+          "Nhà nổi trên sông",
+          "Nhà rông Tây Nguyên"
+        ],
+        "k": "B",
+        "e": "Nhà chung cư tiết kiệm diện tích đất xây dựng và dùng chung hạ tầng kĩ thuật tại đô thị.",
+        "s": "Công Nghệ 6",
+        "h": "Kiến trúc nhà chung cư"
+      },
+      {
+        "c": "CN6-B01-006",
+        "d": "basic",
+        "p": "Bộ phận nào của ngôi nhà nằm sâu dưới mặt đất có nhiệm vụ nâng đỡ toàn bộ trọng lượng công trình?",
+        "o": [
+          "Mái ngói",
+          "Cửa sổ thông gió",
+          "Ban công tầng hai",
+          "Móng nhà"
+        ],
+        "k": "D",
+        "e": "Móng nhà phân tán tải trọng công trình xuống nền đất cứng ổn định.",
+        "s": "Công Nghệ 6",
+        "h": "Chức năng móng nhà"
+      },
+      {
+        "c": "CN6-B01-007",
+        "d": "application",
+        "p": "Quan sát bảng vật liệu xây dựng, vật liệu nào thuộc nhóm vật liệu nhân tạo (qua chế biến công nghiệp) thay vì khai thác thô tự nhiên?",
+        "o": [
+          "Gạch nung, xi măng và kính xây dựng",
+          "Gỗ tròn khai thác trực tiếp chưa tẩm sấy",
+          "Tre nứa, lá cọ và đá hộc tự nhiên",
+          "Đất sét chưa nung và cát sông"
+        ],
+        "k": "A",
+        "e": "Xi măng, gạch nung và kính được sản xuất qua dây chuyền nhiệt, phối trộn công nghiệp.",
+        "s": "Công Nghệ 6",
+        "h": "Phân loại vật liệu xây dựng",
+        "fig": {
+          "type": "table",
+          "title": "Nhóm vật liệu xây dựng",
+          "head": [
+            "Nhóm vật liệu",
+            "Ví dụ tiêu biểu"
+          ],
+          "rows": [
+            [
+              "Tự nhiên",
+              "Cát, sỏi, tre, gỗ"
+            ],
+            [
+              "Nhân tạo",
+              "Xi măng, gạch, thép"
+            ],
+            [
+              "Hoàn thiện",
+              "Sơn tường, gạch men"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN6-B01-008",
+        "d": "application",
+        "p": "Ở vùng đồng bằng sông Cửu Long thường xuyên có mùa nước nổi kéo dài, kiểu nhà nào thích nghi tốt nhất với môi trường sông nước miền Tây?",
+        "o": [
+          "Nhà hầm chìm hoàn toàn dưới mặt đất",
+          "Nhà kính khép kín không cửa sổ",
+          "Nhà nổi hoặc nhà sàn trên cọc dọc kênh rạch",
+          "Nhà làm hoàn toàn bằng gạch đất sét không nung sát mép sông"
+        ],
+        "k": "C",
+        "e": "Nhà nổi di chuyển linh hoạt theo mực nước dâng lên xuống và gắn bó với sinh kế sông nước.",
+        "s": "Công Nghệ 6",
+        "h": "Nhà ở thích ứng vùng sông nước"
+      },
+      {
+        "c": "CN6-B01-009",
+        "d": "application",
+        "p": "Để tận dụng gió mát mùa hè và tránh gió lạnh mùa đông bắc ở miền Bắc Việt Nam, hướng mặt chính và cửa sổ ngôi nhà truyền thống thường ưu tiên quay về hướng nào?",
+        "o": [
+          "Hướng Tây Bắc trực diện",
+          "Hướng Nam hoặc Đông Nam",
+          "Hướng Chính Bắc",
+          "Quay kín không trổ cửa sổ"
+        ],
+        "k": "B",
+        "e": "Hướng Nam và Đông Nam đón gió mát từ biển mùa hè và tránh gió mùa Đông Bắc buốt giá.",
+        "s": "Công Nghệ 6",
+        "h": "Hướng nhà phù hợp khí hậu Việt Nam"
+      },
+      {
+        "c": "CN6-B01-010",
+        "d": "application",
+        "p": "Trong căn nhà ở nông thôn truyền thống ba gian đồng bằng Bắc Bộ, gian chính giữa trang trọng nhất thường dùng làm gì?",
+        "o": [
+          "Làm nhà kho chứa phân bón hóa học",
+          "Đặt bếp than tổ ong khói bụi",
+          "Đặt bàn thờ tổ tiên và tiếp khách quý",
+          "Làm chuồng chăn nuôi gia súc"
+        ],
+        "k": "C",
+        "e": "Gian giữa thể hiện lòng hiếu kính tổ tiên và là không gian sinh hoạt chung trang trọng của gia đình.",
+        "s": "Công Nghệ 6",
+        "h": "Bố trí không gian nhà truyền thống"
+      },
+      {
+        "c": "CN6-B01-011",
+        "d": "application",
+        "p": "Khi bố trí các khu vực chức năng trong căn hộ hiện đại, khu vực phòng ngủ cần đặt ở vị trí có đặc điểm nào?",
+        "o": [
+          "Chung không gian không vách ngăn với bếp chiên rán dầu mỡ",
+          "Nằm ngoài hành lang công cộng",
+          "Yên tĩnh, kín đáo và thông thoáng vừa đủ để nghỉ ngơi phục hồi sức khỏe",
+          "Ngay sát cửa ra vào ồn ào nhiều người qua lại"
+        ],
+        "k": "C",
+        "e": "Phân khu riêng biệt không gian tĩnh (ngủ, học) với không gian động (khách, bếp) nâng cao chất lượng sống.",
+        "s": "Công Nghệ 6",
+        "h": "Bố trí công năng trong nhà ở"
+      },
+      {
+        "c": "CN6-B01-012",
+        "d": "application",
+        "p": "Vì sao trong xây dựng nhà ở hiện đại ở khu vực hay có bão lớn, mái ngói hay mái tôn cần được giằng chống bão kĩ lưỡng vào khung dầm thân nhà?",
+        "o": [
+          "Để giảm khả năng lấy ánh sáng qua cửa sổ",
+          "Để nước mưa không chảy xuống máng xối",
+          "Để làm ngôi nhà nặng thêm gấp đôi không cần thiết",
+          "Để gió bão tốc độ mạnh không làm tốc mái, bảo vệ kết cấu nhà và tính mạng người bên trong"
+        ],
+        "k": "D",
+        "e": "Liên kết giằng mái chắc chắn chống lực nâng của gió xoáy bão lốc.",
+        "s": "Công Nghệ 6",
+        "h": "An toàn kết cấu mái chống bão"
+      },
+      {
+        "c": "CN6-B01-013",
+        "d": "advanced",
+        "p": "Một gia đình sống ở đô thị chật hẹp xây nhà ống liền kề ba mặt bị bịt kín bởi nhà hàng xóm. Giải pháp kiến trúc nào hiệu quả nhất để đưa ánh sáng tự nhiên và đối lưu gió vào giữa nhà?",
+        "o": [
+          "Thiết kế giếng trời thông tầng ở khoảng giữa hoặc phía sau nhà kết hợp ô thoáng mái",
+          "Bịt kín toàn bộ cửa mặt tiền bằng tường gạch đặc",
+          "Sơn toàn bộ tường trong nhà màu đen tuyền",
+          "Xây tường ngăn chia làm nhiều phòng nhỏ không có cửa thông"
+        ],
+        "k": "A",
+        "e": "Giếng trời tạo trục hút khí nóng lên trên và dẫn ánh sáng tự nhiên xuống các tầng thấp của nhà ống.",
+        "s": "Công Nghệ 6",
+        "h": "Giải pháp giếng trời cho nhà ống"
+      },
+      {
+        "c": "CN6-B01-014",
+        "d": "advanced",
+        "p": "Khi xây dựng một căn nhà trên nền đất bùn yếu ven sông so với nền đất đồi đá cứng, kĩ sư xây dựng phải chú ý thay đổi phần nào của ngôi nhà trước tiên?",
+        "o": [
+          "Làm phần mái nhà nặng gấp ba lần",
+          "Gia cố phần móng sâu và vững chắc hơn (như ép cọc bê tông) để chống lún nghiêng hoặc nứt tường",
+          "Bỏ qua phần móng và xây tường trực tiếp lên mặt bùn",
+          "Chỉ cần mua màu sơn tường đắt tiền hơn"
+        ],
+        "k": "B",
+        "e": "Độ bền toàn ngôi nhà phụ thuộc vào khả năng chịu tải của nền móng trên từng loại địa chất.",
+        "s": "Công Nghệ 6",
+        "h": "Ảnh hưởng địa chất tới thiết kế móng"
+      },
+      {
+        "c": "CN6-B01-015",
+        "d": "advanced",
+        "p": "Trong xu hướng xây dựng xanh bền vững hiện nay, việc sử dụng gạch không nung thay thế gạch đất sét nung truyền thống mang lại lợi ích môi trường kép gì?",
+        "o": [
+          "Không phải đốt than củi gây khí thải nhà kính và không lấy mất đất sét màu mỡ vùng nông nghiệp",
+          "Không thể sơn lên bề mặt tường",
+          "Khi gặp nước mưa gạch tan biến hết",
+          "Làm gạch nặng gấp mười lần nên khó vận chuyển"
+        ],
+        "k": "A",
+        "e": "Gạch không nung tận dụng phế liệu công nghiệp, giảm khai thác đất nông nghiệp và giảm khí thải lò nung.",
+        "s": "Công Nghệ 6",
+        "h": "Lợi ích vật liệu xây dựng xanh"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe6-c1",
+    "lesson": {
+      "code": "congnghe6-b02",
+      "title": "Bài 2. Xây dựng nhà ở, tiết kiệm năng lượng và ngôi nhà thông minh",
+      "seq": 2,
+      "subtitle": "Quy trình xây dựng nhà ở, biện pháp sử dụng năng lượng tiết kiệm hiệu quả và đặc điểm ngôi nhà thông minh",
+      "concepts": [
+        "Quy trình 3 bước xây nhà",
+        "Sử dụng điện chất đốt tiết kiệm",
+        "Đặc điểm ngôi nhà thông minh"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN6-B02-001",
+        "d": "basic",
+        "p": "Quy trình chung xây dựng một ngôi nhà gồm 3 bước chính theo thứ tự nào?",
+        "o": [
+          "Chuẩn bị (thiết kế, chọn vật liệu) → Thi công → Hoàn thiện (lắp thiết bị, sơn sửa, bàn giao)",
+          "Sơn tường hoàn thiện → Đào móng → Vẽ thiết kế",
+          "Thi công → Phá bỏ → Thiết kế bản vẽ",
+          "Mua bàn ghế → Đổ mái → Xin phép xây dựng"
+        ],
+        "k": "A",
+        "e": "Thiết kế chuẩn bị trước khi thi công phần thô rồi mới đến giai đoạn hoàn thiện đưa vào sử dụng.",
+        "s": "Công Nghệ 6",
+        "h": "Quy trình xây dựng nhà ở"
+      },
+      {
+        "c": "CN6-B02-002",
+        "d": "basic",
+        "p": "Nguồn năng lượng nào trong gia đình cần được ưu tiên sử dụng tiết kiệm bằng cách tắt thiết bị khi không dùng?",
+        "o": [
+          "Không khí để thở hàng ngày",
+          "Điện năng và chất đốt (gas, than, củi)",
+          "Ánh sáng mặt trời chiếu tự nhiên ngoài sân",
+          "Gió tự nhiên thổi qua cửa sổ mở"
+        ],
+        "k": "B",
+        "e": "Điện và chất đốt đều tiêu tốn chi phí tài nguyên hữu hạn; tiết kiệm năng lượng giúp giảm hóa đơn và bảo vệ môi trường.",
+        "s": "Công Nghệ 6",
+        "h": "Tiết kiệm điện và chất đốt"
+      },
+      {
+        "c": "CN6-B02-003",
+        "d": "basic",
+        "p": "Ngôi nhà được trang bị hệ thống điều khiển tự động hoặc bán tự động các thiết bị tiện ích giúp an ninh, an toàn và tiết kiệm năng lượng gọi là gì?",
+        "o": [
+          "Kho hàng hóa công nghiệp",
+          "Trạm biến áp cao thế",
+          "Ngôi nhà thông minh (Smart Home)",
+          "Nhà tranh vách đất truyền thống"
+        ],
+        "k": "C",
+        "e": "Ngôi nhà thông minh kết hợp cảm biến và điều khiển từ xa tối ưu hóa tiện nghi cho gia chủ.",
+        "s": "Công Nghệ 6",
+        "h": "Khái niệm ngôi nhà thông minh"
+      },
+      {
+        "c": "CN6-B02-004",
+        "d": "basic",
+        "p": "Biện pháp nào giúp tận dụng tối đa năng lượng tự nhiên để giảm tiền điện chiếu sáng ban ngày trong nhà ở?",
+        "o": [
+          "Sơn trần nhà màu xám đậm",
+          "Đóng kín mọi cửa sổ ban ngày rồi bật toàn bộ đèn điện",
+          "Mở rèm cửa sổ đón ánh sáng tự nhiên và sơn tường màu sáng phản xạ ánh sáng tốt",
+          "Treo rèm vải đen dày che kín cửa kính"
+        ],
+        "k": "C",
+        "e": "Tận dụng ánh sáng trời và gió tự nhiên là cách tiết kiệm năng lượng đơn giản hiệu quả nhất.",
+        "s": "Công Nghệ 6",
+        "h": "Tận dụng ánh sáng tự nhiên"
+      },
+      {
+        "c": "CN6-B02-005",
+        "d": "basic",
+        "p": "Ba đặc điểm nổi bật nhất của ngôi nhà thông minh là gì?",
+        "o": [
+          "Tiện ích, an ninh an toàn và tiết kiệm năng lượng",
+          "Đắt đỏ nhất, khó dùng nhất và tiêu thụ điện tối đa",
+          "Chỉ hoạt động khi mất điện lưới",
+          "Không có cửa ra vào, không có mái và không dùng điện"
+        ],
+        "k": "A",
+        "e": "Công nghệ nhà thông minh hướng tới sự tiện nghi, cảnh báo an toàn kịp thời và tránh lãng phí điện nước.",
+        "s": "Công Nghệ 6",
+        "h": "Ba đặc điểm ngôi nhà thông minh"
+      },
+      {
+        "c": "CN6-B02-006",
+        "d": "basic",
+        "p": "Cảm biến chuyển động gắn ở hành lang cầu thang trong nhà thông minh có tác dụng gì?",
+        "o": [
+          "Phát hiện điểm thi học kì trên mạng",
+          "Tự động bật đèn khi có người đi qua và tự tắt sau thời gian không có người",
+          "Thay đổi màu sơn của bậc thang",
+          "Tăng công suất tiêu thụ điện lên gấp đôi"
+        ],
+        "k": "B",
+        "e": "Đèn cảm ứng vừa thuận tiện đi lại ban đêm vừa không bao giờ bị quên tắt gây tốn điện.",
+        "s": "Công Nghệ 6",
+        "h": "Ứng dụng cảm biến chuyển động"
+      },
+      {
+        "c": "CN6-B02-007",
+        "d": "application",
+        "p": "Quan sát bảng công suất bóng đèn cho cùng độ sáng, thay 1 bóng đèn sợi đốt 60W bằng 1 bóng đèn LED 9W dùng trung bình 5 giờ mỗi ngày sẽ tiết kiệm được bao nhiêu Wh điện mỗi ngày?",
+        "o": [
+          "255 Wh",
+          "300 Wh",
+          "45 Wh",
+          "51 Wh"
+        ],
+        "k": "A",
+        "e": "Chênh lệch công suất = 60 - 9 = 51 W. Trong 5 giờ tiết kiệm = 51 × 5 = 255 Wh.",
+        "s": "Công Nghệ 6",
+        "h": "Tính điện năng tiết kiệm khi dùng đèn LED",
+        "fig": {
+          "type": "table",
+          "title": "So sánh đèn cùng độ sáng",
+          "head": [
+            "Loại đèn",
+            "Công suất",
+            "Tuổi thọ"
+          ],
+          "rows": [
+            [
+              "Đèn sợi đốt",
+              "60 W",
+              "1.000 giờ"
+            ],
+            [
+              "Đèn huỳnh quang",
+              "18 W",
+              "8.000 giờ"
+            ],
+            [
+              "Đèn LED",
+              "9 W",
+              "30.000 giờ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN6-B02-008",
+        "d": "application",
+        "p": "Khi sử dụng tủ lạnh gia đình, hành động nào gây lãng phí điện năng nhiều nhất cần tránh?",
+        "o": [
+          "Đặt tủ lạnh cách tường sau khoảng 10 cm để tản nhiệt",
+          "Xếp thực phẩm có khoảng hở lưu thông hơi lạnh",
+          "Mở cửa tủ lạnh quá lâu, đóng không khít gioăng cao su hoặc cất đồ ăn đang còn nóng vào tủ",
+          "Lau dọn mặt ngoài tủ lạnh bằng khăn sạch"
+        ],
+        "k": "C",
+        "e": "Hơi lạnh thoát ra hoặc nhiệt nóng từ thức ăn bắt máy nén chạy hết công suất liên tục gây hao điện.",
+        "s": "Công Nghệ 6",
+        "h": "Sử dụng tủ lạnh tiết kiệm điện"
+      },
+      {
+        "c": "CN6-B02-009",
+        "d": "application",
+        "p": "Trong hệ thống an ninh của ngôi nhà thông minh, thiết bị nào phát tín hiệu cảnh báo qua điện thoại khi phát hiện có khói bất thường hoặc rò rỉ khí gas trong bếp?",
+        "o": [
+          "Cảm biến ánh sáng ngoài vườn",
+          "Cảm biến khói và cảm biến khí gas",
+          "Quạt thông gió phòng ngủ",
+          "Màn hình ti vi phòng khách"
+        ],
+        "k": "B",
+        "e": "Cảm biến khói và gas giúp phát hiện sớm nguy cơ cháy nổ để xử lí hoặc tự ngắt van an toàn.",
+        "s": "Công Nghệ 6",
+        "h": "An ninh an toàn trong Smart Home"
+      },
+      {
+        "c": "CN6-B02-010",
+        "d": "application",
+        "p": "Khi sử dụng điều hòa nhiệt độ vào mùa hè nắng nóng, cài đặt mức nhiệt độ nào vừa bảo vệ sức khỏe vừa tiết kiệm điện hợp lí?",
+        "o": [
+          "Bật tắt điều hòa liên tục mỗi 5 phút một lần",
+          "Cài mức thấp nhất 16°C rồi mở tung cửa sổ",
+          "Bật điều hòa cả ngày khi cả nhà đi vắng",
+          "Khoảng 26°C đến 28°C kết hợp đóng kín cửa phòng"
+        ],
+        "k": "D",
+        "e": "Mỗi độ C cài đặt tăng lên trong ngưỡng 26–28°C giảm đáng kể thời gian chạy máy nén mà vẫn mát dễ chịu.",
+        "s": "Công Nghệ 6",
+        "h": "Dùng điều hòa tiết kiệm điện"
+      },
+      {
+        "c": "CN6-B02-011",
+        "d": "application",
+        "p": "Trên nhãn năng lượng dán trên máy giặt, tủ lạnh hoặc quạt điện có hình ngôi sao (từ 1 đến 5 sao), sản phẩm nào tiết kiệm điện năng tốt nhất?",
+        "o": [
+          "Sản phẩm được xếp hạng 5 sao hiệu suất năng lượng cao nhất",
+          "Sản phẩm có dây cắm dài nhất",
+          "Sản phẩm không có thông số công suất",
+          "Sản phẩm có 1 sao màu xám"
+        ],
+        "k": "A",
+        "e": "Nhãn năng lượng càng nhiều sao (tối đa 5 sao) chứng tỏ hiệu suất sử dụng điện càng cao, càng tiết kiệm điện.",
+        "s": "Công Nghệ 6",
+        "h": "Đọc hiểu nhãn năng lượng 5 sao"
+      },
+      {
+        "c": "CN6-B02-012",
+        "d": "application",
+        "p": "Hành động nào dưới đây là bước thuộc giai đoạn \"Thi công\" trong quy trình xây dựng nhà ở?",
+        "o": [
+          "Tính dự trù kinh phí mua sắm vật liệu",
+          "Đào đất làm móng, ghép cốt thép đổ bê tông cột sàn và xây tường gạch",
+          "Kê bàn ghế trang trí tranh ảnh trước khi dọn về ở",
+          "Trao đổi nhu cầu phòng ở để vẽ bản thiết kế trên giấy"
+        ],
+        "k": "B",
+        "e": "Đào móng, dựng khung, xây tường, lợp mái là các công việc thi công thô trên công trường.",
+        "s": "Công Nghệ 6",
+        "h": "Phân biệt giai đoạn xây nhà"
+      },
+      {
+        "c": "CN6-B02-013",
+        "d": "advanced",
+        "p": "Một gia đình lắp đặt bình nước nóng năng lượng mặt trời trên mái nhà. Giải pháp này mang lại lợi ích gì về mặt sử dụng năng lượng bền vững?",
+        "o": [
+          "Phát ra sóng Wi-Fi mạnh hơn",
+          "Không cần đường ống dẫn nước vẫn có nước trong phòng tắm",
+          "Tận dụng bức xạ nhiệt miễn phí và tái tạo của mặt trời thay cho điện năng hoặc gas để đun nước sinh hoạt quanh năm",
+          "Làm mát phòng ngủ xuống dưới 15°C vào ban đêm"
+        ],
+        "k": "C",
+        "e": "Năng lượng mặt trời là nguồn năng lượng sạch, tái tạo, giúp giảm đáng kể tiền điện sinh hoạt hàng tháng.",
+        "s": "Công Nghệ 6",
+        "h": "Ứng dụng năng lượng tái tạo trong nhà ở"
+      },
+      {
+        "c": "CN6-B02-014",
+        "d": "advanced",
+        "p": "Bác An xây nhà thông minh có hệ thống rèm tự động đóng lại lúc 12 giờ trưa nắng gắt chiếu hướng Tây và bật hệ thống đèn vừa đủ lúc 18 giờ tối. Ba bộ phận nào phối hợp thực hiện chuỗi tự động này?",
+        "o": [
+          "Cảm biến ánh sáng và đồng hồ thời gian → Bộ điều khiển trung tâm → Động cơ rèm cửa và công tắc đèn thông minh",
+          "Ổ khóa cửa vân tay → Máy giặt → Bếp từ",
+          "Chỉ một công tắc cơ bấm bằng tay",
+          "Camera giám sát → Lò vi sóng → Tủ lạnh"
+        ],
+        "k": "A",
+        "e": "Cảm biến đo ánh sáng/thời gian gửi dữ liệu về bộ điều khiển trung tâm để kích hoạt rèm và đèn.",
+        "s": "Công Nghệ 6",
+        "h": "Chuỗi tự động hóa trong Smart Home"
+      },
+      {
+        "c": "CN6-B02-015",
+        "d": "advanced",
+        "p": "Khi đun nấu bằng bếp gas truyền thống, thấy ngọn lửa có màu vàng đỏ kèm muội đen bám đáy nồi thay vì lửa xanh đều, cách xử lí kĩ thuật hợp lí để tiết kiệm gas và an toàn là gì?",
+        "o": [
+          "Vệ sinh sạch lỗ thoát lửa đầu đốt, chỉnh cửa gió trộn khí và thông thoáng bếp để tránh cháy không hoàn toàn gây lãng phí gas và khí CO",
+          "Đóng kín mọi cửa sổ bếp khi lửa đang cháy đỏ",
+          "Đặt nồi cao cách ngọn lửa 15 cm cho đỡ đen nồi",
+          "Vặn mở van gas to hết cỡ liên tục"
+        ],
+        "k": "A",
+        "e": "Lửa vàng đỏ báo hiệu đốt cháy nhiên liệu không hoàn toàn (thiếu oxi hoặc nghẹt béc phun), vừa hao gas vừa tiềm ẩn sinh khí độc CO.",
+        "s": "Công Nghệ 6",
+        "h": "An toàn và tiết kiệm khi dùng bếp gas"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe6-c1",
+    "lesson": {
+      "code": "congnghe6-b03",
+      "title": "Bài 3. Thực phẩm dinh dưỡng và phương pháp bảo quản thực phẩm",
+      "seq": 3,
+      "subtitle": "Các nhóm chất dinh dưỡng chính, xây dựng bữa ăn hợp lí và cách bảo quản thực phẩm tươi ngon an toàn",
+      "concepts": [
+        "Bốn nhóm chất dinh dưỡng",
+        "Bữa ăn cân đối dinh dưỡng",
+        "Phương pháp bảo quản thực phẩm"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN6-B03-001",
+        "d": "basic",
+        "p": "Thực phẩm hằng ngày cung cấp bốn nhóm chất dinh dưỡng chính nào cho cơ thể phát triển?",
+        "o": [
+          "Xi măng, cát, sỏi và đá vôi",
+          "Nhựa, cao su, thủy tinh và kim loại",
+          "Giấy, mực in, gỗ và sợi tổng hợp",
+          "Chất bột đường, chất đạm, chất béo, vitamin và chất khoáng"
+        ],
+        "k": "D",
+        "e": "Bốn nhóm dinh dưỡng thiết yếu kết hợp cùng nước và chất xơ nuôi dưỡng cơ thể khỏe mạnh.",
+        "s": "Công Nghệ 6",
+        "h": "Bốn nhóm chất dinh dưỡng"
+      },
+      {
+        "c": "CN6-B03-002",
+        "d": "basic",
+        "p": "Nhóm thực phẩm nào (như gạo, ngô, khoai, sắn, bánh mì) cung cấp nguồn năng lượng chủ yếu cho mọi hoạt động cơ thể?",
+        "o": [
+          "Muối i-ốt",
+          "Chất bột đường (Gluxit / Carbohydrate)",
+          "Nước khoáng tinh khiết",
+          "Vitamin C"
+        ],
+        "k": "B",
+        "e": "Chất bột đường là nhiên liệu chính tạo năng lượng cho cơ bắp và não bộ hoạt động.",
+        "s": "Công Nghệ 6",
+        "h": "Vai trò chất bột đường"
+      },
+      {
+        "c": "CN6-B03-003",
+        "d": "basic",
+        "p": "Nhóm thực phẩm giàu chất đạm (Protein) như thịt, cá, trứng, sữa, đậu đỗ có vai trò chính gì đối với trẻ em đang lớn?",
+        "o": [
+          "Xây dựng, tái tạo tế bào và phát triển cơ bắp, tăng trưởng cơ thể",
+          "Chỉ làm tăng nhiệt độ trong tủ lạnh",
+          "Chỉ cung cấp màu sắc cho món ăn",
+          "Thay thế hoàn toàn lượng nước uống hàng ngày"
+        ],
+        "k": "A",
+        "e": "Chất đạm là vật liệu cấu trúc quan trọng giúp cơ thể lớn lên và phục hồi tổn thương.",
+        "s": "Công Nghệ 6",
+        "h": "Vai trò chất đạm"
+      },
+      {
+        "c": "CN6-B03-004",
+        "d": "basic",
+        "p": "Thiếu vitamin A lâu ngày có thể gây ra hậu quả sức khỏe rõ rệt nào?",
+        "o": [
+          "Khô mắt, quáng gà và giảm thị lực",
+          "Tăng chiều cao quá nhanh",
+          "Xương cứng hơn bình thường",
+          "Rụng hết tóc ngay sau một đêm"
+        ],
+        "k": "A",
+        "e": "Vitamin A (có nhiều trong cà rốt, bí đỏ, gan, trứng) bảo vệ mắt và biểu mô.",
+        "s": "Công Nghệ 6",
+        "h": "Tác hại thiếu vitamin A"
+      },
+      {
+        "c": "CN6-B03-005",
+        "d": "basic",
+        "p": "Phương pháp bảo quản thực phẩm nào dùng nhiệt độ thấp (0–4°C ở ngăn mát hoặc dưới -18°C ở ngăn đông) để làm chậm sự phát triển của vi khuẩn?",
+        "o": [
+          "Ngâm chua với muối và đường",
+          "Bảo quản lạnh / Cấp đông",
+          "Hun khói bếp củi",
+          "Phơi khô dưới nắng"
+        ],
+        "k": "B",
+        "e": "Nhiệt độ lạnh ức chế hoạt động của vi sinh vật và enzym gây ôi thiu thực phẩm.",
+        "s": "Công Nghệ 6",
+        "h": "Nguyên lí bảo quản lạnh"
+      },
+      {
+        "c": "CN6-B03-006",
+        "d": "basic",
+        "p": "Khi thấy hộp sữa tươi đã phồng nắp, chảy nước hoặc có mùi chua hắc dù vẫn còn hạn sử dụng in trên vỏ, em cần xử lí thế nào?",
+        "o": [
+          "Cất vào ngăn đá để hết hỏng",
+          "Không sử dụng và bỏ ngay vì thực phẩm đã có dấu hiệu hỏng biến chất",
+          "Pha thêm nhiều đường để át mùi chua",
+          "Đun sôi lại thật lâu rồi uống bình thường"
+        ],
+        "k": "B",
+        "e": "Độc tố do vi khuẩn sinh ra khi thực phẩm biến chất không thể loại bỏ hết bằng cách đun sôi hay làm lạnh lại.",
+        "s": "Công Nghệ 6",
+        "h": "Nhận diện thực phẩm hỏng"
+      },
+      {
+        "c": "CN6-B03-007",
+        "d": "application",
+        "p": "Xem bảng phân nhóm thực phẩm, nếu bữa trưa của bạn Minh chỉ gồm cơm trắng, khoai tây chiên và bánh ngọt thì bữa ăn đó đang THIẾU nghiêm trọng nhóm chất nào?",
+        "o": [
+          "Chất đạm, chất xơ và vitamin – chất khoáng từ rau củ quả",
+          "Chất bột đường",
+          "Năng lượng đường ngọt",
+          "Tinh bột và dầu chiên"
+        ],
+        "k": "A",
+        "e": "Cơm, khoai, bánh ngọt dồi dào tinh bột và chất béo nhưng thiếu hẳn thịt/cá/đậu (đạm) và rau xanh (vitamin, xơ).",
+        "s": "Công Nghệ 6",
+        "h": "Đánh giá cân đối bữa ăn",
+        "fig": {
+          "type": "table",
+          "title": "Tháp nhóm thực phẩm",
+          "head": [
+            "Nhóm chất",
+            "Thực phẩm tiêu biểu"
+          ],
+          "rows": [
+            [
+              "Chất bột đường",
+              "Cơm, mì, khoai, ngô"
+            ],
+            [
+              "Chất đạm",
+              "Thịt, cá, trứng, đậu"
+            ],
+            [
+              "Chất béo",
+              "Dầu thực vật, vừng"
+            ],
+            [
+              "Vitamin & khoáng",
+              "Rau xanh, trái cây"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN6-B03-008",
+        "d": "application",
+        "p": "Làm cá khô, tôm khô hay măng khô dưới ánh nắng mặt trời dựa trên nguyên lí bảo quản nào để vi khuẩn không sinh sôi được?",
+        "o": [
+          "Bơm thêm khí oxi áp suất cao",
+          "Tăng thêm độ ẩm cho thực phẩm",
+          "Làm bay hơi giảm lượng nước có trong thực phẩm (phơi/sấy khô)",
+          "Nhiệt độ thật lạnh dưới 0 độ C"
+        ],
+        "k": "C",
+        "e": "Vi sinh vật cần nước để phát triển; tách ẩm khô giúp bảo quản lương thực lâu dài.",
+        "s": "Công Nghệ 6",
+        "h": "Nguyên lí phơi sấy khô"
+      },
+      {
+        "c": "CN6-B03-009",
+        "d": "application",
+        "p": "Khi cất giữ thực phẩm trong tủ lạnh gia đình, vì sao thịt cá tươi sống cần cho vào hộp đậy kín hoặc bọc riêng biệt ở ngăn riêng tách khỏi đồ ăn đã nấu chín và rau quả ăn sống?",
+        "o": [
+          "Vì thực phẩm chín sẽ làm đông cứng thịt sống",
+          "Để thịt cá tự động chín nhanh hơn trong tủ lạnh",
+          "Để ngăn ngừa lây nhiễm chéo vi khuẩn từ thực phẩm sống sang thực phẩm chín và tránh ám mùi",
+          "Để tiết kiệm không gian cho chai nước ngọt"
+        ],
+        "k": "C",
+        "e": "Nhiễm chéo vi sinh vật từ thịt cá sống sang thức ăn ăn liền là nguyên nhân hàng đầu gây ngộ độc thực phẩm.",
+        "s": "Công Nghệ 6",
+        "h": "Chống nhiễm chéo trong tủ lạnh"
+      },
+      {
+        "c": "CN6-B03-010",
+        "d": "application",
+        "p": "Phương pháp muối dưa cải, muối cà pháo truyền thống bảo quản rau củ bằng cơ chế nào?",
+        "o": [
+          "Rửa bằng nước xà phòng",
+          "Dùng nồng độ muối thích hợp kết hợp quá trình lên men lactic tạo môi trường axit ức chế vi khuẩn gây thối",
+          "Đông lạnh sâu ở âm 20 độ C",
+          "Hút chân không tuyệt đối trong máy công nghiệp"
+        ],
+        "k": "B",
+        "e": "Vi khuẩn có lợi lên men tạo axit lactic kết hợp muối giúp giữ giòn và bảo quản rau củ.",
+        "s": "Công Nghệ 6",
+        "h": "Nguyên lí muối chua lên men"
+      },
+      {
+        "c": "CN6-B03-011",
+        "d": "application",
+        "p": "Một người trưởng thành hoặc học sinh muốn phòng bệnh bướu cổ và hỗ trợ phát triển trí tuệ cần bổ sung đầy đủ chất khoáng vi lượng nào trong khẩu phần ăn?",
+        "o": [
+          "Chất tạo màu tổng hợp",
+          "Đường hóa học công nghiệp",
+          "I-ốt (thông qua muối i-ốt, hải sản, rong biển)",
+          "Chất bảo quản nồng độ cao"
+        ],
+        "k": "C",
+        "e": "Thiếu I-ốt gây rối loạn tuyến giáp (bướu cổ) và ảnh hưởng phát triển nhận thức.",
+        "s": "Công Nghệ 6",
+        "h": "Vai trò vi chất I-ốt"
+      },
+      {
+        "c": "CN6-B03-012",
+        "d": "application",
+        "p": "Khi đi siêu thị mua thực phẩm đóng gói (như xúc xích, sữa chua, đồ hộp), ba thông tin quan trọng nhất cần đọc kĩ trên bao bì trước khi bỏ vào giỏ là gì?",
+        "o": [
+          "Hạn sử dụng, thành phần dinh dưỡng/nguyên liệu và điều kiện bảo quản",
+          "Tên tài xế chở hàng tới siêu thị",
+          "Giá giấy in nhãn mác",
+          "Màu sắc chữ in logo và kích thước phông chữ"
+        ],
+        "k": "A",
+        "e": "Kiểm tra hạn dùng, thành phần dị ứng và nhiệt độ bảo quản giúp chọn mua thực phẩm an toàn.",
+        "s": "Công Nghệ 6",
+        "h": "Kĩ năng đọc nhãn bao bì thực phẩm"
+      },
+      {
+        "c": "CN6-B03-013",
+        "d": "advanced",
+        "p": "Mẹ bạn Lan rã đông 1 kg thịt lợn từ ngăn đá xuống để nấu ăn nhưng nấu chỉ hết một nửa, nửa thịt đã rã đông mềm còn lại mẹ bạn lại cất ngược lên ngăn đá cấp đông lại lần nữa. Thói quen này có nên thực hiện nhiều lần không và vì sao?",
+        "o": [
+          "Hoàn toàn không ảnh hưởng gì tới độ tươi ngon và vi khuẩn",
+          "Nên làm nhiều lần để thịt càng mềm ngon và tăng gấp đôi lượng đạm",
+          "Làm thịt tự biến đổi thành chất bột đường",
+          "Không nên, vì mỗi lần rã đông ở nhiệt độ thường vi khuẩn sinh sôi rất nhanh và làm phá vỡ cấu trúc tế bào khiến thịt mất nước, giảm dinh dưỡng"
+        ],
+        "k": "D",
+        "e": "Nên chia thịt thành từng phần nhỏ vừa một bữa trước khi cấp đông ngay từ đầu để rã đông phần nào nấu hết phần đó.",
+        "s": "Công Nghệ 6",
+        "h": "Sai lầm tái cấp đông nhiều lần"
+      },
+      {
+        "c": "CN6-B03-014",
+        "d": "advanced",
+        "p": "Gia đình có một bạn học sinh lớp 6 bị thừa cân béo phì. Điều chỉnh thực đơn hợp lí khoa học nào nên áp dụng hàng ngày?",
+        "o": [
+          "Chỉ ăn toàn thịt mỡ và bánh quy bơ sữa",
+          "Cân đối khẩu phần: tăng rau xanh và trái cây ít ngọt, ăn đủ đạm nạc, giảm đồ chiên rán nhiều dầu mỡ – nước ngọt có gas và tăng cường vận động thể lực",
+          "Ngủ nhiều hơn và không tập thể dục để đỡ đói",
+          "Nhịn ăn hoàn toàn suốt cả tuần chỉ uống nước lọc"
+        ],
+        "k": "B",
+        "e": "Giảm năng lượng dư thừa từ đường đơn, mỡ bão hòa nhưng vẫn đảm bảo đủ đạm, vitamin cho tuổi đang lớn.",
+        "s": "Công Nghệ 6",
+        "h": "Điều chỉnh dinh dưỡng tuổi dậy thì"
+      },
+      {
+        "c": "CN6-B03-015",
+        "d": "advanced",
+        "p": "Trong phương pháp bảo quản thịt hoặc hạt khô bằng túi hút chân không kết hợp giữ lạnh, việc rút hết không khí (đặc biệt là khí Oxi) khỏi túi mang lại tác dụng kép gì?",
+        "o": [
+          "Tạo thêm oxi giúp vi khuẩn phát triển mạnh hơn",
+          "Biến hạt khô thành rau tươi",
+          "Ức chế vi khuẩn hiếu khí phát triển đồng thời hạn chế quá trình oxi hóa làm ôi dầu mỡ và giữ hương vị thực phẩm lâu hơn",
+          "Làm thực phẩm tự động chín mà không cần đun nấu"
+        ],
+        "k": "C",
+        "e": "Loại bỏ oxi kết hợp nhiệt độ thấp kéo dài thời gian bảo quản gấp nhiều lần mà ít cần chất bảo quản hóa học.",
+        "s": "Công Nghệ 6",
+        "h": "Nguyên lí hút chân không bảo quản"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe6-c2",
+    "lesson": {
+      "code": "congnghe6-b04",
+      "title": "Bài 4. Các phương pháp chế biến thực phẩm và an toàn vệ sinh thực phẩm",
+      "seq": 4,
+      "subtitle": "Chế biến thực phẩm có sử dụng nhiệt (luộc, hấp, kho, rán, nướng) và không sử dụng nhiệt (trộn dầu giấm, muối chua)",
+      "concepts": [
+        "Chế biến sử dụng nhiệt",
+        "Chế biến không sử dụng nhiệt",
+        "Giữ dinh dưỡng và vệ sinh khi nấu"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN6-B04-001",
+        "d": "basic",
+        "p": "Phương pháp chế biến làm chín thực phẩm bằng cách đun trong môi trường nhiều nước sôi ở 100°C gọi là gì?",
+        "o": [
+          "Trộn dầu giấm",
+          "Rán (chiên)",
+          "Luộc",
+          "Nướng"
+        ],
+        "k": "C",
+        "e": "Luộc làm chín thực phẩm trong nước sôi (như luộc rau, luộc trứng, luộc thịt).",
+        "s": "Công Nghệ 6",
+        "h": "Phương pháp luộc"
+      },
+      {
+        "c": "CN6-B04-002",
+        "d": "basic",
+        "p": "Phương pháp làm chín thực phẩm bằng sức nóng của hơi nước bốc lên từ nồi đun bên dưới mà thực phẩm không ngâm trực tiếp trong nước là phương pháp nào?",
+        "o": [
+          "Kho mặn",
+          "Hấp (đồ)",
+          "Hầm xương",
+          "Xào lửa lớn"
+        ],
+        "k": "B",
+        "e": "Hấp giữ lại tối đa vitamin tan trong nước và vị ngọt tự nhiên của thực phẩm.",
+        "s": "Công Nghệ 6",
+        "h": "Phương pháp hấp"
+      },
+      {
+        "c": "CN6-B04-003",
+        "d": "basic",
+        "p": "Nhóm phương pháp chế biến nào sau đây KHÔNG sử dụng nhiệt trực tiếp làm chín thực phẩm?",
+        "o": [
+          "Luộc chín, hấp cách thủy và ninh hầm",
+          "Kho tiêu và rang lạc",
+          "Rán giòn, nướng than và xào nhanh",
+          "Trộn dầu giấm (salad), trộn hỗn hợp (nộm/gỏi) và muối chua"
+        ],
+        "k": "D",
+        "e": "Trộn dầu giấm và nộm dùng nguyên liệu ăn sống an toàn hoặc đã sơ chế kết hợp gia vị chua ngọt.",
+        "s": "Công Nghệ 6",
+        "h": "Chế biến không dùng nhiệt"
+      },
+      {
+        "c": "CN6-B04-004",
+        "d": "basic",
+        "p": "Khi làm món rán (chiên) thực phẩm ngập hoặc ít dầu mỡ, môi trường truyền nhiệt trực tiếp làm chín giòn bề mặt thực phẩm là gì?",
+        "o": [
+          "Chất béo (dầu ăn hoặc mỡ nóng)",
+          "Hơi nước lạnh ở ngăn mát",
+          "Nước đá viên",
+          "Muối hạt khô không đun"
+        ],
+        "k": "A",
+        "e": "Dầu mỡ đạt nhiệt độ cao (160–180°C) làm chín thực phẩm và tạo lớp vỏ vàng giòn.",
+        "s": "Công Nghệ 6",
+        "h": "Phương pháp rán"
+      },
+      {
+        "c": "CN6-B04-005",
+        "d": "basic",
+        "p": "Trong căn bếp gia đình, nguyên tắc cơ bản về dụng cụ thái cắt (dao, thớt) để đảm bảo vệ sinh an toàn thực phẩm là gì?",
+        "o": [
+          "Dùng dao và thớt riêng biệt cho thực phẩm sống (thịt cá tươi) và thực phẩm chín ăn ngay",
+          "Dùng chung một mặt thớt vừa chặt thịt sống xong thái ngay hoa quả chín không rửa",
+          "Chỉ lau thớt bằng khăn khô không cần rửa nước",
+          "Đặt thớt sát xuống nền nhà ẩm ướt"
+        ],
+        "k": "A",
+        "e": "Tách riêng thớt sống và thớt chín ngăn vi khuẩn từ đồ sống nhiễm sang thức ăn ăn liền.",
+        "s": "Công Nghệ 6",
+        "h": "Nguyên tắc thớt sống và thớt chín"
+      },
+      {
+        "c": "CN6-B04-006",
+        "d": "basic",
+        "p": "Loại vitamin nào rất dễ bị hòa tan vào nước luộc và bị phân hủy nếu đun nấu rau củ quá kĩ ở nhiệt độ cao kéo dài?",
+        "o": [
+          "Nước tinh khiết",
+          "Vitamin C và nhóm vitamin B",
+          "Chất xơ không tan",
+          "Chất khoáng canxi trong xương cứng"
+        ],
+        "k": "B",
+        "e": "Vitamin C và B tan trong nước và nhạy cảm với nhiệt; nên luộc rau khi nước sôi lớn, nhanh gọn và có thể tận dụng nước luộc sạch.",
+        "s": "Công Nghệ 6",
+        "h": "Bảo toàn vitamin khi nấu nướng"
+      },
+      {
+        "c": "CN6-B04-007",
+        "d": "application",
+        "p": "Quan sát bảng phương pháp chế biến, món \"Xôi gấc\" và \"Bánh bao\" được làm chín chủ yếu bằng phương pháp nào?",
+        "o": [
+          "Muối chua lên men",
+          "Hấp (đồ bằng hơi nước)",
+          "Trộn dầu giấm",
+          "Rán ngập dầu"
+        ],
+        "k": "B",
+        "e": "Xôi và bánh bao chín nhờ hơi nước nóng bốc lên qua xửng hấp.",
+        "s": "Công Nghệ 6",
+        "h": "Nhận diện món ăn theo phương pháp",
+        "fig": {
+          "type": "table",
+          "title": "Phân loại chế biến món ăn",
+          "head": [
+            "Môi trường truyền",
+            "Phương pháp"
+          ],
+          "rows": [
+            [
+              "Nhiều nước sôi",
+              "Luộc, nấu, hầm"
+            ],
+            [
+              "Hơi nước nóng",
+              "Hấp (đồ)"
+            ],
+            [
+              "Chất béo nóng",
+              "Rán, xào, rang"
+            ],
+            [
+              "Không dùng nhiệt",
+              "Trộn giấm, muối chua"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN6-B04-008",
+        "d": "application",
+        "p": "Khi luộc rau muống hoặc rau cải để giữ rau xanh mướt và hạn chế thất thoát vitamin tan trong nước, thao tác chuẩn là gì?",
+        "o": [
+          "Rửa rau trước rồi mới cắt, chờ nước thật sôi mới thả rau vào đảo đều và vớt ra vừa chín tới",
+          "Cho rau vào ngay từ lúc nước còn lạnh rồi đun thật nhỏ lửa suốt 30 phút",
+          "Ngâm rau đã thái nhỏ trong chậu nước lạnh 2 tiếng trước khi luộc",
+          "Đậy kín vung nồi đun nhừ nhũn"
+        ],
+        "k": "A",
+        "e": "Thả vào nước sôi lớn giúp enzym phân hủy màu xanh bất hoạt nhanh và rút ngắn thời gian nấu.",
+        "s": "Công Nghệ 6",
+        "h": "Kĩ thuật luộc rau giữ dinh dưỡng"
+      },
+      {
+        "c": "CN6-B04-009",
+        "d": "application",
+        "p": "Điểm khác biệt chính về lượng chất lỏng và thời gian giữa phương pháp \"Kho\" và phương pháp \"Nấu canh\" là gì?",
+        "o": [
+          "Nấu canh chỉ dùng dầu ăn thay cho nước hoàn toàn",
+          "Kho dùng lượng nước vừa xâm xấp, nêm vị đậm mặn ngọt và đun nhỏ lửa cho thấm sánh; Nấu canh dùng nhiều nước và vị thanh vừa",
+          "Kho không bao giờ dùng nhiệt độ bếp",
+          "Hai phương pháp có tỉ lệ nước và gia vị y hệt nhau"
+        ],
+        "k": "B",
+        "e": "Món kho đậm đà dùng ăn kèm cơm, nước sốt sánh ít còn canh có nhiều nước dùng chan.",
+        "s": "Công Nghệ 6",
+        "h": "Phân biệt Kho và Nấu"
+      },
+      {
+        "c": "CN6-B04-010",
+        "d": "application",
+        "p": "Khi làm món \"Nộm (gỏi) hoa chuối\" hoặc \"Salad xà lách trộn dầu giấm\" (không qua đun chín), yêu cầu khâu sơ chế nguyên liệu rau sống phải đặc biệt chú ý điều gì?",
+        "o": [
+          "Dùng tay chưa rửa sạch bóp trộn trực tiếp",
+          "Không cần rửa để giữ nguyên bụi đất tự nhiên",
+          "Rửa thật sạch từng lá dưới vòi nước chảy, ngâm nước muối loãng hoặc nước rửa chuyên dụng rồi để ráo hẳn nước trước khi trộn",
+          "Trộn ngay khi rau còn sũng nước lã"
+        ],
+        "k": "C",
+        "e": "Món ăn không qua nhiệt độ cao diệt khuẩn nên khâu làm sạch nguyên liệu quyết định an toàn tiêu hóa.",
+        "s": "Công Nghệ 6",
+        "h": "Vệ sinh khi làm món trộn sống"
+      },
+      {
+        "c": "CN6-B04-011",
+        "d": "application",
+        "p": "Khi chế biến món \"Nướng\" trực tiếp trên than hoa, để tránh phần bề mặt cháy khét sinh chất độc hại cho sức khỏe, cần lưu ý điều gì?",
+        "o": [
+          "Nướng cho vỏ ngoài cháy đen càng dày càng bổ dưỡng",
+          "Đốt thêm túi ni-lông cùng than cho nhanh cháy",
+          "Quét trực tiếp dầu động cơ lên mặt thịt",
+          "Không để lửa bùng cháy trực tiếp vào thực phẩm, giữ khoảng cách hợp lí và bỏ phần bị cháy đen nếu có"
+        ],
+        "k": "D",
+        "e": "Thực phẩm cháy khét ở nhiệt độ quá cao sinh hợp chất độc hại không tốt cho hệ tiêu hóa.",
+        "s": "Công Nghệ 6",
+        "h": "An toàn khi nướng thực phẩm"
+      },
+      {
+        "c": "CN6-B04-012",
+        "d": "application",
+        "p": "Trước khi bắt đầu sơ chế và nấu bữa cơm gia đình, bước vệ sinh cá nhân đầu tiên của người nấu ăn là gì?",
+        "o": [
+          "Để móng tay dài và sơn sửa ngay trên bàn bếp",
+          "Đi dép ngoài đường dẫm lên rổ rau",
+          "Xịt nước hoa nồng nặc lên khắp thực phẩm",
+          "Rửa tay sạch bằng xà phòng với nước sạch, buộc gọn tóc và mặc tạp dề sạch sẽ"
+        ],
+        "k": "D",
+        "e": "Bàn tay sạch ngăn truyền vi khuẩn vào thức ăn trong suốt quá trình chế biến.",
+        "s": "Công Nghệ 6",
+        "h": "Vệ sinh người chế biến thực phẩm"
+      },
+      {
+        "c": "CN6-B04-013",
+        "d": "advanced",
+        "p": "Một quán ăn vì tiết kiệm nên dùng đi dùng lại cùng một chảo dầu chiên rán ở nhiệt độ cao suốt cả tuần cho đến khi dầu chuyển màu đen sậm bốc khói khét. Tác hại hóa học – sức khỏe nào xảy ra với đồ ăn rán trong chảo dầu đó?",
+        "o": [
+          "Không có thay đổi hóa học nào khi đun dầu nhiều lần",
+          "Dầu ăn bị oxi hóa và phân hủy nhiệt sinh ra các chất độc hại và gốc tự do gây hại tim mạch, tiêu hóa",
+          "Làm món ăn nhẹ hơn không chứa chất béo",
+          "Dầu cũ giúp thức ăn giàu vitamin C gấp năm lần"
+        ],
+        "k": "B",
+        "e": "Dầu chiên lại nhiều lần biến chất sinh độc tố; ở gia đình chỉ nên dùng dầu vừa đủ mới sạch.",
+        "s": "Công Nghệ 6",
+        "h": "Nguy cơ dùng dầu chiên đi chiên lại"
+      },
+      {
+        "c": "CN6-B04-014",
+        "d": "advanced",
+        "p": "Mẹ muốn chế biến 1 kg thịt bò có nhiều gân dai thành món ăn mềm ngọt dễ tiêu hóa cho ông bà lớn tuổi. Giữa hai phương pháp: (1) Xào nhanh 2 phút và (2) Hầm nhỏ lửa trong nước dùng 60 phút, chọn cách nào và vì sao?",
+        "o": [
+          "Không cách nào làm thịt bò mềm được",
+          "Chọn (1) Xào nhanh vì càng đun nhanh thịt gân càng nhũn",
+          "Chọn phương pháp (2) Hầm nhỏ lửa thời gian dài để mô liên kết gân (collagen) thủy phân mềm nhừ và tiết vị ngọt vào nước dùng",
+          "Chọn phơi khô rồi ăn sống trực tiếp"
+        ],
+        "k": "C",
+        "e": "Hầm (ninh) với nhiệt ẩm lâu là kĩ thuật chuẩn cho phần thịt nhiều gân, xương cứng.",
+        "s": "Công Nghệ 6",
+        "h": "Chọn phương pháp nấu phù hợp nguyên liệu"
+      },
+      {
+        "c": "CN6-B04-015",
+        "d": "advanced",
+        "p": "Thức ăn nấu chín nếu để ngoài nhiệt độ phòng mùa hè (trên 30°C) quá 2–3 giờ đồng hồ thường dễ ôi thiu. Giải thích khoa học và cách xử lí bảo quản đồ ăn thừa đúng cách là gì?",
+        "o": [
+          "Trộn lẫn thức ăn cũ còn thừa từ hôm trước vào nồi cơm mới nấu",
+          "Càng để ngoài trời nắng thức ăn càng lâu hỏng",
+          "Đậy vung thật kín để ở bếp gas suốt 2 ngày không cần cất tủ lạnh",
+          "Khoảng 20–50°C là vùng nguy hiểm khiến vi khuẩn sinh sôi nhanh; cần đậy kín cất tủ lạnh khi thức ăn nguội bớt và đun sôi kĩ trước khi ăn lại"
+        ],
+        "k": "D",
+        "e": "Làm lạnh nhanh sau bữa ăn ngăn vi khuẩn phát triển trong \"vùng nhiệt độ nguy hiểm\" (5°C – 60°C).",
+        "s": "Công Nghệ 6",
+        "h": "Bảo quản thức ăn đã nấu chín"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe6-c2",
+    "lesson": {
+      "code": "congnghe6-b05",
+      "title": "Bài 5. Thực đơn cân đối và dự trù chi phí bữa ăn gia đình",
+      "seq": 5,
+      "subtitle": "Nguyên tắc xây dựng thực đơn hợp lí theo nhu cầu dinh dưỡng lứa tuổi và cách tính toán chi phí mua thực phẩm tiết kiệm",
+      "concepts": [
+        "Nguyên tắc xây dựng thực đơn",
+        "Cơ cấu món ăn bữa chính",
+        "Tính toán chi phí thực đơn"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN6-B05-001",
+        "d": "basic",
+        "p": "Bảng ghi lại tên các món ăn dự kiến cho một bữa ăn, một ngày hoặc một tuần gọi là gì?",
+        "o": [
+          "Thực đơn",
+          "Hóa đơn tiền điện",
+          "Sơ đồ mặt bằng nhà",
+          "Nhãn hướng dẫn giặt là"
+        ],
+        "k": "A",
+        "e": "Lập thực đơn trước giúp cân bằng dinh dưỡng, tránh trùng lặp món và mua sắm tiết kiệm.",
+        "s": "Công Nghệ 6",
+        "h": "Khái niệm thực đơn"
+      },
+      {
+        "c": "CN6-B05-002",
+        "d": "basic",
+        "p": "Một bữa ăn chính truyền thống hợp lí của gia đình Việt Nam thường có cơ cấu các món nào?",
+        "o": [
+          "Chỉ có bốn món đều là đồ chiên rán ngọt",
+          "Chỉ ăn duy nhất một đĩa muối lạc",
+          "Chỉ uống nước ngọt có gas thay cơm",
+          "Cơm (món tinh bột), món mặn (giàu đạm), món rau xào hoặc luộc và món canh"
+        ],
+        "k": "D",
+        "e": "Kết hợp cơm, món mặn, món rau và canh đảm bảo đủ bốn nhóm chất và cân bằng vị giác.",
+        "s": "Công Nghệ 6",
+        "h": "Cơ cấu bữa ăn chính hợp lí"
+      },
+      {
+        "c": "CN6-B05-003",
+        "d": "basic",
+        "p": "Nguyên tắc quan trọng khi chọn thực phẩm chế biến thực đơn theo mùa vụ (mùa nào thức nấy) mang lại lợi ích gì?",
+        "o": [
+          "Thực phẩm tươi ngon tự nhiên, giá thành hợp lí và ít dư lượng thuốc bảo quản trái mùa",
+          "Khó tìm mua ở chợ địa phương",
+          "Thực phẩm mất hết màu sắc tự nhiên",
+          "Giá luôn đắt gấp ba lần bình thường"
+        ],
+        "k": "A",
+        "e": "Rau quả chính vụ sinh trưởng thuận thời tiết nên đậm vị, giàu dinh dưỡng và rẻ hơn.",
+        "s": "Công Nghệ 6",
+        "h": "Lợi ích chọn thực phẩm theo mùa"
+      },
+      {
+        "c": "CN6-B05-004",
+        "d": "basic",
+        "p": "Khi xây dựng thực đơn cho người cao tuổi trong gia đình, món ăn nên được chế biến theo hướng nào?",
+        "o": [
+          "Chỉ ăn đồ ngọt có đường công nghiệp",
+          "Mềm dễ nhai tiêu hóa, ít mặn, ít dầu mỡ và tăng rau xanh, cá, đậu hũ",
+          "Thật cay nóng, nhiều mỡ động vật và thịt gân dai cứng",
+          "Ăn thật mặn và nhiều đồ chiên giòn"
+        ],
+        "k": "B",
+        "e": "Người cao tuổi cần món ăn thanh đạm, mềm, hạn chế muối và chất béo bão hòa để bảo vệ tim mạch huyết áp.",
+        "s": "Công Nghệ 6",
+        "h": "Thực đơn phù hợp lứa tuổi"
+      },
+      {
+        "c": "CN6-B05-005",
+        "d": "basic",
+        "p": "Để tính tổng chi phí cho một bữa ăn gia đình gồm nhiều nguyên liệu khác nhau, ta thực hiện phép tính gì?",
+        "o": [
+          "Chỉ tính tiền thịt cá và bỏ qua hoàn toàn tiền rau gạo",
+          "Cộng thành tiền (đơn giá nhân khối lượng mua) của tất cả các nguyên liệu và gia vị ước tính",
+          "Nhân số lượng món ăn với nhau",
+          "Lấy giá tiền món đắt nhất chia cho số người ăn"
+        ],
+        "k": "B",
+        "e": "Tổng chi phí = Tổng (Số lượng từng nguyên liệu × Đơn giá tương ứng).",
+        "s": "Công Nghệ 6",
+        "h": "Tính chi phí bữa ăn"
+      },
+      {
+        "c": "CN6-B05-006",
+        "d": "basic",
+        "p": "Để tránh lãng phí thực phẩm và tiền bạc khi đi chợ theo thực đơn đã lập, thói quen tốt nhất là gì?",
+        "o": [
+          "Đi chợ lúc đói và mua mọi thứ nhìn thấy bắt mắt",
+          "Kiểm tra trước những đồ có sẵn trong tủ lạnh rồi viết danh sách các món cần mua vừa đủ khẩu phần người ăn",
+          "Không bao giờ xem thực đơn trước khi đi mua",
+          "Mua gấp đôi lượng cần thiết rồi bỏ đi phần thừa"
+        ],
+        "k": "B",
+        "e": "Danh sách mua sắm theo đúng định lượng thực đơn giúp kiểm soát ngân sách và chống lãng phí.",
+        "s": "Công Nghệ 6",
+        "h": "Thói quen mua sắm tiết kiệm"
+      },
+      {
+        "c": "CN6-B05-007",
+        "d": "application",
+        "p": "Xem bảng chi phí bữa ăn cho 4 người dưới đây, tổng chi phí thực phẩm của bữa ăn đó bằng bao nhiêu đồng?",
+        "o": [
+          "84.000 đồng",
+          "72.000 đồng",
+          "105.000 đồng",
+          "96.000 đồng"
+        ],
+        "k": "D",
+        "e": "Cá thu (45.000) + Thịt ba chỉ (24.000) + Rau muống (10.000) + Cà chua, hành (7.000) + Gạo, gia vị (10.000) = 96.000 đồng.",
+        "s": "Công Nghệ 6",
+        "h": "Tính tổng chi phí thực đơn",
+        "fig": {
+          "type": "table",
+          "title": "Dự trù chi phí bữa trưa 4 người",
+          "head": [
+            "Nguyên liệu",
+            "Khối lượng",
+            "Thành tiền"
+          ],
+          "rows": [
+            [
+              "Cá/thịt mặn",
+              "0,5 kg",
+              "69.000 đ"
+            ],
+            [
+              "Rau muống",
+              "1 bó",
+              "10.000 đ"
+            ],
+            [
+              "Cà chua, hành",
+              "0,2 kg",
+              "7.000 đ"
+            ],
+            [
+              "Gạo, gia vị",
+              "Ước tính",
+              "10.000 đ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN6-B05-008",
+        "d": "application",
+        "p": "Từ tổng chi phí 96.000 đồng cho bữa trưa 4 người ở câu trên, chi phí bình quân cho mỗi suất ăn trong gia đình là bao nhiêu?",
+        "o": [
+          "32.000 đồng một người",
+          "19.200 đồng một người",
+          "48.000 đồng một người",
+          "24.000 đồng một người"
+        ],
+        "k": "D",
+        "e": "96.000 / 4 = 24.000 đồng mỗi suất.",
+        "s": "Công Nghệ 6",
+        "h": "Tính bình quân đầu người bữa ăn"
+      },
+      {
+        "c": "CN6-B05-009",
+        "d": "application",
+        "p": "Thực đơn gồm 4 món: \"Thịt kho tàu + Trứng vịt luộc + Canh xương hầm thịt + Dưa hấu\". Thực đơn này mất cân đối rõ nhất ở điểm nào?",
+        "o": [
+          "Có quá nhiều món canh chua",
+          "Quá nhiều các món rau xanh lá",
+          "Thiếu chất đạm động vật",
+          "Thừa nhiều chất đạm – béo từ thịt trứng nhưng thiếu hẳn món rau xanh (chất xơ và vitamin)"
+        ],
+        "k": "D",
+        "e": "Ba món mặn và canh đều nhiều thịt trứng, thiếu rau xanh luộc/xào làm bữa ăn dễ ngấy và thiếu chất xơ.",
+        "s": "Công Nghệ 6",
+        "h": "Phát hiện lỗi thực đơn mất cân đối"
+      },
+      {
+        "c": "CN6-B05-010",
+        "d": "application",
+        "p": "Khi lập thực đơn cho bữa tiệc gia đình có nhiều món chiên xào đậm đà, món tráng miệng và món canh kèm theo nên chọn như thế nào để hài hòa vị giác?",
+        "o": [
+          "Chọn canh chua thanh mát hoặc canh rau giải nhiệt và hoa quả tươi ít ngọt (như cam, bưởi, thanh long)",
+          "Không có canh và chỉ ăn bánh quy khô",
+          "Chọn chè đặc thật nhiều kem bơ béo ngậy kèm canh xương đặc",
+          "Chọn thêm hai món thịt rán giòn làm tráng miệng"
+        ],
+        "k": "A",
+        "e": "Kết hợp món thanh mát với món đậm vị giúp cân bằng tiêu hóa và đỡ ngán.",
+        "s": "Công Nghệ 6",
+        "h": "Phối hợp món hài hòa trong thực đơn"
+      },
+      {
+        "c": "CN6-B05-011",
+        "d": "application",
+        "p": "Một bạn học sinh lớp 6 năng động tham gia đội bóng đá trường tập luyện chiều mỗi ngày cần thực đơn có điểm lưu ý gì so với người ít vận động?",
+        "o": [
+          "Đảm bảo đủ năng lượng (tinh bột vừa đủ), giàu đạm phục hồi cơ và bù đủ nước – muối khoáng",
+          "Chỉ ăn kẹo đường trước khi chạy",
+          "Cắt giảm 70% cơm và thịt để nhẹ người",
+          "Không uống nước trong suốt buổi tập"
+        ],
+        "k": "A",
+        "e": "Nhu cầu năng lượng và đạm phụ thuộc vào mức độ lao động và vận động thể chất.",
+        "s": "Công Nghệ 6",
+        "h": "Thực đơn theo cường độ vận động"
+      },
+      {
+        "c": "CN6-B05-012",
+        "d": "application",
+        "p": "Mẹ giao cho em 100.000 đồng đi mua thực phẩm nấu bữa tối đủ 4 món (cơm, mặn, rau, canh) cho 4 người. Với bảng giá: Gạo+gia vị sẵn có ở nhà; Thịt nạc 120.000đ/kg; Trứng gà 3.500đ/quả; Rau cải 12.000đ/bó; Đậu phụ 4.000đ/bìa. Phương án mua nào đủ chất và KHÔNG vượt 100.000đ?",
+        "o": [
+          "1 kg thịt nạc (120.000đ) + 1 bó rau (12.000đ)",
+          "0,8 kg thịt nạc (96.000đ) + 6 quả trứng (21.000đ)",
+          "0,5 kg thịt (60.000đ) + 10 bìa đậu (40.000đ) + 2 bó rau (24.000đ)",
+          "0,5 kg thịt nạc (60.000đ) + 4 bìa đậu (16.000đ) + 2 bó rau cải (24.000đ) = đúng 100.000đ"
+        ],
+        "k": "D",
+        "e": "0,5 × 120.000 + 4 × 4.000 + 2 × 12.000 = 60.000 + 16.000 + 24.000 = 100.000đ, đủ cả thịt, đậu và rau.",
+        "s": "Công Nghệ 6",
+        "h": "Bài toán tối ưu ngân sách đi chợ"
+      },
+      {
+        "c": "CN6-B05-013",
+        "d": "advanced",
+        "p": "Để đổi bữa tiết kiệm mà vẫn đủ chất đạm cho gia đình trong điều kiện giá thịt cá tăng cao, giải pháp dinh dưỡng thông minh nào hợp lí nhất?",
+        "o": [
+          "Nhịn ăn bữa tối hàng ngày",
+          "Chỉ mua thịt bò nhập khẩu đắt tiền giảm xuống còn 10 gam mỗi bữa",
+          "Cắt bỏ toàn bộ nguồn đạm chỉ ăn cơm trắng với nước mắm cả tháng",
+          "Phối hợp xen kẽ các nguồn đạm giá hợp lí như trứng, đậu phụ, lạc vừng, cá nhỏ đồng quê cùng một lượng vừa thịt nạc"
+        ],
+        "k": "D",
+        "e": "Đạm thực vật (đậu phụ, các loại đậu) kết hợp trứng, cá nhỏ vừa rẻ vừa cung cấp axit amin phong phú và tốt cho tim mạch.",
+        "s": "Công Nghệ 6",
+        "h": "Giải pháp dinh dưỡng tiết kiệm"
+      },
+      {
+        "c": "CN6-B05-014",
+        "d": "advanced",
+        "p": "Khi thiết kế thực đơn cả tuần (7 ngày) cho học sinh nội trú, tiêu chí nào quan trọng giúp học sinh ăn ngon miệng và hấp thu đủ vi chất?",
+        "o": [
+          "Cho toàn bộ thức ăn của 7 ngày vào một nồi nấu một lần",
+          "Chỉ nấu món chiên giòn suốt 7 ngày vì học sinh thích ăn",
+          "Đa dạng hóa thực phẩm và phương pháp chế biến qua từng ngày (tránh lặp lại y hệt một món 3–4 ngày liên tiếp) và luân phiên đủ 4 nhóm chất",
+          "Ngày nào cũng nấu đúng một món thịt kho và rau muống luộc cho dễ mua"
+        ],
+        "k": "C",
+        "e": "Sự đa dạng thực phẩm đảm bảo cung cấp đầy đủ các axit amin và vi khoáng khác nhau.",
+        "s": "Công Nghệ 6",
+        "h": "Nguyên tắc đa dạng thực đơn tuần"
+      },
+      {
+        "c": "CN6-B05-015",
+        "d": "advanced",
+        "p": "Dựa vào biểu đồ phân bổ tỉ lệ chi phí một bữa cơm gia đình cân đối, khoản mục nào chiếm tỉ trọng lớn nhất trong tổng tiền đi chợ thực phẩm tươi?",
+        "o": [
+          "Nhóm thực phẩm giàu đạm (thịt, cá, trứng) chiếm 55%",
+          "Nhóm gia vị mắm muối (5%)",
+          "Nhóm gạo và ngũ cốc (15%)",
+          "Nhóm rau củ quả tươi (25%)"
+        ],
+        "k": "A",
+        "e": "Đơn giá thịt, cá, trứng thường cao hơn gạo và rau nên chiếm tỉ trọng chi tiêu lớn nhất (55%).",
+        "s": "Công Nghệ 6",
+        "h": "Phân tích cơ cấu chi phí bữa ăn",
+        "fig": {
+          "type": "bars",
+          "title": "Cơ cấu chi phí bữa cơm (%)",
+          "labels": [
+            "Thịt/Cá/Trứng",
+            "Rau/Trái cây",
+            "Gạo/Tinh bột",
+            "Gia vị"
+          ],
+          "series": [
+            {
+              "values": [
+                55,
+                25,
+                15,
+                5
+              ],
+              "name": "Tỉ trọng"
+            }
+          ],
+          "unit": "%"
+        }
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe6-c2",
+    "lesson": {
+      "code": "congnghe6-b06",
+      "title": "Bài 6. Ôn tập Học kì 1 – Công nghệ 6",
+      "seq": 6,
+      "subtitle": "Tổng hợp kiến thức Học kì 1: Nhà ở, Vật liệu xây dựng, Tiết kiệm năng lượng, Ngôi nhà thông minh, Dinh dưỡng và Chế biến thực phẩm",
+      "concepts": [
+        "Kiến trúc và tiết kiệm năng lượng nhà ở",
+        "Dinh dưỡng và bảo quản thực phẩm",
+        "Chế biến và thực đơn hợp lí"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN6-B06-001",
+        "d": "basic",
+        "p": "Ba phần cấu tạo chính của một ngôi nhà ở gồm những phần nào?",
+        "o": [
+          "Đèn điện, dây cáp và công tắc",
+          "Móng nhà, thân nhà và mái nhà",
+          "Bếp ăn, sân phơi và giếng nước",
+          "Cửa sổ, bàn ghế và tủ lạnh"
+        ],
+        "k": "B",
+        "e": "Móng chịu tải nền, thân tạo không gian sinh hoạt, mái che chắn bên trên.",
+        "s": "Công Nghệ 6",
+        "h": "Ôn tập cấu tạo nhà ở"
+      },
+      {
+        "c": "CN6-B06-002",
+        "d": "basic",
+        "p": "Ba đặc điểm đặc trưng của ngôi nhà thông minh là gì?",
+        "o": [
+          "Tiện ích, an ninh an toàn và tiết kiệm năng lượng",
+          "Tự di chuyển trên đường cao tốc",
+          "Không dùng điện, không dùng cửa và không có mái",
+          "Rộng lớn nhất, đắt nhất và nhiều tầng nhất"
+        ],
+        "k": "A",
+        "e": "Ngôi nhà thông minh ứng dụng công nghệ tự động hóa vì tiện nghi, an toàn và hiệu quả năng lượng.",
+        "s": "Công Nghệ 6",
+        "h": "Ôn tập ngôi nhà thông minh"
+      },
+      {
+        "c": "CN6-B06-003",
+        "d": "basic",
+        "p": "Thực phẩm nào giàu chất đạm (Protein) hàng đầu trong bữa ăn gia đình?",
+        "o": [
+          "Thịt, cá, trứng, sữa và các loại đậu",
+          "Muối ăn tinh khiết",
+          "Đường cát trắng và kẹo ngọt",
+          "Dầu thực vật tinh luyện"
+        ],
+        "k": "A",
+        "e": "Thịt, cá, trứng, sữa và đậu đỗ là nguồn cung cấp protein dồi dào.",
+        "s": "Công Nghệ 6",
+        "h": "Ôn tập nguồn thực phẩm đạm"
+      },
+      {
+        "c": "CN6-B06-004",
+        "d": "basic",
+        "p": "Phương pháp nào KHÔNG dùng nhiệt độ bếp để chế biến món ăn?",
+        "o": [
+          "Trộn dầu giấm (salad) và trộn hỗn hợp (gỏi/nộm)",
+          "Luộc và hấp cách thủy",
+          "Kho và nấu canh",
+          "Rán và nướng"
+        ],
+        "k": "A",
+        "e": "Salad và nộm chế biến nguội kết hợp gia vị chua ngọt mặn.",
+        "s": "Công Nghệ 6",
+        "h": "Ôn tập chế biến không dùng nhiệt"
+      },
+      {
+        "c": "CN6-B06-005",
+        "d": "basic",
+        "p": "Nhiệt độ thích hợp của ngăn mát tủ lạnh gia đình để giữ rau quả và thức ăn chín ngắn ngày là khoảng bao nhiêu?",
+        "o": [
+          "Khoảng 1°C đến 4°C",
+          "Khoảng 35°C đến 40°C",
+          "Khoảng 100°C",
+          "Khoảng -50°C"
+        ],
+        "k": "A",
+        "e": "Khoảng 1–4°C đủ lạnh làm chậm vi khuẩn mà không làm đóng băng làm nát rau củ.",
+        "s": "Công Nghệ 6",
+        "h": "Ôn tập nhiệt độ ngăn mát"
+      },
+      {
+        "c": "CN6-B06-006",
+        "d": "basic",
+        "p": "Loại bóng đèn chiếu sáng nào tiết kiệm điện năng và có tuổi thọ cao nhất trong gia đình hiện nay?",
+        "o": [
+          "Ngọn nến sáp",
+          "Đèn LED",
+          "Đèn dầu hỏa",
+          "Đèn sợi đốt dây tóc"
+        ],
+        "k": "B",
+        "e": "Đèn LED hiệu suất phát sáng cao, ít tỏa nhiệt và tuổi thọ gấp hàng chục lần đèn sợi đốt.",
+        "s": "Công Nghệ 6",
+        "h": "Ôn tập đèn tiết kiệm điện"
+      },
+      {
+        "c": "CN6-B06-007",
+        "d": "application",
+        "p": "Để giảm nhiệt nóng bức chiếu vào tường phía Tây ngôi nhà vào buổi chiều mùa hè, giải pháp kiến trúc – sinh thái nào hiệu quả và tiết kiệm điện điều hòa?",
+        "o": [
+          "Sơn mặt tường ngoài màu đen hấp thụ nhiệt",
+          "Đóng kín cửa không bao giờ mở thông gió ban đêm",
+          "Trồng cây xanh che nắng mặt Tây, dùng lam chắn nắng và vật liệu cách nhiệt",
+          "Thay toàn bộ tường phía Tây bằng kính trong suốt không rèm"
+        ],
+        "k": "C",
+        "e": "Cây xanh và lam chắn nắng cản bức xạ nhiệt trực tiếp trước khi chạm vào tường nhà.",
+        "s": "Công Nghệ 6",
+        "h": "Giải pháp chống nóng nhà ở"
+      },
+      {
+        "c": "CN6-B06-008",
+        "d": "application",
+        "p": "Một hộp sữa chua có ngày sản xuất 10/11 và hạn sử dụng 45 ngày ở nhiệt độ bảo quản 4–8°C. Nếu cửa hàng bày hộp sữa chua đó ngoài kệ nắng nóng 32°C suốt 3 ngày rồi mới bán thì khách hàng có nên mua dùng không?",
+        "o": [
+          "Không nên mua vì sai điều kiện bảo quản lạnh khiến vi sinh vật phát triển và làm hỏng sản phẩm dù chưa hết hạn in trên nắp",
+          "Vẫn mua dùng bình thường vì còn hạn sử dụng in trên nắp",
+          "Càng để nắng sữa chua càng giàu vitamin hơn",
+          "Chỉ cần bỏ tủ lạnh lại 1 tiếng là tốt như mới"
+        ],
+        "k": "A",
+        "e": "Hạn sử dụng chỉ có giá trị khi tuân thủ đúng điều kiện bảo quản ghi trên nhãn.",
+        "s": "Công Nghệ 6",
+        "h": "Đọc đúng ý nghĩa hạn sử dụng"
+      },
+      {
+        "c": "CN6-B06-009",
+        "d": "application",
+        "p": "Gia đình bác Hùng dùng máy nước nóng điện 2500 W bật suốt 2 giờ mỗi ngày do hay quên tắt. Nếu lắp công tắc hẹn giờ chỉ bật 30 phút (0,5 giờ) vừa đủ tắm, lượng điện tiết kiệm mỗi ngày là bao nhiêu kWh (1 số điện)?",
+        "o": [
+          "1,25 kWh",
+          "3,75 kWh",
+          "5 kWh",
+          "2,5 kWh"
+        ],
+        "k": "B",
+        "e": "Thời gian giảm = 2 - 0,5 = 1,5 giờ. Điện tiết kiệm = 2,5 kW × 1,5 giờ = 3,75 kWh.",
+        "s": "Công Nghệ 6",
+        "h": "Tính toán tiết kiệm điện bình nóng lạnh"
+      },
+      {
+        "c": "CN6-B06-010",
+        "d": "application",
+        "p": "Trong khi nấu một bữa cơm gồm: (1) Thức ăn chín để hở ruồi bâu, (2) Rau rửa qua loa còn đất, (3) Dùng chung dao thớt cắt thịt sống sang cắt giò chín. Có bao nhiêu hành vi vi phạm vệ sinh an toàn thực phẩm?",
+        "o": [
+          "Không có hành vi nào vi phạm",
+          "Cả 3 hành vi đều vi phạm vệ sinh an toàn thực phẩm",
+          "Chỉ có 2 hành vi vi phạm",
+          "Chỉ có 1 hành vi vi phạm"
+        ],
+        "k": "B",
+        "e": "Cả để ruồi đậu, rửa rau chưa sạch và dùng chung thớt sống-chín đều trực tiếp gây nguy cơ ngộ độc thực phẩm.",
+        "s": "Công Nghệ 6",
+        "h": "Kiểm tra vệ sinh nhà bếp"
+      },
+      {
+        "c": "CN6-B06-011",
+        "d": "application",
+        "p": "Khi chọn thực đơn cho buổi dã ngoại ngoài trời không có tủ lạnh và bếp nấu mang theo, món ăn nào vừa an toàn, dễ bảo quản trong vài tiếng vừa đủ dinh dưỡng?",
+        "o": [
+          "Cơm nắm hoặc bánh mì kẹp giò chả chín khô ráo, trứng luộc nguyên vỏ kèm trái cây tươi rửa sạch (chuối, táo, cam)",
+          "Sữa tươi nấu nóng để trong bát mở nắp suốt 5 tiếng dưới nắng",
+          "Gỏi cá sống trộn thính không ướp lạnh",
+          "Thịt lợn sống chưa nấu để nướng sau khi hết than"
+        ],
+        "k": "A",
+        "e": "Đồ ăn khô ráo chín kĩ, quả nguyên vỏ ít hư hỏng nhanh ngoài trời nắng so với đồ sống hay đồ nhiều nước sốt.",
+        "s": "Công Nghệ 6",
+        "h": "Lập thực đơn phù hợp hoàn cảnh"
+      },
+      {
+        "c": "CN6-B06-012",
+        "d": "application",
+        "p": "Để giữ độ giòn và màu sắc tươi cho món \"Thịt bò xào hoa thiên lí\" hoặc rau xào nói chung, kĩ thuật điều chỉnh ngọn lửa khi xào là gì?",
+        "o": [
+          "Xào nhanh tay trên ngọn lửa lớn với lượng dầu vừa phải rồi tắt bếp ngay khi vừa chín tới",
+          "Đậy kín vung nồi xào thật nhỏ lửa suốt 25 phút",
+          "Xào từ lúc chảo còn lạnh ngắt",
+          "Cho thêm 1 lít nước ngập chảo rau"
+        ],
+        "k": "A",
+        "e": "Lửa lớn đảo nhanh làm rau chín giòn bên ngoài mà không kịp chảy nhiều nước bị nát nhũn.",
+        "s": "Công Nghệ 6",
+        "h": "Kĩ thuật xào giữ màu và giòn"
+      },
+      {
+        "c": "CN6-B06-013",
+        "d": "advanced",
+        "p": "Một gia đình gồm ông bà 70 tuổi, bố mẹ đi làm và hai em nhỏ tiểu học. Giải pháp lập thực đơn bữa tối vừa tiện nấu cho cả nhà vừa đáp ứng nhu cầu riêng của từng lứa tuổi là gì?",
+        "o": [
+          "Nấu 6 thực đơn hoàn toàn tách biệt mỗi người 3 món riêng gây quá tải bếp",
+          "Nấu chung món chính thanh đạm mềm vừa và chỉnh riêng độ mềm hoặc thêm sữa, trái cây phù hợp từng độ tuổi của ông bà và trẻ nhỏ",
+          "Bắt ông bà 70 tuổi ăn toàn đồ chiên cứng cay nóng theo ý trẻ nhỏ",
+          "Chỉ mua đồ ăn nhanh đóng hộp ngoài đường cho cả tuần"
+        ],
+        "k": "B",
+        "e": "Thực đơn linh hoạt chung nền thanh đạm đủ chất giúp cả gia đình quây quần mà vẫn chăm sóc tốt mọi thành viên.",
+        "s": "Công Nghệ 6",
+        "h": "Thiết kế thực đơn đa thế hệ"
+      },
+      {
+        "c": "CN6-B06-014",
+        "d": "advanced",
+        "p": "Ngôi nhà ở nông thôn cũ tường gạch ẩm mốc, thiếu ánh sáng và dây điện chằng chịt không ống bọc bảo vệ. Để cải tạo nâng cấp thành ngôi nhà an toàn, tiết kiệm năng lượng mà ít tốn kém nhất, ưu tiên thứ tự cải tạo nào hợp lí?",
+        "o": [
+          "Mua rèm nhung đắt tiền che kín cửa trước khi sửa dây điện hở",
+          "Thay dây điện có ống luồn, aptomat chống giật trước (an toàn) → Mở cửa thoáng lấy sáng, chống thấm → Thay dần bóng LED tiết kiệm điện",
+          "Gắn thêm 10 đèn chùm pha lê công suất lớn",
+          "Giữ nguyên dây điện chập chờn và chỉ quét sơn đè lên tường ẩm"
+        ],
+        "k": "B",
+        "e": "An toàn điện chống cháy nổ đặt lên hàng đầu, sau đó tới thông thoáng tự nhiên và thay thiết bị hiệu suất cao.",
+        "s": "Công Nghệ 6",
+        "h": "Ưu tiên cải tạo nhà ở an toàn"
+      },
+      {
+        "c": "CN6-B06-015",
+        "d": "advanced",
+        "p": "Xem bảng chi phí thực phẩm 2 phương án cho bữa cơm 4 người: Phương án 1 tốn 120.000đ (toàn thịt chiên và nước ngọt); Phương án 2 tốn 92.000đ (cá sốt cà chua, đậu phụ nhồi thịt, rau cải luộc, canh bí). Phương án nào ưu việt hơn và tiết kiệm bao nhiêu tiền?",
+        "o": [
+          "Phương án 2 chỉ tiết kiệm được 12.000 đồng",
+          "Phương án 1 tốt hơn và tiết kiệm 28.000 đồng",
+          "Phương án 2 vừa cân đối đủ 4 nhóm chất lành mạnh hơn vừa tiết kiệm được 28.000 đồng mỗi bữa",
+          "Hai phương án tốn chi phí ngang nhau"
+        ],
+        "k": "C",
+        "e": "120.000 - 92.000 = 28.000 đồng, đồng thời Phương án 2 giàu chất xơ, vitamin và đạm đa dạng hơn hẳn.",
+        "s": "Công Nghệ 6",
+        "h": "So sánh hiệu quả dinh dưỡng và chi phí",
+        "fig": {
+          "type": "table",
+          "title": "So sánh 2 thực đơn 4 người",
+          "head": [
+            "Phương án",
+            "Thành phần món",
+            "Chi phí"
+          ],
+          "rows": [
+            [
+              "PA 1",
+              "Thịt chiên, nước ga",
+              "120.000 đ"
+            ],
+            [
+              "PA 2",
+              "Cá, thịt, rau, canh",
+              "92.000 đ"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe6-c3",
+    "lesson": {
+      "code": "congnghe6-b07",
+      "title": "Bài 7. Trang phục, các loại vải thông dụng và bảo quản trang phục",
+      "seq": 7,
+      "subtitle": "Vai trò trang phục, phân biệt vải sợi thiên nhiên, vải sợi hóa học, đọc kí hiệu giặt là và giữ trang phục bền đẹp",
+      "concepts": [
+        "Các loại vải thường dùng",
+        "Lựa chọn trang phục phù hợp",
+        "Sử dụng và bảo quản trang phục"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN6-B07-001",
+        "d": "basic",
+        "p": "Chức năng cơ bản đầu tiên của trang phục (quần áo, mũ, giày dép) đối với con người là gì?",
+        "o": [
+          "Thay thế chức năng ăn uống dinh dưỡng",
+          "Làm tăng cân nặng cơ thể",
+          "Bảo vệ cơ thể khỏi tác hại môi trường (nắng, rét, bụi bẩn) và làm đẹp cho con người trong mọi hoạt động",
+          "Chỉ dùng để che giấu hoàn toàn mọi hoạt động lao động"
+        ],
+        "k": "C",
+        "e": "Trang phục vừa bảo vệ sức khỏe vừa thể hiện nét đẹp thẩm mĩ và văn hóa giao tiếp.",
+        "s": "Công Nghệ 6",
+        "h": "Vai trò của trang phục"
+      },
+      {
+        "c": "CN6-B07-002",
+        "d": "basic",
+        "p": "Loại vải nào được dệt từ nguồn nguyên liệu sợi thiên nhiên có nguồn gốc thực vật hoặc động vật (như cây bông, kén tằm)?",
+        "o": [
+          "Vải polyester tổng hợp",
+          "Màng bọc nhựa PE",
+          "Vải nilon (Nylon)",
+          "Vải sợi bông (Cotton) và vải tơ tằm"
+        ],
+        "k": "D",
+        "e": "Vải bông (từ quả bông) và vải tơ tằm (từ kén tằm) thuộc nhóm vải sợi thiên nhiên.",
+        "s": "Công Nghệ 6",
+        "h": "Phân biệt vải sợi thiên nhiên"
+      },
+      {
+        "c": "CN6-B07-003",
+        "d": "basic",
+        "p": "Ưu điểm nổi bật khiến vải sợi bông (Cotton) rất được ưa chuộng may quần áo mùa hè và đồng phục học sinh là gì?",
+        "o": [
+          "Không thấm nước nên mặc đi mưa không ướt",
+          "Cứng như tấm kim loại mỏng",
+          "Độ hút ẩm mồ hôi rất tốt, thoáng mát và mềm mại với làn da",
+          "Không bao giờ bị nhàu nát dù vò mạnh"
+        ],
+        "k": "C",
+        "e": "Vải bông thấm hút mồ hôi nhanh tạo cảm giác thoáng mát dễ chịu dưới khí hậu nóng ẩm.",
+        "s": "Công Nghệ 6",
+        "h": "Tính chất vải sợi bông"
+      },
+      {
+        "c": "CN6-B07-004",
+        "d": "basic",
+        "p": "Vải sợi tổng hợp (như Polyester, Nylon) có đặc điểm nổi bật nào khác biệt so với vải sợi bông tự nhiên?",
+        "o": [
+          "Độ bền cao, ít bị nhàu nát và nhanh khô, nhưng thấm hút mồ hôi kém hơn nên mặc mùa hè dễ bí nóng",
+          "Thấm hút mồ hôi tốt hơn gấp đôi vải bông",
+          "Rất dễ bị mủn rách khi gặp nước",
+          "Hoàn toàn không cháy khi hơ sát ngọn lửa"
+        ],
+        "k": "A",
+        "e": "Sợi tổng hợp bền, giữ dáng phẳng nhưng kém thoáng khí; người ta thường pha trộn cotton với polyester để kết hợp ưu điểm cả hai.",
+        "s": "Công Nghệ 6",
+        "h": "Tính chất vải sợi tổng hợp"
+      },
+      {
+        "c": "CN6-B07-005",
+        "d": "basic",
+        "p": "Để tránh quần áo màu trắng bị lem màu loang lổ khi giặt bằng máy hoặc bằng tay, bước phân loại đầu tiên trước khi giặt là gì?",
+        "o": [
+          "Tách riêng quần áo trắng với quần áo màu sẫm dễ phai màu",
+          "Đổ trực tiếp thuốc tẩy Javel đậm đặc lên áo màu tối",
+          "Ngâm chung áo trắng với quần bò mới mua màu chàm trong nước nóng",
+          "Bỏ chung giày thể thao dính bùn vào lồng giặt áo sơ mi trắng"
+        ],
+        "k": "A",
+        "e": "Phân loại theo màu sắc và chất liệu giữ quần áo trắng luôn tinh tươm bền màu.",
+        "s": "Công Nghệ 6",
+        "h": "Phân loại trước khi giặt"
+      },
+      {
+        "c": "CN6-B07-006",
+        "d": "basic",
+        "p": "Trên nhãn mác gắn bên trong cổ áo có kí hiệu hình chiếc bàn là bị gạch chéo (dấu X đè lên bàn là) có nghĩa là gì?",
+        "o": [
+          "Không được là (ủi) sản phẩm này",
+          "Chỉ được là bằng bàn là hơi nước công nghiệp",
+          "Phải là ở nhiệt độ nóng nhất 200°C",
+          "Phải giặt bằng nước sôi 100°C"
+        ],
+        "k": "A",
+        "e": "Dấu gạch chéo lên kí hiệu nào trên nhãn mác đều mang nghĩa CẤM thao tác đó (cấm là, cấm vắt, cấm tẩy...).",
+        "s": "Công Nghệ 6",
+        "h": "Đọc kí hiệu nhãn mác trang phục"
+      },
+      {
+        "c": "CN6-B07-007",
+        "d": "application",
+        "p": "Xem bảng thử nghiệm đốt mẫu sợi nhỏ trong phòng thực hành, mẫu vải nào cháy nhanh có mùi như giấy cháy và bóp tro dễ tan mịn?",
+        "o": [
+          "Vải len lông cừu",
+          "Vải sợi tổng hợp Polyester",
+          "Vải sợi bông (Cotton)",
+          "Vải nilon"
+        ],
+        "k": "C",
+        "e": "Sợi thực vật (xenlulôzơ) cháy giống giấy cháy và tạo tro tàn mịn dễ bóp vỡ; sợi tổng hợp vón thành cục nhựa cứng.",
+        "s": "Công Nghệ 6",
+        "h": "Nhận biết vải bằng tính chất sợi",
+        "fig": {
+          "type": "table",
+          "title": "Tính chất các loại vải",
+          "head": [
+            "Loại vải",
+            "Thấm ẩm",
+            "Độ nhàu",
+            "Tro khi đốt"
+          ],
+          "rows": [
+            [
+              "Vải bông",
+              "Rất tốt",
+              "Dễ nhàu",
+              "Tro tan mịn"
+            ],
+            [
+              "Vải tơ tằm",
+              "Tốt",
+              "Ít nhàu",
+              "Tro mùi tóc khét"
+            ],
+            [
+              "Polyester",
+              "Kém",
+              "Không nhàu",
+              "Vón cục cứng"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN6-B07-008",
+        "d": "application",
+        "p": "Khi đi học hàng ngày tại trường THCS, cách lựa chọn trang phục nào phù hợp lứa tuổi, môi trường học đường và thuận tiện vận động nhất?",
+        "o": [
+          "Mặc váy dạ hội đính kim sa cầu kì vướng víu hoặc quần áo rách gấu",
+          "Đi dép lê trơn trượt dễ tuột khi chạy nhảy giờ ra chơi",
+          "Mặc đồng phục gọn gàng, sạch sẽ, chất liệu thấm hút mồ hôi (như vải pha bông) và đi giày hoặc dép quai hậu vừa chân",
+          "Mặc áo len dày 3 lớp giữa trưa nắng 36°C"
+        ],
+        "k": "C",
+        "e": "Trang phục đi học ưu tiên sự giản dị, lịch sự, gọn gàng, thoải mái vận động và phù hợp thời tiết.",
+        "s": "Công Nghệ 6",
+        "h": "Chọn trang phục đi học"
+      },
+      {
+        "c": "CN6-B07-009",
+        "d": "application",
+        "p": "Với người có vóc dáng hơi tròn đầy muốn tạo cảm giác thanh mảnh và cao ráo hơn khi phối trang phục, lựa chọn hoa văn và màu sắc nào hợp lí theo hiệu ứng thị giác?",
+        "o": [
+          "Chọn màu tối hoặc gam trầm vừa phải, họa tiết hoa nhỏ và đường kẻ sọc dọc",
+          "Chọn màu trắng bóng sáng loáng kèm kẻ sọc ngang to bản",
+          "Chọn trang phục bèo nhún thật phồng to ở phần eo và vai",
+          "Chọn họa tiết hoa to bản rực rỡ phủ kín"
+        ],
+        "k": "A",
+        "e": "Đường sọc dọc và màu trầm tạo hiệu ứng kéo dài chiều đứng, giúp vóc dáng gọn gàng hơn.",
+        "s": "Công Nghệ 6",
+        "h": "Phối trang phục tôn vóc dáng"
+      },
+      {
+        "c": "CN6-B07-010",
+        "d": "application",
+        "p": "Khi là (ủi) một chiếc áo làm từ vải sợi tổng hợp (như áo thể dục polyester mỏng) hoặc vải lụa tơ tằm mỏng, cần chỉnh nhiệt độ bàn là như thế nào?",
+        "o": [
+          "Cắm bàn là nóng xong quên không rút điện rời khỏi phòng",
+          "Chỉnh nhiệt độ thấp nhất phù hợp từng loại vải (hoặc là mặt trái qua lớp khăn ẩm mỏng), không để nhiệt cao kẻo cháy sun vải",
+          "Vặn mức nhiệt cao nhất dành cho vải lanh bông dày rồi đặt trực tiếp lâu một chỗ",
+          "Phun xăng lên mặt vải trước khi là"
+        ],
+        "k": "B",
+        "e": "Sợi tổng hợp nóng chảy ở nhiệt độ cao; luôn đọc nhãn hướng dẫn để chỉnh núm nhiệt độ đúng mức.",
+        "s": "Công Nghệ 6",
+        "h": "An toàn và đúng kĩ thuật khi là"
+      },
+      {
+        "c": "CN6-B07-011",
+        "d": "application",
+        "p": "Sau khi giặt sạch áo len dệt kim mềm mại, cách phơi đúng để áo không bị chảy xệ biến dạng dài thõng vai là gì?",
+        "o": [
+          "Vắt nhẹ bằng khăn (không xoắn vặn mạnh) và phơi trải phẳng trên lưới hoặc mặt phẳng thoáng gió trong bóng râm",
+          "Xoắn thật chặt bằng hai tay cho khô kiệt nước",
+          "Kẹp một góc cổ áo treo ngược lên dây phơi",
+          "Treo móc nhỏ cứng vào hai vai áo đang sũng nặng nước dưới nắng gắt"
+        ],
+        "k": "A",
+        "e": "Trọng lượng nước nặng sẽ kéo giãn các mắt đan len nếu treo móc dọc như áo sơ mi.",
+        "s": "Công Nghệ 6",
+        "h": "Cách phơi áo len đúng kĩ thuật"
+      },
+      {
+        "c": "CN6-B07-012",
+        "d": "application",
+        "p": "Để bảo quản bộ quần áo mùa đông bằng len dạ cất qua mùa hè không bị ẩm mốc và côn trùng cắn hỏng, cần làm gì trước khi cất vào tủ?",
+        "o": [
+          "Ngâm trong nước xả vải cả mùa hè",
+          "Mặc xong chưa giặt cất ngay khi còn ẩm mồ hôi vào góc tủ kín",
+          "Vò nhàu nhét xuống dưới gầm giường ẩm",
+          "Giặt sạch và phơi khô hoàn toàn, gấp gọn bọc trong túi bảo quản thoáng sạch kèm gói hút ẩm hoặc chống mốc an toàn"
+        ],
+        "k": "D",
+        "e": "Mồ hôi và bụi bẩn còn sót lại kết hợp độ ẩm là môi trường lí tưởng cho nấm mốc phát triển.",
+        "s": "Công Nghệ 6",
+        "h": "Cất giữ trang phục trái mùa"
+      },
+      {
+        "c": "CN6-B07-013",
+        "d": "advanced",
+        "p": "Một chiếc áo sơ mi đồng phục ghi thành phần trên nhãn là \"65% Cotton, 35% Polyester\" (vải pha). Tại sao nhà sản xuất may đồng phục thường chọn loại vải pha này thay vì 100% Cotton hoặc 100% Polyester?",
+        "o": [
+          "Vì hai loại sợi này tự phát sáng trong bóng tối",
+          "Để áo vừa không thấm mồ hôi vừa rất dễ nhàu nát",
+          "Kết hợp được độ thấm hút thoáng mát của Cotton với độ bền, giữ form phẳng ít nhàu và nhanh khô của Polyester",
+          "Để áo không thể giặt được bằng nước sạch"
+        ],
+        "k": "C",
+        "e": "Vải sợi pha dung hòa ưu điểm và khắc phục nhược điểm riêng của sợi tự nhiên và sợi tổng hợp.",
+        "s": "Công Nghệ 6",
+        "h": "Ưu điểm vải sợi pha"
+      },
+      {
+        "c": "CN6-B07-014",
+        "d": "advanced",
+        "p": "Khi phát hiện một vệt mực bút bi mới dính vào áo trắng đồng phục, xử lí ban đầu đúng cách tại nhà là gì trước khi giặt xà phòng?",
+        "o": [
+          "Lót giấy thấm bên dưới vết mực, dùng cồn y tế hoặc nước cốt chanh chấm nhẹ từ ngoài vào tâm vết mực để hòa tan mực (tránh chà lan rộng) rồi giặt sạch",
+          "Nhúng cả chiếc áo vào chậu mực tím cho đều màu",
+          "Dùng dao cạo mạnh làm rách sợi vải",
+          "Đem áo bỏ vào máy sấy nóng ngay lập tức để mực khô cứng bám chặt vào sợi vải"
+        ],
+        "k": "A",
+        "e": "Không sấy nóng trước khi tẩy vết bẩn vì nhiệt làm mực bám chết vào sợi vải; chấm dung môi hòa tan nhẹ từ rìa vào giữa tránh loang.",
+        "s": "Công Nghệ 6",
+        "h": "Xử lí vết bẩn đúng khoa học"
+      },
+      {
+        "c": "CN6-B07-015",
+        "d": "advanced",
+        "p": "Phong cách \"Thời trang bền vững\" (Sustainable Fashion) đang được khuyến khích trong giới trẻ nhằm bảo vệ môi trường khuyến nghị thói quen nào?",
+        "o": [
+          "Chọn trang phục bền đẹp đa năng dễ phối, mặc lâu dài, sửa chữa hoặc quyên góp tái sử dụng thay vì mua sắm ồ ạt mặc vài lần rồi bỏ",
+          "Mỗi tuần mua 10 bộ quần áo rẻ tiền kém chất lượng mặc 1 lần rồi bỏ vào thùng rác",
+          "Giặt từng chiếc tất riêng lẻ bằng chu trình giặt nước nóng 2 tiếng của máy giặt",
+          "Đốt bỏ quần áo cũ ngoài sân cho đỡ chật tủ"
+        ],
+        "k": "A",
+        "e": "Ngành dệt may tiêu tốn rất nhiều nước và phát thải cao; tiêu dùng có trách nhiệm giúp giảm rác thải dệt may.",
+        "s": "Công Nghệ 6",
+        "h": "Ý nghĩa thời trang bền vững"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe6-c3",
+    "lesson": {
+      "code": "congnghe6-b08",
+      "title": "Bài 8. Thời trang và lựa chọn trang phục hài hòa thẩm mĩ",
+      "seq": 8,
+      "subtitle": "Khái niệm thời trang, phong cách trang phục, cách chọn màu sắc, kiểu dáng phù hợp hoàn cảnh và lứa tuổi học sinh",
+      "concepts": [
+        "Khái niệm và xu hướng thời trang",
+        "Phối màu sắc trang phục",
+        "Chọn trang phục theo hoàn cảnh"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN6-B08-001",
+        "d": "basic",
+        "p": "Sự thay đổi về kiểu dáng, màu sắc và chất liệu trang phục được số đông ưa chuộng trong một khoảng thời gian nhất định gọi là gì?",
+        "o": [
+          "Bảo quản lạnh",
+          "Thời trang",
+          "Thiết kế móng nhà",
+          "Phương pháp luộc"
+        ],
+        "k": "B",
+        "e": "Thời trang phản ánh gu thẩm mĩ, văn hóa và xu hướng xã hội qua từng thời kì.",
+        "s": "Công Nghệ 6",
+        "h": "Khái niệm thời trang"
+      },
+      {
+        "c": "CN6-B08-002",
+        "d": "basic",
+        "p": "Trang phục mang đậm bản sắc truyền thống trang trọng của dân tộc Việt Nam thường mặc trong dịp lễ tết, sự kiện văn hóa là gì?",
+        "o": [
+          "Áo dài truyền thống",
+          "Áo bơi thể thao",
+          "Đồ bảo hộ phòng thí nghiệm hóa chất",
+          "Áo khoác phi hành gia"
+        ],
+        "k": "A",
+        "e": "Áo dài Việt Nam tôn vẻ đẹp duyên dáng, thanh lịch và bản sắc văn hóa dân tộc.",
+        "s": "Công Nghệ 6",
+        "h": "Trang phục truyền thống Việt Nam"
+      },
+      {
+        "c": "CN6-B08-003",
+        "d": "basic",
+        "p": "Trong vòng tròn màu sắc cơ bản, ba gam màu nóng tiêu biểu mang lại cảm giác ấm áp, nổi bật và sôi nổi là gì?",
+        "o": [
+          "Xanh lá mạ và chàm",
+          "Trắng, xám và đen",
+          "Xanh dương, xanh ngọc và tím sẫm",
+          "Đỏ, cam và vàng"
+        ],
+        "k": "D",
+        "e": "Gam màu nóng gợi năng lượng, làm chủ thể nổi bật và tạo cảm giác gần gũi ấm áp.",
+        "s": "Công Nghệ 6",
+        "h": "Phân biệt gam màu nóng"
+      },
+      {
+        "c": "CN6-B08-004",
+        "d": "basic",
+        "p": "Các màu trắng, đen và ghi xám được gọi chung là nhóm màu gì rất dễ phối hợp với mọi màu sắc khác?",
+        "o": [
+          "Màu sặc sỡ",
+          "Màu phát quang",
+          "Màu tương phản nóng",
+          "Màu trung tính"
+        ],
+        "k": "D",
+        "e": "Màu trung tính đóng vai trò nền hài hòa kết hợp dễ dàng với cả màu nóng lẫn màu lạnh.",
+        "s": "Công Nghệ 6",
+        "h": "Nhóm màu trung tính"
+      },
+      {
+        "c": "CN6-B08-005",
+        "d": "basic",
+        "p": "Khi tham gia hoạt động thể dục thể thao hoặc chạy nhảy ngoài sân trường, tiêu chí hàng đầu khi chọn trang phục và giày là gì?",
+        "o": [
+          "Co giãn tốt, thấm hút mồ hôi nhanh, rộng rãi vừa vặn và đi giày thể thao đế bám tốt",
+          "Áo sơ mi cổ cứng thắt cà vạt",
+          "Quần bò bó cứng không gập được đầu gối và dép cao gót",
+          "Áo dài thướt tha chạm đất"
+        ],
+        "k": "A",
+        "e": "Đồ thể thao cần linh hoạt vận động, thoáng khí và bảo vệ bàn chân khớp cổ chân.",
+        "s": "Công Nghệ 6",
+        "h": "Trang phục hoạt động thể thao"
+      },
+      {
+        "c": "CN6-B08-006",
+        "d": "basic",
+        "p": "Yếu tố nào KHÔNG phải là tiêu chí đúng đắn khi học sinh lựa chọn phong cách thời trang cho bản thân?",
+        "o": [
+          "Sạch sẽ, gọn gàng, lịch sự và thoải mái",
+          "Phù hợp vóc dáng và điều kiện thời tiết",
+          "Bắt buộc phải mua bằng được đồ hàng hiệu đắt tiền vượt quá khả năng gia đình",
+          "Phù hợp với lứa tuổi và hoàn cảnh giao tiếp"
+        ],
+        "k": "C",
+        "e": "Mặc đẹp là sự gọn gàng, phù hợp hoàn cảnh chứ không phải chạy đua theo giá tiền xa xỉ.",
+        "s": "Công Nghệ 6",
+        "h": "Tiêu chí mặc đẹp phù hợp"
+      },
+      {
+        "c": "CN6-B08-007",
+        "d": "application",
+        "p": "Khi dự lễ viếng nghĩa trang liệt sĩ hoặc tham gia các buổi lễ trang nghiêm cùng nhà trường, nên phối màu và chọn kiểu trang phục như thế nào?",
+        "o": [
+          "Đồ ngủ mặc ở nhà",
+          "Đồng phục chỉnh tề hoặc trang phục kín đáo, lịch sự với gam màu trang nhã (trắng, xanh đậm, đen, xám)",
+          "Trang phục đi biển sặc sỡ",
+          "Quần short ngắn rách gối kèm áo phông màu sắc chói lòa in chữ phản cảm"
+        ],
+        "k": "B",
+        "e": "Sự trang nghiêm của hoàn cảnh đòi hỏi trang phục kín đáo, màu sắc nhã nhặn thể hiện lòng tôn kính.",
+        "s": "Công Nghệ 6",
+        "h": "Chọn trang phục theo hoàn cảnh giao tiếp"
+      },
+      {
+        "c": "CN6-B08-008",
+        "d": "application",
+        "p": "Bạn Nam có dáng người cao và hơi gầy. Để vóc dáng trông cân đối, đầy đặn khỏe khoắn hơn, Nam nên ưu tiên kiểu áo và màu sắc nào?",
+        "o": [
+          "Bộ đồ đen tuyền bó sát người kèm sọc dọc mảnh",
+          "Áo rộng thùng thình dài tới đầu gối màu xám tối",
+          "Quần áo chất liệu mỏng rũ rượi màu đen",
+          "Màu sáng hoặc gam ấm (trắng, kem, xanh nhạt), chất liệu hơi dày dặn đứng form hoặc có kẻ ngang nhẹ"
+        ],
+        "k": "D",
+        "e": "Màu sáng và kẻ ngang tạo hiệu ứng mở rộng bề ngang giúp người gầy trông khỏe khoắn hài hòa hơn.",
+        "s": "Công Nghệ 6",
+        "h": "Phối đồ cho dáng người gầy"
+      },
+      {
+        "c": "CN6-B08-009",
+        "d": "application",
+        "p": "Quan sát bảng phối màu sắc trang phục, cách phối nào sử dụng nguyên tắc \"màu bổ túc\" (hai màu đối diện trên vòng tròn màu tạo điểm nhấn mạnh mẽ)?",
+        "o": [
+          "Phối áo vàng nhạt với phụ kiện hoặc váy xanh tím, hoặc cam dịu với xanh dương",
+          "Chỉ mặc màu ghi từ đầu đến chân",
+          "Mặc ba sắc độ xanh dương nhạt, vừa và đậm cùng tông",
+          "Mặc áo trắng cùng quần trắng hoàn toàn"
+        ],
+        "k": "A",
+        "e": "Phối tương phản bổ túc tạo điểm nhấn nổi bật (nhưng nên tiết chế một màu chính và một màu nhấn phụ để không bị chói).",
+        "s": "Công Nghệ 6",
+        "h": "Nhận diện cách phối màu",
+        "fig": {
+          "type": "table",
+          "title": "Nguyên tắc phối màu cơ bản",
+          "head": [
+            "Cách phối",
+            "Ví dụ minh họa"
+          ],
+          "rows": [
+            [
+              "Đơn sắc",
+              "Xanh nhạt + Xanh đậm"
+            ],
+            [
+              "Tương đồng",
+              "Vàng + Cam dịu"
+            ],
+            [
+              "Trung tính",
+              "Trắng + Đen / Xám"
+            ],
+            [
+              "Bổ túc nhấn",
+              "Xanh dương + cam"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN6-B08-010",
+        "d": "application",
+        "p": "Khi trời mùa đông rét đậm kèm mưa phùn gió bấc, cách mặc nhiều lớp áo (Layering) mang lại lợi ích giữ ấm nào tốt hơn mặc duy nhất một chiếc áo len thật dày?",
+        "o": [
+          "Khiến mồ hôi không bao giờ thoát được ra ngoài",
+          "Làm không thể cử động hai cánh tay",
+          "Các lớp không khí nằm xen giữa nhiều lớp áo giữ nhiệt cực tốt và dễ cởi bớt lớp ngoài khi vào phòng học ấm áp",
+          "Làm người mặc bị lạnh hơn do gió lùa vào lớp áo"
+        ],
+        "k": "C",
+        "e": "Mặc 3 lớp mỏng-vừa (áo giữ nhiệt thấm ẩm + áo len giữ ấm + áo khoác gió chống thấm ngoài cùng) giữ nhiệt linh hoạt nhất.",
+        "s": "Công Nghệ 6",
+        "h": "Nguyên lí mặc nhiều lớp giữ ấm"
+      },
+      {
+        "c": "CN6-B08-011",
+        "d": "application",
+        "p": "Phụ kiện đi kèm như thắt lưng, mũ nón, ba lô hay giày dép nên phối hợp với bộ quần áo chính theo nguyên tắc nào?",
+        "o": [
+          "Đeo ba lô rách quai lệch một bên vai nặng trĩu",
+          "Đeo càng nhiều phụ kiện lấp lánh sặc sỡ đủ 7 màu cùng lúc càng đẹp",
+          "Hài hòa về màu sắc (thường không quá 3 màu chủ đạo trên tổng thể), kích cỡ vừa vặn với mục đích sử dụng",
+          "Mang giày thể thao lấm bùn đi cùng bộ lễ phục trang trọng"
+        ],
+        "k": "C",
+        "e": "Quy tắc tối đa 3 màu chủ đạo và phụ kiện ăn nhập bối cảnh giúp tổng thể tinh tế, không rườm rà.",
+        "s": "Công Nghệ 6",
+        "h": "Phối phụ kiện gọn gàng tinh tế"
+      },
+      {
+        "c": "CN6-B08-012",
+        "d": "application",
+        "p": "Vì sao mặc quần áo quá chật bó sát liên tục trong nhiều giờ không tốt cho học sinh đang tuổi phát triển?",
+        "o": [
+          "Giúp giặt sạch nhanh gấp đôi",
+          "Làm tăng chiều cao nhanh bất thường",
+          "Cản trở tuần hoàn máu, gây hằn vết trên da, hạn chế hô hấp sâu và vướng víu khi vận động học tập",
+          "Làm cơ thể tự sinh ra thêm vitamin D"
+        ],
+        "k": "C",
+        "e": "Quần áo vừa vặn thoải mái hỗ trợ lưu thông máu và vận động tự nhiên trong giai đoạn dậy thì.",
+        "s": "Công Nghệ 6",
+        "h": "Ảnh hưởng trang phục tới sức khỏe"
+      },
+      {
+        "c": "CN6-B08-013",
+        "d": "advanced",
+        "p": "Một học sinh chỉ có sẵn 3 chiếc áo (trắng, xanh navy, kẻ sọc nhẹ) và 2 chiếc quần/chân váy tối màu (đen, xám) có màu trung tính dễ ghép. Hỏi bạn ấy có thể phối thành tối đa bao nhiêu bộ trang phục khác nhau mà bộ nào cũng hài hòa đi học hoặc đi chơi?",
+        "o": [
+          "9 bộ trang phục",
+          "3 bộ trang phục",
+          "5 bộ trang phục",
+          "6 bộ trang phục khác nhau"
+        ],
+        "k": "D",
+        "e": "Theo quy tắc nhân: 3 áo × 2 quần/váy = 6 cách phối hợp đều hợp nhãn nhờ tông trung tính.",
+        "s": "Công Nghệ 6",
+        "h": "Tối ưu tủ đồ thông minh ít món nhiều kiểu"
+      },
+      {
+        "c": "CN6-B08-014",
+        "d": "advanced",
+        "p": "Trong chuyến đi tham quan dã ngoại ở vùng núi có nhiều cây bụi và côn trùng vào buổi sáng se lạnh nhưng trưa hửng nắng, lựa chọn bộ trang phục nào thông minh nhất về cả công năng lẫn thời trang?",
+        "o": [
+          "Áo thun cotton thoáng mát bên trong, khoác ngoài áo gió nhẹ có khóa kéo, quần dài vải kaki mềm gọn gàng, mũ rộng vành và giày thể thao bám tốt",
+          "Áo hai dây mỏng manh, quần đùi ngắn và dép xỏ ngón bằng nhựa trơn",
+          "Bộ vest công sở kèm cà vạt",
+          "Áo dạ dài chấm gót chân và giày da đế trơn"
+        ],
+        "k": "A",
+        "e": "Áo lớp trong thoáng, áo khoác dễ cởi khi nắng lên, quần dài + giày bám tốt bảo vệ da khỏi côn trùng, gai cào và chống trượt.",
+        "s": "Công Nghệ 6",
+        "h": "Phân tích chọn đồ dã ngoại đa địa hình"
+      },
+      {
+        "c": "CN6-B08-015",
+        "d": "advanced",
+        "p": "Tại sao việc giữ vệ sinh cá nhân và giữ quần áo luôn thơm tho sạch sẽ phẳng phiu quan trọng hơn việc mặc bộ quần áo đắt tiền nhưng nhăn nhúm, lấm bẩn?",
+        "o": [
+          "Vì mùi hương không liên quan tới giao tiếp",
+          "Vì quần áo đắt tiền không thể giặt bằng nước",
+          "Vì quần áo sạch tự động đổi sang màu vàng sáng",
+          "Vẻ sạch sẽ phẳng phiu thể hiện sự tự trọng bản thân, sự tôn trọng người đối diện và giữ sức khỏe làn da, còn đồ đắt mà cẩu thả sẽ gây phản cảm"
+        ],
+        "k": "D",
+        "e": "Phong thái chỉn chu, sạch sẽ tạo thiện cảm mạnh mẽ trong giao tiếp học đường và xã hội.",
+        "s": "Công Nghệ 6",
+        "h": "Giá trị thẩm mĩ và thái độ tôn trọng"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe6-c4",
+    "lesson": {
+      "code": "congnghe6-b09",
+      "title": "Bài 9. Đồ dùng điện trong gia đình: Bóng đèn và Quạt điện",
+      "seq": 9,
+      "subtitle": "Thông số định mức (Vôn, Oát) trên đồ dùng điện, cấu tạo nguyên lí làm việc và sử dụng đèn điện, quạt điện an toàn tiết kiệm",
+      "concepts": [
+        "Đại lượng điện định mức V và W",
+        "Các loại đèn điện gia đình",
+        "Cấu tạo và dùng quạt điện an toàn"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN6-B09-001",
+        "d": "basic",
+        "p": "Hai thông số kĩ thuật cơ bản nhất thường ghi trực tiếp trên vỏ mọi đồ dùng điện gia đình (như `220V - 45W`) là gì?",
+        "o": [
+          "Nhiệt độ phòng và độ ẩm không khí",
+          "Điện áp định mức (Vôn) và Công suất định mức (Oát)",
+          "Khối lượng sắt (kg) và giá tiền bán ra",
+          "Chiều dài dây dẫn (mét) và màu sơn vỏ"
+        ],
+        "k": "B",
+        "e": "Điện áp định mức (V) cho biết nguồn điện phù hợp để máy chạy bình thường; công suất (W) cho biết mức tiêu thụ điện.",
+        "s": "Công Nghệ 6",
+        "h": "Ý nghĩa thông số định mức"
+      },
+      {
+        "c": "CN6-B09-002",
+        "d": "basic",
+        "p": "Mạng điện sinh hoạt hạ áp phổ biến dùng trong các hộ gia đình ở Việt Nam có điện áp chuẩn là bao nhiêu Vôn?",
+        "o": [
+          "110 V",
+          "220 V",
+          "12 V",
+          "5000 V"
+        ],
+        "k": "B",
+        "e": "Điện lưới sinh hoạt Việt Nam là 220V – 50Hz; cắm nhầm thiết bị 110V vào ổ 220V sẽ gây cháy hỏng ngay.",
+        "s": "Công Nghệ 6",
+        "h": "Điện áp lưới sinh hoạt Việt Nam"
+      },
+      {
+        "c": "CN6-B09-003",
+        "d": "basic",
+        "p": "Khi cắm một thiết bị có ghi điện áp định mức `110V` trực tiếp vào ổ cắm điện nhà `220V` mà không qua biến áp đổi nguồn, điều gì xảy ra?",
+        "o": [
+          "Thiết bị quá áp, cháy hỏng ngay lập tức và có thể gây chập điện nguy hiểm",
+          "Thiết bị tự hạ điện lưới nhà xuống 110V",
+          "Thiết bị chạy êm và bền gấp đôi bình thường",
+          "Bóng đèn phát sáng màu xanh lục dịu mắt"
+        ],
+        "k": "A",
+        "e": "Vượt gấp đôi điện áp định mức làm dòng điện tăng vọt phá hủy mạch điện bên trong.",
+        "s": "Công Nghệ 6",
+        "h": "Nguy cơ cắm sai điện áp"
+      },
+      {
+        "c": "CN6-B09-004",
+        "d": "basic",
+        "p": "Bộ phận chính nào của quạt điện có nhiệm vụ chuyển đổi điện năng thành cơ năng làm cánh quạt quay tạo gió?",
+        "o": [
+          "Lưới lồng bảo vệ",
+          "Động cơ điện",
+          "Nút hẹn giờ cơ học",
+          "Chân đế quạt"
+        ],
+        "k": "B",
+        "e": "Động cơ điện quay làm trục quay kéo theo cánh quạt đẩy không khí tạo luồng gió mát.",
+        "s": "Công Nghệ 6",
+        "h": "Nguyên lí quạt điện"
+      },
+      {
+        "c": "CN6-B09-005",
+        "d": "basic",
+        "p": "Vì sao các loại quạt điện gia đình luôn phải lắp đầy đủ lồng quạt bằng nan kim loại hoặc nhựa bao quanh cánh quạt?",
+        "o": [
+          "Để cản bớt toàn bộ gió thổi ra ngoài",
+          "Để làm quạt nặng thêm không di chuyển được",
+          "Để tăng công suất tiêu thụ điện",
+          "Đảm bảo an toàn, ngăn ngón tay trẻ em hoặc vật lạ chạm vào cánh quạt đang quay nhanh"
+        ],
+        "k": "D",
+        "e": "Lồng quạt bảo vệ an toàn cơ học cho người sử dụng khi cánh quạt quay tốc độ cao.",
+        "s": "Công Nghệ 6",
+        "h": "Vai trò an toàn của lồng quạt"
+      },
+      {
+        "c": "CN6-B09-006",
+        "d": "basic",
+        "p": "Loại bóng đèn nào hoạt động dựa trên nguyên lí cho dòng điện chạy qua chip bán dẫn phát quang, rất tiết kiệm điện và không chứa thủy ngân độc hại?",
+        "o": [
+          "Đèn sợi đốt",
+          "Đèn ống huỳnh quang truyền thống",
+          "Đèn cao áp dây tóc",
+          "Đèn LED"
+        ],
+        "k": "D",
+        "e": "Đèn LED thân thiện môi trường, bền va đập, bật sáng tức thì và tiết kiệm điện nhất hiện nay.",
+        "s": "Công Nghệ 6",
+        "h": "Nguyên lí và ưu điểm đèn LED"
+      },
+      {
+        "c": "CN6-B09-007",
+        "d": "application",
+        "p": "Xem bảng số liệu, một bóng đèn bàn học LED ghi `220V - 10W` được bật đúng nguồn 220V liên tục trong 100 giờ để học bài. Tổng điện năng tiêu thụ là bao nhiêu kWh (số điện)?",
+        "o": [
+          "1 kWh (1 số điện)",
+          "10 kWh",
+          "100 kWh",
+          "0,1 kWh"
+        ],
+        "k": "A",
+        "e": "10 W = 0,01 kW. Điện năng A = P × t = 0,01 kW × 100 giờ = 1 kWh.",
+        "s": "Công Nghệ 6",
+        "h": "Tính điện năng tiêu thụ kWh",
+        "fig": {
+          "type": "table",
+          "title": "Thông số bóng đèn bàn học",
+          "head": [
+            "Thông số",
+            "Đèn sợi đốt",
+            "Đèn LED"
+          ],
+          "rows": [
+            [
+              "Điện áp định mức",
+              "220 V",
+              "220 V"
+            ],
+            [
+              "Công suất",
+              "60 W",
+              "10 W"
+            ],
+            [
+              "Tỏa nhiệt vỏ",
+              "Rất nóng",
+              "Ấm nhẹ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN6-B09-008",
+        "d": "application",
+        "p": "Một chiếc quạt cây ghi thông số `220V - 55W`. Khi quạt chạy ở số to nhất trong 10 giờ, quạt tiêu thụ lượng điện năng bao nhiêu Wh?",
+        "o": [
+          "550 Wh (tức 0,55 kWh)",
+          "2200 Wh",
+          "5,5 kWh",
+          "55 Wh"
+        ],
+        "k": "A",
+        "e": "A = 55 W × 10 giờ = 550 Wh = 0,55 kWh.",
+        "s": "Công Nghệ 6",
+        "h": "Tính điện năng quạt điện"
+      },
+      {
+        "c": "CN6-B09-009",
+        "d": "application",
+        "p": "Khi chọn đèn bàn học cho học sinh lớp 6 để bảo vệ thị lực chống cận thị, tiêu chí nào quan trọng nhất cần kiểm tra?",
+        "o": [
+          "Chiếu thẳng mặt bóng đèn trần không chụp đèn vào mắt",
+          "Chỉ dùng đèn nhấp nháy bảy màu vũ trường để học",
+          "Chọn bóng đèn công suất càng chói loá càng tốt",
+          "Ánh sáng ổn định không nhấp nháy, độ rọi vừa đủ dịu mắt (ánh sáng vàng ấm hoặc trắng trung tính) và chao đèn che không chiếu thẳng vào mắt"
+        ],
+        "k": "D",
+        "e": "Ánh sáng ổn định không nhấp nháy và chống chói trực tiếp giúp mắt điều tiết tự nhiên, giảm mỏi mắt.",
+        "s": "Công Nghệ 6",
+        "h": "Chọn đèn bàn học chống cận"
+      },
+      {
+        "c": "CN6-B09-010",
+        "d": "application",
+        "p": "Thói quen sử dụng quạt điện nào giúp vừa thoáng mát hợp lí vừa tiết kiệm điện và tăng tuổi thọ động cơ?",
+        "o": [
+          "Chọn tốc độ gió vừa phải, vệ sinh bụi bám ở cánh và lồng quạt định kì, tắt quạt khi ra khỏi phòng",
+          "Luôn bật quạt số mạnh nhất thổi thẳng vào mặt suốt đêm khi ngủ",
+          "Rút dây điện bằng cách giật mạnh vào sợi dây mềm ở xa phích cắm",
+          "Để bụi bám dày đặc làm kẹt trục quạt vẫn cắm điện chạy"
+        ],
+        "k": "A",
+        "e": "Bụi bẩn bám dày làm nặng cánh quạt và kẹt ổ trục gây nóng động cơ hao điện; luôn cầm vào thân phích khi rút điện.",
+        "s": "Công Nghệ 6",
+        "h": "Sử dụng bảo dưỡng quạt đúng cách"
+      },
+      {
+        "c": "CN6-B09-011",
+        "d": "application",
+        "p": "Trong gia đình có bóng đèn compact hoặc đèn tuýp huỳnh quang bị cháy hỏng, cần thu gom xử lí thế nào thay vì đập vỡ ném chung vào rác sinh hoạt?",
+        "o": [
+          "Giữ nguyên vẹn bọc lại cẩn thận và giao cho điểm thu gom rác thải nguy hại vì bên trong ống có chứa hơi thủy ngân độc hại",
+          "Đập vỡ nhỏ ra làm đồ chơi thủy tinh cho em bé",
+          "Đốt trong bếp củi",
+          "Ném thẳng xuống ao hồ cạnh nhà"
+        ],
+        "k": "A",
+        "e": "Đèn huỳnh quang/compact chứa lượng nhỏ thủy ngân nên tránh làm vỡ phát tán ra không khí và đất.",
+        "s": "Công Nghệ 6",
+        "h": "An toàn môi trường với bóng huỳnh quang"
+      },
+      {
+        "c": "CN6-B09-012",
+        "d": "application",
+        "p": "Khi tháo lồng và cánh quạt điện để lau rửa bụi bẩn, bước bắt buộc đầu tiên đảm bảo an toàn điện là gì?",
+        "o": [
+          "Đeo thêm găng tay vải ướt",
+          "Bật quạt số nhỏ để lau cho nhanh sạch",
+          "Nhấn nút tắt và rút hẳn phích cắm quạt ra khỏi ổ điện lưới",
+          "Chỉ bấm nút số 0 trên quạt rồi vừa cắm điện vừa lau bằng khăn ướt"
+        ],
+        "k": "C",
+        "e": "Luôn rút hẳn phích điện trước khi vệ sinh hay tháo lắp bất kì thiết bị điện nào.",
+        "s": "Công Nghệ 6",
+        "h": "An toàn khi vệ sinh đồ điện"
+      },
+      {
+        "c": "CN6-B09-013",
+        "d": "advanced",
+        "p": "Bạn Hùng bật quạt bàn và nghe tiếng kêu lạch cạch kèm thấy cánh quạt quay rất chậm dù động cơ phía sau nóng rực bốc mùi khét nhẹ. Nếu cứ để nguyên cắm điện chạy tiếp, nguy cơ gì xảy ra và cần làm gì ngay?",
+        "o": [
+          "Quạt sẽ tự quay nhanh lại sau 2 tiếng nếu cứ để nguyên",
+          "Trục bạc quạt có thể bị khô dầu hoặc kẹt cứng khiến động cơ quá dòng nóng cháy cuộn dây; phải rút ngay phích điện kiểm tra bôi trơn hoặc sửa chữa",
+          "Chỉ cần tưới nước lạnh trực tiếp lên bầu động cơ đang cắm điện",
+          "Dùng tay giữ chặt cánh quạt xem động cơ có khỏe không"
+        ],
+        "k": "B",
+        "e": "Động cơ bị kẹt không quay được gọi là trạng thái hãm rôto, dòng điện tăng cao nhanh chóng đốt cháy lớp cách điện cuộn dây gây cháy.",
+        "s": "Công Nghệ 6",
+        "h": "Xử lí sự cố kẹt trục quạt điện"
+      },
+      {
+        "c": "CN6-B09-014",
+        "d": "advanced",
+        "p": "Gia đình thay thế 5 bóng đèn sợi đốt 60W bằng 5 bóng đèn LED 10W (cùng bật trung bình 4 giờ mỗi ngày, giá điện tạm tính 2.000 đ/kWh). Hỏi mỗi tháng (30 ngày) gia đình tiết kiệm được bao nhiêu tiền điện riêng tiền thắp sáng?",
+        "o": [
+          "15.000 đồng",
+          "30.000 đồng",
+          "120.000 đồng",
+          "60.000 đồng"
+        ],
+        "k": "D",
+        "e": "Công suất giảm mỗi bóng = 50W → 5 bóng giảm 250W = 0,25 kW. Mỗi ngày tiết kiệm 0,25 × 4 = 1 kWh. 30 ngày tiết kiệm 30 kWh × 2.000đ = 60.000 đồng.",
+        "s": "Công Nghệ 6",
+        "h": "Bài toán tính tiền điện tiết kiệm hàng tháng"
+      },
+      {
+        "c": "CN6-B09-015",
+        "d": "advanced",
+        "p": "Tại sao bàn học thường bố trí cho người thuận tay phải ngồi sao cho ánh sáng đèn bàn (hoặc ánh sáng cửa sổ) chiếu từ phía bên TRÁI sang?",
+        "o": [
+          "Vì bóng đèn chỉ phát sáng được khi đặt bên trái",
+          "Để ánh sáng chiếu ngược từ gáy làm chói mắt",
+          "Để tiết kiệm chiều dài dây điện",
+          "Để bàn tay phải đang cầm bút viết không đổ bóng đen che khuất ngay dòng chữ đang viết trên trang vở"
+        ],
+        "k": "D",
+        "e": "Đèn đặt bên trái (với người thuận tay phải) giữ vùng viết sáng rõ hoàn toàn không bị bóng tay che khuất.",
+        "s": "Công Nghệ 6",
+        "h": "Khoa học bố trí ánh sáng bàn học"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe6-c4",
+    "lesson": {
+      "code": "congnghe6-b10",
+      "title": "Bài 10. Nồi cơm điện, Bếp hồng ngoại – Bếp từ và Tủ lạnh",
+      "seq": 10,
+      "subtitle": "Cấu tạo, nguyên lí hoạt động và cách sử dụng an toàn tiết kiệm nồi cơm điện, bếp điện và tủ lạnh gia đình",
+      "concepts": [
+        "Nồi cơm điện tự động giữ ấm",
+        "Phân biệt bếp hồng ngoại và bếp từ",
+        "An toàn khi dùng thiết bị nhiệt lạnh"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN6-B10-001",
+        "d": "basic",
+        "p": "Trong nồi cơm điện thông thường, bộ phận nào trực tiếp chuyển hóa điện năng thành nhiệt năng để làm chín cơm?",
+        "o": [
+          "Vỏ sơn cách nhiệt bên ngoài",
+          "Dây rút cắm phích điện",
+          "Nắp thoát hơi nước bằng nhựa",
+          "Mâm nhiệt (bộ phận sinh nhiệt đặt dưới đáy lòng nồi)"
+        ],
+        "k": "D",
+        "e": "Dòng điện đi qua dây điện trở đốt nóng bên trong mâm nhiệt truyền nhiệt lên đáy xoong nấu cơm.",
+        "s": "Công Nghệ 6",
+        "h": "Cấu tạo nồi cơm điện"
+      },
+      {
+        "c": "CN6-B10-002",
+        "d": "basic",
+        "p": "Cơ chế tự động chuyển từ chế độ Nấu (Cook) sang chế độ Giữ ấm (Warm) trên nồi cơm điện cơ hoạt động khi nào?",
+        "o": [
+          "Sau đúng 5 phút bất kể có gạo hay không",
+          "Khi người dùng nhấn giữ nút Nấu liên tục",
+          "Khi rút phích điện ra khỏi ổ cắm",
+          "Khi nước trong nồi cạn hết và nhiệt độ đáy nồi vượt ngưỡng khoảng 102–105°C làm rơ-le nhiệt ngắt mâm nấu chính"
+        ],
+        "k": "D",
+        "e": "Bộ phận rơ-le nhiệt (cảm biến từ/nhiệt dưới đáy xoong) tự nhảy khi nước sôi bay hơi hết.",
+        "s": "Công Nghệ 6",
+        "h": "Nguyên lí chuyển chế độ nồi cơm điện"
+      },
+      {
+        "c": "CN6-B10-003",
+        "d": "basic",
+        "p": "Loại bếp điện nào hoạt động dựa trên nguyên lí cảm ứng điện từ, làm nóng TRỰC TIẾP đáy nồi nhiễm từ mà mặt kính bếp hầu như không tự nóng lên?",
+        "o": [
+          "Bếp than tổ ong",
+          "Bếp từ",
+          "Bếp củi truyền thống",
+          "Bếp hồng ngoại (mâm nhiệt dây đốt)"
+        ],
+        "k": "B",
+        "e": "Bếp từ dùng cuộn dây đồng sinh từ trường biến thiên gây dòng điện xoáy làm nóng trực tiếp đáy nồi sắt/inox nhiễm từ.",
+        "s": "Công Nghệ 6",
+        "h": "Nguyên lí bếp từ"
+      },
+      {
+        "c": "CN6-B10-004",
+        "d": "basic",
+        "p": "Sự khác biệt về kén nồi giữa bếp hồng ngoại và bếp từ là gì?",
+        "o": [
+          "Bếp từ chỉ nấu được với nồi có đáy nhiễm từ (hút nam châm), còn bếp hồng ngoại dùng được hầu hết mọi chất liệu nồi chịu nhiệt",
+          "Bếp hồng ngoại bắt buộc phải có đáy hút nam châm",
+          "Cả hai loại bếp chỉ nấu được duy nhất nồi bằng nhựa",
+          "Bếp từ dùng được nồi thủy tinh và nồi đất còn bếp hồng ngoại thì không"
+        ],
+        "k": "A",
+        "e": "Bếp hồng ngoại truyền bức xạ nhiệt trực tiếp qua mặt kính nên nồi gốm, thủy tinh, nhôm đều nấu được.",
+        "s": "Công Nghệ 6",
+        "h": "So sánh kén nồi bếp từ và hồng ngoại"
+      },
+      {
+        "c": "CN6-B10-005",
+        "d": "basic",
+        "p": "Trong tủ lạnh gia đình, ngăn nào có nhiệt độ âm (thường dưới -18°C) dùng làm đá và bảo quản thịt cá dài ngày?",
+        "o": [
+          "Ngăn đông (ngăn đá)",
+          "Ngăn cánh cửa đựng chai nước",
+          "Ngăn mát đựng rau",
+          "Khay hứng nước sau lưng tủ"
+        ],
+        "k": "A",
+        "e": "Ngăn đông giữ thực phẩm đông cứng ở nhiệt độ âm sâu, còn ngăn mát giữ 1–4°C.",
+        "s": "Công Nghệ 6",
+        "h": "Chức năng các ngăn tủ lạnh"
+      },
+      {
+        "c": "CN6-B10-006",
+        "d": "basic",
+        "p": "Khi thấy mặt kính của bếp hồng ngoại vừa nấu xong vẫn đang còn nóng đỏ hoặc báo chữ \"H\" (Hot), hành động an toàn là gì?",
+        "o": [
+          "Tuyệt đối không chạm tay trần lên mặt kính bếp cho tới khi mặt bếp nguội hẳn",
+          "Đặt tờ giấy báo lên bề mặt bếp để lau",
+          "Dội ngay một ca nước lạnh vào mặt kính đang nóng rực",
+          "Rút ngay dây nguồn bếp khi quạt tản nhiệt vẫn đang chạy làm mát"
+        ],
+        "k": "A",
+        "e": "Dội nước lạnh vào kính đang nóng gây sốc nhiệt nứt vỡ kính; rút điện ngay lúc bếp còn nóng làm quạt tản nhiệt ngừng gây hại linh kiện.",
+        "s": "Công Nghệ 6",
+        "h": "An toàn sử dụng bếp điện"
+      },
+      {
+        "c": "CN6-B10-007",
+        "d": "application",
+        "p": "Xem bảng so sánh bếp điện, để thử nhanh một chiếc nồi inox có nấu được trên bếp từ hay không tại cửa hàng, mẹo đơn giản nhất là gì?",
+        "o": [
+          "Cân xem nồi nặng trên 5 kg hay nhẹ hơn",
+          "Gõ vào thành nồi nghe tiếng vang to hay nhỏ",
+          "Đổ nước lạnh vào nồi xem nước có đổi màu không",
+          "Đưa một viên nam châm nhỏ lại gần mặt ngoài đáy nồi; nếu nam châm hút chặt là nồi dùng được cho bếp từ"
+        ],
+        "k": "D",
+        "e": "Đáy nồi chứa vật liệu sắt từ mới tương tác với từ trường của bếp từ, nên thử bằng nam châm rất chính xác.",
+        "s": "Công Nghệ 6",
+        "h": "Mẹo chọn nồi cho bếp từ",
+        "fig": {
+          "type": "table",
+          "title": "So sánh Bếp từ và Hồng ngoại",
+          "head": [
+            "Tiêu chí",
+            "Bếp từ",
+            "Bếp hồng ngoại"
+          ],
+          "rows": [
+            [
+              "Hiệu suất nhiệt",
+              "Rất cao (~90%)",
+              "Trung bình (~60%)"
+            ],
+            [
+              "Mặt kính khi nấu",
+              "Ít nóng từ nồi",
+              "Rất nóng đỏ"
+            ],
+            [
+              "Yêu cầu nồi",
+              "Đáy nhiễm từ",
+              "Mọi nồi chịu nhiệt"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN6-B10-008",
+        "d": "application",
+        "p": "Khi đặt lòng xoong chứa gạo và nước vào vỏ nồi cơm điện, thao tác nhỏ nào giúp cơm chín đều và bảo vệ mâm nhiệt không bị cháy chập?",
+        "o": [
+          "Đổ thêm một cốc nước trực tiếp xuống dưới đáy mâm nhiệt ngoài xoong",
+          "Dùng miếng cọ sắt cạo mạnh lớp chống dính bên trong lòng xoong",
+          "Lau khô sạch mặt ngoài đáy xoong (không để dính nước hay hạt cơm) và xoay nhẹ cho đáy xoong tiếp xúc phẳng khít với mâm nhiệt",
+          "Đặt nghiêng lòng xoong lên một bên thành nồi"
+        ],
+        "k": "C",
+        "e": "Hạt cơm hay nước dính dưới đáy ngoài làm kênh xoong, truyền nhiệt kém và dễ gây nổ chập điện.",
+        "s": "Công Nghệ 6",
+        "h": "Thao tác đặt xoong nồi cơm điện chuẩn"
+      },
+      {
+        "c": "CN6-B10-009",
+        "d": "application",
+        "p": "Vì sao các đầu bếp và hướng dẫn sử dụng bếp từ/hồng ngoại thường khuyên sau khi bấm nút tắt bếp (OFF), nên chờ khoảng 5–10 phút cho quạt gió bên trong bếp tự ngừng hẳn rồi mới rút phích cắm?",
+        "o": [
+          "Vì phích cắm bị khóa cứng bằng nam châm trong 10 phút",
+          "Để tiết kiệm tiền nước sinh hoạt",
+          "Để bếp tự động nấu lại món ăn lần nữa",
+          "Để quạt tản nhiệt tiếp tục thổi làm nguội các linh kiện điện tử công suất cao bên trong bếp, kéo dài tuổi thọ bếp"
+        ],
+        "k": "D",
+        "e": "Ngắt nguồn đột ngột khi linh kiện công suất đang rất nóng dễ làm giảm tuổi thọ tụ điện và bo mạch bếp.",
+        "s": "Công Nghệ 6",
+        "h": "Bảo vệ linh kiện tản nhiệt bếp điện"
+      },
+      {
+        "c": "CN6-B10-010",
+        "d": "application",
+        "p": "Gia đình cần chọn mua một chiếc bếp điện công suất `2000 W` dùng ổ cắm điện. Yêu cầu an toàn đối với dây dẫn và ổ cắm cấp cho bếp là gì?",
+        "o": [
+          "Cắm chung bếp từ 2000W, nồi cơm 800W và ấm siêu tốc 1800W vào một ổ cắm dây mảnh duy nhất cùng lúc",
+          "Đặt bếp trên khăn vải ướt sát bồn rửa",
+          "Dùng dây điện lõi mảnh nối chắp vá bằng băng dính giấy",
+          "Dùng ổ cắm riêng chịu tải cao (10A–16A), dây đủ lớn, cắm phích chặt và không cắm chung nhiều thiết bị công suất lớn cùng một ổ nối"
+        ],
+        "k": "D",
+        "e": "Công suất 2000W sinh dòng gần 9–10 A; cắm chung quá tải gây nóng chảy ổ cắm dẫn tới hỏa hoạn.",
+        "s": "Công Nghệ 6",
+        "h": "An toàn tải điện cho bếp công suất lớn"
+      },
+      {
+        "c": "CN6-B10-011",
+        "d": "application",
+        "p": "Trong nồi cơm điện đang nấu sôi bốc hơi nghi ngút, tuyệt đối KHÔNG làm hành động nào với lỗ thoát hơi trên nắp nồi?",
+        "o": [
+          "Giữ lỗ thoát hơi thông thoáng tự nhiên",
+          "Lau nhẹ vỏ ngoài bằng khăn khô sau khi rút điện",
+          "Không đặt tay trần lên trên lỗ thoát hơi và không lấy khăn bịt kín lỗ thoát hơi",
+          "Đọc bảng hiển thị đèn báo"
+        ],
+        "k": "C",
+        "e": "Hơi nước thoát ra có nhiệt độ gần 100°C dễ gây bỏng nặng, còn bịt kín làm áp suất trong nồi tăng gây trào nổ nắp.",
+        "s": "Công Nghệ 6",
+        "h": "Phòng tránh bỏng hơi nồi cơm"
+      },
+      {
+        "c": "CN6-B10-012",
+        "d": "application",
+        "p": "Tủ lạnh đang chạy tốt nhưng gia đình đi du lịch vắng nhà dài ngày và ngắt điện dọn trống tủ. Trước khi đóng cửa tủ lạnh lại khi đã ngắt điện, cần làm gì?",
+        "o": [
+          "Đóng chặt cửa tủ khi bên trong vẫn còn ướt sũng nước",
+          "Bọc kín bằng túi ni-lông rồi đổ đầy nước",
+          "Để nguyên thức ăn tươi sống bên trong rồi tắt điện",
+          "Lau khô sạch bên trong và hé mở nhẹ cửa tủ (hoặc đặt chất hút ẩm thoáng) để tránh nấm mốc và mùi hôi tích tụ bên trong khoang kín"
+        ],
+        "k": "D",
+        "e": "Ngắt điện mà đóng kín cửa khi còn ẩm sẽ sinh mốc đen và mùi khó chịu bám vào gioăng cao su.",
+        "s": "Công Nghệ 6",
+        "h": "Bảo quản tủ lạnh khi không sử dụng"
+      },
+      {
+        "c": "CN6-B10-013",
+        "d": "advanced",
+        "p": "Một nồi cơm điện `220V - 700W` mất 30 phút (0,5 giờ) ở chế độ Nấu, sau đó chuyển sang chế độ Giữ ấm `50W` trong 1 giờ. Tổng lượng điện tiêu thụ cho lần nấu và giữ ấm đó là bao nhiêu Wh?",
+        "o": [
+          "350 Wh",
+          "750 Wh",
+          "400 Wh (0,4 kWh)",
+          "1450 Wh"
+        ],
+        "k": "C",
+        "e": "Nấu: 700 W × 0,5 giờ = 350 Wh. Giữ ấm: 50 W × 1 giờ = 50 Wh. Tổng = 350 + 50 = 400 Wh.",
+        "s": "Công Nghệ 6",
+        "h": "Tính điện năng hai giai đoạn nồi cơm"
+      },
+      {
+        "c": "CN6-B10-014",
+        "d": "advanced",
+        "p": "So sánh đun sôi 2 lít nước bằng bếp từ (hiệu suất 90%) và bếp hồng ngoại (hiệu suất 60%), tại sao bếp từ đun sôi nhanh hơn và ít làm nóng không gian gian bếp xung quanh hơn?",
+        "o": [
+          "Vì bếp từ tạo ra tia lửa gas cháy quanh thành nồi",
+          "Vì từ trường làm nóng trực tiếp ngay trong đáy nồi với rất ít nhiệt lượng thất thoát ra mặt kính và không khí xung quanh",
+          "Vì bếp hồng ngoại làm nước đóng băng trước khi sôi",
+          "Vì hiệu suất 60% lớn hơn 90%"
+        ],
+        "k": "B",
+        "e": "Bếp hồng ngoại phải nung nóng mâm nhiệt rồi truyền qua mặt kính mới tới đáy nồi nên tỏa nhiều nhiệt thừa ra môi trường.",
+        "s": "Công Nghệ 6",
+        "h": "Phân tích hiệu suất truyền nhiệt hai loại bếp"
+      },
+      {
+        "c": "CN6-B10-015",
+        "d": "advanced",
+        "p": "Trong lớp chống dính lòng nồi cơm điện bị trầy xước bong tróc nhiều mảng lớn do thường xuyên dùng miếng cọ kim loại hoặc xới cơm bằng thìa inox sắc cạnh. Giải pháp khắc phục chuẩn xác về sức khỏe và kĩ thuật là gì?",
+        "o": [
+          "Thay lòng xoong mới (hoặc nồi mới) và tạo thói quen dùng muôi gỗ/nhựa chịu nhiệt cùng miếng rửa mềm để bảo vệ lớp chống dính",
+          "Tăng công suất ổ cắm lên 380V",
+          "Nấu cơm trực tiếp không cần lòng xoong",
+          "Lấy giấy nhám đánh bay toàn bộ lớp chống dính còn lại rồi dùng tiếp"
+        ],
+        "k": "A",
+        "e": "Lớp chống dính bong tróc làm cơm dễ khê dính sát đáy và mảnh tróc có thể lẫn vào thức ăn.",
+        "s": "Công Nghệ 6",
+        "h": "Bảo vệ lớp chống dính nồi cơm điện"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe6-c4",
+    "lesson": {
+      "code": "congnghe6-b11",
+      "title": "Bài 11. Máy giặt, Máy điều hòa và Quy tắc an toàn điện gia đình",
+      "seq": 11,
+      "subtitle": "Nguyên lí và sử dụng máy giặt, điều hòa không khí đúng cách; phòng tránh tai nạn điện giật và xử lí sự cố điện cơ bản",
+      "concepts": [
+        "Sử dụng máy giặt và điều hòa hiệu quả",
+        "Nhận diện nguy cơ mất an toàn điện",
+        "Sơ cứu ban đầu khi gặp sự cố điện"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN6-B11-001",
+        "d": "basic",
+        "p": "Trước khi cho quần áo vào máy giặt để khởi động chương trình giặt, thao tác kiểm tra bắt buộc đầu tiên là gì?",
+        "o": [
+          "Bật chế độ vắt khô ngay khi máy chưa nối ống thoát nước",
+          "Đổ đầy cát mịn vào lồng giặt để cọ sạch hơn",
+          "Kiểm tra lấy hết các vật cứng, sắc nhọn hoặc giấy tờ (chìa khóa, đồng xu, kẹp tóc, khăn giấy) ra khỏi túi quần áo",
+          "Nhét quần áo chật cứng tràn ra ngoài cửa lồng"
+        ],
+        "k": "C",
+        "e": "Vật cứng kim loại va đập tốc độ vắt cao làm hỏng lồng giặt, kẹt bơm xả hoặc rách quần áo.",
+        "s": "Công Nghệ 6",
+        "h": "Kiểm tra túi trước khi giặt máy"
+      },
+      {
+        "c": "CN6-B11-002",
+        "d": "basic",
+        "p": "Chức năng chính của máy điều hòa không khí hai chiều so với loại một chiều thông thường là gì?",
+        "o": [
+          "Có thể giặt và vắt khô quần áo",
+          "Có thể nấu chín cơm và nướng bánh",
+          "Chỉ thổi gió lạnh vào cả mùa đông",
+          "Ngoài làm mát mùa hè còn có thể sưởi ấm không khí vào mùa đông lạnh"
+        ],
+        "k": "D",
+        "e": "Điều hòa 2 chiều đảo chiều chu trình môi chất lạnh để cấp nhiệt sưởi ấm phòng khi trời rét.",
+        "s": "Công Nghệ 6",
+        "h": "Phân biệt điều hòa 1 chiều và 2 chiều"
+      },
+      {
+        "c": "CN6-B11-003",
+        "d": "basic",
+        "p": "Hành động nào cực kì NGUY HIỂM dễ dẫn tới tai nạn điện giật chết người trong gia đình?",
+        "o": [
+          "Chạm tay ướt vào công tắc, ổ cắm điện hoặc sử dụng dây điện bị hở tróc vỏ cách điện",
+          "Rút phích cắm khi tay khô ráo bằng cách nắm phần nhựa cách điện",
+          "Lắp nắp che an toàn cho ổ cắm điện thấp tầm tay trẻ nhỏ",
+          "Nhờ thợ điện chuyên môn sửa chữa cầu dao hỏng"
+        ],
+        "k": "A",
+        "e": "Nước dẫn điện rất tốt làm giảm điện trở da người, tăng mạnh dòng điện giật qua cơ thể.",
+        "s": "Công Nghệ 6",
+        "h": "Phòng tránh tai nạn điện giật"
+      },
+      {
+        "c": "CN6-B11-004",
+        "d": "basic",
+        "p": "Thiết bị bảo vệ tự động đóng ngắt mạch điện ngay khi phát hiện quá tải, ngắn mạch (hoặc rò dòng ở loại chống giật) trong tủ điện gia đình gọi là gì?",
+        "o": [
+          "Aptomat (cầu dao tự động)",
+          "Ổ khóa cửa",
+          "Bóng đèn sợi đốt",
+          "Quạt thông gió"
+        ],
+        "k": "A",
+        "e": "Aptomat bảo vệ an toàn lưới điện nhà bằng cách ngắt tức thời khi xảy ra sự cố quá dòng hay rò rỉ.",
+        "s": "Công Nghệ 6",
+        "h": "Vai trò của Aptomat"
+      },
+      {
+        "c": "CN6-B11-005",
+        "d": "basic",
+        "p": "Khi phát hiện một người đang bị điện giật dính vào dây điện trần ở nhà, việc ĐẦU TIÊN người phát hiện phải làm là gì?",
+        "o": [
+          "Đứng quay video chờ 30 phút xem nạn nhân tự tỉnh",
+          "Tạt nguyên một xô nước lên người nạn nhân và dây điện",
+          "Chạy tới ôm chặt kéo ngay nạn nhân ra bằng tay không",
+          "Lập tức ngắt aptomat/cầu dao tổng; nếu chưa kịp ngắt, đứng trên vật khô cách điện dùng gậy gỗ khô gạt dây ra, không chạm tay trực tiếp"
+        ],
+        "k": "D",
+        "e": "Chạm trực tiếp vào người đang nhiễm điện khiến người cứu bị điện giật theo; phải tách nguồn điện trước tiên.",
+        "s": "Công Nghệ 6",
+        "h": "Nguyên tắc vàng cứu người bị điện giật"
+      },
+      {
+        "c": "CN6-B11-006",
+        "d": "basic",
+        "p": "Vị trí lắp đặt máy giặt lồng ngang hoặc lồng đứng trong nhà cần tránh đặt ở đâu để kéo dài tuổi thọ mạch điều khiển điện tử?",
+        "o": [
+          "Cân chỉnh bốn chân máy vững vàng không khập khiễng",
+          "Đặt nơi khô ráo, bằng phẳng, thông thoáng có ống cấp và thoát nước riêng",
+          "Tránh đặt trực tiếp dưới vòi nước bắn ướt trong nhà tắm ẩm thấp quanh năm hoặc nơi nắng mưa hắt thẳng vào máy",
+          "Nối dây tiếp đất an toàn theo hướng dẫn nhà sản xuất"
+        ],
+        "k": "C",
+        "e": "Độ ẩm cao kéo dài làm oxi hóa bo mạch điện tử và tăng nguy cơ rò điện vỏ máy.",
+        "s": "Công Nghệ 6",
+        "h": "Vị trí đặt máy giặt an toàn"
+      },
+      {
+        "c": "CN6-B11-007",
+        "d": "application",
+        "p": "Xem bảng nhắc nhở sử dụng điều hòa tiết kiệm, việc kết hợp bật điều hòa ở 27°C cùng một chiếc quạt điện nhẹ trong phòng mang lại tác dụng gì?",
+        "o": [
+          "Làm cục nóng điều hòa bị đóng băng ngay lập tức",
+          "Quạt luân chuyển khí mát đều khắp phòng nhanh hơn, giúp cảm nhận mát tương đương 24°C mà tiết kiệm đáng kể điện năng cho cục nóng điều hòa",
+          "Làm điều hòa tốn điện gấp ba lần bình thường",
+          "Không có tác dụng lưu thông khí"
+        ],
+        "k": "B",
+        "e": "Gió quạt đối lưu giúp không khí lạnh phân tán đồng đều, giảm tải cho máy nén điều hòa.",
+        "s": "Công Nghệ 6",
+        "h": "Mẹo dùng điều hòa kết hợp quạt",
+        "fig": {
+          "type": "table",
+          "title": "Thói quen dùng thiết bị điện",
+          "head": [
+            "Thói quen",
+            "Đánh giá"
+          ],
+          "rows": [
+            [
+              "Điều hòa 27°C + quạt",
+              "Mát đều, tiết kiệm"
+            ],
+            [
+              "Mở cửa khi bật lạnh",
+              "Hao điện rất lớn"
+            ],
+            [
+              "Giặt đúng tải máy",
+              "Bền máy, sạch đồ"
+            ],
+            [
+              "Vệ sinh lưới lọc",
+              "Khí sạch, mát nhanh"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN6-B11-008",
+        "d": "application",
+        "p": "Khi sử dụng máy giặt lồng ngang (cửa trước), tại sao cần dùng đúng loại bột giặt hoặc nước giặt ít bọt chuyên dụng cho máy giặt cửa trước?",
+        "o": [
+          "Vì nước giặt ít bọt làm quần áo không bao giờ sạch",
+          "Vì bột giặt tay làm máy chạy nhanh gấp đôi",
+          "Vì quá nhiều bọt trào ngược vào khe mạch điều khiển, cảm biến mực nước và xả nước không sạch hết bọt",
+          "Vì máy cửa trước không dùng nước"
+        ],
+        "k": "C",
+        "e": "Cơ chế đảo nhào của máy cửa trước chỉ cần lượng nước ít, dùng chất giặt nhiều bọt dễ gây lỗi tràn bọt hỏng cảm biến.",
+        "s": "Công Nghệ 6",
+        "h": "Chọn chất giặt phù hợp loại máy giặt"
+      },
+      {
+        "c": "CN6-B11-009",
+        "d": "application",
+        "p": "Nếu lưới lọc bụi ở mặt trước dàn lạnh điều hòa bị bám bụi kín mít lâu ngày không vệ sinh, hiện tượng gì xảy ra?",
+        "o": [
+          "Lưới bẩn tự lọc sạch 100% vi khuẩn",
+          "Gió lạnh thổi ra rất yếu, phòng lâu mát, tốn nhiều điện hơn và không khí dễ phát sinh mùi ẩm mốc vi khuẩn",
+          "Phòng tự động lạnh sâu xuống dưới 0°C",
+          "Tiền điện giảm xuống còn một nửa"
+        ],
+        "k": "B",
+        "e": "Vệ sinh lưới lọc bụi dàn lạnh định kì mỗi 1–2 tháng giúp luồng gió thông thoáng, bảo vệ hệ hô hấp.",
+        "s": "Công Nghệ 6",
+        "h": "Tầm quan trọng vệ sinh lưới lọc điều hòa"
+      },
+      {
+        "c": "CN6-B11-010",
+        "d": "application",
+        "p": "Một chiếc máy giặt có tải trọng tối đa ghi `8 kg`, nhưng người dùng chỉ bỏ đúng 2 chiếc khăn mặt nhỏ để giặt mỗi ngày bằng chu trình đầy đủ hoặc nhồi nhét tới 12 kg quần áo ướt nặng. Cả hai cách dùng đều mắc lỗi gì?",
+        "o": [
+          "Giặt 2 chiếc khăn giúp tiết kiệm 90% nước",
+          "Giặt quá tải 12 kg giúp động cơ nhẹ nhàng hơn",
+          "Giặt quá ít gây lãng phí điện nước; giặt quá tải gây rung lắc hỏng trục quay, rách đồ và giặt không sạch",
+          "Cả hai cách đều là chế độ chuẩn của nhà sản xuất"
+        ],
+        "k": "C",
+        "e": "Dùng đúng khoảng 70%–85% tải trọng định mức giúp quần áo đủ khoảng trống nhào trộn sạch và bền động cơ.",
+        "s": "Công Nghệ 6",
+        "h": "Dùng máy giặt đúng tải trọng"
+      },
+      {
+        "c": "CN6-B11-011",
+        "d": "application",
+        "p": "Trong gia đình có mùi khét nhựa cháy phát ra từ ổ cắm điện tổng và thấy tia lửa nhỏ lóe lên, phản ứng xử lí nhanh và an toàn nhất là gì?",
+        "o": [
+          "Lấy khăn ướt quấn quanh tia lửa",
+          "Tạt ngay ca nước lạnh vào ổ cắm đang tóe lửa",
+          "Cắm thêm phích cắm khác đè vào ổ đang cháy",
+          "Ngắt ngay cầu dao/aptomat nguồn khu vực đó rồi mới kiểm tra thay thế ổ cắm hỏng (tuyệt đối không tạt nước dập lửa khi chưa ngắt điện)"
+        ],
+        "k": "D",
+        "e": "Nước dẫn điện gây điện giật lan rộng khi chưa ngắt điện; phải ngắt nguồn điện đầu tiên và dùng bình chữa cháy chuyên dụng nếu có đám cháy lan.",
+        "s": "Công Nghệ 6",
+        "h": "Xử lí cháy chập ổ cắm điện"
+      },
+      {
+        "c": "CN6-B11-012",
+        "d": "application",
+        "p": "Vào buổi trưa nắng 38°C ngoài trời, bạn vừa đi đá bóng về mồ hôi đầm đìa có nên chỉnh điều hòa xuống ngay 16°C rồi ngồi ghé sát cửa gió thổi thẳng vào đầu không?",
+        "o": [
+          "Nên làm ngay để hạ thân nhiệt trong 10 giây",
+          "Không nên, vì chênh lệch nhiệt độ đột ngột quá lớn dễ gây sốc nhiệt, cảm lạnh và viêm họng; nên lau khô mồ hôi nghỉ vài phút và đặt nhiệt độ khoảng 26–27°C",
+          "Nên mở cửa sổ đồng thời để gió nóng vào cùng",
+          "Nên cài 10°C để phòng mát tức thì"
+        ],
+        "k": "B",
+        "e": "Giữ chênh lệch nhiệt độ trong phòng với ngoài trời hợp lí bảo vệ cơ thể khỏi sốc nhiệt.",
+        "s": "Công Nghệ 6",
+        "h": "Bảo vệ sức khỏe khi dùng điều hòa"
+      },
+      {
+        "c": "CN6-B11-013",
+        "d": "advanced",
+        "p": "Một căn phòng ngủ diện tích trung bình gắn điều hòa công suất làm lạnh `9000 BTU/h` (khoảng 1 HP) tiêu thụ điện trung bình `850 W` khi máy nén chạy. Trong một đêm ngủ 8 giờ, máy nén chạy thực tế khoảng 60% thời gian (4,8 giờ) rồi ngắt nghỉ khi đủ lạnh. Điện năng tiêu thụ đêm đó xấp xỉ bao nhiêu kWh?",
+        "o": [
+          "6,80 kWh",
+          "4,08 kWh",
+          "1,00 kWh",
+          "8,50 kWh"
+        ],
+        "k": "B",
+        "e": "0,85 kW × 4,8 giờ = 4,08 kWh (chứng tỏ khi đóng kín phòng cách nhiệt tốt, máy nén nghỉ nhiều sẽ tiết kiệm rất rõ).",
+        "s": "Công Nghệ 6",
+        "h": "Tính điện năng thực tế điều hòa"
+      },
+      {
+        "c": "CN6-B11-014",
+        "d": "advanced",
+        "p": "Máy điều hòa công nghệ Inverter khác điều hòa cơ thông thường ở cơ chế vận hành giúp tiết kiệm điện và giữ nhiệt độ ổn định như thế nào?",
+        "o": [
+          "Thay vì bật tắt hết công suất liên tục, máy Inverter giảm tốc độ máy nén chạy êm ở công suất thấp để duy trì nhiệt độ ổn định",
+          "Máy Inverter luôn chạy tối đa 100% công suất không đổi",
+          "Máy Inverter tắt luôn không bao giờ chạy lại suốt cả đêm",
+          "Máy Inverter chạy bằng pin tiểu AA không cần điện lưới"
+        ],
+        "k": "A",
+        "e": "Điều chỉnh tốc độ máy nén mượt mà tránh dòng khởi động lớn lặp đi lặp lại, tiết kiệm điện và không gây lạnh buốt thất thường.",
+        "s": "Công Nghệ 6",
+        "h": "Hiểu công nghệ Inverter tiết kiệm điện"
+      },
+      {
+        "c": "CN6-B11-015",
+        "d": "advanced",
+        "p": "Khi thấy chạm tay nhẹ vào vỏ kim loại của máy giặt hoặc bình nóng lạnh có cảm giác tê tay nhẹ (dấu hiệu rò điện ra vỏ), tại sao việc có dây nối đất (tiếp địa) và aptomat chống giật ELCB lại cứu sống người sử dụng?",
+        "o": [
+          "Vì vỏ kim loại sẽ tự biến thành nhựa cách điện",
+          "Vì aptomat ELCB làm tăng điện áp lên 500V",
+          "Vì máy giặt sẽ tự tắt sau 5 ngày",
+          "Dây nối đất dẫn dòng rò xuống đất và aptomat ELCB phát hiện dòng rò nhỏ (~30 mA) sẽ tự ngắt nguồn điện trong tích tắc"
+        ],
+        "k": "D",
+        "e": "Lắp dây tiếp địa đúng kĩ thuật và sử dụng aptomat chống rò ELCB/RCBO cho máy giặt, bình nóng lạnh là lớp bảo vệ tính mạng tối quan trọng.",
+        "s": "Công Nghệ 6",
+        "h": "Cơ chế bảo vệ của ELCB và dây tiếp địa"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe6-c4",
+    "lesson": {
+      "code": "congnghe6-b12",
+      "title": "Bài 12. Tổng kết Học kì 2 và Dự án Công nghệ gia đình – Công nghệ 6",
+      "seq": 12,
+      "subtitle": "Ôn tập tổng hợp Học kì 2: Trang phục thời trang, Đồ dùng điện gia đình, An toàn điện và Thực hành tính chọn thiết bị tiết kiệm",
+      "concepts": [
+        "Vật liệu vải và phối trang phục",
+        "Thông số và nguyên lí đồ dùng điện",
+        "An toàn tiết kiệm điện gia đình"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN6-B12-001",
+        "d": "basic",
+        "p": "Nhóm vải nào có nguồn gốc từ tự nhiên (thực vật hoặc động vật) có độ thoáng mát thấm mồ hôi tốt?",
+        "o": [
+          "Vải polyester",
+          "Vải sợi tổng hợp acrylic",
+          "Vải nilon (Nylon)",
+          "Vải sợi bông (Cotton) và vải tơ tằm"
+        ],
+        "k": "D",
+        "e": "Vải bông và tơ tằm là vải sợi thiên nhiên thoáng khí, thân thiện làn da.",
+        "s": "Công Nghệ 6",
+        "h": "Ôn tập phân loại vải"
+      },
+      {
+        "c": "CN6-B12-002",
+        "d": "basic",
+        "p": "Thông số `220V - 1000W` in trên thân bàn là điện cho biết ý nghĩa gì?",
+        "o": [
+          "Điện áp định mức là 220 Vôn và Công suất định mức là 1000 Oát",
+          "Giá bán 220 nghìn và bảo hành 1000 ngày",
+          "Cần cắm vào nguồn 1000 Vôn",
+          "Nhiệt độ tối đa 220°C và nặng 1000 gam"
+        ],
+        "k": "A",
+        "e": "V (Vôn) chỉ điện áp định mức; W (Oát) chỉ công suất tiêu thụ điện định mức.",
+        "s": "Công Nghệ 6",
+        "h": "Ôn tập thông số định mức"
+      },
+      {
+        "c": "CN6-B12-003",
+        "d": "basic",
+        "p": "Trong hai loại bếp điện phổ biến là bếp từ và bếp hồng ngoại, loại bếp nào đòi hỏi nồi nấu phải có đáy nhiễm từ?",
+        "o": [
+          "Bếp hồng ngoại",
+          "Bếp củi",
+          "Bếp gas truyền thống",
+          "Bếp từ"
+        ],
+        "k": "D",
+        "e": "Bếp từ tạo nhiệt trực tiếp trong đáy nồi có tính chất từ (sắt, inox 430).",
+        "s": "Công Nghệ 6",
+        "h": "Ôn tập bếp từ"
+      },
+      {
+        "c": "CN6-B12-004",
+        "d": "basic",
+        "p": "Kí hiệu hình tam giác trên nhãn mác quần áo hướng dẫn về công đoạn nào khi chăm sóc trang phục?",
+        "o": [
+          "Tẩy trắng (Bleaching)",
+          "Là ủi nhiệt độ cao",
+          "Vắt ly tâm",
+          "Phơi bóng râm"
+        ],
+        "k": "A",
+        "e": "Bộ kí hiệu chuẩn: Chậu nước (Giặt), Tam giác (Tẩy), Hình vuông (Phơi/Sấy), Bàn là (Ủi), Hình tròn (Giặt khô).",
+        "s": "Công Nghệ 6",
+        "h": "Ôn tập kí hiệu nhãn mác"
+      },
+      {
+        "c": "CN6-B12-005",
+        "d": "basic",
+        "p": "Việc đầu tiên phải làm khi phát hiện dây điện bị chuột cắn hở lõi đồng trong phòng ngủ là gì?",
+        "o": [
+          "Dán đè băng dính giấy mỏng khi điện vẫn bật",
+          "Ngắt aptomat nguồn khu vực đó rồi bọc cách điện chuẩn hoặc thay đoạn dây mới an toàn",
+          "Lấy tay không bóp đoạn dây hở cho khít lại",
+          "Đặt thêm gối bông lên trên đoạn dây hở"
+        ],
+        "k": "B",
+        "e": "Dây hở dễ gây giật trực tiếp và chập cháy, luôn ngắt điện trước khi sửa hoặc thay mới.",
+        "s": "Công Nghệ 6",
+        "h": "Ôn tập an toàn dây điện"
+      },
+      {
+        "c": "CN6-B12-006",
+        "d": "basic",
+        "p": "Chế độ giữ ấm (Warm) trên nồi cơm điện tiêu thụ điện năng như thế nào so với lúc đang đun sôi nấu chín (Cook)?",
+        "o": [
+          "Tiêu thụ gấp mười lần lúc nấu",
+          "Công suất bằng nhau hoàn toàn",
+          "Tiêu thụ công suất rất nhỏ (chỉ khoảng vài chục W so với hàng trăm W khi nấu)",
+          "Không cần kết nối phích điện"
+        ],
+        "k": "C",
+        "e": "Chế độ Warm chỉ duy trì nhiệt ấm khoảng 60–75°C nên công suất nhỏ hơn nhiều so với chế độ Cook.",
+        "s": "Công Nghệ 6",
+        "h": "Ôn tập công suất nồi cơm điện"
+      },
+      {
+        "c": "CN6-B12-007",
+        "d": "application",
+        "p": "Bạn Hoa muốn may một chiếc áo dài đồng phục đi lễ trang trọng ít nhàu, thoáng vừa đủ và không quá đắt như tơ tằm nguyên chất. Loại vải nào phù hợp nhất?",
+        "o": [
+          "Vải sợi pha (ví dụ pha giữa sợi tự nhiên và sợi tổng hợp)",
+          "Vải bố thô cứng đựng gạo",
+          "Vải nhựa không thấm khí hoàn toàn",
+          "Vải len dày mùa đông"
+        ],
+        "k": "A",
+        "e": "Vải pha giữ phom đẹp, ít nhăn hơn lụa tơ tằm thuần, bền đẹp và thoáng dễ chịu.",
+        "s": "Công Nghệ 6",
+        "h": "Chọn vải theo mục đích may mặc"
+      },
+      {
+        "c": "CN6-B12-008",
+        "d": "application",
+        "p": "Khi là ủi quần áo gia đình gồm 3 loại vải khác nhau: (1) Áo lụa tổng hợp mỏng, (2) Áo sơ mi pha cotton, (3) Quần vải bò cotton dày. Thứ tự là ủi tiết kiệm điện nhất là gì?",
+        "o": [
+          "Là quần bò nhiệt cao trước rồi hạ nhiệt là áo lụa ngay lập tức rất dễ làm cháy áo lụa",
+          "Cắm rút phích điện 10 lần liên tục giữa mỗi chiếc áo",
+          "Cắm bàn là chỉnh nhiệt từ thấp lên cao: (1) Áo mỏng trước → (2) Áo sơ mi → (3) Quần dày sau cùng (và rút phích là nốt chiếc cuối bằng nhiệt dư)",
+          "Là tất cả ở mức nhiệt tối đa"
+        ],
+        "k": "C",
+        "e": "Đi từ nhiệt thấp đến cao không phải chờ bàn là nguội đi và tận dụng nhiệt dư khi rút điện ở món cuối rất tiết kiệm điện.",
+        "s": "Công Nghệ 6",
+        "h": "Mẹo là ủi thông minh tiết kiệm điện"
+      },
+      {
+        "c": "CN6-B12-009",
+        "d": "application",
+        "p": "Một tủ lạnh có công suất trung bình tính quy đổi ngày tiêu thụ hết `1,2 kWh` một ngày. Trong một tháng 30 ngày, tủ lạnh tiêu thụ hết bao nhiêu số điện (kWh)?",
+        "o": [
+          "3,6 kWh",
+          "45 kWh",
+          "36 kWh",
+          "12 kWh"
+        ],
+        "k": "C",
+        "e": "1,2 kWh/ngày × 30 ngày = 36 kWh (36 số điện).",
+        "s": "Công Nghệ 6",
+        "h": "Tính điện năng tủ lạnh theo tháng"
+      },
+      {
+        "c": "CN6-B12-010",
+        "d": "application",
+        "p": "Để phối đồ đi dự Hội khỏe Phù Đổng của trường, bộ trang phục nào đạt chuẩn hài hòa thẩm mĩ và an toàn vận động?",
+        "o": [
+          "Áo phông đồng phục thể thao cotton co giãn phối quần thể thao tối màu và giày thể thao buộc dây gọn",
+          "Váy dài chấm mắt cá chân và dép cao gót",
+          "Áo sơ mi cổ cứng, quần bò bó chặt và dép lê nhựa",
+          "Áo khoác dạ nặng 3 kg giữa trưa nắng"
+        ],
+        "k": "A",
+        "e": "Trang phục thể thao vừa khỏe khoắn đẹp mắt vừa linh hoạt bảo vệ cơ thể khi thi đấu.",
+        "s": "Công Nghệ 6",
+        "h": "Phối đồ theo sự kiện thể thao"
+      },
+      {
+        "c": "CN6-B12-011",
+        "d": "application",
+        "p": "Một căn phòng bật đồng thời: 2 bóng đèn LED (mỗi bóng 12W), 1 quạt điện (50W) và 1 tivi (126W). Tổng công suất đang tiêu thụ của cả phòng bằng bao nhiêu Oát?",
+        "o": [
+          "250 W",
+          "150 W",
+          "200 W",
+          "188 W"
+        ],
+        "k": "C",
+        "e": "(2 × 12) + 50 + 126 = 24 + 50 + 126 = 200 W.",
+        "s": "Công Nghệ 6",
+        "h": "Tính tổng công suất phòng học"
+      },
+      {
+        "c": "CN6-B12-012",
+        "d": "application",
+        "p": "Tại sao khi mua mới các đồ dùng điện có động cơ hoặc làm lạnh (như tủ lạnh, máy giặt, điều hòa), người tiêu dùng thông minh luôn xem kĩ nhãn năng lượng và tem chứng nhận an toàn?",
+        "o": [
+          "Chỉ để xem màu sắc tem dán có hợp với sơn tường không",
+          "Để chọn máy chạy êm tiết kiệm điện dài lâu suốt nhiều năm sử dụng và đảm bảo quy chuẩn an toàn điện",
+          "Để bóc tem vứt đi trước khi cắm điện",
+          "Vì nhãn năng lượng làm tăng gấp đôi giá tiền điện"
+        ],
+        "k": "B",
+        "e": "Thiết bị tiết kiệm điện 5 sao giúp giảm chi phí tiền điện suốt vòng đời 10 năm sử dụng nhiều hơn nhiều lần phần chênh giá mua ban đầu.",
+        "s": "Công Nghệ 6",
+        "h": "Tư duy tiêu dùng thiết bị điện thông minh"
+      },
+      {
+        "c": "CN6-B12-013",
+        "d": "advanced",
+        "p": "Theo biểu đồ công suất các đồ dùng điện trong nhà, ba thiết bị nào tiêu tốn công suất lớn nhất (từ 1000 W trở lên) cần lưu ý đường dây cấp điện khỏe và không cắm chung cùng một ổ cắm nối?",
+        "o": [
+          "Bếp từ (2000 W), Bàn là điện (1200 W) và Ấm siêu tốc (1500 W)",
+          "Ấm siêu tốc (1500 W), Đèn LED (10 W) và Nồi cơm điện (700 W)",
+          "Chỉ có duy nhất Bóng đèn LED (10 W)",
+          "Đèn LED (10 W), Quạt điện (55 W) và Bếp từ (2000 W)"
+        ],
+        "k": "A",
+        "e": "Các thiết bị nhiệt công suất >= 1000 W tạo dòng điện lớn (4,5–9 A mỗi thiết bị), không cắm dồn vào cùng ổ chia tải yếu.",
+        "s": "Công Nghệ 6",
+        "h": "Quản lí phụ tải thiết bị nhiệt gia đình",
+        "fig": {
+          "type": "bars",
+          "title": "Công suất đồ dùng điện (W)",
+          "labels": [
+            "Bếp từ",
+            "Ấm siêu tốc",
+            "Bàn là",
+            "Nồi cơm",
+            "Quạt",
+            "Đèn LED"
+          ],
+          "series": [
+            {
+              "values": [
+                2000,
+                1500,
+                1200,
+                700,
+                55,
+                10
+              ],
+              "name": "Công suất"
+            }
+          ],
+          "unit": "W"
+        }
+      },
+      {
+        "c": "CN6-B12-014",
+        "d": "advanced",
+        "p": "Một học sinh thực hiện dự án kiểm toán năng lượng tại nhà trong 1 tháng và phát hiện hóa đơn điện tăng vọt vào mùa hè chủ yếu do 3 thói quen: (1) bật điều hòa 20°C mở hé cửa sổ, (2) dùng 4 đèn sợi đốt sân vườn quên tắt ban ngày, (3) để nước nóng bật 24/24. Giải pháp tổng thể nào giảm ít nhất 30%–40% tiền điện mà vẫn sinh hoạt thoải mái?",
+        "o": [
+          "Giữ nguyên thói quen cũ nhưng tháo bớt bóng đèn trong phòng học",
+          "Chỉnh điều hòa 26–27°C đóng kín cửa kết hợp quạt gió; thay bằng đèn LED cảm biến sáng tối/hẹn giờ; chỉ bật bình nóng lạnh 15–20 phút trước khi tắm rồi tắt",
+          "Cắt cầu dao tổng cả nhà không dùng bất kì thiết bị điện nào cả tháng",
+          "Thay tất cả bóng đèn bằng nến sáp"
+        ],
+        "k": "B",
+        "e": "Kết hợp đúng cách vận hành và nâng cấp thiết bị hiệu suất cao giúp tiết kiệm bền vững không ảnh hưởng tiện nghi.",
+        "s": "Công Nghệ 6",
+        "h": "Dự án tiết kiệm điện gia đình thực tế"
+      },
+      {
+        "c": "CN6-B12-015",
+        "d": "advanced",
+        "p": "Trong giờ thực hành phân loại trang phục và xử lí đồ điện gia đình, sự liên kết giữa hai mảng kiến thức \"Trang phục – Năng lượng\" thể hiện rõ nhất qua thiết bị nào?",
+        "o": [
+          "Tủ lạnh cấp đông đá viên để làm phẳng áo sơ mi",
+          "Đèn LED chiếu sáng thay thế xà phòng giặt",
+          "Bếp từ dùng để sấy khô quần len",
+          "Máy giặt, bàn là: chọn đúng chế độ nước, tải trọng giặt và thứ tự ủi tăng dần nhiệt độ để vừa bảo vệ từng loại vải vừa tiết kiệm điện nước"
+        ],
+        "k": "D",
+        "e": "Hiểu tính chất sợi vải giúp dùng máy giặt và bàn là đúng chế độ nhiệt, bảo toàn độ bền trang phục lẫn tiết kiệm năng lượng.",
+        "s": "Công Nghệ 6",
+        "h": "Liên kết Công nghệ trang phục và đồ điện"
+      }
+    ]
+  }
+]

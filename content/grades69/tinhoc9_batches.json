@@ -1,0 +1,3371 @@
+[
+  {
+    "chapter": "tinhoc9-c1",
+    "lesson": {
+      "code": "tinhoc9-b01",
+      "title": "Bài 1. Thế giới kĩ thuật số và tác động của công nghệ thông tin",
+      "seq": 1,
+      "subtitle": "Thiết bị gắn bộ xử lí thông minh trong đời sống, Internet vạn vật (IoT) và tác động xã hội của công nghệ số",
+      "concepts": [
+        "Thiết bị thông minh gắn bộ xử lí",
+        "Internet vạn vật (IoT) và AI",
+        "Tác động tích cực và tiêu cực của công nghệ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH9-B01-001",
+        "d": "basic",
+        "p": "Sự khác biệt cơ bản của máy giặt thông minh hay đồng hồ thông minh so với thiết bị cơ học truyền thống là gì?",
+        "o": [
+          "Có kích thước lớn gấp mười lần",
+          "Không cần nguồn điện năng để vận hành",
+          "Có tích hợp bộ vi xử lí và cảm biến cho phép thu nhận dữ liệu, điều khiển tự động và kết nối mạng",
+          "Chỉ hoạt động bằng dây cót lên tay"
+        ],
+        "k": "C",
+        "e": "Các thiết bị gắn bộ xử lí nhúng ngày càng phổ biến trong giao thông, y tế, giáo dục và gia đình.",
+        "s": "Tin Học 9",
+        "h": "Thiết bị tích hợp bộ xử lí"
+      },
+      {
+        "c": "TH9-B01-002",
+        "d": "basic",
+        "p": "Mạng lưới kết nối hàng tỉ thiết bị vật lí thông minh (đèn, cảm biến, camera, thiết bị gia dụng) qua Internet để trao đổi dữ liệu gọi là gì?",
+        "o": [
+          "Bộ nhớ lưu trữ đĩa mềm",
+          "Internet vạn vật (IoT – Internet of Things)",
+          "Hệ điều hành đơn nhiệm",
+          "Phần mềm soạn thảo văn bản"
+        ],
+        "k": "B",
+        "e": "IoT cho phép thiết bị thu thập dữ liệu môi trường và tự động phối hợp hoặc nhận lệnh điều khiển từ xa.",
+        "s": "Tin Học 9",
+        "h": "Khái niệm IoT"
+      },
+      {
+        "c": "TH9-B01-003",
+        "d": "basic",
+        "p": "Ứng dụng nào trong đời sống hằng ngày sử dụng công nghệ định vị vệ tinh (GPS) kết hợp bản đồ số?",
+        "o": [
+          "Vẽ tranh màu nước trên giấy A3",
+          "Chỉ đường giao thông, gọi xe công nghệ và theo dõi hành trình vận chuyển hàng hóa",
+          "Soạn thảo bảng điểm học kì bằng chữ",
+          "Đo khối lượng quả cam bằng cân đòn"
+        ],
+        "k": "B",
+        "e": "GPS kết hợp dữ liệu giao thông thời gian thực giúp tối ưu lộ trình di chuyển.",
+        "s": "Tin Học 9",
+        "h": "Ứng dụng định vị số"
+      },
+      {
+        "c": "TH9-B01-004",
+        "d": "basic",
+        "p": "Tác động tích cực nào công nghệ số mang lại cho lĩnh vực y tế và chăm sóc sức khỏe?",
+        "o": [
+          "Làm mọi người không cần ngủ nghỉ",
+          "Lưu trữ hồ sơ bệnh án điện tử, chẩn đoán hình ảnh chính xác và khám bệnh từ xa",
+          "Loại bỏ hoàn toàn nhu cầu tập thể dục của con người",
+          "Thay thế bác sĩ bằng máy in văn phòng"
+        ],
+        "k": "B",
+        "e": "Công nghệ số hỗ trợ hội chẩn từ xa, theo dõi nhịp tim qua thiết bị đeo và lưu bệnh án nhanh chóng.",
+        "s": "Tin Học 9",
+        "h": "Công nghệ số trong y tế"
+      },
+      {
+        "c": "TH9-B01-005",
+        "d": "basic",
+        "p": "Thuật ngữ \"Khoảng cách số\" (Digital Divide) đề cập tới vấn đề xã hội nào?",
+        "o": [
+          "Độ dài tối đa của sợi dây cáp mạng LAN",
+          "Sự chênh lệch cơ hội tiếp cận thiết bị, Internet và kĩ năng số giữa các vùng miền hoặc nhóm dân cư",
+          "Khoảng cách từ bàn phím đến màn hình máy tính",
+          "Sự khác biệt giữa số nguyên và số thực"
+        ],
+        "k": "B",
+        "e": "Thu hẹp khoảng cách số giúp học sinh vùng sâu vùng xa cùng hưởng lợi từ giáo dục trực tuyến.",
+        "s": "Tin Học 9",
+        "h": "Khái niệm khoảng cách số"
+      },
+      {
+        "c": "TH9-B01-006",
+        "d": "basic",
+        "p": "Một tác động tiêu cực về môi trường khi con người liên tục thay thế điện thoại, máy tính mới quá nhanh là gì?",
+        "o": [
+          "Giảm lượng điện tiêu thụ toàn cầu về không",
+          "Làm tăng diện tích rừng tự nhiên",
+          "Giúp nguồn nước ngọt sạch hơn",
+          "Gia tăng rác thải điện tử chứa kim loại nặng khó phân hủy"
+        ],
+        "k": "D",
+        "e": "Rác thải điện tử cần được thu gom, tái chế đúng quy trình để tránh ô nhiễm đất và nguồn nước.",
+        "s": "Tin Học 9",
+        "h": "Vấn đề rác thải điện tử"
+      },
+      {
+        "c": "TH9-B01-007",
+        "d": "application",
+        "p": "Quan sát bảng so sánh, hệ thống tưới cây tự động trong nông nghiệp thông minh hoạt động dựa trên sự phối hợp của ba bộ phận nào?",
+        "o": [
+          "Máy in laser → Chuột quang → Ổ cứng ngoài",
+          "Cảm biến độ ẩm đất thu số liệu → Bộ vi xử lí kiểm tra ngưỡng → Máy bơm tự mở hoặc đóng van nước",
+          "Màn hình máy chiếu → Loa máy tính → Bàn phím rời",
+          "Chỉ cần một sợi dây thừng buộc vào vòi nước"
+        ],
+        "k": "B",
+        "e": "Cảm biến đo dữ liệu thực tế để bộ xử lí tự ra quyết định điều khiển thiết bị chấp hành.",
+        "s": "Tin Học 9",
+        "h": "Mô hình hệ thống thông minh IoT",
+        "fig": {
+          "type": "table",
+          "title": "Chuỗi xử lí nhà kính thông minh",
+          "head": [
+            "Thành phần",
+            "Vai trò"
+          ],
+          "rows": [
+            [
+              "Cảm biến độ ẩm",
+              "Đo độ ẩm đất (%)"
+            ],
+            [
+              "Bộ vi xử lí",
+              "So sánh ngưỡng < 40%"
+            ],
+            [
+              "Van bơm nước",
+              "Tưới tự động khi khô"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH9-B01-008",
+        "d": "application",
+        "p": "Thanh toán không dùng tiền mặt qua mã QR hoặc ví điện tử mang lại thuận tiện gì trong đời sống?",
+        "o": [
+          "Không cần có tài khoản hay số dư vẫn mua được mọi thứ miễn phí",
+          "Giao dịch nhanh chóng, ghi nhận lịch sử rõ ràng và giảm chi phí in ấn, vận chuyển tiền mặt",
+          "Hoạt động được ngay cả khi người bán tắt hoàn toàn mọi thiết bị và không ghi sổ",
+          "Không bao giờ cần bảo mật mã PIN"
+        ],
+        "k": "B",
+        "e": "Thanh toán số tiện lợi, minh bạch nhưng luôn đi kèm ý thức bảo vệ mã xác thực và kiểm tra kĩ số tiền.",
+        "s": "Tin Học 9",
+        "h": "Lợi ích thanh toán điện tử"
+      },
+      {
+        "c": "TH9-B01-009",
+        "d": "application",
+        "p": "Khi học trực tuyến hoặc tra cứu bằng trợ lí ảo trí tuệ nhân tạo (AI), học sinh cần giữ thái độ học tập như thế nào?",
+        "o": [
+          "Phó mặc hoàn toàn bài tập cho AI làm hộ rồi nộp không cần đọc lại",
+          "Coi công cụ số và AI là trợ thủ gợi ý tài liệu, luôn tự suy nghĩ kiểm chứng lại thay vì chép bài thụ động",
+          "Ngừng đọc sách giáo khoa hoàn toàn",
+          "Tin tuyệt đối 100% mọi câu trả lời của công cụ tự động không cần kiểm tra"
+        ],
+        "k": "B",
+        "e": "Công cụ AI có thể mắc sai sót hoặc thiếu ngữ cảnh; tư duy phản biện của người học vẫn quyết định chất lượng học tập.",
+        "s": "Tin Học 9",
+        "h": "Sử dụng công nghệ học tập chủ động"
+      },
+      {
+        "c": "TH9-B01-010",
+        "d": "application",
+        "p": "Hệ thống camera giao thông thông minh tự động nhận diện biển số xe vượt đèn đỏ dựa trên công nghệ nào?",
+        "o": [
+          "Thị giác máy tính và Trí tuệ nhân tạo (AI)",
+          "Bộ gõ tiếng Việt Telex",
+          "Bảng tính điện tử thủ công",
+          "Phần mềm nén tệp WinRAR"
+        ],
+        "k": "A",
+        "e": "Thị giác máy tính phân tích luồng hình ảnh để nhận dạng phương tiện và phát hiện vi phạm giao thông.",
+        "s": "Tin Học 9",
+        "h": "AI và thị giác máy tính"
+      },
+      {
+        "c": "TH9-B01-011",
+        "d": "application",
+        "p": "Để giảm thiểu tác hại của rác thải điện tử, thói quen tiêu dùng nào ở gia đình hợp lí và bền vững nhất?",
+        "o": [
+          "Đốt bỏ các bảng mạch điện tử ngoài sân vườn",
+          "Vứt chung pin hỏng và điện thoại cũ vào thùng rác sinh hoạt hữu cơ",
+          "Mua điện thoại mới mỗi tháng dù máy cũ vẫn tốt",
+          "Sử dụng thiết bị bền lâu, sửa chữa nâng cấp khi cần và giao nộp pin, máy hỏng cho điểm thu hồi tái chế chuyên dụng"
+        ],
+        "k": "D",
+        "e": "Thu hồi và tái chế linh kiện điện tử giảm ô nhiễm chì, thủy ngân và tiết kiệm tài nguyên quý hiếm.",
+        "s": "Tin Học 9",
+        "h": "Xử lí rác thải điện tử đúng cách"
+      },
+      {
+        "c": "TH9-B01-012",
+        "d": "application",
+        "p": "Nhận xét nào đúng về ảnh hưởng của tự động hóa và công nghệ số tới thị trường lao động hiện nay?",
+        "o": [
+          "Một số công việc thủ công lặp lại giảm đi, đồng thời xuất hiện nhiều ngành nghề mới đòi hỏi kĩ năng số và sáng tạo",
+          "Mọi ngành nghề trên Trái Đất biến mất hoàn toàn vào năm sau",
+          "Con người không cần học nghề nữa",
+          "Công nghệ số chỉ tạo thêm công việc tay chân nặng nhọc"
+        ],
+        "k": "A",
+        "e": "Chuyển đổi số làm dịch chuyển cơ cấu nghề nghiệp theo hướng tri thức và kĩ năng công nghệ cao.",
+        "s": "Tin Học 9",
+        "h": "Công nghệ số và việc làm"
+      },
+      {
+        "c": "TH9-B01-013",
+        "d": "advanced",
+        "p": "Một gia đình lắp khóa cửa thông minh, camera Wi-Fi và điều hòa kết nối ứng dụng điện thoại. Nếu đặt mật khẩu Wi-Fi quá yếu (như \"12345678\") và không đổi mật khẩu mặc định của camera, nguy cơ an ninh nghiêm trọng nào có thể xảy ra?",
+        "o": [
+          "Kẻ xấu có thể xâm nhập mạng nội bộ, theo dõi hình ảnh riêng tư từ camera hoặc điều khiển trái phép các thiết bị trong nhà",
+          "Tiền điện tháng đó giảm xuống bằng 0",
+          "Cửa nhà tự động đổi màu sơn",
+          "Camera quay phim nét hơn gấp đôi"
+        ],
+        "k": "A",
+        "e": "Mọi thiết bị IoT kết nối mạng đều là điểm vào tiềm ẩn nếu người dùng lơ là bảo mật mật khẩu và cập nhật phần mềm.",
+        "s": "Tin Học 9",
+        "h": "Rủi ro bảo mật thiết bị IoT gia đình"
+      },
+      {
+        "c": "TH9-B01-014",
+        "d": "advanced",
+        "p": "Trong giáo dục STEM, khi kết hợp công nghệ số và học tập, tình huống nào phản ánh mặt trái gọi là \"nghiện công nghệ và mất cân bằng cuộc sống\"?",
+        "o": [
+          "Nhóm bạn trao đổi qua email để thống nhất lịch họp trực tiếp cuối tuần",
+          "Giáo viên dùng máy chiếu trình bày mô phỏng thí nghiệm Vật lí",
+          "Học sinh ngồi trước màn hình 10 tiếng mỗi ngày giải trí, bỏ vận động thể chất, giảm giao tiếp trực tiếp với gia đình và bạn bè",
+          "Học sinh dùng máy tính bảng 45 phút buổi tối để ôn tập Ngữ văn và làm bài tập Toán"
+        ],
+        "k": "C",
+        "e": "Công nghệ chỉ phát huy giá trị khi con người làm chủ thời gian sử dụng và duy trì vận động, giao tiếp ngoài đời thực.",
+        "s": "Tin Học 9",
+        "h": "Cân bằng đời sống số và thực tế"
+      },
+      {
+        "c": "TH9-B01-015",
+        "d": "advanced",
+        "p": "Theo khảo sát tỉ trọng rác thải điện tử nhỏ (như pin, sạc, tai nghe) ở biểu đồ minh họa, tổng tỉ trọng thiết bị điện tử cầm tay (điện thoại + phụ kiện sạc tai nghe) chiếm bao nhiêu phần trăm?",
+        "o": [
+          "75 phần trăm",
+          "45 phần trăm",
+          "55 phần trăm",
+          "35 phần trăm"
+        ],
+        "k": "C",
+        "e": "Điện thoại cũ (35%) + Phụ kiện sạc, tai nghe (20%) = 55% tổng lượng rác điện tử nhỏ.",
+        "s": "Tin Học 9",
+        "h": "Đọc biểu đồ cơ cấu rác điện tử",
+        "fig": {
+          "type": "bars",
+          "title": "Cơ cấu rác thải điện tử (%)",
+          "labels": [
+            "Điện thoại cũ",
+            "Pin rời",
+            "Sạc, tai nghe",
+            "Thiết bị khác"
+          ],
+          "series": [
+            {
+              "values": [
+                35,
+                25,
+                20,
+                20
+              ],
+              "name": "Tỉ trọng"
+            }
+          ],
+          "unit": "%"
+        }
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc9-c1",
+    "lesson": {
+      "code": "tinhoc9-b02",
+      "title": "Bài 2. Đánh giá chất lượng thông tin và pháp lí trên môi trường số",
+      "seq": 2,
+      "subtitle": "Các tiêu chí đánh giá chất lượng thông tin tìm được và quy định pháp lí, bản quyền khi giải quyết vấn đề",
+      "concepts": [
+        "Bốn tiêu chí chất lượng thông tin",
+        "Kiểm chứng tin tức đa chiều",
+        "Trách nhiệm pháp lí công dân số"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH9-B02-001",
+        "d": "basic",
+        "p": "Bốn tiêu chí cốt lõi thường dùng để đánh giá chất lượng thông tin tìm được trên Internet là gì?",
+        "o": [
+          "Màu sắc đẹp, phông chữ to, nhiều quảng cáo và có nhạc nền",
+          "Tính mới (cập nhật), tính chính xác, tính đầy đủ và tính sử dụng được (phù hợp mục tiêu)",
+          "Tiêu đề dài, nhiều dấu chấm than, ẩn tác giả và mới đăng",
+          "Tệp dung lượng nặng, tải chậm, khó đọc và nhiều liên kết lạ"
+        ],
+        "k": "B",
+        "e": "Thông tin chất lượng cao phải cập nhật, xác thực chính xác, đủ bối cảnh và đáp ứng đúng nhu cầu giải quyết vấn đề.",
+        "s": "Tin Học 9",
+        "h": "Bốn tiêu chí chất lượng thông tin"
+      },
+      {
+        "c": "TH9-B02-002",
+        "d": "basic",
+        "p": "Tiêu chí \"Tính mới\" của thông tin đặc biệt quan trọng nhất trong trường hợp tra cứu nào dưới đây?",
+        "o": [
+          "Số nguyên tố nhỏ nhất trong toán học",
+          "Năm diễn ra chiến thắng Bạch Đằng của Ngô Quyền",
+          "Giá xăng dầu hôm nay, lịch thi tuyển sinh lớp 10 năm nay và dự báo thời tiết bão",
+          "Công thức tính diện tích hình tròn"
+        ],
+        "k": "C",
+        "e": "Dữ liệu biến động theo thời gian thực đòi hỏi phải kiểm tra ngày phát hành mới nhất.",
+        "s": "Tin Học 9",
+        "h": "Tầm quan trọng của tính mới"
+      },
+      {
+        "c": "TH9-B02-003",
+        "d": "basic",
+        "p": "Dấu hiệu nào giúp nhận diện một trang web bán hàng hoặc tin tức CÓ nguy cơ lừa đảo cao?",
+        "o": [
+          "Tên miền giả mạo gần giống thương hiệu lớn, thiếu thông tin liên hệ rõ ràng và thúc ép chuyển tiền gấp",
+          "Nội dung có trích dẫn rõ ràng văn bản pháp quy",
+          "Tên miền chính thức kết thúc bằng .gov.vn hoặc .edu.vn",
+          "Có địa chỉ trụ sở, mã số thuế minh bạch kiểm chứng được"
+        ],
+        "k": "A",
+        "e": "Kẻ lừa đảo tạo tên miền na ná và dùng chiêu tâm lí khẩn cấp để nạn nhân không kịp kiểm tra.",
+        "s": "Tin Học 9",
+        "h": "Nhận diện trang web lừa đảo"
+      },
+      {
+        "c": "TH9-B02-004",
+        "d": "basic",
+        "p": "Khi thấy một tài khoản mạng đăng bán thuốc chữa bách bệnh \"khỏi 100% chỉ sau 3 ngày\" không có giấy phép y tế, em nên đánh giá theo tiêu chí nào?",
+        "o": [
+          "Là tài liệu giáo dục nhà trường",
+          "Rất đầy đủ và chính xác tuyệt đối",
+          "Đạt chuẩn y khoa quốc tế",
+          "Thiếu tính chính xác và thiếu căn cứ khoa học đáng tin cậy"
+        ],
+        "k": "D",
+        "e": "Cam kết phóng đại phi thực tế không qua kiểm định y khoa vi phạm tính chính xác.",
+        "s": "Tin Học 9",
+        "h": "Kiểm tra tính chính xác"
+      },
+      {
+        "c": "TH9-B02-005",
+        "d": "basic",
+        "p": "Nếu một bài viết hướng dẫn chọn trường THPT chỉ nêu tên trường mà bỏ trống hoàn toàn chỉ tiêu, điểm chuẩn và tổ hợp môn, bài viết thiếu tiêu chí nào?",
+        "o": [
+          "Tính ẩn danh",
+          "Tính trang trí",
+          "Tính giải trí",
+          "Tính đầy đủ"
+        ],
+        "k": "D",
+        "e": "Thiếu dữ kiện quan trọng khiến người đọc không đủ cơ sở để đưa ra quyết định đúng.",
+        "s": "Tin Học 9",
+        "h": "Khái niệm tính đầy đủ"
+      },
+      {
+        "c": "TH9-B02-006",
+        "d": "basic",
+        "p": "Sử dụng thông tin cá nhân của người khác để mạo danh đi vay tiền hoặc đăng bài bôi nhọ trên mạng là hành vi gì?",
+        "o": [
+          "Kĩ năng bảo mật hợp pháp",
+          "Hoạt động thử nghiệm phần mềm bình thường",
+          "Vi phạm pháp luật nghiêm trọng, có thể bị xử phạt hành chính hoặc truy cứu trách nhiệm hình sự",
+          "Hành vi đùa vui vô hại tuổi học trò"
+        ],
+        "k": "C",
+        "e": "Pháp luật bảo vệ danh tính, uy tín công dân cả ngoài đời lẫn trên môi trường mạng.",
+        "s": "Tin Học 9",
+        "h": "Trách nhiệm pháp lí khi mạo danh"
+      },
+      {
+        "c": "TH9-B02-007",
+        "d": "application",
+        "p": "Bạn Minh tìm được một bài báo rất chi tiết nhưng viết hoàn toàn bằng tiếng nước ngoài chuyên ngành khó hiểu nên Minh không áp dụng được cho bài thuyết trình lớp 9. Bài báo đó hạn chế ở tiêu chí nào đối với Minh?",
+        "o": [
+          "Tính sử dụng được (khả năng tiếp cận phù hợp đối tượng sử dụng)",
+          "Tính bản quyền tác giả",
+          "Tính mới của thông tin",
+          "Tính chính xác khoa học"
+        ],
+        "k": "A",
+        "e": "Thông tin dù chính xác nhưng vượt quá trình độ hoặc rào cản ngôn ngữ của người dùng thì kém tính sử dụng được.",
+        "s": "Tin Học 9",
+        "h": "Đánh giá tính sử dụng được"
+      },
+      {
+        "c": "TH9-B02-008",
+        "d": "application",
+        "p": "Khi cần tìm điểm chuẩn vào lớp 10 công lập tỉnh mình năm học hiện tại, bạn Hoa thấy ba trang web đưa ra ba bảng điểm hơi khác nhau. Cách xử lí đúng nhất là gì?",
+        "o": [
+          "Hỏi một tài khoản ẩn danh trên mạng",
+          "Tính trung bình cộng cả ba trang web lại",
+          "Truy cập trực tiếp Cổng thông tin điện tử chính thức của Sở Giáo dục và Đào tạo địa phương để đối chiếu bản công bố gốc",
+          "Chọn bảng điểm nào có số điểm thấp nhất cho yên tâm"
+        ],
+        "k": "C",
+        "e": "Với văn bản quy chế tuyển sinh, cổng thông tin của Sở GD&ĐT là nguồn gốc có giá trị pháp lí cao nhất.",
+        "s": "Tin Học 9",
+        "h": "Tìm về nguồn công bố gốc"
+      },
+      {
+        "c": "TH9-B02-009",
+        "d": "application",
+        "p": "Quan sát bảng đánh giá nguồn tin, nguồn nào đạt đủ cả 4 tiêu chí chất lượng cao cho bài báo cáo khoa học về môi trường của học sinh lớp 9?",
+        "o": [
+          "Quảng cáo bán máy lọc nước chỉ khen sản phẩm mình",
+          "Bài đăng blog cá nhân viết cách đây 12 năm không có số liệu",
+          "Báo cáo tổng kết năm nay của Tổng cục Môi trường (cổng .gov.vn)",
+          "Bình luận tranh cãi không dẫn chứng trên diễn đàn"
+        ],
+        "k": "C",
+        "e": "Nguồn cơ quan chuyên môn năm hiện tại đảm bảo tính mới, chính xác, đầy đủ và phù hợp làm căn cứ báo cáo.",
+        "s": "Tin Học 9",
+        "h": "Đối chiếu 4 tiêu chí đánh giá nguồn",
+        "fig": {
+          "type": "table",
+          "title": "Thẩm định nguồn tài liệu",
+          "head": [
+            "Nguồn tài liệu",
+            "Mới",
+            "Chính xác",
+            "Đầy đủ"
+          ],
+          "rows": [
+            [
+              "Cổng .gov.vn năm nay",
+              "Đạt",
+              "Đạt",
+              "Đạt"
+            ],
+            [
+              "Blog cũ 12 năm trước",
+              "Kém",
+              "Chưa rõ",
+              "Thiếu"
+            ],
+            [
+              "Bài quảng cáo hàng",
+              "Đạt",
+              "Thiên lệch",
+              "Thiếu"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH9-B02-010",
+        "d": "application",
+        "p": "Khi viết bài giới thiệu văn hóa địa phương đăng lên website trường, nhóm học sinh dùng nhạc nền và ảnh lấy từ trang khác. Việc xin phép hoặc kiểm tra điều khoản bản quyền giúp nhóm tránh rủi ro gì?",
+        "o": [
+          "Tránh bị mất kết nối mạng LAN trường học",
+          "Giúp màn hình tăng thêm kích thước inch",
+          "Không giúp ích gì cho sản phẩm số",
+          "Tránh bị khiếu nại vi phạm sở hữu trí tuệ, gỡ bỏ bài đăng hoặc bị xử phạt hành chính"
+        ],
+        "k": "D",
+        "e": "Tuân thủ quyền tác giả bảo vệ uy tín nhà trường và sản phẩm truyền thông của nhóm.",
+        "s": "Tin Học 9",
+        "h": "Phòng tránh rủi ro bản quyền"
+      },
+      {
+        "c": "TH9-B02-011",
+        "d": "application",
+        "p": "Một trang tin giật tít \"Cảnh báo khẩn: Cả thành phố sắp cắt điện 7 ngày\" nhằm dẫn dụ người bấm vào đường link cài ứng dụng lạ. Mục đích thực sự của bài đăng thường là gì?",
+        "o": [
+          "Giúp tiết kiệm pin điện thoại",
+          "Câu lượt xem quảng cáo hoặc lừa người dùng bấm vào liên kết chứa mã độc, đánh cắp dữ liệu",
+          "Cung cấp dịch vụ sửa điện miễn phí cho người dân",
+          "Kiểm tra tốc độ gõ phím của người đọc"
+        ],
+        "k": "B",
+        "e": "Clickbait kết hợp tâm lí lo lắng là thủ đoạn phổ biến dẫn dụ cài mã độc hoặc lộ thông tin.",
+        "s": "Tin Học 9",
+        "h": "Phát hiện tin giật tít câu link"
+      },
+      {
+        "c": "TH9-B02-012",
+        "d": "application",
+        "p": "Khi trích dẫn số liệu thống kê dân số Việt Nam vào bài trình chiếu, cách trình bày nào làm tăng độ tin cậy của bài báo cáo?",
+        "o": [
+          "Chỉ ghi \"Khoảng rất đông người\" không cần số cụ thể",
+          "Ghi rõ số liệu kèm năm thống kê và tên cơ quan phát hành (ví dụ: Tổng cục Thống kê, năm ...)",
+          "Bỏ qua đơn vị tính và năm thu thập",
+          "Tự bịa ra số tròn cho dễ đọc"
+        ],
+        "k": "B",
+        "e": "Mọi số liệu thống kê chỉ có giá trị kiểm chứng khi đi kèm đơn vị, mốc thời gian và nguồn trích dẫn.",
+        "s": "Tin Học 9",
+        "h": "Chuẩn mực trích dẫn số liệu"
+      },
+      {
+        "c": "TH9-B02-013",
+        "d": "advanced",
+        "p": "Trong nghiên cứu tìm hiểu tác hại của thuốc lá điện tử, bạn Nam chỉ đọc các bài viết từ những trang rao bán thuốc lá điện tử vì thấy chúng khen \"không gây hại\". Sai lầm nghiêm trọng trong đánh giá thông tin ở đây là gì?",
+        "o": [
+          "Nguồn tin có xung đột lợi ích thương mại (thiên lệch chủ quan), vi phạm nghiêm trọng tính khách quan và tính chính xác",
+          "Vì tên miền có chữ .com",
+          "Vì thời gian đọc bài viết quá ngắn",
+          "Vì các trang đó không dùng chữ màu đỏ"
+        ],
+        "k": "A",
+        "e": "Thông tin từ bên bán hàng luôn thiên về quảng cáo có lợi cho sản phẩm; cần đọc tài liệu từ Tổ chức Y tế Thế giới (WHO) và Bộ Y tế.",
+        "s": "Tin Học 9",
+        "h": "Phát hiện thông tin thiên lệch lợi ích"
+      },
+      {
+        "c": "TH9-B02-014",
+        "d": "advanced",
+        "p": "Một bức ảnh chia sẻ trên mạng chụp cảnh ngập lụt kèm chú thích xảy ra tại huyện A sáng nay, nhưng kiểm tra chi tiết trên biển hiệu cửa hàng trong ảnh lại thấy tên cửa hàng ở tỉnh khác cách xa 500 km. Đây là phương pháp kiểm chứng dựa vào đâu?",
+        "o": [
+          "Thay đổi màu sắc bức ảnh sang đen trắng",
+          "Hỏi xem có bao nhiêu lượt chia sẻ",
+          "Phân tích bằng chứng ngữ cảnh trực tiếp bên trong hình ảnh (bối cảnh địa điểm, biển hiệu, thời tiết)",
+          "Đo dung lượng tệp ảnh xem lớn hay nhỏ"
+        ],
+        "k": "C",
+        "e": "Soi xét chi tiết vật chứng trong ảnh (biển hiệu, biển số, kiến trúc, công cụ tìm kiếm ảnh ngược) là kĩ năng xác thực thực tế cực mạnh.",
+        "s": "Tin Học 9",
+        "h": "Kĩ năng xác thực bằng chứng ảnh"
+      },
+      {
+        "c": "TH9-B02-015",
+        "d": "advanced",
+        "p": "Một học sinh tải phần mềm miễn phí cho mục đích cá nhân nhưng lại bán lại bản cài đặt phần mềm đó cho bạn học lấy tiền, dù giấy phép phần mềm ghi rõ \"Free for non-commercial use only\". Học sinh này đã vi phạm điều khoản nào?",
+        "o": [
+          "Không vi phạm vì đã trả tiền điện khi tải",
+          "Vi phạm kích thước ổ đĩa",
+          "Vi phạm điều khoản phi thương mại (non-commercial) trong giấy phép sử dụng phần mềm",
+          "Vi phạm quy định đặt tên tệp quá 8 kí tự"
+        ],
+        "k": "C",
+        "e": "Phần mềm miễn phí phi thương mại không cho phép khai thác thu lợi nhuận kinh tế nếu chưa được chủ sở hữu cấp phép thương mại.",
+        "s": "Tin Học 9",
+        "h": "Đọc hiểu giấy phép phi thương mại"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc9-c2",
+    "lesson": {
+      "code": "tinhoc9-b03",
+      "title": "Bài 3. Phần mềm mô phỏng và khám phá tri thức trực quan",
+      "seq": 3,
+      "subtitle": "Khái niệm mô phỏng, lợi ích phần mềm mô phỏng PhET/GeoGebra/lập trình trong học tập và trình bày ý tưởng với sơ đồ tư duy",
+      "concepts": [
+        "Phần mềm mô phỏng PhET và GeoGebra",
+        "Lợi ích thí nghiệm ảo an toàn",
+        "Gắn kết dữ liệu vào sơ đồ tư duy"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH9-B03-001",
+        "d": "basic",
+        "p": "Phần mềm cho phép tái hiện lại hoạt động của sự vật, hiện tượng thực tế trên máy tính để quan sát và thay đổi tham số thử nghiệm gọi là gì?",
+        "o": [
+          "Công cụ xóa dữ liệu",
+          "Phần mềm nén tệp",
+          "Phần mềm mô phỏng",
+          "Trình phát nhạc MP3"
+        ],
+        "k": "C",
+        "e": "Phần mềm mô phỏng tạo môi trường ảo trực quan giúp khám phá quy luật tự nhiên và kĩ thuật.",
+        "s": "Tin Học 9",
+        "h": "Khái niệm phần mềm mô phỏng"
+      },
+      {
+        "c": "TH9-B03-002",
+        "d": "basic",
+        "p": "Nền tảng mô phỏng miễn phí rất nổi tiếng cho các môn Vật lí, Hóa học, Sinh học và Toán học (mạch điện, khúc xạ ánh sáng, pH...) là gì?",
+        "o": [
+          "WinRAR",
+          "Notepad",
+          "Unikey",
+          "PhET Interactive Simulations"
+        ],
+        "k": "D",
+        "e": "PhET (Đại học Colorado) cung cấp hàng trăm thí nghiệm ảo tương tác trực tiếp ngay trên trình duyệt.",
+        "s": "Tin Học 9",
+        "h": "Nền tảng mô phỏng PhET"
+      },
+      {
+        "c": "TH9-B03-003",
+        "d": "basic",
+        "p": "Phần mềm nào chuyên mạnh về mô phỏng hình học phẳng, không gian, vẽ đồ thị hàm số và giải toán trực quan?",
+        "o": [
+          "Outlook",
+          "Audacity",
+          "GeoGebra",
+          "Paint cổ điển"
+        ],
+        "k": "C",
+        "e": "GeoGebra kết nối trực tiếp hình học động, đại số và đồ thị hàm số cho học sinh THCS và THPT.",
+        "s": "Tin Học 9",
+        "h": "Công dụng GeoGebra"
+      },
+      {
+        "c": "TH9-B03-004",
+        "d": "basic",
+        "p": "Ưu điểm nổi bật của thí nghiệm ảo trên phần mềm mô phỏng hóa chất nguy hiểm hoặc mạch điện cao áp là gì?",
+        "o": [
+          "Thay thế hoàn toàn việc học thực hành thực tế mãi mãi",
+          "Tuyệt đối an toàn, không tốn hóa chất vật tư và có thể lặp lại thử nghiệm nhiều lần",
+          "Không cần hiểu nguyên lí khoa học vẫn tự thuộc bài",
+          "Tạo ra điện thật thắp sáng cả ngôi nhà"
+        ],
+        "k": "B",
+        "e": "Mô phỏng loại bỏ rủi ro cháy nổ, hóa chất độc hại khi học sinh tự do thử nghiệm các giá trị cực hạn.",
+        "s": "Tin Học 9",
+        "h": "Lợi ích an toàn của mô phỏng"
+      },
+      {
+        "c": "TH9-B03-005",
+        "d": "basic",
+        "p": "Trong học tập bộ môn Khoa học tự nhiên 9, mô phỏng \"Bộ lắp mạch điện ảo\" giúp học sinh quan sát trực quan điều gì?",
+        "o": [
+          "Trọng lượng thực tế của viên pin trên tay",
+          "Mùi hương của dây đồng nóng chảy",
+          "Chiều dòng điện, độ sáng bóng đèn và số chỉ ampe kế – vôn kế khi thay đổi điện trở hay hiệu điện thế",
+          "Giá tiền bán lẻ của bóng đèn ở cửa hàng"
+        ],
+        "k": "C",
+        "e": "Khi kéo thanh trượt thay đổi U hoặc R, mạch điện ảo cập nhật ngay cường độ dòng điện và độ sáng đèn.",
+        "s": "Tin Học 9",
+        "h": "Mô phỏng mạch điện"
+      },
+      {
+        "c": "TH9-B03-006",
+        "d": "basic",
+        "p": "Khi sử dụng sơ đồ tư duy số trên phần mềm, tính năng đính kèm liên kết trang web hoặc tệp mô phỏng vào một nhánh giúp ích gì khi trình bày?",
+        "o": [
+          "Làm mất chữ trên nhánh sơ đồ tư duy",
+          "Tự động in ra 100 trang giấy",
+          "Cho phép mở trực tiếp tài liệu tham khảo hoặc mô phỏng minh họa ngay trong lúc thuyết trình",
+          "Ngắt kết nối mạng của người nghe"
+        ],
+        "k": "C",
+        "e": "Đính kèm tệp và URL biến sơ đồ tư duy thành trung tâm điều phối báo cáo dự án sinh động.",
+        "s": "Tin Học 9",
+        "h": "Tương tác đa phương tiện trong Mindmap"
+      },
+      {
+        "c": "TH9-B03-007",
+        "d": "application",
+        "p": "Bạn An dùng GeoGebra vẽ đồ thị hàm số bậc hai `y = a * x^2` với thanh trượt hệ số `a`. Khi kéo thanh trượt tăng dần `a` từ 1 lên 4, đồ thị thay đổi thế nào trên màn hình?",
+        "o": [
+          "Đồ thị biến thành đường thẳng nằm ngang",
+          "Parabol lật ngược úp xuống dưới trục hoành",
+          "Đồ thị biến mất khỏi hệ trục tọa độ",
+          "Bề lõm của parabol quay lên trên và khép hẹp lại sát trục tung Oy hơn"
+        ],
+        "k": "D",
+        "e": "Khi |a| càng lớn thì giá trị y tăng càng nhanh nên hai nhánh parabol khép hẹp lại gần trục Oy.",
+        "s": "Tin Học 9",
+        "h": "Khám phá đồ thị qua thanh trượt"
+      },
+      {
+        "c": "TH9-B03-008",
+        "d": "application",
+        "p": "Xem bảng các công cụ mô phỏng, để rèn kĩ năng lắp ghép mạch điện gia đình an toàn và kiểm thử tình huống đoản mạch mà không làm nổ cầu chì thật, học sinh nên dùng công cụ nào?",
+        "o": [
+          "Phần mềm mô phỏng mạch điện (như PhET Circuit Construction Kit hoặc Tinkercad Circuits)",
+          "Công cụ chụp ảnh màn hình",
+          "Trình nghe nhạc VLC",
+          "Phần mềm soạn văn bản Word"
+        ],
+        "k": "A",
+        "e": "PhET Circuit hoặc Tinkercad mô phỏng hiệu ứng quá dòng, chập mạch bằng hoạt ảnh cảnh báo an toàn.",
+        "s": "Tin Học 9",
+        "h": "Chọn công cụ mô phỏng phù hợp",
+        "fig": {
+          "type": "table",
+          "title": "Công cụ mô phỏng học tập",
+          "head": [
+            "Phần mềm",
+            "Lĩnh vực chính"
+          ],
+          "rows": [
+            [
+              "PhET",
+              "Vật lí, Hóa, Sinh"
+            ],
+            [
+              "GeoGebra",
+              "Hình học, Đồ thị"
+            ],
+            [
+              "Tinkercad Circuits",
+              "Mạch, Vi điều khiển"
+            ],
+            [
+              "Stellarium",
+              "Thiên văn, Chòm sao"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH9-B03-009",
+        "d": "application",
+        "p": "Khi thử nghiệm trên mô phỏng khúc xạ ánh sáng, học sinh thay đổi môi trường từ Không khí sang Nước hoặc Thủy tinh và điều chỉnh góc tới. Thao tác này giúp rút ra kết luận gì nhanh hơn?",
+        "o": [
+          "Làm mắt không bao giờ cần đeo kính",
+          "Phát hiện mối quan hệ giữa chiết suất môi trường, góc tới và góc khúc xạ trực tiếp bằng mắt thường",
+          "Tự động giải hết bài tập Ngữ văn",
+          "Biết được giá bán kính thủy tinh ngoài chợ"
+        ],
+        "k": "B",
+        "e": "Quan sát tia sáng bẻ gãy liên tục khi kéo góc tới giúp hiểu sâu bản chất hiện tượng vật lí.",
+        "s": "Tin Học 9",
+        "h": "Vai trò tương tác tham số"
+      },
+      {
+        "c": "TH9-B03-010",
+        "d": "application",
+        "p": "Bên cạnh các ưu điểm vượt trội, hạn chế của việc CHỈ học qua phần mềm mô phỏng mà không làm thí nghiệm thật là gì?",
+        "o": [
+          "Mô phỏng gây nguy hiểm điện giật 220V cho người dùng",
+          "Mô phỏng luôn cho hình ảnh đen trắng rất khó nhìn",
+          "Không rèn được cảm giác thao tác tay thực tế với dụng cụ thật và sai số thực nghiệm môi trường thật",
+          "Mô phỏng không thể chạy trên máy tính cá nhân"
+        ],
+        "k": "C",
+        "e": "Mô phỏng và thực hành thật bổ trợ lẫn nhau: mô phỏng giúp hiểu quy luật nhanh, thí nghiệm thật rèn kĩ năng tay nghề.",
+        "s": "Tin Học 9",
+        "h": "Giới hạn của phần mềm mô phỏng"
+      },
+      {
+        "c": "TH9-B03-011",
+        "d": "application",
+        "p": "Một mô phỏng quỹ đạo ném xiên trong PhET cho phép thay đổi góc ném từ 15° đến 75° (bỏ qua sức cản không khí). Thử nghiệm trên mô phỏng giúp học sinh kiểm chứng được ở góc ném nào tầm xa đạt lớn nhất?",
+        "o": [
+          "Góc 15 độ",
+          "Góc 90 độ",
+          "Góc 45 độ",
+          "Góc 75 độ"
+        ],
+        "k": "C",
+        "e": "Khi bỏ qua sức cản không khí, tầm bay xa đạt cực đại tại góc phóng 45 độ.",
+        "s": "Tin Học 9",
+        "h": "Thực nghiệm ảo tìm cực trị vật lí"
+      },
+      {
+        "c": "TH9-B03-012",
+        "d": "application",
+        "p": "Để chuẩn bị bài trình bày tổng hợp \"Các yếu tố ảnh hưởng tốc độ phản ứng hóa học\", cách kết hợp công cụ số nào thuyết phục nhất?",
+        "o": [
+          "Chiếu một slide toàn số điện thoại",
+          "Chỉ đọc thuộc lòng trang giấy A4 dài không hình ảnh",
+          "Phát nhạc pop suốt giờ thuyết trình",
+          "Dùng sơ đồ tư duy tóm tắt 4 yếu tố chính, nhúng kèm ảnh chụp hoặc liên kết chạy trực tiếp mô phỏng PhET thay đổi nhiệt độ, nồng độ"
+        ],
+        "k": "D",
+        "e": "Kết hợp sơ đồ tư duy cô đọng và mô phỏng tương tác trực tiếp giúp người nghe hiểu tức thì.",
+        "s": "Tin Học 9",
+        "h": "Trình bày ý tưởng bằng sơ đồ và mô phỏng"
+      },
+      {
+        "c": "TH9-B03-013",
+        "d": "advanced",
+        "p": "Các kĩ sư hàng không dùng buồng lái mô phỏng (Flight Simulator) để huấn luyện phi công xử lí tình huống hỏng động cơ hoặc bão lớn trước khi bay máy bay thật. Lí do quyết định là gì?",
+        "o": [
+          "Vì buồng lái mô phỏng nhẹ hơn chiếc xe đạp",
+          "Giảm thiểu chi phí nhiên liệu, rủi ro tai nạn sinh mạng và cho phép luyện tập hàng trăm kịch bản khẩn cấp hiếm gặp",
+          "Vì máy bay thật không có vô lăng điều khiển",
+          "Vì phi công thích chơi trò chơi giải trí hơn bay thật"
+        ],
+        "k": "B",
+        "e": "Mô phỏng trong công nghiệp, y học, hàng không giúp thực hành tình huống nguy hiểm với chi phí và rủi ro bằng không.",
+        "s": "Tin Học 9",
+        "h": "Giá trị mô phỏng trong đào tạo nghề"
+      },
+      {
+        "c": "TH9-B03-014",
+        "d": "advanced",
+        "p": "Khi học sinh chạy phần mềm mô phỏng dự báo dân số hoặc dịch bệnh, nhận ra nếu thay đổi tỉ lệ lây nhiễm đầu vào chỉ 1% thì đồ thị dự báo sau 6 tháng lệch nhau rất lớn. Điều này cho thấy lưu ý quan trọng nào khi dùng mô phỏng?",
+        "o": [
+          "Mọi phần mềm mô phỏng đều dự đoán sai hoàn toàn",
+          "Chỉ cần đổi màu đường đồ thị thì dịch bệnh biến mất",
+          "Phần mềm mô phỏng bị hỏng bộ nhớ RAM",
+          "Độ tin cậy của kết quả mô phỏng phụ thuộc chặt chẽ vào độ chính xác của mô hình toán học và dữ liệu đầu vào thực tế"
+        ],
+        "k": "D",
+        "e": "Mô phỏng là mô hình xấp xỉ thực tế; tham số đầu vào sai lệch sẽ dẫn tới dự báo sai lệch (Garbage in, garbage out).",
+        "s": "Tin Học 9",
+        "h": "Đánh giá độ tin cậy của mô hình mô phỏng"
+      },
+      {
+        "c": "TH9-B03-015",
+        "d": "advanced",
+        "p": "Giả sử muốn tự viết một mô phỏng đơn giản sự rơi tự do của quả bóng trên Scratch: mỗi 0,05 giây tăng vận tốc rơi thêm `g * 0,05` và thay đổi tọa độ `y` giảm theo vận tốc đó. Cách cài đặt này mô phỏng quy luật vật lí nào?",
+        "o": [
+          "Chuyển động tròn đều quanh tâm sân khấu",
+          "Chuyển động nhanh dần đều dưới tác dụng của trọng lực (gia tốc rơi tự do)",
+          "Chuyển động thẳng đều giữ nguyên vận tốc mãi mãi",
+          "Quả bóng đứng yên tại một tọa độ"
+        ],
+        "k": "B",
+        "e": "Cộng dồn gia tốc vào vận tốc theo từng bước thời gian nhỏ là phương pháp số mô phỏng chính xác chuyển động có gia tốc.",
+        "s": "Tin Học 9",
+        "h": "Tự xây dựng mô phỏng vật lí đơn giản"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc9-c2",
+    "lesson": {
+      "code": "tinhoc9-b04",
+      "title": "Bài 4. Bảng tính nâng cao: Hàm điều kiện COUNTIF, SUMIF, IF và xác thực dữ liệu",
+      "seq": 4,
+      "subtitle": "Xác thực nhập liệu (Data Validation), kết hợp hàm IF, COUNTIF, SUMIF giải quyết bài toán quản lí tài chính gia đình và trường học",
+      "concepts": [
+        "Xác thực dữ liệu Data Validation",
+        "Hàm COUNTIF và SUMIF",
+        "Xây dựng bảng quản lí tài chính cá nhân"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH9-B04-001",
+        "d": "basic",
+        "p": "Công cụ nào trong phần mềm bảng tính giúp giới hạn người dùng chỉ được nhập giá trị hợp lệ vào ô (ví dụ điểm số từ 0 đến 10 hoặc chọn từ danh sách xổ xuống)?",
+        "o": [
+          "Conditional Formatting",
+          "Print Preview",
+          "Merge & Center",
+          "Data Validation (Xác thực dữ liệu)"
+        ],
+        "k": "D",
+        "e": "Data Validation ngăn lỗi nhập sai ngay tại thời điểm gõ dữ liệu vào ô tính.",
+        "s": "Tin Học 9",
+        "h": "Chức năng Data Validation"
+      },
+      {
+        "c": "TH9-B04-002",
+        "d": "basic",
+        "p": "Trong cú pháp hàm `=COUNTIF(range, criteria)`, đối số thứ nhất `range` và đối số thứ hai `criteria` lần lượt là gì?",
+        "o": [
+          "Vùng ô cần kiểm tra đếm và điều kiện lọc đếm",
+          "Vùng cần tính tổng và số trang in",
+          "Điều kiện lọc và tên tệp lưu trữ",
+          "Mật khẩu tệp và tên người dùng"
+        ],
+        "k": "A",
+        "e": "COUNTIF(vùng_dữ_liệu, điều_kiện) đếm số ô trong vùng khớp với tiêu chí criteria.",
+        "s": "Tin Học 9",
+        "h": "Tham số của hàm COUNTIF"
+      },
+      {
+        "c": "TH9-B04-003",
+        "d": "basic",
+        "p": "Khi thiết lập Data Validation kiểu \"List\" (Danh sách) cho cột Khoản chi (Ăn uống, Học tập, Giải trí, Tiết kiệm), lợi ích rõ nhất là gì?",
+        "o": [
+          "Người nhập chỉ việc chọn từ menu thả xuống, không bao giờ gõ sai chính tả gây lệch khi dùng SUMIF/COUNTIF",
+          "Tự động thanh toán hóa đơn qua ngân hàng",
+          "Ẩn hết toàn bộ số tiền chi tiêu",
+          "Biến cột chữ thành biểu đồ tròn"
+        ],
+        "k": "A",
+        "e": "Thống nhất tên phân loại giúp hàm COUNTIF/SUMIF gom nhóm chính xác tuyệt đối 100%.",
+        "s": "Tin Học 9",
+        "h": "Lợi ích danh sách thả xuống"
+      },
+      {
+        "c": "TH9-B04-004",
+        "d": "basic",
+        "p": "Hàm `=SUMIF(range, criteria, sum_range)` có mấy đối số chính?",
+        "o": [
+          "3 đối số (vùng xét điều kiện, điều kiện, vùng cần cộng tổng)",
+          "5 đối số bắt buộc",
+          "0 đối số",
+          "1 đối số duy nhất"
+        ],
+        "k": "A",
+        "e": "SUMIF cần biết kiểm tra ở vùng nào, theo điều kiện gì và lấy số ở vùng nào để cộng.",
+        "s": "Tin Học 9",
+        "h": "Cấu trúc hàm SUMIF"
+      },
+      {
+        "c": "TH9-B04-005",
+        "d": "basic",
+        "p": "Tính năng \"Conditional Formatting\" (Định dạng có điều kiện) trên bảng điểm giúp làm nổi bật thông tin như thế nào?",
+        "o": [
+          "Đổi tên tệp bảng tính",
+          "Khóa bàn phím nếu nhập điểm thấp",
+          "Xóa tự động các học sinh điểm kém",
+          "Tự động tô màu nền hoặc màu chữ cho ô dựa trên giá trị bên trong (ví dụ tô đỏ điểm dưới 5)"
+        ],
+        "k": "D",
+        "e": "Conditional Formatting hỗ trợ phát hiện nhanh các điểm bất thường hoặc nhóm nổi bật bằng màu sắc trực quan.",
+        "s": "Tin Học 9",
+        "h": "Định dạng có điều kiện"
+      },
+      {
+        "c": "TH9-B04-006",
+        "d": "basic",
+        "p": "Trong bảng quản lí thu chi cá nhân tháng 11, nếu tổng thu nhập là 1.200.000đ và tổng chi tiêu là 950.000đ, phần chênh lệch 250.000đ gọi là gì?",
+        "o": [
+          "Thuế thu nhập cá nhân",
+          "Số dư (tiền tiết kiệm ròng trong tháng)",
+          "Tổng chi phí cố định",
+          "Khoản bội chi thiếu hụt"
+        ],
+        "k": "B",
+        "e": "Thu > Chi tạo ra số dư dương dùng để tích lũy dự phòng.",
+        "s": "Tin Học 9",
+        "h": "Cân đối thu chi cá nhân"
+      },
+      {
+        "c": "TH9-B04-007",
+        "d": "application",
+        "p": "Xem bảng theo dõi chi tiêu tuần, công thức `=SUMIF(B2:B6, \"Học tập\", C2:C6)` trả về tổng tiền chi cho mục Học tập bằng bao nhiêu nghìn đồng?",
+        "o": [
+          "200",
+          "115",
+          "35",
+          "85"
+        ],
+        "k": "B",
+        "e": "Hai dòng có Loại chi \"Học tập\" là Mua sách (85) và Bút vở (30) → 85 + 30 = 115 (nghìn đồng).",
+        "s": "Tin Học 9",
+        "h": "Tính tổng theo phân loại với SUMIF",
+        "fig": {
+          "type": "table",
+          "title": "Chi tiêu cá nhân (nghìn đ)",
+          "head": [
+            "Ngày (A)",
+            "Loại (B)",
+            "Số tiền (C)"
+          ],
+          "rows": [
+            [
+              "Thứ 2",
+              "Học tập",
+              "85"
+            ],
+            [
+              "Thứ 3",
+              "Ăn sáng",
+              "25"
+            ],
+            [
+              "Thứ 5",
+              "Học tập",
+              "30"
+            ],
+            [
+              "Thứ 6",
+              "Giải trí",
+              "50"
+            ],
+            [
+              "Chủ nhật",
+              "Ăn sáng",
+              "30"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH9-B04-008",
+        "d": "application",
+        "p": "Từ bảng Chi tiêu cá nhân trên, công thức `=COUNTIF(C2:C6, \">=50\")` trả về kết quả nào?",
+        "o": [
+          "5",
+          "2",
+          "135",
+          "3"
+        ],
+        "k": "B",
+        "e": "Các khoản chi từ 50 nghìn đồng trở lên là 85 và 50 → có 2 khoản.",
+        "s": "Tin Học 9",
+        "h": "Đếm số khoản chi vượt ngưỡng"
+      },
+      {
+        "c": "TH9-B04-009",
+        "d": "application",
+        "p": "Khi cài đặt Data Validation cho cột Điểm (từ 0 đến 10 có cả số lẻ 8,5), trong mục Allow của hộp thoại Data Validation em chọn kiểu nào?",
+        "o": [
+          "Whole number (Chỉ cho phép số nguyên)",
+          "Time (Giờ trong ngày)",
+          "Decimal (Số thập phân) giữa Minimum = 0 và Maximum = 10",
+          "Text length (Độ dài chữ)"
+        ],
+        "k": "C",
+        "e": "Điểm có phần thập phân (như 8,5) cần chọn Decimal thay vì Whole number (nếu chọn Whole number sẽ báo lỗi khi nhập 8,5).",
+        "s": "Tin Học 9",
+        "h": "Chọn đúng kiểu Data Validation"
+      },
+      {
+        "c": "TH9-B04-010",
+        "d": "application",
+        "p": "Để hàm `=IF(C2>100, \"Cần tiết kiệm\", \"Hợp lí\")` hoạt động đúng cho 30 ngày trong tháng, khi sao chép từ hàng 2 xuống hàng 31 cần viết gì ở hàng 2?",
+        "o": [
+          "Khóa thành `$C$2` để cả 30 ngày chỉ xem mỗi ngày đầu",
+          "Giữ nguyên `C2` dạng địa chỉ tương đối để mỗi ngày tự đối chiếu ô chi tiêu của chính ngày đó",
+          "Thay `C2` bằng chữ `\"C2\"` trong ngoặc kép",
+          "Dùng hàm SUM thay cho IF"
+        ],
+        "k": "B",
+        "e": "Mỗi dòng ứng với một ngày nên tham chiếu ô cùng dòng phải để tương đối.",
+        "s": "Tin Học 9",
+        "h": "Dùng địa chỉ tương đối trong IF"
+      },
+      {
+        "c": "TH9-B04-011",
+        "d": "application",
+        "p": "Nếu muốn cộng tổng các khoản chi ở vùng `C2:C50` với điều kiện ô phân loại bên cột `B2:B50` chứa chữ khác \"Giải trí\" (loại trừ Giải trí), viết điều kiện trong SUMIF thế nào?",
+        "o": [
+          "\"not Giải trí\"",
+          "\"--Giải trí\"",
+          "\"!=Giải trí\"",
+          "\"<>Giải trí\""
+        ],
+        "k": "D",
+        "e": "Trong hàm Excel/Calc, kí hiệu khác nhau (không bằng) viết là cặp dấu ngoặc nhọn `<>`.",
+        "s": "Tin Học 9",
+        "h": "Toán tử khác nhau <> trong SUMIF"
+      },
+      {
+        "c": "TH9-B04-012",
+        "d": "application",
+        "p": "Một bảng ngân sách đặt mục tiêu chi tiêu tối đa trong tháng là 500.000đ (ô `E1`). Công thức `=IF(SUM(C2:C31)>$E$1, \"Vượt ngân sách\", \"An toàn\")` cảnh báo người dùng dựa vào so sánh nào?",
+        "o": [
+          "So sánh tổng thực chi cả tháng với hạn mức cố định đặt tại ô $E$1",
+          "Đếm số lần chi tiền trong tháng",
+          "So sánh ngày đầu tiên với ngày cuối cùng",
+          "Tìm khoản chi nhỏ nhất trong tháng"
+        ],
+        "k": "A",
+        "e": "Tổng chi lớn hơn hạn mức $E$1 sẽ kích hoạt cảnh báo \"Vượt ngân sách\".",
+        "s": "Tin Học 9",
+        "h": "Thiết lập cảnh báo vượt ngân sách"
+      },
+      {
+        "c": "TH9-B04-013",
+        "d": "advanced",
+        "p": "Một bạn thiết lập Data Validation kiểu List cho cột \"Khoản mục\" với nguồn `=SheetDanhMuc!$A$2:$A$8`, nhưng quên đánh dấu `$` thành `=SheetDanhMuc!A2:A8`. Khi áp dụng xuống các dòng dưới, lỗi gì xảy ra?",
+        "o": [
+          "Dữ liệu bảng bị xóa sạch",
+          "Danh sách tự sắp xếp lại theo thứ tự bảng chữ cái",
+          "Các dòng phía dưới bị trượt phạm vi danh sách xuống các ô trống bên dưới, làm mất dần lựa chọn ở đầu danh sách",
+          "Màu chữ đổi sang màu xanh lá"
+        ],
+        "k": "C",
+        "e": "Tham chiếu nguồn List trong Data Validation cũng tịnh tiến tương đối nếu không khóa cố định bằng dấu $.",
+        "s": "Tin Học 9",
+        "h": "Lỗi trượt nguồn Data Validation"
+      },
+      {
+        "c": "TH9-B04-014",
+        "d": "advanced",
+        "p": "Trong bảng quản lí quỹ lớp có hai cột: `Loại` (Thu hoặc Chi) và `Số tiền`. Làm thế nào tính Tổng số dư quỹ hiện tại chỉ bằng MỘT công thức không cần tạo thêm cột phụ?",
+        "o": [
+          "=MAX(C2:C50) - MIN(C2:C50)",
+          "=COUNTIF(B2:B50, \"Thu\") - COUNTIF(B2:B50, \"Chi\")",
+          "=SUM(C2:C50)",
+          "=SUMIF(B2:B50, \"Thu\", C2:C50) - SUMIF(B2:B50, \"Chi\", C2:C50)"
+        ],
+        "k": "D",
+        "e": "Lấy tổng các dòng ghi \"Thu\" trừ đi tổng các dòng ghi \"Chi\" cho ra ngay số dư quỹ chính xác.",
+        "s": "Tin Học 9",
+        "h": "Công thức tính số dư Thu trừ Chi"
+      },
+      {
+        "c": "TH9-B04-015",
+        "d": "advanced",
+        "p": "Giả sử bảng chi tiêu có 1.000 dòng và có một dòng gõ nhầm \"Hoc tap\" không dấu thay vì \"Học tập\" có dấu. Hàm `=SUMIF(B2:B1001, \"Học tập\", C2:C1001)` sẽ xử lí dòng gõ sai đó thế nào?",
+        "o": [
+          "Báo lỗi #VALUE! toàn bộ bảng",
+          "Tự động sửa dấu tiếng Việt cho đúng rồi cộng vào",
+          "Bỏ sót dòng \"Hoc tap\" không cộng vào tổng Học tập, chứng minh tại sao cần dùng Data Validation List ngay từ đầu",
+          "Cộng gấp đôi số tiền dòng đó"
+        ],
+        "k": "C",
+        "e": "SUMIF đối chiếu khớp chuỗi kí tự; lệch một dấu thanh là bị bỏ sót, khẳng định giá trị thực tế của Data Validation.",
+        "s": "Tin Học 9",
+        "h": "Liên kết Data Validation và SUMIF"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc9-c2",
+    "lesson": {
+      "code": "tinhoc9-b05",
+      "title": "Bài 5. Làm sản phẩm đa phương tiện và bài trình chiếu tổng hợp",
+      "seq": 5,
+      "subtitle": "Kĩ thuật biên tập video ngắn, phối hợp văn bản – hình ảnh – âm thanh, phụ đề và xuất bản sản phẩm đa phương tiện",
+      "concepts": [
+        "Quy trình làm video ngắn giáo dục",
+        "Cắt ghép video và chèn âm thanh phụ đề",
+        "Xuất bản và bản quyền đa phương tiện"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH9-B05-001",
+        "d": "basic",
+        "p": "Phần mềm nào dưới đây là công cụ phổ biến dùng để dựng, cắt ghép video đa phương tiện?",
+        "o": [
+          "Microsoft Excel",
+          "Bộ gõ Unikey",
+          "CapCut, OpenShot, Shotcut hoặc Clipchamp",
+          "WinRAR"
+        ],
+        "k": "C",
+        "e": "OpenShot, Shotcut, Clipchamp hay CapCut cung cấp dòng thời gian (Timeline) để ghép video, ảnh và âm thanh.",
+        "s": "Tin Học 9",
+        "h": "Nhận diện phần mềm dựng video"
+      },
+      {
+        "c": "TH9-B05-002",
+        "d": "basic",
+        "p": "Trong giao diện phần mềm dựng video, thanh nằm ngang phía dưới nơi xếp các lớp video, hình ảnh, nhạc nền và chữ theo trục thời gian gọi là gì?",
+        "o": [
+          "Thanh địa chỉ URL",
+          "Dòng thời gian (Timeline / Track)",
+          "Thanh công thức Excel",
+          "Hộp thoại thiết lập máy in"
+        ],
+        "k": "B",
+        "e": "Timeline quản lí chính xác thời điểm bắt đầu, kết thúc và độ chồng lớp của mọi tư liệu.",
+        "s": "Tin Học 9",
+        "h": "Khái niệm Timeline"
+      },
+      {
+        "c": "TH9-B05-003",
+        "d": "basic",
+        "p": "Thao tác dùng công cụ lưỡi lam hoặc nút Split (Cắt) trên Timeline video có tác dụng gì?",
+        "o": [
+          "Tăng gấp đôi âm lượng loa",
+          "Xóa vĩnh viễn hệ điều hành máy tính",
+          "Đổi định dạng tệp sang .docx",
+          "Chia một đoạn video dài thành hai đoạn độc lập tại vị trí đầu phát để bỏ đoạn thừa hoặc chèn hiệu ứng"
+        ],
+        "k": "D",
+        "e": "Lệnh Split tách clip tại con trỏ thời gian giúp biên tập bỏ cảnh lỗi nhanh chóng.",
+        "s": "Tin Học 9",
+        "h": "Thao tác cắt chia clip Split"
+      },
+      {
+        "c": "TH9-B05-004",
+        "d": "basic",
+        "p": "Vì sao khi chèn nhạc nền vào một video có người thuyết minh giảng bài, cần giảm âm lượng lớp nhạc nền xuống mức thấp hơn hẳn (khoảng 10%–20%)?",
+        "o": [
+          "Để giọng nói thuyết minh rõ ràng, dễ nghe, không bị tiếng nhạc lấn át",
+          "Để rút ngắn thời lượng video còn một nửa",
+          "Vì máy tính không cho phát hai âm thanh một lúc",
+          "Để làm tệp video không phát được âm thanh nữa"
+        ],
+        "k": "A",
+        "e": "Cân bằng mức âm lượng giữa thoại chính và nhạc nền giúp trải nghiệm nghe dễ chịu, chuyên nghiệp.",
+        "s": "Tin Học 9",
+        "h": "Cân bằng âm lượng nhạc nền và thoại"
+      },
+      {
+        "c": "TH9-B05-005",
+        "d": "basic",
+        "p": "Việc thêm phụ đề (Subtitles / Captions) chữ chạy đồng bộ dưới chân video mang lại ích lợi gì?",
+        "o": [
+          "Che khuất toàn bộ hình ảnh chính ở giữa màn hình",
+          "Làm biến mất lớp nhạc nền",
+          "Giúp người xem nắm bắt thông tin ngay cả khi xem ở nơi ồn ào, tắt tiếng hoặc hỗ trợ người khiếm thính",
+          "Tăng tốc độ phát video lên gấp 5 lần"
+        ],
+        "k": "C",
+        "e": "Phụ đề tăng khả năng tiếp cận thông tin và tính chuyên nghiệp cho video truyền thông.",
+        "s": "Tin Học 9",
+        "h": "Vai trò của phụ đề video"
+      },
+      {
+        "c": "TH9-B05-006",
+        "d": "basic",
+        "p": "Định dạng tệp video phổ biến nhất hiện nay tương thích tốt với hầu hết điện thoại, máy tính và trình duyệt web là gì?",
+        "o": [
+          ".mp4",
+          ".txt",
+          ".pptx",
+          ".xlsx"
+        ],
+        "k": "A",
+        "e": "MP4 (H.264/AAC) cân bằng rất tốt giữa chất lượng hình ảnh sắc nét và dung lượng gọn nhẹ.",
+        "s": "Tin Học 9",
+        "h": "Định dạng xuất video .mp4"
+      },
+      {
+        "c": "TH9-B05-007",
+        "d": "application",
+        "p": "Theo quy trình sản xuất một video ngắn 2 phút giới thiệu ngôi trường của em, thứ tự 4 bước chuẩn là gì?",
+        "o": [
+          "Lên kịch bản phân cảnh → Chuẩn bị/quay thu tư liệu → Dựng ghép biên tập trên phần mềm → Xem lại sửa lỗi và xuất tệp .mp4",
+          "Xuất tệp .mp4 → Quay hình ngẫu nhiên → Xóa kịch bản → Thêm nhạc",
+          "Đăng lên mạng trước rồi mới quay video",
+          "Chỉnh màu chữ → Tắt máy → Quay lại từ đầu"
+        ],
+        "k": "A",
+        "e": "Có kịch bản phân cảnh trước khi quay giúp đủ góc cảnh, tiết kiệm rất nhiều thời gian cắt dựng.",
+        "s": "Tin Học 9",
+        "h": "Quy trình 4 bước làm video",
+        "fig": {
+          "type": "table",
+          "title": "Quy trình dựng video ngắn",
+          "head": [
+            "Giai đoạn",
+            "Công việc chính"
+          ],
+          "rows": [
+            [
+              "1. Tiền kì",
+              "Kịch bản, phân cảnh"
+            ],
+            [
+              "2. Sản xuất",
+              "Quay, thu âm, ảnh"
+            ],
+            [
+              "3. Hậu kì",
+              "Cắt ghép, chữ, nhạc"
+            ],
+            [
+              "4. Xuất bản",
+              "Kiểm tra, xuất .mp4"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH9-B05-008",
+        "d": "application",
+        "p": "Trên Timeline có hai lớp (Track): Track 1 bên dưới đặt Video chính, Track 2 nằm phía trên đặt Logo góc nhỏ (hoặc dòng chữ tiêu đề). Nguyên tắc hiển thị lớp trên dưới là gì?",
+        "o": [
+          "Đối tượng nằm ở Track phía trên sẽ hiển thị đè lên phía trước đối tượng ở Track bên dưới",
+          "Cả hai Track tự động biến mất",
+          "Chỉ phát được Track số 1",
+          "Track bên dưới luôn che khuất hoàn toàn Track phía trên"
+        ],
+        "k": "A",
+        "e": "Lớp trên (overlay) che hoặc đè lên lớp nền bên dưới theo thứ tự từ trên xuống.",
+        "s": "Tin Học 9",
+        "h": "Nguyên tắc chồng lớp Track"
+      },
+      {
+        "c": "TH9-B05-009",
+        "d": "application",
+        "p": "Hiệu ứng chuyển cảnh nhẹ nhàng giữa hai đoạn video (Transition như Cross Dissolve / Mờ dần nối tiếp) nên đặt ở vị trí nào?",
+        "o": [
+          "Ngay tại ranh giới tiếp giáp giữa điểm kết thúc clip trước và điểm bắt đầu clip sau",
+          "Phủ kín toàn bộ chiều dài 2 phút video",
+          "Chỉ đặt ở giây cuối cùng sau khi màn hình đã tắt đen",
+          "Ở ngoài vùng trống không có video nào"
+        ],
+        "k": "A",
+        "e": "Transition làm mềm sự chuyển tiếp giữa hai cảnh quay nối liền nhau.",
+        "s": "Tin Học 9",
+        "h": "Vị trí đặt hiệu ứng chuyển cảnh"
+      },
+      {
+        "c": "TH9-B05-010",
+        "d": "application",
+        "p": "Khi xuất (Export) video thành phẩm để nộp cho thầy cô qua cổng học tập trực tuyến có giới hạn dung lượng, yếu tố nào ảnh hưởng mạnh nhất tới độ nặng (MB) của tệp video xuất ra?",
+        "o": [
+          "Màu sắc của vỏ chuột máy tính",
+          "Tên gọi của thư mục lưu trữ video",
+          "Số lượng chữ cái trong tên tác giả",
+          "Độ phân giải (như 1080p hay 720p), tốc độ bit (Bitrate) và thời lượng video"
+        ],
+        "k": "D",
+        "e": "Giảm nhẹ bitrate hoặc xuất ở độ phân giải chuẩn 720p/1080p hợp lí giúp dung lượng gọn mà vẫn rõ nét.",
+        "s": "Tin Học 9",
+        "h": "Yếu tố ảnh hưởng dung lượng video"
+      },
+      {
+        "c": "TH9-B05-011",
+        "d": "application",
+        "p": "Khi thu âm lời bình cho video hướng dẫn học tập bằng micrô tại nhà, cách thu nào cho chất lượng âm thanh sạch ít tạp âm nhất?",
+        "o": [
+          "Thu ở phòng yên tĩnh, tắt quạt thổi trực tiếp vào mic và giữ khoảng cách nói ổn định cách mic khoảng 15–20 cm",
+          "Thu âm ngay cạnh đường quốc lộ giờ cao điểm",
+          "Đặt micrô sát cạnh loa đang phát nhạc to",
+          "Nói thầm thật nhỏ cách mic 3 mét"
+        ],
+        "k": "A",
+        "e": "Môi trường tĩnh và khoảng cách mic đều đặn hạn chế tiếng gió, tiếng ồn nền khó lọc bỏ ở khâu hậu kì.",
+        "s": "Tin Học 9",
+        "h": "Kĩ thuật thu âm sạch"
+      },
+      {
+        "c": "TH9-B05-012",
+        "d": "application",
+        "p": "Trong dự án báo cáo bằng PowerPoint có chèn nhiều ảnh minh họa dung lượng lớn nhưng muốn chia sẻ bản xem tự động hoàn chỉnh dưới dạng video cho người không cài PowerPoint xem được trên điện thoại, em dùng lệnh nào?",
+        "o": [
+          "In ra giấy rồi dùng máy quét",
+          "File → Export → Create a Video (xuất thẳng bài trình chiếu thành tệp .mp4)",
+          "Nén thành tệp .zip rồi mở bằng trình phát nhạc",
+          "Đổi thủ công đuôi .pptx sang .mp4 bằng cách sửa tên tệp"
+        ],
+        "k": "B",
+        "e": "Tính năng Create a Video tích hợp trong PowerPoint tự ghi lại các slide, hiệu ứng và thời gian chuyển cảnh thành video MP4 hoàn chỉnh.",
+        "s": "Tin Học 9",
+        "h": "Xuất bài trình chiếu thành Video"
+      },
+      {
+        "c": "TH9-B05-013",
+        "d": "advanced",
+        "p": "Khi đang dựng một dự án video dài trong phần mềm biên tập (tệp dự án `.osp` hoặc `.mlt`), bạn Minh xóa mất thư mục chứa các đoạn video quay gốc ngoài ổ D vì nghĩ \"đã kéo vào phần mềm rồi\". Khi mở lại dự án để sửa, chuyện gì xảy ra?",
+        "o": [
+          "Phần mềm tự quay lại cảnh mới thay thế",
+          "Tự động tải lại video từ bàn phím",
+          "Video vẫn xuất bình thường không ảnh hưởng gì",
+          "Phần mềm báo lỗi mất tư liệu nguồn (Missing Media) vì tệp dự án chỉ lưu đường dẫn tham chiếu chứ không chứa bản sao các clip gốc"
+        ],
+        "k": "D",
+        "e": "Tệp dự án dựng phim chỉ lưu các mốc cắt ghép và đường dẫn tới tệp gốc; luôn phải giữ nguyên thư mục tư liệu cho đến khi xuất xong thành phẩm.",
+        "s": "Tin Học 9",
+        "h": "Hiểu cơ chế tham chiếu tệp dự án dựng phim"
+      },
+      {
+        "c": "TH9-B05-014",
+        "d": "advanced",
+        "p": "Một video quay bằng điện thoại theo chiều dọc (tỉ lệ 9:16) nhưng lại đưa vào dự án khung ngang chuẩn màn hình máy chiếu (tỉ lệ 16:9) làm xuất hiện hai khoảng đen rất lớn ở hai bên. Cách xử lí thẩm mĩ hay dùng nhất là gì?",
+        "o": [
+          "Đặt thêm bản sao video phóng to làm mờ ở lớp dưới làm nền (blur background) hoặc bổ sung bảng chữ chú thích gọn vào khoảng trống hai bên",
+          "Cắt bỏ phần đầu người nói",
+          "Kéo giãn ngang hình người ra cho đầy khung 16:9 làm méo biến dạng toàn bộ",
+          "Xoay ngang cả đoạn video 90 độ khiến người xem phải nghiêng đầu"
+        ],
+        "k": "A",
+        "e": "Dùng nền làm mờ cùng tông hoặc bố trí khung thông tin phụ giữ nguyên tỉ lệ tự nhiên của chủ thể quay.",
+        "s": "Tin Học 9",
+        "h": "Xử lí lệch khung hình dọc và ngang"
+      },
+      {
+        "c": "TH9-B05-015",
+        "d": "advanced",
+        "p": "Một đoạn video có thời lượng 60 giây với tốc độ ghi hình 30 khung hình mỗi giây (30 fps). Tổng cộng đoạn video đó chứa bao nhiêu bức ảnh tĩnh liên tiếp?",
+        "o": [
+          "1.800 khung hình",
+          "3.600 khung hình",
+          "300 khung hình",
+          "90 khung hình"
+        ],
+        "k": "A",
+        "e": "60 giây × 30 khung hình/giây = 1.800 khung hình tĩnh chiếu liên tiếp tạo cảm giác chuyển động mượt mà.",
+        "s": "Tin Học 9",
+        "h": "Tính số khung hình video theo fps"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc9-c2",
+    "lesson": {
+      "code": "tinhoc9-b06",
+      "title": "Bài 6. Ôn tập Học kì 1 – Tin học 9",
+      "seq": 6,
+      "subtitle": "Tổng hợp kiến thức Học kì 1: Thế giới số IoT, Đánh giá chất lượng thông tin, Mô phỏng trực quan, Bảng tính nâng cao và Đa phương tiện",
+      "concepts": [
+        "Công nghệ số và đánh giá thông tin",
+        "Mô phỏng khoa học học tập",
+        "COUNTIF SUMIF Validation và Video"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH9-B06-001",
+        "d": "basic",
+        "p": "Hệ thống kết nối các thiết bị thông minh gắn cảm biến với Internet để thu thập dữ liệu và tự động vận hành gọi là gì?",
+        "o": [
+          "Mạng in nội bộ đơn lẻ",
+          "Internet vạn vật (IoT)",
+          "Bộ gõ văn bản",
+          "Trình xem ảnh tĩnh"
+        ],
+        "k": "B",
+        "e": "IoT kết nối thế giới vật lí với mạng số để tự động hóa thông minh.",
+        "s": "Tin Học 9",
+        "h": "Ôn tập khái niệm IoT"
+      },
+      {
+        "c": "TH9-B06-002",
+        "d": "basic",
+        "p": "Tiêu chí nào KHÔNG nằm trong bốn tiêu chí đánh giá chất lượng thông tin tìm kiếm?",
+        "o": [
+          "Tính đầy đủ",
+          "Số lượt biểu tượng cảm xúc nhiều nhất",
+          "Tính mới (cập nhật)",
+          "Tính chính xác"
+        ],
+        "k": "B",
+        "e": "Bốn tiêu chí gồm: tính mới, tính chính xác, tính đầy đủ và tính sử dụng được.",
+        "s": "Tin Học 9",
+        "h": "Ôn tập tiêu chí chất lượng thông tin"
+      },
+      {
+        "c": "TH9-B06-003",
+        "d": "basic",
+        "p": "Phần mềm mô phỏng PhET thường được sử dụng hiệu quả nhất cho các môn học nào?",
+        "o": [
+          "Chỉ để soạn thảo đơn hành chính",
+          "Chỉ để quét vi-rút ổ cứng",
+          "Vật lí, Hóa học, Sinh học và Toán học",
+          "Chỉ để phát nhạc đám cưới"
+        ],
+        "k": "C",
+        "e": "PhET cung cấp kho thí nghiệm ảo tương tác các môn KHTN và Toán.",
+        "s": "Tin Học 9",
+        "h": "Ôn tập phần mềm PhET"
+      },
+      {
+        "c": "TH9-B06-004",
+        "d": "basic",
+        "p": "Hàm nào trong bảng tính dùng để ĐẾM số ô thỏa mãn một điều kiện cụ thể?",
+        "o": [
+          "MAX",
+          "SUMIF",
+          "AVERAGE",
+          "COUNTIF"
+        ],
+        "k": "D",
+        "e": "COUNTIF đếm có điều kiện; SUMIF tính tổng có điều kiện.",
+        "s": "Tin Học 9",
+        "h": "Ôn tập COUNTIF"
+      },
+      {
+        "c": "TH9-B06-005",
+        "d": "basic",
+        "p": "Để khống chế chỉ cho phép người dùng chọn các mục định sẵn từ danh sách thả xuống trong ô bảng tính, ta dùng tính năng nào?",
+        "o": [
+          "Page Setup",
+          "Conditional Formatting",
+          "Data Validation → Allow: List",
+          "Merge Cells"
+        ],
+        "k": "C",
+        "e": "Data Validation kiểu List tạo danh sách chọn cố định ngăn sai sót nhập liệu.",
+        "s": "Tin Học 9",
+        "h": "Ôn tập Data Validation"
+      },
+      {
+        "c": "TH9-B06-006",
+        "d": "basic",
+        "p": "Trong phần mềm biên tập video, vùng bố trí các đoạn phim, nhạc nền và chữ theo trục thời gian gọi là gì?",
+        "o": [
+          "Formula Bar",
+          "Timeline (Dòng thời gian)",
+          "Bookmark",
+          "Recycle Bin"
+        ],
+        "k": "B",
+        "e": "Timeline sắp xếp đồng bộ các lớp âm thanh, hình ảnh và văn bản theo thời gian.",
+        "s": "Tin Học 9",
+        "h": "Ôn tập Timeline dựng video"
+      },
+      {
+        "c": "TH9-B06-007",
+        "d": "application",
+        "p": "Bạn An đọc một bài viết về \"Luật giao thông đường bộ\" đăng từ năm 2010 trong khi hiện tại vừa có quy định mức phạt mới ban hành năm nay. Bài viết năm 2010 không còn phù hợp ở tiêu chí nào?",
+        "o": [
+          "Cỡ chữ hiển thị",
+          "Tính mới (tính cập nhật thời sự)",
+          "Độ dài số lượng chữ",
+          "Màu sắc đường viền web"
+        ],
+        "k": "B",
+        "e": "Văn bản pháp luật thay đổi theo thời gian, dùng bài cũ 2010 dẫn đến áp dụng sai quy định hiện hành.",
+        "s": "Tin Học 9",
+        "h": "Kiểm tra tính cập nhật pháp lí"
+      },
+      {
+        "c": "TH9-B06-008",
+        "d": "application",
+        "p": "Cho bảng doanh thu bán vé: cột A là Loại vé (\"Học sinh\" hoặc \"Người lớn\"), cột B là Thành tiền từ B2:B20. Công thức tính tổng tiền bán riêng cho vé \"Học sinh\" là gì?",
+        "o": [
+          "=IF(A2:A20=\"Học sinh\", B2:B20, 0)",
+          "=SUMIF(A2:A20, \"Học sinh\", B2:B20)",
+          "=SUM(A2:A20, \"Học sinh\")",
+          "=COUNTIF(A2:A20, \"Học sinh\", B2:B20)"
+        ],
+        "k": "B",
+        "e": "SUMIF kiểm tra cột Loại vé (A2:A20) khớp \"Học sinh\" rồi cộng tương ứng cột Thành tiền (B2:B20).",
+        "s": "Tin Học 9",
+        "h": "Ôn tập cú pháp SUMIF"
+      },
+      {
+        "c": "TH9-B06-009",
+        "d": "application",
+        "p": "Khi dựng video giới thiệu dự án nhóm, bạn Bình kéo tệp logo nhóm đặt ở Track 1 dưới cùng và video nền đặt ở Track 2 phía trên. Chuyện gì xảy ra khi xem thử?",
+        "o": [
+          "Video nền ở Track 2 che khuất mất logo ở Track 1; cần đảo logo lên Track trên cùng",
+          "Logo tự phóng to gấp đôi",
+          "Âm thanh tắt hoàn toàn",
+          "Video phát ngược từ cuối lên đầu"
+        ],
+        "k": "A",
+        "e": "Lớp nằm trên che lớp nằm dưới; các vật nhỏ phủ lên trên (logo, chữ, phụ đề) luôn phải đặt ở Track cao hơn video nền.",
+        "s": "Tin Học 9",
+        "h": "Xử lí lỗi bị che lớp trên Timeline"
+      },
+      {
+        "c": "TH9-B06-010",
+        "d": "application",
+        "p": "Một mô phỏng mạch điện trên máy tính cho phép điều chỉnh điện trở R từ 1 Ôm đến 50 Ôm. Khi kéo R tăng dần trong khi hiệu điện thế U giữ nguyên, học sinh thấy cường độ dòng điện I thay đổi thế nào?",
+        "o": [
+          "Giảm dần tỉ lệ nghịch với R (theo định luật Ôm)",
+          "Đảo chiều dòng điện",
+          "Giữ nguyên không đổi",
+          "Tăng vọt lên vô cực"
+        ],
+        "k": "A",
+        "e": "Theo định luật Ôm I = U / R, giữ nguyên U và tăng R làm I giảm đi.",
+        "s": "Tin Học 9",
+        "h": "Ứng dụng mô phỏng định luật Ôm"
+      },
+      {
+        "c": "TH9-B06-011",
+        "d": "application",
+        "p": "Để làm nổi bật màu xanh lá tự động cho mọi ô điểm kiểm tra đạt từ 8,0 trở lên trong cột Điểm (D2:D40), công cụ nhanh nhất là gì?",
+        "o": [
+          "Tự nhấp tô màu nền thủ công từng ô một",
+          "Conditional Formatting → Highlight Cells Rules → Greater Than or Equal To 8",
+          "Xóa các điểm nhỏ hơn 8",
+          "Dùng hàm COUNTIF đổi màu nền"
+        ],
+        "k": "B",
+        "e": "Conditional Formatting tự động cập nhật màu sắc ngay cả khi điểm số trong ô bị chỉnh sửa sau đó.",
+        "s": "Tin Học 9",
+        "h": "Định dạng màu tự động theo giá trị"
+      },
+      {
+        "c": "TH9-B06-012",
+        "d": "application",
+        "p": "Tại sao việc dùng chung một ổ cắm sạc chất lượng kém hoặc vứt pin lithium cũ bừa bãi có thể gây hại cho cộng đồng?",
+        "o": [
+          "Giúp cây cối xung quanh phát triển nhanh hơn",
+          "Gây nguy cơ cháy nổ mất an toàn điện và hóa chất độc hại trong pin rò rỉ ô nhiễm môi trường",
+          "Làm giảm độ sáng màn hình máy tính hàng xóm",
+          "Làm tăng dung lượng lưu trữ của bộ nhớ đám mây"
+        ],
+        "k": "B",
+        "e": "Thiết bị điện tử và pin chứa kim loại nặng, chất dễ cháy cần sử dụng an toàn và xử lí đúng nơi thu hồi.",
+        "s": "Tin Học 9",
+        "h": "An toàn và môi trường công nghệ số"
+      },
+      {
+        "c": "TH9-B06-013",
+        "d": "advanced",
+        "p": "Trong bảng quản lí thu chi gia đình theo bảng minh họa, công thức nào đặt ở ô D2 để tính riêng tổng tiền CHI (cột C) cho mục \"Ăn uống\"?",
+        "o": [
+          "=SUMIF(B2:B5, \"Ăn uống\", C2:C5)",
+          "=SUMIFS(C2:C5, A2:A5, \"Chi\", B2:B5, \"Ăn uống\")",
+          "=SUM(C2:C5)",
+          "=COUNTIF(A2:A5, \"Chi\")"
+        ],
+        "k": "B",
+        "e": "SUMIF đơn chỉ lọc được 1 điều kiện; ở đây vừa phải là \"Chi\" ở cột A vừa phải là \"Ăn uống\" ở cột B nên dùng SUMIFS.",
+        "s": "Tin Học 9",
+        "h": "Phân biệt khi nào cần SUMIFS",
+        "fig": {
+          "type": "table",
+          "title": "Nhật kí thu chi",
+          "head": [
+            "Loại (A)",
+            "Mục (B)",
+            "Số tiền (C)"
+          ],
+          "rows": [
+            [
+              "Chi",
+              "Ăn uống",
+              "200"
+            ],
+            [
+              "Thu",
+              "Lương",
+              "5000"
+            ],
+            [
+              "Chi",
+              "Học tập",
+              "150"
+            ],
+            [
+              "Chi",
+              "Ăn uống",
+              "120"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH9-B06-014",
+        "d": "advanced",
+        "p": "Dựa vào bảng Nhật kí thu chi ở trên, nếu tính tổng thực chi (`A = \"Chi\"`) trừ đi tổng thu (`A = \"Thu\"`) hay ngược lại Thu trừ Chi thì số dư cuối cùng bằng bao nhiêu?",
+        "o": [
+          "4530",
+          "5470",
+          "5000",
+          "470"
+        ],
+        "k": "A",
+        "e": "Thu = 5000; Chi = 200 + 150 + 120 = 470; Số dư = 5000 - 470 = 4530.",
+        "s": "Tin Học 9",
+        "h": "Kiểm tra cân đối sổ thu chi"
+      },
+      {
+        "c": "TH9-B06-015",
+        "d": "advanced",
+        "p": "Khi gửi một video bài tập dài 3 phút nặng 400 MB không đính kèm trực tiếp được qua Email giới hạn 25 MB, giải pháp hiệu quả và chuyên nghiệp nhất là gì?",
+        "o": [
+          "Gửi email rỗng và không báo lại cho thầy cô",
+          "Nén xuất lại hợp lí ở chuẩn MP4 720p (hoặc tải lên dịch vụ lưu trữ đám mây an toàn như Google Drive rồi chia sẻ liên kết phân quyền xem trong Email)",
+          "Cắt bỏ 2 phút 50 giây cuối video chỉ giữ 10 giây đầu",
+          "Đổi đuôi tệp .mp4 thành .txt cho nhẹ"
+        ],
+        "k": "B",
+        "e": "Lưu trữ đám mây kèm phân quyền chia sẻ hoặc tối ưu lại thông số bitrate MP4 là giải pháp chuẩn thực tế.",
+        "s": "Tin Học 9",
+        "h": "Chia sẻ sản phẩm video dung lượng lớn"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc9-c3",
+    "lesson": {
+      "code": "tinhoc9-b07",
+      "title": "Bài 7. Bài toán tin học và cấu trúc rẽ nhánh, lặp trong giải quyết vấn đề",
+      "seq": 7,
+      "subtitle": "Xác định bài toán tin học, thiết kế thuật toán giải bài toán thực tế trên máy tính bằng lập trình trực quan hoặc giả mã",
+      "concepts": [
+        "Mô hình hóa bài toán thực tế",
+        "Thuật toán xử lí dãy số và chuỗi",
+        "Kiểm chứng tính đúng của thuật toán"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH9-B07-001",
+        "d": "basic",
+        "p": "Hai thành phần bắt buộc phải xác định rõ đầu tiên khi phân tích một bài toán tin học trước khi viết chương trình là gì?",
+        "o": [
+          "Số lượng người xem và âm lượng loa",
+          "Giá tiền máy tính và hãng sản xuất",
+          "Đầu vào (Input – dữ liệu đã cho) và Đầu ra (Output – kết quả cần tìm)",
+          "Tên màu nền sân khấu và kiểu chữ"
+        ],
+        "k": "C",
+        "e": "Xác định đúng Input và Output giúp khoanh vùng dữ liệu và mục tiêu tính toán.",
+        "s": "Tin Học 9",
+        "h": "Xác định Input và Output"
+      },
+      {
+        "c": "TH9-B07-002",
+        "d": "basic",
+        "p": "Trong quy trình giải quyết vấn đề bằng máy tính, bước nào thực hiện ngay sau khi đã xây dựng xong thuật toán trên giấy/sơ đồ?",
+        "o": [
+          "Viết chương trình cài đặt thuật toán bằng một ngôn ngữ lập trình (như Scratch hoặc Python)",
+          "Tắt máy tính đem cất",
+          "Xóa bỏ bản mô tả thuật toán vừa viết",
+          "Đóng gói bán ngay không cần chạy thử"
+        ],
+        "k": "A",
+        "e": "Quy trình: Xác định bài toán → Thiết kế thuật toán → Viết chương trình → Kiểm thử & hoàn thiện.",
+        "s": "Tin Học 9",
+        "h": "Các bước giải bài toán trên máy tính"
+      },
+      {
+        "c": "TH9-B07-003",
+        "d": "basic",
+        "p": "Để biểu diễn một thuật toán một cách trực quan bằng các khối hình chữ nhật, hình thoi và mũi tên, ta sử dụng công cụ nào?",
+        "o": [
+          "Sơ đồ khối (Flowchart)",
+          "Từ điển song ngữ",
+          "Biểu đồ hình tròn",
+          "Bảng tính tài chính"
+        ],
+        "k": "A",
+        "e": "Sơ đồ khối giúp người đọc nhìn rõ các bước xử lí và luồng rẽ nhánh, vòng lặp.",
+        "s": "Tin Học 9",
+        "h": "Công cụ sơ đồ khối"
+      },
+      {
+        "c": "TH9-B07-004",
+        "d": "basic",
+        "p": "Trong bài toán \"Tính chỉ số BMI từ cân nặng W (kg) và chiều cao H (m) theo công thức BMI = W / (H * H)\", đầu vào Input là gì?",
+        "o": [
+          "Năm sinh của học sinh",
+          "Chỉ số BMI và lời khuyên sức khỏe",
+          "Hai số đo Cân nặng W và Chiều cao H",
+          "Tên tuổi của bác sĩ"
+        ],
+        "k": "C",
+        "e": "W và H là dữ kiện nhập vào, còn BMI là đầu ra Output.",
+        "s": "Tin Học 9",
+        "h": "Input bài toán tính BMI"
+      },
+      {
+        "c": "TH9-B07-005",
+        "d": "basic",
+        "p": "Một bài toán đếm có bao nhiêu số chính phương trong danh sách A. Điều kiện kiểm tra một số nguyên dương `x` là số chính phương trong lập trình là gì?",
+        "o": [
+          "x lớn hơn 100",
+          "x chia hết cho 10",
+          "x là số chẵn chia hết cho 2",
+          "Căn bậc hai của x là số nguyên (tức phần nguyên căn bậc hai bình phương lên bằng đúng x)"
+        ],
+        "k": "D",
+        "e": "Số chính phương (như 1, 4, 9, 16, 25...) có căn bậc hai là một số nguyên.",
+        "s": "Tin Học 9",
+        "h": "Điều kiện nhận biết số chính phương"
+      },
+      {
+        "c": "TH9-B07-006",
+        "d": "basic",
+        "p": "Thuật toán đúng phải cho kết quả chính xác với mọi bộ dữ liệu đầu vào hợp lệ. Tính chất này của thuật toán gọi là gì?",
+        "o": [
+          "Tính ngẫu nhiên",
+          "Tính trùng lặp",
+          "Tính vô hạn",
+          "Tính đúng đắn (Accuracy / Correctness)"
+        ],
+        "k": "D",
+        "e": "Bên cạnh tính dừng và tính xác định, tính đúng đắn là tiêu chuẩn hàng đầu.",
+        "s": "Tin Học 9",
+        "h": "Tính đúng đắn của thuật toán"
+      },
+      {
+        "c": "TH9-B07-007",
+        "d": "application",
+        "p": "Xem sơ đồ khối thuật toán tính giá trị tuyệt đối của số X: nếu `X < 0` thì gán `KQ = -X`, ngược lại `KQ = X`. Nếu nhập `X = -15`, đầu ra `KQ` bằng bao nhiêu?",
+        "o": [
+          "15",
+          "-15",
+          "30",
+          "0"
+        ],
+        "k": "A",
+        "e": "Vì -15 < 0 là Đúng nên theo nhánh trái KQ = -(-15) = 15.",
+        "s": "Tin Học 9",
+        "h": "Đọc sơ đồ khối tính giá trị tuyệt đối",
+        "fig": {
+          "w": 320,
+          "h": 185,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  100,
+                  14
+                ],
+                [
+                  220,
+                  14
+                ],
+                [
+                  220,
+                  44
+                ],
+                [
+                  100,
+                  44
+                ]
+              ],
+              "fill": "#dcfce7",
+              "stroke": "#16a34a",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                33
+              ],
+              "s": "Nhập số thực X",
+              "anchor": "middle",
+              "size": 11.5
+            },
+            {
+              "t": "line",
+              "a": [
+                160,
+                44
+              ],
+              "b": [
+                160,
+                62
+              ],
+              "arrow": true,
+              "color": "#334155",
+              "w": 2
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  160,
+                  64
+                ],
+                [
+                  235,
+                  94
+                ],
+                [
+                  160,
+                  124
+                ],
+                [
+                  85,
+                  94
+                ]
+              ],
+              "fill": "#fef3c7",
+              "stroke": "#d97706",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                98
+              ],
+              "s": "X < 0 ?",
+              "anchor": "middle",
+              "size": 11.5
+            },
+            {
+              "t": "line",
+              "a": [
+                85,
+                94
+              ],
+              "b": [
+                55,
+                138
+              ],
+              "arrow": true,
+              "color": "#16a34a",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                58,
+                110
+              ],
+              "s": "Đúng",
+              "anchor": "middle",
+              "size": 10.5,
+              "color": "#15803d"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  10,
+                  140
+                ],
+                [
+                  135,
+                  140
+                ],
+                [
+                  135,
+                  170
+                ],
+                [
+                  10,
+                  170
+                ]
+              ],
+              "fill": "#dbeafe",
+              "stroke": "#2563eb",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                72,
+                159
+              ],
+              "s": "KQ = -X",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "line",
+              "a": [
+                235,
+                94
+              ],
+              "b": [
+                265,
+                138
+              ],
+              "arrow": true,
+              "color": "#dc2626",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                264,
+                110
+              ],
+              "s": "Sai",
+              "anchor": "middle",
+              "size": 10.5,
+              "color": "#dc2626"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  185,
+                  140
+                ],
+                [
+                  310,
+                  140
+                ],
+                [
+                  310,
+                  170
+                ],
+                [
+                  185,
+                  170
+                ]
+              ],
+              "fill": "#fee2e2",
+              "stroke": "#dc2626",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                247,
+                159
+              ],
+              "s": "KQ = X",
+              "anchor": "middle",
+              "size": 11
+            }
+          ]
+        }
+      },
+      {
+        "c": "TH9-B07-008",
+        "d": "application",
+        "p": "Để tính ước chung lớn nhất (ƯCLN) của hai số nguyên dương `a` và `b` theo thuật toán Euclid trừ dần: lặp trong khi `a ≠ b`: nếu `a > b` thì `a = a - b`, ngược lại `b = b - a`. Với `a = 24, b = 18`, bước đầu tiên cặp `(a, b)` biến đổi thành gì?",
+        "o": [
+          "a = 42, b = 18",
+          "a = 24, b = 6",
+          "a = 18, b = 24",
+          "a = 6, b = 18"
+        ],
+        "k": "D",
+        "e": "24 > 18 nên lấy a = 24 - 18 = 6, giữ nguyên b = 18.",
+        "s": "Tin Học 9",
+        "h": "Bước 1 thuật toán Euclid"
+      },
+      {
+        "c": "TH9-B07-009",
+        "d": "application",
+        "p": "Tiếp tục thuật toán Euclid trên với `a = 6, b = 18`, sau khi kết thúc vòng lặp (khi `a = b`), giá trị ƯCLN thu được là bao nhiêu?",
+        "o": [
+          "3",
+          "18",
+          "6",
+          "12"
+        ],
+        "k": "C",
+        "e": "(6,18) → (6,12) → (6,6) → dừng lại vì a = b = 6, trả về ƯCLN = 6.",
+        "s": "Tin Học 9",
+        "h": "Kết quả thuật toán Euclid"
+      },
+      {
+        "c": "TH9-B07-010",
+        "d": "application",
+        "p": "Trong bài toán kiểm tra 3 độ dài dương `a, b, c` có lập thành một tam giác hay không, điều kiện cần và đủ viết bằng logic lập trình là gì?",
+        "o": [
+          "(a + b > c) và (a + c > b) và (b + c > a)",
+          "(a + b > c) hoặc (a + c > b)",
+          "(a * b) > c",
+          "(a = b) và (b = c)"
+        ],
+        "k": "A",
+        "e": "Bất đẳng thức tam giác yêu cầu tổng hai cạnh bất kì phải lớn hơn cạnh còn lại ở cả 3 cặp.",
+        "s": "Tin Học 9",
+        "h": "Điều kiện 3 cạnh lập thành tam giác"
+      },
+      {
+        "c": "TH9-B07-011",
+        "d": "application",
+        "p": "Thuật toán đảo ngược các chữ số của một số nguyên dương `N = 247` bằng vòng lặp chia lấy dư 10: `KQ = 0`; lặp khi `N > 0`: `du = N mod 10; KQ = KQ * 10 + du; N = floor(N / 10)`. Sau lượt lặp thứ 2, biến `KQ` và `N` bằng bao nhiêu?",
+        "o": [
+          "KQ = 24, N = 7",
+          "KQ = 74, N = 2",
+          "KQ = 7, N = 24",
+          "KQ = 742, N = 0"
+        ],
+        "k": "B",
+        "e": "Lượt 1: du=7, KQ=7, N=24. Lượt 2: du=4, KQ=74, N=2.",
+        "s": "Tin Học 9",
+        "h": "Truy vết tách chữ số với mod 10"
+      },
+      {
+        "c": "TH9-B07-012",
+        "d": "application",
+        "p": "Trong bài toán \"Tìm tất cả học sinh có điểm cao nhất lớp\", vì sao chỉ lưu 1 tên học sinh đầu tiên đạt Max là chưa đủ?",
+        "o": [
+          "Vì biến không lưu được tên người",
+          "Vì có thể có nhiều học sinh cùng đạt số điểm cao nhất (đồng thủ khoa) cần liệt kê hết",
+          "Vì điểm cao nhất luôn bằng 0",
+          "Vì lớp học chỉ có một học sinh duy nhất"
+        ],
+        "k": "B",
+        "e": "Sau khi tìm được giá trị Max, duyệt lại danh sách để lấy tất cả các bạn có điểm bằng Max sẽ đầy đủ công bằng.",
+        "s": "Tin Học 9",
+        "h": "Xử lí trường hợp đồng giá trị Max"
+      },
+      {
+        "c": "TH9-B07-013",
+        "d": "advanced",
+        "p": "Một bài toán giao thông thông minh: tính cước taxi gồm giá mở cửa 12.000đ cho km đầu tiên (`d <= 1`), từ trên 1 km đến 10 km giá 14.000đ mỗi km, trên 10 km phần vượt tính 11.000đ mỗi km. Với quãng đường `d = 12` km, số tiền cước đúng theo thuật toán là bao nhiêu?",
+        "o": [
+          "160.000 đồng",
+          "132.000 đồng",
+          "144.000 đồng",
+          "168.000 đồng"
+        ],
+        "k": "A",
+        "e": "1 km đầu: 12.000đ; 9 km tiếp (từ km 1 đến 10): 9 × 14.000 = 126.000đ; 2 km vượt (>10): 2 × 11.000 = 22.000đ. Tổng = 160.000đ.",
+        "s": "Tin Học 9",
+        "h": "Tính cước bậc thang 3 mức"
+      },
+      {
+        "c": "TH9-B07-014",
+        "d": "advanced",
+        "p": "Khi viết chương trình kiểm tra một số `N` rất lớn (ví dụ N = 1.000.000.000) có phải số nguyên tố hay không, thay vì thử chia `i` từ 2 đến `N - 1`, người ta tối ưu chỉ thử chia từ 2 đến phần nguyên căn bậc hai của `N` (`sqrt(N)`). Tối ưu này giảm số phép chia xuống khoảng bao nhiêu?",
+        "o": [
+          "Làm sai kết quả với mọi số lẻ",
+          "Chỉ còn khoảng 31.622 phép chia thay vì gần 1 tỉ phép chia, nhanh hơn hàng chục nghìn lần",
+          "Chỉ chạy đúng 2 phép chia",
+          "Vẫn cần chạy đủ 1 tỉ phép chia như cũ"
+        ],
+        "k": "B",
+        "e": "Nếu N có ước lớn hơn sqrt(N) thì chắc chắn nó cũng có một ước tương ứng nhỏ hơn hoặc bằng sqrt(N), nên dừng ở sqrt(N) vừa đúng tuyệt đối vừa siêu nhanh.",
+        "s": "Tin Học 9",
+        "h": "Tối ưu thuật toán kiểm tra nguyên tố"
+      },
+      {
+        "c": "TH9-B07-015",
+        "d": "advanced",
+        "p": "Cho hai biến `x = 15, y = 25`. Sau đoạn lệnh: `x = x + y; y = x - y; x = x - y`, giá trị mới của `(x, y)` là bao nhiêu?",
+        "o": [
+          "x = 25, y = 15 (đã hoán đổi hai số mà không cần biến phụ)",
+          "x = 10, y = 40",
+          "x = 40, y = 25",
+          "x = 15, y = 15"
+        ],
+        "k": "A",
+        "e": "x = 40; y = 40 - 25 = 15; x = 40 - 15 = 25. Đây là mẹo hoán đổi hai số bằng cộng trừ.",
+        "s": "Tin Học 9",
+        "h": "Mẹo hoán đổi giá trị không dùng biến phụ"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc9-c3",
+    "lesson": {
+      "code": "tinhoc9-b08",
+      "title": "Bài 8. Xử lí danh sách, tìm kiếm và sắp xếp trong bài toán tổng hợp",
+      "seq": 8,
+      "subtitle": "Cài đặt bài toán thống kê, lọc danh sách, tìm kiếm và ứng dụng mô phỏng thuật toán trên Scratch/ngôn ngữ lập trình",
+      "concepts": [
+        "Thống kê và lọc dữ liệu trên List",
+        "Tìm kiếm phần tử thỏa điều kiện",
+        "Sắp xếp danh sách ứng dụng"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH9-B08-001",
+        "d": "basic",
+        "p": "Trong lập trình, bài toán \"Lọc danh sách\" nghĩa là gì?",
+        "o": [
+          "Tạo một danh sách mới chỉ chứa các phần tử thỏa mãn một tiêu chí cho trước từ danh sách gốc",
+          "Tăng tất cả các số lên 10 lần",
+          "Xóa sạch toàn bộ bộ nhớ máy tính",
+          "Đảo lộn ngẫu nhiên thứ tự phần tử"
+        ],
+        "k": "A",
+        "e": "Lọc tách riêng các phần tử đạt chuẩn (ví dụ điểm >= 8) sang danh sách kết quả mà không phá hỏng danh sách ban đầu.",
+        "s": "Tin Học 9",
+        "h": "Khái niệm lọc danh sách"
+      },
+      {
+        "c": "TH9-B08-002",
+        "d": "basic",
+        "p": "Bài toán \"Đếm tần suất\" (ví dụ đếm xem có bao nhiêu học sinh đạt từng mức điểm 8, 9, 10) sử dụng cấu trúc điều khiển nào là chủ yếu?",
+        "o": [
+          "Chỉ dùng phép tính nhân",
+          "Chỉ dùng một câu lệnh tuần tự in chữ",
+          "Vòng lặp duyệt qua toàn bộ danh sách kết hợp câu lệnh rẽ nhánh kiểm tra điều kiện để tăng biến đếm",
+          "Vòng lặp vô tận không có biến đếm"
+        ],
+        "k": "C",
+        "e": "Duyệt mọi phần tử, mỗi lần gặp phần tử khớp điều kiện thì tăng bộ đếm tương ứng thêm 1.",
+        "s": "Tin Học 9",
+        "h": "Mô hình bài toán đếm"
+      },
+      {
+        "c": "TH9-B08-003",
+        "d": "basic",
+        "p": "Khi lưu danh sách nhiệt độ đo được trong 7 ngày của tuần vào mảng/danh sách `NhietDo`, vị trí chỉ số `i` trong Scratch chạy từ đâu đến đâu?",
+        "o": [
+          "Từ 1 đến 7",
+          "Từ 1 đến 100",
+          "Từ 0 đến 6",
+          "Từ -7 đến 0"
+        ],
+        "k": "A",
+        "e": "Trong Scratch, chỉ số List đánh số bắt đầu từ 1 đến độ dài danh sách (7).",
+        "s": "Tin Học 9",
+        "h": "Chỉ số List trong Scratch"
+      },
+      {
+        "c": "TH9-B08-004",
+        "d": "basic",
+        "p": "Để tìm giá trị NHỎ NHẤT trong một danh sách số thực bất kì `A` (có thể có cả số âm và số rất lớn), cách khởi tạo biến `min` an toàn nhất là gì?",
+        "o": [
+          "Đặt `min = 0` trong mọi trường hợp",
+          "Đặt `min = độ dài của A`",
+          "Đặt `min = phần tử thứ nhất của A` rồi duyệt so sánh từ phần tử thứ hai trở đi",
+          "Đặt `min = -100` mặc định"
+        ],
+        "k": "C",
+        "e": "Lấy phần tử đầu tiên làm mốc ban đầu đảm bảo đúng với mọi dãy số âm, dương hay thập phân.",
+        "s": "Tin Học 9",
+        "h": "Khởi tạo giá trị Min an toàn"
+      },
+      {
+        "c": "TH9-B08-005",
+        "d": "basic",
+        "p": "Khi kiểm tra xem một danh sách `DS` đã được sắp xếp tăng dần hay chưa, điều kiện nào bị vi phạm ngay lập tức chứng tỏ dãy CHƯA tăng dần?",
+        "o": [
+          "Độ dài danh sách là số lẻ",
+          "Phần tử đầu tiên nhỏ hơn phần tử cuối cùng",
+          "Tồn tại một vị trí `i` mà `phần tử thứ i > phần tử thứ (i + 1)`",
+          "Mọi phần tử đều lớn hơn 0"
+        ],
+        "k": "C",
+        "e": "Chỉ cần phát hiện một cặp liền kề mà số đứng trước lớn hơn số đứng sau là khẳng định dãy không tăng dần.",
+        "s": "Tin Học 9",
+        "h": "Kiểm tra tính tăng dần của danh sách"
+      },
+      {
+        "c": "TH9-B08-006",
+        "d": "basic",
+        "p": "Lợi ích của việc lưu điểm số vào Danh sách (List) thay vì tạo 40 biến rời `diem1, diem2, ..., diem40` là gì?",
+        "o": [
+          "Giúp điểm của tất cả học sinh tự tăng lên 10",
+          "Không cần dùng biến chỉ số",
+          "Dễ dàng duyệt tự động bằng một vòng lặp duy nhất bất kể lớp có 30 hay 50 học sinh",
+          "Không thể sửa giá trị sau khi nhập"
+        ],
+        "k": "C",
+        "e": "Cấu trúc List kết hợp vòng lặp xử lí đồng loạt hàng trăm phần tử bằng vài dòng lệnh ngắn gọn.",
+        "s": "Tin Học 9",
+        "h": "Ưu điểm List so với biến rời"
+      },
+      {
+        "c": "TH9-B08-007",
+        "d": "application",
+        "p": "Cho danh sách `Diem = [7, 9, 5, 10, 8, 6]`. Thuật toán lọc sang danh sách `Gioi` gồm các phần tử `>= 8` sẽ tạo ra `Gioi` chứa những giá trị nào?",
+        "o": [
+          "[7, 5, 6]",
+          "[9, 10]",
+          "[9, 10, 8]",
+          "[7, 9, 10, 8]"
+        ],
+        "k": "C",
+        "e": "Duyệt từ trái sang phải, các số >= 8 lần lượt là 9, 10 và 8.",
+        "s": "Tin Học 9",
+        "h": "Lọc danh sách đạt ngưỡng"
+      },
+      {
+        "c": "TH9-B08-008",
+        "d": "application",
+        "p": "Từ danh sách `Diem = [7, 9, 5, 10, 8, 6]`, muốn tính trung bình cộng các điểm trong danh sách, công thức kết quả thu được là bao nhiêu?",
+        "o": [
+          "7,5",
+          "7,0",
+          "8,0",
+          "45"
+        ],
+        "k": "A",
+        "e": "Tổng = 7 + 9 + 5 + 10 + 8 + 6 = 45; chia cho 6 phần tử = 7,5.",
+        "s": "Tin Học 9",
+        "h": "Tính trung bình trên danh sách"
+      },
+      {
+        "c": "TH9-B08-009",
+        "d": "application",
+        "p": "Một chương trình quản lí thư viện lưu `TenSach` và `SoLuong` trong 2 List song song. Khi muốn tìm số lượng còn lại của cuốn \"Dế Mèn\", thuật toán thực hiện bước nào trước tiên?",
+        "o": [
+          "Xóa phần tử đầu của cả hai danh sách",
+          "Tìm chỉ số vị trí `k` của \"Dế Mèn\" trong `TenSach`, sau đó lấy `phần tử thứ k của [SoLuong]`",
+          "Sắp xếp riêng `SoLuong` mà không sắp xếp `TenSach`",
+          "Cộng toàn bộ phần tử trong `SoLuong` lại"
+        ],
+        "k": "B",
+        "e": "Chỉ số vị trí `k` là cầu nối giữa hai danh sách song song.",
+        "s": "Tin Học 9",
+        "h": "Tra cứu trên hai List song song"
+      },
+      {
+        "c": "TH9-B08-010",
+        "d": "application",
+        "p": "Nếu có hai danh sách song song `Ten` và `Diem` gắn liền từng bạn, khi hoán đổi vị trí thứ `i` và `j` trong quá trình sắp xếp `Ten` theo `Diem` giảm dần, lập trình viên phải làm gì?",
+        "o": [
+          "Xóa danh sách `Ten` đi sau khi sắp xếp",
+          "Phải hoán đổi đồng thời cả hai phần tử thứ `i` và `j` ở CẢ HAI danh sách `Diem` và `Ten`",
+          "Hoán đổi ngẫu nhiên vị trí trong `Ten`",
+          "Chỉ hoán đổi trong `Diem` và giữ nguyên `Ten`"
+        ],
+        "k": "B",
+        "e": "Không hoán đổi song hành ở cả hai List sẽ làm điểm của bạn này gán nhầm sang tên bạn khác.",
+        "s": "Tin Học 9",
+        "h": "Hoán đổi đồng bộ khi sắp xếp song song"
+      },
+      {
+        "c": "TH9-B08-011",
+        "d": "application",
+        "p": "Cho danh sách `A = [4, 11, 8, 15, 3, 12]`. Chạy thuật toán đếm số cặp phần tử kề nhau mà phần tử sau lớn hơn phần tử trước. Kết quả đếm bằng bao nhiêu?",
+        "o": [
+          "3 cặp",
+          "2 cặp",
+          "5 cặp",
+          "4 cặp"
+        ],
+        "k": "A",
+        "e": "Xét 5 cặp kề: (4,11) tăng; (11,8) giảm; (8,15) tăng; (15,3) giảm; (3,12) tăng → có 3 cặp tăng.",
+        "s": "Tin Học 9",
+        "h": "Đếm cặp tăng trong danh sách"
+      },
+      {
+        "c": "TH9-B08-012",
+        "d": "application",
+        "p": "Để loại bỏ các phần tử trùng lặp trong danh sách `A` (ví dụ `[2, 5, 2, 8, 5]`) sang danh sách mới `KetQua` sao cho mỗi giá trị chỉ xuất hiện một lần (`[2, 5, 8]`), điều kiện kiểm tra trước khi thêm `x` vào `KetQua` là gì?",
+        "o": [
+          "luôn thêm mọi phần tử `x` không cần kiểm tra",
+          "nếu <[KetQua] chứa (x)?> thì thêm `x` vào `KetQua`",
+          "xóa `KetQua` sau mỗi lần thêm",
+          "nếu <không phải ([KetQua] chứa (x)?)> thì thêm `x` vào `KetQua`"
+        ],
+        "k": "D",
+        "e": "Chỉ thêm x vào danh sách kết quả khi x chưa tồn tại trong đó.",
+        "s": "Tin Học 9",
+        "h": "Lọc loại bỏ phần tử trùng lặp"
+      },
+      {
+        "c": "TH9-B08-013",
+        "d": "advanced",
+        "p": "Giả sử bạn có danh sách `A` chứa 100 phần tử đã được sắp xếp tăng dần. Bạn cần chèn thêm một số mới `X` vào `A` sao cho sau khi chèn, danh sách vẫn giữ đúng thứ tự tăng dần. Cách thực hiện gọn đúng nhất là gì?",
+        "o": [
+          "Chèn luôn `X` vào vị trí thứ 1 rồi dừng",
+          "Chèn `X` vào chính giữa bất kể giá trị",
+          "Duyệt tìm vị trí `i` đầu tiên mà `phần tử thứ i của A >= X` rồi chèn `X` vào vị trí `i` (nếu mọi phần tử đều < X thì thêm vào cuối)",
+          "Xóa toàn bộ phần tử lớn hơn `X`"
+        ],
+        "k": "C",
+        "e": "Tìm điểm chèn thích hợp giúp duy trì thứ tự tăng dần chỉ với tối đa 1 lượt duyệt (O(n)) không cần chạy lại thuật toán sắp xếp toàn bộ.",
+        "s": "Tin Học 9",
+        "h": "Chèn phần tử vào dãy có thứ tự"
+      },
+      {
+        "c": "TH9-B08-014",
+        "d": "advanced",
+        "p": "Trong trò chơi trắc nghiệm 20 câu hỏi lưu trong List `CauHoi`, muốn lấy ngẫu nhiên 5 câu hỏi khác nhau KHÔNG trùng lặp lại câu đã hỏi để cho học sinh thi, thuật toán nào đảm bảo không bao giờ ra trùng câu?",
+        "o": [
+          "Gọi `lấy ngẫu nhiên từ 1 đến 20` 5 lần độc lập và không kiểm tra gì thêm",
+          "Lấy ngẫu nhiên vị trí `k` từ 1 đến độ dài danh sách hiện tại, đọc câu `k` rồi xóa phần tử `k` khỏi danh sách tạm trước lượt tiếp",
+          "Tạo biến đếm chỉ tăng lên 1",
+          "Luôn lấy 5 câu đầu tiên cố định 1, 2, 3, 4, 5"
+        ],
+        "k": "B",
+        "e": "Rút câu đã bốc ra khỏi danh sách tạm (bốc không hoàn lại) đảm bảo chắc chắn 100% không bao giờ xuất hiện câu trùng.",
+        "s": "Tin Học 9",
+        "h": "Thuật toán bốc ngẫu nhiên không trùng"
+      },
+      {
+        "c": "TH9-B08-015",
+        "d": "advanced",
+        "p": "Tìm phần tử LỚN THỨ HAI trong một danh sách `A` các số đôi một khác nhau chỉ bằng MỘT lượt duyệt duy nhất: duy trì hai biến `max1` (lớn nhất) và `max2` (lớn nhì). Nếu gặp số `x > max1`, cập nhật thứ tự nào đúng?",
+        "o": [
+          "Đặt `max2 = x` luôn",
+          "Gán `max2 = max1` trước, rồi mới gán `max1 = x`",
+          "Chỉ gán `max1 = x` và bỏ qua `max2`",
+          "Gán `max1 = x` trước, rồi gán `max2 = max1`"
+        ],
+        "k": "B",
+        "e": "Phải lưu giá trị cũ của max1 sang max2 trước khi ghi đè giá trị mới x vào max1, nếu không max2 sẽ bằng luôn x.",
+        "s": "Tin Học 9",
+        "h": "Cập nhật hai giá trị lớn nhất trong 1 lượt"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc9-c4",
+    "lesson": {
+      "code": "tinhoc9-b09",
+      "title": "Bài 9. Giải quyết vấn đề với phần mềm lập trình: Mô phỏng và Ứng dụng thực tế",
+      "seq": 9,
+      "subtitle": "Vận dụng cấu trúc dữ liệu và thuật toán lập trình giải quyết các bài toán liên môn Toán – KHTN – Đời sống",
+      "concepts": [
+        "Thiết kế giải pháp lập trình liên môn",
+        "Xây dựng ứng dụng tính toán thực tế",
+        "Tối ưu và kiểm thử sản phẩm"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH9-B09-001",
+        "d": "basic",
+        "p": "Khi xây dựng một ứng dụng nhỏ hỗ trợ học tập (như phần mềm kiểm tra từ vựng Tiếng Anh hoặc ôn tập bảng cửu chương), giai đoạn nào giúp kiểm tra xem mọi tính năng có hoạt động đúng yêu cầu không?",
+        "o": [
+          "Xóa bớt các nút bấm điều khiển",
+          "Vẽ thêm thật nhiều hình nền trang trí",
+          "Kiểm thử (Testing) với nhiều bộ dữ liệu thử nghiệm khác nhau",
+          "Tắt âm lượng loa máy tính"
+        ],
+        "k": "C",
+        "e": "Kiểm thử xác nhận sản phẩm chạy chuẩn xác trước khi đưa vào sử dụng.",
+        "s": "Tin Học 9",
+        "h": "Vai trò bước kiểm thử"
+      },
+      {
+        "c": "TH9-B09-002",
+        "d": "basic",
+        "p": "Trong ứng dụng chuyển đổi nhiệt độ từ độ C (`C`) sang độ F (`F`) theo công thức `F = C * 1,8 + 32`, nếu nhập `C = 0` thì đầu ra `F` là bao nhiêu?",
+        "o": [
+          "32",
+          "100",
+          "0",
+          "212"
+        ],
+        "k": "A",
+        "e": "0 × 1,8 + 32 = 32°F (điểm đóng băng của nước).",
+        "s": "Tin Học 9",
+        "h": "Ứng dụng chuyển đổi nhiệt độ"
+      },
+      {
+        "c": "TH9-B09-003",
+        "d": "basic",
+        "p": "Với bài toán tính chu kì giao thoa hoặc tìm Bội chung nhỏ nhất (BCNN) của hai số nguyên dương `a` và `b`, công thức liên hệ giữa BCNN và ƯCLN là gì?",
+        "o": [
+          "BCNN(a, b) = (a + b) * ƯCLN(a, b)",
+          "BCNN(a, b) = a - b",
+          "BCNN(a, b) = a * b * ƯCLN(a, b)",
+          "BCNN(a, b) = (a * b) / ƯCLN(a, b)"
+        ],
+        "k": "D",
+        "e": "Tích hai số chia cho ước chung lớn nhất cho ra bội chung nhỏ nhất rất nhanh.",
+        "s": "Tin Học 9",
+        "h": "Công thức tính BCNN qua ƯCLN"
+      },
+      {
+        "c": "TH9-B09-004",
+        "d": "basic",
+        "p": "Khi thiết kế phần mềm mô phỏng đèn tín hiệu giao thông ngã tư (Xanh 25s, Vàng 3s, Đỏ 28s), cấu trúc vòng lặp nào phù hợp cho chu kì hoạt động suốt ngày?",
+        "o": [
+          "Chạy tuần tự 1 lần rồi tắt",
+          "Rẽ nhánh không điều kiện",
+          "Vòng lặp liên tục (Forever)",
+          "Chỉ chạy đúng 1 giây"
+        ],
+        "k": "C",
+        "e": "Đèn giao thông vận hành tuần hoàn liên tục qua ba pha Xanh → Vàng → Đỏ.",
+        "s": "Tin Học 9",
+        "h": "Điều khiển chu kì đèn giao thông"
+      },
+      {
+        "c": "TH9-B09-005",
+        "d": "basic",
+        "p": "Trong các bài toán quản lí điểm thi, dữ liệu đầu vào hợp lệ của điểm số thang 10 phải thỏa mãn điều kiện kiểm tra nào?",
+        "o": [
+          "(diem = 100)",
+          "(diem >= 0) và (diem <= 10)",
+          "(diem > 10) hoặc (diem < 0)",
+          "(diem mod 2 = 0)"
+        ],
+        "k": "B",
+        "e": "Điểm hợp lệ nằm trong đoạn từ 0 đến 10; chương trình cần yêu cầu nhập lại nếu người dùng gõ -2 hoặc 15.",
+        "s": "Tin Học 9",
+        "h": "Kiểm tra tính hợp lệ dữ liệu nhập"
+      },
+      {
+        "c": "TH9-B09-006",
+        "d": "basic",
+        "p": "Vì sao khi viết phần mềm máy tính bỏ túi đơn giản có phép chia `a` cho `b`, lập trình viên luôn phải đặt một câu lệnh rẽ nhánh kiểm tra `b = 0` trước khi thực hiện phép chia?",
+        "o": [
+          "Để ngăn lỗi chia cho 0 gây sai kết quả hoặc treo ứng dụng, thay vào đó thông báo \"Không thể chia cho 0\"",
+          "Để phép chia luôn ra số nguyên",
+          "Để biến số 0 thành số 100",
+          "Vì máy tính không chia được cho các số âm"
+        ],
+        "k": "A",
+        "e": "Xử lí ngoại lệ chia cho 0 là nguyên tắc bắt buộc khi xây dựng phần mềm tính toán.",
+        "s": "Tin Học 9",
+        "h": "Bắt lỗi chia cho 0"
+      },
+      {
+        "c": "TH9-B09-007",
+        "d": "application",
+        "p": "Một ứng dụng tính chỉ số BMI phân loại sức khỏe theo bảng: BMI < 18,5 là Thiếu cân; từ 18,5 đến dưới 25 là Bình thường; từ 25 trở lên là Thừa cân. Với một người nặng 50 kg, cao 1,6 m (`BMI = 50 / (1,6 * 1,6) ≈ 19,53`), kết quả ứng dụng in ra là gì?",
+        "o": [
+          "Thiếu cân",
+          "Không xác định",
+          "Bình thường",
+          "Thừa cân"
+        ],
+        "k": "C",
+        "e": "19,53 nằm trong khoảng [18,5; 25) nên thuộc mức Bình thường.",
+        "s": "Tin Học 9",
+        "h": "Tính toán và phân loại BMI"
+      },
+      {
+        "c": "TH9-B09-008",
+        "d": "application",
+        "p": "Trong mô phỏng bài toán Toán học \"Vừa gà vừa chó, bó lại cho tròn, 36 con, 100 chân chẵn\", vòng lặp thử số gà `g` chạy từ 0 đến 36 và đặt số chó `c = 36 - g`. Điều kiện kiểm tra nghiệm đúng là gì?",
+        "o": [
+          "(2 * g * 4 * c) = 100",
+          "(4 * g + 2 * c) = 36",
+          "(g + c) = 100",
+          "(2 * g + 4 * c) = 100"
+        ],
+        "k": "D",
+        "e": "Mỗi con gà 2 chân, mỗi con chó 4 chân nên tổng chân = 2*g + 4*c = 100 (nghiệm: 22 gà, 14 chó).",
+        "s": "Tin Học 9",
+        "h": "Lập trình giải bài toán cổ"
+      },
+      {
+        "c": "TH9-B09-009",
+        "d": "application",
+        "p": "Sử dụng thuật toán tìm ƯCLN(12, 18) = 6, hỏi BCNN(12, 18) tính theo công thức chuẩn bằng bao nhiêu?",
+        "o": [
+          "36",
+          "108",
+          "216",
+          "72"
+        ],
+        "k": "A",
+        "e": "BCNN(12, 18) = (12 × 18) / 6 = 216 / 6 = 36.",
+        "s": "Tin Học 9",
+        "h": "Tính BCNN từ ƯCLN"
+      },
+      {
+        "c": "TH9-B09-010",
+        "d": "application",
+        "p": "Một đồng hồ bấm giờ thể thao đo từng 1/10 giây. Trong 1 phút, biến đếm đơn vị phần mười giây thay đổi bao nhiêu lần?",
+        "o": [
+          "100 lần",
+          "3600 lần",
+          "60 lần",
+          "600 lần"
+        ],
+        "k": "D",
+        "e": "1 phút = 60 giây; mỗi giây có 10 phần mười giây nên 60 × 10 = 600 lần.",
+        "s": "Tin Học 9",
+        "h": "Tính nhịp cập nhật bộ đếm thời gian"
+      },
+      {
+        "c": "TH9-B09-011",
+        "d": "application",
+        "p": "Khi lập trình trò chơi mô phỏng bảo vệ môi trường: rác thải rơi xuống, nếu nhấp chuột phân loại đúng vào thùng Hữu cơ hoặc Tái chế thì cộng 10 điểm, nhầm thùng trừ 5 điểm. Để tránh điểm xuống âm vô lí khi người mới chơi sai liên tiếp ở đầu game, thêm điều kiện rẽ nhánh nào?",
+        "o": [
+          "Bỏ luôn phần trừ điểm khi sai",
+          "Cho phép điểm tụt xuống -500",
+          "Đặt `Diem = 1000` mỗi khi bấm nhầm",
+          "Nếu `Diem >= 5` thì giảm 5, ngược lại đặt `Diem = 0`"
+        ],
+        "k": "D",
+        "e": "Rào chặn dưới `if Diem >= 5 else 0` đảm bảo điểm số luôn không âm.",
+        "s": "Tin Học 9",
+        "h": "Thiết kế cơ chế điểm số hợp lí"
+      },
+      {
+        "c": "TH9-B09-012",
+        "d": "application",
+        "p": "Ứng dụng quản lí chi tiêu trên màn hình có nút \"Thêm khoản chi\", nút \"Thống kê tháng\" và nút \"Xóa tất cả\". Nút \"Xóa tất cả\" nên thiết kế thêm bước bảo vệ nào để tránh người dùng bấm nhầm mất sạch dữ liệu?",
+        "o": [
+          "Tự động xóa dữ liệu vào lúc 12 giờ đêm",
+          "Đặt nút Xóa tất cả to gấp 5 lần nút Thêm",
+          "Hiện hộp hỏi xác nhận \"Bạn có chắc chắn muốn xóa toàn bộ dữ liệu không? (Có / Không)\" trước khi xóa",
+          "Xóa ngay lập tức khi vừa chạm nhẹ vào màn hình"
+        ],
+        "k": "C",
+        "e": "Hộp thoại xác nhận trước thao tác phá hủy dữ liệu là chuẩn mực thiết kế trải nghiệm người dùng an toàn.",
+        "s": "Tin Học 9",
+        "h": "Thiết kế UX an toàn chống bấm nhầm"
+      },
+      {
+        "c": "TH9-B09-013",
+        "d": "advanced",
+        "p": "Một chương trình vẽ đồ thị hàm số bậc nhất `y = a * x + b` trên màn hình tọa độ chuẩn (`x` từ -200 đến 200). Để vẽ đường thẳng đi qua nhiều điểm liên tục với `a = 2, b = 10` khi nhân vật di chuyển từ `x = -100` tới `x = 100`, tại mỗi giá trị `x` ta tính `y` rồi dùng lệnh gì để nối liền nét mượt mà?",
+        "o": [
+          "Chỉ chấm duy nhất 1 điểm ở x = 0",
+          "Xoay nhân vật tại chỗ 360 độ",
+          "Đưa nhân vật tới điểm (x, y) đầu tiên khi đang nhấc bút, sau đó đặt bút xuống rồi tăng dần `x` lên, tính `y` mới và đi tới điểm (x, y) mới",
+          "Đặt bút từ tọa độ (0, 0) rồi vẽ luôn khi chưa tới điểm đầu đồ thị"
+        ],
+        "k": "C",
+        "e": "Phải nhấc bút khi nhảy tới điểm xuất phát đầu (-100, -190) rồi mới đặt bút để không tạo vệt nối rác từ tâm (0, 0).",
+        "s": "Tin Học 9",
+        "h": "Kĩ thuật vẽ đồ thị hàm số sạch nét"
+      },
+      {
+        "c": "TH9-B09-014",
+        "d": "advanced",
+        "p": "Bài toán lãi suất tiết kiệm kép: gửi số tiền gốc `G = 10.000.000` đồng với lãi suất `r = 6%` mỗi năm (0,06). Hết mỗi năm tiền lãi được nhập vào gốc (`G = G * (1 + r)`). Dùng vòng lặp tính số tiền nhận được sau 2 năm là bao nhiêu?",
+        "o": [
+          "12.000.000 đồng",
+          "11.200.000 đồng",
+          "10.600.000 đồng",
+          "11.236.000 đồng"
+        ],
+        "k": "D",
+        "e": "Sau năm 1: 10.000.000 × 1,06 = 10.600.000; sau năm 2: 10.600.000 × 1,06 = 11.236.000 đồng.",
+        "s": "Tin Học 9",
+        "h": "Ứng dụng vòng lặp tính lãi kép"
+      },
+      {
+        "c": "TH9-B09-015",
+        "d": "advanced",
+        "p": "Một thuật toán mật mã Caesar đơn giản dịch mỗi chữ cái lên 2 bậc (A→C, B→D, ..., Y→A, Z→B). Áp dụng mã hóa từ `\"TIN\"` với độ dịch +2, chuỗi mã hóa thu được là gì?",
+        "o": [
+          "\"VKP\"",
+          "\"WKP\"",
+          "\"RGL\"",
+          "\"UJO\""
+        ],
+        "k": "A",
+        "e": "T (+2) → V; I (+2) → K; N (+2) → P. Kết quả là \"VKP\".",
+        "s": "Tin Học 9",
+        "h": "Mô phỏng thuật toán mã hóa Caesar"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc9-c4",
+    "lesson": {
+      "code": "tinhoc9-b10",
+      "title": "Bài 10. Tin học với định hướng nghề nghiệp sau THCS",
+      "seq": 10,
+      "subtitle": "Hệ thống ngành nghề liên quan tới Tin học ở bậc học tiếp theo (THPT và nghề nghiệp), năng lực cần thiết và chọn hướng đi phù hợp",
+      "concepts": [
+        "Hai định hướng Khoa học máy tính và Tin học ứng dụng",
+        "Kĩ năng cần thiết cho nghề công nghệ",
+        "Xây dựng kế hoạch học tập"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH9-B10-001",
+        "d": "basic",
+        "p": "Trong chương trình Tin học định hướng nghề nghiệp ở bậc THPT tiếp theo, môn Tin học thường chia theo hai định hướng chuyên sâu chính nào?",
+        "o": [
+          "Khoa học máy tính (CS) và Tin học ứng dụng (ICT)",
+          "Thể dục điền kinh và Thanh nhạc",
+          "Cơ khí ô tô và Xây dựng cầu đường",
+          "Kế toán tài chính và Luật hình sự"
+        ],
+        "k": "A",
+        "e": "Hai nhánh lớn là Khoa học máy tính (thuật toán, lập trình, AI) và Tin học ứng dụng (phần mềm, truyền thông, dữ liệu).",
+        "s": "Tin Học 9",
+        "h": "Hai định hướng môn Tin học"
+      },
+      {
+        "c": "TH9-B10-002",
+        "d": "basic",
+        "p": "Bạn học sinh yêu thích thiết kế giao diện website đẹp, chỉnh sửa video truyền thông và quản trị nội dung mạng xã hội phù hợp nhất với nhánh định hướng nào?",
+        "o": [
+          "Khoa học máy tính chuyên sâu vi mạch",
+          "Khai thác khoáng sản",
+          "Tin học ứng dụng",
+          "Kĩ thuật chế tạo động cơ phản lực"
+        ],
+        "k": "C",
+        "e": "Tin học ứng dụng tập trung tạo sản phẩm truyền thông, đồ họa, cơ sở dữ liệu ứng dụng và web.",
+        "s": "Tin Học 9",
+        "h": "Phù hợp nhánh Tin học ứng dụng"
+      },
+      {
+        "c": "TH9-B10-003",
+        "d": "basic",
+        "p": "Bạn học sinh say mê toán học, thích tìm hiểu thuật toán tối ưu, viết mã lập trình và nghiên cứu trí tuệ nhân tạo phù hợp nhất với định hướng nào?",
+        "o": [
+          "Đầu bếp bánh ngọt",
+          "Khoa học máy tính",
+          "Vận động viên bơi lội",
+          "Nghệ thuật cắm hoa truyền thống"
+        ],
+        "k": "B",
+        "e": "Khoa học máy tính chú trọng tư duy thuật toán, cấu trúc dữ liệu và phát triển hệ thống phần mềm.",
+        "s": "Tin Học 9",
+        "h": "Phù hợp nhánh Khoa học máy tính"
+      },
+      {
+        "c": "TH9-B10-004",
+        "d": "basic",
+        "p": "Ngoài kiến thức chuyên môn Tin học, ngoại ngữ (đặc biệt là Tiếng Anh) đóng vai trò như thế nào đối với người làm nghề công nghệ thông tin?",
+        "o": [
+          "Làm giảm tốc độ đánh máy tiếng Việt",
+          "Hoàn toàn không cần thiết trong ngành công nghệ",
+          "Chỉ dùng để trang trí trang bìa hồ sơ",
+          "Rất quan trọng để đọc tài liệu kĩ thuật cập nhật, cú pháp lập trình và làm việc trong các dự án quốc tế"
+        ],
+        "k": "D",
+        "e": "Hầu hết tài liệu công nghệ mới và ngôn ngữ lập trình dùng thuật ngữ Tiếng Anh chuẩn.",
+        "s": "Tin Học 9",
+        "h": "Vai trò Tiếng Anh trong nghề CNTT"
+      },
+      {
+        "c": "TH9-B10-005",
+        "d": "basic",
+        "p": "Kĩ năng mềm nào giúp một kĩ sư phần mềm làm việc hiệu quả trong dự án có hàng chục thành viên cùng xây dựng một sản phẩm lớn?",
+        "o": [
+          "Kĩ năng giao tiếp, làm việc nhóm và quản lí thời gian",
+          "Chỉ làm việc khi không ai biết mình đang làm gì",
+          "Kĩ năng bỏ qua ý kiến đóng góp của đồng đội",
+          "Kĩ năng giữ bí mật mọi thứ một mình không hỏi ai"
+        ],
+        "k": "A",
+        "e": "Sản phẩm phần mềm hiện đại luôn là kết quả phối hợp của cả tập thể nhiều vai trò khác nhau.",
+        "s": "Tin Học 9",
+        "h": "Kĩ năng làm việc nhóm trong CNTT"
+      },
+      {
+        "c": "TH9-B10-006",
+        "d": "basic",
+        "p": "Sau khi tốt nghiệp THCS (lớp 9), học sinh yêu thích công nghệ thông tin có thể tiếp tục theo đuổi con đường học tập nào?",
+        "o": [
+          "Không có trường đào tạo nghề CNTT nào ở Việt Nam",
+          "Phải chờ đủ 30 tuổi mới được dùng máy tính",
+          "Ngừng hoàn toàn mọi việc học tập văn hóa và kĩ năng",
+          "Học tiếp THPT (chọn môn Tin học) hoặc học trường Trung cấp – Cao đẳng nghề định hướng CNTT song song bổ túc văn hóa"
+        ],
+        "k": "D",
+        "e": "Hệ thống phân luồng sau THCS mở ra cả hướng THPT lẫn hướng đào tạo nghề thực hành CNTT.",
+        "s": "Tin Học 9",
+        "h": "Con đường học tập sau THCS"
+      },
+      {
+        "c": "TH9-B10-007",
+        "d": "application",
+        "p": "Xem bảng đối chiếu các vai trò trong một đội phát triển sản phẩm số, ai là người chịu trách nhiệm kiểm tra phát hiện lỗi phần mềm trước khi phát hành tới người dùng?",
+        "o": [
+          "Quản trị nội dung số",
+          "Kiểm thử viên phần mềm (QA / Tester)",
+          "Thiết kế đồ họa UI",
+          "Lập trình viên hệ thống"
+        ],
+        "k": "B",
+        "e": "Tester xây dựng kịch bản kiểm thử, tìm lỗi chức năng và trải nghiệm người dùng để lập trình viên khắc phục.",
+        "s": "Tin Học 9",
+        "h": "Vai trò các vị trí trong đội dự án",
+        "fig": {
+          "type": "table",
+          "title": "Đội ngũ dự án phần mềm",
+          "head": [
+            "Vị trí nghề",
+            "Nhiệm vụ chính"
+          ],
+          "rows": [
+            [
+              "Lập trình viên",
+              "Viết mã và logic"
+            ],
+            [
+              "Thiết kế UI/UX",
+              "Bố cục đẹp, dễ dùng"
+            ],
+            [
+              "Kiểm thử (Tester)",
+              "Tìm lỗi, kiểm thử"
+            ],
+            [
+              "Quản trị dữ liệu",
+              "Tổ chức bảo mật CSDL"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH9-B10-008",
+        "d": "application",
+        "p": "Công việc \"Thiết kế trải nghiệm người dùng\" (UX Designer) đòi hỏi sự kết hợp năng lực nào?",
+        "o": [
+          "Hiểu tâm lí hành vi người dùng, tư duy sắp xếp bố cục rõ ràng và sử dụng thành thạo công cụ thiết kế giao diện",
+          "Chỉ biết chạy cự li 800 mét",
+          "Chỉ biết tháo lắp ổ cứng máy tính bàn",
+          "Chỉ học thuộc các định luật hóa học vô cơ"
+        ],
+        "k": "A",
+        "e": "UX Designer làm cho phần mềm trở nên dễ hiểu, thân thiện và thuận tiện với mọi lứa tuổi.",
+        "s": "Tin Học 9",
+        "h": "Năng lực nghề Thiết kế UX"
+      },
+      {
+        "c": "TH9-B10-009",
+        "d": "application",
+        "p": "Bạn Hùng học lực trung bình về toán lí thuyết trừu tượng nhưng rất khéo tay, thích lắp ráp bảo trì máy tính, cài đặt mạng LAN và sửa chữa thiết bị văn phòng. Hướng nghề nào thực tế nhất cho Hùng?",
+        "o": [
+          "Thiết kế tàu vũ trụ liên hành tinh",
+          "Nghiên cứu lí thuyết toán học lượng tử cao cấp",
+          "Viết từ điển ngôn ngữ cổ đại",
+          "Kĩ thuật viên phần cứng, sửa chữa máy tính và quản trị mạng cơ sở (hệ đào tạo nghề thực hành)"
+        ],
+        "k": "D",
+        "e": "Chọn hướng đi khớp với thế mạnh thực hành kĩ thuật giúp phát huy tốt năng lực bản thân và sớm có tay nghề vững.",
+        "s": "Tin Học 9",
+        "h": "Chọn nghề phù hợp thế mạnh"
+      },
+      {
+        "c": "TH9-B10-010",
+        "d": "application",
+        "p": "Tại sao đức tính \"tự học liên tục\" lại mang tính sống còn đối với người theo đuổi ngành Công nghệ thông tin?",
+        "o": [
+          "Vì không có trường đại học nào dạy lập trình",
+          "Vì máy tính tự động thay đổi mật khẩu mỗi giờ",
+          "Vì sau khi ra trường kiến thức sẽ giữ nguyên 100 năm không đổi",
+          "Vì công nghệ, phần mềm và công cụ lập trình đổi mới rất nhanh chỉ sau vài năm"
+        ],
+        "k": "D",
+        "e": "Người làm công nghệ luôn phải cập nhật công nghệ mới qua tài liệu và thực hành suốt đời.",
+        "s": "Tin Học 9",
+        "h": "Tinh thần tự học trong công nghệ"
+      },
+      {
+        "c": "TH9-B10-011",
+        "d": "application",
+        "p": "Nếu một học sinh muốn khám phá xem mình có thực sự thích nghề Lập trình hay không ngay từ năm lớp 9, hoạt động trải nghiệm nào thiết thực nhất?",
+        "o": [
+          "Tham gia câu lạc bộ Tin học, tự làm một dự án game hoặc web nhỏ, thử giải các bài toán lập trình cơ bản và trao đổi với anh chị đi trước",
+          "Chỉ ngồi xem phim hành động nói về tin tặc",
+          "Xóa môn Tin học khỏi thời khóa biểu",
+          "Mua một chiếc bàn phím đắt tiền rồi để trên kệ trưng bày"
+        ],
+        "k": "A",
+        "e": "Trực tiếp bắt tay làm sản phẩm nhỏ giúp cảm nhận chân thực niềm vui giải quyết vấn đề và áp lực gỡ lỗi.",
+        "s": "Tin Học 9",
+        "h": "Trải nghiệm thực tế khám phá nghề"
+      },
+      {
+        "c": "TH9-B10-012",
+        "d": "application",
+        "p": "Trong lĩnh vực Thương mại điện tử và Kinh doanh số, kiến thức Tin học kết hợp với môn học nào giúp vận hành gian hàng trực tuyến hiệu quả?",
+        "o": [
+          "Chỉ cần biết vẽ hình tròn trên giấy",
+          "Toán tính toán chi phí – lợi nhuận, Ngữ văn viết mô tả sản phẩm thuyết phục và Đạo đức kinh doanh trung thực",
+          "Không cần giao tiếp với khách hàng",
+          "Chỉ cần biết nhảy xa và hát hợp xướng"
+        ],
+        "k": "B",
+        "e": "Kinh doanh số đòi hỏi tổng hòa tư duy số liệu, ngôn ngữ giao tiếp, thiết kế hình ảnh và đạo đức nghề nghiệp.",
+        "s": "Tin Học 9",
+        "h": "Tính liên môn trong nghề số"
+      },
+      {
+        "c": "TH9-B10-013",
+        "d": "advanced",
+        "p": "Một quan niệm sai lầm phổ biến: \"Đã thích làm nghề công nghệ thông tin thì chỉ cần ngồi một mình ôm máy tính, không cần giao tiếp với ai\". Thực tế ngành nghề phản bác quan điểm này thế nào?",
+        "o": [
+          "Làm việc nhóm, lắng nghe yêu cầu khách hàng, trình bày giải pháp và viết tài liệu hướng dẫn chiếm phần lớn thời gian dự án công nghệ",
+          "Hoàn toàn đúng vì lập trình viên bị cấm nói chuyện trong giờ làm việc",
+          "Máy tính tự tìm kiếm khách hàng giúp lập trình viên",
+          "Chỉ cần dùng máy in giao tiếp thay lời nói"
+        ],
+        "k": "A",
+        "e": "Hiểu sai yêu cầu của người dùng là nguyên nhân thất bại hàng đầu của các dự án phần mềm; giao tiếp giỏi là lợi thế rất lớn.",
+        "s": "Tin Học 9",
+        "h": "Phá bỏ hiểu lầm về nghề CNTT"
+      },
+      {
+        "c": "TH9-B10-014",
+        "d": "advanced",
+        "p": "Bạn Mai có điểm mạnh: thích làm việc với số liệu bảng tính, cẩn thận tỉ mỉ, yêu thích vẽ biểu đồ tìm quy luật ẩn sau các con số khảo sát. Giữa ba nghề: (1) Kĩ thuật viên hàn mạch, (2) Chuyên viên Phân tích dữ liệu, (3) Quay phim sự kiện — nghề nào khớp năng lực Mai nhất và cần chuẩn bị thêm gì ở bậc THPT?",
+        "o": [
+          "Nghề (1) Kĩ thuật viên hàn mạch vì cần sức khỏe tay chân",
+          "Nghề (3) Quay phim sự kiện vì không cần dùng bảng tính",
+          "Nghề (2) Chuyên viên Phân tích dữ liệu; cần bồi dưỡng thêm Toán xác suất thống kê, Tin học bảng tính/cơ sở dữ liệu và Tiếng Anh",
+          "Bỏ môn Toán để chỉ học vẽ"
+        ],
+        "k": "C",
+        "e": "Phân tích dữ liệu kết hợp sự cẩn thận, tư duy toán thống kê và công cụ Tin học xử lí số liệu.",
+        "s": "Tin Học 9",
+        "h": "Phân tích hồ sơ năng lực chọn nghề"
+      },
+      {
+        "c": "TH9-B10-015",
+        "d": "advanced",
+        "p": "Khi đứng trước xu hướng Trí tuệ nhân tạo (AI) tạo sinh hỗ trợ viết đoạn mã và vẽ ảnh nhanh chóng, giá trị bền vững nhất giúp người lao động công nghệ KHÔNG bị thay thế là gì?",
+        "o": [
+          "Từ chối sử dụng mọi công cụ công nghệ hiện đại",
+          "Năng lực tư duy phản biện, hiểu sâu bản chất bài toán, kiểm định chất lượng đầu ra của AI và sáng tạo giải pháp phục vụ đúng nhu cầu con người",
+          "Chỉ chép lại nguyên văn kết quả đầu tiên mà AI đưa ra mà không hiểu gì",
+          "Cố gắng gõ phím nhanh hơn tốc độ xử lí của máy chủ"
+        ],
+        "k": "B",
+        "e": "AI là công cụ tăng năng suất; người làm chủ bài toán, kiểm soát đạo đức, tính chính xác và kiến trúc hệ thống luôn nắm vai trò dẫn dắt.",
+        "s": "Tin Học 9",
+        "h": "Năng lực cốt lõi trong kỉ nguyên AI"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc9-c4",
+    "lesson": {
+      "code": "tinhoc9-b11",
+      "title": "Bài 11. Thiết kế trang web tĩnh cơ bản và dự án số truyền thông",
+      "seq": 11,
+      "subtitle": "Cấu trúc cơ bản của một trang web, tạo trang web thông tin cá nhân/câu lạc bộ bằng công cụ trực quan hoặc HTML cơ bản",
+      "concepts": [
+        "Cấu trúc trang web phần đầu thân chân",
+        "Thành phần văn bản ảnh liên kết trên web",
+        "Hoàn thiện trang giới thiệu dự án"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH9-B11-001",
+        "d": "basic",
+        "p": "Ngôn ngữ đánh dấu chuẩn cơ bản dùng để xây dựng cấu trúc nội dung một trang web trên World Wide Web là gì?",
+        "o": [
+          "PDF",
+          "HTML (HyperText Markup Language)",
+          "XLSX",
+          "MP3"
+        ],
+        "k": "B",
+        "e": "HTML sử dụng các thẻ (tag) để đánh dấu tiêu đề, đoạn văn, hình ảnh và siêu liên kết trên trang web.",
+        "s": "Tin Học 9",
+        "h": "Ngôn ngữ đánh dấu HTML"
+      },
+      {
+        "c": "TH9-B11-002",
+        "d": "basic",
+        "p": "Bố cục phổ biến của một trang web hoàn chỉnh thường chia thành ba phần theo chiều dọc từ trên xuống gồm những phần nào?",
+        "o": [
+          "Phần âm thanh, phần mực in và phần pin sạc",
+          "Chỉ có duy nhất một dòng chữ giữa trang",
+          "Phần đầu trang (Header / Banner + Menu), Phần thân nội dung (Body/Main) và Phần chân trang (Footer)",
+          "Chỉ có thanh cuộn ngang không có nội dung"
+        ],
+        "k": "C",
+        "e": "Bố cục Đầu – Thân – Chân quen thuộc giúp người truy cập định hướng và tìm thông tin rất nhanh.",
+        "s": "Tin Học 9",
+        "h": "Cấu trúc 3 phần trang web"
+      },
+      {
+        "c": "TH9-B11-003",
+        "d": "basic",
+        "p": "Trong các trang web thông tin học tập, thanh điều hướng (Navigation Bar / Menu) ở phần đầu trang dùng để làm gì?",
+        "o": [
+          "Đổi cỡ chữ của hệ điều hành",
+          "Xóa hết dữ liệu trình duyệt",
+          "Chứa các liên kết giúp chuyển nhanh giữa các chuyên mục chính của website (như Trang chủ, Giới thiệu, Bài viết, Liên hệ)",
+          "Phát video quảng cáo ngẫu nhiên"
+        ],
+        "k": "C",
+        "e": "Menu điều hướng đóng vai trò bản đồ chỉ đường cho khách ghé thăm website.",
+        "s": "Tin Học 9",
+        "h": "Vai trò thanh điều hướng Menu"
+      },
+      {
+        "c": "TH9-B11-004",
+        "d": "basic",
+        "p": "Công cụ nào giúp học sinh lớp 9 dễ dàng tạo một trang web giới thiệu câu lạc bộ theo cách kéo thả trực quan mà không cần cài đặt máy chủ phức tạp?",
+        "o": [
+          "Paint",
+          "Microsoft Excel",
+          "Windows Calculator",
+          "Google Sites (hoặc trình tạo trang web trực quan miễn phí)"
+        ],
+        "k": "D",
+        "e": "Google Sites cung cấp giao diện kéo thả khối nội dung, chèn ảnh, video và biểu mẫu rất trực quan.",
+        "s": "Tin Học 9",
+        "h": "Công cụ tạo web trực quan Google Sites"
+      },
+      {
+        "c": "TH9-B11-005",
+        "d": "basic",
+        "p": "Phần chân trang (Footer) của một website trường học hay câu lạc bộ thường đặt thông tin gì?",
+        "o": [
+          "Tiêu đề cỡ lớn nhất của bài viết chính",
+          "Tên đơn vị chủ quản, địa chỉ liên hệ, năm bản quyền và liên kết hữu ích",
+          "Danh sách mật khẩu đăng nhập quản trị viên",
+          "Toàn bộ mã nguồn cơ sở dữ liệu"
+        ],
+        "k": "B",
+        "e": "Footer tổng kết thông tin liên hệ và bản quyền ở đáy mọi trang của website.",
+        "s": "Tin Học 9",
+        "h": "Nội dung phần Footer"
+      },
+      {
+        "c": "TH9-B11-006",
+        "d": "basic",
+        "p": "Trước khi xuất bản công khai một trang web câu lạc bộ do nhóm thiết kế lên Internet, chế độ \"Preview\" (Xem trước) trên máy tính và điện thoại giúp kiểm tra điều gì?",
+        "o": [
+          "Kiểm tra xem bố cục chữ, hình ảnh và menu có bị vỡ khung hay tràn màn hình trên các kích thước thiết bị khác nhau không",
+          "Tăng tốc độ đường truyền cáp quang",
+          "Tự động sửa lỗi chính tả ngữ văn cho cả nhóm",
+          "Kiểm tra xem màn hình có chống nước không"
+        ],
+        "k": "A",
+        "e": "Xem trước đáp ứng (Responsive Preview) cho máy tính bàn, máy tính bảng và điện thoại đảm bảo mọi người đều đọc đẹp.",
+        "s": "Tin Học 9",
+        "h": "Kiểm tra giao diện đa thiết bị"
+      },
+      {
+        "c": "TH9-B11-007",
+        "d": "application",
+        "p": "Xem bảng các thẻ HTML cơ bản, thẻ `<h1>` và thẻ `<p>` lần lượt dùng để đánh dấu thành phần nào trên trang web?",
+        "o": [
+          "Chân trang và mật khẩu",
+          "Tiêu đề cấp cao nhất (`<h1>`) và đoạn văn bản (`<p>`)",
+          "Bảng tính và biểu đồ tròn",
+          "Hình ảnh (`<h1>`) và âm thanh (`<p>`)"
+        ],
+        "k": "B",
+        "e": "`<h1>` đánh dấu tiêu đề chính lớn nhất, `<p>` (paragraph) đánh dấu đoạn văn.",
+        "s": "Tin Học 9",
+        "h": "Đọc bảng thẻ HTML cơ bản",
+        "fig": {
+          "type": "table",
+          "title": "Thẻ HTML thông dụng",
+          "head": [
+            "Cặp thẻ HTML",
+            "Ý nghĩa hiển thị"
+          ],
+          "rows": [
+            [
+              "<h1>...</h1>",
+              "Tiêu đề chính"
+            ],
+            [
+              "<p>...</p>",
+              "Đoạn văn bản"
+            ],
+            [
+              "<a href=\"...\">",
+              "Siêu liên kết"
+            ],
+            [
+              "<img src=\"...\">",
+              "Chèn hình ảnh"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH9-B11-008",
+        "d": "application",
+        "p": "Khi chèn hình ảnh vào trang web hoặc công cụ tạo web, việc điền dòng văn bản thay thế mô tả ảnh (Alt Text) có tác dụng gì?",
+        "o": [
+          "Làm hình ảnh tự động chuyển động xoay vòng",
+          "Đổi ảnh thành tệp âm thanh MP3",
+          "Khóa không cho ai xem bức ảnh",
+          "Hỗ trợ người khiếm thị sử dụng trình đọc màn hình hiểu nội dung ảnh và hiển thị mô tả khi ảnh bị lỗi tải"
+        ],
+        "k": "D",
+        "e": "Alt Text là tiêu chuẩn hỗ trợ tiếp cận (Accessibility) quan trọng trên web hiện đại.",
+        "s": "Tin Học 9",
+        "h": "Ý nghĩa văn bản thay thế Alt Text"
+      },
+      {
+        "c": "TH9-B11-009",
+        "d": "application",
+        "p": "Khi thiết kế trang web \"Kỉ yếu lớp 9A\", cách đặt liên kết từ Trang chủ dẫn tới 3 trang con (Hoạt động, Thành viên, Thư viện ảnh) hợp lí nhất là gì?",
+        "o": [
+          "Không tạo liên kết nào mà bắt người xem tự gõ lại URL từng trang",
+          "Tạo 3 website hoàn toàn tách biệt không liên kết với nhau",
+          "Đặt rõ 4 mục Trang chủ | Hoạt động | Thành viên | Thư viện ảnh trên thanh Menu cố định đầu mọi trang để qua lại dễ dàng",
+          "Giấu liên kết 3 trang con vào chữ nhỏ xíu ở cuối trang 4"
+        ],
+        "k": "C",
+        "e": "Thanh Menu nhất quán xuyên suốt website giúp trải nghiệm chuyển trang mượt mà không bị lạc.",
+        "s": "Tin Học 9",
+        "h": "Tổ chức điều hướng liên trang"
+      },
+      {
+        "c": "TH9-B11-010",
+        "d": "application",
+        "p": "Nhóm học sinh muốn thu thập ý kiến đóng góp hoặc đăng kí tham gia câu lạc bộ ngay trên trang web của lớp. Thành phần nào tích hợp tiện lợi nhất vào trang web?",
+        "o": [
+          "Yêu cầu khách ghé thăm gửi thư bưu điện",
+          "Đăng một bức ảnh chụp tờ giấy viết tay bảo mọi người tự in ra",
+          "Nhúng biểu mẫu trực tuyến (Google Forms) ngay vào phần nội dung trang Liên hệ / Đăng kí",
+          "Ghi mật khẩu email chung của lớp lên trang chủ"
+        ],
+        "k": "C",
+        "e": "Nhúng biểu mẫu trực tuyến thu thập phản hồi gọn gàng vào bảng tính mà không lộ thông tin cá nhân người gửi ra công khai.",
+        "s": "Tin Học 9",
+        "h": "Tích hợp biểu mẫu thu thập ý kiến"
+      },
+      {
+        "c": "TH9-B11-011",
+        "d": "application",
+        "p": "Khi chọn bảng màu (Color Palette) cho trang web trường học, phối màu nào tạo cảm giác hài hòa, chuyên nghiệp và dễ đọc nhất?",
+        "o": [
+          "Dùng 1 màu chủ đạo, 1 màu nhấn phụ trên nền sáng dịu (trắng hoặc xám rất nhạt) và chữ tối độ tương phản cao",
+          "Chữ màu vàng nhạt trên nền trắng tinh",
+          "Mỗi đoạn văn dùng một màu chữ neon khác nhau trên nền cầu vồng",
+          "Nền đen tuyền với chữ xanh dương đậm"
+        ],
+        "k": "A",
+        "e": "Giới hạn 2–3 tông màu nhất quán giữ giao diện thanh lịch và giúp nội dung chữ nổi bật dễ đọc.",
+        "s": "Tin Học 9",
+        "h": "Nguyên tắc phối màu trang web"
+      },
+      {
+        "c": "TH9-B11-012",
+        "d": "application",
+        "p": "Vì sao không nên tải ảnh nặng tới 10 MB một tấm đặt tràn ngập lên trang chủ website?",
+        "o": [
+          "Vì tên tệp ảnh sẽ tự bị xóa",
+          "Vì ảnh nặng sẽ làm hỏng bàn phím người xem",
+          "Vì trình duyệt web không hiển thị được ảnh màu",
+          "Làm trang web tải rất chậm, tốn dữ liệu mạng di động của người xem trên điện thoại"
+        ],
+        "k": "D",
+        "e": "Tối ưu nén kích thước ảnh phù hợp độ phân giải web (thường vài trăm KB) giúp trang mở tức thì.",
+        "s": "Tin Học 9",
+        "h": "Tối ưu dung lượng ảnh trên web"
+      },
+      {
+        "c": "TH9-B11-013",
+        "d": "advanced",
+        "p": "Khi chia sẻ quyền chỉnh sửa website Google Sites cho 4 bạn trong nhóm cùng hoàn thiện, một bạn vô tình xóa nhầm nguyên trang \"Thành tích lớp\" vừa viết xong tối qua. Tính năng nào giúp cứu lại nhanh chóng?",
+        "o": [
+          "Xóa luôn toàn bộ website đi làm lại từ đầu",
+          "Tắt máy tính rút dây mạng",
+          "Cài đặt lại hệ điều hành Windows",
+          "Xem lại Lịch sử phiên bản (Version History) để khôi phục bản lưu trước thời điểm bị xóa nhầm"
+        ],
+        "k": "D",
+        "e": "Nền tảng làm việc đám mây lưu lịch sử các phiên bản theo mốc thời gian cho phép khôi phục nguyên trạng dễ dàng.",
+        "s": "Tin Học 9",
+        "h": "Phục hồi bằng Version History"
+      },
+      {
+        "c": "TH9-B11-014",
+        "d": "advanced",
+        "p": "Một đoạn mã HTML viết: `<a href=\"https://example.edu.vn\">Trang giáo dục</a>`. Nếu vô tình xóa mất dấu ngoặc kép đóng sau `.vn` thành `<a href=\"https://example.edu.vn>Trang giáo dục</a>`, điều gì xảy ra khi mở trên trình duyệt?",
+        "o": [
+          "Không ảnh hưởng gì, liên kết vẫn mở chuẩn xác 100%",
+          "Trang web tự động chuyển thành tệp video MP4",
+          "Máy tính phát tiếng còi báo động",
+          "Thuộc tính đường dẫn href bị lỗi cú pháp, trình duyệt không đóng đúng đường link nên chữ liên kết có thể bị hỏng hoặc biến mất"
+        ],
+        "k": "D",
+        "e": "HTML yêu cầu cặp dấu ngoặc kép đóng mở đầy đủ cho giá trị thuộc tính để trình duyệt phân tích đúng cấu trúc DOM.",
+        "s": "Tin Học 9",
+        "h": "Gỡ lỗi cú pháp cặp thẻ HTML"
+      },
+      {
+        "c": "TH9-B11-015",
+        "d": "advanced",
+        "p": "Trong thiết kế website học tập công khai cho học sinh toàn trường, quyền xuất bản nên đặt ở chế độ nào để vừa đảm bảo mọi học sinh xem được bình thường vừa ngăn người lạ vào sửa phá nội dung?",
+        "o": [
+          "Phân quyền Người chỉnh sửa (Editor) chỉ cho các thành viên phụ trách và đặt quyền Xem công khai (Published viewer: Public hoặc trong tổ chức)",
+          "Cấp quyền Chỉnh sửa (Editor) cho tất cả mọi người trên Internet",
+          "Đặt quyền Riêng tư chỉ mình tôi xem được",
+          "Đăng công khai tên đăng nhập và mật khẩu quản trị ở Footer"
+        ],
+        "k": "A",
+        "e": "Tách bạch quyền biên tập nội bộ và quyền chỉ xem công khai là nguyên tắc bảo mật cơ bản khi xuất bản web.",
+        "s": "Tin Học 9",
+        "h": "Phân quyền an toàn khi xuất bản web"
+      }
+    ]
+  },
+  {
+    "chapter": "tinhoc9-c4",
+    "lesson": {
+      "code": "tinhoc9-b12",
+      "title": "Bài 12. Tổng kết Học kì 2 và Ôn tập toàn cấp THCS – Tin học 9",
+      "seq": 12,
+      "subtitle": "Ôn tập tổng hợp kiến thức trọng tâm Học kì 2 và toàn chương trình Tin học THCS Lớp 6–9",
+      "concepts": [
+        "Thuật toán và cấu trúc dữ liệu List",
+        "Mô phỏng và sản phẩm số toàn diện",
+        "Định hướng nghề nghiệp và công dân số"
+      ]
+    },
+    "questions": [
+      {
+        "c": "TH9-B12-001",
+        "d": "basic",
+        "p": "Trong quy trình giải quyết bài toán trên máy tính, bước xác định \"Input\" tương ứng với việc tìm hiểu điều gì?",
+        "o": [
+          "Kết quả cuối cùng mong muốn thu được",
+          "Số trang của bài báo cáo",
+          "Màu sắc của giao diện màn hình",
+          "Các dữ liệu và điều kiện đã cho ban đầu cần đưa vào thuật toán"
+        ],
+        "k": "D",
+        "e": "Input là đầu vào, Output là kết quả đầu ra cần tính.",
+        "s": "Tin Học 9",
+        "h": "Ôn tập bước xác định bài toán"
+      },
+      {
+        "c": "TH9-B12-002",
+        "d": "basic",
+        "p": "Cấu trúc dữ liệu nào cho phép lưu trữ danh sách nhiều phần tử cùng loại đánh chỉ số thứ tự để duyệt bằng vòng lặp?",
+        "o": [
+          "Danh sách / Mảng (List / Array)",
+          "Biến đơn kiểu kí tự",
+          "Thư mục rỗng",
+          "Hằng số Pi"
+        ],
+        "k": "A",
+        "e": "Danh sách (List) gom các giá trị liên quan thành một tập hợp có thứ tự.",
+        "s": "Tin Học 9",
+        "h": "Ôn tập cấu trúc List"
+      },
+      {
+        "c": "TH9-B12-003",
+        "d": "basic",
+        "p": "Hai định hướng chính của môn Tin học bậc THPT nối tiếp từ THCS là gì?",
+        "o": [
+          "Văn học cổ điển và Âm nhạc dân gian",
+          "Địa lí tự nhiên và Lịch sử",
+          "Khoa học máy tính và Tin học ứng dụng",
+          "Thể dục nhịp điệu và Mĩ thuật"
+        ],
+        "k": "C",
+        "e": "Khoa học máy tính và Tin học ứng dụng mở ra lộ trình nghề nghiệp công nghệ đa dạng.",
+        "s": "Tin Học 9",
+        "h": "Ôn tập định hướng nghề nghiệp"
+      },
+      {
+        "c": "TH9-B12-004",
+        "d": "basic",
+        "p": "Trong một trang web cơ bản, thẻ HTML `<img src=\"...\">` dùng để thực hiện nhiệm vụ gì?",
+        "o": [
+          "Phát bài hát tự động",
+          "Tạo đoạn văn bản dài",
+          "Định dạng chữ in đậm",
+          "Hiển thị hình ảnh trên trang web"
+        ],
+        "k": "D",
+        "e": "Thẻ img (image) gắn tệp ảnh từ thuộc tính src lên trang.",
+        "s": "Tin Học 9",
+        "h": "Ôn tập thẻ HTML"
+      },
+      {
+        "c": "TH9-B12-005",
+        "d": "basic",
+        "p": "Phép toán lấy phần dư `35 mod 6` cho kết quả bằng bao nhiêu?",
+        "o": [
+          "1",
+          "5",
+          "29",
+          "6"
+        ],
+        "k": "B",
+        "e": "35 chia 6 được thương 5 và dư 5 nên 35 mod 6 = 5.",
+        "s": "Tin Học 9",
+        "h": "Ôn tập phép toán mod"
+      },
+      {
+        "c": "TH9-B12-006",
+        "d": "basic",
+        "p": "Thái độ đúng đắn nhất của một công dân số khi tiếp nhận tin tức giật gân trên không gian mạng là gì?",
+        "o": [
+          "Chia sẻ ngay lập tức cho thật nhiều người",
+          "Kiểm chứng đa nguồn tin cậy theo 4 tiêu chí chất lượng trước khi tin hoặc chia sẻ",
+          "Tin mọi bài viết có hình ảnh",
+          "Gửi thêm lời bình luận kích động"
+        ],
+        "k": "B",
+        "e": "Kiểm chứng nguồn tin ngăn chặn lan truyền tin giả và bảo vệ bản thân.",
+        "s": "Tin Học 9",
+        "h": "Ôn tập kiểm chứng công dân số"
+      },
+      {
+        "c": "TH9-B12-007",
+        "d": "application",
+        "p": "Một hàm bảng tính cần tính tổng doanh thu bán sách của riêng \"Tháng 11\" trong vùng nhật kí bán hàng (cột Tháng A2:A50, cột Tiền D2:D50). Công thức chuẩn nhất là gì?",
+        "o": [
+          "=AVERAGE(D2:D50)",
+          "=IF(A2:A50=\"Tháng 11\", SUM(D2:D50), 0)",
+          "=COUNTIF(A2:A50, \"Tháng 11\")",
+          "=SUMIF(A2:A50, \"Tháng 11\", D2:D50)"
+        ],
+        "k": "D",
+        "e": "SUMIF lọc đúng các hàng có giá trị \"Tháng 11\" ở cột A rồi cộng tương ứng cột D.",
+        "s": "Tin Học 9",
+        "h": "Ôn tập SUMIF thực tế"
+      },
+      {
+        "c": "TH9-B12-008",
+        "d": "application",
+        "p": "Áp dụng thuật toán Euclid tìm ƯCLN(45, 30) bằng cách lấy số lớn trừ số nhỏ cho tới khi hai số bằng nhau. Kết quả thu được là bao nhiêu?",
+        "o": [
+          "30",
+          "5",
+          "10",
+          "15"
+        ],
+        "k": "D",
+        "e": "(45, 30) → (15, 30) → (15, 15) → dừng lại, trả về ƯCLN = 15.",
+        "s": "Tin Học 9",
+        "h": "Ôn tập thuật toán Euclid"
+      },
+      {
+        "c": "TH9-B12-009",
+        "d": "application",
+        "p": "Cho danh sách `A = [10, 20, 30, 40]`. Dùng tìm kiếm nhị phân để tìm số `30` trên dãy tăng dần này, cần tối đa bao nhiêu bước so sánh?",
+        "o": [
+          "Bắt buộc phải duyệt qua 40 bước",
+          "Tối đa 2 đến 3 bước (rất nhanh vì mỗi bước loại bỏ một nửa đoạn xét)",
+          "Không thể áp dụng tìm kiếm nhị phân vì là số chẵn",
+          "Cần 100 bước"
+        ],
+        "k": "B",
+        "e": "Với 4 phần tử đã sắp xếp, tìm kiếm nhị phân chỉ cần tối đa 3 phép so sánh.",
+        "s": "Tin Học 9",
+        "h": "Ôn tập tìm kiếm nhị phân"
+      },
+      {
+        "c": "TH9-B12-010",
+        "d": "application",
+        "p": "Khi thiết kế trang web giới thiệu dự án Tin học 9, nhóm bạn An bố trí 3 phần: Banner tên dự án + Menu điều hướng; Nội dung giới thiệu kèm video mô phỏng nhúng; và Footer ghi tên 4 thành viên cùng nguồn ảnh CC-BY. Cách bố trí này đạt chuẩn nào?",
+        "o": [
+          "Thiếu thanh điều hướng",
+          "Đạt chuẩn bố cục Đầu-Thân-Chân rõ ràng, đa phương tiện trực quan và tuân thủ ghi nhận bản quyền số",
+          "Vi phạm bản quyền vì đã ghi nguồn",
+          "Vi phạm cấu trúc HTML vì thiếu mật khẩu công khai"
+        ],
+        "k": "B",
+        "e": "Trang web vừa khoa học về bố cục giao diện vừa chuẩn mực về đạo đức bản quyền.",
+        "s": "Tin Học 9",
+        "h": "Đánh giá cấu trúc sản phẩm web"
+      },
+      {
+        "c": "TH9-B12-011",
+        "d": "application",
+        "p": "Trong một chương trình Scratch mô phỏng tung đồng xu 100 lần: dùng biến `Ngua = 0`, lặp 100 lần: nếu `lấy ngẫu nhiên từ 0 đến 1 = 1` thì `thay đổi Ngua một lượng 1`. Khi chạy hết, biểu thức tính Tỉ lệ phần trăm mặt Ngửa là gì?",
+        "o": [
+          "(Ngua / 100) * 100 (tức chính bằng giá trị biến Ngua phần trăm)",
+          "Ngua + 100",
+          "Ngua * 2",
+          "100 / Ngua"
+        ],
+        "k": "A",
+        "e": "Số lần xuất hiện chia tổng 100 lần thử rồi nhân 100 ra tỉ lệ phần trăm.",
+        "s": "Tin Học 9",
+        "h": "Mô phỏng xác suất thực nghiệm"
+      },
+      {
+        "c": "TH9-B12-012",
+        "d": "application",
+        "p": "Khi chọn một nghề nghiệp công nghệ tương lai, sự kết hợp giữa Tin học và môn học nào tạo ra lĩnh vực \"Thiết kế kiến trúc công trình xanh 3D\"?",
+        "o": [
+          "Tin học (đồ họa 3D, mô phỏng CAD) kết hợp Toán hình học, Vật lí và Mĩ thuật",
+          "Chỉ riêng môn Giáo dục thể chất",
+          "Chỉ riêng môn Âm nhạc",
+          "Không liên quan đến toán học"
+        ],
+        "k": "A",
+        "e": "Phần mềm CAD/BIM dựng mô hình kiến trúc kết hợp chặt chẽ hình học không gian, vật lí kết cấu và thẩm mĩ.",
+        "s": "Tin Học 9",
+        "h": "Tư duy liên ngành công nghệ"
+      },
+      {
+        "c": "TH9-B12-013",
+        "d": "advanced",
+        "p": "Theo bảng tổng hợp so sánh 4 thuật toán kinh điển THCS, nếu cần tìm kiếm một mã học sinh nhiều nghìn lần trong ngày trên danh sách 10.000 học sinh, quy trình tối ưu nhất là gì?",
+        "o": [
+          "Sắp xếp danh sách theo mã học sinh một lần ban đầu, sau đó dùng Tìm kiếm nhị phân cho hàng nghìn lượt tra cứu",
+          "Mỗi lần tra cứu lại dùng Tìm kiếm tuần tự từ đầu tới cuối",
+          "Chỉ tìm 10 học sinh đầu tiên rồi bỏ qua phần còn lại",
+          "Không bao giờ sắp xếp, mỗi lần tìm lại đảo ngẫu nhiên dãy"
+        ],
+        "k": "A",
+        "e": "Chi phí sắp xếp 1 lần ban đầu được bù đắp vượt bậc nhờ hàng nghìn lượt tìm kiếm nhị phân siêu nhanh (≤14 bước thay vì tới 10.000 bước).",
+        "s": "Tin Học 9",
+        "h": "Chiến lược phối hợp sắp xếp và tìm kiếm",
+        "fig": {
+          "type": "table",
+          "title": "Tổng hợp thuật toán THCS",
+          "head": [
+            "Thuật toán",
+            "Yêu cầu / Đặc điểm"
+          ],
+          "rows": [
+            [
+              "Tìm tuần tự",
+              "Không cần xếp trước"
+            ],
+            [
+              "Tìm nhị phân",
+              "Dãy phải xếp thứ tự"
+            ],
+            [
+              "Nổi bọt",
+              "Đổi chỗ cặp kề nhau"
+            ],
+            [
+              "Chọn",
+              "Chọn cực trị về đầu"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "TH9-B12-014",
+        "d": "advanced",
+        "p": "Một học sinh viết hàm tính tổng bình phương các số chẵn từ 2 đến `N`: `S = 0; i = 2; lặp khi i <= N: [S = S + i * i; i = i + 2]`. Nếu nhập `N = 6`, giá trị `S` xuất ra sau khi vòng lặp kết thúc là bao nhiêu?",
+        "o": [
+          "12",
+          "36",
+          "20",
+          "56"
+        ],
+        "k": "D",
+        "e": "i nhận giá trị 2, 4, 6 → S = 2² + 4² + 6² = 4 + 16 + 36 = 56.",
+        "s": "Tin Học 9",
+        "h": "Truy vết vòng lặp tính tổng bình phương"
+      },
+      {
+        "c": "TH9-B12-015",
+        "d": "advanced",
+        "p": "Nhìn lại toàn bộ chặng đường Tin học THCS từ lớp 6 đến lớp 9 (Xử lí thông tin → Bảng tính & Trình chiếu → Thuật toán & Lập trình → Mô phỏng & Nghề nghiệp số), năng lực xuyên suốt quan trọng nhất mà môn Tin học rèn luyện cho học sinh là gì?",
+        "o": [
+          "Chỉ ghi nhớ thuộc lòng vị trí nút bấm của duy nhất một phiên bản phần mềm cố định",
+          "Tư duy giải quyết vấn đề khoa học, khả năng sử dụng công cụ số sáng tạo và thái độ công dân số an toàn, có trách nhiệm pháp lí – đạo đức",
+          "Tránh xa mọi hoạt động học tập nhóm",
+          "Chỉ biết tải trò chơi về giải trí suốt ngày"
+        ],
+        "k": "B",
+        "e": "Năng lực giải quyết vấn đề bằng công cụ số và văn hóa – đạo đức số là hành trang vững chắc cho bậc học tiếp theo và nghề nghiệp tương lai.",
+        "s": "Tin Học 9",
+        "h": "Tổng kết giá trị cốt lõi Tin học THCS"
+      }
+    ]
+  }
+]

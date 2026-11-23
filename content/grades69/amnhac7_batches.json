@@ -1,0 +1,3641 @@
+[
+  {
+    "chapter": "amnhac7-c1",
+    "lesson": {
+      "code": "amnhac7-b01",
+      "title": "Bài 1. Nhịp 4/4 và cách đánh nhịp 4/4",
+      "seq": 1,
+      "subtitle": "Cấu tạo số chỉ nhịp 4/4 (nhịp C), quy luật 4 phách mạnh - nhẹ - mạnh vừa - nhẹ và sơ đồ đánh nhịp 4/4 chuẩn",
+      "concepts": [
+        "Cấu tạo số chỉ nhịp 4/4",
+        "Chu kì 4 phách trong ô nhịp",
+        "Sơ đồ đánh nhịp 4/4"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN7-B01-001",
+        "d": "basic",
+        "p": "Số chỉ nhịp 4/4 (còn gọi là nhịp C) ở đầu bản nhạc cho biết đặc điểm nào của mỗi ô nhịp?",
+        "o": [
+          "Cả bản nhạc chỉ được phép viết tối đa 4 ô nhịp ngắn",
+          "Mỗi ô nhịp có 4 phách nhưng mỗi phách chỉ dài bằng nốt móc đơn",
+          "Mỗi ô nhịp có 4 phách và giá trị trường độ mỗi phách bằng 1 hình nốt đen",
+          "Mỗi ô nhịp có 2 phách và mỗi phách bằng 1 hình nốt trắng"
+        ],
+        "k": "C",
+        "e": "Nhịp 4/4 là nhịp phổ biến bậc nhất trong âm nhạc hiện đại và ca khúc trữ tình, còn được viết kí hiệu chữ C.",
+        "s": "Âm Nhạc 7",
+        "h": "Khái niệm nhịp 4/4"
+      },
+      {
+        "c": "AN7-B01-002",
+        "d": "basic",
+        "p": "Quy luật độ mạnh yếu của 4 phách liên tiếp trong một ô nhịp 4/4 là gì?",
+        "o": [
+          "Phách 1 mạnh, phách 2 nhẹ, phách 3 mạnh vừa, phách 4 nhẹ",
+          "Phách 1 nhẹ, phách 2 mạnh, phách 3 nhẹ, phách 4 rất mạnh",
+          "Phách 1 mạnh, phách 2 mạnh, phách 3 và phách 4 cùng nhẹ",
+          "Cả bốn phách đều mạnh tuyệt đối ngang nhau như nhau"
+        ],
+        "k": "A",
+        "e": "Nhịp 4/4 là nhịp kép ghép từ hai nhóm 2 phách, nên phách 3 mang tính chất \"mạnh vừa\" hơn phách 2 và 4.",
+        "s": "Âm Nhạc 7",
+        "h": "Chu kì phách mạnh nhẹ nhịp 4/4"
+      },
+      {
+        "c": "AN7-B01-003",
+        "d": "basic",
+        "p": "Hình nốt đơn lẻ nào có giá trị trường độ vừa đủ lấp đầy trọn vẹn một ô nhịp 4/4 (bằng 4 phách đen)?",
+        "o": [
+          "Hình nốt đen chấm dôi",
+          "Hình nốt tròn",
+          "Hình nốt trắng chấm dôi",
+          "Hình nốt trắng thường"
+        ],
+        "k": "B",
+        "e": "1 nốt tròn = 2 nốt trắng = 4 nốt đen = 8 nốt móc đơn.",
+        "s": "Âm Nhạc 7",
+        "h": "Nốt tròn lấp đầy ô nhịp 4/4"
+      },
+      {
+        "c": "AN7-B01-004",
+        "d": "basic",
+        "p": "Trong sơ đồ đánh nhịp 4/4 chuẩn bằng tay phải, hướng chuyển động tay của 4 phách lần lượt đi như thế nào?",
+        "o": [
+          "Phách 1 sang phải; phách 2 sang trái; phách 3 đi xuống; phách 4 vòng tròn",
+          "Phách 1 đi lên; phách 2 sang phải; phách 3 đi xuống; phách 4 đứng im",
+          "Cả 4 phách đều gõ thẳng từ trên xuống dưới cùng một đường thẳng",
+          "Phách 1 đi thẳng xuống; phách 2 đưa sang trái; phách 3 đưa sang phải; phách 4 hất lên về điểm xuất phát"
+        ],
+        "k": "D",
+        "e": "Mẹo nhớ hướng tay nhịp 4/4: Xuống (1) - Trái (2) - Phải (3) - Lên (4).",
+        "s": "Âm Nhạc 7",
+        "h": "Sơ đồ đánh nhịp 4/4"
+      },
+      {
+        "c": "AN7-B01-005",
+        "d": "basic",
+        "p": "Trên đầu bản nhạc thay vì ghi phân số 4/4, nhiều bản nhạc in chữ cái viết hoa lớn \"C\" ngay sau khóa Sol. Kí hiệu \"C\" đó biểu thị điều gì?",
+        "o": [
+          "Quy định cả bài hát chỉ được sử dụng một mình nốt Đô",
+          "Yêu cầu người hát phải hát thật chậm như nhịp 3/4",
+          "Báo hiệu đoạn nhạc chỉ dành cho nhạc cụ gõ đánh tự do",
+          "Là kí hiệu viết tắt tương đương hoàn toàn với số chỉ nhịp 4/4"
+        ],
+        "k": "D",
+        "e": "Chữ C bắt nguồn từ kí hiệu vòng tròn chưa khép kín trong ghi nhạc cổ điển châu Âu chỉ nhịp bốn hoàn chỉnh.",
+        "s": "Âm Nhạc 7",
+        "h": "Kí hiệu nhịp C tương đương 4/4"
+      },
+      {
+        "c": "AN7-B01-006",
+        "d": "basic",
+        "p": "Tính chất biểu cảm thường gặp của các bài hát viết ở nhịp 4/4 là gì?",
+        "o": [
+          "Luôn mang tính chất đứt quãng gấp gáp không ngân dài được",
+          "Không bao giờ sử dụng hình nốt trắng hay nốt tròn",
+          "Khoan thai, trang trọng, sâu lắng, rộng mở hoặc hành khúc hùng tráng đầy đặn",
+          "Chỉ dùng cho những bài hát đồng dao rất nhanh có hai tiếng mỗi câu"
+        ],
+        "k": "C",
+        "e": "Nhờ chu kì 4 phách rộng rãi, nhịp 4/4 dễ diễn tả những giai điệu dài hơi, giàu cảm xúc.",
+        "s": "Âm Nhạc 7",
+        "h": "Tính chất nghệ thuật nhịp 4/4"
+      },
+      {
+        "c": "AN7-B01-007",
+        "d": "application",
+        "p": "Quan sát bảng kiểm tra ô nhịp 4/4 dưới đây, tổ hợp hình nốt nào ghép ĐÚNG đủ 4 phách trong một ô nhịp 4/4?",
+        "o": [
+          "1 nốt đen chấm dôi (1,5 phách) + 1 nốt trắng (2 phách)",
+          "1 nốt trắng chấm dôi (3 phách) + 2 nốt móc đơn (1 phách)",
+          "2 nốt trắng chấm dôi (6 phách)",
+          "1 nốt trắng (2 phách) + 1 nốt đen (1 phách)"
+        ],
+        "k": "B",
+        "e": "Cộng chính xác từng giá trị: 3 + 0,5 + 0,5 = đúng 4 phách nốt đen.",
+        "s": "Âm Nhạc 7",
+        "h": "Kiểm tra đủ 4 phách trong ô nhịp 4/4",
+        "fig": {
+          "type": "table",
+          "title": "Kiểm tra ô nhịp 4/4",
+          "head": [
+            "Tổ hợp hình nốt",
+            "Tổng phách"
+          ],
+          "rows": [
+            [
+              "1 nốt tròn",
+              "4 phách (Đủ)"
+            ],
+            [
+              "Trắng chấm + 2 đơn",
+              "4 phách (Đủ)"
+            ],
+            [
+              "2 trắng + 1 đen",
+              "5 phách (Thừa)"
+            ],
+            [
+              "1 trắng + 1 đen",
+              "3 phách (Thiếu)"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN7-B01-008",
+        "d": "application",
+        "p": "Trong một ô nhịp 4/4 có sẵn: 1 nốt trắng ở hai phách đầu và 1 dấu lặng đen ở phách thứ 3. Ở phách thứ 4 còn thiếu, ta cần điền hình nốt gì cho vừa tròn ô nhịp?",
+        "o": [
+          "Điền 1 nốt tròn (4 phách)",
+          "Điền 1 nốt trắng (2 phách)",
+          "Điền 1 nốt đen chấm dôi (1,5 phách)",
+          "Điền 1 nốt đen hoặc 2 nốt móc đơn (đúng 1 phách còn lại)"
+        ],
+        "k": "D",
+        "e": "Tổng hiện có: 2 (trắng) + 1 (lặng đen) = 3 phách -> còn thiếu đúng 1 phách.",
+        "s": "Âm Nhạc 7",
+        "h": "Điền nốt còn thiếu vào ô nhịp 4/4"
+      },
+      {
+        "c": "AN7-B01-009",
+        "d": "application",
+        "p": "Một người chỉ huy hợp xướng đang đánh nhịp 4/4. Khi tay người chỉ huy đưa ngang sang phía bên PHẢI, cả dàn hợp xướng biết mình đang hát tới phách thứ mấy trong ô nhịp?",
+        "o": [
+          "Phách thứ 2 (phách nhẹ)",
+          "Phách thứ 4 (phách nhẹ cuối ô nhịp)",
+          "Phách thứ 1 (phách mạnh nhất)",
+          "Phách thứ 3 (phách mạnh vừa)"
+        ],
+        "k": "D",
+        "e": "Theo chiều tay chuẩn: 1 xuống, 2 vào trong (trái), 3 vươn ra ngoài (phải), 4 lên đỉnh.",
+        "s": "Âm Nhạc 7",
+        "h": "Đọc động tác tay chỉ huy nhịp 4/4"
+      },
+      {
+        "c": "AN7-B01-010",
+        "d": "application",
+        "p": "Khi dùng bộ gõ cơ thể đệm cho một ca khúc nhịp 4/4 sâu lắng, tổ hợp động tác 4 phách nào thể hiện tinh tế sắc thái \"Mạnh - Nhẹ - Mạnh vừa - Nhẹ\"?",
+        "o": [
+          "Chỉ vỗ tay duy nhất ở phách 4 còn phách 1 đến 3 đứng im lặng",
+          "Phách 1: vỗ tay rõ; Phách 2: vỗ ngực nhẹ; Phách 3: búng tay hoặc vỗ bàn vừa; Phách 4: vỗ ngực nhẹ",
+          "Cả 4 phách dậm hai chân mạnh hết cỡ xuống sàn lớp học",
+          "Gõ 8 tiếng liên tiếp thật nhanh trong hai phách đầu rồi nghỉ hai phách sau"
+        ],
+        "k": "B",
+        "e": "Phân biệt lực phách 1 lớn hơn phách 3 và nhẹ tay ở phách 2, 4 giúp giai điệu có độ nâng nhịp tự nhiên.",
+        "s": "Âm Nhạc 7",
+        "h": "Đệm cơ thể phân biệt 4 phách"
+      },
+      {
+        "c": "AN7-B01-011",
+        "d": "application",
+        "p": "Khi đọc bản nhạc nhịp 4/4 gồm 3 ô nhịp đầy đủ không có dấu quay lại, một bạn học sinh đếm được tổng cộng bao nhiêu phách nốt đen?",
+        "o": [
+          "6 phách",
+          "8 phách",
+          "12 phách (3 ô nhịp × 4 phách = 12 phách)",
+          "16 phách"
+        ],
+        "k": "C",
+        "e": "Nhân số ô nhịp đầy đủ với 4 phách để kiểm soát trường độ tổng thể toàn đoạn nhạc.",
+        "s": "Âm Nhạc 7",
+        "h": "Tính tổng số phách trong đoạn nhạc 4/4"
+      },
+      {
+        "c": "AN7-B01-012",
+        "d": "application",
+        "p": "Một ca khúc hành khúc học đường ban đầu viết ở nhịp 2/4 có 8 ô nhịp rất gọn, nay nhạc sĩ muốn chuyển sang ghi lại dưới dạng nhịp 4/4 giữ nguyên tốc độ phách đen. Khi đó đoạn nhạc trở thành mấy ô nhịp 4/4?",
+        "o": [
+          "16 ô nhịp 4/4",
+          "8 ô nhịp 4/4",
+          "2 ô nhịp 4/4",
+          "4 ô nhịp 4/4 (gộp mỗi 2 ô nhịp 2/4 thành 1 ô nhịp 4/4)"
+        ],
+        "k": "D",
+        "e": "Tổng 8 × 2 = 16 phách đen; chia cho 4 phách mỗi ô nhịp sẽ thành 4 ô nhịp 4/4.",
+        "s": "Âm Nhạc 7",
+        "h": "Quy đổi số ô nhịp giữa 2/4 và 4/4"
+      },
+      {
+        "c": "AN7-B01-013",
+        "d": "advanced",
+        "p": "So sánh cảm giác âm nhạc khi nghe cùng một câu nhạc 8 phách được chia làm 4 ô nhịp 2/4 so với 2 ô nhịp 4/4?",
+        "o": [
+          "Nhịp 2/4 và nhịp 4/4 nghe hoàn toàn giống hệt nhau về số điểm nhấn phách mạnh",
+          "Nhịp 2/4 tạo nhiều điểm nhấn phách 1 hơn nên bước đi dứt khoát gọn gàng; nhịp 4/4 giảm bớt điểm nhấn giữa mỗi cặp nên câu nhạc dàn trải, mượt và bay bổng hơn",
+          "Chuyển sang nhịp 4/4 sẽ làm toàn bộ các nốt Đô biến thành nốt Pha",
+          "Nhịp 4/4 luôn bắt buộc phải hát chậm hơn một nửa tốc độ so với nhịp 2/4"
+        ],
+        "k": "B",
+        "e": "Lựa chọn nhịp 2/4 hay 4/4 phản ánh ý đồ về hơi thở câu nhạc và mật độ trọng âm của tác giả.",
+        "s": "Âm Nhạc 7",
+        "h": "So sánh trọng âm nhịp 2/4 và 4/4"
+      },
+      {
+        "c": "AN7-B01-014",
+        "d": "advanced",
+        "p": "Trong ô nhịp cuối của một đoạn nhạc nhịp 4/4, có một nốt trắng ở phách 1-2 và một dấu lặng trắng ở phách 3-4. Dấu lặng trắng ở nửa sau ô nhịp thực hiện nhiệm vụ gì?",
+        "o": [
+          "Cho phép bỏ qua toàn bộ hai phách cuối chuyển ngay sang đoạn sau",
+          "Báo hiệu người hát phải ngân tiếp nốt trắng sang tận hết phách thứ 4",
+          "Yêu cầu cả dàn nhạc chơi thật to ở hai phách cuối cùng",
+          "Giữ khoảng lặng tròn đúng 2 phách cuối để tạo độ ngân dư âm và giúp người hát lấy hơi thảnh thơi trước khi sang đoạn mới"
+        ],
+        "k": "D",
+        "e": "Không gian lặng cuối câu giúp người nghe thẩm thấu cảm xúc trước khi bước vào phần giai điệu tiếp theo.",
+        "s": "Âm Nhạc 7",
+        "h": "Ý nghĩa dấu lặng trắng cuối câu"
+      },
+      {
+        "c": "AN7-B01-015",
+        "d": "advanced",
+        "p": "Nếu gặp một ô nhịp 4/4 chứa một dấu lặng tròn nằm trọn vẹn giữa ô nhịp không có bất kì nốt nhạc nào khác, nhạc công cần làm gì trong suốt ô nhịp đó?",
+        "o": [
+          "Nghỉ hoàn toàn không phát ra âm thanh suốt cả 4 phách của ô nhịp đó (nhưng vẫn đếm nhẩm đủ 1 - 2 - 3 - 4 trong đầu)",
+          "Dừng hẳn đồng hồ nhịp để chờ chỉ huy gọi tên mới đếm tiếp",
+          "Chỉ nghỉ 2 phách đầu rồi tự ý chơi nốt nhạc ở phách 3",
+          "Lặp lại y hệt các nốt của ô nhịp đứng ngay trước đó"
+        ],
+        "k": "A",
+        "e": "Theo quy ước ghi nhạc, dấu lặng tròn còn dùng làm kí hiệu \"nghỉ trọn một ô nhịp\" cho bất kì loại nhịp nào.",
+        "s": "Âm Nhạc 7",
+        "h": "Quy ước dấu lặng trọn ô nhịp"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac7-c1",
+    "lesson": {
+      "code": "amnhac7-b02",
+      "title": "Bài 2. Cung, nửa cung và các dấu hóa",
+      "seq": 2,
+      "subtitle": "Đơn vị khoảng cách cao độ (cung, nửa cung) giữa 7 bậc âm tự nhiên và công dụng của dấu thăng, dấu giáng, dấu bình",
+      "concepts": [
+        "Cung và nửa cung tự nhiên",
+        "Dấu thăng, giáng và bình",
+        "Dấu hóa suốt và hóa bất thường"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN7-B02-001",
+        "d": "basic",
+        "p": "Trên hàng âm tự nhiên gồm 7 bậc cơ bản Đô - Rê - Mi - Pha - Son - La - Si - Đô2, những cặp nốt liền kề nào cách nhau một NỬA CUNG tự nhiên?",
+        "o": [
+          "Tất cả 7 bậc liền kề đều cách nhau đúng 1 cung như nhau",
+          "Hai cặp Pha - Son và La - Si",
+          "Hai cặp Mi - Pha và Si - Đô (các cặp liền bậc còn lại đều cách nhau 1 cung)",
+          "Hai cặp Đô - Rê và Son - La"
+        ],
+        "k": "C",
+        "e": "Nhìn trên bàn phím đàn piano, giữa Mi - Pha và Si - Đô không có phím đen chen ở giữa nên chỉ cách nhau nửa cung.",
+        "s": "Âm Nhạc 7",
+        "h": "Khoảng cách nửa cung tự nhiên"
+      },
+      {
+        "c": "AN7-B02-002",
+        "d": "basic",
+        "p": "Tác dụng của dấu thăng (#) đặt trước một nốt nhạc là gì?",
+        "o": [
+          "Hủy bỏ tác dụng của mọi dấu hóa trước đó",
+          "Làm tăng trường độ của nốt nhạc lên gấp đôi",
+          "Làm hạ thấp cao độ của nốt nhạc xuống nửa cung",
+          "Làm tăng cao độ của nốt nhạc đứng sau nó lên nửa cung (1/2 cung)"
+        ],
+        "k": "D",
+        "e": "Ví dụ: Nốt Pha thêm dấu thăng thành Pha thăng (#), nằm ở phím đen ngay bên phải phím Pha.",
+        "s": "Âm Nhạc 7",
+        "h": "Tác dụng của dấu thăng"
+      },
+      {
+        "c": "AN7-B02-003",
+        "d": "basic",
+        "p": "Dấu giáng (b) khi gắn trước một nốt nhạc làm thay đổi âm thanh thế nào?",
+        "o": [
+          "Giữ nguyên cao độ ban đầu không thay đổi gì",
+          "Làm giảm trường độ nốt nhạc xuống còn một nửa",
+          "Làm hạ thấp cao độ của nốt nhạc xuống nửa cung (1/2 cung)",
+          "Làm tăng cao độ của nốt nhạc lên nửa cung"
+        ],
+        "k": "C",
+        "e": "Ví dụ: Nốt Si giáng (Bb) thấp hơn nốt Si tự nhiên nửa cung.",
+        "s": "Âm Nhạc 7",
+        "h": "Tác dụng của dấu giáng"
+      },
+      {
+        "c": "AN7-B02-004",
+        "d": "basic",
+        "p": "Khi muốn khôi phục một nốt nhạc đã bị thăng hoặc giáng trở về lại cao độ tự nhiên bình thường ban đầu, nhạc sĩ dùng kí hiệu nào?",
+        "o": [
+          "Dấu bình",
+          "Dấu chấm dôi",
+          "Dấu thăng kép",
+          "Dấu nối"
+        ],
+        "k": "A",
+        "e": "Dấu bình xóa bỏ hiệu lực của dấu thăng hoặc dấu giáng đối với nốt đó.",
+        "s": "Âm Nhạc 7",
+        "h": "Tác dụng của dấu bình"
+      },
+      {
+        "c": "AN7-B02-005",
+        "d": "basic",
+        "p": "Phân biệt giữa \"dấu hóa suốt\" (hóa biểu) và \"dấu hóa bất thường\" dựa vào vị trí đặt trên khuông nhạc?",
+        "o": [
+          "Dấu hóa suốt chỉ có hiệu lực đúng 1 ô nhịp đầu tiên rồi tự hết",
+          "Dấu hóa suốt luôn dùng màu mực đỏ, còn dấu hóa bất thường dùng màu đen",
+          "Dấu hóa suốt đặt ngay đầu khuông nhạc (sau khóa nhạc) có hiệu lực cả bản nhạc; dấu hóa bất thường đặt rải rác cạnh nốt và chỉ có hiệu lực trong ô nhịp đó",
+          "Dấu hóa bất thường đặt ở cuối mỗi trang giấy để trang trí"
+        ],
+        "k": "C",
+        "e": "Dấu hóa suốt quyết định giọng điệu (hóa biểu) của cả bản nhạc cho tới khi có hóa biểu mới.",
+        "s": "Âm Nhạc 7",
+        "h": "Dấu hóa suốt và bất thường"
+      },
+      {
+        "c": "AN7-B02-006",
+        "d": "basic",
+        "p": "Một cung (1 cung) bằng bao nhiêu nửa cung?",
+        "o": [
+          "Bằng 4 nửa cung",
+          "Bằng đúng 1 nửa cung",
+          "Bằng 3 nửa cung",
+          "Bằng 2 nửa cung cộng lại"
+        ],
+        "k": "D",
+        "e": "Từ Đô lên Đô thăng là nửa cung, từ Đô thăng lên Rê là nửa cung nữa -> Đô lên Rê tròn 1 cung.",
+        "s": "Âm Nhạc 7",
+        "h": "Quan hệ cung và nửa cung"
+      },
+      {
+        "c": "AN7-B02-007",
+        "d": "application",
+        "p": "Quan sát bảng quy luật bậc tự nhiên dưới đây, tổng khoảng cách cao độ đi từ nốt Đô lên tới nốt Mi gồm bao nhiêu cung?",
+        "o": [
+          "1,5 cung",
+          "2,5 cung",
+          "2 cung (Đô - Rê là 1 cung cộng Rê - Mi là 1 cung)",
+          "3 cung"
+        ],
+        "k": "C",
+        "e": "Cộng lần lượt từng bậc: Đô->Rê (1) + Rê->Mi (1) = 2 cung (gọi là quãng ba trưởng).",
+        "s": "Âm Nhạc 7",
+        "h": "Tính tổng số cung giữa các nốt",
+        "fig": {
+          "type": "table",
+          "title": "Khoảng cách bậc tự nhiên",
+          "head": [
+            "Cặp nốt liền kề",
+            "Khoảng cách"
+          ],
+          "rows": [
+            [
+              "Đô - Rê; Rê - Mi",
+              "1 cung mỗi cặp"
+            ],
+            [
+              "Mi - Pha",
+              "0,5 cung (nửa cung)"
+            ],
+            [
+              "Pha - Son; Son - La",
+              "1 cung mỗi cặp"
+            ],
+            [
+              "Si - Đô2",
+              "0,5 cung (nửa cung)"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN7-B02-008",
+        "d": "application",
+        "p": "Trên một ô nhịp bất kì ở bản nhạc không có hóa biểu, ô nhịp thứ 2 xuất hiện ba nốt Pha (dòng 5): nốt đầu ghi dấu thăng thành Pha#, nốt thứ hai không ghi gì thêm và nốt thứ ba nằm ở dòng 5 vẫn không ghi dấu. Hỏi cả nốt thứ hai và thứ ba ở ô nhịp 2 đó được hát/đàn là nốt gì?",
+        "o": [
+          "Nốt thứ hai là Pha giáng, nốt thứ ba là Pha bình",
+          "Cả ba nốt đều biến thành nốt Son thường",
+          "Đều phải đọc là Pha thăng (#), vì dấu hóa bất thường giữ nguyên hiệu lực tới hết ô nhịp đó cho cùng tên nốt ở cùng vị trí",
+          "Chỉ nốt đầu là Pha thăng, hai nốt sau tự động quay về Pha thường"
+        ],
+        "k": "C",
+        "e": "Hết vạch nhịp sang ô nhịp thứ 3 mới tự động mất hiệu lực của dấu hóa bất thường ở ô nhịp 2.",
+        "s": "Âm Nhạc 7",
+        "h": "Phạm vi hiệu lực dấu hóa bất thường"
+      },
+      {
+        "c": "AN7-B02-009",
+        "d": "application",
+        "p": "Trong một bản nhạc có 1 dấu giáng đặt sẵn ở vị trí nốt Si ngay sau khóa Sol (hóa biểu của giọng Pha trưởng). Đến ô nhịp 5 có một nốt Si cần quay về âm tự nhiên, nhạc sĩ phải viết kí hiệu gì cạnh nốt Si ở ô nhịp 5?",
+        "o": [
+          "Không cần viết thêm gì vì hóa biểu chỉ có tác dụng ở dòng đầu",
+          "Viết thêm một dấu giáng nữa trước nốt Si",
+          "Viết dấu bình trước nốt Si ở ô nhịp 5 để tạm hủy hiệu lực của dấu hóa suốt trong ô nhịp đó",
+          "Viết dấu thăng trước nốt Si để hạ xuống nửa cung"
+        ],
+        "k": "C",
+        "e": "Dấu bình là công cụ cần thiết để tạm thời thoát khỏi hóa biểu đầu dòng trong một ô nhịp cụ thể.",
+        "s": "Âm Nhạc 7",
+        "h": "Dùng dấu bình khi có hóa biểu"
+      },
+      {
+        "c": "AN7-B02-010",
+        "d": "application",
+        "p": "Quan sát khuông nhạc minh họa cặp âm Đô - Rê - Mi - Pha - Son. Nếu muốn tạo một bước nhảy ĐÚNG 1 CUNG đi lên bắt đầu từ nốt Mi, ta phải dừng ở nốt nào sau nốt Mi?",
+        "o": [
+          "Nốt Rê thăng, vì đi lên từ Mi là Rê thăng",
+          "Nốt Son thường, vì Mi lên Son chỉ có 1 cung",
+          "Nốt Pha thăng (#), vì Mi lên Pha thường mới được nửa cung, cần nâng thêm nửa cung nữa thành 1 cung",
+          "Nốt Pha thường, vì Mi lên Pha đã đủ 1 cung rồi"
+        ],
+        "k": "C",
+        "e": "Rất nhiều người mới học đàn nhầm Mi -> Pha là 1 cung; chú ý Mi -> Pha chỉ là nửa cung nên 1 cung từ Mi phải tới Pha#!",
+        "s": "Âm Nhạc 7",
+        "h": "Tìm khoảng cách 1 cung từ nốt Mi",
+        "fig": {
+          "w": 350,
+          "h": 168,
+          "items": [
+            {
+              "t": "txt",
+              "p": [
+                175,
+                22
+              ],
+              "s": "Mi lên Pha chỉ có nửa cung",
+              "anchor": "middle",
+              "size": 13
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                50
+              ],
+              "b": [
+                320,
+                50
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                66
+              ],
+              "b": [
+                320,
+                66
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                82
+              ],
+              "b": [
+                320,
+                82
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                98
+              ],
+              "b": [
+                320,
+                98
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                114
+              ],
+              "b": [
+                320,
+                114
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "circle",
+              "c": [
+                65,
+                98
+              ],
+              "r": 7,
+              "fill": "#1d4ed8",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "line",
+              "a": [
+                72,
+                98
+              ],
+              "b": [
+                72,
+                72
+              ],
+              "color": "#0f172a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                65,
+                148
+              ],
+              "s": "Mi",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "circle",
+              "c": [
+                113,
+                90
+              ],
+              "r": 7,
+              "fill": "#1d4ed8",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "line",
+              "a": [
+                120,
+                90
+              ],
+              "b": [
+                120,
+                64
+              ],
+              "color": "#0f172a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                113,
+                148
+              ],
+              "s": "Pha",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "circle",
+              "c": [
+                161,
+                82
+              ],
+              "r": 7,
+              "fill": "#1d4ed8",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "line",
+              "a": [
+                168,
+                82
+              ],
+              "b": [
+                168,
+                56
+              ],
+              "color": "#0f172a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                161,
+                148
+              ],
+              "s": "Son",
+              "anchor": "middle",
+              "size": 12
+            }
+          ]
+        }
+      },
+      {
+        "c": "AN7-B02-011",
+        "d": "application",
+        "p": "Trên bàn phím đàn piano, hai nốt Pha thăng (F#) và Son giáng (Gb) thực chất cùng bấm chung vào phím đen nằm chính giữa phím Pha và phím Son. Hiện tượng hai tên gọi khác nhau nhưng cùng một cao độ thực tế trên phím piano gọi là gì?",
+        "o": [
+          "Hợp âm ba thứ",
+          "Hai âm trùng âm (đồng âm khác tên)",
+          "Hai nốt không có cao độ xác định",
+          "Hai âm nghịch nhau cách một quãng tám"
+        ],
+        "k": "B",
+        "e": "Tương tự, Đô thăng (C#) và Rê giáng (Db) cũng trùng phím đen trên đàn phím hiện đại.",
+        "s": "Âm Nhạc 7",
+        "h": "Hiện tượng trùng âm thăng và giáng"
+      },
+      {
+        "c": "AN7-B02-012",
+        "d": "application",
+        "p": "Nếu tính từ nốt Pha lên nốt Si (Pha - Son - La - Si), tổng cộng có bao nhiêu cung? Và để biến khoảng cách đó nhỏ bớt nửa cung cho êm dịu (còn 2,5 cung), ta cần dùng dấu hóa nào vào nốt Si?",
+        "o": [
+          "Có 2 cung; tăng nốt Si bằng dấu thăng để lên 2,5 cung",
+          "Có 3,5 cung; thêm dấu bình vào nốt Pha",
+          "Có tổng 3 cung (Pha-Son 1 + Son-La 1 + La-Si 1); hạ nốt Si bằng dấu GIẢNG thành Si giáng (Bb) để còn 2,5 cung",
+          "Có 2,5 cung sẵn rồi nên không cần dùng thêm dấu hóa nào"
+        ],
+        "k": "C",
+        "e": "Khoảng cách Pha - Si (3 cung) là quãng bốn tăng căng thẳng; giáng Si thành Bb tạo quãng bốn đúng êm tai.",
+        "s": "Âm Nhạc 7",
+        "h": "Tính cung và điều chỉnh bằng dấu hóa"
+      },
+      {
+        "c": "AN7-B02-013",
+        "d": "advanced",
+        "p": "Vì sao trên cây đàn phím (piano, organ) lại cần chia phím trắng và phím đen thay vì chỉ dùng duy nhất 7 phím trắng mỗi quãng tám?",
+        "o": [
+          "Vì làm phím đen chỉ để trang trí cho mặt đàn trông giống bàn cờ vua",
+          "Vì hai ngón tay cái không thể bấm vào phím trắng được",
+          "Nhờ 5 phím đen chèn vào các khoảng 1 cung (tổng 12 bán cung), ta mới chơi đủ mọi giọng trưởng - thứ ở các cao độ khác nhau cho mọi tầm giọng",
+          "Vì 7 phím trắng không thể chơi được các bài hát ở giọng Đô trưởng"
+        ],
+        "k": "C",
+        "e": "Hệ thống 12 bán cung bình quân cho phép chuyển giọng linh hoạt mà vẫn giữ nguyên cấu trúc giai điệu bài hát.",
+        "s": "Âm Nhạc 7",
+        "h": "Ý nghĩa hệ thống 12 phím đàn"
+      },
+      {
+        "c": "AN7-B02-014",
+        "d": "advanced",
+        "p": "Giả sử một đoạn nhạc có dấu Pha thăng đặt cố định ở đầu dòng (hóa biểu), nhưng tới ô nhịp 4 nhạc sĩ đặt một dấu bình trước nốt Pha. Sang ô nhịp 5 tiếp theo, nếu gặp lại nốt Pha mà không viết kí hiệu gì thêm thì phải chơi là Pha gì?",
+        "o": [
+          "Bỏ qua nốt Pha đó chuyển thành dấu lặng đen",
+          "Vẫn chơi là Pha bình suốt toàn bộ phần còn lại của cả trang giấy",
+          "Phải tự hạ xuống thành Pha giáng để bù trừ cho ô nhịp trước",
+          "Phải quay lại chơi là Pha thăng (#), vì dấu bình ở ô nhịp 4 là dấu hóa bất thường nên hết ô nhịp 4 là hết hiệu lực, hóa biểu đầu dòng tiếp tục có hiệu lực lại"
+        ],
+        "k": "D",
+        "e": "Nguyên tắc vàng: Dấu hóa bất thường (thăng, giáng, bình) chỉ sống trong phạm vi 1 ô nhịp hiện tại.",
+        "s": "Âm Nhạc 7",
+        "h": "Hiệu lực dấu hóa bất thường với hóa biểu"
+      },
+      {
+        "c": "AN7-B02-015",
+        "d": "advanced",
+        "p": "Trong thang âm dân ca Việt Nam, ngoài 7 bậc chia đều kiểu phương Tây đôi khi còn có những tiếng luyến hoặc nốt hơi non, hơi già tinh tế hơn nửa cung. Trên thực tế học sinh thường cảm nhận điều này rõ nhất ở nhạc cụ nào?",
+        "o": [
+          "Ở chiếc kèn điện tử chỉ bấm đúng một nút bật nguồn",
+          "Ở tiếng gõ thanh phách gỗ đơn thuần không có cao độ",
+          "Ở tiếng trống cái chỉ phát ra một âm trầm cố định",
+          "Ở đàn bầu (uốn cần đàn), đàn tranh (nhấn dây tay trái) hoặc giọng hát dân ca luyến láy trực tiếp chứ không gò cứng theo phím đàn piano"
+        ],
+        "k": "D",
+        "e": "Các nhạc cụ dây không phím cứng giúp nghệ nhân diễn tả sắc thái âm nhạc phương Đông vô cùng tinh vi.",
+        "s": "Âm Nhạc 7",
+        "h": "Âm nhạc dân tộc và cao độ tinh tế"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac7-c1",
+    "lesson": {
+      "code": "amnhac7-b03",
+      "title": "Bài 3. Âm nhạc dân gian miền núi phía Bắc",
+      "seq": 3,
+      "subtitle": "Di sản Hát Then - Đàn tính của người Tày, Nùng, Thái và tiếng Khèn, sáo của đồng bào vùng cao phía Bắc",
+      "concepts": [
+        "Hát Then và cây Đàn tính",
+        "Tiếng Khèn vùng cao Tây Bắc",
+        "Bảo tồn văn hóa các dân tộc"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN7-B03-001",
+        "d": "basic",
+        "p": "Loại hình âm nhạc dân gian đặc sắc của đồng bào dân tộc Tày, Nùng, Thái ở miền núi phía Bắc gắn liền với cây đàn tính (tính tẩu) và đã được UNESCO ghi danh là Di sản văn hóa phi vật thể đại diện nhân loại là gì?",
+        "o": [
+          "Nhã nhạc cung đình Huế",
+          "Thực hành Then (Hát Then - Đàn tính)",
+          "Dân ca Quan họ Bắc Ninh",
+          "Đờn ca tài tử Nam Bộ"
+        ],
+        "k": "B",
+        "e": "Hát Then kết hợp lời ca giàu chất thơ với tiếng đàn tính bồng bềnh và chùm xóc nhạc rộn ràng ở cổ chân hoặc ngón tay.",
+        "s": "Âm Nhạc 7",
+        "h": "Di sản Hát Then - Đàn tính"
+      },
+      {
+        "c": "AN7-B03-002",
+        "d": "basic",
+        "p": "Nhạc cụ gảy dây nổi tiếng song hành cùng nghệ nhân Hát Then của đồng bào Tày - Nùng có bầu đàn làm từ vật liệu tự nhiên quen thuộc nào?",
+        "o": [
+          "Quả bầu khô già khoét rỗng làm hộp cộng hưởng, mặt đàn bằng gỗ nhẹ và cần đàn dài bằng gỗ dâu hoặc thừng mực",
+          "Vỏ dừa xiêm tươi sơn phủ nhựa công nghiệp",
+          "Tấm kính cường lực ghép khung nhôm",
+          "Ống đồng đúc nguyên khối nặng hàng chục kilôgam"
+        ],
+        "k": "A",
+        "e": "Tên \"tính tẩu\" nghĩa là cây đàn bầu hồ lô, gắn liền với bản sắc mộc mạc của núi rừng Đông Bắc.",
+        "s": "Âm Nhạc 7",
+        "h": "Cấu tạo cây Đàn tính (tính tẩu)"
+      },
+      {
+        "c": "AN7-B03-003",
+        "d": "basic",
+        "p": "Cây Khèn Mông của đồng bào vùng núi cao Tây Bắc thuộc họ nhạc cụ nào và phát ra âm thanh ra sao?",
+        "o": [
+          "Là nhạc cụ điện tử dùng pin cắm dây ra loa",
+          "Là nhạc cụ gõ bằng hai dùi gỗ lên các phiến đá núi",
+          "Là nhạc cụ dây kéo dùng vĩ kéo qua 4 dây thép",
+          "Là nhạc cụ hơi đa thanh gồm nhiều ống trúc dài ngắn xuyên qua bầu gỗ; vừa thổi hơi vừa hít vào đều có thể tạo âm thanh"
+        ],
+        "k": "D",
+        "e": "Người con trai Mông vừa thổi khèn vừa xoay người nhảy múa khỏe khoắn trên các sườn núi ngày hội xuân.",
+        "s": "Âm Nhạc 7",
+        "h": "Đặc trưng cây Khèn Mông"
+      },
+      {
+        "c": "AN7-B03-004",
+        "d": "basic",
+        "p": "Trong nghi lễ và sinh hoạt văn hóa truyền thống của người Tày, Nùng, âm nhạc Hát Then thường mang nội dung ý nghĩa nào?",
+        "o": [
+          "Hoàn toàn không có nội dung lời ca mà chỉ gõ trống",
+          "Cầu an, cầu mùa màng bội thu, chúc mừng năm mới, gửi gắm ước vọng sống thiện lành và ca ngợi quê hương bản làng",
+          "Chỉ dùng để cổ vũ các trận thi đấu thể thao dưới nước",
+          "Chỉ hát các bản nhạc ngoại quốc dịch sang tiếng Việt"
+        ],
+        "k": "B",
+        "e": "Chữ \"Then\" bắt nguồn từ chữ \"Thiên\" (trời), thể hiện niềm tin nhân ái hướng tới sự bình an cho cộng đồng.",
+        "s": "Âm Nhạc 7",
+        "h": "Ý nghĩa văn hóa của Hát Then"
+      },
+      {
+        "c": "AN7-B03-005",
+        "d": "basic",
+        "p": "Nhạc cụ phụ trợ nhỏ gắn xâu các quả chuông đồng nhỏ xíu vào ngón chân hoặc đầu cần đàn khi biểu diễn Hát Then gọi là gì?",
+        "o": [
+          "Chiếc chiêng đồng cỡ lớn",
+          "Mặt trống cơm hai đầu",
+          "Thanh phách bằng gỗ lim",
+          "Chùm xóc nhạc (giúp giữ nhịp đều rộn ràng khi hát và múa)"
+        ],
+        "k": "D",
+        "e": "Tiếng leng keng đều nhịp của xóc nhạc hòa với tiếng đàn tính 2 hoặc 3 dây tạo không gian âm thanh rất riêng.",
+        "s": "Âm Nhạc 7",
+        "h": "Vai trò chùm xóc nhạc trong Then"
+      },
+      {
+        "c": "AN7-B03-006",
+        "d": "basic",
+        "p": "Âm sắc đặc trưng của các bài dân ca vùng núi phía Bắc (như \"Inh lả ơi\", \"Đi học\", dân ca Thái, Mông, Tày) thường gợi cảm giác gì?",
+        "o": [
+          "Nặng nề ầm ĩ như tiếng còi tàu trong khu công nghiệp",
+          "Buồn bã tuyệt vọng không có nhịp điệu rõ ràng",
+          "Đơn điệu chỉ lặp lại đúng một nốt nhạc duy nhất suốt 10 phút",
+          "Trong trẻo, phóng khoáng, vang vọng như tiếng suối reo và sườn núi mây ngàn"
+        ],
+        "k": "D",
+        "e": "Quãng nhảy bốn, năm mở rộng trong giai điệu gợi mở không gian núi rừng hùng vĩ tươi sáng.",
+        "s": "Âm Nhạc 7",
+        "h": "Đặc điểm giai điệu dân ca miền núi"
+      },
+      {
+        "c": "AN7-B03-007",
+        "d": "application",
+        "p": "Quan sát bảng đối chiếu nhạc cụ vùng miền núi phía Bắc dưới đây, thông tin nào ghép nối ĐÚNG giữa nhạc cụ và cộng đồng dân tộc tiêu biểu?",
+        "o": [
+          "Đàn tính là nhạc cụ hơi dùng miệng thổi qua 6 ống trúc",
+          "Khèn Mông là nhạc cụ truyền thống của đồng bào Khmer Nam Bộ",
+          "Đàn bầu gắn độc quyền với dân tộc Mông ở đỉnh Fansipan",
+          "Đàn tính gắn với dân tộc Tày, Nùng, Thái; Khèn bè/Khèn Mông gắn với dân tộc Mông và các dân tộc vùng Tây Bắc"
+        ],
+        "k": "D",
+        "e": "Hiểu đúng xuất xứ văn hóa của từng nhạc cụ thể hiện sự tôn trọng bản sắc 54 dân tộc Việt Nam.",
+        "s": "Âm Nhạc 7",
+        "h": "Nhận diện nhạc cụ dân tộc miền núi",
+        "fig": {
+          "type": "table",
+          "title": "Nhạc cụ vùng núi phía Bắc",
+          "head": [
+            "Nhạc cụ",
+            "Đặc trưng cơ bản"
+          ],
+          "rows": [
+            [
+              "Đàn tính (2-3 dây)",
+              "Gắn Hát Then Tày"
+            ],
+            [
+              "Khèn Mông (6 ống)",
+              "Thổi hơi và múa khèn"
+            ],
+            [
+              "Sáo Mông",
+              "Âm vang vọng núi cao"
+            ],
+            [
+              "Xóc nhạc đồng",
+              "Lắc giữ nhịp Then"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN7-B03-008",
+        "d": "application",
+        "p": "Bài hát \"Đi học\" (nhạc Bùi Đình Thảo, thơ Hoàng Minh Chính) rất quen thuộc với tuổi thơ Việt Nam có âm hưởng mượn chất liệu dân ca vùng núi phía Bắc. Nét âm nhạc nào giúp em nhận ra chất liệu miền núi đó?",
+        "o": [
+          "Giai điệu phỏng theo tiếng trống đồng Tây Nguyên",
+          "Sử dụng toàn bộ nhịp điệu dồn dập của nhạc rock phương Tây",
+          "Giai điệu nhẹ nhàng trong sáng với những quãng nhảy luyến tinh tế gợi cảnh đường lên nương rừng cọ đồi chè thơ mộng",
+          "Có tiếng hò kéo lưới vùng biển Trung Bộ lặp đi lặp lại"
+        ],
+        "k": "C",
+        "e": "Nhiều nhạc sĩ Việt Nam đã vận dụng tài tình âm hưởng dân ca Tày, Nùng, Thái vào ca khúc thiếu nhi bất hủ.",
+        "s": "Âm Nhạc 7",
+        "h": "Chất liệu dân ca miền núi trong ca khúc mới"
+      },
+      {
+        "c": "AN7-B03-009",
+        "d": "application",
+        "p": "Trong một buổi trình diễn giao lưu văn hóa ở trường, một nghệ nhân cao tuổi vùng Cao Bằng biểu diễn bài Hát Then cổ có phần lời bằng tiếng Tày. Nếu em và các bạn chưa hiểu hết tiếng Tày, cách thưởng thức lịch sự và hiệu quả nhất là gì?",
+        "o": [
+          "Nhại lại tiếng dân tộc của nghệ nhân để trêu chọc các bạn bên cạnh",
+          "Lắng nghe trân trọng âm điệu đàn tính, đọc phần tóm tắt nội dung ý nghĩa tiếng Việt và vỗ tay cổ vũ nhiệt tình cho nghệ nhân",
+          "Yêu cầu nghệ nhân dừng hát để chuyển sang bật nhạc nhảy hiện đại",
+          "Cười đùa nói chuyện riêng vì cho rằng nghe không hiểu hết từng chữ"
+        ],
+        "k": "B",
+        "e": "Tôn trọng ngôn ngữ và nghệ thuật của các dân tộc anh em là biểu hiện công dân văn minh.",
+        "s": "Âm Nhạc 7",
+        "h": "Ứng xử văn hóa với tiếng hát dân tộc"
+      },
+      {
+        "c": "AN7-B03-010",
+        "d": "application",
+        "p": "Khi xem điệu múa khèn của chàng trai người Mông trong ngày hội Gầu Tào, em thấy người thổi vừa chơi liên tục tiếng khèn đa thanh vừa thực hiện các động tác nhào lộn, xoay vòng khỏe khoắn. Điều gì giúp người nghệ nhân làm được việc này?",
+        "o": [
+          "Vì trong cây khèn có gắn sẵn máy phát nhạc chạy pin giấu bên trong",
+          "Kĩ thuật lấy hơi tròn (thổi ra và hít vào đều tạo âm qua lưỡi gà đồng) kết hợp rèn luyện thể lực dẻo dai giữa núi rừng",
+          "Vì tiếng khèn chỉ phát ra nhờ gió thổi ngẫu nhiên chứ người không cần thổi",
+          "Vì người thổi chỉ giữ nốt nhạc đúng 2 giây rồi tắt tiếng suốt lúc múa"
+        ],
+        "k": "B",
+        "e": "Cấu tạo lưỡi gà đồng tinh xảo trong mỗi ống khèn cho phép phát âm cả hai chiều hơi thở ra và hít vào.",
+        "s": "Âm Nhạc 7",
+        "h": "Bí quyết vừa thổi khèn vừa múa"
+      },
+      {
+        "c": "AN7-B03-011",
+        "d": "application",
+        "p": "Một dự án của học sinh vùng núi tỉnh Tuyên Quang lập câu lạc bộ \"Em yêu Đàn tính Hát Then\" để học nghệ nhân vào cuối tuần và quay video ngắn giới thiệu nét đẹp bản làng lên kênh trường học. Ý nghĩa lớn nhất của dự án này là gì?",
+        "o": [
+          "Góp phần trao truyền di sản sống cho thế hệ trẻ bản địa và quảng bá hình ảnh văn hóa đặc sắc ra cộng đồng rộng lớn",
+          "Giúp học sinh bỏ qua các môn văn hóa khác để chỉ đi quay video du lịch",
+          "Khiến nghệ nhân cao tuổi không cần trực tiếp truyền dạy nữa",
+          "Thay thế hoàn toàn chương trình giáo dục phổ thông của Bộ Giáo dục"
+        ],
+        "k": "A",
+        "e": "Di sản văn hóa chỉ thực sự sống mãi khi được người trẻ đón nhận, thực hành và tiếp nối tự hào.",
+        "s": "Âm Nhạc 7",
+        "h": "Trao truyền di sản cho thế hệ trẻ"
+      },
+      {
+        "c": "AN7-B03-012",
+        "d": "application",
+        "p": "Bài dân ca Thái \"Inh lả ơi\" (Xòe hoa) thường vang lên trong đêm hội vòng xòe bên ánh lửa. Khi tham gia hát và gõ đệm bài hát này trong lớp, nhịp điệu phù hợp nhất là gì?",
+        "o": [
+          "Giữ im lặng tuyệt đối không cử động tay chân",
+          "Nhịp chậm buồn rầu không có điểm nhấn phách mạnh",
+          "Tiết tấu tự do mỗi người hát một tốc độ rời rạc",
+          "Nhịp 2/4 vui tươi, rộn ràng, đều đặn bước chân vòng tròn nắm tay đoàn kết bên nhau"
+        ],
+        "k": "D",
+        "e": "\"Inh lả ơi, sao noọng ơi...\" kết nối tình đoàn kết cộng đồng các dân tộc Tây Bắc rất sôi nổi.",
+        "s": "Âm Nhạc 7",
+        "h": "Không khí vòng xòe và bài Inh lả ơi"
+      },
+      {
+        "c": "AN7-B03-013",
+        "d": "advanced",
+        "p": "Nhiều làn điệu Then cổ truyền vốn có chức năng nghi lễ tâm linh lâu đời trong bản mường, nhưng ngày nay còn xuất hiện \"Then mới\" đặt lời ca ngợi cuộc sống đổi mới, khuyến học, bảo vệ rừng. Hiện tượng \"Then cổ\" và \"Then mới\" song hành nói lên điều gì?",
+        "o": [
+          "Là dấu hiệu cho thấy Hát Then sắp biến mất vì không còn ai hát lời cổ",
+          "Chứng tỏ Then mới đã phá hủy hoàn toàn giá trị nghệ thuật của Đàn tính cổ truyền",
+          "Cho thấy sức sống thích ứng linh hoạt của di sản văn hóa: vừa bảo tồn nguyên vẹn giá trị gốc vừa tiếp tục sáng tạo phản ánh đời sống đương đại",
+          "Cho thấy bất kì loại nhạc nào ghép chữ mới đều tự động trở thành di sản UNESCO"
+        ],
+        "k": "C",
+        "e": "Sự tiếp nối sáng tạo trên nền thang âm và nhạc cụ truyền thống giúp Then đồng hành cùng đời sống mới.",
+        "s": "Âm Nhạc 7",
+        "h": "Sức sống đương đại của Then mới"
+      },
+      {
+        "c": "AN7-B03-014",
+        "d": "advanced",
+        "p": "So sánh nét giống và khác cơ bản giữa Cây Khèn của đồng bào miền núi phía Bắc với chiếc Sáo trúc đồng bằng về mặt âm thanh hòa âm?",
+        "o": [
+          "Sáo trúc thuộc họ gõ mặt da, còn khèn thuộc họ dây gảy bằng móng",
+          "Khèn chỉ phát được duy nhất 1 nốt Đô, còn sáo trúc chơi được hợp âm 6 nốt cùng lúc",
+          "Không có điểm gì giống nhau về vật liệu chế tác hay nguyên lí thổi hơi",
+          "Cả hai đều là nhạc cụ hơi tre nứa; sáo trúc chơi từng nốt đơn thanh, còn khèn thổi nhiều ống cùng lúc tạo hòa âm đa thanh"
+        ],
+        "k": "D",
+        "e": "Cấu trúc nhiều ống gắn vào một bầu chung biến cây khèn thành một \"dàn nhạc thu nhỏ\" cầm tay độc đáo.",
+        "s": "Âm Nhạc 7",
+        "h": "Khả năng đa thanh của cây Khèn"
+      },
+      {
+        "c": "AN7-B03-015",
+        "d": "advanced",
+        "p": "Để du lịch văn hóa gắn với âm nhạc dân gian miền núi phía Bắc phát triển bền vững mà không bị \"thương mại hóa làm biến dạng bản sắc\", giải pháp nào quan trọng nhất?",
+        "o": [
+          "Tôn trọng tính chân thực của làn điệu, trang phục, ngôn ngữ gốc dưới sự hướng dẫn của nghệ nhân địa phương và giáo dục du khách ứng xử văn minh",
+          "Thay toàn bộ tiếng đàn tính bằng loa kẹo kéo hát nhạc thị trường cho đông khách",
+          "Ép nghệ nhân mặc trang phục lai tạp sặc sỡ không đúng truyền thống dân tộc mình",
+          "Chỉ bán đồ lưu niệm nhựa sản xuất công nghiệp chứ không tổ chức biểu diễn thật"
+        ],
+        "k": "A",
+        "e": "Giữ nguyên giá trị chân thực (tính nguyên bản) mới tạo sức hấp dẫn bền lâu cho văn hóa bản địa.",
+        "s": "Âm Nhạc 7",
+        "h": "Bảo tồn bản sắc gắn du lịch bền vững"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac7-c2",
+    "lesson": {
+      "code": "amnhac7-b04",
+      "title": "Bài 4. Giọng Đô trưởng và Gam Đô trưởng",
+      "seq": 4,
+      "subtitle": "Cấu tạo gam trưởng (khoảng cách cung - nửa cung), âm chủ Đô, hóa biểu không thăng giáng của giọng Đô trưởng (C major)",
+      "concepts": [
+        "Cấu tạo gam Trưởng chuẩn",
+        "Giọng Đô trưởng (C major)",
+        "Các bậc ổn định Đô - Mi - Son"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN7-B04-001",
+        "d": "basic",
+        "p": "Hệ thống gồm 7 bậc âm sắp xếp liền bậc từ âm chủ lên tới âm lặp lại quãng tám theo cấu trúc cố định [1 - 1 - 1/2 - 1 - 1 - 1 - 1/2] cung được gọi là gì?",
+        "o": [
+          "Chuỗi dấu hóa bất thường",
+          "Gam Thứ hòa âm",
+          "Gam Trưởng (Thang âm Trưởng)",
+          "Thang năm âm ngũ cung"
+        ],
+        "k": "C",
+        "e": "Công thức bất biến của gam Trưởng: Cung - Cung - Nửa cung - Cung - Cung - Cung - Nửa cung.",
+        "s": "Âm Nhạc 7",
+        "h": "Công thức cấu tạo gam Trưởng"
+      },
+      {
+        "c": "AN7-B04-002",
+        "d": "basic",
+        "p": "Trong gam Đô trưởng (C major), nốt nhạc giữ vai trò \"âm chủ\" (bậc I, điểm tựa kết thúc ổn định nhất của bài hát) là nốt nào?",
+        "o": [
+          "Nốt Pha (F)",
+          "Nốt La (A)",
+          "Nốt Son (G)",
+          "Nốt Đô (C)"
+        ],
+        "k": "D",
+        "e": "Các bài hát viết ở giọng Đô trưởng thường kết thúc giai điệu về nốt Đô (bậc I) cho cảm giác trọn vẹn.",
+        "s": "Âm Nhạc 7",
+        "h": "Âm chủ của giọng Đô trưởng"
+      },
+      {
+        "c": "AN7-B04-003",
+        "d": "basic",
+        "p": "Hóa biểu đặt ở đầu khuông nhạc (ngay sau khóa Sol) của giọng Đô trưởng có đặc điểm nhận biết gì?",
+        "o": [
+          "Có 1 dấu giáng (b) ở vị trí nốt Si",
+          "Có 1 dấu thăng (#) ở vị trí nốt Pha",
+          "Không có bất kì dấu thăng hay dấu giáng nào trong hóa biểu",
+          "Có 2 dấu thăng ở nốt Pha và nốt Đô"
+        ],
+        "k": "C",
+        "e": "Vì 7 bậc tự nhiên Đô-Rê-Mi-Pha-Son-La-Si-Đô2 vốn đã khớp sẵn công thức [1 - 1 - 1/2 - 1 - 1 - 1 - 1/2] nên giọng Đô trưởng không cần thêm dấu hóa.",
+        "s": "Âm Nhạc 7",
+        "h": "Hóa biểu của giọng Đô trưởng"
+      },
+      {
+        "c": "AN7-B04-004",
+        "d": "basic",
+        "p": "Ba bậc âm ổn định nhất (bậc I - bậc III - bậc V) tạo nên trục xương sống của giọng Đô trưởng là bộ ba nốt nào?",
+        "o": [
+          "Đô (I) - Pha (IV) - La (VI)",
+          "Đô (I) - Mi (III) - Son (V)",
+          "La (VI) - Đô (I) - Mi (III)",
+          "Rê (II) - Pha (IV) - Si (VII)"
+        ],
+        "k": "B",
+        "e": "Bộ ba Đô - Mi - Son khi vang lên cùng lúc tạo thành hợp âm Đô trưởng (kí hiệu C) sáng trong, vững chãi.",
+        "s": "Âm Nhạc 7",
+        "h": "Các bậc ổn định giọng Đô trưởng"
+      },
+      {
+        "c": "AN7-B04-005",
+        "d": "basic",
+        "p": "Tính chất âm nhạc đặc trưng phổ biến của các ca khúc viết ở giọng Đô trưởng là gì?",
+        "o": [
+          "Luôn phải hát nhỏ thì thầm với tốc độ cực chậm",
+          "U ám thê lương tối tăm không có nhịp phách",
+          "Tươi sáng, rõ ràng, khỏe khoắn, trong trẻo và mang cảm giác tích cực lạc quan",
+          "Không thể sử dụng để viết các bài hát thiếu nhi hay hành khúc"
+        ],
+        "k": "C",
+        "e": "Sự cân bằng tự nhiên của quãng ba trưởng (Đô - Mi) mang lại màu sắc tươi tắn đặc trưng cho giọng trưởng.",
+        "s": "Âm Nhạc 7",
+        "h": "Tính chất giọng Đô trưởng"
+      },
+      {
+        "c": "AN7-B04-006",
+        "d": "basic",
+        "p": "Trong gam Đô trưởng đi lên từ Đô 1 đến Đô 2, vị trí hai khoảng cách NỬA CUNG nằm giữa hai cặp bậc nào?",
+        "o": [
+          "Giữa bậc III - IV (Mi - Pha) và giữa bậc VII - I (Si - Đô 2)",
+          "Giữa bậc II - III (Rê - Mi) và bậc IV - V (Pha - Son)",
+          "Giữa bậc I - II (Đô - Rê) và bậc V - VI (Son - La)",
+          "Giữa bậc V - VI (Son - La) và bậc VI - VII (La - Si)"
+        ],
+        "k": "A",
+        "e": "Nhớ hai vị trí nửa cung III-IV và VII-I giúp xây dựng đúng bất kì gam trưởng nào ở các lớp cao hơn.",
+        "s": "Âm Nhạc 7",
+        "h": "Vị trí nửa cung trong gam Đô trưởng"
+      },
+      {
+        "c": "AN7-B04-007",
+        "d": "application",
+        "p": "Quan sát khuông nhạc gam Đô trưởng và bảng đối chiếu dưới đây, nếu một bài tập đọc nhạc không có dấu hóa đầu dòng và kết thúc bài bằng nốt trắng ở nốt Đô (dòng kẻ phụ 1 hoặc khe 3), bài đó đang viết ở giọng gì?",
+        "o": [
+          "Giọng Pha trưởng (F major)",
+          "Giọng Son trưởng (G major)",
+          "Giọng La thứ (A minor)",
+          "Giọng Đô trưởng (C major)"
+        ],
+        "k": "D",
+        "e": "Cả hai dấu hiệu: Hóa biểu trống không dấu + nốt kết thúc về âm chủ Đô khẳng định giọng Đô trưởng.",
+        "s": "Âm Nhạc 7",
+        "h": "Nhận diện giọng Đô trưởng trên bản nhạc",
+        "fig": {
+          "w": 350,
+          "h": 168,
+          "items": [
+            {
+              "t": "txt",
+              "p": [
+                175,
+                22
+              ],
+              "s": "Nửa đầu gam Đô trưởng (bậc I đến V)",
+              "anchor": "middle",
+              "size": 13
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                50
+              ],
+              "b": [
+                320,
+                50
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                66
+              ],
+              "b": [
+                320,
+                66
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                82
+              ],
+              "b": [
+                320,
+                82
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                98
+              ],
+              "b": [
+                320,
+                98
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                30,
+                114
+              ],
+              "b": [
+                320,
+                114
+              ],
+              "color": "#64748b",
+              "w": 1.4
+            },
+            {
+              "t": "line",
+              "a": [
+                53,
+                114
+              ],
+              "b": [
+                77,
+                114
+              ],
+              "color": "#1e293b",
+              "w": 1.5
+            },
+            {
+              "t": "circle",
+              "c": [
+                65,
+                114
+              ],
+              "r": 7,
+              "fill": "#1d4ed8",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "line",
+              "a": [
+                72,
+                114
+              ],
+              "b": [
+                72,
+                88
+              ],
+              "color": "#0f172a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                65,
+                148
+              ],
+              "s": "Đô",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "circle",
+              "c": [
+                113,
+                106
+              ],
+              "r": 7,
+              "fill": "#1d4ed8",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "line",
+              "a": [
+                120,
+                106
+              ],
+              "b": [
+                120,
+                80
+              ],
+              "color": "#0f172a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                113,
+                148
+              ],
+              "s": "Rê",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "circle",
+              "c": [
+                161,
+                98
+              ],
+              "r": 7,
+              "fill": "#1d4ed8",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "line",
+              "a": [
+                168,
+                98
+              ],
+              "b": [
+                168,
+                72
+              ],
+              "color": "#0f172a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                161,
+                148
+              ],
+              "s": "Mi",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "circle",
+              "c": [
+                209,
+                90
+              ],
+              "r": 7,
+              "fill": "#1d4ed8",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "line",
+              "a": [
+                216,
+                90
+              ],
+              "b": [
+                216,
+                64
+              ],
+              "color": "#0f172a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                209,
+                148
+              ],
+              "s": "Pha",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "circle",
+              "c": [
+                257,
+                82
+              ],
+              "r": 7,
+              "fill": "#1d4ed8",
+              "stroke": "#0f172a",
+              "w": 1.5
+            },
+            {
+              "t": "line",
+              "a": [
+                264,
+                82
+              ],
+              "b": [
+                264,
+                56
+              ],
+              "color": "#0f172a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                257,
+                148
+              ],
+              "s": "Son",
+              "anchor": "middle",
+              "size": 12
+            }
+          ]
+        }
+      },
+      {
+        "c": "AN7-B04-008",
+        "d": "application",
+        "p": "Trên một bản nhạc không có hóa biểu, câu kết thúc lại dừng hẳn ở nốt La (khe 2) kèm theo hợp âm La - Đô - Mi. Theo em bản nhạc đó thuộc giọng Đô trưởng hay giọng La thứ (cùng không hóa biểu)?",
+        "o": [
+          "Thuộc giọng Rê trưởng bị thiếu mất dấu thăng",
+          "Không thuộc giọng nào cả vì viết sai quy tắc khuông nhạc",
+          "Thuộc giọng La thứ, vì dù cùng không có dấu hóa ở đầu dòng nhưng âm chủ kết thúc bài là nốt La chứ không phải Đô",
+          "Chắc chắn thuộc giọng Đô trưởng vì không có dấu thăng giáng nào"
+        ],
+        "k": "C",
+        "e": "Cùng chia sẻ bộ hóa biểu nhưng âm chủ khác nhau tạo nên cặp giọng song song: Đô trưởng (kết Đô) và La thứ (kết La).",
+        "s": "Âm Nhạc 7",
+        "h": "Phân biệt Đô trưởng và La thứ"
+      },
+      {
+        "c": "AN7-B04-009",
+        "d": "application",
+        "p": "Khi luyện xướng âm trục âm ổn định Đô - Mi - Son - Đô 2 trước giờ tập đọc nhạc giọng Đô trưởng, mục đích trực tiếp của bài tập này là gì?",
+        "o": [
+          "Để bỏ qua tất cả các nốt Rê, Pha, La, Si không cần đọc",
+          "Giúp tai nghe định hình chính xác khung cao độ âm chủ và các bậc trụ cột của giọng Đô trưởng để không bị hát lạc tông",
+          "Để chuyển ngay bài hát sang giọng Pha trưởng có dấu Si giáng",
+          "Để luyện tăng tốc độ gõ thanh phách lên gấp bốn lần"
+        ],
+        "k": "B",
+        "e": "Đọc chuẩn trục quãng ba, quãng năm (I - III - V - I) là kĩ năng vàng trước khi đọc bản nhạc bất kì.",
+        "s": "Âm Nhạc 7",
+        "h": "Mục đích đọc trục âm ổn định"
+      },
+      {
+        "c": "AN7-B04-010",
+        "d": "application",
+        "p": "Một bạn thử tự xây dựng gam Rê trưởng bắt đầu từ nốt Rê (Rê - Mi - Pha - Son - La - Si - Đô - Rê2) nhưng chỉ dùng toàn phím trắng piano không thêm dấu thăng. Theo công thức gam Trưởng [1-1-1/2-1-1-1-1/2], bạn ấy bị sai ở chỗ nào?",
+        "o": [
+          "Gam Rê trưởng không bao giờ cần dùng bất kì dấu thăng nào",
+          "Từ Mi lên Pha mới chỉ có 1/2 cung (công thức đòi hỏi 1 cung) và từ Đô lên Rê2 đã là 1 cung (công thức đòi hỏi 1/2 cung); do đó cần nâng Pha# và Đô#",
+          "Bắt buộc phải đổi chữ Rê đầu dòng thành chữ Đô mới đúng",
+          "Từ Rê lên Mi bị thiếu nửa cung nên phải giáng Mi xuống"
+        ],
+        "k": "B",
+        "e": "Thử kiểm chứng công thức gam trưởng trên nốt khác giúp hiểu tận gốc vì sao các giọng khác Đô trưởng cần có hóa biểu!",
+        "s": "Âm Nhạc 7",
+        "h": "Hiểu nguồn gốc hóa biểu từ công thức gam"
+      },
+      {
+        "c": "AN7-B04-011",
+        "d": "application",
+        "p": "Trong một bản nhạc giọng Đô trưởng, bạn Minh thấy cuối câu thứ nhất tạm dừng ở nốt Son (bậc V - âm át) tạo cảm giác còn đang mở lửng, rồi câu thứ hai mới khép lại ở nốt Đô (bậc I). Cách kết câu như vậy mang lại hiệu quả gì?",
+        "o": [
+          "Câu 1 kết mở (kết nửa) tạo sức hút chờ đợi tự nhiên dẫn dắt sang câu 2 kết trọn vẹn về âm chủ Đô",
+          "Làm bài hát tự động chuyển sang nhịp 3/4 ngay ở câu 2",
+          "Câu 1 viết sai quy tắc vì mọi câu hát giữa bài đều phải dừng ở Đô",
+          "Khiến người nghe tưởng bài hát đã kết thúc hẳn ở câu 1"
+        ],
+        "k": "A",
+        "e": "Kết nửa ở bậc V rồi kết tròn về bậc I tạo cấu trúc câu nhạc cân đối hỏi - đáp rất tự nhiên.",
+        "s": "Âm Nhạc 7",
+        "h": "Cấu trúc kết nửa bậc V và kết trọn bậc I"
+      },
+      {
+        "c": "AN7-B04-012",
+        "d": "application",
+        "p": "Quan sát bảng các bậc trong gam Đô trưởng dưới đây, nốt nào là bậc dẫn (bậc VII) có xu hướng hút mạnh nhất về nốt Đô 2 tạo cảm giác kết thúc trọn vẹn?",
+        "o": [
+          "Nốt La (bậc VI)",
+          "Nốt Rê (bậc II)",
+          "Nốt Si (bậc VII), cách Đô 2 đúng nửa cung",
+          "Nốt Pha (bậc IV)"
+        ],
+        "k": "C",
+        "e": "Khoảng cách nửa cung giữa Si (VII) và Đô 2 (I) tạo lực hút giai điệu cực mạnh về âm chủ.",
+        "s": "Âm Nhạc 7",
+        "h": "Vai trò âm dẫn bậc VII về âm chủ",
+        "fig": {
+          "type": "table",
+          "title": "Các bậc gam Đô trưởng",
+          "head": [
+            "Bậc âm",
+            "Tên nốt và vai trò"
+          ],
+          "rows": [
+            [
+              "Bậc I - III - V",
+              "Đô - Mi - Son"
+            ],
+            [
+              "Bậc IV",
+              "Pha (Hạ át)"
+            ],
+            [
+              "Bậc V",
+              "Son (Át - mở câu)"
+            ],
+            [
+              "Bậc VII",
+              "Si (Âm dẫn về Đô)"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN7-B04-013",
+        "d": "advanced",
+        "p": "Tại sao ca khúc viết ở giọng Đô trưởng thường được ưu tiên chọn nhiều trong các bài tập đọc nhạc THCS và trên bàn phím kèn phím, sáo recorder ban đầu?",
+        "o": [
+          "Vì mọi bài hát nổi tiếng trên thế giới đều bắt buộc sáng tác ở giọng Đô trưởng",
+          "Vì các nhạc cụ truyền thống không thể chơi được giọng Đô trưởng",
+          "Vì giọng Đô trưởng là giọng duy nhất có đủ 7 nốt nhạc trên thế giới",
+          "Vì không có dấu thăng giáng phức tạp trong hóa biểu, dễ định vị các bậc âm tự nhiên trên khuông nhạc và trực quan trên hàng phím trắng của đàn"
+        ],
+        "k": "D",
+        "e": "Nắm chắc gam Đô trưởng làm gốc giúp học sinh dễ dàng mở rộng sang giọng Son trưởng (1#) và Pha trưởng (1b).",
+        "s": "Âm Nhạc 7",
+        "h": "Vai trò nền tảng của giọng Đô trưởng"
+      },
+      {
+        "c": "AN7-B04-014",
+        "d": "advanced",
+        "p": "Nếu dịch toàn bộ giai điệu một bài hát từ giọng Đô trưởng lên cao hơn thành giọng Rê trưởng (tăng mỗi nốt đúng 1 cung), tính chất tươi sáng và mối quan hệ giữa các nốt trong giai điệu thay đổi ra sao?",
+        "o": [
+          "Thứ tự cao thấp của các câu hát bị đảo ngược từ cuối lên đầu",
+          "Mối quan hệ quãng và hình dáng giai điệu giữ nguyên hoàn toàn, chỉ có toàn bộ âm vực bài hát được nâng cao lên cho phù hợp tầm giọng sáng hơn",
+          "Bài hát biến thành tính chất buồn thảm của giọng thứ ngay lập tức",
+          "Trường độ tất cả các nốt đen trong bài bị rút ngắn thành móc đơn"
+        ],
+        "k": "B",
+        "e": "Dịch giọng (transposition) là kĩ năng phổ biến trong đệm hát để điều chỉnh cao độ vừa với từng người hát.",
+        "s": "Âm Nhạc 7",
+        "h": "Ý nghĩa của dịch giọng bài hát"
+      },
+      {
+        "c": "AN7-B04-015",
+        "d": "advanced",
+        "p": "Trong giờ thực hành đọc nhạc Đô trưởng 2 bè đơn giản, nếu bè 1 hát nốt Đô2 (khe 3) còn bè 2 hát nốt Mi (dòng 1) cùng lúc, sự kết hợp hai nốt ổn định này thuộc loại hòa âm gì?",
+        "o": [
+          "Hai nốt này hoàn toàn không thuộc gam Đô trưởng",
+          "Thuộc trục âm ổn định giọng Đô trưởng tạo quãng sáu trưởng êm ái, thuận tai và giàu tính hòa quyện",
+          "Thuộc hợp âm nghịch gắt gây cảm giác chói tai khó chịu",
+          "Chứng tỏ bè 2 đã hát sai cao độ lệch sang giọng khác"
+        ],
+        "k": "B",
+        "e": "Phối hợp hai bè từ các bậc ổn định I - III - V tạo hòa âm bè rất dễ nghe và dễ hát cho học sinh.",
+        "s": "Âm Nhạc 7",
+        "h": "Hòa âm bè đơn giản trên gam Đô trưởng"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac7-c2",
+    "lesson": {
+      "code": "amnhac7-b05",
+      "title": "Bài 5. Quãng và hợp âm ba đơn giản trong đệm hát",
+      "seq": 5,
+      "subtitle": "Khái niệm quãng giai điệu - quãng hòa âm, nhận biết hợp âm ba trưởng/thứ cơ bản (C, F, G, Am) trong thực hành đệm hát",
+      "concepts": [
+        "Quãng giai điệu và hòa âm",
+        "Hợp âm ba cơ bản (C, F, G)",
+        "Ứng dụng kí hiệu hợp âm đệm hát"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN7-B05-001",
+        "d": "basic",
+        "p": "Trong lí thuyết âm nhạc, khoảng cách về cao độ giữa hai âm thanh bất kì được gọi là gì?",
+        "o": [
+          "Trường độ",
+          "Quãng",
+          "Cường độ",
+          "Ô nhịp"
+        ],
+        "k": "B",
+        "e": "Ví dụ từ Đô lên Mi gồm 3 bậc (Đô - Rê - Mi) gọi là quãng ba; từ Đô lên Son gồm 5 bậc gọi là quãng năm.",
+        "s": "Âm Nhạc 7",
+        "h": "Khái niệm quãng âm nhạc"
+      },
+      {
+        "c": "AN7-B05-002",
+        "d": "basic",
+        "p": "Phân biệt nhanh sự khác nhau giữa \"quãng giai điệu\" và \"quãng hòa âm\"?",
+        "o": [
+          "Quãng giai điệu chỉ dùng nốt trắng, quãng hòa âm chỉ dùng nốt móc đơn",
+          "Quãng giai điệu gồm hai âm vang lên nối tiếp nhau lần lượt; quãng hòa âm gồm hai âm vang lên cùng một lúc",
+          "Quãng hòa âm chỉ xuất hiện ở sáo trúc, không có ở đàn piano",
+          "Quãng giai điệu luôn có hai nốt cùng tên Đô giống hệt nhau"
+        ],
+        "k": "B",
+        "e": "Cả hai loại quãng đều tính tên gọi (quãng 2, 3, 4, 5...) theo số bậc bao hàm từ âm dưới lên âm trên.",
+        "s": "Âm Nhạc 7",
+        "h": "Quãng giai điệu và quãng hòa âm"
+      },
+      {
+        "c": "AN7-B05-003",
+        "d": "basic",
+        "p": "Một hợp âm ba cơ bản (triad) được tạo thành từ mấy âm thanh xếp chồng lên nhau theo các quãng ba liên tiếp?",
+        "o": [
+          "4 âm thanh trùng tên đặt ở 4 ô nhịp khác nhau",
+          "3 âm thanh (gồm âm gốc, âm cách quãng ba và âm cách quãng năm so với âm gốc)",
+          "6 âm thanh liền kề sát cạnh nhau trên khuông nhạc",
+          "2 âm thanh vang lên lần lượt tách rời nhau"
+        ],
+        "k": "B",
+        "e": "Ví dụ: Chồng các nốt cách quãng ba từ Đô ta có Đô - Mi - Son tạo hợp âm Đô trưởng (kí hiệu C).",
+        "s": "Âm Nhạc 7",
+        "h": "Cấu tạo hợp âm ba cơ bản"
+      },
+      {
+        "c": "AN7-B05-004",
+        "d": "basic",
+        "p": "Trên bản nhạc ca khúc phổ thông, chữ cái viết hoa đơn lẻ \"C\", \"F\", \"G\" đặt phía trên khuông nhạc là kí hiệu của những hợp âm nào?",
+        "o": [
+          "C là chỉ nhịp 3/4, F là hát nhỏ, G là gõ phách",
+          "C là Đô thứ, F là Pha thứ, G là Son thứ",
+          "C là Đô trưởng (Đô-Mi-Son), F là Pha trưởng (Pha-La-Đô), G là Son trưởng (Son-Si-Rê)",
+          "C là Đô-Rê-Mi, F là Pha-Son-La, G là Son-La-Si"
+        ],
+        "k": "C",
+        "e": "Bộ ba hợp âm chính C (bậc I), F (bậc IV), G (bậc V) có thể đệm được rất nhiều ca khúc giọng Đô trưởng.",
+        "s": "Âm Nhạc 7",
+        "h": "Kí hiệu hợp âm C, F, G"
+      },
+      {
+        "c": "AN7-B05-005",
+        "d": "basic",
+        "p": "Kí hiệu hợp âm có thêm chữ \"m\" nhỏ phía sau chữ cái in hoa (ví dụ \"Am\", \"Dm\", \"Em\") cho biết đó là loại hợp âm gì?",
+        "o": [
+          "Hợp âm thứ (như Am = La thứ gồm La - Đô - Mi)",
+          "Hợp âm phải ngừng nghỉ không được đàn",
+          "Hợp âm dành riêng cho một mình đàn trống",
+          "Hợp âm trưởng thật mạnh (m = mạnh)"
+        ],
+        "k": "A",
+        "e": "Chữ \"m\" viết tắt của từ \"minor\" (thứ). Hợp âm thứ thường mang sắc thái êm dịu, hơi trầm lắng hoặc trữ tình.",
+        "s": "Âm Nhạc 7",
+        "h": "Ý nghĩa chữ m trong kí hiệu hợp âm"
+      },
+      {
+        "c": "AN7-B05-006",
+        "d": "basic",
+        "p": "Độ lớn tên gọi của quãng tính từ nốt Đô 1 đi lên tới nốt Son 1 (đếm cả Đô và Son: Đô-Rê-Mi-Pha-Son) là quãng mấy?",
+        "o": [
+          "Quãng năm (gồm 5 bậc)",
+          "Quãng bốn",
+          "Quãng ba",
+          "Quãng sáu"
+        ],
+        "k": "A",
+        "e": "Luôn đếm cả nốt gốc là bậc 1: Đô(1) - Rê(2) - Mi(3) - Pha(4) - Son(5) -> Quãng năm.",
+        "s": "Âm Nhạc 7",
+        "h": "Cách đếm tên gọi của quãng"
+      },
+      {
+        "c": "AN7-B05-007",
+        "d": "application",
+        "p": "Quan sát bảng các hợp âm cơ bản của giọng Đô trưởng dưới đây, nếu một bài hát giọng Đô trưởng có ô nhịp chủ yếu gồm các nốt Pha - La - Đô 2, ta nên chọn hợp âm nào để đệm cho êm ái khớp nhất?",
+        "o": [
+          "Hợp âm Rê thứ (Dm)",
+          "Hợp âm Pha trưởng (F) gồm đúng ba âm Pha - La - Đô",
+          "Hợp âm Mi thứ (Em)",
+          "Hợp âm Son trưởng (G)"
+        ],
+        "k": "B",
+        "e": "Chọn hợp âm đệm có chứa các nốt chính nằm ở phách mạnh của ô nhịp giúp phần đệm hòa quyện tự nhiên nhất.",
+        "s": "Âm Nhạc 7",
+        "h": "Chọn hợp âm đệm khớp giai điệu",
+        "fig": {
+          "type": "table",
+          "title": "Bộ hợp âm đệm giọng C",
+          "head": [
+            "Kí hiệu",
+            "Ba nốt tạo thành"
+          ],
+          "rows": [
+            [
+              "C (Đô trưởng)",
+              "Đô - Mi - Son"
+            ],
+            [
+              "F (Pha trưởng)",
+              "Pha - La - Đô"
+            ],
+            [
+              "G (Son trưởng)",
+              "Son - Si - Rê"
+            ],
+            [
+              "Am (La thứ)",
+              "La - Đô - Mi"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN7-B05-008",
+        "d": "application",
+        "p": "Khi quan sát hai nốt viết thẳng hàng dọc chồng lên nhau trên khuông nhạc: nốt dưới ở dòng 1 (Mi) và nốt trên ở dòng 2 (Son). Đây là quãng mấy và thuộc loại quãng gì?",
+        "o": [
+          "Quãng bốn giai điệu",
+          "Quãng ba hòa âm (vì hai nốt Mi - Pha - Son gồm 3 bậc và viết chồng thẳng hàng cùng vang lên)",
+          "Quãng hai giai điệu",
+          "Quãng năm hòa âm"
+        ],
+        "k": "B",
+        "e": "Viết thẳng hàng dọc là cùng lúc (hòa âm); từ dòng 1 lên dòng 2 qua khe 1 là 3 bậc (quãng 3).",
+        "s": "Âm Nhạc 7",
+        "h": "Đọc quãng hòa âm trên khuông nhạc"
+      },
+      {
+        "c": "AN7-B05-009",
+        "d": "application",
+        "p": "Bạn Lan tập bấm hợp âm Am (La thứ) trên đàn phím bằng tay trái. Ba phím đàn cùng lúc Lan cần nhấn xuống đúng tên là gì?",
+        "o": [
+          "Ba phím La - Rê - Pha",
+          "Ba phím La - Đô - Mi",
+          "Ba phím Đô - Mi - Son",
+          "Ba phím Son - Si - Rê"
+        ],
+        "k": "B",
+        "e": "Chồng từng bậc cách quãng ba từ nốt La: La -> (bỏ Si) -> Đô -> (bỏ Rê) -> Mi.",
+        "s": "Âm Nhạc 7",
+        "h": "Bấm hợp âm La thứ trên phím đàn"
+      },
+      {
+        "c": "AN7-B05-010",
+        "d": "application",
+        "p": "Trong một bản nhạc thiếu nhi giọng Đô trưởng, ô nhịp áp chót trước khi kết thúc bài thường xuất hiện hợp âm G (Son trưởng) rồi mới khép lại ở hợp âm C (Đô trưởng) tại ô nhịp cuối. Chuỗi chuyển hợp âm G -> C tạo hiệu ứng âm nhạc gì?",
+        "o": [
+          "Làm bài hát bị lệch giọng hoàn toàn khỏi âm chủ Đô",
+          "Tạo lực hút căng mở nhẹ ở bậc V (G) để giải quyết trở về bến đỗ ổn định, trọn vẹn tuyệt đối ở bậc I (C)",
+          "Khiến nhịp bài hát bị biến đổi thành nhịp 3/4 ở ô cuối",
+          "Tạo cảm giác lơ lửng như bài hát chưa chịu kết thúc"
+        ],
+        "k": "B",
+        "e": "Vòng kết V -> I (Át về Chủ) là cấu trúc kết thúc kinh điển tạo cảm giác an tâm trọn vẹn cho người nghe.",
+        "s": "Âm Nhạc 7",
+        "h": "Hiệu ứng vòng kết hợp âm G về C"
+      },
+      {
+        "c": "AN7-B05-011",
+        "d": "application",
+        "p": "Khi đọc thử một quãng giai điệu từ nốt Đô 1 (dòng phụ 1) nhảy thẳng lên nốt Đô 2 (khe 3), khoảng cách đó là quãng mấy và có cảm giác hòa quyện ra sao?",
+        "o": [
+          "Quãng tám; nghe hai âm tuy khác tầng cao thấp nhưng hòa quyện đồng nhất như một âm mở rộng",
+          "Quãng bốn; nghe lơ lửng cần đi tiếp",
+          "Quãng hai; hai nốt sát ngay bên cạnh nhau",
+          "Quãng bảy; nghe rất chói tai căng thẳng"
+        ],
+        "k": "A",
+        "e": "Quãng 1 (đồng âm), quãng 4, quãng 5 và quãng 8 được xếp vào nhóm các quãng thuận hoàn toàn.",
+        "s": "Âm Nhạc 7",
+        "h": "Tính chất thuận tai của quãng tám"
+      },
+      {
+        "c": "AN7-B05-012",
+        "d": "application",
+        "p": "Nếu một nhóm hai bạn chơi kèn phím (melodion) song tấu: bạn 1 chơi giai điệu chính, bạn 2 chỉ bấm giữ từng hợp âm C, F, G nhẹ nhàng theo phách 1 của mỗi ô nhịp. Vai trò của bạn 2 trong song tấu là gì?",
+        "o": [
+          "Giữ vai trò chơi giai điệu chính nhanh hơn bạn 1",
+          "Thay thế hoàn toàn chức năng của người chỉ huy đánh nhịp",
+          "Chỉ tạo tiếng ồn gây nhiễu thử thách tai nghe của bạn 1",
+          "Giữ vai trò bè đệm hòa âm, làm nền dày dặn ấm áp nâng đỡ và xác định rõ sắc thái trưởng thứ cho giai điệu chính"
+        ],
+        "k": "D",
+        "e": "Song tấu giai điệu kết hợp đệm hợp âm rải hoặc chập nhẹ là mô hình trình diễn rất hay ở trường THCS.",
+        "s": "Âm Nhạc 7",
+        "h": "Phân công bè đệm hợp âm trong song tấu"
+      },
+      {
+        "c": "AN7-B05-013",
+        "d": "advanced",
+        "p": "Tại sao hợp âm Đô trưởng (C: Đô-Mi-Son) nghe sáng tươi vui hơn so với hợp âm Đô thứ (Cm: Đô-Mib-Son) dù hai hợp âm chỉ khác nhau đúng nửa cung ở âm giữa (nốt Mi)?",
+        "o": [
+          "Vì hợp âm Đô trưởng có tới 4 nốt nhạc còn Đô thứ chỉ có 2 nốt",
+          "Vì hợp âm Đô thứ không có nốt Đô và nốt Son ở hai đầu",
+          "Vì hợp âm Đô trưởng luôn được đánh với âm lượng gấp đôi Đô thứ",
+          "Âm giữa quyết định trưởng hay thứ: Đô - Mi (2 cung, quãng ba trưởng) tạo sắc sáng mở, còn Đô - Mib (1,5 cung, quãng ba thứ) tạo sắc trầm lắng hơn"
+        ],
+        "k": "D",
+        "e": "Chỉ một nửa cung thay đổi ở bậc III đã biến đổi hoàn toàn sắc thái tâm lí của cả hợp âm.",
+        "s": "Âm Nhạc 7",
+        "h": "Bí mật màu sắc Trưởng và Thứ ở bậc III"
+      },
+      {
+        "c": "AN7-B05-014",
+        "d": "advanced",
+        "p": "Trong thực hành đệm hát hiện đại, thay vì bấm nguyên cả 3 phím hợp âm C (Đô-Mi-Son) ở một thế gốc duy nhất, người chơi đàn đôi khi bấm đổi thứ tự lên thành (Mi-Son-Đô2) gọi là \"thế đảo\". Điều này có làm mất bản chất hợp âm Đô trưởng không?",
+        "o": [
+          "Không, vì tập hợp các tên nốt cấu thành vẫn là Đô - Mi - Son; thế đảo giúp tay di chuyển mượt mà giữa các hợp âm mà không phải nhảy quá xa",
+          "Không được phép dùng thế đảo trong bất kì tác phẩm nào",
+          "Có, làm hỏng âm chủ khiến người hát bị lạc tông ngay",
+          "Có, ngay lập tức biến thành hợp âm Mi thứ hoàn toàn khác"
+        ],
+        "k": "A",
+        "e": "Sử dụng hợp âm thế đảo giúp phần đệm mượt tai và ngón tay di chuyển tiết kiệm quãng đường nhất.",
+        "s": "Âm Nhạc 7",
+        "h": "Nguyên lí thế đảo hợp âm khi đệm"
+      },
+      {
+        "c": "AN7-B05-015",
+        "d": "advanced",
+        "p": "Khi sáng tác phần đệm đơn giản cho một câu hát có nhiều nốt chuyển lướt nhanh (như nốt Rê, nốt Pha đi lướt giữa Đô và Mi ở phách nhẹ), người đệm đàn có nhất thiết phải đổi hợp âm theo từng nốt lướt móc đơn đó không?",
+        "o": [
+          "Không nên; chỉ cần giữ hợp âm phù hợp với các nốt trụ cột nằm ở phách mạnh/mạnh vừa để phần đệm vững chãi và thoáng tai",
+          "Chỉ được dùng duy nhất hợp âm C từ đầu tới cuối cả bản nhạc",
+          "Bắt buộc phải đổi liên tục 8 hợp âm khác nhau trong 1 ô nhịp",
+          "Phải tắt tiếng đàn ở tất cả các ô nhịp có nốt móc đơn"
+        ],
+        "k": "A",
+        "e": "Hòa âm chuyển động chậm hơn giai điệu tạo khung nền vững vàng cho câu hát lướt tự nhiên phía trên.",
+        "s": "Âm Nhạc 7",
+        "h": "Nhịp điệu chuyển đổi hợp âm hợp lí"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac7-c2",
+    "lesson": {
+      "code": "amnhac7-b06",
+      "title": "Bài 6. Thực hành sáo recorder và kèn phím",
+      "seq": 6,
+      "subtitle": "Kĩ thuật thổi hơi nhẹ nhàng, thế bấm nốt cơ bản trên sáo recorder và kĩ thuật lướt ngón tay trên kèn phím (melodion)",
+      "concepts": [
+        "Sáo recorder học đường",
+        "Kèn phím melodion và ngón bấm",
+        "Phối hợp hòa tấu lớp học"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN7-B06-001",
+        "d": "basic",
+        "p": "Khi mới bắt đầu tập thổi sáo recorder (sáo dọc học đường), tư thế đặt hai tay nào là quy ước chuẩn quốc tế?",
+        "o": [
+          "Cầm ngược đầu chuôi sáo thổi từ dưới đáy ống lên",
+          "Tay TRÁI đặt ở phần trên (gần đầu thổi, bấm các lỗ trên), tay PHẢI đặt ở phần dưới thân sáo",
+          "Tay PHẢI đặt ở trên sát miệng thổi, tay TRÁI đặt ở phía dưới",
+          "Chỉ sử dụng duy nhất một bàn tay phải để bấm toàn bộ lỗ sáo"
+        ],
+        "k": "B",
+        "e": "Cấu tạo khoảng cách lỗ sáo recorder chuẩn luôn thiết kế nghiêng nhẹ phù hợp ngón tay phải ở phía dưới.",
+        "s": "Âm Nhạc 7",
+        "h": "Quy ước tay trái - phải sáo recorder"
+      },
+      {
+        "c": "AN7-B06-002",
+        "d": "basic",
+        "p": "Lỗi phổ biến nhất làm tiếng sáo recorder bị rít chói tai (phô tiếng) ở người mới tập thổi là gì?",
+        "o": [
+          "Dùng phần thịt ngón tay đặt phẳng bịt kín vòng tròn lỗ sáo",
+          "Thổi luồng hơi nhẹ đều như đang phát âm chữ \"Đu\" nhẹ",
+          "Giữ thân sáo nghiêng một góc khoảng 45 độ so với thân người",
+          "Thổi luồng hơi quá mạnh và không bịt kín hoàn toàn các lỗ bấm bằng phần thịt mềm đầu ngón tay"
+        ],
+        "k": "D",
+        "e": "Sáo recorder chỉ cần luồng hơi rất nhẹ, ấm và đều (như thổi nhẹ làm lung lay ngọn nến không tắt).",
+        "s": "Âm Nhạc 7",
+        "h": "Khắc phục tiếng sáo bị rít"
+      },
+      {
+        "c": "AN7-B06-003",
+        "d": "basic",
+        "p": "Ba nốt nhạc đầu tiên dễ bấm và thường học trước hết trên sáo recorder bằng tay trái là bộ ba nốt nào?",
+        "o": [
+          "Chỉ học bấm toàn bộ các lỗ cùng lúc trước tiên",
+          "Nốt Mi cao, nốt Rê cao và nốt Pha cao",
+          "Nốt Đô trầm, nốt Pha thăng và nốt Si giáng",
+          "Nốt Si (B), nốt La (A) và nốt Son (G)"
+        ],
+        "k": "D",
+        "e": "Nốt Si bấm lỗ sau (ngón cái) + 1 lỗ trước; thêm ngón giữa thành La; thêm ngón áp út thành Son.",
+        "s": "Âm Nhạc 7",
+        "h": "Ba nốt cơ bản đầu tiên sáo recorder"
+      },
+      {
+        "c": "AN7-B06-004",
+        "d": "basic",
+        "p": "Kèn phím (melodion hoặc pianica) kết hợp đặc điểm của hai nhóm nhạc cụ nào?",
+        "o": [
+          "Cấu tạo phím bấm giống đàn piano kết hợp nguyên lí dùng luồng hơi thổi tạo âm thanh qua các lưỡi gà kim loại",
+          "Cấu tạo chuông đồng cồng chiêng kết hợp vĩ kéo",
+          "Cấu tạo dây đàn bầu kết hợp mặt trống cơm",
+          "Chạy bằng điện lưới và bộ khuếch đại sóng vô tuyến"
+        ],
+        "k": "A",
+        "e": "Chính nhờ dùng hơi thổi trực tiếp mà kèn phím có thể tạo sắc thái to nhỏ, ngân ngắt truyền cảm như sáo hay đàn accordion.",
+        "s": "Âm Nhạc 7",
+        "h": "Đặc điểm cấu tạo kèn phím"
+      },
+      {
+        "c": "AN7-B06-005",
+        "d": "basic",
+        "p": "Trong kí hiệu ngón bấm cho đàn phím (kèn phím, piano), các con số từ 1 đến 5 đặt trên nốt nhạc tương ứng với các ngón tay nào?",
+        "o": [
+          "Các số chỉ số lần phải bấm lặp lại một phím đàn",
+          "1 là ngón út, 2 là áp út, 3 là giữa, 4 là trỏ, 5 là ngón cái",
+          "1 là ngón cái, 2 là ngón trỏ, 3 là ngón giữa, 4 là ngón áp út, 5 là ngón út",
+          "1 là tay trái, 2 là tay phải, 3 là chân trái"
+        ],
+        "k": "C",
+        "e": "Hiểu kí hiệu số ngón tay giúp sắp xếp bàn tay thuận lợi và lướt chuyển vị trí mượt mà trên dãy phím.",
+        "s": "Âm Nhạc 7",
+        "h": "Quy ước đánh số ngón tay phím"
+      },
+      {
+        "c": "AN7-B06-006",
+        "d": "basic",
+        "p": "Nguyên tắc vệ sinh bảo quản sáo recorder và kèn phím cá nhân để đảm bảo sức khỏe học đường là gì?",
+        "o": [
+          "Rửa toàn bộ thân kèn phím bằng cách ngâm ngập vào chậu nước xà phòng",
+          "Không dùng chung đầu thổi miệng khi chưa vệ sinh sát khuẩn; lau khô hơi ẩm bên trong sau khi tập và cất vào hộp riêng sạch sẽ",
+          "Dùng chung một ống thổi cho cả tổ truyền tay nhau thổi liên tục trong giờ",
+          "Thổi xong cất ngay vào cặp kín khi bên trong còn đọng nhiều nước"
+        ],
+        "k": "B",
+        "e": "Vệ sinh đầu thổi riêng biệt giữ an toàn phòng bệnh đường hô hấp và kéo dài tuổi thọ lưỡi gà kim loại.",
+        "s": "Âm Nhạc 7",
+        "h": "Bảo quản vệ sinh nhạc cụ thổi"
+      },
+      {
+        "c": "AN7-B06-007",
+        "d": "application",
+        "p": "Quan sát bảng số lỗ bấm tay trái sáo recorder dưới đây, khi bạn Minh đang bấm chuẩn nốt Son (ngón cái sau + 3 ngón trước) rồi muốn chuyển xuống bấm nốt La, Minh cần thực hiện thao tác ngón tay nào?",
+        "o": [
+          "Bấm bịt thêm cả bốn ngón tay phải ở các lỗ phía dưới",
+          "Đổi sang dùng tay phải bịt kín lỗ đầu tiên sát miệng thổi",
+          "Nhấc ngón áp út (ngón thứ 3 phía trước) lên để mở lỗ số 3, giữ nguyên ngón cái sau và hai ngón trên",
+          "Nhấc toàn bộ tất cả các ngón tay ra khỏi thân sáo"
+        ],
+        "k": "C",
+        "e": "Trên sáo recorder, mở dần các lỗ từ dưới lên trên giúp cột không khí ngắn lại, làm cao độ đi lên từ Son -> La -> Si.",
+        "s": "Âm Nhạc 7",
+        "h": "Chuyển thế bấm sáo Son lên La",
+        "fig": {
+          "type": "table",
+          "title": "Thế bấm sáo tay trái",
+          "head": [
+            "Tên nốt",
+            "Lỗ bịt (lỗ sau = 0)"
+          ],
+          "rows": [
+            [
+              "Si (B)",
+              "Lỗ 0 + Lỗ 1"
+            ],
+            [
+              "La (A)",
+              "Lỗ 0 + Lỗ 1, 2"
+            ],
+            [
+              "Son (G)",
+              "Lỗ 0 + Lỗ 1, 2, 3"
+            ],
+            [
+              "Đô2 (C2)",
+              "Lỗ 0 + Lỗ 2"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN7-B06-008",
+        "d": "application",
+        "p": "Khi thổi một chuỗi các nốt có cùng cao độ lặp lại (ví dụ 4 nốt Son đen liên tiếp: Son - Son - Son - Son) trên sáo recorder hoặc kèn phím, kĩ thuật dùng lưỡi nào giúp ngắt từng nốt tách bạch rõ ràng chứ không dính thành một hơi dài?",
+        "o": [
+          "Kĩ thuật đánh lưỡi nhẹ (phát âm thầm tiếng \"Đu - Đu - Đu - Đu\" bằng đầu lưỡi chạm nhẹ chân răng trên) cho từng nốt",
+          "Đập mạnh ngón tay xuống thân sáo tạo tiếng gõ lạch cạch",
+          "Thổi một hơi thật mạnh kéo dài liên tục suốt 4 phách không ngắt lưỡi",
+          "Dừng thở hít lại không khí mới trước mỗi nốt trong 4 nốt đen"
+        ],
+        "k": "A",
+        "e": "Kĩ thuật đánh lưỡi tách nốt là bí quyết để tiếng sáo và tiếng kèn phím sắc nét, gọn gàng.",
+        "s": "Âm Nhạc 7",
+        "h": "Kĩ thuật đánh lưỡi ngắt nốt"
+      },
+      {
+        "c": "AN7-B06-009",
+        "d": "application",
+        "p": "Bạn Hà tập chơi một giai điệu gồm 6 nốt đi lên liền bậc trên kèn phím: Đô - Rê - Mi - Pha - Son - La (trong khi bàn tay chỉ có 5 ngón 1-2-3-4-5). Cách sắp xếp ngón tay hợp lí nhất để không bị hụt ngón hay giật cục là gì?",
+        "o": [
+          "Dùng ngón 1-2-3 cho Đô-Rê-Mi rồi luồn nhẹ ngón cái (1) xuống dưới lòng bàn tay bấm nốt Pha, sau đó ngón 2 bấm Son và ngón 3 bấm La",
+          "Bấm hết 5 ngón tới Son rồi dùng bàn tay trái bấm hộ nốt La",
+          "Dùng đúng một ngón trỏ (2) mổ cò nhảy lần lượt từ Đô tới La",
+          "Nhấc hẳn cả bàn tay lên đập xuống lại nốt Pha cho nhanh"
+        ],
+        "k": "A",
+        "e": "Kĩ thuật luồn ngón cái (thumb-under) là kĩ thuật căn bản giúp dãy 5 ngón lướt êm qua quãng rộng trên bàn phím.",
+        "s": "Âm Nhạc 7",
+        "h": "Kĩ thuật luồn ngón cái trên kèn phím"
+      },
+      {
+        "c": "AN7-B06-010",
+        "d": "application",
+        "p": "Trong giờ hòa tấu lớp 7: nhóm A thổi kèn phím giai điệu, nhóm B thổi sáo recorder bè hòa âm và nhóm C gõ thanh phách, tambourine. Khi bắt đầu ghép chung, tiếng kèn phím quá to làm lấn át hoàn toàn tiếng sáo recorder. Cả lớp nên điều chỉnh thế nào?",
+        "o": [
+          "Nhóm gõ thanh phách đập thật mạnh hơn nữa để át cả tiếng kèn phím",
+          "Loại bỏ hoàn toàn nhóm sáo ra khỏi tiết mục biểu diễn",
+          "Nhóm sáo thổi thật gắt hết sức bình sinh dù tiếng sáo bị rít vỡ âm",
+          "Nhóm kèn phím tiết chế lực thổi êm vừa phải, nhóm sáo thổi giữ hơi ổn định đồng đều để các nhạc cụ lắng nghe và hòa quyện cân bằng âm lượng"
+        ],
+        "k": "D",
+        "e": "Cân bằng âm lượng (balance) giữa các nhóm nhạc cụ giúp tiết mục hòa tấu sạch âm và có chiều sâu.",
+        "s": "Âm Nhạc 7",
+        "h": "Cân bằng âm lượng khi hòa tấu lớp"
+      },
+      {
+        "c": "AN7-B06-011",
+        "d": "application",
+        "p": "Nếu một bạn thổi sáo recorder bị hở một khe nhỏ xíu ở cạnh lỗ bấm thứ 3 khi đang muốn thổi nốt Son, hiện tượng âm thanh gì sẽ xảy ra ngay lập tức?",
+        "o": [
+          "Âm thanh bị rè, phô chênh cao độ hoặc nhảy vọt lên tiếng rít cao bất thường",
+          "Các lỗ ở trên tự động đóng kín lại thay cho ngón tay",
+          "Không ảnh hưởng gì vì lỗ bấm chỉ mang tính trang trí",
+          "Tiếng sáo trở nên trầm ấm và hay hơn gấp đôi bình thường"
+        ],
+        "k": "A",
+        "e": "Phần thịt đầu ngón tay đặt hơi phẳng ôm kín mép lỗ (không dựng đứng đầu móng) đảm bảo âm sáo tròn trịa.",
+        "s": "Âm Nhạc 7",
+        "h": "Lỗi bấm hở lỗ trên sáo recorder"
+      },
+      {
+        "c": "AN7-B06-012",
+        "d": "application",
+        "p": "Trước khi biểu diễn bài nhạc trên kèn phím trước lớp, việc tập đọc xướng âm đúng cao độ tiết tấu bản nhạc và vỗ tay giữ phách trước khi chạm phím đàn mang lại lợi ích gì?",
+        "o": [
+          "Chỉ có tác dụng cho người hát chứ không giúp ích gì cho người chơi đàn",
+          "Làm mất thời gian vô ích đáng lẽ nên bấm mò trực tiếp trên đàn luôn",
+          "Giúp não bộ hình dung trước giai điệu và nhịp điệu chuẩn xác, nhờ đó khi đặt tay vào phím bấm ít bị vấp và chơi có nhạc tính hơn hẳn",
+          "Làm ngón tay bị cứng lại khó di chuyển trên phím đàn"
+        ],
+        "k": "C",
+        "e": "\"Hát được trong đầu trước khi ngón tay bấm xuống\" là nguyên tắc vàng khi học bất kì nhạc cụ giai điệu nào.",
+        "s": "Âm Nhạc 7",
+        "h": "Đọc nhạc trước khi thực hành nhạc cụ"
+      },
+      {
+        "c": "AN7-B06-013",
+        "d": "advanced",
+        "p": "Phân tích ưu điểm sư phạm khi đưa bộ đôi nhạc cụ giai điệu giá hợp lí là Sáo recorder và Kèn phím vào giảng dạy chính khóa trong trường THCS Việt Nam?",
+        "o": [
+          "Vì học sinh sau khi chơi sáo recorder sẽ không cần học bất kì môn nào khác",
+          "Vì hai nhạc cụ này chỉ chơi được duy nhất một nốt không cần đọc khuông nhạc",
+          "Vì hai nhạc cụ này đắt tiền hơn cả đàn dương cầm lớn trong nhà hát",
+          "Giúp mọi học sinh đều có cơ hội trực tiếp đọc nốt thành âm thanh thật, rèn phối hợp tay-mắt-hơi thở và dễ dàng tổ chức hòa tấu tập thể ngay tại lớp học"
+        ],
+        "k": "D",
+        "e": "Nhạc cụ giai điệu giúp biến kiến thức lí thuyết trên giấy thành trải nghiệm âm nhạc sống động trong tay mỗi học sinh.",
+        "s": "Âm Nhạc 7",
+        "h": "Giá trị giáo dục của nhạc cụ học đường"
+      },
+      {
+        "c": "AN7-B06-014",
+        "d": "advanced",
+        "p": "Vì sao khi thổi kèn phím nếu dùng ống dây thổi dài đặt kèn nằm ngang trên bàn lại thuận lợi cho việc quan sát bàn phím và đọc bản nhạc hơn so với ngậm đầu thổi ngắn trực tiếp?",
+        "o": [
+          "Vì dùng ống dây dài sẽ không cần phải lấy hơi khi thổi nữa",
+          "Vì ống dây dài làm âm lượng kèn phím tăng gấp mười lần",
+          "Vì mắt dễ dàng bao quát toàn bộ 32-37 phím trắng đen đồng thời liếc nhìn bản nhạc trên giá, hai tay lại thả lỏng tự nhiên trên bàn",
+          "Vì ống dây dài tự động sửa mọi lỗi bấm sai ngón tay trên phím"
+        ],
+        "k": "C",
+        "e": "Dùng ống dẫn hơi đặt kèn lên mặt bàn gần giống tư thế đàn phím để bàn rất tốt cho cột sống và kĩ thuật ngón.",
+        "s": "Âm Nhạc 7",
+        "h": "Tư thế thực hành kèn phím với ống dây"
+      },
+      {
+        "c": "AN7-B06-015",
+        "d": "advanced",
+        "p": "Trong khi biểu diễn hòa tấu nhóm ở trường, chẳng may một bạn chơi kèn phím bị bấm nhầm một nốt ở giữa ô nhịp số 5. Cách xử lí chuyên nghiệp nhất tại chỗ là gì?",
+        "o": [
+          "Bình tĩnh giữ nguyên nhịp phách chung và tiếp tục nhập lại chính xác ở đầu ô nhịp tiếp theo, không dừng lại xuýt xoa làm lỡ nhịp cả nhóm",
+          "Quay sang chỉ tay đổ lỗi cho bạn ngồi cạnh làm mất tập trung",
+          "Dừng hẳn lại giơ tay xin ban giám khảo cho cả đội chơi lại từ đầu ngay",
+          "Ngồi im gục đầu xuống bàn bỏ luôn nửa đoạn nhạc còn lại"
+        ],
+        "k": "A",
+        "e": "Bản lĩnh sân khấu thể hiện ở việc ưu tiên giữ mạch nhịp chung của tập thể vượt lên sự cố nhỏ.",
+        "s": "Âm Nhạc 7",
+        "h": "Bản lĩnh xử lí sự cố khi biểu diễn"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac7-c3",
+    "lesson": {
+      "code": "amnhac7-b07",
+      "title": "Bài 7. Nhịp lấy đà, đảo phách và chùm ba",
+      "seq": 7,
+      "subtitle": "Nhận biết ô nhịp lấy đà đầu bản nhạc, hiệu ứng tiết tấu đảo phách và cách đọc chùm ba (triplet) trong nhịp 2/4, 4/4",
+      "concepts": [
+        "Ô nhịp lấy đà đầu bản nhạc",
+        "Tiết tấu đảo phách sinh động",
+        "Chùm ba (chia ba 1 phách)"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN7-B07-001",
+        "d": "basic",
+        "p": "Ô nhịp đầu tiên của một bản nhạc không có đủ số phách theo quy định của số chỉ nhịp (ví dụ nhịp 4/4 nhưng ô đầu chỉ có 1 nốt đen) được gọi là gì?",
+        "o": [
+          "Ô nhịp bị lỗi in ấn",
+          "Ô nhịp kết thúc",
+          "Ô nhịp dấu lặng tròn",
+          "Ô nhịp lấy đà (nhịp lấy đà)"
+        ],
+        "k": "D",
+        "e": "Rất nhiều ca khúc nổi tiếng như \"Tiến quân ca\" bắt đầu bằng ô nhịp lấy đà ở phách nhẹ trước khi rơi vào phách mạnh đầu tiên.",
+        "s": "Âm Nhạc 7",
+        "h": "Khái niệm ô nhịp lấy đà"
+      },
+      {
+        "c": "AN7-B07-002",
+        "d": "basic",
+        "p": "Thông thường, số phách còn thiếu ở ô nhịp lấy đà đầu bản nhạc sẽ được sắp xếp bù lại ở vị trí nào?",
+        "o": [
+          "Bù dồn hết vào ô nhịp thứ hai bằng dấu lặng trắng",
+          "Không bao giờ cần quan tâm tới phần phách bị thiếu",
+          "Bù lại ở ô nhịp cuối cùng của bản nhạc (sao cho ô đầu + ô cuối cộng lại đủ một ô nhịp chuẩn)",
+          "Nhân đôi số phách ở mọi ô nhịp giữa bài hát"
+        ],
+        "k": "C",
+        "e": "Nhờ bù trừ tròn ở ô cuối, khi hát lặp lại từ đầu bài sẽ khớp phách hoàn toàn không bị vấp nhịp.",
+        "s": "Âm Nhạc 7",
+        "h": "Quy luật bù trừ ô nhịp lấy đà"
+      },
+      {
+        "c": "AN7-B07-003",
+        "d": "basic",
+        "p": "Hiện tượng \"đảo phách\" trong tiết tấu âm nhạc xảy ra khi nào?",
+        "o": [
+          "Khi một âm thanh bắt đầu ngân ở phách nhẹ (hoặc phần nhẹ của phách) và kéo dài ngân nối sang cả phách mạnh (hoặc phần mạnh) kế tiếp",
+          "Khi người chỉ huy đánh tay ngược từ dưới lên trên ở phách 1",
+          "Khi tất cả mọi nốt nhạc trong ô nhịp đều là nốt tròn 4 phách",
+          "Khi cả bài hát đột ngột đảo ngược thứ tự các nốt từ cuối lên đầu"
+        ],
+        "k": "A",
+        "e": "Đảo phách làm trọng âm chuyển lệch bất ngờ sang chỗ nhẹ, tạo sức bật lôi cuốn, sôi nổi cho giai điệu.",
+        "s": "Âm Nhạc 7",
+        "h": "Khái niệm đảo phách"
+      },
+      {
+        "c": "AN7-B07-004",
+        "d": "basic",
+        "p": "Mẫu tiết tấu cực kì phổ biến trong nhạc thiếu nhi và dân ca Việt Nam gồm [1 nốt móc đơn - 1 nốt đen - 1 nốt móc đơn] chiếm tổng cộng 2 phách là dạng điển hình của hiện tượng gì?",
+        "o": [
+          "Dấu lặng toàn phần 4 phách",
+          "Chùm ba móc đơn đều nhau",
+          "Ô nhịp lấy đà thiếu phách",
+          "Tiết tấu đảo phách (nốt đen ở giữa bắt đầu từ nửa sau phách 1 và ngân sang nửa đầu phách 2 mạnh hơn)"
+        ],
+        "k": "D",
+        "e": "Chính nốt đen vắt qua ranh giới hai phách tạo cảm giác nhún nhảy uyển chuyển (ví dụ \"Xúc xắc xúc xẻ\" hay nhiều điệu Lí).",
+        "s": "Âm Nhạc 7",
+        "h": "Mẫu đảo phách [đơn - đen - đơn]"
+      },
+      {
+        "c": "AN7-B07-005",
+        "d": "basic",
+        "p": "\"Chùm ba\" gồm 3 nốt móc đơn nối với nhau có con số \"3\" đặt phía trên hoặc phía dưới mang giá trị tổng trường độ bằng bao nhiêu?",
+        "o": [
+          "Bằng 1 nốt trắng chấm dôi (3 phách)",
+          "Bằng 1 nốt tròn (4 phách)",
+          "Bằng 3 nốt đen cộng lại (3 phách)",
+          "Bằng tổng trường độ của 2 nốt móc đơn bình thường (tức bằng đúng 1 phách nốt đen)"
+        ],
+        "k": "D",
+        "e": "Thay vì chia đôi 1 phách thành 2 phần đều, chùm ba chia đều 1 phách đó thành 3 tiếng bằng nhau.",
+        "s": "Âm Nhạc 7",
+        "h": "Giá trị trường độ chùm ba móc đơn"
+      },
+      {
+        "c": "AN7-B07-006",
+        "d": "basic",
+        "p": "Khi gặp nhịp lấy đà 1 phách ở đầu bài nhịp 4/4 (chữ hát đầu tiên rơi vào phách 4 nhẹ), người chỉ huy cần ra hiệu đánh tay bắt nhịp vào phách nào để cả lớp vào hát đúng?",
+        "o": [
+          "Đánh lấy đà chuẩn bị ở phách 3 (sang phải) rồi đánh lên phách 4 để cả lớp bắt đầu hát vào phách 4, sau đó phách 1 đánh thẳng xuống đúng chữ trọng âm",
+          "Đánh thẳng phách 1 thật mạnh ngay chữ đầu tiên làm sai trọng âm lời ca",
+          "Đánh hết cả 4 phách im lặng rồi mới chỉ tay vào chữ đầu tiên",
+          "Vỗ tay liên tục không cần theo sơ đồ nhịp 4/4"
+        ],
+        "k": "A",
+        "e": "Bắt nhịp lấy đà đúng giúp trọng âm nhạc (phách 1) khớp chính xác với trọng âm câu thơ lời ca.",
+        "s": "Âm Nhạc 7",
+        "h": "Đánh nhịp cho bài có nhịp lấy đà"
+      },
+      {
+        "c": "AN7-B07-007",
+        "d": "application",
+        "p": "Quan sát bảng tổng hợp tiết tấu dưới đây, trong một ô nhịp 2/4 có 2 phách, nếu phách 1 là một chùm ba móc đơn (3 nốt có số 3) và phách 2 là 1 nốt đen, tổng trường độ của ô nhịp đó đạt yêu cầu không?",
+        "o": [
+          "Đạt yêu cầu hoàn toàn: chùm ba móc đơn = 1 phách đen, cộng thêm 1 nốt đen ở phách 2 = tròn 2 phách",
+          "Thiếu nửa phách vì chùm ba chỉ bằng nửa phách",
+          "Thừa tới 2 phách thành ô nhịp 4/4",
+          "Thừa nửa phách vì 3 nốt móc đơn dài tới 1,5 phách"
+        ],
+        "k": "A",
+        "e": "Ghi nhớ: 1 chùm ba móc đơn = 1 nốt đen; 1 chùm ba đen = 1 nốt trắng.",
+        "s": "Âm Nhạc 7",
+        "h": "Kiểm tra chùm ba trong ô nhịp 2/4",
+        "fig": {
+          "type": "table",
+          "title": "Các mẫu tiết tấu đặc biệt",
+          "head": [
+            "Mẫu tiết tấu",
+            "Giá trị (đen = 1)"
+          ],
+          "rows": [
+            [
+              "Chùm 3 móc đơn",
+              "1 phách (3 âm đều)"
+            ],
+            [
+              "Đơn - Đen - Đơn",
+              "2 phách (đảo phách)"
+            ],
+            [
+              "Chùm 3 nốt đen",
+              "2 phách (3 âm đều)"
+            ],
+            [
+              "Lấy đà đầu bài",
+              "Phách thiếu bù cuối"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN7-B07-008",
+        "d": "application",
+        "p": "Câu hát mở đầu Quốc ca \"Đoàn quân Việt Nam đi\" viết ở nhịp 2/4. Tiếng \"Đoàn\" đứng một mình ở ô nhịp mở đầu bằng một nốt móc đơn (hoặc đen lấy đà) trước vạch nhịp đầu, còn tiếng \"quân\" rơi thẳng vào phách 1 ô nhịp tiếp theo. Tác dụng của cách viết nhịp lấy đà ở đây là gì?",
+        "o": [
+          "Để người hát phải ngân chữ \"Đoàn\" kéo dài tới 4 phách rồi mới hát tiếp",
+          "Vì nhạc sĩ Văn Cao quên chưa đủ ô nhịp nên viết tạm một chữ ra ngoài",
+          "Đặt trọng âm phách 1 mạnh mẽ rơi trúng chữ \"quân\" (\"quân Việt Nam đi\") thay vì nhấn gượng vào chữ \"Đoàn\" mở đà, tạo khí thế tiến bước tự nhiên",
+          "Để biến bài hát hành khúc thành điệu hát ru ba phách"
+        ],
+        "k": "C",
+        "e": "Nhịp lấy đà là công cụ đắc lực giúp ngữ điệu tiếng Việt khớp tự nhiên với trọng âm nhịp điệu.",
+        "s": "Âm Nhạc 7",
+        "h": "Ứng dụng nhịp lấy đà trong Tiến quân ca"
+      },
+      {
+        "c": "AN7-B07-009",
+        "d": "application",
+        "p": "Một bài hát nhịp 4/4 mở đầu bằng ô nhịp lấy đà có đúng 1 phách (1 nốt đen). Khi nhìn tới ô nhịp cuối cùng của bản nhạc đó, ta sẽ thấy ô nhịp cuối có tổng trường độ hợp lí là bao nhiêu phách?",
+        "o": [
+          "1 phách giống hệt ô nhịp đầu tiên",
+          "2 phách cộng với 1 phách thành 3 phách",
+          "3 phách (ví dụ 1 nốt trắng chấm dôi hoặc 1 nốt trắng + 1 dấu lặng đen) để cộng với 1 phách đầu thành tròn 4 phách",
+          "4 phách đầy đủ y nguyên như mọi ô nhịp ở giữa"
+        ],
+        "k": "C",
+        "e": "Kiểm tra tổng (ô lấy đà đầu + ô cuối) = số chỉ nhịp chuẩn là cách kiểm tra bản chép nhạc rất hay.",
+        "s": "Âm Nhạc 7",
+        "h": "Tính số phách ô cuối tương ứng lấy đà"
+      },
+      {
+        "c": "AN7-B07-010",
+        "d": "application",
+        "p": "Trong lúc tập gõ mẫu đảo phách [Đơn - Đen - Đơn] trong nhịp 2/4, tiếng gõ của ba nốt rơi vào những thời điểm nào trên đồng hồ 2 phách (phách 1 gồm 1a - 1b; phách 2 gồm 2a - 2b)?",
+        "o": [
+          "Gõ vào 1a (nốt đơn), gõ vào 1b và giữ ngân xuyên qua 2a (nốt đen đảo phách), rồi gõ tiếp vào 2b (nốt đơn cuối)",
+          "Gõ đều vào 1a, 2a và nghỉ hoàn toàn suốt phần sau",
+          "Gõ cả ba nốt dồn vào trong phách 1 còn phách 2 đứng im",
+          "Gõ vào 1a rồi nghỉ 1b, gõ tiếp vào 2a và 2b"
+        ],
+        "k": "A",
+        "e": "Bắt đầu ở 1b (phần nhẹ) và ngân vắt sang 2a (đầu phách 2) chính là linh hồn của tiết tấu đảo phách.",
+        "s": "Âm Nhạc 7",
+        "h": "Phân tích vị trí gõ mẫu đảo phách"
+      },
+      {
+        "c": "AN7-B07-011",
+        "d": "application",
+        "p": "Để gõ chính xác một \"chùm ba móc đơn\" nằm gọn trong 1 phách đều đặn cạnh các nốt đen, học sinh có thể nhẩm từ tiếng Việt ba âm tiết nào đều nhịp cho dễ cảm nhận?",
+        "o": [
+          "Nhẩm đều ba âm tiết gọn như \"Ti - Ti - Ti\" hoặc \"Ba - Con - Mèo\" gói gọn đều tăm tắp vào đúng 1 tiếng vỗ tay giữ nhịp",
+          "Đọc chữ thứ nhất thật dài rồi đọc nhanh hai chữ sau",
+          "Đọc 2 âm tiết thật chậm kéo dài ra 2 phách",
+          "Đọc 4 âm tiết nhanh nối đuôi nhau không nghỉ"
+        ],
+        "k": "A",
+        "e": "Chia 1 phách đều thành 3 âm tiết bằng nhau (tri-o-let) tạo cảm giác cuộn tròn uyển chuyển.",
+        "s": "Âm Nhạc 7",
+        "h": "Mẹo gõ đúng chùm ba móc đơn"
+      },
+      {
+        "c": "AN7-B07-012",
+        "d": "application",
+        "p": "Khi nghe nhạc hiện đại hoặc dân ca Tây Nguyên, Nam Bộ, tại sao các đoạn điệp khúc sử dụng nhiều đảo phách thường khiến người nghe muốn nhún nhảy lắc lư theo hơn là đoạn toàn nốt đều đặn?",
+        "o": [
+          "Vì đảo phách không cho phép dùng bất kì nhạc cụ gõ nào",
+          "Vì đảo phách bắt buộc mọi người phải hát nhỏ đi một nửa",
+          "Vì đảo phách tạo ra sự bất ngờ dịch chuyển trọng âm khỏi phách mạnh quen thuộc, kích thích cảm giác chuyển động cơ thể và năng lượng sôi nổi",
+          "Vì đảo phách làm giảm tốc độ bài hát xuống rất chậm"
+        ],
+        "k": "C",
+        "e": "Sự phá cách nhẹ nhàng khỏi nhịp đều tạo nên tính hấp dẫn đặc biệt của nhạc pop, jazz và dân ca sôi động.",
+        "s": "Âm Nhạc 7",
+        "h": "Hiệu quả thẩm mĩ của đảo phách"
+      },
+      {
+        "c": "AN7-B07-013",
+        "d": "advanced",
+        "p": "Phân biệt giữa trường hợp ô nhịp đầu chỉ có 1 dấu lặng đen + 1 nốt đen trong nhịp 2/4 với trường hợp ô nhịp lấy đà chỉ có 1 nốt đen đứng trước vạch nhịp?",
+        "o": [
+          "Nếu ô nhịp đầu đủ 2 phách (1 lặng đen + 1 đen) thì đó là ô nhịp ĐẦY ĐỦ; còn ô nhịp lấy đà chỉ viết 1 nốt đen thiếu phách, không có dấu lặng bù",
+          "Ô nhịp có dấu lặng đen đầu tiên bắt buộc phải lặp lại 3 lần trước khi hát",
+          "Ô nhịp lấy đà luôn phải thêm 1 dấu lặng tròn ở phía trước mới đúng",
+          "Hai cách viết này giống nhau hoàn toàn không có sự khác biệt nào về chỉ huy"
+        ],
+        "k": "A",
+        "e": "Đánh nhịp cho ô đủ có lặng ở phách 1 cần đánh phách 1 im lặng xuống rõ ràng, khác với lấy đà vào thẳng phách cuối.",
+        "s": "Âm Nhạc 7",
+        "h": "Phân biệt lặng phách 1 và nhịp lấy đà"
+      },
+      {
+        "c": "AN7-B07-014",
+        "d": "advanced",
+        "p": "Giả sử trong một bản nhạc nhịp 2/4, ô nhịp 1 có hai nốt móc đơn đều nhau (chia đôi phách) và ô nhịp 2 có một chùm ba móc đơn (chia ba phách). Nếu tốc độ phách đen không đổi, mỗi nốt móc đơn trong chùm ba sẽ nhanh hay chậm hơn mỗi nốt móc đơn ở ô nhịp 1?",
+        "o": [
+          "Nhanh hơn (ngắn thời gian hơn): ở ô 1 mỗi móc đơn dài 1/2 phách, còn trong chùm ba mỗi nốt chỉ dài 1/3 phách",
+          "Chậm hơn hẳn vì chùm ba có tới 3 nốt dài gấp rưỡi bình thường",
+          "Nốt đầu của chùm ba dài 1 phách, hai nốt sau bằng 0",
+          "Bằng nhau tuyệt đối về độ dài tính bằng giây"
+        ],
+        "k": "A",
+        "e": "Vì 1/3 < 1/2 nên nhồi 3 âm đều vào cùng khung thời gian 1 phách khiến tốc độ chuyển nốt trong chùm ba nhanh hơn 1,5 lần so với chia đôi.",
+        "s": "Âm Nhạc 7",
+        "h": "So sánh độ dài nốt chùm ba và chia đôi"
+      },
+      {
+        "c": "AN7-B07-015",
+        "d": "advanced",
+        "p": "Tại sao khi một ca khúc có đảo phách nhiều ở giai điệu chính, người chơi trống giữ nhịp hoặc bè trầm (bass) lại thường vẫn giữ đều đặn khung phách mạnh 1, 3 ổn định phía dưới?",
+        "o": [
+          "Vì người chơi trống không biết đọc kí hiệu đảo phách trên bản nhạc",
+          "Để triệt tiêu hoàn toàn hiệu ứng đảo phách làm bài hát quay về đơn điệu",
+          "Nhờ có bè nền giữ chắc khung nhịp đều ổn định thì sự lệch nhịp của đảo phách phía trên mới nổi bật rõ nét mà bài hát không bị trôi mất phách",
+          "Vì luật hòa âm cấm hai nhạc cụ chơi tiết tấu giống nhau"
+        ],
+        "k": "C",
+        "e": "Đảo phách chỉ phát huy trọn vẹn sức bật khi đứng cạnh một nền nhịp vững chãi để tạo độ tương phản.",
+        "s": "Âm Nhạc 7",
+        "h": "Vai trò giữ nền nhịp khi giai điệu đảo phách"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac7-c3",
+    "lesson": {
+      "code": "amnhac7-b08",
+      "title": "Bài 8. Âm nhạc dân gian Tây Nguyên và nhạc cụ tre nứa",
+      "seq": 8,
+      "subtitle": "Không gian văn hóa Cồng chiêng Tây Nguyên, các nhạc cụ độc đáo Đàn T’rưng, Đàn K’lông pút, Đàn đá và sử thi hát kể",
+      "concepts": [
+        "Không gian văn hóa Cồng chiêng",
+        "Đàn T’rưng và đàn K’lông pút",
+        "Đàn đá - di sản hàng nghìn năm"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN7-B08-001",
+        "d": "basic",
+        "p": "Nhạc cụ gõ độc đáo của đồng bào Tây Nguyên làm từ các ống tre nứa có một đầu bịt mắt, một đầu vát nhọn xếp dài từ to đến nhỏ và dùng hai dùi gõ lên thân ống là đàn gì?",
+        "o": [
+          "Đàn T’rưng",
+          "Đàn bầu một dây",
+          "Đàn K’lông pút",
+          "Đàn nguyệt mặt tròn"
+        ],
+        "k": "A",
+        "e": "Âm thanh đàn T’rưng trong trẻo, thánh thót như tiếng suối chảy giữa đại ngàn Tây Nguyên.",
+        "s": "Âm Nhạc 7",
+        "h": "Đặc điểm đàn T’rưng"
+      },
+      {
+        "c": "AN7-B08-002",
+        "d": "basic",
+        "p": "Nhạc cụ làm từ các ống nứa rỗng hai đầu của phụ nữ Tây Nguyên (Xơ Đăng, Ba Na, Gia Rai), tạo ra âm thanh cực kì lạ khi người chơi VỖ HAI BÀN TAY gần miệng ống mà không chạm vào ống là gì?",
+        "o": [
+          "Đàn T’rưng",
+          "Đàn K’lông pút",
+          "Sáo trúc ngang",
+          "Cồng đồng có núm"
+        ],
+        "k": "B",
+        "e": "Luồng hơi nén từ động tác vỗ tay đẩy vào cột khí trong ống nứa làm đàn K’lông pút vang tiếng trầm ấm độc đáo.",
+        "s": "Âm Nhạc 7",
+        "h": "Cách chơi độc đáo đàn K’lông pút"
+      },
+      {
+        "c": "AN7-B08-003",
+        "d": "basic",
+        "p": "Nhạc cụ cổ xưa bậc nhất Việt Nam (có niên đại tới vài nghìn năm được tìm thấy ở Tây Nguyên và Nam Trung Bộ) chế tác từ những thanh đá tự nhiên gõ bằng dùi gọi là gì?",
+        "o": [
+          "Song loan gỗ",
+          "Trống đồng Đông Sơn",
+          "Đàn đá (Lithophone)",
+          "Đàn tam thập lục"
+        ],
+        "k": "C",
+        "e": "Những thanh đá bazan tự nhiên được người tiền sử ghè đẽo tinh tế tạo thang âm vang xa khắp núi rừng.",
+        "s": "Âm Nhạc 7",
+        "h": "Giới thiệu đàn đá cổ đại"
+      },
+      {
+        "c": "AN7-B08-004",
+        "d": "basic",
+        "p": "Trong văn hóa truyền thống các dân tộc Tây Nguyên, Không gian văn hóa Cồng chiêng thường gắn bó với những sự kiện nào của cộng đồng buôn làng?",
+        "o": [
+          "Từ lễ thổi tai mừng em bé chào đời, lễ mừng lúa mới, lễ dựng nhà rông, kết nghĩa buôn làng đến lễ tiễn đưa người mất",
+          "Chỉ dùng để biểu diễn riêng trong các phòng kín cho một người nghe",
+          "Chỉ được phép đánh đúng một lần vào ngày khai giảng năm học mới",
+          "Chỉ sử dụng khi có đoàn khách du lịch nước ngoài mua vé vào xem"
+        ],
+        "k": "A",
+        "e": "Cồng chiêng là tiếng nói tâm linh kết nối con người Tây Nguyên với thiên nhiên và cộng đồng suốt vòng đời.",
+        "s": "Âm Nhạc 7",
+        "h": "Vai trò Cồng chiêng trong đời sống"
+      },
+      {
+        "c": "AN7-B08-005",
+        "d": "basic",
+        "p": "Trong dàn Cồng chiêng truyền thống Tây Nguyên, người ta tổ chức trình diễn theo nguyên tắc nào?",
+        "o": [
+          "Diễn tấu tập thể dàn nhiều chiếc cồng chiêng, mỗi người cầm một chiếc đánh đúng một âm cố định phối hợp luân phiên ăn ý tạo thành bản hòa tấu đa thanh",
+          "Một người nghệ sĩ duy nhất vừa gõ vừa thổi cùng lúc 12 chiếc chiêng to",
+          "Treo toàn bộ chiêng lên cây rồi chờ gió thổi va vào nhau phát tiếng",
+          "Tất cả mọi người cùng vung dùi đập tự do loạn xạ mạnh nhất có thể"
+        ],
+        "k": "A",
+        "e": "Nghệ thuật \"chiêng dàn\" đòi hỏi tinh thần kỷ luật tập thể cực kì cao của các thành viên trong buôn làng.",
+        "s": "Âm Nhạc 7",
+        "h": "Nghệ thuật hòa tấu Cồng chiêng"
+      },
+      {
+        "c": "AN7-B08-006",
+        "d": "basic",
+        "p": "Hình thức kể chuyện trường ca bằng giọng hát trầm bổng sâu lắng (như kể sử thi Đam Săn, Xinh Nhã) thâu đêm bên bếp lửa nhà rông Tây Nguyên gọi là gì?",
+        "o": [
+          "Hát kể sử thi (hát Khan)",
+          "Hát Quan họ đối đáp",
+          "Hát Xẩm đường phố",
+          "Hát Chầu văn"
+        ],
+        "k": "A",
+        "e": "Nghệ nhân hát Khan thuộc hàng nghìn câu thơ văn vần giàu nhạc điệu truyền giữ kí ức lịch sử buôn làng.",
+        "s": "Âm Nhạc 7",
+        "h": "Nghệ thuật hát kể sử thi (Khan)"
+      },
+      {
+        "c": "AN7-B08-007",
+        "d": "application",
+        "p": "Quan sát bảng tổng hợp các nhạc cụ độc đáo vùng Tây Nguyên dưới đây, điểm khác biệt trực tiếp về cách tạo âm giữa Đàn T’rưng và Đàn K’lông pút là gì?",
+        "o": [
+          "Cả hai nhạc cụ đều được đúc hoàn toàn bằng hợp kim đồng",
+          "Đàn K’lông pút chỉ có duy nhất một ống nứa thẳng đứng",
+          "Đàn T’rưng gõ trực tiếp bằng dùi lên ống tre có một đầu kín; Đàn K’lông pút không gõ chạm vào ống mà vỗ tay tạo luồng hơi dội qua ống hở hai đầu",
+          "Đàn T’rưng dùng vĩ kéo dây cước; Đàn K’lông pút dùng miệng thổi trực tiếp"
+        ],
+        "k": "C",
+        "e": "Cùng làm từ tre nứa nhưng nguyên lí vật lí tạo âm (chấn động thanh ống vs cộng hưởng luồng khí vỗ tay) hoàn toàn khác biệt.",
+        "s": "Âm Nhạc 7",
+        "h": "So sánh cơ chế đàn T’rưng và K’lông pút",
+        "fig": {
+          "type": "table",
+          "title": "Nhạc cụ độc đáo Tây Nguyên",
+          "head": [
+            "Nhạc cụ",
+            "Cách tạo âm thanh"
+          ],
+          "rows": [
+            [
+              "Đàn T’rưng",
+              "Gõ lên ống tre nứa"
+            ],
+            [
+              "Đàn K’lông pút",
+              "Vỗ trước miệng ống"
+            ],
+            [
+              "Đàn đá",
+              "Gõ dùi lên thanh đá"
+            ],
+            [
+              "Cồng chiêng",
+              "Mỗi người gõ 1 chiếc"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN7-B08-008",
+        "d": "application",
+        "p": "Vì sao trong dàn cồng chiêng Tây Nguyên, mỗi người chơi một chiếc chiêng đảm nhiệm một âm riêng biệt phải lắng nghe đồng đội cực kì tập trung chứ không thể tách rời đánh một mình?",
+        "o": [
+          "Vì giai điệu hoàn chỉnh chỉ hiện lên khi từng âm đơn lẻ từ các chiếc chiêng đan xen khớp nối chính xác từng nhịp vào nhau tạo thành chuỗi âm liên hoàn",
+          "Vì luật của buôn làng cấm không cho phép hai người nhìn mặt nhau khi đánh",
+          "Vì âm thanh cồng chiêng không thể nghe thấy nếu đứng cách xa 2 mét",
+          "Vì một chiếc chiêng nặng hàng tấn cần hai người mới nhấc lên nổi"
+        ],
+        "k": "A",
+        "e": "Đoàn kết cộng đồng của buôn làng Tây Nguyên hiện hình trực tiếp qua cấu trúc hòa tấu cồng chiêng phân công đan xen.",
+        "s": "Âm Nhạc 7",
+        "h": "Tính cộng đồng trong diễn tấu cồng chiêng"
+      },
+      {
+        "c": "AN7-B08-009",
+        "d": "application",
+        "p": "Bạn học sinh quan sát một chiếc đàn đá gồm 10 thanh đá dài mỏng khác nhau xếp trên giá gỗ. Nếu gõ vào thanh đá dài to nhất và thanh đá ngắn nhỏ nhất, âm thanh nghe được khác nhau thế nào?",
+        "o": [
+          "Chỉ thanh đá ở chính giữa mới phát ra tiếng khi dùng dùi gõ",
+          "Thanh đá dài to hơn phát ra âm trầm thấp; thanh đá ngắn mỏng hơn phát ra âm cao thanh vang",
+          "Cả hai thanh đá phát ra cao độ giống hệt nhau hoàn toàn",
+          "Thanh đá dài phát ra âm cao chói, thanh đá ngắn phát ra âm trầm đục"
+        ],
+        "k": "B",
+        "e": "Dù là thanh đá, ống tre hay dây đàn, vật dao động càng dài lớn thì tần số càng thấp nên âm càng trầm.",
+        "s": "Âm Nhạc 7",
+        "h": "Quy luật cao độ trên thanh đàn đá"
+      },
+      {
+        "c": "AN7-B08-010",
+        "d": "application",
+        "p": "Nghệ sĩ truyền thống Tây Nguyên thường gõ cồng chiêng tại hai vị trí: đánh ngay tâm núm (hoặc tâm mặt chiêng) và dùng bàn tay trái áp nhẹ mặt sau của chiêng ngay sau khi đánh để ngắt âm (kĩ thuật bịt tiếng). Tác dụng của việc dùng tay ngắt tiếng là gì?",
+        "o": [
+          "Để làm nóng bàn tay khi biểu diễn vào mùa đông giá lạnh trên cao nguyên",
+          "Giúp âm thanh cồng chiêng gọn gàng, ngắt đúng trường độ nhịp điệu mà không bị ngân rè chồng chéo làm nhòe giai điệu chung",
+          "Để biến chiếc chiêng phẳng thành chiếc cồng có núm đồng",
+          "Để tăng độ vang kéo dài thêm gấp mười lần bình thường"
+        ],
+        "k": "B",
+        "e": "Kiểm soát độ ngân tắt bằng tay trái giúp tiếng chiêng đi theo tiết tấu sắc nét đầy biểu cảm.",
+        "s": "Âm Nhạc 7",
+        "h": "Kĩ thuật bịt ngắt âm cồng chiêng"
+      },
+      {
+        "c": "AN7-B08-011",
+        "d": "application",
+        "p": "Hiện nay ở một số vùng Tây Nguyên có tình trạng người trẻ ít học đánh chiêng truyền thống, một số bộ chiêng quý bị bán mất ra ngoài buôn. Giải pháp bảo tồn bền vững nhất tại địa phương là gì?",
+        "o": [
+          "Thay thế dàn cồng chiêng thật bằng loa ghi âm phát lại trong mọi lễ hội",
+          "Thu gom toàn bộ cồng chiêng cất khóa kín trong kho không cho ai chạm vào nữa",
+          "Chuyển đổi toàn bộ đàn đá và đàn tre nứa thành đồ trang trí sân vườn",
+          "Mở lớp truyền dạy đánh chiêng, làm đàn T’rưng cho thanh thiếu niên ngay tại nhà rông, trường học và đưa biểu diễn nguyên bản vào lễ hội cộng đồng"
+        ],
+        "k": "D",
+        "e": "Các lớp \"chiêng nhí\" ở Gia Lai, Đắk Lắk, Kon Tum đang giúp ngọn lửa cồng chiêng hồi sinh mạnh mẽ trong thế hệ trẻ.",
+        "s": "Âm Nhạc 7",
+        "h": "Giải pháp truyền dạy cồng chiêng trẻ"
+      },
+      {
+        "c": "AN7-B08-012",
+        "d": "application",
+        "p": "Khi nghe tiếng đàn T’rưng trong bản hòa tấu ca ngợi núi rừng Tây Nguyên như \"Cánh chim Kơ-tia\" hay \"Tiếng chày trên sóc Bom Bo\" phối hợp, âm sắc tre nứa kết hợp cồng chiêng gợi bức tranh thiên nhiên nào?",
+        "o": [
+          "Cảnh thành phố công nghiệp tắc đường giờ cao điểm hiện đại",
+          "Sự hòa quyện giữa tiếng nước suối trong trẻo róc rách (đàn T’rưng) với âm hưởng hùng vĩ sâu thẳm của đại ngàn (cồng chiêng, đàn đá)",
+          "Không khí tĩnh lặng vắng vẻ trên mặt trăng không có âm thanh",
+          "Cảnh buổi diễn hài kịch ồn ào trên truyền hình"
+        ],
+        "k": "B",
+        "e": "Âm nhạc Tây Nguyên là bản giao hưởng tuyệt đẹp đối thoại giữa con người và thiên nhiên đại ngàn.",
+        "s": "Âm Nhạc 7",
+        "h": "Cảm thụ âm sắc hòa tấu Tây Nguyên"
+      },
+      {
+        "c": "AN7-B08-013",
+        "d": "advanced",
+        "p": "Theo truyền thống cổ xưa của nhiều buôn làng Tây Nguyên, đàn K’lông pút chủ yếu do phụ nữ gõ vỗ ngoài chòi rẫy lúc nghỉ ngơi hay giữ lúa, còn cồng chiêng hay khèn bầu thường do nam giới thực hiện trong lễ hội lớn (dù ngày nay có cả đội chiêng nữ). Điều này phản ánh gì?",
+        "o": [
+          "Đàn K’lông pút chỉ kêu được tiếng khi đặt ở thành phố lớn có điện",
+          "Sự gắn bó hữu cơ giữa phân công lao động, phong tục sinh hoạt buôn làng với sự sáng tạo nhạc cụ phù hợp bối cảnh đời sống của cha ông",
+          "Nam giới không bao giờ biết cách tạo âm thanh trên các ống tre nứa",
+          "Phụ nữ Tây Nguyên bị pháp luật nghiêm cấm không bao giờ được nghe tiếng chiêng"
+        ],
+        "k": "B",
+        "e": "Ngày nay nhiều nghệ nhân nữ Tây Nguyên chơi cồng chiêng và đàn T’rưng xuất sắc trên sân khấu trong nước lẫn quốc tế.",
+        "s": "Âm Nhạc 7",
+        "h": "Bối cảnh lao động và sáng tạo nhạc cụ"
+      },
+      {
+        "c": "AN7-B08-014",
+        "d": "advanced",
+        "p": "Vì sao khi nghe nhạc cụ truyền thống Tây Nguyên như cồng chiêng và đàn T’rưng, ta thường thấy hai yếu tố \"thang âm bản địa\" và \"tiết tấu gõ lặp lại thôi thúc\" đóng vai trò quan trọng hơn hòa âm phức tạp kiểu châu Âu?",
+        "o": [
+          "Vì người Tây Nguyên chưa từng biết đến nghệ thuật múa tập thể",
+          "Vì đồng bào Tây Nguyên chỉ sử dụng đúng 1 nốt nhạc cho toàn bộ bài hát",
+          "Vì âm nhạc cồng chiêng lấy cộng hưởng bồi âm đồng tự nhiên và vòng nhịp điệu lặp lại tạo năng lượng thôi thúc cộng đồng gắn kết cùng bước nhảy xoang",
+          "Vì nhạc cụ tre nứa không thể tạo ra bất kì nhịp điệu vui tươi nào"
+        ],
+        "k": "C",
+        "e": "Âm nhạc Tây Nguyên giàu giá trị độc đáo riêng với hệ thống thang âm không trùng khít phím đàn bình quân phương Tây.",
+        "s": "Âm Nhạc 7",
+        "h": "Đặc thù thang âm và nhịp điệu Tây Nguyên"
+      },
+      {
+        "c": "AN7-B08-015",
+        "d": "advanced",
+        "p": "Khi UNESCO công nhận Không gian văn hóa Cồng chiêng Tây Nguyên là Di sản, cụm từ \"Không gian văn hóa\" nhấn mạnh điều gì quan trọng hơn bản thân chiếc chiêng đồng?",
+        "o": [
+          "Chỉ đề cập đến quy trình đúc đồng trong nhà máy cơ khí hiện đại",
+          "Nhấn mạnh tổng thể thiên nhiên - nhà rông - lễ hội - nghệ nhân - cộng đồng quanh tiếng chiêng chứ không chỉ là hiện vật trưng bày",
+          "Chỉ nói đến diện tích phòng hòa nhạc đặt chiếc chiêng lớn nhất",
+          "Khẳng định chỉ cần chụp ảnh chiếc chiêng là đủ bảo tồn di sản"
+        ],
+        "k": "B",
+        "e": "Bảo vệ di sản sống đồng nghĩa với bảo vệ rừng núi, văn hóa buôn làng và đời sống tinh thần của chủ nhân di sản.",
+        "s": "Âm Nhạc 7",
+        "h": "Hiểu khái niệm Không gian văn hóa di sản"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac7-c3",
+    "lesson": {
+      "code": "amnhac7-b09",
+      "title": "Bài 9. Hát bè đơn giản và kĩ năng trình diễn nhóm",
+      "seq": 9,
+      "subtitle": "Khái niệm hát bè (hát đuổi, hát bè hòa âm quãng 3, quãng 6, bè nền ostinato), giữ vững cao độ bè và xây dựng tiết mục nhóm sáng tạo",
+      "concepts": [
+        "Các hình thức hát bè đơn giản",
+        "Giữ vững cao độ khi hát bè",
+        "Biên đạo động tác và trình diễn"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN7-B09-001",
+        "d": "basic",
+        "p": "Hát bè (hát nhiều bè) khác với hát đồng ca (hát bè đơn) ở điểm cốt lõi nào?",
+        "o": [
+          "Mỗi bạn tự hát một bài hát riêng khác tên nhau hoàn toàn",
+          "Chỉ một người được phép mở miệng hát còn tất cả chỉ vỗ tay",
+          "Các nhóm người hát cùng lúc những đường giai điệu hoặc âm thanh khác nhau (về cao độ hoặc thời điểm vào) hòa quyện tạo chiều sâu hòa âm",
+          "Mọi người trong nhóm đều bắt buộc phải hát y hệt cùng một nốt ở mọi lúc"
+        ],
+        "k": "C",
+        "e": "Hát bè làm cho bản nhạc trở nên dày dặn, màu sắc phong phú và giàu sức biểu cảm hơn hát một bè đơn.",
+        "s": "Âm Nhạc 7",
+        "h": "Khái niệm hát bè"
+      },
+      {
+        "c": "AN7-B09-002",
+        "d": "basic",
+        "p": "Hình thức hát bè nào dễ tập nhất cho học sinh khi cả hai nhóm đều hát CÙNG một giai điệu y hệt nhau, nhưng nhóm 2 vào hát sau nhóm 1 một khoảng 2 hoặc 4 ô nhịp?",
+        "o": [
+          "Hát bè trầm cổ điển bốn giọng",
+          "Hát ngâm thơ tự do",
+          "Hát đuổi (Canon)",
+          "Hát đồng thanh hoàn toàn"
+        ],
+        "k": "C",
+        "e": "Hát đuổi (Canon) rèn luyện tai nghe độc lập cực tốt trước khi chuyển sang hát hai đường giai điệu khác hẳn nhau.",
+        "s": "Âm Nhạc 7",
+        "h": "Hình thức hát đuổi (Canon)"
+      },
+      {
+        "c": "AN7-B09-003",
+        "d": "basic",
+        "p": "Kiểu hát bè trong đó bè chính hát giai điệu ca khúc, còn bè phụ hát lặp đi lặp lại một câu âm ngắn đơn giản (ví dụ hát nền chữ \"La là la\" theo hợp âm) làm nền nâng đỡ gọi là gì?",
+        "o": [
+          "Hát bè nền lặp lại (bè ostinato)",
+          "Hát đọc rap nhanh hoàn toàn",
+          "Hát đơn ca không nhạc đệm",
+          "Hát biến tấu ngẫu hứng tự do"
+        ],
+        "k": "A",
+        "e": "Bè nền lặp lại dễ thuộc và tạo hiệu ứng rất chuyên nghiệp cho tiết mục văn nghệ lớp học.",
+        "s": "Âm Nhạc 7",
+        "h": "Hình thức bè nền lặp lại"
+      },
+      {
+        "c": "AN7-B09-004",
+        "d": "basic",
+        "p": "Khi hai bè hát song song hòa âm theo cùng lời ca và cùng tiết tấu, hai khoảng cách quãng nào thường mang lại cảm giác êm ái, thuận tai và ngọt ngào nhất?",
+        "o": [
+          "Quãng hai sát cạnh nhau liên tục suốt bài",
+          "Quãng tám rỗng hoàn toàn giống hệt nhau",
+          "Quãng ba và quãng sáu song song",
+          "Quãng bảy căng thẳng gắt gao"
+        ],
+        "k": "C",
+        "e": "Hát bè quãng 3 và quãng 6 nghe dày ấm, rất phổ biến trong các ca khúc thiếu nhi và dân ca đương đại.",
+        "s": "Âm Nhạc 7",
+        "h": "Quãng 3 và quãng 6 trong hát bè"
+      },
+      {
+        "c": "AN7-B09-005",
+        "d": "basic",
+        "p": "Để biểu diễn một tiết mục tốp ca hát bè kết hợp nhạc cụ gõ và động tác phụ họa thành công trên sân khấu, yếu tố quan trọng hàng đầu về đội hình là gì?",
+        "o": [
+          "Bố trí vị trí đứng hợp lí theo nhóm bè (bè 1 đứng gần nhau, bè 2 đứng cụm riêng cạnh nhau), ánh mắt giao tiếp với chỉ huy và chuyển đội hình nhịp nhàng",
+          "Xếp tất cả các bạn hát bè 1 và bè 2 đứng xen kẽ lộn xộn thật xa nhau",
+          "Tất cả cùng quay lưng lại phía khán giả suốt cả bài hát",
+          "Vừa hát nốt cao vừa nhảy chạy thật mạnh vòng quanh sân khấu gây hụt hơi"
+        ],
+        "k": "A",
+        "e": "Đứng theo cụm bè giúp từng nhóm nghe rõ cao độ chuẩn của đồng đội, giữ vững bè mình không bị hút sang bè bạn.",
+        "s": "Âm Nhạc 7",
+        "h": "Bố trí đội hình khi hát bè"
+      },
+      {
+        "c": "AN7-B09-006",
+        "d": "basic",
+        "p": "Yêu cầu về cân bằng âm lượng giữa bè chính (hát giai điệu) và bè phụ (bè hòa âm nền) khi trình diễn là gì?",
+        "o": [
+          "Bè chính im lặng hoàn toàn để nhường cho bè phụ hát một mình",
+          "Cả hai bè thi nhau gào thật to hết cỡ vào micro",
+          "Bè phụ hát với âm lượng vừa phải, êm nhẹ hơn một chút để tôn nổi rõ đường giai điệu lời ca của bè chính",
+          "Bè phụ cố gắng hát thật lớn át hoàn toàn tiếng bè chính"
+        ],
+        "k": "C",
+        "e": "Nguyên tắc vàng của hát bè: Bè hòa âm làm đẹp và nâng đỡ giai điệu chứ không tranh giành lấn át.",
+        "s": "Âm Nhạc 7",
+        "h": "Cân bằng âm lượng hai bè"
+      },
+      {
+        "c": "AN7-B09-007",
+        "d": "application",
+        "p": "Quan sát bảng các hình thức hát bè dưới đây, nếu nhóm em chỉ có 3 buổi tập ngắn chuẩn bị cho hội diễn văn nghệ chào mừng 20/11 với bài hát đã thuộc sẵn, hình thức hát bè nào dễ thành công và hiệu quả nhất?",
+        "o": [
+          "Để mỗi bạn tự nghĩ ra một giai điệu ngẫu hứng hát đè lên nhau khi lên sân khấu",
+          "Chia thành 6 nhóm nhỏ hát 6 bài hát khác nhau cùng một lúc",
+          "Kết hợp hát đồng ca ở lời 1, thêm bè nền lặp lại (ostinato) nhẹ nhàng ở điệp khúc hoặc hát bè quãng 3 ở câu kết bài",
+          "Tập ngay một tác phẩm hợp xướng cổ điển phức tạp 4 bè tách biệt hoàn toàn"
+        ],
+        "k": "C",
+        "e": "Đi từ bè đơn giản ở điệp khúc và câu kết vừa chắc chắn chuẩn cao độ vừa tạo điểm nhấn bùng nổ cho tiết mục.",
+        "s": "Âm Nhạc 7",
+        "h": "Chọn phương án bè phù hợp thời gian tập",
+        "fig": {
+          "type": "table",
+          "title": "Hình thức hát bè lớp 7",
+          "head": [
+            "Hình thức bè",
+            "Đặc điểm thực hành"
+          ],
+          "rows": [
+            [
+              "Hát đuổi (Canon)",
+              "Cùng điệu, lệch nhịp"
+            ],
+            [
+              "Bè nền lặp lại",
+              "Câu ngắn lặp làm nền"
+            ],
+            [
+              "Bè hòa âm quãng 3",
+              "Song song lời, êm"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN7-B09-008",
+        "d": "application",
+        "p": "Trong giờ tập hát bè hai giọng: Bè 1 hát giai điệu cao, Bè 2 hát bè phụ thấp hơn. Cứ mỗi khi hát chung cùng nhau, nhóm Bè 2 lại bị \"lây\" trôi dần sang hát chung nốt cao với Bè 1. Cách luyện tập khắc phục hiệu quả nhất là gì?",
+        "o": [
+          "Cho từng bè tập hát riêng thuộc giai điệu cùng đàn đệm trước; khi ghép hai bè bắt đầu chậm, âm lượng vừa để nghe rõ sự hòa quyện",
+          "Bắt nhóm Bè 1 phải ngừng hát hẳn để Bè 2 hát một mình luôn trên sân khấu",
+          "Tăng tốc độ bài hát lên thật nhanh để hai bè không kịp nhận ra sự giống nhau",
+          "Cho nhóm Bè 2 bịt chặt hai tai bằng tay để không nghe thấy âm thanh xung quanh"
+        ],
+        "k": "A",
+        "e": "Tai nghe nhận diện cảm giác hòa âm hai âm khác nhau (không phải hát giống nhau) là kĩ năng cốt lõi khi tập bè.",
+        "s": "Âm Nhạc 7",
+        "h": "Khắc phục lỗi bị hút sang bè bạn"
+      },
+      {
+        "c": "AN7-B09-009",
+        "d": "application",
+        "p": "Một nhóm học sinh dựng tiết mục ca khúc vui tươi có thêm phần \"hát đuổi\" ở đoạn kết bài. Nhóm 1 hát hết câu cuối sớm hơn Nhóm 2 đúng 2 ô nhịp. Khi Nhóm 1 hát xong nốt cuối trước, Nhóm 1 nên làm gì trong 2 ô nhịp chờ Nhóm 2 kết thúc?",
+        "o": [
+          "Nhóm 1 bắt đầu vỗ tay rầm rộ và nói chuyện cười đùa ngay lúc Nhóm 2 đang hát",
+          "Nhóm 1 hát lại thêm một đoạn bài khác cho đỡ trống hai ô nhịp",
+          "Giữ hơi ngân nhẹ nốt chủ ổn định thật êm (hoặc vỗ nhịp nhẹ mỉm cười giữ kết nối) đợi Nhóm 2 về đúng nốt kết chung rồi cả hai cùng khép lại đồng đều",
+          "Nhóm 1 lập tức xoay lưng đi thẳng xuống cánh gà bỏ mặc Nhóm 2 trên sân khấu"
+        ],
+        "k": "C",
+        "e": "Giữ trọn vẹn khung hình và âm thanh kết bài chung tạo nên sự chuyên nghiệp và gắn kết tập thể.",
+        "s": "Âm Nhạc 7",
+        "h": "Xử lí đoạn kết trong hát đuổi"
+      },
+      {
+        "c": "AN7-B09-010",
+        "d": "application",
+        "p": "Khi biên đạo động tác vận động minh họa nhẹ nhàng cho một bài hát bè trữ tình ở lớp 7, tiêu chí nào bảo đảm động tác giúp tiết mục hay hơn chứ không phản tác dụng?",
+        "o": [
+          "Càng nhiều động tác nhào lộn phức tạp không liên quan lời bài hát càng tốt",
+          "Mỗi thành viên tự do nhảy một điệu khác nhau cho sinh động tự nhiên",
+          "Thực hiện động tác thật nhanh khiến giọng hát bị đứt quãng hết hơi",
+          "Động tác mềm mại, đồng đều, phù hợp sắc thái lời ca và không quá tốn sức gây thở dốc làm run giọng hát"
+        ],
+        "k": "D",
+        "e": "Trong ca múa tập thể, chất lượng giọng hát chuẩn cao độ vẫn luôn là trụ cột số một.",
+        "s": "Âm Nhạc 7",
+        "h": "Thiết kế động tác phụ họa hợp lí"
+      },
+      {
+        "c": "AN7-B09-011",
+        "d": "application",
+        "p": "Một bản tổng phổ ngắn có hai khuông nhạc nối với nhau bằng một dấu ngoặc dọc bên trái: khuông trên ghi cho Bè 1, khuông dưới ghi cho Bè 2. Khi nhìn trên hai khuông song song theo chiều dọc, điều gì giúp hai nhóm biết chính xác hai bè hát cùng một thời điểm?",
+        "o": [
+          "Hai bè sử dụng hai loại số chỉ nhịp hoàn toàn khác nhau trong cùng một ô nhịp",
+          "Các nốt nhạc cùng một phách của Bè 1 và Bè 2 luôn được căn thẳng hàng dọc phía trên - dưới nhau và các vạch nhịp kéo dài thẳng hàng xuyên suốt",
+          "Phải đếm tổng số chữ cái lời ca xem bè nào nhiều chữ hơn thì hát trước",
+          "Bè 1 đọc từ trái sang phải còn Bè 2 đọc ngược từ phải sang trái"
+        ],
+        "k": "B",
+        "e": "Đọc tổng phổ đa khuông theo hàng dọc giúp hai bè phối hợp chính xác vị trí các phách đồng thời.",
+        "s": "Âm Nhạc 7",
+        "h": "Đọc cấu trúc bản nhạc hai bè"
+      },
+      {
+        "c": "AN7-B09-012",
+        "d": "application",
+        "p": "Khi thử nghiệm sáng tạo một câu bè nền lặp lại (ostinato) cho đoạn điệp khúc viết ở giọng Đô trưởng với các hợp âm C - F - G - C, câu bè nền nào phù hợp nhất?",
+        "o": [
+          "Hát nhẹ nhịp nhàng các âm trụ cột của từng hợp âm tương ứng (Đô - Pha - Son - Đô) với tiết tấu đơn giản đều đặn",
+          "Hát một bài hát tiếng nước ngoài khác nhịp vào phần nhạc đệm",
+          "Hát thật nhanh một câu chuyện kể dài 30 chữ không lặp lại",
+          "Gào thật lớn nốt Pha thăng kéo dài xuyên suốt qua mọi hợp âm"
+        ],
+        "k": "A",
+        "e": "Đi theo âm nền của vòng hợp âm tạo sự nâng đỡ hài hòa chắc chắn mà rất dễ thuộc.",
+        "s": "Âm Nhạc 7",
+        "h": "Sáng tạo bè nền theo vòng hợp âm"
+      },
+      {
+        "c": "AN7-B09-013",
+        "d": "advanced",
+        "p": "Trong hợp xướng chuyên nghiệp có câu \"Hát bè dạy ta bài học về sự thống nhất trong đa dạng\". Câu nói này liên hệ trực tiếp với kĩ năng hợp tác xã hội nào?",
+        "o": [
+          "Chỉ người hát bè giai điệu cao nhất mới đóng góp vào thành công tiết mục",
+          "Biết giữ vững bản sắc, nhiệm vụ riêng của mình (bè của mình) nhưng đồng thời luôn lắng nghe, nhường nhịn và điều chỉnh hòa hợp vì vẻ đẹp chung của cả tập thể",
+          "Để tập thể thống nhất thì mọi người buộc phải suy nghĩ và làm giống hệt nhau 100%",
+          "Mỗi cá nhân cứ làm theo ý mình tốt nhất mà không cần nghe xem đồng đội làm gì"
+        ],
+        "k": "B",
+        "e": "Âm thanh đẹp nhất sinh ra từ sự tôn trọng và bổ trợ lẫn nhau giữa những giọng hát khác biệt.",
+        "s": "Âm Nhạc 7",
+        "h": "Giá trị nhân văn của nghệ thuật hát bè"
+      },
+      {
+        "c": "AN7-B09-014",
+        "d": "advanced",
+        "p": "Tại sao không phải bài hát nào cũng dễ dàng đem ra hát đuổi (Canon) từ đầu tới cuối được?",
+        "o": [
+          "Vì hát đuổi chỉ áp dụng được cho những bài hát có đúng 2 câu ngắn",
+          "Vì bài hát nhịp 4/4 không bao giờ hát đuổi được với nhau",
+          "Bài hát đuổi chuẩn phải được tính toán cấu trúc hòa âm lặp lại tương thích giữa câu trước và câu đuổi sau để tránh quãng nghịch chói tai",
+          "Vì luật bản quyền cấm hát đuổi các bài hát sáng tác sau năm 2000"
+        ],
+        "k": "C",
+        "e": "Sáng tác một ca khúc Canon đòi hỏi kĩ thuật đối âm tinh xảo chứ không thể ghép ngẫu nhiên mọi bài hát.",
+        "s": "Âm Nhạc 7",
+        "h": "Điều kiện cấu trúc của tác phẩm Canon"
+      },
+      {
+        "c": "AN7-B09-015",
+        "d": "advanced",
+        "p": "Khi đánh giá chéo phần trình diễn tiết mục nhóm của các tổ bạn trong lớp 7, nhận xét mang tính xây dựng và chuyên môn âm nhạc nhất nên tập trung vào những tiêu chí nào?",
+        "o": [
+          "Chỉ bình luận chê bai ngoại hình hoặc sự nhút nhát của một cá nhân",
+          "Chỉ chấm điểm dựa vào độ đắt tiền của bộ quần áo biểu diễn",
+          "Sự chính xác cao độ - nhịp phách, độ hòa quyện cân bằng giữa các bè, cách xử lí sắc thái biểu cảm và sự phối hợp tự tin của tập thể",
+          "Cho điểm cao nhất cho đội nào vỗ tay hò hét gây ồn nhất lớp"
+        ],
+        "k": "C",
+        "e": "Đánh giá theo tiêu chí nghệ thuật công bằng giúp các nhóm nhìn rõ điểm mạnh và hướng cải thiện cụ thể.",
+        "s": "Âm Nhạc 7",
+        "h": "Tiêu chí đánh giá trình diễn nhóm"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac7-c4",
+    "lesson": {
+      "code": "amnhac7-b10",
+      "title": "Bài 10. Nhạc sĩ Đỗ Nhuận và Lưu Hữu Phước",
+      "seq": 10,
+      "subtitle": "Tìm hiểu sự nghiệp sáng tác hào hùng của hai cây đại thụ nền tân nhạc Việt Nam: nhạc sĩ Đỗ Nhuận và nhạc sĩ Lưu Hữu Phước",
+      "concepts": [
+        "Nhạc sĩ Đỗ Nhuận với các ca khúc lịch sử",
+        "Nhạc sĩ Lưu Hữu Phước và ca khúc thanh niên",
+        "Ý nghĩa lịch sử âm nhạc cách mạng"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN7-B10-001",
+        "d": "basic",
+        "p": "Nhạc sĩ nào là tác giả của các ca khúc lịch sử bất hủ gắn với chiến dịch Điện Biên Phủ như \"Hành quân xa\", \"Trên đồi Him Lam\", \"Giải phóng Điện Biên\" và vở nhạc kịch đầu tiên của Việt Nam \"Cô Sao\"?",
+        "o": [
+          "Nhạc sĩ Văn Chung",
+          "Nhạc sĩ Hoàng Vân",
+          "Nhạc sĩ Phong Nhã",
+          "Nhạc sĩ Đỗ Nhuận"
+        ],
+        "k": "D",
+        "e": "Nhạc sĩ Đỗ Nhuận là người chiến sĩ nghệ sĩ trực tiếp ra mặt trận và giữ cương vị Tổng thư kí Hội Nhạc sĩ Việt Nam khóa đầu tiên.",
+        "s": "Âm Nhạc 7",
+        "h": "Nhạc sĩ Đỗ Nhuận"
+      },
+      {
+        "c": "AN7-B10-002",
+        "d": "basic",
+        "p": "Nhạc sĩ nào được xem là người mở đầu dòng hành khúc lịch sử hào hùng của sinh viên học sinh với các tác phẩm nổi tiếng \"Lên đàng\", \"Tiếng gọi thanh niên\", \"Bạch Đằng Giang\", \"Giải phóng miền Nam\"?",
+        "o": [
+          "Nhạc sĩ Nguyễn Văn Thương",
+          "Nhạc sĩ Đỗ Nhuận",
+          "Nhạc sĩ Lưu Hữu Phước",
+          "Nhạc sĩ Phạm Tuyên"
+        ],
+        "k": "C",
+        "e": "Từ những năm 1940, những khúc tráng ca của Lưu Hữu Phước đã thổi bùng ngọn lửa yêu nước của thanh niên sinh viên cả nước.",
+        "s": "Âm Nhạc 7",
+        "h": "Nhạc sĩ Lưu Hữu Phước"
+      },
+      {
+        "c": "AN7-B10-003",
+        "d": "basic",
+        "p": "Ca khúc thiếu nhi quen thuộc của nhạc sĩ Lưu Hữu Phước thường vang lên rộn ràng vào dịp Tết Trung thu hoặc sinh hoạt Đội là bài nào?",
+        "o": [
+          "\"Thiếu nhi thế giới liên hoan\" (hay \"Reo vang bình minh\")",
+          "\"Làng tôi\"",
+          "\"Giải phóng Điện Biên\"",
+          "\"Chiếc đèn ông sao\""
+        ],
+        "k": "A",
+        "e": "\"Reo vang bình minh\" mang giai điệu trong sáng phơi phới chào đón bình minh hòa bình rất được học sinh yêu thích.",
+        "s": "Âm Nhạc 7",
+        "h": "Sáng tác thiếu nhi của Lưu Hữu Phước"
+      },
+      {
+        "c": "AN7-B10-004",
+        "d": "basic",
+        "p": "Bài hát \"Du kích sông Thao\" và \"Việt Nam quê hương tôi\" với âm hưởng dân ca da diết, tự hào là sáng tác của nhạc sĩ nào?",
+        "o": [
+          "Nhạc sĩ Huy Du",
+          "Nhạc sĩ Lưu Hữu Phước",
+          "Nhạc sĩ Trịnh Công Sơn",
+          "Nhạc sĩ Đỗ Nhuận"
+        ],
+        "k": "D",
+        "e": "\"Việt Nam quê hương tôi\" mở đầu bằng tiếng hò lơ mênh mông đầy tự hào về non sông gấm vóc Việt Nam.",
+        "s": "Âm Nhạc 7",
+        "h": "Việt Nam quê hương tôi - Đỗ Nhuận"
+      },
+      {
+        "c": "AN7-B10-005",
+        "d": "basic",
+        "p": "Điểm chung nổi bật nhất trong phong cách âm nhạc của cả hai nhạc sĩ Đỗ Nhuận và Lưu Hữu Phước là gì?",
+        "o": [
+          "Âm nhạc gắn bó máu thịt với lịch sử đấu tranh giành độc lập, giàu tính hành khúc hào sảng và lòng yêu nước nồng nàn",
+          "Chỉ viết nhạc không lời thính phòng bằng tiếng Đức",
+          "Chỉ viết những bản tình ca buồn bã xa rời thực tế đời sống",
+          "Chỉ sáng tác cho đàn piano độc tấu chưa từng viết hợp xướng"
+        ],
+        "k": "A",
+        "e": "Cả hai ông đều là những nhạc sĩ tiêu biểu đặt nền móng cho nền âm nhạc cách mạng Việt Nam hiện đại.",
+        "s": "Âm Nhạc 7",
+        "h": "Điểm chung phong cách hai nhạc sĩ"
+      },
+      {
+        "c": "AN7-B10-006",
+        "d": "basic",
+        "p": "Ca khúc nào của nhạc sĩ Lưu Hữu Phước viết năm 1944 (nhạc) đã trở thành bài hát truyền thống của Hội Liên hiệp Thanh niên Việt Nam?",
+        "o": [
+          "Bài \"Đội ca\"",
+          "Bài \"Hành quân xa\"",
+          "Bài \"Cô Sao\"",
+          "Bài \"Lên đàng\""
+        ],
+        "k": "D",
+        "e": "Câu hát \"Nào anh em ta cùng nhau xông pha lên đàng...\" mang nhịp điệu thôi thúc sức trẻ dấn thân vì Tổ quốc.",
+        "s": "Âm Nhạc 7",
+        "h": "Bài hát truyền thống Lên đàng"
+      },
+      {
+        "c": "AN7-B10-007",
+        "d": "application",
+        "p": "Quan sát bảng đối chiếu hai nhạc sĩ dưới đây, cặp ghép ĐÚNG tác phẩm với tác giả tương ứng là cặp nào?",
+        "o": [
+          "Đỗ Nhuận - \"Giải phóng Điện Biên\"; Lưu Hữu Phước - \"Reo vang bình minh\"",
+          "Đỗ Nhuận - \"Lên đàng\"; Lưu Hữu Phước - \"Hành quân xa\"",
+          "Đỗ Nhuận - \"Tiến quân ca\"; Lưu Hữu Phước - \"Mùa xuân đầu tiên\"",
+          "Đỗ Nhuận - \"Bạch Đằng Giang\"; Lưu Hữu Phước - \"Cô Sao\""
+        ],
+        "k": "A",
+        "e": "Ghi nhớ rõ hệ thống tác phẩm tiêu biểu giúp trân trọng đúng công lao của từng thế hệ nhạc sĩ tiền bối.",
+        "s": "Âm Nhạc 7",
+        "h": "Đối chiếu tác phẩm Đỗ Nhuận và Lưu Hữu Phước",
+        "fig": {
+          "type": "table",
+          "title": "Đỗ Nhuận & Lưu Hữu Phước",
+          "head": [
+            "Nhạc sĩ",
+            "Tác phẩm nổi bật"
+          ],
+          "rows": [
+            [
+              "Đỗ Nhuận",
+              "Giải phóng Điện Biên"
+            ],
+            [
+              "Đỗ Nhuận",
+              "VN quê hương tôi"
+            ],
+            [
+              "Lưu Hữu Phước",
+              "Lên đàng, Reo vang"
+            ],
+            [
+              "Lưu Hữu Phước",
+              "Bạch Đằng Giang"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN7-B10-008",
+        "d": "application",
+        "p": "Trong bài \"Hành quân xa\" của nhạc sĩ Đỗ Nhuận, nhịp điệu bước chân hành quân vang lên rất rõ ở câu mở đầu \"Hành quân xa dù nhiều gian khổ...\". Theo em nhạc sĩ đã sử dụng chất liệu dân gian nào hòa vào nhịp hành khúc đó?",
+        "o": [
+          "Chất liệu nhịp điệu hành khúc quân đội hòa quyện cùng âm hưởng dân ca đồng bằng Bắc Bộ (hát chèo, trống quân) tạo nét lạc quan dí dỏm",
+          "Âm hưởng ca kịch phương Tây thế kỉ XVII",
+          "Nhịp điệu nhạc jazz đường phố Bắc Mĩ",
+          "Chỉ dùng duy nhất tiếng kèn đồng không có lời"
+        ],
+        "k": "A",
+        "e": "Chất dân gian mộc mạc làm cho bước hành quân gian khổ của anh bộ đội cụ Hồ vẫn đầy tinh thần lạc quan yêu đời.",
+        "s": "Âm Nhạc 7",
+        "h": "Chất dân gian trong Hành quân xa"
+      },
+      {
+        "c": "AN7-B10-009",
+        "d": "application",
+        "p": "Khi nghe bài \"Việt Nam quê hương tôi\" của nhạc sĩ Đỗ Nhuận trong chương trình phát thanh học đường, người nghe cảm nhận rõ hình ảnh quê hương thanh bình giàu đẹp qua chi tiết âm nhạc nào?",
+        "o": [
+          "Những tiếng hét gào dữ dội không có giai điệu cố định",
+          "Đoạn mở đầu âm hưởng điệu hò mượt mà chậm rãi rồi chuyển sang nhịp điệu tươi sáng rộng mở ca ngợi đồng lúa xanh tươi, biển rộng sông dài",
+          "Nhịp trống dồn dập nhanh liên hồi như tiếng còi báo động",
+          "Giai điệu buồn thảm khóc thương chiến tranh kéo dài"
+        ],
+        "k": "B",
+        "e": "Từ bức tranh thiên nhiên thanh bình, ca khúc khơi dậy niềm tự hào và trách nhiệm giữ gìn non sông.",
+        "s": "Âm Nhạc 7",
+        "h": "Cảm nhận bài Việt Nam quê hương tôi"
+      },
+      {
+        "c": "AN7-B10-010",
+        "d": "application",
+        "p": "Trong lễ kết nạp Đoàn hoặc sinh hoạt truyền thống thanh thiếu niên tại trường, bài hát \"Lên đàng\" của Lưu Hữu Phước thường được hát tập thể theo sắc thái nào để toát lên đúng tinh thần tác phẩm?",
+        "o": [
+          "Hát mỗi người một tốc độ nhanh chậm khác nhau",
+          "Hát luyến láy uốn éo kéo dài từng chữ làm mất nhịp đi đều",
+          "Hát thật nhỏ nhẹ chậm rãi như bài hát ru em ngủ",
+          "Hát với tốc độ vừa phải chắc nhịp, giọng vang khỏe, dứt khoát từng tiếng \"Lên đàng\" đầy khí thế đoàn kết tuổi trẻ"
+        ],
+        "k": "D",
+        "e": "Những nốt nhấn chùm ba hay chấm dôi giật ở điệp khúc tạo lực đẩy hành khúc cực kì mạnh mẽ trong \"Lên đàng\".",
+        "s": "Âm Nhạc 7",
+        "h": "Thể hiện đúng sắc thái bài Lên đàng"
+      },
+      {
+        "c": "AN7-B10-011",
+        "d": "application",
+        "p": "Nhạc sĩ Đỗ Nhuận không chỉ viết ca khúc ngắn mà còn đặt nền móng cho thể loại lớn nào ở Việt Nam với vở \"Cô Sao\" (năm 1965)?",
+        "o": [
+          "Thể loại Nhạc kịch (Opera) hiện đại Việt Nam",
+          "Thể loại nhạc không lời cho một cây sáo trúc",
+          "Thể loại hát xẩm dân gian đường phố",
+          "Thể loại đồng dao dành cho trẻ mẫu giáo"
+        ],
+        "k": "A",
+        "e": "Vở nhạc kịch \"Cô Sao\" kết hợp ngôn ngữ giao hưởng hàn lâm với chất liệu âm nhạc dân tộc miền núi Tây Bắc rất thành công.",
+        "s": "Âm Nhạc 7",
+        "h": "Đóng góp về Nhạc kịch của Đỗ Nhuận"
+      },
+      {
+        "c": "AN7-B10-012",
+        "d": "application",
+        "p": "Trước khi diễn ra chiến thắng lịch sử Điện Biên Phủ năm 1954, nhiều bài hát như \"Hành quân xa\" ra đời ngay trên đường chiến dịch hành quân gian khổ. Vai trò thực tiễn của âm nhạc lúc bấy giờ là gì?",
+        "o": [
+          "Trở thành vũ khí tinh thần cổ vũ ý chí chiến đấu, xua tan mệt nhọc trên đường kéo pháo và kết nối tình cảm quân dân",
+          "Khiến bộ đội mất tập trung không hành quân được ban đêm",
+          "Chỉ dùng để các ca sĩ chuyên nghiệp biểu diễn bán vé ở thủ đô",
+          "Không có tác động gì tới tinh thần của người lính ngoài mặt trận"
+        ],
+        "k": "A",
+        "e": "\"Tiếng hát át tiếng bom\" là truyền thống vẻ vang của văn nghệ sĩ Việt Nam trong các cuộc kháng chiến bảo vệ Tổ quốc.",
+        "s": "Âm Nhạc 7",
+        "h": "Sức mạnh tinh thần của ca khúc chiến đấu"
+      },
+      {
+        "c": "AN7-B10-013",
+        "d": "advanced",
+        "p": "Phân tích nét tài hoa của nhạc sĩ Lưu Hữu Phước khi viết nhiều tráng ca lịch sử như \"Bạch Đằng Giang\", \"Ải Chi Lăng\", \"Hội nghị Diên Hồng\" ngay từ thời kì thực dân đô hộ?",
+        "o": [
+          "Ông khéo léo mượn âm vang chiến thắng hào hùng của cha ông thời Trần, Lê để khơi dậy ngọn lửa yêu nước và ý chí quật khởi trong lòng thanh niên thời đại mình",
+          "Vì ông không biết bất kì sự kiện nào khác ngoài thời nhà Trần",
+          "Để viết sách giáo khoa môn Lịch sử thay cho các thầy cô giáo",
+          "Vì nhạc điệu hành khúc thời đó chỉ hát được bằng tiếng Pháp"
+        ],
+        "k": "A",
+        "e": "Âm nhạc sử thi của Lưu Hữu Phước là lời hiệu triệu lòng yêu nước vượt qua mọi rào cản kiểm duyệt thời thuộc địa.",
+        "s": "Âm Nhạc 7",
+        "h": "Ý nghĩa nhóm ca khúc lịch sử Lưu Hữu Phước"
+      },
+      {
+        "c": "AN7-B10-014",
+        "d": "advanced",
+        "p": "Hai nhạc sĩ Đỗ Nhuận và Lưu Hữu Phước đều được Nhà nước truy tặng Giải thưởng Hồ Chí Minh về Văn học Nghệ thuật. Với thế hệ học sinh lớp 7 hôm nay, di sản âm nhạc của hai ông để lại bài học nào về mối quan hệ giữa nghệ sĩ và đất nước?",
+        "o": [
+          "Chỉ những người làm nghệ sĩ chuyên nghiệp mới cần yêu quê hương đất nước",
+          "Nghệ thuật chân chính luôn gắn bó với vận mệnh dân tộc và khát vọng nhân văn cao đẹp; tài năng cá nhân chỉ tỏa sáng bền lâu khi phụng sự cộng đồng",
+          "Âm nhạc chỉ nên phục vụ mục đích kiếm thật nhiều tiền nhanh chóng",
+          "Ngày nay đất nước hòa bình thì không cần nghe hay tìm hiểu nhạc lịch sử nữa"
+        ],
+        "k": "B",
+        "e": "Những khúc ca vượt thời gian giúp thế hệ sinh ra trong hòa bình không quên cội nguồn lịch sử hào hùng của dân tộc.",
+        "s": "Âm Nhạc 7",
+        "h": "Bài học cống hiến từ thế hệ nhạc sĩ tiền bối"
+      },
+      {
+        "c": "AN7-B10-015",
+        "d": "advanced",
+        "p": "Nếu lớp em tổ chức chương trình phát thanh kỉ niệm Ngày chiến thắng Điện Biên Phủ (7/5) bằng những sáng tác của Đỗ Nhuận và Lưu Hữu Phước, cách biên tập trình tự bài hát nào tạo mạch cảm xúc trọn vẹn nhất?",
+        "o": [
+          "Thay toàn bộ nhạc bằng các bài hát vui nhộn không liên quan chủ đề",
+          "Chỉ bật ngẫu nhiên một đoạn ngắn 10 giây của mỗi bài rồi tắt phụt",
+          "Đặt bài hát kết thúc hòa bình lên trước rồi lồng tiếng còi báo động vào cuối",
+          "Mở đầu khí thế ra trận (\"Lên đàng\"), cao trào chiến thắng (\"Giải phóng Điện Biên\") và kết bằng niềm tự hào hòa bình (\"Việt Nam quê hương tôi\")"
+        ],
+        "k": "D",
+        "e": "Xây dựng kịch bản âm nhạc theo mạch câu chuyện lịch sử giúp người nghe rung động sâu sắc hơn.",
+        "s": "Âm Nhạc 7",
+        "h": "Biên tập kịch bản âm nhạc theo chủ đề"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac7-c4",
+    "lesson": {
+      "code": "amnhac7-b11",
+      "title": "Bài 11. Nhạc sĩ J. S. Bach và F. Chopin",
+      "seq": 11,
+      "subtitle": "Tìm hiểu hai tượng đài âm nhạc cổ điển thế giới: Johann Sebastian Bach (thời kì Ba-rốc) và Frederic Chopin (thời kì Lãng mạn)",
+      "concepts": [
+        "J. S. Bach và nghệ thuật phức điệu",
+        "F. Chopin - nhà thơ của đàn piano",
+        "Thưởng thức trích đoạn bất hủ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN7-B11-001",
+        "d": "basic",
+        "p": "Nhà soạn nhạc vĩ đại người Đức thế kỉ XVII-XVIII được tôn vinh là \"người cha của âm nhạc cổ điển phương Tây\" với nghệ thuật viết phức điệu bậc thầy là ai?",
+        "o": [
+          "Frederic Chopin",
+          "Johann Sebastian Bach (Bách)",
+          "Antonio Vivaldi",
+          "Wolfgang Amadeus Mozart"
+        ],
+        "k": "B",
+        "e": "Âm nhạc của J. S. Bach (1685–1750) đặt nền móng chuẩn mực cho toàn bộ hòa âm và cấu trúc âm nhạc phương Tây sau này.",
+        "s": "Âm Nhạc 7",
+        "h": "Nhà soạn nhạc J. S. Bach"
+      },
+      {
+        "c": "AN7-B11-002",
+        "d": "basic",
+        "p": "Nhà soạn nhạc thiên tài người Ba Lan thế kỉ XIX được mệnh danh là \"Nhà thơ của cây đàn Piano\" vì hầu hết tác phẩm đều viết cho đàn piano đầy chất thơ trữ tình là ai?",
+        "o": [
+          "Johann Sebastian Bach",
+          "Ludwig van Beethoven",
+          "Frederic Chopin (Sô-panh)",
+          "Franz Joseph Haydn"
+        ],
+        "k": "C",
+        "e": "Từ những bản Nocturne (Dạ khúc), Waltz đến Polonaise, Chopin khai thác vẻ đẹp mê hoặc của đàn dương cầm.",
+        "s": "Âm Nhạc 7",
+        "h": "Nhà soạn nhạc F. Chopin"
+      },
+      {
+        "c": "AN7-B11-003",
+        "d": "basic",
+        "p": "J. S. Bach là đại diện đỉnh cao của thời kì lịch sử âm nhạc nào ở châu Âu?",
+        "o": [
+          "Thời kì Cổ đại La Mã",
+          "Thời kì Ba-rốc (Baroque)",
+          "Thời kì Lãng mạn (Romantic)",
+          "Thời kì Âm nhạc điện tử thế kỉ XXI"
+        ],
+        "k": "B",
+        "e": "Thời kì Ba-rốc (khoảng 1600–1750) nổi bật với cấu trúc phức điệu chặt chẽ và cây đàn đại phong cầm (Organ), harpsichord.",
+        "s": "Âm Nhạc 7",
+        "h": "Thời kì Ba-rốc của J. S. Bach"
+      },
+      {
+        "c": "AN7-B11-004",
+        "d": "basic",
+        "p": "Nhạc cụ nào gắn liền với suốt cuộc đời phục vụ nhà thờ và sáng tác hàng trăm tác phẩm bất hủ (như bản Toccata và Fugue cung Rê thứ) của J. S. Bach?",
+        "o": [
+          "Bộ gõ T’rưng và sáo trúc",
+          "Đàn ghi-ta điện tử",
+          "Kèn saxophone nhạc jazz",
+          "Đàn Đại phong cầm (Organ ống nhà thờ) và đàn Clavecin (Harpsichord)"
+        ],
+        "k": "D",
+        "e": "Tiếng đàn Organ khổng lồ với hàng nghìn ống đồng vang dội tạo nên sự uy nghi kì vĩ trong nhạc của Bach.",
+        "s": "Âm Nhạc 7",
+        "h": "Nhạc cụ tiêu biểu của Bach"
+      },
+      {
+        "c": "AN7-B11-005",
+        "d": "basic",
+        "p": "Cảm hứng sâu sắc xuyên suốt nhiều tác phẩm nổi tiếng của F. Chopin (như các bản vũ khúc Mazurka và Polonaise) bắt nguồn từ tình cảm nào?",
+        "o": [
+          "Câu chuyện thám hiểm vũ trụ tương lai",
+          "Lòng yêu nước nồng nàn và nỗi nhớ quê hương Ba Lan da diết khi ông phải sống xa xứ tại Paris",
+          "Nỗi ghét bỏ âm nhạc dân gian quê hương",
+          "Niềm đam mê đua xe tốc độ hiện đại"
+        ],
+        "k": "B",
+        "e": "Chopin đưa nhịp điệu các điệu nhảy dân gian Ba Lan nâng tầm thành tuyệt tác piano thế giới.",
+        "s": "Âm Nhạc 7",
+        "h": "Lòng yêu nước trong nhạc Chopin"
+      },
+      {
+        "c": "AN7-B11-006",
+        "d": "basic",
+        "p": "Trong âm nhạc của F. Chopin, thể loại \"Nocturne\" (Dạ khúc) mang sắc thái và không khí đặc trưng như thế nào?",
+        "o": [
+          "Êm ái, mơ màng, sâu lắng như khúc hát tâm tình của màn đêm yên tĩnh",
+          "Khô khan đơn điệu không có giai điệu rõ ràng",
+          "Nhanh gấp gáp phục vụ các cuộc chạy đua tiếp sức",
+          "Ồn ào chát chúa như tiếng trống đánh trận liên hồi"
+        ],
+        "k": "A",
+        "e": "Các bản Dạ khúc của Chopin như Nocturne cung Mi giáng trưởng Op. 9 No. 2 được yêu thích khắp hành tinh.",
+        "s": "Âm Nhạc 7",
+        "h": "Đặc trưng thể loại Dạ khúc (Nocturne)"
+      },
+      {
+        "c": "AN7-B11-007",
+        "d": "application",
+        "p": "Quan sát bảng đối chiếu thông tin hai nhà soạn nhạc thế giới dưới đây, cặp ghép ĐÚNG giữa nhạc sĩ, thời kì và đặc trưng nổi bật là cặp nào?",
+        "o": [
+          "Cả Bach và Chopin đều là nhạc sĩ người Áo sống cùng một năm",
+          "Bach chỉ viết nhạc cho đàn piano hiện đại, Chopin chỉ viết cho đại phong cầm",
+          "J. S. Bach thuộc thời kì Lãng mạn; F. Chopin thuộc thời kì Ba-rốc",
+          "J. S. Bach thuộc thời kì Ba-rốc với nhạc phức điệu chặt chẽ; F. Chopin thuộc thời kì Lãng mạn với nhạc piano giàu cảm xúc"
+        ],
+        "k": "D",
+        "e": "So sánh theo trục thời gian giúp hiểu sự tiến hóa từ kiến trúc phức điệu Ba-rốc sang chiều sâu tâm trạng thời Lãng mạn.",
+        "s": "Âm Nhạc 7",
+        "h": "Đối chiếu Bach và Chopin",
+        "fig": {
+          "type": "table",
+          "title": "So sánh Bach và Chopin",
+          "head": [
+            "Tiêu chí",
+            "Bach / Chopin"
+          ],
+          "rows": [
+            [
+              "Quốc tịch",
+              "Đức / Ba Lan"
+            ],
+            [
+              "Thời kì",
+              "Ba-rốc / Lãng mạn"
+            ],
+            [
+              "Sở trường",
+              "Phức điệu, Piano"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN7-B11-008",
+        "d": "application",
+        "p": "Khi thưởng thức một bản Fugue (Tẩu pháp) phức điệu của J. S. Bach, người nghe nhận thấy điều đặc biệt gì khác so với một bài hát chỉ có 1 giai điệu chính và hợp âm đệm phía dưới?",
+        "o": [
+          "Cùng một lúc có nhiều đường giai điệu độc lập (3 hoặc 4 bè) đan xen đối đáp bình đẳng với nhau như một cuộc trò chuyện logic chặt chẽ",
+          "Không hề có nhịp phách rõ ràng, nhạc công muốn đánh lúc nào cũng được",
+          "Có lời hát bằng tiếng Việt xen lẫn tiếng đàn bầu",
+          "Chỉ có duy nhất một nốt Đô đánh lặp lại bằng một ngón tay suốt cả bản"
+        ],
+        "k": "A",
+        "e": "Trong phức điệu (polyphony), mỗi bè đều là một giai điệu đẹp ngang hàng chứ không chỉ làm nền phụ.",
+        "s": "Âm Nhạc 7",
+        "h": "Cảm nhận nghệ thuật phức điệu của Bach"
+      },
+      {
+        "c": "AN7-B11-009",
+        "d": "application",
+        "p": "Bản \"Minuet cung Son trưởng\" trong sổ tay viết cho vợ của Bach rất thường được đưa vào sách học nhạc của học sinh vì lí do gì?",
+        "o": [
+          "Vì bản nhạc này dài tới hai tiếng đồng hồ phức tạp nhất lịch sử",
+          "Vì bản nhạc không sử dụng khóa Sol hay khóa Pha",
+          "Giai điệu thanh lịch, cấu trúc cân đối rõ ràng nhịp 3/4, hai bè tay trái và tay phải đối thoại uyển chuyển rất dễ nghe và dễ tập",
+          "Vì đây là bản nhạc dùng nhạc cụ điện tử hiện đại"
+        ],
+        "k": "C",
+        "e": "Những tiểu phẩm ngắn của Bach rèn cho ngón tay và tư duy âm nhạc hai tay hoạt động độc lập rất tốt.",
+        "s": "Âm Nhạc 7",
+        "h": "Giá trị sư phạm của tiểu phẩm Bach"
+      },
+      {
+        "c": "AN7-B11-010",
+        "d": "application",
+        "p": "Khi nghe bản \"Vũ khúc mùa xuân\" (hoặc bản Waltz cung Đô thăng thứ / Nocturne) của Chopin do nghệ sĩ piano trình tấu, ta thấy tay phải ngân nga giai điệu bay bổng uyển chuyển trên nền tay trái nhịp nhàng. Vì sao Chopin được gọi là \"nhà thơ của cây đàn piano\"?",
+        "o": [
+          "Vì cây đàn piano của ông được gắn thêm loa phát giọng nói người",
+          "Vì ông khiến phím đàn gõ cơ học tưởng chừng khô cứng có thể \"hát\" lên mượt mà, ngân vang đầy chất thơ và nỗi niềm sâu thẳm của con người",
+          "Vì ông viết mọi bản nhạc chỉ để thi đánh thật nhanh xem ai bấm nhiều nốt hơn",
+          "Vì ông chỉ đọc thơ trên sân khấu chứ ít khi chạm tay vào phím đàn"
+        ],
+        "k": "B",
+        "e": "Kĩ thuật ngân vang bằng bàn đạp (pedal) và giai điệu hát của Chopin thay đổi mãi mãi nghệ thuật biểu diễn piano.",
+        "s": "Âm Nhạc 7",
+        "h": "Chất thơ trong tiếng đàn của Chopin"
+      },
+      {
+        "c": "AN7-B11-011",
+        "d": "application",
+        "p": "Theo di nguyện trước khi qua đời tại Pháp năm 1849, trái tim của nhà soạn nhạc Chopin được em gái ông mang trở về an vị tại một nhà thờ ở thủ đô Warszawa (Ba Lan). Chi tiết xúc động này nói lên điều gì?",
+        "o": [
+          "Chỉ là một chi tiết ngẫu nhiên không liên quan gì đến âm nhạc của ông",
+          "Chứng tỏ Chopin không biết chơi bất kì bản nhạc nào của châu Âu",
+          "Khẳng định tình yêu quê hương Ba Lan bất diệt cho tới hơi thở cuối cùng của người nghệ sĩ thiên tài lưu vong",
+          "Cho thấy âm nhạc Ba Lan lúc đó cấm biểu diễn đàn piano"
+        ],
+        "k": "C",
+        "e": "Dù thành danh ở kinh đô ánh sáng Paris, hồn cốt Ba Lan vẫn là mạch nguồn sáng tạo suốt đời Chopin.",
+        "s": "Âm Nhạc 7",
+        "h": "Trái tim hướng về Tổ quốc của Chopin"
+      },
+      {
+        "c": "AN7-B11-012",
+        "d": "application",
+        "p": "Nếu em cần chọn nhạc nền cho một buổi đọc sách văn học yên tĩnh buổi tối ở thư viện trường, giữa một đoạn hợp xướng kèn đồng trống trận dồn dập và một bản Nocturne (Dạ khúc) nhẹ nhàng của Chopin, em chọn bản nào và vì sao?",
+        "o": [
+          "Chọn dàn kèn đồng trống trận thật to để mọi người không ngủ gật",
+          "Không thể dùng đàn piano làm nhạc nền vì đàn piano quá ồn ào",
+          "Cả hai đều không phù hợp bằng nhạc nhảy sàn tốc độ cao",
+          "Chọn bản Nocturne của Chopin ở âm lượng nhỏ, vì tốc độ êm ái và âm sắc piano dịu nhẹ giúp tâm trí thư giãn tập trung đọc sách"
+        ],
+        "k": "D",
+        "e": "Lựa chọn âm nhạc đúng ngữ cảnh không gian thể hiện gu thẩm mĩ và sự tinh tế văn hóa.",
+        "s": "Âm Nhạc 7",
+        "h": "Ứng dụng chọn nhạc theo không gian"
+      },
+      {
+        "c": "AN7-B11-013",
+        "d": "advanced",
+        "p": "Tại sao suốt gần 300 năm qua, hầu như mọi nhạc sĩ vĩ đại từ Mozart, Beethoven, Chopin đến nhạc sĩ hiện đại đều coi việc nghiên cứu tác phẩm của J. S. Bach là \"cuốn sách giáo khoa gối đầu giường\"?",
+        "o": [
+          "Vì hệ thống hòa âm, đối âm và quy tắc dẫn dắt giai điệu của Bach đạt tới sự hoàn mĩ toán học kết hợp cảm xúc sâu sắc, là nền tảng tư duy cho mọi sáng tác",
+          "Vì luật bản quyền quốc tế bắt buộc mọi trường học chỉ được dạy mỗi nhạc của Bach",
+          "Vì thời đại Bach đã có máy thu âm lưu giữ mọi kĩ thuật biểu diễn",
+          "Vì nhạc của Bach đơn giản chỉ có vài nốt dễ thuộc hơn mọi nhạc sĩ khác"
+        ],
+        "k": "A",
+        "e": "Người ta thường ví Beethoven là trái tim, Mozart là ánh sáng và Bach là trụ cột kiến trúc của âm nhạc phương Tây.",
+        "s": "Âm Nhạc 7",
+        "h": "Vị trí nền tảng của Bach trong lịch sử"
+      },
+      {
+        "c": "AN7-B11-014",
+        "d": "advanced",
+        "p": "So sánh cách đưa chất liệu dân tộc vào nhạc cổ điển của Chopin (Ba Lan) với các nhạc sĩ Việt Nam hiện đại (như Đỗ Nhuận, Phạm Tuyên). Điểm tương đồng quý giá nhất là gì?",
+        "o": [
+          "Đều bỏ hết giai điệu truyền thống để chạy theo trào lưu thị trường nhất thời",
+          "Đều sao chép nguyên xi từng câu dân ca cổ mà không sáng tạo gì mới",
+          "Đều chỉ viết bằng nhạc cụ gõ đơn giản không dùng hòa âm",
+          "Đều lấy âm hưởng dân ca, điệu múa quê hương làm gốc, rồi dùng kĩ thuật âm nhạc chuẩn mực đưa tiếng nói dân tộc vươn ra thế giới"
+        ],
+        "k": "D",
+        "e": "Bản sắc dân tộc càng sâu sắc thì tác phẩm nghệ thuật càng dễ chạm tới trái tim nhân loại.",
+        "s": "Âm Nhạc 7",
+        "h": "Bài học dân tộc và nhân loại qua Chopin"
+      },
+      {
+        "c": "AN7-B11-015",
+        "d": "advanced",
+        "p": "Nghệ sĩ dương cầm nổi tiếng thế giới Đặng Thái Sơn của Việt Nam từng đoạt Giải Nhất Cuộc thi Piano Quốc tế mang tên Frederic Chopin năm 1980 tại Ba Lan. Thành tích lịch sử này có ý nghĩa động viên thế nào với thế hệ trẻ học nhạc Việt Nam?",
+        "o": [
+          "Chứng minh người Việt Nam chỉ hợp thi piano chứ không nên học nhạc cụ dân tộc",
+          "Khẳng định âm nhạc cổ điển dễ tập không cần luyện tập vất vả",
+          "Khẳng định trí tuệ, tâm hồn tinh tế và sự khổ luyện bền bỉ của người Việt Nam hoàn toàn có thể chinh phục đỉnh cao âm nhạc bác học thế giới",
+          "Cho thấy chỉ cần thi thố giải thưởng mới có giá trị còn học nhạc ở trường thì không"
+        ],
+        "k": "C",
+        "e": "Sự thành công của các nghệ sĩ Việt Nam trên đấu trường Chopin quốc tế là niềm tự hào lớn của văn hóa nước nhà.",
+        "s": "Âm Nhạc 7",
+        "h": "Dấu ấn Việt Nam tại giải Chopin quốc tế"
+      }
+    ]
+  },
+  {
+    "chapter": "amnhac7-c4",
+    "lesson": {
+      "code": "amnhac7-b12",
+      "title": "Bài 12. Thể loại âm nhạc: Thanh nhạc và Khí nhạc",
+      "seq": 12,
+      "subtitle": "Phân biệt hai nhánh lớn Thanh nhạc và Khí nhạc cùng các thể loại quen thuộc: Ca khúc, Hợp xướng, Độc tấu, Hòa tấu, Giao hưởng, Nhạc kịch",
+      "concepts": [
+        "Thanh nhạc và các hình thức hát",
+        "Khí nhạc và dàn nhạc",
+        "Thưởng thức đa dạng thể loại"
+      ]
+    },
+    "questions": [
+      {
+        "c": "AN7-B12-001",
+        "d": "basic",
+        "p": "Toàn bộ nền âm nhạc nhân loại thường được chia làm hai lĩnh vực lớn dựa vào phương tiện thể hiện chính là gì?",
+        "o": [
+          "Nhạc cổ xưa và nhạc mới viết hôm qua",
+          "Nhạc vui và nhạc buồn hoàn toàn tách biệt",
+          "Thanh nhạc (dùng giọng hát con người làm chính) và Khí nhạc (dùng nhạc cụ diễn tấu không lời làm chính)",
+          "Nhạc dành cho trẻ em và nhạc dành cho người lớn tuổi"
+        ],
+        "k": "C",
+        "e": "Sự kết hợp giữa Thanh nhạc và Khí nhạc còn tạo nên các thể loại tổng hợp hoành tráng như Nhạc kịch (Opera).",
+        "s": "Âm Nhạc 7",
+        "h": "Hai lĩnh vực Thanh nhạc và Khí nhạc"
+      },
+      {
+        "c": "AN7-B12-002",
+        "d": "basic",
+        "p": "Thể loại thanh nhạc phổ biến và gần gũi nhất với đời sống hằng ngày, thường có cấu trúc gọn gồm đoạn nhạc kể chuyện và điệp khúc dễ hát là gì?",
+        "o": [
+          "Ca khúc (bài hát)",
+          "Bản giao hưởng bốn chương",
+          "Hòa tấu thính phòng không lời",
+          "Sonata độc tấu piano"
+        ],
+        "k": "A",
+        "e": "Từ bài hát thiếu nhi, dân ca tới ca khúc nghệ thuật đều thuộc thể loại Ca khúc.",
+        "s": "Âm Nhạc 7",
+        "h": "Thể loại Ca khúc"
+      },
+      {
+        "c": "AN7-B12-003",
+        "d": "basic",
+        "p": "Trong lĩnh vực Thanh nhạc, hình thức trình diễn gồm số lượng đông ca sĩ chia làm nhiều bè giọng khác nhau (giọng nữ cao, nữ trầm, nam cao, nam trầm) hát hòa âm cùng nhau gọi là gì?",
+        "o": [
+          "Độc tấu nhạc cụ",
+          "Hợp xướng",
+          "Đơn ca",
+          "Song ca"
+        ],
+        "k": "B",
+        "e": "Hợp xướng có thể hát không nhạc đệm (A cappella) hoặc hát cùng dàn nhạc giao hưởng rất hùng vĩ.",
+        "s": "Âm Nhạc 7",
+        "h": "Thể loại Hợp xướng"
+      },
+      {
+        "c": "AN7-B12-004",
+        "d": "basic",
+        "p": "Bản nhạc viết cho một dàn nhạc quy mô lớn gồm đủ bốn bộ nhạc cụ (Dây kéo vĩ, Gỗ thổi, Đồng thổi, Gõ), thường có cấu trúc nhiều chương đồ sộ gọi là thể loại gì?",
+        "o": [
+          "Giao hưởng (Symphony)",
+          "Đơn ca không nhạc đệm",
+          "Hát ru dân gian",
+          "Ca khúc hành khúc"
+        ],
+        "k": "A",
+        "e": "Dàn nhạc giao hưởng thường do một Nhạc trưởng đứng bục chỉ huy thống nhất hàng chục nhạc công.",
+        "s": "Âm Nhạc 7",
+        "h": "Thể loại Giao hưởng"
+      },
+      {
+        "c": "AN7-B12-005",
+        "d": "basic",
+        "p": "Sự khác nhau giữa hai hình thức biểu diễn Khí nhạc là \"Độc tấu\" và \"Hòa tấu\" nằm ở đâu?",
+        "o": [
+          "Hòa tấu luôn không có sự tham gia của bất kì nhạc cụ nào",
+          "Độc tấu chỉ dành cho trống gõ còn hòa tấu dành cho giọng hát",
+          "Độc tấu chỉ chơi ở ngoài trời còn hòa tấu chỉ chơi trong phòng học",
+          "Độc tấu là một nhạc cụ trình diễn giữ vai trò chính (hoặc một mình); Hòa tấu là từ hai hay nhiều nhạc cụ cùng phối hợp biểu diễn chung"
+        ],
+        "k": "D",
+        "e": "Ngoài ra còn có hình thức Concerto: một nhạc cụ độc tấu đối thoại và hòa quyện cùng cả dàn nhạc lớn.",
+        "s": "Âm Nhạc 7",
+        "h": "Phân biệt Độc tấu và Hòa tấu"
+      },
+      {
+        "c": "AN7-B12-006",
+        "d": "basic",
+        "p": "Thể loại nghệ thuật sân khấu tổng hợp đỉnh cao kết hợp giữa âm nhạc (hát, hợp xướng, dàn nhạc), kịch bản văn học, diễn xuất sân khấu và mĩ thuật ánh sáng gọi là gì?",
+        "o": [
+          "Hòa tấu sáo trúc",
+          "Tập đọc nhạc không lời",
+          "Độc tấu đàn bầu",
+          "Nhạc kịch (Opera hoặc ca kịch)"
+        ],
+        "k": "D",
+        "e": "Việt Nam có nhiều tác phẩm ca kịch và nhạc kịch giá trị như \"Cô Sao\" (Đỗ Nhuận), \"Người tạc tượng\" (Đỗ Nhuận).",
+        "s": "Âm Nhạc 7",
+        "h": "Thể loại Nhạc kịch (Opera)"
+      },
+      {
+        "c": "AN7-B12-007",
+        "d": "application",
+        "p": "Quan sát bảng phân loại thể loại âm nhạc dưới đây, cách xếp cặp nào ĐÚNG về nhóm thể loại Thanh nhạc và Khí nhạc?",
+        "o": [
+          "Giao hưởng thuộc Thanh nhạc; Hợp xướng thuộc Khí nhạc",
+          "Dân ca thuộc Khí nhạc; Hòa tấu nhạc cụ dân tộc thuộc Thanh nhạc",
+          "Độc tấu đàn bầu thuộc Thanh nhạc; Song ca hát bè thuộc Khí nhạc",
+          "Ca khúc, Dân ca, Hợp xướng thuộc Thanh nhạc; Độc tấu piano, Hòa tấu thính phòng, Giao hưởng thuộc Khí nhạc"
+        ],
+        "k": "D",
+        "e": "Xác định phương tiện truyền tải chính là giọng hát hay nhạc cụ giúp phân loại nhanh chóng và chính xác.",
+        "s": "Âm Nhạc 7",
+        "h": "Phân loại Thanh nhạc và Khí nhạc",
+        "fig": {
+          "type": "table",
+          "title": "Phân loại thể loại âm nhạc",
+          "head": [
+            "Lĩnh vực chính",
+            "Thể loại tiêu biểu"
+          ],
+          "rows": [
+            [
+              "Thanh nhạc (Hát)",
+              "Ca khúc, Dân ca"
+            ],
+            [
+              "Khí nhạc (Nhạc cụ)",
+              "Độc, Hòa tấu nhạc"
+            ],
+            [
+              "Tổng hợp sân khấu",
+              "Nhạc kịch, Chèo"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "AN7-B12-008",
+        "d": "application",
+        "p": "Trích đoạn \"Hội trùng dương\" của nhạc sĩ Phạm Đình Chương hoặc các bản hợp xướng lớn thường chia làm nhiều giọng hát phối hợp với dàn nhạc tạo nên không khí hào hùng rộng lớn. Vì sao ở các lễ kỉ niệm lớn cấp quốc gia người ta hay chọn hình thức Hợp xướng?",
+        "o": [
+          "Vì thuê một dàn hợp xướng chỉ mất năm phút chuẩn bị không cần tổng duyệt",
+          "Vì khán giả không cần nghe lời ca trong các ngày lễ kỉ niệm lớn",
+          "Vì sự cộng hưởng của hàng chục giọng hát đa bè tạo ra sức mạnh đoàn kết thiêng liêng, quy mô hoành tráng và chiều sâu cảm xúc khó hình thức đơn ca nào sánh kịp",
+          "Vì hợp xướng dễ tập hơn nhiều so với một người hát đơn ca tại nhà"
+        ],
+        "k": "C",
+        "e": "Âm thanh tập thể của hợp xướng tượng trưng cho tiếng nói chung đồng lòng của cả một cộng đồng.",
+        "s": "Âm Nhạc 7",
+        "h": "Giá trị biểu cảm của Hợp xướng"
+      },
+      {
+        "c": "AN7-B12-009",
+        "d": "application",
+        "p": "Một nghệ sĩ chơi bản \"Hành khúc Thổ Nhĩ Kì\" một mình trên cây đàn Piano trước khán giả phòng hòa nhạc. Tiết mục đó thuộc hình thức trình diễn nào?",
+        "o": [
+          "Hòa tấu bộ gõ dân tộc",
+          "Song ca thính phòng",
+          "Độc tấu khí nhạc (Piano độc tấu)",
+          "Hợp xướng thanh nhạc"
+        ],
+        "k": "C",
+        "e": "Một nghệ sĩ cùng cây đàn piano khai thác toàn bộ giai điệu và hòa âm tác phẩm gọi là độc tấu (solo).",
+        "s": "Âm Nhạc 7",
+        "h": "Nhận diện hình thức Độc tấu khí nhạc"
+      },
+      {
+        "c": "AN7-B12-010",
+        "d": "application",
+        "p": "Nghệ thuật Chèo đồng bằng Bắc Bộ và Cải lương Nam Bộ của Việt Nam mang nhiều nét tương đồng với thể loại tổng hợp nào trên thế giới vì kết hợp cả hát, nhạc cụ, diễn xuất, vũ đạo và trang phục sân khấu?",
+        "o": [
+          "Chỉ là hình thức độc tấu một cây đàn tranh trong phòng thu",
+          "Chỉ là một buổi đọc sách văn xuôi hoàn toàn không có nhạc đệm",
+          "Giống hệt một bản Giao hưởng không lời không có diễn viên nào nói hát",
+          "Gần gũi về tính chất sân khấu tổng hợp với Nhạc kịch (Ca kịch) thế giới nhưng mang đậm bản sắc ngôn ngữ và làn điệu truyền thống Việt Nam"
+        ],
+        "k": "D",
+        "e": "Sân khấu truyền thống Việt Nam (Tuồng, Chèo, Cải lương) là di sản ca kịch dân tộc vô cùng phong phú.",
+        "s": "Âm Nhạc 7",
+        "h": "Tính tổng hợp của sân khấu truyền thống"
+      },
+      {
+        "c": "AN7-B12-011",
+        "d": "application",
+        "p": "Trong một bản nhạc phim hoạt hình không có lời thoại nhưng người xem vẫn cười vui khi nhân vật nhảy nhót và hồi hộp thót tim lúc nhân vật gặp nguy hiểm. Yếu tố âm nhạc nào đã dẫn dắt cảm xúc khán giả mạnh mẽ như vậy?",
+        "o": [
+          "Khí nhạc (nhạc nền dàn nhạc mô tả tiết tấu bước chạy, âm sắc nhạc cụ rùng rợn hoặc vui nhộn đồng bộ hình ảnh)",
+          "Tiếng vỗ tay của khán giả ngồi trong rạp",
+          "Chỉ nhờ chữ phụ đề hiện trên màn hình chiếu",
+          "Thanh nhạc đồng ca giải thích kịch bản phim"
+        ],
+        "k": "A",
+        "e": "Khí nhạc điện ảnh có khả năng kể chuyện tâm lí và tạo không khí mạnh mẽ vượt qua rào cản ngôn ngữ.",
+        "s": "Âm Nhạc 7",
+        "h": "Vai trò khí nhạc trong điện ảnh"
+      },
+      {
+        "c": "AN7-B12-012",
+        "d": "application",
+        "p": "Nếu tổ chức một chương trình \"Đêm nhạc kết nối thế hệ\" ở trường THCS gồm cả tiết mục hát ca khúc hiện đại, song tấu sáo - đàn tranh và hợp xướng bài ca truyền thống, lợi ích của sự đa dạng thể loại này là gì?",
+        "o": [
+          "Khiến ban tổ chức không biết phân biệt nhạc cụ nào với giọng hát",
+          "Làm chương trình bị lộn xộn mất hết giá trị của từng thể loại",
+          "Giúp khán giả được thưởng thức nhiều màu sắc nghệ thuật từ tinh tế lắng đọng tới hào hùng sôi nổi, tránh cảm giác đơn điệu nhàm chán",
+          "Chỉ nên chọn đúng một tiết mục đơn ca lặp lại 5 lần cho dễ chấm điểm"
+        ],
+        "k": "C",
+        "e": "Kết hợp hài hòa giữa thanh nhạc - khí nhạc, dân tộc - hiện đại tạo nên một bữa tiệc âm nhạc trọn vẹn.",
+        "s": "Âm Nhạc 7",
+        "h": "Thiết kế chương trình đa dạng thể loại"
+      },
+      {
+        "c": "AN7-B12-013",
+        "d": "advanced",
+        "p": "Tại sao trong chương cuối Bản giao hưởng số 9 (được xem là bản Khí nhạc mẫu mực), Beethoven lại bất ngờ đưa thêm cả dàn Hợp xướng Thanh nhạc vào hát bài thơ \"Khúc ca niềm vui\"?",
+        "o": [
+          "Vì Beethoven quên mất mình đang viết một bản giao hưởng không lời",
+          "Để rút ngắn thời gian buổi hòa nhạc xuống còn 5 phút",
+          "Để vượt qua giới hạn biểu đạt trừu tượng của nhạc cụ, cất lên trực tiếp tiếng nói thiêng liêng của con người kêu gọi tình huynh đệ và hòa bình toàn nhân loại",
+          "Vì các nhạc công dàn dây hôm đó bị ốm hết không chơi được chương cuối"
+        ],
+        "k": "C",
+        "e": "Sự phá cách thiên tài đưa thanh nhạc vào giao hưởng của Beethoven mở ra bước ngoặt lớn cho lịch sử âm nhạc thế kỉ XIX.",
+        "s": "Âm Nhạc 7",
+        "h": "Bước ngoặt kết hợp Giao hưởng và Hợp xướng"
+      },
+      {
+        "c": "AN7-B12-014",
+        "d": "advanced",
+        "p": "Một học sinh nhận xét: \"Nghe ca khúc có lời dễ hiểu ngay ý nghĩa bài hát hơn, còn nghe khí nhạc không lời rất khó hiểu nên khí nhạc không có nội dung gì cả\". Cách nhận xét này thiếu chính xác ở điểm nào?",
+        "o": [
+          "Ca khúc có lời hoàn toàn không có giá trị nghệ thuật nào bằng khí nhạc",
+          "Khí nhạc giàu tư tưởng, cảm xúc sâu sắc nhưng diễn đạt bằng âm thanh thuần túy, khơi gợi tưởng tượng tự do thay vì đóng khung bởi lời ca",
+          "Khí nhạc thực chất là những ca khúc bị nhà in làm rơi mất phần chữ lời",
+          "Khí nhạc luôn bắt buộc người nghe phải tưởng tượng ra cùng một bức tranh giống hệt nhau"
+        ],
+        "k": "B",
+        "e": "Ngôn ngữ không lời cho phép một bản nhạc chạm tới mọi nền văn hóa mà không cần phiên dịch.",
+        "s": "Âm Nhạc 7",
+        "h": "Chiều sâu biểu đạt của Khí nhạc"
+      },
+      {
+        "c": "AN7-B12-015",
+        "d": "advanced",
+        "p": "Kết thúc chương trình Âm nhạc lớp 7, phẩm chất công dân văn hóa toàn cầu được bồi đắp rõ nhất qua việc học hiểu đa dạng từ Hát Then, Cồng chiêng Tây Nguyên tới Bach, Chopin và các thể loại âm nhạc là gì?",
+        "o": [
+          "Biết tự hào trân trọng cội nguồn âm nhạc 54 dân tộc Việt Nam, đồng thời mở rộng tâm hồn cảm thụ tinh hoa nghệ thuật nhân loại với thái độ tôn trọng, văn minh",
+          "Chỉ học thuộc tên thể loại để trả lời trắc nghiệm mà không nghe nhạc thực tế",
+          "Chê bai các làn điệu dân ca mộc mạc vì thích nhạc hiện đại nước ngoài hơn",
+          "Đóng kín cửa chỉ nghe duy nhất một thể loại nhạc và phủ nhận giá trị các nền văn hóa khác"
+        ],
+        "k": "A",
+        "e": "Trái tim rộng mở biết rung động trước cái đẹp của dân tộc mình và thế giới là món quà quý giá nhất của môn Âm nhạc.",
+        "s": "Âm Nhạc 7",
+        "h": "Tâm thế văn hóa âm nhạc toàn cầu"
+      }
+    ]
+  }
+]

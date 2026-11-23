@@ -1,0 +1,3592 @@
+[
+  {
+    "chapter": "mithuat7-c1",
+    "lesson": {
+      "code": "mithuat7-b01",
+      "title": "Bài 1. Chữ cách điệu trong trang trí",
+      "seq": 1,
+      "subtitle": "Nguyên tắc cách điệu nét chữ, cân bằng dễ đọc - thẩm mĩ và ứng dụng chữ nghệ thuật",
+      "concepts": [
+        "Các kiểu chữ cơ bản",
+        "Cách điệu nét và cấu trúc",
+        "Ứng dụng chữ trang trí"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT7-B01-001",
+        "d": "basic",
+        "p": "Chữ cách điệu (chữ trang trí) khác với chữ in cơ bản thông thường ở điểm nào?",
+        "o": [
+          "Chỉ viết bằng bút chì nhạt trên giấy nháp",
+          "Biến đổi sáng tạo nét chữ, tỉ lệ và họa tiết nhưng vẫn giữ nhận diện chữ cái dễ đọc",
+          "Luôn viết tất cả chữ cái nghiêng đúng 90 độ",
+          "Xóa bỏ hoàn toàn hình dáng chữ để không ai đọc được"
+        ],
+        "k": "B",
+        "e": "Cách điệu chữ giúp truyền tải cảm xúc chủ đề (vui tươi, trang trọng, cổ điển) mà vẫn đảm bảo nội dung rõ ràng.",
+        "s": "Mĩ Thuật 7",
+        "h": "Khái niệm chữ cách điệu"
+      },
+      {
+        "c": "MT7-B01-002",
+        "d": "basic",
+        "p": "Trước khi cách điệu một chữ cái, bước chuẩn bị đầu tiên cần nắm vững là gì?",
+        "o": [
+          "Dùng thước đo cắt nhỏ tờ giấy thành nhiều mảnh",
+          "Hiểu rõ dáng chuẩn, khung tỉ lệ và cấu trúc nét chính của kiểu chữ nét đều hoặc nét thanh đậm",
+          "Vẽ ngẫu nhiên các nét rối không theo chữ nào",
+          "Tô kín màu đen lên toàn bộ mặt giấy trước"
+        ],
+        "k": "B",
+        "e": "Nắm vững khung cấu trúc chữ gốc giúp việc kéo dài, uốn lượn hay thêm họa tiết không làm chữ bị méo biến dạng.",
+        "s": "Mĩ Thuật 7",
+        "h": "Nền tảng từ kiểu chữ cơ bản"
+      },
+      {
+        "c": "MT7-B01-003",
+        "d": "basic",
+        "p": "Kiểu chữ nào có độ dày các nét thẳng và nét cong gần như bằng nhau, mang cảm giác hiện đại, khỏe khoắn?",
+        "o": [
+          "Chữ nét đều (không chân)",
+          "Chữ thư pháp nét cọ lông bay bổng",
+          "Chữ Gothic nhiều gai nhọn dày đặc",
+          "Chữ viết tay ngoáy nhanh khó đọc"
+        ],
+        "k": "A",
+        "e": "Chữ nét đều rất phổ biến trên biển hiệu, tiêu đề áp phích và là khung chuẩn dễ bắt đầu cách điệu nhất.",
+        "s": "Mĩ Thuật 7",
+        "h": "Đặc điểm chữ nét đều"
+      },
+      {
+        "c": "MT7-B01-004",
+        "d": "basic",
+        "p": "Khi trang trí dòng chữ tiêu đề \"CHÀO MỪNG 20-11\" bằng nét thanh nét đậm, vị trí nét đậm chuẩn xác đặt ở đâu?",
+        "o": [
+          "Thay đổi độ đậm hoàn toàn ngẫu nhiên không quy luật",
+          "Chỉ đặt nét đậm ở các dấu chấm câu",
+          "Các nét kéo từ trên xuống dưới theo chiều dọc hoặc chéo thuận chiều bút",
+          "Tất cả nét ngang mỏng đều to gấp đôi nét dọc"
+        ],
+        "k": "C",
+        "e": "Quy luật nét đưa xuống đậm, nét đưa lên và nét ngang thanh tạo nhịp điệu hài hòa, dễ đọc cho chữ thanh đậm.",
+        "s": "Mĩ Thuật 7",
+        "h": "Quy luật chữ nét thanh nét đậm"
+      },
+      {
+        "c": "MT7-B01-005",
+        "d": "basic",
+        "p": "Để dòng chữ cách điệu tạo được không khí vui nhộn cho báo tường thiếu nhi, cách xử lí dáng chữ nào phù hợp nhất?",
+        "o": [
+          "Kéo thẳng cứng mọi nét thành đường mảnh đen kịt",
+          "Xếp chữ sát khít chồng chéo lên nhau tới mức mất chữ",
+          "Bo tròn các góc nhọn, cho chữ to nhỏ xen kẽ nhún nhảy nhẹ nhàng và phối màu tươi sáng",
+          "Vẽ thêm các vết rạn nứt u tối quanh từng con chữ"
+        ],
+        "k": "C",
+        "e": "Hình dáng tròn trịa, độ cao nhấp nhô nhẹ và gam màu rực rỡ gợi cảm giác thân thiện, hồn nhiên.",
+        "s": "Mĩ Thuật 7",
+        "h": "Chọn ngôn ngữ chữ theo chủ đề"
+      },
+      {
+        "c": "MT7-B01-006",
+        "d": "basic",
+        "p": "Sai lầm phổ biến nhất làm giảm chất lượng của một dòng chữ cách điệu trên áp phích là gì?",
+        "o": [
+          "Chọn màu chữ nổi bật trên nền tương phản rõ ràng",
+          "Thống nhất một phong cách cách điệu cho cả dòng chữ",
+          "Giữ khoảng cách giữa các từ hợp lí và thoáng mắt",
+          "Thêm quá nhiều hoa văn rườm rà che lấp thân chữ khiến người xem không đọc được nội dung"
+        ],
+        "k": "D",
+        "e": "Chữ trang trí trước hết vẫn là chữ để đọc; thẩm mĩ chỉ phát huy khi thông tin được truyền đạt nhanh gọn.",
+        "s": "Mĩ Thuật 7",
+        "h": "Nguyên tắc dễ đọc trong thiết kế chữ"
+      },
+      {
+        "c": "MT7-B01-007",
+        "d": "application",
+        "p": "Quan sát bảng so sánh ứng dụng kiểu chữ dưới đây, khi thiết kế tiêu đề cho bản tin môi trường xanh, phương án cách điệu nào ăn ý nhất?",
+        "o": [
+          "Vẽ chữ bằng những khối gạch vỡ đổ nát màu xám xịt",
+          "Viết chữ siêu nhỏ mờ nhạt giấu ở góc dưới tờ giấy",
+          "Biến đổi nét chữ mềm mại có thêm chi tiết lá non hoặc giọt nước tinh tế ở đầu nét",
+          "Dùng chữ kim loại sắc nhọn kèm bánh răng máy móc nặng nề"
+        ],
+        "k": "C",
+        "e": "Chi tiết cách điệu gắn trực tiếp với biểu tượng thiên nhiên giúp người xem hiểu ngay chủ đề trước khi đọc hết câu.",
+        "s": "Mĩ Thuật 7",
+        "h": "Cách điệu chữ gắn với chủ đề",
+        "fig": {
+          "type": "table",
+          "title": "Ứng dụng kiểu chữ",
+          "head": [
+            "Chủ đề",
+            "Phong cách chữ"
+          ],
+          "rows": [
+            [
+              "Thiếu nhi",
+              "Bo tròn vui tươi"
+            ],
+            [
+              "Môi trường",
+              "Nét lá mềm mại"
+            ],
+            [
+              "Lịch sử",
+              "Trang trọng cổ điển"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT7-B01-008",
+        "d": "application",
+        "p": "Một bạn học sinh ghép họa tiết sóng nước vào chữ \"BIỂN ĐẢO\". Để cả cụm từ có sự thống nhất thị giác, bạn ấy nên làm gì?",
+        "o": [
+          "Chỉ cách điệu chữ Đ còn tất cả các chữ khác bỏ trống nét mờ",
+          "Áp dụng chung một mô-típ uốn lượn và bảng màu xanh lam cho toàn bộ các chữ cái trong cụm từ",
+          "Mỗi chữ cái vẽ theo một kiểu khác hẳn nhau không liên quan",
+          "Chữ đầu tô màu đen trắng, chữ cuối tô bảy sắc cầu vồng"
+        ],
+        "k": "B",
+        "e": "Tính thống nhất trong phong cách nét và màu sắc giúp dòng tiêu đề trở thành một khối chỉnh thể chuyên nghiệp.",
+        "s": "Mĩ Thuật 7",
+        "h": "Tính thống nhất khi thiết kế tiêu đề"
+      },
+      {
+        "c": "MT7-B01-009",
+        "d": "application",
+        "p": "Khi viết cụm chữ cách điệu dài gồm 5 từ trên một khổ giấy ngang hẹp, cách sắp xếp bố cục nào giữ được sự cân đối đẹp mắt?",
+        "o": [
+          "Ngắt thành hai dòng có trọng tâm rõ ràng, chữ chính to nổi bật và chữ phụ gọn gàng bên dưới",
+          "Viết 4 từ thật to tràn mép rồi vứt từ thứ 5 ra mặt sau giấy",
+          "Chia mỗi chữ cái vào một góc giấy rời rạc",
+          "Dồn cả 5 từ vào một dòng hẹp ép bẹp các chữ lại như que tăm"
+        ],
+        "k": "A",
+        "e": "Phân cấp kích thước (hierarchy) và ngắt dòng hợp lí giúp mắt người xem đọc trôi chảy và cân bằng khoảng trống.",
+        "s": "Mĩ Thuật 7",
+        "h": "Bố cục dòng chữ nhiều từ"
+      },
+      {
+        "c": "MT7-B01-010",
+        "d": "application",
+        "p": "Quan sát hình minh họa pha màu nền và màu chữ, nếu chọn nền giấy màu vàng tươi sáng để trang trí tiêu đề, màu chữ nào tạo độ tương phản rõ nhất?",
+        "o": [
+          "Màu xanh lam đậm hoặc tím than trầm",
+          "Màu trắng tinh mảnh nét không có viền tối",
+          "Màu kem sữa gần trùng sắc độ vàng",
+          "Màu vàng chanh hơi nhạt hơn nền một chút"
+        ],
+        "k": "A",
+        "e": "Sự chênh lệch mạnh về sắc độ (sáng - tối) giữa chữ đậm và nền sáng giúp tiêu đề bật hẳn lên từ khoảng cách xa.",
+        "s": "Mĩ Thuật 7",
+        "h": "Tương phản màu nền và màu chữ",
+        "fig": {
+          "w": 315,
+          "h": 140,
+          "items": [
+            {
+              "t": "circle",
+              "c": [
+                65,
+                75
+              ],
+              "r": 28,
+              "fill": "#fde047",
+              "stroke": "#334155",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                65,
+                122
+              ],
+              "s": "Vàng sáng",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "txt",
+              "p": [
+                112,
+                82
+              ],
+              "s": "+",
+              "anchor": "middle",
+              "size": 22
+            },
+            {
+              "t": "circle",
+              "c": [
+                158,
+                75
+              ],
+              "r": 28,
+              "fill": "#1e3a8a",
+              "stroke": "#334155",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                158,
+                122
+              ],
+              "s": "Xanh đậm",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "txt",
+              "p": [
+                204,
+                82
+              ],
+              "s": "=",
+              "anchor": "middle",
+              "size": 22
+            },
+            {
+              "t": "circle",
+              "c": [
+                252,
+                75
+              ],
+              "r": 28,
+              "fill": "#1e3a8a",
+              "stroke": "#334155",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                252,
+                82
+              ],
+              "s": "",
+              "anchor": "middle",
+              "size": 22
+            }
+          ]
+        }
+      },
+      {
+        "c": "MT7-B01-011",
+        "d": "application",
+        "p": "Kĩ thuật \"tạo chữ khối 3D\" bằng cách kéo thêm bóng đổ hoặc mặt cạnh nghiêng về một hướng mang lại hiệu quả gì cho dòng chữ?",
+        "o": [
+          "Biến toàn bộ chữ cái thành các đường chấm đứt đoạn",
+          "Làm dòng chữ dẹt xuống và hòa lẫn vào màu nền",
+          "Xóa mất hoàn toàn đường viền của chữ cái gốc",
+          "Tạo cảm giác chữ nổi bật nhô lên khỏi mặt phẳng nền, tăng sức nặng và ấn tượng thị giác"
+        ],
+        "k": "D",
+        "e": "Chữ khối 3D kết hợp ba độ sáng tối trên mặt chính và các mặt bên giúp tiêu đề sống động như vật thể thật.",
+        "s": "Mĩ Thuật 7",
+        "h": "Hiệu ứng chữ khối nổi 3D"
+      },
+      {
+        "c": "MT7-B01-012",
+        "d": "application",
+        "p": "Trong một tờ báo tường học đường, vì sao không nên dùng tới 5 kiểu chữ cách điệu khác nhau trên cùng một trang bài viết?",
+        "o": [
+          "Vì bút màu sẽ bị hết mực ngay lập tức khi đổi kiểu chữ",
+          "Vì luật xuất bản cấm dùng quá một kiểu chữ trên sách giáo khoa",
+          "Vì các kiểu chữ khác nhau không thể viết bằng cùng một loại thước",
+          "Vì quá nhiều kiểu chữ sẽ gây rối mắt, phân tán sự chú ý và làm mất vẻ hài hòa chuyên nghiệp"
+        ],
+        "k": "D",
+        "e": "Thiết kế đồ họa chuẩn mực thường chỉ phối 1 đến 2 kiểu chữ bổ trợ nhau để giữ bố cục sạch sẽ, mạch lạc.",
+        "s": "Mĩ Thuật 7",
+        "h": "Nguyên tắc tiết chế kiểu chữ"
+      },
+      {
+        "c": "MT7-B01-013",
+        "d": "advanced",
+        "p": "Khi cách điệu chữ \"S\" hoặc \"O\" bằng cách lồng ghép hình con vật vào thân chữ, làm sao giữ đúng điểm cân bằng giữa \"nghệ thuật hình tượng\" và \"tính đọc được\"?",
+        "o": [
+          "Vẽ con vật thật chi tiết che kín hoàn toàn dáng chữ rồi chú thích nhỏ ở dưới",
+          "Chỉ tô màu nền hình con vật mà không vẽ bất kì nét chữ nào",
+          "Bẻ thẳng toàn bộ chữ O và chữ S thành hình vuông giống hệt nhau",
+          "Giữ nguyên khung đường bao và khe hở nhận diện đặc trưng của chữ cái, chỉ biến tấu phần đầu nét hoặc họa tiết bên trong"
+        ],
+        "k": "D",
+        "e": "Não bộ nhận diện chữ cái qua dáng khung tổng thể (silhouette); bảo toàn dáng khung giúp chữ vừa đẹp hình vừa đọc ngay lập tức.",
+        "s": "Mĩ Thuật 7",
+        "h": "Cân bằng tạo hình và nhận diện chữ"
+      },
+      {
+        "c": "MT7-B01-014",
+        "d": "advanced",
+        "p": "Tại sao chữ cách điệu dùng cho biển chỉ dẫn giao thông hoặc phòng thoát hiểm lại hạn chế tối đa nét uốn lượn hoa lá rườm rà?",
+        "o": [
+          "Vì biển báo chỉ dành cho người xem đứng ngắm hàng giờ",
+          "Vì sơn công nghiệp không thể tô lên các đường nét cong",
+          "Vì trong tình huống di chuyển nhanh hoặc khẩn cấp, mắt cần giải mã thông tin chuẩn xác trong tích tắc nhờ nét chữ gọn, dứt khoát",
+          "Vì họa sĩ vẽ biển báo không biết cách vẽ hoa lá trang trí"
+        ],
+        "k": "C",
+        "e": "Mục đích sử dụng quyết định mức độ cách điệu: thông tin khẩn cấp ưu tiên tối đa sự rõ ràng (legibility).",
+        "s": "Mĩ Thuật 7",
+        "h": "Công năng quyết định phong cách chữ"
+      },
+      {
+        "c": "MT7-B01-015",
+        "d": "advanced",
+        "p": "Phân tích vai trò của \"khoảng âm\" (khoảng trống xung quanh và bên trong khe chữ) khi thiết kế logo dạng chữ cái (monogram) từ hai chữ viết tắt?",
+        "o": [
+          "Khoảng âm được tổ chức khéo léo có thể tạo thành hình ẩn ý tinh tế hoặc giúp hai chữ lồng ghép thoáng, cân xứng và sang trọng hơn",
+          "Khoảng âm làm chữ cái bị thu nhỏ biến mất khỏi logo",
+          "Khoảng âm chỉ là phần giấy thừa không có bất kì giá trị thẩm mĩ nào",
+          "Cần tô kín đen toàn bộ khoảng âm để hai chữ dính thành một cục đặc"
+        ],
+        "k": "A",
+        "e": "Tư duy kiểm soát không gian âm (negative space) là kĩ thuật đỉnh cao trong nghệ thuật đồ họa chữ hiện đại.",
+        "s": "Mĩ Thuật 7",
+        "h": "Nghệ thuật không gian âm trong thiết kế chữ"
+      }
+    ]
+  },
+  {
+    "chapter": "mithuat7-c1",
+    "lesson": {
+      "code": "mithuat7-b02",
+      "title": "Bài 2. Tạo hình nhân vật với trang phục dân tộc",
+      "seq": 2,
+      "subtitle": "Tỉ lệ cơ thể thiếu niên, khai thác nét đặc trưng trang phục các dân tộc Việt Nam và tạo dáng 3D",
+      "concepts": [
+        "Đặc điểm trang phục dân tộc",
+        "Tỉ lệ dáng người cân đối",
+        "Tạo hình nhân vật bằng vật liệu"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT7-B02-001",
+        "d": "basic",
+        "p": "Điểm đặc sắc nhất giúp phân biệt trang phục truyền thống giữa các dân tộc anh em Việt Nam (như Kinh, Mông, Thái, Tày, Chăm, Khơ-me) là gì?",
+        "o": [
+          "Trang phục truyền thống không bao giờ có hoa văn hay phụ kiện",
+          "Tất cả các dân tộc đều mặc đồng phục trắng giống hệt nhau",
+          "Kiểu dáng áo váy, mũ khăn đội đầu, họa tiết thổ cẩm và cách phối màu đặc trưng từng vùng miền",
+          "Mỗi dân tộc chỉ khác nhau ở kích thước đôi giày thể thao"
+        ],
+        "k": "C",
+        "e": "Kho tàng 54 dân tộc tạo nên bản sắc trang phục vô cùng đa dạng từ khăn piêu người Thái đến váy xòe rực rỡ người Mông.",
+        "s": "Mĩ Thuật 7",
+        "h": "Nét riêng trang phục dân tộc Việt Nam"
+      },
+      {
+        "c": "MT7-B02-002",
+        "d": "basic",
+        "p": "Khi dựng hình dáng đứng của một nhân vật học sinh THCS cân đối, chiều cao toàn thân thường khoảng bao nhiêu lần chiều cao phần đầu?",
+        "o": [
+          "Khoảng 6 đến 6,5 lần chiều cao phần đầu",
+          "Chỉ bằng 2 lần chiều cao phần đầu",
+          "Gấp 15 lần chiều cao phần đầu",
+          "Phần đầu to bằng đúng cả phần thân dưới"
+        ],
+        "k": "A",
+        "e": "Nắm tỉ lệ ước lượng theo \"đơn vị đầu\" giúp học sinh vẽ hoặc nặn nhân vật không bị đầu quá to hay chân quá ngắn mất cân đối.",
+        "s": "Mĩ Thuật 7",
+        "h": "Tỉ lệ cơ thể lứa tuổi thiếu niên"
+      },
+      {
+        "c": "MT7-B02-003",
+        "d": "basic",
+        "p": "Chiếc áo dài ngũ thân hay áo dài truyền thống của dân tộc Kinh nổi bật với vẻ đẹp nào?",
+        "o": [
+          "Dáng áo ngắn cứng nhắc bằng vải thô xếp nhiều tầng vuông",
+          "Váy xếp li ngắn trên gối kèm đai bạc dày",
+          "Dáng áo thướt tha ôm gọn thân trên, hai tà xẻ mềm mại và cổ đứng thanh lịch",
+          "Áo giáp sắt nặng nề che kín mặt"
+        ],
+        "k": "C",
+        "e": "Tà áo dài tôn vinh vẻ duyên dáng, kín đáo và trở thành biểu tượng văn hóa quen thuộc của Việt Nam.",
+        "s": "Mĩ Thuật 7",
+        "h": "Đặc điểm áo dài truyền thống"
+      },
+      {
+        "c": "MT7-B02-004",
+        "d": "basic",
+        "p": "Trong tạo hình nhân vật mặc trang phục dân tộc Mông (Hmong) vùng núi cao phía Bắc, chi tiết tạo hình tiêu biểu nào thường được nhấn mạnh?",
+        "o": [
+          "Khăn đóng áo dài gấm vàng triều đình Huế",
+          "Áo tứ thân mớ ba mớ bảy kèm nón quai thao đồng bằng Bắc Bộ",
+          "Váy xòe xếp nhiều nếp ly rực rỡ sắc đỏ - chàm - trắng, yếm thêu hình học và khăn vấn đội đầu",
+          "Áo bà ba nâu sồng và khăn rằn vùng sông nước Nam Bộ"
+        ],
+        "k": "C",
+        "e": "Váy xòe họa tiết hình học sáp ong và vòng bạc cổ tạo dấu ấn thị giác vô cùng sinh động cho nhân vật người Mông.",
+        "s": "Mĩ Thuật 7",
+        "h": "Đặc trưng trang phục dân tộc Mông"
+      },
+      {
+        "c": "MT7-B02-005",
+        "d": "basic",
+        "p": "Ngoài vẽ màu trên giấy, vật liệu nào dễ tìm và rất hiệu quả để tạo hình nhân vật 3D mặc trang phục dân tộc tại lớp học?",
+        "o": [
+          "Thủy tinh nung chảy ở nhiệt độ cao trên 1000 độ C",
+          "Chỉ dùng duy nhất nước lọc đổ trên mặt bàn",
+          "Thanh bê tông cốt thép nặng hàng chục kilôgam",
+          "Lõi giấy, dây thép uốn khung, vải vụn sắc màu, giấy màu và đất nặn"
+        ],
+        "k": "D",
+        "e": "Kết hợp khung dây hoặc lõi giấy với vải vụn, giấy nhún giúp tái hiện chân thực độ rủ, xếp nếp của áo váy dân tộc.",
+        "s": "Mĩ Thuật 7",
+        "h": "Vật liệu tạo hình nhân vật 3D"
+      },
+      {
+        "c": "MT7-B02-006",
+        "d": "basic",
+        "p": "Để nhân vật 3D đứng vững được khi trưng bày trên bàn học mà không bị đổ ngã, người tạo hình cần chú ý điều gì?",
+        "o": [
+          "Nặn phần đầu nặng gấp năm lần phần thân dưới rồi đặt đứng một chân nhỏ xíu",
+          "Làm phần khung chân chắc chắn, đặt trọng tâm cân bằng trên một đế đỡ cứng cáp bằng bìa dày hoặc gỗ mỏng",
+          "Không làm chân mà đặt nhân vật nằm ngửa dưới sàn",
+          "Dùng một sợi chỉ mảnh buộc lên trần nhà"
+        ],
+        "k": "B",
+        "e": "Nguyên lí trọng tâm và đế trụ vững chắc giúp tượng hay mô hình nhân vật giữ dáng ổn định lâu dài.",
+        "s": "Mĩ Thuật 7",
+        "h": "Giữ thăng bằng cho mô hình nhân vật"
+      },
+      {
+        "c": "MT7-B02-007",
+        "d": "application",
+        "p": "Quan sát bảng đặc trưng trang phục vùng miền dưới đây, cặp ghép nhân vật với phụ kiện đặc trưng nào hoàn toàn CHÍNH XÁC?",
+        "o": [
+          "Cô gái Nam Bộ mặc áo bà ba đội mũ lông chim Tây Nguyên",
+          "Cô gái Kinh mặc áo tứ thân quấn xà cạp trắng vùng cao",
+          "Cô gái Thái với áo cóm bó eo, hàng cúc bướm bạc và khăn piêu thêu hoa văn rực rỡ",
+          "Chàng trai Chăm mặc váy xòe sáp ong vùng núi đá Hà Giang"
+        ],
+        "k": "C",
+        "e": "Tìm hiểu đúng nét văn hóa từng dân tộc giúp sản phẩm mĩ thuật vừa đẹp mắt vừa thể hiện sự trân trọng bản sắc vùng miền.",
+        "s": "Mĩ Thuật 7",
+        "h": "Nhận diện phụ kiện trang phục dân tộc",
+        "fig": {
+          "type": "table",
+          "title": "Trang phục tiêu biểu",
+          "head": [
+            "Dân tộc",
+            "Điểm nhấn"
+          ],
+          "rows": [
+            [
+              "Thái",
+              "Áo cóm, khăn piêu"
+            ],
+            [
+              "Kinh Bắc Bộ",
+              "Áo tứ thân, nón"
+            ],
+            [
+              "Nam Bộ",
+              "Áo bà ba, khăn rằn"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT7-B02-008",
+        "d": "application",
+        "p": "Khi tạo dáng một nhân vật đang múa xòe hoặc thổi khèn bằng khung dây thép nhỏ, vì sao ta nên uốn dáng chuyển động của xương sống và tay chân trước khi đắp vải áo?",
+        "o": [
+          "Để tiết kiệm không cần dùng dây thép cho phần khung",
+          "Vì khung xương định hình chuẩn tỉ lệ và tư thế tự nhiên; đắp trang phục lên sau sẽ giữ được nếp rủ sống động theo dáng người",
+          "Vì vải áo sẽ tự động biến thành dây thép cứng",
+          "Vì nhân vật mặc áo không cần có đầu và tay chân"
+        ],
+        "k": "B",
+        "e": "Cấu trúc giải phẫu khung xương bên trong luôn quyết định sức sống và dáng điệu tự nhiên của lớp trang phục bên ngoài.",
+        "s": "Mĩ Thuật 7",
+        "h": "Quy trình dựng khung trước khi mặc trang phục"
+      },
+      {
+        "c": "MT7-B02-009",
+        "d": "application",
+        "p": "Một nhóm học sinh làm mô hình búp bê dân tộc Tày nhưng dùng toàn vải hoa văn sặc sỡ chói lòa thay cho gam màu chàm trầm ấm đặc trưng. Góp ý nào hợp lí nhất cho nhóm?",
+        "o": [
+          "Cắt bỏ toàn bộ áo thay bằng giấy báo trắng",
+          "Vẽ thêm hình siêu nhân robot lên mặt nhân vật",
+          "Phủ thêm sơn nhũ kim tuyến kín từ đầu đến chân cho rực rỡ hơn",
+          "Nên chọn vải màu chàm đậm làm nền chính, chỉ điểm xuyết họa tiết thổ cẩm nhỏ ở thắt lưng hoặc túi vải để giữ nét trang nhã đặc trưng"
+        ],
+        "k": "D",
+        "e": "Màu chàm giản dị nhưng tinh tế chính là linh hồn thẩm mĩ trong trang phục truyền thống của đồng bào Tày, Nùng.",
+        "s": "Mĩ Thuật 7",
+        "h": "Giữ đúng gam màu bản sắc dân tộc"
+      },
+      {
+        "c": "MT7-B02-010",
+        "d": "application",
+        "p": "Khi vẽ hoa văn thổ cẩm lên vạt váy hoặc khăn đội đầu của nhân vật cỡ nhỏ, cách xử lí nào giúp sản phẩm trông tinh tế mà không bị bết bẩn?",
+        "o": [
+          "Cố nhồi nhét hàng trăm chi tiết nhỏ li ti đè lên nhau đến khi đen sì",
+          "Không vẽ bất kì họa tiết nào và để trắng toàn bộ",
+          "Chắt lọc các họa tiết hình học đặc trưng (thoi, sao tám cánh, zíc-zắc) rồi vẽ nhịp điệu gọn gàng bằng nét mảnh rõ màu",
+          "Chỉ quệt bừa một đường mực đen ngang thân áo"
+        ],
+        "k": "C",
+        "e": "Nguyên tắc khái quát hóa (cách điệu đơn giản) giúp giữ thần thái hoa văn thổ cẩm phù hợp với kích thước mô hình.",
+        "s": "Mĩ Thuật 7",
+        "h": "Khái quát hóa họa tiết trên mô hình nhỏ"
+      },
+      {
+        "c": "MT7-B02-011",
+        "d": "application",
+        "p": "Nếu muốn dàn dựng một nhóm 3 nhân vật dân tộc đang cùng vui múa sạp ngày hội, cách sắp xếp nào tạo nên bố cục nhóm gắn kết chặt chẽ?",
+        "o": [
+          "Đặt mỗi nhân vật ở một góc bàn cách xa nửa mét",
+          "Xếp 3 nhân vật đứng thẳng đơ quay lưng ra ba hướng khác nhau",
+          "Dán chặt 3 nhân vật chồng lên nhau tại cùng một điểm",
+          "Đặt các nhân vật ở tư thế hướng mặt và ánh nhìn tương tác vào nhau, người cao người thấp đan xen theo đường chéo sinh động"
+        ],
+        "k": "D",
+        "e": "Hướng nhìn, tư thế đối đáp và độ cao thấp nhịp nhàng là chìa khóa biến nhiều mô hình lẻ thành một tiểu cảnh sống động.",
+        "s": "Mĩ Thuật 7",
+        "h": "Bố cục nhóm nhiều nhân vật"
+      },
+      {
+        "c": "MT7-B02-012",
+        "d": "application",
+        "p": "Khi dùng giấy màu hoặc vải nỉ để tạo phần nếp xếp xòe của chiếc váy dân tộc Mông trên mô hình, kĩ thuật gấp giấy nào mô phỏng giống thật nhất?",
+        "o": [
+          "Dùng một miếng bìa phẳng tam giác không có độ phồng",
+          "Gấp nếp quạt (nếp zíc-zắc đều đặn) rồi dán cố định phần cạp trên thu nhỏ, phần gấu dưới mở rộng xòe tròn",
+          "Vo tròn tờ giấy thành cục nhăn nhúm rồi dán lên bụng nhân vật",
+          "Cuộn tròn tờ giấy thành ống thẳng cứng như cột nhà"
+        ],
+        "k": "B",
+        "e": "Kĩ thuật gấp nếp quạt tạo ngay hiệu ứng sóng vải và độ bồng xòe tự nhiên của váy thổ cẩm.",
+        "s": "Mĩ Thuật 7",
+        "h": "Kĩ thuật tạo nếp xếp xòe 3D"
+      },
+      {
+        "c": "MT7-B02-013",
+        "d": "advanced",
+        "p": "Vì sao trang phục truyền thống của nhiều dân tộc sống trên vùng núi cao (như Dao, Mông, Hà Nhì) thường phối các gam màu nóng rực rỡ (đỏ, cam, vàng) trên nền chàm sẫm?",
+        "o": [
+          "Vì vải màu chàm sẫm đắt tiền hơn vàng ròng",
+          "Màu sẫm giúp giữ sạch, hấp thụ nắng ấm còn các mảng thêu rực rỡ tạo điểm nhấn ấm áp, nổi bật giữa khung cảnh mây mù núi rừng",
+          "Vì ở vùng núi cao hoàn toàn không có màu xanh hay màu trắng",
+          "Vì luật địa phương bắt buộc mọi người không được mặc áo trơn"
+        ],
+        "k": "B",
+        "e": "Nghệ thuật trang phục luôn gắn mật thiết với khí hậu, địa hình và quan niệm thẩm mĩ hòa hợp cùng thiên nhiên của từng cộng đồng.",
+        "s": "Mĩ Thuật 7",
+        "h": "Mối liên hệ giữa trang phục và môi trường sống"
+      },
+      {
+        "c": "MT7-B02-014",
+        "d": "advanced",
+        "p": "Trong thiết kế thời trang đương đại, nhà thiết kế trẻ muốn đưa nét đẹp thổ cẩm vào trang phục đi học hoặc dạo phố cho giới trẻ. Hướng sáng tạo nào được đánh giá cao nhất?",
+        "o": [
+          "Bắt buộc người mặc mặc nguyên bộ lễ hội nặng hàng chục kilôgam đi chạy bộ",
+          "Giữ họa tiết và chất liệu dệt tay truyền thống làm điểm nhấn ở cổ áo, túi hoặc thắt lưng trên phom dáng hiện đại gọn gàng, tiện dụng",
+          "Xóa bỏ mọi dấu ấn hoa văn dân tộc để giống hệt đồ Âu Mỹ",
+          "In hình lá cờ các nước khác lên áo dài truyền thống"
+        ],
+        "k": "B",
+        "e": "Kế thừa có chọn lọc (cách tân) giúp di sản dân tộc bước vào đời sống đương đại một cách tự nhiên và bền vững.",
+        "s": "Mĩ Thuật 7",
+        "h": "Ứng dụng bản sắc dân tộc vào thời trang mới"
+      },
+      {
+        "c": "MT7-B02-015",
+        "d": "advanced",
+        "p": "Khi làm mô hình nhân vật mặc trang phục dân tộc bằng vật liệu tái chế (chai nhựa, vải vụn, dây thừng), yếu tố nào quyết định thành công nghệ thuật của tác phẩm?",
+        "o": [
+          "Sự khéo léo biến đổi tính chất vật liệu bỏ đi thành ngôn ngữ tạo hình hài hòa, truyền tải rõ nét dáng người và hồn cốt văn hóa dân tộc",
+          "Chi phí mua thật nhiều đồ nhựa mới tinh đắt tiền về cắt vụn",
+          "Che giấu hoàn toàn hình dáng nhân vật trong hộp giấy kín",
+          "Càng dán nhiều rác bẩn chưa rửa lên mô hình càng tốt"
+        ],
+        "k": "A",
+        "e": "Giá trị nghệ thuật nằm ở tư duy tạo hình và sự thổi hồn vào vật liệu chứ không nằm ở giá tiền vật liệu.",
+        "s": "Mĩ Thuật 7",
+        "h": "Tư duy nghệ thuật với vật liệu tái chế"
+      }
+    ]
+  },
+  {
+    "chapter": "mithuat7-c1",
+    "lesson": {
+      "code": "mithuat7-b03",
+      "title": "Bài 3. Tranh tĩnh vật màu đậm nhạt",
+      "seq": 3,
+      "subtitle": "Sắp xếp bố cục mẫu tĩnh vật, diễn tả sáng tối đậm nhạt bằng màu sắc và tạo chiều sâu không gian",
+      "concepts": [
+        "Bố cục vật mẫu tĩnh vật",
+        "Tương quan đậm nhạt và ánh sáng",
+        "Hòa sắc màu nóng lạnh"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT7-B03-001",
+        "d": "basic",
+        "p": "Tranh tĩnh vật là thể loại hội họa vẽ về đối tượng nào?",
+        "o": [
+          "Chân dung người đang chạy nhảy thi đấu thể thao",
+          "Cảnh dòng xe cộ chạy tốc độ cao trên đường cao tốc",
+          "Bản đồ kĩ thuật các tuyến tàu điện ngầm",
+          "Những đồ vật, hoa quả, lọ hoa... được sắp xếp tĩnh tại theo một ý đồ bố cục nhất định"
+        ],
+        "k": "D",
+        "e": "Tên gọi \"tĩnh vật\" (still life) xuất phát từ việc các mẫu vật đứng yên để họa sĩ quan sát kĩ hình khối, chất liệu và ánh sáng.",
+        "s": "Mĩ Thuật 7",
+        "h": "Khái niệm tranh tĩnh vật"
+      },
+      {
+        "c": "MT7-B03-002",
+        "d": "basic",
+        "p": "Khi bày mẫu vẽ tĩnh vật gồm một cái bình cao và hai quả táo, cách sắp xếp nào tạo bố cục hợp lí nhất?",
+        "o": [
+          "Giấu hẳn hai quả táo ra phía sau lưng cái bình để không nhìn thấy",
+          "Đặt hai quả táo lên trên đỉnh miệng bình che lấp hết bình",
+          "Đặt bình lệch nhẹ sang một bên, hai quả đặt thấp hơn phía trước hơi che khuất một phần chân bình để tạo liên kết trước sau",
+          "Xếp ba vật thành một hàng ngang cách đều nhau tăm tắp ở chính giữa"
+        ],
+        "k": "C",
+        "e": "Sự xen kẽ cao - thấp, to - nhỏ và chồng lớp nhẹ (che khuất) làm bố cục mẫu có nhịp điệu và chiều sâu.",
+        "s": "Mĩ Thuật 7",
+        "h": "Nguyên tắc bày mẫu tĩnh vật"
+      },
+      {
+        "c": "MT7-B03-003",
+        "d": "basic",
+        "p": "Trong bức tranh tĩnh vật màu có nguồn sáng chiếu từ bên trái sang, vùng nào trên thân bình gốm thường có sắc độ sáng nhất?",
+        "o": [
+          "Vùng mặt bình hướng trực tiếp về phía ánh sáng bên trái (điểm bắt sáng)",
+          "Đường viền đáy bình tiếp giáp góc tối phía sau",
+          "Phần bóng đổ của chiếc bình nằm sát dưới mặt bàn",
+          "Vùng mặt bên phải khuất hoàn toàn khỏi nguồn sáng"
+        ],
+        "k": "A",
+        "e": "Xác định đúng hướng sáng là bước cốt lõi để phân chia ba vùng lớn: mảng sáng, mảng trung gian và mảng tối.",
+        "s": "Mĩ Thuật 7",
+        "h": "Quy luật ánh sáng trên vật mẫu"
+      },
+      {
+        "c": "MT7-B03-004",
+        "d": "basic",
+        "p": "Để pha một màu (ví dụ màu xanh lá) trở nên SÁNG hơn hoặc TỐI hơn nhưng vẫn tự nhiên trong tranh tĩnh vật, ngoài pha thêm trắng hay đen, họa sĩ thường làm gì?",
+        "o": [
+          "Pha thêm sắc vàng để tăng độ sáng ấm hoặc pha thêm màu bổ túc (đỏ sẫm) hay xanh lam đậm để hạ sắc độ tối có chiều sâu",
+          "Đổ nước lã ngập tờ giấy cho trôi hết màu cũ đi",
+          "Pha tất cả các lọ màu trong hộp lại thành một màu xám xịt",
+          "Chỉ dùng duy nhất mực đen nguyên chất tô đè lên mọi chỗ tối"
+        ],
+        "k": "A",
+        "e": "Tránh lạm dụng màu đen nguyên chất vì dễ làm màu bị \"chết\" và xỉn; pha bóng tối bằng màu lạnh hoặc màu bổ túc giúp tranh rực rỡ, trong trẻo.",
+        "s": "Mĩ Thuật 7",
+        "h": "Kĩ thuật diễn tả đậm nhạt bằng màu sắc"
+      },
+      {
+        "c": "MT7-B03-005",
+        "d": "basic",
+        "p": "Bóng đổ của vật mẫu trên mặt bàn đóng vai trò gì trong bức tranh tĩnh vật?",
+        "o": [
+          "Giúp vật mẫu đứng vững vàng bám chắc trên mặt bàn và xác định rõ hướng chiếu ánh sáng trong không gian",
+          "Làm cho lọ hoa trông như đang bay lơ lửng giữa không trung",
+          "Không có tác dụng gì nên có thể bỏ qua hoàn toàn",
+          "Chỉ để tô kín cho hết chỗ giấy trắng bị thừa"
+        ],
+        "k": "A",
+        "e": "Thiếu bóng đổ, đồ vật sẽ bị cảm giác trôi nổi thiếu trọng lực; bóng đổ càng sát chân vật càng đậm và nhòe dần ra xa.",
+        "s": "Mĩ Thuật 7",
+        "h": "Vai trò của bóng đổ trên mặt bàn"
+      },
+      {
+        "c": "MT7-B03-006",
+        "d": "basic",
+        "p": "Khi vẽ tĩnh vật quả cam trên nền khăn trải bàn màu xanh lam đậm, hiệu ứng màu sắc nào xuất hiện giữa quả cam và nền?",
+        "o": [
+          "Sự tương phản cặp màu bổ túc nóng - lạnh làm quả cam rực rỡ nổi bật hẳn trên nền xanh",
+          "Quả cam bị biến mất hoàn toàn hòa lẫn vào khăn xanh",
+          "Cả bức tranh biến thành màu trắng đen không sắc thái",
+          "Khăn trải bàn đổi sang màu cam y hệt quả cam"
+        ],
+        "k": "A",
+        "e": "Cam và xanh lam là cặp màu tương phản bổ túc mạnh mẽ, rất được các họa sĩ ưa chuộng để tôn vinh vật chính.",
+        "s": "Mĩ Thuật 7",
+        "h": "Phối hợp màu nóng lạnh trong tĩnh vật"
+      },
+      {
+        "c": "MT7-B03-007",
+        "d": "application",
+        "p": "Quan sát hình khối trụ minh họa dưới đây, khi diễn tả chiếc cốc sứ trắng tròn trong tranh tĩnh vật màu, ta có nên chỉ để nguyên màu giấy trắng trơn cho toàn bộ chiếc cốc không?",
+        "o": [
+          "Có, cứ để giấy trắng hoàn toàn và chỉ kẻ một nét đen viền ngoài",
+          "Vẽ thêm thật nhiều hình hoa văn không có thật lên cốc",
+          "Nên tô chiếc cốc trắng bằng màu đen kịt từ trên xuống dưới",
+          "Không, cần vẽ các sắc độ chuyển nhẹ (lam nhạt, ghi ấm, vàng phớt phản quang) ở phần trung gian và phần tối để cốc hiện rõ khối tròn"
+        ],
+        "k": "D",
+        "e": "Vật màu trắng vẫn chịu tác động của ánh sáng và màu phản quang từ bàn, tường xung quanh nên có vô số sắc độ tinh tế.",
+        "s": "Mĩ Thuật 7",
+        "h": "Diễn tả vật mẫu màu trắng",
+        "fig": {
+          "w": 300,
+          "h": 190,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  100,
+                  50
+                ],
+                [
+                  200,
+                  50
+                ],
+                [
+                  200,
+                  145
+                ],
+                [
+                  100,
+                  145
+                ]
+              ],
+              "fill": "#93c5fd",
+              "stroke": "#1d4ed8",
+              "w": 2
+            },
+            {
+              "t": "circle",
+              "c": [
+                150,
+                50
+              ],
+              "r": 50,
+              "fill": "#dbeafe",
+              "stroke": "#1d4ed8",
+              "w": 2
+            },
+            {
+              "t": "line",
+              "a": [
+                100,
+                50
+              ],
+              "b": [
+                100,
+                145
+              ],
+              "color": "#1d4ed8",
+              "w": 2.5
+            },
+            {
+              "t": "line",
+              "a": [
+                200,
+                50
+              ],
+              "b": [
+                200,
+                145
+              ],
+              "color": "#1d4ed8",
+              "w": 2.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                178
+              ],
+              "s": "Khối trụ tròn có sáng tối",
+              "anchor": "middle",
+              "size": 13
+            }
+          ]
+        }
+      },
+      {
+        "c": "MT7-B03-008",
+        "d": "application",
+        "p": "Một học sinh vẽ tranh tĩnh vật lọ hoa và quả bằng màu bột hoặc sáp dầu nhưng phần vật mẫu bị vẽ nhỏ xíu tụt lùi vào một góc dưới tờ giấy. Cách khắc phục chuẩn xác ngay ở bước phác hình là gì?",
+        "o": [
+          "Vẽ thêm 10 bông hoa nhỏ li ti rải kín bốn góc xung quanh",
+          "Ước lượng khung hình chung sao cho cụm mẫu chiếm khoảng 2 phần 3 diện tích giấy, đặt cân đối quanh trọng tâm tờ giấy",
+          "Tô đen hết phần nền thừa để mắt không nhìn thấy hình nhỏ",
+          "Cắt bỏ 3 phần 4 tờ giấy đi cho vừa với hình vẽ nhỏ"
+        ],
+        "k": "B",
+        "e": "Kiểm tra khung bố cục tổng thể bằng các nét phác mờ trước khi vẽ chi tiết giúp bài vẽ cân đối, thoáng đạt và không bị lệch.",
+        "s": "Mĩ Thuật 7",
+        "h": "Sắp xếp tỉ lệ hình trên khổ giấy"
+      },
+      {
+        "c": "MT7-B03-009",
+        "d": "application",
+        "p": "Trong một bức tranh tĩnh vật có cả ấm gốm thô mộc và chiếc cốc thủy tinh trong suốt, cách đặt nét vẽ nào phân biệt được chất liệu hai vật?",
+        "o": [
+          "Chỉ ghi chữ \"gốm\" và \"thủy tinh\" lên thân hai đồ vật",
+          "Vẽ cốc thủy tinh đen đặc hoàn toàn không có ánh sáng xuyên qua",
+          "Ấm gốm tô nét dày đậm chắc chắn; cốc thủy tinh vẽ mỏng nhẹ, giữ các vệt sáng bóng sắc nét và thấy màu nền xuyên qua",
+          "Cả hai vật đều tô đặc cùng một lớp màu nâu dày như đất sét"
+        ],
+        "k": "C",
+        "e": "Diễn tả \"chất cảm\" (texture) là bước nâng cao quan trọng giúp tranh tĩnh vật giàu sức truyền cảm vật chất.",
+        "s": "Mĩ Thuật 7",
+        "h": "Thể hiện chất liệu gốm và thủy tinh"
+      },
+      {
+        "c": "MT7-B03-010",
+        "d": "application",
+        "p": "Quan sát bảng quy trình vẽ tĩnh vật màu dưới đây, trình tự các bước nào giúp bài vẽ đạt độ đậm nhạt hài hòa và sạch sẽ nhất?",
+        "o": [
+          "Phác khung bố cục -> Vẽ hình chi tiết -> Phủ các mảng màu lớn sáng tối -> Hoàn thiện tỉa chi tiết, bóng đổ và phản quang",
+          "Tô kín nền thật đậm trước -> Tỉa hạt lấm tấm trên quả -> Cuối cùng mới nghĩ xem vẽ cái bình ở đâu",
+          "Vẽ xong từng cái lá nhỏ rồi mới xếp đặt vị trí mặt bàn",
+          "Tô hết màu trắng lên toàn bức tranh rồi rửa sạch bằng nước"
+        ],
+        "k": "A",
+        "e": "Quy trình \"từ tổng thể đến chi tiết, từ mảng lớn đến nét nhỏ\" đảm bảo tương quan màu toàn tranh luôn thống nhất.",
+        "s": "Mĩ Thuật 7",
+        "h": "Quy trình 4 bước vẽ tranh tĩnh vật màu",
+        "fig": {
+          "type": "table",
+          "title": "Quy trình vẽ màu",
+          "head": [
+            "Bước",
+            "Nội dung chính"
+          ],
+          "rows": [
+            [
+              "Bước 1",
+              "Phác khung bố cục"
+            ],
+            [
+              "Bước 2",
+              "Dựng hình chi tiết"
+            ],
+            [
+              "Bước 3",
+              "Lên mảng màu lớn"
+            ],
+            [
+              "Bước 4",
+              "Hoàn thiện sáng tối"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT7-B03-011",
+        "d": "application",
+        "p": "Khi dùng bút sáp màu để diễn tả đậm nhạt trên quả xoài chín vàng, kĩ thuật phối màu nào tạo độ chuyển mịn đẹp nhất?",
+        "o": [
+          "Dùng thước gạch các đường đen chéo thật mạnh lên mặt quả",
+          "Tô một màu vàng phẳng lì không có bất kì sắc độ đậm nhạt nào",
+          "Chỉ tô nửa quả xoài rồi bỏ trắng nửa còn lại",
+          "Lót lớp màu vàng nhạt ở vùng sáng, chuyển dần sang vàng cam ở phần giữa và chồng nhẹ xanh lục hoặc nâu cam ở phần tối"
+        ],
+        "k": "D",
+        "e": "Kĩ thuật chồng lớp (layering) các màu kề nhau trên vòng tròn màu giúp sáp dầu chuyển êm ái như màu vẽ chuyên nghiệp.",
+        "s": "Mĩ Thuật 7",
+        "h": "Kĩ thuật chồng màu sáp tạo chuyển sắc"
+      },
+      {
+        "c": "MT7-B03-012",
+        "d": "application",
+        "p": "Nếu người vẽ đặt đường tầm mắt (đường chân trời) ở vị trí CAO nhìn xuống mặt bàn bày tĩnh vật, miệng của chiếc bát tròn trên bàn sẽ có hình dáng thế nào?",
+        "o": [
+          "Biến thành một hình tam giác có ba góc nhọn",
+          "Hình elip mở rộng tròn hơn so với khi nhìn ngang tầm miệng bát",
+          "Lộn ngược cong vồng lên phía trên đầu",
+          "Biến thành một đường thẳng ngang mỏng dẹt hoàn toàn"
+        ],
+        "k": "B",
+        "e": "Mắt càng nhìn từ trên cao xuống, hình tròn phối cảnh càng mở rộng; nhìn ngang tầm mắt thì miệng tròn thu hẹp thành đường thẳng.",
+        "s": "Mĩ Thuật 7",
+        "h": "Biến đổi hình elip theo tầm mắt"
+      },
+      {
+        "c": "MT7-B03-013",
+        "d": "advanced",
+        "p": "Trong hội họa, hiện tượng \"màu phản quang\" ở mặt tối của quả táo đỏ đặt cạnh chiếc khăn bàn màu xanh ngọc diễn ra như thế nào?",
+        "o": [
+          "Ánh sáng chiếu xuống khăn xanh hắt ngược một chút ánh sắc xanh lục nhẹ vào viền tối bên dưới quả táo, giúp vùng tối vẫn có sức sống",
+          "Mặt tối quả táo chuyển sang đen kịt không nhận ánh sáng nào từ xung quanh",
+          "Chiếc khăn xanh biến mất hoàn toàn khỏi bức tranh",
+          "Quả táo tự phát sáng màu đỏ rực gấp đôi trong bóng tối tuyệt đối"
+        ],
+        "k": "A",
+        "e": "Phản quang (reflected light) chứng tỏ mọi vật trong không gian luôn giao tiếp ánh sáng và màu sắc với nhau.",
+        "s": "Mĩ Thuật 7",
+        "h": "Hiện tượng phản quang trong tranh màu"
+      },
+      {
+        "c": "MT7-B03-014",
+        "d": "advanced",
+        "p": "Vì sao danh họa Paul Cézanne thường dựng tranh tĩnh vật với các mảng màu đặt cạnh nhau theo từng nhát cọ vuông vức có hướng rõ ràng thay vì miết trơn láng?",
+        "o": [
+          "Để che giấu việc không vẽ hình khối của vật mẫu",
+          "Để mỗi nhát màu vừa tạo sắc độ đậm nhạt vừa xây dựng trực tiếp cấu trúc hình khối 3D vững chắc cho hoa quả và đồ vật",
+          "Vì ông không có nước để rửa bút vẽ cho trơn",
+          "Vì ông muốn bức tranh chỉ có toàn các đường kẻ ngang"
+        ],
+        "k": "B",
+        "e": "Lối vẽ kiến trúc khối bằng mảng màu của Cézanne đặt nền móng cho toàn bộ hội họa Lập thể và Hiện đại thế kỉ XX.",
+        "s": "Mĩ Thuật 7",
+        "h": "Tư duy xây dựng khối bằng mảng màu"
+      },
+      {
+        "c": "MT7-B03-015",
+        "d": "advanced",
+        "p": "Khi vẽ một bức tĩnh vật trong căn phòng có ánh nắng chiều vàng ấm rọi qua cửa sổ, gam hòa sắc (tone màu chủ đạo) của toàn bức tranh nên được xử lí thế nào để đồng nhất?",
+        "o": [
+          "Tô tất cả phần bóng đổ bằng màu vàng tươi sáng chói",
+          "Bỏ hết màu sắc, chỉ giữ lại các đường nét chì mờ",
+          "Mọi mảng sáng mang sắc vàng ấm của nắng chiều, còn các mảng bóng đổ ngả về gam tím lam lạnh bổ túc tạo không khí tự nhiên chân thực",
+          "Mỗi đồ vật mang một màu sắc riêng biệt tách rời như ghép từ nhiều ảnh khác nhau"
+        ],
+        "k": "C",
+        "e": "Sự thống nhất ánh sáng chung (atmosphere) biến tập hợp các đồ vật rời rạc thành một không gian nghệ thuật có cảm xúc.",
+        "s": "Mĩ Thuật 7",
+        "h": "Tạo không khí ánh sáng thống nhất"
+      }
+    ]
+  },
+  {
+    "chapter": "mithuat7-c2",
+    "lesson": {
+      "code": "mithuat7-b04",
+      "title": "Bài 4. Khái quát mĩ thuật thời Lý (1009–1225)",
+      "seq": 4,
+      "subtitle": "Thành tựu kiến trúc cung đình - Phật giáo, điêu khắc đá và gốm hoa nâu, men ngọc thời Lý",
+      "concepts": [
+        "Kiến trúc thời Lý đặc sắc",
+        "Điêu khắc đá và tượng Phật",
+        "Nghệ thuật gốm thời Lý"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT7-B04-001",
+        "d": "basic",
+        "p": "Mĩ thuật thời Lý phát triển rực rỡ trong giai đoạn lịch sử nào của dân tộc ta?",
+        "o": [
+          "Thời kì Bắc thuộc trước thế kỉ X",
+          "Cuối thế kỉ XIX đầu thế kỉ XX",
+          "Thời đại Hùng Vương dựng nước đầu tiên",
+          "Thế kỉ XI đến đầu thế kỉ XIII (năm 1009–1225), gắn liền với kinh đô Thăng Long"
+        ],
+        "k": "D",
+        "e": "Sau khi vua Lý Thái Tổ dời đô về Thăng Long (1010), đất nước độc lập thanh bình thúc đẩy nghệ thuật kiến trúc, điêu khắc thăng hoa.",
+        "s": "Mĩ Thuật 7",
+        "h": "Bối cảnh lịch sử mĩ thuật thời Lý"
+      },
+      {
+        "c": "MT7-B04-002",
+        "d": "basic",
+        "p": "Công trình kiến trúc Phật giáo nổi tiếng bậc nhất thời Lý được ví như \"bông sen nở trên mặt nước\" tại Hà Nội là công trình nào?",
+        "o": [
+          "Kinh thành Huế bên bờ sông Hương",
+          "Tháp Chăm Pô Klông Garai",
+          "Chùa Một Cột (Diên Hựu tự)",
+          "Phố cổ Hội An ở Quảng Nam"
+        ],
+        "k": "C",
+        "e": "Chùa Một Cột dựng năm 1049 với cấu trúc đài gỗ đặt trên một cột đá giữa hồ Linh Chiểu mang ý nghĩa triết lí và tạo hình độc đáo.",
+        "s": "Mĩ Thuật 7",
+        "h": "Kiến trúc tiêu biểu Chùa Một Cột"
+      },
+      {
+        "c": "MT7-B04-003",
+        "d": "basic",
+        "p": "Ngoài chùa Một Cột, công trình kiến trúc và văn hóa giáo dục tiêu biểu nào được khởi dựng năm 1070 dưới thời vua Lý Thánh Tông?",
+        "o": [
+          "Văn Miếu (sau mở rộng thành Quốc Tử Giám)",
+          "Cầu Long Biên bằng thép",
+          "Dinh Độc Lập",
+          "Nhà hát Lớn Hà Nội"
+        ],
+        "k": "A",
+        "e": "Văn Miếu - Quốc Tử Giám là trường đại học đầu tiên của Việt Nam, mở đầu truyền thống tôn sư trọng đạo lâu đời.",
+        "s": "Mĩ Thuật 7",
+        "h": "Công trình Văn Miếu thời Lý"
+      },
+      {
+        "c": "MT7-B04-004",
+        "d": "basic",
+        "p": "Bức tượng Phật bằng đá xanh nguyên khối nổi tiếng thời Lý có gương mặt hiền từ, tỷ lệ chuẩn xác và bệ hoa sen cánh tròn là pho tượng nào?",
+        "o": [
+          "Tượng đài Chiến thắng Điện Biên Phủ bằng đồng",
+          "Tượng thần Siva bằng sa thạch ở Mỹ Sơn",
+          "Tượng Vệ nữ thành Mi-lô của Hy Lạp",
+          "Tượng Phật A Di Đà ở chùa Phật Tích (Bắc Ninh)"
+        ],
+        "k": "D",
+        "e": "Tượng A Di Đà chùa Phật Tích (1057) là kiệt tác điêu khắc đá thời Lý với nét tạc mềm mại, tỉ mỉ từng nếp áo cà sa.",
+        "s": "Mĩ Thuật 7",
+        "h": "Kiệt tác tượng Phật chùa Phật Tích"
+      },
+      {
+        "c": "MT7-B04-005",
+        "d": "basic",
+        "p": "Hai dòng men gốm quý nổi tiếng làm nên thương hiệu rực rỡ của nghề gốm cổ truyền thời Lý là gì?",
+        "o": [
+          "Gốm đen không bao giờ nung qua lửa",
+          "Gốm tráng men đỏ huỳnh quang phản quang",
+          "Gốm men ngọc (xanh ngọc bích dịu mắt) và gốm hoa nâu",
+          "Gốm sứ vẽ máy công nghiệp phun sơn nhựa"
+        ],
+        "k": "C",
+        "e": "Thạp gốm hoa nâu khắc chìm hoa sen và bát đĩa men ngọc thời Lý đạt trình độ kĩ thuật và thẩm mĩ bậc thầy.",
+        "s": "Mĩ Thuật 7",
+        "h": "Đặc trưng gốm thời Lý"
+      },
+      {
+        "c": "MT7-B04-006",
+        "d": "basic",
+        "p": "Hình tượng linh vật đặc trưng nào được sáng tạo hoàn chỉnh dưới thời Lý với thân uốn lượn mềm mại như hình túi nước, không sừng và bờm bay mượt?",
+        "o": [
+          "Con rồng thân ngắn to mập cứng nhắc thế kỉ XIX",
+          "Con sư tử đá phương Tây có cánh đại bàng",
+          "Con Rồng thời Lý (rồng mình trơn uốn lượn nhịp nhàng hình sin)",
+          "Con ngựa sắt hiện đại"
+        ],
+        "k": "C",
+        "e": "Rồng thời Lý mang vẻ đẹp hiền hòa, uyển chuyển gắn với văn hóa nông nghiệp lúa nước cầu mưa thuận gió hòa.",
+        "s": "Mĩ Thuật 7",
+        "h": "Đặc điểm Rồng thời Lý"
+      },
+      {
+        "c": "MT7-B04-007",
+        "d": "application",
+        "p": "Quan sát bảng tổng hợp di sản thời Lý dưới đây, nếu học sinh tham quan Hoàng thành Thăng Long, nhóm hiện vật nào giúp nhận ra ngay dấu ấn kiến trúc cung đình thời Lý?",
+        "o": [
+          "Mái ngói tôn lợp công nghiệp sơn màu xanh dương",
+          "Cột đèn đường bằng sắt đúc kiểu châu Âu thế kỉ XIX",
+          "Đầu ngói ống trang trí hoa sen - lá đề, gạch đất nung in chữ và chân tảng đá chạm cánh sen kép",
+          "Các tấm kính cường lực trong suốt khung nhôm hiện đại"
+        ],
+        "k": "C",
+        "e": "Nghệ thuật trang trí kiến trúc thời Lý nổi bật với hoa văn đất nung tinh xảo (hình lá đề, đôi rồng chầu, hoa cúc dây).",
+        "s": "Mĩ Thuật 7",
+        "h": "Nhận diện di sản Hoàng thành Thăng Long",
+        "fig": {
+          "type": "table",
+          "title": "Di sản thời Lý",
+          "head": [
+            "Loại hình",
+            "Tác phẩm tiêu biểu"
+          ],
+          "rows": [
+            [
+              "Kiến trúc",
+              "Chùa Một Cột"
+            ],
+            [
+              "Điêu khắc",
+              "Phật chùa Phật Tích"
+            ],
+            [
+              "Đồ gốm",
+              "Thạp gốm hoa nâu"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT7-B04-008",
+        "d": "application",
+        "p": "Quan sát hình nét cong mềm mại minh họa dưới đây, đường nét chủ đạo trong trang trí chạm khắc mĩ thuật thời Lý mang phong cách nào?",
+        "o": [
+          "Đường nét cong uyển chuyển, thanh thoát tựa mây bay nước chảy, bố cục cân đối hài hòa",
+          "Nét gạch chéo rối loạn không theo bố cục nào",
+          "Nét thẳng vuông góc khô khan, đứt gãy rời rạc",
+          "Đường tròn đơn điệu lặp lại hoàn toàn trống rỗng"
+        ],
+        "k": "A",
+        "e": "Nét cong thanh thoát hình chữ S hay hình lá đề là đặc điểm thẩm mĩ nổi bật nhất xuyên suốt mĩ thuật thời Lý.",
+        "s": "Mĩ Thuật 7",
+        "h": "Phong cách đường nét thời Lý",
+        "fig": {
+          "w": 300,
+          "h": 180,
+          "items": [
+            {
+              "t": "curve",
+              "p": [
+                [
+                  40,
+                  90.0
+                ],
+                [
+                  60,
+                  113.0
+                ],
+                [
+                  80,
+                  126.6
+                ],
+                [
+                  100,
+                  125.3
+                ],
+                [
+                  120,
+                  109.6
+                ],
+                [
+                  140,
+                  85.9
+                ],
+                [
+                  160,
+                  63.9
+                ],
+                [
+                  180,
+                  52.5
+                ],
+                [
+                  200,
+                  56.4
+                ],
+                [
+                  220,
+                  74.0
+                ],
+                [
+                  240,
+                  98.2
+                ],
+                [
+                  260,
+                  119.0
+                ]
+              ],
+              "color": "#db2777",
+              "w": 3.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                165
+              ],
+              "s": "Nét cong uyển chuyển thời Lý",
+              "anchor": "middle",
+              "size": 13
+            }
+          ]
+        }
+      },
+      {
+        "c": "MT7-B04-009",
+        "d": "application",
+        "p": "Bệ đá hoa sen ở các ngôi chùa thời Lý thường được chạm khắc tỉ mỉ hình chim thần Ca-lăng-tần-già (Kinnari) hay tiên nữ đang dâng hoa, tấu nhạc. Điều này phản ánh nét giao lưu văn hóa nào?",
+        "o": [
+          "Bị áp đặt hoàn toàn bởi nghệ thuật hiện đại châu Mĩ",
+          "Không hề có bất kì ảnh hưởng giao lưu nào với bên ngoài",
+          "Sự sao chép hoàn toàn máy móc kiến trúc kim tự tháp Ai Cập",
+          "Sự tiếp thu tinh hoa văn hóa Phật giáo Ấn Độ và nghệ thuật Chăm-pa nhưng được Việt hóa nhẹ nhàng, gần gũi tâm hồn người Việt"
+        ],
+        "k": "D",
+        "e": "Người thợ thủ công thời Lý vừa có óc tiếp thu cởi mở vừa biết bản địa hóa để tạo nên bản sắc Đại Việt riêng biệt.",
+        "s": "Mĩ Thuật 7",
+        "h": "Giao lưu và bản địa hóa văn hóa thời Lý"
+      },
+      {
+        "c": "MT7-B04-010",
+        "d": "application",
+        "p": "Khi tái hiện một họa tiết lá đề chạm rồng thời Lý để trang trí bìa vở Lịch sử, bước đầu tiên em cần làm để họa tiết cân xứng chuẩn xác là gì?",
+        "o": [
+          "Chỉ dùng thước kẻ các ô vuông trống không có nét cong",
+          "Tô đặc màu kín hết mặt giấy trước khi vẽ khung lá đề",
+          "Kẻ trục đối xứng thẳng đứng ở chính giữa, phác dáng tổng thể hình lá đề nhọn đỉnh rồi mới đi nét đối xứng hai bên",
+          "Vẽ ngay đầu rồng thật to lệch hẳn sang một góc ngoài tờ giấy"
+        ],
+        "k": "C",
+        "e": "Bố cục đối xứng qua trục dọc giúp tái hiện vẻ trang nghiêm, cân bằng chuẩn mực của nghệ thuật cung đình cổ.",
+        "s": "Mĩ Thuật 7",
+        "h": "Cách vẽ họa tiết lá đề thời Lý"
+      },
+      {
+        "c": "MT7-B04-011",
+        "d": "application",
+        "p": "Trên các chiếc thạp gốm hoa nâu thời Lý, người nghệ nhân cổ xưa đã tạo nên họa tiết hoa sen và chiến binh bằng kĩ thuật gì?",
+        "o": [
+          "Dùng máy in la-de bắn màu sau khi bán ra chợ",
+          "Khắc chìm nét tạo dáng hoa văn trên nền xương gốm mộc rồi tô men nâu vào phần hình hoặc nền trước khi nung",
+          "Chỉ để đất sét sống phơi nắng mà không nung lửa",
+          "Dán giấy màu nilon lên mặt gốm bằng keo nhựa"
+        ],
+        "k": "B",
+        "e": "Kĩ thuật khắc chìm cạo men tạo độ nổi khối nhẹ và sự tương phản ấm áp giữa sắc trắng ngà và màu nâu đất.",
+        "s": "Mĩ Thuật 7",
+        "h": "Kĩ thuật làm gốm hoa nâu"
+      },
+      {
+        "c": "MT7-B04-012",
+        "d": "application",
+        "p": "Vì sao họa tiết hoa cúc dây và sóng nước uốn lượn xuất hiện dày đặc trên cổ vật thời Lý từ cung điện đến đồ gốm dân gian?",
+        "o": [
+          "Vì hoa cúc là biểu tượng cho chiến tranh ác liệt",
+          "Vì thời Lý không ai biết vẽ bất kì cây hoa nào khác",
+          "Vì hoa văn gắn với khát vọng thái bình thịnh trị, sự trường tồn thanh cao và ước mong mùa màng tốt tươi của cư dân nông nghiệp",
+          "Do máy móc sản xuất hàng loạt chỉ có một khuôn duy nhất"
+        ],
+        "k": "C",
+        "e": "Mỗi hoa văn cổ đều chứa đựng thông điệp văn hóa sâu sắc về cuộc sống và tâm linh người Việt xưa.",
+        "s": "Mĩ Thuật 7",
+        "h": "Ý nghĩa biểu tượng hoa văn thời Lý"
+      },
+      {
+        "c": "MT7-B04-013",
+        "d": "advanced",
+        "p": "So với kiến trúc đá đồ sộ uy hiếp người nhìn ở một số nền văn minh cổ đại, công trình kiến trúc thời Lý thường có quy mô gắn kết hài hòa với thiên nhiên (sông, hồ, đồi cây). Triết lí nào ẩn sau cách xây dựng ấy?",
+        "o": [
+          "Vì nhà vua sợ xây công trình cao lớn sẽ bị gió thổi bay mất",
+          "Quan niệm coi thiên nhiên và con người là một thể thống nhất, kiến trúc nương theo thế đất tụ thủy để tạo không gian thanh tịnh, gần gũi",
+          "Do người xưa chưa biết cách ghép hai viên gạch lại với nhau",
+          "Vì thời Lý không hề tìm thấy đá xanh hay gỗ lim ở Việt Nam"
+        ],
+        "k": "B",
+        "e": "Sự hòa quyện giữa công trình nhân tạo và cảnh quan tự nhiên là tinh hoa xuyên suốt kiến trúc truyền thống Việt Nam.",
+        "s": "Mĩ Thuật 7",
+        "h": "Triết lí hòa hợp thiên nhiên trong kiến trúc Lý"
+      },
+      {
+        "c": "MT7-B04-014",
+        "d": "advanced",
+        "p": "Chi tiết \"nụ cười thoảng nhẹ, ánh mắt khép hờ nhìn xuống\" trên khuôn mặt tượng Phật chùa Phật Tích mang lại giá trị biểu cảm tâm lí nào cho người chiêm bái?",
+        "o": [
+          "Tạo nỗi sợ hãi kinh hoàng để răn đe người dân",
+          "Thể hiện cơn tức giận dữ dội của vị thần chiến tranh",
+          "Do thợ tạc tượng quên chưa hoàn thành phần đôi mắt",
+          "Tạo cảm giác bình an nội tâm, lòng từ bi bao dung và sự gần gũi thân thiện chứ không xa cách lạnh lẽo"
+        ],
+        "k": "D",
+        "e": "Khuôn mặt hiền từ mang nét đẹp người Việt khiến tác phẩm điêu khắc tôn giáo đạt tới tầm nhân bản sâu sắc.",
+        "s": "Mĩ Thuật 7",
+        "h": "Vẻ đẹp nhân bản trong điêu khắc Phật giáo Lý"
+      },
+      {
+        "c": "MT7-B04-015",
+        "d": "advanced",
+        "p": "Ngày nay, các nhà thiết kế công nghiệp lấy cảm hứng từ hình dáng thạp gốm hoa nâu hay cánh sen thời Lý để sản xuất bộ ấm chén và vật lưu niệm cao cấp. Cách làm này mang lại giá trị kép gì?",
+        "o": [
+          "Làm mất đi giá trị lịch sử của các bảo tàng truyền thống",
+          "Khiến người nước ngoài không phân biệt được sản phẩm Việt Nam",
+          "Vừa bảo tồn sống động di sản mĩ thuật dân tộc trong đời sống hiện đại vừa tạo nên sản phẩm thủ công mỹ nghệ có bản sắc độc đáo, giá trị kinh tế cao",
+          "Chỉ làm tăng giá thành mà không ai có nhu cầu sử dụng"
+        ],
+        "k": "C",
+        "e": "Di sản chỉ thực sự sống lâu dài khi được thổi hơi thở sáng tạo đương đại vào sản phẩm phục vụ cuộc sống hôm nay.",
+        "s": "Mĩ Thuật 7",
+        "h": "Phát huy giá trị di sản thời Lý ngày nay"
+      }
+    ]
+  },
+  {
+    "chapter": "mithuat7-c2",
+    "lesson": {
+      "code": "mithuat7-b05",
+      "title": "Bài 5. Hình tượng rồng và hoa văn thời Trần",
+      "seq": 5,
+      "subtitle": "Chuyển biến phong cách mĩ thuật thời Trần (1226–1400): khỏe khoắn, hiện thực và hào khí Đông A",
+      "concepts": [
+        "Rồng thời Trần khỏe khoắn",
+        "Chạm khắc gỗ và đá thời Trần",
+        "Hoa văn và gốm hoa lam"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT7-B05-001",
+        "d": "basic",
+        "p": "Mĩ thuật thời Trần (1226–1400) mang tinh thần thời đại nổi bật nào so với nét mềm mại, trau chuốt của thời Lý?",
+        "o": [
+          "Vẻ đẹp khỏe khoắn, phóng khoáng, hiện thực và tràn đầy hào khí Đông A (ba lần đánh thắng quân Nguyên - Mông)",
+          "Phong cách hoàn toàn siêu thực trừu tượng châu Âu",
+          "Vẻ đẹp yếu ớt, rụt rè và gò bó khép kín",
+          "Thuần túy chỉ có các khối hình hộp bê tông hiện đại"
+        ],
+        "k": "A",
+        "e": "Chiến thắng oanh liệt trước đế quốc Nguyên - Mông đã thổi vào nghệ thuật thời Trần sức mạnh phóng khoáng, thực tế và tự tin.",
+        "s": "Mĩ Thuật 7",
+        "h": "Tinh thần thời đại của mĩ thuật Trần"
+      },
+      {
+        "c": "MT7-B05-002",
+        "d": "basic",
+        "p": "Hình tượng con Rồng thời Trần có điểm biến đổi rõ nét nào ở phần đầu, thân và sừng so với rồng thời Lý?",
+        "o": [
+          "Thân rồng mập mạp chắc khỏe hơn, khúc uốn thoải dứt khoát và đã xuất hiện cặp sừng rõ, tai cùng chiếc bờm ngọn ngắn mạnh mẽ",
+          "Cặp sừng biến mất hoàn toàn và bờm dài chấm đất",
+          "Con rồng biến thành hình con cá chép không chân",
+          "Thân rồng gầy mỏng như sợi chỉ và không có đầu"
+        ],
+        "k": "A",
+        "e": "Từ rồng uốn sin mềm mại thời Lý chuyển sang rồng khỏe khoắn, có vảy và sừng thời Trần đánh dấu bước trưởng thành của tạo hình dân tộc.",
+        "s": "Mĩ Thuật 7",
+        "h": "Sự biến đổi hình tượng Rồng thời Trần"
+      },
+      {
+        "c": "MT7-B05-003",
+        "d": "basic",
+        "p": "Tác phẩm chạm khắc gỗ tiêu biểu thời Trần diễn tả sinh động hình ảnh con người đời thường đang kéo co, đấu vật hay nhạc công là ở ngôi chùa nào?",
+        "o": [
+          "Bộ cánh cửa chạm khắc gỗ chùa Phổ Minh (Nam Định) và chùa Thái Lạc (Hưng Yên)",
+          "Tháp Chăm Bằng An ở Quảng Nam",
+          "Chùa Thiên Mụ xây dựng thế kỉ XVII ở Huế",
+          "Nhà thờ Đức Bà tại Thành phố Hồ Chí Minh"
+        ],
+        "k": "A",
+        "e": "Chạm khắc gỗ chùa Thái Lạc và chùa Phổ Minh đưa sinh hoạt đời thường, vũ nữ và rồng mây lên kiến trúc tôn giáo rất sống động.",
+        "s": "Mĩ Thuật 7",
+        "h": "Chạm khắc gỗ thời Trần"
+      },
+      {
+        "c": "MT7-B05-004",
+        "d": "basic",
+        "p": "Tác phẩm điêu khắc đá nổi tiếng thể hiện rõ nét tính hiện thực dũng mãnh thời Trần tại khu lăng mộ hoàng gia (Hưng Yên, Quảng Ninh) là tượng nào?",
+        "o": [
+          "Tượng Nhân sư ở sa mạc Ai Cập",
+          "Tượng con Hổ đá ở lăng Trần Thủ Độ (Thái Bình) với thân mình căng tròn đầy nội lực",
+          "Tượng thần Vệ nữ đứng trên vỏ sò",
+          "Tượng đồng thánh Gióng thế kỉ XXI"
+        ],
+        "k": "B",
+        "e": "Tượng Hổ đá lăng Trần Thủ Độ được tạc gọn khối, cơ bắp vạm vỡ và thế nằm chực vồ mang tinh thần võ sĩ quật cường.",
+        "s": "Mĩ Thuật 7",
+        "h": "Điêu khắc tượng thú đá thời Trần"
+      },
+      {
+        "c": "MT7-B05-005",
+        "d": "basic",
+        "p": "Quần thể kiến trúc tháp nổi tiếng thời Trần được xây bằng gạch nung cao 14 tầng tại Nam Định gắn với Thiền phái Trúc Lâm là công trình nào?",
+        "o": [
+          "Tháp Phổ Minh",
+          "Tháp Rùa ở hồ Hoàn Kiếm",
+          "Tháp Bình Sơn ở Vĩnh Phúc thời hiện đại",
+          "Tháp Chùa Hương"
+        ],
+        "k": "A",
+        "e": "Tháp Phổ Minh cùng tháp Bình Sơn là hai đỉnh cao của kiến trúc tháp gạch thời Trần, trang trí hoa văn tinh tế bằng đất nung.",
+        "s": "Mĩ Thuật 7",
+        "h": "Kiến trúc tháp Phổ Minh thời Trần"
+      },
+      {
+        "c": "MT7-B05-006",
+        "d": "basic",
+        "p": "Ở giai đoạn cuối thời Trần, bên cạnh gốm men ngọc và hoa nâu kế thừa từ thời Lý, dòng gốm vẽ màu mới nào bắt đầu xuất hiện đặt nền tảng cho gốm truyền thống Việt Nam?",
+        "o": [
+          "Gốm hoa lam (vẽ hoa văn màu xanh cô-ban trên nền men trắng ngà)",
+          "Gốm nhựa tổng hợp trong suốt",
+          "Gốm sứ mạ crôm bóng loáng như gương thép",
+          "Gốm sơn dầu tổng hợp không nung"
+        ],
+        "k": "A",
+        "e": "Sự ra đời của gốm hoa lam đánh dấu bước tiến lớn về kĩ thuật phối liệu và vẽ bút lông phóng khoáng trên gốm cổ.",
+        "s": "Mĩ Thuật 7",
+        "h": "Sự xuất hiện gốm hoa lam cuối thời Trần"
+      },
+      {
+        "c": "MT7-B05-007",
+        "d": "application",
+        "p": "Quan sát bảng đối chiếu Rồng Lý và Rồng Trần dưới đây, đặc điểm nào giúp em nhận định chính xác một phù điêu rồng thuộc thời Trần?",
+        "o": [
+          "Rồng chỉ có hai chân và thân ngắn vuông vức như khối hộp",
+          "Rồng được tạo hoàn toàn bằng các hình tam giác ghép rời",
+          "Thân mảnh mai như dải lụa, khúc uốn dày đều nhau không vảy không sừng",
+          "Thân rồng uốn khúc rộng khỏe khoắn, có vảy rõ rệt, chân to có móng sắc và đầu có sừng nhánh chắc chắn"
+        ],
+        "k": "D",
+        "e": "Đối chiếu trực tiếp tỉ lệ thân, độ uốn khúc và chi tiết đầu sừng là phương pháp giám định phong cách mĩ thuật cổ rất chuẩn xác.",
+        "s": "Mĩ Thuật 7",
+        "h": "Phân biệt Rồng Lý và Rồng Trần",
+        "fig": {
+          "type": "table",
+          "title": "Rồng Lý và Trần",
+          "head": [
+            "Đặc điểm",
+            "Thời Lý",
+            "Thời Trần"
+          ],
+          "rows": [
+            [
+              "Thân rồng",
+              "Mảnh, uốn sin",
+              "Mập, khúc rộng"
+            ],
+            [
+              "Đầu rồng",
+              "Không sừng",
+              "Có sừng nhánh"
+            ],
+            [
+              "Tinh thần",
+              "Mềm mại",
+              "Khỏe, phóng khoáng"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT7-B05-008",
+        "d": "application",
+        "p": "Trên các bức cốn gỗ chạm khắc ở chùa Thái Lạc (Hưng Yên), người thợ thời Trần không chỉ tạc tiên nữ dâng hoa mà còn tạc cả những điệu múa dân gian, người thổi sáo. Điều đó nói lên điều gì?",
+        "o": [
+          "Chùa Thái Lạc thực chất là một sân vận động thể thao cổ đại",
+          "Mĩ thuật thời Trần hướng mạnh về hiện thực cuộc sống nhân dân, hòa trộn giữa nghệ thuật cung đình, Phật giáo và văn hóa dân gian",
+          "Người thợ không biết vẽ hoa sen nên vẽ đại hình người cho nhanh",
+          "Nghệ nhân thời Trần chỉ được phép vẽ cảnh buồn bã khóc lóc"
+        ],
+        "k": "B",
+        "e": "Tính dân gian hóa mạnh mẽ làm mĩ thuật thời Trần gần gũi, tươi vui và đậm sức sống xã hội hơn.",
+        "s": "Mĩ Thuật 7",
+        "h": "Tính hiện thực dân gian trong chạm khắc Trần"
+      },
+      {
+        "c": "MT7-B05-009",
+        "d": "application",
+        "p": "Khi phỏng vẽ hoặc chạm nổi mô phỏng một bức phù điêu rồng thời Trần trên đất nặn, học sinh nên xử lí độ dày các chi tiết thế nào để tạo cảm giác khối khỏe khoắn?",
+        "o": [
+          "Nặn phần thân và chân rồng nổi cao hơn mặt nền rõ rệt, nhấn các đường gờ vảy và cụm mây đao mác chắc gọn, dứt khoát",
+          "Nặn rồng thành một đường thẳng tắp không có bất kì độ cong nào",
+          "Cắt rời các đoạn thân thành những hạt gạo nhỏ li ti rời rạc",
+          "Ép phẳng lì toàn bộ đất nặn mỏng bằng tờ giấy rồi vẽ nét mờ"
+        ],
+        "k": "A",
+        "e": "Khối nổi chắc nịch và đường gờ sắc sảo là bí quyết lột tả khí thế hùng dũng của điêu khắc thời Trần.",
+        "s": "Mĩ Thuật 7",
+        "h": "Thể hiện tinh thần thời Trần qua phù điêu"
+      },
+      {
+        "c": "MT7-B05-010",
+        "d": "application",
+        "p": "Tháp Bình Sơn (Vĩnh Phúc) được xây dựng từ hàng nghìn viên gạch đất nung khớp chặt vào nhau không cần lớp vữa dày lộ ra ngoài. Kĩ thuật xây dựng này đòi hỏi điều gì?",
+        "o": [
+          "Chỉ cần nặn gạch bằng đất sống không cần nung rồi xếp chồng lên",
+          "Phải dùng băng dính nhựa dán cố định các viên gạch từ bên ngoài",
+          "Xếp ngẫu nhiên các viên đá sỏi kích thước khác nhau hoàn toàn",
+          "Các viên gạch phải được đúc khuôn chính xác tuyệt đối về kích thước và độ co ngót khi nung, vừa chịu lực vừa tạo hoa văn bên ngoài"
+        ],
+        "k": "D",
+        "e": "Kiến trúc gạch mộc thời Trần chứng tỏ trình độ quy chuẩn hóa vật liệu xây dựng và kĩ nghệ lò nung vô cùng tiên tiến.",
+        "s": "Mĩ Thuật 7",
+        "h": "Kĩ thuật kiến trúc gạch nung thời Trần"
+      },
+      {
+        "c": "MT7-B05-011",
+        "d": "application",
+        "p": "Khi sử dụng hoa văn sóng nước và mây cuộn thời Trần để thiết kế đường diềm trang trí cho tấm thảm trải bàn, em nên sắp xếp các họa tiết theo quy luật nào?",
+        "o": [
+          "Chỉ vẽ toàn các đường thẳng đứt quãng không có mây sóng",
+          "Vẽ một đám mây đen ở góc phải còn toàn bộ viền bỏ trống",
+          "Đặt mỗi đoạn mây ở một cỡ to nhỏ lộn xộn không liên tiếp",
+          "Quy luật lặp lại hoặc xen kẽ nhịp nhàng theo trục dọc hoặc ngang với đường nét khỏe, gọn gàng"
+        ],
+        "k": "D",
+        "e": "Nhịp điệu lặp lại có quy luật giúp đường diềm trang trí vừa giữ tinh thần cổ điển vừa mang lại sự cân đối hiện đại.",
+        "s": "Mĩ Thuật 7",
+        "h": "Ứng dụng hoa văn Trần vào đường diềm"
+      },
+      {
+        "c": "MT7-B05-012",
+        "d": "application",
+        "p": "Khi tham quan bảo tàng, em thấy một chiếc thạp gốm hoa nâu thời Trần vẽ cảnh võ sĩ cầm khiên giáo. Chủ đề vẽ người chiến binh xuất hiện trên đồ gốm phản ánh điều gì?",
+        "o": [
+          "Thời Trần không ai biết đến nghề nông hay làm gốm",
+          "Tinh thần thượng võ, niềm tự hào chiến thắng ngoại xâm và ý thức tự cường thấm sâu vào cả đồ dùng sinh hoạt hằng ngày",
+          "Chiến binh trên thạp gốm chỉ là hình vẽ quảng cáo đồ chơi trẻ em",
+          "Sự sợ hãi tuyệt vọng của người dân thời bấy giờ"
+        ],
+        "k": "B",
+        "e": "Các hình ảnh trên gốm hoa nâu thời Trần là cuốn sử bằng hình ảnh ghi lại hào khí bảo vệ non sông của cha ông.",
+        "s": "Mĩ Thuật 7",
+        "h": "Hào khí Đông A trên gốm hoa nâu"
+      },
+      {
+        "c": "MT7-B05-013",
+        "d": "advanced",
+        "p": "Phân tích sự chuyển dịch từ \"đôi mắt nhắm hờ trầm tư\" thời Lý sang \"tượng hổ căng cơ, rồng có sừng và võ sĩ trên gốm\" thời Trần cho thấy quy luật gì của lịch sử mĩ thuật?",
+        "o": [
+          "Nghệ thuật phát triển hoàn toàn ngẫu nhiên không liên quan đến xã hội",
+          "Người đời sau luôn quên hết toàn bộ kĩ thuật của đời trước",
+          "Các bức tượng cổ tự động thay đổi hình dáng sau mỗi trăm năm",
+          "Nghệ thuật luôn phản ánh trung thực hơi thở lịch sử, tâm thế xã hội và biến động của đất nước trong từng giai đoạn phát triển"
+        ],
+        "k": "D",
+        "e": "Thời Lý thanh bình kiến quốc tôn vinh vẻ đẹp thư thái tâm linh; thời Trần chống giặc ngoại xâm đề cao sức mạnh hành động và ý chí quật cường.",
+        "s": "Mĩ Thuật 7",
+        "h": "Quy luật phản ánh thời đại của mĩ thuật"
+      },
+      {
+        "c": "MT7-B05-014",
+        "d": "advanced",
+        "p": "Tại sao dù mang vẻ đẹp khỏe khoắn mạnh mẽ, con Rồng thời Trần vẫn không trở nên hung dữ đáng sợ mà vẫn giữ được nét uy nghiêm linh thiêng và gần gũi?",
+        "o": [
+          "Vì con rồng thời Trần được vẽ bé bằng con kiến không nhìn rõ mặt",
+          "Vì người thời Trần dùng màu hồng phấn tô toàn bộ cho các bức tượng đá",
+          "Do nghệ nhân không biết cách tạc phần đầu con vật",
+          "Vì cấu trúc thân uốn lượn vẫn duy trì nhịp điệu uyển chuyển, họa tiết mây lửa nâng đỡ hài hòa và không có hàm răng nanh dữ tợn quá mức"
+        ],
+        "k": "D",
+        "e": "Sự cân bằng giữa \"uy lực\" và \"mĩ cảm hài hòa\" giúp hình tượng Rồng Việt mang bản sắc riêng, khác với rồng hung dữ ở nhiều nền văn hóa khác.",
+        "s": "Mĩ Thuật 7",
+        "h": "Cân bằng uy nghiêm và hài hòa ở Rồng Trần"
+      },
+      {
+        "c": "MT7-B05-015",
+        "d": "advanced",
+        "p": "Trong phong trào sáng tạo sản phẩm văn hóa hôm nay, nếu em muốn thiết kế một chiếc áo phông hoặc túi vải mang tinh thần \"Hào khí Đông A - Thời Trần\", thiết kế nào thuyết phục nhất?",
+        "o": [
+          "Cách điệu hình tượng Rồng thời Trần kết hợp sóng Bạch Đằng bằng nét đồ họa hiện đại cô đọng trên gam màu chàm - vàng đồng sang trọng",
+          "Vẽ hình siêu anh hùng phương Tây không liên quan gì đến Việt Nam",
+          "Gắn thêm mác chữ nước ngoài để giả làm hàng nhập khẩu",
+          "Chụp ảnh toàn bộ trang chữ văn bản lịch sử in kín hai mặt áo"
+        ],
+        "k": "A",
+        "e": "Chuyển ngữ di sản lịch sử sang ngôn ngữ đồ họa cô đọng hiện đại giúp bạn trẻ tự hào mặc và lan tỏa bản sắc văn hóa Việt.",
+        "s": "Mĩ Thuật 7",
+        "h": "Thiết kế sản phẩm lấy cảm hứng hào khí Đông A"
+      }
+    ]
+  },
+  {
+    "chapter": "mithuat7-c2",
+    "lesson": {
+      "code": "mithuat7-b06",
+      "title": "Bài 6. Bảo tồn di sản kiến trúc và điêu khắc cổ",
+      "seq": 6,
+      "subtitle": "Giá trị không gian di sản làng xã đình - chùa - đền, ý thức bảo vệ cổ vật và quảng bá di sản",
+      "concepts": [
+        "Các loại hình di sản cổ",
+        "Nguy cơ hư hại di sản",
+        "Hành động bảo tồn của học sinh"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT7-B06-001",
+        "d": "basic",
+        "p": "Trong kiến trúc truyền thống làng quê Việt Nam, ngôi \"Đình làng\" đảm nhận vai trò cộng đồng chính nào?",
+        "o": [
+          "Là nhà máy sản xuất thép công nghiệp nặng của cả nước",
+          "Là cửa hàng siêu thị bán đồ điện tử hiện đại",
+          "Là nơi thờ Thành hoàng làng và là trung tâm sinh hoạt hội họp, lễ hội văn hóa chung của cả làng xã",
+          "Chỉ là kho chứa thóc bỏ hoang không có mái che"
+        ],
+        "k": "C",
+        "e": "Đình làng (như đình Chu Quyến, đình Tây Đằng) là bảo tàng sống về nghệ thuật chạm khắc gỗ dân gian đặc sắc nhất của người Việt.",
+        "s": "Mĩ Thuật 7",
+        "h": "Vai trò văn hóa của Đình làng"
+      },
+      {
+        "c": "MT7-B06-002",
+        "d": "basic",
+        "p": "Những yếu tố tự nhiên và con người nào đang trực tiếp đe dọa làm xuống cấp các công trình kiến trúc gỗ và điêu khắc đá cổ?",
+        "o": [
+          "Việc quét dọn sạch sẽ và bảo vệ nguyên trạng theo quy định",
+          "Hoạt động nghiên cứu khoa học đo đạc ghi chép di tích",
+          "Việc giữ khoảng cách an toàn khi tham quan cổ vật",
+          "Thời tiết nắng mưa ẩm mốc, mối mọt, thiên tai và hành vi viết vẽ bậy, xâm lấn di tích thiếu ý thức"
+        ],
+        "k": "D",
+        "e": "Khí hậu nhiệt đới ẩm gió mùa cùng tác động thiếu ý thức của con người là hai nguyên nhân lớn nhất gây hư hại di sản.",
+        "s": "Mĩ Thuật 7",
+        "h": "Các tác nhân gây hư hại di sản"
+      },
+      {
+        "c": "MT7-B06-003",
+        "d": "basic",
+        "p": "Hành vi nào bị nghiêm cấm tuyệt đối khi học sinh đi tham quan bảo tàng, chùa cổ hay di tích lịch sử?",
+        "o": [
+          "Ghi chép hoặc vẽ kí họa nhanh vào sổ tay cá nhân",
+          "Sờ tay trực tiếp lên hiện vật cổ dễ bong tróc, khắc chữ lưu niệm lên tường đá và cột gỗ",
+          "Lắng nghe thuyết minh viên giới thiệu về lịch sử di tích",
+          "Chụp ảnh không bật đèn flash tại khu vực được phép"
+        ],
+        "k": "B",
+        "e": "Mồ hôi tay chứa muối và axit nhẹ dần dần ăn mòn bề mặt tượng cổ, tranh lụa; khắc bậy phá hủy không thể phục hồi di sản hàng trăm năm.",
+        "s": "Mĩ Thuật 7",
+        "h": "Ứng xử văn minh tại khu di tích"
+      },
+      {
+        "c": "MT7-B06-004",
+        "d": "basic",
+        "p": "Nguyên tắc vàng trong công tác tu bổ, phục hồi một công trình kiến trúc di tích cổ là gì?",
+        "o": [
+          "Sơn phủ màu sơn công nghiệp lòe loẹt che hết gỗ chạm khắc cổ",
+          "Đập bỏ hoàn toàn công trình gỗ cổ để xây mới thành tòa nhà kính cao tầng",
+          "Giữ gìn tối đa yếu tố gốc ban đầu, chỉ gia cố hoặc thay thế phần hư hỏng nặng bằng vật liệu và kĩ thuật tương đồng",
+          "Tự ý lắp thêm tượng nhân vật hoạt hình vào gian thờ cổ"
+        ],
+        "k": "C",
+        "e": "\"Làm mới\" sai cách (bê tông hóa, sơn màu lòe loẹt) đôi khi phá hủy di sản nhanh không kém sự tàn phá của thời gian.",
+        "s": "Mĩ Thuật 7",
+        "h": "Nguyên tắc bảo tồn yếu tố gốc"
+      },
+      {
+        "c": "MT7-B06-005",
+        "d": "basic",
+        "p": "Hoạt động mĩ thuật nào học sinh lớp 7 có thể thực hiện ngay để góp phần quảng bá vẻ đẹp di sản kiến trúc địa phương?",
+        "o": [
+          "Tự ý cạo lớp rêu cổ trên bia đá bằng bàn chải sắt cứng",
+          "Xả rác quanh khuôn viên di tích để tạo việc làm dọn dẹp",
+          "Vẽ tranh kí họa, thiết kế tờ rơi giới thiệu, làm mô hình thu nhỏ hoặc video ảnh về đình, chùa, cầu cổ quê hương",
+          "Mang đồ cổ trong đình về nhà riêng cất giữ làm kỉ niệm"
+        ],
+        "k": "C",
+        "e": "Đưa hình ảnh di sản lên tranh vẽ, áp phích và truyền thông học đường giúp cộng đồng hiểu giá trị mà cùng chung tay giữ gìn.",
+        "s": "Mĩ Thuật 7",
+        "h": "Học sinh quảng bá di sản bằng mĩ thuật"
+      },
+      {
+        "c": "MT7-B06-006",
+        "d": "basic",
+        "p": "Di sản nào ở Việt Nam nổi tiếng với hệ thống tháp gạch Chăm-pa cổ có kĩ thuật ghép gạch khít mạch bí ẩn và chạm khắc đá sa thạch tinh xảo?",
+        "o": [
+          "Cầu Vàng Bà Nà hiện đại",
+          "Khu đô thị mới Thủ Thiêm",
+          "Chợ nổi Cái Răng Cần Thơ",
+          "Thánh địa Mỹ Sơn (Quảng Nam)"
+        ],
+        "k": "D",
+        "e": "Thánh địa Mỹ Sơn được UNESCO công nhận là Di sản Văn hóa Thế giới năm 1999 nhờ giá trị kiến trúc và điêu khắc độc đáo.",
+        "s": "Mĩ Thuật 7",
+        "h": "Nhận diện di sản Thánh địa Mỹ Sơn"
+      },
+      {
+        "c": "MT7-B06-007",
+        "d": "application",
+        "p": "Quan sát bảng so sánh hai cách tu bổ di tích dưới đây, phương án nào tuân thủ đúng chuẩn mực bảo tồn di sản văn hóa?",
+        "o": [
+          "Chống thấm mái dột kịp thời, thay thế riêng phần gỗ mục bằng gỗ tốt cùng loại và giữ nguyên các mảng chạm khắc cổ",
+          "Đập toàn bộ mái ngói cổ để lợp tôn xanh và lát gạch men bóng khắp sân đình",
+          "Phủ kín sơn PU bóng loáng màu cam lên tất cả tượng gỗ hàng trăm tuổi",
+          "Dỡ bỏ cột gỗ lim đem bán rồi thay bằng cột bê tông sơn giả gỗ"
+        ],
+        "k": "A",
+        "e": "Tu bổ di tích đòi hỏi sự cẩn trọng khoa học, tôn trọng tuyệt đối dấu tích thời gian và bàn tay nghệ nhân xưa.",
+        "s": "Mĩ Thuật 7",
+        "h": "Phân biệt tu bổ đúng chuẩn và làm hỏng di tích",
+        "fig": {
+          "type": "table",
+          "title": "So sánh tu bổ di tích",
+          "head": [
+            "Hạng mục",
+            "Cách đúng chuẩn"
+          ],
+          "rows": [
+            [
+              "Mái ngói hỏng",
+              "Ngói phục chế chuẩn"
+            ],
+            [
+              "Chạm khắc cổ",
+              "Bảo quản giữ nguyên"
+            ],
+            [
+              "Cột gỗ mối",
+              "Ghép gỗ đồng chất"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT7-B06-008",
+        "d": "application",
+        "p": "Khi đi thực tế vẽ kí họa một ngôi chùa cổ ở địa phương có mái ngói rêu phong và hàng cột gỗ chạm trổ, cách quan sát nào giúp em lột tả đúng thần thái cổ kính?",
+        "o": [
+          "Chỉ vẽ một cái xe máy đậu trước cổng mà bỏ qua ngôi chùa",
+          "Sửa lại mái chùa cong thành mái bằng vuông vức cho giống chung cư",
+          "Chú ý tỉ lệ chiều cao mái cong so với thân nhà, ghi lại đường nét họa tiết đầu đao và sử dụng gam màu trầm ấm cổ điển",
+          "Tô toàn bộ ngôi chùa bằng màu hồng neon rực rỡ"
+        ],
+        "k": "C",
+        "e": "Tôn trọng tỉ lệ kiến trúc cổ và gam màu rêu phong giúp bức tranh lưu giữ chân thực diện mạo di sản qua thời gian.",
+        "s": "Mĩ Thuật 7",
+        "h": "Quan sát đặc điểm khi kí họa di tích"
+      },
+      {
+        "c": "MT7-B06-009",
+        "d": "application",
+        "p": "Một dự án học tập lớp 7 muốn làm \"Hộp mô hình di sản địa phương\" bằng bìa các-tông để trưng bày tại thư viện trường. Để người xem thu nhận được nhiều giá trị nhất, mô hình cần đi kèm yếu tố nào?",
+        "o": [
+          "Chỉ để mô hình không tên giữa góc tối không ai biết là công trình gì",
+          "Bịt kín cả hộp mô hình không cho ai nhìn vào bên trong",
+          "Một tấm thẻ thông tin ngắn gọn ghi tên di tích, niên đại, đặc điểm kiến trúc nổi bật và thông điệp chung tay bảo vệ",
+          "Dán đầy các tờ quảng cáo bán hàng lên mái mô hình"
+        ],
+        "k": "C",
+        "e": "Sự kết hợp giữa sản phẩm tạo hình trực quan và thông tin văn hóa súc tích biến góc thư viện thành một \"bảo tàng mini\" hiệu quả.",
+        "s": "Mĩ Thuật 7",
+        "h": "Kết hợp mô hình và thẻ giới thiệu di sản"
+      },
+      {
+        "c": "MT7-B06-010",
+        "d": "application",
+        "p": "Khi nhìn thấy một bạn cùng đoàn tham quan rút bút xóa định viết tên lên vách đá di tích danh thắng, phản ứng ứng xử khéo léo và đúng đắn nhất của em là gì?",
+        "o": [
+          "Mượn bút của bạn để viết tên mình to hơn ở ngay bên cạnh",
+          "Làm ngơ bỏ đi coi như không liên quan đến mình",
+          "Cười đùa cổ vũ quay video tung lên mạng cho vui",
+          "Nhẹ nhàng ngăn bạn lại ngay và giải thích rằng viết bậy sẽ làm hỏng vĩnh viễn cảnh quan đá cổ cần được giữ gìn cho mọi người"
+        ],
+        "k": "D",
+        "e": "Ý thức công dân văn minh bắt đầu từ việc dám lên tiếng nhắc nhở đúng mực để ngăn chặn hành vi phá hoại di sản chung.",
+        "s": "Mĩ Thuật 7",
+        "h": "Ứng xử khi thấy hành vi xâm hại di tích"
+      },
+      {
+        "c": "MT7-B06-011",
+        "d": "application",
+        "p": "Trong công nghệ bảo tồn hiện đại, công cụ nào hỗ trợ các nhà mĩ thuật và khảo cổ lưu giữ chính xác từng chi tiết nhỏ của pho tượng cổ trước nguy cơ xuống cấp?",
+        "o": [
+          "Dùng giấy nến than chà sát mạnh trực tiếp làm trầy mặt tượng cổ",
+          "Ngâm pho tượng xuống dưới đáy hồ nước ngọt",
+          "Công nghệ quét la-de 3D (3D Scanning) và số hóa hình ảnh độ phân giải cao lưu trữ vào bảo tàng số",
+          "Cưa nhỏ pho tượng thành nhiều phần để chia về các phòng"
+        ],
+        "k": "C",
+        "e": "Số hóa 3D không chạm vừa bảo vệ an toàn tuyệt đối cho hiện vật vừa giúp hàng triệu người xem trực tuyến khắp thế giới.",
+        "s": "Mĩ Thuật 7",
+        "h": "Ứng dụng công nghệ 3D bảo tồn di sản"
+      },
+      {
+        "c": "MT7-B06-012",
+        "d": "application",
+        "p": "Nhóm học sinh được giao thiết kế tấm áp phích tuyên truyền \"Thanh thiếu niên bảo vệ di sản quê hương\". Hình ảnh trung tâm nào tạo ấn tượng thị giác tốt nhất?",
+        "o": [
+          "Vẽ cảnh máy xúc đang ủi phá ngôi nhà cổ thành đống gạch vụn làm điểm nhấn vui tươi",
+          "Hình ảnh bàn tay trẻ nâng niu mái đình cổ rêu phong tỏa sáng ấm áp, đi kèm khẩu hiệu ngắn gọn súc tích",
+          "Chỉ viết một trang chữ dài 500 từ dày đặc không có hình vẽ nào",
+          "Vẽ hình món ăn nhanh không liên quan tới kiến trúc cổ"
+        ],
+        "k": "B",
+        "e": "Hình ảnh biểu tượng kết hợp thông điệp ngắn giúp áp phích truyền cảm hứng tích cực chỉ trong vài giây lướt qua.",
+        "s": "Mĩ Thuật 7",
+        "h": "Thiết kế áp phích bảo vệ di sản"
+      },
+      {
+        "c": "MT7-B06-013",
+        "d": "advanced",
+        "p": "Vì sao các nhà bảo tồn học khẳng định \"bảo tồn di sản kiến trúc không thể tách rời khỏi việc bảo tồn không gian cảnh quan và sinh hoạt văn hóa xung quanh nó\"?",
+        "o": [
+          "Vì các công trình cổ không thể dựng được nếu thiếu nhà cao tầng vây kín sát tường",
+          "Vì bắt buộc phải rào kín bằng tường bê tông cao 5 mét ngăn người dân vào",
+          "Vì ngôi đình hay chùa chỉ thực sự \"sống\" trọn vẹn ý nghĩa khi gắn với cây đa, giếng nước, mái làng và các lễ hội, tập tục cộng đồng nơi đó",
+          "Vì cảnh quan thiên nhiên luôn phá hủy toàn bộ giá trị lịch sử"
+        ],
+        "k": "C",
+        "e": "Khái niệm \"bảo tồn không gian di sản sống\" giúp giữ trọn vẹn linh hồn văn hóa chứ không biến di tích thành vỏ xác khô cứng.",
+        "s": "Mĩ Thuật 7",
+        "h": "Bảo tồn di sản gắn với cảnh quan và cộng đồng"
+      },
+      {
+        "c": "MT7-B06-014",
+        "d": "advanced",
+        "p": "Hiện tượng \"bị đánh cắp cổ vật\" hoặc mua bán trái phép đồ thờ gỗ, bia đá cổ gây ra tổn thất nghiêm trọng nào mà tiền bạc không thể bù đắp?",
+        "o": [
+          "Làm đứt gãy mạch kí ức lịch sử của địa phương, mất đi bằng chứng vật chất độc bản về tài hoa nghệ thuật của nhiều thế hệ cha ông",
+          "Chỉ làm nhẹ đi trọng lượng của ngôi chùa giúp nền móng đỡ lún",
+          "Giúp cổ vật có giá cao hơn nên càng cần mang đi bán hết",
+          "Không gây ảnh hưởng gì vì có thể đúc tượng nhựa thay thế giống hệt"
+        ],
+        "k": "A",
+        "e": "Mỗi cổ vật chỉ có một bản gốc độc nhất gắn liền với ngữ cảnh lịch sử; mất đi là mất vĩnh viễn một trang sử văn hóa.",
+        "s": "Mĩ Thuật 7",
+        "h": "Hệ lụy của nạn mất cắp cổ vật"
+      },
+      {
+        "c": "MT7-B06-015",
+        "d": "advanced",
+        "p": "Trong tương lai phát triển du lịch bền vững, làm thế nào để vừa thu hút đông đảo du khách tham quan di tích vừa không làm quá tải, hư hại công trình cổ?",
+        "o": [
+          "Phân luồng lượt khách theo khung giờ, đặt rào chắn mềm an toàn, tăng cường thuyết minh số hóa và dùng nguồn thu đầu tư ngược lại cho bảo tồn",
+          "Đóng cửa khóa kín mãi mãi không cho bất kì người dân nào biết đến",
+          "Cho phép du khách trèo tự do lên mái ngói và bia đá để chụp ảnh",
+          "Xây thêm bãi đỗ xe tải hạng nặng ngay bên trong sân điện thờ cổ"
+        ],
+        "k": "A",
+        "e": "Cân bằng giữa khai thác du lịch và ngưỡng chịu tải của di tích là bài toán quản lí văn hóa thông minh trên toàn thế giới.",
+        "s": "Mĩ Thuật 7",
+        "h": "Cân bằng du lịch và bảo tồn bền vững"
+      }
+    ]
+  },
+  {
+    "chapter": "mithuat7-c3",
+    "lesson": {
+      "code": "mithuat7-b07",
+      "title": "Bài 7. Thiết kế bìa sách và áp phích cổ động",
+      "seq": 7,
+      "subtitle": "Cấu trúc thông tin trên bìa sách, ngôn ngữ cô đọng của tranh áp phích và phối màu tương phản cao",
+      "concepts": [
+        "Các thành phần trên bìa sách",
+        "Đặc trưng tranh cổ động",
+        "Phối chữ và hình nổi bật"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT7-B07-001",
+        "d": "basic",
+        "p": "Trên mặt trước (bìa 1) của một cuốn sách chuẩn mực, những thông tin văn bản bắt buộc cơ bản nhất gồm những yếu tố nào?",
+        "o": [
+          "Mục lục chi tiết và toàn bộ văn bản chương 1 in dày đặc",
+          "Tên sách (tiêu đề chính), tên tác giả (hoặc nhóm biên soạn) và tên nhà xuất bản hoặc biểu trưng nhà xuất bản",
+          "Toàn bộ danh sách số điện thoại cá nhân của độc giả",
+          "Hóa đơn mua giấy và giá nguyên liệu mực in"
+        ],
+        "k": "B",
+        "e": "Bìa 1 phải tinh gọn, rõ ràng giúp người đọc nắm bắt ngay tên tác phẩm, tác giả và đơn vị phát hành.",
+        "s": "Mĩ Thuật 7",
+        "h": "Thông tin bắt buộc trên bìa sách"
+      },
+      {
+        "c": "MT7-B07-002",
+        "d": "basic",
+        "p": "Ngoài phần chữ, phần hình minh họa trên bìa sách có chức năng quan trọng nhất là gì?",
+        "o": [
+          "Làm cuốn sách nặng thêm cho khó cầm tay",
+          "Che khuất hoàn toàn tên cuốn sách để không ai đọc được",
+          "Gợi mở chủ đề, không khí nội dung cuốn sách và thu hút ánh nhìn kích thích sự tò mò của độc giả",
+          "Chỉ để lấp chỗ trống bằng hình ngẫu nhiên không liên quan sách"
+        ],
+        "k": "C",
+        "e": "Một bìa sách đẹp là sự kết hợp ăn ý giữa \"tín hiệu chữ\" và \"hình tượng thị giác\" truyền tải đúng tinh thần tác phẩm.",
+        "s": "Mĩ Thuật 7",
+        "h": "Chức năng của hình minh họa bìa sách"
+      },
+      {
+        "c": "MT7-B07-003",
+        "d": "basic",
+        "p": "Tranh áp phích (tranh cổ động) khác với tranh tĩnh vật hay phong cảnh treo trong phòng khách ở mục đích chính nào?",
+        "o": [
+          "Chỉ để trưng bày bí mật trong tủ kính cá nhân không cho ai xem",
+          "Diễn tả chi tiết hàng trăm câu chuyện phức tạp mất nhiều giờ đọc",
+          "Không bao giờ được phép sử dụng chữ viết trên tranh",
+          "Truyền tải thông điệp tuyên truyền, cổ vũ hành động hoặc giới thiệu sự kiện nhanh chóng tới đông đảo công chúng ngoài không gian công cộng"
+        ],
+        "k": "D",
+        "e": "Tranh áp phích mang tính đại chúng, cô đọng cao nhằm thuyết phục và thôi thúc người xem hưởng ứng một thông điệp cụ thể.",
+        "s": "Mĩ Thuật 7",
+        "h": "Mục đích của tranh áp phích cổ động"
+      },
+      {
+        "c": "MT7-B07-004",
+        "d": "basic",
+        "p": "Đặc điểm hình ảnh và màu sắc chuẩn mực của một tờ áp phích cổ động đạt hiệu quả cao là gì?",
+        "o": [
+          "Dùng toàn màu xám nhạt hòa lẫn vào nền tường bê tông",
+          "Viết chữ nhỏ li ti kín đặc từ mép trên xuống mép dưới",
+          "Hình mảng khái quát rõ nét, ít chi tiết vụn vặt và dùng ít gam màu nhưng tương phản mạnh để nhìn rõ từ xa",
+          "Vẽ nét bút chì mờ li ti hàng nghìn chi tiết nhỏ xíu sát nhau"
+        ],
+        "k": "C",
+        "e": "Người đi đường chỉ lướt nhìn áp phích trong 2 đến 3 giây, nên mọi yếu tố từ hình khối đến màu sắc phải cực kì dứt khoát.",
+        "s": "Mĩ Thuật 7",
+        "h": "Ngôn ngữ tạo hình cô đọng của áp phích"
+      },
+      {
+        "c": "MT7-B07-005",
+        "d": "basic",
+        "p": "Đối với áp phích tuyên truyền chủ đề \"An toàn giao thông\" hoặc \"Bảo vệ rừng\", phần chữ khẩu hiệu nên được viết theo nguyên tắc nào?",
+        "o": [
+          "Cách điệu rối rắm đến mức không ai đánh vần nổi câu chữ",
+          "Viết một đoạn văn bản dài kín hai mặt giấy thay cho hình vẽ",
+          "Giấu chữ khẩu hiệu vào góc khuất rồi xoay ngược 180 độ",
+          "Ngắn gọn, súc tích (thường dưới 8 đến 10 từ), đặt ở vị trí dễ nhìn nhất và dùng kiểu chữ đứng khỏe dễ đọc"
+        ],
+        "k": "D",
+        "e": "Một khẩu hiệu mạnh (như \"An toàn là bạn - Tai nạn là thù\") đi cùng hình mảng sắc bén tạo sức lan tỏa xã hội tức thì.",
+        "s": "Mĩ Thuật 7",
+        "h": "Nguyên tắc viết chữ khẩu hiệu trên áp phích"
+      },
+      {
+        "c": "MT7-B07-006",
+        "d": "basic",
+        "p": "Cuốn sách thuộc thể loại \"Truyện cổ tích thiếu nhi\" thường phù hợp với phong cách thiết kế bìa nào?",
+        "o": [
+          "Ảnh chụp bảng số liệu kinh tế khô khan dày đặc",
+          "Các nét vẽ kĩ thuật máy móc màu xám lạnh lẽo",
+          "Nền đen đặc hoàn toàn với duy nhất một dòng chữ siêu nhỏ trắng mờ",
+          "Hình minh họa sinh động giàu trí tưởng tượng, màu sắc tươi sáng rực rỡ và kiểu chữ cách điệu mềm mại vui mắt"
+        ],
+        "k": "D",
+        "e": "Phong cách đồ họa bìa phải khớp chính xác với đối tượng độc giả mục tiêu và cảm xúc của thể loại sách.",
+        "s": "Mĩ Thuật 7",
+        "h": "Chọn phong cách bìa theo thể loại sách"
+      },
+      {
+        "c": "MT7-B07-007",
+        "d": "application",
+        "p": "Quan sát bảng hướng dẫn thành phần bìa sách dưới đây, nếu thiết kế bìa cho cuốn \"Tuyển tập thơ ca biển đảo\", cách bố trí nào tạo bố cục hài hòa thoáng mắt nhất?",
+        "o": [
+          "Nhét hình tàu thuyền, cá mập, chữ tên sách, tên nhà xuất bản dồn hết vào đúng một góc 3 cm",
+          "Vẽ một con đường cao tốc đầy khói bụi ở sa mạc làm hình chính",
+          "Phủ chữ tên tác giả to gấp năm lần tên cuốn sách và vẽ đè lên mặt nhân vật",
+          "Dành khoảng trời biển xanh ở 1 phần 3 phía trên làm khoảng thoáng để đặt tên sách màu sáng nổi bật, phía dưới là hình tượng con tàu hoặc hải đăng"
+        ],
+        "k": "D",
+        "e": "Tạo khoảng trống hợp lí (\"khoảng thở\" cho chữ) giúp bìa sách vừa mang chất thơ vừa dễ nhận diện trên kệ sách.",
+        "s": "Mĩ Thuật 7",
+        "h": "Tạo khoảng thoáng đặt chữ trên bìa sách",
+        "fig": {
+          "type": "table",
+          "title": "Cấu trúc bìa sách 1",
+          "head": [
+            "Thành phần",
+            "Vai trò"
+          ],
+          "rows": [
+            [
+              "Tên sách",
+              "To nhất, dễ đọc"
+            ],
+            [
+              "Tên tác giả",
+              "Cỡ chữ vừa phải"
+            ],
+            [
+              "Hình minh họa",
+              "Gợi mở nội dung"
+            ],
+            [
+              "Logo NXB",
+              "Gọn ở mép dưới"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT7-B07-008",
+        "d": "application",
+        "p": "Một học sinh vẽ tờ áp phích cổ động \"Chống rác thải nhựa\" với hình chú rùa biển bị quấn túi nilon nhưng lại tô cả rùa, nước biển và túi nilon bằng cùng một màu xanh dương y hệt nhau. Lỗi thiết kế ở đây là gì?",
+        "o": [
+          "Vì áp phích bắt buộc không được tô quá một màu",
+          "Vì túi nilon phải vẽ thật nhỏ không ai nhìn thấy mới đẹp",
+          "Vì chú rùa biển không thể xuất hiện trên giấy vẽ",
+          "Thiếu tương phản sắc độ và màu sắc giữa hình tượng chính và nền, làm thông điệp thị giác bị chìm lấp khó nhận ra từ xa"
+        ],
+        "k": "D",
+        "e": "Chuyển hình chính hoặc chi tiết nguy hại sang gam màu tương phản ấm (đỏ cam hoặc trắng sáng) trên nền xanh đậm sẽ giải quyết ngay lỗi chìm hình.",
+        "s": "Mĩ Thuật 7",
+        "h": "Khắc phục lỗi thiếu tương phản trong áp phích"
+      },
+      {
+        "c": "MT7-B07-009",
+        "d": "application",
+        "p": "Khi thiết kế áp phích bằng kĩ thuật \"cắt dán giấy màu\" (collage), ưu điểm nổi trội nhất mang lại cho tác phẩm cổ động là gì?",
+        "o": [
+          "Tự nhiên buộc người thiết kế phải dùng mảng màu phẳng lớn, đường cắt sắc nét và độ tương phản cao đúng chuẩn đồ họa áp phích",
+          "Giúp các nét vẽ trở nên mờ nhòe không rõ biên giới hình mảng",
+          "Tạo ra những bức tranh chỉ nhìn được bằng kính lúp",
+          "Làm mất hết mọi màu sắc tươi sáng của giấy thủ công"
+        ],
+        "k": "A",
+        "e": "Cắt dán giấy màu là phương pháp rèn tư duy mảng hình phẳng cô đọng cực kì hữu hiệu trong thiết kế đồ họa.",
+        "s": "Mĩ Thuật 7",
+        "h": "Ưu điểm cắt dán giấy trong thiết kế áp phích"
+      },
+      {
+        "c": "MT7-B07-010",
+        "d": "application",
+        "p": "Quan sát minh họa cặp màu tương phản Đỏ và Xanh lục dưới đây, nếu dùng cho áp phích tuyên truyền \"Phòng chống cháy rừng\", cách phối nào tạo hiệu quả cảnh báo cao nhất?",
+        "o": [
+          "Nền rừng xanh sẫm bị thu hẹp đối đầu với ngọn lửa đỏ rực mạnh mẽ nhằm tạo xung đột thị giác báo động khẩn cấp",
+          "Tô toàn bộ tờ áp phích bằng màu hồng phấn nhẹ nhàng dễ ngủ",
+          "Không vẽ hình cây hay lửa mà chỉ kẻ một lưới ô vuông trắng",
+          "Vẽ ngọn lửa thật bé màu xanh lá cây giống hệt màu thân cây"
+        ],
+        "k": "A",
+        "e": "Ngôn ngữ màu sắc tạo tác động tâm lí trực diện: đỏ cam cảnh báo nguy hiểm đối lập xanh lục sự sống thiên nhiên.",
+        "s": "Mĩ Thuật 7",
+        "h": "Phối màu tương phản cảnh báo trên áp phích",
+        "fig": {
+          "w": 315,
+          "h": 140,
+          "items": [
+            {
+              "t": "circle",
+              "c": [
+                65,
+                75
+              ],
+              "r": 28,
+              "fill": "#dc2626",
+              "stroke": "#334155",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                65,
+                122
+              ],
+              "s": "Đỏ cảnh báo",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "txt",
+              "p": [
+                112,
+                82
+              ],
+              "s": "+",
+              "anchor": "middle",
+              "size": 22
+            },
+            {
+              "t": "circle",
+              "c": [
+                158,
+                75
+              ],
+              "r": 28,
+              "fill": "#15803d",
+              "stroke": "#334155",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                158,
+                122
+              ],
+              "s": "Xanh rừng",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "txt",
+              "p": [
+                204,
+                82
+              ],
+              "s": "=",
+              "anchor": "middle",
+              "size": 22
+            },
+            {
+              "t": "circle",
+              "c": [
+                252,
+                75
+              ],
+              "r": 28,
+              "fill": "#15803d",
+              "stroke": "#334155",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                252,
+                82
+              ],
+              "s": "",
+              "anchor": "middle",
+              "size": 22
+            }
+          ]
+        }
+      },
+      {
+        "c": "MT7-B07-011",
+        "d": "application",
+        "p": "Trên bìa một cuốn sách khoa học vũ trụ dành cho thanh thiếu niên, để làm nổi bật cụm tên sách giữa nền bầu trời đêm đầy sao lấp lánh, giải pháp đồ họa nào hiệu quả nhất?",
+        "o": [
+          "Dùng chữ in không chân nét dày màu trắng hoặc vàng sáng đặt trên vùng tối tĩnh lặng của bầu trời, tránh đặt chữ đè lên vùng sao quá chói",
+          "Viết chữ chạy chéo rối qua toàn bộ mặt các hành tinh",
+          "Đặt chữ đúng vào tâm ngôi sao chổi sáng chói nhất cho trùng màu",
+          "Dùng chữ nét mảnh li ti màu xanh đen đặt lên nền đen"
+        ],
+        "k": "A",
+        "e": "Kiểm soát độ tương phản nền - chữ là quy tắc sống còn giúp tiêu đề không bị \"nuốt mất\" bởi hình minh họa phức tạp phía sau.",
+        "s": "Mĩ Thuật 7",
+        "h": "Xử lí chữ trên nền hình phức tạp"
+      },
+      {
+        "c": "MT7-B07-012",
+        "d": "application",
+        "p": "Khi trưng bày loạt bìa sách do các tổ trong lớp sáng tạo cho cùng một tác phẩm văn học \"Dế Mèn phiêu lưu kí\", tiêu chí đánh giá nào khách quan và toàn diện nhất?",
+        "o": [
+          "Chỉ chấm điểm cao cho bìa nào có giá tiền mua giấy đắt nhất",
+          "Tính phù hợp nội dung tác phẩm, bố cục chữ - hình hài hòa dễ đọc, sự sáng tạo riêng và kĩ thuật thể hiện sạch đẹp",
+          "Chỉ chấm kích thước khổ giấy to nhất mà không nhìn hình vẽ",
+          "Bìa nào càng giống hệt nhau sao chép nguyên xi từ ảnh trên mạng càng tốt"
+        ],
+        "k": "B",
+        "e": "Đánh giá dựa trên bộ tiêu chí thẩm mĩ và truyền thông giúp học sinh nhận ra điểm mạnh cần phát huy ở từng sản phẩm.",
+        "s": "Mĩ Thuật 7",
+        "h": "Tiêu chí đánh giá sản phẩm thiết kế bìa sách"
+      },
+      {
+        "c": "MT7-B07-013",
+        "d": "advanced",
+        "p": "Trong thiết kế áp phích hiện đại trên thế giới, nhiều tác phẩm đỉnh cao thậm chí gần như bỏ hết chữ khẩu hiệu rườm rà mà dùng \"ẩn dụ thị giác\" (visual metaphor). Điều đó hoạt động thế nào?",
+        "o": [
+          "Viết lại toàn bộ từ điển tiếng Việt bằng chữ siêu nhỏ lên tranh",
+          "Kết hợp hai hình ảnh quen thuộc một cách bất ngờ (như điếu thuốc ghép thành nòng súng hay gốc cây hình lá phổi) để người xem tự bừng tỉnh suy ngẫm sâu sắc",
+          "Xóa hết mọi hình ảnh chỉ giữ lại khung giấy trắng tinh trống không",
+          "Chỉ sao chép một bức ảnh phong cảnh đẹp mà không gửi gắm ý tứ nào"
+        ],
+        "k": "B",
+        "e": "Ẩn dụ thị giác vượt qua rào cản ngôn ngữ giữa các quốc gia, chạm trực tiếp vào trí tuệ và cảm xúc người xem.",
+        "s": "Mĩ Thuật 7",
+        "h": "Nghệ thuật ẩn dụ thị giác trong áp phích"
+      },
+      {
+        "c": "MT7-B07-014",
+        "d": "advanced",
+        "p": "Tại sao khi thiết kế trọn bộ một \"tủ sách nhiều tập\" (như bộ truyện lịch sử 10 tập), nhà thiết kế đồ họa lại giữ cố định vị trí logo, hệ thống lưới chữ và kích thước khung ảnh chung cho cả 10 bìa?",
+        "o": [
+          "Để đánh lừa người mua tưởng 10 tập đều có nội dung giống hệt nhau",
+          "Vì máy in công nghiệp bị hỏng không thay đổi được kích thước chữ",
+          "Vì luật xuất bản cấm các cuốn sách trong một bộ có hình minh họa khác màu",
+          "Để tạo tính nhận diện hệ thống nhất quán (series identity), giúp các tập đứng cạnh nhau trên giá sách trông đẹp mắt và độc giả nhận ra ngay cùng bộ sách"
+        ],
+        "k": "D",
+        "e": "Thiết kế hệ thống (design system) là tư duy chuyên nghiệp giúp nâng tầm thương hiệu cho cả bộ sách lẫn nhà xuất bản.",
+        "s": "Mĩ Thuật 7",
+        "h": "Tính nhận diện hệ thống cho bộ sách nhiều tập"
+      },
+      {
+        "c": "MT7-B07-015",
+        "d": "advanced",
+        "p": "Một tờ áp phích đăng trên mạng xã hội (màn hình điện thoại nhỏ) khác gì về ưu tiên bố cục so với tờ áp phích dán ở ngã tư đường phố rộng?",
+        "o": [
+          "Cả hai không có điểm gì chung và không thể thiết kế trên máy tính",
+          "Áp phích trên màn hình nhỏ càng cần ít chữ hơn nữa, hình trung tâm phóng lớn sắc nét và độ tương phản cực cao để không bị lướt qua trong nửa giây",
+          "Trên điện thoại phải bỏ hết màu sắc chỉ giữ màu xám mờ",
+          "Áp phích trên điện thoại cần viết thật nhiều chữ nhỏ li ti gấp mười lần ngoài phố"
+        ],
+        "k": "B",
+        "e": "Hiểu rõ môi trường hiển thị (print hay digital) là năng lực cốt lõi của nhà thiết kế truyền thông thế kỉ XXI.",
+        "s": "Mĩ Thuật 7",
+        "h": "Thích ứng thiết kế áp phích theo môi trường hiển thị"
+      }
+    ]
+  },
+  {
+    "chapter": "mithuat7-c3",
+    "lesson": {
+      "code": "mithuat7-b08",
+      "title": "Bài 8. Tạo dáng và trang trí sản phẩm thủ công",
+      "seq": 8,
+      "subtitle": "Nguyên tắc hài hòa giữa công năng sử dụng và hình thức trang trí trên đồ vật (hộp bút, lọ hoa, túi giấy)",
+      "concepts": [
+        "Công năng và hình thức hài hòa",
+        "Tạo dáng sản phẩm 3D",
+        "Trang trí bề mặt hợp lí"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT7-B08-001",
+        "d": "basic",
+        "p": "Trong mĩ thuật ứng dụng, hai yếu tố cốt lõi nào luôn phải song hành thống nhất khi thiết kế một sản phẩm thủ công (cốc uống nước, hộp bút, túi xách)?",
+        "o": [
+          "Chỉ cần sơn màu sặc sỡ mà dễ vỡ hoặc gây xước tay khi cầm",
+          "Chỉ cần thật to nặng cồng kềnh còn không dùng được cũng không sao",
+          "Công năng sử dụng tiện lợi, an toàn và hình thức dáng vẻ thẩm mĩ đẹp mắt",
+          "Bỏ qua hình dáng bên ngoài và giấu kín bên trong kho"
+        ],
+        "k": "C",
+        "e": "Đồ vật ứng dụng đẹp đến đâu mà không sử dụng được (ví dụ ấm rót bị đổ nước hay hộp bút dễ lật ngã) đều chưa đạt chuẩn thiết kế.",
+        "s": "Mĩ Thuật 7",
+        "h": "Mối quan hệ công năng và thẩm mĩ"
+      },
+      {
+        "c": "MT7-B08-002",
+        "d": "basic",
+        "p": "Khi thiết kế và làm một chiếc ống đựng bút đặt trên bàn học bằng lõi bìa cứng, yêu cầu kĩ thuật quan trọng đầu tiên giúp sản phẩm dùng tốt là gì?",
+        "o": [
+          "Để hở cả hai đầu không làm đáy khiến bút rơi hết ra ngoài",
+          "Gắn toàn gai nhọn sắc xung quanh miệng ống",
+          "Làm ống cao tới 50 cm che khuất hết cả cái bút chì bên trong",
+          "Phần đáy rộng vững chắc để không bị đổ ngã khi cắm nhiều bút và chiều cao phù hợp để lấy bút dễ dàng"
+        ],
+        "k": "D",
+        "e": "Tính ổn định vật lí và kích thước vừa tay cầm quyết định trực tiếp giá trị sử dụng hằng ngày của ống đựng bút.",
+        "s": "Mĩ Thuật 7",
+        "h": "Yêu cầu công năng của ống đựng bút"
+      },
+      {
+        "c": "MT7-B08-003",
+        "d": "basic",
+        "p": "Chất liệu nào dễ kiếm trong sinh hoạt gia đình và rất thân thiện để học sinh lớp 7 sáng tạo sản phẩm túi giấy, hộp quà hoặc lọ hoa thủ công?",
+        "o": [
+          "Bìa các-tông, giấy báo cũ, chai lọ thủy tinh cũ, dây cói, cúc áo và vải vụn",
+          "Vật liệu phóng xạ quý hiếm trong phòng thí nghiệm",
+          "Thủy ngân lỏng và axit hóa học công nghiệp",
+          "Mảnh tôn sắt rỉ sét nhiều cạnh bén gây đứt tay"
+        ],
+        "k": "A",
+        "e": "Tận dụng phế liệu sạch an toàn vừa tiết kiệm chi phí vừa lan tỏa lối sống xanh giảm rác thải nhựa.",
+        "s": "Mĩ Thuật 7",
+        "h": "Lựa chọn vật liệu an toàn và tái chế"
+      },
+      {
+        "c": "MT7-B08-004",
+        "d": "basic",
+        "p": "Khi trang trí họa tiết trên thân một chiếc lọ hoa hình trụ tròn, vị trí trang trí đường diềm thường đặt ở đâu để tôn lên dáng lọ thanh thoát nhất?",
+        "o": [
+          "Chỉ vẽ một chấm nhỏ mờ ở phía bên trong lòng lọ không ai nhìn thấy",
+          "Quanh phần vai, cổ lọ hoặc chia mảng cân đối ở phần thân phình để làm điểm nhấn nhẹ nhàng",
+          "Che kín miệng lọ bằng tấm bìa đặc khiến không cắm được hoa",
+          "Dán kín các gai giấy lởm chởm xuống tận mặt đáy tiếp xúc bàn làm lọ kênh nghiêng"
+        ],
+        "k": "B",
+        "e": "Trang trí phải tuân theo cấu trúc dáng vật: nhấn ở phần chính diện hoặc cổ vai, giữ đáy phẳng sạch để đứng vững.",
+        "s": "Mĩ Thuật 7",
+        "h": "Vị trí trang trí tôn dáng sản phẩm"
+      },
+      {
+        "c": "MT7-B08-005",
+        "d": "basic",
+        "p": "Quy trình hợp lí nhất để tạo ra một sản phẩm túi giấy đựng quà hoàn chỉnh gồm những bước nào?",
+        "o": [
+          "Phác thảo mẫu và tính kích thước -> Cắt gấp tạo dáng túi -> Dán lắp ghép chắc chắn và làm quai -> Trang trí bề mặt",
+          "Trang trí tỉ mỉ vẽ hoa lên tờ giấy trước -> Vò nát giấy đi -> Cắt vụn làm túi không đáy",
+          "Dán kín luôn cả miệng túi để không bỏ được quà vào",
+          "Gắn quai dây trước khi có thân túi"
+        ],
+        "k": "A",
+        "e": "Hoàn thiện kết cấu dáng 3D chuẩn chỉnh trước khi hoàn tất trang trí giúp họa tiết không bị lệch nếp gấp hoặc cắt cụt.",
+        "s": "Mĩ Thuật 7",
+        "h": "Quy trình tạo dáng và trang trí túi giấy"
+      },
+      {
+        "c": "MT7-B08-006",
+        "d": "basic",
+        "p": "Trên bề mặt chiếc hộp đựng quà nhỏ dành tặng người lớn tuổi (ông bà, bố mẹ), phong cách màu sắc và họa tiết trang trí nào thường phù hợp nhất?",
+        "o": [
+          "Hình đầu lâu xương chéo đen trắng u ám",
+          "Dán toàn các mẩu giấy quảng cáo giảm giá siêu thị",
+          "Gam màu trang nhã ấm áp (đỏ trầm, vàng kem, xanh lam) cùng họa tiết hoa lá cổ điển hoặc lời chúc gọn gàng tinh tế",
+          "Tô màu loang lổ bẩn thỉu bằng mực rơi vãi"
+        ],
+        "k": "C",
+        "e": "Sản phẩm thủ công mang giá trị tinh thần cao khi biết chọn ngôn ngữ thẩm mĩ phù hợp lứa tuổi và sở thích người nhận.",
+        "s": "Mĩ Thuật 7",
+        "h": "Chọn trang trí phù hợp đối tượng sử dụng"
+      },
+      {
+        "c": "MT7-B08-007",
+        "d": "application",
+        "p": "Quan sát bảng quy cách ống đựng bút dưới đây, nếu chiếc ống cao 12 cm nhưng đáy tròn đường kính chỉ rộng 3 cm, vấn đề gì chắc chắn xảy ra khi sử dụng thực tế?",
+        "o": [
+          "Ống sẽ đứng vững gấp mười lần chiếc hộp có đáy rộng 9 cm",
+          "Ống rất dễ bị lật đổ khi cắm vài cây bút dài hoặc thước kẻ nặng nghiêng về một bên",
+          "Bút chì bên trong tự động ngắn lại cho vừa đáy",
+          "Không có vấn đề gì vì ống càng hẹp đáy càng khó ngã"
+        ],
+        "k": "B",
+        "e": "Tỉ lệ đường kính đáy so với chiều cao quyết định trực tiếp độ vững trọng tâm của mọi vật dụng hình trụ.",
+        "s": "Mĩ Thuật 7",
+        "h": "Tính toán tỉ lệ chiều cao và đáy sản phẩm",
+        "fig": {
+          "type": "table",
+          "title": "Tỉ lệ ống đựng bút",
+          "head": [
+            "Thông số",
+            "Đạt chuẩn",
+            "Lỗi thường gặp"
+          ],
+          "rows": [
+            [
+              "Chiều cao",
+              "10 - 13 cm",
+              "Quá cao > 22 cm"
+            ],
+            [
+              "Đường kính đáy",
+              "7 - 9 cm",
+              "Quá hẹp < 4 cm"
+            ],
+            [
+              "Mép miệng ống",
+              "Nhẵn an toàn",
+              "Sắc dễ xước tay"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT7-B08-008",
+        "d": "application",
+        "p": "Một bạn học sinh làm túi giấy đựng sách vở nhưng chỉ dùng keo hồ dán giấy mỏng để gắn hai sợi quai xách vào mép giấy mỏng không gia cố. Rủi ro thực tế nào dễ xảy ra?",
+        "o": [
+          "Quai giấy tự hàn liền lại với thân túi",
+          "Sách bên trong tự động nhẹ đi như bông",
+          "Túi giấy trở nên chịu lực được tới 50 kilôgam",
+          "Quai túi sẽ bị rách toạc khỏi mép miệng túi ngay khi nhấc cuốn sách nặng lên"
+        ],
+        "k": "D",
+        "e": "Gia cố thêm một miếng bìa cứng lót bên trong mép miệng túi tại điểm gắn quai (hoặc xỏ lỗ thắt nút) là giải pháp kĩ thuật chuẩn mực.",
+        "s": "Mĩ Thuật 7",
+        "h": "Gia cố điểm chịu lực cho quai túi"
+      },
+      {
+        "c": "MT7-B08-009",
+        "d": "application",
+        "p": "Khi tái chế một vỏ chai nhựa trong suốt thành chiếc lọ hoa trang trí bàn học, cách xử lí bề mặt nào biến vật liệu nhựa bình thường thành sản phẩm nghệ thuật có gu thẩm mĩ?",
+        "o": [
+          "Đổ đầy nước bẩn có bùn đất vào bên trong rồi bít nắp kín",
+          "Cắt gọt phẳng an toàn phần miệng, quấn kín thân bằng dây thừng đay tự nhiên hoặc sơn mờ màu phấn nhẹ kèm nhánh hoa khô trang nhã",
+          "Dùng lửa đốt trực tiếp làm chai chảy méo mó đen khét",
+          "Để nguyên nhãn mác vỏ chai rách nát và cắt miệng chai lởm chởm sắc nhọn"
+        ],
+        "k": "B",
+        "e": "Che giấu khuyết điểm công nghiệp bằng chất liệu tự nhiên (dây cói, vải bố) hoặc màu sơn lì giúp sản phẩm thủ công trông tinh tế, sang trọng.",
+        "s": "Mĩ Thuật 7",
+        "h": "Nâng tầm thẩm mĩ cho đồ tái chế"
+      },
+      {
+        "c": "MT7-B08-010",
+        "d": "application",
+        "p": "Khi trang trí một chiếc hộp vuông đựng đồ dùng bằng họa tiết hình học đối xứng (đường diềm hoặc mặt vuông), phương pháp nào giúp bốn mặt hộp liên kết hài hòa với nhau?",
+        "o": [
+          "Chỉ trang trí mặt trước rồi để ba mặt còn lại nhem nhuốc vết keo",
+          "Thống nhất một hệ họa tiết và bảng màu đồng bộ chạy liên tiếp quanh bốn mặt xung quanh hộp, kết hợp nắp hộp làm điểm nhấn tương đồng",
+          "Vẽ đè họa tiết lệch khỏi đường gấp làm hình bị cắt đứt giữa nếp",
+          "Mỗi mặt vẽ một chủ đề và một kiểu màu hoàn toàn chọi nhau không liên quan"
+        ],
+        "k": "B",
+        "e": "Sản phẩm 3D được nhìn từ nhiều góc nên sự liên thông giữa các mặt cạnh và nắp hộp tạo nên cảm giác hoàn thiện cao cấp.",
+        "s": "Mĩ Thuật 7",
+        "h": "Sự thống nhất đa mặt trên hộp 3D"
+      },
+      {
+        "c": "MT7-B08-011",
+        "d": "application",
+        "p": "Một nhóm làm lồng đèn Trung thu bằng nan tre và giấy bóng kính nhưng dán giấy quá căng không chừa lỗ thoáng khí phía đỉnh. Khi thắp nến bên trong sẽ dẫn đến nguy cơ nào?",
+        "o": [
+          "Giấy bóng kính tự biến thành thép không gỉ",
+          "Ngọn nến không cần không khí vẫn cháy được mãi mãi",
+          "Lồng đèn sẽ phát sáng mạnh gấp trăm lần và mát lạnh hơn",
+          "Hơi nóng tích tụ làm cháy giấy lồng đèn rất nguy hiểm; cần thiết kế lỗ thoát nhiệt phía trên hoặc dùng đèn LED dùng pin an toàn"
+        ],
+        "k": "D",
+        "e": "Kiến thức mĩ thuật ứng dụng luôn gắn chặt với an toàn vật lí và trải nghiệm thực tế của người sử dụng.",
+        "s": "Mĩ Thuật 7",
+        "h": "An toàn nhiệt và chiếu sáng khi làm đèn"
+      },
+      {
+        "c": "MT7-B08-012",
+        "d": "application",
+        "p": "Trong hội chợ gây quỹ học sinh, sản phẩm sổ tay bìa bồi vải thổ cẩm do lớp em tự làm muốn thu hút khách hàng trẻ. Cách đóng gói và trưng bày nào chuyên nghiệp nhất?",
+        "o": [
+          "Bọc gọn gàng bằng đai giấy kraft ghi tên sản phẩm thủ công, xếp ngay ngắn theo nhóm màu trên kệ trưng bày sạch sẽ có ánh sáng tốt",
+          "Gấp cong hết góc bìa sổ lại để nhét vào bao tải kín",
+          "Treo giá bán cao gấp 10 lần dù đường dán mép còn hở lem nhem",
+          "Vứt chồng đống lộn xộn tất cả sản phẩm dưới nền đất ẩm ướt"
+        ],
+        "k": "A",
+        "e": "Chăm chút từ đường hoàn thiện sản phẩm đến cách trình bày giúp người mua trân trọng công sức sáng tạo thủ công.",
+        "s": "Mĩ Thuật 7",
+        "h": "Hoàn thiện và trưng bày sản phẩm thủ công"
+      },
+      {
+        "c": "MT7-B08-013",
+        "d": "advanced",
+        "p": "Triết lí thiết kế hiện đại \"Form follows function\" (Hình thức tuân theo công năng) được áp dụng vào việc tạo dáng sản phẩm thủ công như thế nào?",
+        "o": [
+          "Xóa sạch mọi chức năng sử dụng của đồ vật để chỉ để ngắm từ xa",
+          "Làm hình thức thật kì dị khó dùng rồi mới ép người sử dụng phải chịu đựng",
+          "Mọi đường cong tay cầm, độ dày thành vật hay tỉ lệ đế đều bắt nguồn từ sự tiện dụng và cấu trúc chịu lực tự nhiên của vật đó trước khi thêm hoa văn trang trí",
+          "Không cần suy nghĩ về dáng vật mà cứ dán hoa văn kín cả sản phẩm"
+        ],
+        "k": "C",
+        "e": "Đỉnh cao của thiết kế sản phẩm là khi bản thân hình dáng tối ưu công năng đã toát lên vẻ đẹp hài hòa (như chiếc bình gốm Chu Đậu hay ấm tử sa).",
+        "s": "Mĩ Thuật 7",
+        "h": "Triết lí Hình thức tuân theo công năng"
+      },
+      {
+        "c": "MT7-B08-014",
+        "d": "advanced",
+        "p": "Tại sao đồ thủ công làm bằng tay (handmade) sử dụng chất liệu tự nhiên (mây tre đan, gốm mộc, vải nhuộm chàm) ngày càng có giá trị cao trong thời đại hàng công nghiệp sản xuất hàng loạt?",
+        "o": [
+          "Vì mỗi sản phẩm thủ công mang dấu ấn độc bản, hơi ấm bàn tay nghệ nhân, thân thiện môi trường và kết tinh giá trị văn hóa bản địa",
+          "Vì đồ thủ công bắt buộc phải đắt gấp nghìn lần vàng mới được bán",
+          "Vì máy móc công nghiệp ngày nay không thể sản xuất bất kì món đồ nào",
+          "Vì hàng thủ công luôn có chất lượng kém hơn và nhanh hỏng nhất"
+        ],
+        "k": "A",
+        "e": "Giữa thế giới hàng công nghiệp giống hệt nhau, tính độc bản và câu chuyện văn hóa tạo nên sức hút bền vững của nghề thủ công.",
+        "s": "Mĩ Thuật 7",
+        "h": "Giá trị độc bản của sản phẩm thủ công"
+      },
+      {
+        "c": "MT7-B08-015",
+        "d": "advanced",
+        "p": "Khi thiết kế một món đồ dùng học tập bằng bìa tái chế có khả năng \"tháo lắp gập gọn\" khi không dùng tới, nhà thiết kế trẻ đang áp dụng tư duy đổi mới nào?",
+        "o": [
+          "Tư duy phá hoại làm sản phẩm tự rã nát thành từng mảnh rác",
+          "Làm phức tạp hóa công việc gấp mười lần mà không đem lại lợi ích gì",
+          "Tư duy thiết kế thông minh linh hoạt (modular design), tối ưu không gian lưu trữ, vận chuyển và kéo dài vòng đời sử dụng vật liệu",
+          "Bỏ qua hoàn toàn tính vững chắc khi dựng thành hộp sử dụng"
+        ],
+        "k": "C",
+        "e": "Thiết kế mô-đun gập gọn là xu hướng công nghiệp xanh cực kì thịnh hành trong đồ gia dụng và bao bì hiện đại.",
+        "s": "Mĩ Thuật 7",
+        "h": "Tư duy thiết kế gập gọn mô-đun"
+      }
+    ]
+  },
+  {
+    "chapter": "mithuat7-c3",
+    "lesson": {
+      "code": "mithuat7-b09",
+      "title": "Bài 9. Nghệ thuật sắp đặt từ vật liệu tái chế",
+      "seq": 9,
+      "subtitle": "Khái niệm nghệ thuật sắp đặt (Installation Art), biến đổi không gian bằng đồ tái chế và thông điệp xanh",
+      "concepts": [
+        "Đặc trưng nghệ thuật sắp đặt",
+        "Chọn và xử lí vật liệu tái chế",
+        "Không gian trưng bày và thông điệp"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT7-B09-001",
+        "d": "basic",
+        "p": "Nghệ thuật sắp đặt (Installation Art) trong mĩ thuật đương đại có đặc điểm nổi bật nhất là gì?",
+        "o": [
+          "Chỉ là một bức vẽ nhỏ bằng bút chì nằm gọn trong quyển vở ô li",
+          "Sử dụng tập hợp nhiều đồ vật, chất liệu bố trí trong một không gian ba chiều cụ thể để tạo trải nghiệm đa giác quan cho người xem",
+          "Là một bản nhạc phát trên đài không có hình ảnh vật chất nào",
+          "Chỉ dùng duy nhất màu nước tô trên tờ giấy mỏng A4"
+        ],
+        "k": "B",
+        "e": "Khác với bức tranh treo tường phẳng, nghệ thuật sắp đặt chiếm lĩnh cả một góc phòng, sân trường và mời người xem bước vào cảm nhận.",
+        "s": "Mĩ Thuật 7",
+        "h": "Khái niệm nghệ thuật sắp đặt"
+      },
+      {
+        "c": "MT7-B09-002",
+        "d": "basic",
+        "p": "Vì sao vật liệu tái chế (chai nhựa, vỏ lon, lốp xe cũ, cành cây khô, bìa hộp) thường được chọn để thực hiện các tác phẩm sắp đặt học đường?",
+        "o": [
+          "Nguồn vật liệu dồi dào, tiết kiệm chi phí, giàu hình khối chất liệu đa dạng và truyền tải trực tiếp thông điệp bảo vệ môi trường",
+          "Vì trường học không có không gian treo tranh nên mới dùng tạm rác bẩn",
+          "Để xả thêm nhiều rác nhựa mới ra sân trường sau buổi học",
+          "Vì vật liệu tái chế đắt tiền hơn đá cẩm thạch quý hiếm"
+        ],
+        "k": "A",
+        "e": "Nghệ thuật tái chế biến những thứ tưởng chừng bỏ đi thành tác phẩm thức tỉnh ý thức cộng đồng về tiêu dùng xanh.",
+        "s": "Mĩ Thuật 7",
+        "h": "Ý nghĩa dùng vật liệu tái chế trong sắp đặt"
+      },
+      {
+        "c": "MT7-B09-003",
+        "d": "basic",
+        "p": "Trước khi đưa chai nhựa, hộp sữa hay vỏ lon vào ghép nối tạo tác phẩm sắp đặt trong lớp học, yêu cầu vệ sinh an toàn bắt buộc là gì?",
+        "o": [
+          "Rửa sạch sẽ, phơi khô ráo hoàn toàn và cắt mài hết các cạnh sắc nhọn nguy hiểm",
+          "Ngâm đồ vật trong hóa chất có mùi hắc nồng nặc",
+          "Đập vỡ thủy tinh thành mảnh sắc rải quanh sàn lớp học",
+          "Cứ giữ nguyên sữa thừa và dầu mỡ dính nhớp nháp đem trưng bày"
+        ],
+        "k": "A",
+        "e": "Vệ sinh sạch sẽ vật liệu giúp tác phẩm trưng bày lâu ngày không bốc mùi, không thu hút côn trùng và an toàn cho người xem.",
+        "s": "Mĩ Thuật 7",
+        "h": "Chuẩn bị vật liệu tái chế sạch và an toàn"
+      },
+      {
+        "c": "MT7-B09-004",
+        "d": "basic",
+        "p": "Một tác phẩm sắp đặt thành công ngoài việc xếp nhiều đồ vật gần nhau thì yếu tố nào tạo nên giá trị nghệ thuật thực sự?",
+        "o": [
+          "Cứ đổ một đống lộn xộn hàng trăm chai nhựa ra giữa sàn không xếp đặt gì",
+          "Chỉ mua một cái bàn mới nguyên từ cửa hàng về đặt giữa sân",
+          "Có ý tưởng chủ đề rõ ràng, bố cục nhịp điệu không gian có trọng tâm và khơi gợi suy ngẫm nơi người thưởng thức",
+          "Giấu kín tác phẩm vào trong tủ tối khóa chặt cửa không ai thấy"
+        ],
+        "k": "C",
+        "e": "Ranh giới giữa \"đống phế liệu\" và \"tác phẩm sắp đặt\" nằm ở ý đồ tổ chức bố cục thẩm mĩ và thông điệp tư tưởng bên trong.",
+        "s": "Mĩ Thuật 7",
+        "h": "Yếu tố tạo nên giá trị nghệ thuật sắp đặt"
+      },
+      {
+        "c": "MT7-B09-005",
+        "d": "basic",
+        "p": "Ánh sáng và bóng đổ trong một không gian nghệ thuật sắp đặt giữ vai trò gì?",
+        "o": [
+          "Chỉ dùng để chiếu thẳng làm chói lòa mắt người xem không thấy gì",
+          "Khiến màu sắc của vật liệu biến mất toàn bộ",
+          "Chỉ làm tốn tiền điện nên hoàn toàn không cần quan tâm tới ánh sáng",
+          "Tạo kịch tính không gian, làm nổi bật kết cấu vật liệu tái chế và có thể biến chính bóng đổ lên tường thành một phần của tác phẩm"
+        ],
+        "k": "D",
+        "e": "Chiếu ánh sáng xiên qua các chai nhựa treo hay mạng lưới dây bỏ đi tạo nên hiệu ứng bóng đổ kì ảo mê hoặc.",
+        "s": "Mĩ Thuật 7",
+        "h": "Vai trò của ánh sáng trong sắp đặt"
+      },
+      {
+        "c": "MT7-B09-006",
+        "d": "basic",
+        "p": "Khi thực hành dự án sắp đặt theo nhóm tại sân trường, tác phẩm nên hướng tới chủ đề nào gần gũi và ý nghĩa nhất với lứa tuổi học sinh?",
+        "o": [
+          "Trưng bày các hình ảnh bạo lực đáng sợ trong khu vui chơi",
+          "Cổ vũ việc chặt phá rừng và xả rác bừa bãi xuống sông hồ",
+          "Bảo vệ đại dương xanh, tái sinh rừng cây, kí ức tuổi học trò hoặc chống ô nhiễm rác thải nhựa",
+          "Sao chép bảng giá vật liệu xây dựng không có thông điệp gì"
+        ],
+        "k": "C",
+        "e": "Chủ đề nhân văn gắn với trách nhiệm cộng đồng giúp nghệ thuật sắp đặt lan tỏa sức cảm hóa mạnh mẽ trong trường học.",
+        "s": "Mĩ Thuật 7",
+        "h": "Chủ đề sắp đặt giàu tính nhân văn"
+      },
+      {
+        "c": "MT7-B09-007",
+        "d": "application",
+        "p": "Quan sát bảng định hướng chuyển hóa vật liệu dưới đây, nhóm học sinh muốn tạo hình \"Đàn cá bơi giữa đại dương đầy rác\" tại hành lang lớp học bằng phương án nào hiệu quả nhất?",
+        "o": [
+          "Đổ một chậu nước đầy lên sàn hành lang trơn trượt cho các bạn dẫm vào",
+          "Kết nối vỏ chai nhựa sơn xanh và túi nilon trong suốt thành thân cá lớn treo lơ lửng theo dòng lượn sóng kết hợp ánh sáng xanh dịu",
+          "Vẽ một con cá nhỏ xíu bằng bút bi lên tờ giấy A4 dán dưới chân tường",
+          "Gắn chặt 100 viên gạch đặc lên tường khiến tường bị sập đổ"
+        ],
+        "k": "B",
+        "e": "Tận dụng độ trong suốt bắt sáng của chai nhựa và treo không gian đa tầng tạo cảm giác đàn cá đang bơi lội sống động.",
+        "s": "Mĩ Thuật 7",
+        "h": "Chuyển hóa chai nhựa thành sắp đặt đại dương",
+        "fig": {
+          "type": "table",
+          "title": "Ý tưởng sắp đặt xanh",
+          "head": [
+            "Vật liệu cũ",
+            "Tạo hình mới"
+          ],
+          "rows": [
+            [
+              "Chai nhựa trong",
+              "Đàn cá, sứa biển"
+            ],
+            [
+              "Lốp xe cũ",
+              "Bồn hoa sân trường"
+            ],
+            [
+              "Nắp chai màu",
+              "Tranh ghép tường lớn"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT7-B09-008",
+        "d": "application",
+        "p": "Một nhóm thu gom hàng nghìn chiếc nắp chai nhựa đủ màu sắc để ghép thành bức tranh khảm lớn ngoài sân trường. Để tạo được hình ảnh rõ nét từ xa, nhóm cần làm gì trước khi gắn nắp chai?",
+        "o": [
+          "Trộn lẫn tất cả nắp đủ màu đổ bừa không phân biệt sáng tối",
+          "Dán mỗi nắp cách xa nhau tới nửa mét làm mất hết hình dáng",
+          "Chỉ dùng toàn bộ nắp màu trắng đặt trên nền sơn trắng tinh",
+          "Phác thảo hình mảng lớn cô đọng trên tấm ván nền, phân loại nắp chai theo từng gam màu sáng - tối rồi gắn khít theo mảng"
+        ],
+        "k": "D",
+        "e": "Phân loại sắc độ (giá trị màu) và phác lưới phác thảo trước là bí quyết giúp tranh ghép nắp chai sắc nét như tranh điểm sắc.",
+        "s": "Mĩ Thuật 7",
+        "h": "Kĩ thuật làm tranh sắp đặt từ nắp chai"
+      },
+      {
+        "c": "MT7-B09-009",
+        "d": "application",
+        "p": "Nếu thực hiện một tác phẩm sắp đặt dạng \"treo thả từ trên cao\" trong không gian lớp học, yếu tố kĩ thuật an toàn nào phải đặt lên hàng đầu?",
+        "o": [
+          "Treo các khối sắt nhọn nặng hàng chục kilôgam bằng sợi chỉ khâu mảnh",
+          "Dùng băng dính giấy yếu ớt dán vật nặng lên trần nhà",
+          "Treo thấp ngang mặt ngay giữa lối cửa ra vào để mọi người đụng đầu vào",
+          "Dùng dây treo chắc chắn, phân bổ trọng lượng vật liệu nhẹ nhàng hợp lí và buộc cố định an toàn không để rơi vào đầu người đi qua"
+        ],
+        "k": "D",
+        "e": "An toàn kết cấu treo và lối di chuyển thông thoáng là tiêu chuẩn bắt buộc đối với bất kì triển lãm không gian công cộng nào.",
+        "s": "Mĩ Thuật 7",
+        "h": "An toàn kết cấu khi làm sắp đặt treo"
+      },
+      {
+        "c": "MT7-B09-010",
+        "d": "application",
+        "p": "Để người xem hiểu rõ ý tưởng sâu sắc của tác phẩm sắp đặt tái chế mà không cần người thuyết minh đứng nói suốt cả ngày, nhóm tác giả nên bố trí thêm thứ gì?",
+        "o": [
+          "Một bảng tên tác phẩm (concept note) ngắn gọn sạch đẹp giải thích tên, chất liệu tái chế sử dụng và thông điệp chính",
+          "Không đặt bất kì tên hay ghi chú nào, ai hỏi cũng giữ bí mật không nói",
+          "Viết 50 trang tiểu thuyết dán kín lên từng cái chai nhựa",
+          "Đặt thêm một chiếc loa mở nhạc quá to làm mọi người bỏ chạy"
+        ],
+        "k": "A",
+        "e": "Tấm thẻ chú thích tác phẩm chuyên nghiệp (tên - tác giả - chất liệu - ý tưởng) là cầu nối giúp công chúng giải mã ngôn ngữ đương đại.",
+        "s": "Mĩ Thuật 7",
+        "h": "Trình bày thẻ chú thích tác phẩm sắp đặt"
+      },
+      {
+        "c": "MT7-B09-011",
+        "d": "application",
+        "p": "Trong một tác phẩm sắp đặt kêu gọi tiết kiệm nước sạch, nhóm dùng hình tượng chiếc vòi nước khổng lồ bằng ống bìa đang nhỏ ra hàng trăm \"giọt nước\" làm từ túi nilon xám đục chứa rác. Thủ pháp nghệ thuật nào đang được sử dụng?",
+        "o": [
+          "Thủ pháp phóng đại tỉ lệ kết hợp tương phản ý nghĩa (giọt nước sạch bị thay bằng rác thải) để gây sốc nhận thức mạnh mẽ",
+          "Thủ pháp trang trí đường diềm cổ điển thời phong kiến",
+          "Thủ pháp giấu kín mọi vật vào trong hộp gỗ đóng đinh",
+          "Thủ pháp sao chép ảnh chụp kích thước thật 1-1 không thay đổi gì"
+        ],
+        "k": "A",
+        "e": "Thay đổi tỉ lệ đột ngột và đảo nghịch kì vọng là hai vũ khí truyền thông lợi hại bậc nhất của nghệ thuật sắp đặt.",
+        "s": "Mĩ Thuật 7",
+        "h": "Thủ pháp phóng đại và tương phản ý nghĩa"
+      },
+      {
+        "c": "MT7-B09-012",
+        "d": "application",
+        "p": "Sau khi kết thúc tuần lễ triển lãm nghệ thuật sắp đặt tái chế tại trường học, bước xử lí hậu triển lãm nào trọn vẹn nhất với tinh thần sống xanh?",
+        "o": [
+          "Đốt toàn bộ khối nhựa trước cổng trường gây khói bụi ô nhiễm",
+          "Chôn lấp hết nắp chai nhựa xuống vườn hoa trường",
+          "Vứt bừa bãi cả tác phẩm ra bãi cỏ sân trường rồi mặc kệ",
+          "Phân loại giữ lại các cụm tác phẩm đẹp để trang trí lâu dài hoặc tháo dỡ gửi vật liệu nhựa, giấy, kim loại về đúng điểm thu gom tái chế"
+        ],
+        "k": "D",
+        "e": "Vòng đời bền vững của tác phẩm kết thúc trọn vẹn khi vật liệu tiếp tục đi vào chu trình tái chế chứ không biến thành rác mới.",
+        "s": "Mĩ Thuật 7",
+        "h": "Xử lí vật liệu xanh sau triển lãm"
+      },
+      {
+        "c": "MT7-B09-013",
+        "d": "advanced",
+        "p": "Nhiều tác phẩm sắp đặt đương đại nổi tiếng trên thế giới mang tính \"tương tác\" (cho phép người xem bước qua, chạm nhẹ hoặc tự gắn thêm một mảnh giấy ước nguyện). Sự tham gia của khán giả thay đổi tác phẩm thế nào?",
+        "o": [
+          "Phá hủy mọi quy luật bố cục không gian nên không được xem là nghệ thuật",
+          "Làm tác phẩm biến mất hoàn toàn vì không có nghệ sĩ nào tạo ra nó",
+          "Biến người xem từ khán giả đứng nhìn thụ động trở thành một phần đồng sáng tạo hoàn thiện sức sống cho chính tác phẩm đó",
+          "Khiến người xem không được phép có bất kì cảm xúc cá nhân nào"
+        ],
+        "k": "C",
+        "e": "Nghệ thuật tương tác (interactive installation) xóa nhòa ranh giới giữa nghệ sĩ và công chúng, tạo nên kí ức tập thể khó quên.",
+        "s": "Mĩ Thuật 7",
+        "h": "Giá trị của nghệ thuật sắp đặt tương tác"
+      },
+      {
+        "c": "MT7-B09-014",
+        "d": "advanced",
+        "p": "Phân tích lí do vì sao một tác phẩm sắp đặt có sử dụng hình ảnh \"chiếc cây khổng lồ làm hoàn toàn từ hàng nghìn chai nước nhựa trắng\" lại tác động mạnh hơn nhiều so với một con số thống kê khô khan \"mỗi phút có một triệu chai nhựa bị thải ra\"?",
+        "o": [
+          "Vì học sinh không biết đọc các con số trên bảng thống kê",
+          "Hình khối vật chất khổng lồ đánh thẳng vào thị giác và không gian, giúp người xem cảm nhận trực diện quy mô khủng hoảng rác thải",
+          "Vì tác phẩm làm từ chai nhựa tốn kém hơn làm bằng vàng",
+          "Vì con số thống kê luôn sai sự thật nên không ai tin"
+        ],
+        "k": "B",
+        "e": "Nghệ thuật chuyển hóa dữ liệu khô khan thành cảm xúc trực giác giúp thay đổi thói quen con người nhanh hơn rất nhiều lần.",
+        "s": "Mĩ Thuật 7",
+        "h": "Sức mạnh trực giác của nghệ thuật so với số liệu"
+      },
+      {
+        "c": "MT7-B09-015",
+        "d": "advanced",
+        "p": "Khi sáng tác sắp đặt \"cảnh quan đặc thù\" (site-specific installation) ngay dưới gốc cây cổ thụ sân trường, người nghệ sĩ cần tôn trọng nguyên tắc gì?",
+        "o": [
+          "Đối thoại hài hòa với địa hình, ánh nắng xuyên tán lá và thân cây thật mà không đóng đinh, chặt cành hay làm tổn thương đến sinh trưởng của cây",
+          "Thiết kế tách rời hoàn toàn không cần nhìn xem sân trường có gì",
+          "Cưa bớt cành cây và đào tung hết rễ cây lên cho dễ đặt mô hình",
+          "Bê toàn bộ cái bàn ở lớp ra đè bẹp bồn hoa dưới gốc cây"
+        ],
+        "k": "A",
+        "e": "Nghệ thuật gắn địa điểm tôn vinh vẻ đẹp sẵn có của thiên nhiên nơi đặt tác phẩm như một người bạn đồng hành dịu dàng.",
+        "s": "Mĩ Thuật 7",
+        "h": "Nguyên tắc nghệ thuật gắn kết địa điểm"
+      }
+    ]
+  },
+  {
+    "chapter": "mithuat7-c4",
+    "lesson": {
+      "code": "mithuat7-b10",
+      "title": "Bài 10. Kí họa dáng người trong sinh hoạt hằng ngày",
+      "seq": 10,
+      "subtitle": "Kĩ thuật quan sát nhanh, bắt trục xương sống chuyển động và nét bút tự tin khi kí họa dáng người",
+      "concepts": [
+        "Mục đích của tranh kí họa",
+        "Bắt trục chuyển động dáng người",
+        "Luyện nét kí họa sinh động"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT7-B10-001",
+        "d": "basic",
+        "p": "Kí họa là hình thức vẽ như thế nào trong mĩ thuật?",
+        "o": [
+          "Chép lại thật chậm trong 3 tháng một bức ảnh phong cảnh tĩnh vật",
+          "Vẽ nhanh, trực tiếp tại chỗ nhằm ghi lại những nét đặc trưng nhất về hình dáng, tư thế động tác và không khí của đối tượng",
+          "Vẽ bằng thước kĩ thuật đo từng milimét đường thẳng song song",
+          "Dùng máy ảnh chụp thật nhiều ảnh rồi không vẽ nét nào"
+        ],
+        "k": "B",
+        "e": "Kí họa giúp rèn đôi mắt quan sát nhanh nhạy, ghi chép vốn sống phong phú làm tư liệu quý cho sáng tác tranh đề tài.",
+        "s": "Mĩ Thuật 7",
+        "h": "Khái niệm và mục đích của kí họa"
+      },
+      {
+        "c": "MT7-B10-002",
+        "d": "basic",
+        "p": "Khi kí họa một bạn học sinh đang chạy đá cầu hoặc cúi người quét sân, bước khởi đầu quan trọng nhất cần xác định trong vài giây đầu là gì?",
+        "o": [
+          "Dùng compa quay hai hình tròn đều tăm tắp ở góc giấy",
+          "Nắm bắt nhanh đường trục sống lưng, hướng nghiêng vai - hông và thế chuyển động tổng thể của tay chân",
+          "Vẽ đôi giày thật kĩ trong 20 phút rồi mới nghĩ tới phần đầu",
+          "Vẽ tỉ mỉ từng sợi lông mi và chiếc khuy áo nhỏ xíu trước tiên"
+        ],
+        "k": "B",
+        "e": "Bắt đúng \"đường động lực\" (line of action) giúp dáng người dù chỉ vài nét đơn giản vẫn toát lên sức sống chuyển động mạnh mẽ.",
+        "s": "Mĩ Thuật 7",
+        "h": "Nắm bắt trục chuyển động khi kí họa"
+      },
+      {
+        "c": "MT7-B10-003",
+        "d": "basic",
+        "p": "Tư thế nào giúp nhận ra rõ sự chuyển động năng động của một người đang đi bộ nhanh hoặc chạy nhảy so với người đứng nghiêm thẳng?",
+        "o": [
+          "Hai tay và hai chân cùng một bên vung ra giống hệt nhau cứng đơ",
+          "Thân người ngả nghiêng về phía trước, tay chân đánh so le nghịch chiều (tay trái đưa trước đi kèm chân phải bước tới) và góc vai - hông nghiêng đối lập",
+          "Thân người đứng thẳng vuông góc 90 độ với mặt đất",
+          "Hai chân khép sát song song thẳng đứng, hai tay ép chặt vào đùi"
+        ],
+        "k": "B",
+        "e": "Nguyên lí đối trọng tự nhiên của cơ thể khi di chuyển giúp hình vẽ không bao giờ bị \"đứng cứng như tượng gỗ\".",
+        "s": "Mĩ Thuật 7",
+        "h": "Quy luật chuyển động tự nhiên của cơ thể"
+      },
+      {
+        "c": "MT7-B10-004",
+        "d": "basic",
+        "p": "Những chất liệu bút nào gọn nhẹ, ra nét nhanh và rất được ưa chuộng mang theo khi đi kí họa ngoài trời?",
+        "o": [
+          "Máy điêu khắc đá nặng hàng trăm kilôgam",
+          "Bút chì mềm (2B đến 6B), bút kim, bút dạ lông, bút sắt chấm mực hoặc màu nước bỏ túi",
+          "Thùng sơn dầu công nghiệp 20 lít và chổi quét tường lớn",
+          "Bút chì quá cứng 4H vạch không ra nét nhìn được"
+        ],
+        "k": "B",
+        "e": "Bút chì mềm hoặc bút dạ nét linh hoạt giúp họa sĩ chuyển từ nét mảnh sang nét nhấn đậm chỉ bằng lực cổ tay.",
+        "s": "Mĩ Thuật 7",
+        "h": "Dụng cụ gọn nhẹ để kí họa nhanh"
+      },
+      {
+        "c": "MT7-B10-005",
+        "d": "basic",
+        "p": "Khi luyện kí họa dáng người ở giai đoạn mới bắt đầu, vì sao các họa sĩ thường khuyên học sinh không nên lạm dụng cục tẩy (gôm) quá nhiều?",
+        "o": [
+          "Vì vẽ sai cũng bắt buộc phải giữ nguyên bức đó để đi thi",
+          "Vì cục tẩy làm giấy chuyển sang màu đen ngay lập tức",
+          "Vì tẩy xóa liên tục làm gián đoạn mạch quan sát nhanh, mất nét tự nhiên phóng khoáng; hãy cứ vẽ tiếp nhiều dáng chồng hoặc sang trang mới",
+          "Vì nét bút chì không thể nào tẩy được bằng cao su"
+        ],
+        "k": "C",
+        "e": "Sự dứt khoát và chấp nhận nét phác thử sai rèn luyện sự tự tin của bàn tay cùng tốc độ ghi nhận của mắt.",
+        "s": "Mĩ Thuật 7",
+        "h": "Thói quen tự tin không phụ thuộc tẩy xóa"
+      },
+      {
+        "c": "MT7-B10-006",
+        "d": "basic",
+        "p": "Độ dài các nét kí họa nên được sử dụng thế nào để tạo cảm giác không gian gần - xa và chỗ tì đè trọng lượng cơ thể?",
+        "o": [
+          "Dùng một đường nét mỏng đều tăm tắp như máy kẻ dọc toàn bộ cơ thể",
+          "Chỉ dùng toàn nét gạch chéo rời rạc như lưới thép",
+          "Nhấn nét to đậm chắc hơn ở phần khuất tối, phần chịu trọng lực hoặc nếp gấp chính và buông nét thanh nhẹ ở vùng bắt sáng",
+          "Tô đen đặc kín toàn bộ mặt người tới mức không còn phân biệt hình dáng"
+        ],
+        "k": "C",
+        "e": "Nhấn buông nét thanh đậm giúp bản kí họa có \"nhịp thở\", gợi được cả khối 3D và ánh sáng chỉ bằng nét đen trắng.",
+        "s": "Mĩ Thuật 7",
+        "h": "Nhấn nét đậm nhạt trong kí họa"
+      },
+      {
+        "c": "MT7-B10-007",
+        "d": "application",
+        "p": "Quan sát bảng so sánh hai dáng người dưới đây, khi kí họa một người đang ngồi xổm nhổ cỏ hoặc buộc dây giày, sự thay đổi tỉ lệ lớn nhất cần chú ý là gì?",
+        "o": [
+          "Chiều cao tổng thể thu ngắn lại gần một nửa, phần đùi và bắp chân gập chồng khít che khuất nhau theo góc nhìn rút ngắn phối cảnh",
+          "Chân vẫn dài thẳng tắp giống hệt lúc người đó đang đứng thẳng",
+          "Phần đầu bỗng nhiên nhỏ bé đi chỉ còn bằng một hạt đậu",
+          "Tất cả các khớp gối và khuỷu tay duỗi thẳng 180 độ"
+        ],
+        "k": "A",
+        "e": "Hiện tượng \"rút ngắn phối cảnh\" (foreshortening) làm chi tiết hướng về phía người nhìn trông ngắn hẳn đi so với độ dài thực tế.",
+        "s": "Mĩ Thuật 7",
+        "h": "Quan sát tỉ lệ rút ngắn ở tư thế ngồi xổm",
+        "fig": {
+          "type": "table",
+          "title": "Kí họa tư thế sinh hoạt",
+          "head": [
+            "Tư thế",
+            "Đặc điểm hình khối"
+          ],
+          "rows": [
+            [
+              "Đứng nghiêm",
+              "Trục thẳng, ~6 đầu"
+            ],
+            [
+              "Đang chạy",
+              "Trục ngả, tay so le"
+            ],
+            [
+              "Ngồi xổm",
+              "Khối gọn, gập chồng"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT7-B10-008",
+        "d": "application",
+        "p": "Bạn Lan muốn vẽ kí họa nhanh bạn mình đang ngồi đọc sách ở ghế đá sân trường nhưng bạn ấy chốc chốc lại đổi tư thế. Chiến thuật vẽ thông minh nhất của Lan là gì?",
+        "o": [
+          "Phác nhanh bố cục tổng thể dáng lưng, đầu và đôi tay cầm sách trong 1 đến 2 phút đầu bằng nét mảnh, sau đó mới bổ sung chi tiết áo quần",
+          "Vẽ hoàn chỉnh chiếc cặp sách bên cạnh rồi mới nghĩ đến việc vẽ bạn",
+          "Chỉ vẽ cái ghế đá trống không vì sợ bạn đọc xong sẽ đứng dậy đi",
+          "Đợi 2 tiếng đồng hồ cho bạn đứng im không chớp mắt rồi mới đặt bút"
+        ],
+        "k": "A",
+        "e": "Nắm lấy dáng tổng thể (\"bắt dáng\") trong 60 giây đầu tiên là kĩ năng sống còn khi kí họa nhân vật sống động.",
+        "s": "Mĩ Thuật 7",
+        "h": "Chiến thuật bắt dáng nhanh trong 1–2 phút"
+      },
+      {
+        "c": "MT7-B10-009",
+        "d": "application",
+        "p": "Khi kí họa một bác nông dân đang vác bó lúa hoặc một cô công nhân đẩy xe hàng nặng, chi tiết nào trên cơ thể thể hiện rõ nhất sức nặng của vật?",
+        "o": [
+          "Thân người hơi chồm hoặc ngả ngược lại để giữ thăng bằng đối trọng với vật nặng, cơ vai và cánh tay căng rõ",
+          "Hai chân nhấc bổng khỏi mặt đất bay lên không trung",
+          "Nâng bó lúa to bằng một ngón tay út mà không hề nghiêng người",
+          "Người đứng thẳng tắp thư thái như đang đi dạo tay không"
+        ],
+        "k": "A",
+        "e": "Hiểu quy luật trọng tâm và lực đối trọng khiến bức tranh kí họa lao động đạt sức thuyết phục chân thực.",
+        "s": "Mĩ Thuật 7",
+        "h": "Diễn tả trọng lượng và sự gắng sức"
+      },
+      {
+        "c": "MT7-B10-010",
+        "d": "application",
+        "p": "Nếu một trang giấy kí họa ghi lại 4 đến 5 dáng hoạt động khác nhau của cùng một người bán hàng rong (lúc đứng rao, lúc cúi lấy đồ, lúc bước đi), trang kí họa đó mang giá trị gì?",
+        "o": [
+          "Hoàn toàn vô ích và cần vứt bỏ ngay lập tức",
+          "Gây mất thẩm mĩ vì các hình không xếp thành bảng số liệu",
+          "Lưu giữ trọn vẹn chuỗi vận động sinh động theo thời gian, giúp họa sĩ chọn được dáng đẹp và đắt giá nhất khi xây dựng tranh sáng tác",
+          "Làm hỏng trang giấy vì trên một tờ giấy chỉ được phép vẽ đúng một hình"
+        ],
+        "k": "C",
+        "e": "Các trang sổ tay kí họa chứa nhiều dáng động kế tiếp nhau (gesture studies) chính là kho báu của mọi họa sĩ chuyên nghiệp.",
+        "s": "Mĩ Thuật 7",
+        "h": "Giá trị trang kí họa nhiều dáng liên tiếp"
+      },
+      {
+        "c": "MT7-B10-011",
+        "d": "application",
+        "p": "Khi dùng màu nước chấm phá nhẹ thêm vào bản kí họa nét bút sắt về phiên chợ quê, cách tô nào giữ được nét phóng khoáng tự nhiên nhất?",
+        "o": [
+          "Tô lớp màu bột dày đặc phủ kín xóa sạch mọi đường nét mực bên dưới",
+          "Chỉ dùng duy nhất màu đen tô đặc kín mặt trời và quần áo",
+          "Chấm nhẹ những mảng màu trong trẻo (lướt qua vùng sáng tối chính) để tôn nét mực lên chứ không tô kín bệt đè lấp mất nét kí họa",
+          "Đợi giấy rách nát vì ngâm nước rồi mới vẽ nét mực lên"
+        ],
+        "k": "C",
+        "e": "Sự kết hợp \"nét vẽ nhanh + mảng màu nước thoáng\" (line and wash) giữ trọn vẻ tươi mới, đầy ngẫu hứng của kí họa ngoài trời.",
+        "s": "Mĩ Thuật 7",
+        "h": "Kết hợp nét mực và mảng màu nước thoáng"
+      },
+      {
+        "c": "MT7-B10-012",
+        "d": "application",
+        "p": "Một học sinh vẽ kí họa dáng bạn nhảy dây nhưng vẽ hai vai ngang bằng tăm tắp dù một tay bạn ấy đang giơ cao hơn tay kia. Nếu chỉnh lại theo thực tế giải phẫu, đường nối hai vai sẽ thế nào?",
+        "o": [
+          "Cong gập thành góc nhọn 45 độ như cánh chim",
+          "Vẫn nằm ngang song song tuyệt đối với mặt đất",
+          "Nghiêng chếch lên về phía cánh tay giơ cao và thấp xuống ở bên vai buông lỏng, kéo theo sự chuyển dịch tự nhiên của nếp áo",
+          "Hai vai biến mất dính liền vào tai"
+        ],
+        "k": "C",
+        "e": "Quan sát trục nghiêng của vai và trục nghiêng của hông (contrapposto) là bí quyết giải thoát dáng người khỏi sự cứng đơ.",
+        "s": "Mĩ Thuật 7",
+        "h": "Quan sát trục nghiêng vai và hông"
+      },
+      {
+        "c": "MT7-B10-013",
+        "d": "advanced",
+        "p": "Tại sao trong chương trình đào tạo mĩ thuật từ cổ điển đến hiện đại, các giảng viên thường yêu cầu sinh viên luyện bài \"kí họa 30 giây\" (gesture drawing) trước khi bước vào bài vẽ dài hàng chục giờ?",
+        "o": [
+          "Bài tập 30 giây ép não bộ bỏ qua tiểu tiết vụn vặt để tập trung hoàn toàn vào dòng chảy năng lượng, nhịp điệu và sức sống toàn thân nhân vật",
+          "Vì trong 30 giây học sinh có thể tô bóng chi tiết từng sợi tóc hoàn hảo",
+          "Để rèn kĩ năng vẽ chậm rãi tỉ mỉ từng nếp nhăn áo",
+          "Vì nhà trường muốn tiết kiệm giấy vẽ nên bắt vẽ thật nhanh rồi dừng"
+        ],
+        "k": "A",
+        "e": "Khi giữ được mạch sống của phác thảo 30 giây vào bức tranh hoàn chỉnh dài giờ, tác phẩm cuối cùng sẽ không bị chết cứng vô hồn.",
+        "s": "Mĩ Thuật 7",
+        "h": "Ý nghĩa phương pháp kí họa nhanh 30 giây"
+      },
+      {
+        "c": "MT7-B10-014",
+        "d": "advanced",
+        "p": "Khi kí họa một nhóm đông học sinh đang chơi kéo co trong sân trường, làm thế nào chỉ với sổ tay nhỏ mà ghi lại được sự căng thẳng đồng lòng của cả đội?",
+        "o": [
+          "Chỉ vẽ một cái cây đứng im ở góc sân rồi viết chữ \"kéo co\"",
+          "Vẽ tất cả mọi người đứng thẳng cười tươi khoanh tay nhìn ra ngoài",
+          "Tách rời vẽ từng bạn đứng cách xa nhau trên các trang giấy khác nhau mà không vẽ dây thừng",
+          "Nhấn mạnh vào đường nghiêng đồng loạt song song của hàng chục thân người đang kéo dây thừng căng thẳng và sự tương phản tư thế với đội đối thủ"
+        ],
+        "k": "D",
+        "e": "Nhìn cả đám đông như một \"khối động lực chung\" (group rhythm) tạo ấn tượng hùng hậu gấp bội so với ghép nhiều dáng lẻ rời rạc.",
+        "s": "Mĩ Thuật 7",
+        "h": "Kí họa nhịp điệu đám đông hợp lực"
+      },
+      {
+        "c": "MT7-B10-015",
+        "d": "advanced",
+        "p": "So với chụp ảnh bằng điện thoại, giá trị độc đáo không gì thay thế được của việc trực tiếp ngồi kí họa đời sống hằng ngày là gì?",
+        "o": [
+          "Quá trình quan sát chậm và lọc bỏ bằng tay giúp người vẽ ghi nhớ sâu sắc cấu trúc sự vật, đồng thời gửi gắm rung động cảm xúc cá nhân vào từng nét bút",
+          "Bức kí họa bằng tay có thể thay thế hoàn toàn thẻ căn cước công dân",
+          "Ngồi vẽ kí họa không cần nhìn vào đối tượng thật vẫn vẽ giống ảnh chụp",
+          "Ảnh chụp điện thoại luôn bị mờ đen không bao giờ rõ bằng nét bút chì"
+        ],
+        "k": "A",
+        "e": "Máy ảnh thu nhận mọi chi tiết máy móc bình đẳng, còn mắt và tay người họa sĩ biết chọn lọc giữ lại cái \"thần\" của cuộc sống.",
+        "s": "Mĩ Thuật 7",
+        "h": "Giá trị cảm xúc riêng của kí họa tay"
+      }
+    ]
+  },
+  {
+    "chapter": "mithuat7-c4",
+    "lesson": {
+      "code": "mithuat7-b11",
+      "title": "Bài 11. Nguyên lí phối cảnh một và hai điểm tụ",
+      "seq": 11,
+      "subtitle": "Đường tầm mắt, quy luật xa nhỏ gần to và cách dựng không gian phố xá với 1 và 2 điểm tụ",
+      "concepts": [
+        "Đường tầm mắt và điểm tụ",
+        "Phối cảnh 1 điểm tụ chính diện",
+        "Phối cảnh 2 điểm tụ góc cạnh"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT7-B11-001",
+        "d": "basic",
+        "p": "Trong quy luật vẽ phối cảnh (luật xa gần), \"đường tầm mắt\" (đường chân trời) được xác định ở độ cao nào?",
+        "o": [
+          "Là một đường thẳng đứng chia đôi tờ giấy từ trên xuống",
+          "Là đường cong lượn sóng chạy quanh các mái nhà",
+          "Luôn nằm sát cố định dưới mép đáy chân người vẽ",
+          "Là đường nằm ngang ngang bằng với tầm nhìn từ đôi mắt của người quan sát hướng thẳng ra không gian"
+        ],
+        "k": "D",
+        "e": "Khi người vẽ đứng lên cao (trên tầng 3) thì đường tầm mắt dâng cao theo; khi ngồi thấp xuống đất thì đường tầm mắt hạ thấp xuống.",
+        "s": "Mĩ Thuật 7",
+        "h": "Định nghĩa đường tầm mắt"
+      },
+      {
+        "c": "MT7-B11-002",
+        "d": "basic",
+        "p": "Theo quy luật phối cảnh đường thẳng, những vật thể có chiều cao bằng nhau (như hàng cột điện hoặc hàng cây bên đường) khi đi ra xa dần tầm mắt sẽ biến đổi thế nào?",
+        "o": [
+          "Càng đi ra xa lại càng phình to và cao vọt lên gấp đôi",
+          "Kích thước không hề thay đổi chút nào từ gần tới tít chân trời",
+          "Kích thước thu nhỏ dần lại, khoảng cách giữa chúng hẹp dần và tất cả cùng hướng về một điểm tụ trên đường tầm mắt",
+          "Tất cả cùng xoay nghiêng nằm ngang song song mặt đất"
+        ],
+        "k": "C",
+        "e": "Nguyên lí \"gần to rõ - xa nhỏ mờ\" và \"các đường song song hướng sâu hội tụ tại điểm tụ\" là nền tảng dựng không gian 3D chân thực.",
+        "s": "Mĩ Thuật 7",
+        "h": "Quy luật thu nhỏ và hội tụ xa dần"
+      },
+      {
+        "c": "MT7-B11-003",
+        "d": "basic",
+        "p": "Trong phối cảnh một điểm tụ (phối cảnh chính diện), điểm tụ duy nhất nằm ở đâu?",
+        "o": [
+          "Nằm tại một điểm trên đường tầm mắt (thường đặt trước mặt người nhìn)",
+          "Nằm ở góc trên cùng bên trái hoàn toàn tách khỏi đường tầm mắt",
+          "Nằm tuốt bên ngoài tờ giấy cách xa tới 2 mét dưới sàn nhà",
+          "Có tới 10 điểm tụ nằm rải rác khắp mặt đường"
+        ],
+        "k": "A",
+        "e": "Phối cảnh 1 điểm tụ cực kì hiệu quả khi vẽ hành lang lớp học, con đường thẳng hoặc căn phòng nhìn trực diện.",
+        "s": "Mĩ Thuật 7",
+        "h": "Vị trí điểm tụ trong phối cảnh 1 điểm tụ"
+      },
+      {
+        "c": "MT7-B11-004",
+        "d": "basic",
+        "p": "Khi vẽ một con đường thẳng hoặc dãy hành lang bằng phối cảnh một điểm tụ, hai nhóm đường nét nào giữ nguyên phương thẳng đứng và nằm ngang (không chụm vào điểm tụ)?",
+        "o": [
+          "Tất cả mọi đường thẳng trong tranh đều phải chéo tụ vào tâm hết",
+          "Hai mép lề con đường chạy sâu ra xa lại song song nằm ngang",
+          "Không có đường nào đứng thẳng mà tất cả đều ngả sang phải",
+          "Các cạnh đứng của cột nhà, tường, khung cửa (thẳng đứng) và các cạnh mặt trước song song với người nhìn (nằm ngang)"
+        ],
+        "k": "D",
+        "e": "Nhớ quy tắc ba hướng nét trong phối cảnh 1 điểm tụ: Đứng giữ nguyên - Ngang giữ nguyên - Sâu tụ về 1 điểm.",
+        "s": "Mĩ Thuật 7",
+        "h": "Ba hướng nét trong phối cảnh 1 điểm tụ"
+      },
+      {
+        "c": "MT7-B11-005",
+        "d": "basic",
+        "p": "Phối cảnh hai điểm tụ thường được sử dụng trong trường hợp góc nhìn nào?",
+        "o": [
+          "Khi chỉ vẽ một hình tròn phẳng trên giấy ô li",
+          "Khi mắt nhắm kín không nhìn thấy góc cạnh nào",
+          "Khi nhìn trực diện vuông góc phẳng lì vào mặt tiền một bức tường",
+          "Khi người quan sát đứng chếch nhìn trực tiếp vào cạnh góc của ngôi nhà, dãy phố ngã tư hoặc khối hộp đặt xoay góc"
+        ],
+        "k": "D",
+        "e": "Trong phối cảnh 2 điểm tụ, hai mặt cạnh bên của ngôi nhà sẽ kéo về hai điểm tụ trái và phải khác nhau nằm trên đường tầm mắt.",
+        "s": "Mĩ Thuật 7",
+        "h": "Khi nào dùng phối cảnh 2 điểm tụ"
+      },
+      {
+        "c": "MT7-B11-006",
+        "d": "basic",
+        "p": "Trong phối cảnh hai điểm tụ, hai điểm tụ (trái và phải) bắt buộc phải nằm trên cùng yếu tố nào?",
+        "o": [
+          "Một điểm nằm trên đường tầm mắt, điểm kia nằm dưới gầm bàn",
+          "Nằm trên hai đường chéo cắt nhau ở góc trên tờ giấy",
+          "Cùng nằm trên đường tầm mắt ngang qua trang vẽ (thường mở rộng ra hai bên lề)",
+          "Cả hai điểm tụ đặt chồng khít tại một chỗ ở chính giữa nhà"
+        ],
+        "k": "C",
+        "e": "Hai điểm tụ đại diện cho hai hướng vuông góc trên mặt đất khi ta xoay góc nhìn, nên luôn cùng nằm trên mặt phẳng đường tầm mắt.",
+        "s": "Mĩ Thuật 7",
+        "h": "Vị trí hai điểm tụ trên đường tầm mắt"
+      },
+      {
+        "c": "MT7-B11-007",
+        "d": "application",
+        "p": "Quan sát hình khối lập phương vẽ phối cảnh dưới đây, mặt trên (mặt nắp) của chiếc hộp sẽ được nhìn thấy rõ khi nào?",
+        "o": [
+          "Không bao giờ nhìn thấy mặt trên của bất kì chiếc hộp nào",
+          "Khi chiếc hộp nằm ở vị trí THẤP hơn đường tầm mắt của người quan sát",
+          "Khi chiếc hộp được treo tít lên cao hơn hẳn tầm mắt người nhìn",
+          "Khi chiếc hộp nằm ngang đúng bằng đường tầm mắt"
+        ],
+        "k": "B",
+        "e": "Vật dưới đường tầm mắt ta thấy được mặt trên; vật cao trên đường tầm mắt ta lại nhìn thấy mặt đáy (như trần nhà hay ban công tầng trên).",
+        "s": "Mĩ Thuật 7",
+        "h": "Nhận diện mặt thấy theo đường tầm mắt",
+        "fig": {
+          "w": 300,
+          "h": 190,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  90,
+                  65
+                ],
+                [
+                  185,
+                  65
+                ],
+                [
+                  185,
+                  160
+                ],
+                [
+                  90,
+                  160
+                ]
+              ],
+              "fill": "#93c5fd",
+              "stroke": "#1d4ed8",
+              "w": 2.2
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  90,
+                  65
+                ],
+                [
+                  130,
+                  32
+                ],
+                [
+                  225,
+                  32
+                ],
+                [
+                  185,
+                  65
+                ]
+              ],
+              "fill": "#bfdbfe",
+              "stroke": "#1d4ed8",
+              "w": 2.2
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  185,
+                  65
+                ],
+                [
+                  225,
+                  32
+                ],
+                [
+                  225,
+                  127
+                ],
+                [
+                  185,
+                  160
+                ]
+              ],
+              "fill": "#60a5fa",
+              "stroke": "#1d4ed8",
+              "w": 2.2
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                178
+              ],
+              "s": "Khối hộp dưới tầm mắt",
+              "anchor": "middle",
+              "size": 13
+            }
+          ]
+        }
+      },
+      {
+        "c": "MT7-B11-008",
+        "d": "application",
+        "p": "Một học sinh vẽ tranh hàng cây bên đường bằng phối cảnh một điểm tụ: cây đầu tiên cao tới mép trên của khung tranh (trên đường tầm mắt) và gốc cây chạm sát mép dưới (dưới đường tầm mắt). Các cây tiếp theo lùi sâu vào trong sẽ biến đổi chiều cao thế nào?",
+        "o": [
+          "Cây ở xa biến mất hoàn toàn không thể vẽ nhỏ lại được",
+          "Ngọn cây càng ra xa càng cao vọt lên, còn gốc cây càng tụt sâu xuống",
+          "Ngọn cây hạ thấp dần xuống gần đường tầm mắt, còn gốc cây nâng dần lên gần đường tầm mắt (cùng kẹp giữa hai đường tụ hội vào điểm tụ)",
+          "Cả ngọn cây và gốc cây đều giữ nguyên độ cao thẳng băng đến tận điểm tụ"
+        ],
+        "k": "C",
+        "e": "Kẻ hai đường dẫn tụ nối đỉnh ngọn cây và chân gốc cây về điểm tụ giúp xác định chiều cao chính xác của cả trăm cây liên tiếp.",
+        "s": "Mĩ Thuật 7",
+        "h": "Kĩ thuật dựng hàng cây đều đặn theo điểm tụ"
+      },
+      {
+        "c": "MT7-B11-009",
+        "d": "application",
+        "p": "Quan sát bảng hướng dẫn dựng phối cảnh hai điểm tụ cho ngôi nhà ở ngã tư đường, các cạnh đứng của góc nhà, khung cửa sổ và cột hiên được vẽ theo hướng nào?",
+        "o": [
+          "Nghiêng chéo sang bên phải hết về điểm tụ 2",
+          "Nghiêng chéo sang bên trái hết về điểm tụ 1",
+          "Cong vòng cung xuống phía dưới mặt đường",
+          "Vẫn giữ nguyên phương thẳng đứng song song với hai mép đứng của tờ giấy"
+        ],
+        "k": "D",
+        "e": "Trong phối cảnh 1 và 2 điểm tụ thông thường (nhìn ngang), các đường thẳng đứng ngoài thực tế luôn giữ thẳng đứng trên mặt tranh.",
+        "s": "Mĩ Thuật 7",
+        "h": "Phương các cạnh đứng trong phối cảnh 2 điểm tụ",
+        "fig": {
+          "type": "table",
+          "title": "So sánh phối cảnh",
+          "head": [
+            "Loại phối cảnh",
+            "Hướng đường sâu",
+            "Cạnh đứng"
+          ],
+          "rows": [
+            [
+              "1 điểm tụ",
+              "Về 1 điểm chính",
+              "Thẳng đứng"
+            ],
+            [
+              "2 điểm tụ",
+              "Về 2 điểm T và P",
+              "Thẳng đứng"
+            ],
+            [
+              "3 điểm tụ",
+              "Về 3 điểm tụ",
+              "Nghiêng tụ lên/xuống"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT7-B11-010",
+        "d": "application",
+        "p": "Khi vẽ hai bên dãy nhà phố cổ trong phối cảnh hai điểm tụ, nếu em đặt hai điểm tụ quá gần sát nhau ngay bên trong khung hình chính của tờ giấy, hiện tượng thị giác lỗi nào sẽ xảy ra?",
+        "o": [
+          "Ngôi nhà trông rộng lớn thoáng đãng và tự nhiên hơn rất nhiều",
+          "Hai mặt tường nhà biến mất thành một đường thẳng",
+          "Các góc nhà trông bị nhọn hoắt, biến dạng méo mó gắt như nhìn qua ống kính mắt cá",
+          "Tất cả các ngôi nhà biến thành hình tròn không có góc cạnh"
+        ],
+        "k": "C",
+        "e": "Mẹo dựng hình chuẩn: thường kéo dài tờ giấy nháp ra hai bên để đặt hai điểm tụ rộng thoáng bên ngoài phạm vi bức tranh chính.",
+        "s": "Mĩ Thuật 7",
+        "h": "Khắc phục lỗi góc nhà bị méo trong 2 điểm tụ"
+      },
+      {
+        "c": "MT7-B11-011",
+        "d": "application",
+        "p": "Để vẽ một dãy cửa sổ cách đều nhau trên mặt tường kéo dài về điểm tụ, cảm nhận thực tế nào đúng về khoảng cách bề ngang giữa các ô cửa khi lùi ra xa?",
+        "o": [
+          "Cửa sổ càng lùi sâu về phía điểm tụ thì bề ngang khung cửa và khoảng cách giữa hai cửa càng hẹp dần lại chứ không đều nhau trên mặt giấy",
+          "Chỉ vẽ một cái cửa sổ to nhất còn tường bên cạnh để trơn",
+          "Càng ra xa thì các ô cửa sổ lại càng rộng to gấp ba lần cửa gần",
+          "Khoảng cách các ô cửa trên mặt giấy phải đo bằng thước rộng bằng hệt nhau tới tận chân trời"
+        ],
+        "k": "A",
+        "e": "Không gian thu hẹp theo chiều sâu đòi hỏi khoảng chia nhịp phải giảm dần đều khi tiến về điểm tụ.",
+        "s": "Mĩ Thuật 7",
+        "h": "Khoảng cách cửa sổ thu hẹp theo chiều sâu"
+      },
+      {
+        "c": "MT7-B11-012",
+        "d": "application",
+        "p": "Ngoài việc thu nhỏ kích thước theo đường nét tụ hội, trong tranh vẽ màu phong cảnh phố xá hay núi non, yếu tố màu sắc nào kết hợp cùng phối cảnh giúp cảm nhận rõ \"không gian xa mờ\"?",
+        "o": [
+          "Mọi chi tiết gần và xa đều tô cùng một độ đậm rực chói như nhau",
+          "Phối cảnh không khí: vật ở gần nét rõ, màu đậm ấm tương phản cao; cảnh ở xa dần nhạt mờ, ít chi tiết và ngả sang tông xanh xám dịu",
+          "Đổi màu dãy nhà xa thành màu đỏ rực còn người đứng gần tô màu xám mờ",
+          "Cảnh dãy núi tít ở chân trời tô đậm đen sắc nét nhất bức tranh"
+        ],
+        "k": "B",
+        "e": "Kết hợp \"phối cảnh đường thẳng\" và \"phối cảnh khí quyển\" (aerial perspective) là đỉnh cao tạo chiều sâu không gian hội họa.",
+        "s": "Mĩ Thuật 7",
+        "h": "Phối hợp phối cảnh đường nét và màu không khí"
+      },
+      {
+        "c": "MT7-B11-013",
+        "d": "advanced",
+        "p": "Trong trường hợp thiết kế góc quay phim hoặc vẽ truyện tranh diễn tả một tòa nhà chọc trời khổng lồ nhìn ngước từ dưới mặt đất lên, vì sao người ta phải bổ sung thêm \"điểm tụ thứ ba\" trên bầu trời?",
+        "o": [
+          "Vì góc nhìn ngước quá dốc khiến ngay cả các cạnh thẳng đứng của tòa nhà cũng có cảm giác chụm dần lại ở phía đỉnh trời cao, tạo cảm giác choáng ngợp hùng vĩ",
+          "Để làm cho tòa nhà trông thấp bé đi bằng ngôi nhà một tầng",
+          "Vì họa sĩ không biết cách dùng thước kẻ đường thẳng đứng song song",
+          "Vì các tòa nhà chọc trời được xây dựng thực tế theo hình chóp nhọn nhỏ xíu"
+        ],
+        "k": "A",
+        "e": "Phối cảnh 3 điểm tụ mở rộng tầm nhìn theo trục đứng (ngước lên trời hoặc nhìn chúc thẳng từ đỉnh tháp xuống đất).",
+        "s": "Mĩ Thuật 7",
+        "h": "Nguyên lí phối cảnh 3 điểm tụ góc ngước cao"
+      },
+      {
+        "c": "MT7-B11-014",
+        "d": "advanced",
+        "p": "Khi vẽ tranh phong cảnh đề tài nông thôn thanh bình (cổng làng, con đường đất uốn lượn quanh ruộng lúa), vì sao họa sĩ thường không đặt điểm tụ ở chính giữa tâm bức tranh mà hơi lệch sang một bên?",
+        "o": [
+          "Đặt điểm tụ lệch (quy tắc tỉ lệ vàng 1 phần 3) tránh sự chia đôi đối xứng khô cứng, tạo đường dẫn mắt uốn lượn mềm mại giữ người xem ngắm tranh lâu hơn",
+          "Vì không thể nào đặt được một điểm ở giữa tờ giấy hình chữ nhật",
+          "Để giấu mất toàn bộ cánh đồng lúa ra ngoài lề giấy",
+          "Vì ở nông thôn không tồn tại quy luật phối cảnh đường tầm mắt"
+        ],
+        "k": "A",
+        "e": "Dù là phối cảnh kĩ thuật chuẩn xác, họa sĩ luôn biết điều chỉnh vị trí đường tầm mắt và điểm tụ để phục vụ ý đồ bố cục cảm xúc.",
+        "s": "Mĩ Thuật 7",
+        "h": "Nghệ thuật chọn vị trí điểm tụ lệch tâm"
+      },
+      {
+        "c": "MT7-B11-015",
+        "d": "advanced",
+        "p": "Phân tích sự khác biệt giữa \"phối cảnh mắt chim\" (đường tầm mắt đặt rất cao ở phần trên tranh) và \"phối cảnh mắt kiến\" (đường tầm mắt đặt sát đáy dưới tranh) về mặt biểu cảm tâm lí?",
+        "o": [
+          "Mắt chim khiến bầu trời chiếm hết 90 phần trăm diện tích tranh còn mặt đất biến mất",
+          "Mắt kiến chỉ dùng để vẽ những đồ vật nhỏ bé đặt trên mặt bàn",
+          "Cả hai góc nhìn hoàn toàn giống hệt nhau không có bất kì khác biệt thị giác nào",
+          "Mắt chim giúp bao quát toàn cảnh rộng lớn mang lại cảm giác làm chủ toàn cục; mắt kiến phóng đại tầm vóc nhân vật hay công trình trở nên cao lớn uy nghi"
+        ],
+        "k": "D",
+        "e": "Lựa chọn độ cao đường tầm mắt là nghệ thuật dẫn dắt cảm xúc người xem trong cả hội họa, kiến trúc lẫn điện ảnh.",
+        "s": "Mĩ Thuật 7",
+        "h": "Tâm lí học thị giác qua độ cao đường tầm mắt"
+      }
+    ]
+  },
+  {
+    "chapter": "mithuat7-c4",
+    "lesson": {
+      "code": "mithuat7-b12",
+      "title": "Bài 12. Sáng tác tranh đề tài lễ hội quê hương",
+      "seq": 12,
+      "subtitle": "Tổng hợp kiến thức kí họa dáng người, phối cảnh không gian, trang phục dân tộc và hòa sắc trong tranh lễ hội",
+      "concepts": [
+        "Xây dựng ý tưởng đề tài lễ hội",
+        "Bố cục nhóm chính và phụ",
+        "Hòa sắc rộn ràng tươi vui"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT7-B12-001",
+        "d": "basic",
+        "p": "Khi sáng tác một bức tranh đề tài \"Lễ hội quê hương\" (như hội Lim, đua ghe ngo, múa lân, đấu vật, chọi trâu hay rước đèn), không khí chủ đạo cần thể hiện là gì?",
+        "o": [
+          "Không khí vắng vẻ hoang tàn không có một bóng người nào",
+          "Một căn phòng đóng kín cửa chỉ có hai chiếc ghế trống",
+          "Cảnh tắc đường xám xịt khói bụi bực bội",
+          "Sự nhộn nhịp, tưng bừng, gắn kết cộng đồng và đậm đà bản sắc văn hóa truyền thống địa phương"
+        ],
+        "k": "D",
+        "e": "Tranh lễ hội truyền tải niềm vui chung của làng quê, kết hợp hài hòa giữa con người, cảnh sắc, âm thanh cờ hoa.",
+        "s": "Mĩ Thuật 7",
+        "h": "Không khí đặc trưng tranh đề tài lễ hội"
+      },
+      {
+        "c": "MT7-B12-002",
+        "d": "basic",
+        "p": "Trong bức tranh lễ hội có đông người tham gia, làm thế nào để người xem nhận ra ngay hoạt động trọng tâm của lễ hội đó (ví dụ: nhóm đánh trống múa lân hoặc đôi thuyền đua)?",
+        "o": [
+          "Đặt nhóm nhân vật chính ở vị trí trọng tâm nổi bật, kích thước lớn rõ hơn, màu sắc tươi rực và có sự hướng nhìn tập trung của đám đông xung quanh",
+          "Cho tất cả 50 người đứng quay lưng bỏ đi về phía ngược lại",
+          "Vẽ tất cả mọi người kích thước bằng hệt nhau và tô cùng một màu xám",
+          "Vẽ nhóm hoạt động chính thật bé tí giấu phía sau gốc cây xa tít"
+        ],
+        "k": "A",
+        "e": "Phân biệt rõ \"mảng chính - mảng phụ\" và sử dụng hướng ánh nhìn của nhân vật phụ giúp dẫn mắt người xem thẳng vào điểm nhấn trung tâm.",
+        "s": "Mĩ Thuật 7",
+        "h": "Xây dựng nhóm chính nổi bật giữa đám đông"
+      },
+      {
+        "c": "MT7-B12-003",
+        "d": "basic",
+        "p": "Những hình ảnh phụ trợ đặc trưng nào thường góp mặt làm tăng sắc thái lễ hội truyền thống Việt Nam trong tranh?",
+        "o": [
+          "Cờ hội ngũ sắc tung bay, trống hội, cổng làng mái đình cổ, cây đa, nón quai thao hoặc hoa đào hoa mai mùa xuân",
+          "Biển báo công trường đang thi công và hàng rào tôn xám",
+          "Cây thông tuyết trắng và xe trượt tuần lộc Bắc Cực",
+          "Ống khói nhà máy hóa chất và dây điện cao thế dày đặc"
+        ],
+        "k": "A",
+        "e": "Các yếu tố bối cảnh chuẩn văn hóa Việt đóng vai trò \"nhạc nền\" hoàn hảo nâng đỡ cho hoạt động chính của lễ hội.",
+        "s": "Mĩ Thuật 7",
+        "h": "Yếu tố bối cảnh đặc trưng lễ hội Việt"
+      },
+      {
+        "c": "MT7-B12-004",
+        "d": "basic",
+        "p": "Để diễn tả nhịp điệu tưng bừng, náo nhiệt của ngày hội trong bức tranh màu, gam màu nào thường được ưu tiên làm chủ đạo (hòa sắc chính)?",
+        "o": [
+          "Các gam màu ấm rực rỡ (đỏ, vàng, cam, hồng sen) phối nhịp nhàng với mảng màu xanh lá, xanh lam làm dịu cân bằng",
+          "Để trống trắng 90 phần trăm diện tích tờ giấy",
+          "Chỉ dùng duy nhất màu đen và xám tro lạnh lẽo cho toàn bức tranh",
+          "Chỉ dùng một sắc nâu sẫm u buồn cho cả cờ hoa lẫn quần áo"
+        ],
+        "k": "A",
+        "e": "Màu sắc lễ hội Việt mang năng lượng dương ấm áp (cờ đỏ ngũ sắc, áo tứ thân rực rỡ) tương phản tươi vui trên nền trời cây xanh.",
+        "s": "Mĩ Thuật 7",
+        "h": "Hòa sắc tươi vui cho tranh lễ hội"
+      },
+      {
+        "c": "MT7-B12-005",
+        "d": "basic",
+        "p": "Quy trình chuẩn khi sáng tác một bức tranh đề tài lễ hội hoàn chỉnh trên khổ giấy A3 gồm những bước tuần tự nào?",
+        "o": [
+          "Chép nguyên xi một trang chữ trong sách giáo khoa lên mặt giấy",
+          "Tô màu bầu trời trước -> Nhắm mắt vẽ người đè lên sau -> Bỏ qua phác bố cục",
+          "Tìm chọn nội dung -> Phác mảng bố cục chính phụ -> Vẽ hình nhân vật và bối cảnh -> Vẽ màu tạo hòa sắc và hoàn thiện chi tiết",
+          "Vẽ từng bông hoa nhỏ trên hàng rào rồi hết giờ không kịp vẽ lễ hội"
+        ],
+        "k": "C",
+        "e": "Đi từ phác thảo mảng lớn (chỉnh sửa bố cục khi nét còn mờ) giúp tránh hoàn toàn cảnh vẽ gần xong mới phát hiện thiếu chỗ cho nhân vật chính.",
+        "s": "Mĩ Thuật 7",
+        "h": "Quy trình 4 bước vẽ tranh đề tài"
+      },
+      {
+        "c": "MT7-B12-006",
+        "d": "basic",
+        "p": "Nguồn tư liệu thực tế quý giá nhất mà học sinh có thể sử dụng ngay để vẽ dáng người tham gia lễ hội được tự nhiên, không bị cứng nhắc là gì?",
+        "o": [
+          "Không cần quan sát ai mà nhắm mắt vẽ theo cảm tính",
+          "Sao chép lại nhân vật siêu nhân robot ngoài vũ trụ",
+          "Tập bản vẽ kí họa dáng người sinh hoạt hằng ngày kết hợp quan sát tư liệu ảnh lễ hội địa phương",
+          "Chỉ ngồi tưởng tượng vẽ người bằng hình que tròn cứng đơ giống hệt nhau"
+        ],
+        "k": "C",
+        "e": "Kiến thức kí họa dáng người ở Bài 10 kết hợp tạo hình trang phục dân tộc ở Bài 2 phát huy tối đa hiệu quả tại bài tổng hợp cuối năm này.",
+        "s": "Mĩ Thuật 7",
+        "h": "Vận dụng tư liệu kí họa vào tranh đề tài"
+      },
+      {
+        "c": "MT7-B12-007",
+        "d": "application",
+        "p": "Quan sát bảng kế hoạch sáng tác tranh \"Hội đua thuyền trên sông\" dưới đây, để bức tranh vừa có cảm giác tốc độ chuyển động mạnh vừa có chiều sâu không gian dòng sông, em nên bố trí góc nhìn thế nào?",
+        "o": [
+          "Cho các mũi thuyền đua lao chéo theo đường phối cảnh hướng vào không gian mặt nước rộng, người xem thấy cả hàng khán giả reo hò nhỏ dần phía bờ xa",
+          "Vẽ dòng sông là một vạch thẳng đứng vuông góc mép trên tờ giấy",
+          "Chỉ vẽ mỗi cái mái chèo nằm trên bãi cát không có thuyền hay người",
+          "Xếp một chiếc thuyền nằm ngang thẳng đơ giữa mép dưới không có sóng nước"
+        ],
+        "k": "A",
+        "e": "Bố cục đường chéo động lực kết hợp quy luật phối cảnh gần to - xa nhỏ truyền tải tức thì nhịp chèo dồn dập kịch tính.",
+        "s": "Mĩ Thuật 7",
+        "h": "Xây dựng bố cục động cho cảnh đua thuyền",
+        "fig": {
+          "type": "table",
+          "title": "Kế hoạch tranh lễ hội",
+          "head": [
+            "Thành phần",
+            "Cách thể hiện"
+          ],
+          "rows": [
+            [
+              "Nhóm chính",
+              "Thuyền đua lao chéo"
+            ],
+            [
+              "Động lực",
+              "Bọt sóng, chèo vát"
+            ],
+            [
+              "Bối cảnh xa",
+              "Khán giả, cờ nhỏ dần"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT7-B12-008",
+        "d": "application",
+        "p": "Trong một bức tranh vẽ cảnh \"Rước đèn Trung thu\", bạn Minh vẽ phần nền bầu trời và hàng cây xung quanh bằng màu vàng chanh sáng rực giống hệt ánh sáng bên trong chiếc đèn ông sao. Điểm chưa hợp lí là gì?",
+        "o": [
+          "Vì màu xanh tím sẫm không bao giờ dùng được trong tranh lễ hội",
+          "Vì đèn ông sao không thể tỏa ra ánh sáng màu vàng",
+          "Vì vào đêm Trung thu bầu trời luôn có màu trắng tinh",
+          "Trời đêm Trung thu sáng chói bằng đèn sẽ làm mất hẳn hiệu ứng lung linh ấm áp tỏa ra từ những chiếc đèn lồng của trẻ em"
+        ],
+        "k": "D",
+        "e": "Tô nền trời đêm bằng sắc xanh lam trầm hoặc tím than giúp ánh vàng cam của đèn lồng và ánh trăng bừng sáng rực rỡ đầy chất thơ.",
+        "s": "Mĩ Thuật 7",
+        "h": "Sử dụng nền tối tôn ánh sáng đèn hội"
+      },
+      {
+        "c": "MT7-B12-009",
+        "d": "application",
+        "p": "Khi vẽ đám đông khán giả đứng xem hội múa lân (khoảng 10 đến 15 người), lỗi phổ biến nào khiến bức tranh trông rối rắm và phẳng dẹt như dán giấy?",
+        "o": [
+          "Vẽ tất cả 15 người đứng tách rời thành một hàng ngang tách biệt không ai che khuất ai và đầu cao ngang bằng hệt nhau",
+          "Đa dạng hóa tư thế người đứng, người ngồi, em bé được cõng trên vai",
+          "Cho người đứng trước che khuất một phần người đứng sau (gối đầu lớp trước lớp sau)",
+          "Thay đổi kích thước người ở gần to hơn người đứng phía xa"
+        ],
+        "k": "A",
+        "e": "Nguyên tắc chồng lớp (overlapping) và đa dạng độ cao là bí quyết vàng để vẽ đám đông vừa đông vui vừa tự nhiên.",
+        "s": "Mĩ Thuật 7",
+        "h": "Kĩ thuật chồng lớp khi vẽ đám đông"
+      },
+      {
+        "c": "MT7-B12-010",
+        "d": "application",
+        "p": "Bạn Hà chọn đề tài \"Lễ hội Gầu Tào của đồng bào Mông\" trên sườn núi mùa xuân. Để giữ đúng bản sắc văn hóa vùng miền trong bức tranh, Hà cần kết hợp kiến thức nào đã học?",
+        "o": [
+          "Vẽ sân khấu đèn la-de nhạc điện tử giữa thành phố công nghiệp",
+          "Trang phục váy xòe thổ cẩm rực rỡ của người Mông, cây nêu ngày hội, người thổi khèn nhảy múa cùng sườn núi hoa đào hoa mận",
+          "Vẽ cảnh cưỡi voi đi trên sông Cửu Long mặc áo bà ba đen",
+          "Cho toàn bộ nhân vật mặc đồ bảo hộ lao động màu cam giống nhau"
+        ],
+        "k": "B",
+        "e": "Sự chính xác về trang phục dân tộc và cảnh quan đặc trưng giúp tranh đề tài giàu giá trị văn hóa địa phương sâu sắc.",
+        "s": "Mĩ Thuật 7",
+        "h": "Đảm bảo đúng bản sắc lễ hội vùng miền"
+      },
+      {
+        "c": "MT7-B12-011",
+        "d": "application",
+        "p": "Sau khi vẽ xong nét chì nhân vật và bối cảnh bức tranh lễ hội, một bạn dùng bút dạ đen nét to kẻ viền kín hết tất cả mọi chi tiết từ lá cây xa cho đến đám mây trời. Hậu quả thị giác nào sẽ xảy ra?",
+        "o": [
+          "Đám mây ở xa trông xa tít mờ ảo hơn bao giờ hết",
+          "Nét đen đậm làm màu sắc của bức tranh tự động hòa tan vào nhau",
+          "Không gian xa gần bị phẳng lì lại, cảnh ở xa xông ra ngang bằng với người ở gần làm bức tranh mất chiều sâu và trông cứng nhắc",
+          "Các nhân vật ở gần trở nên trong suốt không nhìn thấy"
+        ],
+        "k": "C",
+        "e": "Nếu dùng nét viền, chỉ nên nhấn ở nhóm nhân vật chính gần, hoặc bỏ hẳn nét viền ở cảnh xa để nhường chỗ cho chuyển sắc màu tự nhiên.",
+        "s": "Mĩ Thuật 7",
+        "h": "Tránh lạm dụng viền đen cứng ở cảnh xa"
+      },
+      {
+        "c": "MT7-B12-012",
+        "d": "application",
+        "p": "Để chuẩn bị cho buổi triển lãm tranh đề tài cuối năm học lớp 7, việc làm nào giúp bức tranh giấy của em được trưng bày trang trọng và bền đẹp nhất?",
+        "o": [
+          "Gấp nhỏ bức tranh làm 8 phần nhét vào túi quần rồi mở ra dán lên tường",
+          "Bóc lem nhem mặt giấy rồi dán bằng băng dính điện đen lên giữa mặt tranh",
+          "Cắt bo viền giấy sạch sẽ hoặc dán lên nền bìa cứng trung tính (trắng ngà, ghi nhạt), ghi đủ tên tác phẩm, chất liệu và tên tác giả ở góc dưới",
+          "Vẽ thêm một khung viền màu đỏ neon sặc sỡ rộng 10 cm chèn lấn vào trong tranh"
+        ],
+        "k": "C",
+        "e": "Bồi khung (bo tranh) gọn gàng bằng màu trung tính giúp mắt người xem tập trung hoàn toàn vào vẻ đẹp bên trong tác phẩm.",
+        "s": "Mĩ Thuật 7",
+        "h": "Kĩ thuật hoàn thiện và trưng bày tranh"
+      },
+      {
+        "c": "MT7-B12-013",
+        "d": "advanced",
+        "p": "Phân tích sự thống nhất của cả chương trình Mĩ Thuật 7 qua bài vẽ tranh đề tài lễ hội quê hương: bài học cuối năm này kết nối những mạch kĩ năng nào thành một tác phẩm trọn vẹn?",
+        "o": [
+          "Chỉ kiểm tra khả năng đọc thuộc lòng tên các bài học bằng văn bản",
+          "Tách rời hoàn toàn không liên quan gì tới các bài học về nét, khối, chữ hay di sản",
+          "Chỉ dùng duy nhất kĩ năng cắt dán giấy vuông mà bỏ qua mọi kiến thức khác",
+          "Kết nối tư duy bố cục và phối cảnh (cảnh hội có xa gần), kiến thức kí họa dáng người động, bản sắc trang phục - di sản truyền thống và hòa sắc đậm nhạt"
+        ],
+        "k": "D",
+        "e": "Mĩ thuật là chuỗi thực hành tích lũy liên hoàn: mọi kĩ năng quan sát, tạo hình, văn hóa và màu sắc đều hội tụ trong sáng tác cá nhân.",
+        "s": "Mĩ Thuật 7",
+        "h": "Tổng hợp liên môn năng lực mĩ thuật lớp 7"
+      },
+      {
+        "c": "MT7-B12-014",
+        "d": "advanced",
+        "p": "Khi sáng tác bức tranh về một lễ hội truyền thống cổ xưa nhưng đứng từ góc nhìn của một thiếu niên thế kỉ XXI, cách khai thác nào tạo nên dấu ấn sáng tạo riêng (không sao chép sáo mòn)?",
+        "o": [
+          "Bỏ qua đề tài lễ hội chuyển sang vẽ hình học khô khan",
+          "Cắt dán nguyên một tấm bưu thiếp du lịch bán sẵn vào giữa bài thi",
+          "Chọn góc nhìn độc đáo (như góc nhìn từ trên ban công mái đình xuống hay góc nhìn qua ánh mắt em nhỏ hào hứng) kết hợp bút pháp phóng khoáng giàu cảm xúc cá nhân",
+          "Sao chép lại đúng từng milimét bức tranh mẫu của bạn ngồi bên cạnh"
+        ],
+        "k": "C",
+        "e": "Góc nhìn mới lạ (point of view) và cảm xúc chân thành của chính tác giả là yếu tố biến đề tài quen thuộc thành tác phẩm độc đáo.",
+        "s": "Mĩ Thuật 7",
+        "h": "Tìm góc nhìn sáng tạo cá nhân cho đề tài cũ"
+      },
+      {
+        "c": "MT7-B12-015",
+        "d": "advanced",
+        "p": "Tại sao việc giữ gìn và thể hiện vẻ đẹp các lễ hội quê hương qua hội họa lại có ý nghĩa lớn đối với sự phát triển văn hóa bền vững trong kỉ nguyên toàn cầu hóa?",
+        "o": [
+          "Vì toàn cầu hóa bắt buộc các địa phương phải bỏ hết lễ hội truyền thống",
+          "Bởi mỗi bức tranh chân thực là một tài liệu nghệ thuật lưu giữ kí ức cộng đồng, khơi dậy lòng tự hào cội nguồn và giới thiệu bản sắc Việt ra thế giới",
+          "Vì hội họa giúp xóa bỏ mọi sự khác biệt văn hóa giữa các vùng miền",
+          "Vì tranh vẽ thay thế hoàn toàn nhu cầu tổ chức lễ hội ngoài đời thực"
+        ],
+        "k": "B",
+        "e": "Giữa dòng chảy hội nhập toàn cầu, bản sắc văn hóa bản địa chính là căn cước quý giá nhất giúp nghệ thuật Việt Nam đứng vững và tỏa sáng.",
+        "s": "Mĩ Thuật 7",
+        "h": "Sứ mệnh văn hóa của tranh đề tài dân tộc"
+      }
+    ]
+  }
+]
