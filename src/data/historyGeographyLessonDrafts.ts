@@ -1546,5 +1546,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-geography-01', grade: 8, strand: 'geography',
+    title: 'Vị trí địa lí và phạm vi lãnh thổ Việt Nam',
+    summary: 'Xác định vị trí của Việt Nam ở khu vực Đông Nam Á, mô tả phạm vi lãnh thổ gồm vùng đất, vùng biển và vùng trời; phân tích ý nghĩa của vị trí địa lí đối với tự nhiên, kinh tế và quốc phòng.',
+    learningObjectives: [
+      'Xác định được vị trí địa lí và giới hạn lãnh thổ Việt Nam trên bản đồ.',
+      'Trình bày được các bộ phận của lãnh thổ quốc gia và đặc điểm tiếp giáp.',
+      'Phân tích được ý nghĩa tự nhiên, kinh tế và chiến lược của vị trí địa lí.'
+    ],
+    sections: [
+      {
+        heading: 'Vị trí địa lí của Việt Nam',
+        body: 'Việt Nam nằm ở rìa phía đông bán đảo Đông Dương, thuộc khu vực Đông Nam Á. Phần đất liền nằm trong khoảng từ khoảng 8°34′B đến 23°23′B và từ khoảng 102°09′Đ đến 109°28′Đ. Lãnh thổ kéo dài theo chiều bắc – nam, hẹp ngang ở nhiều nơi và tiếp giáp với Biển Đông. Vị trí này khiến thiên nhiên Việt Nam mang tính chất nhiệt đới gió mùa, đồng thời có sự phân hóa theo vĩ độ, độ cao và ảnh hưởng biển.',
+        keyPoints: ['Việt Nam nằm ở phía đông bán đảo Đông Dương, thuộc Đông Nam Á và tiếp giáp Biển Đông.'],
+        example: 'Dựa vào bản đồ, xác định Việt Nam so với bán đảo Đông Dương, Biển Đông và các quốc gia láng giềng.'
+      },
+      {
+        heading: 'Phạm vi lãnh thổ và tiếp giáp',
+        body: 'Lãnh thổ Việt Nam gồm vùng đất, vùng biển và vùng trời. Vùng đất bao gồm phần đất liền và các đảo, quần đảo; phía bắc giáp Trung Quốc, phía tây giáp Lào và Campuchia. Vùng biển Việt Nam thuộc Biển Đông, có nhiều đảo và quần đảo, trong đó có quần đảo Hoàng Sa và Trường Sa. Vùng trời là khoảng không gian bao trùm vùng đất và vùng biển thuộc chủ quyền, quyền chủ quyền và quyền tài phán của Việt Nam theo quy định của pháp luật và luật pháp quốc tế. Khi đọc bản đồ cần phân biệt đường biên giới trên đất liền, đường bờ biển và các vùng biển theo quy định.',
+        keyPoints: ['Lãnh thổ gồm vùng đất, vùng biển và vùng trời; Việt Nam có biên giới đất liền với Trung Quốc, Lào và Campuchia.'],
+        example: 'Dùng bản đồ hành chính và bản đồ biển để nhận diện các bộ phận lãnh thổ, không nhầm vùng biển với đường bờ biển.'
+      },
+      {
+        heading: 'Ý nghĩa của vị trí địa lí',
+        body: 'Vị trí nằm trong khu vực nhiệt đới gió mùa và giáp biển góp phần tạo nên nguồn tài nguyên thiên nhiên phong phú, thuận lợi cho phát triển nông nghiệp nhiệt đới, kinh tế biển và giao lưu hàng hải. Việt Nam nằm gần các tuyến giao thông quốc tế và có vị trí kết nối lục địa Đông Nam Á với Biển Đông. Tuy nhiên, vị trí và điều kiện tự nhiên cũng khiến nước ta thường chịu ảnh hưởng của bão, áp thấp nhiệt đới, mưa lớn và các rủi ro thiên tai. Vị trí địa lí còn có ý nghĩa quan trọng đối với bảo vệ chủ quyền, an ninh và hợp tác với các nước trong khu vực.',
+        keyPoints: ['Vị trí địa lí tạo thuận lợi cho giao lưu và phát triển kinh tế biển, đồng thời đặt ra yêu cầu phòng chống thiên tai và bảo vệ chủ quyền.'],
+        example: 'Khi đánh giá ý nghĩa vị trí địa lí, cần nêu cả thuận lợi phát triển kinh tế lẫn thách thức thiên tai và quốc phòng.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
