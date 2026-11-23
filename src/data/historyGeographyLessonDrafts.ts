@@ -242,4 +242,20 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
     questions: [], status: 'draft',
   },
 
+
+  {
+    id: 'g6-history-07', grade: 6, strand: 'history',
+    title: 'Ai Cập và Lưỡng Hà cổ đại',
+    summary: 'Các nhà nước cổ đại Ai Cập và Lưỡng Hà hình thành ở lưu vực những con sông lớn, nơi đất đai màu mỡ thuận lợi cho nông nghiệp và thủy lợi. Cư dân xây dựng công trình kiến trúc, phát triển chữ viết, toán học và lịch pháp. Ai Cập gắn với sông Nin, kim tự tháp và chữ tượng hình; Lưỡng Hà nằm giữa hai sông Ti-grơ và Ơ-phơ-rát, nổi bật với chữ hình nêm và bộ luật Ha-mu-ra-bi.',
+    learningObjectives: ['Xác định được vị trí hình thành của các nền văn minh Ai Cập và Lưỡng Hà.', 'Nêu được một số thành tựu văn hóa tiêu biểu của hai nền văn minh.', 'Giải thích được vai trò của điều kiện tự nhiên và sông lớn đối với sự hình thành nhà nước cổ đại.'],
+    questions: [], status: 'draft',
+  },
+  {
+    id: 'g6-geography-07', grade: 6, strand: 'geography',
+    title: 'Chuyển động tự quay quanh trục của Trái Đất và hệ quả',
+    summary: 'Trái Đất tự quay quanh một trục tưởng tượng nối hai cực, theo hướng từ tây sang đông. Một vòng quay tương ứng khoảng 24 giờ, tạo nên sự luân phiên ngày và đêm. Do các địa điểm nằm ở những kinh tuyến khác nhau, giờ địa phương khác nhau; hệ thống múi giờ được xây dựng để thuận tiện cho sinh hoạt và giao lưu.',
+    learningObjectives: ['Mô tả được hướng và thời gian tự quay quanh trục của Trái Đất.', 'Giải thích được hiện tượng ngày và đêm luân phiên.', 'Nhận biết được sự khác nhau về giờ giữa các kinh tuyến và khái niệm múi giờ.'],
+    questions: [], status: 'draft',
+  },
+
 ];
