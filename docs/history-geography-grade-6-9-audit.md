@@ -331,3 +331,25 @@ Nguồn đối chiếu:
 - [SGKVN — Nhiệt độ không khí, mây và mưa](https://www.sgkvn.com/lop-6-3/ket-noi-tri-thuc-voi-cuoc-song-3/phan-dia-li-chuong-4-khi-hau-va-bien-doi-khi-hau-2532/bai-16-nhiet-do-khong-khi-may-va-mua-8764.html)
 
 Sau đợt này, độ phủ đạt **32/166 bài** (19,28%): 16 bài Lịch sử và 16 bài Địa lí lớp 6, tương ứng **480 câu hỏi theo bài SGK**. Tổng hiện có 40 bộ / 600 câu draft, trong đó 8 bộ chủ đề mẫu cũ (120 câu) không tính vào độ phủ. Nội dung tiếp tục ở trạng thái draft; chưa import Supabase, chưa mở khóa lớp 6–9. Validator kiểm tra cấu trúc và tính nhất quán dữ liệu, không thay thế thẩm định chuyên môn độc lập.
+
+
+## 18. Hoàn thiện Lịch sử lớp 6 và mở rộng Địa lí lớp 6 (23/11/2026)
+
+Đã bổ sung 8 bài tiếp theo theo đúng ID và tiêu đề manifest Kết nối tri thức:
+
+| Phân môn | Bài | Nội dung |
+|---|---:|---|
+| Lịch sử | 17 | Bảo tồn và phát triển văn hóa dân tộc thời Bắc thuộc |
+| Lịch sử | 18 | Bước ngoặt lịch sử đầu thế kỉ X |
+| Lịch sử | 19 | Vương quốc Chăm-pa thế kỉ II–X |
+| Lịch sử | 20 | Vương quốc Phù Nam |
+| Địa lí | 17 | Thời tiết, khí hậu và biến đổi khí hậu |
+| Địa lí | 18 | Thực hành đọc biểu đồ nhiệt độ, lượng mưa |
+| Địa lí | 19 | Thủy quyển và vòng tuần hoàn lớn của nước |
+| Địa lí | 20 | Sông, hồ, nước ngầm và băng hà |
+
+Mỗi bài có tóm tắt học liệu tự biên soạn, 3 mục tiêu và một bộ 15 câu hỏi mới (11 cơ bản, 3 vận dụng, 1 thử thách), kèm 4 phương án, đáp án và giải thích. Các câu hỏi được viết theo mục tiêu và phạm vi bài, không sao chép nguyên văn SGK. Nguồn đối chiếu phạm vi và kiến thức: [Bài 17 Lịch sử](https://sgkvn.com/lop-6-3/ket-noi-tri-thuc-voi-cuoc-song-3/phan-lich-su-chuong-5-viet-nam-tu-khoang-the-ki-vii-truoc-cong-nguyen-den-dau-the-ki-x-2527/bai-17-cuoc-dau-tranh-bao-ton-va-phat-trien-van-hoa-dan-toc-cua-nguoi-viet-8714.html), [Bài 18 Lịch sử](https://haylamdo.com/lich-su-6-ket-noi/ly-thuyet-bai-18-buoc-ngoat-lich-su-dau-the-ki-x.jsp), [Bài 19 Chăm-pa](https://www.sgkvn.com/lop-6-3/ket-noi-tri-thuc-voi-cuoc-song-3/phan-lich-su-chuong-5-viet-nam-tu-khoang-the-ki-vii-truoc-cong-nguyen-den-dau-the-ki-x-2527/bai-19-vuong-quoc-cham-pa-tu-the-ki-ii-den-the-ki-x-8716.html), [Bài 20 Phù Nam](https://www.sgkvn.com/lop-6-3/ket-noi-tri-thuc-voi-cuoc-song-3/phan-lich-su-chuong-5-viet-nam-tu-khoang-the-ki-vii-truoc-cong-nguyen-den-dau-the-ki-x-2527/bai-20-vuong-quoc-phu-nam-8717.html), [Bài 17 Địa lí](https://sgkvn.com/lop-6-3/ket-noi-tri-thuc-voi-cuoc-song-3/phan-dia-ly-chuong-4-khi-hau-va-bien-doi-khi-hau-2532/bai-17-thoi-tiet-va-khi-hau-bien-doi-khi-hau-8766.html), [Bài 18 Địa lí](https://www.sgkvn.com/lop-6-3/ket-noi-tri-thuc-voi-cuoc-song-3/phan-dia-ly-chuong-4-khi-hau-va-bien-doi-khi-hau-2532/bai-18-thuc-hanh-phan-tich-bieu-do-nhiet-do-luong-mua-8767.html), [Bài 19 Địa lí](https://www.sgkvn.com/lop-6-3/ket-noi-tri-thuc-voi-cuoc-song-3/phan-dia-ly-chuong-5-nuoc-tren-trai-dat-2533/bai-19-thuy-quyen-va-vong-tuan-hoan-lon-cua-nuoc-9119.html).
+
+Sau đợt này, lớp 6 có **40/50 bài** gắn đúng manifest: Lịch sử **20/20**, Địa lí **20/30**. Toàn bộ manifest lớp 6–9 có **40/166 bài** đã có học liệu và quiz riêng; tương ứng 600 câu hỏi gắn đúng bài. Ngoài ra vẫn còn 8 bộ mẫu cũ (120 câu) để kiểm tra cấu trúc, không tính vào độ phủ SGK. Validator dự kiến kiểm tra 48 bộ / 720 câu tổng cộng.
+
+**Trạng thái phát hành:** mọi nội dung mới vẫn là draft. Chưa nhập Supabase, chưa publish, chưa mở khóa lớp 6–9, chưa merge. Cần tiếp tục rà soát chuyên môn độc lập từng câu/đáp án/giải thích; kiểm tra cấu trúc tự động không chứng minh tính đúng đắn học thuật.
