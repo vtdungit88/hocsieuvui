@@ -497,7 +497,7 @@ export const geographyQuizDrafts:HGGeoQuizSet[]=[
   ["Một địa phương có nguy cơ lũ lên nhanh. Biện pháp nào phù hợp?","Duy trì cảnh báo sớm, quy hoạch tránh vùng nguy hiểm và bảo vệ rừng đầu nguồn","Xây nhà sát lòng suối","Lấp toàn bộ hồ tự nhiên","Không theo dõi dự báo",0,"Cảnh báo, quy hoạch an toàn và bảo vệ lưu vực giúp giảm rủi ro lũ."],
   ["Một khu dân cư xả nước thải sinh hoạt trực tiếp xuống kênh. Cách xử lí phù hợp là gì?","Tăng lượng xả vào mùa khô","Thu gom và xử lí nước thải trước khi xả ra môi trường","Chuyển rác xuống sông lớn","Không cần kiểm tra chất lượng nước",1,"Xử lí nước thải giúp giảm ô nhiễm nguồn nước."],
   ["Một hồ chứa cần vận hành trong mùa mưa lũ. Yếu tố nào cần được cân nhắc?","Chỉ sản lượng điện","Chỉ lợi ích một doanh nghiệp","An toàn công trình, dòng chảy hạ du, dân cư và hệ sinh thái","Không cần thông báo hạ du",2,"Vận hành hồ chứa phải bảo đảm an toàn và tính đến nhiều lợi ích liên quan."]
- ]),status:'draft'},,
+ ]),status:'draft'},
 
  {lessonId:'g8-geography-07',grade:8,strand:'geography',title:'Vai trò của tài nguyên khí hậu và tài nguyên nước đối với sự phát triển kinh tế - xã hội của nước ta',questions:buildGeo('g8-geography-07',[
   ["Tài nguyên khí hậu có vai trò nào đối với nông nghiệp?","Tạo điều kiện bố trí mùa vụ và đa dạng cây trồng phù hợp","Làm mọi cây trồng phát triển giống nhau","Loại bỏ hoàn toàn sâu bệnh","Không ảnh hưởng đến sản xuất",0,"Nhiệt độ, mưa và mùa vụ tạo điều kiện cho nông nghiệp đa dạng."],
