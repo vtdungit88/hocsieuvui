@@ -731,5 +731,23 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
     ["Nếu bản đồ hành chính cho thấy số tỉnh và cách phân chia thay đổi dưới Minh Mạng, điều đó phản ánh gì?","Nỗ lực tăng cường quản lí thống nhất lãnh thổ","Việc chấm dứt nhà nước trung ương","Sự hình thành các thuộc địa","Sự biến mất của bộ máy quan lại",0,"Cải cách hành chính nhằm củng cố quản lí thống nhất từ trung ương."],
     ["Một địa phương có di tích kiến trúc thời Nguyễn. Khi nghiên cứu, nên làm gì?","Chỉ dựa vào truyền miệng","Kết hợp khảo sát di tích, tư liệu và bối cảnh lịch sử","Tự suy đoán niên đại","Không cần kiểm tra nguồn",1,"Nghiên cứu di tích cần kết hợp quan sát và nhiều nguồn tư liệu đáng tin cậy."],
     ["Nhận định nào phù hợp nhất về Việt Nam dưới triều Nguyễn nửa đầu thế kỉ XIX?","Không có hoạt động cải cách","Chỉ phát triển công nghiệp hiện đại","Nhà nước được củng cố và văn hóa có thành tựu, song xã hội và chính sách đối ngoại còn nhiều hạn chế","Đất nước không có biến động xã hội",2,"Giai đoạn có cả nỗ lực củng cố nhà nước, thành tựu văn hóa và những hạn chế đáng kể."]
+  ]),status:'draft'},,
+
+  {lessonId:'g8-history-17',grade:8,strand:'history',title:'Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884',questions:buildQuestions('g8-history-17',[
+    ["Thực dân Pháp nổ súng mở đầu cuộc xâm lược Việt Nam vào ngày nào?","1/9/1858","1/9/1862","5/6/1862","25/8/1883",0,"Ngày 1/9/1858, liên quân Pháp – Tây Ban Nha tấn công Đà Nẵng."],
+    ["Địa điểm nào bị liên quân Pháp – Tây Ban Nha tấn công đầu tiên năm 1858?","Gia Định","Đà Nẵng","Hà Nội","Huế",1,"Đà Nẵng là nơi Pháp mở đầu cuộc xâm lược Việt Nam."],
+    ["Người chỉ huy phòng tuyến chống Pháp ở Đà Nẵng là ai?","Hoàng Diệu","Trương Định","Nguyễn Tri Phương","Nguyễn Trung Trực",2,"Nguyễn Tri Phương tổ chức phòng tuyến chống Pháp ở Đà Nẵng."],
+    ["Sau khi không đạt mục tiêu ở Đà Nẵng, Pháp chuyển hướng tấn công vào đâu năm 1859?","Hà Nội","Huế","Nghệ An","Gia Định",3,"Năm 1859, Pháp chuyển hướng tấn công Gia Định."],
+    ["Hiệp ước Nhâm Tuất được kí vào năm nào?","1862","1867","1874","1884",0,"Hiệp ước Nhâm Tuất được kí năm 1862."],
+    ["Một nội dung quan trọng của Hiệp ước Nhâm Tuất năm 1862 là gì?","Triều đình giành lại toàn bộ Nam Kì","Nhượng ba tỉnh miền Đông Nam Kì cho Pháp","Pháp rút khỏi Việt Nam","Thành lập nhà nước mới",1,"Triều đình nhượng ba tỉnh miền Đông Nam Kì và một số quyền lợi khác."],
+    ["Thủ lĩnh nào gắn với phong trào kháng chiến ở Nam Kì sau năm 1862?","Nguyễn Ánh","Minh Mạng","Trương Định","Gia Long",2,"Trương Định là một trong những thủ lĩnh tiêu biểu của phong trào kháng chiến Nam Kì."],
+    ["Pháp chiếm ba tỉnh miền Tây Nam Kì vào năm nào?","1858","1862","1874","1867",3,"Năm 1867, Pháp chiếm ba tỉnh miền Tây Nam Kì."],
+    ["Nhân vật nào gắn với cuộc kháng chiến ở Bắc Kì khi Pháp tiến công năm 1882?","Hoàng Diệu","Nguyễn Huệ","Lê Lợi","Phan Đình Phùng",0,"Hoàng Diệu chỉ huy bảo vệ thành Hà Nội năm 1882."],
+    ["Hiệp ước Giáp Tuất được kí năm nào?","1862","1874","1883","1884",1,"Hiệp ước Giáp Tuất được kí năm 1874."],
+    ["Hiệp ước Hác-măng được kí vào năm nào?","1874","1867","1883","1884",2,"Hiệp ước Hác-măng được kí năm 1883."],
+    ["Hiệp ước Pa-tơ-nốt được kí vào năm nào?","1858","1862","1874","1884",3,"Hiệp ước Pa-tơ-nốt được kí năm 1884."],
+    ["Các hiệp ước từ 1862 đến 1884 có điểm chung nào?","Từng bước làm suy giảm chủ quyền và mở rộng quyền kiểm soát của Pháp","Giúp Việt Nam giành lại toàn bộ lãnh thổ","Chấm dứt mọi sự can thiệp của Pháp","Làm triều Nguyễn tăng quyền tự chủ",0,"Các hiệp ước lần lượt mở rộng quyền lợi và phạm vi kiểm soát của Pháp."],
+    ["Vì sao cần phân biệt phong trào kháng chiến của nhân dân với chính sách của triều đình?","Vì hai bên luôn có cùng mục tiêu và cách làm","Vì nhân dân nhiều nơi tiếp tục chống Pháp trong khi triều đình có những lựa chọn và nhượng bộ khác nhau","Vì không có cuộc kháng chiến nào","Vì triều đình không tham gia bất cứ sự kiện nào",1,"Cần xem xét riêng tinh thần kháng chiến của nhân dân và đường lối của triều đình."],
+    ["Nhận định nào khái quát đúng giai đoạn 1858–1884?","Pháp chiếm toàn bộ Việt Nam ngay năm 1858","Không có sự chống trả của nhân dân","Pháp từng bước mở rộng xâm lược, nhân dân kháng chiến ở nhiều nơi và triều đình kí các hiệp ước làm mất dần chủ quyền","Việt Nam giữ nguyên chủ quyền đến cuối thế kỉ XIX",2,"Quá trình xâm lược diễn ra từng bước, song song với kháng chiến và các hiệp ước bất lợi."]
   ]),status:'draft'},
 ];
