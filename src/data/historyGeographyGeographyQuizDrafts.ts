@@ -44,4 +44,21 @@ export const geographyQuizDrafts:HGGeoQuizSet[]=[
     ["Vì sao cần đọc lưới kinh vĩ tuyến cùng với chú giải và tên bản đồ?","Chỉ để xác định màu nền","Để xác định vị trí và hiểu đúng nội dung, kí hiệu được thể hiện","Để biết người xem là ai","Để thay thế tỉ lệ bản đồ",1,"Các yếu tố bản đồ bổ trợ nhau: định vị, giải mã kí hiệu và xác định phạm vi/nội dung."],
     ["Một bản đồ có lưới kinh vĩ tuyến nhưng người đọc xoay bản đồ tùy ý mà không kiểm tra mũi tên Bắc. Rủi ro lớn nhất là gì?","Không đọc được tên địa danh","Không tính được dân số","Xác định sai phương hướng tương đối giữa các địa điểm","Làm thay đổi tọa độ địa lí",2,"Cần xác định hướng Bắc theo quy ước hoặc mũi tên chỉ hướng trước khi suy ra các hướng khác."],
  ]),status:'draft'},
+  {lessonId:'g6-geography-03',grade:6,strand:'geography',title:'Tỉ lệ bản đồ. Tính khoảng cách thực tế dựa vào tỉ lệ bản đồ',questions:buildGeo('g6-geography-03',[
+    ['Tỉ lệ bản đồ cho biết điều gì?','Mức độ thu nhỏ khoảng cách trên bản đồ so với thực tế','Độ cao của địa hình','Số lượng kí hiệu','Thời gian lập bản đồ',0,'Tỉ lệ thể hiện mức độ thu nhỏ khoảng cách thực tế lên bản đồ.'],
+    ['Tỉ lệ số 1:100 000 có nghĩa là 1 cm trên bản đồ bằng bao nhiêu ngoài thực tế?','100 m','1 km','10 km','100 km',1,'100 000 cm bằng 1 000 m, tức 1 km.'],
+    ['Tỉ lệ 1:50 000 nghĩa là 1 cm trên bản đồ tương ứng?','50 km','5 km','500 m','50 m',2,'50 000 cm đổi bằng 500 m.'],
+    ['Tỉ lệ bản đồ thường được biểu hiện bằng những cách nào?','Chỉ bằng màu sắc','Chỉ bằng kí hiệu điểm','Chỉ bằng lời mô tả','Tỉ lệ số và thước tỉ lệ',3,'Hai cách biểu hiện phổ biến là tỉ lệ số và thước tỉ lệ.'],
+    ['Trên bản đồ tỉ lệ 1:200 000, 1 cm tương ứng thực tế bao nhiêu?','2 km','200 m','20 km','200 km',0,'200 000 cm bằng 2 km.'],
+    ['Khoảng cách hai điểm đo được trên bản đồ là 3 cm, tỉ lệ 1:100 000. Khoảng cách thực tế là?','300 m','3 km','30 km','300 km',1,'3 cm × 100 000 = 300 000 cm = 3 km.'],
+    ['Với cùng một khu vực, bản đồ tỉ lệ 1:25 000 so với 1:100 000 có mức độ thể hiện như thế nào?','Ít chi tiết hơn','Không thể hiện được đường','Chi tiết hơn','Luôn có diện tích giấy nhỏ hơn',2,'Mẫu số càng nhỏ thì tỉ lệ càng lớn và thường thể hiện chi tiết hơn.'],
+    ['Trên bản đồ tỉ lệ 1:500 000, 2 cm tương ứng bao nhiêu km?','2 km','5 km','20 km','10 km',3,'2 × 500 000 cm = 1 000 000 cm = 10 km.'],
+    ['Khi tính khoảng cách thực tế từ bản đồ, bước đầu tiên là gì?','Đo khoảng cách giữa hai điểm trên bản đồ','Nhân diện tích trang giấy','Đo nhiệt độ','Đếm số màu',0,'Cần đo khoảng cách trên bản đồ trước khi áp dụng tỉ lệ.'],
+    ['Nếu khoảng cách thực tế là 4 km và tỉ lệ 1:100 000, khoảng cách trên bản đồ là?','40 cm','4 cm','0,4 cm','400 cm',1,'4 km = 400 000 cm; chia 100 000 được 4 cm.'],
+    ['Một bản đồ có tỉ lệ 1:1 000 000. 1 cm trên bản đồ tương ứng?','100 m','1 km','10 km','100 km',2,'1 000 000 cm bằng 10 km.'],
+    ['Vì sao cần đổi các khoảng cách về cùng đơn vị trước khi tính?','Để bản đồ có nhiều màu','Để tăng tỉ lệ','Để khỏi cần đo','Để phép tính và kết quả nhất quán, tránh sai số đơn vị',3,'Đổi về cùng đơn vị giúp nhân/chia theo tỉ lệ chính xác.'],
+    ['Hai điểm cách nhau 5 cm trên bản đồ tỉ lệ 1:20 000. Khoảng cách thực tế là?','1 km','100 m','10 km','5 km',0,'5 × 20 000 cm = 100 000 cm = 1 km.'],
+    ['Một tuyến đường dài 6 km được biểu hiện trên bản đồ tỉ lệ 1:200 000. Độ dài trên bản đồ là?','12 cm','3 cm','6 cm','30 cm',1,'6 km = 600 000 cm; chia 200 000 được 3 cm.'],
+    ['Trên bản đồ tỉ lệ 1:50 000, đoạn AB dài 4 cm, đoạn CD dài 7 cm. Kết luận nào đúng?','AB dài thực tế hơn CD','Hai đoạn bằng nhau','CD dài hơn AB 1,5 km','Không thể so sánh dù cùng bản đồ',2,'AB là 2 km, CD là 3,5 km; CD dài hơn 1,5 km.']
+  ]),status:'draft'},
 ];
