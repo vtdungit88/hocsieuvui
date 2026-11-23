@@ -254,3 +254,14 @@ Nội dung tiếp tục ở trạng thái draft, chưa import vào Supabase và 
 Mỗi bài có phần tóm tắt, 3 mục tiêu và 15 câu hỏi có đáp án/giải thích theo đúng phân bố độ khó. Độ phủ nội dung lớp 6 hiện là **12/166 bài**, gồm **180 câu hỏi** thuộc 12 bộ quiz bài học; tổng dữ liệu quiz draft là **20 bộ / 300 câu**.
 
 Các bộ mới chưa được phê duyệt để phát hành. Không thay đổi dữ liệu production, không mở khóa lớp 6–9 và không merge PR trong giai đoạn biên soạn.
+
+
+## 14. Mở rộng nội dung lớp 6 — bài 7 (23/11/2026)
+
+Đã thêm hai bài:
+- `g6-history-07`: **Ai Cập và Lưỡng Hà cổ đại** — vị trí lưu vực sông Nin, Ti-grơ và Ơ-phơ-rát; nhà nước, chữ viết, kiến trúc và thành tựu văn hóa.
+- `g6-geography-07`: **Chuyển động tự quay quanh trục của Trái Đất và hệ quả** — hướng tự quay, ngày đêm luân phiên, giờ địa phương và múi giờ.
+
+Mỗi bài có học liệu tóm tắt, 3 mục tiêu và 15 câu hỏi theo cấu trúc 11/3/1. Độ phủ theo manifest tăng lên **14/166 bài**, tương ứng **210 câu hỏi** trong các bộ quiz gắn ID bài. Tổng dữ liệu quiz draft hiện là **22 bộ / 330 câu**.
+
+Các câu hỏi đã được viết theo hướng kiểm tra kiến thức và vận dụng, không dùng câu hỏi giữ chỗ. Toàn bộ nội dung vẫn là draft; chưa import Supabase, chưa mở khóa lớp và chưa merge production.
