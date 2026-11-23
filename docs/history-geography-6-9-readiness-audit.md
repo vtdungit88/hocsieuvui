@@ -128,3 +128,12 @@ The remaining ten Grade 7 History lessons and their 150 questions have been adde
 - Reconciled counts from the actual manifest-aligned source IDs: **96/166 units** and 96 matching quiz packs. With 8 legacy sample packs, the total is **104 quiz sets / 1,560 questions**. Grade 8 History is 7/19; 26 Grade 8 units and 44 Grade 9 units remain.
 - Validator now expects 96 manifest-aligned lessons/packs, 104 total quiz sets and 1,560 questions. Accidental empty array slots have been removed from both source arrays. CI has been triggered on the latest branch head `10ee6a2a38c03250abf25283b69742ea926fd410` and remains to be verified.
 - All new materials remain draft-only and require independent teacher/subject-matter review. No production import, publish, unlock, merge or deployment has occurred.
+
+
+## Progress update — 2026-11-23 (Grade 8 History lesson 8)
+
+- Added `g8-history-08`: **Phong trào Tây Sơn**, with three substantive sections covering context, major victories and historical significance, plus a matching 15-question draft quiz.
+- Current inventory: **97/166 manifest units** with 97 matching quiz packs. Including 8 legacy sample packs: **105 quiz sets / 1,575 questions**. Grade 8 History is 8/19; 25 Grade 8 units and 44 Grade 9 units remain.
+- Validator expected totals updated to 97 manifest lessons/packs, 105 quiz sets and 1,575 questions.
+- CI previously passed on content commit `10ee6a2a38c03250abf25283b69742ea926fd410` (lint, curriculum validator, build and bundle guard). The latest changes for lesson 8 and its validator need a fresh green run on the latest branch head.
+- All new materials remain draft-only and need independent teacher/subject-matter review. No production import, publish, unlock, merge or deployment has occurred.
