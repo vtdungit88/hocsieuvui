@@ -88,3 +88,13 @@ The remaining ten Grade 7 History lessons and their 150 questions have been adde
 - Coverage: Grade 6 50/50; Grade 7 History 18/18; Grade 7 Geography 19/19; Grade 7 integrated 2/2; Grade 8 History 2/19; remaining Grade 8 units 0/14; Grade 9 0/44.
 - CI run 45156243320 exposed a missing comma between lesson objects in `historyGeographyLessonDrafts.ts`; fixed in commit `40df809`. New content and validator changes followed. Run 45156533542 is checking commit `8e68d6b`; this run predates the final validator commit `ecb677b`, so a green result on the final branch head is still required.
 - No merge, deployment, production import or grade unlock. Drafts still require independent subject-matter review.
+
+
+## Progress update — 2026-11-23 (Grade 8 History lesson 3)
+
+- Added manifest-aligned lesson `g8-history-03`: **Cách mạng công nghiệp (nửa sau thế kỉ XVIII - giữa thế kỉ XIX)**, with three substantive learning sections, objectives, summary and examples.
+- Added its matching 15-question draft assessment using the established 11 basic / 3 application / 1 challenge distribution.
+- Fixed one duplicate assessment prompt previously detected by CI in the Grade 8 lesson 2 pack.
+- Current branch content totals: **93/166 manifest units** and 93 matching manifest-aligned quiz packs. With 8 retained legacy samples: **101 quiz packs / 1,515 questions**. Grade 8 History is now 3/19; remaining Grade 8 units are 30 and Grade 9 remains 44.
+- Validator expected totals were updated to 93 manifest-aligned lessons/packs, 101 total packs and 1,515 questions. CI has not yet been confirmed green on the exact current head `2facaa70b921fc08bbede419b40155bbaa551680`; the earlier duplicate-prompt failure was fixed, and the next completed run must be checked.
+- All new materials remain draft-only. They have not received independent teacher/subject-expert review. No Supabase production import, publish, unlock, merge or deployment has occurred.
