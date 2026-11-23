@@ -963,7 +963,6 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
     ],
     questions: [], status: "draft",
   },
-,
   {
     id: 'g7-geography-14', grade: 7, strand: 'geography', title: "Đặc điểm tự nhiên Bắc Mỹ",
     summary: "Khái quát địa hình, khí hậu, sông hồ và các đới thiên nhiên Bắc Mỹ; giải thích sự phân hóa tự nhiên theo vĩ độ, địa hình và ảnh hưởng của biển.", learningObjectives: ["Xác định các khu vực địa hình chính của Bắc Mỹ trên bản đồ","Trình bày sự phân hóa khí hậu và thiên nhiên từ bắc xuống nam, từ tây sang đông","Giải thích vai trò của địa hình và vị trí đối với phân hóa tự nhiên"],
