@@ -76,3 +76,99 @@ Không merge hoặc import nội dung lớp 6–9 chỉ vì build/CI xanh. Chỉ
 - Validator chứng minh độ phủ 100% theo manifest đã chốt.
 - Import idempotent, đúng mã môn `lsdl`, đúng lớp/chương/bài, trạng thái draft/review/approved/published rõ ràng.
 - Kiểm thử RPC, RLS, không lộ answer key, gameplay và giao diện học sinh đạt.
+
+
+## 7. Đối chiếu bổ sung mục lục lớp 8–9 (23/11/2026)
+
+### Lớp 8 — đã có danh sách bài chi tiết để nhập manifest
+
+Nguồn mục lục Kết nối tri thức đối chiếu: https://luyen.org/lop-8/lich-su-dia-li
+
+**Lịch sử (19 bài):**
+1. Cách mạng tư sản Anh và Chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ
+2. Cách mạng tư sản Pháp cuối thế kỉ XVIII
+3. Cách mạng công nghiệp (nửa sau thế kỉ XVIII – giữa thế kỉ XIX)
+4. Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX
+5. Cuộc xung đột Nam – Bắc triều và Trịnh – Nguyễn
+6. Công cuộc khai phá vùng đất phía Nam từ thế kỉ XVI đến thế kỉ XVIII
+7. Khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII
+8. Phong trào Tây Sơn
+9. Tình hình kinh tế, văn hoá, tôn giáo trong các thế kỉ XVI – XVIII
+10. Sự hình thành chủ nghĩa đế quốc ở các nước Âu – Mỹ (cuối thế kỉ XIX – đầu thế kỉ XX)
+11. Phong trào công nhân từ cuối thế kỉ XVIII đến đầu thế kỉ XX và sự ra đời của chủ nghĩa xã hội khoa học
+12. Chiến tranh thế giới thứ nhất (1914–1918) và Cách mạng tháng Mười Nga năm 1917
+13. Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII–XIX
+14. Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX
+15. Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX
+16. Việt Nam dưới thời Nguyễn (nửa đầu thế kỉ XIX)
+17. Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884
+18. Phong trào chống Pháp trong những năm 1885–1896
+19. Phong trào yêu nước chống Pháp ở Việt Nam từ đầu thế kỉ XX đến năm 1917
+
+**Địa lí (12 mục được nguồn liệt kê):**
+1. Vị trí địa lí và phạm vi lãnh thổ Việt Nam
+2. Địa hình Việt Nam
+3. Khoáng sản Việt Nam
+4. Khí hậu Việt Nam
+5. Thuỷ văn Việt Nam (nguồn ghi Bài 6; cần xác minh số Bài 5 trong bản SGK)
+6. Vai trò của tài nguyên khí hậu và tài nguyên nước đối với phát triển kinh tế – xã hội
+7. Tác động của biến đổi khí hậu đối với khí hậu và thuỷ văn Việt Nam
+8. Thổ nhưỡng Việt Nam
+9. Sinh vật Việt Nam
+10. Phạm vi Biển Đông, vùng biển đảo và đặc điểm tự nhiên vùng biển đảo Việt Nam
+11. Môi trường và tài nguyên thiên nhiên biển đảo Việt Nam
+12. (Nguồn mục lục đánh số không liên tục; phải đối chiếu bản SGK trước khi khóa mã bài và số thứ tự.)
+
+**Chủ đề chung (2):** Văn minh châu thổ sông Hồng và sông Cửu Long; Bảo vệ chủ quyền, các quyền và lợi ích hợp pháp của Việt Nam ở Biển Đông.
+
+Lưu ý: nguồn trực tuyến hiển thị phần Địa lí có bước nhảy số bài (Bài 4 sang Bài 6; một số bài sau tiếp tục đánh số không liền). Không tự sửa số hoặc tự tạo Bài 5. Trước khi chốt manifest cần kiểm tra bản SGK/tài liệu giáo viên để xác nhận cách đánh số và tên bài nguyên bản.
+
+### Lớp 9 — đã xác nhận thêm các tiêu đề cụ thể, vẫn cần khóa toàn bộ mục lục
+
+Nguồn đối chiếu:
+- https://situ.edu.vn/loi-giai-sach-giao-khoa-lich-su-va-dia-li-lop-9-ket-noi-tri-thuc/
+- https://luyen.org/lop-9/lich-su-dia-li
+
+Các bài Lịch sử đã thấy trong nguồn:
+1. Nước Nga và Liên Xô từ năm 1918 đến năm 1945
+2. Châu Âu và nước Mỹ từ năm 1918 đến năm 1945
+3. Châu Á từ năm 1918 đến năm 1945
+4. Chiến tranh thế giới thứ hai (1939–1945)
+5. Phong trào dân tộc dân chủ trong những năm 1918–1930
+6. Hoạt động của Nguyễn Ái Quốc và sự thành lập Đảng Cộng sản Việt Nam
+7. Phong trào cách mạng Việt Nam thời kì 1930–1939
+8. Cách mạng tháng Tám năm 1945
+9. Chiến tranh lạnh (1947–1989)
+
+Các bài Địa lí đã thấy trong nguồn:
+1. Dân tộc và dân số
+2. Phân bố dân cư và các loại hình quần cư
+3. Thực hành: Tìm hiểu vấn đề việc làm ở địa phương và phân hoá thu nhập theo vùng
+4. Nông nghiệp
+5. Lâm nghiệp và thuỷ sản
+6. Thực hành: Viết báo cáo về một mô hình sản xuất nông nghiệp có hiệu quả
+7. Công nghiệp
+8. Thực hành: Xác định các trung tâm công nghiệp chính ở nước ta
+9. Dịch vụ
+10. Thực hành: Tìm hiểu xu hướng phát triển ngành thương mại, du lịch
+11. Vùng Trung du và miền núi Bắc Bộ
+12. Vùng Đồng bằng sông Hồng
+13. Thực hành: Tìm hiểu về Vùng kinh tế trọng điểm Bắc Bộ
+14. Bắc Trung Bộ
+15. Duyên hải Nam Trung Bộ
+16. Thực hành: Phân tích ảnh hưởng của hạn hán và sa mạc hoá đối với phát triển kinh tế – xã hội ở vùng khô hạn Ninh Thuận – Bình Thuận
+17. Vùng Tây Nguyên
+18. Vùng Đông Nam Bộ
+19. Thực hành: Tìm hiểu Vùng kinh tế trọng điểm phía Nam
+20. Vùng Đồng bằng sông Cửu Long
+21. Thực hành: Tìm hiểu tác động của biến đổi khí hậu đối với Đồng bằng sông Cửu Long
+22. Phát triển tổng hợp kinh tế và bảo vệ tài nguyên, môi trường biển đảo
+
+Chủ đề chung được nguồn giới thiệu gồm: Đô thị – lịch sử và hiện tại; Văn minh châu thổ sông Hồng và sông Cửu Long; Bảo vệ chủ quyền, các quyền và lợi ích hợp pháp của Việt Nam ở Biển Đông.
+
+Danh sách trên là kết quả đối chiếu nhiều nguồn học tập, không phải bản trích xuất xác nhận cuối cùng từ SGK. Đặc biệt phần Lịch sử lớp 9 mới có 9 tiêu đề đầu; không được xem là toàn bộ chương trình. Cần tiếp tục lấy đủ mục lục phần còn lại trước khi đặt số lượng cứng trong validator.
+
+### Trạng thái kiểm thử
+
+- CI đã chạy thành công trên đúng head hiện tại `7714561711786818fd1ca01a423422a08dee4414`: Run #162 / #45103910867, kết luận `success`.
+- CI xanh chỉ xác nhận chất lượng kỹ thuật của thay đổi hiện tại; không xác nhận nội dung SGK đã đủ hoặc đạt kiểm định sư phạm.
