@@ -141,4 +141,22 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
     ['Vì sao chữ viết được xem là thành tựu quan trọng của các nhà nước cổ đại?','Vì chữ viết làm cho mọi người cùng nói một ngôn ngữ','Vì chữ viết thay thế hoàn toàn truyền miệng','Vì giúp ghi chép, quản lí và lưu truyền tri thức qua thời gian','Vì chữ viết chỉ dùng để trang trí',2,'Chữ viết hỗ trợ quản lí nhà nước, trao đổi và lưu giữ tri thức.']
   ]),status:'draft'},
 
+  {lessonId:'g6-history-08',grade:6,strand:'history',title:"Ấn Độ cổ đại",questions:buildQuestions('g6-history-08',[
+    ["Nền văn minh sông Ấn phát triển chủ yếu ở lưu vực con sông nào?","Sông Nin","Sông Ấn","Sông Hoàng Hà","Sông Ti-grơ",1,"Tên gọi văn minh sông Ấn gắn với lưu vực sông Ấn ở Nam Á."],
+    ["Hai đô thị tiêu biểu của văn minh sông Ấn là địa điểm nào?","Ha-ráp-pa và Mô-hen-giô Đa-rô","A-ten và Xpác-ta","Ba-bi-lon và Ni-ni-ve","Mem-phít và Thebes",0,"Ha-ráp-pa và Mô-hen-giô Đa-rô là hai trung tâm đô thị nổi bật."],
+    ["Đặc điểm nào thường được nhắc đến khi mô tả đô thị sông Ấn?","Nhà cửa hoàn toàn du mục","Không có đường phố","Quy hoạch đường phố và hệ thống thoát nước","Chỉ có lều tạm",2,"Nhiều di tích cho thấy đô thị được quy hoạch và có hệ thống thoát nước."],
+    ["Một nguồn tư liệu quan trọng để tìm hiểu văn minh sông Ấn là gì?","Truyện khoa học viễn tưởng","Bản tin hiện đại","Dự báo thời tiết","Di tích đô thị, đồ gốm và con dấu khảo cổ",3,"Di tích và hiện vật khảo cổ là chứng cứ quan trọng về đời sống cư dân."],
+    ["Khu vực hình thành nền văn minh Ấn Độ cổ đại thuộc châu lục nào?","Châu Á","Châu Âu","Châu Phi","Châu Đại Dương",0,"Ấn Độ cổ đại hình thành ở khu vực Nam Á thuộc châu Á."],
+    ["Văn học Vê-đa gắn với cộng đồng cư dân nào trong lịch sử Ấn Độ cổ đại?","Người La Mã","Người Arya","Người Phoenicia","Người Maya",1,"Các bộ kinh Vê-đa gắn với người Arya và văn hóa Vê-đa."],
+    ["Tôn giáo nào ra đời ở Ấn Độ cổ đại, gắn với Thích-ca Mâu-ni?","Ki-tô giáo","Hồi giáo","Phật giáo","Nho giáo",2,"Phật giáo ra đời ở Ấn Độ cổ đại, gắn với giáo pháp của Thích-ca Mâu-ni."],
+    ["Ai là vị vua Maurya nổi tiếng với việc truyền bá Phật giáo?","A-lếch-xan-đơ","Ha-mu-ra-bi","Julius Caesar","A-sô-ca",3,"A-sô-ca bảo trợ Phật giáo và góp phần truyền bá tôn giáo này."],
+    ["Vương triều Maurya thống nhất phần lớn tiểu lục địa Ấn Độ vào khoảng thời gian nào?","Thế kỉ III trước Công nguyên","Thế kỉ X","Thế kỉ XV","Thế kỉ XIX",0,"Đế quốc Maurya đạt đỉnh cao dưới thời A-sô-ca vào thế kỉ III TCN."],
+    ["Một thành tựu toán học quan trọng của người Ấn Độ cổ đại là gì?","Phát minh máy hơi nước","Phát triển hệ chữ số thập phân và kí hiệu số 0","Chế tạo động cơ phản lực","Sáng tạo internet",1,"Toán học Ấn Độ có đóng góp lớn vào hệ thập phân và kí hiệu số 0."],
+    ["Tôn giáo nào khác cũng ra đời ở Ấn Độ cổ đại, nhấn mạnh bất bạo lực và khổ hạnh?","Thần đạo","Đạo giáo","Kì-na giáo (Jain giáo)","Do Thái giáo",2,"Kì-na giáo là một tôn giáo có nguồn gốc ở Ấn Độ, đề cao bất bạo lực."],
+    ["Vì sao các đô thị cổ ở lưu vực sông Ấn có điều kiện phát triển nông nghiệp?","Vì không có mùa mưa","Vì nằm hoàn toàn trên núi cao","Vì không cần nguồn nước","Vì có nguồn nước và đất đai thuận lợi ở lưu vực sông",3,"Sông cung cấp nước và góp phần tạo điều kiện cho sản xuất nông nghiệp."],
+    ["Một con dấu khắc hình thú và kí hiệu được tìm thấy tại di chỉ Harappa. Cách nhận định nào thận trọng nhất?","Đó là hiện vật khảo cổ cần được phân tích để tìm hiểu trao đổi và biểu tượng","Chắc chắn là tiền giấy hiện đại","Đó là văn bản tiếng Việt","Không có giá trị nghiên cứu",0,"Con dấu là hiện vật khảo cổ; cần đặt trong bối cảnh và đối chiếu các phát hiện khác."],
+    ["Khi so sánh Phật giáo và Kì-na giáo về nguồn gốc, nhận định nào phù hợp?","Cả hai đều ra đời ở La Mã","Cả hai đều có nguồn gốc ở Ấn Độ cổ đại","Cả hai chỉ xuất hiện ở châu Mỹ","Cả hai ra đời trong thế kỉ XXI",1,"Hai tôn giáo đều hình thành ở Ấn Độ cổ đại, dù giáo lí có điểm khác nhau."],
+    ["Một học sinh kết luận văn minh Ấn Độ chỉ có thành tựu tôn giáo. Cách bổ sung nào đầy đủ hơn?","Chỉ kể tên các vị vua","Bỏ qua tư liệu khảo cổ","Tìm hiểu thêm đô thị, chữ viết, toán học, văn học và nghệ thuật","Cho rằng không có thành tựu khác",2,"Văn minh Ấn Độ có nhiều thành tựu về đô thị, tư tưởng, khoa học và nghệ thuật."]
+  ]),status:'draft'},
+
 ];
