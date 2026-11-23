@@ -44,7 +44,7 @@ for (const grade of historyGeographySyllabusManifest) {
   }
 }
 assert.equal(syllabusLessons.filter((item) => item.strand === 'history' && item.status === 'source_verified').length > 0, true);
-assert.equal(syllabusLessons.filter((item) => item.strand === 'geography' && item.status === 'source_verified').length > 0);
+assert.equal(syllabusLessons.filter((item) => item.strand === 'geography' && item.status === 'source_verified').length > 0, true, 'Manifest must include verified geography lessons');
 
 // Legacy sample packs remain structurally validated. New content must use exact manifest IDs
 // to be counted toward coverage; topic-level legacy samples are deliberately not misreported as full lessons.
