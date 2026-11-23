@@ -19,7 +19,7 @@ export const geographyQuizDrafts:HGGeoQuizSet[]=[
   ["Kí hiệu 20°B cho biết điều gì?","20 độ kinh Đông","20 độ kinh Tây","20 độ vĩ Bắc","20 độ vĩ Nam",2,"Chữ B chỉ vĩ độ Bắc."],
   ["Kí hiệu 105°Đ cho biết điều gì?","105 độ vĩ Bắc","105 độ vĩ Nam","105 độ kinh Tây","105 độ kinh Đông",3,"Chữ Đ chỉ kinh độ Đông."],
   ["Tọa độ địa lí của một điểm thường gồm cặp giá trị nào?","Vĩ độ và kinh độ","Độ cao và nhiệt độ","Khoảng cách và diện tích","Dân số và mật độ",0,"Tọa độ địa lí được xác định bằng vĩ độ và kinh độ."],
-  ["Trên quả Địa Cầu, các kinh tuyến gặp nhau ở đâu?","Xích đạo","Hai cực","Chí tuyến","Đường đổi ngày בלבד",1,"Các kinh tuyến hội tụ tại hai cực."],
+  ["Trên quả Địa Cầu, các kinh tuyến gặp nhau ở đâu?","Xích đạo","Hai cực","Chí tuyến","Đường đổi ngày",1,"Các kinh tuyến hội tụ tại hai cực."],
   ["Vĩ tuyến lớn nhất là đường nào?","Chí tuyến Bắc","Vòng cực Nam","Xích đạo","Vòng cực Bắc",2,"Xích đạo là vĩ tuyến lớn nhất."],
   ["Một điểm nằm ở 15°N, 108°Đ thuộc bán cầu nào?","Bắc và Tây","Nam và Tây","Nam và Đông","Bắc và Đông",3,"15°N là vĩ độ Bắc; 108°Đ là kinh độ Đông."],
   ["Hai điểm cùng vĩ độ nhưng khác kinh độ nằm trên đường nào?","Cùng một vĩ tuyến","Cùng một kinh tuyến","Cùng một cực","Cùng độ cao",0,"Các điểm cùng vĩ độ nằm trên cùng một vĩ tuyến."],
