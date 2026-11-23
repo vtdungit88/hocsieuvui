@@ -303,3 +303,31 @@ Nguồn đối chiếu phạm vi/kiến thức:
 - [SGKVN — Núi lửa và động đất](https://sgkvn.com/lop-6-3/ket-noi-tri-thuc-voi-cuoc-song-3/phan-dia-ly-chuong-3-cau-tao-cua-trai-dat-vo-trai-dat-2531/bai-12-nui-lua-va-dong-dat-8752.html)
 
 Sau đợt này: 24/166 bài manifest có học liệu và quiz gắn đúng ID (14,46%); 32 bộ quiz gồm 8 bộ mẫu cũ và 24 bộ theo bài SGK. Có 360 câu hỏi gắn đúng bài trong 24 bộ theo SGK và 120 câu trong 8 bộ mẫu cũ, tổng cộng 480 câu. Tất cả vẫn là draft, chưa nhập Supabase và chưa mở lớp 6–9. Kiểm tra cấu trúc không thay thế thẩm định chuyên môn độc lập từng đáp án.
+
+
+## 17. Mở rộng nội dung lớp 6 — bài 13–16 (23/11/2026)
+
+Đã bổ sung thêm 8 bài gắn đúng manifest: Lịch sử 13–16 và Địa lí 13–16. Mỗi bài có tóm tắt học liệu tự biên soạn, 3 mục tiêu và 15 câu hỏi có 4 phương án, đáp án, giải thích; phân bố 11 cơ bản, 3 vận dụng, 1 thử thách.
+
+| Phân môn | Bài | Trọng tâm |
+|---|---|---|
+| Lịch sử | 13 | Giao lưu văn hóa Đông Nam Á |
+| Lịch sử | 14 | Nhà nước Văn Lang – Âu Lạc |
+| Lịch sử | 15 | Chính sách cai trị thời Bắc thuộc và chuyển biến xã hội |
+| Lịch sử | 16 | Các cuộc khởi nghĩa tiêu biểu trước thế kỉ X |
+| Địa lí | 13 | Các dạng địa hình chính và khoáng sản |
+| Địa lí | 14 | Thực hành đọc lược đồ địa hình và lát cắt |
+| Địa lí | 15 | Khí quyển, khí áp và gió |
+| Địa lí | 16 | Nhiệt độ không khí, mây và mưa |
+
+Nguồn đối chiếu:
+- [SGKVN — Giao lưu văn hóa ở Đông Nam Á](https://sgkvn.com/lop-6-3/ket-noi-tri-thuc-voi-cuoc-song-3/phan-lich-su-chuong-4-dong-nam-a-tu-nhung-the-ki-tiep-giap-dau-cong-nguyen-den-the-ki-x-2526/bai-13-giao-luu-van-hoa-o-dong-nam-a-tu-dau-cong-nguyen-den-the-ki-x-8710.html)
+- [SGKVN — Nhà nước Văn Lang – Âu Lạc](https://www.sgkvn.com/lop-6-3/ket-noi-tri-thuc-voi-cuoc-song-3/phan-lich-su-chuong-5-viet-nam-tu-khoang-the-ki-vii-truoc-cong-nguyen-den-dau-the-ki-x-2527/bai-14-nha-nuoc-van-lang-au-lac-8711.html)
+- [SGK trực tuyến — Chính sách cai trị và chuyển biến xã hội](https://sachgiaokhoa.aistudybuddy.net/sach-online/lop-6/lich-su-va-dia-li-6/bai-15-chinh-sach-cai-tri-cua-cac-trieu-dai-phong-kien-phuong-bac-va/)
+- [SGKVN — Các cuộc khởi nghĩa tiêu biểu trước thế kỉ X](https://www.sgkvn.com/lop-6-3/ket-noi-tri-thuc-voi-cuoc-song-3/phan-lich-su-chuong-5-viet-nam-tu-khoang-the-ki-vii-truoc-cong-nguyen-den-dau-the-ki-x-2527/bai-16-cac-cuoc-khoi-nghia-tieu-bieu-gianh-doc-lap-truoc-the-ki-x-8713.html)
+- [SGKVN — Các dạng địa hình và khoáng sản](https://sgkvn.com/lop-6-3/ket-noi-tri-thuc-voi-cuoc-song-3/phan-dia-ly-chuong-3-cau-tao-cua-trai-dat-vo-trai-dat-2531/bai-13-cac-dang-dia-hinh-chinh-tren-trai-dat-khoang-san-8756.html)
+- [Học247 — Đọc lược đồ địa hình tỉ lệ lớn và lát cắt](https://hoc247.net/lich-su-va-dia-li-6/bai-14-thuc-hanh-doc-luoc-do-dia-hinh-ti-le-lon-va-lat-cat-dia-hinh-don-gian-l10530.html)
+- [SGKVN — Lớp vỏ khí, khí áp và gió](https://www.sgkvn.com/lop-6-3/ket-noi-tri-thuc-voi-cuoc-song-3/phan-dia-li-chuong-4-khi-hau-va-bien-doi-khi-hau-2532/bai-15-lop-vo-khi-cua-trai-dat-khi-ap-va-gio-8762.html)
+- [SGKVN — Nhiệt độ không khí, mây và mưa](https://www.sgkvn.com/lop-6-3/ket-noi-tri-thuc-voi-cuoc-song-3/phan-dia-li-chuong-4-khi-hau-va-bien-doi-khi-hau-2532/bai-16-nhiet-do-khong-khi-may-va-mua-8764.html)
+
+Sau đợt này, độ phủ đạt **32/166 bài** (19,28%): 16 bài Lịch sử và 16 bài Địa lí lớp 6, tương ứng **480 câu hỏi theo bài SGK**. Tổng hiện có 40 bộ / 600 câu draft, trong đó 8 bộ chủ đề mẫu cũ (120 câu) không tính vào độ phủ. Nội dung tiếp tục ở trạng thái draft; chưa import Supabase, chưa mở khóa lớp 6–9. Validator kiểm tra cấu trúc và tính nhất quán dữ liệu, không thay thế thẩm định chuyên môn độc lập.
