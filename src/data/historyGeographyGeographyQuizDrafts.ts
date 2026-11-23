@@ -533,7 +533,7 @@ export const geographyQuizDrafts:HGGeoQuizSet[]=[
   ["Muốn đánh giá xu thế nhiệt độ của địa phương, nên dùng loại dữ liệu nào?","Chuỗi số liệu quan trắc nhiều năm","Nhiệt độ của một buổi chiều","Một bức ảnh thời tiết","Một dự báo không có mốc thời gian",0,"Chuỗi số liệu nhiều năm giúp nhận diện xu thế dài hạn."],
   ["Một địa phương ven biển vừa đối mặt xâm nhập mặn vừa thiếu nước mùa khô. Giải pháp tổng hợp nào hợp lí?","Chỉ mở rộng khai thác nước ngầm","Kết hợp trữ nước, theo dõi độ mặn, tưới tiết kiệm và điều chỉnh mùa vụ","Bỏ qua hệ thống cảnh báo","Tăng trồng cây cần nhiều nước",1,"Giải pháp tổng hợp kết hợp quản lí nước và điều chỉnh sản xuất."],
   ["Khi xây dựng kế hoạch thích ứng khí hậu, yếu tố nào cần được cân nhắc?","Chỉ lợi ích ngắn hạn của một ngành","Chỉ số lượng công trình","Dữ liệu địa phương, sinh kế cộng đồng, hệ sinh thái và rủi ro dài hạn","Không cần tham vấn người dân",2,"Kế hoạch bền vững cần dựa trên dữ liệu và cân bằng lợi ích xã hội – môi trường."]
- ]),status:'draft'},,
+ ]),status:'draft'},
 
  {lessonId:'g8-geography-09',grade:8,strand:'geography',title:'Thổ nhưỡng Việt Nam',questions:buildGeo('g8-geography-09',[
   ["Thổ nhưỡng được hình thành dưới tác động tổng hợp của những nhân tố nào?","Đá mẹ, khí hậu, sinh vật, địa hình, thời gian và con người","Chỉ dân số","Chỉ hướng gió","Chỉ độ dài sông",0,"Đất hình thành do nhiều nhân tố tự nhiên và hoạt động con người cùng tác động."],
