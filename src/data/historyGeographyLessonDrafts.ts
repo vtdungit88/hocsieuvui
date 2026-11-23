@@ -857,20 +857,93 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
     questions: [], status: 'draft',
   },
 
-  {
-    id: 'g7-geography-01',
-    grade: 7,
-    strand: 'geography',
-    title: 'Vị trí địa lí, đặc điểm tự nhiên châu Âu',
-    summary: 'Châu Âu nằm chủ yếu trong đới ôn hòa của bán cầu Bắc, tiếp giáp Bắc Băng Dương, Đại Tây Dương, Địa Trung Hải và châu Á. Bờ biển bị chia cắt mạnh, nhiều bán đảo và biển ven bờ. Địa hình gồm đồng bằng rộng ở phía bắc và trung tâm, núi già, núi trẻ ở phía nam. Khí hậu nhìn chung ôn hòa nhưng phân hóa theo vĩ độ, địa hình và ảnh hưởng biển.',
-    learningObjectives: ['Xác định vị trí và giới hạn của châu Âu trên bản đồ thế giới.', 'Mô tả được các đặc điểm chính của địa hình và khí hậu châu Âu.', 'Giải thích sơ bộ ảnh hưởng của vị trí, địa hình và biển đến tự nhiên châu Âu.'],
-    sections: [
-      { heading: 'Vị trí địa lí và phạm vi', body: 'Châu Âu là một bộ phận của lục địa Á – Âu, nằm chủ yếu ở bán cầu Bắc. Ranh giới với châu Á thường được xác định theo dãy U-ran, sông U-ran, biển Ca-xpi, dãy Cáp-ca, biển Đen và các eo biển nối với Địa Trung Hải. Phía bắc châu Âu giáp Bắc Băng Dương, phía tây giáp Đại Tây Dương, phía nam giáp Địa Trung Hải. Vị trí này khiến châu Âu có quan hệ tự nhiên và giao lưu lâu đời với các khu vực xung quanh.', keyPoints: ['Châu Âu thuộc lục địa Á – Âu và nằm chủ yếu ở bán cầu Bắc', 'Ba mặt tiếp giáp các biển và đại dương lớn', 'Ranh giới đông nam với châu Á được quy ước theo các dãy núi, sông và biển'], example: 'Khi đọc bản đồ, lần lượt xác định Bắc Băng Dương ở phía bắc, Đại Tây Dương ở phía tây và Địa Trung Hải ở phía nam.' },
-      { heading: 'Địa hình và bờ biển', body: 'Bờ biển châu Âu bị cắt xẻ mạnh, tạo nhiều bán đảo, vịnh, biển và đảo; điều này làm tăng khả năng tiếp xúc với biển. Địa hình có thể khái quát thành đồng bằng, núi già và núi trẻ. Đồng bằng tập trung nhiều ở phía bắc và trung tâm. Núi già thường có độ cao thấp hơn, đỉnh tương đối tròn do bị bào mòn lâu dài; núi trẻ tập trung nhiều ở phía nam, có độ cao lớn và địa hình hiểm trở hơn. Các dãy An-pơ là ví dụ tiêu biểu cho núi trẻ.', keyPoints: ['Bờ biển dài và bị chia cắt mạnh', 'Đồng bằng rộng ở phía bắc và trung tâm', 'Núi trẻ cao, đồ sộ tập trung ở phía nam'], example: 'So sánh đồng bằng Bắc Âu với dãy An-pơ trên bản đồ địa hình để nhận ra sự khác biệt về độ cao.' },
-      { heading: 'Khí hậu và tác động của biển', body: 'Phần lớn châu Âu có khí hậu ôn đới, phía bắc có khí hậu hàn đới và một số khu vực phía nam mang tính chất Địa Trung Hải. Tây Âu thường ấm và ẩm hơn những nơi cùng vĩ độ ở sâu trong lục địa do ảnh hưởng của dòng biển nóng Bắc Đại Tây Dương và gió Tây ôn đới. Càng vào sâu phía đông, tính lục địa tăng, biên độ nhiệt năm thường lớn hơn và lượng mưa có xu hướng giảm. Địa hình núi còn làm khí hậu thay đổi theo độ cao và sườn đón gió, khuất gió.', keyPoints: ['Khí hậu phân hóa từ bắc xuống nam và từ tây sang đông', 'Biển và dòng biển nóng làm dịu khí hậu Tây Âu', 'Địa hình tạo khác biệt khí hậu theo độ cao và hướng sườn'], example: 'Một địa điểm ven Đại Tây Dương thường có mùa đông bớt lạnh hơn địa điểm nằm sâu trong lục địa ở cùng vĩ độ.' }
-    ],
-    questions: [],
-    status: 'draft',
-  },
 
+  {
+    id: "g6-history-17", grade: 6, strand: "history", title: "Cuộc đấu tranh bảo tồn và phát triển văn hóa dân tộc của người Việt",
+    summary: "Trong thời Bắc thuộc, người Việt vừa tiếp nhận có chọn lọc yếu tố văn hóa bên ngoài, vừa duy trì tiếng nói, phong tục và tín ngưỡng riêng. Quá trình đó góp phần bảo tồn bản sắc và tạo nền tảng cho văn hóa dân tộc phát triển.",
+    learningObjectives: ["Nêu được các đặc điểm chính của nội dung bài học.", "Sử dụng được thông tin, tư liệu hoặc ví dụ để giải thích hiện tượng.", "Liên hệ được ý nghĩa của kiến thức với đời sống và môi trường."],
+    sections: [
+      { heading: "Tiếng nói và phong tục", body: "Tiếng Việt cùng nhiều phong tục trong gia đình, làng xã được duy trì qua nhiều thế hệ. Dù chịu sức ép đồng hóa, cộng đồng cư dân vẫn gìn giữ cách sinh hoạt, tập quán và tri thức phù hợp với môi trường sống.", keyPoints: ["Nắm được khái niệm hoặc bối cảnh chính", "Nhận biết được đặc điểm tiêu biểu"], example: "Dùng tư liệu hoặc bản đồ phù hợp để xác định nội dung." },
+      { heading: "Tín ngưỡng và tiếp biến", body: "Tín ngưỡng thờ cúng tổ tiên, thờ các lực lượng tự nhiên và sinh hoạt cộng đồng tiếp tục tồn tại. Một số yếu tố văn hóa từ bên ngoài được tiếp nhận, điều chỉnh để phù hợp với đời sống bản địa.", keyPoints: ["Phân tích được nguyên nhân hoặc biểu hiện", "Liên hệ được với điều kiện cụ thể"], example: "Đối chiếu một trường hợp cụ thể với kiến thức trong bài." },
+      { heading: "Ý nghĩa lịch sử", body: "Sự bền bỉ trong bảo tồn văn hóa giúp cộng đồng duy trì ý thức về cội nguồn và sự khác biệt. Đây là một trong những cơ sở tinh thần quan trọng cho quá trình giành và xây dựng nền tự chủ.", keyPoints: ["Khái quát được ý nghĩa hoặc hệ quả", "Đề xuất cách vận dụng kiến thức phù hợp"], example: "Trình bày một nhận xét có căn cứ từ dữ kiện đã học." }
+    ],
+    questions: [], status: "draft",
+  },
+  {
+    id: "g6-history-18", grade: 6, strand: "history", title: "Bước ngoặt lịch sử đầu thế kỉ X",
+    summary: "Đầu thế kỉ X, chính quyền họ Khúc từng bước xây dựng nền tự chủ. Chiến thắng Bạch Đằng năm 938 của Ngô Quyền đánh bại quân Nam Hán, mở ra thời kì độc lập lâu dài.",
+    learningObjectives: ["Nêu được các đặc điểm chính của nội dung bài học.", "Sử dụng được thông tin, tư liệu hoặc ví dụ để giải thích hiện tượng.", "Liên hệ được ý nghĩa của kiến thức với đời sống và môi trường."],
+    sections: [
+      { heading: "Họ Khúc xây dựng tự chủ", body: "Sau khi giành quyền kiểm soát đất nước năm 905, họ Khúc tiến hành một số cải cách về tổ chức hành chính, thuế khóa và đời sống. Những thay đổi này làm suy yếu cơ chế cai trị cũ và củng cố quyền tự chủ.", keyPoints: ["Nắm được khái niệm hoặc bối cảnh chính", "Nhận biết được đặc điểm tiêu biểu"], example: "Dùng tư liệu hoặc bản đồ phù hợp để xác định nội dung." },
+      { heading: "Ngô Quyền và chiến thắng Bạch Đằng", body: "Năm 938, Ngô Quyền lựa chọn vùng cửa sông Bạch Đằng để tổ chức trận quyết chiến. Quân dân ta tận dụng địa hình, thủy triều và sự phối hợp lực lượng để đánh bại quân Nam Hán.", keyPoints: ["Phân tích được nguyên nhân hoặc biểu hiện", "Liên hệ được với điều kiện cụ thể"], example: "Đối chiếu một trường hợp cụ thể với kiến thức trong bài." },
+      { heading: "Ý nghĩa của bước ngoặt", body: "Chiến thắng Bạch Đằng chấm dứt về cơ bản thời kì bị các triều đại phương Bắc đô hộ kéo dài, khẳng định năng lực tự chủ và mở đầu thời đại độc lập lâu dài.", keyPoints: ["Khái quát được ý nghĩa hoặc hệ quả", "Đề xuất cách vận dụng kiến thức phù hợp"], example: "Trình bày một nhận xét có căn cứ từ dữ kiện đã học." }
+    ],
+    questions: [], status: "draft",
+  },
+  {
+    id: "g6-history-19", grade: 6, strand: "history", title: "Vương quốc Chăm-pa từ thế kỉ II đến thế kỉ X",
+    summary: "Vương quốc Chăm-pa hình thành ở miền Trung Việt Nam, phát triển dựa trên nông nghiệp, thương mại biển và giao lưu văn hóa. Cư dân Chăm-pa tạo dựng nhiều thành tựu kiến trúc, điêu khắc và tín ngưỡng.",
+    learningObjectives: ["Nêu được các đặc điểm chính của nội dung bài học.", "Sử dụng được thông tin, tư liệu hoặc ví dụ để giải thích hiện tượng.", "Liên hệ được ý nghĩa của kiến thức với đời sống và môi trường."],
+    sections: [
+      { heading: "Sự hình thành và tổ chức", body: "Từ cuối thế kỉ II, nhà nước Lâm Ấp xuất hiện ở khu vực miền Trung, sau phát triển thành Chăm-pa. Lãnh thổ và trung tâm chính trị có những thay đổi theo từng thời kì; các tiểu vùng ven biển và đồng bằng giữ vai trò quan trọng.", keyPoints: ["Nắm được khái niệm hoặc bối cảnh chính", "Nhận biết được đặc điểm tiêu biểu"], example: "Dùng tư liệu hoặc bản đồ phù hợp để xác định nội dung." },
+      { heading: "Kinh tế và giao lưu", body: "Cư dân Chăm-pa trồng lúa, khai thác sản vật và phát triển thủ công nghiệp. Vị trí ven biển thuận lợi cho giao thương với các khu vực Đông Nam Á và Ấn Độ, tạo điều kiện tiếp nhận nhiều ảnh hưởng văn hóa.", keyPoints: ["Phân tích được nguyên nhân hoặc biểu hiện", "Liên hệ được với điều kiện cụ thể"], example: "Đối chiếu một trường hợp cụ thể với kiến thức trong bài." },
+      { heading: "Văn hóa Chăm-pa", body: "Tín ngưỡng Hindu giáo và Phật giáo có ảnh hưởng trong một số giai đoạn. Tháp Chăm, tượng và phù điêu thể hiện trình độ kiến trúc, điêu khắc đặc sắc; văn hóa Chăm-pa góp phần làm phong phú di sản Việt Nam.", keyPoints: ["Khái quát được ý nghĩa hoặc hệ quả", "Đề xuất cách vận dụng kiến thức phù hợp"], example: "Trình bày một nhận xét có căn cứ từ dữ kiện đã học." }
+    ],
+    questions: [], status: "draft",
+  },
+  {
+    id: "g6-history-20", grade: 6, strand: "history", title: "Vương quốc Phù Nam",
+    summary: "Phù Nam là một nhà nước cổ ở khu vực hạ lưu sông Mekong, phát triển mạnh trong những thế kỉ đầu Công nguyên. Vị trí gần biển và mạng lưới sông ngòi giúp Phù Nam trở thành trung tâm giao thương quan trọng.",
+    learningObjectives: ["Nêu được các đặc điểm chính của nội dung bài học.", "Sử dụng được thông tin, tư liệu hoặc ví dụ để giải thích hiện tượng.", "Liên hệ được ý nghĩa của kiến thức với đời sống và môi trường."],
+    sections: [
+      { heading: "Vị trí và quá trình phát triển", body: "Phù Nam hình thành ở vùng châu thổ và ven biển phía nam Đông Nam Á. Quá trình phát triển gắn với khả năng kiểm soát các tuyến giao thông thủy và kết nối vùng nội địa với biển.", keyPoints: ["Nắm được khái niệm hoặc bối cảnh chính", "Nhận biết được đặc điểm tiêu biểu"], example: "Dùng tư liệu hoặc bản đồ phù hợp để xác định nội dung." },
+      { heading: "Kinh tế và thương mại", body: "Nông nghiệp lúa nước dựa vào hệ thống sông, kênh rạch là nền tảng kinh tế. Các hoạt động thủ công và trao đổi hàng hóa phát triển; thương cảng Óc Eo là dấu tích quan trọng cho thấy mạng lưới giao thương rộng.", keyPoints: ["Phân tích được nguyên nhân hoặc biểu hiện", "Liên hệ được với điều kiện cụ thể"], example: "Đối chiếu một trường hợp cụ thể với kiến thức trong bài." },
+      { heading: "Di sản và sự chuyển biến", body: "Di tích khảo cổ Óc Eo cung cấp bằng chứng về đời sống, sản xuất và giao lưu của cư dân Phù Nam. Từ khoảng thế kỉ VII, vai trò của Phù Nam suy giảm và các trung tâm quyền lực trong khu vực có sự chuyển biến.", keyPoints: ["Khái quát được ý nghĩa hoặc hệ quả", "Đề xuất cách vận dụng kiến thức phù hợp"], example: "Trình bày một nhận xét có căn cứ từ dữ kiện đã học." }
+    ],
+    questions: [], status: "draft",
+  },
+  {
+    id: "g6-geography-17", grade: 6, strand: "geography", title: "Thời tiết và khí hậu. Biến đổi khí hậu",
+    summary: "Thời tiết là trạng thái khí quyển trong thời gian ngắn tại một địa điểm; khí hậu là đặc điểm thời tiết lặp lại trong thời gian dài. Biến đổi khí hậu làm thay đổi nhiều yếu tố khí hậu và gia tăng rủi ro thiên tai.",
+    learningObjectives: ["Nêu được các đặc điểm chính của nội dung bài học.", "Sử dụng được thông tin, tư liệu hoặc ví dụ để giải thích hiện tượng.", "Liên hệ được ý nghĩa của kiến thức với đời sống và môi trường."],
+    sections: [
+      { heading: "Phân biệt thời tiết và khí hậu", body: "Thời tiết thay đổi từng ngày, thậm chí từng giờ; khí hậu được nhận biết qua quy luật nhiều năm. Nhiệt độ, lượng mưa, gió và độ ẩm là những yếu tố thường được dùng để mô tả thời tiết và khí hậu.", keyPoints: ["Nắm được khái niệm hoặc bối cảnh chính", "Nhận biết được đặc điểm tiêu biểu"], example: "Dùng tư liệu hoặc bản đồ phù hợp để xác định nội dung." },
+      { heading: "Biến đổi khí hậu", body: "Biến đổi khí hậu hiện nay thể hiện qua xu hướng nóng lên toàn cầu, thay đổi lượng mưa, mực nước biển dâng và một số hiện tượng cực đoan gia tăng. Nguyên nhân chủ yếu là phát thải khí nhà kính từ hoạt động của con người.", keyPoints: ["Phân tích được nguyên nhân hoặc biểu hiện", "Liên hệ được với điều kiện cụ thể"], example: "Đối chiếu một trường hợp cụ thể với kiến thức trong bài." },
+      { heading: "Thích ứng và giảm nhẹ", body: "Giảm phát thải, sử dụng năng lượng hiệu quả, bảo vệ rừng và thay đổi phương thức sản xuất góp phần giảm nhẹ biến đổi khí hậu. Cộng đồng cần theo dõi cảnh báo, quy hoạch phù hợp và chuẩn bị phương án ứng phó thiên tai.", keyPoints: ["Khái quát được ý nghĩa hoặc hệ quả", "Đề xuất cách vận dụng kiến thức phù hợp"], example: "Trình bày một nhận xét có căn cứ từ dữ kiện đã học." }
+    ],
+    questions: [], status: "draft",
+  },
+  {
+    id: "g6-geography-18", grade: 6, strand: "geography", title: "Thực hành: Phân tích biểu đồ nhiệt độ, lượng mưa",
+    summary: "Biểu đồ khí hậu thể hiện sự thay đổi nhiệt độ và lượng mưa theo tháng. Đọc đúng tên địa điểm, đơn vị, trục số và chú giải giúp học sinh mô tả đặc điểm khí hậu có căn cứ.",
+    learningObjectives: ["Nêu được các đặc điểm chính của nội dung bài học.", "Sử dụng được thông tin, tư liệu hoặc ví dụ để giải thích hiện tượng.", "Liên hệ được ý nghĩa của kiến thức với đời sống và môi trường."],
+    sections: [
+      { heading: "Đọc cấu trúc biểu đồ", body: "Trước khi phân tích, cần đọc tên địa điểm, khoảng thời gian, đơn vị nhiệt độ và lượng mưa, trục tháng cùng chú giải. Đường biểu diễn thường thể hiện nhiệt độ, cột thể hiện lượng mưa.", keyPoints: ["Nắm được khái niệm hoặc bối cảnh chính", "Nhận biết được đặc điểm tiêu biểu"], example: "Dùng tư liệu hoặc bản đồ phù hợp để xác định nội dung." },
+      { heading: "Mô tả nhiệt độ và lượng mưa", body: "Có thể xác định tháng nóng nhất, lạnh nhất, biên độ nhiệt năm, tháng mưa nhiều và mùa mưa. Khi nêu nhận xét, cần dùng số liệu cụ thể và tránh chỉ mô tả chung chung.", keyPoints: ["Phân tích được nguyên nhân hoặc biểu hiện", "Liên hệ được với điều kiện cụ thể"], example: "Đối chiếu một trường hợp cụ thể với kiến thức trong bài." },
+      { heading: "Rút ra nhận xét khí hậu", body: "Kết hợp đặc điểm nhiệt độ và lượng mưa để nhận xét mùa, mức độ phân hóa và khả năng thuộc kiểu khí hậu nào. Cần thận trọng vì một biểu đồ của một địa điểm không đại diện cho toàn bộ khu vực.", keyPoints: ["Khái quát được ý nghĩa hoặc hệ quả", "Đề xuất cách vận dụng kiến thức phù hợp"], example: "Trình bày một nhận xét có căn cứ từ dữ kiện đã học." }
+    ],
+    questions: [], status: "draft",
+  },
+  {
+    id: "g6-geography-19", grade: 6, strand: "geography", title: "Thủy quyển và vòng tuần hoàn của nước",
+    summary: "Thủy quyển gồm toàn bộ nước trên Trái Đất ở đại dương, biển, sông hồ, băng tuyết, nước ngầm và khí quyển. Nước luôn vận động qua các quá trình bốc hơi, ngưng tụ, mưa và dòng chảy.",
+    learningObjectives: ["Nêu được các đặc điểm chính của nội dung bài học.", "Sử dụng được thông tin, tư liệu hoặc ví dụ để giải thích hiện tượng.", "Liên hệ được ý nghĩa của kiến thức với đời sống và môi trường."],
+    sections: [
+      { heading: "Thành phần thủy quyển", body: "Nước phân bố ở đại dương, sông hồ, băng hà, nước ngầm, đất và khí quyển. Nước mặn chiếm phần lớn tổng lượng nước, trong khi nước ngọt có thể khai thác trực tiếp chỉ chiếm tỉ lệ nhỏ.", keyPoints: ["Nắm được khái niệm hoặc bối cảnh chính", "Nhận biết được đặc điểm tiêu biểu"], example: "Dùng tư liệu hoặc bản đồ phù hợp để xác định nội dung." },
+      { heading: "Vòng tuần hoàn của nước", body: "Dưới tác động của năng lượng Mặt Trời, nước bốc hơi từ mặt biển, sông hồ và bề mặt đất; thực vật cũng thoát hơi nước. Hơi nước ngưng tụ thành mây rồi rơi xuống dưới dạng mưa hoặc tuyết.", keyPoints: ["Phân tích được nguyên nhân hoặc biểu hiện", "Liên hệ được với điều kiện cụ thể"], example: "Đối chiếu một trường hợp cụ thể với kiến thức trong bài." },
+      { heading: "Vai trò và bảo vệ nguồn nước", body: "Nước cần thiết cho sinh hoạt, sản xuất và hệ sinh thái. Ô nhiễm, khai thác quá mức và biến đổi khí hậu có thể làm suy giảm an ninh nguồn nước; sử dụng tiết kiệm và bảo vệ lưu vực là những giải pháp quan trọng.", keyPoints: ["Khái quát được ý nghĩa hoặc hệ quả", "Đề xuất cách vận dụng kiến thức phù hợp"], example: "Trình bày một nhận xét có căn cứ từ dữ kiện đã học." }
+    ],
+    questions: [], status: "draft",
+  },
+  {
+    id: "g6-geography-20", grade: 6, strand: "geography", title: "Sông và hồ. Nước ngầm và băng hà",
+    summary: "Sông, hồ, nước ngầm và băng hà là những thành phần quan trọng của thủy quyển. Chúng cung cấp nước, điều hòa môi trường và tạo điều kiện cho nhiều hoạt động kinh tế, nhưng cũng chịu tác động của con người và khí hậu.",
+    learningObjectives: ["Nêu được các đặc điểm chính của nội dung bài học.", "Sử dụng được thông tin, tư liệu hoặc ví dụ để giải thích hiện tượng.", "Liên hệ được ý nghĩa của kiến thức với đời sống và môi trường."],
+    sections: [
+      { heading: "Sông và hồ", body: "Sông là dòng nước chảy thường xuyên tương đối ổn định trong lòng dẫn; hệ thống sông gồm sông chính, phụ lưu và chi lưu. Hồ là vùng nước đọng trong địa hình trũng, có thể có nguồn gốc tự nhiên hoặc nhân tạo.", keyPoints: ["Nắm được khái niệm hoặc bối cảnh chính", "Nhận biết được đặc điểm tiêu biểu"], example: "Dùng tư liệu hoặc bản đồ phù hợp để xác định nội dung." },
+      { heading: "Nước ngầm", body: "Nước ngầm tồn tại trong các lỗ rỗng và khe nứt của đất đá. Nguồn nước này có vai trò quan trọng ở nhiều nơi, nhưng khai thác quá mức có thể gây hạ thấp mực nước, sụt lún hoặc xâm nhập mặn ở vùng ven biển.", keyPoints: ["Phân tích được nguyên nhân hoặc biểu hiện", "Liên hệ được với điều kiện cụ thể"], example: "Đối chiếu một trường hợp cụ thể với kiến thức trong bài." },
+      { heading: "Băng hà và sử dụng nước", body: "Băng hà lưu trữ lượng nước ngọt lớn và góp phần điều tiết dòng chảy. Băng tan nhanh do nhiệt độ tăng có thể ảnh hưởng mực nước biển và nguồn nước theo mùa; quản lí tổng hợp nguồn nước giúp giảm rủi ro.", keyPoints: ["Khái quát được ý nghĩa hoặc hệ quả", "Đề xuất cách vận dụng kiến thức phù hợp"], example: "Trình bày một nhận xét có căn cứ từ dữ kiện đã học." }
+    ],
+    questions: [], status: "draft",
+  }
 ];
