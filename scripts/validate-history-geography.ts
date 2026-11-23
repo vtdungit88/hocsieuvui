@@ -130,19 +130,19 @@ for (const set of quizSets) {
   }
   assert.deepEqual(levels, expectedLevels, `${set.lessonId} has an incorrect difficulty distribution`);
 }
-assert.equal(quizSets.length, 112, 'Expected 112 current/legacy draft quiz sets (not a claim of syllabus completeness)');
-assert.equal(questionIds.size, 1680, 'Expected 1680 questions across 112 draft quiz sets');
+assert.equal(quizSets.length, 113, 'Expected 113 current/legacy draft quiz sets (not a claim of syllabus completeness)');
+assert.equal(questionIds.size, 1695, 'Expected 1695 questions across 113 draft quiz sets');
 assert.equal(quizLessonIds.size, lessonIds.size, 'Every current lesson draft must have exactly one quiz set');
 
 const manifestLessonIds = new Set(syllabusLessons.map((lesson) => lesson.id));
 const authoredManifestLessons = historyGeographyLessonDrafts.filter((lesson) => manifestLessonIds.has(lesson.id));
 const authoredManifestQuizIds = new Set(quizSets.map((set) => set.lessonId).filter((id) => manifestLessonIds.has(id)));
-assert.equal(authoredManifestLessons.length, 104, 'Expected 104 manifest-aligned lesson drafts in the current tranche');
-assert.equal(authoredManifestQuizIds.size, 104, 'Expected 104 manifest-aligned quiz packs in the current tranche');
+assert.equal(authoredManifestLessons.length, 105, 'Expected 105 manifest-aligned lesson drafts in the current tranche');
+assert.equal(authoredManifestQuizIds.size, 105, 'Expected 105 manifest-aligned quiz packs in the current tranche');
 assert.equal(authoredManifestLessons.filter((lesson) => lesson.grade === 6).length, 50, 'Grade 6 must have 50 manifest-aligned lesson drafts');
 assert.equal(authoredManifestLessons.filter((lesson) => lesson.grade === 7 && lesson.strand === 'history').length, 18, 'Grade 7 History must have 18 manifest-aligned lesson drafts');
 assert.equal(authoredManifestLessons.filter((lesson) => lesson.grade === 7 && lesson.strand === 'integrated').length, 2, 'Grade 7 integrated topics must have two manifest-aligned lesson drafts');
-assert.equal(authoredManifestLessons.filter((lesson) => lesson.grade === 8 && lesson.strand === 'history').length, 15, 'Grade 8 History must have fifteen manifest-aligned lesson drafts in the current tranche');
+assert.equal(authoredManifestLessons.filter((lesson) => lesson.grade === 8 && lesson.strand === 'history').length, 16, 'Grade 8 History must have sixteen manifest-aligned lesson drafts in the current tranche');
 const missingLessons = syllabusLessons.filter((lesson) => !authoredManifestLessons.some((draft) => draft.id === lesson.id));
 const missingQuizSets = syllabusLessons.filter((lesson) => !authoredManifestQuizIds.has(lesson.id));
 const counts = historyGeographySyllabusManifest.map((grade) => ({
