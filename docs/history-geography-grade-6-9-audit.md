@@ -243,3 +243,14 @@ Mỗi bài có học liệu tóm tắt, 3 mục tiêu và 15 câu hỏi có 4 ph
 Mỗi bài có học liệu tóm tắt, 3 mục tiêu và 15 câu hỏi theo cấu trúc 11 cơ bản + 3 vận dụng + 1 thử thách. Độ phủ lớp 6 hiện đạt **10/166 bài** (150 câu hỏi thuộc các bộ bài học); tổng quiz draft đạt **18 bộ / 270 câu**, bao gồm các bộ mẫu cũ không tính vào độ phủ chương trình.
 
 Nội dung tiếp tục ở trạng thái draft, chưa import vào Supabase và chưa mở khóa học sinh. Các câu hỏi tình huống cần được rà soát chuyên môn trước khi phê duyệt.
+
+
+## 13. Mở rộng nội dung lớp 6 — bài 6 (23/11/2026)
+
+Đã bổ sung:
+- `g6-history-06`: **Sự chuyển biến và phân hóa của xã hội nguyên thủy** — công cụ kim loại, năng suất, sản phẩm dư thừa, phân hóa của cải và sự thay đổi quan hệ xã hội.
+- `g6-geography-06`: **Trái Đất trong hệ Mặt Trời** — vị trí Trái Đất, tám hành tinh, Mặt Trời, Mặt Trăng và điều kiện thuận lợi cho sự sống.
+
+Mỗi bài có phần tóm tắt, 3 mục tiêu và 15 câu hỏi có đáp án/giải thích theo đúng phân bố độ khó. Độ phủ nội dung lớp 6 hiện là **12/166 bài**, gồm **180 câu hỏi** thuộc 12 bộ quiz bài học; tổng dữ liệu quiz draft là **20 bộ / 300 câu**.
+
+Các bộ mới chưa được phê duyệt để phát hành. Không thay đổi dữ liệu production, không mở khóa lớp 6–9 và không merge PR trong giai đoạn biên soạn.
