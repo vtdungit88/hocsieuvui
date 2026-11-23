@@ -4,6 +4,7 @@ import { historyGeographySyllabusManifest, flattenHistoryGeographySyllabus } fro
 import { historyGeographyLessonDrafts } from '../src/data/historyGeographyLessonDrafts';
 import { historyGeographyQuizDrafts } from '../src/data/historyGeographyQuizDrafts';
 import { geographyQuizDrafts } from '../src/data/historyGeographyGeographyQuizDrafts';
+import { SUBJECTS_CATALOG } from '../src/data/subjectsCatalog';
 
 const quizSets = [...historyGeographyQuizDrafts, ...geographyQuizDrafts];
 const lessonById = new Map(historyGeographyLessonDrafts.map((lesson) => [lesson.id, lesson]));
@@ -19,6 +20,22 @@ const syllabusById = new Map(syllabusLessons.map((lesson) => [lesson.id, lesson]
 assert.equal(historyGeographyCurriculum.length, 4, 'Expected legacy topic overview for grades 6–9');
 assert.deepEqual(historyGeographyCurriculum.map((item) => item.grade), [6, 7, 8, 9]);
 assert.deepEqual(historyGeographySyllabusManifest.map((item) => item.grade), [6, 7, 8, 9]);
+
+const historyGeoSubject = SUBJECTS_CATALOG.find((subject) => subject.id === 'history_geo');
+assert.ok(historyGeoSubject, 'History & Geography must remain in the subject catalog');
+assert.equal(historyGeoSubject.dbCode, 'lsdl', 'History & Geography database code must remain stable');
+const availabilityByGrade = new Map(historyGeoSubject.availableGrades.map((item) => [item.grade, item]));
+for (const grade of ['4', '5'] as const) {
+  const availability = availabilityByGrade.get(grade);
+  assert.ok(availability?.term1Available && availability.term2Available, `Existing primary grade ${grade} content must remain open`);
+}
+for (const grade of ['6', '7', '8', '9'] as const) {
+  const availability = availabilityByGrade.get(grade);
+  assert.ok(availability, `History & Geography catalog is missing grade ${grade}`);
+  assert.equal(availability.term1Available, false, `Grade ${grade} must remain locked until release approval`);
+  assert.equal(availability.term2Available, false, `Grade ${grade} must remain locked until release approval`);
+}
+
 
 // Syllabus integrity: complete chapter coverage, stable IDs, ordering, and strand separation.
 assert.equal(syllabusById.size, syllabusLessons.length, 'Duplicate syllabus lesson ID');
