@@ -126,7 +126,7 @@ export const historyGeographyCurriculum: HGGradeCurriculum[] = [
 
 export const historyGeographySubjectMeta = {
   id: 'history-geography',
-  dbCode: 'lichsu_dialy',
+  dbCode: 'lsdl',
   name: 'Lịch sử và Địa lí',
   grades: ['6', '7', '8', '9'] as const,
   status: 'content_draft' as const,
