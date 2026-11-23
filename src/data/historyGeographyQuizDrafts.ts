@@ -713,7 +713,7 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
     ["Khi lập bản đồ thuộc địa Đông Nam Á, cần làm gì để tránh nhầm lẫn?","Phân biệt từng quốc gia và đế quốc kiểm soát theo từng thời điểm","Gộp tất cả thành một thuộc địa","Chỉ dùng bản đồ hiện nay","Không ghi mốc thời gian",0,"Mỗi nước có diễn biến và chính quốc cai trị khác nhau theo thời gian."],
     ["Nếu một phong trào chuyển từ khởi nghĩa địa phương sang tổ chức chính trị, điều đó có thể cho thấy gì?","Phong trào đã chấm dứt","Hình thức và phương thức đấu tranh đang thay đổi","Không còn mục tiêu chính trị","Không có sự tham gia của cư dân",1,"Phong trào có thể phát triển về tổ chức và phương thức hoạt động."],
     ["Nhận định nào chính xác nhất về tình hình Ấn Độ và Đông Nam Á cuối thế kỉ XIX – đầu XX?","Mọi quốc gia đều giữ nguyên độc lập hoàn toàn","Tất cả cùng bị một đế quốc cai trị","Phần lớn chịu sự thống trị hoặc sức ép đế quốc; Xiêm duy trì độc lập tương đối","Không có phong trào phản kháng",2,"Phần lớn khu vực bị thực dân hóa, trong khi Xiêm là trường hợp đặc biệt nhưng vẫn chịu sức ép."]
-  ]),status:'draft'},,
+  ]),status:'draft'},
 
   {lessonId:'g8-history-16',grade:8,strand:'history',title:'Việt Nam dưới triều Nguyễn (nửa đầu thế kỉ XIX)',questions:buildQuestions('g8-history-16',[
     ["Triều Nguyễn được thành lập vào năm nào?","1802","1789","1858","1884",0,"Năm 1802, Nguyễn Ánh lên ngôi hoàng đế và lập triều Nguyễn."],
