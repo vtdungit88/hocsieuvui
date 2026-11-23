@@ -391,3 +391,12 @@ Cần rà soát vai trò truy cập và thiết kế policy phù hợp trước 
 - Catalog vẫn giữ lớp 4–5 mở; lớp 6–9 tiếp tục term1Available=false và term2Available=false. Không có dữ liệu Lịch sử & Địa lí lớp 6–9 trong Supabase production; chưa import hoặc publish.
 - Supabase production chưa có development branch. Không tạo branch staging trong lượt này để tránh chi phí compute phát sinh; production không được dùng làm staging.
 
+## 10. Bổ sung Lịch sử 7 (bài 1–8) — 23/11/2026
+
+- Đã bổ sung học liệu có cấu trúc cho 8 bài Lịch sử lớp 7 đầu tiên, đúng tiêu đề và ID trong manifest: Tây Âu phong kiến; phát kiến địa lí; Phục hưng và Cải cách; Trung Quốc; Ấn Độ; các vương quốc Đông Nam Á; Lào; Cam-pu-chia.
+- Mỗi bài có tóm tắt, 3 mục tiêu, 3 phần nội dung và một ví dụ học tập; mỗi bài có 15 câu hỏi trắc nghiệm, đáp án và giải thích.
+- Độ phủ hiện tại: **58/166 bài** (50 bài lớp 6 + 8 bài Lịch sử 7), **58 bộ quiz theo manifest / 870 câu**; cộng 8 bộ legacy (120 câu), tổng **66 bộ / 990 câu nháp**.
+- Lịch sử 7 đạt 8/18 bài; còn 10 bài Lịch sử 7, 19 bài Địa lí 7 và 2 chủ đề chung lớp 7; toàn bộ lớp 8–9 còn lại.
+- Validator cập nhật ngưỡng 66 bộ / 990 câu và bắt buộc ba phần học liệu cho 8 bài Lịch sử 7 mới. Nội dung vẫn là draft; kiểm tra tự động không thay thế thẩm định lịch sử độc lập.
+- Nhánh đã đồng bộ ba commit mới nhất từ base bằng merge commit 698f11937c9608313e229976dc67672cd68e9064, không force-push. CI run 222 đã xanh trước đồng bộ; cần chờ CI trên head sau merge và các nội dung mới.
+
