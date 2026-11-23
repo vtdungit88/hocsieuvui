@@ -32,9 +32,9 @@ export interface HGSyllabusGrade {
 
 const chapter = (grade: number, strand: 'history'|'geography', index: number, title: string, rows: [string,string][], status: HGSyllabusStatus = 'source_verified'): HGSyllabusChapter => {
   const chapterId = `g${grade}-${strand}-c${index}`;
-  return { id: chapterId, title, strand, lessons: rows.map(([number,title]) => ({
+  return { id: chapterId, title, strand, lessons: rows.map(([number,lessonTitle]) => ({
     id: `g${grade}-${strand}-${number.replace(/[^0-9]/g,'').padStart(2,'0')}`,
-    number, title, strand, chapterId, chapterTitle: title, status,
+    number, title: lessonTitle, strand, chapterId, chapterTitle: title, status,
   })) };
 };
 const integrated = (grade: number, rows: [string,string][]): HGSyllabusLesson[] => rows.map(([number,title], i) => ({
