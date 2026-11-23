@@ -1706,5 +1706,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-geography-06', grade: 8, strand: 'geography',
+    title: 'Thủy văn Việt Nam',
+    summary: 'Tìm hiểu đặc điểm mạng lưới sông ngòi, chế độ nước theo mùa, một số hệ thống sông lớn và vai trò của hồ, nước ngầm; nhận biết yêu cầu sử dụng, bảo vệ tài nguyên nước.',
+    learningObjectives: [
+      'Trình bày được những đặc điểm chung của sông ngòi Việt Nam.',
+      'Mô tả được chế độ nước theo mùa và đặc điểm của một số hệ thống sông lớn.',
+      'Giải thích được vai trò của tài nguyên nước và yêu cầu bảo vệ nguồn nước.'
+    ],
+    sections: [
+      {
+        heading: 'Đặc điểm chung của sông ngòi Việt Nam',
+        body: 'Việt Nam có mạng lưới sông ngòi khá dày đặc, phân bố rộng khắp, nhiều sông ngắn và dốc, hướng chảy chủ yếu theo địa hình. Sông ngòi có lượng nước lớn và giàu phù sa ở nhiều hệ thống, nhưng phân bố theo không gian và thời gian không đều. Chế độ mưa nhiệt đới gió mùa, địa hình và cấu trúc địa chất là những nhân tố quan trọng chi phối mạng lưới, dòng chảy và lượng phù sa. Nhiều sông bắt nguồn từ ngoài lãnh thổ nên việc quản lí nguồn nước cần có hợp tác giữa các quốc gia trong lưu vực.',
+        keyPoints: ['Sông ngòi dày đặc, nhiều sông ngắn dốc; dòng chảy và lượng nước thay đổi theo mùa.'],
+        example: 'Quan sát bản đồ sông ngòi để nhận biết hướng chảy, nơi bắt nguồn và cửa sông của các hệ thống lớn.'
+      },
+      {
+        heading: 'Chế độ nước và các hệ thống sông lớn',
+        body: 'Chế độ nước sông thường có mùa lũ và mùa cạn, thời gian xuất hiện khác nhau giữa các vùng do sự phân bố mưa theo mùa. Ở Bắc Bộ, hệ thống sông Hồng – Thái Bình có mùa lũ chủ yếu vào mùa hạ; ở Nam Bộ, hệ thống sông Cửu Long chịu ảnh hưởng của lượng mưa lưu vực và chế độ nước từ thượng nguồn. Miền Trung có nhiều sông ngắn, dốc, lũ thường lên nhanh khi mưa lớn, nhất là vào thu – đông ở nhiều nơi. Ngoài sông, hồ tự nhiên, hồ chứa và nước ngầm có vai trò quan trọng trong cấp nước, điều tiết dòng chảy và phát triển kinh tế.',
+        keyPoints: ['Mùa lũ, mùa cạn và thời gian lũ khác nhau theo vùng; sông miền Trung thường ngắn, dốc và lũ lên nhanh.'],
+        example: 'So sánh thời gian mùa lũ của sông Hồng, sông Cửu Long và các sông miền Trung dựa trên biểu đồ hoặc số liệu.'
+      },
+      {
+        heading: 'Vai trò và bảo vệ tài nguyên nước',
+        body: 'Nguồn nước phục vụ sinh hoạt, tưới tiêu, công nghiệp, giao thông, thủy điện và duy trì hệ sinh thái. Tuy nhiên, ô nhiễm nước, khai thác nước ngầm quá mức, suy giảm rừng đầu nguồn, hạn hán và xâm nhập mặn đang gây sức ép lên tài nguyên nước. Cần sử dụng nước tiết kiệm, xử lí nước thải, bảo vệ lưu vực và hành lang sông, phục hồi rừng đầu nguồn và phối hợp quản lí nguồn nước liên tỉnh, xuyên biên giới. Công trình hồ chứa và đê điều cần được vận hành an toàn, tính đến nhu cầu hạ du và hệ sinh thái.',
+        keyPoints: ['Bảo vệ tài nguyên nước cần kết hợp tiết kiệm, xử lí ô nhiễm, bảo vệ lưu vực và quản lí tổng hợp.'],
+        example: 'Một trường học có thể tiết kiệm nước bằng cách kiểm tra rò rỉ, thu gom nước mưa phù hợp và không xả chất thải xuống cống, kênh.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
