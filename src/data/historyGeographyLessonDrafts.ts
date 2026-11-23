@@ -1866,5 +1866,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-geography-11', grade: 8, strand: 'geography',
+    title: 'Phạm vi Biển Đông. Vùng biển đảo và đặc điểm tự nhiên vùng biển đảo Việt Nam',
+    summary: 'Xác định phạm vi Biển Đông và vùng biển Việt Nam, nhận biết vai trò của đảo và quần đảo; tìm hiểu đặc điểm tự nhiên biển, đảo và ý nghĩa đối với phát triển kinh tế, bảo vệ chủ quyền.',
+    learningObjectives: [
+      'Xác định được vị trí, phạm vi khái quát của Biển Đông và vùng biển Việt Nam trên bản đồ.',
+      'Nhận biết được các bộ phận vùng biển và một số đảo, quần đảo tiêu biểu.',
+      'Trình bày được đặc điểm tự nhiên và ý nghĩa của vùng biển, đảo Việt Nam.'
+    ],
+    sections: [
+      {
+        heading: 'Biển Đông và vùng biển Việt Nam',
+        body: 'Biển Đông là một biển nửa kín thuộc Thái Bình Dương, nằm ở phía đông bán đảo Đông Dương và phía tây Philippines, có vị trí quan trọng trong giao thông hàng hải khu vực. Việt Nam có bờ biển dài, tiếp giáp Biển Đông ở phía đông và phía nam. Vùng biển Việt Nam được xác định theo các quy định của Công ước Liên hợp quốc về Luật Biển năm 1982 và pháp luật Việt Nam, gồm các vùng biển có quy chế pháp lí khác nhau như nội thủy, lãnh hải, vùng tiếp giáp lãnh hải, vùng đặc quyền kinh tế và thềm lục địa. Khi đọc bản đồ cần phân biệt đường bờ biển với các đường giới hạn vùng biển.',
+        keyPoints: ['Biển Đông là biển nửa kín của Thái Bình Dương; vùng biển Việt Nam có các bộ phận được xác định theo luật pháp quốc tế và pháp luật Việt Nam.'],
+        example: 'Dùng bản đồ biển để phân biệt đường cơ sở, lãnh hải, vùng tiếp giáp, vùng đặc quyền kinh tế và thềm lục địa.'
+      },
+      {
+        heading: 'Đảo, quần đảo và đặc điểm tự nhiên',
+        body: 'Vùng biển Việt Nam có nhiều đảo ven bờ và các quần đảo ngoài khơi, trong đó có Hoàng Sa và Trường Sa. Đảo có nhiều dạng địa hình, diện tích và điều kiện cư trú khác nhau; một số đảo có vai trò quan trọng đối với kinh tế, nghiên cứu khoa học, dịch vụ và quốc phòng. Biển có tính chất nhiệt đới gió mùa, chịu ảnh hưởng của gió mùa, bão, áp thấp nhiệt đới, dòng biển, thủy triều và sóng. Các hệ sinh thái biển như rạn san hô, thảm cỏ biển và rừng ngập mặn có giá trị sinh thái cao nhưng dễ bị tổn thương trước ô nhiễm và khai thác quá mức.',
+        keyPoints: ['Đảo và quần đảo có giá trị về sinh thái, kinh tế, khoa học và quốc phòng; môi trường biển chịu tác động của gió mùa và bão.'],
+        example: 'So sánh đảo ven bờ và quần đảo ngoài khơi theo vị trí, điều kiện tự nhiên và vai trò.'
+      },
+      {
+        heading: 'Ý nghĩa của vùng biển, đảo',
+        body: 'Vùng biển và đảo tạo không gian phát triển giao thông hàng hải, cảng biển, thủy sản, du lịch, năng lượng và các ngành kinh tế biển khác. Biển còn điều hòa khí hậu, cung cấp nguồn lợi sinh vật và kết nối Việt Nam với các quốc gia trong khu vực. Tuy nhiên, bão, xói lở bờ biển, nước biển dâng, ô nhiễm và suy thoái hệ sinh thái đặt ra yêu cầu quản lí tổng hợp. Khai thác biển cần tuân thủ pháp luật, bảo vệ môi trường, bảo đảm an toàn cho cộng đồng và kết hợp phát triển kinh tế với bảo vệ chủ quyền quốc gia.',
+        keyPoints: ['Biển, đảo có ý nghĩa kinh tế, sinh thái và chiến lược; khai thác phải gắn với bảo vệ môi trường và chủ quyền.'],
+        example: 'Một dự án du lịch biển cần đánh giá sức tải môi trường, xử lí nước thải, bảo vệ rạn san hô và bảo đảm an toàn khi có bão.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
