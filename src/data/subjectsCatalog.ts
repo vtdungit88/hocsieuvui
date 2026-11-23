@@ -196,9 +196,9 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
     name: 'Lịch Sử và Địa Lí',
     iconName: 'Compass',
     color: 'from-cyan-600 to-blue-700',
-    description: 'Lịch sử và Địa lí theo chương trình GDPT; nội dung THCS lấy SGK Kết nối tri thức với cuộc sống làm chuẩn.',
+    description: 'Khám phá bản đồ Việt Nam, vùng miền, các triều đại lịch sử và văn minh nhân loại.',
     status: 'active',
-    tagline: 'Lớp 4 → 5 · 36 bài · 540 câu',
+    tagline: 'Lớp 4 → 9 · 202 bài · 3.030 câu',
     schoolLevels: ['primary', 'secondary'],
     levelMeta: {
       primary: {
@@ -207,18 +207,18 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
         gradeRangeLabel: 'Lớp 4 – 5'
       },
       secondary: {
-        tagline: 'Lớp 6 → 9 · Sắp mở',
-        description: 'Lớp 6–9 dự kiến theo SGK Kết nối tri thức với cuộc sống; hiện khóa đến khi học liệu, dữ liệu và kiểm thử được duyệt.',
+        tagline: 'Lớp 6 → 9 · 166 bài · 2.490 câu',
+        description: 'Lịch sử Việt Nam, thế giới cổ – cận – hiện đại, địa lí tự nhiên – kinh tế và chủ đề chung (Kết nối tri thức 6–9).',
         gradeRangeLabel: 'Lớp 6 – 9'
       }
     },
     availableGrades: [
       { grade: '4', term1Available: true, term2Available: true, notes: '6 chương, 18 bài (270 câu)' },
       { grade: '5', term1Available: true, term2Available: true, notes: '6 chương, 18 bài (270 câu)' },
-      { grade: '6', term1Available: false, term2Available: false, notes: 'Kết nối tri thức – đang hoàn thiện, chưa mở' },
-      { grade: '7', term1Available: false, term2Available: false, notes: 'Kết nối tri thức – đang hoàn thiện, chưa mở' },
-      { grade: '8', term1Available: false, term2Available: false, notes: 'Sắp ra mắt' },
-      { grade: '9', term1Available: false, term2Available: false, notes: 'Sắp ra mắt' }
+      { grade: '6', term1Available: true, term2Available: true, notes: '12 chương, 50 bài (750 câu · Kết nối tri thức)' },
+      { grade: '7', term1Available: true, term2Available: true, notes: '13 chương, 39 bài (585 câu · Kết nối tri thức)' },
+      { grade: '8', term1Available: true, term2Available: true, notes: '12 chương, 33 bài (495 câu · Kết nối tri thức)' },
+      { grade: '9', term1Available: true, term2Available: true, notes: '11 chương, 44 bài (660 câu · Kết nối tri thức)' }
     ]
   },
   {

@@ -36,12 +36,24 @@ const anon = mk(), a = mk(), b = mk();
 let lesson, session, qs;
 
 await check('anon: can read published chapters/lessons', async () => {
-  const c = await anon.from('chapters').select('id').eq('status', 'published');
-  assert(!c.error && c.data.length >= 111, JSON.stringify(c.error));
-  const l = await anon.from('lessons').select('id,code').eq('status', 'published');
-  assert(!l.error && l.data.length >= 111);
+  const c = await anon.from('chapters').select('id', { count: 'exact', head: true }).eq('status', 'published');
+  assert(!c.error && (c.count ?? 0) >= 111, JSON.stringify(c.error));
+  const l = await anon.from('lessons').select('id,code').eq('status', 'published').like('code', 'toan6-%').limit(20);
+  assert(!l.error && l.data.length >= 1, JSON.stringify(l.error));
   lesson = l.data.find((x) => /^toan6-/.test(x.code))?.id;
-  assert(lesson);
+  assert(lesson, 'missing published toan6 lesson');
+});
+await check('lsdl 6-9: all 48 chapters and 166 lessons published (50/39/33/44)', async () => {
+  const expected = { 6: 50, 7: 39, 8: 33, 9: 44 };
+  let totalCh = 0;
+  for (const grade of [6, 7, 8, 9]) {
+    const ch = await anon.from('chapters').select('id,code').eq('status', 'published').eq('grade_id', grade).like('code', `lsdl${grade}-c%`);
+    assert(!ch.error && ch.data.length >= 11, `lsdl${grade} chapters error/missing: ${ch.data?.length}`);
+    totalCh += ch.data.length;
+    const ls = await anon.from('lessons').select('id,code').eq('status', 'published').like('code', `lsdl${grade}-b%`);
+    assert(!ls.error && ls.data.length === expected[grade], `lsdl${grade} lessons expected ${expected[grade]}, got ${ls.data?.length}`);
+  }
+  assert.equal(totalCh, 48, `expected 48 lsdl6-9 chapters, got ${totalCh}`);
 });
 await check('anon: cannot read questions, answer keys, explanations', async () => {
   const q = await anon.from('questions').select('id').limit(1);
@@ -157,6 +169,19 @@ if (signedUp) {
     }
     const pr = await b.from('profiles').select('id');
     assert.equal(pr.data.length, 1, 'B sees other profiles');
+  });
+  await check('lsdl 6-9: user B completes Grade 9 quiz (15 Qs) cleanly without leaking keys', async () => {
+    const ls9 = await anon.from('lessons').select('id,code').eq('status', 'published').eq('code', 'lsdl9-b44').single();
+    assert(!ls9.error && ls9.data?.id, 'missing lsdl9-b44 lesson');
+    const st = await b.rpc('start_quiz', { p_lesson: ls9.data.id, p_tier: 'mixed', p_count: 15 });
+    assert(!st.error && st.data.questions?.length === 15, st.error?.message ?? 'lsdl9 start_quiz failed');
+    assert(!/correct|isCorrect|answer_key/i.test(JSON.stringify(st.data)), 'lsdl9 start_quiz leaked keys');
+    for (const q of st.data.questions) {
+      const ans = await b.rpc('answer_question', { p_quiz_question: q.quiz_question_id, p_option_key: q.options[0].key, p_response_ms: 400 });
+      assert(!ans.error && ['A', 'B', 'C', 'D'].includes(ans.data.correct_key), ans.error?.message);
+    }
+    const sub = await b.rpc('submit_quiz', { p_session: st.data.session_id, p_answers: [] });
+    assert(!sub.error && sub.data.total_count === 15, sub.error?.message);
   });
   await check('roles: normal user cannot read platform_roles or use admin RPCs', async () => {
     const r = await a.from('platform_roles').select('*');

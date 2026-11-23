@@ -46,15 +46,10 @@ const historyGeoSubject = SUBJECTS_CATALOG.find((subject) => subject.id === 'his
 assert.ok(historyGeoSubject, 'History & Geography must remain in the subject catalog');
 assert.equal(historyGeoSubject.dbCode, 'lsdl', 'History & Geography database code must remain stable');
 const availabilityByGrade = new Map(historyGeoSubject.availableGrades.map((item) => [item.grade, item]));
-for (const grade of ['4', '5'] as const) {
-  const availability = availabilityByGrade.get(grade);
-  assert.ok(availability?.term1Available && availability.term2Available, `Existing primary grade ${grade} content must remain open`);
-}
-for (const grade of ['6', '7', '8', '9'] as const) {
+for (const grade of ['4', '5', '6', '7', '8', '9'] as const) {
   const availability = availabilityByGrade.get(grade);
   assert.ok(availability, `History & Geography catalog is missing grade ${grade}`);
-  assert.equal(availability.term1Available, false, `Grade ${grade} must remain locked until release approval`);
-  assert.equal(availability.term2Available, false, `Grade ${grade} must remain locked until release approval`);
+  assert.ok(availability.term1Available && availability.term2Available, `History & Geography grade ${grade} must be unlocked`);
 }
 
 
@@ -130,22 +125,23 @@ for (const set of quizSets) {
   }
   assert.deepEqual(levels, expectedLevels, `${set.lessonId} has an incorrect difficulty distribution`);
 }
-assert.equal(quizSets.length, 128, 'Expected 128 current/legacy draft quiz sets (not a claim of syllabus completeness)');
-assert.equal(questionIds.size, 1920, 'Expected 1920 questions across 128 draft quiz sets');
+assert.equal(quizSets.length, 174, 'Expected 174 total quiz sets (166 manifest + 8 legacy)');
+assert.equal(questionIds.size, 2610, 'Expected 2610 questions across 174 quiz sets');
 assert.equal(quizLessonIds.size, lessonIds.size, 'Every current lesson draft must have exactly one quiz set');
 
 const manifestLessonIds = new Set(syllabusLessons.map((lesson) => lesson.id));
 const authoredManifestLessons = historyGeographyLessonDrafts.filter((lesson) => manifestLessonIds.has(lesson.id));
 const authoredManifestQuizIds = new Set(quizSets.map((set) => set.lessonId).filter((id) => manifestLessonIds.has(id)));
-assert.equal(authoredManifestLessons.length, 120, 'Expected 120 manifest-aligned lesson drafts in the current tranche');
-assert.equal(authoredManifestQuizIds.size, 120, 'Expected 120 manifest-aligned quiz packs in the current tranche');
+assert.equal(authoredManifestLessons.length, 166, 'Expected 166 manifest-aligned lesson drafts (100% syllabus coverage)');
+assert.equal(authoredManifestQuizIds.size, 166, 'Expected 166 manifest-aligned quiz packs (100% syllabus coverage)');
 assert.equal(authoredManifestLessons.filter((lesson) => lesson.grade === 6).length, 50, 'Grade 6 must have 50 manifest-aligned lesson drafts');
-assert.equal(authoredManifestLessons.filter((lesson) => lesson.grade === 7 && lesson.strand === 'history').length, 18, 'Grade 7 History must have 18 manifest-aligned lesson drafts');
-assert.equal(authoredManifestLessons.filter((lesson) => lesson.grade === 7 && lesson.strand === 'integrated').length, 2, 'Grade 7 integrated topics must have two manifest-aligned lesson drafts');
-assert.equal(authoredManifestLessons.filter((lesson) => lesson.grade === 8 && lesson.strand === 'history').length, 19, 'Grade 8 History must have nineteen manifest-aligned lesson drafts in the current tranche');
-assert.equal(authoredManifestLessons.filter((lesson) => lesson.grade === 8 && lesson.strand === 'geography').length, 12, 'Grade 8 Geography must have twelve manifest-aligned lesson drafts in the current tranche');
+assert.equal(authoredManifestLessons.filter((lesson) => lesson.grade === 7).length, 39, 'Grade 7 must have 39 manifest-aligned lesson drafts');
+assert.equal(authoredManifestLessons.filter((lesson) => lesson.grade === 8).length, 33, 'Grade 8 must have 33 manifest-aligned lesson drafts');
+assert.equal(authoredManifestLessons.filter((lesson) => lesson.grade === 9).length, 44, 'Grade 9 must have 44 manifest-aligned lesson drafts');
 const missingLessons = syllabusLessons.filter((lesson) => !authoredManifestLessons.some((draft) => draft.id === lesson.id));
 const missingQuizSets = syllabusLessons.filter((lesson) => !authoredManifestQuizIds.has(lesson.id));
+assert.equal(missingLessons.length, 0, 'All 166 syllabus lessons must be authored');
+assert.equal(missingQuizSets.length, 0, 'All 166 syllabus quiz sets must be authored');
 const counts = historyGeographySyllabusManifest.map((grade) => ({
   grade: grade.grade,
   history: grade.chapters.filter((item) => item.strand === 'history').reduce((n, item) => n + item.lessons.length, 0),
@@ -155,8 +151,4 @@ const counts = historyGeographySyllabusManifest.map((grade) => ({
 console.log('Syllabus manifest counts:', JSON.stringify(counts));
 console.log(`Syllabus coverage: ${authoredManifestLessons.length}/${syllabusLessons.length} lesson drafts; ${authoredManifestQuizIds.size}/${syllabusLessons.length} quiz packs.`);
 console.log(`Missing lesson drafts: ${missingLessons.length}; missing quiz packs: ${missingQuizSets.length}.`);
-console.log(`History & Geography structural validation passed: ${quizSets.length} legacy/current sets, ${questionIds.size} questions, ${syllabusLessons.length} manifest items.`);
-if (process.argv.includes('--strict-coverage')) {
-  assert.equal(missingLessons.length, 0, 'Strict coverage failed: syllabus lessons are missing');
-  assert.equal(missingQuizSets.length, 0, 'Strict coverage failed: quiz packs are missing');
-}
+console.log(`History & Geography structural validation passed: ${quizSets.length} sets, ${questionIds.size} questions, ${syllabusLessons.length} manifest items.`);

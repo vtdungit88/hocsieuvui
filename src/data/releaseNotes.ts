@@ -15,6 +15,15 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.10',
+    date: '2026-11-23',
+    title: 'Mở khóa trọn bộ Lịch sử và Địa lí Lớp 6–9 (Hoàn tất 12/12 môn THCS)',
+    items: [
+      'Hoàn thiện trọn bộ môn Lịch sử và Địa lí Lớp 6, 7, 8, 9 chuẩn SGK Kết nối tri thức với cuộc sống (48 chương · 166 bài học · 2.490 câu hỏi bao gồm cả phần Lịch sử, Địa lí và các Chủ đề chung tích hợp).',
+      'Chính thức phủ 100% chương trình toàn cấp: 14/14 môn Khối Tiểu học (Lớp 1–5) và 12/12 môn Khối THCS (Lớp 6–9), đưa tổng kho câu hỏi trực tuyến vượt mốc 27.800 câu.'
+    ]
+  },
+  {
     version: '0.2.9',
     date: '2026-11-23',
     title: 'Mở khóa trọn bộ 7 môn THCS Lớp 6–9 (Tin học, Công nghệ, GDCD, Âm nhạc, Mĩ thuật, GDTC & HĐTN, HN)',

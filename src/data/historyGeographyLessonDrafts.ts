@@ -26,6 +26,8 @@ export type HGLessonDraft = {
   status: 'draft';
 };
 
+import { historyGeographyGrade9LessonDrafts } from './historyGeographyGrade9LessonDrafts';
+
 export const historyGeographyLessonDrafts: HGLessonDraft[] = [
   {
     id: 'hg6-history-time-sources',
@@ -1931,4 +1933,5 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
     ],
     questions: [], status: 'draft',
   },
+  ...historyGeographyGrade9LessonDrafts,
 ];
