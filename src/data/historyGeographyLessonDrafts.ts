@@ -1194,5 +1194,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-history-09', grade: 8, strand: 'history',
+    title: 'Tình hình kinh tế, văn hóa, tôn giáo trong các thế kỉ XVI - XVIII',
+    summary: 'Khái quát những chuyển biến về nông nghiệp, thủ công nghiệp, thương mại, đời sống văn hóa và tôn giáo ở Đại Việt trong các thế kỉ XVI–XVIII; nhận biết sự khác biệt giữa các vùng và tác động của bối cảnh chính trị.',
+    learningObjectives: [
+      'Nêu được một số nét chính về nông nghiệp, thủ công nghiệp và thương mại.',
+      'Nhận biết được sự phát triển của đô thị, cảng thị và hoạt động giao lưu.',
+      'Trình bày được một số chuyển biến về văn hóa, tín ngưỡng và tôn giáo.'
+    ],
+    sections: [
+      {
+        heading: 'Chuyển biến trong nông nghiệp và thủ công nghiệp',
+        body: 'Trong các thế kỉ XVI–XVIII, tình hình nông nghiệp có sự khác biệt giữa các vùng và từng thời điểm. Chiến tranh, thiên tai và chính sách thuế khóa gây khó khăn cho sản xuất ở nhiều nơi; quá trình khai hoang và mở rộng cư trú ở phía nam lại tạo thêm những vùng canh tác mới. Các nghề thủ công như dệt, gốm, rèn, đúc và làm đường phát triển ở nhiều làng nghề, phục vụ nhu cầu trong nước và trao đổi hàng hóa. Sản xuất chịu ảnh hưởng của điều kiện tự nhiên, thị trường và tình hình chính trị.',
+        keyPoints: ['Nông nghiệp biến động theo vùng; khai hoang mở rộng diện tích canh tác ở một số khu vực, thủ công nghiệp tiếp tục phát triển.'],
+        example: 'Khi so sánh nông nghiệp Đàng Ngoài và Đàng Trong, cần chú ý điều kiện đất đai, chiến tranh và quá trình khai hoang.'
+      },
+      {
+        heading: 'Thương mại và sự phát triển của đô thị, cảng thị',
+        body: 'Hoạt động trao đổi trong nước và với bên ngoài phát triển ở một số khu vực. Các đô thị và thương cảng như Thăng Long – Kẻ Chợ, Phố Hiến, Hội An trở thành đầu mối buôn bán, nơi gặp gỡ của thương nhân trong nước và nước ngoài. Hàng thủ công, nông sản và sản vật địa phương được trao đổi qua đường bộ và đường biển. Mức độ phát triển không giống nhau ở mọi nơi; chiến tranh và chính sách của chính quyền có thể thúc đẩy hoặc hạn chế hoạt động thương mại.',
+        keyPoints: ['Thăng Long – Kẻ Chợ, Phố Hiến và Hội An là những trung tâm giao thương tiêu biểu trong giai đoạn.'],
+        example: 'Đọc bản đồ các đô thị, cảng thị giúp xác định vai trò của vị trí địa lí đối với hoạt động buôn bán.'
+      },
+      {
+        heading: 'Đời sống văn hóa, tín ngưỡng và tôn giáo',
+        body: 'Đời sống văn hóa tiếp tục phong phú với sự tồn tại và giao thoa của nhiều tín ngưỡng, phong tục và tôn giáo. Nho giáo vẫn giữ vai trò quan trọng trong bộ máy nhà nước và giáo dục ở nhiều nơi; Phật giáo, Đạo giáo cùng tín ngưỡng dân gian tiếp tục hiện diện trong đời sống cộng đồng. Từ thế kỉ XVI, Thiên Chúa giáo được truyền vào một số khu vực, tạo thêm những biến đổi trong đời sống tôn giáo. Văn học, nghệ thuật dân gian và các sinh hoạt cộng đồng phản ánh đời sống đa dạng của cư dân. Cần nhìn nhận sự giao lưu văn hóa trong bối cảnh lịch sử, tránh đánh đồng niềm tin và thực hành của các cộng đồng.',
+        keyPoints: ['Đời sống văn hóa, tín ngưỡng và tôn giáo đa dạng; nhiều yếu tố cùng tồn tại và giao lưu.'],
+        example: 'Khi tìm hiểu một di tích hoặc lễ hội, cần xem xét nguồn gốc, cộng đồng thực hành và bối cảnh hình thành.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
