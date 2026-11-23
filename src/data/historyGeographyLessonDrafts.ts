@@ -1450,5 +1450,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-history-17', grade: 8, strand: 'history',
+    title: 'Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884',
+    summary: 'Tìm hiểu quá trình thực dân Pháp nổ súng xâm lược Việt Nam, các cuộc kháng chiến tiêu biểu của nhân dân và triều đình, cùng những hiệp ước từng bước làm mất chủ quyền đất nước từ năm 1858 đến năm 1884.',
+    learningObjectives: [
+      'Nêu được các mốc chính trong quá trình Pháp xâm lược Việt Nam từ năm 1858 đến năm 1884.',
+      'Trình bày được một số cuộc kháng chiến tiêu biểu ở Đà Nẵng, Nam Kì và Bắc Kì.',
+      'Phân tích được tác động của các hiệp ước năm 1862, 1874, 1883 và 1884 đối với chủ quyền Việt Nam.'
+    ],
+    sections: [
+      {
+        heading: 'Pháp mở đầu cuộc xâm lược và kháng chiến ở Đà Nẵng',
+        body: 'Ngày 1/9/1858, liên quân Pháp – Tây Ban Nha nổ súng tấn công Đà Nẵng, mở đầu cuộc xâm lược Việt Nam. Quân dân dưới sự chỉ huy của Nguyễn Tri Phương xây dựng phòng tuyến, thực hiện cách đánh phù hợp và làm thất bại ý đồ đánh nhanh chiếm nhanh của đối phương. Sau khi không đạt mục tiêu ở Đà Nẵng, quân Pháp chuyển hướng tấn công Gia Định năm 1859. Cuộc kháng chiến cho thấy tinh thần chống xâm lược của nhân dân, đồng thời bộc lộ hạn chế trong đường lối và khả năng tổ chức kháng chiến của triều đình.',
+        keyPoints: ['Ngày 1/9/1858, Pháp – Tây Ban Nha tấn công Đà Nẵng; kháng chiến làm thất bại ý đồ đánh nhanh của Pháp.'],
+        example: 'Dùng bản đồ xác định Đà Nẵng và Gia Định để theo dõi hướng tiến công của quân Pháp.'
+      },
+      {
+        heading: 'Kháng chiến ở Nam Kì và Bắc Kì',
+        body: 'Sau khi chiếm được một số vị trí ở Nam Kì, Pháp buộc triều đình kí Hiệp ước Nhâm Tuất năm 1862, nhượng ba tỉnh miền Đông Nam Kì và một số quyền lợi khác. Nhân dân tiếp tục kháng chiến với nhiều thủ lĩnh như Trương Định, Nguyễn Trung Trực và các nghĩa quân địa phương. Năm 1867, Pháp chiếm ba tỉnh miền Tây Nam Kì. Ở Bắc Kì, các cuộc tiến công của Pháp năm 1873 và 1882 vấp phải sự chống trả của quân dân, gắn với những nhân vật như Nguyễn Tri Phương và Hoàng Diệu. Phong trào kháng chiến diễn ra ở nhiều nơi, có hình thức và lực lượng đa dạng.',
+        keyPoints: ['Nhân dân Nam Kì tiếp tục kháng chiến sau năm 1862; Pháp chiếm ba tỉnh miền Tây năm 1867 và mở rộng đánh chiếm Bắc Kì.'],
+        example: 'Lập bảng theo địa bàn, thủ lĩnh, thời gian và hình thức đấu tranh để so sánh các cuộc kháng chiến.'
+      },
+      {
+        heading: 'Các hiệp ước và sự mất chủ quyền',
+        body: 'Trước sức ép quân sự của Pháp, triều đình Nguyễn lần lượt kí các hiệp ước làm chủ quyền đất nước bị thu hẹp. Hiệp ước Giáp Tuất năm 1874 tiếp tục mở rộng quyền lợi của Pháp. Sau các cuộc tiến công của Pháp ở Bắc Kì và kinh thành Huế, triều đình kí Hiệp ước Hác-măng năm 1883 và Hiệp ước Pa-tơ-nốt năm 1884, chấp nhận sự bảo hộ của Pháp ở Trung Kì và Bắc Kì. Đến năm 1884, nền độc lập và chủ quyền quốc gia bị tổn hại nghiêm trọng. Cần phân biệt sự chống trả kiên cường của nhân dân với lựa chọn và trách nhiệm của triều đình trong từng thời điểm.',
+        keyPoints: ['Các hiệp ước 1862, 1874, 1883 và 1884 từng bước làm suy giảm chủ quyền Việt Nam.'],
+        example: 'So sánh nội dung các hiệp ước theo mốc thời gian để thấy phạm vi quyền kiểm soát của Pháp tăng lên.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
