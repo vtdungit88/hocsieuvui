@@ -569,5 +569,23 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
     ["Nếu nhiều cuộc nổi dậy xảy ra đồng thời ở các vùng khác nhau, điều đó gợi ý điều gì?","Mâu thuẫn xã hội có tính phổ biến và sâu sắc","Không có khủng hoảng","Mọi địa phương đều có cùng nguyên nhân trực tiếp","Chính quyền hoàn toàn ổn định",0,"Sự lan rộng phản ánh các mâu thuẫn xã hội không chỉ giới hạn ở một địa phương."],
     ["Vì sao không nên mô tả tất cả các cuộc khởi nghĩa như một tổ chức thống nhất?","Vì chúng không có thủ lĩnh","Vì địa bàn, thời gian, lực lượng và mục tiêu cụ thể khác nhau","Vì không có sự kiện lịch sử","Vì tất cả đều diễn ra ở nước ngoài",1,"Các cuộc nổi dậy có đặc điểm riêng và không phải một tổ chức duy nhất."],
     ["Đánh giá phù hợp nhất về tác động của phong trào là gì?","Không ảnh hưởng đến chính quyền","Chỉ làm thay đổi một địa danh","Làm bộc lộ sự suy yếu của Lê – Trịnh nhưng chưa tạo được chính quyền thay thế bền vững","Ngay lập tức kết thúc mọi xung đột",2,"Phong trào làm rung chuyển chính quyền nhưng tính phân tán hạn chế khả năng thay thế."]
+  ]),status:'draft'},,
+
+  {lessonId:'g8-history-08',grade:8,strand:'history',title:'Phong trào Tây Sơn',questions:buildQuestions('g8-history-08',[
+    ["Phong trào Tây Sơn bùng nổ vào năm nào?","1771","1785","1789","1802",0,"Phong trào Tây Sơn bùng nổ năm 1771."],
+    ["Phong trào Tây Sơn khởi phát ở địa bàn nào?","Thăng Long","Tây Sơn, Bình Định","Gia Định năm 1802","Hà Tiên",1,"Phong trào bắt đầu ở vùng Tây Sơn thuộc Bình Định."],
+    ["Ba anh em lãnh đạo phong trào Tây Sơn là ai?","Lê Lợi, Nguyễn Trãi, Lê Lai","Trịnh Kiểm, Trịnh Tùng, Trịnh Cối","Nguyễn Nhạc, Nguyễn Huệ, Nguyễn Lữ","Nguyễn Ánh, Nguyễn Phúc Thuần, Nguyễn Phúc Dương",2,"Ba anh em Nguyễn Nhạc, Nguyễn Huệ và Nguyễn Lữ lãnh đạo phong trào."],
+    ["Chiến thắng Rạch Gầm – Xoài Mút diễn ra năm nào?","1771","1786","1789","1785",3,"Năm 1785, quân Tây Sơn đánh bại quân Xiêm ở Rạch Gầm – Xoài Mút."],
+    ["Quân Xiêm bị đánh bại trong trận Rạch Gầm – Xoài Mút do ai chỉ huy?","Nguyễn Huệ","Nguyễn Ánh","Trịnh Sâm","Lê Chiêu Thống",0,"Nguyễn Huệ chỉ huy quân Tây Sơn trong chiến thắng năm 1785."],
+    ["Năm 1786, quân Tây Sơn tiến ra Bắc và lật đổ chính quyền nào?","Nhà Mạc","Chính quyền họ Trịnh","Nhà Nguyễn thế kỉ XIX","Nhà Lê sơ",1,"Năm 1786, quân Tây Sơn tiến ra Bắc, lật đổ chính quyền họ Trịnh."],
+    ["Nguyễn Huệ lên ngôi hoàng đế và lấy niên hiệu nào trước chiến dịch chống quân Thanh?","Gia Long","Minh Mạng","Quang Trung","Tự Đức",2,"Nguyễn Huệ lên ngôi hoàng đế, lấy niên hiệu Quang Trung."],
+    ["Chiến thắng Ngọc Hồi – Đống Đa gắn với sự kiện nào?","Đánh bại quân Xiêm năm 1785","Lật đổ chính quyền họ Trịnh năm 1786","Thành lập nhà Mạc năm 1527","Đánh bại quân Thanh mùa xuân năm 1789",3,"Chiến thắng Ngọc Hồi – Đống Đa năm 1789 đánh bại quân Thanh."],
+    ["Một nguyên nhân quan trọng khiến phong trào Tây Sơn nhận được sự ủng hộ là gì?","Mâu thuẫn xã hội và đời sống nhân dân khó khăn","Chính quyền đương thời hoàn toàn ổn định","Không có thuế khóa","Đất nước không có chia cắt",0,"Khủng hoảng chính quyền và áp bức làm nhiều tầng lớp ủng hộ phong trào."],
+    ["Chiến thắng Rạch Gầm – Xoài Mút có ý nghĩa chủ yếu gì?","Mở đầu triều Lê sơ","Đánh bại lực lượng Xiêm can thiệp, bảo vệ vùng đất phía nam","Kết thúc chiến tranh thế giới","Thành lập nhà Mạc",1,"Thắng lợi năm 1785 đánh bại quân Xiêm và bảo vệ vùng đất phía nam."],
+    ["Quân Thanh tiến vào nước ta vào cuối năm nào?","1771","1785","1788","1802",2,"Cuối năm 1788, quân Thanh tiến vào nước ta."],
+    ["Một việc làm được Quang Trung quan tâm sau khi lên ngôi là gì?","Khôi phục sản xuất và phát triển giáo dục","Đóng cửa toàn bộ trường học","Bãi bỏ mọi hoạt động nông nghiệp","Ngừng xây dựng chính quyền",0,"Quang Trung chú trọng ổn định đất nước, khôi phục sản xuất và giáo dục."],
+    ["Khi đặt hai chiến thắng Rạch Gầm – Xoài Mút và Ngọc Hồi – Đống Đa lên dòng thời gian, thứ tự đúng là gì?","1789 trước 1785","1785 trước 1789","Hai trận cùng năm","Không thể xác định",1,"Rạch Gầm – Xoài Mút diễn ra năm 1785, trước chiến thắng năm 1789."],
+    ["Vì sao phong trào Tây Sơn có vai trò lớn trong lịch sử cuối thế kỉ XVIII?","Chỉ thay đổi một địa phương","Không liên quan đến ngoại xâm","Lật đổ các thế lực phong kiến, đánh bại ngoại xâm và thúc đẩy thống nhất","Chỉ phát triển thương mại",2,"Phong trào tạo biến đổi lớn về chính trị và bảo vệ độc lập trước ngoại xâm."],
+    ["Nhận định nào cân bằng nhất về triều Tây Sơn?","Tồn tại ổn định nhiều thế kỉ","Không có đóng góp về quân sự","Chỉ có thắng lợi và không có khó khăn","Có đóng góp lớn nhưng gặp khó khăn sau khi Quang Trung mất và sụp đổ năm 1802",3,"Cần ghi nhận đóng góp của phong trào và xem xét bối cảnh suy yếu sau năm 1792."]
   ]),status:'draft'},
 ];
