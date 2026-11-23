@@ -569,7 +569,7 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
     ["Nếu nhiều cuộc nổi dậy xảy ra đồng thời ở các vùng khác nhau, điều đó gợi ý điều gì?","Mâu thuẫn xã hội có tính phổ biến và sâu sắc","Không có khủng hoảng","Mọi địa phương đều có cùng nguyên nhân trực tiếp","Chính quyền hoàn toàn ổn định",0,"Sự lan rộng phản ánh các mâu thuẫn xã hội không chỉ giới hạn ở một địa phương."],
     ["Vì sao không nên mô tả tất cả các cuộc khởi nghĩa như một tổ chức thống nhất?","Vì chúng không có thủ lĩnh","Vì địa bàn, thời gian, lực lượng và mục tiêu cụ thể khác nhau","Vì không có sự kiện lịch sử","Vì tất cả đều diễn ra ở nước ngoài",1,"Các cuộc nổi dậy có đặc điểm riêng và không phải một tổ chức duy nhất."],
     ["Đánh giá phù hợp nhất về tác động của phong trào là gì?","Không ảnh hưởng đến chính quyền","Chỉ làm thay đổi một địa danh","Làm bộc lộ sự suy yếu của Lê – Trịnh nhưng chưa tạo được chính quyền thay thế bền vững","Ngay lập tức kết thúc mọi xung đột",2,"Phong trào làm rung chuyển chính quyền nhưng tính phân tán hạn chế khả năng thay thế."]
-  ]),status:'draft'},,
+  ]),status:'draft'},
 
   {lessonId:'g8-history-08',grade:8,strand:'history',title:'Phong trào Tây Sơn',questions:buildQuestions('g8-history-08',[
     ["Phong trào Tây Sơn bùng nổ vào năm nào?","1771","1785","1789","1802",0,"Phong trào Tây Sơn bùng nổ năm 1771."],
