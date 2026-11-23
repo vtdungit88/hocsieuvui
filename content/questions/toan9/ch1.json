@@ -1,0 +1,474 @@
+[
+ {
+  "chapter": "toan9-c1",
+  "lesson": {
+   "code": "toan9-b01",
+   "title": "Bài 1. Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn",
+   "seq": 1,
+   "subtitle": "Phương trình bậc nhất hai ẩn, hệ hai phương trình, nghiệm của hệ",
+   "concepts": [
+    "Phương trình bậc nhất hai ẩn",
+    "Nghiệm của phương trình",
+    "Hệ hai phương trình bậc nhất hai ẩn"
+   ]
+  },
+  "questions": [
+   {
+    "c": "T9-B01-001",
+    "d": "basic",
+    "p": "Phương trình nào sau đây là phương trình bậc nhất hai ẩn $x, y$?",
+    "o": [
+     "$x^2+y=4$",
+     "$\\frac{2}{x}+y=1$",
+     "$0x+0y=7$",
+     "$3x-2y=5$"
+    ],
+    "k": "D",
+    "e": "Phương trình bậc nhất hai ẩn có dạng $ax+by=c$ với $a, b$ không đồng thời bằng 0. Phương án $0x+0y=7$ có $a=b=0$ nên không phải; hai phương án còn lại chứa $x^2$ hoặc ẩn ở mẫu."
+   },
+   {
+    "c": "T9-B01-002",
+    "d": "basic",
+    "p": "Cặp số nào là một nghiệm của phương trình $2x+y=7$?",
+    "o": [
+     "$(3;2)$",
+     "$(4;1)$",
+     "$(1;4)$",
+     "$(2;3)$"
+    ],
+    "k": "D",
+    "e": "Thay vào: $2\\cdot2+3=7$ đúng. Các cặp còn lại cho $2x+y$ bằng 8, 6, 9. Lỗi hay gặp là đảo thứ tự $(x;y)$."
+   },
+   {
+    "c": "T9-B01-003",
+    "d": "basic",
+    "p": "Cặp số $(x_0;y_0)$ là nghiệm của hệ hai phương trình bậc nhất hai ẩn khi nào?",
+    "o": [
+     "Khi nó chỉ là nghiệm của phương trình thứ nhất",
+     "Khi nó là nghiệm của ít nhất một phương trình của hệ",
+     "Khi $x_0+y_0$ bằng tổng hai vế phải",
+     "Khi nó là nghiệm chung của cả hai phương trình của hệ"
+    ],
+    "k": "D",
+    "e": "Nghiệm của hệ là cặp số thỏa mãn đồng thời cả hai phương trình; chỉ thỏa mãn một phương trình thì chưa là nghiệm của hệ."
+   },
+   {
+    "c": "T9-B01-004",
+    "d": "application",
+    "p": "Cặp số nào là nghiệm của hệ $\\begin{cases} x+y=5 \\\\ 2x-y=1 \\end{cases}$?",
+    "o": [
+     "$(1;1)$",
+     "$(3;2)$",
+     "$(1;4)$",
+     "$(2;3)$"
+    ],
+    "k": "D",
+    "e": "Cặp $(2;3)$ thỏa $2+3=5$ và $2\\cdot2-3=1$. Cặp $(1;4)$ và $(3;2)$ chỉ thỏa phương trình đầu, $(1;1)$ chỉ thỏa phương trình sau."
+   },
+   {
+    "c": "T9-B01-005",
+    "d": "application",
+    "p": "Tìm $m$ để cặp số $(1;-2)$ là một nghiệm của phương trình $3x+my=7$.",
+    "o": [
+     "$m=-2$",
+     "$m=5$",
+     "$m=2$",
+     "$m=-5$"
+    ],
+    "k": "A",
+    "e": "Thay $x=1,y=-2$: $3-2m=7$, suy ra $m=-2$. Nhầm dấu khi chuyển vế dễ cho $m=2$."
+   },
+   {
+    "c": "T9-B01-006",
+    "d": "application",
+    "p": "Các cặp số $(0;-3)$, $(1;-1)$, $(2;1)$ đều là nghiệm của phương trình nào?",
+    "o": [
+     "$2x-y=3$",
+     "$2x+y=3$",
+     "$x-2y=3$",
+     "$2x-y=-3$"
+    ],
+    "k": "A",
+    "e": "Với $(0;-3)$: $2\\cdot0-(-3)=3$; với $(1;-1)$: $2+1=3$; với $(2;1)$: $4-1=3$. Ba điểm cùng thuộc đường thẳng $2x-y=3$."
+   },
+   {
+    "c": "T9-B01-007",
+    "d": "advanced",
+    "p": "Biết cặp $(1;2)$ là nghiệm của hệ $\\begin{cases} ax+y=5 \\\\ x-by=-3 \\end{cases}$. Tìm $(a;b)$.",
+    "o": [
+     "$(a;b)=(3;2)$",
+     "$(a;b)=(3;-2)$",
+     "$(a;b)=(2;3)$",
+     "$(a;b)=(-3;2)$"
+    ],
+    "k": "A",
+    "e": "Thay $x=1,y=2$: $a+2=5\\Rightarrow a=3$ và $1-2b=-3\\Rightarrow b=2$. Cần giải riêng từng phương trình theo ẩn $a$, $b$."
+   },
+   {
+    "c": "T9-B01-008",
+    "d": "advanced",
+    "p": "Có bao nhiêu cặp số nguyên dương $(x;y)$ là nghiệm của phương trình $x+2y=7$?",
+    "o": [
+     "6",
+     "3",
+     "4",
+     "2"
+    ],
+    "k": "B",
+    "e": "Vì $x=7-2y>0$ nên $y\\in\\{1,2,3\\}$, cho các cặp $(5;1),(3;2),(1;3)$: có 3 cặp. Chú ý điều kiện $x$ nguyên dương."
+   }
+  ]
+ },
+ {
+  "chapter": "toan9-c1",
+  "lesson": {
+   "code": "toan9-b02",
+   "title": "Bài 2. Giải hệ hai phương trình bậc nhất hai ẩn",
+   "seq": 2,
+   "subtitle": "Phương pháp thế, phương pháp cộng đại số",
+   "concepts": [
+    "Phương pháp thế",
+    "Phương pháp cộng đại số",
+    "Số nghiệm của hệ"
+   ]
+  },
+  "questions": [
+   {
+    "c": "T9-B02-001",
+    "d": "basic",
+    "p": "Từ phương trình $x-2y=3$ của một hệ, biểu diễn $x$ theo $y$ (bước đầu của phương pháp thế) ta được",
+    "o": [
+     "$x=2y-3$",
+     "$x=2y+3$",
+     "$x=3-2y$",
+     "$x=-2y-3$"
+    ],
+    "k": "B",
+    "e": "Chuyển $-2y$ sang vế phải: $x=3+2y$. Lỗi hay gặp là quên đổi dấu hoặc đổi dấu cả hai vế sai."
+   },
+   {
+    "c": "T9-B02-002",
+    "d": "basic",
+    "p": "Nghiệm của hệ $\\begin{cases} x+y=7 \\\\ x-y=3 \\end{cases}$ là",
+    "o": [
+     "$(-5;2)$",
+     "$(5;2)$",
+     "$(4;3)$",
+     "$(2;5)$"
+    ],
+    "k": "B",
+    "e": "Cộng hai phương trình: $2x=10$, $x=5$; thay vào được $y=2$. Đảo thứ tự cặp $(x;y)$ cho $(2;5)$ là sai."
+   },
+   {
+    "c": "T9-B02-003",
+    "d": "basic",
+    "p": "Hệ phương trình nào sau đây vô nghiệm?",
+    "o": [
+     "$\\begin{cases} x+2y=3 \\\\ 2x+4y=7 \\end{cases}$",
+     "$\\begin{cases} x+2y=3 \\\\ 2x+4y=6 \\end{cases}$",
+     "$\\begin{cases} x+2y=3 \\\\ 2x-y=1 \\end{cases}$",
+     "$\\begin{cases} x-y=3 \\\\ x+y=1 \\end{cases}$"
+    ],
+    "k": "A",
+    "e": "Ở hệ đầu, nhân phương trình thứ nhất với 2 được $2x+4y=6$, mâu thuẫn với $2x+4y=7$ nên vô nghiệm. Hệ thứ hai có hai phương trình tương đương (vô số nghiệm)."
+   },
+   {
+    "c": "T9-B02-004",
+    "d": "application",
+    "p": "Để khử ngay ẩn $y$ trong hệ $\\begin{cases} 3x+2y=7 \\\\ 5x-2y=1 \\end{cases}$ bằng phương pháp cộng đại số, ta nên",
+    "o": [
+     "trừ từng vế hai phương trình",
+     "nhân phương trình thứ hai với 2 rồi cộng",
+     "cộng từng vế hai phương trình",
+     "nhân phương trình thứ nhất với $-1$ rồi cộng"
+    ],
+    "k": "C",
+    "e": "Hệ số của $y$ là $2$ và $-2$ (đối nhau) nên cộng vế với vế được $8x=8$. Các cách còn lại không làm mất $y$."
+   },
+   {
+    "c": "T9-B02-005",
+    "d": "application",
+    "p": "Giải hệ $\\begin{cases} 2x+3y=12 \\\\ x-y=1 \\end{cases}$",
+    "o": [
+     "$(6;0)$",
+     "$(2;3)$",
+     "$(3;2)$",
+     "$(3;-2)$"
+    ],
+    "k": "C",
+    "e": "Từ $x-y=1$ có $x=y+1$; thế vào: $2(y+1)+3y=12\\Rightarrow y=2$, $x=3$. Kiểm tra lại: $6+6=12$ và $3-2=1$."
+   },
+   {
+    "c": "T9-B02-006",
+    "d": "application",
+    "p": "Giải hệ $\\begin{cases} x+2y=1 \\\\ 3x-y=2 \\end{cases}$",
+    "o": [
+     "$(\\frac{1}{7};\\frac{5}{7})$",
+     "$(\\frac{5}{7};\\frac{1}{7})$",
+     "$(\\frac{5}{7};-\\frac{1}{7})$",
+     "$(\\frac{2}{7};\\frac{1}{7})$"
+    ],
+    "k": "B",
+    "e": "Nhân phương trình thứ hai với 2 rồi cộng: $7x=5$, $x=\\frac{5}{7}$; thay vào $x+2y=1$ được $y=\\frac{1}{7}$. Nghiệm có thể là phân số."
+   },
+   {
+    "c": "T9-B02-007",
+    "d": "advanced",
+    "p": "Cho hệ $\\begin{cases} 2x+y=m \\\\ x-y=3 \\end{cases}$. Tìm $m$ để nghiệm $(x;y)$ của hệ thỏa mãn $x+y=1$.",
+    "o": [
+     "$m=0$",
+     "$m=6$",
+     "$m=3$",
+     "$m=1$"
+    ],
+    "k": "C",
+    "e": "Cộng hai phương trình: $3x=m+3$, $x=\\frac{m+3}{3}$, $y=x-3=\\frac{m-6}{3}$. $x+y=\\frac{2m-3}{3}=1$ cho $m=3$ (khi đó $x=2,y=-1$)."
+   },
+   {
+    "c": "T9-B02-008",
+    "d": "advanced",
+    "p": "Hai đường thẳng $y=2x-1$ và $y=-x+5$ cắt nhau tại điểm có tọa độ",
+    "o": [
+     "$(2;-3)$",
+     "$(3;2)$",
+     "$(2;3)$",
+     "$(1;1)$"
+    ],
+    "k": "C",
+    "e": "Tọa độ giao điểm là nghiệm của hệ $2x-y=1$, $x+y=5$: $x=2$, $y=3$. Kiểm tra: $2\\cdot2-1=3$ và $-2+5=3$."
+   }
+  ]
+ },
+ {
+  "chapter": "toan9-c1",
+  "lesson": {
+   "code": "toan9-b03",
+   "title": "Bài 3. Giải bài toán bằng cách lập hệ phương trình",
+   "seq": 3,
+   "subtitle": "Lập hệ, giải hệ, kết luận",
+   "concepts": [
+    "Chọn ẩn và đặt điều kiện",
+    "Lập hệ phương trình",
+    "Giải bài toán thực tế"
+   ]
+  },
+  "questions": [
+   {
+    "c": "T9-B03-001",
+    "d": "basic",
+    "p": "Hai số có tổng bằng 50 và hiệu bằng 8. Gọi $x$ là số lớn, $y$ là số bé. Hệ phương trình lập đúng là",
+    "o": [
+     "$\\begin{cases} x+y=50 \\\\ -x+y=8 \\end{cases}$",
+     "$\\begin{cases} x+y=8 \\\\ x-y=50 \\end{cases}$",
+     "$\\begin{cases} x+y=50 \\\\ x-y=8 \\end{cases}$",
+     "$\\begin{cases} x+y=50 \\\\ xy=8 \\end{cases}$"
+    ],
+    "k": "C",
+    "e": "Tổng: $x+y=50$; số lớn hơn số bé 8 đơn vị: $x-y=8$. Hệ cuối không phải hệ bậc nhất."
+   },
+   {
+    "c": "T9-B03-002",
+    "d": "basic",
+    "p": "Hai số có tổng bằng 50 và hiệu (số lớn trừ số bé) bằng 8. Số lớn là",
+    "o": [
+     "42",
+     "29",
+     "58",
+     "21"
+    ],
+    "k": "B",
+    "e": "Giải hệ $x+y=50$, $x-y=8$: $2x=58$, $x=29$ và $y=21$. Chọn nhầm 21 là lấy số bé."
+   },
+   {
+    "c": "T9-B03-003",
+    "d": "basic",
+    "p": "Các bước giải bài toán bằng cách lập hệ phương trình theo đúng thứ tự là",
+    "o": [
+     "Đối chiếu điều kiện; giải hệ; lập hệ phương trình",
+     "Lập hệ phương trình; giải hệ; đối chiếu điều kiện rồi kết luận",
+     "Kết luận; lập hệ phương trình; giải hệ",
+     "Giải hệ; lập hệ phương trình; kết luận"
+    ],
+    "k": "B",
+    "e": "Chọn ẩn, đặt điều kiện, lập hệ; giải hệ; cuối cùng kiểm tra nghiệm thỏa điều kiện bài toán và trả lời."
+   },
+   {
+    "c": "T9-B03-004",
+    "d": "application",
+    "p": "Một mảnh vườn hình chữ nhật có chu vi 52 m, chiều dài hơn chiều rộng 6 m. Diện tích mảnh vườn là",
+    "o": [
+     "100 m²",
+     "320 m²",
+     "156 m²",
+     "160 m²"
+    ],
+    "k": "D",
+    "e": "Nửa chu vi 26: $x+y=26$, $x-y=6$ nên dài 16 m, rộng 10 m; diện tích $16\\cdot10=160$ m². Nhầm hay gặp là dùng 26 và 6."
+   },
+   {
+    "c": "T9-B03-005",
+    "d": "application",
+    "p": "Mua 3 quyển vở và 2 chiếc bút hết 46 nghìn đồng; mua 5 quyển vở và 3 chiếc bút hết 75 nghìn đồng. Giá một chiếc bút là",
+    "o": [
+     "4 nghìn đồng",
+     "6 nghìn đồng",
+     "5 nghìn đồng",
+     "12 nghìn đồng"
+    ],
+    "k": "C",
+    "e": "Gọi giá vở $x$, bút $y$: $3x+2y=46$, $5x+3y=75$. Giải được $x=12$, $y=5$. Kiểm tra: $36+10=46$; $60+15=75$."
+   },
+   {
+    "c": "T9-B03-006",
+    "d": "application",
+    "p": "Hai xe cùng khởi hành từ A và B cách nhau 180 km. Nếu đi ngược chiều thì sau 2 giờ gặp nhau; nếu xe từ A đuổi theo xe từ B cùng chiều thì sau 6 giờ gặp nhau. Vận tốc xe nhanh là",
+    "o": [
+     "90 km/h",
+     "30 km/h",
+     "60 km/h",
+     "45 km/h"
+    ],
+    "k": "C",
+    "e": "$2(v_1+v_2)=180$ và $6(v_1-v_2)=180$ cho $v_1+v_2=90$, $v_1-v_2=30$, nên $v_1=60$, $v_2=30$."
+   },
+   {
+    "c": "T9-B03-007",
+    "d": "advanced",
+    "p": "Hiện nay tuổi mẹ gấp 4 lần tuổi con. Sau 5 năm nữa, tổng số tuổi của hai mẹ con là 50. Tuổi mẹ hiện nay là",
+    "o": [
+     "32 tuổi",
+     "36 tuổi",
+     "8 tuổi",
+     "40 tuổi"
+    ],
+    "k": "A",
+    "e": "Gọi tuổi mẹ $x$, tuổi con $y$: $x=4y$ và $(x+5)+(y+5)=50$, tức $x+y=40$. Suy ra $y=8$, $x=32$. Lỗi hay gặp là quên cộng 5 cho cả hai người."
+   },
+   {
+    "c": "T9-B03-008",
+    "d": "advanced",
+    "p": "Lớp 9A có 40 học sinh tham gia trồng cây. Mỗi bạn nam trồng 3 cây, mỗi bạn nữ trồng 2 cây, cả lớp trồng được 95 cây. Số học sinh nữ của lớp là",
+    "o": [
+     "20",
+     "30",
+     "15",
+     "25"
+    ],
+    "k": "D",
+    "e": "Gọi số nam $x$, số nữ $y$: $x+y=40$, $3x+2y=95$. Giải ra $x=15$, $y=25$ (kiểm tra: $45+50=95$)."
+   }
+  ]
+ },
+ {
+  "chapter": "toan9-c1",
+  "lesson": {
+   "code": "toan9_ch1"
+  },
+  "questions": [
+   {
+    "c": "T9-C1-R01",
+    "d": "basic",
+    "p": "Phương trình nào sau đây là phương trình bậc nhất hai ẩn?",
+    "o": [
+     "$0x+2y=6$",
+     "$x^2+y^2=1$",
+     "$x+\\frac{1}{y}=2$",
+     "$xy=4$"
+    ],
+    "k": "A",
+    "e": "$0x+2y=6$ có dạng $ax+by=c$ với $b=2\\neq0$ nên là phương trình bậc nhất hai ẩn. Ba phương án còn lại có tích $xy$, bình phương hoặc ẩn ở mẫu."
+   },
+   {
+    "c": "T9-C1-R02",
+    "d": "basic",
+    "p": "Phương trình bậc nhất hai ẩn $ax+by=c$ (với $a,b$ không đồng thời bằng 0) có bao nhiêu nghiệm?",
+    "o": [
+     "Vô số nghiệm",
+     "Đúng một nghiệm",
+     "Vô nghiệm",
+     "Đúng hai nghiệm"
+    ],
+    "k": "A",
+    "e": "Mỗi giá trị của $x$ cho một giá trị của $y$ tương ứng, nên có vô số nghiệm; tập nghiệm là một đường thẳng."
+   },
+   {
+    "c": "T9-C1-R03",
+    "d": "basic",
+    "p": "Hệ phương trình nào nhận cặp $(1;-1)$ làm nghiệm?",
+    "o": [
+     "$\\begin{cases} x+y=0 \\\\ 2x+y=1 \\end{cases}$",
+     "$\\begin{cases} x-y=1 \\\\ 2x+y=2 \\end{cases}$",
+     "$\\begin{cases} 2x+y=1 \\\\ x+y=3 \\end{cases}$",
+     "$\\begin{cases} x+y=1 \\\\ x-y=0 \\end{cases}$"
+    ],
+    "k": "A",
+    "e": "Với $(1;-1)$: $1-1=0$ và $2\\cdot1-1=1$ nên thỏa hệ đầu. Các hệ khác có ít nhất một phương trình không thỏa."
+   },
+   {
+    "c": "T9-C1-R04",
+    "d": "application",
+    "p": "Giải hệ $\\begin{cases} 3x+y=7 \\\\ 2x-3y=1 \\end{cases}$",
+    "o": [
+     "$(1;4)$",
+     "$(2;3)$",
+     "$(2;1)$",
+     "$(3;-2)$"
+    ],
+    "k": "C",
+    "e": "Nhân phương trình thứ nhất với 3 rồi cộng với phương trình thứ hai: $11x=22$, $x=2$; thay vào được $y=1$."
+   },
+   {
+    "c": "T9-C1-R05",
+    "d": "application",
+    "p": "Hệ $\\begin{cases} 2x-4y=6 \\\\ -x+2y=-3 \\end{cases}$ có bao nhiêu nghiệm?",
+    "o": [
+     "Đúng hai nghiệm",
+     "Vô nghiệm",
+     "Đúng một nghiệm",
+     "Vô số nghiệm"
+    ],
+    "k": "D",
+    "e": "Phương trình thứ nhất bằng $-2$ lần phương trình thứ hai, nên hai phương trình tương đương: hệ có vô số nghiệm."
+   },
+   {
+    "c": "T9-C1-R06",
+    "d": "application",
+    "p": "Tìm $m$ để cặp $(-1;3)$ là nghiệm của phương trình $mx+2y=1$.",
+    "o": [
+     "$m=-5$",
+     "$m=5$",
+     "$m=7$",
+     "$m=1$"
+    ],
+    "k": "B",
+    "e": "Thay $x=-1,y=3$: $-m+6=1$, suy ra $m=5$. Nhầm dấu khi chuyển vế cho $m=-5$."
+   },
+   {
+    "c": "T9-C1-R07",
+    "d": "advanced",
+    "p": "Cửa hàng bán áo và quần. Mua 3 áo và 2 quần hết 1 150 nghìn đồng; mua 2 áo và 5 quần hết 1 500 nghìn đồng. Giá một chiếc áo là",
+    "o": [
+     "200 nghìn đồng",
+     "250 nghìn đồng",
+     "300 nghìn đồng",
+     "150 nghìn đồng"
+    ],
+    "k": "B",
+    "e": "Gọi giá áo $x$, quần $y$: $3x+2y=1150$, $2x+5y=1500$. Giải ra $x=250$, $y=200$ (kiểm tra: $750+400=1150$; $500+1000=1500$)."
+   },
+   {
+    "c": "T9-C1-R08",
+    "d": "advanced",
+    "p": "Tìm $m$ để hệ $\\begin{cases} x+2y=m \\\\ 2x-y=1 \\end{cases}$ có nghiệm $(x;y)$ thỏa mãn $x=y$.",
+    "o": [
+     "$m=1$",
+     "$m=2$",
+     "$m=5$",
+     "$m=3$"
+    ],
+    "k": "D",
+    "e": "Với $x=y$, phương trình $2x-y=1$ cho $x=y=1$; thay vào $x+2y=m$ được $m=3$. Kiểm tra: hệ có nghiệm $(1;1)$."
+   }
+  ]
+ }
+]

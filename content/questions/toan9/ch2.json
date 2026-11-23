@@ -1,0 +1,474 @@
+[
+ {
+  "chapter": "toan9-c2",
+  "lesson": {
+   "code": "toan9-b04",
+   "title": "Bài 4. Phương trình quy về phương trình bậc nhất một ẩn",
+   "seq": 1,
+   "subtitle": "Phương trình tích, phương trình chứa ẩn ở mẫu",
+   "concepts": [
+    "Phương trình tích",
+    "Điều kiện xác định",
+    "Phương trình chứa ẩn ở mẫu"
+   ]
+  },
+  "questions": [
+   {
+    "c": "T9-B04-001",
+    "d": "basic",
+    "p": "Nghiệm của phương trình $(x-2)(x+3)=0$ là",
+    "o": [
+     "$x=2$ hoặc $x=-3$",
+     "$x=-2$ hoặc $x=-3$",
+     "$x=2$ hoặc $x=3$",
+     "$x=-2$ hoặc $x=3$"
+    ],
+    "k": "A",
+    "e": "Tích bằng 0 khi một thừa số bằng 0: $x-2=0$ hoặc $x+3=0$, tức $x=2$ hoặc $x=-3$. Lỗi hay gặp là quên đổi dấu."
+   },
+   {
+    "c": "T9-B04-002",
+    "d": "basic",
+    "p": "Điều kiện xác định của phương trình $\\frac{3}{x-4}=1$ là",
+    "o": [
+     "$x\\neq0$",
+     "$x\\neq4$",
+     "$x\\neq-4$",
+     "$x\\neq3$"
+    ],
+    "k": "B",
+    "e": "Mẫu thức phải khác 0: $x-4\\neq0$, tức $x\\neq4$."
+   },
+   {
+    "c": "T9-B04-003",
+    "d": "basic",
+    "p": "Điều kiện xác định của phương trình $\\frac{1}{x+1}+\\frac{2}{x-3}=0$ là",
+    "o": [
+     "$x\\neq-1$ và $x\\neq-3$",
+     "$x\\neq1$ và $x\\neq-3$",
+     "$x\\neq1$ và $x\\neq3$",
+     "$x\\neq-1$ và $x\\neq3$"
+    ],
+    "k": "D",
+    "e": "Cần $x+1\\neq0$ và $x-3\\neq0$, tức $x\\neq-1$ và $x\\neq3$."
+   },
+   {
+    "c": "T9-B04-004",
+    "d": "application",
+    "p": "Giải phương trình $(2x-1)(x+4)=0$.",
+    "o": [
+     "$x=-\\frac{1}{2}$ hoặc $x=4$",
+     "$x=2$ hoặc $x=-4$",
+     "$x=\\frac{1}{2}$ hoặc $x=4$",
+     "$x=\\frac{1}{2}$ hoặc $x=-4$"
+    ],
+    "k": "D",
+    "e": "$2x-1=0\\Rightarrow x=\\frac{1}{2}$ và $x+4=0\\Rightarrow x=-4$. Nhầm hay gặp là quên chia cho hệ số 2."
+   },
+   {
+    "c": "T9-B04-005",
+    "d": "application",
+    "p": "Giải phương trình $\\frac{x+1}{x-2}=3$.",
+    "o": [
+     "$x=7$",
+     "$x=-\\frac{7}{2}$",
+     "$x=\\frac{5}{2}$",
+     "$x=\\frac{7}{2}$"
+    ],
+    "k": "D",
+    "e": "ĐKXĐ: $x\\neq2$. Quy đồng: $x+1=3(x-2)\\Rightarrow 2x=7\\Rightarrow x=\\frac{7}{2}$ (thỏa ĐKXĐ). Lỗi hay gặp là quên nhân 3 với $-2$."
+   },
+   {
+    "c": "T9-B04-006",
+    "d": "application",
+    "p": "Giải phương trình $\\frac{2}{x-1}=\\frac{3}{x+2}$.",
+    "o": [
+     "$x=7$",
+     "$x=-7$",
+     "$x=\\frac{1}{5}$",
+     "$x=1$"
+    ],
+    "k": "A",
+    "e": "ĐKXĐ: $x\\neq1,x\\neq-2$. Nhân chéo: $2(x+2)=3(x-1)\\Rightarrow x=7$ (thỏa ĐKXĐ); kiểm tra: $\\frac{2}{6}=\\frac{3}{9}$."
+   },
+   {
+    "c": "T9-B04-007",
+    "d": "advanced",
+    "p": "Giải phương trình $\\frac{x}{x-2}=\\frac{2}{x-2}$.",
+    "o": [
+     "$x=0$",
+     "Phương trình vô nghiệm",
+     "$x=2$",
+     "$x=-2$"
+    ],
+    "k": "B",
+    "e": "ĐKXĐ: $x\\neq2$. Khử mẫu được $x=2$, nhưng giá trị này không thỏa ĐKXĐ nên bị loại; phương trình vô nghiệm."
+   },
+   {
+    "c": "T9-B04-008",
+    "d": "advanced",
+    "p": "Giải phương trình $x^2-4=3(x-2)$.",
+    "o": [
+     "$x=-2$ hoặc $x=2$",
+     "$x=2$",
+     "$x=1$ hoặc $x=2$",
+     "$x=-1$ hoặc $x=-2$"
+    ],
+    "k": "C",
+    "e": "Chuyển vế: $(x-2)(x+2)-3(x-2)=0\\Rightarrow (x-2)(x-1)=0$, nên $x=2$ hoặc $x=1$. Chia hai vế cho $x-2$ sẽ làm mất nghiệm $x=2$."
+   }
+  ]
+ },
+ {
+  "chapter": "toan9-c2",
+  "lesson": {
+   "code": "toan9-b05",
+   "title": "Bài 5. Bất đẳng thức và tính chất",
+   "seq": 2,
+   "subtitle": "Bất đẳng thức, liên hệ giữa thứ tự và phép cộng, phép nhân",
+   "concepts": [
+    "Bất đẳng thức",
+    "Tính chất bắc cầu",
+    "Cộng, nhân hai vế với một số"
+   ]
+  },
+  "questions": [
+   {
+    "c": "T9-B05-001",
+    "d": "basic",
+    "p": "Cho $a<b$. Khẳng định nào sau đây luôn đúng?",
+    "o": [
+     "$3a>3b$",
+     "$a-2>b-2$",
+     "$-2a<-2b$",
+     "$a+3<b+3$"
+    ],
+    "k": "D",
+    "e": "Cộng cùng một số vào hai vế giữ nguyên chiều bất đẳng thức. Trừ 2 không đổi chiều; nhân với số âm mới đổi chiều; nhân với 3 giữ chiều."
+   },
+   {
+    "c": "T9-B05-002",
+    "d": "basic",
+    "p": "Kí hiệu $a\\ge b$ có nghĩa là",
+    "o": [
+     "$a>b$",
+     "$a<b$",
+     "$a<b$ hoặc $a=b$",
+     "$a>b$ hoặc $a=b$"
+    ],
+    "k": "D",
+    "e": "$a\\ge b$ đọc là $a$ lớn hơn hoặc bằng $b$: $a>b$ hoặc $a=b$."
+   },
+   {
+    "c": "T9-B05-003",
+    "d": "basic",
+    "p": "Nếu $a<b$ và $b<c$ thì",
+    "o": [
+     "$a\\ge c$",
+     "$a>c$",
+     "$a<c$",
+     "$a=c$"
+    ],
+    "k": "C",
+    "e": "Đây là tính chất bắc cầu của bất đẳng thức: $a<b<c$ nên $a<c$."
+   },
+   {
+    "c": "T9-B05-004",
+    "d": "application",
+    "p": "Cho $a<b$. Bất đẳng thức nào sau đây đúng?",
+    "o": [
+     "$\\frac{a}{-2}<\\frac{b}{-2}$",
+     "$3-4a<3-4b$",
+     "$2a-5<2b-5$",
+     "$-a-1<-b-1$"
+    ],
+    "k": "C",
+    "e": "Nhân với 2 (dương) rồi trừ 5 giữ chiều. Ba phương án còn lại có nhân hoặc chia với số âm nên đổi chiều: $-a-1>-b-1$, $3-4a>3-4b$, $\\frac{a}{-2}>\\frac{b}{-2}$."
+   },
+   {
+    "c": "T9-B05-005",
+    "d": "application",
+    "p": "Biết $-2x+3>-2y+3$. Khi đó",
+    "o": [
+     "$x=y$",
+     "$x\\ge y$",
+     "$x>y$",
+     "$x<y$"
+    ],
+    "k": "D",
+    "e": "Trừ 3 hai vế: $-2x>-2y$. Chia hai vế cho $-2$ (số âm) thì đổi chiều: $x<y$."
+   },
+   {
+    "c": "T9-B05-006",
+    "d": "application",
+    "p": "Cho $m>n$. So sánh $5-3m$ và $5-3n$.",
+    "o": [
+     "$5-3m=5-3n$",
+     "$5-3m<5-3n$",
+     "$5-3m\\ge5-3n$",
+     "$5-3m>5-3n$"
+    ],
+    "k": "B",
+    "e": "Nhân hai vế $m>n$ với $-3$ được $-3m<-3n$, cộng 5 được $5-3m<5-3n$."
+   },
+   {
+    "c": "T9-B05-007",
+    "d": "advanced",
+    "p": "Với mọi số thực $a, b$, bất đẳng thức nào sau đây luôn đúng?",
+    "o": [
+     "$a^2+b^2\\ge2ab$",
+     "$a^2+b^2\\le2ab$",
+     "$a^2+b^2<2ab$",
+     "$a^2+b^2>2ab$"
+    ],
+    "k": "A",
+    "e": "$a^2+b^2-2ab=(a-b)^2\\ge0$ nên $a^2+b^2\\ge2ab$, dấu bằng khi $a=b$. Phương án có dấu $>$ sai khi $a=b$."
+   },
+   {
+    "c": "T9-B05-008",
+    "d": "advanced",
+    "p": "Cho $-1\\le x\\le2$. Khi đó $3x+2$ thỏa mãn",
+    "o": [
+     "$-1\\le 3x+2\\le6$",
+     "$-1\\le 3x+2\\le8$",
+     "$1\\le 3x+2\\le8$",
+     "$-3\\le 3x+2\\le6$"
+    ],
+    "k": "B",
+    "e": "Nhân ba vế với 3: $-3\\le3x\\le6$; cộng 2: $-1\\le3x+2\\le8$. Quên cộng 2 cho một vế sẽ dẫn đến các phương án sai."
+   }
+  ]
+ },
+ {
+  "chapter": "toan9-c2",
+  "lesson": {
+   "code": "toan9-b06",
+   "title": "Bài 6. Bất phương trình bậc nhất một ẩn",
+   "seq": 3,
+   "subtitle": "Bất phương trình bậc nhất, cách giải, bài toán thực tế",
+   "concepts": [
+    "Bất phương trình bậc nhất một ẩn",
+    "Quy tắc chuyển vế, quy tắc nhân",
+    "Giải bài toán thực tế"
+   ]
+  },
+  "questions": [
+   {
+    "c": "T9-B06-001",
+    "d": "basic",
+    "p": "Bất phương trình nào sau đây là bất phương trình bậc nhất một ẩn?",
+    "o": [
+     "$x^2-1<0$",
+     "$\\frac{1}{x}+2>0$",
+     "$2x-3>0$",
+     "$0x+5<0$"
+    ],
+    "k": "C",
+    "e": "Bất phương trình bậc nhất một ẩn có dạng $ax+b>0$ (hoặc $<,\\ge,\\le$) với $a\\neq0$. $0x+5<0$ có $a=0$; hai phương án còn lại chứa $x^2$ hoặc ẩn ở mẫu."
+   },
+   {
+    "c": "T9-B06-002",
+    "d": "basic",
+    "p": "Giá trị $x=2$ là nghiệm của bất phương trình nào?",
+    "o": [
+     "$2x-1>0$",
+     "$5-3x>0$",
+     "$3x-6>0$",
+     "$x-2>0$"
+    ],
+    "k": "A",
+    "e": "Thay $x=2$: $2\\cdot2-1=3>0$ đúng. Các phương án khác cho $0>0$, $0>0$, $-1>0$ đều sai."
+   },
+   {
+    "c": "T9-B06-003",
+    "d": "basic",
+    "p": "Khi nhân hoặc chia cả hai vế của một bất phương trình với cùng một số âm thì",
+    "o": [
+     "phải đổi chiều bất phương trình",
+     "bất phương trình trở thành phương trình",
+     "giữ nguyên chiều bất phương trình",
+     "đổi dấu một vế mà không đổi chiều"
+    ],
+    "k": "A",
+    "e": "Quy tắc nhân (chia) với số âm: đổi chiều bất đẳng thức. Đây là lỗi học sinh hay quên nhất khi giải bất phương trình."
+   },
+   {
+    "c": "T9-B06-004",
+    "d": "application",
+    "p": "Giải bất phương trình $3x-7\\le2$.",
+    "o": [
+     "$x\\le-\\frac{5}{3}$",
+     "$x\\ge3$",
+     "$x\\le3$",
+     "$x\\le\\frac{5}{3}$"
+    ],
+    "k": "C",
+    "e": "$3x\\le9\\Rightarrow x\\le3$. Chia cho số dương 3 nên giữ nguyên chiều."
+   },
+   {
+    "c": "T9-B06-005",
+    "d": "application",
+    "p": "Giải bất phương trình $-2x+5>11$.",
+    "o": [
+     "$x>-3$",
+     "$x<-3$",
+     "$x<3$",
+     "$x>3$"
+    ],
+    "k": "B",
+    "e": "$-2x>6$. Chia hai vế cho $-2$ (số âm) phải đổi chiều: $x<-3$."
+   },
+   {
+    "c": "T9-B06-006",
+    "d": "application",
+    "p": "Giải bất phương trình $\\frac{x-1}{2}<\\frac{x+2}{3}$.",
+    "o": [
+     "$x<1$",
+     "$x<-7$",
+     "$x>7$",
+     "$x<7$"
+    ],
+    "k": "D",
+    "e": "Nhân hai vế với 6: $3(x-1)<2(x+2)\\Rightarrow 3x-3<2x+4\\Rightarrow x<7$."
+   },
+   {
+    "c": "T9-B06-007",
+    "d": "advanced",
+    "p": "Số nguyên lớn nhất thỏa mãn bất phương trình $5-2x>-4$ là",
+    "o": [
+     "5",
+     "4",
+     "-4",
+     "3"
+    ],
+    "k": "B",
+    "e": "$-2x>-9\\Rightarrow x<\\frac{9}{2}=4,5$. Các số nguyên thỏa mãn là $x\\le4$, nên số lớn nhất là 4 (số 5 không thỏa vì $x<4,5$)."
+   },
+   {
+    "c": "T9-B06-008",
+    "d": "advanced",
+    "p": "Mai có 200 nghìn đồng, muốn mua một chiếc túi 35 nghìn đồng và một số quyển vở, mỗi quyển 12 nghìn đồng. Mai mua được nhiều nhất bao nhiêu quyển vở?",
+    "o": [
+     "16",
+     "13",
+     "14",
+     "17"
+    ],
+    "k": "B",
+    "e": "Gọi $n$ là số quyển: $12n+35\\le200\\Rightarrow n\\le13,75$. Vì $n$ nguyên nên $n$ lớn nhất là 13. Không được làm tròn lên 14."
+   }
+  ]
+ },
+ {
+  "chapter": "toan9-c2",
+  "lesson": {
+   "code": "toan9_ch2"
+  },
+  "questions": [
+   {
+    "c": "T9-C2-R01",
+    "d": "basic",
+    "p": "Điều kiện xác định của phương trình $\\frac{x}{x+5}=2$ là",
+    "o": [
+     "$x\\neq-5$",
+     "$x\\neq2$",
+     "$x\\neq5$",
+     "$x\\neq0$"
+    ],
+    "k": "A",
+    "e": "Mẫu $x+5\\neq0$ nên $x\\neq-5$."
+   },
+   {
+    "c": "T9-C2-R02",
+    "d": "basic",
+    "p": "Nghiệm của phương trình $(x+1)(2x-6)=0$ là",
+    "o": [
+     "$x=-1$ hoặc $x=6$",
+     "$x=1$ hoặc $x=-3$",
+     "$x=-1$ hoặc $x=3$",
+     "$x=1$ hoặc $x=3$"
+    ],
+    "k": "C",
+    "e": "$x+1=0\\Rightarrow x=-1$; $2x-6=0\\Rightarrow x=3$."
+   },
+   {
+    "c": "T9-C2-R03",
+    "d": "basic",
+    "p": "Cho $a>b$. Bất đẳng thức nào sau đây đúng?",
+    "o": [
+     "$5a<5b$",
+     "$a-5<b-5$",
+     "$-5a<-5b$",
+     "$-5a>-5b$"
+    ],
+    "k": "C",
+    "e": "Nhân hai vế với số âm $-5$ thì đổi chiều: $-5a<-5b$. Trừ 5 hoặc nhân 5 giữ chiều nên hai phương án sau sai."
+   },
+   {
+    "c": "T9-C2-R04",
+    "d": "application",
+    "p": "Giải phương trình $\\frac{x+3}{x-1}=2$.",
+    "o": [
+     "$x=-1$",
+     "$x=1$",
+     "$x=-5$",
+     "$x=5$"
+    ],
+    "k": "D",
+    "e": "ĐKXĐ: $x\\neq1$. $x+3=2(x-1)\\Rightarrow x=5$ (thỏa ĐKXĐ)."
+   },
+   {
+    "c": "T9-C2-R05",
+    "d": "application",
+    "p": "Giải bất phương trình $2(x-3)>5-x$.",
+    "o": [
+     "$x>\\frac{11}{3}$",
+     "$x<\\frac{11}{3}$",
+     "$x>\\frac{1}{3}$",
+     "$x>11$"
+    ],
+    "k": "A",
+    "e": "$2x-6>5-x\\Rightarrow 3x>11\\Rightarrow x>\\frac{11}{3}$."
+   },
+   {
+    "c": "T9-C2-R06",
+    "d": "application",
+    "p": "Giải bất phương trình $\\frac{2-x}{3}\\ge1$.",
+    "o": [
+     "$x\\le1$",
+     "$x\\ge1$",
+     "$x\\le-1$",
+     "$x\\ge-1$"
+    ],
+    "k": "C",
+    "e": "Nhân hai vế với 3: $2-x\\ge3\\Rightarrow -x\\ge1$. Nhân (chia) với $-1$ phải đổi chiều: $x\\le-1$."
+   },
+   {
+    "c": "T9-C2-R07",
+    "d": "advanced",
+    "p": "Giải phương trình $(x-3)(x+1)=x-3$.",
+    "o": [
+     "$x=0$ hoặc $x=3$",
+     "$x=-1$ hoặc $x=3$",
+     "$x=3$",
+     "$x=0$ hoặc $x=-3$"
+    ],
+    "k": "A",
+    "e": "Chuyển vế: $(x-3)(x+1)-(x-3)=0\\Rightarrow (x-3)x=0$, nên $x=3$ hoặc $x=0$. Chia hai vế cho $x-3$ sẽ mất nghiệm $x=3$."
+   },
+   {
+    "c": "T9-C2-R08",
+    "d": "advanced",
+    "p": "Một hãng taxi tính 10 nghìn đồng cho quãng đường mở cửa và 12 nghìn đồng cho mỗi ki-lô-mét. Với 150 nghìn đồng, đi được tối đa bao nhiêu ki-lô-mét (số nguyên)?",
+    "o": [
+     "13 km",
+     "11 km",
+     "12 km",
+     "15 km"
+    ],
+    "k": "B",
+    "e": "$10+12k\\le150\\Rightarrow k\\le\\frac{35}{3}\\approx11,67$. Vì $k$ nguyên nên $k\\le11$."
+   }
+  ]
+ }
+]
