@@ -258,4 +258,20 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
     questions: [], status: 'draft',
   },
 
+
+  {
+    id: 'g6-history-08', grade: 6, strand: 'history',
+    title: 'Ấn Độ cổ đại',
+    summary: 'Các nền văn minh ở lưu vực sông Ấn hình thành với những đô thị được quy hoạch như Ha-ráp-pa và Mô-hen-giô Đa-rô. Về sau, văn hóa Vê-đa phát triển; nhiều vương triều, tiêu biểu là Maurya và Gupta, góp phần định hình lịch sử Ấn Độ. Phật giáo và Kì-na giáo ra đời tại đây; cư dân Ấn Độ có đóng góp về toán học, văn học, kiến trúc và nghệ thuật.',
+    learningObjectives: ['Xác định được những nét chính về điều kiện hình thành văn minh sông Ấn.', 'Nêu được một số thành tựu văn hóa và tôn giáo tiêu biểu của Ấn Độ cổ đại.', 'Nhận biết được đóng góp của các vương triều và thành tựu khoa học Ấn Độ.'],
+    questions: [], status: 'draft',
+  },
+  {
+    id: 'g6-geography-08', grade: 6, strand: 'geography',
+    title: 'Chuyển động của Trái Đất quanh Mặt Trời và các hệ quả',
+    summary: 'Trái Đất chuyển động quanh Mặt Trời theo quỹ đạo gần elip, hết một vòng khoảng 365 ngày 6 giờ. Trục Trái Đất nghiêng và giữ hướng gần ổn định trong quá trình chuyển động, làm thay đổi góc chiếu sáng và thời gian chiếu sáng giữa hai bán cầu. Đây là nguyên nhân chủ yếu tạo nên các mùa và sự khác biệt về độ dài ngày đêm theo mùa.',
+    learningObjectives: ['Mô tả được chuyển động quanh Mặt Trời và thời gian chuyển động của Trái Đất.', 'Giải thích được nguyên nhân hình thành các mùa trong năm.', 'Nhận biết được sự thay đổi độ dài ngày đêm theo mùa và giữa hai bán cầu.'],
+    questions: [], status: 'draft',
+  },
+
 ];
