@@ -659,7 +659,7 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
     ["Vì sao cần phân biệt Cách mạng tháng Hai và tháng Mười năm 1917?","Vì hai cuộc cách mạng có bối cảnh, lực lượng và kết quả khác nhau","Vì chúng diễn ra ở hai thế kỉ khác nhau","Vì chỉ có một cuộc cách mạng","Vì không có thay đổi chính trị",0,"Tháng Hai làm chế độ quân chủ sụp đổ; tháng Mười đưa Bolshevik lên nắm chính quyền."],
     ["Nếu một tài liệu cho biết Nga vẫn tham chiến sau Cách mạng tháng Hai, điều đó giúp giải thích điều gì?","Vì chiến tranh đã kết thúc","Vì Chính phủ lâm thời chưa giải quyết yêu cầu chấm dứt chiến tranh của quần chúng","Vì Nga không tham gia chiến tranh","Vì không có biến động xã hội",1,"Chính phủ lâm thời tiếp tục chiến tranh, làm bất mãn trong xã hội gia tăng."],
     ["Nhận định nào khái quát phù hợp nhất về tác động của năm 1917 đối với lịch sử thế giới?","Không có thay đổi chính trị","Chỉ thay đổi một chính quyền địa phương","Cách mạng ở Nga tạo ra nhà nước mới và ảnh hưởng sâu rộng đến thế kỉ XX","Làm Chiến tranh thế giới thứ nhất kết thúc ngay lập tức",2,"Cách mạng tháng Mười tạo ra nhà nước Xô viết và có ảnh hưởng quốc tế lâu dài."]
-  ]),status:'draft'},,
+  ]),status:'draft'},
 
   {lessonId:'g8-history-13',grade:8,strand:'history',title:'Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII - XIX',questions:buildQuestions('g8-history-13',[
     ["Khoa học tự nhiên trong các thế kỉ XVIII–XIX phát triển nổi bật ở đặc điểm nào?","Quan sát, thí nghiệm và xây dựng lí thuyết ngày càng chặt chẽ","Từ bỏ mọi phương pháp nghiên cứu","Chỉ dựa vào truyền thuyết","Không có sự phân ngành",0,"Nghiên cứu khoa học phát triển về phương pháp và tri thức."],
