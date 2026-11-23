@@ -218,3 +218,12 @@ The remaining ten Grade 7 History lessons and their 150 questions have been adde
 - Validator expected totals updated to 106 manifest-aligned lessons/packs, 114 total quiz sets and 1,710 questions.
 - CI passed on commit `6e5511003fdd73d9f541a30c5fa81653b88051b6` through lesson 14. Lesson 15–17 and the latest validator changes require a fresh complete green run on the current head.
 - All materials remain draft-only and require independent teacher/subject-matter review. No production import, publish, unlock, merge or deployment has occurred.
+
+
+## Progress update — 2026-11-23 (Grade 8 History lesson 18)
+
+- Added `g8-history-18`: **Phong trào kháng chiến chống Pháp trong những năm 1885 - 1896**, with three substantive sections and a matching 15-question draft quiz.
+- Current inventory: **107/166 manifest units** and 107 matching manifest quiz packs. Including 8 legacy sample packs: **115 quiz sets / 1,725 questions**. Grade 8 History is 18/19; 15 Grade 8 units and 44 Grade 9 units remain.
+- Validator expected totals updated to 107 manifest-aligned lessons/packs, 115 total quiz sets and 1,725 questions.
+- CI passed on commit `314eae34ce30667b9b92be23e9d3d6436136b847` through lesson 16. Lesson 17–18 and the latest validator changes require a fresh complete green run on the current head.
+- All materials remain draft-only and require independent teacher/subject-matter review. No production import, publish, unlock, merge or deployment has occurred.
