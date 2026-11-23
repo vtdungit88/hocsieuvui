@@ -194,4 +194,20 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
     questions: [], status: 'draft',
   },
 
+
+  {
+    id: 'g6-history-04', grade: 6, strand: 'history',
+    title: 'Nguồn gốc loài người',
+    summary: 'Các bằng chứng khảo cổ và nhân học cho thấy loài người xuất hiện trong quá trình tiến hóa lâu dài từ một nhánh vượn người cổ. Châu Phi là nơi tìm thấy những dấu tích sớm quan trọng của người cổ. Qua thời gian, con người biết đi bằng hai chân, chế tạo công cụ, sử dụng lửa, hợp tác và di cư đến nhiều khu vực. Khi tìm hiểu nguồn gốc loài người cần phân biệt các dạng người cổ và dựa vào chứng cứ khoa học.',
+    learningObjectives: ['Nêu được những bằng chứng khoa học cơ bản về nguồn gốc loài người.', 'Nhận biết vai trò của châu Phi và một số bước tiến trong quá trình tiến hóa của người.', 'Giải thích được ý nghĩa của công cụ, lửa và sự hợp tác đối với đời sống người nguyên thủy.'],
+    questions: [], status: 'draft',
+  },
+  {
+    id: 'g6-geography-04', grade: 6, strand: 'geography',
+    title: 'Kí hiệu và bảng chú giải bản đồ. Tìm đường trên bản đồ',
+    summary: 'Kí hiệu bản đồ dùng để thể hiện các đối tượng địa lí theo quy ước. Bảng chú giải giải thích ý nghĩa của kí hiệu, màu sắc và đường nét. Khi tìm đường trên bản đồ, cần xác định điểm xuất phát, điểm đến, đọc mạng lưới đường và chú ý phương hướng, khoảng cách, tỉ lệ bản đồ.',
+    learningObjectives: ['Nhận biết được vai trò của kí hiệu và bảng chú giải bản đồ.', 'Đọc được một số dạng kí hiệu thường gặp trên bản đồ.', 'Biết xác định tuyến đường phù hợp giữa hai địa điểm trên bản đồ.'],
+    questions: [], status: 'draft',
+  },
+
 ];
