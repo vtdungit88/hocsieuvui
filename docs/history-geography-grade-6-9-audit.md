@@ -276,3 +276,30 @@ Các câu hỏi đã được viết theo hướng kiểm tra kiến thức và 
 Mỗi bài có học liệu tóm tắt, 3 mục tiêu và 15 câu hỏi có bốn phương án, đáp án và giải thích; phân bố 11 cơ bản, 3 vận dụng, 1 thử thách. Độ phủ theo manifest đạt **16/166 bài**, gồm **240 câu hỏi** trong 16 bộ quiz gắn bài. Tổng quiz draft là **24 bộ / 360 câu** (gồm các bộ chủ đề mẫu cũ không tính độ phủ).
 
 Validator được cập nhật số bộ quiz dự kiến và CI cần chạy lại trên head mới. Nội dung vẫn là draft, chưa import Supabase, chưa mở khóa lớp và chưa merge production.
+
+
+## 9. Bổ sung học liệu lớp 6 — đợt tiếp theo (23/11/2026)
+
+Đã bổ sung 8 bài tiếp theo, gắn ID chính xác với manifest: Lịch sử 09–12 và Địa lí 09–12. Mỗi bài có tóm tắt tự biên soạn, 3 mục tiêu học tập và 15 câu hỏi trắc nghiệm mới có 4 phương án, đáp án và giải thích; phân bố 11 cơ bản, 3 vận dụng, 1 thử thách.
+
+| Phân môn | Bài | Trọng tâm |
+|---|---|---|
+| Lịch sử | 09 | Trung Quốc từ thời cổ đại đến thế kỉ VII |
+| Lịch sử | 10 | Hy Lạp và La Mã cổ đại |
+| Lịch sử | 11 | Các quốc gia sơ kì ở Đông Nam Á |
+| Lịch sử | 12 | Các vương quốc phong kiến Đông Nam Á thế kỉ VII–X |
+| Địa lí | 09 | Xác định phương hướng ngoài thực tế |
+| Địa lí | 10 | Cấu tạo Trái Đất và các mảng kiến tạo |
+| Địa lí | 11 | Quá trình nội sinh, ngoại sinh và tạo núi |
+| Địa lí | 12 | Núi lửa và động đất |
+
+Nguồn đối chiếu phạm vi/kiến thức:
+- [SGKVN — Trung Quốc từ thời cổ đại đến thế kỉ VII](https://www.sgkvn.com/lop-6-3/ket-noi-tri-thuc-voi-cuoc-song-3/phan-lich-suchuong-3-xa-hoi-co-dai-1719/bai-9-trung-quoc-tu-thoi-co-dai-den-the-ki-vii-5761.html)
+- [SGKVN — Hy Lạp và La Mã cổ đại](https://www.sgkvn.com/lop-6-3/ket-noi-tri-thuc-voi-cuoc-song-3/phan-lich-suchuong-3-xa-hoi-co-dai-1719/bai-10-hy-lap-va-la-ma-co-dai-5762.html)
+- [SGKVN — Các quốc gia sơ kì ở Đông Nam Á](https://www.sgkvn.com/lop-6-3/ket-noi-tri-thuc-voi-cuoc-song-3/phan-lich-su-chuong-4-dong-nam-a-tu-nhung-the-ki-tiep-giap-dau-cong-nguyen-den-the-ki-x-2526/bai-11-cac-quoc-gia-so-ki-o-dong-nam-a-8708.html)
+- [SGK trực tuyến — Các vương quốc phong kiến Đông Nam Á thế kỉ VII–X](https://sachgiaokhoa.aistudybuddy.net/sach-online/lop-6/lich-su-va-dia-li-6/bai-12-su-hinh-thanh-va-buoc-dau-phat-trien-cua-cac-vuong-quoc-phong/)
+- [SGKVN — Cấu tạo Trái Đất và các mảng kiến tạo](https://www.sgkvn.com/lop-6-3/ket-noi-tri-thuc-voi-cuoc-song-3/phan-dia-ly-chuong-3-cau-tao-cua-trai-dat-vo-trai-dat-2531/bai-10-cau-tao-cua-trai-dat-cac-mang-kien-tao-8749.html)
+- [SGKVN — Quá trình nội sinh, ngoại sinh và tạo núi](https://sgkvn.com/lop-6-3/ket-noi-tri-thuc-voi-cuoc-song-3/phan-dia-ly-chuong-3-cau-tao-cua-trai-dat-vo-trai-dat-2531/bai-11-qua-trinh-noi-sinh-va-qua-trinh-ngoai-sinh-hien-tuong-tao-nui-8751.html)
+- [SGKVN — Núi lửa và động đất](https://sgkvn.com/lop-6-3/ket-noi-tri-thuc-voi-cuoc-song-3/phan-dia-ly-chuong-3-cau-tao-cua-trai-dat-vo-trai-dat-2531/bai-12-nui-lua-va-dong-dat-8752.html)
+
+Sau đợt này: 24/166 bài manifest có học liệu và quiz gắn đúng ID (14,46%); 32 bộ quiz tổng cộng gồm 8 bộ mẫu cũ không tính vào độ phủ, 24 bộ theo bài SGK; 360 câu hỏi trong các bộ quiz. Tất cả vẫn là draft, chưa nhập Supabase và chưa mở lớp 6–9. Kiểm tra cấu trúc không thay thế thẩm định chuyên môn độc lập từng đáp án.
