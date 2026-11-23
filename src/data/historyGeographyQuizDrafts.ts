@@ -587,7 +587,7 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
     ["Khi đặt hai chiến thắng Rạch Gầm – Xoài Mút và Ngọc Hồi – Đống Đa lên dòng thời gian, thứ tự đúng là gì?","1789 trước 1785","1785 trước 1789","Hai trận cùng năm","Không thể xác định",1,"Rạch Gầm – Xoài Mút diễn ra năm 1785, trước chiến thắng năm 1789."],
     ["Vì sao phong trào Tây Sơn có vai trò lớn trong lịch sử cuối thế kỉ XVIII?","Chỉ thay đổi một địa phương","Không liên quan đến ngoại xâm","Lật đổ các thế lực phong kiến, đánh bại ngoại xâm và thúc đẩy thống nhất","Chỉ phát triển thương mại",2,"Phong trào tạo biến đổi lớn về chính trị và bảo vệ độc lập trước ngoại xâm."],
     ["Nhận định nào cân bằng nhất về triều Tây Sơn?","Tồn tại ổn định nhiều thế kỉ","Không có đóng góp về quân sự","Chỉ có thắng lợi và không có khó khăn","Có đóng góp lớn nhưng gặp khó khăn sau khi Quang Trung mất và sụp đổ năm 1802",3,"Cần ghi nhận đóng góp của phong trào và xem xét bối cảnh suy yếu sau năm 1792."]
-  ]),status:'draft'},,
+  ]),status:'draft'},
 
   {lessonId:'g8-history-09',grade:8,strand:'history',title:'Tình hình kinh tế, văn hóa, tôn giáo trong các thế kỉ XVI - XVIII',questions:buildQuestions('g8-history-09',[
     ["Nông nghiệp Đại Việt trong các thế kỉ XVI–XVIII có đặc điểm nào?","Biến động khác nhau giữa các vùng và thời điểm","Phát triển đồng đều tuyệt đối","Không chịu ảnh hưởng của chiến tranh","Chỉ tồn tại ở vùng ven biển",0,"Nông nghiệp chịu tác động của chiến tranh, thiên tai, chính sách và điều kiện từng vùng."],
