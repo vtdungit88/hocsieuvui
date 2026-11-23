@@ -677,7 +677,7 @@ export const historyGeographyQuizDrafts:HGQuizSet[] = [
     ["Nếu một phát minh làm giảm thời gian vận chuyển hàng hóa, hệ quả nào có thể xuất hiện?","Mở rộng thị trường và trao đổi giữa các vùng","Chấm dứt hoạt động cảng thị","Làm hàng hóa không thể lưu thông","Không ảnh hưởng đến giá thành",0,"Vận tải nhanh hơn hỗ trợ lưu thông và mở rộng thị trường."],
     ["Vì sao một tác phẩm văn học có thể được dùng làm tư liệu lịch sử?","Vì tác phẩm luôn ghi chép chính xác mọi sự kiện","Vì tác phẩm phản ánh quan niệm, đời sống và vấn đề xã hội trong bối cảnh sáng tác","Vì không cần xác định tác giả","Vì mọi chi tiết đều là sự thật trực tiếp",1,"Tác phẩm phản ánh thời đại nhưng cần được đối chiếu với các nguồn khác."],
     ["Nhận định nào bao quát đúng thành tựu thế kỉ XVIII–XIX?","Chỉ có thay đổi trong hội họa","Khoa học và kĩ thuật không liên quan nhau","Khoa học, kĩ thuật, văn học và nghệ thuật cùng chuyển biến, tác động đến đời sống","Mọi lĩnh vực đều ngừng phát triển",2,"Nhiều lĩnh vực tri thức và sáng tạo phát triển đồng thời, làm thay đổi xã hội."]
-  ]),status:'draft'},,
+  ]),status:'draft'},
 
   {lessonId:'g8-history-14',grade:8,strand:'history',title:'Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX',questions:buildQuestions('g8-history-14',[
     ["Trung Quốc phải đối mặt với sức ép xâm lược mạnh từ giữa thế kỉ nào?","Thế kỉ XIX","Thế kỉ XV","Thế kỉ XVII","Thế kỉ XX",0,"Từ giữa thế kỉ XIX, các nước phương Tây gia tăng xâm nhập Trung Quốc."],
