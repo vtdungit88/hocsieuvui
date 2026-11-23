@@ -410,3 +410,13 @@ Cần rà soát vai trò truy cập và thiết kế policy phù hợp trước 
 - Đáp án và giải thích được rà soát nội bộ khi biên soạn, nhưng chưa có phản biện độc lập từ giáo viên/sử gia. Các nội dung về Chăm-pa và Nam Bộ được viết thận trọng, tách lịch sử vương quốc Chăm-pa khỏi lịch sử đa cộng đồng của Nam Bộ.
 - Không import hoặc publish; lớp 6–9 vẫn khóa. Chờ CI trên head mới nhất và tiếp tục hoàn thiện Địa lí 7.
 
+
+
+## 12. Hoàn thành bản nháp Địa lí 7 (bài 1–19) — 23/11/2026
+
+- Địa lí 7 hiện có đủ **19/19 bài nháp** theo manifest; tranche cuối bổ sung bài 14–19: tự nhiên Bắc Mỹ; dân cư, xã hội và khai thác bền vững ở Bắc Mỹ; tự nhiên Trung và Nam Mỹ; dân cư, xã hội và rừng A-ma-dôn; châu Đại Dương; châu Nam Cực.
+- Mỗi bài mới có tóm tắt, mục tiêu, ba phần học liệu và bộ 15 câu hỏi có giải thích. Vị trí đáp án được phân bố thay vì cố định cùng một phương án. Cần tiếp tục kiểm tra chuyên môn từng câu, độ nhiễu và độ phù hợp với bài học.
+- Độ phủ manifest hiện là **87/166 bài**: lớp 6 50/50, Lịch sử 7 18/18, Địa lí 7 19/19. Có 87 bộ quiz manifest-aligned; cộng 8 bộ legacy cấu trúc là **95 bộ / 1.425 câu nháp**.
+- Còn 79 đơn vị: chủ đề chung lớp 7 (2), lớp 8 (33), lớp 9 (44). Các bài tích hợp cần được mô hình hóa đúng phân môn integrated, không ép vào loại Lịch sử hoặc Địa lí.
+- CI đã pass trên tranche trước đó; một lần chạy trên tranche Địa lí mới phát hiện dấu phẩy thừa trong hai mảng TypeScript, đã sửa tại commit tiếp theo. Phải chờ CI chạy lại trên HEAD mới nhất trước khi ghi nhận xanh.
+- Toàn bộ học liệu lớp 6–9 vẫn là draft, chưa được thẩm định độc lập. Không import/publish, không mở khóa và không deploy trong bước này.
