@@ -937,7 +937,7 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       { heading: "Băng hà và sử dụng nước", body: "Băng hà lưu trữ lượng nước ngọt lớn và góp phần điều tiết dòng chảy. Băng tan nhanh do nhiệt độ tăng có thể ảnh hưởng mực nước biển và nguồn nước theo mùa; quản lí tổng hợp nguồn nước giúp giảm rủi ro.", keyPoints: ["Khái quát được ý nghĩa hoặc hệ quả", "Đề xuất cách vận dụng kiến thức phù hợp"], example: "Trình bày một nhận xét có căn cứ từ dữ kiện đã học." }
     ],
     questions: [], status: "draft",
-  }
+  },
   {
     id: "g7-geography-11", grade: 7, strand: "geography", title: "Phương thức con người khai thác, sử dụng và bảo vệ thiên nhiên ở châu Phi",
     summary: "Con người ở châu Phi khai thác thiên nhiên theo những cách khác nhau tùy điều kiện khí hậu, địa hình và tài nguyên. Sử dụng đất, nước, rừng, đồng cỏ và khoáng sản hợp lí có ý nghĩa đối với sinh kế, bảo tồn đa dạng sinh học và phát triển lâu dài.",
