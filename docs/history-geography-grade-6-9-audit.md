@@ -400,3 +400,13 @@ Cần rà soát vai trò truy cập và thiết kế policy phù hợp trước 
 - Validator cập nhật ngưỡng 66 bộ / 990 câu và bắt buộc ba phần học liệu cho 8 bài Lịch sử 7 mới. Nội dung vẫn là draft; kiểm tra tự động không thay thế thẩm định lịch sử độc lập.
 - Nhánh đã đồng bộ ba commit mới nhất từ base bằng merge commit 698f11937c9608313e229976dc67672cd68e9064, không force-push. CI run 222 đã xanh trước đồng bộ; cần chờ CI trên head sau merge và các nội dung mới.
 
+## 11. Hoàn thành bản nháp Lịch sử 7 (bài 9–18) — 23/11/2026
+
+- Đã bổ sung 10 bài Lịch sử 7 còn lại theo đúng manifest: buổi đầu độc lập; Đại Cồ Việt thời Đinh - Tiền Lê; nhà Lý; kháng chiến chống Tống; Đại Việt thời Trần; ba lần kháng chiến chống Mông - Nguyên; nhà Hồ; khởi nghĩa Lam Sơn; Đại Việt thời Lê sơ; Chăm-pa và Nam Bộ.
+- Mỗi bài có tóm tắt, 3 mục tiêu, 3 phần học liệu và ví dụ; mỗi bài có 15 câu hỏi với đáp án và giải thích.
+- **Lịch sử 7 hiện đủ 18/18 bài nháp.** Độ phủ toàn môn là **68/166 bài**: 50 bài lớp 6 và 18 bài Lịch sử 7; 68 bộ quiz theo manifest / 1.020 câu. Cộng 8 bộ legacy / 120 câu, tổng **76 bộ / 1.140 câu nháp**.
+- Còn 98 đơn vị: Địa lí 7 (19) + chủ đề chung 7 (2) + toàn bộ lớp 8 (33) + lớp 9 (44).
+- Validator nâng ngưỡng lên 76 bộ / 1.140 câu và kiểm tra đủ 50 bài lớp 6, 18 bài Lịch sử 7; bắt buộc ba phần học liệu cho 10 bài Lịch sử 7 mới.
+- Đáp án và giải thích được rà soát nội bộ khi biên soạn, nhưng chưa có phản biện độc lập từ giáo viên/sử gia. Các nội dung về Chăm-pa và Nam Bộ được viết thận trọng, tách lịch sử vương quốc Chăm-pa khỏi lịch sử đa cộng đồng của Nam Bộ.
+- Không import hoặc publish; lớp 6–9 vẫn khóa. Chờ CI trên head mới nhất và tiếp tục hoàn thiện Địa lí 7.
+
