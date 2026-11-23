@@ -273,5 +273,61 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
     learningObjectives: ['Mô tả được chuyển động quanh Mặt Trời và thời gian chuyển động của Trái Đất.', 'Giải thích được nguyên nhân hình thành các mùa trong năm.', 'Nhận biết được sự thay đổi độ dài ngày đêm theo mùa và giữa hai bán cầu.'],
     questions: [], status: 'draft',
   },
-
+,
+  {
+    id: "g6-history-09", grade: 6, strand: "history",
+    title: "Trung Quốc từ thời cổ đại đến thế kỉ VII",
+    summary: "Tìm hiểu các trung tâm cư trú sớm ở lưu vực Hoàng Hà và Trường Giang, quá trình thống nhất dưới nhà Tần, các triều đại từ Hán đến Tùy và một số thành tựu văn minh Trung Quốc. Bài học chú ý phân biệt mốc thời gian và vai trò của điều kiện tự nhiên.",
+    learningObjectives: ["Nêu được vai trò của lưu vực Hoàng Hà và Trường Giang đối với văn minh Trung Quốc cổ đại.","Trình bày được mốc thống nhất năm 221 TCN và một số chính sách của nhà Tần.","Sắp xếp được các triều đại, thời kì chính từ nhà Hán đến nhà Tùy và nhận biết thành tựu văn minh tiêu biểu."],
+    questions: [], status: 'draft',
+  },
+  {
+    id: "g6-history-10", grade: 6, strand: "history",
+    title: "Hy Lạp và La Mã cổ đại",
+    summary: "Khám phá ảnh hưởng của địa hình, biển và hải cảng đến kinh tế Hy Lạp, La Mã; tìm hiểu nhà nước thành bang ở Hy Lạp và các giai đoạn chính của nhà nước La Mã. Bài học giới thiệu một số đóng góp văn hóa, khoa học, kiến trúc và luật pháp của hai nền văn minh.",
+    learningObjectives: ["Giải thích được tác động của điều kiện tự nhiên và vị trí ven biển đối với hoạt động kinh tế.","Mô tả được nét chính của nhà nước thành bang Hy Lạp và các giai đoạn phát triển của La Mã.","Nêu được một số thành tựu văn hóa tiêu biểu và nhận xét ảnh hưởng của chúng."],
+    questions: [], status: 'draft',
+  },
+  {
+    id: "g6-history-11", grade: 6, strand: "history",
+    title: "Các quốc gia sơ kì ở Đông Nam Á",
+    summary: "Tìm hiểu cơ sở hình thành các quốc gia sơ kì ở Đông Nam Á trong những thế kỉ trước và đầu Công nguyên. Bài học kết nối nông nghiệp lúa nước, nghề thủ công, điều kiện sông ngòi - biển đảo với giao lưu thương mại và văn hóa trong khu vực.",
+    learningObjectives: ["Nêu được một số điều kiện tự nhiên và kinh tế góp phần hình thành quốc gia sơ kì ở Đông Nam Á.","Kể tên được một số quốc gia sơ kì tiêu biểu, trong đó có Văn Lang - Âu Lạc, Chăm-pa và Phù Nam.","Dựa vào hiện vật và dấu tích khảo cổ để nhận biết hoạt động giao lưu thương mại của khu vực."],
+    questions: [], status: 'draft',
+  },
+  {
+    id: "g6-history-12", grade: 6, strand: "history",
+    title: "Sự hình thành và bước đầu phát triển của các vương quốc phong kiến ở Đông Nam Á (từ thế kỉ VII đến thế kỉ X)",
+    summary: "Khái quát sự xuất hiện của các vương quốc phong kiến ở Đông Nam Á từ thế kỉ VII đến thế kỉ X, gắn với những cộng đồng cư dân và không gian sông ngòi, đảo, eo biển. Bài học nhấn mạnh nông nghiệp, thương mại đường biển và sự tiếp biến văn hóa.",
+    learningObjectives: ["Nêu được một số vương quốc phong kiến tiêu biểu hình thành ở Đông Nam Á trong thế kỉ VII–X và khu vực phân bố.","Trình bày được vai trò của nông nghiệp, thủ công nghiệp và thương mại đối với sự phát triển của các vương quốc.","Phân tích được tác động của giao lưu thương mại và văn hóa đối với khu vực."],
+    questions: [], status: 'draft',
+  },
+  {
+    id: "g6-geography-09", grade: 6, strand: "geography",
+    title: "Xác định phương hướng ngoài thực tế",
+    summary: "Vận dụng la bàn và các dấu hiệu định hướng quen thuộc để xác định phương hướng khi ở ngoài thực tế. Học sinh luyện cách lấy hướng Bắc làm mốc, xác định các hướng còn lại và kết hợp phương hướng với bản đồ, địa vật.",
+    learningObjectives: ["Xác định được bốn hướng chính và bốn hướng phụ.","Sử dụng được la bàn theo đúng nguyên tắc đặt và đọc hướng.","Kết hợp được la bàn, bản đồ và địa vật để mô tả hướng di chuyển."],
+    questions: [], status: 'draft',
+  },
+  {
+    id: "g6-geography-10", grade: 6, strand: "geography",
+    title: "Cấu tạo của Trái Đất. Các mảng kiến tạo",
+    summary: "Tìm hiểu cấu tạo bên trong Trái Đất gồm vỏ, man-ti và nhân; so sánh khái quát độ dày, trạng thái và nhiệt độ của các lớp. Bài học giới thiệu các mảng kiến tạo lớn, chuyển động chậm và một số dạng tiếp xúc giữa các mảng.",
+    learningObjectives: ["Trình bày được cấu tạo ba lớp của Trái Đất và đặc điểm khái quát của từng lớp.","Nhận biết được một số mảng kiến tạo lớn trên lược đồ.","Giải thích sơ bộ mối liên hệ giữa ranh giới mảng với núi, động đất và núi lửa."],
+    questions: [], status: 'draft',
+  },
+  {
+    id: "g6-geography-11", grade: 6, strand: "geography",
+    title: "Quá trình nội sinh và quá trình ngoại sinh. Hiện tượng tạo núi",
+    summary: "Phân biệt các quá trình diễn ra bên trong Trái Đất với các quá trình tác động trên bề mặt. Bài học làm rõ việc nội sinh có thể nâng, uốn nếp hoặc làm đứt gãy địa hình, trong khi ngoại sinh phong hóa, xâm thực, vận chuyển và bồi tụ; hai nhóm quá trình có thể diễn ra đồng thời.",
+    learningObjectives: ["Phân biệt được quá trình nội sinh và quá trình ngoại sinh.","Nêu được một số biểu hiện và tác động của từng quá trình đối với địa hình.","Giải thích được tác động đồng thời của nội sinh và ngoại sinh trong quá trình hình thành, biến đổi núi."],
+    questions: [], status: 'draft',
+  },
+  {
+    id: "g6-geography-12", grade: 6, strand: "geography",
+    title: "Núi lửa và động đất",
+    summary: "Tìm hiểu núi lửa, động đất và mối liên hệ của chúng với hoạt động bên trong Trái Đất, đặc biệt ở ranh giới các mảng kiến tạo. Bài học nhận diện tác động hai mặt của núi lửa và ý nghĩa của theo dõi cảnh báo, tuân thủ hướng dẫn an toàn.",
+    learningObjectives: ["Mô tả được hiện tượng núi lửa phun trào và động đất ở mức độ phù hợp lớp 6.","Nêu được nguyên nhân khái quát và mối liên hệ với các mảng kiến tạo.","Nhận biết được tác động và vai trò của cảnh báo, hướng dẫn ứng phó thiên tai."],
+    questions: [], status: 'draft',
+  }
 ];
