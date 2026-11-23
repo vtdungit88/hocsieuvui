@@ -51,3 +51,12 @@ These are secondary TOC references; verify titles, counts and learning outcomes 
 - [ ] Desktop, tablet and phone preview verified.
 - [ ] CI green on the final head; PR approved and merged only after gates pass.
 - [ ] Production deployment verified at https://vnptluongson.cloud without enabling incomplete grade 6–9 content.
+
+
+## Status update — 23/11/2026
+
+This document records the initial readiness audit and its eight-sample baseline. That baseline is superseded by the current audit in [history-geography-grade-6-9-audit.md](history-geography-grade-6-9-audit.md).
+
+At this update, the canonical manifest contains 166 learning units. All 50 Grade 6 lessons (20 History + 30 Geography) now have manifest-aligned draft lesson material and 15-question draft packs each. Grades 7–9 and the six integrated topics remain incomplete. The current total is 50/166 manifest-aligned packs (750 questions) plus eight legacy structural samples (120 questions), for 870 draft questions. This is not an approval or a publication state.
+
+The Grade 6 material has not yet received independent subject-matter review. CI shape checks cannot prove factual correctness or answer-key accuracy. Grade 6–9 remain locked in the catalog; no Grade 6–9 content has been imported to production. Supabase has no development branch, and production is not an acceptable substitute for staging.
