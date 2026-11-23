@@ -5,7 +5,8 @@ import { historyGeographyQuizDrafts } from '../src/data/historyGeographyQuizDraf
 import { geographyQuizDrafts } from '../src/data/historyGeographyGeographyQuizDrafts';
 
 const quizSets = [...historyGeographyQuizDrafts, ...geographyQuizDrafts];
-const lessonIds = new Set(historyGeographyLessonDrafts.map((lesson) => lesson.id));
+const lessonById = new Map(historyGeographyLessonDrafts.map((lesson) => [lesson.id, lesson]));
+const lessonIds = new Set(lessonById.keys());
 const quizLessonIds = new Set<string>();
 const questionIds = new Set<string>();
 const expectedLevels = { basic: 11, application: 3, challenge: 1 };
@@ -21,6 +22,10 @@ for (const grade of [6, 7, 8, 9] as const) {
 
 for (const set of quizSets) {
   assert.ok(lessonIds.has(set.lessonId), `Quiz set has no matching lesson draft: ${set.lessonId}`);
+  const mappedLesson = lessonById.get(set.lessonId)!;
+  assert.equal(set.grade, mappedLesson.grade, `${set.lessonId} grade mismatch between quiz and lesson`);
+  assert.equal(set.strand, mappedLesson.strand, `${set.lessonId} strand mismatch between quiz and lesson`);
+  assert.equal(set.title.trim(), mappedLesson.title.trim(), `${set.lessonId} title mismatch between quiz and lesson`);
   assert.ok(!quizLessonIds.has(set.lessonId), `Duplicate quiz set for lesson: ${set.lessonId}`);
   quizLessonIds.add(set.lessonId);
   assert.equal(set.questions.length, 15, `${set.lessonId} must contain 15 questions`);
