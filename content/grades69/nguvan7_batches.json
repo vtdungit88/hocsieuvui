@@ -1,0 +1,3295 @@
+[
+  {
+    "chapter": "nguvan7-c1",
+    "lesson": {
+      "code": "nguvan7-b01",
+      "title": "Bài 1. Bầu trời tuổi thơ",
+      "seq": 1,
+      "subtitle": "Đọc hiểu truyện về tuổi thơ (Bầy chim chìa vôi – Nguyễn Quang Thiều, Đi lấy mật – Đoàn Giỏi, Ngàn sao làm việc – Võ Quảng), mở rộng trạng ngữ và mở rộng thành phần chính bằng cụm từ, tóm tắt văn bản theo những yêu cầu khác nhau về độ dài",
+      "concepts": [
+        "Đọc hiểu truyện ngắn tuổi thơ",
+        "Mở rộng thành phần câu",
+        "Tóm tắt theo yêu cầu độ dài"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV7-B01-001",
+        "d": "basic",
+        "p": "Truyện ngắn \"Bầy chim chìa vôi\" kể về hai anh em Mên và Mon trong đêm mưa lo lắng cho tổ chim non ngoài bãi sông là sáng tác của nhà văn nào?",
+        "o": [
+          "Đoàn Giỏi",
+          "Võ Quảng",
+          "Nguyễn Quang Thiều",
+          "Tô Hoài"
+        ],
+        "k": "C",
+        "e": "\"Bầy chim chìa vôi\" là truyện ngắn giàu chất thơ về lòng nhân hậu tuổi thơ của nhà văn Nguyễn Quang Thiều.",
+        "s": "Ngữ Văn 7",
+        "h": "Tác giả Bài 1 Ngữ văn 7",
+        "fig": {
+          "type": "table",
+          "title": "Tác phẩm Bài 1 (NV7)",
+          "head": [
+            "Văn bản",
+            "Tác giả",
+            "Thể loại"
+          ],
+          "rows": [
+            [
+              "Bầy chim chìa vôi",
+              "Ng. Quang Thiều",
+              "Truyện ngắn"
+            ],
+            [
+              "Đi lấy mật",
+              "Đoàn Giỏi",
+              "Tiểu thuyết"
+            ],
+            [
+              "Ngàn sao làm việc",
+              "Võ Quảng",
+              "Thơ năm chữ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV7-B01-002",
+        "d": "basic",
+        "p": "Văn bản \"Đi lấy mật\" trong Ngữ văn 7 được trích từ tiểu thuyết nổi tiếng nào viết về thiên nhiên và con người Nam Bộ?",
+        "o": [
+          "Tuổi thơ im lặng (Duy Khán)",
+          "Đất rừng phương Nam (Đoàn Giỏi)",
+          "Dế Mèn phiêu lưu kí (Tô Hoài)",
+          "Quê nội (Võ Quảng)"
+        ],
+        "k": "B",
+        "e": "\"Đi lấy mật\" trích chương 9 tiểu thuyết \"Đất rừng phương Nam\" của nhà văn Đoàn Giỏi.",
+        "s": "Ngữ Văn 7",
+        "h": "Xuất xứ văn bản Đi lấy mật"
+      },
+      {
+        "c": "NV7-B01-003",
+        "d": "basic",
+        "p": "Trong đoạn trích \"Đi lấy mật\", ba nhân vật đi vào rừng U Minh lấy mật ong rừng gồm những ai?",
+        "o": [
+          "Hai anh em Mên và Mon cùng bác lái đò",
+          "Thầy giáo Thứ và hai học trò nhỏ",
+          "Cậu bé Sơn, chị Lan và bà ngoại",
+          "Tía nuôi, cậu bé An và Cò"
+        ],
+        "k": "D",
+        "e": "Tía nuôi dẫn cậu bé An và thằng Cò vào rừng U Minh \"ăn ong\", giúp An khám phá kì thú thiên nhiên phương Nam.",
+        "s": "Ngữ Văn 7",
+        "h": "Nhân vật trong Đi lấy mật"
+      },
+      {
+        "c": "NV7-B01-004",
+        "d": "basic",
+        "p": "Theo đoạn trích \"Đi lấy mật\", điểm độc đáo trong cách nuôi và lấy mật ong của người dân U Minh là gì?",
+        "o": [
+          "Nuôi ong trong các hộp nhựa đặt giữa phòng khách trong nhà",
+          "Đốt cháy cả khu rừng để xua đuổi toàn bộ đàn ong bay đi nơi khác",
+          "Chỉ thu hoạch mật vào giữa mùa đông giá rét khi ong ngủ đông",
+          "Dùng kèo ong gác trên cây tràm và chỉ cắt phần mật thừa, để lại phần sáp non và ấu trùng cho đàn ong tiếp tục phát triển"
+        ],
+        "k": "D",
+        "e": "Cách \"ăn ong\" nhân văn của người dân U Minh vừa khéo léo vừa giữ gìn sự sinh sôi của tự nhiên.",
+        "s": "Ngữ Văn 7",
+        "h": "Nét văn hóa gác kèo ong U Minh"
+      },
+      {
+        "c": "NV7-B01-005",
+        "d": "basic",
+        "p": "Trong câu: \"Ngoài bãi sông mênh mông nước lũ, bầy chim chìa vôi non vẫn bình an cất cánh\", cụm từ đứng trước dấu phẩy là thành phần câu nào được mở rộng bằng cụm từ?",
+        "o": [
+          "Thành phần gọi đáp",
+          "Trạng ngữ chỉ địa điểm",
+          "Chủ ngữ của câu",
+          "Vị ngữ chỉ hành động"
+        ],
+        "k": "B",
+        "e": "\"Ngoài bãi sông mênh mông nước lũ\" là cụm giới từ mở rộng làm trạng ngữ chỉ nơi chốn.",
+        "s": "Ngữ Văn 7",
+        "h": "Mở rộng trạng ngữ bằng cụm từ"
+      },
+      {
+        "c": "NV7-B01-006",
+        "d": "basic",
+        "p": "Bài thơ \"Ngàn sao làm việc\" của nhà thơ Võ Quảng miêu tả bầu trời đêm qua lăng kính nào?",
+        "o": [
+          "Trí tưởng tượng hồn nhiên của em nhỏ nhìn vạn vật đang hăng say lao động vui tươi trong đêm",
+          "Nỗi sợ hãi trước bóng tối mịt mùng của rừng sâu",
+          "Bản ghi chép thiên văn khô khan về khoảng cách các hành tinh",
+          "Lời than phiền vì phải thức khuya làm bài tập"
+        ],
+        "k": "A",
+        "e": "Dải Ngân Hà như dòng sông, thần Nông như chiếc gầu tát nước, sao Hôm như đuốc sáng — tất cả đều \"làm việc\" hăng say.",
+        "s": "Ngữ Văn 7",
+        "h": "Cảm hứng bài thơ Ngàn sao làm việc"
+      },
+      {
+        "c": "NV7-B01-007",
+        "d": "application",
+        "p": "Trong \"Bầy chim chìa vôi\", chi tiết hai anh em Mên và Mon chèo đò ra giữa dòng sông đêm mưa tầm tã để cứu bầy chim non thể hiện phẩm chất gì?",
+        "o": [
+          "Sự nghịch ngợm liều lĩnh bất chấp lời khuyên để khoe thành tích",
+          "Ý định bắt bầy chim non đem ra chợ bán lấy tiền",
+          "Nỗi chán ghét cuộc sống gia đình nên bỏ đi giữa đêm",
+          "Tấm lòng nhân hậu, dũng cảm, yêu thương và trân trọng sự sống bé nhỏ quanh mình"
+        ],
+        "k": "D",
+        "e": "Dù còn nhỏ tuổi và có chút sợ hãi trước sông đêm, tình thương loài vật đã thôi thúc Mên và Mon hành động cao đẹp.",
+        "s": "Ngữ Văn 7",
+        "h": "Phẩm chất nhân vật Mên và Mon"
+      },
+      {
+        "c": "NV7-B01-008",
+        "d": "application",
+        "p": "Vì sao khi nhìn bầy chim chìa vôi cất cánh vút lên từ dải cát ngập nước lúc bình minh, Mên và Mon bỗng \"lặng đi\" và khóc?",
+        "o": [
+          "Vì sợ bị bố mắng do tự ý đẩy đò ra giữa dòng sông",
+          "Vì tiếc nuối không kịp dùng lưới bắt được chú chim nào",
+          "Vì quá xúc động, vỡ òa hạnh phúc trước phép màu kì diệu của bản năng sinh tồn và sự sống tự do",
+          "Vì bị ướt mưa lạnh quá nên bật khóc đòi về nhà ngay"
+        ],
+        "k": "C",
+        "e": "Giọt nước mắt im lặng của hai anh em là sự giao cảm thiêng liêng giữa tâm hồn tuổi thơ với vẻ đẹp kì diệu của thiên nhiên.",
+        "s": "Ngữ Văn 7",
+        "h": "Ý nghĩa chi tiết kết thúc truyện"
+      },
+      {
+        "c": "NV7-B01-009",
+        "d": "application",
+        "p": "Đọc câu văn: \"Bầy chim chìa vôi vừa mới đủ lông cánh đã bay lên khỏi mặt nước đục ngầu\". So với câu \"Chim đã bay lên\", câu mở rộng thành phần chính đem lại hiệu quả gì?",
+        "o": [
+          "Làm rõ đối tượng (bầy chim chìa vôi non nớt), thời điểm vừa kịp trưởng thành và bối cảnh không gian mặt nước đầy thử thách",
+          "Làm sai lệch ngữ pháp cơ bản của câu trần thuật tiếng Việt",
+          "Biến câu miêu tả thành một câu hỏi nghi vấn không có đáp án",
+          "Thu gọn dung lượng thông tin khiến người đọc khó hình dung"
+        ],
+        "k": "A",
+        "e": "Mở rộng chủ ngữ và vị ngữ bằng cụm từ làm bức tranh miêu tả giàu hình ảnh, cảm xúc và chi tiết cụ thể hơn.",
+        "s": "Ngữ Văn 7",
+        "h": "Tác dụng mở rộng thành phần chính"
+      },
+      {
+        "c": "NV7-B01-010",
+        "d": "application",
+        "p": "Khi đề bài yêu cầu tóm tắt một văn bản tự sự theo hai độ dài khác nhau (ví dụ: bản ngắn khoảng 50 chữ và bản dài khoảng 150 chữ), nguyên tắc quan trọng nhất là gì?",
+        "o": [
+          "Bản dài chép nguyên văn 50% đoạn đầu của sách giáo khoa và bỏ đoạn cuối",
+          "Bản ngắn giữ đúng nội dung gốc còn bản dài tự do sáng tác thêm kết thúc mới hoàn toàn khác",
+          "Bản ngắn chỉ giữ cốt lõi nhân vật và sự kiện bước ngoặt; bản dài giữ thêm sự việc phụ quan trọng nhưng đều phải trung thành với văn bản gốc",
+          "Cả hai bản đều chỉ nêu tên tác giả mà không cần kể diễn biến sự việc"
+        ],
+        "k": "C",
+        "e": "Tóm tắt ở mọi độ dài đều phải bảo đảm tính chính xác, mạch lạc, giữ đúng mạch sự kiện chính của tác phẩm.",
+        "s": "Ngữ Văn 7",
+        "h": "Kĩ năng tóm tắt theo độ dài"
+      },
+      {
+        "c": "NV7-B01-011",
+        "d": "application",
+        "p": "Trong đoạn trích \"Đi lấy mật\", cậu bé An khác với thằng Cò ở điểm nào khi cùng đi giữa rừng U Minh?",
+        "o": [
+          "An không hề thích thiên nhiên rừng núi còn Cò lại rất sợ côn trùng",
+          "Cò lớn hơn An tới hai mươi tuổi và là thầy giáo dạy sinh học",
+          "An là cậu bé thành thị mới về rừng nên hay ngỡ ngàng, tò mò, giàu liên tưởng; còn Cò sinh ra ở rừng nên am hiểu thạo việc và tinh mắt hơn",
+          "An đã biết cách gác kèo ong từ nhỏ còn Cò chưa từng vào rừng"
+        ],
+        "k": "C",
+        "e": "Sự tương phản giữa hai đứa trẻ tạo nét đáng yêu cho tình bạn và làm nổi bật vẻ đẹp phong phú của rừng phương Nam.",
+        "s": "Ngữ Văn 7",
+        "h": "So sánh nhân vật An và Cò"
+      },
+      {
+        "c": "NV7-B01-012",
+        "d": "application",
+        "p": "Câu thơ \"Bóng chiều tỏa xuống / Ngàn sao làm việc / Đèn trời lung linh\" trong bài thơ Võ Quảng dùng biện pháp tu từ nào để biến bầu trời đêm thành bức tranh lao động ấm áp?",
+        "o": [
+          "Liệt kê các loại dụng cụ học tập quen thuộc trong cặp sách",
+          "Nhân hóa kết hợp ẩn dụ (\"ngàn sao làm việc\", \"đèn trời\")",
+          "Hoán dụ bộ phận lấy chiếc áo thay cho cả con người",
+          "Nói giảm nói tránh nhằm che bớt sự vất vả của người nông dân"
+        ],
+        "k": "B",
+        "e": "Các vì sao được nhân hóa như những người bạn chăm chỉ lao động dưới ánh \"đèn trời\" lấp lánh.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân tích tu từ trong thơ Võ Quảng"
+      },
+      {
+        "c": "NV7-B01-013",
+        "d": "advanced",
+        "p": "Trong \"Đi lấy mật\", nhà văn Đoàn Giỏi đã sử dụng ngôn ngữ địa phương Nam Bộ (như \"tía nuôi\", \"kèo\", \"chàng hiu\", \"củ riềng\") một cách vừa phải. Cách dùng từ này có giá trị nghệ thuật gì?",
+        "o": [
+          "Thay thế hoàn toàn ngữ pháp tiếng Việt bằng một ngoại ngữ khác",
+          "Tạo sắc thái chân thực, đậm đà bản sắc vùng đất rừng phương Nam mà vẫn giữ được vẻ trong sáng, dễ cảm nhận cho độc giả cả nước",
+          "Làm văn bản trở nên khó hiểu đối với mọi học sinh ngoài miền Tây",
+          "Chứng tỏ nhân vật tía nuôi không biết nói tiếng phổ thông"
+        ],
+        "k": "B",
+        "e": "Từ ngữ địa phương chọn lọc đúng chỗ thổi hồn \"địa phương sắc\" sống động vào tác phẩm văn học.",
+        "s": "Ngữ Văn 7",
+        "h": "Giá trị từ ngữ địa phương"
+      },
+      {
+        "c": "NV7-B01-014",
+        "d": "advanced",
+        "p": "Tại sao trong \"Bầy chim chìa vôi\", tác giả Nguyễn Quang Thiều dành nhiều dòng miêu tả cuộc trò chuyện ngây thơ của Mên và Mon ở đầu truyện trước khi kể cảnh ra sông lúc rạng sáng?",
+        "o": [
+          "Để khắc họa tâm lí trẻ thơ vừa hồn nhiên vừa giàu trắc ẩn, tạo độ dồn nén cảm xúc hợp lí cho hành động chèo đò đầy dũng cảm về sau",
+          "Vì tác giả quên mất cốt truyện chính nên kể lan man sang chuyện gia đình",
+          "Để chứng minh rằng hai anh em thường xuyên cãi nhau không hòa thuận",
+          "Để giới thiệu chi tiết giá bán từng chiếc đò gỗ ở làng chài"
+        ],
+        "k": "A",
+        "e": "Lời thoại ban đầu hé lộ nỗi lo lắng âm thầm từ nửa đêm, khiến khoảnh khắc bình minh chim bay lên trở nên vỡ òa.",
+        "s": "Ngữ Văn 7",
+        "h": "Nghệ thuật xây dựng mạch truyện"
+      },
+      {
+        "c": "NV7-B01-015",
+        "d": "advanced",
+        "p": "Điểm gặp gỡ sâu sắc nhất giữa \"Bầy chim chìa vôi\" (Bắc Bộ), \"Đi lấy mật\" (Nam Bộ) và \"Ngàn sao làm việc\" (miền Trung) trong Bài 1 là gì?",
+        "o": [
+          "Cả ba tác phẩm đều kể về những chuyến du hành ra ngoài vũ trụ bằng tàu tên lửa",
+          "Cả ba tác phẩm đều kết thúc bằng cuộc thi tài giữa các loài chim",
+          "Cả ba tác phẩm đều là truyện cổ tích có nhân vật ông Bụt xuất hiện giúp đỡ",
+          "Vẻ đẹp trong trẻo của tâm hồn tuổi thơ khi biết rung động trước thiên nhiên, yêu thương muôn loài và hòa mình vào nhịp sống lao động của quê hương"
+        ],
+        "k": "D",
+        "e": "Tuổi thơ gắn với thiên nhiên tươi đẹp và lòng nhân hậu là sợi chỉ đỏ xuyên suốt Bài 1 \"Bầu trời tuổi thơ\".",
+        "s": "Ngữ Văn 7",
+        "h": "Kết nối chủ đề toàn bài"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan7-c1",
+    "lesson": {
+      "code": "nguvan7-b02",
+      "title": "Bài 2. Khúc nhạc tâm hồn",
+      "seq": 2,
+      "subtitle": "Đọc hiểu thơ bốn chữ, năm chữ (Đồng dao mùa xuân – Nguyễn Khoa Điềm, Gặp lá cơm nếp – Thanh Thảo, Trở gió – Nguyễn Ngọc Tư), biện pháp tu từ nói giảm nói tránh, viết đoạn văn ghi lại cảm xúc sau khi đọc một bài thơ bốn chữ hoặc năm chữ",
+      "concepts": [
+        "Thơ bốn chữ, năm chữ: nhịp, vần, hình ảnh",
+        "Biện pháp nói giảm nói tránh",
+        "Đoạn văn cảm xúc bài thơ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV7-B02-001",
+        "d": "basic",
+        "p": "Bài thơ \"Đồng dao mùa xuân\" viết bằng thể thơ bốn chữ về hình ảnh người lính trẻ mãi tuổi đôi mươi là sáng tác của nhà thơ nào?",
+        "o": [
+          "Thanh Thảo",
+          "Xuân Quỳnh",
+          "Hữu Thỉnh",
+          "Nguyễn Khoa Điềm"
+        ],
+        "k": "D",
+        "e": "Nhà thơ Nguyễn Khoa Điềm viết \"Đồng dao mùa xuân\" với giọng điệu dung dị như khúc hát đồng dao tri ân người lính.",
+        "s": "Ngữ Văn 7",
+        "h": "Tác giả Đồng dao mùa xuân",
+        "fig": {
+          "type": "table",
+          "title": "Thơ 4–5 Chữ & Tản Văn (Bài 2)",
+          "head": [
+            "Văn bản",
+            "Tác giả",
+            "Thể loại"
+          ],
+          "rows": [
+            [
+              "Đồng dao mùa xuân",
+              "Ng. Khoa Điềm",
+              "Thơ bốn chữ"
+            ],
+            [
+              "Gặp lá cơm nếp",
+              "Thanh Thảo",
+              "Thơ năm chữ"
+            ],
+            [
+              "Trở gió",
+              "Nguyễn Ngọc Tư",
+              "Tản văn"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV7-B02-002",
+        "d": "basic",
+        "p": "Bài thơ năm chữ \"Gặp lá cơm nếp\" của Thanh Thảo gợi nhắc nỗi nhớ tha thiết nào của người con trên đường hành quân?",
+        "o": [
+          "Nỗi nhớ con thuyền đánh cá ngoài khơi xa",
+          "Nỗi nhớ sân trường và tiếng trống khai giảng đầu năm",
+          "Nỗi nhớ phố phường rực rỡ ánh đèn neon",
+          "Nỗi nhớ mẹ và mùi xôi mùa gặt quê hương qua hương thơm lá cơm nếp"
+        ],
+        "k": "D",
+        "e": "Mùi hương lá cơm nếp bên bếp lửa Trường Sơn khơi dậy hình bóng người mẹ tảo tần và tình yêu đất nước.",
+        "s": "Ngữ Văn 7",
+        "h": "Nội dung bài Gặp lá cơm nếp"
+      },
+      {
+        "c": "NV7-B02-003",
+        "d": "basic",
+        "p": "Thể thơ bốn chữ và thể thơ năm chữ có đặc điểm nhịp điệu nào phổ biến?",
+        "o": [
+          "Mỗi bài chỉ được viết đúng 4 dòng theo luật Đường thi",
+          "Không bao giờ được phép sử dụng thanh bằng ở cuối dòng thơ",
+          "Số tiếng mỗi dòng là 4 hoặc 5, thường ngắt nhịp 2/2 (thơ bốn chữ) hoặc 2/3, 3/2 (thơ năm chữ), gieo vần linh hoạt (vần chân, vần liền hoặc vần cách)",
+          "Mỗi câu bắt buộc xen kẽ một dòng 6 tiếng và một dòng 8 tiếng"
+        ],
+        "k": "C",
+        "e": "Nhịp điệu ngắn gọn, linh hoạt của thơ 4 chữ, 5 chữ rất thích hợp để thể hiện cảm xúc tự nhiên, trong trẻo.",
+        "s": "Ngữ Văn 7",
+        "h": "Đặc trưng thơ 4 chữ và 5 chữ"
+      },
+      {
+        "c": "NV7-B02-004",
+        "d": "basic",
+        "p": "Trong câu thơ: \"Anh không về nữa / Anh ở lại rừng\", việc dùng cách nói \"ở lại rừng\" thay cho từ \"hi sinh\" hoặc \"chết\" thuộc biện pháp tu từ nào?",
+        "o": [
+          "Liệt kê tăng cấp",
+          "Nói giảm nói tránh",
+          "Nói quá phóng đại",
+          "Chơi chữ đồng âm"
+        ],
+        "k": "B",
+        "e": "Nói giảm nói tránh dùng cách diễn đạt tế nhị, uyển chuyển để tránh gây cảm giác quá đau thương, nặng nề.",
+        "s": "Ngữ Văn 7",
+        "h": "Khái niệm nói giảm nói tránh"
+      },
+      {
+        "c": "NV7-B02-005",
+        "d": "basic",
+        "p": "Tản văn \"Trở gió\" của nhà văn Nguyễn Ngọc Tư viết về tâm trạng gắn liền với ngọn gió đặc trưng nào của vùng đất Nam Bộ?",
+        "o": [
+          "Gió lốc xoáy ngoài đại dương xa xôi",
+          "Bão tuyết lạnh giá vùng Bắc Cực",
+          "Gió Lào khô nóng thổi qua dãy Trường Sơn",
+          "Gió chướng (ngọn gió mùa báo hiệu sắp sang năm mới, gợi bao hoài niệm quê hương)"
+        ],
+        "k": "D",
+        "e": "Mỗi độ gió chướng về trên miền sông nước Nam Bộ lại khơi dậy trong lòng người nỗi bồi hồi nhớ Tết, nhớ người thân.",
+        "s": "Ngữ Văn 7",
+        "h": "Hình ảnh trung tâm tản văn Trở gió"
+      },
+      {
+        "c": "NV7-B02-006",
+        "d": "basic",
+        "p": "Khi viết đoạn văn ghi lại cảm xúc sau khi đọc một bài thơ bốn chữ hoặc năm chữ, dung lượng và bố cục hình thức chuẩn là gì?",
+        "o": [
+          "Một đoạn văn hoàn chỉnh (lùi đầu dòng ở chữ đầu tiên, viết liền mạch không xuống dòng giữa đoạn) gồm mở đoạn, thân đoạn và kết đoạn",
+          "Chỉ viết một câu duy nhất gồm tên bài thơ và năm sáng tác",
+          "Chia thành năm chương dài như một cuốn tiểu thuyết trinh thám",
+          "Viết dưới dạng gạch đầu dòng các công thức ngữ pháp khô khan"
+        ],
+        "k": "A",
+        "e": "Đoạn văn biểu cảm cần liền mạch về hình thức, có câu mở đoạn nêu tên bài thơ/tác giả/cảm xúc chung, thân đoạn phân tích chi tiết và kết đoạn khái quát.",
+        "s": "Ngữ Văn 7",
+        "h": "Hình thức đoạn văn cảm xúc thơ"
+      },
+      {
+        "c": "NV7-B02-007",
+        "d": "application",
+        "p": "Trong \"Đồng dao mùa xuân\", vì sao nhà thơ viết về một người lính đã hi sinh nhưng vẫn giữ giọng điệu nhẹ nhàng, trong trẻo như khúc đồng dao (\"Có một người lính / Đi vào núi xanh / Những năm máu lửa\")?",
+        "o": [
+          "Vì đây là bài hát vui nhộn dành riêng cho trò chơi kéo co",
+          "Vì nhà thơ không biết câu chuyện chiến tranh có thật hay không",
+          "Để khắc họa vẻ đẹp thanh xuân bất tử, bình dị mà cao cả của người lính hòa vào thiên nhiên đất nước, làm nỗi đau trở nên lắng sâu, thanh cao",
+          "Vì người lính đó chỉ đi dạo chơi ngắm cảnh rừng núi một ngày rồi về"
+        ],
+        "k": "C",
+        "e": "Chất \"đồng dao\" biến sự hi sinh thành khúc hát trường tồn trong lòng dân tộc, vừa xót thương vừa tự hào.",
+        "s": "Ngữ Văn 7",
+        "h": "Giá trị giọng điệu Đồng dao mùa xuân"
+      },
+      {
+        "c": "NV7-B02-008",
+        "d": "application",
+        "p": "Hình ảnh người mẹ hiện lên như thế nào qua hai dòng thơ trong \"Gặp lá cơm nếp\": \"Mẹ ở đâu, chiều nay / Nhặt lá về đun bếp\"?",
+        "o": [
+          "Đang tham gia chuyến thám hiểm trên đỉnh núi cao xa xôi",
+          "Sang trọng, quyền quý sống trong cung điện lộng lẫy",
+          "Tần tảo, giản dị, lam lũ nơi quê nhà nhưng luôn gắn bó với làn khói bếp ấm áp và tình thương con âm thầm",
+          "Thờ ơ, không quan tâm đến bữa cơm gia đình"
+        ],
+        "k": "C",
+        "e": "Chỉ một nét vẽ \"nhặt lá về đun bếp\" đã gợi trọn nỗi vất vả, thân thương của người mẹ Việt Nam.",
+        "s": "Ngữ Văn 7",
+        "h": "Cảm nhận hình ảnh người mẹ"
+      },
+      {
+        "c": "NV7-B02-009",
+        "d": "application",
+        "p": "Đọc hai câu kết của \"Gặp lá cơm nếp\": \"Ôi mùi vị quê hương / Con quên làm sao được / Mẹ già và đất nước / Chia đều nỗi nhớ thương\". Hai chữ \"chia đều\" biểu lộ điều gì?",
+        "o": [
+          "Người con muốn chia đôi tài sản của gia đình cho bạn bè cùng đơn vị",
+          "Tình yêu gia đình (mẹ già) và tình yêu Tổ quốc (đất nước) hòa quyện làm một, sâu nặng ngang nhau trong trái tim người chiến sĩ",
+          "Người con chỉ nhớ quê hương vào những ngày có nắng đẹp",
+          "Người con đang so sánh xem mẹ hay đồng đội quan trọng hơn"
+        ],
+        "k": "B",
+        "e": "Từ một chiếc lá cơm nếp, nỗi nhớ mẹ nâng lên thành tình yêu đất nước thiêng liêng.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân tích hai câu kết Gặp lá cơm nếp"
+      },
+      {
+        "c": "NV7-B02-010",
+        "d": "application",
+        "p": "Câu văn nào dưới đây sử dụng biện pháp nói giảm nói tránh một cách phù hợp và nhân văn nhất?",
+        "o": [
+          "Cụ già đã chết ngoắc ngay tại chỗ vào sáng sớm hôm qua.",
+          "Do làm bài ẩu quá nên bạn ấy bị điểm kém nhất cả khối.",
+          "Cái áo này vừa cũ kĩ vừa xấu xí chẳng ai thèm mặc nữa.",
+          "Cụ già đã yên nghỉ thanh thản bên con cháu sau một đời lao động tận tụy."
+        ],
+        "k": "D",
+        "e": "\"Yên nghỉ thanh thản\" là cách nói giảm nói tránh trang trọng, dịu nhẹ thay cho từ \"chết\".",
+        "s": "Ngữ Văn 7",
+        "h": "Vận dụng nói giảm nói tránh"
+      },
+      {
+        "c": "NV7-B02-011",
+        "d": "application",
+        "p": "Trong tản văn \"Trở gió\", chi tiết \"ăn trái cây mùa gió chướng\" hay nhớ lại cảm giác nôn nao lúc giao mùa cho thấy đặc trưng nào của thể loại tản văn?",
+        "o": [
+          "Sử dụng toàn bộ các câu mệnh lệnh để hướng dẫn kĩ thuật trồng cây",
+          "Chú trọng bộc lộ trực tiếp cảm xúc, suy ngẫm tinh tế và chất trữ tình từ những chi tiết đời thường nhỏ bé",
+          "Kể chuỗi hành động điều tra phá án theo trình tự căng thẳng từng phút",
+          "Đưa ra bảng thống kê tốc độ gió và lượng mưa theo đơn vị khí tượng"
+        ],
+        "k": "B",
+        "e": "Tản văn là thể văn xuôi ngắn gọn giàu chất trữ tình, lấy rung cảm chủ quan trước đời sống làm linh hồn.",
+        "s": "Ngữ Văn 7",
+        "h": "Đặc trưng thể loại tản văn"
+      },
+      {
+        "c": "NV7-B02-012",
+        "d": "application",
+        "p": "Câu thơ \"Anh ngồi lặng lẽ / Dưới cội mai vàng / Dài bao thương nhớ / Mùa xuân nhân gian\" sử dụng cách gieo vần gì ở tiếng cuối các dòng 2 và 4?",
+        "o": [
+          "Vần chân, vần cách (\"vàng\" – \"gian\", thuộc vần gần theo âm chính/âm cuối gần gũi trong thơ hiện đại)",
+          "Không có bất kì sự lặp âm hay thanh điệu nào",
+          "Vần trắc bắt buộc ở cả bốn tiếng cuối",
+          "Vần lưng giữa tiếng thứ hai của mọi câu trong bài"
+        ],
+        "k": "A",
+        "e": "Tiếng cuối dòng 2 và dòng 4 cùng thanh bằng tạo âm hưởng ngân vang nhẹ nhàng khép lại bài thơ.",
+        "s": "Ngữ Văn 7",
+        "h": "Nhận diện vần trong thơ bốn chữ"
+      },
+      {
+        "c": "NV7-B02-013",
+        "d": "advanced",
+        "p": "Đoạn mở đầu \"Đồng dao mùa xuân\": \"Có một người lính / Đi vào núi xanh / Những năm máu lửa // Một ngày hòa bình / Anh không về nữa\" đối chiếu hai mốc thời gian nào để tạo xúc động?",
+        "o": [
+          "Đối lập giữa mùa hè nóng bức ở thành phố và mùa đông trên đỉnh núi",
+          "Đối lập giữa tuổi thơ cắp sách tới trường và tuổi già nghỉ hưu",
+          "Đối lập giữa \"những năm máu lửa\" hào hùng gian khổ với \"một ngày hòa bình\" khi đất nước trọn niềm vui nhưng anh mãi không thể trở về",
+          "Đối lập giữa buổi sáng đi học và buổi tối đi ngủ"
+        ],
+        "k": "C",
+        "e": "Sự tương phản lặng lẽ giữa ngày hòa bình chung và sự thiếu vắng một người lính riêng tạo nên sức lay động sâu xa.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân tích nghệ thuật tương phản trong thơ"
+      },
+      {
+        "c": "NV7-B02-014",
+        "d": "advanced",
+        "p": "Khi giải thích vì sao đoạn văn biểu cảm về bài thơ cần có cả \"tình cảm của người viết\" lẫn \"dẫn chứng từ nghệ thuật thơ\", lí giải nào chính xác nhất?",
+        "o": [
+          "Vì cảm xúc chỉ thật sự có sức thuyết phục khi bắt nguồn từ chính hình ảnh, từ ngữ, nhịp điệu của bài thơ, tránh khen ngợi sáo rỗng chung chung",
+          "Vì bạn đọc không bao giờ tự đọc được bài thơ gốc",
+          "Vì nếu không có dẫn chứng thì đoạn văn sẽ biến thành bài toán hình học",
+          "Vì quy định chấm điểm bắt buộc học sinh phải chép lại toàn bộ bài thơ"
+        ],
+        "k": "A",
+        "e": "Cảm nhận văn học là sự đối thoại tinh tế giữa rung động cá nhân với chất liệu ngôn từ nghệ thuật của tác phẩm.",
+        "s": "Ngữ Văn 7",
+        "h": "Nâng cao kĩ năng viết cảm nhận thơ"
+      },
+      {
+        "c": "NV7-B02-015",
+        "d": "advanced",
+        "p": "So sánh cách thể hiện tình yêu quê hương đất nước trong \"Đồng dao mùa xuân\" và \"Gặp lá cơm nếp\", nét gặp gỡ nghệ thuật độc đáo của cả hai bài thơ là gì?",
+        "o": [
+          "Đều kết hợp biểu đồ số liệu thống kê với lời bình luận khoa học",
+          "Đều sử dụng ngôi kể thứ ba để tường thuật một trận đánh lịch sử cụ thể",
+          "Lấy điều bình dị, thân thuộc (đồng dao, ba lô con cóc, mùi lá cơm nếp, khói bếp) để chuyển tải tình yêu Tổ quốc và sự hi sinh cao cả tự nhiên",
+          "Đều viết theo thể thơ thất ngôn bát cú Đường luật nghiêm ngặt với nhiều điển cố cổ"
+        ],
+        "k": "C",
+        "e": "Giọng điệu tâm tình, hình ảnh bình dị nâng tầm tư tưởng lớn là vẻ đẹp chung của thơ hiện đại Việt Nam thời kì kháng chiến.",
+        "s": "Ngữ Văn 7",
+        "h": "So sánh hai bài thơ cùng chủ đề"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan7-c1",
+    "lesson": {
+      "code": "nguvan7-b03",
+      "title": "Bài 3. Cội nguồn yêu thương",
+      "seq": 3,
+      "subtitle": "Đọc hiểu truyện ngắn về tình cảm gia đình (Vừa nhắm mắt vừa mở cửa sổ – Nguyễn Ngọc Thuần, Người thầy đầu tiên – Ai-tơ-ma-tốp, Quê hương – Tế Hanh), số từ – phó từ và viết bài văn phân tích đặc điểm nhân vật",
+      "concepts": [
+        "Đọc hiểu nhân vật văn học",
+        "Số từ và phó từ trong tiếng Việt",
+        "Phân tích đặc điểm nhân vật"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV7-B03-001",
+        "d": "basic",
+        "p": "Truyện \"Vừa nhắm mắt vừa mở cửa sổ\" kể về người bố dạy con cảm nhận thế giới qua mùi hương và âm thanh là tác phẩm của nhà văn nào?",
+        "o": [
+          "Thạch Lam",
+          "Trịnh A-na",
+          "Nguyễn Nhật Ánh",
+          "Nguyễn Ngọc Thuần"
+        ],
+        "k": "D",
+        "e": "Tác phẩm giàu chất thơ \"Vừa nhắm mắt vừa mở cửa sổ\" là sáng tác nổi tiếng của nhà văn Nguyễn Ngọc Thuần.",
+        "s": "Ngữ Văn 7",
+        "h": "Tác giả Vừa nhắm mắt vừa mở cửa sổ",
+        "fig": {
+          "type": "table",
+          "title": "Tác phẩm Bài 3 (NV7)",
+          "head": [
+            "Văn bản",
+            "Tác giả",
+            "Điểm nổi bật"
+          ],
+          "rows": [
+            [
+              "Nhắm mắt mở cửa",
+              "Ng. Ngọc Thuần",
+              "Bố và vườn hoa"
+            ],
+            [
+              "Người thầy đầu tiên",
+              "Ai-tơ-ma-tốp",
+              "Thầy Đuy-sen"
+            ],
+            [
+              "Quê hương",
+              "Tế Hanh",
+              "Làng chài, thuyền"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV7-B03-002",
+        "d": "basic",
+        "p": "Trong đoạn trích \"Người thầy đầu tiên\" (Chingiz Aitmatov), hai nhân vật chính gắn bó sâu nặng qua lớp học nghèo trên đồi là ai?",
+        "o": [
+          "Chú Tí và cậu bé Cò",
+          "Thầy giáo Đuy-sen và cô bé mồ côi An-tư-nai",
+          "Người bố và nhân vật \"tôi\"",
+          "Thầy giáo Thứ và cậu bé Mên"
+        ],
+        "k": "B",
+        "e": "Thầy Đuy-sen bằng tấm lòng tận tụy đã thắp sáng ước mơ học tập cho cô bé mồ côi An-tư-nai giữa vùng núi Ki-rơ-gư-xtan.",
+        "s": "Ngữ Văn 7",
+        "h": "Nhân vật Người thầy đầu tiên"
+      },
+      {
+        "c": "NV7-B03-003",
+        "d": "basic",
+        "p": "Bài thơ \"Quê hương\" với những câu thơ nổi tiếng: \"Chiếc thuyền nhẹ hăng như con tuấn mã / Phăng mái chèo mạnh mẽ vượt trường giang\" là của nhà thơ nào?",
+        "o": [
+          "Tế Hanh",
+          "Huy Cận",
+          "Chế Lan Viên",
+          "Xuân Diệu"
+        ],
+        "k": "A",
+        "e": "Nhà thơ Tế Hanh sáng tác bài thơ \"Quê hương\" năm 1939 khi nhớ về làng chài ven biển quê mình.",
+        "s": "Ngữ Văn 7",
+        "h": "Tác giả bài thơ Quê hương"
+      },
+      {
+        "c": "NV7-B03-004",
+        "d": "basic",
+        "p": "Trong câu: \"Trong vườn có ba khóm hồng đang nở rất rực rỡ\", từ \"ba\" và từ \"đang\", \"rất\" lần lượt thuộc từ loại nào?",
+        "o": [
+          "Cả ba từ đều là thán từ bộc lộ cảm xúc",
+          "\"ba\" là số từ; \"đang\" và \"rất\" là phó từ",
+          "Cả ba từ đều là danh từ chỉ sự vật",
+          "\"ba\" là tính từ; \"đang\" và \"rất\" là đại từ xưng hô"
+        ],
+        "k": "B",
+        "e": "\"ba\" chỉ số lượng đứng trước danh từ nên là số từ; \"đang\" (thời gian tiếp diễn) và \"rất\" (mức độ) đi kèm động/tính từ là phó từ.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân biệt số từ và phó từ"
+      },
+      {
+        "c": "NV7-B03-005",
+        "d": "basic",
+        "p": "Trong đoạn trích \"Vừa nhắm mắt vừa mở cửa sổ\", người bố đã bày ra trò chơi thú vị nào để rèn các giác quan cho cậu con trai?",
+        "o": [
+          "Đoán giá tiền các loại đồ chơi bày trong siêu thị lớn",
+          "Giải các bài toán đố hình học không gian lớp 9",
+          "Thi chạy tiếp sức quanh bờ ao vào mỗi buổi trưa nắng",
+          "Nhắm mắt chạm tay vào từng bông hoa để đoán tên hoa và nghe tiếng bước chân đoán khoảng cách"
+        ],
+        "k": "D",
+        "e": "Trò chơi nhắm mắt đoán hoa giúp cậu bé cảm nhận thế giới bằng xúc giác, khứu giác và tình yêu thương tinh tế.",
+        "s": "Ngữ Văn 7",
+        "h": "Chi tiết trò chơi trong vườn"
+      },
+      {
+        "c": "NV7-B03-006",
+        "d": "basic",
+        "p": "Khi viết bài văn phân tích đặc điểm một nhân vật trong tác phẩm văn học, căn cứ quan trọng nhất để rút ra tính cách nhân vật là gì?",
+        "o": [
+          "Kể lại một bộ phim khác có tên nhân vật gần giống",
+          "Chỉ dựa vào suy đoán cảm tính bên ngoài mà không nhắc chi tiết truyện nào",
+          "Chép lại tiểu sử năm sinh năm mất của nhà văn qua nhiều trang",
+          "Ngoại hình, cử chỉ, hành động, lời nói, suy nghĩ của nhân vật và thái độ của người kể chuyện cùng các nhân vật khác trong tác phẩm"
+        ],
+        "k": "D",
+        "e": "Mọi nhận xét về đặc điểm nhân vật phải được chứng minh bằng dẫn chứng cụ thể từ chi tiết nghệ thuật trong văn bản.",
+        "s": "Ngữ Văn 7",
+        "h": "Căn cứ phân tích nhân vật"
+      },
+      {
+        "c": "NV7-B03-007",
+        "d": "application",
+        "p": "Trong \"Vừa nhắm mắt vừa mở cửa sổ\", câu nói của bố: \"Một món quà bao giờ cũng đẹp. Khi ta nhận hay cho một món quà, ta cũng đẹp lây vì món quà đó\" gửi gắm triết lí nào?",
+        "o": [
+          "Chỉ những món quà có giá trị tiền bạc lớn mới khiến con người trở nên đẹp hơn",
+          "Cần mở ngay quà trước mặt mọi người để kiểm tra chất lượng",
+          "Không nên tặng quà cho người khác vào những ngày bình thường",
+          "Giá trị của món quà không nằm ở vật chất đắt rẻ mà ở tấm lòng trân trọng, yêu thương giữa người trao và người nhận"
+        ],
+        "k": "D",
+        "e": "Món quà tinh thần từ khu vườn, từ sự quan tâm chân thành làm tâm hồn con người trở nên giàu đẹp hơn.",
+        "s": "Ngữ Văn 7",
+        "h": "Ý nghĩa triết lí về món quà"
+      },
+      {
+        "c": "NV7-B03-008",
+        "d": "application",
+        "p": "Hành động thầy Đuy-sen tự tay đắp bếp lò, cõng từng em nhỏ qua con suối lạnh giá mùa đông và trồng hai cây phong non trước cổng trường thể hiện điều gì về người thầy?",
+        "o": [
+          "Tình yêu thương học trò vô bờ bến, sự kiên trì vượt gian khổ và tầm nhìn gửi gắm niềm tin vào tương lai thế hệ trẻ",
+          "Thầy thực hiện đúng quy định bắt buộc của hợp đồng xây dựng cầu đường",
+          "Thầy thích trồng cây để sau này bán gỗ kiếm thêm thu nhập cá nhân",
+          "Thầy muốn chứng tỏ sức khỏe cơ bắp hơn mọi thanh niên trong làng"
+        ],
+        "k": "A",
+        "e": "Mỗi việc làm bình dị của thầy Đuy-sen đều thấm đẫm tình phụ tử và lí tưởng cao đẹp của nghề dạy học.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân tích hành động thầy Đuy-sen"
+      },
+      {
+        "c": "NV7-B03-009",
+        "d": "application",
+        "p": "Tìm câu chứa \"số từ chỉ thứ tự\" (chứ không phải số từ chỉ số lượng) trong các câu sau:",
+        "o": [
+          "Thầy Đuy-sen đã cõng hàng chục em nhỏ qua dòng suối buốt giá.",
+          "Tôi còn nhớ như in buổi học đầu tiên ở ngôi trường thứ nhất bên sườn đồi.",
+          "Trong vườn nhà, bố trồng hai mươi gốc hoa hồng đủ màu sắc.",
+          "Cả ba anh em đều rất chăm chỉ đọc sách mỗi tối."
+        ],
+        "k": "B",
+        "e": "Số từ \"nhất\" đứng sau danh từ \"thứ\" (\"thứ nhất\") biểu thị thứ tự, còn \"chục\", \"hai mươi\", \"ba\" đứng trước danh từ chỉ số lượng.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân biệt hai loại số từ"
+      },
+      {
+        "c": "NV7-B03-010",
+        "d": "application",
+        "p": "Trong hai câu thơ bài \"Quê hương\" (Tế Hanh): \"Dân chài lưới làn da ngăm rám nắng / Cả thân hình nồng thở vị xa xăm\", hình ảnh người dân chài hiện lên như thế nào?",
+        "o": [
+          "Yếu ớt, mệt mỏi vì phải chèo thuyền suốt đêm trên biển",
+          "Khỏe khoắn, rắn rỏi, mang vẻ đẹp kì vĩ hòa quyện cùng hơi thở mặn mòi của biển khơi rộng lớn",
+          "Xa lạ với công việc đánh bắt hải sản truyền thống",
+          "Sợ hãi trước những con sóng lớn ngoài khơi xa"
+        ],
+        "k": "B",
+        "e": "Nét vẽ vừa hiện thực (\"da ngăm rám nắng\") vừa lãng mạn (\"nồng thở vị xa xăm\") tôn vinh tầm vóc người lao động biển.",
+        "s": "Ngữ Văn 7",
+        "h": "Cảm nhận hình ảnh người dân chài"
+      },
+      {
+        "c": "NV7-B03-011",
+        "d": "application",
+        "p": "Phó từ \"hãy\", \"đừng\", \"chớ\" trong câu thường đi kèm động từ để bổ sung ý nghĩa gì?",
+        "o": [
+          "Ý nghĩa cầu khiến (khuyên nhủ, đề nghị, ngăn cấm)",
+          "Ý nghĩa so sánh hơn kém về màu sắc",
+          "Ý nghĩa thời gian đã hoàn thành trong quá khứ",
+          "Ý nghĩa số lượng chính xác của đồ vật"
+        ],
+        "k": "A",
+        "e": "Nhóm phó từ cầu khiến (\"hãy, đừng, chớ\") đứng trước động từ/tính từ để tạo sắc thái khuyên bảo hoặc yêu cầu.",
+        "s": "Ngữ Văn 7",
+        "h": "Ý nghĩa các nhóm phó từ"
+      },
+      {
+        "c": "NV7-B03-012",
+        "d": "application",
+        "p": "Trong đoạn kết bài văn phân tích đặc điểm thầy Đuy-sen, nhận xét nào thể hiện đúng yêu cầu của phần Kết bài?",
+        "o": [
+          "Chỉ viết một câu ngắn: \"Em thích nhân vật này lắm\" rồi dừng lại",
+          "Bất ngờ giới thiệu tên một tác phẩm mới chưa phân tích ở thân bài",
+          "Chép lại thêm một đoạn hội thoại giữa An-tư-nai và cô bác hàng xóm",
+          "Khái quát lại vẻ đẹp nhân hậu, tận tụy của thầy Đuy-sen và nêu ấn tượng, bài học biết ơn thầy cô mà nhân vật gợi lại trong lòng người đọc"
+        ],
+        "k": "D",
+        "e": "Kết bài cần tổng hợp lại đặc điểm nổi bật của nhân vật và rút ra ý nghĩa, tình cảm sâu sắc.",
+        "s": "Ngữ Văn 7",
+        "h": "Kĩ năng viết kết bài phân tích nhân vật"
+      },
+      {
+        "c": "NV7-B03-013",
+        "d": "advanced",
+        "p": "Trong \"Vừa nhắm mắt vừa mở cửa sổ\", vì sao khi nhắm mắt lại, nhân vật \"tôi\" lại thấy khu vườn \"mở rộng\" ra hơn cả lúc mở mắt?",
+        "o": [
+          "Khi nhắm mắt, các giác quan bên trong (khứu giác, thính giác, xúc giác) và trí tưởng tượng yêu thương được đánh thức, chạm tới vẻ đẹp sâu kín",
+          "Vì người bố bí mật phá bỏ hàng rào để mở rộng diện tích khu vườn",
+          "Vì lúc nhắm mắt cậu bé đã ngủ quên và nằm mơ thấy một công viên khác",
+          "Vì đôi mắt của cậu bé bị cận thị nặng không nhìn rõ các bông hoa"
+        ],
+        "k": "A",
+        "e": "Nhan đề nghịch lí đầy chất thơ khẳng định: đôi khi nhìn bằng trái tim và các giác quan tinh tế mới thấu hiểu trọn vẹn cuộc sống.",
+        "s": "Ngữ Văn 7",
+        "h": "Giải mã nhan đề nghịch lí"
+      },
+      {
+        "c": "NV7-B03-014",
+        "d": "advanced",
+        "p": "Phân tích giá trị nghệ thuật của hai câu thơ nổi tiếng trong \"Quê hương\": \"Cánh buồm giương to như mảnh hồn làng / Rướn thân trắng bao la thâu góp gió\"?",
+        "o": [
+          "So sánh cánh buồm với \"mảnh hồn làng\" kết hợp nhân hóa \"rướn thân\" biến cánh buồm thành biểu tượng linh thiêng cho khát vọng vươn khơi của làng chài",
+          "Thể hiện nỗi buồn cô đơn khi cánh buồm tách rời khỏi bến cảng",
+          "Miêu tả kĩ thuật may vải buồm chống thấm nước của ngư dân miền Trung",
+          "Dùng phép nói giảm để che bớt kích thước nhỏ bé của con thuyền gỗ"
+        ],
+        "k": "A",
+        "e": "Cú chuyển hóa táo bạo từ hữu hình sang vô hình (\"mảnh hồn làng\") là câu thơ hay bậc nhất viết về làng quê biển Việt Nam.",
+        "s": "Ngữ Văn 7",
+        "h": "Bình giảng câu thơ đặc sắc Tế Hanh"
+      },
+      {
+        "c": "NV7-B03-015",
+        "d": "advanced",
+        "p": "Ở cuối truyện \"Người thầy đầu tiên\", hình ảnh hai cây phong do thầy Đuy-sen và An-tư-nai trồng năm xưa giờ đã cao lớn, rì rào trên đồi mang ý nghĩa biểu tượng gì?",
+        "o": [
+          "Chỉ là cột mốc chỉ đường giúp xe ô tô đi lên đồi vào mùa đông không bị lạc",
+          "Kỉ niệm buồn nhắc An-tư-nai quên đi quê hương cũ của mình",
+          "Biểu tượng cho thành quả của tình yêu thương, tri thức và những hạt giống tâm hồn cao đẹp nảy mầm vững chãi qua năm tháng dù thầy giáo xưa không còn ở lại",
+          "Minh chứng rằng đất đồi vùng núi rất màu mỡ thích hợp trồng cây lấy gỗ"
+        ],
+        "k": "C",
+        "e": "Hai cây phong trở thành nhân chứng sống cho công ơn thầm lặng mà vĩ đại của người thầy đầu tiên.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân tích hình tượng biểu tượng"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan7-c2",
+    "lesson": {
+      "code": "nguvan7-b04",
+      "title": "Bài 4. Giai điệu đất nước",
+      "seq": 4,
+      "subtitle": "Đọc hiểu thơ (Mùa xuân nho nhỏ – Thanh Hải, Gò Me – Hoàng Tố Nguyên, Bài thơ đường núi – Nguyễn Đình Thi), ngữ cảnh và nghĩa của từ trong ngữ cảnh, dấu chấm lửng và viết bài văn biểu cảm về con người hoặc sự việc",
+      "concepts": [
+        "Nghĩa của từ trong ngữ cảnh",
+        "Công dụng của dấu chấm lửng",
+        "Viết bài văn biểu cảm"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV7-B04-001",
+        "d": "basic",
+        "p": "Bài thơ \"Mùa xuân nho nhỏ\" được nhà thơ Thanh Hải sáng tác vào tháng 11 năm 1980 trong hoàn cảnh đặc biệt nào?",
+        "o": [
+          "Trong chuyến đi tham quan vùng biển đảo cực Nam Tổ quốc",
+          "Khi nhà thơ vừa giành giải thưởng lớn tại thủ đô Hà Nội",
+          "Khi nhà thơ đang nằm trên giường bệnh những ngày cuối đời tại Huế",
+          "Vào ngày khai giảng năm học mới tại một trường miền núi"
+        ],
+        "k": "C",
+        "e": "Dù mang trọng bệnh trên giường bệnh cuối năm 1980, Thanh Hải vẫn viết nên khúc ca thiết tha về khát vọng dâng hiến.",
+        "s": "Ngữ Văn 7",
+        "h": "Hoàn cảnh sáng tác Mùa xuân nho nhỏ",
+        "fig": {
+          "type": "table",
+          "title": "Tác phẩm Bài 4 (NV7)",
+          "head": [
+            "Văn bản",
+            "Tác giả",
+            "Cảm hứng chủ đạo"
+          ],
+          "rows": [
+            [
+              "Mùa xuân nho nhỏ",
+              "Thanh Hải",
+              "Khát vọng cống hiến"
+            ],
+            [
+              "Gò Me",
+              "Hoàng Tố Nguyên",
+              "Nhớ quê Nam Bộ"
+            ],
+            [
+              "Bài thơ đường núi",
+              "Nguyễn Đình Thi",
+              "Vẻ đẹp miền núi"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV7-B04-002",
+        "d": "basic",
+        "p": "Mở đầu bài thơ \"Mùa xuân nho nhỏ\", vẻ đẹp thiên nhiên mùa xuân xứ Huế được phác họa qua những hình ảnh nổi bật nào?",
+        "o": [
+          "Phố cổ sầm uất với những dãy đèn lồng đỏ rực đêm rằm",
+          "Bờ cát vàng nắng cháy cùng hàng dừa nghiêng bóng trưa hè",
+          "Dòng sông xanh, bông hoa tím biếc và tiếng chim chiền chiện hót vang trời",
+          "Cánh đồng tuyết trắng xóa và dòng thác đóng băng giữa rừng thông"
+        ],
+        "k": "C",
+        "e": "Chỉ vài nét chấm phá (\"dòng sông xanh\", \"bông hoa tím biếc\", \"chim chiền chiện\") đã mở ra bức tranh xuân tươi tắn, tràn đầy sức sống.",
+        "s": "Ngữ Văn 7",
+        "h": "Bức tranh xuân trong Mùa xuân nho nhỏ"
+      },
+      {
+        "c": "NV7-B04-003",
+        "d": "basic",
+        "p": "Bài thơ \"Gò Me\" của Hoàng Tố Nguyên thể hiện tình cảm gắn bó sâu nặng với vùng đất nào?",
+        "o": [
+          "Vùng núi đá cao nguyên Đồng Văn ở cực Bắc Tổ quốc",
+          "Quần đảo Trường Sa giữa biển Đông sóng vỗ",
+          "Kinh thành Thăng Long ngàn năm văn hiến bên hồ Gươm",
+          "Quê hương Gò Công – Tiền Giang (Nam Bộ) với lũy tre, rặng me, điệu hò miền sông nước"
+        ],
+        "k": "D",
+        "e": "Trong nỗi nhớ chiến khu, tác giả khắc họa vùng Gò Me (Gò Công) hiền hòa với \"nằm như dáng người nằm nghe\".",
+        "s": "Ngữ Văn 7",
+        "h": "Quê hương trong bài thơ Gò Me"
+      },
+      {
+        "c": "NV7-B04-004",
+        "d": "basic",
+        "p": "Trong câu: \"Lòng yêu nước của nhân dân ta thật sâu sắc... Không gì có thể dập tắt được ngọn lửa ấy!\", dấu chấm lửng (...) trong trường hợp này có công dụng gì?",
+        "o": [
+          "Ngăn cách các chữ số thập phân trong phép đo chiều dài",
+          "Thông báo người viết đã quên mất phần chữ ở giữa đoạn văn",
+          "Thay thế cho dấu ngoặc kép bao quanh tên tác phẩm văn học",
+          "Biểu thị lời nói bị ngắt quãng vì xúc động hoặc tạo khoảng lặng nhấn mạnh cảm xúc ngân vang"
+        ],
+        "k": "D",
+        "e": "Dấu chấm lửng có nhiều công dụng: tỏ ý còn nhiều sự vật chưa liệt kê hết, thể hiện chỗ lời nói bỏ dở/ngập ngừng, làm giãn nhịp điệu văn bản.",
+        "s": "Ngữ Văn 7",
+        "h": "Công dụng dấu chấm lửng"
+      },
+      {
+        "c": "NV7-B04-005",
+        "d": "basic",
+        "p": "Muốn hiểu chính xác nghĩa của một từ nhiều nghĩa trong thơ văn (ví dụ từ \"lộc\" trong \"Mùa xuân người cầm súng / Lộc giắt đầy trên lưng\"), người đọc phải dựa vào đâu?",
+        "o": [
+          "Dựa vào ngữ cảnh (các câu, từ ngữ đứng xung quanh và hoàn cảnh giao tiếp của văn bản)",
+          "Chỉ dựa vào nghĩa đầu tiên ghi ở trang đầu của cuốn từ điển",
+          "Chỉ xét riêng lẻ từ đó mà tách rời khỏi cả đoạn thơ",
+          "Đoán đại khái theo số lượng chữ cái có trong từ đó"
+        ],
+        "k": "A",
+        "e": "Ngữ cảnh giúp xác định chính xác sắc thái nghĩa thực và nghĩa ẩn dụ của từ trong từng câu văn, câu thơ.",
+        "s": "Ngữ Văn 7",
+        "h": "Vai trò của ngữ cảnh với nghĩa từ"
+      },
+      {
+        "c": "NV7-B04-006",
+        "d": "basic",
+        "p": "Bài văn biểu cảm về một con người hoặc sự việc (chương trình Ngữ văn 7) khác với bài văn kể chuyện thuần túy ở điểm nào?",
+        "o": [
+          "Chỉ liệt kê khô khan trình tự ngày giờ diễn ra sự kiện mà không nêu cảm nghĩ",
+          "Lấy việc bộc lộ trực tiếp tình cảm, suy nghĩ với con người hoặc sự việc làm trọng tâm; yếu tố tự sự, miêu tả đóng vai trò làm nền khơi gợi cảm xúc",
+          "Không được phép nhắc đến bất kì kỉ niệm hay hành động nào của người đó",
+          "Bắt buộc phải viết theo thể thơ bốn chữ có vần chân"
+        ],
+        "k": "B",
+        "e": "Văn biểu cảm lấy cảm xúc làm mạch chủ đạo, dùng kỉ niệm và chi tiết miêu tả để cảm xúc có điểm tựa chân thật.",
+        "s": "Ngữ Văn 7",
+        "h": "Đặc trưng bài văn biểu cảm"
+      },
+      {
+        "c": "NV7-B04-007",
+        "d": "application",
+        "p": "Trong hai dòng thơ \"Mùa xuân người cầm súng / Lộc giắt đầy trên lưng\", từ \"lộc\" mang hai tầng ý nghĩa song song nào?",
+        "o": [
+          "Nghĩa thực là tiền lì xì đầu năm và nghĩa chuyển là tên một loài chim rừng",
+          "Chỉ có một nghĩa duy nhất là tên riêng của một nhân vật lịch sử",
+          "Nghĩa thực là đồ ăn mang theo khi hành quân và nghĩa chuyển là nước uống",
+          "Nghĩa thực là chồi non lá ngụy trang trên vai áo chiến sĩ; nghĩa ẩn dụ là sức xuân, niềm tin và lộc biếc sự sống nảy nở bảo vệ đất nước"
+        ],
+        "k": "D",
+        "e": "Sự đa nghĩa tinh tế của từ \"lộc\" (đi cùng \"nương mạ\" của người ra đồng) kết nối đẹp đẽ tiền tuyến và hậu phương.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân tích từ đa nghĩa trong ngữ cảnh"
+      },
+      {
+        "c": "NV7-B04-008",
+        "d": "application",
+        "p": "Từ đại từ \"tôi\" ở khổ đầu bài \"Mùa xuân nho nhỏ\" (\"Tôi đưa tay tôi hứng\"), sang khổ thứ tư nhà thơ chuyển sang đại từ \"ta\" (\"Ta làm con chim hót / Ta làm một cành hoa\"). Sự chuyển đổi này có ý nghĩa gì?",
+        "o": [
+          "Vì bài thơ được ghép lại từ hai bài thơ của hai tác giả hoàn toàn riêng biệt",
+          "Để thể hiện thái độ xa cách, lạnh nhạt giữa tác giả với bạn đọc",
+          "Nâng ước nguyện cá nhân thành khát vọng chung hòa hợp của mỗi người con đất Việt khi dâng hiến cho mùa xuân đất nước",
+          "Vì nhà thơ viết nhầm đại từ xưng hô giữa hai khổ thơ khác nhau"
+        ],
+        "k": "C",
+        "e": "Chuyển từ \"tôi\" sang \"ta\" vừa giữ nguyên nét chân thành cá nhân vừa mở rộng thành tiếng lòng chung đầy tự hào.",
+        "s": "Ngữ Văn 7",
+        "h": "Ý nghĩa sự chuyển đổi đại từ tôi – ta"
+      },
+      {
+        "c": "NV7-B04-009",
+        "d": "application",
+        "p": "Trong câu: \"Quê hương Gò Me có đủ món ngon dân dã: canh chua cá lóc, mắm còng, bánh xèo, xoài cát...\", dấu chấm lửng cuối câu dùng để làm gì?",
+        "o": [
+          "Nhấn mạnh sự hài hước bất ngờ trước một câu nói đùa",
+          "Báo hiệu đoạn trích bị lược bớt phần giữa vì quá dài",
+          "Thể hiện giọng nói lắp bắp vì sợ hãi của nhân vật",
+          "Tỏ ý còn nhiều sự vật, món ăn tương tự chưa liệt kê hết"
+        ],
+        "k": "D",
+        "e": "Đứng cuối chuỗi liệt kê, dấu chấm lửng cho thấy danh sách còn tiếp tục rất phong phú.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân biệt các công dụng dấu chấm lửng"
+      },
+      {
+        "c": "NV7-B04-010",
+        "d": "application",
+        "p": "Đọc khổ thơ: \"Một mùa xuân nho nhỏ / Lặng lẽ dâng cho đời / Dù là tuổi hai mươi / Dù là khi tóc bạc\". Hình ảnh \"tóc bạc\" và \"tuổi hai mươi\" dùng biện pháp tu từ nào để khẳng định lẽ sống?",
+        "o": [
+          "Hoán dụ (\"tuổi hai mươi\" chỉ tuổi trẻ; \"tóc bạc\" chỉ tuổi già) kết hợp điệp cấu trúc \"Dù là...\" khẳng định khát vọng cống hiến suốt cả cuộc đời",
+          "Chơi chữ đồng âm giữa các con số tuổi tác",
+          "Nói quá nhằm phóng đại độ dài mái tóc của nhà thơ",
+          "So sánh ngang bằng giữa màu tóc với tuổi tác của con người"
+        ],
+        "k": "A",
+        "e": "Lấy dấu hiệu đặc trưng lứa tuổi để chỉ cả quãng đời trẻ trung và tuổi xế chiều là phép hoán dụ giàu sức gợi.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân tích hoán dụ và điệp cấu trúc"
+      },
+      {
+        "c": "NV7-B04-011",
+        "d": "application",
+        "p": "Trong \"Bài thơ đường núi\" của Nguyễn Đình Thi, vẻ đẹp con người miền núi hiện lên qua câu \"Người đi trên đường núi / Chân bước nhanh như gió / Đôi mắt nhìn trong trẻo / Như suối nguồn xanh thẳm\" mang sắc thái gì?",
+        "o": [
+          "Cô đơn, yếu ớt và e ngại trước dốc núi cao hiểm trở",
+          "Trầm tư buồn bã vì cảnh núi rừng vắng vẻ không có tiếng chim",
+          "Vội vã chạy trốn khỏi thiên nhiên khắc nghiệt để về thành thị",
+          "Khỏe khoắn, hồn nhiên, trong sáng và hòa làm một với thiên nhiên đại ngàn"
+        ],
+        "k": "D",
+        "e": "Các hình ảnh so sánh \"nhanh như gió\", \"trong trẻo như suối nguồn\" tôn vinh vẻ đẹp tinh thần phóng khoáng của con người vùng cao.",
+        "s": "Ngữ Văn 7",
+        "h": "Cảm nhận Bài thơ đường núi"
+      },
+      {
+        "c": "NV7-B04-012",
+        "d": "application",
+        "p": "Khi lập dàn ý bài văn biểu cảm về một người thân (ví dụ: người bà hoặc người mẹ), cách sắp xếp đoạn Thân bài nào tạo mạch cảm xúc tự nhiên và thấm thía nhất?",
+        "o": [
+          "Chỉ miêu tả ngôi nhà đang ở suốt ba trang mà không nhắc tới con người",
+          "Kể từ lúc người đó mới chào đời cho đến năm học lớp 7 theo kiểu hồ sơ lí lịch",
+          "Nêu ấn tượng ngoại hình, thói quen gắn bó → Kể ngắn kỉ niệm sâu sắc kèm cảm xúc trực tiếp → Nêu ý nghĩa của người đó với sự trưởng thành của em",
+          "Liệt kê toàn bộ nghề nghiệp của họ hàng hai bên nội ngoại"
+        ],
+        "k": "C",
+        "e": "Biểu cảm hay phải chọn chi tiết tiêu biểu và kỉ niệm giàu cảm xúc làm điểm tựa cho tình cảm chân thành.",
+        "s": "Ngữ Văn 7",
+        "h": "Lập dàn ý bài văn biểu cảm"
+      },
+      {
+        "c": "NV7-B04-013",
+        "d": "advanced",
+        "p": "Trong \"Mùa xuân nho nhỏ\", Thanh Hải đưa vào những chi tiết nghệ thuật \"con chim hót\", \"một cành hoa\", \"một nốt trầm\" chứ không chọn \"cả bản hòa ca hoành tráng\" hay \"cả rừng hoa rực rỡ\". Sự lựa chọn ấy thể hiện triết lí sống nào?",
+        "o": [
+          "Triết lí cống hiến khiêm nhường mà bền bỉ: mỗi cá nhân chỉ cần góp một phần nhỏ bé, đúng sở trường của mình cũng đủ làm đẹp thêm bản hòa ca chung của cuộc đời",
+          "Vì nhà thơ không đủ vốn từ ngữ để miêu tả những cảnh tượng lớn lao rộng khắp",
+          "Vì bản nhạc mùa xuân chỉ có thể vang lên bằng duy nhất một nốt trầm",
+          "Vì tác giả cho rằng một người bình thường không nên đặt mục tiêu đóng góp gì cho xã hội"
+        ],
+        "k": "A",
+        "e": "Sự đối sánh tinh tế giữa \"nho nhỏ\" với \"cuộc đời lớn\", \"nốt trầm\" với \"bản hòa ca\" tạo nên chiều sâu nhân sinh cao đẹp.",
+        "s": "Ngữ Văn 7",
+        "h": "Bình luận triết lí Mùa xuân nho nhỏ"
+      },
+      {
+        "c": "NV7-B04-014",
+        "d": "advanced",
+        "p": "Cách diễn đạt trong bài \"Mùa xuân nho nhỏ\": \"Ơi con chim chiền chiện / Hót chi mà vang trời / Từng giọt long lanh rơi / Tôi đưa tay tôi hứng\" tạo ấn tượng đặc biệt ở hình ảnh \"giọt long lanh\". Đó là hiện tượng chuyển đổi cảm giác nào?",
+        "o": [
+          "Từ thính giác (tiếng chim hót vang trời) chuyển hóa sang thị giác (\"long lanh\") và xúc giác (\"đưa tay tôi hứng\") như giọt sương âm thanh ngưng tụ",
+          "Chỉ đơn thuần là mô tả một cơn mưa rào bất chợt làm ướt bàn tay tác giả",
+          "Là lỗi dùng sai từ ngữ khi viết nhầm giọt nước mắt thành tiếng chim",
+          "Là biện pháp nói giảm nhằm làm nhỏ bớt tiếng chim hót buổi sáng"
+        ],
+        "k": "A",
+        "e": "Ẩn dụ chuyển đổi cảm giác biến âm thanh vô hình thành giọt ngọc hữu hình nâng niu trên tay — nét tài hoa bậc nhất của Thanh Hải.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân tích ẩn dụ chuyển đổi cảm giác"
+      },
+      {
+        "c": "NV7-B04-015",
+        "d": "advanced",
+        "p": "Trong \"Gò Me\", câu thơ \"Quê tôi đó: mặt trông ra biển / Đốm hải đăng tắt, lóe đêm đêm\" đặt cạnh \"Tiếng ai hát vọng bên bờ kinh xáng\" góp phần tạo nên \"giai điệu đất nước\" như thế nào?",
+        "o": [
+          "Thể hiện sự mâu thuẫn không thể dung hòa giữa nghề đánh cá biển và nghề trồng lúa",
+          "Làm bài thơ bị đứt mạch cảm xúc vì chuyển đột ngột sang miêu tả thiết bị điện",
+          "Chứng tỏ ngọn hải đăng ở Gò Công đã bị hỏng không còn hoạt động được",
+          "Hòa quyện không gian rộng mở (biển cả, ánh hải đăng) với nét duyên thầm bình dị (tiếng hò bên bờ kinh), dựng nên chân dung quê hương vừa kiêu hãnh vừa ngọt ngào"
+        ],
+        "k": "D",
+        "e": "Âm vang sóng biển và điệu hò sông nước tạo nên bản hòa âm riêng của dải đất phương Nam.",
+        "s": "Ngữ Văn 7",
+        "h": "Tổng hợp chất liệu nghệ thuật Gò Me"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan7-c2",
+    "lesson": {
+      "code": "nguvan7-b05",
+      "title": "Bài 5. Màu sắc trăm miền",
+      "seq": 5,
+      "subtitle": "Đọc hiểu tản văn và văn bản văn hóa vùng miền (Tháng Giêng, mơ về trăng non rét ngọt – Vũ Bằng, Chuyện cơm hến – Hoàng Phủ Ngọc Tường, Hội lồng tồng – Trần Quốc Vượng, Lê Văn Hảo), từ ngữ địa phương và viết văn bản tường trình",
+      "concepts": [
+        "Văn hóa ẩm thực và lễ hội trăm miền",
+        "Từ ngữ địa phương trong văn học",
+        "Viết văn bản tường trình"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV7-B05-001",
+        "d": "basic",
+        "p": "Tùy bút nổi tiếng \"Tháng Giêng, mơ về trăng non rét ngọt\" (trích tập \"Thương nhớ mười hai\") miêu tả tinh tế vẻ đẹp mùa xuân Hà Nội – Bắc Bộ là của nhà văn nào?",
+        "o": [
+          "Băng Sơn",
+          "Vũ Bằng",
+          "Nguyễn Tuân",
+          "Hoàng Phủ Ngọc Tường"
+        ],
+        "k": "B",
+        "e": "Nhà văn Vũ Bằng viết tập tùy bút \"Thương nhớ mười hai\" khi xa Hà Nội, gửi gắm nỗi nhớ da diết bốn mùa đất Bắc.",
+        "s": "Ngữ Văn 7",
+        "h": "Tác giả Thương nhớ mười hai",
+        "fig": {
+          "type": "table",
+          "title": "Văn hóa Vùng miền (Bài 5)",
+          "head": [
+            "Văn bản",
+            "Vùng miền",
+            "Nét văn hóa chính"
+          ],
+          "rows": [
+            [
+              "Trăng non rét ngọt",
+              "Hà Nội - Bắc Bộ",
+              "Mùa xuân, trăng non"
+            ],
+            [
+              "Chuyện cơm hến",
+              "Huế - Trung Bộ",
+              "Ẩm thực cố đô"
+            ],
+            [
+              "Hội lồng tồng",
+              "Việt Bắc",
+              "Lễ hội xuống đồng"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV7-B05-002",
+        "d": "basic",
+        "p": "Văn bản \"Chuyện cơm hến\" của nhà văn Hoàng Phủ Ngọc Tường giới thiệu nét tinh hoa ẩm thực đặc trưng của vùng đất nào?",
+        "o": [
+          "Đồng bằng sông Cửu Long",
+          "Cao nguyên Đắk Lắk",
+          "Cố đô Huế",
+          "Phố cổ Hội An"
+        ],
+        "k": "C",
+        "e": "Hoàng Phủ Ngọc Tường khám phá văn hóa, tính cách người Huế đầy tinh tế qua món cơm hến dân dã mà cầu kì.",
+        "s": "Ngữ Văn 7",
+        "h": "Địa danh trong Chuyện cơm hến"
+      },
+      {
+        "c": "NV7-B05-003",
+        "d": "basic",
+        "p": "\"Hội lồng tồng\" (lễ hội xuống đồng cầu mùa màng bội thu, cầu bình an) là sinh hoạt văn hóa truyền thống tiêu biểu của các dân tộc vùng nào?",
+        "o": [
+          "Cộng đồng cư dân đô thị vùng ven sông Sài Gòn",
+          "Cư dân làng chài ven biển Cà Mau",
+          "Đồng bào Tày, Nùng (và các dân tộc vùng núi phía Bắc / Việt Bắc)",
+          "Đồng bào Chăm ở Ninh Thuận"
+        ],
+        "k": "C",
+        "e": "Hội lồng tồng diễn ra đầu xuân tại các tỉnh miền núi phía Bắc gắn với nghi thức cầu mùa, ném còn, hát then, đánh yến.",
+        "s": "Ngữ Văn 7",
+        "h": "Kiến thức văn hóa Hội lồng tồng"
+      },
+      {
+        "c": "NV7-B05-004",
+        "d": "basic",
+        "p": "Từ nào sau đây là từ ngữ địa phương thường gặp ở miền Trung hoặc miền Nam thay cho từ toàn dân \"bố / cha\"?",
+        "o": [
+          "tía / thầy / bọ (tùy vùng; như \"tía\" ở Nam Bộ, \"bọ\" ở miền Trung)",
+          "đồng bào",
+          "người thân",
+          "phụ huynh"
+        ],
+        "k": "A",
+        "e": "Các từ \"tía\" (Nam Bộ), \"bọ\" (Quảng Bình – Nghệ Tĩnh) mang đậm sắc thái địa phương; còn \"phụ huynh\", \"người thân\" là từ toàn dân.",
+        "s": "Ngữ Văn 7",
+        "h": "Nhận diện từ ngữ địa phương"
+      },
+      {
+        "c": "NV7-B05-005",
+        "d": "basic",
+        "p": "Trong văn bản \"Tháng Giêng, mơ về trăng non rét ngọt\", tác giả Vũ Bằng gọi khoảng thời gian sau rằm tháng Giêng với cái rét nhẹ và mưa xuân là gì?",
+        "o": [
+          "Cái nóng oi ả của những trưa hè cháy nắng",
+          "Mùa nước nổi mênh mông khắp các cánh đồng",
+          "Những cơn bão tuyết dữ dội kéo dài ba tháng",
+          "Đẹp như một bức tranh \"đào phai, trăng non, rét ngọt\""
+        ],
+        "k": "D",
+        "e": "Tháng Giêng Hà Nội hiện lên qua sự giao hòa dịu nhẹ của mưa bụi, gió lành lạnh (\"rét ngọt\") và ánh trăng non.",
+        "s": "Ngữ Văn 7",
+        "h": "Chi tiết Tháng Giêng đất Bắc"
+      },
+      {
+        "c": "NV7-B05-006",
+        "d": "basic",
+        "p": "Văn bản tường trình được viết trong hoàn cảnh nào và yêu cầu phong cách ngôn ngữ ra sao?",
+        "o": [
+          "Khi một cá nhân (hoặc tập thể) cần báo cáo trung thực, khách quan với cấp trên/người có trách nhiệm về một sự việc đã xảy ra có liên quan tới mình",
+          "Khi muốn quảng cáo sản phẩm thương mại trên truyền hình",
+          "Khi muốn sáng tác một bài thơ biểu cảm ca ngợi thiên nhiên quê hương",
+          "Khi muốn kể chuyện cổ tích cho các em nhỏ trước giờ đi ngủ"
+        ],
+        "k": "A",
+        "e": "Tường trình là văn bản hành chính – công vụ đòi hỏi trình bày sự thật rõ ràng, đúng thời gian, địa điểm, nguyên nhân và trách nhiệm.",
+        "s": "Ngữ Văn 7",
+        "h": "Mục đích văn bản tường trình"
+      },
+      {
+        "c": "NV7-B05-007",
+        "d": "application",
+        "p": "Theo \"Chuyện cơm hến\", vì sao một món ăn rất bình dân làm từ hến cồn Hến lại được Hoàng Phủ Ngọc Tường nâng lên thành biểu tượng văn hóa Huế?",
+        "o": [
+          "Bởi món ăn này được chế biến hoàn toàn bằng máy móc công nghiệp hiện đại",
+          "Bởi món cơm hến chỉ dành riêng cho bậc vua chúa ăn trong cung điện với giá đắt đỏ",
+          "Bởi người dân Huế không biết nấu bất kì món ăn nào khác ngoài cơm hến",
+          "Đĩa cơm hến bình dị hội tụ sự hài hòa âm dương và mười mấy vị phụ gia tinh tế (khế, bắp chuối, ruốc, ớt...), phản ánh nếp sống thanh tao người Huế"
+        ],
+        "k": "D",
+        "e": "Cách thưởng thức cơm hến cay nồng giữa trưa hè hay chiều mưa thể hiện bản sắc ẩm thực đậm chất cố đô.",
+        "s": "Ngữ Văn 7",
+        "h": "Ý nghĩa văn hóa Chuyện cơm hến"
+      },
+      {
+        "c": "NV7-B05-008",
+        "d": "application",
+        "p": "Trong một văn bản văn học (ví dụ \"Tháng Giêng, mơ về trăng non rét ngọt\" hay \"Chuyện cơm hến\"), việc tác giả sử dụng có chọn lọc các từ ngữ địa phương như \"mùa nước nổi\", \"cà cuống\", \"nước mắm nhĩ\", \"mè xửng\" mang lại hiệu quả gì?",
+        "o": [
+          "Khiến bài viết trở thành văn bản hành chính công vụ khô khan",
+          "Làm mất đi hoàn toàn tính thống nhất của tiếng Việt phổ thông",
+          "Gợi không khí văn hóa vùng miền chân thực, giúp người đọc như được trực tiếp ngắm nhìn và thưởng thức hương vị từng vùng đất",
+          "Chứng tỏ tác giả không biết sử dụng từ điển tiếng Việt toàn dân"
+        ],
+        "k": "C",
+        "e": "Từ ngữ địa phương đặt trong văn cảnh phù hợp làm giàu màu sắc văn hóa trăm miền cho tác phẩm.",
+        "s": "Ngữ Văn 7",
+        "h": "Giá trị biểu đạt từ địa phương"
+      },
+      {
+        "c": "NV7-B05-009",
+        "d": "application",
+        "p": "Trong các cặp từ sau, cặp nào thể hiện đúng sự tương ứng giữa từ địa phương và từ toàn dân?",
+        "o": [
+          "máy bay – phi cơ; trường học – học đường",
+          "nhân hậu – độc ác; chăm chỉ – lười biếng",
+          "chi – gì (miền Trung); trái thơm – quả dứa (Nam Bộ)",
+          "lung linh – lấp lánh; rì rào – xào xạc"
+        ],
+        "k": "C",
+        "e": "\"chi\" (miền Trung) tương ứng \"gì\", \"trái thơm\" (Nam Bộ) tương ứng \"quả dứa\"; các cặp còn lại là từ Hán Việt/thuần Việt, từ láy hoặc từ trái nghĩa.",
+        "s": "Ngữ Văn 7",
+        "h": "Đối chiếu từ địa phương – toàn dân"
+      },
+      {
+        "c": "NV7-B05-010",
+        "d": "application",
+        "p": "Sắp xếp đúng trình tự các phần chuẩn của một bản tường trình học đường (ví dụ tường trình về việc làm vỡ cửa kính lớp học):",
+        "o": [
+          "Chỉ ghi số tiền bồi thường mà không cần ghi tên người làm vỡ hay thời gian xảy ra",
+          "Kể diễn biến sự việc trước → Cuối cùng mới ghi tên văn bản và chữ \"Kính gửi\"",
+          "Viết một bài thơ lục bát xin lỗi rồi kí tên ở góc trên bên trái",
+          "Quốc hiệu & Tiêu ngữ → Tên văn bản → Kính gửi → Người viết → Nội dung sự việc (thời gian, địa điểm, diễn biến, nguyên nhân, cam kết) → Chữ kí"
+        ],
+        "k": "D",
+        "e": "Bản tường trình tuân theo thể thức văn bản hành chính chuẩn mực, bảo đảm đủ chủ thể, thời gian, nội dung xác thực và chữ kí.",
+        "s": "Ngữ Văn 7",
+        "h": "Thể thức văn bản tường trình"
+      },
+      {
+        "c": "NV7-B05-011",
+        "d": "application",
+        "p": "Trong phần Nói và Nghe về \"Hội lồng tồng\" và các lễ hội mùa xuân, ý nghĩa nhân văn chung của trò chơi dân gian ném còn trong lễ hội là gì?",
+        "o": [
+          "Tổ chức cá cược ăn tiền giữa các bản làng láng giềng",
+          "Cầu mong mưa thuận gió hòa, mùa màng tốt tươi, đồng thời thắt chặt tình đoàn kết cộng đồng và niềm vui gặp gỡ đầu năm",
+          "Thi xem ai có thể ném vỡ nhiều đồ đạc nhất trong làng",
+          "Thay thế hoàn toàn việc học tập và lao động sản xuất cả năm"
+        ],
+        "k": "B",
+        "e": "Quả còn tung lên vòng tròn hồng tâm mang ý niệm âm dương giao hòa, sinh sôi nảy nở và gắn kết bản mường.",
+        "s": "Ngữ Văn 7",
+        "h": "Ý nghĩa trò chơi dân gian Hội lồng tồng"
+      },
+      {
+        "c": "NV7-B05-012",
+        "d": "application",
+        "p": "Câu văn nào của Vũ Bằng trong \"Tháng Giêng, mơ về trăng non rét ngọt\" thể hiện rõ nhất sự giao cảm của nhiều giác quan trước vẻ đẹp mùa xuân?",
+        "o": [
+          "Nhựa sống trong người căng lên như máu căng trong lộc nai, như mầm non cây cối, nằm im mãi không chịu được, trồi ra thành cái lá nhỏ giơ tay vẫy cặp uyên ương.",
+          "Nhiều gia đình thường dọn dẹp nhà cửa sạch sẽ trước dịp Tết Nguyên đán.",
+          "Miền Bắc nước ta có bốn mùa xuân, hạ, thu, đông phân hóa rõ rệt.",
+          "Tháng Giêng là tháng đầu tiên trong một năm theo lịch âm truyền thống."
+        ],
+        "k": "A",
+        "e": "Hình ảnh so sánh giàu nhựa sống kết hợp nhân hóa \"giơ tay vẫy\" làm nổi bật sức xuân trỗi dậy cả trong thiên nhiên lẫn lòng người.",
+        "s": "Ngữ Văn 7",
+        "h": "Cảm nhận văn phong Vũ Bằng"
+      },
+      {
+        "c": "NV7-B05-013",
+        "d": "advanced",
+        "p": "Tại sao Hoàng Phủ Ngọc Tường viết: \"Tôi có cảm giác món ăn Huế có một phong vị riêng không chỉ ở lưỡi mà còn ở sự hoài niệm, ở thái độ trân trọng cái đẹp bình dị\"? Nhận định này nói lên đặc sắc gì của tùy bút – tản văn?",
+        "o": [
+          "Ẩm thực không chỉ được cảm nhận bằng vị giác thuần túy mà trở thành lăng kính văn hóa để nhà văn gửi gắm chiều sâu lịch sử, tâm hồn và cốt cách con người xứ sở",
+          "Vì nhà văn muốn viết một cuốn sách dạy nấu ăn ghi rõ từng gam nguyên liệu",
+          "Vì các đầu bếp Huế luôn quên cho gia vị khi chế biến món ăn truyền thống",
+          "Vì người đọc chỉ cần đọc tên món ăn mà không cần tìm hiểu văn hóa vùng miền"
+        ],
+        "k": "A",
+        "e": "Tùy bút, tản văn văn hóa hòa quyện tri thức phong tục với rung động thẩm mĩ sâu sắc của người cầm bút.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân tích chiều sâu văn hóa trong tùy bút"
+      },
+      {
+        "c": "NV7-B05-014",
+        "d": "advanced",
+        "p": "So sánh việc dùng từ ngữ địa phương trong văn học (như \"Chuyện cơm hến\") với việc viết một văn bản hành chính hoặc bài thi toàn quốc (như \"Bản tường trình\"), nguyên tắc ứng xử ngôn ngữ đúng là gì?",
+        "o": [
+          "Mỗi học sinh nên tự sáng tạo kí hiệu viết tắt riêng để viết bản tường trình",
+          "Phải dùng thật nhiều từ địa phương khó hiểu trong mọi văn bản hành chính nhà nước",
+          "Cấm hoàn toàn các nhà văn sử dụng bất kì từ ngữ vùng miền nào trong truyện ngắn",
+          "Trong văn học có thể dùng từ địa phương có chọn lọc để gợi sắc thái vùng miền; nhưng trong văn bản hành chính cần dùng từ toàn dân rõ ràng, thống nhất"
+        ],
+        "k": "D",
+        "e": "Sử dụng ngôn ngữ phù hợp với hoàn cảnh và chức năng văn bản là biểu hiện của năng lực giao tiếp văn hóa.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân biệt phong cách ngôn ngữ vùng miền"
+      },
+      {
+        "c": "NV7-B05-015",
+        "d": "advanced",
+        "p": "Ba văn bản chính của Bài 5 đại diện cho ba vùng văn hóa (Hà Nội Bắc Bộ – Cố đô Huế Trung Bộ – Việt Bắc). Việc xếp cạnh nhau ba bức tranh ấy tạo nên thông điệp gì cho chủ đề \"Màu sắc trăm miền\"?",
+        "o": [
+          "Khẳng định rằng văn hóa vùng này tốt hơn hẳn văn hóa của các vùng khác",
+          "Khuyên mọi địa phương đều nên xóa bỏ lễ hội cổ truyền để giống hệt nhau",
+          "Giới thiệu lịch trình tua du lịch trọn gói bằng máy bay qua ba tỉnh",
+          "Bồi đắp tình yêu đa dạng văn hóa Việt Nam: mỗi vùng đất có một nét đẹp phong tục, lễ hội, ẩm thực riêng, cùng hòa làm bản sắc thống nhất giàu có của dân tộc"
+        ],
+        "k": "D",
+        "e": "Tôn trọng và tự hào về bản sắc từng vùng miền là nền tảng giữ gìn hồn cốt dân tộc Việt Nam.",
+        "s": "Ngữ Văn 7",
+        "h": "Tổng hợp chủ đề Màu sắc trăm miền"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan7-c2",
+    "lesson": {
+      "code": "nguvan7-b06",
+      "title": "Ôn tập Học kì I (Ngữ Văn 7)",
+      "seq": 6,
+      "subtitle": "Hệ thống hóa kiến thức Đọc hiểu Học kì I (truyện ngắn tuổi thơ, thơ 4–5 chữ, nhân vật văn học, tùy bút – tản văn vùng miền), Tiếng Việt (mở rộng câu, nói giảm nói tránh, số từ, phó từ, ngữ cảnh – nghĩa từ, dấu chấm lửng, từ địa phương) và các kiểu bài viết HK1",
+      "concepts": [
+        "Hệ thống thể loại Đọc hiểu HK1",
+        "Tổng hợp Tiếng Việt HK1",
+        "Tổng hợp kĩ năng viết HK1"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV7-B06-001",
+        "d": "basic",
+        "p": "Dựa vào bảng tổng hợp HK1, văn bản nào thuộc thể loại thơ bốn chữ?",
+        "o": [
+          "Bầy chim chìa vôi (Nguyễn Quang Thiều)",
+          "Chuyện cơm hến (Hoàng Phủ Ngọc Tường)",
+          "Người thầy đầu tiên (Chingiz Aitmatov)",
+          "Đồng dao mùa xuân (Nguyễn Khoa Điềm)"
+        ],
+        "k": "D",
+        "e": "\"Đồng dao mùa xuân\" viết theo thể thơ bốn chữ dung dị, sâu lắng; hai văn bản \"Bầy chim chìa vôi\" và \"Người thầy đầu tiên\" là truyện, \"Chuyện cơm hến\" là tản văn.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân loại thể loại HK1",
+        "fig": {
+          "type": "table",
+          "title": "Tổng hợp Văn bản HK1 (NV7)",
+          "head": [
+            "Thể loại",
+            "Tác phẩm tiêu biểu"
+          ],
+          "rows": [
+            [
+              "Truyện ngắn",
+              "Bầy chim chìa vôi"
+            ],
+            [
+              "Thơ 4–5 chữ",
+              "Mùa xuân nho nhỏ"
+            ],
+            [
+              "Tản văn, tùy bút",
+              "Trở gió, Cơm hến"
+            ],
+            [
+              "Văn hóa lễ hội",
+              "Hội lồng tồng"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV7-B06-002",
+        "d": "basic",
+        "p": "Trong câu \"Một số bạn học sinh đang chăm chú đọc sách dưới tán bàng xanh\", từ \"đang\" thuộc từ loại nào?",
+        "o": [
+          "Số từ",
+          "Tính từ chỉ màu sắc",
+          "Danh từ chỉ người",
+          "Phó từ"
+        ],
+        "k": "D",
+        "e": "\"đang\" đi kèm trước động từ \"đọc\" để bổ sung ý nghĩa thời gian tiếp diễn của hành động nên là phó từ.",
+        "s": "Ngữ Văn 7",
+        "h": "Ôn tập nhận diện phó từ"
+      },
+      {
+        "c": "NV7-B06-003",
+        "d": "basic",
+        "p": "Câu nào sau đây sử dụng biện pháp nói giảm nói tránh?",
+        "o": [
+          "Ngoài sân, tiếng ve râm ran gọi mùa hè sôi động trở về.",
+          "Bạn ấy viết chữ chưa được nắn nót lắm, cần luyện thêm mỗi ngày một chút.",
+          "Bạn ấy viết chữ xấu tệ chẳng ai đọc nổi một dòng nào cả.",
+          "Cánh đồng lúa chín vàng óng trải dài như tấm thảm lụa khổng lồ."
+        ],
+        "k": "B",
+        "e": "Cách diễn đạt \"chưa được nắn nót lắm\" làm nhẹ bớt nhận xét tiêu cực, giúp người nghe dễ tiếp thu mà không tự ti.",
+        "s": "Ngữ Văn 7",
+        "h": "Ôn tập nói giảm nói tránh"
+      },
+      {
+        "c": "NV7-B06-004",
+        "d": "basic",
+        "p": "Khi viết bài văn phân tích đặc điểm một nhân vật văn học (Bài 3), yếu tố nào KHÔNG ĐƯỢC phép thiếu?",
+        "o": [
+          "Danh sách đầy đủ tất cả các tác phẩm khác của nhà văn đó kèm năm in",
+          "Hệ thống dẫn chứng cụ thể từ chi tiết, hành động, lời nói của nhân vật trong văn bản để làm rõ từng đặc điểm tính cách",
+          "Bảng giá tiền bản quyền xuất bản cuốn sách tại các hiệu sách",
+          "Một đoạn kể lại chuyện vui ngoài đời không liên quan gì đến nhân vật"
+        ],
+        "k": "B",
+        "e": "Phân tích nhân vật luôn phải bám sát văn bản gốc, rút ra đặc điểm từ các chi tiết nghệ thuật tiêu biểu.",
+        "s": "Ngữ Văn 7",
+        "h": "Ôn tập kĩ năng phân tích nhân vật"
+      },
+      {
+        "c": "NV7-B06-005",
+        "d": "basic",
+        "p": "Số từ đứng sau danh từ trong cụm từ \"chương thứ tư\", \"hàng đầu tiên\", \"câu hỏi số năm\" có tác dụng gì?",
+        "o": [
+          "Chỉ mức độ cảm xúc vui buồn",
+          "Chỉ số lượng ước chừng nhiều ít",
+          "Chỉ thứ tự của sự vật, hiện tượng",
+          "Chỉ thời gian tiếp diễn của hành động"
+        ],
+        "k": "C",
+        "e": "Khi đứng sau danh từ (hoặc đi cùng \"thứ\", \"số\"), số từ biểu thị thứ tự xác định.",
+        "s": "Ngữ Văn 7",
+        "h": "Ôn tập số từ chỉ thứ tự"
+      },
+      {
+        "c": "NV7-B06-006",
+        "d": "basic",
+        "p": "Trong các câu sau, dấu chấm lửng ở câu nào có chức năng thể hiện chỗ lời nói bỏ dở ngập ngừng vì xúc động hoặc e ngại?",
+        "o": [
+          "Chợ quê ngày Tết bày bán đủ thứ: lá dong, gạo nếp, đỗ xanh, hành muối...",
+          "Con định nói với mẹ điều này lâu rồi nhưng... con sợ mẹ lại lo lắng thêm.",
+          "Mùa xuân mang về trăm hoa đua nở: hoa đào, hoa mai, hoa ban, hoa mận...",
+          "Các tỉnh miền Trung như Thanh Hóa, Nghệ An, Hà Tĩnh, Quảng Bình... đều giàu truyền thống hiếu học."
+        ],
+        "k": "B",
+        "e": "Ở câu đầu, dấu chấm lửng nằm giữa câu ngay tại chỗ người nói ngập ngừng không thốt nên lời trọn vẹn.",
+        "s": "Ngữ Văn 7",
+        "h": "Ôn tập công dụng dấu chấm lửng"
+      },
+      {
+        "c": "NV7-B06-007",
+        "d": "application",
+        "p": "Quan sát biểu đồ tỉ lệ làm đúng các chuyên đề Tiếng Việt HK1 của một lớp 7. Nội dung nào có tỉ lệ thấp nhất cần ưu tiên củng cố?",
+        "o": [
+          "Phân biệt từ ngữ địa phương (84%)",
+          "Xác định nghĩa của từ trong ngữ cảnh (62%)",
+          "Mở rộng thành phần câu (79%)",
+          "Nhận diện số từ và phó từ (88%)"
+        ],
+        "k": "B",
+        "e": "Cột \"Nghĩa theo ngữ cảnh\" đạt 62%, thấp nhất trong bốn chuyên đề được khảo sát trên biểu đồ.",
+        "s": "Ngữ Văn 7",
+        "h": "Đọc hiểu biểu đồ ôn tập HK1",
+        "fig": {
+          "type": "bars",
+          "title": "Tỉ lệ Đạt chuẩn Tiếng Việt HK1",
+          "labels": [
+            "Số/Phó từ",
+            "Mở rộng câu",
+            "Ngữ cảnh từ",
+            "Từ địa phương"
+          ],
+          "series": [
+            {
+              "values": [
+                88,
+                79,
+                62,
+                84
+              ]
+            }
+          ],
+          "unit": "%"
+        }
+      },
+      {
+        "c": "NV7-B06-008",
+        "d": "application",
+        "p": "Xác định nghĩa của từ \"mùa xuân\" trong câu: \"Lịch sử dân tộc ta đang bước vào một mùa xuân mới tươi sáng\". Ở ngữ cảnh này, \"mùa xuân\" mang nghĩa gì?",
+        "o": [
+          "Tên riêng của một danh lam thắng cảnh nằm ở miền núi phía Bắc",
+          "Nghĩa ẩn dụ chỉ giai đoạn phát triển mới đầy sức sống, niềm tin và hi vọng của đất nước",
+          "Nghĩa gốc chỉ khoảng thời gian từ tháng 1 đến tháng 3 hằng năm theo dương lịch",
+          "Tên một loài hoa dại thường nở ven bờ sông vào buổi sáng sớm"
+        ],
+        "k": "B",
+        "e": "Trong ngữ cảnh lịch sử – xã hội, \"mùa xuân mới\" là ẩn dụ biểu thị kỉ nguyên tươi đẹp, tràn đầy sinh lực.",
+        "s": "Ngữ Văn 7",
+        "h": "Giải nghĩa từ qua ngữ cảnh"
+      },
+      {
+        "c": "NV7-B06-009",
+        "d": "application",
+        "p": "So với câu: \"Mưa rơi\", câu mở rộng thành phần chính và trạng ngữ nào dưới đây phù hợp nhất với mạch tả cảnh đầu truyện \"Bầy chim chìa vôi\"?",
+        "o": [
+          "Cơn mưa mùa hè tưới mát cho vườn cây ăn quả.",
+          "Mưa rơi suốt buổi chiều nay ở sân trường.",
+          "Từ nửa đêm về sáng, những hạt mưa lạnh buốt vẫn trút xuống dải cát giữa sông mênh mông nước lũ.",
+          "Hôm qua có mưa rất nhiều."
+        ],
+        "k": "C",
+        "e": "Câu mở rộng có trạng ngữ thời gian và cụm danh từ – cụm động từ cụ thể tái hiện chính xác không khí đêm mưa trước lúc bình minh.",
+        "s": "Ngữ Văn 7",
+        "h": "Thực hành mở rộng câu trong ngữ cảnh"
+      },
+      {
+        "c": "NV7-B06-010",
+        "d": "application",
+        "p": "Điểm khác nhau căn bản về mục đích giao tiếp giữa \"Tóm tắt văn bản\" (Bài 1), \"Phân tích đặc điểm nhân vật\" (Bài 3) và \"Viết văn bản tường trình\" (Bài 5) là gì?",
+        "o": [
+          "Cả ba kiểu bài đều nhằm mục đích chính là sáng tác một câu chuyện hư cấu ly kì",
+          "Tóm tắt trình bày ngắn gọn nội dung cốt lõi; phân tích nhân vật làm rõ tính cách bằng dẫn chứng; tường trình báo cáo trung thực sự việc có trách nhiệm",
+          "Văn bản tường trình dùng nhiều biện pháp ẩn dụ, so sánh hơn bài phân tích nhân vật",
+          "Tóm tắt văn bản yêu cầu viết càng dài hơn bản gốc càng tốt"
+        ],
+        "k": "B",
+        "e": "Nắm rõ mục đích giao tiếp giúp lựa chọn đúng cấu trúc và phong cách ngôn ngữ cho từng bài viết.",
+        "s": "Ngữ Văn 7",
+        "h": "Hệ thống kiểu bài viết HK1"
+      },
+      {
+        "c": "NV7-B06-011",
+        "d": "application",
+        "p": "Trong câu \"Em đừng quên mang theo áo ấm khi trở gió nhé!\", có mấy phó từ và đó là những từ nào?",
+        "o": [
+          "Không có phó từ nào trong câu này",
+          "2 phó từ (\"mang\", \"theo\")",
+          "3 phó từ (\"em\", \"áo\", \"ấm\")",
+          "1 phó từ (\"đừng\" đi kèm động từ \"quên\" biểu thị ý nghĩa khuyên ngăn/cầu khiến)"
+        ],
+        "k": "D",
+        "e": "\"đừng\" là phó từ phủ định cầu khiến đứng trước động từ \"quên\".",
+        "s": "Ngữ Văn 7",
+        "h": "Tìm phó từ trong câu"
+      },
+      {
+        "c": "NV7-B06-012",
+        "d": "application",
+        "p": "Vì sao trong bài văn biểu cảm về một sự việc (ví dụ: kỉ niệm lần đầu xa nhà hay một ngày lễ hội đáng nhớ), người viết vẫn cần kết hợp yếu tố tự sự và miêu tả?",
+        "o": [
+          "Bởi tự sự luôn thay thế hoàn toàn vai trò của cảm xúc trong kết bài",
+          "Bởi người đọc chỉ quan tâm đến diễn biến sự việc mà không cần cảm xúc",
+          "Bởi tự sự và miêu tả giúp tái hiện sinh động khung cảnh, chi tiết sự việc làm điểm tựa chân thực để cảm xúc được khơi dậy tự nhiên, tránh sáo rỗng",
+          "Bởi bài văn biểu cảm không được phép dùng bất kì từ ngữ chỉ tình cảm nào"
+        ],
+        "k": "C",
+        "e": "Sự kết hợp hài hòa giữa tự sự – miêu tả – biểu cảm tạo nên chiều sâu cho bài văn biểu cảm.",
+        "s": "Ngữ Văn 7",
+        "h": "Vai trò tự sự, miêu tả trong văn biểu cảm"
+      },
+      {
+        "c": "NV7-B06-013",
+        "d": "advanced",
+        "p": "Khi đọc hiểu một bài thơ bốn chữ hoặc năm chữ mới ở đề kiểm tra HK1, trình tự phân tích nào giúp khai thác trọn vẹn cả nội dung lẫn nghệ thuật?",
+        "o": [
+          "Chỉ đếm tổng số chữ cái trong bài thơ rồi đoán năm sinh tác giả",
+          "Biến bài thơ thành bản tường trình hành chính theo mẫu quy định",
+          "Xác định thể thơ, vần nhịp và đề tài → Tìm các hình ảnh trung tâm, biện pháp tu từ và từ ngữ giàu sức gợi → Nêu cảm xúc chủ đạo và thông điệp của bài thơ",
+          "Chép lại nguyên văn ba khổ thơ bất kì mà không giải thích ý nghĩa hình ảnh nào"
+        ],
+        "k": "C",
+        "e": "Đọc hiểu thơ cần đi từ hình thức ngôn từ (nhịp, vần, hình ảnh, tu từ) đến chiều sâu cảm xúc và tư tưởng.",
+        "s": "Ngữ Văn 7",
+        "h": "Quy trình đọc hiểu thơ 4–5 chữ"
+      },
+      {
+        "c": "NV7-B06-014",
+        "d": "advanced",
+        "p": "Nhận xét nào đúng nhất về đóng góp của dòng văn xuôi tản văn, tùy bút Nam Bộ và cố đô (Đoàn Giỏi, Nguyễn Ngọc Tư, Hoàng Phủ Ngọc Tường) trong Ngữ văn 7 HK1?",
+        "o": [
+          "Sử dụng hoàn toàn lời thoại kịch hài hước để châm biếm người lao động",
+          "Khẳng định rằng văn học hiện đại không cần quan tâm đến thiên nhiên và phong tục",
+          "Chỉ tập trung phản ánh đời sống đô thị công nghiệp hiện đại phương Tây",
+          "Giúp học sinh cảm nhận vẻ đẹp phong phú của đất nước qua thiên nhiên sông nước, món ăn dân dã, tiếng nói vùng miền và tình người thủy chung sâu nặng"
+        ],
+        "k": "D",
+        "e": "Những trang văn giàu bản sắc vùng miền bồi đắp niềm tự hào văn hóa và tình yêu quê hương đất nước.",
+        "s": "Ngữ Văn 7",
+        "h": "Đánh giá giá trị văn xuôi vùng miền"
+      },
+      {
+        "c": "NV7-B06-015",
+        "d": "advanced",
+        "p": "Đọc câu: \"Trên chuyến đò đêm lặng lẽ... hai anh em chỉ còn nghe rõ tiếng thở gấp của dòng sông\". Nhận xét nào phân tích đúng nhất giá trị phối hợp của dấu chấm lửng và biện pháp nhân hóa?",
+        "o": [
+          "Câu văn mắc lỗi lặp từ khi dùng cả dấu chấm lửng và động từ miêu tả",
+          "Dấu chấm lửng tạo nhịp ngừng hồi hộp giữa đêm khuya kết hợp nhân hóa \"tiếng thở gấp dòng sông\" khắc họa sự căng thẳng của thiên nhiên trước giờ thử thách",
+          "Dấu chấm lửng dùng để liệt kê các loài cá sống dưới dòng sông",
+          "Nhân hóa làm dòng sông trở nên hiền hòa êm ả như một mặt hồ phẳng lặng"
+        ],
+        "k": "B",
+        "e": "Hai thủ pháp phối hợp tạo bầu không khí kịch tính, giàu chất tạo hình và âm thanh.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân tích phối hợp tu từ và dấu câu"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan7-c3",
+    "lesson": {
+      "code": "nguvan7-b07",
+      "title": "Bài 6. Bài học cuộc sống",
+      "seq": 7,
+      "subtitle": "Đọc hiểu truyện ngụ ngôn (Đẽo cày giữa đường, Ếch ngồi đáy giếng, Con hổ có nghĩa) và tục ngữ về thiên nhiên, lao động, con người; biện pháp tu từ nói quá; viết bài văn nghị luận về một vấn đề trong đời sống",
+      "concepts": [
+        "Truyện ngụ ngôn & bài học triết lí",
+        "Tục ngữ Việt Nam & biện pháp nói quá",
+        "Nghị luận về một vấn đề đời sống"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV7-B07-001",
+        "d": "basic",
+        "p": "Truyện ngụ ngôn dân gian thường có đặc điểm nổi bật nào?",
+        "o": [
+          "Văn bản khoa học cung cấp số liệu khí hậu qua các năm",
+          "Truyện kể ngắn gọn, dùng ẩn dụ (thường mượn chuyện loài vật, đồ vật hoặc một tình huống tiêu biểu) nhằm gửi gắm bài học kinh nghiệm sống sâu sắc",
+          "Bài thơ thất ngôn bát cú tuân thủ nghiêm ngặt niêm luật cổ điển",
+          "Truyện dài nhiều tập kể chi tiết tiểu sử các vị anh hùng lịch sử có thật"
+        ],
+        "k": "B",
+        "e": "Truyện ngụ ngôn mượn câu chuyện hàm súc để khuyên răn đạo lí hoặc phê phán thói hư tật xấu.",
+        "s": "Ngữ Văn 7",
+        "h": "Đặc trưng truyện ngụ ngôn",
+        "fig": {
+          "type": "table",
+          "title": "Ngụ ngôn & Tục ngữ (Bài 6)",
+          "head": [
+            "Tác phẩm",
+            "Hình tượng chính",
+            "Bài học cốt lõi"
+          ],
+          "rows": [
+            [
+              "Đẽo cày giữa đường",
+              "Người thợ mộc",
+              "Giữ vững chính kiến"
+            ],
+            [
+              "Ếch ngồi đáy giếng",
+              "Con ếch dưới giếng",
+              "Mở rộng tầm nhìn"
+            ],
+            [
+              "Tục ngữ dân gian",
+              "Câu ngắn có vần",
+              "Đúc kết kinh nghiệm"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV7-B07-002",
+        "d": "basic",
+        "p": "Trong truyện ngụ ngôn \"Ếch ngồi đáy giếng\", vì sao con ếch lại bị con trâu giẫm bẹp khi ra khỏi giếng?",
+        "o": [
+          "Vì quen sống trong đáy giếng nhỏ hẹp nên ếch tưởng bầu trời chỉ bé bằng cái vung, sinh lòng kiêu ngạo, nhâng nháo không thèm để ý xung quanh",
+          "Vì con ếch bị mù bẩm sinh nên không nhìn thấy bất kì con vật nào",
+          "Vì cơn bão lớn cuốn phăng con ếch rơi trúng đàn trâu đang chạy",
+          "Vì con trâu cố tình săn đuổi các loài lưỡng cư bên bờ ruộng"
+        ],
+        "k": "A",
+        "e": "Cái nhìn hạn hẹp lại tự phụ coi mình là chúa tể khiến chú ếch phải trả giá đắt khi bước ra thế giới rộng lớn.",
+        "s": "Ngữ Văn 7",
+        "h": "Nguyên nhân kết cục trong truyện"
+      },
+      {
+        "c": "NV7-B07-003",
+        "d": "basic",
+        "p": "Câu chuyện \"Đẽo cày giữa đường\" phê phán điều gì trong cách tiếp nhận ý kiến của người khác?",
+        "o": [
+          "Khuyên mọi người không bao giờ nên lắng nghe lời góp ý của ai",
+          "Thiếu lập trường, không có chính kiến vững vàng, ai nói gì cũng nghe theo khiến công sức đổ sông đổ bể",
+          "Phê phán những người nông dân hay đi lại trên đường cái",
+          "Khuyên người thợ mộc không nên làm nghề chế tạo nông cụ"
+        ],
+        "k": "B",
+        "e": "Mỗi người qua đường góp một ý trái ngược mà anh thợ mộc đều nghe theo nên cuối cùng đẽo hỏng cả khúc gỗ.",
+        "s": "Ngữ Văn 7",
+        "h": "Bài học từ Đẽo cày giữa đường"
+      },
+      {
+        "c": "NV7-B07-004",
+        "d": "basic",
+        "p": "Câu tục ngữ nào dưới đây đúc kết kinh nghiệm dự báo thời tiết trong lao động sản xuất của ông cha ta?",
+        "o": [
+          "Một cây làm chẳng nên non, ba cây chụm lại nên hòn núi cao",
+          "Học thầy không tày học bạn",
+          "Lời nói chẳng mất tiền mua, lựa lời mà nói cho vừa lòng nhau",
+          "Chuồn chuồn bay thấp thì mưa, bay cao thì nắng, bay vừa thì râm"
+        ],
+        "k": "D",
+        "e": "Quan sát tập tính bay của chuồn chuồn giúp nông dân đoán biết sự thay đổi độ ẩm không khí và thời tiết.",
+        "s": "Ngữ Văn 7",
+        "h": "Nhận diện tục ngữ về thiên nhiên"
+      },
+      {
+        "c": "NV7-B07-005",
+        "d": "basic",
+        "p": "Biện pháp tu từ phóng đại quy mô, mức độ, tính chất của sự vật, hiện tượng được miêu tả để nhấn mạnh và gây ấn tượng mạnh gọi là gì?",
+        "o": [
+          "Chơi chữ",
+          "Nói quá",
+          "Đảo ngữ",
+          "Nói giảm nói tránh"
+        ],
+        "k": "B",
+        "e": "Nói quá (khoa trương, thậm xưng) phóng đại có dụng ý nghệ thuật chứ không phải nói dối vô căn cứ.",
+        "s": "Ngữ Văn 7",
+        "h": "Khái niệm biện pháp nói quá"
+      },
+      {
+        "c": "NV7-B07-006",
+        "d": "basic",
+        "p": "Câu tục ngữ \"Đêm tháng Năm chưa nằm đã sáng / Ngày tháng Mười chưa cười đã tối\" sử dụng biện pháp tu từ nào để khắc họa sự chênh lệch độ dài ngày đêm theo mùa?",
+        "o": [
+          "Nói quá kết hợp phép đối",
+          "Ẩn dụ chuyển đổi cảm giác",
+          "Nói giảm nói tránh nhẹ nhàng",
+          "Nhân hóa và chơi chữ"
+        ],
+        "k": "A",
+        "e": "Cách nói \"chưa nằm đã sáng\", \"chưa cười đã tối\" phóng đại đầy dí dỏm giúp người nghe nhớ rất lâu đặc điểm mùa hạ và mùa đông.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân tích nói quá trong tục ngữ"
+      },
+      {
+        "c": "NV7-B07-007",
+        "d": "application",
+        "p": "Trong truyện \"Con hổ có nghĩa\" (Vũ Trinh), chi tiết hai con hổ trả ơn bà đỡ Trần và người tiều phu (tặng bạc, đưa tiễn, nằm phủ phục bên mộ) có ý nghĩa gì?",
+        "o": [
+          "Mượn chuyện loài hổ biết trọng nghĩa tình để đề cao đạo lí \"ăn quả nhớ kẻ trồng cây\", sống thủy chung có trước có sau của con người",
+          "Chứng minh rằng tất cả loài thú dữ trong rừng đều có thể nuôi làm thú cưng trong nhà",
+          "Hướng dẫn kĩ năng khai thác lâm sản ở vùng rừng núi phía Bắc",
+          "Phê phán nghề làm thuốc chữa bệnh thời phong kiến"
+        ],
+        "k": "A",
+        "e": "Đến loài hổ dữ còn biết báo ân cứu mạng, qua đó nhắc nhở con người càng phải sống trọng ân nghĩa.",
+        "s": "Ngữ Văn 7",
+        "h": "Thông điệp Con hổ có nghĩa"
+      },
+      {
+        "c": "NV7-B07-008",
+        "d": "application",
+        "p": "Trong câu tục ngữ \"Không thầy đố mày làm nên\" và \"Học thầy không tày học bạn\", nếu đặt hai câu cạnh nhau thì nên hiểu thế nào cho thấu đáo?",
+        "o": [
+          "Cả hai câu đều khuyên học sinh nghỉ học ở trường để tự chơi cùng bạn",
+          "Hai câu bổ sung cho nhau: vừa khẳng định vai trò dẫn dắt không thể thiếu của người thầy, vừa đề cao tinh thần chủ động học hỏi, trao đổi cùng bạn bè",
+          "Câu thứ nhất đúng cho môn Toán còn câu thứ hai chỉ đúng cho môn Âm nhạc",
+          "Hai câu mâu thuẫn hoàn toàn nên chỉ được phép tin vào một câu duy nhất"
+        ],
+        "k": "B",
+        "e": "Tục ngữ phản ánh kinh nghiệm đa chiều; đặt cạnh nhau mới thấy sự kết hợp giữa dạy dỗ của thầy và học hỏi từ bạn.",
+        "s": "Ngữ Văn 7",
+        "h": "Hiểu thấu đáo kho tàng tục ngữ"
+      },
+      {
+        "c": "NV7-B07-009",
+        "d": "application",
+        "p": "Phân biệt \"nói quá\" (biện pháp tu từ) và \"nói khoác\" (nói dối để khoe khoang): nhận định nào sau đây chuẩn xác?",
+        "o": [
+          "Nói quá và nói khoác hoàn toàn giống nhau về mục đích giao tiếp",
+          "Nói quá luôn dùng các con số nhỏ hơn thực tế còn nói khoác luôn dùng số lớn",
+          "Nói quá chỉ dùng trong văn xuôi còn nói khoác chỉ dùng trong thơ lục bát",
+          "Nói quá nhằm nhấn mạnh bản chất, tăng sức biểu cảm và người nghe hiểu ý thật; nói khoác nhằm lừa dối, phô trương sai sự thật"
+        ],
+        "k": "D",
+        "e": "Ví dụ: \"Mồ hôi thánh thót như mưa ruộng cày\" là nói quá ca ngợi nỗi vất vả; còn khoe \"tôi từng bắt được cá voi bằng tay không\" là nói khoác.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân biệt nói quá và nói khoác"
+      },
+      {
+        "c": "NV7-B07-010",
+        "d": "application",
+        "p": "Khi viết bài văn nghị luận về một vấn đề trong đời sống (trình bày ý kiến tán thành hay phản đối một thói quen, quan niệm — ví dụ: thói quen ỷ lại, hoặc quan niệm \"nước đến chân mới nhảy\"), phần Thân bài cần triển khai thế nào?",
+        "o": [
+          "Giải thích vấn đề → Nêu rõ ý kiến tán thành hoặc phản đối → Đưa lí lẽ, bằng chứng thuyết phục → Mở rộng và nêu giải pháp",
+          "Chỉ viết hai câu khẳng định \"Em đồng ý\" mà không đưa ra bất kì lí lẽ nào",
+          "Chỉ chép lại nguyên văn một truyện ngụ ngôn rồi kết thúc bài",
+          "Kể lể chuyện cá nhân không liên quan đến vấn đề nghị luận suốt cả bài"
+        ],
+        "k": "A",
+        "e": "Nghị luận bày tỏ thái độ cần lập luận chặt chẽ, có lí lẽ sắc bén và bằng chứng thực tế thuyết phục.",
+        "s": "Ngữ Văn 7",
+        "h": "Cấu trúc bài nghị luận tán thành/phản đối"
+      },
+      {
+        "c": "NV7-B07-011",
+        "d": "application",
+        "p": "Một học sinh chỉ đạt kết quả khá ở lớp nhưng luôn cho rằng mình giỏi nhất không cần lắng nghe góp ý từ thầy cô và bạn bè. Truyện ngụ ngôn nào là lời cảnh tỉnh sát nhất với bạn ấy?",
+        "o": [
+          "Con hổ có nghĩa",
+          "Thạch Sanh",
+          "Cô bé bán diêm",
+          "Ếch ngồi đáy giếng"
+        ],
+        "k": "D",
+        "e": "\"Ếch ngồi đáy giếng\" phê phán thái độ chủ quan, tầm nhìn hạn hẹp mà kiêu ngạo tự mãn.",
+        "s": "Ngữ Văn 7",
+        "h": "Vận dụng bài học ngụ ngôn vào thực tế"
+      },
+      {
+        "c": "NV7-B07-012",
+        "d": "application",
+        "p": "Câu tục ngữ nào dưới đây dùng nghệ thuật ẩn dụ để khuyên con người giữ lòng tự trọng, trong sạch giữa hoàn cảnh khó khăn?",
+        "o": [
+          "Nhất nước, nhì phân, tam cần, tứ giống",
+          "Đói cho sạch, rách cho thơm",
+          "Kiến tha lâu cũng đầy tổ",
+          "Trăng quầng thì hạn, trăng tán thì mưa"
+        ],
+        "k": "B",
+        "e": "\"Đói cho sạch, rách cho thơm\" đối xứng ngắn gọn mà sâu sắc về nhân cách ngay thẳng, liêm khiết.",
+        "s": "Ngữ Văn 7",
+        "h": "Cảm nhận tục ngữ về nhân cách"
+      },
+      {
+        "c": "NV7-B07-013",
+        "d": "advanced",
+        "p": "Nếu đặt câu chuyện \"Đẽo cày giữa đường\" vào đời sống học đường hiện nay (nhiều luồng ý kiến trên mạng xã hội), thái độ ứng xử đúng đắn nhất rút ra từ truyện là gì?",
+        "o": [
+          "Lắng nghe góp ý thiện chí nhưng phải biết sàng lọc, suy xét dựa trên mục tiêu và hiểu biết vững vàng của bản thân chứ không chạy theo đám đông một cách mù quáng",
+          "Đóng cửa không lắng nghe bất kì lời khuyên nào từ cha mẹ hay thầy cô",
+          "Không bao giờ đặt ra mục tiêu cá nhân để khỏi phải chỉnh sửa kế hoạch",
+          "Ai bình luận gì trên mạng cũng tin theo ngay lập tức rồi thay đổi quyết định liên tục"
+        ],
+        "k": "A",
+        "e": "Kết hợp giữa cầu thị lắng nghe và bản lĩnh giữ vững mục tiêu đúng là thông điệp hiện đại của truyện ngụ ngôn xưa.",
+        "s": "Ngữ Văn 7",
+        "h": "Liên hệ thực tiễn ngụ ngôn"
+      },
+      {
+        "c": "NV7-B07-014",
+        "d": "advanced",
+        "p": "Vì sao hình thức ngắn gọn, giàu vần điệu đối xứng (như \"Có công mài sắt, có ngày nên kim\", \"Gần mực thì đen, gần đèn thì rạng\") giúp tục ngữ sống bền bỉ qua hàng nghìn năm?",
+        "o": [
+          "Vì tục ngữ được in trên đá quý ở tất cả các ngôi trường cổ đại",
+          "Vì mỗi câu tục ngữ đều có một cốt truyện dài hàng chục trang đi kèm",
+          "Nhờ tính cô đọng, nhịp điệu cân đối dễ thuộc dễ nhớ, hình ảnh cụ thể gắn với đời sống và sức khái quát chân lí phổ quát",
+          "Vì người xưa bắt buộc mọi người phải viết bài thi phân tích tục ngữ hằng tuần"
+        ],
+        "k": "C",
+        "e": "Hình thức ngôn ngữ tinh luyện của dân gian biến tri thức hàng trăm năm thành những \"túi khôn\" súc tích.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân tích giá trị nghệ thuật tục ngữ"
+      },
+      {
+        "c": "NV7-B07-015",
+        "d": "advanced",
+        "p": "Trong đoạn văn nghị luận bàn về tinh thần tự học, câu chuyển đoạn nào vừa nêu rõ quan điểm vừa kết nối tự nhiên giữa lí lẽ và bằng chứng?",
+        "o": [
+          "Tục ngữ Việt Nam có rất nhiều câu hay về thời tiết và trồng lúa nước.",
+          "Tự học là tốt lắm nhưng nhiều khi em cũng lười học bài buổi tối.",
+          "Ngoài trời đang mưa nên em muốn kể lại kỉ niệm đi thả diều hồi lớp 5.",
+          "Chính tinh thần chủ động tự học giúp học sinh biến tri thức thành năng lực thực sự, như tấm gương nhiều bạn vùng khó khăn tự tìm tòi vươn lên."
+        ],
+        "k": "D",
+        "e": "Câu chuyển đoạn mẫu vừa khái quát luận điểm vừa mở lối mượt mà sang bằng chứng thực tế.",
+        "s": "Ngữ Văn 7",
+        "h": "Kĩ năng viết câu chuyển ý nghị luận"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan7-c3",
+    "lesson": {
+      "code": "nguvan7-b08",
+      "title": "Bài 7. Thế giới viễn tưởng",
+      "seq": 8,
+      "subtitle": "Đọc hiểu truyện khoa học viễn tưởng (Cuộc chạm trán trên đại dương – Jules Verne, Đường vào trung tâm vũ trụ – Hà Thủy Nguyên, Dấu ấn Hồ Khanh), mạch lạc và liên kết văn bản, mở rộng thành phần câu/chữa lỗi logic và viết bài văn kể lại sự việc có thật liên quan đến nhân vật hoặc sự kiện lịch sử",
+      "concepts": [
+        "Truyện khoa học viễn tưởng",
+        "Mạch lạc và liên kết trong văn bản",
+        "Kể lại sự việc liên quan nhân vật lịch sử"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV7-B08-001",
+        "d": "basic",
+        "p": "Đoạn trích \"Cuộc chạm trán trên đại dương\" trong Ngữ văn 7 được trích từ tiểu thuyết khoa học viễn tưởng lừng danh nào của nhà văn Pháp Giuyn Véc-nơ (Jules Verne)?",
+        "o": [
+          "Từ Trái Đất lên Mặt Trăng",
+          "Hành trình vào tâm Trái Đất",
+          "Tám mươi ngày vòng quanh thế giới",
+          "Hai vạn dặm dưới đáy biển"
+        ],
+        "k": "D",
+        "e": "Giuyn Véc-nơ – \"cha đẻ của truyện khoa học viễn tưởng\" – viết \"Hai vạn dặm dưới đáy biển\" với hình ảnh tàu ngầm Nau-ti-lơt kì vĩ.",
+        "s": "Ngữ Văn 7",
+        "h": "Xuất xứ truyện khoa học viễn tưởng",
+        "fig": {
+          "type": "table",
+          "title": "Thế giới Viễn tưởng (Bài 7)",
+          "head": [
+            "Văn bản",
+            "Tác giả",
+            "Đề tài chính"
+          ],
+          "rows": [
+            [
+              "Chạm trán đại dương",
+              "Jules Verne",
+              "Tàu ngầm Nau-ti-lơt"
+            ],
+            [
+              "Trung tâm vũ trụ",
+              "Hà Thủy Nguyên",
+              "Phiêu lưu đa vũ trụ"
+            ],
+            [
+              "Dấu ấn Hồ Khanh",
+              "Nhật Minh",
+              "Khám phá Sơn Đoòng"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV7-B08-002",
+        "d": "basic",
+        "p": "Điểm đặc trưng cốt lõi của thể loại truyện khoa học viễn tưởng (phân biệt với truyện cổ tích thần kì) là gì?",
+        "o": [
+          "Trí tưởng tượng phong phú được xây dựng dựa trên cơ sở những tri thức, giả thuyết khoa học và công nghệ có căn cứ logic",
+          "Hoàn toàn không có nhân vật, không gian hay diễn biến sự việc nào",
+          "Mọi phép màu đều dựa vào đũa thần của ông Bụt và bà Tiên trong truyện dân gian",
+          "Chỉ ghi chép trung thực biên bản một phiên tòa xử án hình sự"
+        ],
+        "k": "A",
+        "e": "Khoa học viễn tưởng đặt trí tưởng tượng trên nền tảng tri thức khoa học (đại dương học, vũ trụ, công nghệ tương lai), khác với phép màu cổ tích.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân biệt khoa học viễn tưởng và cổ tích"
+      },
+      {
+        "c": "NV7-B08-003",
+        "d": "basic",
+        "p": "Trong \"Cuộc chạm trán trên đại dương\", con \"quái vật\" bí ẩn mà tàu chiến A-bra-ham Lin-côn truy đuổi thực chất là gì?",
+        "o": [
+          "Một con bạch tuộc khổng lồ có khả năng phát sáng",
+          "Một con cá voi xanh khổng lồ nặng hàng nghìn tấn",
+          "Một chiếc tàu ngầm vỏ thép hiện đại phi thường (tàu Nau-ti-lơt của thuyền trưởng Nê-mô)",
+          "Một tảng băng trôi từ Nam Cực lạc lên vùng xích đạo"
+        ],
+        "k": "C",
+        "e": "Cú va chạm kịch tính hé lộ sinh vật phát sáng tưởng là quái vật biển thực chất là con tàu ngầm bằng thép kì diệu.",
+        "s": "Ngữ Văn 7",
+        "h": "Bí mật trong Cuộc chạm trán trên đại dương"
+      },
+      {
+        "c": "NV7-B08-004",
+        "d": "basic",
+        "p": "Hai tính chất quan trọng giúp một văn bản trở thành chỉnh thể thống nhất, dễ hiểu cho người đọc là gì?",
+        "o": [
+          "Tính vần điệu lục bát và tính phóng đại khoa trương ở mọi câu văn",
+          "Độ dài tối thiểu mười trang và số lượng hình vẽ minh họa nhiều màu sắc",
+          "Sử dụng thật nhiều từ ngữ địa phương và câu hỏi tu từ nối tiếp",
+          "Tính mạch lạc (các phần hướng về một chủ đề chung theo trình tự hợp lí) và tính liên kết (các câu, đoạn kết nối chặt chẽ bằng từ ngữ liên kết)"
+        ],
+        "k": "D",
+        "e": "Mạch lạc là sợi dây kết nối ý nghĩa; liên kết là phương tiện ngôn ngữ (phép lặp, phép nối, phép thế...) nối các câu, các đoạn.",
+        "s": "Ngữ Văn 7",
+        "h": "Khái niệm mạch lạc và liên kết"
+      },
+      {
+        "c": "NV7-B08-005",
+        "d": "basic",
+        "p": "Văn bản \"Dấu ấn Hồ Khanh\" kể về khám phá hang động tự nhiên có thật nào nổi tiếng thế giới tại Quảng Bình (Việt Nam)?",
+        "o": [
+          "Động Hương Tích ở vùng núi Hà Nội",
+          "Hang Pác Bó ở tỉnh Cao Bằng",
+          "Hang Sơn Đoòng (hang động tự nhiên lớn nhất thế giới)",
+          "Thạch động ở vùng biển Hà Tiên"
+        ],
+        "k": "C",
+        "e": "Ông Hồ Khanh – người dân địa phương Phong Nha – tình cờ phát hiện cửa hang Sơn Đoòng và góp phần đưa kì quan này ra thế giới.",
+        "s": "Ngữ Văn 7",
+        "h": "Kiến thức văn bản Dấu ấn Hồ Khanh"
+      },
+      {
+        "c": "NV7-B08-006",
+        "d": "basic",
+        "p": "Đoạn trích \"Đường vào trung tâm vũ trụ\" của tác giả Hà Thủy Nguyên kể về cuộc phiêu lưu kì thú của hai nhân vật nhỏ tuổi cùng con ngựa có cánh nào?",
+        "o": [
+          "Thần đồng (nhân vật \"tôi\"), cô bạn Thần Thoại và con ngựa có cánh tên Ô-ri-ôn",
+          "Giáo sư A-rô-nắc và Nét Len",
+          "Cậu bé An, Cò và con chó vện",
+          "Dế Mèn, Dế Trũi và chị Cốc"
+        ],
+        "k": "A",
+        "e": "Truyện mở ra không gian huyền bí kết hợp giả thuyết khoa học về tâm vũ trụ qua bộ ba bạn nhỏ và chú ngựa Ô-ri-ôn.",
+        "s": "Ngữ Văn 7",
+        "h": "Nhân vật Đường vào trung tâm vũ trụ"
+      },
+      {
+        "c": "NV7-B08-007",
+        "d": "application",
+        "p": "Vì sao các nhà văn khoa học viễn tưởng như Jules Verne (viết thế kỉ XIX khi tàu ngầm hiện đại chưa phổ biến) lại có thể hình dung rất hợp lí về vỏ thép, ánh sáng điện, tốc độ dưới lòng biển?",
+        "o": [
+          "Vì nhà văn sở hữu cỗ máy thời gian quay ngược từ thế kỉ XXI về quá khứ",
+          "Vì tác giả chỉ viết ngẫu nhiên không cần tìm hiểu bất kì định luật vật lí nào",
+          "Vì ở thế kỉ XIX mọi gia đình đều đã đi làm bằng tàu ngầm cá nhân",
+          "Vì nhà văn nghiên cứu sâu kiến thức vật lí, hàng hải đương thời và biết suy luận mở rộng logic hướng tới tương lai công nghệ"
+        ],
+        "k": "D",
+        "e": "Sự am hiểu khoa học giúp dự báo viễn tưởng của Jules Verne trở nên thuyết phục và truyền cảm hứng cho nhiều phát minh thật sau này.",
+        "s": "Ngữ Văn 7",
+        "h": "Cơ sở khoa học trong viễn tưởng"
+      },
+      {
+        "c": "NV7-B08-008",
+        "d": "application",
+        "p": "Xác định phép liên kết chủ yếu giữa hai câu sau: \"Chiếc tàu ngầm lướt đi êm ru dưới đáy biển sâu. Nó như một mũi tên bạc xé tan màn nước tối thẫm.\"",
+        "o": [
+          "Phép thế (dùng đại từ \"Nó\" thay thế cho \"Chiếc tàu ngầm\")",
+          "Phép trái nghĩa giữa hai động từ chính",
+          "Phép nối bằng quan hệ từ \"Tuy nhiên\"",
+          "Phép lặp từ ngữ y nguyên toàn bộ câu trước"
+        ],
+        "k": "A",
+        "e": "Đại từ \"Nó\" ở câu sau thay thế trực tiếp cho cụm danh từ \"Chiếc tàu ngầm\" ở câu trước, tránh lặp từ mà vẫn nối liền mạch.",
+        "s": "Ngữ Văn 7",
+        "h": "Nhận diện phép liên kết câu"
+      },
+      {
+        "c": "NV7-B08-009",
+        "d": "application",
+        "p": "Đoạn văn nào dưới đây mắc lỗi thiếu mạch lạc (lạc đề) cần chỉnh sửa?",
+        "o": [
+          "Mặt trăng là vệ tinh tự nhiên của Trái Đất. Trên bề mặt Mặt Trăng có nhiều hố thiên thạch lớn. Hôm qua em mua một chiếc bút mực màu xanh ở cổng trường rất đẹp.",
+          "Hồ Khanh luôn trân trọng cánh rừng quê hương. Chính lòng yêu rừng và sự kiên trì đã giúp ông tìm lại được cửa hang Sơn Đoòng.",
+          "Ban đầu mọi người tưởng vật thể phát sáng là quái vật biển. Tuy nhiên, cú va chạm đã cho thấy đó là một con tàu ngầm bằng thép.",
+          "Giáo sư A-rô-nắc say mê quan sát đại dương. Nhờ vậy, ông phát hiện ra nhiều sinh vật kì lạ dưới đáy biển."
+        ],
+        "k": "A",
+        "e": "Câu thứ ba nhảy đột ngột sang chuyện mua bút mực, không cùng chủ đề về Mặt Trăng nên phá vỡ tính mạch lạc.",
+        "s": "Ngữ Văn 7",
+        "h": "Phát hiện lỗi mạch lạc đoạn văn"
+      },
+      {
+        "c": "NV7-B08-010",
+        "d": "application",
+        "p": "Khi viết bài văn kể lại một sự việc có thật liên quan đến nhân vật hoặc sự kiện lịch sử (ví dụ: kể lại sự kiện Bác Hồ đọc Tuyên ngôn Độc lập, hoặc chiến thắng Bạch Đằng), yêu cầu bắt buộc hàng đầu là gì?",
+        "o": [
+          "Thay đổi tên nhân vật lịch sử thật thành tên nhân vật hoạt hình hiện đại",
+          "Tưởng tượng ra phép màu thần tiên khiến đội quân cổ đại bay lên trời bằng đĩa bay",
+          "Chỉ viết một đoạn cảm nghĩ chung chung mà không nhắc bất kì chi tiết lịch sử nào",
+          "Tôn trọng sự thật lịch sử (đúng tên nhân vật, mốc thời gian, địa điểm, diễn biến cốt lõi), kết hợp miêu tả không khí và nêu ý nghĩa lịch sử của sự kiện"
+        ],
+        "k": "D",
+        "e": "Sự việc có thật gắn với lịch sử không được xuyên tạc cốt lõi sự thật; yếu tố miêu tả giúp câu chuyện sống động chân thực hơn.",
+        "s": "Ngữ Văn 7",
+        "h": "Nguyên tắc kể sự kiện lịch sử"
+      },
+      {
+        "c": "NV7-B08-011",
+        "d": "application",
+        "p": "Chi tiết ông Hồ Khanh kiên trì cùng đoàn thám hiểm Hoàng gia Anh lặn lội nhiều ngày giữa rừng sâu tìm lại cửa hang Sơn Đoòng gửi gắm bài học nào cho tuổi trẻ?",
+        "o": [
+          "Chỉ cần may mắn đi lạc một lần là tự động trở thành nhà khoa học nổi tiếng",
+          "Khát vọng khám phá thế giới tự nhiên cần đi đôi với lòng bền bỉ, sự am hiểu địa phương và tinh thần hợp tác chân thành",
+          "Người dân địa phương không thể đóng góp gì cho các phát hiện khoa học lớn",
+          "Không cần bảo tồn hang động tự nhiên sau khi đã chụp xong ảnh kỉ niệm"
+        ],
+        "k": "B",
+        "e": "Thành công khám phá Sơn Đoòng là kết quả của kinh nghiệm đi rừng lâu năm và sự kiên trì đáng khâm phục.",
+        "s": "Ngữ Văn 7",
+        "h": "Bài học từ Dấu ấn Hồ Khanh"
+      },
+      {
+        "c": "NV7-B08-012",
+        "d": "application",
+        "p": "Trong câu: \"Trong khoang tàu Nau-ti-lơt rực sáng ánh điện, mọi người đều sững sờ trước thư viện đồ sộ; nhưng giáo sư vẫn giữ được sự điềm tĩnh lạ thường\", từ \"nhưng\" thực hiện chức năng liên kết nào?",
+        "o": [
+          "Lặp lại từ ngữ nhằm nhấn mạnh cảm xúc ngạc nhiên",
+          "Báo hiệu kết thúc hoàn toàn văn bản thuyết minh",
+          "Nối hai vế câu mang quan hệ tương phản (mọi người sững sờ — giáo sư vẫn điềm tĩnh)",
+          "Thay thế danh từ chỉ người ở vế trước"
+        ],
+        "k": "C",
+        "e": "Quan hệ từ \"nhưng\" nối hai vế có nghĩa đối lập, tăng sự rõ ràng cho diễn biến tâm lí nhân vật.",
+        "s": "Ngữ Văn 7",
+        "h": "Phép nối bằng quan hệ từ"
+      },
+      {
+        "c": "NV7-B08-013",
+        "d": "advanced",
+        "p": "Trong đoạn \"Cuộc chạm trán trên đại dương\", việc tác giả kể lại biến cố từ góc nhìn ngôi thứ nhất của giáo sư A-rô-nắc (một nhà khoa học) tạo ra ưu thế nghệ thuật gì?",
+        "o": [
+          "Giúp những quan sát kĩ thuật dưới biển trở nên đáng tin cậy, đồng thời truyền tải trọn vẹn sự hồi hộp từ ngỡ ngàng ban đầu đến khát khao khám phá tri thức",
+          "Biến câu chuyện thành một bài thơ trữ tình bốn chữ ngắn gọn",
+          "Giấu kín hoàn toàn những cảm xúc lo âu của nhân vật trước hiểm nguy",
+          "Làm người đọc không thể biết được tên của chiếc tàu chiến và các thủy thủ"
+        ],
+        "k": "A",
+        "e": "Góc nhìn của nhà khoa học vừa tăng tính xác thực viễn tưởng vừa làm bật vẻ đẹp của lòng say mê tri thức.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân tích hiệu quả ngôi kể trong viễn tưởng"
+      },
+      {
+        "c": "NV7-B08-014",
+        "d": "advanced",
+        "p": "Đọc câu mở đầu cho phần Kết bài văn kể sự việc lịch sử: \"Chiến thắng Điện Biên Phủ năm 1954 đã khép lại chín năm kháng chiến trường kì, mở ra trang sử độc lập tự do và nhắc nhở thế hệ trẻ hôm nay biết trân trọng hòa bình.\" Điểm mạnh của câu kết này là gì?",
+        "o": [
+          "Sử dụng dấu chấm lửng liên tiếp để bỏ ngỏ không rõ kết quả trận đánh",
+          "Vừa khẳng định tầm vóc sự kiện lịch sử trong quá khứ vừa kết nối được trách nhiệm tiếp nối của thế hệ trẻ hôm nay",
+          "Đổi sang kể một câu chuyện viễn tưởng về hành tinh khác",
+          "Liệt kê lại chi tiết giá thành từng khẩu pháo được kéo lên đồi"
+        ],
+        "k": "B",
+        "e": "Kết bài hay cho sự việc lịch sử cần đọng lại giá trị trường tồn và bài học cho hiện tại.",
+        "s": "Ngữ Văn 7",
+        "h": "Đánh giá kết bài sự kiện lịch sử"
+      },
+      {
+        "c": "NV7-B08-015",
+        "d": "advanced",
+        "p": "Khi đặt một truyện giả tưởng (\"Đường vào trung tâm vũ trụ\") bên cạnh một bài phóng sự sự kiện thật (\"Dấu ấn Hồ Khanh\") trong cùng Bài 7, sách Ngữ văn 7 muốn gợi mở điều gì?",
+        "o": [
+          "Rằng học sinh chỉ nên đọc tiểu thuyết giả tưởng chứ không cần tìm hiểu địa lí Việt Nam",
+          "Cả truyện giả tưởng lẫn thám hiểm thực tế đều bắt nguồn từ khát khao khám phá những bí ẩn kì vĩ của vũ trụ và Trái Đất",
+          "Rằng hai văn bản thuộc cùng một thể loại truyện cổ tích dân gian",
+          "Rằng hang Sơn Đoòng thực chất là sản phẩm tưởng tượng không có thật trên bản đồ"
+        ],
+        "k": "B",
+        "e": "Khoa học viễn tưởng và thám hiểm hiện thực cùng nuôi dưỡng trí tò mò khoa học và niềm say mê khám phá.",
+        "s": "Ngữ Văn 7",
+        "h": "Kết nối liên văn bản Bài 7"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan7-c3",
+    "lesson": {
+      "code": "nguvan7-b09",
+      "title": "Bài 8. Trải nghiệm để trưởng thành",
+      "seq": 9,
+      "subtitle": "Đọc hiểu truyện ngắn và văn bản nghị luận về trưởng thành (Bản đồ dẫn đường – Đa-ni-en Gốt-li-ép, Hãy cầm lấy và đọc – Huỳnh Như Phương, Nói với con – Y Phương), thuật ngữ và cách giải thích thuật ngữ, viết bài văn nghị luận về một vấn đề trong đời sống (trình bày ý kiến phản đối hoặc tán thành)",
+      "concepts": [
+        "Văn bản nghị luận & ý nghĩa trải nghiệm",
+        "Thuật ngữ khoa học",
+        "Lập luận tán thành hay phản đối"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV7-B09-001",
+        "d": "basic",
+        "p": "Trong văn bản \"Bản đồ dẫn đường\" (Đa-ni-en Gốt-li-ép), người ông viết thư khuyên cháu trai Xam điều gì về \"tấm bản đồ\" cuộc đời?",
+        "o": [
+          "Mỗi người phải tự tìm kiếm, vẽ nên \"tấm bản đồ\" cho riêng mình qua những trải nghiệm, vấp ngã và suy ngẫm chứ không thể sao chép máy móc từ người khác",
+          "Luôn tránh né mọi thử thách khó khăn để khỏi bao giờ mắc sai lầm",
+          "Chỉ cần mua một tấm bản đồ giao thông giấy mới nhất là đủ thành công suốt đời",
+          "Làm theo mọi lựa chọn của hàng xóm mà không cần hiểu mình muốn gì"
+        ],
+        "k": "A",
+        "e": "Bức thư giàu triết lí khuyên tuổi trẻ tự chủ tìm kiếm con đường và giá trị sống đích thực của bản thân.",
+        "s": "Ngữ Văn 7",
+        "h": "Thông điệp Bản đồ dẫn đường",
+        "fig": {
+          "type": "table",
+          "title": "Trải nghiệm Trưởng thành (Bài 8)",
+          "head": [
+            "Văn bản",
+            "Tác giả",
+            "Thông điệp chính"
+          ],
+          "rows": [
+            [
+              "Bản đồ dẫn đường",
+              "D. Gottlieb",
+              "Tự vẽ bản đồ đời"
+            ],
+            [
+              "Hãy cầm lấy và đọc",
+              "Huỳnh Như Phương",
+              "Đọc sâu, mở trí tuệ"
+            ],
+            [
+              "Nói với con",
+              "Y Phương",
+              "Tự hào cội nguồn"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV7-B09-002",
+        "d": "basic",
+        "p": "Bài viết \"Hãy cầm lấy và đọc\" của tác giả Huỳnh Như Phương bàn về vấn đề gì?",
+        "o": [
+          "Kể lại chuyến du lịch bằng tàu hỏa dọc miền Trung",
+          "Ý nghĩa to lớn của việc đọc sách đối với sự phát triển trí tuệ, nhân cách và phương pháp đọc sách đúng đắn trong thời đại số",
+          "Hướng dẫn quy trình sản xuất giấy in sách từ gỗ rừng trồng",
+          "Phê phán những người thích đọc tiểu thuyết văn học cổ điển"
+        ],
+        "k": "B",
+        "e": "Nhan đề gợi từ câu chuyện Thánh Augustine, nhấn mạnh hành động chủ động mở trang sách để tự đối thoại và trưởng thành.",
+        "s": "Ngữ Văn 7",
+        "h": "Chủ đề Hãy cầm lấy và đọc"
+      },
+      {
+        "c": "NV7-B09-003",
+        "d": "basic",
+        "p": "Bài thơ \"Nói với con\" bằng giọng điệu tâm tình sâu lắng của người cha miền núi gửi gắm lòng tự hào truyền thống quê hương là sáng tác của nhà thơ nào?",
+        "o": [
+          "Lò Ngân Sủn",
+          "Thanh Thảo",
+          "Y Phương",
+          "Vi Hồng"
+        ],
+        "k": "C",
+        "e": "Nhà thơ Y Phương (người dân tộc Tày, quê Cao Bằng) viết bài thơ \"Nói với con\" đậm chất thơ và bản sắc \"người đồng mình\".",
+        "s": "Ngữ Văn 7",
+        "h": "Tác giả bài thơ Nói với con"
+      },
+      {
+        "c": "NV7-B09-004",
+        "d": "basic",
+        "p": "Trong tiếng Việt, \"thuật ngữ\" là gì?",
+        "o": [
+          "Những tiếng lóng mới xuất hiện trên mạng xã hội của giới trẻ",
+          "Từ ngữ biểu thị khái niệm khoa học, công nghệ, thường được dùng trong các văn bản khoa học, công nghệ với nghĩa chính xác, một nghĩa",
+          "Các từ láy tượng thanh miêu tả tiếng mưa rơi gió thổi",
+          "Những biệt ngữ chỉ dùng trong gia đình giữa người thân với nhau"
+        ],
+        "k": "B",
+        "e": "Thuật ngữ (như \"tế bào\", \"trọng lực\", \"ẩn dụ\", \"tần số\") đòi hỏi tính chính xác và đơn nghĩa trong lĩnh vực chuyên môn.",
+        "s": "Ngữ Văn 7",
+        "h": "Khái niệm thuật ngữ"
+      },
+      {
+        "c": "NV7-B09-005",
+        "d": "basic",
+        "p": "Trong câu: \"Trong văn bản nghị luận, luận điểm là ý kiến thể hiện tư tưởng, quan điểm của bài viết trước vấn đề đặt ra\", từ nào sau đây là thuật ngữ chuyên môn của Ngữ văn?",
+        "o": [
+          "đặt ra",
+          "ý kiến",
+          "luận điểm",
+          "bài viết"
+        ],
+        "k": "C",
+        "e": "\"luận điểm\" là thuật ngữ chuyên ngành văn học – lí luận văn bản dùng để gọi ý kiến trung tâm cần chứng minh.",
+        "s": "Ngữ Văn 7",
+        "h": "Nhận diện thuật ngữ văn học"
+      },
+      {
+        "c": "NV7-B09-006",
+        "d": "basic",
+        "p": "Trong bài thơ \"Nói với con\", người cha gọi bà con quê hương mình bằng cụm từ trìu mến nào?",
+        "o": [
+          "người lữ khách",
+          "người phương xa",
+          "người thành thị",
+          "người đồng mình"
+        ],
+        "k": "D",
+        "e": "\"Người đồng mình\" là cách gọi thân thương chỉ người vùng mình, đồng bào quê hương mình sống thủy chung, kiên cường.",
+        "s": "Ngữ Văn 7",
+        "h": "Từ ngữ giàu sắc thái trong Nói với con"
+      },
+      {
+        "c": "NV7-B09-007",
+        "d": "application",
+        "p": "Vì sao trong thư gửi cháu, người ông ở bài \"Bản đồ dẫn đường\" lại thừa nhận rằng ngay cả bản thân ông khi sống đến tuổi già vẫn có lúc phạm sai lầm và lạc đường?",
+        "o": [
+          "Để chứng tỏ người lớn thường không có kinh nghiệm sống bằng trẻ nhỏ",
+          "Để khoe rằng không ai trên đời có thể đi du lịch mà không cần la bàn",
+          "Để khuyên cháu không cần nghe lời bất kì người lớn tuổi nào nữa",
+          "Để giúp cháu hiểu sai lầm và bối rối là một phần tất yếu của quá trình trưởng thành; điều quý giá là biết rút kinh nghiệm và không đánh mất lòng tin"
+        ],
+        "k": "D",
+        "e": "Sự chia sẻ chân thành, không tô hồng bản thân của người ông tạo niềm tin ấm áp giúp người trẻ can đảm bước tiếp.",
+        "s": "Ngữ Văn 7",
+        "h": "Thái độ giao tiếp trong Bản đồ dẫn đường"
+      },
+      {
+        "c": "NV7-B09-008",
+        "d": "application",
+        "p": "Trong \"Hãy cầm lấy và đọc\", tác giả nêu thực tế nhiều bạn trẻ đọc hàng trăm dòng tin ngắn mỗi ngày trên mạng nhưng vẫn lúng túng khi viết một đoạn văn mạch lạc. Nguyên nhân sâu xa được chỉ ra là gì?",
+        "o": [
+          "Việc lướt tin ngắn thiếu chiều sâu không rèn được khả năng tư duy hệ thống và cảm thụ ngôn ngữ tinh tế như khi đọc chậm các cuốn sách có giá trị",
+          "Vì người trẻ ngày nay không biết sử dụng bàn phím máy tính",
+          "Vì điện thoại thông minh không thể hiển thị được chữ cái tiếng Việt",
+          "Vì sách giấy luôn có nhiều hình ảnh hoạt hình vui mắt hơn tin nhắn"
+        ],
+        "k": "A",
+        "e": "Đọc sâu (deep reading) giúp rèn luyện tư duy phản biện, khả năng tập trung và vốn ngôn từ phong phú.",
+        "s": "Ngữ Văn 7",
+        "h": "Lập luận trong Hãy cầm lấy và đọc"
+      },
+      {
+        "c": "NV7-B09-009",
+        "d": "application",
+        "p": "Theo người cha trong \"Nói với con\", phẩm chất cao đẹp nhất của \"người đồng mình\" dù cuộc sống còn nghèo khó vất vả là gì?",
+        "o": [
+          "Chỉ thích hưởng thụ cuộc sống nhàn hạ mà không chịu lao động sản xuất",
+          "Che giấu nguồn gốc dân tộc mình khi gặp gỡ bạn bè phương xa",
+          "Thường xuyên than vãn số phận và bỏ quê hương ra đi không bao giờ ngoảnh lại",
+          "Sống mạnh mẽ, hồn nhiên, thủy chung với quê hương nghèo khó (\"không chê đá gập ghềnh\"), tự lực vươn lên đầy lòng tự trọng"
+        ],
+        "k": "D",
+        "e": "Câu thơ đối xứng giàu hình ảnh ca ngợi nghị lực bền bỉ và tấm lòng son sắt với cội nguồn.",
+        "s": "Ngữ Văn 7",
+        "h": "Phẩm chất người đồng mình"
+      },
+      {
+        "c": "NV7-B09-010",
+        "d": "application",
+        "p": "Trong các định nghĩa sau, định nghĩa nào giải thích đúng đặc điểm thuật ngữ (chính xác, khách quan, ngắn gọn)?",
+        "o": [
+          "Ẩn dụ giống như một bí mật thú vị giấu sau màn sương mờ ảo lung linh.",
+          "Ẩn dụ là gọi tên sự vật, hiện tượng này bằng tên sự vật, hiện tượng khác có nét tương đồng với nó nhằm tăng sức gợi hình, gợi cảm cho sự diễn đạt.",
+          "Ẩn dụ là cách dùng thật nhiều tính từ màu sắc để tả một bức tranh.",
+          "Ẩn dụ là khi ta thích nói bóng gió cho câu chuyện trở nên thật hài hước."
+        ],
+        "k": "B",
+        "e": "Giải thích thuật ngữ đòi hỏi nêu rõ bản chất khái niệm bằng ngôn ngữ khoa học chuẩn xác.",
+        "s": "Ngữ Văn 7",
+        "h": "Cách giải thích thuật ngữ"
+      },
+      {
+        "c": "NV7-B09-011",
+        "d": "application",
+        "p": "Trong một bài văn nghị luận trình bày ý kiến PHẢN ĐỐI quan niệm \"Ở tuổi học sinh chỉ cần học giỏi kiến thức trong sách vở, không cần tham gia hoạt động trải nghiệm\", lí lẽ nào thuyết phục nhất?",
+        "o": [
+          "Kiến thức sách vở cần gắn với trải nghiệm thực tế để rèn kĩ năng giao tiếp, hợp tác, thích ứng và nuôi dưỡng trách nhiệm cộng đồng",
+          "Vì sách giáo khoa ngày nay không có bất kì kiến thức nào có ích cho cuộc sống",
+          "Vì hoạt động trải nghiệm luôn giúp học sinh được nghỉ học không cần làm bài kiểm tra",
+          "Vì chỉ có tham gia thể thao mới kiếm được điểm cao ở môn Ngữ văn"
+        ],
+        "k": "A",
+        "e": "Phản bác hiệu quả không phủ nhận cực đoan việc học mà chỉ ra sự gắn bó bổ trợ giữa học lí thuyết và trải nghiệm thực tế.",
+        "s": "Ngữ Văn 7",
+        "h": "Xây dựng lí lẽ phản biện"
+      },
+      {
+        "c": "NV7-B09-012",
+        "d": "application",
+        "p": "Câu thơ cuối \"Con ơi tuy thô sơ da thịt / Lên đường / Không bao giờ nhỏ bé được / Nghe con\" trong bài \"Nói với con\" nhắn nhủ điều gì?",
+        "o": [
+          "Khuyên con không bao giờ được đi xa khỏi ngọn núi quê hương",
+          "Dặn con phải mặc thật nhiều quần áo cầu kì khi lên thành phố",
+          "Nhắc con phải tập thể dục thật nhiều để có chiều cao vượt trội",
+          "Dù vẻ ngoài mộc mạc, xuất phát điểm còn giản dị nhưng khi bước ra đời rộng lớn phải giữ bản lĩnh, lòng tự trọng và tầm vóc tinh thần vững vàng"
+        ],
+        "k": "D",
+        "e": "\"Không bao giờ nhỏ bé được\" chỉ sự kiên cường về nhân cách, niềm kiêu hãnh giữ vững cốt cách quê hương.",
+        "s": "Ngữ Văn 7",
+        "h": "Ý nghĩa lời dặn cuối bài Nói với con"
+      },
+      {
+        "c": "NV7-B09-013",
+        "d": "advanced",
+        "p": "Cách người cha trong \"Nói với con\" miêu tả gia đình bằng hình ảnh \"Chân phải bước tới cha / Chân trái bước tới mẹ / Một bước chạm tiếng nói / Hai bước tới tiếng cười\" có sức gợi cảm đặc biệt ở chỗ nào?",
+        "o": [
+          "Chứng tỏ ngôi nhà của người đồng mình có diện tích quá chật hẹp",
+          "Biến tình cảm trừu tượng thành những bước đi chập chững đầu đời cụ thể, ấm áp, cho thấy con lớn lên từng ngày trong vòng tay nâng niu và tiếng cười của cha mẹ",
+          "Chỉ nhằm mô tả bài tập thể dục buổi sáng của một em bé mới biết đi",
+          "Thể hiện nỗi lo lắng của người cha khi con bước đi chưa vững"
+        ],
+        "k": "B",
+        "e": "Nhịp thơ ngắn gọn, cân đối tái hiện khung cảnh gia đình ấm cúng — cái nôi nuôi dưỡng tâm hồn con trẻ.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân tích hình ảnh thơ Y Phương"
+      },
+      {
+        "c": "NV7-B09-014",
+        "d": "advanced",
+        "p": "Xét về nghệ thuật lập luận, vì sao văn bản \"Bản đồ dẫn đường\" lại kể câu chuyện người ông tự nhìn lại tuổi trẻ của chính mình trước khi khuyên cháu?",
+        "o": [
+          "Vì kinh nghiệm từng trải chân thật xóa đi khoảng cách giáo điều giữa hai thế hệ, biến lời khuyên thành sự sẻ chia đồng cảm đầy sức thuyết phục",
+          "Vì trong bức thư cá nhân bắt buộc phải viết đủ năm câu chuyện cổ tích",
+          "Vì người cháu chỉ thích nghe chuyện quá khứ mà không quan tâm tương lai",
+          "Vì người ông không có lí lẽ nào khác ngoài câu chuyện thời trẻ"
+        ],
+        "k": "A",
+        "e": "Bằng chứng từ trải nghiệm tự thân kết hợp giọng điệu tôn trọng giúp lập luận chạm đến trái tim người đọc.",
+        "s": "Ngữ Văn 7",
+        "h": "Nghệ thuật thuyết phục trong thư"
+      },
+      {
+        "c": "NV7-B09-015",
+        "d": "advanced",
+        "p": "Kết nối thông điệp của cả ba văn bản Bài 8, \"trưởng thành\" đối với một học sinh THCS được định nghĩa toàn diện nhất là gì?",
+        "o": [
+          "Chỉ cần đợi đủ tuổi theo giấy khai sinh là con người tự động trưởng thành toàn diện",
+          "Dũng cảm trải nghiệm và học từ sai lầm, chủ động đọc sách bồi đắp tri thức, đồng thời luôn giữ vững cội nguồn nhân cách quê hương",
+          "Chỉ cần đọc sách giải trí thật nhanh mà không cần suy ngẫm hay thực hành",
+          "Muốn trưởng thành thì phải cắt đứt mọi kỉ niệm với gia đình và quê hương"
+        ],
+        "k": "B",
+        "e": "Trải nghiệm – Tri thức – Cội nguồn hợp thành ba trụ cột vững chắc của quá trình trưởng thành.",
+        "s": "Ngữ Văn 7",
+        "h": "Tổng hợp tư tưởng Bài 8"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan7-c4",
+    "lesson": {
+      "code": "nguvan7-b10",
+      "title": "Bài 9. Hòa điệu với tự nhiên",
+      "seq": 10,
+      "subtitle": "Đọc hiểu văn bản thông tin giới thiệu quy tắc/luật lệ (Thủy tiên tháng Một – Joseph Wood Krutch, Lễ rửa làng của người Lô Lô – Phạm Thùy Dung, Bản tin về hoa anh đào), cước chú và tài liệu tham khảo, viết văn bản thuyết minh về một quy tắc hoặc luật lệ trong trò chơi hay hoạt động",
+      "concepts": [
+        "Văn bản thông tin: quy tắc và luật lệ",
+        "Cước chú và tài liệu tham khảo",
+        "Thuyết minh quy tắc, luật lệ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV7-B10-001",
+        "d": "basic",
+        "p": "Trong văn bản thông tin, phần giải thích ngắn cho từ ngữ khó, tên riêng hoặc xuất xứ đặt ở chân trang (đánh dấu bằng số thứ tự nhỏ) gọi là gì?",
+        "o": [
+          "Nhan đề chính",
+          "Đoạn kết luận",
+          "Sa-pô đầu bài",
+          "Cước chú (chú thích chân trang)"
+        ],
+        "k": "D",
+        "e": "Cước chú giúp người đọc hiểu ngay nghĩa thuật ngữ, từ địa phương hay nguồn thông tin mà không làm gián đoạn mạch văn chính.",
+        "s": "Ngữ Văn 7",
+        "h": "Khái niệm cước chú",
+        "fig": {
+          "type": "table",
+          "title": "Thành phần Văn bản Thông tin",
+          "head": [
+            "Thành phần",
+            "Vị trí & Vai trò"
+          ],
+          "rows": [
+            [
+              "Nhan đề",
+              "Đầu bài, nêu chủ đề"
+            ],
+            [
+              "Đề mục",
+              "Chia rõ từng mục nhỏ"
+            ],
+            [
+              "Cước chú",
+              "Chú giải chân trang"
+            ],
+            [
+              "Tài liệu tham khảo",
+              "Cuối bài, ghi nguồn"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV7-B10-002",
+        "d": "basic",
+        "p": "Văn bản \"Lễ rửa làng của người Lô Lô\" (Phạm Thùy Dung) giới thiệu nghi lễ truyền thống của đồng bào dân tộc Lô Lô nhằm mục đích chính nào?",
+        "o": [
+          "Tổ chức hội chợ trao đổi hàng hóa hiện đại với thương nhân nước ngoài",
+          "Tổng kết điểm thi đua cuối năm học của các trường tiểu học",
+          "Thi đấu các môn thể thao dưới nước như bơi lội và chèo thuyền buồm",
+          "Cầu mong xua đi những điều không may, giữ gìn sự thanh sạch của bản làng, tạ ơn thần linh – thiên nhiên và cầu mùa màng bội thu, bình yên"
+        ],
+        "k": "D",
+        "e": "Nghi lễ rửa làng thể hiện niềm tin tôn kính thiên nhiên và tinh thần gắn kết cộng đồng của người Lô Lô ở vùng cao.",
+        "s": "Ngữ Văn 7",
+        "h": "Ý nghĩa Lễ rửa làng của người Lô Lô"
+      },
+      {
+        "c": "NV7-B10-003",
+        "d": "basic",
+        "p": "Trong văn bản \"Thủy tiên tháng Một\" (trích từ sách của Giô-dép Út Crút), loài hoa thủy tiên sa mạc hé lộ điều kì diệu gì của sự sống tự nhiên?",
+        "o": [
+          "Loài hoa không cần ánh sáng Mặt Trời hay nước vẫn sống vĩnh viễn",
+          "Khả năng kiên nhẫn chờ đợi độ ẩm đủ đầy trong lòng đất khô cằn rồi bừng nở rực rỡ đúng lúc để duy trì nòi giống",
+          "Loài hoa chỉ mọc được trong nhà kính có điều hòa nhiệt độ ở thành phố",
+          "Loài hoa nở quanh năm suốt mười hai tháng bất kể bão tuyết"
+        ],
+        "k": "B",
+        "e": "Sự thích nghi bền bỉ của hoa thủy tiên sa mạc gợi lòng ngưỡng mộ trước nhịp điệu kì diệu của thiên nhiên.",
+        "s": "Ngữ Văn 7",
+        "h": "Thông tin trong Thủy tiên tháng Một"
+      },
+      {
+        "c": "NV7-B10-004",
+        "d": "basic",
+        "p": "Mục \"Tài liệu tham khảo\" đặt ở cuối một văn bản thông tin hoặc bài nghiên cứu có tác dụng gì?",
+        "o": [
+          "Thay thế hoàn toàn cho nội dung phần mở bài của văn bản",
+          "Quảng cáo bán sách giáo khoa mới cho nhà xuất bản",
+          "Trang trí cho trang cuối đỡ trống trải trước khi đóng thành quyển",
+          "Ghi nhận trung thực nguồn sách, bài báo, trang web đã trích dẫn hoặc tham khảo, bảo đảm tính khoa học và tôn trọng bản quyền"
+        ],
+        "k": "D",
+        "e": "Liệt kê tài liệu tham khảo thể hiện thái độ trung thực học thuật và giúp bạn đọc tra cứu mở rộng.",
+        "s": "Ngữ Văn 7",
+        "h": "Tác dụng của tài liệu tham khảo"
+      },
+      {
+        "c": "NV7-B10-005",
+        "d": "basic",
+        "p": "Khi viết văn bản thuyết minh về một quy tắc hoặc luật lệ trong một trò chơi hay hoạt động (như trò chơi kéo co, cờ vua, hoặc quy định tham quan bảo tàng), phong cách trình bày cần bảo đảm điều gì?",
+        "o": [
+          "Sắp xếp lộn xộn bước kết thúc lên trước bước chuẩn bị",
+          "Kể một câu chuyện buồn bã không nhắc tới bất kì quy tắc nào",
+          "Rõ ràng, chính xác, trình tự logic theo từng bước hoặc từng mục quy định, ngôn ngữ khách quan dễ thực hiện",
+          "Dùng nhiều ẩn dụ bí ẩn khiến người đọc phải tự đoán luật chơi"
+        ],
+        "k": "C",
+        "e": "Thuyết minh quy tắc/luật lệ hướng tới tính thực hành chính xác để người đọc nắm vững và làm đúng.",
+        "s": "Ngữ Văn 7",
+        "h": "Yêu cầu thuyết minh quy tắc, luật lệ"
+      },
+      {
+        "c": "NV7-B10-006",
+        "d": "basic",
+        "p": "Văn bản thông tin \"Bản tin về hoa anh đào\" (được trích dẫn minh họa trong Bài 9) phản ánh hiện tượng đáng chú ý nào liên quan tới biến đổi khí hậu?",
+        "o": [
+          "Hoa anh đào đã ngừng nở hoàn toàn ở tất cả các nước châu Á",
+          "Hoa anh đào chuyển từ màu hồng phấn sang màu xanh dương đậm",
+          "Thời điểm hoa anh đào nở rộ tại Nhật Bản có xu hướng đến sớm hơn so với trung bình lịch sử nhiều thế kỉ do nhiệt độ Trái Đất ấm lên",
+          "Các nhà khoa học cấm chụp ảnh hoa anh đào vào mùa xuân"
+        ],
+        "k": "C",
+        "e": "Số liệu lịch sử ghi chép ngày hoa anh đào nở trở thành bằng chứng sinh học rõ nét về sự ấm lên toàn cầu.",
+        "s": "Ngữ Văn 7",
+        "h": "Thông tin Bản tin về hoa anh đào"
+      },
+      {
+        "c": "NV7-B10-007",
+        "d": "application",
+        "p": "Trong văn bản \"Lễ rửa làng của người Lô Lô\", các bước nghi lễ được trình bày theo trình tự nào để người đọc dễ hình dung quy tắc thực hiện?",
+        "o": [
+          "Kể ngược từ phần ăn mừng rồi quay lại một câu giới thiệu tên dân tộc",
+          "Theo trình tự thời gian: chuẩn bị lễ vật, họp bản → thực hành nghi thức cúng quét điều xấu → phần hội và quy định kiêng cữ sau lễ",
+          "Chỉ miêu tả cảm xúc cá nhân của tác giả khi ngắm mây trên đỉnh núi",
+          "Chỉ liệt kê tên các món ăn mà bỏ qua toàn bộ nghi thức và ý nghĩa"
+        ],
+        "k": "B",
+        "e": "Trình tự thời gian kết hợp giải thích ý nghĩa từng nghi thức là bố cục chuẩn mực cho văn bản giới thiệu quy tắc sinh hoạt văn hóa.",
+        "s": "Ngữ Văn 7",
+        "h": "Trình tự trình bày văn bản thông tin"
+      },
+      {
+        "c": "NV7-B10-008",
+        "d": "application",
+        "p": "Quan sát biểu đồ minh họa sự thay đổi thời điểm hoa anh đào nở rộ trung bình qua các giai đoạn (ngày thứ bao nhiêu trong năm). Xu hướng chung thể hiện trên biểu đồ là gì?",
+        "o": [
+          "Hoa anh đào ngày càng nở muộn hơn vào giữa mùa hè tháng Bảy",
+          "Lượng mưa mùa xuân tăng gấp mười lần qua từng giai đoạn",
+          "Ngày hoa nở hoàn toàn giữ nguyên không thay đổi suốt hàng trăm năm",
+          "Số thứ tự ngày nở giảm dần (từ ngày 105 xuống ngày 90), nghĩa là mùa hoa nở ngày càng đến sớm hơn"
+        ],
+        "k": "D",
+        "e": "Trên biểu đồ, mốc ngày thứ 105 (khoảng giữa tháng 4) dịch xuống ngày thứ 90 (cuối tháng 3) phản ánh hiện tượng nở sớm.",
+        "s": "Ngữ Văn 7",
+        "h": "Đọc xu hướng trên biểu đồ số liệu",
+        "fig": {
+          "type": "bars",
+          "title": "Ngày Hoa Anh Đào Nở Rộ (trong năm)",
+          "labels": [
+            "TK 19",
+            "1950s",
+            "1990s",
+            "2020s"
+          ],
+          "series": [
+            {
+              "values": [
+                105,
+                101,
+                96,
+                90
+              ]
+            }
+          ],
+          "unit": "ngày"
+        }
+      },
+      {
+        "c": "NV7-B10-009",
+        "d": "application",
+        "p": "Nếu em viết văn bản thuyết minh luật lệ trò chơi dân gian \"Kéo co\" cho các bạn trường bạn đến giao lưu, phần \"Quy định chơi\" cần nêu rõ những nội dung cốt lõi nào?",
+        "o": [
+          "Ghi tên thực đơn bữa trưa sau khi kết thúc hội thao",
+          "Kể tiểu sử người sáng tạo ra sợi dây thừng từ thời cổ đại",
+          "Số lượng người chơi cân bằng hai đội, vạch ranh giới ở giữa dây thừng, hiệu lệnh bắt đầu – kết thúc và tiêu chí xác định đội thắng cuộc cùng lưu ý an toàn",
+          "Chỉ ghi \"Hai đội kéo thật mạnh cho đến khi mệt thì nghỉ\""
+        ],
+        "k": "C",
+        "e": "Luật chơi phải cụ thể, minh bạch tiêu chí thắng thua và bảo đảm an toàn để mọi người áp dụng được ngay.",
+        "s": "Ngữ Văn 7",
+        "h": "Xây dựng nội dung luật chơi"
+      },
+      {
+        "c": "NV7-B10-010",
+        "d": "application",
+        "p": "Sự xuất hiện của những dòng cước chú giải thích các từ ngữ chuyên biệt (như \"thầy mo\", \"nhà trình tường\", \"hạt giống ngủ đông\") trong bài đọc Bài 9 có ích lợi gì?",
+        "o": [
+          "Làm văn bản trở nên rườm rà và khó theo dõi hơn",
+          "Thay thế hoàn toàn vai trò của nhan đề và phần kết bài",
+          "Biến bài báo khoa học thành một truyện cười dân gian",
+          "Giúp người đọc thuộc mọi vùng miền hiểu chính xác bản chất văn hóa, khoa học của đối tượng được thuyết minh mà không cần gián đoạn để tra sách khác"
+        ],
+        "k": "D",
+        "e": "Cước chú là công cụ hỗ trợ đắc lực trong văn bản thông tin đa vùng miền và khoa học.",
+        "s": "Ngữ Văn 7",
+        "h": "Vai trò thực tiễn của cước chú"
+      },
+      {
+        "c": "NV7-B10-011",
+        "d": "application",
+        "p": "Trong \"Thủy tiên tháng Một\", tác giả kết hợp tri thức sinh học với cảm xúc trân trọng nhịp điệu thiên nhiên. Chi tiết loài cây \"không vội vã bung nở giữa sa mạc khô hạn\" gợi suy nghĩ gì cho con người?",
+        "o": [
+          "Mọi loài thực vật đều có thể sống vĩnh viễn không cần nước và đất",
+          "Sự tôn trọng quy luật tự nhiên và bài học về lòng kiên trì chờ đúng thời cơ, tích lũy nội lực bền bỉ",
+          "Khuyên học sinh không cần chuẩn bị bài mà chờ đến ngày cuối mới học",
+          "Con người nên phá hủy các vùng sa mạc để trồng hoa thủy tiên công nghiệp"
+        ],
+        "k": "B",
+        "e": "Tự nhiên luôn ẩn chứa những bài học sâu sắc về sự hài hòa và kiên nhẫn.",
+        "s": "Ngữ Văn 7",
+        "h": "Suy ngẫm từ Thủy tiên tháng Một"
+      },
+      {
+        "c": "NV7-B10-012",
+        "d": "application",
+        "p": "Cách viết nào sau đây phù hợp để mở đầu một văn bản thuyết minh quy tắc ứng xử khi tham quan Vườn quốc gia?",
+        "o": [
+          "Giới thiệu vị trí/giá trị của Vườn quốc gia và khẳng định tầm quan trọng của việc tuân thủ bộ quy tắc tham quan nhằm bảo vệ hệ sinh thái và an toàn cho du khách",
+          "Viết bốn câu ca dao về tình cảm gia đình rồi kết thúc mở bài",
+          "Kể chi tiết giấc mơ kì lạ em gặp tối hôm qua trước chuyến đi",
+          "Ghi ngay điều phạt số tiền cụ thể mà không giới thiệu hoạt động gì"
+        ],
+        "k": "A",
+        "e": "Mở bài thuyết minh quy tắc cần nêu đúng đối tượng hoạt động và lí do cần có quy tắc đó.",
+        "s": "Ngữ Văn 7",
+        "h": "Viết mở bài thuyết minh quy tắc"
+      },
+      {
+        "c": "NV7-B10-013",
+        "d": "advanced",
+        "p": "So sánh \"Lễ rửa làng của người Lô Lô\" với \"Bản tin về hoa anh đào\": điểm giống nhau lớn nhất về thái độ đối xử với thiên nhiên thể hiện qua cả hai văn bản là gì?",
+        "o": [
+          "Dù qua tín ngưỡng truyền thống hay khoa học hiện đại, con người đều cần sống hòa điệu, lắng nghe tự nhiên và bảo vệ môi trường",
+          "Cả hai văn bản đều khẳng định con người có thể chế ngự hoàn toàn thời tiết bằng phép thuật",
+          "Cả hai văn bản đều phản đối việc ghi chép thời gian các mùa trong năm",
+          "Cả hai văn bản đều khuyên các vùng quê nên bỏ hết phong tục lễ hội"
+        ],
+        "k": "A",
+        "e": "Tôn trọng thiên nhiên là cầu nối giữa tri thức dân gian truyền thống và khoa học môi trường hiện đại.",
+        "s": "Ngữ Văn 7",
+        "h": "So sánh góc nhìn văn hóa – khoa học"
+      },
+      {
+        "c": "NV7-B10-014",
+        "d": "advanced",
+        "p": "Tại sao trong văn bản thuyết minh một quy tắc trò chơi, việc dùng gạch đầu dòng hoặc đánh số thứ tự (Bước 1, Bước 2; Điều 1, Điều 2) kết hợp sơ đồ/hình vẽ lại hiệu quả hơn viết một đoạn văn xuôi dài đặc chữ?",
+        "o": [
+          "Vì văn xuôi dài không thể diễn đạt được bất kì con số hay tên trò chơi nào",
+          "Vì quy định văn bản thuyết minh cấm sử dụng dấu chấm và dấu phẩy",
+          "Vì trình bày phân mục rõ ràng và trực quan hóa bằng sơ đồ giúp người đọc quét nhanh thông tin, phân biệt các điều khoản và ghi nhớ chính xác không sót bước",
+          "Vì đánh số thứ tự giúp văn bản biến thành một bài thơ vần chân"
+        ],
+        "k": "C",
+        "e": "Hình thức trình bày trực quan (kênh chữ phân mục + phương tiện phi ngôn ngữ) tối ưu hóa hiệu quả tiếp nhận của văn bản thông tin.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân tích hình thức văn bản thông tin"
+      },
+      {
+        "c": "NV7-B10-015",
+        "d": "advanced",
+        "p": "Khi trích dẫn một số liệu từ báo cáo khí tượng quốc tế vào bài viết của mình, nếu người viết quên ghi nguồn ở cước chú hoặc mục tài liệu tham khảo thì dễ dẫn tới hạn chế nào?",
+        "o": [
+          "Làm giảm độ tin cậy khoa học của thông tin và thiếu tôn trọng bản quyền trí tuệ của tác giả/tổ chức đã công bố số liệu đó",
+          "Làm cho số liệu tự động thay đổi giá trị khi in ra giấy",
+          "Làm câu văn bị sai chính tả tiếng Việt ngay lập tức",
+          "Khiến người đọc hiểu nhầm bài viết thành truyện ngụ ngôn dân gian"
+        ],
+        "k": "A",
+        "e": "Dẫn nguồn minh bạch là chuẩn mực đạo đức học thuật và bảo đảm tính xác thực của văn bản thông tin.",
+        "s": "Ngữ Văn 7",
+        "h": "Chuẩn mực trích dẫn tài liệu"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan7-c4",
+    "lesson": {
+      "code": "nguvan7-b11",
+      "title": "Bài 10. Trang sách và cuộc sống",
+      "seq": 11,
+      "subtitle": "Tổng kết và vận dụng linh hoạt các kĩ năng đọc – viết – nói và nghe trong năm học lớp 7 thông qua văn bản về sách, thư viện, trao đổi sách và viết bài giới thiệu, thảo luận về cuốn sách em yêu thích",
+      "concepts": [
+        "Đọc mở rộng và văn hóa đọc lớp 7",
+        "Viết và thuyết trình giới thiệu sách",
+        "Kết nối trang sách với đời sống"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV7-B11-001",
+        "d": "basic",
+        "p": "Bài 10 \"Trang sách và cuộc sống\" ở cuối chương trình Ngữ văn 7 Kết nối tri thức đóng vai trò chính nào?",
+        "o": [
+          "Bắt đầu học bảng chữ cái tiếng Việt dành cho học sinh mới vào lớp 1",
+          "Tổng hợp, thực hành đọc – viết – nói – nghe xoay quanh chủ đề đọc sách và vận dụng bài học từ sách vào cuộc sống",
+          "Nghiên cứu chuyên sâu phương trình hóa học vô cơ bậc trung học phổ thông",
+          "Thay thế toàn bộ các bài kiểm tra viết bằng trò chơi vận động ngoài sân"
+        ],
+        "k": "B",
+        "e": "Bài 10 khép lại năm học bằng hoạt động phát triển văn hóa đọc và tổng kết năng lực giao tiếp tiếng Việt.",
+        "s": "Ngữ Văn 7",
+        "h": "Vai trò Bài 10 Ngữ văn 7",
+        "fig": {
+          "type": "table",
+          "title": "Hồ sơ Đọc sách Cá nhân (NV7)",
+          "head": [
+            "Mục tiêu đọc",
+            "Cách làm hiệu quả"
+          ],
+          "rows": [
+            [
+              "Trước khi đọc",
+              "Xem mục lục, dự đoán"
+            ],
+            [
+              "Trong khi đọc",
+              "Ghi ý hay, câu hỏi"
+            ],
+            [
+              "Sau khi đọc",
+              "Tóm tắt, chia sẻ ý"
+            ],
+            [
+              "Kết nối đời sống",
+              "Rút bài học ứng xử"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV7-B11-002",
+        "d": "basic",
+        "p": "Hoạt động lập \"Nhật kí đọc sách\" hoặc \"Thẻ đọc sách\" giúp ích gì nhất cho học sinh?",
+        "o": [
+          "Thay thế hoàn toàn việc viết bài kiểm tra môn Toán và Khoa học tự nhiên",
+          "Giúp cuốn sách dày lên gấp đôi mà không cần đọc trang nào",
+          "Tránh phải mượn sách ở thư viện trường vào học kì tiếp theo",
+          "Lưu giữ hệ thống tên sách, tác giả, trích dẫn tâm đắc, cảm nhận cá nhân để dễ ôn tập và chia sẻ với bạn bè"
+        ],
+        "k": "D",
+        "e": "Nhật kí đọc sách biến quá trình đọc thụ động thành đọc tích cực, có ghi nhớ và chiêm nghiệm.",
+        "s": "Ngữ Văn 7",
+        "h": "Lợi ích nhật kí đọc sách"
+      },
+      {
+        "c": "NV7-B11-003",
+        "d": "basic",
+        "p": "Khi tham gia buổi thảo luận nhóm về chủ đề \"Sách giấy và sách điện tử trong thời đại hiện nay\", thái độ trao đổi phù hợp nhất là gì?",
+        "o": [
+          "Chỉ bàn về giá bán điện thoại di động chứ không nói đến việc đọc sách",
+          "Phản đối gay gắt bất kì bạn nào có sở thích đọc khác với mình",
+          "Khẳng định chỉ có sách giấy mới chứa chữ viết còn sách điện tử không đọc được",
+          "Phân tích khách quan ưu điểm và hạn chế của cả hai hình thức đọc, tôn trọng thói quen đọc phù hợp với từng hoàn cảnh và chú trọng giá trị tri thức cốt lõi"
+        ],
+        "k": "D",
+        "e": "Thảo luận văn minh nhìn nhận đa chiều: sách giấy giúp tập trung và bảo vệ mắt, sách điện tử tiện tra cứu và mang theo.",
+        "s": "Ngữ Văn 7",
+        "h": "Thảo luận đa chiều về sách"
+      },
+      {
+        "c": "NV7-B11-004",
+        "d": "basic",
+        "p": "Trong bài viết hoặc bài nói giới thiệu một cuốn sách văn học yêu thích (ví dụ: \"Đất rừng phương Nam\" hay \"Hai vạn dặm dưới đáy biển\"), yếu tố nào giúp thuyết phục bạn đọc tìm đọc cuốn sách đó?",
+        "o": [
+          "Giới thiệu ngắn gọn hoàn cảnh câu chuyện, điểm đặc sắc nhất về nhân vật hoặc tình tiết và cảm nhận chân thực của riêng bản thân",
+          "Chê bai các cuốn sách khác không có giá trị bằng cuốn mình chọn",
+          "Chỉ nói mỗi câu \"Cuốn này rất hay, các bạn nhớ đọc nhé\" rồi ngồi xuống",
+          "Chép y nguyên trang bìa sau kèm mã vạch xuất bản suốt năm phút"
+        ],
+        "k": "A",
+        "e": "Chia sẻ chi tiết ấn tượng cùng rung động chân thành luôn có sức lan tỏa mạnh mẽ nhất.",
+        "s": "Ngữ Văn 7",
+        "h": "Yếu tố thuyết phục khi giới thiệu sách"
+      },
+      {
+        "c": "NV7-B11-005",
+        "d": "basic",
+        "p": "Cách đọc lướt (skimming) kết hợp đọc quét (scanning) thường hữu ích nhất trong tình huống nào?",
+        "o": [
+          "Khi đang thưởng thức một bài thơ bốn chữ giàu nhạc điệu sâu lắng",
+          "Khi tập đọc diễn cảm một đoạn văn biểu cảm trước lớp",
+          "Khi cần tìm nhanh ý chính của một chương hoặc tra cứu một số liệu, mốc thời gian cụ thể trong văn bản thông tin dài",
+          "Khi cần phân tích tinh tế từng biện pháp tu từ trong một truyện ngắn"
+        ],
+        "k": "C",
+        "e": "Đọc lướt/đọc quét phục vụ tìm thông tin nhanh; còn đọc văn học đòi hỏi đọc chậm, suy ngẫm sâu.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân biệt kĩ thuật đọc"
+      },
+      {
+        "c": "NV7-B11-006",
+        "d": "basic",
+        "p": "Câu danh ngôn nào dưới đây nói đúng nhất về sức mạnh của việc đọc sách đối với tuổi trẻ?",
+        "o": [
+          "Đọc thật nhiều sách nhưng không bao giờ cần suy nghĩ hay hành động",
+          "Chỉ những người làm nghề viết văn mới cần mở trang sách",
+          "Đọc một cuốn sách hay giống như được trò chuyện với một người bạn hiền và trí tuệ",
+          "Sách chỉ dùng để kê cho chiếc bàn học khỏi bị khập khiễng"
+        ],
+        "k": "C",
+        "e": "Sách mở rộng đối thoại với những tâm hồn lớn và kinh nghiệm nhân loại qua nhiều thế hệ.",
+        "s": "Ngữ Văn 7",
+        "h": "Giá trị tinh thần của sách"
+      },
+      {
+        "c": "NV7-B11-007",
+        "d": "application",
+        "p": "Một bạn học sinh đọc xong tiểu thuyết \"Hai vạn dặm dưới đáy biển\" và muốn liên hệ với cuộc sống hiện đại. Cách kết nối nào sâu sắc và hợp lí nhất?",
+        "o": [
+          "Liên hệ tới sự phát triển kì diệu của tàu ngầm nghiên cứu khoa học đại dương ngày nay và trách nhiệm bảo vệ hệ sinh thái biển trước rác thải, biến đổi khí hậu",
+          "Tin rằng dưới đáy biển Thái Bình Dương vẫn có thành phố ngầm của thuyền trưởng Nê-mô",
+          "Tìm mua một khẩu súng bắn điện ngoài chợ để đi săn cá dưới sông quê",
+          "Quyết định không bao giờ uống nước hay đi tắm biển vì sợ quái vật"
+        ],
+        "k": "A",
+        "e": "Kết nối trang sách với tri thức khoa học và ý thức bảo vệ đại dương hiện đại là cách đọc chủ động, thông minh.",
+        "s": "Ngữ Văn 7",
+        "h": "Liên hệ sách với đời sống hiện đại"
+      },
+      {
+        "c": "NV7-B11-008",
+        "d": "application",
+        "p": "Quan sát biểu đồ thống kê các thể loại sách được học sinh khối 7 yêu thích nhất trong thư viện trường. Nhóm thể loại nào đứng thứ hai về lượt mượn đọc?",
+        "o": [
+          "Kĩ năng sống và Tâm lí tuổi mới lớn (20%)",
+          "Truyện thiếu nhi và Văn học (38%)",
+          "Khoa học viễn tưởng (28%)",
+          "Lịch sử và Địa lí (14%)"
+        ],
+        "k": "C",
+        "e": "Theo thứ tự từ cao xuống thấp: Văn học (38%) đứng thứ nhất, Khoa học viễn tưởng (28%) đứng thứ hai.",
+        "s": "Ngữ Văn 7",
+        "h": "Đọc biểu đồ sở thích đọc sách",
+        "fig": {
+          "type": "bars",
+          "title": "Tỉ lệ Mượn Sách Thư viện Khối 7",
+          "labels": [
+            "Văn học",
+            "Viễn tưởng",
+            "Kĩ năng",
+            "Sử - Địa"
+          ],
+          "series": [
+            {
+              "values": [
+                38,
+                28,
+                20,
+                14
+              ]
+            }
+          ],
+          "unit": "%"
+        }
+      },
+      {
+        "c": "NV7-B11-009",
+        "d": "application",
+        "p": "Trong hoạt động Nói và Nghe, khi các bạn dưới lớp đặt câu hỏi phản biện về nhân vật trong cuốn sách bạn vừa giới thiệu, cách trả lời tốt nhất là gì?",
+        "o": [
+          "Im lặng nhìn ra ngoài cửa sổ đến hết giờ học",
+          "Nói tránh sang chuyện khác và bảo bạn tự về nhà đọc lại sách",
+          "Tức giận vì bạn dám đặt câu hỏi làm gián đoạn phần nói của mình",
+          "Cảm ơn câu hỏi của bạn, bình tĩnh nhắc lại chi tiết liên quan trong sách rồi giải thích quan điểm của mình một cách cởi mở, cầu thị"
+        ],
+        "k": "D",
+        "e": "Đối thoại cởi mở sau phần trình bày giúp buổi trao đổi sách thực sự sống động và giàu chiều sâu.",
+        "s": "Ngữ Văn 7",
+        "h": "Kĩ năng tương tác sau thuyết trình"
+      },
+      {
+        "c": "NV7-B11-010",
+        "d": "application",
+        "p": "Nếu em muốn lập kế hoạch \"Tủ sách lớp em\" hiệu quả cho năm học tới, tiêu chí nào cần đặt lên hàng đầu để mọi bạn trong lớp đều hứng thú tham gia?",
+        "o": [
+          "Không lập sổ theo dõi mượn trả để ai thích cầm về luôn cũng được",
+          "Sách đa dạng thể loại phù hợp lứa tuổi (văn học, khoa học, kĩ năng, truyện tranh tri thức), có quy ước giữ gìn sách và luân phiên chia sẻ cảm nhận mỗi tuần",
+          "Chỉ sưu tầm các cuốn sách chuyên ngành đại học thật dày và khó hiểu",
+          "Chỉ cho phép đúng hai bạn học giỏi nhất lớp được quyền mở khóa tủ sách"
+        ],
+        "k": "B",
+        "e": "Đa dạng đầu sách kết hợp cơ chế quản lí minh bạch và hoạt động chia sẻ định kì giúp tủ sách lớp luôn sống động.",
+        "s": "Ngữ Văn 7",
+        "h": "Xây dựng văn hóa đọc tập thể"
+      },
+      {
+        "c": "NV7-B11-011",
+        "d": "application",
+        "p": "Khi đọc một câu chuyện ngụ ngôn hay truyện ngắn nhiều lớp nghĩa, câu hỏi tự đặt nào giúp em đào sâu giá trị tác phẩm hơn là chỉ nhớ cốt truyện?",
+        "o": [
+          "Cuốn sách này được in ở xưởng in nào và nặng bao nhiêu gam?",
+          "Vì sao nhân vật lại hành động như vậy? Chi tiết nào là bước ngoặt? Tác giả muốn gửi gắm bài học hay thái độ sống gì qua kết thúc đó?",
+          "Tên nhân vật chính có tất cả bao nhiêu chữ cái ghép lại?",
+          "Bìa sách dùng tông màu nóng hay tông màu lạnh?"
+        ],
+        "k": "B",
+        "e": "Đặt câu hỏi \"vì sao\" và \"ý nghĩa gì\" mở khóa tầng sâu tư tưởng của văn bản văn học.",
+        "s": "Ngữ Văn 7",
+        "h": "Tư duy đặt câu hỏi khi đọc sâu"
+      },
+      {
+        "c": "NV7-B11-012",
+        "d": "application",
+        "p": "Từ những văn bản đã học suốt lớp 7 (từ \"Bầy chim chìa vôi\" đến \"Nói với con\" và \"Thủy tiên tháng Một\"), chọn nhận xét đúng nhất về mối quan hệ giữa \"trang sách\" và \"cuộc sống\":",
+        "o": [
+          "Trang sách là thế giới khép kín hoàn toàn tách biệt với hiện thực đời sống",
+          "Chỉ cần sống ở ngoài đời thật mà không bao giờ cần đọc thêm sách báo",
+          "Cuộc sống thực tế không bao giờ có điều gì giống với các nhân vật trong sách",
+          "Trang sách phản chiếu chân thực niềm vui, nỗi đau, vẻ đẹp của cuộc sống và ngược lại, tri thức từ trang sách soi đường giúp ta sống nhân ái, bản lĩnh hơn"
+        ],
+        "k": "D",
+        "e": "Văn học bắt nguồn từ cuộc sống và trở về phục vụ, nâng đỡ tâm hồn con người trong cuộc sống.",
+        "s": "Ngữ Văn 7",
+        "h": "Triết lí trang sách và cuộc sống"
+      },
+      {
+        "c": "NV7-B11-013",
+        "d": "advanced",
+        "p": "Đọc ý kiến sau: \"Đọc một cuốn sách hay lần thứ nhất ta thấy câu chuyện mới lạ; đọc lại lần thứ hai ở tuổi trưởng thành ta lại thấy chính cuộc đời mình trong đó\". Ý kiến này giải thích đặc tính nào của sách giá trị?",
+        "o": [
+          "Vì người đọc lần đầu luôn đọc ngược từ trang cuối lên trang đầu",
+          "Sách hay có chiều sâu đa tầng; khi vốn sống và trải nghiệm của người đọc dày dặn hơn, mỗi lần đọc lại sẽ khám phá thêm những tầng nghĩa tinh tế mới mẻ",
+          "Vì trí nhớ con người quá kém nên lần thứ hai quên sạch mọi nhân vật",
+          "Vì các nhà xuất bản thường lén thay đổi nội dung cuốn sách sau mỗi năm"
+        ],
+        "k": "B",
+        "e": "Sự đối thoại giữa trang sách và trải nghiệm sống trưởng thành làm nên sức sống lâu bền của tác phẩm kinh điển.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân tích chiều sâu tiếp nhận văn học"
+      },
+      {
+        "c": "NV7-B11-014",
+        "d": "advanced",
+        "p": "Khi so sánh việc đọc một cuốn sách văn học hoàn chỉnh với việc chỉ xem nhanh một đoạn tóm tắt 60 giây trên mạng xã hội, giá trị nào chỉ có đọc trọn vẹn tác phẩm mới mang lại được?",
+        "o": [
+          "Không phải lật từng trang giấy hay di chuyển ánh mắt theo dòng chữ",
+          "Nghe được tiếng nhạc nền điện tử sôi động chèn sẵn trong video",
+          "Sự trải nghiệm từng biến chuyển tâm lí tinh tế, vẻ đẹp nhịp điệu ngôn từ, khoảng lặng suy ngẫm và khả năng đồng cảm sâu sắc cùng số phận nhân vật",
+          "Biết được tên hai nhân vật chính trong chưa đầy một phút đồng hồ"
+        ],
+        "k": "C",
+        "e": "Video tóm tắt chỉ đưa thông tin khung cốt truyện; văn học chỉ thực sự cất tiếng khi ta đắm mình trong ngôn từ tác phẩm.",
+        "s": "Ngữ Văn 7",
+        "h": "Bảo vệ giá trị đọc trọn vẹn tác phẩm"
+      },
+      {
+        "c": "NV7-B11-015",
+        "d": "advanced",
+        "p": "Nếu chọn một thông điệp xuyên suốt cả 10 bài học Ngữ văn lớp 7 để làm phương châm rèn luyện cho bản thân trước khi bước lên lớp 8, phương án nào thể hiện đầy đủ nhất tinh thần môn học?",
+        "o": [
+          "Chỉ tập trung ghi nhớ thuộc lòng các định nghĩa ngữ pháp khô khan tách rời văn bản",
+          "Nuôi dưỡng tâm hồn nhân hậu và tình yêu quê hương, rèn tư duy sắc sảo cùng bản lĩnh trải nghiệm trong sự hòa điệu với thiên nhiên và trang sách",
+          "Học Ngữ văn chỉ để làm bài kiểm tra trắc nghiệm chứ không áp dụng vào giao tiếp hằng ngày",
+          "Chỉ đọc duy nhất một thể loại truyện ngụ ngôn và bỏ qua thơ, tản văn, văn bản thông tin"
+        ],
+        "k": "B",
+        "e": "Ngữ văn 7 hài hòa giữa bồi dưỡng cảm xúc thẩm mĩ – nhân văn với phát triển năng lực tư duy logic và giao tiếp.",
+        "s": "Ngữ Văn 7",
+        "h": "Khái quát mục tiêu năng lực Ngữ văn 7"
+      }
+    ]
+  },
+  {
+    "chapter": "nguvan7-c4",
+    "lesson": {
+      "code": "nguvan7-b12",
+      "title": "Ôn tập Học kì II & Tổng kết Ngữ Văn 7",
+      "seq": 12,
+      "subtitle": "Tổng ôn kiến thức Đọc hiểu HK2 (truyện ngụ ngôn, tục ngữ, khoa học viễn tưởng, nghị luận trải nghiệm, văn bản thông tin quy tắc – luật lệ), Tiếng Việt (nói quá, mạch lạc & liên kết, thuật ngữ, cước chú – tài liệu tham khảo) và hệ thống kĩ năng viết Ngữ văn lớp 7",
+      "concepts": [
+        "Tổng kết thể loại Đọc hiểu lớp 7",
+        "Hệ thống Tiếng Việt lớp 7",
+        "Phân biệt các kiểu bài viết lớp 7"
+      ]
+    },
+    "questions": [
+      {
+        "c": "NV7-B12-001",
+        "d": "basic",
+        "p": "Trong bảng hệ thống các thể loại HK2 Ngữ văn 7, tác phẩm \"Cuộc chạm trán trên đại dương\" thuộc thể loại nào?",
+        "o": [
+          "Truyện khoa học viễn tưởng",
+          "Truyện ngụ ngôn dân gian",
+          "Tản văn văn hóa ẩm thực",
+          "Văn bản thông tin luật lệ"
+        ],
+        "k": "A",
+        "e": "\"Cuộc chạm trán trên đại dương\" trích từ \"Hai vạn dặm dưới đáy biển\" là tác phẩm kinh điển của truyện khoa học viễn tưởng.",
+        "s": "Ngữ Văn 7",
+        "h": "Tổng hợp thể loại HK2",
+        "fig": {
+          "type": "table",
+          "title": "Tổng hợp Thể loại HK2 (NV7)",
+          "head": [
+            "Thể loại",
+            "Tác phẩm tiêu biểu"
+          ],
+          "rows": [
+            [
+              "Ngụ ngôn & Tục ngữ",
+              "Ếch ngồi đáy giếng"
+            ],
+            [
+              "Viễn tưởng",
+              "Chạm trán đại dương"
+            ],
+            [
+              "Nghị luận",
+              "Bản đồ dẫn đường"
+            ],
+            [
+              "Thông tin quy tắc",
+              "Lễ rửa làng Lô Lô"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV7-B12-002",
+        "d": "basic",
+        "p": "Biện pháp tu từ nào xuất hiện trong câu: \"Anh em thuận hòa, tát Biển Đông cũng cạn\"?",
+        "o": [
+          "Nói quá",
+          "Đảo ngữ",
+          "Nói giảm nói tránh",
+          "Chơi chữ đồng âm"
+        ],
+        "k": "A",
+        "e": "\"Tát Biển Đông cũng cạn\" phóng đại sức mạnh to lớn khi con người đoàn kết đồng lòng.",
+        "s": "Ngữ Văn 7",
+        "h": "Ôn tập nói quá trong thành ngữ/tục ngữ"
+      },
+      {
+        "c": "NV7-B12-003",
+        "d": "basic",
+        "p": "Các từ như \"trọng lực\", \"quang hợp\", \"luận điểm\", \"phép thế\" thuộc lớp từ vựng nào?",
+        "o": [
+          "Từ láy tượng hình",
+          "Thuật ngữ khoa học",
+          "Từ ngữ địa phương",
+          "Thán từ cảm thán"
+        ],
+        "k": "B",
+        "e": "Đây đều là các thuật ngữ chuyên môn thuộc Vật lí, Sinh học và Ngữ văn.",
+        "s": "Ngữ Văn 7",
+        "h": "Ôn tập nhận diện thuật ngữ"
+      },
+      {
+        "c": "NV7-B12-004",
+        "d": "basic",
+        "p": "Để tránh lặp lại cụm danh từ \"ông Hồ Khanh\" ở câu văn thứ hai cho đoạn văn tự nhiên, người viết dùng đại từ \"ông\" thay thế. Phép liên kết đó gọi là gì?",
+        "o": [
+          "Phép lặp nguyên vẹn",
+          "Phép thế",
+          "Phép đối lập tương phản",
+          "Phép nối bằng quan hệ từ"
+        ],
+        "k": "B",
+        "e": "Dùng đại từ \"ông\" ở câu sau thay cho danh từ riêng \"ông Hồ Khanh\" ở câu trước là phép thế.",
+        "s": "Ngữ Văn 7",
+        "h": "Ôn tập phép thế liên kết câu"
+      },
+      {
+        "c": "NV7-B12-005",
+        "d": "basic",
+        "p": "Phần giải thích từ ngữ khó đặt ngay ở chân trang văn bản được đánh số nhỏ tương ứng trong bài gọi là gì?",
+        "o": [
+          "Sa-pô",
+          "Đề mục",
+          "Mục lục",
+          "Cước chú"
+        ],
+        "k": "D",
+        "e": "Cước chú nằm ở cuối trang giúp giải thích nhanh thuật ngữ, địa danh hoặc xuất xứ trích dẫn.",
+        "s": "Ngữ Văn 7",
+        "h": "Ôn tập khái niệm cước chú"
+      },
+      {
+        "c": "NV7-B12-006",
+        "d": "basic",
+        "p": "Kiểu bài viết nào sau đây thuộc Học kì II Ngữ văn 7 Kết nối tri thức?",
+        "o": [
+          "Viết bài văn nghị luận về một vấn đề trong đời sống (trình bày ý kiến tán thành hay phản đối) và viết văn bản thuyết minh quy tắc, luật lệ",
+          "Viết biên bản cuộc họp nhóm lớp 6",
+          "Đóng vai nhân vật kể lại một truyện cổ tích thần kì lớp 6",
+          "Viết đoạn văn tả cảnh sinh hoạt lớp 6"
+        ],
+        "k": "A",
+        "e": "Trọng tâm viết HK2 lớp 7 gồm nghị luận tán thành/phản đối, kể sự việc có thật liên quan nhân vật/sự kiện lịch sử và thuyết minh quy tắc/luật lệ.",
+        "s": "Ngữ Văn 7",
+        "h": "Hệ thống kiểu bài viết HK2 lớp 7"
+      },
+      {
+        "c": "NV7-B12-007",
+        "d": "application",
+        "p": "Đọc hai câu: \"Con hổ cúi đầu cảm tạ bà đỡ rồi lẳng lặng quay bước vào rừng sâu. Tuy nhiên, câu chuyện về lòng biết ơn của nó vẫn còn truyền tụng mãi nơi thôn dã.\" Cụm từ nào tạo liên kết nối giữa hai câu?",
+        "o": [
+          "Tuy nhiên",
+          "bà đỡ",
+          "nơi thôn dã",
+          "vào rừng sâu"
+        ],
+        "k": "A",
+        "e": "\"Tuy nhiên\" là tổ hợp từ nối đặt đầu câu sau tạo quan hệ chuyển ý tương phản nhẹ với hành động ra đi lặng lẽ của con hổ.",
+        "s": "Ngữ Văn 7",
+        "h": "Xác định phương tiện phép nối"
+      },
+      {
+        "c": "NV7-B12-008",
+        "d": "application",
+        "p": "Điểm khác nhau giữa \"Truyện ngụ ngôn\" và \"Tục ngữ\" dù cả hai đều đúc kết bài học kinh nghiệm là gì?",
+        "o": [
+          "Truyện ngụ ngôn không bao giờ chứa bài học đạo đức còn tục ngữ chỉ nói về thời tiết",
+          "Tục ngữ dài hàng chục trang sách còn truyện ngụ ngôn chỉ có một câu bốn chữ",
+          "Truyện ngụ ngôn là truyện kể có cốt truyện, nhân vật, tình huống rõ ràng; còn tục ngữ là câu nói dân gian ngắn gọn, thường có vần đối xứng",
+          "Truyện ngụ ngôn chỉ xuất hiện ở châu Âu còn tục ngữ chỉ có ở châu Á"
+        ],
+        "k": "C",
+        "e": "Một bên là tự sự ngắn hàm súc có tình huống – nhân vật; một bên là lời đúc kết cô đọng một câu.",
+        "s": "Ngữ Văn 7",
+        "h": "Phân biệt ngụ ngôn và tục ngữ"
+      },
+      {
+        "c": "NV7-B12-009",
+        "d": "application",
+        "p": "Trong hai câu sau, câu nào thể hiện đúng cách dùng thuật ngữ trong văn bản khoa học/thông tin?",
+        "o": [
+          "Khi trời nắng, cây xanh làm phép biến hóa kì diệu tạo ra không khí thơm mát.",
+          "Trong quá trình quang hợp, cây xanh hấp thụ khí các-bô-níc và giải phóng khí ô-xi nhờ năng lượng ánh sáng.",
+          "Ánh sáng Mặt Trời giống như nụ cười hiền hòa đánh thức các chiếc lá ngủ say.",
+          "Mỗi chiếc lá trên cành cây là một lá thư nhỏ nhắn gửi lên bầu trời cao."
+        ],
+        "k": "B",
+        "e": "Câu đầu sử dụng chuẩn xác thuật ngữ sinh học (\"quang hợp\", \"năng lượng ánh sáng\") theo văn phong khoa học khách quan.",
+        "s": "Ngữ Văn 7",
+        "h": "Vận dụng thuật ngữ chuẩn xác"
+      },
+      {
+        "c": "NV7-B12-010",
+        "d": "application",
+        "p": "Quan sát bảng đối chiếu các kiểu bài viết tiêu biểu suốt năm học Ngữ văn 7. Cặp nào ghép ĐÚNG kiểu bài với yêu cầu cốt lõi?",
+        "o": [
+          "Phân tích đặc điểm nhân vật → Không được trích dẫn bất kì chi tiết nào trong truyện",
+          "Thuyết minh quy tắc trò chơi → Viết mập mờ bằng ẩn dụ để người chơi tự đoán luật",
+          "Kể sự việc liên quan lịch sử → Trung thực sự thật lịch sử, kết hợp miêu tả không khí và ý nghĩa",
+          "Nghị luận vấn đề đời sống → Bắt buộc sáng tác câu chuyện viễn tưởng ngoài hành tinh"
+        ],
+        "k": "C",
+        "e": "Kể sự việc lịch sử đặt chân thực sự kiện làm gốc, còn phân tích nhân vật phải có dẫn chứng và thuyết minh luật lệ phải minh bạch.",
+        "s": "Ngữ Văn 7",
+        "h": "Đối chiếu yêu cầu bài viết lớp 7",
+        "fig": {
+          "type": "table",
+          "title": "Các Kiểu Bài Viết Lớp 7",
+          "head": [
+            "Kiểu bài",
+            "Yêu cầu cốt lõi"
+          ],
+          "rows": [
+            [
+              "Phân tích nhân vật",
+              "Chi tiết, tính cách"
+            ],
+            [
+              "Bài văn biểu cảm",
+              "Cảm xúc và kỉ niệm"
+            ],
+            [
+              "Nghị luận đời sống",
+              "Lí lẽ và bằng chứng"
+            ],
+            [
+              "Thuyết minh luật lệ",
+              "Rõ bước và an toàn"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "NV7-B12-011",
+        "d": "application",
+        "p": "Để sửa lỗi lặp từ thiếu tinh tế trong hai câu: \"Em rất thích cuốn sách này. Cuốn sách này dạy em biết trân trọng tình bạn\", cách sửa nào hay nhất mà vẫn giữ nguyên ý?",
+        "o": [
+          "Em rất thích cuốn sách này; nó dạy em biết trân trọng tình bạn. (Hoặc dùng \"Tác phẩm ấy\" thay cho \"Cuốn sách này\" ở câu 2)",
+          "Lặp lại cụm \"cuốn sách này\" thêm bốn lần nữa ở cuối câu thứ hai",
+          "Thay từ \"cuốn sách\" thành \"bữa cơm tối\" cho khác nghĩa đi",
+          "Xóa bỏ hoàn toàn câu thứ hai để chỉ còn lại năm chữ ngắn ngủi"
+        ],
+        "k": "A",
+        "e": "Thay thế bằng đại từ (\"nó\") hoặc từ đồng nghĩa (\"tác phẩm ấy\") là phép thế giúp câu văn mượt mà, liên kết chặt chẽ.",
+        "s": "Ngữ Văn 7",
+        "h": "Chữa lỗi lặp từ bằng phép thế"
+      },
+      {
+        "c": "NV7-B12-012",
+        "d": "application",
+        "p": "Khi đọc câu: \"Nước mắt cá sấu hay lời hứa hão của những kẻ gian dối không thể che lấp sự thật\", thành ngữ \"nước mắt cá sấu\" có ý nghĩa gì?",
+        "o": [
+          "Giọt nước mắt xúc động chân thành của loài động vật sống dưới sông",
+          "Nỗi nhớ quê hương tha thiết của người đi xa lâu ngày",
+          "Sự thương cảm giả tạo, dối trá để đánh lừa người khác",
+          "Nước sông dâng cao vào mùa mưa bão ở vùng nhiệt đới"
+        ],
+        "k": "C",
+        "e": "Thành ngữ \"nước mắt cá sấu\" mang nghĩa ẩn dụ chỉ sự giả vờ thương xót nhằm che đậy âm mưu ích kỉ.",
+        "s": "Ngữ Văn 7",
+        "h": "Hiểu nghĩa thành ngữ trong ngữ cảnh"
+      },
+      {
+        "c": "NV7-B12-013",
+        "d": "advanced",
+        "p": "Đọc đoạn trích sau trong một bài nghị luận học đường: \"Nhiều bạn cho rằng đọc truyện tranh là vô bổ. Tuy nhiên, bên cạnh những truyện giải trí đơn thuần, nhiều bộ truyện tranh lịch sử và khoa học đã khơi dậy niềm say mê tìm hiểu tri thức ở hàng triệu học sinh.\" Đoạn văn thành công ở kĩ thuật lập luận nào?",
+        "o": [
+          "Sử dụng biện pháp nói quá phóng đại để chứng minh truyện tranh thay thế được toàn bộ sách giáo khoa",
+          "Biết đối thoại, nhìn nhận vấn đề hai chiều công bằng, tránh đánh đồng cực đoan để bảo vệ ý kiến một cách thuyết phục",
+          "Đưa ra hàng loạt câu hỏi tu từ mà không có bất kì lí lẽ giải thích nào",
+          "Dùng lời lẽ công kích cá nhân những người không thích đọc truyện"
+        ],
+        "k": "B",
+        "e": "Lập luận phản biện biết phân tách mặt tích cực – hạn chế giúp quan điểm mang tính khách quan, thuyết phục cao.",
+        "s": "Ngữ Văn 7",
+        "h": "Đánh giá kĩ thuật lập luận phản biện"
+      },
+      {
+        "c": "NV7-B12-014",
+        "d": "advanced",
+        "p": "Xác định sự khác biệt về cách vận dụng \"trí tưởng tượng\" giữa truyền thuyết/cổ tích (lớp 6) và truyện khoa học viễn tưởng (lớp 7):",
+        "o": [
+          "Truyền thuyết và cổ tích dùng yếu tố kì ảo siêu nhiên dân gian; còn khoa học viễn tưởng dựa trên giả thuyết khoa học, công nghệ và logic",
+          "Truyện khoa học viễn tưởng luôn ngắn hơn truyện cổ tích và viết bằng thể thơ lục bát",
+          "Truyền thuyết và cổ tích không có bất kì yếu tố tưởng tượng nào còn viễn tưởng chỉ viết về phép màu ông Bụt",
+          "Cả hai đều chỉ viết về các nhân vật lịch sử cổ đại thời Hùng Vương"
+        ],
+        "k": "A",
+        "e": "Hiểu ranh giới giữa \"kì ảo dân gian\" và \"viễn tưởng khoa học\" là dấu mốc quan trọng trong năng lực đọc hiểu văn bản tự sự lớp 7.",
+        "s": "Ngữ Văn 7",
+        "h": "So sánh thể loại liên lớp 6–7"
+      },
+      {
+        "c": "NV7-B12-015",
+        "d": "advanced",
+        "p": "Nhìn lại toàn bộ chương trình Ngữ văn lớp 7, vì sao cả bốn kĩ năng Đọc, Viết, Nói và Nghe đều chú trọng việc phân biệt \"dữ liệu khách quan\" với \"ý kiến, cảm xúc chủ quan\"?",
+        "o": [
+          "Để học sinh không bao giờ được phép bộc lộ cảm xúc cá nhân trong các bài thơ",
+          "Để học sinh vừa rung động nhân văn trước cái đẹp, vừa có tư duy phản biện tỉnh táo, biết kiểm chứng sự thật khi tiếp nhận thông tin",
+          "Để loại bỏ hoàn toàn các tác phẩm truyện ngắn khỏi sách giáo khoa lớp 8",
+          "Để tách rời môn Ngữ văn thành hai môn học hoàn toàn không liên quan nhau"
+        ],
+        "k": "B",
+        "e": "Cân bằng giữa tâm hồn giàu cảm xúc và tư duy logic mạch lạc là mục tiêu cốt lõi của Ngữ văn bậc THCS.",
+        "s": "Ngữ Văn 7",
+        "h": "Khái quát năng lực Ngữ văn 7"
+      }
+    ]
+  }
+]

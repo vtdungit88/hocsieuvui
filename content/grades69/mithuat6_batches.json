@@ -1,0 +1,3429 @@
+[
+  {
+    "chapter": "mithuat6-c1",
+    "lesson": {
+      "code": "mithuat6-b01",
+      "title": "Bài 1. Chấm, nét, hình và khối trong tạo hình",
+      "seq": 1,
+      "subtitle": "Các yếu tố tạo hình cơ bản: chấm, nét (thẳng, cong, gấp khúc), hình phẳng 2D và khối không gian 3D",
+      "concepts": [
+        "Chấm và nét biểu cảm",
+        "Hình phẳng 2D và khối 3D",
+        "Kết hợp yếu tố tạo hình"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT6-B01-001",
+        "d": "basic",
+        "p": "Trong ngôn ngữ tạo hình mĩ thuật, yếu tố nào được coi là khởi nguồn nhỏ nhất tạo nên đường nét, bề mặt và họa tiết chấm phá?",
+        "o": [
+          "Ánh sáng đèn sân khấu",
+          "Khung gỗ căng toan",
+          "Khối lập phương",
+          "Chấm (điểm)"
+        ],
+        "k": "D",
+        "e": "Nhiều chấm đứng dày hay thưa, to hay nhỏ có thể tạo độ sáng tối (tranh chấm màu) và nhịp điệu thị giác sinh động.",
+        "s": "Mĩ Thuật 6",
+        "h": "Vai trò của yếu tố Chấm"
+      },
+      {
+        "c": "MT6-B01-002",
+        "d": "basic",
+        "p": "Đường nét thẳng đứng, nằm ngang trong bức tranh thường gợi lên cảm giác thị giác nào cho người xem?",
+        "o": [
+          "Sự chuyển động hỗn loạn xoay tròn dữ dội",
+          "Cảm giác mềm mại uốn lượn như làn sóng nước",
+          "Sự mờ nhạt tan biến vào không trung",
+          "Sự vững chãi, trang nghiêm, ổn định hoặc tĩnh lặng bình yên"
+        ],
+        "k": "D",
+        "e": "Nét ngang gợi mặt biển yên ả hay chân trời; nét đứng gợi cột nhà, hàng cây thẳng tắp trang nghiêm.",
+        "s": "Mĩ Thuật 6",
+        "h": "Cảm giác của nét thẳng và nét ngang"
+      },
+      {
+        "c": "MT6-B01-003",
+        "d": "basic",
+        "p": "Sự khác biệt bản chất giữa \"Hình\" (2 chiều - 2D) và \"Khối\" (3 chiều - 3D) trong mĩ thuật là gì?",
+        "o": [
+          "Hình chỉ có chiều dài và chiều rộng trên mặt phẳng; Khối có đủ ba chiều dài, rộng và chiều dày sâu trong không gian",
+          "Hình luôn có màu đỏ còn Khối luôn có màu xanh dương",
+          "Hình chỉ có kích thước lớn còn Khối rất nhỏ bé",
+          "Hình làm bằng đất nặn còn Khối vẽ bằng bút chì trên giấy mỏng"
+        ],
+        "k": "A",
+        "e": "Ví dụ hình tròn, hình vuông là hình 2D trên giấy; quả cầu, hình lập phương bằng đất nặn là khối 3D.",
+        "s": "Mĩ Thuật 6",
+        "h": "Phân biệt Hình 2D và Khối 3D"
+      },
+      {
+        "c": "MT6-B01-004",
+        "d": "basic",
+        "p": "Loại đường nét nào thường được họa sĩ dùng để diễn tả chuyển động gồ ghề, dữ dội, tia chớp hoặc sự sắc nhọn mạnh mẽ?",
+        "o": [
+          "Nét chấm nhỏ li ti mờ nhạt",
+          "Nét ngang song song thật mảnh",
+          "Nét gấp khúc (nét zíc-zắc) góc nhọn dứt khoát",
+          "Nét cong tròn đều đặn uốn lượn chậm rãi"
+        ],
+        "k": "C",
+        "e": "Góc chuyển hướng đột ngột của nét gấp khúc tạo năng lượng thị giác mạnh, sắc cạnh và đầy kịch tính.",
+        "s": "Mĩ Thuật 6",
+        "h": "Biểu cảm của nét gấp khúc"
+      },
+      {
+        "c": "MT6-B01-005",
+        "d": "basic",
+        "p": "Các khối cơ bản (khối cầu, khối trụ, khối lập phương, khối chóp) được gọi là nền tảng của tạo hình vật thể vì sao?",
+        "o": [
+          "Vì các khối đó không bao giờ có bóng đổ",
+          "Vì chỉ có 4 khối đó mới có thể tô được màu nước",
+          "Vì hầu hết mọi đồ vật, công trình kiến trúc và cơ thể tự nhiên đều có thể quy giản về các khối cơ bản này để dựng hình chính xác",
+          "Vì các họa sĩ bị cấm vẽ mọi hình dáng khác ngoài 4 khối đó"
+        ],
+        "k": "C",
+        "e": "Nhìn quả táo gần giống khối cầu, cái cốc giống khối trụ giúp học sinh dựng hình tĩnh vật rất nhanh và chuẩn.",
+        "s": "Mĩ Thuật 6",
+        "h": "Vai trò các khối hình học cơ bản"
+      },
+      {
+        "c": "MT6-B01-006",
+        "d": "basic",
+        "p": "Khi dùng yếu tố Chấm để trang trí một bức tranh phong cảnh, làm thế nào tạo được cảm giác mảng tối đậm và mảng sáng nhạt mà không cần tô bệt màu?",
+        "o": [
+          "Bôi nhòe toàn bộ các chấm bằng nước lã cho mất hình dạng",
+          "Chấm dày đặc khít nhau ở vùng tối và chấm thưa dần, khoảng cách rộng ở vùng sáng",
+          "Dùng thước kẻ vẽ toàn bộ các đường thẳng song song",
+          "Chỉ chấm đúng một chấm duy nhất ở góc dưới tờ giấy"
+        ],
+        "k": "B",
+        "e": "Kĩ thuật chấm thưa - chấm dày tạo chuyển sắc sáng tối (kĩ thuật điểm sắc) rất thú vị trong mĩ thuật.",
+        "s": "Mĩ Thuật 6",
+        "h": "Tạo sáng tối bằng mật độ chấm"
+      },
+      {
+        "c": "MT6-B01-007",
+        "d": "application",
+        "p": "Quan sát hình minh họa các loại đường nét dưới đây, khi vẽ cảnh dòng sông uốn quanh cánh đồng lúa êm đềm hoặc làn khói nhẹ, họa sĩ ưu tiên sử dụng loại nét nào làm chủ đạo?",
+        "o": [
+          "Nét gấp khúc zíc-zắc góc nhọn dày đặc",
+          "Nét cong mềm mại uyển chuyển tạo cảm giác nhẹ nhàng, lưu chuyển tự nhiên",
+          "Nét đứt nét vuông góc cứng nhắc",
+          "Các đường thẳng đứng song song cách đều nhau"
+        ],
+        "k": "B",
+        "e": "Đường nét có \"ngôn ngữ cảm xúc\" riêng; chọn đúng loại nét giúp bức tranh truyền tải đúng không khí chủ đề.",
+        "s": "Mĩ Thuật 6",
+        "h": "Chọn loại nét diễn tả dòng sông êm đềm",
+        "fig": {
+          "w": 300,
+          "h": 180,
+          "items": [
+            {
+              "t": "curve",
+              "p": [
+                [
+                  40,
+                  90.0
+                ],
+                [
+                  60,
+                  113.0
+                ],
+                [
+                  80,
+                  126.6
+                ],
+                [
+                  100,
+                  125.3
+                ],
+                [
+                  120,
+                  109.6
+                ],
+                [
+                  140,
+                  85.9
+                ],
+                [
+                  160,
+                  63.9
+                ],
+                [
+                  180,
+                  52.5
+                ],
+                [
+                  200,
+                  56.4
+                ],
+                [
+                  220,
+                  74.0
+                ],
+                [
+                  240,
+                  98.2
+                ],
+                [
+                  260,
+                  119.0
+                ]
+              ],
+              "color": "#db2777",
+              "w": 3.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                165
+              ],
+              "s": "Nét cong uyển chuyển",
+              "anchor": "middle",
+              "size": 13
+            }
+          ]
+        }
+      },
+      {
+        "c": "MT6-B01-008",
+        "d": "application",
+        "p": "Quan sát hình khối lập phương minh họa dưới đây, khi vẽ vật mẫu hình hộp trên giấy phẳng 2D mà muốn người xem cảm nhận được chiều sâu khối 3D vững chắc, ta cần thể hiện rõ yếu tố nào?",
+        "o": [
+          "Chỉ vẽ đúng một hình vuông phẳng hai chiều không thêm mặt bên",
+          "Xóa mờ hết mọi đường viền cạnh của chiếc hộp",
+          "Vẽ đủ các mặt nhìn thấy theo quy luật phối cảnh hội tụ và phân biệt các độ đậm nhạt sáng - trung gian - tối trên từng mặt khối",
+          "Tô cả ba mặt nhìn thấy của hộp bằng một độ đen kịt giống hệt nhau"
+        ],
+        "k": "C",
+        "e": "Ánh sáng chiếu lên các mặt nghiêng khác nhau tạo sự chênh lệch đậm nhạt, giúp mắt não bộ nhận ra ngay khối 3D.",
+        "s": "Mĩ Thuật 6",
+        "h": "Biểu hiện khối 3D trên mặt giấy phẳng",
+        "fig": {
+          "w": 300,
+          "h": 190,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  90,
+                  65
+                ],
+                [
+                  185,
+                  65
+                ],
+                [
+                  185,
+                  160
+                ],
+                [
+                  90,
+                  160
+                ]
+              ],
+              "fill": "#93c5fd",
+              "stroke": "#1d4ed8",
+              "w": 2.2
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  90,
+                  65
+                ],
+                [
+                  130,
+                  32
+                ],
+                [
+                  225,
+                  32
+                ],
+                [
+                  185,
+                  65
+                ]
+              ],
+              "fill": "#bfdbfe",
+              "stroke": "#1d4ed8",
+              "w": 2.2
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  185,
+                  65
+                ],
+                [
+                  225,
+                  32
+                ],
+                [
+                  225,
+                  127
+                ],
+                [
+                  185,
+                  160
+                ]
+              ],
+              "fill": "#60a5fa",
+              "stroke": "#1d4ed8",
+              "w": 2.2
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                178
+              ],
+              "s": "Khối lập phương 3D",
+              "anchor": "middle",
+              "size": 13
+            }
+          ]
+        }
+      },
+      {
+        "c": "MT6-B01-009",
+        "d": "application",
+        "p": "Một học sinh vẽ bức tranh về giờ ra chơi sân trường nhưng vẽ toàn bộ bạn bè đều đứng thẳng đơ bằng các nét dọc song song cứng nhắc. Để các nhân vật trông đang chạy nhảy đá cầu sinh động, bạn ấy cần sửa nét tạo hình thế nào?",
+        "o": [
+          "Chỉ dùng thước kẻ vẽ người bằng hình chữ nhật đứng thẳng",
+          "Tô đen toàn bộ nền sân trường để giấu đi dáng người",
+          "Sử dụng nhiều nét chéo, nét cong chuyển động linh hoạt cho tư thế tay chân và hướng thân người nghiêng theo đà chạy",
+          "Vẽ tất cả các bạn xếp thành một hàng ngang thẳng đứng giống hệt nhau"
+        ],
+        "k": "C",
+        "e": "Đường trục nghiêng và nét cong động lực là bí quyết giúp nhân vật trong tranh trở nên sống động.",
+        "s": "Mĩ Thuật 6",
+        "h": "Tạo dáng chuyển động bằng đường nét"
+      },
+      {
+        "c": "MT6-B01-010",
+        "d": "application",
+        "p": "Khi nặn một chú voi bằng đất sét (tạo hình khối 3D), bước khởi đầu hợp lí nhất giúp tượng cân đối không bị rời rạc là gì?",
+        "o": [
+          "Ép dẹt toàn bộ cục đất mỏng như tờ giấy rồi dùng bút vẽ lên",
+          "Quy các bộ phận về khối cơ bản trước (thân khối trụ bầu, đầu khối cầu, chân khối trụ ngắn) rồi mới ghép gắn chắc và nắn chi tiết tai, ngà, vòi",
+          "Dùng thước đo chính xác từng milimét lông đuôi ngay từ đầu",
+          "Nặn thật tỉ mỉ hai cái móng chân nhỏ xíu trước khi nghĩ tới phần thân"
+        ],
+        "k": "B",
+        "e": "Đi từ khối lớn tổng thể đến chi tiết nhỏ là quy trình vàng trong điêu khắc và nặn tạo hình.",
+        "s": "Mĩ Thuật 6",
+        "h": "Quy trình nặn tạo hình từ khối lớn"
+      },
+      {
+        "c": "MT6-B01-011",
+        "d": "application",
+        "p": "Trong trang trí hình vuông cơ bản, họa sĩ dùng đan xen các nét to đậm (nét chính) và các nét thanh mảnh (nét phụ). Sự kết hợp nét đậm - mảnh này mang lại hiệu quả thẩm mĩ gì?",
+        "o": [
+          "Làm bài trang trí bị rối mắt mất hết hình dạng họa tiết",
+          "Tạo nhịp điệu phong phú, nhấn rõ trọng tâm họa tiết chính và tăng chiều sâu sinh động cho bài trang trí",
+          "Khiến người xem không phân biệt được đâu là khung hình vuông",
+          "Chỉ tốn thêm mực bút mà không có tác dụng thị giác nào"
+        ],
+        "k": "B",
+        "e": "Nếu mọi nét đều dày bằng nhau tăm tắp, bài vẽ rất dễ bị phẳng và thiếu điểm nhấn.",
+        "s": "Mĩ Thuật 6",
+        "h": "Kết hợp nét đậm và nét thanh mảnh"
+      },
+      {
+        "c": "MT6-B01-012",
+        "d": "application",
+        "p": "Quan sát các đồ vật thật trong lớp học như cái phích nước, quả bóng đá, hộp phấn và nón lá. Nếu quy về bốn khối cơ bản, cặp ghép ĐÚNG nhất là cặp nào?",
+        "o": [
+          "Quả bóng - khối lập phương; Nón lá - khối cầu",
+          "Hộp phấn - khối trụ tròn; Quả bóng - khối chóp",
+          "Quả bóng - khối cầu; Hộp phấn - khối hộp chữ nhật; Nón lá - khối nón; Thân phích nước - khối trụ",
+          "Nón lá - khối hộp chữ nhật; Phích nước - khối tam giác phẳng"
+        ],
+        "k": "C",
+        "e": "Quan sát nhận diện \"hình khối ẩn sau đồ vật\" giúp rèn đôi mắt họa sĩ và khả năng vẽ nhanh mọi thứ quanh mình.",
+        "s": "Mĩ Thuật 6",
+        "h": "Quy giản đồ vật thực tế về khối cơ bản"
+      },
+      {
+        "c": "MT6-B01-013",
+        "d": "advanced",
+        "p": "Nhiều danh họa trường phái Ấn tượng mới (như Georges Seurat) đã vẽ cả một bức tranh khổ lớn tuyệt đẹp hoàn toàn bằng hàng chục nghìn chấm màu li ti đặt cạnh nhau mà không pha trộn sẵn trên bảng pha màu. Nguyên lí thị giác kì diệu nào giúp mắt người vẫn nhìn thấy màu sắc hài hòa?",
+        "o": [
+          "Pha màu quang học trong mắt: ở khoảng cách vừa phải, các chấm màu nguyên chất cạnh nhau tự hòa trộn trên võng mạc tạo sắc độ lung linh rực rỡ",
+          "Vì mắt người không thể nhìn thấy bất kì chấm màu nào trên tranh",
+          "Vì bức tranh thực chất được in bằng máy in phun điện tử hiện đại",
+          "Vì các chấm màu đó tự chảy hòa vào nhau trên mặt vải vẽ sau khi khô"
+        ],
+        "k": "A",
+        "e": "Kĩ thuật Điểm sắc (Pointillism) biến chấm đơn giản thành nghệ thuật ánh sáng rực rỡ bậc nhất thế kỉ XIX.",
+        "s": "Mĩ Thuật 6",
+        "h": "Nguyên lí pha màu quang học từ chấm"
+      },
+      {
+        "c": "MT6-B01-014",
+        "d": "advanced",
+        "p": "Phân tích lí do vì sao trong kiến trúc và điêu khắc hiện đại, một bức tượng đài ngoài trời lại cần có tính \"khối đa diện nhìn đẹp từ nhiều góc\" chứ không chỉ nhìn đẹp ở một mặt chính diện?",
+        "o": [
+          "Vì tượng ngoài trời không có ánh sáng mặt trời chiếu tới mặt bên",
+          "Để giấu đi phần mặt trước kém thẩm mĩ của tác phẩm",
+          "Tác phẩm 3D đặt trong không gian mở để người xem đi vòng quanh ngắm từ mọi phía; mọi góc nhìn đều phải cân đối và có ngôn ngữ khối thống nhất",
+          "Vì luật kiến trúc bắt buộc mọi bức tượng đều phải xoay tròn bằng động cơ điện"
+        ],
+        "k": "C",
+        "e": "Tư duy không gian 360 độ là yếu tố phân biệt người làm điêu khắc thực thụ với người chỉ vẽ mặt phẳng 2D.",
+        "s": "Mĩ Thuật 6",
+        "h": "Tư duy không gian đa chiều của khối 3D"
+      },
+      {
+        "c": "MT6-B01-015",
+        "d": "advanced",
+        "p": "Khi sáng tạo một tác phẩm mĩ thuật hiện đại chỉ bằng duy nhất yếu tố nét và hình phẳng (tranh trừu tượng tối giản), làm thế nào người xem vẫn cảm thấy bức tranh có \"không gian xa gần\"?",
+        "o": [
+          "Bằng cách viết thật nhiều chữ chú thích \"xa\" và \"gần\" lên góc tranh",
+          "Không thể nào tạo cảm giác xa gần trên giấy phẳng được",
+          "Bằng cách vẽ mọi hình kích thước bằng hệt nhau xếp hàng ngang",
+          "Bằng cách đặt hình to gần - hình nhỏ xa, chồng lớp hình trước che khuất một phần hình sau và thay đổi độ đậm nhạt, mờ rõ của nét"
+        ],
+        "k": "D",
+        "e": "Chồng lớp (overlapping) và tỉ lệ lớn nhỏ là những quy luật không gian rất hiệu quả ngay cả khi không dùng phối cảnh cổ điển.",
+        "s": "Mĩ Thuật 6",
+        "h": "Tạo chiều sâu không gian trên mặt phẳng"
+      }
+    ]
+  },
+  {
+    "chapter": "mithuat6-c1",
+    "lesson": {
+      "code": "mithuat6-b02",
+      "title": "Bài 2. Màu sắc cơ bản, hòa sắc nóng lạnh và pha màu",
+      "seq": 2,
+      "subtitle": "Ba màu cơ bản, màu bậc hai, vòng tròn màu sắc thuần sắc, cặp màu tương phản bổ túc và gam màu nóng - lạnh trong hội họa",
+      "concepts": [
+        "Ba màu cơ bản và pha màu",
+        "Gam màu nóng và gam màu lạnh",
+        "Cặp màu bổ túc nổi bật"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT6-B02-001",
+        "d": "basic",
+        "p": "Ba \"màu cơ bản\" (màu gốc - không thể pha từ các màu khác tạo thành trong hội họa truyền thống) gồm những màu nào?",
+        "o": [
+          "Trắng, Đen và Xám",
+          "Cam, Tím và Nâu",
+          "Đỏ, Vàng và Xanh lam",
+          "Đỏ, Xanh lục và Tím"
+        ],
+        "k": "C",
+        "e": "Từ ba màu gốc Đỏ - Vàng - Xanh lam, ta có thể pha trộn tạo ra hầu hết các màu sắc khác trên vòng tuần hoàn màu.",
+        "s": "Mĩ Thuật 6",
+        "h": "Ba màu cơ bản trong hội họa"
+      },
+      {
+        "c": "MT6-B02-002",
+        "d": "basic",
+        "p": "Khi pha trộn hai màu cơ bản Đỏ và Vàng theo tỉ lệ cân đối, ta thu được màu bậc hai (màu nhị hợp) nào?",
+        "o": [
+          "Màu Đen",
+          "Màu Da cam (Cam)",
+          "Màu Xanh lục (Lá cây)",
+          "Màu Tím"
+        ],
+        "k": "B",
+        "e": "Ba cặp pha màu bậc hai kinh điển: Đỏ + Vàng = Cam; Vàng + Lam = Lục; Lam + Đỏ = Tím.",
+        "s": "Mĩ Thuật 6",
+        "h": "Pha màu Đỏ và Vàng"
+      },
+      {
+        "c": "MT6-B02-003",
+        "d": "basic",
+        "p": "Trong vòng tuần hoàn màu sắc, nhóm màu nào được xếp vào \"Gam màu nóng\" gợi cảm giác ấm áp, rực rỡ, sôi nổi?",
+        "o": [
+          "Đỏ, Da cam, Vàng và các sắc độ ngả sang đỏ vàng",
+          "Trắng tuyết, Xanh da trời nhạt và Xám bạc",
+          "Chỉ duy nhất màu Đen và màu Trắng",
+          "Xanh lam, Xanh lục đậm, Tím than và Chàm"
+        ],
+        "k": "A",
+        "e": "Gam màu nóng gợi nhớ ánh mặt trời, ngọn lửa ấm, mùa hè rực rỡ và nguồn năng lượng mạnh mẽ.",
+        "s": "Mĩ Thuật 6",
+        "h": "Nhận diện gam màu nóng"
+      },
+      {
+        "c": "MT6-B02-004",
+        "d": "basic",
+        "p": "Ngược lại với gam nóng, \"Gam màu lạnh\" gồm những màu nào và mang lại cảm giác thị giác đặc trưng gì?",
+        "o": [
+          "Xanh lam, Xanh lục, Tím lam; gợi cảm giác mát mẻ, yên tĩnh, sâu lắng hoặc xa xăm",
+          "Đỏ tươi, Vàng chanh, Cam rực; gợi cảm giác chói chang nóng bức",
+          "Đỏ thẫm và Nâu đất; gợi cảm giác lửa cháy dữ dội",
+          "Chỉ có màu vàng nhạt duy nhất"
+        ],
+        "k": "A",
+        "e": "Thiên nhiên biển cả, rừng cây bóng mát và bầu trời đêm thường mang hòa sắc gam màu lạnh dịu mắt.",
+        "s": "Mĩ Thuật 6",
+        "h": "Nhận diện gam màu lạnh"
+      },
+      {
+        "c": "MT6-B02-005",
+        "d": "basic",
+        "p": "Ba cặp \"màu bổ túc\" (màu tương phản đứng đối diện trực tiếp nhau trên vòng tròn màu cơ bản) là những cặp nào?",
+        "o": [
+          "Đỏ đối Lục; Vàng đối Tím; Xanh lam đối Da cam",
+          "Trắng đối Xám; Đỏ đối Cam; Vàng đối Xanh lục",
+          "Đỏ đối Vàng; Lam đối Tím; Cam đối Lục",
+          "Đen đối Tím; Lam đối Lục; Đỏ đối Hồng"
+        ],
+        "k": "A",
+        "e": "Đặt hai màu bổ túc cạnh nhau làm cả hai màu cùng bật sáng rực rỡ hết mức (ví dụ bông hoa đỏ trên nền lá xanh lục).",
+        "s": "Mĩ Thuật 6",
+        "h": "Ba cặp màu bổ túc tương phản"
+      },
+      {
+        "c": "MT6-B02-006",
+        "d": "basic",
+        "p": "Hai màu Trắng và Đen trong hội họa được gọi là màu vô sắc; khi pha thêm màu Trắng hoặc Đen vào một màu thuần sắc sẽ làm thay đổi yếu tố nào của màu đó?",
+        "o": [
+          "Làm màu Đỏ biến ngay thành màu Vàng tươi",
+          "Làm mất hoàn toàn khả năng bám dính của màu lên giấy",
+          "Làm thay đổi độ đậm nhạt (sắc độ sáng tối): pha Trắng màu sáng nhạt dần lên, pha Đen màu tối sẫm dần xuống",
+          "Biến màu nóng thành màu lạnh hoàn toàn"
+        ],
+        "k": "C",
+        "e": "Kiểm soát sắc độ đậm nhạt giúp bức tranh có không gian sáng tối rõ ràng thay vì bị đều phẳng.",
+        "s": "Mĩ Thuật 6",
+        "h": "Điều chỉnh sắc độ bằng Trắng và Đen"
+      },
+      {
+        "c": "MT6-B02-007",
+        "d": "application",
+        "p": "Quan sát hình minh họa phép pha màu dưới đây giữa Vàng và Xanh lam (tỉ lệ bằng nhau), kết quả ô dấu hỏi (?) sẽ cho ra màu bậc hai nào?",
+        "o": [
+          "Màu Tím sẫm",
+          "Màu Xanh lục (Xanh lá cây)",
+          "Màu Da cam tươi",
+          "Màu Nâu đen"
+        ],
+        "k": "B",
+        "e": "Vàng + Xanh lam -> Xanh lục. Nếu pha nhiều Vàng hơn sẽ ra xanh non mạ; nhiều Lam hơn ra xanh rêu thẫm.",
+        "s": "Mĩ Thuật 6",
+        "h": "Kết quả pha Vàng và Xanh lam",
+        "fig": {
+          "w": 315,
+          "h": 140,
+          "items": [
+            {
+              "t": "circle",
+              "c": [
+                65,
+                75
+              ],
+              "r": 28,
+              "fill": "#facc15",
+              "stroke": "#334155",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                65,
+                122
+              ],
+              "s": "Vàng",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "txt",
+              "p": [
+                112,
+                82
+              ],
+              "s": "+",
+              "anchor": "middle",
+              "size": 22
+            },
+            {
+              "t": "circle",
+              "c": [
+                158,
+                75
+              ],
+              "r": 28,
+              "fill": "#2563eb",
+              "stroke": "#334155",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                158,
+                122
+              ],
+              "s": "Xanh lam",
+              "anchor": "middle",
+              "size": 12
+            },
+            {
+              "t": "txt",
+              "p": [
+                204,
+                82
+              ],
+              "s": "=",
+              "anchor": "middle",
+              "size": 22
+            },
+            {
+              "t": "circle",
+              "c": [
+                252,
+                75
+              ],
+              "r": 28,
+              "fill": "#f1f5f9",
+              "stroke": "#334155",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                252,
+                82
+              ],
+              "s": "?",
+              "anchor": "middle",
+              "size": 22
+            }
+          ]
+        }
+      },
+      {
+        "c": "MT6-B02-008",
+        "d": "application",
+        "p": "Quan sát bảng tổng hợp hòa sắc dưới đây, nếu em vẽ một bức tranh đề tài \"Lễ hội mùa hè rực rỡ nắng vàng\" hoặc \"Bếp lửa ấm đêm giao thừa\", em nên chọn hòa sắc chủ đạo nào?",
+        "o": [
+          "Tô toàn bộ màu Tím xám lạnh lẽo từ đầu đến cuối",
+          "Toàn bộ bức tranh chỉ tô màu Xanh lam đậm và Đen kịt",
+          "Chỉ vẽ nét bút chì đen trắng không dùng chút màu nào",
+          "Hòa sắc gam màu nóng (Đỏ, Cam, Vàng làm chủ đạo), có thể điểm xuyết chút sắc lạnh nhẹ để làm nổi bật độ ấm rực rỡ"
+        ],
+        "k": "D",
+        "e": "Hòa sắc có gam chủ đạo (nóng là chính, lạnh điểm nhẹ hoặc ngược lại) tạo sự thống nhất cảm xúc cho toàn bộ bức tranh.",
+        "s": "Mĩ Thuật 6",
+        "h": "Chọn gam màu chủ đạo theo chủ đề",
+        "fig": {
+          "type": "table",
+          "title": "Bảng hòa sắc và pha màu",
+          "head": [
+            "Nhóm màu",
+            "Thành phần tiêu biểu"
+          ],
+          "rows": [
+            [
+              "3 màu cơ bản",
+              "Đỏ, Vàng, Xanh lam"
+            ],
+            [
+              "3 màu bậc hai",
+              "Cam, Lục, Tím"
+            ],
+            [
+              "Cặp bổ túc",
+              "Đỏ-Lục, Lam-Cam"
+            ],
+            [
+              "Gam nóng / lạnh",
+              "Đỏ vàng / Lam tím"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT6-B02-009",
+        "d": "application",
+        "p": "Một bạn thiết kế tấm áp phích tuyên truyền \"Bảo vệ môi trường biển\" muốn chữ tiêu đề \"HÃY CỨU ĐẠI DƯƠNG\" nổi bật rõ nét nhất từ xa trên nền biển màu xanh lam đậm. Bạn ấy nên chọn màu chữ nào dựa theo nguyên lí màu bổ túc?",
+        "o": [
+          "Màu Xanh lam hơi sẫm hơn nền một chút",
+          "Màu Tím than tối trùng độ đậm với nền biển",
+          "Màu Xanh rêu tối khó đọc từ xa",
+          "Màu Da cam tươi hoặc Vàng cam sáng (màu tương phản trực tiếp với nền xanh lam đậm)"
+        ],
+        "k": "D",
+        "e": "Tương phản cặp bổ túc (Cam trên nền Lam) và tương phản đậm - nhạt đảm bảo thông điệp đọc rõ ngay từ xa.",
+        "s": "Mĩ Thuật 6",
+        "h": "Ứng dụng cặp màu bổ túc vào áp phích"
+      },
+      {
+        "c": "MT6-B02-010",
+        "d": "application",
+        "p": "Khi vẽ bức tranh phong cảnh bằng màu nước hoặc màu bột, bạn An tô cái cây xanh lá bằng một màu Xanh lục đóng sẵn trong lọ mà không pha thêm gì, và tô bầu trời bằng một màu Lam duy nhất, nên tranh nhìn khá cứng và giả. Cách pha sắc độ tự nhiên hơn là gì?",
+        "o": [
+          "Để nguyên một mảng màu phẳng duy nhất vì màu trong hộp là chuẩn nhất rồi",
+          "Pha thật nhiều màu Đen đặc vào tất cả mọi chỗ trên tán cây",
+          "Pha thêm chút Vàng cho tán cây phía đón nắng, thêm chút Lam hoặc Tím nhẹ cho phần bóng râm tán cây để tạo chuyển sắc phong phú",
+          "Cứ mua thêm thật nhiều lọ màu công nghiệp tô trực tiếp từng mảng tách rời"
+        ],
+        "k": "C",
+        "e": "Trong tự nhiên không có chiếc lá nào chỉ mang một sắc xanh phẳng lì; ánh sáng nắng ấm và bóng râm lạnh luôn biến hóa màu sắc.",
+        "s": "Mĩ Thuật 6",
+        "h": "Pha chuyển sắc tự nhiên cho tranh"
+      },
+      {
+        "c": "MT6-B02-011",
+        "d": "application",
+        "p": "Trong lớp học vẽ màu bột hoặc màu sáp dầu, khi pha hai màu đối nghịch bổ túc (ví dụ pha thẳng lượng bằng nhau màu Đỏ với màu Xanh lục) trộn lẫn vào nhau trên bảng pha màu, điều gì sẽ xảy ra?",
+        "o": [
+          "Hai màu đó tự tách rời ra không trộn được với nhau",
+          "Tạo ra một màu Đỏ tươi rực rỡ hơn nữa",
+          "Tạo ra màu Trắng tinh khiết như giấy vẽ",
+          "Hai màu bổ túc triệt tiêu độ tươi rực của nhau, tạo thành một màu Xám nâu trầm trung tính"
+        ],
+        "k": "D",
+        "e": "Biết quy luật hai màu bổ túc trộn lẫn ra màu trầm giúp họa sĩ tự pha màu nâu, xám tự nhiên mà không cần phụ thuộc màu Đen công nghiệp!",
+        "s": "Mĩ Thuật 6",
+        "h": "Hiện tượng trộn lẫn hai màu bổ túc"
+      },
+      {
+        "c": "MT6-B02-012",
+        "d": "application",
+        "p": "Khi vẽ tranh phong cảnh có nhiều lớp núi trùng điệp kéo dài ra tận chân trời, họa sĩ thường tô dãy núi ở gần rất đậm rõ, còn các dãy núi càng ở xa phía sau thì pha màu theo quy luật nào?",
+        "o": [
+          "Dãy núi xa nhất phải tô màu Đỏ rực và Đen kịt thật rõ nét từng viên đá",
+          "Dãy núi gần vẽ nét mờ nhạt còn dãy núi xa vẽ nét thật to đậm",
+          "Cả năm lớp núi xa gần đều tô cùng một màu xanh đậm y hệt nhau",
+          "Càng ra xa màu càng nhạt dần, mờ dịu hơn và ngả sang tông xanh lam nhạt hòa với lớp sương không khí chân trời"
+        ],
+        "k": "D",
+        "e": "Hiện tượng \"phối cảnh không khí\" (màu nhạt lạnh dần theo khoảng cách) tạo chiều sâu mênh mông cho tranh phong cảnh.",
+        "s": "Mĩ Thuật 6",
+        "h": "Quy luật màu sắc xa gần ngoài trời"
+      },
+      {
+        "c": "MT6-B02-013",
+        "d": "advanced",
+        "p": "Tại sao danh họa Van Gogh lại nổi tiếng với bức tranh \"Đêm đầy sao\" hay \"Hoa hướng dương\" sử dụng dày đặc những cặp màu bổ túc (Xanh lam - Vàng cam) đặt cạnh nhau bằng từng nét cọ tách biệt chứ không pha nhuyễn?",
+        "o": [
+          "Vì ông không biết cách pha màu cam từ màu đỏ và màu vàng",
+          "Vì bức tranh đó chỉ có hai màu trắng và đen",
+          "Vì vào thời của ông chưa có cọ vẽ để trộn màu trên bảng",
+          "Vì đặt hai màu bổ túc nguyên chất cạnh nhau tạo độ rung thị giác rực rỡ, năng lượng cảm xúc mãnh liệt hơn gấp nhiều lần so với việc trộn chung lại thành màu xỉn"
+        ],
+        "k": "D",
+        "e": "Tương phản đồng thời (simultaneous contrast) giữa cặp màu bổ túc là bí mật tạo ánh sáng tự phát huyền diệu của hội họa.",
+        "s": "Mĩ Thuật 6",
+        "h": "Sức mạnh đặt màu bổ túc cạnh nhau"
+      },
+      {
+        "c": "MT6-B02-014",
+        "d": "advanced",
+        "p": "Một căn phòng học nhỏ có cửa sổ hướng Tây đón nhiều ánh nắng gay gắt vào buổi chiều. Nếu em đóng vai trò thiết kế phối màu sơn tường cho phòng học này, em ưu tiên gam màu nào để người ngồi học cảm thấy dễ chịu tập trung nhất?",
+        "o": [
+          "Sơn toàn bộ trần nhà và tường bằng màu Đen tuyền hấp thụ nhiệt",
+          "Sơn toàn bộ bốn bức tường bằng màu Đỏ rực và Da cam chói chang",
+          "Chọn gam màu lạnh nhẹ nhàng trung tính (như xanh bạc hà rất nhạt, xanh da trời dịu hoặc trắng ngà mát) để trung hòa cảm giác nóng bức ánh nắng",
+          "Mỗi bức tường sơn một màu sặc sỡ tương phản gắt khác nhau"
+        ],
+        "k": "C",
+        "e": "Tâm lí học màu sắc ứng dụng trực tiếp vào thiết kế nội thất giúp điều hòa cảm giác nhiệt độ và sự tập trung của mắt.",
+        "s": "Mĩ Thuật 6",
+        "h": "Ứng dụng tâm lí màu sắc vào thiết kế"
+      },
+      {
+        "c": "MT6-B02-015",
+        "d": "advanced",
+        "p": "Phân biệt nhanh: trong lí thuyết màu sắc pha trộn vật lí dùng cho sơn vẽ (hệ màu trừ RYB/CMY) với ánh sáng màn hình máy tính, điện thoại (hệ màu cộng RGB), ba màu gốc có khác nhau không?",
+        "o": [
+          "Hoàn toàn giống nhau 100%, ánh sáng tivi trộn hết lại ra màu đen kịt",
+          "Có khác: sơn vẽ dùng Đỏ - Vàng - Lam (trộn hết ra màu tối nâu đen), còn ánh sáng màn hình dùng Đỏ - Lục - Lam (cộng đủ ánh sáng mạnh tạo màu Trắng sáng)",
+          "Sơn vẽ pha đủ ba màu cơ bản lại với nhau tạo thành màu trắng phát sáng",
+          "Màn hình máy tính chỉ hiển thị được hai màu Vàng và Tím"
+        ],
+        "k": "B",
+        "e": "Hiểu sự khác biệt giữa màu chất liệu phản xạ (hội họa, in ấn) và màu ánh sáng phát xạ (màn hình số) rất hữu ích trong thời đại thiết kế đồ họa.",
+        "s": "Mĩ Thuật 6",
+        "h": "Màu sơn vẽ và màu ánh sáng màn hình"
+      }
+    ]
+  },
+  {
+    "chapter": "mithuat6-c1",
+    "lesson": {
+      "code": "mithuat6-b03",
+      "title": "Bài 3. Cân bằng, nhịp điệu và tương phản trong bố cục",
+      "seq": 3,
+      "subtitle": "Các nguyên lí tạo hình cốt lõi giúp bức tranh hài hòa thu hút: cân bằng (đối xứng - không đối xứng), nhịp điệu lặp lại và nhấn mạnh tương phản",
+      "concepts": [
+        "Cân bằng đối xứng và tự do",
+        "Nhịp điệu trong trang trí và tranh",
+        "Tương phản làm nổi trọng tâm"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT6-B03-001",
+        "d": "basic",
+        "p": "Trong bố cục một sản phẩm mĩ thuật, khái niệm \"Cân bằng\" (Balance) có nghĩa là gì?",
+        "o": [
+          "Chỉ vẽ ở nửa bên trái tờ giấy còn nửa bên phải để trắng hoàn toàn",
+          "Luôn phải kẻ đường chia đôi tờ giấy và đặt mọi thứ vào chính giữa tâm",
+          "Mọi hình vẽ bắt buộc phải có kích thước to bằng hệt nhau không được khác",
+          "Sự sắp xếp hợp lí các hình mảng, đậm nhạt, màu sắc trên mặt tranh sao cho tổng thể thuận mắt, không bị lệch nặng hẳn sang một phía gây chênh vênh"
+        ],
+        "k": "D",
+        "e": "Có hai kiểu cân bằng chính: cân bằng đối xứng (trang nghiêm chuẩn mực) và cân bằng bất đối xứng (tự nhiên sinh động).",
+        "s": "Mĩ Thuật 6",
+        "h": "Khái niệm Cân bằng trong bố cục"
+      },
+      {
+        "c": "MT6-B03-002",
+        "d": "basic",
+        "p": "Loại cân bằng nào thường được ứng dụng nhiều nhất trong trang trí hình vuông, đường diềm, thảm dệt truyền thống hoặc mặt tiền công trình kiến trúc trang nghiêm?",
+        "o": [
+          "Bố cục ngẫu nhiên ném vật liệu không sắp xếp",
+          "Chỉ vẽ một đường chéo đơn độc không họa tiết",
+          "Cân bằng đối xứng (qua trục dọc, trục ngang hoặc đối xứng tâm)",
+          "Cân bằng dồn hết toàn bộ hình vào một góc nhỏ phía dưới"
+        ],
+        "k": "C",
+        "e": "Đối xứng mang lại cảm giác trật tự, tôn nghiêm, vững chãi rất đẹp cho trang trí ứng dụng và kiến trúc cổ điển.",
+        "s": "Mĩ Thuật 6",
+        "h": "Ứng dụng Cân bằng đối xứng"
+      },
+      {
+        "c": "MT6-B03-003",
+        "d": "basic",
+        "p": "Nguyên lí \"Nhịp điệu\" (Rhythm) trong một bài trang trí đường diềm hoặc bức tranh phong cảnh được tạo ra bằng cách nào?",
+        "o": [
+          "Sự lặp lại có quy luật hoặc biến đổi tuần tự về hình dáng, đường nét, khoảng cách, màu sắc tạo cảm giác chuyển động liên hoàn dẫn mắt người xem",
+          "Chỉ vẽ duy nhất một chấm tròn ở chính giữa tờ giấy trắng",
+          "Vẽ chồng chéo tất cả hình lên một điểm duy nhất không có khoảng cách",
+          "Tất cả các hình trong tranh đều hoàn toàn khác nhau không có sự liên kết"
+        ],
+        "k": "A",
+        "e": "Nhịp điệu hội họa giống như nhịp phách âm nhạc: lặp đều (a-a-a) hoặc xen kẽ (a-b-a-b) giúp mắt lướt êm trên tác phẩm.",
+        "s": "Mĩ Thuật 6",
+        "h": "Nguyên lí Nhịp điệu thị giác"
+      },
+      {
+        "c": "MT6-B03-004",
+        "d": "basic",
+        "p": "Vai trò của nguyên lí \"Tương phản\" (Contrast — to/nhỏ, sáng/tối, nóng/lạnh) trong một bức tranh vẽ đề tài là gì?",
+        "o": [
+          "Phá vỡ hoàn toàn sự thống nhất làm các phần tranh rời rạc nhau",
+          "Làm nổi bật rõ rệt nhân vật và mảng chính (trọng tâm bức tranh), tránh sự đều đều nhạt nhòa đơn điệu",
+          "Giấu kín nhân vật chính hòa lẫn vào nền cho không ai nhìn thấy",
+          "Làm tất cả mọi chi tiết trong tranh tối sầm giống nhau"
+        ],
+        "k": "B",
+        "e": "Ví dụ: một ngôi nhà sáng màu ấm nằm trên nền rừng đêm xanh thẫm lập tức thu hút ánh nhìn đầu tiên.",
+        "s": "Mĩ Thuật 6",
+        "h": "Vai trò Tương phản tạo trọng tâm"
+      },
+      {
+        "c": "MT6-B03-005",
+        "d": "basic",
+        "p": "Để sắp xếp hình mảng chính - mảng phụ trong một bức tranh đề tài sinh hoạt hợp lí, tỉ lệ kích thước và vị trí thông thường nên đặt mảng chính thế nào?",
+        "o": [
+          "Không cần phân biệt mảng chính và mảng phụ trong tranh",
+          "Mảng phụ vẽ to gấp năm lần và sặc sỡ hơn hẳn mảng chính",
+          "Mảng chính chiếm diện tích lớn vừa phải nổi bật ở khu vực trung tâm (hoặc điểm mạnh tỉ lệ 1/3), còn mảng phụ nhỏ hơn hỗ trợ xung quanh",
+          "Mảng chính vẽ thật bé xíu ở mép rìa ngoài cùng tờ giấy"
+        ],
+        "k": "C",
+        "e": "Phân cấp rõ chính - phụ giúp người xem đọc ngay được nội dung câu chuyện của bức tranh.",
+        "s": "Mĩ Thuật 6",
+        "h": "Phân bố mảng chính và mảng phụ"
+      },
+      {
+        "c": "MT6-B03-006",
+        "d": "basic",
+        "p": "Trong trang trí \"Đường diềm\" (băng họa tiết lặp lại liên tục trang trí viền khăn, bát gốm, khung ảnh), quy luật nhịp điệu phổ biến nhất gồm hai kiểu nào?",
+        "o": [
+          "Kiểu lặp lại đơn giản (một họa tiết giống nhau nối tiếp) và kiểu xen kẽ (hai họa tiết hoặc hai kích thước thay phiên nối tiếp)",
+          "Kiểu vẽ mỗi ô một đề tài hoàn toàn hỗn loạn không liên quan",
+          "Kiểu chỉ vẽ ở đúng góc đầu tiên rồi dừng lại",
+          "Kiểu bỏ trống hoàn toàn không vẽ lặp lại chi tiết nào"
+        ],
+        "k": "A",
+        "e": "Đường diềm là ứng dụng kinh điển của nguyên lí Nhịp điệu trong mĩ thuật dân tộc và đời sống.",
+        "s": "Mĩ Thuật 6",
+        "h": "Hai kiểu nhịp điệu đường diềm"
+      },
+      {
+        "c": "MT6-B03-007",
+        "d": "application",
+        "p": "Quan sát bảng minh họa ba nguyên lí bố cục dưới đây, nếu một bức tranh vẽ một gốc cây đại thụ rất to nằm lệch sang bên trái khung tranh, bạn Lan muốn giữ cho bức tranh đạt \"Cân bằng bất đối xứng\" mà không thêm một cái cây to y hệt bên phải. Lan có thể cân bằng lại bằng cách nào?",
+        "o": [
+          "Vẽ thêm một cây đại thụ giống hệt kích thước và màu sắc ở bên phải",
+          "Cắt bớt một nửa tờ giấy bên phải bỏ đi",
+          "Đặt phía bên phải (xa trục giữa hơn) một cụm chi tiết nhỏ hơn nhưng màu sắc nổi bật hoặc độ đậm cao (như vài ngôi nhà mái đỏ hay con đường)",
+          "Xóa luôn cái cây bên trái và chỉ để tờ giấy trắng trơn"
+        ],
+        "k": "C",
+        "e": "Giống nguyên lí chiếc cân đòn bẩy: một khối lớn gần tâm cân bằng được với một điểm nhấn nhỏ đậm nổi bật ở xa tâm!",
+        "s": "Mĩ Thuật 6",
+        "h": "Tạo cân bằng bất đối xứng trong tranh",
+        "fig": {
+          "type": "table",
+          "title": "Ba nguyên lí bố cục chính",
+          "head": [
+            "Nguyên lí",
+            "Cách thể hiện nhanh"
+          ],
+          "rows": [
+            [
+              "Cân bằng đối xứng",
+              "Giống nhau qua trục"
+            ],
+            [
+              "Cân bằng tự do",
+              "Nặng-nhẹ bù trừ nhau"
+            ],
+            [
+              "Nhịp điệu",
+              "Lặp, xen kẽ đều đặn"
+            ],
+            [
+              "Tương phản",
+              "To-nhỏ, sáng-tối rõ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT6-B03-008",
+        "d": "application",
+        "p": "Bạn Minh vẽ một bức tranh đề tài \"An toàn giao thông cổng trường\", vẽ hàng chục học sinh ai cũng mặc áo trắng giống hệt nhau dàn hàng ngang đều tăm tắp khắp tờ giấy, xung quanh cây cối xe cộ đều tô nhạt nhòa như nhau. Bức tranh của Minh đang thiếu nguyên lí gì nên nhìn hơi nhạt nhòa khó nhận ra nội dung chính?",
+        "o": [
+          "Thiếu các đường kẻ ô li giống vở tập viết tiếng Việt",
+          "Vì Minh không vẽ nhân vật to bằng cả khổ giấy A0",
+          "Vì tranh giao thông bắt buộc phải vẽ đối xứng hai bên qua trục giữa",
+          "Thiếu nguyên lí Tương phản và phân cấp Chính - Phụ để nhấn mạnh nhóm nhân vật trung tâm đang giúp bạn hoặc sang đường đúng vạch kẻ"
+        ],
+        "k": "D",
+        "e": "Chỉ cần phóng to cụm nhân vật chính ở tiền cảnh và tăng độ tương phản đậm nhạt sẽ cứu ngay một bức tranh bị dàn trải.",
+        "s": "Mĩ Thuật 6",
+        "h": "Khắc phục lỗi bố cục dàn trải thiếu trọng tâm"
+      },
+      {
+        "c": "MT6-B03-009",
+        "d": "application",
+        "p": "Trong một bức ảnh hoặc bức tranh vẽ hàng cột đèn cao áp dọc theo con đường uốn lượn đi sâu về phía chân trời, các cột đèn càng đi vào xa càng nhỏ dần và sát gần nhau hơn. Đó là sự kết hợp của hai yếu tố nào?",
+        "o": [
+          "Cân bằng đối xứng hoàn toàn bằng nhau từ đầu tới cuối",
+          "Sự lộn xộn mất trật tự không có quy luật thị giác",
+          "Nhịp điệu biến đổi kích thước đều đặn (càng xa càng thu nhỏ) kết hợp luật phối cảnh chiều sâu không gian",
+          "Tương phản giữa khối cầu và khối hộp chữ nhật"
+        ],
+        "k": "C",
+        "e": "Nhịp điệu thu nhỏ dần tạo sức hút ánh mắt đi sâu vào bên trong không gian bức tranh rất lôi cuốn.",
+        "s": "Mĩ Thuật 6",
+        "h": "Nhịp điệu thu nhỏ tạo chiều sâu"
+      },
+      {
+        "c": "MT6-B03-010",
+        "d": "application",
+        "p": "Một học sinh trang trí một chiếc đĩa tròn (hình tròn đối xứng tâm) bằng 4 cụm họa tiết hoa sen giống nhau xoay đều quanh tâm đĩa, xen kẽ giữa các bông hoa là 4 chiếc lá nhỏ cùng hướng. Cách sắp xếp này vận dụng đồng thời hai nguyên lí nào?",
+        "o": [
+          "Chỉ dùng hai màu đen trắng vô sắc không họa tiết",
+          "Chỉ dùng nét gấp khúc zíc-zắc không khép kín",
+          "Bố cục tự do hỗn loạn và thiếu hẳn trọng tâm",
+          "Cân bằng đối xứng tâm và Nhịp điệu xen kẽ xoay tròn đều đặn"
+        ],
+        "k": "D",
+        "e": "Gốm sứ cổ truyền Việt Nam (như đĩa men lam Chu Đậu, hoa văn trống đồng) vận dụng tuyệt vời nguyên lí đối xứng tâm và nhịp điệu xoay tròn.",
+        "s": "Mĩ Thuật 6",
+        "h": "Phân tích bố cục trang trí đĩa tròn"
+      },
+      {
+        "c": "MT6-B03-011",
+        "d": "application",
+        "p": "Khi thiết kế bìa một cuốn sổ tay nhỏ, bạn Tú đặt hình ảnh một bông hoa hướng dương màu vàng cam rực rỡ trên nền giấy bìa màu xanh lam sẫm, nhưng đặt lệch nhẹ sang phần dưới bên phải còn góc trên bên trái ghi dòng chữ tên sổ gọn gàng cân đối. Đánh giá nào đúng về thiết kế này?",
+        "o": [
+          "Bố cục sai vì không đặt bông hoa và dòng chữ chồng đè vào chính giữa tâm",
+          "Bố cục rất tốt: vừa có tương phản màu bổ túc nổi bật bông hoa, vừa có cân bằng bất đối xứng giữa hình ảnh và khối chữ",
+          "Bố cục thiếu tương phản vì vàng cam và xanh lam giống màu nhau",
+          "Bố cục xấu vì chưa tô kín hết mọi milimét khoảng trống bằng họa tiết nhỏ"
+        ],
+        "k": "B",
+        "e": "Để lại những \"khoảng thở\" (không gian trống hợp lí) giúp thiết kế đồ họa hiện đại rất sang trọng và dễ nhìn.",
+        "s": "Mĩ Thuật 6",
+        "h": "Đánh giá thiết kế bìa sổ cân bằng tự do"
+      },
+      {
+        "c": "MT6-B03-012",
+        "d": "application",
+        "p": "Tại sao trước khi vẽ chi tiết mắt mũi, lá cây hay quần áo cho một bức tranh lớn, giáo viên luôn yêu cầu học sinh phác nhẹ \"bố cục mảng hình\" bằng nét chì mảnh trước?",
+        "o": [
+          "Chỉ là thủ tục bắt buộc đối với những bạn không mang hộp màu",
+          "Để làm bẩn tờ giấy trước khi tô màu bột cho dễ bám",
+          "Để kiểm tra sớm sự cân bằng tổng thể, vị trí mảng chính - mảng phụ và tỉ lệ không gian trước khi mất công vẽ chi tiết nhỏ bị lệch khỏi khung giấy",
+          "Để tốn thêm thời gian tẩy xóa lúc gần hết giờ học"
+        ],
+        "k": "C",
+        "e": "Dựng khung bố cục tốt ngay từ 5 phút đầu quyết định tới 70% thành công của tác phẩm mĩ thuật.",
+        "s": "Mĩ Thuật 6",
+        "h": "Ý nghĩa bước phác mảng bố cục trước"
+      },
+      {
+        "c": "MT6-B03-013",
+        "d": "advanced",
+        "p": "Nhiều bức tranh cổ điển hoặc nhiếp ảnh chuyên nghiệp thường áp dụng \"Bố cục 1/3\" (chia khung tranh thành 9 ô bằng hai đường ngang và hai đường dọc, đặt trọng tâm tại một trong bốn giao điểm). Tại sao đặt lệch một chút tại điểm 1/3 lại thường cuốn hút mắt người xem tự nhiên hơn đặt ngay chính giữa tâm?",
+        "o": [
+          "Vì quy tắc 1/3 cấm không cho vẽ thêm bất kì chi tiết phụ nào ở các ô còn lại",
+          "Vì phần trung tâm của mọi tờ giấy vẽ thường hay bị rách khi tô màu",
+          "Điểm 1/3 giữ được cân bằng hài hòa động mà vẫn mở không gian hướng nhìn thoáng về phía đối diện, tránh cảm giác tĩnh cứng ở giữa trục đối xứng",
+          "Vì mắt người không thể nhìn thấy bất kì vật gì nằm ở giữa tờ giấy"
+        ],
+        "k": "C",
+        "e": "Quy tắc một phần ba là công cụ bố cục cực kì hữu ích cả trong hội họa, chụp ảnh lẫn quay video.",
+        "s": "Mĩ Thuật 6",
+        "h": "Nguyên lí thị giác của bố cục 1/3"
+      },
+      {
+        "c": "MT6-B03-014",
+        "d": "advanced",
+        "p": "Phân tích hiệu ứng \"Nhấn mạnh bằng phá vỡ nhịp điệu\": giả sử một hàng gồm 7 quả táo xanh xếp đều nhịp từ trái qua phải, nhưng quả táo thứ 5 lại mang màu đỏ rực hơi nhích lên một chút. Mắt người lập tức nhìn vào đâu đầu tiên và vì sao?",
+        "o": [
+          "Nhìn thẳng vào quả táo đỏ thứ 5 đầu tiên, vì sự phá vỡ quy luật lặp lại đồng nhất tại điểm đó tạo điểm nhấn tương phản thị giác cực mạnh",
+          "Bị rối mắt không thể phân biệt quả táo nào trên hàng đó",
+          "Nhìn vào quả táo đầu tiên bên trái vì mọi người luôn đọc từ trái sang phải",
+          "Không nhìn thấy quả táo đỏ nào vì màu đỏ hòa lẫn vào màu xanh"
+        ],
+        "k": "A",
+        "e": "Lặp lại tạo trật tự quen thuộc; phá vỡ nhịp điệu có chủ đích chính là nghệ thuật tạo điểm nhấn thông minh!",
+        "s": "Mĩ Thuật 6",
+        "h": "Tạo điểm nhấn bằng phá vỡ nhịp điệu"
+      },
+      {
+        "c": "MT6-B03-015",
+        "d": "advanced",
+        "p": "So sánh giữa \"tính thống nhất\" (Unity) và \"tính đa dạng\" (Variety) trong một tác phẩm mĩ thuật: điều gì xảy ra nếu chỉ có thống nhất mà thiếu đa dạng, hoặc ngược lại?",
+        "o": [
+          "Tác phẩm càng lộn xộn nhiều thứ không liên quan nhau càng đạt trình độ bậc thầy",
+          "Chỉ cần vẽ toàn hình tròn giống hệt nhau một màu là đạt mức độ đa dạng cao nhất",
+          "Hai khái niệm thống nhất và đa dạng không bao giờ cùng tồn tại trong hội họa",
+          "Thống nhất lặp lại quá dễ nhàm chán; đa dạng hỗn tạp dễ rối loạn rời rạc; tác phẩm đẹp cần cân bằng hài hòa cả thống nhất và đa dạng"
+        ],
+        "k": "D",
+        "e": "\"Thống nhất trong đa dạng\" là nguyên lí thẩm mĩ cao nhất kết nối toàn bộ chấm, nét, hình, màu và bố cục.",
+        "s": "Mĩ Thuật 6",
+        "h": "Cân bằng Thống nhất và Đa dạng"
+      }
+    ]
+  },
+  {
+    "chapter": "mithuat6-c2",
+    "lesson": {
+      "code": "mithuat6-b04",
+      "title": "Bài 4. Mĩ thuật tiền sử và hoa văn Trống đồng Đông Sơn",
+      "seq": 4,
+      "subtitle": "Di sản tranh khắc hang động thời tiền sử thế giới - Việt Nam (Hang Đồng Nội) và nghệ thuật tạo hình tinh xảo trên Trống đồng Đông Sơn",
+      "concepts": [
+        "Mĩ thuật hang động tiền sử",
+        "Nghệ thuật Trống đồng Đông Sơn",
+        "Khai thác họa tiết cổ vào trang trí"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT6-B04-001",
+        "d": "basic",
+        "p": "Những hình vẽ động vật (bò rừng, ngựa, hươu) và dấu bàn tay sớm nhất của loài người thời tiền sử được phát hiện bảo tồn lâu đời nhất ở đâu?",
+        "o": [
+          "Trên vách và trần các hang động đá tự nhiên (như hang Altamira ở Tây Ban Nha, hang Lascaux ở Pháp hay hang Đồng Nội ở Hòa Bình, Việt Nam)",
+          "Trên các trang giấy in công nghiệp tại bảo tàng hiện đại",
+          "Trong các tệp tin đồ họa máy tính thế kỉ XX",
+          "Trên các tòa nhà cao tầng bằng kính ở trung tâm thành phố"
+        ],
+        "k": "A",
+        "e": "Người tiền sử dùng đất hoàng thổ, than củi trộn mỡ động vật hoặc khắc trực tiếp lên vách đá hang động.",
+        "s": "Mĩ Thuật 6",
+        "h": "Nơi lưu giữ mĩ thuật tiền sử"
+      },
+      {
+        "c": "MT6-B04-002",
+        "d": "basic",
+        "p": "Di tích nghệ thuật khắc đá thời tiền sử tiêu biểu của Việt Nam (tỉnh Hòa Bình) có khắc hình mặt người và thú rừng cách đây khoảng một vạn năm là hang nào?",
+        "o": [
+          "Hang Sơn Đoòng (Quảng Bình)",
+          "Vịnh Hạ Long (Quảng Ninh)",
+          "Hang Đồng Nội (huyện Lạc Thủy, tỉnh Hòa Bình)",
+          "Chùa Một Cột (Hà Nội)"
+        ],
+        "k": "C",
+        "e": "Các hình khắc mặt người đội mũ sừng thú ở hang Đồng Nội là chứng tích quý báu về tư duy tạo hình sớm trên đất Việt.",
+        "s": "Mĩ Thuật 6",
+        "h": "Di tích hang Đồng Nội Hòa Bình"
+      },
+      {
+        "c": "MT6-B04-003",
+        "d": "basic",
+        "p": "Hiện vật đồng thau kiệt tác tiêu biểu nhất của nền văn minh sông Hồng thời kì Văn Lang - Âu Lạc (cách ngày nay hơn 2000 năm) là gì?",
+        "o": [
+          "Gốm men hoa nâu thời Trần",
+          "Tượng Phật nghìn mắt nghìn tay thời Lê",
+          "Trống đồng Đông Sơn (như Trống đồng Ngọc Lũ, Trống đồng Hoàng Hạ)",
+          "Tranh khắc gỗ Đông Hồ thế kỉ XVI"
+        ],
+        "k": "C",
+        "e": "Trống đồng Đông Sơn không chỉ là nhạc khí quyền uy mà còn là bách khoa thư bằng hình ảnh về đời sống người Việt cổ.",
+        "s": "Mĩ Thuật 6",
+        "h": "Kiệt tác Trống đồng Đông Sơn"
+      },
+      {
+        "c": "MT6-B04-004",
+        "d": "basic",
+        "p": "Ở chính giữa tâm mặt chiếc Trống đồng Đông Sơn luôn được đúc nổi hình tượng trung tâm nào?",
+        "o": [
+          "Hình con rồng thời nhà Nguyễn đang bay",
+          "Hình chữ Hán khắc tên tác giả đúc trống",
+          "Hình ngôi sao nhiều cánh (thường từ 10 đến 14 hoặc 16 cánh) tỏa ánh sáng rực rỡ tượng trưng cho Mặt Trời",
+          "Hình hoa sen tám cánh thời nhà Lí"
+        ],
+        "k": "C",
+        "e": "Xung quanh ngôi sao Mặt Trời ở tâm là các vòng tròn đồng tâm xếp lớp đều đặn cực kì chuẩn xác.",
+        "s": "Mĩ Thuật 6",
+        "h": "Hình tượng tâm mặt Trống đồng"
+      },
+      {
+        "c": "MT6-B04-005",
+        "d": "basic",
+        "p": "Các vành hoa văn chủ đạo chạy xung quanh mặt và tang Trống đồng Đông Sơn thường khắc họa những hình ảnh sinh hoạt và thiên nhiên nào?",
+        "o": [
+          "Hoa văn cây thông Noel và người tuyết phương Bắc",
+          "Người nhảy múa đội mũ lông chim, cảnh giã gạo, chèo thuyền, chim Lạc bay ngược chiều kim đồng hồ, hươu nai và hoa văn hình học (răng cưa, vòng tròn tiếp tuyến)",
+          "Cảnh đoàn tàu hỏa và máy bay phản lực hiện đại",
+          "Chân dung các vị hoàng đế La Mã cổ đại"
+        ],
+        "k": "B",
+        "e": "Hình ảnh chim Lạc và sinh hoạt cộng đồng thể hiện ước vọng mùa màng tốt tươi và tinh thần đoàn kết của cư dân lúa nước.",
+        "s": "Mĩ Thuật 6",
+        "h": "Họa tiết sinh hoạt trên Trống đồng"
+      },
+      {
+        "c": "MT6-B04-006",
+        "d": "basic",
+        "p": "Chất liệu màu tự nhiên mà người tiền sử thường sử dụng để vẽ trên vách hang động thời kì Đồ Đá là gì?",
+        "o": [
+          "Mực in phun laser nhiều màu",
+          "Bút dạ quang hóa học và sơn dầu tổng hợp",
+          "Màu acrylic đóng tuýp công nghiệp hiện đại",
+          "Bột đá màu đỏ nâu (đất son, ô-xít sắt), than đen thực vật, đá vôi trắng trộn cùng mỡ động vật hoặc nhựa cây để bám chắc lên đá"
+        ],
+        "k": "D",
+        "e": "Nhờ khoáng chất vô cơ tự nhiên trong hang động kín ẩm ổn định, nhiều bức tranh hang động vẫn giữ màu sau hơn 15.000 năm!",
+        "s": "Mĩ Thuật 6",
+        "h": "Chất liệu vẽ của người tiền sử"
+      },
+      {
+        "c": "MT6-B04-007",
+        "d": "application",
+        "p": "Quan sát bảng tổng hợp mĩ thuật cổ đại dưới đây, điểm chung ấn tượng nhất về mặt ý nghĩa tinh thần giữa tranh hang động tiền sử và hoa văn Trống đồng Đông Sơn là gì?",
+        "o": [
+          "Cả hai đều chỉ nhằm mục đích bán kiếm lợi nhuận thương mại cao",
+          "Cả hai đều vẽ theo trí tưởng tượng viễn tưởng hoàn toàn xa rời đời sống thật",
+          "Cả hai đều phản ánh chân thực đời sống săn bắt - lao động - tín ngưỡng gắn bó thiên nhiên và khát vọng sinh tồn, mùa màng bội thu của cộng đồng xưa",
+          "Cả hai đều sử dụng chung bảng chữ cái quốc ngữ hiện đại để chú thích"
+        ],
+        "k": "C",
+        "e": "Nghệ thuật thời kì sơ khai gắn liền trực tiếp với đời sống lao động và niềm tin cộng đồng.",
+        "s": "Mĩ Thuật 6",
+        "h": "Ý nghĩa tinh thần mĩ thuật cổ đại",
+        "fig": {
+          "type": "table",
+          "title": "Mĩ thuật tiền sử và Đông Sơn",
+          "head": [
+            "Di sản cổ",
+            "Nội dung tạo hình"
+          ],
+          "rows": [
+            [
+              "Lascaux, Altamira",
+              "Bò rừng, ngựa, tay"
+            ],
+            [
+              "Hang Đồng Nội (VN)",
+              "Mặt người, thú rừng"
+            ],
+            [
+              "Trống đồng Đông Sơn",
+              "Sao 14 cánh, chim"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT6-B04-008",
+        "d": "application",
+        "p": "Khi quan sát kĩ vòng người chèo thuyền và đàn chim Lạc trên mặt Trống đồng Ngọc Lũ, người ta nhận thấy hầu hết đều chuyển động theo hướng NGƯỢC chiều kim đồng hồ. Cách sắp xếp nhịp điệu xoay tròn đồng hướng này tạo hiệu ứng thị giác gì?",
+        "o": [
+          "Khiến bức chạm khắc bị mất cân bằng nghiêng hẳn về một góc",
+          "Làm biến mất hoàn toàn hình ảnh ngôi sao ở tâm trống",
+          "Tạo cảm giác dòng chuyển động bất tận hài hòa theo chu kì mặt trời - bốn mùa, kết nối mọi nhân vật vào một lễ hội cộng đồng rộn ràng",
+          "Do người thợ đúc đồng bị nhầm hướng nên đúc ngược toàn bộ"
+        ],
+        "k": "C",
+        "e": "Nghệ nhân Đông Sơn đã nắm vững nguyên lí cân bằng đối xứng tâm và nhịp điệu chuyển động cực kì điêu luyện.",
+        "s": "Mĩ Thuật 6",
+        "h": "Nhịp điệu xoay tròn trên mặt Trống đồng"
+      },
+      {
+        "c": "MT6-B04-009",
+        "d": "application",
+        "p": "Bạn Hoa muốn khai thác họa tiết chim Lạc và hoa văn vòng tròn tiếp tuyến trên Trống đồng Đông Sơn để trang trí một chiếc túi vải đeo chéo hiện đại. Cách vận dụng nào tinh tế và thẩm mĩ nhất?",
+        "o": [
+          "Thay hình chim Lạc bằng hình siêu nhân hiện đại rồi vẫn ghi tên họa tiết Đông Sơn",
+          "Chỉ tô đen toàn bộ mặt túi vải rồi viết chữ \"Trống đồng\" thật to",
+          "Chắt lọc cách điệu hình chim Lạc khỏe khoắn kết hợp một băng đường diềm họa tiết hình học Đông Sơn làm điểm nhấn tinh tế trên nền vải trung tính hài hòa",
+          "Chép kín đặc toàn bộ hàng trăm chi tiết nhỏ li ti lên từng milimét túi vải gây rối mắt"
+        ],
+        "k": "C",
+        "e": "Chắt lọc họa tiết tiêu biểu và phối màu hiện đại giúp di sản ngàn năm bước vào thời trang ứng dụng cực kì sang trọng.",
+        "s": "Mĩ Thuật 6",
+        "h": "Ứng dụng họa tiết Đông Sơn vào thời trang"
+      },
+      {
+        "c": "MT6-B04-010",
+        "d": "application",
+        "p": "Một điều đáng kinh ngạc khi xem hình bò rừng trong hang Altamira hay Lascaux (hàng vạn năm trước): người tiền sử còn biết tận dụng các gồ lồi tự nhiên trên vách đá hang động trùng khớp với phần vai, lưng phồng lên của con bò để làm hình vẽ sống động như nổi khối 3D. Chi tiết này nói lên điều gì?",
+        "o": [
+          "Vì người tiền sử không biết vẽ đường nét phẳng trên bề mặt nhẵn",
+          "Do vách đá bị nứt vỡ ngẫu nhiên sau này trùng hợp đúng hình con vật",
+          "Chứng tỏ người tiền sử đã có đôi mắt quan sát thiên nhiên cực kì tinh nhạy và khả năng sáng tạo tận dụng chất liệu không gian tự nhiên tuyệt vời",
+          "Chứng tỏ thời tiền sử đã có máy chiếu laser 3D hiện đại hỗ trợ vẽ"
+        ],
+        "k": "C",
+        "e": "Khả năng quan sát tạo hình của con người cổ đại luôn khiến các họa sĩ hiện đại phải kính nể.",
+        "s": "Mĩ Thuật 6",
+        "h": "Trí tuệ tạo hình tận dụng vách đá lồi lõm"
+      },
+      {
+        "c": "MT6-B04-011",
+        "d": "application",
+        "p": "Trong giờ thực hành mĩ thuật lớp 6 trải nghiệm \"Sáng tạo tranh phỏng theo nghệ thuật tiền sử\", học sinh có thể tái hiện cảm giác bề mặt vách đá cổ bằng vật liệu nào an toàn, dễ tìm ở lớp?",
+        "o": [
+          "Dùng dao nhọn khắc trực tiếp lên bàn gỗ hoặc tường vôi mới sơn của lớp học",
+          "In màu từ máy in văn phòng ra giấy trắng trơn rồi nộp",
+          "Dùng sơn công nghiệp độc hại phun trực tiếp lên cặp sách của bạn",
+          "Vò nhẹ giấy bìa màu nâu xám (hoặc dùng bìa carton tái chế bóc lớp mặt gợn) rồi vẽ bằng sáp dầu tông màu đất đỏ, nâu, vàng đất, đen than"
+        ],
+        "k": "D",
+        "e": "Trải nghiệm trên bề mặt giấy nhăn tông màu đất giúp cảm nhận chân thực tinh thần mộc mạc khỏe khoắn của nghệ thuật hang động.",
+        "s": "Mĩ Thuật 6",
+        "h": "Thực hành mô phỏng tranh hang động"
+      },
+      {
+        "c": "MT6-B04-012",
+        "d": "application",
+        "p": "Vì sao kĩ thuật đúc Trống đồng Đông Sơn (như Trống đồng Ngọc Lũ cao lớn, hoa văn nổi siêu mảnh sắc nét đồng đều trên hợp kim đồng-thiếc-chì) được các nhà khảo cổ thế giới đánh giá là đỉnh cao công nghệ luyện kim thời cổ đại?",
+        "o": [
+          "Vì người Đông Sơn chỉ cần dùng khuôn đất nặn tay không cần nung nấu đồng",
+          "Không có máy móc hiện đại nhưng người Lạc Việt làm chủ khuôn đúc nhiều mảnh khớp chuẩn, pha hợp kim vừa vang âm vừa khắc họa văn tinh xảo",
+          "Vì Trống đồng chỉ nhỏ bằng đồng xu nên rất dễ đúc hàng loạt",
+          "Vì các hoa văn được dán bằng keo nhựa lên mặt trống sau khi đúc"
+        ],
+        "k": "B",
+        "e": "Trí tuệ khoa học kĩ thuật kết hợp tài hoa mĩ thuật của tổ tiên thời Hùng Vương là niềm tự hào lớn của dân tộc Việt Nam.",
+        "s": "Mĩ Thuật 6",
+        "h": "Đỉnh cao kĩ thuật đúc đồng Đông Sơn"
+      },
+      {
+        "c": "MT6-B04-013",
+        "d": "advanced",
+        "p": "Nhiều bức tranh hang động thời tiền sử nằm sâu tít trong những ngách hang tối om khó đi lại chứ không nằm ngoài cửa hang sáng sủa. Các nhà khảo cổ giải thích mục đích vẽ những hình ảnh đó sâu trong hang là gì?",
+        "o": [
+          "Vì ngoài cửa hang ánh nắng làm tan chảy hết các vách đá vôi",
+          "Vì người xưa chỉ vẽ nháp chơi lúc mất điện không có việc gì làm",
+          "Vì người tiền sử sợ bị cảnh sát giao thông phạt nên phải trốn vào hang sâu vẽ trộm",
+          "Nhiều khả năng đó là nơi nghi lễ thiêng liêng cầu đi săn thuận lợi, sinh sôi và truyền kinh nghiệm săn thú cho thế hệ trẻ dưới ánh đuốc"
+        ],
+        "k": "D",
+        "e": "Nghệ thuật sinh ra không chỉ để trang trí cho vui mắt mà gắn chặt với niềm tin tinh thần và sự gắn kết bộ lạc.",
+        "s": "Mĩ Thuật 6",
+        "h": "Ý nghĩa nghi lễ của tranh trong hang sâu"
+      },
+      {
+        "c": "MT6-B04-014",
+        "d": "advanced",
+        "p": "Quan sát cách người Việt cổ vẽ hình người hóa trang lông chim nhảy múa và nhà sàn mái cong trên mặt Trống đồng Đông Sơn: hình thể được đơn giản hóa thành nét kỉ hà khỏe khoắn nhưng vẫn rất sống động. Phong cách tạo hình đó gọi là gì?",
+        "o": [
+          "Nghệ thuật tả thực nhiếp ảnh giống từng sợi tóc ngoài đời thật",
+          "Nghệ thuật trừu tượng hoàn toàn không nhận ra hình ảnh con người",
+          "Nghệ thuật vẽ lỗi do người cổ đại chưa biết cầm bút chì",
+          "Nghệ thuật cách điệu và khái quát hóa (chắt lọc những đường nét đặc trưng nhất, lược bỏ chi tiết vụn vặt để tạo biểu tượng mạnh mẽ)"
+        ],
+        "k": "D",
+        "e": "Cách điệu tinh tế trên Trống đồng vẫn là nguồn cảm hứng bất tận cho thiết kế logo, biểu tượng văn hóa Việt Nam ngày nay!",
+        "s": "Mĩ Thuật 6",
+        "h": "Nghệ thuật cách điệu trên Trống đồng"
+      },
+      {
+        "c": "MT6-B04-015",
+        "d": "advanced",
+        "p": "Hiện nay hình tượng chim Lạc và ngôi sao Trống đồng Đông Sơn thường xuyên xuất hiện trang trọng trên mẫu thiết kế hộ chiếu, đồng tiền, huy hiệu quốc gia và kiến trúc sân bay, nhà hát Việt Nam. Việc sử dụng rộng rãi biểu tượng này mang ý nghĩa gì?",
+        "o": [
+          "Khẳng định cội nguồn văn hiến hàng nghìn năm của dân tộc Việt Nam, tạo dấu ấn nhận diện văn hóa tự hào độc đáo giữa bạn bè quốc tế",
+          "Chỉ để lấp kín chỗ trống trên các mẫu giấy tờ cho khỏi đơn giản",
+          "Để thay thế hoàn toàn chữ viết tiếng Việt bằng hình vẽ cổ đại",
+          "Vì không còn bất kì nghệ sĩ hiện đại nào biết vẽ các họa tiết mới khác"
+        ],
+        "k": "A",
+        "e": "Di sản cha ông trở thành ngôn ngữ nhận diện thương hiệu văn hóa quốc gia đầy tự hào trong thời đại mới.",
+        "s": "Mĩ Thuật 6",
+        "h": "Biểu tượng văn hóa Đông Sơn thời hiện đại"
+      }
+    ]
+  },
+  {
+    "chapter": "mithuat6-c2",
+    "lesson": {
+      "code": "mithuat6-b05",
+      "title": "Bài 5. Tranh dân gian Đông Hồ và Hàng Trống",
+      "seq": 5,
+      "subtitle": "So sánh hai dòng tranh dân gian nổi tiếng vùng đồng bằng Bắc Bộ: Tranh Đông Hồ (Bắc Ninh) và Tranh Hàng Trống (Hà Nội) về chất liệu, kĩ thuật và nội dung",
+      "concepts": [
+        "Tranh khắc gỗ Đông Hồ",
+        "Tranh Hàng Trống tinh tế",
+        "Bảo tồn làng nghề tranh dân gian"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT6-B05-001",
+        "d": "basic",
+        "p": "Làng tranh dân gian Đông Hồ nổi tiếng suốt nhiều thế kỉ nằm ở địa phương nào của nước ta?",
+        "o": [
+          "Làng Đông Hồ (xã Song Hồ, thị xã Thuận Thành, tỉnh Bắc Ninh)",
+          "Làng Sình, tỉnh Thừa Thiên Huế",
+          "Phố Hàng Trống, quận Hoàn Kiếm, Hà Nội",
+          "Làng gốm Bát Tràng, ngoại thành Hà Nội"
+        ],
+        "k": "A",
+        "e": "Nằm ven bờ nam sông Đuống trù phú, tranh Đông Hồ gắn liền với hương sắc Tết cổ truyền miền Bắc.",
+        "s": "Mĩ Thuật 6",
+        "h": "Xuất xứ tranh dân gian Đông Hồ"
+      },
+      {
+        "c": "MT6-B05-002",
+        "d": "basic",
+        "p": "Điểm đặc biệt tạo nên ánh lấp lánh tự nhiên và độ bền tuyệt vời cho tờ giấy in tranh dân gian Đông Hồ là gì?",
+        "o": [
+          "Vải lụa dệt tơ tằm nhuộm màu công nghiệp",
+          "Giấy in ảnh công nghiệp phủ nhựa bóng tổng hợp",
+          "Giấy dó được quét lên một lớp nền làm từ vỏ con điệp tán nhuyễn trộn hồ nếp (gọi là giấy điệp)",
+          "Giấy báo cũ tái chế ngâm hóa chất tẩy trắng"
+        ],
+        "k": "C",
+        "e": "Vỏ điệp biển giã nhỏ tạo nên sắc trắng ánh xà cừ hoặc pha màu vàng hoa hòe rất sang trọng mà mộc mạc.",
+        "s": "Mĩ Thuật 6",
+        "h": "Chất liệu giấy điệp Đông Hồ"
+      },
+      {
+        "c": "MT6-B05-003",
+        "d": "basic",
+        "p": "Màu sắc trong tranh dân gian Đông Hồ truyền thống được các nghệ nhân điều chế hoàn toàn từ nguồn nguyên liệu tự nhiên nào?",
+        "o": [
+          "Từ cây cỏ, khoáng chất quen thuộc quanh nhà: đen than rơm/lá tre, vàng hoa hòe, đỏ sỏi son/gỗ vang, xanh lá chàm, trắng vỏ điệp",
+          "Chỉ dùng duy nhất mực viết bút máy màu tím",
+          "Từ hộp màu nước công nghiệp mua ở siêu thị",
+          "Từ các loại sơn dầu hóa học nhập khẩu từ châu Âu"
+        ],
+        "k": "A",
+        "e": "Chính màu tự nhiên kết hợp keo hồ nếp giúp tranh Đông Hồ giữ màu tươi ấm hàng trăm năm không phai gắt.",
+        "s": "Mĩ Thuật 6",
+        "h": "Màu tự nhiên của tranh Đông Hồ"
+      },
+      {
+        "c": "MT6-B05-004",
+        "d": "basic",
+        "p": "Về mặt kĩ thuật tạo tác, điểm khác nhau lớn nhất giữa quy trình làm tranh Đông Hồ và tranh Hàng Trống nằm ở khâu tô màu nào?",
+        "o": [
+          "Tranh Hàng Trống dùng 10 bản khắc màu; Tranh Đông Hồ tô tay hoàn toàn bằng bút sáp",
+          "Tranh Đông Hồ in cả nét và mảng màu bằng nhiều bản khắc gỗ; Tranh Hàng Trống in bản khắc nét đen rồi dùng bút lông vờn màu bằng tay",
+          "Tranh Đông Hồ vẽ hoàn toàn bằng bút chì; Tranh Hàng Trống vẽ bằng phấn bảng",
+          "Cả hai dòng tranh đều dùng máy in offset hiện đại"
+        ],
+        "k": "B",
+        "e": "Nhờ tô vờn phẩm màu bằng bút lông mềm, tranh Hàng Trống có độ chuyển đậm nhạt mềm mại rất phù hợp thị hiếu kinh thành xưa.",
+        "s": "Mĩ Thuật 6",
+        "h": "Khác biệt kĩ thuật Đông Hồ và Hàng Trống"
+      },
+      {
+        "c": "MT6-B05-005",
+        "d": "basic",
+        "p": "Những bức tranh nổi tiếng nhất của dòng tranh dân gian Đông Hồ thường thể hiện đề tài gần gũi nào?",
+        "o": [
+          "Chuyên vẽ bản đồ hàng hải quốc tế",
+          "Chuyên vẽ tranh thờ trang nghiêm kích thước khổng lồ bằng sơn mài",
+          "Vẽ các công trình tòa nhà chọc trời hiện đại ở châu Mĩ",
+          "Chúc tụng năm mới no đủ, cảnh sinh hoạt làng quê, hóm hỉnh phê phán thói xấu như: Gà đàn, Lợn âm dương, Đám cưới chuột, Hứng dừa, Đánh ghen"
+        ],
+        "k": "D",
+        "e": "Bức \"Lợn âm dương\" hay \"Vinh hoa - Phú quý\" mang ước vọng bình dị về gia đình ấm no, sum vầy ngày Tết.",
+        "s": "Mĩ Thuật 6",
+        "h": "Đề tài quen thuộc của tranh Đông Hồ"
+      },
+      {
+        "c": "MT6-B05-006",
+        "d": "basic",
+        "p": "Dòng tranh dân gian Hàng Trống xưa phổ biến gắn với đối tượng phục vụ và đề tài đặc trưng nào?",
+        "o": [
+          "Chỉ vẽ riêng các con vật nuôi trong trang trại nông thôn",
+          "Chỉ vẽ chân dung các nhân vật hoạt hình Nhật Bản",
+          "Chỉ làm giấy gói hàng chứ không bao giờ treo trang trí trong nhà",
+          "Phục vụ thị dân Kinh thành Thăng Long, gồm cả tranh Tết thanh lịch (Tố nữ, Cá chép trông trăng, Chợ quê) lẫn tranh thờ tín ngưỡng (Ngũ Hổ, Tứ Phủ)"
+        ],
+        "k": "D",
+        "e": "Nét vẽ thanh mảnh, màu phẩm nhuộm tươi tắn chuyển sắc vờn êm tạo vẻ đẹp đài các tinh tế cho tranh Hàng Trống.",
+        "s": "Mĩ Thuật 6",
+        "h": "Đặc điểm tranh dân gian Hàng Trống"
+      },
+      {
+        "c": "MT6-B05-007",
+        "d": "application",
+        "p": "Quan sát bảng đối chiếu hai dòng tranh dân gian Bắc Bộ dưới đây, cặp ghép ĐÚNG giữa tác phẩm và dòng tranh tương ứng là cặp nào?",
+        "o": [
+          "Đông Hồ tô màu bằng bút lông chuyển sắc; Hàng Trống in 10 bản khắc gỗ màu",
+          "Đông Hồ chỉ làm ở Hà Nội; Hàng Trống làm ở Bắc Ninh",
+          "Đông Hồ: \"Ngũ Hổ\", \"Tố nữ\"; Hàng Trống: \"Lợn âm dương\", \"Hứng dừa\"",
+          "Đông Hồ: \"Đám cưới chuột\", \"Gà đại cát\"; Hàng Trống: \"Tố nữ\", \"Ngũ Hổ\", \"Lý ngư vọng nguyệt\""
+        ],
+        "k": "D",
+        "e": "Bảng so sánh giúp nhớ chính xác từ nơi xuất xứ, giấy, kĩ thuật in tô cho tới tên bức tranh kinh điển của hai dòng tranh.",
+        "s": "Mĩ Thuật 6",
+        "h": "Phân biệt tranh Đông Hồ và Hàng Trống",
+        "fig": {
+          "type": "table",
+          "title": "Đông Hồ & Hàng Trống",
+          "head": [
+            "Tiêu chí",
+            "Đông Hồ",
+            "Hàng Trống"
+          ],
+          "rows": [
+            [
+              "Nơi sinh ra",
+              "Thuận Thành, BN",
+              "Phố cổ Hà Nội"
+            ],
+            [
+              "Chất liệu giấy",
+              "Giấy điệp (dó)",
+              "Giấy xuyến chỉ"
+            ],
+            [
+              "Kĩ thuật",
+              "Khắc gỗ từng màu",
+              "Khắc nét + vờn tay"
+            ],
+            [
+              "Tác phẩm nổi",
+              "Đám cưới chuột",
+              "Ngũ Hổ, Tố nữ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT6-B05-008",
+        "d": "application",
+        "p": "Ngắm bức tranh Đông Hồ \"Đám cưới chuột\": đám rước chuột linh đình thổi kèn đánh trống lại phải dâng chim cá cho con mèo béo ngồi chễm chệ ở góc trên. Ý nghĩa sâu sắc và hóm hỉnh của bức tranh này là gì?",
+        "o": [
+          "Mô tả một câu chuyện cổ tích nước ngoài mới dịch sang tiếng Việt",
+          "Chỉ nhằm dạy trẻ em cách nuôi chuột và mèo sống chung hòa thuận trong nhà",
+          "Ca ngợi thói quen tặng quà đắt tiền để cầu xin sự thiên vị",
+          "Phản ánh hiện thực xã hội phong kiến xưa bằng tiếng cười châm biếm nhẹ nhàng, phê phán nạn hối lộ quan lại tham lam và gửi gắm tinh thần lạc quan bình dân"
+        ],
+        "k": "D",
+        "e": "Nét dí dỏm thâm thúy của nghệ nhân dân gian biến tờ tranh Tết thành bài học phê phán xã hội đầy trí tuệ.",
+        "s": "Mĩ Thuật 6",
+        "h": "Ý nghĩa châm biếm của Đám cưới chuột"
+      },
+      {
+        "c": "MT6-B05-009",
+        "d": "application",
+        "p": "Trong bức tranh Đông Hồ \"Lợn ăn cây ráy\" (hay \"Lợn âm dương\"), trên mình chú lợn béo tròn có vẽ khoáy âm dương tượng trưng điều gì?",
+        "o": [
+          "Tượng trưng cho lời cảnh báo không nên ăn thịt lợn ngày Tết",
+          "Tượng trưng cho sự sinh sôi nảy nở, cân bằng hài hòa trời đất và ước mong năm mới sung túc, no ấm của người nông dân",
+          "Là dấu vết lỗi do bản khắc gỗ bị nứt gãy trong lúc in tranh",
+          "Là kí hiệu đánh số thứ tự giá tiền bán con lợn ngoài chợ"
+        ],
+        "k": "B",
+        "e": "Cách trang trí hình xoáy âm dương ước lệ vừa ngộ nghĩnh đẹp mắt vừa chứa đựng triết lí phương Đông sâu sắc.",
+        "s": "Mĩ Thuật 6",
+        "h": "Biểu tượng trên tranh Lợn âm dương"
+      },
+      {
+        "c": "MT6-B05-010",
+        "d": "application",
+        "p": "Khi quan sát bức tranh Hàng Trống \"Cá chép trông trăng\" (Lý ngư vọng nguyệt), người xem chú ý phần vảy cá và làn nước xung quanh ánh trăng được xử lí chuyển màu từ đậm sang nhạt cực kì mượt mà. Nghệ nhân Hàng Trống tạo độ chuyển êm đó bằng kĩ thuật nào?",
+        "o": [
+          "Dùng bình xịt sơn công nghiệp phun phủ toàn bộ mặt tranh",
+          "Dùng hộp sáp màu cứng cạo mạnh lên giấy báo cũ",
+          "Khắc thật nhiều đường thẳng dày đặc đè chồng lên nhau bằng ván gỗ",
+          "Kĩ thuật \"vờn màu\" bằng hai chiếc bút lông (một bút chấm phẩm màu, một bút chấm nước sạch tán loang đều mềm mại ngay trên mặt giấy)"
+        ],
+        "k": "D",
+        "e": "Kĩ thuật vờn màu bằng hai bút lông (bút màu và bút nước) là bí quyết tạo nên vẻ duyên dáng thanh tao riêng có của tranh Hàng Trống.",
+        "s": "Mĩ Thuật 6",
+        "h": "Kĩ thuật vờn màu hai bút lông Hàng Trống"
+      },
+      {
+        "c": "MT6-B05-011",
+        "d": "application",
+        "p": "Trong một buổi trải nghiệm in tranh khắc gỗ dân gian đơn giản tại trường học (dùng tấm xốp khắc thay gỗ an toàn), tại sao khi khắc hình và chữ lên bản in, học sinh BẮT BUỘC phải vẽ hình/chữ NGƯỢC chiều (như soi gương) trên bản khắc?",
+        "o": [
+          "Vì giấy điệp chỉ ăn mực khi tờ giấy được lật úp mặt dưới bàn",
+          "Không cần viết ngược vì khi in ra chữ tự động xoay lại theo chiều đúng",
+          "Vì khi lăn mực rồi úp giấy xuống in lên mặt giấy, hình ảnh sẽ bị lật ngược lại trở thành đúng chiều thuận hoàn chỉnh",
+          "Vì nghệ nhân dân gian thích đọc chữ ngược cho bí mật khó hiểu"
+        ],
+        "k": "C",
+        "e": "Nguyên lí đối xứng gương của kĩ thuật đồ họa in khắc là bài học thực hành cực kì thú vị của môn Mĩ thuật!",
+        "s": "Mĩ Thuật 6",
+        "h": "Nguyên lí khắc ngược chiều khi in bản khắc"
+      },
+      {
+        "c": "MT6-B05-012",
+        "d": "application",
+        "p": "Hiện nay nghề làm tranh Đông Hồ truyền thống được Nhà nước lập hồ sơ đệ trình UNESCO xem xét ghi danh Di sản văn hóa phi vật thể cần bảo vệ khẩn cấp. Nguyên nhân lớn nhất khiến tranh dân gian gặp khó khăn trong đời sống hiện đại là gì?",
+        "o": [
+          "Vì luật pháp cấm treo tranh dân gian trong dịp Tết Nguyên đán",
+          "Do sự lấn át của tranh in công nghiệp giá rẻ, thói quen chơi tranh Tết thay đổi và số lượng nghệ nhân trẻ kế nghiệp làm tranh thủ công tỉ mỉ ngày càng ít",
+          "Vì tranh Đông Hồ hoàn toàn không đẹp bằng tranh quảng cáo in nhựa",
+          "Vì ngày nay không còn trồng được cây hoa hòe hay khai thác vỏ điệp ngoài biển nữa"
+        ],
+        "k": "B",
+        "e": "Trân trọng tìm hiểu, mua sử dụng sản phẩm nghệ nhân chính gốc và lan tỏa nét đẹp tranh dân gian góp phần trực tiếp giữ lửa làng nghề.",
+        "s": "Mĩ Thuật 6",
+        "h": "Thách thức bảo tồn làng tranh dân gian"
+      },
+      {
+        "c": "MT6-B05-013",
+        "d": "advanced",
+        "p": "Phân tích mối liên hệ giữa môi trường sống địa lí - xã hội với sự khác biệt phong cách giữa hai dòng tranh chỉ cách nhau vài chục kilômét: Đông Hồ (làng quê Bắc Ninh) và Hàng Trống (kinh thành Thăng Long)?",
+        "o": [
+          "Người dân phố Hàng Trống không biết cách đẽo gỗ khắc tranh",
+          "Hai dòng tranh khác nhau chỉ vì nghệ nhân hai nơi sử dụng hai ngôn ngữ khác nhau",
+          "Đông Hồ gần nông dân nên nét khỏe, màu cây cỏ, in nhiều; Hàng Trống gắn thị dân, đền phủ kinh kì nên nét mảnh, vờn màu tinh xảo",
+          "Làng Đông Hồ chỉ bán tranh cho người nước ngoài chứ không bán trong nước"
+        ],
+        "k": "C",
+        "e": "Cũng giống như dân ca, hội họa dân gian phản chiếu chân thực cảnh quan, vật liệu và tâm lí thẩm mĩ của cộng đồng sáng tạo ra nó.",
+        "s": "Mĩ Thuật 6",
+        "h": "Ảnh hưởng môi trường sống tới hai dòng tranh"
+      },
+      {
+        "c": "MT6-B05-014",
+        "d": "advanced",
+        "p": "Trong nhiều bức tranh Đông Hồ (như Đánh vật, Đánh ghen, Chăn trâu thổi sáo), nghệ nhân gần như bỏ trống phần nền phía sau mà chỉ để ánh sáng lấp lánh của tờ giấy điệp tự nhiên làm không gian. Hiệu quả nghệ thuật của cách xử lí nền trống này là gì?",
+        "o": [
+          "Vì nghệ nhân quên không mua đủ màu xanh để tô nền trời phía sau",
+          "Giúp làm nổi bật tối đa động tác, biểu cảm nhân vật chính bằng những mảng màu chắc gọn, đồng thời giữ vẻ đẹp tự nhiên quý giá của chất liệu giấy điệp",
+          "Để tiết kiệm giấy vẽ cho mỗi bức tranh nhỏ lại một nửa",
+          "Làm cho người xem không hiểu nhân vật đang làm gì trong tranh"
+        ],
+        "k": "B",
+        "e": "Biết dừng lại đúng lúc để tôn vinh chất liệu nền chính là tư duy thẩm mĩ tinh tế của mỹ thuật truyền thống phương Đông.",
+        "s": "Mĩ Thuật 6",
+        "h": "Vai trò thẩm mĩ của nền giấy điệp trống"
+      },
+      {
+        "c": "MT6-B05-015",
+        "d": "advanced",
+        "p": "Một họa sĩ trẻ sử dụng hình tượng \"Chuột rước dâu\" hay \"Lợn âm dương\" kết hợp phong cách thiết kế đồ họa vector phẳng để làm bộ bao lì xì Tết, áo phông và sticker ứng dụng nhắn tin. Hướng sáng tạo này có ý nghĩa gì đối với di sản dân gian?",
+        "o": [
+          "Chỉ hợp pháp nếu giữ bí mật không chia sẻ cho bạn bè sử dụng",
+          "Làm mất hết giá trị lịch sử của các bản khắc gỗ tại làng Đông Hồ",
+          "Là hành vi phá hoại di sản vì không chịu giữ nguyên trên tờ giấy điệp cũ",
+          "Giúp biểu tượng mĩ thuật truyền thống bước vào đời sống giới trẻ tự nhiên, vừa giữ hồn dân tộc vừa tạo nguồn thu nuôi sáng tạo văn hóa"
+        ],
+        "k": "D",
+        "e": "Sáng tạo phái sinh tôn trọng tinh thần gốc giúp nghệ thuật truyền thống thực sự \"sống\" giữa nhịp sống hiện đại.",
+        "s": "Mĩ Thuật 6",
+        "h": "Đưa tranh dân gian vào thiết kế đương đại"
+      }
+    ]
+  },
+  {
+    "chapter": "mithuat6-c2",
+    "lesson": {
+      "code": "mithuat6-b06",
+      "title": "Bài 6. Tạo hình mặt nạ và đồ chơi truyền thống",
+      "seq": 6,
+      "subtitle": "Tìm hiểu vẻ đẹp mặt nạ giấy bồi, mặt nạ Tuồng - lễ hội, con giống bột (tò he), đèn ông sao và quy trình tạo hình mặt nạ sáng tạo",
+      "concepts": [
+        "Mặt nạ giấy bồi và lễ hội",
+        "Đồ chơi dân gian (tò he, đèn)",
+        "Thiết kế mặt nạ đối xứng biểu cảm"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT6-B06-001",
+        "d": "basic",
+        "p": "Loại mặt nạ truyền thống Việt Nam thường làm bằng cách dán nhiều lớp giấy báo, giấy gió cũ cùng hồ bột sắn lên khuôn đất sét, phơi khô rồi vẽ màu trang trí sặc sỡ dịp Trung thu gọi là gì?",
+        "o": [
+          "Mặt nạ điêu khắc từ băng tuyết",
+          "Mặt nạ đúc bằng kim loại đồng nặng",
+          "Mặt nạ giấy bồi truyền thống",
+          "Mặt nạ in 3D bằng nhựa tổng hợp"
+        ],
+        "k": "C",
+        "e": "Mặt nạ giấy bồi (chú Tễu, ông Địa, Thỏ Ngọc, Lân Sư) rất nhẹ, an toàn, thân thiện môi trường và giàu nét vẽ dân gian.",
+        "s": "Mĩ Thuật 6",
+        "h": "Đặc điểm mặt nạ giấy bồi truyền thống"
+      },
+      {
+        "c": "MT6-B06-002",
+        "d": "basic",
+        "p": "Trên sân khấu Tuồng truyền thống hoặc mặt nạ nhân vật dân gian Việt Nam, màu sắc và đường nét trang trí trên khuôn mặt thường mang chức năng gì?",
+        "o": [
+          "Thể hiện ước lệ tính cách, phẩm chất và cảm xúc đặc trưng của nhân vật (như trung thực, gian xảo, vui tươi hay dữ dằn)",
+          "Được vẽ nhắm mắt ngẫu nhiên không mang ý nghĩa gì",
+          "Chỉ nhằm che nắng mưa cho diễn viên ngoài trời",
+          "Giúp toàn bộ mọi nhân vật trên sân khấu trông giống hệt nhau"
+        ],
+        "k": "A",
+        "e": "Ví dụ mặt đỏ thường biểu trưng cho người trung dũng nghĩa khí; mặt phấn trắng nét xếch thường chỉ kẻ gian nịnh.",
+        "s": "Mĩ Thuật 6",
+        "h": "Tính ước lệ màu sắc trên mặt nạ"
+      },
+      {
+        "c": "MT6-B06-003",
+        "d": "basic",
+        "p": "Món đồ chơi dân gian mộc mạc nổi tiếng vùng đồng bằng Bắc Bộ (làng Xuân La, Phú Xuyên, Hà Nội) được nặn khéo léo bằng bột gạo nếp pha màu thực phẩm cắm trên que tre nhỏ là gì?",
+        "o": [
+          "Đèn kéo quân giấy kính",
+          "Con quay gỗ",
+          "Diều sáo gỗ tre",
+          "Tò he (con giống bột)"
+        ],
+        "k": "D",
+        "e": "Chỉ bằng đôi tay trần và chiếc lược nhỏ, nghệ nhân nặn tò he biến những viên bột màu thành 12 con giáp, bông hoa, nhân vật lịch sử rất sống động.",
+        "s": "Mĩ Thuật 6",
+        "h": "Nghệ thuật dân gian nặn Tò he"
+      },
+      {
+        "c": "MT6-B06-004",
+        "d": "basic",
+        "p": "Khi tạo hình và trang trí một chiếc mặt nạ biểu cảm đơn giản bằng bìa cứng tại lớp học, nguyên lí bố cục nào giúp khuôn mặt nhân vật hài hòa cân đối nhanh nhất?",
+        "o": [
+          "Đặt cả hai mắt nằm dồn hết sang một bên tai trái",
+          "Không cần kẻ trục đối xứng và cắt lệch hẳn khuôn mặt",
+          "Nguyên lí Cân bằng đối xứng hai bên qua trục dọc chính giữa sống mũi (hai mắt, hai tai, gò má cân xứng nhau)",
+          "Chỉ tô toàn bộ mặt nạ một màu đen đặc không vẽ chi tiết"
+        ],
+        "k": "C",
+        "e": "Sau khi giữ khung đối xứng cơ bản, bạn vẫn có thể thêm chi tiết nhấn bất đối xứng nhẹ (như nốt ruồi, vết bớt, nụ cười nghiêng) để tăng cá tính.",
+        "s": "Mĩ Thuật 6",
+        "h": "Nguyên lí đối xứng khi tạo mặt nạ"
+      },
+      {
+        "c": "MT6-B06-005",
+        "d": "basic",
+        "p": "Để thể hiện cảm xúc \"vui vẻ, hiền hậu\" so với cảm xúc \"giận dữ, uy nghiêm\" trên một chiếc mặt nạ, người thiết kế cần điều chỉnh đường nét chủ yếu ở hai bộ phận nào?",
+        "o": [
+          "Chỉ thay đổi chiều dài của hai lỗ tai phía sau gáy",
+          "Chỉ thay đổi loại keo dán mặt sau chiếc mặt nạ",
+          "Vẽ thêm thật nhiều bông hoa nhỏ lên trán còn mắt miệng giữ thẳng",
+          "Độ nghiêng lông mày - đuôi mắt và khóe miệng (vui: mày mở, miệng hướng lên; giận: mày nhíu chụm vào giữa, miệng trễ)"
+        ],
+        "k": "D",
+        "e": "Biến đổi góc nghiêng lông mày và khóe miệng là \"công tắc\" diễn tả cảm xúc cực nhạy trong nghệ thuật tạo hình nhân vật.",
+        "s": "Mĩ Thuật 6",
+        "h": "Biểu cảm mắt và miệng trên mặt nạ"
+      },
+      {
+        "c": "MT6-B06-006",
+        "d": "basic",
+        "p": "Đồ chơi dân gian truyền thống nào dịp Tết Trung thu tận dụng nguyên lí đối lưu không khí nóng bốc lên từ ngọn nến để làm quay các hình bóng cắt giấy chạy vòng tròn sinh động?",
+        "o": [
+          "Tò he bột gạo",
+          "Chong chóng nhựa",
+          "Đèn kéo quân (đèn cù quay)",
+          "Trống bỏi giấy"
+        ],
+        "k": "C",
+        "e": "Đèn kéo quân thể hiện trí tuệ khoa học tự nhiên kết hợp tài hoa cắt dán hình tượng lịch sử (Thánh Gióng, múa lân...) của người Việt xưa.",
+        "s": "Mĩ Thuật 6",
+        "h": "Đèn kéo quân truyền thống"
+      },
+      {
+        "c": "MT6-B06-007",
+        "d": "application",
+        "p": "Quan sát bảng quy trình làm mặt nạ bìa sáng tạo và danh mục đồ chơi dân gian dưới đây, bước thực hành nào ĐÚNG trình tự hợp lí khi tự làm mặt nạ tại lớp?",
+        "o": [
+          "Cắt bừa không cần đo khoảng cách hai mắt so với khuôn mặt người đeo",
+          "Tô màu kín hết tờ bìa phẳng trước rồi mới dùng hồ dán đè bìa lên che mất hình vẽ",
+          "Phác mặt theo trục đối xứng -> Cắt khung hốc mắt -> Bồi chi tiết nổi 3D (mũi, sừng) -> Tô vẽ màu sắc họa tiết và buộc dây đeo",
+          "Khoét lỗ mắt trước rồi cắt bỏ toàn bộ phần viền ngoài khiến mặt nạ rách rời"
+        ],
+        "k": "C",
+        "e": "Đo đúng khoảng cách hai đồng tử mắt người đeo trước khi khoét lỗ giúp mặt nạ vừa đẹp vừa nhìn rõ an toàn khi biểu diễn.",
+        "s": "Mĩ Thuật 6",
+        "h": "Quy trình làm mặt nạ bìa sáng tạo",
+        "fig": {
+          "type": "table",
+          "title": "Đồ chơi dân gian & Mặt nạ",
+          "head": [
+            "Sản phẩm",
+            "Chất liệu đặc trưng"
+          ],
+          "rows": [
+            [
+              "Mặt nạ giấy bồi",
+              "Giấy vụn, hồ, màu"
+            ],
+            [
+              "Tò he Xuân La",
+              "Bột nếp, màu tự"
+            ],
+            [
+              "Đèn ông sao",
+              "Tre vót, giấy kính"
+            ],
+            [
+              "Đèn kéo quân",
+              "Khung tre, giấy dó"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT6-B06-008",
+        "d": "application",
+        "p": "Trong ngày hội Trung thu truyền thống, chiếc mặt nạ \"Chú Tễu\" hay \"Ông Địa\" luôn mang nụ cười híp mắt rạng rỡ, má tròn hồng hào đầy phúc hậu. Hình ảnh mặt nạ đó phản ánh nét tâm hồn nào của người lao động Việt Nam?",
+        "o": [
+          "Tính cách nóng nảy hiếu chiến luôn thích gây gổ",
+          "Nỗi sợ hãi trước các thế lực siêu nhiên kì bí",
+          "Thái độ khinh thường mọi người xung quanh",
+          "Tinh thần lạc quan, hiền hòa, hóm hỉnh yêu đời và khát vọng cuộc sống bình yên, sung túc"
+        ],
+        "k": "D",
+        "e": "Chú Tễu là biểu tượng tuyệt đẹp của tiếng cười dân gian trong sáng, nhân hậu.",
+        "s": "Mĩ Thuật 6",
+        "h": "Ý nghĩa nhân văn mặt nạ Chú Tễu - Ông Địa"
+      },
+      {
+        "c": "MT6-B06-009",
+        "d": "application",
+        "p": "Bạn Lan làm một chiếc mặt nạ chú hổ mạnh mẽ từ bìa carton tái chế nhưng khi tô màu xong nhìn tổng thể hơi bị nhòe chìm các chi tiết mắt mũi vào nền màu cam. Cách chỉnh sửa đơn giản giúp khuôn mặt hổ sắc nét bật lên ngay lập tức là gì?",
+        "o": [
+          "Dùng kéo cắt bỏ luôn phần mắt và mũi vừa vẽ",
+          "Ngâm chiếc mặt nạ vào chậu nước để màu trôi bớt",
+          "Phủ thêm một lớp màu cam giống hệt lên trên toàn bộ mặt nạ",
+          "Dùng nét viền màu đen đậm (hoặc màu sẫm tương phản mạnh) đi viền rõ quanh mắt, mũi, vằn trán và thêm chút điểm nhấn màu trắng sáng ở tròng mắt, răng nanh"
+        ],
+        "k": "D",
+        "e": "Thủ pháp đi nét viền tương phản và điểm sáng (highlight) ở mắt giúp nhân vật mặt nạ \"có thần\" ngay lập tức.",
+        "s": "Mĩ Thuật 6",
+        "h": "Mẹo làm nổi bật chi tiết mặt nạ"
+      },
+      {
+        "c": "MT6-B06-010",
+        "d": "application",
+        "p": "Một nhóm học sinh lớp 6 muốn làm những chiếc mặt nạ nhân vật truyện cổ tích (như Thạch Sanh, Cô Tấm, Cá Bống, Chằn Tinh) để diễn kịch minh họa cho giờ Ngữ văn. Sự kết hợp liên môn Văn học - Mĩ thuật này đòi hỏi điều gì khi thiết kế mặt nạ?",
+        "o": [
+          "Chọn màu sắc tùy tiện không cần đọc nội dung truyện cổ tích",
+          "Tất cả mọi nhân vật chính diện và phản diện đều làm cùng một mẫu mặt nạ giống hệt nhau",
+          "Phải bám sát tính cách đặc trưng từng nhân vật trong truyện (hiền lành vs hung ác, thật thà vs gian xảo) để chọn đúng hình khối, màu sắc và đường nét phù hợp",
+          "Chỉ làm mặt nạ nặng bằng đất sét nung cứng không đục lỗ mắt để diễn kịch"
+        ],
+        "k": "C",
+        "e": "Mĩ thuật phục vụ sân khấu giúp nhân vật văn học bước ra đời thực vô cùng sinh động.",
+        "s": "Mĩ Thuật 6",
+        "h": "Thiết kế mặt nạ diễn kịch văn học"
+      },
+      {
+        "c": "MT6-B06-011",
+        "d": "application",
+        "p": "Hiện nay nhiều đồ chơi nhựa nhập khẩu kém chất lượng chứa hóa chất độc hại thường cạnh tranh khốc liệt với các đồ chơi truyền thống như tò he, đèn ông sao tre, chuồn chuồn tre. Khi lựa chọn đồ chơi tặng em nhỏ dịp lễ, hành động nào vừa văn minh vừa ủng hộ văn hóa dân tộc?",
+        "o": [
+          "Vứt bỏ các đồ chơi truyền thống ngay sau một ngày sử dụng",
+          "Ưu tiên đồ chơi thủ công truyền thống từ chất liệu tự nhiên (tre nứa, giấy bồi, gỗ mộc an toàn) và giới thiệu nét hay cho các em nhỏ",
+          "Chê bai đèn ông sao và tò he vì làm bằng thủ công trông mộc mạc",
+          "Chỉ mua các loại súng đồ chơi nhựa bạo lực phát sáng chói mắt"
+        ],
+        "k": "B",
+        "e": "Sự ủng hộ của người tiêu dùng chính là động lực kinh tế để các làng nghề truyền thống tiếp tục sáng tạo mẫu mã an toàn, hấp dẫn.",
+        "s": "Mĩ Thuật 6",
+        "h": "Ủng hộ đồ chơi truyền thống an toàn"
+      },
+      {
+        "c": "MT6-B06-012",
+        "d": "application",
+        "p": "Khi gắn phần mũi, sừng hoặc đôi tai nhô ra dạng 3D lên chiếc mặt nạ giấy bồi tự chế để không bị rơi rụng khi đeo nhảy múa, kĩ thuật xử lí ghép nối giấy bìa hiệu quả nhất là gì?",
+        "o": [
+          "Ghim trực tiếp hàng chục đinh sắt nhọn xuyên qua mặt trong mặt nạ chỗ sát da mặt",
+          "Chỉ đặt hờ lên rồi vừa múa vừa dùng tay giữ",
+          "Đặt dựng đứng cạnh mỏng chi tiết lên bề mặt phẳng rồi chấm một giọt hồ mỏng",
+          "Cắt chừa các mép tai gấp răng cưa (tab dán) ở chân chi tiết nổi để tăng diện tích tiếp xúc với keo sữa hoặc băng dính giấy bồi chắc vào nền mặt"
+        ],
+        "k": "D",
+        "e": "Cắt mép gấp răng cưa là kĩ thuật vàng trong chế tạo mô hình giấy 3D (papercraft) giúp mối ghép cực kì bền mà rất thẩm mĩ.",
+        "s": "Mĩ Thuật 6",
+        "h": "Kĩ thuật gấp mép dán chi tiết nổi 3D"
+      },
+      {
+        "c": "MT6-B06-013",
+        "d": "advanced",
+        "p": "Nhiều nền văn hóa cổ đại khắp thế giới (từ mặt nạ Tuồng Việt Nam, mặt nạ kịch Noh Nhật Bản tới mặt nạ lễ hội châu Phi) đều sử dụng mặt nạ trong nghi lễ và nghệ thuật. Theo em, chức năng tâm lí nghệ thuật chung của chiếc mặt nạ là gì?",
+        "o": [
+          "Vì thời cổ đại con người chưa biết cách làm gương soi mặt",
+          "Chỉ nhằm mục đích giữ ấm khuôn mặt vào mùa đông lạnh giá",
+          "Để người biểu diễn giấu mặt đi vì không thuộc lời kịch bản",
+          "Giúp người đeo tạm rời đời thường để hóa thân thành nhân vật anh hùng, thần linh hay biểu tượng thiên nhiên mang thông điệp cộng đồng"
+        ],
+        "k": "D",
+        "e": "Chiếc mặt nạ là cánh cửa kì diệu nối thế giới đời thường với thế giới huyền thoại và sân khấu ước lệ.",
+        "s": "Mĩ Thuật 6",
+        "h": "Ý nghĩa văn hóa phổ quát của chiếc mặt nạ"
+      },
+      {
+        "c": "MT6-B06-014",
+        "d": "advanced",
+        "p": "Phân tích lí do vì sao cùng làm từ nguyên liệu thiên nhiên rẻ tiền (bột gạo, giấy vụn, tre nứa), nhưng sản phẩm của các nghệ nhân làng nghề như Ông Chú Tễu, Đèn kéo quân, Chuồn chuồn tre đậu thăng bằng trên ngón tay lại chứa đựng hàm lượng tri thức khoa học và thẩm mĩ rất cao?",
+        "o": [
+          "Vì nguyên liệu đắt tiền mới tạo nên giá trị thẩm mĩ, còn nguyên liệu rẻ chỉ là ngẫu nhiên",
+          "Đằng sau vẻ mộc mạc là hiểu biết vật lí trọng tâm (chuồn chuồn tre), đối lưu nhiệt (đèn kéo quân), kết cấu nhẹ và tạo hình tinh tế",
+          "Vì trẻ em ngày xưa không có trò chơi nào khác nên đành chấp nhận chơi tạm",
+          "Vì các nghệ nhân bí mật giấu các thiết bị nam châm điện bên trong con chuồn chuồn tre"
+        ],
+        "k": "B",
+        "e": "Đồ chơi dân gian Việt Nam là bài học STEM tự nhiên tuyệt vời được đúc kết qua nhiều thế hệ cha ông.",
+        "s": "Mĩ Thuật 6",
+        "h": "Hàm lượng khoa học trong đồ chơi dân gian"
+      },
+      {
+        "c": "MT6-B06-015",
+        "d": "advanced",
+        "p": "Nếu lớp 6 tổ chức dự án khởi nghiệp nhỏ \"Làm mới đồ chơi dân gian bảo vệ môi trường\" nhân dịp Trung thu, phương án nào kết hợp tốt nhất giữa giữ hồn truyền thống và nhu cầu thẩm mĩ hiện đại của thiếu nhi?",
+        "o": [
+          "Bỏ hoàn toàn cốt tre truyền thống để đúc toàn bộ bằng nhựa dùng một lần",
+          "Giữ cốt tre, giấy dó thân thiện môi trường nhưng thêm mẫu truyện tranh Việt, đèn LED an toàn thay nến và hộp kèm hướng dẫn lắp",
+          "Thay toàn bộ câu chuyện văn hóa Việt Nam bằng quảng cáo hàng ngoại",
+          "Chỉ làm y nguyên một mẫu mặt nạ cũ kĩ bám bụi không cần cải tiến chất lượng hoàn thiện"
+        ],
+        "k": "B",
+        "e": "Bộ kít trải nghiệm tự tay làm đồ chơi dân gian đang là sản phẩm giáo dục sáng tạo cực kì được yêu thích.",
+        "s": "Mĩ Thuật 6",
+        "h": "Đổi mới sáng tạo sản phẩm truyền thống"
+      }
+    ]
+  },
+  {
+    "chapter": "mithuat6-c3",
+    "lesson": {
+      "code": "mithuat6-b07",
+      "title": "Bài 7. Thiết kế trang phục lễ hội và họa tiết dân tộc",
+      "seq": 7,
+      "subtitle": "Tìm hiểu vẻ đẹp tạo hình trang phục lễ hội các dân tộc Việt Nam (hoa văn thổ cẩm, áo dài, áo tứ thân) và thực hành thiết kế phác thảo trang phục",
+      "concepts": [
+        "Bản sắc trang phục 54 dân tộc",
+        "Họa tiết thổ cẩm và bố cục áo",
+        "Thiết kế phác thảo trang phục"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT6-B07-001",
+        "d": "basic",
+        "p": "Điểm đặc sắc làm nên giá trị nghệ thuật mĩ thuật độc đáo trên trang phục truyền thống của các dân tộc vùng núi phía Bắc và Tây Nguyên (như Mông, Thái, Dao, Ê Đê) là gì?",
+        "o": [
+          "Toàn bộ trang phục chỉ sử dụng duy nhất một mảnh vải trắng trơn không hoa văn",
+          "Hệ thống hoa văn thổ cẩm dệt, thêu tay tinh xảo với các hình học cách điệu (trám, chữ vạn, sóng nước, mặt trời, hoa lá) phối màu rực rỡ hài hòa",
+          "Trang phục được may hoàn toàn từ nilon trong suốt chống thấm nước",
+          "Trang phục hoàn toàn giống hệt bộ vest công sở châu Âu"
+        ],
+        "k": "B",
+        "e": "Mỗi đường kim mũi chỉ trên váy áo thổ cẩm kể lại câu chuyện lịch sử, thiên nhiên và tâm hồn khéo léo của người phụ nữ các dân tộc.",
+        "s": "Mĩ Thuật 6",
+        "h": "Hoa văn thổ cẩm trên trang phục dân tộc"
+      },
+      {
+        "c": "MT6-B07-002",
+        "d": "basic",
+        "p": "Trang phục truyền thống thanh lịch nào của người Việt (Kinh) tôn vinh dáng vóc duyên dáng, vừa kín đáo vừa mềm mại và được bạn bè quốc tế nhận diện ngay là biểu tượng Việt Nam?",
+        "o": [
+          "Áo Hanbok Hàn Quốc",
+          "Áo Kimono Nhật Bản",
+          "Áo Sari Ấn Độ",
+          "Áo dài Việt Nam"
+        ],
+        "k": "D",
+        "e": "Tà áo dài thướt tha vừa là niềm tự hào văn hóa vừa là mảnh vải sáng tạo tuyệt vời cho họa sĩ vẽ hoa sen, trống đồng, phong cảnh lên áo.",
+        "s": "Mĩ Thuật 6",
+        "h": "Biểu tượng Áo dài Việt Nam"
+      },
+      {
+        "c": "MT6-B07-003",
+        "d": "basic",
+        "p": "Trong thiết kế trang phục lễ hội, yếu tố màu sắc và phụ kiện đi kèm (mũ, khăn đội đầu, vòng bạc, thắt lưng) đóng vai trò gì?",
+        "o": [
+          "Không có liên quan gì tới màu sắc của bộ váy áo chính",
+          "Tôn bật không khí rộn ràng tươi vui của ngày hội, làm hoàn chỉnh tổng thể phong cách nhân vật và cân bằng bố cục màu từ đầu tới chân",
+          "Chỉ để tăng trọng lượng nặng nhất có thể lên vai người mặc",
+          "Làm người mặc không thể đi lại bình thường được"
+        ],
+        "k": "B",
+        "e": "Sự ăn ý giữa chiếc khăn piêu, vòng cổ bạc và thân áo chàm tạo nên tổng thể trang phục lễ hội cực kì ấn tượng.",
+        "s": "Mĩ Thuật 6",
+        "h": "Vai trò màu sắc và phụ kiện lễ hội"
+      },
+      {
+        "c": "MT6-B07-004",
+        "d": "basic",
+        "p": "Khi trang trí họa tiết lên một mẫu trang phục (ví dụ cổ áo, gấu váy, tay áo hay thắt lưng), họa tiết thường được sắp xếp theo nguyên lí nào?",
+        "o": [
+          "Phủ kín đặc toàn bộ mọi chỗ trên áo cùng một độ đậm khiến mất phom dáng áo",
+          "Không bao giờ đặt họa tiết tại vị trí cổ áo hay gấu váy",
+          "Dán bừa một mảng họa tiết to tướng lệch méo xuống dưới gót chân",
+          "Sắp xếp thành đường diềm nhịp điệu chạy dọc nẹp áo, viền gấu váy hoặc tạo mảng nhấn đối xứng ở phần ngực, thắt lưng"
+        ],
+        "k": "D",
+        "e": "Đặt họa tiết đúng các đường kết cấu (cổ, vai, ngực, gấu áo) vừa tôn dáng người mặc vừa giúp trang phục gọn gàng sang trọng.",
+        "s": "Mĩ Thuật 6",
+        "h": "Vị trí bố cục họa tiết trên trang phục"
+      },
+      {
+        "c": "MT6-B07-005",
+        "d": "basic",
+        "p": "Chất liệu truyền thống thân thiện thiên nhiên nào thường được dùng để dệt nên những bộ trang phục bền đẹp mang bản sắc dân tộc Việt Nam?",
+        "o": [
+          "Giấy ăn mỏng dùng một lần ngoài tiệm",
+          "Vải sợi nhựa tổng hợp từ rác thải công nghiệp chưa xử lí",
+          "Tấm tôn kẽm dát mỏng cắt thành áo",
+          "Vải tơ tằm, vải lanh dệt thủ công nhuộm chàm tự nhiên, sợi bông đay gai dệt thổ cẩm"
+        ],
+        "k": "D",
+        "e": "Quá trình trồng lanh, tước sợi, nhuộm chàm, vẽ sáp ong của người Mông hay dệt thổ cẩm Tây Nguyên là những tri thức thủ công vô giá.",
+        "s": "Mĩ Thuật 6",
+        "h": "Chất liệu tự nhiên trong trang phục dân tộc"
+      },
+      {
+        "c": "MT6-B07-006",
+        "d": "basic",
+        "p": "Khi vẽ phác thảo một mẫu thiết kế trang phục trên giấy (fashion sketch), ngoài hình dáng bộ quần áo, người thiết kế thường vẽ kèm \"dáng người mẫu\" tỉ lệ chuẩn để làm gì?",
+        "o": [
+          "Để che mất phần cổ áo và tay áo khó vẽ",
+          "Chỉ nhằm mục đích chấm điểm môn Sinh học giải phẫu người",
+          "Vì không biết vẽ cái áo riêng nên phải vẽ thêm người cho đỡ trống giấy",
+          "Để hình dung chính xác độ rủ, phom dáng ôm hay xòe của vải khi mặc lên cơ thể người thật trong chuyển động"
+        ],
+        "k": "D",
+        "e": "Bản phác thảo dáng người (croquis) giúp nhà thiết kế kiểm tra ngay sự cân đối giữa chiều dài tà áo, eo và vai.",
+        "s": "Mĩ Thuật 6",
+        "h": "Vai trò dáng phác thảo trong thiết kế"
+      },
+      {
+        "c": "MT6-B07-007",
+        "d": "application",
+        "p": "Quan sát bảng đặc trưng trang phục một số dân tộc Việt Nam dưới đây, cặp ghép ĐÚNG giữa trang phục và cộng đồng dân tộc tương ứng là cặp nào?",
+        "o": [
+          "Áo bà ba - trang phục truyền thống mùa đông vùng núi đá Hà Giang",
+          "Áo dài, Áo tứ thân - dân tộc Kinh; Khăn piêu, áo cóm - dân tộc Thái; Váy xòe hoa văn sáp ong - dân tộc Mông",
+          "Váy xòe sáp ong - dân tộc Kinh vùng đồng bằng sông Cửu Long",
+          "Áo cóm khăn piêu - dân tộc Chăm; Áo dài - dân tộc Ê Đê"
+        ],
+        "k": "B",
+        "e": "Sự phong phú của 54 bộ trang phục truyền thống tạo nên vườn hoa văn hóa cực kì rực rỡ của đất nước Việt Nam.",
+        "s": "Mĩ Thuật 6",
+        "h": "Nhận diện trang phục các dân tộc Việt Nam",
+        "fig": {
+          "type": "table",
+          "title": "Trang phục các dân tộc VN",
+          "head": [
+            "Dân tộc",
+            "Nét đặc trưng nhất"
+          ],
+          "rows": [
+            [
+              "Kinh (Việt)",
+              "Áo dài, Tứ thân"
+            ],
+            [
+              "Thái",
+              "Áo cóm, khăn Piêu"
+            ],
+            [
+              "Mông",
+              "Váy lanh, sáp ong"
+            ],
+            [
+              "Ê Đê, Ba Na",
+              "Thổ cẩm dệt tay"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT6-B07-008",
+        "d": "application",
+        "p": "Trên trang phục thổ cẩm màu đen chàm thẫm của người Thái hay người Ê Đê, các nghệ nhân thường dệt những dải hoa văn màu đỏ tươi, vàng cam và trắng ngà ở gấu váy, tay áo. Phối màu đó vận dụng nguyên lí mĩ thuật nào hiệu quả nhất?",
+        "o": [
+          "Tương phản sáng - tối (nền chàm/đen cực sẫm làm bừng sáng rực rỡ các họa tiết đỏ, vàng, trắng mảnh mai)",
+          "Pha trộn tất cả các màu lại thành màu xám bùn đồng nhất",
+          "Hòa sắc đơn sắc chỉ dùng một màu xanh lam nhạt từ trên xuống dưới",
+          "Che giấu hoàn toàn phần hoa văn không cho người đối diện nhìn thấy"
+        ],
+        "k": "A",
+        "e": "Nền tối sẫm chính là phông nền hoàn hảo tôn vinh vẻ tinh xảo của từng sợi chỉ màu rực rỡ.",
+        "s": "Mĩ Thuật 6",
+        "h": "Nghệ thuật phối màu nền chàm - hoa văn sáng"
+      },
+      {
+        "c": "MT6-B07-009",
+        "d": "application",
+        "p": "Một bạn học sinh lớp 6 được giao bài tập tạo hình một bộ trang phục lễ hội bằng vật liệu giấy báo, giấy màu hoặc vải vụn trên mô hình búp bê nhỏ. Khi dán các dải hoa văn trang trí lên tà váy xòe, điều gì giúp bộ trang phục trông thật hài hòa sang trọng chứ không bị loè loẹt rối rắm?",
+        "o": [
+          "Cắt giấy thật nham nhở nhiều hình thù khác hẳn nhau dán bừa lên thân áo",
+          "Dán hàng chục mảnh giấy đủ cả 12 màu cầu vồng kín đặc không theo quy luật nào",
+          "Không cần phối màu, cứ thấy mảnh nào to thì dán đè lên trước",
+          "Chọn tối đa 2 đến 3 màu chủ đạo hòa hợp nhau (ví dụ một màu nền dịu chiếm 70%, một màu nhấn ấm chiếm 20-30%) và lặp lại họa tiết có trật tự"
+        ],
+        "k": "D",
+        "e": "Quy tắc tỉ lệ màu 70 - 20 - 10 (màu chủ đạo - màu phụ - màu nhấn) là bí quyết vàng của mọi nhà thiết kế thời trang chuyên nghiệp.",
+        "s": "Mĩ Thuật 6",
+        "h": "Quy tắc phối màu tỉ lệ hài hòa trang phục"
+      },
+      {
+        "c": "MT6-B07-010",
+        "d": "application",
+        "p": "Trong một cuộc thi thiết kế thời trang học đường với chủ đề \"Dấu ấn di sản trên tà Áo dài hiện đại\", ý tưởng nào của học sinh thể hiện sự sáng tạo tinh tế và tôn trọng văn hóa nhất?",
+        "o": [
+          "Vẽ hàng trăm ngôi sao vàng chói lọi kín đặc không chừa một khoảng trống nào",
+          "Sao chép y hệt một bộ đồ bảo hộ lao động rồi gọi tên là áo dài",
+          "Cắt rách nát toàn bộ tà áo dài và dán các khẩu hiệu tiếng lóng phản cảm lên ngực áo",
+          "Giữ phom dáng áo dài truyền thống thanh lịch, vẽ cách điệu họa tiết gốm Chu Đậu màu xanh lam trắng hoặc hoa sen mềm mại chảy dọc từ eo xuống tà áo"
+        ],
+        "k": "D",
+        "e": "Sự giao thoa giữa phom dáng kinh điển và họa tiết di sản chọn lọc luôn tạo ra những thiết kế vừa trang nhã vừa độc đáo.",
+        "s": "Mĩ Thuật 6",
+        "h": "Sáng tạo họa tiết di sản trên Áo dài"
+      },
+      {
+        "c": "MT6-B07-011",
+        "d": "application",
+        "p": "Khi quan sát trang phục \"Áo tứ thân\" truyền thống của liền chị Quan họ Bắc Ninh, người ta thấy phần thắt lưng lụa nhiều màu sắc (mớ ba mớ bảy) thắt gọn ở eo cùng chiếc yếm đào bên trong và vạt áo ngoài buông rủ thướt tha. Cấu trúc lớp trang phục này mang lại giá trị tạo hình gì?",
+        "o": [
+          "Hoàn toàn không có lớp áo nào phối hợp với nhau",
+          "Chỉ mặc được vào giữa mùa hè nắng nóng 40 độ",
+          "Gây cồng kềnh cứng nhắc không thể múa hay đi lại nhẹ nhàng",
+          "Tạo sự chuyển lớp mềm mại về sắc độ màu (với áo cánh ngoài sẫm nền nã, bên trong lộ sắc màu ấm tươi của yếm và dải lụa) rất kín đáo mà duyên dáng"
+        ],
+        "k": "D",
+        "e": "Thẩm mĩ \"kín mà duyên, nền ngoài trầm ấm - trong rực rỡ\" của áo tứ thân là đỉnh cao nghệ thuật phục trang dân gian Việt Nam.",
+        "s": "Mĩ Thuật 6",
+        "h": "Vẻ đẹp phối lớp của Áo tứ thân"
+      },
+      {
+        "c": "MT6-B07-012",
+        "d": "application",
+        "p": "Khi lớp em tổ chức trình diễn thời trang tự thiết kế bằng vật liệu tái chế kết hợp họa tiết dân tộc nhân dịp ngày hội trường, tiêu chí nào quan trọng nhất giúp khán giả hiểu và đánh giá cao sản phẩm của nhóm?",
+        "o": [
+          "Chỉ cần mặc thật kì dị gây sốc cười đùa trên sân khấu là thắng",
+          "Dùng nguyên cuộn băng dính đen quấn quanh người bạn mẫu mà không tạo phom dáng gì",
+          "Kĩ thuật cắt dán chắc chắn gọn đẹp, phối màu cân đối có điểm nhấn họa tiết văn hóa rõ ràng, kèm lời thuyết minh ngắn gọn ý nghĩa thiết kế khi trình diễn",
+          "Không cần giải thích ý tưởng thiết kế hay nguồn gốc họa tiết"
+        ],
+        "k": "C",
+        "e": "Trang phục đẹp cần đi cùng thông điệp văn hóa rõ ràng và sự hoàn thiện chỉn chu từng đường nét.",
+        "s": "Mĩ Thuật 6",
+        "h": "Tiêu chí trình diễn bộ sưu tập học đường"
+      },
+      {
+        "c": "MT6-B07-013",
+        "d": "advanced",
+        "p": "Kĩ thuật \"vẽ hoa văn bằng sáp ong nóng chảy\" trên vải lanh rồi đem nhuộm chàm nhiều lần của phụ nữ dân tộc Mông thực chất ứng dụng nguyên lí khoa học tạo hình cực kì thông minh nào?",
+        "o": [
+          "Sáp ong tự động phát sáng màu đỏ rực trong bóng tối mà không cần nhuộm",
+          "Sáp ong chống thấm chàm giúp vùng vẽ sáp giữ màu vải trắng; nhúng chàm xong đun nước sôi làm tan sáp sẽ hiện hoa văn trắng trên nền chàm",
+          "Sáp ong làm cho mực nhuộm thấm sâu gấp đôi vào đúng chỗ đã vẽ sáp",
+          "Làm cho tấm vải tự co rút nhỏ lại thành hình chiếc mũ"
+        ],
+        "k": "B",
+        "e": "Nguyên lí \"ngăn màu bằng chất chống thấm\" (tương tự kĩ thuật vẽ Batik nổi tiếng thế giới) được người Mông sáng tạo và giữ gìn hàng trăm năm qua.",
+        "s": "Mĩ Thuật 6",
+        "h": "Nguyên lí khoa học kĩ thuật vẽ sáp ong"
+      },
+      {
+        "c": "MT6-B07-014",
+        "d": "advanced",
+        "p": "Nhiều bộ trang phục truyền thống của các dân tộc có sự khác biệt rõ rệt giữa \"trang phục lao động hằng ngày\" (gọn nhẹ, ít hoa văn, tối màu) và \"trang phục lễ hội\" (nhiều tầng lớp, thêu dệt công phu, rực rỡ trang sức). Điều này phản ánh tư duy thiết kế hiện đại nào?",
+        "o": [
+          "Vì người xưa không biết giặt quần áo nên phải mặc bộ khác",
+          "Sự lãng phí vô ích khi phải may hai bộ quần áo khác nhau",
+          "Sự phân biệt giàu nghèo cấm người lao động mặc đẹp trong ngày Tết",
+          "Nguyên tắc công năng hợp bối cảnh: thiết kế luôn cân bằng giữa tính tiện dụng trong lao động với vẻ đẹp trang trọng trong ngày hội"
+        ],
+        "k": "D",
+        "e": "Từ trang phục dân gian tới thời trang đương đại, công năng và thẩm mĩ luôn song hành không tách rời.",
+        "s": "Mĩ Thuật 6",
+        "h": "Công năng và thẩm mĩ trong thiết kế trang phục"
+      },
+      {
+        "c": "MT6-B07-015",
+        "d": "advanced",
+        "p": "Khi một nhà thiết kế trẻ lấy cảm hứng từ hoa văn thổ cẩm của đồng bào dân tộc thiểu số để sáng tạo bộ sưu tập thời trang thương mại, nguyên tắc đạo đức văn hóa quan trọng nhất cần tuân thủ là gì?",
+        "o": [
+          "Tìm hiểu ý nghĩa thiêng liêng của hoa văn để dùng đúng chỗ, ghi nhận nguồn gốc bản địa và chia sẻ lợi ích với nghệ nhân dệt truyền thống",
+          "Tùy tiện lấy hoa văn thiêng liêng in lên giày dép hoặc thảm chùi chân rồi nhận là sáng tạo riêng của mình",
+          "Giấu kín không bao giờ nhắc tới cộng đồng đã sáng tạo ra hoa văn đó",
+          "Sửa đổi tên gọi dân tộc gốc để khách hàng nghĩ đây là hoa văn phương Tây"
+        ],
+        "k": "A",
+        "e": "Ứng xử có đạo đức với tri thức bản địa (tránh chiếm dụng văn hóa thiếu tôn trọng) là chuẩn mực của nhà thiết kế văn minh.",
+        "s": "Mĩ Thuật 6",
+        "h": "Đạo đức tôn trọng di sản văn hóa bản địa"
+      }
+    ]
+  },
+  {
+    "chapter": "mithuat6-c3",
+    "lesson": {
+      "code": "mithuat6-b08",
+      "title": "Bài 8. Tạo hình từ vật liệu tái chế bảo vệ môi trường",
+      "seq": 8,
+      "subtitle": "Nghệ thuật tái chế (Upcycling Art): phân loại vật liệu bỏ đi an toàn, biến chai nhựa, bìa carton, ống hút, giấy báo thành tác phẩm tạo hình và đồ dùng hữu ích",
+      "concepts": [
+        "Khái niệm nghệ thuật tái chế",
+        "Xử lí vật liệu bỏ đi an toàn",
+        "Thiết kế đồ dùng và mô hình xanh"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT6-B08-001",
+        "d": "basic",
+        "p": "Hoạt động sáng tạo mĩ thuật sử dụng các vật liệu đã qua sử dụng (như bìa carton, chai nhựa, lõi giấy vệ sinh, cúc áo cũ, vỏ hộp) để tạo nên tác phẩm nghệ thuật hoặc đồ dùng mới có giá trị hơn gọi là gì?",
+        "o": [
+          "Sản xuất rác thải công nghiệp mới",
+          "Tạo hình từ vật liệu tái chế (Nghệ thuật nâng cấp tái chế - Upcycling Art)",
+          "Nghệ thuật sơn mài cổ truyền",
+          "Điêu khắc đá quý giá trị cao"
+        ],
+        "k": "B",
+        "e": "Tái chế sáng tạo vừa giảm rác thải ra môi trường vừa biến vật bỏ đi thành sản phẩm thẩm mĩ độc đáo.",
+        "s": "Mĩ Thuật 6",
+        "h": "Khái niệm tạo hình từ vật liệu tái chế"
+      },
+      {
+        "c": "MT6-B08-002",
+        "d": "basic",
+        "p": "Trước khi bắt tay vào cắt ghép tạo hình các chai nhựa, hộp sữa giấy hay hộp kim loại cũ đã qua sử dụng, bước chuẩn bị bắt buộc đầu tiên để đảm bảo vệ sinh an toàn là gì?",
+        "o": [
+          "Rửa sạch sẽ phần thức ăn đồ uống còn sót, phơi thật khô ráo và kiểm tra loại bỏ các cạnh sắc nhọn nguy hiểm",
+          "Cắt dán trực tiếp ngay khi hộp sữa vẫn còn cặn sữa chua mùi khó chịu",
+          "Đốt cháy chảy toàn bộ chai nhựa trong lớp học cho mềm dễ nắn",
+          "Dùng ngay mảnh thủy tinh vỡ sắc cạnh không cần bọc bảo vệ"
+        ],
+        "k": "A",
+        "e": "Vật liệu sạch khô vừa an toàn vệ sinh cho học sinh vừa giúp keo dán bám chắc bền đẹp hơn rất nhiều.",
+        "s": "Mĩ Thuật 6",
+        "h": "Bước xử lí sạch an toàn vật liệu tái chế"
+      },
+      {
+        "c": "MT6-B08-003",
+        "d": "basic",
+        "p": "Vì sao chất liệu \"bìa carton\" (thùng giấy sóng cũ) lại được các nghệ sĩ và học sinh cực kì ưa chuộng khi làm mô hình kiến trúc, mặt nạ hay phù điêu nổi?",
+        "o": [
+          "Vì bìa carton chống cháy tuyệt đối và nặng như khối sắt đặc",
+          "Vì bìa carton nhẹ, cứng vừa phải, dễ cắt tạo hình phẳng hoặc uốn cong, có nhiều lớp sóng tạo gân đẹp và rất thân thiện môi trường",
+          "Vì bìa carton không cần dùng kéo hay dao cũng tự rời ra từng mảnh tròn",
+          "Vì bìa carton không thấm nước dưới mưa bão ngoài trời"
+        ],
+        "k": "B",
+        "e": "Bóc nhẹ lớp giấy mặt ngoài của bìa carton sẽ lộ ra lớp gân sóng tuyệt đẹp để trang trí mái nhà, thân cây hay bộ lông thú.",
+        "s": "Mĩ Thuật 6",
+        "h": "Ưu điểm tạo hình của bìa carton"
+      },
+      {
+        "c": "MT6-B08-004",
+        "d": "basic",
+        "p": "Khi tận dụng hình dáng sẵn có của vật liệu tái chế (ví dụ nắp chai tròn, chai nhựa thon dài, vỏ hộp trứng lồi lõm) để tưởng tượng thành hình tượng mới, điều gì quan trọng nhất?",
+        "o": [
+          "Quan sát sự tương đồng hình khối, bề mặt vật liệu (nắp chai làm bánh xe, khay trứng làm vảy cá) để lắp ghép thông minh, ít cắt thừa",
+          "Bỏ qua hình dáng sẵn có và sơn phủ thật dày che kín toàn bộ vật liệu",
+          "Chỉ mua thật nhiều chai nhựa mới tinh chưa dùng để cắt làm đồ chơi",
+          "Nghiền nát toàn bộ mọi thứ thành bột mịn rồi mới bắt đầu nặn"
+        ],
+        "k": "A",
+        "e": "Tôn trọng hình dáng nguyên bản của vật bỏ đi tạo nên nét duyên bất ngờ và tiết kiệm công sức gia công.",
+        "s": "Mĩ Thuật 6",
+        "h": "Quan sát liên tưởng hình khối vật liệu"
+      },
+      {
+        "c": "MT6-B08-005",
+        "d": "basic",
+        "p": "Lợi ích kép đối với nhận thức sống xanh khi học sinh thực hành các dự án mĩ thuật từ vật liệu tái chế là gì?",
+        "o": [
+          "Giúp các nhà máy sản xuất thêm thật nhiều túi nilon mới",
+          "Khuyến khích mọi người mua sắm càng nhiều đồ nhựa dùng một lần để có vật liệu vẽ",
+          "Chỉ nhằm làm cho sọt rác trong lớp học luôn đầy ắp mảnh vụn",
+          "Vừa rèn óc sáng tạo tạo hình tiết kiệm chi phí vừa hình thành thói quen phân loại rác, giảm rác nhựa và lan tỏa thông điệp bảo vệ Trái Đất"
+        ],
+        "k": "D",
+        "e": "Lưu ý cốt lõi: ưu tiên giảm tiêu dùng nhựa trước, rồi mới tận dụng rác phát sinh tất yếu thành đồ dùng hữu ích bền lâu!",
+        "s": "Mĩ Thuật 6",
+        "h": "Ý nghĩa giáo dục sống xanh"
+      },
+      {
+        "c": "MT6-B08-006",
+        "d": "basic",
+        "p": "Loại keo dán nào thường dùng hiệu quả và an toàn nhất cho học sinh lớp 6 khi gắn kết giấy báo, vải vụn và bìa carton với nhau?",
+        "o": [
+          "Keo sữa PVA (keo trắng an toàn không độc hại) hoặc hồ dán giấy tự nấu từ bột năng/sắn",
+          "Keo dán sắt công nghiệp dễ dính chặt ngón tay và cay mắt",
+          "Nước lã sạch thông thường",
+          "Súng bắn keo nến nhiệt độ cực cao để học sinh tự do nghịch đùa"
+        ],
+        "k": "A",
+        "e": "Nếu cần dùng súng bắn keo nóng cho các mối ghép nhựa cứng, cần thực hiện dưới sự giám sát cẩn thận trên bề mặt lót an toàn.",
+        "s": "Mĩ Thuật 6",
+        "h": "Chọn chất kết dính an toàn khi làm mô hình"
+      },
+      {
+        "c": "MT6-B08-007",
+        "d": "application",
+        "p": "Quan sát bảng gợi ý tái chế sáng tạo dưới đây, phương án nào tạo ra một sản phẩm VỪA có tính thẩm mĩ cao VỪA sử dụng hữu ích lâu dài trên bàn học của em?",
+        "o": [
+          "Tô màu nước lên vỏ chuối tươi làm vật trang trí để cả tháng trên bàn",
+          "Ghép các lõi giấy cứng hoặc vỏ hộp sữa sạch cao thấp khác nhau bọc giấy báo cũ, vẽ họa tiết thổ cẩm hoặc màu acrylic làm hộp đựng bút thước gọn gàng",
+          "Cắt vụn một chai nhựa mới tinh thành trăm mảnh nhỏ rồi vứt lại vào thùng rác",
+          "Dùng ống hút nhựa cũ dán thành một khối rối mù không có hình thù hay công dụng rồi để góc phòng bám bụi"
+        ],
+        "k": "B",
+        "e": "Sản phẩm tái chế tốt nhất là sản phẩm thực sự dùng được lâu dài (hộp bút, chậu cây, đèn ngủ, túi vải) thay vì biến thành rác mới sau một ngày!",
+        "s": "Mĩ Thuật 6",
+        "h": "Tiêu chí sản phẩm tái chế hữu ích bền vững",
+        "fig": {
+          "type": "table",
+          "title": "Gợi ý tái chế sáng tạo lớp 6",
+          "head": [
+            "Vật liệu bỏ đi",
+            "Sản phẩm gợi ý"
+          ],
+          "rows": [
+            [
+              "Chai nhựa sạch",
+              "Chậu cây tự tưới"
+            ],
+            [
+              "Bìa carton hộp",
+              "Khung ảnh, hộp bút"
+            ],
+            [
+              "Vải quần áo cũ",
+              "Túi vải, ghép vải"
+            ],
+            [
+              "Giấy báo tạp chí",
+              "Tranh xé dán, giỏ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT6-B08-008",
+        "d": "application",
+        "p": "Một nhóm bạn làm bức tranh phù điêu \"Đại dương xanh kêu cứu\" từ hàng trăm chiếc nắp chai nhựa đủ màu sắc nhặt trong trường (xanh lam, trắng, đỏ, vàng, đen). Các bạn nên sắp xếp màu nắp chai thế nào cho đúng nguyên lí tạo hình đã học?",
+        "o": [
+          "Sơn phủ màu đen kín hết toàn bộ mặt nắp chai để không thấy màu sắc nào",
+          "Dán lẫn lộn ngẫu nhiên mọi màu nắp chai vào chung một chỗ không phân mảng",
+          "Chỉ dán duy nhất hai chiếc nắp chai vào góc tờ bìa to",
+          "Phân loại nắp chai theo nhóm màu: nắp xanh lam làm sóng biển chuyển sắc, nắp đỏ cam vàng nổi bật ghép hình đàn cá và rạn san hô"
+        ],
+        "k": "D",
+        "e": "Phân nhóm màu sắc biến rác thải nắp chai thành những \"viên gạch khảm mosaic\" rực rỡ cực kì bắt mắt!",
+        "s": "Mĩ Thuật 6",
+        "h": "Sắp xếp nắp chai như tranh khảm Mosaic"
+      },
+      {
+        "c": "MT6-B08-009",
+        "d": "application",
+        "p": "Bạn Minh cắt nửa dưới một chai nhựa sạch để làm chậu trồng cây sen đá đặt góc học tập. Để tránh mép nhựa cắt bị sắc bén có thể làm đứt tay và trông thẩm mĩ hơn, Minh nên xử lí phần miệng cắt đó thế nào?",
+        "o": [
+          "Bọc thêm hàng chục lớp túi nilon xung quanh chậu cây",
+          "Cứ để nguyên mép nhựa cắt nhọn lởm chởm cho tự nhiên",
+          "Cắt gọt phẳng đều, dùng giấy nhám mịn chà nhẹ (hoặc dán viền bằng dải băng vải, dây thừng nhỏ quấn quanh miệng chậu) vừa êm tay vừa đẹp mắt",
+          "Đốt trực tiếp bằng bật lửa trong phòng kín gây khói nhựa độc hại"
+        ],
+        "k": "C",
+        "e": "Chú ý chi tiết an toàn hoàn thiện (tinh tế mép cạnh) nâng tầm sản phẩm thủ công lên rất nhiều.",
+        "s": "Mĩ Thuật 6",
+        "h": "Xử lí an toàn mép cắt chai nhựa"
+      },
+      {
+        "c": "MT6-B08-010",
+        "d": "application",
+        "p": "Thay vì dùng kéo cắt tỉa từng nét cứng bằng giấy màu công nghiệp, một bạn sử dụng tạp chí cũ và giấy báo bỏ đi dùng tay XÉ từng mảnh giấy nhỏ (tận dụng các mảng màu in chữ sẵn có) để dán thành bức tranh tĩnh vật lọ hoa. Kĩ thuật này mang lại vẻ đẹp gì độc đáo?",
+        "o": [
+          "Chỉ vì bạn ấy làm mất cây kéo nên đành phải xé bừa cho xong bài",
+          "Làm cho bức tranh mất hết màu sắc không nhìn ra cái lọ hoa",
+          "Các đường viền giấy xé bằng tay tạo độ xù mềm mại tự nhiên đầy chất hội họa và tận dụng lớp chữ báo cũ tạo chất liệu bề mặt rất nghệ thuật",
+          "Kĩ thuật này bị cấm trong các cuộc thi mĩ thuật học sinh"
+        ],
+        "k": "C",
+        "e": "Tranh xé dán giấy (Collage) là kĩ thuật nghệ thuật nổi tiếng từng được các danh họa lớn như Picasso và Matisse sử dụng!",
+        "s": "Mĩ Thuật 6",
+        "h": "Giá trị nghệ thuật của tranh xé dán (Collage)"
+      },
+      {
+        "c": "MT6-B08-011",
+        "d": "application",
+        "p": "Sau khi cả lớp 6 hoàn thành 40 sản phẩm tạo hình từ chai nhựa, bìa carton và ống hút cũ, bước quan trọng nhất ở cuối dự án để tránh việc các mô hình đó lại trở thành gánh nặng rác thải sau giờ học là gì?",
+        "o": [
+          "Vứt bỏ tất cả 40 sản phẩm ngay lập tức lẫn vào cùng thùng rác hữu cơ ẩm ướt",
+          "Giữ sản phẩm đẹp bền làm đồ dùng thật hoặc trưng bày góc xanh; phần hỏng thừa tháo tách bỏ đúng thùng tái chế giấy - nhựa",
+          "Bắt buộc học sinh mua thêm hàng trăm chai nước ngọt mới để làm lại tuần sau",
+          "Đem đốt toàn bộ các mô hình bằng chai nhựa ngay sau sân trường"
+        ],
+        "k": "B",
+        "e": "Quản lí trọn vòng đời sản phẩm dự án giúp bài học bảo vệ môi trường thực chất từ đầu tới cuối.",
+        "s": "Mĩ Thuật 6",
+        "h": "Quản lí vòng đời sản phẩm tái chế"
+      },
+      {
+        "c": "MT6-B08-012",
+        "d": "application",
+        "p": "Một nghệ sĩ nổi tiếng ghép hàng nghìn mảnh rác thải nhựa trôi dạt bãi biển thành tượng một con cá voi khổng lồ đặt ngay bên bờ biển. Tác phẩm sắp đặt tái chế đó muốn đánh thức điều gì ở du khách?",
+        "o": [
+          "Khẳng định đại dương có khả năng tự tiêu hủy mọi loại chai nhựa",
+          "Khen ngợi rác thải nhựa rất đẹp nên cần vứt nhiều thêm xuống bãi biển",
+          "Tác động thị giác mạnh mẽ giúp mọi người nhận ra lượng rác nhựa khổng lồ đang hại sinh vật biển, từ đó thay đổi thói quen dùng nhựa",
+          "Quảng cáo bán tượng cá voi làm đồ chơi trẻ em"
+        ],
+        "k": "C",
+        "e": "Nghệ thuật thị giác có sức lay động lương tâm nhanh và mạnh hơn hàng chục trang báo cáo số liệu khô khan.",
+        "s": "Mĩ Thuật 6",
+        "h": "Sức mạnh cảnh tỉnh của nghệ thuật sắp đặt xanh"
+      },
+      {
+        "c": "MT6-B08-013",
+        "d": "advanced",
+        "p": "Trong phong trào sống xanh quốc tế thường nhắc đến thứ tự ưu tiên 3R: Reduce (Giảm thiểu) -> Reuse (Tái sử dụng) -> Recycle (Tái chế). Tại sao \"Tái chế làm mô hình\" dù rất hay nhưng vẫn chỉ nên đứng sau \"Giảm thiểu rác ngay từ đầu\"?",
+        "o": [
+          "Vì thế giới chỉ cho phép tái chế duy nhất vỏ lon nhôm chứ không cho tái chế giấy",
+          "Tái chế đồ cũ vẫn tốn năng lượng, keo dán và nhựa vẫn tồn tại; giảm dùng nhựa một lần ngay từ gốc mới giải quyết căn bản ô nhiễm",
+          "Vì tái chế đồ cũ hoàn toàn không mang lại bất kì giá trị giáo dục hay thẩm mĩ nào",
+          "Vì càng mua nhiều chai nhựa mới để cắt ghép đồ chơi thì môi trường càng sạch"
+        ],
+        "k": "B",
+        "e": "Hiểu đúng vị trí của 3R giúp học sinh không hiểu nhầm rằng \"cứ mua nhiều đồ nhựa về làm hoa giả là đang bảo vệ môi trường\".",
+        "s": "Mĩ Thuật 6",
+        "h": "Hiểu đúng thứ tự ưu tiên 3R trong mĩ thuật xanh"
+      },
+      {
+        "c": "MT6-B08-014",
+        "d": "advanced",
+        "p": "Phân tích lí do vì sao khi làm tác phẩm từ vật liệu tái chế, người làm cần tránh lạm dụng việc mua thêm quá nhiều phụ kiện trang trí nhựa đắt tiền (kim tuyến nhựa, hạt cườm nhựa, hoa xốp mới) gắn lên một vỏ chai cũ?",
+        "o": [
+          "Vì keo dán không thể dính được hạt cườm nhựa",
+          "Chỉ nên gắn càng nhiều phụ kiện nhựa mới mua càng chứng tỏ tay nghề cao",
+          "Vì kim tuyến và hạt cườm nhựa hoàn toàn không đẹp trên bất kì sản phẩm nào",
+          "Vì làm vậy đi ngược lại tinh thần tiết kiệm sinh thái (biến chai nhựa dễ tái chế thành sản phẩm dính tạp chất kim tuyến nhựa khó phân hủy hơn)"
+        ],
+        "k": "D",
+        "e": "Dùng vật liệu tự nhiên sẵn có (dây gai, lá khô, cành cây, giấy báo) trang trí cho vật liệu tái chế vừa tinh tế vừa thực sự thân thiện môi trường.",
+        "s": "Mĩ Thuật 6",
+        "h": "Tránh \"tái chế gây thêm rác thải phụ kiện\""
+      },
+      {
+        "c": "MT6-B08-015",
+        "d": "advanced",
+        "p": "Nhiều làng nghề truyền thống Việt Nam xưa vốn đã thực hành \"kinh tế tuần hoàn không rác thải\" từ hàng trăm năm trước ngay trong mĩ thuật dân gian. Ví dụ tiêu biểu nào minh họa rõ nhất điều này?",
+        "o": [
+          "Đốt toàn bộ rơm rạ tạo khói bụi mù mịt khắp đồng bằng",
+          "Làm giấy dó, giấy điệp từ vỏ cây và vỏ điệp; nặn tò he từ bột gạo; dùng bẹ chuối, mo cau, rơm rạ bện đồ chơi tự phân hủy sạch",
+          "Đúc toàn bộ đồ chơi trẻ em bằng nhựa PVC tổng hợp",
+          "Nhập khẩu các thùng sơn hóa học đóng hộp nhựa dùng một lần từ nước ngoài"
+        ],
+        "k": "B",
+        "e": "Trí tuệ sống hài hòa cùng tự nhiên của cha ông là bài học quý giá nhất cho thiết kế bền vững thế kỉ XXI.",
+        "s": "Mĩ Thuật 6",
+        "h": "Tư duy bền vững trong mĩ thuật dân gian"
+      }
+    ]
+  },
+  {
+    "chapter": "mithuat6-c3",
+    "lesson": {
+      "code": "mithuat6-b09",
+      "title": "Bài 9. Nghệ thuật chữ cơ bản và thiết kế thiệp chúc mừng",
+      "seq": 9,
+      "subtitle": "Phân biệt kiểu chữ nét đều và chữ nét thanh nét đậm, nguyên tắc trình bày chữ dễ đọc cân đối và thiết kế thiệp chúc mừng ý nghĩa",
+      "concepts": [
+        "Chữ nét đều và thanh đậm",
+        "Khoảng cách và bố cục con chữ",
+        "Thiết kế thiệp chúc mừng"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT6-B09-001",
+        "d": "basic",
+        "p": "Trong nghệ thuật kẻ chữ cơ bản, kiểu chữ \"nét đều\" có đặc điểm cấu tạo nhận biết dễ nhất là gì?",
+        "o": [
+          "Độ dày (bề rộng) của tất cả các nét thẳng, nét ngang, nét cong tạo nên con chữ đều bằng nhau hoàn toàn",
+          "Nét đi lên mảnh mai còn nét đi xuống to đậm rõ rệt",
+          "Không có bất kì đường thẳng nào trong mọi chữ cái",
+          "Mỗi chữ cái đều được trang trí thêm hàng chục bông hoa nhỏ"
+        ],
+        "k": "A",
+        "e": "Chữ nét đều khỏe khoắn, hiện đại, dễ đọc từ xa nên rất hay dùng trên biển báo, khẩu hiệu và áp phích lớn.",
+        "s": "Mĩ Thuật 6",
+        "h": "Đặc điểm chữ nét đều"
+      },
+      {
+        "c": "MT6-B09-002",
+        "d": "basic",
+        "p": "Còn kiểu chữ \"nét thanh nét đậm\" tạo nên vẻ đẹp uyển chuyển, trang nhã dựa trên quy luật đặt nét nào?",
+        "o": [
+          "Các nét kéo từ trên xuống dưới (nét chính) là nét ĐẬM; các nét đưa lên, vắt ngang hoặc nét nối phụ là nét THANH (mảnh)",
+          "Tất cả mọi nét đều phải mảnh bằng đúng nét bút chì kim",
+          "Đậm nhạt đặt ngẫu nhiên tùy ý ở mỗi chữ cái khác nhau",
+          "Nét ngang rất đậm còn nét dọc mảnh như sợi tóc"
+        ],
+        "k": "A",
+        "e": "Quy luật này bắt nguồn tự nhiên từ chuyển động ngòi bút vát cổ truyền (ấn đậm khi kéo xuống, lướt nhẹ khi đẩy lên).",
+        "s": "Mĩ Thuật 6",
+        "h": "Quy luật chữ nét thanh nét đậm"
+      },
+      {
+        "c": "MT6-B09-003",
+        "d": "basic",
+        "p": "Một tấm thiệp chúc mừng hoàn chỉnh (nhân dịp 20/11, sinh nhật hay năm mới) thường gồm hai phần chính nào phối hợp chặt chẽ?",
+        "o": [
+          "Chỉ có duy nhất một tờ giấy trắng gấp đôi không vẽ chữ hay hình gì",
+          "Chỉ dán ảnh chụp phong cảnh mà không có bất kì lời chúc nào",
+          "Phần mặt ngoài tạo hình (hình ảnh, hoa văn trang trí, tiêu đề ngắn gợi cảm xúc) và phần bên trong (lời chúc chân thành trình bày cân đối)",
+          "Chỉ ghi đầy đủ số điện thoại và địa chỉ nhà người nhận"
+        ],
+        "k": "C",
+        "e": "Hình thức bên ngoài đẹp mắt thu hút, còn lời chúc viết tay chân thành bên trong giữ trọn giá trị tình cảm.",
+        "s": "Mĩ Thuật 6",
+        "h": "Cấu trúc tấm thiệp chúc mừng"
+      },
+      {
+        "c": "MT6-B09-004",
+        "d": "basic",
+        "p": "Khi viết hoặc kẻ dòng chữ tiêu đề gồm nhiều chữ cái đứng cạnh nhau, khoảng cách giữa các con chữ trong cùng một từ và khoảng cách giữa hai từ khác nhau cần đảm bảo điều gì?",
+        "o": [
+          "Đặt tất cả mọi chữ cái cách xa nhau hàng chục xăng-ti-mét như nhau",
+          "Dính sát tất cả các từ thành một chuỗi dài không có dấu cách",
+          "Chỉ đo khoảng cách cố định bằng thước kẻ bất chấp chữ I hẹp hay chữ M rộng",
+          "Các chữ trong cùng một từ đặt gần đều hợp lí về thị giác, còn khoảng cách giữa các từ rộng hơn rõ ràng để dễ tách đọc đúng nghĩa"
+        ],
+        "k": "D",
+        "e": "Ví dụ chữ A đứng cạnh V tạo khe chéo rộng nên cần xếp xích gần hơn so với hai chữ I - L đứng thẳng song song.",
+        "s": "Mĩ Thuật 6",
+        "h": "Căn khoảng cách chữ theo thị giác"
+      },
+      {
+        "c": "MT6-B09-005",
+        "d": "basic",
+        "p": "Lỗi phổ biến nhất khiến dòng chữ trên tấm thiệp hoặc bảng tin lớp khó đọc dù vẽ hình rất đẹp là gì?",
+        "o": [
+          "Dùng kiểu chữ nét đều thẳng hàng dễ nhìn",
+          "Màu chữ gần trùng sắc độ sáng tối với màu nền (ví dụ viết chữ vàng nhạt lên giấy trắng, hoặc chữ tím thẫm lên nền đen) và trang trí quá rườm rà che mất nét chữ",
+          "Để khoảng lề trống xung quanh khung chữ cho thoáng mắt",
+          "Viết chữ có dấu tiếng Việt rõ ràng đầy đủ"
+        ],
+        "k": "B",
+        "e": "Đảm bảo độ tương phản màu sắc giữa chữ và nền luôn là ưu tiên số một trong thiết kế đồ họa chữ.",
+        "s": "Mĩ Thuật 6",
+        "h": "Đảm bảo độ tương phản chữ và nền"
+      },
+      {
+        "c": "MT6-B09-006",
+        "d": "basic",
+        "p": "Kiểu chữ \"trang trí cách điệu\" trên thiệp chúc mừng thường sáng tạo dựa trên nguyên tắc nào để không làm người đọc hiểu nhầm chữ?",
+        "o": [
+          "Giữ nguyên khung cấu trúc nhận diện cốt lõi của con chữ cái, chỉ biến tấu nhẹ nhàng nét chân chữ, nét uốn lượn hoặc lồng họa tiết nhỏ liên quan chủ đề",
+          "Bỏ bớt toàn bộ các dấu sắc, hỏi, ngã, nặng của tiếng Việt",
+          "Biến đổi hoàn toàn hình dáng chữ A giống hệt chữ K cho nghệ thuật",
+          "Vẽ thêm quá nhiều dây leo che lấp toàn bộ thân chữ"
+        ],
+        "k": "A",
+        "e": "Thẩm mĩ chữ đẹp luôn đi đôi với \"tính dễ đọc\" — đừng bao giờ để trang trí làm biến dạng sai mặt chữ.",
+        "s": "Mĩ Thuật 6",
+        "h": "Nguyên tắc cách điệu chữ giữ tính dễ đọc"
+      },
+      {
+        "c": "MT6-B09-007",
+        "d": "application",
+        "p": "Quan sát bảng hướng dẫn chọn kiểu chữ theo mục đích sử dụng dưới đây, nếu em thiết kế tấm thiệp trang trọng tri ân thầy cô ngày 20/11 với thông điệp thơ ngắn giàu cảm xúc, kiểu chữ nào phù hợp nhất cho câu chúc?",
+        "o": [
+          "Viết chữ nghiêng ngả siêu nhỏ bằng bút chì mờ sát mép giấy",
+          "Dùng kiểu chữ rùng rợn góc cạnh sắc nhọn giống phim kinh dị",
+          "Chữ nét thanh nét đậm mềm mại (hoặc chữ viết tay thanh lịch) kết hợp tiêu đề nổi bật cân đối trên nền màu giấy dịu trang nhã",
+          "Chữ nét đều cực dày to thô cứng phủ kín đặc toàn bộ mặt trong thiệp"
+        ],
+        "k": "C",
+        "e": "Mỗi kiểu chữ mang một \"giọng nói thị giác\": nét thanh đậm dịu dàng hợp lời tri ân, nét đều khỏe mạnh hợp khẩu hiệu cổ động.",
+        "s": "Mĩ Thuật 6",
+        "h": "Chọn kiểu chữ đúng ngữ cảnh cảm xúc",
+        "fig": {
+          "type": "table",
+          "title": "Chọn kiểu chữ phù hợp mục đích",
+          "head": [
+            "Kiểu chữ",
+            "Phù hợp thiết kế"
+          ],
+          "rows": [
+            [
+              "Chữ nét đều",
+              "Áp phích, biển hiệu"
+            ],
+            [
+              "Chữ thanh đậm",
+              "Thiệp, bìa sách"
+            ],
+            [
+              "Chữ cách điệu",
+              "Tiêu đề sự kiện"
+            ],
+            [
+              "Chữ in nghiêng mềm",
+              "Lời chúc chân thành"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT6-B09-008",
+        "d": "application",
+        "p": "Bạn Hà kẻ khẩu hiệu \"CHÚC MỪNG NGÀY NHÀ GIÁO 20-11\" lên băng rôn bảng lớp. Khi mới kẻ tới chữ \"NHÀ\" ở chính giữa thì hết mất nửa bảng bên phải do chữ đầu kẻ quá to! Kinh nghiệm kĩ thuật nào giúp Hà căn giữa dòng chữ chuẩn ngay từ lần đầu?",
+        "o": [
+          "Cứ viết đại từ sát mép trái bằng kích thước thật to rồi chữ cuối viết nhỏ xíu lại cho vừa",
+          "Không cần kẻ khung chữ trước mà cứ lấy bút dạ tô thẳng luôn",
+          "Đo độ dài dòng chữ hoặc đếm số chữ cái, đánh dấu chính giữa tờ giấy và chữ cái trung tâm rồi chia đều ô khung chữ sang hai bên",
+          "Cắt bớt vài chữ quan trọng ở cuối câu để khỏi bị tràn khung"
+        ],
+        "k": "C",
+        "e": "Phác mờ toàn bộ hàng chữ bằng các ô hình chữ nhật nhỏ bằng bút chì trước khi kẻ nét đậm tránh 100% lỗi thừa thiếu lề.",
+        "s": "Mĩ Thuật 6",
+        "h": "Kĩ thuật căn giữa hàng chữ chuẩn xác"
+      },
+      {
+        "c": "MT6-B09-009",
+        "d": "application",
+        "p": "Một bạn thiết kế thiệp chúc mừng Tết hình vuông kích thước 15×15 cm theo kiểu \"Thiệp bật nổi 3D\" (Pop-up đơn giản): khi mở gập tấm thiệp ra, bông hoa mai hoặc bánh chưng bằng giấy ở giữa tự động bật đứng lên. Cơ chế đơn giản nhất để làm khớp bật nổi 3D đó là gì?",
+        "o": [
+          "Chỉ cần vẽ bóng đổ dưới chân bông hoa trên giấy phẳng",
+          "Dán chặt cứng hai mặt thiệp lại với nhau bằng keo sữa không mở ra được",
+          "Cắt hai đường song song vuông góc với đường gấp giữa ở mặt trong tấm bìa lót rồi đẩy gập ngược phần giấy cắt vào phía trong để làm chân đế dán hình nổi",
+          "Nhét một chiếc lò xo thép dài vào trong phong bì gửi bưu điện"
+        ],
+        "k": "C",
+        "e": "Kĩ thuật cắt gấp giấy nổi Pop-up cực kì đơn giản nhưng tạo hiệu ứng bất ngờ đầy thú vị cho người nhận thiệp.",
+        "s": "Mĩ Thuật 6",
+        "h": "Nguyên lí cắt gập thiệp Pop-up đơn giản"
+      },
+      {
+        "c": "MT6-B09-010",
+        "d": "application",
+        "p": "Khi thiết kế phần mặt trước tấm thiệp tặng mẹ nhân ngày 8/3, bạn Tuấn vẽ một bó hoa hồng lớn phía bên trái, còn góc trên bên phải đặt dòng chữ \"Mừng ngày 8/3\". Để bức thiệp trông gắn kết chứ không bị chia làm hai nửa rời rạc, Tuấn nên chỉnh thế nào?",
+        "o": [
+          "Chọn màu chữ lấy lại từ một sắc màu hài hòa có sẵn trong bó hoa (như sắc hồng thẫm hoặc xanh lá đậm) và hướng cành lá hoa vươn nhẹ kết nối về phía cụm chữ",
+          "Đổi màu nền thiệp thành màu đỏ rực giống hệt màu hoa hồng",
+          "Tô dòng chữ màu đen kịt và đẩy bó hoa sát xuống góc mép dưới bên trái thật xa chữ",
+          "Kẻ một vạch đen dày chia đôi hoàn toàn tấm thiệp thành hai ô tách biệt"
+        ],
+        "k": "A",
+        "e": "Lặp lại màu sắc và hướng chuyển động tạo cầu nối thị giác giúp hình ảnh và con chữ hòa thành một tổng thể thống nhất.",
+        "s": "Mĩ Thuật 6",
+        "h": "Kết nối hài hòa hình ảnh và chữ trên thiệp"
+      },
+      {
+        "c": "MT6-B09-011",
+        "d": "application",
+        "p": "Một bạn nam tặng bạn thân tấm thiệp sinh nhật tự vẽ tay rất tỉ mỉ mất 2 giờ đồng hồ nhưng lại bị vương nhiều vết tẩy chì nhàu nát và vết mực lem ở mặt sau. Thói quen giữ gìn sạch đẹp khi làm sản phẩm đồ họa giấy là gì?",
+        "o": [
+          "Dùng tay đè miết mạnh trực tiếp lên nét mực ướt cho nhanh khô",
+          "Lấy tẩy bẩn chà thật mạnh nhiều lần trước khi mực kịp khô",
+          "Vẽ trực tiếp bằng bút dạ nước ngay từ bước phác thảo đầu tiên",
+          "Kê tờ giấy nháp sạch dưới lòng bàn tay khi vẽ màu hoặc đi nét bút mực, đợi nét mực khô hẳn rồi mới dùng tẩy mềm tẩy nhẹ các nét phác chì dư thừa"
+        ],
+        "k": "D",
+        "e": "Lót giấy kê tay và tẩy sau khi mực khô là thói quen làm việc sạch sẽ của mọi họa sĩ minh họa.",
+        "s": "Mĩ Thuật 6",
+        "h": "Giữ gìn độ sạch đẹp khi vẽ thiệp"
+      },
+      {
+        "c": "MT6-B09-012",
+        "d": "application",
+        "p": "Nếu kẻ chữ nét thanh nét đậm bằng tay cho chữ \"A\", chữ \"M\" và chữ \"O\", vị trí các nét ĐẬM đúng quy luật theo chiều kéo bút xuống là vị trí nào?",
+        "o": [
+          "Chữ A đậm nét chéo PHẢI; chữ M đậm ở hai nét kéo xuống; chữ O đậm ở hai bên cung tròn trái và phải",
+          "Chữ A đậm ở thanh ngang ở giữa; chữ O đậm ở đỉnh trên và đáy dưới",
+          "Chữ M đậm tất cả cả bốn nét bằng nhau như nét đều",
+          "Chữ A đậm nét bên trái kéo lên và mảnh nét bên phải kéo xuống"
+        ],
+        "k": "A",
+        "e": "Tưởng tượng tay cầm bút lông hoặc bút ngòi vát viết liền mạch: cứ nét nào tay kéo XUỐNG là nhấn đậm, nét đẩy LÊN hoặc gạch ngang là lướt thanh!",
+        "s": "Mĩ Thuật 6",
+        "h": "Xác định nét đậm ở chữ A, M, O"
+      },
+      {
+        "c": "MT6-B09-013",
+        "d": "advanced",
+        "p": "Phân tích vì sao trong thời đại có hàng nghìn mẫu thiệp điện tử gửi qua tin nhắn chỉ mất 5 giây, một tấm thiệp giấy tự tay thiết kế và viết chữ nắn nót lại vẫn có giá trị tinh thần vô cùng lớn?",
+        "o": [
+          "Vì thiệp điện tử trên điện thoại hoàn toàn không thể viết được lời chúc tiếng Việt",
+          "Vì mọi tấm thiệp giấy tự làm đều có giá bán đắt hơn máy tính bảng",
+          "Vì gửi thiệp giấy không cần suy nghĩ nội dung lời chúc bên trong",
+          "Vì tấm thiệp thủ công chứa đựng thời gian, tâm sức, dấu ấn cá nhân riêng biệt không sao chép hàng loạt và sự trân trọng chân thành dành riêng cho người nhận"
+        ],
+        "k": "D",
+        "e": "Sự hiện hữu vật lí ấm áp và công sức tự tay sáng tạo luôn chạm đến trái tim người nhận sâu sắc nhất.",
+        "s": "Mĩ Thuật 6",
+        "h": "Giá trị tinh thần của thiệp thủ công"
+      },
+      {
+        "c": "MT6-B09-014",
+        "d": "advanced",
+        "p": "Trong thiết kế đồ họa chuyên nghiệp (Typography), người ta thường khuyên trong cùng một tấm thiệp hay áp phích chỉ nên kết hợp tối đa 2 kiểu chữ khác nhau (1 kiểu tiêu đề nổi bật và 1 kiểu nội dung dễ đọc). Vì sao không nên dùng tới 5-6 kiểu chữ khác nhau trên một mặt giấy?",
+        "o": [
+          "Vì các kiểu chữ khác nhau không thể tô cùng màu sắc được",
+          "Vì luật thiết kế quốc tế phạt tiền nếu dùng tới ba phông chữ",
+          "Dùng quá nhiều kiểu chữ làm mắt người xem bị phân tán rối loạn, thiếu trật tự phân cấp thông tin và làm thiết kế trông lộn xộn thiếu chuyên nghiệp",
+          "Vì phần mềm máy tính chỉ cài đặt tối đa được hai phông chữ khác nhau"
+        ],
+        "k": "C",
+        "e": "\"Ít mà tinh\" (Less is more) về số lượng phông chữ và bảng màu là nguyên tắc vàng tạo sự sang trọng trong thiết kế.",
+        "s": "Mĩ Thuật 6",
+        "h": "Nguyên tắc giới hạn 2 kiểu chữ hài hòa"
+      },
+      {
+        "c": "MT6-B09-015",
+        "d": "advanced",
+        "p": "Chú ý chi tiết nhỏ khi kẻ chữ nét đều tiếng Việt có dấu (như chữ Ắ, Ộ, Ự): nhiều học sinh kẻ chữ rất to đẹp nhưng viết dấu thanh quá bé xíu hoặc xa tít lên tận dòng trên. Cách xử lí dấu tiếng Việt đúng thẩm mĩ chữ Việt là gì?",
+        "o": [
+          "Đẩy tất cả dấu mũ lên cao hẳn cách thân chữ tới 3 xăng-ti-mét",
+          "Thiết kế dấu mũ, dấu thanh dày khoảng một nửa đến hai phần ba nét thân chữ, đặt gọn cân đối phía trên chữ mà không dính chập vào chữ",
+          "Bỏ hẳn tất cả dấu thanh để dòng chữ trông gọn giống tiếng Anh",
+          "Vẽ dấu sắc, dấu hỏi to gấp đôi chữ cái đứng bên dưới cho nổi bật"
+        ],
+        "k": "B",
+        "e": "Thiết kế chữ tiếng Việt đẹp đòi hỏi sự tinh tế đặc biệt với hệ thống dấu phụ và dấu thanh đậm đà bản sắc.",
+        "s": "Mĩ Thuật 6",
+        "h": "Thẩm mĩ xử lí dấu thanh chữ Việt"
+      }
+    ]
+  },
+  {
+    "chapter": "mithuat6-c4",
+    "lesson": {
+      "code": "mithuat6-b10",
+      "title": "Bài 10. Vẽ tĩnh vật hình khối cơ bản và tỉ lệ vật mẫu",
+      "seq": 10,
+      "subtitle": "Kĩ năng quan sát ước lượng tỉ lệ vật mẫu, quy trình vẽ tranh tĩnh vật theo 4 bước chuẩn và diễn tả sáng tối tạo không gian khối",
+      "concepts": [
+        "Đo ước lượng tỉ lệ bằng que đo",
+        "Bốn bước vẽ tĩnh vật chuẩn",
+        "Diễn tả ánh sáng và bóng đổ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT6-B10-001",
+        "d": "basic",
+        "p": "Thể loại \"Tranh tĩnh vật\" (Still Life) trong hội họa dùng để chỉ những bức tranh vẽ đối tượng nào?",
+        "o": [
+          "Phong cảnh thành phố đông đúc xe cộ qua lại",
+          "Các đồ vật đứng yên được sắp xếp có chủ ý làm mẫu vẽ (như lọ hoa, quả táo, ấm chén, sách vở, khối hình học)",
+          "Cảnh các vận động viên đang chạy đua tốc độ trên sân vận động",
+          "Chân dung người thân đang cười nói hoạt bát"
+        ],
+        "k": "B",
+        "e": "Vẽ tĩnh vật rèn luyện cực tốt khả năng quan sát tỉ lệ chính xác, bố cục vật mẫu và cảm nhận ánh sáng, chất liệu.",
+        "s": "Mĩ Thuật 6",
+        "h": "Khái niệm Tranh tĩnh vật"
+      },
+      {
+        "c": "MT6-B10-002",
+        "d": "basic",
+        "p": "Trong quy trình 4 bước vẽ tranh tĩnh vật chuẩn mực, bước đầu tiên quan trọng nhất ngay khi nhìn mẫu vẽ là gì?",
+        "o": [
+          "Quan sát tổng thể vật mẫu, ước lượng tỉ lệ chiều cao - chiều ngang toàn nhóm mẫu và phác khung hình chung cân đối vào tờ giấy",
+          "Vẽ thật kĩ từng đường gân lá và hạt sương trên quả táo ngay lập tức",
+          "Vẽ thật nhỏ toàn bộ mẫu vào một góc dưới cùng của tờ giấy",
+          "Tô kín màu nền đen toàn bộ tờ giấy trước khi vẽ hình"
+        ],
+        "k": "A",
+        "e": "\"Đi từ khung hình chung -> tìm tỉ lệ bộ phận -> vẽ nét chi tiết -> hoàn thiện sáng tối màu sắc\" là quy trình chuẩn của họa sĩ.",
+        "s": "Mĩ Thuật 6",
+        "h": "Bước đầu tiên quy trình vẽ tĩnh vật"
+      },
+      {
+        "c": "MT6-B10-003",
+        "d": "basic",
+        "p": "Cách sử dụng cây bút chì cầm thẳng tay hướng về vật mẫu kết hợp nheo một mắt để đo tỉ lệ (chiều rộng so với chiều cao cái lọ) là thao tác gì?",
+        "o": [
+          "Phương pháp in đồ trực tiếp lên mặt giấy bằng giấy than",
+          "Phương pháp ngắm đo ước lượng tỉ lệ trực tiếp bằng đầu ngón tay cái trượt trên thân bút chì (que đo)",
+          "Phương pháp dùng ê-ke đo độ dài vật mẫu ngay trên bàn đặt mẫu",
+          "Phương pháp nhắm chặt cả hai mắt để tưởng tượng mẫu vẽ"
+        ],
+        "k": "B",
+        "e": "Lưu ý khi ngắm đo bằng bút chì: phải duỗi THẲNG cánh tay khoảng cách không đổi giữa các lần đo chiều cao và chiều ngang!",
+        "s": "Mĩ Thuật 6",
+        "h": "Kĩ thuật đo tỉ lệ bằng bút chì"
+      },
+      {
+        "c": "MT6-B10-004",
+        "d": "basic",
+        "p": "Khi ánh sáng từ một cửa sổ chiếu chếch từ phía bên trái vào một quả cam hình khối cầu đặt trên bàn, bề mặt quả cam và mặt bàn sẽ hình thành các vùng sắc độ chính nào?",
+        "o": [
+          "Tất cả xung quanh quả cam đều sáng chói đều nhau không có bóng đổ",
+          "Bóng đổ hắt ngược lại về đúng hướng cửa sổ có nguồn sáng",
+          "Chỉ có hai màu trắng tinh bên trái và đen kịt bên phải ngăn đôi bằng đường thẳng",
+          "Vùng sáng (đón sáng trực tiếp), vùng trung gian, vùng tối đậm (bên khuất sáng) và bóng đổ của quả cam hắt xuống mặt bàn bên phải"
+        ],
+        "k": "D",
+        "e": "Ngoài ra ở rìa vùng tối sát mặt bàn thường có chút \"ánh sáng phản quang\" hắt nhẹ từ mặt bàn sáng lên làm khối cầu tròn đầy cực kì thật!",
+        "s": "Mĩ Thuật 6",
+        "h": "Các vùng sắc độ sáng tối trên khối cầu"
+      },
+      {
+        "c": "MT6-B10-005",
+        "d": "basic",
+        "p": "Khi sắp xếp một nhóm mẫu gồm hai ba vật để vẽ tĩnh vật (ví dụ: một chiếc bình cao và hai quả cam nhỏ), cách đặt mẫu nào tạo bố cục đẹp nhất?",
+        "o": [
+          "Xếp ba vật giống hệt nhau đứng thẳng hàng ngang cách đều nhau đúng một gang tay",
+          "Đặt các vật rải ra tận ba góc bàn cách xa nhau hẳn",
+          "Đặt chiếc bình thấp bé trốn hoàn toàn ra phía sau quả bưởi to lớn",
+          "Đặt vật cao thấp to nhỏ khác nhau, vật trước che nhẹ một phần vật sau để gắn kết quây quần và tránh xếp thẳng hàng tách rời đều tăm tắp"
+        ],
+        "k": "D",
+        "e": "Sự \"gối đầu chồng lớp\" nhẹ (overlapping) tạo mối liên kết tự nhiên và chiều sâu trước - sau cho mẫu tĩnh vật.",
+        "s": "Mĩ Thuật 6",
+        "h": "Nguyên tắc bày mẫu tĩnh vật đẹp"
+      },
+      {
+        "c": "MT6-B10-006",
+        "d": "basic",
+        "p": "Khi vẽ phần miệng hình tròn của chiếc cốc hoặc chiếc lọ hoa đặt hơi thấp hơn tầm mắt nhìn của người vẽ, hình dáng nhìn thấy thực tế của miệng lọ tròn đó biến thành hình gì trên mặt phẳng tranh?",
+        "o": [
+          "Hình tam giác nhọn hai góc",
+          "Hình bầu dục (hình elip) đối xứng hai bên chứ không phải hình tròn xoe",
+          "Hình chữ nhật có bốn góc vuông sắc cạnh",
+          "Hình tròn xoe hoàn hảo giống như nhìn thẳng từ đỉnh đầu xuống"
+        ],
+        "k": "B",
+        "e": "Càng đặt gần ngang tầm mắt, hình elip càng dẹt hẹp lại thành một đường thẳng; càng đặt thấp dưới tầm mắt, hình elip càng mở rộng dần.",
+        "s": "Mĩ Thuật 6",
+        "h": "Hiện tượng biến dạng hình tròn thành elip"
+      },
+      {
+        "c": "MT6-B10-007",
+        "d": "application",
+        "p": "Quan sát bảng bốn bước vẽ tranh tĩnh vật dưới đây, một bạn học sinh vẽ xong chiếc bình gốm màu xanh bóng nhưng khi nhìn lên bình thấy bình trông dẹt phẳng như cắt từ bìa giấy chứ chưa thấy độ căng tròn 3D. Bạn ấy cần bổ sung xử lí gì ở Bước 4?",
+        "o": [
+          "Vẽ thêm thật nhiều đường kẻ sọc ngang cứng như thước kẻ",
+          "Xóa bớt một bên quai bình cho khác đi",
+          "Chuyển sắc độ êm mượt theo độ cong thân bình: sáng rõ phía đón sáng, dịu dần qua trung gian sang tối, thêm điểm nhấn sáng và bóng đổ",
+          "Kẻ một đường viền đen cực dày cứng xung quanh toàn bộ thân bình rồi tô phẳng lì một màu xanh"
+        ],
+        "k": "C",
+        "e": "Đi nét đan bóng hoặc chuyển màu êm mềm theo chiều cong của mặt trụ/cầu giúp đánh thức ngay cảm giác 3D tròn trịa.",
+        "s": "Mĩ Thuật 6",
+        "h": "Tạo khối tròn cho tĩnh vật ở Bước 4",
+        "fig": {
+          "type": "table",
+          "title": "Bốn bước vẽ tĩnh vật chuẩn",
+          "head": [
+            "Thứ tự bước",
+            "Nội dung thao tác"
+          ],
+          "rows": [
+            [
+              "Bước 1",
+              "Phác khung, trục"
+            ],
+            [
+              "Bước 2",
+              "Tìm tỉ lệ, phác nét"
+            ],
+            [
+              "Bước 3",
+              "Vẽ chi tiết chỉnh"
+            ],
+            [
+              "Bước 4",
+              "Đánh bóng, tô khối"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT6-B10-008",
+        "d": "application",
+        "p": "Bạn Minh ngắm đo bằng bút chì thấy chiếc lọ hoa cao gấp đúng 2 lần chiều ngang rộng nhất của chính chiếc lọ đó. Nhưng khi phác lên giấy, Minh lại vẽ chiều cao lọ chỉ dài hơn chiều ngang một chút xíu. Sai sót này sẽ làm chiếc lọ trong tranh trông thế nào?",
+        "o": [
+          "Chiếc lọ bị \"lùn và bè ngang\" sai tỉ lệ hẳn so với mẫu thật bên ngoài",
+          "Không ảnh hưởng gì vì tỉ lệ không quan trọng khi vẽ tĩnh vật",
+          "Chiếc lọ trông cao gầy thanh mảnh gấp đôi bình thường",
+          "Làm màu sắc chiếc lọ tự động nhạt đi một nửa"
+        ],
+        "k": "A",
+        "e": "Kiểm tra lại tỉ lệ dài/rộng ngay ở Bước 1 bằng đường phác mờ giúp sửa sai cực dễ trước khi vẽ chi tiết.",
+        "s": "Mĩ Thuật 6",
+        "h": "Sửa lỗi sai tỉ lệ dài - rộng khi phác hình"
+      },
+      {
+        "c": "MT6-B10-009",
+        "d": "application",
+        "p": "Trong cùng một mẫu tĩnh vật gồm: cái lọ thủy tinh trong suốt, quả táo vỏ bóng và cái giỏ mây đan sần sùi. Bằng chì đen hoặc màu vẽ, làm thế nào giúp người xem phân biệt được chất liệu \"bóng loáng\" của quả táo hay thủy tinh với chất liệu \"thô mộc\" của giỏ mây?",
+        "o": [
+          "Viết chữ tên chất liệu \"thủy tinh\", \"mây tre\" lên thân đồ vật",
+          "Vẽ táo/thủy tinh bằng nét chuyển sắc cực mịn mượt kèm điểm bắt sáng trắng sắc nét (highlight); vẽ giỏ mây bằng các nét đan gạch thô rõ nhịp kết cấu từng nan mây",
+          "Chỉ vẽ mỗi cái giỏ mây còn bỏ qua hai vật kia",
+          "Dùng đúng một kiểu tô màu phẳng mịn giống hệt nhau cho cả ba vật"
+        ],
+        "k": "B",
+        "e": "Diễn tả chất liệu (texture) thông qua tính chất nét vẽ và độ gắt/mềm của ánh sáng là bước tiến rất thú vị khi vẽ tĩnh vật.",
+        "s": "Mĩ Thuật 6",
+        "h": "Diễn tả chất liệu khác nhau bằng nét và sáng"
+      },
+      {
+        "c": "MT6-B10-010",
+        "d": "application",
+        "p": "Khi quan sát chiếc bình hoa tròn đặt trên mặt bàn, họa sĩ luôn chấm nhẹ một đường trục dọc thẳng đứng xuyên qua tâm từ miệng bình xuống đáy bình ngay từ Bước 1. Đường trục đối xứng thẳng đứng này có tác dụng gì?",
+        "o": [
+          "Giúp hai bên trái phải của thân bình, vai bình và hình elip miệng/đáy bình cân đối đều nhau không bị xiêu vẹo đổ nghiêng",
+          "Là đường trang trí bắt buộc phải tô đậm bằng mực đen ở sản phẩm cuối cùng",
+          "Để chia chiếc bình thành hai vật khác nhau không liên quan",
+          "Chỉ dùng cho các vật hình vuông chứ không dùng cho vật tròn"
+        ],
+        "k": "A",
+        "e": "Dù vẽ vật tròn xoay hay bình cổ điển, đường trục dọc và các đường gióng ngang miệng - cổ - vai - đáy là \"giàn giáo\" giữ hình cực chuẩn.",
+        "s": "Mĩ Thuật 6",
+        "h": "Vai trò đường trục khi dựng hình bình tròn"
+      },
+      {
+        "c": "MT6-B10-011",
+        "d": "application",
+        "p": "Một bạn vẽ xong bức tranh tĩnh vật lọ hoa và quả bằng chì rất chuẩn xác tỉ lệ, nhưng cả chiếc lọ và quả nhìn như đang \"lơ lửng bay trên không trung\" không đứng yên trên mặt bàn. Thiếu sót nhỏ nào gây ra cảm giác lơ lửng đó?",
+        "o": [
+          "Thiếu đường chân bàn cắt ngang phía sau mẫu và thiếu phần \"bóng đổ\" sát dưới chân đế lọ và đáy quả gắn kết vật mẫu vào mặt bàn",
+          "Do không tô màu xanh da trời cho bầu trời phía sau chiếc lọ",
+          "Do bạn ấy vẽ hai quả táo hình tròn thay vì hình vuông",
+          "Do tờ giấy vẽ đặt nằm ngang thay vì đặt thẳng đứng"
+        ],
+        "k": "A",
+        "e": "Phần bóng đổ tiếp xúc đậm nhất ngay dưới đáy vật (ambient occlusion) là \"mỏ neo\" giữ đồ vật đứng vững chắc trên mặt phẳng!",
+        "s": "Mĩ Thuật 6",
+        "h": "Vai trò của bóng đổ gắn vật vào mặt bàn"
+      },
+      {
+        "c": "MT6-B10-012",
+        "d": "application",
+        "p": "Khi luyện vẽ chì đậm nhạt (đánh bóng bằng bút chì 2B, 4B), thay vì dùng ngón tay miết di chì bết bẩn lên giấy, kĩ thuật đánh bóng bằng nét \"đan nét\" (hatching/cross-hatching) giữ tranh sạch và khối đẹp bằng cách nào?",
+        "o": [
+          "Dùng giẻ ướt lau toàn bộ phần chì trên mặt giấy",
+          "Chỉ gạch vài nét rối tung ngược xuôi thật mạnh",
+          "Đan các lớp nét chì mảnh song song đều đặn và chồng lớp đan chéo góc nhỏ dần ở vùng tối sâu, giúp mặt giấy thoáng xốp tự nhiên không bị bóng nhờn bết đen",
+          "Dùng bút chì thật cứng ấn rách hẳn bề mặt giấy vẽ ở vùng tối"
+        ],
+        "k": "C",
+        "e": "Đan nét đi theo đường cong bề mặt khối vừa tạo độ tối sâu vừa gợi cảm giác ba chiều cực kì chuyên nghiệp.",
+        "s": "Mĩ Thuật 6",
+        "h": "Ưu điểm của kĩ thuật đan nét chì"
+      },
+      {
+        "c": "MT6-B10-013",
+        "d": "advanced",
+        "p": "Nhiều bạn thắc mắc: trong tranh tĩnh vật vẽ màu, phần \"bóng đổ\" của một quả cam đặt trên tấm khăn trải bàn màu trắng dưới ánh nắng trời trong xanh thực ra KHÔNG nên chỉ tô bằng màu đen xỉn. Theo quy luật màu sắc ánh sáng, bóng đổ thực tế thường mang sắc thái màu gì?",
+        "o": [
+          "Bóng đổ luôn có màu đỏ tươi sáng chói hơn cả phần đón nắng của quả cam",
+          "Bóng đổ luôn phải tô bằng màu trắng tinh khiết",
+          "Mang sắc tối ngả lạnh (xanh lam tím trầm) pha chút phản quang nhẹ chứ không dùng đen đặc vô sắc, giúp tranh có chiều sâu không khí thật",
+          "Bóng đổ chỉ có thể dùng màu đen kịt tuyệt đối không được pha thêm bất kì màu gì"
+        ],
+        "k": "C",
+        "e": "Phát hiện vĩ đại của hội họa Ấn tượng: \"Trong bóng tối vẫn có ánh sáng phản chiếu và màu sắc của không khí\"!",
+        "s": "Mĩ Thuật 6",
+        "h": "Màu sắc sống động trong bóng đổ"
+      },
+      {
+        "c": "MT6-B10-014",
+        "d": "advanced",
+        "p": "Phân tích lí do vì sao trong lịch sử hội họa thế giới, từ các danh họa Hà Lan thế kỉ XVII tới Cézanne, Van Gogh, Picasso thế kỉ XIX-XX đều chọn những vật bình dị như bát hoa quả, bình gốm, hoa hướng dương để vẽ hàng trăm bức tĩnh vật kiệt tác?",
+        "o": [
+          "Vì thời xưa chưa có hoa thật nên họ phải tự tưởng tượng ra",
+          "Vì các danh họa không được phép bước chân ra ngoài vẽ phong cảnh thiên nhiên",
+          "Vì vẽ quả táo và lọ hoa chỉ mất 5 phút không cần suy nghĩ sáng tạo gì",
+          "Mẫu tĩnh vật đứng yên giúp họa sĩ thử nghiệm triệt để quy luật ánh sáng, hình khối, hòa sắc và gửi gắm tâm trạng không bị thúc ép thời gian"
+        ],
+        "k": "D",
+        "e": "Danh họa Paul Cézanne từng làm thay đổi cả nghệ thuật hiện đại chỉ từ những quả táo và chiếc khăn bàn tĩnh vật!",
+        "s": "Mĩ Thuật 6",
+        "h": "Giá trị nghệ thuật sâu sắc của tranh tĩnh vật"
+      },
+      {
+        "c": "MT6-B10-015",
+        "d": "advanced",
+        "p": "Khi quan sát một bức tranh tĩnh vật vẽ chiếc cốc gốm màu trắng đặt trên nền tường trắng dưới ánh đèn vàng ấm bên trái, tại sao phần nền tường ngay sát cạnh bên sáng của chiếc cốc thường được nhấn hơi đậm hơn một chút, còn nền tường sát cạnh tối của cốc lại hơi sáng hơn một chút?",
+        "o": [
+          "Vì họa sĩ tô nhầm vị trí sáng tối ngược lại ở phần nền tường",
+          "Thủ pháp tương phản nền tạo độ tách lớp rõ giữa mẫu và hậu cảnh, khiến đường viền chiếc cốc nổi bật tách khỏi nền sắc nét",
+          "Vì chiếc cốc màu trắng tự phát ra tia sáng màu đen xung quanh nó",
+          "Để làm chiếc cốc hoàn toàn biến mất hòa tan vào bức tường"
+        ],
+        "k": "B",
+        "e": "Nguyên lí \"tối cạnh sáng - sáng cạnh tối\" giúp không cần viền nét đen cứng mà vật thể vẫn nổi bật rạng ngời trong không gian.",
+        "s": "Mĩ Thuật 6",
+        "h": "Thủ pháp tương phản nền tách vật mẫu"
+      }
+    ]
+  },
+  {
+    "chapter": "mithuat6-c4",
+    "lesson": {
+      "code": "mithuat6-b11",
+      "title": "Bài 11. Tranh đề tài cuộc sống quanh em",
+      "seq": 11,
+      "subtitle": "Quy trình sáng tác tranh đề tài sinh hoạt học đường, gia đình, an toàn giao thông và cách xây dựng cốt truyện hình ảnh giàu cảm xúc",
+      "concepts": [
+        "Tìm ý và chọn khoảnh khắc đẹp",
+        "Sắp xếp nhóm nhân vật chính phụ",
+        "Màu sắc kể chuyện trong tranh"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT6-B11-001",
+        "d": "basic",
+        "p": "Khác với tranh tĩnh vật chép lại đồ vật bày sẵn trước mắt, sáng tác \"Tranh đề tài\" (như đề tài trường học, gia đình, ngày Tết, bảo vệ môi trường) đòi hỏi năng lực nào nổi bật hơn ở người vẽ?",
+        "o": [
+          "Chỉ vẽ một hình khối lập phương đứng im một mình trên bàn",
+          "Năng lực quan sát tích lũy vốn sống kết hợp trí tưởng tượng sáng tạo để chọn lọc khoảnh khắc đắt giá và dàn dựng bố cục câu chuyện bằng hình ảnh",
+          "Chỉ cần chép nguyên xi lại một bức ảnh chụp có sẵn từng milimét",
+          "Sao chép y nguyên bài vẽ của bạn ngồi bên cạnh"
+        ],
+        "k": "B",
+        "e": "Tranh đề tài là nơi bạn làm đạo diễn cho một câu chuyện bằng đường nét và màu sắc từ chính trải nghiệm cuộc sống.",
+        "s": "Mĩ Thuật 6",
+        "h": "Bản chất sáng tác Tranh đề tài"
+      },
+      {
+        "c": "MT6-B11-002",
+        "d": "basic",
+        "p": "Khi bắt đầu nhận một đề tài rộng lớn (ví dụ: \"Ngày hội đến trường\" hoặc \"Bảo vệ môi trường\"), việc đầu tiên cần làm để bức tranh không bị lan man tản mạn là gì?",
+        "o": [
+          "Cố gắng vẽ hết tất cả hàng nghìn sự việc xảy ra trong cả một năm học vào một tờ giấy A4",
+          "Chỉ viết một bài văn dài kể chuyện thay cho hình vẽ",
+          "Vẽ một ngôi nhà thật to đứng trơ trọi không có bóng dáng con người hoạt động",
+          "Thu hẹp đề tài thành khoảnh khắc cụ thể giàu cảm xúc (như cảnh trồng cây sân trường hay hai mẹ con soạn cặp sách sáng khai giảng)"
+        ],
+        "k": "D",
+        "e": "\"Một góc nhỏ sâu sắc tốt hơn toàn cảnh rộng lớn hời hợt\" giúp câu chuyện trong tranh chạm tim người xem ngay lập tức.",
+        "s": "Mĩ Thuật 6",
+        "h": "Thu hẹp chủ đề chọn khoảnh khắc đắt"
+      },
+      {
+        "c": "MT6-B11-003",
+        "d": "basic",
+        "p": "Trong tranh đề tài sinh hoạt có nhiều người tham gia, để các nhân vật không bị rời rạc \"mạnh ai nấy đứng\", cần tạo sự kết nối nào giữa họ?",
+        "o": [
+          "Tạo sự tương tác về hướng nhìn ánh mắt, cử chỉ tay chân hướng vào công việc chung và dáng đứng đa dạng (người đứng, người cúi, người chạy, người ngồi)",
+          "Xếp mọi người đứng cách xa nhau đều tăm tắp một khoảng bằng nhau",
+          "Chỉ vẽ toàn các dáng đứng xuôi hai tay bất động giống hệt nhau",
+          "Vẽ mọi người đều quay mặt thẳng nhìn ra ngoài giống chụp ảnh thẻ"
+        ],
+        "k": "A",
+        "e": "Ánh mắt trao nhau và sự phối hợp động tác (người tưới nước - người giữ gốc cây) làm bức tranh tràn đầy hơi thở cuộc sống.",
+        "s": "Mĩ Thuật 6",
+        "h": "Tạo tương tác sinh động giữa nhân vật"
+      },
+      {
+        "c": "MT6-B11-004",
+        "d": "basic",
+        "p": "Nhân vật hoặc nhóm nhân vật chính (trọng tâm nội dung) trong một bức tranh đề tài nên được thể hiện khác biệt với nhân vật phụ và cảnh nền thế nào?",
+        "o": [
+          "Vẽ quay lưng che mất toàn bộ hành động chính",
+          "Kích thước lớn hơn rõ rệt, đặt ở vùng trung tâm hoặc điểm nhấn bố cục, đường nét kĩ lưỡng và màu sắc tươi sáng hoặc tương phản mạnh nhất",
+          "Tô màu nhạt mờ gần trùng hoàn toàn với màu nền tường phía sau",
+          "Vẽ nhỏ nhất và đẩy vào sát mép góc trên cùng của tranh"
+        ],
+        "k": "B",
+        "e": "Nhấn mạnh trọng tâm chính giúp người xem chỉ mất 2 giây đầu đã hiểu ngay thông điệp bức tranh muốn nói gì.",
+        "s": "Mĩ Thuật 6",
+        "h": "Làm nổi bật nhân vật trọng tâm"
+      },
+      {
+        "c": "MT6-B11-005",
+        "d": "basic",
+        "p": "Bối cảnh không gian phía sau (hậu cảnh: sân trường, con đường làng, phòng bếp gia đình) trong tranh đề tài đóng vai trò gì?",
+        "o": [
+          "Xác định rõ thời gian, địa điểm diễn ra câu chuyện và làm nền nâng đỡ cảm xúc, không khí cho hoạt động của nhân vật chính",
+          "Chỉ để vẽ thật kín mọi khoảng trống lấn át hết cả nhân vật chính",
+          "Không có liên quan gì tới hành động của người trong tranh",
+          "Bắt buộc phải vẽ bằng màu đen trắng hoàn toàn khác hẳn màu nhân vật"
+        ],
+        "k": "A",
+        "e": "Cảnh nền gợi mở đúng không gian (ví dụ trống trường, hàng phượng đỏ, chiếc bàn học) giúp người xem hòa nhập tức thì vào câu chuyện.",
+        "s": "Mĩ Thuật 6",
+        "h": "Vai trò hậu cảnh trong tranh đề tài"
+      },
+      {
+        "c": "MT6-B11-006",
+        "d": "basic",
+        "p": "Khi vẽ tranh cổ động hoặc tranh đề tài \"An toàn giao thông\", chi tiết thực tế quan trọng nào thể hiện tính đúng đắn giáo dục của tác phẩm?",
+        "o": [
+          "Vẽ người đi xe máy không đội mũ bảo hiểm cười vui vẻ vượt đèn đỏ",
+          "Nhân vật đi xe đạp điện hay ngồi sau xe máy đội mũ bảo hiểm cài quai đúng cách, đi đúng làn đường và sang đường đúng vạch kẻ khi đèn xanh bật sáng",
+          "Vẽ các bạn học sinh dàn hàng bốn đùa nghịch dưới lòng đường quốc lộ",
+          "Vẽ cột đèn tín hiệu giao thông có màu xanh ở trên cùng và màu đỏ ở dưới cùng"
+        ],
+        "k": "B",
+        "e": "Tranh đề tài cuộc sống cần tôn trọng tính chính xác các quy tắc an toàn và văn hóa ứng xử thực tế.",
+        "s": "Mĩ Thuật 6",
+        "h": "Tính chính xác trong tranh An toàn giao thông"
+      },
+      {
+        "c": "MT6-B11-007",
+        "d": "application",
+        "p": "Quan sát bảng gợi ý chọn hình ảnh đắt giá cho các đề tài quen thuộc dưới đây, ý tưởng nào giúp bức tranh chủ đề \"Tình thầy trò - 20/11\" trở nên xúc động và mới mẻ thay vì lặp lại lối mòn?",
+        "o": [
+          "Chỉ vẽ một cái bảng đen trống trơn và một bông hoa nhỏ xíu ở giữa tờ giấy",
+          "Vẽ cận cảnh khoảnh khắc cô giáo ân cần cúi xuống cầm tay hướng dẫn học sinh giải bài hoặc nhóm bạn bí mật gấp thiệp giấy hoa dâng cô ngay góc lớp ấm áp",
+          "Vẽ ngôi trường đứng trơ trọi giữa bãi cỏ vắng không có thầy cô học sinh",
+          "Chép lại nguyên chữ \"Chúc mừng 20/11\" thật to mà không có hình người nào"
+        ],
+        "k": "B",
+        "e": "Những khoảnh khắc đời thường giản dị giàu tình người luôn tạo sức lay động lớn hơn những khẩu hiệu sáo rỗng.",
+        "s": "Mĩ Thuật 6",
+        "h": "Chọn khoảnh khắc cảm xúc cho tranh đề tài",
+        "fig": {
+          "type": "table",
+          "title": "Gợi ý ý tưởng tranh đề tài",
+          "head": [
+            "Đề tài",
+            "Khoảnh khắc gợi ý"
+          ],
+          "rows": [
+            [
+              "Mái trường, thầy cô",
+              "Cô tận tình chỉ em"
+            ],
+            [
+              "Gia đình yêu thương",
+              "Bữa cơm, đọc sách"
+            ],
+            [
+              "Sống xanh quanh em",
+              "Phân rác, trồng cây"
+            ],
+            [
+              "Lễ hội quê hương",
+              "Múa lân, bánh chưng"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT6-B11-008",
+        "d": "application",
+        "p": "Bạn Tú vẽ một bức tranh đề tài \"Bữa cơm gia đình ấm cúng buổi tối\", trong đó mâm cơm và bốn thành viên ngồi quây quần rất tình cảm nhưng Tú lại tô toàn bộ tường nhà và quần áo bằng gam màu xanh tím xám lạnh ngắt tối sầm. Bức tranh gặp hạn chế gì về diễn đạt cảm xúc màu sắc?",
+        "o": [
+          "Vì bữa cơm buổi tối thì bắt buộc toàn bộ nhà phải tối om không có ánh đèn",
+          "Màu sắc bị mâu thuẫn cảm xúc với chủ đề: không khí gia đình sum họp ấm cúng rất cần hòa sắc ấm áp (vàng nắng đèn ấm, cam dịu, nâu gỗ, đỏ hồng điểm xuyết)",
+          "Màu sắc không liên quan gì đến cảm xúc của bức tranh đề tài",
+          "Màu xanh tím xám là màu duy nhất thể hiện được tình cảm gia đình hạnh phúc"
+        ],
+        "k": "B",
+        "e": "Màu sắc chính là \"nhạc nền cảm xúc\" của bức tranh: hòa sắc ấm tôn lên sự sum vầy, hòa sắc mát trong tôn lên buổi sáng sân trường.",
+        "s": "Mĩ Thuật 6",
+        "h": "Đồng bộ gam màu với cảm xúc đề tài"
+      },
+      {
+        "c": "MT6-B11-009",
+        "d": "application",
+        "p": "Trong một bức tranh vẽ cảnh \"Giờ ra chơi sân trường\" có rất nhiều bạn nhỏ đang chơi nhảy dây và đá cầu. Để bức tranh trông sâu rộng có không gian sân trường thật chứ không như mọi người bị dán phẳng lên bức tường, bạn nhỏ cần áp dụng kĩ thuật vẽ nào?",
+        "o": [
+          "Cho toàn bộ các bạn ở xa to gấp đôi các bạn đứng ngay trước mắt",
+          "Vẽ tất cả đứng trên cùng một đường thẳng ngang dưới đáy tờ giấy",
+          "Nhân vật gần phía dưới vẽ to rõ, màu đậm; các bạn ở xa vẽ nhỏ dần và đường chân sân nằm cao hơn ngang hông hoặc vai nhóm tiền cảnh",
+          "Vẽ mọi người to bằng hệt nhau xếp thành hai hàng dọc từ dưới lên tận mép trên cùng"
+        ],
+        "k": "C",
+        "e": "Kết hợp to-nhỏ (luật xa gần) và xếp tầng vị trí chân cao dần lên theo chiều sâu mặt sân tạo ngay không gian 3D rộng rãi.",
+        "s": "Mĩ Thuật 6",
+        "h": "Tạo chiều sâu sân trường trong tranh sinh hoạt"
+      },
+      {
+        "c": "MT6-B11-010",
+        "d": "application",
+        "p": "Một học sinh vẽ tranh đề tài \"Chung tay bảo vệ rừng xanh\", chọn góc nhìn cực kì độc đáo: vẽ đôi bàn tay lớn dịu dàng nâng niu những mầm cây xanh non nảy lộc giữa khu rừng rực nắng, phía xa có đàn chim bay về. Cách thể hiện mang tính biểu tượng này có ưu điểm gì?",
+        "o": [
+          "Làm giảm ý nghĩa bảo vệ thiên nhiên vì không vẽ người cầm cuốc",
+          "Sai đề tài vì không vẽ đủ hàng trăm cái cây to trong bức tranh",
+          "Truyền tải thông điệp nhân văn sâu sắc cô đọng ngay lập tức bằng ngôn ngữ hình tượng nghệ thuật thay vì chỉ tả cảnh đơn thuần",
+          "Khó hiểu vì không có chiếc xe tải chở gỗ nào trong tranh"
+        ],
+        "k": "C",
+        "e": "Dùng hình ảnh ẩn dụ biểu tượng (đôi bàn tay, Trái Đất, mầm xanh) là bước phát triển tư duy sáng tác rất trưởng thành.",
+        "s": "Mĩ Thuật 6",
+        "h": "Tư duy hình tượng biểu tượng trong tranh đề tài"
+      },
+      {
+        "c": "MT6-B11-011",
+        "d": "application",
+        "p": "Khi vẽ dáng người đang thực hiện các động tác lao động (cúi quét sân, xách xô nước tưới cây, với tay lau bảng) cho tranh đề tài, lỗi hình thể hay gặp nhất ở học sinh lớp 6 là vẽ chân tay cứng như khúc gỗ thẳng. Cách khắc phục nhanh là gì?",
+        "o": [
+          "Không vẽ tay chân nữa mà chỉ vẽ cái đầu lơ lửng",
+          "Chỉ vẽ mọi nhân vật đứng yên thẳng đứng hai tay ép sát đùi",
+          "Dùng thước kẻ thẳng vẽ toàn bộ cánh tay và cẳng chân thành một đoạn thẳng",
+          "Phác trục xương sống uốn cong, trục vai - hông nghiêng đối lập và các khớp gập khuỷu tay, đầu gối trước khi vẽ quần áo trùm ra ngoài"
+        ],
+        "k": "D",
+        "e": "Vẽ phác khung người que có khớp vai, khuỷu, hông, gối giúp kiểm tra ngay dáng người có tự nhiên và vững trọng tâm hay không.",
+        "s": "Mĩ Thuật 6",
+        "h": "Kĩ thuật phác khung khớp vẽ dáng hoạt động"
+      },
+      {
+        "c": "MT6-B11-012",
+        "d": "application",
+        "p": "Khi hoàn thành bức tranh đề tài bằng màu sáp dầu hoặc màu dạ, nhiều bạn có thói quen dùng bút lông đen viền lại toàn bộ mọi nét đồ vật kể cả lá cây nhỏ xa tít phía sau bằng một nét đen to bằng nhau. Cách điều chỉnh nào giúp tranh tinh tế có chiều sâu hơn?",
+        "o": [
+          "Lấy bút dạ đen to nhất tô viền dày gấp ba lần cho tất cả mọi thứ ở xa lẫn gần",
+          "Không bao giờ dùng bút màu đậm ở bất kì phần nào của bức tranh",
+          "Chỉ nhấn viền đậm ở nhân vật chính tiền cảnh; cảnh phụ ở xa phía sau dùng nét mảnh nhạt hoặc chuyển mảng màu tự nhiên không viền đen",
+          "Dùng mực trắng gạch xóa hết toàn bộ mặt nhân vật chính"
+        ],
+        "k": "C",
+        "e": "Sự tiết chế độ đậm nét viền theo khoảng cách xa gần tạo không khí thoáng nhẹ rất chuyên nghiệp.",
+        "s": "Mĩ Thuật 6",
+        "h": "Điều tiết nét viền theo khoảng cách xa gần"
+      },
+      {
+        "c": "MT6-B11-013",
+        "d": "advanced",
+        "p": "Nhiều danh họa Việt Nam (như Tô Ngọc Vân, Nguyễn Phan Chánh, Bùi Xuân Phái) có những bức tranh đề tài đời thường cực kì giản dị — như gánh hàng rong, trò chơi ô ăn quan, phố cổ Hà Nội — nhưng lại trở thành bảo vật nghệ thuật vô giá. Điều gì nâng tầm một cảnh sinh hoạt bình thường thành tác phẩm nghệ thuật lớn?",
+        "o": [
+          "Vì các danh họa vẽ tranh đề tài với kích thước lớn bằng cả ngôi nhà",
+          "Chỉ vì các bức tranh đó dùng loại màu sơn đắt tiền nhất thế giới thời bấy giờ",
+          "Sự chắt lọc tinh túy bố cục, bảng màu đậm hồn dân tộc, tình yêu sâu sắc thấu hiểu con người lao động và cái nhìn độc đáo đầy chất thơ của người nghệ sĩ",
+          "Vì người thời xưa không ai có máy ảnh nên phải vẽ lại cho giống hệt ảnh"
+        ],
+        "k": "C",
+        "e": "\"Cái đẹp không nằm ở sự hào nhoáng bên ngoài mà nằm ở rung động chân thành trước vẻ đẹp bình dị của cuộc sống quanh ta\".",
+        "s": "Mĩ Thuật 6",
+        "h": "Chất thơ biến đời thường thành kiệt tác"
+      },
+      {
+        "c": "MT6-B11-014",
+        "d": "advanced",
+        "p": "Phân tích sự khác nhau giữa \"Tranh minh họa\" một câu chữ cụ thể với \"Tranh đề tài sáng tác độc lập\"?",
+        "o": [
+          "Tranh minh họa bám sát truyền tải tình tiết một văn bản có sẵn; Tranh đề tài cho phép tự do chọn câu chuyện, nhân vật và không gian riêng",
+          "Hai thể loại này hoàn toàn giống hệt nhau về mục đích sáng tạo",
+          "Tranh minh họa không bao giờ được phép sử dụng màu sắc nóng lạnh",
+          "Tranh đề tài không cần bố cục còn tranh minh họa không cần hình vẽ"
+        ],
+        "k": "A",
+        "e": "Dù khác mục tiêu, cả hai đều vận dụng chung ngôn ngữ chấm, nét, hình, màu và nguyên lí bố cục.",
+        "s": "Mĩ Thuật 6",
+        "h": "Phân biệt Tranh minh họa và Tranh đề tài"
+      },
+      {
+        "c": "MT6-B11-015",
+        "d": "advanced",
+        "p": "Khi đứng trước bức tranh đề tài của một bạn học sinh vẽ về trận lũ lụt giúp đỡ đồng bào (với màu sắc trầm lắng có ánh đèn pin cứu hộ sáng ấm), giá trị cao nhất mà môn Mĩ thuật bồi dưỡng cho các em thông qua bài vẽ đề tài xã hội là gì?",
+        "o": [
+          "Nuôi dưỡng lòng nhân ái, khả năng thấu cảm trước những vấn đề thực tế của cộng đồng và bày tỏ tiếng nói trách nhiệm công dân qua ngôn ngữ nghệ thuật",
+          "Học cách sao chép thật nhanh các bức ảnh tin tức thời sự trên mạng",
+          "Tránh né mọi đề tài khó khăn trong xã hội chỉ vẽ đồ chơi",
+          "Chỉ để thi lấy điểm 10 cuối học kì rồi cất tranh vào góc tủ"
+        ],
+        "k": "A",
+        "e": "Mĩ thuật kết nối trái tim cá nhân với đời sống xã hội bằng sự đồng cảm và khát vọng hướng thiện.",
+        "s": "Mĩ Thuật 6",
+        "h": "Giá trị nhân văn của tranh đề tài xã hội"
+      }
+    ]
+  },
+  {
+    "chapter": "mithuat6-c4",
+    "lesson": {
+      "code": "mithuat6-b12",
+      "title": "Bài 12. Trưng bày, giới thiệu và nhận xét sản phẩm mĩ thuật",
+      "seq": 12,
+      "subtitle": "Kĩ năng sắp xếp góc trưng bày triển lãm lớp học khoa học, thuyết trình giới thiệu sản phẩm và nhận xét đánh giá thẩm mĩ tích cực văn minh",
+      "concepts": [
+        "Sắp xếp không gian trưng bày",
+        "Thuyết trình sản phẩm mĩ thuật",
+        "Phê bình thẩm mĩ văn minh"
+      ]
+    },
+    "questions": [
+      {
+        "c": "MT6-B12-001",
+        "d": "basic",
+        "p": "Mục đích ý nghĩa nhất của hoạt động trưng bày và chia sẻ sản phẩm mĩ thuật vào cuối mỗi chủ đề hoặc cuối năm học là gì?",
+        "o": [
+          "Chỉ nhằm dọn dẹp cho sạch mặt bàn lớp học trước giờ ra về",
+          "Để bắt buộc học sinh phải bán hết sản phẩm lấy tiền ngay tại lớp",
+          "Chỉ để chọn ra một bạn vẽ đẹp nhất rồi chê bai tất cả các bạn còn lại",
+          "Giúp học sinh trân trọng thành quả lao động sáng tạo của bản thân và bạn bè, học hỏi đa dạng ý tưởng mới và rèn tự tin giao tiếp thẩm mĩ"
+        ],
+        "k": "D",
+        "e": "Phòng trưng bày lớp học biến mỗi học sinh thành một \"nghệ sĩ\" và một \"khán giả tinh tế\".",
+        "s": "Mĩ Thuật 6",
+        "h": "Ý nghĩa trưng bày sản phẩm mĩ thuật"
+      },
+      {
+        "c": "MT6-B12-002",
+        "d": "basic",
+        "p": "Khi treo hoặc đặt các bức tranh và sản phẩm tạo hình 3D (mặt nạ, lọ hoa tái chế) tại góc trưng bày của lớp, cách bố trí nào đảm bảo khoa học và thẩm mĩ nhất?",
+        "o": [
+          "Xếp chồng chất hàng chục bức tranh đè kín lên nhau một góc bàn chật hẹp",
+          "Phân khu rõ ràng: tranh treo ngang tầm mắt đều thoáng trên phông sạch, sản phẩm 3D đặt vững trên bàn phủ khăn phía trước theo chủ đề",
+          "Dán tranh xiên xẹo đè lên bảng đen viết phấn hoặc che kín cửa sổ thoáng khí",
+          "Đặt các mô hình giấy cao che khuất hoàn toàn các bức tranh nhỏ phía sau"
+        ],
+        "k": "B",
+        "e": "Chừa khoảng cách thoáng giữa các tác phẩm giúp mỗi bức tranh có \"không gian thở\" riêng khi người xem thưởng ngoạn.",
+        "s": "Mĩ Thuật 6",
+        "h": "Nguyên tắc sắp xếp góc trưng bày đẹp"
+      },
+      {
+        "c": "MT6-B12-003",
+        "d": "basic",
+        "p": "Trên tấm nhãn thông tin nhỏ (thẻ tên tác phẩm) đặt gọn dưới mỗi sản phẩm khi trưng bày triển lãm, những thông tin cơ bản nào cần được ghi rõ ràng?",
+        "o": [
+          "Ghi nguyên một bài văn dài ba trang che hết cả khung tranh",
+          "Tên tác phẩm, tên tác giả (hoặc nhóm thực hiện), lớp và chất liệu sáng tác (như màu sáp, giấy bồi, bìa tái chế)",
+          "Ghi điểm số bí mật và nhận xét chê bai khuyết điểm của bạn",
+          "Không cần ghi bất kì chữ gì để người xem tự đoán tên tác giả"
+        ],
+        "k": "B",
+        "e": "Tấm thẻ tên nhỏ gọn tôn vinh quyền tác giả và giúp người xem hiểu rõ chất liệu lao động sáng tạo.",
+        "s": "Mĩ Thuật 6",
+        "h": "Thông tin trên thẻ tên tác phẩm"
+      },
+      {
+        "c": "MT6-B12-004",
+        "d": "basic",
+        "p": "Khi đứng lên giới thiệu sản phẩm mĩ thuật của mình (hoặc của nhóm) trước cả lớp trong 1–2 phút, cấu trúc trình bày ngắn gọn hấp dẫn nhất gồm những ý nào?",
+        "o": [
+          "Chỉ nói đúng một câu \"Đây là bài của em, em hết rồi\" rồi ngồi xuống ngay",
+          "Chê bai sản phẩm của mình thật xấu xí trước khi người khác kịp xem",
+          "Tên tác phẩm và cảm hứng ý tưởng -> Chất liệu và cách thực hiện (bố cục, màu sắc chủ đạo) -> Thông điệp ý nghĩa muốn gửi gắm",
+          "Đọc lại y nguyên từng chữ tiểu sử của các họa sĩ trong sách giáo khoa"
+        ],
+        "k": "C",
+        "e": "Trình bày mạch lạc ý tưởng giúp người nghe khám phá chiều sâu ẩn sau nét vẽ mà thoạt nhìn chưa chắc nhận ra hết.",
+        "s": "Mĩ Thuật 6",
+        "h": "Cấu trúc bài thuyết trình tác phẩm"
+      },
+      {
+        "c": "MT6-B12-005",
+        "d": "basic",
+        "p": "Thái độ và cách dùng từ ngữ nào thể hiện văn hóa nhận xét sản phẩm mĩ thuật văn minh, mang tính xây dựng giữa các bạn cùng lớp?",
+        "o": [
+          "Cười cợt chê thẳng \"vẽ xấu quá, nhìn chẳng ra hình gì cả\"",
+          "Chỉ khen qua loa lấy lệ cho bạn thân còn không thèm nhìn bài các bạn khác",
+          "Lắng nghe phần giới thiệu của bạn, chỉ ra cụ thể điểm thành công đáng học hỏi (màu sắc, bố cục, ý tưởng) trước rồi mới góp ý nhẹ nhàng hướng hoàn thiện thêm",
+          "So sánh xúc phạm năng khiếu cá nhân của bạn trước cả tập thể"
+        ],
+        "k": "C",
+        "e": "Kĩ thuật góp ý \"Hai điều khen cụ thể + Một gợi ý cải thiện\" giúp bạn mình tự tin sáng tạo và tiến bộ rõ rệt.",
+        "s": "Mĩ Thuật 6",
+        "h": "Văn hóa nhận xét phê bình xây dựng"
+      },
+      {
+        "c": "MT6-B12-006",
+        "d": "basic",
+        "p": "Sau khi kết thúc buổi triển lãm ngắn tại trường, việc thu dọn và lưu giữ các sản phẩm mĩ thuật tốt nhất thực hiện thế nào cho hợp lí?",
+        "o": [
+          "Cất giữ phẳng phiu trong cặp hồ sơ (portfolio) cá nhân theo chủ đề để theo dõi tiến bộ hoặc chọn tranh tiêu biểu trang trí lớp",
+          "Để mặc trên sân trường gặp mưa gió rách nát",
+          "Tự ý lấy tranh của bạn khác mang về mà không hỏi xin phép",
+          "Vò nhàu toàn bộ tranh vẽ nhét xuống gầm bàn lớp học"
+        ],
+        "k": "A",
+        "e": "Xây dựng hồ sơ nghệ thuật cá nhân (Art Portfolio) là thói quen cực hay giúp lưu giữ kí ức sáng tạo tuổi học trò.",
+        "s": "Mĩ Thuật 6",
+        "h": "Lưu giữ hồ sơ tác phẩm (Portfolio)"
+      },
+      {
+        "c": "MT6-B12-007",
+        "d": "application",
+        "p": "Quan sát bảng tiêu chí nhận xét sản phẩm mĩ thuật dưới đây, giả sử sản phẩm mặt nạ của bạn A hình cắt còn hơi đơn giản chưa cầu kì nhưng màu sắc phối cặp bổ túc cực kì rực rỡ và ý tưởng bảo vệ rừng rất độc đáo. Đánh giá công bằng toàn diện là gì?",
+        "o": [
+          "Đánh giá sản phẩm hoàn toàn thất bại chỉ vì đường cắt chưa giống hệt mẫu in",
+          "Khen ngợi rõ sự nhạy bén về hòa sắc tương phản và ý tưởng sáng tạo nhân văn của bạn A, đồng thời gợi ý thêm vài chi tiết nổi phụ nhỏ để hình khối phong phú hơn",
+          "Bỏ qua phần ý tưởng và màu sắc vì không quan trọng bằng độ thẳng của nét kéo",
+          "Chỉ chấm điểm cao cho những bạn mua đồ trang trí đắt tiền gắn lên mặt nạ"
+        ],
+        "k": "B",
+        "e": "Trong mĩ thuật không có \"đáp án đúng duy nhất\" như toán học; mỗi sản phẩm đều có nét độc đáo cá tính riêng đáng trân trọng.",
+        "s": "Mĩ Thuật 6",
+        "h": "Đánh giá đa chiều tôn trọng cá tính sáng tạo",
+        "fig": {
+          "type": "table",
+          "title": "Tiêu chí đánh giá sản phẩm",
+          "head": [
+            "Tiêu chí xem xét",
+            "Biểu hiện đạt tốt"
+          ],
+          "rows": [
+            [
+              "Ý tưởng, thông điệp",
+              "Rõ chủ đề, sáng tạo"
+            ],
+            [
+              "Bố cục, hình khối",
+              "Cân đối, trọng tâm"
+            ],
+            [
+              "Màu sắc, chất liệu",
+              "Hài hòa, khéo léo"
+            ],
+            [
+              "Trình bày, chia sẻ",
+              "Tự tin, nêu cách làm"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "MT6-B12-008",
+        "d": "application",
+        "p": "Tổ 1 chuẩn bị bàn trưng bày các sản phẩm gốm nặn đất sét, mặt nạ bìa và tranh đề tài kích thước lớn nhỏ khác nhau. Khi sắp xếp chung trên cùng một chiếc bàn sát tường, vị trí nào hợp lí nhất cho từng loại?",
+        "o": [
+          "Treo các tượng đất nặn nặng bằng băng dính mỏng lên mặt bảng kính",
+          "Treo tranh phẳng trên tường ngang tầm mắt; đặt tượng nhỏ thấp ở hàng trước và mô hình cao hơn ở hàng sau trên bàn giật cấp nhẹ",
+          "Đặt toàn bộ tượng cao to che kín mặt trước các bức tranh nằm phẳng trên bàn",
+          "Trải tất cả mọi thứ xuống nền đất dưới gầm bàn"
+        ],
+        "k": "B",
+        "e": "Bố cục trưng bày có tầng cao - thấp giật cấp (dùng hộp bọc vải phủ làm bục nhỏ) giúp người xem nhìn rõ 100% sản phẩm cùng lúc.",
+        "s": "Mĩ Thuật 6",
+        "h": "Bố trí trưng bày giật cấp đa chiều"
+      },
+      {
+        "c": "MT6-B12-009",
+        "d": "application",
+        "p": "Khi bạn Nam lên thuyết trình bức tranh vẽ quê hương bằng màu sáp dầu, một bạn dưới lớp giơ tay hỏi: \"Mình rất thích màu hoàng hôn đỏ cam rực rỡ ở bầu trời của bạn, nhưng sao bạn lại vẽ con thuyền trên sông nhỏ hơn hẳn mái nhà đằng sau xa?\". Cách Nam phản hồi văn minh nhất là gì?",
+        "o": [
+          "Cáu gắt trả lời \"tranh của tớ thích vẽ to nhỏ sao kệ tớ, cậu biết gì mà hỏi\"",
+          "Xé ngay bức tranh trước lớp vì thấy xấu hổ khi bị phát hiện lỗi tỉ lệ",
+          "Im lặng quay lưng đi thẳng về chỗ ngồi không trả lời",
+          "Cảm ơn lời khen và góp ý tinh tế của bạn, nhìn nhận lại luật xa gần để rút kinh nghiệm vẽ thuyền tiền cảnh lớn hơn hoặc giải thích nếu đó là chủ ý bố cục riêng"
+        ],
+        "k": "D",
+        "e": "Lắng nghe góp ý với tinh thần cầu thị giúp người làm sáng tạo trưởng thành cực nhanh sau mỗi buổi triển lãm.",
+        "s": "Mĩ Thuật 6",
+        "h": "Thái độ cầu thị tiếp nhận góp ý"
+      },
+      {
+        "c": "MT6-B12-010",
+        "d": "application",
+        "p": "Một bảo tàng mĩ thuật địa phương mở cửa đón học sinh lớp 6 tới tham quan triển lãm tranh sơn mài và điêu khắc. Nội quy ứng xử văn minh hàng đầu khi tham quan phòng tranh triển lãm chuyên nghiệp là gì?",
+        "o": [
+          "Vừa ăn kem vừa đi sát bên cạnh các bức tranh lụa quý giá",
+          "Giữ khoảng cách an toàn, TUYỆT ĐỐI không sờ tay trực tiếp lên bề mặt tác phẩm hay bệ tượng, đi nhẹ nói khẽ và tuân thủ quy định chụp ảnh không bật đèn flash",
+          "Cười đùa chạy đuổi nhau giữa các bục trưng bày tượng điêu khắc",
+          "Sờ tay miết lên mặt tranh xem màu sơn đã khô hẳn hay chưa"
+        ],
+        "k": "B",
+        "e": "Mồ hôi tay và ánh sáng đèn flash mạnh có thể làm hỏng bề mặt tranh sơn mài, tranh lụa cổ hàng trăm năm tuổi.",
+        "s": "Mĩ Thuật 6",
+        "h": "Văn hóa tham quan bảo tàng triển lãm"
+      },
+      {
+        "c": "MT6-B12-011",
+        "d": "application",
+        "p": "Nhóm em muốn làm một \"triển lãm tranh số trực tuyến\" trên trang tin lớp để phụ huynh ở xa cũng ngắm được toàn bộ sản phẩm Mĩ thuật học kì vừa qua của các con. Cách chụp ảnh tác phẩm nào đảm bảo trung thực và đẹp mắt nhất?",
+        "o": [
+          "Chỉnh bộ lọc màu làm biến đổi sai hẳn màu sắc gốc của tác phẩm",
+          "Đặt tranh phẳng dưới ánh sáng ban ngày dịu đều, căn máy ảnh song song thẳng góc với mặt tranh và cắt gọn phần viền thừa",
+          "Chụp nghiêng xiên chéo một góc trong phòng tối thui rồi bật đèn flash chói lòa giữa tranh",
+          "Đặt bức tranh ngay lên nền gạch hoa sặc sỡ bừa bộn đồ đạc xung quanh"
+        ],
+        "k": "B",
+        "e": "Chụp ảnh tư liệu chuẩn ánh sáng và góc thẳng vuông góc giúp lưu trữ hồ sơ nghệ thuật (Digital Portfolio) cực kì chuyên nghiệp.",
+        "s": "Mĩ Thuật 6",
+        "h": "Kĩ thuật chụp ảnh lưu giữ tác phẩm chuẩn"
+      },
+      {
+        "c": "MT6-B12-012",
+        "d": "application",
+        "p": "Nếu một bạn trong lớp tự ti nói: \"Em không có hoa tay vẽ người đẹp như bạn lớp trưởng nên em ghét giờ Mĩ thuật lắm\". Em khuyên bạn ấy thế nào cho đúng tinh thần giáo dục nghệ thuật hiện đại?",
+        "o": [
+          "Bảo bạn chỉ cần ngồi chép lại y hệt tranh mẫu của người khác suốt 4 năm",
+          "Khuyên bạn nên bỏ hẳn môn Mĩ thuật và nhờ người khác vẽ hộ toàn bộ bài tập",
+          "Đồng ý rằng chỉ những người sinh ra có \"hoa tay\" bẩm sinh mới làm được nghệ thuật",
+          "Mĩ thuật không đòi hỏi phải vẽ giống ảnh chụp; bạn có thể phát huy thế mạnh cảm nhận màu sắc, xé dán, tái chế hay ý tưởng sáng tạo riêng"
+        ],
+        "k": "D",
+        "e": "Sự đa dạng chất liệu (tái chế, in, ghép, thiết kế ứng dụng) mở cánh cửa sáng tạo cho tất cả mọi người chứ không chỉ dành riêng cho tài năng vẽ chì.",
+        "s": "Mĩ Thuật 6",
+        "h": "Khích lệ niềm vui sáng tạo cho mọi học sinh"
+      },
+      {
+        "c": "MT6-B12-013",
+        "d": "advanced",
+        "p": "Trong thẩm mĩ học, người ta nói \"Cái đẹp nằm ở sự đồng sáng tạo giữa người nghệ sĩ và người thưởng thức\". Điều này có nghĩa là gì khi em đi xem một bức tranh trưng bày?",
+        "o": [
+          "Có nghĩa là người xem được phép cầm bút màu tự ý vẽ thêm lên bức tranh của nghệ sĩ",
+          "Tác phẩm không kết thúc ở nét cọ cuối mà sống dậy khi người xem dùng vốn sống, cảm xúc và suy ngẫm riêng để đối thoại cùng bức tranh",
+          "Có nghĩa là tác giả phải đứng bên cạnh giải thích từng milimét mới hiểu nổi",
+          "Có nghĩa là mọi bức tranh đều không có nội dung gì cho tới khi bán được tiền"
+        ],
+        "k": "B",
+        "e": "Mỗi khán giả khác nhau lại nhìn thấy một rung động mới mẻ riêng trong cùng một kiệt tác nghệ thuật.",
+        "s": "Mĩ Thuật 6",
+        "h": "Vai trò đồng sáng tạo của người thưởng thức"
+      },
+      {
+        "c": "MT6-B12-014",
+        "d": "advanced",
+        "p": "Phân tích mối liên hệ giữa khả năng \"tư duy thị giác\" được rèn qua môn Mĩ thuật (bố cục, phân cấp chính-phụ, tương phản, phối màu) với hiệu quả học tập các môn khác như Tin học, Khoa học tự nhiên hay thuyết trình?",
+        "o": [
+          "Giúp trình bày sơ đồ tư duy rõ ràng, thiết kế trang trình chiếu cân đối dễ đọc, phân tích biểu đồ nhanh và quan sát mẫu thí nghiệm sắc bén",
+          "Môn Mĩ thuật hoàn toàn tách rời không có bất kì liên hệ nào với Khoa học hay Tin học",
+          "Chỉ dùng để vẽ bìa vở cho đẹp chứ không giúp ích cho kĩ năng trình bày dữ liệu",
+          "Học tốt Mĩ thuật làm giảm khả năng tư duy logic toán học"
+        ],
+        "k": "A",
+        "e": "Ngày nay các ngành công nghệ đều cần tư duy thiết kế (Design Thinking) và trực quan hóa thông tin (Data Visualization) bắt nguồn từ nền tảng mĩ thuật.",
+        "s": "Mĩ Thuật 6",
+        "h": "Tư duy thị giác hỗ trợ học tập liên môn"
+      },
+      {
+        "c": "MT6-B12-015",
+        "d": "advanced",
+        "p": "Kết thúc chương trình Mĩ thuật lớp 6, phẩm chất thẩm mĩ cốt lõi nào xứng đáng theo em suốt cuộc sống hằng ngày ngoài giờ vẽ trên lớp?",
+        "o": [
+          "Chỉ quan tâm tới các bức tranh nổi tiếng bán đấu giá hàng triệu đô la",
+          "Giữ không gian sống gọn gàng hài hòa, chọn trang phục hợp hoàn cảnh, trân trọng di sản dân tộc và biết phát hiện vẻ đẹp giản dị quanh mình",
+          "Sẵn sàng xả rác miễn sao góc bàn vẽ của riêng mình sạch sẽ",
+          "Chê bai mọi đồ vật mộc mạc truyền thống vì thiếu hào nhoáng"
+        ],
+        "k": "B",
+        "e": "Mĩ thuật thực sự thấm vào nếp sống tạo nên một con người tinh tế, yêu thiên nhiên và biết kiến tạo cái đẹp quanh mình.",
+        "s": "Mĩ Thuật 6",
+        "h": "Thẩm mĩ hóa nếp sống hằng ngày"
+      }
+    ]
+  }
+]

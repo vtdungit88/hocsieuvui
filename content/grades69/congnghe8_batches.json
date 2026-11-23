@@ -1,0 +1,3376 @@
+[
+  {
+    "chapter": "congnghe8-c1",
+    "lesson": {
+      "code": "congnghe8-b01",
+      "title": "Bài 1. Tiêu chuẩn bản vẽ kĩ thuật và hình chiếu vuông góc",
+      "seq": 1,
+      "subtitle": "Vai trò và tiêu chuẩn trình bày bản vẽ kĩ thuật, phép chiếu vuông góc và các hình chiếu cơ bản",
+      "concepts": [
+        "Tiêu chuẩn khổ giấy, tỉ lệ, nét vẽ",
+        "Phép chiếu vuông góc",
+        "Ba hình chiếu cơ bản trên bản vẽ"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN8-B01-001",
+        "d": "basic",
+        "p": "Khổ giấy A4 tiêu chuẩn dùng phổ biến trong bản vẽ kĩ thuật có kích thước chiều rộng và chiều cao là bao nhiêu mm?",
+        "o": [
+          "420 mm x 594 mm",
+          "210 mm x 297 mm",
+          "100 mm x 150 mm",
+          "841 mm x 1189 mm"
+        ],
+        "k": "B",
+        "e": "Dãy khổ giấy chính bắt đầu từ A0 (841 x 1189 mm), cắt đôi liên tiếp thu được A1, A2, A3 và A4 (210 x 297 mm).",
+        "s": "Công Nghệ 8",
+        "h": "Kích thước khổ giấy A4"
+      },
+      {
+        "c": "CN8-B01-002",
+        "d": "basic",
+        "p": "Trong bản vẽ kĩ thuật, tỉ lệ 1 : 5 thuộc loại tỉ lệ nào và có ý nghĩa gì?",
+        "o": [
+          "Tỉ lệ sai số cho phép tối đa là 5 mét",
+          "Tỉ lệ phóng to: hình vẽ lớn gấp 5 lần vật thật",
+          "Tỉ lệ nguyên hình: hình vẽ bằng đúng kích thước vật thật",
+          "Tỉ lệ thu nhỏ: kích thước đo trên hình vẽ nhỏ hơn 5 lần so với kích thước thật của vật thể"
+        ],
+        "k": "D",
+        "e": "Tỉ lệ là tỉ số giữa kích thước đo trên hình biểu diễn và kích thước thực tương ứng của vật thể (thu nhỏ 1:n, nguyên hình 1:1, phóng to n:1).",
+        "s": "Công Nghệ 8",
+        "h": "Ý nghĩa các loại tỉ lệ bản vẽ"
+      },
+      {
+        "c": "CN8-B01-003",
+        "d": "basic",
+        "p": "Loại nét vẽ nào được dùng để vẽ đường bao thấy và cạnh thấy của vật thể trên bản vẽ kĩ thuật?",
+        "o": [
+          "Nét gạch chấm mảnh",
+          "Nét liền đậm",
+          "Nét lượn sóng mảnh",
+          "Nét đứt mảnh"
+        ],
+        "k": "B",
+        "e": "Quy định chuẩn TCVN: nét liền đậm biểu diễn cạnh thấy, nét đứt mảnh biểu diễn cạnh khuất, nét gạch chấm mảnh biểu diễn đường trục tâm.",
+        "s": "Công Nghệ 8",
+        "h": "Công dụng nét liền đậm"
+      },
+      {
+        "c": "CN8-B01-004",
+        "d": "basic",
+        "p": "Đường bao khuất và cạnh khuất phía sau vật thể được biểu diễn trên hình chiếu bằng loại nét nào?",
+        "o": [
+          "Nét đứt mảnh",
+          "Nét liền đậm",
+          "Nét liền mảnh",
+          "Nét gạch dài chấm mảnh kép"
+        ],
+        "k": "A",
+        "e": "Nét đứt mảnh gồm các gạch ngắn đều nhau giúp người đọc hình dung cấu trúc bên trong hoặc phía sau bị che khuất.",
+        "s": "Công Nghệ 8",
+        "h": "Biểu diễn cạnh khuất"
+      },
+      {
+        "c": "CN8-B01-005",
+        "d": "basic",
+        "p": "Trong phương pháp chiếu góc thứ nhất, ba hướng chiếu vuông góc tạo nên hình chiếu đứng, hình chiếu bằng và hình chiếu cạnh lần lượt nhìn từ đâu tới?",
+        "o": [
+          "Ba hình chiếu đều nhìn từ cùng một phía trước",
+          "Hình chiếu đứng nhìn từ trước tới; hình chiếu bằng nhìn từ trên xuống; hình chiếu cạnh nhìn từ trái sang",
+          "Hình chiếu đứng từ sau tới; bằng từ dưới lên; cạnh từ phải sang",
+          "Hình chiếu đứng nhìn từ trên xuống; bằng nhìn từ trái sang"
+        ],
+        "k": "B",
+        "e": "Trong chiếu góc thứ nhất, mặt phẳng chiếu đứng ở sau vật, mặt bằng ở dưới vật và mặt cạnh ở bên phải vật thể.",
+        "s": "Công Nghệ 8",
+        "h": "Ba hướng chiếu vuông góc"
+      },
+      {
+        "c": "CN8-B01-006",
+        "d": "basic",
+        "p": "Khi ghi kích thước trên bản vẽ chi tiết cơ khí theo tiêu chuẩn Việt Nam, giá trị con số kích thước chiều dài ghi không kèm đơn vị được hiểu là đơn vị nào?",
+        "o": [
+          "Ki-lô-mét (km)",
+          "Cen-ti-mét (cm)",
+          "Mi-li-mét (mm)",
+          "Mét (m)"
+        ],
+        "k": "C",
+        "e": "Bản vẽ cơ khí thống nhất đơn vị milimét và không ghi chữ mm sau con số kích thước để bản vẽ gọn sạch.",
+        "s": "Công Nghệ 8",
+        "h": "Đơn vị kích thước cơ khí"
+      },
+      {
+        "c": "CN8-B01-007",
+        "d": "application",
+        "p": "Quan sát bảng các loại nét vẽ kĩ thuật, đường tâm hình tròn và trục đối xứng của trục trụ trên bản vẽ phải dùng nét nào?",
+        "o": [
+          "Nét gạch dài chấm mảnh",
+          "Nét đứt dày",
+          "Nét lượn sóng đậm",
+          "Nét liền đậm"
+        ],
+        "k": "A",
+        "e": "Đường tâm và trục đối xứng dùng nét gạch chấm mảnh kéo vượt nhẹ ra ngoài đường bao khoảng 2 đến 5 mm.",
+        "s": "Công Nghệ 8",
+        "h": "Chọn nét vẽ đường tâm",
+        "fig": {
+          "type": "table",
+          "title": "Các nét vẽ kĩ thuật",
+          "head": [
+            "Tên loại nét",
+            "Ứng dụng tiêu chuẩn"
+          ],
+          "rows": [
+            [
+              "Nét liền đậm",
+              "Cạnh thấy, bao thấy"
+            ],
+            [
+              "Nét đứt mảnh",
+              "Cạnh, bao khuất"
+            ],
+            [
+              "Nét gạch chấm",
+              "Đường tâm, trục"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN8-B01-008",
+        "d": "application",
+        "p": "Một linh kiện đồng hồ đeo tay có đường kính thật chỉ 4 mm. Để vẽ chi tiết rõ nét lên khổ giấy A4 dễ đọc và ghi kích thước, người kĩ sư nên chọn tỉ lệ nào?",
+        "o": [
+          "Tỉ lệ thu nhỏ 1 : 100",
+          "Tỉ lệ phóng to như 10 : 1 hoặc 20 : 1",
+          "Tỉ lệ thu nhỏ 1 : 10",
+          "Tỉ lệ thu nhỏ 1 : 50"
+        ],
+        "k": "B",
+        "e": "Chi tiết rất nhỏ phải dùng tỉ lệ phóng to n : 1 nhưng con số kích thước ghi trên bản vẽ vẫn là kích thước thật 4 mm.",
+        "s": "Công Nghệ 8",
+        "h": "Chọn tỉ lệ cho chi tiết nhỏ"
+      },
+      {
+        "c": "CN8-B01-009",
+        "d": "application",
+        "p": "Theo quy ước bố trí vị trí ba hình chiếu trên bản vẽ kĩ thuật (phương pháp chiếu góc thứ nhất), hình chiếu bằng và hình chiếu cạnh phải đặt ở đâu so với hình chiếu đứng?",
+        "o": [
+          "Cả ba hình chiếu xếp chồng đè khít lên cùng một chỗ",
+          "Hình chiếu bằng đặt bên trái và hình chiếu cạnh đặt phía trên",
+          "Hình chiếu bằng đặt ở góc dưới bên phải chéo nhau",
+          "Hình chiếu bằng đặt ngay phía dưới hình chiếu đứng; hình chiếu cạnh đặt ngay bên phải hình chiếu đứng"
+        ],
+        "k": "D",
+        "e": "Sự gióng hàng thẳng đứng giữa chiếu đứng - chiếu bằng và nằm ngang giữa chiếu đứng - chiếu cạnh giúp đối chiếu kích thước chiều dài, rộng, cao chính xác.",
+        "s": "Công Nghệ 8",
+        "h": "Vị trí ba hình chiếu trên bản vẽ"
+      },
+      {
+        "c": "CN8-B01-010",
+        "d": "application",
+        "p": "Quan sát hình minh họa các đường gióng và đường kích thước, khi ghi kích thước đoạn thẳng nằm ngang, con số kích thước chuẩn thường được viết ở vị trí nào so với đường kích thước?",
+        "o": [
+          "Viết đè cắt ngang vào giữa nét mũi tên",
+          "Viết ở phía trên, khoảng giữa đường kích thước và song song với đường kích thước",
+          "Viết ngược đầu phía dưới đường kích thước",
+          "Viết tách rời ra tận góc khung tên bản vẽ"
+        ],
+        "k": "B",
+        "e": "Chữ số kích thước nằm trên đường kích thước ngang, bên trái đường kích thước thẳng đứng để dễ đọc từ dưới và từ phải bản vẽ.",
+        "s": "Công Nghệ 8",
+        "h": "Quy tắc viết số kích thước",
+        "fig": {
+          "w": 300,
+          "h": 180,
+          "items": [
+            {
+              "t": "txt",
+              "p": [
+                150,
+                165
+              ],
+              "s": "Quy tắc ghi kích thước",
+              "anchor": "middle",
+              "size": 13
+            }
+          ]
+        }
+      },
+      {
+        "c": "CN8-B01-011",
+        "d": "application",
+        "p": "Khung tên trên bản vẽ kĩ thuật theo quy định luôn được vẽ và đặt ở vị trí nào của tờ giấy vẽ?",
+        "o": [
+          "Góc trên bên trái sát mép giấy cắt",
+          "Góc dưới bên phải của bản vẽ, sát đường khung vẽ",
+          "Mặt sau của tờ giấy vẽ",
+          "Chính giữa tâm tờ giấy đè lên hình chiếu đứng"
+        ],
+        "k": "B",
+        "e": "Đặt khung tên ở góc dưới bên phải giúp kỹ sư dễ lật tìm tên chi tiết, vật liệu, tỉ lệ, người vẽ khi kẹp hồ sơ trong tập bản vẽ.",
+        "s": "Công Nghệ 8",
+        "h": "Vị trí khung tên bản vẽ"
+      },
+      {
+        "c": "CN8-B01-012",
+        "d": "application",
+        "p": "Một chi tiết máy dài 500 mm được vẽ trên bản vẽ với tỉ lệ 1 : 2. Chiều dài đoạn thẳng vẽ thực tế trên giấy bằng thước đo là bao nhiêu, và con số kích thước ghi trên bản vẽ là bao nhiêu?",
+        "o": [
+          "Đo trên giấy dài 250 mm, nhưng con số kích thước ghi trên bản vẽ vẫn là 500",
+          "Đo trên giấy dài 1000 mm, con số ghi là 1000",
+          "Đo trên giấy dài 500 mm, con số ghi trên bản vẽ là 250",
+          "Đo trên giấy dài 250 mm, con số ghi là 250"
+        ],
+        "k": "A",
+        "e": "Dù vẽ thu nhỏ hay phóng to, giá trị con số kích thước ghi trên bản vẽ luôn phản ánh kích thước thực của vật thể.",
+        "s": "Công Nghệ 8",
+        "h": "Phân biệt kích thước vẽ và số ghi"
+      },
+      {
+        "c": "CN8-B01-013",
+        "d": "advanced",
+        "p": "Giả sử một vật thể dạng hộp chữ nhật có kích thước dài D, rộng R, cao C đặt ngay ngắn theo hướng chiếu vuông góc. Hai cặp kích thước nào thể hiện trực tiếp trên hình chiếu đứng, hình chiếu bằng và hình chiếu cạnh?",
+        "o": [
+          "Chiếu đứng thể hiện (Dài, Rộng); chiếu bằng thể hiện (Rộng, Cao)",
+          "Chiếu đứng thể hiện (Dài, Cao); chiếu bằng thể hiện (Dài, Rộng); chiếu cạnh thể hiện (Rộng, Cao)",
+          "Chiếu đứng (Rộng, Cao); chiếu bằng (Dài, Cao); chiếu cạnh (Dài, Rộng)",
+          "Cả ba hình chiếu chỉ thể hiện mỗi chiều Dài và chiều Cao"
+        ],
+        "k": "B",
+        "e": "Nhờ tính chất gióng thẳng hàng, chiều dài khớp giữa chiếu đứng và chiếu bằng; chiều cao khớp giữa đứng và cạnh; chiều rộng khớp giữa bằng và cạnh.",
+        "s": "Công Nghệ 8",
+        "h": "Mối liên hệ kích thước 3 hình chiếu"
+      },
+      {
+        "c": "CN8-B01-014",
+        "d": "advanced",
+        "p": "Khi vẽ lại một chi tiết có hai cạnh trùng nhau theo hướng chiếu: một cạnh nhìn thấy rõ ở mặt trước và một cạnh bị che khuất ở mặt sau trùng đúng vào vị trí đường chiếu đó. Theo quy ước ưu tiên nét vẽ, trên hình chiếu phải vẽ loại nét nào?",
+        "o": [
+          "Vẽ bằng nét liền đậm (cạnh thấy ưu tiên đè lên cạnh khuất)",
+          "Vẽ bằng nét đứt mảnh và xóa bỏ hoàn toàn nét liền đậm",
+          "Bỏ trống không vẽ nét nào cả",
+          "Vẽ song song hai nét cách nhau 5 mm"
+        ],
+        "k": "A",
+        "e": "Thứ tự ưu tiên hiển thị nét trùng nhau là nét liền đậm (cạnh thấy) > nét đứt mảnh (cạnh khuất) > nét gạch chấm mảnh (đường tâm).",
+        "s": "Công Nghệ 8",
+        "h": "Thứ tự ưu tiên khi nét vẽ trùng nhau"
+      },
+      {
+        "c": "CN8-B01-015",
+        "d": "advanced",
+        "p": "Một tờ giấy A0 tiêu chuẩn có diện tích khoảng 1 mét vuông. Nếu cắt chia đều liên tiếp theo cạnh dài không bỏ phần dư thì một tờ A0 chia được bao nhiêu tờ khổ giấy A4?",
+        "o": [
+          "32 tờ khổ giấy A4",
+          "4 tờ khổ giấy A4",
+          "16 tờ khổ giấy A4",
+          "8 tờ khổ giấy A4"
+        ],
+        "k": "C",
+        "e": "A0 = 2 × A1 = 4 × A2 = 8 × A3 = 16 × A4.",
+        "s": "Công Nghệ 8",
+        "h": "Quan hệ chia đôi dãy khổ giấy A"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe8-c1",
+    "lesson": {
+      "code": "congnghe8-b02",
+      "title": "Bài 2. Bản vẽ khối đa diện, khối tròn xoay và ren",
+      "seq": 2,
+      "subtitle": "Hình chiếu của khối đa diện, khối tròn xoay, hình cắt cơ bản và quy ước biểu diễn ren trên bản vẽ",
+      "concepts": [
+        "Hình chiếu khối đa diện và tròn xoay",
+        "Khái niệm hình cắt mặt cắt",
+        "Quy ước vẽ và kí hiệu ren"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN8-B02-001",
+        "d": "basic",
+        "p": "Khối đa diện được bao bởi các mặt phẳng có hình dạng nào sau đây?",
+        "o": [
+          "Chỉ có mặt trụ uốn lượn xoắn ốc",
+          "Các mặt cong tròn khép kín như hình cầu",
+          "Đường cong parabol không có cạnh thẳng",
+          "Các hình đa giác phẳng (như hình hộp chữ nhật, hình lăng trụ đều, hình chóp đều)"
+        ],
+        "k": "D",
+        "e": "Hình hộp chữ nhật, lăng trụ đều và chóp đều là các khối đa diện thường gặp trong gia công cơ khí và xây dựng.",
+        "s": "Công Nghệ 8",
+        "h": "Khái niệm khối đa diện"
+      },
+      {
+        "c": "CN8-B02-002",
+        "d": "basic",
+        "p": "Khi quay một hình chữ nhật một vòng quanh một cạnh cố định làm trục quay, ta thu được khối tròn xoay nào?",
+        "o": [
+          "Hình nón cụt",
+          "Hình chóp tứ giác đều",
+          "Hình trụ tròn",
+          "Hình lăng trụ tam giác"
+        ],
+        "k": "C",
+        "e": "Quay hình chữ nhật quanh trục một cạnh tạo hình trụ; quay tam giác vuông tạo hình nón; quay nửa hình tròn tạo hình cầu.",
+        "s": "Công Nghệ 8",
+        "h": "Tạo thành hình trụ tròn xoay"
+      },
+      {
+        "c": "CN8-B02-003",
+        "d": "basic",
+        "p": "Nếu một khối hình cầu đặt trên mặt phẳng chiếu, hình dạng ba hình chiếu vuông góc (đứng, bằng, cạnh) của khối cầu đó đều là hình gì?",
+        "o": [
+          "Ba hình tam giác cân giống hệt nhau",
+          "Ba hình thang cân bằng nhau",
+          "Ba hình tròn bằng nhau có cùng đường kính",
+          "Một hình vuông, một hình chữ nhật và một hình elip"
+        ],
+        "k": "C",
+        "e": "Hình cầu đối xứng hoàn toàn theo mọi phương nên hình chiếu theo ba hướng vuông góc đều là hình tròn.",
+        "s": "Công Nghệ 8",
+        "h": "Hình chiếu của hình cầu"
+      },
+      {
+        "c": "CN8-B02-004",
+        "d": "basic",
+        "p": "Hình cắt trên bản vẽ kĩ thuật được tạo ra bằng cách giả sử dùng mặt phẳng cắt đi qua vật thể nhằm mục đích chính gì?",
+        "o": [
+          "Phóng to kích thước bên ngoài gấp mười lần",
+          "Xóa bỏ hoàn toàn các đường kích thước",
+          "Biểu diễn rõ ràng cấu tạo bên trong (lỗ, rãnh, khoang rỗng) của vật thể mà không bị rối nét đứt",
+          "Thay thế cho việc chế tạo sản phẩm thật"
+        ],
+        "k": "C",
+        "e": "Phần vật liệu tiếp xúc với mặt phẳng cắt được gạch mặt cắt nghiêng 45 độ giúp người đọc dễ nhận biết phần đặc và phần rỗng.",
+        "s": "Công Nghệ 8",
+        "h": "Mục đích của hình cắt"
+      },
+      {
+        "c": "CN8-B02-005",
+        "d": "basic",
+        "p": "Chi tiết nào trên máy móc sau đây có cấu tạo ren ngoài tiêu chuẩn?",
+        "o": [
+          "Dây curoa cao su nhẵn trơn",
+          "Bu lông, vít cấy và đinh vít",
+          "Mặt kính đồng hồ phẳng",
+          "Lỗ đai ốc vặn vào bu lông"
+        ],
+        "k": "B",
+        "e": "Ren ngoài hình thành ở mặt ngoài trục (bu lông, trục vít), còn ren trong hình thành ở mặt trong lỗ (đai ốc, lỗ ren).",
+        "s": "Công Nghệ 8",
+        "h": "Ví dụ về ren ngoài"
+      },
+      {
+        "c": "CN8-B02-006",
+        "d": "basic",
+        "p": "Theo quy ước vẽ ren tiêu chuẩn (ren thấy), đường đỉnh ren và đường giới hạn ren được vẽ bằng loại nét nào?",
+        "o": [
+          "Nét đứt mảnh",
+          "Nét gạch chấm mảnh",
+          "Nét lượn sóng mảnh",
+          "Nét liền đậm"
+        ],
+        "k": "D",
+        "e": "Đối với ren trục (ren ngoài) thấy: đỉnh ren và giới hạn ren vẽ nét liền đậm; chân ren vẽ nét liền mảnh (vòng 3/4 ở chiếu cạnh).",
+        "s": "Công Nghệ 8",
+        "h": "Quy ước vẽ đường đỉnh ren"
+      },
+      {
+        "c": "CN8-B02-007",
+        "d": "application",
+        "p": "Quan sát bảng khối hình học, hình chóp đều đáy hình vuông có hình chiếu đứng và hình chiếu cạnh là hai tam giác cân giống nhau; vậy hình chiếu bằng của nó là hình gì?",
+        "o": [
+          "Một hình tam giác đều không có cạnh bên",
+          "Một hình tròn không có tâm",
+          "Một hình chữ nhật khuyết một góc",
+          "Một hình vuông có hai đường chéo cắt nhau ở tâm (biểu diễn bốn cạnh bên)"
+        ],
+        "k": "D",
+        "e": "Nhìn từ đỉnh chóp tứ giác đều thẳng xuống thấy đáy hình vuông cùng hình chiếu của bốn cạnh bên hội tụ tại tâm.",
+        "s": "Công Nghệ 8",
+        "h": "Hình chiếu khối chóp đều",
+        "fig": {
+          "type": "table",
+          "title": "Hình chiếu các khối",
+          "head": [
+            "Khối hình học",
+            "Chiếu đứng / bằng"
+          ],
+          "rows": [
+            [
+              "Hình trụ đứng",
+              "Chữ nhật / Hình tròn"
+            ],
+            [
+              "Hình nón đứng",
+              "Tam giác cân / Tròn"
+            ],
+            [
+              "Chóp tứ giác đều",
+              "Tam giác cân / Vuông"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN8-B02-008",
+        "d": "application",
+        "p": "Để phân biệt hình trụ đứng và hình lăng trụ đứng đáy vuông khi cả hình chiếu đứng lẫn hình chiếu cạnh của chúng đều trông giống hình chữ nhật, ta cần dựa vào hình chiếu thứ ba nào?",
+        "o": [
+          "Dựa vào màu mực bút vẽ trên giấy",
+          "Chỉ nhìn một hình chiếu đứng là chắc chắn phân biệt được ngay",
+          "Cả ba hình chiếu của hai khối đó giống hệt nhau không thể phân biệt",
+          "Hình chiếu bằng: hình trụ có chiếu bằng là hình tròn, còn lăng trụ đáy vuông có chiếu bằng là hình vuông"
+        ],
+        "k": "D",
+        "e": "Đó là lí do cần phối hợp từ hai đến ba hình chiếu vuông góc để xác định duy nhất hình dáng không gian vật thể.",
+        "s": "Công Nghệ 8",
+        "h": "Đọc phối hợp các hình chiếu"
+      },
+      {
+        "c": "CN8-B02-009",
+        "d": "application",
+        "p": "Quan sát kí hiệu hình chữ nhật (A) và đường chéo (B) trên bản vẽ ren, vòng chân ren trên hình chiếu nhìn dọc theo trục của ren ngoài hay ren trong theo quy ước chỉ được vẽ thế nào?",
+        "o": [
+          "Vẽ hở bằng nét liền mảnh khoảng 3/4 vòng tròn",
+          "Vẽ kín toàn bộ vòng tròn bằng nét liền đậm",
+          "Không vẽ bất kì cung tròn nào cho chân ren",
+          "Vẽ bằng hai đường lượn sóng cắt chéo nhau"
+        ],
+        "k": "A",
+        "e": "Ren ngoài: vòng tròn ngoài (đỉnh ren) vẽ liền đậm kín, vòng trong (chân ren) vẽ liền mảnh hở 3/4. Ren trong đảo ngược lại.",
+        "s": "Công Nghệ 8",
+        "h": "Vẽ ren nhìn dọc theo trục",
+        "fig": {
+          "w": 300,
+          "h": 190,
+          "items": [
+            {
+              "t": "circle",
+              "c": [
+                150,
+                90
+              ],
+              "r": 55,
+              "fill": [
+                "Khớp đúng đường kính d",
+                "Nét liền mảnh cho chân ren"
+              ],
+              "stroke": "#1d4ed8",
+              "w": 2.5
+            },
+            {
+              "t": "txt",
+              "p": [
+                150,
+                178
+              ],
+              "s": "Biểu diễn vòng đỉnh ren kín và chân ren 3/4",
+              "anchor": "middle",
+              "size": 13
+            }
+          ]
+        }
+      },
+      {
+        "c": "CN8-B02-010",
+        "d": "application",
+        "p": "Đọc kí hiệu ren quy ước trên bản vẽ kĩ thuật ghi: \"M12 x 1,25\". Kí hiệu này cung cấp thông tin chính xác nào cho người thợ tiện?",
+        "o": [
+          "Ren hình thang có chiều dài chi tiết đúng 12 mét",
+          "Ren hệ mét dạng tam giác, đường kính ngoài d = 12 mm và bước ren nhỏ mịn p = 1,25 mm",
+          "Bu lông làm bằng đồng thau nặng 1,25 kg",
+          "Phải dùng 12 chiếc cờ lê cỡ 1,25 cm để vặn"
+        ],
+        "k": "B",
+        "e": "Chữ M chỉ ren hệ mét, số đầu là đường kính danh nghĩa tính bằng mm, số sau dấu nhân là bước ren mịn (nếu ren bước lớn thì lược bỏ bước ren).",
+        "s": "Công Nghệ 8",
+        "h": "Ý nghĩa kí hiệu ren M12 x 1,25"
+      },
+      {
+        "c": "CN8-B02-011",
+        "d": "application",
+        "p": "Tại sao trên các đoạn ren vẽ quy ước không vẽ hàng loạt răng nhọn chi tiết mà chỉ biểu diễn bằng các nét thẳng song song giữa đỉnh ren và chân ren?",
+        "o": [
+          "Vì công nghệ vẽ máy tính không vẽ được đường gấp khúc",
+          "Vì ren thật trên bu lông thực tế là mặt trụ trơn nhẵn không có rãnh",
+          "Vì người thợ gia công sẽ tự đoán hình dạng rãnh ren không cần quy ước",
+          "Giúp bản vẽ ngắn gọn, dễ vẽ nhanh, thống nhất toàn cầu và không làm rối các kích thước xung quanh"
+        ],
+        "k": "D",
+        "e": "Quy ước biểu diễn ren đơn giản hóa nét vẽ hàng trăm lần trong khi vẫn truyền đạt đủ thông số qua kí hiệu ren.",
+        "s": "Công Nghệ 8",
+        "h": "Ý nghĩa quy ước đơn giản hóa ren"
+      },
+      {
+        "c": "CN8-B02-012",
+        "d": "application",
+        "p": "Trong một chiếc ống lót bằng thép có lỗ rỗng bậc ở giữa (trên dưới đối xứng), việc dùng hình cắt bán phần (nửa ngoài là hình chiếu, nửa trong là hình cắt) có ưu điểm gì?",
+        "o": [
+          "Vừa thể hiện được hình dáng vỏ ngoài chi tiết vừa cho thấy cấu tạo lỗ rỗng bên trong trên cùng một hình biểu diễn",
+          "Làm mất toàn bộ trục đối xứng của chi tiết",
+          "Bắt buộc phải vẽ gấp đôi số lượng bản vẽ",
+          "Chỉ dùng được cho vật thể hoàn toàn không đối xứng"
+        ],
+        "k": "A",
+        "e": "Hình cắt một nửa (bán phần) thường áp dụng rất hiệu quả cho các chi tiết cơ khí có mặt phẳng đối xứng.",
+        "s": "Công Nghệ 8",
+        "h": "Ứng dụng hình cắt một nửa"
+      },
+      {
+        "c": "CN8-B02-013",
+        "d": "advanced",
+        "p": "Một bu lông kí hiệu M10 có thể lắp vặn khít vào một đai ốc có lỗ ren kí hiệu nào sau đây nếu cùng chiều xoắn ren phải?",
+        "o": [
+          "Đai ốc có kí hiệu M12",
+          "Đai ốc có kí hiệu Tr10 (ren hình thang)",
+          "Đai ốc có kí hiệu M8 x 1",
+          "Đai ốc có kí hiệu M10"
+        ],
+        "k": "D",
+        "e": "Mối ghép ren ăn khớp đòi hỏi trùng khớp cả dạng ren (M), đường kính danh nghĩa (10 mm), bước ren và hướng xoắn.",
+        "s": "Công Nghệ 8",
+        "h": "Điều kiện lắp ghép bu lông - đai ốc"
+      },
+      {
+        "c": "CN8-B02-014",
+        "d": "advanced",
+        "p": "Khi vẽ bản vẽ khối hình nón cụt đặt đứng (đáy lớn ở dưới, đáy nhỏ ở trên), nhìn thẳng từ trên xuống để vẽ hình chiếu bằng ta sẽ thấy hai đường tròn đồng tâm. Cả hai đường tròn đó được vẽ bằng nét gì?",
+        "o": [
+          "Vòng đáy lớn vẽ nét đứt mảnh vì bị thân nón che mất",
+          "Cả hai đường tròn đồng tâm đều vẽ bằng nét liền đậm vì mặt nón nghiêng đều nhìn thấy cả vòng đáy nhỏ và vòng đáy lớn từ trên xuống",
+          "Vòng đáy nhỏ vẽ nét lượn sóng vì nằm trên đỉnh",
+          "Chỉ vẽ một đường tròn duy nhất ở giữa trung bình cộng"
+        ],
+        "k": "B",
+        "e": "Ở hình nón cụt đáy lớn dưới - đáy nhỏ trên, từ trên nhìn xuống không cạnh nào che khuất mép đáy lớn nên cả hai vòng đều thấy rõ.",
+        "s": "Công Nghệ 8",
+        "h": "Hình chiếu bằng của nón cụt"
+      },
+      {
+        "c": "CN8-B02-015",
+        "d": "advanced",
+        "p": "Trên bản vẽ lắp một van khóa nước có hai chi tiết liền kề tiếp xúc nhau được cắt qua cùng một mặt phẳng cắt. Quy ước gạch đường mặt cắt (đường nghiêng 45 độ) cho hai chi tiết đó phải vẽ thế nào để người đọc phân biệt rõ chúng là hai chi tiết riêng biệt?",
+        "o": [
+          "Gạch cùng một hướng và cùng khoảng cách thẳng tắp nối liền qua ranh giới hai chi tiết",
+          "Chỉ gạch cho một chi tiết còn chi tiết kia bỏ trắng hoàn toàn",
+          "Tô đen đặc kín toàn bộ cả hai chi tiết",
+          "Gạch đường mặt cắt cho hai chi tiết nghiêng theo hai chiều ngược nhau hoặc khác khoảng cách thưa dày rõ rệt"
+        ],
+        "k": "D",
+        "e": "Quy ước gạch mặt cắt ngược chiều (45 độ sang phải và 45 độ sang trái) giúp phân tách rành mạch từng chi tiết trên bản vẽ lắp.",
+        "s": "Công Nghệ 8",
+        "h": "Quy ước gạch mặt cắt bản vẽ lắp"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe8-c1",
+    "lesson": {
+      "code": "congnghe8-b03",
+      "title": "Bài 3. Bản vẽ chi tiết, bản vẽ lắp và bản vẽ nhà",
+      "seq": 3,
+      "subtitle": "Nội dung, trình tự đọc hiểu bản vẽ chi tiết cơ khí, bản vẽ lắp cụm máy và bản vẽ thiết kế nhà ở",
+      "concepts": [
+        "Đọc bản vẽ chi tiết",
+        "Đọc bản vẽ lắp",
+        "Đọc bản vẽ mặt bằng nhà ở"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN8-B03-001",
+        "d": "basic",
+        "p": "Bản vẽ chi tiết cung cấp những thông tin cốt lõi nào cho người công nhân cơ khí?",
+        "o": [
+          "Danh sách toàn bộ giá bán các thiết bị điện ngoài chợ",
+          "Sơ đồ lắp ráp hàng trăm chi tiết của cả chiếc ô tô",
+          "Cách xếp đặt bàn ghế trong phòng khách ngôi nhà",
+          "Hình dáng, kích thước và các yêu cầu kĩ thuật (độ nhám bề mặt, vật liệu, nhiệt luyện) để chế tạo và kiểm tra một chi tiết duy nhất"
+        ],
+        "k": "D",
+        "e": "Mỗi bản vẽ chi tiết phục vụ trực tiếp quá trình gia công và nghiệm thu đúng một chi tiết đơn lẻ.",
+        "s": "Công Nghệ 8",
+        "h": "Công dụng bản vẽ chi tiết"
+      },
+      {
+        "c": "CN8-B03-002",
+        "d": "basic",
+        "p": "Bản vẽ lắp dùng để làm gì trong sản xuất và sửa chữa cơ khí?",
+        "o": [
+          "Thay thế hoàn toàn bản vẽ mặt bằng kiến trúc nhà cao tầng",
+          "Diễn tả hình dạng, kết cấu của một sản phẩm (cụm máy) và vị trí tương quan, cách lắp ghép giữa các chi tiết thành phần",
+          "Chỉ dùng để tính tiền điện sinh hoạt hằng tháng",
+          "Chỉ để ghi tên vật liệu thô chưa gia công"
+        ],
+        "k": "B",
+        "e": "Bản vẽ lắp luôn kèm bảng kê đánh số thứ tự từng chi tiết giúp lắp ráp, vận hành và tháo bảo dưỡng máy móc chuẩn xác.",
+        "s": "Công Nghệ 8",
+        "h": "Công dụng bản vẽ lắp"
+      },
+      {
+        "c": "CN8-B03-003",
+        "d": "basic",
+        "p": "Trên bản vẽ lắp, bộ phận bảng kê dùng để liệt kê những nội dung cơ bản nào?",
+        "o": [
+          "Kích thước tổng thể của cả khu công nghiệp",
+          "Lịch nghỉ lễ trong năm của nhà máy",
+          "Số thứ tự chi tiết trên hình biểu diễn, tên gọi chi tiết, số lượng và vật liệu chế tạo từng chi tiết",
+          "Nhiệt độ thời tiết ngoài trời lúc vẽ"
+        ],
+        "k": "C",
+        "e": "Đọc bảng kê kết hợp đối chiếu số vị trí trên hình lắp giúp nhanh chóng nhận ra từng bộ phận cấu thành sản phẩm.",
+        "s": "Công Nghệ 8",
+        "h": "Nội dung bảng kê bản vẽ lắp"
+      },
+      {
+        "c": "CN8-B03-004",
+        "d": "basic",
+        "p": "Ba hình biểu diễn cơ bản thường có trong một bộ bản vẽ nhà ở đơn giản là gì?",
+        "o": [
+          "Sơ đồ mạch điện tử tích hợp vi xử lí",
+          "Bản đồ địa chất vùng biển sâu",
+          "Mặt bằng, mặt đứng và mặt cắt ngôi nhà",
+          "Hình chiếu trục đo chi tiết ốc vít, bu lông và vòng đệm"
+        ],
+        "k": "C",
+        "e": "Mặt bằng cho thấy bố trí phòng và kích thước dài rộng; mặt đứng thể hiện hình dáng kiến trúc ngoài; mặt cắt cho biết chiều cao tầng, mái.",
+        "s": "Công Nghệ 8",
+        "h": "Các hình biểu diễn bản vẽ nhà"
+      },
+      {
+        "c": "CN8-B03-005",
+        "d": "basic",
+        "p": "Trong bản vẽ nhà, hình biểu diễn quan trọng nhất cho biết vị trí, kích thước các phòng, tường ngăn, cửa đi và cửa sổ gọi là gì?",
+        "o": [
+          "Mặt đứng phía sau không có cửa",
+          "Bảng kê vật liệu bu lông thép",
+          "Bản vẽ chi tiết tay nắm cửa",
+          "Hình cắt mặt bằng (mặt bằng ngôi nhà)"
+        ],
+        "k": "D",
+        "e": "Mặt bằng thực chất là hình cắt bằng giả định cắt ngang ngôi nhà qua bậu cửa sổ khoảng cách sàn chừng 1,5 mét nhìn thẳng xuống.",
+        "s": "Công Nghệ 8",
+        "h": "Khái niệm mặt bằng ngôi nhà"
+      },
+      {
+        "c": "CN8-B03-006",
+        "d": "basic",
+        "p": "Trình tự đọc bản vẽ chi tiết hợp lí gồm các bước chính nào theo thứ tự?",
+        "o": [
+          "Đọc từ mặt sau tờ giấy lên mặt trước",
+          "Đọc khung tên -> Đọc hình biểu diễn -> Đọc kích thước -> Đọc các yêu cầu kĩ thuật -> Tổng hợp hình dung chi tiết",
+          "Chỉ nhìn con số kích thước rồi bỏ qua khung tên và hình vẽ",
+          "Xem yêu cầu kĩ thuật -> Đọc khung tên -> Xóa hình biểu diễn"
+        ],
+        "k": "B",
+        "e": "Đọc đúng trình tự từ tổng quát (khung tên, tỉ lệ, vật liệu) đến hình dáng và thông số kĩ thuật giúp không bỏ sót chi tiết.",
+        "s": "Công Nghệ 8",
+        "h": "Trình tự đọc bản vẽ chi tiết"
+      },
+      {
+        "c": "CN8-B03-007",
+        "d": "application",
+        "p": "Quan sát bảng kí hiệu quy ước trong bản vẽ nhà, khi nhìn vào mặt bằng thấy kí hiệu hình một cánh cửa kèm cung tròn phần tư chấm mảnh, người đọc hiểu điều gì?",
+        "o": [
+          "Đó là kí hiệu cửa đi một cánh và cung tròn chỉ chiều mở xoay vào trong hay ra ngoài của cánh cửa",
+          "Đó là vị trí đặt bồn tắm hình tròn giữa phòng khách",
+          "Đó là bức tường bê tông đặc kín không thể đi qua",
+          "Đó là cầu thang xoắn ốc đi lên mái nhà"
+        ],
+        "k": "A",
+        "e": "Kí hiệu chiều mở cửa giúp bố trí nội thất hợp lí tránh vướng cánh cửa khi đóng mở.",
+        "s": "Công Nghệ 8",
+        "h": "Đọc kí hiệu cửa trên mặt bằng",
+        "fig": {
+          "type": "table",
+          "title": "Kí hiệu bản vẽ nhà",
+          "head": [
+            "Đối tượng kiến trúc",
+            "Thể hiện mặt bằng"
+          ],
+          "rows": [
+            [
+              "Cửa đi một cánh",
+              "Nét cánh + cung 1/4"
+            ],
+            [
+              "Cửa sổ đơn/đôi",
+              "Song song trên tường"
+            ],
+            [
+              "Cầu thang bộ",
+              "Bậc song song + lên"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN8-B03-008",
+        "d": "application",
+        "p": "Một chi tiết ống lót thép cần gia công lỗ trong đường kính 20 mm. Khi đọc mục \"Yêu cầu kĩ thuật\" trên bản vẽ chi tiết ghi \"Làm tù cạnh 0,5 x 45 độ; mạ kẽm\", ý nghĩa thực tế là gì?",
+        "o": [
+          "Kéo dài chiều dài ống lót thêm 45 mét",
+          "Sơn màu xanh lá cây lên bề mặt kẽm rồi nung chảy",
+          "Cắt bỏ một nửa ống lót theo góc 45 độ rồi ném đi",
+          "Vát mép nhẹ 0,5 mm nghiêng 45 độ để không sắc nhọn đứt tay khi lắp ráp và phủ lớp kẽm chống gỉ cho bề mặt chi tiết"
+        ],
+        "k": "D",
+        "e": "Các yêu cầu kĩ thuật ở góc bản vẽ quy định xử lí bề mặt, nhiệt luyện, dung sai giúp sản phẩm bền và an toàn.",
+        "s": "Công Nghệ 8",
+        "h": "Đọc yêu cầu kĩ thuật chi tiết"
+      },
+      {
+        "c": "CN8-B03-009",
+        "d": "application",
+        "p": "Trên bản vẽ lắp một bộ ròng rọc gồm khung chữ U, trục quay, bánh ròng rọc và chốt hãm. Kích thước lắp nào cho biết khoảng hở cần thiết để lắp vừa trục vào lỗ bánh ròng rọc?",
+        "o": [
+          "Khối lượng tổng cộng của cuộn dây thừng ngoài sân",
+          "Kích thước chiều rộng tờ giấy A3",
+          "Kích thước chiều cao tổng thể của cả nhà xưởng đặt máy",
+          "Kích thước lắp ghép tại vị trí đường kính trục và đường kính lỗ bánh ròng rọc"
+        ],
+        "k": "D",
+        "e": "Bản vẽ lắp không ghi hết mọi kích thước gia công từng phần mà tập trung vào kích thước chung, kích thước lắp và kích thước khoảng cách vận hành.",
+        "s": "Công Nghệ 8",
+        "h": "Nhận biết kích thước lắp ghép"
+      },
+      {
+        "c": "CN8-B03-010",
+        "d": "application",
+        "p": "Một bản vẽ mặt bằng căn hộ ghi kích thước phòng ngủ là 4000 x 3500 (đơn vị quy ước trên bản vẽ kiến trúc tính bằng mm). Diện tích thực tế của phòng ngủ đó bằng bao nhiêu mét vuông?",
+        "o": [
+          "14 mét vuông (4,0 m x 3,5 m)",
+          "7,5 mét vuông",
+          "140 mét vuông",
+          "1,4 mét vuông"
+        ],
+        "k": "A",
+        "e": "Bản vẽ nhà dùng đơn vị mm: 4000 mm = 4 m; 3500 mm = 3,5 m; diện tích sàn bằng 4 × 3,5 = 14 m².",
+        "s": "Công Nghệ 8",
+        "h": "Tính diện tích từ mặt bằng nhà"
+      },
+      {
+        "c": "CN8-B03-011",
+        "d": "application",
+        "p": "Khi đọc mặt bằng cầu thang bộ trên bản vẽ nhà tầng một có một mũi tên đi kèm chữ \"LÊN\" hoặc chấm tròn ở chân mũi tên và gạch xiên ngắt nét ở giữa dãy bậc. Kí hiệu này cho biết thông tin gì?",
+        "o": [
+          "Hướng đi từ tầng một bước lên tầng hai và phần bậc phía trên mặt phẳng cắt giả định được cắt bớt để thấy rõ không gian dưới gầm thang",
+          "Đây là đường ống thoát nước thải trên mái",
+          "Chỉ cho phép đi xuống tầng hầm sâu không được đi lên",
+          "Cầu thang bị gãy hỏng không thể sử dụng được"
+        ],
+        "k": "A",
+        "e": "Mũi tên chỉ hướng đi lên tầng cao hơn còn đường cắt chéo giúp bản vẽ thể hiện phần bên dưới cầu thang.",
+        "s": "Công Nghệ 8",
+        "h": "Đọc kí hiệu cầu thang mặt bằng"
+      },
+      {
+        "c": "CN8-B03-012",
+        "d": "application",
+        "p": "Khi quan sát hình chiếu mặt đứng của một ngôi nhà một tầng mái thái trên bản vẽ kiến trúc, người xem nắm bắt được thông tin chính xác nào nhất?",
+        "o": [
+          "Đường kính cốt thép chôn sâu dưới móng băng",
+          "Vị trí ổ cắm điện trong nhà vệ sinh",
+          "Số lượng giường ngủ và tủ quần áo đặt bên trong phòng kín",
+          "Hình dáng kiến trúc mặt ngoài, kiểu mái, tỉ lệ cửa đi cửa sổ mặt tiền và đường nét trang trí ngoại thất"
+        ],
+        "k": "D",
+        "e": "Mặt đứng là hình chiếu vuông góc từ bên ngoài (chính diện hoặc hông) thể hiện diện mạo thẩm mĩ công trình.",
+        "s": "Công Nghệ 8",
+        "h": "Nội dung chính của mặt đứng nhà"
+      },
+      {
+        "c": "CN8-B03-013",
+        "d": "advanced",
+        "p": "Giả sử một kĩ sư phải tháo rời một hộp giảm tốc cũ để thay vòng bi hỏng. Loại bản vẽ nào giúp kĩ sư xác định đúng thứ tự tháo chi tiết chắn đầu, nắp ổ trước rồi mới rút trục và thay đúng mã vòng bi?",
+        "o": [
+          "Bản vẽ mặt bằng kiến trúc của trụ sở công ty",
+          "Bản vẽ sơ đồ mạch đèn chiếu sáng đường phố",
+          "Bản vẽ chi tiết của riêng một chiếc bu lông vỏ hộp",
+          "Bản vẽ lắp của hộp giảm tốc kèm bảng kê đầy đủ số hiệu và quy cách từng chi tiết"
+        ],
+        "k": "D",
+        "e": "Bản vẽ lắp thể hiện rõ trình tự lắp ghép, mối quan hệ vị trí và kí hiệu các chi tiết tiêu chuẩn (vòng bi, phớt chắn dầu, chốt).",
+        "s": "Công Nghệ 8",
+        "h": "Ứng dụng bản vẽ lắp khi sửa chữa"
+      },
+      {
+        "c": "CN8-B03-014",
+        "d": "advanced",
+        "p": "Trong một phòng khách trên mặt bằng nhà ở thiết kế theo kích thước phủ bì tường bao dày 220 mm, nếu không trừ bề dày tường mà lấy thẳng kích thước phủ bì để đặt đóng một chiếc tủ âm tường sát lọt lòng giữa hai vách thì điều gì xảy ra?",
+        "o": [
+          "Chiếc tủ nhỏ hơn khoảng trống một nửa nên rất lỏng lẻo",
+          "Chiếc tủ sẽ tự động co nhỏ lại cho vừa vặn bức tường",
+          "Chiếc tủ sẽ bị quá khổ dài hơn khoảng trống thực tế bên trong phòng và không thể lắp lọt vào vị trí",
+          "Bức tường bê tông sẽ nở rộng thêm đúng 220 mm"
+        ],
+        "k": "C",
+        "e": "Khi đo đạc nội thất thực tế phải phân biệt kích thước tim tường, kích thước phủ bì và kích thước thông thủy (lọt lòng trong phòng).",
+        "s": "Công Nghệ 8",
+        "h": "Phân biệt kích thước thông thủy và phủ bì"
+      },
+      {
+        "c": "CN8-B03-015",
+        "d": "advanced",
+        "p": "Tại sao khi đọc bản vẽ mặt cắt đứng của một ngôi nhà 2 tầng, người thợ xây dễ dàng xác định chính xác chiều cao thông thủy từng tầng, độ dày sàn bê tông cốt thép và độ dốc mái hơn so với khi chỉ nhìn mặt bằng?",
+        "o": [
+          "Vì mặt cắt đứng chỉ vẽ lại mặt sân phía trước cổng nhà",
+          "Vì mặt bằng không bao giờ ghi bất kì một kích thước nào",
+          "Vì mặt cắt đứng tự động tính tiền vật liệu xây dựng",
+          "Vì mặt cắt đứng dùng mặt phẳng cắt dọc từ đỉnh mái xuống móng nên bộc lộ trực tiếp chiều cao các tầng, cao độ nền, kết cấu sàn và không gian mái bên trong"
+        ],
+        "k": "D",
+        "e": "Phối hợp đọc mặt bằng (chiều rộng - dài) cùng mặt cắt (chiều cao - kết cấu) mới dựng hoàn chỉnh không gian 3D công trình.",
+        "s": "Công Nghệ 8",
+        "h": "Vai trò bổ trợ của mặt cắt ngôi nhà"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe8-c2",
+    "lesson": {
+      "code": "congnghe8-b04",
+      "title": "Bài 4. Vật liệu cơ khí phổ biến",
+      "seq": 4,
+      "subtitle": "Phân loại vật liệu kim loại và phi kim loại trong cơ khí, tính chất cơ bản và nhận biết bằng quan sát, thử nghiệm đơn giản",
+      "concepts": [
+        "Vật liệu kim loại đen và màu",
+        "Vật liệu phi kim loại và composite",
+        "Tính chất và chọn vật liệu cơ khí"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN8-B04-001",
+        "d": "basic",
+        "p": "Trong cơ khí, vật liệu kim loại được chia làm hai nhóm chính nào?",
+        "o": [
+          "Nhựa dẻo nhiệt dẻo và gỗ ép công nghiệp",
+          "Kim loại đen (thành phần chủ yếu là sắt và cacbon) và kim loại màu (đồng, nhôm, kẽm, titan và hợp kim của chúng)",
+          "Kim loại lỏng và kim loại khí bay hơi",
+          "Gốm sứ dân dụng và thủy tinh trong suốt"
+        ],
+        "k": "B",
+        "e": "Thép và gang thuộc nhóm kim loại đen dựa trên hàm lượng cacbon khác nhau; đồng, nhôm thuộc nhóm kim loại màu.",
+        "s": "Công Nghệ 8",
+        "h": "Phân loại kim loại cơ khí"
+      },
+      {
+        "c": "CN8-B04-002",
+        "d": "basic",
+        "p": "Sự khác biệt cơ bản về thành phần hóa học giữa thép và gang (đều là hợp kim sắt - cacbon) nằm ở tỉ lệ nguyên tố nào?",
+        "o": [
+          "Gang không chứa nguyên tố sắt nào cả",
+          "Thép chỉ làm từ nhựa cây còn gang làm từ nhôm",
+          "Tỉ lệ cacbon: thép có hàm lượng cacbon từ 2,14% trở xuống, còn gang có hàm lượng cacbon lớn hơn 2,14%",
+          "Thép chứa 50% đồng nguyên chất còn gang chứa 50% bạc"
+        ],
+        "k": "C",
+        "e": "Hàm lượng cacbon nhỏ hơn hay bằng 2,14% làm thép dẻo dai rèn cán được; cao hơn làm gang giòn dễ đúc nhưng khó rèn.",
+        "s": "Công Nghệ 8",
+        "h": "Phân biệt thép và gang"
+      },
+      {
+        "c": "CN8-B04-003",
+        "d": "basic",
+        "p": "Tính chất nổi bật của gang xám giúp nó được dùng rất phổ biến để đúc thân máy tiện, bệ máy công cụ và nắp hố ga là gì?",
+        "o": [
+          "Rất mềm dẻo có thể kéo thành sợi mảnh như tơ nhện",
+          "Trong suốt hoàn toàn cho ánh sáng đi qua",
+          "Tính đúc tốt (chảy loãng điền đầy khuôn), chịu nén cao và giảm rung động tốt, giá thành hợp lí",
+          "Nhẹ hơn xốp nhựa và nổi lềnh bềnh trên mặt nước"
+        ],
+        "k": "C",
+        "e": "Thân bệ máy nặng bằng gang giúp hấp thụ chấn động khi gia công cắt gọt tốc độ cao.",
+        "s": "Công Nghệ 8",
+        "h": "Tính chất và ứng dụng của gang"
+      },
+      {
+        "c": "CN8-B04-004",
+        "d": "basic",
+        "p": "Kim loại màu nào có khối lượng riêng nhỏ (nhẹ), dẫn điện dẫn nhiệt tốt và ít bị ăn mòn nhờ lớp ôxit mỏng bảo vệ nên dùng nhiều làm khung máy bay, cửa và lõi dây điện cao thế?",
+        "o": [
+          "Nhôm và hợp kim nhôm",
+          "Chì nguyên chất nặng",
+          "Gang trắng giòn",
+          "Thủy ngân lỏng"
+        ],
+        "k": "A",
+        "e": "Nhôm nhẹ khoảng bằng 1/3 thép, chống gỉ tốt và dễ tạo hình cán kéo thành thanh profile.",
+        "s": "Công Nghệ 8",
+        "h": "Đặc tính hợp kim nhôm"
+      },
+      {
+        "c": "CN8-B04-005",
+        "d": "basic",
+        "p": "Tính chất cơ học biểu thị khả năng chống lại sự biến dạng dẻo hoặc bị phá hủy của vật liệu dưới tác dụng của ngoại lực gọi là gì?",
+        "o": [
+          "Độ bền (tính bền cơ học)",
+          "Tính nhiễm từ",
+          "Độ dẫn nhiệt",
+          "Khối lượng riêng"
+        ],
+        "k": "A",
+        "e": "Ngoài độ bền, bốn tính chất cơ học cốt lõi trong cơ khí gồm độ cứng, độ dẻo và độ dai va đập.",
+        "s": "Công Nghệ 8",
+        "h": "Khái niệm độ bền vật liệu"
+      },
+      {
+        "c": "CN8-B04-006",
+        "d": "basic",
+        "p": "Nhóm vật liệu phi kim loại nào có tính cách điện tốt, nhẹ, không gỉ sét và được dùng làm vỏ thiết bị điện gia dụng, tay cầm dụng cụ cách điện?",
+        "o": [
+          "Chất dẻo (nhựa kĩ thuật như PVC, ABS, bakelit) và cao su cách điện",
+          "Hợp kim đồng thau dẫn điện",
+          "Gang cầu chịu lực",
+          "Thép không gỉ inox 304"
+        ],
+        "k": "A",
+        "e": "Vỏ phích cắm, kìm bọc nhựa và ống luồn dây điện tận dụng triệt để tính cách điện và dễ đúc khuôn của chất dẻo, cao su.",
+        "s": "Công Nghệ 8",
+        "h": "Ứng dụng chất dẻo và cao su"
+      },
+      {
+        "c": "CN8-B04-007",
+        "d": "application",
+        "p": "Quan sát bảng phân biệt chất dẻo nhiệt dẻo và chất dẻo nhiệt rắn, tay cầm chảo chống dính hoặc vỏ ổ cắm điện chịu nhiệt cần dùng loại nào để không bị chảy mềm biến dạng khi nóng?",
+        "o": [
+          "Chất dẻo nhiệt dẻo mềm ở nhiệt độ thấp (như PE túi mỏng)",
+          "Sáp ong tự nhiên dễ chảy khi gặp nắng",
+          "Chất dẻo nhiệt rắn (như nhựa bakelit, melamin)",
+          "Giấy bìa thấm dầu"
+        ],
+        "k": "C",
+        "e": "Nhựa nhiệt rắn sau khi ép đóng rắn không nóng chảy lại khi gặp nhiệt độ cao nên rất an toàn cho thiết bị điện và dụng cụ nấu.",
+        "s": "Công Nghệ 8",
+        "h": "Chọn nhựa nhiệt rắn chịu nhiệt",
+        "fig": {
+          "type": "table",
+          "title": "So sánh chất dẻo",
+          "head": [
+            "Loại chất dẻo",
+            "Tính chất gặp nhiệt"
+          ],
+          "rows": [
+            [
+              "Nhiệt dẻo (PE, PVC)",
+              "Chảy mềm, tái chế"
+            ],
+            [
+              "Nhiệt rắn (Bakelit)",
+              "Không chảy, bền"
+            ],
+            [
+              "Cao su kĩ thuật",
+              "Đàn hồi, cách điện"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN8-B04-008",
+        "d": "application",
+        "p": "Để phân biệt nhanh thanh thép cacbon thông thường và thanh hợp kim nhôm cùng kích thước bằng quan sát và thử nghiệm đơn giản trong xưởng trường, cách nào chính xác nhất?",
+        "o": [
+          "Ngâm hai thanh vào nước sôi xem thanh nào tan hết",
+          "Dùng nam châm thử lực hút (thép bị nam châm hút mạnh còn nhôm không bị hút) kết hợp so sánh khối lượng riêng (nhôm nhẹ hơn hẳn thép)",
+          "Nhìn vào vết cắt thấy thanh nào màu vàng rực như vàng 24K",
+          "Đốt trực tiếp hai thanh trên đèn cồn 5 giây xem thanh nào bốc cháy thành tro"
+        ],
+        "k": "B",
+        "e": "Thép chứa chủ yếu sắt có từ tính rõ rệt và khối lượng riêng ~7,85 g/cm³, gấp gần ba lần nhôm (~2,7 g/cm³).",
+        "s": "Công Nghệ 8",
+        "h": "Nhận biết nhanh thép và nhôm"
+      },
+      {
+        "c": "CN8-B04-009",
+        "d": "application",
+        "p": "Chi tiết lưỡi cưa sắt hoặc mũi khoan thép khi gia công cắt gọt các thanh thép khác phải có tính chất cơ học nào vượt trội so với phôi đang được cắt?",
+        "o": [
+          "Phải thật mềm dẻo như đất nặn để dễ uốn cong",
+          "Phải nhẹ nhất trong tất cả các loại vật liệu",
+          "Độ cứng và khả năng chịu mài mòn phải cao hơn vật liệu phôi cần gia công",
+          "Phải giòn tan như phấn viết bảng để vỡ ngay khi chạm phôi"
+        ],
+        "k": "C",
+        "e": "Dụng cụ cắt dùng thép hợp kim dụng cụ hoặc hợp kim cứng đã tôi luyện đạt độ cứng cao gấp nhiều lần vật cần cắt.",
+        "s": "Công Nghệ 8",
+        "h": "Yêu cầu vật liệu dụng cụ cắt"
+      },
+      {
+        "c": "CN8-B04-010",
+        "d": "application",
+        "p": "Trong một chiếc kìm điện cầm tay, phần hàm kẹp và lưỡi cắt làm bằng thép tôi cứng, còn phần chuôi cầm bọc kín cao su hoặc nhựa dẻo dày. Cách phối hợp hai vật liệu này giải quyết yêu cầu gì?",
+        "o": [
+          "Hàm thép bảo đảm độ cứng bền cắt dây kim loại không sứt mẻ, còn vỏ nhựa cao su cách điện an toàn và êm tay chống trượt cho người thợ",
+          "Để thay thế hoàn toàn nhu cầu rèn luyện thép",
+          "Làm chiếc kìm nhẹ đến mức bay lơ lửng trên mặt nước",
+          "Để lưỡi cắt dẫn điện thẳng vào lòng bàn tay người cầm"
+        ],
+        "k": "A",
+        "e": "Phối hợp đúng tính chất từng loại vật liệu trên các bộ phận tạo ra dụng cụ vừa bền hiệu quả vừa an toàn.",
+        "s": "Công Nghệ 8",
+        "h": "Phối hợp vật liệu chế tạo kìm"
+      },
+      {
+        "c": "CN8-B04-011",
+        "d": "application",
+        "p": "Vật liệu composite (sợi cacbon hoặc sợi thủy tinh kết hợp nền nhựa epoxy) ngày càng được chọn để chế tạo khung xe đạp đua, cánh quạt tuabin gió và vỏ tàu cao tốc vì ưu điểm kép nào?",
+        "o": [
+          "Nặng gấp năm lần gang đúc để tạo độ đầm tuyệt đối",
+          "Dễ bị nam châm hút dính chặt vào đường ray",
+          "Khối lượng rất nhẹ nhưng độ bền kéo và độ cứng vượt trội, không bị gỉ sét trong môi trường ẩm mặn",
+          "Dễ tan rã nhanh chóng ngay khi gặp nước mưa để tự hủy trong 1 tuần"
+        ],
+        "k": "C",
+        "e": "Vật liệu mới composite kết hợp ưu điểm gia cường của sợi với khả năng liên kết chống ăn mòn của vật liệu nền.",
+        "s": "Công Nghệ 8",
+        "h": "Ưu điểm vật liệu composite"
+      },
+      {
+        "c": "CN8-B04-012",
+        "d": "application",
+        "p": "Vì sao lõi dây dẫn điện dân dụng trong nhà thường chọn đồng đỏ nguyên chất thay vì thép mặc dù thép cứng và rẻ hơn nhiều?",
+        "o": [
+          "Vì thép không thể kéo thành sợi tròn dài",
+          "Vì đồng hoàn toàn không dẫn điện nên chạm tay vào không giật",
+          "Vì đồng dẫn điện tốt gấp nhiều lần thép (giảm hao tổn điện năng và phát nhiệt), lại dẻo dễ uốn lắp đặt và chống ôxi hóa bền lâu",
+          "Vì đồng có màu trắng bạc giống hệt nhựa PVC"
+        ],
+        "k": "C",
+        "e": "Đồng có điện trở suất rất nhỏ chỉ đứng sau bạc nhưng giá thành hợp lí cho mạng điện dân dụng.",
+        "s": "Công Nghệ 8",
+        "h": "Chọn vật liệu dẫn điện"
+      },
+      {
+        "c": "CN8-B04-013",
+        "d": "advanced",
+        "p": "Một sinh viên dùng búa gõ mạnh vào hai thanh kim loại giống kích thước: thanh A bị cong uốn dẻo từ từ mà không đứt gãy, còn thanh B nứt gãy đôi ngay thành hai mảnh có vết gãy xám hạt thô. Kết luận phù hợp nhất về vật liệu hai thanh là gì?",
+        "o": [
+          "Cả hai thanh đều bị rỉ sét bên trong nên không phải kim loại",
+          "Thanh A là gang xám siêu giòn, còn thanh B là đồng đỏ dẻo nhất",
+          "Thanh A làm bằng cao su tổng hợp, còn thanh B là thủy tinh lỏng",
+          "Thanh A có độ dẻo cao (như thép cacbon thấp hoặc nhôm dẻo), còn thanh B có tính giòn cao (như gang xám)"
+        ],
+        "k": "D",
+        "e": "Thử đập uốn giúp phân biệt rõ tính dẻo (biến dạng không phá hủy) của thép ít cacbon với tính giòn của gang.",
+        "s": "Công Nghệ 8",
+        "h": "Phân biệt tính dẻo và tính giòn"
+      },
+      {
+        "c": "CN8-B04-014",
+        "d": "advanced",
+        "p": "Khi chế tạo trục khuỷu động cơ ô tô chịu tải trọng va đập và xoắn thay đổi liên tục hàng nghìn vòng mỗi phút, vật liệu thép hợp kim được chọn cần cân bằng hai tính chất cơ học nào?",
+        "o": [
+          "Toàn bộ trục phải thật giòn để dễ vỡ khi va chạm nhẹ",
+          "Toàn bộ trục phải mềm như cao su dẻo để xoắn vòng tròn",
+          "Vừa đủ độ bền và độ dai va đập ở lõi trục để không gãy giòn, vừa có độ cứng bề mặt cổ trục cao để chống mài mòn khi quay",
+          "Bề mặt cổ trục phải nhám sần sùi như giấy giáp để tăng ma sát"
+        ],
+        "k": "C",
+        "e": "Nhiệt luyện bề mặt kết hợp thép hợp kim dẻo dai bên trong giải quyết mâu thuẫn giữa tính cứng chống mòn và độ dai chống gãy.",
+        "s": "Công Nghệ 8",
+        "h": "Phối hợp tính chất vật liệu trục máy"
+      },
+      {
+        "c": "CN8-B04-015",
+        "d": "advanced",
+        "p": "Xu hướng tái chế phế liệu kim loại (thép, nhôm, đồng) trong công nghiệp cơ khí xanh mang lại lợi ích môi trường và năng lượng nào lớn nhất so với luyện mới hoàn toàn từ quặng thiên nhiên?",
+        "o": [
+          "Tái chế kim loại tiêu tốn năng lượng gấp mười lần khai thác quặng sâu dưới biển",
+          "Kim loại sau khi nấu luyện tái chế không thể dùng lại cho bất kì ngành nào",
+          "Tiết kiệm khoáng sản không tái tạo, giảm rác thải công nghiệp, tiết kiệm điện năng và khí thải CO2 (tái chế nhôm tiết kiệm > 90% năng lượng)",
+          "Làm tăng lượng xỉ thải độc hại đổ xuống các dòng sông"
+        ],
+        "k": "C",
+        "e": "Tái chế kim loại khép kín là trụ cột quan trọng của kinh tế tuần hoàn trong cơ khí hiện đại.",
+        "s": "Công Nghệ 8",
+        "h": "Giá trị tái chế vật liệu kim loại"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe8-c2",
+    "lesson": {
+      "code": "congnghe8-b05",
+      "title": "Bài 5. Truyền và biến đổi chuyển động cơ khí",
+      "seq": 5,
+      "subtitle": "Các bộ truyền động đai, truyền động ăn khớp, tỉ số truyền và các cơ cấu biến đổi chuyển động cơ bản",
+      "concepts": [
+        "Truyền động đai và ăn khớp",
+        "Tính toán tỉ số truyền i",
+        "Cơ cấu biến đổi chuyển động"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN8-B05-001",
+        "d": "basic",
+        "p": "Nhiệm vụ chung của các bộ truyền chuyển động trong máy móc cơ khí là gì?",
+        "o": [
+          "Biến đổi nhiệt năng mặt trời trực tiếp thành sóng vô tuyến",
+          "Truyền chuyển động quay từ động cơ đến các bộ phận công tác ở xa nhau và thay đổi tốc độ quay cho phù hợp yêu cầu làm việc",
+          "Giữ cố định hoàn toàn mọi bộ phận máy không cho phép quay",
+          "Chỉ dùng để trang trí bên ngoài vỏ máy"
+        ],
+        "k": "B",
+        "e": "Động cơ thường quay rất nhanh trong khi trục máy công tác cần tốc độ chậm hơn với mô-men lực lớn hơn nên cần bộ truyền.",
+        "s": "Công Nghệ 8",
+        "h": "Vai trò truyền chuyển động"
+      },
+      {
+        "c": "CN8-B05-002",
+        "d": "basic",
+        "p": "Bộ truyền động đai (gồm bánh dẫn, bánh bị dẫn và dây đai) truyền lực quay giữa hai trục nhờ vào lực nào?",
+        "o": [
+          "Lực ma sát giữa bề mặt dây đai và rãnh bánh đai",
+          "Lực hấp dẫn giữa hai trục máy",
+          "Áp suất hơi nước phun vào bánh răng",
+          "Lực đẩy từ trường của nam châm điện không tiếp xúc"
+        ],
+        "k": "A",
+        "e": "Nhờ lực ma sát nên truyền động đai chạy êm, giảm sốc nhưng có thể xảy ra trượt nhẹ khi quá tải đột ngột.",
+        "s": "Công Nghệ 8",
+        "h": "Nguyên lí truyền động đai"
+      },
+      {
+        "c": "CN8-B05-003",
+        "d": "basic",
+        "p": "So với truyền động đai, ưu điểm vượt trội của truyền động ăn khớp (bộ truyền bánh răng hoặc xích đĩa) về độ chính xác tốc độ là gì?",
+        "o": [
+          "Không gây ra bất kì tiếng ồn nào kể cả khi chạy khô",
+          "Chạy hoàn toàn không cần dầu mỡ bôi trơn ở mọi tốc độ cao",
+          "Hai trục cách xa hàng trăm mét vẫn nối bằng hai bánh răng trực tiếp",
+          "Tỉ số truyền chính xác hoàn toàn, không bị trượt trơn và truyền được công suất lớn"
+        ],
+        "k": "D",
+        "e": "Các răng ăn khớp vào nhau hoặc vào mắt xích khóa cứng chuyển động không trượt như dây đai trơn.",
+        "s": "Công Nghệ 8",
+        "h": "Ưu điểm truyền động ăn khớp"
+      },
+      {
+        "c": "CN8-B05-004",
+        "d": "basic",
+        "p": "Trong cơ cấu truyền động xích của xe đạp truyền thống, đĩa xích gắn với bàn đạp và líp gắn với bánh xe sau lần lượt đóng vai trò gì?",
+        "o": [
+          "Đĩa xích là bánh dẫn (nhận lực đạp); líp là bánh bị dẫn (truyền lực làm bánh sau quay)",
+          "Cả hai đều là trục đứng yên làm giá đỡ yên xe",
+          "Đĩa xích là bánh bị dẫn; líp là bánh dẫn",
+          "Xích xe đạp đóng vai trò là phanh hãm bánh trước"
+        ],
+        "k": "A",
+        "e": "Lực từ chân người quay bàn đạp truyền qua đĩa dẫn -> xích -> líp bị dẫn giúp xe chuyển động tiến về phía trước.",
+        "s": "Công Nghệ 8",
+        "h": "Bộ truyền xích xe đạp"
+      },
+      {
+        "c": "CN8-B05-005",
+        "d": "basic",
+        "p": "Cơ cấu tay quay - con trượt (như trong động cơ đốt trong xi lanh - pít tông hoặc máy khâu đạp chân) có chức năng biến đổi chuyển động nào?",
+        "o": [
+          "Chỉ làm tăng nhiệt độ của thanh truyền",
+          "Biến đổi chuyển động tịnh tiến thẳng đứng thành chuyển động rơi tự do mãi mãi",
+          "Giữ nguyên hai chuyển động đứng yên không di chuyển",
+          "Biến đổi chuyển động quay tròn thành chuyển động tịnh tiến qua lại (hoặc ngược lại)"
+        ],
+        "k": "D",
+        "e": "Trong động cơ ô tô, pít tông tịnh tiến lên xuống làm trục khuỷu quay tròn; trong máy bơm hơi mini thì ngược lại.",
+        "s": "Công Nghệ 8",
+        "h": "Cơ cấu tay quay con trượt"
+      },
+      {
+        "c": "CN8-B05-006",
+        "d": "basic",
+        "p": "Cơ cấu tay quay - thanh lắc thường được ứng dụng thực tế ở bộ phận quen thuộc nào trong đời sống?",
+        "o": [
+          "Thước cuộn thép kéo thẳng không quay",
+          "Cơ cấu cần gạt nước mưa trên kính chắn gió ô tô hoặc cơ cấu bàn đạp máy may cổ điển",
+          "Bóng đèn sợi đốt treo cố định",
+          "Cánh quạt trần quay tròn một chiều liên tục 360 độ"
+        ],
+        "k": "B",
+        "e": "Tay quay của động cơ quay tròn đều liên tục làm cần gạt nước lắc qua lắc lại theo một cung góc xác định.",
+        "s": "Công Nghệ 8",
+        "h": "Ứng dụng tay quay thanh lắc"
+      },
+      {
+        "c": "CN8-B05-007",
+        "d": "application",
+        "p": "Quan sát bảng công thức tỉ số truyền, một bộ truyền bánh răng gồm bánh dẫn có Z1 = 20 răng quay với tốc độ n1 = 600 vòng/phút ăn khớp với bánh bị dẫn có Z2 = 60 răng. Tốc độ quay n2 của bánh bị dẫn là bao nhiêu?",
+        "o": [
+          "600 vòng/phút (bằng bánh dẫn)",
+          "100 vòng/phút",
+          "1800 vòng/phút (nhanh hơn 3 lần)",
+          "200 vòng/phút (chậm hơn bánh dẫn 3 lần)"
+        ],
+        "k": "D",
+        "e": "Tỉ số truyền i = n1/n2 = Z2/Z1 = 60/20 = 3, suy ra n2 = n1 / 3 = 600 / 3 = 200 vòng/phút.",
+        "s": "Công Nghệ 8",
+        "h": "Tính tốc độ quay bánh răng",
+        "fig": {
+          "type": "table",
+          "title": "Công thức tỉ số truyền",
+          "head": [
+            "Loại truyền động",
+            "Tỉ số truyền i"
+          ],
+          "rows": [
+            [
+              "Truyền động đai",
+              "i = n1/n2 = D2/D1"
+            ],
+            [
+              "Bánh răng, xích",
+              "i = n1/n2 = Z2/Z1"
+            ],
+            [
+              "Quy luật tỉ lệ",
+              "Bánh lớn quay chậm"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN8-B05-008",
+        "d": "application",
+        "p": "Một máy khoan bàn dùng bộ truyền đai gồm bánh dẫn trên động cơ có đường kính D1 = 80 mm quay 1400 vòng/phút nối với bánh bị dẫn trên trục mũi khoan có đường kính D2 = 160 mm. Tỉ số truyền i và tốc độ trục mũi khoan n2 lần lượt là bao nhiêu?",
+        "o": [
+          "i = 2 và n2 = 2800 vòng/phút",
+          "i = 4 và n2 = 350 vòng/phút",
+          "i = 0,5 và n2 = 2800 vòng/phút",
+          "i = 2 và n2 = 700 vòng/phút"
+        ],
+        "k": "D",
+        "e": "i = D2 / D1 = 160 / 80 = 2; tốc độ n2 = n1 / i = 1400 / 2 = 700 vòng/phút.",
+        "s": "Công Nghệ 8",
+        "h": "Tính tỉ số truyền bộ truyền đai"
+      },
+      {
+        "c": "CN8-B05-009",
+        "d": "application",
+        "p": "Khi đạp xe đạp thể thao có bộ đề nhiều líp để leo lên dốc cầu cao, người đi xe nên chuyển xích sang tầng líp sau có kích thước như thế nào để đạp nhẹ chân nhất?",
+        "o": [
+          "Chuyển sang líp sau có số răng lớn nhất (đĩa trước nhỏ kết hợp líp sau lớn)",
+          "Tháo hẳn dây xích ra khỏi líp sau",
+          "Chuyển đĩa trước sang đĩa to nhất và líp sau nhỏ nhất",
+          "Chuyển sang líp sau nhỏ xíu ít răng nhất"
+        ],
+        "k": "A",
+        "e": "Khi Z2 lớn hơn Z1 nhiều, tỉ số truyền lớn giúp bánh sau quay chậm hơn nhưng tăng lực kéo lớn, leo dốc rất nhẹ.",
+        "s": "Công Nghệ 8",
+        "h": "Chọn đĩa líp khi leo dốc"
+      },
+      {
+        "c": "CN8-B05-010",
+        "d": "application",
+        "p": "Bộ truyền bánh răng côn (răng vát nghiêng trên mặt nón) giải quyết yêu cầu kĩ thuật nào mà cặp bánh răng trụ thẳng thông thường không làm được?",
+        "o": [
+          "Truyền chuyển động quay giữa hai trục cắt nhau (thường vuông góc 90 độ như trong bộ vi sai cầu sau ô tô hoặc máy khoan cầm tay)",
+          "Biến đổi chuyển động quay thành chuyển động rơi thẳng đứng",
+          "Làm cho hai trục cùng quay bằng nhựa mềm không chịu lực",
+          "Truyền chuyển động cho hai trục cách xa nhau 10 mét không cần trục trung gian"
+        ],
+        "k": "A",
+        "e": "Hai bánh răng trụ song song truyền cho hai trục song song; cặp bánh răng côn truyền quay giữa hai trục giao nhau vuông góc.",
+        "s": "Công Nghệ 8",
+        "h": "Công dụng bánh răng côn"
+      },
+      {
+        "c": "CN8-B05-011",
+        "d": "application",
+        "p": "Cơ cấu bánh răng - thanh răng (ví dụ trên hệ thống lái ô tô hoặc bàn nâng trượt máy khoan) biến đổi chuyển động theo chiều nào?",
+        "o": [
+          "Biến đổi chuyển động lắc thành chuyển động tròn đều 360 độ",
+          "Đẩy thanh răng bay tách rời khỏi máy",
+          "Chỉ quay tròn tại chỗ mà không có vật nào tịnh tiến",
+          "Biến đổi chuyển động quay của bánh răng thành chuyển động tịnh tiến thẳng của thanh răng (hoặc ngược lại)"
+        ],
+        "k": "D",
+        "e": "Khi quay tay vặn gắn bánh răng nhỏ, thanh răng gắn khớp răng bên dưới trượt tiến lùi chính xác theo đường thẳng.",
+        "s": "Công Nghệ 8",
+        "h": "Cơ cấu bánh răng thanh răng"
+      },
+      {
+        "c": "CN8-B05-012",
+        "d": "application",
+        "p": "Trong một cơ cấu truyền động đai thông thường (dây đai mắc song song không bắt chéo), nếu bánh dẫn quay cùng chiều kim đồng hồ thì bánh bị dẫn sẽ quay theo chiều nào?",
+        "o": [
+          "Quay cùng chiều với bánh dẫn (cùng chiều kim đồng hồ)",
+          "Quay ngược chiều kim đồng hồ",
+          "Đứng yên không quay khi bánh dẫn đang quay",
+          "Quay đảo chiều liên tục mỗi nửa giây"
+        ],
+        "k": "A",
+        "e": "Đai mắc thẳng làm hai bánh quay cùng chiều; cặp bánh răng ăn khớp ngoài trực tiếp lại làm hai bánh quay ngược chiều nhau.",
+        "s": "Công Nghệ 8",
+        "h": "Xác định chiều quay truyền động đai"
+      },
+      {
+        "c": "CN8-B05-013",
+        "d": "advanced",
+        "p": "Một cặp bánh răng ăn khớp ngoài có bánh dẫn quay cùng chiều kim đồng hồ. Nếu muốn trục bị dẫn cuối cùng cũng quay cùng chiều kim đồng hồ mà không dùng dây đai hay dây xích, người thiết kế cơ khí phải thêm bộ phận nào?",
+        "o": [
+          "Mài bỏ hết toàn bộ răng trên bánh bị dẫn cho trơn nhẵn",
+          "Ngâm cả cặp bánh răng vào nước muối mặn",
+          "Tăng gấp đôi số răng của bánh dẫn nhưng vẫn giữ hai bánh ăn khớp trực tiếp",
+          "Lắp thêm một bánh răng trung gian ở giữa để số cặp ăn khớp ngoài thành số chẵn (đảo chiều hai lần thành cùng chiều ban đầu)"
+        ],
+        "k": "D",
+        "e": "Mỗi cặp ăn khớp ngoài đảo chiều quay một lần; qua một bánh trung gian thành hai lần đảo chiều nên chiều ra trùng chiều vào.",
+        "s": "Công Nghệ 8",
+        "h": "Đảo chiều quay bằng bánh trung gian"
+      },
+      {
+        "c": "CN8-B05-014",
+        "d": "advanced",
+        "p": "Khi dây đai cao su truyền động cho máy bơm nước nông nghiệp bị chùng nhão sau thời gian dài sử dụng, hiện tượng gì xảy ra và giải pháp khắc phục đúng kĩ thuật là gì?",
+        "o": [
+          "Cắt đứt dây đai đi để hai trục tự quay bằng không khí",
+          "Tưới axit loãng lên rãnh bánh đai kim loại",
+          "Dây đai trượt trên rãnh bánh làm máy bơm quay yếu, nóng mau mòn; cần dịch chuyển tăng căng đai, dùng con lăn căng đai hoặc thay dây mới",
+          "Bôi thật nhiều mỡ bò trơn lên bề mặt dây đai đang bị trượt"
+        ],
+        "k": "C",
+        "e": "Truyền động đai phụ thuộc lực ma sát căng đai; bôi dầu mỡ làm mất ma sát còn căng quá mức sẽ hại vòng bi trục.",
+        "s": "Công Nghệ 8",
+        "h": "Khắc phục trượt truyền động đai"
+      },
+      {
+        "c": "CN8-B05-015",
+        "d": "advanced",
+        "p": "Trong cơ cấu tay quay - con trượt biến chuyển động quay tròn của tay quay bán kính R thành chuyển động tịnh tiến qua lại của con trượt (pít tông), tổng quãng đường hành trình đi hết một chiều (từ điểm chết này sang điểm chết kia) bằng bao nhiêu?",
+        "o": [
+          "Bằng bốn lần đường kính tay quay",
+          "Bằng chu vi vòng tròn tay quay (2 × pi × R)",
+          "Bằng đúng nửa bán kính tay quay (0,5R)",
+          "Bằng hai lần bán kính tay quay (2R, tức bằng đường kính vòng quay của chốt tay quay)"
+        ],
+        "k": "D",
+        "e": "Khi tay quay ở hai điểm thẳng hàng đối diện nhau trên trục trượt, khoảng cách giữa hai cực đại là R + R = 2R.",
+        "s": "Công Nghệ 8",
+        "h": "Tính hành trình cơ cấu tay quay con trượt"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe8-c2",
+    "lesson": {
+      "code": "congnghe8-b06",
+      "title": "Bài 6. Gia công cơ khí cầm tay và nghề nghiệp cơ khí",
+      "seq": 6,
+      "subtitle": "Các phương pháp gia công cơ khí bằng tay (đo vạch dấu, cưa, đục, dũa, khoan), an toàn xưởng và ngành nghề cơ khí",
+      "concepts": [
+        "Đo kiểm và vạch dấu cơ khí",
+        "Kĩ thuật cưa, dũa và khoan tay",
+        "An toàn lao động và nghề cơ khí"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN8-B06-001",
+        "d": "basic",
+        "p": "Dụng cụ đo nào có độ chính xác cao (đến 0,05 mm hoặc 0,02 mm) dùng để đo đường kính ngoài, đường kính trong và chiều sâu lỗ của chi tiết cơ khí?",
+        "o": [
+          "Thước dây bằng vải may quần áo",
+          "Dây dọi xây dựng",
+          "Thước gỗ học sinh vạch cm thô",
+          "Thước cặp (thước kẹp cơ khí)"
+        ],
+        "k": "D",
+        "e": "Thước cặp có mỏ đo ngoài, mỏ đo trong và thanh đo sâu rất tiện dụng trong mọi xưởng cơ khí.",
+        "s": "Công Nghệ 8",
+        "h": "Công dụng của thước cặp"
+      },
+      {
+        "c": "CN8-B06-002",
+        "d": "basic",
+        "p": "Công đoạn vạch dấu trên bề mặt phôi kim loại trước khi cưa, dũa hoặc khoan nhằm mục đích gì?",
+        "o": [
+          "Thay thế công đoạn kiểm tra kích thước sau khi cắt",
+          "Làm cho phôi kim loại mềm dẻo hơn khi nung",
+          "Trang trí hoa văn màu sắc cho phôi đẹp mắt rồi đem bán ngay",
+          "Xác định rõ ranh giới phần vật liệu cần gia công cắt bỏ và vị trí tâm lỗ khoan theo đúng bản vẽ"
+        ],
+        "k": "D",
+        "e": "Vạch dấu chính xác bằng mũi vạch thép cứng giúp đường cắt cưa và vị trí khoan bám sát kích thước bản vẽ.",
+        "s": "Công Nghệ 8",
+        "h": "Mục đích của vạch dấu"
+      },
+      {
+        "c": "CN8-B06-003",
+        "d": "basic",
+        "p": "Khi lắp lưỡi cưa sắt cầm tay vào khung cưa, hướng răng cưa phải quay về phía nào?",
+        "o": [
+          "Hướng răng cưa quay ngược lại về phía cán cầm",
+          "Quay phần sống nhẵn không có răng xuống cắt kim loại",
+          "Bẻ cong lưỡi cưa góc 90 độ cho mềm",
+          "Hướng răng cưa quay về phía trước (hướng đẩy cưa từ chuôi cầm ra đầu mũi khung)"
+        ],
+        "k": "D",
+        "e": "Lưỡi cưa sắt chỉ cắt phôi khi đẩy tiến về phía trước nên răng nhọn nghiêng về trước giúp ăn sâu hiệu quả.",
+        "s": "Công Nghệ 8",
+        "h": "Cách lắp đúng lưỡi cưa sắt"
+      },
+      {
+        "c": "CN8-B06-004",
+        "d": "basic",
+        "p": "Dụng cụ cầm tay nào dùng để hớt bỏ lớp phoi kim loại rất mỏng giúp làm phẳng, nhẵn bề mặt hoặc đạt kích thước chính xác cuối cùng?",
+        "o": [
+          "Cờ lê vặn bu lông",
+          "Dũa cơ khí",
+          "Kìm cắt dây thép",
+          "Búa tạ phá bê tông"
+        ],
+        "k": "B",
+        "e": "Sau khi cưa thô để lại lượng dư nhỏ, người thợ dùng dũa phẳng, dũa tròn hoặc dũa bán nguyệt hoàn thiện bề mặt.",
+        "s": "Công Nghệ 8",
+        "h": "Công dụng của dũa"
+      },
+      {
+        "c": "CN8-B06-005",
+        "d": "basic",
+        "p": "Theo quy định an toàn xưởng cơ khí, khi đứng vận hành máy khoan bàn để khoan lỗ kim loại, người thợ tuyệt đối KHÔNG được làm điều nào sau đây?",
+        "o": [
+          "Đeo kính bảo hộ che mắt khỏi phoi kim loại bắn ra",
+          "Kẹp chặt phôi bằng ê tô chuyên dụng trên bàn máy",
+          "Không đeo găng tay vải rộng lùng thùng và không giữ phôi nhỏ bằng tay không khi mũi khoan đang quay tốc độ cao",
+          "Buộc tóc gọn gàng và mặc quần áo bảo hộ gọn gàng"
+        ],
+        "k": "C",
+        "e": "Mũi khoan xoay rất dễ cuốn vướng găng tay vải gây tai nạn nghiêm trọng cho bàn tay người thợ.",
+        "s": "Công Nghệ 8",
+        "h": "An toàn khi dùng máy khoan"
+      },
+      {
+        "c": "CN8-B06-006",
+        "d": "basic",
+        "p": "Công việc chủ yếu của người thợ gia công cơ khí cắt gọt (tiện, phay, bào, hàn) là gì?",
+        "o": [
+          "Chăm sóc vườn cây ăn quả ngoài đồng ruộng",
+          "Đọc bản vẽ kĩ thuật, gá lắp phôi, vận hành máy công cụ hoặc dụng cụ gia công tạo hình chi tiết đạt chuẩn kích thước và yêu cầu kĩ thuật",
+          "Pha chế đồ uống giải khát",
+          "Chỉ ngồi tính toán doanh thu bán hàng siêu thị quần áo"
+        ],
+        "k": "B",
+        "e": "Ngành cơ khí là xương sống của công nghiệp chế tạo, từ thợ cơ khí tay nghề cao đến kĩ sư thiết kế và vận hành CNC.",
+        "s": "Công Nghệ 8",
+        "h": "Nhiệm vụ nghề gia công cơ khí"
+      },
+      {
+        "c": "CN8-B06-007",
+        "d": "application",
+        "p": "Quan sát bảng các dụng cụ cầm tay, khi cần cắt rời nhanh một thanh thép V có sẵn vạch dấu nhưng muốn đường cắt thẳng ít tốn sức, người thợ thực hiện tư thế cưa như thế nào?",
+        "o": [
+          "Kẹp phôi nhô dài ra khỏi ê tô 50 cm cho rung lắc mạnh",
+          "Đè thật mạnh cả hai vai ngay cả khi kéo lùi lưỡi cưa về sau",
+          "Kẹp chặt phôi sát mép má ê tô, đứng chân trước chân sau vững chắc, tay đẩy dứt khoát toàn bộ chiều dài lưỡi cưa khi tiến và nhấc nhẹ lực khi kéo lùi",
+          "Đặt phôi lên đùi rồi kéo thật nhanh ngắn ở phần đầu mũi cưa"
+        ],
+        "k": "C",
+        "e": "Nhấc nhẹ lực ở hành trình kéo về tránh cùn mẻ răng cưa và giúp rãnh cắt thẳng mịn hơn.",
+        "s": "Công Nghệ 8",
+        "h": "Tư thế và kĩ thuật cưa kim loại",
+        "fig": {
+          "type": "table",
+          "title": "Gia công nguội cơ bản",
+          "head": [
+            "Công đoạn",
+            "Dụng cụ & thao tác"
+          ],
+          "rows": [
+            [
+              "Vạch dấu",
+              "Thước, chấm dấu"
+            ],
+            [
+              "Cưa tay",
+              "Răng tới, kẹp sát"
+            ],
+            [
+              "Dũa phẳng",
+              "Đẩy đều lực 2 tay"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN8-B06-008",
+        "d": "application",
+        "p": "Trước khi đưa mũi khoan vào khoan lỗ trên tấm thép phẳng, thao tác đóng một vết lõm nhỏ đúng tại giao điểm hai đường tâm vạch dấu bằng chấm dấu và búa nhẹ có tác dụng gì?",
+        "o": [
+          "Thay thế hoàn toàn việc chạy máy khoan",
+          "Định hướng mũi khoan chóp nhọn bám đúng tâm ngay từ vòng quay đầu tiên, không bị trượt lệch ra ngoài làm hỏng chi tiết",
+          "Làm tù cùn đầu mũi khoan hợp kim",
+          "Làm nứt vỡ tấm thép trước khi khoan"
+        ],
+        "k": "B",
+        "e": "Chấm dấu tâm là bước bắt buộc trong gia công nguội giúp định tâm lỗ khoan chuẩn xác.",
+        "s": "Công Nghệ 8",
+        "h": "Tác dụng của chấm dấu trước khoan"
+      },
+      {
+        "c": "CN8-B06-009",
+        "d": "application",
+        "p": "Trong quá trình dũa phẳng một bề mặt thép, tại sao thỉnh thoảng người thợ phải dùng bàn chải sắt chải sạch dọc theo rãnh răng dũa?",
+        "o": [
+          "Để bôi thêm nước muối làm dũa mau gỉ sét",
+          "Để làm sạch các mạt phoi kim loại bám kẹt vào rãnh răng dũa; nếu không chải sạch mạt sắt sẽ cào xước sâu bề mặt đang dũa mịn",
+          "Để tăng độ rung lắc của bàn ê tô",
+          "Để làm mòn trơn nhẵn hoàn toàn các răng dũa thành thanh thép trơn"
+        ],
+        "k": "B",
+        "e": "Phấn viết bảng rắc nhẹ đôi khi cũng được dùng giảm bám dính phoi nhôm đồng lên mặt răng dũa.",
+        "s": "Công Nghệ 8",
+        "h": "Bảo dưỡng bề mặt răng dũa"
+      },
+      {
+        "c": "CN8-B06-010",
+        "d": "application",
+        "p": "Khi đọc thước cặp cơ khí có độ chính xác 0,05 mm: vạch số 0 của du xích nằm qua vạch 24 mm trên thước chính và vạch số 6 trên du xích trùng khít với một vạch của thước chính. Giá trị kích thước đo được là bao nhiêu?",
+        "o": [
+          "24,06 mm",
+          "24,50 mm",
+          "30,00 mm",
+          "24,60 mm"
+        ],
+        "k": "D",
+        "e": "Phần nguyên là 24 mm; vạch số 6 trên du xích tương ứng 0,60 mm (12 vạch × 0,05 mm = 0,60 mm); tổng cộng là 24,60 mm.",
+        "s": "Công Nghệ 8",
+        "h": "Đọc số đo trên thước cặp"
+      },
+      {
+        "c": "CN8-B06-011",
+        "d": "application",
+        "p": "Một chi tiết vỏ máy làm bằng thép tấm mỏng được gia công bằng phương pháp cắt bằng cưa tay rồi dũa cạnh. Nếu trên đường cắt xuất hiện bavia sắc nhọn ở mép, việc cần làm ngay trước khi nghiệm thu là gì?",
+        "o": [
+          "Dùng dũa mịn vát nhẹ hết toàn bộ cạnh sắc (bavia) để chi tiết an toàn khi cầm nắm và lắp ghép",
+          "Dùng tay trần miết thử thật mạnh dọc cạnh vừa cắt",
+          "Gập cong mạnh mép bavia vào phía trong bằng búa sắt",
+          "Sơn trực tiếp lớp sơn mỏng phủ lên cạnh sắc nhọn"
+        ],
+        "k": "A",
+        "e": "Làm sạch bavia là yêu cầu an toàn và thẩm mĩ tối thiểu sau mọi công đoạn cắt gọt kim loại.",
+        "s": "Công Nghệ 8",
+        "h": "Xử lí cạnh sắc bavia"
+      },
+      {
+        "c": "CN8-B06-012",
+        "d": "application",
+        "p": "Ngành nghề nào trong lĩnh vực cơ khí hiện đại kết hợp phần mềm thiết kế 3D (CAD) với lập trình điều khiển máy cắt gọt tự động chính xác đến từng phần nghìn milimét?",
+        "o": [
+          "Nghệ nhân chạm khắc gỗ cổ truyền",
+          "Thợ nặn gốm đất sét thủ công bằng tay",
+          "Nhân viên thu ngân siêu thị",
+          "Kĩ sư thiết kế cơ khí và lập trình gia công máy CNC (CAD - CAM - CNC)"
+        ],
+        "k": "D",
+        "e": "Công nghệ CAD - CAM - CNC tự động hóa khâu tạo hình phức tạp với độ đồng đều và năng suất cực cao.",
+        "s": "Công Nghệ 8",
+        "h": "Nghề nghiệp cơ khí công nghệ cao"
+      },
+      {
+        "c": "CN8-B06-013",
+        "d": "advanced",
+        "p": "Khi thực hiện cưa tay cắt một thanh thép hộp dày thành mỏng hoặc ống thép mỏng, nếu chọn bước răng lưỡi cưa quá thưa (khoảng cách giữa hai răng lớn hơn chiều dày thành ống) thì điều gì xảy ra?",
+        "o": [
+          "Thành ống thép tự động dày lên gấp đôi",
+          "Mặt cắt tự đánh bóng sáng như gương",
+          "Thành ống lọt giữa hai răng cưa gây giật kẹt hoặc vỡ lưỡi cưa; cần chọn lưỡi cưa răng mịn sao cho có ít nhất 2–3 răng cùng tiếp xúc thành phôi",
+          "Lưỡi cưa cắt nhanh gấp năm lần mà hoàn toàn không bao giờ gãy răng"
+        ],
+        "k": "C",
+        "e": "Nguyên tắc chọn lưỡi cưa theo chiều dày phôi: tối thiểu 2–3 răng đồng thời ăn phôi để cắt êm và bảo vệ lưỡi cưa.",
+        "s": "Công Nghệ 8",
+        "h": "Chọn bước răng cưa phù hợp phôi"
+      },
+      {
+        "c": "CN8-B06-014",
+        "d": "advanced",
+        "p": "Trong xưởng thực hành gia công dũa nguội, một học sinh phát hiện mặt chi tiết vừa dũa xong bị cong vênh lồi ở giữa thay vì phẳng đều như thước kiểm. Nguyên nhân thao tác sai phổ biến nhất là gì?",
+        "o": [
+          "Do đeo kính bảo hộ trong lúc dũa",
+          "Do kẹp phôi quá chắc chắn trên má ê tô",
+          "Do mặt dũa được làm bằng thép quá cứng",
+          "Khi đẩy dũa hai tay không giữ thăng bằng mặt dũa nằm ngang mà đè đầu dũa chúi xuống ở cuối hành trình và ấn mạnh đuôi dũa lúc bắt đầu"
+        ],
+        "k": "D",
+        "e": "Giữ mặt dũa tịnh tiến hoàn toàn phẳng ngang, phân phối lực hai tay thay đổi ngược chiều nhịp nhàng theo hành trình đẩy sẽ tạo mặt phẳng chuẩn.",
+        "s": "Công Nghệ 8",
+        "h": "Khắc phục lỗi dũa bị lồi bề mặt"
+      },
+      {
+        "c": "CN8-B06-015",
+        "d": "advanced",
+        "p": "Khi khoan lỗ đường kính lớn (ví dụ lỗ 16 mm) trên thép dày bằng máy khoan bàn, tại sao người thợ chuyên nghiệp thường khoan mồi trước một lỗ nhỏ hơn (như 6 mm) rồi mới mở rộng bằng mũi khoan 16 mm và tưới dung dịch làm mát?",
+        "o": [
+          "Vì mũi khoan 16 mm không thể quay khi chưa có nước mưa",
+          "Để làm hỏng thêm hai mũi khoan cùng lúc cho nhanh",
+          "Giảm lực cắt tại phần lưỡi ngang đỉnh mũi khoan lớn, tăng độ đồng tâm chính xác và tản nhiệt bôi trơn giúp mũi khoan không cháy cùn",
+          "Để lỗ khoan cuối cùng có đường kính nhỏ hơn 6 mm"
+        ],
+        "k": "C",
+        "e": "Khoan mồi + bôi trơn làm mát là kĩ thuật chuẩn bảo vệ dụng cụ cắt và nâng cao độ bóng chính xác của lỗ lớn.",
+        "s": "Công Nghệ 8",
+        "h": "Kĩ thuật khoan mồi lỗ đường kính lớn"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe8-c3",
+    "lesson": {
+      "code": "congnghe8-b07",
+      "title": "Bài 7. An toàn điện và phòng chống tai nạn điện",
+      "seq": 7,
+      "subtitle": "Nguyên nhân gây tai nạn điện, biện pháp an toàn khi sử dụng và sửa chữa điện, dụng cụ bảo vệ và sơ cứu người bị điện giật",
+      "concepts": [
+        "Nguyên nhân tai nạn điện",
+        "Biện pháp và dụng cụ an toàn điện",
+        "Sơ cứu người bị tai nạn điện"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN8-B07-001",
+        "d": "basic",
+        "p": "Nguyên nhân trực tiếp dẫn đến tai nạn điện giật phổ biến nhất trong sinh hoạt gia đình là gì?",
+        "o": [
+          "Ngồi học dưới ánh đèn LED công suất 9 W hoàn toàn kín vỏ nhựa",
+          "Chạm trực tiếp vào phần mang điện bị hở cách điện hoặc chạm vào vỏ kim loại thiết bị điện bị rò điện chưa nối đất an toàn",
+          "Đứng cách xa đường dây điện trên không 50 mét ngoài trời nắng",
+          "Cầm điều khiển tivi dùng pin tiểu 3 V"
+        ],
+        "k": "B",
+        "e": "Dòng điện đi qua cơ thể người khi tạo thành mạch kín giữa hai điểm có hiệu điện thế gây co giật cơ, bỏng và ngừng tim.",
+        "s": "Công Nghệ 8",
+        "h": "Nguyên nhân tai nạn điện giật"
+      },
+      {
+        "c": "CN8-B07-002",
+        "d": "basic",
+        "p": "Dụng cụ cầm tay đơn giản nào giúp kiểm tra nhanh xem vỏ kim loại máy giặt, dây pha ổ cắm có đang mang điện áp nguy hiểm hay không trước khi chạm vào?",
+        "o": [
+          "Bút thử điện",
+          "Thước cặp cơ khí hoàn toàn bằng thép trần",
+          "Cái kéo cắt giấy cán kim loại",
+          "Kìm cộng lực cắt sắt không bọc nhựa"
+        ],
+        "k": "A",
+        "e": "Bút thử điện chứa điện trở hạn dòng rất lớn nối với đèn báo neon nên an toàn khi kiểm tra rò điện áp xoay chiều 220 V.",
+        "s": "Công Nghệ 8",
+        "h": "Sử dụng bút thử điện"
+      },
+      {
+        "c": "CN8-B07-003",
+        "d": "basic",
+        "p": "Khi cần thay bóng đèn cháy hoặc sửa chữa ổ cắm điện bị lỏng trong phòng, thao tác an toàn bắt buộc đầu tiên phải thực hiện là gì?",
+        "o": [
+          "Dùng tay ướt vặn bóng đèn ngay khi đèn khác vẫn nhấp nháy",
+          "Đi chân trần trên sàn nhà ướt để đỡ trơn trượt rồi tháo ổ cắm đang có điện",
+          "Ngắt nguồn điện (tắt aptomat nhánh hoặc aptomat tổng), kiểm tra lại bằng bút thử điện bảo đảm không còn điện rồi mới thao tác",
+          "Chỉ tắt mỗi công tắc đèn trên điện thoại còn nguồn vẫn bật nguyên"
+        ],
+        "k": "C",
+        "e": "Ngắt nguồn và kiểm tra xác nhận hết điện bằng bút thử điện là nguyên tắc vàng trước mọi sửa chữa.",
+        "s": "Công Nghệ 8",
+        "h": "Quy tắc ngắt điện trước sửa chữa"
+      },
+      {
+        "c": "CN8-B07-004",
+        "d": "basic",
+        "p": "Vì sao không được thả diều, câu cá hoặc xây giàn giáo sắt vi phạm hành lang an toàn gần đường dây điện cao áp trên không?",
+        "o": [
+          "Vì điện cao áp có thể phóng qua không khí hoặc truyền qua dây diều ẩm, cần câu cacbon gây điện giật chết người dù chưa chạm trực tiếp vào dây dẫn",
+          "Vì cá dưới sông không thích ánh sáng đèn cao áp",
+          "Vì đường dây cao áp sẽ bị dây diều kéo đứt toàn bộ mạng lưới quốc gia trong 1 giây",
+          "Vì gió dưới đường dây điện luôn thổi ngược hướng"
+        ],
+        "k": "A",
+        "e": "Khoảng cách an toàn hành lang lưới điện cao áp ngăn ngừa hiện tượng phóng điện hồ quang nguy hiểm.",
+        "s": "Công Nghệ 8",
+        "h": "An toàn hành lang lưới điện cao áp"
+      },
+      {
+        "c": "CN8-B07-005",
+        "d": "basic",
+        "p": "Khi thấy một người đang bị điện giật dính chặt vào dây dẫn điện hạ áp 220 V trong nhà, hành động đúng đắn đầu tiên người phát hiện phải làm là gì?",
+        "o": [
+          "Tạt nguyên xô nước lạnh lên người nạn nhân để làm mát",
+          "Dùng thanh sắt dài khều dây điện ra khỏi tay nạn nhân",
+          "Lao ngay vào nắm chặt tay trần kéo nạn nhân ra ngoài thật nhanh",
+          "Ngắt ngay cầu dao, aptomat nguồn hoặc dùng vật cách điện khô (gậy gỗ, nhựa khô) gạt tách dây điện khỏi nạn nhân rồi hô hoán cấp cứu"
+        ],
+        "k": "D",
+        "e": "Không bao giờ chạm tay trần hay vật ẩm dẫn điện vào nạn nhân đang dính nguồn điện vì người cứu sẽ bị giật theo.",
+        "s": "Công Nghệ 8",
+        "h": "Tách nạn nhân khỏi nguồn điện an toàn"
+      },
+      {
+        "c": "CN8-B07-006",
+        "d": "basic",
+        "p": "Thiết bị nào trong tủ điện gia đình có khả năng tự động ngắt điện cực nhanh khi phát hiện có dòng rò chạy qua người hoặc xuống đất (chống giật)?",
+        "o": [
+          "Công tắc bật tắt bóng đèn hành lang",
+          "Aptomat chống giật (ELCB hoặc RCBO)",
+          "Biến trở vặn chỉnh độ sáng quạt trần",
+          "Ổ cắm kéo dài ba chạc thông thường"
+        ],
+        "k": "B",
+        "e": "Aptomat chống rò so sánh dòng đi và dòng về; nếu chênh lệch vượt ngưỡng an toàn (thường 30 mA) sẽ ngắt mạch trong tích tắc.",
+        "s": "Công Nghệ 8",
+        "h": "Thiết bị chống rò điện"
+      },
+      {
+        "c": "CN8-B07-007",
+        "d": "application",
+        "p": "Quan sát bảng dụng cụ bảo vệ an toàn điện, người thợ sửa chữa điện chuyên nghiệp phải mang trang bị nào khi làm việc ở nơi có nguy cơ rò điện dưới đất ẩm?",
+        "o": [
+          "Thang nhôm trần đặt trực tiếp lên vũng nước đọng",
+          "Nhẫn đồng hồ kim loại dẫn điện tốt trên cả hai tay",
+          "Găng tay cao su cách điện, ủng cao su cách điện (hoặc đứng trên thảm cao su khô) và kìm tua vít có cán bọc cách điện nguyên vẹn",
+          "Găng tay vải thấm nước và dép lê ướt"
+        ],
+        "k": "C",
+        "e": "Trang bị cách điện đạt chuẩn ngăn dòng điện tìm đường khép mạch qua cơ thể xuống nền đất.",
+        "s": "Công Nghệ 8",
+        "h": "Sử dụng dụng cụ an toàn điện",
+        "fig": {
+          "type": "table",
+          "title": "Dụng cụ an toàn điện",
+          "head": [
+            "Dụng cụ bảo vệ",
+            "Công dụng chính"
+          ],
+          "rows": [
+            [
+              "Bút thử điện",
+              "Kiểm tra điện, rò"
+            ],
+            [
+              "Găng ủng cao su",
+              "Cách li với đất"
+            ],
+            [
+              "Aptomat chống rò",
+              "Ngắt khi rò >= 30mA"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN8-B07-008",
+        "d": "application",
+        "p": "Sau khi đã tách an toàn nạn nhân bị điện giật ra khỏi nguồn điện và thấy nạn nhân bất tỉnh, ngừng thở và không thấy mạch đập, người sơ cứu tại chỗ cần làm gì ngay lập tức trong khi chờ xe cấp cứu 115?",
+        "o": [
+          "Đặt nạn nhân nằm ngửa nơi thoáng khí trên nền cứng, nới rộng quần áo cổ áo và thực hiện ép tim ngoài lồng ngực kết hợp thổi ngạt đúng kĩ thuật",
+          "Đắp thật nhiều chăn bông dày kín mặt nạn nhân",
+          "Đổ thật nhiều nước chanh đường vào miệng nạn nhân đang bất tỉnh",
+          "Bế sốc ngược nạn nhân chạy vòng quanh sân cho tỉnh"
+        ],
+        "k": "A",
+        "e": "Những phút vàng đầu tiên sau khi ngừng tuần hoàn quyết định sự sống của não bộ; cần hồi sức tim phổi (CPR) liên tục đến khi có y tế.",
+        "s": "Công Nghệ 8",
+        "h": "Sơ cứu nạn nhân ngừng thở ngừng tim"
+      },
+      {
+        "c": "CN8-B07-009",
+        "d": "application",
+        "p": "Trong phòng tắm ẩm ướt lắp đặt bình nước nóng gián tiếp, biện pháp phòng tránh điện giật hiệu quả và được khuyến cáo kết hợp đồng thời là gì?",
+        "o": [
+          "Tháo bỏ dây tiếp địa cho gọn gàng phòng tắm",
+          "Bật bình nước nóng liên tục cả lúc đang xối nước trực tiếp lên thân bình",
+          "Dùng dây nối dài ổ cắm di động đặt ngay cạnh vòi sen",
+          "Nối đất an toàn cho vỏ bình, lắp aptomat chống giật (ELCB) riêng cho bình và tắt nguồn điện bình nước nóng trước khi mở vòi tắm"
+        ],
+        "k": "D",
+        "e": "Kết hợp ngắt nguồn khi tắm + aptomat chống giật + dây tiếp địa tạo ba lớp bảo vệ vững chắc trong môi trường ẩm ướt.",
+        "s": "Công Nghệ 8",
+        "h": "An toàn khi dùng bình nước nóng"
+      },
+      {
+        "c": "CN8-B07-010",
+        "d": "application",
+        "p": "Thói quen cắm quá nhiều thiết bị công suất lớn (ấm siêu tốc, bếp từ, lò vi sóng) cùng lúc vào một ổ cắm nối dài dây nhỏ gây ra nguy cơ mất an toàn điện nào?",
+        "o": [
+          "Tăng tuổi thọ bền gấp mười lần cho phích cắm nhỏ",
+          "Quá tải dòng điện làm dây dẫn nóng chảy lớp vỏ nhựa cách điện, dễ dẫn đến ngắn mạch (chập điện) và bùng phát hỏa hoạn",
+          "Giúp tiết kiệm một nửa hóa đơn tiền điện mỗi tháng",
+          "Làm cho nước trong ấm siêu tốc tự động đóng băng"
+        ],
+        "k": "B",
+        "e": "Mỗi ổ cắm có giới hạn dòng điện định mức (thường 10 A đến 16 A); thiết bị công suất lớn phải cắm trực tiếp ổ tường tải lớn có dây dẫn tiết diện đủ rộng.",
+        "s": "Công Nghệ 8",
+        "h": "Nguy cơ quá tải ổ cắm điện"
+      },
+      {
+        "c": "CN8-B07-011",
+        "d": "application",
+        "p": "Khi một đám cháy vừa bùng phát tại tủ điện hoặc dây điện vẫn đang đóng nguồn điện trong nhà, tuyệt đối KHÔNG dùng chất chữa cháy nào sau đây?",
+        "o": [
+          "Gọi ngay lực lượng chữa cháy 114 khi cháy vượt tầm kiểm soát",
+          "Dùng bình chữa cháy khí CO2 hoặc bột khô chuyên dụng cho cháy điện",
+          "Không tạt nước lã trực tiếp hay dùng bình bọt nước dẫn điện khi chưa ngắt cầu dao tổng",
+          "Ngắt ngay aptomat tổng cấp điện cho khu vực cháy"
+        ],
+        "k": "C",
+        "e": "Nước thông thường dẫn điện rất tốt có thể truyền dòng điện ngược vào người đang cầm xô hoặc vòi nước chữa cháy.",
+        "s": "Công Nghệ 8",
+        "h": "An toàn chữa cháy thiết bị điện"
+      },
+      {
+        "c": "CN8-B07-012",
+        "d": "application",
+        "p": "Tại sao nối dây tiếp địa (nối đất) cho vỏ kim loại của máy bơm nước, tủ lạnh hay máy giặt lại bảo vệ được người sử dụng nếu chẳng may lớp cách điện bên trong bị trầy sờn chạm vỏ?",
+        "o": [
+          "Dây nối đất điện trở rất nhỏ dẫn dòng rò đi thẳng xuống đất và kích hoạt aptomat ngắt mạch, tránh cho người chạm vỏ máy bị điện giật",
+          "Vì dây tiếp địa hút hết điện từ lòng đất lên làm máy chạy miễn phí không cần cắm ổ điện",
+          "Vì nối đất biến vỏ sắt thành nhựa cách điện hoàn toàn",
+          "Vì dây nối đất làm vỏ máy nóng rực lên để báo hiệu cho người dùng tránh xa"
+        ],
+        "k": "A",
+        "e": "Tiếp địa an toàn tạo lối thoát điện trở thấp hơn rất nhiều so với điện trở cơ thể người.",
+        "s": "Công Nghệ 8",
+        "h": "Nguyên lí bảo vệ nối đất"
+      },
+      {
+        "c": "CN8-B07-013",
+        "d": "advanced",
+        "p": "Khi thấy một sợi dây điện cao thế hoặc trung thế bị đứt rơi xuống mặt đường nhựa ẩm ướt sau cơn giông bão, người đi đường không chỉ phải tránh chạm vào dây mà còn phải giữ khoảng cách xa khỏi khu vực quanh đầu dây rơi ít nhất vài chục mét. Vì sao?",
+        "o": [
+          "Vì mặt đường nhựa sẽ hút hết nước mưa thành dòng sông",
+          "Dòng điện tản ra mặt đất tạo thành các vòng điện áp bước nguy hiểm; bước chân hai điểm trên mặt đất quanh dây rơi có hiệu điện thế đủ gây điện giật ngã gục",
+          "Vì đầu dây đứt tự động bay lơ lửng đuổi theo người đi bộ",
+          "Vì dây điện rơi làm giảm hết ôxi trong bán kính 1 km"
+        ],
+        "k": "B",
+        "e": "Nếu lỡ đứng quá gần vùng có điện áp bước quanh dây cao áp rơi, không được bước sải dài mà phải chụm sát hai chân nhảy lò cò chậm ra xa.",
+        "s": "Công Nghệ 8",
+        "h": "Hiểu về điện áp bước an toàn"
+      },
+      {
+        "c": "CN8-B07-014",
+        "d": "advanced",
+        "p": "Một học sinh thử dùng bút thử điện chạm vào vỏ máy tính để bàn thì đèn bút thử điện lóe sáng nhẹ và thấy hơi tê đầu ngón tay, dù máy tính mới tinh không hỏng hóc gì. Nguyên nhân kĩ thuật thường gặp nhất là gì?",
+        "o": [
+          "Do pin đồng hồ CMOS 3 V phát ra điện áp 2200 V",
+          "Do không khí trong phòng quá sạch sẽ",
+          "Do màn hình máy tính bị vỡ kính bên trong",
+          "Ổ cắm điện hai chấu của nhà chưa có đường dây tiếp địa (hoặc nguồn bộ lọc nhiễu đầu vào máy tính rò điện cảm ứng ra vỏ kim loại cần nối đất)"
+        ],
+        "k": "D",
+        "e": "Mạch lọc nhiễu nguồn xung máy tính luôn phân áp một điện thế rò nhỏ ra vỏ; nối đất chuẩn giúp triệt tiêu cảm giác tê tay khó chịu và bảo vệ linh kiện.",
+        "s": "Công Nghệ 8",
+        "h": "Xử lí rò cảm ứng vỏ thiết bị"
+      },
+      {
+        "c": "CN8-B07-015",
+        "d": "advanced",
+        "p": "Giả sử khi dùng bút thử điện kiểm tra cả hai lỗ của một ổ cắm điện dân dụng 220 V thấy CẢ HAI LỖ đều làm đèn bút thử điện phát sáng đỏ rực, còn đèn trong phòng tự nhiên tắt hết. Sự cố mạch điện nào đã xảy ra?",
+        "o": [
+          "Đường dây trung tính (dây nguội) tổng dẫn về nguồn đã bị đứt hở phía sau nhánh đó, làm điện áp dây pha truyền qua các tải điện đang bật sang cả dây trung tính",
+          "Tất cả bóng đèn trong phòng đang sáng rực hơn gấp đôi",
+          "Bút thử điện bị hỏng bóng đèn nên luôn tự phát sáng dù không chạm điện",
+          "Nhà máy điện đã đổi cả hai dây thành dây nối đất không có điện"
+        ],
+        "k": "A",
+        "e": "Đứt dây trung tính cực kì nguy hiểm vì người chạm vào dây nguội tưởng không có điện vẫn bị điện giật đủ điện áp pha truyền qua tải.",
+        "s": "Công Nghệ 8",
+        "h": "Chẩn đoán sự cố đứt dây trung tính"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe8-c3",
+    "lesson": {
+      "code": "congnghe8-b08",
+      "title": "Bài 8. Mạch điện và mạch điện điều khiển đơn giản",
+      "seq": 8,
+      "subtitle": "Cấu trúc chung của mạch điện, các phần tử thiết bị đóng cắt bảo vệ, cấu trúc và nguyên lí mạch điện điều khiển",
+      "concepts": [
+        "Cấu trúc chung mạch điện",
+        "Thiết bị đóng cắt và bảo vệ",
+        "Mạch điện điều khiển đơn giản"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN8-B08-001",
+        "d": "basic",
+        "p": "Bốn bộ phận cơ bản cấu tạo nên một mạch điện đơn giản hoàn chỉnh gồm những thành phần nào?",
+        "o": [
+          "Vỏ gỗ, ống dẫn nước, van cơ và lò xo",
+          "Chỉ cần bóng đèn và công tắc bằng nhựa không cần nguồn",
+          "Bánh răng, dây đai, trục khuỷu và thanh truyền",
+          "Nguồn điện, dây dẫn điện, thiết bị đóng cắt bảo vệ và tải tiêu thụ điện (phụ tải)"
+        ],
+        "k": "D",
+        "e": "Nguồn cung cấp năng lượng; dây dẫn truyền tải; thiết bị đóng cắt bảo vệ điều khiển an toàn; phụ tải biến điện năng thành quang, nhiệt, cơ năng.",
+        "s": "Công Nghệ 8",
+        "h": "Thành phần mạch điện cơ bản"
+      },
+      {
+        "c": "CN8-B08-002",
+        "d": "basic",
+        "p": "Trong mạch điện sinh hoạt gia đình, cầu dao, công tắc và aptomat thuộc nhóm phần tử nào?",
+        "o": [
+          "Nhóm phụ tải biến điện thành ánh sáng",
+          "Nhóm nguồn cung cấp điện năng một chiều",
+          "Nhóm thiết bị đóng cắt và bảo vệ mạch điện",
+          "Nhóm vật liệu cách điện xây dựng"
+        ],
+        "k": "C",
+        "e": "Công tắc dùng đóng cắt bằng tay ở dòng nhỏ; aptomat vừa đóng cắt vừa tự động ngắt bảo vệ quá tải và ngắn mạch.",
+        "s": "Công Nghệ 8",
+        "h": "Vai trò thiết bị đóng cắt bảo vệ"
+      },
+      {
+        "c": "CN8-B08-003",
+        "d": "basic",
+        "p": "Theo nguyên tắc an toàn kĩ thuật điện trong nhà, công tắc điều khiển bóng đèn hoặc cầu chì bảo vệ phải luôn được mắc nối tiếp trên dây nào của lưới điện xoay chiều?",
+        "o": [
+          "Mắc trên dây trung tính (dây nguội)",
+          "Mắc vào khung gỗ bàn học",
+          "Mắc trên dây pha (dây nóng)",
+          "Mắc song song nối tắt thẳng giữa dây pha và dây trung tính"
+        ],
+        "k": "C",
+        "e": "Khi ngắt công tắc trên dây pha, toàn bộ đui đèn phía sau bị cắt điện hoàn toàn khỏi dây nóng, bảo đảm an toàn khi thay bóng.",
+        "s": "Công Nghệ 8",
+        "h": "Vị trí mắc công tắc và cầu chì"
+      },
+      {
+        "c": "CN8-B08-004",
+        "d": "basic",
+        "p": "Sơ đồ mạch điện gồm các khối: Nguồn điện -> Bộ phận tiếp nhận và xử lí thông tin -> Đối tượng điều khiển (phụ tải) gọi là loại mạch điện gì?",
+        "o": [
+          "Mạch cơ khí truyền động xích",
+          "Mạch nước tưới tiêu nông nghiệp",
+          "Mạch điện ngắn mạch cố ý",
+          "Mạch điện điều khiển"
+        ],
+        "k": "D",
+        "e": "Mạch điện điều khiển sử dụng tín hiệu điều khiển (từ công tắc, nút nhấn, cảm biến hay bộ xử lí) để đóng cắt, điều chỉnh hoạt động của tải.",
+        "s": "Công Nghệ 8",
+        "h": "Cấu trúc mạch điện điều khiển"
+      },
+      {
+        "c": "CN8-B08-005",
+        "d": "basic",
+        "p": "Nút nhấn thường mở (NO) trong mạch điều khiển có trạng thái tiếp điểm như thế nào khi chưa có tay người tác động nhấn vào?",
+        "o": [
+          "Tiếp điểm luôn đóng kín vĩnh viễn không bao giờ mở ra",
+          "Tiếp điểm đang hở không cho dòng điện đi qua; khi nhấn giữ vào thì tiếp điểm đóng lại nối mạch",
+          "Tiếp điểm chỉ hoạt động dưới nước mặn",
+          "Tiếp điểm tự động phát nổ khi chạm nhẹ"
+        ],
+        "k": "B",
+        "e": "Nút nhấn tự trả về trạng thái ban đầu khi nhả tay ra, khác với công tắc bập bênh giữ nguyên trạng thái.",
+        "s": "Công Nghệ 8",
+        "h": "Hoạt động nút nhấn thường mở"
+      },
+      {
+        "c": "CN8-B08-006",
+        "d": "basic",
+        "p": "Phụ tải trong mạch điện chiếu sáng gia đình thực hiện quá trình chuyển hóa năng lượng nào?",
+        "o": [
+          "Chuyển hóa điện năng thành nước sạch tinh khiết",
+          "Chuyển hóa cơ năng thành hóa năng dự trữ trong pin",
+          "Chuyển hóa điện năng thành quang năng (ánh sáng) và một phần nhiệt năng",
+          "Chuyển hóa quang năng thành kim loại đồng"
+        ],
+        "k": "C",
+        "e": "Tùy loại phụ tải (đèn, quạt, ấm đun) mà điện năng chuyển hóa thành ánh sáng, cơ năng hoặc nhiệt năng có ích.",
+        "s": "Công Nghệ 8",
+        "h": "Chức năng phụ tải điện"
+      },
+      {
+        "c": "CN8-B08-007",
+        "d": "application",
+        "p": "Quan sát sơ đồ khối mạch điện điều khiển cơ bản, bộ phận nào tiếp nhận tín hiệu vật lí từ môi trường (như ánh sáng, nhiệt độ, độ ẩm) để chuyển thành tín hiệu điện đưa vào mạch?",
+        "o": [
+          "Cảm biến (khối đầu vào tiếp nhận tín hiệu)",
+          "Phích cắm điện hai chân nối ổ tường",
+          "Động cơ điện quay cánh quạt (khối phụ tải đầu ra)",
+          "Vỏ hộp nhựa bảo vệ bên ngoài"
+        ],
+        "k": "A",
+        "e": "Cảm biến là \"giác quan\" của mạch điều khiển tự động giúp hệ thống nhận biết sự thay đổi môi trường.",
+        "s": "Công Nghệ 8",
+        "h": "Vai trò khối cảm biến đầu vào",
+        "fig": {
+          "w": 360,
+          "h": 110,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  8,
+                  22
+                ],
+                [
+                  82,
+                  22
+                ],
+                [
+                  82,
+                  56
+                ],
+                [
+                  8,
+                  56
+                ]
+              ],
+              "fill": "#fef3c7",
+              "stroke": "#d97706",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                45,
+                43
+              ],
+              "s": "Nguồn điện",
+              "anchor": "middle",
+              "size": 10
+            },
+            {
+              "t": "line",
+              "a": [
+                82,
+                39
+              ],
+              "b": [
+                98,
+                39
+              ],
+              "arrow": true,
+              "color": "#334155",
+              "w": 1.8
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  98,
+                  22
+                ],
+                [
+                  174,
+                  22
+                ],
+                [
+                  174,
+                  56
+                ],
+                [
+                  98,
+                  56
+                ]
+              ],
+              "fill": "#dcfce7",
+              "stroke": "#16a34a",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                136,
+                43
+              ],
+              "s": "Cảm biến",
+              "anchor": "middle",
+              "size": 10
+            },
+            {
+              "t": "line",
+              "a": [
+                174,
+                39
+              ],
+              "b": [
+                190,
+                39
+              ],
+              "arrow": true,
+              "color": "#334155",
+              "w": 1.8
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  190,
+                  22
+                ],
+                [
+                  268,
+                  22
+                ],
+                [
+                  268,
+                  56
+                ],
+                [
+                  190,
+                  56
+                ]
+              ],
+              "fill": "#dbeafe",
+              "stroke": "#2563eb",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                229,
+                43
+              ],
+              "s": "Khối xử lí ĐK",
+              "anchor": "middle",
+              "size": 9.5
+            },
+            {
+              "t": "line",
+              "a": [
+                268,
+                39
+              ],
+              "b": [
+                284,
+                39
+              ],
+              "arrow": true,
+              "color": "#334155",
+              "w": 1.8
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  284,
+                  22
+                ],
+                [
+                  352,
+                  22
+                ],
+                [
+                  352,
+                  56
+                ],
+                [
+                  284,
+                  56
+                ]
+              ],
+              "fill": "#fee2e2",
+              "stroke": "#dc2626",
+              "w": 1.8
+            },
+            {
+              "t": "txt",
+              "p": [
+                318,
+                43
+              ],
+              "s": "Phụ tải",
+              "anchor": "middle",
+              "size": 10
+            },
+            {
+              "t": "txt",
+              "p": [
+                180,
+                90
+              ],
+              "s": "Sơ đồ khối mạch điều khiển",
+              "anchor": "middle",
+              "size": 11
+            }
+          ]
+        }
+      },
+      {
+        "c": "CN8-B08-008",
+        "d": "application",
+        "p": "Trong mạch đèn cầu thang hai tầng dùng hai công tắc ba cực điều khiển một bóng đèn chung, ưu điểm tiện lợi nhất của sơ đồ này là gì?",
+        "o": [
+          "Có thể bật hoặc tắt cùng một bóng đèn cầu thang từ cả đầu tầng dưới lẫn đầu tầng trên một cách độc lập",
+          "Chỉ bật được từ tầng một còn lên tầng hai không thể tắt",
+          "Bắt buộc phải lắp hai bóng đèn giống nhau mắc nối tiếp",
+          "Bóng đèn luôn sáng liên tục 24 giờ không bao giờ tắt được"
+        ],
+        "k": "A",
+        "e": "Hai công tắc ba cực chuyển mạch tạo điều kiện thuận tiện di chuyển ban đêm ở cầu thang hay hành lang dài.",
+        "s": "Công Nghệ 8",
+        "h": "Ứng dụng công tắc 3 cực cầu thang"
+      },
+      {
+        "c": "CN8-B08-009",
+        "d": "application",
+        "p": "So sánh aptomat (CB) với cầu chì dây chảy truyền thống khi xảy ra sự cố quá tải hoặc ngắn mạch, ưu điểm thực tế lớn nhất của aptomat là gì?",
+        "o": [
+          "Khi khắc phục xong sự cố chỉ cần gạt lại cần đóng của aptomat để dùng tiếp ngay mà không cần thay mới dây chảy như cầu chì",
+          "Aptomat không bao giờ tự ngắt kể cả khi dây điện cháy đỏ rực",
+          "Aptomat rẻ hơn một đoạn dây chì ngắn gấp trăm lần",
+          "Aptomat giúp nhân đôi điện áp từ 220 V lên 440 V"
+        ],
+        "k": "A",
+        "e": "Aptomat vừa nhạy, an toàn đóng cắt không tia lửa ra ngoài vừa tái sử dụng được nhiều lần thuận tiện.",
+        "s": "Công Nghệ 8",
+        "h": "Ưu điểm của aptomat bảo vệ"
+      },
+      {
+        "c": "CN8-B08-010",
+        "d": "application",
+        "p": "Nếu một người thợ nối nhầm công tắc một cực sang dây trung tính thay vì dây pha, khi gạt công tắc sang vị trí TẮT (Open), điều gì nguy hiểm còn tiềm ẩn tại đui đèn?",
+        "o": [
+          "Bóng đèn sẽ sáng mạnh gấp ba lần khi công tắc đang tắt",
+          "Dây trung tính tự chuyển sang phát sáng màu xanh",
+          "Bóng đèn đúng là đã tắt không sáng, nhưng dây pha mang điện áp 220 V vẫn nối trực tiếp vào đui đèn nên người chạm vào thay bóng vẫn có thể bị điện giật",
+          "Công tơ điện tự động quay ngược trả lại tiền cho gia đình"
+        ],
+        "k": "C",
+        "e": "Dây pha luôn phải đi qua thiết bị đóng cắt bảo vệ trước khi tới phụ tải.",
+        "s": "Công Nghệ 8",
+        "h": "Nguy hiểm khi lắp công tắc sai dây"
+      },
+      {
+        "c": "CN8-B08-011",
+        "d": "application",
+        "p": "Trong một mạch điện điều khiển đơn giản dùng công tắc từ (công tắc bật tắt bằng nam châm) gắn ở cửa ra vào nhà thông minh để báo trộm hoặc bật đèn sảnh. Khi đóng khít cánh cửa lại gần cảm biến từ thì điều gì xảy ra?",
+        "o": [
+          "Cửa gỗ bị nam châm hút cứng vĩnh viễn không mở được nữa",
+          "Từ trường nam châm tác động lên tiếp điểm từ làm đóng hoặc ngắt mạch báo trạng thái cửa đã đóng hay đang mở",
+          "Mạch điện hoàn toàn không cần nguồn điện cung cấp",
+          "Cảm biến phát ra dòng điện 1000 V đốt cháy cánh cửa"
+        ],
+        "k": "B",
+        "e": "Cảm biến từ cửa sử dụng công tắc lưỡi gà (reed switch) gọn nhẹ, bền và tiêu thụ ít năng lượng.",
+        "s": "Công Nghệ 8",
+        "h": "Nguyên lí công tắc từ cửa"
+      },
+      {
+        "c": "CN8-B08-012",
+        "d": "application",
+        "p": "Nếu đấu hai bóng đèn gia đình loại 220 V mắc NỐI TIẾP với nhau vào nguồn điện 220 V thay vì mắc song song đúng quy cách, hiện tượng gì sẽ xảy ra?",
+        "o": [
+          "Nếu tháo một bóng ra thì bóng còn lại sáng mạnh hơn",
+          "Một bóng sáng bình thường còn bóng kia phát ra âm thanh nhạc",
+          "Cả hai bóng đèn sáng rất yếu (vì điện áp mỗi bóng chỉ còn khoảng 110 V) và nếu một bóng bị cháy đứt dây tóc thì bóng còn lại cũng tắt theo",
+          "Cả hai bóng đều sáng rực gấp đôi bình thường"
+        ],
+        "k": "C",
+        "e": "Mạng điện chiếu sáng và ổ cắm trong nhà luôn mắc song song để mọi thiết bị nhận đủ điện áp định mức 220 V và hoạt động độc lập.",
+        "s": "Công Nghệ 8",
+        "h": "Vì sao tải gia đình mắc song song"
+      },
+      {
+        "c": "CN8-B08-013",
+        "d": "advanced",
+        "p": "Một căn phòng lắp 3 bóng đèn LED 220 V giống nhau mắc song song cùng nối qua một cầu chì tổng 5 A và một công tắc điều khiển chung. Nếu chẳng may đui đèn thứ hai bị chạm hai cực (ngắn mạch cục bộ) khi bật công tắc thì hiện tượng gì xảy ra?",
+        "o": [
+          "Chỉ riêng bóng thứ hai tắt còn hai bóng kia sáng mạnh gấp mười lần mãi mãi",
+          "Cầu chì đóng chặt hơn và dây dẫn nguội lạnh đi",
+          "Dòng điện tăng vọt rất lớn qua điểm ngắn mạch làm cầu chì tổng (hoặc aptomat) nhanh chóng đứt ngắt toàn bộ mạch để bảo vệ dây dẫn khỏi cháy nổ",
+          "Cả ba bóng đèn đều tự động sửa chữa chỗ chập rồi sáng tiếp"
+        ],
+        "k": "C",
+        "e": "Ngắn mạch tạo tổng trở gần bằng 0 gây dòng cực đại tức thời; thiết bị bảo vệ phải ngắt trước khi vỏ dây bốc cháy.",
+        "s": "Công Nghệ 8",
+        "h": "Diễn biến khi xảy ra ngắn mạch"
+      },
+      {
+        "c": "CN8-B08-014",
+        "d": "advanced",
+        "p": "Khi thiết kế mạch điều khiển tự động bật máy bơm tưới cây khi đất khô và tự ngắt khi đất đủ ẩm bằng mô đun cảm biến độ ẩm kết hợp rơ le điện từ, vai trò của rơ le là gì?",
+        "o": [
+          "Đo chính xác lượng mưa rơi trên mái nhà",
+          "Biến đổi đất khô thành đất sét dẻo chỉ bằng dòng điện nhỏ",
+          "Dùng tín hiệu dòng điện nhỏ an toàn từ mạch điều khiển để đóng mở tiếp điểm công suất lớn cấp nguồn xoay chiều 220 V cho động cơ máy bơm hoạt động",
+          "Thay thế hoàn toàn nguồn điện cấp cho máy bơm"
+        ],
+        "k": "C",
+        "e": "Rơ le cách li an toàn giữa phần mạch cảm biến điện áp thấp (5 V hoặc 12 V) với phần mạch động lực điện áp cao (220 V).",
+        "s": "Công Nghệ 8",
+        "h": "Chức năng rơ le trong mạch điều khiển"
+      },
+      {
+        "c": "CN8-B08-015",
+        "d": "advanced",
+        "p": "Trong một phòng thí nghiệm có lắp 1 aptomat tổng 16 A cho mạch gồm 1 bình nước nóng 2500 W, 1 bếp điện 2000 W sử dụng ở lưới điện 220 V. Nếu bật cả hai thiết bị chạy hết công suất cùng một lúc thì chuyện gì xảy ra và vì sao?",
+        "o": [
+          "Aptomat tự động tăng định mức lên 50 A để phục vụ hai thiết bị",
+          "Điện áp lưới tăng từ 220 V lên 440 V",
+          "Tổng công suất là 4500 W tương ứng dòng điện khoảng 20,45 A vượt quá định mức 16 A của aptomat nên aptomat sẽ tự động nhảy ngắt mạch do quá tải",
+          "Cả hai thiết bị chạy bình thường mãi mãi vì 20,45 A nhỏ hơn 16 A"
+        ],
+        "k": "C",
+        "e": "Theo công thức I = P / U = 4500 / 220 ≈ 20,45 A > 16 A; tính toán tổng dòng phụ tải giúp chọn tiết diện dây và aptomat chính xác.",
+        "s": "Công Nghệ 8",
+        "h": "Tính toán dòng tải tránh nhảy aptomat"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe8-c3",
+    "lesson": {
+      "code": "congnghe8-b09",
+      "title": "Bài 9. Cảm biến, mô đun điều khiển tự động và ngành nghề kĩ thuật điện",
+      "seq": 9,
+      "subtitle": "Các loại mô đun cảm biến thông dụng (ánh sáng, nhiệt độ, độ ẩm), mạch ứng dụng thực tế và nghề nghiệp kĩ thuật điện",
+      "concepts": [
+        "Mô đun cảm biến ánh sáng và nhiệt độ",
+        "Mô đun cảm biến độ ẩm và ứng dụng",
+        "Ngành nghề lĩnh vực kĩ thuật điện"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN8-B09-001",
+        "d": "basic",
+        "p": "Mô đun cảm biến ánh sáng (thường dùng quang trở LDR) hoạt động dựa trên nguyên tắc vật lí nào?",
+        "o": [
+          "Đo tốc độ gió thổi trên mặt biển",
+          "Phát ra tia laze cắt xuyên qua kim loại",
+          "Thay đổi màu sắc cánh hoa theo mùa trong năm",
+          "Giá trị điện trở của quang trở thay đổi rõ rệt theo cường độ ánh sáng chiếu vào (trời tối điện trở tăng cao, trời sáng điện trở giảm mạnh)"
+        ],
+        "k": "D",
+        "e": "Nhờ sự biến thiên điện trở theo ánh sáng, mạch so sánh xuất tín hiệu đóng ngắt rơ le bật đèn lúc trời tối.",
+        "s": "Công Nghệ 8",
+        "h": "Nguyên lí cảm biến ánh sáng"
+      },
+      {
+        "c": "CN8-B09-002",
+        "d": "basic",
+        "p": "Hệ thống đèn chiếu sáng công cộng ngoài đường phố tự động bật sáng khi trời sẩm tối và tự động tắt lúc bình minh sử dụng phổ biến loại cảm biến nào?",
+        "o": [
+          "Cảm biến trọng lượng cân xe tải",
+          "Cảm biến ánh sáng",
+          "Cảm biến đo nồng độ muối biển",
+          "Cảm biến độ ẩm đất trồng cây"
+        ],
+        "k": "B",
+        "e": "Tự động hóa chiếu sáng công cộng bằng cảm biến ánh sáng giúp tiết kiệm điện năng và giảm nhân công bật tắt thủ công.",
+        "s": "Công Nghệ 8",
+        "h": "Ứng dụng bật tắt đèn đường"
+      },
+      {
+        "c": "CN8-B09-003",
+        "d": "basic",
+        "p": "Mô đun cảm biến nhiệt độ dùng trong hệ thống ấp trứng gia cầm hoặc điều hòa tự động có nhiệm vụ gì?",
+        "o": [
+          "Làm thay đổi mùi vị thức ăn chăn nuôi",
+          "Nhận biết nhiệt độ môi trường và xuất tín hiệu điều khiển đóng ngắt thiết bị sưởi ấm hoặc làm mát để giữ nhiệt độ quanh ngưỡng cài đặt",
+          "Đo độ sáng của bóng đèn huỳnh quang",
+          "Đếm số lượng gà con đang chạy trong sân"
+        ],
+        "k": "B",
+        "e": "Cảm biến nhiệt độ (như nhiệt điện trở NTC, DS18B20, DHT11) rất quan trọng trong cả gia dụng lẫn nông nghiệp và công nghiệp.",
+        "s": "Công Nghệ 8",
+        "h": "Vai trò cảm biến nhiệt độ"
+      },
+      {
+        "c": "CN8-B09-004",
+        "d": "basic",
+        "p": "Mô đun cảm biến độ ẩm đất gồm hai đầu dò cắm vào luống đất hoạt động dựa trên đại lượng nào của đất?",
+        "o": [
+          "Tốc độ quay của Trái Đất quanh trục",
+          "Độ dẫn điện của lớp đất giữa hai que dò (đất càng ẩm dẫn điện càng tốt, đất khô điện trở càng lớn)",
+          "Độ cứng của đá cuội nằm dưới sâu 10 mét",
+          "Chiều cao của ngọn cây phía trên mặt luống"
+        ],
+        "k": "B",
+        "e": "Dựa vào tín hiệu chênh lệch độ dẫn điện, bộ điều khiển tự mở van điện từ hoặc máy bơm tưới khi đất khô dưới ngưỡng.",
+        "s": "Công Nghệ 8",
+        "h": "Nguyên lí cảm biến độ ẩm đất"
+      },
+      {
+        "c": "CN8-B09-005",
+        "d": "basic",
+        "p": "Trên các mô đun cảm biến thông dụng cho học tập STEM (như cảm biến ánh sáng, độ ẩm đất), núm xoay biến trở xanh nhỏ gắn trên bo mạch dùng để làm gì?",
+        "o": [
+          "Làm tay nắm để kéo bo mạch ra khỏi bàn học",
+          "Chỉnh tăng giảm âm lượng bài hát phát ra từ đất",
+          "Điều chỉnh ngưỡng kích hoạt đóng ngắt (độ nhạy sáng tối, độ khô ẩm mong muốn) cho phù hợp điều kiện thực tế",
+          "Thay thế hoàn toàn nguồn pin cấp điện cho cảm biến"
+        ],
+        "k": "C",
+        "e": "Xoay biến trở vi chỉnh cho phép tinh chỉnh chính xác điểm lật trạng thái HIGH hoặc LOW của mạch so sánh IC trên mô đun.",
+        "s": "Công Nghệ 8",
+        "h": "Công dụng biến trở chỉnh ngưỡng"
+      },
+      {
+        "c": "CN8-B09-006",
+        "d": "basic",
+        "p": "Ngành nghề kĩ thuật điện nào tập trung vào công việc thiết kế lưới điện, vận hành trạm biến áp và truyền tải điện năng từ nhà máy điện đến các khu vực sử dụng?",
+        "o": [
+          "Thợ cắt may trang phục thời trang",
+          "Họa sĩ thiết kế bìa sách thiếu nhi",
+          "Kĩ sư điện (kĩ thuật hệ thống điện và lưới điện truyền tải)",
+          "Đầu bếp chế biến món ăn truyền thống"
+        ],
+        "k": "C",
+        "e": "Kĩ thuật điện có ba nhóm nghề chủ đạo: sản xuất thiết bị điện, thiết kế lắp đặt mạng điện và vận hành bảo dưỡng sửa chữa điện.",
+        "s": "Công Nghệ 8",
+        "h": "Ngành nghề hệ thống điện"
+      },
+      {
+        "c": "CN8-B09-007",
+        "d": "application",
+        "p": "Quan sát bảng các mô đun cảm biến, muốn thiết kế hệ thống quạt thông gió trong nhà kính nông nghiệp tự động chạy khi nhiệt độ vượt quá 35 độ C và tắt khi mát xuống 30 độ C, cần chọn mô đun nào làm đầu vào?",
+        "o": [
+          "Mô đun cảm biến nhiệt độ kết hợp mạch điều khiển ngưỡng nhiệt",
+          "Mô đun cảm biến mức nước trong bể chứa xăng",
+          "Cảm biến ánh sáng gắn ở đáy hầm tối",
+          "Công tắc cơ khí bật tắt bằng tay hoàn toàn"
+        ],
+        "k": "A",
+        "e": "Cảm biến nhiệt độ giám sát liên tục nhiệt độ nhà kính để kịp thời kích hoạt quạt thông gió bảo vệ cây trồng khỏi sốc nhiệt.",
+        "s": "Công Nghệ 8",
+        "h": "Chọn cảm biến điều khiển nhiệt độ",
+        "fig": {
+          "type": "table",
+          "title": "Mô đun cảm biến cơ bản",
+          "head": [
+            "Loại cảm biến",
+            "Ứng dụng tiêu biểu"
+          ],
+          "rows": [
+            [
+              "Cảm biến ánh sáng",
+              "Đèn vườn tự bật tối"
+            ],
+            [
+              "Cảm biến nhiệt độ",
+              "Máy ấp, quạt mát"
+            ],
+            [
+              "Cảm biến độ ẩm đất",
+              "Tưới cây tự động"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN8-B09-008",
+        "d": "application",
+        "p": "Khi lắp đặt mạch đèn cổng tự động bật khi trời tối sử dụng mô đun cảm biến ánh sáng, một học sinh mắc đặt bóng đèn cổng chiếu thẳng trực diện vào mặt quang trở của cảm biến. Hiện tượng lỗi thú vị nào sẽ xảy ra vào ban đêm?",
+        "o": [
+          "Bóng đèn phát ra tiếng chuông báo cháy vang dội",
+          "Đèn sáng liên tục êm ái suốt 10 năm không bao giờ tắt",
+          "Quang trở tự biến thành pin mặt trời cung cấp điện cho cả xóm",
+          "Đèn bật sáng rồi chiếu vào cảm biến làm mạch tưởng trời đã sáng nên tắt phụp đèn, rồi trời lại tối đèn lại bật tắt nhấp nháy liên tục không ngừng"
+        ],
+        "k": "D",
+        "e": "Phải đặt đầu dò cảm biến ánh sáng hướng ra bầu trời tự nhiên và che chắn tránh ánh sáng nhân tạo từ chính bóng đèn chiếu ngược vào.",
+        "s": "Công Nghệ 8",
+        "h": "Lỗi phản hồi ánh sáng khi lắp cảm biến"
+      },
+      {
+        "c": "CN8-B09-009",
+        "d": "application",
+        "p": "Trong thực tế trồng cây cảnh ban công hoặc nhà màng, vì sao cắm trực tiếp hai que đồng trần của cảm biến độ ẩm đất giá rẻ dưới điện áp liên tục nhiều tháng lại dễ bị hỏng que dò?",
+        "o": [
+          "Do nước ngọt làm tan chảy kim loại đồng ngay trong 1 phút",
+          "Do rễ cây ăn hết kim loại đồng để quang hợp",
+          "Do ánh nắng biến que đồng thành cao su dẻo",
+          "Dòng điện một chiều chạy liên tục trong môi trường đất ẩm gây hiện tượng điện phân ăn mòn ôxi hóa nhanh chóng lớp kim loại trên que dò"
+        ],
+        "k": "D",
+        "e": "Khắc phục bằng cách dùng cảm biến độ ẩm điện dung (capacitive) không tiếp xúc kim loại trực tiếp với đất hoặc chỉ cấp nguồn đọc theo chu kì.",
+        "s": "Công Nghệ 8",
+        "h": "Hạn chế ăn mòn điện cực cảm biến"
+      },
+      {
+        "c": "CN8-B09-010",
+        "d": "application",
+        "p": "Cảm biến chuyển động hồng ngoại thân nhiệt (PIR) thường được lắp ở hành lang hoặc cửa nhà vệ sinh tự động dựa vào dấu hiệu vật lí nào để bật đèn?",
+        "o": [
+          "Đo trọng lượng của đôi dép đang đi",
+          "Phát hiện sự thay đổi bức xạ hồng ngoại phát ra từ cơ thể người đang di chuyển qua vùng quét của cảm biến",
+          "Nghe tiếng nói to của người đi qua để nhận diện giọng nói",
+          "Đo độ ẩm của đất dưới nền gạch men"
+        ],
+        "k": "B",
+        "e": "Đèn hành lang gắn PIR chỉ sáng khi có người di chuyển và tự tắt sau vài chục giây không có người giúp tiết kiệm điện tối đa.",
+        "s": "Công Nghệ 8",
+        "h": "Nguyên lí cảm biến hồng ngoại PIR"
+      },
+      {
+        "c": "CN8-B09-011",
+        "d": "application",
+        "p": "Trên bo mạch mô đun điều khiển đóng cắt rơ le (5 V DC điều khiển tải 220 V AC), phía đầu ra thường có ba chân cọc đấu nối kí hiệu COM, NO và NC. Nếu muốn bóng đèn mặc định TẮT và chỉ SÁNG khi cảm biến kích hoạt rơ le đóng, ta nối dây pha qua cặp chân nào?",
+        "o": [
+          "Cặp chân COM và NO (Common và Normally Open - thường mở)",
+          "Nối thẳng vào chân cấp nguồn 5 V của cảm biến",
+          "Cặp chân COM và NC (Normally Closed - thường đóng)",
+          "Nối trực tiếp cả NO và NC chập vào nhau"
+        ],
+        "k": "A",
+        "e": "Chân COM nối với NO khi rơ le được cấp tín hiệu kích hoạt hút tiếp điểm; dùng COM - NC cho trường hợp cần mặc định bật và ngắt khi có sự cố.",
+        "s": "Công Nghệ 8",
+        "h": "Đấu nối tiếp điểm rơ le COM - NO"
+      },
+      {
+        "c": "CN8-B09-012",
+        "d": "application",
+        "p": "Một người làm nghề thợ lắp đặt và sửa chữa mạng điện trong nhà cần có phẩm chất nghề nghiệp cốt lõi nào hàng đầu bên cạnh kiến thức chuyên môn?",
+        "o": [
+          "Không cần hiểu kí hiệu bản vẽ mạch điện",
+          "Thích làm thật ẩu cho xong nhanh không cần kiểm tra cách điện",
+          "Tính cẩn thận, tỉ mỉ, tuân thủ nghiêm ngặt quy trình an toàn điện và tinh thần trách nhiệm cao với tính mạng tài sản người dùng",
+          "Làm việc bất chấp trời mưa bão trên mái tôn ướt không bảo hộ"
+        ],
+        "k": "C",
+        "e": "Một sơ suất nhỏ trong đấu nối hoặc bỏ qua cách điện có thể gây chập cháy và tai nạn điện nghiêm trọng cho cả gia đình sử dụng.",
+        "s": "Công Nghệ 8",
+        "h": "Phẩm chất nghề kĩ thuật điện"
+      },
+      {
+        "c": "CN8-B09-013",
+        "d": "advanced",
+        "p": "Một gia đình lắp máy bơm tăng áp kết hợp cảm biến phao điện trên bồn nước mái nhà để tự động bơm khi cạn và ngắt khi đầy. Để an toàn tuyệt đối tránh rò điện 220 V từ phao bồn nước xuống ống nước kim loại, giải pháp thiết kế mạch điện nào ưu việt nhất?",
+        "o": [
+          "Cắt bỏ toàn bộ dây phao và tự trèo lên mái đứng canh nước cả ngày",
+          "Ngâm luôn cả cầu dao tổng 220 V xuống đáy bể nước",
+          "Dùng dây điện trần không vỏ bọc nối trực tiếp 220 V lên bồn nước inox trên mái",
+          "Sử dụng nguồn điện an toàn 12 V hoặc 24 V qua rơ le trung gian để cấp cho công tắc phao trên bồn nước, chỉ giữ mạch 220 V trong hộp kĩ thuật an toàn gần máy bơm"
+        ],
+        "k": "D",
+        "e": "Điều khiển gián tiếp qua điện áp an toàn thấp (ELV 12 V/24 V) và rơ le loại bỏ hoàn toàn nguy cơ điện giật qua dòng nước sinh hoạt.",
+        "s": "Công Nghệ 8",
+        "h": "Mạch điều khiển phao bơm an toàn"
+      },
+      {
+        "c": "CN8-B09-014",
+        "d": "advanced",
+        "p": "Khi thiết kế hệ thống cửa sổ mái tự động đóng lại khi trời đổ mưa để bảo vệ nông sản phơi bên trong, người kĩ sư cần kết hợp những mô đun phần tử cơ bản nào?",
+        "o": [
+          "Chỉ dùng một chiếc đồng hồ báo thức đặt giờ cố định 12 giờ trưa mỗi ngày",
+          "Dùng loa phát thanh công suất lớn dọa mưa không rơi",
+          "Cảm biến ánh sáng nối trực tiếp không qua công tắc vào bóng đèn sợi đốt",
+          "Cảm biến hạt mưa (hoặc độ ẩm nước mưa) -> Mạch xử lí điều khiển đảo chiều -> Cơ cấu động cơ giảm tốc đóng mở cửa kết hợp công tắc hành trình giới hạn hai đầu"
+        ],
+        "k": "D",
+        "e": "Công tắc hành trình cực kì quan trọng để ngắt động cơ đúng lúc cửa vừa khép kín hoặc mở hết cỡ tránh cháy động cơ kẹt cơ khí.",
+        "s": "Công Nghệ 8",
+        "h": "Thiết kế mái che mưa tự động"
+      },
+      {
+        "c": "CN8-B09-015",
+        "d": "advanced",
+        "p": "Trong một ngôi nhà thông minh tích hợp công nghệ vạn vật kết nối (IoT), việc kết hợp giữa cảm biến tại chỗ với bộ vi điều khiển có kết nối Wi-Fi mang lại khả năng vượt trội nào so với mạch rơ le cảm biến rời thông thường?",
+        "o": [
+          "Người dùng có thể theo dõi dữ liệu nhiệt độ, độ ẩm, điện năng theo thời gian thực qua điện thoại từ xa và thiết lập các kịch bản tự động linh hoạt phức tạp",
+          "Tự động sửa chữa lại toàn bộ tường gạch bị nứt của ngôi nhà",
+          "Không cần dùng bất kì nguồn điện nào cho đèn và quạt trong nhà vẫn hoạt động",
+          "Loại bỏ hoàn toàn mọi dây dẫn điện cấp công suất cho điều hòa"
+        ],
+        "k": "A",
+        "e": "IoT kết hợp cảm biến vật lí và nền tảng đám mây giúp giám sát, cảnh báo sự cố tức thời và tối ưu hóa tiêu thụ năng lượng.",
+        "s": "Công Nghệ 8",
+        "h": "Vai trò IoT trong điều khiển tự động"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe8-c4",
+    "lesson": {
+      "code": "congnghe8-b10",
+      "title": "Bài 10. Vai trò, nguyên tắc và quy trình thiết kế kĩ thuật",
+      "seq": 10,
+      "subtitle": "Vai trò của thiết kế kĩ thuật trong đời sống, các nguyên tắc thiết kế và năm bước quy trình thiết kế kĩ thuật",
+      "concepts": [
+        "Vai trò của thiết kế kĩ thuật",
+        "Các nguyên tắc thiết kế cơ bản",
+        "Quy trình thiết kế kĩ thuật 5 bước"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN8-B10-001",
+        "d": "basic",
+        "p": "Mục tiêu cốt lõi nhất của hoạt động thiết kế kĩ thuật là gì?",
+        "o": [
+          "Vẽ thật nhiều tranh phong cảnh không có kích thước",
+          "Tạo ra các sản phẩm, giải pháp hoặc hệ thống công nghệ mới đáp ứng hiệu quả nhu cầu thiết thực của con người và giải quyết vấn đề thực tiễn",
+          "Chỉ sao chép y hệt một vật đã có mà không quan tâm có dùng được không",
+          "Tạo ra thật nhiều rác thải nhựa khó phân hủy"
+        ],
+        "k": "B",
+        "e": "Thiết kế kĩ thuật là cầu nối biến ý tưởng khoa học sáng tạo thành sản phẩm cụ thể phục vụ đời sống sản xuất.",
+        "s": "Công Nghệ 8",
+        "h": "Vai trò thiết kế kĩ thuật"
+      },
+      {
+        "c": "CN8-B10-002",
+        "d": "basic",
+        "p": "Bước đầu tiên khởi đầu cho mọi quy trình thiết kế kĩ thuật chuyên nghiệp là gì?",
+        "o": [
+          "Đem bán ngay sản phẩm khi chưa có bản vẽ nào",
+          "Xác định vấn đề cần giải quyết và xây dựng yêu cầu đặt ra cho sản phẩm thiết kế",
+          "Chạy ngay ra chợ mua ngẫu nhiên thật nhiều vật liệu đắt tiền",
+          "Phá hủy các mẫu sản phẩm thử nghiệm"
+        ],
+        "k": "B",
+        "e": "Hiểu đúng vấn đề, đối tượng sử dụng và các ràng buộc (chi phí, kích thước, an toàn) quyết định đúng hướng của cả dự án.",
+        "s": "Công Nghệ 8",
+        "h": "Bước 1 quy trình thiết kế"
+      },
+      {
+        "c": "CN8-B10-003",
+        "d": "basic",
+        "p": "Nhóm nguyên tắc nào luôn được xem là yêu cầu tối thiểu gắn liền với mọi sản phẩm kĩ thuật khi đưa vào tay người dùng?",
+        "o": [
+          "Nguyên tắc chỉ dùng được đúng một lần rồi bỏ vứt ra sông",
+          "Nguyên tắc che giấu mọi hướng dẫn sử dụng",
+          "Nguyên tắc càng nặng nề, càng đắt đỏ và càng nguy hiểm càng tốt",
+          "Nguyên tắc tối ưu (công năng, bền đẹp) đi đôi với nguyên tắc an toàn, tiết kiệm tài nguyên và thân thiện môi trường"
+        ],
+        "k": "D",
+        "e": "Các nguyên tắc cốt lõi gồm tiết kiệm tài nguyên, bảo vệ môi trường, đơn giản hóa, bảo đảm an toàn và thỏa mãn nhu cầu.",
+        "s": "Công Nghệ 8",
+        "h": "Nguyên tắc thiết kế kĩ thuật"
+      },
+      {
+        "c": "CN8-B10-004",
+        "d": "basic",
+        "p": "Trong quy trình thiết kế kĩ thuật, sau khi đã xác định rõ vấn đề và các tiêu chí yêu cầu, người thiết kế cần thực hiện bước tiếp theo nào?",
+        "o": [
+          "Vứt bỏ toàn bộ yêu cầu đã đặt ra ở bước 1",
+          "Đóng gói sản phẩm bán ra thị trường ngay lập tức",
+          "Tìm hiểu tổng quan, thu thập thông tin liên quan và đề xuất các phương án giải pháp khác nhau rồi lựa chọn phương án tối ưu",
+          "Ngưng mọi suy nghĩ và chỉ chọn bừa phương án đầu tiên xuất hiện trong đầu mà không cần so sánh"
+        ],
+        "k": "C",
+        "e": "Động não đề xuất nhiều phương án rồi chấm điểm theo bảng tiêu chí giúp tìm ra giải pháp cân bằng nhất về kĩ thuật và chi phí.",
+        "s": "Công Nghệ 8",
+        "h": "Bước đề xuất và chọn giải pháp"
+      },
+      {
+        "c": "CN8-B10-005",
+        "d": "basic",
+        "p": "Vai trò của việc lập hồ sơ kĩ thuật (bản vẽ thiết kế, sơ đồ nguyên lí, bảng vật liệu) trước khi chế tạo sản phẩm mẫu là gì?",
+        "o": [
+          "Giúp hình dung cụ thể cấu tạo, kiểm tra tính khả thi lắp ghép và làm căn cứ chính xác để gia công chế tạo nguyên mẫu đúng kích thước",
+          "Chỉ để cất vào ngăn kéo không bao giờ mang ra xem khi làm mẫu",
+          "Thay thế hoàn toàn sản phẩm thật ngoài đời",
+          "Làm tăng giá bán sản phẩm lên gấp trăm lần"
+        ],
+        "k": "A",
+        "e": "Bản vẽ phác thảo và bản vẽ kĩ thuật giảm sai sót lãng phí vật liệu khi cắt ghép lắp ráp nguyên mẫu.",
+        "s": "Công Nghệ 8",
+        "h": "Vai trò bản vẽ thiết kế"
+      },
+      {
+        "c": "CN8-B10-006",
+        "d": "basic",
+        "p": "Chế tạo nguyên mẫu (prototype) trong thiết kế kĩ thuật có ý nghĩa gì?",
+        "o": [
+          "Bắt buộc phải sản xuất ngay 1 triệu chiếc giống nhau từ lần thử đầu tiên",
+          "Chỉ làm bằng giấy vẽ màu không thể cầm nắm hoặc kiểm tra hoạt động",
+          "Là mô hình vật chất ban đầu dùng để thử nghiệm thực tế khả năng hoạt động, phát hiện lỗi sai và đánh giá cải tiến trước khi sản xuất hàng loạt",
+          "Là sản phẩm hoàn hảo tuyệt đối không bao giờ cần chỉnh sửa lại"
+        ],
+        "k": "C",
+        "e": "Thử nghiệm trên nguyên mẫu giúp phát hiện các lỗi ẩn về độ bền, thao tác hoặc chi phí để điều chỉnh kịp thời.",
+        "s": "Công Nghệ 8",
+        "h": "Ý nghĩa chế tạo nguyên mẫu"
+      },
+      {
+        "c": "CN8-B10-007",
+        "d": "application",
+        "p": "Quan sát bảng 5 bước quy trình thiết kế kĩ thuật, vì sao quy trình này thường được vẽ như một vòng lặp khép kín có mũi tên quay ngược lại thay vì đi thẳng một chiều không bao giờ quay đầu?",
+        "o": [
+          "Vì không bao giờ có sản phẩm nào làm xong được bước cuối",
+          "Vì pháp luật cấm sản phẩm hoàn thành trong vòng một năm",
+          "Khi thử nghiệm nguyên mẫu nếu chưa đạt tiêu chí ban đầu, nhóm thiết kế cần quay lại chỉnh giải pháp hoặc bản vẽ để hoàn thiện sản phẩm",
+          "Vì người thiết kế hay quên mình đang làm đến bước thứ mấy"
+        ],
+        "k": "C",
+        "e": "Tính lặp (iteration) là bản chất sáng tạo của thiết kế kĩ thuật nhằm liên tục tối ưu hóa sản phẩm qua bằng chứng thử nghiệm.",
+        "s": "Công Nghệ 8",
+        "h": "Tính vòng lặp trong quy trình thiết kế",
+        "fig": {
+          "type": "table",
+          "title": "Quy trình thiết kế",
+          "head": [
+            "Thứ tự bước",
+            "Hoạt động trọng tâm"
+          ],
+          "rows": [
+            [
+              "Bước 1",
+              "Xác định đề, tiêu"
+            ],
+            [
+              "Bước 2",
+              "Đề xuất giải pháp"
+            ],
+            [
+              "Bước 3 - 5",
+              "Vẽ -> Mẫu -> Sửa"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN8-B10-008",
+        "d": "application",
+        "p": "Khi thiết kế một chiếc giá đỡ điện thoại học trực tuyến đặt trên bàn cho học sinh THCS, hai tiêu chí ưu tiên thực tế nào cần đưa vào danh sách yêu cầu ngay từ Bước 1?",
+        "o": [
+          "Chỉ giữ được điện thoại khi đặt ngoài trời mưa",
+          "Phải tiêu thụ điện năng 2000 W liên tục để giữ điện thoại",
+          "Phải nặng tối thiểu 50 kg và cao 2 mét đặt giữa lối đi",
+          "Chắc chắn chống trượt đổ ở nhiều góc nghiêng phù hợp tầm mắt, vừa vặn khe cắm sạc và giá thành hợp lí dễ gia công từ vật liệu an toàn"
+        ],
+        "k": "D",
+        "e": "Tiêu chí thiết kế rõ ràng đo đếm được giúp bước đánh giá và chọn giải pháp ở sau hoàn toàn khách quan.",
+        "s": "Công Nghệ 8",
+        "h": "Đặt tiêu chí thiết kế phù hợp"
+      },
+      {
+        "c": "CN8-B10-009",
+        "d": "application",
+        "p": "Nguyên tắc thiết kế \"Đơn giản hóa\" khi tạo ra sản phẩm dân dụng (như ổ cắm điện, bàn học gấp gọn) giúp đạt được lợi ích kép nào?",
+        "o": [
+          "Làm sản phẩm mất hết công năng chính không dùng được việc gì",
+          "Làm sản phẩm dễ gãy vỡ ngay sau lần dùng đầu tiên",
+          "Giảm số lượng chi tiết dư thừa làm hạ giá thành sản xuất, dễ lắp đặt bảo dưỡng và thân thiện trực quan cho mọi người dễ sử dụng",
+          "Tăng số lượng nút bấm phức tạp lên hàng trăm nút khó hiểu"
+        ],
+        "k": "C",
+        "e": "Thiết kế đơn giản tinh gọn là đỉnh cao kĩ thuật khi đạt hiệu quả công năng tối đa với kết cấu ít phức tạp nhất.",
+        "s": "Công Nghệ 8",
+        "h": "Ý nghĩa nguyên tắc đơn giản hóa"
+      },
+      {
+        "c": "CN8-B10-010",
+        "d": "application",
+        "p": "Nghề kĩ sư thiết kế công nghiệp (Industrial Designer) khác với người công nhân đứng máy gia công ở nhiệm vụ trọng tâm nào?",
+        "o": [
+          "Chỉ trực tiếp vận hành một chiếc máy tiện suốt cả ngày theo bản vẽ có sẵn",
+          "Nghiên cứu nhu cầu người dùng, sáng tạo hình dáng công năng, lựa chọn vật liệu, mô phỏng tính toán bền và lập bộ hồ sơ bản vẽ kĩ thuật cho sản phẩm mới",
+          "Chỉ viết bài quảng cáo không liên quan tới cấu tạo kĩ thuật sản phẩm",
+          "Chỉ làm nhiệm vụ lái xe tải vận chuyển hàng hóa đến siêu thị"
+        ],
+        "k": "B",
+        "e": "Kĩ sư thiết kế sáng tạo ra sản phẩm mới kết hợp hài hòa giữa công năng kĩ thuật, thẩm mĩ công thái học và kinh tế.",
+        "s": "Công Nghệ 8",
+        "h": "Vai trò kĩ sư thiết kế công nghiệp"
+      },
+      {
+        "c": "CN8-B10-011",
+        "d": "application",
+        "p": "Một nhóm học sinh thiết kế thùng phân loại rác đặt ở hành lang lớp học. Việc làm nắp thùng có màu sắc rõ ràng kèm hình vẽ biểu tượng và miệng lỗ tròn riêng cho chai nhựa thể hiện việc áp dụng nguyên tắc thiết kế nào?",
+        "o": [
+          "Nguyên tắc gây khó khăn nhầm lẫn cho người vứt rác",
+          "Nguyên tắc hướng đến người sử dụng trực quan, an toàn vệ sinh và hỗ trợ bảo vệ môi trường tái chế",
+          "Nguyên tắc lãng phí tối đa nguyên vật liệu quý hiếm",
+          "Nguyên tắc tiêu thụ điện năng cực đại"
+        ],
+        "k": "B",
+        "e": "Thiết kế thân thiện hành vi người dùng (ergonomics & affordance) giúp người dùng phân loại đúng tự nhiên không cần đọc hướng dẫn dài.",
+        "s": "Công Nghệ 8",
+        "h": "Thiết kế gắn với hành vi người dùng"
+      },
+      {
+        "c": "CN8-B10-012",
+        "d": "application",
+        "p": "Trong giai đoạn tìm hiểu tổng quan để thiết kế đèn học chống cận thị cho học sinh, việc khảo sát các mẫu đèn đang bán trên thị trường giúp ích gì nhiều nhất?",
+        "o": [
+          "Để tăng giá thành nguyên vật liệu lên thật cao",
+          "Để sao chép trái phép y nguyên nhãn mác thương hiệu của công ty khác",
+          "Để từ bỏ không làm dự án thiết kế nữa",
+          "Học hỏi giải pháp cơ khí chỉnh góc hay, nhận ra nhược điểm cũ (chói mắt, nóng chao, dễ đổ) để tránh lặp lại và tạo cải tiến vượt trội"
+        ],
+        "k": "D",
+        "e": "Phân tích sản phẩm hiện có tránh \"phát minh lại bánh xe\" và định vị chính xác giá trị cải tiến của giải pháp mới.",
+        "s": "Công Nghệ 8",
+        "h": "Giá trị khảo sát sản phẩm hiện có"
+      },
+      {
+        "c": "CN8-B10-013",
+        "d": "advanced",
+        "p": "Một nhóm thiết kế làm mô hình máy thu gom rác nổi chạy pin mặt trời trên mặt hồ công viên. Khi thử nghiệm thả xuống nước hồ thật, mô hình bị chúi đầu chìm phần mũi trước xuống nước dù khi tính toán trên giấy vẫn đúng. Bước tiếp theo đúng chuẩn quy trình thiết kế là gì?",
+        "o": [
+          "Dán kín hồ nước bằng xi măng để mô hình không bị chìm",
+          "Ghi nhận sai lệch trọng tâm và thể tích phao, quay lại chỉnh kết cấu (dịch pin ra sau hoặc tăng phao mũi) rồi chế tạo thử nghiệm lại",
+          "Vứt bỏ luôn toàn bộ dự án hoặc giấu kết quả đi và báo cáo sản phẩm hoạt động hoàn hảo",
+          "Đổ thêm 10 kg đá sỏi lên phần mũi trước đang bị chìm"
+        ],
+        "k": "B",
+        "e": "Thử nghiệm thất bại trên nguyên mẫu không phải điểm dừng mà là dữ liệu vàng để vòng lặp thiết kế tìm ra điểm cân bằng trọng tâm chuẩn.",
+        "s": "Công Nghệ 8",
+        "h": "Xử lí sự cố thử nghiệm nguyên mẫu"
+      },
+      {
+        "c": "CN8-B10-014",
+        "d": "advanced",
+        "p": "Khi thiết kế một chiếc cầu vượt nhẹ dành cho người đi bộ qua đường phố đông đúc, hai nhóm yêu cầu kĩ thuật đối lập nhau dễ phát sinh mâu thuẫn là trọng lượng kết cấu nhẹ thẩm mĩ với hệ số an toàn chịu tải trọng đông người và gió bão. Nguyên tắc giải quyết đúng của kĩ sư thiết kế là gì?",
+        "o": [
+          "Đặt an toàn chịu tải và bền vững kết cấu làm giới hạn bắt buộc, rồi dùng khung giàn thông minh hoặc vật liệu nhẹ tối ưu khối lượng, thẩm mĩ",
+          "Bỏ qua tính toán tải trọng gió bão để tiết kiệm thời gian thiết kế",
+          "Cắt giảm một nửa tiết diện dầm thép dưới ngưỡng an toàn để cầu thật nhẹ đẹp mắt",
+          "Xây bức tường bê tông bịt kín không cho bất kì người đi bộ nào lên cầu"
+        ],
+        "k": "A",
+        "e": "An toàn tính mạng con người luôn là ràng buộc cứng tối thượng trong mọi thiết kế kĩ thuật xây dựng và giao thông.",
+        "s": "Công Nghệ 8",
+        "h": "Nguyên tắc ưu tiên an toàn khi đánh đổi"
+      },
+      {
+        "c": "CN8-B10-015",
+        "d": "advanced",
+        "p": "Tại sao xu hướng \"Thiết kế để dễ tái chế và sửa chữa\" (Design for Disassembly & Repair) đang được nhiều hãng công nghệ lớn chuyển sang áp dụng thay cho việc đổ keo dán kín chết toàn bộ thiết bị điện tử?",
+        "o": [
+          "Vì đổ keo dán kín giúp mọi người thay pin dễ dàng hơn bằng tay không",
+          "Thiết kế lắp ốc tiêu chuẩn và mô đun rời giúp dễ thay pin, sửa lỗi tăng tuổi thọ và tách sạch từng vật liệu khi tái chế, giảm rác điện tử",
+          "Vì thiết kế dễ tháo lắp làm tăng gấp mười lần lượng rác nhựa độc hại",
+          "Vì sửa chữa được làm khách hàng phải vứt bỏ toàn bộ máy mới mua sau 1 tuần"
+        ],
+        "k": "B",
+        "e": "Thiết kế có trách nhiệm với toàn bộ vòng đời sản phẩm là chuẩn mực mới của kĩ thuật bền vững thế kỉ 21.",
+        "s": "Công Nghệ 8",
+        "h": "Thiết kế cho vòng đời bền vững"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe8-c4",
+    "lesson": {
+      "code": "congnghe8-b11",
+      "title": "Bài 11. Lựa chọn giải pháp, lập bản vẽ thiết kế và chế tạo nguyên mẫu",
+      "seq": 11,
+      "subtitle": "Kĩ thuật động não đề xuất ý tưởng, lập ma trận tiêu chí chọn giải pháp, lập bản vẽ chi tiết lắp ráp và gia công nguyên mẫu an toàn",
+      "concepts": [
+        "Đề xuất và đánh giá chọn giải pháp",
+        "Lập bản vẽ và kế hoạch chế tạo",
+        "Chế tạo nguyên mẫu an toàn"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN8-B11-001",
+        "d": "basic",
+        "p": "Phương pháp động não (Brainstorming) trong giai đoạn tìm kiếm ý tưởng thiết kế nhóm tuân thủ nguyên tắc quan trọng nào để không bóp nghẹt sáng tạo?",
+        "o": [
+          "Phê bình gay gắt bác bỏ ngay lập tức mọi ý tưởng lạ",
+          "Sao chép nguyên văn một ý tưởng cũ duy nhất rồi kết thúc",
+          "Chỉ cho phép duy nhất nhóm trưởng được nói một ý kiến",
+          "Khuyến khích mọi thành viên đưa ra thật nhiều ý tưởng đa dạng, không vội vàng chê bai phán xét ngay trong lúc phát biểu ý tưởng"
+        ],
+        "k": "D",
+        "e": "Tách biệt giai đoạn phát triển số lượng ý tưởng rộng mở với giai đoạn sàng lọc đánh giá logic sau đó giúp nảy sinh giải pháp đột phá.",
+        "s": "Công Nghệ 8",
+        "h": "Quy tắc động não nhóm thiết kế"
+      },
+      {
+        "c": "CN8-B11-002",
+        "d": "basic",
+        "p": "Công cụ nào giúp nhóm thiết kế so sánh khách quan 3 phương án khác nhau dựa trên nhiều yếu tố như chi phí, độ bền, tính dễ chế tạo và thẩm mĩ?",
+        "o": [
+          "Chọn phương án tốn nhiều tiền nhất theo cảm tính",
+          "Tung đồng xu sấp ngửa ba lần",
+          "Chọn phương án có tên gọi dài nhất",
+          "Bảng tiêu chí đánh giá (ma trận quyết định có chấm điểm theo trọng số)"
+        ],
+        "k": "D",
+        "e": "Chấm điểm từng tiêu chí rõ ràng giúp chọn được giải pháp tổng hòa tối ưu và giải trình minh bạch lý do lựa chọn.",
+        "s": "Công Nghệ 8",
+        "h": "Sử dụng ma trận chọn giải pháp"
+      },
+      {
+        "c": "CN8-B11-003",
+        "d": "basic",
+        "p": "Trước khi bắt tay vào cắt vật liệu làm nguyên mẫu, bản vẽ thiết kế chi tiết cần ghi đầy đủ các thông số cơ bản nào?",
+        "o": [
+          "Hình dáng chi tiết, kích thước lắp ghép chính xác, số lượng từng bộ phận và loại vật liệu dự kiến sử dụng",
+          "Chỉ cần vẽ một hình tròn tượng trưng không ghi một con số nào",
+          "Chỉ viết lời bài hát yêu thích của nhóm",
+          "Chỉ ghi giá tiền dự kiến bán ngoài chợ"
+        ],
+        "k": "A",
+        "e": "Bản vẽ rõ kích thước giúp đo vạch dấu cắt gọt khớp nhau ngay từ đầu, tránh cắt hụt phải bỏ đi làm lại.",
+        "s": "Công Nghệ 8",
+        "h": "Nội dung cần có ở bản vẽ thiết kế"
+      },
+      {
+        "c": "CN8-B11-004",
+        "d": "basic",
+        "p": "Khi lập kế hoạch chế tạo nguyên mẫu cho một sản phẩm đơn giản (như giá để sách hoặc quạt mini năng lượng mặt trời), việc liệt kê bảng dự trù vật liệu và phân công dụng cụ giúp ích gì?",
+        "o": [
+          "Giúp mọi thành viên ngồi chơi chờ một người làm hết toàn bộ",
+          "Bỏ qua hoàn toàn các khâu đo đạc kiểm tra",
+          "Chuẩn bị đồng bộ đủ vật tư phù hợp ngân sách, chủ động kiểm tra an toàn dụng cụ và phối hợp nhịp nhàng không chồng chéo giữa các thành viên",
+          "Tăng lượng vật tư mua thừa gấp năm lần để vứt bỏ"
+        ],
+        "k": "C",
+        "e": "Lập kế hoạch thi công rõ ràng từng công đoạn giúp tiết kiệm thời gian thực hành và bảo đảm tiến độ dự án.",
+        "s": "Công Nghệ 8",
+        "h": "Vai trò kế hoạch chế tạo"
+      },
+      {
+        "c": "CN8-B11-005",
+        "d": "basic",
+        "p": "Trong phòng thực hành công nghệ khi học sinh sử dụng súng bắn keo nến nóng, dao rọc giấy hoặc mỏ hàn thiếc làm nguyên mẫu, nguyên tắc an toàn tối quan trọng là gì?",
+        "o": [
+          "Đùa nghịch vẩy mỏ hàn đang nóng 300 độ sang bạn bên cạnh",
+          "Thao tác tập trung dứt khoát hướng lưỡi dao ra xa cơ thể, đặt dụng cụ nhiệt lên giá đỡ chuyên dụng cách xa vật dễ cháy và đeo đồ bảo hộ phù hợp",
+          "Kê trực tiếp ngón tay vào đường kéo của lưỡi dao rọc giấy",
+          "Cắm súng bắn keo nóng rồi bỏ ra ngoài sân chơi 2 tiếng"
+        ],
+        "k": "B",
+        "e": "Phần lớn tai nạn xưởng trường học xảy ra do mất tập trung, đùa nghịch hoặc đặt sai vị trí dụng cụ cắt và dụng cụ nhiệt.",
+        "s": "Công Nghệ 8",
+        "h": "An toàn gia công nguyên mẫu"
+      },
+      {
+        "c": "CN8-B11-006",
+        "d": "basic",
+        "p": "Ưu điểm của việc sử dụng vật liệu tái chế sạch (như bìa carton cứng, ống nhựa PVC vụn, que gỗ kem, chai nhựa sạch) để làm nguyên mẫu thử nghiệm ở giai đoạn đầu là gì?",
+        "o": [
+          "Vì bìa carton bền cứng hơn thép không gỉ gấp mười lần khi ngâm dưới biển",
+          "Vì làm bằng bìa carton thì không bao giờ cần đo kích thước",
+          "Vì chai nhựa có thể chịu được nhiệt độ nung chảy thép 1500 độ C",
+          "Chi phí rất rẻ, dễ cắt chỉnh sửa nhanh nhiều lần để kiểm tra kích thước hình dáng trước khi đầu tư vật liệu kim loại hay nhựa đắt tiền"
+        ],
+        "k": "D",
+        "e": "Nguyên mẫu thô (low-fidelity prototype) kiểm chứng nhanh công năng bố cục không gian với chi phí gần như bằng không.",
+        "s": "Công Nghệ 8",
+        "h": "Lợi ích nguyên mẫu vật liệu dễ tạo hình"
+      },
+      {
+        "c": "CN8-B11-007",
+        "d": "application",
+        "p": "Quan sát bảng ma trận đánh giá 3 phương án thiết kế kệ đựng dụng cụ học tập (thang điểm 1 đến 5, điểm cao là tốt nhất). Nếu nhóm cần ưu tiên tính bền và dễ làm tại trường thì phương án nào tối ưu nhất?",
+        "o": [
+          "Phương án A (tổng điểm chỉ đạt 11/20 và rất khó gia công)",
+          "Không chọn phương án nào mà chuyển sang mua kệ làm sẵn",
+          "Phương án C (tổng điểm đạt 12/20 và chi phí quá cao)",
+          "Phương án B (đạt tổng điểm cao nhất 18/20 với độ bền và khả năng gia công đều đạt mức tốt)"
+        ],
+        "k": "D",
+        "e": "Cộng điểm các tiêu chí giúp loại bỏ cảm tính; ở đây Phương án B vượt trội toàn diện trên cả 4 tiêu chí.",
+        "s": "Công Nghệ 8",
+        "h": "Đọc ma trận đánh giá giải pháp",
+        "fig": {
+          "type": "table",
+          "title": "Chấm điểm chọn giải pháp",
+          "head": [
+            "Tiêu chí (1-5)",
+            "P.án A | B | C"
+          ],
+          "rows": [
+            [
+              "Công năng tốt",
+              "4  |  5  |  4"
+            ],
+            [
+              "Bền & an toàn",
+              "3  |  5  |  3"
+            ],
+            [
+              "Dễ làm & rẻ",
+              "2+2 | 4+4 | 3+2"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN8-B11-008",
+        "d": "application",
+        "p": "Khi thiết kế một ngôi nhà mô hình có hệ thống điện chiếu sáng dùng pin 3 V hoặc 9 V, bộ phận nối dây và công tắc cần bố trí lắp ghép sao cho đạt yêu cầu kĩ thuật và thẩm mĩ?",
+        "o": [
+          "Nối dây bằng cách đặt hờ hai đầu dây cách nhau 1 cm không xoắn buộc",
+          "Dây dẫn chạy gọn giấu sát theo góc tường trần, các mối nối xoắn chắc bọc băng dính cách điện kín và đặt công tắc ở vị trí dễ bấm bật tắt bên ngoài",
+          "Dán chết công tắc vào mặt dưới đế mô hình không thể thò tay bấm",
+          "Để dây trần lòi lõi đồng chạm chập lung tung giữa sàn nhà"
+        ],
+        "k": "B",
+        "e": "Đi dây gọn gàng, mối nối chắc có cách điện không chỉ đẹp mắt mà còn ngăn đoản mạch làm nóng hỏng pin.",
+        "s": "Công Nghệ 8",
+        "h": "Yêu cầu lắp mạch điện nguyên mẫu"
+      },
+      {
+        "c": "CN8-B11-009",
+        "d": "application",
+        "p": "Một nhóm thiết kế làm giá đỡ điện thoại bằng gỗ ván ép nhưng khi lắp thử hai thanh chống vào khe rãnh cắt theo bản vẽ lại bị lỏng tuột không giữ được góc nghiêng. Sai sót phổ biến nào dẫn đến lỗi lắp ghép này?",
+        "o": [
+          "Không tính đúng bề dày thực tế của tấm gỗ ván ép khi vạch dấu bề rộng rãnh ngàm, hoặc cắt lẹm ra ngoài đường vạch dấu",
+          "Vì gỗ ván ép tự động bốc hơi mất một nửa bề dày sau 5 phút",
+          "Vì điện thoại nhẹ hơn tờ giấy mỏng",
+          "Vì bản vẽ có ghi đầy đủ các bước lắp ghép"
+        ],
+        "k": "A",
+        "e": "Đo chính xác bề dày vật liệu thật bằng thước cặp trước khi xẻ rãnh ngàm âm dương giúp mối ghép khít chắc chắn.",
+        "s": "Công Nghệ 8",
+        "h": "Lỗi thường gặp khi làm mối ghép rãnh"
+      },
+      {
+        "c": "CN8-B11-010",
+        "d": "application",
+        "p": "Trong công đoạn hàn nối các chân linh kiện của mạch điện tử cảm biến lên bo mạch thử nghiệm, thao tác đúng để tạo mối hàn bóng chắc không bị \"hàn nguội\" dễ bung là gì?",
+        "o": [
+          "Thổi thật mạnh vào giọt thiếc đang nóng chảy để giọt thiếc bắn văng khắp bàn",
+          "Làm nóng đều chân linh kiện và vòng đồng bằng mũi hàn sạch, đưa thiếc vừa đủ chảy bao đều rồi nhấc thiếc trước, nhấc mỏ hàn sau giữ yên cho nguội",
+          "Chấm thiếc chảy trên đầu mỏ hàn từ xa rồi nhỏ giọt rơi xuống mặt nhựa bo mạch",
+          "Chưa cắm điện mỏ hàn đã dí mạnh gãy chân linh kiện"
+        ],
+        "k": "B",
+        "e": "Mối hàn tốt có dạng hình nón trơn bóng ôm kín chân linh kiện và pad đồng, không bị xỉn xù hay nối cầu chạm sang chân bên cạnh.",
+        "s": "Công Nghệ 8",
+        "h": "Kĩ thuật hàn linh kiện mạch điện"
+      },
+      {
+        "c": "CN8-B11-011",
+        "d": "application",
+        "p": "Khi chế tạo nguyên mẫu xe chạy bằng lực đàn hồi dây chun, một bạn chọn trục bánh xe làm bằng ống hút nhựa quá mềm còn bánh xe cắt từ bìa mỏng hơi méo lệch tâm. Kết quả chạy thử dễ bị lỗi gì?",
+        "o": [
+          "Xe chạy thẳng tắp đạt vận tốc 100 km/h",
+          "Bánh xe tự tròn lại sau khi lăn 1 mét",
+          "Trục bị uốn cong vặn xoắn khi dây chun kéo căng và bánh lệch tâm khiến xe chạy xiên vẹo, ma sát lớn dừng ngay lập tức",
+          "Dây chun tự biến thành động cơ xăng 4 kì"
+        ],
+        "k": "C",
+        "e": "Chọn đúng độ cứng trục (que tre tròn thẳng trong ống hút làm ổ trục trơn) và định tâm bánh xe chuẩn giúp giảm ma sát lăn tối đa.",
+        "s": "Công Nghệ 8",
+        "h": "Phân tích nguyên nhân lỗi nguyên mẫu xe"
+      },
+      {
+        "c": "CN8-B11-012",
+        "d": "application",
+        "p": "Tại sao trong bản vẽ lắp nguyên mẫu dự án STEM, việc đánh số thứ tự từng chi tiết kèm danh sách kích thước cắt phôi lại đặc biệt hữu ích khi làm việc nhóm 4 người?",
+        "o": [
+          "Để làm tăng độ phức tạp không cần thiết cho bài thuyết trình",
+          "Để chia tách nhóm thành 4 dự án hoàn toàn không liên quan gì với nhau",
+          "Để giấu kích thước không cho bạn cùng nhóm biết cách làm",
+          "Mỗi thành viên có thể đảm nhận gia công chính xác một vài chi tiết độc lập theo đúng mã số và kích thước chuẩn rồi lắp ráp khớp hoàn toàn với phần của bạn khác"
+        ],
+        "k": "D",
+        "e": "Chuẩn hóa giao diện lắp ghép trên bản vẽ giúp chia việc song song hiệu quả như dây chuyền kĩ thuật thực thụ.",
+        "s": "Công Nghệ 8",
+        "h": "Điều phối làm việc nhóm qua bản vẽ"
+      },
+      {
+        "c": "CN8-B11-013",
+        "d": "advanced",
+        "p": "Giả sử nhóm thiết kế muốn chế tạo hệ thống tưới nhỏ giọt tự động ban công nhưng tiêu chí ngân sách tối đa chỉ cho phép dưới 200.000 đồng. Khi so sánh phương án dùng vi điều khiển lập trình đắt tiền kết nối điện thoại với phương án dùng mô đun rơ le cảm biến độ ẩm cơ bản hoặc van hẹn giờ cơ, cách ra quyết định nào chuẩn mực nhất?",
+        "o": [
+          "Bỏ hẳn khâu tưới cây chỉ làm mỗi đèn nhấp nháy cho đúng tiền",
+          "Mua mỗi cảm biến về bỏ vào hộp không kết nối với van nước nào",
+          "Vẫn chọn phương án tốn 2.000.000 đồng rồi xin nợ nhà cung cấp",
+          "Chọn phương án cảm biến độ ẩm hoặc van hẹn giờ đáp ứng tưới tự động trong ngân sách < 200.000 đồng, vì giới hạn chi phí là tiêu chí bắt buộc"
+        ],
+        "k": "D",
+        "e": "Thiết kế kĩ thuật xuất sắc là thiết kế đáp ứng đúng và đủ yêu cầu trong giới hạn ràng buộc nguồn lực thực tế (ngân sách, thời gian, công cụ).",
+        "s": "Công Nghệ 8",
+        "h": "Ra quyết định trong giới hạn ngân sách"
+      },
+      {
+        "c": "CN8-B11-014",
+        "d": "advanced",
+        "p": "Một nguyên mẫu cầu giấy chịu tải nặng có hai phương án làm dầm ngang: cùng một tờ bìa cứng cắt thành dải phẳng đặt nằm ngang so với gấp thành dạng thanh chữ U hoặc ống tam giác (kết cấu rỗng gân tăng cứng). Kết quả chịu lực khác nhau như thế nào?",
+        "o": [
+          "Cả hai dạng hình học chịu tải giống hệt nhau đến từng gam",
+          "Thanh gấp chữ U hoặc ống tam giác có chiều cao tiết diện và mô men quán tính lớn hơn rất nhiều nên chịu tải uốn gãy tốt hơn gấp nhiều lần dải phẳng nằm ngang",
+          "Dải phẳng nằm ngang chịu nặng hơn thanh tam giác gấp mười lần",
+          "Thanh gấp hình tam giác tự động bị sập gãy ngay cả khi chưa đặt vật gì lên"
+        ],
+        "k": "B",
+        "e": "Ứng dụng nguyên lí hình học tiết diện rỗng gân tăng cứng (như dầm chữ I, tôn sóng) là bí quyết tạo kết cấu siêu nhẹ mà siêu bền.",
+        "s": "Công Nghệ 8",
+        "h": "Tăng độ cứng kết cấu bằng hình dạng"
+      },
+      {
+        "c": "CN8-B11-015",
+        "d": "advanced",
+        "p": "Trong giai đoạn chế tạo mô hình máy lọc nước mini đơn giản từ chai nhựa với các lớp sỏi, cát thạch anh, than hoạt tính và bông lọc, thứ tự xếp tầng từ trên xuống dưới (nước bẩn đổ vào từ trên chảy xuống đáy) phải sắp xếp thế nào cho đúng nguyên lí lọc cơ học và hấp phụ?",
+        "o": [
+          "Đặt lớp than hoạt tính lên trên cùng rồi không dùng bông giữ đáy",
+          "Trên cùng là bông mỏng -> giữa là sỏi lớn -> dưới cùng là bùn đất sét đặc",
+          "Trộn lẫn tất cả sỏi, cát, than và nước bẩn khuấy đều thành một hỗn hợp đặc",
+          "Trên cùng là sỏi to giữ cặn lớn -> cát mịn giữ hạt nhỏ -> than hoạt tính khử mùi màu -> dưới cùng là bông vải giữ hạt than"
+        ],
+        "k": "D",
+        "e": "Lọc phân tầng từ kích thước hạt thô đến mịn giúp dòng chảy thông suốt không bị tắc nghẽn ngay lớp mặt mà nước ra vẫn trong sạch.",
+        "s": "Công Nghệ 8",
+        "h": "Nguyên lí sắp xếp tầng vật liệu lọc"
+      }
+    ]
+  },
+  {
+    "chapter": "congnghe8-c4",
+    "lesson": {
+      "code": "congnghe8-b12",
+      "title": "Bài 12. Đánh giá sản phẩm, cải tiến thiết kế và dự án thiết kế xanh",
+      "seq": 12,
+      "subtitle": "Xây dựng tiêu chí và phương pháp thử nghiệm đánh giá nguyên mẫu, cải tiến thiết kế và hoàn thiện dự án thiết kế thân thiện môi trường",
+      "concepts": [
+        "Thử nghiệm và đánh giá sản phẩm",
+        "Cải tiến và hoàn thiện thiết kế",
+        "Trình bày báo cáo dự án thiết kế"
+      ]
+    },
+    "questions": [
+      {
+        "c": "CN8-B12-001",
+        "d": "basic",
+        "p": "Mục đích chính của bước thử nghiệm và đánh giá sản phẩm nguyên mẫu ở cuối chu trình thiết kế là gì?",
+        "o": [
+          "Giấu nhẹm các lỗi hỏng hóc không ghi vào biên bản thử nghiệm",
+          "Phá hủy hoàn toàn sản phẩm đẹp chỉ để cho vui",
+          "Chứng minh rằng sản phẩm do mình làm ra không bao giờ có bất kì điểm yếu nào",
+          "Kiểm tra mức độ đáp ứng các yêu cầu đặt ra ban đầu, phát hiện lỗi kĩ thuật hoặc nhược điểm sử dụng để làm căn cứ cải tiến hoàn thiện"
+        ],
+        "k": "D",
+        "e": "Thử nghiệm khách quan dựa trên số liệu thực tế (tải trọng, thời gian, nhiệt độ, độ ổn định) là nền tảng nâng cấp chất lượng sản phẩm.",
+        "s": "Công Nghệ 8",
+        "h": "Mục đích thử nghiệm đánh giá"
+      },
+      {
+        "c": "CN8-B12-002",
+        "d": "basic",
+        "p": "Để việc đánh giá chất lượng một sản phẩm kĩ thuật mang tính khách quan và đáng tin cậy, người đánh giá phải căn cứ vào điều gì?",
+        "o": [
+          "Dựa vào việc bài thuyết trình dài hay ngắn giờ",
+          "Chỉ dựa vào sở thích cá nhân của một người duy nhất dù sản phẩm không hoạt động",
+          "Chỉ dựa vào màu sơn vỏ hộp bên ngoài",
+          "Hệ thống các tiêu chí kĩ thuật, công năng, an toàn, thẩm mĩ và kinh tế đã xác định từ Bước 1 kết hợp kết quả đo đạc thử nghiệm thực tế"
+        ],
+        "k": "D",
+        "e": "Đối chiếu giữa \"kết quả đo được trên nguyên mẫu\" với \"yêu cầu ban đầu\" cho kết luận trung thực và có hướng sửa cụ thể.",
+        "s": "Công Nghệ 8",
+        "h": "Căn cứ đánh giá khách quan"
+      },
+      {
+        "c": "CN8-B12-003",
+        "d": "basic",
+        "p": "Hoạt động cải tiến sản phẩm sau thử nghiệm được thực hiện nhằm đạt mục tiêu gì?",
+        "o": [
+          "Bỏ bớt toàn bộ tính năng bảo vệ an toàn của thiết bị",
+          "Khắc phục các khuyết điểm đã phát hiện, nâng cao hiệu suất công năng, tăng độ an toàn bền bỉ hoặc giảm chi phí chế tạo",
+          "Thay vật liệu tốt bằng vật liệu dễ gãy hỏng ngay",
+          "Làm sản phẩm chạy yếu hơn và tốn điện hơn ban đầu"
+        ],
+        "k": "B",
+        "e": "Không có thiết kế vĩ đại nào hoàn hảo ngay ở phiên bản đầu tiên; mọi sản phẩm tốt đều trải qua nhiều vòng cải tiến.",
+        "s": "Công Nghệ 8",
+        "h": "Ý nghĩa của cải tiến thiết kế"
+      },
+      {
+        "c": "CN8-B12-004",
+        "d": "basic",
+        "p": "Một dự án thiết kế kĩ thuật được xem là \"thiết kế xanh\" (bền vững) khi chú trọng tiêu chí nào sau đây?",
+        "o": [
+          "Tiêu thụ điện lưới càng nhiều càng thể hiện công suất mạnh",
+          "Xả trực tiếp dung môi hóa chất sơn thừa xuống cống thoát nước",
+          "Tiết kiệm năng lượng và vật liệu, tận dụng năng lượng tái tạo hoặc vật liệu tái chế an toàn, ít phát thải ô nhiễm trong suốt vòng đời sản phẩm",
+          "Sử dụng thật nhiều nhựa dùng một lần khó phân hủy và pin chì độc hại"
+        ],
+        "k": "C",
+        "e": "Thiết kế xanh giải quyết bài toán kĩ thuật đồng thời bảo vệ tài nguyên và sức khỏe cộng đồng.",
+        "s": "Công Nghệ 8",
+        "h": "Tiêu chí thiết kế xanh"
+      },
+      {
+        "c": "CN8-B12-005",
+        "d": "basic",
+        "p": "Khi trình bày báo cáo tổng kết một dự án thiết kế kĩ thuật trước lớp hoặc hội đồng, nội dung cần thiết trình bày theo trình tự logic nào?",
+        "o": [
+          "Che giấu hoàn toàn những khó khăn và bài học thất bại khi thử nghiệm",
+          "Chỉ đọc bảng giá bán tất cả các cửa hàng tạp hóa trong quận",
+          "Nêu vấn đề và mục tiêu -> Giải pháp và bản vẽ thiết kế -> Quá trình chế tạo nguyên mẫu -> Kết quả thử nghiệm, hạn chế và hướng cải tiến",
+          "Chỉ giơ sản phẩm lên 5 giây rồi ngồi xuống không nói lời nào"
+        ],
+        "k": "C",
+        "e": "Báo cáo khoa học kỹ thuật đề cao tính minh bạch số liệu thử nghiệm và khả năng phản biện tìm giải pháp hoàn thiện tiếp theo.",
+        "s": "Công Nghệ 8",
+        "h": "Cấu trúc báo cáo dự án thiết kế"
+      },
+      {
+        "c": "CN8-B12-006",
+        "d": "basic",
+        "p": "Thuật ngữ \"kiểm thử chịu tải phá hủy\" trong kĩ thuật được hiểu đơn giản là phép thử nhằm xác định thông số nào của sản phẩm?",
+        "o": [
+          "Mùi hương của vật liệu sau khi hoàn thiện",
+          "Số lượng màu sơn có thể vẽ lên bề mặt sản phẩm",
+          "Giới hạn tải trọng tối đa mà kết cấu sản phẩm chịu được ngay trước khi biến dạng hỏng hoặc gãy đổ hoàn toàn",
+          "Tốc độ truyền tín hiệu âm thanh qua không khí"
+        ],
+        "k": "C",
+        "e": "Biết rõ tải trọng giới hạn phá hủy giúp kĩ sư thiết lập hệ số an toàn hợp lí khi công bố tải trọng làm việc cho phép.",
+        "s": "Công Nghệ 8",
+        "h": "Khái niệm thử nghiệm giới hạn tải"
+      },
+      {
+        "c": "CN8-B12-007",
+        "d": "application",
+        "p": "Quan sát bảng kết quả thử nghiệm hai lần của mô hình quạt năng lượng mặt trời cầm tay: ở lần 1 dưới ánh nắng nhẹ cánh quạt quay chậm và rung mạnh; sau khi cải tiến thay đổi độ nghiêng tấm pin và cân bằng lại cánh quạt ở lần 2, tốc độ gió tăng gấp đôi và êm hẳn. Yếu tố cải tiến nào đã phát huy hiệu quả?",
+        "o": [
+          "Tháo bỏ dây nối giữa tấm pin và động cơ điện",
+          "Tối ưu góc đón ánh sáng của tấm pin để tăng dòng điện thu được đồng thời cân bằng tâm động học cánh quạt để giảm thất thoát năng lượng do rung lắc",
+          "Tô thêm màu đen lên bề mặt tấm pin mặt trời để chắn hết ánh nắng",
+          "Gắn thêm cục đá nặng 2 kg lên đầu cánh quạt nhựa"
+        ],
+        "k": "B",
+        "e": "Phân tích hai biến số độc lập (nguồn cấp điện và tổn hao cơ học) mang lại cải tiến hiệu quả rõ rệt trên số liệu đo.",
+        "s": "Công Nghệ 8",
+        "h": "Phân tích kết quả cải tiến mẫu",
+        "fig": {
+          "type": "table",
+          "title": "Nhật kí thử nghiệm quạt",
+          "head": [
+            "Lần thử nghiệm",
+            "Kết quả đo thực tế"
+          ],
+          "rows": [
+            [
+              "Lần 1 (chưa sửa)",
+              "Quay chậm, rung mạnh"
+            ],
+            [
+              "Lần 2 (sửa góc)",
+              "Gió gấp 2, chạy êm"
+            ],
+            [
+              "Mức đạt chuẩn",
+              "Đạt tốc độ & êm"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "CN8-B12-008",
+        "d": "application",
+        "p": "Trong buổi phản biện dự án \"Đèn học tiết kiệm điện\", bạn cùng lớp góp ý rằng ánh sáng đèn chiếu trực tiếp hơi chói mắt khi ngồi học lâu. Phương án cải tiến kĩ thuật hợp lí nhất cho phản hồi này là gì?",
+        "o": [
+          "Lắp thêm tấm tán quang mờ (chụp khuếch tán ánh sáng) và thiết kế chao đèn che góc chiếu trực tiếp vào mắt người ngồi, giữ ánh sáng tập trung xuống mặt vở",
+          "Thay bóng đèn bằng còi báo động kêu liên tục",
+          "Sơn kín màu đen lên mặt phát sáng của bóng đèn để đèn tối om",
+          "Đặt bóng đèn cao cách bàn học 5 mét trên trần nhà"
+        ],
+        "k": "A",
+        "e": "Tiếp thu phản hồi người dùng thực tế biến sản phẩm từ mức \"chạy được\" sang mức \"dùng tốt và bảo vệ sức khỏe\".",
+        "s": "Công Nghệ 8",
+        "h": "Cải tiến theo phản hồi người dùng"
+      },
+      {
+        "c": "CN8-B12-009",
+        "d": "application",
+        "p": "Khi thử nghiệm chiếc cầu mô hình làm từ que gỗ kem có yêu cầu \"Chịu tải tối thiểu 5 kg ở nhịp giữa trong 60 giây mà không võng quá 5 mm\", nhóm cần tiến hành thử nghiệm đúng quy chuẩn bằng cách nào?",
+        "o": [
+          "Ném mạnh hòn đá từ trên cao 3 mét rơi trúng giữa cầu",
+          "Đặt các quả cân tiêu chuẩn tăng dần khối lượng lên đúng nhịp giữa cầu, dùng thước đo độ võng ở giữa nhịp và bấm đồng hồ theo dõi đủ 60 giây dưới tải 5 kg",
+          "Đặt quả cân nặng 5 kg lên trên hai đầu gối tựa bê tông ngoài hai mố cầu thay vì giữa nhịp",
+          "Chỉ lấy tay ấn nhẹ một cái 1 giây rồi tự ước lượng là chắc chắn chịu được 5 kg"
+        ],
+        "k": "B",
+        "e": "Quy trình thử nghiệm chuẩn hóa vị trí đặt tải, thời gian duy trì tải và dụng cụ đo định lượng đảm bảo kết quả tin cậy.",
+        "s": "Công Nghệ 8",
+        "h": "Kĩ thuật thử tải đúng quy trình"
+      },
+      {
+        "c": "CN8-B12-010",
+        "d": "application",
+        "p": "Một nhóm thiết kế thùng ủ phân hữu cơ gia đình từ rác thải nhà bếp gặp phải tình trạng thùng bốc mùi hôi nồng nặc và thu hút ruồi nhặng sau 1 tuần thử nghiệm. Hướng cải tiến thiết kế cấu tạo thùng nào giải quyết đúng nguyên nhân?",
+        "o": [
+          "Đổ đầy nước ngập kín toàn bộ miệng thùng rồi hàn kín hoàn toàn không có lỗ khí",
+          "Đập vỡ đáy thùng cho nước rác chảy tự do ra sân gạch",
+          "Bỏ thêm thịt cá ôi thiu sống vào thùng mỗi ngày và mở toang nắp dưới nắng",
+          "Thêm lỗ thông khí bọc lưới mịn chống ruồi cấp ôxi phân hủy hiếu khí, gắn van đáy thu nước rỉ và bổ sung lá khô, mùn cưa cân bằng ẩm"
+        ],
+        "k": "D",
+        "e": "Mùi hôi thùng ủ thường do thiếu ôxi (phân hủy kị khí) và quá ướt; cải tiến thông thoáng có lưới chắn côn trùng khắc phục triệt để.",
+        "s": "Công Nghệ 8",
+        "h": "Cải tiến thùng ủ rác hữu cơ"
+      },
+      {
+        "c": "CN8-B12-011",
+        "d": "application",
+        "p": "Khi chọn giải pháp thay thế túi nilon đựng thực phẩm bằng túi vải sợi tự nhiên hoặc hộp thủy tinh tái sử dụng nhiều lần, yếu tố nào quyết định tính \"xanh\" thực sự của sản phẩm thay thế?",
+        "o": [
+          "Túi vải phải được nhuộm bằng màu xanh lá cây đậm nhất",
+          "Hộp thủy tinh phải đập vỡ ra từng mảnh sau mỗi bữa ăn",
+          "Chỉ cần mua mới một chiếc túi vải mỗi ngày rồi vứt bỏ ngay sau 1 lần đi chợ",
+          "Người tiêu dùng phải tái sử dụng sản phẩm đó đủ nhiều lần lâu dài để bù đắp hoàn toàn lượng tài nguyên nước và năng lượng đã dùng khi sản xuất ra nó"
+        ],
+        "k": "D",
+        "e": "Đánh giá vòng đời (LCA) chứng minh sản phẩm tái sử dụng chỉ thân thiện môi trường khi được dùng bền bỉ lặp lại đúng vòng đời thiết kế.",
+        "s": "Công Nghệ 8",
+        "h": "Tư duy đánh giá vòng đời sản phẩm"
+      },
+      {
+        "c": "CN8-B12-012",
+        "d": "application",
+        "p": "Nếu một sản phẩm thiết kế đạt điểm rất cao về công năng kĩ thuật nhưng giá thành linh kiện sản xuất lại cao gấp ba lần khả năng chi trả của đa số người dùng mục tiêu, định hướng cải tiến ở vòng tiếp theo nên tập trung vào đâu?",
+        "o": [
+          "Tối giản chi tiết phụ ít dùng, chuẩn hóa kích thước giảm hao hụt và tìm vật liệu thay thế rẻ hơn nhưng vẫn giữ độ bền công năng cốt lõi",
+          "Tăng thêm đèn trang trí cầu kì làm giá thành đắt gấp năm lần",
+          "Giữ nguyên chi phí đắt đỏ và bỏ bớt tính năng cốt lõi quan trọng nhất",
+          "Giữ nguyên thiết kế cũ và ngừng kiểm tra chất lượng"
+        ],
+        "k": "A",
+        "e": "Kĩ thuật giá trị (Value Engineering) tối ưu tỉ lệ giữa công năng mang lại trên chi phí sản xuất để sản phẩm tiếp cận được cộng đồng.",
+        "s": "Công Nghệ 8",
+        "h": "Tối ưu chi phí trong cải tiến"
+      },
+      {
+        "c": "CN8-B12-013",
+        "d": "advanced",
+        "p": "Một nhóm học sinh chế tạo bẫy bắt muỗi sinh học bằng chai nhựa cũ cắt ghép, bên trong pha nước đường lên men với men nở tạo khí CO2 thu hút muỗi. Sau 3 ngày thử nghiệm đặt ở góc tối, nhóm thấy có muỗi bay vào nhưng lại dễ dàng bay thoát ngược ra ngoài qua miệng phễu rộng. Chi tiết cải tiến nhỏ nhưng hiệu quả nhất là gì?",
+        "o": [
+          "Thu nhỏ miệng phễu vừa lọt muỗi hướng sát mặt dung dịch và dán giấy tối màu quanh thành ngoài chai để muỗi khó tìm lối bay ra ngược sáng",
+          "Đổ hết dung dịch đường men đi và phơi khô chai giữa sân nắng trưa",
+          "Chiếu đèn pin siêu sáng thẳng từ dưới đáy chai xuyên qua miệng phễu",
+          "Mở rộng toang toàn bộ nắp chai bỏ luôn phần phễu úp ngược"
+        ],
+        "k": "A",
+        "e": "Phễu dẫn hẹp đầu hướng sâu vào vùng tối giữ muỗi theo tập tính bay hướng sáng lên trên đụng thành trong không lọt ngược lỗ nhỏ.",
+        "s": "Công Nghệ 8",
+        "h": "Cải tiến cấu tạo phễu bẫy sinh học"
+      },
+      {
+        "c": "CN8-B12-014",
+        "d": "advanced",
+        "p": "Khi thử nghiệm chiếc máy phân loại đồng xu cơ khí tự động theo kích thước lỗ rãnh trượt nghiêng, các đồng xu nhỏ thỉnh thoảng bị văng trượt qua lỗ nhỏ rơi nhầm sang khay đồng xu lớn phía cuối máng trượt. Nguyên nhân động lực học và cách hiệu chỉnh đúng là gì?",
+        "o": [
+          "Bịt kín mọi lỗ nhỏ trên máng trượt lại không cho đồng xu nào rơi xuống",
+          "Độ dốc máng trượt quá lớn làm đồng xu trượt quá nhanh không kịp lọt xuống lỗ nhỏ đúng kích cỡ; cần giảm nhẹ độ nghiêng máng trượt và bo cạnh dẫn hướng mượt hơn",
+          "Tăng độ dốc máng trượt dựng đứng 90 độ cho đồng xu rơi thật nhanh",
+          "Nung nóng chảy tất cả các đồng xu trước khi thả vào máng"
+        ],
+        "k": "B",
+        "e": "Thời gian đồng xu đi qua khẩu độ lỗ tỉ lệ nghịch với vận tốc trượt; điều chỉnh góc nghiêng cân bằng giữa không bị kẹt và đủ thời gian lọt lỗ chính xác.",
+        "s": "Công Nghệ 8",
+        "h": "Hiệu chỉnh tốc độ máng phân loại"
+      },
+      {
+        "c": "CN8-B12-015",
+        "d": "advanced",
+        "p": "Trong tổng kết dự án thiết kế thiết bị lọc khói bụi mini đặt trong lớp học, điều gì giúp bản báo cáo thuyết phục nhất đối với hội đồng chấm giải về giá trị thực tiễn của sản phẩm?",
+        "o": [
+          "Chỉ nói miệng chung chung rằng máy lọc cực kì tốt mà không có bất kì phép đo hay thử nghiệm nào",
+          "Phát nhạc lớn át tiếng máy quạt kêu to để che giấu lỗi rung động ổ trục",
+          "Cung cấp số liệu đo bụi mịn (hoặc thời gian lọc sạch hộp khói mẫu) trước và sau khi bật máy kèm bảng tính chi phí và nhật kí cải tiến",
+          "Khẳng định sản phẩm đã hoàn hảo tuyệt đối không thể cải tiến thêm được nữa"
+        ],
+        "k": "C",
+        "e": "Bằng chứng định lượng thực nghiệm kết hợp tinh thần cầu thị nhìn nhận giới hạn hiện tại là cốt lõi của văn hóa kĩ thuật chuyên nghiệp.",
+        "s": "Công Nghệ 8",
+        "h": "Năng lực thuyết phục bằng số liệu"
+      }
+    ]
+  }
+]

@@ -1,0 +1,3385 @@
+[
+  {
+    "chapter": "hdtn_hn8-c1",
+    "lesson": {
+      "code": "hdtn_hn8-b01",
+      "title": "Bài 1. Khám phá tính cách, giá trị cá nhân và xây dựng hình ảnh bản thân",
+      "seq": 1,
+      "subtitle": "Nhận diện nét tính cách nổi bật, hệ giá trị sống cốt lõi và cách xây dựng uy tín, hình ảnh lành mạnh ở lứa tuổi lớp 8",
+      "concepts": [
+        "Nét tính cách và giá trị sống",
+        "Uy tín cá nhân học sinh lớp 8",
+        "Điều chỉnh bản thân tích cực"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN8-B01-001",
+        "d": "basic",
+        "p": "Sự khác nhau cơ bản giữa \"năng lực\" và \"nét tính cách\" của một học sinh lớp 8 là gì?",
+        "o": [
+          "Năng lực không thể thay đổi còn tính cách đổi theo từng giờ",
+          "Năng lực là khả năng làm tốt một việc cụ thể; tính cách là thái độ, thói quen ứng xử ổn định với bản thân và mọi người",
+          "Hai khái niệm hoàn toàn giống hệt nhau về mọi mặt",
+          "Tính cách là điểm kiểm tra còn năng lực là chiều cao"
+        ],
+        "k": "B",
+        "e": "Ví dụ tính toán nhanh là năng lực, còn cẩn thận, trung thực hay cởi mở là nét tính cách đặc trưng.",
+        "s": "HĐTN, HN 8",
+        "h": "Phân biệt năng lực và nét tính cách"
+      },
+      {
+        "c": "HN8-B01-002",
+        "d": "basic",
+        "p": "Những \"giá trị sống\" (như trung thực, trách nhiệm, tôn trọng, nhân ái, sáng tạo) đóng vai trò gì trong cuộc sống học sinh lớp 8?",
+        "o": [
+          "Đóng vai trò như kim chỉ nam định hướng các lựa chọn đúng đắn và tạo nên bản sắc nhân cách đáng tin cậy",
+          "Chỉ người lớn đi làm mới cần đến giá trị sống",
+          "Làm học sinh khó hòa đồng hơn với bạn bè xung quanh",
+          "Chỉ là những từ ngữ trang trí trên áp phích trường học"
+        ],
+        "k": "A",
+        "e": "Khi biết rõ mình coi trọng điều gì nhất, em sẽ tự tin đứng vững trước những cám dỗ sai trái.",
+        "s": "HĐTN, HN 8",
+        "h": "Vai trò kim chỉ nam của giá trị sống"
+      },
+      {
+        "c": "HN8-B01-003",
+        "d": "basic",
+        "p": "Cách xây dựng \"hình ảnh bản thân\" và uy tín cá nhân bền vững nhất trong mắt thầy cô, bạn bè lớp 8 là gì?",
+        "o": [
+          "Nói nhiều lời hoa mĩ nhưng không bao giờ làm đúng hẹn",
+          "Cố gắng tỏ ra lạnh lùng khác người trên mạng xã hội",
+          "Mua thật nhiều quần áo đắt tiền khoe mẽ mỗi tuần",
+          "Giữ lời hứa đã cam kết, ăn mặc gọn gàng lịch sự, giao tiếp nhã nhặn và làm việc có trách nhiệm mỗi ngày"
+        ],
+        "k": "D",
+        "e": "Uy tín cá nhân không đến từ vẻ hào nhoáng nhất thời mà được tích lũy từng chút qua sự nhất quán giữa lời nói và việc làm.",
+        "s": "HĐTN, HN 8",
+        "h": "Xây dựng uy tín từ sự nhất quán"
+      },
+      {
+        "c": "HN8-B01-004",
+        "d": "basic",
+        "p": "Khi thấy một nét tính cách của mình (như hay nóng vội hoặc thiếu kiên nhẫn) gây rắc rối cho việc làm nhóm, bước điều chỉnh đúng là gì?",
+        "o": [
+          "Đổ lỗi do các bạn khác làm quá chậm chạp nên mình mới cáu",
+          "Từ bỏ hoàn toàn mọi hoạt động nhóm ở lớp",
+          "Giữ nguyên tính nóng vội vì coi đó là cá tính không cần sửa",
+          "Chủ động thừa nhận, lắng nghe phản hồi của bạn cùng nhóm và luyện tập thói quen dừng nhịp hít sâu trước khi quyết định"
+        ],
+        "k": "D",
+        "e": "Cá tính tích cực không phải là bảo thủ giữ thói quen gây hại, mà là dám rèn giũa bản thân ngày càng trưởng thành hơn.",
+        "s": "HĐTN, HN 8",
+        "h": "Điều chỉnh nét tính cách chưa phù hợp"
+      },
+      {
+        "c": "HN8-B01-005",
+        "d": "basic",
+        "p": "Người học sinh có tính \"độc lập tự chủ\" ở lớp 8 thể hiện rõ nhất ở điểm nào?",
+        "o": [
+          "Tự suy nghĩ cân nhắc lí do đúng sai trước khi hành động, biết tự lập kế hoạch học tập và chịu trách nhiệm về lựa chọn của mình",
+          "Chờ bạn thân làm gì thì bắt chước làm theo y hệt",
+          "Luôn làm ngược lại tất cả nội quy chung để chứng tỏ mình khác biệt",
+          "Không bao giờ nghe bất kì lời khuyên nào của cha mẹ thầy cô"
+        ],
+        "k": "A",
+        "e": "Tự chủ là cân bằng giữa suy nghĩ độc lập sáng suốt với sự tôn trọng chuẩn mực đạo đức chung.",
+        "s": "HĐTN, HN 8",
+        "h": "Biểu hiện tính tự chủ lành mạnh"
+      },
+      {
+        "c": "HN8-B01-006",
+        "d": "basic",
+        "p": "Trên không gian mạng xã hội, vì sao mỗi bài viết, ảnh chụp hay bình luận học sinh đăng tải đều góp phần tạo nên \"hình ảnh cá nhân\"?",
+        "o": [
+          "Vì dữ liệu số lưu lại lâu dài (dấu chân số), phản ánh văn hóa ứng xử, tư duy và sự tôn trọng bản thân của người đăng",
+          "Vì chỉ những người nổi tiếng mới bị người khác xem trang cá nhân",
+          "Vì trên mạng không ai quan tâm đến lời ăn tiếng nói",
+          "Vì sau 24 giờ mọi dữ liệu mạng đều tự xóa sạch không dấu vết"
+        ],
+        "k": "A",
+        "e": "Giữ trang cá nhân lành mạnh, tích cực là cách bảo vệ uy tín và cơ hội học tập, nghề nghiệp trong tương lai.",
+        "s": "HĐTN, HN 8",
+        "h": "Xây dựng hình ảnh đẹp qua dấu chân số"
+      },
+      {
+        "c": "HN8-B01-007",
+        "d": "application",
+        "p": "Quan sát bảng tự đánh giá tính cách và kế hoạch điều chỉnh của bạn Minh lớp 8A dưới đây. Để cải thiện điểm \"hay trì hoãn nhận việc nhưng sát hạn mới làm vội\", Minh cần thay đổi thói quen nào trước tiên?",
+        "o": [
+          "Chờ tới đúng đêm trước ngày nộp mới thức trắng làm vội cho có cảm hứng",
+          "Chỉ nhận những việc không cần nộp sản phẩm đúng hạn",
+          "Từ chối nhận bất kì phần việc nào trong các dự án lớp",
+          "Ngay khi nhận nhiệm vụ nhóm, chia nhỏ thành 3 mốc việc cụ thể có hạn hoàn thành từng phần và báo cáo tiến độ sớm với nhóm trưởng"
+        ],
+        "k": "D",
+        "e": "Chia nhỏ công việc kèm mốc kiểm tra trung gian giúp hóa giải hoàn toàn thói quen nước đến chân mới nhảy.",
+        "s": "HĐTN, HN 8",
+        "h": "Điều chỉnh thói quen trì hoãn trong nhóm",
+        "fig": {
+          "type": "table",
+          "title": "Hồ sơ tính cách Minh",
+          "head": [
+            "Đặc điểm",
+            "Hướng phát huy/sửa"
+          ],
+          "rows": [
+            [
+              "Nhiệt tình, sáng tạo",
+              "Đề xuất ý tưởng mới"
+            ],
+            [
+              "Thân thiện, dễ gần",
+              "Kết nối bạn ít nói"
+            ],
+            [
+              "Hay trì hoãn hạn",
+              "Chia nhỏ mốc xong"
+            ],
+            [
+              "Dễ nản khi gặp khó",
+              "Hỏi thầy, bạn sớm"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "HN8-B01-008",
+        "d": "application",
+        "p": "Bạn Hà nhận thấy mình có nét tính cách hướng nội, thích làm việc yên tĩnh và thường ngại tranh nói trong nhóm ồn ào, nhưng lại phân tích số liệu rất sâu sắc. Hà nên tận dụng thế mạnh này thế nào trong dự án lớp 8?",
+        "o": [
+          "Nhận vai trò tổng hợp nghiên cứu tài liệu, xử lí dữ liệu và chuẩn bị dàn ý logic chặt chẽ cho nhóm, đồng thời tập phát biểu ngắn phần mình chắc chắn nhất",
+          "Ngồi im giấu kín toàn bộ kết quả mình đã tìm hiểu được",
+          "Tự ti nghĩ rằng người trầm tính không có đóng góp gì cho tập thể",
+          "Cố ép mình thay đổi thành người nói liên tục hoặc bỏ mặc nhóm luôn"
+        ],
+        "k": "A",
+        "e": "Hướng nội hay hướng ngoại đều là thế mạnh tự nhiên; biết chọn vai trò phù hợp giúp tỏa sáng hiệu quả nhất.",
+        "s": "HĐTN, HN 8",
+        "h": "Phát huy thế mạnh tính cách hướng nội"
+      },
+      {
+        "c": "HN8-B01-009",
+        "d": "application",
+        "p": "Trong một lần hứa sẽ hoàn thành trang bìa báo tường cho tổ vào sáng thứ năm, nhưng tối thứ tư nhà bạn Tuấn mất điện đột ngột không làm kịp máy tính. Cách giữ uy tín tốt nhất của Tuấn lúc này là gì?",
+        "o": [
+          "Tắt điện thoại im lặng, sáng thứ năm lên lớp mới nói quên mất rồi",
+          "Chủ động báo ngay cho tổ trưởng từ tối thứ tư, thành thật nêu lí do và đề xuất phương án làm tay gọn đẹp hoặc sáng sớm đến lớp sớm 20 phút hoàn thiện cùng tổ",
+          "Đổ lỗi cho tổ trưởng không nhắc lại mình làm gì",
+          "Copy đại một hình trên mạng chưa chỉnh sửa gửi bừa cho xong"
+        ],
+        "k": "B",
+        "e": "Khi gặp sự cố bất khả kháng, báo sớm kèm phương án khắc phục giúp tập thể kịp xoay xở và giữ trọn chữ tín của em.",
+        "s": "HĐTN, HN 8",
+        "h": "Bảo vệ uy tín khi gặp sự cố bất ngờ"
+      },
+      {
+        "c": "HN8-B01-010",
+        "d": "application",
+        "p": "Một số bạn lớp 8 cho rằng phải nói năng thật sành điệu hoặc đăng ảnh check-in sang trọng lên mạng mới gây ấn tượng tốt với mọi người. Em sẽ chia sẻ góc nhìn nào giúp các bạn hiểu đúng giá trị hình ảnh bản thân?",
+        "o": [
+          "Vẻ ngoài cầu kì chỉ gây chú ý thoáng qua; sự chân thành, tri thức, thái độ tôn trọng và lời hứa đáng tin cậy mới khiến người khác quý trọng lâu dài",
+          "Khuyên các bạn không nên tắm rửa hay giữ trang phục sạch sẽ làm gì",
+          "Đồng ý hoàn toàn rằng chỉ có đồ hiệu đắt tiền mới tạo nên giá trị con người",
+          "Khuyên các bạn vay mượn tiền mua đồ mới liên tục để chụp ảnh"
+        ],
+        "k": "A",
+        "e": "Phong cách gọn gàng, lịch sự xuất phát từ sự tôn trọng người đối diện kết hợp nội lực tri thức mới tạo sức hút bền lâu.",
+        "s": "HĐTN, HN 8",
+        "h": "Nhận thức đúng về giá trị hình ảnh cá nhân"
+      },
+      {
+        "c": "HN8-B01-011",
+        "d": "application",
+        "p": "Khi viết hồ sơ tự ứng cử vào Ban chỉ huy Liên đội hoặc Câu lạc bộ Truyền thông trường, điều gì giúp bạn Lan thuyết phục thầy cô và các bạn bỏ phiếu bầu chọn cao nhất?",
+        "o": [
+          "Nêu rõ các hoạt động đã làm thực tế ở lớp 7, thể hiện trách nhiệm rõ ràng và đề xuất 2 ý tưởng thiết thực cho hoạt động năm học lớp 8",
+          "Viết ngắn gọn một dòng \"Bầu cho mình nhé\"",
+          "Chê bai các ứng cử viên khác yếu kém hơn mình",
+          "Chỉ ghi toàn những lời hứa hẹn chung chung không có kế hoạch cụ thể"
+        ],
+        "k": "A",
+        "e": "Minh chứng hành động trong quá khứ cộng với đề xuất phục vụ tập thể cụ thể luôn tạo sức thuyết phục mạnh mẽ nhất.",
+        "s": "HĐTN, HN 8",
+        "h": "Xây dựng hồ sơ uy tín khi ứng cử"
+      },
+      {
+        "c": "HN8-B01-012",
+        "d": "application",
+        "p": "Một người bạn thân rủ em tham gia một trào lưu thử thách mạo hiểm đang nổi trên mạng (quay clip nhảy qua lan can cầu thang trường) để \"xây dựng hình ảnh cá tính ngầu\". Em chọn giá trị nào để quyết định?",
+        "o": [
+          "Tham gia ngay lập tức để chứng minh mình dũng cảm trước bạn bè",
+          "Cầm điện thoại quay giúp bạn nhảy lan can trước để thử xem có sao không",
+          "Im lặng đi ra chỗ khác để mặc bạn tự thực hiện",
+          "Ưu tiên giá trị \"An toàn tính mạng và Trí tuệ\": từ chối dứt khoát trò thử thách nguy hiểm và khuyên bạn không đánh đổi sức khỏe lấy lượt xem ảo"
+        ],
+        "k": "D",
+        "e": "Lượt xem trên mạng biến mất sau vài ngày, nhưng chấn thương từ hành động thiếu suy nghĩ có thể theo cả đời.",
+        "s": "HĐTN, HN 8",
+        "h": "Lấy giá trị an toàn làm chuẩn trước trào lưu ảo"
+      },
+      {
+        "c": "HN8-B01-013",
+        "d": "advanced",
+        "p": "Vì sao khi bước vào lớp 8, nhiều học sinh hay gặp khủng hoảng \"không biết mình thực sự thích gì hay giỏi gì\" khi bị cuốn theo quá nhiều xu hướng trên mạng xã hội?",
+        "o": [
+          "Vì từ lớp 8 trở đi tính cách con người biến mất hoàn toàn",
+          "Vì không cần thử làm bất cứ hoạt động gì vẫn tự nhiên biết thế mạnh",
+          "Vì mạng xã hội luôn cung cấp sẵn bài kiểm tra chuẩn xác cho từng người",
+          "Vì dành quá nhiều thời gian quan sát cuộc sống ảo của người khác mà thiếu trải nghiệm thực tế và khoảng lặng tự suy ngẫm lắng nghe bản thân qua hành động thật"
+        ],
+        "k": "D",
+        "e": "Giảm bớt thời gian lướt mạng thụ động, thay bằng đọc sách, chơi thể thao, làm dự án thật là cách nhanh nhất để nhìn rõ con người thật của mình.",
+        "s": "HĐTN, HN 8",
+        "h": "Khám phá bản thân qua trải nghiệm thật thay vì mạng ảo"
+      },
+      {
+        "c": "HN8-B01-014",
+        "d": "advanced",
+        "p": "Phân tích xung đột giá trị: bạn Khoa coi trọng cả hai giá trị \"Trung thực\" và \"Tình bạn thân thiết\". Khi bạn thân lỡ mắc lỗi phá hỏng dụng cụ phòng thí nghiệm trường và nhờ Khoa nói dối giấu hộ thầy cô, Khoa nên xử lí thế nào để giữ trọn cả hai giá trị tốt đẹp?",
+        "o": [
+          "Trốn về nhà cả hai cùng nghỉ học ngày hôm sau",
+          "Không nói dối bao che sai phạm, mà động viên đi cùng bạn đến thẳng gặp thầy cô thành thật nhận lỗi và xin được phụ giúp sửa chữa khắc phục hậu quả",
+          "Nói dối thay bạn hoàn toàn để chứng minh tình bạn bền chặt",
+          "Mắng chửi bạn thậm tệ rồi cắt đứt tình bạn ngay lập tức"
+        ],
+        "k": "B",
+        "e": "Tình bạn chân chính là nâng đỡ nhau làm điều đúng đắn ngay cả khi khó khăn, chứ không phải tiếp tay cho sự gian dối.",
+        "s": "HĐTN, HN 8",
+        "h": "Giải quyết xung đột giữa Trung thực và Tình bạn"
+      },
+      {
+        "c": "HN8-B01-015",
+        "d": "advanced",
+        "p": "Xây dựng \"Tuyên ngôn Giá trị Cá nhân Lớp 8\" gồm 3 từ khóa dẫn đường cho năm học mới (ví dụ: Chủ động – Tử tế – Bền bỉ), cách hiệu quả nhất để biến 3 từ khóa đó từ khẩu hiệu trên giấy thành thói quen thực tế là gì?",
+        "o": [
+          "Chỉ viết chữ thật đẹp vào trang đầu vở rồi đóng lại tới cuối năm mở xem",
+          "Đọc to khẩu hiệu 10 lần mỗi sáng rồi không thay đổi thói quen nào",
+          "Yêu cầu các bạn khác trong lớp phải làm theo khẩu hiệu của riêng mình",
+          "Gắn mỗi từ khóa với hành động đo được hằng ngày (soạn bài tối trước, học tiếng Anh 30 phút/ngày, giúp bạn 1 việc/tuần) và tự soát tối chủ nhật"
+        ],
+        "k": "D",
+        "e": "Giá trị sống chỉ thực sự có sức mạnh khi được dịch chuyển thành thói quen nhỏ hằng ngày có kiểm chứng.",
+        "s": "HĐTN, HN 8",
+        "h": "Hiện thực hóa giá trị sống thành thói quen hằng ngày"
+      }
+    ]
+  },
+  {
+    "chapter": "hdtn_hn8-c1",
+    "lesson": {
+      "code": "hdtn_hn8-b02",
+      "title": "Bài 2. Rèn luyện tư duy phản biện và nhận diện tin giả trên mạng",
+      "seq": 2,
+      "subtitle": "Phát triển tư duy độc lập đa chiều, kiểm chứng độ tin cậy nguồn tin, nhận diện chiêu thức tin giả giật gân và tranh luận tôn trọng bằng chứng",
+      "concepts": [
+        "Tư duy phản biện đa chiều",
+        "Kiểm chứng thông tin trên mạng",
+        "Nhận diện tin giả giật gân"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN8-B02-001",
+        "d": "basic",
+        "p": "\"Tư duy phản biện\" (Critical Thinking) trong học tập và đời sống học sinh lớp 8 có nghĩa đúng nhất là gì?",
+        "o": [
+          "Là khả năng phân tích khách quan, đặt câu hỏi kiểm chứng bằng chứng từ nhiều góc độ trước khi tin hoặc đưa ra kết luận",
+          "Là tìm cách soi mói chê bai lỗi cá nhân của người phát biểu",
+          "Là tin ngay lập tức mọi tin tức thấy trên mạng mà không cần hỏi lại",
+          "Là thói quen luôn cãi ngang phản bác mọi ý kiến của người khác cho bằng được"
+        ],
+        "k": "A",
+        "e": "Phản biện không phải là \"phản đối bừa bãi\", mà là suy xét có căn cứ khoa học, tôn trọng sự thật và cởi mở chỉnh sửa khi thấy mình sai.",
+        "s": "HĐTN, HN 8",
+        "h": "Khái niệm đúng về tư duy phản biện"
+      },
+      {
+        "c": "HN8-B02-002",
+        "d": "basic",
+        "p": "Dấu hiệu nhận diện phổ biến nhất của một bài đăng \"Tin giả, câu view\" (Fake News / Clickbait) trên mạng xã hội là gì?",
+        "o": [
+          "Tiêu đề giật gân gây hoang mang (\"Sốc! Chấn động...\"), thiếu tên tác giả uy tín, ảnh cắt ghép mờ nhòe và không có nguồn báo chí chính thống xác nhận",
+          "Ngôn ngữ trình bày điềm tĩnh, trung lập và có số liệu kiểm chứng cụ thể",
+          "Có ghi đầy đủ ngày tháng và tên đơn vị chịu trách nhiệm nội dung",
+          "Có dẫn nguồn rõ ràng từ báo chí chính thống hoặc cơ quan chuyên môn nhà nước"
+        ],
+        "k": "A",
+        "e": "Những tiêu đề cố tình đẩy cảm xúc sợ hãi hoặc phẫn nộ lên cực độ là cái bẫy quen thuộc khiến người đọc vội chia sẻ trước khi kịp suy nghĩ.",
+        "s": "HĐTN, HN 8",
+        "h": "Nhận diện dấu hiệu tin giả giật gân"
+      },
+      {
+        "c": "HN8-B02-003",
+        "d": "basic",
+        "p": "Khi đọc được một tin tức bất ngờ liên quan tới lịch nghỉ học đột xuất hoặc cảnh báo thiên tai trên một trang mạng lạ, bước kiểm chứng đầu tiên cần làm là gì?",
+        "o": [
+          "Tự ý nghỉ học ở nhà luôn không cần hỏi lại cô chủ nhiệm",
+          "Đối chiếu ngay với kênh thông tin chính thức của nhà trường, Bộ Giáo dục, Đài truyền hình hoặc báo chí uy tín trước khi tin hay chia sẻ",
+          "Bấm nút chia sẻ ngay lập tức vào tất cả các nhóm lớp cho mọi người cùng hoảng",
+          "Tin ngay 100% vì thấy bài viết có hàng nghìn lượt thích ảo"
+        ],
+        "k": "B",
+        "e": "Kiểm tra chéo nguồn chính thống chỉ mất 30 giây nhưng giúp tránh rắc rối lớn và không biến mình thành mắt xích phát tán tin đồn.",
+        "s": "HĐTN, HN 8",
+        "h": "Quy tắc kiểm chứng chéo nguồn tin chính thống"
+      },
+      {
+        "c": "HN8-B02-004",
+        "d": "basic",
+        "p": "Trong lập luận phản biện, sự khác biệt giữa \"Sự thật khách quan\" (Fact) và \"Ý kiến chủ quan\" (Opinion) là gì?",
+        "o": [
+          "Mọi ý kiến cá nhân được nhiều người khen đều tự động biến thành sự thật khoa học",
+          "Sự thật khách quan thay đổi tùy theo tâm trạng vui buồn mỗi ngày",
+          "Sự thật có thể đo đếm, kiểm chứng đúng sai bằng bằng chứng thực tế; ý kiến là quan điểm đánh giá cá nhân có thể khác nhau tùy người",
+          "Không có sự khác biệt nào giữa hai khái niệm này"
+        ],
+        "k": "C",
+        "e": "Ví dụ \"Nhiệt độ sôi của nước tinh khiết ở áp suất chuẩn là 100°C\" là sự thật; còn \"Trời hôm nay mát dễ chịu\" là ý kiến cảm nhận.",
+        "s": "HĐTN, HN 8",
+        "h": "Phân biệt Sự thật khách quan và Ý kiến cá nhân"
+      },
+      {
+        "c": "HN8-B02-005",
+        "d": "basic",
+        "p": "Vì sao thuật toán của các nền tảng mạng xã hội thường hiển thị lặp đi lặp lại đúng những nội dung giống sở thích hoặc định kiến sẵn có của người dùng?",
+        "o": [
+          "Vì mạng xã hội luôn ưu tiên hiển thị bài giảng khoa học chuyên sâu",
+          "Tạo ra hiệu ứng \"buồng vang thông tin\", khiến người xem dễ lầm tưởng rằng cả thế giới ai cũng nghĩ giống mình và mất đi góc nhìn đa chiều",
+          "Vì thuật toán giúp người dùng tự động thuộc hết sách giáo khoa",
+          "Vì trên Internet chỉ có duy nhất một quan điểm tồn tại"
+        ],
+        "k": "B",
+        "e": "Chủ động đọc nhiều nguồn thông tin chính thống khác nhau giúp phá vỡ buồng vang và giữ tư duy rộng mở.",
+        "s": "HĐTN, HN 8",
+        "h": "Nhận biết buồng vang thông tin từ thuật toán mạng"
+      },
+      {
+        "c": "HN8-B02-006",
+        "d": "basic",
+        "p": "Khi tranh luận một vấn đề học thuật trên lớp và phát hiện lập luận ban đầu của mình có chỗ chưa chính xác so với bằng chứng mới bạn nêu ra, thái độ của người có tư duy phản biện trưởng thành là gì?",
+        "o": [
+          "Nói to át tiếng bạn và chuyển sang công kích đời tư của bạn",
+          "Cố giữ sai lầm tới cùng để bảo vệ sĩ diện cá nhân",
+          "Vui vẻ ghi nhận điểm đúng của bạn, sẵn sàng cập nhật lại nhận thức của mình vì mục tiêu tìm ra chân lí chung chứ không cố cãi cho thắng",
+          "Xé nháp giận dỗi không nói chuyện với nhóm nữa"
+        ],
+        "k": "C",
+        "e": "Thay đổi quan điểm khi gặp bằng chứng thuyết phục hơn không phải thua cuộc, mà là dấu hiệu tiến bộ của trí tuệ.",
+        "s": "HĐTN, HN 8",
+        "h": "Thái độ cầu thị trước bằng chứng đúng hơn"
+      },
+      {
+        "c": "HN8-B02-007",
+        "d": "application",
+        "p": "Quan sát lưu đồ 4 bước kiểm chứng thông tin SIFT dưới đây trước khi nhấn nút Chia sẻ một bài viết trên mạng. Bạn Khoa thấy một video cảnh báo \"uống nước chanh pha muối chữa khỏi mọi bệnh hiểm nghèo chỉ trong 3 ngày\" có rất nhiều bình luận cảm ơn. Khoa nên áp dụng bước nào tiếp theo?",
+        "o": [
+          "Dừng lại chưa chia sẻ vội, xem người đăng có phải bác sĩ hay cơ quan y tế uy tín không rồi tra kiểm chứng lại trên cổng Bộ Y tế hoặc bệnh viện lớn",
+          "Tin ngay vì video được quay trong phòng có gắn rèm trắng giống bệnh viện",
+          "Chia sẻ ngay cho ông bà làm theo vì thấy phần bình luận bên dưới khen rất nhiều",
+          "Bình luận chê bai tất cả các bác sĩ bệnh viện là vô dụng"
+        ],
+        "k": "A",
+        "e": "Bình luận khen ngợi dưới tin giả y tế thường do tài khoản ảo tạo ra; kiểm tra nguồn gốc chuyên môn là lá chắn bảo vệ sức khỏe cả gia đình.",
+        "s": "HĐTN, HN 8",
+        "h": "Áp dụng quy trình kiểm chứng thông tin y tế mạng",
+        "fig": {
+          "w": 320,
+          "h": 185,
+          "items": [
+            {
+              "t": "poly",
+              "p": [
+                [
+                  100,
+                  14
+                ],
+                [
+                  220,
+                  14
+                ],
+                [
+                  220,
+                  44
+                ],
+                [
+                  100,
+                  44
+                ]
+              ],
+              "fill": "#dcfce7",
+              "stroke": "#16a34a",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                33
+              ],
+              "s": "Thấy tin sốc trên mạng",
+              "anchor": "middle",
+              "size": 11.5
+            },
+            {
+              "t": "line",
+              "a": [
+                160,
+                44
+              ],
+              "b": [
+                160,
+                62
+              ],
+              "arrow": true,
+              "color": "#334155",
+              "w": 2
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  160,
+                  64
+                ],
+                [
+                  235,
+                  94
+                ],
+                [
+                  160,
+                  124
+                ],
+                [
+                  85,
+                  94
+                ]
+              ],
+              "fill": "#fef3c7",
+              "stroke": "#d97706",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                160,
+                98
+              ],
+              "s": "Nguồn chính thống tin cậy?",
+              "anchor": "middle",
+              "size": 11.5
+            },
+            {
+              "t": "line",
+              "a": [
+                85,
+                94
+              ],
+              "b": [
+                55,
+                138
+              ],
+              "arrow": true,
+              "color": "#16a34a",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                58,
+                110
+              ],
+              "s": "Đúng",
+              "anchor": "middle",
+              "size": 10.5,
+              "color": "#15803d"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  10,
+                  140
+                ],
+                [
+                  135,
+                  140
+                ],
+                [
+                  135,
+                  170
+                ],
+                [
+                  10,
+                  170
+                ]
+              ],
+              "fill": "#dbeafe",
+              "stroke": "#2563eb",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                72,
+                159
+              ],
+              "s": "Đọc kĩ, đối chiếu ngày tháng",
+              "anchor": "middle",
+              "size": 11
+            },
+            {
+              "t": "line",
+              "a": [
+                235,
+                94
+              ],
+              "b": [
+                265,
+                138
+              ],
+              "arrow": true,
+              "color": "#dc2626",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                264,
+                110
+              ],
+              "s": "Sai",
+              "anchor": "middle",
+              "size": 10.5,
+              "color": "#dc2626"
+            },
+            {
+              "t": "poly",
+              "p": [
+                [
+                  185,
+                  140
+                ],
+                [
+                  310,
+                  140
+                ],
+                [
+                  310,
+                  170
+                ],
+                [
+                  185,
+                  170
+                ]
+              ],
+              "fill": "#fee2e2",
+              "stroke": "#dc2626",
+              "w": 2
+            },
+            {
+              "t": "txt",
+              "p": [
+                247,
+                159
+              ],
+              "s": "Dừng chia sẻ, tra cứu nguồn gốc",
+              "anchor": "middle",
+              "size": 11
+            }
+          ]
+        }
+      },
+      {
+        "c": "HN8-B02-008",
+        "d": "application",
+        "p": "Một trang mạng đăng bảng so sánh khẳng định: \"Học sinh lớp 8 cứ ăn kẹo sô-cô-la mỗi ngày chắc chắn thi đỗ thủ khoa\" dựa trên khảo sát thấy một trường có nhiều học sinh giỏi hay ăn kẹo. Lỗi suy luận logic phổ biến nào xuất hiện ở đây?",
+        "o": [
+          "Lỗi viết sai chính tả tên loại kẹo trong bài báo",
+          "Lỗi sử dụng biểu đồ cột có màu sắc quá nhạt",
+          "Nhầm lẫn giữa sự trùng hợp ngẫu nhiên hoặc tương quan bề ngoài thành quan hệ \"nguyên nhân – kết quả\" trực tiếp mà bỏ qua yếu tố phương pháp học và nỗ lực",
+          "Không có lỗi gì vì ăn đồ ngọt chắc chắn thay thế hoàn toàn việc học bài"
+        ],
+        "k": "C",
+        "e": "Biết đặt câu hỏi \"Có nguyên nhân ẩn nào khác thực sự tạo nên kết quả này không?\" giúp miễn dịch trước rất nhiều quảng cáo thổi phồng.",
+        "s": "HĐTN, HN 8",
+        "h": "Nhận diện ngụy biện tương quan thành nguyên nhân"
+      },
+      {
+        "c": "HN8-B02-009",
+        "d": "application",
+        "p": "Khi tìm tài liệu làm bài thuyết trình môn KHTN lớp 8, bạn Lan tìm thấy hai con số khác hẳn nhau về cùng một hiện tượng trên hai trang web. Để xác định số liệu chuẩn xác, Lan nên ưu tiên nguồn nào?",
+        "o": [
+          "Tự bịa ra một con số trung bình cộng cả hai trang rồi ghi tên sách giáo khoa",
+          "Chọn bừa số nào dễ nhớ hoặc nghe ấn tượng nhất với khán giả",
+          "Chọn trang web có nhiều quảng cáo nhấp nháy nhất",
+          "Ưu tiên sách giáo khoa, trang nghiên cứu khoa học chính thống, cổng thông tin cơ quan nhà nước hoặc bách khoa uy tín ghi rõ nguồn số liệu mới nhất"
+        ],
+        "k": "D",
+        "e": "Kiểm tra tính cập nhật, tác giả và độ tin cậy của nguồn trích dẫn là kỉ luật học thuật cơ bản giúp bài thuyết trình vững chắc.",
+        "s": "HĐTN, HN 8",
+        "h": "Lựa chọn nguồn tài liệu đáng tin cậy"
+      },
+      {
+        "c": "HN8-B02-010",
+        "d": "application",
+        "p": "Trong buổi thảo luận nhóm về chủ đề \"Có nên cấm hoàn toàn điện thoại thông minh với học sinh THCS hay không\", để cuộc tranh luận không rơi vào cãi vã cảm tính, em nên hướng dẫn nhóm dùng phương pháp phân tích nào?",
+        "o": [
+          "Chia hai phe đứng dậy hét xem phe nào đông người hơn thì thắng",
+          "Chỉ thu thập ý kiến của những bạn đang ghét điện thoại",
+          "Cấm các bạn đưa ra ý kiến khác với nhóm trưởng",
+          "Lập bảng hai cột Lợi ích (học tập, liên lạc khẩn) và Nguy cơ (xao nhãng, nghiện game, lộ dữ liệu) kèm dẫn chứng thực tế rồi đề xuất cách quản lí"
+        ],
+        "k": "D",
+        "e": "Tư duy đa chiều nhìn đủ cả mặt thuận và mặt nghịch giúp tìm ra giải pháp thực tế cân bằng thay vì cực đoan phiến diện.",
+        "s": "HĐTN, HN 8",
+        "h": "Phân tích đa chiều vấn đề gây tranh cãi"
+      },
+      {
+        "c": "HN8-B02-011",
+        "d": "application",
+        "p": "Bạn Nam nhận được tin nhắn từ tài khoản quen nhưng văn phong hơi lạ nhắn: \"Đang kẹt tiền gấp, chuyển giúp tớ 500 nghìn vào số tài khoản này trong 5 phút nữa trả lại ngay!\". Vận dụng tư duy phản biện kiểm chứng, Nam cần làm gì?",
+        "o": [
+          "Chuyển thử 200 nghìn xem có mất thật không",
+          "Không chuyển ngay; gọi trực tiếp số di động quen hoặc hỏi thông tin riêng hai người biết để đề phòng tài khoản mạng của bạn đã bị kẻ gian chiếm đoạt",
+          "Vội vàng chuyển tiền ngay lập tức để chứng minh tình bạn nhiệt tình",
+          "Nhắn tin hỏi lại chính tài khoản đang chat xem có phải lừa đảo không"
+        ],
+        "k": "B",
+        "e": "Kẻ lừa đảo thường chiếm tài khoản mạng rồi giả danh vay tiền gấp đánh vào tâm lí vội vàng; xác minh qua kênh khác (gọi điện trực tiếp) phá vỡ kịch bản lừa đảo ngay.",
+        "s": "HĐTN, HN 8",
+        "h": "Kiểm chứng khi nhận tin nhắn vay tiền gấp qua mạng"
+      },
+      {
+        "c": "HN8-B02-012",
+        "d": "application",
+        "p": "Hiện nay công nghệ AI có thể tạo ra ảnh và video giả ghép mặt, giả giọng nói (Deepfake) rất tinh vi. Khi xem một đoạn video gây sốc có người nổi tiếng phát ngôn kì lạ hoặc kêu gọi đầu tư làm giàu nhanh, cách cảnh giác đúng nhất là gì?",
+        "o": [
+          "Làm theo lời kêu gọi nạp tiền ngay kẻo lỡ cơ hội",
+          "Gửi tiếp video đó cho toàn bộ họ hàng tin theo",
+          "Tin tuyệt đối 100% vì \"thấy tận mắt nghe tận tai trong video\" rồi không thể giả được",
+          "Soi chi tiết bất thường (nhịp chớp mắt, viền miệng, ánh sáng lệch), đồng thời tra trang xác thực chính thức của nhân vật/báo chí trước khi tin theo"
+        ],
+        "k": "D",
+        "e": "Trong kỉ nguyên AI tạo sinh, nguyên tắc vàng là \"Chưa thấy nguồn chính thống xác nhận thì chưa tin dù video trông thật đến đâu\".",
+        "s": "HĐTN, HN 8",
+        "h": "Cảnh giác trước hình ảnh và video giả mạo"
+      },
+      {
+        "c": "HN8-B02-013",
+        "d": "advanced",
+        "p": "Phân tích lí do tâm lí vì sao tin giả thường lan truyền nhanh gấp nhiều lần tin thật đúng sự thật trên mạng xã hội, từ đó rút ra nguyên tắc tự bảo vệ cho học sinh lớp 8 là gì?",
+        "o": [
+          "Vì con người sinh ra không có khả năng hiểu được tin thật",
+          "Tin thật thường chừng mực nhiều chiều, còn tin giả đánh mạnh vào nỗi sợ, lòng tham hay phẫn nộ; hễ thấy cảm xúc dâng vọt quá nhanh thì phải dừng kiểm chứng",
+          "Vì càng tức giận chia sẻ càng nhanh thì tin giả tự biến thành sự thật",
+          "Vì tin giả lúc nào cũng ngắn hơn tin thật một nửa chữ"
+        ],
+        "k": "B",
+        "e": "\"Cảm xúc dâng cao – Lí trí đi xuống\": biến khoảnh khắc bất ngờ sửng sốt thành nút tạm dừng kiểm chứng chính là đỉnh cao của bản lĩnh công dân số.",
+        "s": "HĐTN, HN 8",
+        "h": "Nhận diện mối liên hệ cảm xúc và tốc độ lan truyền tin giả"
+      },
+      {
+        "c": "HN8-B02-014",
+        "d": "advanced",
+        "p": "Trong giờ Ngữ văn hoặc HĐTN tranh biện về một vấn đề xã hội, sự khác nhau giữa \"Tranh luận xây dựng nhắm vào lập luận\" với \"Ngụy biện công kích cá nhân (Ad Hominem)\" là gì?",
+        "o": [
+          "Tranh luận xây dựng là tuyệt đối không được phép đưa ra bất kì số liệu nào",
+          "Hai cách hoàn toàn giống nhau miễn nói to rõ ràng là được",
+          "Công kích cá nhân là phương pháp khoa học giúp chứng minh mình thông minh hơn",
+          "Tranh luận xây dựng phân tích lí lẽ và bằng chứng của ý kiến; còn công kích cá nhân quay sang chê tuổi tác, ngoại hình người nói để né trả lời vấn đề"
+        ],
+        "k": "D",
+        "e": "Nhận ra đòn ngụy biện công kích cá nhân giúp em giữ vững bình tĩnh và khéo léo đưa cuộc trao đổi quay lại trọng tâm vấn đề.",
+        "s": "HĐTN, HN 8",
+        "h": "Nhận diện và tránh ngụy biện công kích cá nhân"
+      },
+      {
+        "c": "HN8-B02-015",
+        "d": "advanced",
+        "p": "Nếu lớp 8A thiết kế một \"Cẩm nang 5 Nguyên tắc Vàng Công dân Số Thông thái\" dán cạnh góc Tin học của lớp, 5 quy tắc cô đọng nào bảo vệ học sinh toàn diện nhất?",
+        "o": [
+          "1. Dừng kiểm nguồn chính thống; 2. Không chia sẻ tin chưa kiểm chứng; 3. Bảo mật thông tin cá nhân; 4. Lịch sự sau màn hình; 5. Tránh bẫy quà tặng lừa đảo",
+          "1. Chia sẻ mọi tin nóng nhanh nhất có thể; 2. Đặt mật khẩu là ngày sinh; 3. Kết bạn với tất cả tài khoản lạ",
+          "1. Đăng hết địa chỉ nhà lên công khai; 2. Chép y nguyên bài trên mạng; 3. Dùng mạng xuyên đêm",
+          "1. Tin mọi video giật gân; 2. Bình luận chê bai cho vui; 3. Bấm vào mọi đường link nhận quà"
+        ],
+        "k": "A",
+        "e": "Năm nguyên tắc ngắn gọn này đóng vai trò hàng rào miễn dịch tư duy giúp học sinh lớp 8 tự tin làm chủ không gian mạng.",
+        "s": "HĐTN, HN 8",
+        "h": "Xây dựng Cẩm nang Công dân Số lớp 8"
+      }
+    ]
+  },
+  {
+    "chapter": "hdtn_hn8-c1",
+    "lesson": {
+      "code": "hdtn_hn8-b03",
+      "title": "Bài 3. Vượt qua áp lực đồng trang lứa và phòng tránh tệ nạn xã hội",
+      "seq": 3,
+      "subtitle": "Nhận diện áp lực tích cực và tiêu cực từ bạn bè đồng trang lứa, kĩ năng từ chối kiên quyết trước rủ rê thuốc lá điện tử, chất kích thích và trò chơi độc hại",
+      "concepts": [
+        "Áp lực bạn bè đồng trang lứa",
+        "Kĩ năng từ chối kiên quyết",
+        "Phòng tránh thuốc lá điện tử, chất gây nghiện"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN8-B03-001",
+        "d": "basic",
+        "p": "\"Áp lực đồng trang lứa\" (Peer Pressure) ở học sinh lớp 8 có thể mang lại cả tác động tiêu cực lẫn tích cực. Đâu là ví dụ về tác động TÍCH CỰC?",
+        "o": [
+          "Bị bạn rủ rê trốn học đi chơi điện tử hoặc thử hút thuốc lá điện tử cho \"ngầu\"",
+          "Thấy nhóm bạn cùng lớp chăm chỉ đọc sách, tham gia CLB thể thao và nói năng lễ phép nên mình cũng có động lực rèn luyện tiến bộ theo",
+          "Bắt chước tụ tập đua xe cổ vũ quấy rối trật tự",
+          "Chê bai bạn nhà nghèo để chạy đua đòi bố mẹ mua đồ đắt tiền"
+        ],
+        "k": "B",
+        "e": "Chọn đúng môi trường bạn bè tích cực biến áp lực đồng trang lứa thành lực đẩy tuyệt vời giúp em phát triển.",
+        "s": "HĐTN, HN 8",
+        "h": "Phân biệt áp lực bạn bè tích cực và tiêu cực"
+      },
+      {
+        "c": "HN8-B03-002",
+        "d": "basic",
+        "p": "Sự thật khoa học quan trọng nhất về \"Thuốc lá điện tử / Pod\" mà học sinh lớp 8 bắt buộc phải biết là gì?",
+        "o": [
+          "Hoàn toàn chỉ là hơi nước hoa quả thơm dịu vô hại tuyệt đối với phổi",
+          "Là sản phẩm được khuyến khích dùng trong trường học để giảm căng thẳng",
+          "Chứa nicotine gây nghiện mạnh và nhiều hóa chất độc hại phá hủy phổi, tim mạch, suy giảm trí nhớ não bộ đang phát triển chứ hoàn toàn KHÔNG vô hại",
+          "Giúp học sinh lớp 8 thông minh hơn và tăng chiều cao nhanh"
+        ],
+        "k": "C",
+        "e": "Nhiều loại thuốc lá điện tử trôi nổi còn bị tẩm trộn chất ma túy tổng hợp cực kì nguy hiểm; tuyệt đối nói KHÔNG từ lần thử đầu tiên!",
+        "s": "HĐTN, HN 8",
+        "h": "Tác hại nguy hiểm của thuốc lá điện tử"
+      },
+      {
+        "c": "HN8-B03-003",
+        "d": "basic",
+        "p": "Khi bị bạn bè kích động bằng câu nói: \"Mày nhát gan thế, thử một hơi/một lần đi cho chứng tỏ mình đã lớn!\", thái độ bản lĩnh thực sự là gì?",
+        "o": [
+          "Cười theo và rủ thêm các bạn nhỏ lớp 6 cùng thử",
+          "Hiểu rằng dám từ chối điều có hại mới là bản lĩnh trưởng thành thực sự, kiên quyết lắc đầu từ chối và rời khỏi chỗ đó",
+          "Thử ngay một lần cho bằng bạn để khỏi bị gọi là nhát gan",
+          "Cầm lấy giấu vào cặp mang về nhà xem thử"
+        ],
+        "k": "B",
+        "e": "Sự trưởng thành không nằm ở việc mạo hiểm hủy hoại sức khỏe theo lời khích bác, mà ở trí tuệ biết tự bảo vệ tương lai của chính mình.",
+        "s": "HĐTN, HN 8",
+        "h": "Bản lĩnh từ chối lời khích bác sai trái"
+      },
+      {
+        "c": "HN8-B03-004",
+        "d": "basic",
+        "p": "Biểu hiện ban đầu của việc lạm dụng, nghiện trò chơi điện tử hoặc mạng xã hội ở học sinh lớp 8 là gì?",
+        "o": [
+          "Chơi giải trí nhẹ 20 phút cuối tuần sau khi đã hoàn thành hết bài tập và việc nhà",
+          "Dùng máy tính tra cứu tài liệu học tập 30 phút buổi tối",
+          "Dành nhiều giờ liền quên ăn ngủ học tập, cáu gắt dữ dội khi bị nhắc ngừng màn hình, lơ là bạn bè gia đình ngoài đời thực và kết quả học sa sút",
+          "Biết tự đặt chuông tắt máy đúng giờ quy định để đi ngủ sớm"
+        ],
+        "k": "C",
+        "e": "Ranh giới giữa \"giải trí điều độ\" và \"nghiện màn hình\" là khả năng tự dừng lại đúng hẹn mà không bứt rứt cáu gắt.",
+        "s": "HĐTN, HN 8",
+        "h": "Dấu hiệu cảnh báo nghiện game, màn hình"
+      },
+      {
+        "c": "HN8-B03-005",
+        "d": "basic",
+        "p": "Ngoài thuốc lá điện tử và chất gây nghiện, các tệ nạn học đường và xã hội nào học sinh lớp 8 cần tuyệt đối tránh xa?",
+        "o": [
+          "Cờ bạc cá độ trực tuyến, bạo lực băng nhóm tụ tập gây rối, sử dụng bóng cười hay thức uống pha chế lạ không rõ nguồn gốc",
+          "Tổ chức nhóm học tập cùng tiến vào cuối tuần",
+          "Tham gia sinh hoạt câu lạc bộ thiện nguyện tại địa phương",
+          "Tham gia giải thể thao bóng rổ, cầu lông của trường"
+        ],
+        "k": "A",
+        "e": "Mọi trò cá cược may rủi hay chất kích thích đều tạo cảm giác hưng phấn giả tạo ban đầu rồi kéo người chơi vào vòng xoáy nợ nần, vi phạm pháp luật.",
+        "s": "HĐTN, HN 8",
+        "h": "Nhận diện các tệ nạn cần tránh xa tuổi 14"
+      },
+      {
+        "c": "HN8-B03-006",
+        "d": "basic",
+        "p": "Một câu từ chối khéo léo nhưng kiên quyết khi đứng trước áp lực rủ rê làm điều sai trái cần bảo đảm yếu tố nào?",
+        "o": [
+          "Vừa từ chối vừa đánh mắng xúc phạm nặng nề khiến tình huống căng thẳng thêm",
+          "Nhìn thẳng bình tĩnh, giọng dứt khoát ngắn gọn (không ấp úng viện cớ yếu), nêu rõ lập trường từ chối và chủ động chuyển hướng hoặc rời đi an toàn",
+          "Im lặng gật đầu đồng ý đại cho xong chuyện",
+          "Nói lí nhí vòng vo: \"Để mình suy nghĩ xem ngày mai thế nào đã nhé\""
+        ],
+        "k": "B",
+        "e": "Thái độ bình tĩnh dứt khoát khiến người rủ rê hiểu ngay rằng không thể lay chuyển hay ép buộc được em.",
+        "s": "HĐTN, HN 8",
+        "h": "Đặc điểm của lời từ chối hiệu quả"
+      },
+      {
+        "c": "HN8-B03-007",
+        "d": "application",
+        "p": "Quan sát bảng 4 cách từ chối linh hoạt trước lời rủ rê tiêu cực của bạn bè dưới đây. Trong buổi sinh nhật một bạn cùng khối, có người lạ đưa ra ống thuốc lá điện tử mời cả bàn hút thử \"cho thơm miệng\", bạn Minh nên áp dụng cách nào an toàn nhất?",
+        "o": [
+          "Từ chối dứt khoát (\"Không, mình không dùng đâu!\"), rủ bạn thân đứng dậy chuyển bàn khác hoặc báo người lớn chủ nhà để ra về sớm an toàn",
+          "Thử một chút xem vị dâu bạc hà có ngon như lời quảng cáo không",
+          "Cầm lấy ngậm vào miệng giả vờ hút nhẹ một hơi cho hòa đồng rồi nhả ra",
+          "Ở lại ngồi ngay sát cạnh hít thụ động làn khói suốt hai tiếng"
+        ],
+        "k": "A",
+        "e": "Khói thuốc lá điện tử tỏa ra vẫn chứa nicotine và hạt siêu mịn gây hại cho người hít thụ động; rời khỏi không gian đó bảo vệ cả phổi lẫn danh dự của em.",
+        "s": "HĐTN, HN 8",
+        "h": "Vận dụng kĩ năng từ chối và thoát khỏi môi trường độc hại",
+        "fig": {
+          "type": "table",
+          "title": "4 cách từ chối khéo",
+          "head": [
+            "Kĩ thuật",
+            "Ví dụ câu nói mẫu"
+          ],
+          "rows": [
+            [
+              "Thẳng thắn rõ ràng",
+              "Không, mình từ chối"
+            ],
+            [
+              "Đề xuất việc khác",
+              "Ra sân bóng rổ"
+            ],
+            [
+              "Nhắc lí do gia đình",
+              "Bố mẹ rất nghiêm"
+            ],
+            [
+              "Rời đi an toàn",
+              "Mình phải về trước"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "HN8-B03-008",
+        "d": "application",
+        "p": "Bạn Tuấn thấy cả nhóm bạn chơi thân dạo gần đây đều đua nhau xin tiền bố mẹ mua áo giày hàng hiệu đắt đỏ và chê ai mặc đồ bình thường là \"nhà quê\". Tuấn rất buồn vì gia đình kinh tế vừa phải, Tuấn nên ứng xử thế nào để giữ lòng tự trọng?",
+        "o": [
+          "Lén lấy tiền tiết kiệm của gia đình hoặc vay tiền nặng lãi qua mạng để mua giày",
+          "Mượn đồ của người khác rồi tự nhận là của nhà mình mua",
+          "Đòi hỏi gây áp lực khóc lóc bắt cha mẹ phải vay tiền mua đồ hiệu cho bằng bạn",
+          "Giá trị bản thân nằm ở tri thức, gọn gàng và nhân cách chứ không ở nhãn áo; tự tin mặc đồ hợp túi tiền gia đình và kết bạn cùng lối sống lành mạnh"
+        ],
+        "k": "D",
+        "e": "Những người bạn thực sự quý trọng em không bao giờ đo giá trị tình bạn qua giá tiền chiếc áo em mặc.",
+        "s": "HĐTN, HN 8",
+        "h": "Giữ vững tự trọng trước áp lực đua đòi vật chất"
+      },
+      {
+        "c": "HN8-B03-009",
+        "d": "application",
+        "p": "Một người bạn mới quen trên mạng nhắn tin rủ bạn Lan tham gia một đường link \"Làm nhiệm vụ bấm thích nhận ngay 100.000 đ mỗi ngày tại nhà cho học sinh\". Nhận thức tỉnh táo của Lan là gì?",
+        "o": [
+          "Nhận diện bẫy lừa \"việc nhẹ lương cao\" (dụ nộp cọc hoặc đánh cắp tài khoản gia đình); tuyệt đối không bấm link lạ, chặn ngay và báo cho cha mẹ",
+          "Rủ thêm 5 bạn lớp mình cùng tham gia kiếm tiền tiêu vặt",
+          "Thử nạp trước 50.000 đ theo hướng dẫn để xem có nhận lại được 100.000 đ không",
+          "Chụp ảnh thẻ căn cước của bố gửi qua tin nhắn để đăng kí tài khoản"
+        ],
+        "k": "A",
+        "e": "Không có công việc hợp pháp nào chỉ bấm nút vài phút mà trả lương cao dễ dàng cho học sinh; mọi chiêu mời chào như vậy đều là bẫy lừa đảo.",
+        "s": "HĐTN, HN 8",
+        "h": "Phòng tránh bẫy lừa đảo việc nhẹ lương cao"
+      },
+      {
+        "c": "HN8-B03-010",
+        "d": "application",
+        "p": "Khi phát hiện một bạn cùng lớp lén giấu thuốc lá điện tử trong cặp và bắt đầu rủ thêm vài bạn khác ra khu vệ sinh vắng dùng thử vào giờ ra chơi, hành động vừa nhân văn vừa đúng trách nhiệm của em là gì?",
+        "o": [
+          "Xin dùng ké một hơi rồi giữ bí mật giùm bạn",
+          "Đăng hình chụp bạn đó lên mạng xã hội bêu riếu cho cả trường chửi bới",
+          "Không thử dù một lần, khuyên bạn dừng lại nếu an toàn và báo kín ngay cho GVCN hoặc tổng phụ trách để kịp thời hỗ trợ bạn trước khi quá muộn",
+          "Bao che im lặng hoàn toàn vì nghĩ báo thầy cô là \"mách lẻo phản bội bạn\""
+        ],
+        "k": "C",
+        "e": "Báo sớm cho thầy cô bằng thái độ bảo vệ sức khỏe giúp cứu chính người bạn đó khỏi con đường nghiện ngập trước khi hậu quả nặng nề xảy ra.",
+        "s": "HĐTN, HN 8",
+        "h": "Phân biệt \"mách lẻo\" với \"lên tiếng cứu bạn đúng lúc\""
+      },
+      {
+        "c": "HN8-B03-011",
+        "d": "application",
+        "p": "Bạn Khoa dạo này hay thức tới 1 giờ sáng cày xếp hạng trò chơi điện tử vì sợ \"tụt hạng sẽ bị nhóm bạn trong team chê yếu không cho chơi cùng\". Cách giúp Khoa thoát khỏi vòng xoáy áp lực này hiệu quả nhất là gì?",
+        "o": [
+          "Xóa luôn lịch học buổi sáng để ngủ bù cho giờ chơi đêm",
+          "Thỏa thuận chơi tối đa 45 phút cuối tuần sau khi xong bài, thay giờ tối bằng ngủ đủ giấc và chơi thể thao ngoài sân cùng nhóm bạn tích cực hơn",
+          "Nạp thêm tiền mua vật phẩm mạnh để đỡ tốn thời gian cày",
+          "Chơi thêm tới 3 giờ sáng cho lên hạng cao nhất rồi tuần sau tính tiếp"
+        ],
+        "k": "B",
+        "e": "Thay thế niềm vui ảo từ thứ hạng game bằng những trải nghiệm gắn kết thực tế (đá bóng, cầu lông, CLB STEM) giúp cai nghiện màn hình nhẹ nhàng nhất.",
+        "s": "HĐTN, HN 8",
+        "h": "Thoát khỏi áp lực thứ hạng trò chơi điện tử"
+      },
+      {
+        "c": "HN8-B03-012",
+        "d": "application",
+        "p": "Nếu một nhóm học sinh lớn hơn chặn đường em ở cổng phụ yêu cầu đưa tiền lẻ hoặc đe dọa nếu không nghe lời, kĩ năng xử lí bảo toàn an toàn cao nhất là gì?",
+        "o": [
+          "Bình tĩnh không chống cự liều lĩnh nếu nguy hiểm, lùi nhanh vào chỗ đông người, cửa hàng hoặc phòng bảo vệ trường và gọi ngay cho gia đình, thầy cô",
+          "Đưa tiền xong rồi im lặng chịu đựng ngày nào cũng nộp tiếp cả năm",
+          "Cố gắng đứng lại cãi tay đôi thách thức nhóm đông người hơn",
+          "Hẹn nhóm bạn lớp mình ngày mai mang gậy ra đánh trả"
+        ],
+        "k": "A",
+        "e": "Ưu tiên an toàn thân thể ngay thời điểm đối mặt, sau đó lập tức nhờ người lớn và nhà trường vào cuộc chặn đứng hành vi vi phạm pháp luật.",
+        "s": "HĐTN, HN 8",
+        "h": "Bảo toàn an toàn khi gặp đe dọa trấn lột"
+      },
+      {
+        "c": "HN8-B03-013",
+        "d": "advanced",
+        "p": "Nhiều bạn lớp 8 sợ rằng: \"Nếu từ chối không làm theo nhóm bạn (không trốn tiết, không thử đồ cấm, không chép bài gian lận), mình sẽ bị cô lập cô đơn một mình\". Làm sao để vừa giữ vững nguyên tắc sống lành mạnh vừa không bị cô đơn?",
+        "o": [
+          "Nhóm ép làm điều hại không phải tình bạn bền vững; hãy chủ động tham gia CLB sở thích, học tập, thể thao lành mạnh để kết nối thêm bạn tốt",
+          "Đóng cửa ở nhà không chơi với bất kì ai cả 4 năm THCS",
+          "Cố tình giả vờ làm người xấu nửa mùa để lấy lòng cả hai bên",
+          "Phải chấp nhận nhắm mắt làm theo mọi điều xấu để luôn có đông bạn bên cạnh"
+        ],
+        "k": "A",
+        "e": "\"Chọn bạn mà chơi\": rời xa nhóm kéo mình đi xuống thực chất là mở không gian để bước vào những tình bạn nâng đỡ mình đi lên.",
+        "s": "HĐTN, HN 8",
+        "h": "Mở rộng kết nối lành mạnh khi từ chối nhóm tiêu cực"
+      },
+      {
+        "c": "HN8-B03-014",
+        "d": "advanced",
+        "p": "Phân tích chiến thuật tiếp thị ngụy trang tinh vi của các sản phẩm gây nghiện nhắm vào tuổi teen hiện nay (bao bì thuốc lá điện tử giống cây bút, thỏi son, hộp sữa, mùi kẹo ngọt): vì sao các em phải nâng cấp tư duy cảnh giác gấp đôi?",
+        "o": [
+          "Vì mùi kẹo ngọt chứng minh hoàn toàn làm từ đường trái cây tự nhiên bổ dưỡng",
+          "Vỏ bọc kẹo ngọt dễ thương để qua mặt phụ huynh, thầy cô và khiến học sinh mất cảnh giác; nhận rõ chất độc hại bên trong để tự bảo vệ mình và em nhỏ",
+          "Vì hình dáng giống cây bút giúp viết bài trên lớp nhanh hơn",
+          "Vì nhà sản xuất muốn biến chúng thành đồ dùng học tập hợp pháp cho học sinh"
+        ],
+        "k": "B",
+        "e": "Nâng cao hiểu biết về chiêu thức ngụy trang đồ dùng học tập giúp học sinh, phụ huynh và nhà trường kịp thời phát hiện và ngăn chặn.",
+        "s": "HĐTN, HN 8",
+        "h": "Nhận diện ngụy trang tinh vi của chất gây nghiện"
+      },
+      {
+        "c": "HN8-B03-015",
+        "d": "advanced",
+        "p": "Khi nhóm học sinh lớp 8A thực hiện dự án truyền thông \"Nói KHÔNG với Thuốc lá điện tử & Tệ nạn học đường\", cách truyền thông nào thực sự chạm vào nhận thức của bạn cùng lứa hiệu quả hơn việc chỉ đọc thuộc lòng văn bản luật khô khan?",
+        "o": [
+          "Quát mắng đe dọa các bạn suốt cả buổi chào cờ không cho ai phát biểu",
+          "Chỉ in một tờ văn bản luật chữ nhỏ xíu dài 10 trang dán ở góc khuất",
+          "Diễn tiểu phẩm hóa giải lời rủ rê, chiếu đồ họa số liệu tổn thương phổi thực tế và mở góc thực hành kĩ năng nói lời từ chối ngay tại sân trường",
+          "Chỉ chiếu một đoạn phim hài không nhắc gì tới tác hại hay cách từ chối"
+        ],
+        "k": "C",
+        "e": "Thực hành đóng vai xử lí đúng câu nói rủ rê thực tế giúp học sinh nhớ ngay phản xạ từ chối tự tin khi rơi vào tình huống thật.",
+        "s": "HĐTN, HN 8",
+        "h": "Sáng tạo truyền thông phòng chống tệ nạn hiệu quả"
+      }
+    ]
+  },
+  {
+    "chapter": "hdtn_hn8-c2",
+    "lesson": {
+      "code": "hdtn_hn8-b04",
+      "title": "Bài 4. Xây dựng quan hệ lành mạnh và tôn trọng ranh giới bạn khác giới",
+      "seq": 4,
+      "subtitle": "Ứng xử tự nhiên, văn minh, tôn trọng ranh giới cá nhân trong tình bạn cùng giới và khác giới lớp 8; nhận diện cảm xúc rung động tuổi mới lớn lành mạnh",
+      "concepts": [
+        "Tình bạn khác giới văn minh",
+        "Tôn trọng ranh giới cá nhân",
+        "Ứng xử trước rung động tuổi 14"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN8-B04-001",
+        "d": "basic",
+        "p": "Nền tảng quan trọng nhất để xây dựng một tình bạn đẹp, tự nhiên và bền vững giữa các bạn nam và bạn nữ trong lớp 8 là gì?",
+        "o": [
+          "Bình luận khiếm nhã về ngoại hình cơ thể của nhau",
+          "Ép buộc đối phương chỉ được chơi riêng với mình không được nói chuyện với ai khác",
+          "Sự tôn trọng bình đẳng, chân thành giúp đỡ nhau học tập tiến bộ và giữ chừng mực lịch sự trong lời nói, hành động",
+          "Sự gán ghép trêu chọc ầm ĩ khiến hai bạn ngại ngùng tránh mặt nhau"
+        ],
+        "k": "C",
+        "e": "Tình bạn khác giới trong sáng bổ sung góc nhìn đa dạng (sự mạnh mẽ năng động cùng sự tinh tế chu đáo) giúp cả tập thể lớp gắn bó vui vẻ hơn.",
+        "s": "HĐTN, HN 8",
+        "h": "Nền tảng tình bạn khác giới trong sáng"
+      },
+      {
+        "c": "HN8-B04-002",
+        "d": "basic",
+        "p": "\"Ranh giới cá nhân\" (Personal Boundaries) trong giao tiếp bạn bè bao gồm những khía cạnh nào cần được tôn trọng tuyệt đối?",
+        "o": [
+          "Chỉ áp dụng với người lạ hoàn toàn chứ bạn thân thì muốn lục cặp xem tin nhắn lúc nào cũng được",
+          "Không tồn tại ranh giới nào giữa các học sinh ngồi cùng lớp",
+          "Chỉ áp dụng cho người lớn trên 18 tuổi",
+          "Ranh giới cơ thể (không tự ý động chạm ôm kéo gây khó chịu), ranh giới cảm xúc và ranh giới riêng tư (nhật kí, điện thoại, tin nhắn, thông tin gia đình)"
+        ],
+        "k": "D",
+        "e": "Tôn trọng ranh giới không làm tình bạn xa cách đi mà tạo ra cảm giác an toàn, tin tưởng để gắn bó lâu dài.",
+        "s": "HĐTN, HN 8",
+        "h": "Khái niệm ranh giới cá nhân trong tình bạn"
+      },
+      {
+        "c": "HN8-B04-003",
+        "d": "basic",
+        "p": "Khi bước vào lớp 8 (13–14 tuổi), việc một học sinh thỉnh thoảng cảm thấy quý mến hoặc rung động nhẹ trước một bạn học giỏi, tốt bụng là hiện tượng tâm lí như thế nào?",
+        "o": [
+          "Là lí do bắt buộc phải bỏ học ngay để lo chuyện hẹn hò",
+          "Là biểu hiện phát triển tình cảm tự nhiên bình thường của tuổi dậy thì, đáng được định hướng trong sáng lành mạnh để cùng nhau cố gắng học tốt hơn",
+          "Là dấu hiệu hư hỏng đạo đức nghiêm trọng không thể tha thứ",
+          "Là căn bệnh tâm lí hiếm gặp cần giấu kín cả đời"
+        ],
+        "k": "B",
+        "e": "Thay vì chế giễu hay cấm đoán cực đoan, biết chuyển hóa cảm xúc quý mến thành động lực cùng rèn luyện tốt là thái độ trưởng thành.",
+        "s": "HĐTN, HN 8",
+        "h": "Nhận thức đúng về rung động tuổi mới lớn"
+      },
+      {
+        "c": "HN8-B04-004",
+        "d": "basic",
+        "p": "Hành động nào của các bạn xung quanh thường gây tổn thương tâm lí nặng nề nhất cho tình bạn khác giới bình thường trong lớp?",
+        "o": [
+          "Khen ngợi sự tiến bộ của cả hai bạn trong giờ sinh hoạt lớp",
+          "Chúc mừng sinh nhật bạn thân bằng một tấm thiệp vui vẻ",
+          "Hợp tác phân công làm chung nhóm thí nghiệm Sinh học",
+          "Chế giễu gán ghép thô thiển, viết bậy tên hai bạn lên bảng lớp hoặc chụp lén ảnh tung lên mạng đồn thổi sai sự thật"
+        ],
+        "k": "D",
+        "e": "Những trò gán ghép tưởng như vô hại lại dễ làm các bạn ngại ngùng mất đi cơ hội hợp tác học tập bình đẳng.",
+        "s": "HĐTN, HN 8",
+        "h": "Ngừng gán ghép trêu chọc tình bạn khác giới"
+      },
+      {
+        "c": "HN8-B04-005",
+        "d": "basic",
+        "p": "Nguyên tắc giữ gìn tình bạn khác giới lành mạnh, an toàn ở tuổi học sinh lớp 8 là gì?",
+        "o": [
+          "Thường xuyên hẹn gặp riêng tư ở những nơi tối tăm vắng người lúc đêm khuya",
+          "Giấu cha mẹ trốn học đi chơi xa suốt cả ngày",
+          "Gặp gỡ trò chuyện ở nơi công cộng thoáng sáng hoặc sinh hoạt cùng nhóm bạn, giữ thái độ văn minh chừng mực, không làm ảnh hưởng kết quả học tập và gia đình",
+          "Gửi hình ảnh riêng tư nhạy cảm cho nhau qua tin nhắn để làm tin"
+        ],
+        "k": "C",
+        "e": "Sinh hoạt nhóm cởi mở, công khai trong sáng là môi trường tốt nhất để tình bạn tuổi học trò luôn vui vẻ an toàn.",
+        "s": "HĐTN, HN 8",
+        "h": "Nguyên tắc an toàn trong giao tiếp bạn khác giới"
+      },
+      {
+        "c": "HN8-B04-006",
+        "d": "basic",
+        "p": "Khi một bạn bày tỏ tình cảm yêu mến vượt mức bạn bè nhưng bản thân em hiện tại chỉ muốn tập trung học tập và giữ tình bạn bình thường, cách từ chối tinh tế nhất là gì?",
+        "o": [
+          "Nói chuyện riêng lịch sự rõ ràng, trân trọng thiện cảm của bạn nhưng khẳng định mong muốn giữ tình bạn tốt đẹp để cùng tập trung học tốt ở tuổi 14",
+          "Nhận lời cho vui rồi phớt lờ trêu đùa tình cảm của bạn",
+          "Nói lời xúc phạm nặng nề khiến bạn xấu hổ tột độ",
+          "Cười cợt đem tin nhắn của bạn ra đọc to cho cả lớp nghe để chế giễu"
+        ],
+        "k": "A",
+        "e": "Từ chối thẳng thắn nhưng tôn trọng nhân phẩm và giữ kín câu chuyện riêng của bạn thể hiện sự lịch thiệp văn minh rất cao.",
+        "s": "HĐTN, HN 8",
+        "h": "Từ chối khéo léo tình cảm vượt mức bạn bè"
+      },
+      {
+        "c": "HN8-B04-007",
+        "d": "application",
+        "p": "Quan sát bảng nhận diện Hành vi Tôn trọng ranh giới và Hành vi Vượt quá giới hạn dưới đây. Trong giờ ra chơi, một bạn nam hay thích trêu bạn nữ bằng cách kéo giật dây cặp, giật nón hoặc vỗ mạnh vào vai lưng bạn dù bạn nữ đã nhăn mặt khó chịu. Là bạn cùng tổ chứng kiến, em nên làm gì?",
+        "o": [
+          "Nhắc bạn nam dừng ngay hành động động chạm thiếu tôn trọng đó (\"Bạn ấy không thích bị kéo thế đâu, dừng lại nhé!\"), bảo vệ không gian an toàn cho bạn nữ",
+          "Cười ha hả khen bạn nam thật hài hước thân thiện",
+          "Vào hùa giữ tay bạn nữ lại cho bạn nam trêu tiếp",
+          "Bảo bạn nữ quá khó tính mới giận trò đùa nhỏ thế"
+        ],
+        "k": "A",
+        "e": "\"Không là Không\" — bất kì sự động chạm cơ thể nào làm người kia không thoải mái đều phải dừng lại ngay lập tức.",
+        "s": "HĐTN, HN 8",
+        "h": "Lên tiếng bảo vệ ranh giới cơ thể cho bạn",
+        "fig": {
+          "type": "table",
+          "title": "Ranh giới bạn bè",
+          "head": [
+            "Hành vi tôn trọng",
+            "Hành vi quá giới hạn"
+          ],
+          "rows": [
+            [
+              "Hỏi trước khi mượn",
+              "Lục cặp đọc nhật kí"
+            ],
+            [
+              "Giữ cự li thoải mái",
+              "Cố ý xô đẩy, đụng"
+            ],
+            [
+              "Gọi đúng tên lịch sự",
+              "Đặt biệt danh xấu"
+            ],
+            [
+              "Giữ kín chuyện bạn",
+              "Tung tin đồn cả lớp"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "HN8-B04-008",
+        "d": "application",
+        "p": "Bạn Minh và bạn Lan rất hay cùng nhau giải bài tập Toán ở thư viện trường nên trở thành đôi bạn cùng tiến. Thấy vậy, vài bạn trong lớp vẽ hình trái tim kèm tên hai bạn lên bảng đen trước giờ vào lớp khiến Lan rất bối rối định không nói chuyện với Minh nữa. Minh nên làm gì?",
+        "o": [
+          "Chạy ra đánh nhau với mấy bạn vẽ bảng",
+          "Tức giận xé vở nháp trước mặt Lan rồi không bao giờ học chung nữa",
+          "Cười hùa theo lời gán ghép để Lan càng ngại hơn",
+          "Chủ động xóa bảng trước giờ học, nhẹ nhàng nói tụi mình chỉ ôn bài chung mong mọi người tôn trọng và động viên Lan cứ thoải mái cùng học nhóm"
+        ],
+        "k": "D",
+        "e": "Phản ứng điềm tĩnh, minh bạch và dứt khoát xóa bỏ trò gán ghép giúp giữ nguyên một tình bạn học tập quý báu.",
+        "s": "HĐTN, HN 8",
+        "h": "Giữ gìn đôi bạn cùng tiến trước sự gán ghép"
+      },
+      {
+        "c": "HN8-B04-009",
+        "d": "application",
+        "p": "Một bạn gửi tin nhắn riêng cho bạn Hà lúc nửa đêm yêu cầu: \"Nếu thật sự coi nhau là người đặc biệt thì chụp một tấm ảnh riêng tư không mặc áo đồng phục gửi qua đây để làm kỉ niệm bí mật\". Hà cần nhận diện nguy cơ nào và hành động ngay ra sao?",
+        "o": [
+          "Chụp gửi một tấm kèm dặn bạn đó hứa xem xong xóa liền trong 5 giây",
+          "Gửi tin nhắn chửi bới lại qua mạng suốt đêm nhưng không nói cho người lớn",
+          "Đây là dấu hiệu xâm hại hoặc tống tiền ảnh nhạy cảm rất nguy hiểm; tuyệt đối KHÔNG chụp gửi, lưu giữ tin nhắn bằng chứng, chặn nick và báo cha mẹ",
+          "Sợ bạn giận nên miễn cưỡng làm theo"
+        ],
+        "k": "C",
+        "e": "Ảnh nhạy cảm một khi đã gửi qua mạng thì hoàn toàn mất quyền kiểm soát mãi mãi; kiên quyết nói KHÔNG bảo vệ trọn vẹn tương lai của em.",
+        "s": "HĐTN, HN 8",
+        "h": "Phòng chống lừa đảo dụ dỗ ảnh nhạy cảm"
+      },
+      {
+        "c": "HN8-B04-010",
+        "d": "application",
+        "p": "Bạn Khoa có tình cảm quý mến một bạn nữ lớp bên cạnh, thay vì sao nhãng học hành, bạn muốn biến cảm xúc tuổi mới lớn này thành nguồn năng lượng tích cực. Cách thể hiện nào chín chắn nhất?",
+        "o": [
+          "Mua quà đắt tiền vượt quá khả năng gia đình tặng liên tục mỗi tuần",
+          "Nhắn tin suốt đêm tới 2 giờ sáng làm cả hai bạn đều ngủ gật trên lớp",
+          "Tập trung rèn luyện bản thân gọn gàng, lịch sự, học tập và thể thao tốt để tự tin giao tiếp tự nhiên trong các hoạt động chung của lớp",
+          "Ngày nào cũng bỏ tiết ngồi ngẩn ngơ nhìn qua cửa sổ lớp bên cạnh"
+        ],
+        "k": "C",
+        "e": "Làm cho bản thân mình trở nên giỏi giang, đáng tin cậy và tử tế mỗi ngày chính là cách bày tỏ sự trân trọng đẹp nhất ở tuổi học trò.",
+        "s": "HĐTN, HN 8",
+        "h": "Chuyển hóa cảm xúc quý mến thành động lực tiến bộ"
+      },
+      {
+        "c": "HN8-B04-011",
+        "d": "application",
+        "p": "Trong lớp 8B có hai bạn chơi rất thân nhưng lại có thói quen nói chuyện riêng, quay lưng nhìn nhau cười khúc khích suốt giữa tiết học làm cô giáo và cả lớp mất tập trung. Là lớp trưởng hoặc bạn thân, góp ý nào giúp hai bạn điều chỉnh tinh tế nhất?",
+        "o": [
+          "Gặp riêng nhẹ nhàng nhắc hai bạn giữ trật tự tập trung trong giờ giảng để khỏi bị thầy cô nhắc tên trước lớp làm cả hai mất điểm thi đua và ngại thêm",
+          "Nhắn tin lên nhóm phụ huynh dựng chuyện nói quá lên",
+          "Đứng phắt dậy giữa tiết chỉ mặt hai bạn tố cáo to tiếng để cả lớp nhìn vào",
+          "Lờ đi mặc kệ hai bạn mất gốc kiến thức cả kì"
+        ],
+        "k": "A",
+        "e": "Nhắc nhở riêng chân thành bảo vệ vừa kỉ luật chung vừa giữ thể diện cho bạn bè trong lớp.",
+        "s": "HĐTN, HN 8",
+        "h": "Góp ý giữ chừng mực giao tiếp trong giờ học"
+      },
+      {
+        "c": "HN8-B04-012",
+        "d": "application",
+        "p": "Khi đọc được một cuốn nhật kí nhỏ vô tình rơi từ cặp của bạn cùng bàn trên sàn lớp học, hành động nào tôn trọng ranh giới riêng tư chuẩn mực nhất?",
+        "o": [
+          "Chụp ảnh vài trang viết về tình cảm rồi giữ trong máy làm bằng chứng trêu bạn",
+          "Không mở ra đọc bất kì dòng chữ nào bên trong, gấp gọn gàng đặt ngay ngắn lên bàn hoặc trao tận tay trả lại cho bạn",
+          "Mở ra đọc ngấu nghiến rồi truyền tay cho cả tổ cùng đọc xem bí mật gì",
+          "Giấu đi vài ngày rồi mới trả"
+        ],
+        "k": "B",
+        "e": "Không tò mò xâm phạm nhật kí hay điện thoại mở khóa của bạn là phép lịch sự cơ bản tạo nên người bạn đáng tin cậy nhất.",
+        "s": "HĐTN, HN 8",
+        "h": "Tôn trọng quyền riêng tư nhật kí cá nhân của bạn"
+      },
+      {
+        "c": "HN8-B04-013",
+        "d": "advanced",
+        "p": "Phân tích vì sao ở tuổi lớp 8, ranh giới giữa \"Thích/Quý mến tuổi mới lớn\" và \"Tình yêu trưởng thành có trách nhiệm\" thường dễ bị nhầm lẫn qua phim ảnh lãng mạn? Nhận thức rõ điều này bảo vệ học sinh như thế nào?",
+        "o": [
+          "Vì học sinh lớp 8 hoàn toàn có thể tự lập cuộc sống gia đình riêng không cần đi học nữa",
+          "Phim ảnh thường tô hồng tình cảm mà bỏ qua trách nhiệm và sự chưa chín muồi; tuổi 13–14 ưu tiên trau dồi trí tuệ, nhân cách và giữ an toàn bản thân",
+          "Vì khi quý mến nhau thì phải bỏ mọi mục tiêu học tập mới chứng minh được tình cảm",
+          "Vì phim ảnh luôn phản ánh chính xác 100% áp lực cuộc sống thật"
+        ],
+        "k": "B",
+        "e": "Giữ tình cảm ở mức trong sáng, bình đẳng, không vượt quá giới hạn an toàn giúp tuổi học trò lớp 8–9 lưu lại toàn những kỉ niệm đẹp.",
+        "s": "HĐTN, HN 8",
+        "h": "Phân biệt cảm xúc lãng mạn phim ảnh và trách nhiệm tuổi 14"
+      },
+      {
+        "c": "HN8-B04-014",
+        "d": "advanced",
+        "p": "Nhiều bạn nam hiểu sai rằng \"tôn trọng phụ nữ/bạn nữ\" chỉ là nhường đồ ăn vặt, trong khi vẫn hay nói đùa bình phẩm ngoại hình bạn nữ hoặc bắt bạn nữ làm hết việc dọn dẹp lớp vì \"con gái phải khéo tay\". Định kiến giới nào cần xóa bỏ để xây dựng tình bạn bình đẳng?",
+        "o": [
+          "Chỉ có bạn nam mới được phép làm lớp trưởng và học tốt các môn tự nhiên",
+          "Bình phẩm ngoại hình bạn khác là cách khen ngợi văn minh cần khuyến khích",
+          "Bỏ định kiến đánh giá bạn nữ qua ngoại hình hay dồn trực nhật cho nữ; nam nữ cùng chia sẻ bình đẳng việc chung và tôn trọng trí tuệ, nhân phẩm nhau",
+          "Bạn nữ không nên tập thể thao hay tham gia thi chạy điền kinh"
+        ],
+        "k": "C",
+        "e": "Bình đẳng giới thực chất bắt đầu ngay từ cách chia việc trực nhật, tôn trọng tiếng nói và giữ lời nói lịch thiệp giữa nam – nữ trong lớp học.",
+        "s": "HĐTN, HN 8",
+        "h": "Xây dựng quan hệ bình đẳng giới văn minh lớp 8"
+      },
+      {
+        "c": "HN8-B04-015",
+        "d": "advanced",
+        "p": "Nếu thầy cô chủ nhiệm mời em đề xuất 3 chủ đề cho buổi Tọa đàm \"Tuổi 14 Trong sáng & An toàn\" của khối 8, bộ 3 nội dung thiết thực chạm đúng điều học sinh cần nhất là gì?",
+        "o": [
+          "1. Rung động tuổi mới lớn & cân bằng học tập; 2. Ranh giới an toàn cơ thể – phòng xâm hại trực tiếp và online; 3. Ứng xử văn minh, không gán ghép",
+          "1. Cách nhắn tin trốn học hẹn hò khuya; 2. Cách giấu bố mẹ dùng mạng bí mật; 3. Cách trang điểm thật đậm tới lớp",
+          "Chỉ tổ chức thi xem lớp nào vẽ nhiều hình trái tim nhất",
+          "Chỉ nói về các công thức tính toán Vật lí lớp 8"
+        ],
+        "k": "A",
+        "e": "Cởi mở trang bị kiến thức khoa học và kĩ năng tự bảo vệ giúp học sinh lớp 8 bước qua giai đoạn nhạy cảm với tâm thế tự tin, hiểu biết và an toàn.",
+        "s": "HĐTN, HN 8",
+        "h": "Thiết kế chuyên đề Tuổi 14 Trong sáng và An toàn"
+      }
+    ]
+  },
+  {
+    "chapter": "hdtn_hn8-c2",
+    "lesson": {
+      "code": "hdtn_hn8-b05",
+      "title": "Bài 5. Trách nhiệm gia đình và kĩ năng thương lượng với cha mẹ",
+      "seq": 5,
+      "subtitle": "Chủ động chia sẻ gánh vác việc gia đình, thực hiện nếp sống văn minh trong họ hàng làng xóm và rèn kĩ năng thương lượng lịch sự cùng cha mẹ về giờ giấc, lựa chọn cá nhân",
+      "concepts": [
+        "Gánh vác công việc gia đình",
+        "Kĩ năng thương lượng với cha mẹ",
+        "Ứng xử trong họ hàng làng xóm"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN8-B05-001",
+        "d": "basic",
+        "p": "Ở lứa tuổi lớp 8 (13–14 tuổi), trách nhiệm của người con trong gia đình mở rộng thêm những việc làm thực tế nào so với hồi Tiểu học?",
+        "o": [
+          "Không chỉ tự lo góc học mà biết nấu bữa cơm đơn giản an toàn, trông dạy em nhỏ, chăm sóc ông bà và làm những việc sửa chữa vặt trong gia đình",
+          "Không bao giờ tham gia việc bếp núc hay dọn dẹp nhà cửa chung",
+          "Chỉ ngồi chờ cha mẹ làm mọi thứ còn mình chỉ việc đi học thêm",
+          "Đòi được trả tiền lương theo giờ mới chịu quét nhà"
+        ],
+        "k": "A",
+        "e": "Biết tự nấu một bữa ăn cơ bản và lo cho gia đình khi bố mẹ bận thể hiện sự trưởng thành vững vàng của học sinh lớp 8.",
+        "s": "HĐTN, HN 8",
+        "h": "Mở rộng trách nhiệm gia đình ở tuổi 14"
+      },
+      {
+        "c": "HN8-B05-002",
+        "d": "basic",
+        "p": "Trong gia đình, \"thương lượng\" với cha mẹ (như xin thêm thời gian học nhóm cuối tuần hoặc đổi lịch sử dụng máy tính) khác với \"đòi hỏi áp đặt\" ở điểm nào?",
+        "o": [
+          "Thương lượng là nói dối trước để được đi rồi làm sai hẹn sau",
+          "Thương lượng nghĩa là khóc lóc ăn vạ càng lâu càng tốt",
+          "Hai cách hoàn toàn giống nhau chỉ khác tên gọi",
+          "Thương lượng là lắng nghe nỗi lo của cha mẹ, nêu lí do hợp lí kèm cam kết trách nhiệm rõ ràng; đòi hỏi là gắt gỏng ép cha mẹ chiều theo ý mình"
+        ],
+        "k": "D",
+        "e": "Thương lượng thành công xây dựng trên sự tôn trọng hai chiều và uy tín giữ đúng lời hứa của em trong những lần trước.",
+        "s": "HĐTN, HN 8",
+        "h": "Phân biệt thương lượng hợp tác và đòi hỏi"
+      },
+      {
+        "c": "HN8-B05-003",
+        "d": "basic",
+        "p": "Khi tham gia các buổi họp mặt họ hàng, giỗ Tết hoặc tiếp khách đến thăm nhà, tác phong văn minh của học sinh lớp 8 là gì?",
+        "o": [
+          "Trốn tịt trong phòng ngủ không thèm ra chào hỏi bất kì vị khách nào",
+          "Chủ động chào hỏi lễ phép đúng vai vế cô bác, mời nước lịch sự, phụ giúp dọn cỗ gọn gàng và ngồi trò chuyện tự nhiên không cắm cúi lướt điện thoại tách biệt",
+          "Soi mói bình phẩm ngoại hình hay thu nhập của anh chị em họ hàng",
+          "Vừa ngồi bàn ăn tiếp khách vừa cắm tai nghe chơi game la hét"
+        ],
+        "k": "B",
+        "e": "Sự nhanh nhẹn, lễ phép của con cháu trong gia đình là niềm tự hào lớn nhất của cha mẹ trước họ hàng xóm giềng.",
+        "s": "HĐTN, HN 8",
+        "h": "Ứng xử lễ phép khi nhà có khách và dịp họp họ"
+      },
+      {
+        "c": "HN8-B05-004",
+        "d": "basic",
+        "p": "Khi hai vợ chồng bố mẹ có lúc bất đồng tranh luận nhỏ trong cuộc sống gia đình, thái độ ứng xử đúng đắn của người con lớp 8 là gì?",
+        "o": [
+          "Hét to hơn cả hai bố mẹ rồi đập phá đồ đạc",
+          "Bỏ nhà đi lang thang không báo ai để gây sức ép",
+          "Chụp quay lén hoặc lên mạng kể lể bêu xấu chuyện riêng gia đình",
+          "Giữ bình tĩnh không hùa vào kích động thêm hay phán xét thô lỗ, chăm lo tốt phần học tập và việc nhà hoặc nhẹ nhàng giúp làm dịu bầu không khí chung"
+        ],
+        "k": "D",
+        "e": "Gia đình nào cũng có lúc va chạm nhỏ; sự điềm tĩnh và hiểu chuyện của con cái là điểm tựa ấm áp giúp cha mẹ sớm tìm lại tiếng nói chung.",
+        "s": "HĐTN, HN 8",
+        "h": "Ứng xử chín chắn khi bố mẹ có lúc bất đồng"
+      },
+      {
+        "c": "HN8-B05-005",
+        "d": "basic",
+        "p": "Để giữ mối quan hệ xóm giềng thân thiện tại khu dân cư (chung cư hoặc ngõ xóm), thói quen sinh hoạt hằng ngày nào gia đình và học sinh cần lưu ý?",
+        "o": [
+          "Bật loa công suất lớn hát tới tận 1 giờ sáng cho cả khu nghe",
+          "Giữ vệ sinh chung hành lang ngõ xóm, không bật nhạc hay hát hò ồn ào vào giờ nghỉ trưa – đêm khuya, chào hỏi cô bác hàng xóm vui vẻ khi gặp mặt",
+          "Quét rác từ trước cửa nhà mình hất sang trước cửa nhà hàng xóm",
+          "Cố tình đá bóng đập mạnh liên tục vào cửa sắt nhà bên cạnh"
+        ],
+        "k": "B",
+        "e": "\"Bán anh em xa mua láng giềng gần\" — tôn trọng giờ nghỉ ngơi và không gian chung tạo nên khu dân cư an lành đáng sống.",
+        "s": "HĐTN, HN 8",
+        "h": "Giữ gìn nếp sống văn hóa khu dân cư"
+      },
+      {
+        "c": "HN8-B05-006",
+        "d": "basic",
+        "p": "Nguyên tắc vàng để cha mẹ luôn tin tưởng trao cho con lớp 8 nhiều quyền tự chủ hơn (như tự đi học xe đạp điện an toàn, tự quản lí thời gian biểu) là gì?",
+        "o": [
+          "Chỉ làm tốt việc nhà đúng 1 ngày trước khi xin tiền mua đồ",
+          "Luôn giữ đúng lời hứa về giờ giấc an toàn, minh bạch nơi đến người đi cùng và duy trì kết quả học tập, việc nhà ổn định",
+          "Càng giấu kín hành tung không cho cha mẹ biết càng chứng tỏ tự lập",
+          "Hứa về lúc 17h nhưng thường xuyên tự ý về muộn 20h không báo tin"
+        ],
+        "k": "B",
+        "e": "Quyền tự do tự chủ luôn tỉ lệ thuận với mức độ tin cậy và trách nhiệm mà em chứng minh được với cha mẹ.",
+        "s": "HĐTN, HN 8",
+        "h": "Mối liên hệ giữa niềm tin và quyền tự chủ"
+      },
+      {
+        "c": "HN8-B05-007",
+        "d": "application",
+        "p": "Quan sát bảng 4 bước thương lượng hiệu quả với cha mẹ dưới đây. Bạn Nam muốn xin bố mẹ cho tham gia câu lạc bộ bóng rổ trường tập thêm 2 buổi chiều thứ ba và thứ năm (về muộn hơn 1 tiếng so với mọi khi), nhưng bố mẹ lo Nam mệt và trễ bài tập tối. Nam nên trình bày thế nào ở bước 3?",
+        "o": [
+          "Ngồi khóc không ăn cơm suốt hai ngày để ép bố mẹ đồng ý",
+          "Giả vờ nói dối là thầy bắt ở lại học phụ đạo bắt buộc để đi chơi bóng rổ",
+          "Nói cộc lốc: \"Con lớn rồi, bố mẹ đừng cấm cản sở thích của con nữa!\"",
+          "Cam kết làm xong bài môn nhẹ từ cuối tuần, về đúng 18h15 ăn tối phụ mẹ và thử nghiệm 1 tháng, nếu điểm số giảm sẽ tự điều chỉnh lại"
+        ],
+        "k": "D",
+        "e": "Đưa ra cam kết có thời hạn thử nghiệm 1 tháng kèm tiêu chí kiểm chứng rõ ràng giúp cha mẹ thấy được sự nghiêm túc suy xét thấu đáo của em.",
+        "s": "HĐTN, HN 8",
+        "h": "Thực hành thương lượng tham gia CLB thể thao",
+        "fig": {
+          "type": "table",
+          "title": "4 bước thương lượng",
+          "head": [
+            "Bước thực hiện",
+            "Nội dung cốt lõi"
+          ],
+          "rows": [
+            [
+              "1. Chọn đúng lúc",
+              "Cha mẹ thoải mái"
+            ],
+            [
+              "2. Nghe nỗi lo",
+              "Hiểu điều mẹ sợ"
+            ],
+            [
+              "3. Nêu cam kết",
+              "Giải pháp, mốc giờ"
+            ],
+            [
+              "4. Thử & giữ tín",
+              "Làm đúng lời hứa"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "HN8-B05-008",
+        "d": "application",
+        "p": "Một hôm mẹ đi làm về mệt thấy nhà cửa vẫn hơi bừa, bồn rửa còn bát nên buông lời trách nhẹ bạn Lan hơi lười dù cả chiều Lan đã phải chở em đi học rồi làm gấp bài thuyết trình nhóm. Lan đáp lại thế nào vừa giải thích rõ vừa không làm mẹ buồn?",
+        "o": [
+          "Im lặng mặt nặng mày nhẹ suốt cả bữa cơm tối",
+          "Đợi mẹ nghỉ một lát rồi nói nhẹ: \"Mẹ ơi chiều con đón em xong phải làm gấp bài nhóm nộp mai nên chưa kịp rửa bát, giờ con ra rửa sạch ngay ạ!\"",
+          "Cãi phắt lại ngay: \"Mẹ chẳng bao giờ nhìn thấy việc con làm cho em cả, suốt ngày chỉ biết mắng!\"",
+          "Vứt luôn quyển vở xuống bàn rồi đóng cửa bỏ đi chỗ khác"
+        ],
+        "k": "B",
+        "e": "Đón nhận cảm xúc mệt mỏi của mẹ trước, giải thích ngắn gọn sự thật rồi bắt tay làm ngay hóa giải mọi căng thẳng trong tích tắc.",
+        "s": "HĐTN, HN 8",
+        "h": "Giao tiếp dịu dàng giải thích khi bị cha mẹ trách nhầm"
+      },
+      {
+        "c": "HN8-B05-009",
+        "d": "application",
+        "p": "Cuối tuần mẹ bị đau lưng nhẹ cần nghỉ ngơi nên giao cho bạn Khoa (lớp 8) nấu bữa trưa đơn giản cho hai mẹ con. Để vừa đảm bảo ngon miệng vừa an toàn tuyệt đối trong bếp, Khoa nên làm gì?",
+        "o": [
+          "Kiểm tra phích nồi cơm khô ráo, chọn món ít bắn dầu (trứng rán lửa vừa, canh rau ngót), tắt bếp ngay khi nấu xong và dọn sạch khu vực bếp",
+          "Mua toàn đồ ăn vặt cay nóng ngoài cổng trường về thay bữa cơm",
+          "Đổ nước lạnh vào chảo dầu đang sôi nóng",
+          "Thử chiên rán ngập dầu nóng già rồi bỏ ra phòng khách xem ti-vi quên tắt bếp"
+        ],
+        "k": "A",
+        "e": "Nấu ăn an toàn là kĩ năng sống thiết yếu của mọi bạn nam và nữ lớp 8: chọn món vừa tay, luôn canh lửa và tắt van ga/điện kiểm tra cuối cùng.",
+        "s": "HĐTN, HN 8",
+        "h": "Thực hành nấu bữa cơm gia đình an toàn"
+      },
+      {
+        "c": "HN8-B05-010",
+        "d": "application",
+        "p": "Gia đình bạn Trang đang lên kế hoạch cho chuyến về thăm quê nội 3 ngày dịp nghỉ lễ, nhưng Trang lại muốn ở lại thành phố đi chơi trung tâm thương mại với nhóm bạn. Cách giải quyết hài hòa trách nhiệm gia đình là gì?",
+        "o": [
+          "Vui vẻ sắp xếp đồng hành cùng gia đình về thăm ông bà nội dịp đoàn tụ quý giá, còn buổi đi chơi cùng bạn chủ động hẹn lùi sang ngày cuối tuần kế tiếp sau lễ",
+          "Cãi nhau đòi bố mẹ hủy cả chuyến về quê của gia đình",
+          "Nói dối bị ốm để trốn ở lại nhà một mình đi chơi với bạn",
+          "Giận dỗi suốt cả chuyến về quê, ngồi một góc cắm mặt vào điện thoại không chào hỏi ai"
+        ],
+        "k": "A",
+        "e": "Những dịp gia đình sum vầy cùng ông bà lớn tuổi ngày càng hiếm và quý giá; biết đặt tình thân lên trước cuộc vui bạn bè là nét đẹp hiếu thảo.",
+        "s": "HĐTN, HN 8",
+        "h": "Ưu tiên đoàn tụ gia đình dịp lễ Tết"
+      },
+      {
+        "c": "HN8-B05-011",
+        "d": "application",
+        "p": "Một người họ hàng lớn tuổi hỏi những câu hơi riêng tư khiến bạn Minh thấy hơi ngại trong bữa cỗ (như \"Sao dạo này tăng cân thế, đứng thứ mấy lớp rồi?\"). Cách đáp lễ phép mà vẫn khéo giữ ranh giới vui vẻ của học sinh lớp 8 là gì?",
+        "o": [
+          "Quát thẳng trước mặt mọi người rằng bác vô duyên không được phép hỏi",
+          "Cười lễ phép đáp ngắn gọn (\"Dạ cháu ăn khỏe để chơi thể thao và vẫn cố gắng học đều ạ! Cháu mời bác dùng thêm món!\") rồi khéo léo hỏi thăm bác",
+          "Khoanh tay lườm nguýt bỏ đứng dậy đi thẳng ra khỏi mâm cỗ",
+          "Nói trống không: \"Kệ cháu, bác hỏi làm gì lắm thế!\""
+        ],
+        "k": "B",
+        "e": "Trả lời duyên dáng hài hước nhẹ rồi lịch sự chuyển hướng câu chuyện là đỉnh cao kĩ năng giao tiếp lễ phép mà không tự làm mình khó chịu.",
+        "s": "HĐTN, HN 8",
+        "h": "Ứng xử khéo léo trước câu hỏi ngại của họ hàng"
+      },
+      {
+        "c": "HN8-B05-012",
+        "d": "application",
+        "p": "Nhà bạn Huy ở khu tập thể, bạn hàng xóm sát vách đang học lớp 9 ôn thi chuyển cấp nhưng tối nào em nhỏ nhà Huy cũng mở loa hoạt hình ầm ĩ sát tường ngăn. Là anh lớp 8 trong nhà, Huy xử lí thế nào thật tinh tế?",
+        "o": [
+          "Chỉnh nhỏ tiếng ti-vi, cho em dùng tai nghe an toàn hoặc chuyển vào góc phòng trong, giải thích nhẹ giúp em hiểu giữ yên tĩnh cho anh hàng xóm học",
+          "Mắng đánh em nhỏ ầm ĩ khiến tiếng khóc còn to hơn tiếng tivi",
+          "Mở loa to hơn nữa vì nghĩ nhà mình trả tiền điện mình cứ mở",
+          "Bảo hàng xóm tự bịt tai lại mà học"
+        ],
+        "k": "A",
+        "e": "Biết nghĩ cho sự tập trung của hàng xóm xung quanh dạy cho cả em nhỏ bài học văn hóa tôn trọng cộng đồng tuyệt vời.",
+        "s": "HĐTN, HN 8",
+        "h": "Giữ trật tự tôn trọng hàng xóm ôn thi"
+      },
+      {
+        "c": "HN8-B05-013",
+        "d": "advanced",
+        "p": "Nhiều bạn lớp 8 than phiền: \"Em muốn giúp bố mẹ làm việc nhà nhưng hễ em làm hơi vụng một chút là bố mẹ lại gạt ra làm hộ luôn cho nhanh, lâu dần em ngại không muốn làm nữa!\". Làm sao để phá vỡ vòng luẩn quẩn này từ phía người con?",
+        "o": [
+          "Nhờ bố mẹ chỉ từng bước vào cuối tuần (\"Mẹ chỉ con làm thử món này nhé, lần đầu còn vụng mẹ góp ý giúp con!\") và tập dần để bố mẹ tin tưởng giao việc",
+          "Vui vẻ ngồi chơi luôn suốt cả năm vì thấy bố mẹ làm hộ nhanh quá tiện",
+          "Cãi nhau trách bố mẹ không tin tưởng con cái",
+          "Cố tình làm rơi vỡ bát đĩa ngay lần đầu để không bao giờ bị nhờ nữa"
+        ],
+        "k": "A",
+        "e": "Ai lần đầu nấu cơm hay là quần áo cũng từng vụng về; sự kiên nhẫn xin học hỏi từ những việc nhỏ giúp cha mẹ an tâm trao quyền tự lập cho em.",
+        "s": "HĐTN, HN 8",
+        "h": "Chủ động học việc nhà dù ban đầu còn vụng về"
+      },
+      {
+        "c": "HN8-B05-014",
+        "d": "advanced",
+        "p": "Phân tích nguyên nhân vì sao cha mẹ thường nói \"Không\" ngay lập tức khi nghe một đề xuất mới của con lớp 8 (như tự đi xe buýt xa, tham gia trại kĩ năng hay mua dụng cụ học tập mới), và chiến thuật giao tiếp nào tăng xác suất thành công lên gấp ba lần?",
+        "o": [
+          "Nên hỏi xin gấp ngay lúc 5 phút trước khi bước chân ra khỏi cửa đi chơi",
+          "Phản xạ từ chối thường do lo an toàn bất ngờ; hãy chuẩn bị thông tin minh bạch, cách phòng rủi ro và xin phép trước 3 ngày lúc cả nhà vui vẻ thoải mái",
+          "Nên nhờ một bạn khác gọi điện ép cha mẹ phải đồng ý ngay",
+          "Vì cha mẹ luôn cố tình muốn thấy con cái buồn bực thất vọng"
+        ],
+        "k": "B",
+        "e": "Cho người lớn thời gian chuẩn bị tâm lí và thấy rõ phương án an toàn cụ thể của em là chìa khóa mở cánh cửa đồng thuận gia đình.",
+        "s": "HĐTN, HN 8",
+        "h": "Hiểu phản xạ lo âu an toàn của cha mẹ khi thương lượng"
+      },
+      {
+        "c": "HN8-B05-015",
+        "d": "advanced",
+        "p": "Lập \"Hiệp ước Gia đình Hài hòa Lớp 8\" gồm 3 điều em cam kết chủ động thực hiện cho gia đình và 2 điều em mong muốn được cha mẹ hỗ trợ tôn trọng không gian riêng. Cấu trúc cân đối công bằng nhất là gì?",
+        "o": [
+          "Con cam kết: tự giác học, làm 2 việc nhà cố định và báo rõ lịch đi lại; Mong cha mẹ: gõ cửa phòng riêng trước khi vào và nghe con nói hết câu",
+          "Hai bên không cần nói chuyện hay thỏa thuận bất kì điều gì với nhau",
+          "Con không cam kết gì cả, chỉ yêu cầu cha mẹ phải cho tiền tiêu vặt gấp ba và không được hỏi điểm thi",
+          "Cha mẹ phải làm hết việc nhà còn con cam kết chơi game ít đi một chút"
+        ],
+        "k": "A",
+        "e": "Trách nhiệm đi đôi với quyền lợi tôn trọng lẫn nhau biến ngôi nhà thành nơi cả cha mẹ và con cái đều muốn trở về mỗi ngày.",
+        "s": "HĐTN, HN 8",
+        "h": "Xây dựng Hiệp ước Gia đình Tôn trọng Trách nhiệm"
+      }
+    ]
+  },
+  {
+    "chapter": "hdtn_hn8-c2",
+    "lesson": {
+      "code": "hdtn_hn8-b06",
+      "title": "Bài 6. Quản lí chi tiêu gia đình và trải nghiệm kinh doanh nhỏ",
+      "seq": 6,
+      "subtitle": "Tìm hiểu cơ cấu thu nhập – chi tiêu thiết yếu của một gia đình, đề xuất cách tiết kiệm sinh hoạt và lập kế hoạch kinh doanh nhỏ gây quỹ học đường lớp 8",
+      "concepts": [
+        "Cơ cấu ngân sách gia đình",
+        "Chia sẻ tiết kiệm chi tiêu nhà",
+        "Kế hoạch kinh doanh nhỏ trải nghiệm"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN8-B06-001",
+        "d": "basic",
+        "p": "Trong ngân sách chi tiêu hằng tháng của hầu hết các gia đình, những khoản nào thuộc nhóm \"Chi tiêu thiết yếu bắt buộc\" cần ưu tiên hàng đầu?",
+        "o": [
+          "Mua liên tục các mẫu điện thoại thời trang mới nhất theo trào lưu",
+          "Nạp thẻ trò chơi điện tử giải trí trực tuyến",
+          "Mua sắm đồ trang trí đắt tiền và đi du lịch xa xỉ mỗi cuối tuần",
+          "Lương thực thực phẩm dinh dưỡng, điện nước sinh hoạt, chi phí học tập sách vở, chăm sóc y tế sức khỏe và nhà ở đi lại cơ bản"
+        ],
+        "k": "D",
+        "e": "Hiểu rõ các khoản chi thiết yếu giúp học sinh cảm thông trước áp lực tài chính mỗi tháng của cha mẹ.",
+        "s": "HĐTN, HN 8",
+        "h": "Nhận diện nhóm chi tiêu thiết yếu gia đình"
+      },
+      {
+        "c": "HN8-B06-002",
+        "d": "basic",
+        "p": "Vì sao trong kế hoạch tài chính gia đình lành mạnh luôn cần trích ra một khoản \"Quỹ dự phòng rủi ro\" và \"Tiết kiệm dài hạn\"?",
+        "o": [
+          "Chỉ những gia đình thật giàu có mới cần quỹ dự phòng",
+          "Để gia đình chủ động ứng phó bình tĩnh khi có ốm đau đột xuất, mất việc tạm thời hoặc chuẩn bị cho việc học tập lớn trong tương lai của con cái",
+          "Vì tiền cất trong nhà tự nhiên không cần dùng đến bao giờ",
+          "Để khoe khoang số dư sổ tiết kiệm với hàng xóm"
+        ],
+        "k": "B",
+        "e": "Quỹ dự phòng tương đương 3–6 tháng chi tiêu cơ bản là chiếc đệm an toàn bảo vệ bình yên cho cả gia đình trước biến cố.",
+        "s": "HĐTN, HN 8",
+        "h": "Vai trò quỹ dự phòng rủi ro gia đình"
+      },
+      {
+        "c": "HN8-B06-003",
+        "d": "basic",
+        "p": "Khi học sinh lớp 8 thực hành lập kế hoạch \"Kinh doanh nhỏ trải nghiệm\" trong ngày hội trường (bán nước uống sạch, cây cảnh mini, đồ thủ công), công thức tính \"Lợi nhuận\" cơ bản là gì?",
+        "o": [
+          "Lợi nhuận = Toàn bộ số tiền khách trả trong hộp tiền không trừ vốn",
+          "Lợi nhuận = Số lượng người đi ngang qua gian hàng",
+          "Lợi nhuận = Tổng tiền mua nguyên liệu cộng thêm số sản phẩm bán thừa",
+          "Lợi nhuận = Tổng doanh thu bán hàng − Tổng chi phí bỏ ra (tiền nguyên liệu, bao bì, vận chuyển...)"
+        ],
+        "k": "D",
+        "e": "Nhiều bạn mới tập bán hàng hay nhầm \"Doanh thu\" với \"Tiền lãi\"; trừ sạch vốn và chi phí phát sinh mới biết dự án lãi hay lỗ!",
+        "s": "HĐTN, HN 8",
+        "h": "Công thức tính lợi nhuận cơ bản trong kinh doanh nhỏ"
+      },
+      {
+        "c": "HN8-B06-004",
+        "d": "basic",
+        "p": "Trong một dự án bán sản phẩm thủ công nhỏ của nhóm lớp 8, bước \"Khảo sát nhu cầu khách hàng\" trước khi sản xuất hàng loạt có tác dụng gì?",
+        "o": [
+          "Giúp biết các bạn và thầy cô thực sự thích mẫu mã nào, sẵn sàng mua ở mức giá bao nhiêu để tránh sản xuất nhiều rồi bị ế lỗ vốn",
+          "Không có tác dụng gì vì mình thích gì thì bán cái đó chắc chắn hết",
+          "Chỉ để mất thêm thời gian làm chậm ngày khai trương gian hàng",
+          "Bắt buộc mọi người phải kí hợp đồng mua trước dù chưa xem hàng"
+        ],
+        "k": "A",
+        "e": "Làm thứ khách hàng cần với mức giá vừa túi tiền người mua là nguyên tắc sống còn của mọi mô hình kinh doanh.",
+        "s": "HĐTN, HN 8",
+        "h": "Ý nghĩa khảo sát nhu cầu trước khi làm sản phẩm"
+      },
+      {
+        "c": "HN8-B06-005",
+        "d": "basic",
+        "p": "Cách đóng góp thiết thực nhất của học sinh lớp 8 vào việc cân đối chi tiêu gia đình hằng tháng là gì?",
+        "o": [
+          "Nhịn ăn cơm tối hằng ngày cho đỡ tốn gạo của bố mẹ",
+          "Giữ gìn đồ dùng học tập – quần áo xe đạp bền lâu không làm hỏng mất vặt, tiết kiệm điện nước khi ở nhà và không vòi vĩnh mua sắm theo phong trào",
+          "Bỏ học giữa chừng để đi làm thuê nặng nhọc khi mới 13 tuổi",
+          "Tự ý bán đồ đạc trong nhà khi bố mẹ đi vắng"
+        ],
+        "k": "B",
+        "e": "Tiết kiệm được một khoản chi sửa chữa hỏng hóc hay lãng phí điện nước chính là đã góp phần tăng thêm thu nhập ròng cho gia đình!",
+        "s": "HĐTN, HN 8",
+        "h": "Cách con lớp 8 hỗ trợ tài chính gia đình đúng mực"
+      },
+      {
+        "c": "HN8-B06-006",
+        "d": "basic",
+        "p": "Đạo đức kinh doanh trung thực cần được rèn luyện ngay từ dự án bán hàng hội chợ nhỏ ở trường lớp 8 thể hiện qua điều gì?",
+        "o": [
+          "Nguyên liệu thực phẩm sạch an toàn rõ nguồn gốc, niêm yết giá minh bạch rõ ràng, giao đúng chất lượng sản phẩm như giới thiệu và thối trả tiền thừa chính xác",
+          "Nói dối sản phẩm tự làm dù thực chất mua đồ sẵn giá rẻ bán lại giá cao gấp 5 lần",
+          "Cố tình trả thiếu tiền thừa cho các em nhỏ lớp 6",
+          "Pha trộn nguyên liệu hết hạn giá rẻ cho thật nhiều lợi nhuận"
+        ],
+        "k": "A",
+        "e": "Niềm tin khách hàng là tài sản quý nhất trong kinh doanh; làm ăn gian dối chỉ bán được một lần rồi mất uy tín mãi mãi.",
+        "s": "HĐTN, HN 8",
+        "h": "Đạo đức trung thực trong kinh doanh trải nghiệm"
+      },
+      {
+        "c": "HN8-B06-007",
+        "d": "application",
+        "p": "Quan sát bảng dự trù tài chính dự án \"Gian hàng Trà tắc mật ong & Thiệp vẽ tay\" gây quỹ của tổ 2 lớp 8A dưới đây. Biết nhóm bán hết sạch 80 li trà tắc giá 10.000 đ/li và 20 tấm thiệp giá 15.000 đ/tấm. Tính tổng tiền LỢI NHUẬN ròng nhóm thu về để nộp quỹ thiện nguyện?",
+        "o": [
+          "Thu về trọn vẹn 1.100.000 đồng tiền lãi ròng",
+          "Thu về 550.000 đồng tiền lãi ròng (Tổng thu = 80×10.000 + 20×15.000 = 1.100.000 đ; trừ Tổng chi phí 550.000 đ còn lại 550.000 đ)",
+          "Chỉ lãi đúng 300.000 đồng",
+          "Bị lỗ mất 250.000 đồng so với số vốn bỏ ra"
+        ],
+        "k": "B",
+        "e": "Tính toán rạch ròi doanh thu (1.100.000 đ) trừ vốn nguyên liệu bao bì (550.000 đ) giúp nhóm báo cáo tài chính minh bạch và học cách định giá hợp lí.",
+        "s": "HĐTN, HN 8",
+        "h": "Tính toán doanh thu, chi phí và lợi nhuận ròng",
+        "fig": {
+          "type": "table",
+          "title": "Dự án gian hàng Tổ 2",
+          "head": [
+            "Khoản chi phí vốn",
+            "Số tiền (VNĐ)"
+          ],
+          "rows": [
+            [
+              "Nguyên liệu pha chế",
+              "320.000 đ"
+            ],
+            [
+              "Li giấy, ống hút tre",
+              "110.000 đ"
+            ],
+            [
+              "Giấy màu làm thiệp",
+              "80.000 đ"
+            ],
+            [
+              "Trang trí quầy hàng",
+              "40.000 đ"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "HN8-B06-008",
+        "d": "application",
+        "p": "Trong gia đình bạn Bảo, hóa đơn tiền điện mùa hè bỗng tăng vọt gấp đôi lên gần 1,8 triệu đồng khiến bố mẹ rất lo lắng cân đối chi tiêu. Ba việc làm thực tế Bảo có thể kiểm tra đề xuất cả nhà điều chỉnh ngay tháng này là gì?",
+        "o": [
+          "Dùng đèn sưởi công suất lớn vào ban ngày",
+          "Cắt cầu dao điện cả nhà suốt cả tháng không dùng bất kì thiết bị nào",
+          "Mở tủ lạnh liên tục hàng chục lần mỗi tiếng để kiểm tra đồ ăn cho mát người",
+          "Vệ sinh lưới lọc điều hòa, đặt 26–27°C kèm quạt và hẹn giờ tắt gần sáng; tắt hẳn ổ cắm chờ tivi – máy tính và tận dụng ánh sáng tự nhiên ban ngày"
+        ],
+        "k": "D",
+        "e": "Hiểu nguyên lí tiêu hao điện năng (như tủ lạnh mở nhiều mất nhiệt hay lọc điều hòa bẩn ngốn điện gấp rưỡi) giúp giảm hóa đơn rõ rệt ngay tháng sau.",
+        "s": "HĐTN, HN 8",
+        "h": "Giải pháp thực tế giảm hóa đơn tiền điện gia đình"
+      },
+      {
+        "c": "HN8-B06-009",
+        "d": "application",
+        "p": "Nhóm bạn Hoa định bán món \"Sổ tay kỉ niệm tự đóng\" ở hội chợ trường với tổng chi phí vật tư là 12.000 đ/quyển, dự kiến bán giá 20.000 đ/quyển. Nhưng qua khảo sát nhanh, các bạn học sinh lớp 6–7 chỉ muốn chi khoảng 15.000 đ cho một quyển sổ. Nhóm Hoa nên điều chỉnh kế hoạch thế nào để vẫn có lãi hợp lí mà bán chạy?",
+        "o": [
+          "Làm cẩu thả bằng giấy bẩn rách để hạ giá vốn xuống 1.000 đ rồi lừa khách",
+          "Cứ giữ giá 25.000 đ bất chấp không ai mua rồi chấp nhận ế toàn bộ",
+          "Vay thêm tiền gấp đôi làm 500 quyển bán giá 5.000 đ chịu lỗ nặng",
+          "Giữ giá bán 15.000 đ vừa túi tiền bạn bè, tinh giản thiết kế bìa gọn đẹp và mua sỉ nguyên liệu để hạ giá vốn xuống khoảng 9.000–10.000 đ/quyển"
+        ],
+        "k": "D",
+        "e": "Tìm điểm cân bằng giữa \"giá trị cảm nhận của khách hàng\" và \"tối ưu chi phí sản xuất\" là bài học kinh tế thực tiễn cực hay.",
+        "s": "HĐTN, HN 8",
+        "h": "Điều chỉnh giá bán và tối ưu chi phí theo thị trường"
+      },
+      {
+        "c": "HN8-B06-010",
+        "d": "application",
+        "p": "Khi lập ngân sách gia đình ví dụ trong một tình huống giả lập: thu nhập tháng của gia đình giảm tạm thời 20% do biến động kinh tế. Khoản chi nào nên cắt giảm linh hoạt trước tiên để không ảnh hưởng sức khỏe và việc học của con cái?",
+        "o": [
+          "Cắt toàn bộ tiền mua sách vở học tập của con và tiền khám chữa bệnh",
+          "Vay mượn tiền đi du lịch nghỉ dưỡng sang trọng bình thường",
+          "Giảm khoản ăn hàng, mua sắm phụ kiện chưa cần và tăng nấu ăn sạch tại nhà; luôn giữ vững phần chi phí dinh dưỡng cơ bản, y tế và học tập",
+          "Cắt toàn bộ rau xanh, thịt cá chỉ ăn cơm trắng với muối suốt tháng"
+        ],
+        "k": "C",
+        "e": "Biết xếp thứ tự ưu tiên chi tiêu lúc thu nhập biến động giúp gia đình vượt qua giai đoạn khó khăn êm ả không rơi vào nợ nần.",
+        "s": "HĐTN, HN 8",
+        "h": "Điều chỉnh ngân sách gia đình khi thu nhập giảm"
+      },
+      {
+        "c": "HN8-B06-011",
+        "d": "application",
+        "p": "Trong ngày hội bán hàng trải nghiệm, gian hàng của tổ 1 lúc đầu vắng khách dù sản phẩm khá tốt, trong khi gian hàng bên cạnh đông nghịt. Cách tiếp thị (Marketing) văn minh nào tổ 1 nên áp dụng ngay để thu hút khách hàng?",
+        "o": [
+          "Ngồi gục mặt sau bàn không nói một câu nào cho tới hết giờ",
+          "Cử bạn khéo giao tiếp mời dùng thử mẫu nhỏ, giới thiệu ngắn gọn công dụng và câu chuyện gây quỹ ý nghĩa của sản phẩm kèm bảng giá chữ to dễ nhìn",
+          "Chạy sang kéo tay khách từ gian hàng bên cạnh lôi xềnh xệch về quầy mình",
+          "Tung tin đồn bịa đặt rằng đồ của gian hàng bên cạnh bị hỏng thiu"
+        ],
+        "k": "B",
+        "e": "Truyền thông văn minh tôn trọng đối thủ cạnh tranh bằng chất lượng và câu chuyện giá trị thật tạo ấn tượng cực tốt cho khách hàng.",
+        "s": "HĐTN, HN 8",
+        "h": "Tiếp thị văn minh thu hút khách hàng tại hội chợ"
+      },
+      {
+        "c": "HN8-B06-012",
+        "d": "application",
+        "p": "Sau ngày hội kinh doanh nhỏ, nhóm bạn thu được một khoản tiền lãi 400.000 đồng. Quy trình xử lí tài chính cuối dự án minh bạch chuẩn mực nhất là gì?",
+        "o": [
+          "Chia nhau bỏ túi riêng hết dù ban đầu thông báo bán để gây quỹ ủng hộ bạn nghèo",
+          "Cầm toàn bộ cả tiền vốn lẫn lãi tiêu hết trong buổi liên hoan",
+          "Kiểm tiền công khai có các thành viên chứng kiến, trả đủ vốn ứng trước, công khai bảng thu chi và trích đúng phần lãi vào quỹ lớp/thiện nguyện như hẹn",
+          "Vứt hết hóa đơn mua đồ rồi ước lượng đại con số lãi trong đầu"
+        ],
+        "k": "C",
+        "e": "Hoàn vốn minh bạch và thực hiện đúng cam kết phân bổ lợi nhuận giữ chữ tín tuyệt đối cho cả nhóm dự án.",
+        "s": "HĐTN, HN 8",
+        "h": "Quy trình tổng kết tài chính minh bạch sau bán hàng"
+      },
+      {
+        "c": "HN8-B06-013",
+        "d": "advanced",
+        "p": "Phân biệt sự khác nhau giữa \"Thu nhập chủ động\" (lương làm theo giờ công) và \"Giá trị tiết kiệm bền vững\" trong gia đình: vì sao việc học sinh lớp 8 hiểu rõ mồ hôi phía sau từng đồng thu nhập của cha mẹ lại thay đổi hoàn toàn thái độ chi tiêu?",
+        "o": [
+          "Vì chỉ những người làm chủ cửa hàng mới phải vất vả lao động",
+          "Vì tiền trong máy rút tiền ATM tự động in ra miễn phí bất cứ lúc nào",
+          "Khi biết món đồ tương đương hàng chục giờ cha mẹ lao động vất vả, các em sẽ cân nhắc kĩ giá trị sử dụng thực thay vì đòi mua bốc đồng rồi bỏ xó",
+          "Vì học sinh lớp 8 nên bắt cha mẹ kê khai từng đồng lương hằng ngày cho mình kiểm tra"
+        ],
+        "k": "C",
+        "e": "Giáo dục tài chính không chỉ dạy cộng trừ tiền bạc mà dạy lòng biết ơn công sức lao động tạo ra đồng tiền lương thiện.",
+        "s": "HĐTN, HN 8",
+        "h": "Nuôi dưỡng lòng biết ơn qua hiểu biết giá trị lao động"
+      },
+      {
+        "c": "HN8-B06-014",
+        "d": "advanced",
+        "p": "Nhiều bạn tham gia dự án khởi nghiệp nhỏ ở trường thường mắc sai lầm \"Không tính chi phí thời gian và công sức làm việc\" hay \"Quên tính phần đồ dùng sẵn có ở nhà lấy ra dùng\" khi định giá sản phẩm. Điều này dẫn tới nhận định sai lầm nào nếu nhân rộng thực tế?",
+        "o": [
+          "Thời gian lao động của học sinh không bao giờ có giá trị kinh tế gì",
+          "Nên lấy trộm hết nguyên liệu đắt tiền ở nhà mang đi bán rồi tự khen mình siêu lợi nhuận",
+          "Không cần tính giá bán, bán đại đồng giá 1.000 đồng cho mọi thứ",
+          "Dễ ngộ nhận lãi cao dù thật ra lỗ công sức hoặc nguyên liệu nhà sẵn có; tính đủ mọi chi phí ẩn mới đánh giá trung thực hiệu quả kinh doanh"
+        ],
+        "k": "D",
+        "e": "Tư duy kế toán trung thực tính đủ cả chi phí trực tiếp lẫn chi phí cơ hội ẩn là bài học vỡ lòng của mọi nhà quản trị giỏi.",
+        "s": "HĐTN, HN 8",
+        "h": "Nhận diện chi phí ẩn trong hạch toán kinh doanh nhỏ"
+      },
+      {
+        "c": "HN8-B06-015",
+        "d": "advanced",
+        "p": "Kết hợp cả hai bài học Tài chính Gia đình & Kinh doanh Xanh, hãy đề xuất một mô hình \"Sản phẩm/Dịch vụ Xanh học đường\" vốn cực thấp (< 100.000 đ) nhưng mang lại giá trị sử dụng cao cho học sinh THCS?",
+        "o": [
+          "Bán nước ngọt có ga đóng chai nhựa dùng một lần kèm thật nhiều túi nilon",
+          "Tổ chức trò chơi quay số ăn tiền trúng thưởng",
+          "Nhập hàng loạt móc khóa nhựa giá rẻ không rõ nguồn gốc từ mạng về bán lại",
+          "Quầy \"Bọc sách & Móc khóa từ vải vụn\" hoặc \"Trạm Đổi Sách cũ & Cây sen đá trong cốc tái chế\" — tận dụng đồ sẵn có, giảm rác thải và thiết thực"
+        ],
+        "k": "D",
+        "e": "Mô hình kinh doanh xanh vừa ít rủi ro mất vốn, giải quyết bài toán rác thải địa phương vừa tạo ra sản phẩm độc bản giàu ý nghĩa.",
+        "s": "HĐTN, HN 8",
+        "h": "Thiết kế ý tưởng kinh doanh xanh học đường vốn thấp"
+      }
+    ]
+  },
+  {
+    "chapter": "hdtn_hn8-c3",
+    "lesson": {
+      "code": "hdtn_hn8-b07",
+      "title": "Bài 7. Phòng chống bạo lực mạng và xây dựng văn hóa tranh luận văn minh",
+      "seq": 7,
+      "subtitle": "Nhận diện hành vi bạo lực mạng tinh vi (bắt nạt nhóm chat, tung tin bôi nhọ, đánh cắp danh tính), kĩ năng bảo vệ quyền riêng tư số và văn hóa phản biện tôn trọng",
+      "concepts": [
+        "Nhận diện bạo lực trên mạng",
+        "Bảo vệ quyền riêng tư số",
+        "Tranh luận văn minh trực tuyến"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN8-B07-001",
+        "d": "basic",
+        "p": "Những hành vi nào trên môi trường mạng xã hội của học sinh được xác định là \"Bạo lực mạng\" (Cyberbullying)?",
+        "o": [
+          "Tung ảnh chế dìm hàng, lập nhóm nói xấu tẩy chay, gửi tin nhắn lăng mạ đe dọa, phát tán bí mật riêng tư hoặc giả mạo tài khoản bôi nhọ người khác",
+          "Nhắc nhẹ bạn nộp bài đúng hạn trên nhóm học tập chung",
+          "Góp ý lịch sự về một câu trả lời chưa đúng trong giờ thảo luận",
+          "Chia sẻ các bài giảng hay phục vụ ôn tập thi học kì"
+        ],
+        "k": "A",
+        "e": "Bạo lực mạng có tốc độ lan truyền cực nhanh, tồn tại dai dẳng và có thể tấn công nạn nhân ngay cả khi họ đang ở trong phòng riêng của mình.",
+        "s": "HĐTN, HN 8",
+        "h": "Nhận diện các hình thức bạo lực mạng"
+      },
+      {
+        "c": "HN8-B07-002",
+        "d": "basic",
+        "p": "Vì sao vết thương tâm lí do bạo lực mạng gây ra đôi khi còn nặng nề và kéo dài hơn một trận cãi vã trực tiếp ngoài sân trường?",
+        "o": [
+          "Vì người lớn luôn tự động biết hết mọi tin nhắn riêng trên mạng",
+          "Vì chữ viết trên điện thoại làm đau trực tiếp cơ bắp tay chân",
+          "Vì tin xúc phạm dễ lan truyền tới hàng nghìn người bất kể ngày đêm, lưu dấu vết lâu dài làm nạn nhân cảm thấy bị bủa vây mọi nơi không lối thoát",
+          "Vì nạn nhân không bao giờ đọc được các bình luận đó"
+        ],
+        "k": "C",
+        "e": "Đừng bao giờ nghĩ \"chỉ là đùa trên mạng cho vui\"; một dòng bình luận ác ý có thể đẩy người khác vào khủng hoảng trầm cảm nặng nề.",
+        "s": "HĐTN, HN 8",
+        "h": "Mức độ nguy hiểm kéo dài của bạo lực mạng"
+      },
+      {
+        "c": "HN8-B07-003",
+        "d": "basic",
+        "p": "Nguyên tắc đặt mật khẩu và bảo mật tài khoản mạng xã hội an toàn nhất cho học sinh lớp 8 là gì?",
+        "o": [
+          "Dùng mật khẩu mạnh có chữ hoa, thường, số và kí tự đặc biệt riêng cho từng tài khoản, bật xác thực hai lớp (2FA) và không chia sẻ cho bạn bè",
+          "Dùng ngày tháng năm sinh hoặc \"12345678\" cho tất cả mọi tài khoản cho dễ nhớ",
+          "Ghi mật khẩu công khai lên ảnh bìa trang cá nhân",
+          "Cho bạn thân mật khẩu đăng nhập Facebook/Zalo để chứng minh tin tưởng"
+        ],
+        "k": "A",
+        "e": "Hơn một nửa vụ chiếm đoạt tài khoản hoặc giả mạo nhắn tin bôi nhọ bắt nguồn từ mật khẩu quá dễ đoán hoặc chia sẻ mật khẩu cho người khác.",
+        "s": "HĐTN, HN 8",
+        "h": "Bảo mật tài khoản và xác thực hai lớp"
+      },
+      {
+        "c": "HN8-B07-004",
+        "d": "basic",
+        "p": "Thông tin cá nhân nhạy cảm nào học sinh lớp 8 TUYỆT ĐỐI KHÔNG nên đăng tải công khai rộng rãi trên mạng xã hội?",
+        "o": [
+          "Bức ảnh phong cảnh thiên nhiên công viên công cộng",
+          "Số căn cước, địa chỉ nhà chính xác, số điện thoại riêng, lịch trình đi học một mình hằng ngày và thông tin tài khoản ngân hàng gia đình",
+          "Bài viết chia sẻ cảm nhận tích cực về một cuốn truyện hay",
+          "Sở thích đọc sách khoa học hoặc môn thể thao yêu thích chung chung"
+        ],
+        "k": "B",
+        "e": "Kẻ xấu có thể ghép các mảnh thông tin vị trí – giờ giấc công khai hàng ngày để theo dõi hoặc lừa đảo gia đình em.",
+        "s": "HĐTN, HN 8",
+        "h": "Bảo vệ thông tin cá nhân nhạy cảm trên mạng"
+      },
+      {
+        "c": "HN8-B07-005",
+        "d": "basic",
+        "p": "Khi tham gia bình luận trao đổi ý kiến dưới một bài viết tranh luận trên mạng, biểu hiện của \"văn hóa tranh luận văn minh\" là gì?",
+        "o": [
+          "Lập hàng loạt tài khoản ảo để chửi rủa áp đảo người khác",
+          "Dùng những từ ngữ thô tục xúc phạm hễ thấy ai khác quan điểm mình",
+          "Đăng hình chụp chế giễu khuôn mặt người phản biện",
+          "Dùng từ ngữ lịch sự tôn trọng, tập trung phân tích lí lẽ sự việc có căn cứ thay vì chửi bới công kích ngoại hình, gia đình hay vùng miền của người khác"
+        ],
+        "k": "D",
+        "e": "Tranh luận văn minh mở mang hiểu biết cho mọi người đọc; còn mắng chửi trên mạng chỉ hạ thấp giá trị của chính người viết.",
+        "s": "HĐTN, HN 8",
+        "h": "Chuẩn mực tranh luận văn minh trên mạng"
+      },
+      {
+        "c": "HN8-B07-006",
+        "d": "basic",
+        "p": "Nếu phát hiện một tài khoản giả mạo lấy tên và ảnh của em để đi lừa đảo hoặc nói xấu thầy cô, việc đầu tiên cần làm là gì?",
+        "o": [
+          "Lập một tài khoản giả khác để chửi nhau tay đôi với kẻ giả mạo",
+          "Chụp màn hình làm bằng chứng, báo cáo (Report) tài khoản giả với nền tảng, đính chính công khai cho bạn bè và báo ngay cho cha mẹ, thầy cô",
+          "Im lặng sợ hãi không dám nói cho bất kì ai biết",
+          "Xóa luôn tài khoản thật của mình và nghỉ học ở nhà"
+        ],
+        "k": "B",
+        "e": "Lên tiếng đính chính sớm và nhờ cha mẹ thầy cô hỗ trợ giúp ngăn chặn kịp thời kẻ xấu lợi dụng danh nghĩa của em.",
+        "s": "HĐTN, HN 8",
+        "h": "Xử lí khi bị giả mạo tài khoản mạng"
+      },
+      {
+        "c": "HN8-B07-007",
+        "d": "application",
+        "p": "Quan sát bảng so sánh 2 kịch bản xử lí khi gặp bạo lực mạng dưới đây. Một nhóm bạn lập hội kín \"Anti bạn X\" trên mạng xã hội để nói xấu cô lập một bạn cùng khối 8 và mời bạn Nam tham gia cho vui. Hành động bản lĩnh nhất của Nam là gì?",
+        "o": [
+          "Tham gia bấm thích các bài viết nói xấu bạn X để giữ quan hệ với nhóm",
+          "Chụp mặt bạn X gửi thêm vào nhóm cho vui hơn",
+          "Từ chối tham gia ngay, chụp lại bằng chứng (nếu thấy), khuyên các bạn giải tán nhóm xấu và báo kín cho thầy cô tư vấn tâm lí trường hỗ trợ",
+          "Vào nhóm xem im lặng đọc mỗi tối cho biết tin tức nóng hổi trong trường"
+        ],
+        "k": "C",
+        "e": "Mỗi thành viên rời khỏi nhóm bạo lực và lên tiếng báo người lớn góp phần làm tan rã tâm lí bầy đàn bảo vệ nạn nhân an toàn.",
+        "s": "HĐTN, HN 8",
+        "h": "Ứng xử đúng khi bị lôi kéo vào nhóm bắt nạt mạng",
+        "fig": {
+          "type": "table",
+          "title": "Ứng xử Bạo lực mạng",
+          "head": [
+            "Hành vi sai lầm",
+            "Hành động bản lĩnh"
+          ],
+          "rows": [
+            [
+              "Vào xem im lặng",
+              "Từ chối, rời nhóm"
+            ],
+            [
+              "Cãi vã tay đôi",
+              "Lưu ảnh, chặn nick"
+            ],
+            [
+              "Bấm thích ảnh chế",
+              "Báo cáo vi phạm"
+            ],
+            [
+              "Giấu kín sợ sệt",
+              "Báo cha mẹ, thầy cô"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "HN8-B07-008",
+        "d": "application",
+        "p": "Bạn Hà đăng một bức ảnh sản phẩm vẽ của mình lên trang lớp và nhận được một bình luận ẩn danh chê bai rất ác ý: \"Vẽ xấu kinh khủng, bỏ đi làm trò cười cho lớp à!\". Hà nên xử lí bình luận đó thế nào để bảo vệ tâm lí mình?",
+        "o": [
+          "Viết một bài dài chửi lại tất cả mọi người trong lớp",
+          "Không đôi co với nick ẩn danh độc hại; xóa/ẩn bình luận công kích, chặn tài khoản quấy rối và tiếp thu góp ý chân thành từ thầy cô, bạn thật",
+          "Ngồi khóc suốt 3 ngày, xóa toàn bộ trang vẽ và thề không bao giờ cầm bút nữa",
+          "Tìm bằng được người viết để gọi người ra ngoài cổng trường đánh nhau"
+        ],
+        "k": "B",
+        "e": "Nút Xóa/Chặn là quyền làm chủ không gian số của chính em; đừng trao quyền quyết định niềm đam mê của mình vào tay một tài khoản ẩn danh ác ý.",
+        "s": "HĐTN, HN 8",
+        "h": "Bảo vệ tinh thần trước bình luận công kích ẩn danh"
+      },
+      {
+        "c": "HN8-B07-009",
+        "d": "application",
+        "p": "Trong một lần đi ăn trưa cùng nhóm bạn thân, bạn Khoa chụp một bức ảnh chung khá vui nhưng có một bạn ngồi cạnh lúc đó đang nhai dở bị nhắm mắt trông rất kì. Trước khi đăng bức ảnh đó lên mạng, Khoa cần làm bước lịch sự nào?",
+        "o": [
+          "Cắt riêng mặt nhắm mắt của bạn ra làm nhãn dán (sticker) phát tán vào nhóm",
+          "Đăng luôn tấm ảnh dìm hàng đó lên làm ảnh bìa công khai để trêu bạn cả tuần",
+          "Xem kĩ ảnh có góc nào dìm hàng gây ngượng không, hỏi xin phép tất cả bạn trong ảnh trước khi đăng hoặc chọn tấm khác mọi người cùng đẹp tự nhiên",
+          "Không cần hỏi ai vì máy điện thoại của mình thì mình có toàn quyền đăng"
+        ],
+        "k": "C",
+        "e": "Xin phép trước khi đăng ảnh có mặt người khác là nét văn minh số cơ bản thể hiện sự tôn trọng hình ảnh và quyền riêng tư bạn bè.",
+        "s": "HĐTN, HN 8",
+        "h": "Quy tắc xin phép trước khi đăng ảnh có người khác"
+      },
+      {
+        "c": "HN8-B07-010",
+        "d": "application",
+        "p": "Trong phần bình luận một bài viết thảo luận về \"Quy định mặc đồng phục trường\", hai bạn dùng từ ngữ dần chuyển sang gay gắt xúc phạm nhau. Nếu em muốn tham gia góp tiếng nói hạ nhiệt đưa cuộc trao đổi về văn minh, em viết bình luận thế nào?",
+        "o": [
+          "\"Cả hai đứa tụi bay im hết đi, nói ngu quá trời!\"",
+          "\"Mỗi bạn có ý hay riêng (nét trang nghiêm vs sự thoải mái), tụi mình góp ý thẳng vào thiết kế và chất liệu mát hơn nhé, đừng công kích nhau!\"",
+          "Gửi thêm 10 nhãn dán đổ thêm dầu vào lửa cổ vũ hai bạn chửi nhau tiếp",
+          "\"Bạn A nói ngu kinh khủng, mình ủng hộ bạn B chửi tiếp!\""
+        ],
+        "k": "B",
+        "e": "Biết tóm tắt lại điểm hợp lí của cả hai phía và mời quay lại trọng tâm giải pháp là kĩ năng điều phối tranh luận mạng cực kì đẳng cấp.",
+        "s": "HĐTN, HN 8",
+        "h": "Điều phối hạ nhiệt tranh luận gay gắt trên mạng"
+      },
+      {
+        "c": "HN8-B07-011",
+        "d": "application",
+        "p": "Bạn Tuấn cài đặt chế độ công khai hoàn toàn mọi bài đăng, số điện thoại liên kết và định vị GPS tự động gắn vào ảnh chụp trước cổng nhà mình. Rủi ro bảo mật nào có thể xảy ra từ thói quen cài đặt này?",
+        "o": [
+          "Kẻ xấu dễ dàng biết chính xác địa chỉ nhà, giờ đi vắng của gia đình, thu thập dữ liệu để gọi điện giả danh lừa đảo phụ huynh hoặc quấy rối trực tiếp",
+          "Không có rủi ro gì vì trên mạng toàn người quen biết ngoài đời",
+          "Giúp điện thoại tự động sạc pin nhanh hơn",
+          "Giúp tài khoản Tuấn được bảo mật an toàn gấp đôi chế độ bạn bè"
+        ],
+        "k": "A",
+        "e": "Rà soát cài đặt quyền riêng tư (chuyển bài cá nhân sang \"Bạn bè\", tắt gắn vị trí GPS nhà riêng, ẩn số điện thoại) nên thực hiện định kì mỗi tháng.",
+        "s": "HĐTN, HN 8",
+        "h": "Kiểm tra cài đặt quyền riêng tư định kì"
+      },
+      {
+        "c": "HN8-B07-012",
+        "d": "application",
+        "p": "Khi thấy một người bạn lớp 8 bỗng dưng trở nên trầm lặng sợ hãi sau những lần mở điện thoại, xóa tài khoản mạng đột ngột và ngại đến trường. Nghi ngờ bạn đang là nạn nhân bị bạo lực mạng đe dọa, em nên làm gì giúp bạn?",
+        "o": [
+          "Tò mò gặng hỏi cho bằng được trước đám đông để đi kể lại",
+          "Khuyên bạn tự giải quyết im lặng đừng nói với người lớn",
+          "Tới bên hỏi thăm ở nơi kín đáo, lắng nghe không phán xét, nhắc bạn không đơn độc và cùng bạn (hoặc nhờ thầy cô, cha mẹ) tìm hướng xử lí an toàn",
+          "Bỏ mặc vì chuyện trên mạng của bạn không liên quan gì tới mình"
+        ],
+        "k": "C",
+        "e": "Sự phát hiện tinh tế và vòng tay đồng cảm của một người bạn tốt kịp thời có thể cứu nạn nhân thoát khỏi hố sâu tuyệt vọng.",
+        "s": "HĐTN, HN 8",
+        "h": "Hỗ trợ bạn có dấu hiệu bị bắt nạt mạng"
+      },
+      {
+        "c": "HN8-B07-013",
+        "d": "advanced",
+        "p": "Phân tích vì sao hiện tượng \"Hiệu ứng ẩn danh trực tuyến\" (Online Disinhibition Effect) lại khiến một số học sinh vốn ngoài đời khá hiền lành nhưng khi ngồi sau màn hình lại dễ buông lời cay nghiệt hơn hẳn?",
+        "o": [
+          "Vì pháp luật chỉ xử lí hành vi ngoài đời còn trên mạng hoàn toàn vô can",
+          "Vì ngoài đời con người không có cảm xúc buồn giận",
+          "Vì bàn phím điện thoại tự động sửa các lời khen thành lời chửi",
+          "Vì không nhìn trực tiếp nét buồn của người nghe và vỏ bọc ẩn danh tạm thời làm giảm sự đồng cảm tự nhiên lẫn nỗi ngại chịu trách nhiệm tức thì"
+        ],
+        "k": "D",
+        "e": "Nhắc nhở chính mình trước khi bấm gửi: \"Mình có dám nhìn thẳng vào mắt bạn ấy (và mắt cha mẹ mình) để đọc to chính câu bình luận này không?\" sẽ giữ trọn nhân cách số.",
+        "s": "HĐTN, HN 8",
+        "h": "Thấu hiểu hiệu ứng ẩn danh để tự răn mình"
+      },
+      {
+        "c": "HN8-B07-014",
+        "d": "advanced",
+        "p": "Giữa \"Tự do bày tỏ ý kiến cá nhân\" và \"Hành vi bạo lực lời nói, vu khống xúc phạm nhân phẩm người khác\": ranh giới pháp lí và đạo đức mà công dân trẻ tuổi 14 cần nắm chắc là gì?",
+        "o": [
+          "Chỉ cần viết tắt tên người kia là không bao giờ vi phạm đạo đức hay pháp luật",
+          "Học sinh dưới 16 tuổi nói gì trên mạng cũng hoàn toàn không gây hậu quả gì",
+          "Tự do ngôn luận nghĩa là được quyền chửi bới bịa đặt bôi nhọ bất kì ai mình ghét trên mạng",
+          "Tự do ý kiến phải văn minh tôn trọng sự thật và người khác; khi vu khống, mạt sát nhân phẩm hay xâm phạm đời tư là vi phạm đạo đức và pháp luật"
+        ],
+        "k": "D",
+        "e": "Hiểu đúng ranh giới quyền tự do đi liền nghĩa vụ tôn trọng danh dự người khác bảo vệ em trở thành công dân số văn minh đúng luật.",
+        "s": "HĐTN, HN 8",
+        "h": "Phân biệt tự do ý kiến và vu khống xúc phạm"
+      },
+      {
+        "c": "HN8-B07-015",
+        "d": "advanced",
+        "p": "Nếu lớp 8C phát động tuần lễ \"Lướt Mạng Tử Tế – Gieo Lời Khen Thật\", hoạt động thực hành nào giúp thay đổi bầu không khí không gian mạng của cả lớp rõ rệt nhất?",
+        "o": [
+          "Chỉ treo một khẩu hiệu nhỏ mà không ai tương tác thực hành",
+          "Tắt toàn bộ Internet của trường học vĩnh viễn không dùng nữa",
+          "Tổ chức cuộc thi tìm xem trang mạng nào có nhiều bình luận cãi nhau nhất",
+          "Mỗi ngày gửi 1 bình luận khen thật lòng nỗ lực bạn bè, đặt quy ước \"3 Không\" (Không dìm hàng, Không tẩy chay, Không tin giả) và rà bảo mật"
+        ],
+        "k": "D",
+        "e": "Khi không gian mạng ngập tràn sự khích lệ thật lòng và quy chuẩn bảo mật rõ ràng, các hành vi độc hại tự nhiên mất đi đất sống.",
+        "s": "HĐTN, HN 8",
+        "h": "Xây dựng không gian mạng lớp học tích cực"
+      }
+    ]
+  },
+  {
+    "chapter": "hdtn_hn8-c3",
+    "lesson": {
+      "code": "hdtn_hn8-b08",
+      "title": "Bài 8. Hoạt động thiện nguyện bền vững và quảng bá truyền thống địa phương",
+      "seq": 8,
+      "subtitle": "Thiết kế và triển khai hoạt động thiện nguyện có tính bền vững tại cộng đồng; phát huy vai trò thanh thiếu niên lớp 8 quảng bá nét đẹp văn hóa – lịch sử địa phương",
+      "concepts": [
+        "Thiện nguyện mang tính bền vững",
+        "Quảng bá truyền thống địa phương",
+        "Đánh giá tác động cộng đồng"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN8-B08-001",
+        "d": "basic",
+        "p": "Sự khác biệt cốt lõi giữa hoạt động thiện nguyện \"tạm thời ngắn hạn\" với \"thiện nguyện bền vững\" ở mức độ phù hợp học sinh lớp 8 là gì?",
+        "o": [
+          "Thiện nguyện bền vững hướng tới giải pháp dài lâu, giúp người nhận nâng năng lực tự vươn lên hoặc duy trì học tập thay vì chỉ tặng quà một lần",
+          "Hai hình thức hoàn toàn giống nhau ở việc chỉ chụp ảnh một lần",
+          "Thiện nguyện bền vững phải quyên góp hàng tỉ đồng xây nhà máy mới được",
+          "Thiện nguyện bền vững là bắt buộc phải đi xa hàng nghìn cây số"
+        ],
+        "k": "A",
+        "e": "Ví dụ: thay vì chỉ tặng 1 quyển vở ngày khai giảng, lập nhóm kèm học đều hằng tuần giúp bạn yếu tiến bộ cả năm chính là thiện nguyện bền vững.",
+        "s": "HĐTN, HN 8",
+        "h": "Đặc điểm hoạt động thiện nguyện bền vững"
+      },
+      {
+        "c": "HN8-B08-002",
+        "d": "basic",
+        "p": "Khi tổ chức một chiến dịch thiện nguyện cho cộng đồng địa phương, bước \"Khảo sát tìm hiểu đúng nhu cầu thực tế\" quan trọng ở chỗ nào?",
+        "o": [
+          "Tránh mang tặng thứ người nhận không cần gây lãng phí, bảo đảm sự giúp đỡ chạm đúng khó khăn cấp thiết nhất của họ",
+          "Giúp chọn món quà rẻ nhất bất kể có dùng được hay không",
+          "Chỉ để kéo dài thời gian cho khỏi phải đi làm thật",
+          "Không quan trọng bằng việc chọn màu áo đồng phục nhóm"
+        ],
+        "k": "A",
+        "e": "Một cặp kính cận đo đúng độ cho cụ già hay đôi ủng cao su mùa mưa cho bạn nhỏ vùng sâu có giá trị gấp nhiều lần hộp bánh đắt tiền không hợp nhu cầu.",
+        "s": "HĐTN, HN 8",
+        "h": "Vai trò khảo sát đúng nhu cầu trước khi trao tặng"
+      },
+      {
+        "c": "HN8-B08-003",
+        "d": "basic",
+        "p": "Những nét đẹp truyền thống địa phương nào học sinh lớp 8 có thể lựa chọn tìm hiểu và quảng bá rộng rãi tới cộng đồng, bạn bè phương xa?",
+        "o": [
+          "Các câu chuyện đồn đại mê tín dị đoan không có thật",
+          "Những quán hàng xả rác bừa bãi ra đường",
+          "Di tích lịch sử – danh thắng quê hương, làn điệu dân ca, lễ hội văn hóa, nghề thủ công truyền thống, ẩm thực đặc sản và gương người tốt việc tốt địa phương",
+          "Chỉ nên quảng bá các khu vui chơi điện tử nhập khẩu"
+        ],
+        "k": "C",
+        "e": "Mỗi vùng quê Việt Nam đều chứa đựng kho tàng văn hóa và câu chuyện truyền thống đáng tự hào chờ thế hệ trẻ kể lại sinh động.",
+        "s": "HĐTN, HN 8",
+        "h": "Các đối tượng truyền thống địa phương cần quảng bá"
+      },
+      {
+        "c": "HN8-B08-004",
+        "d": "basic",
+        "p": "Công cụ hiện đại nào giúp học sinh lớp 8 quảng bá hiệu quả nét đẹp truyền thống quê hương tới đông đảo bạn trẻ cả nước và quốc tế với chi phí gần như bằng 0?",
+        "o": [
+          "Chỉ kể miệng cho duy nhất một người bạn ngồi cạnh nghe",
+          "In hàng chục nghìn tờ rơi vứt rải rác ra đường phố",
+          "Video ngắn sáng tạo trên nền tảng số, infographic song ngữ Việt – Anh, bộ ảnh kể chuyện kèm bản đồ số hoặc trang web/QR giới thiệu tại di tích",
+          "Chỉ viết tay một bức thư giấy rồi cất vào ngăn kéo bàn học ở nhà"
+        ],
+        "k": "C",
+        "e": "Tận dụng công nghệ số lành mạnh biến chiếc điện thoại thành công cụ sáng tạo văn hóa thay vì chỉ giải trí thụ động.",
+        "s": "HĐTN, HN 8",
+        "h": "Công cụ số quảng bá truyền thống địa phương"
+      },
+      {
+        "c": "HN8-B08-005",
+        "d": "basic",
+        "p": "Khi phối hợp làm dự án cộng đồng với Đoàn Thanh niên phường/xã hoặc Mặt trận Tổ quốc địa phương, học sinh lớp 8 rèn luyện được kĩ năng xã hội quan trọng nào?",
+        "o": [
+          "Kĩ năng trốn tránh việc chung để người lớn làm hết",
+          "Kĩ năng giao tiếp hợp tác liên thế hệ, làm việc bài bản theo kế hoạch tổ chức và tinh thần trách nhiệm công dân địa phương",
+          "Chỉ biết chụp ảnh check-in rồi bỏ về sớm",
+          "Kĩ năng đòi hỏi đặc quyền cá nhân riêng"
+        ],
+        "k": "B",
+        "e": "Gắn kết nhà trường với địa phương giúp học sinh trưởng thành trong sự nâng đỡ của cả cộng đồng.",
+        "s": "HĐTN, HN 8",
+        "h": "Giá trị hợp tác cùng tổ chức đoàn thể địa phương"
+      },
+      {
+        "c": "HN8-B08-006",
+        "d": "basic",
+        "p": "Sau khi kết thúc một chiến dịch tình nguyện hoặc quảng bá văn hóa địa phương, bước \"Đánh giá tổng kết và rút kinh nghiệm\" giúp ích gì cho nhóm?",
+        "o": [
+          "Làm cho đủ thủ tục giấy tờ rồi quên sạch không bao giờ đọc lại",
+          "Nhìn rõ kết quả thực tế đạt được so với mục tiêu ban đầu, minh bạch thu chi, tri ân người hỗ trợ và rút ra bài học cải tiến tốt hơn cho lần sau",
+          "Chỉ để tìm xem bạn nào mắc lỗi nhỏ để chê trách công khai",
+          "Không cần làm nếu mọi người đều thấy hơi mệt sau chiến dịch"
+        ],
+        "k": "B",
+        "e": "Một dự án chỉ thực sự khép lại trọn vẹn sau khi gửi lời cảm ơn chân thành và tổng kết bài học trưởng thành của cả nhóm.",
+        "s": "HĐTN, HN 8",
+        "h": "Ý nghĩa bước tổng kết đánh giá sau dự án"
+      },
+      {
+        "c": "HN8-B08-007",
+        "d": "application",
+        "p": "Quan sát bảng so sánh 2 cách triển khai giúp đỡ một điểm trường vùng khó khăn hoặc lớp học tình thương của liên đội trường THCS dưới đây. Cách làm nào thể hiện tư duy thiện nguyện bền vững vượt trội nhất?",
+        "o": [
+          "Trao đúng đồ học tập thiếu, lập tủ sách có sổ mượn trả lâu dài và phân nhóm học sinh lớp 8 gửi video ôn bài, thư động viên xuyên suốt năm học",
+          "Chỉ đăng bài kêu gọi rồi không theo dõi xem quà có đến đúng tay người cần không",
+          "Góp tiền mua thật nhiều bóng bay, kẹo ngọt tổ chức vui chơi ồn ào đúng 2 tiếng rồi đi về mất hút suốt nhiều năm",
+          "Gửi toàn bộ quần áo cũ chưa giặt rách nát và sách rách trang để dọn sạch kho nhà mình"
+        ],
+        "k": "A",
+        "e": "Duy trì sợi dây đồng hành tri thức và khích lệ tinh thần lâu dài tạo tác động thay đổi cuộc sống sâu sắc hơn hẳn món quà chớp nhoáng.",
+        "s": "HĐTN, HN 8",
+        "h": "Thiết kế mô hình thiện nguyện đồng hành bền vững",
+        "fig": {
+          "type": "table",
+          "title": "Thiện nguyện bền vững",
+          "head": [
+            "Hướng tiếp cận",
+            "Tác động lâu dài"
+          ],
+          "rows": [
+            [
+              "Tặng kẹo 1 lần",
+              "Hết nhanh, ít đổi"
+            ],
+            [
+              "Tủ sách luân chuyển",
+              "Đọc suốt nhiều năm"
+            ],
+            [
+              "Kèm học trực tuyến",
+              "Nâng năng lực tự học"
+            ],
+            [
+              "Dạy kĩ năng tái chế",
+              "Tự tạo sinh kế sạch"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "HN8-B08-008",
+        "d": "application",
+        "p": "Quê hương bạn Mai có một làng nghề làm bánh đa nem hoặc nón lá truyền thống rất đẹp nhưng ít bạn trẻ thành phố biết đến. Nhóm Mai định làm một chiến dịch quảng bá trong 1 tháng. Chuỗi hoạt động nào sáng tạo và trung thực văn hóa nhất?",
+        "o": [
+          "Phỏng vấn nghệ nhân kiểm chứng thông tin gốc, quay clip 90 giây quy trình chế tác kèm phụ đề tiếng Anh ngắn và trưng bày trải nghiệm tại trường",
+          "Chỉ đăng một bức ảnh mờ tịt kèm hai chữ \"Quê mình\" không giải thích gì thêm",
+          "Tự bịa ra truyền thuyết lịch sử không có thật để câu lượt xem mạng",
+          "Mua sản phẩm công nghiệp nơi khác dán nhãn quê mình đem đi giới thiệu"
+        ],
+        "k": "A",
+        "e": "Sự kết hợp giữa câu chuyện chân thực từ chính nghệ nhân làng nghề với phụ đề song ngữ giúp sản phẩm địa phương chạm tới bạn bè rộng rãi hơn.",
+        "s": "HĐTN, HN 8",
+        "h": "Xây dựng chiến dịch số quảng bá sản phẩm quê hương"
+      },
+      {
+        "c": "HN8-B08-009",
+        "d": "application",
+        "p": "Trong buổi thực hiện dự án \"Tủ thuốc & Góc Học tập Xanh\" tặng trạm y tế xã hoặc nhà văn hóa thôn, tổ của bạn Minh gặp khó khăn vì thiếu kinh phí mua sơn và gỗ mới. Giải pháp xoay xở thông minh tiết kiệm nào khả thi nhất?",
+        "o": [
+          "Hủy bỏ luôn dự án vì không có 10 triệu đồng mua tủ mới tinh ngoài tiệm",
+          "Xin gỗ thừa sạch từ xưởng mộc hoặc tận dụng pallet cũ, dùng sơn gốc nước an toàn cùng phụ huynh và cả nhóm tự chà nhám, sơn vẽ trang trí đẹp",
+          "Vay nóng tiền bên ngoài để mua tủ thật đắt tiền",
+          "Lấy đại tủ hỏng mục nát rỉ sét không sửa sang gì mang ra đặt tạm"
+        ],
+        "k": "B",
+        "e": "Vận động nguồn lực tái chế sẵn có tại cộng đồng kết hợp sức lao động khéo léo của tập thể biến khó khăn kinh phí thành dấu ấn sáng tạo riêng.",
+        "s": "HĐTN, HN 8",
+        "h": "Giải quyết sáng tạo thiếu hụt kinh phí dự án cộng đồng"
+      },
+      {
+        "c": "HN8-B08-010",
+        "d": "application",
+        "p": "Khi hướng dẫn du khách nước ngoài (hoặc khách phương xa) tham quan một di tích lịch sử tại địa phương trong vai \"Hướng dẫn viên Nhỏ\", bạn Khoa gặp một câu hỏi về chi tiết lịch sử mà mình chưa chắc chắn 100%. Khoa nên trả lời thế nào?",
+        "o": [
+          "Quay lưng bỏ đi chỗ khác giả vờ không nghe thấy câu hỏi",
+          "Tự bịa đại một con số năm tháng nghe cho oai để khỏi bị mất mặt",
+          "Trung thực nói rõ phần mình chưa chắc để tránh sai lịch sử, rồi tra tài liệu Ban quản lí di tích hoặc hỏi bác thuyết minh đáp chuẩn xác cho khách",
+          "Trả lời cộc lốc rằng việc đó không quan trọng khỏi cần biết"
+        ],
+        "k": "C",
+        "e": "Sự trung thực khoa học đối với di sản lịch sử tạo nên uy tín cực kì chuyên nghiệp trong giao tiếp văn hóa.",
+        "s": "HĐTN, HN 8",
+        "h": "Ứng xử trung thực khi giới thiệu lịch sử địa phương"
+      },
+      {
+        "c": "HN8-B08-011",
+        "d": "application",
+        "p": "Chi đội lớp 8B nhận chăm sóc định kì hàng tháng khu di tích bia tưởng niệm anh hùng liệt sĩ của xã/phường. Cách phân công duy trì thế nào để hoạt động thực sự bền vững quanh năm chứ không chỉ làm rầm rộ mỗi dịp 27/7?",
+        "o": [
+          "Chỉ phân công một mình lớp trưởng ra làm suốt cả năm học",
+          "Chờ tới sát ngày 27/7 hằng năm mới chạy ra quét vội một lần rồi bỏ mặc 11 tháng còn lại",
+          "Chia 4 tổ luân phiên dọn vào sáng thứ bảy đầu tháng (quét lá, lau bia, thay hoa), ghi nhật kí ảnh bàn giao và kể một chuyện lịch sử địa phương",
+          "Ra làm một lần đầu năm rồi tự ý bỏ lịch hoàn toàn"
+        ],
+        "k": "C",
+        "e": "Luân phiên nhẹ nhàng theo tổ hàng tháng kết hợp sinh hoạt kể chuyện truyền thống biến công việc chăm sóc di tích thành niềm tự hào tự nhiên.",
+        "s": "HĐTN, HN 8",
+        "h": "Duy trì chăm sóc di tích bền vững suốt năm học"
+      },
+      {
+        "c": "HN8-B08-012",
+        "d": "application",
+        "p": "Khi thu hút bạn bè cùng tham gia dọn sạch đoạn bờ kè hoặc vẽ tranh tường cổ động ở địa phương, nhóm trưởng cần chú ý quy trình an toàn và phép tắc cộng đồng nào trước khi thực hiện?",
+        "o": [
+          "Tự ý mang sơn xịt ra vẽ lên tường nhà dân và tường di tích cổ chưa xin phép",
+          "Làm xong vứt luôn cọ bẩn vỏ lon sơn ngay dưới chân tường",
+          "Xin phép chính quyền/chủ tường hợp pháp, kiểm tra an toàn giao thông quanh chỗ đứng vẽ và thu dọn sạch lon sơn, cọ quét sau khi hoàn thành",
+          "Đứng tràn ra giữa lòng đường xe chạy để vẽ cho thoáng góc nhìn"
+        ],
+        "k": "C",
+        "e": "Mọi hành động đẹp cho cộng đồng chỉ thực sự văn minh khi tuân thủ pháp luật, tôn trọng quyền tài sản người dân và đảm bảo an toàn giao thông.",
+        "s": "HĐTN, HN 8",
+        "h": "Tuân thủ phép tắc và an toàn khi làm đẹp cộng đồng"
+      },
+      {
+        "c": "HN8-B08-013",
+        "d": "advanced",
+        "p": "Phân tích mối liên hệ hai chiều giữa \"Hiểu sâu truyền thống quê hương\" và \"Khả năng hội nhập quốc tế tự tin\": vì sao càng am hiểu văn hóa địa phương mình, học sinh lớp 8 lại càng tự tin khi giao lưu với bạn bè thế giới?",
+        "o": [
+          "Vì hội nhập quốc tế bắt buộc phải quên sạch hết mọi phong tục địa phương",
+          "Trong toàn cầu hóa, nét văn hóa bản sắc quê hương là điều bạn bè quốc tế trân trọng nhất; hiểu rõ cội nguồn giúp hội nhập tự tin không bị hòa tan",
+          "Vì chỉ cần thuộc truyền thống quê hương là tự nhiên biết hết mọi ngoại ngữ không cần học",
+          "Vì văn hóa địa phương chỉ dùng để đóng cửa giữ kín không giao lưu với ai"
+        ],
+        "k": "B",
+        "e": "\"Hòa nhập chứ không hòa tan\" — bản sắc quê hương là tấm hộ chiếu văn hóa tự hào nhất của mỗi công dân trẻ trên trường quốc tế.",
+        "s": "HĐTN, HN 8",
+        "h": "Bản sắc địa phương làm bệ phóng hội nhập quốc tế"
+      },
+      {
+        "c": "HN8-B08-014",
+        "d": "advanced",
+        "p": "Đánh giá tác động của một chiến dịch thiện nguyện học đường theo khung 3 lớp: (1) Giá trị cho người nhận, (2) Thay đổi cho người tham gia, (3) Tác động tới môi trường – xã hội. Theo em, vì sao cả ba lớp đều phải cân bằng xanh – sạch – tôn trọng?",
+        "o": [
+          "Chỉ cần quan tâm cảm xúc người đi tặng chụp ảnh có đẹp hay không",
+          "Chỉ cần hoàn thành nhanh cho đủ chỉ tiêu nộp báo cáo là xong không cần xét tác động môi trường",
+          "Nếu tặng quà nhưng xả hàng trăm túi nilon hay quay chụp phô trương làm tổn thương người nhận thì chưa trọn; hài hòa cả 3 mặt mới thực sự bền vững",
+          "Càng dùng nhiều hộp xốp túi nilon phát quà càng thuận tiện văn minh"
+        ],
+        "k": "C",
+        "e": "Thiện nguyện xanh và tôn trọng nhân phẩm là chuẩn mực văn minh mới của thế hệ trẻ hôm nay.",
+        "s": "HĐTN, HN 8",
+        "h": "Đánh giá đa chiều tác động của chiến dịch cộng đồng"
+      },
+      {
+        "c": "HN8-B08-015",
+        "d": "advanced",
+        "p": "Nếu lớp 8A xây dựng một sản phẩm tổng kết cuối chủ đề mang tên \"Bản đồ Số Trải nghiệm Cộng đồng Địa phương\" để chuyển giao cho các em khóa lớp 6–7 năm sau tiếp bước, những dữ liệu cốt lõi nào nên đưa vào bản đồ?",
+        "o": [
+          "Chỉ dán vài bức ảnh tự sướng không chú thích địa điểm hay thông tin nào",
+          "Chỉ ghi tên quán trà sữa và tiệm game quanh trường",
+          "Vị trí, câu chuyện chuẩn các di tích/làng nghề gần trường, địa chỉ cộng đồng cần hỗ trợ dài hạn, bài học an toàn – ngân sách và mã QR sản phẩm mẫu",
+          "Giữ kín hết số liệu kinh nghiệm để khóa sau tự mò mẫm từ đầu"
+        ],
+        "k": "C",
+        "e": "Chuyển giao tri thức kinh nghiệm cộng đồng giữa các khóa học sinh tạo thành truyền thống tiếp nối bền vững cho cả ngôi trường.",
+        "s": "HĐTN, HN 8",
+        "h": "Xây dựng Bản đồ Số kế thừa hoạt động cộng đồng"
+      }
+    ]
+  },
+  {
+    "chapter": "hdtn_hn8-c3",
+    "lesson": {
+      "code": "hdtn_hn8-b09",
+      "title": "Bài 9. Truyền thông bảo vệ môi trường và ứng phó biến đổi khí hậu",
+      "seq": 9,
+      "subtitle": "Thiết kế chiến dịch truyền thông xanh hiệu quả tại trường và địa phương; thực hành kĩ năng chủ động phòng tránh, ứng phó thiên tai cực đoan (bão lũ, sạt lở, nắng nóng)",
+      "concepts": [
+        "Truyền thông môi trường bền vững",
+        "Ứng phó bão lũ, sạt lở, nắng nóng",
+        "Phục hồi sinh thái địa phương"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN8-B09-001",
+        "d": "basic",
+        "p": "Mục tiêu chính của việc \"truyền thông bảo vệ môi trường\" đối với học sinh lớp 8 là gì?",
+        "o": [
+          "Không chỉ cung cấp kiến thức tác hại ô nhiễm mà thúc đẩy sự thay đổi hành vi thực tế cụ thể (tiết kiệm điện nước, phân loại rác, trồng cây) trong cộng đồng",
+          "Chỉ để thi lấy điểm cộng một ngày rồi bỏ",
+          "Chỉ để treo áp phích cho đẹp hành lang rồi mọi người vẫn xả rác bình thường",
+          "Để dọa nạt khiến mọi người lo lắng hoảng sợ mà không làm gì được"
+        ],
+        "k": "A",
+        "e": "Thước đo thành công của truyền thông xanh không nằm ở số lượng khẩu hiệu in ra, mà ở số chai nhựa giảm đi và số cây xanh tăng lên mỗi ngày.",
+        "s": "HĐTN, HN 8",
+        "h": "Mục tiêu thay đổi hành vi của truyền thông xanh"
+      },
+      {
+        "c": "HN8-B09-002",
+        "d": "basic",
+        "p": "Tại sao biến đổi khí hậu lại làm gia tăng tần suất và mức độ dữ dội của các hiện tượng thời tiết cực đoan ở nước ta hiện nay?",
+        "o": [
+          "Vì con người trồng quá nhiều rừng cây xanh làm chắn gió",
+          "Vì sử dụng năng lượng mặt trời làm khí hậu lạnh đi",
+          "Vì Mặt Trăng tiến lại gần Trái Đất hơn vào mùa hè",
+          "Nhiệt độ khí quyển và đại dương tăng làm rối loạn vòng tuần hoàn nước, gây bão mạnh bất thường, mưa lũ ngập lụt, sạt lở đất và nắng hạn gay gắt"
+        ],
+        "k": "D",
+        "e": "Là một trong những quốc gia chịu ảnh hưởng nặng nề bởi biến đổi khí hậu, thanh thiếu niên Việt Nam cần trang bị vững chắc kĩ năng phòng chống thiên tai.",
+        "s": "HĐTN, HN 8",
+        "h": "Tác động biến đổi khí hậu tới thiên tai Việt Nam"
+      },
+      {
+        "c": "HN8-B09-003",
+        "d": "basic",
+        "p": "Trước khi một cơn bão mạnh đổ bộ theo dự báo khí tượng, những việc chuẩn bị thiết yếu nào gia đình cần thực hiện sớm khi trời còn yên gió?",
+        "o": [
+          "Theo dõi tin chính thống, chằng chống cửa mái, khơi cống rãnh, tỉa cành cây, sạc pin dự phòng và chuẩn bị túi khẩn cấp (nước, lương khô, đèn, thuốc)",
+          "Đợi gió giật cấp 10 rồi mới leo lên mái nhà sửa tôn cho mát",
+          "Cắm kín hết tất cả thiết bị điện không rút phích và khóa chặt cổng không dự trữ nước",
+          "Ra bờ biển hoặc bờ sông ngắm sóng to quay video đăng mạng"
+        ],
+        "k": "A",
+        "e": "\"Phòng từ khi trời còn tạnh\" quyết định tới 80% sự an toàn của cả gia đình trong suốt những giờ bão đi qua.",
+        "s": "HĐTN, HN 8",
+        "h": "Chuẩn bị trước khi bão đổ bộ"
+      },
+      {
+        "c": "HN8-B09-004",
+        "d": "basic",
+        "p": "Dấu hiệu tự nhiên nào ở vùng đồi núi trung du cảnh báo nguy cơ SẠT LỞ ĐẤT hoặc LŨ QUÉT sắp xảy ra đòi hỏi người dân phải sơ tán khẩn cấp ngay?",
+        "o": [
+          "Trời nắng ráo suốt hai tháng liền và nước suối trong vắt chảy êm",
+          "Mưa lớn kéo dài nhiều ngày, xuất hiện vết nứt trên sườn đồi hay nền nhà, cây nghiêng dần, nước suối bỗng đục ngầu kèm tiếng ầm từ thượng nguồn",
+          "Cây cối đứng thẳng xanh tươi và mặt đất khô ráo bằng phẳng",
+          "Gió hiu hiu mát nhẹ vào buổi chiều thu"
+        ],
+        "k": "B",
+        "e": "Khi thấy nước suối bỗng đục ngầu chuyển dòng bất thường hoặc mặt đất rung nhẹ có vết nứt, hãy chạy ngay lên điểm đất cao an toàn vuông góc hướng dòng chảy, KHÔNG quay lại lấy đồ đạc!",
+        "s": "HĐTN, HN 8",
+        "h": "Nhận diện dấu hiệu cảnh báo lũ quét, sạt lở đất"
+      },
+      {
+        "c": "HN8-B09-005",
+        "d": "basic",
+        "p": "Trong vùng xảy ra ngập lụt sâu sau mưa bão, nguồn bệnh nguy hiểm nào dễ bùng phát nhất và biện pháp phòng ngừa vệ sinh quan trọng hàng đầu của học sinh là gì?",
+        "o": [
+          "Bệnh tiêu hóa, ngoài da và sốt xuất huyết do nước bẩn; cần ăn chín uống sôi nước sạch, dọn bùn rác khi nước rút và tránh vùng ngập có dây điện hở",
+          "Lội ngâm chân cả ngày trong nước cống ngập đầy rác rồi không rửa sạch",
+          "Thoải mái lấy nước lũ đục ngầu lên uống trực tiếp cho tiện",
+          "Để nguyên các vũng nước đọng quanh nhà cho muỗi sinh sản"
+        ],
+        "k": "A",
+        "e": "Vệ sinh môi trường \"Nước rút tới đâu làm sạch tới đó\" cùng ăn chín uống sôi bảo vệ cộng đồng khỏi dịch bệnh hậu thiên tai.",
+        "s": "HĐTN, HN 8",
+        "h": "Phòng chống dịch bệnh trong và sau ngập lụt"
+      },
+      {
+        "c": "HN8-B09-006",
+        "d": "basic",
+        "p": "Trong các đợt nắng nóng cực đoan (nhiệt độ ngoài trời 38–40°C trở lên), biện pháp tự bảo vệ sức khỏe hiệu quả cho học sinh là gì?",
+        "o": [
+          "Mặc áo khoác đen dày kín mít không thấm mồ hôi và nhịn uống nước",
+          "Uống liên tục nước ngọt có ga và ngồi thẳng sát trước luồng gió điều hòa đóng băng 16°C ngay khi vừa nắng về",
+          "Chạy thi hết tốc lực dưới trời nắng 13 giờ trưa không đội mũ",
+          "Hạn chế hoạt động gắng sức ngoài trời khung 11h–15h, đội mũ rộng vành mặc áo sáng màu thoáng mát, uống đủ nước đều đặn và bổ sung rau quả tươi"
+        ],
+        "k": "D",
+        "e": "Tránh sốc nhiệt thay đổi nhiệt độ đột ngột giữa ngoài trời 40°C và phòng điều hòa quá lạnh cũng quan trọng ngang với che nắng uống đủ nước.",
+        "s": "HĐTN, HN 8",
+        "h": "Ứng phó an toàn trong đợt nắng nóng gay gắt"
+      },
+      {
+        "c": "HN8-B09-007",
+        "d": "application",
+        "p": "Quan sát bảng hướng dẫn xây dựng \"Túi đồ Dự phòng Khẩn cấp Gia đình\" (Go-Bag) ứng phó bão lũ động đất dưới đây. Nếu gia đình bạn Lan ở vùng hay ngập lụt đang chuẩn bị chiếc túi này đặt gần cửa ra vào, vật dụng nào quan trọng BẮT BUỘC phải bọc kín bằng túi chống thấm nước?",
+        "o": [
+          "Giấy tờ tùy thân quan trọng (bản sao/giấy tờ gốc bọc túi zip chống ẩm), điện thoại/sạc dự phòng, đèn pin còi cứu hộ, thuốc y tế cơ bản và ít tiền mặt dự phòng",
+          "Để mở nắp chai nước và pin trần lăn lộn chung với muối tinh",
+          "Đem theo toàn bộ bát đĩa sứ dễ vỡ và nồi niêu xoong chảo nặng",
+          "Chỉ cần nhét đầy bộ bài tú lơ khơ và sách truyện tranh nặng trịch"
+        ],
+        "k": "A",
+        "e": "Chiếc túi gọn nhẹ đủ dùng sinh tồn 72 giờ đầu giúp cả gia đình sẵn sàng di chuyển nhanh tới điểm trú ẩn an toàn chỉ trong vòng 1 phút khi có lệnh sơ tán.",
+        "s": "HĐTN, HN 8",
+        "h": "Chuẩn bị Túi khẩn cấp 72 giờ đúng chuẩn an toàn",
+        "fig": {
+          "type": "table",
+          "title": "Túi khẩn cấp 72 giờ",
+          "head": [
+            "Nhóm vật dụng",
+            "Chi tiết ưu tiên"
+          ],
+          "rows": [
+            [
+              "Nước và thực phẩm",
+              "Nước chai, lương khô"
+            ],
+            [
+              "Y tế tối thiểu",
+              "Băng gạc, sát trùng"
+            ],
+            [
+              "Ánh sáng, báo hiệu",
+              "Đèn pin, sạc, còi"
+            ],
+            [
+              "Giấy tờ chống thấm",
+              "Bản sao giấy tờ kín"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "HN8-B09-008",
+        "d": "application",
+        "p": "Trường em muốn phát động tuần lễ truyền thông \"Năng lượng Sạch & Trường học Không Khói Bụi\". Nhóm bạn Hùng được giao thiết kế một áp phích (poster) đặt ngay cổng trường nơi phụ huynh đứng chờ đón con. Thông điệp hành động ngắn nào tác động trực tiếp hiệu quả nhất tại khu vực cổng trường?",
+        "o": [
+          "Dòng chữ dọa phạt tiền nếu phụ huynh đi xe máy tới cổng trường",
+          "\"Tắt máy xe khi chờ đón con quá 30 giây – Trả lại bầu không khí trong lành cho lá phổi con em chúng ta!\" kèm hình minh họa trực quan dễ hiểu",
+          "Một bài luận dài 2.000 chữ li ti về lịch sử ngành dầu khí thế giới",
+          "Câu khẩu hiệu chung chung: \"Hãy yêu quý Trái Đất mãi mãi!\""
+        ],
+        "k": "B",
+        "e": "Truyền thông xuất sắc nhắm trúng một hành vi cụ thể tại đúng điểm phát sinh (tắt máy xe lúc chờ ở cổng trường) tạo thay đổi ngay lập tức.",
+        "s": "HĐTN, HN 8",
+        "h": "Thiết kế thông điệp truyền thông đúng điểm chạm"
+      },
+      {
+        "c": "HN8-B09-009",
+        "d": "application",
+        "p": "Đang trên đường đạp xe đi học về thì gặp cơn mưa dông gió giật rất mạnh, cành cây bắt đầu gãy rơi và sấm sét chớp sáng liên hồi. Bạn Tuấn nên xử lí tình huống giao thông thiên tai này thế nào?",
+        "o": [
+          "Lội băng qua đoạn đường ngập sâu chảy xiết mất nắp cống",
+          "Cố cắm đầu đạp xe thật nhanh xuyên qua hàng cây cổ thụ đang lắc lư mạnh",
+          "Dừng tìm nhà dân kiên cố, mái bê tông an toàn xin trú nhờ, đứng xa cửa kính và cột điện cao thế, báo cho gia đình yên tâm rồi chờ ngớt bão mới đi tiếp",
+          "Đứng nép sát ngay dưới gốc cây phượng to nhất ven đường để tránh ướt"
+        ],
+        "k": "C",
+        "e": "Chờ 20 phút dưới mái nhà an toàn không mất gì, nhưng cố chạy dưới gió giật cây đổ hoặc qua dòng nước xiết tiềm ẩn hiểm họa khó lường.",
+        "s": "HĐTN, HN 8",
+        "h": "Xử lí an toàn khi gặp dông bão trên đường đi học"
+      },
+      {
+        "c": "HN8-B09-010",
+        "d": "application",
+        "p": "Sau trận bão lớn làm đổ gãy nhiều cây xanh và ngập bùn rác sân trường, nhà trường huy động dọn dẹp khắc phục hậu quả. Học sinh lớp 8 cần tuân thủ nguyên tắc an toàn nào khi tham gia cùng thầy cô dọn vệ sinh?",
+        "o": [
+          "Chỉ dọn lá cành nhỏ, quét bùn rác có găng tay – ủng kín ở nơi đã kiểm tra an toàn điện; tuyệt đối không chạm dây điện đứt hay leo cưa cây gãy treo",
+          "Tranh nhau cầm cưa máy hoặc trèo lên cành cây lớn gãy dở để chặt cho nhanh",
+          "Chạy lại gần trạm biến áp bị nghiêng để xem",
+          "Lội chân đất không găng tay vào vùng nước đọng có mảnh thủy tinh và dây cáp rơi"
+        ],
+        "k": "A",
+        "e": "Rất nhiều tai nạn thương tâm xảy ra SAU khi bão tan do cây gãy treo, sụp hố hoặc rò rỉ điện; phân vùng việc vừa sức dưới giám sát người lớn là nguyên tắc bất di bất dịch.",
+        "s": "HĐTN, HN 8",
+        "h": "An toàn lao động khi khắc phục hậu quả sau bão"
+      },
+      {
+        "c": "HN8-B09-011",
+        "d": "application",
+        "p": "Một dự án truyền thông môi trường của lớp 8B dự định in 500 tờ rơi giấy màu bóng phát khắp chợ nhưng bạn Lan góp ý như thế lại tự tạo thêm rất nhiều rác giấy khó tái chế ra chính chợ. Giải pháp truyền thông sáng tạo KHÔNG phát sinh rác nào thay thế hoàn hảo?",
+        "o": [
+          "Thay 500 tờ rơi giấy bằng 500 chiếc túi nilon in chữ phát cho mọi người",
+          "Làm bảng tuyên truyền lớn dùng nhiều lần từ vật liệu tái chế đặt chỗ đông người, kết hợp loa phường giờ hợp lí và chia sẻ infographic qua nhóm dân cư",
+          "Vẫn cứ in 1.000 tờ rơi giấy phát ra đường cho nhiều màu",
+          "Hủy luôn chiến dịch không cần tuyên truyền bảo vệ môi trường nữa"
+        ],
+        "k": "B",
+        "e": "Tổ chức truyền thông xanh đòi hỏi chính hình thức thực hiện cũng phải \"xanh\" từ khâu chuẩn bị đến kết thúc!",
+        "s": "HĐTN, HN 8",
+        "h": "Giải pháp truyền thông môi trường không phát sinh rác"
+      },
+      {
+        "c": "HN8-B09-012",
+        "d": "application",
+        "p": "Gia đình bạn Khoa sống ở vùng ven sông/ven biển thường chịu ảnh hưởng thủy triều dâng và xâm nhập mặn mùa khô. Em và các bạn trong câu lạc bộ xanh địa phương có thể góp phần nâng cao sức chống chịu sinh thái tự nhiên quanh khu vực bằng hoạt động nào?",
+        "o": [
+          "Chặt hết cây mọc ven bờ sông bờ biển để lấy chỗ thoáng xây hàng quán tạm",
+          "Đổ đầy rác thải nhựa ra mép bờ sông thay cho đê chắn sóng",
+          "Trồng dặm và bảo vệ rừng chắn sóng, tre giữ bờ sông theo hướng dẫn kiểm lâm, kết hợp vận động giữ dòng chảy thông thoáng, không vứt rác lấn chiếm",
+          "Bơm hút cát trái phép gần chân bờ kè"
+        ],
+        "k": "C",
+        "e": "Hệ sinh thái rừng ngập mặn và hàng tre chắn lũ tự nhiên là \"bức tường mềm vĩ đại\" tiêu tán sóng bão và giữ đất hiệu quả gấp nhiều lần bê tông đơn thuần.",
+        "s": "HĐTN, HN 8",
+        "h": "Bảo vệ hệ sinh thái tự nhiên phòng chống thiên tai"
+      },
+      {
+        "c": "HN8-B09-013",
+        "d": "advanced",
+        "p": "Phân tích sự khác nhau giữa hai chiến lược ứng phó với biến đổi khí hậu: \"Giảm nhẹ (Mitigation)\" và \"Thích ứng (Adaptation)\". Vì sao Việt Nam và mỗi địa phương phải làm song song cả hai chiến lược này?",
+        "o": [
+          "Hai khái niệm hoàn toàn giống nhau chỉ nói về việc tắt đèn phòng học",
+          "Chỉ cần \"Giảm nhẹ\" mà không cần chuẩn bị kĩ năng phòng bão lũ sạt lở gì cả",
+          "Chỉ cần làm \"Thích ứng\" còn cứ xả khói đốt than thoải mái không cần \"Giảm nhẹ\"",
+          "\"Giảm nhẹ\" là cắt khí nhà kính (điện sạch, xe đạp) để giảm nóng lên; \"Thích ứng\" là gia cố chống bão, cảnh báo thiên tai, giống cây chịu hạn mặn"
+        ],
+        "k": "D",
+        "e": "Hiểu đồng bộ hai trụ cột Giảm nhẹ + Thích ứng giúp học sinh lớp 8 vừa sống xanh giảm carbon mỗi ngày vừa thành thạo kĩ năng sinh tồn trước thiên tai.",
+        "s": "HĐTN, HN 8",
+        "h": "Kết hợp song song Giảm nhẹ và Thích ứng khí hậu"
+      },
+      {
+        "c": "HN8-B09-014",
+        "d": "advanced",
+        "p": "Nhiều chiến dịch truyền thông môi trường rơi vào \"bẫy tẩy xanh (Greenwashing)\" — tức chỉ thay bao bì màu xanh lá cây đẹp mắt hoặc hô hào khẩu hiệu sáo rỗng trong khi bên trong vẫn lãng phí tài nguyên. Làm sao học sinh lớp 8 tránh mắc lỗi này trong dự án của lớp?",
+        "o": [
+          "Mua thêm thật nhiều áo đồng phục sự kiện mới mặc đúng 1 lần rồi bỏ đi",
+          "Chỉ cần sơn toàn bộ bảng tin lớp màu xanh lá cây là đạt chuẩn môi trường",
+          "Đặt chỉ số đo minh bạch trước – sau (số kg rác nhựa giảm, số kWh điện tiết kiệm qua công tơ, tỉ lệ cây sống sau 3 tháng) thay vì đếm số ảnh đăng mạng",
+          "Bỏ qua việc kiểm tra kết quả thật miễn bài thuyết trình có nhiều hiệu ứng chữ"
+        ],
+        "k": "C",
+        "e": "Đo lường tác động thật bằng con số cụ thể là cách rèn tư duy khoa học trung thực cho các nhà hoạt động môi trường trẻ.",
+        "s": "HĐTN, HN 8",
+        "h": "Tránh \"tẩy xanh\" hình thức bằng đo lường thực chất"
+      },
+      {
+        "c": "HN8-B09-015",
+        "d": "advanced",
+        "p": "Trong kịch bản giả định trường học tổ chức diễn tập \"Kế hoạch Ứng phó Biến đổi Khí hậu – Thiên tai Cấp lớp\", ba phân công đội hình nào của học sinh lớp 8 giúp giữ an toàn bình tĩnh tối đa khi có tình huống khẩn cấp?",
+        "o": [
+          "Cả lớp mạnh ai nấy chạy tán loạn chen lấn nhau ở cầu thang cho nhanh nhất",
+          "Khóa trái cửa lớp học lại giấu nhẹm không báo ai",
+          "Chia toàn bộ lớp ra đứng ngoài sân quay video bão tố đăng mạng xã hội",
+          "1. Đội Cảnh báo nhận tin từ thầy cô, chống tin đồn; 2. Đội Hậu cần lo sơ cứu, nước sạch, điểm danh; 3. Đội Hỗ trợ dìu bạn yếu, khuyết tật thoát hiểm"
+        ],
+        "k": "D",
+        "e": "Phân công rõ vai trò bình tĩnh gắn với tinh thần không bỏ lại ai phía sau biến một tập thể lớp bình thường thành đội ngũ vững vàng trước mọi thử thách.",
+        "s": "HĐTN, HN 8",
+        "h": "Tổ chức đội hình lớp ứng phó tình huống thiên tai"
+      }
+    ]
+  },
+  {
+    "chapter": "hdtn_hn8-c4",
+    "lesson": {
+      "code": "hdtn_hn8-b10",
+      "title": "Bài 10. Phân tích sở thích, năng lực và cá tính với nhóm nghề",
+      "seq": 10,
+      "subtitle": "Thực hành tự đánh giá sâu ba yếu tố Sở thích (Holland) – Năng lực học tập/kĩ năng – Xu hướng cá tính để ghép nối chuẩn xác với nhóm ngành nghề phù hợp lớp 8",
+      "concepts": [
+        "Mô hình 6 nhóm sở thích Holland",
+        "Phân tích năng lực và cá tính",
+        "Khớp nối nhóm nghề phù hợp"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN8-B10-001",
+        "d": "basic",
+        "p": "Theo mô hình hướng nghiệp nổi tiếng RIASEC (Holland), 6 nhóm xu hướng sở thích – cá tính nghề nghiệp gồm những nhóm nào?",
+        "o": [
+          "Chỉ có 2 nhóm là Nghệ sĩ và Công nhân",
+          "Giàu có – Trung bình – Nhàn hạ – Vất vả – Trong nhà – Ngoài trời",
+          "Toán học – Ngữ văn – Thể dục – Nhạc – Họa – Lịch sử",
+          "Kĩ thuật (R) – Nghiên cứu (I) – Nghệ thuật (A) – Xã hội (S) – Quản lí/Kinh doanh (E) – Nghiệp vụ/Hệ thống (C)"
+        ],
+        "k": "D",
+        "e": "Mỗi người thường mang tổ hợp nổi trội 2–3 mã trong 6 chữ cái RIASEC (ví dụ I-A hoặc S-E), giúp định vị nhóm nghề hợp tạng rất hiệu quả.",
+        "s": "HĐTN, HN 8",
+        "h": "Sáu nhóm xu hướng nghề nghiệp RIASEC"
+      },
+      {
+        "c": "HN8-B10-002",
+        "d": "basic",
+        "p": "Những học sinh lớp 8 thích giao tiếp giúp đỡ, lắng nghe chia sẻ, thích dạy học cho em nhỏ hoặc tham gia công tác cộng đồng thiện nguyện thường có điểm cao ở nhóm nào trong RIASEC?",
+        "o": [
+          "Nhóm Nghiệp vụ lưu trữ con số cô độc (C)",
+          "Nhóm Kĩ thuật máy móc (R)",
+          "Nhóm Xã hội (Social - S), phù hợp với các nghề Giáo viên, Bác sĩ/Điều dưỡng, Chuyên gia tâm lí, Công tác xã hội, Truyền thông cộng đồng",
+          "Nhóm Nghiên cứu phòng thí nghiệm kín (I)"
+        ],
+        "k": "C",
+        "e": "Nhóm Xã hội tìm thấy nguồn năng lượng lớn nhất từ việc tương tác, chăm sóc và giúp con người phát triển tốt hơn.",
+        "s": "HĐTN, HN 8",
+        "h": "Đặc trưng nhóm Xã hội (Social) trong RIASEC"
+      },
+      {
+        "c": "HN8-B10-003",
+        "d": "basic",
+        "p": "Bạn thích tưởng tượng phong phú, yêu vẻ đẹp màu sắc âm thanh ngôn từ, không thích khuôn mẫu lặp đi lặp lại nhàm chán thường nổi trội ở nhóm nào?",
+        "o": [
+          "Nhóm Kĩ thuật vận hành dây chuyền cố định (R)",
+          "Nhóm Nghiệp vụ kế toán chi tiết từng hóa đơn (C)",
+          "Nhóm Quản lí kiểm tra kỉ luật tài chính",
+          "Nhóm Nghệ thuật – Sáng tạo (Artistic - A), phù hợp với Thiết kế đồ họa, Kiến trúc, Âm nhạc, Biên kịch, Thời trang, Sáng tạo nội dung số"
+        ],
+        "k": "D",
+        "e": "Nhóm Nghệ thuật không chỉ là vẽ tranh hay hát hay mà là tư duy thẩm mĩ và sáng tạo giải pháp mới mẻ cho đời sống.",
+        "s": "HĐTN, HN 8",
+        "h": "Đặc trưng nhóm Nghệ thuật (Artistic)"
+      },
+      {
+        "c": "HN8-B10-004",
+        "d": "basic",
+        "p": "Bạn thích tổ chức hoạt động nhóm, dám đứng ra thuyết phục mọi người, thích lập kế hoạch bán hàng hội chợ và sẵn sàng nhận trách nhiệm dẫn dắt thường thuộc nhóm nào?",
+        "o": [
+          "Nhóm Nghiên cứu sinh vật học chuyên sâu trong rừng (I)",
+          "Nhóm Nghệ thuật vẽ tranh trừu tượng một mình (A)",
+          "Nhóm Nghiệp vụ nhập liệu thầm lặng (C)",
+          "Nhóm Quản lí – Kinh doanh (Enterprising - E), phù hợp với Quản trị kinh doanh, Marketing, Luật, Tổ chức sự kiện, Khởi nghiệp"
+        ],
+        "k": "D",
+        "e": "Khả năng thuyết phục, dám nghĩ dám làm và kết nối nguồn lực là tố chất sáng giá của nhóm Quản lí – Kinh doanh.",
+        "s": "HĐTN, HN 8",
+        "h": "Đặc trưng nhóm Quản lí Kinh doanh (Enterprising)"
+      },
+      {
+        "c": "HN8-B10-005",
+        "d": "basic",
+        "p": "Những học sinh tỉ mỉ ngăn nắp, thích làm việc với số liệu bảng biểu rõ ràng, tuân thủ quy trình chính xác và thích kiểm soát chi tiết không sai sót nổi trội ở nhóm nào?",
+        "o": [
+          "Nhóm Nghiệp vụ – Hệ thống (Conventional - C), phù hợp với Kế toán – Kiểm toán, Thống kê, Hành chính văn phòng, Phân tích dữ liệu chuẩn hóa, Thư kí",
+          "Nhóm Xã hội đi giao tiếp đám đông liên tục (S)",
+          "Nhóm Nghệ thuật tự do ngẫu hứng (A)",
+          "Nhóm Kĩ thuật sửa chữa ngoài giàn khoan (R)"
+        ],
+        "k": "A",
+        "e": "Tính cẩn trọng quy củ của nhóm Nghiệp vụ (C) là xương sống giữ cho mọi doanh nghiệp, ngân hàng và tổ chức vận hành chính xác.",
+        "s": "HĐTN, HN 8",
+        "h": "Đặc trưng nhóm Nghiệp vụ Hệ thống (Conventional)"
+      },
+      {
+        "c": "HN8-B10-006",
+        "d": "basic",
+        "p": "Vì sao khi xác định định hướng nghề nghiệp ở lớp 8, học sinh KHÔNG nên chỉ nhìn vào \"Mình thích làm gì\" mà bỏ qua việc tự đánh giá \"Năng lực thực tế\" và \"Tính cách chịu áp lực\"?",
+        "o": [
+          "Vì năng lực thực tế tự nhiên sinh ra mà không cần xem xét hay rèn luyện",
+          "Vì sở thích hoàn toàn vô giá trị trong mọi nghề nghiệp",
+          "Thích nhưng thiếu năng lực nền hoặc trái tính cách dễ mệt mỏi bỏ dở; chỉ khi kết hợp đủ cả Thích – Giỏi – Hợp tính cách mới phát triển đường dài",
+          "Vì tính cách mỗi người thay đổi chóng mặt từng giờ"
+        ],
+        "k": "C",
+        "e": "Ví dụ thích làm bác sĩ phẫu thuật nhưng rất sợ máu và thiếu tính cẩn thận thì cần cân nhắc hoặc rèn luyện nghiêm túc hoặc chuyển sang nhánh y tế khác phù hợp hơn.",
+        "s": "HĐTN, HN 8",
+        "h": "Kết hợp bộ ba Sở thích - Năng lực - Tính cách"
+      },
+      {
+        "c": "HN8-B10-007",
+        "d": "application",
+        "p": "Quan sát biểu đồ kết quả tự đánh giá mức độ nổi trội RIASEC (thang 10 điểm) của bạn Minh lớp 8A dưới đây. Dựa vào 2 nhóm điểm cao nhất (mã tổ hợp I – R), cụm nghề nghiệp nào phù hợp nhất để Minh tìm hiểu chuyên sâu trong năm lớp 8–9?",
+        "o": [
+          "Nhân viên tư vấn bán hàng thời trang tại trung tâm thương mại",
+          "Kĩ sư công nghệ thông tin / Robotics tự động hóa, Kĩ sư cơ điện tử, Kĩ thuật viên phòng thí nghiệm công nghệ cao hoặc Kĩ sư nông nghiệp thông minh",
+          "Hướng dẫn viên tổ chức trò chơi hoạt náo du lịch",
+          "Diễn viên sân khấu hài kịch chuyên nghiệp"
+        ],
+        "k": "B",
+        "e": "Tổ hợp I (Nghiên cứu logic: 9đ) + R (Thao tác kĩ thuật thực hành: 8đ) là cặp mã vàng cho các ngành STEM kĩ thuật công nghệ hiện đại.",
+        "s": "HĐTN, HN 8",
+        "h": "Giải mã tổ hợp RIASEC I-R của bạn Minh",
+        "fig": {
+          "type": "bars",
+          "title": "Hồ sơ RIASEC bạn Minh",
+          "labels": [
+            "R-Kĩ thuật",
+            "I-N.cứu",
+            "A-N.thuật",
+            "S-Xã hội",
+            "E-Quản lí",
+            "C-N.vụ"
+          ],
+          "series": [
+            {
+              "values": [
+                8,
+                9,
+                4,
+                5,
+                4,
+                6
+              ]
+            }
+          ],
+          "unit": "điểm"
+        }
+      },
+      {
+        "c": "HN8-B10-008",
+        "d": "application",
+        "p": "Bạn Trang có mã RIASEC nổi trội là S (Xã hội) và A (Nghệ thuật), học giỏi Ngữ văn và Mĩ thuật, lại rất thích làm các sản phẩm truyền thông hỗ trợ trẻ em nhỏ. Ngành nghề nào là giao điểm tuyệt vời cho cặp mã S – A của Trang?",
+        "o": [
+          "Giáo viên Mĩ thuật / Tiểu học sáng tạo, Thiết kế sách giáo dục thiếu nhi, Truyền thông dự án văn hóa – cộng đồng hoặc Trị liệu nghệ thuật",
+          "Thợ hàn khung thép công trình cao tầng",
+          "Nhân viên kiểm toán số liệu thuế ngân hàng cả ngày không giao tiếp",
+          "Kĩ sư hóa dầu làm việc ngoài giàn khoan biển"
+        ],
+        "k": "A",
+        "e": "Biết kết hợp 2 mã nổi trội (tình yêu con người S + óc sáng tạo thẩm mĩ A) giúp tìm ra những nghề nghiệp ngách cực kì thú vị và đầy cảm hứng.",
+        "s": "HĐTN, HN 8",
+        "h": "Tìm giao điểm nghề nghiệp cho mã kép S-A"
+      },
+      {
+        "c": "HN8-B10-009",
+        "d": "application",
+        "p": "Bạn Huy học cực tốt Tin học và Toán, thích giải quyết bài toán hóc búa (I cao) nhưng ngại giao tiếp thuyết trình trước đám đông (E thấp). Nếu Huy thích làm Nhà phân tích dữ liệu (Data Analyst) trong công ty công nghệ, điều nào giúp Huy phát triển sự nghiệp lên cao hơn nữa?",
+        "o": [
+          "Phát huy sở trường phân tích dữ liệu làm nền tảng, đồng thời rèn kĩ năng viết báo cáo trực quan và trình bày rõ kết quả giúp đồng đội hiểu giá trị",
+          "Từ bỏ luôn Tin học chỉ để luyện làm MC sân khấu cả ngày",
+          "Đóng cửa không bao giờ nói chuyện hay giải thích bài làm với bất kì đồng nghiệp nào",
+          "Tin rằng chỉ cần code giỏi thì không cần ai hiểu kết quả mình làm ra"
+        ],
+        "k": "A",
+        "e": "Dùng thế mạnh I-C làm bàn đạp và rèn thêm mức độ giao tiếp chuyên môn đủ dùng (S và E vừa phải) giúp các chuyên gia kĩ thuật thăng tiến vượt bậc.",
+        "s": "HĐTN, HN 8",
+        "h": "Bổ trợ kĩ năng giao tiếp cho nhóm chuyên gia kĩ thuật"
+      },
+      {
+        "c": "HN8-B10-010",
+        "d": "application",
+        "p": "Một bạn học sinh lớp 8 làm bài trắc nghiệm sở thích trên mạng ra kết quả nhóm Nghệ thuật (A), liền tuyên bố: \"Thế từ mai mình chỉ học Vẽ với Văn thôi, bỏ hẳn Toán Lý Hóa Anh!\". Lời khuyên tư vấn hướng nghiệp đúng đắn nhất là gì?",
+        "o": [
+          "Trắc nghiệm chỉ gợi ý xu hướng chứ không đóng khung tương lai; ngay cả Thiết kế đồ họa hay Kiến trúc đều dùng nhiều Toán tỉ lệ, Tiếng Anh và Tin học",
+          "Xé bỏ bài trắc nghiệm vì làm trắc nghiệm chẳng bao giờ có ích gì",
+          "Ủng hộ hoàn toàn việc bỏ trắng toàn bộ các môn tự nhiên và ngoại ngữ ngay lập tức",
+          "Bắt bạn ấy đổi sang làm kế toán dù bạn ấy ghét con số"
+        ],
+        "k": "A",
+        "e": "Mọi bài test hướng nghiệp đều chỉ là điểm khởi đầu để gợi mở câu hỏi tự khám phá, KHÔNG thay thế việc học toàn diện nền tảng THCS.",
+        "s": "HĐTN, HN 8",
+        "h": "Sử dụng đúng cách kết quả trắc nghiệm hướng nghiệp"
+      },
+      {
+        "c": "HN8-B10-011",
+        "d": "application",
+        "p": "Khi đối chiếu năng lực môn học với nhóm nghề \"Kĩ sư Công nghệ Sinh học / Y Dược\", bạn Khoa nhận ra mình cực kì say mê tìm hiểu cơ chế vaccine và tế bào nhưng điểm Sinh học – Hóa học kì rồi mới đạt mức trung bình khá do lười ghi nhớ từ khóa. Bước hành động thực tế của Khoa là gì?",
+        "o": [
+          "Kết luận mình thiếu năng khiếu bẩm sinh nên bỏ cuộc luôn ngay hôm nay",
+          "Gian lận quay cóp điểm cao để tự an ủi mình giỏi Sinh học",
+          "Chỉ đọc truyện tranh y học giải trí mà không học bài trên lớp",
+          "Đổi cách học KHTN (vẽ sơ đồ tư duy sinh học, thẻ ghi nhớ phản ứng hóa, nhờ thầy cô lấp lỗ hổng) suốt lớp 8–9 để kiểm chứng khả năng bứt phá thật"
+        ],
+        "k": "D",
+        "e": "Thử nỗ lực cải thiện phương pháp học trong 1–2 học kì sẽ cho câu trả lời chính xác nhất xem đó là \"chưa đúng phương pháp\" hay \"không hợp năng lực\".",
+        "s": "HĐTN, HN 8",
+        "h": "Kiểm chứng năng lực tiềm ẩn qua đổi mới cách học"
+      },
+      {
+        "c": "HN8-B10-012",
+        "d": "application",
+        "p": "Trong buổi thảo luận ghép đôi sở thích – nghề nghiệp, bạn Lan rất thích nghề Luật sư tranh tụng vì thấy trên phim rất oai phong. Khi tự phân tích tính cách thật của mình, Lan lại rất sợ tranh luận căng thẳng, hay bật khóc nếu bị người khác phản bác gay gắt và chỉ thích đọc văn bản luật nghiên cứu tỉ mỉ. Gợi ý phù hợp cho Lan là gì?",
+        "o": [
+          "Lan có thể rèn dần kĩ năng tranh luận, hoặc tìm nhánh ngành Luật hợp tính cách hơn như Chuyên viên pháp chế soạn hợp đồng, Công chứng hay Lưu trữ pháp lí",
+          "Bỏ hoàn toàn mọi nghề liên quan tới pháp luật chỉ vì ngại cãi nhau to tiếng",
+          "Thấy oai phong thì cứ đăng kí bừa không cần xét tính cách chịu áp lực",
+          "Bắt buộc phải ra tòa cãi nhau mới gọi là làm ngành Luật"
+        ],
+        "k": "A",
+        "e": "Trong cùng một ngành lớn (Luật, Y, Công nghệ, Kinh doanh) luôn có nhiều vị trí từ \"tiền tuyến đối mặt\" đến \"hậu phương chuyên sâu\" hợp với từng kiểu tính cách khác nhau!",
+        "s": "HĐTN, HN 8",
+        "h": "Tìm đúng vị trí chuyên sâu hợp tính cách trong cùng ngành"
+      },
+      {
+        "c": "HN8-B10-013",
+        "d": "advanced",
+        "p": "Vì sao khi nói về \"Năng lực\" trong định hướng nghề nghiệp lớp 8, không nên đồng nhất hoàn toàn \"Điểm số bài thi hiện tại trên lớp\" với \"Năng lực tiềm năng tương lai\"?",
+        "o": [
+          "Điểm trên lớp mới đo một phần bài thi giấy hiện tại, chưa phản ánh hết tài lãnh đạo, khéo tay, xử lí thực tế hay sức bật khi gặp đúng đam mê",
+          "Vì điểm số trên lớp hoàn toàn vô nghĩa không bao giờ cần tới trong bất kì ngành nào",
+          "Vì những bạn điểm cao trên lớp không bao giờ thành công ngoài đời",
+          "Vì điểm số chỉ do may mắn quyết định chứ không cần học tập"
+        ],
+        "k": "A",
+        "e": "Kết hợp cả kết quả học tập (thước đo nền tảng tri thức) lẫn sản phẩm trải nghiệm CLB, dự án thực tế mới vẽ nên bức tranh năng lực toàn diện của học sinh.",
+        "s": "HĐTN, HN 8",
+        "h": "Nhìn nhận toàn diện giữa điểm thi và năng lực thực tế"
+      },
+      {
+        "c": "HN8-B10-014",
+        "d": "advanced",
+        "p": "Phân tích sự chuyển hóa thú vị của \"Sở thích theo thời gian\": một bạn hồi lớp 6 rất thích chơi trò chơi xếp khối (Lego/Minecraft), sang lớp 8 vẫn thích tạo công trình ảo trên máy tính. Làm sao định hướng sở thích giải trí đó phát triển thành năng lực nghề nghiệp giá trị?",
+        "o": [
+          "Cho phép chơi game tự do 12 tiếng mỗi ngày chắc chắn tự biến thành kĩ sư thiết kế",
+          "Cấm tiệt không bao giờ cho động vào bất kì khối hình lắp ráp hay phần mềm nào",
+          "Chuyển từ chơi bị động sang sáng tạo chủ động: học thử thiết kế 3D cơ bản, kiến trúc không gian, lập trình đồ họa hoặc mô hình STEM rèn tư duy kĩ thuật",
+          "Chỉ cần xem video người khác chơi game trên mạng là đủ định hướng nghề"
+        ],
+        "k": "C",
+        "e": "Biến niềm say mê chơi trò chơi xây dựng thành động lực học Thiết kế 3D, Toán hình học và Lập trình là bước chuyển hóa hướng nghiệp cực kì thông minh.",
+        "s": "HĐTN, HN 8",
+        "h": "Chuyển hóa sở thích chơi sáng tạo thành năng lực nghề"
+      },
+      {
+        "c": "HN8-B10-015",
+        "d": "advanced",
+        "p": "Khi hoàn thành \"Hồ sơ Hướng nghiệp Cá nhân Lớp 8\", kết cấu 4 phần logic khép kín giúp chính em và cha mẹ dễ nhìn thấy con đường phù hợp nhất gồm những gì?",
+        "o": [
+          "1. Mức lương mơ ước cao nhất thế giới; 2. Tên công ty nổi tiếng trên tivi; 3. Không cần phân tích điểm yếu",
+          "1. Mã RIASEC nổi trội; 2. Bảng điểm mạnh kèm minh chứng; 3. 2–3 nghề mục tiêu (kèm dự phòng) đối chiếu thực tế; 4. Lộ trình rèn thêm hè và lớp 9",
+          "Chỉ ghi tên 1 nghề duy nhất theo ý muốn của bạn thân",
+          "Chỉ chép lại nguyên văn định nghĩa của 6 chữ cái RIASEC"
+        ],
+        "k": "B",
+        "e": "Một bản hồ sơ kết nối liền mạch từ Hiểu mình -> Hiểu nghề -> Hành động chuẩn bị chính là món quà quý giá nhất chuẩn bị cho năm học bản lề lớp 9.",
+        "s": "HĐTN, HN 8",
+        "h": "Cấu trúc Hồ sơ Hướng nghiệp Cá nhân lớp 8"
+      }
+    ]
+  },
+  {
+    "chapter": "hdtn_hn8-c4",
+    "lesson": {
+      "code": "hdtn_hn8-b11",
+      "title": "Bài 11. Xu hướng nghề nghiệp thời đại số và chuyển đổi xanh",
+      "seq": 11,
+      "subtitle": "Khám phá sự biến đổi thị trường lao động dưới tác động của chuyển đổi số, trí tuệ nhân tạo và kinh tế xanh bền vững; nhận diện cơ hội nghề mới và kĩ năng cần thiết",
+      "concepts": [
+        "Nghề nghiệp trong chuyển đổi số",
+        "Việc làm xanh và kinh tế tuần hoàn",
+        "Kĩ năng thích ứng công nghệ AI"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN8-B11-001",
+        "d": "basic",
+        "p": "Khái niệm \"Chuyển đổi số\" đang làm thay đổi cách làm việc của hầu hết các ngành nghề hiện nay như thế nào?",
+        "o": [
+          "Chỉ thay thế công việc của duy nhất ngành Tin học lập trình",
+          "Ứng dụng CNTT, dữ liệu số, điện toán đám mây và tự động hóa vào quản lí, sản xuất, giáo dục, y tế, kinh doanh để tăng hiệu suất và kết nối nhanh",
+          "Làm mọi người mất hoàn toàn khả năng giao tiếp",
+          "Xóa bỏ toàn bộ máy tính và Internet quay về ghi chép bằng giấy than hoàn toàn"
+        ],
+        "k": "B",
+        "e": "Ngày nay ngay cả bác sĩ khám bệnh từ xa, nông dân quản lí vườn bằng app hay nghệ nhân bán gốm qua sàn số đều đang trực tiếp tham gia chuyển đổi số.",
+        "s": "HĐTN, HN 8",
+        "h": "Tác động chuyển đổi số tới mọi ngành nghề"
+      },
+      {
+        "c": "HN8-B11-002",
+        "d": "basic",
+        "p": "Thế nào được gọi là \"Nghề nghiệp Xanh / Việc làm Xanh\" (Green Jobs) đang phát triển mạnh trên toàn cầu và Việt Nam?",
+        "o": [
+          "Là nghề khai thác càng nhiều than đá và dầu mỏ càng tốt",
+          "Là nghề chuyên sản xuất túi nilon và hộp xốp dùng một lần",
+          "Là việc làm bảo tồn môi trường, phát triển năng lượng tái tạo (mặt trời, gió), nông nghiệp hữu cơ, tái chế tuần hoàn và giảm phát thải khí nhà kính",
+          "Là những nghề bắt buộc nhân viên phải mặc quần áo màu xanh lá cây"
+        ],
+        "k": "C",
+        "e": "Cam kết phát thải ròng bằng 0 (Net Zero) mở ra hàng triệu việc làm xanh thu nhập cao và giàu ý nghĩa nhân văn cho thế hệ trẻ.",
+        "s": "HĐTN, HN 8",
+        "h": "Khái niệm Việc làm Xanh (Green Jobs)"
+      },
+      {
+        "c": "HN8-B11-003",
+        "d": "basic",
+        "p": "Trong làn sóng phát triển của Trí tuệ nhân tạo (AI) và rô-bốt tự động hóa, những công việc dạng nào dễ bị phần mềm hoặc máy móc thay thế nhanh nhất?",
+        "o": [
+          "Công việc thiết kế nghệ thuật mang dấu ấn cảm xúc độc đáo và giải quyết sự cố phức tạp mới mẻ",
+          "Công việc lãnh đạo phối hợp đội ngũ và đàm phán đạo đức",
+          "Các công việc lặp đi lặp lại máy móc theo quy trình cố định cứng nhắc, nhập liệu đơn giản hoặc tổng hợp thông tin cơ bản không cần sáng tạo hay thấu cảm người",
+          "Công việc đòi hỏi sự đồng cảm chăm sóc con người sâu sắc, tư vấn tâm lí, giáo dục sáng tạo"
+        ],
+        "k": "C",
+        "e": "Hiểu xu hướng này giúp học sinh lớp 8 tránh học vẹt máy móc, tập trung rèn tư duy phản biện, sáng tạo và giao tiếp nhân văn.",
+        "s": "HĐTN, HN 8",
+        "h": "Nhóm công việc dễ bị tự động hóa thay thế"
+      },
+      {
+        "c": "HN8-B11-004",
+        "d": "basic",
+        "p": "Một số nghề nghiệp mới nổi bật gắn liền với thời đại số và năng lượng xanh hiện nay mà thế hệ trước ít nghe tới là gì?",
+        "o": [
+          "Người đưa thư đi bộ hàng trăm cây số thay mạng Internet",
+          "Người vận hành máy quay băng cassette cũ",
+          "Thợ đánh máy chữ cơ khí không dùng điện",
+          "Kĩ sư dữ liệu và AI, An ninh mạng, Kĩ sư vận hành điện gió – mặt trời, Tiếp thị số, Chuyên gia kiểm kê carbon và Thiết kế bao bì bền vững"
+        ],
+        "k": "D",
+        "e": "Gần một nửa công việc phổ biến trong tương lai 15 năm tới đang hình thành ngay từ sự giao thoa giữa Công nghệ số và Chuyển đổi xanh.",
+        "s": "HĐTN, HN 8",
+        "h": "Nhận diện các nghề mới thời đại số và xanh"
+      },
+      {
+        "c": "HN8-B11-005",
+        "d": "basic",
+        "p": "\"Kĩ năng công dân số\" cốt lõi mà mọi ngành nghề hiện đại đều yêu cầu ở người lao động trẻ trong tương lai gần là gì?",
+        "o": [
+          "Dùng công cụ AI làm gian lận toàn bộ bài tập và báo cáo công việc",
+          "Sử dụng thành thạo công cụ số phục vụ công việc, bảo mật dữ liệu an toàn mạng, kiểm chứng thông tin và biết dùng AI làm trợ lí thông minh đúng đạo đức",
+          "Hoàn toàn không biết sử dụng máy tính hay phần mềm văn phòng",
+          "Chỉ biết lướt video ngắn giải trí và chơi trò chơi điện tử nhanh tay"
+        ],
+        "k": "B",
+        "e": "AI không lấy việc của người biết làm chủ AI sáng tạo và có đạo đức nghề nghiệp, mà chỉ thay thế những người lười suy nghĩ dựa dẫm hoàn toàn vào nó.",
+        "s": "HĐTN, HN 8",
+        "h": "Năng lực công dân số cốt lõi cho nghề tương lai"
+      },
+      {
+        "c": "HN8-B11-006",
+        "d": "basic",
+        "p": "Tại sao nói \"Khả năng học tập suốt đời\" (Lifelong Learning) trở thành kĩ năng sinh tồn nghề nghiệp số một của thế kỉ 21?",
+        "o": [
+          "Vì công nghệ từ nay đến 50 năm nữa sẽ đứng yên không thay đổi",
+          "Vì sau khi học xong lớp 9 thì không có ai mở sách đọc thêm nữa",
+          "Vì đi làm rồi sẽ bị cấm học thêm bất kì chứng chỉ nào",
+          "Vì kiến thức công nghệ thay đổi nhanh chóng chỉ sau vài năm; người biết chủ động tự học cập nhật kĩ năng mới sẽ luôn nắm bắt cơ hội thay vì bị tụt hậu"
+        ],
+        "k": "D",
+        "e": "Mài sắc thói quen tự đọc, tự đặt câu hỏi và tự sửa lỗi ngay từ lớp 8 chính là tập luyện cho kĩ năng học tập suốt đời.",
+        "s": "HĐTN, HN 8",
+        "h": "Tầm quan trọng của học tập suốt đời"
+      },
+      {
+        "c": "HN8-B11-007",
+        "d": "application",
+        "p": "Quan sát bảng chuyển đổi công việc truyền thống sang phiên bản Thời đại Số & Xanh dưới đây. Nếu bạn Bảo ở quê có truyền thống làm nghề nông sản (trồng bưởi, chè, cam) muốn phát triển nghề gia đình bắt kịp xu hướng mới, hướng đổi mới nào tạo giá trị cao nhất?",
+        "o": [
+          "Canh tác hữu cơ sạch đạt chuẩn (Xanh), đóng gói bao bì thân thiện gắn mã QR truy xuất nguồn gốc và bán hàng trực tuyến kể chuyện nông trại (Số)",
+          "Tuyệt đối không dùng điện thoại hay mã QR vì sợ khách hàng biết xuất xứ",
+          "Bọc 4 lớp túi nilon dày và đốt rác nhựa ngoài vườn cho gọn",
+          "Tiếp tục phun thật nhiều hóa chất tăng trưởng giá rẻ để bán nhanh bất chấp sức khỏe người ăn"
+        ],
+        "k": "A",
+        "e": "Mô hình \"Nông nghiệp Xanh + Thương mại Số\" đang giúp rất nhiều sản phẩm địa phương Việt Nam bán giá cao gấp đôi ba lần và xuất khẩu ổn định.",
+        "s": "HĐTN, HN 8",
+        "h": "Chuyển đổi nghề truyền thống theo hướng Số & Xanh",
+        "fig": {
+          "type": "table",
+          "title": "Nghề truyền thống -> Mới",
+          "head": [
+            "Nghề quen thuộc",
+            "Nâng cấp Số & Xanh"
+          ],
+          "rows": [
+            [
+              "Trồng trọt, nuôi",
+              "Hữu cơ, QR truy xuất"
+            ],
+            [
+              "Thợ điện dân dụng",
+              "Điện mặt trời, IoT"
+            ],
+            [
+              "Bán hàng cửa tiệm",
+              "Thương mại số xanh"
+            ],
+            [
+              "Thiết kế in ấn",
+              "Đồ họa, bao bì xanh"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "HN8-B11-008",
+        "d": "application",
+        "p": "Bạn Minh sử dụng công cụ AI hỏi đáp khi tự học môn KHTN và Ngữ văn lớp 8. Cách dùng nào giúp Minh phát triển trí tuệ thật sự (chuẩn bị cho nghề nghiệp tương lai), còn cách nào làm thui chột năng lực bản thân?",
+        "o": [
+          "Tự làm nháp trước rồi nhờ AI gợi ý soát lỗi, giải thích khái niệm khó và đối chiếu lại SGK; TRÁNH chép nguyên bài AI nộp thầy cô mà không hiểu gì",
+          "Tin 100% mọi thông tin AI tạo ra không cần đối chiếu sách giáo khoa",
+          "Giao trọn vẹn toàn bộ bài tập về nhà cho AI giải rồi chép nguyên xi không cần đọc lại",
+          "Cấm tuyệt đối không bao giờ tìm hiểu cách hoạt động của công nghệ số"
+        ],
+        "k": "A",
+        "e": "Dùng công nghệ làm \"người gia sư gợi mở\" giúp trí tuệ bạn bứt phá; dùng công nghệ làm \"kẻ làm thuê gian lận\" biến chính bạn thành người phụ thuộc thụ động.",
+        "s": "HĐTN, HN 8",
+        "h": "Sử dụng AI học tập thông minh trung thực"
+      },
+      {
+        "c": "HN8-B11-009",
+        "d": "application",
+        "p": "Khi tìm hiểu nghề \"Kĩ sư Công nghệ Xanh thiết kế pin mặt trời và hệ thống tiết kiệm năng lượng tòa nhà\", học sinh lớp 8 nhận thấy nhóm môn học nền tảng nào cần đầu tư học vững chắc nhất?",
+        "o": [
+          "Không cần bất kì kiến thức tự nhiên nào vì máy tự thiết kế hết",
+          "Chỉ cần học thuộc lòng vài khẩu hiệu bảo vệ môi trường mà không cần biết Toán Lý Hóa",
+          "Chỉ cần luyện nhảy dây và hát nhạc nhẹ",
+          "Toán học, Vật lí (phần điện học – năng lượng), Hóa học (vật liệu), Công nghệ – Tin học và Ngoại ngữ đọc tài liệu kĩ thuật quốc tế"
+        ],
+        "k": "D",
+        "e": "Đằng sau mỗi sản phẩm công nghệ xanh đẹp đẽ đều là nền tảng Toán – Lý – Hóa – Tin vững chắc!",
+        "s": "HĐTN, HN 8",
+        "h": "Xác định môn học nền cho nghề công nghệ xanh"
+      },
+      {
+        "c": "HN8-B11-010",
+        "d": "application",
+        "p": "Một công ty giao hàng truyền thống đang chuyển đội xe chạy xăng gây khói bụi sang xe điện sạc năng lượng sạch, đồng thời dùng phần mềm tối ưu tuyến đường ngắn nhất tránh tắc đường. Lợi ích kép của mô hình \"Logistics Xanh – Số\" này là gì?",
+        "o": [
+          "Làm thời gian giao hàng chậm đi gấp đôi và tốn xăng hơn",
+          "Vừa cắt giảm mạnh chi phí nhiên liệu và khí thải CO2 bảo vệ không khí đô thị, vừa giao hàng nhanh đúng hẹn hơn nâng cao hài lòng khách hàng",
+          "Chỉ tốn thêm chi phí vô ích cho doanh nghiệp",
+          "Khiến người giao hàng không cần biết đường phố nữa"
+        ],
+        "k": "B",
+        "e": "Kinh tế xanh và công nghệ số khi đi cùng nhau luôn tạo lợi ích ba chiều: cho Doanh nghiệp – Người tiêu dùng – Môi trường.",
+        "s": "HĐTN, HN 8",
+        "h": "Hiểu lợi ích kép của Logistics Xanh - Số"
+      },
+      {
+        "c": "HN8-B11-011",
+        "d": "application",
+        "p": "Một số bạn học sinh lo ngại: \"Mai mốt AI làm hết tranh vẽ, viết văn rồi thì nghề Thiết kế sáng tạo hay Báo chí chắc biến mất hết sao?\". Cách nhìn nhận thực tế nghề nghiệp chính xác nhất là gì?",
+        "o": [
+          "Đúng vậy, từ ngày mai con người sẽ ngừng hoàn toàn việc vẽ tranh, làm phim và viết báo",
+          "Nghề sáng tạo đổi công cụ chứ không biến mất: người giỏi dùng công cụ số làm nhanh khâu thô để dồn tâm trí vào ý tưởng độc đáo và chiều sâu văn hóa",
+          "Máy tính có trái tim cảm xúc thật giống hệt con người nên thay thế hoàn toàn nhà văn",
+          "Không cần học sáng tạo nữa mà chỉ nên ngồi bấm nút ngẫu nhiên"
+        ],
+        "k": "B",
+        "e": "Công cụ mới luôn tạo ra đỉnh cao sáng tạo mới cho những người nghệ sĩ biết thổi hồn nhân văn vào tác phẩm.",
+        "s": "HĐTN, HN 8",
+        "h": "Vai trò tâm hồn sáng tạo con người trong kỉ nguyên AI"
+      },
+      {
+        "c": "HN8-B11-012",
+        "d": "application",
+        "p": "Trong ngày hội hướng nghiệp của trường, nếu em đại diện tổ trình bày chủ đề \"Thợ sửa chữa điện dân dụng thời đại 4.0 có còn giống xưa không?\", ý chính thuyết phục nhất cần nêu là gì?",
+        "o": [
+          "Nghề thợ kĩ thuật điện không cần thiết nữa vì nhà không dùng điện",
+          "Giống hệt 50 năm trước không thay đổi một dụng cụ nào cả",
+          "Thợ điện hiện đại không chỉ sửa dây đèn mà cần đọc sơ đồ nhà thông minh, lắp cảm biến tiết kiệm điện, điện mặt trời áp mái và nhận lịch qua app",
+          "Không cần hiểu về an toàn điện hay thiết bị thông minh vẫn sửa tốt mọi nhà"
+        ],
+        "k": "C",
+        "e": "Không có nghề nào bị \"lạc hậu\" nếu người làm nghề chủ động nâng cấp kiến thức và công nghệ theo thời đại!",
+        "s": "HĐTN, HN 8",
+        "h": "Thấy sự nâng cấp công nghệ trong nghề kĩ thuật thực hành"
+      },
+      {
+        "c": "HN8-B11-013",
+        "d": "advanced",
+        "p": "Phân tích sự dịch chuyển của \"Năng lực mềm (Soft Skills)\" trong kỉ nguyên tự động hóa: tại sao 4 năng lực 4C (Critical thinking - Phản biện, Creativity - Sáng tạo, Communication - Giao tiếp, Collaboration - Hợp tác) lại được gọi là \"tấm vé bảo hiểm nghề nghiệp\"?",
+        "o": [
+          "Vì 4C là tên bốn phần mềm văn phòng miễn phí trên máy tính",
+          "Vì có 4C thì không cần học bất kì kiến thức chuyên môn nào của nghề",
+          "Vì rô-bốt chỉ làm việc theo nhóm 4 con với nhau",
+          "Máy móc tính toán nhanh nhưng yếu về đặt câu hỏi, sáng tạo liên ngành và kết nối cảm xúc; 4C giúp con người thích nghi linh hoạt khi nghề nghiệp đổi thay"
+        ],
+        "k": "D",
+        "e": "Kiến thức chuyên môn hẹp có thể lỗi thời sau 5–10 năm, nhưng bộ kĩ năng 4C theo bạn vững vàng suốt cả 40 năm sự nghiệp!",
+        "s": "HĐTN, HN 8",
+        "h": "Giá trị bền vững của bộ 4 kĩ năng 4C"
+      },
+      {
+        "c": "HN8-B11-014",
+        "d": "advanced",
+        "p": "Trong xu hướng \"Kinh tế Tuần hoàn\" (Circular Economy), thay vì quy trình tuyến tính cũ \"Khai thác -> Sản xuất -> Dùng -> Vứt bỏ rác\", doanh nghiệp xanh thiết kế sản phẩm sao cho cuối vòng đời có thể tháo rời sửa chữa, tái chế khép kín. Theo em, xu hướng này mở ra những vị trí nghề nghiệp mới hấp dẫn nào?",
+        "o": [
+          "Khuyến khích sản xuất đồ thật nhanh hỏng để người dân phải mua mới liên tục mỗi tháng",
+          "Chỉ mở thêm nghề đào hố chôn rác thật sâu ngoài ngoại ô",
+          "Nhà thiết kế sản phẩm sinh thái, Kĩ sư tái chế vật liệu mới, Chuyên gia sửa chữa tân trang thiết bị và Kiểm toán viên chuỗi cung ứng xanh",
+          "Cấm sửa chữa mọi đồ điện tử hỏng trong gia đình"
+        ],
+        "k": "C",
+        "e": "Thiết kế sản phẩm dễ sửa chữa và tái chế ngay từ bản vẽ đầu tiên đang là cuộc cách mạng công nghiệp xanh toàn cầu.",
+        "s": "HĐTN, HN 8",
+        "h": "Cơ hội nghề nghiệp mới từ Kinh tế Tuần hoàn"
+      },
+      {
+        "c": "HN8-B11-015",
+        "d": "advanced",
+        "p": "Nếu phải khuyên một học sinh lớp 8 chuẩn bị hành trang sớm ngay từ hôm nay cho thế giới nghề nghiệp 10 năm tới (năm 2036), bộ \"3 Chiếc chìa khóa thích ứng\" súc tích nhất là gì?",
+        "o": [
+          "1. Học thuộc lòng một nghề duy nhất không bao giờ tìm hiểu gì thêm; 2. Lười vận động; 3. Ngại giao tiếp",
+          "1. Tư duy số vững và dùng công nghệ có đạo đức; 2. Ý thức xanh bền vững và trái tim thấu cảm; 3. Tự học ngoại ngữ cùng kĩ năng 4C suốt đời",
+          "1. Chỉ tập trung chơi game giải trí thật nhiều; 2. Dùng AI làm gian lận bài; 3. Không quan tâm môi trường",
+          "1. Chờ tới năm đại học mới bắt đầu tập tự học; 2. Bỏ mặc các môn văn hóa cơ bản"
+        ],
+        "k": "B",
+        "e": "Người chiến thắng trong tương lai thay đổi nhanh không phải người nhớ thuộc nhiều nhất hôm nay, mà là người ham học hỏi và thích ứng tử tế nhất.",
+        "s": "HĐTN, HN 8",
+        "h": "Bộ 3 chìa khóa chuẩn bị nghề nghiệp tương lai"
+      }
+    ]
+  },
+  {
+    "chapter": "hdtn_hn8-c4",
+    "lesson": {
+      "code": "hdtn_hn8-b12",
+      "title": "Bài 12. Lập kế hoạch rèn luyện hướng tới nghề nghiệp yêu thích",
+      "seq": 12,
+      "subtitle": "Chuyển hóa định hướng nghề nghiệp lớp 8 thành bản kế hoạch rèn luyện cụ thể về môn học, kĩ năng, sức khỏe, thói quen chuẩn bị bước vào năm bản lề lớp 9",
+      "concepts": [
+        "Kế hoạch học tập theo nhóm nghề",
+        "Rèn kĩ năng mềm bổ trợ nghề",
+        "Lộ trình chuẩn bị bước vào lớp 9"
+      ]
+    },
+    "questions": [
+      {
+        "c": "HN8-B12-001",
+        "d": "basic",
+        "p": "Mục đích chính của việc lập \"Kế hoạch rèn luyện hướng tới nghề nghiệp yêu thích\" ngay cuối năm lớp 8 là gì?",
+        "o": [
+          "Biến ước mơ nghề nghiệp còn mơ hồ thành các bước hành động cụ thể vừa sức về học tập, kĩ năng và sức khỏe trong suốt mùa hè và năm lớp 9 bản lề",
+          "Để ép buộc học sinh phải đi xin việc làm ngay khi vừa xong lớp 8",
+          "Chỉ để nộp cho đủ điểm môn HĐTN rồi vứt bỏ",
+          "Để ngừng học các môn khác ngoài một môn yêu thích"
+        ],
+        "k": "A",
+        "e": "Ước mơ thiếu kế hoạch chỉ là điều ước; kế hoạch rõ từng bước biến mục tiêu xa thành tiến bộ chạm tay được mỗi tuần.",
+        "s": "HĐTN, HN 8",
+        "h": "Vai trò kế hoạch rèn luyện hướng nghiệp lớp 8"
+      },
+      {
+        "c": "HN8-B12-002",
+        "d": "basic",
+        "p": "Trong bản kế hoạch rèn luyện cá nhân hướng tới nhóm nghề yêu thích, tiêu chí mục tiêu S.M.A.R.T nhấn mạnh mục tiêu tốt cần có những tính chất cơ bản nào?",
+        "o": [
+          "Cụ thể rõ ràng (Specific), Đo lường được (Measurable), Vừa sức đạt được (Achievable), Thực tế phù hợp (Relevant) và Có thời hạn rõ (Time-bound)",
+          "Càng chung chung mơ hồ càng dễ thực hiện",
+          "Không cần thời hạn hoàn thành bao giờ cũng được",
+          "Phải thật viển vông bất khả thi mới thể hiện quyết tâm lớn"
+        ],
+        "k": "A",
+        "e": "Thay vì viết \"Mình sẽ giỏi Tiếng Anh\", viết theo SMART: \"Mỗi tối học 10 từ mới theo chủ đề và nghe 15 phút trong 8 tuần hè\" giúp thực hiện dễ hơn gấp 5 lần.",
+        "s": "HĐTN, HN 8",
+        "h": "Áp dụng nguyên tắc mục tiêu SMART"
+      },
+      {
+        "c": "HN8-B12-003",
+        "d": "basic",
+        "p": "Ngoài điểm số môn học liên quan trực tiếp đến nghề mơ ước, hai nhóm yếu tố song hành bắt buộc phải đưa vào kế hoạch rèn luyện cuối lớp 8 là gì?",
+        "o": [
+          "Nhóm kĩ năng mềm (giao tiếp, làm việc nhóm, quản lí thời gian, tin học) và Nhóm thể chất – phẩm chất đạo đức (sức khỏe dẻo dai, kỉ luật, trung thực)",
+          "Chỉ cần mua thêm thật nhiều bộ quần áo đẹp và điện thoại mới",
+          "Chỉ cần chơi game luyện nhanh tay mắt",
+          "Không cần rèn gì thêm nếu điểm kiểm tra trên lớp đã cao"
+        ],
+        "k": "A",
+        "e": "Rất nhiều sinh viên giỏi chuyên môn vẫn khó làm việc tốt nếu thiếu sức khỏe bền bỉ, tác phong đúng hẹn và kĩ năng hợp tác nhóm.",
+        "s": "HĐTN, HN 8",
+        "h": "Sự cân bằng tri thức - kĩ năng - thể chất phẩm chất"
+      },
+      {
+        "c": "HN8-B12-004",
+        "d": "basic",
+        "p": "Tại sao cuối năm lớp 8 là thời điểm vàng để bắt đầu tìm hiểu sơ bộ các định hướng phân luồng sau THCS (học tiếp THPT, chọn tổ hợp môn hay học nghề Trung cấp gắn văn hóa)?",
+        "o": [
+          "Vì để nghỉ học sớm không cần thi lớp 10",
+          "Vì học sinh lớp 8 phải thi tốt nghiệp THPT ngay tuần sau",
+          "Vì lên lớp 9 thầy cô không còn dạy hướng nghiệp nữa",
+          "Giúp có đủ 1 năm lớp 9 chuẩn bị tâm lí, củng cố môn học trọng tâm và tìm hiểu thông tin trường lớp kĩ lưỡng, tránh bị động hoang mang sát kì thi chuyển cấp"
+        ],
+        "k": "D",
+        "e": "Chuẩn bị sớm từ hè lớp 8 sang lớp 9 giúp em bình tĩnh vững vàng, giảm hẳn áp lực gấp gáp của năm cuối cấp THCS.",
+        "s": "HĐTN, HN 8",
+        "h": "Tầm quan trọng của bước đệm cuối lớp 8 sang lớp 9"
+      },
+      {
+        "c": "HN8-B12-005",
+        "d": "basic",
+        "p": "Ai là những người đồng hành quý giá mà học sinh lớp 8 nên chia sẻ bản kế hoạch rèn luyện nghề nghiệp của mình để xin góp ý và hỗ trợ thực hiện?",
+        "o": [
+          "Cha mẹ, thầy cô giáo chủ nhiệm hoặc thầy cô bộ môn liên quan, và những bạn bè tích cực cùng chí hướng rèn luyện",
+          "Chỉ đưa cho em nhỏ mới học mẫu giáo góp ý",
+          "Giữ bí mật tuyệt đối một mình không bao giờ nói với cha mẹ",
+          "Chỉ hỏi ý kiến những người lạ mặt ẩn danh trên mạng"
+        ],
+        "k": "A",
+        "e": "Khi cha mẹ và thầy cô hiểu rõ lộ trình cố gắng nghiêm túc của em, mọi người sẽ sẵn lòng tạo điều kiện sách vở, thời gian và lời khuyên tốt nhất.",
+        "s": "HĐTN, HN 8",
+        "h": "Tìm người đồng hành hỗ trợ kế hoạch"
+      },
+      {
+        "c": "HN8-B12-006",
+        "d": "basic",
+        "p": "Khi gặp khó khăn hoặc lỡ bỏ lỡ kế hoạch vài ngày vì ốm hay bận thi học kì, thái độ đúng nhất để không bỏ cuộc hoàn toàn là gì?",
+        "o": [
+          "Bình tĩnh điều chỉnh lại lịch phù hợp hoàn cảnh mới và tiếp tục thực hiện ngay ngày hôm sau thay vì tự trách nản chí vứt bỏ toàn bộ kế hoạch",
+          "Nghỉ luôn cả học kì sau không rèn luyện gì nữa",
+          "Tự trách mình vô dụng rồi xé bỏ toàn bộ sổ kế hoạch",
+          "Cố thức trắng 3 đêm liền làm bù kiệt sức"
+        ],
+        "k": "A",
+        "e": "Không sao nếu lỡ nhịp một ngày; nguyên tắc vàng xây dựng thói quen bền bỉ là \"Không bao giờ bỏ lỡ hai lần liên tiếp\"!",
+        "s": "HĐTN, HN 8",
+        "h": "Xử lí linh hoạt khi lỡ nhịp kế hoạch"
+      },
+      {
+        "c": "HN8-B12-007",
+        "d": "application",
+        "p": "Quan sát bảng kế hoạch rèn luyện hè – lớp 9 hướng tới nhóm ngành Y Dược / Chăm sóc sức khỏe của bạn Lan lớp 8A dưới đây. Đánh giá phần nào trong kế hoạch của Lan ĐÃ hợp lí và phần nào cần bổ sung chỉnh sửa cho cân đối hơn?",
+        "o": [
+          "Nên học thêm Sinh – Hóa xuyên đêm tới 2h sáng và bỏ luôn ăn trưa",
+          "Nên cắt bỏ hoàn toàn môn Ngữ văn và Tiếng Anh để học duy nhất môn Sinh học",
+          "Học KHTN và rèn cẩn thận rất đúng hướng; nhưng Lan cần giữ vận động – thư giãn 45 phút/ngày chứ không cắt hết thể thao hay thức tới 0h30 dễ suy nhược",
+          "Kế hoạch đã hoàn hảo 100%, bác sĩ tương lai không cần ngủ đủ hay tập thể dục"
+        ],
+        "k": "C",
+        "e": "Làm ngành Y đòi hỏi sức khỏe dẻo dai bậc nhất; hy sinh giấc ngủ và thể thao ở tuổi 14 là sai lầm chiến lược cần sửa ngay trong kế hoạch.",
+        "s": "HĐTN, HN 8",
+        "h": "Đánh giá cân đối kế hoạch hướng nghiệp Y Dược",
+        "fig": {
+          "type": "table",
+          "title": "Kế hoạch bạn Lan (8A)",
+          "head": [
+            "Hạng mục",
+            "Dự kiến của Lan"
+          ],
+          "rows": [
+            [
+              "Môn học chính",
+              "Nâng KHTN, Toán, Anh"
+            ],
+            [
+              "Thói quen cần rèn",
+              "Ghi chép, rửa tay"
+            ],
+            [
+              "Vận động thể thao",
+              "Bỏ hẳn để ngồi học"
+            ],
+            [
+              "Giờ đi ngủ tối",
+              "Thức tới 0h30 đêm"
+            ]
+          ]
+        }
+      },
+      {
+        "c": "HN8-B12-008",
+        "d": "application",
+        "p": "Bạn Tuấn rất thích làm \"Kĩ sư Xây dựng / Kiến trúc công trình xanh\" nhưng thói quen quản lí thời gian hiện tại khá tùy tiện, hay trễ hẹn và học yếu môn Vẽ kĩ thuật – Hình học. Hai mục tiêu SMART cụ thể nào Tuấn nên đặt ngay cho 8 tuần hè sắp tới?",
+        "o": [
+          "\"1. Làm 3 bài Hình học phẳng/ngày trong 4 tuần đầu để chắc nền lớp 8; 2. Tham gia CLB vẽ phác thảo 2 buổi/tuần và luôn tới sớm 5 phút\"",
+          "\"1. Từ mai mình sẽ trở thành kiến trúc sư vĩ đại nhất; 2. Ngủ nướng cho thoải mái hết hè rồi lớp 9 tính\"",
+          "\"1. Bỏ hẳn môn Hình học vì kiến trúc sư không cần đo đạc; 2. Chơi game xây nhà ảo 5 tiếng/ngày\"",
+          "\"1. Chỉ mua một bộ bút chì thật đắt tiền để trên bàn ngắm; 2. Không cần rèn giờ giấc\""
+        ],
+        "k": "A",
+        "e": "Mục tiêu rõ số lượng bài, số tuần và rèn đúng phẩm chất đúng hẹn khắc phục trúng hai điểm nghẽn lớn nhất của Tuấn.",
+        "s": "HĐTN, HN 8",
+        "h": "Viết mục tiêu SMART cho nghề Kiến trúc - Xây dựng"
+      },
+      {
+        "c": "HN8-B12-009",
+        "d": "application",
+        "p": "Bạn Khoa đặt mục tiêu cải thiện năng lực thuyết trình giao tiếp để chuẩn bị cho ước mơ Luật sư / Nhà truyền thông, nhưng cứ lên trước lớp đông người lại run quên chữ. Lộ trình tăng dần độ khó nào giúp Khoa vượt qua nỗi sợ hiệu quả nhất?",
+        "o": [
+          "Chưa tập gì cả mà đăng kí lên dẫn chương trình toàn trường 1000 người ngay ngày mai để thử lửa",
+          "Chỉ viết ra giấy đưa cho bạn khác đọc hộ suốt cả năm",
+          "Trốn tránh vĩnh viễn mọi lần phát biểu cho tới khi tự nhiên hết run",
+          "Tuần 1–2: tập nói to trước gương và ghi âm tự sửa; Tuần 3–4: nói trước 3–4 bạn thân góp ý; Tháng 2: xung phong đại diện tổ nói 2 phút trước lớp"
+        ],
+        "k": "D",
+        "e": "Phương pháp \"tiếp xúc tăng tiến từng bậc nhỏ vừa sức\" (Gradual Exposure) giúp não bộ quen dần với ánh nhìn đám đông một cách an toàn tự tin.",
+        "s": "HĐTN, HN 8",
+        "h": "Lộ trình tăng tiến rèn kĩ năng nói trước đám đông"
+      },
+      {
+        "c": "HN8-B12-010",
+        "d": "application",
+        "p": "Trong gia đình, bố mẹ bạn Hoa chưa hiểu rõ lắm về nghề \"Thiết kế Trải nghiệm Người dùng (UI và UX) / Đồ họa số\" mà Hoa đang hướng tới nên còn băn khoăn lo con chỉ mải vẽ vời chơi máy tính. Hoa nên chuẩn bị gì để thuyết phục bố mẹ ủng hộ kế hoạch học tập của mình?",
+        "o": [
+          "Giữ điểm các môn văn hóa thật tốt, đưa số liệu tuyển dụng thực tế của nghề thiết kế số kèm vài sản phẩm chỉn chu Hoa tự làm bằng phần mềm miễn phí",
+          "Cãi vã trách bố mẹ lạc hậu cổ hủ không hiểu thời đại 4.0",
+          "Giấu giếm lén bỏ bài tập các môn chính để thức đêm vẽ trên máy",
+          "Đòi bố mẹ phải mua ngay máy tính đồ họa đắt nhất thế giới mới chịu học"
+        ],
+        "k": "A",
+        "e": "Sản phẩm thật nghiêm túc kèm kết quả học tập toàn diện ổn định luôn là cầu nối xóa tan mọi nghi ngại của cha mẹ.",
+        "s": "HĐTN, HN 8",
+        "h": "Thuyết phục cha mẹ hiểu nghề nghiệp mới bằng sản phẩm thật"
+      },
+      {
+        "c": "HN8-B12-011",
+        "d": "application",
+        "p": "Khi lập kế hoạch rèn luyện cho năm lớp 9, một bạn viết kín lịch từ 5h30 sáng đến 23h30 đêm không chừa một phút nghỉ ngơi thể thao hay phụ việc nhà. Nếu là bạn thân góp ý cho kế hoạch này, em khuyên bạn điều chỉnh thế nào?",
+        "o": [
+          "Lịch quá tải sẽ nhanh kiệt sức bỏ dở; cần giữ ít nhất 45 phút thể thao chiều, bữa cơm gia đình và ngủ trước 22h30 để não tiếp thu kiến thức bền nhất",
+          "Khuyên bạn cắt bớt thêm 1 tiếng ngủ nữa để học cho vượt trội bạn bè",
+          "Khen kế hoạch quá tuyệt vời không cần sửa một chữ nào",
+          "Khuyên bạn bỏ luôn toàn bộ kế hoạch chơi thoải mái cả năm lớp 9"
+        ],
+        "k": "A",
+        "e": "Học sinh lớp 9 giỏi bền vững là người quản lí năng lượng nghỉ ngơi – vận động thông minh chứ không phải cỗ máy chạy quá tải.",
+        "s": "HĐTN, HN 8",
+        "h": "Điều chỉnh kế hoạch tránh kiệt sức trước năm lớp 9"
+      },
+      {
+        "c": "HN8-B12-012",
+        "d": "application",
+        "p": "Để tự kiểm tra tiến độ kế hoạch rèn luyện mỗi cuối tháng mà không rơi vào cảm giác chán nản, cách ghi nhật kí nhìn lại (Review) đơn giản nào hiệu quả nhất?",
+        "o": [
+          "Nhờ bạn khác tự bịa ra lời nhận xét viết hộ vào sổ",
+          "Chỉ ghi dài 5 trang chê bai toàn bộ thất bại của bản thân rồi cất đi",
+          "Đợi đến khi ra trường mới lật ra xem một lần",
+          "Ghi 3 dòng cuối tháng: 1. Điều làm tốt nhất tháng qua; 2. Một vướng mắc nhỏ gặp phải; 3. Điều chỉnh cho tháng tới và tự khen thưởng xứng đáng"
+        ],
+        "k": "D",
+        "e": "Phản tư ngắn gọn tích cực cuối tháng giữ ngọn lửa động lực luôn ấm và giúp tinh chỉnh kế hoạch bám sát thực tế.",
+        "s": "HĐTN, HN 8",
+        "h": "Thực hành phản tư kiểm tra tiến độ hàng tháng"
+      },
+      {
+        "c": "HN8-B12-013",
+        "d": "advanced",
+        "p": "Phân tích mối liên hệ giữa \"Kế hoạch hướng nghiệp sớm từ lớp 8\" và \"Sức bền tâm lí trong kì thi chuyển cấp lớp 9 lên 10 sắp tới\": sự chuẩn bị trước này giúp giảm bớt hoang mang ở điểm nào?",
+        "o": [
+          "Bắt buộc mọi bạn cùng lớp phải đăng kí thi cùng một trường giống nhau",
+          "Khi hiểu rõ năng lực và chuẩn bị sẵn các phương án trường phù hợp (công lập, chuyên, tư thục hay nghề 9+), em vào lớp 9 chủ động, không chạy theo đám đông",
+          "Giúp học sinh lớp 8 được miễn thi chuyển cấp lên lớp 10 hoàn toàn",
+          "Khiến học sinh không cần ôn tập bất kì môn học nào trong năm lớp 9"
+        ],
+        "k": "B",
+        "e": "Biết rõ mình là ai và mình muốn đi đâu giúp biến áp lực cạnh tranh điểm số thành lộ trình phấn đấu bình tĩnh, sáng suốt.",
+        "s": "HĐTN, HN 8",
+        "h": "Tác dụng ổn định tâm lí thi chuyển cấp từ định hướng sớm"
+      },
+      {
+        "c": "HN8-B12-014",
+        "d": "advanced",
+        "p": "So sánh hai cách tiếp cận lập kế hoạch tương lai: (A) \"Nếu không đỗ đúng một ngôi trường/một nghề duy nhất này thì coi như chấm hết\"; (B) \"Dốc toàn lực cho mục tiêu số 1 nhưng luôn thiết kế sẵn các lộ trình nhánh rẽ cùng hướng tới cụm giá trị nghề yêu thích\". Vì sao cách (B) khôn ngoan hơn hẳn?",
+        "o": [
+          "Vì cách B cho phép lười biếng ngay từ đầu không cần cố gắng đạt Plan A",
+          "Cuộc sống luôn có bất ngờ; chuẩn bị Plan A – Plan B giúp vừa dốc sức cho mục tiêu chính vừa giữ tâm lí bình an khi biết có nhiều lối tới nghề mơ ước",
+          "Vì xã hội chỉ chấp nhận duy nhất một con đường đại học chính quy mới có nghề nghiệp",
+          "Vì cách A chứng tỏ bản lĩnh cực đoan không bao giờ thay đổi dù hoàn cảnh thế nào"
+        ],
+        "k": "B",
+        "e": "Bền bỉ mục tiêu nhưng linh hoạt phương tiện đường đi là bản lĩnh trưởng thành cao nhất trước ngưỡng cửa lớp 9.",
+        "s": "HĐTN, HN 8",
+        "h": "Tư duy đa lộ trình Plan A - Plan B vững vàng"
+      },
+      {
+        "c": "HN8-B12-015",
+        "d": "advanced",
+        "p": "Tổng kết hành trình HĐTN, HN lớp 8 để sẵn sàng bước vào năm cuối cấp THCS lớp 9, mỗi học sinh hãy viết một \"Bức thư Gửi Chính Mình Cuối Năm Lớp 9\". Thông điệp nào thể hiện sự trưởng thành toàn diện nhất?",
+        "o": [
+          "Chỉ nhắc tên một vài bạn mình không thích trong lớp",
+          "Chỉ chúc bản thân may mắn tự nhiên thi đỗ mà không cần ôn bài hay phụ việc nhà",
+          "Hứa sẽ thức trắng mỗi đêm chơi game giải trí trước khi học lớp 9",
+          "Tin tưởng bản thân đã rèn tự chủ, phản biện tỉnh táo, yêu thương gia đình – sống xanh và sẵn sàng bước vào lớp 9 với kế hoạch hướng nghiệp rõ ràng"
+        ],
+        "k": "D",
+        "e": "Khép lại lớp 8 với sự tự tin, tỉnh táo và lộ trình rõ ràng chính là hành trang đẹp nhất bước vào năm học lớp 9 đầy hứng khởi!",
+        "s": "HĐTN, HN 8",
+        "h": "Thông điệp trưởng thành bước vào lớp 9"
+      }
+    ]
+  }
+]

@@ -15,6 +15,15 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.9',
+    date: '2026-11-23',
+    title: 'Mở khóa trọn bộ 7 môn THCS Lớp 6–9 (Tin học, Công nghệ, GDCD, Âm nhạc, Mĩ thuật, GDTC & HĐTN, HN)',
+    items: [
+      'Hoàn thiện thêm 7 môn Lớp 6–9 theo chương trình Kết nối tri thức (112 chương · 336 bài học · 5.040 câu hỏi · 399 bảng và biểu đồ SVG minh họa): Tin học 6–9 (720 câu), Công nghệ 6–9 (720 câu), Giáo dục công dân 6–9 (720 câu), Âm nhạc 6–9 (720 câu), Mĩ thuật 6–9 (720 câu), Giáo dục thể chất 6–9 (720 câu) và Hoạt động trải nghiệm, hướng nghiệp 6–9 (720 câu).',
+      'Phủ 11/12 môn Khối THCS cùng toàn bộ 14/14 môn Khối Tiểu học (chỉ còn Lịch sử và Địa lí 6–9 đang hoàn thiện), đưa tổng kho câu hỏi trực tuyến vượt mốc 25.300 câu.'
+    ]
+  },
+  {
     version: '0.2.8',
     date: '2026-11-22',
     title: 'Toán 6 chuẩn SGK: 52 bài, 416 câu, có hình minh họa',
