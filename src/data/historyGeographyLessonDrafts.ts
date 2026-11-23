@@ -1674,5 +1674,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-geography-05', grade: 8, strand: 'geography',
+    title: 'Thực hành: Vẽ và phân tích biểu đồ khí hậu',
+    summary: 'Rèn luyện kĩ năng đọc bảng số liệu khí hậu, lựa chọn dạng biểu đồ phù hợp, thể hiện nhiệt độ và lượng mưa theo tháng, sau đó nhận xét đặc điểm khí hậu của địa điểm.',
+    learningObjectives: [
+      'Đọc và xử lí được bảng số liệu nhiệt độ, lượng mưa trung bình tháng.',
+      'Lựa chọn và vẽ được biểu đồ khí hậu kết hợp đường nhiệt độ và cột lượng mưa.',
+      'Phân tích được diễn biến nhiệt độ, lượng mưa và rút ra nhận xét có căn cứ.'
+    ],
+    sections: [
+      {
+        heading: 'Đọc và chuẩn bị bảng số liệu',
+        body: 'Trước khi vẽ biểu đồ khí hậu, cần xác định tên địa điểm, thời kì thống kê, đơn vị đo và đủ số liệu của 12 tháng. Nhiệt độ thường tính bằng độ C, lượng mưa tính bằng milimét. Kiểm tra số liệu thiếu, giá trị bất thường và thứ tự tháng; không tự ý thay đổi số liệu gốc. Cần xác định mục đích thể hiện để chọn biểu đồ phù hợp, thường dùng biểu đồ kết hợp cột lượng mưa và đường nhiệt độ cho số liệu khí hậu tháng.',
+        keyPoints: ['Kiểm tra tên địa điểm, thời gian, đơn vị và đủ 12 tháng trước khi vẽ.'],
+        example: 'Nếu bảng có nhiệt độ trung bình tháng và lượng mưa tháng, có thể dùng biểu đồ kết hợp để thể hiện hai đại lượng.'
+      },
+      {
+        heading: 'Vẽ biểu đồ khí hậu',
+        body: 'Trên trục ngang, ghi đủ 12 tháng theo thứ tự. Trục đứng thể hiện lượng mưa với đơn vị mm; nhiệt độ được thể hiện bằng đường biểu diễn theo thang đo phù hợp. Chọn khoảng chia đều, ghi rõ đơn vị, tên biểu đồ và chú giải. Cột lượng mưa cần có độ rộng và khoảng cách thống nhất; các điểm nhiệt độ được đặt đúng vị trí theo số liệu rồi nối theo thứ tự tháng. Khi dùng hai trục đứng, phải ghi rõ đại lượng tương ứng để người đọc không nhầm lẫn.',
+        keyPoints: ['Biểu đồ cần đúng tỉ lệ, đủ tên, đơn vị, chú giải và thể hiện chính xác từng tháng.'],
+        example: 'Sau khi vẽ, kiểm tra lại một vài tháng có số liệu cao nhất và thấp nhất để phát hiện sai lệch khi đặt điểm hoặc dựng cột.'
+      },
+      {
+        heading: 'Phân tích và nhận xét biểu đồ',
+        body: 'Khi phân tích, trước hết nhận xét nhiệt độ: tháng nóng nhất, tháng lạnh nhất, biên độ nhiệt năm và mức độ biến đổi theo mùa. Tiếp theo nhận xét lượng mưa: tổng lượng mưa năm nếu có thể tính, tháng mưa nhiều nhất, tháng ít mưa nhất và thời kì mưa tập trung. Cuối cùng kết hợp hai yếu tố để nhận xét mùa khí hậu và so sánh với đặc điểm vùng. Mọi kết luận cần dựa trên số liệu cụ thể, tránh suy đoán chỉ từ hình dạng biểu đồ.',
+        keyPoints: ['Nhận xét cần nêu dẫn chứng tháng và trị số; kết hợp nhiệt độ với lượng mưa để xác định đặc điểm mùa.'],
+        example: 'Có thể viết: nhiệt độ cao nhất vào tháng…, thấp nhất vào tháng…; mưa tập trung từ tháng… đến tháng… theo số liệu biểu đồ.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
