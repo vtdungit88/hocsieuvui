@@ -210,4 +210,20 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
     questions: [], status: 'draft',
   },
 
+
+  {
+    id: 'g6-history-05', grade: 6, strand: 'history',
+    title: 'Xã hội nguyên thủy',
+    summary: 'Trong thời nguyên thủy, con người sống thành cộng đồng nhỏ, dựa chủ yếu vào săn bắt, hái lượm và dần biết trồng trọt, chăn nuôi. Công cụ lao động được cải tiến từ đá ghè đẽo đến đá mài, rồi xuất hiện đồ gốm và công cụ kim loại. Tổ chức xã hội, đời sống vật chất và tinh thần thay đổi theo sự phát triển của lực lượng sản xuất.',
+    learningObjectives: ['Mô tả được những nét chính về đời sống vật chất của người nguyên thủy.', 'Nhận biết sự tiến bộ của công cụ lao động và hoạt động sản xuất.', 'Giải thích được một số thay đổi trong tổ chức xã hội và đời sống tinh thần.'],
+    questions: [], status: 'draft',
+  },
+  {
+    id: 'g6-geography-05', grade: 6, strand: 'geography',
+    title: 'Lược đồ trí nhớ',
+    summary: 'Lược đồ trí nhớ là hình vẽ đơn giản thể hiện không gian quen thuộc dựa trên những gì người vẽ ghi nhớ. Lược đồ có thể biểu hiện vị trí tương đối, hướng đi, mốc nhận biết và mối liên hệ giữa các địa điểm. Khi vẽ cần chọn điểm mốc rõ ràng, sắp xếp hợp lí và ghi chú dễ hiểu; lược đồ trí nhớ không thay thế bản đồ đo đạc chính xác.',
+    learningObjectives: ['Nêu được khái niệm và công dụng của lược đồ trí nhớ.', 'Nhận biết được vai trò của điểm mốc, phương hướng và vị trí tương đối.', 'Tạo và đọc được lược đồ đơn giản về một không gian quen thuộc.'],
+    questions: [], status: 'draft',
+  },
+
 ];
