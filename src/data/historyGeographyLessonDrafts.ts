@@ -1162,5 +1162,37 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
       }
     ],
     questions: [], status: 'draft',
+  },,
+
+  {
+    id: 'g8-history-08', grade: 8, strand: 'history',
+    title: 'Phong trào Tây Sơn',
+    summary: 'Tìm hiểu nguyên nhân bùng nổ, những thắng lợi tiêu biểu và vai trò của phong trào Tây Sơn trong việc lật đổ các tập đoàn phong kiến, bảo vệ độc lập và thống nhất đất nước cuối thế kỉ XVIII.',
+    learningObjectives: [
+      'Nêu được nguyên nhân và những nét chính về sự phát triển của phong trào Tây Sơn.',
+      'Trình bày được ý nghĩa của các chiến thắng Rạch Gầm – Xoài Mút và Ngọc Hồi – Đống Đa.',
+      'Đánh giá được vai trò lịch sử của phong trào Tây Sơn và vua Quang Trung.'
+    ],
+    sections: [
+      {
+        heading: 'Bối cảnh và sự bùng nổ phong trào',
+        body: 'Nửa sau thế kỉ XVIII, chính quyền chúa Nguyễn ở Đàng Trong và chính quyền Lê – Trịnh ở Đàng Ngoài đều bộc lộ nhiều khủng hoảng. Thuế khóa, tham nhũng và những khó khăn kinh tế làm đời sống nhân dân thêm cực khổ. Năm 1771, phong trào Tây Sơn bùng nổ ở vùng Tây Sơn, Bình Định, do ba anh em Nguyễn Nhạc, Nguyễn Huệ và Nguyễn Lữ lãnh đạo. Phong trào nhanh chóng thu hút đông đảo nhân dân tham gia, phát triển từ một cuộc nổi dậy địa phương thành phong trào có ảnh hưởng trên phạm vi rộng.',
+        keyPoints: ['Phong trào bùng nổ năm 1771 ở Tây Sơn, Bình Định trong bối cảnh khủng hoảng và mâu thuẫn xã hội.'],
+        example: 'Khi giải thích sự lan rộng của phong trào, cần xem xét cả sự suy yếu của chính quyền và sự ủng hộ của các tầng lớp nhân dân.'
+      },
+      {
+        heading: 'Những thắng lợi quân sự tiêu biểu',
+        body: 'Phong trào Tây Sơn lần lượt đánh đổ chính quyền chúa Nguyễn ở Đàng Trong và làm thay đổi cục diện chính trị trong nước. Năm 1785, quân Tây Sơn do Nguyễn Huệ chỉ huy giành thắng lợi ở Rạch Gầm – Xoài Mút, đánh bại quân Xiêm can thiệp. Năm 1786, quân Tây Sơn tiến ra Bắc, lật đổ chính quyền họ Trịnh. Cuối năm 1788, quân Thanh tiến vào nước ta; Nguyễn Huệ lên ngôi hoàng đế, lấy niên hiệu Quang Trung và chỉ huy chiến dịch phản công. Chiến thắng Ngọc Hồi – Đống Đa mùa xuân năm 1789 đánh bại quân Thanh, bảo vệ nền độc lập.',
+        keyPoints: ['Rạch Gầm – Xoài Mút năm 1785 đánh bại quân Xiêm; Ngọc Hồi – Đống Đa năm 1789 đánh bại quân Thanh.'],
+        example: 'Dùng dòng thời gian để phân biệt hai chiến thắng: năm 1785 ở phía nam và mùa xuân 1789 ở phía bắc.'
+      },
+      {
+        heading: 'Ý nghĩa và những việc làm của Quang Trung',
+        body: 'Phong trào Tây Sơn góp phần lật đổ các tập đoàn phong kiến đang chia cắt đất nước, đánh bại những lực lượng ngoại xâm lớn và tạo điều kiện cho việc thống nhất quốc gia. Sau khi lên ngôi, Quang Trung quan tâm khôi phục sản xuất, ổn định đời sống, phát triển giáo dục và xây dựng chính quyền. Tuy nhiên, triều đại Tây Sơn tồn tại trong thời gian không dài; sau khi Quang Trung mất năm 1792, tình hình chính trị gặp nhiều khó khăn và triều Tây Sơn sụp đổ năm 1802. Đánh giá phong trào cần nhìn cả đóng góp lớn lao lẫn giới hạn và bối cảnh phức tạp của thời kì.',
+        keyPoints: ['Tây Sơn có đóng góp nổi bật về lật đổ các thế lực phong kiến, chống ngoại xâm và thúc đẩy thống nhất đất nước.'],
+        example: 'Một đánh giá lịch sử cân bằng cần kết hợp thắng lợi quân sự với những nỗ lực xây dựng đất nước và diễn biến sau năm 1792.'
+      }
+    ],
+    questions: [], status: 'draft',
   },
 ];
