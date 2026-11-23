@@ -178,4 +178,20 @@ export const historyGeographyLessonDrafts: HGLessonDraft[] = [
     questions: [],
     status: 'draft',
   },
+
+  {
+    id: 'g6-history-03', grade: 6, strand: 'history',
+    title: 'Thời gian trong lịch sử',
+    summary: 'Thời gian lịch sử gắn với các sự kiện và quá trình diễn ra trong quá khứ. Người học cần phân biệt âm lịch, dương lịch, Công nguyên và trước Công nguyên; biết quy đổi thế kỉ, xác định khoảng cách thời gian và sắp xếp sự kiện theo trình tự.',
+    learningObjectives: ['Phân biệt được một số cách tính thời gian thường dùng trong lịch sử.', 'Xác định được thế kỉ và mốc thời gian trước/sau Công nguyên.', 'Tính được khoảng cách giữa hai mốc năm và sắp xếp sự kiện theo trình tự.'],
+    questions: [], status: 'draft',
+  },
+  {
+    id: 'g6-geography-03', grade: 6, strand: 'geography',
+    title: 'Tỉ lệ bản đồ. Tính khoảng cách thực tế dựa vào tỉ lệ bản đồ',
+    summary: 'Tỉ lệ bản đồ cho biết mức độ thu nhỏ khoảng cách trên bản đồ so với khoảng cách ngoài thực tế. Có thể biểu hiện bằng tỉ lệ số hoặc thước tỉ lệ. Muốn tính khoảng cách thực tế, cần đo khoảng cách trên bản đồ, nhân với mẫu số tỉ lệ và đổi về đơn vị thích hợp.',
+    learningObjectives: ['Giải thích được ý nghĩa của tỉ lệ bản đồ.', 'Phân biệt được tỉ lệ số và thước tỉ lệ.', 'Tính và đổi đơn vị khoảng cách thực tế từ khoảng cách đo trên bản đồ.'],
+    questions: [], status: 'draft',
+  },
+
 ];
