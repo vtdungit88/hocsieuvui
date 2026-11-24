@@ -15,6 +15,15 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.13',
+    date: '2026-11-24',
+    title: 'Thiết kế lại Trung tâm Quản trị (Admin Console v2) chuyên nghiệp',
+    items: [
+      'Bố cục Sidebar trái gọn gàng gồm 6 phân hệ: Tổng quan KPI & biểu đồ, Học sinh, Góp ý, Sảnh trò chuyện, Ngân hàng câu hỏi theo cây chương trình và Cấu hình hệ thống.',
+      'Tách riêng học sinh thật và tài khoản test/ảo ở cả database lẫn giao diện quản trị (ẩn tài khoản test mặc định); bổ sung bộ lọc phiếu góp ý, kiểm duyệt sảnh trò chuyện, chỉnh sửa/kiểm toán câu hỏi toàn hệ thống và nhật ký hoạt động Admin.'
+    ]
+  },
+  {
     version: '0.2.12',
     date: '2026-11-24',
     title: 'Giao diện chào mừng Ngày Văn hóa Việt Nam 24/11',
