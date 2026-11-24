@@ -93,7 +93,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 font-sans flex flex-col selection:bg-blue-500 selection:text-white">
+    <div className="hsv-cultural-app min-h-screen text-slate-900 dark:text-slate-100 font-sans flex flex-col selection:bg-blue-500 selection:text-white">
       {/* 3-Zone Navigation Header */}
       <Navbar
         currentView={currentView}
@@ -111,8 +111,8 @@ export default function App() {
 
       {/* Gentle 1-Line Running Announcement Ribbon with Mascot Logo & Version */}
       {showTicker && (
-        <div className="bg-gradient-to-r from-amber-500 via-orange-500 to-rose-500 text-slate-950 text-xs font-bold py-1.5 px-4 shadow-sm flex items-center justify-between gap-3 overflow-hidden select-none">
-          <div className="flex items-center gap-2 overflow-hidden shrink-0">
+        <div className="hsv-cultural-ticker bg-gradient-to-r from-amber-500 via-orange-500 to-rose-500 text-slate-950 text-xs font-bold py-1.5 px-3 shadow-sm flex items-center gap-2 overflow-hidden select-none">
+          <div className="hsv-ticker-brand flex items-center gap-2 overflow-hidden shrink-0">
             <img 
               src={APP_LOGO_SRC} 
               alt="Logo" 
@@ -123,31 +123,13 @@ export default function App() {
             </span>
           </div>
 
-          <div className="flex-1 overflow-hidden whitespace-nowrap text-[11px] sm:text-xs">
-            <div className="inline-block animate-marquee hover:pause">
-              🎉 <strong>Học Siêu Vui by dungvt.hbh VNPT:</strong> Ứng dụng vừa học vừa chơi bám sát chương trình SGK • Đăng ký tài khoản để làm bài & lưu thành tích • Studio của tôi • Liên hệ: <span className="underline">dungvt.hbh@gmail.com</span>
+          <div className="hsv-ticker-track flex-1 min-w-0 overflow-hidden whitespace-nowrap text-[11px] sm:text-xs">
+            <div className="hsv-ticker-message inline-block">
+              🌿 Chào mừng ngày Văn hóa Việt Nam 24/11 — Tôn vinh Bản sắc và Di sản Văn hóa 🌿
             </div>
           </div>
 
-          <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
-            <button
-              onClick={() => {
-                soundManager.play('click');
-                setIsInstallShareOpen(true);
-              }}
-              className="px-2 py-0.5 bg-black/30 hover:bg-black/40 text-amber-200 hover:text-white rounded-md text-[11px] font-bold transition-colors cursor-pointer flex items-center gap-1"
-            >
-              <span>📲 Cài App & Chia Sẻ</span>
-            </button>
-            <button
-              onClick={() => {
-                soundManager.play('click');
-                setIsUpdateNoticeOpen(true);
-              }}
-              className="px-2 py-0.5 bg-black/20 hover:bg-black/30 text-white rounded-md text-[11px] font-semibold transition-colors cursor-pointer hidden sm:inline"
-            >
-              Tính năng mới
-            </button>
+          <div className="hsv-ticker-actions flex items-center gap-1.5 sm:gap-2 shrink-0">
             <button
               onClick={() => setShowTicker(false)}
               className="text-black/60 hover:text-black p-0.5 cursor-pointer"
