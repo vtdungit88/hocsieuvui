@@ -8,6 +8,21 @@ import { integratedQuizDrafts } from '../src/data/historyGeographyIntegratedQuiz
 import { SUBJECTS_CATALOG } from '../src/data/subjectsCatalog';
 
 const quizSets = [...historyGeographyQuizDrafts, ...geographyQuizDrafts, ...integratedQuizDrafts];
+
+// Regression guard: Grade 9 Geography lesson 1 must use the official population baseline,
+// not the previously incorrect claim that Vietnam's population had fallen below 30 million.
+const grade9PopulationQuiz = quizSets.find((set) => set.grade === 9 && set.title === 'Dân tộc và dân số');
+assert.ok(grade9PopulationQuiz, 'Grade 9 Geography population lesson must exist');
+const populationTrendQuestion = grade9PopulationQuiz.questions.find((question) =>
+  question.prompt.includes('bức tranh dân số Việt Nam đầu thế kỉ XXI')
+);
+assert.ok(populationTrendQuestion, 'Grade 9 population trend question must exist');
+assert.equal(
+  populationTrendQuestion.options[populationTrendQuestion.answer],
+  'Quy mô dân số lớn trên 100 triệu người, mức sinh giảm nhưng chênh lệch vùng miền còn tồn tại và đang chuyển nhanh từ dân số vàng sang già hóa',
+  'Grade 9 population trend answer must reflect the official population data'
+);
+assert.match(populationTrendQuestion.explanation, /100,3 triệu người/);
 const lessonById = new Map(historyGeographyLessonDrafts.map((lesson) => [lesson.id, lesson]));
 const lessonIds = new Set(lessonById.keys());
 for (const lesson of historyGeographyLessonDrafts) {
