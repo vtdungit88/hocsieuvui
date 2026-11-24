@@ -198,7 +198,7 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
     color: 'from-cyan-600 to-blue-700',
     description: 'Khám phá bản đồ Việt Nam, vùng miền, các triều đại lịch sử và văn minh nhân loại.',
     status: 'active',
-    tagline: 'Lớp 4 → 9 · 202 bài · 3.030 câu',
+    tagline: 'Lớp 4–5 đang mở · Lớp 6–9 chờ thẩm định',
     schoolLevels: ['primary', 'secondary'],
     levelMeta: {
       primary: {
@@ -207,18 +207,18 @@ export const SUBJECTS_CATALOG: SubjectMeta[] = [
         gradeRangeLabel: 'Lớp 4 – 5'
       },
       secondary: {
-        tagline: 'Lớp 6 → 9 · 166 bài · 2.490 câu',
-        description: 'Lịch sử Việt Nam, thế giới cổ – cận – hiện đại, địa lí tự nhiên – kinh tế và chủ đề chung (Kết nối tri thức 6–9).',
+        tagline: '166 bài soạn · 2.490 câu đang chờ thẩm định',
+        description: 'Bản nháp theo Kết nối tri thức đã được biên soạn; đang chờ giáo viên thẩm định độc lập và kiểm thử luồng học trước khi mở lớp 6–9.',
         gradeRangeLabel: 'Lớp 6 – 9'
       }
     },
     availableGrades: [
       { grade: '4', term1Available: true, term2Available: true, notes: '6 chương, 18 bài (270 câu)' },
       { grade: '5', term1Available: true, term2Available: true, notes: '6 chương, 18 bài (270 câu)' },
-      { grade: '6', term1Available: true, term2Available: true, notes: '12 chương, 50 bài (750 câu · Kết nối tri thức)' },
-      { grade: '7', term1Available: true, term2Available: true, notes: '13 chương, 39 bài (585 câu · Kết nối tri thức)' },
-      { grade: '8', term1Available: true, term2Available: true, notes: '12 chương, 33 bài (495 câu · Kết nối tri thức)' },
-      { grade: '9', term1Available: true, term2Available: true, notes: '11 chương, 44 bài (660 câu · Kết nối tri thức)' }
+      { grade: '6', term1Available: false, term2Available: false, notes: '50 bài nháp, 750 câu; chờ thẩm định độc lập, chưa mở cho học sinh' },
+      { grade: '7', term1Available: false, term2Available: false, notes: '39 bài nháp, 585 câu; chờ thẩm định độc lập, chưa mở cho học sinh' },
+      { grade: '8', term1Available: false, term2Available: false, notes: '33 bài nháp, 495 câu; chờ thẩm định độc lập, chưa mở cho học sinh' },
+      { grade: '9', term1Available: false, term2Available: false, notes: '44 bài nháp, 660 câu; chờ thẩm định độc lập, chưa mở cho học sinh' }
     ]
   },
   {
