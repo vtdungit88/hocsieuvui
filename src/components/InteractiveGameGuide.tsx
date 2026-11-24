@@ -1,5 +1,5 @@
-import React, { useEffect, useMemo, useState } from 'react';
-import { BookOpen, ChevronRight, Compass, Map, Music2, SkipForward, Sparkles, Trophy, Users, X, Zap } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
+import { BookOpen, ChevronRight, Map, SkipForward, Sparkles, Trophy, Users, X, Zap } from 'lucide-react';
 import { soundManager } from '../utils/audio';
 
 type GuideView = 'study' | 'shop' | 'blitz' | 'map' | 'leaderboard' | 'lobby';
