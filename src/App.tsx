@@ -62,6 +62,17 @@ export default function App() {
   const [cityOnlineCounts, setCityOnlineCounts] = useState<Record<string, number>>({});
   const onlineCount = useOnlineCount();
   useRecordVisit();
+
+  // Start background music only after the first genuine user gesture (browser autoplay policy).
+  useEffect(() => {
+    const unlockMusic = () => gameMusic.unlock();
+    window.addEventListener('pointerdown', unlockMusic, { once: true });
+    window.addEventListener('keydown', unlockMusic, { once: true });
+    return () => {
+      window.removeEventListener('pointerdown', unlockMusic);
+      window.removeEventListener('keydown', unlockMusic);
+    };
+  }, []);
   useEffect(() => {
     if (!isSupabaseConfigured) return;
     const t = setTimeout(() => {
