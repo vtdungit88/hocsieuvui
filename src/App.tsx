@@ -14,6 +14,7 @@ import {
 import { getVisitorId, useOnlineCount, useRecordVisit } from './lib/presence';
 import { levelFromXp } from './data/levels';
 import { soundManager } from './utils/audio';
+import { gameMusic } from './utils/gameMusic';
 import { CoinIcon, StarIcon } from './components/GameIcons';
 import { Navbar, type AppView } from './components/Navbar';
 import { AvatarStudio } from './components/AvatarStudio';
@@ -34,6 +35,7 @@ import { SubjectIcon } from './components/home/subjectIcons';
 import { SUBJECTS_CATALOG } from './data/subjectsCatalog';
 import type { SubjectMeta } from './types';
 import { VirtualAssistant } from './components/VirtualAssistant';
+import { InteractiveGameGuide } from './components/InteractiveGameGuide';
 import { UpdateBanner } from './components/UpdateBanner';
 import { MascotReaction } from './components/MascotReaction';
 import { AppBackdrop } from './components/AppBackdrop';
@@ -87,6 +89,28 @@ export default function App() {
   const [isTravelModalOpen, setIsTravelModalOpen] = useState(false);
   const [showTicker, setShowTicker] = useState(true);
   const [isMuted, setIsMuted] = useState(() => soundManager.getMuted());
+  const [isGuideOpen, setIsGuideOpen] = useState(false);
+
+  useEffect(() => {
+    gameMusic.setScene(currentView);
+  }, [currentView]);
+
+  // Show the mascot walkthrough once on the first visit to each main area.
+  useEffect(() => {
+    let timer: number | undefined;
+    try {
+      const key = `hsv_guide_seen_${currentView}`;
+      if (localStorage.getItem(key) !== '1') timer = window.setTimeout(() => setIsGuideOpen(true), 650);
+    } catch {
+      timer = window.setTimeout(() => setIsGuideOpen(true), 650);
+    }
+    return () => { if (timer !== undefined) window.clearTimeout(timer); };
+  }, [currentView]);
+
+  const closeGameGuide = () => {
+    try { localStorage.setItem(`hsv_guide_seen_${currentView}`, '1'); } catch { /* storage optional */ }
+    setIsGuideOpen(false);
+  };
 
   // Restore the Supabase session and keep the profile in sync with auth state.
   useEffect(() => {
@@ -175,6 +199,8 @@ export default function App() {
   // Handle sound toggle
   const handleToggleSound = () => {
     const muted = soundManager.toggleMute();
+    gameMusic.setMuted(muted);
+    if (!muted) gameMusic.unlock();
     setIsMuted(muted);
     if (!muted) {
       soundManager.play('click');
@@ -239,6 +265,7 @@ export default function App() {
             setLearning(false);
             setPickSubject(null);
           }
+          gameMusic.unlock();
           setCurrentView(v);
         }}
         student={student}
@@ -743,6 +770,13 @@ export default function App() {
       <UpdateBanner />
 
       {/* Trợ Lý Ảo Học Siêu Vui & Hộp Thư Góp Ý */}
+      <InteractiveGameGuide
+        view={currentView}
+        open={isGuideOpen}
+        onClose={closeGameGuide}
+        onNavigate={(view) => { closeGameGuide(); gameMusic.unlock(); setCurrentView(view); }}
+      />
+
       <VirtualAssistant
         student={student}
         onNavigateToView={(view) => {
