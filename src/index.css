@@ -70,3 +70,29 @@ img,svg,video,canvas{max-width:100%} button,a,[role="button"]{-webkit-tap-highli
 @media(max-width:420px){.hsv-question-options{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:380px){.hsv-studio-items{grid-template-columns:minmax(0,1fr)}}
 @media(min-width:768px){.hsv-mobile-nav{display:none}}
+
+/* Cultural celebration background + resilient announcement ticker */
+.hsv-cultural-app {
+  background-color:#f7f2e6;
+  background-image:radial-gradient(ellipse at 8% 12%,rgba(190,143,63,.12),transparent 28rem),radial-gradient(ellipse at 92% 82%,rgba(30,112,75,.10),transparent 32rem),repeating-linear-gradient(135deg,rgba(130,98,44,.025) 0 2px,transparent 2px 7px);
+  background-attachment:fixed;
+}
+.dark .hsv-cultural-app {
+  background-color:#111b24;
+  background-image:radial-gradient(ellipse at 8% 12%,rgba(190,143,63,.12),transparent 28rem),radial-gradient(ellipse at 92% 82%,rgba(30,112,75,.12),transparent 32rem),repeating-linear-gradient(135deg,rgba(220,200,150,.025) 0 2px,transparent 2px 7px);
+}
+.hsv-cultural-ticker{min-width:0}
+.hsv-ticker-brand{max-width:clamp(7rem,19vw,12rem)}
+.hsv-ticker-brand>span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hsv-ticker-track{min-width:0}
+.hsv-ticker-message{width:max-content;padding-inline:1rem;animation:hsv-culture-marquee 24s linear infinite}
+.hsv-cultural-ticker:hover .hsv-ticker-message{animation-play-state:paused}
+@keyframes hsv-culture-marquee{0%{transform:translateX(100%)}100%{transform:translateX(-100%)}}
+@media(max-width:640px){
+ .hsv-cultural-ticker{gap:.375rem;padding-inline:.375rem!important}
+ .hsv-ticker-brand{max-width:5.8rem;gap:.25rem!important}
+ .hsv-ticker-brand img{width:1.125rem;height:1.125rem}
+ .hsv-ticker-brand>span{font-size:8px!important;letter-spacing:.02em!important;padding-inline:.25rem!important}
+ .hsv-ticker-message{padding-inline:.5rem;animation-duration:18s}
+ .hsv-ticker-actions button{padding-inline:.375rem!important;font-size:9px!important}
+}
