@@ -163,6 +163,30 @@ h1, h2, h3, h4, .font-display {
   animation-play-state: paused;
 }
 
+@keyframes hsv-ticker-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.hsv-ticker-marquee {
+  animation: hsv-ticker-scroll 26s linear infinite;
+  will-change: transform;
+}
+
+.hsv-cultural-ticker:hover .hsv-ticker-marquee {
+  animation-play-state: paused;
+}
+
+@media (max-width: 640px) {
+  .hsv-ticker-marquee {
+    animation-duration: 18s;
+  }
+}
+
 /* Studio Character & Pet Game Animations (compositor-only: transform & opacity) */
 @keyframes studioBreathe {
   0%, 100% {
@@ -410,9 +434,13 @@ h1, h2, h3, h4, .font-display {
   .studio-sparkle-burst,
   .studio-sparkle-twinkle,
   .studio-unbox-rays,
-  .animate-marquee {
+  .animate-marquee,
+  .hsv-ticker-marquee {
     animation: none !important;
     padding-left: 0 !important;
     white-space: normal;
+  }
+  .hsv-ticker-clone {
+    display: none !important;
   }
 }

@@ -15,6 +15,15 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.12',
+    date: '2026-11-24',
+    title: 'Giao diện chào mừng Ngày Văn hóa Việt Nam 24/11',
+    items: [
+      'Cập nhật nền toàn hệ thống với bức tranh lễ hội dân gian Việt Nam rực rỡ cùng nhân vật hoạt hình thiếu nhi, cây đa và cờ hội (hỗ trợ cả chế độ sáng và tối).',
+      'Thay mới dòng chữ chạy chào mừng Ngày Văn hóa Việt Nam 24/11 và cân bằng chiều rộng hiển thị mượt mà trên cả máy tính lẫn điện thoại.'
+    ]
+  },
+  {
     version: '0.2.11',
     date: '2026-11-24',
     title: 'Cập nhật hướng dẫn Trợ lý ảo & trọn bộ Toán 9 (Chương 6–8)',

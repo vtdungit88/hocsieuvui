@@ -41,7 +41,6 @@ import { SocialLobbyView } from './components/SocialLobbyView';
 import { LevelProgressionView } from './components/LevelProgressionView';
 import { VietnamTravelModal } from './components/VietnamTravelModal';
 import { APP_LOGO_SRC } from './data/versionHistory';
-import { RELEASE_NOTES } from './data/releaseNotes';
 import { GradeLevel, SchoolLevel } from './types';
 import { ShieldCheck, Bell, X } from 'lucide-react';
 
@@ -267,7 +266,7 @@ export default function App() {
   }
 
   return (
-    <div className="relative min-h-screen bg-sky-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 font-sans flex flex-col selection:bg-blue-500 selection:text-white">
+    <div className="relative min-h-screen bg-[#f6efe0] dark:bg-slate-950 text-slate-900 dark:text-slate-100 font-sans flex flex-col selection:bg-blue-500 selection:text-white">
       <AppBackdrop view={currentView} />
       {/* 3-Zone Navigation Header */}
       <Navbar
@@ -291,50 +290,55 @@ export default function App() {
         onToggleSound={handleToggleSound}
       />
 
-      {/* Gentle 1-Line Running Announcement Ribbon with Mascot Logo & Version */}
+      {/* Balanced Full-Width Running Cultural Celebration Ribbon */}
       {showTicker && (
-        <div className="bg-gradient-to-r from-amber-500 via-orange-500 to-rose-500 text-slate-950 text-sm md:text-base font-bold py-2.5 px-3 sm:px-5 shadow-sm min-h-11 flex items-center justify-between gap-3 overflow-hidden select-none">
-          <div className="flex items-center gap-2 overflow-hidden shrink-0">
-            <img
-              src={APP_LOGO_SRC}
-              alt="Logo"
-              className="w-8 h-8 rounded-lg object-cover border border-black/20 shrink-0"
-            />
-            <span className="bg-black/20 text-white px-2.5 py-1 rounded-lg text-xs md:text-sm uppercase font-black tracking-wider hidden sm:flex flex items-center gap-1">
-              <span>Học Siêu Vui</span>
-            </span>
-          </div>
-          <div className="flex-1 overflow-hidden whitespace-nowrap text-sm md:text-base min-w-0">
-            <div className="inline-block animate-marquee hover:pause">
-              🎉 <strong>Mới {RELEASE_NOTES[0].version}: {RELEASE_NOTES[0].title}.</strong> {RELEASE_NOTES[0].items.join(' • ')}
+        <div className="relative z-10 hsv-cultural-ticker w-full bg-gradient-to-r from-amber-400 via-orange-400 to-rose-500 text-slate-950 text-xs sm:text-sm md:text-base font-bold py-2 px-2 sm:px-5 shadow-sm min-h-11 overflow-hidden select-none">
+          <div className="max-w-screen-2xl mx-auto w-full flex items-center gap-2 sm:gap-3 min-w-0">
+            <div className="hsv-ticker-brand flex items-center gap-2 shrink-0 min-w-0">
+              <img
+                src={APP_LOGO_SRC}
+                alt="Logo"
+                className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg object-cover border border-black/20 shrink-0"
+              />
+              <span className="hidden md:inline-flex items-center bg-black/20 text-white px-2.5 py-1 rounded-lg text-xs uppercase font-black tracking-wider whitespace-nowrap">
+                Học Siêu Vui
+              </span>
+            </div>
+
+            <div className="hsv-ticker-track flex-1 min-w-0 overflow-hidden whitespace-nowrap">
+              <div className="hsv-ticker-marquee flex w-max items-center">
+                <span className="hsv-ticker-copy inline-flex items-center gap-2 pr-10 sm:pr-16">
+                  🌿 Chào mừng ngày Văn hóa Việt Nam 24/11 — Tôn vinh Bản sắc và Di sản Văn hóa 🌿
+                </span>
+                <span aria-hidden="true" className="hsv-ticker-copy hsv-ticker-clone inline-flex items-center gap-2 pr-10 sm:pr-16">
+                  🌿 Chào mừng ngày Văn hóa Việt Nam 24/11 — Tôn vinh Bản sắc và Di sản Văn hóa 🌿
+                </span>
               </div>
-          </div>
-          <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
-            <button
-              onClick={() => {
-                soundManager.play('click');
-                setCurrentView('lobby');
-              }}
-              className="px-3 py-1.5 bg-black/30 hover:bg-black/40 text-amber-200 hover:text-white rounded-lg text-xs md:text-sm font-bold transition-colors cursor-pointer flex items-center gap-1"
-            >
-              <span>✈️ Sảnh & Du Hành</span>
-            </button>
-            <button
-              onClick={() => {
-                soundManager.play('click');
-                setIsUpdateNoticeOpen(true);
-              }}
-              className="px-3 py-1.5 bg-black/20 hover:bg-black/30 text-white rounded-lg text-xs md:text-sm font-semibold transition-colors cursor-pointer hidden sm:inline"
-            >
-              Tính năng mới
-            </button>
-            <button
-              onClick={() => setShowTicker(false)}
-              className="text-black/70 hover:text-black p-1.5 cursor-pointer"
-              title="Đóng thanh thông báo"
-            >
-              <X className="w-5 h-5" />
-            </button>
+            </div>
+
+            <div className="hsv-ticker-actions flex items-center gap-1 sm:gap-2 shrink-0">
+              <button
+                type="button"
+                onClick={() => {
+                  soundManager.play('click');
+                  setCurrentView('lobby');
+                }}
+                className="px-2.5 sm:px-3 py-1 sm:py-1.5 bg-black/25 hover:bg-black/35 text-amber-100 hover:text-white rounded-lg text-[11px] sm:text-xs md:text-sm font-bold transition-colors cursor-pointer whitespace-nowrap flex items-center gap-1"
+              >
+                <span>✈️</span>
+                <span className="sm:hidden">Du Hành</span>
+                <span className="hidden sm:inline">Sảnh &amp; Du Hành</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => setShowTicker(false)}
+                className="text-black/75 hover:text-black p-1 sm:p-1.5 cursor-pointer shrink-0"
+                title="Đóng thanh thông báo"
+                aria-label="Đóng thanh thông báo"
+              >
+                <X className="w-4 h-4 sm:w-5 sm:h-5" />
+              </button>
+            </div>
           </div>
         </div>
       )}
