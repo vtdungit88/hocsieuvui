@@ -441,3 +441,12 @@ Cần rà soát vai trò truy cập và thiết kế policy phù hợp trước 
 2. Tạo staging Supabase sau khi chủ dự án chấp thuận chi phí; import idempotent vào staging, kiểm tra RLS/RPC và xác nhận không lộ khóa đáp án.
 3. Bổ sung E2E riêng cho chọn môn/lớp, tải chương-bài, bắt đầu quiz, trả lời, chấm điểm, lưu tiến độ; chạy kiểm thử phone/tablet/desktop trên luồng môn này.
 4. Chỉ mở cờ lớp 6–9 và publish sau khi có bằng chứng review, staging và CI xanh trên commit cuối.
+
+
+## 14. Spot-check đáp án dân số lớp 9 — 24/11/2026
+
+- Khi kiểm tra mẫu theo từng lớp và phân môn, phát hiện câu `LSDL9-B22-015` (Lớp 9, Địa lí, Bài 1 — Dân tộc và dân số) có đáp án đã xuất bản sai: lựa chọn A khẳng định dân số Việt Nam giảm xuống dưới 30 triệu người. Dữ liệu chính thức của Tổng cục Thống kê cho biết dân số trung bình năm 2023 là **100,3 triệu người**, mức sinh giảm và tốc độ tăng dân số giảm dần: [Thông cáo Tổng cục Thống kê năm 2023](https://www.nso.gov.vn/tin-tuc-thong-ke/2023/12/thong-cao-bao-chi-ve-tinh-hinh-kinh-te-xa-hoi-quy-iv-va-nam-2023/).
+- Đã sửa **bản nháp nguồn** và file batch lớp 9: đáp án đúng chuyển sang lựa chọn B; giải thích ghi rõ mốc 100,3 triệu người. Validator có regression guard cho câu này để ngăn lỗi quay lại.
+- Kiểm tra production cho thấy bản ghi `LSDL9-B22-015` vẫn ở trạng thái `published`, hiện chưa có lượt trả lời. Không tự sửa hoặc archive bằng SQL trực tiếp: RPC quản trị `admin_question_bank_set_status` yêu cầu phiên đăng nhập có `auth.uid()` và vai trò `platform_admin`; kết nối kiểm tra cơ sở dữ liệu hiện không có ngữ cảnh đăng nhập đó.
+- **Cần chủ dự án/người có vai trò platform_admin thao tác trong Admin Question Bank:** tìm mã `LSDL9-B22-015`, chuyển sang `archived` với ghi chú sai đáp án theo số liệu Tổng cục Thống kê; bản thay thế đúng chỉ được tạo ở trạng thái draft/pending_review và cần người khác thẩm định trước khi publish. Không bỏ qua quy trình này.
+- Một lỗi đã được phát hiện qua spot-check đủ để kết luận 2.490 câu hỏi chưa thể coi là đã thẩm định. Cần tiếp tục rà soát toàn bộ câu hỏi và giải thích, không suy rộng kết quả spot-check thành chứng nhận chất lượng toàn bộ ngân hàng.
