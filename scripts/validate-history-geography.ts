@@ -46,10 +46,17 @@ const historyGeoSubject = SUBJECTS_CATALOG.find((subject) => subject.id === 'his
 assert.ok(historyGeoSubject, 'History & Geography must remain in the subject catalog');
 assert.equal(historyGeoSubject.dbCode, 'lsdl', 'History & Geography database code must remain stable');
 const availabilityByGrade = new Map(historyGeoSubject.availableGrades.map((item) => [item.grade, item]));
-for (const grade of ['4', '5', '6', '7', '8', '9'] as const) {
+for (const grade of ['4', '5'] as const) {
   const availability = availabilityByGrade.get(grade);
   assert.ok(availability, `History & Geography catalog is missing grade ${grade}`);
-  assert.ok(availability.term1Available && availability.term2Available, `History & Geography grade ${grade} must be unlocked`);
+  assert.ok(availability.term1Available && availability.term2Available, `Existing History & Geography grade ${grade} must remain open`);
+}
+for (const grade of ['6', '7', '8', '9'] as const) {
+  const availability = availabilityByGrade.get(grade);
+  assert.ok(availability, `History & Geography catalog is missing grade ${grade}`);
+  assert.equal(availability.term1Available, false, `Grade ${grade} must remain locked until independent content review and runtime E2E pass`);
+  assert.equal(availability.term2Available, false, `Grade ${grade} must remain locked until independent content review and runtime E2E pass`);
+  assert.match(availability.notes ?? '', /chờ thẩm định/i, `Grade ${grade} must explain its review gate`);
 }
 
 
