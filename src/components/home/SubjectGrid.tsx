@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Backpack, ChevronDown, GraduationCap, Rocket } from 'lucide-react';
 import {
   SUBJECTS_CATALOG,
+  getGradesForSubject,
   getSubjectLevelInfo,
   getSubjectsForLevel
 } from '../../data/subjectsCatalog';
@@ -33,6 +34,9 @@ export const SubjectGrid: React.FC<Props> = ({ onPick }) => {
     subjects: SubjectMeta[]
   ) => {
     const expanded = expandedLevel === level;
+    const openSubjectCount = subjects.filter((subject) =>
+      getGradesForSubject(subject, level).some((item) => item.term1Available || item.term2Available)
+    ).length;
 
     return (
       <section
@@ -60,9 +64,9 @@ export const SubjectGrid: React.FC<Props> = ({ onPick }) => {
               <span className="block text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-0.5">
                 {summary}
               </span>
-              <span className="inline-flex items-center gap-1.5 mt-2 text-[11px] font-bold text-emerald-700 dark:text-emerald-300">
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-                {subjects.length} {subjects.length === 1 ? 'môn đang mở' : 'môn đang mở'}
+              <span className={`inline-flex items-center gap-1.5 mt-2 text-[11px] font-bold ${openSubjectCount > 0 ? 'text-emerald-700 dark:text-emerald-300' : 'text-amber-700 dark:text-amber-300'}`}>
+                <span className={`w-1.5 h-1.5 rounded-full ${openSubjectCount > 0 ? 'bg-emerald-500' : 'bg-amber-500'}`} />
+                {openSubjectCount > 0 ? `${openSubjectCount} môn đang mở` : 'Chưa có môn mở'}
               </span>
             </span>
           </span>
@@ -80,6 +84,9 @@ export const SubjectGrid: React.FC<Props> = ({ onPick }) => {
             <div className="hsv-subject-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
               {subjects.map((subj) => {
                 const info = getSubjectLevelInfo(subj, level);
+                const hasOpenGrade = getGradesForSubject(subj, level).some(
+                  (item) => item.term1Available || item.term2Available
+                );
                 return (
                   <button
                     key={`${level}-${subj.id}`}
@@ -92,15 +99,15 @@ export const SubjectGrid: React.FC<Props> = ({ onPick }) => {
                       <span className="w-11 h-11 rounded-xl bg-white/25 backdrop-blur flex items-center justify-center shadow-inner">
                         <SubjectIcon name={subj.iconName} className="w-6 h-6" />
                       </span>
-                      <span className="text-[10px] font-black uppercase bg-white text-emerald-700 px-2.5 py-1 rounded-full shadow">
-                        Đang mở
+                      <span className={`text-[10px] font-black uppercase bg-white px-2.5 py-1 rounded-full shadow ${hasOpenGrade ? 'text-emerald-700' : 'text-amber-700'}`}>
+                        {hasOpenGrade ? 'Đang mở' : 'Chờ thẩm định'}
                       </span>
                     </div>
                     <div className="relative mt-3">
                       <h3 className="text-lg font-black leading-tight">{subj.name}</h3>
                       {info.tagline && <p className="text-xs font-bold text-white/90 mt-0.5">{info.tagline}</p>}
                       <span className="mt-2.5 inline-flex items-center gap-1 text-xs font-black bg-white/25 group-hover:bg-white group-hover:text-slate-900 px-3 py-1.5 rounded-full transition-colors">
-                        Vào học <Rocket className="w-3.5 h-3.5" />
+                        {hasOpenGrade ? 'Vào học' : 'Xem trạng thái'} <Rocket className="w-3.5 h-3.5" />
                       </span>
                     </div>
                   </button>
