@@ -65,8 +65,9 @@ jobs:
           VITE_BASE: /hocsieuvui/
           VITE_SUPABASE_URL: https://owqbwykjabwevkbjroym.supabase.co
           VITE_SUPABASE_PUBLISHABLE_KEY: sb_publishable_mFToduXSchitIMvx1HWQaw_JWrWD3IG
-      - name: Serve and check responsive layout (phone / tablet / desktop)
+      - name: Serve preview and verify History & Geography release gate
         run: |
           npx vite preview --port 4173 --host 127.0.0.1 > preview.log 2>&1 &
           for i in $(seq 1 30); do curl -sf http://127.0.0.1:4173/hocsieuvui/ >/dev/null && break; sleep 1; done
+          PREVIEW_URL=http://127.0.0.1:4173/hocsieuvui/ node tests/history-geography-lock.mjs
           PREVIEW_URL=http://127.0.0.1:4173/hocsieuvui/ node tests/layout-check.mjs
