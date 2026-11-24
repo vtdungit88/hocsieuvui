@@ -3,7 +3,7 @@
  * Mỗi lần thêm/sửa tính năng người dùng nhìn thấy:
  *   1) thêm một mục MỚI lên ĐẦU danh sách này (tăng `version` và `package.json`),
  *   2) nếu là tính năng mới, thêm vào GUIDE_ITEMS / INTENTS của trợ lý ảo (`assistantBrain.ts`).
- * Trợ lý ảo (Bé Siêu Vui) đọc danh sách này để trả lời "có gì mới?" và thanh cập nhật hiển thị mục đầu tiên.
+ * Trợ lý ảo (Vui-Bot) đọc danh sách này để trả lời "có gì mới?" và thanh cập nhật hiển thị mục đầu tiên.
  * CI (tests/check-release-notes.mjs) kiểm tra `version` mục đầu khớp `package.json`.
  */
 export interface ReleaseNote {
@@ -14,6 +14,15 @@ export interface ReleaseNote {
 }
 
 export const RELEASE_NOTES: ReleaseNote[] = [
+  {
+    version: '0.2.14',
+    date: '2026-11-24',
+    title: 'Đồng bộ nhân vật Trợ lý ảo Vui-Bot trên toàn hệ thống',
+    items: [
+      'Thay thế nhân vật trợ lý trên Trang chủ, Trò chuyện, Bản đồ ải, Phản ứng trả lời câu hỏi và Sảnh Online bằng bộ nhân vật robot Vui-Bot thống nhất (hiệu ứng bay nhẹ, nháy mắt, vẫy tay và nhiều biểu cảm vui vẻ, chỉ dẫn, suy nghĩ, ngạc nhiên, cổ vũ).',
+      'Tích hợp Hướng dẫn tương tác Vui-Bot (Interactive Game Guide) theo từng khu vực cùng bong bóng gợi ý bài học, nhắc nhiệm vụ và chúc mừng theo hoạt động của học sinh.'
+    ]
+  },
   {
     version: '0.2.13',
     date: '2026-11-24',

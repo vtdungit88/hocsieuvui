@@ -435,7 +435,11 @@ h1, h2, h3, h4, .font-display {
   .studio-sparkle-twinkle,
   .studio-unbox-rays,
   .animate-marquee,
-  .hsv-ticker-marquee {
+  .hsv-ticker-marquee,
+  .vuibot-anim-float,
+  .vuibot-anim-wave,
+  .vuibot-anim-cheer,
+  .vuibot-anim-blink {
     animation: none !important;
     padding-left: 0 !important;
     white-space: normal;
@@ -444,3 +448,84 @@ h1, h2, h3, h4, .font-display {
     display: none !important;
   }
 }
+
+/* Unified Vui-Bot Mascot Animations (compositor-only: transform & opacity) */
+@keyframes vuibotFloat {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(-1deg);
+  }
+  50% {
+    transform: translate3d(0, -8px, 0) rotate(1.5deg);
+  }
+}
+
+@keyframes vuibotWave {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(-2deg) scale(1);
+  }
+  25% {
+    transform: translate3d(0, -6px, 0) rotate(4deg) scale(1.03);
+  }
+  50% {
+    transform: translate3d(0, -8px, 0) rotate(-3deg) scale(1.03);
+  }
+  75% {
+    transform: translate3d(0, -4px, 0) rotate(3deg) scale(1.02);
+  }
+}
+
+@keyframes vuibotCheer {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  40% {
+    transform: translate3d(0, -10px, 0) scale(1.05);
+  }
+  70% {
+    transform: translate3d(0, -2px, 0) scale(0.98);
+  }
+}
+
+@keyframes vuibotVisorBlink {
+  0%, 88%, 100% {
+    opacity: 0;
+    transform: scaleY(0.4);
+  }
+  92% {
+    opacity: 0.7;
+    transform: scaleY(0.15);
+  }
+  96% {
+    opacity: 0;
+    transform: scaleY(1);
+  }
+}
+
+@keyframes guideFloat {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(-1deg);
+  }
+  50% {
+    transform: translate3d(0, -10px, 0) rotate(1.5deg);
+  }
+}
+
+.vuibot-anim-float {
+  animation: vuibotFloat 3.4s ease-in-out infinite;
+  will-change: transform;
+}
+
+.vuibot-anim-wave {
+  animation: vuibotWave 2.6s ease-in-out infinite;
+  will-change: transform;
+}
+
+.vuibot-anim-cheer {
+  animation: vuibotCheer 1.8s ease-in-out infinite;
+  will-change: transform;
+}
+
+.vuibot-anim-blink {
+  animation: vuibotVisorBlink 4.6s ease-in-out infinite;
+}
+

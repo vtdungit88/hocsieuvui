@@ -6,10 +6,11 @@ import { soundManager } from '../../utils/audio';
 import { IslandArt, BIOMES } from '../map/IslandArt';
 import { MapScenery } from '../map/MapScenery';
 import { StarIcon } from '../GameIcons';
+import { VUIBOT_ASSETS } from '../../data/vuibotMascot';
 
 interface Props { student: StudentProfile; onOpen: () => void }
 
-const MASCOT_FACE = `${import.meta.env.BASE_URL}assets/icons/mascot-face.webp`;
+const VUI_BOT_GUIDE = VUIBOT_ASSETS.guiding;
 // A tiny zig-zag of five islands, one per biome, to tempt kids into the full map.
 const SPOTS = [
   { x: 14, y: 62, kind: 'normal' as const }, { x: 34, y: 34, kind: 'normal' as const }, { x: 54, y: 64, kind: 'mini_boss' as const },
@@ -39,7 +40,7 @@ export const MapPreview: React.FC<Props> = ({ student, onOpen }) => {
             <IslandArt biome={BIOMES[i % BIOMES.length]} kind={s.kind} locked={false} cleared={false} className={s.kind === 'boss' ? 'w-24 h-24 sm:w-28 sm:h-28' : 'w-16 h-16 sm:w-20 sm:h-20'} />
           </div>
         ))}
-        <img src={MASCOT_FACE} alt="" className="absolute w-12 h-12 rounded-full border-4 border-white shadow-lg bg-sky-200 object-cover hsv-anim-hop" style={{ left: '8%', top: '18%' }} />
+        <img src={VUI_BOT_GUIDE} alt="Vui-Bot khám phá bản đồ" className="absolute w-14 h-14 object-contain drop-shadow-lg hsv-anim-hop" style={{ left: '7%', top: '14%' }} />
       </div>
       <div className="relative bg-white dark:bg-slate-900 px-5 py-4 flex flex-col sm:flex-row items-center gap-3 sm:justify-between">
         <div className="text-center sm:text-left">

@@ -2,13 +2,13 @@ import React, { useEffect, useRef, useState } from 'react';
 import confetti from 'canvas-confetti';
 import { onMascot } from '../lib/mascotBus';
 import { soundManager } from '../utils/audio';
+import { VuiBotMascot } from './VuiBotMascot';
 
 const CORRECT = ['Chính xác! 🎉', 'Giỏi quá!', 'Đúng rồi, tuyệt vời!', 'Siêu đỉnh!'];
-const base = import.meta.env.BASE_URL;
 
 type Shown = { kind: 'correct' | 'wrong' | 'streak'; text: string; badge?: string; key: number };
 
-/** Floating mascot that reacts to quiz answers (correct, wrong, 5-in-a-row streak). */
+/** Floating Vui-Bot mascot that reacts to quiz answers (correct, wrong, 5-in-a-row streak). */
 export const MascotReaction: React.FC = () => {
   const [shown, setShown] = useState<Shown | null>(null);
   const timer = useRef<number | null>(null);
@@ -41,12 +41,17 @@ export const MascotReaction: React.FC = () => {
   const ring = shown.kind === 'wrong' ? 'border-sky-400' : shown.kind === 'streak' ? 'border-amber-400' : 'border-emerald-400';
   return (
     <div key={shown.key} role="status" aria-live="polite" className="pointer-events-none fixed left-3 bottom-24 md:bottom-6 z-40 max-w-[18rem] flex items-end gap-2">
-      <div className="relative shrink-0">
-        <img src={`${base}assets/icons/mascot-face.webp`} alt="" className={`w-16 h-16 rounded-full border-4 ${ring} bg-sky-200 object-cover shadow-xl ${shown.kind === 'wrong' ? 'motion-safe:-rotate-6' : 'motion-safe:animate-bounce'}`} />
+      <div className={`relative shrink-0 w-18 h-18 rounded-2xl border-2 ${ring} bg-white/90 dark:bg-slate-900/90 shadow-xl flex items-center justify-center p-1`}>
+        <VuiBotMascot
+          expression={shown.kind === 'wrong' ? 'thinking' : 'cheer'}
+          motion={shown.kind === 'wrong' ? 'float' : 'cheer'}
+          showBlinkGlint={false}
+          className="w-16 h-16"
+          alt=""
+        />
         {shown.kind !== 'wrong' && (
-          <span aria-hidden className="absolute -top-3 -right-1 text-2xl">
-            <span className="motion-safe:animate-ping absolute inline-flex opacity-70">💡</span>
-            <span className="relative">💡</span>
+          <span aria-hidden className="absolute -top-2.5 -right-1.5 text-xl">
+            💡
           </span>
         )}
       </div>

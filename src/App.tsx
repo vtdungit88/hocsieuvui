@@ -14,6 +14,8 @@ import {
 import { getVisitorId, useOnlineCount, useRecordVisit } from './lib/presence';
 import { levelFromXp } from './data/levels';
 import { soundManager } from './utils/audio';
+import { gameMusic } from './utils/gameMusic';
+import { mapAudio } from './utils/mapAudio';
 import { CoinIcon, StarIcon } from './components/GameIcons';
 import { Navbar, type AppView } from './components/Navbar';
 import { AvatarStudio } from './components/AvatarStudio';
@@ -34,6 +36,7 @@ import { SubjectIcon } from './components/home/subjectIcons';
 import { SUBJECTS_CATALOG } from './data/subjectsCatalog';
 import type { SubjectMeta } from './types';
 import { VirtualAssistant } from './components/VirtualAssistant';
+import { GUIDE_DISABLED_KEY, InteractiveGameGuide } from './components/InteractiveGameGuide';
 import { UpdateBanner } from './components/UpdateBanner';
 import { MascotReaction } from './components/MascotReaction';
 import { AppBackdrop } from './components/AppBackdrop';
@@ -48,7 +51,7 @@ export default function App() {
   const [student, setStudent] = useState<StudentProfile>(() => {
     scrubLegacyPasswords();
     // Legacy local-only accounts are ignored: identity now comes from Supabase Auth.
-    const guest = createInitialProfile('Bé Siêu Vui', '6', '', 'boy', true);
+    const guest = createInitialProfile('Bạn nhỏ', '6', '', 'boy', true);
     setActiveStudentId(guest.id);
     return guest;
   });
@@ -59,6 +62,17 @@ export default function App() {
   const [cityOnlineCounts, setCityOnlineCounts] = useState<Record<string, number>>({});
   const onlineCount = useOnlineCount();
   useRecordVisit();
+
+  // Start background music only after the first genuine user gesture (browser autoplay policy).
+  useEffect(() => {
+    const unlockMusic = () => gameMusic.unlock();
+    window.addEventListener('pointerdown', unlockMusic, { once: true });
+    window.addEventListener('keydown', unlockMusic, { once: true });
+    return () => {
+      window.removeEventListener('pointerdown', unlockMusic);
+      window.removeEventListener('keydown', unlockMusic);
+    };
+  }, []);
   useEffect(() => {
     if (!isSupabaseConfigured) return;
     const t = setTimeout(() => {
@@ -86,6 +100,38 @@ export default function App() {
   const [isTravelModalOpen, setIsTravelModalOpen] = useState(false);
   const [showTicker, setShowTicker] = useState(true);
   const [isMuted, setIsMuted] = useState(() => soundManager.getMuted());
+  const [isGuideOpen, setIsGuideOpen] = useState(false);
+
+  useEffect(() => {
+    gameMusic.setScene(currentView);
+  }, [currentView]);
+
+  // Show the Vui-Bot walkthrough once on the first visit to each main area unless opted out.
+  useEffect(() => {
+    let timer: number | undefined;
+    try {
+      if (localStorage.getItem(GUIDE_DISABLED_KEY) === '1') return;
+      const key = `hsv_guide_seen_${currentView}`;
+      if (localStorage.getItem(key) !== '1') {
+        timer = window.setTimeout(() => setIsGuideOpen(true), 650);
+      }
+    } catch {
+      timer = window.setTimeout(() => setIsGuideOpen(true), 650);
+    }
+    return () => {
+      if (timer !== undefined) window.clearTimeout(timer);
+    };
+  }, [currentView]);
+
+  const closeGameGuide = (dontShowAgain?: boolean) => {
+    try {
+      localStorage.setItem(`hsv_guide_seen_${currentView}`, '1');
+      if (dontShowAgain) localStorage.setItem(GUIDE_DISABLED_KEY, '1');
+    } catch {
+      /* storage optional */
+    }
+    setIsGuideOpen(false);
+  };
 
   // Support a dedicated admin URL without requiring a server-side /admin rewrite on GitHub Pages.
   useEffect(() => {
@@ -116,7 +162,7 @@ export default function App() {
       if (!user) {
         setIsAdmin(false);
         setHubState(null);
-        const guest = createInitialProfile('Bé Siêu Vui', '6', '', 'boy', true);
+        const guest = createInitialProfile('Bạn nhỏ', '6', '', 'boy', true);
         setActiveStudentId(guest.id);
         if (!cancelled) setStudent(guest);
         return;
@@ -196,6 +242,11 @@ export default function App() {
   // Handle sound toggle
   const handleToggleSound = () => {
     const muted = soundManager.toggleMute();
+    gameMusic.setMuted(muted);
+    if (!muted) {
+      gameMusic.unlock();
+      if (currentView === 'map' && mapAudio.isEnabled()) mapAudio.start();
+    }
     setIsMuted(muted);
     if (!muted) {
       soundManager.play('click');
@@ -276,6 +327,7 @@ export default function App() {
             setLearning(false);
             setPickSubject(null);
           }
+          gameMusic.unlock();
           setCurrentView(v);
         }}
         student={student}
@@ -769,12 +821,25 @@ export default function App() {
       <MascotReaction />
       <UpdateBanner />
 
-      {/* Trợ Lý Ảo Học Siêu Vui & Hộp Thư Góp Ý */}
+      <InteractiveGameGuide
+        view={currentView}
+        open={isGuideOpen}
+        onClose={closeGameGuide}
+        onNavigate={(view) => {
+          closeGameGuide();
+          gameMusic.unlock();
+          setCurrentView(view);
+        }}
+      />
+
+      {/* Trợ Lý Ảo Vui-Bot & Hộp Thư Góp Ý */}
       <VirtualAssistant
         student={student}
+        currentView={currentView}
         onNavigateToView={(view) => {
           setCurrentView(view);
         }}
+        onOpenInteractiveGuide={() => setIsGuideOpen(true)}
       />
     </div>
   );

@@ -1,65 +1,205 @@
-import React, { useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { soundManager } from '../utils/audio';
 import { submitFeedback } from '../lib/api';
 import { StudentProfile } from '../types';
 import confetti from 'canvas-confetti';
-import { 
-  Bot, 
-  X, 
-  Send, 
-  Sparkles, 
-  BookOpen, 
-  Zap, 
-  Map, 
-  Shirt, 
-  Trophy, 
-  CheckCircle2, 
-  MessageSquareHeart, 
+import {
+  X,
+  Send,
+  BookOpen,
+  Zap,
+  Map,
+  Shirt,
+  Trophy,
+  CheckCircle2,
+  MessageSquareHeart,
   Lightbulb,
   Compass,
-  HeartHandshake
+  ChevronRight,
+  HelpCircle
 } from 'lucide-react';
 import { StarIcon } from './GameIcons';
 import { answerQuestion, QUICK_QUESTIONS, type BrainAnswer, type NavView } from '../lib/assistantBrain';
+import { VuiBotMascot, type VuiBotMotion } from './VuiBotMascot';
+import type { VuiBotExpression } from '../data/vuibotMascot';
 
-const GUIDE_ITEMS: { title: string; desc: string; cta: string; view: NavView; Icon: React.ComponentType<{ className?: string }>; tone: string }[] = [
-  { title: 'Bài Học & Luyện Tập', desc: 'Chọn môn, lớp, chương và bài học hiện có để làm trắc nghiệm theo SGK, xem giải thích khi có và tích lũy Xu. Số câu hỏi và hình minh họa tùy thuộc từng môn.', cta: 'Bắt đầu học', view: 'study', Icon: BookOpen, tone: 'bg-blue-100 text-blue-600' },
-  { title: 'Bản Đồ Ải', desc: 'Khám phá bản đồ kiến thức theo từng chương và mở các chặng tiếp theo khi đạt từ 1–3 sao theo tiến trình đang có.', cta: 'Mở bản đồ', view: 'map', Icon: Map, tone: 'bg-emerald-100 text-emerald-600' },
-  { title: 'Đấu Trường', desc: 'Siêu Tốc 60 giây (lớp 1–2 có 90 giây), Thách Đấu 1v1 cùng Vui-Bot tính điểm Elo, hoặc Phòng Lớp Học bằng mã PIN.', cta: 'Vào đấu trường', view: 'blitz', Icon: Zap, tone: 'bg-orange-100 text-orange-600' },
-  { title: 'Studio của tôi', desc: 'Sử dụng Xu và Sao tích lũy để tùy chỉnh tóc, trang phục, hậu cảnh cho avatar theo các vật phẩm đang khả dụng trên tài khoản.', cta: 'Tới Studio', view: 'shop', Icon: Shirt, tone: 'bg-amber-100 text-amber-600' },
-  { title: 'Sảnh Online & Nhắn riêng', desc: 'Giao lưu trực tuyến, xem cấp độ, du hành khắp Việt Nam và nhắn tin riêng (có thể chặn hoặc tắt nhận tin trong Hộp thư).', cta: 'Vào sảnh', view: 'lobby', Icon: Compass, tone: 'bg-teal-100 text-teal-600' },
-  { title: 'Bảng Xếp Hạng', desc: 'Theo dõi thứ hạng và thành tích sao, xu của học sinh theo dữ liệu hệ thống đang hiển thị.', cta: 'Xem bảng vàng', view: 'leaderboard', Icon: Trophy, tone: 'bg-yellow-100 text-yellow-600' }
+const GUIDE_ITEMS: {
+  title: string;
+  desc: string;
+  cta: string;
+  view: NavView;
+  Icon: React.ComponentType<{ className?: string }>;
+  tone: string;
+}[] = [
+  {
+    title: 'Bài Học & Luyện Tập',
+    desc: 'Chọn môn, lớp, chương và bài học hiện có để làm trắc nghiệm theo SGK, xem giải thích khi có và tích lũy Xu.',
+    cta: 'Bắt đầu học',
+    view: 'study',
+    Icon: BookOpen,
+    tone: 'bg-blue-100 text-blue-600'
+  },
+  {
+    title: 'Bản Đồ Ải',
+    desc: 'Khám phá bản đồ kiến thức theo từng chương và mở các chặng tiếp theo khi đạt từ 1–3 sao theo tiến trình đang có.',
+    cta: 'Mở bản đồ',
+    view: 'map',
+    Icon: Map,
+    tone: 'bg-emerald-100 text-emerald-600'
+  },
+  {
+    title: 'Đấu Trường',
+    desc: 'Siêu Tốc 60 giây (lớp 1–2 có 90 giây), Thách Đấu 1v1 cùng Vui-Bot tính điểm Elo, hoặc Phòng Lớp Học bằng mã PIN.',
+    cta: 'Vào đấu trường',
+    view: 'blitz',
+    Icon: Zap,
+    tone: 'bg-orange-100 text-orange-600'
+  },
+  {
+    title: 'Studio của tôi',
+    desc: 'Sử dụng Xu và Sao tích lũy để tùy chỉnh tóc, trang phục, hậu cảnh cho avatar theo các vật phẩm đang khả dụng trên tài khoản.',
+    cta: 'Tới Studio',
+    view: 'shop',
+    Icon: Shirt,
+    tone: 'bg-amber-100 text-amber-600'
+  },
+  {
+    title: 'Sảnh Online & Nhắn riêng',
+    desc: 'Giao lưu trực tuyến, đố vui cùng Vui-Bot mỗi ngày, du hành khắp Việt Nam và nhắn tin riêng an toàn.',
+    cta: 'Vào sảnh',
+    view: 'lobby',
+    Icon: Compass,
+    tone: 'bg-teal-100 text-teal-600'
+  },
+  {
+    title: 'Bảng Xếp Hạng',
+    desc: 'Theo dõi thứ hạng và thành tích sao, xu của học sinh theo dữ liệu hệ thống đang hiển thị.',
+    cta: 'Xem bảng vàng',
+    view: 'leaderboard',
+    Icon: Trophy,
+    tone: 'bg-yellow-100 text-yellow-600'
+  }
 ];
 
-const MASCOT_FACE = `${import.meta.env.BASE_URL}assets/icons/mascot-face.webp`;
-const MASCOT_FULL = `${import.meta.env.BASE_URL}assets/icons/mascot-full.webp`;
-
+interface ContextualPrompt {
+  tag: string;
+  title: string;
+  subtitle: string;
+  expression: VuiBotExpression;
+  motion: VuiBotMotion;
+}
 
 interface VirtualAssistantProps {
   student: StudentProfile;
+  currentView: NavView;
   onNavigateToView: (view: NavView) => void;
+  onOpenInteractiveGuide?: () => void;
 }
 
 export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
   student,
-  onNavigateToView
+  currentView,
+  onNavigateToView,
+  onOpenInteractiveGuide
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeTab, setActiveTab] = useState<'chat' | 'guide' | 'feedback'>('chat');
   const [showBubble, setShowBubble] = useState(true);
+  const [bubbleIndex, setBubbleIndex] = useState(0);
+
+  // Build activity-aware dynamic speech bubbles (chào mừng, gợi ý bài học, nhắc nhiệm vụ, chúc mừng)
+  const contextualPrompts = useMemo<ContextualPrompt[]>(() => {
+    const gradeNum = String(student.grade || '6').replace(/\D/g, '') || '6';
+    const welcomeTitle = student.isGuest
+      ? 'Chào bạn nhỏ! Mình là Vui-Bot!'
+      : `Chào ${student.name}! Vui-Bot đây!`;
+
+    const viewSuggestion: Record<NavView, string> = {
+      study: `Gợi ý: Thử ngay 1 bài Lớp ${gradeNum} để nhận thêm Xu & Sao nhé!`,
+      map: 'Chạm hòn đảo đang sáng để vượt ải và mở khóa kho báu!',
+      blitz: 'Sẵn sàng chưa? Thử Siêu Tốc hoặc Đấu 1v1 để tăng hạng Elo!',
+      shop: 'Ghé Studio phối đồ chất cho nhân vật rồi khoe ở Sảnh nhé!',
+      lobby: 'Đừng quên ghé ki-ốt Vui-Bot ở góc sân để nhận +3 Xu mỗi ngày!',
+      leaderboard: 'Học đều mỗi ngày 1 ải sẽ giúp bạn leo Bảng Vàng cực nhanh!'
+    };
+
+    const questReminder = student.isGuest
+      ? 'Nhắc nhiệm vụ: Tạo biệt danh chỉ 10 giây để nhận 120 Xu!'
+      : 'Nhắc nhiệm vụ: Hoàn thành 1 bài hôm nay hoặc đố vui Sảnh Online!';
+
+    const celebration =
+      student.stars >= 10 || student.coins >= 80
+        ? `Chúc mừng! Bạn đã có ${student.stars} Sao & ${student.coins} Xu rồi đó!`
+        : 'Cố lên! Mỗi câu đúng giúp bạn tiến gần hơn tới Cấp tiếp theo!';
+
+    return [
+      {
+        tag: 'Chào mừng',
+        title: welcomeTitle,
+        subtitle: 'Bấm vào Vui-Bot để trò chuyện & xem gợi ý',
+        expression: 'happy',
+        motion: 'wave'
+      },
+      {
+        tag: 'Gợi ý bài học',
+        title: 'Gợi ý từ Vui-Bot',
+        subtitle: viewSuggestion[currentView],
+        expression: 'guiding',
+        motion: 'float'
+      },
+      {
+        tag: 'Nhắc nhiệm vụ',
+        title: 'Nhiệm vụ hôm nay',
+        subtitle: questReminder,
+        expression: 'thinking',
+        motion: 'float'
+      },
+      {
+        tag: 'Chúc mừng',
+        title: student.stars > 0 ? 'Thành tích tuyệt vời!' : 'Cùng cố gắng nhé!',
+        subtitle: celebration,
+        expression: 'cheer',
+        motion: 'cheer'
+      }
+    ];
+  }, [student.name, student.isGuest, student.grade, student.stars, student.coins, currentView]);
+
+  useEffect(() => {
+    if (!showBubble || isOpen) return;
+    const id = window.setInterval(() => {
+      setBubbleIndex((i) => (i + 1) % contextualPrompts.length);
+    }, 7500);
+    return () => window.clearInterval(id);
+  }, [showBubble, isOpen, contextualPrompts.length]);
+
+  const activePrompt = contextualPrompts[bubbleIndex % contextualPrompts.length];
 
   // Chat state (rule-based helper; no external AI service)
   type ChatMsg = { from: 'bot' | 'me'; text: string; actions?: BrainAnswer['actions'] };
-  const [chat, setChat] = useState<ChatMsg[]>([{ from: 'bot', text: 'Xin chào! Mình là Bé Siêu Vui 💡 – người bạn đồng hành của bạn. Hỏi mình cách làm bài, kiếm xu, mua đồ… hoặc bấm một gợi ý bên dưới nhé!' }]);
+  const [chat, setChat] = useState<ChatMsg[]>([
+    {
+      from: 'bot',
+      text: 'Xin chào! Mình là Vui-Bot 🤖 – trợ lý chính thức của Học Siêu Vui. Hỏi mình cách làm bài, kiếm xu, vượt bản đồ, mua đồ… hoặc bấm một gợi ý bên dưới nhé!'
+    }
+  ]);
+  const [botExpression, setBotExpression] = useState<VuiBotExpression>('happy');
   const [chatInput, setChatInput] = useState('');
-  const chatEndRef = React.useRef<HTMLDivElement>(null);
-  React.useEffect(() => { chatEndRef.current?.scrollIntoView({ block: 'end' }); }, [chat]);
+  const chatEndRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    chatEndRef.current?.scrollIntoView({ block: 'end' });
+  }, [chat]);
 
   const ask = (q: string) => {
     const text = q.trim();
     if (!text) return;
     soundManager.play('click');
-    const a = answerQuestion(text, { name: student.name, isGuest: !!student.isGuest, coins: student.coins, stars: student.stars });
+    const a = answerQuestion(text, {
+      name: student.name,
+      isGuest: !!student.isGuest,
+      coins: student.coins,
+      stars: student.stars
+    });
+    setBotExpression(a.expression ?? 'happy');
     setChat((c) => [...c, { from: 'me', text }, { from: 'bot', text: a.text, actions: a.actions }]);
     setChatInput('');
   };
@@ -75,7 +215,8 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
   const handleSubmitFeedback = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!feedbackMessage.trim() || sending) return;
-    setSending(true); setFeedbackError('');
+    setSending(true);
+    setFeedbackError('');
     try {
       await submitFeedback(feedbackCategory, feedbackRating, feedbackMessage.trim());
     } catch (err) {
@@ -96,86 +237,131 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
 
   return (
     <>
-      {/* FLOATING ASSISTANT TRIGGER BUTTON */}
-      <div className="fixed bottom-20 md:bottom-6 right-4 sm:right-6 z-40 flex items-end gap-2.5">
-        {/* Welcome Speech Bubble */}
+      {/* FLOATING VUI-BOT TRIGGER & DYNAMIC SPEECH BUBBLE */}
+      <div className="fixed bottom-20 md:bottom-5 right-3 sm:right-5 z-40 flex items-end gap-2 sm:gap-3 pointer-events-none">
         {showBubble && !isOpen && (
-          <div className="hidden sm:flex items-center gap-2 bg-white dark:bg-slate-900 border-2 border-blue-500 shadow-xl rounded-2xl px-3.5 py-2 animate-bounce select-none">
-            <span className="text-sm">👋</span>
-            <div className="text-left">
-              <div className="text-xs font-black text-slate-900 dark:text-white">
-                Chào bạn! Cần trợ giúp không?
-              </div>
-              <div className="text-[10px] text-blue-600 dark:text-blue-400 font-semibold">
-                Bấm vào đây để xem hướng dẫn & góp ý!
+          <div className="pointer-events-auto relative max-w-[230px] sm:max-w-[280px] rounded-2xl rounded-br-sm bg-white/95 dark:bg-slate-900/95 backdrop-blur border-2 border-blue-400/90 dark:border-cyan-500/70 shadow-xl px-3.5 py-2.5 transition-all">
+            <div className="flex items-start justify-between gap-2">
+              <button
+                type="button"
+                onClick={() => {
+                  soundManager.play('click');
+                  setIsOpen(true);
+                  setShowBubble(false);
+                }}
+                className="text-left min-w-0 flex-1 cursor-pointer focus:outline-none"
+              >
+                <div className="text-[10px] font-black uppercase tracking-wider text-blue-600 dark:text-cyan-400">
+                  {activePrompt.tag}
+                </div>
+                <div className="text-xs sm:text-[13px] font-black text-slate-900 dark:text-white leading-snug">
+                  {activePrompt.title}
+                </div>
+                <div className="text-[11px] font-semibold text-slate-600 dark:text-slate-300 leading-snug mt-0.5 line-clamp-2">
+                  {activePrompt.subtitle}
+                </div>
+              </button>
+              <div className="flex flex-col items-end gap-1 shrink-0">
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setShowBubble(false);
+                  }}
+                  aria-label="Ẩn bong bóng trò chuyện"
+                  className="text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 p-0.5 cursor-pointer"
+                >
+                  <X className="w-3.5 h-3.5" />
+                </button>
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    soundManager.play('click');
+                    setBubbleIndex((i) => (i + 1) % contextualPrompts.length);
+                  }}
+                  aria-label="Gợi ý tiếp theo"
+                  title="Xem gợi ý tiếp theo"
+                  className="text-blue-600 dark:text-cyan-400 hover:bg-blue-50 dark:hover:bg-slate-800 rounded-lg p-0.5 cursor-pointer"
+                >
+                  <ChevronRight className="w-3.5 h-3.5" />
+                </button>
               </div>
             </div>
-            <button
-              onClick={(e) => {
-                e.stopPropagation();
-                setShowBubble(false);
-              }}
-              className="text-slate-400 hover:text-slate-600 p-0.5 cursor-pointer ml-1"
-            >
-              <X className="w-3 h-3" />
-            </button>
           </div>
         )}
 
-        {/* Mascot Avatar Button */}
+        {/* Larger Floating Vui-Bot Mascot Button */}
         <button
+          type="button"
           onClick={() => {
             soundManager.play('click');
             setIsOpen(true);
             setShowBubble(false);
           }}
-          className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-sky-500 p-0.5 shadow-2xl hover:scale-105 active:scale-95 transition-all cursor-pointer group"
-          title="Trợ lý ảo Học Siêu Vui"
+          aria-label="Mở Trợ Lý Ảo Vui-Bot"
+          title="Trợ lý ảo Vui-Bot – Bấm để trò chuyện & hướng dẫn"
+          className="pointer-events-auto relative w-20 h-20 sm:w-24 sm:h-24 flex items-center justify-center rounded-full cursor-pointer group focus:outline-none focus-visible:ring-4 focus-visible:ring-cyan-400 transition-transform hover:scale-105 active:scale-95"
         >
-          <div className="w-full h-full rounded-2xl bg-white dark:bg-slate-900 overflow-hidden flex items-center justify-center p-1 border-2 border-white/60">
-            <img
-              src={MASCOT_FACE}
-              alt="Bé Siêu Vui – trợ lý ảo"
-              className="w-full h-full object-cover rounded-xl group-hover:scale-110 transition-transform"
-            />
-          </div>
-          <span className="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-emerald-500 border-2 border-white dark:border-slate-900 animate-ping" />
-          <span className="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-emerald-500 border-2 border-white dark:border-slate-900" />
+          <span
+            aria-hidden="true"
+            className="absolute inset-2 rounded-full bg-gradient-to-tr from-blue-500/30 via-cyan-400/25 to-indigo-500/30 blur-md group-hover:scale-110 transition-transform"
+          />
+          <VuiBotMascot
+            expression={activePrompt.expression}
+            motion={activePrompt.motion}
+            className="relative z-10 w-20 h-20 sm:w-24 sm:h-24"
+            alt="Vui-Bot – Trợ lý ảo Học Siêu Vui"
+          />
+          <span className="absolute -bottom-0.5 left-1/2 -translate-x-1/2 z-20 px-2 py-0.5 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-[10px] font-black shadow-md border border-white/80 whitespace-nowrap">
+            Vui-Bot
+          </span>
         </button>
       </div>
 
       {/* ASSISTANT MODAL DIALOG */}
       {isOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-950/60 backdrop-blur-sm animate-fadeIn">
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-950/60 backdrop-blur-sm animate-fadeIn"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Trợ Lý Ảo Vui-Bot"
+        >
           <div className="w-full max-w-lg bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-2xl overflow-hidden flex flex-col max-h-[90vh]">
             {/* Header */}
             <div className="p-4 sm:p-5 bg-gradient-to-r from-blue-600 via-indigo-600 to-sky-600 text-white flex items-center justify-between gap-3 shrink-0">
               <div className="flex items-center gap-3">
-                <img
-                  src={MASCOT_FACE}
-                  alt="Bé Siêu Vui"
-                  className="w-10 h-10 rounded-xl object-cover border-2 border-white/40 shadow-sm bg-sky-200"
-                />
+                <div className="w-12 h-12 rounded-2xl bg-white/15 border border-white/30 flex items-center justify-center p-0.5 shrink-0">
+                  <VuiBotMascot
+                    expression={activeTab === 'guide' ? 'guiding' : activeTab === 'feedback' ? 'cheer' : botExpression}
+                    motion="none"
+                    showBlinkGlint={false}
+                    className="w-11 h-11"
+                    alt="Vui-Bot"
+                  />
+                </div>
                 <div>
                   <div className="flex items-center gap-2">
                     <h3 className="font-black text-base sm:text-lg">
-                      Trợ Lý Ảo Học Siêu Vui
+                      Trợ Lý Ảo Vui-Bot
                     </h3>
                     <span className="text-[10px] bg-white/20 px-2 py-0.5 rounded-full font-bold">
                       Hỗ trợ 24/7
                     </span>
                   </div>
                   <p className="text-xs text-blue-100">
-                    Hướng dẫn sử dụng & tiếp nhận phản hồi học sinh
+                    Hướng dẫn tương tác, hỏi đáp & tiếp nhận góp ý
                   </p>
                 </div>
               </div>
 
               <button
+                type="button"
                 onClick={() => {
                   soundManager.play('click');
                   setIsOpen(false);
                 }}
+                aria-label="Đóng Trợ lý ảo"
                 className="p-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-white transition-colors cursor-pointer"
               >
                 <X className="w-5 h-5" />
@@ -185,26 +371,28 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
             {/* Navigation Tabs */}
             <div className="flex border-b border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-850 px-4 pt-2 gap-2 shrink-0">
               <button
+                type="button"
                 onClick={() => {
                   soundManager.play('click');
                   setActiveTab('chat');
                 }}
-                className={`py-2.5 px-4 font-bold text-xs rounded-t-xl transition-all flex items-center gap-2 cursor-pointer ${
+                className={`py-2.5 px-3.5 sm:px-4 font-bold text-xs rounded-t-xl transition-all flex items-center gap-1.5 cursor-pointer ${
                   activeTab === 'chat'
                     ? 'bg-white dark:bg-slate-900 text-blue-600 dark:text-blue-400 border-t-2 border-blue-600 shadow-sm'
                     : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-300'
                 }`}
               >
                 <Lightbulb className="w-4 h-4" />
-                <span>Hỏi Bé Siêu Vui</span>
+                <span>Hỏi Vui-Bot</span>
               </button>
 
               <button
+                type="button"
                 onClick={() => {
                   soundManager.play('click');
                   setActiveTab('guide');
                 }}
-                className={`py-2.5 px-4 font-bold text-xs rounded-t-xl transition-all flex items-center gap-2 cursor-pointer ${
+                className={`py-2.5 px-3.5 sm:px-4 font-bold text-xs rounded-t-xl transition-all flex items-center gap-1.5 cursor-pointer ${
                   activeTab === 'guide'
                     ? 'bg-white dark:bg-slate-900 text-blue-600 dark:text-blue-400 border-t-2 border-blue-600 shadow-sm'
                     : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-300'
@@ -215,11 +403,12 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
               </button>
 
               <button
+                type="button"
                 onClick={() => {
                   soundManager.play('click');
                   setActiveTab('feedback');
                 }}
-                className={`py-2.5 px-4 font-bold text-xs rounded-t-xl transition-all flex items-center gap-2 cursor-pointer ${
+                className={`py-2.5 px-3.5 sm:px-4 font-bold text-xs rounded-t-xl transition-all flex items-center gap-1.5 cursor-pointer ${
                   activeTab === 'feedback'
                     ? 'bg-white dark:bg-slate-900 text-blue-600 dark:text-blue-400 border-t-2 border-blue-600 shadow-sm'
                     : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-300'
@@ -234,17 +423,40 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
             <div className="p-4 sm:p-5 overflow-y-auto space-y-4 flex-1">
               {activeTab === 'chat' ? (
                 <div className="flex flex-col gap-3">
-                  <img src={MASCOT_FULL} alt="" className="mx-auto h-24 w-auto rounded-2xl" />
+                  <div className="mx-auto flex items-center justify-center rounded-2xl bg-gradient-to-b from-sky-50 to-blue-50/70 dark:from-slate-800/80 dark:to-slate-800/30 px-6 py-2 border border-blue-100 dark:border-slate-700/70">
+                    <VuiBotMascot
+                      expression={botExpression}
+                      motion={botExpression === 'cheer' ? 'cheer' : 'float'}
+                      className="w-24 h-24"
+                      alt="Vui-Bot đang trò chuyện"
+                    />
+                  </div>
                   <div className="space-y-2.5" aria-live="polite">
                     {chat.map((m, i) => (
                       <div key={i} className={`flex ${m.from === 'me' ? 'justify-end' : 'justify-start'}`}>
-                        <div className={`max-w-[85%] rounded-2xl px-3 py-2 text-sm leading-relaxed whitespace-pre-line ${m.from === 'me' ? 'bg-blue-600 text-white rounded-br-sm' : 'bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-100 rounded-bl-sm'}`}>
+                        <div
+                          className={`max-w-[85%] rounded-2xl px-3 py-2 text-sm leading-relaxed whitespace-pre-line ${
+                            m.from === 'me'
+                              ? 'bg-blue-600 text-white rounded-br-sm'
+                              : 'bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-100 rounded-bl-sm'
+                          }`}
+                        >
                           {m.text}
                           {m.actions && (
                             <div className="flex flex-wrap gap-1.5 mt-2">
                               {m.actions.map((a) => (
-                                <button key={a.label} onClick={() => { soundManager.play('click'); onNavigateToView(a.view); setIsOpen(false); }}
-                                  className="px-2.5 py-1 rounded-full bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300 text-xs font-bold border border-blue-200 dark:border-slate-600 cursor-pointer">{a.label} →</button>
+                                <button
+                                  type="button"
+                                  key={a.label}
+                                  onClick={() => {
+                                    soundManager.play('click');
+                                    onNavigateToView(a.view);
+                                    setIsOpen(false);
+                                  }}
+                                  className="px-2.5 py-1 rounded-full bg-white dark:bg-slate-700 text-blue-700 dark:text-blue-300 text-xs font-bold border border-blue-200 dark:border-slate-600 cursor-pointer"
+                                >
+                                  {a.label} →
+                                </button>
                               ))}
                             </div>
                           )}
@@ -255,25 +467,77 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
                   </div>
                   <div className="flex flex-wrap gap-1.5">
                     {QUICK_QUESTIONS.map((q) => (
-                      <button key={q} onClick={() => ask(q)} className="px-2.5 py-1 rounded-full bg-amber-50 dark:bg-slate-800 text-amber-800 dark:text-amber-300 text-xs font-bold border border-amber-200 dark:border-slate-700 cursor-pointer">{q}</button>
+                      <button
+                        type="button"
+                        key={q}
+                        onClick={() => ask(q)}
+                        className="px-2.5 py-1 rounded-full bg-amber-50 dark:bg-slate-800 text-amber-800 dark:text-amber-300 text-xs font-bold border border-amber-200 dark:border-slate-700 cursor-pointer"
+                      >
+                        {q}
+                      </button>
                     ))}
                   </div>
-                  <form onSubmit={(e) => { e.preventDefault(); ask(chatInput); }} className="flex gap-2">
-                    <input value={chatInput} onChange={(e) => setChatInput(e.target.value)} maxLength={200} placeholder="Gõ câu hỏi của bạn…"
-                      className="flex-1 min-w-0 px-3 py-2.5 rounded-2xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-sm" />
-                    <button type="submit" aria-label="Gửi" className="px-3 rounded-2xl bg-blue-600 text-white cursor-pointer"><Send className="w-4 h-4" /></button>
+                  <form
+                    onSubmit={(e) => {
+                      e.preventDefault();
+                      ask(chatInput);
+                    }}
+                    className="flex gap-2"
+                  >
+                    <input
+                      value={chatInput}
+                      onChange={(e) => setChatInput(e.target.value)}
+                      maxLength={200}
+                      placeholder="Gõ câu hỏi cho Vui-Bot…"
+                      className="flex-1 min-w-0 px-3 py-2.5 rounded-2xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-sm"
+                    />
+                    <button type="submit" aria-label="Gửi" className="px-3 rounded-2xl bg-blue-600 text-white cursor-pointer">
+                      <Send className="w-4 h-4" />
+                    </button>
                   </form>
-                  <p className="text-[11px] text-slate-400">Bé Siêu Vui là trợ lý hướng dẫn của Học Siêu Vui, chưa giải được bài tập cụ thể.</p>
+                  <p className="text-[11px] text-slate-400">
+                    Vui-Bot là trợ lý hướng dẫn của Học Siêu Vui, chưa giải được bài tập cụ thể.
+                  </p>
                 </div>
               ) : activeTab === 'guide' ? (
                 <div className="space-y-3">
+                  {onOpenInteractiveGuide && (
+                    <button
+                      type="button"
+                      onClick={() => {
+                        soundManager.play('click');
+                        setIsOpen(false);
+                        onOpenInteractiveGuide();
+                      }}
+                      className="w-full p-3.5 rounded-2xl bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white flex items-center justify-between gap-3 shadow-md cursor-pointer transition-transform active:scale-[0.99]"
+                    >
+                      <span className="flex items-center gap-2.5 text-left">
+                        <HelpCircle className="w-5 h-5 shrink-0" />
+                        <span>
+                          <span className="block text-sm font-black">Mở hướng dẫn tương tác Vui-Bot</span>
+                          <span className="block text-xs text-blue-100">Xem hướng dẫn từng bước ngay tại khu vực đang mở</span>
+                        </span>
+                      </span>
+                      <ChevronRight className="w-5 h-5 shrink-0" />
+                    </button>
+                  )}
                   <div className="p-4 rounded-2xl bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-slate-800 dark:to-slate-850 border border-blue-200 dark:border-slate-700 text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-                    <strong>Học Siêu Vui</strong> là nền tảng học tập kết hợp trò chơi với đầy đủ 14 môn Tiểu học (Lớp 1–5) và 12 môn THCS (Lớp 6–9). Chọn môn học, lớp và bài học hiện có để ôn tập, luyện câu hỏi, khám phá các hoạt động và tích lũy thành tích. Nội dung, số câu hỏi và cách chơi có thể khác nhau tùy môn học và chế độ.
+                    <strong>Học Siêu Vui</strong> là nền tảng học tập kết hợp trò chơi với đầy đủ 14 môn Tiểu học (Lớp 1–5) và 12 môn THCS (Lớp 6–9). Chọn môn học, lớp và bài học hiện có để ôn tập, luyện câu hỏi, khám phá các hoạt động và tích lũy thành tích.
                   </div>
                   {GUIDE_ITEMS.map((g) => (
-                    <button key={g.title} onClick={() => { soundManager.play('click'); onNavigateToView(g.view); setIsOpen(false); }}
-                      className="w-full text-left p-3 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:border-blue-400 flex items-start gap-3 cursor-pointer">
-                      <span className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 ${g.tone}`}><g.Icon className="w-5 h-5" /></span>
+                    <button
+                      type="button"
+                      key={g.title}
+                      onClick={() => {
+                        soundManager.play('click');
+                        onNavigateToView(g.view);
+                        setIsOpen(false);
+                      }}
+                      className="w-full text-left p-3 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:border-blue-400 flex items-start gap-3 cursor-pointer"
+                    >
+                      <span className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 ${g.tone}`}>
+                        <g.Icon className="w-5 h-5" />
+                      </span>
                       <span className="min-w-0">
                         <span className="block text-sm font-black text-slate-900 dark:text-white">{g.title}</span>
                         <span className="block text-xs text-slate-600 dark:text-slate-400 leading-relaxed">{g.desc}</span>
@@ -283,7 +547,7 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
                   ))}
                 </div>
               ) : (
-                /* TAB 2: USER FEEDBACK FORM */
+                /* TAB 3: USER FEEDBACK FORM */
                 <div className="space-y-4">
                   {isSubmitted ? (
                     <div className="p-8 text-center space-y-3 bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-300 rounded-3xl animate-fadeIn">
@@ -308,7 +572,6 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
                         </span>
                       </div>
 
-                      {/* Feedback Category */}
                       <div>
                         <label className="block text-[11px] font-bold uppercase tracking-wider text-slate-500 mb-1.5">
                           Bạn muốn gửi điều gì?
@@ -323,7 +586,7 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
                             <button
                               type="button"
                               key={cat.id}
-                              onClick={() => setFeedbackCategory(cat.id as any)}
+                              onClick={() => setFeedbackCategory(cat.id as 'suggestion' | 'bug' | 'compliment' | 'question')}
                               className={`p-2.5 rounded-xl border text-xs font-bold text-left transition-all cursor-pointer ${
                                 feedbackCategory === cat.id
                                   ? 'bg-blue-50 dark:bg-blue-950/60 border-blue-600 text-blue-700 dark:text-blue-300 shadow-sm'
@@ -336,7 +599,6 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
                         </div>
                       </div>
 
-                      {/* Rating Stars */}
                       <div>
                         <label className="block text-[11px] font-bold uppercase tracking-wider text-slate-500 mb-1.5">
                           Đánh giá độ vui của ứng dụng:
@@ -367,7 +629,6 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
                         </div>
                       </div>
 
-                      {/* Message Textarea */}
                       <div>
                         <label className="block text-[11px] font-bold uppercase tracking-wider text-slate-500 mb-1">
                           Nội dung chi tiết:
@@ -382,8 +643,14 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
                         />
                       </div>
 
-                      <p className="text-[11px] text-slate-500">Đừng ghi tên thật, số điện thoại hay email nhé. Góp ý sẽ được gửi tới quản trị viên.</p>
-                      {feedbackError && <div role="alert" className="text-xs text-rose-700 bg-rose-50 p-2 rounded-xl">{feedbackError}</div>}
+                      <p className="text-[11px] text-slate-500">
+                        Đừng ghi tên thật, số điện thoại hay email nhé. Góp ý sẽ được gửi tới quản trị viên.
+                      </p>
+                      {feedbackError && (
+                        <div role="alert" className="text-xs text-rose-700 bg-rose-50 p-2 rounded-xl">
+                          {feedbackError}
+                        </div>
+                      )}
 
                       <button
                         type="submit"

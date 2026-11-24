@@ -23,13 +23,13 @@ import { DirectMessages, type DmPeer } from './DirectMessages';
 import { AvatarRenderer } from './AvatarRenderer';
 import { City3DLandmark } from './City3DLandmark';
 import { CoinIcon } from './GameIcons';
+import { VuiBotMascot } from './VuiBotMascot';
 import {
   ArrowDown,
   ArrowLeft,
   ArrowRight,
   ArrowUp,
   Award,
-  Bot,
   Compass,
   Flag,
   Heart,
@@ -699,8 +699,8 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
                 <HelpCircle className="w-3 h-3" />
                 {hubState?.trivia_claimed_today ? 'Vui-Bot HDV' : 'Đố Vui +3 Xu!'}
               </span>
-              <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-gradient-to-br from-indigo-600 to-blue-700 border-2 border-white shadow-xl flex items-center justify-center text-white group-hover:scale-110 transition-transform">
-                <Bot className="w-7 h-7" />
+              <div className="w-14 h-14 sm:w-16 sm:h-16 flex items-center justify-center group-hover:scale-110 transition-transform">
+                <VuiBotMascot expression="happy" motion="wave" showBlinkGlint={false} className="w-14 h-14 sm:w-16 sm:h-16" alt="Vui-Bot hướng dẫn viên" />
               </div>
               <div className="w-11 h-3 bg-slate-950/30 rounded-full blur-[2px] -mt-1" />
               <span className="mt-0.5 px-2 py-0.5 rounded-full bg-indigo-950/85 text-white text-[10px] font-bold whitespace-nowrap">
@@ -929,8 +929,8 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
                 <div className="bg-white dark:bg-slate-900 rounded-3xl max-w-md w-full p-5 shadow-2xl border border-slate-200 dark:border-slate-700 space-y-3.5">
                   <div className="flex items-start justify-between gap-2">
                     <div className="flex items-center gap-2">
-                      <div className="w-9 h-9 rounded-xl bg-indigo-600 text-white flex items-center justify-center shrink-0">
-                        <Bot className="w-5 h-5" />
+                      <div className="w-11 h-11 rounded-xl bg-sky-50 dark:bg-slate-800 border border-blue-200 dark:border-slate-700 flex items-center justify-center shrink-0 p-0.5">
+                        <VuiBotMascot expression="surprised" motion="none" showBlinkGlint={false} className="w-10 h-10" alt="Vui-Bot" />
                       </div>
                       <div>
                         <h3 className="text-sm font-black text-slate-900 dark:text-white">

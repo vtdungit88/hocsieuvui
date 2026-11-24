@@ -12,6 +12,7 @@ import { MapScenery } from './map/MapScenery';
 import { MapCritters } from './map/MapCritters';
 import { mapAudio } from '../utils/mapAudio';
 import { AdventureLeaderboardModal } from './map/AdventureLeaderboardModal';
+import { VUIBOT_ASSETS } from '../data/vuibotMascot';
 
 interface Props {
   student: StudentProfile;
@@ -36,7 +37,8 @@ const TOP = 90;
 const XS = [150, 300, 450, 300];
 const pos = (i: number) => ({ x: XS[i % 4], y: TOP + i * STEP });
 
-const MASCOT_FACE = `${import.meta.env.BASE_URL}assets/icons/mascot-face.webp`;
+const VUI_BOT_GUIDE = VUIBOT_ASSETS.guiding;
+const VUI_BOT_HAPPY = VUIBOT_ASSETS.happy;
 const MASCOT_FALLBACK = 'Bấm vào hòn đảo đang sáng để bắt đầu nhé!';
 
 export const AdventureMap: React.FC<Props> = ({ student, initialSubjectId, initialGrade, onStartNode, onRequireLogin }) => {
@@ -162,7 +164,7 @@ export const AdventureMap: React.FC<Props> = ({ student, initialSubjectId, initi
       ) : (
         <>
           <div className="flex items-start gap-3 p-3 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm">
-            <img src={MASCOT_FACE} alt="Linh vật Bé Siêu Vui" className="w-12 h-12 rounded-2xl object-cover shrink-0 border border-slate-200 bg-sky-200" />
+            <img src={VUI_BOT_GUIDE} alt="Vui-Bot hướng dẫn bản đồ" className="w-14 h-14 rounded-2xl object-contain shrink-0 border border-blue-200 dark:border-slate-700 bg-sky-50 dark:bg-slate-800 p-0.5" />
             <div className="relative flex-1 text-sm font-semibold bg-sky-50 dark:bg-slate-800 rounded-2xl px-3 py-2">{mascotText}</div>
             <div className="text-right shrink-0 text-xs font-bold text-slate-500">
               <div className="inline-flex items-center gap-1 text-amber-600 text-sm"><StarIcon className="w-4 h-4" /> {totalStars}/{nodes.length * 3}</div>
@@ -196,9 +198,9 @@ export const AdventureMap: React.FC<Props> = ({ student, initialSubjectId, initi
               return (
                 <div key={n.lesson.id} className="absolute -translate-x-1/2 -translate-y-1/2" style={{ left: `${(x / W) * 100}%`, top: `${(y / H) * 100}%` }}>
                   {isCurrent && (
-                    <div className="absolute -top-12 left-1/2 -translate-x-1/2 pointer-events-none z-10 flex flex-col items-center" aria-hidden>
-                      <img src={MASCOT_FACE} alt="" className="w-11 h-11 rounded-full border-4 border-white shadow-lg bg-sky-200 object-cover hsv-anim-hop" />
-                      <span className="mt-0.5 text-[10px] font-black bg-amber-300 text-slate-900 rounded-full px-1.5">Bạn ở đây</span>
+                    <div className="absolute -top-14 left-1/2 -translate-x-1/2 pointer-events-none z-10 flex flex-col items-center" aria-hidden>
+                      <img src={VUI_BOT_HAPPY} alt="" className="w-13 h-13 object-contain drop-shadow-lg hsv-anim-hop" />
+                      <span className="mt-0.5 text-[10px] font-black bg-amber-300 text-slate-900 rounded-full px-1.5 shadow">Bạn ở đây</span>
                     </div>
                   )}
                   <button
