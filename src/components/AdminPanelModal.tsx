@@ -76,8 +76,15 @@ export const AdminPanelModal: React.FC<Props> = ({ isOpen, onClose, fullPage = f
       }}
     >
       {error && (
-        <div role="alert" className="rounded-xl bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-800 text-rose-700 dark:text-rose-300 p-3 text-sm">
-          {error}
+        <div role="alert" className="rounded-xl bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-800 text-rose-700 dark:text-rose-300 p-3 text-sm flex flex-wrap items-center justify-between gap-2">
+          <span>{error}</span>
+          <button
+            type="button"
+            onClick={handleRefresh}
+            className="px-3 py-1 rounded-lg bg-rose-600 hover:bg-rose-700 text-white text-xs font-semibold cursor-pointer"
+          >
+            Thử lại
+          </button>
         </div>
       )}
 
