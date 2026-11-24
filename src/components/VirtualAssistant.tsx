@@ -23,12 +23,12 @@ import { StarIcon } from './GameIcons';
 import { answerQuestion, QUICK_QUESTIONS, type BrainAnswer, type NavView } from '../lib/assistantBrain';
 
 const GUIDE_ITEMS: { title: string; desc: string; cta: string; view: NavView; Icon: React.ComponentType<{ className?: string }>; tone: string }[] = [
-  { title: 'Bài Học', desc: 'Chọn môn, lớp, chương rồi chọn từng bài SGK để làm trắc nghiệm (Toán 6 có 43 bài + ôn tập chương, câu hình học có hình minh họa). Đúng mỗi câu được xu.', cta: 'Bắt đầu học', view: 'study', Icon: BookOpen, tone: 'bg-blue-100 text-blue-600' },
-  { title: 'Bản Đồ Ải', desc: 'Mỗi chương là một hòn đảo. Đạt 1–3 sao để mở ải sau, đánh bại Trùm Cuối.', cta: 'Mở bản đồ', view: 'map', Icon: Map, tone: 'bg-emerald-100 text-emerald-600' },
-  { title: 'Đấu Trường', desc: 'Siêu Tốc 60 giây, Thách Đấu 1v1 với Vui-Bot để lên hạng Elo, hoặc Phòng Lớp Học bằng mã PIN.', cta: 'Vào đấu trường', view: 'blitz', Icon: Zap, tone: 'bg-orange-100 text-orange-600' },
-  { title: 'Studio của tôi', desc: 'Đổi tóc, trang phục, hậu cảnh cho nhân vật và mở rương. Đồ lưu trên tài khoản.', cta: 'Tới Studio', view: 'shop', Icon: Shirt, tone: 'bg-amber-100 text-amber-600' },
-  { title: 'Sảnh Online & Nhắn riêng', desc: 'Gặp bạn bè trực tuyến, nhắn tin riêng (Hộp thư), xem cấp độ và du hành khắp Việt Nam.', cta: 'Vào sảnh', view: 'lobby', Icon: Compass, tone: 'bg-teal-100 text-teal-600' },
-  { title: 'Bảng Xếp Hạng', desc: 'Xem Top học sinh nhiều sao và xu nhất.', cta: 'Xem bảng vàng', view: 'leaderboard', Icon: Trophy, tone: 'bg-yellow-100 text-yellow-600' }
+  { title: 'Bài Học & Luyện Tập', desc: 'Chọn môn, lớp, chương và bài học hiện có để làm trắc nghiệm theo SGK, xem giải thích khi có và tích lũy Xu. Số câu hỏi và hình minh họa tùy thuộc từng môn.', cta: 'Bắt đầu học', view: 'study', Icon: BookOpen, tone: 'bg-blue-100 text-blue-600' },
+  { title: 'Bản Đồ Ải', desc: 'Khám phá bản đồ kiến thức theo từng chương và mở các chặng tiếp theo khi đạt từ 1–3 sao theo tiến trình đang có.', cta: 'Mở bản đồ', view: 'map', Icon: Map, tone: 'bg-emerald-100 text-emerald-600' },
+  { title: 'Đấu Trường', desc: 'Siêu Tốc 60 giây (lớp 1–2 có 90 giây), Thách Đấu 1v1 cùng Vui-Bot tính điểm Elo, hoặc Phòng Lớp Học bằng mã PIN.', cta: 'Vào đấu trường', view: 'blitz', Icon: Zap, tone: 'bg-orange-100 text-orange-600' },
+  { title: 'Studio của tôi', desc: 'Sử dụng Xu và Sao tích lũy để tùy chỉnh tóc, trang phục, hậu cảnh cho avatar theo các vật phẩm đang khả dụng trên tài khoản.', cta: 'Tới Studio', view: 'shop', Icon: Shirt, tone: 'bg-amber-100 text-amber-600' },
+  { title: 'Sảnh Online & Nhắn riêng', desc: 'Giao lưu trực tuyến, xem cấp độ, du hành khắp Việt Nam và nhắn tin riêng (có thể chặn hoặc tắt nhận tin trong Hộp thư).', cta: 'Vào sảnh', view: 'lobby', Icon: Compass, tone: 'bg-teal-100 text-teal-600' },
+  { title: 'Bảng Xếp Hạng', desc: 'Theo dõi thứ hạng và thành tích sao, xu của học sinh theo dữ liệu hệ thống đang hiển thị.', cta: 'Xem bảng vàng', view: 'leaderboard', Icon: Trophy, tone: 'bg-yellow-100 text-yellow-600' }
 ];
 
 const MASCOT_FACE = `${import.meta.env.BASE_URL}assets/icons/mascot-face.webp`;
@@ -211,7 +211,7 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
                 }`}
               >
                 <Compass className="w-4 h-4" />
-                <span>Chỉ Dẫn</span>
+                <span>Hướng Dẫn</span>
               </button>
 
               <button
@@ -268,7 +268,7 @@ export const VirtualAssistant: React.FC<VirtualAssistantProps> = ({
               ) : activeTab === 'guide' ? (
                 <div className="space-y-3">
                   <div className="p-4 rounded-2xl bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-slate-800 dark:to-slate-850 border border-blue-200 dark:border-slate-700 text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-                    <strong>Học Siêu Vui</strong> giúp bạn luyện <strong>Toán lớp 1–9</strong> và <strong>Khoa học tự nhiên lớp 6–9</strong> bám sát SGK. Mỗi chương có một bài 15 câu trộn đủ mức dễ đến khó, có lời giải sau mỗi câu. Làm bài để nhận <strong>xu</strong> và <strong>sao</strong>!
+                    <strong>Học Siêu Vui</strong> là nền tảng học tập kết hợp trò chơi với đầy đủ 14 môn Tiểu học (Lớp 1–5) và 12 môn THCS (Lớp 6–9). Chọn môn học, lớp và bài học hiện có để ôn tập, luyện câu hỏi, khám phá các hoạt động và tích lũy thành tích. Nội dung, số câu hỏi và cách chơi có thể khác nhau tùy môn học và chế độ.
                   </div>
                   {GUIDE_ITEMS.map((g) => (
                     <button key={g.title} onClick={() => { soundManager.play('click'); onNavigateToView(g.view); setIsOpen(false); }}

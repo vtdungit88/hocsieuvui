@@ -15,6 +15,15 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.11',
+    date: '2026-11-24',
+    title: 'Cập nhật hướng dẫn Trợ lý ảo & trọn bộ Toán 9 (Chương 6–8)',
+    items: [
+      'Chuẩn hóa toàn bộ nội dung thẻ "Hướng Dẫn" và câu trả lời của Bé Siêu Vui cho chính xác với đầy đủ 14 môn Tiểu học, 12 môn THCS cùng số câu hỏi và chế độ chơi thực tế hiện có.',
+      'Hoàn thiện tiếp Toán lớp 9 Chương 6–8 (11 bài học và ôn tập chương, 96 câu hỏi có hình minh họa).'
+    ]
+  },
+  {
     version: '0.2.10',
     date: '2026-11-23',
     title: 'Mở khóa trọn bộ Lịch sử và Địa lí Lớp 6–9 (Hoàn tất 12/12 môn THCS)',
