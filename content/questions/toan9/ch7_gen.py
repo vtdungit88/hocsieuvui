@@ -56,7 +56,7 @@ wr = [tab({1: 3, 2: 4, 3: 6, 4: 2}), tab({1: 2, 2: 5, 3: 5, 4: 3}), tab({1: 3, 2
 assert all(w != good for w in wr)
 L.append(q('T9-B22-008', 'advanced', f'Số điểm trò chơi mỗi bạn đạt được: {lst(raw)}. Bảng tần số đúng của mẫu số liệu này là',
   good, wr,
-  'Đếm: giá trị 1 xuất hiện 3 lần, giá trị 2 xuất hiện 5 lần, giá trị 3 xuất hiện 5 lần, giá trị 4 xuất hiện 2 lần; tổng $3+5+5+2=15$ bằng số bạn. Các bảng sai có tổng khác 15 hoặc đếm sai giá trị.'))
+  'Đếm: giá trị 1 xuất hiện 3 lần, giá trị 2 xuất hiện 5 lần, giá trị 3 xuất hiện 5 lần, giá trị 4 xuất hiện 2 lần; tổng $3+5+5+2=15$ bằng số bạn. Các bảng sai đếm sai tần số của ít nhất một giá trị (có bảng tổng cũng bằng 15 nhưng vẫn sai).'))
 out.append(batch(C, {'code': 'toan9-b22', 'title': 'Bài 22. Bảng tần số và biểu đồ tần số', 'seq': 1,
   'subtitle': 'Tần số, bảng tần số, biểu đồ cột biểu diễn tần số', 'concepts': ['Tần số', 'Bảng tần số', 'Biểu đồ tần số dạng cột', 'Đọc số liệu']}, L))
 
@@ -186,7 +186,7 @@ wrs = [vn(float(Fr(n2 + 1, 25)) * 100) + '%', vn(float(Fr(n2 - 1, 25)) * 100) + 
 ans = vn(float(f2) * 100) + '%'; assert len({ans, *wrs}) == 4
 L.append(q('T9-C7-R06', 'application', f'Số thành viên của 25 hộ gia đình trong một khu phố: {lst(raw)}. Tần số tương đối của giá trị 2 là',
   ans, wrs,
-  f'Giá trị 2 xuất hiện {n2} lần trong 25 giá trị nên $f=\\frac{{{n2}}}{{25}}={vn(float(f2))}={ans}$. Chỉ lấy tần số làm phần trăm là sai.'))
+  f'Giá trị 2 xuất hiện {n2} lần trong 25 giá trị nên $f=\\frac{{{n2}}}{{25}}={vn(float(f2)).replace(",","{,}")}={ans[:-1]}\\%$. Chỉ lấy tần số làm phần trăm là sai.'))
 tg = ['[0;10)', '[10;20)', '[20;30)', '[30;40)']; tf2 = [5, 12, 18, 15]; assert sum(tf2) == 50 and Fr(18 + 15, 50) == Fr(33, 50)
 L.append(q('T9-C7-R07', 'advanced', 'Bảng tần số ghép nhóm thời gian đọc sách mỗi ngày (phút) của 50 học sinh. Tỉ lệ học sinh đọc từ 20 phút trở lên là',
   '66%', ['36%', '34%', '30%'],
