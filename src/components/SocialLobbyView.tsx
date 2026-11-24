@@ -24,10 +24,6 @@ import { AvatarRenderer } from './AvatarRenderer';
 import { City3DLandmark } from './City3DLandmark';
 import { CoinIcon } from './GameIcons';
 import {
-  ArrowDown,
-  ArrowLeft,
-  ArrowRight,
-  ArrowUp,
   Award,
   Bot,
   Compass,
@@ -81,6 +77,16 @@ interface SocialLobbyViewProps {
 }
 
 const clamp = (val: number, min: number, max: number) => Math.min(max, Math.max(min, val));
+
+const VUI_BOT_RIDDLES = [
+  { question: 'Cái gì có mặt, có kim nhưng không biết khâu vá?', options: ['Cái đồng hồ', 'Cái cây', 'Quyển sách', 'Cái quạt'], correctIndex: 0, fact: 'Đáp án là cái đồng hồ vì có mặt đồng hồ và kim giờ, kim phút.' },
+  { question: 'Càng lấy đi thì nó càng lớn. Đó là gì?', options: ['Cái túi', 'Cái hố', 'Ngọn núi', 'Chiếc hộp'], correctIndex: 1, fact: 'Đáp án là cái hố: càng đào đất đi thì hố càng rộng và sâu.' },
+  { question: 'Thứ gì luôn đi đến mà chẳng bao giờ đến nơi?', options: ['Ngày hôm qua', 'Ngày mai', 'Buổi sáng', 'Mùa hè'], correctIndex: 1, fact: 'Đáp án là ngày mai, vì khi ngày mai đến thì nó đã trở thành hôm nay.' },
+  { question: 'Có một thứ càng lau càng ướt. Đó là gì?', options: ['Cái khăn', 'Cục đá', 'Cây bút', 'Tờ giấy'], correctIndex: 0, fact: 'Đáp án là cái khăn: khăn thấm nước khi lau nên càng ướt.' },
+  { question: 'Cái gì có nhiều răng nhưng không biết nhai?', options: ['Con cá sấu', 'Cái lược', 'Con mèo', 'Cái bàn'], correctIndex: 1, fact: 'Đáp án là cái lược vì có nhiều răng lược.' },
+  { question: 'Một năm có bao nhiêu tháng có 28 ngày?', options: ['1 tháng', '2 tháng', '6 tháng', '12 tháng'], correctIndex: 3, fact: 'Cả 12 tháng đều có ít nhất 28 ngày nhé!' },
+  { question: 'Cái gì có cổ nhưng không có đầu?', options: ['Cái áo', 'Cái chai', 'Cái cây', 'Cái bàn'], correctIndex: 1, fact: 'Đáp án là cái chai vì chai có phần cổ chai.' }
+] as const;
 
 export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
   student,
@@ -145,6 +151,8 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
   const [triviaStatus, setTriviaStatus] = useState<'idle' | 'correct' | 'wrong'>('idle');
   const [triviaBusy, setTriviaBusy] = useState(false);
   const [triviaNotice, setTriviaNotice] = useState('');
+  const [triviaQuestionIndex, setTriviaQuestionIndex] = useState(0);
+  const activeTrivia = triviaQuestionIndex === 0 ? currentCity.trivia : VUI_BOT_RIDDLES[(triviaQuestionIndex - 1) % VUI_BOT_RIDDLES.length];
 
   const stageRef = useRef<HTMLDivElement | null>(null);
   const chatEndRef = useRef<HTMLDivElement | null>(null);
@@ -339,22 +347,22 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
     [pos.x, selfId]
   );
 
-  // Keyboard navigation (WASD / Arrows) when not typing
+  // Keyboard navigation (WASD only) when not typing
   useEffect(() => {
     const handleKey = (e: KeyboardEvent) => {
       const tag = (e.target as HTMLElement | null)?.tagName?.toLowerCase();
       if (tag === 'input' || tag === 'textarea' || tag === 'select') return;
       const step = 4.5;
-      if (e.key === 'ArrowLeft' || e.key === 'a' || e.key === 'A') {
+      if (e.key === 'a' || e.key === 'A') {
         e.preventDefault();
         moveSelfTo(pos.x - step, pos.y);
-      } else if (e.key === 'ArrowRight' || e.key === 'd' || e.key === 'D') {
+      } else if (e.key === 'd' || e.key === 'D') {
         e.preventDefault();
         moveSelfTo(pos.x + step, pos.y);
-      } else if (e.key === 'ArrowUp' || e.key === 'w' || e.key === 'W') {
+      } else if (e.key === 'w' || e.key === 'W') {
         e.preventDefault();
         moveSelfTo(pos.x, pos.y - step);
-      } else if (e.key === 'ArrowDown' || e.key === 's' || e.key === 'S') {
+      } else if (e.key === 's' || e.key === 'S') {
         e.preventDefault();
         moveSelfTo(pos.x, pos.y + step);
       }
@@ -484,11 +492,11 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
   const handleAnswerTrivia = async (optIdx: number) => {
     if (triviaBusy || triviaStatus !== 'idle') return;
     setTriviaPicked(optIdx);
-    const isCorrect = optIdx === currentCity.trivia.correctIndex;
+    const isCorrect = optIdx === activeTrivia.correctIndex;
     if (!isCorrect) {
       soundManager.play('wrong');
       setTriviaStatus('wrong');
-      setTriviaNotice(`Chưa đúng rồi! ${currentCity.trivia.fact}`);
+      setTriviaNotice(`Chưa đúng rồi! ${activeTrivia.fact}`);
       return;
     }
 
@@ -680,6 +688,7 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
               onClick={(e) => {
                 e.stopPropagation();
                 soundManager.play('click');
+                setTriviaQuestionIndex(0);
                 setTriviaPicked(null);
                 setTriviaStatus('idle');
                 setTriviaNotice('');
@@ -778,49 +787,6 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
               );
             })}
 
-            </div>
-
-            {/* Touch / On-screen Compact D-Pad for Mobile & Quick Stepping */}
-            <div
-              data-interactive="true"
-              onClick={(e) => e.stopPropagation()}
-              className="absolute bottom-3 left-3 z-30 grid grid-cols-3 gap-1 w-28 sm:w-32 opacity-85 hover:opacity-100"
-              aria-label="Phím điều hướng nhân vật"
-            >
-              <div />
-              <button
-                type="button"
-                onClick={() => moveSelfTo(pos.x, pos.y - 6)}
-                className="h-9 rounded-xl bg-slate-950/75 hover:bg-slate-900 text-white flex items-center justify-center border border-white/25 cursor-pointer active:scale-90"
-                aria-label="Đi lên"
-              >
-                <ArrowUp className="w-4 h-4" />
-              </button>
-              <div />
-              <button
-                type="button"
-                onClick={() => moveSelfTo(pos.x - 6, pos.y)}
-                className="h-9 rounded-xl bg-slate-950/75 hover:bg-slate-900 text-white flex items-center justify-center border border-white/25 cursor-pointer active:scale-90"
-                aria-label="Sang trái"
-              >
-                <ArrowLeft className="w-4 h-4" />
-              </button>
-              <button
-                type="button"
-                onClick={() => moveSelfTo(pos.x, pos.y + 6)}
-                className="h-9 rounded-xl bg-slate-950/75 hover:bg-slate-900 text-white flex items-center justify-center border border-white/25 cursor-pointer active:scale-90"
-                aria-label="Đi xuống"
-              >
-                <ArrowDown className="w-4 h-4" />
-              </button>
-              <button
-                type="button"
-                onClick={() => moveSelfTo(pos.x + 6, pos.y)}
-                className="h-9 rounded-xl bg-slate-950/75 hover:bg-slate-900 text-white flex items-center justify-center border border-white/25 cursor-pointer active:scale-90"
-                aria-label="Sang phải"
-              >
-                <ArrowRight className="w-4 h-4" />
-              </button>
             </div>
 
             {/* Bottom-right Quick Emote Strip on Stage */}
@@ -934,10 +900,10 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
                       </div>
                       <div>
                         <h3 className="text-sm font-black text-slate-900 dark:text-white">
-                          Đố Vui Địa Danh: {currentCity.shortName}
+                          Vui-Bot đố vui
                         </h3>
                         <p className="text-[11px] text-slate-500">
-                          Trả lời đúng nhận +3 Xu & +10 XP mỗi ngày
+                          Câu hỏi địa danh và câu đố mẹo dành cho bạn
                         </p>
                       </div>
                     </div>
@@ -951,12 +917,12 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
                   </div>
 
                   <p className="text-sm font-bold text-slate-800 dark:text-slate-100 leading-relaxed">
-                    {currentCity.trivia.question}
+                    {activeTrivia.question}
                   </p>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                    {currentCity.trivia.options.map((opt, idx) => {
-                      const isCorrectOpt = idx === currentCity.trivia.correctIndex;
+                    {activeTrivia.options.map((opt, idx) => {
+                      const isCorrectOpt = idx === activeTrivia.correctIndex;
                       const isPicked = triviaPicked === idx;
                       return (
                         <button
@@ -992,6 +958,16 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
                       <span>{triviaNotice}</span>
                     </div>
                   )}
+                  {triviaStatus !== 'idle' && (
+                    <button type="button" onClick={() => {
+                      setTriviaQuestionIndex((index) => index + 1);
+                      setTriviaPicked(null);
+                      setTriviaStatus('idle');
+                      setTriviaNotice('');
+                    }} className="w-full rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-black text-sm py-2.5 cursor-pointer">
+                      Câu đố tiếp theo →
+                    </button>
+                  )}
                 </div>
               </div>
             )}
@@ -1002,7 +978,7 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
             <span className="flex items-center gap-1.5">
               <Compass className="w-4 h-4 text-blue-500 shrink-0" />
               <span>
-                Mẹo: Chạm hoặc <b>vuốt ngón tay</b> trên sân (hoặc phím <b>WASD / Mũi tên</b>) để đi dạo. Xe VIP/Thần Thoại giảm tới <b>30% giá vé Du Hành</b>!
+                Mẹo: Chạm hoặc <b>vuốt ngón tay</b> trên sân (hoặc dùng phím <b>WASD</b>) để đi dạo. Xe VIP/Thần Thoại giảm tới <b>30% giá vé Du Hành</b>!
               </span>
             </span>
             <span className="font-bold text-slate-800 dark:text-slate-100 tabular-nums">
