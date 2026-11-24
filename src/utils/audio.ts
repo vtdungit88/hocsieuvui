@@ -37,6 +37,16 @@ class SoundManager {
     return this.isMuted;
   }
 
+  public setMuted(muted: boolean): boolean {
+    this.isMuted = muted;
+    try {
+      localStorage.setItem('hsv_sound_muted', JSON.stringify(this.isMuted));
+    } catch {
+      // Ignore
+    }
+    return this.isMuted;
+  }
+
   public getMuted(): boolean {
     return this.isMuted;
   }

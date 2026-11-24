@@ -15,6 +15,7 @@ import {
   LogOut,
   ShieldCheck,
   Download,
+  Music,
   Users,
   Award
 } from 'lucide-react';
@@ -35,6 +36,8 @@ interface NavbarProps {
   onlineCount?: number;
   isMuted: boolean;
   onToggleSound: () => void;
+  isMusicEnabled: boolean;
+  onToggleMusic: () => void;
 }
 
 const NAV_ITEMS = [
@@ -58,7 +61,9 @@ export const Navbar: React.FC<NavbarProps> = ({
   onOpenInstallShare,
   onlineCount,
   isMuted,
-  onToggleSound
+  onToggleSound,
+  isMusicEnabled,
+  onToggleMusic
 }) => {
   return (
     <header className="sticky top-0 z-40 pt-[env(safe-area-inset-top)] bg-white/95 dark:bg-slate-900/95 border-b border-slate-200 dark:border-slate-800 transition-colors">
@@ -125,14 +130,32 @@ export const Navbar: React.FC<NavbarProps> = ({
             </div>
           )}
 
-          {/* Sound Toggle */}
+          {/* Background Music Toggle */}
           <button
-            onClick={onToggleSound}
-            className="hidden xl:inline-flex p-2 text-slate-500 hover:text-slate-800 dark:hover:text-slate-200 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer shrink-0"
-            title={isMuted ? 'Bật âm thanh' : 'Tắt âm thanh'}
-            aria-label="Toggle sound"
+            type="button"
+            onClick={onToggleMusic}
+            aria-pressed={isMusicEnabled && !isMuted}
+            aria-label={isMusicEnabled && !isMuted ? 'Tắt nhạc nền' : 'Bật nhạc nền'}
+            title={isMusicEnabled && !isMuted ? 'Đang bật nhạc nền theo khu vực (bấm để tắt)' : 'Bật nhạc nền vui nhộn'}
+            className={`hidden sm:inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border text-xs font-extrabold transition-all cursor-pointer shrink-0 active:scale-95 ${
+              isMusicEnabled && !isMuted
+                ? 'bg-emerald-50 dark:bg-emerald-950/50 border-emerald-300 dark:border-emerald-700 text-emerald-700 dark:text-emerald-300 shadow-xs'
+                : 'bg-slate-100 dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-500 dark:text-slate-400 hover:text-slate-800'
+            }`}
           >
-            {isMuted ? <VolumeX className="w-5 h-5" /> : <Volume2 className="w-5 h-5 text-blue-600" />}
+            <Music className={`w-3.5 h-3.5 ${isMusicEnabled && !isMuted ? 'text-emerald-600 dark:text-emerald-400' : ''}`} />
+            <span className="hidden lg:inline">{isMusicEnabled && !isMuted ? 'Bật nhạc' : 'Tắt nhạc'}</span>
+          </button>
+
+          {/* Sound Effects Toggle */}
+          <button
+            type="button"
+            onClick={onToggleSound}
+            className="hidden md:inline-flex p-2 text-slate-500 hover:text-slate-800 dark:hover:text-slate-200 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer shrink-0"
+            title={isMuted ? 'Bật tất cả âm thanh' : 'Tắt tất cả âm thanh'}
+            aria-label={isMuted ? 'Bật âm thanh' : 'Tắt âm thanh'}
+          >
+            {isMuted ? <VolumeX className="w-5 h-5 text-rose-500" /> : <Volume2 className="w-5 h-5 text-blue-600" />}
           </button>
 
           {/* Install & Share App Button */}
@@ -203,30 +226,46 @@ export const Navbar: React.FC<NavbarProps> = ({
         </div>
       </div>
 
-      {/* Mobile quick actions: restore sound, App, level, and wallet at phone widths. */}
-      <div className="md:hidden flex items-center justify-center gap-1.5 px-2 py-2 bg-slate-50/95 dark:bg-slate-900/95 border-t border-slate-100 dark:border-slate-800">
+      {/* Mobile quick actions: restore music, sound, App, level, and wallet at phone widths without overflowing 320px. */}
+      <div className="md:hidden flex items-center justify-center gap-1 min-[360px]:gap-1.5 px-1.5 py-2 bg-slate-50/95 dark:bg-slate-900/95 border-t border-slate-100 dark:border-slate-800">
         <button
-          onClick={onToggleSound}
-          aria-label={isMuted ? "Bật âm thanh" : "Tắt âm thanh"}
-          title={isMuted ? "Bật âm thanh" : "Tắt âm thanh"}
-          className="inline-flex items-center justify-center h-9 w-9 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-blue-600 dark:text-blue-400 shrink-0"
+          type="button"
+          onClick={onToggleMusic}
+          aria-pressed={isMusicEnabled && !isMuted}
+          aria-label={isMusicEnabled && !isMuted ? 'Tắt nhạc nền' : 'Bật nhạc nền'}
+          title={isMusicEnabled && !isMuted ? 'Tắt nhạc nền' : 'Bật nhạc nền'}
+          className={`inline-flex items-center justify-center gap-1 h-9 px-2 rounded-xl border text-[11px] font-extrabold shrink-0 cursor-pointer ${
+            isMusicEnabled && !isMuted
+              ? 'bg-emerald-50 dark:bg-emerald-950/60 border-emerald-300 dark:border-emerald-700 text-emerald-700 dark:text-emerald-300'
+              : 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-500 dark:text-slate-400'
+          }`}
         >
-          {isMuted ? <VolumeX className="w-4 h-4"/> : <Volume2 className="w-4 h-4"/>}
+          <Music className="w-3.5 h-3.5" />
+          <span className="hidden min-[360px]:inline">Nhạc</span>
+        </button>
+        <button
+          type="button"
+          onClick={onToggleSound}
+          aria-label={isMuted ? 'Bật âm thanh' : 'Tắt âm thanh'}
+          title={isMuted ? 'Bật âm thanh' : 'Tắt âm thanh'}
+          className="inline-flex items-center justify-center h-9 w-8 min-[360px]:w-9 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-blue-600 dark:text-blue-400 shrink-0"
+        >
+          {isMuted ? <VolumeX className="w-4 h-4 text-rose-500" /> : <Volume2 className="w-4 h-4" />}
         </button>
         {onOpenInstallShare && (
-          <button onClick={onOpenInstallShare} aria-label="App: cài đặt hoặc chia sẻ" title="App" className="inline-flex items-center justify-center gap-1 h-9 px-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-xs font-extrabold shrink-0">
-            <Download className="w-4 h-4"/>App
+          <button onClick={onOpenInstallShare} aria-label="App: cài đặt hoặc chia sẻ" title="App" className="inline-flex items-center justify-center gap-1 h-9 px-2 min-[360px]:px-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-xs font-extrabold shrink-0">
+            <Download className="w-3.5 h-3.5" />App
           </button>
         )}
         {onOpenLevel && (
-          <button onClick={onOpenLevel} aria-label={`Cấp ${student.level}, xem cấp độ`} title="Xem cấp độ" className="inline-flex items-center gap-1 h-9 px-2.5 rounded-xl bg-indigo-50 dark:bg-indigo-950/60 border border-indigo-200 dark:border-indigo-800 text-indigo-700 dark:text-indigo-300 text-xs font-extrabold shrink-0">
-            <Award className="w-3.5 h-3.5 text-amber-500"/>Lv.{student.level}
+          <button onClick={onOpenLevel} aria-label={`Cấp ${student.level}, xem cấp độ`} title="Xem cấp độ" className="inline-flex items-center gap-1 h-9 px-2 min-[360px]:px-2.5 rounded-xl bg-indigo-50 dark:bg-indigo-950/60 border border-indigo-200 dark:border-indigo-800 text-indigo-700 dark:text-indigo-300 text-xs font-extrabold shrink-0">
+            <Award className="w-3.5 h-3.5 text-amber-500" />Lv.{student.level}
           </button>
         )}
-        <div aria-label={`${student.coins} Xu, ${student.stars} Sao`} className="flex items-center gap-1.5 h-9 px-2.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs font-mono font-bold shrink-0">
-          <span className="inline-flex items-center gap-1 text-amber-600 dark:text-amber-400"><CoinIcon className="w-3.5 h-3.5"/>{student.coins}</span>
+        <div aria-label={`${student.coins} Xu, ${student.stars} Sao`} className="flex items-center gap-1 min-[360px]:gap-1.5 h-9 px-2 min-[360px]:px-2.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs font-mono font-bold shrink-0">
+          <span className="inline-flex items-center gap-0.5 min-[360px]:gap-1 text-amber-600 dark:text-amber-400"><CoinIcon className="w-3.5 h-3.5" />{student.coins}</span>
           <span className="text-slate-300 dark:text-slate-600">|</span>
-          <span className="inline-flex items-center gap-1 text-yellow-500 dark:text-yellow-400"><StarIcon className="w-3.5 h-3.5 fill-yellow-400"/>{student.stars}</span>
+          <span className="inline-flex items-center gap-0.5 min-[360px]:gap-1 text-yellow-500 dark:text-yellow-400"><StarIcon className="w-3.5 h-3.5 fill-yellow-400" />{student.stars}</span>
         </div>
       </div>
 

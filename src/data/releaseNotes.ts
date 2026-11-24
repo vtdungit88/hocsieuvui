@@ -15,6 +15,15 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.15',
+    date: '2026-11-24',
+    title: 'Nâng cấp hệ thống nhạc nền nguyên bản theo từng khu vực',
+    items: [
+      'Nâng cấp bộ tổng hợp nhạc Web Audio đa âm sắc với giai điệu nguyên bản 32 nhịp riêng cho Trang chủ (vui tươi), Bài học (nhẹ nhàng tập trung), Studio (nhí nhảnh), Đấu trường (sôi động), Sảnh Online (giao lưu) và Bảng vàng; Bản đồ tiếp tục dùng nhạc thám hiểm riêng không chồng âm.',
+      'Bổ sung nút Bật nhạc / Tắt nhạc trực quan trên thanh điều hướng (cả máy tính và điện thoại) và trong hướng dẫn Vui-Bot, lưu lựa chọn qua tải lại trang, chuyển cảnh mượt có chống rè và tương thích cơ chế autoplay trình duyệt.'
+    ]
+  },
+  {
     version: '0.2.14',
     date: '2026-11-24',
     title: 'Đồng bộ nhân vật Trợ lý ảo Vui-Bot trên toàn hệ thống',

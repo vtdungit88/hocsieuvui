@@ -63,14 +63,18 @@ export default function App() {
   const onlineCount = useOnlineCount();
   useRecordVisit();
 
-  // Start background music only after the first genuine user gesture (browser autoplay policy).
+  // Unlock Web Audio on the first genuine user gesture across desktop & mobile browsers.
   useEffect(() => {
     const unlockMusic = () => gameMusic.unlock();
-    window.addEventListener('pointerdown', unlockMusic, { once: true });
-    window.addEventListener('keydown', unlockMusic, { once: true });
+    window.addEventListener('pointerdown', unlockMusic, { capture: true, once: true });
+    window.addEventListener('touchstart', unlockMusic, { capture: true, once: true });
+    window.addEventListener('click', unlockMusic, { capture: true, once: true });
+    window.addEventListener('keydown', unlockMusic, { capture: true, once: true });
     return () => {
-      window.removeEventListener('pointerdown', unlockMusic);
-      window.removeEventListener('keydown', unlockMusic);
+      window.removeEventListener('pointerdown', unlockMusic, { capture: true });
+      window.removeEventListener('touchstart', unlockMusic, { capture: true });
+      window.removeEventListener('click', unlockMusic, { capture: true });
+      window.removeEventListener('keydown', unlockMusic, { capture: true });
     };
   }, []);
   useEffect(() => {
@@ -100,11 +104,17 @@ export default function App() {
   const [isTravelModalOpen, setIsTravelModalOpen] = useState(false);
   const [showTicker, setShowTicker] = useState(true);
   const [isMuted, setIsMuted] = useState(() => soundManager.getMuted());
+  const [isMusicEnabled, setIsMusicEnabled] = useState(() => gameMusic.isEnabled());
   const [isGuideOpen, setIsGuideOpen] = useState(false);
 
   useEffect(() => {
-    gameMusic.setScene(currentView);
-  }, [currentView]);
+    return gameMusic.subscribe(() => setIsMusicEnabled(gameMusic.isEnabled()));
+  }, []);
+
+  useEffect(() => {
+    const scene = currentView === 'study' && !learning ? 'home' : currentView;
+    gameMusic.setScene(scene);
+  }, [currentView, learning]);
 
   // Show the Vui-Bot walkthrough once on the first visit to each main area unless opted out.
   useEffect(() => {
@@ -239,16 +249,35 @@ export default function App() {
     };
   }, [activeDestKey, currentView, student.id, student.isGuest]);
 
-  // Handle sound toggle
+  // Handle global audio mute toggle
   const handleToggleSound = () => {
     const muted = soundManager.toggleMute();
     gameMusic.setMuted(muted);
     if (!muted) {
       gameMusic.unlock();
       if (currentView === 'map' && mapAudio.isEnabled()) mapAudio.start();
+      soundManager.play('click');
+    } else {
+      mapAudio.stop();
     }
     setIsMuted(muted);
-    if (!muted) {
+  };
+
+  // Handle dedicated background music toggle
+  const handleToggleMusic = () => {
+    const currentlyEffectiveOn = isMusicEnabled && !isMuted;
+    if (currentlyEffectiveOn) {
+      gameMusic.setEnabled(false);
+      if (currentView === 'map') mapAudio.stop();
+    } else {
+      if (isMuted) {
+        soundManager.setMuted(false);
+        setIsMuted(false);
+        gameMusic.setMuted(false);
+      }
+      gameMusic.setEnabled(true);
+      gameMusic.unlock();
+      if (currentView === 'map' && mapAudio.isEnabled()) mapAudio.start();
       soundManager.play('click');
     }
   };
@@ -340,6 +369,8 @@ export default function App() {
         onOpenInstallShare={() => setIsInstallShareOpen(true)}
         isMuted={isMuted}
         onToggleSound={handleToggleSound}
+        isMusicEnabled={isMusicEnabled}
+        onToggleMusic={handleToggleMusic}
       />
 
       {/* Balanced Full-Width Running Cultural Celebration Ribbon */}
@@ -830,6 +861,8 @@ export default function App() {
           gameMusic.unlock();
           setCurrentView(view);
         }}
+        isMusicOn={isMusicEnabled && !isMuted}
+        onToggleMusic={handleToggleMusic}
       />
 
       {/* Trợ Lý Ảo Vui-Bot & Hộp Thư Góp Ý */}

@@ -7,10 +7,12 @@ import {
   Gamepad2,
   Map,
   MapPin,
+  Music,
   SkipForward,
   Sparkles,
   Trophy,
   Users,
+  VolumeX,
   X,
   Zap
 } from 'lucide-react';
@@ -245,9 +247,18 @@ interface Props {
   open: boolean;
   onClose: (dontShowAgain?: boolean) => void;
   onNavigate: (view: GuideView) => void;
+  isMusicOn?: boolean;
+  onToggleMusic?: () => void;
 }
 
-export const InteractiveGameGuide: React.FC<Props> = ({ view, open, onClose, onNavigate }) => {
+export const InteractiveGameGuide: React.FC<Props> = ({
+  view,
+  open,
+  onClose,
+  onNavigate,
+  isMusicOn = true,
+  onToggleMusic
+}) => {
   const [step, setStep] = useState(0);
   const [dontShowAgain, setDontShowAgain] = useState(() => {
     try {
@@ -282,17 +293,35 @@ export const InteractiveGameGuide: React.FC<Props> = ({ view, open, onClose, onN
       <div className="relative w-full max-w-4xl overflow-hidden rounded-[1.75rem] sm:rounded-[2.25rem] bg-white dark:bg-slate-900 shadow-2xl border border-blue-200/70 dark:border-slate-700 max-h-[92svh] overflow-y-auto">
         <div className={`h-2 w-full bg-gradient-to-r ${guide.color}`} />
 
-        <button
-          type="button"
-          onClick={() => {
-            soundManager.play('click');
-            handleClose();
-          }}
-          className="absolute right-3.5 top-4 z-20 w-9 h-9 rounded-full bg-blue-600 hover:bg-blue-700 text-white shadow-md flex items-center justify-center cursor-pointer transition-transform active:scale-95"
-          aria-label="Đóng hướng dẫn"
-        >
-          <X className="w-5 h-5" />
-        </button>
+        <div className="absolute right-3.5 top-4 z-20 flex items-center gap-2">
+          {onToggleMusic && (
+            <button
+              type="button"
+              onClick={onToggleMusic}
+              aria-pressed={isMusicOn}
+              className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-extrabold shadow-md border cursor-pointer transition-all active:scale-95 ${
+                isMusicOn
+                  ? 'bg-emerald-500 hover:bg-emerald-600 text-white border-emerald-400'
+                  : 'bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 border-slate-300 dark:border-slate-600'
+              }`}
+              title={isMusicOn ? 'Bấm để tắt nhạc nền' : 'Bấm để bật nhạc nền'}
+            >
+              {isMusicOn ? <Music className="w-3.5 h-3.5" /> : <VolumeX className="w-3.5 h-3.5" />}
+              <span>{isMusicOn ? 'Bật nhạc' : 'Tắt nhạc'}</span>
+            </button>
+          )}
+          <button
+            type="button"
+            onClick={() => {
+              soundManager.play('click');
+              handleClose();
+            }}
+            className="w-9 h-9 rounded-full bg-blue-600 hover:bg-blue-700 text-white shadow-md flex items-center justify-center cursor-pointer transition-transform active:scale-95"
+            aria-label="Đóng hướng dẫn"
+          >
+            <X className="w-5 h-5" />
+          </button>
+        </div>
 
         <div className="grid md:grid-cols-[0.82fr_1.18fr] items-center gap-4 sm:gap-6 p-5 sm:p-8 pt-7">
           {/* Left: Unified Vui-Bot Stage */}
