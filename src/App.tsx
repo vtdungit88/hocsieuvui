@@ -15,6 +15,7 @@ import { getVisitorId, useOnlineCount, useRecordVisit } from './lib/presence';
 import { levelFromXp } from './data/levels';
 import { soundManager } from './utils/audio';
 import { gameMusic } from './utils/gameMusic';
+import { mapAudio } from './utils/mapAudio';
 import { CoinIcon, StarIcon } from './components/GameIcons';
 import { Navbar, type AppView } from './components/Navbar';
 import { AvatarStudio } from './components/AvatarStudio';
@@ -211,7 +212,10 @@ export default function App() {
   const handleToggleSound = () => {
     const muted = soundManager.toggleMute();
     gameMusic.setMuted(muted);
-    if (!muted) gameMusic.unlock();
+    if (!muted) {
+      gameMusic.unlock();
+      if (currentView === 'map' && mapAudio.isEnabled()) mapAudio.start();
+    }
     setIsMuted(muted);
     if (!muted) {
       soundManager.play('click');
