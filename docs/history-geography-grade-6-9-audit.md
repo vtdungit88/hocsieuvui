@@ -420,3 +420,33 @@ Cần rà soát vai trò truy cập và thiết kế policy phù hợp trước 
 - Còn 79 đơn vị: chủ đề chung lớp 7 (2), lớp 8 (33), lớp 9 (44). Các bài tích hợp cần được mô hình hóa đúng phân môn integrated, không ép vào loại Lịch sử hoặc Địa lí.
 - CI đã pass trên tranche trước đó; một lần chạy trên tranche Địa lí mới phát hiện dấu phẩy thừa trong hai mảng TypeScript, đã sửa tại commit tiếp theo. Phải chờ CI chạy lại trên HEAD mới nhất trước khi ghi nhận xanh.
 - Toàn bộ học liệu lớp 6–9 vẫn là draft, chưa được thẩm định độc lập. Không import/publish, không mở khóa và không deploy trong bước này.
+
+
+## 13. Kiểm tra an toàn production và khóa phát hành — 24/11/2026
+
+> Phần này cập nhật trạng thái thực tế sau các lần triển khai ngày 24/11; các ghi chú trước đó là ảnh chụp tiến độ lịch sử và không còn phản ánh production.
+
+- PR [#27](https://github.com/vtdungit88/hocsieuvui/pull/27) đã được merge lúc 01:31 UTC ngày 24/11/2026. Commit merge: `f1b86802c7b2cbe7da5a5a8a9acb2e861dcafa26`. Nhánh cũ hiện đã nằm trong lịch sử base và không được force-push hoặc dùng làm nhánh làm việc tiếp.
+- Base `feature/mvp-web-supabase` tại thời điểm kiểm tra: `db343881e4ef0358fcb97e717ebf2ef90a5b549f`. CI trên base xanh (run [45310868243](https://github.com/vtdungit88/hocsieuvui/actions/runs/45310868243)); workflow GitHub Pages xanh (run [45310868187](https://github.com/vtdungit88/hocsieuvui/actions/runs/45310868187)). CI của PR merge head cũng xanh (run [45168378355](https://github.com/vtdungit88/hocsieuvui/actions/runs/45168378355)).
+- Kiểm tra production Supabase xác nhận đã có đủ **48 chương, 166 bài và 2.490 câu hỏi** cho lớp 6–9: lớp 6 (12 chương/50 bài/750 câu), lớp 7 (13/39/585), lớp 8 (12/33/495), lớp 9 (11/44/660). Tất cả chương, bài và câu hỏi đang ở trạng thái `published`; 9 phiên quiz đã tồn tại (8 đã chấm, 1 đang làm), không có bài tập lớp giao cho nhóm bài này.
+- Kiểm tra cấu trúc ghi nhận 9.960 phương án, 2.490 khóa đáp án riêng trong `private.question_answer_keys`, không thiếu khóa; nội dung bài có subtitle/concepts và câu hỏi có giải thích. Runtime hiện lấy chương/bài có trạng thái `published`; RPC `start_quiz` từ chối bài không ở trạng thái `published`. `answer_question` và `submit_quiz` chấm điểm phía máy chủ, kiểm tra quyền sở hữu phiên; khóa đáp án không nằm trong payload bắt đầu quiz.
+- **Cổng chuyên môn chưa đạt:** cả 2.490 câu hỏi đều chưa có `reviewed_by`/`reviewed_at`; không có sự kiện `private.content_review_events` hoặc bản ghi revision cho các câu hỏi này. Bộ E2E hiện tại kiểm tra nền tảng bằng nội dung Toán, chưa phải E2E riêng cho Lịch sử & Địa lí. Kiểm tra hình dạng dữ liệu và số lượng không chứng minh đáp án đúng về học thuật.
+- Có 1 phiên quiz Lịch sử & Địa lí lớp 8 đang ở trạng thái `in_progress` tại thời điểm kiểm tra. Không xóa dữ liệu, không sửa khóa đáp án, không archive câu hỏi đã publish (trạng thái archive là terminal), và không thay đổi session đang chạy.
+- Supabase không có development branch. Không tạo staging branch vì sẽ phát sinh compute charge; production không được dùng làm môi trường thử nghiệm. Cần chủ dự án duyệt chi phí nếu muốn có staging Supabase riêng.
+- Vì vậy, lớp 6–9 phải tiếp tục khóa ở catalog cho đến khi có giáo viên/người có chuyên môn thẩm định độc lập, E2E riêng cho môn học và kiểm thử staging. Nhánh follow-up riêng `fix/lsdl6-9-release-gate-20261124` khóa lại cờ mở lớp 6–9 và nâng validator để ngăn mở nhầm; giữ lớp 4–5 đang hoạt động.
+
+### Cổng còn lại trước khi mở lớp 6–9
+
+1. Giáo viên/người có chuyên môn rà soát mục lục, 166 học liệu, toàn bộ 2.490 câu hỏi, đáp án, giải thích và dữ liệu bản đồ/hình ảnh.
+2. Tạo staging Supabase sau khi chủ dự án chấp thuận chi phí; import idempotent vào staging, kiểm tra RLS/RPC và xác nhận không lộ khóa đáp án.
+3. Bổ sung E2E riêng cho chọn môn/lớp, tải chương-bài, bắt đầu quiz, trả lời, chấm điểm, lưu tiến độ; chạy kiểm thử phone/tablet/desktop trên luồng môn này.
+4. Chỉ mở cờ lớp 6–9 và publish sau khi có bằng chứng review, staging và CI xanh trên commit cuối.
+
+
+## 14. Spot-check đáp án dân số lớp 9 — 24/11/2026
+
+- Khi kiểm tra mẫu theo từng lớp và phân môn, phát hiện câu `LSDL9-B22-015` (Lớp 9, Địa lí, Bài 1 — Dân tộc và dân số) có đáp án đã xuất bản sai: lựa chọn A khẳng định dân số Việt Nam giảm xuống dưới 30 triệu người. Dữ liệu chính thức của Tổng cục Thống kê cho biết dân số trung bình năm 2023 là **100,3 triệu người**, mức sinh giảm và tốc độ tăng dân số giảm dần: [Thông cáo Tổng cục Thống kê năm 2023](https://www.nso.gov.vn/tin-tuc-thong-ke/2023/12/thong-cao-bao-chi-ve-tinh-hinh-kinh-te-xa-hoi-quy-iv-va-nam-2023/).
+- Đã sửa **bản nháp nguồn** và file batch lớp 9: đáp án đúng chuyển sang lựa chọn B; giải thích ghi rõ mốc 100,3 triệu người. Validator có regression guard cho câu này để ngăn lỗi quay lại.
+- Kiểm tra production cho thấy bản ghi `LSDL9-B22-015` vẫn ở trạng thái `published`, hiện chưa có lượt trả lời. Không tự sửa hoặc archive bằng SQL trực tiếp: RPC quản trị `admin_question_bank_set_status` yêu cầu phiên đăng nhập có `auth.uid()` và vai trò `platform_admin`; kết nối kiểm tra cơ sở dữ liệu hiện không có ngữ cảnh đăng nhập đó.
+- **Cần chủ dự án/người có vai trò platform_admin thao tác trong Admin Question Bank:** tìm mã `LSDL9-B22-015`, chuyển sang `archived` với ghi chú sai đáp án theo số liệu Tổng cục Thống kê; bản thay thế đúng chỉ được tạo ở trạng thái draft/pending_review và cần người khác thẩm định trước khi publish. Không bỏ qua quy trình này.
+- Một lỗi đã được phát hiện qua spot-check đủ để kết luận 2.490 câu hỏi chưa thể coi là đã thẩm định. Cần tiếp tục rà soát toàn bộ câu hỏi và giải thích, không suy rộng kết quả spot-check thành chứng nhận chất lượng toàn bộ ngân hàng.

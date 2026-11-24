@@ -8,6 +8,21 @@ import { integratedQuizDrafts } from '../src/data/historyGeographyIntegratedQuiz
 import { SUBJECTS_CATALOG } from '../src/data/subjectsCatalog';
 
 const quizSets = [...historyGeographyQuizDrafts, ...geographyQuizDrafts, ...integratedQuizDrafts];
+
+// Regression guard: Grade 9 Geography lesson 1 must use the official population baseline,
+// not the previously incorrect claim that Vietnam's population had fallen below 30 million.
+const grade9PopulationQuiz = quizSets.find((set) => set.grade === 9 && set.title === 'Dân tộc và dân số');
+assert.ok(grade9PopulationQuiz, 'Grade 9 Geography population lesson must exist');
+const populationTrendQuestion = grade9PopulationQuiz.questions.find((question) =>
+  question.prompt.includes('bức tranh dân số Việt Nam đầu thế kỉ XXI')
+);
+assert.ok(populationTrendQuestion, 'Grade 9 population trend question must exist');
+assert.equal(
+  populationTrendQuestion.options[populationTrendQuestion.answer],
+  'Quy mô dân số lớn trên 100 triệu người, mức sinh giảm nhưng chênh lệch vùng miền còn tồn tại và đang chuyển nhanh từ dân số vàng sang già hóa',
+  'Grade 9 population trend answer must reflect the official population data'
+);
+assert.match(populationTrendQuestion.explanation, /100,3 triệu người/);
 const lessonById = new Map(historyGeographyLessonDrafts.map((lesson) => [lesson.id, lesson]));
 const lessonIds = new Set(lessonById.keys());
 for (const lesson of historyGeographyLessonDrafts) {
@@ -46,10 +61,17 @@ const historyGeoSubject = SUBJECTS_CATALOG.find((subject) => subject.id === 'his
 assert.ok(historyGeoSubject, 'History & Geography must remain in the subject catalog');
 assert.equal(historyGeoSubject.dbCode, 'lsdl', 'History & Geography database code must remain stable');
 const availabilityByGrade = new Map(historyGeoSubject.availableGrades.map((item) => [item.grade, item]));
-for (const grade of ['4', '5', '6', '7', '8', '9'] as const) {
+for (const grade of ['4', '5'] as const) {
   const availability = availabilityByGrade.get(grade);
   assert.ok(availability, `History & Geography catalog is missing grade ${grade}`);
-  assert.ok(availability.term1Available && availability.term2Available, `History & Geography grade ${grade} must be unlocked`);
+  assert.ok(availability.term1Available && availability.term2Available, `Existing History & Geography grade ${grade} must remain open`);
+}
+for (const grade of ['6', '7', '8', '9'] as const) {
+  const availability = availabilityByGrade.get(grade);
+  assert.ok(availability, `History & Geography catalog is missing grade ${grade}`);
+  assert.equal(availability.term1Available, false, `Grade ${grade} must remain locked until independent content review and runtime E2E pass`);
+  assert.equal(availability.term2Available, false, `Grade ${grade} must remain locked until independent content review and runtime E2E pass`);
+  assert.match(availability.notes ?? '', /chờ thẩm định/i, `Grade ${grade} must explain its review gate`);
 }
 
 

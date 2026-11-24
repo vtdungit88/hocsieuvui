@@ -148,11 +148,11 @@ export const CoursePicker: React.FC<Props> = ({
               </span>
               <div className="space-y-1">
                 <h4 className="font-black text-sm sm:text-base text-slate-900 dark:text-white">
-                  {subject.name} {grade ? `· Lớp ${grade}` : ''} — Đã sẵn sàng khung môn học
+                  {subject.name} {grade ? `· Lớp ${grade}` : ''} — Chưa mở cho học sinh
                 </h4>
                 <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
                   {selectedGradeMeta?.notes ? `${selectedGradeMeta.notes}. ` : ''}
-                  Môn học đã được chuẩn bị sẵn và sẽ mở ngay khi bộ câu hỏi được cập nhật.
+                  Môn học chỉ mở sau khi học liệu, đáp án và luồng học được thẩm định độc lập, kiểm thử đầy đủ.
                 </p>
               </div>
             </div>
