@@ -563,3 +563,46 @@ alter function public.admin_question_bank_list(uuid, integer, uuid, uuid, text, 
 
 alter function public.admin_settings_bundle(integer)
   set statement_timeout to '25s';
+
+-- 6. Expand automated QA / verification account classification (Verify*, NVFig*, NVTest*, etc.)
+update public.profiles p
+set account_type = 'test'
+from auth.users u
+where u.id = p.id
+  and p.account_type = 'real'
+  and (
+    p.display_alias ~* '^(CI [AB] |CI Alias |ci-|e2e|test|demo|bot|verify|nvfig|nvtest|lsdltest|qa-|smoke-)'
+    or u.email ~* '^(ci-|e2e|test|demo|verify|nvfig|nvtest|lsdltest|qa-|smoke-)'
+  );
+
+create or replace function private.classify_profile_account()
+returns trigger
+language plpgsql
+security definer
+set search_path to ''
+as $function$
+declare
+  v_email text;
+  v_meta_type text;
+begin
+  if tg_op = 'INSERT' then
+    select u.email, coalesce(u.raw_user_meta_data->>'account_type', '')
+      into v_email, v_meta_type
+    from auth.users u where u.id = new.id;
+
+    if v_meta_type in ('test', 'virtual') then
+      new.account_type := v_meta_type;
+    elsif coalesce(v_email, '') ~* '^(ci-|e2e|test|demo|verify|nvfig|nvtest|lsdltest|qa-|smoke-)'
+       or new.display_alias ~* '^(CI [AB] |CI Alias |ci-|e2e|test|demo|bot|verify|nvfig|nvtest|lsdltest|qa-|smoke-)' then
+      new.account_type := 'test';
+    end if;
+  elsif tg_op = 'UPDATE' and new.display_alias is distinct from old.display_alias then
+    if new.account_type = 'real'
+       and new.display_alias ~* '^(CI [AB] |CI Alias |ci-|e2e|test|demo|bot|verify|nvfig|nvtest|lsdltest|qa-|smoke-)' then
+      new.account_type := 'test';
+    end if;
+  end if;
+  return new;
+end
+$function$;
+
