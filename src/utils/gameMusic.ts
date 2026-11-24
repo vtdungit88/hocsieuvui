@@ -34,7 +34,7 @@ class GameMusic {
   }
   unlock() { this.unlocked = true; if (this.enabled && !soundManager.getMuted()) this.start(); }
   private start() {
-    if (this.timer !== null || !this.enabled || soundManager.getMuted() || typeof window === 'undefined') return;
+    if (this.timer !== null || !this.enabled || this.scene === 'map' || soundManager.getMuted() || typeof window === 'undefined') return;
     try {
       const AC = window.AudioContext || (window as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
       if (!AC) return;
