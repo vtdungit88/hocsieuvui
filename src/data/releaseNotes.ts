@@ -15,6 +15,16 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.16',
+    date: '2026-11-25',
+    title: 'Toán 9 chuẩn SGK: 32 bài, câu hỏi kèm hình',
+    items: [
+      'Toán lớp 9 đã được soạn lại theo đúng từng bài của SGK Kết nối tri thức (10 chương, 32 bài + ôn tập chương), mỗi bài 8 câu trắc nghiệm đã kiểm tra lại đáp án.',
+      'Hình học lớp 9 (hệ thức lượng, đường tròn, góc nội tiếp, hình trụ - nón - cầu), đồ thị parabol, bảng và biểu đồ tần số đều có hình minh họa ngay trong đề.',
+      'Toán lớp 6 và lớp 9 hiện đã có đủ chương, bài theo SGK; các lớp khác sẽ được rà soát tiếp.'
+    ]
+  },
+  {
     version: '0.2.15',
     date: '2026-11-24',
     title: 'Nâng cấp hệ thống nhạc nền nguyên bản theo từng khu vực',
