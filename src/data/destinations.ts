@@ -275,8 +275,30 @@ export const EMOTE_STICKERS: { id: string; symbol: string; label: string }[] = [
 
 export function getVehicleDiscountPct(vehicleId?: string): number {
   if (!vehicleId) return 0;
-  if (['veh_hoverboard', 'veh_spaceship', 'veh_magic_carpet'].includes(vehicleId)) return 30;
-  if (['veh_scooter_pastel', 'veh_mountain', 'veh_ebike'].includes(vehicleId)) return 15;
+  if (
+    [
+      'veh_hoverboard',
+      'veh_spaceship',
+      'veh_magic_carpet',
+      'veh_mecha_walker',
+      'veh_cloud_nimbus',
+      'veh_hero_jet'
+    ].includes(vehicleId)
+  ) {
+    return 30;
+  }
+  if (
+    [
+      'veh_scooter_pastel',
+      'veh_mountain',
+      'veh_ebike',
+      'veh_supercar',
+      'veh_cyber_moto',
+      'veh_jetpack'
+    ].includes(vehicleId)
+  ) {
+    return 15;
+  }
   return 0;
 }
 

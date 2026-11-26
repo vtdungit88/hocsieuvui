@@ -56,8 +56,8 @@ const GUIDE_ITEMS: {
     tone: 'bg-orange-100 text-orange-600'
   },
   {
-    title: 'Studio của tôi',
-    desc: 'Sử dụng Xu và Sao tích lũy để tùy chỉnh tóc, trang phục, hậu cảnh cho avatar theo các vật phẩm đang khả dụng trên tài khoản.',
+    title: 'Studio Nhân Vật',
+    desc: 'Sử dụng Xu và Sao để mở khóa hơn 100 vật phẩm: trang phục siêu anh hùng & biệt đội, thú cưng, siêu xe, hào quang, 7 bộ sưu tập và tự trang trí Phòng Cá Nhân.',
     cta: 'Tới Studio',
     view: 'shop',
     Icon: Shirt,

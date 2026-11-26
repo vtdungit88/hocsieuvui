@@ -1,35 +1,77 @@
-import { ShopItem, StudioSet } from '../types';
+import { ShopItem, StudioSet, PersonalRoomDecor } from '../types';
+
+export const DEFAULT_ROOM_DECOR: PersonalRoomDecor = {
+  wallTheme: 'warm',
+  showDeskPc: true,
+  showBed: true,
+  showBookshelf: true,
+  showPlant: true,
+  showPoster: true,
+  showTrophyRack: true
+};
 
 export const STUDIO_SETS: StudioSet[] = [
   {
+    id: 'set_superhero',
+    name: 'Bộ Siêu Anh Hùng HSV',
+    titleReward: 'Siêu Anh Hùng Tri Thức',
+    description: 'Chiến giáp lõi năng lượng, khiên ngôi sao và đôi cánh ánh sáng bảo vệ hành tinh tri thức.',
+    accentColor: 'rose',
+    itemIds: ['outfit_hero_core', 'hand_hero_shield', 'tech_holo_desk', 'aura_wings_cyber', 'bg_future_city']
+  },
+  {
+    id: 'set_elemental',
+    name: 'Bộ Chiến Binh Nguyên Tố',
+    titleReward: 'Chiến Binh Ngũ Hành',
+    description: 'Lấy cảm hứng từ các biệt đội chiến binh nguyên tố, kết hợp quyền trượng và thú cơ khí đồng hành.',
+    accentColor: 'violet',
+    itemIds: ['outfit_ranger_red', 'hand_element_staff', 'phone_ranger_morpher', 'pet_mecha_lion', 'aura_lightning']
+  },
+  {
     id: 'set_explorer',
-    name: 'Bộ Thám Hiểm Rừng Tri Thức',
+    name: 'Bộ Nhà Thám Hiểm Kỳ Quan',
     titleReward: 'Nhà Thám Hiểm Nhí',
-    description: 'Sưu tầm trọn bộ thám hiểm để băng rừng vượt suối chinh phục mọi bản đồ ải SGK.',
+    description: 'Sưu tầm trọn bộ thám hiểm để băng rừng vượt suối và ghi lại khoảnh khắc qua từng ải SGK.',
     accentColor: 'emerald',
-    itemIds: ['outfit_scout', 'hand_magnifier', 'veh_mountain', 'bg_forest']
+    itemIds: ['outfit_scout', 'hand_magnifier', 'hand_camera', 'veh_mountain', 'bg_forest']
   },
   {
     id: 'set_scientist',
-    name: 'Bộ Nhà Khoa Học Công Nghệ VNPT',
+    name: 'Bộ Nhà Khoa Học Nhí',
     titleReward: 'Kỹ Sư Tương Lai',
-    description: 'Trang bị chuẩn phòng thí nghiệm công nghệ cao kết hợp trợ lý Robot thông minh.',
+    description: 'Trang bị chuẩn phòng thí nghiệm công nghệ cao cùng ống nghiệm, kính thiên văn và Vui-Bot Mini.',
     accentColor: 'blue',
-    itemIds: ['outfit_lab', 'hand_casio', 'pet_vuibot', 'bg_lab', 'aura_electric']
+    itemIds: ['outfit_lab', 'hand_casio', 'hand_beaker', 'pet_vuibot', 'bg_lab', 'aura_electric']
+  },
+  {
+    id: 'set_racer',
+    name: 'Bộ Tay Đua Siêu Tốc',
+    titleReward: 'Tay Đua Vô Địch',
+    description: 'Trang phục đua xe khí động học, siêu xe Turbo và bước chân ánh sao bứt phá tốc độ.',
+    accentColor: 'cyan',
+    itemIds: ['outfit_racer', 'veh_supercar', 'veh_cyber_moto', 'phone_console_mini', 'aura_footsteps']
+  },
+  {
+    id: 'set_pet_lover',
+    name: 'Bộ Người Bạn Thú Cưng',
+    titleReward: 'Bạn Thân Muôn Loài',
+    description: 'Quy tụ những người bạn đáng yêu nhất từ chú cáo chín đuôi, gấu trúc đến kỳ lân sao băng.',
+    accentColor: 'teal',
+    itemIds: ['pet_corgi', 'pet_fox', 'pet_panda', 'pet_unicorn', 'bg_magic_forest']
   },
   {
     id: 'set_cosmic',
-    name: 'Bộ Chiến Binh Vũ Trụ Lượng Tử',
-    titleReward: 'Huyền Thoại Ngân Hà',
-    description: 'Set trang bị đỉnh cao tỏa hào quang rực rỡ trên Bảng Vàng và Đấu Trường 1v1.',
+    name: 'Bộ Huyền Thoại Học Tập',
+    titleReward: 'Huyền Thoại Học Tập',
+    description: 'Set trang bị đỉnh cao tỏa hào quang rực rỡ trên Bảng Vàng và mọi đấu trường tri thức.',
     accentColor: 'amber',
-    itemIds: ['outfit_cyber', 'hand_laser', 'veh_spaceship', 'bg_galaxy', 'aura_flame']
+    itemIds: ['outfit_cyber', 'outfit_scholar', 'hand_laser', 'veh_spaceship', 'bg_galaxy', 'aura_flame']
   }
 ];
 
 export const SHOP_ITEMS: ShopItem[] = [
   // =========================================================================
-  // 1. TRANG PHỤC (OUTFITS - 10 món)
+  // 1. TRANG PHỤC (OUTFITS - 20 món)
   // =========================================================================
   {
     id: 'outfit_uniform',
@@ -81,6 +123,32 @@ export const SHOP_ITEMS: ShopItem[] = [
     renderType: 'hoodie'
   },
   {
+    id: 'outfit_racer',
+    name: 'Đồ Đua Siêu Tốc Turbo',
+    category: 'outfit',
+    costCoins: 28,
+    costStars: 2,
+    description: 'Bộ đồ tay đua phối sắc trắng xanh dương và sọc cờ về đích cực ngầu cho đường đua tri thức.',
+    rarity: 'popular',
+    iconName: 'Zap',
+    tagline: 'Bứt phá tốc độ',
+    renderType: 'racer',
+    setId: 'set_racer'
+  },
+  {
+    id: 'outfit_ranger_red',
+    name: 'Chiến Giáp Biệt Đội Đỏ Rực',
+    category: 'outfit',
+    costCoins: 32,
+    costStars: 3,
+    description: 'Trang phục biệt đội chiến binh nguyên bản Học Siêu Vui với đai lưng ngôi sao sức mạnh.',
+    rarity: 'popular',
+    iconName: 'Shield',
+    tagline: 'Đoàn kết là sức mạnh',
+    renderType: 'ranger_red',
+    setId: 'set_elemental'
+  },
+  {
     id: 'outfit_lab',
     name: 'Áo Blouse Nhà Khoa Học Nhí',
     category: 'outfit',
@@ -106,6 +174,18 @@ export const SHOP_ITEMS: ShopItem[] = [
     renderType: 'detective'
   },
   {
+    id: 'outfit_ninja',
+    name: 'Bộ Đồ Ninja Bóng Đêm',
+    category: 'outfit',
+    costCoins: 58,
+    costStars: 5,
+    description: 'Trang phục ninja gọn nhẹ với khăn choàng đỏ và giáp vai ẩn mình chinh phục thử thách.',
+    rarity: 'vip',
+    iconName: 'Zap',
+    tagline: 'Nhanh nhẹn bí ẩn',
+    renderType: 'ninja'
+  },
+  {
     id: 'outfit_varsity',
     name: 'Áo Khoác Bóng Chày Học Đường',
     category: 'outfit',
@@ -116,6 +196,43 @@ export const SHOP_ITEMS: ShopItem[] = [
     iconName: 'Award',
     tagline: 'Phong cách thủ lĩnh',
     renderType: 'varsity'
+  },
+  {
+    id: 'outfit_hero_core',
+    name: 'Giáp Siêu Anh Hùng Lõi Sao',
+    category: 'outfit',
+    costCoins: 68,
+    costStars: 6,
+    description: 'Bộ giáp đỏ vàng phát sáng lõi năng lượng hình ngôi sao trước ngực, sẵn sàng bảo vệ lớp học.',
+    rarity: 'vip',
+    iconName: 'Sparkles',
+    tagline: 'Lõi sao rực cháy',
+    renderType: 'hero_core',
+    setId: 'set_superhero'
+  },
+  {
+    id: 'outfit_knight',
+    name: 'Giáp Hiệp Sĩ Ánh Sáng',
+    category: 'outfit',
+    costCoins: 74,
+    costStars: 7,
+    description: 'Áo giáp bạc viền vàng hoàng gia cùng áo choàng xanh lam uy nghiêm bảo vệ chính nghĩa.',
+    rarity: 'vip',
+    iconName: 'Shield',
+    tagline: 'Trung thực & dũng cảm',
+    renderType: 'knight'
+  },
+  {
+    id: 'outfit_hero_shield',
+    name: 'Chiến Giáp Đội Trưởng Ngôi Sao',
+    category: 'outfit',
+    costCoins: 78,
+    costStars: 7,
+    description: 'Bộ chiến giáp xanh dương – bạc gắn huy hiệu Ngôi Sao Dũng Cảm dẫn dắt toàn đội.',
+    rarity: 'vip',
+    iconName: 'Star',
+    tagline: 'Tinh thần đồng đội',
+    renderType: 'hero_shield'
   },
   {
     id: 'outfit_aodai_tech',
@@ -130,6 +247,18 @@ export const SHOP_ITEMS: ShopItem[] = [
     renderType: 'aodai_tech'
   },
   {
+    id: 'outfit_astronaut',
+    name: 'Phi Hành Gia Khám Phá Sao',
+    category: 'outfit',
+    costCoins: 88,
+    costStars: 9,
+    description: 'Bộ đồ phi hành gia trắng cam với bảng điều khiển oxy và phù hiệu thám hiểm ngân hà.',
+    rarity: 'vip',
+    iconName: 'Rocket',
+    tagline: 'Vươn tới các vì sao',
+    renderType: 'astronaut'
+  },
+  {
     id: 'outfit_scholar',
     name: 'Áo Choàng Pháp Sư Tri Thức',
     category: 'outfit',
@@ -139,7 +268,32 @@ export const SHOP_ITEMS: ShopItem[] = [
     rarity: 'mythic',
     iconName: 'Sparkles',
     tagline: 'Phép thuật tính nhẩm',
-    renderType: 'scholar'
+    renderType: 'scholar',
+    setId: 'set_cosmic'
+  },
+  {
+    id: 'outfit_wizard_ice',
+    name: 'Áo Choàng Pháp Sư Băng Giá',
+    category: 'outfit',
+    costCoins: 130,
+    costStars: 13,
+    description: 'Áo choàng pha lê xanh ngọc lấp lánh tinh thể tuyết giúp đầu óc luôn tỉnh táo giải đề.',
+    rarity: 'mythic',
+    iconName: 'Sparkles',
+    tagline: 'Bình tĩnh tuyệt đối',
+    renderType: 'wizard_ice'
+  },
+  {
+    id: 'outfit_ranger_gold',
+    name: 'Chiến Giáp Biệt Đội Hoàng Kim',
+    category: 'outfit',
+    costCoins: 145,
+    costStars: 15,
+    description: 'Phiên bản giáp chiến binh nâng cấp bọc vàng kim với cầu vai sư tử dũng mãnh.',
+    rarity: 'mythic',
+    iconName: 'Crown',
+    tagline: 'Thủ lĩnh tối thượng',
+    renderType: 'ranger_gold'
   },
   {
     id: 'outfit_cyber',
@@ -154,9 +308,21 @@ export const SHOP_ITEMS: ShopItem[] = [
     renderType: 'cyber',
     setId: 'set_cosmic'
   },
+  {
+    id: 'outfit_mecha_pilot',
+    name: 'Giáp Phi Công Robot Biến Hình',
+    category: 'outfit',
+    costCoins: 175,
+    costStars: 18,
+    description: 'Bộ giáp cơ khí đa sắc chuẩn buồng lái robot khổng lồ với lò phản ứng xanh dương.',
+    rarity: 'mythic',
+    iconName: 'Cpu',
+    tagline: 'Hợp thể chiến thắng',
+    renderType: 'mecha_pilot'
+  },
 
   // =========================================================================
-  // 2. PHỤ KIỆN CẦM TAY (HANDHELD - 9 món)
+  // 2. PHỤ KIỆN CẦM TAY (HANDHELD - 17 món)
   // =========================================================================
   {
     id: 'hand_pencil',
@@ -195,6 +361,18 @@ export const SHOP_ITEMS: ShopItem[] = [
     renderType: 'star_wand'
   },
   {
+    id: 'hand_backpack_rocket',
+    name: 'Cặp Sách Tên Lửa Siêu Tốc',
+    category: 'handheld',
+    costCoins: 18,
+    costStars: 1,
+    description: 'Cặp sách học sinh gắn hai ống đẩy mini giúp mang đầy đủ sách vở mà nhẹ tênh.',
+    rarity: 'popular',
+    iconName: 'Backpack',
+    tagline: 'Đến lớp siêu vui',
+    renderType: 'backpack_rocket'
+  },
+  {
     id: 'hand_compass',
     name: 'Bộ Compa Hợp Kim Titan',
     category: 'handheld',
@@ -205,6 +383,31 @@ export const SHOP_ITEMS: ShopItem[] = [
     iconName: 'Compass',
     tagline: 'Tuyệt đỉnh hình học',
     renderType: 'compass'
+  },
+  {
+    id: 'hand_camera',
+    name: 'Máy Ảnh Phóng Viên Nhí',
+    category: 'handheld',
+    costCoins: 25,
+    costStars: 2,
+    description: 'Chiếc máy ảnh nhỏ xinh chớp đèn flash ghi lại mọi kỳ quan trên bản đồ Việt Nam.',
+    rarity: 'popular',
+    iconName: 'Camera',
+    tagline: 'Lưu giữ kỷ niệm',
+    renderType: 'camera',
+    setId: 'set_explorer'
+  },
+  {
+    id: 'hand_micro',
+    name: 'Micro Ngôi Sao Sân Khấu',
+    category: 'handheld',
+    costCoins: 28,
+    costStars: 2,
+    description: 'Micro không dây lấp lánh dành cho các bạn tự tin thuyết trình và ca hát.',
+    rarity: 'popular',
+    iconName: 'Mic',
+    tagline: 'Tự tin tỏa sáng',
+    renderType: 'micro'
   },
   {
     id: 'hand_magnifier',
@@ -220,6 +423,19 @@ export const SHOP_ITEMS: ShopItem[] = [
     setId: 'set_explorer'
   },
   {
+    id: 'hand_beaker',
+    name: 'Bộ Ống Nghiệm Pha Chế Kỳ Diệu',
+    category: 'handheld',
+    costCoins: 44,
+    costStars: 4,
+    description: 'Cặp bình thí nghiệm sủi bọt xanh ngọc và vàng rực cho nhà khoa học nhí.',
+    rarity: 'vip',
+    iconName: 'FlaskConical',
+    tagline: 'Thí nghiệm kỳ thú',
+    renderType: 'beaker',
+    setId: 'set_scientist'
+  },
+  {
     id: 'hand_casio',
     name: 'Máy Tính Khoa Học FX Pro',
     category: 'handheld',
@@ -231,6 +447,30 @@ export const SHOP_ITEMS: ShopItem[] = [
     tagline: 'Bảo bối phòng thi',
     renderType: 'casio',
     setId: 'set_scientist'
+  },
+  {
+    id: 'hand_guitar',
+    name: 'Đàn Guitar Điện Cầu Vồng',
+    category: 'handheld',
+    costCoins: 52,
+    costStars: 5,
+    description: 'Cây đàn guitar điện gọn nhẹ khuấy động không khí giờ ra chơi và Sảnh Online.',
+    rarity: 'vip',
+    iconName: 'Music',
+    tagline: 'Giai điệu tuổi thơ',
+    renderType: 'guitar'
+  },
+  {
+    id: 'hand_telescope',
+    name: 'Kính Thiên Văn Khám Phá Sao',
+    category: 'handheld',
+    costCoins: 60,
+    costStars: 6,
+    description: 'Ống kính đồng thau viền xanh giúp quan sát các chòm sao và hành tinh xa xôi.',
+    rarity: 'vip',
+    iconName: 'Telescope',
+    tagline: 'Ngắm nhìn bầu trời',
+    renderType: 'telescope'
   },
   {
     id: 'hand_trophy_mini',
@@ -258,6 +498,32 @@ export const SHOP_ITEMS: ShopItem[] = [
     setId: 'set_cosmic'
   },
   {
+    id: 'hand_hero_shield',
+    name: 'Khiên Năng Lượng Ngôi Sao',
+    category: 'handheld',
+    costCoins: 125,
+    costStars: 12,
+    description: 'Tấm khiên tròn ba vòng đỏ – bạc – xanh với ngôi sao chính giữa bảo vệ tri thức.',
+    rarity: 'mythic',
+    iconName: 'Shield',
+    tagline: 'Vững vàng trước mọi đề khó',
+    renderType: 'hero_shield',
+    setId: 'set_superhero'
+  },
+  {
+    id: 'hand_element_staff',
+    name: 'Quyền Trượng Ngũ Hành Nguyên Tố',
+    category: 'handheld',
+    costCoins: 140,
+    costStars: 14,
+    description: 'Trượng pha lê tỏa năng lượng năm màu Kim – Mộc – Thủy – Hỏa – Thổ rực rỡ.',
+    rarity: 'mythic',
+    iconName: 'Sparkles',
+    tagline: 'Sức mạnh ngũ hành',
+    renderType: 'element_staff',
+    setId: 'set_elemental'
+  },
+  {
     id: 'hand_tome',
     name: 'Đại Bí Kíp Tri Thức Dát Vàng',
     category: 'handheld',
@@ -271,7 +537,7 @@ export const SHOP_ITEMS: ShopItem[] = [
   },
 
   // =========================================================================
-  // 3. ĐIỆN THOẠI & LIÊN LẠC (PHONE - 6 món)
+  // 3. ĐIỆN THOẠI & LIÊN LẠC (PHONE - 9 món)
   // =========================================================================
   {
     id: 'phone_brick',
@@ -310,6 +576,18 @@ export const SHOP_ITEMS: ShopItem[] = [
     renderType: 'flip'
   },
   {
+    id: 'phone_cameraphone',
+    name: 'Smartphone Quay Vlog Học Đường',
+    category: 'phone',
+    costCoins: 32,
+    costStars: 3,
+    description: 'Gắn tay cầm chống rung kèm vòng đèn selfie quay video giải bài tập siêu nét.',
+    rarity: 'popular',
+    iconName: 'Video',
+    tagline: 'Sáng tạo nội dung',
+    renderType: 'cameraphone'
+  },
+  {
     id: 'phone_smart',
     name: 'Smartphone Màn Hình Tràn Viền',
     category: 'phone',
@@ -320,6 +598,32 @@ export const SHOP_ITEMS: ShopItem[] = [
     iconName: 'Smartphone',
     tagline: 'Thông minh đa năng',
     renderType: 'smart'
+  },
+  {
+    id: 'phone_ranger_morpher',
+    name: 'Đồng Hồ Biến Hình Biệt Đội',
+    category: 'phone',
+    costCoins: 55,
+    costStars: 5,
+    description: 'Thiết bị liên lạc đeo tay phát sáng 5 viên đá nguyên tố để triệu hồi biệt đội.',
+    rarity: 'vip',
+    iconName: 'Watch',
+    tagline: 'Biến hình sẵn sàng',
+    renderType: 'ranger_morpher',
+    setId: 'set_elemental'
+  },
+  {
+    id: 'phone_console_mini',
+    name: 'Máy Chơi Game Cầm Tay Pro',
+    category: 'phone',
+    costCoins: 65,
+    costStars: 6,
+    description: 'Máy game cầm tay hai tay cầm neon giải trí thông minh sau giờ học.',
+    rarity: 'vip',
+    iconName: 'Gamepad2',
+    tagline: 'Học vui chơi chất',
+    renderType: 'console_mini',
+    setId: 'set_racer'
   },
   {
     id: 'phone_promax',
@@ -347,7 +651,7 @@ export const SHOP_ITEMS: ShopItem[] = [
   },
 
   // =========================================================================
-  // 4. XE CỘ & DI CHUYỂN (VEHICLE - 9 món)
+  // 4. XE CỘ & DI CHUYỂN (VEHICLE - 15 món)
   // =========================================================================
   {
     id: 'veh_honeycomb',
@@ -423,6 +727,44 @@ export const SHOP_ITEMS: ShopItem[] = [
     renderType: 'ebike'
   },
   {
+    id: 'veh_jetpack',
+    name: 'Đôi Cánh Phản Lực Siêu Tốc',
+    category: 'vehicle',
+    costCoins: 85,
+    costStars: 8,
+    description: 'Ba lô phản lực kép giúp bạn bay vút trên không trung và giảm 15% vé du hành.',
+    rarity: 'vip',
+    iconName: 'Rocket',
+    tagline: 'Bay lượn tự do',
+    renderType: 'jetpack'
+  },
+  {
+    id: 'veh_supercar',
+    name: 'Siêu Xe Đua Turbo HSV',
+    category: 'vehicle',
+    costCoins: 88,
+    costStars: 8,
+    description: 'Siêu xe thể thao đỏ vàng khí động học, giảm 15% vé du hành xuyên Việt.',
+    rarity: 'vip',
+    iconName: 'Car',
+    tagline: 'Đỉnh cao đường đua',
+    renderType: 'supercar',
+    setId: 'set_racer'
+  },
+  {
+    id: 'veh_cyber_moto',
+    name: 'Siêu Mô Tô Năng Lượng Xanh',
+    category: 'vehicle',
+    costCoins: 95,
+    costStars: 9,
+    description: 'Mô tô tương lai bánh phát sáng neon xanh ngọc, lướt cực êm qua mọi thành phố.',
+    rarity: 'vip',
+    iconName: 'Zap',
+    tagline: 'Tia chớp tương lai',
+    renderType: 'cyber_moto',
+    setId: 'set_racer'
+  },
+  {
     id: 'veh_hoverboard',
     name: 'Ván Trượt Phản Trọng Lực',
     category: 'vehicle',
@@ -433,6 +775,18 @@ export const SHOP_ITEMS: ShopItem[] = [
     iconName: 'Sparkles',
     tagline: 'Bay trên mặt đất',
     renderType: 'hoverboard'
+  },
+  {
+    id: 'veh_cloud_nimbus',
+    name: 'Đám Mây Thần Tốc Cầu Vồng',
+    category: 'vehicle',
+    costCoins: 155,
+    costStars: 16,
+    description: 'Đám mây bồng bềnh tỏa dải cầu vồng lơ lửng trên bầu trời kỳ ảo, giảm 30% vé bay.',
+    rarity: 'mythic',
+    iconName: 'Cloud',
+    tagline: 'Cưỡi mây lướt gió',
+    renderType: 'cloud_nimbus'
   },
   {
     id: 'veh_spaceship',
@@ -448,6 +802,18 @@ export const SHOP_ITEMS: ShopItem[] = [
     setId: 'set_cosmic'
   },
   {
+    id: 'veh_mecha_walker',
+    name: 'Robot Biến Hình Chiến Giáp',
+    category: 'vehicle',
+    costCoins: 185,
+    costStars: 20,
+    description: 'Cỗ máy chiến giáp biến hình hai chân khổng lồ với buồng lái bảo vệ và giảm 30% vé.',
+    rarity: 'mythic',
+    iconName: 'Bot',
+    tagline: 'Chiến binh khổng lồ',
+    renderType: 'mecha_walker'
+  },
+  {
     id: 'veh_magic_carpet',
     name: 'Thảm Bay Thần Thoại Fibonacci',
     category: 'vehicle',
@@ -459,9 +825,21 @@ export const SHOP_ITEMS: ShopItem[] = [
     tagline: 'Thần thoại vô đối',
     renderType: 'carpet'
   },
+  {
+    id: 'veh_hero_jet',
+    name: 'Phi Cơ Phản Lực Biệt Đội',
+    category: 'vehicle',
+    costCoins: 210,
+    costStars: 22,
+    description: 'Chiến đấu cơ phản lực siêu thanh màu đỏ – bạc, giảm 30% mọi chuyến du hành!',
+    rarity: 'mythic',
+    iconName: 'Plane',
+    tagline: 'Siêu thanh xuyên Việt',
+    renderType: 'hero_jet'
+  },
 
   // =========================================================================
-  // 5. VỞ & CÔNG NGHỆ HỌC TẬP (TECH - 6 món)
+  // 5. VỞ & CÔNG NGHỆ HỌC TẬP (TECH - 10 món)
   // =========================================================================
   {
     id: 'tech_notebook',
@@ -488,6 +866,18 @@ export const SHOP_ITEMS: ShopItem[] = [
     renderType: 'abacus'
   },
   {
+    id: 'tech_drawpad',
+    name: 'Bảng Vẽ Điện Tử Sáng Tạo',
+    category: 'tech',
+    costCoins: 28,
+    costStars: 2,
+    description: 'Bảng vẽ cảm ứng kèm bút stylus giúp phác thảo hình học và vẽ tranh siêu vui.',
+    rarity: 'popular',
+    iconName: 'PenTool',
+    tagline: 'Sáng tạo không giới hạn',
+    renderType: 'drawpad'
+  },
+  {
     id: 'tech_tablet',
     name: 'Máy Tính Bảng SGK Điện Tử',
     category: 'tech',
@@ -512,6 +902,30 @@ export const SHOP_ITEMS: ShopItem[] = [
     renderType: 'ultrabook'
   },
   {
+    id: 'tech_vr_station',
+    name: 'Kính Thực Tế Ảo VR 360',
+    category: 'tech',
+    costCoins: 75,
+    costStars: 7,
+    description: 'Khám phá hệ mặt trời, tế bào sinh học và bảo tàng lịch sử ngay trong phòng học ảo.',
+    rarity: 'vip',
+    iconName: 'Glasses',
+    tagline: 'Trải nghiệm 360 độ',
+    renderType: 'vr_station'
+  },
+  {
+    id: 'tech_drone_cam',
+    name: 'Drone Quay Phim Học Tập',
+    category: 'tech',
+    costCoins: 85,
+    costStars: 8,
+    description: 'Drone 4 cánh tự động bay lơ lửng bên cạnh ghi hình các thí nghiệm và thành tích.',
+    rarity: 'vip',
+    iconName: 'Cpu',
+    tagline: 'Góc nhìn trên cao',
+    renderType: 'drone_cam'
+  },
+  {
     id: 'tech_gaming',
     name: 'Laptop Đồ Họa RGB Tản Nhiệt',
     category: 'tech',
@@ -522,6 +936,19 @@ export const SHOP_ITEMS: ShopItem[] = [
     iconName: 'Cpu',
     tagline: 'Chiến mượt mọi tác vụ',
     renderType: 'gaming'
+  },
+  {
+    id: 'tech_holo_desk',
+    name: 'Bàn Điều Khiển Hologram Đội Trưởng',
+    category: 'tech',
+    costCoins: 145,
+    costStars: 15,
+    description: 'Trạm chiếu bản đồ 3D nổi giữa không trung để điều phối nhiệm vụ cùng bạn bè.',
+    rarity: 'mythic',
+    iconName: 'Server',
+    tagline: 'Tổng hành dinh thông minh',
+    renderType: 'holo_desk',
+    setId: 'set_superhero'
   },
   {
     id: 'tech_quantum',
@@ -537,7 +964,7 @@ export const SHOP_ITEMS: ShopItem[] = [
   },
 
   // =========================================================================
-  // 6. THÚ CƯNG ĐỒNG HÀNH (PET - 7 món)
+  // 6. THÚ CƯNG ĐỒNG HÀNH (PET - 12 món)
   // =========================================================================
   {
     id: 'pet_none',
@@ -561,7 +988,8 @@ export const SHOP_ITEMS: ShopItem[] = [
     rarity: 'popular',
     iconName: 'Heart',
     tagline: 'Người bạn trung thành',
-    renderType: 'corgi'
+    renderType: 'corgi',
+    setId: 'set_pet_lover'
   },
   {
     id: 'pet_cat',
@@ -576,6 +1004,19 @@ export const SHOP_ITEMS: ShopItem[] = [
     renderType: 'cat'
   },
   {
+    id: 'pet_panda',
+    name: 'Gấu Trúc Võ Sư Đai Đen',
+    category: 'pet',
+    costCoins: 34,
+    costStars: 3,
+    description: 'Bé gấu trúc mũm mĩm quấn băng đô đỏ rất chăm luyện tập cùng bạn mỗi ngày.',
+    rarity: 'popular',
+    iconName: 'Heart',
+    tagline: 'Kiên trì bền bỉ',
+    renderType: 'panda',
+    setId: 'set_pet_lover'
+  },
+  {
     id: 'pet_bunny',
     name: 'Thỏ Ngọc Đeo Kính Tri Thức',
     category: 'pet',
@@ -586,6 +1027,19 @@ export const SHOP_ITEMS: ShopItem[] = [
     iconName: 'Sparkles',
     tagline: 'Nhanh nhẹn tinh anh',
     renderType: 'bunny'
+  },
+  {
+    id: 'pet_fox',
+    name: 'Cáo Nhí Chín Đuôi Trí Tuệ',
+    category: 'pet',
+    costCoins: 56,
+    costStars: 5,
+    description: 'Tiểu hồ ly cam vàng thông minh với chùm đuôi xù mịn tỏa sáng dịu nhẹ.',
+    rarity: 'vip',
+    iconName: 'Sparkles',
+    tagline: 'Linh hoạt sáng dạ',
+    renderType: 'fox',
+    setId: 'set_pet_lover'
   },
   {
     id: 'pet_owl',
@@ -613,6 +1067,19 @@ export const SHOP_ITEMS: ShopItem[] = [
     setId: 'set_scientist'
   },
   {
+    id: 'pet_unicorn',
+    name: 'Thú Cưỡi Kỳ Lân Sao Băng',
+    category: 'pet',
+    costCoins: 148,
+    costStars: 15,
+    description: 'Chú kỳ lân trắng bờm cầu vồng với sừng vàng lấp lánh mang lại niềm vui bất tận.',
+    rarity: 'mythic',
+    iconName: 'Star',
+    tagline: 'Phép màu diệu kỳ',
+    renderType: 'unicorn',
+    setId: 'set_pet_lover'
+  },
+  {
     id: 'pet_dragon',
     name: 'Rồng Con Tí Nị Lửa Vàng',
     category: 'pet',
@@ -624,9 +1091,34 @@ export const SHOP_ITEMS: ShopItem[] = [
     tagline: 'Thần thú may mắn',
     renderType: 'dragon'
   },
+  {
+    id: 'pet_mecha_lion',
+    name: 'Sư Tử Robot Biệt Đội Vàng',
+    category: 'pet',
+    costCoins: 165,
+    costStars: 17,
+    description: 'Chiến thú cơ khí bờm vàng kim dũng mãnh sẵn sàng hợp lực cùng chủ nhân.',
+    rarity: 'mythic',
+    iconName: 'Crown',
+    tagline: 'Mãnh thú cơ khí',
+    renderType: 'mecha_lion',
+    setId: 'set_elemental'
+  },
+  {
+    id: 'pet_phoenix',
+    name: 'Phượng Hoàng Lửa Nhí',
+    category: 'pet',
+    costCoins: 175,
+    costStars: 18,
+    description: 'Chú chim phượng hoàng rực rỡ sải cánh vàng cam biểu tượng của ý chí vươn lên.',
+    rarity: 'mythic',
+    iconName: 'Flame',
+    tagline: 'Tái sinh rực rỡ',
+    renderType: 'phoenix'
+  },
 
   // =========================================================================
-  // 7. PHÔNG NỀN SÂN KHẤU (BACKDROP - 5 món)
+  // 7. PHÔNG NỀN & THẾ GIỚI (BACKDROP - 10 món)
   // =========================================================================
   {
     id: 'bg_classroom',
@@ -654,6 +1146,30 @@ export const SHOP_ITEMS: ShopItem[] = [
     setId: 'set_explorer'
   },
   {
+    id: 'bg_my_room',
+    name: 'Phòng Cá Nhân Học Sinh',
+    category: 'backdrop',
+    costCoins: 25,
+    costStars: 2,
+    description: 'Căn phòng riêng ấm cúng có bàn học máy tính, giường ngủ, kệ sách và cây xanh tự trang trí.',
+    rarity: 'popular',
+    iconName: 'Home',
+    tagline: 'Góc học tập riêng',
+    renderType: 'bg_my_room'
+  },
+  {
+    id: 'bg_ocean',
+    name: 'Đại Dương San Hô Xanh Thẳm',
+    category: 'backdrop',
+    costCoins: 36,
+    costStars: 3,
+    description: 'Làn nước biển trong vắt với rặng san hô rực rỡ, bọt khí và đàn cá nhỏ tung tăng.',
+    rarity: 'popular',
+    iconName: 'Waves',
+    tagline: 'Khám phá đại dương',
+    renderType: 'bg_ocean'
+  },
+  {
     id: 'bg_lab',
     name: 'Phòng Lab Công Nghệ VNPT',
     category: 'backdrop',
@@ -667,6 +1183,31 @@ export const SHOP_ITEMS: ShopItem[] = [
     setId: 'set_scientist'
   },
   {
+    id: 'bg_magic_forest',
+    name: 'Rừng Phép Thuật Đom Đóm',
+    category: 'backdrop',
+    costCoins: 62,
+    costStars: 6,
+    description: 'Khu rừng huyền bí với tinh thể phát sáng, cây cổ thụ và đom đóm lung linh.',
+    rarity: 'vip',
+    iconName: 'Sparkles',
+    tagline: 'Khu rừng kỳ ảo',
+    renderType: 'bg_magic_forest',
+    setId: 'set_pet_lover'
+  },
+  {
+    id: 'bg_castle',
+    name: 'Lâu Đài Phép Thuật Hoàng Gia',
+    category: 'backdrop',
+    costCoins: 68,
+    costStars: 7,
+    description: 'Tòa lâu đài tháp nhọn lung linh giữa thung lũng ánh dương đầy cờ hoa.',
+    rarity: 'vip',
+    iconName: 'Crown',
+    tagline: 'Vương quốc tri thức',
+    renderType: 'bg_castle'
+  },
+  {
     id: 'bg_arena',
     name: 'Đấu Trường Ánh Dương',
     category: 'backdrop',
@@ -677,6 +1218,19 @@ export const SHOP_ITEMS: ShopItem[] = [
     iconName: 'Trophy',
     tagline: 'Sân khấu vinh quang',
     renderType: 'bg_arena'
+  },
+  {
+    id: 'bg_future_city',
+    name: 'Thành Phố Tương Lai Neo-HSV',
+    category: 'backdrop',
+    costCoins: 82,
+    costStars: 8,
+    description: 'Đô thị công nghệ với các tòa tháp ánh sáng, tàu điện trên cao và bầu trời neon dịu.',
+    rarity: 'vip',
+    iconName: 'Building2',
+    tagline: 'Đô thị siêu anh hùng',
+    renderType: 'bg_future_city',
+    setId: 'set_superhero'
   },
   {
     id: 'bg_galaxy',
@@ -693,7 +1247,7 @@ export const SHOP_ITEMS: ShopItem[] = [
   },
 
   // =========================================================================
-  // 8. HÀO QUANG NHÂN VẬT (AURA - 4 món)
+  // 8. HÀO QUANG & HIỆU ỨNG (AURA - 10 món)
   // =========================================================================
   {
     id: 'aura_none',
@@ -720,6 +1274,31 @@ export const SHOP_ITEMS: ShopItem[] = [
     renderType: 'aura_sparkle'
   },
   {
+    id: 'aura_footsteps',
+    name: 'Hiệu Ứng Bước Chân Ánh Sao',
+    category: 'aura',
+    costCoins: 26,
+    costStars: 2,
+    description: 'Dải vòng năng lượng và dấu bước chân phát sáng lấp lánh dưới chân nhân vật.',
+    rarity: 'popular',
+    iconName: 'Footprints',
+    tagline: 'Từng bước vững vàng',
+    renderType: 'aura_footsteps',
+    setId: 'set_racer'
+  },
+  {
+    id: 'aura_rainbow',
+    name: 'Cầu Vồng Rực Rỡ Ngũ Sắc',
+    category: 'aura',
+    costCoins: 32,
+    costStars: 3,
+    description: 'Vòm cầu vồng bảy sắc kèm những ngôi sao nhỏ mang năng lượng tích cực mỗi ngày.',
+    rarity: 'popular',
+    iconName: 'Sun',
+    tagline: 'Niềm vui ngập tràn',
+    renderType: 'aura_rainbow'
+  },
+  {
     id: 'aura_electric',
     name: 'Vòng Năng Lượng Xanh VNPT',
     category: 'aura',
@@ -733,6 +1312,31 @@ export const SHOP_ITEMS: ShopItem[] = [
     setId: 'set_scientist'
   },
   {
+    id: 'aura_ice',
+    name: 'Vòng Băng Pha Lê Tuyết Trắng',
+    category: 'aura',
+    costCoins: 58,
+    costStars: 5,
+    description: 'Những bông tuyết pha lê xoay quanh tạo cảm giác mát lạnh và tập trung.',
+    rarity: 'vip',
+    iconName: 'Snowflake',
+    tagline: 'Tinh khiết pha lê',
+    renderType: 'aura_ice'
+  },
+  {
+    id: 'aura_lightning',
+    name: 'Hào Quang Tia Sét Bão Tố',
+    category: 'aura',
+    costCoins: 66,
+    costStars: 6,
+    description: 'Những tia chớp vàng – xanh bùng nổ quanh nhân vật chuẩn phong cách chiến binh.',
+    rarity: 'vip',
+    iconName: 'Zap',
+    tagline: 'Phản xạ thần tốc',
+    renderType: 'aura_lightning',
+    setId: 'set_elemental'
+  },
+  {
     id: 'aura_flame',
     name: 'Hào Quang Phượng Hoàng Vàng',
     category: 'aura',
@@ -744,17 +1348,48 @@ export const SHOP_ITEMS: ShopItem[] = [
     tagline: 'Khí chất vô địch',
     renderType: 'aura_flame',
     setId: 'set_cosmic'
+  },
+  {
+    id: 'aura_wings_angel',
+    name: 'Đôi Cánh Thiên Thần Ánh Sáng',
+    category: 'aura',
+    costCoins: 138,
+    costStars: 14,
+    description: 'Đôi cánh lông vũ trắng ngà viền vàng rạng rỡ phía sau lưng nhân vật.',
+    rarity: 'mythic',
+    iconName: 'Feather',
+    tagline: 'Đôi cánh ước mơ',
+    renderType: 'aura_wings_angel'
+  },
+  {
+    id: 'aura_wings_cyber',
+    name: 'Đôi Cánh Phản Quang Siêu Anh Hùng',
+    category: 'aura',
+    costCoins: 150,
+    costStars: 15,
+    description: 'Đôi cánh năng lượng công nghệ cao màu xanh cyan – vàng cực ngầu.',
+    rarity: 'mythic',
+    iconName: 'Sparkles',
+    tagline: 'Sải cánh tương lai',
+    renderType: 'aura_wings_cyber',
+    setId: 'set_superhero'
   }
 ];
 
 export const HAIR_STYLES = [
-  { id: 'short_neat', name: 'Ngắn Gọn Gàng', forGender: ['boy', 'scholar'] },
-  { id: 'undercut', name: 'Undercut Sành Điệu', forGender: ['boy'] },
-  { id: 'messy_spiky', name: 'Tóc Nhím Năng Động', forGender: ['boy', 'scholar'] },
-  { id: 'ponytail', name: 'Đuôi Ngựa Năng Động', forGender: ['girl'] },
-  { id: 'twintails', name: 'Buộc Hai Bên Chibi', forGender: ['girl'] },
-  { id: 'bob_bangs', name: 'Mái Ngố Đáng Yêu', forGender: ['girl', 'scholar'] },
-  { id: 'curly_wave', name: 'Xoăn Mì Tôm Cá Tính', forGender: ['boy', 'girl', 'scholar'] }
+  { id: 'short_neat', name: 'Tóc Ngắn Gọn Gàng', forGender: ['boy', 'girl', 'scholar'] },
+  { id: 'undercut', name: 'Undercut Sành Điệu', forGender: ['boy', 'girl', 'scholar'] },
+  { id: 'messy_spiky', name: 'Tóc Nhím Năng Động', forGender: ['boy', 'girl', 'scholar'] },
+  { id: 'ponytail', name: 'Đuôi Ngựa Năng Động', forGender: ['boy', 'girl', 'scholar'] },
+  { id: 'twintails', name: 'Buộc Hai Bên Chibi', forGender: ['boy', 'girl', 'scholar'] },
+  { id: 'bob_bangs', name: 'Mái Ngố Đáng Yêu', forGender: ['boy', 'girl', 'scholar'] },
+  { id: 'curly_wave', name: 'Xoăn Mì Tôm Cá Tính', forGender: ['boy', 'girl', 'scholar'] },
+  { id: 'helmet_hero', name: 'Mũ Giáp Siêu Anh Hùng', forGender: ['boy', 'girl', 'scholar'] },
+  { id: 'helmet_ranger', name: 'Mũ Chiến Binh Biệt Đội', forGender: ['boy', 'girl', 'scholar'] },
+  { id: 'hood_ninja', name: 'Khăn Trùm Ninja Bóng Đêm', forGender: ['boy', 'girl', 'scholar'] },
+  { id: 'helmet_racer', name: 'Mũ Bảo Hiểm Tay Đua', forGender: ['boy', 'girl', 'scholar'] },
+  { id: 'hat_wizard', name: 'Mũ Pháp Sư Chóp Nhọn', forGender: ['boy', 'girl', 'scholar'] },
+  { id: 'helmet_astro', name: 'Mũ Phi Hành Gia Vòm Kính', forGender: ['boy', 'girl', 'scholar'] }
 ];
 
 export const HAIR_COLORS = [
@@ -778,5 +1413,9 @@ export const EYE_EXPRESSIONS = [
   { id: 'sparkle_joy', name: 'Mắt Long Lanh Tinh Anh' },
   { id: 'cool_wink', name: 'Nháy Mắt Tự Tin' },
   { id: 'focused_scholar', name: 'Tập Trung Cao Độ' },
-  { id: 'sunglasses_boss', name: 'Kính Đen Cool Ngầu' }
+  { id: 'sunglasses_boss', name: 'Kính Đen Cool Ngầu' },
+  { id: 'visor_hud', name: 'Kính Chiến Binh Công Nghệ HUD' },
+  { id: 'mask_hero', name: 'Mặt Nạ Siêu Anh Hùng' },
+  { id: 'goggles_racer', name: 'Kính Phi Công Đua Xe' },
+  { id: 'flame_eyes', name: 'Đôi Mắt Rực Lửa Quyết Tâm' }
 ];

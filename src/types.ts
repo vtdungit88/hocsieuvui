@@ -31,8 +31,27 @@ export interface StudioSet {
   name: string;
   titleReward: string;
   description: string;
-  accentColor: 'emerald' | 'blue' | 'amber';
+  accentColor: 'emerald' | 'blue' | 'amber' | 'rose' | 'violet' | 'cyan' | 'teal';
   itemIds: string[];
+}
+
+export type RoomWallTheme = 'warm' | 'sky' | 'forest' | 'galaxy';
+
+export interface PersonalRoomDecor {
+  wallTheme: RoomWallTheme;
+  showDeskPc: boolean;
+  showBed: boolean;
+  showBookshelf: boolean;
+  showPlant: boolean;
+  showPoster: boolean;
+  showTrophyRack: boolean;
+}
+
+export interface OutfitPreset {
+  id: string;
+  name: string;
+  config: AvatarConfig;
+  savedAt: string;
 }
 
 export interface AvatarConfig {

@@ -15,6 +15,15 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.19',
+    date: '2026-11-26',
+    title: 'Mở rộng HSV Avatar World: Thế giới vật phẩm, thú cưng, siêu xe & Phòng Cá Nhân',
+    items: [
+      'Mở rộng kho Studio lên 103 vật phẩm nguyên bản qua 8 nhóm: trang phục siêu anh hùng/biệt đội/hiệp sĩ/ninja/phi hành gia, 13 kiểu tóc & mũ giáp, 9 biểu cảm/mặt nạ, đồ cầm tay học tập – sáng tạo, điện thoại & máy chơi game, xe cộ/robot biến hình/phi cơ, thú cưng kỳ lân/cáo/gấu trúc/sư tử cơ khí, phông nền thế giới và 10 hào quang & đôi cánh.',
+      'Ra mắt tính năng Phòng Cá Nhân (tự chọn 4 tông màu tường và bật/tắt bàn học PC, giường, kệ sách, kệ cúp, áp phích, cây xanh), 3 ngăn Phối Đồ Nhanh và 7 Bộ Sưu Tập mở khóa danh hiệu trên hồ sơ nhân vật.'
+    ]
+  },
+  {
     version: '0.2.18',
     date: '2026-11-26',
     title: 'Nhạc nền mới: dài hơn, trầm êm, mỗi khu vực một giai điệu',
