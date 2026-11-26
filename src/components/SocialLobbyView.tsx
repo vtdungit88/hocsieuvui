@@ -747,16 +747,14 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
                   {/* Character Avatar */}
                   <div
                     className={`relative origin-bottom transition-transform ${
-                      actor.isSelf && isWalking ? 'scale-[0.72] sm:scale-[0.82] -translate-y-1' : 'scale-[0.68] sm:scale-[0.78]'
-                    } ${!actor.isSelf ? 'group-hover:scale-[0.75] sm:group-hover:scale-[0.85]' : ''}`}
-                    style={{
-                      transform: `scaleX(${actor.facing})`
-                    }}
+                      actor.isSelf && isWalking ? 'scale-[0.76] sm:scale-[0.86] -translate-y-1' : 'scale-[0.72] sm:scale-[0.82]'
+                    } ${!actor.isSelf ? 'group-hover:scale-[0.78] sm:group-hover:scale-[0.88]' : ''}`}
                   >
                     <AvatarRenderer
                       config={actor.avatarConfig}
                       size="sm"
                       animated={true}
+                      facing={actor.facing}
                       isReacting={Boolean(bubble)}
                     />
                   </div>

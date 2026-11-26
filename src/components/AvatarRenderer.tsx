@@ -11,7 +11,7 @@ import {
 
 interface AvatarRendererProps {
   config: AvatarConfig;
-  size?: 'sm' | 'md' | 'lg' | 'xl';
+  size?: 'xs' | 'thumb' | 'sm' | 'md' | 'lg' | 'xl';
   showVehicle?: boolean;
   showTech?: boolean;
   showPet?: boolean;
@@ -249,7 +249,9 @@ export const AvatarRenderer: React.FC<AvatarRendererProps> = ({
   const uid = rawId.replace(/[^a-zA-Z0-9_-]/g, '');
 
   const sizeMap = {
-    sm: { width: 120, height: 132 },
+    xs: { width: 28, height: 32 },
+    thumb: { width: 48, height: 54 },
+    sm: { width: 96, height: 108 },
     md: { width: 205, height: 235 },
     lg: { width: 290, height: 330 },
     xl: { width: 345, height: 395 }

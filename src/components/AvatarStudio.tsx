@@ -24,6 +24,13 @@ import {
 import { AvatarRenderer } from './AvatarRenderer';
 import { StudioStageBackdrop } from './StudioStageBackdrop';
 import { StudioItemThumbnail } from './StudioItemThumbnail';
+import {
+  AvatarHeadPreviewThumb,
+  AvatarFrameThumb,
+  StudioStickerBadge,
+  TitleCrestSvg,
+  type StudioStickerId
+} from './avatar/AvatarStudioVisuals';
 import { VuiBotMascot } from './VuiBotMascot';
 import { CoinIcon, StarIcon } from './GameIcons';
 import { soundManager } from '../utils/audio';
@@ -47,7 +54,6 @@ import {
   Layers,
   Eye,
   X,
-  Trophy,
   RotateCcw,
   Undo2,
   Redo2,
@@ -58,7 +64,8 @@ import {
   Search,
   Bookmark,
   Trash2,
-  ShieldCheck
+  ShieldCheck,
+  Award
 } from 'lucide-react';
 
 interface AvatarStudioProps {
@@ -68,7 +75,7 @@ interface AvatarStudioProps {
   onRequireLogin?: () => void;
 }
 
-type StudioTab = 'appearance' | 'room' | 'sets' | ItemCategory;
+type StudioTab = 'appearance' | 'frames' | 'room' | 'sets' | ItemCategory;
 
 const CATEGORY_TABS: {
   id: StudioTab;
@@ -85,6 +92,7 @@ const CATEGORY_TABS: {
   { id: 'tech', label: 'Công Nghệ', icon: <Laptop className="w-4 h-4" />, activeBg: 'bg-cyan-600 text-white shadow-sm' },
   { id: 'backdrop', label: 'Phông Nền', icon: <Image className="w-4 h-4" />, activeBg: 'bg-emerald-600 text-white shadow-sm' },
   { id: 'aura', label: 'Hào Quang', icon: <Sun className="w-4 h-4" />, activeBg: 'bg-orange-500 text-white shadow-sm' },
+  { id: 'frames', label: 'Khung & Sticker', icon: <Award className="w-4 h-4" />, activeBg: 'bg-pink-500 text-white shadow-sm' },
   { id: 'room', label: 'Phòng Riêng', icon: <Home className="w-4 h-4" />, activeBg: 'bg-teal-600 text-white shadow-sm' },
   { id: 'sets', label: 'Bộ Sưu Tập', icon: <Layers className="w-4 h-4" />, activeBg: 'bg-violet-600 text-white shadow-sm' }
 ];
@@ -187,6 +195,7 @@ const ROOM_FURNITURE_TOGGLES: {
 
 const STICKER_REACTIONS: {
   id: string;
+  stickerId: StudioStickerId;
   label: string;
   quote: string;
   accent: string;
@@ -194,6 +203,7 @@ const STICKER_REACTIONS: {
 }[] = [
   {
     id: 'good',
+    stickerId: 'good',
     label: 'Good!',
     quote: 'Good! Bộ trang phục hôm nay chuẩn học sinh 10 điểm!',
     accent: 'from-amber-400 to-orange-500 text-slate-950',
@@ -201,6 +211,7 @@ const STICKER_REACTIONS: {
   },
   {
     id: 'wow',
+    stickerId: 'wow',
     label: 'WoW!',
     quote: 'WoW! Thú cưng và hào quang tỏa sáng rực rỡ luôn!',
     accent: 'from-sky-400 to-blue-600 text-white',
@@ -208,18 +219,32 @@ const STICKER_REACTIONS: {
   },
   {
     id: 'great',
-    label: 'Tuyệt Vời',
+    stickerId: 'love',
+    label: 'Tuyệt!',
     quote: 'Sẵn sàng vào Đấu Trường và chinh phục mọi bài học SGK!',
-    accent: 'from-emerald-400 to-teal-600 text-white',
+    accent: 'from-pink-400 to-rose-500 text-white',
     sound: 'equip'
   },
   {
-    id: 'love',
-    label: 'Yêu Thích',
-    quote: 'Phòng riêng ấm cúng quá, mời bạn bè cùng ghé thăm nhé!',
-    accent: 'from-pink-400 to-rose-500 text-white',
+    id: 'top1',
+    stickerId: 'top1',
+    label: 'TOP 1',
+    quote: 'Phong độ đỉnh cao, cùng vươn tới vị trí TOP 1 Bảng Vàng!',
+    accent: 'from-violet-500 to-purple-700 text-white',
     sound: 'click'
   }
+];
+
+const STAGE_STICKER_OPTIONS: {
+  id: StudioStickerId;
+  label: string;
+  desc: string;
+}[] = [
+  { id: 'none', label: 'Không gắn', desc: 'Hiển thị sân khấu gọn gàng' },
+  { id: 'good', label: 'Good!', desc: 'Huy hiệu cam vàng năng động' },
+  { id: 'wow', label: 'WoW!', desc: 'Huy hiệu xanh dương ấn tượng' },
+  { id: 'love', label: 'Tuyệt!', desc: 'Huy hiệu trái tim hồng ấm áp' },
+  { id: 'top1', label: 'TOP 1', desc: 'Huy hiệu ngôi sao vô địch' }
 ];
 
 const TAP_QUOTES = [
@@ -298,6 +323,18 @@ const loadAvatarFrame = (studentId: string): AvatarFrameId => {
   }
 };
 
+const loadPinnedSticker = (studentId: string): StudioStickerId => {
+  try {
+    const val = localStorage.getItem(`hsv_pinned_sticker_${studentId}`);
+    if (val === 'none' || val === 'good' || val === 'wow' || val === 'love' || val === 'top1') {
+      return val;
+    }
+    return 'none';
+  } catch {
+    return 'none';
+  }
+};
+
 export const AvatarStudio: React.FC<AvatarStudioProps> = ({
   student,
   onUpdateStudent,
@@ -311,9 +348,9 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
   const [rarityFilter, setRarityFilter] = useState<'all' | 'owned' | ItemRarity>('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [stageFacing, setStageFacing] = useState<1 | -1>(1);
-  const [activeStickerTag, setActiveStickerTag] = useState<string | null>(null);
+  const [activeStickerTag, setActiveStickerTag] = useState<StudioStickerId | null>(null);
 
-  // Personal room state + quick outfit loadouts + chosen title badge + stage frame
+  // Personal room state + quick outfit loadouts + chosen title badge + stage frame + pinned sticker
   const [roomDecor, setRoomDecor] = useState<PersonalRoomDecor>(() => loadRoomDecor(student.id));
   const [outfitPresets, setOutfitPresets] = useState<(OutfitPreset | null)[]>(() =>
     loadOutfitPresets(student.id)
@@ -322,12 +359,16 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
   const [avatarFrameId, setAvatarFrameId] = useState<AvatarFrameId>(() =>
     loadAvatarFrame(student.id)
   );
+  const [pinnedStickerId, setPinnedStickerId] = useState<StudioStickerId>(() =>
+    loadPinnedSticker(student.id)
+  );
 
   useEffect(() => {
     setRoomDecor(loadRoomDecor(student.id));
     setOutfitPresets(loadOutfitPresets(student.id));
     setActiveTitleId(loadActiveTitle(student.id));
     setAvatarFrameId(loadAvatarFrame(student.id));
+    setPinnedStickerId(loadPinnedSticker(student.id));
   }, [student.id]);
 
   // Hydrated catalog synced with live Supabase shop_items pricing
@@ -426,14 +467,14 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
     setUnlockedRevealItem(null);
   };
 
-  const triggerCharacterReaction = (customQuote?: string, stickerLabel?: string) => {
+  const triggerCharacterReaction = (customQuote?: string, stickerId?: StudioStickerId) => {
     soundManager.play('coin');
     setIsReacting(false);
     requestAnimationFrame(() => setIsReacting(true));
     const randomLine = customQuote || TAP_QUOTES[Math.floor(Math.random() * TAP_QUOTES.length)];
     setSpeechBubble(randomLine);
-    if (stickerLabel) {
-      setActiveStickerTag(stickerLabel);
+    if (stickerId && stickerId !== 'none') {
+      setActiveStickerTag(stickerId);
       window.setTimeout(() => setActiveStickerTag(null), 1600);
     }
     window.setTimeout(() => setIsReacting(false), 480);
@@ -506,7 +547,7 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
       auraId: pickFrom('aura', student.avatarConfig.auraId || 'aura_none')
     };
     setPreviewItem(null);
-    triggerCharacterReaction('Phối ngẫu nhiên cực chất luôn!', 'WoW!');
+    triggerCharacterReaction('Phối ngẫu nhiên cực chất luôn!', 'wow');
     void commitLook(next);
   };
 
@@ -727,7 +768,14 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
 
   // Filtered items for the current category tab
   const currentCategoryItems = useMemo(() => {
-    if (activeTab === 'appearance' || activeTab === 'sets' || activeTab === 'room') return [];
+    if (
+      activeTab === 'appearance' ||
+      activeTab === 'frames' ||
+      activeTab === 'sets' ||
+      activeTab === 'room'
+    ) {
+      return [];
+    }
     const q = searchQuery.trim().toLowerCase();
     return catalogItems.filter((item) => {
       if (item.category !== activeTab) return false;
@@ -756,11 +804,13 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
     [student.unlockedItems]
   );
 
-  const displayedTitle = useMemo(() => {
+  const activeTitleSet = useMemo(() => {
     if (completedSets.length === 0) return null;
     const chosen = completedSets.find((s) => s.id === activeTitleId);
-    return (chosen || completedSets[0]).titleReward;
+    return chosen || completedSets[0];
   }, [completedSets, activeTitleId]);
+
+  const displayedTitle = activeTitleSet?.titleReward || null;
 
   const stageBackdropId =
     activeTab === 'room' && !previewItem
@@ -782,6 +832,16 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
     setAvatarFrameId(frameId);
     try {
       localStorage.setItem(`hsv_avatar_frame_${student.id}`, frameId);
+    } catch {
+      // ignore
+    }
+  };
+
+  const handleSelectPinnedSticker = (stickerId: StudioStickerId) => {
+    soundManager.play('equip');
+    setPinnedStickerId(stickerId);
+    try {
+      localStorage.setItem(`hsv_pinned_sticker_${student.id}`, stickerId);
     } catch {
       // ignore
     }
@@ -890,11 +950,12 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                 </div>
                 <div className="text-xs text-slate-500 dark:text-slate-400 flex items-center gap-1.5 flex-wrap">
                   <span>{student.isGuest ? 'Khách ghé thăm' : `Cấp ${student.level}`}</span>
-                  {displayedTitle && (
+                  {displayedTitle && activeTitleSet && (
                     <>
                       <span aria-hidden="true">·</span>
-                      <span className="text-amber-600 dark:text-amber-400 font-bold">
-                        {displayedTitle}
+                      <span className="inline-flex items-center gap-1 text-amber-600 dark:text-amber-400 font-bold">
+                        <TitleCrestSvg color={activeTitleSet.accentColor} className="w-6 h-4 shrink-0" />
+                        <span>{displayedTitle}</span>
                       </span>
                     </>
                   )}
@@ -934,6 +995,13 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
               {avatarFrameId === 'frame_hero_shield' && (
                 <div className="pointer-events-none absolute top-2.5 left-3 z-20 flex items-center gap-1 text-red-500 drop-shadow">
                   <ShieldCheck className="w-4 h-4" />
+                </div>
+              )}
+
+              {/* Pinned 3D Cartoon Stage Sticker (top-right corner) */}
+              {pinnedStickerId !== 'none' && (
+                <div className="pointer-events-none absolute top-3 right-3 z-20 rotate-3">
+                  <StudioStickerBadge stickerId={pinnedStickerId} className="w-20 h-9" />
                 </div>
               )}
 
@@ -978,10 +1046,10 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
               </div>
 
               {/* Top Speech Bubble / Sticker Pop */}
-              <div className="relative z-20 w-full flex flex-col items-center pt-2.5 px-12 min-h-[34px]">
+              <div className="relative z-20 w-full flex flex-col items-center pt-2.5 px-14 min-h-[36px]">
                 {activeStickerTag && (
-                  <div className="mb-1 px-3 py-0.5 rounded-xl bg-gradient-to-r from-amber-400 to-orange-500 text-slate-950 font-black text-xs shadow-md studio-reveal-pop">
-                    {activeStickerTag}
+                  <div className="mb-1 studio-reveal-pop">
+                    <StudioStickerBadge stickerId={activeStickerTag} className="w-24 h-10" />
                   </div>
                 )}
                 {speechBubble && (
@@ -1047,7 +1115,7 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
               </div>
             </div>
 
-            {/* Cartoon Sticker Reaction Strip (Good! / WoW! / Tuyệt Vời / Yêu Thích) */}
+            {/* Cartoon Sticker Reaction Strip (Good! / WoW! / Tuyệt! / TOP 1) */}
             <div className="mt-3 flex items-center gap-1.5 overflow-x-auto pb-0.5">
               {STICKER_REACTIONS.map((st) => (
                 <button
@@ -1055,7 +1123,7 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                   type="button"
                   onClick={() => {
                     soundManager.play(st.sound);
-                    triggerCharacterReaction(st.quote, st.label);
+                    triggerCharacterReaction(st.quote, st.stickerId);
                   }}
                   className={`px-3 py-1.5 rounded-xl bg-gradient-to-b ${st.accent} font-black text-xs shadow-xs hover:brightness-105 active:scale-95 transition-all whitespace-nowrap shrink-0 cursor-pointer flex-1`}
                 >
@@ -1265,24 +1333,32 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                       Kiểu Tóc Học Sinh
                     </h3>
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-                      {regularHairStyles.map((style) => (
-                        <button
-                          key={style.id}
-                          onClick={() => handleUpdateAppearance({ hairStyle: style.id })}
-                          className={`p-3 rounded-2xl border text-left transition-all cursor-pointer ${
-                            student.avatarConfig.hairStyle === style.id
-                              ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 font-bold shadow-xs'
-                              : 'border-slate-200 dark:border-slate-700 hover:border-slate-300 text-slate-700 dark:text-slate-300'
-                          }`}
-                        >
-                          <div className="text-xs">{style.name}</div>
-                          {student.avatarConfig.hairStyle === style.id && (
-                            <div className="flex items-center gap-1 text-[11px] text-blue-600 dark:text-blue-400 mt-1">
-                              <Check className="w-3 h-3" /> Đang chọn
-                            </div>
-                          )}
-                        </button>
-                      ))}
+                      {regularHairStyles.map((style) => {
+                        const isSelected = student.avatarConfig.hairStyle === style.id;
+                        return (
+                          <button
+                            key={style.id}
+                            onClick={() => handleUpdateAppearance({ hairStyle: style.id })}
+                            className={`p-3 rounded-2xl border text-center flex flex-col items-center gap-1.5 transition-all cursor-pointer ${
+                              isSelected
+                                ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 font-bold shadow-xs'
+                                : 'border-slate-200 dark:border-slate-700 hover:border-sky-300 text-slate-700 dark:text-slate-300'
+                            }`}
+                          >
+                            <AvatarHeadPreviewThumb
+                              config={effectiveConfig}
+                              hairStyle={style.id}
+                              mode="hair"
+                            />
+                            <div className="text-xs leading-snug">{style.name}</div>
+                            {isSelected && (
+                              <div className="flex items-center gap-1 text-[11px] text-blue-600 dark:text-blue-400">
+                                <Check className="w-3 h-3" /> Đang chọn
+                              </div>
+                            )}
+                          </button>
+                        );
+                      })}
                     </div>
                   </div>
 
@@ -1291,24 +1367,32 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                       Mũ Giáp, Nón & Biệt Đội
                     </h3>
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-                      {headgearStyles.map((style) => (
-                        <button
-                          key={style.id}
-                          onClick={() => handleUpdateAppearance({ hairStyle: style.id })}
-                          className={`p-3 rounded-2xl border text-left transition-all cursor-pointer ${
-                            student.avatarConfig.hairStyle === style.id
-                              ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 font-bold shadow-xs'
-                              : 'border-slate-200 dark:border-slate-700 hover:border-slate-300 text-slate-700 dark:text-slate-300'
-                          }`}
-                        >
-                          <div className="text-xs">{style.name}</div>
-                          {student.avatarConfig.hairStyle === style.id && (
-                            <div className="flex items-center gap-1 text-[11px] text-blue-600 dark:text-blue-400 mt-1">
-                              <Check className="w-3 h-3" /> Đang đội
-                            </div>
-                          )}
-                        </button>
-                      ))}
+                      {headgearStyles.map((style) => {
+                        const isSelected = student.avatarConfig.hairStyle === style.id;
+                        return (
+                          <button
+                            key={style.id}
+                            onClick={() => handleUpdateAppearance({ hairStyle: style.id })}
+                            className={`p-3 rounded-2xl border text-center flex flex-col items-center gap-1.5 transition-all cursor-pointer ${
+                              isSelected
+                                ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 font-bold shadow-xs'
+                                : 'border-slate-200 dark:border-slate-700 hover:border-sky-300 text-slate-700 dark:text-slate-300'
+                            }`}
+                          >
+                            <AvatarHeadPreviewThumb
+                              config={effectiveConfig}
+                              hairStyle={style.id}
+                              mode="hair"
+                            />
+                            <div className="text-xs leading-snug">{style.name}</div>
+                            {isSelected && (
+                              <div className="flex items-center gap-1 text-[11px] text-blue-600 dark:text-blue-400">
+                                <Check className="w-3 h-3" /> Đang đội
+                              </div>
+                            )}
+                          </button>
+                        );
+                      })}
                     </div>
                   </div>
 
@@ -1344,25 +1428,33 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                   <h3 className="text-xs font-bold text-slate-500 dark:text-slate-400 mb-3">
                     Biểu Cảm Khuôn Mặt, Kính & Mặt Nạ Siêu Anh Hùng
                   </h3>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                    {EYE_EXPRESSIONS.map((exp) => (
-                      <button
-                        key={exp.id}
-                        onClick={() => handleUpdateAppearance({ eyeExpression: exp.id })}
-                        className={`p-3.5 rounded-2xl border text-left transition-all cursor-pointer ${
-                          student.avatarConfig.eyeExpression === exp.id
-                            ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 font-bold'
-                            : 'border-slate-200 dark:border-slate-700 hover:border-slate-300 text-slate-700 dark:text-slate-300'
-                        }`}
-                      >
-                        <div className="text-xs">{exp.name}</div>
-                        {student.avatarConfig.eyeExpression === exp.id && (
-                          <div className="flex items-center gap-1 text-[11px] text-blue-600 dark:text-blue-400 mt-1">
-                            <Check className="w-3 h-3" /> Đang dùng
-                          </div>
-                        )}
-                      </button>
-                    ))}
+                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                    {EYE_EXPRESSIONS.map((exp) => {
+                      const isSelected = student.avatarConfig.eyeExpression === exp.id;
+                      return (
+                        <button
+                          key={exp.id}
+                          onClick={() => handleUpdateAppearance({ eyeExpression: exp.id })}
+                          className={`p-3 rounded-2xl border text-center flex flex-col items-center gap-1.5 transition-all cursor-pointer ${
+                            isSelected
+                              ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 font-bold shadow-xs'
+                              : 'border-slate-200 dark:border-slate-700 hover:border-sky-300 text-slate-700 dark:text-slate-300'
+                          }`}
+                        >
+                          <AvatarHeadPreviewThumb
+                            config={effectiveConfig}
+                            eyeExpression={exp.id}
+                            mode="eyes"
+                          />
+                          <div className="text-xs leading-snug">{exp.name}</div>
+                          {isSelected && (
+                            <div className="flex items-center gap-1 text-[11px] text-blue-600 dark:text-blue-400">
+                              <Check className="w-3 h-3" /> Đang dùng
+                            </div>
+                          )}
+                        </button>
+                      );
+                    })}
                   </div>
                 </div>
               )}
@@ -1397,72 +1489,201 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
               {selectedSubCategory === 'gender' && (
                 <div>
                   <h3 className="text-xs font-bold text-slate-500 dark:text-slate-400 mb-3">
-                    Hình Mẫu Nhân Vật
+                    Hình Mẫu Nhân Vật Chibi 3D
                   </h3>
-                  <div className="grid grid-cols-3 gap-3">
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                     {[
-                      { id: 'boy' as const, label: 'Học Sinh Nam', icon: '👦' },
-                      { id: 'girl' as const, label: 'Học Sinh Nữ', icon: '👧' },
-                      { id: 'scholar' as const, label: 'Nhà Thông Thái', icon: '🎓' }
-                    ].map((g) => (
-                      <button
-                        key={g.id}
-                        onClick={() => handleUpdateAppearance({ gender: g.id })}
-                        className={`p-4 rounded-2xl border text-center transition-all cursor-pointer ${
-                          student.avatarConfig.gender === g.id
-                            ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30 font-bold'
-                            : 'border-slate-200 dark:border-slate-700'
-                        }`}
-                      >
-                        <div className="text-3xl mb-1">{g.icon}</div>
-                        <div className="text-xs text-slate-800 dark:text-slate-200">{g.label}</div>
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {selectedSubCategory === 'frame' && (
-                <div>
-                  <h3 className="text-xs font-bold text-slate-500 dark:text-slate-400 mb-3">
-                    Khung Trang Trí Sân Khấu Nhân Vật
-                  </h3>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                    {AVATAR_FRAMES.map((frame) => {
-                      const active = avatarFrameId === frame.id;
+                      { id: 'boy' as const, label: 'Học Sinh Nam', sub: 'Năng động, khỏe khoắn' },
+                      { id: 'girl' as const, label: 'Học Sinh Nữ', sub: 'Dễ thương, cá tính' },
+                      { id: 'scholar' as const, label: 'Nhà Thông Thái', sub: 'Điềm đạm, tri thức' }
+                    ].map((g) => {
+                      const active = student.avatarConfig.gender === g.id;
                       return (
                         <button
-                          key={frame.id}
-                          onClick={() => handleSelectAvatarFrame(frame.id)}
-                          className={`p-3.5 rounded-2xl border text-left transition-all cursor-pointer flex items-center gap-3 ${
+                          key={g.id}
+                          onClick={() => handleUpdateAppearance({ gender: g.id })}
+                          className={`p-3.5 rounded-2xl border text-center flex flex-col items-center gap-1.5 transition-all cursor-pointer ${
                             active
-                              ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30 font-bold'
-                              : 'border-slate-200 dark:border-slate-700 hover:border-slate-300'
+                              ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30 font-bold shadow-xs'
+                              : 'border-slate-200 dark:border-slate-700 hover:border-sky-300'
                           }`}
                         >
-                          <div
-                            className={`w-10 h-10 rounded-xl border-2 ${frame.ringClass} bg-white dark:bg-slate-800 shrink-0 flex items-center justify-center`}
-                          >
-                            <span
-                              className="w-3.5 h-3.5 rounded-full"
-                              style={{ backgroundColor: frame.accentColor }}
+                          <div className="w-20 h-22 flex items-center justify-center">
+                            <AvatarRenderer
+                              config={{ ...effectiveConfig, gender: g.id }}
+                              size="sm"
+                              animated={false}
+                              showVehicle={false}
+                              showPet={false}
+                              showTech={false}
+                              showAura={false}
                             />
                           </div>
-                          <div className="min-w-0 flex-1">
-                            <div className="text-xs font-bold text-slate-900 dark:text-white truncate">
-                              {frame.name}
-                            </div>
-                            <div className="text-[11px] font-normal text-slate-500 dark:text-slate-400 mt-0.5">
-                              {frame.desc}
-                            </div>
+                          <div className="text-xs font-bold text-slate-900 dark:text-white">
+                            {g.label}
                           </div>
-                          {active && <Check className="w-4 h-4 text-blue-600 dark:text-blue-400 shrink-0" />}
+                          <div className="text-[11px] font-normal text-slate-500 dark:text-slate-400">
+                            {g.sub}
+                          </div>
                         </button>
                       );
                     })}
                   </div>
                 </div>
               )}
+
+              {selectedSubCategory === 'frame' && (
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-xs font-bold text-slate-500 dark:text-slate-400 mb-3">
+                      Khung Trang Trí Sân Khấu Nhân Vật
+                    </h3>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                      {AVATAR_FRAMES.map((frame) => {
+                        const active = avatarFrameId === frame.id;
+                        return (
+                          <button
+                            key={frame.id}
+                            onClick={() => handleSelectAvatarFrame(frame.id)}
+                            className={`p-3 rounded-2xl border text-left transition-all cursor-pointer flex items-center gap-3 ${
+                              active
+                                ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30 font-bold shadow-xs'
+                                : 'border-slate-200 dark:border-slate-700 hover:border-sky-300'
+                            }`}
+                          >
+                            <AvatarFrameThumb frameId={frame.id} />
+                            <div className="min-w-0 flex-1">
+                              <div className="text-xs font-bold text-slate-900 dark:text-white truncate">
+                                {frame.name}
+                              </div>
+                              <div className="text-[11px] font-normal text-slate-500 dark:text-slate-400 mt-0.5">
+                                {frame.desc}
+                              </div>
+                            </div>
+                            {active && <Check className="w-4 h-4 text-blue-600 dark:text-blue-400 shrink-0" />}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+
+                  <div>
+                    <h3 className="text-xs font-bold text-slate-500 dark:text-slate-400 mb-3">
+                      Sticker Gắn Trên Sân Khấu
+                    </h3>
+                    <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                      {STAGE_STICKER_OPTIONS.map((stk) => {
+                        const active = pinnedStickerId === stk.id;
+                        return (
+                          <button
+                            key={stk.id}
+                            onClick={() => handleSelectPinnedSticker(stk.id)}
+                            className={`p-3 rounded-2xl border text-center flex flex-col items-center justify-center gap-1.5 transition-all cursor-pointer ${
+                              active
+                                ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30 font-bold shadow-xs'
+                                : 'border-slate-200 dark:border-slate-700 hover:border-sky-300'
+                            }`}
+                          >
+                            {stk.id === 'none' ? (
+                              <div className="w-20 h-9 rounded-xl border border-dashed border-slate-300 dark:border-slate-600 flex items-center justify-center text-[11px] text-slate-400">
+                                Trống
+                              </div>
+                            ) : (
+                              <StudioStickerBadge stickerId={stk.id} className="w-20 h-9" />
+                            )}
+                            <div className="text-xs font-bold text-slate-800 dark:text-slate-200">
+                              {stk.label}
+                            </div>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* TAB: FRAMES & STICKERS */}
+          {activeTab === 'frames' && (
+            <div className="bg-white dark:bg-slate-900 rounded-3xl p-5 sm:p-6 border border-slate-200 dark:border-slate-800 shadow-sm space-y-6">
+              <div>
+                <h2 className="text-lg font-black text-slate-900 dark:text-white">
+                  Khung Avatar & Sticker Sân Khấu
+                </h2>
+                <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
+                  Chọn khung viền hoạt hình và gắn huy hiệu Sticker trang trí ngay trên sân khấu của bạn!
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-xs font-bold text-slate-500 dark:text-slate-400 mb-3">
+                  Khung Viền Nhân Vật 3D
+                </h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {AVATAR_FRAMES.map((frame) => {
+                    const active = avatarFrameId === frame.id;
+                    return (
+                      <button
+                        key={frame.id}
+                        onClick={() => handleSelectAvatarFrame(frame.id)}
+                        className={`p-3 rounded-2xl border text-left transition-all cursor-pointer flex items-center gap-3 ${
+                          active
+                            ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30 font-bold shadow-xs'
+                            : 'border-slate-200 dark:border-slate-700 hover:border-sky-300'
+                        }`}
+                      >
+                        <AvatarFrameThumb frameId={frame.id} />
+                        <div className="min-w-0 flex-1">
+                          <div className="text-xs font-bold text-slate-900 dark:text-white truncate">
+                            {frame.name}
+                          </div>
+                          <div className="text-[11px] font-normal text-slate-500 dark:text-slate-400 mt-0.5">
+                            {frame.desc}
+                          </div>
+                        </div>
+                        {active && <Check className="w-4 h-4 text-blue-600 dark:text-blue-400 shrink-0" />}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-xs font-bold text-slate-500 dark:text-slate-400 mb-3">
+                  Sticker Gắn Sân Khấu (Hiển Thị Trực Tiếp Góc Phải)
+                </h3>
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                  {STAGE_STICKER_OPTIONS.map((stk) => {
+                    const active = pinnedStickerId === stk.id;
+                    return (
+                      <button
+                        key={stk.id}
+                        onClick={() => handleSelectPinnedSticker(stk.id)}
+                        className={`p-3.5 rounded-2xl border text-center flex flex-col items-center justify-center gap-1.5 transition-all cursor-pointer ${
+                          active
+                            ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30 font-bold shadow-xs'
+                            : 'border-slate-200 dark:border-slate-700 hover:border-sky-300'
+                        }`}
+                      >
+                        {stk.id === 'none' ? (
+                          <div className="w-20 h-9 rounded-xl border border-dashed border-slate-300 dark:border-slate-600 flex items-center justify-center text-[11px] text-slate-400">
+                            Trống
+                          </div>
+                        ) : (
+                          <StudioStickerBadge stickerId={stk.id} className="w-20 h-9" />
+                        )}
+                        <div className="text-xs font-bold text-slate-900 dark:text-white">
+                          {stk.label}
+                        </div>
+                        <div className="text-[11px] font-normal text-slate-500 dark:text-slate-400">
+                          {stk.desc}
+                        </div>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
             </div>
           )}
 
@@ -1634,21 +1855,23 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                     <div className={`absolute top-0 left-0 right-0 h-1 ${accent.strip}`} />
 
                     <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pt-1">
-                      <div className="min-w-0">
-                        <div className={`flex items-center gap-2 text-xs font-semibold ${accent.text}`}>
-                          <Trophy className="w-3.5 h-3.5 shrink-0" />
-                          <span>Danh hiệu: {set.titleReward}</span>
-                          <span aria-hidden="true">·</span>
-                          <span className="tabular-nums">
-                            {ownedInSet}/{setItems.length} món
-                          </span>
-                        </div>
+                      <div className="flex items-center gap-3 min-w-0">
+                        <TitleCrestSvg color={set.accentColor} className="w-11 h-8 shrink-0" />
+                        <div className="min-w-0">
+                          <div className={`flex items-center gap-2 text-xs font-semibold ${accent.text}`}>
+                            <span>Danh hiệu: {set.titleReward}</span>
+                            <span aria-hidden="true">·</span>
+                            <span className="tabular-nums">
+                              {ownedInSet}/{setItems.length} món
+                            </span>
+                          </div>
                         <h3 className="text-base font-black text-slate-900 dark:text-white mt-0.5">
                           {set.name}
                         </h3>
                         <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
                           {set.description}
                         </p>
+                        </div>
                       </div>
 
                       {isSetComplete ? (
@@ -1738,7 +1961,10 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
           )}
 
           {/* TAB: SHOP CATEGORY ITEMS (3-COLUMN VISUAL-FIRST SHOWCASE GRID) */}
-          {activeTab !== 'appearance' && activeTab !== 'sets' && activeTab !== 'room' && (
+          {activeTab !== 'appearance' &&
+            activeTab !== 'frames' &&
+            activeTab !== 'sets' &&
+            activeTab !== 'room' && (
             <div className="space-y-3">
               {/* Filter + Search Bar */}
               <div className="flex flex-wrap items-center justify-between gap-2 px-1">

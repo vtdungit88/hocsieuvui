@@ -76,7 +76,7 @@ export const StudioStageBackdrop: React.FC<StudioStageBackdropProps> = ({
   if (backdropId === 'bg_my_room') {
     const palette = ROOM_WALL_COLORS[roomDecor.wallTheme] ?? ROOM_WALL_COLORS.warm;
     const isDarkRoom = roomDecor.wallTheme === 'galaxy';
-    const outline = isDarkRoom ? '#64748B' : '#334155';
+    const outline = isDarkRoom ? 'rgba(148,163,184,0.35)' : 'rgba(51,65,85,0.24)';
 
     return (
       <svg

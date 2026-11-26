@@ -420,7 +420,7 @@ export const GlobalLeaderboard: React.FC<GlobalLeaderboardProps> = ({
                         </div>
 
                         <div className="w-12 h-12 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 overflow-hidden flex items-center justify-center shrink-0">
-                          <AvatarRenderer config={item.avatarConfig} size="sm" showVehicle={false} showTech={false} showPet={false} />
+                          <AvatarRenderer config={item.avatarConfig} size="thumb" animated={false} showVehicle={false} showTech={false} showPet={false} />
                         </div>
 
                         <div>

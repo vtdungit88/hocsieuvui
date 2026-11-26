@@ -15,6 +15,15 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.22',
+    date: '2026-11-26',
+    title: 'Hoàn thiện hình ảnh Diện Mạo, Khung & Sticker, Huy hiệu & đồng bộ hiển thị toàn trang',
+    items: [
+      'Hiển thị xem trước Chibi 3D trực quan cho từng kiểu tóc, mũ giáp, biểu cảm khuôn mặt và hình mẫu nhân vật trong tab Diện Mạo thay cho chữ thuần.',
+      'Bổ sung mục Khung & Sticker với khung 3D minh họa, gắn Sticker (Good!, WoW!, Tuyệt!, TOP 1) trực tiếp lên sân khấu, huy hiệu cánh chim cho Danh hiệu và sửa lỗi co giãn avatar trên thanh điều hướng, bảng xếp hạng và hướng quay thú cưng ở Sảnh Online.'
+    ]
+  },
+  {
     version: '0.2.21',
     date: '2026-11-26',
     title: 'Làm mới toàn diện Studio Chibi 3D theo bộ thiết kế hoạt hình',

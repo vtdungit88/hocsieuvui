@@ -314,7 +314,7 @@ const AccountMenu: React.FC<{
         title="Mở menu tài khoản"
       >
         <div className="w-7 h-7 rounded-lg overflow-hidden bg-white dark:bg-slate-800 flex items-center justify-center shrink-0 border border-blue-200 dark:border-blue-800">
-          <AvatarRenderer config={student.avatarConfig} size="sm" showVehicle={false} showTech={false} showPet={false} />
+          <AvatarRenderer config={student.avatarConfig} size="xs" animated={false} showVehicle={false} showTech={false} showPet={false} />
         </div>
         <div className="text-left min-w-0 max-w-[calc(48vw-48px)] sm:max-w-[92px] 2xl:max-w-[150px]">
           <div className="text-[11px] sm:text-xs font-bold leading-tight truncate">{student.name}</div>
