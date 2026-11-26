@@ -4,10 +4,10 @@ export type MusicScene = 'home' | 'study' | 'shop' | 'blitz' | 'map' | 'lobby' |
 
 interface VoiceStep {
   lead?: number;       // Melody note (Hz)
-  harmony?: number;    // Optional harmony third/fifth (Hz)
   bass?: number;       // Bass note (Hz)
-  chord?: number[];    // Soft pad triad/seventh (Hz[])
-  pulse?: boolean;     // Light rhythmic percussive tick
+  chord?: number[];    // Soft pad chord (Hz[])
+  arp?: number;        // Soft harp-like arpeggio note (Hz)
+  pulse?: boolean;     // Light rhythmic tick
 }
 
 interface SceneScore {
@@ -16,309 +16,149 @@ interface SceneScore {
   leadGain: number;
   leadDecay: number;
   filterHz: number;
+  arpGain: number;
+  padGain: number;
+  pulseEvery: number;  // 0 = no pulse, n = every n steps
   steps: VoiceStep[];
 }
 
-// Note frequency helpers (Hz)
-const N = {
-  C3: 130.81, D3: 146.83, E3: 164.81, F3: 174.61, G3: 196.0, A3: 220.0, B3: 246.94,
-  C4: 261.63, D4: 293.66, E4: 329.63, F4: 349.23, Fs4: 369.99, G4: 392.0, A4: 440.0, Bb4: 466.16, B4: 493.88,
-  C5: 523.25, D5: 587.33, E5: 659.25, F5: 698.46, Fs5: 739.99, G5: 783.99, A5: 880.0, B5: 987.77, C6: 1046.5
-} as const;
+const NOTE_PC: Record<string, number> = { C: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11 };
 
-const CH = {
-  C: [N.C4, N.E4, N.G4],
-  Am: [N.A3, N.C4, N.E4],
-  F: [N.F3, N.A3, N.C4],
-  G: [N.G3, N.B3, N.D4],
-  Dm: [N.D4, N.F4, N.A4],
-  Bb: [N.Bb4 / 2, N.D4, N.F4],
-  D: [N.D4, N.Fs4, N.A4],
-  Bm: [N.B3, N.D4, N.Fs4],
-  Em: [N.E4, N.G4, N.B4],
-  A: [N.A3, N.E4, N.G4]
-};
+function midiToHz(m: number): number {
+  return 440 * Math.pow(2, (m - 69) / 12);
+}
+
+/** "C#5" / "Bb4" / "A4" -> Hz; "." = rest. */
+function noteHz(tok: string): number | undefined {
+  if (tok === '.' || tok === '-') return undefined;
+  const m = /^([A-G])([#b]?)(\d)$/.exec(tok);
+  if (!m) return undefined;
+  const pc = NOTE_PC[m[1]] + (m[2] === '#' ? 1 : m[2] === 'b' ? -1 : 0);
+  return midiToHz(12 * (Number(m[3]) + 1) + pc);
+}
+
+/** "Am" / "Bb" / "F#m" -> pitch class + minor flag. */
+function parseChord(name: string): { pc: number; minor: boolean } {
+  const m = /^([A-G])([#b]?)(m?)$/.exec(name);
+  if (!m) return { pc: 0, minor: false };
+  return { pc: (NOTE_PC[m[1]] + (m[2] === '#' ? 1 : m[2] === 'b' ? -1 : 0) + 12) % 12, minor: m[3] === 'm' };
+}
+
+type Bar = [chord: string, melody: string];
+
+interface SceneSpec {
+  bpm: number;
+  leadType: OscillatorType;
+  leadGain: number;
+  leadDecay: number;
+  filterHz: number;
+  arpGain: number;
+  padGain: number;
+  pulseEvery: number;
+  bars: Bar[]; // 16 bars x 8 eighth-notes = 128 steps per loop
+}
+
+function buildScore(spec: SceneSpec): SceneScore {
+  const steps: VoiceStep[] = [];
+  for (const [chordName, melody] of spec.bars) {
+    const { pc, minor } = parseChord(chordName);
+    let bassMidi = 36 + pc;
+    if (bassMidi < 43) bassMidi += 12;
+    const third = minor ? 3 : 4;
+    const base = 48 + pc; // pad octave
+    const pad = [base, base + third, base + 7].map(midiToHz);
+    const arpBase = 60 + pc;
+    const arpTones = [arpBase, arpBase + third, arpBase + 7, arpBase + 12].map(midiToHz);
+    const arpPattern = [0, 1, 2, 3, 2, 1, 2, 1];
+    const toks = melody.trim().split(/\s+/);
+    for (let k = 0; k < 8; k++) {
+      const step: VoiceStep = {};
+      const lead = noteHz(toks[k] ?? '.');
+      if (lead) step.lead = lead;
+      if (k === 0) { step.bass = midiToHz(bassMidi); step.chord = pad; }
+      if (k === 4) step.bass = midiToHz(bassMidi + (bassMidi > 50 ? 0 : 7));
+      if (spec.arpGain > 0) step.arp = arpTones[arpPattern[k]];
+      if (spec.pulseEvery > 0 && k % spec.pulseEvery === 0) step.pulse = true;
+      steps.push(step);
+    }
+  }
+  return {
+    bpm: spec.bpm, leadType: spec.leadType, leadGain: spec.leadGain, leadDecay: spec.leadDecay,
+    filterHz: spec.filterHz, arpGain: spec.arpGain, padGain: spec.padGain, pulseEvery: spec.pulseEvery, steps
+  };
+}
 
 /**
- * 32-step original procedural themes (eighth-note grid) for each world.
- * Warm, joyful, non-monotonous A-B game phrases designed for kids.
+ * Nhạc nền thủ công (tự sáng tác, tổng hợp bằng Web Audio – không cần tải file).
+ * Mỗi khu vực một giai điệu riêng dài 16 ô nhịp (~80-95 giây rồi mới lặp), tiết tấu chậm, âm trầm êm
+ * theo phong cách nhạc game phiêu lưu/nông trại: pad dày + arpeggio như đàn hạc + giai điệu hộp nhạc.
  */
 const SCORES: Record<Exclude<MusicScene, 'map'>, SceneScore> = {
-  // 1. Trang chủ: Vui tươi, thân thiện (C Major bright marimba adventure)
-  home: {
-    bpm: 112,
-    leadType: 'triangle',
-    leadGain: 0.2,
-    leadDecay: 0.26,
-    filterHz: 3600,
-    steps: [
-      { lead: N.E5, bass: N.C3, chord: CH.C, pulse: true },
-      { lead: N.G5 },
-      { lead: N.A5, harmony: N.E5, pulse: true },
-      { lead: N.G5 },
-      { lead: N.E5, bass: N.G3, chord: CH.C, pulse: true },
-      { lead: N.C5 },
-      { lead: N.D5, harmony: N.B4, pulse: true },
-      { lead: N.E5 },
-
-      { lead: N.F5, bass: N.F3, chord: CH.F, pulse: true },
-      { lead: N.A5 },
-      { lead: N.G5, harmony: N.E5, pulse: true },
-      { lead: N.F5 },
-      { lead: N.E5, bass: N.C3, chord: CH.C, pulse: true },
-      { lead: N.D5 },
-      { lead: N.C5, harmony: N.G4, pulse: true },
-      {},
-
-      { lead: N.G5, bass: N.A3, chord: CH.Am, pulse: true },
-      { lead: N.E5 },
-      { lead: N.C5, harmony: N.A4, pulse: true },
-      { lead: N.E5 },
-      { lead: N.D5, bass: N.F3, chord: CH.F, pulse: true },
-      { lead: N.F5 },
-      { lead: N.A5, harmony: N.F5, pulse: true },
-      { lead: N.G5 },
-
-      { lead: N.E5, bass: N.G3, chord: CH.G, pulse: true },
-      { lead: N.D5 },
-      { lead: N.C5, harmony: N.E4, pulse: true },
-      { lead: N.D5 },
-      { lead: N.E5, harmony: N.C5, bass: N.C3, chord: CH.C, pulse: true },
-      { lead: N.G5 },
-      { lead: N.C6, harmony: N.E5, pulse: true },
-      {}
+  // Trang chủ: C trưởng, chậm, ấm áp như làng quê trong game nông trại
+  home: buildScore({
+    bpm: 80, leadType: 'triangle', leadGain: 0.17, leadDecay: 0.55, filterHz: 2300, arpGain: 0.05, padGain: 0.04, pulseEvery: 0,
+    bars: [
+      ['C', 'E5 . G5 . E5 . D5 .'], ['G', 'D5 . B4 . D5 . G5 .'], ['Am', 'C5 . E5 . A5 . G5 .'], ['Em', 'E5 . G5 . B5 . G5 .'],
+      ['F', 'A4 . C5 . F5 . E5 .'], ['C', 'E5 . D5 . C5 . G4 .'], ['F', 'F5 . A5 . G5 . F5 .'], ['G', 'D5 . . . B4 . D5 .'],
+      ['Am', 'E5 . A5 . C6 . B5 .'], ['F', 'A5 . G5 . F5 . C5 .'], ['C', 'E5 . G5 . C6 . G5 .'], ['G', 'B5 . A5 . G5 . D5 .'],
+      ['Am', 'C5 . E5 . D5 . C5 .'], ['Dm', 'D5 . F5 . A5 . F5 .'], ['G', 'G5 . F5 . D5 . B4 .'], ['C', 'C5 . E5 . G5 . . .']
     ]
-  },
+  }),
 
-  // 2. Bài học: Nhẹ nhàng, tập trung (F Major soft kalimba & airy chords)
-  study: {
-    bpm: 84,
-    leadType: 'sine',
-    leadGain: 0.16,
-    leadDecay: 0.42,
-    filterHz: 2400,
-    steps: [
-      { lead: N.A4, bass: N.F3, chord: CH.F },
-      {},
-      { lead: N.C5 },
-      { lead: N.D5 },
-      { lead: N.C5, bass: N.C3, chord: CH.C },
-      {},
-      { lead: N.A4 },
-      {},
-
-      { lead: N.Bb4, bass: N.G3, chord: CH.Bb },
-      {},
-      { lead: N.A4 },
-      { lead: N.G4 },
-      { lead: N.F4, bass: N.C3, chord: CH.C },
-      {},
-      { lead: N.G4 },
-      {},
-
-      { lead: N.A4, bass: N.D3, chord: CH.Dm },
-      {},
-      { lead: N.F5 },
-      { lead: N.D5 },
-      { lead: N.C5, bass: N.Bb4 / 4, chord: CH.Bb },
-      {},
-      { lead: N.A4 },
-      { lead: N.G4 },
-
-      { lead: N.F4, bass: N.C3, chord: CH.C },
-      {},
-      { lead: N.A4 },
-      { lead: N.G4 },
-      { lead: N.F4, harmony: N.C4, bass: N.F3, chord: CH.F },
-      {},
-      {},
-      {}
+  // Bài học: F trưởng, rất chậm, hộp nhạc dịu để tập trung
+  study: buildScore({
+    bpm: 70, leadType: 'sine', leadGain: 0.15, leadDecay: 0.7, filterHz: 1900, arpGain: 0.04, padGain: 0.045, pulseEvery: 0,
+    bars: [
+      ['F', 'A4 . . . C5 . A4 .'], ['Dm', 'D5 . . . F5 . E5 .'], ['Bb', 'D5 . . . F5 . D5 .'], ['C', 'E5 . . . G5 . E5 .'],
+      ['F', 'A4 . C5 . F5 . . .'], ['Am', 'E5 . . . C5 . A4 .'], ['Bb', 'D5 . F5 . D5 . C5 .'], ['C', 'E5 . D5 . C5 . . .'],
+      ['Dm', 'A4 . D5 . F5 . A5 .'], ['Bb', 'G5 . F5 . D5 . F5 .'], ['F', 'A5 . G5 . F5 . C5 .'], ['C', 'E5 . G5 . E5 . D5 .'],
+      ['Dm', 'F5 . D5 . A4 . D5 .'], ['Bb', 'D5 . F5 . Bb4 . D5 .'], ['C', 'E5 . D5 . C5 . B4 .'], ['F', 'A4 . C5 . F5 . . .']
     ]
-  },
+  }),
 
-  // 3. Studio: Nhí nhảnh, thời trang (G Major playful boutique bounce)
-  shop: {
-    bpm: 118,
-    leadType: 'triangle',
-    leadGain: 0.19,
-    leadDecay: 0.2,
-    filterHz: 3900,
-    steps: [
-      { lead: N.B4, bass: N.G3, chord: CH.G, pulse: true },
-      { lead: N.D5 },
-      { lead: N.G5, pulse: true },
-      { lead: N.Fs5 },
-      { lead: N.E5, bass: N.E3, chord: CH.Em, pulse: true },
-      { lead: N.D5 },
-      { lead: N.B4, pulse: true },
-      { lead: N.G4 },
-
-      { lead: N.A4, bass: N.C3, chord: CH.C, pulse: true },
-      { lead: N.C5 },
-      { lead: N.E5, pulse: true },
-      { lead: N.D5 },
-      { lead: N.C5, bass: N.D3, chord: CH.D, pulse: true },
-      { lead: N.A4 },
-      { lead: N.Fs4, pulse: true },
-      { lead: N.A4 },
-
-      { lead: N.G4, bass: N.G3, chord: CH.G, pulse: true },
-      { lead: N.B4 },
-      { lead: N.D5, pulse: true },
-      { lead: N.G5 },
-      { lead: N.A5, harmony: N.Fs5, bass: N.D3, chord: CH.D, pulse: true },
-      { lead: N.G5 },
-      { lead: N.Fs5, pulse: true },
-      { lead: N.D5 },
-
-      { lead: N.E5, bass: N.C3, chord: CH.C, pulse: true },
-      { lead: N.G5 },
-      { lead: N.Fs5, bass: N.D3, pulse: true },
-      { lead: N.D5 },
-      { lead: N.G5, harmony: N.B4, bass: N.G3, chord: CH.G, pulse: true },
-      {},
-      { lead: N.D5, pulse: true },
-      {}
+  // Studio: G trưởng, nhí nhảnh nhẹ nhàng kiểu cửa hàng thời trang trong game
+  shop: buildScore({
+    bpm: 92, leadType: 'triangle', leadGain: 0.16, leadDecay: 0.32, filterHz: 2700, arpGain: 0.05, padGain: 0.035, pulseEvery: 4,
+    bars: [
+      ['G', 'B4 . D5 G5 . D5 B4 .'], ['Em', 'G5 . E5 G5 . B5 G5 .'], ['C', 'E5 . G5 E5 . C5 E5 .'], ['D', 'F#5 . A5 F#5 . D5 . .'],
+      ['G', 'D5 . G5 B5 . G5 D5 .'], ['Em', 'E5 . G5 B5 . A5 G5 .'], ['Am', 'C5 . E5 A5 . G5 E5 .'], ['D', 'F#5 . E5 D5 . A4 D5 .'],
+      ['C', 'G5 . E5 G5 . C6 G5 .'], ['D', 'A5 . F#5 D5 . F#5 A5 .'], ['Bm', 'D5 . F#5 B5 . F#5 D5 .'], ['Em', 'G5 . B5 G5 . E5 G5 .'],
+      ['C', 'E5 . G5 C6 . G5 E5 .'], ['D', 'F#5 . A5 F#5 . E5 D5 .'], ['G', 'G5 . B5 D6 . B5 G5 .'], ['G', 'G5 . . . . . . .']
     ]
-  },
+  }),
 
-  // 4. Đấu trường: Nhanh, sôi động (A minor / C major heroic arcade)
-  blitz: {
-    bpm: 138,
-    leadType: 'sawtooth',
-    leadGain: 0.13,
-    leadDecay: 0.18,
-    filterHz: 2800,
-    steps: [
-      { lead: N.A4, bass: N.A3, chord: CH.Am, pulse: true },
-      { lead: N.C5 },
-      { lead: N.E5, bass: N.A3, pulse: true },
-      { lead: N.A5 },
-      { lead: N.G5, bass: N.G3, chord: CH.G, pulse: true },
-      { lead: N.E5 },
-      { lead: N.D5, bass: N.G3, pulse: true },
-      { lead: N.E5 },
-
-      { lead: N.F5, bass: N.F3, chord: CH.F, pulse: true },
-      { lead: N.E5 },
-      { lead: N.D5, bass: N.F3, pulse: true },
-      { lead: N.C5 },
-      { lead: N.B4, bass: N.G3, chord: CH.G, pulse: true },
-      { lead: N.D5 },
-      { lead: N.E5, bass: N.G3, pulse: true },
-      {},
-
-      { lead: N.C5, bass: N.C3, chord: CH.C, pulse: true },
-      { lead: N.E5 },
-      { lead: N.G5, bass: N.C3, pulse: true },
-      { lead: N.A5 },
-      { lead: N.G5, bass: N.F3, chord: CH.F, pulse: true },
-      { lead: N.F5 },
-      { lead: N.E5, bass: N.F3, pulse: true },
-      { lead: N.D5 },
-
-      { lead: N.E5, bass: N.A3, chord: CH.Am, pulse: true },
-      { lead: N.G5 },
-      { lead: N.A5, harmony: N.E5, bass: N.G3, pulse: true },
-      { lead: N.B5 },
-      { lead: N.C6, harmony: N.E5, bass: N.A3, chord: CH.Am, pulse: true },
-      {},
-      { lead: N.A5, pulse: true },
-      {}
+  // Đấu trường: A thứ, nhịp nhanh hơn, kịch tính kiểu game phiêu lưu nhưng âm vẫn êm
+  blitz: buildScore({
+    bpm: 124, leadType: 'square', leadGain: 0.075, leadDecay: 0.2, filterHz: 2000, arpGain: 0, padGain: 0.04, pulseEvery: 2,
+    bars: [
+      ['Am', 'A4 C5 E5 A5 G5 E5 C5 E5'], ['F', 'F5 E5 C5 A4 C5 F5 E5 C5'], ['C', 'E5 G5 C6 G5 E5 G5 E5 C5'], ['G', 'D5 G5 B5 G5 D5 B4 D5 G5'],
+      ['Am', 'A4 C5 E5 A5 C6 A5 E5 C5'], ['F', 'A5 F5 C5 F5 A5 C6 A5 F5'], ['G', 'B5 G5 D5 G5 B5 D6 B5 G5'], ['Em', 'E5 G5 B5 G5 E5 B4 E5 G5'],
+      ['Am', 'E5 A5 E5 C5 E5 A5 C6 A5'], ['F', 'C6 A5 F5 A5 C6 F5 A5 C6'], ['C', 'G5 E5 C5 E5 G5 C6 G5 E5'], ['G', 'D6 B5 G5 B5 D6 G5 B5 D6'],
+      ['F', 'F5 A5 C6 A5 F5 C5 F5 A5'], ['G', 'G5 B5 D6 B5 G5 D5 G5 B5'], ['Am', 'A5 C6 E6 C6 A5 E5 A5 C6'], ['Am', 'A5 . . . . . . .']
     ]
-  },
+  }),
 
-  // 5. Sảnh Online: Vui vẻ, giao lưu (D Major sunny social plaza)
-  lobby: {
-    bpm: 106,
-    leadType: 'triangle',
-    leadGain: 0.19,
-    leadDecay: 0.25,
-    filterHz: 3500,
-    steps: [
-      { lead: N.Fs5, bass: N.D3, chord: CH.D, pulse: true },
-      { lead: N.E5 },
-      { lead: N.D5, pulse: true },
-      { lead: N.A4 },
-      { lead: N.B4, bass: N.G3, chord: CH.G, pulse: true },
-      { lead: N.D5 },
-      { lead: N.G5, harmony: N.B4, pulse: true },
-      { lead: N.Fs5 },
-
-      { lead: N.E5, bass: N.A3, chord: CH.A, pulse: true },
-      { lead: N.D5 },
-      { lead: N.E5, pulse: true },
-      { lead: N.Fs5 },
-      { lead: N.D5, harmony: N.A4, bass: N.D3, chord: CH.D, pulse: true },
-      {},
-      { lead: N.A4, pulse: true },
-      {},
-
-      { lead: N.B4, bass: N.B3, chord: CH.Bm, pulse: true },
-      { lead: N.D5 },
-      { lead: N.Fs5, pulse: true },
-      { lead: N.A5 },
-      { lead: N.G5, bass: N.G3, chord: CH.G, pulse: true },
-      { lead: N.Fs5 },
-      { lead: N.E5, pulse: true },
-      { lead: N.D5 },
-
-      { lead: N.E5, bass: N.A3, chord: CH.A, pulse: true },
-      { lead: N.Fs5 },
-      { lead: N.G5, pulse: true },
-      { lead: N.E5 },
-      { lead: N.D5, harmony: N.Fs4, bass: N.D3, chord: CH.D, pulse: true },
-      {},
-      { lead: N.A5, pulse: true },
-      {}
+  // Sảnh Online: D trưởng, tươi sáng thân thiện như quảng trường làng
+  lobby: buildScore({
+    bpm: 90, leadType: 'triangle', leadGain: 0.16, leadDecay: 0.4, filterHz: 2600, arpGain: 0.05, padGain: 0.038, pulseEvery: 4,
+    bars: [
+      ['D', 'F#5 . A5 . F#5 . D5 .'], ['A', 'E5 . A4 . C#5 . E5 .'], ['Bm', 'D5 . F#5 . B5 . A5 .'], ['G', 'G5 . B4 . D5 . G5 .'],
+      ['D', 'A5 . F#5 . D5 . F#5 .'], ['A', 'E5 . C#5 . A4 . C#5 .'], ['G', 'B4 . D5 . G5 . F#5 .'], ['A', 'E5 . . . C#5 . E5 .'],
+      ['Bm', 'F#5 . D5 . B4 . D5 .'], ['G', 'G5 . B5 . A5 . G5 .'], ['D', 'F#5 . E5 . D5 . A4 .'], ['A', 'C#5 . E5 . A5 . G5 .'],
+      ['G', 'G5 . F#5 . E5 . D5 .'], ['A', 'E5 . F#5 . G5 . A5 .'], ['D', 'A5 . F#5 . D5 . F#5 .'], ['D', 'D5 . . . . . . .']
     ]
-  },
+  }),
 
-  // 6. Bảng xếp hạng: Tươi sáng, vinh danh (C Major uplifting chimes)
-  leaderboard: {
-    bpm: 114,
-    leadType: 'triangle',
-    leadGain: 0.19,
-    leadDecay: 0.28,
-    filterHz: 3800,
-    steps: [
-      { lead: N.C5, harmony: N.E4, bass: N.C3, chord: CH.C, pulse: true },
-      { lead: N.E5 },
-      { lead: N.G5, pulse: true },
-      { lead: N.C6 },
-      { lead: N.B5, bass: N.G3, chord: CH.G, pulse: true },
-      { lead: N.G5 },
-      { lead: N.A5, pulse: true },
-      { lead: N.G5 },
-
-      { lead: N.F5, bass: N.F3, chord: CH.F, pulse: true },
-      { lead: N.A5 },
-      { lead: N.G5, pulse: true },
-      { lead: N.E5 },
-      { lead: N.D5, bass: N.G3, chord: CH.G, pulse: true },
-      {},
-      { lead: N.G5, pulse: true },
-      {},
-
-      { lead: N.E5, bass: N.A3, chord: CH.Am, pulse: true },
-      { lead: N.G5 },
-      { lead: N.A5, pulse: true },
-      { lead: N.C6 },
-      { lead: N.G5, bass: N.F3, chord: CH.F, pulse: true },
-      { lead: N.F5 },
-      { lead: N.E5, pulse: true },
-      { lead: N.D5 },
-
-      { lead: N.C5, bass: N.G3, chord: CH.G, pulse: true },
-      { lead: N.E5 },
-      { lead: N.G5, pulse: true },
-      { lead: N.B5 },
-      { lead: N.C6, harmony: N.E5, bass: N.C3, chord: CH.C, pulse: true },
-      {},
-      {},
-      {}
+  // Bảng xếp hạng: Si giáng trưởng, trang trọng nhẹ nhàng như nhạc vinh danh trong game
+  leaderboard: buildScore({
+    bpm: 76, leadType: 'triangle', leadGain: 0.16, leadDecay: 0.6, filterHz: 2200, arpGain: 0.04, padGain: 0.05, pulseEvery: 0,
+    bars: [
+      ['Bb', 'D5 . F5 . Bb5 . A5 .'], ['Gm', 'G5 . D5 . Bb4 . D5 .'], ['Eb', 'G5 . Bb5 . G5 . Eb5 .'], ['F', 'A5 . F5 . C5 . F5 .'],
+      ['Bb', 'D5 . F5 . D6 . Bb5 .'], ['Gm', 'G5 . Bb5 . D6 . Bb5 .'], ['Eb', 'Eb5 . G5 . Bb5 . G5 .'], ['F', 'A5 . C6 . A5 . F5 .'],
+      ['Cm', 'C5 . Eb5 . G5 . Eb5 .'], ['F', 'F5 . A5 . C6 . A5 .'], ['Bb', 'D6 . C6 . Bb5 . F5 .'], ['Gm', 'Bb5 . G5 . D5 . G5 .'],
+      ['Eb', 'G5 . Bb5 . Eb6 . Bb5 .'], ['F', 'C6 . A5 . F5 . A5 .'], ['Bb', 'D5 . F5 . Bb5 . D6 .'], ['Bb', 'Bb5 . . . . . . .']
     ]
-  }
+  })
 };
 
 const PREF_KEY = 'hsv_music_enabled';
@@ -594,23 +434,23 @@ class GameMusic {
 
     if (step.lead) {
       this.playTone(step.lead, time, score.leadDecay, score.leadGain, score.leadType);
-      // Gentle bright harmonic chime on home/shop/leaderboard accents
-      if (this.scene === 'home' || this.scene === 'leaderboard') {
-        this.playTone(step.lead * 2, time, score.leadDecay * 0.6, score.leadGain * 0.14, 'sine');
+      // Lớp chuông nhẹ một quãng tám trên giúp giai điệu "lấp lánh" như hộp nhạc
+      if (score.leadType !== 'square') {
+        this.playTone(step.lead * 2, time, score.leadDecay * 0.5, score.leadGain * 0.1, 'sine');
       }
     }
 
-    if (step.harmony) {
-      this.playTone(step.harmony, time, score.leadDecay * 0.9, score.leadGain * 0.45, 'sine');
+    if (step.arp) {
+      this.playTone(step.arp, time, stepDur * 2.2, score.arpGain, 'sine', 0.01);
     }
 
     if (step.bass) {
-      this.playTone(step.bass, time, Math.min(0.45, stepDur * 1.75), 0.15, 'triangle');
+      this.playTone(step.bass, time, Math.min(0.9, stepDur * 3.5), 0.13, 'triangle', 0.02);
     }
 
     if (step.chord) {
       for (const freq of step.chord) {
-        this.playTone(freq, time, stepDur * 3.4, 0.036, 'sine', 0.045);
+        this.playTone(freq, time, stepDur * 7.5, score.padGain, 'sine', 0.18);
       }
     }
 

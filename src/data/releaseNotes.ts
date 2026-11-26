@@ -15,6 +15,15 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.18',
+    date: '2026-11-26',
+    title: 'Nhạc nền mới: dài hơn, trầm êm, mỗi khu vực một giai điệu',
+    items: [
+      'Nhạc nền được soạn lại theo phong cách nhạc game phiêu lưu: tiết tấu chậm, âm trầm êm, có đàn hạc và hộp nhạc.',
+      'Mỗi bản dài khoảng 1,5 phút mới lặp lại, nên nghe không bị nhàm. Trang chủ, Bài học, Studio, Đấu trường, Sảnh Online và Bảng xếp hạng mỗi nơi một bản riêng; Bản đồ giữ nhạc biển và hộp nhạc.'
+    ]
+  },
+  {
     version: '0.2.17',
     date: '2026-11-26',
     title: 'Thanh chọn chương dễ nhìn hơn',
