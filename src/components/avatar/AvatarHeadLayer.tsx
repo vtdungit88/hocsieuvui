@@ -27,128 +27,195 @@ export const AvatarHeadLayer: React.FC<AvatarHeadLayerProps> = ({
     config.hairStyle === 'tiara_fairy' ||
     config.hairStyle === 'hat_nonla';
 
-  const irisColor =
-    config.gender === 'girl' ? '#78350F' : config.gender === 'scholar' ? '#0F172A' : '#451A03';
+  const irisTop =
+    config.gender === 'girl' ? '#78350F' : config.gender === 'scholar' ? '#1E293B' : '#451A03';
+  const irisBot =
+    config.gender === 'girl' ? '#D97706' : config.gender === 'scholar' ? '#38BDF8' : '#B45309';
+
+  const headOutline = '#9A3412';
 
   return (
     <>
-      {/* BACK HAIR SILHOUETTE (behind ears & neck for dimensional depth) */}
+      {/* BACK HAIR SILHOUETTE (behind ears & neck for rich 3D depth) */}
       {showBackHair && (
-        <g id="back-hair-layer">
+        <g id="back-hair-layer" filter={`url(#softAO_${uid})`}>
           {config.hairStyle === 'ponytail' && (
-            <path d="M188 86 Q228 96 226 148 Q210 154 196 122 Z" fill={hair} stroke="#0F172A" strokeOpacity="0.22" strokeWidth="1.6" />
+            <g>
+              <path
+                d="M214 78 Q266 94 260 162 Q242 172 226 146 Q218 122 214 102 Z"
+                fill={hair}
+              />
+              <path
+                d="M214 78 Q266 94 260 162 Q242 172 226 146 Q218 122 214 102 Z"
+                fill={`url(#hairGloss_${uid})`}
+              />
+              <path d="M228 96 Q246 122 246 150" stroke="#FFFFFF" strokeOpacity="0.22" strokeWidth="5" strokeLinecap="round" fill="none" />
+            </g>
           )}
+
           {config.hairStyle === 'ponytail_ribbon' && (
             <g>
               <path
-                d="M188 84 Q234 94 230 156 Q216 164 202 146 Q196 130 192 114 Z"
+                d="M212 74 Q268 88 264 168 Q246 184 228 164 Q220 140 214 108 Z"
                 fill={hair}
-                stroke="#0F172A"
-                strokeOpacity="0.22"
-                strokeWidth="1.8"
               />
-              <path d="M198 106 Q216 124 216 146" fill="none" stroke="#FFFFFF" strokeOpacity="0.18" strokeWidth="4" strokeLinecap="round" />
+              <path
+                d="M212 74 Q268 88 264 168 Q246 184 228 164 Q220 140 214 108 Z"
+                fill={`url(#hairGloss_${uid})`}
+              />
+              <path d="M228 95 Q250 124 249 156" stroke="#FFFFFF" strokeOpacity="0.24" strokeWidth="5.5" strokeLinecap="round" fill="none" />
             </g>
           )}
+
           {config.hairStyle === 'twintails' && (
             <g>
-              <path d="M105 104 Q72 125 84 166 Q98 164 108 126 Z" fill={hair} stroke="#0F172A" strokeOpacity="0.22" strokeWidth="1.8" />
-              <path d="M195 104 Q228 125 216 166 Q202 164 192 126 Z" fill={hair} stroke="#0F172A" strokeOpacity="0.22" strokeWidth="1.8" />
+              <path
+                d="M96 94 Q54 122 72 178 Q90 176 102 128 Z"
+                fill={hair}
+              />
+              <path
+                d="M96 94 Q54 122 72 178 Q90 176 102 128 Z"
+                fill={`url(#hairGloss_${uid})`}
+              />
+              <path
+                d="M224 94 Q266 122 248 178 Q230 176 218 128 Z"
+                fill={hair}
+              />
+              <path
+                d="M224 94 Q266 122 248 178 Q230 176 218 128 Z"
+                fill={`url(#hairGloss_${uid})`}
+              />
             </g>
           )}
+
           {(config.hairStyle === 'bob_bangs' ||
             config.hairStyle === 'crown_princess' ||
             config.hairStyle === 'tiara_fairy' ||
             config.hairStyle === 'hat_nonla') && (
-            <path
-              d="M102 108 Q96 142 112 154 L188 154 Q204 142 198 108 Z"
-              fill={hair}
-              stroke="#0F172A"
-              strokeOpacity="0.2"
-              strokeWidth="1.6"
-            />
+            <g>
+              <path
+                d="M92 98 Q80 156 108 174 Q160 182 212 174 Q240 156 228 98 Z"
+                fill={hair}
+              />
+              <path
+                d="M92 98 Q80 156 108 174 Q160 182 212 174 Q240 156 228 98 Z"
+                fill={`url(#hairGloss_${uid})`}
+              />
+              <path d="M98 136 Q95 158 110 166" stroke="#FFFFFF" strokeOpacity="0.18" strokeWidth="4" strokeLinecap="round" fill="none" />
+              <path d="M222 136 Q225 158 210 166" stroke="#FFFFFF" strokeOpacity="0.18" strokeWidth="4" strokeLinecap="round" fill="none" />
+            </g>
           )}
+
           {config.hairStyle === 'curly_wave' && (
             <g fill={hair}>
-              <circle cx="104" cy="118" r="15" />
-              <circle cx="196" cy="118" r="15" />
-              <circle cx="110" cy="136" r="12" />
-              <circle cx="190" cy="136" r="12" />
+              <circle cx="94" cy="116" r="21" />
+              <circle cx="226" cy="116" r="21" />
+              <circle cx="102" cy="142" r="17" />
+              <circle cx="218" cy="142" r="17" />
+              <circle cx="94" cy="116" r="21" fill={`url(#hairGloss_${uid})`} />
+              <circle cx="226" cy="116" r="21" fill={`url(#hairGloss_${uid})`} />
             </g>
           )}
         </g>
       )}
 
-      {/* HEAD & EXPRESSIVE CHIBI FACE */}
+      {/* GIANT EXPRESSIVE PIXAR-CHIBI HEAD */}
       <g id="head-layer">
-        {/* Neck with chin drop shadow */}
-        <rect x="139" y="142" width="22" height="20" rx="8" fill={skin} />
-        <ellipse cx="150" cy="149" rx="12" ry="5" fill="#92400E" opacity="0.2" />
+        {/* Soft Neck & Chin Occlusion Shadow */}
+        <rect x="148" y="152" width="24" height="26" rx="10" fill={skin} />
+        <ellipse cx="160" cy="161" rx="16" ry="7" fill="#7C2D12" opacity="0.28" />
 
-        {/* Cute Plump Ears */}
-        <circle cx="104" cy="111" r="11.5" fill={skin} stroke="#B45309" strokeOpacity="0.22" strokeWidth="1.5" />
-        <circle cx="104" cy="111" r="11.5" fill={`url(#skinShading_${uid})`} />
-        <path d="M101 107 Q106 111 101 116" fill="none" stroke="#F43F5E" strokeOpacity="0.35" strokeWidth="2.5" strokeLinecap="round" />
+        {/* Cute Plump Ears with Inner Ear Warmth */}
+        <g>
+          <circle cx="92" cy="114" r="14.5" fill={skin} />
+          <circle cx="92" cy="114" r="14.5" fill={`url(#skinShading_${uid})`} />
+          <circle cx="92" cy="115" r="8" fill="#FB7185" opacity="0.24" />
+          <path d="M89 109 Q95 114 89 120" fill="none" stroke={headOutline} strokeOpacity="0.28" strokeWidth="2.4" strokeLinecap="round" />
 
-        <circle cx="196" cy="111" r="11.5" fill={skin} stroke="#B45309" strokeOpacity="0.22" strokeWidth="1.5" />
-        <circle cx="196" cy="111" r="11.5" fill={`url(#skinShading_${uid})`} />
-        <path d="M199 107 Q194 111 199 116" fill="none" stroke="#F43F5E" strokeOpacity="0.35" strokeWidth="2.5" strokeLinecap="round" />
+          <circle cx="228" cy="114" r="14.5" fill={skin} />
+          <circle cx="228" cy="114" r="14.5" fill={`url(#skinShading_${uid})`} />
+          <circle cx="228" cy="115" r="8" fill="#FB7185" opacity="0.24" />
+          <path d="M231 109 Q225 114 231 120" fill="none" stroke={headOutline} strokeOpacity="0.28" strokeWidth="2.4" strokeLinecap="round" />
+        </g>
 
-        {/* Chibi Head Base + 3D Radial Lighting */}
-        <ellipse cx="150" cy="107" rx="45" ry="43" fill={skin} stroke="#B45309" strokeOpacity="0.22" strokeWidth="1.6" />
-        <ellipse cx="150" cy="107" rx="45" ry="43" fill={`url(#skinShading_${uid})`} />
+        {/* Squishy Pear-Cheek 3D Chibi Face Silhouette (Zero hard black borders!) */}
+        <path
+          d="M160 44 C205 44 227 74 226 113 C225 148 197 166 160 166 C123 166 95 148 94 113 C93 74 115 44 160 44 Z"
+          fill={skin}
+        />
+        <path
+          d="M160 44 C205 44 227 74 226 113 C225 148 197 166 160 166 C123 166 95 148 94 113 C93 74 115 44 160 44 Z"
+          fill={`url(#skinShading_${uid})`}
+        />
 
-        {/* Soft Glowing Rosy Cheeks */}
-        <ellipse cx="122" cy="121" rx="11" ry="7" fill={`url(#blush_${uid})`} />
-        <ellipse cx="178" cy="121" rx="11" ry="7" fill={`url(#blush_${uid})`} />
+        {/* Soft Cast Shadow from Bangs onto Forehead */}
+        {!isMaskedHeadgear && (
+          <path
+            d="M104 72 Q160 90 216 72 Q194 56 160 56 Q126 56 104 72 Z"
+            fill="#7C2D12"
+            opacity="0.1"
+          />
+        )}
 
-        {/* Cute Chibi Button Nose */}
-        <ellipse cx="150" cy="115" rx="3" ry="2.2" fill="#D97706" opacity="0.38" />
-        <circle cx="149" cy="114.2" r="1" fill="#FFFFFF" opacity="0.65" />
+        {/* Airbrushed Glowing Rosy Cheeks */}
+        <ellipse cx="117" cy="128" rx="14" ry="8.5" fill={`url(#blush_${uid})`} />
+        <ellipse cx="203" cy="128" rx="14" ry="8.5" fill={`url(#blush_${uid})`} />
 
-        {/* Expressive Mouth matching emotion */}
+        {/* Cute Soft 3D Button Nose */}
+        <ellipse cx="160" cy="122" rx="4.2" ry="2.8" fill="#C2410C" opacity="0.34" />
+        <ellipse cx="158.8" cy="120.8" rx="1.6" ry="1" fill="#FFFFFF" opacity="0.7" />
+
+        {/* Expressive 3D Mouth */}
         {!isMaskedHeadgear && (
           <g>
             {config.eyeExpression === 'surprised_cute' ? (
-              <ellipse cx="150" cy="130" rx="5.5" ry="6.5" fill="#BE123C" stroke="#881337" strokeWidth="1.8" />
+              <g>
+                <ellipse cx="160" cy="139" rx="7" ry="8.5" fill="#BE123C" />
+                <ellipse cx="160" cy="143" rx="4.5" ry="3.2" fill="#FB7185" />
+              </g>
             ) : config.eyeExpression === 'focused_scholar' ? (
-              <path d="M142 130 Q150 133 158 130" stroke="#991B1B" strokeWidth="2.5" strokeLinecap="round" fill="none" />
+              <path
+                d="M149 138 Q160 142 171 138"
+                stroke="#9F1239"
+                strokeWidth="3"
+                strokeLinecap="round"
+                fill="none"
+              />
             ) : (
               <g>
                 <path
-                  d="M140 126 Q150 140 160 126 Z"
+                  d="M145 133 Q160 151 175 133 Q160 137 145 133 Z"
                   fill="#BE123C"
-                  stroke="#881337"
-                  strokeWidth="1.8"
-                  strokeLinejoin="round"
                 />
-                <path d="M142 127 Q150 130 158 127" fill="none" stroke="#FFFFFF" strokeWidth="2.2" strokeLinecap="round" />
-                <ellipse cx="150" cy="133.5" rx="5" ry="2.5" fill="#FB7185" />
+                {/* Cute white upper tooth rim */}
+                <path d="M148 134.5 Q160 137.5 172 134.5" stroke="#FFFFFF" strokeWidth="3" strokeLinecap="round" fill="none" />
+                {/* Coral tongue */}
+                <ellipse cx="160" cy="141.5" rx="7.5" ry="3.4" fill="#FB7185" />
               </g>
             )}
           </g>
         )}
 
-        {/* EYES & EXPRESSIONS (Glossy Anime/Chibi Dual-Catchlight) */}
+        {/* GIANT SOULFUL PIXAR/ANIME EYES */}
         <g className={animated ? 'studio-blink' : ''}>
-          {/* Eyebrows for expressive warmth */}
+          {/* Sculpted Expressive Eyebrows */}
           {config.eyeExpression !== 'sunglasses_boss' &&
             config.eyeExpression !== 'visor_hud' &&
             config.eyeExpression !== 'mask_hero' &&
             config.eyeExpression !== 'goggles_racer' && (
-              <g fill="none" stroke={hair === '#1E293B' ? '#334155' : hair} strokeWidth="3.2" strokeLinecap="round">
+              <g fill="none" stroke={hair === '#1E293B' ? '#334155' : hair} strokeWidth="4.2" strokeLinecap="round">
                 <path
                   d={
                     config.eyeExpression === 'focused_scholar' || config.eyeExpression === 'flame_eyes'
-                      ? 'M121 94 L141 99'
-                      : 'M122 95 Q132 90 140 94'
+                      ? 'M119 88 L145 95'
+                      : 'M120 90 Q133 83 145 89'
                   }
                 />
                 <path
                   d={
                     config.eyeExpression === 'focused_scholar' || config.eyeExpression === 'flame_eyes'
-                      ? 'M179 94 L159 99'
-                      : 'M160 94 Q168 90 178 95'
+                      ? 'M201 88 L175 95'
+                      : 'M175 89 Q187 83 200 90'
                   }
                 />
               </g>
@@ -156,515 +223,428 @@ export const AvatarHeadLayer: React.FC<AvatarHeadLayerProps> = ({
 
           {config.eyeExpression === 'glasses_happy' && (
             <g id="exp_glasses">
-              {/* Glossy eyes inside round glasses */}
-              <ellipse cx="132" cy="108" rx="9" ry="10.5" fill="#FFFFFF" stroke="#0F172A" strokeWidth="1.4" />
-              <ellipse cx="168" cy="108" rx="9" ry="10.5" fill="#FFFFFF" stroke="#0F172A" strokeWidth="1.4" />
-              <ellipse cx="133" cy="108.5" rx="6.8" ry="8.5" fill={irisColor} />
-              <ellipse cx="167" cy="108.5" rx="6.8" ry="8.5" fill={irisColor} />
-              <circle cx="130.5" cy="105" r="3.2" fill="#FFFFFF" />
-              <circle cx="164.5" cy="105" r="3.2" fill="#FFFFFF" />
-              <circle cx="135.5" cy="112" r="1.4" fill="#FFFFFF" />
-              <circle cx="169.5" cy="112" r="1.4" fill="#FFFFFF" />
-              {/* Round cute scholar glasses */}
-              <circle cx="132" cy="108" r="14.5" fill="#BAE6FD" fillOpacity="0.16" stroke="#1E293B" strokeWidth="2.8" />
-              <circle cx="168" cy="108" r="14.5" fill="#BAE6FD" fillOpacity="0.16" stroke="#1E293B" strokeWidth="2.8" />
-              <line x1="146.5" y1="108" x2="153.5" y2="108" stroke="#1E293B" strokeWidth="2.8" />
-              <path d="M124 100 Q128 97 134 98" stroke="#FFFFFF" strokeWidth="1.6" strokeLinecap="round" fill="none" opacity="0.8" />
-              <path d="M160 100 Q164 97 170 98" stroke="#FFFFFF" strokeWidth="1.6" strokeLinecap="round" fill="none" opacity="0.8" />
+              <ellipse cx="134" cy="111" rx="12" ry="13.5" fill="#FFFFFF" />
+              <ellipse cx="186" cy="111" rx="12" ry="13.5" fill="#FFFFFF" />
+              <ellipse cx="135" cy="111.5" rx="9.5" ry="11" fill={irisTop} />
+              <ellipse cx="185" cy="111.5" rx="9.5" ry="11" fill={irisTop} />
+              <ellipse cx="135" cy="115" rx="7.5" ry="5" fill={irisBot} opacity="0.55" />
+              <ellipse cx="185" cy="115" rx="7.5" ry="5" fill={irisBot} opacity="0.55" />
+              <circle cx="135" cy="111.5" r="5" fill="#0F172A" />
+              <circle cx="185" cy="111.5" r="5" fill="#0F172A" />
+              <circle cx="130.5" cy="106.5" r="4.2" fill="#FFFFFF" />
+              <circle cx="180.5" cy="106.5" r="4.2" fill="#FFFFFF" />
+              <circle cx="139" cy="116" r="2" fill="#FFFFFF" />
+              <circle cx="189" cy="116" r="2" fill="#FFFFFF" />
+              <path d="M121 105 Q134 94 146 104" fill="none" stroke="#1E293B" strokeWidth="3.4" strokeLinecap="round" />
+              <path d="M174 104 Q186 94 199 105" fill="none" stroke="#1E293B" strokeWidth="3.4" strokeLinecap="round" />
+              {/* Cute round scholar glasses */}
+              <circle cx="134" cy="111" r="18.5" fill="#BAE6FD" fillOpacity="0.16" stroke="#1E293B" strokeWidth="3.2" />
+              <circle cx="186" cy="111" r="18.5" fill="#BAE6FD" fillOpacity="0.16" stroke="#1E293B" strokeWidth="3.2" />
+              <line x1="152.5" y1="110" x2="167.5" y2="110" stroke="#1E293B" strokeWidth="3.2" />
+              <path d="M123 101 Q129 97 137 99" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" fill="none" opacity="0.82" />
+              <path d="M175 101 Q181 97 189 99" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" fill="none" opacity="0.82" />
             </g>
           )}
 
           {config.eyeExpression === 'sparkle_joy' && (
             <g id="exp_sparkle">
-              {/* Sclera + glossy iris + lower gradient sheen + dual catchlights */}
-              <ellipse cx="132" cy="108" rx="10.5" ry="12" fill="#FFFFFF" />
-              <ellipse cx="168" cy="108" rx="10.5" ry="12" fill="#FFFFFF" />
-              <ellipse cx="133" cy="108.5" rx="8.2" ry="10.2" fill={irisColor} />
-              <ellipse cx="167" cy="108.5" rx="8.2" ry="10.2" fill={irisColor} />
-              <path d="M127 113 Q133 118 139 113" fill="#38BDF8" opacity="0.45" />
-              <path d="M161 113 Q167 118 173 113" fill="#38BDF8" opacity="0.45" />
-              <circle cx="133" cy="108.5" r="4.5" fill="#0F172A" />
-              <circle cx="167" cy="108.5" r="4.5" fill="#0F172A" />
-              <circle cx="129.5" cy="104" r="3.8" fill="#FFFFFF" />
-              <circle cx="163.5" cy="104" r="3.8" fill="#FFFFFF" />
-              <circle cx="136" cy="113" r="1.7" fill="#FFFFFF" />
-              <circle cx="170" cy="113" r="1.7" fill="#FFFFFF" />
-              <path d="M121 104 Q132 95 142 103" fill="none" stroke="#0F172A" strokeWidth="2.8" strokeLinecap="round" />
-              <path d="M158 103 Q168 95 179 104" fill="none" stroke="#0F172A" strokeWidth="2.8" strokeLinecap="round" />
+              <ellipse cx="134" cy="111" rx="13.5" ry="15" fill="#FFFFFF" />
+              <ellipse cx="186" cy="111" rx="13.5" ry="15" fill="#FFFFFF" />
+              <ellipse cx="135" cy="111.5" rx="10.8" ry="12.8" fill={irisTop} />
+              <ellipse cx="185" cy="111.5" rx="10.8" ry="12.8" fill={irisTop} />
+              <ellipse cx="135" cy="116" rx="8.5" ry="5.5" fill={irisBot} opacity="0.6" />
+              <ellipse cx="185" cy="116" rx="8.5" ry="5.5" fill={irisBot} opacity="0.6" />
+              <circle cx="135" cy="111" r="5.6" fill="#0F172A" />
+              <circle cx="185" cy="111" r="5.6" fill="#0F172A" />
+              <circle cx="130" cy="105" r="4.8" fill="#FFFFFF" />
+              <circle cx="180" cy="105" r="4.8" fill="#FFFFFF" />
+              <circle cx="139" cy="117" r="2.1" fill="#FFFFFF" />
+              <circle cx="189" cy="117" r="2.1" fill="#FFFFFF" />
+              <path d="M119 106 Q134 92 148 104" fill="none" stroke="#0F172A" strokeWidth="3.6" strokeLinecap="round" />
+              <path d="M172 104 Q186 92 201 106" fill="none" stroke="#0F172A" strokeWidth="3.6" strokeLinecap="round" />
             </g>
           )}
 
           {config.eyeExpression === 'cool_wink' && (
             <g id="exp_wink">
-              <path d="M122 109 Q132 100 142 109" stroke="#0F172A" strokeWidth="3.6" strokeLinecap="round" fill="none" />
-              <ellipse cx="168" cy="108" rx="10.5" ry="12" fill="#FFFFFF" />
-              <ellipse cx="167" cy="108.5" rx="8.2" ry="10.2" fill={irisColor} />
-              <circle cx="167" cy="108.5" r="4.2" fill="#0F172A" />
-              <circle cx="163.5" cy="104" r="3.6" fill="#FFFFFF" />
-              <circle cx="170" cy="113" r="1.6" fill="#FFFFFF" />
-              <path d="M158 103 Q168 95 179 104" fill="none" stroke="#0F172A" strokeWidth="2.8" strokeLinecap="round" />
+              <path d="M121 112 Q134 100 147 112" stroke="#1E293B" strokeWidth="4.4" strokeLinecap="round" fill="none" />
+              <ellipse cx="186" cy="111" rx="13.5" ry="15" fill="#FFFFFF" />
+              <ellipse cx="185" cy="111.5" rx="10.8" ry="12.8" fill={irisTop} />
+              <ellipse cx="185" cy="116" rx="8.5" ry="5.5" fill={irisBot} opacity="0.6" />
+              <circle cx="185" cy="111" r="5.6" fill="#0F172A" />
+              <circle cx="180" cy="105" r="4.8" fill="#FFFFFF" />
+              <circle cx="189" cy="117" r="2.1" fill="#FFFFFF" />
+              <path d="M172 104 Q186 92 201 106" fill="none" stroke="#0F172A" strokeWidth="3.6" strokeLinecap="round" />
             </g>
           )}
 
           {config.eyeExpression === 'heart_eyes' && (
             <g id="exp_heart_eyes">
               <path
-                d="M132 117 C124 111 121 104 126 100 C129 98 131.5 100 132 102 C132.5 100 135 98 138 100 C143 104 140 111 132 117 Z"
+                d="M134 123 C122 114 118 104 125 99 C129 96 132.5 99 134 102 C135.5 99 139 96 143 99 C150 104 146 114 134 123 Z"
                 fill="#F43F5E"
-                stroke="#9F1239"
-                strokeWidth="1.5"
               />
-              <circle cx="128" cy="104" r="2.2" fill="#FFFFFF" opacity="0.85" />
+              <circle cx="128" cy="105" r="3" fill="#FFFFFF" opacity="0.88" />
               <path
-                d="M168 117 C160 111 157 104 162 100 C165 98 167.5 100 168 102 C168.5 100 171 98 174 100 C179 104 176 111 168 117 Z"
+                d="M186 123 C174 114 170 104 177 99 C181 96 184.5 99 186 102 C187.5 99 191 96 195 99 C202 104 198 114 186 123 Z"
                 fill="#F43F5E"
-                stroke="#9F1239"
-                strokeWidth="1.5"
               />
-              <circle cx="164" cy="104" r="2.2" fill="#FFFFFF" opacity="0.85" />
+              <circle cx="180" cy="105" r="3" fill="#FFFFFF" opacity="0.88" />
             </g>
           )}
 
           {config.eyeExpression === 'star_eyes' && (
             <g id="exp_star_eyes">
-              <ellipse cx="132" cy="108" rx="10.5" ry="12" fill="#FFFFFF" />
-              <ellipse cx="168" cy="108" rx="10.5" ry="12" fill="#FFFFFF" />
-              <ellipse cx="132" cy="108" rx="8.5" ry="10" fill="#1E3A8A" />
-              <ellipse cx="168" cy="108" rx="8.5" ry="10" fill="#1E3A8A" />
-              <polygon points="132,100 134,106 140,106 135,109.5 137,115 132,111.5 127,115 129,109.5 124,106 130,106" fill="#FDE047" />
-              <polygon points="168,100 170,106 176,106 171,109.5 173,115 168,111.5 163,115 165,109.5 160,106 166,106" fill="#FDE047" />
-              <circle cx="128" cy="103" r="2" fill="#FFFFFF" />
-              <circle cx="164" cy="103" r="2" fill="#FFFFFF" />
+              <ellipse cx="134" cy="111" rx="13.5" ry="15" fill="#FFFFFF" />
+              <ellipse cx="186" cy="111" rx="13.5" ry="15" fill="#FFFFFF" />
+              <ellipse cx="134" cy="111" rx="10.8" ry="12.5" fill="#1E3A8A" />
+              <ellipse cx="186" cy="111" rx="10.8" ry="12.5" fill="#1E3A8A" />
+              <polygon points="134,100 137,108 145,108 139,113 141,120 134,116 127,120 129,113 123,108 131,108" fill="#FDE047" />
+              <polygon points="186,100 189,108 197,108 191,113 193,120 186,116 179,120 181,113 175,108 183,108" fill="#FDE047" />
+              <circle cx="129" cy="104" r="2.6" fill="#FFFFFF" />
+              <circle cx="181" cy="104" r="2.6" fill="#FFFFFF" />
             </g>
           )}
 
           {config.eyeExpression === 'surprised_cute' && (
             <g id="exp_surprised">
-              <circle cx="132" cy="108" r="11" fill="#FFFFFF" stroke="#0F172A" strokeWidth="1.6" />
-              <circle cx="168" cy="108" r="11" fill="#FFFFFF" stroke="#0F172A" strokeWidth="1.6" />
-              <circle cx="132" cy="108" r="5.5" fill={irisColor} />
-              <circle cx="168" cy="108" r="5.5" fill={irisColor} />
-              <circle cx="130" cy="105.5" r="2.4" fill="#FFFFFF" />
-              <circle cx="166" cy="105.5" r="2.4" fill="#FFFFFF" />
+              <circle cx="134" cy="111" r="14" fill="#FFFFFF" />
+              <circle cx="186" cy="111" r="14" fill="#FFFFFF" />
+              <circle cx="134" cy="111" r="7.5" fill={irisTop} />
+              <circle cx="186" cy="111" r="7.5" fill={irisTop} />
+              <circle cx="134" cy="111" r="4" fill="#0F172A" />
+              <circle cx="186" cy="111" r="4" fill="#0F172A" />
+              <circle cx="131" cy="107" r="3" fill="#FFFFFF" />
+              <circle cx="183" cy="107" r="3" fill="#FFFFFF" />
             </g>
           )}
 
           {config.eyeExpression === 'focused_scholar' && (
-            <g id="exp_scholar">
-              <ellipse cx="132" cy="109" rx="9" ry="9.5" fill="#FFFFFF" />
-              <ellipse cx="168" cy="109" rx="9" ry="9.5" fill="#FFFFFF" />
-              <ellipse cx="133" cy="109" rx="6.8" ry="8" fill={irisColor} />
-              <ellipse cx="167" cy="109" rx="6.8" ry="8" fill={irisColor} />
-              <circle cx="133" cy="109" r="3.6" fill="#0F172A" />
-              <circle cx="167" cy="109" r="3.6" fill="#0F172A" />
-              <circle cx="130" cy="106" r="2.8" fill="#FFFFFF" />
-              <circle cx="164" cy="106" r="2.8" fill="#FFFFFF" />
+            <g id="exp_focused">
+              <ellipse cx="134" cy="111" rx="13" ry="11.5" fill="#FFFFFF" />
+              <ellipse cx="186" cy="111" rx="13" ry="11.5" fill="#FFFFFF" />
+              <ellipse cx="134" cy="111" rx="9" ry="9" fill={irisTop} />
+              <ellipse cx="186" cy="111" rx="9" ry="9" fill={irisTop} />
+              <circle cx="134" cy="111" r="4.5" fill="#0F172A" />
+              <circle cx="186" cy="111" r="4.5" fill="#0F172A" />
+              <circle cx="130.5" cy="107" r="3.4" fill="#FFFFFF" />
+              <circle cx="182.5" cy="107" r="3.4" fill="#FFFFFF" />
+              <path d="M119 101 L147 104" stroke="#0F172A" strokeWidth="3.2" strokeLinecap="round" />
+              <path d="M201 101 L173 104" stroke="#0F172A" strokeWidth="3.2" strokeLinecap="round" />
             </g>
           )}
 
           {config.eyeExpression === 'sunglasses_boss' && (
-            <g id="exp_sunglasses">
-              <rect x="116" y="97" width="31" height="20" rx="6" fill="#0F172A" stroke="#FACC15" strokeWidth="2" />
-              <rect x="153" y="97" width="31" height="20" rx="6" fill="#0F172A" stroke="#FACC15" strokeWidth="2" />
-              <line x1="147" y1="104" x2="153" y2="104" stroke="#FACC15" strokeWidth="3" />
-              <line x1="121" y1="102" x2="133" y2="112" stroke="#38BDF8" strokeWidth="2.5" strokeLinecap="round" opacity="0.8" />
-              <line x1="158" y1="102" x2="170" y2="112" stroke="#38BDF8" strokeWidth="2.5" strokeLinecap="round" opacity="0.8" />
+            <g id="exp_sunglasses" filter={`url(#softAO_${uid})`}>
+              <rect x="111" y="96" width="44" height="27" rx="9" fill="#0F172A" />
+              <rect x="165" y="96" width="44" height="27" rx="9" fill="#0F172A" />
+              <rect x="152" y="102" width="16" height="6" rx="3" fill="#0F172A" />
+              <path d="M119 102 L134 102 L123 117 Z" fill="#FFFFFF" opacity="0.28" />
+              <path d="M173 102 L188 102 L177 117 Z" fill="#FFFFFF" opacity="0.28" />
             </g>
           )}
 
           {config.eyeExpression === 'visor_hud' && (
-            <g id="exp_visor_hud">
-              <path
-                d="M111 97 Q150 90 189 97 L184 119 Q150 124 116 119 Z"
-                fill="#0EA5E9"
-                fillOpacity="0.86"
-                stroke="#0F172A"
-                strokeWidth="2.5"
-              />
-              <line x1="120" y1="104" x2="144" y2="104" stroke="#E0F2FE" strokeWidth="2.5" strokeLinecap="round" />
-              <circle cx="168" cy="108" r="4.5" fill="#FEF08A" />
-              <circle cx="179" cy="108" r="2.2" fill="#BAE6FD" />
+            <g id="exp_visor" filter={`url(#glowEffect_${uid})`}>
+              <path d="M110 96 L210 96 Q216 112 204 124 L170 124 L160 116 L150 124 L116 124 Q104 112 110 96 Z" fill="#06B6D4" fillOpacity="0.88" />
+              <line x1="122" y1="106" x2="146" y2="106" stroke="#E0F2FE" strokeWidth="3" strokeLinecap="round" />
+              <circle cx="188" cy="110" r="4.5" fill="#FDE047" />
+              <line x1="176" y1="110" x2="200" y2="110" stroke="#E0F2FE" strokeWidth="2" />
             </g>
           )}
 
           {config.eyeExpression === 'mask_hero' && (
             <g id="exp_mask_hero">
-              <path
-                d="M110 99 Q130 90 150 101 Q170 90 190 99 L185 119 Q166 123 155 112 L145 112 Q134 123 115 119 Z"
-                fill="#1D4ED8"
-                stroke="#FACC15"
-                strokeWidth="2.2"
-              />
-              <ellipse cx="132" cy="108" rx="8" ry="5" fill="#FFFFFF" />
-              <ellipse cx="168" cy="108" rx="8" ry="5" fill="#FFFFFF" />
-              <circle cx="132" cy="108" r="2.6" fill="#0F172A" />
-              <circle cx="168" cy="108" r="2.6" fill="#0F172A" />
+              <path d="M107 95 Q134 89 160 99 Q186 89 213 95 Q217 114 205 123 Q182 126 168 117 L160 112 L152 117 Q138 126 115 123 Q103 114 107 95 Z" fill="#DC2626" />
+              <path d="M122 104 Q134 100 146 109 Q134 117 122 111 Z" fill="#FFFFFF" />
+              <path d="M198 104 Q186 100 174 109 Q186 117 198 111 Z" fill="#FFFFFF" />
             </g>
           )}
 
           {config.eyeExpression === 'goggles_racer' && (
-            <g id="exp_goggles_racer">
-              <rect x="114" y="95" width="32" height="22" rx="8" fill="#0F172A" stroke="#F59E0B" strokeWidth="2.5" />
-              <rect x="154" y="95" width="32" height="22" rx="8" fill="#0F172A" stroke="#F59E0B" strokeWidth="2.5" />
-              <rect x="146" y="103" width="8" height="6" fill="#F59E0B" />
-              <rect x="118" y="99" width="24" height="14" rx="5" fill="#38BDF8" opacity="0.88" />
-              <rect x="158" y="99" width="24" height="14" rx="5" fill="#38BDF8" opacity="0.88" />
-              <line x1="122" y1="103" x2="134" y2="103" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" />
-              <line x1="162" y1="103" x2="174" y2="103" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" />
+            <g id="exp_goggles_racer" filter={`url(#softAO_${uid})`}>
+              <rect x="97" y="102" width="126" height="12" rx="4" fill="#1E293B" />
+              <rect x="110" y="95" width="44" height="28" rx="12" fill="#38BDF8" fillOpacity="0.85" stroke="#E2E8F0" strokeWidth="3" />
+              <rect x="166" y="95" width="44" height="28" rx="12" fill="#38BDF8" fillOpacity="0.85" stroke="#E2E8F0" strokeWidth="3" />
+              <line x1="154" y1="108" x2="166" y2="108" stroke="#E2E8F0" strokeWidth="4" />
+              <path d="M119 101 L133 101 L122 115 Z" fill="#FFFFFF" opacity="0.52" />
+              <path d="M175 101 L189 101 L178 115 Z" fill="#FFFFFF" opacity="0.52" />
             </g>
           )}
 
           {config.eyeExpression === 'flame_eyes' && (
-            <g id="exp_flame_eyes">
-              <ellipse cx="132" cy="108" rx="10" ry="11" fill="#7C2D12" stroke="#FACC15" strokeWidth="1.5" />
-              <ellipse cx="168" cy="108" rx="10" ry="11" fill="#7C2D12" stroke="#FACC15" strokeWidth="1.5" />
-              <circle cx="132" cy="108" r="5.2" fill="#F59E0B" />
-              <circle cx="168" cy="108" r="5.2" fill="#F59E0B" />
-              <circle cx="130" cy="105" r="2.8" fill="#FEF08A" />
-              <circle cx="166" cy="105" r="2.8" fill="#FEF08A" />
+            <g id="exp_flame_eyes" filter={`url(#glowEffect_${uid})`}>
+              <ellipse cx="134" cy="111" rx="13" ry="13.5" fill="#FDE047" />
+              <ellipse cx="186" cy="111" rx="13" ry="13.5" fill="#FDE047" />
+              <circle cx="134" cy="111" r="7.5" fill="#DC2626" />
+              <circle cx="186" cy="111" r="7.5" fill="#DC2626" />
+              <circle cx="130.5" cy="107" r="3" fill="#FFFFFF" />
+              <circle cx="182.5" cy="107" r="3" fill="#FFFFFF" />
             </g>
           )}
         </g>
-      </g>
 
-      {/* VOLUMETRIC 3D HAIR / HEADGEAR LAYER */}
-      <g id="hair-layer">
-        {config.hairStyle === 'short_neat' && (
-          <g>
-            <path
-              d="M104 106 C100 58 200 58 196 106 C188 86 164 82 150 88 C136 82 112 86 104 106 Z"
-              fill={hair}
-              stroke="#0F172A"
-              strokeOpacity="0.22"
-              strokeWidth="1.6"
-            />
-            <path
-              d="M104 106 C100 58 200 58 196 106 C188 86 164 82 150 88 C136 82 112 86 104 106 Z"
-              fill={`url(#hairGloss_${uid})`}
-            />
-            <path d="M122 72 Q148 64 176 72" fill="none" stroke="#FFFFFF" strokeOpacity="0.28" strokeWidth="4" strokeLinecap="round" />
-          </g>
-        )}
+        {/* SCULPTED VOLUMETRIC 3D HAIR & HEADGEAR (20 styles, ZERO harsh ink wireframe!) */}
+        <g id="hair-layer" filter={`url(#softAO_${uid})`}>
+          {config.hairStyle === 'short_neat' && (
+            <g>
+              <path
+                d="M92 103 C88 55 126 30 160 30 C196 30 232 55 228 103 C218 82 198 76 179 86 C168 74 148 76 135 88 C118 76 100 84 92 103 Z"
+                fill={hair}
+              />
+              <path
+                d="M92 103 C88 55 126 30 160 30 C196 30 232 55 228 103 C218 82 198 76 179 86 C168 74 148 76 135 88 C118 76 100 84 92 103 Z"
+                fill={`url(#hairGloss_${uid})`}
+              />
+              <path d="M118 52 Q160 39 202 52" stroke="#FFFFFF" strokeOpacity="0.32" strokeWidth="6" strokeLinecap="round" fill="none" />
+            </g>
+          )}
 
-        {config.hairStyle === 'undercut' && (
-          <g id="hair_undercut">
-            <path
-              d="M106 108 C104 62 192 54 196 90 C186 78 148 76 118 92 Z"
-              fill={hair}
-              stroke="#0F172A"
-              strokeOpacity="0.22"
-              strokeWidth="1.6"
-            />
-            <path
-              d="M120 74 Q158 48 194 72 Q170 84 132 86 Z"
-              fill={hair}
-              stroke="#0F172A"
-              strokeOpacity="0.22"
-              strokeWidth="1.6"
-            />
-            <path d="M132 68 Q162 56 184 68" fill="none" stroke="#FFFFFF" strokeOpacity="0.3" strokeWidth="4" strokeLinecap="round" />
-          </g>
-        )}
+          {config.hairStyle === 'undercut' && (
+            <g>
+              <path
+                d="M94 98 C90 50 128 24 166 24 C205 24 233 50 225 96 C214 75 190 70 162 82 C136 69 110 74 94 98 Z"
+                fill={hair}
+              />
+              <path d="M128 32 Q166 10 202 36 Q180 56 146 66 Q126 52 128 32 Z" fill={hair} />
+              <path d="M128 32 Q166 10 202 36 Q180 56 146 66 Q126 52 128 32 Z" fill={`url(#hairGloss_${uid})`} />
+              <path d="M138 35 Q168 24 192 38" stroke="#FFFFFF" strokeOpacity="0.34" strokeWidth="5.5" strokeLinecap="round" fill="none" />
+            </g>
+          )}
 
-        {config.hairStyle === 'messy_spiky' && (
-          <g>
-            <path
-              d="M104 102 C100 72 122 50 144 58 C154 44 178 52 178 68 C196 66 202 84 195 104 C184 86 166 84 150 92 C136 82 118 86 104 102 Z"
-              fill={hair}
-              stroke="#0F172A"
-              strokeOpacity="0.24"
-              strokeWidth="1.8"
-            />
-            <path
-              d="M104 102 C100 72 122 50 144 58 C154 44 178 52 178 68 C196 66 202 84 195 104 C184 86 166 84 150 92 C136 82 118 86 104 102 Z"
-              fill={`url(#hairGloss_${uid})`}
-            />
-            <path d="M124 68 Q152 56 174 68" fill="none" stroke="#FFFFFF" strokeOpacity="0.28" strokeWidth="4" strokeLinecap="round" />
-          </g>
-        )}
+          {config.hairStyle === 'messy_spiky' && (
+            <g>
+              {/* Sculpted curly-spiky chibi locks inspired by reference Boy */}
+              <path
+                d="M91 100 Q84 72 104 54 Q98 30 130 34 Q148 12 174 28 Q206 16 212 46 Q236 64 226 100 Q212 80 194 86 Q178 66 160 85 Q142 66 124 85 Q106 78 91 100 Z"
+                fill={hair}
+              />
+              <path
+                d="M91 100 Q84 72 104 54 Q98 30 130 34 Q148 12 174 28 Q206 16 212 46 Q236 64 226 100 Q212 80 194 86 Q178 66 160 85 Q142 66 124 85 Q106 78 91 100 Z"
+                fill={`url(#hairGloss_${uid})`}
+              />
+              <path d="M118 46 Q156 26 198 46" stroke="#FFFFFF" strokeOpacity="0.28" strokeWidth="5.5" strokeLinecap="round" fill="none" />
+            </g>
+          )}
 
-        {(config.hairStyle === 'ponytail' || config.hairStyle === 'ponytail_ribbon') && (
-          <g id="hair_ponytail">
-            <path
-              d="M104 108 C100 58 200 58 196 108 C184 86 162 82 150 90 C138 82 116 86 104 108 Z"
-              fill={hair}
-              stroke="#0F172A"
-              strokeOpacity="0.22"
-              strokeWidth="1.6"
-            />
-            <path
-              d="M104 108 C100 58 200 58 196 108 C184 86 162 82 150 90 C138 82 116 86 104 108 Z"
-              fill={`url(#hairGloss_${uid})`}
-            />
-            <path d="M122 72 Q150 62 178 72" fill="none" stroke="#FFFFFF" strokeOpacity="0.28" strokeWidth="4" strokeLinecap="round" />
-            {config.hairStyle === 'ponytail_ribbon' ? (
-              <g>
-                {/* Cute oversized pink ribbon bow */}
-                <path d="M192 86 Q178 68 188 64 Q198 70 194 84 Z" fill="#F472B6" stroke="#BE185D" strokeWidth="1.5" />
-                <path d="M196 86 Q216 74 214 86 Q204 94 194 88 Z" fill="#EC4899" stroke="#BE185D" strokeWidth="1.5" />
-                <circle cx="193" cy="86" r="5" fill="#FBCFE8" stroke="#BE185D" strokeWidth="1.5" />
+          {config.hairStyle === 'ponytail' && (
+            <g>
+              <circle cx="212" cy="70" r="10" fill="#FACC15" />
+              <path
+                d="M92 102 C88 54 126 30 160 30 C196 30 232 54 228 102 C214 82 192 78 160 86 C128 78 106 82 92 102 Z"
+                fill={hair}
+              />
+              <path d="M92 102 C88 54 126 30 160 30 C196 30 232 54 228 102 C214 82 192 78 160 86 C128 78 106 82 92 102 Z" fill={`url(#hairGloss_${uid})`} />
+              <path d="M120 48 Q160 36 200 48" stroke="#FFFFFF" strokeOpacity="0.3" strokeWidth="5.5" strokeLinecap="round" fill="none" />
+            </g>
+          )}
+
+          {config.hairStyle === 'ponytail_ribbon' && (
+            <g>
+              <path
+                d="M92 102 C88 54 126 30 160 30 C196 30 232 54 228 102 C214 82 192 78 160 86 C128 78 106 82 92 102 Z"
+                fill={hair}
+              />
+              <path d="M92 102 C88 54 126 30 160 30 C196 30 232 54 228 102 C214 82 192 78 160 86 C128 78 106 82 92 102 Z" fill={`url(#hairGloss_${uid})`} />
+              <path d="M120 48 Q160 36 200 48" stroke="#FFFFFF" strokeOpacity="0.3" strokeWidth="5.5" strokeLinecap="round" fill="none" />
+              {/* Glossy pink satin bow matching reference Girl */}
+              <g transform="translate(202 58) rotate(20)">
+                <path d="M0 0 C-18 -16 -24 6 -4 6 Z" fill="#EC4899" />
+                <path d="M0 0 C18 -16 24 6 4 6 Z" fill="#F472B6" />
+                <circle cx="0" cy="3" r="6" fill="#BE185D" />
               </g>
-            ) : (
-              <ellipse cx="195" cy="90" rx="7" ry="5" fill="#EF4444" stroke="#991B1B" strokeWidth="1.5" />
-            )}
-          </g>
-        )}
+            </g>
+          )}
 
-        {config.hairStyle === 'twintails' && (
-          <g id="hair_twintails">
-            <path
-              d="M104 108 C100 58 200 58 196 108 C184 88 164 84 150 90 C136 84 116 88 104 108 Z"
-              fill={hair}
-              stroke="#0F172A"
-              strokeOpacity="0.22"
-              strokeWidth="1.6"
-            />
-            <path
-              d="M104 108 C100 58 200 58 196 108 C184 88 164 84 150 90 C136 84 116 88 104 108 Z"
-              fill={`url(#hairGloss_${uid})`}
-            />
-            <circle cx="102" cy="102" r="6.5" fill="#EC4899" stroke="#FFFFFF" strokeWidth="1.5" />
-            <circle cx="198" cy="102" r="6.5" fill="#EC4899" stroke="#FFFFFF" strokeWidth="1.5" />
-          </g>
-        )}
+          {config.hairStyle === 'twintails' && (
+            <g>
+              <circle cx="98" cy="96" r="9" fill="#F43F5E" />
+              <circle cx="222" cy="96" r="9" fill="#F43F5E" />
+              <path
+                d="M92 102 C88 54 126 30 160 30 C196 30 232 54 228 102 C214 80 184 78 160 85 C136 78 106 80 92 102 Z"
+                fill={hair}
+              />
+              <path d="M92 102 C88 54 126 30 160 30 C196 30 232 54 228 102 C214 80 184 78 160 85 C136 78 106 80 92 102 Z" fill={`url(#hairGloss_${uid})`} />
+              <path d="M120 48 Q160 36 200 48" stroke="#FFFFFF" strokeOpacity="0.3" strokeWidth="5.5" strokeLinecap="round" fill="none" />
+            </g>
+          )}
 
-        {config.hairStyle === 'bob_bangs' && (
-          <g id="hair_bob">
-            <path
-              d="M102 108 C100 58 200 58 198 108 C188 94 176 92 150 94 C124 92 112 94 102 108 Z"
-              fill={hair}
-              stroke="#0F172A"
-              strokeOpacity="0.22"
-              strokeWidth="1.6"
-            />
-            <path
-              d="M102 108 C100 58 200 58 198 108 C188 94 176 92 150 94 C124 92 112 94 102 108 Z"
-              fill={`url(#hairGloss_${uid})`}
-            />
-            <path d="M124 72 Q150 64 176 72" fill="none" stroke="#FFFFFF" strokeOpacity="0.28" strokeWidth="4" strokeLinecap="round" />
-          </g>
-        )}
+          {config.hairStyle === 'bob_bangs' && (
+            <g>
+              <path
+                d="M90 106 C86 52 126 28 160 28 C196 28 234 52 230 106 L220 106 Q204 82 184 88 Q160 80 136 88 Q116 82 100 106 Z"
+                fill={hair}
+              />
+              <path d="M90 106 C86 52 126 28 160 28 C196 28 234 52 230 106 L220 106 Q204 82 184 88 Q160 80 136 88 Q116 82 100 106 Z" fill={`url(#hairGloss_${uid})`} />
+              <path d="M118 48 Q160 36 202 48" stroke="#FFFFFF" strokeOpacity="0.32" strokeWidth="6" strokeLinecap="round" fill="none" />
+            </g>
+          )}
 
-        {config.hairStyle === 'curly_wave' && (
-          <g id="hair_curly">
-            <circle cx="116" cy="78" r="18" fill={hair} />
-            <circle cx="138" cy="68" r="20" fill={hair} />
-            <circle cx="162" cy="68" r="20" fill={hair} />
-            <circle cx="184" cy="78" r="18" fill={hair} />
-            <circle cx="104" cy="96" r="13" fill={hair} />
-            <circle cx="196" cy="96" r="13" fill={hair} />
-            <path d="M125 62 Q150 53 175 62" fill="none" stroke="#FFFFFF" strokeOpacity="0.26" strokeWidth="4" strokeLinecap="round" />
-          </g>
-        )}
+          {config.hairStyle === 'curly_wave' && (
+            <g>
+              <path
+                d="M90 98 C86 50 126 26 160 26 C196 26 234 50 230 98 Q210 78 186 84 Q160 72 134 84 Q110 78 90 98 Z"
+                fill={hair}
+              />
+              <path d="M90 98 C86 50 126 26 160 26 C196 26 234 50 230 98 Q210 78 186 84 Q160 72 134 84 Q110 78 90 98 Z" fill={`url(#hairGloss_${uid})`} />
+              <path d="M120 46 Q160 32 200 46" stroke="#FFFFFF" strokeOpacity="0.3" strokeWidth="5.5" strokeLinecap="round" fill="none" />
+            </g>
+          )}
 
-        {/* Mũ Lưỡi Trai Ngôi Sao */}
-        {config.hairStyle === 'hat_cap_red' && (
-          <g id="hat_cap_red">
-            <path
-              d="M104 106 C100 58 200 58 196 106 C182 88 118 88 104 106 Z"
-              fill={hair}
-            />
-            <path
-              d="M104 88 C104 54 196 54 196 88 Z"
-              fill="#EF4444"
-              stroke="#991B1B"
-              strokeWidth="2"
-            />
-            <path d="M106 86 Q155 76 206 90 Q168 96 106 88 Z" fill="#DC2626" stroke="#991B1B" strokeWidth="2" />
-            <circle cx="150" cy="70" r="10" fill="#FACC15" stroke="#991B1B" strokeWidth="1.5" />
-            <polygon points="150,63 152,68 157,68 153,71 154.5,76 150,73 145.5,76 147,71 143,68 148,68" fill="#DC2626" />
-          </g>
-        )}
+          {config.hairStyle === 'hat_cap_red' && (
+            <g>
+              <path d="M94 98 C98 76 122 72 160 84 C198 72 222 76 226 98 Z" fill={hair} />
+              <path d="M92 80 C94 34 128 22 160 22 C194 22 226 34 228 80 Z" fill="#EF4444" />
+              <path d="M92 80 C94 34 128 22 160 22 C194 22 226 34 228 80 Z" fill={`url(#clothShade_${uid})`} />
+              {/* Cap brim */}
+              <path d="M90 76 Q160 66 244 82 Q242 94 180 86 Q124 84 90 82 Z" fill="#B91C1C" />
+              <circle cx="160" cy="50" r="14" fill="#FFFFFF" />
+              <polygon points="160,39 163.5,47 172,47 165,52 167.5,60 160,55 152.5,60 155,52 148,47 156.5,47" fill={`url(#goldMetal_${uid})`} />
+            </g>
+          )}
 
-        {/* Tai Nghe Mèo Game Thủ (from concept board!) */}
-        {config.hairStyle === 'headphones_cat' && (
-          <g id="headphones_cat">
-            <path
-              d="M104 106 C100 58 200 58 196 106 C184 86 116 86 104 106 Z"
-              fill={hair}
-            />
-            <path d="M122 72 Q150 64 178 72" fill="none" stroke="#FFFFFF" strokeOpacity="0.28" strokeWidth="4" strokeLinecap="round" />
-            {/* Cat ear pods */}
-            <polygon points="108,76 114,50 132,68" fill="#EC4899" stroke="#7C3AED" strokeWidth="2.5" strokeLinejoin="round" />
-            <polygon points="113,72 117,57 127,68" fill="#FBCFE8" />
-            <polygon points="192,76 186,50 168,68" fill="#EC4899" stroke="#7C3AED" strokeWidth="2.5" strokeLinejoin="round" />
-            <polygon points="187,72 183,57 173,68" fill="#FBCFE8" />
-            {/* Headband */}
-            <path d="M102 104 C102 58 198 58 198 104" fill="none" stroke="#7C3AED" strokeWidth="7" strokeLinecap="round" />
-            <path d="M118 70 Q150 60 182 70" fill="none" stroke="#38BDF8" strokeWidth="2.5" strokeLinecap="round" />
-            {/* Glowing side earcups */}
-            <rect x="93" y="96" width="14" height="28" rx="7" fill="#1E293B" stroke="#38BDF8" strokeWidth="2" />
-            <rect x="193" y="96" width="14" height="28" rx="7" fill="#1E293B" stroke="#38BDF8" strokeWidth="2" />
-            <circle cx="100" cy="110" r="4" fill="#F472B6" />
-            <circle cx="200" cy="110" r="4" fill="#F472B6" />
-          </g>
-        )}
+          {config.hairStyle === 'headphones_cat' && (
+            <g>
+              <path
+                d="M93 102 C89 55 126 31 160 31 C195 31 231 55 227 102 Q208 80 184 86 Q160 76 136 86 Q112 80 93 102 Z"
+                fill={hair}
+              />
+              <path d="M93 102 C89 55 126 31 160 31 C195 31 231 55 227 102 Q208 80 184 86 Q160 76 136 86 Q112 80 93 102 Z" fill={`url(#hairGloss_${uid})`} />
+              {/* Thick plush rainbow/purple gamer headband */}
+              <path d="M88 104 A72 72 0 0 1 232 104" fill="none" stroke="#8B5CF6" strokeWidth="14" strokeLinecap="round" />
+              <path d="M94 94 A68 68 0 0 1 226 94" fill="none" stroke="#F472B6" strokeWidth="5" strokeLinecap="round" opacity="0.65" />
+              {/* Glowing Cat Ears */}
+              <polygon points="98,58 106,18 134,42" fill="#EC4899" />
+              <polygon points="105,52 110,27 127,43" fill="#FBCFE8" />
+              <polygon points="222,58 214,18 186,42" fill="#EC4899" />
+              <polygon points="215,52 210,27 193,43" fill="#FBCFE8" />
+              {/* Glossy Ear Cups */}
+              <rect x="74" y="88" width="22" height="44" rx="11" fill="#7C3AED" />
+              <rect x="78" y="96" width="10" height="28" rx="5" fill="#22D3EE" />
+              <rect x="224" y="88" width="22" height="44" rx="11" fill="#7C3AED" />
+              <rect x="232" y="96" width="10" height="28" rx="5" fill="#22D3EE" />
+            </g>
+          )}
 
-        {/* Vương Miện Công Chúa */}
-        {config.hairStyle === 'crown_princess' && (
-          <g id="crown_princess">
-            <path
-              d="M102 108 C100 58 200 58 198 108 C184 86 116 86 102 108 Z"
-              fill={hair}
-            />
-            <path d="M122 72 Q150 64 178 72" fill="none" stroke="#FFFFFF" strokeOpacity="0.28" strokeWidth="4" strokeLinecap="round" />
-            <polygon
-              points="126,68 124,44 139,55 150,38 161,55 176,44 174,68"
-              fill={`url(#goldMetal_${uid})`}
-              stroke="#B45309"
-              strokeWidth="2"
-              strokeLinejoin="round"
-            />
-            <circle cx="150" cy="57" r="4.5" fill="#EC4899" stroke="#FFFFFF" strokeWidth="1" />
-            <circle cx="135" cy="60" r="3" fill="#38BDF8" />
-            <circle cx="165" cy="60" r="3" fill="#38BDF8" />
-          </g>
-        )}
+          {config.hairStyle === 'crown_princess' && (
+            <g>
+              <path
+                d="M92 102 C88 54 126 30 160 30 C196 30 232 54 228 102 Q206 80 160 85 Q114 80 92 102 Z"
+                fill={hair}
+              />
+              <path d="M92 102 C88 54 126 30 160 30 C196 30 232 54 228 102 Q206 80 160 85 Q114 80 92 102 Z" fill={`url(#hairGloss_${uid})`} />
+              {/* Royal Gold Crown */}
+              <polygon points="122,42 132,14 148,30 160,6 172,30 188,14 198,42" fill={`url(#goldMetal_${uid})`} />
+              <rect x="122" y="39" width="76" height="8" rx="4" fill="#D97706" />
+              <circle cx="160" cy="31" r="5" fill="#EC4899" />
+              <circle cx="137" cy="34" r="3.8" fill="#38BDF8" />
+              <circle cx="183" cy="34" r="3.8" fill="#38BDF8" />
+            </g>
+          )}
 
-        {/* Bờm Cánh Tiên Lung Linh */}
-        {config.hairStyle === 'tiara_fairy' && (
-          <g id="tiara_fairy">
-            <path
-              d="M102 108 C100 58 200 58 198 108 C184 86 116 86 102 108 Z"
-              fill={hair}
-            />
-            <path d="M106 88 C114 60 186 60 194 88" fill="none" stroke="#F472B6" strokeWidth="4.5" strokeLinecap="round" />
-            <path d="M114 72 Q96 48 118 52 Q126 62 122 70 Z" fill="#A5F3FC" stroke="#38BDF8" strokeWidth="1.5" />
-            <path d="M186 72 Q204 48 182 52 Q174 62 178 70 Z" fill="#A5F3FC" stroke="#38BDF8" strokeWidth="1.5" />
-            <polygon points="150,52 153,60 161,60 155,65 157,72 150,67 143,72 145,65 139,60 147,60" fill="#FDE047" stroke="#D97706" strokeWidth="1" />
-          </g>
-        )}
+          {config.hairStyle === 'tiara_fairy' && (
+            <g>
+              <path
+                d="M92 102 C88 54 126 30 160 30 C196 30 232 54 228 102 Q206 80 160 85 Q114 80 92 102 Z"
+                fill={hair}
+              />
+              <path d="M92 102 C88 54 126 30 160 30 C196 30 232 54 228 102 Q206 80 160 85 Q114 80 92 102 Z" fill={`url(#hairGloss_${uid})`} />
+              <path d="M108 62 A56 50 0 0 1 212 62" fill="none" stroke="#F472B6" strokeWidth="7" strokeLinecap="round" />
+              <path d="M112 46 Q90 22 114 22 Q132 24 134 44 Z" fill="#A5F3FC" opacity="0.9" />
+              <path d="M208 46 Q230 22 206 22 Q188 24 186 44 Z" fill="#A5F3FC" opacity="0.9" />
+              <polygon points="160,16 164,25 173,25 166,30 168,39 160,34 152,39 154,30 147,25 156,25" fill="#FDE047" />
+            </g>
+          )}
 
-        {/* Nón Lá Quê Hương */}
-        {config.hairStyle === 'hat_nonla' && (
-          <g id="hat_nonla">
-            <path d="M104 108 C102 64 198 64 196 108 C184 88 116 88 104 108 Z" fill={hair} />
-            <path d="M112 96 Q116 124 134 142" fill="none" stroke="#DC2626" strokeWidth="2.5" />
-            <path d="M188 96 Q184 124 166 142" fill="none" stroke="#DC2626" strokeWidth="2.5" />
-            <polygon
-              points="76,92 150,36 224,92"
-              fill="#FDE68A"
-              stroke="#B45309"
-              strokeWidth="2.2"
-              strokeLinejoin="round"
-            />
-            <ellipse cx="150" cy="92" rx="74" ry="8" fill="#FCD34D" stroke="#B45309" strokeWidth="2" />
-            <path d="M98 76 Q150 82 202 76" fill="none" stroke="#D97706" strokeWidth="1.4" opacity="0.65" />
-            <path d="M118 60 Q150 65 182 60" fill="none" stroke="#D97706" strokeWidth="1.4" opacity="0.65" />
-          </g>
-        )}
+          {config.hairStyle === 'hat_nonla' && (
+            <g>
+              <path d="M94 98 Q126 80 160 86 Q194 80 226 98 Q224 72 160 70 Q96 72 94 98 Z" fill={hair} />
+              <polygon points="160,4 66,80 254,80" fill="#FDE68A" />
+              <polygon points="160,4 66,80 254,80" fill={`url(#clothShade_${uid})`} />
+              <path d="M100 54 Q160 66 220 54" stroke="#B45309" strokeOpacity="0.35" strokeWidth="2.2" fill="none" />
+              <path d="M82 68 Q160 82 238 68" stroke="#B45309" strokeOpacity="0.35" strokeWidth="2.2" fill="none" />
+              <path d="M115 80 Q138 156 160 165 Q182 156 205 80" fill="none" stroke="#EC4899" strokeWidth="4.2" />
+            </g>
+          )}
 
-        {/* Mũ Thuyền Trưởng Hải Tặc */}
-        {config.hairStyle === 'hat_pirate' && (
-          <g id="hat_pirate">
-            <path d="M106 104 C104 68 196 68 194 104 C182 90 118 90 106 104 Z" fill={hair} />
-            <path
-              d="M94 86 Q150 96 206 86 L192 52 Q150 40 108 52 Z"
-              fill="#1E293B"
-              stroke="#FACC15"
-              strokeWidth="2.5"
-              strokeLinejoin="round"
-            />
-            <circle cx="150" cy="67" r="9" fill="#FACC15" />
-            <polygon points="150,60 152,65 157,65 153,68 154.5,73 150,70 145.5,73 147,68 143,65 148,65" fill="#1E293B" />
-          </g>
-        )}
+          {config.hairStyle === 'hat_pirate' && (
+            <g>
+              <path d="M94 96 Q126 78 160 84 Q194 78 226 96 Z" fill={hair} />
+              <path d="M94 74 Q160 64 226 74 L222 86 Q160 78 98 86 Z" fill="#DC2626" />
+              <path d="M72 64 Q160 12 248 64 Q236 86 196 80 Q160 72 124 80 Q84 86 72 64 Z" fill="#1E293B" />
+              <path d="M72 64 Q160 12 248 64" fill="none" stroke={`url(#goldMetal_${uid})`} strokeWidth="5" strokeLinecap="round" />
+              {/* Pirate Star Emblem */}
+              <circle cx="160" cy="48" r="14" fill="#FFFFFF" />
+              <polygon points="160,37 163.5,45 172,45 165,50 167.5,58 160,53 152.5,58 155,50 148,45 156.5,45" fill="#1E293B" />
+            </g>
+          )}
 
-        {/* Mũ Giáp Siêu Anh Hùng */}
-        {config.hairStyle === 'helmet_hero' && (
-          <g id="helmet_hero">
-            <path
-              d="M102 106 C100 50 200 50 198 106 L189 106 C182 84 118 84 111 106 Z"
-              fill="#DC2626"
-              stroke="#FACC15"
-              strokeWidth="2.5"
-            />
-            <path d="M133 58 L150 90 L167 58 Z" fill={`url(#goldMetal_${uid})`} />
-            <polygon points="150,62 153,69 160,69 154,73 156,80 150,76 144,80 146,73 140,69 147,69" fill="#DC2626" />
-            <rect x="98" y="96" width="10" height="24" rx="5" fill="#FACC15" stroke="#991B1B" strokeWidth="1.5" />
-            <rect x="192" y="96" width="10" height="24" rx="5" fill="#FACC15" stroke="#991B1B" strokeWidth="1.5" />
-            <path d="M116 66 Q146 56 172 64" fill="none" stroke="#FFFFFF" strokeOpacity="0.32" strokeWidth="3.5" strokeLinecap="round" />
-          </g>
-        )}
+          {config.hairStyle === 'helmet_hero' && (
+            <g>
+              <path
+                d="M91 106 C88 46 126 24 160 24 C196 24 232 46 229 106 L216 106 Q204 72 184 74 L160 90 L136 74 Q116 72 104 106 Z"
+                fill="#DC2626"
+              />
+              <path
+                d="M91 106 C88 46 126 24 160 24 C196 24 232 46 229 106 L216 106 Q204 72 184 74 L160 90 L136 74 Q116 72 104 106 Z"
+                fill={`url(#clothShade_${uid})`}
+              />
+              <path d="M138 30 L182 30 L170 76 L150 76 Z" fill={`url(#goldMetal_${uid})`} />
+              <rect x="84" y="88" width="14" height="36" rx="7" fill={`url(#goldMetal_${uid})`} />
+              <rect x="222" y="88" width="14" height="36" rx="7" fill={`url(#goldMetal_${uid})`} />
+            </g>
+          )}
 
-        {/* Mũ Chiến Binh Biệt Đội */}
-        {config.hairStyle === 'helmet_ranger' && (
-          <g id="helmet_ranger">
-            <path
-              d="M101 110 C99 50 201 50 199 110 L189 110 C184 86 168 84 150 84 C132 84 116 86 111 110 Z"
-              fill={hair === '#1E293B' ? '#2563EB' : hair}
-              stroke="#FFFFFF"
-              strokeWidth="2.2"
-            />
-            <path d="M116 86 Q150 75 184 86 L180 96 Q150 88 120 96 Z" fill="#0F172A" />
-            <polygon points="150,55 157,70 150,78 143,70" fill="#FDE047" stroke="#B45309" strokeWidth="1.2" />
-            <circle cx="102" cy="106" r="5.5" fill="#FACC15" />
-            <circle cx="198" cy="106" r="5.5" fill="#FACC15" />
-          </g>
-        )}
+          {config.hairStyle === 'helmet_ranger' && (
+            <g>
+              <path d="M92 100 C88 46 126 24 160 24 C196 24 232 46 228 100 Z" fill={hair} />
+              <path d="M92 100 C88 46 126 24 160 24 C196 24 232 46 228 100 Z" fill={`url(#clothShade_${uid})`} />
+              <path d="M108 66 L142 54 L160 66 L178 54 L212 66 L196 86 L124 86 Z" fill="#0F172A" />
+              <polygon points="160,34 166,46 160,58 154,46" fill={`url(#goldMetal_${uid})`} />
+              <path d="M120 44 Q160 32 200 44" stroke="#FFFFFF" strokeOpacity="0.4" strokeWidth="5" strokeLinecap="round" fill="none" />
+            </g>
+          )}
 
-        {/* Khăn Trùm Ninja Bóng Đêm */}
-        {config.hairStyle === 'hood_ninja' && (
-          <g id="hood_ninja">
-            <path
-              d="M102 112 C100 56 200 56 198 112 C188 86 112 86 102 112 Z"
-              fill="#0F172A"
-            />
-            <path d="M107 119 Q150 113 193 119 L186 150 Q150 157 114 150 Z" fill="#1E293B" stroke="#0F172A" strokeWidth="1.8" />
-            <rect x="106" y="76" width="88" height="10" rx="5" fill="#DC2626" />
-            <rect x="138" y="73" width="24" height="15" rx="4" fill={`url(#silverMetal_${uid})`} stroke="#334155" strokeWidth="1.5" />
-            <path d="M192 81 L218 70 L213 82 L220 90 L192 86 Z" fill="#DC2626" />
-          </g>
-        )}
+          {config.hairStyle === 'hood_ninja' && (
+            <g>
+              <path d="M92 106 C88 48 126 26 160 26 C196 26 232 48 228 106 L228 150 Q160 172 92 150 Z" fill="#1E293B" />
+              <rect x="108" y="88" width="104" height="34" rx="14" fill={skin} />
+              <rect x="94" y="64" width="132" height="16" rx="5" fill="#DC2626" />
+              <rect x="142" y="67" width="36" height="10" rx="4" fill={`url(#silverMetal_${uid})`} />
+            </g>
+          )}
 
-        {/* Mũ Bảo Hiểm Tay Đua */}
-        {config.hairStyle === 'helmet_racer' && (
-          <g id="helmet_racer">
-            <path
-              d="M102 108 C100 52 200 52 198 108 L188 104 C178 86 122 86 112 104 Z"
-              fill="#F8FAFC"
-              stroke="#0284C7"
-              strokeWidth="2.5"
-            />
-            <rect x="144" y="57" width="12" height="30" rx="4" fill="#EF4444" />
-            <path d="M110 89 L190 89" stroke="#0284C7" strokeWidth="5.5" strokeLinecap="round" />
-            <rect x="97" y="98" width="9" height="18" rx="4" fill="#0F172A" />
-            <rect x="194" y="98" width="9" height="18" rx="4" fill="#0F172A" />
-          </g>
-        )}
+          {config.hairStyle === 'helmet_racer' && (
+            <g>
+              <path
+                d="M90 108 C86 44 126 22 160 22 C196 22 234 44 230 108 L214 108 Q206 72 160 72 Q114 72 106 108 Z"
+                fill="#0284C7"
+              />
+              <path d="M150 24 L170 24 L170 72 L150 72 Z" fill="#FFFFFF" />
+              <path d="M155 24 L165 24 L165 72 L155 72 Z" fill="#FACC15" />
+              <path d="M114 48 Q160 32 206 48" stroke="#FFFFFF" strokeOpacity="0.4" strokeWidth="5" strokeLinecap="round" fill="none" />
+            </g>
+          )}
 
-        {/* Mũ Pháp Sư Chóp Nhọn */}
-        {config.hairStyle === 'hat_wizard' && (
-          <g id="hat_wizard">
-            <path d="M104 102 C102 68 198 68 196 102 C184 90 116 90 104 102 Z" fill={hair} />
-            <ellipse cx="150" cy="79" rx="58" ry="13" fill="#4C1D95" stroke="#F59E0B" strokeWidth="2.5" />
-            <path d="M118 77 L148 14 L180 77 Z" fill="#5B21B6" stroke="#F59E0B" strokeWidth="2.2" strokeLinejoin="round" />
-            <path d="M124 68 Q150 75 176 68" stroke="#F59E0B" strokeWidth="5" fill="none" />
-            <polygon points="150,40 153,47 160,47 154,51 156,58 150,54 144,58 146,51 140,47 147,47" fill="#FDE047" />
-          </g>
-        )}
+          {config.hairStyle === 'hat_wizard' && (
+            <g>
+              <path d="M94 96 Q126 78 160 84 Q194 78 226 96 Z" fill={hair} />
+              <ellipse cx="160" cy="68" rx="84" ry="15" fill="#4C1D95" />
+              <polygon points="106,68 160,0 214,68" fill="#5B21B6" />
+              <path d="M114 58 Q160 66 206 58 L209 68 Q160 75 111 68 Z" fill={`url(#goldMetal_${uid})`} />
+              <polygon points="160,26 163,34 171,34 164,39 167,47 160,42 153,47 156,39 149,34 157,34" fill="#FEF08A" />
+            </g>
+          )}
 
-        {/* Mũ Phi Hành Gia Vòm Kính */}
-        {config.hairStyle === 'helmet_astro' && (
-          <g id="helmet_astro">
-            <path d="M110 98 C110 66 190 66 190 98 C178 88 122 88 110 98 Z" fill={hair} opacity="0.88" />
-            <circle cx="150" cy="107" r="52" fill="#BAE6FD" fillOpacity="0.22" stroke="#E2E8F0" strokeWidth="5" />
-            <path d="M112 76 Q130 60 156 62" stroke="#FFFFFF" strokeWidth="4.5" strokeLinecap="round" fill="none" opacity="0.75" />
-            <rect x="112" y="146" width="76" height="11" rx="5.5" fill={`url(#silverMetal_${uid})`} stroke="#64748B" strokeWidth="1.5" />
-            <circle cx="150" cy="151.5" r="3.5" fill="#0284C7" />
-          </g>
-        )}
-
-        {/* Kính bảo hộ gắn trán khi mặc áo Blouse Nhà Khoa Học */}
-        {config.outfitId === 'outfit_lab' && (
-          <g id="lab_goggles">
-            <rect x="108" y="72" width="84" height="8" rx="4" fill="#0F172A" />
-            <rect x="118" y="65" width="26" height="18" rx="6" fill="#7DD3FC" stroke="#0284C7" strokeWidth="2.5" />
-            <rect x="156" y="65" width="26" height="18" rx="6" fill="#7DD3FC" stroke="#0284C7" strokeWidth="2.5" />
-            <line x1="122" y1="70" x2="132" y2="70" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" />
-            <line x1="160" y1="70" x2="170" y2="70" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" />
-          </g>
-        )}
+          {config.hairStyle === 'helmet_astro' && (
+            <g>
+              <circle cx="160" cy="100" r="76" fill="#E0F2FE" fillOpacity="0.22" stroke="#FFFFFF" strokeWidth="7" />
+              <path d="M92 66 Q160 22 228 66 L216 82 Q160 56 104 82 Z" fill="#F8FAFC" />
+              <path d="M148 26 L172 26 L172 64 L148 64 Z" fill="#F97316" />
+              <path d="M112 58 Q128 42 154 42" stroke="#FFFFFF" strokeWidth="5.5" strokeLinecap="round" fill="none" opacity="0.72" />
+            </g>
+          )}
+        </g>
       </g>
     </>
   );

@@ -16,8 +16,10 @@ interface AvatarRendererProps {
   showTech?: boolean;
   showPet?: boolean;
   showAura?: boolean;
+  showPedestal?: boolean;
   animated?: boolean;
   isReacting?: boolean;
+  facing?: 1 | -1;
   onTap?: () => void;
   className?: string;
 }
@@ -31,27 +33,202 @@ const FLOATING_VEHICLES = new Set([
   'veh_jetpack'
 ]);
 
-const OUTFIT_SLEEVE_PALETTE: Record<string, { sleeve: string; cuff: string; pants: string; shoe: string }> = {
-  outfit_uniform: { sleeve: '#FFFFFF', cuff: '#DC2626', pants: '#1E3A8A', shoe: '#2563EB' },
-  outfit_scout: { sleeve: '#D97706', cuff: '#78350F', pants: '#475569', shoe: '#92400E' },
-  outfit_sport: { sleeve: '#EA580C', cuff: '#FFFFFF', pants: '#1E293B', shoe: '#F97316' },
-  outfit_hoodie: { sleeve: '#4F46E5', cuff: '#818CF8', pants: '#334155', shoe: '#4F46E5' },
-  outfit_racer: { sleeve: '#0284C7', cuff: '#FFFFFF', pants: '#0F172A', shoe: '#EF4444' },
-  outfit_ranger_red: { sleeve: '#DC2626', cuff: '#FFFFFF', pants: '#B91C1C', shoe: '#FFFFFF' },
-  outfit_lab: { sleeve: '#F8FAFC', cuff: '#0284C7', pants: '#334155', shoe: '#0284C7' },
-  outfit_detective: { sleeve: '#334155', cuff: '#94A3B8', pants: '#1E293B', shoe: '#1E293B' },
-  outfit_ninja: { sleeve: '#0F172A', cuff: '#DC2626', pants: '#0F172A', shoe: '#1E293B' },
-  outfit_varsity: { sleeve: '#FEF3C7', cuff: '#1E3A8A', pants: '#1D4ED8', shoe: '#EA580C' },
-  outfit_hero_core: { sleeve: '#B91C1C', cuff: '#FACC15', pants: '#991B1B', shoe: '#F59E0B' },
-  outfit_knight: { sleeve: '#CBD5E1', cuff: '#F59E0B', pants: '#475569', shoe: '#64748B' },
-  outfit_hero_shield: { sleeve: '#1E40AF', cuff: '#FFFFFF', pants: '#1E3A8A', shoe: '#DC2626' },
-  outfit_aodai_tech: { sleeve: '#B91C1C', cuff: '#FDE047', pants: '#F8FAFC', shoe: '#D97706' },
-  outfit_astronaut: { sleeve: '#F8FAFC', cuff: '#EA580C', pants: '#E2E8F0', shoe: '#EA580C' },
-  outfit_scholar: { sleeve: '#581C87', cuff: '#F59E0B', pants: '#3B0764', shoe: '#7C3AED' },
-  outfit_wizard_ice: { sleeve: '#0369A1', cuff: '#BAE6FD', pants: '#0C4A6E', shoe: '#0EA5E9' },
-  outfit_ranger_gold: { sleeve: '#F59E0B', cuff: '#FEF08A', pants: '#1E293B', shoe: '#D97706' },
-  outfit_cyber: { sleeve: '#1E293B', cuff: '#22D3EE', pants: '#0F172A', shoe: '#0284C7' },
-  outfit_mecha_pilot: { sleeve: '#1E293B', cuff: '#38BDF8', pants: '#1E3A8A', shoe: '#EF4444' }
+const ARMORED_BOOT_OUTFITS = new Set([
+  'outfit_hero_core',
+  'outfit_knight',
+  'outfit_hero_shield',
+  'outfit_astronaut',
+  'outfit_ranger_red',
+  'outfit_ranger_gold',
+  'outfit_cyber',
+  'outfit_mecha_pilot',
+  'outfit_racer'
+]);
+
+const OUTFIT_SLEEVE_PALETTE: Record<
+  string,
+  { sleeve: string; sleeveDark: string; cuff: string; pants: string; pantsDark: string; shoe: string; shoeAccent: string }
+> = {
+  outfit_uniform: {
+    sleeve: '#FFFFFF',
+    sleeveDark: '#CBD5E1',
+    cuff: '#EF4444',
+    pants: '#2563EB',
+    pantsDark: '#1E3A8A',
+    shoe: '#3B82F6',
+    shoeAccent: '#FFFFFF'
+  },
+  outfit_scout: {
+    sleeve: '#F59E0B',
+    sleeveDark: '#B45309',
+    cuff: '#78350F',
+    pants: '#64748B',
+    pantsDark: '#334155',
+    shoe: '#B45309',
+    shoeAccent: '#FDE047'
+  },
+  outfit_sport: {
+    sleeve: '#FB923C',
+    sleeveDark: '#C2410C',
+    cuff: '#FFFFFF',
+    pants: '#334155',
+    pantsDark: '#0F172A',
+    shoe: '#F97316',
+    shoeAccent: '#FEF08A'
+  },
+  outfit_hoodie: {
+    sleeve: '#60A5FA',
+    sleeveDark: '#2563EB',
+    cuff: '#FFFFFF',
+    pants: '#475569',
+    pantsDark: '#1E293B',
+    shoe: '#3B82F6',
+    shoeAccent: '#FACC15'
+  },
+  outfit_racer: {
+    sleeve: '#38BDF8',
+    sleeveDark: '#0369A1',
+    cuff: '#FFFFFF',
+    pants: '#1E293B',
+    pantsDark: '#0F172A',
+    shoe: '#EF4444',
+    shoeAccent: '#FACC15'
+  },
+  outfit_ranger_red: {
+    sleeve: '#EF4444',
+    sleeveDark: '#991B1B',
+    cuff: '#FACC15',
+    pants: '#DC2626',
+    pantsDark: '#7F1D1D',
+    shoe: '#F8FAFC',
+    shoeAccent: '#EF4444'
+  },
+  outfit_lab: {
+    sleeve: '#F8FAFC',
+    sleeveDark: '#CBD5E1',
+    cuff: '#0EA5E9',
+    pants: '#475569',
+    pantsDark: '#1E293B',
+    shoe: '#0284C7',
+    shoeAccent: '#BAE6FD'
+  },
+  outfit_detective: {
+    sleeve: '#475569',
+    sleeveDark: '#1E293B',
+    cuff: '#94A3B8',
+    pants: '#334155',
+    pantsDark: '#0F172A',
+    shoe: '#78350F',
+    shoeAccent: '#D97706'
+  },
+  outfit_ninja: {
+    sleeve: '#1E293B',
+    sleeveDark: '#090D1F',
+    cuff: '#EF4444',
+    pants: '#1E293B',
+    pantsDark: '#090D1F',
+    shoe: '#334155',
+    shoeAccent: '#EF4444'
+  },
+  outfit_varsity: {
+    sleeve: '#FEF3C7',
+    sleeveDark: '#FDE68A',
+    cuff: '#1D4ED8',
+    pants: '#2563EB',
+    pantsDark: '#1E3A8A',
+    shoe: '#F97316',
+    shoeAccent: '#FFFFFF'
+  },
+  outfit_hero_core: {
+    sleeve: '#DC2626',
+    sleeveDark: '#7F1D1D',
+    cuff: '#FACC15',
+    pants: '#B91C1C',
+    pantsDark: '#7F1D1D',
+    shoe: '#F59E0B',
+    shoeAccent: '#38BDF8'
+  },
+  outfit_knight: {
+    sleeve: '#E2E8F0',
+    sleeveDark: '#64748B',
+    cuff: '#F59E0B',
+    pants: '#64748B',
+    pantsDark: '#334155',
+    shoe: '#CBD5E1',
+    shoeAccent: '#F59E0B'
+  },
+  outfit_hero_shield: {
+    sleeve: '#2563EB',
+    sleeveDark: '#1E3A8A',
+    cuff: '#FFFFFF',
+    pants: '#1D4ED8',
+    pantsDark: '#1E3A8A',
+    shoe: '#DC2626',
+    shoeAccent: '#FFFFFF'
+  },
+  outfit_aodai_tech: {
+    sleeve: '#EF4444',
+    sleeveDark: '#991B1B',
+    cuff: '#FDE047',
+    pants: '#F8FAFC',
+    pantsDark: '#CBD5E1',
+    shoe: '#F59E0B',
+    shoeAccent: '#FEF08A'
+  },
+  outfit_astronaut: {
+    sleeve: '#FFFFFF',
+    sleeveDark: '#CBD5E1',
+    cuff: '#F97316',
+    pants: '#F1F5F9',
+    pantsDark: '#94A3B8',
+    shoe: '#F97316',
+    shoeAccent: '#38BDF8'
+  },
+  outfit_scholar: {
+    sleeve: '#7C3AED',
+    sleeveDark: '#4C1D95',
+    cuff: '#FACC15',
+    pants: '#5B21B6',
+    pantsDark: '#2E1065',
+    shoe: '#8B5CF6',
+    shoeAccent: '#FDE047'
+  },
+  outfit_wizard_ice: {
+    sleeve: '#0EA5E9',
+    sleeveDark: '#0369A1',
+    cuff: '#E0F2FE',
+    pants: '#0284C7',
+    pantsDark: '#0C4A6E',
+    shoe: '#38BDF8',
+    shoeAccent: '#FFFFFF'
+  },
+  outfit_ranger_gold: {
+    sleeve: '#FACC15',
+    sleeveDark: '#B45309',
+    cuff: '#1E293B',
+    pants: '#334155',
+    pantsDark: '#0F172A',
+    shoe: '#F59E0B',
+    shoeAccent: '#FFFFFF'
+  },
+  outfit_cyber: {
+    sleeve: '#1E293B',
+    sleeveDark: '#090D1F',
+    cuff: '#22D3EE',
+    pants: '#1E293B',
+    pantsDark: '#090D1F',
+    shoe: '#0EA5E9',
+    shoeAccent: '#22D3EE'
+  },
+  outfit_mecha_pilot: {
+    sleeve: '#3B82F6',
+    sleeveDark: '#1E3A8A',
+    cuff: '#FACC15',
+    pants: '#1D4ED8',
+    pantsDark: '#1E3A8A',
+    shoe: '#EF4444',
+    shoeAccent: '#22D3EE'
+  }
 };
 
 export const AvatarRenderer: React.FC<AvatarRendererProps> = ({
@@ -61,8 +238,10 @@ export const AvatarRenderer: React.FC<AvatarRendererProps> = ({
   showTech = true,
   showPet = true,
   showAura = true,
+  showPedestal = false,
   animated = true,
   isReacting = false,
+  facing = 1,
   onTap,
   className = ''
 }) => {
@@ -70,10 +249,10 @@ export const AvatarRenderer: React.FC<AvatarRendererProps> = ({
   const uid = rawId.replace(/[^a-zA-Z0-9_-]/g, '');
 
   const sizeMap = {
-    sm: { width: 120, height: 130 },
-    md: { width: 200, height: 230 },
-    lg: { width: 280, height: 320 },
-    xl: { width: 340, height: 390 }
+    sm: { width: 120, height: 132 },
+    md: { width: 205, height: 235 },
+    lg: { width: 290, height: 330 },
+    xl: { width: 345, height: 395 }
   };
 
   const skin = config.skinColor || '#FDDFC6';
@@ -81,12 +260,14 @@ export const AvatarRenderer: React.FC<AvatarRendererProps> = ({
   const auraId = config.auraId || 'aura_none';
   const isFloatingVehicle = FLOATING_VEHICLES.has(config.vehicleId);
   const palette = OUTFIT_SLEEVE_PALETTE[config.outfitId] || OUTFIT_SLEEVE_PALETTE.outfit_uniform;
+  const isArmored = ARMORED_BOOT_OUTFITS.has(config.outfitId);
   const isGirlSkirt =
     config.gender === 'girl' &&
     (config.outfitId === 'outfit_uniform' ||
       config.outfitId === 'outfit_hoodie' ||
       config.outfitId === 'outfit_scholar' ||
-      config.outfitId === 'outfit_wizard_ice');
+      config.outfitId === 'outfit_wizard_ice' ||
+      config.outfitId === 'outfit_varsity');
 
   return (
     <div
@@ -113,50 +294,64 @@ export const AvatarRenderer: React.FC<AvatarRendererProps> = ({
       }}
     >
       <svg
-        viewBox="0 0 300 350"
-        className="w-full h-full overflow-visible drop-shadow-md"
+        viewBox="0 0 320 360"
+        className="w-full h-full overflow-visible drop-shadow-[0_12px_18px_rgba(15,23,42,0.22)]"
         xmlns="http://www.w3.org/2000/svg"
       >
         <defs>
-          {/* Chibi 3D skin highlight & chin shadow overlay */}
-          <radialGradient id={`skinShading_${uid}`} cx="40%" cy="30%" r="65%">
-            <stop offset="0%" stopColor="#FFFFFF" stopOpacity="0.28" />
-            <stop offset="65%" stopColor="#FFFFFF" stopOpacity="0" />
-            <stop offset="100%" stopColor="#B45309" stopOpacity="0.18" />
+          {/* Pixar-style 3D spherical face & limb shading */}
+          <radialGradient id={`skinShading_${uid}`} cx="38%" cy="28%" r="72%">
+            <stop offset="0%" stopColor="#FFFFFF" stopOpacity="0.34" />
+            <stop offset="58%" stopColor="#FFFFFF" stopOpacity="0" />
+            <stop offset="86%" stopColor="#C2410C" stopOpacity="0.14" />
+            <stop offset="100%" stopColor="#9A3412" stopOpacity="0.28" />
           </radialGradient>
 
-          {/* Soft rosy chibi cheek blush */}
+          {/* Soft airbrushed rosy cheek blush */}
           <radialGradient id={`blush_${uid}`} cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stopColor="#FB7185" stopOpacity="0.58" />
-            <stop offset="65%" stopColor="#FB7185" stopOpacity="0.24" />
+            <stop offset="0%" stopColor="#FB7185" stopOpacity="0.62" />
+            <stop offset="55%" stopColor="#F43F5E" stopOpacity="0.26" />
             <stop offset="100%" stopColor="#FB7185" stopOpacity="0" />
           </radialGradient>
 
-          {/* Hair 3D volumetric highlight */}
-          <linearGradient id={`hairGloss_${uid}`} x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stopColor="#FFFFFF" stopOpacity="0.34" />
-            <stop offset="55%" stopColor="#FFFFFF" stopOpacity="0.04" />
-            <stop offset="100%" stopColor="#0F172A" stopOpacity="0.24" />
+          {/* Hair 3D volumetric gloss & shadow */}
+          <linearGradient id={`hairGloss_${uid}`} x1="15%" y1="0%" x2="85%" y2="100%">
+            <stop offset="0%" stopColor="#FFFFFF" stopOpacity="0.38" />
+            <stop offset="45%" stopColor="#FFFFFF" stopOpacity="0.04" />
+            <stop offset="100%" stopColor="#0F172A" stopOpacity="0.34" />
           </linearGradient>
 
-          {/* Torso soft 3D volume shading */}
-          <linearGradient id={`clothShade_${uid}`} x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#FFFFFF" stopOpacity="0.22" />
-            <stop offset="55%" stopColor="#FFFFFF" stopOpacity="0" />
-            <stop offset="100%" stopColor="#0F172A" stopOpacity="0.2" />
+          {/* Cloth / Garment 3D volume shading */}
+          <linearGradient id={`clothShade_${uid}`} x1="15%" y1="0%" x2="85%" y2="100%">
+            <stop offset="0%" stopColor="#FFFFFF" stopOpacity="0.28" />
+            <stop offset="50%" stopColor="#FFFFFF" stopOpacity="0" />
+            <stop offset="100%" stopColor="#0F172A" stopOpacity="0.28" />
           </linearGradient>
 
-          {/* Gold & silver toy-metallic gradients */}
+          {/* Sleeves & Trousers 3D directional shading */}
+          <linearGradient id={`sleeveGrad_${uid}`} x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stopColor={palette.sleeve} />
+            <stop offset="100%" stopColor={palette.sleeveDark} />
+          </linearGradient>
+          <linearGradient id={`pantsGrad_${uid}`} x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stopColor={palette.pants} />
+            <stop offset="100%" stopColor={palette.pantsDark} />
+          </linearGradient>
+          <linearGradient id={`shoeGrad_${uid}`} x1="20%" y1="0%" x2="80%" y2="100%">
+            <stop offset="0%" stopColor={palette.shoe} />
+            <stop offset="100%" stopColor="#0F172A" stopOpacity="0.45" />
+          </linearGradient>
+
+          {/* Metallic gold & silver toy gradients */}
           <linearGradient id={`goldMetal_${uid}`} x1="0%" y1="0%" x2="100%" y2="100%">
             <stop offset="0%" stopColor="#FEF08A" />
-            <stop offset="48%" stopColor="#FACC15" />
-            <stop offset="100%" stopColor="#D97706" />
+            <stop offset="45%" stopColor="#FACC15" />
+            <stop offset="100%" stopColor="#B45309" />
           </linearGradient>
-
           <linearGradient id={`silverMetal_${uid}`} x1="0%" y1="0%" x2="100%" y2="100%">
             <stop offset="0%" stopColor="#FFFFFF" />
             <stop offset="55%" stopColor="#CBD5E1" />
-            <stop offset="100%" stopColor="#64748B" />
+            <stop offset="100%" stopColor="#475569" />
           </linearGradient>
 
           <linearGradient id={`carpetGrad_${uid}`} x1="0%" y1="0%" x2="100%" y2="100%">
@@ -164,18 +359,15 @@ export const AvatarRenderer: React.FC<AvatarRendererProps> = ({
             <stop offset="50%" stopColor="#D97706" />
             <stop offset="100%" stopColor="#F59E0B" />
           </linearGradient>
-
           <linearGradient id={`hoverGrad_${uid}`} x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" stopColor="#06B6D4" />
             <stop offset="100%" stopColor="#3B82F6" />
           </linearGradient>
-
           <linearGradient id={`cyberSuit_${uid}`} x1="0%" y1="0%" x2="0%" y2="100%">
             <stop offset="0%" stopColor="#0F172A" />
             <stop offset="55%" stopColor="#1E293B" />
             <stop offset="100%" stopColor="#0284C7" />
           </linearGradient>
-
           <linearGradient id={`rgbKey_${uid}`} x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" stopColor="#EF4444" />
             <stop offset="25%" stopColor="#F59E0B" />
@@ -183,7 +375,6 @@ export const AvatarRenderer: React.FC<AvatarRendererProps> = ({
             <stop offset="75%" stopColor="#06B6D4" />
             <stop offset="100%" stopColor="#8B5CF6" />
           </linearGradient>
-
           <linearGradient id={`flameAura_${uid}`} x1="0%" y1="0%" x2="100%" y2="100%">
             <stop offset="0%" stopColor="#FEF08A" />
             <stop offset="50%" stopColor="#F59E0B" />
@@ -191,132 +382,235 @@ export const AvatarRenderer: React.FC<AvatarRendererProps> = ({
           </linearGradient>
 
           <radialGradient id={`groundShadow_${uid}`} cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stopColor="#0F172A" stopOpacity="0.28" />
-            <stop offset="70%" stopColor="#0F172A" stopOpacity="0.12" />
+            <stop offset="0%" stopColor="#0F172A" stopOpacity="0.34" />
+            <stop offset="68%" stopColor="#0F172A" stopOpacity="0.14" />
             <stop offset="100%" stopColor="#0F172A" stopOpacity="0" />
           </radialGradient>
 
-          <filter id={`glowEffect_${uid}`} x="-25%" y="-25%" width="150%" height="150%">
-            <feGaussianBlur stdDeviation="3.2" result="blur" />
+          <radialGradient id={`pedestalGlow_${uid}`} cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stopColor="#38BDF8" stopOpacity="0.65" />
+            <stop offset="65%" stopColor="#0EA5E9" stopOpacity="0.22" />
+            <stop offset="100%" stopColor="#0284C7" stopOpacity="0" />
+          </radialGradient>
+
+          <filter id={`glowEffect_${uid}`} x="-35%" y="-35%" width="170%" height="170%">
+            <feGaussianBlur stdDeviation="4" result="blur" />
             <feComposite in="SourceGraphic" in2="blur" operator="over" />
+          </filter>
+          <filter id={`softAO_${uid}`} x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="4" stdDeviation="3.5" floodColor="#0F172A" floodOpacity="0.22" />
           </filter>
         </defs>
 
-        {/* 0. AURA LAYER (Behind character) */}
+        {/* 0. AURA LAYER (Behind character, soft luminescent glow) */}
         {showAura && <AvatarAuraLayer auraId={auraId} animated={animated} uid={uid} />}
 
-        {/* Soft Ground Contact Shadow */}
-        <ellipse cx="150" cy="316" rx="76" ry="13" fill={`url(#groundShadow_${uid})`} />
-
-        {/* FLOATING WRAPPER FOR CHARACTER + VEHICLE */}
-        <g className={animated && isFloatingVehicle ? 'studio-float' : ''}>
-          {/* 1. VEHICLE / BASE (Bottom Layer) */}
-          {showVehicle && <AvatarVehicleLayer vehicleId={config.vehicleId} uid={uid} />}
-
-          {/* 2. CHIBI LEGS & CHUNKY SNEAKERS */}
-          <g id="legs-layer">
-            {/* Legs / Socks & Trousers */}
-            <rect x="119" y="236" width="21" height="58" rx="9" fill={palette.pants} stroke="#1E293B" strokeWidth="1.8" />
-            <rect x="160" y="236" width="21" height="58" rx="9" fill={palette.pants} stroke="#1E293B" strokeWidth="1.8" />
-            {/* Knee highlight sheen */}
-            <rect x="123" y="242" width="6" height="44" rx="3" fill="#FFFFFF" opacity="0.12" />
-            <rect x="164" y="242" width="6" height="44" rx="3" fill="#FFFFFF" opacity="0.12" />
-            {/* Skirt flare for female student styles */}
-            {isGirlSkirt && (
-              <g>
-                <path
-                  d="M111 236 L189 236 L196 266 Q150 272 104 266 Z"
-                  fill={config.outfitId === 'outfit_uniform' ? '#1E3A8A' : palette.pants}
-                  stroke="#0F172A"
-                  strokeWidth="1.8"
-                />
-                <line x1="130" y1="240" x2="126" y2="265" stroke="#FFFFFF" strokeOpacity="0.22" strokeWidth="2" />
-                <line x1="150" y1="240" x2="150" y2="267" stroke="#FFFFFF" strokeOpacity="0.22" strokeWidth="2" />
-                <line x1="170" y1="240" x2="174" y2="265" stroke="#FFFFFF" strokeOpacity="0.22" strokeWidth="2" />
-              </g>
-            )}
-
-            {/* Chunky 3D Cartoon Sneakers (hidden when wearing honeycomb sandals) */}
-            {config.vehicleId !== 'veh_honeycomb' && (
-              <g>
-                {/* Left Sneaker */}
-                <ellipse cx="127" cy="303" rx="18" ry="8" fill="#F8FAFC" stroke="#1E293B" strokeWidth="1.8" />
-                <path
-                  d="M111 299 Q115 285 130 286 Q142 287 143 299 Z"
-                  fill={palette.shoe}
-                  stroke="#1E293B"
-                  strokeWidth="1.8"
-                />
-                <ellipse cx="121" cy="297" rx="6" ry="3.5" fill="#FFFFFF" opacity="0.9" />
-                <line x1="126" y1="289" x2="133" y2="291" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" />
-                <line x1="125" y1="293" x2="133" y2="295" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" />
-
-                {/* Right Sneaker */}
-                <ellipse cx="173" cy="303" rx="18" ry="8" fill="#F8FAFC" stroke="#1E293B" strokeWidth="1.8" />
-                <path
-                  d="M157 299 Q158 287 170 286 Q185 285 189 299 Z"
-                  fill={palette.shoe}
-                  stroke="#1E293B"
-                  strokeWidth="1.8"
-                />
-                <ellipse cx="179" cy="297" rx="6" ry="3.5" fill="#FFFFFF" opacity="0.9" />
-                <line x1="167" y1="291" x2="174" y2="289" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" />
-                <line x1="167" y1="295" x2="175" y2="293" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" />
-              </g>
-            )}
+        {/* Optional Holographic Studio Pedestal matching 3D Character Customizer concept */}
+        {showPedestal ? (
+          <g transform="translate(160 326)">
+            <ellipse cx="0" cy="4" rx="108" ry="22" fill={`url(#pedestalGlow_${uid})`} />
+            <ellipse
+              cx="0"
+              cy="2"
+              rx="86"
+              ry="15"
+              fill="#0EA5E9"
+              fillOpacity="0.16"
+              stroke="#38BDF8"
+              strokeWidth="2.5"
+            />
+            <ellipse
+              cx="0"
+              cy="0"
+              rx="66"
+              ry="10"
+              fill="#E0F2FE"
+              fillOpacity="0.38"
+              stroke="#BAE6FD"
+              strokeWidth="1.5"
+            />
+            <ellipse cx="0" cy="0" rx="52" ry="7" fill={`url(#groundShadow_${uid})`} />
           </g>
+        ) : (
+          <ellipse cx="160" cy="326" rx="82" ry="14" fill={`url(#groundShadow_${uid})`} />
+        )}
 
-          {/* BREATHING TORSO + HEAD + ARMS + HANDHELD + PHONE + TECH */}
-          <g className={animated ? 'studio-breathe' : ''}>
-            {/* 3. OUTFIT / TORSO */}
-            <AvatarOutfitLayer outfitId={config.outfitId} uid={uid} />
+        {/* FACING + FLOATING WRAPPER FOR CHARACTER + VEHICLE */}
+        <g
+          transform={facing === -1 ? 'translate(320 0) scale(-1 1)' : undefined}
+        >
+          <g className={animated && isFloatingVehicle ? 'studio-float' : ''}>
+            {/* 1. VEHICLE / BASE (Bottom Layer) */}
+            {showVehicle && <AvatarVehicleLayer vehicleId={config.vehicleId} uid={uid} />}
 
-            {/* 4. PLUMP CARTOON ARMS, SLEEVES & HANDS */}
-            <g id="arms-layer">
-              {/* Left Arm (Sleeve + Forearm + Chibi Hand) */}
-              <path
-                d="M107 166 Q88 186 89 212"
-                stroke={skin}
-                strokeWidth="16"
-                strokeLinecap="round"
-                fill="none"
-              />
-              <path
-                d="M107 166 Q91 180 91 196"
-                stroke={palette.sleeve}
-                strokeWidth="19"
-                strokeLinecap="round"
-                fill="none"
-              />
-              <circle cx="91" cy="197" r="9.5" fill="none" stroke={palette.cuff} strokeWidth="3.5" opacity="0.95" />
-              <circle cx="89" cy="214" r="9.5" fill={skin} stroke="#B45309" strokeOpacity="0.28" strokeWidth="1.4" />
-              <circle cx="89" cy="214" r="9.5" fill={`url(#skinShading_${uid})`} />
+            {/* 2. SCULPTED CHIBI LEGS, SHORTS/SKIRT & 3D TOY SNEAKERS */}
+            <g id="legs-layer">
+              {/* Upper legs / shorts / sculpted trousers */}
+              {isArmored ? (
+                <>
+                  {/* Full sculpted armored/sport pants */}
+                  <path
+                    d="M127 240 Q124 268 128 292 L152 292 Q154 266 155 244 Z"
+                    fill={`url(#pantsGrad_${uid})`}
+                  />
+                  <path
+                    d="M193 240 Q196 268 192 292 L168 292 Q166 266 165 244 Z"
+                    fill={`url(#pantsGrad_${uid})`}
+                  />
+                  {/* Sculpted 3D knee pads */}
+                  <rect x="128" y="262" width="22" height="12" rx="6" fill={palette.cuff} />
+                  <rect x="170" y="262" width="22" height="12" rx="6" fill={palette.cuff} />
+                  <rect x="131" y="264" width="12" height="4" rx="2" fill="#FFFFFF" opacity="0.45" />
+                  <rect x="173" y="264" width="12" height="4" rx="2" fill="#FFFFFF" opacity="0.45" />
+                </>
+              ) : (
+                <>
+                  {/* Skin lower legs + cute ribbed white socks */}
+                  <path d="M131 264 L149 264 L148 294 L132 294 Z" fill={skin} />
+                  <path d="M131 264 L149 264 L148 294 L132 294 Z" fill={`url(#skinShading_${uid})`} />
+                  <path d="M171 264 L189 264 L188 294 L172 294 Z" fill={skin} />
+                  <path d="M171 264 L189 264 L188 294 L172 294 Z" fill={`url(#skinShading_${uid})`} />
 
-              {/* Right Arm (Sleeve + Forearm + Chibi Hand) */}
-              <path
-                d="M193 166 Q212 186 211 212"
-                stroke={skin}
-                strokeWidth="16"
-                strokeLinecap="round"
-                fill="none"
-              />
-              <path
-                d="M193 166 Q209 180 209 196"
-                stroke={palette.sleeve}
-                strokeWidth="19"
-                strokeLinecap="round"
-                fill="none"
-              />
-              <circle cx="209" cy="197" r="9.5" fill="none" stroke={palette.cuff} strokeWidth="3.5" opacity="0.95" />
-              <circle cx="211" cy="214" r="9.5" fill={skin} stroke="#B45309" strokeOpacity="0.28" strokeWidth="1.4" />
-              <circle cx="211" cy="214" r="9.5" fill={`url(#skinShading_${uid})`} />
+                  {/* Crew Socks */}
+                  <rect x="130" y="282" width="20" height="14" rx="5" fill="#F8FAFC" />
+                  <rect x="170" y="282" width="20" height="14" rx="5" fill="#F8FAFC" />
+                  <line x1="132" y1="286" x2="148" y2="286" stroke={palette.cuff} strokeWidth="2.5" strokeLinecap="round" />
+                  <line x1="172" y1="286" x2="188" y2="286" stroke={palette.cuff} strokeWidth="2.5" strokeLinecap="round" />
+
+                  {/* Cuffed Denim/School Shorts (when not wearing skirt) */}
+                  {!isGirlSkirt && (
+                    <g>
+                      <path
+                        d="M123 236 L197 236 L196 270 Q178 273 166 268 L160 255 L154 268 Q142 273 124 270 Z"
+                        fill={`url(#pantsGrad_${uid})`}
+                      />
+                      {/* Cuffs */}
+                      <rect x="123" y="264" width="32" height="8" rx="4" fill="#FFFFFF" fillOpacity="0.22" />
+                      <rect x="165" y="264" width="32" height="8" rx="4" fill="#FFFFFF" fillOpacity="0.22" />
+                      {/* Shorts highlight */}
+                      <path d="M130 242 Q140 246 144 260" stroke="#FFFFFF" strokeOpacity="0.18" strokeWidth="3.5" strokeLinecap="round" fill="none" />
+                      <path d="M190 242 Q180 246 176 260" stroke="#FFFFFF" strokeOpacity="0.18" strokeWidth="3.5" strokeLinecap="round" fill="none" />
+                    </g>
+                  )}
+                </>
+              )}
+
+              {/* Pleated 3D Girl Skirt */}
+              {isGirlSkirt && (
+                <g filter={`url(#softAO_${uid})`}>
+                  <path
+                    d="M122 235 L198 235 L208 272 Q160 280 112 272 Z"
+                    fill={`url(#pantsGrad_${uid})`}
+                  />
+                  {/* Soft pleat ridges */}
+                  <path d="M138 238 L131 273" stroke="#0F172A" strokeOpacity="0.2" strokeWidth="2.5" strokeLinecap="round" />
+                  <path d="M160 238 L160 275" stroke="#0F172A" strokeOpacity="0.2" strokeWidth="2.5" strokeLinecap="round" />
+                  <path d="M182 238 L189 273" stroke="#0F172A" strokeOpacity="0.2" strokeWidth="2.5" strokeLinecap="round" />
+                  <path d="M122 267 Q160 275 198 267" stroke="#FFFFFF" strokeOpacity="0.35" strokeWidth="2.5" fill="none" />
+                </g>
+              )}
+
+              {/* Chunky 3D Toy Sneakers / Boots (hidden when wearing honeycomb sandals) */}
+              {config.vehicleId !== 'veh_honeycomb' && (
+                <g filter={`url(#softAO_${uid})`}>
+                  {/* Left Sneaker */}
+                  <g transform="translate(-2 0)">
+                    {/* Thick rubber midsole */}
+                    <path d="M114 307 Q114 318 136 318 Q156 318 156 307 Q156 301 135 301 Q114 301 114 307 Z" fill="#F8FAFC" />
+                    <path d="M115 312 Q135 317 155 312" stroke="#CBD5E1" strokeWidth="2.5" fill="none" />
+                    {/* Sculpted sneaker upper */}
+                    <path
+                      d="M116 305 Q116 287 136 287 Q152 287 154 305 Z"
+                      fill={palette.shoe}
+                    />
+                    <path
+                      d="M116 305 Q116 287 136 287 Q152 287 154 305 Z"
+                      fill={`url(#clothShade_${uid})`}
+                    />
+                    {/* Glossy toe cap */}
+                    <ellipse cx="126" cy="303" rx="9" ry="5" fill={palette.shoeAccent} opacity="0.92" />
+                    {/* Laces */}
+                    <line x1="132" y1="291" x2="142" y2="293" stroke="#FFFFFF" strokeWidth="2.4" strokeLinecap="round" />
+                    <line x1="130" y1="296" x2="141" y2="298" stroke="#FFFFFF" strokeWidth="2.4" strokeLinecap="round" />
+                  </g>
+
+                  {/* Right Sneaker */}
+                  <g transform="translate(2 0)">
+                    <path d="M164 307 Q164 318 184 318 Q206 318 206 307 Q206 301 185 301 Q164 301 164 307 Z" fill="#F8FAFC" />
+                    <path d="M165 312 Q185 317 205 312" stroke="#CBD5E1" strokeWidth="2.5" fill="none" />
+                    <path
+                      d="M166 305 Q168 287 184 287 Q204 287 204 305 Z"
+                      fill={palette.shoe}
+                    />
+                    <path
+                      d="M166 305 Q168 287 184 287 Q204 287 204 305 Z"
+                      fill={`url(#clothShade_${uid})`}
+                    />
+                    <ellipse cx="194" cy="303" rx="9" ry="5" fill={palette.shoeAccent} opacity="0.92" />
+                    <line x1="178" y1="293" x2="188" y2="291" stroke="#FFFFFF" strokeWidth="2.4" strokeLinecap="round" />
+                    <line x1="179" y1="298" x2="190" y2="296" stroke="#FFFFFF" strokeWidth="2.4" strokeLinecap="round" />
+                  </g>
+                </g>
+              )}
             </g>
 
-            {/* 5 & 6. HEAD, EYES, HAIR & HEADGEAR */}
-            <AvatarHeadLayer config={config} skin={skin} hair={hair} animated={animated} uid={uid} />
+            {/* BREATHING TORSO + HEAD + ARMS + HANDHELD + PHONE + TECH */}
+            <g className={animated ? 'studio-breathe' : ''}>
+              {/* 3. OUTFIT / TORSO */}
+              <AvatarOutfitLayer outfitId={config.outfitId} uid={uid} />
 
-            {/* 7, 8 & 9. HANDHELD, PHONE & TECH ACCESSORIES */}
-            <AvatarAccessoriesLayer config={config} showTech={showTech} animated={animated} uid={uid} />
+              {/* 4. SCULPTED CHIBI ARMS, PUFFY SLEEVES & PLUMP HANDS */}
+              <g id="arms-layer" filter={`url(#softAO_${uid})`}>
+                {/* Left Arm (cheerful outward slant) */}
+                <g>
+                  {/* Forearm skin */}
+                  <path
+                    d="M107 195 Q99 208 98 222 Q105 225 112 221 Q115 208 119 198 Z"
+                    fill={skin}
+                  />
+                  <path
+                    d="M107 195 Q99 208 98 222 Q105 225 112 221 Q115 208 119 198 Z"
+                    fill={`url(#skinShading_${uid})`}
+                  />
+                  {/* Sculpted Sleeve */}
+                  <path
+                    d="M123 171 Q105 174 99 198 Q108 205 120 202 Q124 188 127 177 Z"
+                    fill={`url(#sleeveGrad_${uid})`}
+                  />
+                  <ellipse cx="109.5" cy="200" rx="10.5" ry="4" fill={palette.cuff} transform="rotate(14 109.5 200)" />
+                  {/* Chubby hand + thumb */}
+                  <circle cx="104" cy="224" r="10.5" fill={skin} />
+                  <circle cx="104" cy="224" r="10.5" fill={`url(#skinShading_${uid})`} />
+                  <ellipse cx="111.5" cy="220" rx="4.5" ry="3.5" fill={skin} transform="rotate(-25 111.5 220)" />
+                </g>
+
+                {/* Right Arm (slightly raised / friendly wave-ready angle) */}
+                <g>
+                  <path
+                    d="M213 195 Q221 208 222 222 Q215 225 208 221 Q205 208 201 198 Z"
+                    fill={skin}
+                  />
+                  <path
+                    d="M213 195 Q221 208 222 222 Q215 225 208 221 Q205 208 201 198 Z"
+                    fill={`url(#skinShading_${uid})`}
+                  />
+                  <path
+                    d="M197 171 Q215 174 221 198 Q212 205 200 202 Q196 188 193 177 Z"
+                    fill={`url(#sleeveGrad_${uid})`}
+                  />
+                  <ellipse cx="210.5" cy="200" rx="10.5" ry="4" fill={palette.cuff} transform="rotate(-14 210.5 200)" />
+                  <circle cx="216" cy="224" r="10.5" fill={skin} />
+                  <circle cx="216" cy="224" r="10.5" fill={`url(#skinShading_${uid})`} />
+                  <ellipse cx="208.5" cy="220" rx="4.5" ry="3.5" fill={skin} transform="rotate(25 208.5 220)" />
+                </g>
+              </g>
+
+              {/* 5 & 6. GIANT EXPRESSIVE PIXAR-CHIBI HEAD, EYES, HAIR & HEADGEAR */}
+              <AvatarHeadLayer config={config} skin={skin} hair={hair} animated={animated} uid={uid} />
+
+              {/* 7, 8 & 9. HANDHELD, PHONE & TECH ACCESSORIES */}
+              <AvatarAccessoriesLayer config={config} showTech={showTech} animated={animated} uid={uid} />
+            </g>
           </g>
         </g>
 

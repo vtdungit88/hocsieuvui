@@ -13,114 +13,110 @@ export const AvatarAuraLayer: React.FC<AuraLayerProps> = ({ auraId, animated, ui
   return (
     <g id="aura-layer">
       {auraId === 'aura_sparkle' && (
-        <g className={animated ? 'studio-aura-spin' : ''}>
-          <circle cx="150" cy="186" r="104" fill="none" stroke="#FACC15" strokeWidth="2.5" strokeDasharray="8 10" opacity="0.75" />
-          <circle cx="150" cy="186" r="88" fill="none" stroke="#FEF08A" strokeWidth="1.5" opacity="0.45" />
-          <polygon points="150,70 155,83 168,83 157,91 161,104 150,96 139,104 143,91 132,83 145,83" fill="#FDE047" stroke="#D97706" strokeWidth="1" />
-          <circle cx="56" cy="184" r="5" fill="#FEF08A" />
-          <circle cx="244" cy="184" r="5" fill="#FEF08A" />
-          <circle cx="90" cy="272" r="4" fill="#FACC15" />
-          <circle cx="210" cy="272" r="4" fill="#FACC15" />
+        <g className={animated ? 'studio-aura-spin' : ''} filter={`url(#glowEffect_${uid})`}>
+          <circle cx="160" cy="190" r="112" fill="none" stroke="#FACC15" strokeWidth="3" strokeDasharray="8 11" opacity="0.82" />
+          <circle cx="160" cy="190" r="95" fill="none" stroke="#FEF08A" strokeWidth="2" opacity="0.48" />
+          <polygon points="160,64 165,78 179,78 168,86 172,100 160,92 148,100 152,86 141,78 155,78" fill="#FDE047" />
+          <circle cx="56" cy="188" r="6" fill="#FEF08A" />
+          <circle cx="264" cy="188" r="6" fill="#FEF08A" />
+          <circle cx="94" cy="284" r="4.5" fill="#FACC15" />
+          <circle cx="226" cy="284" r="4.5" fill="#FACC15" />
         </g>
       )}
 
       {auraId === 'aura_footsteps' && (
-        <g className={animated ? 'studio-aura-pulse' : ''}>
-          <ellipse cx="150" cy="312" rx="96" ry="20" fill="#38BDF8" fillOpacity="0.12" stroke="#38BDF8" strokeWidth="2.8" strokeDasharray="8 6" />
-          <ellipse cx="150" cy="312" rx="70" ry="13" fill="none" stroke="#FACC15" strokeWidth="2.4" opacity="0.85" />
-          <polygon points="80,305 83,310 89,310 84,313 86,319 80,315 74,319 76,313 71,310 77,310" fill="#FDE047" />
-          <polygon points="220,305 223,310 229,310 224,313 226,319 220,315 214,319 216,313 211,310 217,310" fill="#FDE047" />
+        <g className={animated ? 'studio-aura-pulse' : ''} filter={`url(#glowEffect_${uid})`}>
+          <ellipse cx="160" cy="322" rx="104" ry="21" fill="#38BDF8" fillOpacity="0.16" stroke="#38BDF8" strokeWidth="3" strokeDasharray="9 6" />
+          <ellipse cx="160" cy="322" rx="76" ry="14" fill="none" stroke="#FACC15" strokeWidth="2.8" opacity="0.9" />
+          <polygon points="82,315 85,321 91,321 86,324 88,330 82,326 76,330 78,324 73,321 79,321" fill="#FDE047" />
+          <polygon points="238,315 241,321 247,321 242,324 244,330 238,326 232,330 234,324 229,321 235,321" fill="#FDE047" />
         </g>
       )}
 
       {auraId === 'aura_rainbow' && (
-        <g className={animated ? 'studio-aura-pulse' : ''}>
-          <path d="M46 244 A108 108 0 0 1 254 244" fill="none" stroke="#EF4444" strokeWidth="5.5" strokeLinecap="round" opacity="0.78" />
-          <path d="M52 244 A102 102 0 0 1 248 244" fill="none" stroke="#F59E0B" strokeWidth="5.5" strokeLinecap="round" opacity="0.78" />
-          <path d="M58 244 A96 96 0 0 1 242 244" fill="none" stroke="#FACC15" strokeWidth="5.5" strokeLinecap="round" opacity="0.78" />
-          <path d="M64 244 A90 90 0 0 1 236 244" fill="none" stroke="#22C55E" strokeWidth="5.5" strokeLinecap="round" opacity="0.78" />
-          <path d="M70 244 A84 84 0 0 1 230 244" fill="none" stroke="#38BDF8" strokeWidth="5.5" strokeLinecap="round" opacity="0.78" />
-          {/* Cute puffy rainbow clouds */}
-          <circle cx="54" cy="244" r="14" fill="#FFFFFF" />
-          <circle cx="68" cy="240" r="11" fill="#FFFFFF" />
-          <circle cx="246" cy="244" r="14" fill="#FFFFFF" />
-          <circle cx="232" cy="240" r="11" fill="#FFFFFF" />
+        <g className={animated ? 'studio-aura-pulse' : ''} filter={`url(#glowEffect_${uid})`}>
+          <path d="M44 252 A116 116 0 0 1 276 252" fill="none" stroke="#EF4444" strokeWidth="6" strokeLinecap="round" opacity="0.82" />
+          <path d="M50 252 A110 110 0 0 1 270 252" fill="none" stroke="#F59E0B" strokeWidth="6" strokeLinecap="round" opacity="0.82" />
+          <path d="M56 252 A104 104 0 0 1 264 252" fill="none" stroke="#FACC15" strokeWidth="6" strokeLinecap="round" opacity="0.82" />
+          <path d="M62 252 A98 98 0 0 1 258 252" fill="none" stroke="#22C55E" strokeWidth="6" strokeLinecap="round" opacity="0.82" />
+          <path d="M68 252 A92 92 0 0 1 252 252" fill="none" stroke="#38BDF8" strokeWidth="6" strokeLinecap="round" opacity="0.82" />
+          {/* Fluffy glowing rainbow clouds */}
+          <circle cx="52" cy="252" r="15" fill="#FFFFFF" />
+          <circle cx="67" cy="248" r="12" fill="#FFFFFF" />
+          <circle cx="268" cy="252" r="15" fill="#FFFFFF" />
+          <circle cx="253" cy="248" r="12" fill="#FFFFFF" />
         </g>
       )}
 
       {auraId === 'aura_electric' && (
         <g className={animated ? 'studio-aura-pulse' : ''} filter={`url(#glowEffect_${uid})`}>
-          <ellipse cx="150" cy="192" rx="112" ry="64" fill="none" stroke="#38BDF8" strokeWidth="3" transform="rotate(-18 150 192)" opacity="0.8" />
-          <ellipse cx="150" cy="192" rx="112" ry="64" fill="none" stroke="#0EA5E9" strokeWidth="2.4" transform="rotate(18 150 192)" opacity="0.7" />
-          <circle cx="52" cy="156" r="6" fill="#7DD3FC" />
-          <circle cx="248" cy="228" r="6" fill="#7DD3FC" />
-          <circle cx="150" cy="256" r="4.5" fill="#BAE6FD" />
+          <ellipse cx="160" cy="196" rx="120" ry="66" fill="none" stroke="#38BDF8" strokeWidth="3.5" transform="rotate(-18 160 196)" opacity="0.85" />
+          <ellipse cx="160" cy="196" rx="120" ry="66" fill="none" stroke="#0EA5E9" strokeWidth="2.8" transform="rotate(18 160 196)" opacity="0.75" />
+          <circle cx="54" cy="158" r="6.5" fill="#7DD3FC" />
+          <circle cx="266" cy="234" r="6.5" fill="#7DD3FC" />
+          <circle cx="160" cy="264" r="5" fill="#BAE6FD" />
         </g>
       )}
 
       {auraId === 'aura_ice' && (
         <g className={animated ? 'studio-aura-spin' : ''} filter={`url(#glowEffect_${uid})`}>
-          <circle cx="150" cy="186" r="106" fill="#E0F2FE" fillOpacity="0.08" stroke="#BAE6FD" strokeWidth="2.5" strokeDasharray="5 8" />
-          <polygon points="150,66 155,79 169,79 158,87 162,100 150,92 138,100 142,87 131,79 145,79" fill="#E0F2FE" stroke="#38BDF8" strokeWidth="1" />
-          <polygon points="52,184 60,194 52,204 44,194" fill="#7DD3FC" />
-          <polygon points="248,184 256,194 248,204 240,194" fill="#7DD3FC" />
-          <polygon points="86,272 93,280 86,288 79,280" fill="#BAE6FD" />
-          <polygon points="214,272 221,280 214,288 207,280" fill="#BAE6FD" />
+          <circle cx="160" cy="190" r="112" fill="#E0F2FE" fillOpacity="0.1" stroke="#BAE6FD" strokeWidth="3" strokeDasharray="6 9" />
+          <polygon points="160,62 165,76 179,76 168,85 172,99 160,91 148,99 152,85 141,76 155,76" fill="#E0F2FE" />
+          <polygon points="52,188 61,199 52,210 43,199" fill="#7DD3FC" />
+          <polygon points="268,188 277,199 268,210 259,199" fill="#7DD3FC" />
+          <polygon points="90,282 98,291 90,300 82,291" fill="#BAE6FD" />
+          <polygon points="230,282 238,291 230,300 222,291" fill="#BAE6FD" />
         </g>
       )}
 
       {auraId === 'aura_lightning' && (
         <g className={animated ? 'studio-aura-pulse' : ''} filter={`url(#glowEffect_${uid})`}>
-          <circle cx="150" cy="188" r="106" fill="none" stroke="#FACC15" strokeWidth="2.5" strokeDasharray="12 6" opacity="0.75" />
-          <polyline points="58,120 40,156 60,156 44,200" fill="none" stroke="#FDE047" strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round" />
-          <polyline points="242,120 260,156 240,156 256,200" fill="none" stroke="#38BDF8" strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round" />
-          <polyline points="145,54 158,69 146,75 159,90" fill="none" stroke="#FACC15" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
+          <circle cx="160" cy="190" r="112" fill="none" stroke="#FACC15" strokeWidth="3" strokeDasharray="13 7" opacity="0.78" />
+          <polyline points="56,120 38,158 58,158 42,204" fill="none" stroke="#FDE047" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+          <polyline points="264,120 282,158 262,158 278,204" fill="none" stroke="#38BDF8" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+          <polyline points="154,48 168,64 156,71 170,87" fill="none" stroke="#FACC15" strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round" />
         </g>
       )}
 
       {auraId === 'aura_flame' && (
         <g className={animated ? 'studio-aura-pulse' : ''} filter={`url(#glowEffect_${uid})`}>
-          <circle cx="150" cy="188" r="108" fill="none" stroke={`url(#flameAura_${uid})`} strokeWidth="4.5" opacity="0.82" />
-          <circle cx="150" cy="188" r="95" fill="none" stroke="#FEF08A" strokeWidth="2" strokeDasharray="10 6" opacity="0.85" />
-          <path d="M52 216 Q36 172 68 136 Q56 176 70 206 Z" fill="#F59E0B" opacity="0.88" />
-          <path d="M248 216 Q264 172 232 136 Q244 176 230 206 Z" fill="#F59E0B" opacity="0.88" />
+          <circle cx="160" cy="192" r="114" fill="none" stroke={`url(#flameAura_${uid})`} strokeWidth="5.5" opacity="0.86" />
+          <circle cx="160" cy="192" r="100" fill="none" stroke="#FEF08A" strokeWidth="2.5" strokeDasharray="11 7" opacity="0.88" />
+          <path d="M50 224 Q32 174 68 134 Q54 178 70 212 Z" fill="#F59E0B" opacity="0.9" />
+          <path d="M270 224 Q288 174 252 134 Q266 178 250 212 Z" fill="#F59E0B" opacity="0.9" />
         </g>
       )}
 
       {auraId === 'aura_wings_angel' && (
         <g className={animated ? 'studio-float' : ''} filter={`url(#glowEffect_${uid})`}>
-          {/* Overhead golden halo */}
-          <ellipse cx="150" cy="48" rx="34" ry="8" fill="none" stroke={`url(#goldMetal_${uid})`} strokeWidth="4" />
-          {/* Luminous feathered left wing */}
+          {/* Overhead luminous golden halo */}
+          <ellipse cx="160" cy="26" rx="36" ry="8" fill="none" stroke={`url(#goldMetal_${uid})`} strokeWidth="4.5" />
+          {/* Luminous feathered left wing (zero dark outline, soft white + cyan/gold glow!) */}
           <path
-            d="M126 178 Q64 98 20 136 Q38 164 26 184 Q48 192 38 212 Q78 212 120 226 Z"
+            d="M128 182 Q58 92 14 138 Q32 170 20 192 Q46 202 36 222 Q80 220 124 234 Z"
             fill="#FFFFFF"
-            stroke="#FDE047"
-            strokeWidth="2.8"
-            strokeLinejoin="round"
+            fillOpacity="0.96"
           />
-          <path d="M114 190 Q62 140 42 164" fill="none" stroke="#BAE6FD" strokeWidth="2.5" strokeLinecap="round" />
-          <path d="M110 204 Q66 174 52 192" fill="none" stroke="#FEF08A" strokeWidth="2.2" strokeLinecap="round" />
+          <path d="M116 196 Q60 142 38 168" fill="none" stroke="#BAE6FD" strokeWidth="3.5" strokeLinecap="round" />
+          <path d="M112 212 Q66 180 48 198" fill="none" stroke="#FEF08A" strokeWidth="3" strokeLinecap="round" />
           {/* Luminous feathered right wing */}
           <path
-            d="M174 178 Q236 98 280 136 Q262 164 274 184 Q252 192 262 212 Q222 212 180 226 Z"
+            d="M192 182 Q262 92 306 138 Q288 170 300 192 Q274 202 284 222 Q240 220 196 234 Z"
             fill="#FFFFFF"
-            stroke="#FDE047"
-            strokeWidth="2.8"
-            strokeLinejoin="round"
+            fillOpacity="0.96"
           />
-          <path d="M186 190 Q238 140 258 164" fill="none" stroke="#BAE6FD" strokeWidth="2.5" strokeLinecap="round" />
-          <path d="M190 204 Q234 174 248 192" fill="none" stroke="#FEF08A" strokeWidth="2.2" strokeLinecap="round" />
+          <path d="M204 196 Q260 142 282 168" fill="none" stroke="#BAE6FD" strokeWidth="3.5" strokeLinecap="round" />
+          <path d="M208 212 Q254 180 272 198" fill="none" stroke="#FEF08A" strokeWidth="3" strokeLinecap="round" />
         </g>
       )}
 
       {auraId === 'aura_wings_cyber' && (
         <g className={animated ? 'studio-aura-pulse' : ''} filter={`url(#glowEffect_${uid})`}>
-          <polygon points="122,182 22,118 44,172 18,204 116,226" fill="#0EA5E9" fillOpacity="0.68" stroke="#BAE6FD" strokeWidth="2.2" />
-          <polygon points="108,188 48,148 62,194" fill="#FACC15" opacity="0.88" />
-          <polygon points="178,182 278,118 256,172 282,204 184,226" fill="#0EA5E9" fillOpacity="0.68" stroke="#BAE6FD" strokeWidth="2.2" />
-          <polygon points="192,188 252,148 238,194" fill="#FACC15" opacity="0.88" />
-          <ellipse cx="150" cy="312" rx="88" ry="16" fill="#0EA5E9" fillOpacity="0.18" stroke="#38BDF8" strokeWidth="2" />
+          <polygon points="124,186 16,114 40,174 12,210 118,234" fill="#0EA5E9" fillOpacity="0.72" />
+          <polygon points="110,192 46,148 62,198" fill="#FACC15" opacity="0.9" />
+          <polygon points="196,186 304,114 280,174 308,210 202,234" fill="#0EA5E9" fillOpacity="0.72" />
+          <polygon points="210,192 274,148 258,198" fill="#FACC15" opacity="0.9" />
+          <ellipse cx="160" cy="322" rx="94" ry="17" fill="#0EA5E9" fillOpacity="0.24" stroke="#38BDF8" strokeWidth="2.5" />
         </g>
       )}
     </g>
@@ -129,164 +125,177 @@ export const AvatarAuraLayer: React.FC<AuraLayerProps> = ({ auraId, animated, ui
 
 export const AvatarVehicleLayer: React.FC<{ vehicleId: string; uid: string }> = ({ vehicleId, uid }) => {
   return (
-    <g id="vehicle-layer" className="transition-all duration-300">
+    <g id="vehicle-layer" className="transition-all duration-300" filter={`url(#softAO_${uid})`}>
       {vehicleId === 'veh_honeycomb' && (
         <g id="honeycomb_sandals">
-          <ellipse cx="127" cy="306" rx="18" ry="7.5" fill="#FACC15" stroke="#B45309" strokeWidth="2" />
-          <ellipse cx="127" cy="305" rx="13" ry="4" fill="#FEF08A" />
-          <ellipse cx="173" cy="306" rx="18" ry="7.5" fill="#FACC15" stroke="#B45309" strokeWidth="2" />
-          <ellipse cx="173" cy="305" rx="13" ry="4" fill="#FEF08A" />
+          <ellipse cx="136" cy="312" rx="20" ry="8.5" fill={`url(#goldMetal_${uid})`} />
+          <ellipse cx="136" cy="310.5" rx="14" ry="4.5" fill="#FEF08A" />
+          <ellipse cx="184" cy="312" rx="20" ry="8.5" fill={`url(#goldMetal_${uid})`} />
+          <ellipse cx="184" cy="310.5" rx="14" ry="4.5" fill="#FEF08A" />
         </g>
       )}
 
       {vehicleId === 'veh_skateboard' && (
         <g id="veh_skateboard">
-          <rect x="82" y="298" width="136" height="13" rx="6.5" fill="#F97316" stroke="#1E293B" strokeWidth="2.4" />
-          <rect x="104" y="300.5" width="92" height="4" rx="2" fill="#FDE047" opacity="0.85" />
-          <circle cx="108" cy="315" r="7.5" fill="#38BDF8" stroke="#0F172A" strokeWidth="2" />
-          <circle cx="192" cy="315" r="7.5" fill="#38BDF8" stroke="#0F172A" strokeWidth="2" />
+          <rect x="86" y="305" width="148" height="14" rx="7" fill="#F97316" />
+          <rect x="110" y="308" width="100" height="4.5" rx="2.2" fill="#FDE047" opacity="0.9" />
+          <circle cx="114" cy="322" r="8" fill="#38BDF8" />
+          <circle cx="114" cy="322" r="3.5" fill="#FFFFFF" />
+          <circle cx="206" cy="322" r="8" fill="#38BDF8" />
+          <circle cx="206" cy="322" r="3.5" fill="#FFFFFF" />
         </g>
       )}
 
       {vehicleId === 'veh_bike_mini' && (
         <g id="bike_mini">
-          <circle cx="84" cy="295" r="24" fill="none" stroke="#475569" strokeWidth="3.5" />
-          <circle cx="84" cy="295" r="5" fill="#334155" />
-          <circle cx="216" cy="295" r="24" fill="none" stroke="#475569" strokeWidth="3.5" />
-          <circle cx="216" cy="295" r="5" fill="#334155" />
-          <path d="M84 295 L140 295 L180 258 L120 258 Z" fill="none" stroke="#0D9488" strokeWidth="5.5" strokeLinejoin="round" />
-          <path d="M140 295 L150 245" stroke="#0D9488" strokeWidth="5" />
-          <path d="M140 245 L165 245" stroke="#334155" strokeWidth="6" strokeLinecap="round" />
-          <path d="M180 258 L216 295" stroke="#0D9488" strokeWidth="4.5" />
-          <rect x="195" y="235" width="23" height="17" rx="4" fill="#FDE68A" stroke="#B45309" strokeWidth="2" />
-          <rect x="200" y="227" width="12" height="11" rx="2" fill="#3B82F6" />
+          <circle cx="92" cy="302" r="24" fill="none" stroke="#475569" strokeWidth="4.5" />
+          <circle cx="92" cy="302" r="5.5" fill="#334155" />
+          <circle cx="228" cy="302" r="24" fill="none" stroke="#475569" strokeWidth="4.5" />
+          <circle cx="228" cy="302" r="5.5" fill="#334155" />
+          <path d="M92 302 L148 302 L190 264 L128 264 Z" fill="none" stroke="#14B8A6" strokeWidth="6" strokeLinejoin="round" />
+          <path d="M148 302 L158 250" stroke="#14B8A6" strokeWidth="5.5" strokeLinecap="round" />
+          <path d="M148 250 L174 250" stroke="#334155" strokeWidth="6.5" strokeLinecap="round" />
+          <path d="M190 264 L228 302" stroke="#14B8A6" strokeWidth="5" strokeLinecap="round" />
+          <rect x="206" y="242" width="24" height="18" rx="6" fill="#FDE68A" />
+          <rect x="212" y="234" width="12" height="11" rx="3" fill="#3B82F6" />
         </g>
       )}
 
       {vehicleId === 'veh_scooter_pastel' && (
         <g id="scooter_pastel">
-          <circle cx="90" cy="298" r="17" fill="#334155" stroke="#CBD5E1" strokeWidth="3" />
-          <circle cx="210" cy="298" r="17" fill="#334155" stroke="#CBD5E1" strokeWidth="3" />
-          <path d="M78 288 Q108 260 132 288 L185 288 Q195 255 217 275 L222 296 L76 296 Z" fill="#6EE7B7" stroke="#059669" strokeWidth="2.4" />
-          <path d="M188 265 L196 236 L212 236" fill="none" stroke="#059669" strokeWidth="5" strokeLinecap="round" />
-          <circle cx="217" cy="248" r="5.5" fill="#FEF08A" stroke="#CA8A04" strokeWidth="1.5" />
+          <circle cx="96" cy="304" r="18" fill="#334155" />
+          <circle cx="96" cy="304" r="10" fill="#CBD5E1" />
+          <circle cx="224" cy="304" r="18" fill="#334155" />
+          <circle cx="224" cy="304" r="10" fill="#CBD5E1" />
+          <path d="M84 294 Q116 264 142 294 L196 294 Q208 260 230 282 L235 302 L82 302 Z" fill="#6EE7B7" />
+          <path d="M198 272 L208 242 L224 242" fill="none" stroke="#059669" strokeWidth="5.5" strokeLinecap="round" />
+          <circle cx="230" cy="254" r="6" fill="#FEF08A" />
         </g>
       )}
 
       {vehicleId === 'veh_mountain' && (
         <g id="bike_mountain">
-          <circle cx="75" cy="295" r="26" fill="none" stroke="#1E293B" strokeWidth="5.5" strokeDasharray="3 2" />
-          <circle cx="225" cy="295" r="26" fill="none" stroke="#1E293B" strokeWidth="5.5" strokeDasharray="3 2" />
-          <path d="M75 295 L135 295 L185 250 L125 250 Z" fill="none" stroke="#EF4444" strokeWidth="6" strokeLinejoin="round" />
-          <path d="M185 250 L225 295" stroke="#EF4444" strokeWidth="5" />
-          <path d="M175 235 L215 235" stroke="#0F172A" strokeWidth="6" strokeLinecap="round" />
+          <circle cx="84" cy="302" r="26" fill="none" stroke="#1E293B" strokeWidth="6" strokeDasharray="4 2" />
+          <circle cx="236" cy="302" r="26" fill="none" stroke="#1E293B" strokeWidth="6" strokeDasharray="4 2" />
+          <path d="M84 302 L144 302 L196 256 L134 256 Z" fill="none" stroke="#EF4444" strokeWidth="6.5" strokeLinejoin="round" />
+          <path d="M196 256 L236 302" stroke="#EF4444" strokeWidth="5.5" />
+          <path d="M186 242 L226 242" stroke="#0F172A" strokeWidth="6.5" strokeLinecap="round" />
         </g>
       )}
 
       {vehicleId === 'veh_ebike' && (
         <g id="bike_ebike">
-          <ellipse cx="150" cy="310" rx="90" ry="14" fill="#0284C7" opacity="0.22" />
-          <rect x="98" y="280" width="104" height="20" rx="9" fill="#F8FAFC" stroke="#0284C7" strokeWidth="3" />
-          <circle cx="95" cy="300" r="16" fill="#334155" stroke="#64748B" strokeWidth="4" />
-          <circle cx="205" cy="300" r="16" fill="#334155" stroke="#64748B" strokeWidth="4" />
-          <circle cx="220" cy="255" r="6" fill="#38BDF8" filter={`url(#glowEffect_${uid})`} />
+          <ellipse cx="160" cy="316" rx="94" ry="15" fill="#0284C7" opacity="0.22" />
+          <rect x="104" y="286" width="112" height="22" rx="11" fill="#F8FAFC" />
+          <rect x="114" y="292" width="92" height="6" rx="3" fill="#0EA5E9" />
+          <circle cx="102" cy="307" r="17" fill="#334155" />
+          <circle cx="102" cy="307" r="8" fill="#CBD5E1" />
+          <circle cx="218" cy="307" r="17" fill="#334155" />
+          <circle cx="218" cy="307" r="8" fill="#CBD5E1" />
+          <circle cx="232" cy="264" r="6.5" fill="#38BDF8" filter={`url(#glowEffect_${uid})`} />
         </g>
       )}
 
       {vehicleId === 'veh_jetpack' && (
         <g id="veh_jetpack" filter={`url(#glowEffect_${uid})`}>
-          <rect x="86" y="180" width="19" height="47" rx="8" fill={`url(#silverMetal_${uid})`} stroke="#0284C7" strokeWidth="2.2" />
-          <rect x="195" y="180" width="19" height="47" rx="8" fill={`url(#silverMetal_${uid})`} stroke="#0284C7" strokeWidth="2.2" />
-          <polygon points="88,227 103,227 95.5,260" fill="#F59E0B" />
-          <polygon points="197,227 212,227 204.5,260" fill="#F59E0B" />
-          <polygon points="92,227 100,227 95.5,248" fill="#FEF08A" />
-          <polygon points="201,227 209,227 204.5,248" fill="#FEF08A" />
+          <rect x="92" y="182" width="21" height="48" rx="9" fill={`url(#silverMetal_${uid})`} />
+          <rect x="207" y="182" width="21" height="48" rx="9" fill={`url(#silverMetal_${uid})`} />
+          <rect x="95" y="190" width="15" height="8" rx="4" fill="#0284C7" />
+          <rect x="210" y="190" width="15" height="8" rx="4" fill="#0284C7" />
+          <polygon points="94,230 111,230 102.5,264" fill="#F59E0B" />
+          <polygon points="209,230 226,230 217.5,264" fill="#F59E0B" />
+          <polygon points="98,230 107,230 102.5,250" fill="#FEF08A" />
+          <polygon points="213,230 222,230 217.5,250" fill="#FEF08A" />
         </g>
       )}
 
       {vehicleId === 'veh_supercar' && (
         <g id="veh_supercar">
-          <path d="M56 292 L78 265 L186 265 L238 284 L244 303 L56 303 Z" fill="#DC2626" stroke="#1E293B" strokeWidth="2.4" strokeLinejoin="round" />
-          <polygon points="56,273 78,265 72,282 52,282" fill="#FACC15" />
-          <path d="M96 269 L180 269 L198 282 L90 282 Z" fill="#BAE6FD" opacity="0.9" />
-          <rect x="80" y="287" width="142" height="4.5" rx="2" fill="#FACC15" />
-          <circle cx="95" cy="304" r="15" fill="#0F172A" stroke="#CBD5E1" strokeWidth="3" />
-          <circle cx="95" cy="304" r="6" fill={`url(#goldMetal_${uid})`} />
-          <circle cx="205" cy="304" r="15" fill="#0F172A" stroke="#CBD5E1" strokeWidth="3" />
-          <circle cx="205" cy="304" r="6" fill={`url(#goldMetal_${uid})`} />
+          <path d="M60 298 L84 270 L198 270 L252 290 L258 310 L60 310 Z" fill="#EF4444" />
+          <path d="M60 298 L84 270 L198 270 L252 290 L258 310 L60 310 Z" fill={`url(#clothShade_${uid})`} />
+          <polygon points="60,278 84,270 78,288 56,288" fill="#FACC15" />
+          <path d="M104 274 L192 274 L210 288 L98 288 Z" fill="#BAE6FD" opacity="0.92" />
+          <rect x="86" y="293" width="148" height="5" rx="2.5" fill="#FACC15" />
+          <circle cx="102" cy="311" r="16" fill="#0F172A" />
+          <circle cx="102" cy="311" r="8" fill={`url(#goldMetal_${uid})`} />
+          <circle cx="218" cy="311" r="16" fill="#0F172A" />
+          <circle cx="218" cy="311" r="8" fill={`url(#goldMetal_${uid})`} />
         </g>
       )}
 
       {vehicleId === 'veh_cyber_moto' && (
         <g id="veh_cyber_moto" filter={`url(#glowEffect_${uid})`}>
-          <circle cx="84" cy="296" r="22" fill="none" stroke="#0F172A" strokeWidth="7" />
-          <circle cx="84" cy="296" r="18" fill="none" stroke="#38BDF8" strokeWidth="2.8" />
-          <circle cx="216" cy="296" r="22" fill="none" stroke="#0F172A" strokeWidth="7" />
-          <circle cx="216" cy="296" r="18" fill="none" stroke="#38BDF8" strokeWidth="2.8" />
-          <path d="M84 294 L126 265 L194 267 L216 294 L160 296 Z" fill="#1E293B" stroke="#0EA5E9" strokeWidth="2.5" strokeLinejoin="round" />
-          <circle cx="222" cy="264" r="5.5" fill="#FEF08A" />
+          <circle cx="92" cy="303" r="23" fill="none" stroke="#0F172A" strokeWidth="8" />
+          <circle cx="92" cy="303" r="18" fill="none" stroke="#38BDF8" strokeWidth="3.2" />
+          <circle cx="228" cy="303" r="23" fill="none" stroke="#0F172A" strokeWidth="8" />
+          <circle cx="228" cy="303" r="18" fill="none" stroke="#38BDF8" strokeWidth="3.2" />
+          <path d="M92 301 L134 270 L206 272 L228 301 L170 303 Z" fill="#1E293B" />
+          <path d="M134 273 L206 275" stroke="#22D3EE" strokeWidth="3" strokeLinecap="round" />
+          <circle cx="234" cy="269" r="6" fill="#FEF08A" />
         </g>
       )}
 
       {vehicleId === 'veh_hoverboard' && (
         <g id="hoverboard" filter={`url(#glowEffect_${uid})`}>
-          <ellipse cx="150" cy="315" rx="76" ry="14" fill={`url(#hoverGrad_${uid})`} />
-          <ellipse cx="150" cy="315" rx="65" ry="8" fill="#0F172A" />
-          <ellipse cx="150" cy="328" rx="55" ry="6" fill="#38BDF8" opacity="0.65" />
-          <circle cx="104" cy="315" r="4.5" fill="#A5F3FC" />
-          <circle cx="196" cy="315" r="4.5" fill="#A5F3FC" />
+          <ellipse cx="160" cy="321" rx="80" ry="15" fill={`url(#hoverGrad_${uid})`} />
+          <ellipse cx="160" cy="321" rx="68" ry="8.5" fill="#0F172A" />
+          <ellipse cx="160" cy="334" rx="58" ry="6.5" fill="#38BDF8" opacity="0.65" />
+          <circle cx="110" cy="321" r="5" fill="#A5F3FC" />
+          <circle cx="210" cy="321" r="5" fill="#A5F3FC" />
         </g>
       )}
 
       {vehicleId === 'veh_cloud_nimbus' && (
         <g id="veh_cloud_nimbus" filter={`url(#glowEffect_${uid})`}>
-          <path d="M70 312 Q150 332 230 312" stroke="#F43F5E" strokeWidth="4.5" fill="none" opacity="0.75" />
-          <path d="M76 318 Q150 338 224 318" stroke="#38BDF8" strokeWidth="4.5" fill="none" opacity="0.75" />
-          <circle cx="96" cy="306" r="18" fill="#FFFFFF" />
-          <circle cx="126" cy="298" r="22" fill="#FEF08A" />
-          <circle cx="156" cy="296" r="24" fill="#FFFFFF" />
-          <circle cx="186" cy="300" r="20" fill="#FEF08A" />
-          <circle cx="208" cy="306" r="15" fill="#FFFFFF" />
+          <path d="M74 318 Q160 340 246 318" stroke="#F43F5E" strokeWidth="5" fill="none" opacity="0.78" />
+          <path d="M80 325 Q160 346 240 325" stroke="#38BDF8" strokeWidth="5" fill="none" opacity="0.78" />
+          <circle cx="102" cy="312" r="19" fill="#FFFFFF" />
+          <circle cx="134" cy="304" r="23" fill="#FEF08A" />
+          <circle cx="164" cy="302" r="25" fill="#FFFFFF" />
+          <circle cx="196" cy="306" r="21" fill="#FEF08A" />
+          <circle cx="220" cy="312" r="16" fill="#FFFFFF" />
         </g>
       )}
 
       {vehicleId === 'veh_spaceship' && (
         <g id="spaceship_pod" filter={`url(#glowEffect_${uid})`}>
-          <ellipse cx="150" cy="308" rx="84" ry="18" fill="#0F172A" stroke="#38BDF8" strokeWidth="2.5" />
-          <path d="M84 304 Q150 280 216 304 L206 320 Q150 328 94 320 Z" fill="#1E293B" stroke="#0EA5E9" strokeWidth="2" />
-          <ellipse cx="110" cy="322" rx="14" ry="5" fill="#F59E0B" />
-          <ellipse cx="190" cy="322" rx="14" ry="5" fill="#F59E0B" />
-          <circle cx="150" cy="306" r="6.5" fill="#38BDF8" />
+          <ellipse cx="160" cy="314" rx="88" ry="19" fill="#0F172A" />
+          <path d="M90 310 Q160 284 230 310 L220 326 Q160 335 100 326 Z" fill="#1E293B" />
+          <ellipse cx="116" cy="328" rx="15" ry="5.5" fill="#F59E0B" />
+          <ellipse cx="204" cy="328" rx="15" ry="5.5" fill="#F59E0B" />
+          <circle cx="160" cy="312" r="7" fill="#38BDF8" />
         </g>
       )}
 
       {vehicleId === 'veh_mecha_walker' && (
         <g id="veh_mecha_walker" filter={`url(#glowEffect_${uid})`}>
-          <rect x="92" y="256" width="24" height="54" rx="7" fill="#2563EB" stroke="#FACC15" strokeWidth="2" />
-          <rect x="184" y="256" width="24" height="54" rx="7" fill="#2563EB" stroke="#FACC15" strokeWidth="2" />
-          <rect x="86" y="302" width="36" height="14" rx="5" fill="#0F172A" stroke="#38BDF8" strokeWidth="1.5" />
-          <rect x="178" y="302" width="36" height="14" rx="5" fill="#0F172A" stroke="#38BDF8" strokeWidth="1.5" />
-          <rect x="112" y="260" width="76" height="24" rx="7" fill="#DC2626" stroke="#FACC15" strokeWidth="2" />
-          <circle cx="150" cy="272" r="7.5" fill="#38BDF8" />
+          <rect x="98" y="262" width="26" height="54" rx="9" fill="#2563EB" />
+          <rect x="196" y="262" width="26" height="54" rx="9" fill="#2563EB" />
+          <rect x="92" y="308" width="38" height="15" rx="6" fill="#0F172A" />
+          <rect x="190" y="308" width="38" height="15" rx="6" fill="#0F172A" />
+          <rect x="120" y="266" width="80" height="26" rx="9" fill="#EF4444" />
+          <circle cx="160" cy="279" r="8" fill="#38BDF8" />
         </g>
       )}
 
       {vehicleId === 'veh_magic_carpet' && (
         <g id="magic_carpet" filter={`url(#glowEffect_${uid})`}>
-          <path d="M58 305 Q150 284 242 305 Q210 326 150 326 Q90 326 58 305 Z" fill={`url(#carpetGrad_${uid})`} />
-          <path d="M68 307 Q150 292 232 307" stroke="#FEF08A" strokeWidth="2" strokeDasharray="4 3" fill="none" />
-          <circle cx="58" cy="305" r="4.5" fill="#F59E0B" />
-          <circle cx="242" cy="305" r="4.5" fill="#F59E0B" />
-          <text x="150" y="316" fill="#FEF08A" fontSize="11" fontWeight="bold" textAnchor="middle">1, 1, 2, 3, 5, 8, 13...</text>
+          <path d="M64 312 Q160 290 256 312 Q222 334 160 334 Q98 334 64 312 Z" fill={`url(#carpetGrad_${uid})`} />
+          <path d="M74 314 Q160 298 246 314" stroke="#FEF08A" strokeWidth="2.4" strokeDasharray="5 3" fill="none" />
+          <circle cx="64" cy="312" r="5" fill="#F59E0B" />
+          <circle cx="256" cy="312" r="5" fill="#F59E0B" />
+          <text x="160" y="323" fill="#FEF08A" fontSize="11" fontWeight="bold" textAnchor="middle">
+            1, 1, 2, 3, 5, 8, 13...
+          </text>
         </g>
       )}
 
       {vehicleId === 'veh_hero_jet' && (
         <g id="veh_hero_jet" filter={`url(#glowEffect_${uid})`}>
-          <polygon points="46,308 118,279 182,279 254,308 210,320 90,320" fill="#DC2626" stroke="#E2E8F0" strokeWidth="2.2" strokeLinejoin="round" />
-          <ellipse cx="150" cy="298" rx="35" ry="12" fill="#38BDF8" stroke="#FFFFFF" strokeWidth="1.8" />
-          <ellipse cx="102" cy="322" rx="12" ry="4" fill="#FACC15" />
-          <ellipse cx="198" cy="322" rx="12" ry="4" fill="#FACC15" />
+          <polygon points="50,314 126,284 194,284 270,314 222,327 98,327" fill="#DC2626" />
+          <ellipse cx="160" cy="304" rx="37" ry="13" fill="#38BDF8" />
+          <ellipse cx="108" cy="329" rx="13" ry="4.5" fill="#FACC15" />
+          <ellipse cx="212" cy="329" rx="13" ry="4.5" fill="#FACC15" />
         </g>
       )}
     </g>
@@ -300,198 +309,206 @@ export const AvatarPetLayer: React.FC<{ config: AvatarConfig; animated: boolean;
 }) => {
   if (config.petId === 'pet_none') return null;
 
+  const vuiBotSpriteUrl = `${import.meta.env.BASE_URL}assets/vuibot/happy.png`;
+
   return (
-    <g id="pet-layer" className={animated ? 'studio-pet-bob' : ''}>
-      {/* Plump 3D-shaded Chibi Corgi */}
+    <g id="pet-layer" className={animated ? 'studio-pet-bob' : ''} filter={`url(#softAO_${uid})`}>
+      {/* 1. VUI-BOT MINI (Authentic 3D Pixar-rendered Vui-Bot sprite!) */}
+      {(config.petId === 'pet_vuibot' || config.petId === 'pet_robot') && (
+        <g transform="translate(226, 224)">
+          <ellipse cx="36" cy="76" rx="22" ry="6" fill="#0284C7" opacity="0.22" />
+          <image
+            href={vuiBotSpriteUrl}
+            x="0"
+            y="0"
+            width="72"
+            height="76"
+            preserveAspectRatio="xMidYMid meet"
+          />
+        </g>
+      )}
+
+      {/* 2. Chó Corgi Đáng Yêu (Plump 3D Pixar toy Corgi, zero black ink strokes) */}
       {config.petId === 'pet_corgi' && (
-        <g transform="translate(222, 238)">
-          <ellipse cx="22" cy="46" rx="18" ry="5" fill="#0F172A" opacity="0.14" />
-          <ellipse cx="22" cy="33" rx="17" ry="12" fill="#F97316" stroke="#9A3412" strokeWidth="1.5" />
-          <ellipse cx="15" cy="35" rx="9" ry="7" fill="#FFFFFF" />
-          <polygon points="7,14 11,0 19,10" fill="#EA580C" stroke="#9A3412" strokeWidth="1.4" strokeLinejoin="round" />
-          <polygon points="23,10 31,0 35,14" fill="#EA580C" stroke="#9A3412" strokeWidth="1.4" strokeLinejoin="round" />
-          <circle cx="21" cy="17" r="13.5" fill="#FDBA74" stroke="#9A3412" strokeWidth="1.5" />
-          <ellipse cx="21" cy="21" rx="8.5" ry="6" fill="#FFFFFF" />
-          <ellipse cx="13" cy="20" rx="3.2" ry="2" fill="#FB7185" opacity="0.55" />
-          <ellipse cx="29" cy="20" rx="3.2" ry="2" fill="#FB7185" opacity="0.55" />
-          <circle cx="15.5" cy="15.5" r="2.6" fill="#0F172A" />
-          <circle cx="26.5" cy="15.5" r="2.6" fill="#0F172A" />
-          <circle cx="14.7" cy="14.7" r="1" fill="#FFFFFF" />
-          <circle cx="25.7" cy="14.7" r="1" fill="#FFFFFF" />
-          <circle cx="21" cy="19.5" r="2.2" fill="#1E293B" />
-          <path d="M18.5 22 Q21 25 23.5 22" stroke="#991B1B" strokeWidth="1.5" fill="none" strokeLinecap="round" />
-          <polygon points="15,28 27,28 21,33" fill="#EF4444" stroke="#991B1B" strokeWidth="1" />
+        <g transform="translate(232, 240)">
+          <ellipse cx="26" cy="54" rx="20" ry="6" fill="#0F172A" opacity="0.16" />
+          <ellipse cx="26" cy="40" rx="18" ry="13" fill="#F97316" />
+          <ellipse cx="19" cy="42" rx="10" ry="8" fill="#FFFFFF" />
+          <polygon points="8,16 13,-1 22,12" fill="#EA580C" />
+          <polygon points="11,13 14,4 19,12" fill="#FDBA74" />
+          <polygon points="30,12 39,-1 44,16" fill="#EA580C" />
+          <polygon points="33,12 38,4 41,13" fill="#FDBA74" />
+          <circle cx="26" cy="20" r="15.5" fill="#FDBA74" />
+          <ellipse cx="26" cy="25" rx="10" ry="7" fill="#FFFFFF" />
+          <ellipse cx="16" cy="23" rx="3.8" ry="2.2" fill={`url(#blush_${uid})`} />
+          <ellipse cx="36" cy="23" rx="3.8" ry="2.2" fill={`url(#blush_${uid})`} />
+          <circle cx="20" cy="18" r="3" fill="#0F172A" />
+          <circle cx="32" cy="18" r="3" fill="#0F172A" />
+          <circle cx="19" cy="17" r="1.2" fill="#FFFFFF" />
+          <circle cx="31" cy="17" r="1.2" fill="#FFFFFF" />
+          <circle cx="26" cy="22.5" r="2.5" fill="#1E293B" />
+          <path d="M22.5 26 Q26 29.5 29.5 26" stroke="#BE123C" strokeWidth="1.8" fill="none" strokeLinecap="round" />
+          <polygon points="18,34 34,34 26,40" fill="#EF4444" />
         </g>
       )}
 
-      {/* Cool Chibi Cat with stylish sunglasses option vibe */}
+      {/* 3. Mèo Cool (Matches "Mèo Cool" with dark sunglasses from image_c464da61!) */}
       {config.petId === 'pet_cat' && (
-        <g transform="translate(222, 238)">
-          <ellipse cx="22" cy="46" rx="17" ry="5" fill="#0F172A" opacity="0.14" />
-          <path d="M35 35 Q46 21 41 10" stroke="#F97316" strokeWidth="5" strokeLinecap="round" fill="none" />
-          <ellipse cx="22" cy="34" rx="15" ry="12" fill="#FB923C" stroke="#9A3412" strokeWidth="1.5" />
-          <ellipse cx="20" cy="35" rx="8" ry="7" fill="#FFF7ED" />
-          <polygon points="10,13 13,2 20,11" fill="#EA580C" stroke="#9A3412" strokeWidth="1.4" strokeLinejoin="round" />
-          <polygon points="24,11 31,2 34,13" fill="#EA580C" stroke="#9A3412" strokeWidth="1.4" strokeLinejoin="round" />
-          <circle cx="22" cy="18" r="13" fill="#FED7AA" stroke="#9A3412" strokeWidth="1.5" />
-          <ellipse cx="14" cy="21" rx="3" ry="1.8" fill="#FB7185" opacity="0.55" />
-          <ellipse cx="30" cy="21" rx="3" ry="1.8" fill="#FB7185" opacity="0.55" />
-          <circle cx="17" cy="17" r="2.6" fill="#0F172A" />
-          <circle cx="27" cy="17" r="2.6" fill="#0F172A" />
-          <circle cx="16.2" cy="16.2" r="1" fill="#FFFFFF" />
-          <circle cx="26.2" cy="16.2" r="1" fill="#FFFFFF" />
-          <path d="M19 21 Q22 24 25 21" stroke="#991B1B" strokeWidth="1.5" fill="none" strokeLinecap="round" />
+        <g transform="translate(232, 240)">
+          <ellipse cx="26" cy="54" rx="19" ry="6" fill="#0F172A" opacity="0.16" />
+          <path d="M40 42 Q53 26 48 12" stroke="#CBD5E1" strokeWidth="5.5" strokeLinecap="round" fill="none" />
+          <ellipse cx="26" cy="40" rx="16" ry="13" fill="#E2E8F0" />
+          <ellipse cx="24" cy="42" rx="9" ry="8" fill="#FFFFFF" />
+          <polygon points="10,16 14,1 22,12" fill="#CBD5E1" />
+          <polygon points="13,13 15.5,5 20,12" fill="#FBCFE8" />
+          <polygon points="30,12 38,1 42,16" fill="#CBD5E1" />
+          <polygon points="32,12 36.5,5 39,13" fill="#FBCFE8" />
+          <circle cx="26" cy="20" r="15" fill="#F8FAFC" />
+          <ellipse cx="16" cy="24" rx="3.5" ry="2" fill={`url(#blush_${uid})`} />
+          <ellipse cx="36" cy="24" rx="3.5" ry="2" fill={`url(#blush_${uid})`} />
+          {/* Cool Sunglasses */}
+          <rect x="13" y="13.5" width="11.5" height="8" rx="3" fill="#0F172A" />
+          <rect x="27.5" y="13.5" width="11.5" height="8" rx="3" fill="#0F172A" />
+          <rect x="23" y="15.5" width="6" height="2.5" fill="#0F172A" />
+          <line x1="15" y1="15.5" x2="18" y2="19.5" stroke="#FFFFFF" strokeOpacity="0.45" strokeWidth="1.5" />
+          <line x1="29.5" y1="15.5" x2="32.5" y2="19.5" stroke="#FFFFFF" strokeOpacity="0.45" strokeWidth="1.5" />
+          <path d="M22.5 25.5 Q26 28.5 29.5 25.5" stroke="#FB7185" strokeWidth="1.8" fill="none" strokeLinecap="round" />
+          {/* Blue ribbon collar */}
+          <rect x="18" y="32" width="16" height="4.5" rx="2.2" fill="#38BDF8" />
         </g>
       )}
 
-      {/* Kung-fu Chibi Panda */}
+      {/* 4. Gấu Trúc Võ Sư */}
       {config.petId === 'pet_panda' && (
-        <g transform="translate(222, 234)">
-          <ellipse cx="21" cy="50" rx="17" ry="5" fill="#0F172A" opacity="0.14" />
-          <circle cx="10" cy="9" r="6" fill="#0F172A" />
-          <circle cx="32" cy="9" r="6" fill="#0F172A" />
-          <ellipse cx="21" cy="36" rx="15" ry="13" fill="#FFFFFF" stroke="#0F172A" strokeWidth="2" />
-          <ellipse cx="21" cy="38" rx="14" ry="5" fill="#0F172A" />
-          <circle cx="21" cy="19" r="13.5" fill="#FFFFFF" stroke="#0F172A" strokeWidth="2" />
-          <rect x="8" y="9" width="26" height="4.5" rx="2.2" fill="#DC2626" />
-          <ellipse cx="15.5" cy="19" rx="4" ry="5" fill="#0F172A" />
-          <ellipse cx="26.5" cy="19" rx="4" ry="5" fill="#0F172A" />
-          <circle cx="15.5" cy="18" r="1.5" fill="#FFFFFF" />
-          <circle cx="26.5" cy="18" r="1.5" fill="#FFFFFF" />
-          <circle cx="21" cy="23.5" r="2.2" fill="#0F172A" />
+        <g transform="translate(232, 236)">
+          <ellipse cx="25" cy="56" rx="19" ry="6" fill="#0F172A" opacity="0.16" />
+          <circle cx="12" cy="10" r="7" fill="#0F172A" />
+          <circle cx="38" cy="10" r="7" fill="#0F172A" />
+          <ellipse cx="25" cy="42" rx="16.5" ry="14" fill="#FFFFFF" />
+          <ellipse cx="25" cy="44" rx="15.5" ry="5.5" fill="#0F172A" />
+          <circle cx="25" cy="21" r="15.5" fill="#FFFFFF" />
+          <rect x="10" y="10" width="30" height="5" rx="2.5" fill="#EF4444" />
+          <ellipse cx="18.5" cy="21" rx="4.6" ry="5.5" fill="#0F172A" />
+          <ellipse cx="31.5" cy="21" rx="4.6" ry="5.5" fill="#0F172A" />
+          <circle cx="18.5" cy="20" r="1.8" fill="#FFFFFF" />
+          <circle cx="31.5" cy="20" r="1.8" fill="#FFFFFF" />
+          <circle cx="25" cy="26.5" r="2.4" fill="#0F172A" />
         </g>
       )}
 
-      {/* Scholar Chibi Bunny */}
+      {/* 5. Thỏ Xinh Đeo Kính */}
       {config.petId === 'pet_bunny' && (
-        <g transform="translate(224, 228)">
-          <ellipse cx="20" cy="54" rx="16" ry="5" fill="#0F172A" opacity="0.14" />
-          <ellipse cx="14" cy="9" rx="4.8" ry="12" fill="#FFFFFF" stroke="#F472B6" strokeWidth="1.8" />
-          <ellipse cx="26" cy="9" rx="4.8" ry="12" fill="#FFFFFF" stroke="#F472B6" strokeWidth="1.8" />
-          <ellipse cx="20" cy="40" rx="14" ry="12" fill="#FFFFFF" stroke="#CBD5E1" strokeWidth="1.8" />
-          <rect x="11" y="30" width="18" height="4.5" rx="2" fill="#FACC15" />
-          <circle cx="20" cy="23" r="12.5" fill="#FFFFFF" stroke="#CBD5E1" strokeWidth="1.8" />
-          <circle cx="15.5" cy="22" r="4" fill="none" stroke="#0284C7" strokeWidth="1.8" />
-          <circle cx="24.5" cy="22" r="4" fill="none" stroke="#0284C7" strokeWidth="1.8" />
-          <circle cx="15.5" cy="22" r="1.6" fill="#0F172A" />
-          <circle cx="24.5" cy="22" r="1.6" fill="#0F172A" />
-          <circle cx="20" cy="26" r="1.8" fill="#F43F5E" />
+        <g transform="translate(234, 228)">
+          <ellipse cx="24" cy="60" rx="18" ry="6" fill="#0F172A" opacity="0.16" />
+          <ellipse cx="17" cy="11" rx="5.5" ry="14" fill="#FFFFFF" />
+          <ellipse cx="17" cy="11" rx="3" ry="9" fill="#FBCFE8" />
+          <ellipse cx="31" cy="11" rx="5.5" ry="14" fill="#FFFFFF" />
+          <ellipse cx="31" cy="11" rx="3" ry="9" fill="#FBCFE8" />
+          <ellipse cx="24" cy="45" rx="15" ry="13" fill="#FFFFFF" />
+          <rect x="14" y="34" width="20" height="5" rx="2.5" fill="#FACC15" />
+          <circle cx="24" cy="27" r="14" fill="#FFFFFF" />
+          <circle cx="18.5" cy="25.5" r="4.5" fill="none" stroke="#0284C7" strokeWidth="2" />
+          <circle cx="29.5" cy="25.5" r="4.5" fill="none" stroke="#0284C7" strokeWidth="2" />
+          <circle cx="18.5" cy="25.5" r="2" fill="#0F172A" />
+          <circle cx="29.5" cy="25.5" r="2" fill="#0F172A" />
+          <circle cx="24" cy="30" r="2" fill="#F43F5E" />
         </g>
       )}
 
-      {/* Kitsune Chibi Fox */}
+      {/* 6. Cáo Nhí Chín Đuôi */}
       {config.petId === 'pet_fox' && (
-        <g transform="translate(220, 234)">
-          <ellipse cx="21" cy="50" rx="18" ry="5" fill="#0F172A" opacity="0.14" />
-          <path d="M30 39 Q50 23 47 9 Q40 22 31 29 Z" fill="#F97316" />
-          <path d="M33 41 Q52 36 49 20 Q41 31 33 34 Z" fill="#FEF08A" />
-          <ellipse cx="20" cy="37" rx="14" ry="11" fill="#EA580C" stroke="#9A3412" strokeWidth="1.4" />
-          <polygon points="8,14 12,1 19,12" fill="#EA580C" stroke="#9A3412" strokeWidth="1.4" strokeLinejoin="round" />
-          <polygon points="21,12 28,1 32,14" fill="#EA580C" stroke="#9A3412" strokeWidth="1.4" strokeLinejoin="round" />
-          <circle cx="20" cy="20" r="12.5" fill="#F97316" stroke="#9A3412" strokeWidth="1.4" />
-          <ellipse cx="20" cy="24" rx="8" ry="5.5" fill="#FFFFFF" />
-          <circle cx="15" cy="18.5" r="2.2" fill="#0F172A" />
-          <circle cx="25" cy="18.5" r="2.2" fill="#0F172A" />
-          <circle cx="14.3" cy="17.8" r="0.9" fill="#FFFFFF" />
-          <circle cx="24.3" cy="17.8" r="0.9" fill="#FFFFFF" />
-          <circle cx="20" cy="22.5" r="2" fill="#0F172A" />
+        <g transform="translate(230, 236)">
+          <ellipse cx="25" cy="56" rx="20" ry="6" fill="#0F172A" opacity="0.16" />
+          <path d="M35 44 Q57 26 54 10 Q46 25 36 33 Z" fill="#F97316" />
+          <path d="M38 46 Q59 40 56 22 Q47 35 38 38 Z" fill="#FEF08A" />
+          <ellipse cx="23" cy="42" rx="15" ry="12" fill="#EA580C" />
+          <polygon points="9,16 14,1 22,14" fill="#EA580C" />
+          <polygon points="24,14 32,1 37,16" fill="#EA580C" />
+          <circle cx="23" cy="22" r="14" fill="#F97316" />
+          <ellipse cx="23" cy="27" rx="9" ry="6" fill="#FFFFFF" />
+          <circle cx="17.5" cy="20.5" r="2.6" fill="#0F172A" />
+          <circle cx="28.5" cy="20.5" r="2.6" fill="#0F172A" />
+          <circle cx="16.7" cy="19.7" r="1" fill="#FFFFFF" />
+          <circle cx="27.7" cy="19.7" r="1" fill="#FFFFFF" />
+          <circle cx="23" cy="25" r="2.2" fill="#0F172A" />
         </g>
       )}
 
-      {/* Scholar Chibi Owl */}
+      {/* 7. Cú Vọ Tiến Sĩ */}
       {config.petId === 'pet_owl' && (
-        <g transform="translate(224, 230)">
-          <ellipse cx="21" cy="52" rx="16" ry="5" fill="#0F172A" opacity="0.14" />
-          <ellipse cx="21" cy="34" rx="15" ry="17" fill="#78350F" stroke="#451A03" strokeWidth="1.6" />
-          <ellipse cx="21" cy="36" rx="10" ry="12" fill="#FEF3C7" />
-          <circle cx="21" cy="20" r="13" fill="#92400E" stroke="#451A03" strokeWidth="1.5" />
-          <circle cx="15.5" cy="20" r="6.2" fill="#FFFFFF" stroke="#F59E0B" strokeWidth="2" />
-          <circle cx="26.5" cy="20" r="6.2" fill="#FFFFFF" stroke="#F59E0B" strokeWidth="2" />
-          <circle cx="15.5" cy="20" r="3" fill="#0F172A" />
-          <circle cx="26.5" cy="20" r="3" fill="#0F172A" />
-          <circle cx="14.6" cy="19" r="1" fill="#FFFFFF" />
-          <circle cx="25.6" cy="19" r="1" fill="#FFFFFF" />
-          <polygon points="18.5,24 23.5,24 21,28.5" fill="#EA580C" />
-          <polygon points="21,3 34,8 21,13 8,8" fill="#1E3A8A" stroke="#FACC15" strokeWidth="1" />
+        <g transform="translate(234, 234)">
+          <ellipse cx="24" cy="58" rx="18" ry="6" fill="#0F172A" opacity="0.16" />
+          <ellipse cx="24" cy="39" rx="16" ry="18" fill="#78350F" />
+          <ellipse cx="24" cy="41" rx="11" ry="13" fill="#FEF3C7" />
+          <circle cx="24" cy="23" r="14" fill="#92400E" />
+          <circle cx="18" cy="23" r="6.8" fill="#FFFFFF" stroke="#F59E0B" strokeWidth="2.2" />
+          <circle cx="30" cy="23" r="6.8" fill="#FFFFFF" stroke="#F59E0B" strokeWidth="2.2" />
+          <circle cx="18" cy="23" r="3.2" fill="#0F172A" />
+          <circle cx="30" cy="23" r="3.2" fill="#0F172A" />
+          <circle cx="17" cy="22" r="1.2" fill="#FFFFFF" />
+          <circle cx="29" cy="22" r="1.2" fill="#FFFFFF" />
+          <polygon points="21,27.5 27,27.5 24,32.5" fill="#F97316" />
+          <polygon points="24,4 38,9.5 24,15 10,9.5" fill="#1E3A8A" />
         </g>
       )}
 
-      {/* Vui-Bot Mini Companion (aligned with VuiBotMascot visual design!) */}
-      {(config.petId === 'pet_robot' || config.petId === 'pet_vuibot') && (
-        <g transform="translate(222, 228)" filter={`url(#glowEffect_${uid})`}>
-          {/* Blue mini superhero cape */}
-          <path d="M12 28 L4 48 L36 48 L28 28 Z" fill="#2563EB" opacity="0.88" />
-          {/* Side ear pods */}
-          <rect x="4" y="13" width="6" height="12" rx="3" fill="#0284C7" />
-          <rect x="30" y="13" width="6" height="12" rx="3" fill="#0284C7" />
-          {/* Round white chibi bot head & torso */}
-          <rect x="8" y="31" width="24" height="18" rx="8" fill="#F8FAFC" stroke="#0284C7" strokeWidth="1.8" />
-          <circle cx="20" cy="40" r="5" fill="#FACC15" stroke="#0284C7" strokeWidth="1.2" />
-          <rect x="7" y="7" width="26" height="24" rx="11" fill="#FFFFFF" stroke="#0284C7" strokeWidth="2" />
-          {/* Glowing dark visor with cute curved happy cyan eyes */}
-          <rect x="10" y="11" width="20" height="15" rx="6" fill="#0F172A" />
-          <path d="M13 18 Q15.5 14 18 18" stroke="#38BDF8" strokeWidth="2.2" strokeLinecap="round" fill="none" />
-          <path d="M22 18 Q24.5 14 27 18" stroke="#38BDF8" strokeWidth="2.2" strokeLinecap="round" fill="none" />
-          <path d="M17.5 22 Q20 24.5 22.5 22" stroke="#FB7185" strokeWidth="1.6" strokeLinecap="round" fill="none" />
-        </g>
-      )}
-
-      {/* Starry Chibi Unicorn */}
+      {/* 8. Kỳ Lân Sao Băng */}
       {config.petId === 'pet_unicorn' && (
-        <g transform="translate(220, 224)" filter={`url(#glowEffect_${uid})`}>
-          <ellipse cx="22" cy="54" rx="17" ry="5" fill="#0F172A" opacity="0.14" />
-          <ellipse cx="22" cy="41" rx="16" ry="12.5" fill="#FFFFFF" stroke="#E2E8F0" strokeWidth="1.8" />
-          <circle cx="19" cy="23" r="12" fill="#FFFFFF" stroke="#E2E8F0" strokeWidth="1.8" />
-          <polygon points="18,12 22,-3 26,12" fill={`url(#goldMetal_${uid})`} />
-          <path d="M25 14 Q38 22 32 35" stroke="#EC4899" strokeWidth="4.5" strokeLinecap="round" fill="none" />
-          <path d="M27 21 Q39 29 33 40" stroke="#38BDF8" strokeWidth="3.8" strokeLinecap="round" fill="none" />
-          <circle cx="15" cy="21.5" r="2.4" fill="#4F46E5" />
-          <circle cx="14.3" cy="20.8" r="0.9" fill="#FFFFFF" />
+        <g transform="translate(232, 228)" filter={`url(#glowEffect_${uid})`}>
+          <ellipse cx="25" cy="60" rx="19" ry="6" fill="#0F172A" opacity="0.16" />
+          <ellipse cx="25" cy="46" rx="17" ry="13.5" fill="#FFFFFF" />
+          <circle cx="22" cy="26" r="13.5" fill="#FFFFFF" />
+          <polygon points="20,14 25,-3 30,14" fill={`url(#goldMetal_${uid})`} />
+          <path d="M29 16 Q44 25 37 39" stroke="#EC4899" strokeWidth="5" strokeLinecap="round" fill="none" />
+          <path d="M31 24 Q45 33 38 45" stroke="#38BDF8" strokeWidth="4" strokeLinecap="round" fill="none" />
+          <circle cx="17" cy="24.5" r="2.8" fill="#4F46E5" />
+          <circle cx="16.2" cy="23.6" r="1.1" fill="#FFFFFF" />
+          <ellipse cx="14" cy="29" rx="3" ry="1.8" fill={`url(#blush_${uid})`} />
         </g>
       )}
 
-      {/* Chibi Little Dragon */}
+      {/* 9. Rồng Con Lửa Vàng */}
       {config.petId === 'pet_dragon' && (
-        <g transform="translate(222, 224)" filter={`url(#glowEffect_${uid})`}>
-          <ellipse cx="21" cy="52" rx="16" ry="5" fill="#0F172A" opacity="0.14" />
-          <ellipse cx="21" cy="36" rx="15" ry="13" fill="#DC2626" stroke="#7F1D1D" strokeWidth="1.5" />
-          <ellipse cx="19" cy="38" rx="9" ry="8" fill="#FEF08A" />
-          <circle cx="19" cy="20" r="13" fill="#EF4444" stroke="#7F1D1D" strokeWidth="1.5" />
-          <polygon points="11,11 13,2 18,11" fill={`url(#goldMetal_${uid})`} />
-          <polygon points="20,11 25,2 27,11" fill={`url(#goldMetal_${uid})`} />
-          <circle cx="14.5" cy="18.5" r="3.2" fill="#FEF08A" />
-          <circle cx="14.5" cy="18.5" r="1.7" fill="#0F172A" />
-          <circle cx="24.5" cy="18.5" r="3.2" fill="#FEF08A" />
-          <circle cx="24.5" cy="18.5" r="1.7" fill="#0F172A" />
-          <path d="M32 36 Q44 26 40 12" stroke="#DC2626" strokeWidth="4.5" strokeLinecap="round" fill="none" />
+        <g transform="translate(232, 228)" filter={`url(#glowEffect_${uid})`}>
+          <ellipse cx="24" cy="58" rx="18" ry="6" fill="#0F172A" opacity="0.16" />
+          <ellipse cx="24" cy="41" rx="16" ry="14" fill="#EF4444" />
+          <ellipse cx="22" cy="43" rx="10" ry="9" fill="#FEF08A" />
+          <circle cx="22" cy="23" r="14" fill="#F87171" />
+          <polygon points="12,13 15,2 21,13" fill={`url(#goldMetal_${uid})`} />
+          <polygon points="23,13 29,2 31,13" fill={`url(#goldMetal_${uid})`} />
+          <circle cx="16.5" cy="21" r="3.6" fill="#FEF08A" />
+          <circle cx="16.5" cy="21" r="2" fill="#0F172A" />
+          <circle cx="27.5" cy="21" r="3.6" fill="#FEF08A" />
+          <circle cx="27.5" cy="21" r="2" fill="#0F172A" />
+          <path d="M36 41 Q50 30 45 14" stroke="#EF4444" strokeWidth="5" strokeLinecap="round" fill="none" />
         </g>
       )}
 
-      {/* Mecha Lion */}
+      {/* 10. Sư Tử Robot Biệt Đội Vàng */}
       {config.petId === 'pet_mecha_lion' && (
-        <g transform="translate(222, 228)" filter={`url(#glowEffect_${uid})`}>
-          <polygon points="6,19 11,4 21,10 31,4 36,19 30,30 12,30" fill={`url(#goldMetal_${uid})`} stroke="#78350F" strokeWidth="1.8" />
-          <rect x="11" y="29" width="20" height="19" rx="5" fill="#DC2626" stroke="#FACC15" strokeWidth="1.6" />
-          <circle cx="21" cy="18" r="8.5" fill="#FEF08A" />
-          <rect x="14.5" y="15" width="13" height="5.5" rx="2.5" fill="#0F172A" />
-          <circle cx="18" cy="17.8" r="1.6" fill="#38BDF8" />
-          <circle cx="24" cy="17.8" r="1.6" fill="#38BDF8" />
+        <g transform="translate(232, 232)" filter={`url(#glowEffect_${uid})`}>
+          <polygon points="7,22 13,5 25,12 37,5 43,22 36,34 14,34" fill={`url(#goldMetal_${uid})`} />
+          <rect x="13" y="33" width="24" height="21" rx="7" fill="#EF4444" />
+          <circle cx="25" cy="21" r="10" fill="#FEF08A" />
+          <rect x="17" y="17.5" width="16" height="6.5" rx="3" fill="#0F172A" />
+          <circle cx="21" cy="20.8" r="2" fill="#38BDF8" />
+          <circle cx="29" cy="20.8" r="2" fill="#38BDF8" />
         </g>
       )}
 
-      {/* Chibi Fire Phoenix */}
+      {/* 11. Phượng Hoàng Lửa Nhí */}
       {config.petId === 'pet_phoenix' && (
-        <g transform="translate(220, 218)" filter={`url(#glowEffect_${uid})`}>
-          <path d="M23 36 Q44 17 40 5 Q30 16 25 26 Z" fill="#F59E0B" />
-          <path d="M18 36 Q0 17 6 7 Q14 17 18 28 Z" fill="#EF4444" />
-          <ellipse cx="21" cy="33" rx="11" ry="13" fill="#EF4444" stroke="#991B1B" strokeWidth="1.5" />
-          <circle cx="21" cy="18" r="9.5" fill="#F59E0B" stroke="#B45309" strokeWidth="1.4" />
-          <polygon points="18,9 21,0 25,9" fill="#FEF08A" />
-          <circle cx="17.5" cy="17" r="2.2" fill="#0F172A" />
-          <circle cx="17" cy="16.3" r="0.8" fill="#FFFFFF" />
-          <circle cx="24.5" cy="17" r="2.2" fill="#0F172A" />
-          <circle cx="24" cy="16.3" r="0.8" fill="#FFFFFF" />
-          <polygon points="18.5,21 23.5,21 21,25" fill="#FDE047" />
+        <g transform="translate(230, 222)" filter={`url(#glowEffect_${uid})`}>
+          <path d="M27 42 Q50 20 46 6 Q35 19 29 30 Z" fill="#F59E0B" />
+          <path d="M20 42 Q0 20 7 8 Q16 20 20 32 Z" fill="#EF4444" />
+          <ellipse cx="24" cy="38" rx="12" ry="14" fill="#EF4444" />
+          <circle cx="24" cy="21" r="11" fill="#F59E0B" />
+          <polygon points="20,11 24,0 28,11" fill="#FEF08A" />
+          <circle cx="20" cy="20" r="2.6" fill="#0F172A" />
+          <circle cx="19.3" cy="19.2" r="1" fill="#FFFFFF" />
+          <circle cx="28" cy="20" r="2.6" fill="#0F172A" />
+          <circle cx="27.3" cy="19.2" r="1" fill="#FFFFFF" />
+          <polygon points="21,24.5 27,24.5 24,29" fill="#FDE047" />
         </g>
       )}
     </g>

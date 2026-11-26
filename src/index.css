@@ -278,7 +278,7 @@ h1, h2, h3, h4, .font-display {
 
 .studio-breathe {
   animation: studioBreathe 3.2s ease-in-out infinite;
-  transform-origin: 150px 260px;
+  transform-origin: 160px 260px;
 }
 
 .studio-float {
@@ -287,22 +287,22 @@ h1, h2, h3, h4, .font-display {
 
 .studio-pet-bob {
   animation: studioPetBob 2.4s ease-in-out infinite;
-  transform-origin: 250px 260px;
+  transform-origin: 256px 266px;
 }
 
 .studio-blink {
   animation: studioBlink 4.2s ease-in-out infinite;
-  transform-origin: center 110px;
+  transform-origin: center 111px;
 }
 
 .studio-aura-spin {
   animation: studioAuraSpin 16s linear infinite;
-  transform-origin: 150px 190px;
+  transform-origin: 160px 190px;
 }
 
 .studio-aura-pulse {
   animation: studioAuraPulse 2.6s ease-in-out infinite;
-  transform-origin: 150px 190px;
+  transform-origin: 160px 190px;
 }
 
 .studio-tap-jump {

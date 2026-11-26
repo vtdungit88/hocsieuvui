@@ -15,6 +15,15 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.21',
+    date: '2026-11-26',
+    title: 'Làm mới toàn diện Studio Chibi 3D theo bộ thiết kế hoạt hình',
+    items: [
+      'Thiết kế lại hoàn toàn nhân vật, toàn bộ trang phục, vật phẩm cầm tay, thú cưng (gồm cả Vui-Bot sprite và Mèo Cool), xe cộ, hào quang và biểu tượng cửa hàng theo phong cách hoạt hình Chibi 3D khối tròn mượt không viền đen.',
+      'Nâng cấp sân khấu Studio với bệ ánh sáng 3D, nút xoay trái/phải, cụm nút tác vụ nổi bên trái (Phối ngẫu nhiên, Về mặc định, Gỡ phụ kiện, Lưu nhanh), dải Sticker tương tác (Good!, WoW!) và lưới trưng bày vật phẩm 3 cột trực quan.'
+    ]
+  },
+  {
     version: '0.2.20',
     date: '2026-11-26',
     title: 'Nâng cấp đồ họa Chibi Hoạt Hình 3D cho Nhân vật, Thú cưng & Phòng Cá Nhân',

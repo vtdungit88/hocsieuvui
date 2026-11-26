@@ -24,6 +24,7 @@ import {
 import { AvatarRenderer } from './AvatarRenderer';
 import { StudioStageBackdrop } from './StudioStageBackdrop';
 import { StudioItemThumbnail } from './StudioItemThumbnail';
+import { VuiBotMascot } from './VuiBotMascot';
 import { CoinIcon, StarIcon } from './GameIcons';
 import { soundManager } from '../utils/audio';
 import { updateActiveStudent } from '../utils/studentStorage';
@@ -48,6 +49,10 @@ import {
   X,
   Trophy,
   RotateCcw,
+  Undo2,
+  Redo2,
+  Shuffle,
+  Eraser,
   Loader2,
   Home,
   Search,
@@ -65,40 +70,52 @@ interface AvatarStudioProps {
 
 type StudioTab = 'appearance' | 'room' | 'sets' | ItemCategory;
 
-const CATEGORY_TABS: { id: StudioTab; label: string; icon: React.ReactNode }[] = [
-  { id: 'appearance', label: 'Diện Mạo', icon: <Palette className="w-4 h-4" /> },
-  { id: 'outfit', label: 'Trang Phục', icon: <Shirt className="w-4 h-4" /> },
-  { id: 'handheld', label: 'Cầm Tay', icon: <PenTool className="w-4 h-4" /> },
-  { id: 'vehicle', label: 'Xe Cộ', icon: <Bike className="w-4 h-4" /> },
-  { id: 'pet', label: 'Thú Cưng', icon: <Heart className="w-4 h-4" /> },
-  { id: 'phone', label: 'Điện Thoại', icon: <Smartphone className="w-4 h-4" /> },
-  { id: 'tech', label: 'Công Nghệ', icon: <Laptop className="w-4 h-4" /> },
-  { id: 'backdrop', label: 'Phông Nền', icon: <Image className="w-4 h-4" /> },
-  { id: 'aura', label: 'Hào Quang', icon: <Sun className="w-4 h-4" /> },
-  { id: 'room', label: 'Phòng Riêng', icon: <Home className="w-4 h-4" /> },
-  { id: 'sets', label: 'Bộ Sưu Tập', icon: <Layers className="w-4 h-4" /> }
+const CATEGORY_TABS: {
+  id: StudioTab;
+  label: string;
+  icon: React.ReactNode;
+  activeBg: string;
+}[] = [
+  { id: 'appearance', label: 'Diện Mạo', icon: <Palette className="w-4 h-4" />, activeBg: 'bg-sky-600 text-white shadow-sm' },
+  { id: 'outfit', label: 'Trang Phục', icon: <Shirt className="w-4 h-4" />, activeBg: 'bg-blue-600 text-white shadow-sm' },
+  { id: 'handheld', label: 'Cầm Tay', icon: <PenTool className="w-4 h-4" />, activeBg: 'bg-amber-500 text-slate-950 shadow-sm' },
+  { id: 'vehicle', label: 'Xe Cộ', icon: <Bike className="w-4 h-4" />, activeBg: 'bg-rose-600 text-white shadow-sm' },
+  { id: 'pet', label: 'Thú Cưng', icon: <Heart className="w-4 h-4" />, activeBg: 'bg-pink-600 text-white shadow-sm' },
+  { id: 'phone', label: 'Điện Thoại', icon: <Smartphone className="w-4 h-4" />, activeBg: 'bg-indigo-600 text-white shadow-sm' },
+  { id: 'tech', label: 'Công Nghệ', icon: <Laptop className="w-4 h-4" />, activeBg: 'bg-cyan-600 text-white shadow-sm' },
+  { id: 'backdrop', label: 'Phông Nền', icon: <Image className="w-4 h-4" />, activeBg: 'bg-emerald-600 text-white shadow-sm' },
+  { id: 'aura', label: 'Hào Quang', icon: <Sun className="w-4 h-4" />, activeBg: 'bg-orange-500 text-white shadow-sm' },
+  { id: 'room', label: 'Phòng Riêng', icon: <Home className="w-4 h-4" />, activeBg: 'bg-teal-600 text-white shadow-sm' },
+  { id: 'sets', label: 'Bộ Sưu Tập', icon: <Layers className="w-4 h-4" />, activeBg: 'bg-violet-600 text-white shadow-sm' }
 ];
 
-const RARITY_LABEL: Record<ItemRarity, { text: string; colorClass: string; stripClass: string }> = {
+const RARITY_LABEL: Record<
+  ItemRarity,
+  { text: string; colorClass: string; stripClass: string; tileBg: string }
+> = {
   base: {
     text: 'Khởi Đầu',
     colorClass: 'text-slate-500 dark:text-slate-400',
-    stripClass: 'bg-slate-300 dark:bg-slate-700'
+    stripClass: 'bg-slate-300 dark:bg-slate-600',
+    tileBg: 'from-slate-50 to-slate-100/80 dark:from-slate-800/70 dark:to-slate-800/40'
   },
   popular: {
     text: 'Phổ Biến',
-    colorClass: 'text-blue-600 dark:text-blue-400',
-    stripClass: 'bg-blue-500'
+    colorClass: 'text-sky-600 dark:text-sky-400',
+    stripClass: 'bg-gradient-to-r from-sky-400 to-blue-500',
+    tileBg: 'from-sky-50/90 to-blue-50/70 dark:from-sky-950/40 dark:to-blue-950/30'
   },
   vip: {
     text: 'Xịn Sò VIP',
     colorClass: 'text-amber-600 dark:text-amber-400',
-    stripClass: 'bg-amber-500'
+    stripClass: 'bg-gradient-to-r from-amber-400 to-orange-500',
+    tileBg: 'from-amber-50/95 to-orange-50/70 dark:from-amber-950/40 dark:to-orange-950/30'
   },
   mythic: {
     text: 'Thần Thoại',
-    colorClass: 'text-violet-600 dark:text-violet-400',
-    stripClass: 'bg-gradient-to-r from-violet-500 via-fuchsia-500 to-cyan-500'
+    colorClass: 'text-fuchsia-600 dark:text-fuchsia-400',
+    stripClass: 'bg-gradient-to-r from-violet-500 via-fuchsia-500 to-cyan-400',
+    tileBg: 'from-violet-50/95 via-fuchsia-50/70 to-sky-50/80 dark:from-violet-950/45 dark:to-sky-950/35'
   }
 };
 
@@ -168,9 +185,46 @@ const ROOM_FURNITURE_TOGGLES: {
   { key: 'showPlant', label: 'Cây Xanh Thư Giãn', desc: 'Chậu cây xanh lọc không khí' }
 ];
 
+const STICKER_REACTIONS: {
+  id: string;
+  label: string;
+  quote: string;
+  accent: string;
+  sound: 'coin' | 'equip' | 'fanfare' | 'click';
+}[] = [
+  {
+    id: 'good',
+    label: 'Good!',
+    quote: 'Good! Bộ trang phục hôm nay chuẩn học sinh 10 điểm!',
+    accent: 'from-amber-400 to-orange-500 text-slate-950',
+    sound: 'coin'
+  },
+  {
+    id: 'wow',
+    label: 'WoW!',
+    quote: 'WoW! Thú cưng và hào quang tỏa sáng rực rỡ luôn!',
+    accent: 'from-sky-400 to-blue-600 text-white',
+    sound: 'fanfare'
+  },
+  {
+    id: 'great',
+    label: 'Tuyệt Vời',
+    quote: 'Sẵn sàng vào Đấu Trường và chinh phục mọi bài học SGK!',
+    accent: 'from-emerald-400 to-teal-600 text-white',
+    sound: 'equip'
+  },
+  {
+    id: 'love',
+    label: 'Yêu Thích',
+    quote: 'Phòng riêng ấm cúng quá, mời bạn bè cùng ghé thăm nhé!',
+    accent: 'from-pink-400 to-rose-500 text-white',
+    sound: 'click'
+  }
+];
+
 const TAP_QUOTES = [
   'Sẵn sàng chinh phục mọi bài học SGK!',
-  'Hôm nay mình thử phối bộ đồ mới nhé!',
+  'Hôm nay mình thử phối bộ đồ hoạt hình mới nhé!',
   'Làm thêm bài Đấu Trường để mở khóa thú cưng và siêu xe nha!',
   'Phong độ là nhất thời, kiến thức là mãi mãi!',
   'Trang trí phòng riêng thật xịn rồi mời bạn bè ghé thăm!'
@@ -256,6 +310,8 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
   >('hair');
   const [rarityFilter, setRarityFilter] = useState<'all' | 'owned' | ItemRarity>('all');
   const [searchQuery, setSearchQuery] = useState('');
+  const [stageFacing, setStageFacing] = useState<1 | -1>(1);
+  const [activeStickerTag, setActiveStickerTag] = useState<string | null>(null);
 
   // Personal room state + quick outfit loadouts + chosen title badge + stage frame
   const [roomDecor, setRoomDecor] = useState<PersonalRoomDecor>(() => loadRoomDecor(student.id));
@@ -370,12 +426,16 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
     setUnlockedRevealItem(null);
   };
 
-  const triggerCharacterReaction = () => {
+  const triggerCharacterReaction = (customQuote?: string, stickerLabel?: string) => {
     soundManager.play('coin');
     setIsReacting(false);
     requestAnimationFrame(() => setIsReacting(true));
-    const randomLine = TAP_QUOTES[Math.floor(Math.random() * TAP_QUOTES.length)];
+    const randomLine = customQuote || TAP_QUOTES[Math.floor(Math.random() * TAP_QUOTES.length)];
     setSpeechBubble(randomLine);
+    if (stickerLabel) {
+      setActiveStickerTag(stickerLabel);
+      window.setTimeout(() => setActiveStickerTag(null), 1600);
+    }
     window.setTimeout(() => setIsReacting(false), 480);
   };
 
@@ -420,6 +480,76 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
     if (student.isGuest) return requireLogin();
     soundManager.play('click');
     void commitLook({ ...student.avatarConfig, ...partial });
+  };
+
+  // Randomize outfit + unlocked accessories
+  const handleRandomizeLook = () => {
+    if (student.isGuest) return requireLogin();
+    const owned = new Set(student.unlockedItems);
+    const pickFrom = (cat: ItemCategory, fallback: string) => {
+      const candidates = catalogItems.filter((i) => i.category === cat && owned.has(i.id));
+      if (candidates.length === 0) return fallback;
+      return candidates[Math.floor(Math.random() * candidates.length)].id;
+    };
+    const randomHair = HAIR_STYLES[Math.floor(Math.random() * HAIR_STYLES.length)].id;
+    const randomEye = EYE_EXPRESSIONS[Math.floor(Math.random() * EYE_EXPRESSIONS.length)].id;
+    const next: AvatarConfig = {
+      ...student.avatarConfig,
+      hairStyle: randomHair,
+      eyeExpression: randomEye,
+      outfitId: pickFrom('outfit', student.avatarConfig.outfitId),
+      handheldId: pickFrom('handheld', student.avatarConfig.handheldId),
+      phoneId: pickFrom('phone', student.avatarConfig.phoneId),
+      vehicleId: pickFrom('vehicle', student.avatarConfig.vehicleId),
+      techId: pickFrom('tech', student.avatarConfig.techId),
+      petId: pickFrom('pet', student.avatarConfig.petId),
+      auraId: pickFrom('aura', student.avatarConfig.auraId || 'aura_none')
+    };
+    setPreviewItem(null);
+    triggerCharacterReaction('Phối ngẫu nhiên cực chất luôn!', 'WoW!');
+    void commitLook(next);
+  };
+
+  // Reset to clean starter look
+  const handleResetLook = () => {
+    if (student.isGuest) return requireLogin();
+    const owned = new Set(student.unlockedItems);
+    const safeOwned = (id: string, fallback: string) => (owned.has(id) ? id : fallback);
+    const next: AvatarConfig = {
+      ...student.avatarConfig,
+      outfitId: safeOwned('outfit_uniform', student.avatarConfig.outfitId),
+      handheldId: safeOwned('item_pencil', student.avatarConfig.handheldId),
+      phoneId: safeOwned('phone_basic', student.avatarConfig.phoneId),
+      vehicleId: safeOwned('veh_walk', student.avatarConfig.vehicleId),
+      techId: safeOwned('tech_none', student.avatarConfig.techId),
+      petId: safeOwned('pet_none', student.avatarConfig.petId),
+      backdropId: safeOwned('bg_classroom', student.avatarConfig.backdropId || 'bg_classroom'),
+      auraId: safeOwned('aura_none', student.avatarConfig.auraId || 'aura_none')
+    };
+    soundManager.play('click');
+    setPreviewItem(null);
+    setStageFacing(1);
+    void commitLook(next);
+    flash('Đã đưa trang phục về phong cách khởi đầu!');
+  };
+
+  // Clear extra accessories (pet, aura, tech, vehicle, phone) while keeping outfit & hair
+  const handleClearAccessories = () => {
+    if (student.isGuest) return requireLogin();
+    const owned = new Set(student.unlockedItems);
+    const next: AvatarConfig = {
+      ...student.avatarConfig,
+      handheldId: owned.has('item_pencil') ? 'item_pencil' : student.avatarConfig.handheldId,
+      phoneId: owned.has('phone_basic') ? 'phone_basic' : student.avatarConfig.phoneId,
+      vehicleId: owned.has('veh_walk') ? 'veh_walk' : student.avatarConfig.vehicleId,
+      techId: owned.has('tech_none') ? 'tech_none' : student.avatarConfig.techId,
+      petId: owned.has('pet_none') ? 'pet_none' : student.avatarConfig.petId,
+      auraId: owned.has('aura_none') ? 'aura_none' : student.avatarConfig.auraId
+    };
+    soundManager.play('click');
+    setPreviewItem(null);
+    void commitLook(next);
+    flash('Đã tháo bớt phụ kiện rườm rà!');
   };
 
   // Equip already owned item
@@ -680,7 +810,7 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
   );
 
   return (
-    <div className="hsv-studio-page max-w-7xl mx-auto px-3 sm:px-6 py-4 sm:py-6 space-y-4 sm:space-y-6">
+    <div className="hsv-studio-page max-w-7xl mx-auto px-3 sm:px-6 py-4 sm:py-6 space-y-4 sm:space-y-5">
       {notice && (
         <div
           role="alert"
@@ -690,50 +820,55 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
         </div>
       )}
 
-      {/* Top Studio Header */}
-      <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 p-6 bg-slate-900 dark:bg-slate-900 rounded-3xl text-white border border-slate-800 shadow-lg">
-        <div>
-          <div className="flex flex-wrap items-center gap-2 text-xs text-blue-300 font-semibold">
-            <span>HSV Avatar World</span>
-            <span aria-hidden="true">·</span>
-            <span className="tabular-nums">
-              Đã sưu tầm {ownedTotalCount}/{catalogItems.length} vật phẩm
-            </span>
-            <span aria-hidden="true">·</span>
-            <span className="tabular-nums">
-              {completedSets.length}/{STUDIO_SETS.length} bộ sưu tập
-            </span>
+      {/* Bright Pixar-Toy Studio Header */}
+      <div className="relative overflow-hidden flex flex-col md:flex-row items-start md:items-center justify-between gap-4 p-5 sm:p-6 bg-gradient-to-br from-sky-600 via-blue-600 to-indigo-700 rounded-3xl text-white shadow-lg border border-sky-400/40">
+        <div className="flex items-center gap-4 min-w-0">
+          <div className="shrink-0 w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-white/15 border border-white/25 flex items-center justify-center p-1.5 shadow-inner">
+            <VuiBotMascot expression="happy" motion="float" className="w-full h-full" />
           </div>
-          <h1 className="text-2xl md:text-3xl font-black tracking-tight mt-1">
-            Studio Nhân Vật & Thế Giới Mở Tri Thức
-          </h1>
-          <p className="text-sm text-slate-300 mt-1 max-w-2xl">
-            Thỏa sức phối trang phục siêu anh hùng, biệt đội, thú cưng, siêu xe, hào quang và tự trang trí phòng học riêng của bạn!
-          </p>
+          <div className="min-w-0">
+            <div className="flex flex-wrap items-center gap-2 text-xs text-sky-100 font-semibold">
+              <span>HSV Avatar World</span>
+              <span aria-hidden="true">·</span>
+              <span className="tabular-nums">
+                Đã sưu tầm {ownedTotalCount}/{catalogItems.length} vật phẩm
+              </span>
+              <span aria-hidden="true">·</span>
+              <span className="tabular-nums">
+                {completedSets.length}/{STUDIO_SETS.length} bộ sưu tập
+              </span>
+            </div>
+            <h1 className="text-xl sm:text-2xl md:text-3xl font-black tracking-tight mt-0.5 text-balance">
+              Xưởng Nhân Vật 3D & Phòng Riêng
+            </h1>
+            <p className="text-xs sm:text-sm text-sky-100/95 mt-1 max-w-2xl">
+              Phối nhân vật Chibi hoạt hình, thú cưng, hào quang, siêu xe và tự trang trí phòng học riêng!
+            </p>
+          </div>
         </div>
 
         {/* Currency Counter */}
-        <div className="flex items-center gap-4 bg-slate-800/90 px-5 py-3 rounded-2xl border border-slate-700 self-stretch md:self-auto justify-between md:justify-start shrink-0">
+        <div className="flex items-center gap-4 bg-slate-950/30 backdrop-blur-xs px-5 py-3 rounded-2xl border border-white/20 self-stretch md:self-auto justify-between md:justify-start shrink-0">
           <div className="flex items-center gap-2.5">
-            <div className="w-9 h-9 rounded-xl bg-amber-400/20 border border-amber-400/40 flex items-center justify-center">
+            <div className="w-9 h-9 rounded-xl bg-amber-400/25 border border-amber-300/50 flex items-center justify-center">
               <CoinIcon className="w-5 h-5" />
             </div>
             <div>
-              <div className="text-[11px] text-slate-400 font-medium">Ví Tiền Xu</div>
+              <div className="text-[11px] text-sky-100 font-medium">Ví Tiền Xu</div>
               <div className="text-lg font-black font-mono tabular-nums text-amber-300">
                 {student.coins}
               </div>
             </div>
           </div>
 
-          <div className="h-8 w-px bg-slate-700" />
+          <div className="h-8 w-px bg-white/20" />
 
           <div className="flex items-center gap-2.5">
-            <div className="w-9 h-9 rounded-xl bg-yellow-400/20 border border-yellow-400/40 flex items-center justify-center">
+            <div className="w-9 h-9 rounded-xl bg-yellow-400/25 border border-yellow-300/50 flex items-center justify-center">
               <StarIcon className="w-5 h-5" />
             </div>
             <div>
-              <div className="text-[11px] text-slate-400 font-medium">Sao Danh Dự</div>
+              <div className="text-[11px] text-sky-100 font-medium">Sao Danh Dự</div>
               <div className="text-lg font-black font-mono tabular-nums text-yellow-300">
                 {student.stars}
               </div>
@@ -742,15 +877,15 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
         </div>
       </div>
 
-      {/* Main Two-Column Dressing Room */}
+      {/* Main Two-Column Dressing Studio */}
       <div className="hsv-studio-layout grid grid-cols-1 lg:grid-cols-12 gap-4 sm:gap-6 items-start">
-        {/* Left Column: Live Interactive Game Stage */}
+        {/* Left Column: Live 3D Holographic Stage */}
         <div className="hsv-studio-preview lg:col-span-5 lg:sticky lg:top-24 space-y-3 sm:space-y-4">
-          <div className="bg-white dark:bg-slate-900 rounded-3xl p-5 border border-slate-200 dark:border-slate-800 shadow-sm">
+          <div className="bg-white dark:bg-slate-900 rounded-3xl p-4 sm:p-5 border border-slate-200 dark:border-slate-800 shadow-sm">
             {/* Stage Header */}
             <div className="flex items-center justify-between gap-2 pb-3 border-b border-slate-100 dark:border-slate-800">
               <div className="min-w-0">
-                <div className="text-sm font-bold text-slate-900 dark:text-white truncate">
+                <div className="text-sm font-black text-slate-900 dark:text-white truncate">
                   {student.name}
                 </div>
                 <div className="text-xs text-slate-500 dark:text-slate-400 flex items-center gap-1.5 flex-wrap">
@@ -758,21 +893,21 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                   {displayedTitle && (
                     <>
                       <span aria-hidden="true">·</span>
-                      <span className="text-amber-600 dark:text-amber-400 font-semibold">
+                      <span className="text-amber-600 dark:text-amber-400 font-bold">
                         {displayedTitle}
                       </span>
                     </>
                   )}
                 </div>
               </div>
-              <span className="text-xs font-medium text-slate-500 dark:text-slate-400 truncate max-w-[175px]">
+              <span className="text-xs font-semibold text-slate-500 dark:text-slate-400 truncate max-w-[175px]">
                 {activeStageBackdropName}
               </span>
             </div>
 
-            {/* Illustrated Game Stage */}
+            {/* Interactive Stage with Floating Vertical Action Rail & Holographic Pedestal */}
             <div
-              className={`hsv-studio-stage relative mt-3 rounded-2xl overflow-hidden border-2 ${activeFrame.ringClass} min-h-[340px] flex flex-col items-center justify-center transition-all`}
+              className={`hsv-studio-stage relative mt-3 rounded-2xl overflow-hidden border-2 ${activeFrame.ringClass} min-h-[345px] flex flex-col items-center justify-between transition-all`}
             >
               <StudioStageBackdrop backdropId={stageBackdropId} roomDecor={roomDecor} />
 
@@ -802,27 +937,131 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                 </div>
               )}
 
-              {/* Speech bubble on character tap */}
-              {speechBubble && (
-                <div className="relative z-20 mx-4 mt-3 px-3.5 py-2 bg-white/95 dark:bg-slate-900/95 text-slate-800 dark:text-slate-100 text-xs font-semibold rounded-2xl shadow-md border border-slate-200 dark:border-slate-700 max-w-xs text-center">
-                  {speechBubble}
-                </div>
-              )}
+              {/* Left Vertical Floating Round Glossy Action Buttons (from mockup) */}
+              <div className="absolute left-2.5 top-1/2 -translate-y-1/2 z-30 flex flex-col gap-2">
+                <button
+                  type="button"
+                  onClick={handleRandomizeLook}
+                  className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white/95 dark:bg-slate-900/90 text-blue-600 dark:text-sky-400 border border-white shadow-md hover:scale-105 active:scale-95 transition-transform flex items-center justify-center cursor-pointer"
+                  title="Phối ngẫu nhiên"
+                  aria-label="Phối ngẫu nhiên"
+                >
+                  <Shuffle className="w-4 h-4" />
+                </button>
+                <button
+                  type="button"
+                  onClick={handleResetLook}
+                  className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white/95 dark:bg-slate-900/90 text-amber-600 dark:text-amber-400 border border-white shadow-md hover:scale-105 active:scale-95 transition-transform flex items-center justify-center cursor-pointer"
+                  title="Về mặc định"
+                  aria-label="Về mặc định"
+                >
+                  <RotateCcw className="w-4 h-4" />
+                </button>
+                <button
+                  type="button"
+                  onClick={handleClearAccessories}
+                  className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white/95 dark:bg-slate-900/90 text-rose-600 dark:text-rose-400 border border-white shadow-md hover:scale-105 active:scale-95 transition-transform flex items-center justify-center cursor-pointer"
+                  title="Gỡ phụ kiện"
+                  aria-label="Gỡ phụ kiện"
+                >
+                  <Eraser className="w-4 h-4" />
+                </button>
+                <button
+                  type="button"
+                  onClick={() => handleSavePreset(0)}
+                  className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white/95 dark:bg-slate-900/90 text-emerald-600 dark:text-emerald-400 border border-white shadow-md hover:scale-105 active:scale-95 transition-transform flex items-center justify-center cursor-pointer"
+                  title="Lưu nhanh vào Bộ 1"
+                  aria-label="Lưu nhanh vào Bộ 1"
+                >
+                  <Bookmark className="w-4 h-4" />
+                </button>
+              </div>
 
-              <div className="relative z-10 py-3">
+              {/* Top Speech Bubble / Sticker Pop */}
+              <div className="relative z-20 w-full flex flex-col items-center pt-2.5 px-12 min-h-[34px]">
+                {activeStickerTag && (
+                  <div className="mb-1 px-3 py-0.5 rounded-xl bg-gradient-to-r from-amber-400 to-orange-500 text-slate-950 font-black text-xs shadow-md studio-reveal-pop">
+                    {activeStickerTag}
+                  </div>
+                )}
+                {speechBubble && (
+                  <div className="px-3.5 py-1.5 bg-white/95 dark:bg-slate-900/95 text-slate-800 dark:text-slate-100 text-xs font-semibold rounded-2xl shadow-md border border-slate-200 dark:border-slate-700 max-w-xs text-center">
+                    {speechBubble}
+                  </div>
+                )}
+              </div>
+
+              {/* Centerpiece 3D Chibi Avatar on Glowing Pedestal */}
+              <div className="relative z-10 py-1 flex items-center justify-center">
                 <AvatarRenderer
                   config={effectiveConfig}
                   size="lg"
                   animated={true}
                   showAura={true}
+                  showPedestal={true}
+                  facing={stageFacing}
                   isReacting={isReacting}
-                  onTap={triggerCharacterReaction}
+                  onTap={() => triggerCharacterReaction()}
                 />
               </div>
 
-              <div className="relative z-10 pb-2 text-[11px] font-medium text-slate-700/85 dark:text-slate-200/95 bg-white/75 dark:bg-slate-900/75 backdrop-blur-xs px-3 py-1 rounded-full mb-2">
-                Chạm vào nhân vật để tương tác
+              {/* Bottom Flip Arrows (↶ ↷) + Interactive Hint */}
+              <div className="relative z-20 w-full px-3 pb-2.5 flex items-center justify-between gap-2">
+                <button
+                  type="button"
+                  onClick={() => {
+                    soundManager.play('click');
+                    setStageFacing(-1);
+                  }}
+                  className={`w-9 h-9 rounded-full flex items-center justify-center shadow-md border transition-transform hover:scale-105 cursor-pointer ${
+                    stageFacing === -1
+                      ? 'bg-sky-500 text-white border-sky-300'
+                      : 'bg-white/90 dark:bg-slate-900/90 text-slate-700 dark:text-slate-200 border-white'
+                  }`}
+                  title="Quay trái"
+                  aria-label="Quay trái"
+                >
+                  <Undo2 className="w-4 h-4" />
+                </button>
+
+                <span className="text-[11px] font-semibold text-slate-700 dark:text-slate-200 bg-white/80 dark:bg-slate-900/80 backdrop-blur-xs px-3 py-1 rounded-full shadow-xs truncate">
+                  Chạm nhân vật để tương tác
+                </span>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    soundManager.play('click');
+                    setStageFacing(1);
+                  }}
+                  className={`w-9 h-9 rounded-full flex items-center justify-center shadow-md border transition-transform hover:scale-105 cursor-pointer ${
+                    stageFacing === 1
+                      ? 'bg-sky-500 text-white border-sky-300'
+                      : 'bg-white/90 dark:bg-slate-900/90 text-slate-700 dark:text-slate-200 border-white'
+                  }`}
+                  title="Quay phải"
+                  aria-label="Quay phải"
+                >
+                  <Redo2 className="w-4 h-4" />
+                </button>
               </div>
+            </div>
+
+            {/* Cartoon Sticker Reaction Strip (Good! / WoW! / Tuyệt Vời / Yêu Thích) */}
+            <div className="mt-3 flex items-center gap-1.5 overflow-x-auto pb-0.5">
+              {STICKER_REACTIONS.map((st) => (
+                <button
+                  key={st.id}
+                  type="button"
+                  onClick={() => {
+                    soundManager.play(st.sound);
+                    triggerCharacterReaction(st.quote, st.label);
+                  }}
+                  className={`px-3 py-1.5 rounded-xl bg-gradient-to-b ${st.accent} font-black text-xs shadow-xs hover:brightness-105 active:scale-95 transition-all whitespace-nowrap shrink-0 cursor-pointer flex-1`}
+                >
+                  {st.label}
+                </button>
+              ))}
             </div>
 
             {/* Active Try-On Bar */}
@@ -856,6 +1095,7 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                     }}
                     className="p-1.5 text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-white rounded-lg cursor-pointer"
                     title="Hủy mặc thử"
+                    aria-label="Hủy mặc thử"
                   >
                     <RotateCcw className="w-4 h-4" />
                   </button>
@@ -864,7 +1104,7 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
             )}
 
             {/* Quick Equipped Slots */}
-            <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-2 text-left">
+            <div className="mt-3 grid grid-cols-2 sm:grid-cols-4 gap-2 text-left">
               {[
                 { label: 'Trang Phục', id: effectiveConfig.outfitId },
                 { label: 'Xe Cộ', id: effectiveConfig.vehicleId },
@@ -942,13 +1182,13 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
             </div>
 
             {/* Earn Coins CTA */}
-            <div className="mt-4 p-3.5 bg-amber-50 dark:bg-amber-950/35 border border-amber-200 dark:border-amber-800/60 rounded-2xl flex items-center justify-between gap-3">
+            <div className="mt-3 p-3.5 bg-amber-50 dark:bg-amber-950/35 border border-amber-200 dark:border-amber-800/60 rounded-2xl flex items-center justify-between gap-3">
               <div>
                 <div className="text-xs font-bold text-amber-950 dark:text-amber-200">
                   Cần thêm Xu và Sao Danh Dự?
                 </div>
                 <div className="text-[11px] text-amber-800 dark:text-amber-300 mt-0.5">
-                  Làm bài tập SGK (tới 3 xu/bài) hoặc thi đấu tại Đấu Trường để mở khóa trang bị mới.
+                  Làm bài tập SGK (tới 3 xu/bài) hoặc thi Đấu Trường để mở khóa trang bị mới.
                 </div>
               </div>
               <button
@@ -965,9 +1205,9 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
           </div>
         </div>
 
-        {/* Right Column: Category Navigation + Shop Grid */}
+        {/* Right Column: Toy-Game Closet Categories & Visual Showcase */}
         <div className="lg:col-span-7 space-y-4">
-          {/* Category Tabs */}
+          {/* Vibrant Rounded Icon Category Tabs */}
           <div className="hsv-studio-categories bg-white dark:bg-slate-900 rounded-2xl p-2 border border-slate-200 dark:border-slate-800 shadow-xs gap-1.5">
             {CATEGORY_TABS.map((tab) => {
               const isActive = activeTab === tab.id;
@@ -980,9 +1220,9 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                     setRarityFilter('all');
                     setSearchQuery('');
                   }}
-                  className={`py-2 px-3 rounded-xl text-xs font-bold flex items-center gap-1.5 whitespace-nowrap shrink-0 transition-colors cursor-pointer ${
+                  className={`py-2 px-3 rounded-xl text-xs font-bold flex items-center gap-1.5 whitespace-nowrap shrink-0 transition-all cursor-pointer ${
                     isActive
-                      ? 'bg-blue-600 text-white shadow-xs'
+                      ? tab.activeBg
                       : 'text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'
                   }`}
                 >
@@ -995,7 +1235,7 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
 
           {/* TAB: APPEARANCE */}
           {activeTab === 'appearance' && (
-            <div className="bg-white dark:bg-slate-900 rounded-3xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm space-y-6">
+            <div className="bg-white dark:bg-slate-900 rounded-3xl p-5 sm:p-6 border border-slate-200 dark:border-slate-800 shadow-sm space-y-6">
               <div className="flex flex-wrap gap-2 border-b border-slate-200 dark:border-slate-800 pb-3">
                 {[
                   { id: 'hair' as const, label: 'Tóc & Mũ Giáp' },
@@ -1007,10 +1247,10 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                   <button
                     key={sub.id}
                     onClick={() => setSelectedSubCategory(sub.id)}
-                    className={`px-3.5 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap cursor-pointer transition-colors ${
+                    className={`px-3.5 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap cursor-pointer transition-colors ${
                       selectedSubCategory === sub.id
-                        ? 'bg-blue-50 dark:bg-blue-900/40 text-blue-600 dark:text-blue-400'
-                        : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
+                        ? 'bg-sky-600 text-white shadow-xs'
+                        : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'
                     }`}
                   >
                     {sub.label}
@@ -1031,7 +1271,7 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                           onClick={() => handleUpdateAppearance({ hairStyle: style.id })}
                           className={`p-3 rounded-2xl border text-left transition-all cursor-pointer ${
                             student.avatarConfig.hairStyle === style.id
-                              ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 font-bold'
+                              ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 font-bold shadow-xs'
                               : 'border-slate-200 dark:border-slate-700 hover:border-slate-300 text-slate-700 dark:text-slate-300'
                           }`}
                         >
@@ -1057,7 +1297,7 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                           onClick={() => handleUpdateAppearance({ hairStyle: style.id })}
                           className={`p-3 rounded-2xl border text-left transition-all cursor-pointer ${
                             student.avatarConfig.hairStyle === style.id
-                              ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 font-bold'
+                              ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 font-bold shadow-xs'
                               : 'border-slate-200 dark:border-slate-700 hover:border-slate-300 text-slate-700 dark:text-slate-300'
                           }`}
                         >
@@ -1228,7 +1468,7 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
 
           {/* TAB: PERSONAL ROOM DECORATION */}
           {activeTab === 'room' && (
-            <div className="bg-white dark:bg-slate-900 rounded-3xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm space-y-6">
+            <div className="bg-white dark:bg-slate-900 rounded-3xl p-5 sm:p-6 border border-slate-200 dark:border-slate-800 shadow-sm space-y-6">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 border-b border-slate-100 dark:border-slate-800">
                 <div>
                   <h2 className="text-lg font-black text-slate-900 dark:text-white">
@@ -1384,8 +1624,7 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                 const isSetComplete = setItems.length > 0 && ownedInSet === setItems.length;
                 const pct = setItems.length > 0 ? Math.round((ownedInSet / setItems.length) * 100) : 0;
                 const accent = SET_ACCENT_STYLE[set.accentColor] || SET_ACCENT_STYLE.amber;
-                const isTitleActive =
-                  isSetComplete && displayedTitle === set.titleReward;
+                const isTitleActive = isSetComplete && displayedTitle === set.titleReward;
 
                 return (
                   <div
@@ -1498,7 +1737,7 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
             </div>
           )}
 
-          {/* TAB: SHOP CATEGORY ITEMS */}
+          {/* TAB: SHOP CATEGORY ITEMS (3-COLUMN VISUAL-FIRST SHOWCASE GRID) */}
           {activeTab !== 'appearance' && activeTab !== 'sets' && activeTab !== 'room' && (
             <div className="space-y-3">
               {/* Filter + Search Bar */}
@@ -1562,7 +1801,7 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                   Chưa có vật phẩm nào phù hợp. Hãy xóa từ khóa hoặc chọn &quot;Tất cả&quot; để xem toàn bộ danh mục.
                 </div>
               ) : (
-                <div className="hsv-studio-items grid gap-3.5">
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                   {currentCategoryItems.map((item) => {
                     const isUnlocked = student.unlockedItems.includes(item.id);
                     const equippedKey = `${item.category}Id` as keyof AvatarConfig;
@@ -1578,139 +1817,131 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                     return (
                       <div
                         key={item.id}
-                        className={`group relative overflow-hidden p-4 rounded-2xl border transition-all flex flex-col justify-between ${
+                        className={`group relative overflow-hidden p-3.5 rounded-2xl border transition-all flex flex-col justify-between text-center ${
                           isEquipped
-                            ? 'bg-blue-50/70 dark:bg-blue-950/35 border-blue-400 dark:border-blue-600 shadow-sm'
+                            ? 'bg-sky-50/85 dark:bg-sky-950/35 border-sky-400 dark:border-sky-600 shadow-sm'
                             : isPreviewing
-                            ? 'bg-amber-50/50 dark:bg-amber-950/25 border-amber-400 dark:border-amber-600'
-                            : 'bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700'
+                            ? 'bg-amber-50/75 dark:bg-amber-950/25 border-amber-400 dark:border-amber-600 shadow-xs'
+                            : 'bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 hover:border-sky-300 dark:hover:border-slate-600'
                         }`}
                       >
-                        {/* Top rarity accent hairline */}
+                        {/* Top rarity hairline strip */}
                         <div className={`absolute top-0 left-0 right-0 h-1 ${rarityMeta.stripClass}`} />
 
-                        <div className="flex items-start gap-3.5 pt-1">
+                        {/* Visual Showcase Stage */}
+                        <button
+                          type="button"
+                          onClick={() => {
+                            if (isUnlocked) {
+                              handleEquipItem(item);
+                            } else {
+                              soundManager.play('click');
+                              setPreviewItem(isPreviewing ? null : item);
+                            }
+                          }}
+                          className={`mt-1 w-full rounded-2xl bg-gradient-to-b ${rarityMeta.tileBg} p-2.5 flex items-center justify-center relative cursor-pointer transition-transform group-hover:scale-[1.02]`}
+                          title={item.description}
+                        >
                           <StudioItemThumbnail
                             renderType={item.renderType}
                             category={item.category}
                             rarity={item.rarity}
-                            size="md"
+                            size="lg"
                           />
+                        </button>
 
-                          <div className="min-w-0 flex-1">
-                            {/* Unboxed clean metadata line */}
-                            <div className="flex items-center gap-1.5 text-[11px] font-semibold">
-                              <span className={rarityMeta.colorClass}>{rarityMeta.text}</span>
-                              <span aria-hidden="true" className="text-slate-300 dark:text-slate-600">
-                                ·
+                        {/* Clean Item Metadata & Title */}
+                        <div className="mt-2.5 space-y-0.5">
+                          <div className="text-[10px] font-semibold flex items-center justify-center gap-1 truncate">
+                            <span className={rarityMeta.colorClass}>{rarityMeta.text}</span>
+                            <span aria-hidden="true" className="text-slate-300 dark:text-slate-600">
+                              ·
+                            </span>
+                            {isUnlocked ? (
+                              <span className="text-emerald-600 dark:text-emerald-400">Đã sở hữu</span>
+                            ) : item.costCoins > 0 ? (
+                              <span className="text-amber-600 dark:text-amber-400 tabular-nums">
+                                {item.costCoins} xu{item.costStars > 0 ? ` · ${item.costStars}★` : ''}
                               </span>
-                              <span className="text-slate-500 dark:text-slate-400 truncate">
-                                {item.tagline}
-                              </span>
-                            </div>
-
-                            <h4 className="font-bold text-sm text-slate-900 dark:text-white leading-snug mt-0.5">
-                              {item.name}
-                            </h4>
-
-                            <p className="text-xs text-slate-500 dark:text-slate-400 mt-1 line-clamp-2">
-                              {item.description}
-                            </p>
+                            ) : (
+                              <span className="text-emerald-600 dark:text-emerald-400">Miễn phí</span>
+                            )}
                           </div>
+
+                          <h4 className="font-black text-xs sm:text-sm text-slate-900 dark:text-white leading-snug line-clamp-2 min-h-[2.25rem] flex items-center justify-center">
+                            {item.name}
+                          </h4>
                         </div>
 
-                        {/* Bottom row: Pricing & Actions */}
-                        <div className="pt-3 mt-3 border-t border-slate-100 dark:border-slate-800 flex flex-wrap items-center justify-between gap-2">
-                          <div className="tabular-nums">
-                            {isUnlocked ? (
-                              <span className="text-xs font-semibold text-emerald-600 dark:text-emerald-400 flex items-center gap-1">
-                                <Check className="w-3.5 h-3.5" /> Đã sở hữu
-                              </span>
-                            ) : (
-                              <div className="flex items-center gap-2.5 text-xs font-bold">
-                                {item.costCoins > 0 ? (
-                                  <span className="flex items-center gap-1 text-amber-600 dark:text-amber-400">
-                                    <CoinIcon className="w-3.5 h-3.5" /> {item.costCoins} xu
-                                  </span>
-                                ) : (
-                                  <span className="text-emerald-600 font-bold">Miễn phí</span>
-                                )}
-                                {item.costStars > 0 && (
-                                  <span className="flex items-center gap-1 text-yellow-600 dark:text-yellow-400">
-                                    <StarIcon className="w-3.5 h-3.5" /> cần {item.costStars} sao
-                                  </span>
-                                )}
-                              </div>
-                            )}
-                          </div>
+                        {/* Crisp Bottom Action Controls */}
+                        <div className="pt-2.5 mt-2 border-t border-slate-100 dark:border-slate-800 flex items-center gap-1.5">
+                          {!isEquipped && !isUnlocked && (
+                            <button
+                              type="button"
+                              onClick={() => {
+                                soundManager.play('click');
+                                setPreviewItem(isPreviewing ? null : item);
+                              }}
+                              className={`p-2 rounded-xl border transition-colors cursor-pointer shrink-0 ${
+                                isPreviewing
+                                  ? 'bg-amber-100 dark:bg-amber-900/40 border-amber-400 text-amber-800 dark:text-amber-200'
+                                  : 'bg-slate-50 dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'
+                              }`}
+                              title={isPreviewing ? 'Hủy mặc thử' : 'Mặc thử lên nhân vật'}
+                              aria-label={isPreviewing ? 'Hủy mặc thử' : 'Mặc thử'}
+                            >
+                              <Eye className="w-3.5 h-3.5" />
+                            </button>
+                          )}
 
-                          <div className="flex flex-wrap items-center gap-1.5">
-                            {!isEquipped && !isUnlocked && (
-                              <button
-                                onClick={() => {
-                                  soundManager.play('click');
-                                  setPreviewItem(isPreviewing ? null : item);
-                                }}
-                                className={`px-2.5 py-1.5 rounded-xl text-xs font-semibold flex items-center gap-1 whitespace-nowrap cursor-pointer border transition-colors ${
-                                  isPreviewing
-                                    ? 'bg-amber-100 dark:bg-amber-900/40 border-amber-400 text-amber-800 dark:text-amber-200'
-                                    : 'bg-slate-50 dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'
-                                }`}
-                              >
-                                <Eye className="w-3.5 h-3.5" />
-                                <span>{isPreviewing ? 'Đang thử' : 'Mặc thử'}</span>
-                              </button>
-                            )}
-
-                            {isEquipped ? (
-                              <button
-                                disabled
-                                className="px-3 py-1.5 bg-emerald-600 text-white font-bold text-xs rounded-xl flex items-center gap-1 whitespace-nowrap cursor-default"
-                              >
-                                <Check className="w-3.5 h-3.5" /> Đang Dùng
-                              </button>
-                            ) : isUnlocked ? (
-                              <button
-                                onClick={() => handleEquipItem(item)}
-                                className="px-3 py-1.5 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs rounded-xl whitespace-nowrap cursor-pointer transition-colors"
-                              >
-                                Mặc Ngay
-                              </button>
-                            ) : isPendingServerSync ? (
-                              <button
-                                onClick={() => void handleBuyItem(item)}
-                                className="px-2.5 py-1.5 bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 font-semibold text-xs rounded-xl border border-slate-200 dark:border-slate-700 whitespace-nowrap cursor-pointer"
-                                title="Vật phẩm mới đang chờ quản trị viên đồng bộ lên Supabase"
-                              >
-                                Chờ đồng bộ
-                              </button>
-                            ) : canAfford ? (
-                              <button
-                                disabled={Boolean(busyItemId)}
-                                onClick={() => void handleBuyItem(item)}
-                                className="px-3 py-1.5 bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs rounded-xl flex items-center gap-1 whitespace-nowrap cursor-pointer transition-colors disabled:opacity-60"
-                              >
-                                {isBuyingThis ? (
-                                  <Loader2 className="w-3.5 h-3.5 animate-spin" />
-                                ) : (
-                                  <Sparkles className="w-3.5 h-3.5" />
-                                )}
-                                <span>Mở Khóa</span>
-                              </button>
-                            ) : (
-                              <button
-                                onClick={() => {
-                                  soundManager.play('click');
-                                  onNavigateToStudy();
-                                }}
-                                className="px-2.5 py-1.5 bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 hover:text-amber-600 font-semibold text-xs rounded-xl flex items-center gap-1 border border-slate-200 dark:border-slate-700 whitespace-nowrap cursor-pointer"
-                                title="Chưa đủ xu hoặc sao - bấm để làm bài tập SGK kiếm thêm!"
-                              >
-                                <Lock className="w-3 h-3" />
-                                <span>Kiếm Xu</span>
-                              </button>
-                            )}
-                          </div>
+                          {isEquipped ? (
+                            <button
+                              disabled
+                              className="w-full py-1.5 px-2.5 bg-emerald-600 text-white font-bold text-xs rounded-xl flex items-center justify-center gap-1 whitespace-nowrap cursor-default"
+                            >
+                              <Check className="w-3.5 h-3.5" /> Đang Dùng
+                            </button>
+                          ) : isUnlocked ? (
+                            <button
+                              onClick={() => handleEquipItem(item)}
+                              className="w-full py-1.5 px-2.5 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs rounded-xl whitespace-nowrap cursor-pointer transition-colors"
+                            >
+                              Mặc Ngay
+                            </button>
+                          ) : isPendingServerSync ? (
+                            <button
+                              onClick={() => void handleBuyItem(item)}
+                              className="w-full py-1.5 px-2 bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 font-semibold text-xs rounded-xl border border-slate-200 dark:border-slate-700 whitespace-nowrap cursor-pointer truncate"
+                              title="Vật phẩm mới đang chờ quản trị viên đồng bộ lên Supabase"
+                            >
+                              Chờ đồng bộ
+                            </button>
+                          ) : canAfford ? (
+                            <button
+                              disabled={Boolean(busyItemId)}
+                              onClick={() => void handleBuyItem(item)}
+                              className="w-full py-1.5 px-2.5 bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs rounded-xl flex items-center justify-center gap-1 whitespace-nowrap cursor-pointer transition-colors disabled:opacity-60"
+                            >
+                              {isBuyingThis ? (
+                                <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                              ) : (
+                                <Sparkles className="w-3.5 h-3.5" />
+                              )}
+                              <span>Mở Khóa</span>
+                            </button>
+                          ) : (
+                            <button
+                              onClick={() => {
+                                soundManager.play('click');
+                                onNavigateToStudy();
+                              }}
+                              className="w-full py-1.5 px-2 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:text-amber-600 font-semibold text-xs rounded-xl flex items-center justify-center gap-1 border border-slate-200 dark:border-slate-700 whitespace-nowrap cursor-pointer"
+                              title="Chưa đủ xu hoặc sao - bấm để làm bài tập SGK kiếm thêm!"
+                            >
+                              <Lock className="w-3 h-3" />
+                              <span>Kiếm Xu</span>
+                            </button>
+                          )}
                         </div>
                       </div>
                     );
@@ -1790,33 +2021,33 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                           offset="0%"
                           stopColor={
                             unlockedRevealItem.rarity === 'mythic'
-                              ? '#8b5cf6'
+                              ? '#a855f7'
                               : unlockedRevealItem.rarity === 'vip'
-                              ? '#f59e0b'
-                              : '#2563eb'
+                              ? '#fbbf24'
+                              : '#38bdf8'
                           }
                         />
                         <stop
                           offset="100%"
                           stopColor={
                             unlockedRevealItem.rarity === 'mythic'
-                              ? '#db2777'
+                              ? '#ec4899'
                               : unlockedRevealItem.rarity === 'vip'
-                              ? '#d97706'
-                              : '#1d4ed8'
+                              ? '#ea580c'
+                              : '#2563eb'
                           }
                         />
                       </linearGradient>
                     </defs>
                     <ellipse cx="60" cy="104" rx="38" ry="8" fill="#0f172a" opacity="0.22" />
-                    <rect x="22" y="48" width="76" height="52" rx="10" fill="url(#unboxBoxBody)" stroke="#1e293b" strokeWidth="3" />
-                    <rect x="53" y="48" width="14" height="52" fill="#fde047" stroke="#1e293b" strokeWidth="2.5" />
-                    <line x1="22" y1="50" x2="98" y2="50" stroke="#fef08a" strokeWidth="3" opacity="0.9" />
-                    <rect x="17" y="34" width="86" height="18" rx="6" fill="url(#unboxBoxBody)" stroke="#1e293b" strokeWidth="3" />
-                    <rect x="53" y="34" width="14" height="18" fill="#facc15" stroke="#1e293b" strokeWidth="2.5" />
-                    <path d="M60 34 C45 14, 30 24, 44 34 Z" fill="#fde047" stroke="#1e293b" strokeWidth="2.5" />
-                    <path d="M60 34 C75 14, 90 24, 76 34 Z" fill="#facc15" stroke="#1e293b" strokeWidth="2.5" />
-                    <circle cx="60" cy="34" r="5.5" fill="#fef08a" stroke="#1e293b" strokeWidth="2.5" />
+                    <rect x="22" y="48" width="76" height="52" rx="14" fill="url(#unboxBoxBody)" />
+                    <rect x="53" y="48" width="14" height="52" rx="3" fill="#fde047" />
+                    <rect x="22" y="48" width="76" height="6" fill="#ffffff" opacity="0.25" />
+                    <rect x="17" y="34" width="86" height="18" rx="9" fill="url(#unboxBoxBody)" />
+                    <rect x="53" y="34" width="14" height="18" rx="3" fill="#facc15" />
+                    <path d="M60 34 C45 14, 30 24, 44 34 Z" fill="#fde047" />
+                    <path d="M60 34 C75 14, 90 24, 76 34 Z" fill="#facc15" />
+                    <circle cx="60" cy="34" r="6" fill="#fef08a" />
                   </svg>
                 </button>
 
