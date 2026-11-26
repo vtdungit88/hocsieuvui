@@ -47,6 +47,21 @@ export interface PersonalRoomDecor {
   showTrophyRack: boolean;
 }
 
+export type AvatarFrameId =
+  | 'frame_none'
+  | 'frame_cat_gold'
+  | 'frame_star_blue'
+  | 'frame_rainbow'
+  | 'frame_hero_shield';
+
+export interface AvatarFrameOption {
+  id: AvatarFrameId;
+  name: string;
+  desc: string;
+  ringClass: string;
+  accentColor: string;
+}
+
 export interface OutfitPreset {
   id: string;
   name: string;

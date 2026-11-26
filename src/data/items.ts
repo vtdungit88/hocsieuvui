@@ -1381,9 +1381,16 @@ export const HAIR_STYLES = [
   { id: 'undercut', name: 'Undercut Sành Điệu', forGender: ['boy', 'girl', 'scholar'] },
   { id: 'messy_spiky', name: 'Tóc Nhím Năng Động', forGender: ['boy', 'girl', 'scholar'] },
   { id: 'ponytail', name: 'Đuôi Ngựa Năng Động', forGender: ['boy', 'girl', 'scholar'] },
+  { id: 'ponytail_ribbon', name: 'Đuôi Ngựa Nơ Hồng', forGender: ['boy', 'girl', 'scholar'] },
   { id: 'twintails', name: 'Buộc Hai Bên Chibi', forGender: ['boy', 'girl', 'scholar'] },
   { id: 'bob_bangs', name: 'Mái Ngố Đáng Yêu', forGender: ['boy', 'girl', 'scholar'] },
-  { id: 'curly_wave', name: 'Xoăn Mì Tôm Cá Tính', forGender: ['boy', 'girl', 'scholar'] },
+  { id: 'curly_wave', name: 'Xoăn Bồng Bềnh Cá Tính', forGender: ['boy', 'girl', 'scholar'] },
+  { id: 'hat_cap_red', name: 'Mũ Lưỡi Trai Ngôi Sao', forGender: ['boy', 'girl', 'scholar'] },
+  { id: 'headphones_cat', name: 'Tai Nghe Mèo Game Thủ', forGender: ['boy', 'girl', 'scholar'] },
+  { id: 'crown_princess', name: 'Vương Miện Công Chúa', forGender: ['boy', 'girl', 'scholar'] },
+  { id: 'tiara_fairy', name: 'Bờm Cánh Tiên Lung Linh', forGender: ['boy', 'girl', 'scholar'] },
+  { id: 'hat_nonla', name: 'Nón Lá Quê Hương', forGender: ['boy', 'girl', 'scholar'] },
+  { id: 'hat_pirate', name: 'Mũ Thuyền Trưởng Hải Tặc', forGender: ['boy', 'girl', 'scholar'] },
   { id: 'helmet_hero', name: 'Mũ Giáp Siêu Anh Hùng', forGender: ['boy', 'girl', 'scholar'] },
   { id: 'helmet_ranger', name: 'Mũ Chiến Binh Biệt Đội', forGender: ['boy', 'girl', 'scholar'] },
   { id: 'hood_ninja', name: 'Khăn Trùm Ninja Bóng Đêm', forGender: ['boy', 'girl', 'scholar'] },
@@ -1393,7 +1400,7 @@ export const HAIR_STYLES = [
 ];
 
 export const HAIR_COLORS = [
-  { id: '#1E293B', name: 'Đen Tuyển' },
+  { id: '#1E293B', name: 'Đen Tuyền' },
   { id: '#78350F', name: 'Nâu Hạt Dẻ' },
   { id: '#D97706', name: 'Vàng Nắng' },
   { id: '#DC2626', name: 'Đỏ Năng Lượng' },
@@ -1412,10 +1419,57 @@ export const EYE_EXPRESSIONS = [
   { id: 'glasses_happy', name: 'Kính Cận Bác Học & Cười Tươi' },
   { id: 'sparkle_joy', name: 'Mắt Long Lanh Tinh Anh' },
   { id: 'cool_wink', name: 'Nháy Mắt Tự Tin' },
+  { id: 'heart_eyes', name: 'Mắt Trái Tim Yêu Thích' },
+  { id: 'star_eyes', name: 'Mắt Ngôi Sao Hào Hứng' },
+  { id: 'surprised_cute', name: 'Ngạc Nhiên Dễ Thương' },
   { id: 'focused_scholar', name: 'Tập Trung Cao Độ' },
   { id: 'sunglasses_boss', name: 'Kính Đen Cool Ngầu' },
   { id: 'visor_hud', name: 'Kính Chiến Binh Công Nghệ HUD' },
   { id: 'mask_hero', name: 'Mặt Nạ Siêu Anh Hùng' },
   { id: 'goggles_racer', name: 'Kính Phi Công Đua Xe' },
   { id: 'flame_eyes', name: 'Đôi Mắt Rực Lửa Quyết Tâm' }
+];
+
+export const AVATAR_FRAMES: {
+  id: 'frame_none' | 'frame_cat_gold' | 'frame_star_blue' | 'frame_rainbow' | 'frame_hero_shield';
+  name: string;
+  desc: string;
+  ringClass: string;
+  accentColor: string;
+}[] = [
+  {
+    id: 'frame_none',
+    name: 'Mặc Định Gọn Gàng',
+    desc: 'Khung sân khấu tiêu chuẩn rõ nét',
+    ringClass: 'border-slate-200 dark:border-slate-700',
+    accentColor: '#64748B'
+  },
+  {
+    id: 'frame_cat_gold',
+    name: 'Khung Tai Mèo Vàng Kim',
+    desc: 'Viền vàng rực rỡ kèm tai mèo đáng yêu',
+    ringClass: 'border-amber-400 ring-4 ring-amber-300/40 dark:ring-amber-500/30',
+    accentColor: '#F59E0B'
+  },
+  {
+    id: 'frame_star_blue',
+    name: 'Khung Ánh Sao Vũ Trụ',
+    desc: 'Ánh xanh dương lấp lánh các vì sao',
+    ringClass: 'border-sky-400 ring-4 ring-sky-400/35 dark:ring-sky-500/30',
+    accentColor: '#0EA5E9'
+  },
+  {
+    id: 'frame_rainbow',
+    name: 'Khung Cầu Vồng Ngọt Ngào',
+    desc: 'Viền sắc màu tươi vui đầy năng lượng',
+    ringClass: 'border-pink-400 ring-4 ring-fuchsia-400/30 dark:ring-pink-500/25',
+    accentColor: '#EC4899'
+  },
+  {
+    id: 'frame_hero_shield',
+    name: 'Khung Huy Hiệu Siêu Anh Hùng',
+    desc: 'Khung chiến binh đỏ xanh mạnh mẽ',
+    ringClass: 'border-red-500 ring-4 ring-blue-500/30 dark:ring-red-500/30',
+    accentColor: '#DC2626'
+  }
 ];

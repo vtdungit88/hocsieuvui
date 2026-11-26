@@ -8,7 +8,8 @@ import {
   ItemRarity,
   PersonalRoomDecor,
   OutfitPreset,
-  RoomWallTheme
+  RoomWallTheme,
+  AvatarFrameId
 } from '../types';
 import {
   SHOP_ITEMS,
@@ -17,7 +18,8 @@ import {
   HAIR_COLORS,
   SKIN_TONES,
   EYE_EXPRESSIONS,
-  DEFAULT_ROOM_DECOR
+  DEFAULT_ROOM_DECOR,
+  AVATAR_FRAMES
 } from '../data/items';
 import { AvatarRenderer } from './AvatarRenderer';
 import { StudioStageBackdrop } from './StudioStageBackdrop';
@@ -224,6 +226,24 @@ const loadActiveTitle = (studentId: string): string => {
   }
 };
 
+const loadAvatarFrame = (studentId: string): AvatarFrameId => {
+  try {
+    const val = localStorage.getItem(`hsv_avatar_frame_${studentId}`);
+    if (
+      val === 'frame_none' ||
+      val === 'frame_cat_gold' ||
+      val === 'frame_star_blue' ||
+      val === 'frame_rainbow' ||
+      val === 'frame_hero_shield'
+    ) {
+      return val;
+    }
+    return 'frame_none';
+  } catch {
+    return 'frame_none';
+  }
+};
+
 export const AvatarStudio: React.FC<AvatarStudioProps> = ({
   student,
   onUpdateStudent,
@@ -231,21 +251,27 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
   onRequireLogin
 }) => {
   const [activeTab, setActiveTab] = useState<StudioTab>('outfit');
-  const [selectedSubCategory, setSelectedSubCategory] = useState<'hair' | 'eyes' | 'skin' | 'gender'>('hair');
+  const [selectedSubCategory, setSelectedSubCategory] = useState<
+    'hair' | 'eyes' | 'skin' | 'gender' | 'frame'
+  >('hair');
   const [rarityFilter, setRarityFilter] = useState<'all' | 'owned' | ItemRarity>('all');
   const [searchQuery, setSearchQuery] = useState('');
 
-  // Personal room state + quick outfit loadouts + chosen title badge
+  // Personal room state + quick outfit loadouts + chosen title badge + stage frame
   const [roomDecor, setRoomDecor] = useState<PersonalRoomDecor>(() => loadRoomDecor(student.id));
   const [outfitPresets, setOutfitPresets] = useState<(OutfitPreset | null)[]>(() =>
     loadOutfitPresets(student.id)
   );
   const [activeTitleId, setActiveTitleId] = useState<string>(() => loadActiveTitle(student.id));
+  const [avatarFrameId, setAvatarFrameId] = useState<AvatarFrameId>(() =>
+    loadAvatarFrame(student.id)
+  );
 
   useEffect(() => {
     setRoomDecor(loadRoomDecor(student.id));
     setOutfitPresets(loadOutfitPresets(student.id));
     setActiveTitleId(loadActiveTitle(student.id));
+    setAvatarFrameId(loadAvatarFrame(student.id));
   }, [student.id]);
 
   // Hydrated catalog synced with live Supabase shop_items pricing
@@ -621,18 +647,35 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
   const ownsMyRoom = student.unlockedItems.includes('bg_my_room');
   const equippedMyRoom = student.avatarConfig.backdropId === 'bg_my_room';
 
+  const handleSelectAvatarFrame = (frameId: AvatarFrameId) => {
+    soundManager.play('equip');
+    setAvatarFrameId(frameId);
+    try {
+      localStorage.setItem(`hsv_avatar_frame_${student.id}`, frameId);
+    } catch {
+      // ignore
+    }
+  };
+
+  const activeFrame = useMemo(
+    () => AVATAR_FRAMES.find((f) => f.id === avatarFrameId) || AVATAR_FRAMES[0],
+    [avatarFrameId]
+  );
+
+  const isHeadgearId = (id: string) =>
+    id.startsWith('helmet_') ||
+    id.startsWith('hat_') ||
+    id.startsWith('hood_') ||
+    id.startsWith('headphones_') ||
+    id.startsWith('crown_') ||
+    id.startsWith('tiara_');
+
   const regularHairStyles = useMemo(
-    () =>
-      HAIR_STYLES.filter(
-        (h) => !h.id.startsWith('helmet_') && !h.id.startsWith('hat_') && !h.id.startsWith('hood_')
-      ),
+    () => HAIR_STYLES.filter((h) => !isHeadgearId(h.id)),
     []
   );
   const headgearStyles = useMemo(
-    () =>
-      HAIR_STYLES.filter(
-        (h) => h.id.startsWith('helmet_') || h.id.startsWith('hat_') || h.id.startsWith('hood_')
-      ),
+    () => HAIR_STYLES.filter((h) => isHeadgearId(h.id)),
     []
   );
 
@@ -728,8 +771,36 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
             </div>
 
             {/* Illustrated Game Stage */}
-            <div className="hsv-studio-stage relative mt-3 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 min-h-[340px] flex flex-col items-center justify-center">
+            <div
+              className={`hsv-studio-stage relative mt-3 rounded-2xl overflow-hidden border-2 ${activeFrame.ringClass} min-h-[340px] flex flex-col items-center justify-center transition-all`}
+            >
               <StudioStageBackdrop backdropId={stageBackdropId} roomDecor={roomDecor} />
+
+              {/* Decorative Cartoon Stage Frame Accents */}
+              {avatarFrameId === 'frame_cat_gold' && (
+                <svg
+                  viewBox="0 0 100 100"
+                  preserveAspectRatio="none"
+                  className="pointer-events-none absolute inset-0 z-20 w-full h-full"
+                  aria-hidden="true"
+                >
+                  <polygon points="4,16 10,3 17,11" fill="#FACC15" stroke="#B45309" strokeWidth="1.2" />
+                  <polygon points="96,16 90,3 83,11" fill="#FACC15" stroke="#B45309" strokeWidth="1.2" />
+                </svg>
+              )}
+              {avatarFrameId === 'frame_star_blue' && (
+                <div className="pointer-events-none absolute top-2.5 right-3 z-20 flex items-center gap-1 text-sky-300 drop-shadow">
+                  <Sparkles className="w-4 h-4" />
+                </div>
+              )}
+              {avatarFrameId === 'frame_rainbow' && (
+                <div className="pointer-events-none absolute inset-x-0 top-0 h-1.5 z-20 bg-gradient-to-r from-rose-400 via-amber-300 via-emerald-400 to-sky-400" />
+              )}
+              {avatarFrameId === 'frame_hero_shield' && (
+                <div className="pointer-events-none absolute top-2.5 left-3 z-20 flex items-center gap-1 text-red-500 drop-shadow">
+                  <ShieldCheck className="w-4 h-4" />
+                </div>
+              )}
 
               {/* Speech bubble on character tap */}
               {speechBubble && (
@@ -930,7 +1001,8 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                   { id: 'hair' as const, label: 'Tóc & Mũ Giáp' },
                   { id: 'eyes' as const, label: 'Mắt, Kính & Mặt Nạ' },
                   { id: 'skin' as const, label: 'Làn Da' },
-                  { id: 'gender' as const, label: 'Hình Mẫu' }
+                  { id: 'gender' as const, label: 'Hình Mẫu' },
+                  { id: 'frame' as const, label: 'Khung Avatar' }
                 ].map((sub) => (
                   <button
                     key={sub.id}
@@ -1106,6 +1178,48 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                         <div className="text-xs text-slate-800 dark:text-slate-200">{g.label}</div>
                       </button>
                     ))}
+                  </div>
+                </div>
+              )}
+
+              {selectedSubCategory === 'frame' && (
+                <div>
+                  <h3 className="text-xs font-bold text-slate-500 dark:text-slate-400 mb-3">
+                    Khung Trang Trí Sân Khấu Nhân Vật
+                  </h3>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {AVATAR_FRAMES.map((frame) => {
+                      const active = avatarFrameId === frame.id;
+                      return (
+                        <button
+                          key={frame.id}
+                          onClick={() => handleSelectAvatarFrame(frame.id)}
+                          className={`p-3.5 rounded-2xl border text-left transition-all cursor-pointer flex items-center gap-3 ${
+                            active
+                              ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30 font-bold'
+                              : 'border-slate-200 dark:border-slate-700 hover:border-slate-300'
+                          }`}
+                        >
+                          <div
+                            className={`w-10 h-10 rounded-xl border-2 ${frame.ringClass} bg-white dark:bg-slate-800 shrink-0 flex items-center justify-center`}
+                          >
+                            <span
+                              className="w-3.5 h-3.5 rounded-full"
+                              style={{ backgroundColor: frame.accentColor }}
+                            />
+                          </div>
+                          <div className="min-w-0 flex-1">
+                            <div className="text-xs font-bold text-slate-900 dark:text-white truncate">
+                              {frame.name}
+                            </div>
+                            <div className="text-[11px] font-normal text-slate-500 dark:text-slate-400 mt-0.5">
+                              {frame.desc}
+                            </div>
+                          </div>
+                          {active && <Check className="w-4 h-4 text-blue-600 dark:text-blue-400 shrink-0" />}
+                        </button>
+                      );
+                    })}
                   </div>
                 </div>
               )}

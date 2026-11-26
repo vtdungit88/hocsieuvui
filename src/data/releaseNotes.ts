@@ -15,6 +15,15 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.20',
+    date: '2026-11-26',
+    title: 'Nâng cấp đồ họa Chibi Hoạt Hình 3D cho Nhân vật, Thú cưng & Phòng Cá Nhân',
+    items: [
+      'Thiết kế lại nhân vật Avatar theo tỉ lệ Chibi hoạt hình 3D đổ bóng mịn, má hồng rạng rỡ, đôi mắt long lanh và bổ sung 7 kiểu tóc/nón/tai nghe/vương miện mới cùng 3 biểu cảm cảm xúc dễ thương.',
+      'Nâng cấp Phòng Cá Nhân thành không gian góc phòng Isometric ấm cúng cùng 5 Khung Avatar trang trí sân khấu, đồng bộ tạo hình 3D bóng bẩy cho thú cưng (kể cả Vui-Bot Mini), đôi cánh hào quang, xe cộ và toàn bộ biểu tượng cửa hàng.'
+    ]
+  },
+  {
     version: '0.2.19',
     date: '2026-11-26',
     title: 'Mở rộng HSV Avatar World: Thế giới vật phẩm, thú cưng, siêu xe & Phòng Cá Nhân',
