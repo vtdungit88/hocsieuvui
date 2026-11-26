@@ -15,6 +15,14 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.17',
+    date: '2026-11-26',
+    title: 'Thanh chọn chương dễ nhìn hơn',
+    items: [
+      'Thanh chọn chương trong trang Bài Học có nền trắng, chữ to đậm, nút có viền nên đọc rõ trên mọi hình nền; tên chương dài tự xuống dòng, không còn phải cuộn ngang.'
+    ]
+  },
+  {
     version: '0.2.16',
     date: '2026-11-25',
     title: 'Toán 9 chuẩn SGK: 32 bài, câu hỏi kèm hình',

@@ -660,7 +660,7 @@ export const MathGameArena: React.FC<MathGameArenaProps> = ({
           </div>
 
           {/* Chapter Tabs */}
-          <div className="flex gap-2 overflow-x-auto pb-2 border-b border-slate-200 dark:border-slate-800">
+          <div className="flex flex-wrap gap-2.5 p-3 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 shadow-md" role="tablist" aria-label="Chọn chương">
             {availableChapters.map((chap) => {
               return (
                 <button
@@ -669,10 +669,12 @@ export const MathGameArena: React.FC<MathGameArenaProps> = ({
                     soundManager.play('click');
                     setSelectedChapter(chap.num);
                   }}
-                  className={`py-2 px-4 rounded-xl text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
+                  role="tab"
+                  aria-selected={selectedChapter === chap.num}
+                  className={`py-2.5 px-4 rounded-xl text-sm sm:text-base font-extrabold text-left leading-snug transition-all cursor-pointer border-2 ${
                     selectedChapter === chap.num
-                      ? 'bg-blue-600 text-white shadow-sm'
-                      : 'text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800'
+                      ? 'bg-blue-600 border-blue-600 text-white shadow-md'
+                      : 'bg-slate-50 dark:bg-slate-800 border-slate-300 dark:border-slate-600 text-slate-900 dark:text-slate-100 hover:bg-blue-50 hover:border-blue-400 dark:hover:bg-slate-700'
                   }`}
                 >
                   {chap.title}
