@@ -247,6 +247,10 @@ export const AvatarRenderer: React.FC<AvatarRendererProps> = ({
 }) => {
   const rawId = useId();
   const uid = rawId.replace(/[^a-zA-Z0-9_-]/g, '');
+  // Hiệu ứng ánh sáng 3D (đồ chơi nhựa bóng) – chỉ ở cỡ lớn, và bỏ qua trên máy yếu khi đang hoạt họa để giữ độ mượt.
+  const useToy =
+    (size === 'md' || size === 'lg' || size === 'xl') &&
+    !(animated && typeof navigator !== 'undefined' && (navigator.hardwareConcurrency || 4) < 6);
 
   const sizeMap = {
     xs: { width: 28, height: 32 },
@@ -399,6 +403,19 @@ export const AvatarRenderer: React.FC<AvatarRendererProps> = ({
             <feGaussianBlur stdDeviation="4" result="blur" />
             <feComposite in="SourceGraphic" in2="blur" operator="over" />
           </filter>
+<filter id={`toy3d_${uid}`} x="-8%" y="-8%" width="116%" height="116%" colorInterpolationFilters="sRGB">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="3.5" result="h" />
+            <feSpecularLighting in="h" surfaceScale="5" specularConstant="0.3" specularExponent="28" lightingColor="#FFFFFF" result="spec">
+              <feDistantLight azimuth="235" elevation="55" />
+            </feSpecularLighting>
+            <feComposite in="spec" in2="SourceAlpha" operator="in" result="specIn" />
+            <feDiffuseLighting in="h" surfaceScale="4.0" diffuseConstant="1" lightingColor="#FFFFFF" result="dif">
+              <feDistantLight azimuth="235" elevation="60" />
+            </feDiffuseLighting>
+            <feComposite in="SourceGraphic" in2="dif" operator="arithmetic" k1="1.12" k2="0" k3="0" k4="0" result="lit" />
+            <feComposite in="lit" in2="SourceAlpha" operator="in" result="litIn" />
+            <feBlend in="specIn" in2="litIn" mode="screen" />
+          </filter>
           <filter id={`softAO_${uid}`} x="-20%" y="-20%" width="140%" height="140%">
             <feDropShadow dx="0" dy="4" stdDeviation="3.5" floodColor="#0F172A" floodOpacity="0.22" />
           </filter>
@@ -440,6 +457,7 @@ export const AvatarRenderer: React.FC<AvatarRendererProps> = ({
         {/* FACING + FLOATING WRAPPER FOR CHARACTER + VEHICLE */}
         <g
           transform={facing === -1 ? 'translate(320 0) scale(-1 1)' : undefined}
+          filter={useToy ? `url(#toy3d_${uid})` : undefined}
         >
           <g className={animated && isFloatingVehicle ? 'studio-float' : ''}>
             {/* 1. VEHICLE / BASE (Bottom Layer) */}

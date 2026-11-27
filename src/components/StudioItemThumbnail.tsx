@@ -877,6 +877,19 @@ export const StudioItemThumbnail: React.FC<StudioItemThumbnailProps> = ({
           <filter id={`toyAO_${uid}`} x="-20%" y="-20%" width="140%" height="140%">
             <feDropShadow dx="0" dy="3" stdDeviation="2.5" floodColor="#0F172A" floodOpacity="0.18" />
           </filter>
+<filter id={`toy3d_${uid}`} x="-8%" y="-8%" width="116%" height="116%" colorInterpolationFilters="sRGB">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="1.1" result="h" />
+            <feSpecularLighting in="h" surfaceScale="1.6" specularConstant="0.3" specularExponent="28" lightingColor="#FFFFFF" result="spec">
+              <feDistantLight azimuth="235" elevation="55" />
+            </feSpecularLighting>
+            <feComposite in="spec" in2="SourceAlpha" operator="in" result="specIn" />
+            <feDiffuseLighting in="h" surfaceScale="1.2800000000000002" diffuseConstant="1" lightingColor="#FFFFFF" result="dif">
+              <feDistantLight azimuth="235" elevation="60" />
+            </feDiffuseLighting>
+            <feComposite in="SourceGraphic" in2="dif" operator="arithmetic" k1="1.12" k2="0" k3="0" k4="0" result="lit" />
+            <feComposite in="lit" in2="SourceAlpha" operator="in" result="litIn" />
+            <feBlend in="specIn" in2="litIn" mode="screen" />
+          </filter>
           <filter id={`toyGlow_${uid}`} x="-25%" y="-25%" width="150%" height="150%">
             <feGaussianBlur stdDeviation="2.2" result="b" />
             <feComposite in="SourceGraphic" in2="b" operator="over" />
@@ -885,7 +898,7 @@ export const StudioItemThumbnail: React.FC<StudioItemThumbnailProps> = ({
         {category !== 'backdrop' && (
           <ellipse cx="40" cy="70" rx="19" ry="3.8" fill="#0F172A" opacity="0.14" />
         )}
-        {renderArtwork()}
+        <g filter={category !== 'backdrop' ? `url(#toy3d_${uid})` : undefined}>{renderArtwork()}</g>
       </svg>
     </div>
   );

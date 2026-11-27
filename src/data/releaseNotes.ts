@@ -15,6 +15,15 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.19',
+    date: '2026-11-27',
+    title: 'Nhân vật và vật phẩm có khối 3D bóng như đồ chơi',
+    items: [
+      'Nhân vật và toàn bộ vật phẩm trong Studio được thêm ánh sáng, bóng đổ và độ bóng kiểu đồ chơi 3D hoạt hình nên có chiều sâu hơn.',
+      'Với máy yếu, hiệu ứng tự tắt khi nhân vật đang chuyển động để không bị giật.'
+    ]
+  },
+  {
     version: '0.2.22',
     date: '2026-11-26',
     title: 'Hoàn thiện hình ảnh Diện Mạo, Khung & Sticker, Huy hiệu & đồng bộ hiển thị toàn trang',
