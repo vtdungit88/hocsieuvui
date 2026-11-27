@@ -10,12 +10,13 @@ import {
   Music,
   Play,
   Sparkles,
+  Swords,
   Trophy,
   Unlock,
   VolumeX,
   X
 } from 'lucide-react';
-import type { StudentProfile } from '../types';
+import type { GradeLevel, StudentProfile } from '../types';
 import { SUBJECTS_CATALOG } from '../data/subjectsCatalog';
 import {
   fetchCurriculum,
@@ -26,7 +27,7 @@ import {
   type SubjectKey
 } from '../lib/api';
 import { soundManager } from '../utils/audio';
-import { StarIcon } from './GameIcons';
+import { CoinIcon, StarIcon } from './GameIcons';
 import { MapHUD } from './map/MapHUD';
 import { FogOfWar } from './map/FogOfWar';
 import { IslandArt, biomeFor, BIOMES } from './map/IslandArt';
@@ -37,10 +38,13 @@ import { AdventureLeaderboardModal } from './map/AdventureLeaderboardModal';
 import { VUIBOT_ASSETS } from '../data/vuibotMascot';
 import {
   ADVENTURE_REALMS,
+  type AdventureRealm,
   type AdventureRealmId,
   type AdventureWorldSave,
   type RealmLandmark,
   type RealmSecretItem,
+  evaluateRealmPortalStatus,
+  getLandmarkGateInfo,
   getRealmExplorationPoints,
   isRealmChestReady,
   loadAdventureSave,
@@ -51,7 +55,8 @@ import {
   ChestRewardModal,
   CollectionAlbumModal,
   LandmarkModal,
-  NpcQuestModal
+  NpcQuestModal,
+  PortalGateModal
 } from './map/AdventureWorldModals';
 
 interface Props {
@@ -60,6 +65,10 @@ interface Props {
   initialGrade: number;
   onStartNode: (subjectId: string, grade: number, lessonCode: string) => void;
   onRequireLogin?: () => void;
+  onUpdateStudent?: (updated: StudentProfile) => void;
+  onNavigateToStudy?: () => void;
+  onNavigateToArena?: () => void;
+  onNavigateToShop?: () => void;
 }
 
 interface MapNode {
@@ -86,7 +95,11 @@ export const AdventureMap: React.FC<Props> = ({
   initialSubjectId,
   initialGrade,
   onStartNode,
-  onRequireLogin
+  onRequireLogin,
+  onUpdateStudent,
+  onNavigateToStudy,
+  onNavigateToArena,
+  onNavigateToShop
 }) => {
   const [mapMode, setMapMode] = useState<'world' | 'study'>('world');
   const [music, setMusic] = useState(() => mapAudio.isEnabled());
@@ -98,6 +111,7 @@ export const AdventureMap: React.FC<Props> = ({
   const [npcOpen, setNpcOpen] = useState(false);
   const [chestModalOpen, setChestModalOpen] = useState(false);
   const [albumOpen, setAlbumOpen] = useState(false);
+  const [portalTargetRealm, setPortalTargetRealm] = useState<AdventureRealm | null>(null);
   const [toastMsg, setToastMsg] = useState<string | null>(null);
 
   // Study Trail state
@@ -109,7 +123,6 @@ export const AdventureMap: React.FC<Props> = ({
   const [selected, setSelected] = useState<number | null>(null);
   const [showBoard, setShowBoard] = useState(false);
 
-  // Reload adventure save when student switches
   useEffect(() => {
     const loaded = loadAdventureSave(student.id);
     setWorldSave(loaded);
@@ -135,7 +148,7 @@ export const AdventureMap: React.FC<Props> = ({
 
   useEffect(() => {
     if (!toastMsg) return;
-    const t = window.setTimeout(() => setToastMsg(null), 3800);
+    const t = window.setTimeout(() => setToastMsg(null), 4200);
     return () => window.clearTimeout(t);
   }, [toastMsg]);
 
@@ -147,15 +160,48 @@ export const AdventureMap: React.FC<Props> = ({
     });
   };
 
+  const rewardStudent = (coinsDelta: number, xpDelta: number) => {
+    if (!onUpdateStudent || (coinsDelta === 0 && xpDelta === 0)) return;
+    onUpdateStudent({
+      ...student,
+      coins: student.coins + coinsDelta,
+      exp: student.exp + xpDelta
+    });
+  };
+
   const activeRealm = useMemo(
     () => ADVENTURE_REALMS.find((r) => r.id === activeRealmId) ?? ADVENTURE_REALMS[0],
     [activeRealmId]
   );
 
-  const totalExplorationPoints = useMemo(
-    () => ADVENTURE_REALMS.reduce((sum, r) => sum + getRealmExplorationPoints(r, worldSave), 0),
-    [worldSave]
+  // Real system stats from Supabase + StudentProfile
+  const studyMapTotalStars = useMemo(
+    () => Object.values(progress).reduce((sum, p) => sum + (p.stars ?? 0), 0),
+    [progress]
   );
+  const studyMapClearedCount = useMemo(
+    () => Object.values(progress).filter((p) => (p.stars ?? 0) >= 1).length,
+    [progress]
+  );
+  const profileLessonsCount = useMemo(
+    () =>
+      Object.values(student.completedLessons || {}).filter((v) => (v?.stars ?? 0) >= 1).length,
+    [student.completedLessons]
+  );
+
+  const profileStats = useMemo(
+    () => ({
+      profileStars: student.stars || 0,
+      studyMapStars: studyMapTotalStars,
+      lessonsCleared: Math.max(profileLessonsCount, studyMapClearedCount),
+      level: student.level || 1,
+      highScoreBlitz: student.highScoreBlitz || 0
+    }),
+    [student.stars, student.level, student.highScoreBlitz, studyMapTotalStars, profileLessonsCount, studyMapClearedCount]
+  );
+
+  const totalSystemStars =
+    Math.max(profileStats.profileStars, profileStats.studyMapStars) + worldSave.adventureStars;
 
   const totalExplorerBadges = useMemo(
     () =>
@@ -164,6 +210,12 @@ export const AdventureMap: React.FC<Props> = ({
       ).length,
     [worldSave.discoveredLandmarks]
   );
+
+  const parsedGrade: GradeLevel = useMemo(() => {
+    const n = parseInt(String(student.grade).replace(/\D/g, ''), 10);
+    if (n >= 1 && n <= 9) return String(n) as GradeLevel;
+    return '6';
+  }, [student.grade]);
 
   const handleSelectRealm = (realmId: AdventureRealmId) => {
     const target = ADVENTURE_REALMS.find((r) => r.id === realmId);
@@ -176,29 +228,36 @@ export const AdventureMap: React.FC<Props> = ({
       return;
     }
 
-    if (totalExplorationPoints >= target.unlockRequirement) {
-      soundManager.play('travel');
-      confetti({ particleCount: 70, spread: 70, origin: { y: 0.55 } });
-      updateWorldSave((prev) => ({
-        ...prev,
-        unlockedRealms: prev.unlockedRealms.includes(realmId)
-          ? prev.unlockedRealms
-          : [...prev.unlockedRealms, realmId],
-        lastRealm: realmId
-      }));
-      setActiveRealmId(realmId);
-      showToast(`Đã mở khóa vùng đất mới: ${target.name}!`);
-    } else {
+    // Locked realm -> always show Two-Key Portal Gate modal!
+    soundManager.play('click');
+    setPortalTargetRealm(target);
+  };
+
+  const handleUnlockAndEnterRealm = (realmId: AdventureRealmId) => {
+    const target = ADVENTURE_REALMS.find((r) => r.id === realmId);
+    if (!target) return;
+    const status = evaluateRealmPortalStatus(target, worldSave, profileStats);
+    if (!status.canUnlockNow) {
       soundManager.play('wrong');
-      const needed = target.unlockRequirement - totalExplorationPoints;
-      showToast(
-        `Cần thêm ${needed} điểm khám phá để mở ${target.name} (chạm địa điểm, vật phẩm ẩn hoặc NPC)!`
-      );
+      return;
     }
+    soundManager.play('travel');
+    confetti({ particleCount: 75, spread: 75, origin: { y: 0.55 } });
+    updateWorldSave((prev) => ({
+      ...prev,
+      unlockedRealms: prev.unlockedRealms.includes(realmId)
+        ? prev.unlockedRealms
+        : [...prev.unlockedRealms, realmId],
+      lastRealm: realmId
+    }));
+    setActiveRealmId(realmId);
+    setPortalTargetRealm(null);
+    showToast(`Đã mở cổng bước vào ${target.name}!`);
   };
 
   const handleDiscoverLandmark = (lm: RealmLandmark) => {
     if (worldSave.discoveredLandmarks.includes(lm.id)) return;
+    const gate = getLandmarkGateInfo(activeRealm, lm.id, worldSave);
     soundManager.play('correct');
     const updatedDiscovered = [...worldSave.discoveredLandmarks, lm.id];
     const completedBadgeNow = activeRealm.landmarks.every((item) =>
@@ -207,17 +266,18 @@ export const AdventureMap: React.FC<Props> = ({
     if (completedBadgeNow) {
       soundManager.play('fanfare');
       confetti({ particleCount: 80, spread: 75, origin: { y: 0.6 } });
-      showToast(`Chúc mừng! Bạn nhận được huy hiệu "${activeRealm.badgeName}"!`);
+      showToast(`Chúc mừng! Bạn đạt huy hiệu "${activeRealm.badgeName}" (+${gate.coinsReward} Xu · +${gate.xpReward} XP)!`);
     } else {
-      showToast(`Đã khám phá ${lm.name} (+1 Điểm khám phá)`);
+      showToast(`Chinh phục ${lm.name}: +${gate.coinsReward} Xu · +${gate.xpReward} XP · +${gate.starsReward} Sao!`);
     }
     updateWorldSave((prev) => ({
       ...prev,
       discoveredLandmarks: prev.discoveredLandmarks.includes(lm.id)
         ? prev.discoveredLandmarks
         : [...prev.discoveredLandmarks, lm.id],
-      adventureStars: prev.adventureStars + (completedBadgeNow ? 2 : 1)
+      adventureStars: prev.adventureStars + gate.starsReward
     }));
+    rewardStudent(gate.coinsReward, gate.xpReward);
   };
 
   const handleCollectSecret = (secret: RealmSecretItem) => {
@@ -233,7 +293,12 @@ export const AdventureMap: React.FC<Props> = ({
       collectedSecrets: [...prev.collectedSecrets, secret.id],
       adventureStars: prev.adventureStars + 1
     }));
-    showToast(`Tìm thấy vật phẩm bí mật: ${secret.name}! (+1 Sao Thám Hiểm)`);
+    rewardStudent(10, 10);
+    showToast(`Tìm thấy cổ vật "${secret.name}"! (+10 Xu · +10 XP · +1 Sao)`);
+  };
+
+  const handleSecretTooFar = () => {
+    showToast('Nhân vật đang chạy tới điểm lấp lánh — lại gần rồi chạm lại để nhặt nhé!');
   };
 
   const handleCompleteNpcQuest = () => {
@@ -242,9 +307,10 @@ export const AdventureMap: React.FC<Props> = ({
     updateWorldSave((prev) => ({
       ...prev,
       completedNpcs: [...prev.completedNpcs, activeRealm.npc.id],
-      adventureStars: prev.adventureStars + 2
+      adventureStars: prev.adventureStars + 1
     }));
-    showToast(`Hoàn thành nhiệm vụ của ${activeRealm.npc.name} (+2 Tiến độ · +2 Sao)`);
+    rewardStudent(25, 20);
+    showToast(`Hoàn thành nhiệm vụ ${activeRealm.npc.name}! (+25 Xu · +20 XP · +1 Sao)`);
   };
 
   const handleOpenChest = () => {
@@ -255,9 +321,8 @@ export const AdventureMap: React.FC<Props> = ({
     }
     if (!isRealmChestReady(activeRealm, worldSave)) {
       soundManager.play('wrong');
-      const currentPts = getRealmExplorationPoints(activeRealm, worldSave);
       showToast(
-        `Rương cần 3 điểm khám phá tại ${activeRealm.shortName} (hiện có ${currentPts}/3 điểm).`
+        `Rương cần hoàn thành cả 3 trạm công trình + nhiệm vụ NPC tại ${activeRealm.shortName}!`
       );
       return;
     }
@@ -268,6 +333,7 @@ export const AdventureMap: React.FC<Props> = ({
       openedChests: [...prev.openedChests, activeRealm.chest.id],
       adventureStars: prev.adventureStars + activeRealm.chest.starsBonus
     }));
+    rewardStudent(50, 40);
     setChestModalOpen(true);
   };
 
@@ -275,14 +341,19 @@ export const AdventureMap: React.FC<Props> = ({
     const idx = ADVENTURE_REALMS.findIndex((r) => r.id === activeRealm.id);
     if (idx < 0 || idx >= ADVENTURE_REALMS.length - 1) {
       soundManager.play('fanfare');
-      showToast('Bạn đang ở vùng đất cuối cùng của hành trình cổ tích! Hãy mở Bộ Sưu Tập để xem thành tích.');
+      showToast('Bạn đang ở vùng đất cuối cùng của hành trình! Mở Bộ Sưu Tập để xem huy hiệu.');
       return;
     }
     const nextRealm = ADVENTURE_REALMS[idx + 1];
-    handleSelectRealm(nextRealm.id);
+    if (worldSave.unlockedRealms.includes(nextRealm.id)) {
+      handleSelectRealm(nextRealm.id);
+      return;
+    }
+    soundManager.play('click');
+    setPortalTargetRealm(nextRealm);
   };
 
-  // Study Trail logic
+  // Study Trail logic (also loads progress for world mode integration!)
   const subject = SUBJECTS_CATALOG.find((s) => s.id === subjectId);
   const gradeOpen =
     !!subject &&
@@ -389,6 +460,9 @@ export const AdventureMap: React.FC<Props> = ({
   const realmDiscoveredCount = activeRealm.landmarks.filter((l) =>
     worldSave.discoveredLandmarks.includes(l.id)
   ).length;
+  const portalTargetStatus = portalTargetRealm
+    ? evaluateRealmPortalStatus(portalTargetRealm, worldSave, profileStats)
+    : null;
 
   return (
     <div
@@ -403,13 +477,12 @@ export const AdventureMap: React.FC<Props> = ({
             <h1 className="text-xl sm:text-3xl font-black">Bản Đồ Thám Hiểm</h1>
             <p className="text-xs sm:text-sm text-white/90">
               {mapMode === 'world'
-                ? 'Hành trình khám phá 6 vùng đất 2.5D — tìm kho báu, làm nhiệm vụ vui & mở khóa vùng mới tự do!'
-                : 'Vượt từng hòn đảo kiến thức theo môn học, gom sao và leo bảng vàng!'}
+                ? 'Học & chơi liên thông: vượt 3 trạm thử thách tại mỗi đảo, săn cổ vật bằng radar & tích Sao mở khóa 6 vùng đất!'
+                : 'Vượt từng hòn đảo kiến thức theo môn học để gom Sao mở khóa vùng đất mới & leo bảng vàng!'}
             </p>
           </div>
 
           <div className="flex flex-wrap items-center gap-2 shrink-0">
-            {/* Mode Switcher */}
             <div className="inline-flex items-center p-1 rounded-2xl bg-slate-900/30 backdrop-blur-xs">
               <button
                 type="button"
@@ -491,12 +564,12 @@ export const AdventureMap: React.FC<Props> = ({
             }}
           />
         ) : (
-          /* 6-Realm Progression Strip */
+          /* 6-Realm Progression Strip with real Two-Key status */
           <div className="flex items-center gap-2 overflow-x-auto pb-1">
             {ADVENTURE_REALMS.map((r) => {
-              const unlocked = worldSave.unlockedRealms.includes(r.id);
+              const status = evaluateRealmPortalStatus(r, worldSave, profileStats);
+              const unlocked = status.alreadyUnlocked;
               const active = r.id === activeRealm.id;
-              const readyToUnlock = !unlocked && totalExplorationPoints >= r.unlockRequirement;
               const badgeDone = r.landmarks.every((l) => worldSave.discoveredLandmarks.includes(l.id));
 
               return (
@@ -509,9 +582,9 @@ export const AdventureMap: React.FC<Props> = ({
                       ? 'bg-white text-slate-900 border-white shadow-lg'
                       : unlocked
                       ? 'bg-white/18 text-white border-white/25 hover:bg-white/28'
-                      : readyToUnlock
+                      : status.canUnlockNow
                       ? 'bg-amber-300 text-slate-900 border-amber-200 shadow animate-pulse'
-                      : 'bg-slate-900/30 text-white/75 border-white/15 hover:bg-slate-900/45'
+                      : 'bg-slate-900/35 text-white/80 border-white/15 hover:bg-slate-900/50'
                   }`}
                 >
                   <span className="text-xs font-black tabular-nums">{r.code}</span>
@@ -519,12 +592,12 @@ export const AdventureMap: React.FC<Props> = ({
                     <div className="text-xs sm:text-sm font-black whitespace-nowrap flex items-center gap-1">
                       <span>{r.shortName}</span>
                       {badgeDone && <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500" />}
-                      {!unlocked && !readyToUnlock && <Lock className="w-3 h-3 opacity-80" />}
-                      {readyToUnlock && <Unlock className="w-3.5 h-3.5 text-emerald-700" />}
+                      {!unlocked && !status.canUnlockNow && <Lock className="w-3 h-3 opacity-85" />}
+                      {!unlocked && status.canUnlockNow && <Unlock className="w-3.5 h-3.5 text-emerald-700" />}
                     </div>
                     {!unlocked && (
                       <div className="text-[10px] font-bold opacity-85 whitespace-nowrap tabular-nums">
-                        {readyToUnlock ? 'Bấm để mở khóa!' : `Cần ${r.unlockRequirement} điểm`}
+                        {status.canUnlockNow ? 'Đủ điều kiện mở!' : `Cần ${status.requiredSystemStars} Sao + vùng trước`}
                       </div>
                     )}
                   </div>
@@ -538,8 +611,8 @@ export const AdventureMap: React.FC<Props> = ({
       {/* WORLD MODE: 6-Realm 2.5D Isometric Exploration */}
       {mapMode === 'world' ? (
         <div className="space-y-3">
-          {/* Status + Realm Exploration Progress Bar */}
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-3.5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm">
+          {/* Unified System Power & Shortcut Bar */}
+          <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-3 p-3.5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm">
             <div className="flex items-center gap-3">
               <img
                 src={VUI_BOT_GUIDE}
@@ -547,21 +620,65 @@ export const AdventureMap: React.FC<Props> = ({
                 className="w-12 h-12 rounded-2xl object-contain shrink-0 border border-sky-200 dark:border-slate-700 bg-sky-50 dark:bg-slate-800 p-0.5"
               />
               <div>
-                <div className="text-sm font-black text-slate-900 dark:text-white">
-                  {activeRealm.code}. {activeRealm.name}
+                <div className="text-sm font-black text-slate-900 dark:text-white flex flex-wrap items-center gap-2">
+                  <span>{activeRealm.code}. {activeRealm.name}</span>
+                  <span className="text-xs font-bold text-sky-600 dark:text-sky-400 tabular-nums">
+                    Lv.{student.level} · Tiến độ {realmPoints}/8
+                  </span>
                 </div>
                 <p className="text-xs text-slate-600 dark:text-slate-300">{activeRealm.tagline}</p>
               </div>
             </div>
 
-            <div className="flex flex-wrap items-center gap-3 text-xs font-bold text-slate-700 dark:text-slate-200 tabular-nums">
-              <span>Tiến độ vùng: {realmPoints}/8</span>
-              <span aria-hidden="true" className="text-slate-300">·</span>
-              <span>Huy hiệu: {totalExplorerBadges}/6</span>
-              <span aria-hidden="true" className="text-slate-300">·</span>
+            <div className="flex flex-wrap items-center gap-2.5 text-xs font-bold tabular-nums">
               <span className="inline-flex items-center gap-1 text-amber-600 dark:text-amber-400 font-black">
-                <StarIcon className="w-4 h-4" /> {worldSave.adventureStars} Sao Thám Hiểm
+                <StarIcon className="w-4 h-4" /> {totalSystemStars} Sao hệ thống
               </span>
+              <span aria-hidden="true" className="text-slate-300">·</span>
+              <span className="inline-flex items-center gap-1 text-amber-700 dark:text-amber-300 font-black">
+                <CoinIcon className="w-4 h-4" /> {student.coins.toLocaleString('vi-VN')} Xu
+              </span>
+              <span aria-hidden="true" className="text-slate-300">·</span>
+              <span className="text-slate-600 dark:text-slate-300">Huy hiệu {totalExplorerBadges}/6</span>
+
+              <div className="flex items-center gap-1.5 ml-auto">
+                {onNavigateToStudy && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      soundManager.play('click');
+                      onNavigateToStudy();
+                    }}
+                    className="px-2.5 py-1.5 rounded-xl bg-emerald-100 dark:bg-emerald-950/50 text-emerald-700 dark:text-emerald-300 font-black hover:bg-emerald-200 cursor-pointer whitespace-nowrap"
+                  >
+                    + Bài Học
+                  </button>
+                )}
+                {onNavigateToArena && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      soundManager.play('click');
+                      onNavigateToArena();
+                    }}
+                    className="px-2.5 py-1.5 rounded-xl bg-amber-100 dark:bg-amber-950/50 text-amber-700 dark:text-amber-300 font-black inline-flex items-center gap-1 hover:bg-amber-200 cursor-pointer whitespace-nowrap"
+                  >
+                    <Swords className="w-3.5 h-3.5" /> Đấu Trường
+                  </button>
+                )}
+                {onNavigateToShop && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      soundManager.play('click');
+                      onNavigateToShop();
+                    }}
+                    className="px-2.5 py-1.5 rounded-xl bg-sky-100 dark:bg-sky-950/50 text-sky-700 dark:text-sky-300 font-black hover:bg-sky-200 cursor-pointer whitespace-nowrap"
+                  >
+                    Đổi Xu Studio
+                  </button>
+                )}
+              </div>
             </div>
           </div>
 
@@ -592,54 +709,69 @@ export const AdventureMap: React.FC<Props> = ({
             save={worldSave}
             onSelectLandmark={(lm) => setSelectedLandmark(lm)}
             onCollectSecret={handleCollectSecret}
+            onSecretTooFar={handleSecretTooFar}
             onTalkNpc={() => setNpcOpen(true)}
             onOpenChest={handleOpenChest}
             onPortalActivate={handlePortalActivate}
           />
 
-          {/* Exploration Checklist & Secret Relics Clues Below Stage */}
+          {/* 3-Stage Landmark Gates + Secret Hints Below Stage */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
             <div className="rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 space-y-2.5">
               <div className="flex items-center justify-between">
                 <h2 className="text-sm font-black text-slate-900 dark:text-white">
-                  Hoạt động tại {activeRealm.shortName}
+                  3 Trạm Chinh Phục Tại {activeRealm.shortName}
                 </h2>
                 <span className="text-xs font-bold text-sky-600 tabular-nums">
-                  {realmDiscoveredCount}/3 địa điểm
+                  {realmDiscoveredCount}/3 trạm
                 </span>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
-                {activeRealm.landmarks.map((lm) => {
-                  const done = worldSave.discoveredLandmarks.includes(lm.id);
-                  return (
-                    <button
-                      key={lm.id}
-                      type="button"
-                      onClick={() => {
-                        soundManager.play('click');
-                        setSelectedLandmark(lm);
-                      }}
-                      className={`p-2.5 rounded-xl border text-left transition-colors cursor-pointer ${
-                        done
-                          ? 'bg-emerald-50/70 dark:bg-emerald-950/30 border-emerald-200 dark:border-emerald-800'
-                          : 'bg-slate-50 dark:bg-slate-800/70 border-slate-200 dark:border-slate-700 hover:border-sky-400'
-                      }`}
-                    >
-                      <div className="text-xs font-black text-slate-900 dark:text-white flex items-center justify-between gap-1">
-                        <span className="truncate">{lm.name}</span>
-                        {done && <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500 shrink-0" />}
-                      </div>
-                      <div className="text-[11px] text-slate-500 dark:text-slate-400 truncate">{lm.subtitle}</div>
-                    </button>
-                  );
-                })}
+                {[activeRealm.landmarks[1], activeRealm.landmarks[2], activeRealm.landmarks[0]]
+                  .filter(Boolean)
+                  .map((lm) => {
+                    const done = worldSave.discoveredLandmarks.includes(lm.id);
+                    const gate = getLandmarkGateInfo(activeRealm, lm.id, worldSave);
+                    return (
+                      <button
+                        key={lm.id}
+                        type="button"
+                        onClick={() => {
+                          soundManager.play(gate.isLocked && !done ? 'wrong' : 'click');
+                          setSelectedLandmark(lm);
+                        }}
+                        className={`p-2.5 rounded-xl border text-left transition-colors cursor-pointer ${
+                          done
+                            ? 'bg-emerald-50/70 dark:bg-emerald-950/30 border-emerald-200 dark:border-emerald-800'
+                            : gate.isLocked
+                            ? 'bg-slate-100 dark:bg-slate-900 border-slate-200 dark:border-slate-800 opacity-75'
+                            : 'bg-slate-50 dark:bg-slate-800/70 border-slate-200 dark:border-slate-700 hover:border-sky-400'
+                        }`}
+                      >
+                        <div className="text-[10px] font-black text-sky-600 dark:text-sky-400">
+                          {gate.kind === 'boss' ? 'Trạm 3 · Thủ lĩnh' : gate.kind === 'puzzle' ? 'Trạm 2 · Giải mã' : 'Trạm 1 · Tri thức'}
+                        </div>
+                        <div className="text-xs font-black text-slate-900 dark:text-white flex items-center justify-between gap-1 mt-0.5">
+                          <span className="truncate">{lm.name}</span>
+                          {done ? (
+                            <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500 shrink-0" />
+                          ) : gate.isLocked ? (
+                            <Lock className="w-3.5 h-3.5 text-slate-400 shrink-0" />
+                          ) : null}
+                        </div>
+                        <div className="text-[11px] text-slate-500 dark:text-slate-400 truncate">
+                          +{gate.coinsReward} Xu · +{gate.starsReward} Sao
+                        </div>
+                      </button>
+                    );
+                  })}
               </div>
             </div>
 
             <div className="rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 space-y-2.5">
               <div className="flex items-center justify-between">
                 <h2 className="text-sm font-black text-slate-900 dark:text-white">
-                  Gợi ý tìm 3 vật phẩm bí mật
+                  Gợi ý tìm 3 cổ vật ẩn (đi lại gần để nhặt)
                 </h2>
                 <span className="text-xs font-bold text-amber-600 tabular-nums">
                   {activeRealm.secrets.filter((s) => worldSave.collectedSecrets.includes(s.id)).length}/3 đã tìm
@@ -657,15 +789,15 @@ export const AdventureMap: React.FC<Props> = ({
                           : 'bg-slate-50 dark:bg-slate-800/70 border-slate-200 dark:border-slate-700'
                       }`}
                     >
-                      <div className={found ? '' : 'opacity-65'}>
+                      <div className={found ? '' : 'grayscale opacity-45'}>
                         <SecretItemArt item={sec} className="w-7 h-7 shrink-0" />
                       </div>
                       <div className="min-w-0">
                         <div className="text-xs font-black text-slate-900 dark:text-white truncate">
-                          {found ? `✓ ${sec.name}` : sec.name}
+                          {found ? `✓ ${sec.name}` : 'Cổ vật bí ẩn'}
                         </div>
                         <div className="text-[11px] text-slate-500 dark:text-slate-400 line-clamp-2">
-                          {found ? 'Đã nằm trong Bộ Sưu Tập' : sec.hint}
+                          {found ? 'Đã lưu Bộ Sưu Tập' : sec.hint}
                         </div>
                       </div>
                     </div>
@@ -678,9 +810,12 @@ export const AdventureMap: React.FC<Props> = ({
           <LandmarkModal
             realm={activeRealm}
             landmark={selectedLandmark}
+            save={worldSave}
+            grade={parsedGrade}
             discovered={selectedLandmark ? worldSave.discoveredLandmarks.includes(selectedLandmark.id) : false}
             discoveredCountInRealm={realmDiscoveredCount}
             onDiscover={handleDiscoverLandmark}
+            onSwitchToStudyMap={() => setMapMode('study')}
             onClose={() => setSelectedLandmark(null)}
           />
 
@@ -690,6 +825,16 @@ export const AdventureMap: React.FC<Props> = ({
             completed={worldSave.completedNpcs.includes(activeRealm.npc.id)}
             onComplete={handleCompleteNpcQuest}
             onClose={() => setNpcOpen(false)}
+          />
+
+          <PortalGateModal
+            targetRealm={portalTargetRealm}
+            status={portalTargetStatus}
+            onUnlockAndEnter={handleUnlockAndEnterRealm}
+            onNavigateToStudy={onNavigateToStudy}
+            onSwitchToStudyMap={() => setMapMode('study')}
+            onNavigateToArena={onNavigateToArena}
+            onClose={() => setPortalTargetRealm(null)}
           />
 
           <ChestRewardModal
@@ -706,7 +851,7 @@ export const AdventureMap: React.FC<Props> = ({
           />
         </div>
       ) : (
-        /* STUDY MODE: Original Curriculum Island Progression */
+        /* STUDY MODE: Curriculum Island Progression */
         <>
           {!gradeOpen ? (
             <FogOfWar title={`${subject?.name ?? 'Môn này'} · Lớp ${grade}`} />

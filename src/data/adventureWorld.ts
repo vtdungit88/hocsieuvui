@@ -828,5 +828,191 @@ export function getRealmExplorationPoints(realm: AdventureRealm, save: Adventure
 }
 
 export function isRealmChestReady(realm: AdventureRealm, save: AdventureWorldSave): boolean {
-  return getRealmExplorationPoints(realm, save) >= 3;
+  const allLandmarksDone = realm.landmarks.every((l) => save.discoveredLandmarks.includes(l.id));
+  const npcDone = save.completedNpcs.includes(realm.npc.id);
+  return allLandmarksDone && npcDone;
 }
+
+export type LandmarkChallengeKind = 'quiz' | 'puzzle' | 'boss';
+
+export interface LandmarkGateInfo {
+  kind: LandmarkChallengeKind;
+  stepNumber: 1 | 2 | 3;
+  gateTitle: string;
+  gateDesc: string;
+  coinsReward: number;
+  xpReward: number;
+  starsReward: number;
+  isLocked: boolean;
+  lockReason: string;
+}
+
+/**
+ * Each realm has 3 distinct progressive stages:
+ * - Stage 1 (landmarks[1]): Knowledge Quiz (2/3 correct)
+ * - Stage 2 (landmarks[2]): Relic Memory Puzzle (match 4 pairs)
+ * - Stage 3 (landmarks[0], the central monument): Boss Trial (4/5 timed questions), locked until Stage 1 & 2 cleared
+ */
+export function getLandmarkGateInfo(
+  realm: AdventureRealm,
+  landmarkId: string,
+  save: AdventureWorldSave
+): LandmarkGateInfo {
+  const idx = realm.landmarks.findIndex((l) => l.id === landmarkId);
+  if (idx === 1) {
+    return {
+      kind: 'quiz',
+      stepNumber: 1,
+      gateTitle: 'Trạm 1 · Thử Thách Tri Thức',
+      gateDesc: 'Trả lời đúng ít nhất 2/3 câu hỏi theo khối lớp của bạn để mở cổng công trình.',
+      coinsReward: 15,
+      xpReward: 15,
+      starsReward: 1,
+      isLocked: false,
+      lockReason: ''
+    };
+  }
+  if (idx === 2) {
+    return {
+      kind: 'puzzle',
+      stepNumber: 2,
+      gateTitle: 'Trạm 2 · Giải Mã Cổ Vật',
+      gateDesc: 'Lật tìm đủ 4 cặp biểu tượng cổ vật giống nhau để kích hoạt năng lượng vùng đất.',
+      coinsReward: 20,
+      xpReward: 20,
+      starsReward: 1,
+      isLocked: false,
+      lockReason: ''
+    };
+  }
+
+  // Central monument (index 0) is Stage 3 Boss Gate
+  const prereqIds = realm.landmarks.slice(1).map((l) => l.id);
+  const prereqsDone = prereqIds.every((id) => save.discoveredLandmarks.includes(id));
+  return {
+    kind: 'boss',
+    stepNumber: 3,
+    gateTitle: 'Trạm 3 · Cửa Ải Thủ Lĩnh Vùng',
+    gateDesc: 'Đạt tối thiểu 4/5 câu trong 45 giây để nhận Huy Hiệu vùng đất & mở đường tới Rương Báu!',
+    coinsReward: 35,
+    xpReward: 30,
+    starsReward: 2,
+    isLocked: !prereqsDone,
+    lockReason: prereqsDone
+      ? ''
+      : 'Cần hoàn thành Trạm 1 (Tri Thức) và Trạm 2 (Giải Mã) trong vùng này trước!'
+  };
+}
+
+export interface RealmSystemRequirement {
+  minSystemStars: number;
+  minLessonsCleared: number;
+  minLevel: number;
+  minBlitzScore: number;
+  altSummary: string;
+}
+
+export const REALM_SYSTEM_REQUIREMENTS: Record<AdventureRealmId, RealmSystemRequirement> = {
+  van_hien: {
+    minSystemStars: 0,
+    minLessonsCleared: 0,
+    minLevel: 1,
+    minBlitzScore: 0,
+    altSummary: 'Mở tự do cho mọi học sinh'
+  },
+  forest: {
+    minSystemStars: 4,
+    minLessonsCleared: 1,
+    minLevel: 2,
+    minBlitzScore: 20,
+    altSummary: '≥ 4 Sao tổng, hoặc xong 1 bài học / Cấp 2 / Đấu trường ≥ 20đ'
+  },
+  sky_island: {
+    minSystemStars: 10,
+    minLessonsCleared: 2,
+    minLevel: 2,
+    minBlitzScore: 40,
+    altSummary: '≥ 10 Sao tổng, hoặc xong 2 bài học / Cấp 2 / Đấu trường ≥ 40đ'
+  },
+  ocean_kingdom: {
+    minSystemStars: 18,
+    minLessonsCleared: 3,
+    minLevel: 3,
+    minBlitzScore: 60,
+    altSummary: '≥ 18 Sao tổng, hoặc xong 3 bài học / Cấp 3 / Đấu trường ≥ 60đ'
+  },
+  dino_valley: {
+    minSystemStars: 28,
+    minLessonsCleared: 5,
+    minLevel: 4,
+    minBlitzScore: 80,
+    altSummary: '≥ 28 Sao tổng, hoặc xong 5 bài học / Cấp 4 / Đấu trường ≥ 80đ'
+  },
+  candy_land: {
+    minSystemStars: 40,
+    minLessonsCleared: 8,
+    minLevel: 5,
+    minBlitzScore: 100,
+    altSummary: '≥ 40 Sao tổng, hoặc xong 8 bài học / Cấp 5 / Đấu trường ≥ 100đ'
+  }
+};
+
+export interface RealmPortalStatus {
+  alreadyUnlocked: boolean;
+  prevRealmName: string;
+  prevRealmCleared: boolean;
+  systemReady: boolean;
+  canUnlockNow: boolean;
+  currentSystemStars: number;
+  requiredSystemStars: number;
+  lessonsCleared: number;
+  studentLevel: number;
+  blitzBest: number;
+  requirement: RealmSystemRequirement;
+}
+
+export function evaluateRealmPortalStatus(
+  targetRealm: AdventureRealm,
+  save: AdventureWorldSave,
+  profileStats: {
+    profileStars: number;
+    studyMapStars: number;
+    lessonsCleared: number;
+    level: number;
+    highScoreBlitz: number;
+  }
+): RealmPortalStatus {
+  const req = REALM_SYSTEM_REQUIREMENTS[targetRealm.id];
+  const currentSystemStars =
+    Math.max(profileStats.profileStars, profileStats.studyMapStars) + save.adventureStars;
+
+  const idx = ADVENTURE_REALMS.findIndex((r) => r.id === targetRealm.id);
+  const prevRealm = idx > 0 ? ADVENTURE_REALMS[idx - 1] : null;
+  const prevRealmCleared = prevRealm
+    ? save.openedChests.includes(prevRealm.chest.id) ||
+      prevRealm.landmarks.every((l) => save.discoveredLandmarks.includes(l.id))
+    : true;
+
+  const systemReady =
+    targetRealm.order === 1 ||
+    currentSystemStars >= req.minSystemStars ||
+    profileStats.lessonsCleared >= req.minLessonsCleared ||
+    profileStats.level >= req.minLevel ||
+    profileStats.highScoreBlitz >= req.minBlitzScore;
+
+  const alreadyUnlocked = save.unlockedRealms.includes(targetRealm.id);
+  return {
+    alreadyUnlocked,
+    prevRealmName: prevRealm?.name ?? '',
+    prevRealmCleared,
+    systemReady,
+    canUnlockNow: alreadyUnlocked || (prevRealmCleared && systemReady),
+    currentSystemStars,
+    requiredSystemStars: req.minSystemStars,
+    lessonsCleared: profileStats.lessonsCleared,
+    studentLevel: profileStats.level,
+    blitzBest: profileStats.highScoreBlitz,
+    requirement: req
+  };
+}
+

@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 import {
   CheckCircle2,
   Compass,
+  Lock,
   Maximize2,
   Minimize2,
   Sparkles,
@@ -14,6 +15,7 @@ import {
   type AdventureWorldSave,
   type RealmLandmark,
   type RealmSecretItem,
+  getLandmarkGateInfo,
   getRealmExplorationPoints,
   isRealmChestReady
 } from '../../data/adventureWorld';
@@ -26,6 +28,7 @@ interface IsometricWorldStageProps {
   save: AdventureWorldSave;
   onSelectLandmark: (landmark: RealmLandmark) => void;
   onCollectSecret: (secret: RealmSecretItem) => void;
+  onSecretTooFar: (secret: RealmSecretItem) => void;
   onTalkNpc: () => void;
   onOpenChest: () => void;
   onPortalActivate: () => void;
@@ -419,6 +422,7 @@ export const IsometricWorldStage: React.FC<IsometricWorldStageProps> = ({
   save,
   onSelectLandmark,
   onCollectSecret,
+  onSecretTooFar,
   onTalkNpc,
   onOpenChest,
   onPortalActivate
@@ -484,7 +488,20 @@ export const IsometricWorldStage: React.FC<IsometricWorldStageProps> = ({
     return d;
   }, [realm]);
 
-  const remainingSecrets = realm.secrets.filter((s) => !save.collectedSecrets.includes(s.id)).length;
+  const uncollectedSecrets = realm.secrets.filter((s) => !save.collectedSecrets.includes(s.id));
+  const remainingSecrets = uncollectedSecrets.length;
+  const nearestSecretDist = uncollectedSecrets.reduce((min, s) => {
+    const d = Math.hypot(playerPos.x - s.x, playerPos.y - s.y);
+    return Math.min(min, d);
+  }, 999);
+  const radarLabel =
+    remainingSecrets === 0
+      ? 'Đã tìm đủ 3/3 cổ vật'
+      : nearestSecretDist <= 15
+      ? '🔥 Rất gần cổ vật! Chạm để nhặt!'
+      : nearestSecretDist <= 30
+      ? `🌤️ Đang tới gần (${remainingSecrets} ẩn)`
+      : `❄️ Dò tìm (${remainingSecrets} ẩn)`;
 
   return (
     <div
@@ -517,12 +534,16 @@ export const IsometricWorldStage: React.FC<IsometricWorldStageProps> = ({
           </div>
 
           <div className="pointer-events-auto flex items-center gap-2">
-            {remainingSecrets > 0 && (
-              <div className="hidden sm:inline-flex items-center gap-1.5 rounded-2xl bg-white/90 dark:bg-slate-900/90 text-slate-800 dark:text-slate-100 px-3 py-1.5 text-xs font-bold shadow">
-                <Sparkles className="w-3.5 h-3.5 text-amber-500" />
-                <span>Còn {remainingSecrets} vật phẩm ẩn trên đảo</span>
-              </div>
-            )}
+            <div
+              className={`hidden sm:inline-flex items-center gap-1.5 rounded-2xl px-3 py-1.5 text-xs font-bold shadow ${
+                remainingSecrets > 0 && nearestSecretDist <= 15
+                  ? 'bg-amber-300 text-slate-900 animate-pulse'
+                  : 'bg-white/90 dark:bg-slate-900/90 text-slate-800 dark:text-slate-100'
+              }`}
+            >
+              <Sparkles className="w-3.5 h-3.5 text-amber-500" />
+              <span>{radarLabel}</span>
+            </div>
             <button
               type="button"
               onClick={() => {
@@ -700,24 +721,29 @@ export const IsometricWorldStage: React.FC<IsometricWorldStageProps> = ({
               />
             )}
 
-            {/* LAYER 3A: 3 Interactive Landmarks */}
+            {/* LAYER 3A: 3 Interactive Landmarks (Stage 1 Quiz, Stage 2 Puzzle, Stage 3 Boss) */}
             {realm.landmarks.map((lm) => {
               const discovered = save.discoveredLandmarks.includes(lm.id);
+              const gate = getLandmarkGateInfo(realm, lm.id, save);
               return (
                 <button
                   key={lm.id}
                   type="button"
                   onClick={(e) => {
                     e.stopPropagation();
-                    soundManager.play('click');
+                    soundManager.play(gate.isLocked && !discovered ? 'wrong' : 'click');
                     moveAvatarTo(lm.x, lm.y + 8);
                     onSelectLandmark(lm);
                   }}
                   style={{ left: `${lm.x}%`, top: `${lm.y}%` }}
-                  aria-label={`Địa điểm ${lm.name}${discovered ? ' (đã khám phá)' : ' (chạm để khám phá)'}`}
+                  aria-label={`Địa điểm ${lm.name} (${gate.gateTitle})${discovered ? ' - đã chinh phục' : ''}`}
                   className="absolute z-[12] -translate-x-1/2 -translate-y-1/2 group flex flex-col items-center cursor-pointer focus:outline-none focus-visible:ring-4 focus-visible:ring-amber-300 rounded-2xl"
                 >
-                  <div className="relative transition-transform duration-200 group-hover:-translate-y-1.5 group-hover:scale-105 group-active:scale-95">
+                  <div
+                    className={`relative transition-transform duration-200 group-hover:-translate-y-1.5 group-hover:scale-105 group-active:scale-95 ${
+                      gate.isLocked && !discovered ? 'opacity-80 grayscale-[35%]' : ''
+                    }`}
+                  >
                     <LandmarkArt
                       artType={lm.artType}
                       discovered={discovered}
@@ -725,14 +751,24 @@ export const IsometricWorldStage: React.FC<IsometricWorldStageProps> = ({
                     />
                     {discovered ? (
                       <span
-                        title="Đã khám phá"
+                        title="Đã chinh phục"
                         className="absolute -top-1 -right-1 w-6 h-6 rounded-full bg-emerald-500 text-white border-2 border-white shadow flex items-center justify-center"
                       >
                         <CheckCircle2 className="w-3.5 h-3.5" />
                       </span>
+                    ) : gate.isLocked ? (
+                      <span className="absolute -top-1 -right-1 px-1.5 py-0.5 rounded-md bg-slate-800 text-white border-2 border-white text-[10px] font-black shadow inline-flex items-center gap-0.5">
+                        <Lock className="w-2.5 h-2.5" /> Trạm {gate.stepNumber}
+                      </span>
                     ) : (
-                      <span className="absolute -top-1 -right-1 px-1.5 py-0.5 rounded-md bg-amber-400 text-slate-900 border-2 border-white text-[10px] font-black shadow hsv-anim-hop">
-                        Mới
+                      <span
+                        className={`absolute -top-1 -right-1 px-1.5 py-0.5 rounded-md border-2 border-white text-[10px] font-black shadow hsv-anim-hop ${
+                          gate.kind === 'boss'
+                            ? 'bg-rose-500 text-white'
+                            : 'bg-amber-400 text-slate-900'
+                        }`}
+                      >
+                        {gate.kind === 'boss' ? 'Thủ lĩnh' : `Trạm ${gate.stepNumber}`}
                       </span>
                     )}
                   </div>
@@ -743,32 +779,62 @@ export const IsometricWorldStage: React.FC<IsometricWorldStageProps> = ({
               );
             })}
 
-            {/* LAYER 3B: 3 Hidden Secret Collectibles */}
+            {/* LAYER 3B: 3 Hidden Secret Collectibles (Must walk nearby <= 15% distance to uncover!) */}
             {realm.secrets.map((sec) => {
               const collected = save.collectedSecrets.includes(sec.id);
+              const dist = Math.hypot(playerPos.x - sec.x, playerPos.y - sec.y);
+              const nearby = dist <= 15;
               return (
                 <button
                   key={sec.id}
                   type="button"
                   onClick={(e) => {
                     e.stopPropagation();
-                    moveAvatarTo(sec.x, sec.y + 4);
+                    if (collected) {
+                      onCollectSecret(sec);
+                      return;
+                    }
+                    if (!nearby) {
+                      soundManager.play('click');
+                      // Walk close toward the hidden spot
+                      moveAvatarTo(sec.x, sec.y + 3);
+                      onSecretTooFar(sec);
+                      return;
+                    }
                     onCollectSecret(sec);
                   }}
                   style={{ left: `${sec.x}%`, top: `${sec.y}%` }}
-                  aria-label={collected ? `${sec.name} (đã thu thập)` : `Vật phẩm bí mật ${sec.name}`}
+                  aria-label={
+                    collected
+                      ? `${sec.name} (đã thu thập)`
+                      : nearby
+                      ? `Nhặt vật phẩm bí mật ${sec.name}`
+                      : 'Điểm lấp lánh bí mật — lại gần để tìm'
+                  }
                   className={`absolute z-[14] -translate-x-1/2 -translate-y-1/2 group flex flex-col items-center cursor-pointer focus:outline-none focus-visible:ring-4 focus-visible:ring-amber-300 rounded-xl ${
-                    collected ? 'opacity-55 hover:opacity-90' : ''
+                    collected ? 'opacity-50 hover:opacity-85' : ''
                   }`}
                 >
-                  <div className={collected ? '' : 'hsv-anim-bob'}>
-                    <SecretItemArt
-                      item={sec}
-                      className="w-9 h-9 sm:w-10 sm:h-10 drop-shadow-[0_4px_8px_rgba(0,0,0,0.28)] group-hover:scale-125 transition-transform"
-                    />
-                  </div>
-                  <span className="px-1.5 py-0.5 rounded bg-white/90 dark:bg-slate-900/90 text-slate-800 dark:text-slate-100 text-[10px] font-bold shadow whitespace-nowrap opacity-0 group-hover:opacity-100 group-focus-visible:opacity-100 transition-opacity">
-                    {collected ? `✓ ${sec.name}` : sec.name}
+                  {collected || nearby ? (
+                    <div className={collected ? '' : 'hsv-anim-hop ring-4 ring-amber-300/70 rounded-full bg-white/30 p-0.5'}>
+                      <SecretItemArt
+                        item={sec}
+                        className="w-9 h-9 sm:w-10 sm:h-10 drop-shadow-[0_4px_8px_rgba(0,0,0,0.28)] group-hover:scale-125 transition-transform"
+                      />
+                    </div>
+                  ) : (
+                    <div className="w-7 h-7 rounded-full bg-white/25 border border-white/50 flex items-center justify-center text-xs shadow-sm backdrop-blur-xs opacity-65 hover:opacity-95 transition-opacity hsv-anim-twinkle">
+                      ✨
+                    </div>
+                  )}
+                  <span
+                    className={`mt-0.5 px-1.5 py-0.5 rounded text-[10px] font-bold shadow whitespace-nowrap transition-opacity ${
+                      nearby && !collected
+                        ? 'bg-amber-300 text-slate-900 opacity-100'
+                        : 'bg-white/90 dark:bg-slate-900/90 text-slate-800 dark:text-slate-100 opacity-0 group-hover:opacity-100 group-focus-visible:opacity-100'
+                    }`}
+                  >
+                    {collected ? `✓ ${sec.name}` : nearby ? `Nhặt ${sec.name}!` : 'Lại gần để dò'}
                   </span>
                 </button>
               );
@@ -853,7 +919,7 @@ export const IsometricWorldStage: React.FC<IsometricWorldStageProps> = ({
                     : 'bg-slate-800/85 text-slate-200'
                 }`}
               >
-                {chestOpened ? '✓ Đã mở rương' : chestReady ? 'Mở rương báu!' : 'Rương (Cần 3 điểm)'}
+                {chestOpened ? '✓ Đã mở rương' : chestReady ? 'Mở rương báu!' : 'Cần 3 trạm + NPC'}
               </span>
             </button>
 

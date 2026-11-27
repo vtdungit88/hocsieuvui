@@ -15,6 +15,15 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.29',
+    date: '2026-11-27',
+    title: 'Nâng cấp cơ chế gameplay Bản Đồ Thám Hiểm 2.5D liên thông toàn hệ thống',
+    items: [
+      'Thay thế việc bấm qua ngay trên bản đồ bằng 3 trạm thử thách thực thụ tại mỗi vùng đất: Trạm 1 (Thử thách tri thức 3 câu đúng ≥ 2/3 theo khối lớp), Trạm 2 (Giải mã ghép cặp cổ vật 4 đôi) và Trạm 3 (Cửa ải Thủ lĩnh 45 giây, khóa cho tới khi xong Trạm 1 & 2).',
+      'Bổ sung Radar dò kho báu yêu cầu điều khiển Avatar đi lại gần mới lộ vật phẩm bí mật, giới hạn thời gian 25 giây cho thử thách NPC, cộng trực tiếp Xu và XP vào hồ sơ để mua sắm Studio và yêu cầu Cổng 2 chìa khóa (hoàn thành vùng trước + đạt mốc Sao/Bài học/Cấp độ/Đấu Trường toàn hệ thống) để mở các vùng đất tiếp theo.'
+    ]
+  },
+  {
     version: '0.2.28',
     date: '2026-11-27',
     title: 'Nâng cấp Bản Đồ Thám Hiểm 2.5D với 6 vùng đất tự do, kho báu & bộ sưu tập',

@@ -561,7 +561,7 @@ export default function App() {
           />
         )}
 
-        {/* VIEW 4: ADVENTURE MAP (Vibrant Vector Island Map, No Blackout) */}
+        {/* VIEW 4: ADVENTURE MAP (2.5D 6-Realm World + Knowledge Islands) */}
         {currentView === 'map' && (
           <AdventureMap
             student={student}
@@ -569,6 +569,13 @@ export default function App() {
             initialGrade={Number(currentGrade)}
             onStartNode={handleStartNode}
             onRequireLogin={handleRequireLogin}
+            onUpdateStudent={handleUpdateStudent}
+            onNavigateToStudy={() => {
+              setLearning(false);
+              setCurrentView('study');
+            }}
+            onNavigateToArena={() => setCurrentView('blitz')}
+            onNavigateToShop={() => setCurrentView('shop')}
           />
         )}
 
