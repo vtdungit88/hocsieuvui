@@ -15,6 +15,15 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.25',
+    date: '2026-11-27',
+    title: 'Ra mắt Quảng Trường Văn Miếu Freeplay tại Sảnh Online',
+    items: [
+      'Thiết kế lại khu trung tâm Sảnh Online thành Quảng Trường Văn Miếu rực rỡ với Khuê Văn Các phát sáng cổng dịch chuyển, Trống Khai Hội (gõ combo 5 nhịp nổ pháo hoa), Hồ Sen thả Đèn Hoa Đăng, Góc Sáng Tạo chọn màu dấu chân bụi tiên và Chợ Cổ Tích.',
+      'Bổ sung lối chơi tự do vui nhộn cho trẻ em: Túi Đồ Chơi biến hình (Kẹo Khổng Lồ, Kẹo Tí Hon, Bóng Nước Cầu Vồng, Chùm Bóng Bay, Pháo Hoa), mini-game Lật Hình Cổ Tích tại Thư Viện Nhỏ, săn 5 Kho Báu ẩn mỗi ngày, bắt Bướm/Đom Đóm theo chu kỳ Sáng – Hoàng Hôn – Đêm Hội cùng nút Nhảy/Chào/Biểu cảm và bản đồ mini.'
+    ]
+  },
+  {
     version: '0.2.24',
     date: '2026-11-27',
     title: 'Chọn Nam/Nữ rõ ràng, thú cưng to và chi tiết hơn',

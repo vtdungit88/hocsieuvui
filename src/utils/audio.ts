@@ -64,6 +64,9 @@ class SoundManager {
       | 'countdown'
       | 'travel'
       | 'chat'
+      | 'drum'
+      | 'jump'
+      | 'splash'
   ) {
     if (this.isMuted) return;
     try {
@@ -205,6 +208,50 @@ class SoundManager {
           gain.connect(this.ctx.destination);
           osc.start(now);
           osc.stop(now + 0.08);
+          break;
+        }
+        case 'drum': {
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(165, now);
+          osc.frequency.exponentialRampToValueAtTime(52, now + 0.28);
+          gain.gain.setValueAtTime(0.35, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.34);
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.start(now);
+          osc.stop(now + 0.34);
+          break;
+        }
+        case 'jump': {
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(280, now);
+          osc.frequency.exponentialRampToValueAtTime(620, now + 0.14);
+          gain.gain.setValueAtTime(0.15, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.18);
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.start(now);
+          osc.stop(now + 0.18);
+          break;
+        }
+        case 'splash': {
+          const notes = [420, 630, 840];
+          notes.forEach((freq, idx) => {
+            const osc = this.ctx!.createOscillator();
+            const gain = this.ctx!.createGain();
+            osc.type = 'triangle';
+            osc.frequency.setValueAtTime(freq, now + idx * 0.045);
+            gain.gain.setValueAtTime(0.11, now + idx * 0.045);
+            gain.gain.exponentialRampToValueAtTime(0.001, now + idx * 0.045 + 0.16);
+            osc.connect(gain);
+            gain.connect(this.ctx!.destination);
+            osc.start(now + idx * 0.045);
+            osc.stop(now + idx * 0.045 + 0.16);
+          });
           break;
         }
       }

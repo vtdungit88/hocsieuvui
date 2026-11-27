@@ -55,14 +55,14 @@ const makePos = (lat: number, lon: number) => {
 export const DESTINATIONS: DestinationCity[] = [
   {
     destKey: 'hanoi_school',
-    name: 'Hà Nội — Sân Trường & Công Viên',
-    shortName: 'Hà Nội (Km 0)',
-    region: 'Trung tâm Thủ đô',
+    name: 'Văn Miếu — Quảng Trường Cổ Tích',
+    shortName: 'Văn Miếu (Km 0)',
+    region: 'Hà Nội · Khu Vui Chơi Tự Do',
     distanceKm: 0,
     ticketCoins: 0,
     requiredLevel: 1,
-    description: 'Điểm xuất phát Km 0 tại Thủ đô Hà Nội với sân trường nắng mai, ghế đá và công viên xanh mát.',
-    funFact: 'Thủ đô Hà Nội hơn 1.000 năm văn hiến là trạm khởi hành mọi chuyến du hành tri thức.',
+    description: 'Quảng trường Văn Miếu rực rỡ với Khuê Văn Các, Trống Khai Hội, Hồ Sen thả hoa đăng, Góc Sáng Tạo, Chợ Cổ Tích và kho báu vui chơi mỗi ngày!',
+    funFact: 'Gõ Trống Khai Hội, thả Đèn Hoa Đăng xuống Hồ Sen, săn 5 kho báu ẩn hoặc hóa khổng lồ cùng bạn bè nhé!',
     ...makePos(21.03, 105.85),
     pinAnchor: 'top',
     accentColor: '#2563eb',
@@ -256,12 +256,12 @@ export const DESTINATIONS: DestinationCity[] = [
 ];
 
 export const QUICK_CHAT_PRESETS: { label: string; text: string }[] = [
-  { label: 'Chào cả Sảnh!', text: 'Chào mọi người ở Sảnh nhé!' },
-  { label: 'Thi Đấu Trường!', text: 'Có bạn nào muốn thi Đấu Trường 60s không?' },
-  { label: 'Đồ đẹp quá!', text: 'Bộ trang bị của bạn ngầu quá đi!' },
-  { label: 'Đi du hành!', text: 'Cày thêm Xu để bay đi Đà Lạt & Phú Quốc thôi!' },
-  { label: 'Cố lên nhé!', text: 'Chúc các bạn hôm nay đạt điểm 10/10 nha!' },
-  { label: 'Thân thiện', text: 'Rất vui được làm quen cùng bạn!' }
+  { label: 'Chào cả Sảnh!', text: 'Chào mọi người ở Quảng Trường Văn Miếu nhé!' },
+  { label: 'Gõ Trống Hội!', text: 'Lại Trò Chơi Dân Gian gõ Trống Khai Hội cùng mình nào!' },
+  { label: 'Thả Hoa Đăng!', text: 'Ra Hồ Sen thả Đèn Hoa Đăng lung linh đi các bạn ơi!' },
+  { label: 'Săn Kho Báu!', text: 'Mình đang tìm 5 kho báu ẩn quanh sân Văn Miếu nè!' },
+  { label: 'Đồ đẹp quá!', text: 'Bộ trang bị và thú cưng của bạn ngầu quá đi!' },
+  { label: 'Thân thiện', text: 'Rất vui được chạy chơi cùng bạn!' }
 ];
 
 export const EMOTE_STICKERS: { id: string; symbol: string; label: string }[] = [

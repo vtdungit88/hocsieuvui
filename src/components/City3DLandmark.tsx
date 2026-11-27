@@ -3,6 +3,7 @@ import React from 'react';
 interface City3DLandmarkProps {
   destKey: string;
   mode?: 'stage' | 'card';
+  lighting?: 'day' | 'sunset' | 'night';
   className?: string;
 }
 
@@ -14,9 +15,10 @@ interface City3DLandmarkProps {
 export const City3DLandmark: React.FC<City3DLandmarkProps> = ({
   destKey,
   mode = 'stage',
+  lighting = 'day',
   className = ''
 }) => {
-  const uid = `${mode}_${destKey}`;
+  const uid = `${mode}_${destKey}_${lighting}`;
   const isCard = mode === 'card';
   const viewBox = '0 0 1200 540';
 
@@ -326,56 +328,208 @@ export const City3DLandmark: React.FC<City3DLandmarkProps> = ({
         );
 
       case 'hanoi_school':
-      default:
+      default: {
+        const isNight = lighting === 'night';
+        const isSunset = lighting === 'sunset';
         return (
           <>
             <defs>
               <linearGradient id={`sky_${uid}`} x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0%" stopColor="#0ea5e9" />
-                <stop offset="55%" stopColor="#7dd3fc" />
-                <stop offset="100%" stopColor="#e0f2fe" />
+                <stop
+                  offset="0%"
+                  stopColor={isNight ? '#0f172a' : isSunset ? '#7c3aed' : '#0284c7'}
+                />
+                <stop
+                  offset="54%"
+                  stopColor={isNight ? '#1e1b4b' : isSunset ? '#fb7185' : '#60a5fa'}
+                />
+                <stop
+                  offset="100%"
+                  stopColor={isNight ? '#312e81' : isSunset ? '#fde68a' : '#dbeafe'}
+                />
               </linearGradient>
-              <linearGradient id={`grass_${uid}`} x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0%" stopColor="#4ade80" />
-                <stop offset="100%" stopColor="#16a34a" />
+              <linearGradient id={`courtyard_${uid}`} x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stopColor={isNight ? '#475569' : '#fed7aa'} />
+                <stop offset="55%" stopColor={isNight ? '#334155' : '#fdba74'} />
+                <stop offset="100%" stopColor={isNight ? '#1e293b' : '#f59e0b'} stopOpacity={isNight ? 1 : 0.48} />
               </linearGradient>
+              <linearGradient id={`pond_${uid}`} x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stopColor={isNight ? '#0f766e' : '#2dd4bf'} />
+                <stop offset="100%" stopColor={isNight ? '#134e4a' : '#0284c7'} />
+              </linearGradient>
+              <linearGradient id={`roofRed_${uid}`} x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stopColor="#ef4444" />
+                <stop offset="100%" stopColor="#991b1b" />
+              </linearGradient>
+              <radialGradient id={`portalGlow_${uid}`} cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stopColor="#e0f2fe" />
+                <stop offset="45%" stopColor="#38bdf8" />
+                <stop offset="100%" stopColor="#2563eb" stopOpacity="0" />
+              </radialGradient>
             </defs>
+
+            {/* Sky */}
             <rect width="1200" height="540" fill={`url(#sky_${uid})`} />
-            <circle cx="980" cy="84" r="42" fill="#fde047" />
-            <ellipse cx="220" cy="82" rx="90" ry="24" fill="#ffffff" opacity="0.85" />
-            <ellipse cx="640" cy="64" rx="108" ry="26" fill="#ffffff" opacity="0.75" />
-            {/* Green Park Horizon */}
-            <rect x="0" y="250" width="1200" height="90" fill={`url(#grass_${uid})`} />
-            {/* 3D Isometric School Building */}
-            <rect x="330" y="128" width="540" height="145" rx="6" fill="#fef3c7" stroke="#d97706" strokeWidth="3" />
-            <polygon points="300,128 600,66 900,128" fill="#dc2626" />
-            <polygon points="520,128 600,82 680,128" fill="#b91c1c" />
-            <circle cx="600" cy="108" r="14" fill="#ffffff" stroke="#78350f" strokeWidth="3" />
-            {/* School Windows */}
-            {[368, 434, 500, 650, 716, 782].map((wx) => (
-              <rect key={wx} x={wx} y="158" width="40" height="44" rx="4" fill="#38bdf8" stroke="#0284c7" strokeWidth="2" />
-            ))}
-            <rect x="564" y="200" width="72" height="73" rx="6" fill="#78350f" />
-            {/* Flagpole */}
-            <line x1="250" y1="90" x2="250" y2="275" stroke="#94a3b8" strokeWidth="6" />
-            <rect x="253" y="92" width="54" height="34" fill="#dc2626" />
-            <polygon points="280,99 283,108 292,108 285,113 287,121 280,116 273,121 275,113 268,108 277,108" fill="#facc15" />
-            {/* Schoolyard Trees & Stone Benches */}
-            <circle cx="135" cy="210" r="46" fill="#15803d" />
-            <rect x="128" y="242" width="14" height="48" fill="#78350f" />
-            <circle cx="1065" cy="212" r="48" fill="#16a34a" />
-            <rect x="1058" y="246" width="14" height="46" fill="#78350f" />
-            {/* Perspective Tiled Courtyard Floor */}
-            <polygon points="0,330 1200,330 1200,540 0,540" fill="#f8fafc" />
-            <polygon points="0,330 1200,330 1200,356 0,356" fill="#cbd5e1" />
-            {!isCard && (
+
+            {/* Stars or Clouds & Sun/Moon */}
+            {isNight ? (
               <>
-                <line x1="0" y1="400" x2="1200" y2="400" stroke="#e2e8f0" strokeWidth="2" />
-                <line x1="0" y1="470" x2="1200" y2="470" stroke="#e2e8f0" strokeWidth="2" />
+                <circle cx="960" cy="74" r="32" fill="#fef08a" opacity="0.92" />
+                <circle cx="972" cy="68" r="28" fill="#1e1b4b" />
+                {[
+                  [130, 52], [260, 88], [390, 44], [520, 74], [740, 56], [850, 92], [1080, 48]
+                ].map(([sx, sy], idx) => (
+                  <circle key={idx} cx={sx} cy={sy} r={idx % 2 === 0 ? 3 : 2} fill="#fef9c3" opacity="0.85" />
+                ))}
+              </>
+            ) : (
+              <>
+                <circle
+                  cx={isSunset ? 920 : 210}
+                  cy={isSunset ? 120 : 72}
+                  r="42"
+                  fill={isSunset ? '#fbbf24' : '#fef08a'}
+                  opacity="0.9"
+                />
+                <ellipse cx="260" cy="70" rx="95" ry="24" fill="#ffffff" opacity="0.82" />
+                <ellipse cx="880" cy="60" rx="115" ry="26" fill="#ffffff" opacity="0.75" />
+                <ellipse cx="470" cy="92" rx="68" ry="18" fill="#ffffff" opacity="0.68" />
+              </>
+            )}
+
+            {/* Distant Lush Canopy */}
+            <g opacity={isNight ? 0.55 : 1}>
+              <circle cx="95" cy="175" r="78" fill="#15803d" />
+              <circle cx="200" cy="188" r="64" fill="#16a34a" />
+              <circle cx="330" cy="185" r="56" fill="#22c55e" />
+              <circle cx="885" cy="185" r="58" fill="#22c55e" />
+              <circle cx="1010" cy="180" r="68" fill="#16a34a" />
+              <circle cx="1115" cy="172" r="80" fill="#15803d" />
+            </g>
+
+            {/* Long Flanking Red-Tiled Galleries & Stone Stele Garden (Vườn Bia Tiến Sĩ) */}
+            <rect x="75" y="198" width="1050" height="58" fill={isNight ? '#334155' : '#fef3c7'} />
+            <polygon points="55,198 1145,198 1120,162 80,162" fill={`url(#roofRed_${uid})`} />
+            <rect x="75" y="246" width="1050" height="12" fill="#cbd5e1" />
+            {/* Doctor Stone Steles on Turtle Pedestals */}
+            {[160, 240, 320, 405, 795, 880, 960, 1040].map((bx) => (
+              <g key={bx}>
+                <ellipse cx={bx} cy="242" rx="18" ry="6" fill="#64748b" />
+                <rect x={bx - 12} y="208" width="24" height="32" rx="4" fill="#94a3b8" />
+                <rect x={bx - 8} y="213" width="16" height="22" rx="2" fill="#cbd5e1" />
+              </g>
+            ))}
+
+            {/* Iconic 2-Tier Khuê Văn Các Pavilion (Center Hero) */}
+            <g>
+              {/* Stone Foundation & Steps */}
+              <polygon points="480,258 720,258 738,274 462,274" fill="#e2e8f0" />
+              <polygon points="545,258 655,258 666,282 534,282" fill="#f1f5f9" />
+              {/* Lower Columns & Swirl Portal Arch */}
+              <rect x="505" y="192" width="190" height="66" fill="#7f1d1d" />
+              {[512, 542, 650, 680].map((px) => (
+                <rect key={px} x={px} y="190" width="10" height="68" rx="3" fill="#dc2626" />
+              ))}
+              {/* Glowing Swirling Blue Teleport Portal inside Khuê Văn Các */}
+              <ellipse cx="600" cy="226" rx="42" ry="30" fill={`url(#portalGlow_${uid})`} />
+              <ellipse cx="600" cy="228" rx="24" ry="26" fill="#38bdf8" opacity="0.85" />
+              <ellipse cx="600" cy="228" rx="14" ry="16" fill="#e0f2fe" opacity="0.95" />
+
+              {/* Lower Roof + Golden "Khuê Văn Các" Sign */}
+              <polygon points="472,194 728,194 700,164 500,164" fill={`url(#roofRed_${uid})`} />
+              <rect x="536" y="168" width="128" height="24" rx="8" fill="#78350f" stroke="#facc15" strokeWidth="2.5" />
+              <text
+                x="600"
+                y="184"
+                textAnchor="middle"
+                fill="#fef08a"
+                fontSize="13"
+                fontWeight="900"
+                fontFamily="Baloo 2, sans-serif"
+              >
+                Khuê Văn Các
+              </text>
+
+              {/* Upper Tier with Round Golden Sun-Window */}
+              <rect x="538" y="108" width="124" height="56" fill="#991b1b" />
+              <circle cx="600" cy="136" r="19" fill="#fef08a" stroke="#f59e0b" strokeWidth="3.5" />
+              <circle cx="600" cy="136" r="11" fill="#78350f" />
+              {[0, 45, 90, 135].map((deg) => (
+                <line
+                  key={deg}
+                  x1="600"
+                  y1="118"
+                  x2="600"
+                  y2="154"
+                  stroke="#facc15"
+                  strokeWidth="2.5"
+                  transform={`rotate(${deg} 600 136)`}
+                />
+              ))}
+              {/* Upper Curved Pavilion Roof */}
+              <path d="M500 112 Q600 58 700 112 L680 118 Q600 76 520 118 Z" fill="#b91c1c" />
+              <polygon points="512,112 600,66 688,112" fill={`url(#roofRed_${uid})`} />
+              <circle cx="600" cy="60" r="7" fill="#facc15" />
+            </g>
+
+            {/* Courtyard Floor & Twin Green Grass Gardens */}
+            <rect x="0" y="264" width="1200" height="276" fill={isNight ? '#14532d' : '#4ade80'} />
+            {/* Central Warm Terracotta Stone Walkway & Forecourt */}
+            <polygon points="0,352 1200,352 1200,540 0,540" fill="#fde68a" />
+            <polygon points="518,274 682,274 800,540 400,540" fill={`url(#courtyard_${uid})`} />
+            <polygon points="0,352 1200,352 1200,540 0,540" fill="#fdba74" opacity="0.45" />
+            {!isCard && (
+              <g stroke={isNight ? '#475569' : '#ea580c'} strokeOpacity="0.22" strokeWidth="2">
+                <line x1="0" y1="395" x2="1200" y2="395" />
+                <line x1="0" y1="442" x2="1200" y2="442" />
+                <line x1="0" y1="490" x2="1200" y2="490" />
+                <line x1="600" y1="274" x2="600" y2="540" />
+              </g>
+            )}
+
+            {/* Twin Blooming Lotus Ponds (Hồ Sen & Giếng Thiên Quang) */}
+            <g>
+              {/* Left Pond */}
+              <polygon points="285,282 485,282 465,346 250,346" fill={`url(#pond_${uid})`} stroke="#e2e8f0" strokeWidth="6" />
+              <ellipse cx="345" cy="316" rx="22" ry="9" fill="#22c55e" />
+              <ellipse cx="420" cy="308" rx="18" ry="8" fill="#16a34a" />
+              <ellipse cx="385" cy="328" rx="20" ry="8" fill="#4ade80" />
+              <circle cx="344" cy="311" r="7" fill="#f472b6" />
+              <circle cx="422" cy="303" r="6" fill="#fbcfe8" />
+
+              {/* Right Pond */}
+              <polygon points="715,282 915,282 950,346 735,346" fill={`url(#pond_${uid})`} stroke="#e2e8f0" strokeWidth="6" />
+              <ellipse cx="785" cy="310" rx="22" ry="9" fill="#22c55e" />
+              <ellipse cx="860" cy="320" rx="20" ry="8" fill="#16a34a" />
+              <ellipse cx="820" cy="330" rx="16" ry="7" fill="#4ade80" />
+              <circle cx="785" cy="305" r="7" fill="#f472b6" />
+              <circle cx="862" cy="314" r="6" fill="#f9a8d4" />
+            </g>
+
+            {/* Decorative Lush Corner Trees, Shrubs & Stone Lanterns */}
+            <g>
+              <circle cx="52" cy="240" r="68" fill="#16a34a" />
+              <rect x="40" y="275" width="22" height="90" fill="#78350f" />
+              <circle cx="1148" cy="240" r="68" fill="#15803d" />
+              <rect x="1138" y="275" width="22" height="90" fill="#78350f" />
+              {/* Wooden Courtyard Fences */}
+              <line x1="120" y1="342" x2="245" y2="342" stroke="#b45309" strokeWidth="6" strokeLinecap="round" />
+              <line x1="955" y1="342" x2="1080" y2="342" stroke="#b45309" strokeWidth="6" strokeLinecap="round" />
+            </g>
+
+            {/* Card-mode Miniature Kiosk Preview Silhouettes */}
+            {isCard && (
+              <>
+                <rect x="110" y="268" width="130" height="58" rx="8" fill="#92400e" />
+                <polygon points="95,270 255,270 235,244 115,244" fill="#d97706" />
+                <circle cx="175" cy="296" r="18" fill="#dc2626" stroke="#facc15" strokeWidth="4" />
+                <rect x="960" y="268" width="130" height="58" rx="8" fill="#f59e0b" />
+                <polygon points="945,270 1105,270 1085,244 965,244" fill="#0284c7" />
               </>
             )}
           </>
         );
+      }
     }
   };
 
