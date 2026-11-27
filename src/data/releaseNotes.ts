@@ -15,7 +15,7 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
-    version: '0.2.19',
+    version: '0.2.23',
     date: '2026-11-27',
     title: 'Nhân vật và vật phẩm có khối 3D bóng như đồ chơi',
     items: [
