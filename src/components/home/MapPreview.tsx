@@ -44,9 +44,9 @@ export const MapPreview: React.FC<Props> = ({ student, onOpen }) => {
       </div>
       <div className="relative bg-white dark:bg-slate-900 px-5 py-4 flex flex-col sm:flex-row items-center gap-3 sm:justify-between">
         <div className="text-center sm:text-left">
-          <h2 id="map-title" className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white flex items-center justify-center sm:justify-start gap-2"><Compass className="w-6 h-6 text-emerald-600" /> Bản Đồ Thám Hiểm</h2>
+          <h2 id="map-title" className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white flex items-center justify-center sm:justify-start gap-2"><Compass className="w-6 h-6 text-emerald-600" /> Bản Đồ Thám Hiểm 6 Vùng 2.5D</h2>
           <p className="text-sm text-slate-600 dark:text-slate-300">
-            Vượt từng hòn đảo kiến thức, gom sao, đánh bại Trùm Cuối!
+            Dạo chơi 6 vùng đất (Văn Hiến, Rừng Bí Ẩn, Đảo Trên Mây, Đại Dương, Khủng Long, Kẹo Ngọt), săn vật phẩm ẩn, mở rương báu & chinh phục Đảo Kiến Thức!
             {stars !== null && <span className="ml-1 inline-flex items-center gap-1 font-black text-amber-600"><StarIcon className="w-4 h-4" /> Bạn đã gom {stars} sao</span>}
           </p>
         </div>

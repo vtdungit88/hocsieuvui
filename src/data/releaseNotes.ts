@@ -15,6 +15,15 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.28',
+    date: '2026-11-27',
+    title: 'Nâng cấp Bản Đồ Thám Hiểm 2.5D với 6 vùng đất tự do, kho báu & bộ sưu tập',
+    items: [
+      'Thiết kế lại Bản Đồ Thám Hiểm thành thế giới đảo bay Isometric 2.5D gồm 6 vùng đất liên thông tách biệt theo module: 01. Vùng Đất Văn Hiến, 02. Rừng Bí Ẩn, 03. Đảo Trên Mây, 04. Vương Quốc Đại Dương, 05. Thung Lũng Khủng Long và 06. Xứ Sở Kẹo Ngọt.',
+      'Điều khiển nhân vật Avatar trực tiếp dạo chơi trên bản đồ, khám phá 18 công trình kiến trúc 2.5D để nhận huy hiệu từng vùng, săn 18 vật phẩm bí mật, chơi 6 thử thách giải trí cùng NPC, mở rương kho báu và lưu Bộ Sưu Tập độc lập không bắt buộc học bài (vẫn giữ nguyên chế độ Đảo Kiến Thức).'
+    ]
+  },
+  {
     version: '0.2.27',
     date: '2026-11-27',
     title: 'Tối ưu giao diện Sảnh Văn Miếu: mở rộng màn hình game, tách lớp không che chữ & hỗ trợ xoay ngang',
