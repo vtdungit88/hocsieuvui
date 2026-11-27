@@ -9,8 +9,10 @@ import {
 import { getLevelProgress, getRankTier, levelFromXp } from '../data/levels';
 import {
   claimCityTriviaBonus,
+  dmBlock,
   fetchLobbyMessages,
   reportLobbyMessage,
+  saveAvatar,
   sendLobbyMessage,
   dmUnreadCount,
   type HubState,
@@ -25,6 +27,15 @@ import { City3DLandmark } from './City3DLandmark';
 import { CoinIcon } from './GameIcons';
 import { VuiBotMascot } from './VuiBotMascot';
 import {
+  VAN_MIEU_ZONES,
+  loadWorldSave,
+  saveWorldSave,
+  type FishSpecies,
+  type VanMieuNpc,
+  type VanMieuWorldSave,
+  type VanMieuZoneId
+} from '../data/vanMieuWorld';
+import {
   VanMieuInteractiveLayer,
   VanMieuMiniMap,
   VanMieuToyboxModal,
@@ -32,6 +43,7 @@ import {
   FairyMemoryGameModal,
   VanMieuFunRankModal,
   TREASURE_NODES,
+  getTodayKey,
   loadVanMieuStats,
   saveVanMieuStats,
   type LightingMode,
@@ -45,6 +57,11 @@ import {
   type TreasureItem,
   type VanMieuStats
 } from './lobby/VanMieuFreeplay';
+import { VanMieuOAnQuanModal } from './lobby/VanMieuOAnQuanModal';
+import { VanMieuTugOfWarModal } from './lobby/VanMieuTugOfWarModal';
+import { VanMieuObstacleRaceModal } from './lobby/VanMieuObstacleRaceModal';
+import { VanMieuPetZoneModal } from './lobby/VanMieuPetZoneModal';
+import { VanMieuFishingHouseModal } from './lobby/VanMieuFishingHouseModal';
 import {
   ArrowDown,
   ArrowLeft,
@@ -52,21 +69,26 @@ import {
   ArrowUp,
   Award,
   Backpack,
+  Ban,
   CalendarCheck,
   Compass,
   Flag,
   Gift,
   Heart,
   HelpCircle,
+  Home,
   Loader2,
   MapPin,
   MessageCircle,
   Moon,
+  Music,
   Plane,
   Send,
   ShieldCheck,
   Smile,
   Sparkles,
+  Star,
+  Store,
   Sun,
   Sunset,
   Trophy,
@@ -179,7 +201,9 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
   const [clickRipple, setClickRipple] = useState<{ x: number; y: number; key: number } | null>(null);
   const [isWalking, setIsWalking] = useState(false);
 
-  // Văn Miếu Freeplay playground state
+  // Văn Miếu Freeplay playground & 4-zone world state
+  const [activeZone, setActiveZone] = useState<VanMieuZoneId>('heritage_plaza');
+  const [selectedNpc, setSelectedNpc] = useState<VanMieuNpc | null>(null);
   const [lighting, setLighting] = useState<LightingMode>('day');
   const [drumCombo, setDrumCombo] = useState(0);
   const [drumShaking, setDrumShaking] = useState(false);
@@ -191,26 +215,36 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
   const [balloonBursts, setBalloonBursts] = useState<BalloonBurst[]>([]);
   const [critters, setCritters] = useState<AmbientCritter[]>(() => makeInitialCritters('day'));
   const [catWaving, setCatWaving] = useState(false);
+  const [lawnBallActive, setLawnBallActive] = useState(false);
+  const [stageDanceActive, setStageDanceActive] = useState(false);
   const [activeTrail, setActiveTrail] = useState<TrailColorId>('rainbow');
   const [footstepSparks, setFootstepSparks] = useState<FootstepSpark[]>([]);
+  const [tugPeerPullDelta, setTugPeerPullDelta] = useState(0);
 
   // Jump, scale & splash effects (local + peers via broadcast)
   const [jumpingIds, setJumpingIds] = useState<Record<string, boolean>>({});
   const [actorScales, setActorScales] = useState<Record<string, AvatarScaleMode>>({});
   const [actorSplashes, setActorSplashes] = useState<Record<string, boolean>>({});
 
-  // Daily Freeplay Stats & Modals
+  // Daily Freeplay Stats, Persistent World Save & Mini-Game Modals
   const [vanMieuStats, setVanMieuStats] = useState<VanMieuStats>(() =>
     loadVanMieuStats(student.id)
   );
+  const [worldSave, setWorldSave] = useState<VanMieuWorldSave>(() => loadWorldSave(student.id));
   const [isToyboxOpen, setIsToyboxOpen] = useState(false);
   const [isFunQuestsOpen, setIsFunQuestsOpen] = useState(false);
   const [isMemoryOpen, setIsMemoryOpen] = useState(false);
   const [isFunRankOpen, setIsFunRankOpen] = useState(false);
+  const [isOAnQuanOpen, setIsOAnQuanOpen] = useState(false);
+  const [isTugOfWarOpen, setIsTugOfWarOpen] = useState(false);
+  const [isObstacleOpen, setIsObstacleOpen] = useState(false);
+  const [petZoneTab, setPetZoneTab] = useState<'care' | 'race' | null>(null);
+  const [fishingHouseTab, setFishingHouseTab] = useState<'fishing' | 'house' | null>(null);
   const [isEmoteTrayOpen, setIsEmoteTrayOpen] = useState(false);
 
   useEffect(() => {
     setVanMieuStats(loadVanMieuStats(student.id));
+    setWorldSave(loadWorldSave(student.id));
   }, [student.id]);
 
   const updateStats = useCallback(
@@ -218,6 +252,17 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
       setVanMieuStats((prev) => {
         const next = updater(prev);
         saveVanMieuStats(student.id, next);
+        return next;
+      });
+    },
+    [student.id]
+  );
+
+  const updateWorldSave = useCallback(
+    (updater: (prev: VanMieuWorldSave) => VanMieuWorldSave) => {
+      setWorldSave((prev) => {
+        const next = updater(prev);
+        saveWorldSave(student.id, next);
         return next;
       });
     },
@@ -470,12 +515,21 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
           window.setTimeout(() => {
             setActorSplashes((prev) => ({ ...prev, [pid]: false }));
           }, 12000);
-        } else if (toy === 'balloons') {
+          } else if (toy === 'balloons') {
           setBalloonBursts((prev) => [
             ...prev,
             { id: `bb_${Date.now()}`, x: Number(payload.x) || 50, y: Number(payload.y) || 70, createdAt: Date.now() }
           ]);
         }
+      })
+      .on('broadcast', { event: 'vanmieu_tug' }, ({ payload }) => {
+        if (!payload || payload.id === selfId) return;
+        setTugPeerPullDelta((d) => d + (Number(payload.power) || 4));
+      })
+      .on('broadcast', { event: 'vanmieu_dance' }, ({ payload }) => {
+        if (!payload || payload.id === selfId) return;
+        triggerActorJump(String(payload.id));
+        setBubbleFor(String(payload.id), { text: '💃 Nhảy Vũ Hội!', kind: 'emote', symbol: '💃' });
       })
       .subscribe(async (status) => {
         if (status === 'SUBSCRIBED') {
@@ -764,6 +818,152 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
     setIsToyboxOpen(true);
   };
 
+  const awardBonusStars = useCallback(
+    (stars: number, message?: string) => {
+      if (stars <= 0) return;
+      onUpdateStudent({
+        ...student,
+        stars: (student.stars || 0) + stars
+      });
+      updateWorldSave((prev) => ({
+        ...prev,
+        bonusStarsEarned: prev.bonusStarsEarned + stars
+      }));
+      if (message) showToast(message);
+    },
+    [onUpdateStudent, showToast, student, updateWorldSave]
+  );
+
+  const handleSelectZone = useCallback(
+    (zone: VanMieuZoneId) => {
+      soundManager.play('travel');
+      setActiveZone(zone);
+      setSelectedNpc(null);
+      setPos({ x: 50, y: 74, facing: 1 });
+      const meta = VAN_MIEU_ZONES.find((z) => z.id === zone);
+      if (meta) showToast(`Đã dịch chuyển tới ${meta.title}!`);
+    },
+    [showToast]
+  );
+
+  const handleDailyCheckIn = useCallback(() => {
+    const today = getTodayKey();
+    if (worldSave.lastCheckInDate === today) {
+      showToast('Hôm nay bạn đã nhận quà điểm danh rồi, mai lại ghé chơi nhé!');
+      return;
+    }
+    soundManager.play('fanfare');
+    confetti({ particleCount: 70, spread: 80, origin: { y: 0.6 } });
+    updateWorldSave((prev) => ({
+      ...prev,
+      lastCheckInDate: today,
+      totalCheckInDays: prev.totalCheckInDays + 1
+    }));
+    awardBonusStars(2, 'Quà Điểm Danh hôm nay: +2 Sao trang trí! Cảm ơn bạn đã ghé Văn Miếu!');
+  }, [awardBonusStars, showToast, updateWorldSave, worldSave.lastCheckInDate]);
+
+  const handleAdoptStarterPet = useCallback(
+    (petId: string) => {
+      const nextConfig: AvatarConfig = {
+        ...student.avatarConfig,
+        petId
+      };
+      const nextUnlocked = student.unlockedItems.includes(petId)
+        ? student.unlockedItems
+        : [...student.unlockedItems, petId];
+      onUpdateStudent({
+        ...student,
+        avatarConfig: nextConfig,
+        unlockedItems: nextUnlocked,
+        equippedItems: {
+          ...student.equippedItems,
+          pet: petId
+        }
+      });
+      if (!student.isGuest && isSupabaseConfigured) {
+        void saveAvatar(nextConfig).catch(() => undefined);
+      }
+      updateWorldSave((prev) => ({
+        ...prev,
+        adoptedStarterPetId: petId
+      }));
+      showToast('Tuyệt quá! Thú cưng mới đang chạy đi theo bạn khắp Văn Miếu rồi!');
+    },
+    [onUpdateStudent, showToast, student, updateWorldSave]
+  );
+
+  const handleThrowLawnBall = useCallback(() => {
+    soundManager.play('jump');
+    setLawnBallActive(true);
+    moveSelfTo(53, 68);
+    handleSelfJump();
+    window.setTimeout(() => {
+      setLawnBallActive(false);
+      soundManager.play('coin');
+      updateWorldSave((prev) => ({
+        ...prev,
+        petBallCatches: prev.petBallCatches + 1,
+        petAffection: prev.petAffection + 1
+      }));
+      showToast('Thú cưng vừa bắt gọn quả bóng trên bãi cỏ! (+1 Thân thiết)');
+    }, 850);
+  }, [handleSelfJump, moveSelfTo, showToast, updateWorldSave]);
+
+  const handleTriggerStageDance = useCallback(() => {
+    soundManager.play('fanfare');
+    setStageDanceActive(true);
+    handleSelfJump();
+    setBubbleFor(selfId, { text: '💃 Nhảy Vũ Hội!', kind: 'emote', symbol: '💃' });
+    updateWorldSave((prev) => ({ ...prev, stageDances: prev.stageDances + 1 }));
+    if (channelRef.current) {
+      void channelRef.current.send({
+        type: 'broadcast',
+        event: 'vanmieu_dance',
+        payload: { id: selfId }
+      });
+    }
+    window.setTimeout(() => setStageDanceActive(false), 1800);
+  }, [handleSelfJump, selfId, setBubbleFor, updateWorldSave]);
+
+  const handleNpcAction = useCallback(
+    (actionId: string) => {
+      setSelectedNpc(null);
+      if (actionId === 'daily_checkin') handleDailyCheckIn();
+      else if (actionId === 'open_oanquan') setIsOAnQuanOpen(true);
+      else if (actionId === 'open_tugofwar') setIsTugOfWarOpen(true);
+      else if (actionId === 'open_pet_garden') setPetZoneTab('care');
+      else if (actionId === 'open_pet_race') setPetZoneTab('race');
+      else if (actionId === 'open_obstacle_race') setIsObstacleOpen(true);
+      else if (actionId === 'open_fishing') setFishingHouseTab('fishing');
+      else if (actionId === 'open_house') setFishingHouseTab('house');
+      else if (actionId === 'open_stage_dance') handleTriggerStageDance();
+      else if (actionId === 'open_shop') onNavigateToShop();
+      else if (actionId === 'open_travel') onOpenTravel();
+    },
+    [handleDailyCheckIn, handleTriggerStageDance, onNavigateToShop, onOpenTravel]
+  );
+
+  const handleBlockPeer = useCallback(
+    async (peer: PeerPresence) => {
+      updateWorldSave((prev) => ({
+        ...prev,
+        blockedPeerIds: prev.blockedPeerIds.includes(peer.id)
+          ? prev.blockedPeerIds
+          : [...prev.blockedPeerIds, peer.id]
+      }));
+      if (!student.isGuest && !peer.id.startsWith('guest:') && isSupabaseConfigured) {
+        try {
+          await dmBlock(peer.id, true);
+        } catch {
+          // ignore if DM thread absent
+        }
+      }
+      setSelectedPeer(null);
+      showToast(`Đã ẩn & chặn tương tác từ ${peer.alias}.`);
+    },
+    [showToast, student.isGuest, updateWorldSave]
+  );
+
   const handleSendMessage = async (kind: 'quick' | 'text' | 'emote', body: string, symbol?: string) => {
     setChatError('');
     if (kind === 'emote' && symbol && (student.isGuest || !isSupabaseConfigured)) {
@@ -909,7 +1109,13 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
     setLighting((prev) => (prev === 'day' ? 'sunset' : prev === 'sunset' ? 'night' : 'day'));
   };
 
-  // Combine self + active peers sorted by Y coordinate for natural 2.5D depth overlapping
+  // Combine self + unblocked active peers sorted by Y coordinate for natural 2.5D depth overlapping
+  const blockedSet = useMemo(() => new Set(worldSave.blockedPeerIds), [worldSave.blockedPeerIds]);
+  const visiblePeers = useMemo(
+    () => Object.values(peers).filter((p) => !blockedSet.has(p.id)),
+    [blockedSet, peers]
+  );
+
   const renderActors = useMemo(() => {
     const selfActor: PeerPresence & { isSelf: boolean } = {
       id: selfId,
@@ -926,15 +1132,21 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
     };
     const list: (PeerPresence & { isSelf: boolean })[] = [
       selfActor,
-      ...Object.values(peers).map((p) => ({ ...p, isSelf: false }))
+      ...visiblePeers.map((p) => ({ ...p, isSelf: false }))
     ];
     return list.sort((a, b) => a.y - b.y);
-  }, [myRank.title, peers, pos.facing, pos.x, pos.y, progress.level, selfId, student.avatarConfig, student.isGuest, student.name]);
+  }, [myRank.title, pos.facing, pos.x, pos.y, progress.level, selfId, student.avatarConfig, student.isGuest, student.name, visiblePeers]);
 
   const onlineInCity = Math.max(
-    1 + Object.keys(peers).length,
+    1 + visiblePeers.length,
     cityOnlineCounts[currentDestKey] ?? 0
   );
+
+  const currentZoneMeta = useMemo(
+    () => VAN_MIEU_ZONES.find((z) => z.id === activeZone) ?? VAN_MIEU_ZONES[0],
+    [activeZone]
+  );
+  const checkedInToday = worldSave.lastCheckInDate === getTodayKey();
 
   return (
     <div className="max-w-7xl mx-auto px-3 sm:px-6 pt-3 pb-8 space-y-3.5">
@@ -1026,6 +1238,7 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
                 destKey={currentCity.destKey}
                 mode="stage"
                 lighting={lighting}
+                zone={activeZone}
                 className="pointer-events-none"
               />
               <div
@@ -1034,7 +1247,7 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
               />
             </div>
 
-            {/* TOP-LEFT MOCKUP HUD: Player Portrait + Coins + LV Badge */}
+            {/* TOP-LEFT GAME HUD: Avatar Portrait + Name + Coins + Stars + Level */}
             <div
               data-interactive="true"
               onClick={(e) => e.stopPropagation()}
@@ -1043,7 +1256,7 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
               <button
                 type="button"
                 onClick={onOpenLevel}
-                className="flex items-center gap-2 pr-3 pl-1.5 py-1 rounded-2xl bg-sky-700/85 hover:bg-sky-700/95 backdrop-blur-xs border-2 border-sky-200/80 text-white shadow-lg cursor-pointer transition-transform active:scale-95"
+                className="flex items-center gap-2 pr-3 pl-1.5 py-1 rounded-2xl bg-sky-800/90 hover:bg-sky-700/95 backdrop-blur-xs border-2 border-sky-200/80 text-white shadow-lg cursor-pointer transition-transform active:scale-95"
               >
                 <div className="w-9 h-9 rounded-full bg-amber-100 border-2 border-amber-300 overflow-hidden flex items-center justify-center shrink-0">
                   <AvatarRenderer
@@ -1057,68 +1270,65 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
                   />
                 </div>
                 <div className="text-left min-w-0">
-                  <div className="text-xs font-black leading-tight truncate max-w-[110px]">
-                    {student.name}
+                  <div className="text-xs font-black leading-tight truncate max-w-[115px] flex items-center gap-1">
+                    <span className="truncate">{student.name}</span>
+                    <span className="text-[10px] font-black text-sky-200">LV.{progress.level}</span>
                   </div>
-                  <div className="flex items-center gap-1.5 text-[11px] font-extrabold text-amber-300 tabular-nums">
-                    <CoinIcon className="w-3.5 h-3.5" />
-                    <span>{student.coins.toLocaleString('vi-VN')}</span>
-                    <span className="px-1.5 py-0.2 rounded-full bg-amber-400 text-slate-950 text-[9px] font-black">
-                      LV.{progress.level}
+                  <div className="flex items-center gap-2 text-[11px] font-extrabold text-amber-300 tabular-nums">
+                    <span className="inline-flex items-center gap-0.5">
+                      <CoinIcon className="w-3.5 h-3.5" />
+                      {student.coins.toLocaleString('vi-VN')}
+                    </span>
+                    <span className="inline-flex items-center gap-0.5 text-yellow-200">
+                      <Star className="w-3 h-3 fill-yellow-300 text-yellow-300" />
+                      {student.stars.toLocaleString('vi-VN')}
                     </span>
                   </div>
                 </div>
               </button>
             </div>
 
-            {/* TOP-RIGHT MOCKUP HUD: Floating Toy Icons + Lighting + Live Mini-Map */}
+            {/* TOP-RIGHT GAME HUD: Friends · Pets · Bag · Shop · Events · House · Day/Night + Mini-Map */}
             <div
               data-interactive="true"
               onClick={(e) => e.stopPropagation()}
-              className="absolute top-2.5 right-2.5 z-40 flex items-start gap-1.5 sm:gap-2"
+              className="absolute top-2.5 right-2.5 z-40 flex items-start gap-1.5"
             >
               {isVanMieu && (
-                <div className="flex items-center gap-1 sm:gap-1.5 pt-0.5">
+                <div className="flex flex-wrap justify-end items-center gap-1 pt-0.5 max-w-[235px] sm:max-w-none">
                   <button
                     type="button"
                     onClick={() => {
-                      soundManager.play('click');
-                      setIsFunQuestsOpen(true);
+                      if (!canDm) {
+                        onRequireLogin();
+                        return;
+                      }
+                      setDmPeer(null);
+                      setDmOpen(true);
                     }}
-                    className="relative px-2 py-1.5 rounded-xl bg-rose-500/90 hover:bg-rose-500 text-white border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
-                    title="Quà tặng & Kho báu 5 món hôm nay"
+                    className="relative px-2 py-1.5 rounded-xl bg-sky-600/95 hover:bg-sky-500 text-white border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
+                    title="Bạn bè & Hộp thư"
                   >
-                    <Gift className="w-4 h-4" />
-                    <span className="hidden sm:block text-[9px] font-black mt-0.5">Quà tặng</span>
-                    <span className="absolute -top-1.5 -right-1.5 px-1 rounded-full bg-amber-300 text-slate-950 text-[9px] font-black border border-white">
-                      {vanMieuStats.foundTreasures.length}/{TREASURE_NODES.length}
-                    </span>
+                    <Users className="w-4 h-4" />
+                    <span className="hidden sm:block text-[9px] font-black mt-0.5">Bạn bè</span>
+                    {dmUnread > 0 && (
+                      <span className="absolute -top-1.5 -right-1.5 px-1 rounded-full bg-rose-500 text-white text-[9px] font-black border border-white">
+                        {dmUnread}
+                      </span>
+                    )}
                   </button>
 
                   <button
                     type="button"
                     onClick={() => {
                       soundManager.play('click');
-                      setIsFunQuestsOpen(true);
+                      setPetZoneTab('care');
                     }}
-                    className="px-2 py-1.5 rounded-xl bg-sky-500/90 hover:bg-sky-500 text-white border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
-                    title="Nhiệm vụ vui tự do"
+                    className="px-2 py-1.5 rounded-xl bg-emerald-600/95 hover:bg-emerald-500 text-white border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
+                    title="Vườn Thú Cưng & Đua Thú"
                   >
-                    <CalendarCheck className="w-4 h-4" />
-                    <span className="hidden sm:block text-[9px] font-black mt-0.5">Nhiệm vụ</span>
-                  </button>
-
-                  <button
-                    type="button"
-                    onClick={() => {
-                      soundManager.play('click');
-                      setIsFunRankOpen(true);
-                    }}
-                    className="px-2 py-1.5 rounded-xl bg-amber-500/95 hover:bg-amber-400 text-slate-950 border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
-                    title="Bảng thành tích vui chơi"
-                  >
-                    <Trophy className="w-4 h-4" />
-                    <span className="hidden sm:block text-[9px] font-black mt-0.5">Kỷ lục</span>
+                    <Heart className="w-4 h-4" />
+                    <span className="hidden sm:block text-[9px] font-black mt-0.5">Thú cưng</span>
                   </button>
 
                   <button
@@ -1128,7 +1338,7 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
                       setIsToyboxOpen(true);
                     }}
                     className="px-2 py-1.5 rounded-xl bg-orange-500/95 hover:bg-orange-400 text-white border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
-                    title="Túi đồ chơi & Bụi tiên"
+                    title="Túi Đồ Chơi & Bụi Tiên"
                   >
                     <Backpack className="w-4 h-4" />
                     <span className="hidden sm:block text-[9px] font-black mt-0.5">Túi đồ</span>
@@ -1136,9 +1346,66 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
 
                   <button
                     type="button"
+                    onClick={() => {
+                      soundManager.play('click');
+                      onNavigateToShop();
+                    }}
+                    className="px-2 py-1.5 rounded-xl bg-purple-600/95 hover:bg-purple-500 text-white border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
+                    title="Cửa Hàng Thời Trang (Avatar Studio)"
+                  >
+                    <Store className="w-4 h-4" />
+                    <span className="hidden sm:block text-[9px] font-black mt-0.5">Cửa hàng</span>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => {
+                      soundManager.play('click');
+                      setIsFunQuestsOpen(true);
+                    }}
+                    className="relative px-2 py-1.5 rounded-xl bg-rose-500/95 hover:bg-rose-400 text-white border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
+                    title="Sự Kiện Lễ Hội & Điểm Danh"
+                  >
+                    <CalendarCheck className="w-4 h-4" />
+                    <span className="hidden sm:block text-[9px] font-black mt-0.5">Sự kiện</span>
+                    {!checkedInToday && (
+                      <span className="absolute -top-1.5 -right-1.5 px-1 rounded-full bg-amber-300 text-slate-950 text-[8px] font-black border border-white">
+                        Quà
+                      </span>
+                    )}
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => {
+                      soundManager.play('click');
+                      setFishingHouseTab('house');
+                    }}
+                    className="px-2 py-1.5 rounded-xl bg-amber-500/95 hover:bg-amber-400 text-slate-950 border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
+                    title="Ngôi Nhà Riêng & Vườn Cây"
+                  >
+                    <Home className="w-4 h-4" />
+                    <span className="hidden sm:block text-[9px] font-black mt-0.5">Nhà riêng</span>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => {
+                      soundManager.play('click');
+                      setIsFunRankOpen(true);
+                    }}
+                    className="px-2 py-1.5 rounded-xl bg-indigo-600/95 hover:bg-indigo-500 text-white border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
+                    title="Thành Tựu & Bộ Sưu Tập"
+                  >
+                    <Trophy className="w-4 h-4" />
+                    <span className="hidden sm:block text-[9px] font-black mt-0.5">Thành tựu</span>
+                  </button>
+
+                  <button
+                    type="button"
                     onClick={cycleLighting}
                     className="px-2 py-1.5 rounded-xl bg-slate-800/85 hover:bg-slate-700 text-amber-300 border border-white/70 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
-                    title="Đổi Sáng / Hoàng Hôn / Đêm Hội Đèn Lồng"
+                    title="Đổi Sáng / Hoàng Hôn / Đêm Hội"
                   >
                     {lighting === 'day' ? (
                       <Sun className="w-4 h-4" />
@@ -1148,7 +1415,7 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
                       <Moon className="w-4 h-4" />
                     )}
                     <span className="hidden sm:block text-[9px] font-black mt-0.5">
-                      {lighting === 'day' ? 'Ban ngày' : lighting === 'sunset' ? 'Hoàng hôn' : 'Đêm hội'}
+                      {lighting === 'day' ? 'Ngày' : lighting === 'sunset' ? 'Chiều' : 'Đêm'}
                     </span>
                   </button>
                 </div>
@@ -1163,10 +1430,12 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
 
               {isVanMieu && (
                 <VanMieuMiniMap
+                  activeZone={activeZone}
                   selfX={pos.x}
                   selfY={pos.y}
-                  peers={Object.values(peers).map((p) => ({ id: p.id, x: p.x, y: p.y }))}
+                  peers={visiblePeers.map((p) => ({ id: p.id, x: p.x, y: p.y }))}
                   foundTreasures={vanMieuStats.foundTreasures}
+                  onSelectZone={handleSelectZone}
                   onOpenTravel={onOpenTravel}
                 />
               )}
@@ -1206,9 +1475,10 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
                 />
               )}
 
-              {/* Văn Miếu Interactive Zones, Portal, Drum, Lanterns, Treasures & Critters */}
+              {/* Văn Miếu 4-Zone Interactive World, Portals, NPCs & Freeplay Props */}
               {isVanMieu && (
                 <VanMieuInteractiveLayer
+                  activeZone={activeZone}
                   lighting={lighting}
                   drumCombo={drumCombo}
                   drumShaking={drumShaking}
@@ -1218,12 +1488,31 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
                   critters={critters}
                   foundTreasures={vanMieuStats.foundTreasures}
                   catWaving={catWaving}
+                  lawnBallActive={lawnBallActive}
+                  stageDanceActive={stageDanceActive}
+                  onSelectZone={handleSelectZone}
+                  onSelectNpc={(npc) => {
+                    soundManager.play('click');
+                    setSelectedNpc(npc);
+                  }}
                   onPortalClick={() => {
                     soundManager.play('travel');
                     onOpenTravel();
                   }}
+                  onOpenNoticeBoard={() => {
+                    soundManager.play('click');
+                    setIsFunQuestsOpen(true);
+                  }}
                   onDrumHit={handleDrumHit}
                   onHopscotchClick={handleHopscotchClick}
+                  onOpenOAnQuan={() => {
+                    soundManager.play('click');
+                    setIsOAnQuanOpen(true);
+                  }}
+                  onOpenTugOfWar={() => {
+                    soundManager.play('click');
+                    setIsTugOfWarOpen(true);
+                  }}
                   onPondClick={handleReleaseLantern}
                   onCreativeCornerClick={handleCreativeCornerClick}
                   onFairyLibraryClick={() => {
@@ -1234,6 +1523,28 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
                     soundManager.play('click');
                     setIsToyboxOpen(true);
                   }}
+                  onOpenPetCare={(tab) => {
+                    soundManager.play('click');
+                    setPetZoneTab(tab);
+                  }}
+                  onThrowLawnBall={handleThrowLawnBall}
+                  onOpenObstacleRace={() => {
+                    soundManager.play('click');
+                    setIsObstacleOpen(true);
+                  }}
+                  onOpenFishing={() => {
+                    soundManager.play('click');
+                    setFishingHouseTab('fishing');
+                  }}
+                  onOpenHouse={() => {
+                    soundManager.play('click');
+                    setFishingHouseTab('house');
+                  }}
+                  onOpenShop={() => {
+                    soundManager.play('click');
+                    onNavigateToShop();
+                  }}
+                  onTriggerStageDance={handleTriggerStageDance}
                   onCatchCritter={handleCatchCritter}
                   onCollectTreasure={handleCollectTreasure}
                 />
@@ -1340,8 +1651,11 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
                         config={actor.avatarConfig}
                         size="sm"
                         animated={true}
+                        showPet={true}
+                        showAura={true}
+                        showVehicle={true}
                         facing={actor.facing}
-                        isReacting={Boolean(bubble) || isJumping}
+                        isReacting={Boolean(bubble) || isJumping || stageDanceActive}
                       />
                     </div>
 
@@ -1466,17 +1780,66 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
               </button>
             </div>
 
+            {/* NPC Interactive Story & Quick Launch Drawer */}
+            {selectedNpc && (
+              <div
+                data-interactive="true"
+                onClick={(e) => e.stopPropagation()}
+                className="absolute bottom-14 left-1/2 -translate-x-1/2 z-50 w-[92%] max-w-md rounded-3xl bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-2 border-amber-400 p-4 shadow-2xl space-y-2.5"
+              >
+                <div className="flex items-start justify-between gap-2">
+                  <div>
+                    <div className="text-sm font-black text-slate-900 dark:text-white">
+                      {selectedNpc.name} · <span className="text-amber-600">{selectedNpc.role}</span>
+                    </div>
+                    <p className="text-xs text-slate-700 dark:text-slate-200 mt-1 leading-relaxed">
+                      {selectedNpc.greeting}
+                    </p>
+                    <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-1">
+                      {selectedNpc.tip}
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => setSelectedNpc(null)}
+                    className="p-1.5 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer shrink-0"
+                    aria-label="Đóng hộp thoại NPC"
+                  >
+                    <X className="w-4 h-4" />
+                  </button>
+                </div>
+                <div className="flex flex-wrap items-center gap-2 pt-1">
+                  <button
+                    type="button"
+                    onClick={() => handleNpcAction(selectedNpc.primaryActionId)}
+                    className="px-3.5 py-2 rounded-xl bg-amber-400 hover:bg-amber-500 text-slate-950 text-xs font-black cursor-pointer"
+                  >
+                    {selectedNpc.primaryActionLabel}
+                  </button>
+                  {selectedNpc.secondaryActionId && selectedNpc.secondaryActionLabel && (
+                    <button
+                      type="button"
+                      onClick={() => handleNpcAction(selectedNpc.secondaryActionId!)}
+                      className="px-3.5 py-2 rounded-xl bg-sky-600 hover:bg-sky-700 text-white text-xs font-black cursor-pointer"
+                    >
+                      {selectedNpc.secondaryActionLabel}
+                    </button>
+                  )}
+                </div>
+              </div>
+            )}
+
             {/* Selected Peer Mini Profile Overlay */}
             {selectedPeer && (
               <div
                 data-interactive="true"
                 onClick={(e) => e.stopPropagation()}
-                className="absolute top-24 right-3 z-40 w-64 rounded-2xl bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border border-slate-200 dark:border-slate-700 p-3.5 shadow-2xl space-y-3"
+                className="absolute top-24 right-3 z-40 w-64 rounded-2xl bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border border-slate-200 dark:border-slate-700 p-3.5 shadow-2xl space-y-2.5"
               >
                 <div className="flex items-start justify-between gap-2">
                   <div className="flex items-center gap-2.5 min-w-0">
                     <div className="w-11 h-12 rounded-xl bg-slate-100 dark:bg-slate-800 flex items-center justify-center overflow-hidden shrink-0">
-                      <AvatarRenderer config={selectedPeer.avatarConfig} size="thumb" showVehicle={false} showTech={false} showPet={false} />
+                      <AvatarRenderer config={selectedPeer.avatarConfig} size="thumb" showVehicle={false} showTech={false} showPet={true} />
                     </div>
                     <div className="min-w-0">
                       <div className="text-sm font-black text-slate-900 dark:text-white truncate">
@@ -1503,7 +1866,7 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
                     onClick={() => void handleWaveOrHeart(selectedPeer, 'wave')}
                     className="py-2 px-2.5 rounded-xl bg-amber-100 dark:bg-amber-950/50 hover:bg-amber-200 text-amber-900 dark:text-amber-200 text-xs font-bold flex items-center justify-center gap-1 cursor-pointer"
                   >
-                    <span>👋 Vẫy tay</span>
+                    <span>Vẫy tay</span>
                   </button>
                   <button
                     type="button"
@@ -1528,20 +1891,30 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
                     }}
                     className="w-full py-2 px-3 rounded-xl bg-blue-100 dark:bg-blue-950/50 hover:bg-blue-200 text-blue-800 dark:text-blue-200 text-xs font-black flex items-center justify-center gap-1.5 cursor-pointer"
                   >
-                    <MessageCircle className="w-3.5 h-3.5" /> Nhắn riêng
+                    <MessageCircle className="w-3.5 h-3.5" /> Nhắn riêng &amp; Kết bạn
                   </button>
                 )}
 
-                <button
-                  type="button"
-                  onClick={() => {
-                    soundManager.play('click');
-                    onNavigateToBlitz();
-                  }}
-                  className="w-full py-2 px-3 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-black flex items-center justify-center gap-1.5 cursor-pointer"
-                >
-                  <Zap className="w-3.5 h-3.5" /> Rủ Đấu Trường 60s
-                </button>
+                <div className="grid grid-cols-2 gap-2">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      soundManager.play('click');
+                      setSelectedPeer(null);
+                      setIsTugOfWarOpen(true);
+                    }}
+                    className="py-2 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-[11px] font-black flex items-center justify-center gap-1 cursor-pointer"
+                  >
+                    <Users className="w-3.5 h-3.5" /> Rủ Kéo Co
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => void handleBlockPeer(selectedPeer)}
+                    className="py-2 px-2 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-rose-100 text-rose-600 text-[11px] font-bold flex items-center justify-center gap-1 cursor-pointer"
+                  >
+                    <Ban className="w-3.5 h-3.5" /> Chặn
+                  </button>
+                </div>
               </div>
             )}
 
@@ -1629,12 +2002,12 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
             )}
           </div>
 
-          {/* Quick Play Tips Bar */}
+          {/* Quick Zone & Play Tips Bar */}
           <div className="rounded-2xl bg-slate-100/80 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 px-4 py-2.5 flex flex-wrap items-center justify-between gap-2 text-xs text-slate-600 dark:text-slate-300">
             <span className="flex items-center gap-1.5">
               <Compass className="w-4 h-4 text-blue-500 shrink-0" />
               <span>
-                Mẹo: Chạm sân / phím <b>WASD</b> để đi, <b>Space</b> để nhảy. Bấm <b>Trống Hội</b>, <b>Hồ Sen</b>, <b>Thư Viện Nhỏ</b> hay <b>Chợ Cổ Tích</b> để chơi tự do!
+                <b>{currentZoneMeta.shortName}:</b> {currentZoneMeta.subtitle}
               </span>
             </span>
             <span className="font-bold text-slate-800 dark:text-slate-100 tabular-nums">
@@ -1688,9 +2061,11 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
               </div>
             )}
 
-            {messages.map((m) => {
-              const isMine = m.student_id === student.id;
-              return (
+            {messages
+              .filter((m) => !blockedSet.has(m.student_id))
+              .map((m) => {
+                const isMine = m.student_id === student.id;
+                return (
                 <div
                   key={m.id}
                   className={`group p-2.5 rounded-2xl border ${
@@ -1857,13 +2232,16 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
       {isFunQuestsOpen && (
         <VanMieuFunQuestsModal
           stats={vanMieuStats}
+          worldSave={worldSave}
+          checkedInToday={checkedInToday}
+          onDailyCheckIn={handleDailyCheckIn}
           onClaimGift={() => {
             soundManager.play('fanfare');
             confetti({ particleCount: 110, spread: 95, origin: { y: 0.55 } });
             updateStats((prev) => ({ ...prev, giftClaimed: true }));
             setActorScales((prev) => ({ ...prev, [selfId]: 'giant' }));
             window.setTimeout(() => setActorScales((prev) => ({ ...prev, [selfId]: 'normal' })), 20000);
-            showToast('🎁 Đã mở Rương Quà Lễ Hội! Bùng nổ pháo hoa & hóa khổng lồ!');
+            awardBonusStars(2, 'Đã mở Rương Quà Lễ Hội! (+2 Sao & hóa khổng lồ!)');
             setIsFunQuestsOpen(false);
           }}
           onClose={() => setIsFunQuestsOpen(false)}
@@ -1882,7 +2260,7 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
                   ? elapsedSeconds
                   : Math.min(prev.bestMemorySeconds, elapsedSeconds)
             }));
-            showToast(`🃏 Hoàn thành Lật Hình Cổ Tích trong ${elapsedSeconds}s!`);
+            awardBonusStars(1, `Hoàn thành Lật Hình Cổ Tích trong ${elapsedSeconds}s! (+1 Sao)`);
           }}
           onClose={() => setIsMemoryOpen(false)}
         />
@@ -1892,7 +2270,118 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
         <VanMieuFunRankModal
           alias={student.name}
           stats={vanMieuStats}
+          worldSave={worldSave}
           onClose={() => setIsFunRankOpen(false)}
+        />
+      )}
+
+      {isOAnQuanOpen && (
+        <VanMieuOAnQuanModal
+          playerName={student.name}
+          onWin={(starsEarned) => {
+            updateWorldSave((prev) => ({ ...prev, oAnQuanWins: prev.oAnQuanWins + 1 }));
+            awardBonusStars(starsEarned, `Thắng Ô Ăn Quan! (+${starsEarned} Sao trang trí)`);
+          }}
+          onClose={() => setIsOAnQuanOpen(false)}
+        />
+      )}
+
+      {isTugOfWarOpen && (
+        <VanMieuTugOfWarModal
+          playerId={selfId}
+          playerName={student.name}
+          onlinePeers={visiblePeers.map((p) => ({ id: p.id, alias: p.alias }))}
+          externalPeerPullDelta={tugPeerPullDelta}
+          onBroadcastPull={(power) => {
+            if (channelRef.current) {
+              void channelRef.current.send({
+                type: 'broadcast',
+                event: 'vanmieu_tug',
+                payload: { id: selfId, power }
+              });
+            }
+          }}
+          onWin={(starsEarned) => {
+            updateWorldSave((prev) => ({ ...prev, tugOfWarWins: prev.tugOfWarWins + 1 }));
+            awardBonusStars(starsEarned, `Hoàn thành Kéo Co Đồng Đội! (+${starsEarned} Sao)`);
+          }}
+          onClose={() => setIsTugOfWarOpen(false)}
+        />
+      )}
+
+      {isObstacleOpen && (
+        <VanMieuObstacleRaceModal
+          playerName={student.name}
+          bestSec={worldSave.obstacleBestSec}
+          onFinishRace={(timeSec, starsCollected) => {
+            updateWorldSave((prev) => ({
+              ...prev,
+              obstacleRuns: prev.obstacleRuns + 1,
+              obstacleBestSec:
+                prev.obstacleBestSec === null ? timeSec : Math.min(prev.obstacleBestSec, timeSec)
+            }));
+            awardBonusStars(starsCollected, `Về đích Đường Đua ${timeSec}s! (+${starsCollected} Sao)`);
+          }}
+          onClose={() => setIsObstacleOpen(false)}
+        />
+      )}
+
+      {petZoneTab && (
+        <VanMieuPetZoneModal
+          initialTab={petZoneTab}
+          avatarConfig={student.avatarConfig}
+          adoptedStarterPetId={worldSave.adoptedStarterPetId}
+          petAffection={worldSave.petAffection}
+          petBallCatches={worldSave.petBallCatches}
+          onAdoptPet={handleAdoptStarterPet}
+          onPetHeart={() => {
+            updateWorldSave((prev) => ({ ...prev, petAffection: prev.petAffection + 1 }));
+          }}
+          onBallCatch={() => {
+            updateWorldSave((prev) => ({
+              ...prev,
+              petBallCatches: prev.petBallCatches + 1,
+              petAffection: prev.petAffection + 1
+            }));
+          }}
+          onWinPetRace={(starsEarned) => {
+            updateWorldSave((prev) => ({ ...prev, petRaceWins: prev.petRaceWins + 1 }));
+            awardBonusStars(starsEarned, `Hoàn thành Đua Thú Cưng! (+${starsEarned} Sao)`);
+          }}
+          onClose={() => setPetZoneTab(null)}
+        />
+      )}
+
+      {fishingHouseTab && (
+        <VanMieuFishingHouseModal
+          initialTab={fishingHouseTab}
+          studentId={student.id}
+          studentName={student.name}
+          avatarConfig={student.avatarConfig}
+          fishCounts={worldSave.fishCounts}
+          plantLevel={worldSave.plantLevel}
+          onCatchFish={(fish: FishSpecies) => {
+            updateWorldSave((prev) => ({
+              ...prev,
+              fishCounts: {
+                ...prev.fishCounts,
+                [fish.id]: (prev.fishCounts[fish.id] || 0) + 1
+              }
+            }));
+            awardBonusStars(fish.starsReward, `Câu được ${fish.name}! (+${fish.starsReward} Sao)`);
+          }}
+          onWaterPlant={() => {
+            updateWorldSave((prev) => ({
+              ...prev,
+              plantLevel: Math.min(4, prev.plantLevel + 1)
+            }));
+            showToast('Cây vườn nhà đã lớn xanh tốt hơn! 🌱');
+          }}
+          onOpenStudio={() => {
+            setFishingHouseTab(null);
+            onNavigateToShop();
+          }}
+          onClose={() => setFishingHouseTab(null)}
         />
       )}
 

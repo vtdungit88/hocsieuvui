@@ -15,6 +15,15 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.26',
+    date: '2026-11-27',
+    title: 'Mở rộng Thế Giới Văn Miếu Freeplay 4 khu vực, thú cưng & trò chơi dân gian',
+    items: [
+      'Mở rộng Sảnh Online thành Thế Giới Văn Miếu 4 khu vực liên thông: Quảng Trường Di Sản & Sân Chơi Dân Gian (giữ nét trang nghiêm cho Khuê Văn Các, Bia Tiến Sĩ, Hồ Sen), Vườn Thú Cưng, Đảo Phiêu Lưu & Suối Ngọc, và Phố Lễ Hội – Nhà Riêng cùng 5 nhân vật NPC hướng dẫn.',
+      'Thêm loạt mini-game chơi thật không áp lực: Ô Ăn Quan, Kéo Co đồng đội (realtime + Bot đánh dấu rõ), Đua Vượt Chướng Ngại Vật kèm bảng xếp hạng ngày/tuần, nhận miễn phí 5 thú cưng đi theo & Đua Thú Cưng, Câu Cá Suối Ngọc 6 loài cá, Vũ Hội Sân Khấu, trang trí Nhà Riêng trồng cây, Điểm Danh nhẹ nhàng, 6 huy hiệu thành tích và tính năng Chặn/Báo cáo an toàn.'
+    ]
+  },
+  {
     version: '0.2.25',
     date: '2026-11-27',
     title: 'Ra mắt Quảng Trường Văn Miếu Freeplay tại Sảnh Online',

@@ -1,9 +1,11 @@
 import React from 'react';
+import { type VanMieuZoneId } from '../data/vanMieuWorld';
 
 interface City3DLandmarkProps {
   destKey: string;
   mode?: 'stage' | 'card';
   lighting?: 'day' | 'sunset' | 'night';
+  zone?: VanMieuZoneId;
   className?: string;
 }
 
@@ -16,9 +18,10 @@ export const City3DLandmark: React.FC<City3DLandmarkProps> = ({
   destKey,
   mode = 'stage',
   lighting = 'day',
+  zone = 'heritage_plaza',
   className = ''
 }) => {
-  const uid = `${mode}_${destKey}_${lighting}`;
+  const uid = `${mode}_${destKey}_${lighting}_${zone}`;
   const isCard = mode === 'card';
   const viewBox = '0 0 1200 540';
 
@@ -331,6 +334,126 @@ export const City3DLandmark: React.FC<City3DLandmarkProps> = ({
       default: {
         const isNight = lighting === 'night';
         const isSunset = lighting === 'sunset';
+        const activeZone = isCard ? 'heritage_plaza' : zone;
+
+        if (activeZone === 'pet_garden') {
+          return (
+            <>
+              <defs>
+                <linearGradient id={`sky_${uid}`} x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor={isNight ? '#0f172a' : isSunset ? '#fb7185' : '#0ea5e9'} />
+                  <stop offset="60%" stopColor={isNight ? '#1e293b' : isSunset ? '#fdba74' : '#7dd3fc'} />
+                  <stop offset="100%" stopColor={isNight ? '#334155' : '#fef9c3'} />
+                </linearGradient>
+                <linearGradient id={`meadow_${uid}`} x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor={isNight ? '#14532d' : '#4ade80'} />
+                  <stop offset="100%" stopColor={isNight ? '#052e16' : '#16a34a'} />
+                </linearGradient>
+              </defs>
+              <rect width="1200" height="540" fill={`url(#sky_${uid})`} />
+              <circle cx={isSunset ? 920 : 220} cy="84" r="40" fill={isNight ? '#fef08a' : '#fde047'} opacity="0.92" />
+              <ellipse cx="420" cy="76" rx="95" ry="22" fill="#ffffff" opacity={isNight ? 0.18 : 0.8} />
+              <ellipse cx="860" cy="64" rx="110" ry="24" fill="#ffffff" opacity={isNight ? 0.16 : 0.72} />
+              {/* Distant Văn Miếu silhouette reminder outside the park */}
+              <polygon points="480,210 600,152 720,210" fill="#dc2626" opacity="0.28" />
+              <rect x="0" y="210" width="1200" height="44" fill={isNight ? '#1e3a2f' : '#86efac'} />
+              {/* Lush Sunlit Pet Park Grass */}
+              <rect x="0" y="248" width="1200" height="292" fill={`url(#meadow_${uid})`} />
+              {/* Winding Stone Garden Path */}
+              <path d="M0 390 Q350 320 600 375 T1200 355 L1200 540 L0 540 Z" fill={isNight ? '#334155' : '#fde68a'} opacity="0.72" />
+              {/* White Picket Pet Fence */}
+              <line x1="0" y1="258" x2="1200" y2="258" stroke="#fef3c7" strokeWidth="8" />
+              {[80, 160, 240, 320, 400, 480, 560, 640, 720, 800, 880, 960, 1040, 1120].map((fx) => (
+                <rect key={fx} x={fx} y="232" width="14" height="36" rx="5" fill="#fffbeb" stroke="#d97706" strokeWidth="1.5" />
+              ))}
+              {/* Cute Pet Fountain (Center) */}
+              <ellipse cx="600" cy="304" rx="88" ry="22" fill="#e2e8f0" stroke="#94a3b8" strokeWidth="3" />
+              <ellipse cx="600" cy="300" rx="68" ry="15" fill="#38bdf8" />
+              <rect x="588" y="255" width="24" height="42" rx="6" fill="#cbd5e1" />
+              <ellipse cx="600" cy="256" rx="34" ry="9" fill="#f1f5f9" />
+              <circle cx="600" cy="236" r="10" fill="#7dd3fc" opacity="0.85" />
+              {/* Agility Hoops & Gazebo on Right */}
+              <circle cx="880" cy="285" r="34" fill="none" stroke="#f97316" strokeWidth="8" />
+              <rect x="875" y="318" width="10" height="26" fill="#78350f" />
+              <circle cx="96" cy="212" r="56" fill="#15803d" />
+              <rect x="86" y="252" width="20" height="64" fill="#78350f" />
+              <circle cx="1105" cy="214" r="56" fill="#16a34a" />
+              <rect x="1095" y="252" width="20" height="64" fill="#78350f" />
+            </>
+          );
+        }
+
+        if (activeZone === 'adventure_island') {
+          return (
+            <>
+              <defs>
+                <linearGradient id={`sky_${uid}`} x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor={isNight ? '#0f172a' : isSunset ? '#7c3aed' : '#0284c7'} />
+                  <stop offset="55%" stopColor={isNight ? '#1e1b4b' : isSunset ? '#f43f5e' : '#38bdf8'} />
+                  <stop offset="100%" stopColor={isNight ? '#312e81' : '#cffafe'} />
+                </linearGradient>
+                <linearGradient id={`stream_${uid}`} x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stopColor="#06b6d4" />
+                  <stop offset="100%" stopColor="#0284c7" />
+                </linearGradient>
+              </defs>
+              <rect width="1200" height="540" fill={`url(#sky_${uid})`} />
+              <circle cx="940" cy="88" r="40" fill="#fef08a" opacity="0.9" />
+              {/* Distant Fantasy Floating Rocks */}
+              <polygon points="110,230 240,120 370,230" fill="#4f46e5" opacity="0.35" />
+              <polygon points="820,240 980,108 1140,240" fill="#0ea5e9" opacity="0.35" />
+              {/* Waterfall & Jade Fishing Stream (Suối Ngọc outside Văn Miếu) */}
+              <rect x="640" y="190" width="90" height="125" rx="18" fill="#bae6fd" opacity="0.85" />
+              <path d="M560 290 L1200 290 L1200 390 L610 390 Z" fill={`url(#stream_${uid})`} opacity="0.92" />
+              <ellipse cx="920" cy="336" rx="180" ry="18" fill="#7dd3fc" opacity="0.35" />
+              {/* Wooden Adventure Bridge & Parkour Track Platform */}
+              <rect x="0" y="275" width="630" height="265" fill={isNight ? '#14532d' : '#4ade80'} />
+              <polygon points="0,350 1200,350 1200,540 0,540" fill={isNight ? '#334155' : '#fde68a'} />
+              {/* Wooden Hurdle & Checkered Race Banner */}
+              <rect x="210" y="220" width="12" height="90" fill="#78350f" />
+              <rect x="390" y="220" width="12" height="90" fill="#78350f" />
+              <rect x="200" y="205" width="212" height="32" rx="8" fill="#ef4444" stroke="#facc15" strokeWidth="3" />
+              {/* Bouncy Mushroom Pads */}
+              <ellipse cx="145" cy="322" rx="34" ry="14" fill="#ec4899" />
+              <rect x="136" y="326" width="18" height="22" fill="#fef3c7" />
+              {/* Wooden Fishing Dock extending over Suối Ngọc */}
+              <polygon points="730,335 880,335 900,375 710,375" fill="#b45309" stroke="#78350f" strokeWidth="3" />
+            </>
+          );
+        }
+
+        if (activeZone === 'festival_home') {
+          return (
+            <>
+              <defs>
+                <linearGradient id={`sky_${uid}`} x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor={isNight ? '#1e1b4b' : isSunset ? '#be185d' : '#2563eb'} />
+                  <stop offset="60%" stopColor={isNight ? '#4c1d95' : isSunset ? '#fb7185' : '#60a5fa'} />
+                  <stop offset="100%" stopColor={isNight ? '#701a75' : '#fef3c7'} />
+                </linearGradient>
+              </defs>
+              <rect width="1200" height="540" fill={`url(#sky_${uid})`} />
+              {/* Festive String Lights */}
+              <path d="M60 110 Q320 155 600 115 Q880 155 1140 110" fill="none" stroke="#fde047" strokeWidth="3" />
+              {[140, 260, 380, 500, 700, 820, 940, 1060].map((lx, idx) => (
+                <circle key={lx} cx={lx} cy={128} r="10" fill={idx % 2 === 0 ? '#fb7185' : '#facc15'} />
+              ))}
+              {/* Center Music Festival Stage */}
+              <polygon points="390,260 810,260 850,315 350,315" fill="#7c3aed" stroke="#facc15" strokeWidth="4" />
+              <rect x="430" y="165" width="340" height="96" rx="14" fill="#312e81" stroke="#38bdf8" strokeWidth="3" />
+              <polygon points="400,168 600,115 800,168" fill="#db2777" />
+              {/* Cozy Cottage Porch on Right + Fashion Boutique on Left */}
+              <rect x="75" y="205" width="210" height="90" rx="12" fill="#fce7f3" stroke="#ec4899" strokeWidth="3" />
+              <polygon points="60,210 295,210 275,168 80,168" fill="#ec4899" />
+              <rect x="915" y="200" width="210" height="95" rx="12" fill="#fef3c7" stroke="#d97706" strokeWidth="3" />
+              <polygon points="895,204 1145,204 1020,148" fill="#ea580c" />
+              {/* Warm Stone & Lawn Plaza */}
+              <rect x="0" y="295" width="1200" height="245" fill={isNight ? '#1e293b' : '#fed7aa'} />
+              <polygon points="340,315 860,315 960,540 240,540" fill={isNight ? '#334155' : '#fef3c7'} opacity="0.82" />
+            </>
+          );
+        }
+
         return (
           <>
             <defs>
