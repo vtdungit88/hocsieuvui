@@ -343,7 +343,7 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
 }) => {
   const [activeTab, setActiveTab] = useState<StudioTab>('outfit');
   const [selectedSubCategory, setSelectedSubCategory] = useState<
-    'hair' | 'eyes' | 'skin' | 'gender' | 'frame'
+    'hair' | 'eyes' | 'skin' | 'frame'
   >('hair');
   const [rarityFilter, setRarityFilter] = useState<'all' | 'owned' | ItemRarity>('all');
   const [searchQuery, setSearchQuery] = useState('');
@@ -532,7 +532,10 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
       if (candidates.length === 0) return fallback;
       return candidates[Math.floor(Math.random() * candidates.length)].id;
     };
-    const randomHair = HAIR_STYLES[Math.floor(Math.random() * HAIR_STYLES.length)].id;
+    const hairPool = HAIR_STYLES.filter((h) =>
+      (h.forGender as readonly string[]).includes(student.avatarConfig.gender === 'girl' ? 'girl' : 'boy')
+    );
+    const randomHair = hairPool[Math.floor(Math.random() * hairPool.length)].id;
     const randomEye = EYE_EXPRESSIONS[Math.floor(Math.random() * EYE_EXPRESSIONS.length)].id;
     const next: AvatarConfig = {
       ...student.avatarConfig,
@@ -860,14 +863,29 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
     id.startsWith('crown_') ||
     id.startsWith('tiara_');
 
+  // "scholar" là dữ liệu cũ: coi như Nam. Giao diện chỉ còn hai lựa chọn Nam / Nữ.
+  const uiGender: 'boy' | 'girl' = student.avatarConfig.gender === 'girl' ? 'girl' : 'boy';
+  const stylesForGender = useMemo(
+    () => HAIR_STYLES.filter((h) => (h.forGender as readonly string[]).includes(uiGender)),
+    [uiGender]
+  );
   const regularHairStyles = useMemo(
-    () => HAIR_STYLES.filter((h) => !isHeadgearId(h.id)),
-    []
+    () => stylesForGender.filter((h) => !isHeadgearId(h.id)),
+    [stylesForGender]
   );
   const headgearStyles = useMemo(
-    () => HAIR_STYLES.filter((h) => isHeadgearId(h.id)),
-    []
+    () => stylesForGender.filter((h) => isHeadgearId(h.id)),
+    [stylesForGender]
   );
+  const handleSelectGender = (g: 'boy' | 'girl') => {
+    const allowed = HAIR_STYLES.some(
+      (h) => h.id === student.avatarConfig.hairStyle && (h.forGender as readonly string[]).includes(g)
+    );
+    handleUpdateAppearance({
+      gender: g,
+      hairStyle: allowed ? student.avatarConfig.hairStyle : g === 'girl' ? 'ponytail_ribbon' : 'short_neat'
+    });
+  };
 
   return (
     <div className="hsv-studio-page max-w-7xl mx-auto px-3 sm:px-6 py-4 sm:py-6 space-y-4 sm:space-y-5">
@@ -1304,12 +1322,31 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
           {/* TAB: APPEARANCE */}
           {activeTab === 'appearance' && (
             <div className="bg-white dark:bg-slate-900 rounded-3xl p-5 sm:p-6 border border-slate-200 dark:border-slate-800 shadow-sm space-y-6">
+              <div className="flex items-center gap-3 flex-wrap">
+                <span className="text-xs font-bold text-slate-500 dark:text-slate-400">Nhân vật:</span>
+                {([
+                  { id: 'boy' as const, label: 'Nam', icon: '👦' },
+                  { id: 'girl' as const, label: 'Nữ', icon: '👧' }
+                ]).map((g) => (
+                  <button
+                    key={g.id}
+                    onClick={() => handleSelectGender(g.id)}
+                    aria-pressed={uiGender === g.id}
+                    className={`px-5 py-2 rounded-xl text-sm font-extrabold cursor-pointer transition-colors border-2 ${
+                      uiGender === g.id
+                        ? 'bg-blue-600 border-blue-600 text-white shadow-md'
+                        : 'bg-white dark:bg-slate-900 border-slate-300 dark:border-slate-600 text-slate-700 dark:text-slate-200 hover:border-blue-400'
+                    }`}
+                  >
+                    <span aria-hidden="true">{g.icon}</span> {g.label}
+                  </button>
+                ))}
+              </div>
               <div className="flex flex-wrap gap-2 border-b border-slate-200 dark:border-slate-800 pb-3">
                 {[
                   { id: 'hair' as const, label: 'Tóc & Mũ Giáp' },
                   { id: 'eyes' as const, label: 'Mắt, Kính & Mặt Nạ' },
                   { id: 'skin' as const, label: 'Làn Da' },
-                  { id: 'gender' as const, label: 'Hình Mẫu' },
                   { id: 'frame' as const, label: 'Khung Avatar' }
                 ].map((sub) => (
                   <button
@@ -1482,52 +1519,6 @@ export const AvatarStudio: React.FC<AvatarStudioProps> = ({
                         <span className="text-xs text-slate-700 dark:text-slate-300">{tone.name}</span>
                       </button>
                     ))}
-                  </div>
-                </div>
-              )}
-
-              {selectedSubCategory === 'gender' && (
-                <div>
-                  <h3 className="text-xs font-bold text-slate-500 dark:text-slate-400 mb-3">
-                    Hình Mẫu Nhân Vật Chibi 3D
-                  </h3>
-                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                    {[
-                      { id: 'boy' as const, label: 'Học Sinh Nam', sub: 'Năng động, khỏe khoắn' },
-                      { id: 'girl' as const, label: 'Học Sinh Nữ', sub: 'Dễ thương, cá tính' },
-                      { id: 'scholar' as const, label: 'Nhà Thông Thái', sub: 'Điềm đạm, tri thức' }
-                    ].map((g) => {
-                      const active = student.avatarConfig.gender === g.id;
-                      return (
-                        <button
-                          key={g.id}
-                          onClick={() => handleUpdateAppearance({ gender: g.id })}
-                          className={`p-3.5 rounded-2xl border text-center flex flex-col items-center gap-1.5 transition-all cursor-pointer ${
-                            active
-                              ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30 font-bold shadow-xs'
-                              : 'border-slate-200 dark:border-slate-700 hover:border-sky-300'
-                          }`}
-                        >
-                          <div className="w-20 h-22 flex items-center justify-center">
-                            <AvatarRenderer
-                              config={{ ...effectiveConfig, gender: g.id }}
-                              size="sm"
-                              animated={false}
-                              showVehicle={false}
-                              showPet={false}
-                              showTech={false}
-                              showAura={false}
-                            />
-                          </div>
-                          <div className="text-xs font-bold text-slate-900 dark:text-white">
-                            {g.label}
-                          </div>
-                          <div className="text-[11px] font-normal text-slate-500 dark:text-slate-400">
-                            {g.sub}
-                          </div>
-                        </button>
-                      );
-                    })}
                   </div>
                 </div>
               )}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { PET_ART, PET_DEFS, PET_SMOOTH } from './petArt';
 import { AvatarConfig } from '../../types';
 
 interface AuraLayerProps {
@@ -310,205 +311,23 @@ export const AvatarPetLayer: React.FC<{ config: AvatarConfig; animated: boolean;
   if (config.petId === 'pet_none') return null;
 
   const vuiBotSpriteUrl = `${import.meta.env.BASE_URL}assets/vuibot/happy.png`;
+  const isVuiBot = config.petId === 'pet_vuibot' || config.petId === 'pet_robot';
+  const art = PET_ART[config.petId];
+  const fx = PET_SMOOTH.has(config.petId) ? 'petSmooth' : 'petFur';
 
+  // Thú cưng được vẽ lớn (~110px trên khung 320) đứng cạnh nhân vật, có lông, mắt bóng và bóng đổ.
   return (
     <g id="pet-layer" className={animated ? 'studio-pet-bob' : ''} filter={`url(#softAO_${uid})`}>
-      {/* 1. VUI-BOT MINI (Authentic 3D Pixar-rendered Vui-Bot sprite!) */}
-      {(config.petId === 'pet_vuibot' || config.petId === 'pet_robot') && (
-        <g transform="translate(226, 224)">
-          <ellipse cx="36" cy="76" rx="22" ry="6" fill="#0284C7" opacity="0.22" />
-          <image
-            href={vuiBotSpriteUrl}
-            x="0"
-            y="0"
-            width="72"
-            height="76"
-            preserveAspectRatio="xMidYMid meet"
-          />
+      {isVuiBot && (
+        <g transform="translate(208, 232)">
+          <ellipse cx="52" cy="102" rx="34" ry="7" fill="#0284C7" opacity="0.22" />
+          <image href={vuiBotSpriteUrl} x="0" y="0" width="104" height="108" preserveAspectRatio="xMidYMid meet" />
         </g>
       )}
-
-      {/* 2. Chó Corgi Đáng Yêu (Plump 3D Pixar toy Corgi, zero black ink strokes) */}
-      {config.petId === 'pet_corgi' && (
-        <g transform="translate(232, 240)">
-          <ellipse cx="26" cy="54" rx="20" ry="6" fill="#0F172A" opacity="0.16" />
-          <ellipse cx="26" cy="40" rx="18" ry="13" fill="#F97316" />
-          <ellipse cx="19" cy="42" rx="10" ry="8" fill="#FFFFFF" />
-          <polygon points="8,16 13,-1 22,12" fill="#EA580C" />
-          <polygon points="11,13 14,4 19,12" fill="#FDBA74" />
-          <polygon points="30,12 39,-1 44,16" fill="#EA580C" />
-          <polygon points="33,12 38,4 41,13" fill="#FDBA74" />
-          <circle cx="26" cy="20" r="15.5" fill="#FDBA74" />
-          <ellipse cx="26" cy="25" rx="10" ry="7" fill="#FFFFFF" />
-          <ellipse cx="16" cy="23" rx="3.8" ry="2.2" fill={`url(#blush_${uid})`} />
-          <ellipse cx="36" cy="23" rx="3.8" ry="2.2" fill={`url(#blush_${uid})`} />
-          <circle cx="20" cy="18" r="3" fill="#0F172A" />
-          <circle cx="32" cy="18" r="3" fill="#0F172A" />
-          <circle cx="19" cy="17" r="1.2" fill="#FFFFFF" />
-          <circle cx="31" cy="17" r="1.2" fill="#FFFFFF" />
-          <circle cx="26" cy="22.5" r="2.5" fill="#1E293B" />
-          <path d="M22.5 26 Q26 29.5 29.5 26" stroke="#BE123C" strokeWidth="1.8" fill="none" strokeLinecap="round" />
-          <polygon points="18,34 34,34 26,40" fill="#EF4444" />
-        </g>
-      )}
-
-      {/* 3. Mèo Cool (Matches "Mèo Cool" with dark sunglasses from image_c464da61!) */}
-      {config.petId === 'pet_cat' && (
-        <g transform="translate(232, 240)">
-          <ellipse cx="26" cy="54" rx="19" ry="6" fill="#0F172A" opacity="0.16" />
-          <path d="M40 42 Q53 26 48 12" stroke="#CBD5E1" strokeWidth="5.5" strokeLinecap="round" fill="none" />
-          <ellipse cx="26" cy="40" rx="16" ry="13" fill="#E2E8F0" />
-          <ellipse cx="24" cy="42" rx="9" ry="8" fill="#FFFFFF" />
-          <polygon points="10,16 14,1 22,12" fill="#CBD5E1" />
-          <polygon points="13,13 15.5,5 20,12" fill="#FBCFE8" />
-          <polygon points="30,12 38,1 42,16" fill="#CBD5E1" />
-          <polygon points="32,12 36.5,5 39,13" fill="#FBCFE8" />
-          <circle cx="26" cy="20" r="15" fill="#F8FAFC" />
-          <ellipse cx="16" cy="24" rx="3.5" ry="2" fill={`url(#blush_${uid})`} />
-          <ellipse cx="36" cy="24" rx="3.5" ry="2" fill={`url(#blush_${uid})`} />
-          {/* Cool Sunglasses */}
-          <rect x="13" y="13.5" width="11.5" height="8" rx="3" fill="#0F172A" />
-          <rect x="27.5" y="13.5" width="11.5" height="8" rx="3" fill="#0F172A" />
-          <rect x="23" y="15.5" width="6" height="2.5" fill="#0F172A" />
-          <line x1="15" y1="15.5" x2="18" y2="19.5" stroke="#FFFFFF" strokeOpacity="0.45" strokeWidth="1.5" />
-          <line x1="29.5" y1="15.5" x2="32.5" y2="19.5" stroke="#FFFFFF" strokeOpacity="0.45" strokeWidth="1.5" />
-          <path d="M22.5 25.5 Q26 28.5 29.5 25.5" stroke="#FB7185" strokeWidth="1.8" fill="none" strokeLinecap="round" />
-          {/* Blue ribbon collar */}
-          <rect x="18" y="32" width="16" height="4.5" rx="2.2" fill="#38BDF8" />
-        </g>
-      )}
-
-      {/* 4. Gấu Trúc Võ Sư */}
-      {config.petId === 'pet_panda' && (
-        <g transform="translate(232, 236)">
-          <ellipse cx="25" cy="56" rx="19" ry="6" fill="#0F172A" opacity="0.16" />
-          <circle cx="12" cy="10" r="7" fill="#0F172A" />
-          <circle cx="38" cy="10" r="7" fill="#0F172A" />
-          <ellipse cx="25" cy="42" rx="16.5" ry="14" fill="#FFFFFF" />
-          <ellipse cx="25" cy="44" rx="15.5" ry="5.5" fill="#0F172A" />
-          <circle cx="25" cy="21" r="15.5" fill="#FFFFFF" />
-          <rect x="10" y="10" width="30" height="5" rx="2.5" fill="#EF4444" />
-          <ellipse cx="18.5" cy="21" rx="4.6" ry="5.5" fill="#0F172A" />
-          <ellipse cx="31.5" cy="21" rx="4.6" ry="5.5" fill="#0F172A" />
-          <circle cx="18.5" cy="20" r="1.8" fill="#FFFFFF" />
-          <circle cx="31.5" cy="20" r="1.8" fill="#FFFFFF" />
-          <circle cx="25" cy="26.5" r="2.4" fill="#0F172A" />
-        </g>
-      )}
-
-      {/* 5. Thỏ Xinh Đeo Kính */}
-      {config.petId === 'pet_bunny' && (
-        <g transform="translate(234, 228)">
-          <ellipse cx="24" cy="60" rx="18" ry="6" fill="#0F172A" opacity="0.16" />
-          <ellipse cx="17" cy="11" rx="5.5" ry="14" fill="#FFFFFF" />
-          <ellipse cx="17" cy="11" rx="3" ry="9" fill="#FBCFE8" />
-          <ellipse cx="31" cy="11" rx="5.5" ry="14" fill="#FFFFFF" />
-          <ellipse cx="31" cy="11" rx="3" ry="9" fill="#FBCFE8" />
-          <ellipse cx="24" cy="45" rx="15" ry="13" fill="#FFFFFF" />
-          <rect x="14" y="34" width="20" height="5" rx="2.5" fill="#FACC15" />
-          <circle cx="24" cy="27" r="14" fill="#FFFFFF" />
-          <circle cx="18.5" cy="25.5" r="4.5" fill="none" stroke="#0284C7" strokeWidth="2" />
-          <circle cx="29.5" cy="25.5" r="4.5" fill="none" stroke="#0284C7" strokeWidth="2" />
-          <circle cx="18.5" cy="25.5" r="2" fill="#0F172A" />
-          <circle cx="29.5" cy="25.5" r="2" fill="#0F172A" />
-          <circle cx="24" cy="30" r="2" fill="#F43F5E" />
-        </g>
-      )}
-
-      {/* 6. Cáo Nhí Chín Đuôi */}
-      {config.petId === 'pet_fox' && (
-        <g transform="translate(230, 236)">
-          <ellipse cx="25" cy="56" rx="20" ry="6" fill="#0F172A" opacity="0.16" />
-          <path d="M35 44 Q57 26 54 10 Q46 25 36 33 Z" fill="#F97316" />
-          <path d="M38 46 Q59 40 56 22 Q47 35 38 38 Z" fill="#FEF08A" />
-          <ellipse cx="23" cy="42" rx="15" ry="12" fill="#EA580C" />
-          <polygon points="9,16 14,1 22,14" fill="#EA580C" />
-          <polygon points="24,14 32,1 37,16" fill="#EA580C" />
-          <circle cx="23" cy="22" r="14" fill="#F97316" />
-          <ellipse cx="23" cy="27" rx="9" ry="6" fill="#FFFFFF" />
-          <circle cx="17.5" cy="20.5" r="2.6" fill="#0F172A" />
-          <circle cx="28.5" cy="20.5" r="2.6" fill="#0F172A" />
-          <circle cx="16.7" cy="19.7" r="1" fill="#FFFFFF" />
-          <circle cx="27.7" cy="19.7" r="1" fill="#FFFFFF" />
-          <circle cx="23" cy="25" r="2.2" fill="#0F172A" />
-        </g>
-      )}
-
-      {/* 7. Cú Vọ Tiến Sĩ */}
-      {config.petId === 'pet_owl' && (
-        <g transform="translate(234, 234)">
-          <ellipse cx="24" cy="58" rx="18" ry="6" fill="#0F172A" opacity="0.16" />
-          <ellipse cx="24" cy="39" rx="16" ry="18" fill="#78350F" />
-          <ellipse cx="24" cy="41" rx="11" ry="13" fill="#FEF3C7" />
-          <circle cx="24" cy="23" r="14" fill="#92400E" />
-          <circle cx="18" cy="23" r="6.8" fill="#FFFFFF" stroke="#F59E0B" strokeWidth="2.2" />
-          <circle cx="30" cy="23" r="6.8" fill="#FFFFFF" stroke="#F59E0B" strokeWidth="2.2" />
-          <circle cx="18" cy="23" r="3.2" fill="#0F172A" />
-          <circle cx="30" cy="23" r="3.2" fill="#0F172A" />
-          <circle cx="17" cy="22" r="1.2" fill="#FFFFFF" />
-          <circle cx="29" cy="22" r="1.2" fill="#FFFFFF" />
-          <polygon points="21,27.5 27,27.5 24,32.5" fill="#F97316" />
-          <polygon points="24,4 38,9.5 24,15 10,9.5" fill="#1E3A8A" />
-        </g>
-      )}
-
-      {/* 8. Kỳ Lân Sao Băng */}
-      {config.petId === 'pet_unicorn' && (
-        <g transform="translate(232, 228)" filter={`url(#glowEffect_${uid})`}>
-          <ellipse cx="25" cy="60" rx="19" ry="6" fill="#0F172A" opacity="0.16" />
-          <ellipse cx="25" cy="46" rx="17" ry="13.5" fill="#FFFFFF" />
-          <circle cx="22" cy="26" r="13.5" fill="#FFFFFF" />
-          <polygon points="20,14 25,-3 30,14" fill={`url(#goldMetal_${uid})`} />
-          <path d="M29 16 Q44 25 37 39" stroke="#EC4899" strokeWidth="5" strokeLinecap="round" fill="none" />
-          <path d="M31 24 Q45 33 38 45" stroke="#38BDF8" strokeWidth="4" strokeLinecap="round" fill="none" />
-          <circle cx="17" cy="24.5" r="2.8" fill="#4F46E5" />
-          <circle cx="16.2" cy="23.6" r="1.1" fill="#FFFFFF" />
-          <ellipse cx="14" cy="29" rx="3" ry="1.8" fill={`url(#blush_${uid})`} />
-        </g>
-      )}
-
-      {/* 9. Rồng Con Lửa Vàng */}
-      {config.petId === 'pet_dragon' && (
-        <g transform="translate(232, 228)" filter={`url(#glowEffect_${uid})`}>
-          <ellipse cx="24" cy="58" rx="18" ry="6" fill="#0F172A" opacity="0.16" />
-          <ellipse cx="24" cy="41" rx="16" ry="14" fill="#EF4444" />
-          <ellipse cx="22" cy="43" rx="10" ry="9" fill="#FEF08A" />
-          <circle cx="22" cy="23" r="14" fill="#F87171" />
-          <polygon points="12,13 15,2 21,13" fill={`url(#goldMetal_${uid})`} />
-          <polygon points="23,13 29,2 31,13" fill={`url(#goldMetal_${uid})`} />
-          <circle cx="16.5" cy="21" r="3.6" fill="#FEF08A" />
-          <circle cx="16.5" cy="21" r="2" fill="#0F172A" />
-          <circle cx="27.5" cy="21" r="3.6" fill="#FEF08A" />
-          <circle cx="27.5" cy="21" r="2" fill="#0F172A" />
-          <path d="M36 41 Q50 30 45 14" stroke="#EF4444" strokeWidth="5" strokeLinecap="round" fill="none" />
-        </g>
-      )}
-
-      {/* 10. Sư Tử Robot Biệt Đội Vàng */}
-      {config.petId === 'pet_mecha_lion' && (
-        <g transform="translate(232, 232)" filter={`url(#glowEffect_${uid})`}>
-          <polygon points="7,22 13,5 25,12 37,5 43,22 36,34 14,34" fill={`url(#goldMetal_${uid})`} />
-          <rect x="13" y="33" width="24" height="21" rx="7" fill="#EF4444" />
-          <circle cx="25" cy="21" r="10" fill="#FEF08A" />
-          <rect x="17" y="17.5" width="16" height="6.5" rx="3" fill="#0F172A" />
-          <circle cx="21" cy="20.8" r="2" fill="#38BDF8" />
-          <circle cx="29" cy="20.8" r="2" fill="#38BDF8" />
-        </g>
-      )}
-
-      {/* 11. Phượng Hoàng Lửa Nhí */}
-      {config.petId === 'pet_phoenix' && (
-        <g transform="translate(230, 222)" filter={`url(#glowEffect_${uid})`}>
-          <path d="M27 42 Q50 20 46 6 Q35 19 29 30 Z" fill="#F59E0B" />
-          <path d="M20 42 Q0 20 7 8 Q16 20 20 32 Z" fill="#EF4444" />
-          <ellipse cx="24" cy="38" rx="12" ry="14" fill="#EF4444" />
-          <circle cx="24" cy="21" r="11" fill="#F59E0B" />
-          <polygon points="20,11 24,0 28,11" fill="#FEF08A" />
-          <circle cx="20" cy="20" r="2.6" fill="#0F172A" />
-          <circle cx="19.3" cy="19.2" r="1" fill="#FFFFFF" />
-          <circle cx="28" cy="20" r="2.6" fill="#0F172A" />
-          <circle cx="27.3" cy="19.2" r="1" fill="#FFFFFF" />
-          <polygon points="21,24.5 27,24.5 24,29" fill="#FDE047" />
+      {art && (
+        <g transform="translate(208, 238)">
+          <defs dangerouslySetInnerHTML={{ __html: PET_DEFS.split('__UID__').join(uid) }} />
+          <g filter={`url(#${fx}_${uid})`} dangerouslySetInnerHTML={{ __html: art.split('__UID__').join(uid) }} />
         </g>
       )}
     </g>

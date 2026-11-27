@@ -1,4 +1,5 @@
 import React, { useId } from 'react';
+import { PET_ART, PET_DEFS, PET_SMOOTH, PET_ID_BY_RENDER } from './avatar/petArt';
 import { ItemCategory, ItemRarity } from '../types';
 
 interface StudioItemThumbnailProps {
@@ -711,6 +712,18 @@ export const StudioItemThumbnail: React.FC<StudioItemThumbnailProps> = ({
             <circle cx="33" cy="36" r="2.8" fill="#475569" />
             <circle cx="47" cy="36" r="2.8" fill="#475569" />
             <path d="M33 46 Q40 52 47 46" stroke="#475569" strokeWidth="2.8" strokeLinecap="round" fill="none" />
+          </g>
+        );
+      }
+      if (PET_ID_BY_RENDER[renderType] && PET_ART[PET_ID_BY_RENDER[renderType]]) {
+        const petKey = PET_ID_BY_RENDER[renderType];
+        return (
+          <g transform="translate(5 3) scale(0.7)">
+            <defs dangerouslySetInnerHTML={{ __html: PET_DEFS.split('__UID__').join(`p${uid}`) }} />
+            <g
+              filter={`url(#${PET_SMOOTH.has(petKey) ? 'petSmooth' : 'petFur'}_p${uid})`}
+              dangerouslySetInnerHTML={{ __html: PET_ART[petKey].split('__UID__').join(`p${uid}`) }}
+            />
           </g>
         );
       }

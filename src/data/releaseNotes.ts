@@ -15,6 +15,15 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.24',
+    date: '2026-11-27',
+    title: 'Chọn Nam/Nữ rõ ràng, thú cưng to và chi tiết hơn',
+    items: [
+      'Diện mạo có nút chọn Nam / Nữ ngay đầu trang; kiểu tóc và mũ chỉ hiện những kiểu phù hợp với giới tính đã chọn. Mục "Hình Mẫu" cũ đã được bỏ.',
+      'Thú cưng được vẽ lại to hơn gấp đôi với lông, mắt bóng và râu: Corgi, Mèo, Gấu trúc, Thỏ, Cáo, Cú, Kỳ lân, Rồng, Sư tử máy và Phượng hoàng; Vui-Bot mini cũng được phóng to.'
+    ]
+  },
+  {
     version: '0.2.23',
     date: '2026-11-27',
     title: 'Nhân vật và vật phẩm có khối 3D bóng như đồ chơi',
