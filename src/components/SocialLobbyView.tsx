@@ -63,23 +63,24 @@ import { VanMieuObstacleRaceModal } from './lobby/VanMieuObstacleRaceModal';
 import { VanMieuPetZoneModal } from './lobby/VanMieuPetZoneModal';
 import { VanMieuFishingHouseModal } from './lobby/VanMieuFishingHouseModal';
 import {
-  ArrowDown,
-  ArrowLeft,
-  ArrowRight,
-  ArrowUp,
   Award,
   Backpack,
   Ban,
   CalendarCheck,
+  ChevronDown,
+  ChevronUp,
   Compass,
   Flag,
   Gift,
   Heart,
   HelpCircle,
   Home,
+  LayoutGrid,
   Loader2,
   MapPin,
+  Maximize2,
   MessageCircle,
+  Minimize2,
   Moon,
   Music,
   Plane,
@@ -93,8 +94,7 @@ import {
   Sunset,
   Trophy,
   Users,
-  X,
-  Zap
+  X
 } from 'lucide-react';
 
 interface PeerPresence {
@@ -241,6 +241,53 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
   const [petZoneTab, setPetZoneTab] = useState<'care' | 'race' | null>(null);
   const [fishingHouseTab, setFishingHouseTab] = useState<'fishing' | 'house' | null>(null);
   const [isEmoteTrayOpen, setIsEmoteTrayOpen] = useState(false);
+  const [isFullscreen, setIsFullscreen] = useState(false);
+  const [isMobileHudOpen, setIsMobileHudOpen] = useState(false);
+  const [isZoneMenuOpen, setIsZoneMenuOpen] = useState(false);
+  const [isChatDrawerOpen, setIsChatDrawerOpen] = useState(() => {
+    if (typeof window === 'undefined') return true;
+    return !(window.innerWidth > window.innerHeight && window.innerHeight <= 540);
+  });
+  const [viewportMode, setViewportMode] = useState(() => {
+    if (typeof window === 'undefined') {
+      return { panoramic: false, compact: false, landscapeCompact: false };
+    }
+    const w = window.innerWidth;
+    const h = window.innerHeight;
+    return {
+      panoramic: w < 640 || (w < 768 && h > w),
+      compact: w < 640 || (w > h && h <= 540),
+      landscapeCompact: w > h && h <= 540
+    };
+  });
+
+  useEffect(() => {
+    const syncViewport = () => {
+      const w = window.innerWidth;
+      const h = window.innerHeight;
+      setViewportMode({
+        panoramic: w < 640 || (w < 768 && h > w),
+        compact: w < 640 || (w > h && h <= 540),
+        landscapeCompact: w > h && h <= 540
+      });
+    };
+    syncViewport();
+    window.addEventListener('resize', syncViewport);
+    window.addEventListener('orientationchange', syncViewport);
+    return () => {
+      window.removeEventListener('resize', syncViewport);
+      window.removeEventListener('orientationchange', syncViewport);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!isFullscreen) return;
+    const onEsc = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setIsFullscreen(false);
+    };
+    window.addEventListener('keydown', onEsc);
+    return () => window.removeEventListener('keydown', onEsc);
+  }, [isFullscreen]);
 
   useEffect(() => {
     setVanMieuStats(loadVanMieuStats(student.id));
@@ -313,6 +360,7 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
   const [triviaNotice, setTriviaNotice] = useState('');
 
   const stageRef = useRef<HTMLDivElement | null>(null);
+  const chatSectionRef = useRef<HTMLDivElement | null>(null);
   const chatEndRef = useRef<HTMLDivElement | null>(null);
   const channelRef = useRef<ReturnType<typeof supabase.channel> | null>(null);
   const lastMoveBroadcastRef = useRef<number>(0);
@@ -633,14 +681,14 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
   }, [handleSelfJump, moveSelfTo, pos.x, pos.y]);
 
   const handleStageClick = (e: React.MouseEvent<HTMLDivElement>) => {
-    if ((e.target as HTMLElement).closest('button, [data-interactive="true"]')) return;
+    if ((e.target as HTMLElement).closest('button, form, input, [data-interactive="true"]')) return;
+    setIsMobileHudOpen(false);
+    setIsZoneMenuOpen(false);
     const rect = stageRef.current?.getBoundingClientRect();
     if (!rect) return;
     const viewportXPct = ((e.clientX - rect.left) / rect.width) * 100;
     const cameraLeft = Math.max(-110, Math.min(0, 50 - pos.x * 2.1));
-    const xPct = window.matchMedia('(max-width: 767px)').matches
-      ? (viewportXPct - cameraLeft) / 2.1
-      : viewportXPct;
+    const xPct = viewportMode.panoramic ? (viewportXPct - cameraLeft) / 2.1 : viewportXPct;
     const yPct = ((e.clientY - rect.top) / rect.height) * 100;
     const targetX = clamp(xPct, 8, 90);
     const targetY = clamp(yPct, 52, 88);
@@ -652,7 +700,7 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
   const draggingRef = useRef(false);
   const handleStagePointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
     if (e.pointerType === 'mouse') return;
-    if ((e.target as HTMLElement).closest('button, [data-interactive="true"]')) return;
+    if ((e.target as HTMLElement).closest('button, form, input, [data-interactive="true"]')) return;
     draggingRef.current = true;
   };
   const handleStagePointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
@@ -661,9 +709,7 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
     if (!rect) return;
     const viewportXPct = ((e.clientX - rect.left) / rect.width) * 100;
     const cameraLeft = Math.max(-110, Math.min(0, 50 - pos.x * 2.1));
-    const worldXPct = window.matchMedia('(max-width: 767px)').matches
-      ? (viewportXPct - cameraLeft) / 2.1
-      : viewportXPct;
+    const worldXPct = viewportMode.panoramic ? (viewportXPct - cameraLeft) / 2.1 : viewportXPct;
     moveSelfTo(worldXPct, ((e.clientY - rect.top) / rect.height) * 100);
   };
   const handleStagePointerEnd = () => {
@@ -1148,332 +1194,570 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
   );
   const checkedInToday = worldSave.lastCheckInDate === getTodayKey();
 
+  const recentLobbyMessages = useMemo(
+    () => messages.filter((m) => !blockedSet.has(m.student_id)).slice(-2),
+    [blockedSet, messages]
+  );
+
+  const openChatPanel = () => {
+    setIsChatDrawerOpen(true);
+    if (isFullscreen) {
+      setIsFullscreen(false);
+    }
+    window.setTimeout(() => {
+      chatSectionRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }, 80);
+  };
+
   return (
-    <div className="max-w-7xl mx-auto px-3 sm:px-6 pt-3 pb-8 space-y-3.5">
-      {/* Compact Header Strip */}
-      <div className="rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-3 sm:p-3.5 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-2.5">
-        <div className="flex flex-wrap items-center gap-2.5">
-          <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white flex items-center justify-center shadow-sm shrink-0">
-            <Users className="w-5 h-5" />
-          </div>
-          <div>
-            <div className="flex flex-wrap items-center gap-2">
-              <h1 className="text-base sm:text-lg font-black text-slate-900 dark:text-white leading-tight">
-                {currentCity.name}
-              </h1>
-              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-bold bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800">
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-                {onlineInCity} bạn đang chơi
-              </span>
+    <div className="max-w-[1440px] mx-auto px-2 sm:px-4 lg:px-6 pt-2 pb-6 space-y-2.5">
+      {/* Slim Top World Header & Zone Portals (Hidden in Fullscreen or Compact Phone Landscape) */}
+      {!isFullscreen && !viewportMode.landscapeCompact && (
+        <div className="rounded-2xl sm:rounded-3xl bg-white/95 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 px-3 py-2 sm:px-4 sm:py-2.5 shadow-xs flex flex-wrap items-center justify-between gap-2">
+          <div className="flex items-center gap-2 min-w-0">
+            <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white flex items-center justify-center shadow-xs shrink-0">
+              <Users className="w-4 h-4" />
             </div>
-            <p className="text-xs text-slate-500 dark:text-slate-400">
-              {currentCity.region} · Chạm vào sân để chạy chơi, gõ Trống Hội, thả Hoa Đăng & săn 5 Kho Báu!
-            </p>
+            <div className="min-w-0">
+              <div className="flex items-center gap-1.5 flex-wrap">
+                <h1 className="text-sm sm:text-base font-black text-slate-900 dark:text-white leading-tight truncate">
+                  {currentCity.name}
+                </h1>
+                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                  {onlineInCity} bạn
+                </span>
+              </div>
+              <p className="hidden md:block text-[11px] text-slate-500 dark:text-slate-400 truncate">
+                {isVanMieu ? `${currentZoneMeta.shortName}: ${currentZoneMeta.subtitle}` : currentCity.region}
+              </p>
+            </div>
+          </div>
+
+          {/* 4-Zone World Portals cleanly outside the courtyard floor */}
+          {isVanMieu && (
+            <div className="hidden md:flex items-center gap-1 bg-slate-100 dark:bg-slate-800 p-1 rounded-2xl border border-slate-200 dark:border-slate-700">
+              {VAN_MIEU_ZONES.map((z) => {
+                const isCur = z.id === activeZone;
+                return (
+                  <button
+                    key={z.id}
+                    type="button"
+                    onClick={() => handleSelectZone(z.id)}
+                    className={`px-2.5 py-1 rounded-xl text-[11px] font-black cursor-pointer transition-all whitespace-nowrap ${
+                      isCur
+                        ? 'bg-amber-400 text-slate-950 shadow-xs'
+                        : 'text-slate-600 dark:text-slate-300 hover:bg-white/70 dark:hover:bg-slate-700'
+                    }`}
+                  >
+                    {z.shortName}
+                  </button>
+                );
+              })}
+            </div>
+          )}
+
+          <div className="flex items-center gap-1.5 shrink-0">
+            <button
+              type="button"
+              onClick={() => {
+                soundManager.play('click');
+                onOpenTravel();
+              }}
+              className="px-2.5 sm:px-3.5 py-1.5 rounded-xl bg-gradient-to-r from-amber-400 to-orange-500 hover:brightness-105 text-slate-950 text-[11px] sm:text-xs font-black flex items-center gap-1 shadow-xs cursor-pointer transition-transform active:scale-95"
+            >
+              <Plane className="w-3.5 h-3.5" />
+              <span>Du Hành</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => {
+                soundManager.play('click');
+                setIsFullscreen(true);
+              }}
+              className="px-2.5 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 text-[11px] font-bold flex items-center gap-1 cursor-pointer"
+              title="Mở rộng toàn màn hình game"
+            >
+              <Maximize2 className="w-3.5 h-3.5" />
+              <span className="hidden sm:inline">Mở rộng</span>
+            </button>
           </div>
         </div>
+      )}
 
-        <div className="flex flex-wrap items-center gap-2">
+      {/* FULL-WIDTH INTERACTIVE GAME STAGE */}
+      <div
+        ref={stageRef}
+        onClick={handleStageClick}
+        onPointerDown={handleStagePointerDown}
+        onPointerMove={handleStagePointerMove}
+        onPointerUp={handleStagePointerEnd}
+        onPointerCancel={handleStagePointerEnd}
+        style={{ touchAction: 'none' }}
+        className={
+          isFullscreen
+            ? 'fixed inset-0 z-[70] w-screen h-[100dvh] overflow-hidden select-none cursor-crosshair bg-sky-200'
+            : 'relative w-full hsv-lobby-stage rounded-2xl sm:rounded-3xl overflow-hidden border-2 border-slate-200 dark:border-slate-700 shadow-lg select-none cursor-crosshair bg-sky-200'
+        }
+      >
+        {/* 2.5D Backdrop World (Explicitly z-index: 1 isolated) */}
+        <div
+          className="hsv-lobby-world"
+          style={{
+            left: viewportMode.panoramic
+              ? `${Math.max(-110, Math.min(0, 50 - pos.x * 2.1))}%`
+              : '0%'
+          }}
+        >
+          <City3DLandmark
+            destKey={currentCity.destKey}
+            mode="stage"
+            lighting={lighting}
+            zone={activeZone}
+            className="pointer-events-none"
+          />
+          <div
+            aria-hidden
+            className="pointer-events-none absolute inset-x-0 top-[52%] bottom-0 bg-gradient-to-b from-transparent via-black/5 to-black/15"
+          />
+        </div>
+
+        {/* TOP-LEFT GAME HUD: Avatar Portrait + Name + Coins + Stars + Level */}
+        <div
+          data-interactive="true"
+          onClick={(e) => e.stopPropagation()}
+          className="absolute top-2 left-2 sm:top-2.5 sm:left-2.5 z-30 flex items-center gap-1.5"
+        >
           <button
             type="button"
             onClick={() => {
-              soundManager.play('click');
+              setIsFullscreen(false);
               onOpenLevel();
             }}
-            className="px-3 py-2 rounded-2xl bg-indigo-50 dark:bg-indigo-950/50 hover:bg-indigo-100 dark:hover:bg-indigo-900/50 border border-indigo-200 dark:border-indigo-800 text-indigo-800 dark:text-indigo-200 text-xs font-extrabold flex items-center gap-2 cursor-pointer transition-colors"
+            className="flex items-center gap-1.5 sm:gap-2 pr-2.5 pl-1 py-1 rounded-2xl bg-sky-900/85 hover:bg-sky-800/95 backdrop-blur-xs border border-sky-200/80 text-white shadow-lg cursor-pointer transition-transform active:scale-95"
           >
-            <Award className="w-4 h-4 text-amber-500 shrink-0" />
-            <span>Cấp {progress.level} · {progress.percent}%</span>
-          </button>
-
-          <button
-            type="button"
-            onClick={() => {
-              soundManager.play('click');
-              onNavigateToShop();
-            }}
-            className="px-3 py-2 rounded-2xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 text-xs font-bold flex items-center gap-1.5 cursor-pointer transition-colors"
-          >
-            <Sparkles className="w-4 h-4 text-amber-500" />
-            <span>Studio Đồ</span>
-          </button>
-
-          <button
-            type="button"
-            onClick={() => {
-              soundManager.play('click');
-              onOpenTravel();
-            }}
-            className="px-4 py-2 rounded-2xl bg-gradient-to-r from-amber-400 to-orange-500 hover:from-amber-500 hover:to-orange-600 text-slate-950 text-xs sm:text-sm font-black flex items-center gap-1.5 shadow-md cursor-pointer transition-transform active:scale-95"
-          >
-            <Plane className="w-4 h-4" />
-            <span>Du Hành Xuyên Việt</span>
+            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-amber-100 border-2 border-amber-300 overflow-hidden flex items-center justify-center shrink-0">
+              <AvatarRenderer
+                config={student.avatarConfig}
+                size="xs"
+                animated={false}
+                showVehicle={false}
+                showPet={false}
+                showTech={false}
+                showAura={false}
+              />
+            </div>
+            <div className="text-left min-w-0">
+              <div className="text-[11px] sm:text-xs font-black leading-tight truncate max-w-[95px] sm:max-w-[125px] flex items-center gap-1">
+                <span className="truncate">{student.name}</span>
+                <span className="text-[9px] sm:text-[10px] font-black text-sky-200">LV.{progress.level}</span>
+              </div>
+              <div className="flex items-center gap-1.5 text-[10px] sm:text-[11px] font-extrabold text-amber-300 tabular-nums">
+                <span className="inline-flex items-center gap-0.5">
+                  <CoinIcon className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
+                  {student.coins.toLocaleString('vi-VN')}
+                </span>
+                <span className="inline-flex items-center gap-0.5 text-yellow-200">
+                  <Star className="w-3 h-3 fill-yellow-300 text-yellow-300" />
+                  {student.stars.toLocaleString('vi-VN')}
+                </span>
+              </div>
+            </div>
           </button>
         </div>
-      </div>
 
-      {/* Main Grid: Interactive 2.5D Playground + Safe Chat Panel */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 items-stretch">
-        {/* 2.5D Interactive Văn Miếu / City World Stage */}
-        <div className="lg:col-span-8 flex flex-col gap-3">
-          <div
-            ref={stageRef}
-            onClick={handleStageClick}
-            onPointerDown={handleStagePointerDown}
-            onPointerMove={handleStagePointerMove}
-            onPointerUp={handleStagePointerEnd}
-            onPointerCancel={handleStagePointerEnd}
-            style={{ touchAction: 'none' }}
-            className="relative w-full h-[430px] sm:h-[510px] lg:h-[560px] rounded-3xl overflow-hidden border-2 border-slate-200 dark:border-slate-700 shadow-lg select-none cursor-crosshair bg-sky-200"
-          >
-            {/* 2.5D Backdrop World */}
-            <div
-              className="hsv-lobby-world"
-              style={{
-                left: window.matchMedia('(max-width: 767px)').matches
-                  ? `${Math.max(-110, Math.min(0, 50 - pos.x * 2.1))}%`
-                  : '0%'
-              }}
-            >
-              <City3DLandmark
-                destKey={currentCity.destKey}
-                mode="stage"
-                lighting={lighting}
-                zone={activeZone}
-                className="pointer-events-none"
-              />
-              <div
-                aria-hidden
-                className="pointer-events-none absolute inset-x-0 top-[52%] bottom-0 bg-gradient-to-b from-transparent via-black/5 to-black/15"
-              />
-            </div>
-
-            {/* TOP-LEFT GAME HUD: Avatar Portrait + Name + Coins + Stars + Level */}
-            <div
-              data-interactive="true"
-              onClick={(e) => e.stopPropagation()}
-              className="absolute top-2.5 left-2.5 z-40 flex items-center gap-2"
-            >
+        {/* TOP-RIGHT GAME HUD: Responsive Clean Action Cluster + Mini-Map */}
+        <div
+          data-interactive="true"
+          onClick={(e) => e.stopPropagation()}
+          className="absolute top-2 right-2 sm:top-2.5 sm:right-2.5 z-30 flex items-start gap-1.5"
+        >
+          {/* Compact Mobile / Landscape Phone HUD Bar */}
+          {isVanMieu && viewportMode.compact && (
+            <div className="relative flex items-center gap-1">
               <button
                 type="button"
-                onClick={onOpenLevel}
-                className="flex items-center gap-2 pr-3 pl-1.5 py-1 rounded-2xl bg-sky-800/90 hover:bg-sky-700/95 backdrop-blur-xs border-2 border-sky-200/80 text-white shadow-lg cursor-pointer transition-transform active:scale-95"
+                onClick={() => {
+                  soundManager.play('click');
+                  setIsZoneMenuOpen((v) => !v);
+                  setIsMobileHudOpen(false);
+                }}
+                className="px-2.5 py-1.5 rounded-xl bg-emerald-700/90 text-white border border-white/75 text-[10px] font-black shadow-md flex items-center gap-1 cursor-pointer"
               >
-                <div className="w-9 h-9 rounded-full bg-amber-100 border-2 border-amber-300 overflow-hidden flex items-center justify-center shrink-0">
-                  <AvatarRenderer
-                    config={student.avatarConfig}
-                    size="xs"
-                    animated={false}
-                    showVehicle={false}
-                    showPet={false}
-                    showTech={false}
-                    showAura={false}
-                  />
-                </div>
-                <div className="text-left min-w-0">
-                  <div className="text-xs font-black leading-tight truncate max-w-[115px] flex items-center gap-1">
-                    <span className="truncate">{student.name}</span>
-                    <span className="text-[10px] font-black text-sky-200">LV.{progress.level}</span>
-                  </div>
-                  <div className="flex items-center gap-2 text-[11px] font-extrabold text-amber-300 tabular-nums">
-                    <span className="inline-flex items-center gap-0.5">
-                      <CoinIcon className="w-3.5 h-3.5" />
-                      {student.coins.toLocaleString('vi-VN')}
-                    </span>
-                    <span className="inline-flex items-center gap-0.5 text-yellow-200">
-                      <Star className="w-3 h-3 fill-yellow-300 text-yellow-300" />
-                      {student.stars.toLocaleString('vi-VN')}
-                    </span>
-                  </div>
-                </div>
+                <Compass className="w-3.5 h-3.5 text-amber-300" />
+                <span className="max-w-[75px] truncate">{currentZoneMeta.shortName}</span>
+                <ChevronDown className="w-3 h-3" />
               </button>
-            </div>
 
-            {/* TOP-RIGHT GAME HUD: Friends · Pets · Bag · Shop · Events · House · Day/Night + Mini-Map */}
-            <div
-              data-interactive="true"
-              onClick={(e) => e.stopPropagation()}
-              className="absolute top-2.5 right-2.5 z-40 flex items-start gap-1.5"
-            >
-              {isVanMieu && (
-                <div className="flex flex-wrap justify-end items-center gap-1 pt-0.5 max-w-[235px] sm:max-w-none">
+              <button
+                type="button"
+                onClick={() => {
+                  soundManager.play('click');
+                  setIsFunQuestsOpen(true);
+                }}
+                className="relative p-1.5 rounded-xl bg-rose-500/95 text-white border border-white/80 shadow-md cursor-pointer"
+                title="Sự kiện & Điểm danh"
+              >
+                <CalendarCheck className="w-4 h-4" />
+                {!checkedInToday && (
+                  <span className="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full bg-amber-300 border border-white" />
+                )}
+              </button>
+
+              <button
+                type="button"
+                onClick={() => {
+                  soundManager.play('click');
+                  setIsMobileHudOpen((v) => !v);
+                  setIsZoneMenuOpen(false);
+                }}
+                className="px-2 py-1.5 rounded-xl bg-slate-900/85 text-white border border-white/75 text-[10px] font-black shadow-md flex items-center gap-1 cursor-pointer"
+                title="Mở bảng tính năng"
+              >
+                <LayoutGrid className="w-3.5 h-3.5 text-amber-300" />
+                <span>Menu</span>
+              </button>
+
+              {isFullscreen && (
+                <button
+                  type="button"
+                  onClick={() => setIsFullscreen(false)}
+                  className="p-1.5 rounded-xl bg-slate-950/85 text-amber-300 border border-white/80 shadow-md cursor-pointer"
+                  title="Thu nhỏ màn hình"
+                >
+                  <Minimize2 className="w-4 h-4" />
+                </button>
+              )}
+
+              {/* Mobile Zone Switcher Dropdown */}
+              {isZoneMenuOpen && (
+                <div className="absolute top-10 right-0 z-40 w-48 rounded-2xl bg-slate-950/95 backdrop-blur-md border border-white/25 p-2 shadow-2xl space-y-1">
+                  <div className="px-2 py-0.5 text-[10px] font-bold text-amber-300">Chuyển Khu Văn Miếu</div>
+                  {VAN_MIEU_ZONES.map((z) => (
+                    <button
+                      key={z.id}
+                      type="button"
+                      onClick={() => {
+                        setIsZoneMenuOpen(false);
+                        handleSelectZone(z.id);
+                      }}
+                      className={`w-full text-left px-2.5 py-1.5 rounded-xl text-[11px] font-black cursor-pointer ${
+                        z.id === activeZone
+                          ? 'bg-amber-400 text-slate-950'
+                          : 'text-white hover:bg-white/15'
+                      }`}
+                    >
+                      {z.shortName}
+                    </button>
+                  ))}
                   <button
                     type="button"
                     onClick={() => {
+                      setIsZoneMenuOpen(false);
+                      setIsFullscreen(false);
+                      onOpenTravel();
+                    }}
+                    className="w-full text-left px-2.5 py-1.5 rounded-xl bg-sky-600/80 text-white text-[11px] font-black flex items-center gap-1.5 cursor-pointer mt-1"
+                  >
+                    <Plane className="w-3.5 h-3.5" /> Du Hành Việt Nam
+                  </button>
+                </div>
+              )}
+
+              {/* Mobile Feature Drawer Dropdown */}
+              {isMobileHudOpen && (
+                <div className="absolute top-10 right-0 z-40 w-60 rounded-2xl bg-slate-950/95 backdrop-blur-md border border-white/25 p-2.5 shadow-2xl grid grid-cols-3 gap-1.5">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setIsMobileHudOpen(false);
                       if (!canDm) {
+                        setIsFullscreen(false);
                         onRequireLogin();
                         return;
                       }
                       setDmPeer(null);
                       setDmOpen(true);
                     }}
-                    className="relative px-2 py-1.5 rounded-xl bg-sky-600/95 hover:bg-sky-500 text-white border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
-                    title="Bạn bè & Hộp thư"
+                    className="p-2 rounded-xl bg-sky-600 text-white text-[10px] font-black flex flex-col items-center gap-1 cursor-pointer"
                   >
-                    <Users className="w-4 h-4" />
-                    <span className="hidden sm:block text-[9px] font-black mt-0.5">Bạn bè</span>
-                    {dmUnread > 0 && (
-                      <span className="absolute -top-1.5 -right-1.5 px-1 rounded-full bg-rose-500 text-white text-[9px] font-black border border-white">
-                        {dmUnread}
-                      </span>
-                    )}
+                    <Users className="w-4 h-4" /> Bạn bè
                   </button>
-
                   <button
                     type="button"
                     onClick={() => {
-                      soundManager.play('click');
+                      setIsMobileHudOpen(false);
                       setPetZoneTab('care');
                     }}
-                    className="px-2 py-1.5 rounded-xl bg-emerald-600/95 hover:bg-emerald-500 text-white border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
-                    title="Vườn Thú Cưng & Đua Thú"
+                    className="p-2 rounded-xl bg-emerald-600 text-white text-[10px] font-black flex flex-col items-center gap-1 cursor-pointer"
                   >
-                    <Heart className="w-4 h-4" />
-                    <span className="hidden sm:block text-[9px] font-black mt-0.5">Thú cưng</span>
+                    <Heart className="w-4 h-4" /> Thú cưng
                   </button>
-
                   <button
                     type="button"
                     onClick={() => {
-                      soundManager.play('click');
+                      setIsMobileHudOpen(false);
                       setIsToyboxOpen(true);
                     }}
-                    className="px-2 py-1.5 rounded-xl bg-orange-500/95 hover:bg-orange-400 text-white border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
-                    title="Túi Đồ Chơi & Bụi Tiên"
+                    className="p-2 rounded-xl bg-orange-500 text-white text-[10px] font-black flex flex-col items-center gap-1 cursor-pointer"
                   >
-                    <Backpack className="w-4 h-4" />
-                    <span className="hidden sm:block text-[9px] font-black mt-0.5">Túi đồ</span>
+                    <Backpack className="w-4 h-4" /> Túi đồ
                   </button>
-
                   <button
                     type="button"
                     onClick={() => {
-                      soundManager.play('click');
+                      setIsMobileHudOpen(false);
+                      setIsFullscreen(false);
                       onNavigateToShop();
                     }}
-                    className="px-2 py-1.5 rounded-xl bg-purple-600/95 hover:bg-purple-500 text-white border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
-                    title="Cửa Hàng Thời Trang (Avatar Studio)"
+                    className="p-2 rounded-xl bg-purple-600 text-white text-[10px] font-black flex flex-col items-center gap-1 cursor-pointer"
                   >
-                    <Store className="w-4 h-4" />
-                    <span className="hidden sm:block text-[9px] font-black mt-0.5">Cửa hàng</span>
+                    <Store className="w-4 h-4" /> Cửa hàng
                   </button>
-
                   <button
                     type="button"
                     onClick={() => {
-                      soundManager.play('click');
-                      setIsFunQuestsOpen(true);
-                    }}
-                    className="relative px-2 py-1.5 rounded-xl bg-rose-500/95 hover:bg-rose-400 text-white border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
-                    title="Sự Kiện Lễ Hội & Điểm Danh"
-                  >
-                    <CalendarCheck className="w-4 h-4" />
-                    <span className="hidden sm:block text-[9px] font-black mt-0.5">Sự kiện</span>
-                    {!checkedInToday && (
-                      <span className="absolute -top-1.5 -right-1.5 px-1 rounded-full bg-amber-300 text-slate-950 text-[8px] font-black border border-white">
-                        Quà
-                      </span>
-                    )}
-                  </button>
-
-                  <button
-                    type="button"
-                    onClick={() => {
-                      soundManager.play('click');
+                      setIsMobileHudOpen(false);
                       setFishingHouseTab('house');
                     }}
-                    className="px-2 py-1.5 rounded-xl bg-amber-500/95 hover:bg-amber-400 text-slate-950 border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
-                    title="Ngôi Nhà Riêng & Vườn Cây"
+                    className="p-2 rounded-xl bg-amber-500 text-slate-950 text-[10px] font-black flex flex-col items-center gap-1 cursor-pointer"
                   >
-                    <Home className="w-4 h-4" />
-                    <span className="hidden sm:block text-[9px] font-black mt-0.5">Nhà riêng</span>
+                    <Home className="w-4 h-4" /> Nhà riêng
                   </button>
-
                   <button
                     type="button"
                     onClick={() => {
-                      soundManager.play('click');
+                      setIsMobileHudOpen(false);
                       setIsFunRankOpen(true);
                     }}
-                    className="px-2 py-1.5 rounded-xl bg-indigo-600/95 hover:bg-indigo-500 text-white border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
-                    title="Thành Tựu & Bộ Sưu Tập"
+                    className="p-2 rounded-xl bg-indigo-600 text-white text-[10px] font-black flex flex-col items-center gap-1 cursor-pointer"
                   >
-                    <Trophy className="w-4 h-4" />
-                    <span className="hidden sm:block text-[9px] font-black mt-0.5">Thành tựu</span>
+                    <Trophy className="w-4 h-4" /> Thành tựu
                   </button>
-
                   <button
                     type="button"
-                    onClick={cycleLighting}
-                    className="px-2 py-1.5 rounded-xl bg-slate-800/85 hover:bg-slate-700 text-amber-300 border border-white/70 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
-                    title="Đổi Sáng / Hoàng Hôn / Đêm Hội"
+                    onClick={() => {
+                      cycleLighting();
+                    }}
+                    className="p-2 rounded-xl bg-slate-800 text-amber-300 text-[10px] font-black flex flex-col items-center gap-1 cursor-pointer"
                   >
-                    {lighting === 'day' ? (
-                      <Sun className="w-4 h-4" />
-                    ) : lighting === 'sunset' ? (
-                      <Sunset className="w-4 h-4" />
-                    ) : (
-                      <Moon className="w-4 h-4" />
-                    )}
-                    <span className="hidden sm:block text-[9px] font-black mt-0.5">
-                      {lighting === 'day' ? 'Ngày' : lighting === 'sunset' ? 'Chiều' : 'Đêm'}
-                    </span>
+                    {lighting === 'day' ? <Sun className="w-4 h-4" /> : lighting === 'sunset' ? <Sunset className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+                    {lighting === 'day' ? 'Ngày' : lighting === 'sunset' ? 'Chiều' : 'Đêm'}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setIsMobileHudOpen(false);
+                      setIsFullscreen((f) => !f);
+                    }}
+                    className="col-span-2 p-2 rounded-xl bg-slate-700 text-white text-[10px] font-black flex flex-col items-center justify-center gap-1 cursor-pointer"
+                  >
+                    {isFullscreen ? <Minimize2 className="w-4 h-4" /> : <Maximize2 className="w-4 h-4" />}
+                    {isFullscreen ? 'Thu nhỏ' : 'Toàn màn hình'}
                   </button>
                 </div>
               )}
+            </div>
+          )}
 
-              {!isVanMieu && (
-                <div className="px-3 py-1.5 rounded-2xl bg-slate-950/70 backdrop-blur-xs text-white text-[11px] font-semibold shadow-sm flex items-center gap-1.5 max-w-[200px]">
-                  <MapPin className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-                  <span className="truncate">{currentCity.shortName}</span>
-                </div>
-              )}
+          {/* Desktop & Tablet Full Top-Right HUD */}
+          {isVanMieu && !viewportMode.compact && (
+            <div className="flex items-center gap-1 pt-0.5">
+              <button
+                type="button"
+                onClick={() => {
+                  if (!canDm) {
+                    setIsFullscreen(false);
+                    onRequireLogin();
+                    return;
+                  }
+                  setDmPeer(null);
+                  setDmOpen(true);
+                }}
+                className="relative px-2 py-1.5 rounded-xl bg-sky-600/95 hover:bg-sky-500 text-white border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
+                title="Bạn bè & Hộp thư"
+              >
+                <Users className="w-3.5 h-3.5" />
+                <span className="text-[9px] font-black mt-0.5">Bạn bè</span>
+                {dmUnread > 0 && (
+                  <span className="absolute -top-1.5 -right-1.5 px-1 rounded-full bg-rose-500 text-white text-[9px] font-black border border-white">
+                    {dmUnread}
+                  </span>
+                )}
+              </button>
 
-              {isVanMieu && (
-                <VanMieuMiniMap
-                  activeZone={activeZone}
-                  selfX={pos.x}
-                  selfY={pos.y}
-                  peers={visiblePeers.map((p) => ({ id: p.id, x: p.x, y: p.y }))}
-                  foundTreasures={vanMieuStats.foundTreasures}
-                  onSelectZone={handleSelectZone}
-                  onOpenTravel={onOpenTravel}
-                />
+              <button
+                type="button"
+                onClick={() => {
+                  soundManager.play('click');
+                  setPetZoneTab('care');
+                }}
+                className="px-2 py-1.5 rounded-xl bg-emerald-600/95 hover:bg-emerald-500 text-white border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
+                title="Vườn Thú Cưng & Đua Thú"
+              >
+                <Heart className="w-3.5 h-3.5" />
+                <span className="text-[9px] font-black mt-0.5">Thú cưng</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => {
+                  soundManager.play('click');
+                  setIsToyboxOpen(true);
+                }}
+                className="px-2 py-1.5 rounded-xl bg-orange-500/95 hover:bg-orange-400 text-white border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
+                title="Túi Đồ Chơi & Bụi Tiên"
+              >
+                <Backpack className="w-3.5 h-3.5" />
+                <span className="text-[9px] font-black mt-0.5">Túi đồ</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => {
+                  soundManager.play('click');
+                  setIsFullscreen(false);
+                  onNavigateToShop();
+                }}
+                className="px-2 py-1.5 rounded-xl bg-purple-600/95 hover:bg-purple-500 text-white border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
+                title="Cửa Hàng Thời Trang (Avatar Studio)"
+              >
+                <Store className="w-3.5 h-3.5" />
+                <span className="text-[9px] font-black mt-0.5">Cửa hàng</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => {
+                  soundManager.play('click');
+                  setIsFunQuestsOpen(true);
+                }}
+                className="relative px-2 py-1.5 rounded-xl bg-rose-500/95 hover:bg-rose-400 text-white border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
+                title="Sự Kiện Lễ Hội & Điểm Danh"
+              >
+                <CalendarCheck className="w-3.5 h-3.5" />
+                <span className="text-[9px] font-black mt-0.5">Sự kiện</span>
+                {!checkedInToday && (
+                  <span className="absolute -top-1.5 -right-1.5 px-1 rounded-full bg-amber-300 text-slate-950 text-[8px] font-black border border-white">
+                    Quà
+                  </span>
+                )}
+              </button>
+
+              <button
+                type="button"
+                onClick={() => {
+                  soundManager.play('click');
+                  setFishingHouseTab('house');
+                }}
+                className="px-2 py-1.5 rounded-xl bg-amber-500/95 hover:bg-amber-400 text-slate-950 border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
+                title="Ngôi Nhà Riêng & Vườn Cây"
+              >
+                <Home className="w-3.5 h-3.5" />
+                <span className="text-[9px] font-black mt-0.5">Nhà riêng</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => {
+                  soundManager.play('click');
+                  setIsFunRankOpen(true);
+                }}
+                className="px-2 py-1.5 rounded-xl bg-indigo-600/95 hover:bg-indigo-500 text-white border border-white/80 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
+                title="Thành Tựu & Bộ Sưu Tập"
+              >
+                <Trophy className="w-3.5 h-3.5" />
+                <span className="text-[9px] font-black mt-0.5">Thành tựu</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={cycleLighting}
+                className="px-2 py-1.5 rounded-xl bg-slate-800/85 hover:bg-slate-700 text-amber-300 border border-white/70 shadow-md flex flex-col items-center cursor-pointer transition-transform active:scale-95"
+                title="Đổi Sáng / Hoàng Hôn / Đêm Hội"
+              >
+                {lighting === 'day' ? (
+                  <Sun className="w-3.5 h-3.5" />
+                ) : lighting === 'sunset' ? (
+                  <Sunset className="w-3.5 h-3.5" />
+                ) : (
+                  <Moon className="w-3.5 h-3.5" />
+                )}
+                <span className="text-[9px] font-black mt-0.5">
+                  {lighting === 'day' ? 'Ngày' : lighting === 'sunset' ? 'Chiều' : 'Đêm'}
+                </span>
+              </button>
+
+              {isFullscreen && (
+                <button
+                  type="button"
+                  onClick={() => setIsFullscreen(false)}
+                  className="px-2 py-1.5 rounded-xl bg-slate-950/90 hover:bg-slate-800 text-amber-300 border border-white/80 shadow-md flex flex-col items-center cursor-pointer"
+                  title="Thoát toàn màn hình (ESC)"
+                >
+                  <Minimize2 className="w-3.5 h-3.5" />
+                  <span className="text-[9px] font-black mt-0.5">Thu nhỏ</span>
+                </button>
               )}
             </div>
+          )}
 
-            {/* Incoming Toast Notification */}
-            {toastMsg && (
-              <div className="pointer-events-none absolute top-24 left-1/2 -translate-x-1/2 z-50 px-4 py-1.5 rounded-full bg-slate-950/90 text-amber-300 text-xs font-extrabold shadow-lg border border-amber-400/40 whitespace-nowrap max-w-[90%] truncate">
-                {toastMsg}
-              </div>
-            )}
+          {!isVanMieu && (
+            <div className="px-3 py-1.5 rounded-2xl bg-slate-950/70 backdrop-blur-xs text-white text-[11px] font-semibold shadow-sm flex items-center gap-1.5 max-w-[200px]">
+              <MapPin className="w-3.5 h-3.5 text-amber-400 shrink-0" />
+              <span className="truncate">{currentCity.shortName}</span>
+            </div>
+          )}
 
-            {/* Interactive World Entities Layer (Moves with Mobile Camera) */}
-            <div
-              className="hsv-lobby-world"
-              style={{
-                left: window.matchMedia('(max-width: 767px)').matches
-                  ? `${Math.max(-110, Math.min(0, 50 - pos.x * 2.1))}%`
-                  : '0%'
+          {isVanMieu && !viewportMode.compact && (
+            <VanMieuMiniMap
+              activeZone={activeZone}
+              selfX={pos.x}
+              selfY={pos.y}
+              peers={visiblePeers.map((p) => ({ id: p.id, x: p.x, y: p.y }))}
+              foundTreasures={vanMieuStats.foundTreasures}
+              onSelectZone={handleSelectZone}
+              onOpenTravel={() => {
+                setIsFullscreen(false);
+                onOpenTravel();
               }}
-            >
-              {/* Sparkle Footstep Trail */}
-              {footstepSparks.map((sp) => (
-                <span
-                  key={sp.id}
-                  style={{ left: `${sp.x}%`, top: `${sp.y}%`, backgroundColor: sp.color, zIndex: 410 }}
-                  className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 w-2.5 h-2.5 rounded-full opacity-75 animate-ping"
-                />
-              ))}
+            />
+          )}
+        </div>
 
-              {/* Ground Click Ripple */}
-              {clickRipple && (
-                <div
-                  key={clickRipple.key}
-                  style={{ left: `${clickRipple.x}%`, top: `${clickRipple.y}%` }}
-                  className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 w-10 h-5 rounded-full border-2 border-amber-300 bg-amber-300/20 animate-ping"
-                />
-              )}
+        {/* Incoming Toast Notification */}
+        {toastMsg && (
+          <div className="pointer-events-none absolute top-16 sm:top-20 left-1/2 -translate-x-1/2 z-40 px-3.5 py-1 rounded-full bg-slate-950/90 text-amber-300 text-[11px] sm:text-xs font-extrabold shadow-lg border border-amber-400/40 whitespace-nowrap max-w-[90%] truncate">
+            {toastMsg}
+          </div>
+        )}
+
+        {/* Interactive World Entities Layer (Moves with Mobile Portrait Camera, isolated z-index: 1) */}
+        <div
+          className="hsv-lobby-world"
+          style={{
+            left: viewportMode.panoramic
+              ? `${Math.max(-110, Math.min(0, 50 - pos.x * 2.1))}%`
+              : '0%'
+          }}
+        >
+          {/* Sparkle Footstep Trail */}
+          {footstepSparks.map((sp) => (
+            <span
+              key={sp.id}
+              style={{ left: `${sp.x}%`, top: `${sp.y}%`, backgroundColor: sp.color, zIndex: 410 }}
+              className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 w-2.5 h-2.5 rounded-full opacity-75 animate-ping"
+            />
+          ))}
+
+          {/* Ground Click Ripple */}
+          {clickRipple && (
+            <div
+              key={clickRipple.key}
+              style={{ left: `${clickRipple.x}%`, top: `${clickRipple.y}%` }}
+              className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 w-10 h-5 rounded-full border-2 border-amber-300 bg-amber-300/20 animate-ping"
+            />
+          )}
 
               {/* Văn Miếu 4-Zone Interactive World, Portals, NPCs & Freeplay Props */}
               {isVanMieu && (
@@ -1675,514 +1959,49 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
                   </div>
                 );
               })}
-            </div>
-
-            {/* Bottom-Left Compact Touch D-Pad */}
-            <div
-              data-interactive="true"
-              onClick={(e) => e.stopPropagation()}
-              className="absolute bottom-3 left-3 z-30 grid grid-cols-3 gap-1 w-24 sm:w-28 opacity-85 hover:opacity-100"
-              aria-label="Phím điều hướng nhân vật"
-            >
-              <div />
-              <button
-                type="button"
-                onClick={() => moveSelfTo(pos.x, pos.y - 6)}
-                className="h-8 rounded-xl bg-slate-950/75 hover:bg-slate-900 text-white flex items-center justify-center border border-white/25 cursor-pointer active:scale-90"
-                aria-label="Đi lên"
-              >
-                <ArrowUp className="w-3.5 h-3.5" />
-              </button>
-              <div />
-              <button
-                type="button"
-                onClick={() => moveSelfTo(pos.x - 6, pos.y)}
-                className="h-8 rounded-xl bg-slate-950/75 hover:bg-slate-900 text-white flex items-center justify-center border border-white/25 cursor-pointer active:scale-90"
-                aria-label="Sang trái"
-              >
-                <ArrowLeft className="w-3.5 h-3.5" />
-              </button>
-              <button
-                type="button"
-                onClick={() => moveSelfTo(pos.x, pos.y + 6)}
-                className="h-8 rounded-xl bg-slate-950/75 hover:bg-slate-900 text-white flex items-center justify-center border border-white/25 cursor-pointer active:scale-90"
-                aria-label="Đi xuống"
-              >
-                <ArrowDown className="w-3.5 h-3.5" />
-              </button>
-              <button
-                type="button"
-                onClick={() => moveSelfTo(pos.x + 6, pos.y)}
-                className="h-8 rounded-xl bg-slate-950/75 hover:bg-slate-900 text-white flex items-center justify-center border border-white/25 cursor-pointer active:scale-90"
-                aria-label="Sang phải"
-              >
-                <ArrowRight className="w-3.5 h-3.5" />
-              </button>
-            </div>
-
-            {/* Bottom-Right Arcade Action Cluster (Nhảy / Chào / Biểu cảm matching mockup) */}
-            <div
-              data-interactive="true"
-              onClick={(e) => e.stopPropagation()}
-              className="absolute bottom-3 right-3 z-30 flex items-end gap-2"
-            >
-              {isEmoteTrayOpen && (
-                <div className="mb-14 -mr-14 px-2 py-1.5 rounded-2xl bg-slate-950/85 backdrop-blur-xs border border-white/25 flex items-center gap-1 shadow-xl">
-                  {EMOTE_STICKERS.map((em) => (
-                    <button
-                      key={em.id}
-                      type="button"
-                      disabled={sending}
-                      onClick={() => {
-                        setIsEmoteTrayOpen(false);
-                        void handleSendMessage('emote', `${em.symbol} ${em.label}`, em.symbol);
-                      }}
-                      className="w-8 h-8 rounded-xl hover:bg-white/20 flex items-center justify-center text-lg cursor-pointer active:scale-90"
-                      title={em.label}
-                    >
-                      {em.symbol}
-                    </button>
-                  ))}
-                </div>
-              )}
-
-              <button
-                type="button"
-                onClick={handleSelfJump}
-                className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-gradient-to-b from-sky-400 to-blue-600 border-2 border-white text-white shadow-lg flex flex-col items-center justify-center hover:brightness-110 active:scale-90 transition-transform cursor-pointer"
-                title="Nhảy (Phím Space)"
-              >
-                <span className="text-base leading-none">🏃</span>
-                <span className="text-[10px] font-black mt-0.5">Nhảy</span>
-              </button>
-
-              <button
-                type="button"
-                onClick={() => void handleSendMessage('emote', '👋 Chào bạn!', '👋')}
-                className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-gradient-to-b from-amber-400 to-orange-500 border-2 border-white text-slate-950 shadow-lg flex flex-col items-center justify-center hover:brightness-110 active:scale-90 transition-transform cursor-pointer"
-                title="Vẫy tay chào"
-              >
-                <span className="text-base leading-none">👋</span>
-                <span className="text-[10px] font-black mt-0.5">Chào</span>
-              </button>
-
-              <button
-                type="button"
-                onClick={() => {
-                  soundManager.play('click');
-                  setIsEmoteTrayOpen((v) => !v);
-                }}
-                className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-gradient-to-b from-pink-400 to-rose-500 border-2 border-white text-white shadow-lg flex flex-col items-center justify-center hover:brightness-110 active:scale-90 transition-transform cursor-pointer"
-                title="Chọn biểu cảm"
-              >
-                <span className="text-base leading-none">😊</span>
-                <span className="text-[10px] font-black mt-0.5">Biểu cảm</span>
-              </button>
-            </div>
-
-            {/* NPC Interactive Story & Quick Launch Drawer */}
-            {selectedNpc && (
-              <div
-                data-interactive="true"
-                onClick={(e) => e.stopPropagation()}
-                className="absolute bottom-14 left-1/2 -translate-x-1/2 z-50 w-[92%] max-w-md rounded-3xl bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-2 border-amber-400 p-4 shadow-2xl space-y-2.5"
-              >
-                <div className="flex items-start justify-between gap-2">
-                  <div>
-                    <div className="text-sm font-black text-slate-900 dark:text-white">
-                      {selectedNpc.name} · <span className="text-amber-600">{selectedNpc.role}</span>
-                    </div>
-                    <p className="text-xs text-slate-700 dark:text-slate-200 mt-1 leading-relaxed">
-                      {selectedNpc.greeting}
-                    </p>
-                    <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-1">
-                      {selectedNpc.tip}
-                    </p>
-                  </div>
-                  <button
-                    type="button"
-                    onClick={() => setSelectedNpc(null)}
-                    className="p-1.5 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer shrink-0"
-                    aria-label="Đóng hộp thoại NPC"
-                  >
-                    <X className="w-4 h-4" />
-                  </button>
-                </div>
-                <div className="flex flex-wrap items-center gap-2 pt-1">
-                  <button
-                    type="button"
-                    onClick={() => handleNpcAction(selectedNpc.primaryActionId)}
-                    className="px-3.5 py-2 rounded-xl bg-amber-400 hover:bg-amber-500 text-slate-950 text-xs font-black cursor-pointer"
-                  >
-                    {selectedNpc.primaryActionLabel}
-                  </button>
-                  {selectedNpc.secondaryActionId && selectedNpc.secondaryActionLabel && (
-                    <button
-                      type="button"
-                      onClick={() => handleNpcAction(selectedNpc.secondaryActionId!)}
-                      className="px-3.5 py-2 rounded-xl bg-sky-600 hover:bg-sky-700 text-white text-xs font-black cursor-pointer"
-                    >
-                      {selectedNpc.secondaryActionLabel}
-                    </button>
-                  )}
-                </div>
-              </div>
-            )}
-
-            {/* Selected Peer Mini Profile Overlay */}
-            {selectedPeer && (
-              <div
-                data-interactive="true"
-                onClick={(e) => e.stopPropagation()}
-                className="absolute top-24 right-3 z-40 w-64 rounded-2xl bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border border-slate-200 dark:border-slate-700 p-3.5 shadow-2xl space-y-2.5"
-              >
-                <div className="flex items-start justify-between gap-2">
-                  <div className="flex items-center gap-2.5 min-w-0">
-                    <div className="w-11 h-12 rounded-xl bg-slate-100 dark:bg-slate-800 flex items-center justify-center overflow-hidden shrink-0">
-                      <AvatarRenderer config={selectedPeer.avatarConfig} size="thumb" showVehicle={false} showTech={false} showPet={true} />
-                    </div>
-                    <div className="min-w-0">
-                      <div className="text-sm font-black text-slate-900 dark:text-white truncate">
-                        {selectedPeer.alias}
-                      </div>
-                      <div className="text-[11px] font-bold text-indigo-600 dark:text-indigo-400">
-                        Cấp {selectedPeer.level} · {getRankTier(selectedPeer.level).title}
-                      </div>
-                    </div>
-                  </div>
-                  <button
-                    type="button"
-                    onClick={() => setSelectedPeer(null)}
-                    className="p-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer"
-                    aria-label="Đóng thẻ bạn bè"
-                  >
-                    <X className="w-4 h-4" />
-                  </button>
-                </div>
-
-                <div className="grid grid-cols-2 gap-2">
-                  <button
-                    type="button"
-                    onClick={() => void handleWaveOrHeart(selectedPeer, 'wave')}
-                    className="py-2 px-2.5 rounded-xl bg-amber-100 dark:bg-amber-950/50 hover:bg-amber-200 text-amber-900 dark:text-amber-200 text-xs font-bold flex items-center justify-center gap-1 cursor-pointer"
-                  >
-                    <span>Vẫy tay</span>
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => void handleWaveOrHeart(selectedPeer, 'heart')}
-                    className="py-2 px-2.5 rounded-xl bg-rose-100 dark:bg-rose-950/50 hover:bg-rose-200 text-rose-800 dark:text-rose-200 text-xs font-bold flex items-center justify-center gap-1 cursor-pointer"
-                  >
-                    <Heart className="w-3.5 h-3.5" /> Thả tim
-                  </button>
-                </div>
-
-                {!selectedPeer.id.startsWith('guest:') && (
-                  <button
-                    type="button"
-                    onClick={() => {
-                      soundManager.play('click');
-                      if (!canDm) {
-                        onRequireLogin();
-                        return;
-                      }
-                      setDmPeer({ id: selectedPeer.id, alias: selectedPeer.alias });
-                      setDmOpen(true);
-                    }}
-                    className="w-full py-2 px-3 rounded-xl bg-blue-100 dark:bg-blue-950/50 hover:bg-blue-200 text-blue-800 dark:text-blue-200 text-xs font-black flex items-center justify-center gap-1.5 cursor-pointer"
-                  >
-                    <MessageCircle className="w-3.5 h-3.5" /> Nhắn riêng &amp; Kết bạn
-                  </button>
-                )}
-
-                <div className="grid grid-cols-2 gap-2">
-                  <button
-                    type="button"
-                    onClick={() => {
-                      soundManager.play('click');
-                      setSelectedPeer(null);
-                      setIsTugOfWarOpen(true);
-                    }}
-                    className="py-2 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-[11px] font-black flex items-center justify-center gap-1 cursor-pointer"
-                  >
-                    <Users className="w-3.5 h-3.5" /> Rủ Kéo Co
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => void handleBlockPeer(selectedPeer)}
-                    className="py-2 px-2 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-rose-100 text-rose-600 text-[11px] font-bold flex items-center justify-center gap-1 cursor-pointer"
-                  >
-                    <Ban className="w-3.5 h-3.5" /> Chặn
-                  </button>
-                </div>
-              </div>
-            )}
-
-            {/* NPC Vui-Bot Daily City Trivia Overlay */}
-            {isTriviaOpen && (
-              <div
-                data-interactive="true"
-                onClick={(e) => e.stopPropagation()}
-                className="absolute inset-0 z-50 bg-slate-950/65 backdrop-blur-xs flex items-center justify-center p-3"
-              >
-                <div className="bg-white dark:bg-slate-900 rounded-3xl max-w-md w-full p-5 shadow-2xl border border-slate-200 dark:border-slate-700 space-y-3.5">
-                  <div className="flex items-start justify-between gap-2">
-                    <div className="flex items-center gap-2">
-                      <div className="w-11 h-11 rounded-xl bg-sky-50 dark:bg-slate-800 border border-blue-200 dark:border-slate-700 flex items-center justify-center shrink-0 p-0.5">
-                        <VuiBotMascot
-                          expression="surprised"
-                          motion="none"
-                          showBlinkGlint={false}
-                          className="w-10 h-10"
-                          alt="Vui-Bot"
-                        />
-                      </div>
-                      <div>
-                        <h3 className="text-sm font-black text-slate-900 dark:text-white">
-                          Đố Vui Địa Danh: {currentCity.shortName}
-                        </h3>
-                        <p className="text-[11px] text-slate-500">
-                          Trả lời đúng nhận +3 Xu & +10 XP mỗi ngày
-                        </p>
-                      </div>
-                    </div>
-                    <button
-                      type="button"
-                      onClick={() => setIsTriviaOpen(false)}
-                      className="p-1.5 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer"
-                    >
-                      <X className="w-4 h-4" />
-                    </button>
-                  </div>
-
-                  <p className="text-sm font-bold text-slate-800 dark:text-slate-100 leading-relaxed">
-                    {currentCity.trivia.question}
-                  </p>
-
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                    {currentCity.trivia.options.map((opt, idx) => {
-                      const isCorrectOpt = idx === currentCity.trivia.correctIndex;
-                      const isPicked = triviaPicked === idx;
-                      return (
-                        <button
-                          key={opt}
-                          type="button"
-                          disabled={triviaStatus !== 'idle' || triviaBusy}
-                          onClick={() => void handleAnswerTrivia(idx)}
-                          className={`p-2.5 rounded-xl border text-left text-xs font-bold transition-colors cursor-pointer ${
-                            triviaStatus === 'idle'
-                              ? 'border-slate-200 dark:border-slate-700 hover:bg-indigo-50 dark:hover:bg-indigo-950/40'
-                              : isCorrectOpt
-                              ? 'border-emerald-500 bg-emerald-50 dark:bg-emerald-950/50 text-emerald-800 dark:text-emerald-200'
-                              : isPicked
-                              ? 'border-rose-500 bg-rose-50 dark:bg-rose-950/50 text-rose-800 dark:text-rose-200'
-                              : 'border-slate-200 dark:border-slate-800 opacity-50'
-                          }`}
-                        >
-                          {opt}
-                        </button>
-                      );
-                    })}
-                  </div>
-
-                  {triviaNotice && (
-                    <div
-                      className={`p-3 rounded-2xl text-xs font-bold flex items-center gap-2 ${
-                        triviaStatus === 'correct'
-                          ? 'bg-emerald-50 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-200 border border-emerald-200 dark:border-emerald-800'
-                          : 'bg-rose-50 dark:bg-rose-950/40 text-rose-800 dark:text-rose-200 border border-rose-200 dark:border-rose-800'
-                      }`}
-                    >
-                      <CoinIcon className="w-4 h-4 shrink-0" />
-                      <span>{triviaNotice}</span>
-                    </div>
-                  )}
-                </div>
-              </div>
-            )}
-          </div>
-
-          {/* Quick Zone & Play Tips Bar */}
-          <div className="rounded-2xl bg-slate-100/80 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 px-4 py-2.5 flex flex-wrap items-center justify-between gap-2 text-xs text-slate-600 dark:text-slate-300">
-            <span className="flex items-center gap-1.5">
-              <Compass className="w-4 h-4 text-blue-500 shrink-0" />
-              <span>
-                <b>{currentZoneMeta.shortName}:</b> {currentZoneMeta.subtitle}
-              </span>
-            </span>
-            <span className="font-bold text-slate-800 dark:text-slate-100 tabular-nums">
-              Đã đi: {(hubState?.total_km ?? 0).toLocaleString('vi-VN')} km
-            </span>
-          </div>
         </div>
 
-        {/* Dual-Mode Safe Chat Dock */}
-        <div className="lg:col-span-4 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 shadow-sm flex flex-col justify-between gap-3 h-[460px] lg:h-[608px]">
-          <div className="flex flex-wrap items-center justify-between gap-2 pb-2 border-b border-slate-100 dark:border-slate-800">
-            <div className="flex items-center gap-2">
-              <MessageCircle className="w-4 h-4 text-blue-600" />
-              <h2 className="text-sm font-black text-slate-900 dark:text-white">
-                Trò Chuyện Sảnh
-              </h2>
-            </div>
-            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-950/50 text-emerald-700 dark:text-emerald-300 text-[10px] font-bold border border-emerald-200 dark:border-emerald-800">
-              <ShieldCheck className="w-3 h-3" /> Lọc An Toàn
-            </span>
-            <button
-              type="button"
-              onClick={() => {
-                if (!canDm) {
-                  onRequireLogin();
-                  return;
-                }
-                setDmPeer(null);
-                setDmOpen(true);
-              }}
-              className="relative inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-blue-600 hover:bg-blue-700 text-white text-[11px] font-black cursor-pointer"
-            >
-              <MessageCircle className="w-3.5 h-3.5" /> Hộp thư
-              {dmUnread > 0 && (
-                <span className="absolute -top-1.5 -right-1.5 min-w-4 h-4 px-1 rounded-full bg-rose-500 text-[10px] flex items-center justify-center">
-                  {dmUnread}
-                </span>
-              )}
-            </button>
-          </div>
-
-          {/* Message Feed */}
-          <div className="flex-1 overflow-y-auto space-y-2 pr-1 text-xs">
-            <div className="p-2.5 rounded-2xl bg-indigo-50/70 dark:bg-indigo-950/30 border border-indigo-100 dark:border-indigo-900/50 text-indigo-800 dark:text-indigo-200 text-[11px] leading-relaxed">
-              Chào mừng đến <b>{currentCity.shortName}</b>! Chơi tự do cùng bạn bè, trò chuyện lịch sự và không chia sẻ SĐT hay link lạ nhé.
-            </div>
-
-            {loadingMsgs && (
-              <div className="flex items-center gap-2 text-slate-400 py-2">
-                <Loader2 className="w-3.5 h-3.5 animate-spin" /> Đang tải tin nhắn...
-              </div>
-            )}
-
-            {messages
-              .filter((m) => !blockedSet.has(m.student_id))
-              .map((m) => {
-                const isMine = m.student_id === student.id;
-                return (
+        {/* BOTTOM-LEFT IN-GAME CHAT BAR (Replaces D-Pad so players walk by tap/click/WASD) */}
+        <div
+          data-interactive="true"
+          onClick={(e) => e.stopPropagation()}
+          className="absolute bottom-2.5 left-2.5 sm:bottom-3 sm:left-3 z-30 w-[calc(100%-10.25rem)] sm:w-80 md:w-96 max-w-[420px] space-y-1"
+        >
+          {recentLobbyMessages.length > 0 && !viewportMode.landscapeCompact && (
+            <div className="pointer-events-none space-y-1">
+              {recentLobbyMessages.map((m) => (
                 <div
                   key={m.id}
-                  className={`group p-2.5 rounded-2xl border ${
-                    isMine
-                      ? 'bg-blue-50 dark:bg-blue-950/40 border-blue-200 dark:border-blue-800/70'
-                      : 'bg-slate-50 dark:bg-slate-800/60 border-slate-200 dark:border-slate-700/70'
-                  }`}
+                  className="w-fit max-w-full px-2.5 py-0.5 rounded-xl bg-slate-950/60 backdrop-blur-xs text-white text-[10px] sm:text-[11px] truncate border border-white/15 shadow"
                 >
-                  <div className="flex items-center justify-between gap-2 mb-0.5">
-                    <div className="flex items-center gap-1.5 min-w-0">
-                      <span className="font-black text-slate-900 dark:text-white truncate">
-                        {m.sender_alias}
-                      </span>
-                      <span className="px-1.5 py-0.2 rounded-md bg-slate-200 dark:bg-slate-700 text-[10px] font-bold text-slate-700 dark:text-slate-200">
-                        Cấp {m.sender_level}
-                      </span>
-                    </div>
-                    {!isMine && !reportedIds[m.id] && (
-                      <button
-                        type="button"
-                        onClick={() => void handleReportMessage(m.id)}
-                        className="opacity-60 hover:opacity-100 text-rose-500 p-0.5 cursor-pointer"
-                        title="Báo cáo tin nhắn không phù hợp"
-                        aria-label="Báo cáo tin nhắn"
-                      >
-                        <Flag className="w-3 h-3" />
-                      </button>
-                    )}
-                    {reportedIds[m.id] && (
-                      <span className="text-[10px] text-rose-500 font-bold">Đã báo cáo</span>
-                    )}
-                  </div>
-                  <p className="text-slate-700 dark:text-slate-200 break-words leading-snug">
-                    {m.body}
-                  </p>
+                  <span className="font-black text-amber-300">{m.sender_alias}: </span>
+                  <span>{m.body}</span>
                 </div>
-              );
-            })}
-            <div ref={chatEndRef} />
-          </div>
-
-          {/* Chat Mode Tabs & Controls */}
-          <div className="space-y-2 pt-2 border-t border-slate-100 dark:border-slate-800">
-            <div className="grid grid-cols-2 gap-1 p-1 rounded-xl bg-slate-100 dark:bg-slate-800 text-[11px] font-bold">
-              <button
-                type="button"
-                onClick={() => {
-                  setChatTab('quick');
-                  setChatError('');
-                }}
-                className={`py-1.5 rounded-lg flex items-center justify-center gap-1 cursor-pointer transition-colors ${
-                  chatTab === 'quick'
-                    ? 'bg-white dark:bg-slate-900 text-blue-600 shadow-xs'
-                    : 'text-slate-500'
-                }`}
-              >
-                <Smile className="w-3.5 h-3.5" /> Chat Nhanh
-              </button>
-              <button
-                type="button"
-                onClick={() => {
-                  setChatTab('free');
-                  setChatError('');
-                }}
-                className={`py-1.5 rounded-lg flex items-center justify-center gap-1 cursor-pointer transition-colors ${
-                  chatTab === 'free'
-                    ? 'bg-white dark:bg-slate-900 text-blue-600 shadow-xs'
-                    : 'text-slate-500'
-                }`}
-              >
-                <MessageCircle className="w-3.5 h-3.5" /> Gõ Tự Do
-              </button>
+              ))}
             </div>
+          )}
 
-            {chatError && (
-              <div className="px-2.5 py-1.5 rounded-xl bg-rose-50 dark:bg-rose-950/50 border border-rose-200 dark:border-rose-800 text-rose-700 dark:text-rose-300 text-[11px] font-semibold">
-                {chatError}
-              </div>
-            )}
+          <div className="flex items-center gap-1.5 px-2 py-1 rounded-2xl bg-slate-950/75 backdrop-blur-md border border-white/25 shadow-xl">
+            <button
+              type="button"
+              onClick={openChatPanel}
+              className="p-1.5 rounded-xl bg-sky-600/90 hover:bg-sky-500 text-white cursor-pointer shrink-0"
+              title="Mở khung Trò chuyện & Chat nhanh"
+              aria-label="Mở khung trò chuyện"
+            >
+              <MessageCircle className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+            </button>
 
-            {chatTab === 'quick' ? (
-              <div className="space-y-2">
-                <div className="flex flex-wrap gap-1.5">
-                  {EMOTE_STICKERS.map((em) => (
-                    <button
-                      key={em.id}
-                      type="button"
-                      disabled={sending}
-                      onClick={() => void handleSendMessage('emote', `${em.symbol} ${em.label}`, em.symbol)}
-                      className="px-2 py-1 rounded-xl bg-amber-50 dark:bg-amber-950/40 hover:bg-amber-100 border border-amber-200 dark:border-amber-800 text-xs font-bold flex items-center gap-1 cursor-pointer active:scale-95"
-                    >
-                      <span>{em.symbol}</span>
-                      <span className="text-[10px] text-amber-900 dark:text-amber-200">{em.label}</span>
-                    </button>
-                  ))}
-                </div>
-                <div className="flex flex-wrap gap-1.5">
-                  {QUICK_CHAT_PRESETS.map((q) => (
-                    <button
-                      key={q.label}
-                      type="button"
-                      disabled={sending}
-                      onClick={() => void handleSendMessage('quick', q.text)}
-                      className="px-2.5 py-1 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-blue-950/40 border border-slate-200 dark:border-slate-700 text-[11px] font-semibold text-slate-800 dark:text-slate-200 cursor-pointer active:scale-95"
-                    >
-                      {q.label}
-                    </button>
-                  ))}
-                </div>
-              </div>
-            ) : student.isGuest ? (
+            {student.isGuest ? (
               <button
                 type="button"
-                onClick={onRequireLogin}
-                className="w-full py-2.5 px-3 rounded-xl bg-amber-400 hover:bg-amber-500 text-slate-950 text-xs font-black cursor-pointer"
+                onClick={() => {
+                  setIsFullscreen(false);
+                  onRequireLogin();
+                }}
+                className="flex-1 min-w-0 text-left px-2 py-1 text-[11px] font-bold text-amber-200 truncate cursor-pointer"
               >
-                Đăng nhập 10 giây để mở khóa Chat Tự Do
+                Đăng nhập để chat tự do...
               </button>
             ) : (
               <form
@@ -2190,28 +2009,552 @@ export const SocialLobbyView: React.FC<SocialLobbyViewProps> = ({
                   e.preventDefault();
                   void handleSendMessage('text', draftText);
                 }}
-                className="flex items-center gap-2"
+                className="flex-1 min-w-0 flex items-center gap-1"
               >
                 <input
                   value={draftText}
                   onChange={(e) => setDraftText(e.target.value)}
                   maxLength={90}
                   placeholder="Nhập tin nhắn..."
-                  className="flex-1 min-w-0 px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-transparent text-xs focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="flex-1 min-w-0 bg-transparent text-white placeholder:text-slate-300/80 text-[11px] sm:text-xs px-1 focus:outline-none"
                 />
                 <button
                   type="submit"
                   disabled={sending || !draftText.trim()}
-                  className="px-3 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 disabled:opacity-50 text-white text-xs font-bold flex items-center gap-1 cursor-pointer shrink-0"
+                  className="p-1.5 rounded-xl bg-amber-400 hover:bg-amber-300 disabled:opacity-45 text-slate-950 cursor-pointer shrink-0"
                   aria-label="Gửi tin nhắn"
                 >
-                  {sending ? <Loader2 className="w-4 h-4 animate-spin" /> : <Send className="w-4 h-4" />}
+                  {sending ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <Send className="w-3.5 h-3.5" />}
                 </button>
               </form>
             )}
           </div>
         </div>
+
+        {/* BOTTOM-RIGHT ARCADE ACTION CLUSTER (Nhảy / Chào / Biểu cảm) */}
+        <div
+          data-interactive="true"
+          onClick={(e) => e.stopPropagation()}
+          className="absolute bottom-2.5 right-2.5 sm:bottom-3 sm:right-3 z-30 flex items-end gap-1.5 sm:gap-2"
+        >
+          {isEmoteTrayOpen && (
+            <div className="absolute bottom-13 sm:bottom-15 right-0 px-2 py-1.5 rounded-2xl bg-slate-950/90 backdrop-blur-md border border-white/25 flex items-center gap-1 shadow-2xl">
+              {EMOTE_STICKERS.map((em) => (
+                <button
+                  key={em.id}
+                  type="button"
+                  disabled={sending}
+                  onClick={() => {
+                    setIsEmoteTrayOpen(false);
+                    void handleSendMessage('emote', `${em.symbol} ${em.label}`, em.symbol);
+                  }}
+                  className="w-8 h-8 rounded-xl hover:bg-white/20 flex items-center justify-center text-lg cursor-pointer active:scale-90"
+                  title={em.label}
+                >
+                  {em.symbol}
+                </button>
+              ))}
+            </div>
+          )}
+
+          <button
+            type="button"
+            onClick={handleSelfJump}
+            className="w-11 h-11 sm:w-13 sm:h-13 rounded-full bg-gradient-to-b from-sky-400 to-blue-600 border-2 border-white text-white shadow-lg flex flex-col items-center justify-center hover:brightness-110 active:scale-90 transition-transform cursor-pointer"
+            title="Nhảy (Phím Space)"
+          >
+            <span className="text-sm sm:text-base leading-none">🏃</span>
+            <span className="text-[9px] sm:text-[10px] font-black mt-0.5">Nhảy</span>
+          </button>
+
+          <button
+            type="button"
+            onClick={() => void handleSendMessage('emote', '👋 Chào bạn!', '👋')}
+            className="w-11 h-11 sm:w-13 sm:h-13 rounded-full bg-gradient-to-b from-amber-400 to-orange-500 border-2 border-white text-slate-950 shadow-lg flex flex-col items-center justify-center hover:brightness-110 active:scale-90 transition-transform cursor-pointer"
+            title="Vẫy tay chào"
+          >
+            <span className="text-sm sm:text-base leading-none">👋</span>
+            <span className="text-[9px] sm:text-[10px] font-black mt-0.5">Chào</span>
+          </button>
+
+          <button
+            type="button"
+            onClick={() => {
+              soundManager.play('click');
+              setIsEmoteTrayOpen((v) => !v);
+            }}
+            className="w-11 h-11 sm:w-13 sm:h-13 rounded-full bg-gradient-to-b from-pink-400 to-rose-500 border-2 border-white text-white shadow-lg flex flex-col items-center justify-center hover:brightness-110 active:scale-90 transition-transform cursor-pointer"
+            title="Chọn biểu cảm"
+          >
+            <span className="text-sm sm:text-base leading-none">😊</span>
+            <span className="text-[9px] sm:text-[10px] font-black mt-0.5">Biểu cảm</span>
+          </button>
+        </div>
+
+        {/* NPC INTERACTIVE STORY DIALOGUE (Isolated z-50 above z-index:1 world so NEVER overlapped!) */}
+        {selectedNpc && (
+          <div
+            data-interactive="true"
+            onClick={() => setSelectedNpc(null)}
+            className="absolute inset-0 z-50 bg-slate-950/45 backdrop-blur-[2px] flex items-end sm:items-center justify-center p-2.5 sm:p-4"
+          >
+            <div
+              onClick={(e) => e.stopPropagation()}
+              className="w-full max-w-md max-h-[88%] overflow-y-auto rounded-3xl bg-white dark:bg-slate-900 border-2 border-amber-400 p-4 shadow-2xl space-y-3"
+            >
+              <div className="flex items-start justify-between gap-2">
+                <div className="min-w-0">
+                  <div className="text-sm sm:text-base font-black text-slate-900 dark:text-white leading-snug">
+                    {selectedNpc.name} · <span className="text-amber-600">{selectedNpc.role}</span>
+                  </div>
+                  <p className="text-xs sm:text-[13px] text-slate-700 dark:text-slate-200 mt-1.5 leading-relaxed">
+                    {selectedNpc.greeting}
+                  </p>
+                  <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-1.5 leading-relaxed">
+                    {selectedNpc.tip}
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setSelectedNpc(null)}
+                  className="p-1.5 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 cursor-pointer shrink-0"
+                  aria-label="Đóng hộp thoại NPC"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
+              <div className="flex flex-wrap items-center gap-2 pt-1">
+                <button
+                  type="button"
+                  onClick={() => handleNpcAction(selectedNpc.primaryActionId)}
+                  className="px-3.5 py-2 rounded-xl bg-amber-400 hover:bg-amber-500 text-slate-950 text-xs font-black cursor-pointer shadow-xs"
+                >
+                  {selectedNpc.primaryActionLabel}
+                </button>
+                {selectedNpc.secondaryActionId && selectedNpc.secondaryActionLabel && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      if (selectedNpc.secondaryActionId === 'open_travel' || selectedNpc.secondaryActionId === 'open_shop') {
+                        setIsFullscreen(false);
+                      }
+                      handleNpcAction(selectedNpc.secondaryActionId!);
+                    }}
+                    className="px-3.5 py-2 rounded-xl bg-sky-600 hover:bg-sky-700 text-white text-xs font-black cursor-pointer shadow-xs"
+                  >
+                    {selectedNpc.secondaryActionLabel}
+                  </button>
+                )}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* SELECTED PEER MINI PROFILE (Isolated z-50 overlay) */}
+        {selectedPeer && (
+          <div
+            data-interactive="true"
+            onClick={() => setSelectedPeer(null)}
+            className="absolute inset-0 z-50 bg-slate-950/35 backdrop-blur-[1px] flex items-center justify-center p-3"
+          >
+            <div
+              onClick={(e) => e.stopPropagation()}
+              className="w-full max-w-xs max-h-[90%] overflow-y-auto rounded-3xl bg-white dark:bg-slate-900 border-2 border-sky-300 dark:border-slate-700 p-4 shadow-2xl space-y-2.5"
+            >
+              <div className="flex items-start justify-between gap-2">
+                <div className="flex items-center gap-2.5 min-w-0">
+                  <div className="w-11 h-12 rounded-xl bg-slate-100 dark:bg-slate-800 flex items-center justify-center overflow-hidden shrink-0">
+                    <AvatarRenderer config={selectedPeer.avatarConfig} size="thumb" showVehicle={false} showTech={false} showPet={true} />
+                  </div>
+                  <div className="min-w-0">
+                    <div className="text-sm font-black text-slate-900 dark:text-white truncate">
+                      {selectedPeer.alias}
+                    </div>
+                    <div className="text-[11px] font-bold text-indigo-600 dark:text-indigo-400">
+                      Cấp {selectedPeer.level} · {getRankTier(selectedPeer.level).title}
+                    </div>
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setSelectedPeer(null)}
+                  className="p-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer"
+                  aria-label="Đóng thẻ bạn bè"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
+
+              <div className="grid grid-cols-2 gap-2">
+                <button
+                  type="button"
+                  onClick={() => void handleWaveOrHeart(selectedPeer, 'wave')}
+                  className="py-2 px-2.5 rounded-xl bg-amber-100 dark:bg-amber-950/50 hover:bg-amber-200 text-amber-900 dark:text-amber-200 text-xs font-bold flex items-center justify-center gap-1 cursor-pointer"
+                >
+                  <span>Vẫy tay</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => void handleWaveOrHeart(selectedPeer, 'heart')}
+                  className="py-2 px-2.5 rounded-xl bg-rose-100 dark:bg-rose-950/50 hover:bg-rose-200 text-rose-800 dark:text-rose-200 text-xs font-bold flex items-center justify-center gap-1 cursor-pointer"
+                >
+                  <Heart className="w-3.5 h-3.5" /> Thả tim
+                </button>
+              </div>
+
+              {!selectedPeer.id.startsWith('guest:') && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    soundManager.play('click');
+                    if (!canDm) {
+                      setIsFullscreen(false);
+                      onRequireLogin();
+                      return;
+                    }
+                    setDmPeer({ id: selectedPeer.id, alias: selectedPeer.alias });
+                    setDmOpen(true);
+                  }}
+                  className="w-full py-2 px-3 rounded-xl bg-blue-100 dark:bg-blue-950/50 hover:bg-blue-200 text-blue-800 dark:text-blue-200 text-xs font-black flex items-center justify-center gap-1.5 cursor-pointer"
+                >
+                  <MessageCircle className="w-3.5 h-3.5" /> Nhắn riêng &amp; Kết bạn
+                </button>
+              )}
+
+              <div className="grid grid-cols-2 gap-2">
+                <button
+                  type="button"
+                  onClick={() => {
+                    soundManager.play('click');
+                    setSelectedPeer(null);
+                    setIsTugOfWarOpen(true);
+                  }}
+                  className="py-2 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-[11px] font-black flex items-center justify-center gap-1 cursor-pointer"
+                >
+                  <Users className="w-3.5 h-3.5" /> Rủ Kéo Co
+                </button>
+                <button
+                  type="button"
+                  onClick={() => void handleBlockPeer(selectedPeer)}
+                  className="py-2 px-2 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-rose-100 text-rose-600 text-[11px] font-bold flex items-center justify-center gap-1 cursor-pointer"
+                >
+                  <Ban className="w-3.5 h-3.5" /> Chặn
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* NPC Vui-Bot Daily City Trivia Overlay */}
+        {isTriviaOpen && (
+          <div
+            data-interactive="true"
+            onClick={(e) => e.stopPropagation()}
+            className="absolute inset-0 z-50 bg-slate-950/65 backdrop-blur-xs flex items-center justify-center p-3"
+          >
+            <div className="bg-white dark:bg-slate-900 rounded-3xl max-w-md w-full max-h-[90%] overflow-y-auto p-4 sm:p-5 shadow-2xl border border-slate-200 dark:border-slate-700 space-y-3.5">
+              <div className="flex items-start justify-between gap-2">
+                <div className="flex items-center gap-2">
+                  <div className="w-11 h-11 rounded-xl bg-sky-50 dark:bg-slate-800 border border-blue-200 dark:border-slate-700 flex items-center justify-center shrink-0 p-0.5">
+                    <VuiBotMascot
+                      expression="surprised"
+                      motion="none"
+                      showBlinkGlint={false}
+                      className="w-10 h-10"
+                      alt="Vui-Bot"
+                    />
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-black text-slate-900 dark:text-white">
+                      Đố Vui Địa Danh: {currentCity.shortName}
+                    </h3>
+                    <p className="text-[11px] text-slate-500">
+                      Trả lời đúng nhận +3 Xu & +10 XP mỗi ngày
+                    </p>
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setIsTriviaOpen(false)}
+                  className="p-1.5 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
+
+              <p className="text-sm font-bold text-slate-800 dark:text-slate-100 leading-relaxed">
+                {currentCity.trivia.question}
+              </p>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                {currentCity.trivia.options.map((opt, idx) => {
+                  const isCorrectOpt = idx === currentCity.trivia.correctIndex;
+                  const isPicked = triviaPicked === idx;
+                  return (
+                    <button
+                      key={opt}
+                      type="button"
+                      disabled={triviaStatus !== 'idle' || triviaBusy}
+                      onClick={() => void handleAnswerTrivia(idx)}
+                      className={`p-2.5 rounded-xl border text-left text-xs font-bold transition-colors cursor-pointer ${
+                        triviaStatus === 'idle'
+                          ? 'border-slate-200 dark:border-slate-700 hover:bg-indigo-50 dark:hover:bg-indigo-950/40'
+                          : isCorrectOpt
+                          ? 'border-emerald-500 bg-emerald-50 dark:bg-emerald-950/50 text-emerald-800 dark:text-emerald-200'
+                          : isPicked
+                          ? 'border-rose-500 bg-rose-50 dark:bg-rose-950/50 text-rose-800 dark:text-rose-200'
+                          : 'border-slate-200 dark:border-slate-800 opacity-50'
+                      }`}
+                    >
+                      {opt}
+                    </button>
+                  );
+                })}
+              </div>
+
+              {triviaNotice && (
+                <div
+                  className={`p-3 rounded-2xl text-xs font-bold flex items-center gap-2 ${
+                    triviaStatus === 'correct'
+                      ? 'bg-emerald-50 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-200 border border-emerald-200 dark:border-emerald-800'
+                      : 'bg-rose-50 dark:bg-rose-950/40 text-rose-800 dark:text-rose-200 border border-rose-200 dark:border-rose-800'
+                  }`}
+                >
+                  <CoinIcon className="w-4 h-4 shrink-0" />
+                  <span>{triviaNotice}</span>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
       </div>
+
+      {/* BOTTOM COLLAPSIBLE LOBBY CHAT & QUICK CHAT PANEL (Full Width Below Game Stage) */}
+      {!isFullscreen && (
+        <div
+          ref={chatSectionRef}
+          className="rounded-2xl sm:rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-3 sm:p-4 shadow-xs space-y-3"
+        >
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <div className="flex flex-wrap items-center gap-2">
+              <MessageCircle className="w-4 h-4 text-blue-600" />
+              <h2 className="text-xs sm:text-sm font-black text-slate-900 dark:text-white">
+                Trò Chuyện Sảnh &amp; Chat Nhanh
+              </h2>
+              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-950/50 text-emerald-700 dark:text-emerald-300 text-[10px] font-bold border border-emerald-200 dark:border-emerald-800">
+                <ShieldCheck className="w-3 h-3" /> Lọc An Toàn
+              </span>
+              <span className="hidden sm:inline-flex items-center gap-1 text-[11px] text-slate-500 dark:text-slate-400">
+                · Đã đi: <b className="text-slate-800 dark:text-slate-200">{(hubState?.total_km ?? 0).toLocaleString('vi-VN')} km</b>
+              </span>
+            </div>
+
+            <div className="flex items-center gap-1.5">
+              <button
+                type="button"
+                onClick={() => {
+                  if (!canDm) {
+                    onRequireLogin();
+                    return;
+                  }
+                  setDmPeer(null);
+                  setDmOpen(true);
+                }}
+                className="relative inline-flex items-center gap-1 px-2.5 py-1 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-[11px] font-black cursor-pointer"
+              >
+                <MessageCircle className="w-3.5 h-3.5" /> Hộp thư
+                {dmUnread > 0 && (
+                  <span className="absolute -top-1.5 -right-1.5 min-w-4 h-4 px-1 rounded-full bg-rose-500 text-[10px] flex items-center justify-center">
+                    {dmUnread}
+                  </span>
+                )}
+              </button>
+
+              <button
+                type="button"
+                onClick={() => setIsChatDrawerOpen((v) => !v)}
+                className="px-2.5 py-1 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 text-[11px] font-bold flex items-center gap-1 cursor-pointer"
+              >
+                {isChatDrawerOpen ? (
+                  <>
+                    <ChevronUp className="w-3.5 h-3.5" /> Thu gọn
+                  </>
+                ) : (
+                  <>
+                    <ChevronDown className="w-3.5 h-3.5" /> Mở rộng
+                  </>
+                )}
+              </button>
+            </div>
+          </div>
+
+          {isChatDrawerOpen && (
+            <div className="grid grid-cols-1 md:grid-cols-12 gap-3 pt-2 border-t border-slate-100 dark:border-slate-800">
+              {/* Left: Message History */}
+              <div className="md:col-span-6 h-44 overflow-y-auto space-y-1.5 pr-1 text-xs">
+                <div className="p-2 rounded-2xl bg-indigo-50/70 dark:bg-indigo-950/30 border border-indigo-100 dark:border-indigo-900/50 text-indigo-800 dark:text-indigo-200 text-[11px] leading-relaxed">
+                  Chào mừng đến <b>{currentCity.shortName}</b>! Chạm vào sân để di chuyển, bấm vào NPC để chơi mini-game &amp; trò chuyện lịch sự nhé.
+                </div>
+
+                {loadingMsgs && (
+                  <div className="flex items-center gap-2 text-slate-400 py-1">
+                    <Loader2 className="w-3.5 h-3.5 animate-spin" /> Đang tải tin nhắn...
+                  </div>
+                )}
+
+                {messages
+                  .filter((m) => !blockedSet.has(m.student_id))
+                  .map((m) => {
+                    const isMine = m.student_id === student.id;
+                    return (
+                      <div
+                        key={m.id}
+                        className={`group p-2 rounded-2xl border ${
+                          isMine
+                            ? 'bg-blue-50 dark:bg-blue-950/40 border-blue-200 dark:border-blue-800/70'
+                            : 'bg-slate-50 dark:bg-slate-800/60 border-slate-200 dark:border-slate-700/70'
+                        }`}
+                      >
+                        <div className="flex items-center justify-between gap-2 mb-0.5">
+                          <div className="flex items-center gap-1.5 min-w-0">
+                            <span className="font-black text-slate-900 dark:text-white truncate">
+                              {m.sender_alias}
+                            </span>
+                            <span className="px-1.5 py-0.2 rounded-md bg-slate-200 dark:bg-slate-700 text-[10px] font-bold text-slate-700 dark:text-slate-200">
+                              Cấp {m.sender_level}
+                            </span>
+                          </div>
+                          {!isMine && !reportedIds[m.id] && (
+                            <button
+                              type="button"
+                              onClick={() => void handleReportMessage(m.id)}
+                              className="opacity-60 hover:opacity-100 text-rose-500 p-0.5 cursor-pointer"
+                              title="Báo cáo tin nhắn không phù hợp"
+                              aria-label="Báo cáo tin nhắn"
+                            >
+                              <Flag className="w-3 h-3" />
+                            </button>
+                          )}
+                          {reportedIds[m.id] && (
+                            <span className="text-[10px] text-rose-500 font-bold">Đã báo cáo</span>
+                          )}
+                        </div>
+                        <p className="text-slate-700 dark:text-slate-200 break-words leading-snug">
+                          {m.body}
+                        </p>
+                      </div>
+                    );
+                  })}
+                <div ref={chatEndRef} />
+              </div>
+
+              {/* Right: Quick Chat & Free Input */}
+              <div className="md:col-span-6 space-y-2 flex flex-col justify-between">
+                <div className="grid grid-cols-2 gap-1 p-1 rounded-xl bg-slate-100 dark:bg-slate-800 text-[11px] font-bold">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setChatTab('quick');
+                      setChatError('');
+                    }}
+                    className={`py-1 rounded-lg flex items-center justify-center gap-1 cursor-pointer transition-colors ${
+                      chatTab === 'quick'
+                        ? 'bg-white dark:bg-slate-900 text-blue-600 shadow-xs'
+                        : 'text-slate-500'
+                    }`}
+                  >
+                    <Smile className="w-3.5 h-3.5" /> Chat Nhanh
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setChatTab('free');
+                      setChatError('');
+                    }}
+                    className={`py-1 rounded-lg flex items-center justify-center gap-1 cursor-pointer transition-colors ${
+                      chatTab === 'free'
+                        ? 'bg-white dark:bg-slate-900 text-blue-600 shadow-xs'
+                        : 'text-slate-500'
+                    }`}
+                  >
+                    <MessageCircle className="w-3.5 h-3.5" /> Gõ Tự Do
+                  </button>
+                </div>
+
+                {chatError && (
+                  <div className="px-2.5 py-1.5 rounded-xl bg-rose-50 dark:bg-rose-950/50 border border-rose-200 dark:border-rose-800 text-rose-700 dark:text-rose-300 text-[11px] font-semibold">
+                    {chatError}
+                  </div>
+                )}
+
+                {chatTab === 'quick' ? (
+                  <div className="space-y-1.5">
+                    <div className="flex flex-wrap gap-1.5">
+                      {EMOTE_STICKERS.map((em) => (
+                        <button
+                          key={em.id}
+                          type="button"
+                          disabled={sending}
+                          onClick={() => void handleSendMessage('emote', `${em.symbol} ${em.label}`, em.symbol)}
+                          className="px-2 py-1 rounded-xl bg-amber-50 dark:bg-amber-950/40 hover:bg-amber-100 border border-amber-200 dark:border-amber-800 text-xs font-bold flex items-center gap-1 cursor-pointer active:scale-95"
+                        >
+                          <span>{em.symbol}</span>
+                          <span className="text-[10px] text-amber-900 dark:text-amber-200">{em.label}</span>
+                        </button>
+                      ))}
+                    </div>
+                    <div className="flex flex-wrap gap-1.5">
+                      {QUICK_CHAT_PRESETS.map((q) => (
+                        <button
+                          key={q.label}
+                          type="button"
+                          disabled={sending}
+                          onClick={() => void handleSendMessage('quick', q.text)}
+                          className="px-2.5 py-1 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-blue-950/40 border border-slate-200 dark:border-slate-700 text-[11px] font-semibold text-slate-800 dark:text-slate-200 cursor-pointer active:scale-95"
+                        >
+                          {q.label}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                ) : student.isGuest ? (
+                  <button
+                    type="button"
+                    onClick={onRequireLogin}
+                    className="w-full py-2.5 px-3 rounded-xl bg-amber-400 hover:bg-amber-500 text-slate-950 text-xs font-black cursor-pointer"
+                  >
+                    Đăng nhập 10 giây để mở khóa Chat Tự Do
+                  </button>
+                ) : (
+                  <form
+                    onSubmit={(e) => {
+                      e.preventDefault();
+                      void handleSendMessage('text', draftText);
+                    }}
+                    className="flex items-center gap-2"
+                  >
+                    <input
+                      value={draftText}
+                      onChange={(e) => setDraftText(e.target.value)}
+                      maxLength={90}
+                      placeholder="Nhập tin nhắn..."
+                      className="flex-1 min-w-0 px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-transparent text-xs focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    />
+                    <button
+                      type="submit"
+                      disabled={sending || !draftText.trim()}
+                      className="px-3 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 disabled:opacity-50 text-white text-xs font-bold flex items-center gap-1 cursor-pointer shrink-0"
+                      aria-label="Gửi tin nhắn"
+                    >
+                      {sending ? <Loader2 className="w-4 h-4 animate-spin" /> : <Send className="w-4 h-4" />}
+                    </button>
+                  </form>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+      )}
 
       {/* Văn Miếu Freeplay Modals */}
       {isToyboxOpen && (

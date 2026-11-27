@@ -287,11 +287,11 @@ export const VanMieuOAnQuanModal: React.FC<VanMieuOAnQuanModalProps> = ({
     <div
       data-interactive="true"
       onClick={onClose}
-      className="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-xs flex items-center justify-center p-3 sm:p-4"
+      className="fixed inset-0 z-[90] bg-slate-950/70 backdrop-blur-xs flex items-center justify-center p-2.5 sm:p-4"
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="w-full max-w-2xl rounded-3xl bg-white dark:bg-slate-900 border-2 border-amber-400 dark:border-slate-700 p-4 sm:p-6 shadow-2xl space-y-4 max-h-[92svh] overflow-y-auto"
+        className="w-full max-w-2xl rounded-3xl bg-white dark:bg-slate-900 border-2 border-amber-400 dark:border-slate-700 p-4 sm:p-6 shadow-2xl space-y-4 max-h-[92dvh] overflow-y-auto"
       >
         <div className="flex items-start justify-between gap-3">
           <div>

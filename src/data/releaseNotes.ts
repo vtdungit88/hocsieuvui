@@ -15,6 +15,15 @@ export interface ReleaseNote {
 
 export const RELEASE_NOTES: ReleaseNote[] = [
   {
+    version: '0.2.27',
+    date: '2026-11-27',
+    title: 'Tối ưu giao diện Sảnh Văn Miếu: mở rộng màn hình game, tách lớp không che chữ & hỗ trợ xoay ngang',
+    items: [
+      'Mở rộng màn hình game toàn chiều rộng kèm nút Mở rộng toàn màn hình, bỏ cụm mũi tên góc trái (chạm/click thẳng vào sân để chạy), đưa thanh Trò Chuyện Sảnh xuống dưới có thể thu gọn và tích hợp ô chat nhanh ngay góc dưới sân chơi.',
+      'Sửa triệt để lỗi hộp thoại NPC/bạn bè bị nhân vật hay nhãn vật phẩm che khuất chữ, giãn gọn cụm nút sân chơi dân gian và tối ưu giao diện cho điện thoại dọc, điện thoại xoay ngang và máy tính bảng.'
+    ]
+  },
+  {
     version: '0.2.26',
     date: '2026-11-27',
     title: 'Mở rộng Thế Giới Văn Miếu Freeplay 4 khu vực, thú cưng & trò chơi dân gian',
